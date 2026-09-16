@@ -1,0 +1,37 @@
+name: Build public master mirror
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_source/**'
+      - '.github/workflows/build-master.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild video-prompts.md
+        shell: bash
+        run: |
+          cat _source/part-001.md _source/part-002.md _source/part-003.md _source/part-004.md > video-prompts.md
+
+      - name: Commit generated mirror
+        shell: bash
+        run: |
+          if git diff --quiet -- video-prompts.md; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add video-prompts.md
+          git commit -m "Rebuild public prompt master mirror"
+          git push
