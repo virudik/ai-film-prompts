@@ -10,25 +10,31 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.58 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .layout{display:grid;grid-template-columns:300px minmax(0,1fr);min-height:100vh}.side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);background:var(--panel);padding:18px}.main{min-width:0;padding:28px 34px 80px;max-width:1250px;width:100%;margin:auto}
-.brand{font-weight:800;font-size:18px;margin-bottom:4px}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.search{width:100%;padding:10px 11px;border-radius:9px;border:1px solid var(--line);background:#0e1217;color:var(--text);outline:none;margin-bottom:14px}.search:focus{border-color:var(--accent)}
+.brand{font-weight:800;font-size:18px;margin-bottom:4px}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:7px 6px;border:1px solid var(--line);border-radius:7px;background:#0e1217;color:#cdd7e1}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.search{width:100%;padding:10px 11px;border-radius:9px;border:1px solid var(--line);background:#0e1217;color:var(--text);outline:none;margin-bottom:14px}.search:focus{border-color:var(--accent)}
 #toc{display:flex;flex-direction:column;gap:3px}#toc a{display:block;padding:7px 9px;border-radius:7px;color:#c8d0d8;font-size:13px}#toc a:hover{background:var(--panel2);text-decoration:none;color:white}.empty{color:var(--muted);font-size:13px;padding:6px}
 .topbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line)}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}
 article h1{font-size:30px;margin:0 0 16px}article h2{font-size:23px;margin:42px 0 14px;padding-top:8px;border-top:1px solid var(--line)}article h3{font-size:18px;margin-top:28px}article p,article li{max-width:1000px}article table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:15px 0}article th,article td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}article th{background:var(--panel2);text-align:left}
 pre{position:relative;background:var(--code);border:1px solid var(--line);border-radius:12px;padding:44px 16px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}.copy{position:absolute;right:10px;top:9px;border:1px solid var(--line);background:#151a20;color:#dce5ee;padding:6px 9px;border-radius:7px;cursor:pointer;font-size:12px;opacity:.72}.copy:hover{opacity:1;border-color:#4a5b6f}.copy.done{color:var(--ok)}
 blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;color:#cbd5df}.loading,.error{padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.error{border-color:#6b3f45;color:#ffb7be}
-@media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:42vh}.main{padding:20px 16px 60px}.copy{opacity:1}}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:48vh}.main{padding:20px 16px 60px}.copy{opacity:1}}
 </style>
 </head>
 <body>
 <div class="layout">
   <aside class="side">
     <div class="brand">AI Film Prompts Master</div>
-    <div class="sub">Всегда отображает файл <b>video-prompts.md</b> из этой же папки.</div>
+    <div class="sub">Всегда отображает актуальное публичное зеркало <b>video-prompts.md</b>.</div>
+    <div class="links">
+      <a href="AI-PROJECT-GUIDE.md" target="_blank">Инструкция для ИИ</a>
+      <a href="video-prompts.md" target="_blank">Raw master</a>
+      <a href="film-analysis.md" target="_blank">Карта фильма</a>
+      <a href="film-backlog.md" target="_blank">Backlog</a>
+    </div>
     <input id="search" class="search" placeholder="Найти сцену…" autocomplete="off" />
     <nav id="toc"><div class="empty">Загрузка…</div></nav>
   </aside>
   <main class="main">
-    <div class="topbar"><span class="pill">READ-ONLY VIEW</span><span id="stamp" class="pill">loading</span></div>
+    <div class="topbar"><span class="pill">READ-ONLY PUBLIC MIRROR</span><span id="stamp" class="pill">loading</span></div>
     <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
   </main>
 </div>
@@ -49,7 +55,7 @@ function filter(q){q=q.trim().toLowerCase();[...toc.querySelectorAll('a')].forEa
 search.addEventListener('input',()=>filter(search.value));
 fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(md=>{
   marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);enhance();stamp.textContent='loaded '+new Date().toLocaleString('ru-RU');
-}).catch(e=>{content.innerHTML='<div class="error"><b>Не удалось загрузить video-prompts.md.</b><br>'+e.message+'<br><br>Эта страница должна размещаться рядом с файлом video-prompts.md на обычном веб-хостинге (например GitHub Pages).</div>';toc.innerHTML=''});
+}).catch(e=>{content.innerHTML='<div class="error"><b>Не удалось загрузить video-prompts.md.</b><br>'+e.message+'</div>';toc.innerHTML=''});
 </script>
 </body>
 </html>
