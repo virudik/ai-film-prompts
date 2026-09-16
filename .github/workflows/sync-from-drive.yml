@@ -1,0 +1,60 @@
+name: Sync canonical project files from Google Drive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'SYNC-TRIGGER.txt'
+      - '.github/workflows/sync-from-drive.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: drive-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download current canonical files from Google Drive
+        shell: bash
+        run: |
+          set -euo pipefail
+          download() {
+            local id="$1"
+            local out="$2"
+            curl -L --fail --retry 3 --retry-delay 2 \
+              "https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t" \
+              -o "$out"
+            test -s "$out"
+          }
+
+          download "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj" "video-prompts.md"
+          download "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u" "AI-PROJECT-GUIDE.md"
+          download "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO" "USER-GUIDE.md"
+          download "1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M" "film-analysis.md"
+          download "1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9" "film-backlog.md"
+          download "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX" "README-AI-SYNC.md"
+
+      - name: Commit only when files changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add video-prompts.md AI-PROJECT-GUIDE.md USER-GUIDE.md film-analysis.md film-backlog.md README-AI-SYNC.md
+          if git diff --cached --quiet; then
+            echo "No changes to sync."
+            exit 0
+          fi
+          git commit -m "Sync canonical project files from Google Drive"
+          git push
