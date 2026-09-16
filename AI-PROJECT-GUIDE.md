@@ -1,6 +1,6 @@
 # AI Film Project — Start Here
 
-This file explains how ChatGPT, Work, Claude, Gemini, and other AI tools should use the shared prompt master and project context.
+This file explains how ChatGPT, Work, Claude, Gemini, DeepSeek, Grok, and other AI tools should use the shared prompt master and project context.
 
 ## 1. Canonical source of truth
 
@@ -20,6 +20,8 @@ The public GitHub copy is a read-only mirror for external AI review:
 Do not create parallel masters such as `video-prompts-final.md`, `video-prompts-2.md`, `final-final`, etc.
 
 `video-prompts.html` and the GitHub Pages viewer are generated/read-only views. They are never the editing source.
+
+Before suggesting or starting a generation, check the top status section in `video-prompts.md`. Any scene marked **⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ / DO NOT RELAUNCH** is already running and must not be submitted again unless the user explicitly says the previous run failed or authorizes a rerun.
 
 ## 2. Project-context files
 
@@ -96,22 +98,30 @@ For a small single-prompt rewrite or reference-image adjustment, normal ChatGPT 
 
 By default Work should propose changes to `video-prompts.md`, not create a second master. If Work is explicitly told to edit the Drive master, it must edit that same file in place and report exactly what changed. After a Work-side edit, the public GitHub mirror may need resynchronization by ChatGPT; the user can simply say: `Work обновил мастер — синхронизируй зеркала.` No file attachment is required.
 
-### Claude / Gemini / other AI tools
+### Claude / Gemini / DeepSeek / Grok / other AI tools
 
-Default mode is REVIEW ONLY.
+Default mode for every external AI is **REVIEW ONLY** unless the user explicitly appoints that AI as the current editor. All of them must read this guide and the current raw `video-prompts.md` before giving project-specific advice.
 
-They should:
+Project roles:
+- **Claude — editorial/coherence reviewer.** Check long prompt structure, scene logic, clarity, consistency, pacing, and whether a rewrite preserves the user's intent. Return concrete edits, not a competing master.
+- **Gemini — independent prompt + visual-reference reviewer.** Review the requested scene against the provided images/video references, prompt instructions, and film context when supplied. Do not build a website/app just because a project URL was provided; first read the linked guide/master and answer the user's actual review request.
+- **DeepSeek — technical prompt auditor.** Look specifically for contradictions, impossible timing, camera/action conflicts, reference-priority mistakes, model-unfriendly overload, continuity gaps, negative-prompt problems, and opportunities to make constraints more explicit. Return a precise patch or replacement block.
+- **Grok — creative/comedy/pacing reviewer.** Act as a second opinion on punchlines, deadpan timing, scene energy, dialogue rhythm, cinematic escalation, and alternative ideas while respecting established characters and continuity. Do not replace the canonical story with unrelated improvisation.
+- **Other AI tools — general review role.** Read the same files, state what you are reviewing, and return suggestions tied to exact scene numbers/names.
+
+All external AIs should:
 1. open this guide;
 2. read the public raw `video-prompts.md`;
 3. optionally read `film-analysis.md` / `film-backlog.md` if the question needs story/continuity context;
 4. inspect the actual reference images if the question is visual;
 5. return suggestions tied to exact scene numbers/names;
 6. not create a competing master file;
-7. not change unrelated scenes.
+7. not change unrelated scenes;
+8. never assume a project URL means “build a new site” — follow the user's explicit task first.
 
 Suggested instruction to another AI:
 
-> Read the project guide and the current prompt master from the linked files. Work in review-only mode. For the scene I ask about, identify the exact scene number/name, explain any issue, and return either a precise patch or a full replacement prompt. Do not rewrite unrelated scenes and do not create a new master file. If your recommendation depends on character appearance, tell me which reference images you need to see.
+> Read the project guide and the current prompt master from the linked files. Find the section that defines your role (Claude, Gemini, DeepSeek, Grok, or general reviewer) and follow it. Work in review-only mode. For the scene I ask about, identify the exact scene number/name, explain any issue, and return either a precise patch or a full replacement prompt. Do not rewrite unrelated scenes and do not create a new master file. If your recommendation depends on character appearance, tell me which reference images you need to see.
 
 ## 5. How much context to give another AI
 
