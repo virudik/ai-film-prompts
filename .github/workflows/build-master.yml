@@ -26,7 +26,7 @@ jobs:
       - name: Commit generated mirror
         shell: bash
         run: |
-          if git diff --quiet -- video-prompts.md; then
+          if [ -z "$(git status --porcelain -- video-prompts.md)" ]; then
             echo "No changes"
             exit 0
           fi
