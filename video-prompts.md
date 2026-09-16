@@ -4,24 +4,37 @@
 
 **Канонический источник:** `video-prompts.md`. Это единственный редактируемый мастер; `video-prompts.html` генерируется из него автоматически и вручную не редактируется.
 
-**Ревизия:** 2026-09-16 · 15 сцен · 17 полных текстов промтов.
+**Ревизия:** 2026-09-16 · 15 сцен · 17 полных текстов промтов · сцены 13–15 переведены на 30 секунд.
 
 Синхронизация 16 сентября 2026: фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 15 сцен и 17 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+
+## ⏳ Сейчас в медленной генерации — НЕ ЗАПУСКАТЬ ПОВТОРНО
+
+На 16 сентября 2026 уже запущены и могут считаться несколько дней: **сцены 2, 6, 8 и 12**. Пока не получен результат или явная ошибка генерации, **не отправлять эти сцены повторно**, даже если их промты остаются в активном мастер-файле.
+
+| Сцена | Статус | Действие |
+|---|---|---|
+| 2 — Джедаи на крыше: триумфальный марш без мечей | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+| 6 — Подводный рынок: странный фрукт | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+| 8 — Кашиик: спор на мосту | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+| 12 — Кантина: вход двух джедаев | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+
+Статус снимается только после результата/ошибки или отдельного решения пользователя о новом запуске.
 
 | # | Сцена | Референсы | Что происходит |
 |---|-------|-----------|-----------------|
 | 1 | [Джедаи на крыше — проход с зажжёнными мечами](#scene-1) | @image1 = окружение/строй/позы с мечами; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Шесть джедаев синхронно идут на камеру по мокрой крыше Корусанта с уже зажжёнными мечами. Два актуальных варианта: кинематографичный и максимально стабильный. |
-| 2 | [Джедаи на крыше — триумфальный марш без мечей](#scene-2) | @image1 = окружение/строй; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Та же шестёрка идёт на камеру без оружия под эпическую оркестровую музыку. Два актуальных варианта: кинематографичный и максимально стабильный. |
+| 2 | ⏳ [Джедаи на крыше — триумфальный марш без мечей](#scene-2) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = окружение/строй; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Та же шестёрка идёт на камеру без оружия под эпическую оркестровую музыку. Два актуальных варианта: кинематографичный и максимально стабильный. |
 | 3 | [Космическая погоня — экстерьер](#scene-3) | @image1 = стартовый космический кадр; @image2 = дизайн корабля | Транспорт уже находится в разгаре боя, уклоняется от истребителей; камера сближается с кабиной и заканчивает сцену вспышкой у стекла. |
 | 4 | [Космическая погоня — интерьер кабины](#scene-4) | @image3 = первый кадр/экипаж; @image4 = точный последний кадр/пилот | Прямое продолжение боя внутри кабины: камера постепенно приближается к пилоту и приходит к точной композиции @image4. |
 | 5 | [Космическая погоня — единый дубль через стекло](#scene-5) | @image1 = первый кадр; @image2 = корабль; @image3 = интерьер; @image4 = последний кадр | Альтернатива сценам 3–4: внешний космический бой → непрерывный пролёт камеры через стекло → интерьер кабины → точный финальный кадр. |
-| 6 | [Подводный рынок — странный фрукт](#scene-6) | @image1 = локация/освещение; @image2 = JEDI-A; @image3 = JEDI-B | Два джедая гуляют по подводному базару, находят странный светящийся фрукт, пробуют его; финал — комедийная реакция без диалога. |
+| 6 | ⏳ [Подводный рынок — странный фрукт](#scene-6) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = локация/освещение; @image2 = JEDI-A; @image3 = JEDI-B | Два джедая гуляют по подводному базару, находят странный светящийся фрукт, пробуют его; финал — комедийная реакция без диалога. |
 | 7 | [Канцлер — зеркало в туалете](#scene-7) | @image1 = Канцлер; @image2 = туалет/освещение; @image3 = состаренное отражение | Канцлер моет руки, видит в зеркале состаренную версию себя, пугается; при втором взгляде отражение снова нормальное. |
-| 8 | [Кашиик — спор на мосту](#scene-8) | @image1 = Black; @image2 = Purple | Два джедая идут по подвесному мосту к лесной деревне и спорят, где искать информатора и знает ли Black язык вуки. |
+| 8 | ⏳ [Кашиик — спор на мосту](#scene-8) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = Black; @image2 = Purple | Два джедая идут по подвесному мосту к лесной деревне и спорят, где искать информатора и знает ли Black язык вуки. |
 | 9 | [Пещера — бой с монстром](#scene-9) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = монстр/пещера | Трое бойцов продолжают сражение с гигантским ящером в пещере; финал — победа над существом. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
-| 12 | [Кантина — вход двух джедаев](#scene-12) | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
+| 12 | ⏳ [Кантина — вход двух джедаев](#scene-12) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
 | 13 | [Совет джедаев — говорящий кот](#scene-13) | @image1 = композиция/локация; @image2 = кот; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
 | 14 | [Канцлер — сбор грибов в гигантском лесу](#scene-14) | @image3 = Chancellor | Канцлер с неожиданным энтузиазмом ищет и собирает грибы среди колоссальных древних деревьев; визуально сцена серьёзная, юмор сухой и контрастный. |
 | 15 | [Кашиик — сверхбыстрые прыжки между деревьями](#scene-15) | @image4 = Black; @image5 = Purple | Те же лесные джедаи на огромной скорости пересекают гигантский лес, отталкиваясь от стволов и ветвей, выполняя длинные контролируемые прыжки без мультяшной стилизации. |
@@ -257,6 +270,8 @@ Negative prompt: face swap, face duplication, merged characters, missing charact
 <a id="scene-2"></a>
 
 ## Сцена 2 — Джедаи на крыше: триумфальный марш без мечей
+
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
 
 **Контекст использования:** Сверка: варианты A/B — на выбор. Согласовать использование со сценой 1, чтобы не добавлять два одинаковых по функции марша (P2).
 
@@ -539,6 +554,8 @@ Negative prompt: camera cut or hard edit, glass shattering, glass vanishing inst
 
 ## Сцена 6 — Подводный рынок: странный фрукт
 
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
+
 **Контекст использования:** Перед запуском требуется одно постановочное уточнение: ACTION задаёт single continuous take, а CAMERA — hard cut, insert и смены планов. Выбор ещё не сделан; полный текст сохранён. Наличие рынка в фильме не подтверждает готовность именно фруктовой шутки (P6).
 
 **Референсы:** @image1 = подводный рынок и освещение · @image2 = JEDI-A, мужчина в тёмно-синем костюме · @image3 = JEDI-B, бородатый мужчина в очках и тёмно-бордовой робе
@@ -647,6 +664,8 @@ mirror frame, no glitching background fixtures.
 <a id="scene-8"></a>
 
 ## Сцена 8 — Кашиик: спор на мосту
+
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
 
 **Контекст использования:** Сверка: в актуальном тексте Black утверждает, что знает язык, Purple сомневается. Отличающееся распределение ролей в старом Notion не переносить. Привязать к подходу к лесному информатору в части 2 / 23:40–25:25 (P8).
 
@@ -877,6 +896,8 @@ NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual wo
 
 ## Сцена 12 — Кантина: вход двух джедаев
 
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
+
 **Контекст использования:** Сверка: вход в кантину уже есть по сюжетной функции. Перед генерацией проверить, нужен ли именно этот дубль как замена существующему входу (P12).
 
 **Референсы:** @Image1 = точный стартовый кадр со спины · @Image2 = Hooded Jedi · @Image3 = Bearded Jedi · @Image4 = зал кантины
@@ -923,14 +944,14 @@ NEGATIVE PROMPT: characters speaking, subtitles, text on screen, camera cuts or 
 
 ## Сцена 13 — Совет джедаев: говорящий кот
 
-**Контекст использования:** Новый активный промт на основе бывшей W4. Использовать как короткий финальный комедийный бит после того, как решение Совета уже принято. В кадре сидят те же Black и Purple, которые участвуют в лесной линии; их модель-шиты используются как первичные референсы идентичности.
+**Контекст использования:** Новый активный промт на основе бывшей W4. 30-секундный deadpan-бит после того, как решение Совета уже принято; лишнее затем можно укоротить на монтаже. В кадре сидят те же Black и Purple, которые участвуют в лесной линии; их модель-шиты используются как первичные референсы идентичности.
 
 **Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = точная внешность кота · @image4 = Black, первичный референс лица/телосложения/костюма · @image5 = Purple, первичный референс лица/телосложения/костюма
 
-**Что происходит:** Black спокойно сидит слева и курит кальян. Purple сидит справа с котом на коленях и слегка поглаживает его. После короткой паузы кот поднимает голову и совершенно серьёзно говорит человеческим голосом: «Полностью с вами согласен, коллеги. Так и поступим». Оба джедая почти не реагируют, будто говорящий кот — обычный участник Совета.
+**Что происходит:** Black спокойно сидит слева и курит кальян. Purple сидит справа с котом на коленях и неторопливо его гладит. Сначала сцена несколько секунд живёт как совершенно серьёзный спокойный финал заседания. Затем кот постепенно становится внимательнее, поднимает голову и совершенно буднично человеческим голосом говорит: «Полностью с вами согласен, коллеги. Так и поступим». После реплики выдерживается длинная сухая пауза: Black лишь переводит взгляд на кота, Purple слегка кивает и продолжает его гладить, а кот снова устраивается на коленях, будто только что высказался обычный член Совета.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCES:
 @image1 — PRIMARY composition / environment reference: two seated Jedi in large armchairs inside a futuristic high-rise council lounge, panoramic golden city skyline behind them, hookahs in frame, cat resting on the right character's lap. Preserve the overall seating arrangement, camera axis, furniture placement, warm sunset lighting, and relaxed council atmosphere.
@@ -942,54 +963,60 @@ REFERENCE PRIORITY:
 Use @image4 and @image5 for the two men's exact identities and costumes. Use @image2 for the cat's exact identity. Use @image1 for composition, seating, hookahs, environment, lighting, and overall mood. Do not let @image1 average or alter the faces from the character model sheets.
 
 SCENE:
-A short deadpan insert at the end of a Jedi Council discussion. BLACK and PURPLE sit exactly as established in @image1. BLACK casually smokes the hookah. PURPLE has the cat resting comfortably across his lap and gently strokes its back once or twice. Everything is calm, serious, and cinematic. The humor must come entirely from the fact that nobody finds the speaking cat unusual.
+A slow, completely deadpan 30-second insert at the end of a Jedi Council discussion. BLACK and PURPLE sit exactly as established in @image1. BLACK casually smokes the hookah. PURPLE has the cat resting comfortably across his lap and gently strokes its back. Nothing is rushed. For the first half of the shot the scene should feel like an ordinary, serious council pause. The humor comes only when the realistic cat calmly joins the discussion in a human voice and both Jedi accept this as routine.
 
 TIMELINE:
-[0:00–0:04]
-Stable medium-wide two-shot matching @image1. BLACK slowly inhales from the hookah. PURPLE sits relaxed with one hand resting naturally on the cat. The cat is calm and still. Warm sunset light fills the room; distant air traffic moves softly outside the panoramic window.
+[0:00–0:06]
+Stable medium-wide two-shot matching @image1. Hold the composition long enough to establish the absurdly serious calm. BLACK slowly inhales from the hookah. PURPLE sits relaxed with one hand resting on the cat. The cat lies naturally across his lap, blinking once. Warm sunset light fills the room; distant air traffic glides behind the panoramic window.
 
-[0:04–0:08]
-BLACK exhales a thin cloud of smoke. PURPLE gives the cat one slow natural stroke. The cat lifts its head slightly and looks forward with quiet, intelligent attention. Camera begins an almost imperceptible slow push-in, but keeps both men and the cat clearly visible.
+[0:06–0:12]
+BLACK exhales a thin, realistic cloud of smoke that drifts upward and catches the backlight. PURPLE gives the cat one slow natural stroke from shoulders toward the back. The cat's ears make a small natural adjustment, then it turns its eyes toward BLACK for a moment and back toward the room. No one speaks. Let the silence feel deliberate rather than empty.
 
-[0:08–0:12]
-The cat speaks clearly in natural Russian with restrained, believable feline mouth movement synchronized to the line. It does NOT become anthropomorphic, stand up, gesture, or change anatomy.
+[0:12–0:17]
+The camera continues an almost imperceptible slow push-in while keeping both men and the cat clearly visible. The cat gradually lifts its head and straightens slightly on PURPLE's lap, becoming attentive as if preparing to contribute. BLACK lowers the hookah mouthpiece. PURPLE remains completely serious and does not look surprised.
+
+[0:17–0:22]
+The cat looks forward and speaks clearly in natural Russian with restrained, believable feline mouth movement synchronized to the line. It does NOT become anthropomorphic, stand up, gesture, or change anatomy.
 CAT: «Полностью с вами согласен, коллеги. Так и поступим».
+Deliver the line calmly, evenly and matter-of-factly, like an experienced council member concluding a discussion.
 
-[0:12–0:15]
-Deadpan reaction beat. BLACK pauses for half a second with the hookah mouthpiece in hand and glances slightly toward the cat. PURPLE remains completely composed and gives the cat another small stroke as if this happens every day. The cat calmly settles back down. No exaggerated reaction and no punchline music.
+[0:22–0:26]
+Hold the silence after the line. BLACK pauses with the hookah mouthpiece in hand and slowly shifts only his eyes, then his head slightly toward the cat. His expression stays serious and almost bored — no shock. PURPLE looks ahead, composed, as though the statement was expected.
+
+[0:26–0:30]
+PURPLE gives one tiny approving nod, then resumes gently stroking the cat. The cat blinks, lowers its head and settles comfortably back into his lap. BLACK calmly returns the hookah mouthpiece toward himself. End on the same relaxed council atmosphere, with the joke played completely straight. No punchline music and no exaggerated reaction.
 
 CAMERA:
-Single continuous shot. Physically stable cinematic camera, controlled inertia, no random jitter or micro-shake. Begin as the reference two-shot and use only a very slow subtle push-in. No cuts, no sudden reframing, no close-up that removes either man from the shot.
+Single continuous shot. Physically stable cinematic camera, controlled inertia, no random jitter or micro-shake. Begin as the reference two-shot and use only a very slow subtle push-in over the full 30 seconds. No cuts, no sudden reframing, no close-up that removes either man from the shot. The cat must remain readable during the spoken line.
 
 PERFORMANCE:
-BLACK: relaxed, almost bored, restrained natural breathing, minimal eye movement, no dialogue.
-PURPLE: calm, serious, gently affectionate toward the cat, no surprise, no dialogue.
-CAT: remains a realistic domestic cat. Natural blinking, subtle ear movement and head lift. During speech, use only minimal realistic jaw/muzzle motion necessary for understandable lip synchronization; no human lips, no exaggerated mouth opening.
+BLACK: relaxed, almost bored, restrained natural breathing, minimal eye/head movement, no dialogue. His reaction after the cat speaks is intentionally tiny.
+PURPLE: calm, serious, gently affectionate toward the cat, no surprise, no dialogue. One subtle approving nod near the end is allowed.
+CAT: remains a realistic domestic cat. Natural blinking, ear movement, head lift and settling. During speech, use only minimal realistic jaw/muzzle motion necessary for understandable lip synchronization; no human lips, no exaggerated mouth opening.
 
 STYLE / LIGHTING:
 Photorealistic live-action cinematic sci-fi. Warm golden sunset backlight, soft atmospheric haze, realistic hookah smoke, subtle reflections on metal and glass, moderate depth of field so both human faces and the cat remain readable. Preserve spatial continuity and furniture geometry throughout.
 
 AUDIO (native):
-Quiet futuristic council-room ambience, distant city traffic through the glass, soft hookah bubbling, a gentle exhale of smoke, very subtle cloth/fur movement. The cat speaks one clear Russian line with a calm, matter-of-fact human voice: «Полностью с вами согласен, коллеги. Так и поступим». No subtitles. No music.
+Quiet futuristic council-room ambience, distant city traffic through the glass, soft hookah bubbling, a gentle exhale of smoke, very subtle cloth/fur movement. Preserve the long quiet beats before and after the joke. The cat speaks one clear Russian line with a calm, matter-of-fact human voice: «Полностью с вами согласен, коллеги. Так и поступим». No subtitles. No music.
 
 NEGATIVE PROMPT:
 identity drift, face swap, face duplication, costume swap, missing mustache, wrong body shape, different cat markings, changing cat eye color, anthropomorphic cat body, cat standing like a human, human lips on cat, exaggerated cartoon mouth, distorted muzzle, extra limbs, duplicated cat, warped hands, extra fingers, hookah geometry morphing, furniture moving, skyline warping, extra characters entering frame, subtitles, text, logos, watermark, exaggerated acting, slapstick reaction, camera shake, hard cuts, cartoon, anime, game-render look.
 ```
-
 ---
 
 <a id="scene-14"></a>
 
 ## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
 
-**Контекст использования:** Новый активный промт на основе бывшей W2. Предполагаемая функция — короткая серьёзно снятая комедийная вставка перед/внутри лесной линии: пока другие персонажи ищут опасного Канцлера, он с неожиданным искренним энтузиазмом занят грибами.
+**Контекст использования:** Новый активный промт на основе бывшей W2. 30-секундная серьёзно снятая комедийная вставка перед/внутри лесной линии: пока другие персонажи ищут опасного Канцлера, он с неожиданным искренним энтузиазмом занят грибами. Излишки затем можно сократить на монтаже.
 
 **Референсы:** @image3 = Chancellor, точный модель-шит лица, телосложения и тёмно-фиолетовой мантии. Лес задаётся текстом: огромные древние деревья, густой влажный подлесок, масштаб почти монументальный.
 
-**Что происходит:** Канцлер один идёт по колоссальному лесу с небольшой корзиной, внимательно изучает землю, замечает грибы у гигантского корня, с явным интересом присаживается, рассматривает их и бережно собирает несколько штук. Вся сцена играется абсолютно серьёзно; юмор рождается из контраста с его обычным пафосом.
+**Что происходит:** Канцлер один идёт по колоссальному лесу с небольшой корзиной, внимательно изучает землю, замечает первую группу грибов у гигантского корня, почти научно осматривает их и бережно собирает. Затем он замечает ещё более интересный гриб глубже между корнями, быстро, но всё ещё серьёзно перебирается к нему, сравнивает находки, складывает добычу в корзину и в конце снова видит что-то перспективное впереди и уходит глубже в лес.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCE:
 @image3 — PRIMARY exact character identity reference for THE CHANCELLOR: pale middle-aged-to-older man, bald on top with thin pale blond hair around the sides and back, pale blue-grey eyes, heavy facial structure, wearing a long deep-purple / black-purple hooded robe with layered dark fabric. Preserve his exact face, age, build, hair pattern, robe design, robe color, and proportions throughout.
@@ -1000,48 +1027,53 @@ A vast ancient forest on a giant-tree world. Tree trunks are enormous, wider tha
 The scene is intentionally funny but must be performed and photographed with absolute seriousness. The Chancellor is not behaving like a clown. He is genuinely, almost scholarly, delighted by mushroom hunting and gives the task the same focused importance he would give to a strategic military operation.
 
 TIMELINE:
-[0:00–0:04]
+[0:00–0:06]
 Wide cinematic tracking shot. The Chancellor walks slowly through the colossal forest carrying a small simple woven basket in his left hand. He studies the ground with intense concentration, occasionally moving aside a fern with his free hand. His purple robe brushes naturally against moss and low vegetation. The giant trees establish an overwhelming sense of scale.
 
-[0:04–0:07]
-He suddenly notices a small cluster of unusual but realistic forest mushrooms growing beside an enormous moss-covered root. His expression changes subtly: eyebrows lift, eyes sharpen with genuine interest, and a restrained pleased smile appears. He immediately steps toward them with surprising enthusiasm.
+[0:06–0:11]
+He suddenly notices a small cluster of unusual but realistic forest mushrooms growing beside an enormous moss-covered root. His expression changes subtly: eyebrows lift, eyes sharpen with genuine interest, and a restrained pleased smile appears. He changes direction immediately and steps over a low root toward them with surprising but controlled enthusiasm.
 
-[0:07–0:11]
-Camera lowers into a medium three-quarter shot as he crouches beside the root. He carefully examines one mushroom from several angles without damaging it, gently brushes away a leaf, then picks the mushroom cleanly at the stem and studies it in his hand with almost scientific fascination.
+[0:11–0:17]
+Camera lowers into a medium three-quarter shot as he crouches beside the root. He carefully examines two mushrooms from several angles without damaging them, gently brushes away a leaf, checks the underside of one cap, then cleanly picks the best specimen at the stem. He studies it in his hand with almost scientific fascination.
 
-[0:11–0:15]
-He places the mushroom carefully into the basket, notices another promising patch several meters away, and looks toward it with renewed excitement. He rises and starts moving toward the next patch slightly faster than before, still completely serious. End while he continues deeper into the forest, clearly absorbed in the hunt.
+[0:17–0:21]
+He places the first mushroom carefully into the basket, then picks a second smaller one. Before standing, he compares the two for a beat, visibly satisfied with the selection. The comedy stays completely dry and understated.
+
+[0:21–0:26]
+While still crouched, he notices another larger but biologically plausible mushroom growing several meters away in a pocket between two gigantic roots. His eyes widen slightly. He rises faster than before, steps over the root ridge and moves toward it with renewed purpose, keeping the basket steady.
+
+[0:26–0:30]
+He reaches the second patch, kneels briefly, gently lifts the larger mushroom to inspect it without immediately picking it, then looks deeper into the forest and notices yet another promising area off-screen. A small satisfied smile returns. He stands and continues deeper between the colossal trunks as the camera follows, ending with him fully absorbed in the hunt.
 
 CAMERA:
-One continuous physically stable cinematic shot. Smooth controlled glide following and gently arcing around the Chancellor. No random handheld jitter, no teleporting camera, no hard cuts. Maintain one coherent 3D forest space; every root, tree and mushroom must already exist in the environment and be revealed naturally by camera movement.
+One continuous physically stable cinematic shot. Smooth controlled glide following and gently arcing around the Chancellor. The camera may lower with him when he crouches and rise naturally when he stands, but never teleports or cuts. Maintain one coherent 3D forest space; every root, tree and mushroom must already exist in the environment and be revealed naturally by camera movement.
 
 CHARACTER PERFORMANCE:
-Restrained live-action acting. Small facial micro-expressions only. He is focused, curious and sincerely pleased, not manic or goofy. Keep the same face, age, bald pattern, body shape and robe from @image3 in every frame. Natural crouching, hand contact and weight transfer.
+Restrained live-action acting. Small facial micro-expressions only. He is focused, curious and sincerely pleased, not manic or goofy. Keep the same face, age, bald pattern, body shape and robe from @image3 in every frame. Natural crouching, hand contact, stepping over roots and weight transfer. His growing enthusiasm is shown through slightly quicker movement and attentive eyes, not exaggerated gestures.
 
 FOREST / LIGHTING:
 Photorealistic giant ancient forest. Monumental trunks, deep layered canopy, warm dappled sunlight, soft volumetric rays, cool green ambient bounce, damp moss, subtle atmospheric mist, natural insects and distant birds. Mushrooms should look biologically plausible and varied, not neon fantasy props. No modern objects.
 
 AUDIO (native):
-Deep quiet forest ambience, distant birds, faint insects, soft wind high in the canopy, footsteps compressing damp moss, robe brushing vegetation, slight basket creak, tiny natural sound as the mushroom is picked. No dialogue. No music.
+Deep quiet forest ambience, distant birds, faint insects, soft wind high in the canopy, footsteps compressing damp moss, robe brushing vegetation, slight basket creak, tiny natural sounds as mushrooms are handled and picked. No dialogue. No music.
 
 NEGATIVE PROMPT:
 identity drift, different face, different age, full head of hair, robe color change, costume change, duplicate Chancellor, extra people, modern hiking equipment, plastic basket, magical glowing mushrooms, giant comedy mushroom, psychedelic neon colors, slapstick acting, exaggerated grin, distorted hands, extra fingers, mushroom growing or morphing on contact, trees appearing from nowhere, changing forest geometry, floating roots, camera shake, hard cuts, cartoon, anime, game-render look, text, subtitles, logos, watermark.
 ```
-
 ---
 
 <a id="scene-15"></a>
 
 ## Сцена 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями
 
-**Контекст использования:** Новый активный промт на основе бывшей W3. Использовать как динамический переход лесной группы между стоянкой/маршрутом и деревней. В кадре те же Black и Purple, что в сцене 13 и в сцене 8 на мосту.
+**Контекст использования:** Новый активный промт на основе бывшей W3. 30-секундный динамический переход лесной группы между стоянкой/маршрутом и деревней; лишние фрагменты можно укоротить на монтаже. В кадре те же Black и Purple, что в сцене 13 и в сцене 8 на мосту.
 
 **Референсы:** @image4 = Black, точный модель-шит · @image5 = Purple, точный модель-шит
 
-**Что происходит:** Black и Purple на огромной скорости пересекают лес из колоссальных деревьев. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткое скольжение/пробежка по вертикальной поверхности, новый толчок и контролируемое приземление. Визуально это реалистичное игровое кино с энергией аниме и wire-fu, но без мультяшной пластики.
+**Что происходит:** Black и Purple на огромной скорости пересекают лес из колоссальных деревьев. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько разных уровней кроны и постепенно открывает направление к лесной деревне. Визуально это реалистичное игровое кино с энергией аниме и wire-fu, но без мультяшной пластики.
 
 ```text
-Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCES:
 @image4 — PRIMARY exact identity reference for BLACK: heavyset man with short brown hair, black tunic, dark leather vest/armor panels, dark forearm glove/gauntlet, brown trousers, tall brown boots, brown utility belt, lightsaber hilt secured at the belt. Preserve his exact face, heavier body build, hair, costume and proportions throughout.
@@ -1051,32 +1083,35 @@ IDENTITY / COSTUME LOCK:
 BLACK and PURPLE remain two separate fixed identities for the entire shot. Never blend their faces, body shapes or clothing. BLACK remains visibly heavier and more powerful in movement. PURPLE remains leaner and slightly more agile. Their lightsaber hilts stay attached to their belts; no blades are drawn in this traversal shot.
 
 ENVIRONMENT:
-A colossal ancient jungle forest. Giant tree trunks rise hundreds of meters through layered green canopy. Huge horizontal branches form natural pathways high above the forest floor. Moss, vines and hanging vegetation cover bark surfaces. Warm shafts of sunlight cut through cool green mist. Deep background layers reveal extreme vertical scale and distant wooden tree-village structures only if naturally visible through gaps.
+A colossal ancient jungle forest. Giant tree trunks rise hundreds of meters through layered green canopy. Huge horizontal branches form natural pathways high above the forest floor. Moss, vines and hanging vegetation cover bark surfaces. Warm shafts of sunlight cut through cool green mist. Deep background layers reveal extreme vertical scale. A distant elevated wooden tree-village may gradually become visible through gaps near the end, establishing a destination rather than appearing suddenly.
 
-ACTION — SINGLE CONTINUOUS HIGH-SPEED TRAVERSAL:
-[0:00–0:03]
-Begin already in motion. Wide tracking view high in the canopy. BLACK and PURPLE sprint along a gigantic branch side by side, maintaining several meters of separation. The branch curves toward an enormous neighboring trunk. Both accelerate; robes, belts and loose fabric react naturally to rushing air.
+ACTION — SINGLE CONTINUOUS 30-SECOND HIGH-SPEED TRAVERSAL:
+[0:00–0:05]
+Begin already in motion. Wide tracking view high in the canopy. BLACK and PURPLE sprint along a gigantic branch side by side, maintaining several meters of separation. The branch curves around an enormous neighboring trunk. Both accelerate; robes, belts and loose fabric react naturally to rushing air. Camera keeps them readable against the immense vertical forest.
 
-[0:03–0:06]
+[0:05–0:10]
 PURPLE jumps first across a wide gap and plants one foot briefly against the neighboring vertical trunk, using the impact to redirect upward and forward. BLACK follows a fraction of a second later with a heavier, more powerful leap, lands against the same trunk lower down for one forceful step, then pushes away. Every airborne movement has a visible physical push-off and ballistic arc — they do not simply float.
 
-[0:06–0:10]
-Camera races parallel through foreground leaves as both cross to another massive branch. PURPLE performs a fast two-step run along a slanted trunk and launches forward. BLACK grabs/brushes a thick side branch for balance, swings his momentum around it without hanging still, and drives into another long jump. Controlled cinematic motion blur emphasizes speed while both faces remain recognizable whenever visible.
+[0:10–0:15]
+Camera races parallel through foreground leaves as both land on a broad slanted branch and continue without stopping. PURPLE performs a fast two-step run along the slanted surface and launches to a higher branch. BLACK takes a lower line, uses a thick side branch as a brief hand-contact balance point, swings his momentum around it without hanging still, and powers into another long jump. Their paths stay separate and never intersect.
 
-[0:10–0:13]
-The camera curves ahead and slightly below them, revealing a spectacular vertical gap between several gigantic trunks. Both leap through shafts of sunlight, crossing the frame on separate trajectories. PURPLE lands first and keeps running; BLACK lands heavily a beat later, compresses through the knees, then immediately accelerates again.
+[0:15–0:20]
+The route wraps around a colossal central trunk. PURPLE runs three quick steps diagonally along the bark before pushing onto a branch on the opposite side. BLACK lands heavily on a root-like aerial branch below, compresses through the knees, sprints two steps and launches upward to rejoin the same general level. Camera arcs smoothly around the trunk with them, revealing the next section before they reach it.
 
-[0:13–0:15]
-They converge onto one enormous forward-leading branch and continue sprinting deeper into the forest without stopping. Camera remains with them as they disappear toward the next layer of giant trees, creating a natural endpoint for continuation into the following forest scene.
+[0:20–0:25]
+The camera moves slightly ahead and below, revealing the largest vertical gap of the sequence between several gigantic trunks. PURPLE and BLACK take two different visible launch points and leap through shafts of warm sunlight on separate ballistic trajectories. PURPLE lands first and immediately keeps running. BLACK lands a beat later with a heavier impact that shakes loose a little moss and a few leaves, then accelerates again. No branch breaks catastrophically.
+
+[0:25–0:30]
+Both converge onto one enormous forward-leading branch that slopes gently toward a distant cluster of wooden platforms and structures partly visible through mist — the forest village destination. They sprint toward it without stopping. Camera transitions into a controlled forward-leading angle, moving backward in front of them for the final seconds while keeping both faces readable. End with their momentum continuing toward the village, providing a clean transition into the next forest scene.
 
 MOVEMENT RULES:
-Photorealistic live-action high-speed acrobatic traversal with controlled wire-fu / vertical-mobility energy. Fast and spectacular, but every jump must show clear momentum, gravity, push-off and landing. No superhero flight. No hovering. No invisible propulsion. No impossible mid-air direction changes. Bodies retain realistic weight and inertia. BLACK's movement is heavier and more forceful; PURPLE's movement is lighter and more nimble, but both remain physically believable.
+Photorealistic live-action high-speed acrobatic traversal with controlled wire-fu / vertical-mobility energy. Fast and spectacular, but every jump must show clear momentum, gravity, push-off and landing. No superhero flight. No hovering. No invisible propulsion. No impossible mid-air direction changes. Bodies retain realistic weight and inertia. BLACK's movement is heavier and more forceful; PURPLE's movement is lighter and more nimble, but both remain physically believable. Do not overpack the 30 seconds with random tricks: each movement must flow causally into the next.
 
 CAMERA:
-Single continuous pursuit shot. Physically stable cinematic motion with controlled inertia. Camera may smoothly transition from side-tracking to a slight orbit and then a forward-leading angle, but there are no hard cuts, jump cuts or random viewpoint teleports. Strong foreground foliage parallax and deep background motion reinforce speed and scale. No random jitter or micro-shake.
+Single continuous pursuit shot for the full 30 seconds. Physically stable cinematic motion with controlled inertia. Camera may smoothly transition between side-tracking, gentle orbit around an existing trunk, slightly lower pursuit, and a forward-leading final angle, but there are no hard cuts, jump cuts or random viewpoint teleports. Strong foreground foliage parallax and deep background motion reinforce speed and scale. No random jitter or micro-shake.
 
 SPATIAL CONTINUITY:
-Maintain one coherent 3D forest space. The giant trees, trunks and branches exist before the characters reach them. Do not generate new geometry suddenly beneath their feet. Landing branches must be visible or naturally revealed before impact. No clipping through bark or foliage. Characters never intersect one another.
+Maintain one coherent 3D forest space. The giant trees, trunks and branches exist before the characters reach them. Do not generate new geometry suddenly beneath their feet. Landing branches must be visible or naturally revealed before impact. The final village structures must emerge gradually through existing gaps and mist rather than pop into existence. No clipping through bark or foliage. Characters never intersect one another.
 
 STYLE / LIGHTING:
 Photorealistic big-budget live-action sci-fi/fantasy. Real skin, cloth, bark, moss and atmospheric depth. Warm golden shafts through cool green canopy, subtle volumetric mist, natural motion blur, moderate depth of field so identity remains readable. Anime-like kinetic intensity translated into realistic cinema, not animated rendering.
@@ -1085,5 +1120,5 @@ AUDIO (native):
 Strong rushing wind during leaps, rapid footsteps on bark, heavy branch impacts, cloth and robe flutter, leaves whipping past camera, distant jungle ambience and subtle wood creaks. BLACK's landings sound slightly heavier than PURPLE's. No dialogue. No music.
 
 NEGATIVE PROMPT:
-identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
+identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, village popping into existence, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
 ```
