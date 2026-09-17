@@ -1,37 +1,17 @@
-name: Build public master mirror
+name: Legacy split-source builder (disabled)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - '_source/**'
-      - '.github/workflows/build-master.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build:
+  disabled:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Rebuild video-prompts.md
-        shell: bash
+      - name: Explain current architecture
         run: |
-          cat _source/part-001.md _source/part-002.md _source/part-003.md _source/part-004.md > video-prompts.md
-
-      - name: Commit generated mirror
-        shell: bash
-        run: |
-          if [ -z "$(git status --porcelain -- video-prompts.md)" ]; then
-            echo "No changes"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add video-prompts.md
-          git commit -m "Rebuild public prompt master mirror"
-          git push
+          echo "This legacy _source/part-*.md builder is intentionally disabled."
+          echo "Canonical flow: Google Drive video-prompts.md -> GitHub root video-prompts.md -> GitHub Pages."
+          echo "Use .github/workflows/sync-from-drive.yml or update the canonical Drive master instead."
