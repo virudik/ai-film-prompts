@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "source": "Topview verified reference roles for current AI Film production tasks",
+  "checked_at": "2026-09-17T23:37:00Z",
+  "publication_policy": "Public Control Center stores descriptive reference registry only. Private/original Topview reference images are not mirrored publicly unless separately approved.",
+  "characters": [
+    {
+      "id": "jedi-navy",
+      "name": "Джедай в тёмно-синем",
+      "aliases": [
+        "JEDI-A",
+        "Navy Jedi"
+      ],
+      "scenes": [
+        2,
+        6
+      ],
+      "outfit_variant": "Тёмно-синяя приталенная джедайская туника, коричневый пояс, тёмные брюки и высокие сапоги.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 6 · Image2",
+        "additional": [
+          "Сцена 2 · Image3"
+        ],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — индивидуальная model sheet для лица, телосложения и одежды. Environment/group references не должны её переопределять.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-glasses",
+      "name": "Джедай в очках",
+      "aliases": [
+        "JEDI-B",
+        "Glasses Jedi"
+      ],
+      "scenes": [
+        2,
+        6
+      ],
+      "outfit_variant": "Борода, круглые очки, тёмно-бордовая роба поверх кремовой туники/пояса.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 6 · Image3",
+        "additional": [
+          "Сцена 2 · Image6"
+        ],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — индивидуальная model sheet. Сохранять лицо, очки, бороду, телосложение и бордово-кремовую одежду.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-purple",
+      "name": "Фиолетовый джедай",
+      "aliases": [
+        "PURPLE"
+      ],
+      "scenes": [
+        2,
+        15
+      ],
+      "outfit_variant": "Фиолетовая внутренняя туника, длинная серая роба с капюшоном, коричневый пояс, светлые сапоги; усы.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 15 · Image3",
+        "additional": [
+          "Сцена 2 · Image4"
+        ],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — отдельная identity/costume sheet. Не смешивать с BLACK и другими джедаями.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-black",
+      "name": "Чёрный джедай",
+      "aliases": [
+        "BLACK"
+      ],
+      "scenes": [
+        2,
+        15
+      ],
+      "outfit_variant": "Более плотное телосложение, чёрная туника, тёмные кожаные/бронепанели, коричневые брюки и высокие сапоги.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 15 · Image2",
+        "additional": [
+          "Сцена 2 · Image7"
+        ],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — отдельная identity/costume sheet. BLACK и PURPLE всегда остаются двумя разными личностями.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-rooftop-beige",
+      "name": "Бежевый джедай — крыша",
+      "aliases": [
+        "Rooftop Character 1"
+      ],
+      "scenes": [
+        2
+      ],
+      "outfit_variant": "Бежевая туника, песочно-коричневая роба, светло-каштановые волосы, борода.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 2 · Image2",
+        "additional": [],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — индивидуальная model sheet; общий rooftop reference используется только для композиции и настроения.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-rooftop-redcloak",
+      "name": "Джедай в красном плаще — крыша",
+      "aliases": [
+        "Rooftop Character 3"
+      ],
+      "scenes": [
+        2
+      ],
+      "outfit_variant": "Оливковая туника, длинный красный плащ/капюшон, усы.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 2 · Image5",
+        "additional": [],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — индивидуальная model sheet; не позволять групповому референсу менять лицо или одежду.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-cantina-hooded",
+      "name": "Джедай в красном капюшоне — кантина",
+      "aliases": [
+        "Hooded Jedi"
+      ],
+      "scenes": [
+        12
+      ],
+      "outfit_variant": "Усы, растрёпанные каштановые волосы, светло-зелёная многослойная туника, глубокий красный плащ с капюшоном.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 12 · Image2",
+        "additional": [],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — exact identity sheet. Opening-frame reference задаёт только стартовую композицию; cantina reference — только окружение.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "jedi-cantina-bearded",
+      "name": "Бородатый джедай — кантина",
+      "aliases": [
+        "Bearded Jedi"
+      ],
+      "scenes": [
+        12
+      ],
+      "outfit_variant": "Более плотное телосложение, короткая борода, кремовая туника, коричневая верхняя роба и широкий пояс.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 12 · Image3",
+        "additional": [],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — exact identity sheet. Cantina/environment references не переопределяют лицо и одежду.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "chancellor",
+      "name": "Канцлер",
+      "aliases": [
+        "The Chancellor"
+      ],
+      "scenes": [
+        14,
+        18
+      ],
+      "outfit_variant": "Бледный мужчина старшего возраста, лысина/редкие светлые волосы; длинная тёмно-фиолетовая/чёрно-фиолетовая роба.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 18 · Image1",
+        "additional": [
+          "Сцена 14 · Image4"
+        ],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — exact identity reference. Сохранять лицо, возраст, телосложение, рисунок волос и силуэт фиолетовой робы.",
+      "mapping_confidence": "high"
+    },
+    {
+      "id": "imperial-officer",
+      "name": "Имперский офицер",
+      "aliases": [
+        "Imperial Officer"
+      ],
+      "scenes": [
+        18
+      ],
+      "outfit_variant": "Оливково-серая имперская военная форма; строгий офицерский силуэт.",
+      "model_sheet": {
+        "source": "Topview",
+        "primary": "Сцена 18 · Image2",
+        "additional": [],
+        "public_image": null
+      },
+      "reference_priority": "ВЫСШИЙ — exact identity/costume reference. Коридор и military atmosphere не должны менять лицо или форму.",
+      "mapping_confidence": "high"
+    }
+  ],
+  "non_character_reference_rules": [
+    "Group/environment references define composition, location, light or mood only when the scene says so.",
+    "Individual character model sheets always outrank environment/group references for face, body proportions and costume.",
+    "Reference labels such as Image1/Image2 are scene-local and must never be assumed global across scenes."
+  ]
+}
