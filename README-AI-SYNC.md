@@ -38,6 +38,15 @@ Scheduled workflow также проверяет Drive master примерно �
 
 Slow render-state выводится из existing slow-list, поэтому нового ручного slow-поля нет.
 
+## Control Center
+
+`index.html` — read-only production UI. Пользовательские подписи отображаются по-русски, machine enum-значения schema v3 остаются неизменными.
+
+- `NEEDS_FIX` = кандидат на обсуждение/корректировку, не автоматический rewrite;
+- `NEEDS_RERENDER` = требуется новый дубль по отдельному решению;
+- slow state берётся только из canonical slow-list → generated `render_state`;
+- фильтры/чипы появляются только из подтверждённых `scene_meta`.
+
 ## Instruction freshness
 
 Drive instruction files сейчас приватны. GitHub Actions не имеет authenticated access к ним, поэтому автоматический routine workflow **не должен** пытаться скачивать их анонимно.
@@ -49,6 +58,10 @@ Drive instruction files сейчас приватны. GitHub Actions не им�
 При architecture/instruction checkpoint основной редактор должен fresh-read Drive instructions и зеркально обновить GitHub через authenticated connectors/manual editor path, сохраняя те же Drive file IDs.
 
 Нельзя делать Drive instructions публичными только ради упрощения Actions без отдельного решения пользователя.
+
+## Topview evidence
+
+Подключённый Topview допустим как read-only evidence layer для task status/model/prompt/result. Он не становится source of truth и не заменяет Drive master. `success` подтверждает техническое завершение генерации, но не creative acceptance.
 
 ## Validation invariant
 
