@@ -6,24 +6,23 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**2026-09-17 · 18 сцен к генерации/доработке · 21 полный текст промтов**
+**17.09.2026 · 17 сцен к генерации/доработке · 20 полных текстов промтов**
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
-- **⏳ 5** сцен сейчас в медленной генерации: **2, 6, 8, 14, 15** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
+- **⏳ 4** сцены сейчас в медленной генерации: **2, 6, 14, 15** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
 - **Последние оформленные активные сцены:** 13–18.
-- **Последняя полная синхронизация:** **2026-09-17 · 17:01 (+03:00)**.
+- **Последняя полная синхронизация:** **17.09.2026 · 20:42 (+03:00)**.
 
-**Синхронизация:** **2026-09-17 · 17:01 (+03:00)**. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 18 сцен и 21 полный текст сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация:** **17.09.2026 · 20:42 (+03:00)**. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 17 активных сцен и 20 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации — НЕ ЗАПУСКАТЬ ПОВТОРНО
 
-На 17 сентября 2026 уже запущены и могут считаться несколько дней: **сцены 2, 6, 8, 14 и 15**. Пока не получен результат или явная ошибка генерации, **не отправлять эти сцены повторно**, даже если их промты остаются в активном мастер-файле.
+На 17 сентября 2026 уже запущены и могут считаться несколько дней: **сцены 2, 6, 14 и 15**. Пока не получен результат или явная ошибка генерации, **не отправлять эти сцены повторно**, даже если их промты остаются в активном мастер-файле.
 
 | Сцена | Статус | Действие |
 |---|---|---|
 | 2 — Джедаи на крыше: триумфальный марш без мечей | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 6 — Подводный рынок: странный фрукт | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
-| 8 — Кашиик: спор на мосту | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 14 — Канцлер: сбор грибов в гигантском лесу | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 
@@ -38,7 +37,6 @@
 | 5 | [Космическая погоня — единый дубль через стекло](#scene-5) | @image1 = первый кадр; @image2 = корабль; @image3 = интерьер; @image4 = последний кадр | Альтернатива сценам 3–4: внешний космический бой → непрерывный пролёт камеры через стекло → интерьер кабины → точный финальный кадр. |
 | 6 | [Подводный рынок — странный фрукт](#scene-6)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = локация/освещение; @image2 = JEDI-A; @image3 = JEDI-B | Два джедая гуляют по подводному базару, находят странный светящийся фрукт, пробуют его; финал — комедийная реакция без диалога. |
 | 7 | [Канцлер — зеркало в туалете](#scene-7) | @image1 = Канцлер; @image2 = туалет/освещение; @image3 = состаренное отражение | Канцлер моет руки, видит в зеркале состаренную версию себя, пугается; при втором взгляде отражение снова нормальное. |
-| 8 | [Кашиик — спор на мосту](#scene-8)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = Black; @image2 = Purple | Два джедая идут по подвесному мосту к лесной деревне и спорят, где искать информатора и знает ли Black язык вуки. |
 | 9 | [Пещера — бой с монстром](#scene-9) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = монстр/пещера | Трое бойцов продолжают сражение с гигантским ящером в пещере; финал — победа над существом. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
@@ -670,83 +668,6 @@ snap-back on the flinch, settle back to steady medium shot for the resolve.
 NEGATIVE PROMPT: no text, no subtitles, no watermark, no logo, no extra 
 characters, no face duplication errors, no distorted hands, no warped 
 mirror frame, no glitching background fixtures.
-```
-
----
-
-<a id="scene-8"></a>
-
-## Сцена 8 — Кашиик: спор на мосту
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-Повторно не запускать до результата/ошибки или отдельного решения пользователя.
-
-**Контекст использования:** Сверка: в актуальном тексте Black утверждает, что знает язык, Purple сомневается. Отличающееся распределение ролей в старом Notion не переносить. Привязать к подходу к лесному информатору в части 2 / 23:40–25:25 (P8).
-
-**Референсы:** @image1 = Black · @image2 = Purple
-
-**Что происходит:** Black и Purple идут по подвесному мосту высоко над джунглями в сторону лесной деревни. Разговор превращается в комедийный спор о том, где искать информатора и действительно ли Black знает язык вуки.
-
-```text
-STYLE: Photorealistic cinematic sci-fi/fantasy, classic space-opera jungle-world aesthetic. Massive ancient trees, dense green canopy, dappled golden sunlight filtering through leaves, wooden rope-and-plank suspension bridge connecting elevated treehouse platforms high above the forest floor. Large wooden village structures built into enormous tree trunks in the background, inhabited by large furry forest natives. No text, no UI icons, no subtitles, no logos in frame. Warm cinematic color grade.
-
-REFERENCES:
-@image1 — "Black": heavyset man, short brown hair, black tunic with leather vest panel, dark gloves, brown boots, lightsaber hilt on belt. Keep his face, build, and costume exactly consistent throughout the scene.
-@image2 — "Purple": leaner man, brown hair, mustache, grey hooded outer robe over purple/violet inner tunic, brown belt, tan boots. Keep his face, build, and costume exactly consistent throughout the scene. Do NOT swap his robe color or confuse him with Black's costume.
-
-SCENE:
-Both characters walk side by side across a slightly swaying rope bridge high above the jungle floor, approaching a forest tree-village in the distance. The bridge creaks subtly underfoot. The mood is lightly comedic, conversational, and cinematic.
-
-DIALOGUE:
-All dialogue is spoken clearly in Russian, with natural lip sync, distinct voices, and expressive facial acting. No subtitles.
-
-[0:00–0:03]
-Wide establishing shot. Both characters step onto the bridge, the vast jungle and elevated village visible behind and ahead.
-
-[0:03–0:06]
-Purple, annoyed, gesturing ahead:
-«Ну и где там твой информатор?»
-
-[0:06–0:08]
-Black, flatly, pointing vaguely forward:
-«В лесной деревне.»
-
-[0:08–0:12]
-Purple, exasperated:
-«Здесь пол планеты лесная деревня. Как мы найдем нужную?»
-
-[0:12–0:16]
-Black, sarcastic, glancing sideways:
-«Ты ещё скажи, что все вуки на одно лицо, и как мы найдем нужного.»
-
-[0:16–0:19]
-Purple, skeptical:
-«Ты точно знаешь язык вуки?»
-
-[0:19–0:22]
-Black, defensive:
-«Да, я знаю язык вуки.»
-
-[0:22–0:25]
-Purple, unconvinced:
-«Не знаешь ты язык вуки.»
-
-[0:25–0:29]
-Black stops briefly, offended, raising his voice:
-«Я знаю язык вуки!»
-
-[0:29–0:30]
-Purple rolls his eyes and keeps walking. Black huffs and quickly catches up.
-
-CAMERA:
-Smooth stabilized walking tracking shot moving alongside the bridge at shoulder height, with subtle natural motion and gentle foreground foliage parallax. Prioritize a stable two-shot of both characters for most of the scene. During key dialogue beats, the camera may drift slightly closer for stronger facial readability, but remains one continuous shot with no cuts.
-
-PERFORMANCE:
-Faces must remain highly detailed and consistent. Natural facial expressions, readable emotions, believable mouth movement, natural walking rhythm, subtle hand gestures, and light robe movement in the jungle breeze.
-
-NEGATIVE PROMPT:
-no subtitles, no text, no watermark, no logo, no face duplication, no identity drift, no costume color swap, no extra characters, no distorted hands, no warped bridge geometry, no floating rope planks, no face change, no age change, no body-shape change, no excessive camera shake, no hard cuts, no montage.
 ```
 
 ---

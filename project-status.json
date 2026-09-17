@@ -1,12 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "automation": "Drive -> validation -> GitHub mirror + project-status.json -> GitHub Pages",
-  "synced_at": "2026-09-17T17:01:00+03:00",
-  "revision_date": "2026-09-17",
-  "master_declared_last_full_sync": "2026-09-17 · 17:01 (+03:00)",
-  "scenes": 18,
-  "prompt_texts": 21,
+  "synced_at": "2026-09-17T20:42:00+03:00",
+  "revision_date": "17.09.2026",
+  "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
+  "scenes": 17,
+  "prompt_texts": 20,
   "work_items": [
     "W5",
     "W7",
@@ -16,11 +16,29 @@
   "slow_scenes": [
     2,
     6,
-    8,
     14,
     15
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 4,
+  "scene_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
   "latest_scene": 18,
   "health": "ok",
   "checks": {
@@ -33,6 +51,6 @@
     "slow_status_matches_dedicated_table": true,
     "slow_status_matches_toc": true,
     "slow_status_matches_sections": true,
-    "all_scene_numbers_are_contiguous": true
+    "scene_numbers_are_unique_and_increasing": true
   }
 }
