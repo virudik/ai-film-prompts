@@ -1,4 +1,4 @@
-name: Sync canonical prompt master from Google Drive
+name: Sync canonical project files from Google Drive
 
 on:
   workflow_dispatch:
@@ -25,35 +25,47 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download canonical video-prompts.md from Google Drive
+      - name: Download canonical project files from Google Drive
         shell: bash
         run: |
           set -euo pipefail
-          tmp="$(mktemp)"
-          curl -L --fail --retry 3 --retry-delay 2 \
-            "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" \
-            -o "$tmp"
+          download() {
+            local id="$1"
+            local out="$2"
+            curl -L --fail --retry 3 --retry-delay 2 \
+              "https://drive.usercontent.google.com/download?id=${id}&export=download&confirm=t" \
+              -o "$out"
+            test -s "$out"
+            if grep -qi '<!doctype html\|accounts.google.com' "$out" && [[ "$out" == *.md ]]; then
+              echo "Refusing to use HTML/login response for $out" >&2
+              exit 1
+            fi
+          }
 
-          # Safety guard: never commit a Google sign-in/error HTML page over the master.
-          grep -q '^# Актуальные видео-сцены и промты' "$tmp"
-          grep -q 'Канонический источник' "$tmp"
-          if grep -qi '<!doctype html\|accounts.google.com' "$tmp"; then
-            echo 'Refusing to replace master with HTML/login response.' >&2
-            exit 1
-          fi
+          download "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj" "video-prompts.md"
+          download "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u" "AI-PROJECT-GUIDE.md"
+          download "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO" "USER-GUIDE.md"
+          download "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX" "README-AI-SYNC.md"
+          download "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4" "SYNC-RUNBOOK.md"
+          download "1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M" "film-analysis.md"
+          download "1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9" "film-backlog.md"
 
-          mv "$tmp" video-prompts.md
+          grep -q '^# Актуальные видео-сцены и промты' video-prompts.md
+          grep -q 'Канонический источник' video-prompts.md
+          grep -q '^# AI Film Project — Start Here' AI-PROJECT-GUIDE.md
+          grep -q '^# Как пользоваться проектом AI Film Prompts' USER-GUIDE.md
+          grep -q '^# AI Film Prompts — Full Sync Runbook' SYNC-RUNBOOK.md
 
-      - name: Commit only when master changed
+      - name: Commit only when files changed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add video-prompts.md
+          git config user.email "4189828+github-actions[bot]@users.noreply.github.com"
+          git add video-prompts.md AI-PROJECT-GUIDE.md USER-GUIDE.md README-AI-SYNC.md SYNC-RUNBOOK.md film-analysis.md film-backlog.md
           if git diff --cached --quiet; then
-            echo "No master changes to sync."
+            echo "No project-file changes to sync."
             exit 0
           fi
-          git commit -m "Sync canonical video-prompts.md from Google Drive"
+          git commit -m "Sync canonical project files from Google Drive"
           git push
