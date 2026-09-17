@@ -22,6 +22,8 @@
   - file ID: `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
 - `README-AI-SYNC.md`
   - file ID: `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
+- `SYNC-RUNBOOK.md`
+  - file ID: `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
 - `CLAUDE-TAKEOVER-RUNBOOK.md`
   - file ID: `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
 - `film-analysis.md`
@@ -32,6 +34,16 @@
 - GitHub repo: `virudik/ai-film-prompts`
 - Public viewer: `https://virudik.github.io/ai-film-prompts/`
 - Public raw master: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md`
+
+## Когда перечитывать эту инструкцию
+
+Не полагаться на память старого чата. Читать `SYNC-RUNBOOK.md` заново:
+- в новом чате или после потери/сомнения в памяти проекта;
+- перед полной синхронизацией, обслуживанием сайта, GitHub workflow или Notion;
+- перед восстановлением проекта после ошибки/рассинхронизации;
+- после сообщения пользователя, что Work/Claude/он сам менял канонический Drive-мастер, если надо синхронизировать зеркала.
+
+Перед **каждой фактической записью** в мастер обязательно заново читать свежий Drive `video-prompts.md` и целевую сцену. Для обычного brainstorming/review без записи не нужно перечитывать весь runbook на каждое сообщение.
 
 ## Как устроен и как был создан проект
 
@@ -88,6 +100,8 @@
 
 `index.html` должен сохранять как минимум:
 - кнопку/ссылку `Инструкция для ИИ` → `AI-PROJECT-GUIDE.md`;
+- `Для владельца` → `USER-GUIDE.md`;
+- `Синхронизация` → `SYNC-RUNBOOK.md`;
 - `Raw master` → `video-prompts.md`;
 - `Карта фильма` → `film-analysis.md`;
 - `Backlog` → `film-backlog.md`;
