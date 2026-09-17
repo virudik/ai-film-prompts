@@ -1,1 +1,1 @@
-18.09.2026 — slow 2,6,12,14,15,18; production-status + Russian Control Center + docs checkpoint
+18.09.2026 — Topview-confirmed target engines for active slow renders; resync canonical Drive master
