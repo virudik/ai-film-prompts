@@ -1,100 +1,331 @@
-# AI Film Prompts — передача управления в новый чат v2
+# AI Film Prompts — NEW CHAT HANDOFF v3
 
-Дата checkpoint: **17.09.2026**.
+**Назначение:** аварийная/операционная передача проекта новому чату или другому основному ИИ без опоры на память предыдущей сессии.
 
-Этот файл нужен для восстановления проекта без памяти старого чата. Он отражает состояние после полного v2-checkpoint, когда Drive, GitHub, Library, Notion и GitHub Pages были повторно сверены.
+**Последнее обновление handoff:** 17.09.2026.
 
-## 1. Текущее подтверждённое состояние
+Этот файл должен оставаться коротким путеводителем по проекту, но достаточно полным, чтобы новый основной редактор мог безопасно восстановить контекст, найти канонические источники и продолжить работу без создания второго master.
 
-- Canonical master: Google Drive `AI Film Prompts Master/video-prompts.md`.
-- Active scenes: **17**.
-- Full prompt texts: **20**.
-- Work items: **W5, W7, W8**.
-- Slow scenes: **2, 6, 14, 15**.
+---
+
+## 0. Самое важное за 60 секунд
+
+- **Единственный редактируемый канонический master:** Google Drive `AI Film Prompts Master/video-prompts.md`.
+- **Drive master file ID:** `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+- **Не создавать** `v2`, `final`, `copy`, `final-final` и т. п.
+- Перед любой записью в master сначала **заново прочитать свежий Drive `video-prompts.md`**.
+- Текущее состояние master: **17 активных сцен · 20 полных текстов промтов · 3 work items (W5, W7, W8) · 4 slow-сцены (2, 6, 14, 15)**.
+- Scene IDs стабильны и могут иметь пропуски. **После удаления готовой сцены остальные не перенумеровывать.**
 - Сцена **8 «Кашиик — спор на мосту»** завершена и удалена из active master.
-- Scene IDs стабильны; после удаления сцен остальные ID не перенумеровывать. Gaps допустимы.
-- `project-status.json` → **health: ok**; все invariant checks true.
-- Full checkpoint sync run **#75** завершён `success`.
-- GitHub Pages deployment **#107** завершён `success`.
+- Slow-сцены **2, 6, 14, 15 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
+- `project-status.json` сейчас: **health = ok**, все integrity checks = true.
+- Последняя подтверждённая страховочная синхронизация GitHub Actions: **Sync run #76 — success**.
+- Последняя подтверждённая публикация GitHub Pages: **deployment #108 — success**.
+- Если другой файл, старый чат, Library, Notion или старый backlog противоречат свежему Drive master по активным сценам/slow-status — **свежий Drive master имеет приоритет**.
 
-## 2. Архитектура v2
+---
 
-Routine workflow:
+## 1. Приоритет источников и правила разрешения конфликтов
 
-**fresh-read Drive master → edit same Drive file ID → `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub `video-prompts.md` + `project-status.json` → GitHub Pages → verification**.
+Использовать этот порядок:
 
-Library, Notion и Drive `video-prompts.html` — backup/documentation layers и не обновляются после каждой обычной scene edit.
+1. **Текущая явная команда пользователя**.
+2. **Свежий Google Drive `video-prompts.md`** — текущее состояние prompt master, scene IDs, active/work/slow statuses.
+3. **`film-analysis.md`** — фактическая карта текущей сборки фильма и ограничения достоверности.
+4. **`film-backlog.md`** — задачи, зависимости, рекомендации и исторические производственные заметки.
+5. **Старые Notion notes** — источник старого замысла/архива, не второй master.
+6. Память чата, Library-копии, старые экспорты и исторические файлы.
 
-Полный обход всех зеркал выполняется только при explicit backup/checkpoint, изменении архитектуры/инструкций или по команде **«полная ручная синхронизация всего и везде»**.
+### Важное предупреждение о backlog
 
-## 3. Главные точки
+`film-backlog.md` синхронизирован 16.09.2026 и в некоторых operational-строках уже устарел. Например, там исторически встречается старый набор slow-сцен. Для **текущего списка active/slow/work** всегда использовать свежий `video-prompts.md` / `project-status.json`.
 
-- Drive folder ID: `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
-- Drive master ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
-- Drive HTML ID: `1AZK6XafZng4M_I7ciqdhEjfgfkf3CA01`
-- `SYNC-RUNBOOK.md`: `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
-- `AI-PROJECT-GUIDE.md`: `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
-- `USER-GUIDE.md`: `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
-- `README-AI-SYNC.md`: `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
-- `CLAUDE-TAKEOVER-RUNBOOK.md`: `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
-- Notion Hub ID: `3ddfe763-7762-81c0-b8fd-e7c61895df4a`
-- GitHub repo: `virudik/ai-film-prompts`
+Активные W-items на 17.09.2026 — **только W5, W7, W8**. Старые W1/W2/W3/W4/W6 в backlog могут оставаться как история задач/зависимостей и не означают, что они снова активны как W-items master.
+
+---
+
+## 2. Текущее подтверждённое состояние master
+
+**Ревизия master:** 17.09.2026  
+**Последняя полная синхронизация, заявленная master:** 17.09.2026 · 20:42 (+03:00)
+
+- Active scenes: **17**
+- Full prompt texts: **20**
+- Work items: **W5, W7, W8**
+- Slow scenes: **2, 6, 14, 15**
+- Scene IDs: **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18**
+- Latest scene ID: **18**
+- `project-status.json`: **health: ok**
+
+### Активные сцены — быстрый индекс
+
+1. **Джедаи на крыше — проход с зажжёнными мечами**
+2. **Джедаи на крыше — триумфальный марш без мечей** — `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+3. **Космическая погоня — экстерьер**
+4. **Космическая погоня — интерьер кабины**
+5. **Космическая погоня — единый дубль через стекло**
+6. **Подводный рынок — странный фрукт** — `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+7. **Канцлер — зеркало в туалете**
+9. **Пещера — бой с монстром**
+10. **Кантина — допрос про товар, часть 1**
+11. **Кантина — допрос про товар, часть 2**
+12. **Кантина — вход двух джедаев**
+13. **Совет джедаев — говорящий кот**
+14. **Канцлер — сбор грибов в гигантском лесу** — `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+15. **Кашиик — сверхбыстрые прыжки между гигантскими деревьями** — `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+16. **Татуин — гигантский пустынный червь и бой на руинах**
+17. **Пещера — передышка после монстра и разговор о карте**
+18. **Имперский крейсер — Канцлер и офицер в коридоре**
+
+### Текущие work items
+
+- **W5 — Канцлер и Warcraft 3.** Сквозная мотивация: Канцлер хочет сесть играть/успеть на турнир по Warcraft 3, а джедаи мешают. Ключевой незакрытый вопрос — что конкретно даёт карта и как это связано с существующим игровым финалом.
+- **W7 — Переходы между группами.** Сначала проверять существующий материал и звуковые/визуальные мосты. Ключевые места: выход из Татуина к Набу, после монстра к лесной группе, после захвата карты к компьютеру. Не генерировать длинные одинаковые перелёты без необходимости.
+- **W8 — Недоделанные гонки и транспорт.** Для космической погони выбрать **сцены 3+4 ИЛИ сцену 5**. Для татуинского транспорта/погони сначала сверить, какие дубли действительно недоделаны и как они связаны со сценой 16; не регенерировать всё движение транспорта целиком.
+
+---
+
+## 3. Slow-generation — критическое правило
+
+Точная видимая метка:
+
+`⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+
+Текущий список: **2, 6, 14, 15**.
+
+Не запускать повторно без:
+- готового результата;
+- явной ошибки/failed generation;
+- или отдельного решения пользователя на новый запуск.
+
+Slow-status должен совпадать в **4 местах master**:
+1. верхний global status block;
+2. dedicated slow-generation table/block;
+3. TOC row;
+4. full scene section.
+
+---
+
+## 4. Текущее состояние самого фильма
+
+- Рабочая длительность анализировавшейся сборки: **58:48,789**.
+- Это большой уже собранный фильм в CapCut, близкий к завершению, а не набор несвязанных тестов.
+- Текущая подтверждённая последовательность миров после космического блока: **Татуин → Набу → Кашиик**.
+- В существующем монтаже уже есть значительные транспортные, боевые и переходные блоки. **Не считать, что всё перемещение между сценами нужно генерировать заново.**
+- Warcraft-финал у компьютера уже существует; новая мотивация «турнир / Warcraft 3» должна аккуратно подвести к нему, а не дублировать финал.
+- Линия трёх фрагментов карты остаётся одним из главных сюжетных мест, где нужна ясность: кто владеет конкретным фрагментом, что он даёт и как результат поиска связан с финалом.
+- После победы над пещерным монстром нужен понятный смысловой выход к следующей линии; сцена 17 предназначена для передышки/разговора о карте.
+- Переходы между крупными группами и мирами лучше закрывать минимально необходимой функцией: существующий план, короткая вставка, реплика, звук или небольшой новый ролик — **не автоматически длинный новый перелёт**.
+
+### Ограничение достоверности анализа
+
+Не утверждать, что весь 58:48 фильм был непрерывно просмотрен и прослушан в реальном времени, если этого фактически не произошло. `film-analysis.md` основан на структурном анализе, сохранённых кадрах/контактных листах, HTML/CSV/архиве свидетельств и ASR. Точные склейки, говорящие и мелкие AV-детали при необходимости требуют ручного воспроизведения.
+
+---
+
+## 5. Рабочий стиль промтов и референсов
+
+- Пользователь предпочитает **отдельные сцены и готовые production prompts**, а не расплывчатые идеи.
+- Для видеомоделей финальные промты обычно удобнее на **английском**, а русские реплики оставлять на русском, если сцена требует диалога.
+- Сохранять между сценами консистентность внешности, одежды, окружения, цветокоррекции, света и направления движения камеры.
+- Камера: физически стабильное кинематографичное движение, контролируемая инерция, без случайного jitter/micro-shake.
+- Пространство должно оставаться единым и понятным: не создавать внезапно новую геометрию; объекты лучше открывать движением камеры.
+- `@image1`, `@video1` и т. п. **локальны для конкретной сцены**.
+- Реальный character/model reference имеет приоритет для лица и одежды; environment/group ref не должен усреднять/подменять индивидуальные лица.
+- Если задан **single continuous take**, не смешивать его с hard cuts, shot/reverse-shot и insert cuts без явной причины.
+- A/B-варианты одной смысловой сцены хранить **внутри одного scene ID**, а не создавать параллельные scene IDs без необходимости.
+- Готовый текст промта ≠ готовый ролик. Не объявлять сцену завершённой, пока пользователь не подтвердил результат.
+- После принятого ролика удалить сцену/промт из active master, **если он больше не нужен для доработки**.
+
+---
+
+## 6. Архитектура v2 — как всё синхронизируется
+
+### Единственный editable master
+
+Google Drive:
+`AI Film Prompts Master/video-prompts.md`
+
+File ID:
+`1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+
+### Routine workflow
+
+**fresh-read Drive master → edit same Drive file ID → update `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub `video-prompts.md` + `project-status.json` → GitHub Pages → verification**
+
+`sync-from-drive.yml` дополнительно выполняет страховочную проверку примерно каждые 30 минут.
+
+### Что НЕ является gate обычной правки сцены
+
+- ChatGPT Library
+- Notion
+- Drive `video-prompts.html`
+
+Это backup/documentation layers.
+
+### Когда нужен полный checkpoint всех зеркал
+
+Только при:
+- explicit backup/checkpoint;
+- изменении архитектуры/инструкций;
+- восстановлении после desync;
+- или команде пользователя **«полная ручная синхронизация всего и везде»**.
+
+---
+
+## 7. Integrity rules master
+
+Перед записью/публикацией проверить:
+
+- declared scene count = количество `## Сцена N`;
+- declared scene count = количество TOC rows;
+- TOC IDs = section IDs;
+- IDs уникальны и возрастают; **непрерывность не требуется**;
+- declared prompt count = фактическое число fenced prompt blocks;
+- W-count = реальное число W-items;
+- slow-count/list совпадает с dedicated slow table, TOC и sections;
+- нет второй старой версии изменяемой сцены в другом месте файла.
+
+`project-status.json` генерируется автоматически. **Не редактировать его вручную.**
+
+Нельзя писать пользователю `ГОТОВО`, пока обязательная для выбранного режима проверка реального результата не выполнена.
+
+---
+
+## 8. Постоянные Drive точки
+
+Главная папка `AI Film Prompts Master`:
+`1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
+
+- `video-prompts.md` — `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+- `video-prompts.html` — `1AZK6XafZng4M_I7ciqdhEjfgfkf3CA01`
+- `NEW-CHAT-HANDOFF.md` — `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
+- `SYNC-RUNBOOK.md` — `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
+- `AI-PROJECT-GUIDE.md` — `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
+- `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
+- `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
+- `CLAUDE-TAKEOVER-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
+- `film-analysis.md` — `1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M`
+- `film-backlog.md` — `1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9`
+- `Seregius_montazhny_razbor.html` — `1SVXdiYVrBuEw0Zogo-gLZ2pdym2P3GYw`
+- `EDIT_PLAN_V2.csv` — `1Qyh8qQNVwESWzNt8DeweJQS0jSYvGJvb`
+- `PROGRESS.md` — `1zy6CE3ypHWUlCT75AGHzJeVCYG5PIHg3`
+
+Notion Hub:
+`3ddfe763-7762-81c0-b8fd-e7c61895df4a`
+
+---
+
+## 9. Публичные точки
+
 - Viewer: `https://virudik.github.io/ai-film-prompts/`
+- GitHub repo: `https://github.com/virudik/ai-film-prompts`
 - Raw master: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md`
-- Montage review: `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`
+- Film map: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-analysis.md`
+- Backlog: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-backlog.md`
+- Sync runbook: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/SYNC-RUNBOOK.md`
+- Claude takeover: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md`
+- Rendered montage review: `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`
 
-## 4. Что читать новому основному редактору
+### Site invariants
 
-1. `NEW-CHAT-HANDOFF.md`;
+- `index.html` — viewer, **не master**.
+- Он читает root `video-prompts.md` + `project-status.json` с `cache: no-store`.
+- `Инструкция для ИИ` и `Для владельца` — две соседние half-width buttons.
+- `Инструкция для ИИ` не должна переноситься (`white-space: nowrap`).
+- `Монтажный разбор фильма` открывает rendered Pages HTML.
+- Legacy `_source/part-*` + `build-master.yml` не использовать.
+- Obsolete one-time instruction finalizer отключён/manual-only и не должен снова становиться частью обычного pipeline.
+
+---
+
+## 10. Последний подтверждённый технический health
+
+`project-status.json`:
+
+- schema_version: **2**
+- scenes: **17**
+- prompt_texts: **20**
+- work_items: **W5, W7, W8**
+- slow_scenes: **2, 6, 14, 15**
+- health: **ok**
+- все integrity checks: **true**
+
+GitHub Actions:
+
+- последний подтверждённый `Sync canonical master from Google Drive`: **run #76**, `success` (schedule insurance run).
+- последний подтверждённый `pages build and deployment`: **#108**, `success`.
+
+### Известное ограничение независимой HTTP-проверки
+
+Управление репозиторием/Actions/Pages работает. Отдельная «visitor-style» HTTP-проверка сайта из некоторых изолированных инструментов может не сработать из-за DNS/network/safe-browsing ограничений среды. Это **не означает автоматически**, что сайт упал или недоступен пользователю. Не путать внешний fetch-инструмент с правами управления GitHub Pages.
+
+---
+
+## 11. Что читать новому основному редактору
+
+Минимальный порядок восстановления:
+
+1. **этот `NEW-CHAT-HANDOFF.md`**;
 2. `SYNC-RUNBOOK.md`;
 3. `AI-PROJECT-GUIDE.md`;
-4. fresh Drive `video-prompts.md`;
-5. при story/continuity — `film-analysis.md` + `film-backlog.md`;
-6. для deep montage — `Seregius_montazhny_razbor.html`, `EDIT_PLAN_V2.csv`, `PROGRESS.md` при необходимости.
+4. **fresh Drive `video-prompts.md`**;
+5. если задача касается сюжета/монтажа/continuity — `film-analysis.md` + `film-backlog.md`;
+6. для глубокого монтажа — `Seregius_montazhny_razbor.html`, `EDIT_PLAN_V2.csv`, `PROGRESS.md`.
 
-Не опираться на старую память/старые Library-файлы, если они расходятся с Drive.
+После чтения handoff **не считать цифры внутри него вечными**: перед реальной работой всё равно сверить fresh master и `project-status.json`.
 
-## 5. Master invariants
+---
 
-- Scene IDs unique + increasing; gaps allowed.
-- Declared scene count = TOC rows = full scene sections.
-- Declared prompt count = fenced prompt blocks.
-- W-count совпадает с W-list.
-- Slow list/count совпадает во всех обязательных местах.
-- Exact slow label: `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`.
-- Slow status должен быть в **4 местах**: global status, dedicated slow table/block, TOC row, full scene section.
-- Не relaunch slow scene без результата/ошибки или отдельного решения пользователя.
-- После принятого ролика удалить prompt из active master, если он больше не нужен.
+## 12. Роли ИИ
 
-## 6. Site invariants
+- **ChatGPT** — основной редактор по умолчанию.
+- **Work** — для больших многосценовых/монтажных/audit-задач; при записи в master тот же Drive file ID.
+- **Claude** — review-only по умолчанию; если явно назначен временным основным редактором, читать `CLAUDE-TAKEOVER-RUNBOOK.md`.
+- **Gemini** — независимая проверка prompt + visual references.
+- **DeepSeek** — технический аудит конфликтов, камеры, timing, overload, continuity.
+- **Grok** — creative/comedy/pacing second opinion.
+- Другие ИИ — review-only, пока пользователь явно не передал им роль основного редактора.
 
-- `index.html` — viewer, not master.
-- Fetch `video-prompts.md` and `project-status.json` with `cache: no-store`.
-- `Инструкция для ИИ` + `Для владельца` — две соседние half-width buttons.
-- `Инструкция для ИИ` must not wrap.
-- Montage review opens rendered GitHub Pages HTML.
-- Legacy `_source/part-*` / `build-master.yml` не использовать.
-- Obsolete one-time instruction finalizer disabled.
+Советы внешних ИИ возвращать как patch/replacement/recommendation. Канон меняет один текущий основной редактор.
 
-## 7. Human formatting
+---
 
-- Human-readable dates: **DD.MM.YYYY**.
-- Machine ISO timestamps can remain ISO in JSON/API.
+## 13. Library / Notion / исторические копии
 
-## 8. Полный checkpoint v2 от 17.09.2026
+- Library — резерв ChatGPT, не источник истины.
+- Notion — navigation/documentation/старые идеи, не второй master.
+- Drive `video-prompts.html` — производный viewer/backup, не editable master.
+- Исторический Library `video-prompts(1).md` — старая отдельная compilation, **не canonical master mirror**; не перезаписывать его как master и не считать актуальным master.
+- Старые Library/HTML копии можно обновлять при полном checkpoint, но routine scene edit от них не зависит.
 
-Подтверждено:
-- 5 canonical Drive instructions updated in-place;
-- GitHub instruction mirrors updated;
-- Library master/HTML/instructions/index updated;
-- stale Library master mirror `video-prompts(8).md` and stale HTML mirror `video-prompts(1).html` updated;
-- Notion Hub + 5 instruction child pages updated;
-- `sync-from-drive.yml` run #75 success;
-- `project-status.json` health ok;
-- Pages deployment #107 success.
+---
 
-Исторический Library file `video-prompts(1).md` — отдельная старая prompt compilation, не canonical master mirror; его не перезаписывать как master.
+## 14. Когда и как обновлять этот handoff
 
-## 9. Готовая команда новому ChatGPT
+Этот файл нужно актуализировать:
 
-> Мы продолжаем AI-film project. Сначала прочитай `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и fresh Google Drive `video-prompts.md`. Canonical master только Drive. Routine sync: Drive → trigger → validation → GitHub/status → Pages. Library/Notion/Drive HTML — backup layers. Scene IDs stable and may have gaps. Slow-status uses exact phrase `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` in 4 places. Перед `ГОТОВО` проверяй health/workflow/Pages. Ничего не меняй без моей команды.
+- после **существенного изменения состава active/work/slow сцен**;
+- после смены архитектуры синхронизации, путей, file IDs или репозитория;
+- после крупного монтажного решения, которое меняет film-analysis/backlog;
+- после полного checkpoint;
+- периодически как страховочную контрольную точку, даже если архитектура не менялась.
+
+При каждом обновлении:
+
+1. fresh-read `video-prompts.md`;
+2. проверить `project-status.json`;
+3. при story/continuity изменениях сверить `film-analysis.md` и `film-backlog.md`;
+4. обновить **этот же Drive file ID** `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`;
+5. не создавать `NEW-CHAT-HANDOFF-v2/v3/final/copy` как отдельные файлы;
+6. если handoff зеркалируется в GitHub/Library — обновлять зеркала из этой версии, но **Drive остаётся основной копией handoff**.
+
+---
+
+## 15. Готовая команда новому ChatGPT
+
+> Мы продолжаем AI-film project. Сначала прочитай свежие Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и `video-prompts.md`. Единственный editable master — Drive `video-prompts.md` с file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Не создавай второй master. Перед любой записью fresh-read master. Scene IDs стабильны и могут иметь gaps. Текущий active/work/slow status бери из fresh master / `project-status.json`, даже если `film-backlog.md` содержит более старый operational status. Slow-сцены нельзя перезапускать без результата/ошибки или моего разрешения. Для story/continuity используй `film-analysis.md` и `film-backlog.md`, но не утверждай непрерывный просмотр всего фильма, если его не было. Routine sync: Drive → trigger → validation → GitHub/status → Pages. Library/Notion/Drive HTML — backup/documentation layers. Перед `ГОТОВО` проверь обязательный фактический результат.
+
+---
+
+**Принцип этого файла:** он нужен не для замены master/runbook/analysis, а чтобы следующий чат за несколько минут понял, **где истина, что сейчас происходит, что нельзя случайно сломать и что читать дальше**.
