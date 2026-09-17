@@ -1,1 +1,1 @@
-2026-09-17T16:55+03:00 — final sync: pull canonical Drive master with current revision/synchronization timestamp and publish it to GitHub/Pages after instruction-rule updates.
+17.09.2026 20:42 +03:00 — final manual checkpoint: pull canonical Drive master, validate sparse scene IDs, remove completed bridge scene, refresh project-status.json and publish GitHub Pages.
