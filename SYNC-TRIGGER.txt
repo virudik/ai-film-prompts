@@ -1,1 +1,1 @@
-2026-09-17T09:14+03:00 — full sync: scene 18 A/B, scenes 16–17, slow-generation statuses, updated runbook, Drive/GitHub/Pages/Notion.
+2026-09-17T12:10+03:00 — audit sync: canonical master with scenes 16–18, scene 18 A/B, slow-generation statuses 2/6/8/14/15, instructions and site verification.
