@@ -46,7 +46,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json
+          SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT"
 
       - name: Repair mirrors only when needed
         shell: bash
