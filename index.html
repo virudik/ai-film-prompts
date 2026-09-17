@@ -10,10 +10,10 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.58 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .layout{display:grid;grid-template-columns:300px minmax(0,1fr);min-height:100vh}.side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);background:var(--panel);padding:18px}.main{min-width:0;padding:28px 34px 80px;max-width:1250px;width:100%;margin:auto}
-.brand{font-weight:800;font-size:18px;margin-bottom:4px}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:7px 6px;border:1px solid var(--line);border-radius:7px;background:#0e1217;color:#cdd7e1}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.analysis,.links a.backup{grid-column:1/-1}.links a.analysis{border-color:#46617c;background:#101923;color:#dceeff}.links a.backup{border-color:#5b516f;background:#17131e;color:#eadfff}.search{width:100%;padding:10px 11px;border-radius:9px;border:1px solid var(--line);background:#0e1217;color:var(--text);outline:none;margin-bottom:14px}.search:focus{border-color:var(--accent)}
+.brand{font-weight:800;font-size:18px;margin-bottom:4px}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:7px 6px;border:1px solid var(--line);border-radius:7px;background:#0e1217;color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap;font-size:11px}.links a.analysis,.links a.backup{grid-column:1/-1}.links a.analysis{border-color:#46617c;background:#101923;color:#dceeff}.links a.backup{border-color:#5b516f;background:#17131e;color:#eadfff}.search{width:100%;padding:10px 11px;border-radius:9px;border:1px solid var(--line);background:#0e1217;color:var(--text);outline:none;margin-bottom:14px}.search:focus{border-color:var(--accent)}
 #toc{display:flex;flex-direction:column;gap:3px}#toc a{display:block;padding:7px 9px;border-radius:7px;color:#c8d0d8;font-size:13px}#toc a:hover{background:var(--panel2);text-decoration:none;color:white}.empty{color:var(--muted);font-size:13px;padding:6px}
 .topbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line)}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}
-article h1{font-size:30px;margin:0 0 16px}article h2{font-size:23px;margin:42px 0 14px;padding-top:8px;border-top:1px solid var(--line)}article h3{font-size:18px;margin-top:28px}article p,article li{max-width:1000px}article table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:15px 0}article th,article td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}article th{background:var(--panel2);text-align:left}
+article h1{font-size:30px;margin:0 0 16px}article h2{font-size:23px;margin:42px 0 14px;padding-top:8px;border-top:1px solid var(--line)}article h3{font-size:18px;margin-top:28px}article p,article li{max-width:1000px}article table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:15px 0}article th,article td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}article th{background:var(--panel2);text-align:left}.slow-status{display:block;white-space:nowrap;font-size:12px;line-height:1.25;margin-top:4px;color:#ffd27a}
 pre{position:relative;background:var(--code);border:1px solid var(--line);border-radius:12px;padding:44px 16px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}.copy{position:absolute;right:10px;top:9px;border:1px solid var(--line);background:#151a20;color:#dce5ee;padding:6px 9px;border-radius:7px;cursor:pointer;font-size:12px;opacity:.72}.copy:hover{opacity:1;border-color:#4a5b6f}.copy.done{color:var(--ok)}
 blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;color:#cbd5df}.loading,.error{padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.error{border-color:#6b3f45;color:#ffb7be}
 @media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:48vh}.main{padding:20px 16px 60px}.copy{opacity:1}}
@@ -25,13 +25,13 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
     <div class="brand">AI Film Prompts Master</div>
     <div class="sub">Всегда отображает актуальное публичное зеркало <b>video-prompts.md</b>.</div>
     <div class="links">
-      <a href="AI-PROJECT-GUIDE.md" target="_blank">Инструкция для ИИ</a>
+      <a class="ai-guide" href="AI-PROJECT-GUIDE.md" target="_blank">Инструкция для ИИ</a>
       <a href="USER-GUIDE.md" target="_blank">Для владельца</a>
       <a href="SYNC-RUNBOOK.md" target="_blank">Синхронизация</a>
       <a href="video-prompts.md" target="_blank">Raw master</a>
       <a href="film-analysis.md" target="_blank">Карта фильма</a>
       <a href="film-backlog.md" target="_blank">Backlog</a>
-      <a class="analysis" href="https://drive.google.com/file/d/1SVXdiYVrBuEw0Zogo-gLZ2pdym2P3GYw/view?usp=drivesdk" target="_blank" rel="noopener">Монтажный разбор фильма</a>
+      <a class="analysis" href="Seregius_montazhny_razbor.html" target="_blank" rel="noopener">Монтажный разбор фильма</a>
       <a class="backup" href="CLAUDE-TAKEOVER-RUNBOOK.md" target="_blank">Claude backup / takeover</a>
     </div>
     <input id="search" class="search" placeholder="Найти сцену…" autocomplete="off" />
@@ -53,6 +53,7 @@ function enhance(){
   toc.innerHTML='';
   heads.forEach(h=>{const a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;toc.appendChild(a)});
   if(!heads.length) toc.innerHTML='<div class="empty">Разделы не найдены</div>';
+  [...content.querySelectorAll('strong')].forEach(el=>{if(el.textContent.trim()==='⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ')el.classList.add('slow-status')});
   [...content.querySelectorAll('pre')].forEach(pre=>{const b=document.createElement('button');b.className='copy';b.textContent='Копировать';b.onclick=async()=>{const code=pre.querySelector('code');await navigator.clipboard.writeText(code?code.innerText:pre.innerText);b.textContent='Скопировано';b.classList.add('done');setTimeout(()=>{b.textContent='Копировать';b.classList.remove('done')},1200)};pre.appendChild(b)});
 }
 function filter(q){q=q.trim().toLowerCase();[...toc.querySelectorAll('a')].forEach(a=>a.style.display=!q||a.textContent.toLowerCase().includes(q)?'block':'none')}
