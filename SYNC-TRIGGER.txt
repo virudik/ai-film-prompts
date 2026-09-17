@@ -1,1 +1,1 @@
-17.09.2026 21:06 +02:00 — full v2 checkpoint: verify canonical Drive master, sparse stable scene IDs, project-status health, GitHub mirror and Pages after instruction/backup synchronization.
+18.09.2026 — V3.5 Phase 1B full checkpoint: verify canonical Drive master, schema v3 fingerprint, five instruction mirrors, Actions health and Pages after instruction architecture update.
