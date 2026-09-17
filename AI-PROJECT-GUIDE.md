@@ -17,9 +17,9 @@ The top of canonical `video-prompts.md` must contain a **prominent project-statu
 
 Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
 
-Current recorded full-sync time: **2026-09-17 · 15:00 (+03:00)**.
+Current recorded full-sync time: **2026-09-17 · 15:35 (+03:00)**.
 
-After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, for example `2026-09-17 · 15:00 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
+After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, for example `2026-09-17 · 15:35 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
 
 ## 1. Canonical source of truth
 
