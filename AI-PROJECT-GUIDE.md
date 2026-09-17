@@ -1,77 +1,110 @@
-# AI Film Project — Start Here v2
+# AI Film Project — Start Here v3.5
 
-Эта инструкция задаёт правила для ChatGPT, Work, Claude, Gemini, DeepSeek, Grok и других ИИ, работающих с проектом.
+Эта инструкция задаёт стартовые правила для ChatGPT, Work, Claude, Gemini, DeepSeek, Grok и других ИИ, работающих с проектом.
 
-## Неизменяемые правила v2
+## Safety summary v3.5
 
-- Единственный редактируемый master: Google Drive `AI Film Prompts Master/video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-- GitHub `virudik/ai-film-prompts` — публичное read-only зеркало и источник GitHub Pages.
-- `project-status.json` — automatically generated machine-status; вручную не редактировать.
-- Routine sync: **fresh-read Drive master → edit same Drive file ID → `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub mirror + `project-status.json` → Pages → verification**.
-- Library, Notion и Drive HTML — backup/documentation, не gate routine edit.
-- Полный обход всех зеркал выполняется только при explicit backup/checkpoint, architecture/instruction change или команде **«полная ручная синхронизация всего и везде»**.
-- Scene ID стабилен: после удаления готовой сцены остальные сцены не перенумеровывать; пропуски допустимы, IDs уникальны и возрастают.
-- Slow-status `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` должен совпадать в четырёх местах: global status, dedicated slow table, TOC row, full scene section.
-- Человекочитаемые даты — `DD.MM.YYYY`.
-- `index.html` — viewer, читает `video-prompts.md` и `project-status.json` с `cache: no-store`; scene content не hard-code.
-- `Инструкция для ИИ` + `Для владельца` — две половинные кнопки; первая не переносится.
-- `Монтажный разбор фильма` ведёт на rendered GitHub Pages `Seregius_montazhny_razbor.html`.
-- Legacy `_source/part-*` builder не использовать.
-- `ГОТОВО` — только после обязательной проверки фактического результата.
+Полный нормативный operational block находится в `SYNC-RUNBOOK.md`. Даже если открыт только этот файл, соблюдать минимум:
+
+- Единственный редактируемый prompt master: Google Drive `AI Film Prompts Master/video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+- GitHub `virudik/ai-film-prompts` — публичное read-only зеркало и источник GitHub Pages, не второй master.
+- Пять Drive-инструкций (`AI-PROJECT-GUIDE.md`, `SYNC-RUNBOOK.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `CLAUDE-TAKEOVER-RUNBOOK.md`) — канонические для своих GitHub-зеркал. Их GitHub-копии нельзя считать свежее Drive без проверки.
+- `project-status.json` — автоматически генерируемый machine-status schema v3; вручную его не редактировать.
+- Перед записью в master обязательно fresh-read Drive master. Scene ID стабильны и не перенумеровываются после удаления.
+- Slow-generation — отдельное render-state. Сцену с `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` нельзя запускать повторно без результата/ошибки или отдельного разрешения пользователя.
+- `index.html` — viewer, не master. Library/Notion/Drive HTML — backup/documentation layers, не gate routine edit.
+
+## V3.5 machine state
+
+`project-status.json` schema v3 сохраняет старые top-level поля и дополнительно содержит:
+
+- `canonical_master_sha256` и размер канонического master;
+- `audit_fingerprint` — revision, hash, scene/prompt counts, scene IDs, W-items, slow list и health;
+- `scene_meta` — optional validated metadata по сценам;
+- `render_state`, вычисляемый из существующего slow-list (`SLOW_PENDING` / `IDLE`), а не из пятого ручного статуса;
+- `instruction_sync`.
+
+Пока GitHub Actions не имеет безопасного authenticated access к приватным Drive-инструкциям, `instruction_sync.health = unverified` является **ожидаемым честным состоянием**, а не ошибкой master. Нельзя выдавать `instruction_sync: unverified` за `ok`.
+
+## Audit freshness rule
+
+Перед внешним аудитом или большой правкой сначала повторить fingerprint, который фактически виден в `project-status.json`:
+
+- `revision_date`;
+- `canonical_master_sha256`;
+- `scene_count` / `prompt_count`;
+- `scene_ids`;
+- `work_items`;
+- `slow_scenes`;
+- `health`;
+- `instruction_sync_health`.
+
+Если snapshot расходится с текущим fingerprint — остановить аудит и обновить источники. Не анализировать старую сцену/старый slow-list как актуальные.
 
 ## Источник истины и контекст
 
-Канонический prompt master — только Drive `video-prompts.md`.
+Канонический prompt master — только Google Drive `AI Film Prompts Master/video-prompts.md`.
 
-Для обычной правки одного prompt достаточно fresh master + реальные references нужной сцены.
+Для обычной правки одного промта достаточно fresh master + реальные reference images/videos нужной сцены.
 
-Для story/continuity/placement дополнительно читать `film-analysis.md` и `film-backlog.md`. Для глубокой структуры при необходимости — `Seregius_montazhny_razbor.html`, `EDIT_PLAN_V2.csv`, `PROGRESS.md`.
+Для story/continuity/placement дополнительно читать:
+- `film-analysis.md` — factual map/current cut и ограничения;
+- `film-backlog.md` — unresolved tasks/dependencies/recommendations.
+
+Для глубокой структуры при необходимости:
+- `Seregius_montazhny_razbor.html`;
+- `EDIT_PLAN_V2.csv`;
+- `PROGRESS.md`.
 
 Не утверждать, что весь фильм был непрерывно просмотрен со звуком в реальном времени, если это не было фактически выполнено.
 
 ## Reference rules
 
 - `@image1`, `@video1` и т. п. локальны для конкретной сцены.
-- Для проверки внешности нужны реальные references.
-- Character/model sheet имеет приоритет для внешности/одежды; environment/group refs вторичны.
-- Continuous take не смешивать с hard cuts/shot-reverse-shot/inserts без явной причины.
+- Для проверки внешности нужны реальные references; текстовое имя ref не заменяет изображение.
+- Модель-лист/character reference имеет приоритет для внешности и одежды; environment/group refs вторичны.
+- Для continuous take не смешивать требование непрерывного дубля с hard cuts/shot-reverse-shot/inserts без явной причины.
+- Не вводить model-specific параметры как глобальное правило без проверки конкретного provider/model mode.
 
 ## Роли ИИ
 
 ### ChatGPT — основной редактор по умолчанию
+При команде `добавь/измени/удали ... в мастер`:
 1. fresh-read Drive master;
-2. изменить только approved block;
-3. сохранить same Drive file ID;
-4. обновить TOC/count/status при необходимости;
+2. изменить только нужный блок;
+3. сохранить тот же Drive file ID;
+4. обновить связанные TOC/count/status;
 5. обновить `SYNC-TRIGGER.txt`;
-6. проверить workflow → health → Pages.
+6. проверить workflow → `project-status.json` → Pages.
 
 ### Work
-Для многосценового, монтажного, backlog/analysis и широкого аудита. При записи — тот же Drive master, без второго master.
+Использовать для многосценового, монтажного, backlog/analysis и широкого аудита. При записи в master — только тот же Drive file ID, без второго master.
 
 ### Claude
-Review-only по умолчанию. При явном назначении временным основным редактором переходит на `CLAUDE-TAKEOVER-RUNBOOK.md`.
+По умолчанию review-only. Если пользователь прямо назначает Claude временным основным редактором, Claude переходит на `CLAUDE-TAKEOVER-RUNBOOK.md` и сначала выполняет capability preflight.
 
 ### Gemini
-Независимая проверка prompt + visual references.
+Независимая проверка prompt + visual references. Не строить сайт/приложение только потому, что дан project URL.
 
 ### DeepSeek
-Технический аудит: contradictions, timing, camera/action conflicts, overload, reference priority, negative constraints, continuity.
+Технический аудит: противоречия, тайминг, camera/action conflicts, overload, reference priority, negative constraints, continuity.
 
 ### Grok
-Creative/comedy/pacing second opinion при сохранении continuity.
+Creative/comedy/pacing second opinion или red-team готового implementation plan. Не менять established continuity без запроса.
 
 ### Другие ИИ
-Review-only по умолчанию. Рекомендации привязывать к точным scene IDs/names.
+Review-only по умолчанию. Привязывать рекомендации к точным scene IDs/names и сначала подтверждать audit fingerprint.
 
 ## Передача советов между ИИ
 
-Внешний ИИ возвращает patch/replacement/recommendation. Канон меняет только один текущий редактор. Не создавать `video-prompts-final`, `v2`, `copy`, `final-final`.
+Внешний ИИ возвращает patch/replacement/recommendation. Канон меняет только один текущий редактор. Нельзя создавать `video-prompts-final`, `v2`, `copy`, `final-final`.
+
+Consensus — evidence, not authority. Реальный актуальный master, validator и фактический результат генерации важнее количества голосов ИИ.
 
 ## Conflict priority
 
 1. текущая явная команда пользователя;
-2. свежий Drive master;
+2. свежий Drive `video-prompts.md` для состояния master;
 3. factual `film-analysis.md`;
 4. `film-backlog.md`;
 5. старые Notion notes;

@@ -1,28 +1,41 @@
-# AI Film Prompts — Claude Takeover Runbook v2
+# AI Film Prompts — Claude Takeover Runbook v3.5
 
 Эта инструкция используется только когда пользователь явно назначил Claude временным основным редактором из-за недоступности ChatGPT. По умолчанию Claude остаётся review-only.
 
-## Неизменяемые правила v2
+## Safety summary v3.5
 
-- Единственный editable master: Google Drive `AI Film Prompts Master/video-prompts.md`.
-- GitHub — public read-only mirror и источник Pages.
-- Routine sync: fresh-read Drive master → edit same Drive file ID → `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub mirror + `project-status.json` → Pages → verification.
-- Library, Notion и Drive HTML — backup/documentation, не обязательны после каждой сцены.
-- Full checkpoint — только по explicit request/milestone/architecture change.
-- Scene IDs после удаления не перенумеровывать; gaps допустимы.
-- Slow-status `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` совпадает в четырёх местах: global status, dedicated slow table, TOC row, full scene section.
-- Человекочитаемые даты — `DD.MM.YYYY`.
-- `index.html` — viewer, scene content не hard-code; montage review ведёт на rendered GitHub Pages HTML.
-- `ГОТОВО` — только после фактической проверки требуемого результата.
+Полные правила — `SYNC-RUNBOOK.md`. Минимум:
 
-## Перед началом takeover
+- Единственный редактируемый prompt master — существующий Google Drive `video-prompts.md` с file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+- GitHub — public read-only mirror; Library/Notion не становятся временным master.
+- `project-status.json` schema v3 генерируется автоматически; вручную его не править.
+- Scene IDs не перенумеровывать. Slow-сцену не перезапускать без результата/ошибки или разрешения.
+- Пять Drive-инструкций канонические для своих GitHub-зеркал.
+- Если `instruction_sync.health = unverified`, не выдавать это за подтверждённое совпадение инструкций.
 
-Прочитать:
+## Перед началом takeover — capability preflight
+
+До первой записи проверить доступные инструменты.
+
+Claude может принять editor-role только если доступный Drive action умеет **заменить raw contents существующего canonical file по тому же file ID**, а не только читать/переименовывать/перемещать или создавать новый файл.
+
+Если такой операции нет:
+- не создавать `video-prompts-copy`, `final`, `v2` и т. п.;
+- не объявлять себя фактическим editor;
+- подготовить точный patch/replacement text;
+- попросить пользователя/ChatGPT применить patch к существующему file ID;
+- продолжать как review-only.
+
+## Что прочитать
+
 1. этот файл;
 2. `SYNC-RUNBOOK.md`;
 3. `AI-PROJECT-GUIDE.md`;
 4. fresh Drive `video-prompts.md`;
-5. `film-analysis.md` / `film-backlog.md`, если задача зависит от сюжета/continuity.
+5. current `project-status.json` fingerprint;
+6. `film-analysis.md` / `film-backlog.md`, если задача зависит от сюжета/continuity.
+
+Перед выводами повторить fingerprint: revision, master SHA, scene IDs, W-items, slow scenes, health, instruction sync health. Если snapshot старый — обновить источники.
 
 ## Работа с master
 
@@ -31,21 +44,32 @@
 - обновлять TOC/counts/W/slow invariants;
 - scene IDs после удаления не перенумеровывать;
 - не создавать параллельный master;
-- для визуальной проверки нужны actual references.
+- actual references нужны для визуальной проверки;
+- optional `scene-meta` добавлять только валидным блоком; `render_state` вручную не задавать.
 
 ## Sync
 
 Если GitHub write доступен:
 1. update `SYNC-TRIGGER.txt`;
 2. дождаться `sync-from-drive.yml`;
-3. проверить `project-status.json` health;
-4. проверить Pages.
+3. проверить Actions success;
+4. проверить `project-status.json` health + fingerprint;
+5. проверить Pages.
 
 Если GitHub write недоступен:
-- Drive edit можно выполнить;
+- Drive edit можно выполнять только если capability preflight пройден;
 - немедленный trigger может быть недоступен;
-- scheduled workflow должен подтянуть Drive;
-- не заявлять, что Pages обновлён, пока это фактически не подтверждено.
+- scheduled workflow позже подтянет master;
+- не заявлять, что GitHub/Pages обновлены, пока это не подтверждено.
+
+## Instruction changes
+
+Если takeover затрагивает одну из пяти Drive-инструкций:
+- изменять тот же Drive file ID;
+- считать Drive authoritative;
+- GitHub mirror обновлять отдельно через доступный authenticated path;
+- не менять privacy Drive-файла ради Actions;
+- `instruction_sync: unverified` не считать ошибкой master, но явно сообщать, что automatic instruction verification не настроена.
 
 ## Сайт
 
@@ -53,18 +77,20 @@
 
 ## Notion/Library
 
-Не обновлять после каждой сцены. Обновлять при architecture changes, milestones, explicit backup/full checkpoint.
+Не обновлять их после каждой сцены. Обновлять при architecture changes, milestones, explicit backup/full checkpoint.
 
 ## Возврат управления ChatGPT
 
 Сообщить:
 - какие Drive files/scenes изменены;
+- capability preflight result;
 - был ли trigger/workflow;
-- health;
+- Actions health;
+- project fingerprint;
 - Pages;
-- менялись ли Notion/Library/instructions;
-- что осталось не подтверждено.
+- менялись ли instructions/Notion/Library;
+- что осталось `unverified`.
 
 ## Recovery
 
-Если память потеряна: этот файл → `SYNC-RUNBOOK.md` → `AI-PROJECT-GUIDE.md` → fresh Drive master → status/Pages → film context при необходимости.
+Если память потеряна: этот файл → `SYNC-RUNBOOK.md` → `AI-PROJECT-GUIDE.md` → fresh Drive master → `project-status.json` fingerprint → film context при необходимости.
