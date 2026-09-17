@@ -8,10 +8,14 @@ def fail(msg):
     print(f"ERROR: {msg}", file=sys.stderr)
     raise SystemExit(1)
 
+def display_date_to_iso(value: str) -> str:
+    day, month, year = value.split('.')
+    return f"{year}-{month}-{day}"
+
 def parse_master(path: Path, synced_at: str | None = None):
     text = path.read_text(encoding='utf-8')
 
-    rev = re.search(r"\*\*(\d{4}-\d{2}-\d{2}) · (\d+) сцен[^·\n]* · (\d+) полн", text)
+    rev = re.search(r"\*\*(\d{2}\.\d{2}\.\d{4}) · (\d+) сцен[^·\n]* · (\d+) полн", text)
     if not rev:
         fail('revision line not found')
     revision_date, declared_scenes, declared_prompts = rev.group(1), int(rev.group(2)), int(rev.group(3))
@@ -29,7 +33,7 @@ def parse_master(path: Path, synced_at: str | None = None):
     slow_scenes = [int(x) for x in re.findall(r"\d+", slow.group(2))]
 
     master_sync = re.search(
-        r"Последняя полная синхронизация:\*\*\s*\*\*(\d{4}-\d{2}-\d{2}) · (\d{2}:\d{2}) \(([+-]\d{2}:\d{2})\)",
+        r"Последняя полная синхронизация:\*\*\s*\*\*(\d{2}\.\d{2}\.\d{4}) · (\d{2}:\d{2}) \(([+-]\d{2}:\d{2})\)",
         text,
     )
     if not master_sync:
@@ -66,7 +70,8 @@ def parse_master(path: Path, synced_at: str | None = None):
     # timestamp declared in the canonical Drive master. Scheduled validation
     # therefore creates no meaningless commits when the master is unchanged.
     if synced_at is None:
-        synced_at = f"{master_sync.group(1)}T{master_sync.group(2)}:00{master_sync.group(3)}"
+        iso_date = display_date_to_iso(master_sync.group(1))
+        synced_at = f"{iso_date}T{master_sync.group(2)}:00{master_sync.group(3)}"
 
     status = {
         'schema_version': 1,
