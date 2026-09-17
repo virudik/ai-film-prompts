@@ -1,28 +1,29 @@
-# AI Film Prompts — Full Sync Runbook v2
+# AI Film Prompts — Full Sync Runbook v3.5
 
-Эта инструкция — главный технический runbook для ChatGPT/основного редактора проекта. При новом чате или восстановлении сначала читать этот файл, затем `AI-PROJECT-GUIDE.md`, затем свежий Drive `video-prompts.md`.
+Эта инструкция — главный нормативный технический runbook для ChatGPT/основного редактора проекта. При новом чате или восстановлении сначала читать этот файл, затем `AI-PROJECT-GUIDE.md`, затем свежий Drive `video-prompts.md`.
 
-## Неизменяемые правила v2
+## Неизменяемые правила v3.5
 
-- Единственный редактируемый master: Google Drive `AI Film Prompts Master/video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-- GitHub `virudik/ai-film-prompts` — публичное read-only зеркало и источник GitHub Pages.
-- `project-status.json` — автоматически генерируемый machine-status; вручную его не редактировать.
-- Обычная синхронизация: **fresh-read Drive master → edit same Drive file ID → update `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub `video-prompts.md` + `project-status.json` → GitHub Pages → verification**.
-- `sync-from-drive.yml` также выполняет страховочную проверку по расписанию примерно каждые 30 минут.
-- ChatGPT Library, Notion и Drive `video-prompts.html` — backup/documentation layers. Они **не являются gate обычной правки сцены**.
-- Полный обход Drive HTML + инструкции + Library + GitHub + Pages + Notion выполняется только при explicit backup/checkpoint, изменении архитектуры или по команде **«полная ручная синхронизация всего и везде»**.
+- Единственный редактируемый prompt master: Google Drive `AI Film Prompts Master/video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+- GitHub `virudik/ai-film-prompts` — публичное read-only зеркало и источник GitHub Pages. GitHub не становится master даже при недоступности других слоёв.
+- Пять Drive-инструкций — канонические для своих GitHub-зеркал: `AI-PROJECT-GUIDE.md`, `SYNC-RUNBOOK.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `CLAUDE-TAKEOVER-RUNBOOK.md`.
+- `project-status.json` schema v3 — автоматически генерируемый machine-status; вручную его не редактировать.
+- Routine sync: **fresh-read Drive master → edit same Drive file ID → update `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub `video-prompts.md` + generated `project-status.json` → GitHub Pages → verification**.
+- `sync-from-drive.yml` выполняет страховочную проверку примерно каждые 30 минут. На текущем этапе он автоматически читает Drive master; приватные Drive-инструкции через Actions не скачиваются.
 - Перед каждой фактической записью в master обязательно заново читать свежий Drive `video-prompts.md`.
-- Scene ID — стабильный идентификатор. После удаления готовой сцены остальные сцены **не перенумеровывать ради непрерывности**. Пропуски допустимы; IDs должны быть уникальными и идти по возрастанию в TOC/sections.
-- После успешной генерации и закрытия сцены удалять её из активного master, если промт больше не нужен.
-- Точная видимая надпись slow-status: `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`.
-- Slow-status должен совпадать **в четырёх местах**: (1) верхний status block, (2) dedicated slow-generation table/block, (3) TOC row, (4) full scene section.
+- Scene ID — стабильный идентификатор. После удаления сцены остальные ID не перенумеровывать; пропуски допустимы.
+- После принятия и закрытия сцены удалять её из активного master, если промт больше не нужен.
+- Точная видимая slow-надпись: `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`.
+- Slow-status должен совпадать в четырёх ручных местах master: верхний status block, dedicated slow block/table, TOC row, full scene section. Валидатор это проверяет.
+- `render_state` в schema v3 **вычисляется** из существующего slow-list: slow → `SLOW_PENDING`, иначе `IDLE`. Не создавать пятое ручное slow-поле.
 - Медленную сцену нельзя запускать повторно без подтверждённого результата/ошибки или отдельного разрешения пользователя.
-- Человекочитаемые даты: **DD.MM.YYYY**. ISO допустим только внутри machine/API/JSON полей.
-- На сайте `Инструкция для ИИ` и `Для владельца` должны быть рядом как две половинные кнопки; `Инструкция для ИИ` не должна переноситься (`white-space: nowrap`).
-- `Монтажный разбор фильма` должен открывать rendered GitHub Pages HTML `Seregius_montazhny_razbor.html`, а не Google Drive preview.
+- `scene_meta` опционален; если блок присутствует, он обязан быть валидным. Невалидный JSON, production state, duration или dependency target должны валить validation.
+- Человекочитаемые даты: **DD.MM.YYYY**. ISO — machine/API/JSON only.
 - `index.html` — viewer, не master; сценовый контент не hard-code. Он читает root `video-prompts.md` и `project-status.json` с `cache: no-store`.
-- Старый `_source/part-*.md` + `build-master.yml` считается legacy и не используется для построения master.
-- Нельзя говорить `ГОТОВО`, пока обязательная для выбранного режима проверка фактического результата не завершена.
+- Library, Notion и Drive `video-prompts.html` — backup/documentation layers, не gate routine edit.
+- Полный checkpoint обязателен при architecture/instruction changes, milestone, explicit backup/full-sync.
+- Старый `_source/part-*.md` + `build-master.yml` — legacy и не используется.
+- Не говорить `ГОТОВО`, пока обязательные проверки выбранного режима не подтверждены фактически.
 
 ## Постоянные точки проекта
 
@@ -35,11 +36,65 @@
 - `README-AI-SYNC.md`: `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
 - `CLAUDE-TAKEOVER-RUNBOOK.md`: `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
 - `NEW-CHAT-HANDOFF.md`: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
+- `film-analysis.md`: `1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M`
+- `film-backlog.md`: `1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9`
 - Notion Hub: `3ddfe763-7762-81c0-b8fd-e7c61895df4a`
 - GitHub repo: `virudik/ai-film-prompts`
 - Public viewer: `https://virudik.github.io/ai-film-prompts/`
 - Raw master: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md`
 - Rendered montage review: `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`
+
+## Schema v3 / project-status.json
+
+`project-status.json` сохраняет старые top-level поля для backward compatibility и добавляет:
+
+- `schema_version: 3`;
+- `canonical_master_sha256` + `canonical_master_bytes`;
+- `audit_fingerprint`;
+- `scene_meta`;
+- `instruction_sync`;
+- дополнительные validator checks.
+
+### Audit fingerprint
+
+Минимум:
+- revision date;
+- sync timestamp;
+- canonical master SHA-256;
+- scene/prompt counts;
+- scene IDs;
+- W-items;
+- slow scenes;
+- project health;
+- instruction sync health.
+
+Перед внешним аудитом ИИ обязан повторить фактически видимый fingerprint. Если он не совпадает с текущим — сначала обновить sources.
+
+### Production state vs render state
+
+Если `scene_meta` используется, допустимые production states:
+- `DRAFT`
+- `READY`
+- `NEEDS_FIX`
+- `RESULT_RECEIVED`
+- `NEEDS_RERENDER`
+- `APPROVED`
+- `IN_EDIT`
+- `CLOSED`
+
+`render_state` — отдельное machine state и не заменяет production state.
+
+### instruction_sync
+
+Пять instruction Drive files остаются приватными/каноническими. GitHub Actions сейчас не имеет authenticated Drive access к ним.
+
+Поэтому допустимое текущее machine-state:
+- `instruction_sync.health = unverified`
+- warning `instruction_sync_unverified`
+
+Это **не** означает, что master unhealthy. Нельзя подменять `unverified` значением `ok` без фактической authenticated/hash проверки.
+
+При ручном/архитектурном checkpoint основной редактор должен fresh-read Drive инструкции, обновить их GitHub mirrors и подтвердить совпадение содержимого/хэшей вручную или через подключённый Drive/GitHub.
 
 ## Как обслуживать master
 
@@ -57,6 +112,22 @@
 
 При удалении принятой сцены удалить TOC row и section, обновить counts/statuses. Остальные ID не сдвигать.
 
+## scene-meta
+
+`scene-meta` — optional structured layer. Его отсутствие допустимо. Если он есть, он не должен дублировать slow-state вручную.
+
+Разрешённые conceptual fields:
+- `target_engine`;
+- `production_state`;
+- `duration_s`;
+- `dialogue`;
+- `dependencies`;
+- `tags`.
+
+Dependency targets обязаны указывать на существующие active scene IDs. Prose inference не является authoritative dependency state.
+
+Не вставлять metadata массово во все сцены только ради заполнения полей. Добавлять постепенно и проверяемо.
+
 ## Integrity check master
 
 Перед записью/публикацией проверить:
@@ -64,10 +135,12 @@
 - declared scene count = количество TOC rows;
 - TOC IDs = section IDs;
 - ID уникальны и возрастают; непрерывность не требуется;
-- declared prompt count = фактическое число fenced prompt blocks;
+- declared prompt count = число fenced prompt blocks;
 - W-count = число W-items;
-- slow-count/list совпадает с dedicated slow table, TOC и sections;
-- нет старой версии изменяемой сцены в другом месте файла.
+- slow-count/list совпадает с dedicated slow block, TOC и sections;
+- нет старой версии изменяемой сцены в другом месте;
+- присутствующий `scene-meta` валиден;
+- dependency targets существуют.
 
 ## Обычный sync
 
@@ -75,45 +148,62 @@
 2. Внести только утверждённую правку в тот же Drive file ID.
 3. Обновить `SYNC-TRIGGER.txt`.
 4. Дождаться `sync-from-drive.yml`.
-5. Проверить `project-status.json` → `health: ok`.
-6. Проверить успешный GitHub Pages deployment.
-7. Проверить raw/site на наличие изменённой фразы/статуса.
-8. Только после этого сообщить `ГОТОВО`.
+5. Проверить Actions success.
+6. Проверить `project-status.json` → `health: ok`.
+7. Проверить fingerprint/counts/slow list.
+8. Проверить успешный GitHub Pages deployment.
+9. Проверить raw/site на изменённую фразу/статус.
+10. Только после этого сообщить `ГОТОВО`.
 
-Library/Notion/Drive HTML при этом не трогать, если не было отдельной причины.
+`instruction_sync: unverified` сам по себе routine scene edit не блокирует, если instructions в этой операции не менялись.
+
+Library/Notion/Drive HTML при routine edit не трогать без отдельной причины.
+
+## Instruction edit / architecture edit
+
+Если изменяется одна из пяти Drive-инструкций:
+1. редактировать тот же Drive file ID;
+2. считать Drive версию authoritative;
+3. обновить соответствующий GitHub mirror;
+4. не делать инструкцию публичной в Drive только ради GitHub Actions;
+5. проверить содержимое/хэш Drive↔GitHub доступным authenticated способом;
+6. выполнить full checkpoint, если изменение архитектурное;
+7. `instruction_sync.health` оставлять `unverified`, пока автоматическая authenticated verification не внедрена; ручной факт сверки сообщать отдельно.
 
 ## Полная ручная синхронизация всего и везде
 
-При explicit full checkpoint:
+При explicit full checkpoint / architecture change:
 1. fresh-read Drive master;
 2. проверить целостность master;
-3. обновить Drive `video-prompts.html`;
-4. привести пять Drive-инструкций к актуальной архитектуре;
-5. обновить Library master + HTML + пять инструкций + резерв сайта/index при наличии;
-6. обновить GitHub master/изменённые инструкции/site files;
+3. проверить `project-status.json` schema/fingerprint;
+4. обновить Drive `video-prompts.html` при необходимости;
+5. привести пять Drive-инструкций к актуальной архитектуре;
+6. обновить GitHub master/изменённые instructions/site files;
 7. trigger/дождаться `sync-from-drive.yml`;
 8. проверить Actions success;
-9. проверить `project-status.json` health;
+9. проверить `project-status.json` health + fingerprint;
 10. проверить Pages deployment success;
-11. обновить Notion Hub и пять instruction pages;
-12. end-to-end проверить raw master и публичный viewer;
-13. сообщить `ГОТОВО` только если обязательные пункты подтверждены.
+11. обновить Library master/HTML/instructions/site reserve при наличии;
+12. обновить Notion Hub и instruction pages;
+13. end-to-end проверить raw master и public viewer;
+14. сообщить `ГОТОВО` только если обязательные пункты подтверждены; отдельно перечислить всё, что осталось `unverified`.
 
 ## Как обслуживать сайт
 
 - Источник scene content — GitHub root `video-prompts.md`.
 - `index.html` только отображает master/status.
+- UI может использовать schema v3, но не должен становиться editable source-of-truth.
 - После изменения master проверять Pages deployment и публичную ревизию.
 - Если сайт кажется старым: Drive → GitHub root → `project-status.json` → Pages deployment → viewer.
-- `Seregius_montazhny_razbor.html` публикуется как отдельная rendered Pages page.
+- `Seregius_montazhny_razbor.html` публикуется отдельной rendered Pages page.
 
 ## Notion
 
-Notion Hub — navigation/documentation hub, не второй master. В нём должны быть ссылки на Drive/GitHub/site и пять дочерних копий инструкций. Live counts/timestamps не дублировать как источник истины; брать их из master/`project-status.json`.
+Notion Hub — navigation/documentation hub, не второй master. Live counts/timestamps брать из master/`project-status.json`, не дублировать как источник истины.
 
 ## Library
 
-Library — резерв ChatGPT. Никогда не считать её свежее Drive без проверки. При полном checkpoint Library master/HTML/instructions должны быть обновлены до текущего состояния, но routine sync от этого не зависит.
+Library — резерв ChatGPT. Никогда не считать её свежее Drive без проверки. Routine sync от Library не зависит.
 
 ## Recovery
 
@@ -122,5 +212,6 @@ Library — резерв ChatGPT. Никогда не считать её све
 2. этот `SYNC-RUNBOOK.md`;
 3. `AI-PROJECT-GUIDE.md`;
 4. fresh Drive `video-prompts.md`;
-5. при необходимости `film-analysis.md` + `film-backlog.md`;
-6. проверить `project-status.json` и Pages.
+5. `project-status.json` fingerprint;
+6. при необходимости `film-analysis.md` + `film-backlog.md`;
+7. проверить Pages.
