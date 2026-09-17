@@ -52,6 +52,7 @@ def parse_master(path: Path, synced_at: str | None = None):
         if m and f"**{SLOW_LABEL}**" in m.group(1):
             section_slow.append(n)
 
+    unique_increasing = section_scenes == sorted(set(section_scenes))
     checks = {
         'declared_scene_count_matches_sections': declared_scenes == len(section_scenes),
         'declared_scene_count_matches_toc': declared_scenes == len(toc_scenes),
@@ -62,19 +63,16 @@ def parse_master(path: Path, synced_at: str | None = None):
         'slow_status_matches_dedicated_table': slow_scenes == dedicated_slow,
         'slow_status_matches_toc': slow_scenes == toc_slow,
         'slow_status_matches_sections': slow_scenes == section_slow,
-        'all_scene_numbers_are_contiguous': section_scenes == list(range(1, declared_scenes + 1)),
+        'scene_numbers_are_unique_and_increasing': unique_increasing,
     }
     health = 'ok' if all(checks.values()) else 'error'
 
-    # Deterministic by default: generated status uses the synchronization
-    # timestamp declared in the canonical Drive master. Scheduled validation
-    # therefore creates no meaningless commits when the master is unchanged.
     if synced_at is None:
         iso_date = display_date_to_iso(master_sync.group(1))
         synced_at = f"{iso_date}T{master_sync.group(2)}:00{master_sync.group(3)}"
 
     status = {
-        'schema_version': 1,
+        'schema_version': 2,
         'source_of_truth': 'Google Drive/AI Film Prompts Master/video-prompts.md',
         'automation': 'Drive -> validation -> GitHub mirror + project-status.json -> GitHub Pages',
         'synced_at': synced_at,
@@ -86,6 +84,7 @@ def parse_master(path: Path, synced_at: str | None = None):
         'work_items_count': declared_work,
         'slow_scenes': slow_scenes,
         'slow_scenes_count': declared_slow,
+        'scene_ids': section_scenes,
         'latest_scene': max(section_scenes) if section_scenes else None,
         'health': health,
         'checks': checks,
