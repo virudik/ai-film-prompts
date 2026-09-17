@@ -1,1 +1,1 @@
-2026-09-17T14:40+03:00 — full sync: revision/status block 18 scenes / 21 prompts / 3 early work items / 5 slow-generation scenes; exact sync timestamp propagated across Drive/Library/Notion/GitHub instructions.
+2026-09-17T15:00+03:00 — full sync: revision/status block 18 scenes / 21 prompts / 3 early work items / 5 slow-generation scenes; exact sync timestamp propagated across Drive/Library/Notion/GitHub instructions and public site verification requested.
