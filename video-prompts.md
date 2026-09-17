@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**17.09.2026 · 17 сцен к генерации/доработке · 20 полных текстов промтов**
+**18.09.2026 · 17 сцен к генерации/доработке · 20 полных текстов промтов**
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
 - **⏳ 4** сцены сейчас в медленной генерации: **2, 6, 14, 15** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
@@ -67,6 +67,8 @@
 <a id="scene-1"></a>
 
 ## Сцена 1 — Джедаи на крыше: проход с зажжёнными мечами
+
+<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["ensemble","continuous_take","manual_review"]} -->
 
 **Контекст использования:** Сверка: наличие именно этого прохода шестёрки в готовой сборке не подтверждено. Варианты A/B — на выбор; место и необходимость сверить перед генерацией (P1 в film-backlog.md).
 
@@ -278,6 +280,8 @@ Negative prompt: face swap, face duplication, merged characters, missing charact
 
 ## Сцена 2 — Джедаи на крыше: триумфальный марш без мечей
 
+<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["ensemble","continuous_take","manual_review"]} -->
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
 Повторно не запускать до результата/ошибки или отдельного решения пользователя.
@@ -474,6 +478,8 @@ Negative prompt: ignited lightsabers, glowing blades, weapons in hands, face swa
 
 ## Сцена 3 — Космическая погоня: экстерьер
 
+<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","needs_fix","continuity"]} -->
+
 **Контекст использования:** Сверка: актуальная связка со сценой 4; сцена 5 — альтернатива всей связке. Космический бой уже есть в фильме, поэтому выбрать заменяемый участок части 1 / 21:10–23:55 (P3).
 
 **Референсы:** @image1 = стартовый космический кадр · @image2 = точный дизайн транспортного корабля
@@ -503,6 +509,8 @@ Negative prompt: slow calm opening, static holding shot, ship geometry changing,
 
 ## Сцена 4 — Космическая погоня: интерьер кабины
 
+<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":17,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":3}],"tags":["action","needs_fix","continuity"]} -->
+
 **Контекст использования:** Сверка: прямое продолжение сцены 3. Перед генерацией сопоставить корабль, экипаж и конечный кадр с монтажом; не добавлять одновременно с альтернативой 5 (P4).
 
 **Референсы:** @image3 = точный первый кадр и оба персонажа в кабине · @image4 = точный последний кадр с пилотом крупным планом
@@ -531,6 +539,8 @@ Negative prompt: face swapping between characters, identity drift, extra crew me
 <a id="scene-5"></a>
 
 ## Сцена 5 — Космическая погоня: единый дубль через стекло
+
+<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"alternative_to","targets":[3,4]}],"tags":["action","continuous_take","alternative","manual_review"]} -->
 
 **Контекст использования:** Сверка: выбирать 3+4 ИЛИ 5. Этот дубль не является третьей обязательной частью погони (P5).
 
@@ -562,6 +572,8 @@ Negative prompt: camera cut or hard edit, glass shattering, glass vanishing inst
 <a id="scene-6"></a>
 
 ## Сцена 6 — Подводный рынок: странный фрукт
+
+<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy","camera_conflict","needs_fix"]} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -614,6 +626,8 @@ NEGATIVE PROMPT: no on-screen text, no logos, no subtitles, no extra background 
 <a id="scene-7"></a>
 
 ## Сцена 7 — Канцлер: зеркало в туалете
+
+<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["manual_review","visual_effect"]} -->
 
 **Контекст использования:** Сверка: готовность именно этого ролика и его монтажное место не подтверждены. Сохранён актуальный текст; сначала определить связь сцены с основным действием (P7).
 
@@ -676,6 +690,8 @@ mirror frame, no glitching background fixtures.
 
 ## Сцена 9 — Пещера: бой с монстром
 
+<!-- scene-meta: {"target_engine":"Wan 3","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","manual_review"]} -->
+
 **Контекст использования:** Сверка: бой и победа уже есть в части 2 / 19:45–20:55, но именно финал с отрубленными частями тела не подтверждён. W1 использует такое состояние монстра; до проверки не удалять этот промт и не запускать повторную генерацию всего боя автоматически (P9).
 
 **Референсы:** @Image1 = Jedi 1 в синей тунике · @Image2 = Jedi 2 в коричневой робе и очках · @Image3 = Chancellor/Sith Lord · @Video1 = монстр и окружение пещеры
@@ -725,6 +741,8 @@ NEGATIVE PROMPT: red liquid blood, organic guts, intact monster, monster survivi
 <a id="scene-10"></a>
 
 ## Сцена 10 — Кантина: допрос про товар, часть 1
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","needs_fix"]} -->
 
 **Контекст использования:** Сверка: актуальная связка со сценой 11. В фильме уже есть контакт в кантине; наличие именно разговора Хана о товаре не подтверждено. При замене сохранить функцию эпизода с картой (P10).
 
@@ -780,6 +798,8 @@ NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual wo
 
 ## Сцена 11 — Кантина: допрос про товар, часть 2
 
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":10}],"tags":["dialogue","needs_fix","continuity"]} -->
+
 **Контекст использования:** Сверка: продолжение сцены 10. Плёнка на стекле уже показана в части 1 / 19:05–19:36; здесь нужно уточнить смысл повторного вопроса о плёнке, не представлять сцену без пояснения как её первое получение. Реплики пока сохранены (P11).
 
 **Референсы:** те же @Image1 = композиция/Чубакка · @Image2 = Han · @Image3 = Jedi
@@ -832,6 +852,8 @@ NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual wo
 
 ## Сцена 12 — Кантина: вход двух джедаев
 
+<!-- scene-meta: {"target_engine":"Wan 3","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["continuous_take","manual_review"]} -->
+
 **Контекст использования:** Сверка: вход в кантину уже есть по сюжетной функции. Перед генерацией проверить, нужен ли именно этот дубль как замена существующему входу (P12).
 
 **Референсы:** @Image1 = точный стартовый кадр со спины · @Image2 = Hooded Jedi · @Image3 = Bearded Jedi · @Image4 = зал кантины
@@ -877,6 +899,8 @@ NEGATIVE PROMPT: characters speaking, subtitles, text on screen, camera cuts or 
 <a id="scene-13"></a>
 
 ## Сцена 13 — Совет джедаев: говорящий кот
+
+<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","comedy","continuous_take"]} -->
 
 **Контекст использования:** Новый активный промт на основе бывшей W4. 30-секундный deadpan-бит после того, как решение Совета уже принято; лишнее затем можно укоротить на монтаже. В кадре сидят те же Black и Purple, которые участвуют в лесной линии; их модель-шиты используются как первичные референсы идентичности.
 
@@ -943,6 +967,8 @@ identity drift, face swap, face duplication, costume swap, missing mustache, wro
 
 ## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
 
+<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy"]} -->
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
 Повторно не запускать до результата/ошибки или отдельного решения пользователя.
@@ -1003,6 +1029,8 @@ identity drift, different face, different age, full head of hair, robe color cha
 <a id="scene-15"></a>
 
 ## Сцена 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями
+
+<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"]} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -1071,6 +1099,8 @@ identity drift, face swap, merged characters, body-shape swap, costume swap, mis
 
 ## Сцена 16 — Татуин: гигантский пустынный червь и бой на руинах
 
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"]} -->
+
 **Контекст использования:** Новый активный промт на основе бывшей W6. 30-секундная большая пустынная сцена для Seedance 2.5: двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
 
 **Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor
@@ -1132,6 +1162,8 @@ small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, 
 <a id="scene-17"></a>
 
 ## Сцена 17 — Пещера: передышка после монстра и разговор о карте
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"depends_on","scene":9}],"tags":["dialogue","continuous_take","continuity"]} -->
 
 **Контекст использования:** Новый активный промт на основе бывшей W1. Это прямое продолжение сцены 9: после тяжёлой победы над чудовищем трое бойцов наконец получают короткую передышку. Промт рассчитан на Seedance 2.5 и специально расширен до 30 секунд, чтобы на монтаже можно было укоротить или использовать целиком как напряжённый переход к следующему блоку.
 
@@ -1196,6 +1228,8 @@ new monster attack, living monster, red liquid blood, guts, gore, comedy tone, r
 <a id="scene-18"></a>
 
 ## Сцена 18 — Имперский крейсер: Канцлер и офицер в коридоре
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"NEEDS_RERENDER","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","needs_rerender"]} -->
 
 **Контекст использования:** Активная 30-секундная диалоговая сцена для Seedance 2.5. Предыдущий результат получился слишком мультяшным/глянцевым, поэтому обе версии ниже специально усиливают live-action realism: реальные фактуры кожи и ткани, физически правдоподобный свет, сдержанная актёрская игра, тяжёлый материальный интерьер и одна непрерывная камера без монтажной «нарезки». Вариант A — максимально нейтральный и модель-дружелюбный; вариант B — более узнаваемая атмосфера мрачного имперского военного крейсера.
 
