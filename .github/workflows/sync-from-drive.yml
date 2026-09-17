@@ -42,34 +42,30 @@ jobs:
           grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
           grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
-      - name: Validate Drive master
+      - name: Validate master and generate deterministic project status
         shell: bash
         run: |
           set -euo pipefail
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --check-only
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json
 
-      - name: Sync changed master and generated status
+      - name: Repair mirrors only when needed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          changed=0
           if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
-            mv /tmp/drive-video-prompts.md video-prompts.md
-            changed=1
+            cp /tmp/drive-video-prompts.md video-prompts.md
           fi
 
-          if [ "$changed" -eq 1 ] || [ ! -s project-status.json ]; then
-            python3 scripts/build_project_status.py video-prompts.md --output project-status.json
-          else
-            python3 scripts/build_project_status.py video-prompts.md --check-only >/dev/null
+          if ! cmp -s /tmp/project-status.json project-status.json; then
+            cp /tmp/project-status.json project-status.json
           fi
 
           git add video-prompts.md project-status.json
           if git diff --cached --quiet; then
-            echo "Master is current and health checks passed. Nothing to commit."
+            echo "Master mirror and project status are current; health checks passed."
             exit 0
           fi
 
