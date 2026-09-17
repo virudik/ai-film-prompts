@@ -18,7 +18,7 @@
 - Scene IDs стабильны и могут иметь пропуски. **После удаления готовой сцены остальные не перенумеровывать.**
 - Сцена **8 «Кашиик — спор на мосту»** завершена и удалена из active master.
 - Slow-сцены **2, 6, 12, 14, 15, 18 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
-- `project-status.json` сейчас: **schema v3 · health = ok · canonical master SHA-256 = `5d5b7ad0fc28c8a655bb614c0e7bcaeb6e16ccd8481322915b4d46f8f491b06d`**; все обязательные integrity/scene-meta checks = true.
+- `project-status.json` сейчас: **schema v3 · health = ok · canonical master SHA-256 = `a739d6890382e54c443958c1e1d124a147aa29fed50a321328c22a5dd2060520`**; все обязательные integrity/scene-meta checks = true.
 - `audit_fingerprint` — обязательная проверка свежести перед внешним аудитом: revision/hash, scene/prompt counts, scene IDs, W-items, slow list, health и instruction-sync health.
 - `instruction_sync.health = unverified` — ожидаемое честное состояние: приватные Drive-инструкции вручную выровнены с зеркалами в checkpoint, но автоматической authenticated hash-проверки из GitHub Actions пока нет.
 - На момент этого refresh проверенный GitHub Actions master-sync: **run #85 — success**; проверенный Pages deployment: **#121 — success**. Точные более новые номера всегда перепроверять live в Actions.
@@ -262,7 +262,7 @@ Notion Hub:
 `project-status.json`:
 
 - schema_version: **3**
-- canonical_master_sha256: **`5d5b7ad0fc28c8a655bb614c0e7bcaeb6e16ccd8481322915b4d46f8f491b06d`**
+- canonical_master_sha256: **`a739d6890382e54c443958c1e1d124a147aa29fed50a321328c22a5dd2060520`**
 - scenes: **17**
 - prompt_texts: **20**
 - work_items: **W5, W7, W8**
@@ -271,11 +271,12 @@ Notion Hub:
 - instruction_sync: **unverified** (automatic authenticated Drive instruction verification not configured)
 - health: **ok**
 - все обязательные integrity/scene-meta checks: **true**
+- текущие slow-render engines подтверждены Topview read-only сверкой: **2/6/14 = Seedance 2.5; 12/15/18 = Wan 3.0**
 
 GitHub Actions / Pages:
 
-- checkpoint master-sync: **run #85 = success**;
-- checkpoint Pages deployment: **#121 = success**;
+- checkpoint master-sync: **run #91 = success**;
+- checkpoint Pages deployment: **#131 = success**;
 - более новые номера всегда сверять live; номера run/deployment не являются вечным каноническим статусом.
 
 ### Известное ограничение независимой HTTP-проверки
