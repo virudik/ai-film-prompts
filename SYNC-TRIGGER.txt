@@ -1,1 +1,1 @@
-2026-09-17T06:53+03:00 — sync scene 15 direction correction and current master updates.
+2026-09-17T07:31+03:00 — full sync: scene 18, slow-generation statuses, guides, runbook, Drive/GitHub/Pages/Notion.
