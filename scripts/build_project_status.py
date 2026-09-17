@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import argparse, json, re, sys
 from pathlib import Path
-from datetime import datetime, timezone, timedelta
 
 SLOW_LABEL = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
 
@@ -29,8 +28,13 @@ def parse_master(path: Path, synced_at: str | None = None):
     declared_slow = int(slow.group(1))
     slow_scenes = [int(x) for x in re.findall(r"\d+", slow.group(2))]
 
-    master_sync = re.search(r"Последняя полная синхронизация:\*\*\s*\*\*(\d{4}-\d{2}-\d{2} · \d{2}:\d{2} \([+-]\d{2}:\d{2}\))", text)
-    master_declared_sync = master_sync.group(1) if master_sync else None
+    master_sync = re.search(
+        r"Последняя полная синхронизация:\*\*\s*\*\*(\d{4}-\d{2}-\d{2}) · (\d{2}:\d{2}) \(([+-]\d{2}:\d{2})\)",
+        text,
+    )
+    if not master_sync:
+        fail('last full synchronization timestamp not found')
+    master_declared_sync = f"{master_sync.group(1)} · {master_sync.group(2)} ({master_sync.group(3)})"
 
     section_scenes = [int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M)]
     toc_scenes = [int(x) for x in re.findall(r"^\|\s*(\d+)\s*\|\s*\[", text, re.M)]
@@ -58,13 +62,16 @@ def parse_master(path: Path, synced_at: str | None = None):
     }
     health = 'ok' if all(checks.values()) else 'error'
 
+    # Deterministic by default: generated status uses the synchronization
+    # timestamp declared in the canonical Drive master. Scheduled validation
+    # therefore creates no meaningless commits when the master is unchanged.
     if synced_at is None:
-        synced_at = datetime.now(timezone(timedelta(hours=3))).isoformat(timespec='seconds')
+        synced_at = f"{master_sync.group(1)}T{master_sync.group(2)}:00{master_sync.group(3)}"
 
     status = {
         'schema_version': 1,
         'source_of_truth': 'Google Drive/AI Film Prompts Master/video-prompts.md',
-        'automation': 'Drive -> GitHub -> project-status.json -> GitHub Pages',
+        'automation': 'Drive -> validation -> GitHub mirror + project-status.json -> GitHub Pages',
         'synced_at': synced_at,
         'revision_date': revision_date,
         'master_declared_last_full_sync': master_declared_sync,
