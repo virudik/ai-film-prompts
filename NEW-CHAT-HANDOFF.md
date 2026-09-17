@@ -1,8 +1,8 @@
-# AI Film Prompts — NEW CHAT HANDOFF v3
+# AI Film Prompts — NEW CHAT HANDOFF v3.5
 
 **Назначение:** аварийная/операционная передача проекта новому чату или другому основному ИИ без опоры на память предыдущей сессии.
 
-**Последнее обновление handoff:** 17.09.2026.
+**Последнее обновление handoff:** 18.09.2026.
 
 Этот файл должен оставаться коротким путеводителем по проекту, но достаточно полным, чтобы новый основной редактор мог безопасно восстановить контекст, найти канонические источники и продолжить работу без создания второго master.
 
@@ -18,9 +18,10 @@
 - Scene IDs стабильны и могут иметь пропуски. **После удаления готовой сцены остальные не перенумеровывать.**
 - Сцена **8 «Кашиик — спор на мосту»** завершена и удалена из active master.
 - Slow-сцены **2, 6, 14, 15 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
-- `project-status.json` сейчас: **health = ok**, все integrity checks = true.
-- На момент этого refresh последняя проверенная страховочная синхронизация GitHub Actions: **Sync run #76 — success**. Точный текущий номер всегда перепроверять live в Actions.
-- GitHub Pages после обновления handoff публикуется автоматически; успешный post-handoff Pages build подтверждён. Точный текущий номер deployment намеренно не считается каноническим — его проверять live в Actions.
+- `project-status.json` сейчас: **schema v3 · health = ok · canonical master SHA-256 = `5d5b7ad0fc28c8a655bb614c0e7bcaeb6e16ccd8481322915b4d46f8f491b06d`**; все обязательные integrity/scene-meta checks = true.
+- `audit_fingerprint` — обязательная проверка свежести перед внешним аудитом: revision/hash, scene/prompt counts, scene IDs, W-items, slow list, health и instruction-sync health.
+- `instruction_sync.health = unverified` — ожидаемое честное состояние: приватные Drive-инструкции вручную выровнены с зеркалами в checkpoint, но автоматической authenticated hash-проверки из GitHub Actions пока нет.
+- На момент этого refresh проверенный GitHub Actions master-sync: **run #85 — success**; проверенный Pages deployment: **#121 — success**. Точные более новые номера всегда перепроверять live в Actions.
 - Если другой файл, старый чат, Library, Notion или старый backlog противоречат свежему Drive master по активным сценам/slow-status — **свежий Drive master имеет приоритет**.
 
 ---
@@ -55,7 +56,7 @@
 - Slow scenes: **2, 6, 14, 15**
 - Scene IDs: **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18**
 - Latest scene ID: **18**
-- `project-status.json`: **health: ok**
+- `project-status.json`: **schema v3 · health: ok · audit fingerprint активен · instruction_sync: unverified**
 
 ### Активные сцены — быстрый индекс
 
@@ -139,7 +140,7 @@ Slow-status должен совпадать в **4 местах master**:
 
 ---
 
-## 6. Архитектура v2 — как всё синхронизируется
+## 6. Архитектура v3.5 — как всё синхронизируется
 
 ### Единственный editable master
 
@@ -153,7 +154,11 @@ File ID:
 
 **fresh-read Drive master → edit same Drive file ID → update `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → validation → GitHub `video-prompts.md` + `project-status.json` → GitHub Pages → verification**
 
-`sync-from-drive.yml` дополнительно выполняет страховочную проверку примерно каждые 30 минут.
+`sync-from-drive.yml` дополнительно выполняет страховочную проверку примерно каждые 30 минут. Он автоматически читает Drive master. Пять приватных Drive-инструкций сейчас не скачиваются Actions анонимно: их канонические Drive-версии зеркалируются в GitHub/Library/Notion через authenticated checkpoint-путь.
+
+`project-status.json` schema v3 сохраняет старые поля и добавляет `canonical_master_sha256`, `audit_fingerprint`, optional validated `scene_meta`, generated `render_state` и `instruction_sync`. Для slow-сцен `render_state = SLOW_PENDING` вычисляется из существующего slow-list — отдельное пятое ручное поле не создаётся.
+
+Пять Drive-инструкций (`AI-PROJECT-GUIDE.md`, `SYNC-RUNBOOK.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `CLAUDE-TAKEOVER-RUNBOOK.md`) канонические для своих GitHub/Library/Notion-копий. Полный нормативный operational block находится в `SYNC-RUNBOOK.md`; остальные entry-point документы держат короткий safety-summary.
 
 ### Что НЕ является gate обычной правки сцены
 
@@ -186,7 +191,7 @@ File ID:
 - slow-count/list совпадает с dedicated slow table, TOC и sections;
 - нет второй старой версии изменяемой сцены в другом месте файла.
 
-`project-status.json` генерируется автоматически. **Не редактировать его вручную.**
+`project-status.json` schema v3 генерируется автоматически. **Не редактировать его вручную.** Если `scene-meta` присутствует, невалидный JSON/state/duration/dependency target должен валить validation. `instruction_sync: unverified` не считать ошибкой master и не подменять на `ok` без фактической authenticated проверки.
 
 Нельзя писать пользователю `ГОТОВО`, пока обязательная для выбранного режима проверка реального результата не выполнена.
 
@@ -243,18 +248,22 @@ Notion Hub:
 
 `project-status.json`:
 
-- schema_version: **2**
+- schema_version: **3**
+- canonical_master_sha256: **`5d5b7ad0fc28c8a655bb614c0e7bcaeb6e16ccd8481322915b4d46f8f491b06d`**
 - scenes: **17**
 - prompt_texts: **20**
 - work_items: **W5, W7, W8**
 - slow_scenes: **2, 6, 14, 15**
+- generated slow render_state: **SLOW_PENDING = 2, 6, 14, 15**
+- instruction_sync: **unverified** (automatic authenticated Drive instruction verification not configured)
 - health: **ok**
-- все integrity checks: **true**
+- все обязательные integrity/scene-meta checks: **true**
 
-GitHub Actions:
+GitHub Actions / Pages:
 
-- на момент refresh был проверен `Sync canonical master from Google Drive`: **run #76**, `success` (schedule insurance run); более новый номер всегда сверять live.
-- обновление handoff в GitHub само запускает новый Pages deployment, поэтому «последний номер Pages» нельзя хранить в этом же файле как вечный факт. После первого v3 commit был отдельно подтверждён **Pages #109 = success**; после последующих doc-only commits проверять Actions live.
+- checkpoint master-sync: **run #85 = success**;
+- checkpoint Pages deployment: **#121 = success**;
+- более новые номера всегда сверять live; номера run/deployment не являются вечным каноническим статусом.
 
 ### Известное ограничение независимой HTTP-проверки
 
@@ -324,7 +333,7 @@ GitHub Actions:
 
 ## 15. Готовая команда новому ChatGPT
 
-> Мы продолжаем AI-film project. Сначала прочитай свежие Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и `video-prompts.md`. Единственный editable master — Drive `video-prompts.md` с file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Не создавай второй master. Перед любой записью fresh-read master. Scene IDs стабильны и могут иметь gaps. Текущий active/work/slow status бери из fresh master / `project-status.json`, даже если `film-backlog.md` содержит более старый operational status. Slow-сцены нельзя перезапускать без результата/ошибки или моего разрешения. Для story/continuity используй `film-analysis.md` и `film-backlog.md`, но не утверждай непрерывный просмотр всего фильма, если его не было. Routine sync: Drive → trigger → validation → GitHub/status → Pages. Library/Notion/Drive HTML — backup/documentation layers. Перед `ГОТОВО` проверь обязательный фактический результат.
+> Мы продолжаем AI-film project. Сначала прочитай свежие Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и `video-prompts.md`, затем повтори `audit_fingerprint` из `project-status.json`. Единственный editable prompt master — Drive `video-prompts.md` с file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Не создавай второй master. Перед любой записью fresh-read master. Scene IDs стабильны и могут иметь gaps. Текущий active/work/slow status бери из fresh master / `project-status.json`, даже если `film-backlog.md` содержит более старый operational status. Slow-сцены нельзя перезапускать без результата/ошибки или моего разрешения; machine `render_state` вычисляется из slow-list. Для story/continuity используй `film-analysis.md` и `film-backlog.md`, но не утверждай непрерывный просмотр всего фильма, если его не было. Routine sync: Drive → trigger → validation → GitHub/status → Pages. `instruction_sync: unverified` означает отсутствие автоматической authenticated проверки приватных инструкций, а не поломку master. Library/Notion/Drive HTML — backup/documentation layers. Перед `ГОТОВО` проверь обязательный фактический результат.
 
 ---
 
