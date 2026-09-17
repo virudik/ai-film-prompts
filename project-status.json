@@ -1,15 +1,25 @@
 {
   "schema_version": 1,
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
-  "automation": "Drive -> GitHub -> project-status.json -> GitHub Pages",
-  "synced_at": "2026-09-17T17:55:19+03:00",
+  "automation": "Drive -> validation -> GitHub mirror + project-status.json -> GitHub Pages",
+  "synced_at": "2026-09-17T17:01:00+03:00",
   "revision_date": "2026-09-17",
-  "master_declared_last_full_sync": "2026-09-17 · 17:55 (+03:00)",
+  "master_declared_last_full_sync": "2026-09-17 · 17:01 (+03:00)",
   "scenes": 18,
   "prompt_texts": 21,
-  "work_items": ["W5", "W7", "W8"],
+  "work_items": [
+    "W5",
+    "W7",
+    "W8"
+  ],
   "work_items_count": 3,
-  "slow_scenes": [2, 6, 8, 14, 15],
+  "slow_scenes": [
+    2,
+    6,
+    8,
+    14,
+    15
+  ],
   "slow_scenes_count": 5,
   "latest_scene": 18,
   "health": "ok",
