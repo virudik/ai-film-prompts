@@ -26,9 +26,9 @@
 
 Текущий контрольный снимок проекта: **18 сцен к генерации/доработке · 21 полный текст промтов · 🛠️ 3 в раннем блоке (W5, W7, W8) · ⏳ 5 в медленной генерации (2, 6, 8, 14, 15)**.
 
-Текущее зафиксированное время полной синхронизации: **2026-09-17 · 15:35 (+03:00)**.
+Текущее зафиксированное время полной синхронизации: **2026-09-17 · 16:38 (+03:00)**.
 
-При каждой **полной синхронизации** строка/пункт `Последняя полная синхронизация` и абзац `Синхронизация` в master-файле должны быть обновлены на фактическое время завершения синхронизации, в формате `YYYY-MM-DD · HH:MM (UTC offset)`, например `2026-09-17 · 15:35 (+03:00)`. Нельзя оставлять только дату без времени. Если меняются число сцен, prompt-текстов, work-items или slow-generation status, обновить этот статус одновременно во всех зеркалах и инструкциях.
+При каждой **полной синхронизации** строка/пункт `Последняя полная синхронизация` и абзац `Синхронизация` в master-файле должны быть обновлены на фактическое время завершения синхронизации, в формате `YYYY-MM-DD · HH:MM (UTC offset)`, например `2026-09-17 · 16:38 (+03:00)`. Нельзя оставлять только дату без времени. Если меняются число сцен, prompt-текстов, work-items или slow-generation status, обновить этот статус одновременно во всех зеркалах и инструкциях.
 
 ## Обязательные правила отображения сайта и статусов
 
@@ -65,6 +65,8 @@
   - file ID: `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
 - `SYNC-RUNBOOK.md`
   - file ID: `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
+- `CLAUDE-TAKEOVER-RUNBOOK.md`
+  - file ID: `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
 - `film-analysis.md`
   - file ID: `1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M`
 - `film-backlog.md`
@@ -128,14 +130,15 @@ When a generated clip is accepted and the prompt is no longer needed:
 
 ## 5. Slow-generation protection
 
-A scene marked `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ / НЕ ЗАПУСКАТЬ ПОВТОРНО` must not be submitted again unless the user explicitly says the previous run failed, completed, or authorizes a new run.
+A scene marked `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` must not be submitted again unless the user explicitly says the previous run failed, completed, or authorizes a new run.
 
-The slow-generation state must agree in all three places:
+The slow-generation state must agree in all required places:
 1. top global status block;
-2. the scene row in the contents table;
-3. the scene's own section.
+2. dedicated slow-generation block/table;
+3. the scene row in the contents table;
+4. the scene's own section.
 
-When status is removed, remove it from all three places in one edit.
+When status is removed, remove it from all these places in one edit.
 
 ## 6. Project context
 
@@ -182,6 +185,11 @@ If Claude does not have GitHub write access:
 - do not claim a structural site/UI change was made if `index.html` could not be edited;
 - record any needed site-structure change for later in Notion or report it to the user.
 
+Permanent site rules Claude must preserve:
+- Montage review button/link → `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`, not Drive preview.
+- `Инструкция для ИИ` button stays on one line.
+- Slow-generation visible label is exactly `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`, on its own next line in TOC cells, with no leading dash and no internal wrapping.
+
 ## 9. End-to-end sync checklist
 
 When the user says `синхронизируй всё`, `обнови мастер везде`, or equivalent, Claude should execute this checklist if it is the active editor:
@@ -191,64 +199,37 @@ When the user says `синхронизируй всё`, `обнови масте
 3. Integrity-check counts, contents table, anchors, W-block, duplicates and slow-generation state.
 4. Save back to the same Drive master file ID.
 5. Update Drive `video-prompts.html` only as a derived viewer if Claude has the same workflow/tooling; never treat it as source.
-6. Update GitHub root mirror directly if GitHub write access exists; otherwise rely on/trigger Drive sync if available and report that limitation.
-7. Verify raw GitHub master reflects the change.
-8. Verify GitHub Pages shows the current revision/scene after deployment when possible.
-9. Update Notion Hub current status if production state or permanent instructions changed.
-10. Update Notion instruction copy of this file if this file itself changed.
-11. Report exactly what was changed and any destination that could not be updated.
+6. Update GitHub root mirror directly if GitHub write access exists; otherwise rely on/trigger the Drive→GitHub workflow and verify after it runs.
+7. Update instruction mirrors if rules changed.
+8. Update Notion Hub and instruction copies if available.
+9. Verify public GitHub raw and Pages viewer after deployment.
+10. Report clearly what succeeded and what could not be updated due to permissions/tool availability.
+
+Never report `готово / fully synchronized` before external verification.
 
 ## 10. Notion
 
-Notion page `AI Video Prompts — Master Hub` is a navigation/status hub, not a master prompt file.
+Notion page `AI Video Prompts — Master Hub` is a navigation/status hub, not a separate prompt master.
 
-It should contain:
-- Drive folder and canonical master links;
-- GitHub repo/raw/viewer links;
-- current slow-generation list;
-- current revision note;
-- copies/links to project instructions;
-- a child page for this Claude takeover runbook.
+If Claude has Notion edit access:
+- update Hub status/timestamp when full synchronization changes them;
+- keep copies of all five instruction documents current:
+  - `SYNC-RUNBOOK.md`
+  - `USER-GUIDE.md`
+  - `AI-PROJECT-GUIDE.md`
+  - `README-AI-SYNC.md`
+  - `CLAUDE-TAKEOVER-RUNBOOK.md`
+- never create an independent editable copy of `video-prompts.md` in Notion.
 
-When Claude has Notion access, keep Hub status aligned after meaningful production changes. Do not paste the entire canonical `video-prompts.md` into Notion as an independently editable second master.
+## 11. Taking over after memory loss
 
-## 11. How Claude should handle reference images
-
-Reference labels like `@image1` are local to each scene. Do not assume `@image1` means the same person across scenes.
-
-For visual review or exact identity work, Claude needs the actual reference images/videos. The master text tells what each ref is used for, but not the pixels. If the user asks whether a prompt matches a character's face/costume and the reference is not visible, request it instead of guessing.
-
-## 12. Handoff between Claude and ChatGPT
-
-If Claude took over while ChatGPT was unavailable, at the end of the emergency session give the user a short handoff summary containing:
-- which Drive files were changed;
-- which scene numbers changed;
-- whether GitHub root was synchronized;
-- whether Pages was verified;
-- whether Notion Hub was updated;
-- any unresolved item or destination without write access.
-
-Recommended return-to-ChatGPT message:
-
-`Claude временно обслуживал проект. Он изменил сцены N..., обновил Drive master, [GitHub/Notion status]. Сначала прочитай свежие CLAUDE-TAKEOVER-RUNBOOK.md, SYNC-RUNBOOK.md и video-prompts.md на Google Drive, затем проверь зеркала.`
-
-## 13. Access / permissions reality
-
-This runbook being present in Drive, Notion, and public GitHub does not itself grant Claude a private connector permission. Connector access is determined by the user's Claude account and its connected Google Drive/Notion/GitHub integrations.
-
-If Claude is already connected to the same Google Drive and Notion accounts, it should be able to find and use these files there according to those permissions. If not, the public GitHub copy of this runbook and the public raw master provide read access without private connectors.
-
-Do not ask the user to paste API keys, OAuth tokens or personal access tokens into chat. If GitHub write access is needed in Claude, the safe approach is to connect/authorize GitHub through Claude's own supported connector/UI.
-
-## 14. Recovery if all chat memory is gone
-
-Start here:
-1. open this `CLAUDE-TAKEOVER-RUNBOOK.md`;
-2. open `SYNC-RUNBOOK.md`;
-3. open `AI-PROJECT-GUIDE.md`;
-4. fetch the freshest Drive `video-prompts.md`;
-5. read `film-analysis.md` and `film-backlog.md` only if the task needs film-level context;
-6. inspect the target scene and current statuses;
+If Claude starts with no previous-chat memory:
+1. read this takeover runbook;
+2. read `SYNC-RUNBOOK.md`;
+3. read `AI-PROJECT-GUIDE.md`;
+4. read fresh Drive `video-prompts.md`;
+5. read `film-analysis.md` / `film-backlog.md` if needed;
+6. inspect GitHub/Pages/Notion when synchronization state matters;
 7. perform the requested change using the write/sync protocol above.
 
 The project is intentionally file-based so that losing model memory or old chats does not destroy the workflow.
