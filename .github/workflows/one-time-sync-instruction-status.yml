@@ -26,16 +26,18 @@ jobs:
           set -euo pipefail
           RU_FILES=(SYNC-RUNBOOK.md USER-GUIDE.md README-AI-SYNC.md CLAUDE-TAKEOVER-RUNBOOK.md)
           for f in "${RU_FILES[@]}"; do
-            sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' "$f"
-            sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' "$f"
+            sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' "$f"
+            sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' "$f"
+            sed -i 's/2026-09-17 · 15:00 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' "$f"
             if ! grep -q 'Текущее зафиксированное время полной синхронизации' "$f"; then
-              perl -0pi -e 's/(Текущий контрольный снимок проекта:.*?\n)/$1\nТекущее зафиксированное время полной синхронизации: **2026-09-17 · 15:00 (+03:00)**.\n/' "$f"
+              perl -0pi -e 's/(Текущий контрольный снимок проекта:.*?\n)/$1\nТекущее зафиксированное время полной синхронизации: **2026-09-17 · 15:35 (+03:00)**.\n/' "$f"
             fi
           done
-          sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' AI-PROJECT-GUIDE.md
-          sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' AI-PROJECT-GUIDE.md
+          sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' AI-PROJECT-GUIDE.md
+          sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' AI-PROJECT-GUIDE.md
+          sed -i 's/2026-09-17 · 15:00 (+03:00)/2026-09-17 · 15:35 (+03:00)/g' AI-PROJECT-GUIDE.md
           if ! grep -q 'Current recorded full-sync time' AI-PROJECT-GUIDE.md; then
-            perl -0pi -e 's/(Current control snapshot:.*?\n)/$1\nCurrent recorded full-sync time: **2026-09-17 · 15:00 (+03:00)**.\n/' AI-PROJECT-GUIDE.md
+            perl -0pi -e 's/(Current control snapshot:.*?\n)/$1\nCurrent recorded full-sync time: **2026-09-17 · 15:35 (+03:00)**.\n/' AI-PROJECT-GUIDE.md
           fi
 
       - name: Commit changes
