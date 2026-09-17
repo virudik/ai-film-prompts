@@ -1,1 +1,1 @@
-2026-09-17T14:13+03:00 — run instruction-status propagation after full master sync trigger; current status 18 scenes / 21 prompt texts / 3 early work / 5 slow scenes.
+2026-09-17T14:40+03:00 — full sync: revision/status block 18 scenes / 21 prompts / 3 early work items / 5 slow-generation scenes; exact sync timestamp propagated across Drive/Library/Notion/GitHub instructions.
