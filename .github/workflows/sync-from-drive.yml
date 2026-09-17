@@ -1,4 +1,4 @@
-name: Sync canonical master and instructions from Google Drive
+name: Sync canonical master from Google Drive
 
 on:
   workflow_dispatch:
@@ -10,11 +10,6 @@ on:
       - 'SYNC-TRIGGER.txt'
       - '.github/workflows/sync-from-drive.yml'
       - 'scripts/build_project_status.py'
-      - 'AI-PROJECT-GUIDE.md'
-      - 'SYNC-RUNBOOK.md'
-      - 'USER-GUIDE.md'
-      - 'README-AI-SYNC.md'
-      - 'CLAUDE-TAKEOVER-RUNBOOK.md'
 
 permissions:
   contents: write
@@ -47,153 +42,32 @@ jobs:
           grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
           grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
-      - name: Download canonical instruction files from Google Drive
+      - name: Validate master and generate deterministic project status
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/ai-film-instructions
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json
 
-          download_instruction() {
-            local name="$1"
-            local file_id="$2"
-            local expected_heading="$3"
-            local output="/tmp/ai-film-instructions/${name}"
-
-            curl -L --fail --retry 3 --retry-delay 2 \
-              "https://drive.usercontent.google.com/download?id=${file_id}&export=download&confirm=t" \
-              -o "${output}"
-
-            test -s "${output}"
-            if grep -qi '<!doctype html\|accounts.google.com' "${output}"; then
-              echo "Refusing to use HTML/login response as ${name}" >&2
-              exit 1
-            fi
-            head -n 1 "${output}" | grep -Fqx "${expected_heading}"
-          }
-
-          download_instruction \
-            "AI-PROJECT-GUIDE.md" \
-            "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u" \
-            "# AI Film Project — Start Here v2"
-
-          download_instruction \
-            "SYNC-RUNBOOK.md" \
-            "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4" \
-            "# AI Film Prompts — Full Sync Runbook v2"
-
-          download_instruction \
-            "USER-GUIDE.md" \
-            "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO" \
-            "# Как пользоваться проектом AI Film Prompts — v2"
-
-          download_instruction \
-            "README-AI-SYNC.md" \
-            "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX" \
-            "# AI Video Prompts — synchronization rules v2"
-
-          download_instruction \
-            "CLAUDE-TAKEOVER-RUNBOOK.md" \
-            "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1" \
-            "# AI Film Prompts — Claude Takeover Runbook v2"
-
-      - name: Repair canonical source mirrors in worktree
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
-            cp /tmp/drive-video-prompts.md video-prompts.md
-          fi
-
-          for name in \
-            AI-PROJECT-GUIDE.md \
-            SYNC-RUNBOOK.md \
-            USER-GUIDE.md \
-            README-AI-SYNC.md \
-            CLAUDE-TAKEOVER-RUNBOOK.md
-          do
-            if ! cmp -s "/tmp/ai-film-instructions/${name}" "${name}"; then
-              cp "/tmp/ai-film-instructions/${name}" "${name}"
-            fi
-          done
-
-      - name: Choose deterministic instruction snapshot time
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          source_files=(
-            video-prompts.md
-            AI-PROJECT-GUIDE.md
-            SYNC-RUNBOOK.md
-            USER-GUIDE.md
-            README-AI-SYNC.md
-            CLAUDE-TAKEOVER-RUNBOOK.md
-          )
-
-          if git diff --quiet -- "${source_files[@]}"; then
-            previous="$(
-              python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          path = Path("project-status.json")
-          value = ""
-          if path.is_file():
-              try:
-                  data = json.loads(path.read_text(encoding="utf-8"))
-                  value = data.get("instruction_sync", {}).get("snapshot_at") or ""
-              except (json.JSONDecodeError, OSError):
-                  value = ""
-          print(value)
-          PY
-            )"
-            if [ -n "${previous}" ]; then
-              snapshot_at="${previous}"
-            else
-              snapshot_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            fi
-          else
-            snapshot_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          fi
-
-          echo "INSTRUCTION_SNAPSHOT_AT=${snapshot_at}" >> "${GITHUB_ENV}"
-
-      - name: Validate repaired snapshot and generate deterministic project status
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 scripts/build_project_status.py \
-            /tmp/drive-video-prompts.md \
-            --output /tmp/project-status.json \
-            --instruction-dir /tmp/ai-film-instructions \
-            --repo-root . \
-            --instruction-snapshot-at "${INSTRUCTION_SNAPSHOT_AT}"
-
-      - name: Commit repaired mirrors and generated status atomically
+      - name: Repair mirrors only when needed
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
+            cp /tmp/drive-video-prompts.md video-prompts.md
+          fi
+
           if ! cmp -s /tmp/project-status.json project-status.json; then
             cp /tmp/project-status.json project-status.json
           fi
 
-          git add \
-            video-prompts.md \
-            project-status.json \
-            AI-PROJECT-GUIDE.md \
-            SYNC-RUNBOOK.md \
-            USER-GUIDE.md \
-            README-AI-SYNC.md \
-            CLAUDE-TAKEOVER-RUNBOOK.md
-
+          git add video-prompts.md project-status.json
           if git diff --cached --quiet; then
-            echo "Canonical mirrors and project status are current; health checks passed."
+            echo "Master mirror and project status are current; health checks passed."
             exit 0
           fi
 
-          git commit -m "Sync Drive master, instructions and generated project status"
+          git commit -m "Sync Drive master and generated project status"
           git push
