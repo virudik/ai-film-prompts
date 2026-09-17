@@ -19,8 +19,8 @@
 - Сцена **8 «Кашиик — спор на мосту»** завершена и удалена из active master.
 - Slow-сцены **2, 6, 14, 15 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
 - `project-status.json` сейчас: **health = ok**, все integrity checks = true.
-- Последняя подтверждённая страховочная синхронизация GitHub Actions: **Sync run #76 — success**.
-- Последняя подтверждённая публикация GitHub Pages: **deployment #108 — success**.
+- На момент этого refresh последняя проверенная страховочная синхронизация GitHub Actions: **Sync run #76 — success**. Точный текущий номер всегда перепроверять live в Actions.
+- GitHub Pages после обновления handoff публикуется автоматически; успешный post-handoff Pages build подтверждён. Точный текущий номер deployment намеренно не считается каноническим — его проверять live в Actions.
 - Если другой файл, старый чат, Library, Notion или старый backlog противоречат свежему Drive master по активным сценам/slow-status — **свежий Drive master имеет приоритет**.
 
 ---
@@ -253,8 +253,8 @@ Notion Hub:
 
 GitHub Actions:
 
-- последний подтверждённый `Sync canonical master from Google Drive`: **run #76**, `success` (schedule insurance run).
-- последний подтверждённый `pages build and deployment`: **#108**, `success`.
+- на момент refresh был проверен `Sync canonical master from Google Drive`: **run #76**, `success` (schedule insurance run); более новый номер всегда сверять live.
+- обновление handoff в GitHub само запускает новый Pages deployment, поэтому «последний номер Pages» нельзя хранить в этом же файле как вечный факт. После первого v3 commit был отдельно подтверждён **Pages #109 = success**; после последующих doc-only commits проверять Actions live.
 
 ### Известное ограничение независимой HTTP-проверки
 
