@@ -47,6 +47,14 @@ Claude может принять editor-role только если доступ�
 - actual references нужны для визуальной проверки;
 - optional `scene-meta` добавлять только валидным блоком; `render_state` вручную не задавать.
 
+## Production status / сайт
+
+- `NEEDS_FIX` = кандидат на отдельное обсуждение правки; не переписывать prompt автоматически.
+- `NEEDS_RERENDER` = известна необходимость нового дубля, но новый запуск требует соблюдения slow-lock/решения пользователя.
+- `SLOW_PENDING` вычисляется из canonical slow-list, не редактируется вручную.
+- Пользовательские подписи Control Center — русские; machine enum schema v3 не переименовывать.
+- Не hard-code slow/status/scene content в `index.html`.
+
 ## Sync
 
 Если GitHub write доступен:
@@ -70,6 +78,10 @@ Claude может принять editor-role только если доступ�
 - GitHub mirror обновлять отдельно через доступный authenticated path;
 - не менять privacy Drive-файла ради Actions;
 - `instruction_sync: unverified` не считать ошибкой master, но явно сообщать, что automatic instruction verification не настроена.
+
+## Topview evidence
+
+Если Topview подключён, его board/task metadata можно читать для сверки фактического запуска, модели, prompt и технического результата. Не считать Topview вторым master; неоднозначный task не привязывать к scene ID автоматически, а `success` не означает user approval.
 
 ## Сайт
 
