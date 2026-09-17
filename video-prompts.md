@@ -4,20 +4,21 @@
 
 **Канонический источник:** `video-prompts.md`. Это единственный редактируемый мастер; `video-prompts.html` генерируется из него автоматически и вручную не редактируется.
 
-**Ревизия:** 2026-09-16 · 15 сцен · 17 полных текстов промтов · сцены 13–15 переведены на 30 секунд.
+**Ревизия:** 2026-09-17 · 17 сцен · 19 полных текстов промтов · сцены 13–17 актуальны; сцены 14 и 15 переведены в медленную генерацию.
 
-Синхронизация 16 сентября 2026: фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 15 сцен и 17 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+Синхронизация 17 сентября 2026: фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 17 сцен и 19 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации — НЕ ЗАПУСКАТЬ ПОВТОРНО
 
-На 16 сентября 2026 уже запущены и могут считаться несколько дней: **сцены 2, 6, 8 и 12**. Пока не получен результат или явная ошибка генерации, **не отправлять эти сцены повторно**, даже если их промты остаются в активном мастер-файле.
+На 17 сентября 2026 уже запущены и могут считаться несколько дней: **сцены 2, 6, 8, 14 и 15**. Пока не получен результат или явная ошибка генерации, **не отправлять эти сцены повторно**, даже если их промты остаются в активном мастер-файле.
 
 | Сцена | Статус | Действие |
 |---|---|---|
 | 2 — Джедаи на крыше: триумфальный марш без мечей | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
 | 6 — Подводный рынок: странный фрукт | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
 | 8 — Кашиик: спор на мосту | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
-| 12 — Кантина: вход двух джедаев | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+| 14 — Канцлер: сбор грибов в гигантском лесу | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
+| 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями | ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ | Не запускать повторно |
 
 Статус снимается только после результата/ошибки или отдельного решения пользователя о новом запуске.
 
@@ -34,7 +35,7 @@
 | 9 | [Пещера — бой с монстром](#scene-9) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = монстр/пещера | Трое бойцов продолжают сражение с гигантским ящером в пещере; финал — победа над существом. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
-| 12 | ⏳ [Кантина — вход двух джедаев](#scene-12) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
+| 12 | [Кантина — вход двух джедаев](#scene-12) | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
 | 13 | [Совет джедаев — говорящий кот](#scene-13) | @image1 = композиция/локация; @image2 = кот; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
 | 14 | [Канцлер — сбор грибов в гигантском лесу](#scene-14) | @image3 = Chancellor | Канцлер с неожиданным энтузиазмом ищет и собирает грибы среди колоссальных древних деревьев; визуально сцена серьёзная, юмор сухой и контрастный. |
 | 15 | [Кашиик — сверхбыстрые прыжки между деревьями](#scene-15) | @image4 = Black; @image5 = Purple | Те же лесные джедаи на огромной скорости пересекают гигантский лес, отталкиваясь от стволов и ветвей, выполняя длинные контролируемые прыжки без мультяшной стилизации. |
@@ -47,13 +48,11 @@
 
 | ID | Сцена в работе | Базовые референсы | Что уже понятно |
 |---|---|---|---|
-| W1 | Пещера — передышка после боя | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = пещера/монстр | Прямое продолжение после сцены боя с монстром: трое измотаны, сидят на отрубленных частях тела чудовища и начинают разговор о карте. |
 | W5 | Канцлер и Warcraft 3 | референс Канцлера | Сквозная мотивация: Канцлер хочет сесть играть/успеть на турнир по Warcraft 3, а джедаи всё время его отвлекают и мешают. |
-| W6 | Татуин — червь, драка и побег верхом | референсы татуинных джедаев, Канцлера и пустынной локации | В пустыне/на развалинах герои обсуждают карту, появляется гигантский червь, разрушает машину, джедаи дерутся с Канцлером на фоне угрозы, а в финале Канцлер запрыгивает на червя и уезжает верхом. |
 | W7 | Переходы между группами | конечные и начальные кадры соседних блоков | Сначала определить смысл перехода и проверить существующий материал; ключевые места — выход из Татуина к Набу, после монстра к лесной группе, после захвата карты к компьютеру. Полный перечень T1–T5/M4 — в film-backlog.md. |
 | W8 | Недоделанные гонки и транспорт | референсы конкретного корабля/машины и экипажа | Для космической погони выбрать сцены 3+4 либо 5; татуинскую гонку согласовать с W6, чтобы машина не появлялась после уничтожения. Уточнить, какие конкретные дубли ещё нужны; не генерировать все перемещения заново. |
 
-**Привязки для разработки (рекомендации, не утверждённые точки резки):** W1 — после части 2 / 20:55; W5 — ранняя мотивация и её завершение у компьютера; W6 — переработка развязки Татуина в районе части 2 / 08:05–09:30. Перед финальными промтами W1/W5/W6 определить судьбу карты. Бывшие W2/W3/W4 получили конкретные референсы и перенесены в готовые активные промты: сцены 14/15/13 соответственно. Эти строки не являются готовыми промтами.
+**Привязки для разработки (рекомендации, не утверждённые точки резки):** W5 — ранняя мотивация и её завершение у компьютера; W7 — переходы между крупными блоками; W8 — недоделанные гонки и транспорт. Бывшие W1/W6/W2/W3/W4 получили конкретные референсы и перенесены в готовые активные промты: сцены 17/16/14/15/13 соответственно. Эти строки не являются готовыми промтами.
 
 ---
 
@@ -896,8 +895,6 @@ NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual wo
 
 ## Сцена 12 — Кантина: вход двух джедаев
 
-**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
-
 **Контекст использования:** Сверка: вход в кантину уже есть по сюжетной функции. Перед генерацией проверить, нужен ли именно этот дубль как замена существующему входу (P12).
 
 **Референсы:** @Image1 = точный стартовый кадр со спины · @Image2 = Hooded Jedi · @Image3 = Bearded Jedi · @Image4 = зал кантины
@@ -1009,6 +1006,8 @@ identity drift, face swap, face duplication, costume swap, missing mustache, wro
 
 ## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
 
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
+
 **Контекст использования:** Новый активный промт на основе бывшей W2. 30-секундная серьёзно снятая комедийная вставка перед/внутри лесной линии: пока другие персонажи ищут опасного Канцлера, он с неожиданным искренним энтузиазмом занят грибами. Излишки затем можно сократить на монтаже.
 
 **Референсы:** @image3 = Chancellor, точный модель-шит лица, телосложения и тёмно-фиолетовой мантии. Лес задаётся текстом: огромные древние деревья, густой влажный подлесок, масштаб почти монументальный.
@@ -1066,11 +1065,13 @@ identity drift, different face, different age, full head of hair, robe color cha
 
 ## Сцена 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями
 
-**Контекст использования:** Новый активный промт на основе бывшей W3. 30-секундный динамический переход лесной группы между стоянкой/маршрутом и деревней; лишние фрагменты можно укоротить на монтаже. В кадре те же Black и Purple, что в сцене 13 и в сцене 8 на мосту.
+**Статус генерации:** ⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ — уже запущено; до результата/ошибки повторно не запускать.
+
+**Контекст использования:** Новый активный промт на основе бывшей W3. 30-секундный динамический переход лесной группы **из лесной деревни в глубину гигантского леса**; сцена построена как серия последовательных этапов перемещения, чтобы при необходимости её было удобно укорачивать на монтаже. В кадре те же Black и Purple, что в сцене 13 и в сцене 8 на мосту.
 
 **Референсы:** @image4 = Black, точный модель-шит · @image5 = Purple, точный модель-шит
 
-**Что происходит:** Black и Purple на огромной скорости пересекают лес из колоссальных деревьев. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько разных уровней кроны и постепенно открывает направление к лесной деревне. Визуально это реалистичное игровое кино с энергией аниме и wire-fu, но без мультяшной пластики.
+**Что происходит:** Black и Purple стартуют **в лесной деревне**, затем резко выпрыгивают из неё в открытый лес и на огромной скорости пересекают пространство между колоссальными деревьями. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько последовательных фаз: выход из деревни, серия прыжков по мостам/ветвям, вертикальные и диагональные перелёты между гигантскими стволами, затем уход всё глубже в лес. Визуально это реалистичное игровое кино с энергией wuxia и "Атаки титанов", но без мультяшной пластики.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1083,42 +1084,168 @@ IDENTITY / COSTUME LOCK:
 BLACK and PURPLE remain two separate fixed identities for the entire shot. Never blend their faces, body shapes or clothing. BLACK remains visibly heavier and more powerful in movement. PURPLE remains leaner and slightly more agile. Their lightsaber hilts stay attached to their belts; no blades are drawn in this traversal shot.
 
 ENVIRONMENT:
-A colossal ancient jungle forest. Giant tree trunks rise hundreds of meters through layered green canopy. Huge horizontal branches form natural pathways high above the forest floor. Moss, vines and hanging vegetation cover bark surfaces. Warm shafts of sunlight cut through cool green mist. Deep background layers reveal extreme vertical scale. A distant elevated wooden tree-village may gradually become visible through gaps near the end, establishing a destination rather than appearing suddenly.
+A colossal ancient jungle forest with an elevated wooden tree-village built around gigantic trunks and branches. Rope bridges, suspended platforms and village structures occupy the opening area. Beyond the village lies a vast jungle of enormous trunks, giant branches, moss, vines and layered canopy. Warm shafts of sunlight cut through cool green mist. Deep background layers reveal extreme vertical scale.
 
 ACTION — SINGLE CONTINUOUS 30-SECOND HIGH-SPEED TRAVERSAL:
 [0:00–0:05]
-Begin already in motion. Wide tracking view high in the canopy. BLACK and PURPLE sprint along a gigantic branch side by side, maintaining several meters of separation. The branch curves around an enormous neighboring trunk. Both accelerate; robes, belts and loose fabric react naturally to rushing air. Camera keeps them readable against the immense vertical forest.
+Begin inside or at the edge of the elevated forest village. Rope bridges, hanging platforms and wooden structures are clearly visible. BLACK and PURPLE burst out from the village edge at speed, establishing immediately that they are departing from the village, not approaching it. Camera launches with them and keeps both readable.
 
 [0:05–0:10]
-PURPLE jumps first across a wide gap and plants one foot briefly against the neighboring vertical trunk, using the impact to redirect upward and forward. BLACK follows a fraction of a second later with a heavier, more powerful leap, lands against the same trunk lower down for one forceful step, then pushes away. Every airborne movement has a visible physical push-off and ballistic arc — they do not simply float.
+They sprint across a swaying rope-and-plank bridge between giant trunks. PURPLE reaches the far end first and launches into a long leap toward a huge branch outside the village perimeter. BLACK follows a fraction of a second later with a heavier, more forceful jump. Robes, belts and loose fabric react naturally to speed and air.
 
 [0:10–0:15]
-Camera races parallel through foreground leaves as both land on a broad slanted branch and continue without stopping. PURPLE performs a fast two-step run along the slanted surface and launches to a higher branch. BLACK takes a lower line, uses a thick side branch as a brief hand-contact balance point, swings his momentum around it without hanging still, and powers into another long jump. Their paths stay separate and never intersect.
+Both land and continue without stopping. PURPLE uses a neighboring vertical trunk as a brief foot plant to redirect upward and forward. BLACK takes a more powerful lower line, lands harder, compresses through the knees, then drives upward off a broad side branch. Every airborne movement has a visible push-off, arc and landing — they do not float.
 
 [0:15–0:20]
-The route wraps around a colossal central trunk. PURPLE runs three quick steps diagonally along the bark before pushing onto a branch on the opposite side. BLACK lands heavily on a root-like aerial branch below, compresses through the knees, sprints two steps and launches upward to rejoin the same general level. Camera arcs smoothly around the trunk with them, revealing the next section before they reach it.
+The route transitions fully into open forest traversal. Camera races parallel through foreground leaves as the pair chain together several fast movements: landing on a slanted branch, short sprint, diagonal leap, brief bark run along a colossal trunk, then another push into open air. The tree-village is now visibly behind them in the distance.
 
 [0:20–0:25]
-The camera moves slightly ahead and below, revealing the largest vertical gap of the sequence between several gigantic trunks. PURPLE and BLACK take two different visible launch points and leap through shafts of warm sunlight on separate ballistic trajectories. PURPLE lands first and immediately keeps running. BLACK lands a beat later with a heavier impact that shakes loose a little moss and a few leaves, then accelerates again. No branch breaks catastrophically.
+Hero traversal section. The camera arcs smoothly around a massive central trunk while PURPLE takes a nimble high path and BLACK takes a heavier, lower but equally fast path. They cross a large open gap on separate trajectories through shafts of warm sunlight, then both regain the same general level. No branch breaks catastrophically; movement remains grounded and physically believable.
 
 [0:25–0:30]
-Both converge onto one enormous forward-leading branch that slopes gently toward a distant cluster of wooden platforms and structures partly visible through mist — the forest village destination. They sprint toward it without stopping. Camera transitions into a controlled forward-leading angle, moving backward in front of them for the final seconds while keeping both faces readable. End with their momentum continuing toward the village, providing a clean transition into the next forest scene.
+They continue deeper into the giant jungle, moving away from the village. Both converge onto a broad forward-leading branch or elevated root-like pathway and keep running into the forest interior. Camera transitions into a forward-leading angle, moving backward in front of them for the final seconds while keeping both faces readable. End with the sense that they are heading farther into the wild forest beyond the village.
 
 MOVEMENT RULES:
 Photorealistic live-action high-speed acrobatic traversal with controlled wire-fu / vertical-mobility energy. Fast and spectacular, but every jump must show clear momentum, gravity, push-off and landing. No superhero flight. No hovering. No invisible propulsion. No impossible mid-air direction changes. Bodies retain realistic weight and inertia. BLACK's movement is heavier and more forceful; PURPLE's movement is lighter and more nimble, but both remain physically believable. Do not overpack the 30 seconds with random tricks: each movement must flow causally into the next.
 
 CAMERA:
-Single continuous pursuit shot for the full 30 seconds. Physically stable cinematic motion with controlled inertia. Camera may smoothly transition between side-tracking, gentle orbit around an existing trunk, slightly lower pursuit, and a forward-leading final angle, but there are no hard cuts, jump cuts or random viewpoint teleports. Strong foreground foliage parallax and deep background motion reinforce speed and scale. No random jitter or micro-shake.
+Single continuous pursuit shot for the full 30 seconds. Physically stable cinematic motion with controlled inertia. Camera may smoothly transition between village-edge follow, side-tracking, gentle orbit around an existing trunk, slightly lower pursuit, and a forward-leading final angle, but there are no hard cuts, jump cuts or random viewpoint teleports. Strong foreground foliage parallax and deep background motion reinforce speed and scale. No random jitter or micro-shake.
 
 SPATIAL CONTINUITY:
-Maintain one coherent 3D forest space. The giant trees, trunks and branches exist before the characters reach them. Do not generate new geometry suddenly beneath their feet. Landing branches must be visible or naturally revealed before impact. The final village structures must emerge gradually through existing gaps and mist rather than pop into existence. No clipping through bark or foliage. Characters never intersect one another.
+Maintain one coherent 3D forest space. The giant trees, trunks, branches, bridges and village structures exist before the characters reach them. Do not generate new geometry suddenly beneath their feet. Landing branches must be visible or naturally revealed before impact. The village remains behind them after the opening and gradually recedes into the background rather than appearing ahead at the end. No clipping through bark or foliage. Characters never intersect one another.
 
 STYLE / LIGHTING:
 Photorealistic big-budget live-action sci-fi/fantasy. Real skin, cloth, bark, moss and atmospheric depth. Warm golden shafts through cool green canopy, subtle volumetric mist, natural motion blur, moderate depth of field so identity remains readable. Anime-like kinetic intensity translated into realistic cinema, not animated rendering.
 
 AUDIO (native):
-Strong rushing wind during leaps, rapid footsteps on bark, heavy branch impacts, cloth and robe flutter, leaves whipping past camera, distant jungle ambience and subtle wood creaks. BLACK's landings sound slightly heavier than PURPLE's. No dialogue. No music.
+Strong rushing wind during leaps, rapid footsteps on bark and wooden bridges, heavier branch impacts, cloth and robe flutter, leaves whipping past camera, distant jungle ambience and subtle wood creaks. BLACK's landings sound slightly heavier than PURPLE's. No dialogue. No music.
 
 NEGATIVE PROMPT:
-identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, village popping into existence, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
+identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, village appearing ahead as destination at the end, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
+```
+
+---
+
+<a id="scene-16"></a>
+
+## Сцена 16 — Татуин: гигантский пустынный червь и бой на руинах
+
+**Контекст использования:** Новый активный промт на основе бывшей W6. 30-секундная большая пустынная сцена для Seedance 2.5: двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
+
+**Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor
+
+**Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+REFERENCES:
+@Video1 — PRIMARY environment and staging reference: a desert ruins location with open sandy space, broken structures, weathered stone or metal debris, and a composition suitable for a large-scale action scene. Use it for the location feel, scale, terrain, ruin placement, and general camera mood.
+@Image1 — PRIMARY identity reference for the Hooded Jedi: mustached man, tousled brown hair, weathered face, light-green layered tunic, deep-red hooded cloak, brown boots, lightsaber hilt on belt. Preserve face, costume, proportions and overall identity exactly.
+@Image2 — PRIMARY identity reference for the Bearded Jedi: heavier build, short beard, cream tunic under a brown Jedi over-robe, wide brown belt, brown boots, lightsaber hilt on belt. Preserve face, build, costume and identity exactly.
+@Image3 — PRIMARY identity reference for the Chancellor: pale man with thinning hair / bald crown and deep purple robes. Preserve face, body type, robe silhouette and identity exactly.
+
+REFERENCE PRIORITY:
+Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three characters. Use @Video1 for the desert ruins environment, spatial layout and action scale. Do not let the environment reference overwrite the character identities.
+
+SCENE OVERVIEW:
+A photorealistic cinematic desert action scene on ruined Tatooine-like wasteland terrain. The Hooded Jedi and the Bearded Jedi are confronting the Chancellor among weathered ruins when a colossal subterranean sandworm erupts from beneath the ground and turns the entire location into chaos. The worm is gigantic on the scale of a natural disaster — towering, segmented, immense, powerful, with a massive circular maw and rows of terrifying teeth. It is not a small monster; it feels like an unstoppable force of nature. Throughout the scene, the three characters stay grounded in the same battle space and must keep fighting and dodging while the worm attacks the environment around them.
+
+ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
+[0:00–0:05]
+Begin with a tense standoff on the ruined desert location. The Hooded Jedi and the Bearded Jedi face the Chancellor at medium distance. Wind moves robes and loose sand. The camera glides laterally through the ruins, keeping all three readable in the same frame. Small grains of sand begin to tremble across the ground and a low subterranean rumble builds beneath the dialogue-free tension.
+
+[0:05–0:09]
+The rumble intensifies violently. Sand ripples outward in fast concentric waves. Broken beams, rocks and debris start to shake loose. All three characters instinctively shift their stance and glance toward the source of the vibration. Then the ground splits open behind and slightly to the side of them. A colossal sandworm bursts out of the earth in an explosive eruption of sand and debris, instantly dominating the background.
+
+[0:09–0:14]
+The worm rises to full terrifying scale, rearing high above the ruins with its gigantic circular mouth open. Sand cascades off its ridged body. The shockwave throws dust through the air and knocks loose pieces of the surrounding structures. The heroes break their positions and sprint in different directions to avoid the collapse and the worm's initial surge. The camera keeps moving fluidly, holding spatial continuity so the audience clearly understands where each person is relative to the worm.
+
+[0:14–0:20]
+The Hooded Jedi and the Bearded Jedi attempt to regroup while the Chancellor uses the chaos to press his advantage. The three continue their live-action fight in short fast exchanges — evasive footwork, quick defensive movements, robe motion, physical urgency — but the worm remains the dominant threat in the background. It sweeps across the ruins, slamming its body through structures and sending dust clouds and fragments outward. Everyone is forced to interrupt combat and dodge a second aggressive pass from the worm.
+
+[0:20–0:25]
+The worm circles partially beneath the sand and surges up again from a new angle, its massive head and upper body carving through the location. One ruin wall collapses, sending debris and sand down around the fighters. The Bearded Jedi dives clear. The Hooded Jedi uses a fast sidestep and roll. The Chancellor pivots away with dangerous precision, barely avoiding the jaws. Keep the worm huge in frame and unmistakably larger than every surrounding structure.
+
+[0:25–0:30]
+Final escalation. The worm rears behind the three combatants while they continue the standoff in the foreground, battered by wind and sand. The scene ends on a powerful wide action composition: the two Jedi and the Chancellor still alive and in motion on the ruined desert ground, the colossal sandworm towering behind them amid collapsing debris and swirling dust, with the conflict still unresolved and continuing beyond the cut.
+
+CAMERA:
+Single continuous unbroken shot for the full 30 seconds. High-end cinematic motion with controlled inertia and stable spatial continuity. The camera may drift, arc and reframe to preserve all three characters and the worm, but there are no cuts, jump cuts or teleporting viewpoints. Emphasize scale through parallax, dust layers, foreground debris and wide-to-medium re-framing within the same take. No random micro-shake; only motivated impact vibration during the biggest eruptions.
+
+MOVEMENT / STAGING RULES:
+The worm's motion must feel massive and heavy, displacing huge volumes of sand. Its attacks are broad environmental threats: eruptions, surges, rears, sweeping passes, partial dives and re-emergence. The three characters must remain readable, keep their identities locked, and react believably to the danger. They are not standing still while the worm performs in the background: they are actively dodging, repositioning and trying to continue their conflict in the middle of the chaos.
+
+STYLE / LIGHTING:
+Photorealistic cinematic sci-fi/fantasy. Harsh warm desert light, dry haze, blown sand, long ruin shadows, strong scale cues, natural motion blur, realistic cloth and dust interaction. Serious blockbuster tone. No comedy.
+
+AUDIO (native):
+Powerful subterranean rumble, violent sand eruption, debris crashes, heavy impacts, rushing sand, distant wind, robe movement, footsteps on sand and stone, and huge monstrous roar / throat resonance from the worm. Optional brief exertion grunts from the characters, but no dialogue and no music.
+
+NEGATIVE PROMPT:
+small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, game-render look, floating worm, worm flying in the air without sand displacement, characters ignoring the worm, static posing, identity drift, face swap, extra characters, costume changes, missing robe colors, duplicate Chancellor, duplicate Jedi, warping ruins, popping geometry, sudden scene reset, teleporting camera, hard cuts, subtitles, on-screen text, logo, watermark.
+```
+
+---
+
+<a id="scene-17"></a>
+
+## Сцена 17 — Пещера: передышка после монстра и разговор о карте
+
+**Контекст использования:** Новый активный промт на основе бывшей W1. Это прямое продолжение сцены 9: после тяжёлой победы над чудовищем трое бойцов наконец получают короткую передышку. Промт рассчитан на Seedance 2.5 и специально расширен до 30 секунд, чтобы на монтаже можно было укоротить или использовать целиком как напряжённый переход к следующему блоку.
+
+**Референсы:** @Image1 = Jedi 1 (синий туник) · @Image2 = Jedi 2 (борода, очки, зелёный меч в прошлой сцене) · @Image3 = Chancellor · @Video1 = пещера и чудовище, прямое визуальное продолжение · @Video2 = дополнительные ракурсы монстра/пещеры при необходимости continuity
+
+**Что происходит:** Бой окончен. В тёмной влажной пещере всё ещё поднимается пар от термических ран чудовища, вода шумит, по камням стекают брызги. Трое измотаны и садятся прямо на отрубленные части тела монстра — без крови, только обугленные/прижжённые срезы, как продолжение предыдущей сцены. Несколько секунд они просто приходят в себя, тяжело дышат. Затем начинается короткий напряжённый разговор о карте: один спрашивает «Куда вы дели карту?», в ответ звучит «Зачем она тебе?». Остальное пространство сцены держится на усталости, подозрении и тяжёлой паузе после реплик.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+REFERENCES:
+@Image1 — PRIMARY identity reference for Jedi 1: clean-shaven man in dark blue tunic, wet and battle-worn from the previous cavern fight. Preserve face, costume and proportions exactly.
+@Image2 — PRIMARY identity reference for Jedi 2: bearded man with glasses in a brown/cream Jedi robe, wet and battle-worn from the previous cavern fight. Preserve face, beard, glasses, costume and proportions exactly.
+@Image3 — PRIMARY identity reference for the Chancellor: pale man in deep purple robes, exhausted after combat. Preserve face, robe silhouette and identity exactly.
+@Video1 — PRIMARY continuity reference for the cavern environment and monster remains. Use it to match the wet rocks, shallow splashing water, waterfall ambience, mist, lighting and the look of the defeated pale reptilian creature.
+@Video2 — supplemental continuity reference for alternate angles of the monster and cave, if needed.
+
+REFERENCE PRIORITY:
+Use @Image1, @Image2 and @Image3 as the primary character identity lock. Use @Video1 and @Video2 for environment continuity, the placement of monster remains, lighting, scale, and the post-battle mood. This scene must feel like it starts minutes — ideally seconds — after the previous monster fight ended.
+
+SCENE OVERVIEW:
+Direct continuation after the monster battle in a dark subterranean cavern. The three survivors are exhausted, breathing hard, damp from spray and combat. They sit down on severed sections of the creature's massive body, treating the grisly situation with tired practicality. The severed creature pieces show cauterized wound edges and steam, but no red liquid blood, no gore and no exposed organs. The whole scene is a tense rest beat and dialogue exchange about the map.
+
+ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
+[0:00–0:06]
+Open on the immediate aftermath. The camera glides through the wet cavern space, revealing steam, drifting mist, splashing shallow water and the butchered remains of the giant pale reptilian monster. The three characters enter or settle into frame, visibly drained. Jedi 1 lowers himself onto a severed section of the creature. Jedi 2 sits on another chunk, leaning forward with fatigue. The Chancellor remains standing half a beat longer, then sits with controlled irritation on a third piece nearby.
+
+[0:06–0:11]
+Hold the exhausted silence. All three are catching their breath. Water drips from rock surfaces. The cavern ambience fills the space. Jedi 2 briefly wipes moisture from his face or adjusts his posture; the Chancellor looks between the others, tense and calculating. Jedi 1 stares downward for a moment, breathing hard. No one speaks yet. Let the weight of the battle settle.
+
+[0:11–0:16]
+The Chancellor finally breaks the silence. He lifts his head toward the others and asks in Russian, tired but sharp:
+CHANCELLOR: «Куда вы дели карту?»
+Deliver it like a pressing, irritated question asked after a brutal fight, not shouted. The others look at him.
+
+[0:16–0:22]
+A short beat follows. Jedi 1 or Jedi 2 — whichever feels clearest in the shot while maintaining character readability — answers in Russian, guarded and suspicious:
+JEDI: «Зачем она тебе?»
+The answer lands flat and tense. No one is amused. The line should feel like the opening move of a longer argument rather than the end of it.
+
+[0:22–0:30]
+Play the aftermath. A heavy silence hangs after the question. The Chancellor studies them, irritated but trying to stay composed. Jedi 2 shifts slightly on the monster remains, still exhausted. Jedi 1 watches the Chancellor closely. Steam continues to rise from the cauterized wounds; water continues splashing nearby. End on the unresolved tension among the three, clearly setting up a longer conversation beyond the cut.
+
+CAMERA:
+Single continuous take, slow and controlled. Begin with a gentle establishing glide across the aftermath, then settle into a readable three-character composition that can breathe. Small push-ins or subtle lateral drift are allowed, but no cuts, jump cuts or random camera shake. The motion should support tension and exhaustion, not spectacle.
+
+PERFORMANCE:
+All three men are physically drained after a hard battle. Breathing, posture and micro-expressions should communicate fatigue, soreness and suspicion. No theatrical overacting. Dialogue should be clear in Russian with natural lip sync. Preserve character identity and costume continuity throughout.
+
+ENVIRONMENT / EFFECTS:
+Dark cavern, wet rocks, shallow water, waterfalls or water runoff, lingering mist, subtle blade-burn glow residue on cauterized creature wounds, light reflecting softly off wet stone. The monster remains must clearly match the previous scene's pale reptilian beast. No gore, no blood spray, no new monster attack.
+
+AUDIO (native):
+Cavern ambience, water splashing and dripping, distant waterfall, steam hiss from cauterized wounds, tired breathing, light rustle of robes as they sit and shift, and the two Russian lines spoken clearly as written. No music.
+
+NEGATIVE PROMPT:
+new monster attack, living monster, red liquid blood, guts, gore, comedy tone, relaxed cheerful mood, standing heroic pose for the whole scene, identity drift, missing glasses on Jedi 2, costume changes, duplicate characters, distorted hands, warped creature anatomy, dry cave, bright daylight, hard cuts, shaky camera, subtitles, on-screen text, logo, watermark.
 ```
