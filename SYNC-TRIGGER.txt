@@ -1,1 +1,1 @@
-17.09.2026 20:42 +03:00 — final manual checkpoint: pull canonical Drive master, validate sparse scene IDs, remove completed bridge scene, refresh project-status.json and publish GitHub Pages.
+17.09.2026 21:06 +02:00 — full v2 checkpoint: verify canonical Drive master, sparse stable scene IDs, project-status health, GitHub mirror and Pages after instruction/backup synchronization.
