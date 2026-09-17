@@ -2,25 +2,6 @@
 
 This file explains how ChatGPT, Work, Claude, Gemini, DeepSeek, Grok, and other AI tools should use the shared prompt master and project context.
 
-
-
-
-## Mandatory revision status and synchronization timestamp
-
-The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
-
-- number of **scenes awaiting generation/refinement**;
-- number of **full prompt texts**;
-- number of items in the early **Scenes in work** block;
-- count and scene numbers currently **⏳ in slow generation**;
-- exact **last full synchronization time**, including date, hour, minute, and UTC offset.
-
-Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
-
-Current recorded full-sync time: **2026-09-17 · 15:35 (+03:00)**.
-
-After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, for example `2026-09-17 · 15:35 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
-
 ## 1. Canonical source of truth
 
 The only editable prompt master is:
@@ -41,7 +22,40 @@ Do not create parallel masters such as `video-prompts-final.md`, `video-prompts-
 
 `video-prompts.html` and the GitHub Pages viewer are generated/read-only views. They are never the editing source.
 
-Before suggesting or starting a generation, check the top status section in `video-prompts.md`. Any scene marked **⏳ МЕДЛЕННАЯ ГЕНЕРАЦИЯ / DO NOT RELAUNCH** is already running and must not be submitted again unless the user explicitly says the previous run failed or authorizes a rerun.
+## Mandatory revision status and synchronization timestamp
+
+The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
+
+- number of **scenes awaiting generation/refinement**;
+- number of **full prompt texts**;
+- number of items in the early **Scenes in work** block;
+- count and scene numbers currently **⏳ in slow generation**;
+- exact **last full synchronization time**, including date, hour, minute, and UTC offset.
+
+Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
+
+Current recorded full synchronization: **2026-09-17 · 15:35 (+03:00)**.
+
+After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, in the format `YYYY-MM-DD · HH:MM (UTC offset)`, for example `2026-09-17 · 15:35 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
+
+## Mandatory public-view and status-display rules
+
+These rules are permanent project architecture and must survive future site edits, master synchronization, maintenance, or takeover:
+
+1. **The human-facing “Montage review” link** on the public site must open the rendered GitHub Pages HTML page:  
+   `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`  
+   Do not use the Google Drive preview of that `.html` as the main clickable site link because Drive can display the HTML source code. The Drive file remains a project/deep-context copy, not the primary human-viewer URL.
+2. The sidebar button **`Инструкция для ИИ`** must remain **on one line**. Do not allow the label to wrap; keep `white-space: nowrap` and use compact font/padding if needed.
+3. Every visible slow-generation marker must use the exact same label: `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`.
+   - In a TOC scene cell, show the scene title first and put `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ` on the **next line**.
+   - Do not put `⏳` before the scene title.
+   - Do not put a dash before the status.
+   - Do not wrap the status phrase internally; the web viewer should keep that label whole (`white-space: nowrap`).
+   - The dedicated slow-generation table must use the same exact wording.
+   - The full scene section must also show the same status wording on its own visible line; explanatory text such as “already running / do not relaunch” goes separately.
+4. Slow-generation status remains a synchronization invariant: adding/removing it must update the top status block, dedicated slow-generation block, TOC row, and full scene section together.
+
+Before suggesting or starting a generation, check the top status section in `video-prompts.md`. Any scene marked **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ / DO NOT RELAUNCH** is already running and must not be submitted again unless the user explicitly says the previous run failed or authorizes a rerun.
 
 ## 2. Project-context files
 
@@ -199,6 +213,7 @@ Do not rely on an AI remembering this workflow from an old conversation. Read th
 - Prompt master: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md
 - Film map: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-analysis.md
 - Backlog: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-backlog.md
+- Montage review (rendered): https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html
 - Repository: https://github.com/virudik/ai-film-prompts
 - Claude takeover runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md
 
