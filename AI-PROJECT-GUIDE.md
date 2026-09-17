@@ -22,22 +22,19 @@ Do not create parallel masters such as `video-prompts-final.md`, `video-prompts-
 
 `video-prompts.html` and the GitHub Pages viewer are generated/read-only views. They are never the editing source.
 
-## Mandatory revision status and synchronization timestamp
+## Mandatory live status and automatic synchronization
 
-The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
+Live project counts and the exact last automation timestamp are **not duplicated in this instruction anymore**. Operational status has three sources:
 
-- number of **scenes awaiting generation/refinement**;
-- number of **full prompt texts**;
-- number of items in the early **Scenes in work** block;
-- count and scene numbers currently **⏳ in slow generation**;
-- exact **last full synchronization time**, including date, hour, minute, and UTC offset.
+- canonical Google Drive `video-prompts.md` — editable content and human project status;
+- GitHub `project-status.json` — generated counts, slow-scene list, health checks, and exact last successful Drive → GitHub synchronization time;
+- the public viewer — displays `project-status.json` in its top status bar.
 
-Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
+The prominent `REVISION / CURRENT STATUS` block remains in `video-prompts.md`, but instruction copies, Notion, and Library no longer need their live counts/timestamps manually rewritten after every prompt edit. This deliberately removes synchronization points.
 
-Current recorded full synchronization: **2026-09-17 · 17:01 (+03:00)**.
+**Normal path:** edit the single canonical Drive master → update `SYNC-TRIGGER.txt` → `sync-from-drive.yml` downloads the Drive master, runs `scripts/build_project_status.py`, validates invariants, updates GitHub `video-prompts.md` + `project-status.json` → GitHub Pages publishes the site.
 
-After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, in the format `YYYY-MM-DD · HH:MM (UTC offset)`, for example `2026-09-17 · 16:38 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
-
+If the health check fails, the workflow must fail instead of publishing a known-inconsistent master.
 ## Mandatory public-view and status-display rules
 
 These rules are permanent project architecture and must survive future site edits, master synchronization, maintenance, or takeover:
@@ -102,7 +99,7 @@ ChatGPT should:
 3. apply only the approved change;
 4. update the table of contents / scene-in-work section if needed;
 5. keep the same canonical filename;
-6. sync the updated master to the public GitHub mirror and the ChatGPT Library mirror;
+6. update `SYNC-TRIGGER.txt` so the automated Drive → GitHub validation/sync runs immediately; Library refresh is optional and reserved for explicit backups or major milestones;
 7. ensure the web viewer continues to read the current public mirror.
 
 If the user manually edited the Drive master, the user can say:
@@ -218,22 +215,17 @@ Do not rely on an AI remembering this workflow from an old conversation. Read th
 - Claude takeover runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md
 
 
-## 10. Full synchronization protocol
+## 10. Automated synchronization protocol
 
-For any request such as **"обнови мастер везде"**, **"полная синхронизация"**, **"синхронизируй мастер и сайт"**, or equivalent, ChatGPT must read and follow `SYNC-RUNBOOK.md`.
+For normal prompt edits, a synchronization is complete when:
+1. the newest Drive `video-prompts.md` was read and edited in place;
+2. `SYNC-TRIGGER.txt` was updated to request immediate sync;
+3. GitHub Actions completed successfully;
+4. generated `project-status.json` reports `health: ok`;
+5. GitHub Pages successfully deployed and the public viewer shows the new content/status.
 
-A master edit is not complete when only a local `/mnt/data` copy changes. A full sync means verifying the same approved state across:
-1. local working Markdown / derived HTML;
-2. canonical Google Drive `video-prompts.md`;
-3. ChatGPT Library mirror;
-4. GitHub root `video-prompts.md` and changed instruction files;
-5. GitHub Pages deployment / public viewer;
-6. Notion Hub status/navigation.
+`project-status.json` is generated and must never be hand-edited as a second source of truth.
 
-Before reporting success, verify that the public raw master or website contains the new change.
+ChatGPT Library, Drive `video-prompts.html`, and Notion are **backup/documentation layers, not per-edit synchronization gates**. Refresh them when the user explicitly asks for a backup, at major milestones, or whenever architecture/instructions change.
 
-Slow-generation status is a three-place invariant: every scene currently running slowly must be marked in the top status block, the TOC row, and the scene section itself. Removing the status requires removing it from all three places.
-
-Technical runbook:
-- Google Drive / GitHub filename: `SYNC-RUNBOOK.md`
-- Public raw: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/SYNC-RUNBOOK.md
+Technical runbook: `SYNC-RUNBOOK.md`.
