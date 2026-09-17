@@ -4,9 +4,9 @@
 
 **Канонический источник:** `video-prompts.md`. Это единственный редактируемый мастер; `video-prompts.html` генерируется из него автоматически и вручную не редактируется.
 
-**Ревизия:** 2026-09-17 · 17 сцен · 19 полных текстов промтов · сцены 13–17 актуальны; сцены 14 и 15 переведены в медленную генерацию.
+**Ревизия:** 2026-09-17 · 18 сцен · 20 полных текстов промтов · сцены 13–18 актуальны; сцены 14 и 15 переведены в медленную генерацию.
 
-Синхронизация 17 сентября 2026: фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 17 сцен и 19 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+Синхронизация 17 сентября 2026 (полная сверка локальной копии, Drive, GitHub, сайта, Library и Notion): фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 18 сцен и 20 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации — НЕ ЗАПУСКАТЬ ПОВТОРНО
 
@@ -37,8 +37,11 @@
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
 | 12 | [Кантина — вход двух джедаев](#scene-12) | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
 | 13 | [Совет джедаев — говорящий кот](#scene-13) | @image1 = композиция/локация; @image2 = кот; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
-| 14 | [Канцлер — сбор грибов в гигантском лесу](#scene-14) | @image3 = Chancellor | Канцлер с неожиданным энтузиазмом ищет и собирает грибы среди колоссальных древних деревьев; визуально сцена серьёзная, юмор сухой и контрастный. |
-| 15 | [Кашиик — сверхбыстрые прыжки между деревьями](#scene-15) | @image4 = Black; @image5 = Purple | Те же лесные джедаи на огромной скорости пересекают гигантский лес, отталкиваясь от стволов и ветвей, выполняя длинные контролируемые прыжки без мультяшной стилизации. |
+| 14 | ⏳ [Канцлер — сбор грибов в гигантском лесу](#scene-14) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image3 = Chancellor | Канцлер с неожиданным энтузиазмом ищет и собирает грибы среди колоссальных древних деревьев; визуально сцена серьёзная, юмор сухой и контрастный. |
+| 15 | ⏳ [Кашиик — сверхбыстрые прыжки между деревьями](#scene-15) **— В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image4 = Black; @image5 = Purple | Black и Purple стартуют в лесной деревне, выпрыгивают из неё в открытый лес и серией высокоскоростных прыжков по гигантским ветвям и стволам уходят всё глубже в джунгли; фотореалистичная live-action энергия wuxia / Attack on Titan без мультяшности. |
+| 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @Video1 = пустынная локация/руины; @Image1 = Hooded Jedi; @Image2 = Bearded Jedi; @Image3 = Chancellor | Из песка вырывается колоссальный червь масштаба стихийного бедствия, разрушает руины, а двое джедаев и Канцлер продолжают противостояние, уклоняясь от его атак и обрушений. |
+| 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1/@Video2 = монстр/пещера | Прямое продолжение боя: трое измотаны, сидят на отрубленных частях тела чудовища и начинают напряжённый разговор о карте. |
+| 18 | [Имперский крейсер — Канцлер и офицер в коридоре](#scene-18) | @Image1 = Chancellor; @Image2 = Imperial Officer | Канцлер и имперский офицер быстрым шагом идут по коридору звёздного крейсера, обсуждают новое оружие; сцена переписана в более кинематографичную live-action-манеру, чтобы избежать мультяшности. |
 
 ---
 
@@ -1071,7 +1074,7 @@ identity drift, different face, different age, full head of hair, robe color cha
 
 **Референсы:** @image4 = Black, точный модель-шит · @image5 = Purple, точный модель-шит
 
-**Что происходит:** Black и Purple стартуют **в лесной деревне**, затем резко выпрыгивают из неё в открытый лес и на огромной скорости пересекают пространство между колоссальными деревьями. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько последовательных фаз: выход из деревни, серия прыжков по мостам/ветвям, вертикальные и диагональные перелёты между гигантскими стволами, затем уход всё глубже в лес. Визуально это реалистичное игровое кино с энергией wuxia и "Атаки титанов", но без мультяшной пластики.
+**Что происходит:** Black и Purple стартуют **в лесной деревне**, затем резко выпрыгивают из неё в открытый лес и на огромной скорости пересекают пространство между колоссальными деревьями. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько последовательных фаз: выход из деревни, серия прыжков по мостам/ветвям, вертикальные и диагональные перелёты между гигантскими стволами, затем уход всё глубже в лес. Визуально это реалистичное игровое кино с энергией wuxia и «Атаки титанов», но без мультяшной пластики.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1249,3 +1252,71 @@ Cavern ambience, water splashing and dripping, distant waterfall, steam hiss fro
 NEGATIVE PROMPT:
 new monster attack, living monster, red liquid blood, guts, gore, comedy tone, relaxed cheerful mood, standing heroic pose for the whole scene, identity drift, missing glasses on Jedi 2, costume changes, duplicate characters, distorted hands, warped creature anatomy, dry cave, bright daylight, hard cuts, shaky camera, subtitles, on-screen text, logo, watermark.
 ```
+
+---
+
+<a id="scene-18"></a>
+
+## Сцена 18 — Имперский крейсер: Канцлер и офицер в коридоре
+
+**Контекст использования:** Новый активный промт. Предыдущая версия сцены ощущалась слишком мультяшной и слишком "универсальной под все модели". Эта редакция специально заземлена под более серьёзный, киношный live-action-результат: один непрерывный проход камеры, практическое освещение, реалистичная пластика лиц и тел, сдержанная игра актёров и жёсткий запрет на анимационную стилизацию.
+
+**Референсы:** @Image1 = Chancellor Model Sheet · @Image2 = Imperial Officer Model Sheet
+
+**Что происходит:** Внутри большого военного звёздного крейсера Канцлер и имперский офицер быстро идут по длинному металлическому коридору. Офицер докладывает, что созданное по заказу Канцлера оружие превзошло ожидания и получилось мощным и неразрушимым. Канцлер, не сбавляя шага, спокойно отвечает, что не терпится его опробовать. Камера всё время движется вместе с ними и в финале раскрывает масштаб коридора, где вдали по стойке смирно стоят штурмовики.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+REFERENCES:
+@Image1 — PRIMARY identity reference for the Chancellor: pale older man, thinning hair / bald crown, deep purple velvet hooded or formal robes, controlled cold expression. Preserve face, age, body proportions, robe silhouette and overall identity exactly.
+@Image2 — PRIMARY identity reference for the Imperial Officer: adult man in olive-grey military uniform, fitted tunic, rank plaque or military chest detail, disciplined posture. Preserve face, body type, uniform silhouette and identity exactly.
+
+REFERENCE PRIORITY:
+Use @Image1 and @Image2 as the absolute identity lock for the two speaking characters. Do not average, beautify, stylize or cartoonize their faces. Preserve realistic adult facial anatomy, natural skin texture, and grounded human proportions.
+
+STYLE GOAL:
+Photorealistic live-action cinematic sci-fi — not animation, not stylized CGI, not cartoon, not toy-like. The scene should feel like a serious big-budget live-action space-opera corridor scene shot on a physical set with practical lights, subtle VFX extension, real costumes, real fabric behavior, and grounded dramatic acting.
+
+ENVIRONMENT / PRODUCTION DESIGN:
+Interior of a massive military star cruiser corridor. Long symmetrical passage with brushed gunmetal walls, dark reflective floor panels, inset control panels with small red and blue indicator lights, vertical practical white light strips, metallic door frames, and subtle surface wear. The corridor should feel tangible, industrial, militarized, and expensive — not glossy-plastic or simplified. Distant stormtroopers stand at attention near the far end of the hallway as static background soldiers.
+
+SCENE OVERVIEW:
+The Chancellor and an Imperial Officer walk briskly side by side through the corridor while discussing a newly developed weapon. The officer is formal and slightly eager; the Chancellor is calm, predatory, and quietly pleased. The scene is driven by dialogue, presence, and controlled movement rather than spectacle.
+
+ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
+[0:00–0:07]
+Begin in a medium frontal tracking shot. The camera retreats smoothly in front of the two men as they walk toward it down the corridor. The Chancellor is on one side, the Officer beside him. Their pace is confident and steady. Robes and uniform move naturally with each step. Floor reflections, light strips, and background depth establish a serious cinematic tone.
+
+[0:07–0:16]
+Without cutting, maintain the forward tracking shot and let the Officer turn his head slightly toward the Chancellor while continuing to walk. Deliver exact Russian lip sync with clear timing and natural breath:
+OFFICER: «Оружие, разработанное по вашему заказу, превзошло все ожидания. Оно мощное и неразрушимое.»
+The Officer speaks like a professional report, not theatrically. His mouth movement must sync clearly, facial acting restrained and believable.
+
+[0:16–0:23]
+The camera subtly eases closer toward the Chancellor in the same continuous take — not a hard cut, just a gentle reframe into a slightly tighter medium close-up while both characters keep walking. The Chancellor gives a small controlled smile, eyes forward or briefly angled toward the Officer, and replies in Russian with exact lip sync:
+CHANCELLOR: «Не терпится его опробовать.»
+He sounds quietly satisfied and dangerous, not exaggerated, not campy.
+
+[0:23–0:30]
+The camera gradually widens back out while still retreating, revealing more of the corridor depth and the stormtroopers standing at attention ahead or along the far section. The two men continue walking with uninterrupted momentum. The scene ends on a wide, imposing live-action corridor composition with both figures still advancing and the military world around them feeling large and real.
+
+CAMERA:
+Single continuous unbroken tracking shot for the full 30 seconds. No hard cuts. No montage. No shot reset. Smooth stabilized cinematic retreat with slight natural inertia, as if on a high-end dolly or stabilized Steadicam. Small motivated reframing is allowed, but the camera must remain physically plausible and elegant.
+
+PERFORMANCE / ACTING RULES:
+Grounded adult live-action performances only. Natural facial micro-expressions. Restrained gestures. No exaggerated cartoon body language. No oversized smiles, no melodramatic eyebrow movements, no rubbery motion. Walking rhythm should feel realistic and authoritative.
+
+LIVE-ACTION REALISM LOCK:
+Use realistic skin detail, subtle imperfections, believable eye movement, tangible wardrobe texture, physically correct robe and cloth motion, cinematic lens behavior, shallow depth of field, and practical-looking sci-fi set lighting. Avoid the look of an animated TV series, game cutscene, or glossy synthetic 3D cartoon.
+
+LIGHTING:
+Cool white practical corridor lights as the main source, with small red and blue control-panel accents. Soft reflections on the polished floor. Faces lit in a grounded, flattering but not glamorized way. Slight falloff into the deeper corridor for scale and atmosphere.
+
+AUDIO (native):
+Exact Russian dialogue with accurate lip sync. Rhythmic footsteps and robe movement on the metallic floor. Low ship-engine hum. Subtle door-system or electronic corridor ambience. No music required unless the model adds only a very faint atmospheric underscore. Dialogue must remain clear and dominant.
+
+NEGATIVE PROMPT:
+cartoon, animation, anime, stylized CGI, video-game cutscene look, toy-like corridor, plastic skin, oversaturated colors, exaggerated expressions, comedic acting, chibi proportions, face morphing, identity drift, lip desync, frozen mouths, hard cuts, montage, handheld chaos, jitter, warped corridor geometry, glossy fake reflections, extra foreground characters, lightsabers, drawn weapons, text, subtitles, logo, watermark.
+```
+
