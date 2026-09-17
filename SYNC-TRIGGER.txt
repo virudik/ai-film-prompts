@@ -1,1 +1,1 @@
-2026-09-17T14:13+03:00 — full sync: prominent revision/status block, exact synchronization time, 18 active scenes, 21 prompt texts, 3 early work items, slow-generation scenes 2/6/8/14/15, instructions refreshed.
+2026-09-17T14:13+03:00 — run instruction-status propagation after full master sync trigger; current status 18 scenes / 21 prompt texts / 3 early work / 5 slow scenes.
