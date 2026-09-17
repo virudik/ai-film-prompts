@@ -179,4 +179,25 @@ Do not rely on an AI remembering this workflow from an old conversation. Read th
 - Prompt master: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md
 - Film map: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-analysis.md
 - Backlog: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-backlog.md
+- Sync runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/SYNC-RUNBOOK.md
 - Repository: https://github.com/virudik/ai-film-prompts
+
+## 10. Full synchronization protocol
+
+For any request such as **"обнови мастер везде"**, **"полная синхронизация"**, **"синхронизируй мастер и сайт"**, or equivalent, ChatGPT must read and follow `SYNC-RUNBOOK.md`.
+
+A master edit is not complete when only a local `/mnt/data` copy changes. A full sync means verifying the same approved state across:
+1. local working Markdown / derived HTML;
+2. canonical Google Drive `video-prompts.md`;
+3. ChatGPT Library mirror;
+4. GitHub root `video-prompts.md` and changed instruction files;
+5. GitHub Pages deployment / public viewer;
+6. Notion Hub status/navigation.
+
+Before reporting success, verify that the public raw master or website contains the new change.
+
+Slow-generation status is a three-place invariant: every scene currently running slowly must be marked in the top status block, the TOC row, and the scene section itself. Removing the status requires removing it from all three places.
+
+Technical runbook:
+- Google Drive / GitHub filename: `SYNC-RUNBOOK.md`
+- Public raw: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/SYNC-RUNBOOK.md
