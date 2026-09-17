@@ -20,61 +20,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Patch current revision and sync metadata into every instruction
+      - name: Patch current sync time into instruction copies
         shell: bash
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re
-
-          ru = '''## Обязательный статус ревизии и времени синхронизации
-
-В верхней части канонического `video-prompts.md` всегда должен быть **заметный статусный блок**, а не незаметная строка. Он обязан показывать актуальные значения:
-
-- количество **сцен к генерации/доработке**;
-- количество **полных текстов промтов**;
-- количество сцен в раннем блоке **«Сцены в работе»**;
-- количество и номера сцен **⏳ в медленной генерации**;
-- точное время **последней полной синхронизации** с датой, часами, минутами и UTC-смещением.
-
-Текущий контрольный снимок проекта: **18 сцен к генерации/доработке · 21 полный текст промтов · 🛠️ 3 в раннем блоке (W5, W7, W8) · ⏳ 5 в медленной генерации (2, 6, 8, 14, 15)**.
-
-Текущее зафиксированное время полной синхронизации: **2026-09-17 · 15:00 (+03:00)**.
-
-При каждой **полной синхронизации** строка/пункт `Последняя полная синхронизация` и абзац `Синхронизация` в master-файле должны быть обновлены на фактическое время завершения синхронизации, в формате `YYYY-MM-DD · HH:MM (UTC offset)`, например `2026-09-17 · 15:00 (+03:00)`. Нельзя оставлять только дату без времени. Если меняются число сцен, prompt-текстов, work-items или slow-generation status, обновить этот статус одновременно во всех зеркалах и инструкциях.
-'''.strip()
-
-          en = '''## Mandatory revision status and synchronization timestamp
-
-The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
-
-- number of **scenes awaiting generation/refinement**;
-- number of **full prompt texts**;
-- number of items in the early **Scenes in work** block;
-- count and scene numbers currently **⏳ in slow generation**;
-- exact **last full synchronization time**, including date, hour, minute, and UTC offset.
-
-Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
-
-Current recorded full-sync time: **2026-09-17 · 15:00 (+03:00)**.
-
-After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time using `YYYY-MM-DD · HH:MM (UTC offset)`, for example `2026-09-17 · 15:00 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
-'''.strip()
-
-          files = ['SYNC-RUNBOOK.md','USER-GUIDE.md','README-AI-SYNC.md','AI-PROJECT-GUIDE.md','CLAUDE-TAKEOVER-RUNBOOK.md']
-          pat = re.compile(r'\n## (?:Обязательный статус ревизии и времени синхронизации|Mandatory revision status and synchronization timestamp)\n.*?(?=\n## )', re.S)
-          for fn in files:
-              p = Path(fn)
-              t = p.read_text(encoding='utf-8')
-              t = pat.sub('\n', t)
-              block = en if fn == 'AI-PROJECT-GUIDE.md' else ru
-              m = re.search(r'\n## ', t)
-              if m:
-                  t = t[:m.start()] + '\n\n' + block + '\n' + t[m.start():]
-              else:
-                  t = t.rstrip() + '\n\n' + block + '\n'
-              p.write_text(t, encoding='utf-8')
-          PY
+          set -euo pipefail
+          RU_FILES=(SYNC-RUNBOOK.md USER-GUIDE.md README-AI-SYNC.md CLAUDE-TAKEOVER-RUNBOOK.md)
+          for f in "${RU_FILES[@]}"; do
+            sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' "$f"
+            sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' "$f"
+            if ! grep -q 'Текущее зафиксированное время полной синхронизации' "$f"; then
+              perl -0pi -e 's/(Текущий контрольный снимок проекта:.*?\n)/$1\nТекущее зафиксированное время полной синхронизации: **2026-09-17 · 15:00 (+03:00)**.\n/' "$f"
+            fi
+          done
+          sed -i 's/2026-09-17 · 14:13 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' AI-PROJECT-GUIDE.md
+          sed -i 's/2026-09-17 · 14:40 (+03:00)/2026-09-17 · 15:00 (+03:00)/g' AI-PROJECT-GUIDE.md
+          if ! grep -q 'Current recorded full-sync time' AI-PROJECT-GUIDE.md; then
+            perl -0pi -e 's/(Current control snapshot:.*?\n)/$1\nCurrent recorded full-sync time: **2026-09-17 · 15:00 (+03:00)**.\n/' AI-PROJECT-GUIDE.md
+          fi
 
       - name: Commit changes
         shell: bash
