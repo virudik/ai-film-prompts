@@ -6,22 +6,19 @@ The only canonical editable prompt master is `video-prompts.md`.
 `video-prompts.html` is a generated read-only viewer derived from the canonical Markdown file. It must never be edited as a source.
 
 
-## Обязательный статус ревизии и времени синхронизации
+## Обязательный статус и автоматическая синхронизация
 
-В верхней части канонического `video-prompts.md` всегда должен быть **заметный статусный блок**, а не незаметная строка. Он обязан показывать актуальные значения:
+Живые числа проекта и точное время последней автоматической синхронизации **не дублируются в этой инструкции**. Источники оперативного статуса:
 
-- количество **сцен к генерации/доработке**;
-- количество **полных текстов промтов**;
-- количество сцен в раннем блоке **«Сцены в работе»**;
-- количество и номера сцен **⏳ в медленной генерации**;
-- точное время **последней полной синхронизации** с датой, часами, минутами и UTC-смещением.
+- канонический Google Drive `video-prompts.md` — содержимое, сцены и ручной статус проекта;
+- GitHub `project-status.json` — автоматически рассчитанные counts, slow-scenes, health-check и точное время последней успешной синхронизации Drive → GitHub;
+- публичный сайт — показывает `project-status.json` в верхней панели.
 
-Текущий контрольный снимок проекта: **18 сцен к генерации/доработке · 21 полный текст промтов · 🛠️ 3 в раннем блоке (W5, W7, W8) · ⏳ 5 в медленной генерации (2, 6, 8, 14, 15)**.
+В самом `video-prompts.md` сохраняется заметный блок `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, но инструкции, Notion и Library больше не должны вручную копировать его числа/время после каждой правки. Это специально уменьшает количество точек, которые могут рассинхронизироваться.
 
-Текущее зафиксированное время полной синхронизации: **2026-09-17 · 17:01 (+03:00)**.
+**Новый штатный путь:** изменить один канонический Drive-master → обновить `SYNC-TRIGGER.txt` → workflow `sync-from-drive.yml` сам скачивает master, запускает `scripts/build_project_status.py`, проверяет инварианты, обновляет GitHub `video-prompts.md` + `project-status.json` → GitHub Pages публикует сайт.
 
-При каждой **полной синхронизации** строка/пункт `Последняя полная синхронизация` и абзац `Синхронизация` в master-файле должны быть обновлены на фактическое время завершения синхронизации, в формате `YYYY-MM-DD · HH:MM (UTC offset)`, например `2026-09-17 · 16:38 (+03:00)`. Нельзя оставлять только дату без времени. Если меняются число сцен, prompt-текстов, work-items или slow-generation status, обновить этот статус одновременно во всех зеркалах и инструкциях.
-
+Если health-check не проходит, workflow должен завершиться ошибкой и **не публиковать заведомо неконсистентный master**.
 ## Обязательные правила отображения сайта и статусов
 
 Эти правила считаются частью постоянной архитектуры проекта и должны сохраняться при любых будущих правках сайта, мастера, синхронизации или takeover:
@@ -56,12 +53,13 @@ If a prompt is changed, replace the existing scene text in the canonical file. D
 When a generated clip is accepted and no further revision is needed, remove that prompt from the active master and update the table of contents.
 
 After every canonical Markdown update:
-1. regenerate `video-prompts.html` from the updated Markdown;
-2. replace the existing Drive `video-prompts.md` in place;
-3. replace the existing Drive `video-prompts.html` in place;
-4. update the ChatGPT Library `/video-prompts.md` and `/video-prompts.html` copies;
-5. update the Notion Hub timestamp/status if needed.
+1. replace the existing Drive `video-prompts.md` in place;
+2. update GitHub `SYNC-TRIGGER.txt`;
+3. let `sync-from-drive.yml` validate and mirror the Drive master;
+4. let `scripts/build_project_status.py` generate `project-status.json`;
+5. verify `health: ok` and a successful GitHub Pages deployment.
 
+Routine edits do **not** require manual refresh of ChatGPT Library, Drive `video-prompts.html`, Notion, or every instruction copy. Those are backup/documentation layers and are refreshed only on explicit backup, major milestones, or architecture/instruction changes.
 ## Other AI tools
 Claude, Gemini, or another AI should normally READ the Drive `video-prompts.md` and return suggestions only.
 They should not directly rewrite the canonical file unless explicitly told that they are the current editor.
@@ -91,20 +89,15 @@ ChatGPT should first fetch the newest Drive version, treat it as authoritative, 
 Do not manually edit `video-prompts.html`; it will be regenerated and overwritten.
 
 
-## Full-sync invariant
-For the current project architecture, a full sync is complete only when the approved state has been propagated and verified in all relevant mirrors:
-- local working files;
-- Google Drive canonical master;
-- ChatGPT Library mirror;
-- GitHub root mirror;
-- GitHub Pages viewer after successful deployment;
-- Notion Hub status/navigation.
+## Automated-sync invariant
 
-Read `SYNC-RUNBOOK.md` for the exact checklist. The GitHub Pages `index.html` dynamically fetches root `video-prompts.md`; the public site content therefore comes from the root Markdown mirror, not from a separately edited HTML scene copy.
+A routine prompt sync is healthy only when:
+- Drive remains the single editable canonical master;
+- GitHub root `video-prompts.md` matches Drive after the workflow;
+- `project-status.json` exists and reports `health: ok`;
+- GitHub Pages deployment succeeds.
 
-Slow-generation scene status must be mirrored in three places inside `video-prompts.md`: top status block, TOC row, and scene section.
-
-
+Library, Drive HTML and Notion are no longer blockers for every prompt edit.
 ## Sanity check after every sync
 
 Always verify scene consistency in two places:
