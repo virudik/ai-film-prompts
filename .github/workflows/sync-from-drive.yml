@@ -9,6 +9,7 @@ on:
     paths:
       - 'SYNC-TRIGGER.txt'
       - '.github/workflows/sync-from-drive.yml'
+      - 'scripts/build_project_status.py'
 
 permissions:
   contents: write
@@ -25,32 +26,52 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download canonical video-prompts.md from Google Drive
+      - name: Download canonical master from Google Drive
         shell: bash
         run: |
           set -euo pipefail
           curl -L --fail --retry 3 --retry-delay 2 \
             "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" \
-            -o video-prompts.md
+            -o /tmp/drive-video-prompts.md
 
-          test -s video-prompts.md
-          if grep -qi '<!doctype html\|accounts.google.com' video-prompts.md; then
+          test -s /tmp/drive-video-prompts.md
+          if grep -qi '<!doctype html\|accounts.google.com' /tmp/drive-video-prompts.md; then
             echo "Refusing to use HTML/login response as video-prompts.md" >&2
             exit 1
           fi
-          grep -q '^# Актуальные видео-сцены и промты' video-prompts.md
-          grep -q 'Канонический источник' video-prompts.md
+          grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
+          grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
-      - name: Commit only when master changed
+      - name: Validate Drive master
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --check-only
+
+      - name: Sync changed master and generated status
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add video-prompts.md
+
+          changed=0
+          if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
+            mv /tmp/drive-video-prompts.md video-prompts.md
+            changed=1
+          fi
+
+          if [ "$changed" -eq 1 ] || [ ! -s project-status.json ]; then
+            python3 scripts/build_project_status.py video-prompts.md --output project-status.json
+          else
+            python3 scripts/build_project_status.py video-prompts.md --check-only >/dev/null
+          fi
+
+          git add video-prompts.md project-status.json
           if git diff --cached --quiet; then
-            echo "No master changes to sync."
+            echo "Master is current and health checks passed. Nothing to commit."
             exit 0
           fi
-          git commit -m "Sync canonical video-prompts.md from Google Drive"
+
+          git commit -m "Sync Drive master and generated project status"
           git push
