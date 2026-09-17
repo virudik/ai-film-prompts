@@ -1,0 +1,51 @@
+name: Finalize instruction handoff metadata
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/finalize-instruction-handoff.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Append final architecture note where missing
+        shell: bash
+        run: |
+          set -euo pipefail
+          files=(SYNC-RUNBOOK.md AI-PROJECT-GUIDE.md USER-GUIDE.md README-AI-SYNC.md CLAUDE-TAKEOVER-RUNBOOK.md)
+          for f in "${files[@]}"; do
+            if ! grep -q '^## Финальный handoff / упрощённая синхронизация v2$' "$f"; then
+              cat >> "$f" <<'EOF'
+
+## Финальный handoff / упрощённая синхронизация v2
+
+- Для восстановления после нового чата сначала читать `NEW-CHAT-HANDOFF.md`, затем `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и свежий Drive `video-prompts.md`.
+- Обычная синхронизация: свежий Drive master → правка того же Drive file ID → `SYNC-TRIGGER.txt` → `sync-from-drive.yml` → GitHub `video-prompts.md` + `project-status.json` → GitHub Pages → проверка health/deploy → `ГОТОВО`.
+- Library, Notion, Drive HTML и полные копии инструкций не переписываются после каждой мелкой сцены; они обновляются при explicit full checkpoint/backup, изменении архитектуры или восстановлении рассинхронизации.
+- Команда `полная ручная синхронизация всего и везде` означает ручную сверку Drive, GitHub, Pages, Library, Notion и инструкций до end-to-end подтверждения.
+- Все человекочитаемые даты показывать как `DD.MM.YYYY` (день → месяц → год). ISO-формат разрешён только внутри машинных/API-полей, где он технически нужен.
+- Завершённые сцены удалять из active master без обязательного перенумерования оставшихся стабильных scene ID.
+- Никогда не заканчивать промежуточным сообщением вместо статуса: писать `ГОТОВО — ...` только после проверки или `НЕ ГОТОВО — осталось ...`.
+EOF
+            fi
+          done
+      - name: Commit final instruction note
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SYNC-RUNBOOK.md AI-PROJECT-GUIDE.md USER-GUIDE.md README-AI-SYNC.md CLAUDE-TAKEOVER-RUNBOOK.md
+          if git diff --cached --quiet; then
+            echo "Instruction copies already finalized."
+            exit 0
+          fi
+          git commit -m "Finalize simplified sync and new-chat handoff instructions"
+          git push
