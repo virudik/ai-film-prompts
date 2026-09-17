@@ -6,24 +6,24 @@
 <title>AI Film Prompts Master</title>
 <meta name="description" content="Living master file of current AI video prompts" />
 <style>
-:root{color-scheme:dark;--bg:#0b0d10;--panel:#12161b;--panel2:#171c22;--text:#e8edf2;--muted:#96a0aa;--line:#2a313a;--accent:#7ab7ff;--ok:#77d28a;--code:#0a0d11}
+:root{color-scheme:dark;--bg:#0b0d10;--panel:#12161b;--panel2:#171c22;--text:#e8edf2;--muted:#96a0aa;--line:#2a313a;--accent:#7ab7ff;--ok:#77d28a;--warn:#ffd27a;--bad:#ff8e98;--code:#0a0d11}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.58 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 .layout{display:grid;grid-template-columns:300px minmax(0,1fr);min-height:100vh}.side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);background:var(--panel);padding:18px}.main{min-width:0;padding:28px 34px 80px;max-width:1250px;width:100%;margin:auto}
 .brand{font-weight:800;font-size:18px;margin-bottom:4px}.sub{font-size:12px;color:var(--muted);margin-bottom:14px}.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:7px 6px;border:1px solid var(--line);border-radius:7px;background:#0e1217;color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap;font-size:11px}.links a.analysis,.links a.backup{grid-column:1/-1}.links a.analysis{border-color:#46617c;background:#101923;color:#dceeff}.links a.backup{border-color:#5b516f;background:#17131e;color:#eadfff}.search{width:100%;padding:10px 11px;border-radius:9px;border:1px solid var(--line);background:#0e1217;color:var(--text);outline:none;margin-bottom:14px}.search:focus{border-color:var(--accent)}
 #toc{display:flex;flex-direction:column;gap:3px}#toc a{display:block;padding:7px 9px;border-radius:7px;color:#c8d0d8;font-size:13px}#toc a:hover{background:var(--panel2);text-decoration:none;color:white}.empty{color:var(--muted);font-size:13px;padding:6px}
-.topbar{display:flex;gap:10px;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line)}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}
-article h1{font-size:30px;margin:0 0 16px}article h2{font-size:23px;margin:42px 0 14px;padding-top:8px;border-top:1px solid var(--line)}article h3{font-size:18px;margin-top:28px}article p,article li{max-width:1000px}article table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:15px 0}article th,article td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}article th{background:var(--panel2);text-align:left}.slow-status{display:block;white-space:nowrap;font-size:12px;line-height:1.25;margin-top:4px;color:#ffd27a}
+.topbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid var(--line)}.pill{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted)}.pill.ok{border-color:#31563a;color:var(--ok)}.pill.bad{border-color:#6b3f45;color:var(--bad)}.pill.status{margin-left:auto;color:#cbd5df}
+article h1{font-size:30px;margin:0 0 16px}article h2{font-size:23px;margin:42px 0 14px;padding-top:8px;border-top:1px solid var(--line)}article h3{font-size:18px;margin-top:28px}article p,article li{max-width:1000px}article table{border-collapse:collapse;width:100%;display:block;overflow:auto;margin:15px 0}article th,article td{border:1px solid var(--line);padding:8px 10px;vertical-align:top}article th{background:var(--panel2);text-align:left}.slow-status{display:block;white-space:nowrap;font-size:12px;line-height:1.25;margin-top:4px;color:var(--warn)}
 pre{position:relative;background:var(--code);border:1px solid var(--line);border-radius:12px;padding:44px 16px 16px;overflow:auto;white-space:pre-wrap;word-break:break-word}code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}.copy{position:absolute;right:10px;top:9px;border:1px solid var(--line);background:#151a20;color:#dce5ee;padding:6px 9px;border-radius:7px;cursor:pointer;font-size:12px;opacity:.72}.copy:hover{opacity:1;border-color:#4a5b6f}.copy.done{color:var(--ok)}
 blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;color:#cbd5df}.loading,.error{padding:18px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.error{border-color:#6b3f45;color:#ffb7be}
-@media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:48vh}.main{padding:20px 16px 60px}.copy{opacity:1}}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:48vh}.main{padding:20px 16px 60px}.copy{opacity:1}.pill.status{margin-left:0}}
 </style>
 </head>
 <body>
 <div class="layout">
   <aside class="side">
     <div class="brand">AI Film Prompts Master</div>
-    <div class="sub">Всегда отображает актуальное публичное зеркало <b>video-prompts.md</b>.</div>
+    <div class="sub">Drive — канон. GitHub и сайт обновляются автоматически.</div>
     <div class="links">
       <a class="ai-guide" href="AI-PROJECT-GUIDE.md" target="_blank">Инструкция для ИИ</a>
       <a href="USER-GUIDE.md" target="_blank">Для владельца</a>
@@ -38,13 +38,18 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
     <nav id="toc"><div class="empty">Загрузка…</div></nav>
   </aside>
   <main class="main">
-    <div class="topbar"><span class="pill">READ-ONLY PUBLIC MIRROR</span><span id="stamp" class="pill">loading</span></div>
+    <div class="topbar">
+      <span class="pill">READ-ONLY PUBLIC MIRROR</span>
+      <span id="health" class="pill">проверка…</span>
+      <span id="projectStatus" class="pill status">статус…</span>
+      <span id="stamp" class="pill">loading</span>
+    </div>
     <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
   </main>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script>
-const content=document.getElementById('content'), toc=document.getElementById('toc'), search=document.getElementById('search'), stamp=document.getElementById('stamp');
+const content=document.getElementById('content'), toc=document.getElementById('toc'), search=document.getElementById('search'), stamp=document.getElementById('stamp'), health=document.getElementById('health'), projectStatus=document.getElementById('projectStatus');
 function slug(s){return s.toLowerCase().trim().replace(/[^a-zа-яё0-9]+/gi,'-').replace(/^-|-$/g,'').slice(0,90)}
 function enhance(){
   const used=new Map();
@@ -58,6 +63,15 @@ function enhance(){
 }
 function filter(q){q=q.trim().toLowerCase();[...toc.querySelectorAll('a')].forEach(a=>a.style.display=!q||a.textContent.toLowerCase().includes(q)?'block':'none')}
 search.addEventListener('input',()=>filter(search.value));
+
+fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(s=>{
+  const ok=s.health==='ok';
+  health.textContent=ok?'✓ AUTO-SYNC OK':'⚠ SYNC CHECK ERROR';
+  health.classList.add(ok?'ok':'bad');
+  const when=new Date(s.synced_at).toLocaleString('ru-RU');
+  projectStatus.textContent=`${s.scenes} сцен · ${s.prompt_texts} промтов · ${s.work_items_count} в работе · ⏳ ${s.slow_scenes_count} · sync ${when}`;
+}).catch(()=>{health.textContent='⚠ статус недоступен';health.classList.add('bad');projectStatus.textContent='project-status.json не загружен'});
+
 fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(md=>{
   marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);enhance();stamp.textContent='loaded '+new Date().toLocaleString('ru-RU');
 }).catch(e=>{content.innerHTML='<div class="error"><b>Не удалось загрузить video-prompts.md.</b><br>'+e.message+'</div>';toc.innerHTML=''});
