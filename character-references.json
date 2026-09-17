@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source": "Topview verified reference roles for current AI Film production tasks",
-  "checked_at": "2026-09-17T23:37:00Z",
-  "publication_policy": "Public Control Center stores descriptive reference registry only. Private/original Topview reference images are not mirrored publicly unless separately approved.",
+  "checked_at": "2026-09-17T23:51:03.721Z",
+  "publication_policy": "Control Center may show Topview-signed preview images only when the character mapping is explicit/high-confidence. Ambiguous candidates remain unpublished. Signed previews are ephemeral and may be refreshed by monitoring.",
   "characters": [
     {
       "id": "jedi-navy",
@@ -92,7 +92,15 @@
         "public_image": null
       },
       "reference_priority": "ВЫСШИЙ — отдельная identity/costume sheet. BLACK и PURPLE всегда остаются двумя разными личностями.",
-      "mapping_confidence": "high"
+      "mapping_confidence": "high",
+      "preview": {
+        "source": "Topview image task",
+        "task_id": "5b4f8c6e3176484cb04c916fbf43faf0",
+        "kind": "production_context_reference",
+        "confidence": "medium",
+        "note": "BLACK явно описан как тот же персонаж в чёрной джедайской броне; кадр групповой, не model sheet.",
+        "url": "https://du9d8548ooqnc.cloudfront.net/analyzed_video/task/object_replace_llm/6335aa2f51c3495e929e47a0c1dea753/0_resized.webp?x-process=image/format,webp&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi9hbmFseXplZF92aWRlby90YXNrL29iamVjdF9yZXBsYWNlX2xsbS82MzM1YWEyZjUxYzM0OTVlOTI5ZTQ3YTBjMWRlYTc1My8wX3Jlc2l6ZWQud2VicD94LXByb2Nlc3M9aW1hZ2UvZm9ybWF0LHdlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTA1NTUzNTk5fX19XX0_&Signature=Rf3M7QmuLZwmfWB4oBr1UJ8i2kKMwesoemWwx2EU6IzTuzxuiclTTuvIk6V7OoSJ4owmw3QyCd8XVhgUak22M7gSlNTD0lXkywUE66ntekTlJ2H2q1cJSiZZ5t~B34vpryiiPhY4iMa3nzsMJDhRHhAWMexeyIVEtjg0UD166B6HEAEiC5MXjbDJMu-Y8zIkQ9BGXIre3dvAjhl~xk3IWhxIUBskG7ROR5uqfm7UtQDcfijVNxp-4vDUNspT1-Cp-TLT2mRWLy6uwmzUrvxWRqMSmcik6pDUX6XokwJC6cV0Qx5TGeHFRg5~Yy8omfBQG1QwdCzueDHYmAO9bSeRVw__&Key-Pair-Id=K1PJBMEIA4Y1WS"
+      }
     },
     {
       "id": "jedi-rooftop-beige",
@@ -149,7 +157,15 @@
         "public_image": null
       },
       "reference_priority": "ВЫСШИЙ — exact identity sheet. Opening-frame reference задаёт только стартовую композицию; cantina reference — только окружение.",
-      "mapping_confidence": "high"
+      "mapping_confidence": "high",
+      "preview": {
+        "source": "Topview image task",
+        "task_id": "d1cbf898e52a4e598bb2e919aa586036",
+        "kind": "production_scene_reference",
+        "confidence": "high",
+        "note": "Точное текстовое совпадение внешности и одежды с Hooded Jedi.",
+        "url": "https://du9d8548ooqnc.cloudfront.net/analyzed_video/task/object_replace_llm/33f6e19cce4145d4971b067f93162fd0/0_resized.webp?x-process=image/format,webp&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vKi9hbmFseXplZF92aWRlby90YXNrL29iamVjdF9yZXBsYWNlX2xsbS8zM2Y2ZTE5Y2NlNDE0NWQ0OTcxYjA2N2Y5MzE2MmZkMC8wX3Jlc2l6ZWQud2VicD94LXByb2Nlc3M9aW1hZ2UvZm9ybWF0LHdlYnAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTA1NTUzNTk5fX19XX0_&Signature=kjr2254HGR6DZiRu53lcbNjAyFKzUazqU9HrNI2HZ9CzyJFDPvyyICaq3QJdAoNh1QvoHfcmLB0wMcqrYKNObizpiDBFSidz7j2ZzTj98pIBlSvQAjW1M1MHje9U~5II1hEAc6cUQvdCS9FBSQrAnVBzsDY~gHNeBGfAVehDiTYHbCar4a4taFIs5O5RnMtuKY5~q-72pjnZzjsX2hlJt86w5zBlsh6tpcVS8HFH09yfTcm~gpGY8UqOXKPZNlC2~-92dTabz5qiSCICOm9NxmmRqAAkJwjm8jfdjqMUgPIOQRiXcQu8p4-fPXULDvZG061wtBZacrJpauRAsop1ig__&Key-Pair-Id=K1PJBMEIA4Y1WS"
+      }
     },
     {
       "id": "jedi-cantina-bearded",
