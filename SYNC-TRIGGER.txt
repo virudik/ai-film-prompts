@@ -1,1 +1,1 @@
-2026-09-17T15:00+03:00 — full sync: revision/status block 18 scenes / 21 prompts / 3 early work items / 5 slow-generation scenes; exact sync timestamp propagated across Drive/Library/Notion/GitHub instructions and public site verification requested.
+2026-09-17T15:35+03:00 — full sync requested: master slow-generation labels standardized on a new line without dash; public viewer updated; montage report published as rendered GitHub Pages HTML.
