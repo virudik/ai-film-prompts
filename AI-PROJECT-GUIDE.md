@@ -2,6 +2,21 @@
 
 This file explains how ChatGPT, Work, Claude, Gemini, DeepSeek, Grok, and other AI tools should use the shared prompt master and project context.
 
+
+## Mandatory revision status and synchronization timestamp
+
+The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
+
+- number of **scenes awaiting generation/refinement**;
+- number of **full prompt texts**;
+- number of items in the early **Scenes in work** block;
+- count and scene numbers currently **⏳ in slow generation**;
+- exact **last full synchronization time**, including date, hour, minute, and UTC offset.
+
+Current control snapshot: **18 scenes awaiting generation/refinement · 21 full prompt texts · 🛠️ 3 early work items (W5, W7, W8) · ⏳ 5 slow-generation scenes (2, 6, 8, 14, 15)**.
+
+After every **full synchronization**, update both the `Last full synchronization` item and the `Synchronization` paragraph in the master to the actual completion time, for example `2026-09-17 · 14:13 (+03:00)`. Never leave only the date without time. If scene counts, prompt-text counts, work items, or slow-generation status change, update this snapshot consistently across mirrors and instruction copies.
+
 ## 1. Canonical source of truth
 
 The only editable prompt master is:
