@@ -16,6 +16,7 @@ The public GitHub copy is a read-only mirror for external AI review:
 - Viewer: https://virudik.github.io/ai-film-prompts/
 - Raw master: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md
 - Repository: https://github.com/virudik/ai-film-prompts
+- Claude takeover runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md
 
 Do not create parallel masters such as `video-prompts-final.md`, `video-prompts-2.md`, `final-final`, etc.
 
@@ -103,7 +104,7 @@ By default Work should propose changes to `video-prompts.md`, not create a secon
 Default mode for every external AI is **REVIEW ONLY** unless the user explicitly appoints that AI as the current editor. All of them must read this guide and the current raw `video-prompts.md` before giving project-specific advice.
 
 Project roles:
-- **Claude — editorial/coherence reviewer.** Check long prompt structure, scene logic, clarity, consistency, pacing, and whether a rewrite preserves the user's intent. Return concrete edits, not a competing master.
+- **Claude — editorial/coherence reviewer.** Check long prompt structure, scene logic, clarity, consistency, pacing, and whether a rewrite preserves the user's intent. Return concrete edits, not a competing master. If the user explicitly appoints Claude as the temporary primary editor because ChatGPT is unavailable, Claude must switch to the takeover protocol in `CLAUDE-TAKEOVER-RUNBOOK.md` and may then edit the canonical Drive master within the user-authorized connected accounts.
 - **Gemini — independent prompt + visual-reference reviewer.** Review the requested scene against the provided images/video references, prompt instructions, and film context when supplied. Do not build a website/app just because a project URL was provided; first read the linked guide/master and answer the user's actual review request.
 - **DeepSeek — technical prompt auditor.** Look specifically for contradictions, impossible timing, camera/action conflicts, reference-priority mistakes, model-unfriendly overload, continuity gaps, negative-prompt problems, and opportunities to make constraints more explicit. Return a precise patch or replacement block.
 - **Grok — creative/comedy/pacing reviewer.** Act as a second opinion on punchlines, deadpan timing, scene energy, dialogue rhythm, cinematic escalation, and alternative ideas while respecting established characters and continuity. Do not replace the canonical story with unrelated improvisation.
@@ -179,8 +180,9 @@ Do not rely on an AI remembering this workflow from an old conversation. Read th
 - Prompt master: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md
 - Film map: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-analysis.md
 - Backlog: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/film-backlog.md
-- Sync runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/SYNC-RUNBOOK.md
 - Repository: https://github.com/virudik/ai-film-prompts
+- Claude takeover runbook: https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md
+
 
 ## 10. Full synchronization protocol
 
