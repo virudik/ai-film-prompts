@@ -1,1 +1,1 @@
-18.09.2026 — V3.5 Phase 1B full checkpoint: verify canonical Drive master, schema v3 fingerprint, five instruction mirrors, Actions health and Pages after instruction architecture update.
+18.09.2026 — V3.5 Phase 3 scene metadata migration: sync canonical Drive master, validate 17 scene-meta blocks, regenerate project-status.json schema v3 and refresh Pages Control Center.
