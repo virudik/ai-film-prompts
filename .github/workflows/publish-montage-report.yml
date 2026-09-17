@@ -1,0 +1,51 @@
+name: Publish montage report
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/publish-montage-report.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-montage-report
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download report from Google Drive
+        shell: bash
+        run: |
+          set -euo pipefail
+          url='https://drive.usercontent.google.com/download?id=1SVXdiYVrBuEw0Zogo-gLZ2pdym2P3GYw&export=download&confirm=t'
+          curl -L --fail --retry 3 --retry-delay 2 "$url" -o Seregius_montazhny_razbor.html
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('Seregius_montazhny_razbor.html')
+          data=p.read_bytes()
+          if len(data) < 50000:
+              raise SystemExit(f'Unexpectedly small report: {len(data)} bytes')
+          head=data[:300].decode('utf-8','ignore').lower()
+          if '<!doctype html' not in head and '<html' not in head:
+              raise SystemExit('Downloaded file is not HTML')
+          print(f'Validated report: {len(data)} bytes')
+          PY
+      - name: Commit report
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Seregius_montazhny_razbor.html
+          if git diff --cached --quiet; then
+            echo 'Report unchanged.'
+            exit 0
+          fi
+          git commit -m 'Publish rendered montage report'
+          git push
