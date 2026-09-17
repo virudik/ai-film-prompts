@@ -30,7 +30,8 @@ jobs:
             perl -0pi -e 's/(Текущее зафиксированное время полной синхронизации: \*\*)[^*]+(\*\*\.)/${1}'"$SYNC_TIME"'${2}/g' "$f"
           done
           perl -0pi -e 's/(Current recorded full synchronization: \*\*)[^*]+(\*\*\.)/${1}'"$SYNC_TIME"'${2}/g' AI-PROJECT-GUIDE.md
-          perl -0pi -e 's/(Current recorded full-sync time: \*\*)[^*]+(\*\*\.)/${1}'"$SYNC_TIME"'${2}/g' AI-PROJECT-GUIDE.md
+          # Remove obsolete duplicate timestamp wording from older revisions.
+          perl -0pi -e 's/^Current recorded full-sync time: \*\*[^\n]+\*\*\.\n\n//m' AI-PROJECT-GUIDE.md
 
       - name: Commit changes
         shell: bash
