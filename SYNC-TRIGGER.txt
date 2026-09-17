@@ -1,1 +1,1 @@
-2026-09-17T15:35+03:00 — full sync requested: master slow-generation labels standardized on a new line without dash; public viewer updated; montage report published as rendered GitHub Pages HTML.
+2026-09-17T16:46+03:00 — full instruction sync requested: propagate site-display rules to all instructions (rendered montage report link; one-line AI instruction button; standardized slow-generation status on its own line), refresh timestamps, and update Claude takeover copy.
