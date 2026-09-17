@@ -1,1 +1,1 @@
-2026-09-17T12:10+03:00 — audit sync: canonical master with scenes 16–18, scene 18 A/B, slow-generation statuses 2/6/8/14/15, instructions and site verification.
+2026-09-17T14:13+03:00 — full sync: prominent revision/status block, exact synchronization time, 18 active scenes, 21 prompt texts, 3 early work items, slow-generation scenes 2/6/8/14/15, instructions refreshed.
