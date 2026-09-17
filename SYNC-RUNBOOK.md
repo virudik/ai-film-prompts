@@ -84,6 +84,12 @@
 
 `render_state` — отдельное machine state и не заменяет production state.
 
+Правила interpretation:
+- `NEEDS_FIX` — сцена/промт помечены для отдельного обсуждения необходимости правки. Сам статус **не разрешает** переписывать prompt или запускать новый render.
+- `NEEDS_RERENDER` — проблема результата уже известна; это не отменяет slow-lock и не разрешает duplicate render без явного условия запуска.
+- `READY + SLOW_PENDING` допустимо: prompt подготовлен, но уже находится в медленной генерации.
+- `NEEDS_FIX + SLOW_PENDING` допустимо: известная потенциальная правка обсуждается **после текущего результата**, без повторного запуска текущей slow-задачи.
+
 ### instruction_sync
 
 Пять instruction Drive files остаются приватными/каноническими. GitHub Actions сейчас не имеет authenticated Drive access к ним.
@@ -95,6 +101,18 @@
 Это **не** означает, что master unhealthy. Нельзя подменять `unverified` значением `ok` без фактической authenticated/hash проверки.
 
 При ручном/архитектурном checkpoint основной редактор должен fresh-read Drive инструкции, обновить их GitHub mirrors и подтвердить совпадение содержимого/хэшей вручную или через подключённый Drive/GitHub.
+
+## Topview как производственный источник наблюдений
+
+Подключённый Topview можно использовать **read-only** для сверки реального производства: список boards/tasks, состояние задачи, модель, параметры, prompt, время запуска/завершения и наличие результата. Это полезный дополнительный источник для проверки, действительно ли ролик запускался, завершился или каким движком делался.
+
+Но Topview **не является вторым master**:
+- creative intent, scene ID, production state и slow-lock канонически фиксируются в Drive `video-prompts.md`;
+- сопоставлять Topview task со сценой можно только при достаточно однозначном совпадении prompt/reference/model/context;
+- неоднозначную задачу не привязывать к scene ID автоматически;
+- Topview сам по себе не переводит сцену в `APPROVED`, `IN_EDIT` или `CLOSED` и не разрешает удалять prompt;
+- `render_state` в `project-status.json` по-прежнему вычисляется только из canonical slow-list master;
+- найденный в Topview `success` означает, что генерация технически завершилась, но не означает, что дубль принят пользователем.
 
 ## Как обслуживать master
 
@@ -192,7 +210,11 @@ Library/Notion/Drive HTML при routine edit не трогать без отд�
 
 - Источник scene content — GitHub root `video-prompts.md`.
 - `index.html` только отображает master/status.
-- UI может использовать schema v3, но не должен становиться editable source-of-truth.
+- UI использует schema v3, но не становится editable source-of-truth.
+- Пользовательские статусы/служебные подписи выводить по-русски; machine enums в JSON не переименовывать.
+- Фильтры по state/engine/dialogue/dependencies показывать только при наличии подтверждённых `scene_meta`.
+- `NEEDS_FIX` на сайте означает «нужно обсудить/скорректировать», но не запускает автоматическое изменение prompt.
+- Медленная генерация берётся только из machine `slow_scenes` / generated `render_state`, а не из hard-coded списка в HTML.
 - После изменения master проверять Pages deployment и публичную ревизию.
 - Если сайт кажется старым: Drive → GitHub root → `project-status.json` → Pages deployment → viewer.
 - `Seregius_montazhny_razbor.html` публикуется отдельной rendered Pages page.

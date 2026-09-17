@@ -1,1 +1,1 @@
-18.09.2026 — V3.5 Phase 3 scene metadata migration: sync canonical Drive master, validate 17 scene-meta blocks, regenerate project-status.json schema v3 and refresh Pages Control Center.
+18.09.2026 — slow 2,6,12,14,15,18; production-status + Russian Control Center + docs checkpoint

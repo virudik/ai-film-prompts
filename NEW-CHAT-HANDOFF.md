@@ -14,10 +14,10 @@
 - **Drive master file ID:** `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
 - **Не создавать** `v2`, `final`, `copy`, `final-final` и т. п.
 - Перед любой записью в master сначала **заново прочитать свежий Drive `video-prompts.md`**.
-- Текущее состояние master: **17 активных сцен · 20 полных текстов промтов · 3 work items (W5, W7, W8) · 4 slow-сцены (2, 6, 14, 15)**.
+- Текущее состояние master: **17 активных сцен · 20 полных текстов промтов · 3 work items (W5, W7, W8) · 6 slow-сцен (2, 6, 12, 14, 15, 18)**.
 - Scene IDs стабильны и могут иметь пропуски. **После удаления готовой сцены остальные не перенумеровывать.**
 - Сцена **8 «Кашиик — спор на мосту»** завершена и удалена из active master.
-- Slow-сцены **2, 6, 14, 15 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
+- Slow-сцены **2, 6, 12, 14, 15, 18 повторно не запускать** до результата/явной ошибки или отдельного разрешения пользователя.
 - `project-status.json` сейчас: **schema v3 · health = ok · canonical master SHA-256 = `5d5b7ad0fc28c8a655bb614c0e7bcaeb6e16ccd8481322915b4d46f8f491b06d`**; все обязательные integrity/scene-meta checks = true.
 - `audit_fingerprint` — обязательная проверка свежести перед внешним аудитом: revision/hash, scene/prompt counts, scene IDs, W-items, slow list, health и instruction-sync health.
 - `instruction_sync.health = unverified` — ожидаемое честное состояние: приватные Drive-инструкции вручную выровнены с зеркалами в checkpoint, но автоматической authenticated hash-проверки из GitHub Actions пока нет.
@@ -53,7 +53,7 @@
 - Active scenes: **17**
 - Full prompt texts: **20**
 - Work items: **W5, W7, W8**
-- Slow scenes: **2, 6, 14, 15**
+- Slow scenes: **2, 6, 12, 14, 15, 18**
 - Scene IDs: **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18**
 - Latest scene ID: **18**
 - `project-status.json`: **schema v3 · health: ok · audit fingerprint активен · instruction_sync: unverified**
@@ -77,6 +77,13 @@
 16. **Татуин — гигантский пустынный червь и бой на руинах**
 17. **Пещера — передышка после монстра и разговор о карте**
 18. **Имперский крейсер — Канцлер и офицер в коридоре**
+
+### Кандидаты на отдельное обсуждение правок
+
+- **NEEDS_FIX:** 3, 4, 6, 10, 11, 13, 17.
+- **NEEDS_RERENDER:** 18.
+- Это очередь для обсуждения с пользователем. Нельзя автоматически переписывать prompt только из-за статуса.
+- Для 6 и 18 одновременно действует slow-lock: текущий render не трогать и не дублировать.
 
 ### Текущие work items
 
@@ -232,6 +239,12 @@ Notion Hub:
 - Claude takeover: `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/CLAUDE-TAKEOVER-RUNBOOK.md`
 - Rendered montage review: `https://virudik.github.io/ai-film-prompts/Seregius_montazhny_razbor.html`
 
+### Control Center / русские подписи
+
+`index.html` — read-only Control Center. Пользовательские подписи и статусы должны отображаться по-русски (`Медленная генерация`, `В работе`, `Ревизия`, `Синхронизация`, `Инструкции: НЕ ПРОВЕРЕНЫ`, `Контрольный отпечаток`). Machine enum-значения schema v3 сохраняются без переименования.
+
+Фильтры/чипы строятся только из `project-status.json`/`scene_meta`; нельзя hard-code scene/status list в HTML.
+
 ### Site invariants
 
 - `index.html` — viewer, **не master**.
@@ -253,8 +266,8 @@ Notion Hub:
 - scenes: **17**
 - prompt_texts: **20**
 - work_items: **W5, W7, W8**
-- slow_scenes: **2, 6, 14, 15**
-- generated slow render_state: **SLOW_PENDING = 2, 6, 14, 15**
+- slow_scenes: **2, 6, 12, 14, 15, 18**
+- generated slow render_state: **SLOW_PENDING = 2, 6, 12, 14, 15, 18**
 - instruction_sync: **unverified** (automatic authenticated Drive instruction verification not configured)
 - health: **ok**
 - все обязательные integrity/scene-meta checks: **true**
@@ -299,6 +312,12 @@ GitHub Actions / Pages:
 Советы внешних ИИ возвращать как patch/replacement/recommendation. Канон меняет один текущий основной редактор.
 
 ---
+
+### Topview как дополнительный production evidence
+
+Подключённый Topview доступен основному редактору для read-only сверки boards/tasks: status, model, prompt, timestamps и наличие результата. Его можно использовать для проверки актуальности конкретной генерации **после однозначного сопоставления со сценой**.
+
+Topview не заменяет Drive master. `status=success` означает технически завершённую генерацию, но не user approval; неоднозначные tasks не меняют canonical scene state автоматически.
 
 ## 13. Library / Notion / исторические копии
 
