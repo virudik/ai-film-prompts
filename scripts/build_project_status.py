@@ -140,7 +140,7 @@ def parse_scene_metadata(text, section_scenes, slow_scenes):
             re.M | re.S,
         )
         section = m.group(1) if m else ""
-        marker_present = "<!-- scene-meta:" in section
+        marker_present = re.search(r"<!--\s*scene-meta:", section) is not None
         raw_blocks = re.findall(r"<!--\s*scene-meta:\s*(.*?)\s*-->", section, re.S)
 
         if marker_present and not raw_blocks:
