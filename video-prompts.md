@@ -284,7 +284,7 @@ Negative prompt: face swap, face duplication, merged characters, missing charact
 
 ## Сцена 2 — Джедаи на крыше: триумфальный марш без мечей
 
-<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["ensemble","continuous_take","manual_review"]} -->
+<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["ensemble","continuous_take","manual_review"],"target_engine":"Seedance 2.5"} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -577,7 +577,7 @@ Negative prompt: camera cut or hard edit, glass shattering, glass vanishing inst
 
 ## Сцена 6 — Подводный рынок: странный фрукт
 
-<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy","camera_conflict","needs_fix"]} -->
+<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy","camera_conflict","needs_fix"],"target_engine":"Seedance 2.5"} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -856,7 +856,7 @@ NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual wo
 
 ## Сцена 12 — Кантина: вход двух джедаев
 
-<!-- scene-meta: {"target_engine":"Wan 3","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["continuous_take","manual_review"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["continuous_take","manual_review"]} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -973,7 +973,7 @@ identity drift, face swap, face duplication, costume swap, missing mustache, wro
 
 ## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
 
-<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy"]} -->
+<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy"],"target_engine":"Seedance 2.5"} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -1036,7 +1036,7 @@ identity drift, different face, different age, full head of hair, robe color cha
 
 ## Сцена 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями
 
-<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"]} -->
+<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"],"target_engine":"Wan 3.0"} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
@@ -1235,7 +1235,7 @@ new monster attack, living monster, red liquid blood, guts, gore, comedy tone, r
 
 ## Сцена 18 — Имперский крейсер: Канцлер и офицер в коридоре
 
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"NEEDS_RERENDER","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","needs_rerender"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"NEEDS_RERENDER","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","needs_rerender"]} -->
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
