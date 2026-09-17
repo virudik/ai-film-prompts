@@ -1,47 +1,13 @@
-name: Sync instruction status metadata
+name: Sync instruction status metadata (disabled)
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'SYNC-TRIGGER.txt'
-      - '.github/workflows/one-time-sync-instruction-status.yml'
+  workflow_dispatch:
 
 permissions:
-  contents: write
-
-concurrency:
-  group: instruction-status-sync
-  cancel-in-progress: true
+  contents: read
 
 jobs:
-  patch:
-    if: github.actor != 'github-actions[bot]'
+  notice:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Patch current sync time into instruction copies
-        shell: bash
-        run: |
-          set -euo pipefail
-          SYNC_TIME="$(TZ=Europe/Moscow date '+%Y-%m-%d · %H:%M (+03:00)')"
-          RU_FILES=(SYNC-RUNBOOK.md USER-GUIDE.md README-AI-SYNC.md CLAUDE-TAKEOVER-RUNBOOK.md)
-          for f in "${RU_FILES[@]}"; do
-            perl -0pi -e 's/(Текущее зафиксированное время полной синхронизации: \*\*)[^*]+(\*\*\.)/${1}'"$SYNC_TIME"'${2}/g' "$f"
-          done
-          perl -0pi -e 's/(Current recorded full synchronization: \*\*)[^*]+(\*\*\.)/${1}'"$SYNC_TIME"'${2}/g' AI-PROJECT-GUIDE.md
-          # Remove obsolete duplicate timestamp wording from older revisions.
-          perl -0pi -e 's/^Current recorded full-sync time: \*\*[^\n]+\*\*\.\n\n//m' AI-PROJECT-GUIDE.md
-
-      - name: Commit changes
-        shell: bash
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add SYNC-RUNBOOK.md USER-GUIDE.md README-AI-SYNC.md AI-PROJECT-GUIDE.md CLAUDE-TAKEOVER-RUNBOOK.md
-          if git diff --cached --quiet; then
-            echo "No instruction changes."
-            exit 0
-          fi
-          git commit -m "Sync revision status metadata across instructions"
-          git push
+      - run: echo "This one-time timestamp patcher is disabled. Full-sync timestamps must be updated consistently across Drive master, instruction copies, Library, GitHub and Notion by the active editor following SYNC-RUNBOOK.md."
