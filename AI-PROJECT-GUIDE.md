@@ -3,6 +3,8 @@
 This file explains how ChatGPT, Work, Claude, Gemini, DeepSeek, Grok, and other AI tools should use the shared prompt master and project context.
 
 
+
+
 ## Mandatory revision status and synchronization timestamp
 
 The top of canonical `video-prompts.md` must contain a **prominent project-status block**, not only a small revision line. It must show current values for:
