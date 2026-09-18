@@ -1,1 +1,1 @@
-18.09.2026 — simplify slow-generation heading in canonical Drive master; resync mirror
+18.09.2026 14:07 (+03:00) — canonical slow-generation heading simplified; resync after Drive write
