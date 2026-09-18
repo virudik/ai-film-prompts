@@ -11,7 +11,7 @@
 - `project-status.json` schema v3 генерируется автоматически; вручную его не править.
 - Scene IDs не перенумеровывать. Slow-сцену не перезапускать без результата/ошибки или разрешения.
 - Пять Drive-инструкций канонические для своих GitHub-зеркал.
-- Если `instruction_sync.health = unverified`, не выдавать это за подтверждённое совпадение инструкций.
+- `instruction_sync.health = ok` означает свежую авторизованную сверку пяти Drive-инструкций с GitHub; `stale/unverified/error` нельзя выдавать за подтверждённое совпадение.
 
 ## Перед началом takeover — capability preflight
 
@@ -77,7 +77,7 @@ Claude может принять editor-role только если доступ�
 - считать Drive authoritative;
 - GitHub mirror обновлять отдельно через доступный authenticated path;
 - не менять privacy Drive-файла ради Actions;
-- `instruction_sync: unverified` не считать ошибкой master, но явно сообщать, что automatic instruction verification не настроена.
+- после обновления instruction mirror дождаться новой авторизованной проверки; `stale/unverified` сообщать как отсутствие свежего подтверждения, `error` — как фактический drift/read failure.
 
 ## Topview evidence
 
@@ -101,7 +101,7 @@ Claude может принять editor-role только если доступ�
 - project fingerprint;
 - Pages;
 - менялись ли instructions/Notion/Library;
-- что осталось `unverified`.
+- что осталось `stale`, `unverified` или `error`.
 
 ## Recovery
 
