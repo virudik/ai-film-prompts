@@ -92,15 +92,21 @@
 
 ### instruction_sync
 
-Пять instruction Drive files остаются приватными/каноническими. GitHub Actions сейчас не имеет authenticated Drive access к ним.
+Пять instruction Drive files остаются приватными/каноническими. GitHub Actions не получает Google Drive credentials и **не должен** пытаться скачивать эти файлы анонимно.
 
-Поэтому допустимое текущее machine-state:
-- `instruction_sync.health = unverified`
-- warning `instruction_sync_unverified`
+Авторизованная сверка выполняется ежечасной automation `Topview Slow Watch` через подключённые Google Drive + GitHub:
+1. fresh-read пяти Drive-инструкций по фиксированным file ID;
+2. exact-text compare с текущими GitHub mirrors;
+3. запись результата в `instruction-sync-status.json`;
+4. `sync-from-drive.yml` перечитывает snapshot и пересобирает `project-status.json`.
 
-Это **не** означает, что master unhealthy. Нельзя подменять `unverified` значением `ok` без фактической authenticated/hash проверки.
+Состояния:
+- `ok` — пять файлов совпадают, snapshot не старше 3 часов;
+- `stale` — snapshot старше 3 часов;
+- `error` — mismatch/read failure;
+- `unverified` — snapshot отсутствует/невалиден.
 
-При ручном/архитектурном checkpoint основной редактор должен fresh-read Drive инструкции, обновить их GitHub mirrors и подтвердить совпадение содержимого/хэшей вручную или через подключённый Drive/GitHub.
+`error` нельзя исправлять автоматически копированием одной стороны поверх другой: сначала определить источник drift. Drive остаётся authoritative.
 
 ## Topview как производственный источник наблюдений
 
@@ -173,7 +179,7 @@ Dependency targets обязаны указывать на существующи
 9. Проверить raw/site на изменённую фразу/статус.
 10. Только после этого сообщить `ГОТОВО`.
 
-`instruction_sync: unverified` сам по себе routine scene edit не блокирует, если instructions в этой операции не менялись.
+`instruction_sync: stale/unverified` сам по себе routine scene edit не блокирует, если instructions в этой операции не менялись. `instruction_sync: error` означает фактический drift/read failure и должен быть отдельно разобран.
 
 Library/Notion/Drive HTML при routine edit не трогать без отдельной причины.
 
@@ -186,7 +192,7 @@ Library/Notion/Drive HTML при routine edit не трогать без отд�
 4. не делать инструкцию публичной в Drive только ради GitHub Actions;
 5. проверить содержимое/хэш Drive↔GitHub доступным authenticated способом;
 6. выполнить full checkpoint, если изменение архитектурное;
-7. `instruction_sync.health` оставлять `unverified`, пока автоматическая authenticated verification не внедрена; ручной факт сверки сообщать отдельно.
+7. после изменения инструкции обновить её GitHub mirror и дождаться новой авторизованной проверки; ожидаемый финальный статус — `instruction_sync.health = ok`.
 
 ## Полная ручная синхронизация всего и везде
 
@@ -204,7 +210,7 @@ Library/Notion/Drive HTML при routine edit не трогать без отд�
 11. обновить Library master/HTML/instructions/site reserve при наличии;
 12. обновить Notion Hub и instruction pages;
 13. end-to-end проверить raw master и public viewer;
-14. сообщить `ГОТОВО` только если обязательные пункты подтверждены; отдельно перечислить всё, что осталось `unverified`.
+14. сообщить `ГОТОВО` только если обязательные пункты подтверждены; отдельно перечислить всё, что осталось `stale`, `unverified` или `error`.
 
 ## Как обслуживать сайт
 
