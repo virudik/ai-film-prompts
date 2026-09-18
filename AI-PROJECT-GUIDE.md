@@ -169,3 +169,4 @@ Consensus ИИ — evidence, not authority.
 - `.github/workflows/sync-from-drive.yml` обновлён: перед публикацией он берёт свежий `origin/main`, пересобирает status и повторяет push до 4 раз; concurrent sync runs не отменяют друг друга.
 - Control Center больше не считает один старый зелёный JSON достаточным: учитывается свежесть успешного `project-status.json` и последний публичный run sync workflow; stale/новая ошибка должны снимать зелёный статус.
 - Последний успешный статус всегда важнее старого письма об уже восстановившейся transient-ошибке.
+- Master correction 19.09.2026: у сцены 18 служебный контекст исправлен с устаревшего `Seedance 2.5` на фактический `Wan 3.0`; scene-meta и Topview уже указывали Wan 3.0. Slow-lock сцены 18 не изменён.
