@@ -1,1 +1,1 @@
-18.09.2026 — redistribute slow/work development notes in canonical Drive master; resync mirror
+18.09.2026 — simplify slow-generation heading in canonical Drive master; resync mirror
