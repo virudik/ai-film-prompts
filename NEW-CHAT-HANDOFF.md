@@ -324,3 +324,4 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - `sync-from-drive.yml` усилен fresh-fetch/rebuild/retry;
 - Control Center health усилен проверкой freshness и latest public sync workflow;
 - любые новые изменения сайта/master после этого checkpoint снова должны отражаться здесь и в canonical instructions.
+- Исправлена только служебная подпись scene 18: `Seedance 2.5` → `Wan 3.0`, чтобы она совпадала с scene-meta и фактической Topview task. Prompt body и canonical slow-lock не менялись.
