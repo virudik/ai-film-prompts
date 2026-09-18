@@ -1,4 +1,4 @@
-﻿# Claude Takeover Runbook — AI Film v3.5
+# Claude Takeover Runbook — AI Film v3.5
 
 
 Claude is review-only by default.
@@ -91,3 +91,7 @@ Verified 19.09.2026: public `references/full/*.jpg` paths exist for all 8 confir
 
 
 A Claude web/chat session that can only read Drive and public GitHub remains review-only even if the Claude model itself is capable of coding. Takeover authority belongs to the environment, not the model name. Claude Code or another Claude environment may become a main editor only after the preflight proves same-ID Drive write plus GitHub write/verification with the actual connected credentials/tools.
+
+## Verified sync recovery
+
+As of 19.09.2026, the earlier race/BOM failures are resolved and confirmed by multiple successful sync runs. Before takeover, still fresh-check live status, but do not treat older failure emails as evidence of a current outage when a newer successful status exists.
