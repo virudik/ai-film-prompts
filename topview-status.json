@@ -1,1 +1,146 @@
-{"schema_version":1,"source":"Topview read-only production telemetry","checked_at":"2026-09-18T02:39:09Z","timezone":"UTC","canonical_behavior":"Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.","estimation":{"basis":"Recent completed unlimited board tasks grouped by model; remaining estimates are conditional on elapsed time.","warning":"Both provider and historical ETA are estimates, not promises.","provider":"Topview board task estimateInfo when available."},"scenes":{"2":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"d998b5f025c9434388d33906329b8d43","board_task_id":"d998b5f025c9434388d33906329b8d43","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-16T01:11:53Z","completed_at":null,"elapsed_hours_at_check":49.45,"remaining_hours_estimate":{"p25":9.35,"median":12.85,"p75":18.45,"tail_observed":36.85},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60},"6":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"12742558fff3490da543bb6e4ee6f098","board_task_id":"12742558fff3490da543bb6e4ee6f098","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-16T00:54:47Z","completed_at":null,"elapsed_hours_at_check":49.74,"remaining_hours_estimate":{"p25":9.06,"median":12.56,"p75":18.16,"tail_observed":36.56},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60},"12":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"8d2103753bb145b7990014bf83a6f652","board_task_id":"8d2103753bb145b7990014bf83a6f652","model":"Wan 3.0","model_id":"qwen-wan3.0-video","topview_status":"init","started_at":"2026-09-17T22:17:20Z","completed_at":null,"elapsed_hours_at_check":4.36,"remaining_hours_estimate":{"p25":34.54,"median":51.04,"p75":64.24,"tail_observed":69.34},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60},"14":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"1fd5e89e6cd64b41af6a007a88d0939f","board_task_id":"1fd5e89e6cd64b41af6a007a88d0939f","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-17T03:17:45Z","completed_at":null,"elapsed_hours_at_check":23.36,"remaining_hours_estimate":{"p25":27.74,"median":38.84,"p75":43.24,"tail_observed":62.94},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60},"15":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"86d84863bf5e4b97b2ea9423ca514f84","board_task_id":"86d84863bf5e4b97b2ea9423ca514f84","model":"Wan 3.0","model_id":"qwen-wan3.0-video","topview_status":"init","started_at":"2026-09-17T03:22:10Z","completed_at":null,"elapsed_hours_at_check":23.28,"remaining_hours_estimate":{"p25":15.62,"median":32.12,"p75":45.32,"tail_observed":50.42},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60},"18":{"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"cd7c476566d84076aaa330274093ea15","board_task_id":"cd7c476566d84076aaa330274093ea15","model":"Wan 3.0","model_id":"qwen-wan3.0-video","topview_status":"init","started_at":"2026-09-17T22:15:41Z","completed_at":null,"elapsed_hours_at_check":4.39,"remaining_hours_estimate":{"p25":34.51,"median":51.01,"p75":64.21,"tail_observed":69.31},"mapping_confidence":"high","queue_count":1887,"topview_estimated_wait_seconds":156600,"topview_estimated_process_seconds":60}}}
+{
+  "schema_version": 1,
+  "source": "Topview read-only production telemetry",
+  "checked_at": "2026-09-18T02:40:00Z",
+  "timezone": "UTC",
+  "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
+  "estimation": {
+    "basis": "Recent completed unlimited board tasks grouped by model; remaining estimates are conditional on elapsed time.",
+    "warning": "Both provider and historical ETA are estimates, not promises.",
+    "provider": "Per-task Topview board task estimateInfo (queueCount / estimatedWaitSeconds) for each mapped task; queueCount is provider telemetry, not a guaranteed exact queue position."
+  },
+  "scenes": {
+    "2": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "d998b5f025c9434388d33906329b8d43",
+      "board_task_id": "d998b5f025c9434388d33906329b8d43",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-16T01:11:53Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 49.45,
+      "remaining_hours_estimate": {
+        "p25": 9.35,
+        "median": 12.85,
+        "p75": 18.45,
+        "tail_observed": 36.85
+      },
+      "mapping_confidence": "high",
+      "queue_count": 2139,
+      "topview_estimated_wait_seconds": 57181,
+      "topview_estimated_process_seconds": null
+    },
+    "6": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "12742558fff3490da543bb6e4ee6f098",
+      "board_task_id": "12742558fff3490da543bb6e4ee6f098",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-16T00:54:47Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 49.74,
+      "remaining_hours_estimate": {
+        "p25": 9.06,
+        "median": 12.56,
+        "p75": 18.16,
+        "tail_observed": 36.56
+      },
+      "mapping_confidence": "high",
+      "queue_count": 1106,
+      "topview_estimated_wait_seconds": 22619,
+      "topview_estimated_process_seconds": null
+    },
+    "12": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "8d2103753bb145b7990014bf83a6f652",
+      "board_task_id": "8d2103753bb145b7990014bf83a6f652",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-09-17T22:17:20Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 4.36,
+      "remaining_hours_estimate": {
+        "p25": 34.54,
+        "median": 51.04,
+        "p75": 64.24,
+        "tail_observed": 69.34
+      },
+      "mapping_confidence": "high",
+      "queue_count": 3421,
+      "topview_estimated_wait_seconds": 126297,
+      "topview_estimated_process_seconds": null
+    },
+    "14": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
+      "board_task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-17T03:17:45Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 23.36,
+      "remaining_hours_estimate": {
+        "p25": 27.74,
+        "median": 38.84,
+        "p75": 43.24,
+        "tail_observed": 62.94
+      },
+      "mapping_confidence": "high",
+      "queue_count": 2843,
+      "topview_estimated_wait_seconds": 91735,
+      "topview_estimated_process_seconds": null
+    },
+    "15": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "86d84863bf5e4b97b2ea9423ca514f84",
+      "board_task_id": "86d84863bf5e4b97b2ea9423ca514f84",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-09-17T03:22:10Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 23.28,
+      "remaining_hours_estimate": {
+        "p25": 15.62,
+        "median": 32.12,
+        "p75": 45.32,
+        "tail_observed": 50.42
+      },
+      "mapping_confidence": "high",
+      "queue_count": 3036,
+      "topview_estimated_wait_seconds": 103253,
+      "topview_estimated_process_seconds": null
+    },
+    "18": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "cd7c476566d84076aaa330274093ea15",
+      "board_task_id": "cd7c476566d84076aaa330274093ea15",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-09-17T22:15:41Z",
+      "completed_at": null,
+      "elapsed_hours_at_check": 4.39,
+      "remaining_hours_estimate": {
+        "p25": 34.51,
+        "median": 51.01,
+        "p75": 64.21,
+        "tail_observed": 69.31
+      },
+      "mapping_confidence": "high",
+      "queue_count": 3228,
+      "topview_estimated_wait_seconds": 114771,
+      "topview_estimated_process_seconds": null
+    }
+  }
+}
