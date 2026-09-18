@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-18T21:56:58Z",
+  "checked_at": "2026-09-18T22:02:43Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-18T21:53:30.130Z",
-      "github_blob": "2688043fb91e764c892fb9cd58f4aed73ffb726b",
+      "drive_modified_at": "2026-09-18T22:02:16.914Z",
+      "github_blob": "d54f2639544e79d9c4f2644590c6b6d77cd079bb",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact text comparison performed through the authorized Google Drive connector and current GitHub mirrors after the 19.09.2026 takeover correction. Telemetry only; Drive remains canonical."
+  "note": "Exact text comparison performed after the 19.09.2026 takeover/site/master corrections. Drive remains canonical."
 }
