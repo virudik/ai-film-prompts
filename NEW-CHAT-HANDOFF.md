@@ -171,7 +171,7 @@ Historical W context перенесён ближе к соответствующ
 2. **Не менять time estimate** без нового запроса.
 
 
-3. После крупных instruction changes нужно заново проверить exact Drive↔GitHub instruction match и свежесть `instruction-sync-status.json`.
+3. После крупных instruction changes Drive originals остаются каноном. Hourly `AI Film Recovery Sync` автоматически ремонтирует exact GitHub mirrors из Drive → GitHub и обновляет проверку; для срочного изменения основной редактор всё равно должен выполнить немедленную сверку, а semantic conflict не исправлять автоматически в Drive.
 
 
 4. **Следить за concurrent-write recovery.**
@@ -337,3 +337,14 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - Проверенный canonical master SHA-256: `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`.
 - GitHub `video-prompts.md` полностью совпадает с Drive master и содержит раздел `Ближайшие направления` и исправление scene 18 на Wan 3.0.
 - Старые письма GitHub `Run failed` до этого checkpoint не считать признаком текущей поломки без fresh-check latest workflow/status.
+
+
+## 17. Infrastructure/UI update — 19.09.2026
+
+- Automation `AI Film Handoff Refresh` переименована в `AI Film Recovery Sync` и переведена с weekly на hourly.
+- Она автоматически чинит пять canonical instruction mirrors только Drive → GitHub, никогда GitHub → Drive, затем делает exact-text verification и semantic consistency check.
+- Semantic check обязан ловить stale contradiction `slow tables are planned/not merged` vs фактическое `already merged`, scene 18 engine mismatch, source-of-truth drift, auto-clear slow lock и устаревшие race/BOM rules.
+- Control Center получил третий health state: yellow `! БЫЛИ ОШИБКИ` после восстановленного workflow failure; он держится до 3 последовательных successful sync-runs. Green = stable healthy; red = unresolved/stale/unhealthy.
+- Из meta-line удалено дублирующее `N мин назад`, если уже показано точное время.
+- Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено · ждёт решения`.
+- Проверка slow engines 19.09.2026: 2 Seedance 2.5, 6 Seedance 2.5, 12 Wan 3.0, 14 Seedance 2.5, 15 Wan 3.0, 18 Wan 3.0; master и Topview совпадают по всем six slow scenes. Старое расхождение было только в служебной строке контекста scene 18 и уже исправлено.
