@@ -36,6 +36,18 @@ jobs:
             -o /tmp/drive-video-prompts.md
 
           test -s /tmp/drive-video-prompts.md
+
+          # Normalize an optional UTF-8 BOM before strict first-line validation.
+          # A raw Markdown file may still be valid with BOM, and this prevents an
+          # invisible encoding marker from breaking the '^#' guard.
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("/tmp/drive-video-prompts.md")
+          data = p.read_bytes()
+          if data.startswith(b"\xef\xbb\xbf"):
+              p.write_bytes(data[3:])
+          PY
+
           if grep -qi '<!doctype html\|accounts.google.com' /tmp/drive-video-prompts.md; then
             echo "Refusing to use HTML/login response as video-prompts.md" >&2
             exit 1
