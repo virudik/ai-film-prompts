@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: drive-sync
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -57,19 +57,38 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
-            cp /tmp/drive-video-prompts.md video-prompts.md
-          fi
+          # Other authorized writers (Topview/instruction telemetry) may advance
+          # main while this job is running. Always rebuild on the newest remote
+          # head and retry instead of failing with a non-fast-forward push.
+          for attempt in 1 2 3 4; do
+            echo "Sync push attempt $attempt/4"
+            git fetch origin main
+            git reset --hard origin/main
 
-          if ! cmp -s /tmp/project-status.json project-status.json; then
-            cp /tmp/project-status.json project-status.json
-          fi
+            SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+            python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT"
 
-          git add video-prompts.md project-status.json
-          if git diff --cached --quiet; then
-            echo "Master mirror and project status are current; health checks passed."
-            exit 0
-          fi
+            if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
+              cp /tmp/drive-video-prompts.md video-prompts.md
+            fi
 
-          git commit -m "Sync Drive master and generated project status"
-          git push
+            if ! cmp -s /tmp/project-status.json project-status.json; then
+              cp /tmp/project-status.json project-status.json
+            fi
+
+            git add video-prompts.md project-status.json
+            if git diff --cached --quiet; then
+              echo "Master mirror and project status are current; health checks passed."
+              exit 0
+            fi
+
+            git commit -m "Sync Drive master and generated project status"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Remote main advanced during sync; retrying from the newest head." >&2
+          done
+
+          echo "Unable to publish Drive mirror after 4 retries." >&2
+          exit 1
