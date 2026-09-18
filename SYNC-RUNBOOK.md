@@ -1,8 +1,11 @@
-# AI Film Prompts — Full Sync Runbook v3.5
+﻿# AI Film Prompts — Full Sync Runbook v3.5
+
 
 Нормативный технический runbook для основного редактора проекта.
 
+
 ## 1. Неизменяемые правила
+
 
 - Editable master только Google Drive `video-prompts.md`.
 - File ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
@@ -14,7 +17,9 @@
 - Slow-scene не перезапускать без результата/ошибки/явного решения пользователя.
 - Не создавать `video-prompts-v2/final/copy/final-final`.
 
+
 ## 2. Routine edit одной сцены
+
 
 1. Fresh-read Drive master.
 2. Найти exact Scene ID.
@@ -27,9 +32,12 @@
 9. Проверить `project-status.json`.
 10. Проверить Pages.
 
+
 Не писать пользователю `ГОТОВО`, пока обязательная проверка не завершилась.
 
+
 ## 3. Full instruction checkpoint
+
 
 Пять канонических Drive instruction files:
 - `AI-PROJECT-GUIDE.md` — `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
@@ -37,6 +45,7 @@
 - `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
 - `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
 - `CLAUDE-TAKEOVER-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
+
 
 После изменения инструкций:
 1. обновить Drive originals;
@@ -46,15 +55,19 @@
 5. дождаться rebuild `project-status.json`;
 6. проверить `instruction_sync.health`.
 
+
 States:
 - `ok` exact match + fresh
 - `stale` snapshot >3h
 - `error` mismatch/read failure
 - `unverified` missing/invalid snapshot
 
+
 При `error` ничего не перезаписывать автоматически.
 
+
 ## 4. Current integrity checkpoint
+
 
 На момент handoff:
 - 17 scenes
@@ -62,7 +75,9 @@ States:
 - W5/W7/W8
 - slow: 2,6,12,14,15,18
 
+
 Всегда fresh-check.
+
 
 Validator должен подтверждать:
 - declared scenes = `## Сцена N`
@@ -75,9 +90,12 @@ Validator должен подтверждать:
 - dependency targets exist
 - canonical SHA present
 
+
 ## 5. Topview telemetry workflow
 
+
 Automation: `Topview Slow Watch`.
+
 
 Для каждой slow scene:
 1. взять exact mapped task ID;
@@ -89,11 +107,15 @@ Automation: `Topview Slow Watch`.
 7. success означает completion, не approval;
 8. slow-lock в master не снимать автоматически.
 
+
 На момент handoff scene 6 наблюдалась как `success`, но master всё ещё содержит её в slow list. Это intentional safety state до пользовательского решения.
+
 
 ## 6. Control Center management
 
+
 Основной UI: GitHub `index.html`.
+
 
 Можно менять:
 - layout/navigation
@@ -103,10 +125,12 @@ Automation: `Topview Slow Watch`.
 - table composition
 - link behavior
 
+
 Нельзя:
 - hard-code актуальный список сцен вместо master/status;
 - вручную редактировать machine `project-status.json`;
 - превращать GitHub в editable master.
+
 
 Текущие UI conventions:
 - Service links → `Служебные файлы`
@@ -121,15 +145,23 @@ Automation: `Topview Slow Watch`.
 - `Сцены в работе` remains scalable table
 - time estimate stays in current one-line combined display
 
-Open UX question:
-Topview monitor and canonical slow table duplicate some rows. Do not merge until user approves a concrete design.
+
+Current slow UI:
+- объединение уже реализовано;
+- на сайте видна одна таблица `⏳ Сейчас в медленной генерации — Topview`;
+- canonical membership берётся из `project-status.json.slow_scenes`, а Topview только дополняет строки model/status/start/elapsed/queue/ETA;
+- исходная slow-таблица master остаётся в Markdown и скрывается в presentation layer, чтобы не было двух одинаковых видимых таблиц;
+- не разделять обратно без нового запроса пользователя.
+
 
 ## 7. Character references
+
 
 Repo:
 - `character-references.json`
 - `references.html`
 - `references/*` legacy fallbacks
+
 
 Rules:
 - exact user-confirmed model sheet is authoritative;
@@ -138,9 +170,12 @@ Rules:
 - 960px preview is intentional for performance;
 - originals archive exists on Drive as `reference-originals.zip`.
 
-Before claiming full-res click is live for all 8, verify actual public paths and lightbox behavior.
+
+Проверено 19.09.2026: для всех 8 подтверждённых персонажей существуют public `references/full/*.jpg`, а `references.html` использует `model_sheet.full_image` для lightbox.
+
 
 ## 8. Recovery order
+
 
 1. `NEW-CHAT-HANDOFF.md`
 2. this runbook
@@ -151,13 +186,37 @@ Before claiming full-res click is live for all 8, verify actual public paths and
 7. `instruction-sync-status.json`
 8. only then edit
 
+
 ## 9. Permanent links
+
 
 Viewer:
 `https://virudik.github.io/ai-film-prompts/`
 
+
 Repo:
 `https://github.com/virudik/ai-film-prompts`
 
+
 Raw master:
 `https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md`
+
+
+
+
+## 10. Concurrent-write recovery
+
+
+GitHub может получать прямые telemetry-коммиты Topview/instruction verification одновременно с `sync-from-drive.yml`. Ранее это давало transient `git push ... fetch first`.
+
+
+Текущий sync workflow обязан:
+1. не отменять соседний sync run только из-за concurrency;
+2. перед публикацией выполнить fresh `git fetch origin main`;
+3. сбросить runner на свежий `origin/main`;
+4. заново построить `project-status.json` поверх свежего instruction snapshot;
+5. при non-fast-forward повторить цикл до 4 раз;
+6. считать ошибкой только невосстановленный итог после retry.
+
+
+Control Center дополнительно проверяет свежесть последнего успешного status и публичный результат последнего sync workflow, чтобы старый зелёный status не маскировал новую невосстановленную ошибку.
