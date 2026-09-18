@@ -62,7 +62,7 @@ Topview success != user approval. Slow scene нельзя перезапуска
 - `CLAUDE-TAKEOVER-RUNBOOK.md`
 
 
-Они авторизованно сверяются automation `Topview Slow Watch`, результат — `instruction-sync-status.json`.
+`Topview Slow Watch` каждый час проверяет instruction health вместе с Topview telemetry. Отдельная automation `AI Film Recovery Sync` также работает каждый час: Google Drive является каноном для пяти instruction files, при exact-text mismatch она автоматически ремонтирует только GitHub mirror из Drive → GitHub, никогда не пишет GitHub → Drive, а затем выполняет semantic consistency check. Результат проверки хранится в `instruction-sync-status.json`.
 
 
 ## Slow / production state
@@ -119,12 +119,14 @@ Viewer: `https://virudik.github.io/ai-film-prompts/`
 - `Сцены в работе` остаются обычной таблицей;
 - Topview показывает model/status/start/elapsed/queue/time estimate;
 - time estimate оставлена в текущем согласованном one-line виде;
-- health ok → зелёный анимированный световой меч `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`;
-- health != ok → красный меч `✕ ОШИБКА СИНХРОНИЗАЦИИ`;
+- зелёный меч `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ` = master/status/instructions свежие и здоровые, невосстановленной ошибки workflow нет, после последнего обнаруженного сбоя уже прошло минимум 3 последовательных успешных sync-runs либо сбой не виден в текущем окне истории;
+- жёлтый меч `! БЫЛИ ОШИБКИ` = текущие master/status/instructions уже здоровы, но после недавнего сбоя прошло только 1–2 последовательных успешных sync-runs; это recovery-warning, а не текущая поломка;
+- красный меч `✕ ОШИБКА СИНХРОНИЗАЦИИ` / `✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА` = есть невосстановленный workflow failure, unhealthy instruction/project status либо status старше 75 минут;
+- рядом с точным временем синхронизации не показывать дублирующее `N мин назад`;
 - анимация меча умеренная, не быстрая.
 
 
-Открытый UX вопрос: объединять ли `Мониторинг медленных генераций Topview` и `⏳ Сейчас в медленной генерации`. Пока НЕ объединять без подтверждения пользователя.
+Slow/Topview UI уже объединён и проверен: на сайте видна одна таблица `⏳ Сейчас в медленной генерации — Topview`; canonical membership берётся из master/status, Topview только добавляет telemetry. Не разделять обратно без нового запроса пользователя. Завершённая Topview task, пока Scene ID остаётся в canonical slow list, должна показываться как `Завершено · ждёт решения`.
 
 
 ## References
