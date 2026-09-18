@@ -31,7 +31,7 @@ ChatGPT должен сам:
 
 Для slow-сцен `render_state = SLOW_PENDING` вычисляется автоматически из уже существующего slow-list. Отдельно вручную его заполнять не нужно.
 
-Пока приватные Drive-инструкции не проверяются GitHub Actions через authenticated access, `instruction_sync.health = unverified` — нормальная честная отметка. Она не означает, что prompt master сломан.
+Приватные Drive-инструкции теперь проверяются авторизованной ежечасной automation через подключённый Google Drive и GitHub. `instruction_sync.health = ok` означает, что пять инструкций совпадают и проверка свежая. `stale` — проверка старше 3 часов, `error` — найден drift/read failure, `unverified` — snapshot проверки отсутствует/невалиден. GitHub Actions при этом не получает Google credentials.
 
 ## Что означают статусы на сайте
 
