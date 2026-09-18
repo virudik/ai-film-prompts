@@ -172,3 +172,7 @@ Consensus ИИ — evidence, not authority.
 - Master correction 19.09.2026: у сцены 18 служебный контекст исправлен с устаревшего `Seedance 2.5` на фактический `Wan 3.0`; scene-meta и Topview уже указывали Wan 3.0. Slow-lock сцены 18 не изменён.
 
 - Sync encoding guard 19.09.2026: raw `video-prompts.md` must be stored without UTF-8 BOM; workflow now strips an optional BOM before strict header validation. A short-lived BOM introduced during takeover caused fast validation failures and was removed from the same Drive file ID.
+
+## Verified recovery status 19.09.2026
+
+После BOM/race fixes выполнены несколько успешных sync runs. Проверено: revision `19.09.2026`, canonical SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive master == GitHub mirror, `health=ok`, `instruction_sync=ok`. Старые failure emails до этого checkpoint не считать текущим incident без fresh-check.
