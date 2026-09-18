@@ -175,7 +175,7 @@ Historical W context перенесён ближе к соответствующ
 
 
 4. **Следить за concurrent-write recovery.**
-   18 сентября были transient падения sync на `git push (fetch first)` из-за одновременных telemetry-коммитов. 19.09.2026 workflow исправлен на fresh-fetch/rebuild/retry; ближайшие runs нужно считать контрольной проверкой исправления.
+   18 сентября были transient падения sync на `git push (fetch first)` из-за одновременных telemetry-коммитов. 19.09.2026 workflow исправлен на fresh-fetch/rebuild/retry; исправление затем подтверждено несколькими успешными sync runs. Последний проверенный status: 19.09.2026 revision, health=ok, instruction_sync=ok, Drive master полностью совпадает с GitHub mirror.
 
 
 ## 7. Как менять master
@@ -328,3 +328,12 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 
 
 - Takeover incident 19.09.2026: a raw-file rewrite briefly inserted UTF-8 BOM at the beginning of `video-prompts.md`, which made the workflow fail the strict `^#` header check in 4–6 seconds. BOM was removed from the SAME Drive file ID; workflow was hardened to strip optional BOM before validation. Do not interpret those fast runs as Drive/master-content corruption.
+
+## 16. Verified recovery checkpoint — 19.09.2026
+
+- После удаления UTF-8 BOM и добавления encoding guard sync снова проходит успешно.
+- Несколько последующих `Sync Drive master and generated project status` завершились успешной публикацией.
+- Последний проверенный fingerprint: revision `19.09.2026`, 17 scenes, 20 prompt texts, W5/W7/W8, slow `2,6,12,14,15,18`, health `ok`, instruction sync `ok`.
+- Проверенный canonical master SHA-256: `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`.
+- GitHub `video-prompts.md` полностью совпадает с Drive master и содержит раздел `Ближайшие направления` и исправление scene 18 на Wan 3.0.
+- Старые письма GitHub `Run failed` до этого checkpoint не считать признаком текущей поломки без fresh-check latest workflow/status.
