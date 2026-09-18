@@ -31,13 +31,13 @@ function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
  document.getElementById('grid').innerHTML=chars.length?chars.map(ch=>{
-  const p=ch.preview||{},src=ch.model_sheet?.public_image||p.url||'',img=src?'<img class="zoomable" src="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть model sheet">':'Фото пока не подтверждено';
+  const p=ch.preview||{},src=ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,img=src?'<img class="zoomable" src="'+esc(src)+'" data-full="'+esc(full)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал">':'Фото пока не подтверждено';
   const sceneList=ch.scenes||[],scenes=sceneList.map(id=>'<a class="scene" href="index.html#scene-'+id+'">Сцена '+id+'</a>').join('');
   const add=(ch.model_sheet?.additional||[]).length?' + '+ch.model_sheet.additional.join(', '):'';
   const variants=(ch.variants||[]).map(v=>'<div class="variant"><b>'+esc(v.label||'Вариант')+':</b> '+esc(v.notes||'')+(v.scenes?.length?' · сцены '+v.scenes.join(', '):'')+'</div>').join('');
   return '<article class="card"><div><div class="photo">'+img+'</div></div><div><div class="name">'+esc(ch.name)+'</div>'+((ch.aliases||[]).length?'<div class="alias">Технические имена: '+esc((ch.aliases||[]).join(' · '))+'</div>':'')+(sceneList.length?'<div class="scenes">'+scenes+'</div>':'<span class="unassigned">Пока не привязана к активной сцене</span>')+'<div class="row"><b>Основной референс:</b> '+esc(ch.model_sheet?.primary||'—')+esc(add)+'</div><div class="row"><b>Одежда / образ:</b> '+esc(ch.outfit_variant||'—')+'</div>'+(variants?'<div class="variants"><b>Сценические варианты</b>'+variants+'</div>':'')+'</div></article>';
  }).join(''):'<div class="empty">Ничего не найдено.</div>';
- document.querySelectorAll('.zoomable').forEach(img=>img.addEventListener('click',()=>openLightbox(img.src,img.alt)));
+ document.querySelectorAll('.zoomable').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.full||img.src,img.alt)));
  const rules=reg?.non_character_reference_rules||[];
  document.getElementById('rules').innerHTML='<b>Правило референсов:</b> '+esc(rules.join(' · '));
 }
