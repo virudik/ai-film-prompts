@@ -14,7 +14,7 @@ button,input{font:inherit}a{color:var(--accent);text-decoration:none}a:hover{tex
 .side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);background:rgba(16,20,25,.96);backdrop-filter:blur(12px);padding:18px}
 .main{min-width:0;padding:26px 34px 90px;max-width:1320px;width:100%;margin:auto}
 .brand-row{display:flex;align-items:center;gap:9px}.brand-mark{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 18px rgba(121,213,140,.6)}.brand{font-weight:850;font-size:18px}.sub{font-size:12px;color:var(--muted);margin:4px 0 14px}
-.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:8px 6px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap}.links a.wide{grid-column:1/-1}.links a.analysis{border-color:#42617f;background:#101a25;color:#dceeff}.links a.references{border-color:#744151;background:#28131a;color:#ffdbe5}.links a.references:hover{border-color:#95566a;background:#351923;color:#fff1f5}.links a.recovery{border-color:#67577b;background:#191420;color:#eadfff}.service-files{margin:0 0 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel3)}.service-files summary{cursor:pointer;padding:9px 10px;color:#aeb9c4;font-size:11px;font-weight:750}.service-files .links{padding:0 8px 8px;margin:0}.service-files[open] summary{color:#e1e8ef}.advanced-filters{width:100%;margin-top:2px;border-top:1px solid #202832;padding-top:5px}.advanced-filters summary{cursor:pointer;color:#8f9aa6;font-size:10px;padding:3px 2px}.advanced-filter-list{display:flex;flex-wrap:wrap;gap:6px;padding-top:6px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:8px 6px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap}.links a.wide{grid-column:1/-1}.links a.analysis{border-color:#42617f;background:#101a25;color:#dceeff}.links a.references{border-color:#744151;background:#28131a;color:#ffdbe5}.links a.references:hover{border-color:#95566a;background:#351923;color:#fff1f5}.service-files{margin:0 0 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel3)}.service-files summary{cursor:pointer;padding:9px 10px;color:#aeb9c4;font-size:11px;font-weight:750}.service-files .links{padding:0 8px 8px;margin:0}.service-files[open] summary{color:#e1e8ef}.advanced-filters{width:100%;margin-top:2px;border-top:1px solid #202832;padding-top:5px}.advanced-filters summary{cursor:pointer;color:#8f9aa6;font-size:10px;padding:3px 2px}.advanced-filter-list{display:flex;flex-wrap:wrap;gap:6px;padding-top:6px}
 .search-wrap{position:relative}.search{width:100%;padding:11px 36px 11px 11px;border-radius:10px;border:1px solid var(--line);background:var(--panel3);color:var(--text);outline:none}.search:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(125,187,255,.08)}.clear-search{position:absolute;right:8px;top:7px;width:27px;height:27px;border:0;border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;display:none}.clear-search:hover{background:var(--panel2);color:white}.helper{font-size:11px;color:var(--muted);margin:6px 1px 11px}
 .filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.filter-chip{border:1px solid var(--line);background:var(--panel3);color:#bcc6d0;border-radius:999px;padding:5px 9px;font-size:11px;cursor:pointer}.filter-chip:hover{border-color:#485665;color:white}.filter-chip.active{border-color:#527ca8;background:#132235;color:#e8f3ff}.filter-chip.slow.active{border-color:#755f2c;background:#251f12;color:var(--warn)}
 .nav-meta{display:flex;justify-content:space-between;align-items:center;margin:0 1px 7px;color:var(--muted);font-size:11px}#toc{display:flex;flex-direction:column;gap:4px}
@@ -48,7 +48,7 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 <a class="ai-guide" href="AI-PROJECT-GUIDE.md" target="_blank">Инструкция для ИИ</a><a href="USER-GUIDE.md" target="_blank">Для владельца</a>
 <a href="SYNC-RUNBOOK.md" target="_blank">Синхронизация</a><a href="video-prompts.md" target="_blank">Исходный master</a>
 <a href="film-analysis.md" target="_blank">Карта фильма</a><a href="film-backlog.md" target="_blank">Рабочий бэклог</a>
-<a class="recovery wide" href="NEW-CHAT-HANDOFF.md" target="_blank">Восстановление / новый чат</a>
+<a class="wide" href="NEW-CHAT-HANDOFF.md" target="_blank">Восстановление / новый чат</a>
 <a class="wide" href="CLAUDE-TAKEOVER-RUNBOOK.md" target="_blank">Claude: резерв / takeover</a>
 </div></details>
 <div class="search-wrap"><input id="search" class="search" placeholder="Сцена 17, карта, диалог…" autocomplete="off" /><button id="clearSearch" class="clear-search">×</button></div>
@@ -59,7 +59,7 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 <section class="control">
 <div class="control-head"><div class="control-title"><strong>РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС</strong><span class="readonly">ТОЛЬКО ЧТЕНИЕ</span></div><span id="health" class="health">проверка…</span></div>
 <div class="metrics"><div id="metricScenesCard" class="metric clickable" title="Перейти к карте всех сцен"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div id="metricPromptsCard" class="metric clickable" title="Перейти к полным промтам"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div id="metricSlowCard" class="metric clickable" title="Показать slow-сцены"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Медленная генерация</div><div id="metricSlowIds" class="metric-ids">—</div></div><div id="metricWorkCard" class="metric clickable" title="Показать сцены в работе"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div><div id="metricWorkIds" class="metric-ids">—</div></div></div>
-<div class="meta-line"><span id="revision">Ревизия —</span><span>•</span><span id="syncTime">Синхронизация —</span><span>•</span><span id="instructionSync">Инструкции —</span></div>
+<div class="meta-line"><span id="revision">Ревизия —</span><span>•</span><span id="syncTime">Синхронизация —</span><span>•</span><span id="stamp">master загружен —</span><span>•</span><span id="instructionSync">Инструкции —</span></div>
 <details class="fingerprint"><summary>Контрольный отпечаток</summary>
 <div id="fingerGrid" class="finger-grid"></div>
 <div class="finger-actions"><button id="copyFingerprint" class="small-btn">Копировать отпечаток</button></div>
@@ -76,16 +76,16 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 
 <div class="technical-block">
 <div class="technical-title">Техническая информация</div>
+<div class="topbar" style="margin:0 0 8px"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span></div>
+<div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 <div class="technical-title">Topview</div>
 <div class="technical-line">Мониторинг Topview только читает состояние задач. Статус Topview сам по себе не снимает блокировку повторного запуска; каноническая slow-блокировка хранится в Drive master.</div>
 <div id="topviewChecked" class="technical-line"></div>
 <div id="technicalMasterNotes" class="technical-master-notes technical-line"></div>
 </div>
 </details>
-<div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 </section>
-<section class="topview-monitor"><div class="topview-head"><strong>Мониторинг медленных генераций Topview</strong></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
-<div class="topbar"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span><span id="stamp" class="pill">загрузка master…</span></div>
+<section class="topview-monitor"><div class="topview-head"><strong>Мониторинг медленных генераций Topview</strong><span id="topviewHeaderChecked" class="topview-note">Синхронизация Topview: —</span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
 <div id="matchNote" class="match-note"></div><div id="noResults" class="no-results">Совпадений нет. Очисти поиск или выбери другой фильтр.</div>
 <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
 </main></div>
@@ -110,7 +110,7 @@ function initials(name){return String(name||'?').split(/\s+/).filter(Boolean).sl
 function renderCharacterRefs(reg){characterRefs=reg;if(!reg||!Array.isArray(reg.characters)){$('characterRefs').innerHTML='<div class="error">Реестр референсов пока недоступен.</div>';return}const cards=reg.characters.map(ch=>{const aliases=(ch.aliases||[]).join(' · '),scenes=(ch.scenes||[]).map(id=>'<span class="ref-scene" data-scene="'+esc(id)+'">Сцена '+esc(id)+'</span>').join(''),sheet=ch.model_sheet||{},additional=(sheet.additional||[]).length?(' + '+sheet.additional.join(', ')):'';return '<article class="ref-card"><div class="ref-avatar">'+esc(initials(ch.name))+'</div><div><div class="ref-name">'+esc(ch.name)+'</div><div class="ref-alias">'+esc(aliases)+'</div><div class="ref-scenes">'+scenes+'</div><div class="ref-row"><b>Model sheet:</b> '+esc(sheet.primary||'—')+esc(additional)+'</div><div class="ref-row"><b>Одежда / вариант:</b> '+esc(ch.outfit_variant||'—')+'</div><div class="ref-priority"><b>Приоритет:</b> '+esc(ch.reference_priority||'—')+'</div><div class="ref-private">Изображение остаётся приватным в Topview до отдельного разрешения на публикацию.</div></div></article>'}).join('');$('characterRefs').innerHTML=cards;$('characterRefs').querySelectorAll('[data-scene]').forEach(el=>el.onclick=()=>jumpTo('scene-'+el.dataset.scene));$('referenceRules').textContent=(reg.non_character_reference_rules||[]).join(' · ')}
 function renderTopview(tv){
  topview=tv;
- if(!tv||!tv.scenes){$('topviewMonitor').innerHTML='<div class="error">Topview-телеметрия пока недоступна.</div>';return}
+ if(!tv||!tv.scenes){$('topviewMonitor').innerHTML='<div class="error">Topview-телеметрия пока недоступна.</div>';$('topviewHeaderChecked').textContent='Синхронизация Topview: недоступна';return}
  const checked=new Date(tv.checked_at),ageH=Number.isNaN(checked.getTime())?0:Math.max(0,(Date.now()-checked.getTime())/3600000);
  const rows=Object.entries(tv.scenes).sort((a,b)=>Number(a[0])-Number(b[0])).map(([sid,x])=>{
   const start=x.started_at?new Date(x.started_at):null,done=x.completed_at?new Date(x.completed_at):null;
@@ -134,7 +134,7 @@ function renderTopview(tv){
   return '<tr><td class="tv-scene"><a href="#scene-'+esc(sid)+'">Сцена '+esc(sid)+'</a></td><td>'+esc(x.model||'—')+'</td><td><span class="tv-status '+cls+'">'+statusText+'</span></td><td>'+esc(x.started_at?humanDate(x.started_at):'—')+'</td><td>'+esc(fmtHours(elapsed))+'</td><td>'+esc(queue)+'</td><td class="tv-eta">'+eta+'</td></tr>';
  }).join('');
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>Сцена</th><th>Модель</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь Topview</th><th>Оценка времени</th></tr></thead><tbody>'+rows+'</tbody></table>';
- $('topviewChecked').textContent='Последняя проверка Topview: '+humanDate(tv.checked_at)+' · оценки времени являются ориентировочными.';
+ $('topviewHeaderChecked').textContent='Синхронизация Topview: '+humanDate(tv.checked_at);$('topviewChecked').textContent='Последняя синхронизация данных Topview: '+humanDate(tv.checked_at)+' · оценки времени являются ориентировочными.';
 }
 function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'ПРОВЕРКА УСТАРЕЛА',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
 function buttonDone(btn){const old=btn.textContent;btn.textContent='Скопировано';btn.classList.add('done');setTimeout(()=>{btn.textContent=old;btn.classList.remove('done')},1200)}
