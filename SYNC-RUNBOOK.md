@@ -1,4 +1,4 @@
-﻿# AI Film Prompts — Full Sync Runbook v3.5
+# AI Film Prompts — Full Sync Runbook v3.5
 
 
 Нормативный технический runbook для основного редактора проекта.
@@ -220,3 +220,8 @@ GitHub может получать прямые telemetry-коммиты Topview
 
 
 Control Center дополнительно проверяет свежесть последнего успешного status и публичный результат последнего sync workflow, чтобы старый зелёный status не маскировал новую невосстановленную ошибку.
+
+
+## 11. Encoding guard
+
+Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a write path temporarily inserted UTF-8 BOM (`EF BB BF`), causing strict `^#` header validation to fail even though the Markdown text was readable. The master was repaired in place and `sync-from-drive.yml` now strips an optional BOM before validation. When diagnosing a 4–6 second failure in the download step, inspect first bytes/encoding before blaming Drive access.
