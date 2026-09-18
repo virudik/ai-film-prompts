@@ -37,7 +37,7 @@ private Drive instructions (canonical)
 → `instruction-sync-status.json`
 → project-status rebuild
 
-`Topview Slow Watch` continues hourly Topview telemetry and authorized instruction-health verification; it does not make production approval decisions.
+`Topview Slow Watch` runs hourly for Topview telemetry only and does not make production approval decisions. Instruction mirror verification/repair and handoff maintenance belong exclusively to hourly `AI Film Recovery Sync`, avoiding duplicated Drive/GitHub checks.
 
 
 Topview telemetry:
