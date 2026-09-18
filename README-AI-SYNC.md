@@ -1,4 +1,4 @@
-﻿# AI Film — sync architecture v3.5
+# AI Film — sync architecture v3.5
 
 
 ## Source of truth
@@ -98,3 +98,8 @@ Start from:
 
 
 Direct Topview/instruction telemetry commits can advance `main` during a Drive sync. Since 19.09.2026 the sync workflow refetches the newest `origin/main`, rebuilds status on that head and retries non-fast-forward pushes instead of failing immediately. The site health indicator also applies freshness/latest-workflow checks rather than trusting an indefinitely old green JSON.
+
+
+## Encoding normalization
+
+Since 19.09.2026 the Drive sync normalizes an optional UTF-8 BOM before validating the Markdown header. The canonical raw master is kept UTF-8 without BOM. This prevents invisible encoding markers from producing false sync failures.
