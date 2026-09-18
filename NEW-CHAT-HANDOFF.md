@@ -257,10 +257,12 @@ Canonical Drive instructions:
 Authorized verification compares full text with GitHub mirrors.
 
 
-Mismatch:
-- `instruction-sync-status.json` → error
-- no auto-copy
-- report exact filename
+Mismatch / repair:
+- `instruction-sync-status.json` остаётся `error`, пока расхождение не устранено и не перепроверено;
+- если это только exact-text drift GitHub mirror и canonical Drive-файл читается, hourly `AI Film Recovery Sync` может автоматически восстановить **только Drive → GitHub**;
+- GitHub → Drive автоматически запрещено;
+- semantic conflict, missing/unreadable Drive source или неоднозначность автоматически в Drive не переписывать — сообщить точные файлы и формулировки пользователю;
+- после repair выполнить exact-text verification и обновить `instruction-sync-status.json`.
 
 
 ## 11. Confirmed reference identities
@@ -348,3 +350,12 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - Из meta-line удалено дублирующее `N мин назад`, если уже показано точное время.
 - Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено · ждёт решения`.
 - Проверка slow engines 19.09.2026: 2 Seedance 2.5, 6 Seedance 2.5, 12 Wan 3.0, 14 Seedance 2.5, 15 Wan 3.0, 18 Wan 3.0; master и Topview совпадают по всем six slow scenes. Старое расхождение было только в служебной строке контекста scene 18 и уже исправлено.
+
+## 18. Library / Notion refresh — 19.09.2026
+
+- После infrastructure/UI update свежие Drive-версии пяти canonical instruction files перезаписаны в одноимённые canonical copies ChatGPT Library.
+- `NEW-CHAT-HANDOFF.md` также обновлён в Library; старые исторические `*-updated.md`/`video-prompts(n).md` не являются каноном и не использовались как источник.
+- В Notion обновлены пять instruction mirror pages из свежих canonical Drive-файлов: External AI / Project Guide, ChatGPT Sync Runbook, User Guide, Sync Rules, Claude Takeover Runbook.
+- Notion `AI Video Prompts — Master Hub` получил checkpoint 19.09.2026 с hourly Recovery Sync, three-state lightsaber, merged slow UI, `Завершено · ждёт решения` и scene 18 = Wan 3.0.
+- Это documentation/backup refresh; prompt master и production state этим шагом не менялись.
+
