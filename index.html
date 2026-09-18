@@ -103,7 +103,7 @@ function humanDate(v){if(!v)return '—';const d=new Date(v);return Number.isNaN
 function productionLabel(v){return ({DRAFT:'Черновик',READY:'Готов к генерации',NEEDS_FIX:'Нужна доработка',RESULT_RECEIVED:'Результат получен',NEEDS_RERENDER:'Нужен новый дубль',APPROVED:'Одобрено',IN_EDIT:'В монтаже',CLOSED:'Закрыто'})[v]||v||''}
 function engineLabel(v){const x=String(v||'').trim();if(/^wan\s*3(?:\.0)?$/i.test(x))return 'Wan 3.0';return x}
 function tagLabel(v){return ({ensemble:'Групповая сцена',continuous_take:'Непрерывный дубль',manual_review:'Ручная проверка',action:'Экшен',needs_fix:'Нужна доработка',continuity:'Связность сцен',alternative:'Альтернативный вариант',comedy:'Комедийная сцена',camera_conflict:'Конфликт требований к камере',visual_effect:'Визуальный эффект',dialogue:'Диалог',needs_rerender:'Нужен новый дубль'})[v]||v||''}
-function dependencyLabel(type,scene){return ({depends_on:'Зависит от сцены',continues:'Продолжает сцену',alternative_to:'Альтернатива сцене',related_to:'Связана со сценой'})[type]||'Связана со сценой'}+' '+scene}
+function dependencyLabel(type,scene){return (({depends_on:'Зависит от сцены',continues:'Продолжает сцену',alternative_to:'Альтернатива сцене',related_to:'Связана со сценой'})[type]||'Связана со сценой')+' '+scene}
 
 function fmtHours(h){if(h===null||h===undefined||Number.isNaN(Number(h)))return '—';h=Math.max(0,Number(h));if(h<1)return Math.round(h*60)+' мин';const d=Math.floor(h/24),hr=Math.round(h-d*24);return d>0?(d+' д '+hr+' ч'):(Math.round(h)+' ч')}
 function tvStatusLabel(v){return ({init:'В очереди',success:'Завершено',fail:'Ошибка',failed:'Ошибка'})[v]||v||'—'}
