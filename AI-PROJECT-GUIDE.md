@@ -1,4 +1,4 @@
-﻿# AI Film Project — Start Here v3.5
+# AI Film Project — Start Here v3.5
 
 
 Короткая стартовая инструкция для нового ChatGPT/Work/Claude/Gemini/DeepSeek/Grok.
@@ -170,3 +170,5 @@ Consensus ИИ — evidence, not authority.
 - Control Center больше не считает один старый зелёный JSON достаточным: учитывается свежесть успешного `project-status.json` и последний публичный run sync workflow; stale/новая ошибка должны снимать зелёный статус.
 - Последний успешный статус всегда важнее старого письма об уже восстановившейся transient-ошибке.
 - Master correction 19.09.2026: у сцены 18 служебный контекст исправлен с устаревшего `Seedance 2.5` на фактический `Wan 3.0`; scene-meta и Topview уже указывали Wan 3.0. Slow-lock сцены 18 не изменён.
+
+- Sync encoding guard 19.09.2026: raw `video-prompts.md` must be stored without UTF-8 BOM; workflow now strips an optional BOM before strict header validation. A short-lived BOM introduced during takeover caused fast validation failures and was removed from the same Drive file ID.
