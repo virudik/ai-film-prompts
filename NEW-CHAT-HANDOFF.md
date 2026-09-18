@@ -1,4 +1,4 @@
-﻿# NEW CHAT HANDOFF — AI Film Project
+# NEW CHAT HANDOFF — AI Film Project
 **Checkpoint: 19.09.2026**
 
 
@@ -325,3 +325,6 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - Control Center health усилен проверкой freshness и latest public sync workflow;
 - любые новые изменения сайта/master после этого checkpoint снова должны отражаться здесь и в canonical instructions.
 - Исправлена только служебная подпись scene 18: `Seedance 2.5` → `Wan 3.0`, чтобы она совпадала с scene-meta и фактической Topview task. Prompt body и canonical slow-lock не менялись.
+
+
+- Takeover incident 19.09.2026: a raw-file rewrite briefly inserted UTF-8 BOM at the beginning of `video-prompts.md`, which made the workflow fail the strict `^#` header check in 4–6 seconds. BOM was removed from the SAME Drive file ID; workflow was hardened to strip optional BOM before validation. Do not interpret those fast runs as Drive/master-content corruption.
