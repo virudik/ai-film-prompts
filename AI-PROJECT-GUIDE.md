@@ -62,7 +62,7 @@ Topview success != user approval. Slow scene нельзя перезапуска
 - `CLAUDE-TAKEOVER-RUNBOOK.md`
 
 
-`Topview Slow Watch` каждый час проверяет instruction health вместе с Topview telemetry. Отдельная automation `AI Film Recovery Sync` также работает каждый час: Google Drive является каноном для пяти instruction files, при exact-text mismatch она автоматически ремонтирует только GitHub mirror из Drive → GitHub, никогда не пишет GitHub → Drive, а затем выполняет semantic consistency check. Результат проверки хранится в `instruction-sync-status.json`.
+`Topview Slow Watch` работает каждый час и отвечает только за Topview production telemetry по exact mapped tasks. Отдельная hourly automation `AI Film Recovery Sync` отвечает за пять canonical instruction files и recovery/handoff: Google Drive является каноном, при exact-text mismatch она автоматически ремонтирует только GitHub mirror из Drive → GitHub, никогда не пишет GitHub → Drive, затем выполняет semantic consistency check и обновляет recovery state. Результат проверки инструкций хранится в `instruction-sync-status.json`. Такое разделение убирает дублирующие Drive/GitHub проверки и уменьшает число concurrent writers.
 
 
 ## Slow / production state
