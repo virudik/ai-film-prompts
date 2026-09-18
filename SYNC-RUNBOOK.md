@@ -48,12 +48,15 @@
 
 
 После изменения инструкций:
-1. обновить Drive originals;
-2. обновить GitHub mirrors exact-text;
-3. выполнить авторизованную сверку;
-4. обновить `instruction-sync-status.json`;
-5. дождаться rebuild `project-status.json`;
-6. проверить `instruction_sync.health`.
+1. обновить Drive originals — это канон;
+2. `AI Film Recovery Sync` (hourly) сравнивает полный текст и при mismatch автоматически обновляет только GitHub mirror из Drive → GitHub; обратное направление запрещено;
+3. выполнить/дождаться авторизованной exact-text сверки;
+4. выполнить semantic consistency check по известным критическим правилам;
+5. обновить `instruction-sync-status.json`;
+6. дождаться rebuild `project-status.json`;
+7. проверить `instruction_sync.health`.
+
+Для срочного изменения основной редактор может обновить GitHub mirror сразу вручную, но источник всё равно Drive, а итог обязан пройти ту же сверку.
 
 
 States:
@@ -63,7 +66,7 @@ States:
 - `unverified` missing/invalid snapshot
 
 
-При `error` ничего не перезаписывать автоматически.
+При `error` различать два случая: exact-text mismatch GitHub mirror можно автоматически исправить только из canonical Drive → GitHub; semantic conflict, missing Drive source или неоднозначность автоматически в Drive не исправлять — сообщить точные файлы/формулировки пользователю.
 
 
 ## 4. Current integrity checkpoint
@@ -136,7 +139,9 @@ Automation: `Topview Slow Watch`.
 - Service links → `Служебные файлы`
 - Technical detail → `Контрольный отпечаток`
 - current health green lightsaber: `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
-- health error red lightsaber: `✕ ОШИБКА СИНХРОНИЗАЦИИ`
+- healthy stable state: green lightsaber `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
+- recovered recent workflow failure with only 1–2 consecutive successful sync-runs after it: yellow lightsaber `! БЫЛИ ОШИБКИ`
+- unresolved failure, unhealthy status/instructions, or stale heartbeat (>75 min): red lightsaber `✕ ОШИБКА СИНХРОНИЗАЦИИ` / `✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА`
 - Topview `running` → `Выполняется`
 - Topview `init/queued` → `В очереди`
 - queue header → `Очередь`
@@ -229,3 +234,14 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 ## 12. Verified recovery checkpoint
 
 19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Контрольный статус: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive mirror exact match, health/instruction sync = `ok`. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
+
+
+## 13. Hourly recovery automation
+
+`AI Film Recovery Sync` runs hourly. It:
+1. reads fresh Drive master + five canonical Drive instruction files + handoff;
+2. repairs instruction mirrors only Drive → GitHub when exact text differs;
+3. never writes GitHub instruction text back into Drive;
+4. checks known semantic contradictions, including merged slow UI, scene 18 = Wan 3.0, Drive-only editable master, Topview success != approval, no automatic slow-lock removal, and current race/BOM recovery rules;
+5. refreshes `NEW-CHAT-HANDOFF.md` only for material state changes and keeps its GitHub mirror aligned;
+6. otherwise stays silent.
