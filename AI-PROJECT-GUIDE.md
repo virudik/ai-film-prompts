@@ -1,8 +1,11 @@
-# AI Film Project — Start Here v3.5
+﻿# AI Film Project — Start Here v3.5
+
 
 Короткая стартовая инструкция для нового ChatGPT/Work/Claude/Gemini/DeepSeek/Grok.
 
+
 ## Источник истины
+
 
 - Единственный редактируемый prompt master: Google Drive `AI Film Prompts Master/video-prompts.md`
 - Drive master ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
@@ -11,7 +14,9 @@
 - `project-status.json` — генерируемый machine-status schema v3, вручную не редактировать.
 - Scene IDs стабильны и не перенумеровываются после удаления.
 
+
 ## Что читать новому чату
+
 
 1. `NEW-CHAT-HANDOFF.md`
 2. `SYNC-RUNBOOK.md`
@@ -22,9 +27,12 @@
 7. live `instruction-sync-status.json`
 8. при story/continuity — `film-analysis.md` + `film-backlog.md`
 
+
 Перед любой записью в master — ещё один fresh-read.
 
+
 ## Текущий handoff snapshot
+
 
 На момент передачи:
 - 17 active scenes
@@ -33,13 +41,18 @@
 - canonical slow list: 2, 6, 12, 14, 15, 18
 - Topview last observed: scene 6 технически завершилась (`success`), но canonical slow-lock ещё не снят.
 
+
 Topview success != user approval. Slow scene нельзя перезапускать или снимать с slow автоматически без результата/ошибки/решения пользователя.
+
 
 ## Routine sync
 
+
 `fresh Drive master → edit same Drive file ID → update SYNC-TRIGGER.txt → sync-from-drive.yml → validation → GitHub mirror + project-status.json → GitHub Pages → verification`
 
+
 Приватные instruction files GitHub Actions анонимно не скачивает.
+
 
 Пять канонических Drive-инструкций:
 - `AI-PROJECT-GUIDE.md`
@@ -48,20 +61,27 @@ Topview success != user approval. Slow scene нельзя перезапуска
 - `README-AI-SYNC.md`
 - `CLAUDE-TAKEOVER-RUNBOOK.md`
 
+
 Они авторизованно сверяются automation `Topview Slow Watch`, результат — `instruction-sync-status.json`.
+
 
 ## Slow / production state
 
+
 Видимый slow-marker:
 `⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ`
+
 
 `render_state` вычисляется из canonical slow-list:
 - slow → `SLOW_PENDING`
 - иначе → `IDLE`
 
+
 `NEEDS_FIX` и `NEEDS_RERENDER` не дают автоматического разрешения на rewrite/rerun.
 
+
 ## Topview
+
 
 Topview — read-only production telemetry:
 - exact mapped task
@@ -71,9 +91,11 @@ Topview — read-only production telemetry:
 - `estimateInfo.estimatedWaitSeconds`
 - result availability
 
+
 Каждую сцену проверять по её собственной task.
 Нельзя копировать один queue/ETA на все сцены.
 `queueCount` — provider telemetry, не обещание точного места пользователя в очереди.
+
 
 UI:
 - `init` / `queued` → `В очереди`
@@ -81,9 +103,12 @@ UI:
 - `success` → `Завершено`
 - `fail` / `failed` → `Ошибка`
 
+
 ## Control Center
 
+
 Viewer: `https://virudik.github.io/ai-film-prompts/`
+
 
 Принципы:
 - русский UI;
@@ -98,14 +123,19 @@ Viewer: `https://virudik.github.io/ai-film-prompts/`
 - health != ok → красный меч `✕ ОШИБКА СИНХРОНИЗАЦИИ`;
 - анимация меча умеренная, не быстрая.
 
+
 Открытый UX вопрос: объединять ли `Мониторинг медленных генераций Topview` и `⏳ Сейчас в медленной генерации`. Пока НЕ объединять без подтверждения пользователя.
+
 
 ## References
 
+
 Registry: `character-references.json`.
+
 
 8 подтверждённых:
 Серёга, Паша, Артём, Илюша, Саша, Лёша, Виталик, Юля.
+
 
 Правила:
 - exact user model sheet > Topview similarity;
@@ -113,9 +143,11 @@ Registry: `character-references.json`.
 - 960px preview — web preview;
 - originals хранятся отдельно;
 - Drive содержит `reference-originals.zip`;
-- перед утверждением, что full-res click работает для всех 8, проверить live `character-references.json` + `references.html`.
+- `full_image` для всех 8 подтверждённых model sheets проверен 19.09.2026: файлы `references/full/*.jpg` существуют, а `references.html` открывает `model_sheet.full_image` в lightbox.
+
 
 ## Conflict priority
+
 
 1. текущая явная команда пользователя
 2. fresh Drive master
@@ -124,4 +156,16 @@ Registry: `character-references.json`.
 5. старые Notion notes
 6. память чата / старые копии
 
+
 Consensus ИИ — evidence, not authority.
+
+
+
+
+## Reliability checkpoint 19.09.2026
+
+
+- Обнаружена гонка между GitHub Actions sync и прямыми telemetry-коммитами: старый workflow иногда падал на `git push` с `fetch first`.
+- `.github/workflows/sync-from-drive.yml` обновлён: перед публикацией он берёт свежий `origin/main`, пересобирает status и повторяет push до 4 раз; concurrent sync runs не отменяют друг друга.
+- Control Center больше не считает один старый зелёный JSON достаточным: учитывается свежесть успешного `project-status.json` и последний публичный run sync workflow; stale/новая ошибка должны снимать зелёный статус.
+- Последний успешный статус всегда важнее старого письма об уже восстановившейся transient-ошибке.
