@@ -1,91 +1,75 @@
-# AI Video Prompts — synchronization rules v3.5
+# AI Film — sync architecture v3.5
 
-Короткая техническая спецификация. Нормативный подробный процесс — в `SYNC-RUNBOOK.md`.
+## Source of truth
 
-## Canonical locations
+Editable:
+Google Drive `AI Film Prompts Master/video-prompts.md`
+ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
 
-1. Google Drive `AI Film Prompts Master/video-prompts.md` — единственный authoritative editable prompt master.
-2. Пять Drive instruction files — canonical для своих GitHub mirrors.
-3. GitHub root `video-prompts.md` + instruction files — public read-only mirrors.
-4. `project-status.json` — generated machine status schema v3.
-5. GitHub Pages — public viewer.
-6. Drive `video-prompts.html`, ChatGPT Library и Notion Hub — backup/documentation layers.
+Public mirror:
+GitHub `virudik/ai-film-prompts`
 
-## Routine master sync
+Viewer:
+`https://virudik.github.io/ai-film-prompts/`
 
-1. fresh-read Drive master;
-2. edit same Drive file ID;
-3. update TOC/counts/statuses as required;
-4. update `SYNC-TRIGGER.txt`;
-5. wait for `sync-from-drive.yml`;
-6. require Actions success;
-7. require `project-status.json` → `health: ok`;
-8. verify fingerprint + public/raw content;
-9. verify Pages;
-10. report success.
+## Data flow
 
-Scheduled workflow также проверяет Drive master примерно каждые 30 минут.
+Drive master
+→ `SYNC-TRIGGER.txt`
+→ `sync-from-drive.yml`
+→ validation
+→ GitHub `video-prompts.md`
+→ generated `project-status.json`
+→ GitHub Pages
 
-## Schema v3
+Instruction mirror:
+private Drive instructions
+→ authorized `Topview Slow Watch`
+→ `instruction-sync-status.json`
+→ project-status rebuild
 
-`project-status.json` сохраняет backward-compatible v2 fields и добавляет:
-- `canonical_master_sha256` / bytes;
-- `audit_fingerprint`;
-- `scene_meta`;
-- generated `render_state`;
-- `instruction_sync`;
-- metadata validation checks.
+Topview telemetry:
+mapped task per slow Scene ID
+→ per-task queue/status/ETA
+→ `topview-status.json`
+→ site
 
-Slow render-state выводится из existing slow-list, поэтому нового ручного slow-поля нет.
+## Never do
 
-## Control Center
+- do not edit `project-status.json` by hand
+- do not treat GitHub master mirror as editable source
+- do not create duplicate master versions
+- do not rerun slow scene because of audit/UI suggestion
+- do not reuse one Topview queue snapshot for every task
+- do not replace user-confirmed character model sheets from similarity
 
-`index.html` — read-only production UI. Пользовательские подписи отображаются по-русски, machine enum-значения schema v3 остаются неизменными.
+## Current viewer conventions
 
-- `NEEDS_FIX` = кандидат на обсуждение/корректировку, не автоматический rewrite;
-- `NEEDS_RERENDER` = требуется новый дубль по отдельному решению;
-- slow state берётся только из canonical slow-list → generated `render_state`;
-- фильтры/чипы появляются только из подтверждённых `scene_meta`.
+- Russian UI
+- technical detail in `Контрольный отпечаток`
+- service links in `Служебные файлы`
+- clickable counters
+- W-items remain a normal table
+- Topview status localized
+- queue label = `Очередь`
+- time estimate remains current one-line combined form
+- sync health uses green/red lightsaber indicator
+- Topview monitor and canonical slow table remain separate pending user decision
 
-## Instruction freshness
+## Reference architecture
 
-Drive instruction files остаются приватными. GitHub Actions не получает Google credentials и не скачивает их напрямую.
+`character-references.json` = identity registry
+`references.html` = viewer
+960px preview = lightweight web display
+`reference-originals.zip` = Drive original archive
 
-Ежечасная automation `Topview Slow Watch` использует авторизованные Google Drive + GitHub connectors, сравнивает пять канонических Drive-инструкций с зеркалами и обновляет `instruction-sync-status.json`. `project-status.json` принимает этот snapshot только пока он не старше 3 часов.
+Do not claim every high-res original is wired to public lightbox without verifying live registry/site.
 
-Состояния: `ok` = совпадают и свежо; `stale` = проверка устарела; `error` = mismatch/read failure; `unverified` = snapshot отсутствует/невалиден.
+## Recovery
 
-При architecture/instruction checkpoint основной редактор всё равно должен fresh-read Drive instructions, изменять тот же Drive file ID и обновлять GitHub mirror. Нельзя делать Drive instructions публичными только ради упрощения Actions.
-
-## Topview evidence
-
-Подключённый Topview допустим как read-only evidence layer для task status/model/prompt/result. Он не становится source of truth и не заменяет Drive master. `success` подтверждает техническое завершение генерации, но не creative acceptance.
-
-## Validation invariant
-
-Валидатор должен проверять:
-- scene counts;
-- TOC/sections;
-- prompt fences;
-- W-items;
-- slow list + четыре slow locations;
-- unique/increasing scene IDs;
-- canonical master SHA presence;
-- если `scene-meta` присутствует — JSON/schema/production-state/duration/dependency targets.
-
-Scene ID gaps допустимы.
-
-## Full checkpoint
-
-При architecture/instruction change или explicit full-sync проверить:
-- Drive master integrity;
-- schema v3/fingerprint;
-- five canonical Drive instructions;
-- matching GitHub instruction mirrors;
-- Actions;
-- `project-status.json`;
-- Pages;
-- Drive HTML/Library/Notion according to `SYNC-RUNBOOK.md`;
-- end-to-end public verification.
-
-Legacy `_source/part-*` builder не использовать.
+Start from:
+1. `NEW-CHAT-HANDOFF.md`
+2. `SYNC-RUNBOOK.md`
+3. `AI-PROJECT-GUIDE.md`
+4. fresh Drive master
+5. current status JSON files
