@@ -1,3 +1,1 @@
-18.09.2026 — handoff checkpoint: short slow heading + refreshed Drive instructions + transition docs
-19.09 takeover refresh: 2026-09-18T21:56:28.634Z
-19.09 final takeover refresh after scene18 metadata: 2026-09-18T22:02:50.369Z
+Trigger canonical Drive sync after 19.09.2026 infrastructure + story-direction update.
