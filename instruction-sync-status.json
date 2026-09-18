@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-18T00:31:00Z",
+  "verification_mode": "authorized_chatgpt_drive_connector",
+  "source_of_truth": "Google Drive canonical instruction files",
+  "freshness_max_hours": 3,
+  "health": "ok",
+  "all_match": true,
+  "files": {
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-17T23:08:52.475Z",
+      "github_blob": "46e1b0b6d3d0c4cb56e5536d36363b5f8184c9d2",
+      "match": true
+    },
+    "SYNC-RUNBOOK.md": {
+      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_modified_at": "2026-09-17T23:08:56.018Z",
+      "github_blob": "bf5fb52ebe4f6f36eeb41176b52b35d71ad68622",
+      "match": true
+    },
+    "USER-GUIDE.md": {
+      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_modified_at": "2026-09-17T23:08:58.904Z",
+      "github_blob": "7884f4a6b28fb0d53e17ea282a890d094b3d1022",
+      "match": true
+    },
+    "README-AI-SYNC.md": {
+      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_modified_at": "2026-09-17T23:09:02.453Z",
+      "github_blob": "2ca8ee6143ca278f1e6cb77534091053c470f49e",
+      "match": true
+    },
+    "CLAUDE-TAKEOVER-RUNBOOK.md": {
+      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_modified_at": "2026-09-17T23:09:05.946Z",
+      "github_blob": "cc007fa2757ac59cb900a411c0d505c8aa3f30dc",
+      "match": true
+    }
+  },
+  "note": "Exact text comparison performed through the authorized Google Drive connector and current GitHub mirror."
+}
