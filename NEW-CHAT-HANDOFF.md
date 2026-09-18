@@ -21,7 +21,7 @@
 - `project-status.json` сейчас: **schema v3 · health = ok · canonical master SHA-256 = `a739d6890382e54c443958c1e1d124a147aa29fed50a321328c22a5dd2060520`**; все обязательные integrity/scene-meta checks = true.
 - `audit_fingerprint` — обязательная проверка свежести перед внешним аудитом: revision/hash, scene/prompt counts, scene IDs, W-items, slow list, health и instruction-sync health.
 - `instruction_sync.health = ok` — пять приватных Drive-инструкций автоматически сверяются через авторизованную automation с GitHub-зеркалами; snapshot хранится в `instruction-sync-status.json`, свежесть окна — 3 часа.
-- На момент этого refresh проверенный GitHub Actions master-sync: **run #85 — success**; проверенный Pages deployment: **#121 — success**. Точные более новые номера всегда перепроверять live в Actions.
+- Номера последних GitHub Actions / Pages deployment намеренно не фиксируются как канонический статус в этом handoff: их всегда перепроверять live в Actions. Требование — последний обязательный sync/deployment должен быть `success`.
 - Если другой файл, старый чат, Library, Notion или старый backlog противоречат свежему Drive master по активным сценам/slow-status — **свежий Drive master имеет приоритет**.
 
 ---
@@ -277,8 +277,7 @@ Notion Hub:
 
 GitHub Actions / Pages:
 
-- checkpoint master-sync: **run #91 = success**;
-- checkpoint Pages deployment: **#131 = success**;
+- checkpoint master-sync / Pages: **не доверять сохранённым номерам; перепроверять live в Actions перед выводом `ГОТОВО`**;
 - более новые номера всегда сверять live; номера run/deployment не являются вечным каноническим статусом.
 
 ### Известное ограничение независимой HTTP-проверки
