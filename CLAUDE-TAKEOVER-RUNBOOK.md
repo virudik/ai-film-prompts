@@ -1,108 +1,69 @@
-# AI Film Prompts — Claude Takeover Runbook v3.5
+# Claude Takeover Runbook — AI Film v3.5
 
-Эта инструкция используется только когда пользователь явно назначил Claude временным основным редактором из-за недоступности ChatGPT. По умолчанию Claude остаётся review-only.
+Claude is review-only by default.
 
-## Safety summary v3.5
+Use this file only if user explicitly asks Claude to become temporary main editor.
 
-Полные правила — `SYNC-RUNBOOK.md`. Минимум:
+## Preflight
 
-- Единственный редактируемый prompt master — существующий Google Drive `video-prompts.md` с file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-- GitHub — public read-only mirror; Library/Notion не становятся временным master.
-- `project-status.json` schema v3 генерируется автоматически; вручную его не править.
-- Scene IDs не перенумеровывать. Slow-сцену не перезапускать без результата/ошибки или разрешения.
-- Пять Drive-инструкций канонические для своих GitHub-зеркал.
-- `instruction_sync.health = ok` означает свежую авторизованную сверку пяти Drive-инструкций с GitHub; `stale/unverified/error` нельзя выдавать за подтверждённое совпадение.
+Before any write, Claude must prove it can:
+1. read exact Drive master ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`;
+2. write back to SAME file ID;
+3. read GitHub repo `virudik/ai-film-prompts`;
+4. update `SYNC-TRIGGER.txt`;
+5. verify workflow/status/Pages.
 
-## Перед началом takeover — capability preflight
+If same-ID Drive write is unavailable:
+remain review-only and return exact patch instructions.
 
-До первой записи проверить доступные инструменты.
+## Required reading
 
-Claude может принять editor-role только если доступный Drive action умеет **заменить raw contents существующего canonical file по тому же file ID**, а не только читать/переименовывать/перемещать или создавать новый файл.
+1. `NEW-CHAT-HANDOFF.md`
+2. `SYNC-RUNBOOK.md`
+3. `AI-PROJECT-GUIDE.md`
+4. fresh Drive `video-prompts.md`
+5. `project-status.json`
+6. if relevant `film-analysis.md` + `film-backlog.md`
 
-Если такой операции нет:
-- не создавать `video-prompts-copy`, `final`, `v2` и т. п.;
-- не объявлять себя фактическим editor;
-- подготовить точный patch/replacement text;
-- попросить пользователя/ChatGPT применить patch к существующему file ID;
-- продолжать как review-only.
+## Safety
 
-## Что прочитать
+- stable Scene IDs
+- no duplicate masters
+- slow list is canonical
+- no slow rerun without result/error/user decision
+- Topview success != approval
+- Scene 6 was last observed technically complete in Topview but must not be auto-cleared from canonical slow state
+- `project-status.json` is generated
+- instruction drift is not auto-fixed
 
-1. этот файл;
-2. `SYNC-RUNBOOK.md`;
-3. `AI-PROJECT-GUIDE.md`;
-4. fresh Drive `video-prompts.md`;
-5. current `project-status.json` fingerprint;
-6. `film-analysis.md` / `film-backlog.md`, если задача зависит от сюжета/continuity.
+## Write procedure
 
-Перед выводами повторить fingerprint: revision, master SHA, scene IDs, W-items, slow scenes, health, instruction sync health. Если snapshot старый — обновить источники.
+fresh-read
+→ minimal edit
+→ same Drive file ID
+→ sync trigger
+→ workflow
+→ validation
+→ status
+→ Pages
+→ report exact change
 
-## Работа с master
+## Site-only edits
 
-- редактировать существующий Drive master в том же file ID;
-- менять только approved scene/status;
-- обновлять TOC/counts/W/slow invariants;
-- scene IDs после удаления не перенумеровывать;
-- не создавать параллельный master;
-- actual references нужны для визуальной проверки;
-- optional `scene-meta` добавлять только валидным блоком; `render_state` вручную не задавать.
+UI/HTML changes may be made in GitHub `index.html` when explicitly requested.
+Do not move scene content into HTML.
 
-## Production status / сайт
+Current UI:
+- Russian labels
+- service and technical drawers
+- clickable metric navigation
+- Topview status translations
+- green/red animated sync lightsaber
+- slow/Topview tables are NOT yet merged
+- time estimate intentionally unchanged
 
-- `NEEDS_FIX` = кандидат на отдельное обсуждение правки; не переписывать prompt автоматически.
-- `NEEDS_RERENDER` = известна необходимость нового дубля, но новый запуск требует соблюдения slow-lock/решения пользователя.
-- `SLOW_PENDING` вычисляется из canonical slow-list, не редактируется вручную.
-- Пользовательские подписи Control Center — русские; machine enum schema v3 не переименовывать.
-- Не hard-code slow/status/scene content в `index.html`.
+## References
 
-## Sync
-
-Если GitHub write доступен:
-1. update `SYNC-TRIGGER.txt`;
-2. дождаться `sync-from-drive.yml`;
-3. проверить Actions success;
-4. проверить `project-status.json` health + fingerprint;
-5. проверить Pages.
-
-Если GitHub write недоступен:
-- Drive edit можно выполнять только если capability preflight пройден;
-- немедленный trigger может быть недоступен;
-- scheduled workflow позже подтянет master;
-- не заявлять, что GitHub/Pages обновлены, пока это не подтверждено.
-
-## Instruction changes
-
-Если takeover затрагивает одну из пяти Drive-инструкций:
-- изменять тот же Drive file ID;
-- считать Drive authoritative;
-- GitHub mirror обновлять отдельно через доступный authenticated path;
-- не менять privacy Drive-файла ради Actions;
-- после обновления instruction mirror дождаться новой авторизованной проверки; `stale/unverified` сообщать как отсутствие свежего подтверждения, `error` — как фактический drift/read failure.
-
-## Topview evidence
-
-Если Topview подключён, его board/task metadata можно читать для сверки фактического запуска, модели, prompt и технического результата. Не считать Topview вторым master; неоднозначный task не привязывать к scene ID автоматически, а `success` не означает user approval.
-
-## Сайт
-
-`index.html` — viewer. Scene text меняется через master. Прямой UI/site-code edit требует GitHub write. `Монтажный разбор фильма` должен вести на rendered Pages HTML.
-
-## Notion/Library
-
-Не обновлять их после каждой сцены. Обновлять при architecture changes, milestones, explicit backup/full checkpoint.
-
-## Возврат управления ChatGPT
-
-Сообщить:
-- какие Drive files/scenes изменены;
-- capability preflight result;
-- был ли trigger/workflow;
-- Actions health;
-- project fingerprint;
-- Pages;
-- менялись ли instructions/Notion/Library;
-- что осталось `stale`, `unverified` или `error`.
-
-## Recovery
-
-Если память потеряна: этот файл → `SYNC-RUNBOOK.md` → `AI-PROJECT-GUIDE.md` → fresh Drive master → `project-status.json` fingerprint → film context при необходимости.
+User-approved model sheets are authoritative.
+Never substitute images based on visual similarity.
+Before claiming high-res public originals are wired for all 8, verify live paths.
