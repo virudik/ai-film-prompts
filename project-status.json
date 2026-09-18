@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-18T05:16:30Z",
+  "synced_at": "2026-09-18T05:42:37Z",
   "revision_date": "18.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
   "canonical_master_sha256": "86ff71eb760afea5ef08456be57c7034efa536f306ab57e47f265020d4716983",
@@ -51,7 +51,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.025,
+    "age_hours_at_status_build": 0.46,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -380,7 +380,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "18.09.2026",
-    "synced_at": "2026-09-18T05:16:30Z",
+    "synced_at": "2026-09-18T05:42:37Z",
     "canonical_master_sha256": "86ff71eb760afea5ef08456be57c7034efa536f306ab57e47f265020d4716983",
     "scene_count": 17,
     "prompt_count": 20,
