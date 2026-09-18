@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 SLOW_LABEL = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
@@ -221,17 +222,90 @@ def parse_scene_metadata(text, section_scenes, slow_scenes):
     return scene_meta, checks
 
 
-def build_instruction_sync(instruction_dir, repo_root, snapshot_at):
+def parse_iso_datetime(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def build_instruction_sync(
+    instruction_dir,
+    repo_root,
+    snapshot_at,
+    status_file=None,
+    synced_at=None,
+):
     files = {}
     all_match = True
     complete = bool(instruction_dir and repo_root)
 
     if not complete:
+        status_path = Path(status_file) if status_file else None
+        if status_path and status_path.is_file():
+            try:
+                external = json.loads(status_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                external = None
+
+            if isinstance(external, dict):
+                checked_at = external.get("checked_at")
+                max_hours = external.get("freshness_max_hours", 3)
+                try:
+                    max_hours = float(max_hours)
+                except (TypeError, ValueError):
+                    max_hours = 3.0
+
+                checked_dt = parse_iso_datetime(checked_at)
+                sync_dt = parse_iso_datetime(synced_at)
+                age_hours = None
+                if checked_dt and sync_dt:
+                    age_hours = max(0.0, (sync_dt - checked_dt).total_seconds() / 3600.0)
+
+                external_files = external.get("files")
+                if not isinstance(external_files, dict):
+                    external_files = {}
+
+                all_match = bool(external.get("all_match")) and all(
+                    isinstance(info, dict) and info.get("match") is True
+                    for info in external_files.values()
+                ) and all(name in external_files for name in INSTRUCTION_FILES)
+
+                raw_health = external.get("health")
+                fresh = age_hours is None or age_hours <= max_hours
+
+                if raw_health == "ok" and all_match and fresh:
+                    health = "ok"
+                    instruction_match = True
+                elif raw_health == "ok" and all_match and not fresh:
+                    health = "stale"
+                    instruction_match = None
+                else:
+                    health = "error"
+                    instruction_match = False
+
+                return {
+                    "health": health,
+                    "snapshot_at": checked_at,
+                    "source_of_truth": "Google Drive canonical instruction files",
+                    "verification_mode": external.get(
+                        "verification_mode",
+                        "authorized_external_instruction_check",
+                    ),
+                    "freshness_max_hours": max_hours,
+                    "age_hours_at_status_build": (
+                        round(age_hours, 3) if age_hours is not None else None
+                    ),
+                    "files": external_files,
+                }, instruction_match
+
         return {
             "health": "unverified",
             "snapshot_at": snapshot_at,
             "source_of_truth": "Google Drive canonical instruction files",
-            "verification_mode": "authenticated_drive_check_not_configured",
+            "verification_mode": "authorized_instruction_check_not_available",
             "files": files,
         }, None
 
@@ -277,6 +351,7 @@ def parse_master(
     instruction_dir: Path | None = None,
     repo_root: Path | None = None,
     instruction_snapshot_at: str | None = None,
+    instruction_status_file: Path | None = None,
 ):
     master_bytes = path.read_bytes()
     text = master_bytes.decode("utf-8")
@@ -344,7 +419,11 @@ def parse_master(
     )
 
     instruction_sync, instruction_match = build_instruction_sync(
-        instruction_dir, repo_root, instruction_snapshot_at
+        instruction_dir,
+        repo_root,
+        instruction_snapshot_at,
+        instruction_status_file,
+        synced_at,
     )
 
     checks = {
@@ -388,7 +467,7 @@ def parse_master(
         "schema_version": 3,
         "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
         "instruction_source_of_truth": "Google Drive canonical instruction files",
-        "automation": "Drive master -> validation -> GitHub master mirror + project-status.json -> GitHub Pages; instruction freshness requires authenticated check",
+        "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
         "synced_at": synced_at,
         "revision_date": revision_date,
         "master_declared_last_full_sync": master_declared_sync,
@@ -403,7 +482,11 @@ def parse_master(
         "scene_ids": section_scenes,
         "latest_scene": max(section_scenes) if section_scenes else None,
         "instruction_sync": instruction_sync,
-        "warnings": (["instruction_sync_unverified"] if instruction_sync["health"] == "unverified" else []),
+        "warnings": (
+            []
+            if instruction_sync["health"] == "ok"
+            else [f"instruction_sync_{instruction_sync['health']}"]
+        ),
         "scene_meta": scene_meta,
         "audit_fingerprint": audit_fingerprint,
         "health": health,
@@ -420,6 +503,7 @@ def main():
     ap.add_argument("--instruction-dir")
     ap.add_argument("--repo-root")
     ap.add_argument("--instruction-snapshot-at")
+    ap.add_argument("--instruction-status-file", default="instruction-sync-status.json")
     ap.add_argument("--check-only", action="store_true")
     args = ap.parse_args()
 
@@ -429,6 +513,7 @@ def main():
         Path(args.instruction_dir) if args.instruction_dir else None,
         Path(args.repo_root) if args.repo_root else None,
         args.instruction_snapshot_at,
+        Path(args.instruction_status_file) if args.instruction_status_file else None,
     )
     print(json.dumps(status, ensure_ascii=False, indent=2))
     if status["health"] != "ok":
