@@ -231,7 +231,7 @@ Scene/prompt content всё равно меняется только в Drive ma
 
 
 Automation:
-`Topview Slow Watch`
+`Topview Slow Watch` — hourly, **только Topview telemetry**. Instruction mirror/recovery checks не дублируются здесь; ими владеет отдельная hourly `AI Film Recovery Sync`.
 
 
 Rules:
@@ -358,4 +358,10 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - В Notion обновлены пять instruction mirror pages из свежих canonical Drive-файлов: External AI / Project Guide, ChatGPT Sync Runbook, User Guide, Sync Rules, Claude Takeover Runbook.
 - Notion `AI Video Prompts — Master Hub` получил checkpoint 19.09.2026 с hourly Recovery Sync, three-state lightsaber, merged slow UI, `Завершено · ждёт решения` и scene 18 = Wan 3.0.
 - Это documentation/backup refresh; prompt master и production state этим шагом не менялись.
+
+## 19. Hourly automation responsibility split — 19.09.2026
+
+- `Topview Slow Watch`: только per-task Topview status/queue/ETA/result telemetry + защита user-confirmed character references; не читает и не чинит instruction mirrors.
+- `AI Film Recovery Sync`: canonical instruction Drive → GitHub mirror repair, exact-text verification, semantic consistency check и material handoff refresh.
+- Обе задачи остаются hourly, но больше не дублируют instruction reads/writes; это уменьшает расход connector calls и вероятность concurrent commits.
 
