@@ -10,6 +10,7 @@ on:
       - 'SYNC-TRIGGER.txt'
       - '.github/workflows/sync-from-drive.yml'
       - 'scripts/build_project_status.py'
+      - 'instruction-sync-status.json'
 
 permissions:
   contents: write
