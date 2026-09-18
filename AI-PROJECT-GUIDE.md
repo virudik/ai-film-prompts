@@ -24,7 +24,15 @@
 - `render_state`, вычисляемый из существующего slow-list (`SLOW_PENDING` / `IDLE`), а не из пятого ручного статуса;
 - `instruction_sync`.
 
-Пока GitHub Actions не имеет безопасного authenticated access к приватным Drive-инструкциям, `instruction_sync.health = unverified` является **ожидаемым честным состоянием**, а не ошибкой master. Нельзя выдавать `instruction_sync: unverified` за `ok`.
+Приватные Drive-инструкции автоматически сверяются через авторизованное подключение Google Drive в ежечасной automation `Topview Slow Watch`. Результат пишется в `instruction-sync-status.json`, а `project-status.json` учитывает его свежесть.
+
+Допустимые состояния:
+- `instruction_sync.health = ok` — все пять Drive-инструкций совпадают с GitHub-зеркалами, авторизованная проверка свежая;
+- `stale` — последняя проверка старше 3 часов;
+- `error` — найдено расхождение или файл недоступен;
+- `unverified` — авторизованный snapshot отсутствует/невалиден.
+
+GitHub Actions **не получает Google Drive credentials** и не должен пытаться скачивать приватные инструкции анонимно.
 
 ## Управление через AI Film Control Center
 
@@ -35,9 +43,12 @@
 - `Work` → **В работе**;
 - `Revision` → **Ревизия**;
 - `Sync` → **Синхронизация**;
-- `Instructions UNVERIFIED` → **Инструкции: НЕ ПРОВЕРЕНЫ**;
+- `instruction_sync.health = ok` → **Инструкции: ПРОВЕРЕНЫ**;
+- `stale` → **Инструкции: ПРОВЕРКА УСТАРЕЛА**;
+- `error` → **Инструкции: НАЙДЕНО РАСХОЖДЕНИЕ**;
+- `unverified` → **Инструкции: НЕ ПРОВЕРЕНЫ**;
 - `Audit fingerprint` → **Контрольный отпечаток**;
-- сообщение о `instruction_sync: unverified` показывать по-русски и не трактовать как ошибку master.
+- текст статуса instruction-sync показывать по-русски и явно отличать `stale/unverified` от фактического drift.
 
 Machine enum-значения (`READY`, `NEEDS_FIX`, `NEEDS_RERENDER` и т. п.) остаются стабильными в JSON, а сайт отображает их русскими подписями.
 
