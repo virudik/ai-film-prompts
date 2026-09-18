@@ -60,11 +60,10 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 <div class="metrics"><div class="metric"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div class="metric"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div class="metric"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Медленная генерация</div></div><div class="metric"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div></div></div>
 <div class="slow-line"><span>Медленная генерация:</span><span id="slowList" class="slow-list">—</span><span>В работе:</span><span id="workList" class="work-list">—</span></div>
 <div class="meta-line"><span id="revision">Ревизия —</span><span>•</span><span id="syncTime">Синхронизация —</span><span>•</span><span id="instructionSync">Инструкции —</span></div>
-<details class="fingerprint"><summary>Контрольный отпечаток</summary><div id="fingerGrid" class="finger-grid"></div><div class="finger-actions"><button id="copyFingerprint" class="small-btn">Копировать отпечаток</button></div></details>
-<div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
-
-<details class="fingerprint"><summary>Что означают статусы и метки</summary>
-<div class="finger-grid">
+<details class="fingerprint"><summary>Контрольный отпечаток</summary>
+<div id="fingerGrid" class="finger-grid"></div>
+<div class="finger-actions"><button id="copyFingerprint" class="small-btn">Копировать отпечаток</button></div>
+<div class="finger-grid" style="margin-top:12px">
 <div class="finger-item"><div class="finger-key">Ревизия</div><div class="finger-val">Дата содержательного изменения master-файла.</div></div>
 <div class="finger-item"><div class="finger-key">Синхронизация</div><div class="finger-val">Время последнего технического обновления зеркала/status с Google Drive.</div></div>
 <div class="finger-item"><div class="finger-key">Медленная генерация</div><div class="finger-val">Рендер уже запущен; повторно не запускать до результата, ошибки или отдельного решения.</div></div>
@@ -73,7 +72,9 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 <div class="finger-item"><div class="finger-key">Нужен новый дубль</div><div class="finger-val">Предыдущий результат признан кандидатом на повторный рендер; slow-блокировка всё равно имеет приоритет.</div></div>
 <div class="finger-item"><div class="finger-key">Контрольный отпечаток</div><div class="finger-val">Снимок ключевых параметров проекта: hash master, ID сцен, slow/work, состояние и время синхронизации. Нужен для обнаружения рассинхронизации.</div></div>
 <div class="finger-item"><div class="finger-key">Зависимости</div><div class="finger-val">Связи между сценами: продолжение, альтернатива, зависимость или связанный эпизод.</div></div>
-</div></details>
+</div>
+</details>
+<div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 </section>
 <section class="topview-monitor"><div class="topview-head"><strong>Мониторинг медленных генераций Topview</strong><span class="topview-note">Телеметрия только для чтения · каноническая блокировка повторного запуска slow-сцен хранится в Drive master</span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div><div id="topviewChecked" class="tv-checked"></div></section>
 <div class="topbar"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span><span id="stamp" class="pill">загрузка master…</span></div>
