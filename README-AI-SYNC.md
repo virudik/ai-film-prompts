@@ -49,15 +49,13 @@ Slow render-state выводится из existing slow-list, поэтому н�
 
 ## Instruction freshness
 
-Drive instruction files сейчас приватны. GitHub Actions не имеет authenticated access к ним, поэтому автоматический routine workflow **не должен** пытаться скачивать их анонимно.
+Drive instruction files остаются приватными. GitHub Actions не получает Google credentials и не скачивает их напрямую.
 
-Текущее ожидаемое состояние:
-- `instruction_sync.health = unverified`;
-- warning `instruction_sync_unverified`.
+Ежечасная automation `Topview Slow Watch` использует авторизованные Google Drive + GitHub connectors, сравнивает пять канонических Drive-инструкций с зеркалами и обновляет `instruction-sync-status.json`. `project-status.json` принимает этот snapshot только пока он не старше 3 часов.
 
-При architecture/instruction checkpoint основной редактор должен fresh-read Drive instructions и зеркально обновить GitHub через authenticated connectors/manual editor path, сохраняя те же Drive file IDs.
+Состояния: `ok` = совпадают и свежо; `stale` = проверка устарела; `error` = mismatch/read failure; `unverified` = snapshot отсутствует/невалиден.
 
-Нельзя делать Drive instructions публичными только ради упрощения Actions без отдельного решения пользователя.
+При architecture/instruction checkpoint основной редактор всё равно должен fresh-read Drive instructions, изменять тот же Drive file ID и обновлять GitHub mirror. Нельзя делать Drive instructions публичными только ради упрощения Actions.
 
 ## Topview evidence
 
