@@ -26,7 +26,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/serega.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1536,
+        "full_image_height": 857
       },
       "outfit_variant": "Канцлер: бледный мужчина старшего возраста, редкие светлые волосы/лысина, длинная тёмно-фиолетовая роба.",
       "variants": [
@@ -65,7 +69,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/pasha.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1152,
+        "full_image_height": 1536
       },
       "outfit_variant": "Тёмно-синяя джедайская туника, коричневый пояс, тёмные брюки, высокие сапоги.",
       "variants": [
@@ -105,7 +113,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/artem.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1359,
+        "full_image_height": 1536
       },
       "outfit_variant": "Более плотное телосложение, борода, кремово-бежевая туника с коричневой верхней робой, широкий пояс и коричневые сапоги.",
       "variants": [
@@ -151,7 +163,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/ilyusha.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1152,
+        "full_image_height": 1536
       },
       "outfit_variant": "Усы, каштановые волосы, светло-/оливково-зелёная туника, глубокий красный плащ с капюшоном, коричневые сапоги.",
       "variants": [
@@ -197,7 +213,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/sasha.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1536,
+        "full_image_height": 1536
       },
       "outfit_variant": "Круглые очки, борода, кремовая внутренняя туника и тёмно-бордовая/коричневая роба.",
       "variants": [
@@ -236,7 +256,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/lesha.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1536,
+        "full_image_height": 857
       },
       "outfit_variant": "Усы, фиолетовая внутренняя туника, длинная серая роба с капюшоном, коричневый пояс, светлые сапоги.",
       "variants": [
@@ -275,7 +299,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/vitalik.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1536,
+        "full_image_height": 1536
       },
       "outfit_variant": "Более плотное телосложение, чёрная туника и тёмные кожаные/бронепанели, коричневые брюки и высокие сапоги.",
       "variants": [
@@ -305,7 +333,11 @@
         "web_preview_width": 960,
         "web_preview_format": "webp",
         "web_preview_source": "user_confirmed_model_sheet",
-        "web_preview_display_max": 480
+        "web_preview_display_max": 480,
+        "full_image": "references/full/yulya.jpg",
+        "full_image_source": "exact_user_uploaded_original",
+        "full_image_width": 1536,
+        "full_image_height": 857
       },
       "outfit_variant": "Длинные каштановые волосы, тёмная чёрно-серая броня/доспех, наплечники, перчатки и длинный чёрный плащ.",
       "variants": [
