@@ -3,11 +3,11 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-18T21:51:37Z",
-  "revision_date": "18.09.2026",
+  "synced_at": "2026-09-18T22:04:56Z",
+  "revision_date": "19.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
-  "canonical_master_sha256": "160eda75b815415593328f69e840a2d8cd387749164534f7d74937a4aa90eb82",
-  "canonical_master_bytes": 128116,
+  "canonical_master_sha256": "861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6",
+  "canonical_master_bytes": 131748,
   "scenes": 17,
   "prompt_texts": 20,
   "work_items": [
@@ -47,40 +47,40 @@
   "latest_scene": 18,
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-18T21:30:06Z",
+    "snapshot_at": "2026-09-18T22:02:43Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.359,
+    "age_hours_at_status_build": 0.037,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-18T11:59:25.448Z",
-        "github_blob": "d5a90dcd1a98b3ec3f7a80e5249a70ca3b24ae22",
+        "drive_modified_at": "2026-09-18T22:02:16.914Z",
+        "github_blob": "d54f2639544e79d9c4f2644590c6b6d77cd079bb",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-18T11:59:29.611Z",
-        "github_blob": "c0383cd01be8ecacc7daf7bde8cfce8e5633eb36",
+        "drive_modified_at": "2026-09-18T21:53:43.984Z",
+        "github_blob": "454f1432923aff6711458f251b873be070f27855",
         "match": true
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-18T11:59:33.797Z",
-        "github_blob": "0ed7dfcf0414cf8081c46f1581175cea1007a03e",
+        "drive_modified_at": "2026-09-18T21:53:56.578Z",
+        "github_blob": "1848e0cfcdadb8c20cd23b871c7b3b582b4efad8",
         "match": true
       },
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-        "drive_modified_at": "2026-09-18T11:59:37.880Z",
-        "github_blob": "cf4abeaa17ce14710f66d5049ed83538f1ed1306",
+        "drive_modified_at": "2026-09-18T21:54:49.951Z",
+        "github_blob": "fa4b86c640658b1ddc51f6a9354fd4e85f6a9bc8",
         "match": true
       },
       "CLAUDE-TAKEOVER-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-09-18T11:59:42.109Z",
-        "github_blob": "ee6d852d1dd35cf25407647e888636965d288360",
+        "drive_modified_at": "2026-09-18T21:55:03.662Z",
+        "github_blob": "b5941445518bf3d3e137c8adac2ce16e912847ec",
         "match": true
       }
     }
@@ -379,9 +379,9 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "18.09.2026",
-    "synced_at": "2026-09-18T21:51:37Z",
-    "canonical_master_sha256": "160eda75b815415593328f69e840a2d8cd387749164534f7d74937a4aa90eb82",
+    "revision_date": "19.09.2026",
+    "synced_at": "2026-09-18T22:04:56Z",
+    "canonical_master_sha256": "861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6",
     "scene_count": 17,
     "prompt_count": 20,
     "scene_ids": [
