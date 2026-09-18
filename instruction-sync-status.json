@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-18T22:02:43Z",
+  "checked_at": "2026-09-18T22:37:00Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,14 +9,14 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-18T22:02:16.914Z",
-      "github_blob": "d54f2639544e79d9c4f2644590c6b6d77cd079bb",
+      "drive_modified_at": "2026-09-18T22:05:44.835Z",
+      "github_blob": "59a005d43b3efbe624dd507eb111d018df1482c3",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-18T21:53:43.984Z",
-      "github_blob": "454f1432923aff6711458f251b873be070f27855",
+      "drive_modified_at": "2026-09-18T22:05:55.814Z",
+      "github_blob": "44de904898096d6995841a0cf80d3ddf8f3f5d4a",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -27,8 +27,8 @@
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-18T21:54:49.951Z",
-      "github_blob": "fa4b86c640658b1ddc51f6a9354fd4e85f6a9bc8",
+      "drive_modified_at": "2026-09-18T22:06:00.444Z",
+      "github_blob": "936a3f1fec5acb8efdb83c035fa348c29d39c5f4",
       "match": true
     },
     "CLAUDE-TAKEOVER-RUNBOOK.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact text comparison performed after the 19.09.2026 takeover/site/master corrections. Drive remains canonical."
+  "note": "Exact text comparison performed by authorized ChatGPT Drive connector. Drive remains canonical."
 }
