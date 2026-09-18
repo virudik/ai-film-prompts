@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-18T22:37:00Z",
+  "checked_at": "2026-09-18T23:07:29Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,34 +9,34 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-18T22:05:44.835Z",
-      "github_blob": "59a005d43b3efbe624dd507eb111d018df1482c3",
+      "drive_modified_at": "2026-09-18T23:06:15.910Z",
+      "github_blob": "81eb9c029e0c759a2d8d8d27c535cdb617562d94",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-18T22:05:55.814Z",
-      "github_blob": "44de904898096d6995841a0cf80d3ddf8f3f5d4a",
+      "drive_modified_at": "2026-09-18T23:06:21.411Z",
+      "github_blob": "2c62f75e2bc286e6da12d195516dbe149244a75b",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-18T21:53:56.578Z",
-      "github_blob": "1848e0cfcdadb8c20cd23b871c7b3b582b4efad8",
+      "drive_modified_at": "2026-09-18T23:06:26.610Z",
+      "github_blob": "6fdd9e131ded229a36b658ff6e52eee7dab186b5",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-18T22:06:00.444Z",
-      "github_blob": "936a3f1fec5acb8efdb83c035fa348c29d39c5f4",
+      "drive_modified_at": "2026-09-18T23:06:32.244Z",
+      "github_blob": "444e859dab4049e183e9576f3380e10e0a5d7162",
       "match": true
     },
     "CLAUDE-TAKEOVER-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-18T21:55:03.662Z",
-      "github_blob": "b5941445518bf3d3e137c8adac2ce16e912847ec",
+      "drive_modified_at": "2026-09-18T23:06:37.475Z",
+      "github_blob": "877e88147d168101c614473a24bcc8918dfc11e8",
       "match": true
     }
   },
-  "note": "Exact text comparison performed by authorized ChatGPT Drive connector. Drive remains canonical."
+  "note": "Exact text comparison after verified-recovery documentation refresh. Drive remains canonical."
 }
