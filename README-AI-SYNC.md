@@ -103,3 +103,7 @@ Direct Topview/instruction telemetry commits can advance `main` during a Drive s
 ## Encoding normalization
 
 Since 19.09.2026 the Drive sync normalizes an optional UTF-8 BOM before validating the Markdown header. The canonical raw master is kept UTF-8 without BOM. This prevents invisible encoding markers from producing false sync failures.
+
+## Verified recovery 19.09.2026
+
+Race retry and BOM normalization are now verified by multiple successful Drive-sync runs. Current verified fingerprint: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive/GitHub master exact match, project health `ok`, instruction sync `ok`.
