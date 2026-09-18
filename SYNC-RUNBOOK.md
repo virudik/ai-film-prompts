@@ -225,3 +225,7 @@ Control Center дополнительно проверяет свежесть п
 ## 11. Encoding guard
 
 Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a write path temporarily inserted UTF-8 BOM (`EF BB BF`), causing strict `^#` header validation to fail even though the Markdown text was readable. The master was repaired in place and `sync-from-drive.yml` now strips an optional BOM before validation. When diagnosing a 4–6 second failure in the download step, inspect first bytes/encoding before blaming Drive access.
+
+## 12. Verified recovery checkpoint
+
+19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Контрольный статус: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive mirror exact match, health/instruction sync = `ok`. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
