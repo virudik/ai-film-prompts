@@ -29,11 +29,15 @@ Drive master
 → GitHub Pages
 
 
-Instruction mirror:
-private Drive instructions
-→ authorized `Topview Slow Watch`
+Instruction mirror / recovery:
+private Drive instructions (canonical)
+→ hourly `AI Film Recovery Sync` exact-text compare
+→ automatic repair only Drive → GitHub when mirror differs
+→ semantic consistency check
 → `instruction-sync-status.json`
 → project-status rebuild
+
+`Topview Slow Watch` continues hourly Topview telemetry and authorized instruction-health verification; it does not make production approval decisions.
 
 
 Topview telemetry:
@@ -65,7 +69,7 @@ mapped task per slow Scene ID
 - Topview status localized
 - queue label = `Очередь`
 - time estimate remains current one-line combined form
-- sync health uses green/red lightsaber indicator
+- sync health uses three-state lightsaber: green `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`, yellow `! БЫЛИ ОШИБКИ` during recovery observation, red for unresolved/stale error
 - slow UI объединён: одна видимая canonical+Topview таблица; raw master slow-table скрыта только в presentation layer
 
 
@@ -107,3 +111,8 @@ Since 19.09.2026 the Drive sync normalizes an optional UTF-8 BOM before validati
 ## Verified recovery 19.09.2026
 
 Race retry and BOM normalization are now verified by multiple successful Drive-sync runs. Current verified fingerprint: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive/GitHub master exact match, project health `ok`, instruction sync `ok`.
+
+
+## Recovery-warning UI
+
+The Control Center keeps a recovered error visible in yellow until three consecutive successful sync workflow runs have followed the latest detected failure. Current unresolved failure or stale/unhealthy state is red; stable healthy state is green. Exact sync time is shown without a redundant relative `N minutes ago`. A Topview-success task that remains in the canonical slow list is labeled as waiting for user decision.
