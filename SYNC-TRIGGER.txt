@@ -1,1 +1,1 @@
-18.09.2026 14:07 (+03:00) — canonical slow-generation heading simplified; resync after Drive write
+18.09.2026 — handoff checkpoint: short slow heading + refreshed Drive instructions + transition docs
