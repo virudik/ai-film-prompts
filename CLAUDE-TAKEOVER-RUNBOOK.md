@@ -43,7 +43,7 @@ remain review-only and return exact patch instructions.
 - Topview success != approval
 - Scene 6 was last observed technically complete in Topview but must not be auto-cleared from canonical slow state
 - `project-status.json` is generated
-- instruction drift is not auto-fixed
+- canonical instruction semantics are not auto-rewritten; hourly `AI Film Recovery Sync` may repair only GitHub instruction mirrors from canonical Drive → GitHub and performs semantic-conflict detection
 
 
 ## Write procedure
@@ -72,7 +72,7 @@ Current UI:
 - service and technical drawers
 - clickable metric navigation
 - Topview status translations
-- green/red animated sync lightsaber
+- three-state animated sync lightsaber: green stable, yellow recovered-error observation, red unresolved/stale error
 - slow/Topview UI is already merged into one visible canonical+telemetry table
 - time estimate intentionally unchanged
 
@@ -95,3 +95,8 @@ A Claude web/chat session that can only read Drive and public GitHub remains rev
 ## Verified sync recovery
 
 As of 19.09.2026, the earlier race/BOM failures are resolved and confirmed by multiple successful sync runs. Before takeover, still fresh-check live status, but do not treat older failure emails as evidence of a current outage when a newer successful status exists.
+
+
+## Current automation note — 19.09.2026
+
+`AI Film Recovery Sync` now runs hourly. It can repair GitHub mirrors of the five canonical instruction files from Drive, but never Drive from GitHub. It also checks known semantic contradictions. This does not expand takeover authority: an external AI still needs the preflight for same-ID Drive write and GitHub write if it is to become main editor.
