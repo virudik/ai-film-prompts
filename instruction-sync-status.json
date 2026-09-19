@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T13:05:39Z",
+  "checked_at": "2026-09-19T13:41:53Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T13:03:08.962Z",
-      "github_blob": "44360a3199236a219184957338f6482909aef60a",
+      "drive_modified_at": "2026-09-19T13:38:11.129Z",
+      "github_blob": "3be43549678bbd9cd3527c5c6192eed879edabe2",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T01:49:39.348Z",
-      "github_blob": "c6e5142eea5c18146a6519e6f6883e8a4db5ced5",
+      "drive_modified_at": "2026-09-19T13:38:19.383Z",
+      "github_blob": "0f1b00841d1381735ddcb64c52a8c764b604438d",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T13:03:16.841Z",
-      "github_blob": "9b119aa8f38ae672011815ccefaa976c1056c368",
+      "drive_modified_at": "2026-09-19T13:38:27.781Z",
+      "github_blob": "85bc76b1d18afb71521a7ea4913242a790de5c97",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -33,10 +33,10 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-19T01:04:56.914Z",
-      "github_blob": "7fd5fbd249a5f3389451476f9cf42d743af9254c",
+      "drive_modified_at": "2026-09-19T13:38:36.437Z",
+      "github_blob": "36bc28009ed30139a67ffb848a922e6c67456720",
       "match": true
     }
   },
-  "note": "Exact Drive→GitHub mirrors match; semantic check passed after active-status/comments/no-bars update. Current live master fingerprint is 20d6104b69017ccad1186f73c1d02d308aec5963c7c1a50d5d8366ce4414613c."
+  "note": "Exact Drive→GitHub mirrors verified after user cleanup: scenes 6/7 removed from active master; scene 2 removed from slow; current slow 12,14,15,18."
 }
