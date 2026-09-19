@@ -346,7 +346,7 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - Automation `AI Film Handoff Refresh` переименована в `AI Film Recovery Sync` и переведена с weekly на hourly.
 - Она автоматически чинит пять canonical instruction mirrors только Drive → GitHub, никогда GitHub → Drive, затем делает exact-text verification и semantic consistency check.
 - Semantic check обязан ловить stale contradiction `slow tables are planned/not merged` vs фактическое `already merged`, scene 18 engine mismatch, source-of-truth drift, auto-clear slow lock и устаревшие race/BOM rules.
-- Control Center получил третий health state: yellow `! БЫЛИ ОШИБКИ` после восстановленного workflow failure; он держится до 3 последовательных successful sync-runs. Green = stable healthy; red = unresolved/stale/unhealthy.
+- Control Center получил третий health state: yellow `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ` после восстановленного workflow failure; он держится до 3 последовательных successful sync-runs. Green = stable healthy; red = unresolved/stale/unhealthy.
 - Из meta-line удалено дублирующее `N мин назад`, если уже показано точное время.
 - Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено` / следующая строка `ждёт решения`.
 - Проверка slow engines 19.09.2026: 2 Seedance 2.5, 6 Seedance 2.5, 12 Wan 3.0, 14 Seedance 2.5, 15 Wan 3.0, 18 Wan 3.0; master и Topview совпадают по всем six slow scenes. Старое расхождение было только в служебной строке контекста scene 18 и уже исправлено.
@@ -407,5 +407,5 @@ These are **not implemented yet** and must not be reported as completed:
 - Причина: `scripts/build_project_status.py` всё ещё содержал старое имя `CLAUDE-TAKEOVER-RUNBOOK.md` в `INSTRUCTION_FILES`, поэтому свежий `instruction-sync-status.json` с пятью `match=true` файлами всё равно интерпретировался как `instruction_sync_error`.
 - Validator обновлён на `BACKUP-AI-RUNBOOK.md`.
 - Первый sync после исправления успешно завершился commit `72c3e81de429fdf144e263af2e052c4e009cef7a`; свежий `project-status.json`: `health=ok`, `instruction_sync=ok`, warnings пусты.
-- По UI-правилу после первого successful run за недавним failure меч должен перейти с красного на жёлтый `! БЫЛИ ОШИБКИ`; зелёный возвращается после 3 последовательных successful sync-runs.
+- По UI-правилу после первого successful run за недавним failure меч должен перейти с красного на жёлтый `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ`; зелёный возвращается после 3 последовательных successful sync-runs.
 
