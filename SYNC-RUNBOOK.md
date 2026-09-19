@@ -141,7 +141,7 @@ Automation: `Topview Slow Watch`.
 - Technical detail → `Контрольный отпечаток`
 - sync lightsaber animation family is shared across green/yellow/red: moving `saberFlow` gradient + state-specific brightness/glow pulse; do not add a separate text-position animation
 - healthy stable state: green lightsaber `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
-- recovered recent workflow failure with only 1–2 consecutive successful sync-runs after it: yellow lightsaber `! БЫЛИ ОШИБКИ`
+- recovered recent workflow failure with only 1–2 consecutive successful sync-runs after it: yellow lightsaber `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ`
 - unresolved failure, unhealthy status/instructions, or stale heartbeat (>75 min): red lightsaber `✕ ОШИБКА СИНХРОНИЗАЦИИ` / `✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА`
 - Topview `running` → `Выполняется`
 - Topview `init/queued` → `В очереди`
