@@ -230,6 +230,8 @@ No music.
 
 
 Negative prompt: face swapping between characters, identity drift, duplicated or merged faces, extra people, missing people, distorted hands, extra fingers, costume swapping, blade color changing mid-shot, flickering blades, disappearing blades, warped or melted sabers, blade glow overwhelming faces, skyline warping, platform warping, camera jitter, cuts, jump cuts, cartoon look, video-game rendering, text, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -347,6 +349,8 @@ No music.
 
 
 Negative prompt: face swap, face duplication, merged characters, missing characters, extra people, costume color swapping, identity drift, flickering blades, disappearing blades, changing blade colors, unstable saber length, warped sabers, glowing blades covering faces, distorted hands, extra fingers, warped platform, skyline warping, camera shake, cuts, jump cuts, cartoon, game-render look, text, captions, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -473,6 +477,8 @@ No vocals.
 
 
 Negative prompt: ignited lightsabers, glowing blades, weapons in hands, face swaps, costume swaps, duplicated people, merged bodies, missing people, distorted hands, extra fingers, warped skyline, melting geometry, camera jitter, fast shaky movement, cuts, jump cuts, cartoon look, video-game look, text, captions, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -580,6 +586,8 @@ No vocals.
 
 
 Negative prompt: ignited lightsabers, glowing blades, weapons in hands, face swap, face duplication, merged characters, missing characters, costume color swapping, identity drift, extra people, distorted hands, extra fingers, warped platform, skyline warping, camera shake, cuts, jump cuts, cartoon, stylized game-render look, text, captions, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -625,6 +633,8 @@ Style: photoreal space-opera cinematography, anamorphic flares, subtle film grai
 
 
 Negative prompt: slow calm opening, static holding shot, ship geometry changing, extra or missing turrets/engines, engine glow color shifting, camera clipping through hull, fighters morphing or duplicating, warping starfield, text, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -670,6 +680,8 @@ Style: same photoreal cinematography as the companion clip, no on-screen text, l
 
 
 Negative prompt: face swapping between characters, identity drift, extra crew members appearing, robe colors changing, cockpit geometry morphing, camera cuts within the clip, text, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -718,6 +730,8 @@ Style: photoreal space-opera cinematography, anamorphic flares, subtle film grai
 
 
 Negative prompt: camera cut or hard edit, glass shattering, glass vanishing instead of a see-through pass, ship geometry changing, extra or missing turrets/engines, engine glow color shifting, fighters morphing or duplicating, warping starfield, face swapping between characters, identity drift, extra crew members appearing, robe colors changing, cockpit geometry morphing, text, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -798,6 +812,8 @@ AUDIO (native): market ambience, distant alien chatter, a soft crunch/squelch on
 
 
 NEGATIVE PROMPT: no on-screen text, no logos, no subtitles, no extra background Jedi, no face duplication or face-swap between JEDI-A and JEDI-B, no color bleed between navy and maroon/cream costumes, no modern clothing, no weapons drawn, no blood, no distorted hands.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -878,6 +894,8 @@ snap-back on the flinch, settle back to steady medium shot for the resolve.
 NEGATIVE PROMPT: no text, no subtitles, no watermark, no logo, no extra 
 characters, no face duplication errors, no distorted hands, no warped 
 mirror frame, no glitching background fixtures.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -938,6 +956,8 @@ AUDIO:
 Monster roars and pained shrieks, saber hums and clashes, splashing water, sharp plasma-sizzle on each wound, cavern echo, waterfall ambience in background, no music. 
  
 NEGATIVE PROMPT: red liquid blood, organic guts, intact monster, monster surviving, lightsaber color swap, missing glasses on Jedi 2, static camera, character morphing, cartoon, anime, low quality, unwanted non-diegetic music.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1002,6 +1022,8 @@ AUDIO:
 Clear Russian dialogue as written, one long expressive Wookiee growl in Shot 4, quiet ambient cantina chatter and distant alien music underneath — kept low enough not to compete with the dialogue, no non-diegetic score. 
  
 NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual words, subtitles, text on screen, expressionless faces, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1064,6 +1086,8 @@ AUDIO:
 Clear Russian dialogue as written, one sharp indignant Wookiee growl in Shot 2, same quiet ambient cantina bed as the previous scene, no non-diegetic score. 
  
 NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual words, subtitles, text on screen, expressionless faces, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1132,6 +1156,8 @@ Ambient cantina chatter and murmured alien voices, distant lounge-style alien mu
 
 
 NEGATIVE PROMPT: characters speaking, subtitles, text on screen, camera cuts or jump cuts, shaky handheld motion, wrong robe colors, hood down during Shot 1, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1222,6 +1248,8 @@ Quiet futuristic council-room ambience, distant city traffic through the glass, 
 
 NEGATIVE PROMPT:
 identity drift, face swap, face duplication, costume swap, missing mustache, wrong body shape, different cat markings, changing cat eye color, anthropomorphic cat body, cat standing like a human, human lips on cat, exaggerated cartoon mouth, distorted muzzle, extra limbs, duplicated cat, warped hands, extra fingers, hookah geometry morphing, furniture moving, skyline warping, extra characters entering frame, subtitles, text, logos, watermark, exaggerated acting, slapstick reaction, camera shake, hard cuts, cartoon, anime, game-render look.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 ---
 
@@ -1308,6 +1336,8 @@ Deep quiet forest ambience, distant birds, faint insects, soft wind high in the 
 
 NEGATIVE PROMPT:
 identity drift, different face, different age, full head of hair, robe color change, costume change, duplicate Chancellor, extra people, modern hiking equipment, plastic basket, magical glowing mushrooms, giant comedy mushroom, psychedelic neon colors, slapstick acting, exaggerated grin, distorted hands, extra fingers, mushroom growing or morphing on contact, trees appearing from nowhere, changing forest geometry, floating roots, camera shake, hard cuts, cartoon, anime, game-render look, text, subtitles, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 ---
 
@@ -1400,6 +1430,8 @@ Strong rushing wind during leaps, rapid footsteps on bark and wooden bridges, he
 
 NEGATIVE PROMPT:
 identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, village appearing ahead as destination at the end, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1486,6 +1518,8 @@ Powerful subterranean rumble, violent sand eruption, debris crashes, heavy impac
 
 NEGATIVE PROMPT:
 small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, game-render look, floating worm, worm flying in the air without sand displacement, characters ignoring the worm, static posing, identity drift, face swap, extra characters, costume changes, missing robe colors, duplicate Chancellor, duplicate Jedi, warping ruins, popping geometry, sudden scene reset, teleporting camera, hard cuts, subtitles, on-screen text, logo, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1573,6 +1607,8 @@ Cavern ambience, water splashing and dripping, distant waterfall, steam hiss fro
 
 NEGATIVE PROMPT:
 new monster attack, living monster, red liquid blood, guts, gore, comedy tone, relaxed cheerful mood, standing heroic pose for the whole scene, identity drift, missing glasses on Jedi 2, costume changes, duplicate characters, distorted hands, warped creature anatomy, dry cave, bright daylight, hard cuts, shaky camera, subtitles, on-screen text, logo, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1667,6 +1703,8 @@ Exact Russian dialogue with accurate lip sync. Rhythmic boots on metal flooring,
 
 NEGATIVE PROMPT:
 cartoon, animation, anime, stylized CGI, game cutscene, toy-like sci-fi, plastic skin, wax face, over-smoothed skin, glossy plastic corridor, exaggerated expressions, huge smile, melodramatic acting, rubbery motion, lip desync, frozen mouth, face morphing, identity drift, costume drift, warped corridor geometry, fake mirror reflections, oversaturated neon, handheld chaos, jitter, hard cuts, jump cuts, lightsabers, weapons drawn, extra foreground characters, subtitles, text, logos, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 
@@ -1737,4 +1775,6 @@ Exact Russian dialogue and natural lip-sync. Boots echo rhythmically on metal, r
 
 NEGATIVE PROMPT:
 cartoon, animated-series look, anime, stylized 3D, glossy fan-game render, Unreal Engine cutscene look, toy corridor, plastic walls, plastic skin, waxy faces, exaggerated Palpatine-like grimace, campy villain acting, oversized smile, identity drift, face morphing, lip desync, floating walk cycle, sliding feet, corridor warping, extra main characters, stormtroopers crowding foreground, handheld shake, jitter, hard cuts, montage, lightsabers, drawn weapons, subtitles, text, logo, watermark.
+
+FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
