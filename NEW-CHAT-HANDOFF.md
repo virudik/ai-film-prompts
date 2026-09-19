@@ -400,3 +400,12 @@ These are **not implemented yet** and must not be reported as completed:
 - `Seedance 2.5` / `Wan 3.0` теперь принудительно остаются в одну строку внутри Model cell.
 - `ждёт решения` остаётся отдельной строкой под `Завершено`, но сама фраза больше не разрывается на две строки.
 - Красный/жёлтый/зелёный sync lightsaber уже используют одну animation family: moving `saberFlow` gradient + state-specific glow pulse. Отдельную новую анимацию текста не добавляли; на красном существующий эффект просто заметнее из-за контраста.
+
+## 23. Validator follow-up after backup-AI rename — 19.09.2026
+
+- После миграции на `BACKUP-AI-RUNBOOK.md` сайт некоторое время корректно показывал красный sync health: новые GitHub workflow действительно падали на validation.
+- Причина: `scripts/build_project_status.py` всё ещё содержал старое имя `CLAUDE-TAKEOVER-RUNBOOK.md` в `INSTRUCTION_FILES`, поэтому свежий `instruction-sync-status.json` с пятью `match=true` файлами всё равно интерпретировался как `instruction_sync_error`.
+- Validator обновлён на `BACKUP-AI-RUNBOOK.md`.
+- Первый sync после исправления успешно завершился commit `72c3e81de429fdf144e263af2e052c4e009cef7a`; свежий `project-status.json`: `health=ok`, `instruction_sync=ok`, warnings пусты.
+- По UI-правилу после первого successful run за недавним failure меч должен перейти с красного на жёлтый `! БЫЛИ ОШИБКИ`; зелёный возвращается после 3 последовательных successful sync-runs.
+
