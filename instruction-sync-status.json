@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T01:26:13Z",
+  "checked_at": "2026-09-19T01:33:52Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -15,8 +15,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T01:24:29.752Z",
-      "github_blob": "b7ca5f044a312375a7cb793b75f0c94987f4c105",
+      "drive_modified_at": "2026-09-19T01:32:31.622Z",
+      "github_blob": "c003eee6a2b493552f176da16450e8e0001812c2",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact-text verification after Topview nowrap and sync-lightsaber animation clarification. Drive remains canonical."
+  "note": "Exact-text verification after validator fix for BACKUP-AI-RUNBOOK migration. Drive remains canonical."
 }
