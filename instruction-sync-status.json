@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-18T23:59:58Z",
+  "checked_at": "2026-09-19T00:03:54Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-18T23:57:10.057Z",
-      "github_blob": "bfb3b6765143a179b7532d85f2aafc11028d7e5d",
+      "drive_modified_at": "2026-09-19T00:02:41.365Z",
+      "github_blob": "f0baf37defc444ee9a1a36fdc2a4d9e59105b217",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -27,8 +27,8 @@
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-18T23:57:16.184Z",
-      "github_blob": "d5908b73805f79926df623a45037b4e8886cb12e",
+      "drive_modified_at": "2026-09-19T00:02:49.725Z",
+      "github_blob": "1c23066f08dcacfc46298b6b12d6b619f63046fc",
       "match": true
     },
     "CLAUDE-TAKEOVER-RUNBOOK.md": {
@@ -41,16 +41,17 @@
   "note": "Exact text comparison after verified-recovery documentation refresh. Drive remains canonical.",
   "semantic_consistency": {
     "health": "ok",
-    "checked_at": "2026-09-18T23:59:58Z",
+    "checked_at": "2026-09-19T00:03:54Z",
     "checks": [
       "slow/Topview UI recorded as already merged",
-      "scene 18 target engine = Wan 3.0; historical Seedance mention only documents corrected mismatch",
+      "scene 18 target engine = Wan 3.0; historical Seedance mention only documents the corrected mismatch",
       "Drive video-prompts.md remains sole editable prompt master",
       "GitHub remains mirror + Pages",
       "Topview success != user approval",
       "slow-lock is never auto-cleared",
       "write-race and optional BOM recovery rules are current",
-      "Topview Slow Watch owns Topview telemetry only; AI Film Recovery Sync owns instruction mirrors + handoff"
+      "Topview Slow Watch owns Topview telemetry only; AI Film Recovery Sync owns instruction mirrors + handoff",
+      "documented current master SHA = 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96"
     ]
   }
 }
