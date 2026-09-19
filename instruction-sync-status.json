@@ -1,19 +1,42 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T13:42:00Z",
+  "checked_at": "2026-09-19T14:59:36Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
-  "health": "error",
+  "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-19T13:38:11.129Z","github_blob":"3be43549678bbd9cd3527c5c6192eed879edabe2","match":true},
-    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-19T13:38:19.383Z","github_blob":"0f1b00841d1381735ddcb64c52a8c764b604438d","match":true},
-    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-19T13:38:27.781Z","github_blob":"85bc76b1d18afb71521a7ea4913242a790de5c97","match":true},
-    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-19T01:38:30.485Z","github_blob":"8b452c681e0e8db42d05fef612aa993bb7652fa8","match":true},
-    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-19T13:38:36.437Z","github_blob":"36bc28009ed30139a67ffb848a922e6c67456720","match":true}
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-19T14:55:31.735Z",
+      "github_blob": "24f104d742807cebd6284ffc7527a149ea321338",
+      "match": true
+    },
+    "SYNC-RUNBOOK.md": {
+      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_modified_at": "2026-09-19T14:55:42.922Z",
+      "github_blob": "1c4e45772853cbec3809e0ed1711130061256f56",
+      "match": true
+    },
+    "USER-GUIDE.md": {
+      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_modified_at": "2026-09-19T14:55:54.552Z",
+      "github_blob": "d09f0d87be09477d857771582decd1e4f559d133",
+      "match": true
+    },
+    "README-AI-SYNC.md": {
+      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_modified_at": "2026-09-19T01:38:30.485Z",
+      "github_blob": "8b452c681e0e8db42d05fef612aa993bb7652fa8",
+      "match": true
+    },
+    "BACKUP-AI-RUNBOOK.md": {
+      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_modified_at": "2026-09-19T14:56:03.953Z",
+      "github_blob": "df05ad30e68ae58bb232f08d64b7494aef5b79f4",
+      "match": true
+    }
   },
-  "semantic_health": "error",
-  "semantic_conflicts": [{"file":"NEW-CHAT-HANDOFF.md","conflict":"Current snapshot/section 4 says scene 2 was explicitly removed from canonical slow-list and scenes 6 and 7 were removed from active master, but section 6 still says scenes 2 and 6 are both Topview-success and remain slow pending user decision. Fresh project-status.json confirms 15 active scenes, scene 6 absent, and canonical slow list 12,14,15,18."}],
-  "note": "Exact Drive→GitHub instruction mirrors match. Semantic health is non-green because NEW-CHAT-HANDOFF.md contains a stale internal contradiction about scenes 2 and 6. Canonical Drive handoff was not silently rewritten. Current live master fingerprint authority is project-status.json: 12967ee024729d6f665fbf2025f4cd77b2d8852c0e11c44f8c6867e84a88636c."
+  "note": "Exact mirrors verified after Scene 2 active-status correction: non-slow scenes do not show Topview generation badges."
 }
