@@ -73,8 +73,8 @@ States:
 
 
 На момент handoff:
-- 15 scenes
-- 18 prompt texts
+- 14 scenes
+- 17 prompt texts
 - W5/W7/W8
 - slow: 12,14,15,18
 
@@ -111,7 +111,7 @@ Automation: `Topview Slow Watch`.
 8. slow-lock в master не снимать автоматически.
 
 
-Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6 and 7 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow. В active scene map generation-status badge показывается только canonical slow-сценам; scene 2 после снятия с slow отображается без `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`.
+Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6, 7 and 9 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow. В active scene map generation-status badge показывается только canonical slow-сценам; scene 2 после снятия с slow отображается без `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`.
 
 
 ## 6. Control Center management
@@ -158,7 +158,7 @@ Current slow UI:
 - canonical membership берётся из `project-status.json.slow_scenes`, а Topview только дополняет строки model/status/start/elapsed/queue/ETA;
 - исходная slow-таблица master остаётся в Markdown и скрывается в presentation layer, чтобы не было двух одинаковых видимых таблиц;
 - не разделять обратно без нового запроса пользователя;
-- в Topview-таблице служебные колонки `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` используют компактную content-driven ширину и не растягиваются вместе со всей таблицей; больше пространства получают название сцены и оценка времени; значения модели (`Seedance 2.5`, `Wan 3.0`) и фраза `ждёт решения` не переносятся внутри себя;
+- в Topview-таблице служебные колонки `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` используют компактную content-driven ширину и не растягиваются вместе со всей таблицей; больше пространства получают название сцены и оценка времени; значения модели (`Seedance 2.5`, `Wan 3.0`), status `В очереди` и фраза `ждёт решения` не переносятся внутри себя;
 - если Topview `success`, но Scene ID ещё canonical slow, Status выводится в две строки: `Завершено` / `ждёт решения`.
 
 
