@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T01:50:38Z",
+  "checked_at": "2026-09-19T05:22:30Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T01:37:58.351Z",
-      "github_blob": "6b045438b2d998211663d30e0449431b0ee540ca",
+      "drive_modified_at": "2026-09-19T05:20:38.965Z",
+      "github_blob": "7994d87d788215af1a5520f95901fb724e0635cd",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -21,8 +21,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T01:38:13.379Z",
-      "github_blob": "a546575f596acc17ea8b9126369d82975208ea0c",
+      "drive_modified_at": "2026-09-19T05:20:45.831Z",
+      "github_blob": "1f99424684e3e90ca4ca24ca839cdeefaa995915",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact Drive→GitHub mirrors match. Semantic SHA rule updated: historical/checkpoint SHA values are not live invariants; current fingerprint authority is project-status.json (66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96)."
+  "note": "Exact mirrors verified after documentation update."
 }
