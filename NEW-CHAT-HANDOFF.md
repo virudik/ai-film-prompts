@@ -365,3 +365,12 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - `AI Film Recovery Sync`: canonical instruction Drive → GitHub mirror repair, exact-text verification, semantic consistency check и material handoff refresh.
 - Обе задачи остаются hourly, но больше не дублируют instruction reads/writes; это уменьшает расход connector calls и вероятность concurrent commits.
 
+
+## 20. Pending infrastructure / site ideas — 19.09.2026
+
+These are **not implemented yet** and must not be reported as completed:
+- Personal domain mirror: user wants `рудик.рф/промты` to duplicate the AI Film Control Center. Exact path hosting requires access to the current `рудик.рф` hosting/router (DNS alone cannot route a URL path). A custom subdomain such as `prompts.рудик.рф` would be easier to point directly at GitHub Pages, but user specifically asked about `/промты`; do not change DNS/domain without explicit approval.
+- YouTube-free playback for Russian visitors: do not assume a YouTube iframe will work without VPN. For videos the user owns, preferred design is an independent playable copy on storage/CDN or another video host reachable by the target audience, with YouTube kept as an optional secondary source. Do not build a brittle server-side YouTube proxy.
+- Personal-site redesign draft exists in ChatGPT Library as `index(1).html`; it is not confirmed as the deployed source of `рудик.рф` and must not overwrite the live site without hosting/source verification.
+- Possible future Control Center features: a dedicated `Сейчас` view (blockers + completed renders + W-items) is the strongest candidate; a separate decision queue is partly covered already by `Завершено · ждёт решения`; `Что изменилось с прошлого sync` is useful but lower priority; generated `workflow-status.json` could remove the browser's dependency on unauthenticated GitHub REST API, but is not necessary while current API usage is low. Avoid feature creep while film work is blocked by story/scene decisions.
+- Backup-editor architecture: Claude/Gemini/Grok/DeepSeek capability depends on the actual environment/connectors. A future local deterministic sync helper (`sync-master.ps1`/`.py`) remains a good resilience idea, but is not implemented.
