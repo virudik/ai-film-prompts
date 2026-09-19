@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-19T13:42:07Z",
+  "checked_at": "2026-09-19T14:59:51Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -20,12 +20,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:17:20Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:42:07Z",
-      "elapsed_hours_at_check": 39.41,
+      "checked_at": "2026-09-19T14:59:51Z",
+      "elapsed_hours_at_check": 40.71,
       "remaining_hours_estimate": {"p25": 0.5, "median": 17.0, "p75": 30.2, "tail_observed": 35.3},
       "mapping_confidence": "high",
-      "queue_count": 2569,
-      "topview_estimated_wait_seconds": 73203,
+      "queue_count": 2498,
+      "topview_estimated_wait_seconds": 68535,
       "topview_estimated_process_seconds": null
     },
     "14": {
@@ -38,12 +38,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:17:45Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:42:07Z",
-      "elapsed_hours_at_check": 58.41,
+      "checked_at": "2026-09-19T14:59:51Z",
+      "elapsed_hours_at_check": 59.70,
       "remaining_hours_estimate": {"p25": 0, "median": 4.8, "p75": 9.2, "tail_observed": 28.9},
       "mapping_confidence": "high",
-      "queue_count": 1649,
-      "topview_estimated_wait_seconds": 38640,
+      "queue_count": 1541,
+      "topview_estimated_wait_seconds": 33972,
       "topview_estimated_process_seconds": null
     },
     "15": {
@@ -56,12 +56,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:22:10Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:42:07Z",
-      "elapsed_hours_at_check": 58.33,
+      "checked_at": "2026-09-19T14:59:51Z",
+      "elapsed_hours_at_check": 59.63,
       "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 11.3, "tail_observed": 16.4},
       "mapping_confidence": "high",
-      "queue_count": 1998,
-      "topview_estimated_wait_seconds": 50157,
+      "queue_count": 1896,
+      "topview_estimated_wait_seconds": 45489,
       "topview_estimated_process_seconds": null
     },
     "18": {
@@ -74,12 +74,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:15:41Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:42:07Z",
-      "elapsed_hours_at_check": 39.44,
+      "checked_at": "2026-09-19T14:59:51Z",
+      "elapsed_hours_at_check": 40.74,
       "remaining_hours_estimate": {"p25": 0.5, "median": 17.0, "p75": 30.2, "tail_observed": 35.3},
       "mapping_confidence": "high",
-      "queue_count": 2302,
-      "topview_estimated_wait_seconds": 61674,
+      "queue_count": 2202,
+      "topview_estimated_wait_seconds": 57007,
       "topview_estimated_process_seconds": null
     }
   }
