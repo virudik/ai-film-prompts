@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T15:11:28Z",
+  "checked_at": "2026-09-19T17:55:25Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T15:06:45.446Z",
-      "github_blob": "389bad77a4bd7372dd12261320709e0a0d08729b",
+      "drive_modified_at": "2026-09-19T17:53:16.161Z",
+      "github_blob": "cfcdca4d72cc32e0633d52a85cbaaa8c53758507",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T15:07:05.501Z",
-      "github_blob": "1bd980ade1e3858cbc38f6dfb40784a124382d00",
+      "drive_modified_at": "2026-09-19T17:53:27.640Z",
+      "github_blob": "13568bc60e1043fd5f26442ca29f9b483ca5387a",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T15:07:16.007Z",
-      "github_blob": "f3dd8ef53e36192434d5c49bcae8b6e9b13a681d",
+      "drive_modified_at": "2026-09-19T17:53:38.670Z",
+      "github_blob": "c7294adf2d0ac6621b3f434002ca9934af6febee",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -33,10 +33,10 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-19T15:07:26.272Z",
-      "github_blob": "115676d0ef36c0f242b35800ea76cfb06957a618",
+      "drive_modified_at": "2026-09-19T17:53:49.782Z",
+      "github_blob": "55502434f7ba58a1d308378442fb7cf443ccb739",
       "match": true
     }
   },
-  "note": "Exact mirrors verified after Scene 9 removal and Topview `В очереди` nowrap rule. Current slow remains 12,14,15,18."
+  "note": "Exact mirrors verified after adding Scene 19 «Рыбалка и Маша-Лагуна» and returning Scene 2 to canonical slow. Current slow target: 2,12,14,15,18,19."
 }
