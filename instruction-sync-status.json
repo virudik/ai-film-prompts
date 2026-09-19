@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T00:03:54Z",
+  "checked_at": "2026-09-19T00:36:30Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T00:02:41.365Z",
-      "github_blob": "f0baf37defc444ee9a1a36fdc2a4d9e59105b217",
+      "drive_modified_at": "2026-09-19T00:33:38.010Z",
+      "github_blob": "139c4abec9350cab2a687daef647d3b7d6183770",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-18T23:45:15.663Z",
-      "github_blob": "53c15ce1556d5f3376746f6d97e5aa178311ef5a",
+      "drive_modified_at": "2026-09-19T00:33:42.105Z",
+      "github_blob": "8e9bde552b1c1ed7f5f33f045cb6aa7540223643",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-18T23:45:19.451Z",
-      "github_blob": "eafb42b3d8ad3ea687ec708f6c3125f5b93eb632",
+      "drive_modified_at": "2026-09-19T00:33:46.184Z",
+      "github_blob": "4d6f037f7192a942371fc142d33ade5f65a46249",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -33,25 +33,10 @@
     },
     "CLAUDE-TAKEOVER-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-18T23:45:26.650Z",
-      "github_blob": "4a6fdb2f68096c4ebd5e91de5d9af5e3da076b07",
+      "drive_modified_at": "2026-09-19T00:33:49.947Z",
+      "github_blob": "bc0adc7c4ee540315d07986fda46a44bb28fee6d",
       "match": true
     }
   },
-  "note": "Exact text comparison after verified-recovery documentation refresh. Drive remains canonical.",
-  "semantic_consistency": {
-    "health": "ok",
-    "checked_at": "2026-09-19T00:03:54Z",
-    "checks": [
-      "slow/Topview UI recorded as already merged",
-      "scene 18 target engine = Wan 3.0; historical Seedance mention only documents the corrected mismatch",
-      "Drive video-prompts.md remains sole editable prompt master",
-      "GitHub remains mirror + Pages",
-      "Topview success != user approval",
-      "slow-lock is never auto-cleared",
-      "write-race and optional BOM recovery rules are current",
-      "Topview Slow Watch owns Topview telemetry only; AI Film Recovery Sync owns instruction mirrors + handoff",
-      "documented current master SHA = 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96"
-    ]
-  }
+  "note": "Exact-text verification after final site tidy-up and backup-AI instruction rename. Drive remains canonical."
 }
