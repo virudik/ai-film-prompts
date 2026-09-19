@@ -111,7 +111,7 @@ Automation: `Topview Slow Watch`.
 8. slow-lock в master не снимать автоматически.
 
 
-Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6 and 7 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow.
+Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6 and 7 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow. В active scene map generation-status badge показывается только canonical slow-сценам; scene 2 после снятия с slow отображается без `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`.
 
 
 ## 6. Control Center management
