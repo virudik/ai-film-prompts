@@ -35,13 +35,13 @@
 
 
 На момент передачи:
-- 14 active scenes
-- 17 prompt texts
+- 15 active scenes
+- 18 prompt texts
 - W5, W7, W8
-- canonical slow list: 12, 14, 15, 18
-- Scene 2: Topview `success`, slow-lock снят по прямому решению пользователя; prompt пока остаётся active.
+- canonical slow list: 2, 12, 14, 15, 18, 19
+- Scene 2: по новому прямому решению пользователя возвращена в canonical slow-list; prompt остаётся active.
 - Scenes 6, 7 and 9: удалены из active master как больше не актуальные.
-- Scenes 12, 14, 15 and 18 remain pending in Topview.
+- Scenes 2, 12, 14, 15, 18 and 19 are the current canonical slow set; Scene 19 «Рыбалка и Маша-Лагуна» — новый активный 30s prompt для Wan 3.0.
 
 
 Topview success != user approval. Slow scene нельзя перезапускать или снимать с slow автоматически без результата/ошибки/решения пользователя.
@@ -211,7 +211,7 @@ Consensus ИИ — evidence, not authority.
 ## Control Center update — generation status / comments / no-bars rule — 19.09.2026
 
 - В таблице `🎬 Активные сцены проекта — карта и навигация` технический status из `topview-status.json` показывается только для canonical slow-сцен. Если Scene ID снят с slow-list, Topview completion badge в active map больше не показывается. Для slow: `success` → зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; `init/queued` → `⏳ В ОЧЕРЕДИ`; `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`; `fail/failed` → `✕ ОШИБКА ГЕНЕРАЦИИ`. Presentation-status не равен approval сам по себе.
-- Current state: scene 2 остаётся active, но снята с slow-list и поэтому в active map не имеет generation-status badge; scenes 6, 7 and 9 удалены из active master; scenes 12, 14, 15, 18 остаются pending slow.
+- Current state: scene 2 снова входит в canonical slow-list по новому решению пользователя; scenes 6, 7 and 9 удалены из active master; новая scene 19 «Рыбалка и Маша-Лагуна» добавлена active+slow; current slow = 2, 12, 14, 15, 18, 19.
 - Под блоком `🛠️ Сцены в работе` / `Ближайшие направления` добавлен публичный раздел `💬 Комментарии / идеи и предложения`. Хранилище обсуждения — GitHub Issue #8 `Идеи и предложения к фильму`; сайт читает его комментарии через public GitHub API. Для публикации/ответа нужен GitHub account; чтение доступно публично. Комментарии не меняют master и не запускают генерации.
-- Во все 17 актуальных fenced prompt blocks canonical `video-prompts.md` добавлено единое правило заполнения кадра: `FRAME FILL / NO BARS` — output edge-to-edge, без letterboxing, pillarboxing, black/side bars, decorative borders и пустых полей. Это глобальное prompt-ограничение для текущих активных промтов.
+- Во все 18 актуальных fenced prompt blocks canonical `video-prompts.md` добавлено единое правило заполнения кадра: `FRAME FILL / NO BARS` — output edge-to-edge, без letterboxing, pillarboxing, black/side bars, decorative borders и пустых полей. Это глобальное prompt-ограничение для текущих активных промтов.
 - Email Monitor должен считать GitHub `Run failed` текущим incident только после сравнения с более свежим live `project-status.json` / instruction status / успешным sync. Старые failure-email после более нового success не обозначать как продолжающуюся поломку.
