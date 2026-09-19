@@ -1,16 +1,16 @@
-# Claude Takeover Runbook — AI Film v3.5
+# Инструкция для резервного ИИ — AI Film v3.5
 
 
-Claude is review-only by default.
+Резервный ИИ работает review-only по умолчанию.
 
 
-Use this file only if user explicitly asks Claude to become temporary main editor.
+Использовать этот файл только если пользователь явно назначает конкретный резервный ИИ временным основным редактором. Техническое имя файла `CLAUDE-TAKEOVER-RUNBOOK.md` сохраняется для совместимости существующих ссылок.
 
 
 ## Preflight
 
 
-Before any write, Claude must prove it can:
+Перед любой записью резервный ИИ должен доказать, что его конкретное окружение умеет:
 1. read exact Drive master ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`;
 2. write back to SAME file ID;
 3. read GitHub repo `virudik/ai-film-prompts`;
@@ -90,7 +90,7 @@ Verified 19.09.2026: public `references/full/*.jpg` paths exist for all 8 confir
 ## Environment-specific warning
 
 
-A Claude web/chat session that can only read Drive and public GitHub remains review-only even if the Claude model itself is capable of coding. Takeover authority belongs to the environment, not the model name. Claude Code or another Claude environment may become a main editor only after the preflight proves same-ID Drive write plus GitHub write/verification with the actual connected credentials/tools.
+Любой web/chat-сеанс, который умеет только читать Drive и публичный GitHub, остаётся review-only независимо от названия модели. Takeover authority определяется возможностями конкретного окружения, а не брендом ИИ. Claude Code, Gemini CLI, Grok/DeepSeek в coding-agent окружении или другой резервный агент может стать main editor только после preflight, доказавшего same-ID Drive write плюс GitHub write/verification с реально подключёнными credentials/tools.
 
 ## Verified sync recovery
 
