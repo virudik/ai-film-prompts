@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T01:48:10Z",
+  "checked_at": "2026-09-19T01:50:38Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -15,8 +15,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T01:47:19.527Z",
-      "github_blob": "ec55f8e3959fa7aa864bc0a4c4217846135957dc",
+      "drive_modified_at": "2026-09-19T01:49:39.348Z",
+      "github_blob": "c6e5142eea5c18146a6519e6f6883e8a4db5ced5",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact Drive→GitHub instruction mirrors match. Semantic conflict resolved: SYNC-RUNBOOK.md recovery SHA now matches current verified project fingerprint 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96."
+  "note": "Exact Drive→GitHub mirrors match. Semantic SHA rule updated: historical/checkpoint SHA values are not live invariants; current fingerprint authority is project-status.json (66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96)."
 }
