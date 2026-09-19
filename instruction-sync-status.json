@@ -1,46 +1,18 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T20:10:42Z",
+  "checked_at": "2026-09-19T23:41:06Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T17:53:16.161Z",
-      "github_blob": "cfcdca4d72cc32e0633d52a85cbaaa8c53758507",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T17:53:27.640Z",
-      "github_blob": "13568bc60e1043fd5f26442ca29f9b483ca5387a",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T17:53:38.670Z",
-      "github_blob": "c7294adf2d0ac6621b3f434002ca9934af6febee",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-19T01:38:30.485Z",
-      "github_blob": "8b452c681e0e8db42d05fef612aa993bb7652fa8",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-19T17:53:49.782Z",
-      "github_blob": "55502434f7ba58a1d308378442fb7cf443ccb739",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-19T17:53:16.161Z","github_blob":"cfcdca4d72cc32e0633d52a85cbaaa8c53758507","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-19T17:53:27.640Z","github_blob":"13568bc60e1043fd5f26442ca29f9b483ca5387a","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-19T17:53:38.670Z","github_blob":"c7294adf2d0ac6621b3f434002ca9934af6febee","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-19T01:38:30.485Z","github_blob":"8b452c681e0e8db42d05fef612aa993bb7652fa8","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-19T17:53:49.782Z","github_blob":"55502434f7ba58a1d308378442fb7cf443ccb739","match":true}
   },
-  "semantic_check": {
-    "health": "ok",
-    "conflicts": []
-  },
-  "note": "Exact instruction mirrors match. Current handoff now records Scene 2 and Scene 19 as canonical slow; sections 26–29 are explicitly historical and not current authority."
+  "semantic_check": {"health":"ok","conflicts":[]},
+  "note": "Exact instruction mirrors match. Chronology rules applied: current authority is project-status.json plus current handoff sections; older handoff sections are historical evidence. Current canonical slow is 2,12,14,15,18,19; Scene 18 is Wan 3.0; merged slow/Topview UI remains current; Topview success is not approval; slow-lock is never removed automatically; Drive video-prompts.md is the only editable prompt master; GitHub remains mirror/Pages; race/BOM recovery rules are current; reserve-AI filename is BACKUP-AI-RUNBOOK.md."
 }
