@@ -139,7 +139,7 @@ Automation: `Topview Slow Watch`.
 - Service links → `Служебные файлы`
 - `BACKUP-AI-RUNBOOK.md` — нейтральная инструкция для любого резервного ИИ; в UI подписывается `Инструкция для резервного ИИ`
 - Technical detail → `Контрольный отпечаток`
-- current health green lightsaber: `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
+- sync lightsaber animation family is shared across green/yellow/red: moving `saberFlow` gradient + state-specific brightness/glow pulse; do not add a separate text-position animation
 - healthy stable state: green lightsaber `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
 - recovered recent workflow failure with only 1–2 consecutive successful sync-runs after it: yellow lightsaber `! БЫЛИ ОШИБКИ`
 - unresolved failure, unhealthy status/instructions, or stale heartbeat (>75 min): red lightsaber `✕ ОШИБКА СИНХРОНИЗАЦИИ` / `✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА`
@@ -158,7 +158,7 @@ Current slow UI:
 - canonical membership берётся из `project-status.json.slow_scenes`, а Topview только дополняет строки model/status/start/elapsed/queue/ETA;
 - исходная slow-таблица master остаётся в Markdown и скрывается в presentation layer, чтобы не было двух одинаковых видимых таблиц;
 - не разделять обратно без нового запроса пользователя;
-- в Topview-таблице служебные колонки `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` используют компактную content-driven ширину и не растягиваются вместе со всей таблицей; больше пространства получают название сцены и оценка времени;
+- в Topview-таблице служебные колонки `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` используют компактную content-driven ширину и не растягиваются вместе со всей таблицей; больше пространства получают название сцены и оценка времени; значения модели (`Seedance 2.5`, `Wan 3.0`) и фраза `ждёт решения` не переносятся внутри себя;
 - если Topview `success`, но Scene ID ещё canonical slow, Status выводится в две строки: `Завершено` / `ждёт решения`.
 
 
