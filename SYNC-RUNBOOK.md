@@ -236,7 +236,7 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 
 ## 12. Verified recovery checkpoint
 
-19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Контрольный статус: revision `19.09.2026`, SHA-256 `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`, Drive mirror exact match, health/instruction sync = `ok`. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
+19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Исторический recovery-checkpoint на тот момент: revision `19.09.2026`, SHA-256 `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`, Drive mirror exact match, health/instruction sync = `ok`. Этот SHA — снимок прошлого checkpoint, а не постоянный live-инвариант: после легитимной правки master текущий SHA может измениться. Актуальный fingerprint всегда брать из свежего `project-status.json`; historical/checkpoint SHA не считать semantic conflict только из-за отличия от live SHA. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
 
 
 ## 13. Hourly recovery automation
@@ -245,7 +245,7 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 1. reads fresh Drive master + five canonical Drive instruction files + handoff;
 2. repairs instruction mirrors only Drive → GitHub when exact text differs;
 3. never writes GitHub instruction text back into Drive;
-4. checks known semantic contradictions, including merged slow UI, scene 18 = Wan 3.0, Drive-only editable master, Topview success != approval, no automatic slow-lock removal, and current race/BOM recovery rules;
+4. checks known semantic contradictions, including merged slow UI, scene 18 = Wan 3.0, Drive-only editable master, Topview success != approval, no automatic slow-lock removal, and current race/BOM recovery rules; historical/checkpoint SHA values are evidence only and must not be required to equal the current live SHA;
 5. refreshes `NEW-CHAT-HANDOFF.md` only for material state changes and keeps its GitHub mirror aligned;
 6. otherwise stays silent.
 
