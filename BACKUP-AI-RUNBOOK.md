@@ -41,7 +41,7 @@ remain review-only and return exact patch instructions.
 - slow list is canonical
 - no slow rerun without result/error/user decision
 - Topview success != approval
-- Scene 6 was last observed technically complete in Topview but must not be auto-cleared from canonical slow state
+- Current canonical state must be read fresh: scene 2 was manually removed from slow after technical completion; scenes 6 and 7 were removed from active master as obsolete; do not restore them automatically
 - `project-status.json` is generated
 - canonical instruction semantics are not auto-rewritten; hourly `AI Film Recovery Sync` may repair only GitHub instruction mirrors from canonical Drive → GitHub and performs semantic-conflict detection
 
