@@ -158,6 +158,7 @@ Current slow UI:
 - canonical membership берётся из `project-status.json.slow_scenes`, а Topview только дополняет строки model/status/start/elapsed/queue/ETA;
 - исходная slow-таблица master остаётся в Markdown и скрывается в presentation layer, чтобы не было двух одинаковых видимых таблиц;
 - не разделять обратно без нового запроса пользователя;
+- в Topview-таблице служебные колонки `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` используют компактную content-driven ширину и не растягиваются вместе со всей таблицей; больше пространства получают название сцены и оценка времени;
 - если Topview `success`, но Scene ID ещё canonical slow, Status выводится в две строки: `Завершено` / `ждёт решения`.
 
 
