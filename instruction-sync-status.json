@@ -1,27 +1,42 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T01:43:37Z",
+  "checked_at": "2026-09-19T01:48:10Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
-  "health": "error",
-  "exact_text_health": "ok",
-  "semantic_health": "error",
+  "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-19T01:37:58.351Z","github_blob":"6b045438b2d998211663d30e0449431b0ee540ca","match":true},
-    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-19T01:38:05.404Z","github_blob":"9e963b85d9e1c4d0329a29f3571a94c3b0356377","match":true},
-    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-19T01:38:13.379Z","github_blob":"a546575f596acc17ea8b9126369d82975208ea0c","match":true},
-    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-19T01:38:30.485Z","github_blob":"8b452c681e0e8db42d05fef612aa993bb7652fa8","match":true},
-    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-19T01:04:56.914Z","github_blob":"7fd5fbd249a5f3389451476f9cf42d743af9254c","match":true}
-  },
-  "semantic_conflicts": [
-    {
-      "file":"SYNC-RUNBOOK.md",
-      "section":"12. Verified recovery checkpoint",
-      "statement":"SHA-256 861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6",
-      "conflicts_with":"Current project-status.json, AI-PROJECT-GUIDE.md, README-AI-SYNC.md and NEW-CHAT-HANDOFF.md use verified canonical SHA-256 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96. Canonical Drive instructions must not be silently rewritten."
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-19T01:37:58.351Z",
+      "github_blob": "6b045438b2d998211663d30e0449431b0ee540ca",
+      "match": true
+    },
+    "SYNC-RUNBOOK.md": {
+      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_modified_at": "2026-09-19T01:47:19.527Z",
+      "github_blob": "ec55f8e3959fa7aa864bc0a4c4217846135957dc",
+      "match": true
+    },
+    "USER-GUIDE.md": {
+      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_modified_at": "2026-09-19T01:38:13.379Z",
+      "github_blob": "a546575f596acc17ea8b9126369d82975208ea0c",
+      "match": true
+    },
+    "README-AI-SYNC.md": {
+      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_modified_at": "2026-09-19T01:38:30.485Z",
+      "github_blob": "8b452c681e0e8db42d05fef612aa993bb7652fa8",
+      "match": true
+    },
+    "BACKUP-AI-RUNBOOK.md": {
+      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_modified_at": "2026-09-19T01:04:56.914Z",
+      "github_blob": "7fd5fbd249a5f3389451476f9cf42d743af9254c",
+      "match": true
     }
-  ],
-  "note":"Exact Drive→GitHub instruction mirrors match. Semantic health is non-green because canonical SYNC-RUNBOOK.md contains a stale verified recovery SHA that contradicts the current verified fingerprint."
+  },
+  "note": "Exact Drive→GitHub instruction mirrors match. Semantic conflict resolved: SYNC-RUNBOOK.md recovery SHA now matches current verified project fingerprint 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96."
 }
