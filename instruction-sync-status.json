@@ -1,42 +1,17 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T05:22:30Z",
+  "checked_at": "2026-09-19T08:39:08Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T05:20:38.965Z",
-      "github_blob": "7994d87d788215af1a5520f95901fb724e0635cd",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T01:49:39.348Z",
-      "github_blob": "c6e5142eea5c18146a6519e6f6883e8a4db5ced5",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T05:20:45.831Z",
-      "github_blob": "1f99424684e3e90ca4ca24ca839cdeefaa995915",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-19T01:38:30.485Z",
-      "github_blob": "8b452c681e0e8db42d05fef612aa993bb7652fa8",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-19T01:04:56.914Z",
-      "github_blob": "7fd5fbd249a5f3389451476f9cf42d743af9254c",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-19T05:20:38.965Z","github_blob":"7994d87d788215af1a5520f95901fb724e0635cd","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-19T01:49:39.348Z","github_blob":"c6e5142eea5c18146a6519e6f6883e8a4db5ced5","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-19T05:20:45.831Z","github_blob":"1f99424684e3e90ca4ca24ca839cdeefaa995915","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-19T01:38:30.485Z","github_blob":"8b452c681e0e8db42d05fef612aa993bb7652fa8","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-19T01:04:56.914Z","github_blob":"7fd5fbd249a5f3389451476f9cf42d743af9254c","match":true}
   },
-  "note": "Exact mirrors verified after documentation update."
+  "note": "Exact mirrors verified; semantic consistency check passed."
 }
