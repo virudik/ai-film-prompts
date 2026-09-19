@@ -10,11 +10,11 @@
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
 
-**19.09.2026 · 17 сцен к генерации/доработке · 20 полных текстов промтов**
+**19.09.2026 · 15 сцен к генерации/доработке · 18 полных текстов промтов**
 
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
-- **⏳ 6** сцен сейчас в медленной генерации: **2, 6, 12, 14, 15, 18** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
+- **⏳ 4** сцены сейчас в медленной генерации: **12, 14, 15, 18** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
 - **Последние оформленные активные сцены:** 13–18.
 - **Последняя полная синхронизация:** **17.09.2026 · 20:42 (+03:00)**.
 
@@ -22,7 +22,7 @@
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
 
-**Синхронизация контекста:** **19.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 17 активных сцен и 20 полных текстов сохранены: готовность конкретных роликов и отсутствие дальнейшей потребности в генерации пока не подтверждены. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **19.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 15 активных сцен и 18 полных текстов сохранены. Сцены 6 и 7 удалены из active master по прямому решению пользователя как больше не актуальные; сцена 2 снята с slow-lock после завершения генерации, но её промт пока оставлен активным. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 
 ## ⏳ Сейчас в медленной генерации
@@ -30,8 +30,6 @@
 
 | Сцена | Статус | Действие |
 |---|---|---|
-| 2 — Джедаи на крыше: триумфальный марш без мечей | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
-| 6 — Подводный рынок: странный фрукт | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 12 — Кантина: вход двух джедаев | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 14 — Канцлер: сбор грибов в гигантском лесу | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
 | 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ | Не запускать повторно |
@@ -44,12 +42,10 @@
 | # | Сцена | Референсы | Что происходит |
 |---|-------|-----------|-----------------|
 | 1 | [Джедаи на крыше — проход с зажжёнными мечами](#scene-1) | @image1 = окружение/строй/позы с мечами; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Шесть джедаев синхронно идут на камеру по мокрой крыше Корусанта с уже зажжёнными мечами. Два актуальных варианта: кинематографичный и максимально стабильный. |
-| 2 | [Джедаи на крыше — триумфальный марш без мечей](#scene-2)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = окружение/строй; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Та же шестёрка идёт на камеру без оружия под эпическую оркестровую музыку. Два актуальных варианта: кинематографичный и максимально стабильный. |
+| 2 | [Джедаи на крыше — триумфальный марш без мечей](#scene-2)<br>**✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА** | @image1 = окружение/строй; @image2, @image3, @image5, @image6, @image4, @image7 = персонажи | Та же шестёрка идёт на камеру без оружия под эпическую оркестровую музыку. Два актуальных варианта: кинематографичный и максимально стабильный. |
 | 3 | [Космическая погоня — экстерьер](#scene-3) | @image1 = стартовый космический кадр; @image2 = дизайн корабля | Транспорт уже находится в разгаре боя, уклоняется от истребителей; камера сближается с кабиной и заканчивает сцену вспышкой у стекла. |
 | 4 | [Космическая погоня — интерьер кабины](#scene-4) | @image3 = первый кадр/экипаж; @image4 = точный последний кадр/пилот | Прямое продолжение боя внутри кабины: камера постепенно приближается к пилоту и приходит к точной композиции @image4. |
 | 5 | [Космическая погоня — единый дубль через стекло](#scene-5) | @image1 = первый кадр; @image2 = корабль; @image3 = интерьер; @image4 = последний кадр | Альтернатива сценам 3–4: внешний космический бой → непрерывный пролёт камеры через стекло → интерьер кабины → точный финальный кадр. |
-| 6 | [Подводный рынок — странный фрукт](#scene-6)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = локация/освещение; @image2 = JEDI-A; @image3 = JEDI-B | Два джедая гуляют по подводному базару, находят странный светящийся фрукт, пробуют его; финал — комедийная реакция без диалога. |
-| 7 | [Канцлер — зеркало в туалете](#scene-7) | @image1 = Канцлер; @image2 = туалет/освещение; @image3 = состаренное отражение | Канцлер моет руки, видит в зеркале состаренную версию себя, пугается; при втором взгляде отражение снова нормальное. |
 | 9 | [Пещера — бой с монстром](#scene-9) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = монстр/пещера | Трое бойцов продолжают сражение с гигантским ящером в пещере; финал — победа над существом. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
@@ -84,12 +80,12 @@
 Это рабочие направления для последующего разбора. Они не являются автоматическим разрешением менять существующие промты, снимать slow-lock или запускать новые генерации без отдельного решения пользователя.
 
 
-1. **Разобрать результаты slow-генераций.** По мере готовности сцен 2, 6, 12, 14, 15 и 18 оценивать конкретный ролик и принимать решение: принять, доработать, оставить как есть или перезапустить. Topview `success` сам по себе не означает принятие сцены.
+1. **Разобрать результаты slow-генераций.** По мере готовности сцен 12, 14, 15 и 18 оценивать конкретный ролик и принимать решение: принять, доработать, оставить как есть или перезапустить. Topview `success` сам по себе не означает принятие сцены.
 2. **Закрыть сюжетную логику карты и Warcraft.** Определить, зачем Канцлеру карта, что дают её части и как это связано с Warcraft 3 / турниром, чтобы уже существующий компьютерный финал стал понятным payoff, а не случайным эпизодом.
 3. **Закрыть последствия боя с монстром.** Для сцены 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
 4. **Разобраться с Татуином и транспортом.** Согласовать W6/W8 с уже существующей погоней: какую часть материала заменяет эпизод с гигантским червём, когда окончательно исчезает/разрушается машина и у кого остаётся фрагмент карты.
 5. **Доделать переходы W7.** Проверить Татуин → Набу, последствия монстра → лесную группу, лесной финал → компьютер и другие слабые стыки. Генерировать новый переход только там, где функцию нельзя закрыть существующим планом, звуком или короткой репликой.
-6. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: 3, 4, 6, 10, 11, 13, 17; сцена 18 — NEEDS_RERENDER. Не переписывать их массово и не считать статус разрешением на новый render.
+6. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: 3, 4, 10, 11, 13, 17; сцена 18 — NEEDS_RERENDER. Не переписывать их массово и не считать статус разрешением на новый render.
 7. **После закрытия новых сцен перейти к финальному монтажному проходу.** Выбрать сокращения повторных боёв, танцев, гиперпрыжков и лесных проходов, пересчитать хронометраж и затем вручную проверить склейки, звук, музыку, continuity и краткие артефакты.
 
 #### Сюжетные идеи-кандидаты для детального разбора
@@ -366,10 +362,10 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 <!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["ensemble","continuous_take","manual_review"],"target_engine":"Seedance 2.5"} -->
 
 
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+**✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА**
 
 
-Повторно не запускать до результата/ошибки или отдельного решения пользователя.
+Техническая генерация Topview завершена; slow-lock снят 19.09.2026 по прямому решению пользователя. Промт пока оставлен активным; повторный запуск — только по отдельному решению.
 
 
 **Контекст использования:** Сверка: варианты A/B — на выбор. Согласовать использование со сценой 1, чтобы не добавлять два одинаковых по функции марша (P2).
@@ -730,170 +726,6 @@ Style: photoreal space-opera cinematography, anamorphic flares, subtle film grai
 
 
 Negative prompt: camera cut or hard edit, glass shattering, glass vanishing instead of a see-through pass, ship geometry changing, extra or missing turrets/engines, engine glow color shifting, fighters morphing or duplicating, warping starfield, face swapping between characters, identity drift, extra crew members appearing, robe colors changing, cockpit geometry morphing, text, logos, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
----
-
-
-<a id="scene-6"></a>
-
-
-## Сцена 6 — Подводный рынок: странный фрукт
-
-
-<!-- scene-meta: {"production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy","camera_conflict","needs_fix"],"target_engine":"Seedance 2.5"} -->
-
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-
-Повторно не запускать до результата/ошибки или отдельного решения пользователя.
-
-
-**Контекст использования:** Перед запуском требуется одно постановочное уточнение: ACTION задаёт single continuous take, а CAMERA — hard cut, insert и смены планов. Выбор ещё не сделан; полный текст сохранён. Наличие рынка в фильме не подтверждает готовность именно фруктовой шутки (P6).
-
-
-**Референсы:** @image1 = подводный рынок и освещение · @image2 = JEDI-A, мужчина в тёмно-синем костюме · @image3 = JEDI-B, бородатый мужчина в очках и тёмно-бордовой робе
-
-
-**Что происходит:** Два джедая гуляют по подводному базару под стеклянным куполом. JEDI-A находит странный светящийся фрукт, пробует его первым и уговаривает JEDI-B попробовать. Финал — яркая комедийная реакция JEDI-B и смех JEDI-A. Диалога нет.
-
-
-```text
-STYLE (repeat every generation — no cross-scene memory):
-
-
-Photorealistic cinematic Star Wars production look. Teal-blue underwater ambient light bleeding through a massive glass dome, warm amber market-lantern light on the stalls, volumetric god-rays from the ocean above, shallow depth of field, 35mm anamorphic lens flare, subtle film grain, 24fps.
-
-
-REFERENCES:
-
-
-@image1 — location & lighting reference: Otoh Gunga-style underwater market street inside a glass dome, ocean and a whale-like creature visible above.
-
-
-@image2 — JEDI-A: clean-shaven man, short brown hair, fitted navy-blue Jedi tunic, brown leather belt, lightsaber hilt on hip, dark trousers, tall boots. Curious, mischievous energy.
-
-
-@image3 — JEDI-B: bearded man, round glasses, receding hairline, dark maroon Jedi robe over cream tunic, cream sash belt with pouch, brown boots. Dry, skeptical energy.
-
-
-SETTING:
-
-
-Same alien underwater bazaar as @image1 — coral-and-stone stalls, striped awnings, piles of strange bioluminescent alien produce (spiky glowing orbs, iridescent shell-fruit, tendriled pods), Gungan-like vendors in the background, deep blue ocean and drifting sea life beyond the dome glass.
-
-
-ACTION (single continuous 30s take):
-
-
-[0:00–0:05] Wide tracking shot — JEDI-A and JEDI-B stroll side by side through the crowded market, glancing curiously at unfamiliar produce.
-
-
-[0:05–0:10] They stop at a stall piled with an odd spiky, faintly glowing fruit. JEDI-A picks one up, turns it over, sniffs it with a puzzled grin.
-
-
-[0:10–0:16] Medium two-shot — JEDI-A holds the fruit right up to JEDI-B's face, gesturing enthusiastically, insisting he look/smell it. JEDI-B leans back warily, eyebrow raised over his glasses.
-
-
-[0:16–0:22] Close-up — JEDI-A breaks off a piece and eats it first; eyes widen, then a slow delighted grin. He nods eagerly, urging JEDI-B to try it.
-
-
-[0:22–0:30] JEDI-B reluctantly takes a bite — big comedic reaction, eyes water, cheeks puff, a stifled cough — while JEDI-A doubles over laughing. Vendor in the background smirks, amused.
-
-
-CAMERA: slight handheld sway on the walk-in, hard cut to a locked medium two-shot at the stall, quick insert close-up on the fruit, matched over-the-shoulder close-ups for both reaction beats, gentle push-in on JEDI-B's face for the punchline.
-
-
-AUDIO (native): market ambience, distant alien chatter, a soft crunch/squelch on the bite, comedic exhale/cough, laughter — no dialogue.
-
-
-NEGATIVE PROMPT: no on-screen text, no logos, no subtitles, no extra background Jedi, no face duplication or face-swap between JEDI-A and JEDI-B, no color bleed between navy and maroon/cream costumes, no modern clothing, no weapons drawn, no blood, no distorted hands.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
----
-
-
-<a id="scene-7"></a>
-
-
-## Сцена 7 — Канцлер: зеркало в туалете
-
-
-<!-- scene-meta: {"duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["manual_review","visual_effect"]} -->
-
-
-**Контекст использования:** Сверка: готовность именно этого ролика и его монтажное место не подтверждены. Сохранён актуальный текст; сначала определить связь сцены с основным действием (P7).
-
-
-**Референсы:** @image1 = Канцлер в обычном виде · @image2 = туалет/refresher и освещение · @image3 = состаренная версия лица только для отражения
-
-
-**Что происходит:** Канцлер моет руки в металлическом туалете на борту крупного военного корабля. Поднимает взгляд и видит в зеркале состаренную, измождённую версию себя с едва заметной задержкой движения. Пугается, смотрит снова — отражение снова нормальное.
-
-
-```text
-STYLE: Photorealistic sci-fi cinematic, Star Destroyer interior aesthetic — 
-brushed steel, cold blue-white fluorescent lighting, Imperial control panels 
-with glowing red/blue buttons, condensation on metal surfaces. No text, no 
-UI icons, no subtitles, no logos in frame. Handheld-subtle camera, shallow 
-depth of field, moody sci-fi thriller tone.
-
-
-REFERENCES:
-@image1 — character model sheet (face, build, purple velvet hooded robe, 
-black cuffs) — this is how the Chancellor looks normally throughout the 
-scene.
-@image2 — bathroom/refresher environment and lighting style to match.
-@image3 — the aged, weathered version of his face for the mirror-reflection 
-reveal (deeper lines, more sunken eyes, greyer tone) — NOT how he normally 
-looks, only the reflection.
-
-
-[0:00–0:06] Medium shot, Chancellor (@image1) leaning over a steel sink in 
-the refresher (@image2 style), washing his hands under running water, head 
-down, tired/distracted expression. Steam faintly rising from warm water.
-
-
-[0:06–0:10] He slowly lifts his head, water still dripping from his hands, 
-and looks up into the mirror in front of him. Camera slowly pushes in on 
-his face from behind, over his shoulder, mirror centered.
-
-
-[0:10–0:15] In the mirror's reflection — instead of his normal face — the 
-aged, weathered version (@image3) stares back: deeper wrinkles, sunken 
-eyes, greyer complexion, faint unsettling stillness. The reflection does 
-NOT move in perfect sync with him — a half-beat delay, unnervingly subtle.
-
-
-[0:15–0:19] Chancellor recoils, stumbling half a step back from the sink, 
-eyes wide with shock, breath visibly caught, hands still dripping water 
-onto the floor.
-
-
-[0:19–0:24] He steadies himself, gripping the edge of the sink, chest 
-rising and falling, and cautiously leans forward again to look at the 
-mirror a second time, jaw tense.
-
-
-[0:24–0:30] This time the reflection matches his normal face (@image1) — 
-pale, tired, but ordinary. He exhales shakily, stares at himself for a 
-beat, unsettled, then reaches for a towel off-frame.
-
-
-CAMERA: Start medium-close over-shoulder, push in during the reveal, quick 
-snap-back on the flinch, settle back to steady medium shot for the resolve.
-
-
-NEGATIVE PROMPT: no text, no subtitles, no watermark, no logo, no extra 
-characters, no face duplication errors, no distorted hands, no warped 
-mirror frame, no glitching background fixtures.
 
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
