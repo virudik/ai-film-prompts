@@ -392,3 +392,11 @@ These are **not implemented yet** and must not be reported as completed:
 - GitHub/Pages/Notion/Library/automation links должны использовать `BACKUP-AI-RUNBOOK.md` и human label `Инструкция для резервного ИИ`.
 - Предыдущее Claude-specific имя резервной инструкции больше не считать каноническим и не восстанавливать.
 - В Topview slow table служебные колонки Model/Status/Start/Elapsed/Queue сделаны compact-width, чтобы не растягиваться шире содержимого.
+
+
+## 23. Topview nowrap + saber animation clarification — 19.09.2026
+
+- На широком экране Topview table остаётся `width:100%`: compact-width служебные колонки занимают только необходимое, а свободное место получают прежде всего название сцены и ETA; таблица не схлопывается в узкую полосу.
+- `Seedance 2.5` / `Wan 3.0` теперь принудительно остаются в одну строку внутри Model cell.
+- `ждёт решения` остаётся отдельной строкой под `Завершено`, но сама фраза больше не разрывается на две строки.
+- Красный/жёлтый/зелёный sync lightsaber уже используют одну animation family: moving `saberFlow` gradient + state-specific glow pulse. Отдельную новую анимацию текста не добавляли; на красном существующий эффект просто заметнее из-за контраста.
