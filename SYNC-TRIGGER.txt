@@ -1,3 +1,1 @@
-AI Film sync trigger
-Reason: final project-status rebuild after current-SHA instruction verification
-Requested: 2026-09-19
+final-site-tidy-up 2026-09-19T00:36:45Z
