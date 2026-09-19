@@ -165,7 +165,7 @@ Historical W context перенесён ближе к соответствующ
 
 
 1. **Current completed-task history vs canonical active state.**
-   Scene 2 технически завершалась в Topview, но пользователь снял её с slow; поэтому в active map у Scene 2 больше нет generation-status badge. Scenes 6, 7 and 9 удалены из active master. Историческая Topview telemetry не должна возвращать эти статусы обратно.
+   Scene 2 ранее технически завершалась в Topview и была снята с slow, но позднее пользователь отдельно запустил новую генерацию и прямым решением вернул Scene 2 в canonical slow-list. Поэтому current active map снова должен показывать технический Topview-status для новой exact task Scene 2. Scenes 6, 7 and 9 удалены из active master и не должны восстанавливаться.
 
 
 2. **Не менять time estimate** без нового запроса.
@@ -298,7 +298,7 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 ## 13. Ready-to-paste command for next chat
 
 
-> Продолжаем AI Film project. Сначала открой свежий Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и exact master `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Затем прочитай live `project-status.json`, `topview-status.json`, `instruction-sync-status.json` из `virudik/ai-film-prompts` и повтори текущий audit fingerprint. Не используй старые копии как master. Не меняй Scene IDs. Не перезапускай slow scenes автоматически. Обрати особое внимание: scene 2 уже снята с slow-lock по решению пользователя; scenes 6, 7 и 9 удалены как неактуальные и не должны восстанавливаться; canonical slow сейчас 12,14,15,18. Site UI меняется в GitHub `index.html`, scene/prompt content меняется только в Drive master. Slow UI уже объединён — не возвращай устаревшее утверждение, что это только план. Full-res lightbox для 8 model sheets проверен 19.09.2026. Перед `ГОТОВО` проверь sync workflow, validation и Pages.
+> Продолжаем AI Film project. Сначала открой свежий Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и exact master `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Затем прочитай live `project-status.json`, `topview-status.json`, `instruction-sync-status.json` из `virudik/ai-film-prompts` и повтори текущий audit fingerprint. Не используй старые копии как master. Не меняй Scene IDs. Не перезапускай slow scenes автоматически. Обрати особое внимание: scene 2 по новому решению пользователя снова находится в canonical slow; scene 19 «Рыбалка и Маша-Лагуна» также active + slow; scenes 6, 7 и 9 удалены как неактуальные и не должны восстанавливаться; canonical slow сейчас 2,12,14,15,18,19. Site UI меняется в GitHub `index.html`, scene/prompt content меняется только в Drive master. Slow UI уже объединён — не возвращай устаревшее утверждение, что это только план. Full-res lightbox для 8 model sheets проверен 19.09.2026. Перед `ГОТОВО` проверь sync workflow, validation и Pages.
 
 
 ## 14. Зачем этот handoff
@@ -472,3 +472,11 @@ These are **not implemented yet** and must not be reported as completed:
 
 Среди распознанных направлений: переходы по таймкодам, возврат шутки «хлеб и молоко» к Warcraft, полёт к планете, ускорение закат/рассвет/закат, связка подводных сцен, диалог после монстра, уход Лёхи и Виталика в лес, а также отдельная логика `три карты → три артефакта древности → доступ к запретному знанию / координатам`.
 
+
+
+## 30. Scene 2 re-run + Scene 19 / Topview mapping correction — 19.09.2026
+
+- User explicitly started a NEW Scene 2 slow task after the earlier completed task; current exact Scene 2 Topview task is the new Seedance 2.5 task, not the historical success task.
+- Scene 19 «Рыбалка и Маша-Лагуна» has an exact Wan 3.0 Topview task whose prompt matches the canonical fishing / Masha-emerges / slap / Russian-dialogue scene. Treat it as a high-confidence mapping.
+- Current canonical slow remains **2,12,14,15,18,19**. Historical sections 26–29 describe prior state changes and are not current authority.
+- If a telemetry checker claims Scene 19 task content mismatches while describing Sasha/Pasha fishing, Masha emerging from water, the slap and Russian dialogue, that checker result is false-positive and must not suppress telemetry.
