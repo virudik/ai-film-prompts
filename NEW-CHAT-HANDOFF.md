@@ -409,3 +409,10 @@ These are **not implemented yet** and must not be reported as completed:
 - Первый sync после исправления успешно завершился commit `72c3e81de429fdf144e263af2e052c4e009cef7a`; свежий `project-status.json`: `health=ok`, `instruction_sync=ok`, warnings пусты.
 - По UI-правилу после первого successful run за недавним failure меч должен перейти с красного на жёлтый `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ`; зелёный возвращается после 3 последовательных successful sync-runs.
 
+## 24. Semantic SHA false-positive fix — 19.09.2026
+
+- Hourly `AI Film Recovery Sync` correctly noticed that `SYNC-RUNBOOK.md` still showed an older recovery SHA `861c19e4…` while live `project-status.json` showed `66c0f718…`; exact Drive→GitHub mirrors themselves were matching.
+- The stale runbook checkpoint was refreshed to `66c0f718…` and instruction health re-verified.
+- More importantly, recovery semantics were hardened: SHA values explicitly labelled as historical/checkpoint snapshots are not live invariants and must not trigger `instruction_sync=error` merely because a later legitimate master edit changes the current SHA.
+- CURRENT fingerprint authority is fresh `project-status.json`. Only values explicitly claiming to be current/latest/live should be compared against it as a semantic invariant.
+
