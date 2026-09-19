@@ -74,9 +74,9 @@ States:
 
 На момент handoff:
 - 14 scenes
-- 17 prompt texts
+- 18 prompt texts
 - W5/W7/W8
-- slow: 12,14,15,18
+- slow: 2,12,14,15,18,19
 
 
 Всегда fresh-check.
@@ -111,7 +111,7 @@ Automation: `Topview Slow Watch`.
 8. slow-lock в master не снимать автоматически.
 
 
-Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6, 7 and 9 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow. В active scene map generation-status badge показывается только canonical slow-сценам; scene 2 после снятия с slow отображается без `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`.
+Current decision 19.09.2026: scene 2 по новому прямому решению пользователя возвращена в canonical slow-list. Scenes 6, 7 and 9 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Добавлена новая active+slow scene 19 «Рыбалка и Маша-Лагуна» для Wan 3.0, 30s, русский диалог. Current canonical slow = 2,12,14,15,18,19. В active scene map generation-status badge показывается только canonical slow-сценам.
 
 
 ## 6. Control Center management
