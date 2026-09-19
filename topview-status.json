@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-19T19:24:04Z",
+  "checked_at": "2026-09-19T19:32:31Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -20,11 +20,11 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:29:40Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 1.91,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 2.05,
       "mapping_confidence": "high",
-      "queue_count": 2994,
-      "topview_estimated_wait_seconds": 98717,
+      "queue_count": 2986,
+      "topview_estimated_wait_seconds": 98215,
       "topview_estimated_process_seconds": null
     },
     "12": {
@@ -37,12 +37,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:17:20Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 45.11,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 45.25,
       "remaining_hours_estimate": {"p25":0,"median":15.3,"p75":28.5,"tail_observed":33.6},
       "mapping_confidence": "high",
-      "queue_count": 2063,
-      "topview_estimated_wait_seconds": 52639,
+      "queue_count": 2049,
+      "topview_estimated_wait_seconds": 52132,
       "topview_estimated_process_seconds": null
     },
     "14": {
@@ -55,12 +55,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:17:45Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 64.11,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 64.25,
       "remaining_hours_estimate": {"p25":0,"median":3.1,"p75":7.5,"tail_observed":27.2},
       "mapping_confidence": "high",
-      "queue_count": 936,
-      "topview_estimated_wait_seconds": 18075,
+      "queue_count": 919,
+      "topview_estimated_wait_seconds": 17570,
       "topview_estimated_process_seconds": null
     },
     "15": {
@@ -73,12 +73,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:22:10Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 64.03,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 64.17,
       "remaining_hours_estimate": {"p25":0,"median":0,"p75":9.6,"tail_observed":14.7},
       "mapping_confidence": "high",
-      "queue_count": 1361,
-      "topview_estimated_wait_seconds": 29593,
+      "queue_count": 1347,
+      "topview_estimated_wait_seconds": 29082,
       "topview_estimated_process_seconds": null
     },
     "18": {
@@ -91,12 +91,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:15:41Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 45.14,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 45.28,
       "remaining_hours_estimate": {"p25":0,"median":15.3,"p75":28.5,"tail_observed":33.6},
       "mapping_confidence": "high",
-      "queue_count": 1723,
-      "topview_estimated_wait_seconds": 41111,
+      "queue_count": 1708,
+      "topview_estimated_wait_seconds": 40599,
       "topview_estimated_process_seconds": null
     },
     "19": {
@@ -109,11 +109,13 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:10:24Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T19:24:04Z",
-      "elapsed_hours_at_check": 2.23,
-      "mapping_confidence": "high",
-      "queue_count": 2364,
-      "topview_estimated_wait_seconds": 64149,
+      "checked_at": "2026-09-19T19:32:31Z",
+      "elapsed_hours_at_check": 2.37,
+      "mapping_confidence": "invalid_task_content_mismatch",
+      "verified": false,
+      "mapping_issue": "Mapped task content is not canonical scene 19: task prompt is Sasha and Pasha fishing, Masha emerging from the lake and a Russian dialogue/slap sequence. Do not treat this task as scene 19 telemetry until an unambiguous Topview task mapping is established.",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
       "topview_estimated_process_seconds": null
     }
   }
