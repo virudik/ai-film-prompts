@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T00:36:30Z",
+  "checked_at": "2026-09-19T00:41:12Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
-  "health": "ok",
+  "health": "error",
   "all_match": true,
+  "exact_text_health": "ok",
+  "semantic_health": "error",
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -38,5 +40,14 @@
       "match": true
     }
   },
-  "note": "Exact-text verification after final site tidy-up and backup-AI instruction rename. Drive remains canonical."
+  "semantic_conflicts": [
+    {
+      "file": "SYNC-RUNBOOK.md",
+      "topic": "verified recovery canonical SHA-256",
+      "statement": "Section 12 says the verified recovery checkpoint SHA-256 is 861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6.",
+      "conflicts_with": "Fresh canonical project-status.json, AI-PROJECT-GUIDE.md, README-AI-SYNC.md, and NEW-CHAT-HANDOFF.md identify the current verified canonical SHA-256 as 66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96.",
+      "action": "Do not auto-edit canonical Drive instruction. User/main editor must reconcile the stale checkpoint wording in Drive SYNC-RUNBOOK.md, then mirror Drive -> GitHub and reverify."
+    }
+  ],
+  "note": "All five Drive/GitHub instruction mirrors are exact-text matches. Health is non-green because a semantic contradiction exists inside canonical Drive instructions; canonical Drive was not silently rewritten."
 }
