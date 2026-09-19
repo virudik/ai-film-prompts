@@ -416,3 +416,12 @@ These are **not implemented yet** and must not be reported as completed:
 - More importantly, recovery semantics were hardened: SHA values explicitly labelled as historical/checkpoint snapshots are not live invariants and must not trigger `instruction_sync=error` merely because a later legitimate master edit changes the current SHA.
 - CURRENT fingerprint authority is fresh `project-status.json`. Only values explicitly claiming to be current/latest/live should be compared against it as a semantic invariant.
 
+## 25. Future UI idea — режим `Сейчас`
+
+- Статус: **не реализовано; сохранить как будущую идею**. Не внедрять без нового явного запроса пользователя.
+- Это дополнительная вкладка/view поверх текущего Control Center, а не замена полного режима. Полный список сцен/промтов/slow/W-items/references остаётся доступным и не урезается.
+- Цель: коротко показывать, что требует внимания сейчас. Предлагаемый порядок: (1) пользовательское решение; (2) реальные проблемы/блокеры; (3) уже запущенные slow/Topview задачи; (4) следующее логическое действие из canonical W-items/backlog или явно подтверждённого пользователем приоритета.
+- `Сейчас` не имеет права автоматически менять master, Scene IDs, production_state, slow-lock, approval или запускать генерации.
+- Технический приоритет должен быть детерминированным по статусам. Творческий/сюжетный приоритет нельзя придумывать самостоятельно: только из канонических W-items/backlog или после явного решения пользователя.
+- Реализация в будущем должна по возможности агрегировать уже существующие `project-status.json`, `topview-status.json`, W-items и production state без создания параллельного источника истины.
+
