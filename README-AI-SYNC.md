@@ -69,7 +69,7 @@ mapped task per slow Scene ID
 - Topview status localized
 - queue label = `Очередь`
 - time estimate remains current one-line combined form
-- sync health uses three-state lightsaber: green `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`, yellow `! БЫЛИ ОШИБКИ` during recovery observation, red for unresolved/stale error
+- sync health uses three-state lightsaber: green `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`, yellow `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ` during recovery observation, red for unresolved/stale error
 - slow UI объединён: одна видимая canonical+Topview таблица; raw master slow-table скрыта только в presentation layer
 
 
