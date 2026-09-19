@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-19T18:16:55Z",
+  "checked_at": "2026-09-19T18:18:22Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -20,11 +20,11 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:29:40Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 0.79,
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 0.81,
       "mapping_confidence": "high",
-      "queue_count": 3074,
-      "topview_estimated_wait_seconds": 102837,
+      "queue_count": 3079,
+      "topview_estimated_wait_seconds": 102713,
       "topview_estimated_process_seconds": null
     },
     "12": {
@@ -37,17 +37,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:17:20Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 43.99,
-      "remaining_hours_estimate": {
-        "p25": 0,
-        "median": 16.4,
-        "p75": 29.6,
-        "tail_observed": 34.7
-      },
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 44.02,
+      "remaining_hours_estimate": {"p25":0,"median":16.4,"p75":29.6,"tail_observed":34.7},
       "mapping_confidence": "high",
-      "queue_count": 2184,
-      "topview_estimated_wait_seconds": 56756,
+      "queue_count": 2187,
+      "topview_estimated_wait_seconds": 56631,
       "topview_estimated_process_seconds": null
     },
     "14": {
@@ -60,17 +55,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:17:45Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 62.99,
-      "remaining_hours_estimate": {
-        "p25": 0,
-        "median": 4.2,
-        "p75": 8.6,
-        "tail_observed": 28.3
-      },
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 63.01,
+      "remaining_hours_estimate": {"p25":0,"median":4.2,"p75":8.6,"tail_observed":28.3},
       "mapping_confidence": "high",
       "queue_count": 1122,
-      "topview_estimated_wait_seconds": 22194,
+      "topview_estimated_wait_seconds": 22068,
       "topview_estimated_process_seconds": null
     },
     "15": {
@@ -83,17 +73,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:22:10Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 62.91,
-      "remaining_hours_estimate": {
-        "p25": 0,
-        "median": 0,
-        "p75": 10.7,
-        "tail_observed": 15.8
-      },
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 62.94,
+      "remaining_hours_estimate": {"p25":0,"median":0,"p75":10.7,"tail_observed":15.8},
       "mapping_confidence": "high",
       "queue_count": 1516,
-      "topview_estimated_wait_seconds": 33713,
+      "topview_estimated_wait_seconds": 33587,
       "topview_estimated_process_seconds": null
     },
     "18": {
@@ -106,17 +91,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:15:41Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 44.02,
-      "remaining_hours_estimate": {
-        "p25": 0,
-        "median": 16.4,
-        "p75": 29.6,
-        "tail_observed": 34.7
-      },
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 44.05,
+      "remaining_hours_estimate": {"p25":0,"median":16.4,"p75":29.6,"tail_observed":34.7},
       "mapping_confidence": "high",
-      "queue_count": 1860,
-      "topview_estimated_wait_seconds": 45231,
+      "queue_count": 1862,
+      "topview_estimated_wait_seconds": 45105,
       "topview_estimated_process_seconds": null
     },
     "19": {
@@ -129,11 +109,11 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:10:24Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T18:16:55Z",
-      "elapsed_hours_at_check": 1.11,
+      "checked_at": "2026-09-19T18:18:22Z",
+      "elapsed_hours_at_check": 1.13,
       "mapping_confidence": "high",
-      "queue_count": 2474,
-      "topview_estimated_wait_seconds": 68270,
+      "queue_count": 2477,
+      "topview_estimated_wait_seconds": 68143,
       "topview_estimated_process_seconds": null
     }
   }
