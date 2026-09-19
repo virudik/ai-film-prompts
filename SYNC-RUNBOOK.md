@@ -73,10 +73,10 @@ States:
 
 
 На момент handoff:
-- 17 scenes
-- 20 prompt texts
+- 15 scenes
+- 18 prompt texts
 - W5/W7/W8
-- slow: 2,6,12,14,15,18
+- slow: 12,14,15,18
 
 
 Всегда fresh-check.
@@ -111,7 +111,7 @@ Automation: `Topview Slow Watch`.
 8. slow-lock в master не снимать автоматически.
 
 
-На момент handoff scene 6 наблюдалась как `success`, но master всё ещё содержит её в slow list. Это intentional safety state до пользовательского решения.
+Current decision 19.09.2026: scene 2 технически завершена и снята с slow-lock по прямому решению пользователя, но prompt пока остаётся active. Scenes 6 and 7 удалены из active master как больше не актуальные. Не восстанавливать их автоматически. Scenes 12,14,15,18 остаются canonical slow.
 
 
 ## 6. Control Center management
