@@ -203,14 +203,14 @@ Preview 960px — для скорости.
 
 ## Статусы в таблице активных сцен
 
-Для canonical slow-сцен таблица `🎬 Активные сцены проекта — карта и навигация` берёт технический статус из `topview-status.json`. Если active-сцена уже завершена и slow-lock снят вручную, её зелёный completion-status может оставаться видимым.
+Для canonical slow-сцен таблица `🎬 Активные сцены проекта — карта и навигация` берёт технический статус из `topview-status.json`. Если Scene ID снят с canonical slow-list, технический Topview-status в active map больше не показывается, даже если историческая task завершилась `success`.
 
 - `success` → зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`;
 - `init/queued` → `⏳ В ОЧЕРЕДИ`;
 - `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`;
 - `fail/failed` → `✕ ОШИБКА ГЕНЕРАЦИИ`.
 
-Это отображение технической генерации. Зелёный status сам по себе не означает approval. Current state: scene 2 завершена и slow-lock снят пользователем; scenes 6 и 7 удалены из active master; 12, 14, 15, 18 ещё ожидаются.
+Это отображение технической генерации только для canonical slow-сцен. Зелёный status сам по себе не означает approval. Current state: scene 2 снята с slow и в active map показывается без generation-status badge; scenes 6 и 7 удалены из active master; 12, 14, 15, 18 ещё ожидаются.
 
 ## Комментарии / идеи и предложения
 
