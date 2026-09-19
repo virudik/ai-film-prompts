@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-19T13:26:37Z",
+  "checked_at": "2026-09-19T13:42:07Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -10,42 +10,6 @@
     "provider": "Per-task Topview board task estimateInfo (queueCount / estimatedWaitSeconds / estimatedProcessSeconds) for each mapped task; queueCount is provider telemetry, not a guaranteed exact ordinal position in the queue."
   },
   "scenes": {
-    "2": {
-      "board": "My First Board",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "task_id": "d998b5f025c9434388d33906329b8d43",
-      "board_task_id": "d998b5f025c9434388d33906329b8d43",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "success",
-      "started_at": "2026-09-16T01:11:53Z",
-      "completed_at": "2026-09-19T05:14:26Z",
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 76.04,
-      "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 0, "tail_observed": 0},
-      "mapping_confidence": "high",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "topview_estimated_process_seconds": null
-    },
-    "6": {
-      "board": "My First Board",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "task_id": "12742558fff3490da543bb6e4ee6f098",
-      "board_task_id": "12742558fff3490da543bb6e4ee6f098",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "success",
-      "started_at": "2026-09-16T00:54:47Z",
-      "completed_at": "2026-09-18T09:54:38Z",
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 57.0,
-      "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 0, "tail_observed": 0},
-      "mapping_confidence": "high",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "topview_estimated_process_seconds": null
-    },
     "12": {
       "board": "My First Board",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -56,12 +20,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:17:20Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 39.15,
-      "remaining_hours_estimate": {"p25": 0.8, "median": 17.3, "p75": 30.5, "tail_observed": 35.6},
+      "checked_at": "2026-09-19T13:42:07Z",
+      "elapsed_hours_at_check": 39.41,
+      "remaining_hours_estimate": {"p25": 0.5, "median": 17.0, "p75": 30.2, "tail_observed": 35.3},
       "mapping_confidence": "high",
-      "queue_count": 2583,
-      "topview_estimated_wait_seconds": 74123,
+      "queue_count": 2569,
+      "topview_estimated_wait_seconds": 73203,
       "topview_estimated_process_seconds": null
     },
     "14": {
@@ -74,12 +38,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:17:45Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 58.15,
-      "remaining_hours_estimate": {"p25": 0, "median": 5.1, "p75": 9.5, "tail_observed": 29.2},
+      "checked_at": "2026-09-19T13:42:07Z",
+      "elapsed_hours_at_check": 58.41,
+      "remaining_hours_estimate": {"p25": 0, "median": 4.8, "p75": 9.2, "tail_observed": 28.9},
       "mapping_confidence": "high",
-      "queue_count": 1672,
-      "topview_estimated_wait_seconds": 39560,
+      "queue_count": 1649,
+      "topview_estimated_wait_seconds": 38640,
       "topview_estimated_process_seconds": null
     },
     "15": {
@@ -92,12 +56,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T03:22:10Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 58.07,
-      "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 11.6, "tail_observed": 16.7},
+      "checked_at": "2026-09-19T13:42:07Z",
+      "elapsed_hours_at_check": 58.33,
+      "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 11.3, "tail_observed": 16.4},
       "mapping_confidence": "high",
-      "queue_count": 2020,
-      "topview_estimated_wait_seconds": 51078,
+      "queue_count": 1998,
+      "topview_estimated_wait_seconds": 50157,
       "topview_estimated_process_seconds": null
     },
     "18": {
@@ -110,12 +74,12 @@
       "topview_status": "init",
       "started_at": "2026-09-17T22:15:41Z",
       "completed_at": null,
-      "checked_at": "2026-09-19T13:26:37Z",
-      "elapsed_hours_at_check": 39.18,
-      "remaining_hours_estimate": {"p25": 0.8, "median": 17.3, "p75": 30.5, "tail_observed": 35.6},
+      "checked_at": "2026-09-19T13:42:07Z",
+      "elapsed_hours_at_check": 39.44,
+      "remaining_hours_estimate": {"p25": 0.5, "median": 17.0, "p75": 30.2, "tail_observed": 35.3},
       "mapping_confidence": "high",
-      "queue_count": 2323,
-      "topview_estimated_wait_seconds": 62595,
+      "queue_count": 2302,
+      "topview_estimated_wait_seconds": 61674,
       "topview_estimated_process_seconds": null
     }
   }
