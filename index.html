@@ -259,7 +259,7 @@ function renderStatus(s,wfRuns=[]){
  let healthText='✕ ОШИБКА СИНХРОНИЗАЦИИ';
  let healthClass='bad';
  if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'}
- else if(recoveredWarning){healthText='! БЫЛИ ОШИБКИ';healthClass='warn'}
+ else if(recoveredWarning){healthText='! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ';healthClass='warn'}
  else if(!unresolvedWorkflowFailure&&s.health==='ok'&&instruction==='ok'&&!heartbeatFresh)healthText='✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА';
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
