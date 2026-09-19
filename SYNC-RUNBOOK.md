@@ -248,3 +248,8 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 4. checks known semantic contradictions, including merged slow UI, scene 18 = Wan 3.0, Drive-only editable master, Topview success != approval, no automatic slow-lock removal, and current race/BOM recovery rules;
 5. refreshes `NEW-CHAT-HANDOFF.md` only for material state changes and keeps its GitHub mirror aligned;
 6. otherwise stays silent.
+
+## 14. Backup-AI filename migration validator fix — 19.09.2026
+
+После переименования пятого canonical instruction file с `CLAUDE-TAKEOVER-RUNBOOK.md` на `BACKUP-AI-RUNBOOK.md` validator `scripts/build_project_status.py` тоже обязан использовать новое имя в `INSTRUCTION_FILES`. Если exact-text snapshot показывает все пять файлов `match=true`, но workflow падает с `instruction_sync_error`, первым делом проверить, что validator не ожидает старое filename. 19.09.2026 этот хвост миграции был найден и исправлен; следующий sync успешно пересобрал `project-status.json` с `health=ok` и `instruction_sync=ok`.
+
