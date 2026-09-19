@@ -154,8 +154,8 @@ Historical W context перенесён ближе к соответствующ
 ## 6. Что НЕ закончено / нельзя считать законченным
 
 
-1. **Scenes 2 and 6 Topview success vs canonical slow.**
-   Обе технически завершены, но остаются slow до пользовательского решения по каждому ролику.
+1. **Current completed-task history vs canonical active state.**
+   Scene 2 технически завершалась в Topview, но пользователь снял её с slow; поэтому в active map у Scene 2 больше нет generation-status badge. Scene 6 удалена из active master вместе со scene 7. Историческая Topview telemetry не должна возвращать эти статусы обратно.
 
 
 2. **Не менять time estimate** без нового запроса.
@@ -420,7 +420,7 @@ These are **not implemented yet** and must not be reported as completed:
 ## 26. Active-status / comments / no-bars update — 19.09.2026
 
 - User decision supersedes предыдущий telemetry-only state: scene 2 технически `success` и снята с slow-lock; scenes 6 и 7 удалены из active master как неактуальные; canonical slow теперь `12,14,15,18`.
-- Active scene map синхронизирует presentation-status canonical slow-сцен из `topview-status.json`; завершённая active scene с вручную снятым slow-lock (scene 2) сохраняет зелёный completion-status: success = зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; init/queued = `⏳ В ОЧЕРЕДИ`; running/processing = `▶ ВЫПОЛНЯЕТСЯ`; fail = `✕ ОШИБКА ГЕНЕРАЦИИ`. Это display-only и не меняет slow-lock/approval.
+- Active scene map синхронизирует presentation-status только canonical slow-сцен из `topview-status.json`: success = зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; init/queued = `⏳ В ОЧЕРЕДИ`; running/processing = `▶ ВЫПОЛНЯЕТСЯ`; fail = `✕ ОШИБКА ГЕНЕРАЦИИ`. Если Scene ID снят с slow, старый Topview success больше не показывается как badge в active map.
 - Под `🛠️ Сцены в работе` и блоком `Ближайшие направления` добавлен раздел `💬 Комментарии / идеи и предложения`. Backend без отдельного сервера: public GitHub Issue #8. Сайт читает comments через GitHub API; публикация/ответ выполняются в GitHub и требуют GitHub login. Комментарии не являются canonical commands.
 - Во все 18 текущих prompt blocks master добавлено одно и то же правило `FRAME FILL / NO BARS`: full-frame edge-to-edge, no letterboxing/pillarboxing/black bars/side bars/decorative borders/empty margins.
 - Уведомление Email Monitor о серии старых `Run failed` было ложным как утверждение о текущем состоянии: live `project-status.json` уже был `health=ok` и имел более свежие successful sync. Email Monitor обновлён: для `ai-film-prompts` он обязан сравнивать timestamps и live status перед заявлением, что failure продолжается.
@@ -429,7 +429,15 @@ These are **not implemented yet** and must not be reported as completed:
 ## 27. User cleanup decision — 19.09.2026
 
 - По прямому решению пользователя scenes 6 (`Подводный рынок: странный фрукт`) и 7 (`Канцлер: зеркало в туалете`) больше не актуальны и удалены из active canonical master целиком: scene map rows + full prompt sections. Scene IDs не перенумеровывать и удалённые IDs 6/7 не переиспользовать.
-- Scene 2 остаётся active, но снята с canonical slow-list. Её Topview generation уже `success`; на active scene map сохраняется зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`. Prompt scene 2 пока не удалять без отдельного решения пользователя.
+- Scene 2 остаётся active, но снята с canonical slow-list. Её историческая Topview task = `success`, однако в active scene map generation-status больше не показывается. Prompt scene 2 пока не удалять без отдельного решения пользователя.
 - Current fingerprint target after rebuild: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `12,14,15,18`, active IDs `1,2,3,4,5,9,10,11,12,13,14,15,16,17,18`.
 - Global `FRAME FILL / NO BARS` остаётся во всех 18 актуальных prompt blocks.
 - Topview Slow Watch на следующих runs должен следовать fresh canonical slow-list; stale telemetry для removed/unlocked scene не является основанием вернуть Scene ID в slow/master.
+
+
+## 28. Scene 2 active-status correction — 19.09.2026
+
+- Пользователь уточнил: снятие Scene 2 с canonical slow означает отсутствие generation-status и в таблице активных сцен.
+- Из canonical master удалены `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА` и служебная completion-строка у Scene 2; сама Scene 2 остаётся active.
+- Presentation rule: active-map Topview badges существуют только для Scene IDs, которые сейчас входят в canonical `slow_scenes`. Исторический `success` для уже снятой с slow сцены не отображается.
+- Current canonical slow остаётся `12,14,15,18`; scenes 6/7 остаются удалёнными.
