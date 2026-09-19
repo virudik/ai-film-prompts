@@ -39,7 +39,7 @@
 - 20 prompt texts
 - W5, W7, W8
 - canonical slow list: 2, 6, 12, 14, 15, 18
-- Topview last observed: scene 6 технически завершилась (`success`), но canonical slow-lock ещё не снят.
+- Topview current technical completion: scenes 2 and 6 are `success`; both remain in the canonical slow list until the user reviews/decides. Scenes 12, 14, 15 and 18 remain pending in Topview.
 
 
 Topview success != user approval. Slow scene нельзя перезапускать или снимать с slow автоматически без результата/ошибки/решения пользователя.
@@ -204,3 +204,12 @@ Consensus ИИ — evidence, not authority.
 
 Реализация в будущем: добавить кнопку/вкладку `Сейчас`, которая агрегирует существующие `project-status.json`, `topview-status.json`, W-items и production state. Не создавать отдельную параллельную базу данных, если в этом нет необходимости.
 
+
+
+## Control Center update — generation status / comments / no-bars rule — 19.09.2026
+
+- В таблице `🎬 Активные сцены проекта — карта и навигация` статус canonical slow-сцен синхронизируется из `topview-status.json` только в presentation layer. `success` показывается зелёным `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; `init/queued` → `⏳ В ОЧЕРЕДИ`; `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`; `fail/failed` → `✕ ОШИБКА ГЕНЕРАЦИИ`. Это не снимает canonical slow-lock и не означает approval.
+- На момент этой записи scenes 2 и 6 технически завершены в Topview и должны отображаться зелёным как `ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; scenes 12, 14, 15, 18 остаются pending.
+- Под блоком `🛠️ Сцены в работе` / `Ближайшие направления` добавлен публичный раздел `💬 Комментарии / идеи и предложения`. Хранилище обсуждения — GitHub Issue #8 `Идеи и предложения к фильму`; сайт читает его комментарии через public GitHub API. Для публикации/ответа нужен GitHub account; чтение доступно публично. Комментарии не меняют master и не запускают генерации.
+- Во все 20 актуальных fenced prompt blocks canonical `video-prompts.md` добавлено единое правило заполнения кадра: `FRAME FILL / NO BARS` — output edge-to-edge, без letterboxing, pillarboxing, black/side bars, decorative borders и пустых полей. Это глобальное prompt-ограничение для текущих активных промтов.
+- Email Monitor должен считать GitHub `Run failed` текущим incident только после сравнения с более свежим live `project-status.json` / instruction status / успешным sync. Старые failure-email после более нового success не обозначать как продолжающуюся поломку.
