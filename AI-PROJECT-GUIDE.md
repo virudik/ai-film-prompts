@@ -115,6 +115,7 @@ Viewer: `https://virudik.github.io/ai-film-prompts/`
 - scene/prompt data не hard-code в HTML;
 - technical detail → `Контрольный отпечаток`;
 - service links → `Служебные файлы`;
+- human label для `CLAUDE-TAKEOVER-RUNBOOK.md` → `Инструкция для резервного ИИ` (имя файла сохраняется для совместимости);
 - counters Сцен/Промтов/slow/work кликабельны;
 - `Сцены в работе` остаются обычной таблицей;
 - Topview показывает model/status/start/elapsed/queue/time estimate;
@@ -126,7 +127,7 @@ Viewer: `https://virudik.github.io/ai-film-prompts/`
 - анимация меча умеренная, не быстрая.
 
 
-Slow/Topview UI уже объединён и проверен: на сайте видна одна таблица `⏳ Сейчас в медленной генерации — Topview`; canonical membership берётся из master/status, Topview только добавляет telemetry. Не разделять обратно без нового запроса пользователя. Завершённая Topview task, пока Scene ID остаётся в canonical slow list, должна показываться как `Завершено · ждёт решения`.
+Slow/Topview UI уже объединён и проверен: на сайте видна одна таблица `⏳ Сейчас в медленной генерации — Topview`; canonical membership берётся из master/status, Topview только добавляет telemetry. Не разделять обратно без нового запроса пользователя. Завершённая Topview task, пока Scene ID остаётся в canonical slow list, должна показываться в две строки: `Завершено` и ниже `ждёт решения`.
 
 
 ## References
@@ -136,7 +137,7 @@ Registry: `character-references.json`.
 
 
 8 подтверждённых:
-Серёга, Паша, Артём, Илюша, Саша, Лёша, Виталик, Юля.
+Серёга, Юля, Паша, Артём, Илюша, Саша, Лёша, Виталик.
 
 
 Правила:
