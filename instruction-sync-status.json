@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T14:59:36Z",
+  "checked_at": "2026-09-19T15:11:28Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T14:55:31.735Z",
-      "github_blob": "24f104d742807cebd6284ffc7527a149ea321338",
+      "drive_modified_at": "2026-09-19T15:06:45.446Z",
+      "github_blob": "389bad77a4bd7372dd12261320709e0a0d08729b",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T14:55:42.922Z",
-      "github_blob": "1c4e45772853cbec3809e0ed1711130061256f56",
+      "drive_modified_at": "2026-09-19T15:07:05.501Z",
+      "github_blob": "1bd980ade1e3858cbc38f6dfb40784a124382d00",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T14:55:54.552Z",
-      "github_blob": "d09f0d87be09477d857771582decd1e4f559d133",
+      "drive_modified_at": "2026-09-19T15:07:16.007Z",
+      "github_blob": "f3dd8ef53e36192434d5c49bcae8b6e9b13a681d",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -33,10 +33,10 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-19T14:56:03.953Z",
-      "github_blob": "df05ad30e68ae58bb232f08d64b7494aef5b79f4",
+      "drive_modified_at": "2026-09-19T15:07:26.272Z",
+      "github_blob": "115676d0ef36c0f242b35800ea76cfb06957a618",
       "match": true
     }
   },
-  "note": "Exact mirrors verified after Scene 2 active-status correction: non-slow scenes do not show Topview generation badges."
+  "note": "Exact mirrors verified after Scene 9 removal and Topview `В очереди` nowrap rule. Current slow remains 12,14,15,18."
 }
