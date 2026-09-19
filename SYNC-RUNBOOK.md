@@ -44,7 +44,7 @@
 - `SYNC-RUNBOOK.md` — `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
 - `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
 - `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
-- `CLAUDE-TAKEOVER-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
+- `BACKUP-AI-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
 
 
 После изменения инструкций:
@@ -137,7 +137,7 @@ Automation: `Topview Slow Watch`.
 
 Текущие UI conventions:
 - Service links → `Служебные файлы`
-- `CLAUDE-TAKEOVER-RUNBOOK.md` в UI подписывается `Инструкция для резервного ИИ`; filename не переименовывать без отдельной миграции ссылок
+- `BACKUP-AI-RUNBOOK.md` — нейтральная инструкция для любого резервного ИИ; в UI подписывается `Инструкция для резервного ИИ`
 - Technical detail → `Контрольный отпечаток`
 - current health green lightsaber: `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
 - healthy stable state: green lightsaber `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`
