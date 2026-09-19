@@ -3,13 +3,13 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-19T17:39:54Z",
+  "synced_at": "2026-09-19T17:55:48Z",
   "revision_date": "19.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
-  "canonical_master_sha256": "e5971b2cd108de383d0e245923a3faeb2b053f4c9f1ba1959ef793233c68e684",
-  "canonical_master_bytes": 129777,
-  "scenes": 14,
-  "prompt_texts": 17,
+  "canonical_master_sha256": "3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf",
+  "canonical_master_bytes": 139774,
+  "scenes": 15,
+  "prompt_texts": 18,
   "work_items": [
     "W5",
     "W7",
@@ -17,12 +17,14 @@
   ],
   "work_items_count": 3,
   "slow_scenes": [
+    2,
     12,
     14,
     15,
-    18
+    18,
+    19
   ],
-  "slow_scenes_count": 4,
+  "slow_scenes_count": 6,
   "scene_ids": [
     1,
     2,
@@ -37,33 +39,34 @@
     15,
     16,
     17,
-    18
+    18,
+    19
   ],
-  "latest_scene": 18,
+  "latest_scene": 19,
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-19T15:11:28Z",
+    "snapshot_at": "2026-09-19T17:55:25Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 2.474,
+    "age_hours_at_status_build": 0.006,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-19T15:06:45.446Z",
-        "github_blob": "389bad77a4bd7372dd12261320709e0a0d08729b",
+        "drive_modified_at": "2026-09-19T17:53:16.161Z",
+        "github_blob": "cfcdca4d72cc32e0633d52a85cbaaa8c53758507",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-19T15:07:05.501Z",
-        "github_blob": "1bd980ade1e3858cbc38f6dfb40784a124382d00",
+        "drive_modified_at": "2026-09-19T17:53:27.640Z",
+        "github_blob": "13568bc60e1043fd5f26442ca29f9b483ca5387a",
         "match": true
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-19T15:07:16.007Z",
-        "github_blob": "f3dd8ef53e36192434d5c49bcae8b6e9b13a681d",
+        "drive_modified_at": "2026-09-19T17:53:38.670Z",
+        "github_blob": "c7294adf2d0ac6621b3f434002ca9934af6febee",
         "match": true
       },
       "README-AI-SYNC.md": {
@@ -74,8 +77,8 @@
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-09-19T15:07:26.272Z",
-        "github_blob": "115676d0ef36c0f242b35800ea76cfb06957a618",
+        "drive_modified_at": "2026-09-19T17:53:49.782Z",
+        "github_blob": "55502434f7ba58a1d308378442fb7cf443ccb739",
         "match": true
       }
     }
@@ -112,7 +115,7 @@
         "continuous_take",
         "manual_review"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "3": {
       "target_engine": null,
@@ -320,14 +323,31 @@
         "needs_rerender"
       ],
       "render_state": "SLOW_PENDING"
+    },
+    "19": {
+      "target_engine": "Wan 3.0",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "dialogue",
+        "fantasy_comedy",
+        "mission_return",
+        "continuous_take"
+      ],
+      "render_state": "SLOW_PENDING"
     }
   },
   "audit_fingerprint": {
     "revision_date": "19.09.2026",
-    "synced_at": "2026-09-19T17:39:54Z",
-    "canonical_master_sha256": "e5971b2cd108de383d0e245923a3faeb2b053f4c9f1ba1959ef793233c68e684",
-    "scene_count": 14,
-    "prompt_count": 17,
+    "synced_at": "2026-09-19T17:55:48Z",
+    "canonical_master_sha256": "3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf",
+    "scene_count": 15,
+    "prompt_count": 18,
     "scene_ids": [
       1,
       2,
@@ -342,7 +362,8 @@
       15,
       16,
       17,
-      18
+      18,
+      19
     ],
     "work_items": [
       "W5",
@@ -350,10 +371,12 @@
       "W8"
     ],
     "slow_scenes": [
+      2,
       12,
       14,
       15,
-      18
+      18,
+      19
     ],
     "health": "ok",
     "instruction_sync_health": "ok"
