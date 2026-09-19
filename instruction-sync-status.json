@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T01:13:30Z",
+  "checked_at": "2026-09-19T01:26:13Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-19T01:10:33.598Z",
-      "github_blob": "e4e34e9888802447e552cfb078cb7c846a6f61f4",
+      "drive_modified_at": "2026-09-19T01:24:25.348Z",
+      "github_blob": "ede3c9e69310445e0c225b606d9e05e439f50b1a",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-19T01:10:36.808Z",
-      "github_blob": "5010312c76cacc83c2bc988e554416d4bde403fc",
+      "drive_modified_at": "2026-09-19T01:24:29.752Z",
+      "github_blob": "b7ca5f044a312375a7cb793b75f0c94987f4c105",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-19T01:10:41.148Z",
-      "github_blob": "8a0f4de0d0587f6b4926e9c023db2de2b3696512",
+      "drive_modified_at": "2026-09-19T01:24:35.126Z",
+      "github_blob": "0e872c22b392761cdaf3775c1a2e0a56c8f1aa6f",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -38,5 +38,5 @@
       "match": true
     }
   },
-  "note": "Exact-text verification after neutral backup-AI filename migration and compact Topview table update. Drive remains canonical."
+  "note": "Exact-text verification after Topview nowrap and sync-lightsaber animation clarification. Drive remains canonical."
 }
