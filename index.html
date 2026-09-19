@@ -48,7 +48,7 @@ blockquote{border-left:3px solid var(--accent);margin-left:0;padding-left:14px;c
 <a href="SYNC-RUNBOOK.md" target="_blank">Синхронизация</a><a href="video-prompts.md" target="_blank">Исходный master</a>
 <a href="film-analysis.md" target="_blank">Карта фильма</a><a href="film-backlog.md" target="_blank">Рабочий бэклог</a>
 <a class="wide" href="NEW-CHAT-HANDOFF.md" target="_blank">Восстановление / новый чат</a>
-<a class="wide" href="CLAUDE-TAKEOVER-RUNBOOK.md" target="_blank">Claude: резерв / takeover</a>
+<a class="wide" href="CLAUDE-TAKEOVER-RUNBOOK.md" target="_blank">Инструкция для резервного ИИ</a>
 </div></details>
 <div class="search-wrap"><input id="search" class="search" placeholder="Сцена 17, карта, диалог…" autocomplete="off" /><button id="clearSearch" class="clear-search">×</button></div>
 <div id="filters" class="filters"></div><div class="nav-meta"><span id="resultCount">Разделы</span><span id="activeFilter">Все</span></div>
@@ -136,7 +136,7 @@ function renderTopview(tv,md){
   const queue=x.queue_count!=null?Number(x.queue_count).toLocaleString('ru-RU'):'—';
   const hasTelemetry=Boolean(x&&Object.keys(x).length);
   const cls=!hasTelemetry?'pending':['success'].includes(st)?'success':['fail','failed'].includes(st)?'fail':'pending';
-  const statusText=!hasTelemetry?'Нет данных Topview':(st==='success'?'Завершено · ждёт решения':esc(tvStatusLabel(st)))+(done?'<br><span class="topview-note">'+esc(humanDate(x.completed_at))+'</span>':'');
+  const statusText=!hasTelemetry?'Нет данных Topview':(st==='success'?'Завершено<br><span class="topview-note">ждёт решения</span>':esc(tvStatusLabel(st)))+(done?'<br><span class="topview-note">'+esc(humanDate(x.completed_at))+'</span>':'');
   const title=titles[String(sid)]||('Сцена '+sid);
   const model=x.model||status?.scene_meta?.[String(sid)]?.target_engine||'—';
   return '<tr><td>'+esc(sid)+'</td><td class="tv-scene"><a href="#scene-'+esc(sid)+'">'+esc(title)+'</a></td><td>'+esc(model)+'</td><td><span class="tv-status '+cls+'">'+statusText+'</span></td><td>'+esc(x.started_at?humanDate(x.started_at):'—')+'</td><td>'+esc(fmtHours(elapsed))+'</td><td>'+esc(queue)+'</td><td class="tv-eta">'+eta+'</td></tr>';
