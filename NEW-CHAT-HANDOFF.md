@@ -336,7 +336,7 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - После удаления UTF-8 BOM и добавления encoding guard sync снова проходит успешно.
 - Несколько последующих `Sync Drive master and generated project status` завершились успешной публикацией.
 - Последний проверенный fingerprint: revision `19.09.2026`, 17 scenes, 20 prompt texts, W5/W7/W8, slow `2,6,12,14,15,18`, health `ok`, instruction sync `ok`.
-- Проверенный canonical master SHA-256: `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`.
+- Проверенный canonical master SHA-256: `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`.
 - GitHub `video-prompts.md` полностью совпадает с Drive master и содержит раздел `Ближайшие направления` и исправление scene 18 на Wan 3.0.
 - Старые письма GitHub `Run failed` до этого checkpoint не считать признаком текущей поломки без fresh-check latest workflow/status.
 
