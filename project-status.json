@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-19T13:01:52Z",
+  "synced_at": "2026-09-19T13:05:53Z",
   "revision_date": "19.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
   "canonical_master_sha256": "20d6104b69017ccad1186f73c1d02d308aec5963c7c1a50d5d8366ce4414613c",
@@ -47,16 +47,16 @@
   "latest_scene": 18,
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-19T11:42:33Z",
+    "snapshot_at": "2026-09-19T13:05:39Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.322,
+    "age_hours_at_status_build": 0.004,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-19T05:20:38.965Z",
-        "github_blob": "7994d87d788215af1a5520f95901fb724e0635cd",
+        "drive_modified_at": "2026-09-19T13:03:08.962Z",
+        "github_blob": "44360a3199236a219184957338f6482909aef60a",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
@@ -67,8 +67,8 @@
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-19T05:20:45.831Z",
-        "github_blob": "1f99424684e3e90ca4ca24ca839cdeefaa995915",
+        "drive_modified_at": "2026-09-19T13:03:16.841Z",
+        "github_blob": "9b119aa8f38ae672011815ccefaa976c1056c368",
         "match": true
       },
       "README-AI-SYNC.md": {
@@ -380,7 +380,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.09.2026",
-    "synced_at": "2026-09-19T13:01:52Z",
+    "synced_at": "2026-09-19T13:05:53Z",
     "canonical_master_sha256": "20d6104b69017ccad1186f73c1d02d308aec5963c7c1a50d5d8366ce4414613c",
     "scene_count": 17,
     "prompt_count": 20,
