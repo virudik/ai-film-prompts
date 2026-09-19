@@ -10,7 +10,7 @@
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
 
-**19.09.2026 · 15 сцен к генерации/доработке · 18 полных текстов промтов**
+**19.09.2026 · 14 сцен к генерации/доработке · 17 полных текстов промтов**
 
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
@@ -22,7 +22,7 @@
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
 
-**Синхронизация контекста:** **19.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 15 активных сцен и 18 полных текстов сохранены. Сцены 6 и 7 удалены из active master по прямому решению пользователя как больше не актуальные; сцена 2 снята с slow-lock после завершения генерации, но её промт пока оставлен активным. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **19.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 14 активных сцен и 17 полных текстов сохранены. Сцены 6, 7 и 9 удалены из active master по прямому решению пользователя как больше не актуальные; сцена 2 снята с slow-lock после завершения генерации, но её промт пока оставлен активным. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 
 ## ⏳ Сейчас в медленной генерации
@@ -46,7 +46,6 @@
 | 3 | [Космическая погоня — экстерьер](#scene-3) | @image1 = стартовый космический кадр; @image2 = дизайн корабля | Транспорт уже находится в разгаре боя, уклоняется от истребителей; камера сближается с кабиной и заканчивает сцену вспышкой у стекла. |
 | 4 | [Космическая погоня — интерьер кабины](#scene-4) | @image3 = первый кадр/экипаж; @image4 = точный последний кадр/пилот | Прямое продолжение боя внутри кабины: камера постепенно приближается к пилоту и приходит к точной композиции @image4. |
 | 5 | [Космическая погоня — единый дубль через стекло](#scene-5) | @image1 = первый кадр; @image2 = корабль; @image3 = интерьер; @image4 = последний кадр | Альтернатива сценам 3–4: внешний космический бой → непрерывный пролёт камеры через стекло → интерьер кабины → точный финальный кадр. |
-| 9 | [Пещера — бой с монстром](#scene-9) | @Image1 = Jedi 1; @Image2 = Jedi 2; @Image3 = Chancellor; @Video1 = монстр/пещера | Трое бойцов продолжают сражение с гигантским ящером в пещере; финал — победа над существом. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
 | 12 | [Кантина — вход двух джедаев](#scene-12)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
@@ -728,68 +727,6 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 ---
 
 
-<a id="scene-9"></a>
-
-
-## Сцена 9 — Пещера: бой с монстром
-
-
-<!-- scene-meta: {"target_engine":"Wan 3","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","manual_review"]} -->
-
-
-**Контекст использования:** Сверка: бой и победа уже есть в части 2 / 19:45–20:55, но именно финал с отрубленными частями тела не подтверждён. W1 использует такое состояние монстра; до проверки не удалять этот промт и не запускать повторную генерацию всего боя автоматически (P9).
-
-
-**Референсы:** @Image1 = Jedi 1 в синей тунике · @Image2 = Jedi 2 в коричневой робе и очках · @Image3 = Chancellor/Sith Lord · @Video1 = монстр и окружение пещеры
-
-
-**Что происходит:** Прямое продолжение @Video1. Три бойца одновременно атакуют гигантского бледного ящера в мокрой пещере; последовательность заканчивается победой над существом.
-
-
-```text
-[IMAGE REFERENCE 1: @Image1 - Blue Tunic Jedi Model Sheet] 
-[IMAGE REFERENCE 2: @Image2 - Brown Robe Jedi Model Sheet] 
-[IMAGE REFERENCE 3: @Image3 - Sith Lord Model Sheet] 
-[VIDEO REFERENCE: @Video1 - Monster & Cavern Environment] 
- 
-Optimized for Wan 3 | Photorealistic Sci-Fi Creature Combat | Duration: 30s | 4K 24fps 
- 
-ENVIRONMENT & ASSET LOCK: 
-- Jedi 1 (@Image1): Clean-shaven man in dark blue tunic, active BLUE lightsaber. 
-- Jedi 2 (@Image2): Bearded man with glasses in brown robe, active GREEN lightsaber. 
-- Sith Lord / The Chancellor (@Image3): Completely bald on top with thin pale blond hair on sides only, cold pale blue eyes, heavy jowls, deep purple robes, active crimson RED lightsaber. 
-- Monster (@Video1): Giant pale albino reptilian beast with razor-sharp claws, thick hide, and massive fanged jaws. 
-- Setting: Dark subterranean cavern with waterfalls, glowing mist, and shallow splashing water on dark wet rocks matching @Video1. 
- 
-SHOT & COMBAT TIMELINE (00:00 - 00:30): 
- 
-- 00:00–00:08 (Shot 1 - Synchronized Dodge & First Leg Severance): 
-Direct seamless continuation from @Video1. As the monster lunges forward with a roaring jaws-snap, all three warriors split up in a fast synchronized dodge. Jedi 1 (@Image1) slides across the wet rocks under the beast, delivering a sweeping BLUE lightsaber slash that cleanly severs the monster's front left leg at the knee—glowing orange cauterized plasma edges on the stump as the limb splashes into the water. 
- 
-- 00:08–00:16 (Shot 2 - Tail & Forelimb Dismemberment): 
-The monster thrashes in agony, shrieking into the cavern. Jedi 2 (@Image2) leaps off a rock shelf, executing a spinning downward strike with his GREEN blade, shearing off the monster's opposite forelimb mid-air. Simultaneously, Jedi 1 (@Image1) slashes upward, cleanly severing the heavy reptilian tail—the severed thrashing tail falls into the shallow water with a shower of plasma sparks and rising steam. 
- 
-- 00:16–00:24 (Shot 3 - Sith Brutality & Jaw Slice): 
-Camera orbits tightly around the bloody-less carnage. Sith Lord (@Image3) steps into close quarters with ruthless precision. His RED lightsaber executes a savage upward diagonal strike, cleanly slicing through the monster's lower jaw and fangs. Steam and bright orange glowing plasma line the open cauterized wound as the creature staggers on its remaining limbs. 
- 
-- 00:24–00:30 (Shot 4 - Decapitation & Final Collapse): 
-The heavily dismembered beast staggers, completely crippled. Sith Lord (@Image3) executes a powerful Force-assisted leap over its head, bringing his crimson blade down in a full circular arc that cleanly decapitates the monster. The severed head and butchered torso fall in separate pieces into the splashing water. The three warriors stand victorious over the steaming, dismembered carcass with lightsabers active. 
- 
-LIGHTING & VISUAL EFFECTS: 
-Dynamic multi-colored blade reflections (Red, Blue, Green) glistening on wet cavern rocks and splashing water. Cauterized glowing orange/yellow plasma edges on all severed creature limbs and neck. Rising white steam from thermal wounds. Zero liquid red blood. 
- 
-AUDIO: 
-Monster roars and pained shrieks, saber hums and clashes, splashing water, sharp plasma-sizzle on each wound, cavern echo, waterfall ambience in background, no music. 
- 
-NEGATIVE PROMPT: red liquid blood, organic guts, intact monster, monster surviving, lightsaber color swap, missing glasses on Jedi 2, static camera, character morphing, cartoon, anime, low quality, unwanted non-diegetic music.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
----
-
-
 <a id="scene-10"></a>
 
 
@@ -1358,10 +1295,10 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 ## Сцена 17 — Пещера: передышка после монстра и разговор о карте
 
 
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"depends_on","scene":9}],"tags":["dialogue","continuous_take","continuity","needs_fix"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","continuity","needs_fix"]} -->
 
 
-**Контекст использования:** Новый активный промт на основе бывшей W1; рабочий пункт W1 получил конкретные референсы и теперь оформлен как активная сцена 17. Это прямое продолжение сцены 9: после тяжёлой победы над чудовищем трое бойцов наконец получают короткую передышку. Промт рассчитан на Seedance 2.5 и специально расширен до 30 секунд, чтобы на монтаже можно было укоротить или использовать целиком как напряжённый переход к следующему блоку.
+**Контекст использования:** Новый активный промт на основе бывшей W1; рабочий пункт W1 получил конкретные референсы и теперь оформлен как активная сцена 17. Это прямое продолжение уже существующего боя в пещере: после тяжёлой победы над чудовищем трое бойцов наконец получают короткую передышку. Отдельный active prompt бывшей сцены 9 больше не нужен. Промт рассчитан на Seedance 2.5 и специально расширен до 30 секунд, чтобы на монтаже можно было укоротить или использовать целиком как напряжённый переход к следующему блоку.
 
 
 **Референсы:** @Image1 = Jedi 1 (синий туник) · @Image2 = Jedi 2 (борода, очки, зелёный меч в прошлой сцене) · @Image3 = Chancellor · @Video1 = пещера и чудовище, прямое визуальное продолжение · @Video2 = дополнительные ракурсы монстра/пещеры при необходимости continuity

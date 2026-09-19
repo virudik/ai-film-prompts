@@ -3,13 +3,13 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-19T14:59:58Z",
+  "synced_at": "2026-09-19T15:11:47Z",
   "revision_date": "19.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
-  "canonical_master_sha256": "d3fa0bd497169d5e73c03e415bee8a7e5c3d3dd6689e5bcfa15de95fa4659e75",
-  "canonical_master_bytes": 127923,
-  "scenes": 15,
-  "prompt_texts": 18,
+  "canonical_master_sha256": "040f4ea23b29fc3b3037d4d98cab26f6d05521e7247956f420deacc2cdc88cd2",
+  "canonical_master_bytes": 122644,
+  "scenes": 14,
+  "prompt_texts": 17,
   "work_items": [
     "W5",
     "W7",
@@ -29,7 +29,6 @@
     3,
     4,
     5,
-    9,
     10,
     11,
     12,
@@ -43,28 +42,28 @@
   "latest_scene": 18,
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-19T14:59:36Z",
+    "snapshot_at": "2026-09-19T15:11:28Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.006,
+    "age_hours_at_status_build": 0.005,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-19T14:55:31.735Z",
-        "github_blob": "24f104d742807cebd6284ffc7527a149ea321338",
+        "drive_modified_at": "2026-09-19T15:06:45.446Z",
+        "github_blob": "389bad77a4bd7372dd12261320709e0a0d08729b",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-19T14:55:42.922Z",
-        "github_blob": "1c4e45772853cbec3809e0ed1711130061256f56",
+        "drive_modified_at": "2026-09-19T15:07:05.501Z",
+        "github_blob": "1bd980ade1e3858cbc38f6dfb40784a124382d00",
         "match": true
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-19T14:55:54.552Z",
-        "github_blob": "d09f0d87be09477d857771582decd1e4f559d133",
+        "drive_modified_at": "2026-09-19T15:07:16.007Z",
+        "github_blob": "f3dd8ef53e36192434d5c49bcae8b6e9b13a681d",
         "match": true
       },
       "README-AI-SYNC.md": {
@@ -75,8 +74,8 @@
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-09-19T14:56:03.953Z",
-        "github_blob": "df05ad30e68ae58bb232f08d64b7494aef5b79f4",
+        "drive_modified_at": "2026-09-19T15:07:26.272Z",
+        "github_blob": "115676d0ef36c0f242b35800ea76cfb06957a618",
         "match": true
       }
     }
@@ -173,21 +172,6 @@
         "action",
         "continuous_take",
         "alternative",
-        "manual_review"
-      ],
-      "render_state": "IDLE"
-    },
-    "9": {
-      "target_engine": "Wan 3",
-      "production_state": null,
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "action",
         "manual_review"
       ],
       "render_state": "IDLE"
@@ -312,12 +296,7 @@
         "enabled": true,
         "language": "ru"
       },
-      "dependencies": [
-        {
-          "type": "depends_on",
-          "scene": 9
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "dialogue",
         "continuous_take",
@@ -345,17 +324,16 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.09.2026",
-    "synced_at": "2026-09-19T14:59:58Z",
-    "canonical_master_sha256": "d3fa0bd497169d5e73c03e415bee8a7e5c3d3dd6689e5bcfa15de95fa4659e75",
-    "scene_count": 15,
-    "prompt_count": 18,
+    "synced_at": "2026-09-19T15:11:47Z",
+    "canonical_master_sha256": "040f4ea23b29fc3b3037d4d98cab26f6d05521e7247956f420deacc2cdc88cd2",
+    "scene_count": 14,
+    "prompt_count": 17,
     "scene_ids": [
       1,
       2,
       3,
       4,
       5,
-      9,
       10,
       11,
       12,
