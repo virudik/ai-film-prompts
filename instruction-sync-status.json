@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-19T19:43:35Z",
+  "checked_at": "2026-09-19T20:10:42Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
-  "health": "error",
+  "health": "ok",
   "all_match": true,
   "files": {
     "AI-PROJECT-GUIDE.md": {
@@ -39,15 +39,8 @@
     }
   },
   "semantic_check": {
-    "health": "error",
-    "conflicts": [
-      {
-        "file": "NEW-CHAT-HANDOFF.md",
-        "current_state": "Sections 3, 4 and 4A record canonical slow as 2,12,14,15,18,19 and state that Scene 2 was returned to slow by a newer direct user decision.",
-        "stale_state": "Section 6 says the user removed Scene 2 from slow; section 13 ready-to-paste command says Scene 2 is already removed from slow and canonical slow is 12,14,15,18.",
-        "authority": "Fresh project-status.json confirms slow_scenes=[2,12,14,15,18,19]."
-      }
-    ]
+    "health": "ok",
+    "conflicts": []
   },
-  "note": "Five canonical instruction mirrors remain exact Drive -> GitHub matches. Semantic health is non-green because NEW-CHAT-HANDOFF.md contains stale contradictory Scene 2/slow-set wording. Historical checkpoint SHA values are not treated as current-fingerprint contradictions."
+  "note": "Exact instruction mirrors match. Current handoff now records Scene 2 and Scene 19 as canonical slow; sections 26–29 are explicitly historical and not current authority."
 }
