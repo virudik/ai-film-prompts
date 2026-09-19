@@ -251,7 +251,7 @@ Canonical Drive instructions:
 - SYNC-RUNBOOK.md
 - USER-GUIDE.md
 - README-AI-SYNC.md
-- CLAUDE-TAKEOVER-RUNBOOK.md
+- BACKUP-AI-RUNBOOK.md
 
 
 Authorized verification compares full text with GitHub mirrors.
@@ -378,8 +378,17 @@ These are **not implemented yet** and must not be reported as completed:
 
 ## 21. Final site tidy-up before feature freeze — 19.09.2026
 
-- В `Служебные файлы` ссылка `Claude: резерв / takeover` переименована в `Инструкция для резервного ИИ`; стабильное имя файла `CLAUDE-TAKEOVER-RUNBOOK.md` сохранено, чтобы не ломать ссылки. Сам runbook сделан model-agnostic: любой резервный ИИ всё равно обязан пройти capability preflight.
+- Резервная инструкция окончательно отвязана от Claude: ссылка называется `Инструкция для резервного ИИ`, технический файл мигрирован на `BACKUP-AI-RUNBOOK.md`, старое Claude-specific имя больше не используется. Любой резервный ИИ обязан пройти capability preflight.
 - В slow/Topview таблице успешная task при сохранённом canonical slow-lock теперь визуально показывает `Завершено` и строкой ниже `ждёт решения`; дата завершения остаётся отдельной строкой ниже.
 - В `Персонажи / Референсы` порядок изменён минимально: Юля теперь сразу после Серёги; остальные персонажи сохранили взаимный порядок.
 - Рукоятка sync lightsaber намеренно НЕ менялась: пользователь попросил сначала показать варианты и выбрать один.
 - После этих трёх UI tidy-up изменений сайт считать feature-frozen до нового явного запроса; возвращаемся к работе над фильмом.
+
+
+## 22. Backup AI filename migration — 19.09.2026
+
+- По явному запросу пользователя Claude-specific техническое имя удалено из активной архитектуры.
+- Canonical Drive file ID `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` переименован в `BACKUP-AI-RUNBOOK.md`; file ID сохраняется.
+- GitHub/Pages/Notion/Library/automation links должны использовать `BACKUP-AI-RUNBOOK.md` и human label `Инструкция для резервного ИИ`.
+- Предыдущее Claude-specific имя резервной инструкции больше не считать каноническим и не восстанавливать.
+- В Topview slow table служебные колонки Model/Status/Start/Elapsed/Queue сделаны compact-width, чтобы не растягиваться шире содержимого.
