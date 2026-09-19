@@ -59,7 +59,7 @@ Topview success != user approval. Slow scene нельзя перезапуска
 - `SYNC-RUNBOOK.md`
 - `USER-GUIDE.md`
 - `README-AI-SYNC.md`
-- `CLAUDE-TAKEOVER-RUNBOOK.md`
+- `BACKUP-AI-RUNBOOK.md`
 
 
 `Topview Slow Watch` работает каждый час и отвечает только за Topview production telemetry по exact mapped tasks. Отдельная hourly automation `AI Film Recovery Sync` отвечает за пять canonical instruction files и recovery/handoff: Google Drive является каноном, при exact-text mismatch она автоматически ремонтирует только GitHub mirror из Drive → GitHub, никогда не пишет GitHub → Drive, затем выполняет semantic consistency check и обновляет recovery state. Результат проверки инструкций хранится в `instruction-sync-status.json`. Такое разделение убирает дублирующие Drive/GitHub проверки и уменьшает число concurrent writers.
@@ -115,7 +115,7 @@ Viewer: `https://virudik.github.io/ai-film-prompts/`
 - scene/prompt data не hard-code в HTML;
 - technical detail → `Контрольный отпечаток`;
 - service links → `Служебные файлы`;
-- human label для `CLAUDE-TAKEOVER-RUNBOOK.md` → `Инструкция для резервного ИИ` (имя файла сохраняется для совместимости);
+- human label и техническое имя резервной инструкции: `BACKUP-AI-RUNBOOK.md` → `Инструкция для резервного ИИ`; старое Claude-specific filename больше не использовать;
 - counters Сцен/Промтов/slow/work кликабельны;
 - `Сцены в работе` остаются обычной таблицей;
 - Topview показывает model/status/start/elapsed/queue/time estimate;
