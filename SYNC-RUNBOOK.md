@@ -236,7 +236,7 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 
 ## 12. Verified recovery checkpoint
 
-19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Контрольный статус: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive mirror exact match, health/instruction sync = `ok`. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
+19.09.2026 после race retry + BOM normalization выполнены несколько успешных sync runs. Контрольный статус: revision `19.09.2026`, SHA-256 `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`, Drive mirror exact match, health/instruction sync = `ok`. При будущих письмах `Run failed` всегда сравнивать время письма с более свежим успешным `project-status.json.synced_at`.
 
 
 ## 13. Hourly recovery automation
