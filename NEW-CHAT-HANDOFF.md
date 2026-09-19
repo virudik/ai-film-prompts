@@ -56,11 +56,11 @@ Handoff Drive ID:
 ## 3. Snapshot на момент передачи
 
 
-- 17 active scenes
-- 20 prompt texts
+- 15 active scenes
+- 18 prompt texts
 - W5, W7, W8
-- canonical slow list: 2,6,12,14,15,18
-- Scene IDs: 1,2,3,4,5,6,7,9,10,11,12,13,14,15,16,17,18
+- canonical slow list: 12,14,15,18
+- Scene IDs: 1,2,3,4,5,9,10,11,12,13,14,15,16,17,18
 
 
 Всегда fresh-check.
@@ -69,24 +69,13 @@ Handoff Drive ID:
 ## 4. Самое важное safety-состояние
 
 
-Topview current observed:
-- scene 2 task технически `success`
-- scene 6 task технически `success`
-- canonical master всё ещё содержит scenes 2 and 6 in slow list; это intentional до решения пользователя
+Current user-confirmed state:
+- scene 2 task технически `success`; пользователь явно снял scene 2 с canonical slow-list. Prompt scene 2 пока остаётся active.
+- scenes 6 and 7 пользователь признал больше не актуальными; они удалены из active master и не должны автоматически восстанавливаться.
+- canonical slow остаются scenes 12,14,15,18.
 
 
-Это intentional safety state.
-Topview completion не снимает slow-lock автоматически.
-
-
-Новый чат должен проверить результаты scenes 2 and 6 по отдельности и дождаться решения пользователя для каждой:
-- принять;
-- доработать;
-- оставить;
-- перезапустить.
-
-
-Только после решения обновлять master slow state.
+Topview completion по-прежнему не снимает slow-lock автоматически: исключение здесь не автоматическое, а прямое решение пользователя по scene 2. Для remaining slow scenes ждать результата/ошибки/отдельного решения.
 
 
 ## 5. Что сделано в этом чате
@@ -299,7 +288,7 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 ## 13. Ready-to-paste command for next chat
 
 
-> Продолжаем AI Film project. Сначала открой свежий Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и exact master `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Затем прочитай live `project-status.json`, `topview-status.json`, `instruction-sync-status.json` из `virudik/ai-film-prompts` и повтори текущий audit fingerprint. Не используй старые копии как master. Не меняй Scene IDs. Не перезапускай slow scenes автоматически. Обрати особое внимание: scenes 2 and 6 сейчас Topview success, но canonical slow-lock ещё не снят — сначала проверить каждый результат и спросить решение. Site UI меняется в GitHub `index.html`, scene/prompt content меняется только в Drive master. Slow UI уже объединён — не возвращай устаревшее утверждение, что это только план. Full-res lightbox для 8 model sheets проверен 19.09.2026. Перед `ГОТОВО` проверь sync workflow, validation и Pages.
+> Продолжаем AI Film project. Сначала открой свежий Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и exact master `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Затем прочитай live `project-status.json`, `topview-status.json`, `instruction-sync-status.json` из `virudik/ai-film-prompts` и повтори текущий audit fingerprint. Не используй старые копии как master. Не меняй Scene IDs. Не перезапускай slow scenes автоматически. Обрати особое внимание: scene 2 уже снята с slow-lock по решению пользователя; scenes 6 и 7 удалены как неактуальные и не должны восстанавливаться; canonical slow сейчас 12,14,15,18. Site UI меняется в GitHub `index.html`, scene/prompt content меняется только в Drive master. Slow UI уже объединён — не возвращай устаревшее утверждение, что это только план. Full-res lightbox для 8 model sheets проверен 19.09.2026. Перед `ГОТОВО` проверь sync workflow, validation и Pages.
 
 
 ## 14. Зачем этот handoff
@@ -430,9 +419,17 @@ These are **not implemented yet** and must not be reported as completed:
 
 ## 26. Active-status / comments / no-bars update — 19.09.2026
 
-- Fresh Topview telemetry показывает scenes 2 и 6 как `success`; canonical slow list остаётся `2,6,12,14,15,18` до просмотра и решения пользователя. Scenes 12,14,15,18 всё ещё pending.
-- Active scene map теперь синхронизирует presentation-status canonical slow-сцен из `topview-status.json`: success = зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; init/queued = `⏳ В ОЧЕРЕДИ`; running/processing = `▶ ВЫПОЛНЯЕТСЯ`; fail = `✕ ОШИБКА ГЕНЕРАЦИИ`. Это display-only и не меняет slow-lock/approval.
+- User decision supersedes предыдущий telemetry-only state: scene 2 технически `success` и снята с slow-lock; scenes 6 и 7 удалены из active master как неактуальные; canonical slow теперь `12,14,15,18`.
+- Active scene map синхронизирует presentation-status canonical slow-сцен из `topview-status.json`; завершённая active scene с вручную снятым slow-lock (scene 2) сохраняет зелёный completion-status: success = зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; init/queued = `⏳ В ОЧЕРЕДИ`; running/processing = `▶ ВЫПОЛНЯЕТСЯ`; fail = `✕ ОШИБКА ГЕНЕРАЦИИ`. Это display-only и не меняет slow-lock/approval.
 - Под `🛠️ Сцены в работе` и блоком `Ближайшие направления` добавлен раздел `💬 Комментарии / идеи и предложения`. Backend без отдельного сервера: public GitHub Issue #8. Сайт читает comments через GitHub API; публикация/ответ выполняются в GitHub и требуют GitHub login. Комментарии не являются canonical commands.
-- Во все 20 текущих prompt blocks master добавлено одно и то же правило `FRAME FILL / NO BARS`: full-frame edge-to-edge, no letterboxing/pillarboxing/black bars/side bars/decorative borders/empty margins.
+- Во все 18 текущих prompt blocks master добавлено одно и то же правило `FRAME FILL / NO BARS`: full-frame edge-to-edge, no letterboxing/pillarboxing/black bars/side bars/decorative borders/empty margins.
 - Уведомление Email Monitor о серии старых `Run failed` было ложным как утверждение о текущем состоянии: live `project-status.json` уже был `health=ok` и имел более свежие successful sync. Email Monitor обновлён: для `ai-film-prompts` он обязан сравнивать timestamps и live status перед заявлением, что failure продолжается.
 - Предыдущая фраза automation про невозможность обновить same-ID handoff означала сбой/ограничение connector write в том конкретном automation run. Safety-поведение было правильным: GitHub handoff mirror не обновлялся отдельно, чтобы не создать GitHub→Drive drift. В основном чате same-ID Drive write снова доступен; этот handoff теперь обновлён именно в исходном Drive file ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`, после чего зеркало должно сверяться Drive→GitHub.
+
+## 27. User cleanup decision — 19.09.2026
+
+- По прямому решению пользователя scenes 6 (`Подводный рынок: странный фрукт`) и 7 (`Канцлер: зеркало в туалете`) больше не актуальны и удалены из active canonical master целиком: scene map rows + full prompt sections. Scene IDs не перенумеровывать и удалённые IDs 6/7 не переиспользовать.
+- Scene 2 остаётся active, но снята с canonical slow-list. Её Topview generation уже `success`; на active scene map сохраняется зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`. Prompt scene 2 пока не удалять без отдельного решения пользователя.
+- Current fingerprint target after rebuild: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `12,14,15,18`, active IDs `1,2,3,4,5,9,10,11,12,13,14,15,16,17,18`.
+- Global `FRAME FILL / NO BARS` остаётся во всех 18 актуальных prompt blocks.
+- Topview Slow Watch на следующих runs должен следовать fresh canonical slow-list; stale telemetry для removed/unlocked scene не является основанием вернуть Scene ID в slow/master.
