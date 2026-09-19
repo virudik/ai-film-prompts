@@ -110,7 +110,7 @@ Since 19.09.2026 the Drive sync normalizes an optional UTF-8 BOM before validati
 
 ## Verified recovery 19.09.2026
 
-Race retry and BOM normalization are now verified by multiple successful Drive-sync runs. Current verified fingerprint: revision `19.09.2026`, SHA-256 `861c19e4749ac35dc50c17cf18d8d7f1430bcdb45c99e7311fd65a65202a3cb6`, Drive/GitHub master exact match, project health `ok`, instruction sync `ok`.
+Race retry and BOM normalization are now verified by multiple successful Drive-sync runs. Current verified fingerprint: revision `19.09.2026`, SHA-256 `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`, Drive/GitHub master exact match, project health `ok`, instruction sync `ok`.
 
 
 ## Recovery-warning UI
