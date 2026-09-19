@@ -269,13 +269,13 @@ Mismatch / repair:
 
 
 - Серёга
+- Юля
 - Паша
 - Артём
 - Илюша
 - Саша
 - Лёша
 - Виталик
-- Юля
 
 
 Natural names should map to these identities; user should not need internal aliases.
@@ -348,15 +348,15 @@ High-resolution references тоже завершены: 19.09.2026 провер�
 - Semantic check обязан ловить stale contradiction `slow tables are planned/not merged` vs фактическое `already merged`, scene 18 engine mismatch, source-of-truth drift, auto-clear slow lock и устаревшие race/BOM rules.
 - Control Center получил третий health state: yellow `! БЫЛИ ОШИБКИ` после восстановленного workflow failure; он держится до 3 последовательных successful sync-runs. Green = stable healthy; red = unresolved/stale/unhealthy.
 - Из meta-line удалено дублирующее `N мин назад`, если уже показано точное время.
-- Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено · ждёт решения`.
+- Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено` / следующая строка `ждёт решения`.
 - Проверка slow engines 19.09.2026: 2 Seedance 2.5, 6 Seedance 2.5, 12 Wan 3.0, 14 Seedance 2.5, 15 Wan 3.0, 18 Wan 3.0; master и Topview совпадают по всем six slow scenes. Старое расхождение было только в служебной строке контекста scene 18 и уже исправлено.
 
 ## 18. Library / Notion refresh — 19.09.2026
 
 - После infrastructure/UI update свежие Drive-версии пяти canonical instruction files перезаписаны в одноимённые canonical copies ChatGPT Library.
 - `NEW-CHAT-HANDOFF.md` также обновлён в Library; старые исторические `*-updated.md`/`video-prompts(n).md` не являются каноном и не использовались как источник.
-- В Notion обновлены пять instruction mirror pages из свежих canonical Drive-файлов: External AI / Project Guide, ChatGPT Sync Runbook, User Guide, Sync Rules, Claude Takeover Runbook.
-- Notion `AI Video Prompts — Master Hub` получил checkpoint 19.09.2026 с hourly Recovery Sync, three-state lightsaber, merged slow UI, `Завершено · ждёт решения` и scene 18 = Wan 3.0.
+- В Notion обновлены пять instruction mirror pages из свежих canonical Drive-файлов: External AI / Project Guide, ChatGPT Sync Runbook, User Guide, Sync Rules, Backup AI / Takeover instruction.
+- Notion `AI Video Prompts — Master Hub` получил checkpoint 19.09.2026 с hourly Recovery Sync, three-state lightsaber, merged slow UI, `Завершено` / следующая строка `ждёт решения` и scene 18 = Wan 3.0.
 - Это documentation/backup refresh; prompt master и production state этим шагом не менялись.
 
 ## 19. Hourly automation responsibility split — 19.09.2026
@@ -372,5 +372,14 @@ These are **not implemented yet** and must not be reported as completed:
 - Personal domain mirror: user wants `рудик.рф/промты` to duplicate the AI Film Control Center. Exact path hosting requires access to the current `рудик.рф` hosting/router (DNS alone cannot route a URL path). A custom subdomain such as `prompts.рудик.рф` would be easier to point directly at GitHub Pages, but user specifically asked about `/промты`; do not change DNS/domain without explicit approval.
 - YouTube-free playback for Russian visitors: do not assume a YouTube iframe will work without VPN. For videos the user owns, preferred design is an independent playable copy on storage/CDN or another video host reachable by the target audience, with YouTube kept as an optional secondary source. Do not build a brittle server-side YouTube proxy.
 - Personal-site redesign draft exists in ChatGPT Library as `index(1).html`; it is not confirmed as the deployed source of `рудик.рф` and must not overwrite the live site without hosting/source verification.
-- Possible future Control Center features: a dedicated `Сейчас` view (blockers + completed renders + W-items) is the strongest candidate; a separate decision queue is partly covered already by `Завершено · ждёт решения`; `Что изменилось с прошлого sync` is useful but lower priority; generated `workflow-status.json` could remove the browser's dependency on unauthenticated GitHub REST API, but is not necessary while current API usage is low. Avoid feature creep while film work is blocked by story/scene decisions.
+- Possible future Control Center features: a dedicated `Сейчас` view (blockers + completed renders + W-items) is the strongest candidate; a separate decision queue is partly covered already by `Завершено` / следующая строка `ждёт решения`; `Что изменилось с прошлого sync` is useful but lower priority; generated `workflow-status.json` could remove the browser's dependency on unauthenticated GitHub REST API, but is not necessary while current API usage is low. Avoid feature creep while film work is blocked by story/scene decisions.
 - Backup-editor architecture: Claude/Gemini/Grok/DeepSeek capability depends on the actual environment/connectors. A future local deterministic sync helper (`sync-master.ps1`/`.py`) remains a good resilience idea, but is not implemented.
+
+
+## 21. Final site tidy-up before feature freeze — 19.09.2026
+
+- В `Служебные файлы` ссылка `Claude: резерв / takeover` переименована в `Инструкция для резервного ИИ`; стабильное имя файла `CLAUDE-TAKEOVER-RUNBOOK.md` сохранено, чтобы не ломать ссылки. Сам runbook сделан model-agnostic: любой резервный ИИ всё равно обязан пройти capability preflight.
+- В slow/Topview таблице успешная task при сохранённом canonical slow-lock теперь визуально показывает `Завершено` и строкой ниже `ждёт решения`; дата завершения остаётся отдельной строкой ниже.
+- В `Персонажи / Референсы` порядок изменён минимально: Юля теперь сразу после Серёги; остальные персонажи сохранили взаимный порядок.
+- Рукоятка sync lightsaber намеренно НЕ менялась: пользователь попросил сначала показать варианты и выбрать один.
+- После этих трёх UI tidy-up изменений сайт считать feature-frozen до нового явного запроса; возвращаемся к работе над фильмом.
