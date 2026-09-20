@@ -1,203 +1,186 @@
 # NEW CHAT HANDOFF — AI Film Project
 **Checkpoint: 20.09.2026**
 
-Этот файл — текущая точка передачи следующему чату. Он намеренно очищен от накопившихся исторических противоречий. Исторические коммиты/старые snapshot-и не являются текущей властью.
+Этот файл — **первый current-state entrypoint** для нового чата. Он должен оставаться коротким, актуальным и непротиворечивым. Не накапливать здесь старые competing snapshots; исторические инциденты — только как явно помеченная справка в runbook.
 
-## 1. Что читать первым
+## 1. Перед вступлением в роль — обязательный полный reading gate
 
-1. Этот `NEW-CHAT-HANDOFF.md`.
-2. `SYNC-RUNBOOK.md`.
-3. `AI-PROJECT-GUIDE.md`.
-4. `PROMPT-STYLE-GUIDE.md`, Drive file ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` — обязательный полный стандарт написания всех новых/перерабатываемых видео-промтов.
-5. Fresh-read Google Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-6. Live GitHub `project-status.json`.
-7. Live `topview-status.json`.
-8. Live `instruction-sync-status.json`.
-9. Для сюжета/монтажа: `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и `Seregius_montazhny_razbor.html`.
-10. Перед любой записью в master — ещё один fresh-read exact Drive master.
+Новый чат **не считается принявшим проект и не начинает редактирование**, пока не прочитал все семь project/recovery instructions:
 
-## 2. Источник истины и архитектура
+1. этот `NEW-CHAT-HANDOFF.md`;
+2. `SYNC-RUNBOOK.md`;
+3. `AI-PROJECT-GUIDE.md`;
+4. `PROMPT-STYLE-GUIDE.md`;
+5. `USER-GUIDE.md`;
+6. `README-AI-SYNC.md`;
+7. `BACKUP-AI-RUNBOOK.md`.
+
+После этого обязательно:
+8. fresh-read exact Google Drive `video-prompts.md`;
+9. read live GitHub `project-status.json`;
+10. read live `topview-status.json`;
+11. read live `instruction-sync-status.json`;
+12. при сюжетной/монтажной задаче — `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md`, `Seregius_montazhny_razbor.html`, затем релевантные страницы Notion `Кино`.
+
+Перед **каждой записью** в master — ещё один fresh-read exact Drive master.
+
+Если инструкция/файлы уже дают однозначный ответ, **не задавать пользователю повторный уточняющий вопрос**. В частности, Scene ID вычисляется самостоятельно по stable-ID rules.
+
+## 2. Capability preflight
+
+Main editor должен уметь:
+- read exact Drive master;
+- write back to same Drive file ID;
+- edit/mirror GitHub;
+- trigger/verify sync workflow;
+- update canonical instruction docs when проект меняется;
+- verify status + Pages.
+
+Если same-ID Drive write недоступен — текущий агент review-only.
+
+## 3. Source-of-truth map
 
 - Drive folder: `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
-- Единственный editable prompt master: `video-prompts.md`
-- Drive master ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+- Editable prompt master: `video-prompts.md`
+- Master ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+- Handoff ID: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
+- Prompt style guide ID: `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`
 - GitHub repo: `virudik/ai-film-prompts`
 - Control Center: `https://virudik.github.io/ai-film-prompts/`
-- Handoff Drive ID: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
-- Prompt style guide Drive ID: `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` (`PROMPT-STYLE-GUIDE.md`)
-- GitHub — зеркало + Pages, не второй prompt master.
-- `project-status.json` генерируется автоматически и вручную не редактируется.
-- Scene IDs стабильны. Удалённые IDs 6, 7, 9 не переиспользовать.
-- Не создавать `video-prompts-v2`, `final`, `copy`, `final-final` и т. п.
+- Notion operational pointer: `AI Film — Актуальная инструкция / Handoff`, ID `3e1fe763-7762-81d5-8c4e-dce504d7c5ec`
 
-## 3. Текущий live fingerprint
+Roles:
+- **Drive** = master + canonical instructions;
+- **GitHub** = mirror + site + generated status;
+- **Notion** = story/idea/history bank, not prompt master;
+- **Library** = recovery mirror/cache, not authority;
+- **Topview** = telemetry only;
+- **Supabase** = comments only.
 
-Checkpoint после добавления Scene 20:
-- 16 active scenes
-- 19 prompt texts
-- W5, W7, W8
-- active Scene IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20`
-- canonical slow: `2,12,14,15,18,19`
-- Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5, 30s, не slow
-- current SHA/health/instruction_sync после записи брать только из live status; здесь runtime SHA намеренно не дублируется
+## 4. Current live checkpoint
 
-Эти значения — checkpoint. На следующем чате всё равно fresh-check live JSON.
+На момент этого handoff:
+- 16 active scenes;
+- 19 prompt texts;
+- work items: W5, W7, W8;
+- active IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20`;
+- canonical slow: `2,12,14,15,18,19`;
+- `latest_scene = 20`;
+- deleted/retired IDs `6,7,9` не переиспользовать;
+- Scene 20 `Маша-Лагуна: рок-припев у озера` = Seedance 2.5, 30s, READY, not slow;
+- Scene 19 `Рыбалка и Маша-Лагуна` = Wan 3.0, active+slow;
+- current master SHA и health **не считать постоянными**: читать live `project-status.json`.
 
-## 4. Current scene decisions
+Topview technical completion for scenes 14,15,18 does not equal approval; пока они остаются canonical slow, решение пользователя всё ещё требуется.
 
-- Scene 2 `Джедаи на крыше — триумфальный марш без мечей` снова находится в canonical slow по прямому решению пользователя. Это новый rerun, а не историческая completed task.
-- Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s, русский диалог.
-- Scene 20 `Маша-Лагуна: рок-припев у озера` — active READY, Seedance 2.5, 30s, @Image1 = локация, @Image2 = Маша; не slow.
-- Scenes 6, 7, 9 удалены как неактуальные и не должны автоматически возвращаться.
-- Scene 17 остаётся active как пост-монстр продолжение; machine dependency на удалённую Scene 9 снята.
-- Topview `success` = техническое завершение, не user approval.
-- Нельзя автоматически перезапускать slow scene или снимать slow-lock по одной telemetry.
+## 5. Prompt-writing rule — обязательно
 
-## 5. Scene 19 — Рыбалка и Маша-Лагуна
+Все новые и существенно перерабатываемые prompts пишутся по **полному** `PROMPT-STYLE-GUIDE.md`, не по краткому пересказу из чата.
 
-Утверждённый сюжет:
-- стартовый кадр: Саша и Паша рыбачат у озера;
-- вода начинает рябить;
-- Маша в форме Лава-Лагуны выходит из воды;
-- подходит к Саше лицом к лицу;
-- Саша: `«Маша?..»`;
-- сразу пощёчина;
-- Маша эмоционально: `«Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?»`;
-- Паша молчит, но ярко реагирует мимикой;
-- Саша: `«Ой, у нас же важное поручение!»`;
-- Саша и Паша срываются с места;
-- финал приходит к референсу бегущих ног/бега.
+Перед prompt:
+1. fresh prompt guide;
+2. fresh master;
+3. 1–2 релевантные current master scenes;
+4. затем master-level prompt.
 
-Референсы в scene prompt:
-- Image1 — старт рыбалки;
-- Image2 — финальный бег;
-- Image3/Image4 — Sasha/Pasha model sheets в фактической Topview task;
-- Image5 — Masha-Laguna.
+Expected depth, где применимо: technical line, exact references roles, identity/reference priority, story/timeline, camera/continuity, performance, dialogue/vocals/lip sync, lighting/material realism, native audio, scene-specific negative prompt, `FRAME FILL / NO BARS`.
 
-## 6. Topview — текущая проверенная привязка
+Новый Scene ID = следующий новый stable ID, если project state однозначен. Удалённые IDs не reuse. Пользователя номером не нагружать.
 
-На 20.09.2026 `topview-status.json` содержит все шесть canonical slow scenes и verified high-confidence mappings.
+## 6. Routine master write
 
-Exact current tasks:
-- Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b` — Seedance 2.5, init
-- Scene 12 → `8d2103753bb145b7990014bf83a6f652` — Wan 3.0, init
-- Scene 14 → `1fd5e89e6cd64b41af6a007a88d0939f` — Seedance 2.5, init
-- Scene 15 → `86d84863bf5e4b97b2ea9423ca514f84` — Wan 3.0, init
-- Scene 18 → `cd7c476566d84076aaa330274093ea15` — Wan 3.0, init
-- Scene 19 → `6ef310d646ca4605b5b10c12752b6ab7` — Wan 3.0, init
+`fresh Drive master → minimal same-ID edit → SYNC-TRIGGER → sync-from-drive.yml → validation → exact Drive/GitHub compare → project-status → Pages → report`
 
-ВАЖНО: ранее automation ошибочно назвала Scene 19 task mismatch. Это был false positive. Повторная проверка полного prompt task показала точное соответствие сцене 19: рыбалка Саши/Паши → выход Маши из воды → `Маша?..` → пощёчина → русские реплики → бег. Текущий mapping Scene 19 валиден.
+Не говорить `ГОТОВО` до verification.
 
-`Topview Slow Watch` должен сначала читать fresh Drive master и current `project-status.json`, затем сопоставлять exact task по полному содержанию сцены. Не сравнивать новую task со старым/кэшированным описанием Scene ID.
-
-## 7. Почему в последние дни было много красных/жёлтых состояний
-
-Добавление/удаление сцен само по себе не является проблемой и система должна это выдерживать. Ошибки возникали из четырёх отдельных классов:
-1. concurrent GitHub writers → non-fast-forward race;
-2. UTF-8 BOM → strict header validation fail;
-3. старое имя backup-runbook осталось в validator после rename;
-4. дублирование current-state фактов в нескольких инструкциях/handoff + stale Topview mapping logic → semantic false positives.
-
-Первые три технически исправлены. Четвёртый класс теперь должен предотвращаться правилами:
-- dynamic current facts (`counts`, `slow IDs`, current SHA, current Topview tasks) считаются live-authority только из fresh master + `project-status.json` + `topview-status.json`;
-- инструкции описывают правила, а не пытаются быть второй базой статуса;
-- checkpoint/historical sections не сравнивать как current invariant;
-- handoff содержит один явный current-state блок, исторические противоречивые слои удалены;
-- Topview task mapping проверять против current scene prompt, не против памяти/старого snapshot.
-
-На момент передачи система снова green/healthy.
-
-## 8. Control Center — что уже реализовано
+## 7. Control Center — что уже реализовано
 
 - русский UI;
-- объединённая slow/Topview таблица;
-- model/status/start/elapsed/queue/ETA;
-- трёхсостоянийный sync lightsaber;
 - active scene map + full prompts;
-- characters/references;
-- comments reader через GitHub Issue #8;
-- `FRAME FILL / NO BARS` во всех 18 текущих prompt blocks;
-- theme switch в верхней строке между `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и health lightsaber:
-  - `☀ Светлая сторона`
-  - `🌙 Тёмная сторона`
-  - выбор сохраняется в `localStorage` (`ai-film-theme`).
+- merged `⏳ Сейчас в медленной генерации — Topview`;
+- model/status/start/elapsed/queue/ETA;
+- three-state sync lightsaber;
+- character references;
+- theme switch `☀ Светлая сторона` / `🌙 Тёмная сторона`, `localStorage = ai-film-theme`;
+- раскрывающийся `Контрольный отпечаток`;
+- **сразу под ним отдельная раскрывающаяся шторка `💬 Комментарии, идеи и предложения`**;
+- отдельной кнопки `Архив GitHub` больше нет.
 
-Тема — presentation-only. Она не должна влиять на master/status/sync health.
+Native comments already live:
+- Supabase org `Vint`;
+- project `ai-film-comments`, ref `vzohfatqzyioydtgjiyd`;
+- Edge Function `submit-comment`;
+- public read + anonymous post + threaded replies;
+- RLS;
+- honeypot;
+- rate limit 5 сообщений / 10 минут / IP;
+- public frontend содержит только publishable key, **никогда service_role/admin secret**;
+- comments backend не может менять master, Scene IDs, slow-lock, approval или generation tasks.
 
-## 9. Комментарии прямо на сайте — реализовано
+Site-only edit → GitHub `index.html` → JS syntax + duplicate IDs + Pages verification. Scene/prompt data не hard-code.
 
-Нативные комментарии уже работают через Supabase без обязательного GitHub-аккаунта.
+## 8. Documentation maintenance — новая обязательная обязанность редактора
 
-- organization `Vint`; project `ai-film-comments`, ref `vzohfatqzyioydtgjiyd`;
-- public read published comments; anonymous posting; threaded replies через `parent_id`;
-- Edge Function `submit-comment`; honeypot; rate limit 5 сообщений / 10 минут / IP; RLS;
-- service-role/admin secret не находится в public `index.html`; backend не имеет прав на prompt master, Scene IDs, slow-lock, approval или генерации;
-- UI: отдельная раскрывающаяся шторка `💬 Комментарии, идеи и предложения` сразу под `Контрольный отпечаток`;
-- GitHub Issue #8 больше не основной comments UX.
+Любое material нововведение должно быть зафиксировано **в том же рабочем цикле**, а не оставлено только в чате/коде.
 
-## 10. Другие pending UI / infrastructure планы
+После новой функции сайта, backend, workflow, prompt rule, new authority/source, status type или другого process change:
+1. обновить все релевантные canonical Drive docs;
+2. обновить этот SAME-ID `NEW-CHAT-HANDOFF.md`;
+3. обновить `PROMPT-STYLE-GUIDE.md`, если изменились prompt rules;
+4. exact-mirror docs Drive → GitHub;
+5. refresh `instruction-sync-status.json`;
+6. rebuild/check `project-status.json` + Pages;
+7. refresh Notion operational pointer;
+8. refresh Library recovery copies/state files.
 
-- `Сейчас` view — будущий дополнительный режим, не реализован. Не внедрять без отдельного явного запроса.
-- personal domain `рудик.рф/промты` — не реализован; нужен реальный hosting/router access.
-- independent video playback без YouTube — будущая задача.
-- local deterministic `sync-master.ps1/.py` — будущий resilience helper, не реализован.
-- generated `workflow-status.json` — optional future hardening, пока не обязателен.
+Не накапливать contradictory append-only current snapshots. Переписывать current-state section до одного актуального состояния.
 
-## 11. Film/story priorities
+## 9. Seven-document instruction/recovery set
 
-Главный сюжетный пробел: логика карты/трёх фрагментов/артефактов и payoff Warcraft 3.
-
-Актуальные направления:
-- W5 — Канцлер и Warcraft 3 / мотивация;
-- W7 — переходы между группами;
-- W8 — транспорт/гонки;
-- Scene 17 — последствия боя с монстром и разговор о карте;
-- Sasha ideas — теперь источник конкретных монтажных/сюжетных предложений; Scene 19 уже выросла из одной такой идеи.
-
-Не массово переписывать NEEDS_FIX/NEEDS_RERENDER. Разбирать по одной сцене.
-
-## 12. Global prompt rules
-
-**Обязательный полный стандарт:** `PROMPT-STYLE-GUIDE.md`, Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`. Перед созданием или существенной переработкой prompt новый чат/сменщик обязан fresh-read этот файл и свериться минимум с 1–2 актуальными сценами master. Краткая памятка не заменяет полный guide. Если Scene ID однозначно определяется по fresh master, не спрашивать пользователя: брать следующий новый стабильный ID, не переиспользуя удалённые.
-
-- единый стиль/цветокоррекция/свет/окружение/дизайн персонажей;
-- physically stable cinematic camera motion; no random jitter;
-- coherent 3D space; no sudden geometry;
-- русская речь без акцента, если не оговорено иначе;
-- exact approved character model sheets важнее similarity;
-- global `FRAME FILL / NO BARS` во всех текущих и будущих prompts, если пользователь явно не отменит.
-
-## 13. Routine write procedure
-
-Для scene/prompt change:
-1. fresh-read exact Drive master;
-2. минимально изменить нужный Scene ID/TOC/count/slow markers;
-3. сохранить SAME Drive file ID;
-4. update GitHub `SYNC-TRIGGER.txt`;
-5. дождаться `sync-from-drive.yml`;
-6. verify validation;
-7. verify GitHub `video-prompts.md` == Drive;
-8. verify `project-status.json`;
-9. verify Pages;
-10. только потом говорить `ГОТОВО`.
-
-Для site-only UI:
-- меняется GitHub `index.html`;
-- после правки: JS syntax check + duplicate IDs + Pages verification;
-- scene/prompt content не hard-code в HTML.
-
-## 14. Canonical instruction files
-
-Drive authority:
-- Specialized mandatory prompt instruction: `PROMPT-STYLE-GUIDE.md` — `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` (обязателен для prompt work; пока не входит в пять файлов hourly Recovery Sync).
+- `NEW-CHAT-HANDOFF.md` — `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
 - `AI-PROJECT-GUIDE.md` — `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
 - `SYNC-RUNBOOK.md` — `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
 - `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
 - `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
 - `BACKUP-AI-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
+- `PROMPT-STYLE-GUIDE.md` — `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`
 
-Hourly `AI Film Recovery Sync` may repair only Drive → GitHub instruction mirrors. Never GitHub → Drive automatically.
+`AI Film Recovery Sync` должен exact-compare/mirror all seven Drive → GitHub and keep `instruction-sync-status.json` fresh. GitHub → Drive auto-write запрещён.
 
-## 15. Ready-to-paste command for the next chat
+## 10. Notion and Library
 
-> Продолжаем AI Film project. Сначала fresh-read Google Drive `NEW-CHAT-HANDOFF.md` (same ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`), `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, затем обязательный полный `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`), затем exact Drive `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. После этого проверь live GitHub `project-status.json`, `topview-status.json`, `instruction-sync-status.json`. Не используй старые Library/GitHub copies как editable master. Не переиспользуй Scene IDs 6/7/9. Current checkpoint: 16 active scenes, 19 prompts, W5/W7/W8, canonical slow 2,12,14,15,18,19; Scene 20 `Маша-Лагуна: рок-припев у озера` = Seedance 2.5, 30s, READY, не slow. Все новые/перерабатываемые prompts писать по `PROMPT-STYLE-GUIDE.md` на уровне сложности актуального master, без упрощения. Нативные комментарии уже реализованы через Supabase ref `vzohfatqzyioydtgjiyd` и находятся в раскрывающейся шторке под `Контрольный отпечаток`; они не имеют доступа к master. Перед `ГОТОВО` проверить Drive→GitHub sync, validation, Topview telemetry и Pages.
+Notion database `Кино` remains a story/idea/history source. Page `Важные промты` now marked as legacy prompt bank; current standard points to Drive `PROMPT-STYLE-GUIDE.md`.
+
+Library recovery mirror should be refreshed after material changes with seven instruction docs plus:
+- `READ-FIRST.txt`;
+- `SHIFT-HANDOFF.md`;
+- `SITE-STATUS.md`;
+- `CURRENT-STATE.json`;
+- handoff ZIP when maintained.
+
+Library copies never override Drive.
+
+## 11. Current story/work priorities
+
+Главный сюжетный пробел: логика карты/трёх фрагментов/артефактов и payoff Warcraft 3.
+
+Current work areas:
+- W5 — Канцлер и Warcraft 3 / motivation;
+- W7 — переходы между группами;
+- W8 — транспорт/гонки;
+- Scene 17 — последствия боя с монстром и разговор о карте.
+
+Не mass-rewrite `NEEDS_FIX` / `NEEDS_RERENDER`; разбирать по одной сцене.
+
+## 12. Known resilience rules
+
+- concurrent writer race: current sync refetch/rebuild/retry;
+- master UTF-8 without BOM;
+- current backup filename only `BACKUP-AI-RUNBOOK.md`;
+- historical counts/SHA/task estimates = evidence, not live invariant;
+- old `Run failed` email does not prove current failure if a newer successful sync/status exists;
+- Topview mapping проверять against fresh canonical scene body, not stale handoff text.
+
+## 13. One-line takeover command
+
+> Прими AI Film project только после полного reading gate из семи инструкций, fresh Drive master и live status JSON. Сохраняй Drive как единственный prompt master, пиши prompts только по full `PROMPT-STYLE-GUIDE.md`, сам определяй следующий stable Scene ID, синхронизируй same-ID edits через GitHub workflow, а любое material нововведение сразу фиксируй в relevant Drive docs + SAME handoff + GitHub + Notion pointer + Library recovery. Не задавай повторных вопросов, если ответ уже есть в канонических источниках.
