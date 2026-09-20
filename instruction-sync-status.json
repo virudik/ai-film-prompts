@@ -1,102 +1,24 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T23:04:10Z",
+  "checked_at": "2026-09-20T23:41:23Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T23:00:51.765Z",
-      "github_blob": "648586f6dc3318cd60c96d096a5229d6cf7e7684",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T23:00:46.764Z",
-      "github_blob": "18ca8bf705fed2763fe194f219cd9692d2ccfbf0",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T23:01:01.981Z",
-      "github_blob": "188603b94443d99c3a4c16f1746d9a20ac111ac5",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T23:01:06.489Z",
-      "github_blob": "a87e47aa072f24e10ff6846665edda23081a84b8",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T23:01:10.630Z",
-      "github_blob": "1718e826342567f21abf44f8a924b3fd004f3171",
-      "match": true
-    },
-    "NEW-CHAT-HANDOFF.md": {
-      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-20T23:00:41.813Z",
-      "github_blob": "369dae8333d65ac8d3183370ba003875f3be759f",
-      "match": true
-    },
-    "PROMPT-STYLE-GUIDE.md": {
-      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T23:00:57.574Z",
-      "github_blob": "b600a313347d13ab5272be85a1f8017c701a016d",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-20T23:00:51.765Z","github_blob":"648586f6dc3318cd60c96d096a5229d6cf7e7684","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-20T23:00:46.764Z","github_blob":"18ca8bf705fed2763fe194f219cd9692d2ccfbf0","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-20T23:01:01.981Z","github_blob":"188603b94443d99c3a4c16f1746d9a20ac111ac5","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-20T23:01:06.489Z","github_blob":"a87e47aa072f24e10ff6846665edda23081a84b8","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-20T23:01:10.630Z","github_blob":"1718e826342567f21abf44f8a924b3fd004f3171","match":true},
+    "NEW-CHAT-HANDOFF.md": {"drive_file_id":"1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD","drive_modified_at":"2026-09-20T23:00:41.813Z","github_blob":"369dae8333d65ac8d3183370ba003875f3be759f","match":true},
+    "PROMPT-STYLE-GUIDE.md": {"drive_file_id":"14VzE8DwjKIquGJWENci6rYWj_1xEn34d","drive_modified_at":"2026-09-20T23:00:57.574Z","github_blob":"b600a313347d13ab5272be85a1f8017c701a016d","match":true}
   },
-  "semantic_check": {
-    "health": "ok",
-    "conflicts": []
-  },
-  "takeover_requirements": {
-    "character_registry": "references.html + character-references.json",
-    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
-    "readiness_audit": true
-  },
-  "topview_scene_intake": {
-    "enabled": true,
-    "automation_title": "Topview Scene Intake & Slow Watch",
-    "rule": "Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."
-  },
-  "note": "Seven-document mirror re-verified after final Service Files layout update: 7 ordered instruction buttons and 3 project-data buttons, with both groups stacked vertically.",
-  "recovery_sync": {
-    "automation_title": "AI Film Recovery Sync",
-    "schedule": "hourly",
-    "hourly_light": true,
-    "daily_deep": true,
-    "deep_audit_status_file": "deep-audit-status.json",
-    "deep_audit_interval_hours": 24,
-    "note": "Daily deep audit runs inside the hourly Recovery automation when due; Topview Scene Intake & Slow Watch remains separate."
-  },
-  "service_files_ui": {
-    "instruction_count": 7,
-    "instruction_layout": "vertical",
-    "instruction_order": [
-      "NEW-CHAT-HANDOFF.md",
-      "SYNC-RUNBOOK.md",
-      "AI-PROJECT-GUIDE.md",
-      "PROMPT-STYLE-GUIDE.md",
-      "USER-GUIDE.md",
-      "README-AI-SYNC.md",
-      "BACKUP-AI-RUNBOOK.md"
-    ],
-    "project_data_links": [
-      "video-prompts.md",
-      "film-analysis.md",
-      "film-backlog.md"
-    ],
-    "project_data_layout": "vertical",
-    "project_data_order": [
-      "video-prompts.md",
-      "film-analysis.md",
-      "film-backlog.md"
-    ],
-    "note": "Seven instructions are shown vertically 1-7; project-data links are a separate vertical group and are not additional instructions."
-  }
+  "semantic_check": {"health":"ok","conflicts":[]},
+  "takeover_requirements": {"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
+  "topview_scene_intake": {"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","rule":"Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."},
+  "note":"Hourly light recovery verification refreshed; canonical Drive modification timestamps remain identical to the previously exact-verified seven-file snapshot and GitHub blobs remain unchanged.",
+  "recovery_sync": {"automation_title":"AI Film Recovery Sync","schedule":"hourly","hourly_light":true,"daily_deep":true,"deep_audit_status_file":"deep-audit-status.json","deep_audit_interval_hours":24,"note":"Daily deep audit runs inside the hourly Recovery automation when due; Topview Scene Intake & Slow Watch remains separate."},
+  "service_files_ui": {"instruction_count":7,"instruction_layout":"vertical","instruction_order":["NEW-CHAT-HANDOFF.md","SYNC-RUNBOOK.md","AI-PROJECT-GUIDE.md","PROMPT-STYLE-GUIDE.md","USER-GUIDE.md","README-AI-SYNC.md","BACKUP-AI-RUNBOOK.md"],"project_data_links":["video-prompts.md","film-analysis.md","film-backlog.md"],"project_data_layout":"vertical","project_data_order":["video-prompts.md","film-analysis.md","film-backlog.md"],"note":"Seven instructions are shown vertically 1-7; project-data links are a separate vertical group and are not additional instructions."}
 }
