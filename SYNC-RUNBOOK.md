@@ -299,3 +299,36 @@ Refresh exact comparisons; не объявлять master broken только и
 - Library recovery current.
 
 Не писать пользователю `ГОТОВО`, если relevant verification не завершена.
+
+## 16. Character / film-context preflight для нового чата
+
+Перед takeover-ready новый чат дополнительно обязан:
+1. открыть `references.html` и прочитать `character-references.json`;
+2. построить name/alias/model-sheet mapping и сверить active scene usage с fresh master;
+3. открыть `Seregius_montazhny_razbor.html`;
+4. сверить его current-useful conclusions с `film-analysis.md`, `film-backlog.md` и при необходимости Notion `Кино`;
+5. сохранить в рабочем контексте компактную карту персонажей и монтажных приоритетов, а не тащить гигантские base64/images/HTML целиком в каждый последующий turn.
+
+Для natural-language scene requests сначала resolve имена через registry/master. Approved model sheet = identity authority. Current master = scene usage authority. Не просить пользователя повторно описывать зарегистрированного персонажа.
+
+## 17. Takeover readiness audit
+
+До сообщения `ГОТОВ ПРОДОЛЖАТЬ` проверить:
+- 7/7 canonical Drive docs readable;
+- 7/7 GitHub mirrors exact-match Drive;
+- fresh instruction status;
+- master/status consistency;
+- site baseline and Pages;
+- character registry/reference viewer availability and obvious scene-usage drift;
+- montage report + film-analysis/backlog availability;
+- Notion operational pointer current enough for navigation;
+- Library recovery copies marked recovery-only and not misleadingly newer/authoritative.
+
+Safe documentation drift может быть исправлен сразу по Drive→GitHub authority. Master/story/approval conflicts требуют user decision.
+
+## 18. Что имеет смысл проверять автоматически, а что нет
+
+Hourly recovery может делать **лёгкий integrity audit**: seven-doc mirror/freshness, site-file/link presence, наличие `character-references.json`, `references.html`, montage HTML, `film-analysis.md`, `film-backlog.md`, отсутствие явного public admin secret, и известные semantic invariants. Не нужно ежечасно заново читать/переписывать весь монтажный анализ или весь character image payload — это создаёт лишнюю нагрузку и шум.
+
+Глубокая семантическая сверка персонажей с новыми prompts выполняется при material scene/prompt change и на takeover. Notion/Library можно проверять на явную устарелость, но автоматический hourly repair туда не должен слепо писать без необходимости.
+
