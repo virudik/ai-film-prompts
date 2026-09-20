@@ -205,3 +205,26 @@ Takeover context теперь включает не только instructions + 
 
 Hourly automation должна оставаться лёгкой: проверять наличие/целостность этих слоёв и предупреждать о drift, но не перечитывать/перегенерировать тяжёлый montage HTML или image payload каждый час.
 
+## Topview auto-intake flow
+
+Для genuinely new Topview video task:
+
+`Topview new video task`
+→ duplicate/retry guard
+→ actual task prompt/model/reference metadata
+→ next stable Scene ID
+→ SAME Drive master write
+→ canonical slow if running / `RESULT_RECEIVED` if already success
+→ `SYNC-TRIGGER.txt`
+→ `sync-from-drive.yml`
+→ validation
+→ GitHub mirror / `project-status.json`
+→ Pages
+→ task↔Scene mapping / telemetry refresh.
+
+Actual Topview prompt сохраняется verbatim как фактически использованный source prompt. Автоимпорт не может превращать технический `success` в user approval.
+
+## Service-files UI
+
+`index.html` → `Служебные файлы` показывает все seven canonical/recovery docs русскими названиями, а также master, film-analysis и backlog.
+
