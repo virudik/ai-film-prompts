@@ -701,3 +701,27 @@ Snapshot examples ниже/выше — эталоны **сложности и �
 - обновить Library recovery copies.
 
 Следующий чат обязан знать: prompt style не хранится «в памяти прошлого чата». Он хранится здесь и в живом master. Если пользователь формулирует новую сцену кратко, задача редактора — самостоятельно развернуть её до принятого master-level формата, не заставляя пользователя повторно диктовать техническую структуру.
+
+## 16. Имена персонажей → exact identity в prompt
+
+Перед написанием новой сцены редактор обязан разрешить имена через `character-references.json` + current `video-prompts.md`. Пользователь может задавать сцену человеческим языком — например, «Паша говорит Саше, затем заходит Серёжа» — и не обязан каждый раз повторять внешность.
+
+Для каждого известного персонажа в prompt:
+- использовать canonical name;
+- назначить exact attached model sheet как PRIMARY identity reference, если он доступен в этой generation task;
+- кратко зафиксировать отличительные черты лица/телосложения/прически/костюма из approved model sheet/current scene variant;
+- не переносить одежду из другой сцены, если current scene требует иной approved variant;
+- не позволять environment/group reference переопределять индивидуальную identity.
+
+Global registry на текущем checkpoint: **Серёга (Канцлер/The Chancellor), Юля, Паша (JEDI-A/Navy Jedi), Артём (Bearded Jedi), Илюша (Hooded Jedi), Саша (JEDI-B/Glasses Jedi), Лёша (PURPLE), Виталик (BLACK)**. В однозначном контексте `Серёжа` resolve → `Серёга`.
+
+Персонажи, существующие только в конкретных current prompts (например Маша-Лагуна или Imperial Officer), разрешаются через fresh scene references/master. Не выдумывать global model sheet для персонажа, которого там нет.
+
+Если user name/alias реально может относиться к двум разным людям и current sources не снимают неоднозначность, задать один точный вопрос. В остальных случаях resolve самостоятельно.
+
+## 17. Связь prompt с монтажным контекстом
+
+Перед созданием сцены следующий чат уже должен быть ознакомлен с `Seregius_montazhny_razbor.html`, `film-analysis.md` и `film-backlog.md`. При разработке новой сцены учитывать её монтажную функцию: что было до неё, что должно стать понятнее после неё, какие сюжетные/диалоговые проблемы она закрывает и не дублирует ли уже существующий beat.
+
+Монтажный анализ — context/recommendation layer, не второй prompt master. Новый explicit user decision и current master имеют приоритет над старой рекомендацией.
+
