@@ -1,6 +1,6 @@
 # PROMPT-STYLE-GUIDE — единый стандарт видео-промтов
 
-**Версия:** 1.0  
+**Версия:** 1.1  
 **Дата:** 20.09.2026  
 **Назначение:** обязательная специализированная инструкция для текущего редактора и любого следующего чата/сменщика AI Film Project.
 
@@ -14,13 +14,17 @@
 
 ## 2. Когда читать
 
+Этот файл является частью обязательного seven-document takeover set. Новый чат сначала читает `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, этот `PROMPT-STYLE-GUIDE.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `BACKUP-AI-RUNBOOK.md`, а затем fresh master и live status JSON.
+
 Перед написанием **любого нового prompt** или существенной переработкой существующего prompt текущий чат/сменщик обязан:
 
-1. fresh-read `NEW-CHAT-HANDOFF.md`;
-2. прочитать этот `PROMPT-STYLE-GUIDE.md`;
-3. fresh-read exact Drive `video-prompts.md`;
-4. открыть минимум 1–2 актуальные сцены master, наиболее близкие к задаче;
+1. fresh-read этот `PROMPT-STYLE-GUIDE.md`;
+2. fresh-read exact Drive `video-prompts.md`;
+3. открыть минимум 1–2 актуальные сцены master, наиболее близкие к задаче;
+4. проверить current Scene ID / engine / reference assignment;
 5. только затем писать новый prompt.
+
+Нельзя заменять этот full guide кратким пересказом из переписки или памятью предыдущего чата.
 
 Для добавления новой сцены не спрашивать номер, если его можно определить из проекта. Scene IDs стабильны; удалённые номера не переиспользуются. Новый ID = следующий ещё не использованный стабильный Scene ID после последнего известного ID проекта. На checkpoint 20.09.2026 после Scene 19 следующая новая сцена получила ID 20.
 
@@ -657,3 +661,20 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 Если новый prompt заметно беднее по структуре, чем свежие Scenes 2 / 14 / 18 / 19 / 20, он **не готов** и должен быть доработан до master-level.
 
 Сменщик не должен просить пользователя заново объяснять уже известные project rules. Если задача однозначно выводится из fresh master + handoff + этого guide, нужно продолжать работу по установленному workflow.
+
+
+## 14. Documentation / handoff maintenance for prompt changes
+
+Prompt-writing standard — не отдельная статичная памятка. Если в ходе работы появляется новое повторяемое правило, которое должно действовать для будущих сцен (новый обязательный block, новый reference-priority rule, новое continuity/audio/camera правило, новая engine-specific практика), текущий редактор обязан в том же цикле:
+
+1. обновить **этот SAME Drive `PROMPT-STYLE-GUIDE.md`**;
+2. обновить relevant `AI-PROJECT-GUIDE.md`, `USER-GUIDE.md`, `BACKUP-AI-RUNBOOK.md`;
+3. обновить `NEW-CHAT-HANDOFF.md`, если правило важно для takeover/current workflow;
+4. exact-mirror Drive → GitHub;
+5. refresh `instruction-sync-status.json`;
+6. refresh Library recovery copy;
+7. update Notion operational pointer if rule changes how future chats should work.
+
+Не создавать `PROMPT-STYLE-GUIDE-v2/final/copy`. Правится тот же canonical Drive file ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`.
+
+Snapshot examples ниже/выше — эталоны **сложности и структуры**, а не eternal current scene truth. Перед копированием решения всегда смотреть fresh master.
