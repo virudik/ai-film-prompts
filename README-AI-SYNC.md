@@ -245,6 +245,6 @@ The separate `Topview Scene Intake & Slow Watch` continues to own Topview task i
 
 Control Center `Служебные файлы` имеет две логические группы:
 - `Инструкции — читать по порядку`: ровно 7 canonical docs, вертикально 1→7;
-- `Рабочие файлы проекта`: `video-prompts.md`, `film-analysis.md`, `film-backlog.md`.
+- `Рабочие файлы проекта`: `video-prompts.md`, `film-analysis.md`, `film-backlog.md`, также вертикально один под другим в порядке master → analysis → backlog.
 
 Machine/recovery logic должна считать instruction set размером 7 независимо от количества project-data links в UI.
