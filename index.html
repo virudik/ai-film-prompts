@@ -15,7 +15,7 @@ button,input{font:inherit}a{color:var(--accent);text-decoration:none}a:hover{tex
 .side{position:sticky;top:0;height:100vh;overflow:auto;border-right:1px solid var(--line);background:rgba(16,20,25,.96);backdrop-filter:blur(12px);padding:18px}
 .main{min-width:0;padding:26px 34px 90px;max-width:1320px;width:100%;margin:auto}
 .brand-row{display:flex;align-items:center;gap:9px}.brand-mark{width:10px;height:10px;border-radius:50%;background:var(--ok);box-shadow:0 0 18px rgba(121,213,140,.6)}.brand{font-weight:850;font-size:18px}.sub{font-size:12px;color:var(--muted);margin:4px 0 14px}
-.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:8px 6px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap}.links a.wide{grid-column:1/-1}.links a.analysis,.links a.references{border-color:#42617f;background:#101a25;color:#dceeff}.links a.analysis:hover,.links a.references:hover{border-color:#485665;background:var(--panel2);color:white;text-decoration:none}.service-files{margin:0 0 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel3)}.service-files summary{cursor:pointer;padding:9px 10px;color:#aeb9c4;font-size:11px;font-weight:750}.service-files .links{padding:0 8px 8px;margin:0}.service-files[open] summary{color:#e1e8ef}.advanced-filters{width:100%;margin-top:2px;border-top:1px solid #202832;padding-top:5px}.advanced-filters summary{cursor:pointer;color:#8f9aa6;font-size:10px;padding:3px 2px}.advanced-filter-list{display:flex;flex-wrap:wrap;gap:6px;padding-top:6px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:0 0 14px}.links a{font-size:12px;text-align:center;padding:8px 6px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#cdd7e1;line-height:1.2}.links a:hover{background:var(--panel2);text-decoration:none;color:white}.links a.ai-guide{white-space:nowrap}.links a.wide{grid-column:1/-1}.links a.analysis,.links a.references{border-color:#42617f;background:#101a25;color:#dceeff}.links a.analysis:hover,.links a.references:hover{border-color:#485665;background:var(--panel2);color:white;text-decoration:none}.service-files{margin:0 0 10px;border:1px solid var(--line);border-radius:9px;background:var(--panel3)}.service-files summary{cursor:pointer;padding:9px 10px;color:#aeb9c4;font-size:11px;font-weight:750}.service-files[open] summary{color:#e1e8ef}.service-file-sections{padding:0 8px 9px}.service-file-group+ .service-file-group{margin-top:10px;padding-top:9px;border-top:1px solid var(--line)}.service-file-title{margin:0 0 6px;color:#8996a3;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em}.service-instruction-list{display:flex;flex-direction:column;gap:5px}.service-instruction-list a{display:flex;align-items:center;gap:8px;padding:8px 9px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#cdd7e1;font-size:12px;line-height:1.25}.service-instruction-list a:hover,.service-project-grid a:hover{background:var(--panel2);color:white;text-decoration:none}.service-order{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;border:1px solid #3b4b5b;border-radius:6px;color:#9fb1c2;font-size:10px;font-weight:850}.service-project-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px}.service-project-grid a{font-size:11px;text-align:center;padding:8px 6px;border:1px solid var(--line);border-radius:8px;background:var(--panel3);color:#b9c5d0;line-height:1.2}.service-project-grid a:last-child{grid-column:1/-1}.advanced-filters{width:100%;margin-top:2px;border-top:1px solid #202832;padding-top:5px}.advanced-filters summary{cursor:pointer;color:#8f9aa6;font-size:10px;padding:3px 2px}.advanced-filter-list{display:flex;flex-wrap:wrap;gap:6px;padding-top:6px}
 .search-wrap{position:relative}.search{width:100%;padding:11px 36px 11px 11px;border-radius:10px;border:1px solid var(--line);background:var(--panel3);color:var(--text);outline:none}.search:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(125,187,255,.08)}.clear-search{position:absolute;right:8px;top:7px;width:27px;height:27px;border:0;border-radius:7px;background:transparent;color:var(--muted);cursor:pointer;display:none}.clear-search:hover{background:var(--panel2);color:white}
 .filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}.filter-chip{border:1px solid var(--line);background:var(--panel3);color:#bcc6d0;border-radius:999px;padding:5px 9px;font-size:11px;cursor:pointer}.filter-chip:hover{border-color:#485665;color:white}.filter-chip.active{border-color:#527ca8;background:#132235;color:#e8f3ff}.filter-chip.slow.active{border-color:#755f2c;background:#251f12;color:var(--warn)}
 .nav-meta{display:flex;justify-content:space-between;align-items:center;margin:0 1px 7px;color:var(--muted);font-size:11px}#toc{display:flex;flex-direction:column;gap:4px}
@@ -62,14 +62,30 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <a class="references wide" href="references.html">Персонажи / Референсы</a>
 <a class="analysis wide" href="Seregius_montazhny_razbor.html" target="_blank">Монтажный разбор фильма</a>
 </div>
-<details class="service-files"><summary>Служебные файлы</summary><div class="links">
-<a class="wide" href="NEW-CHAT-HANDOFF.md" target="_blank">Передача дел новому чату</a>
-<a class="ai-guide" href="AI-PROJECT-GUIDE.md" target="_blank">Главная инструкция проекта</a><a href="PROMPT-STYLE-GUIDE.md" target="_blank">Стандарт написания промтов</a>
-<a href="SYNC-RUNBOOK.md" target="_blank">Инструкция по синхронизации</a><a href="README-AI-SYNC.md" target="_blank">Схема синхронизации и хранилищ</a>
-<a href="USER-GUIDE.md" target="_blank">Инструкция владельца</a><a href="BACKUP-AI-RUNBOOK.md" target="_blank">Инструкция резервного ИИ</a>
-<a href="video-prompts.md" target="_blank">Канонический мастер промтов</a><a href="film-analysis.md" target="_blank">Карта и анализ фильма</a>
-<a class="wide" href="film-backlog.md" target="_blank">Рабочий бэклог фильма</a>
-</div></details>
+<details class="service-files"><summary>Служебные файлы</summary>
+<div class="service-file-sections">
+  <div class="service-file-group">
+    <div class="service-file-title">Инструкции — читать по порядку</div>
+    <div class="service-instruction-list">
+      <a href="NEW-CHAT-HANDOFF.md" target="_blank"><span class="service-order">1</span><span>Передача дел новому чату</span></a>
+      <a href="SYNC-RUNBOOK.md" target="_blank"><span class="service-order">2</span><span>Инструкция по синхронизации</span></a>
+      <a href="AI-PROJECT-GUIDE.md" target="_blank"><span class="service-order">3</span><span>Главная инструкция проекта</span></a>
+      <a href="PROMPT-STYLE-GUIDE.md" target="_blank"><span class="service-order">4</span><span>Стандарт написания промтов</span></a>
+      <a href="USER-GUIDE.md" target="_blank"><span class="service-order">5</span><span>Инструкция владельца</span></a>
+      <a href="README-AI-SYNC.md" target="_blank"><span class="service-order">6</span><span>Схема синхронизации и хранилищ</span></a>
+      <a href="BACKUP-AI-RUNBOOK.md" target="_blank"><span class="service-order">7</span><span>Инструкция резервного ИИ</span></a>
+    </div>
+  </div>
+  <div class="service-file-group service-project-files">
+    <div class="service-file-title">Рабочие файлы проекта</div>
+    <div class="service-project-grid">
+      <a href="video-prompts.md" target="_blank">Канонический мастер промтов</a>
+      <a href="film-analysis.md" target="_blank">Карта и анализ фильма</a>
+      <a href="film-backlog.md" target="_blank">Рабочий бэклог фильма</a>
+    </div>
+  </div>
+</div>
+</details>
 <div class="search-wrap"><input id="search" class="search" placeholder="Сцена 17, карта, диалог…" autocomplete="off" /><button id="clearSearch" class="clear-search">×</button></div>
 <div id="filters" class="filters"></div><div class="nav-meta"><span id="resultCount">Разделы</span><span id="activeFilter">Все</span></div>
 <nav id="toc"><div class="empty">Загрузка…</div></nav>
