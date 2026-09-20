@@ -371,3 +371,8 @@ Library:
 
 `Topview Scene Intake & Slow Watch` остаётся отдельной automation: только она занимается Topview intake/slow telemetry и авторизованным созданием новых Scene ID из genuinely new Topview video tasks. Recovery Sync не создаёт сцены и не дублирует Topview intake.
 
+## 22. Семь инструкций ≠ все ссылки в «Служебных файлах»
+
+Seven-document set состоит ровно из семи canonical instruction/recovery файлов. На сайте они должны идти **одной вертикальной колонкой в обязательном порядке чтения 1→7**: HANDOFF → Sync Runbook → Project Guide → Prompt Style Guide → User Guide → README AI Sync → Backup AI Runbook.
+
+`video-prompts.md`, `film-analysis.md`, `film-backlog.md` расположены ниже в отдельной группе **«Рабочие файлы проекта»**. Это данные/контекст проекта, не дополнительные инструкции и не копии.
