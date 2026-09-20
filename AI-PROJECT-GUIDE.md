@@ -215,3 +215,34 @@ Consensus ИИ — evidence, not authority.
 - Под блоком `🛠️ Сцены в работе` / `Ближайшие направления` добавлен публичный раздел `💬 Комментарии / идеи и предложения`. Хранилище обсуждения — GitHub Issue #8 `Идеи и предложения к фильму`; сайт читает его комментарии через public GitHub API. Для публикации/ответа нужен GitHub account; чтение доступно публично. Комментарии не меняют master и не запускают генерации.
 - Во все 18 актуальных fenced prompt blocks canonical `video-prompts.md` добавлено единое правило заполнения кадра: `FRAME FILL / NO BARS` — output edge-to-edge, без letterboxing, pillarboxing, black/side bars, decorative borders и пустых полей. Это глобальное prompt-ограничение для текущих активных промтов.
 - Email Monitor должен считать GitHub `Run failed` текущим incident только после сравнения с более свежим live `project-status.json` / instruction status / успешным sync. Старые failure-email после более нового success не обозначать как продолжающуюся поломку.
+
+
+## Stability/current-state policy — 20.09.2026
+
+Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
+
+Правило с этого checkpoint:
+- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
+- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
+- исторические/checkpoint значения не являются live invariants;
+- instruction files задают правила, а не являются параллельной базой runtime-status;
+- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
+
+На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+
+Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
+
+
+## Control Center current/pending UI — 20.09.2026
+
+Уже реализовано:
+- theme switch в header между `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и lightsaber health: `☀ Светлая сторона` / `🌙 Тёмная сторона`;
+- выбор темы сохраняется в `localStorage` ключ `ai-film-theme`;
+- theme — presentation-only и не влияет на master/sync/telemetry.
+
+Новый явный пользовательский план:
+- посетитель должен уметь читать, писать и отвечать на комментарии прямо на сайте **без GitHub-аккаунта**;
+- текущий GitHub Issue #8 reader остаётся временным/резервным до миграции;
+- предпочтительная реализация — Supabase comments backend: public read, anonymous insert, replies через `parent_id`, sanitization, rate-limit/anti-spam, при необходимости moderation;
+- service-role/admin secret запрещено помещать в client HTML; использовать безопасные RLS/public anon policies либо server-side endpoint;
+- comments никогда не получают права менять prompt master, Scene IDs, slow-lock, approval или запускать генерации.
