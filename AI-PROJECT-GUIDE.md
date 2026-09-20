@@ -21,10 +21,11 @@
 1. `NEW-CHAT-HANDOFF.md`
 2. `SYNC-RUNBOOK.md`
 3. этот файл
-4. fresh Drive `video-prompts.md`
-5. live GitHub `project-status.json`
-6. live `topview-status.json`
-7. live `instruction-sync-status.json`
+4. `PROMPT-STYLE-GUIDE.md` — полный обязательный стандарт prompt-writing, Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`
+5. fresh Drive `video-prompts.md`
+6. live GitHub `project-status.json`
+7. live `topview-status.json`
+8. live `instruction-sync-status.json`
 8. при story/continuity — `film-analysis.md` + `film-backlog.md`
 
 
@@ -35,13 +36,14 @@
 
 
 На момент передачи:
-- 15 active scenes
-- 18 prompt texts
+- 16 active scenes
+- 19 prompt texts
 - W5, W7, W8
 - canonical slow list: 2, 12, 14, 15, 18, 19
 - Scene 2: по новому прямому решению пользователя возвращена в canonical slow-list; prompt остаётся active.
 - Scenes 6, 7 and 9: удалены из active master как больше не актуальные.
-- Scenes 2, 12, 14, 15, 18 and 19 are the current canonical slow set; Scene 19 «Рыбалка и Маша-Лагуна» — новый активный 30s prompt для Wan 3.0.
+- Scenes 2, 12, 14, 15, 18 and 19 are the current canonical slow set; Scene 19 «Рыбалка и Маша-Лагуна» — активный 30s prompt для Wan 3.0.
+- Scene 20 «Маша-Лагуна: рок-припев у озера» — active READY, Seedance 2.5, 30s, not slow; @Image1 location, @Image2 Masha identity.
 
 
 Topview success != user approval. Slow scene нельзя перезапускать или снимать с slow автоматически без результата/ошибки/решения пользователя.
@@ -51,6 +53,14 @@ Topview success != user approval. Slow scene нельзя перезапуска
 
 
 `fresh Drive master → edit same Drive file ID → update SYNC-TRIGGER.txt → sync-from-drive.yml → validation → GitHub mirror + project-status.json → GitHub Pages → verification`
+
+## Обязательный стандарт написания промтов
+
+Полная нормативная инструкция: `PROMPT-STYLE-GUIDE.md`, Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`. Это **не краткая памятка**, а обязательный основной стандарт для всех новых и существенно перерабатываемых видео-промтов. Перед prompt-work редактор обязан fresh-read этот файл и затем посмотреть 1–2 актуальные master-сцены как живые примеры.
+
+Стандарт требует, где применимо: техническую строку; точные роли references; reference priority; Scene/Style/Environment; timeline/story flow; camera/continuity; performance; dialogue/vocals/lip sync; lighting/material/production design; native audio; scene-specific negative prompt; глобальный `FRAME FILL / NO BARS`. Детали адаптируются под сцену и движок, но уровень проработки не упрощается до короткого общего описания.
+
+Новый Scene ID определяется автоматически из fresh master: использовать следующий новый стабильный ID и не переиспользовать удалённые IDs. Если ID однозначно выводится из проекта, не спрашивать пользователя.
 
 
 Приватные instruction files GitHub Actions анонимно не скачивает.
@@ -228,7 +238,7 @@ Consensus ИИ — evidence, not authority.
 - instruction files задают правила, а не являются параллельной базой runtime-status;
 - при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
 
-На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+На 20.09.2026 live state: 16 active scenes, 19 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
 
 Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
 
@@ -246,3 +256,10 @@ Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3
 - предпочтительная реализация — Supabase comments backend: public read, anonymous insert, replies через `parent_id`, sanitization, rate-limit/anti-spam, при необходимости moderation;
 - service-role/admin secret запрещено помещать в client HTML; использовать безопасные RLS/public anon policies либо server-side endpoint;
 - comments никогда не получают права менять prompt master, Scene IDs, slow-lock, approval или запускать генерации.
+
+
+## Current implementation update — Scene 20 / prompt style / comments
+
+- Current checkpoint after Scene 20: 16 active scenes, 19 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`; Scene 20 READY / Seedance 2.5 / not slow. Current SHA/health are live-status facts, not duplicated authority here.
+- Native comments are already implemented via Supabase organization `Vint`, project `ai-film-comments` / ref `vzohfatqzyioydtgjiyd`: public read, anonymous posting, replies, RLS, honeypot/rate limit, no master mutation rights. UI is a collapsible `💬 Комментарии, идеи и предложения` section below `Контрольный отпечаток`. Any older “next step” wording about comments is historical and superseded by this section.
+- All future prompt work must follow the full `PROMPT-STYLE-GUIDE.md`; do not substitute a shortened guide.
