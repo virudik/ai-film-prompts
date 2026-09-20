@@ -40,3 +40,13 @@ Current site includes active-scene navigation, full prompts, merged slow/Topview
 ## Material-change rule
 
 A material site/workflow/prompt-standard/authority change is not complete until the relevant Drive instructions and `NEW-CHAT-HANDOFF.md` are updated, mirrored to GitHub, verification status is refreshed, and recovery notes in Notion/Library are updated where applicable.
+
+## New-chat takeover
+Before acting as the project editor, a new chat must read all seven canonical project/recovery documents mirrored in this repository, then fresh Google Drive `video-prompts.md` and live status JSON. It must also review:
+- [Characters / references](./references.html) + `character-references.json` to map canonical names/aliases to approved model sheets and current prompt usage;
+- [Montage analysis](./Seregius_montazhny_razbor.html) together with `film-analysis.md` and `film-backlog.md`.
+
+Only after a cross-layer audit of Drive ↔ GitHub ↔ site ↔ references ↔ montage context ↔ Notion ↔ Library should the new chat report that it is ready to continue the predecessor's work.
+
+Natural-language character shorthand is expected: requests such as “Паша говорит Саше, потом заходит Серёжа” should be resolved from the approved character registry/current master without asking the user to repeat known appearance.
+
