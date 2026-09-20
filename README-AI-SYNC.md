@@ -116,3 +116,15 @@ Race retry and BOM normalization are now verified by multiple successful Drive-s
 ## Recovery-warning UI
 
 The Control Center keeps a recovered error visible in yellow until three consecutive successful sync workflow runs have followed the latest detected failure. Current unresolved failure or stale/unhealthy state is red; stable healthy state is green. Exact sync time is shown without a redundant relative `N minutes ago`. A Topview-success task that remains in the canonical slow list is labeled as waiting for user decision.
+
+
+## Current-state authority — 20.09.2026
+
+Dynamic runtime facts не должны размножаться как независимые истины по инструкциям:
+- current master content/counts/slow → fresh Drive `video-prompts.md` + generated `project-status.json`;
+- current Topview task/status/queue/ETA → `topview-status.json` after exact task verification;
+- historical/checkpoint SHA/counts в документации — evidence only.
+
+Добавление/удаление Scene ID не должно вызывать health error само по себе. Validator должен проверять согласованность текущего master, а semantic checker — отличать current claims от исторических snapshot-ов.
+
+Checkpoint 20.09.2026: 15 scenes, 18 prompts, slow `2,12,14,15,18,19`, health ok. Theme toggle уже реализован; direct anonymous site comments — следующий UI/backend plan.
