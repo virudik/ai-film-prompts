@@ -272,3 +272,11 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 При recovery обязательно проверять, что одна Topview task не импортирована дважды.
 
+## 18. Recovery automation topology
+
+Резервный агент должен ожидать две служебные automation:
+1. `AI Film Recovery Sync` — hourly light check, плюс daily deep audit внутри того же hourly schedule по `deep-audit-status.json`;
+2. `Topview Scene Intake & Slow Watch` — отдельный production intake/slow watcher.
+
+При takeover проверить `deep-audit-status.json`: когда был последний successful deep audit, какие sections/warnings/unresolved. Старый/missing/failed status означает, что deep audit должен быть выполнен следующим Recovery run или вручную до уверенного readiness report.
+
