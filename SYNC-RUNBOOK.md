@@ -356,3 +356,21 @@ Hourly recovery может делать **лёгкий integrity audit**: seven-
 
 Control Center → **Служебные файлы** обязан давать прямые ссылки на все семь canonical/recovery docs с понятными русскими названиями, а также на master, film analysis и backlog. После изменения этого блока проверять JS syntax, duplicate IDs и Pages.
 
+## 21. Двухуровневый Recovery schedule
+
+`AI Film Recovery Sync` запускается каждый час, но выполняет два разных режима.
+
+### Hourly light
+- seven-doc exact Drive → GitHub verification/repair;
+- свежий `instruction-sync-status.json`;
+- master ↔ `project-status.json` consistency;
+- key site/context files, character registry metadata, permanent UI/security invariants;
+- без полного Notion/Library/montage/Supabase/GitHub-Actions обхода, если light check не нашёл конкретный incident.
+
+### Daily deep inside the same hourly automation
+Проверить `deep-audit-status.json`. Если `last_deep_audit_at` отсутствует, invalid или старше 24 часов — выполнить полный deep audit: master, prompts vs style guide, characters, montage/film context, Notion, Library, site, Supabase, GitHub Actions/Pages и recovery test. После успешного прохода обновить `deep-audit-status.json`.
+
+Если deep audit завершился с material failure, не продвигать successful timestamp; следующий hourly run должен retry.
+
+Topview intake остаётся отдельным `Topview Scene Intake & Slow Watch`; Recovery не создаёт/approve/rerun/delete/slow-clear сцены.
+
