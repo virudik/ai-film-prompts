@@ -228,3 +228,16 @@ Actual Topview prompt сохраняется verbatim как фактическ�
 
 `index.html` → `Служебные файлы` показывает все seven canonical/recovery docs русскими названиями, а также master, film-analysis и backlog.
 
+## Recovery cadence
+
+`AI Film Recovery Sync` = **hourly light + daily deep in one automation**.
+
+Hourly light:
+`seven docs / instruction status / master-status integrity / key site-context checks / security baseline`.
+
+Daily deep (when `deep-audit-status.json.last_deep_audit_at` is missing or >=24h old):
+`full master + prompt-style + characters + montage + Notion + Library + site + Supabase + Actions/Pages + recovery test`
+→ update `deep-audit-status.json`.
+
+The separate `Topview Scene Intake & Slow Watch` continues to own Topview task intake, task mapping, queue/ETA and auto-creation of genuinely new Topview video scenes. Recovery Sync must not duplicate that work.
+
