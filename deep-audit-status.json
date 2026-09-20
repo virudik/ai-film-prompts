@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-20T21:51:30Z",
+  "last_deep_audit_at": null,
+  "health": "pending",
+  "sections": {
+    "master": "pending",
+    "prompts": "pending",
+    "characters": "pending",
+    "montage": "pending",
+    "notion": "pending",
+    "library": "pending",
+    "site": "pending",
+    "supabase": "pending",
+    "github_actions": "pending",
+    "recovery": "pending"
+  },
+  "repairs": [],
+  "warnings": [
+    "Initial state created. First deep audit is due on the next AI Film Recovery Sync run."
+  ],
+  "unresolved": []
+}
