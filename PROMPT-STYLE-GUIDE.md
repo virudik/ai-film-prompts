@@ -1,6 +1,6 @@
 # PROMPT-STYLE-GUIDE — единый стандарт видео-промтов
 
-**Версия:** 1.1  
+**Версия:** 1.2  
 **Дата:** 20.09.2026  
 **Назначение:** обязательная специализированная инструкция для текущего редактора и любого следующего чата/сменщика AI Film Project.
 
@@ -678,3 +678,26 @@ Prompt-writing standard — не отдельная статичная памя�
 Не создавать `PROMPT-STYLE-GUIDE-v2/final/copy`. Правится тот же canonical Drive file ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`.
 
 Snapshot examples ниже/выше — эталоны **сложности и структуры**, а не eternal current scene truth. Перед копированием решения всегда смотреть fresh master.
+
+
+## 15. Definition of Done для prompt-work и передачи следующему чату
+
+Обычная новая/изменённая сцена считается записанной только после:
+1. fresh guide + fresh master;
+2. master-level prompt;
+3. SAME-ID Drive write;
+4. TOC/count/meta consistency;
+5. Drive → GitHub sync;
+6. validator/status verification;
+7. Pages verification, если сцена отображается на Control Center.
+
+Если во время prompt-work появилось **новое повторяемое правило**, которое должно действовать для будущих сцен, это уже material workflow change. Тогда до завершения задачи требуется:
+- обновить SAME `PROMPT-STYLE-GUIDE.md`;
+- обновить релевантные файлы seven-document takeover set;
+- обновить SAME `NEW-CHAT-HANDOFF.md`;
+- exact-mirror Drive → GitHub;
+- refresh `instruction-sync-status.json`;
+- обновить Notion operational pointer;
+- обновить Library recovery copies.
+
+Следующий чат обязан знать: prompt style не хранится «в памяти прошлого чата». Он хранится здесь и в живом master. Если пользователь формулирует новую сцену кратко, задача редактора — самостоятельно развернуть её до принятого master-level формата, не заставляя пользователя повторно диктовать техническую структуру.
