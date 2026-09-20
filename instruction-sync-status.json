@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T21:58:00Z",
+  "checked_at": "2026-09-20T22:13:04Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
@@ -9,44 +9,44 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T21:56:55.460Z",
-      "github_blob": "890f96e9f343619d8981b81568ce47a242f1fe08",
+      "drive_modified_at": "2026-09-20T22:10:27.310Z",
+      "github_blob": "02c9311bd08acfed12c32ac7a7ce4a42cde4d53f",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T21:57:05.406Z",
-      "github_blob": "a9e5a6c91d4cb6bdd7e29181ce3afcb8a608fa37",
+      "drive_modified_at": "2026-09-20T22:11:42.928Z",
+      "github_blob": "e173b55a86524ebc9175a8de00a22ff33aae9d3d",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T21:57:11.638Z",
-      "github_blob": "d92f1a5499036e7c269a247fd5e1bfe88f59d9fe",
+      "drive_modified_at": "2026-09-20T22:11:50.143Z",
+      "github_blob": "856367c69b3ed28aba3079b6a3c8656599883d87",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T21:57:17.328Z",
-      "github_blob": "3f41943b1d78fa0675744b26973218c665fc878e",
+      "drive_modified_at": "2026-09-20T22:11:53.499Z",
+      "github_blob": "f493f90f2a9e520f361321cd22e7a94f44fff5ea",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T21:57:20.195Z",
-      "github_blob": "b65897d131e6003e2bb78e5f3172e63441d66723",
+      "drive_modified_at": "2026-09-20T22:11:56.405Z",
+      "github_blob": "3102ab2ee5ba1987ad8c46c0ce3db5065affcc54",
       "match": true
     },
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-20T21:56:58.662Z",
-      "github_blob": "a76653f10ab4fc9f46526f9a75bfaef6eb971f1c",
+      "drive_modified_at": "2026-09-20T22:11:39.699Z",
+      "github_blob": "138f3acd90cdd1ae06f805c5117a7324ccd26e85",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T21:57:08.601Z",
-      "github_blob": "1ed7b8909df64eab978144d5dc37109acbfa2e08",
+      "drive_modified_at": "2026-09-20T22:11:45.697Z",
+      "github_blob": "55e018f5b6454fd0872a62a73f43f4e0e8d847c0",
       "match": true
     }
   },
@@ -64,7 +64,7 @@
     "automation_title": "Topview Scene Intake & Slow Watch",
     "rule": "Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."
   },
-  "note": "Seven-document mirror verified after Recovery architecture update: hourly light + daily deep in one automation.",
+  "note": "Seven-document mirror verified after Service Files UI was split into 7 ordered instructions + 3 separate project-data links.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -73,5 +73,23 @@
     "deep_audit_status_file": "deep-audit-status.json",
     "deep_audit_interval_hours": 24,
     "note": "Daily deep audit runs inside the hourly Recovery automation when due; Topview Scene Intake & Slow Watch remains separate."
+  },
+  "service_files_ui": {
+    "instruction_count": 7,
+    "instruction_order": [
+      "NEW-CHAT-HANDOFF.md",
+      "SYNC-RUNBOOK.md",
+      "AI-PROJECT-GUIDE.md",
+      "PROMPT-STYLE-GUIDE.md",
+      "USER-GUIDE.md",
+      "README-AI-SYNC.md",
+      "BACKUP-AI-RUNBOOK.md"
+    ],
+    "project_data_links": [
+      "video-prompts.md",
+      "film-analysis.md",
+      "film-backlog.md"
+    ],
+    "note": "Seven instructions are shown vertically 1-7; project-data links are a separate group and are not additional instructions."
   }
 }
