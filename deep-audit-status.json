@@ -1,23 +1,42 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-20T21:51:30Z",
-  "last_deep_audit_at": null,
-  "health": "pending",
+  "checked_at": "2026-09-20T22:44:04Z",
+  "last_deep_audit_at": "2026-09-20T22:44:04Z",
+  "health": "warning",
   "sections": {
-    "master": "pending",
-    "prompts": "pending",
-    "characters": "pending",
-    "montage": "pending",
-    "notion": "pending",
-    "library": "pending",
-    "site": "pending",
-    "supabase": "pending",
-    "github_actions": "pending",
-    "recovery": "pending"
+    "master": "ok",
+    "prompts": "ok_with_review_items",
+    "characters": "ok",
+    "montage": "warning",
+    "notion": "ok",
+    "library": "ok",
+    "site": "ok",
+    "supabase": "ok",
+    "github_actions": "ok",
+    "recovery": "ok"
   },
   "repairs": [],
   "warnings": [
-    "Initial state created. First deep audit is due on the next AI Film Recovery Sync run."
+    "film-backlog.md still contains a dated 18 September operational-status block listing slow scenes 2,6,12,14,15,18. Fresh master/project-status runtime is 2,12,14,15,18,19 with Scene 6 deleted/reserved. The backlog itself says current scene IDs/counts/slow-list must be rechecked against fresh master/status, so runtime authority is not ambiguous, but this current-looking backlog prose should be cleaned on the next story/backlog documentation edit.",
+    "Prompt-quality audit retains existing NEEDS_FIX/NEEDS_RERENDER items for user-by-user review; no creative prompts were auto-rewritten."
   ],
-  "unresolved": []
+  "unresolved": [
+    "Documentation drift in film-backlog.md dated operational-status prose: stale Scene 6 slow membership and missing Scene 19."
+  ],
+  "runtime_snapshot": {
+    "scenes": 16,
+    "prompt_texts": 19,
+    "latest_scene": 20,
+    "slow_scenes": [2,12,14,15,18,19],
+    "master_sha256": "570ea61ae49a85ba7b54272c26538c4badb8fee168b5832f9b66991f8bc44afe"
+  },
+  "notes": {
+    "instruction_mirrors": "Seven-document status was fresh/all_match/ok; Drive modified timestamps match the verified snapshot.",
+    "topview": "Read only for conflict detection; no intake/rerun/approval/slow-clear performed.",
+    "notion": "Operational pointer names Drive authority, all seven docs, references/montage onboarding, hourly-light plus daily-deep recovery topology, and separate Topview intake automation.",
+    "library": "Recovery copies found for seven-doc set and READ-FIRST/CURRENT-STATE/SITE-STATUS/SHIFT-HANDOFF layers; Library remains recovery-only.",
+    "site": "Control Center baseline present, including theme, fingerprint/comments, References and Montage links/service files; no public service_role/admin secret found in inspected index source.",
+    "supabase": "Security advisors returned no lints for ai-film-comments.",
+    "github_actions": "Latest sync-from-drive and Pages runs inspected were successful; no unrecovered current failure identified."
+  }
 }
