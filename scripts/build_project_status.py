@@ -9,8 +9,10 @@ from pathlib import Path
 
 SLOW_LABEL = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
 INSTRUCTION_FILES = (
-    "AI-PROJECT-GUIDE.md",
+    "NEW-CHAT-HANDOFF.md",
     "SYNC-RUNBOOK.md",
+    "AI-PROJECT-GUIDE.md",
+    "PROMPT-STYLE-GUIDE.md",
     "USER-GUIDE.md",
     "README-AI-SYNC.md",
     "BACKUP-AI-RUNBOOK.md",
