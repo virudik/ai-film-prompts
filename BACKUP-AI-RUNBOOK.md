@@ -101,3 +101,32 @@ As of 19.09.2026, the earlier race/BOM failures are resolved and confirmed by mu
 ## Current automation note — 19.09.2026
 
 `AI Film Recovery Sync` now runs hourly. It can repair GitHub mirrors of the five canonical instruction files from Drive, but never Drive from GitHub. It also checks known semantic contradictions. This does not expand takeover authority: an external AI still needs the preflight for same-ID Drive write and GitHub write if it is to become main editor.
+
+
+## Current takeover checkpoint — 20.09.2026
+
+Fresh live target at handoff: 15 active scenes, 18 prompts, W5/W7/W8, canonical slow `2,12,14,15,18,19`; health and instruction sync are green. Scene 2 is a current rerun slow task. Scene 19 `Рыбалка и Маша-Лагуна` is active+slow, Wan 3.0, 30s Russian dialogue.
+
+Exact Topview mappings currently verified:
+- Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b`
+- Scene 19 → `6ef310d646ca4605b5b10c12752b6ab7`
+
+Do not repeat the earlier false mismatch for Scene 19: compare candidate task to fresh canonical scene body first.
+
+Site status: light/dark side switch already implemented. Next explicit site plan is comments/replies directly in Control Center without GitHub login, using a safe backend; never expose admin secrets or connect comments to master mutations.
+
+
+## Stability/current-state policy — 20.09.2026
+
+Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
+
+Правило с этого checkpoint:
+- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
+- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
+- исторические/checkpoint значения не являются live invariants;
+- instruction files задают правила, а не являются параллельной базой runtime-status;
+- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
+
+На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+
+Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
