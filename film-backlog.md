@@ -155,3 +155,19 @@
 Сначала W1/W5 и маршрут карты → затем согласовать W6 с сокращениями Татуина → разработать W4/W2/W3 с конкретными референсами → уточнить транспорт W8 и переходы W7 → пересчитать бюджет → ручной монтажно-аудиовизуальный контроль человеком. Массовая генерация, изменение Notion и монтаж исходника на этом этапе не выполнялись.
 
 После этой синхронизации работа остановлена до следующих указаний пользователя.
+
+
+## Infrastructure / Control Center backlog — 20.09.2026
+
+Эти задачи не являются film scenes и не меняют prompt master автоматически.
+
+| ID | Статус | Задача | Следующее действие |
+|---|---|---|---|
+| INF-1 | DONE | Переключатель темы `Светлая сторона / Тёмная сторона` | Оставить в header между revision и sync health; preference хранить в localStorage |
+| INF-2 | NEXT | Комментарии прямо на сайте без GitHub login | Спроектировать безопасный backend (предпочтительно Supabase), anonymous post + replies + anti-spam/RLS; GitHub Issue #8 оставить fallback до миграции |
+| INF-3 | MONITOR | Стабильность Drive→GitHub sync | Следить, чтобы dynamic current facts брались только из master/status; исторические snapshot не давали false red |
+| INF-4 | MONITOR | Topview mapping robustness | Для каждого нового/возвращённого slow ID сверять exact task prompt с fresh scene body; не использовать stale handoff/memory |
+| INF-5 | FUTURE | Режим `Сейчас` | Не реализовывать без нового запроса |
+| INF-6 | FUTURE | `рудик.рф/промты` и независимое видео | Нужен hosting/router access; не трогать DNS без подтверждения |
+
+Current exact slow checkpoint: `2,12,14,15,18,19`. Scene 19 `Рыбалка и Маша-Лагуна` уже active+slow и не является backlog-only идеей.
