@@ -312,9 +312,10 @@ function resetViewAndJump(id){
  requestAnimationFrame(()=>jumpTo(id));
 }
 function jumpTo(id){const el=document.getElementById(id);if(!el)return;el.scrollIntoView({behavior:'smooth',block:'start'});el.classList.remove('flash');void el.offsetWidth;el.classList.add('flash');history.replaceState(null,'','#'+id)}
-function renderStatus(s,wfRuns=[]){
+function renderStatus(s,wfRuns=[],instructionDetail=null){
  status=s;
  const instruction=s.instruction_sync?.health||s.audit_fingerprint?.instruction_sync_health||'unknown';
+ const semanticHealth=instructionDetail?.semantic_check?.health||'ok';
  const syncMs=Date.parse(s.synced_at||'');
  const syncAgeMin=Number.isFinite(syncMs)?(Date.now()-syncMs)/60000:Infinity;
  const heartbeatFresh=syncAgeMin<=75;
@@ -326,11 +327,13 @@ function renderStatus(s,wfRuns=[]){
  for(const r of runs){if(r.conclusion==='success')consecutiveSuccesses++;else break}
  const recentFailure=runs.find(r=>r.conclusion&&r.conclusion!=='success')||null;
  const coreHealthy=s.health==='ok'&&instruction==='ok'&&heartbeatFresh&&!unresolvedWorkflowFailure;
- const recoveredWarning=coreHealthy&&Boolean(recentFailure)&&consecutiveSuccesses>0&&consecutiveSuccesses<3;
- const ok=coreHealthy&&!recoveredWarning;
+ const semanticWarning=coreHealthy&&semanticHealth!=='ok';
+ const recoveredWarning=coreHealthy&&!semanticWarning&&Boolean(recentFailure)&&consecutiveSuccesses>0&&consecutiveSuccesses<3;
+ const ok=coreHealthy&&!semanticWarning&&!recoveredWarning;
  let healthText='✕ ОШИБКА СИНХРОНИЗАЦИИ';
  let healthClass='bad';
  if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'}
+ else if(semanticWarning){healthText='! НУЖНА ПРОВЕРКА КОНТЕКСТА';healthClass='warn'}
  else if(recoveredWarning){healthText='! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ';healthClass='warn'}
  else if(!unresolvedWorkflowFailure&&s.health==='ok'&&instruction==='ok'&&!heartbeatFresh)healthText='✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА';
  $('health').textContent=healthText;
@@ -347,16 +350,17 @@ function renderStatus(s,wfRuns=[]){
  $('projectStatus').textContent=`${s.scenes} сцен · ${s.prompt_texts} промтов · медленная генерация ${s.slow_scenes_count} · в работе ${s.work_items_count}`;
  if(unresolvedWorkflowFailure)$('statusMessage').textContent='Последний завершённый GitHub workflow синхронизации закончился ошибкой позже последнего успешного project-status. Красный статус сохраняется до восстановления.';
  else if(!heartbeatFresh&&s.health==='ok'&&instruction==='ok')$('statusMessage').textContent='Последний успешный project-status старше 75 минут. При синхронизации раз в 30 минут это считается устаревшим состоянием.';
+ else if(semanticWarning)$('statusMessage').textContent='Техническая синхронизация здорова, но Recovery Sync нашёл смысловое противоречие в контекстных документах. Это жёлтое предупреждение, а не поломка Drive→GitHub.';
  else if(recoveredWarning)$('statusMessage').textContent=`Сбой уже восстановлен. Жёлтый статус сохраняется до 3 последовательных успешных sync workflow; сейчас ${consecutiveSuccesses}/3.`;
- else $('statusMessage').textContent=instruction==='ok'?'Пять канонических Drive-инструкций проверены; hourly Recovery Sync автоматически чинит только GitHub-зеркала из Drive и отдельно проверяет известные смысловые противоречия.':instruction==='stale'?'Проверка инструкций устарела. Канон остаётся в Google Drive.':instruction==='error'?'Есть расхождение или ошибка проверки инструкций. Канон остаётся в Google Drive; GitHub-зеркало может быть автоматически восстановлено из Drive, смысловой конфликт требует разбора.':'Авторизованный результат проверки инструкций пока недоступен.';
+ else $('statusMessage').textContent=instruction==='ok'?'Пять канонических Drive-инструкций проверены; hourly Recovery Sync автоматически чинит только GitHub-зеркала из Drive и отдельно проверяет известные смысловые противоречия.':instruction==='stale'?'Проверка инструкций устарела. Канон остаётся в Google Drive.':instruction==='error'?'Есть точное расхождение или ошибка чтения канонических инструкций. Канон остаётся в Google Drive; это уже техническая проблема синхронизации.':'Авторизованный результат проверки инструкций пока недоступен.';
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'API недоступен';
- const rows=[['ревизия',fp.revision_date||s.revision_date],['синхронизация',fp.synced_at||s.synced_at],['GitHub workflow',wfState],['успехов подряд после сбоя',recentFailure?consecutiveSuccesses:'сбоев в окне не видно'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['в работе',(fp.work_items||s.work_items||[]).join(', ')],['медленная генерация',(fp.slow_scenes||s.slow_scenes||[]).join(', ')],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction]];
+ const rows=[['ревизия',fp.revision_date||s.revision_date],['синхронизация',fp.synced_at||s.synced_at],['GitHub workflow',wfState],['успехов подряд после сбоя',recentFailure?consecutiveSuccesses:'сбоев в окне не видно'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['в работе',(fp.work_items||s.work_items||[]).join(', ')],['медленная генерация',(fp.slow_scenes||s.slow_scenes||[]).join(', ')],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction],['семантическая проверка',semanticHealth]];
  $('fingerGrid').innerHTML=rows.map(([k,v])=>`<div class="finger-item"><div class="finger-key">${esc(k)}</div><div class="finger-val">${esc(v??'—')}</div></div>`).join('');
  fingerprintText=rows.map(([k,v])=>`${k}: ${v??'—'}`).join('\n');
  $('copyFingerprint').onclick=()=>copyText(fingerprintText,$('copyFingerprint'));
 }
 search.addEventListener('input',applyView);clearSearch.onclick=()=>{search.value='';search.focus();applyView()};search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';applyView()}if(e.key==='Enter'){const matches=sections.filter(s=>passesFilter(s)&&queryMatches(s,search.value.trim()));if(matches.length)jumpTo(matches[0].id)}});
-Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('https://api.github.com/repos/virudik/ai-film-prompts/actions/workflows/sync-from-drive.yml/runs?branch=main&per_page=10',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(x=>x?.workflow_runs||[]).catch(()=>[])]).then(([s,md,tv,wfRuns])=>{renderStatus(s,wfRuns);marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
+Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('https://api.github.com/repos/virudik/ai-film-prompts/actions/workflows/sync-from-drive.yml/runs?branch=main&per_page=10',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(x=>x?.workflow_runs||[]).catch(()=>[])]).then(([s,md,tv,instructionDetail,wfRuns])=>{renderStatus(s,wfRuns,instructionDetail);marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
 </script>
 </body></html>
