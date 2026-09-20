@@ -737,3 +737,9 @@ Global registry на текущем checkpoint: **Серёга (Канцлер/T
 
 Это исключение существует ради provenance: guide определяет качество новых prompts, но не должен переписывать историю уже совершённой генерации.
 
+## 19. Prompt-quality проверки в daily deep audit
+
+Раз в 24 часа `AI Film Recovery Sync` внутри своего daily deep audit может **проверять** активные/new prompts на явный regression относительно этого guide: reference priority, identity handling, timeline/story flow, camera/continuity, audio, negative prompt, `FRAME FILL / NO BARS` и другие обязательные элементы.
+
+Это audit, а не разрешение автоматически переписывать творческий prompt. Автоматически допустимы только однозначные механические/documentation fixes. Содержательное изменение сцены, диалога, режиссуры или approval требует обычного editor/user workflow. Deep-audit result записывается в `deep-audit-status.json`; Topview auto-intake остаётся отдельной automation.
+
