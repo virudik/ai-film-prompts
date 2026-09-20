@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-20T16:46:36Z",
+  "purpose": "Durable explicit Scene ID -> Topview task binding for current/known renders. Prevents remapping from prompt heuristics after normal scene edits.",
+  "authority": "Telemetry mapping only. Google Drive video-prompts.md remains canonical for active scenes and slow membership.",
+  "rules": [
+    "Use an existing verified task_id first; do not rediscover it from semantic similarity on every run.",
+    "Do not invalidate a binding merely because the canonical prompt text changes after a render was launched.",
+    "Change a binding only after explicit user decision, a newly launched replacement task, or clear proof that the task belongs to a different scene.",
+    "Topview success never implies approval and never removes canonical slow-lock."
+  ],
+  "mappings": {
+    "2": {
+      "task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.5",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "12": {
+      "task_id": "8d2103753bb145b7990014bf83a6f652",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "14": {
+      "task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Seedance 2.5",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "15": {
+      "task_id": "86d84863bf5e4b97b2ea9423ca514f84",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "18": {
+      "task_id": "cd7c476566d84076aaa330274093ea15",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "19": {
+      "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "model": "Wan 3.0",
+      "verified": true,
+      "binding_source": "user-confirmed/current Topview task",
+      "note": "Telemetry binding only; does not control canonical slow/approval."
+    }
+  }
+}
