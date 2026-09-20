@@ -383,3 +383,15 @@ Approved individual model sheets are identity authority. Current master is curre
 
 Также доступны канонический master, карта/анализ фильма и рабочий backlog.
 
+## 23. CURRENT RECOVERY AUTOMATION ARCHITECTURE
+
+`AI Film Recovery Sync` теперь объединяет два уровня в **одной hourly automation**:
+- **hourly light recovery** — быстрые проверки seven docs/mirrors, instruction status, master/status consistency, ключевых файлов сайта/референсов/контекста и security baseline;
+- **daily deep audit** — раз в 24 часа внутри той же automation проверяются master structure, качество prompts относительно style guide, character mapping, монтажный контекст, Notion, Library, site, Supabase, GitHub Actions/Pages и recovery-readiness.
+
+Cadence deep audit хранится в `deep-audit-status.json`. Missing/invalid/older-than-24h successful timestamp заставляет следующий hourly Recovery run выполнить deep audit. При material failure successful timestamp не продвигается, чтобы следующий run повторил аудит.
+
+Отдельной daily automation нет. Отдельно остаётся только `Topview Scene Intake & Slow Watch`, потому что он работает с production tasks, queue/ETA и auto-import новых Topview video tasks в Scene IDs. Recovery Sync **не должен** создавать сцены или дублировать Topview intake.
+
+Следующий чат при takeover обязан прочитать `deep-audit-status.json` вместе с остальными live status files и учитывать его warnings/unresolved в readiness report.
+
