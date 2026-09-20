@@ -1,52 +1,52 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T19:58:03.148Z",
+  "checked_at": "2026-09-20T21:06:30Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
-  "source_of_truth": "Google Drive canonical seven-document instruction/recovery set",
+  "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "NEW-CHAT-HANDOFF.md": {
-      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-20T19:56:21.312Z",
-      "github_blob": "8a11f020a9f6b8b8415af7fc1695e6b057107722",
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-20T21:05:06.213Z",
+      "github_blob": "b1bd26a625964963dc2bd5aa3e133fe11ccaebfd",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T19:56:05.096Z",
-      "github_blob": "9e0734b581cab09343c084714d7262d65a69ad86",
-      "match": true
-    },
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T19:56:01.927Z",
-      "github_blob": "6202a7f31119e34f7696314e58f14e34014bf5f5",
-      "match": true
-    },
-    "PROMPT-STYLE-GUIDE.md": {
-      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T19:56:24.481Z",
-      "github_blob": "38d518e173637f41489113902ad761f1a377f2ba",
+      "drive_modified_at": "2026-09-20T21:05:09.186Z",
+      "github_blob": "6dba6834ea9af85625ddc6152eeb949c7508b38f",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T19:56:08.365Z",
-      "github_blob": "8e9f1adfd97175e228d1aad9c1b2a669276cd642",
+      "drive_modified_at": "2026-09-20T21:05:12.384Z",
+      "github_blob": "55f3ed2a6e0bd28cd65f44f7dc3b476ab7199996",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T19:56:11.299Z",
-      "github_blob": "6074a63b597b0f2f1d690f716cd1264969d3c3b8",
+      "drive_modified_at": "2026-09-20T21:05:15.446Z",
+      "github_blob": "7332fbc36b186482d1284ce89638a78166aeae31",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T19:56:18.291Z",
-      "github_blob": "df7c19dd93453f696356b5572ef38fc6b6695a06",
+      "drive_modified_at": "2026-09-20T21:05:18.454Z",
+      "github_blob": "a3125099b1c0ad5a9a2f749bdb8e44ceca9bc08d",
+      "match": true
+    },
+    "NEW-CHAT-HANDOFF.md": {
+      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+      "drive_modified_at": "2026-09-20T21:05:21.618Z",
+      "github_blob": "0b9185836cf68273542422e02c00509eff8c4237",
+      "match": true
+    },
+    "PROMPT-STYLE-GUIDE.md": {
+      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+      "drive_modified_at": "2026-09-20T21:05:25.153Z",
+      "github_blob": "bc245f13da17ea12e1447871ae9e1a6a09b67647",
       "match": true
     }
   },
@@ -54,5 +54,10 @@
     "health": "ok",
     "conflicts": []
   },
-  "note": "20.09.2026 documentation audit: seven-document takeover/recovery set is canonical and exact-matched Drive→GitHub. Prompt style guide v1.2 is mandatory. Control Center baseline includes native Supabase comments/replies in a collapsible section under Control fingerprint, light/dark theme, merged slow/Topview UI. Material changes must be propagated to relevant Drive docs + SAME handoff, GitHub mirrors/status, Notion operational pointer and Library recovery copies. Runtime facts remain live-source driven."
+  "takeover_requirements": {
+    "character_registry": "references.html + character-references.json",
+    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
+    "readiness_audit": true
+  },
+  "note": "Seven-document mirror verified after adding mandatory character/reference and montage onboarding plus final readiness audit."
 }
