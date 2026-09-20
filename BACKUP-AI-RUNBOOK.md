@@ -245,3 +245,16 @@ Library:
 - при ограничении инструмента честно указать конкретный недоступный шаг.
 
 Цель takeover: пользователь должен иметь возможность сказать только новую творческую/рабочую задачу, а сменщик уже знает инфраструктуру и процесс.
+
+## 15. Character registry и монтажный контекст до takeover
+
+До вступления в роль резервный агент обязан открыть `references.html`, прочитать `character-references.json` и сопоставить глобальные имена/aliases/model sheets с current master. Пользователь имеет право называть персонажей коротко по именам; агент должен сам восстановить identity/appearance/costume/reference mapping.
+
+Также до takeover открыть `Seregius_montazhny_razbor.html` и сверить его с `film-analysis.md` + `film-backlog.md`. Извлечь compact working map фильма и текущих сюжетно-монтажных проблем.
+
+Approved individual model sheet outranks group/environment similarity. Current master outranks stale scene-usage metadata. Если имя реально ambiguous — спросить; иначе не перекладывать повторное описание на пользователя.
+
+## 16. Readiness gate резервного редактора
+
+Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer → Library recovery. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
+
