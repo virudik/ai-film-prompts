@@ -374,3 +374,17 @@ Control Center → **Служебные файлы** обязан давать �
 
 Topview intake остаётся отдельным `Topview Scene Intake & Slow Watch`; Recovery не создаёт/approve/rerun/delete/slow-clear сцены.
 
+## 23. UI-порядок служебных инструкций
+
+Control Center → **Служебные файлы** должен явно различать **7 инструкций** и **3 рабочих файла проекта**.
+
+Инструкции отображаются вертикально и нумеруются в canonical takeover order:
+1. HANDOFF
+2. Sync Runbook
+3. Project Guide
+4. Prompt Style Guide
+5. User Guide
+6. README AI Sync
+7. Backup AI Runbook
+
+После них отдельным блоком `Рабочие файлы проекта` идут master, film-analysis и film-backlog. Они не считаются инструкциями. При site audit проверять наличие такого разделения и правильный порядок 1–7.
