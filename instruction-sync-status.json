@@ -1,68 +1,22 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T21:38:00.829Z",
+  "checked_at": "2026-09-20T21:42:25Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T21:35:49.261Z",
-      "github_blob": "aa436165550daae7135534e88705683a307bbca6",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T21:35:52.442Z",
-      "github_blob": "074aaff7c86fbcfb27b74847656c27962a78dd2d",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T21:35:55.703Z",
-      "github_blob": "a2714426bbb91e5c2b89dd31f903b980343c4ef2",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T21:35:58.750Z",
-      "github_blob": "727100354e555e36abb5144bfe90dab0bef0c8e3",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T21:36:02.436Z",
-      "github_blob": "d801a85e82d9cbb1e327a7d83bee87916e2810a5",
-      "match": true
-    },
-    "NEW-CHAT-HANDOFF.md": {
-      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-20T21:36:05.213Z",
-      "github_blob": "5901d4dc4f350991928cf2d0f5e62fe13a1ad6a4",
-      "match": true
-    },
-    "PROMPT-STYLE-GUIDE.md": {
-      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T21:36:08.346Z",
-      "github_blob": "c16a97056caae070e5ec5f620579189b033e3ac5",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-20T21:35:49.261Z","github_blob":"aa436165550daae7135534e88705683a307bbca6","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-20T21:35:52.442Z","github_blob":"074aaff7c86fbcfb27b74847656c27962a78dd2d","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-20T21:35:55.703Z","github_blob":"a2714426bbb91e5c2b89dd31f903b980343c4ef2","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-20T21:35:58.750Z","github_blob":"727100354e555e36abb5144bfe90dab0bef0c8e3","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-20T21:36:02.436Z","github_blob":"d801a85e82d9cbb1e327a7d83bee87916e2810a5","match":true},
+    "NEW-CHAT-HANDOFF.md": {"drive_file_id":"1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD","drive_modified_at":"2026-09-20T21:36:05.213Z","github_blob":"5901d4dc4f350991928cf2d0f5e62fe13a1ad6a4","match":true},
+    "PROMPT-STYLE-GUIDE.md": {"drive_file_id":"14VzE8DwjKIquGJWENci6rYWj_1xEn34d","drive_modified_at":"2026-09-20T21:36:08.346Z","github_blob":"c16a97056caae070e5ec5f620579189b033e3ac5","match":true}
   },
-  "semantic_check": {
-    "health": "ok",
-    "conflicts": []
-  },
-  "takeover_requirements": {
-    "character_registry": "references.html + character-references.json",
-    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
-    "readiness_audit": true
-  },
-  "topview_scene_intake": {
-    "enabled": true,
-    "automation_title": "Topview Scene Intake & Slow Watch",
-    "rule": "Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."
-  },
-  "note": "Seven-document mirror verified after adding Russian service-file navigation and Topview new-video auto-import workflow."
+  "semantic_check": {"health":"ok","conflicts":[]},
+  "takeover_requirements": {"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
+  "topview_scene_intake": {"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","rule":"Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."},
+  "note": "Seven-document mirror and lightweight site/context integrity audit verified."
 }
