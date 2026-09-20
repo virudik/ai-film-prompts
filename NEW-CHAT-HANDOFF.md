@@ -8,12 +8,13 @@
 1. Этот `NEW-CHAT-HANDOFF.md`.
 2. `SYNC-RUNBOOK.md`.
 3. `AI-PROJECT-GUIDE.md`.
-4. Fresh-read Google Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-5. Live GitHub `project-status.json`.
-6. Live `topview-status.json`.
-7. Live `instruction-sync-status.json`.
-8. Для сюжета/монтажа: `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и `Seregius_montazhny_razbor.html`.
-9. Перед любой записью в master — ещё один fresh-read exact Drive master.
+4. `PROMPT-STYLE-GUIDE.md`, Drive file ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` — обязательный полный стандарт написания всех новых/перерабатываемых видео-промтов.
+5. Fresh-read Google Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+6. Live GitHub `project-status.json`.
+7. Live `topview-status.json`.
+8. Live `instruction-sync-status.json`.
+9. Для сюжета/монтажа: `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и `Seregius_montazhny_razbor.html`.
+10. Перед любой записью в master — ещё один fresh-read exact Drive master.
 
 ## 2. Источник истины и архитектура
 
@@ -23,6 +24,7 @@
 - GitHub repo: `virudik/ai-film-prompts`
 - Control Center: `https://virudik.github.io/ai-film-prompts/`
 - Handoff Drive ID: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
+- Prompt style guide Drive ID: `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` (`PROMPT-STYLE-GUIDE.md`)
 - GitHub — зеркало + Pages, не второй prompt master.
 - `project-status.json` генерируется автоматически и вручную не редактируется.
 - Scene IDs стабильны. Удалённые IDs 6, 7, 9 не переиспользовать.
@@ -30,17 +32,14 @@
 
 ## 3. Текущий live fingerprint
 
-Проверено 20.09.2026 перед передачей:
-- 15 active scenes
-- 18 prompt texts
+Checkpoint после добавления Scene 20:
+- 16 active scenes
+- 19 prompt texts
 - W5, W7, W8
-- active Scene IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19`
+- active Scene IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20`
 - canonical slow: `2,12,14,15,18,19`
-- current master SHA-256: `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`
-- `project-status.json.health = ok`
-- `instruction_sync = ok`
-- warnings: none
-- Drive master == GitHub mirror: verified
+- Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5, 30s, не slow
+- current SHA/health/instruction_sync после записи брать только из live status; здесь runtime SHA намеренно не дублируется
 
 Эти значения — checkpoint. На следующем чате всё равно fresh-check live JSON.
 
@@ -48,6 +47,7 @@
 
 - Scene 2 `Джедаи на крыше — триумфальный марш без мечей` снова находится в canonical slow по прямому решению пользователя. Это новый rerun, а не историческая completed task.
 - Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s, русский диалог.
+- Scene 20 `Маша-Лагуна: рок-припев у озера` — active READY, Seedance 2.5, 30s, @Image1 = локация, @Image2 = Маша; не slow.
 - Scenes 6, 7, 9 удалены как неактуальные и не должны автоматически возвращаться.
 - Scene 17 остаётся active как пост-монстр продолжение; machine dependency на удалённую Scene 9 снята.
 - Topview `success` = техническое завершение, не user approval.
@@ -124,25 +124,16 @@ Exact current tasks:
 
 Тема — presentation-only. Она не должна влиять на master/status/sync health.
 
-## 9. НОВЫЙ план сайта: комментарии прямо на сайте без GitHub
+## 9. Комментарии прямо на сайте — реализовано
 
-Пользователь явно хочет, чтобы посетитель мог **читать, писать и отвечать прямо на Control Center без GitHub-аккаунта**.
+Нативные комментарии уже работают через Supabase без обязательного GitHub-аккаунта.
 
-Текущий GitHub Issue #8 reader остаётся существующей реализацией до миграции, но это уже не целевой UX.
-
-Рекомендуемая архитектура следующего шага:
-- отдельный lightweight backend для comments; предпочтительный кандидат — Supabase;
-- публичное чтение опубликованных комментариев;
-- anonymous posting с отображаемым именем (без обязательного аккаунта);
-- threaded replies (`parent_id`);
-- timestamps;
-- HTML escaping/sanitization;
-- rate limit / anti-spam / CAPTCHA или honeypot;
-- moderation status (`pending`/`published`/`hidden`) при необходимости;
-- НИКОГДА не давать comment backend право менять Drive master, Scene IDs, slow-lock или approval;
-- service-role/admin key никогда не класть в клиентский `index.html`; только public anon key + RLS policies либо server-side endpoint.
-
-Перед реализацией новый чат должен проверить доступный Supabase project/credentials и согласовать минимальную схему. Не удалять GitHub Issue #8 до успешной миграции; можно оставить как архив/резерв.
+- organization `Vint`; project `ai-film-comments`, ref `vzohfatqzyioydtgjiyd`;
+- public read published comments; anonymous posting; threaded replies через `parent_id`;
+- Edge Function `submit-comment`; honeypot; rate limit 5 сообщений / 10 минут / IP; RLS;
+- service-role/admin secret не находится в public `index.html`; backend не имеет прав на prompt master, Scene IDs, slow-lock, approval или генерации;
+- UI: отдельная раскрывающаяся шторка `💬 Комментарии, идеи и предложения` сразу под `Контрольный отпечаток`;
+- GitHub Issue #8 больше не основной comments UX.
 
 ## 10. Другие pending UI / infrastructure планы
 
@@ -166,6 +157,8 @@ Exact current tasks:
 Не массово переписывать NEEDS_FIX/NEEDS_RERENDER. Разбирать по одной сцене.
 
 ## 12. Global prompt rules
+
+**Обязательный полный стандарт:** `PROMPT-STYLE-GUIDE.md`, Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`. Перед созданием или существенной переработкой prompt новый чат/сменщик обязан fresh-read этот файл и свериться минимум с 1–2 актуальными сценами master. Краткая памятка не заменяет полный guide. Если Scene ID однозначно определяется по fresh master, не спрашивать пользователя: брать следующий новый стабильный ID, не переиспользуя удалённые.
 
 - единый стиль/цветокоррекция/свет/окружение/дизайн персонажей;
 - physically stable cinematic camera motion; no random jitter;
@@ -196,6 +189,7 @@ Exact current tasks:
 ## 14. Canonical instruction files
 
 Drive authority:
+- Specialized mandatory prompt instruction: `PROMPT-STYLE-GUIDE.md` — `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` (обязателен для prompt work; пока не входит в пять файлов hourly Recovery Sync).
 - `AI-PROJECT-GUIDE.md` — `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
 - `SYNC-RUNBOOK.md` — `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
 - `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
@@ -206,4 +200,4 @@ Hourly `AI Film Recovery Sync` may repair only Drive → GitHub instruction mirr
 
 ## 15. Ready-to-paste command for the next chat
 
-> Продолжаем AI Film project. Сначала fresh-read Google Drive `NEW-CHAT-HANDOFF.md` (same ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`), `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, затем exact Drive `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. После этого проверь live GitHub `project-status.json`, `topview-status.json`, `instruction-sync-status.json` и повтори current fingerprint. Не используй старые Library/GitHub copies как editable master. Не переиспользуй Scene IDs 6/7/9. Current checkpoint: 15 active scenes, 18 prompts, W5/W7/W8, canonical slow 2,12,14,15,18,19; Scene 19 «Рыбалка и Маша-Лагуна» = Wan 3.0 30s Russian dialogue; exact Topview task `6ef310d646ca4605b5b10c12752b6ab7`; Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`. Theme switch `Светлая сторона / Тёмная сторона` уже реализован в header. Следующий сайт-приоритет по последнему решению пользователя — комментарии прямо на сайте без GitHub-аккаунта: спроектировать/подключить безопасный backend (предпочтительно Supabase), anonymous posting + replies + anti-spam, без доступа к prompt master. Также перепроверь стабильность sync/Topview mapping; не считать historical checkpoint current invariant и не выдавать false red из-за старых секций. Перед `ГОТОВО` проверить Drive→GitHub sync, validation, Topview telemetry и Pages.
+> Продолжаем AI Film project. Сначала fresh-read Google Drive `NEW-CHAT-HANDOFF.md` (same ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`), `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, затем обязательный полный `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`), затем exact Drive `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. После этого проверь live GitHub `project-status.json`, `topview-status.json`, `instruction-sync-status.json`. Не используй старые Library/GitHub copies как editable master. Не переиспользуй Scene IDs 6/7/9. Current checkpoint: 16 active scenes, 19 prompts, W5/W7/W8, canonical slow 2,12,14,15,18,19; Scene 20 `Маша-Лагуна: рок-припев у озера` = Seedance 2.5, 30s, READY, не slow. Все новые/перерабатываемые prompts писать по `PROMPT-STYLE-GUIDE.md` на уровне сложности актуального master, без упрощения. Нативные комментарии уже реализованы через Supabase ref `vzohfatqzyioydtgjiyd` и находятся в раскрывающейся шторке под `Контрольный отпечаток`; они не имеют доступа к master. Перед `ГОТОВО` проверить Drive→GitHub sync, validation, Topview telemetry и Pages.
