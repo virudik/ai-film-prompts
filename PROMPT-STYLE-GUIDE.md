@@ -743,3 +743,8 @@ Global registry на текущем checkpoint: **Серёга (Канцлер/T
 
 Это audit, а не разрешение автоматически переписывать творческий prompt. Автоматически допустимы только однозначные механические/documentation fixes. Содержательное изменение сцены, диалога, режиссуры или approval требует обычного editor/user workflow. Deep-audit result записывается в `deep-audit-status.json`; Topview auto-intake остаётся отдельной automation.
 
+## 20. Место этой инструкции в takeover order
+
+На Control Center этот файл отображается как **№4 «Стандарт написания промтов»** в вертикальном seven-document списке. До него новый чат читает HANDOFF, Sync Runbook и Project Guide; после него — User Guide, README AI Sync и Backup AI Runbook.
+
+Master/film-analysis/backlog, находящиеся в той же общей шторке, относятся к рабочим файлам проекта и не являются дополнительными prompt-инструкциями.
