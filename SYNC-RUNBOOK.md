@@ -332,3 +332,27 @@ Hourly recovery может делать **лёгкий integrity audit**: seven-
 
 Глубокая семантическая сверка персонажей с новыми prompts выполняется при material scene/prompt change и на takeover. Notion/Library можно проверять на явную устарелость, но автоматический hourly repair туда не должен слепо писать без необходимости.
 
+## 19. Topview auto-import routine
+
+`Topview Scene Intake & Slow Watch` может автоматически создать новую scene только из **genuinely new video-generation task**.
+
+Порядок:
+1. fresh master + `project-status.json` + `topview-status.json` + `topview-task-map.json`;
+2. scan recent Topview video tasks;
+3. исключить known task IDs, retries/duplicates и non-video jobs;
+4. получить exact actual prompt/model/task metadata;
+5. fresh-read master повторно непосредственно перед write;
+6. присвоить следующий unused stable Scene ID;
+7. сохранить actual Topview prompt verbatim, добавить human-readable Russian wrapper;
+8. valid `scene-meta`; running task → canonical slow, success → `RESULT_RECEIVED`, never `APPROVED`;
+9. SAME-ID Drive write;
+10. обычный trigger/sync/validation/GitHub mirror/`project-status.json`/Pages;
+11. записать task↔Scene mapping и refresh telemetry;
+12. уведомить пользователя о созданной сцене.
+
+Если нельзя доказать, что task новая, а не retry, либо actual prompt недоступен — no master mutation.
+
+## 20. Site service-file navigation
+
+Control Center → **Служебные файлы** обязан давать прямые ссылки на все семь canonical/recovery docs с понятными русскими названиями, а также на master, film analysis и backlog. После изменения этого блока проверять JS syntax, duplicate IDs и Pages.
+
