@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-20T16:39:07Z",
+  "checked_at": "2026-09-20T19:43:56Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-20T16:16:41.154Z","github_blob":"c7b8ad28af62f1e162b20d191689b017e8b2a208","match":true},
-    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-20T16:16:54.750Z","github_blob":"852009d10f4cd2ecc3f0373d5a8132432ef7e81e","match":true},
-    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-20T16:17:07.902Z","github_blob":"56603bd99b56a38934a42499a75c95b80ad7de36","match":true},
-    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-20T16:17:20.830Z","github_blob":"67f8b3fb29237cac1927bddf6206ee8da883e804","match":true},
-    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-20T16:17:33.276Z","github_blob":"a1a46d5e135eb793acb2e1430d7afba5ba5e8984","match":true}
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","github_blob":"c36baafca8b6fbe1752deb922d9bd0f53061ecd3","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-20T19:20:43.576Z","github_blob":"904cb47aff24765b75c23d78ddd6e55a19b1cc65","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-20T19:20:46.618Z","github_blob":"d40fa692a539493dae0aec4f8cf0f63cf42cd9ff","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","github_blob":"f0b4c6ea3816c3f23fec65b8105e922a4a05c237","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","github_blob":"a9fbcd4e6d2a08cdcee7717d8b4c7ff15befa2f4","match":true}
   },
   "semantic_check": {"health":"ok","conflicts":[]},
-  "note":"20.09.2026 recovery verification refreshed. Current live authority: fresh Drive master + project-status.json; Topview mappings are telemetry only and must be checked against fresh scene bodies. Current slow checkpoint 2,12,14,15,18,19. Scenes 14,15,18 are technical Topview success only and remain canonical slow pending user decision. Historical/checkpoint facts are not live invariants."
+  "note":"20.09.2026 recovery verification refreshed after Scene 20/current-state instruction updates. Current runtime authority: fresh Drive master + project-status.json. Current master: 16 active scenes, 19 prompt texts, latest Scene 20, canonical slow 2,12,14,15,18,19. Scene 18 engine is Wan 3.0. Drive video-prompts.md remains the only editable prompt master; GitHub remains mirror/Pages. Slow/Topview UI remains merged. Topview success is technical completion only and never auto-clears slow-lock. BOM/race recovery rules remain in force. Reserve-AI instruction is BACKUP-AI-RUNBOOK.md. Historical/checkpoint facts are not live invariants."
 }
