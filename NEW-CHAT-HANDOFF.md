@@ -310,3 +310,46 @@ Current rules:
 - не объявлять `ГОТОВО` до verification.
 
 Если инструментально какой-то шаг невозможен, назвать **конкретно** невозможный шаг, а не утверждать общо, что «нет доступа», не проверив подключённые инструменты.
+
+## 18. ОБЯЗАТЕЛЬНО: персонажи / референсы перед вступлением в роль
+
+После seven docs + fresh master/live JSON следующий чат обязан открыть Control Center → **Персонажи / Референсы** (`references.html`) и прочитать `character-references.json` без протаскивания огромных base64 image payload в рабочий текст. Нужно построить compact name map и сопоставить его с current prompts.
+
+Current global registry:
+- **Серёга** — aliases `Канцлер`, `The Chancellor`; естественное `Серёжа` при однозначном контексте → Серёга.
+- **Юля**.
+- **Паша** — `JEDI-A`, `Navy Jedi`.
+- **Артём** — `Bearded Jedi`.
+- **Илюша** — `Hooded Jedi`.
+- **Саша** — `JEDI-B`, `Glasses Jedi`.
+- **Лёша** — `PURPLE`.
+- **Виталик** — `BLACK`.
+
+Approved individual model sheets are identity authority. Current master is current scene-usage authority. Scene-specific characters not in global registry are resolved from fresh scene references.
+
+Практическое правило: запрос пользователя `Паша говорит Саше; потом заходит Серёжа` должен быть достаточен. Следующий чат сам подставляет правильные identities/model sheets/appearance/costume descriptions в master-level prompt и не просит пользователя повторить известную внешность.
+
+## 19. ОБЯЗАТЕЛЬНО: монтажный разбор фильма перед вступлением в роль
+
+До readiness report открыть сайт → **Монтажный разбор фильма** (`Seregius_montazhny_razbor.html`) и ознакомиться с current-useful содержанием: структура фильма, сюжетные пробелы, диалоги, переходы, финал, персонажи, рекомендации. Сверить с `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и Notion `Кино`.
+
+Результат onboarding — компактная working map фильма, а не дословное удержание огромного HTML. Для конкретной монтажной задачи дочитывать релевантный раздел полностью. Facts / recommendations / manual-review items не смешивать.
+
+## 20. FINAL TAKEOVER AUDIT — только после него можно сказать «готов»
+
+Перед докладом пользователю новый чат обязан проверить и при необходимости актуализировать documentation/recovery layer относительно реального current state:
+1. seven canonical Drive docs;
+2. seven GitHub mirrors;
+3. fresh `instruction-sync-status.json`;
+4. fresh master ↔ `project-status.json`;
+5. Topview/canonical slow consistency;
+6. current Control Center permanent features;
+7. character registry/reference viewer vs current prompts;
+8. montage report + `film-analysis.md` + `film-backlog.md`;
+9. Notion operational pointer / legacy labels;
+10. Library recovery copies / READ-FIRST / current-state package.
+
+Безопасный drift инструкций/mirrors исправить по Drive authority до readiness report. Нельзя автоматически менять творческий канон, scene approval или slow decision ради «согласования» документации — такие конфликты вынести пользователю.
+
+Финальный доклад takeover должен содержать: **что прочитано и проверено; current scene/slow checkpoint; понимание character map и film priorities; были ли исправлены stale docs; какие реальные unresolved issues остались.** Только после этого: `готов продолжать работу предшественника`.
+
