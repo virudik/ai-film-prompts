@@ -16,6 +16,9 @@ GitHub `virudik/ai-film-prompts`
 Viewer:
 `https://virudik.github.io/ai-film-prompts/`
 
+Mandatory prompt-writing standard:
+`PROMPT-STYLE-GUIDE.md` — Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`. Fresh-read it before creating or substantially rewriting a video prompt; it is a specialized project instruction and does not replace the five-file Recovery Sync set.
+
 
 ## Data flow
 
@@ -127,4 +130,4 @@ Dynamic runtime facts не должны размножаться как неза
 
 Добавление/удаление Scene ID не должно вызывать health error само по себе. Validator должен проверять согласованность текущего master, а semantic checker — отличать current claims от исторических snapshot-ов.
 
-Checkpoint 20.09.2026: 15 scenes, 18 prompts, slow `2,12,14,15,18,19`, health ok. Theme toggle уже реализован; direct anonymous site comments — следующий UI/backend plan.
+Checkpoint after Scene 20: 16 scenes, 19 prompts, slow `2,12,14,15,18,19`; Scene 20 is READY / Seedance 2.5 / not slow. Theme toggle and direct anonymous Supabase comments are already implemented; comments appear in their own collapsible section below `Контрольный отпечаток`. Fresh health/SHA are read from live status after sync.
