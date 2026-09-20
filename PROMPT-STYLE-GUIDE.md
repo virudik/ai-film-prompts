@@ -725,3 +725,15 @@ Global registry на текущем checkpoint: **Серёга (Канцлер/T
 
 Монтажный анализ — context/recommendation layer, не второй prompt master. Новый explicit user decision и current master имеют приоритет над старой рекомендацией.
 
+## 18. Imported Topview prompt: fidelity rule
+
+Когда новая сцена создана автоматикой из уже запущенной/готовой Topview video task, есть особое правило происхождения prompt:
+
+- **actual prompt, реально отправленный в Topview, сохраняется verbatim** как source prompt этой imported scene;
+- нельзя автоматически переписать его в более красивый master-style и затем утверждать, что именно эта новая версия использовалась при генерации;
+- master-style wrapper (`Контекст использования`, `Референсы`, `Что происходит`, корректный `scene-meta`) может быть добавлен вокруг source prompt;
+- если позже пользователь просит улучшенный rerender prompt, это уже отдельная новая редакционная версия внутри той же scene по обычным правилам, при этом происхождение исходного Topview prompt не теряется;
+- known characters при import resolve через global registry/current master, но неизвестные детали не выдумываются.
+
+Это исключение существует ради provenance: guide определяет качество новых prompts, но не должен переписывать историю уже совершённой генерации.
+
