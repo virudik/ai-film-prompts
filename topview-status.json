@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-20T03:43:06Z",
+  "checked_at": "2026-09-20T04:30:33Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -12,36 +12,36 @@
   "scenes": {
     "2": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "d28b2481a8b344439fa175c3ef0b7f5b", "board_task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
-      "model": "Seedance 2.5", "model_id": "seedance-2.5", "topview_status": "init", "started_at": "2026-09-19T17:29:40Z", "completed_at": null, "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 10.22,
-      "mapping_confidence": "high", "verified": true, "queue_count": 2685, "topview_estimated_wait_seconds": 80763, "topview_estimated_process_seconds": null
+      "model": "Seedance 2.5", "model_id": "seedance-2.5", "topview_status": "init", "started_at": "2026-09-19T17:29:40Z", "completed_at": null, "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 11.01,
+      "mapping_confidence": "high", "verified": true, "queue_count": 2629, "topview_estimated_wait_seconds": 77921, "topview_estimated_process_seconds": null
     },
     "12": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "8d2103753bb145b7990014bf83a6f652", "board_task_id": "8d2103753bb145b7990014bf83a6f652",
-      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T22:17:20Z", "completed_at": null, "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 53.43,
+      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T22:17:20Z", "completed_at": null, "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 54.22,
       "remaining_hours_estimate": {"p25": 0, "median": 9.7, "p75": 22.9, "tail_observed": 28.0},
-      "mapping_confidence": "high", "verified": true, "queue_count": 1534, "topview_estimated_wait_seconds": 34680, "topview_estimated_process_seconds": null
+      "mapping_confidence": "high", "verified": true, "queue_count": 1442, "topview_estimated_wait_seconds": 31839, "topview_estimated_process_seconds": null
     },
     "14": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "1fd5e89e6cd64b41af6a007a88d0939f", "board_task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
-      "model": "Seedance 2.5", "model_id": "seedance-2.5", "topview_status": "success", "started_at": "2026-09-17T03:17:45Z", "completed_at": "2026-09-20T00:33:28Z", "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 69.26,
+      "model": "Seedance 2.5", "model_id": "seedance-2.5", "topview_status": "success", "started_at": "2026-09-17T03:17:45Z", "completed_at": "2026-09-20T00:33:28Z", "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 69.26,
       "mapping_confidence": "high", "verified": true, "queue_count": null, "topview_estimated_wait_seconds": null, "topview_estimated_process_seconds": null
     },
     "15": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "86d84863bf5e4b97b2ea9423ca514f84", "board_task_id": "86d84863bf5e4b97b2ea9423ca514f84",
-      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T03:22:10Z", "completed_at": null, "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 72.35,
+      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T03:22:10Z", "completed_at": null, "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 73.14,
       "remaining_hours_estimate": {"p25": 0, "median": 0, "p75": 4.0, "tail_observed": 9.1},
-      "mapping_confidence": "high", "verified": true, "queue_count": 635, "topview_estimated_wait_seconds": 11635, "topview_estimated_process_seconds": null
+      "mapping_confidence": "high", "verified": true, "queue_count": 492, "topview_estimated_wait_seconds": 8794, "topview_estimated_process_seconds": null
     },
     "18": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "cd7c476566d84076aaa330274093ea15", "board_task_id": "cd7c476566d84076aaa330274093ea15",
-      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T22:15:41Z", "completed_at": null, "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 53.46,
+      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-17T22:15:41Z", "completed_at": null, "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 54.25,
       "remaining_hours_estimate": {"p25": 0, "median": 9.7, "p75": 22.9, "tail_observed": 28.0},
-      "mapping_confidence": "high", "verified": true, "queue_count": 1128, "topview_estimated_wait_seconds": 23153, "topview_estimated_process_seconds": null
+      "mapping_confidence": "high", "verified": true, "queue_count": 1011, "topview_estimated_wait_seconds": 20312, "topview_estimated_process_seconds": null
     },
     "19": {
       "board": "My First Board", "board_id": "1a6244cf1ae747ef847d949a80d6133c", "task_id": "6ef310d646ca4605b5b10c12752b6ab7", "board_task_id": "6ef310d646ca4605b5b10c12752b6ab7",
-      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-19T17:10:24Z", "completed_at": null, "checked_at": "2026-09-20T03:43:06Z", "elapsed_hours_at_check": 10.54,
-      "mapping_confidence": "high", "verified": true, "queue_count": 1883, "topview_estimated_wait_seconds": 46189, "topview_estimated_process_seconds": null
+      "model": "Wan 3.0", "model_id": "qwen-wan3.0-video", "topview_status": "init", "started_at": "2026-09-19T17:10:24Z", "completed_at": null, "checked_at": "2026-09-20T04:30:33Z", "elapsed_hours_at_check": 11.34,
+      "mapping_confidence": "high", "verified": true, "queue_count": 1800, "topview_estimated_wait_seconds": 43350, "topview_estimated_process_seconds": null
     }
   },
   "note": "Exact Topview task mappings verified for canonical slow scenes 2,12,14,15,18,19. Scene 19 fishing/Masha task remains a valid exact semantic match. Scene 14 remains Topview success; this is technical completion only and does not remove the canonical slow lock or imply approval."
