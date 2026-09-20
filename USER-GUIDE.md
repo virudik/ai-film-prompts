@@ -221,3 +221,35 @@ Preview 960px — для скорости.
 ## Глобальное правило кадра для текущих промтов
 
 Во все 18 актуальных полных промтов добавлено `FRAME FILL / NO BARS`: модель должна заполнять выбранный output frame от края до края и не создавать letterboxing, pillarboxing, чёрные/боковые полосы, декоративную рамку или пустые поля. При создании нового актуального промта сохранять это правило, если пользователь явно не попросит обратное.
+
+
+## Светлая / тёмная сторона
+
+В верхней строке Control Center между `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и индикатором синхронизации уже есть переключатель:
+- `☀ Светлая сторона`
+- `🌙 Тёмная сторона`
+
+Выбор запоминается в браузере. Это только оформление сайта и не меняет проектные данные.
+
+
+## Комментарии прямо на сайте — следующий шаг
+
+Текущий раздел умеет читать GitHub Issue #8, но публикация пока требует GitHub login. Пользователь решил перейти к форме прямо на сайте без GitHub-аккаунта.
+
+План: отдельный безопасный comments backend (предпочтительно Supabase) с публичным чтением, anonymous posting, ответами, защитой от спама и без какого-либо доступа к prompt master. GitHub Issue #8 не удалять, пока новая система не проверена.
+
+
+## Stability/current-state policy — 20.09.2026
+
+Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
+
+Правило с этого checkpoint:
+- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
+- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
+- исторические/checkpoint значения не являются live invariants;
+- instruction files задают правила, а не являются параллельной базой runtime-status;
+- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
+
+На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+
+Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
