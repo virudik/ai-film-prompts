@@ -73,7 +73,7 @@ States:
 
 
 На момент handoff:
-- 14 scenes
+- 15 scenes
 - 18 prompt texts
 - W5/W7/W8
 - slow: 2,12,14,15,18,19
@@ -253,3 +253,33 @@ Canonical raw `video-prompts.md` should be UTF-8 without BOM. On 19.09.2026 a wr
 
 После переименования пятого canonical instruction file с `CLAUDE-TAKEOVER-RUNBOOK.md` на `BACKUP-AI-RUNBOOK.md` validator `scripts/build_project_status.py` тоже обязан использовать новое имя в `INSTRUCTION_FILES`. Если exact-text snapshot показывает все пять файлов `match=true`, но workflow падает с `instruction_sync_error`, первым делом проверить, что validator не ожидает старое filename. 19.09.2026 этот хвост миграции был найден и исправлен; следующий sync успешно пересобрал `project-status.json` с `health=ok` и `instruction_sync=ok`.
 
+
+
+## Stability/current-state policy — 20.09.2026
+
+Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
+
+Правило с этого checkpoint:
+- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
+- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
+- исторические/checkpoint значения не являются live invariants;
+- instruction files задают правила, а не являются параллельной базой runtime-status;
+- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
+
+На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+
+Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
+
+
+## Topview mapping hardening — 20.09.2026
+
+Для нового/возвращённого slow Scene ID automation обязана:
+1. fresh-read Drive master scene block;
+2. fresh-read `project-status.json.slow_scenes`;
+3. query candidate board task;
+4. сравнить task prompt/reference semantics с current scene body;
+5. только после совпадения записать mapping `verified=true` / high confidence;
+6. если task prompt явно соответствует сцене, не отвергать её из-за stale title/старого handoff snapshot;
+7. если exact match не доказан — `unverified`, queue/ETA не подставлять.
+
+Current exact mappings: Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 → `6ef310d646ca4605b5b10c12752b6ab7`.
