@@ -1,133 +1,183 @@
-# AI Film — sync architecture v3.5
+# README-AI-SYNC v4.0
 
+**Дата:** 20.09.2026  
+**Назначение:** краткая карта архитектуры и синхронизации AI Film Project.
 
-## Source of truth
+## Canonical data flow
 
-
-Editable:
-Google Drive `AI Film Prompts Master/video-prompts.md`
-ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
-
-
-Public mirror:
-GitHub `virudik/ai-film-prompts`
-
-
-Viewer:
-`https://virudik.github.io/ai-film-prompts/`
-
-Mandatory prompt-writing standard:
-`PROMPT-STYLE-GUIDE.md` — Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`. Fresh-read it before creating or substantially rewriting a video prompt; it is a specialized project instruction and does not replace the five-file Recovery Sync set.
-
-
-## Data flow
-
-
-Drive master
-→ `SYNC-TRIGGER.txt`
+`Google Drive video-prompts.md`
+→ same-ID edit
+→ GitHub `SYNC-TRIGGER.txt`
 → `sync-from-drive.yml`
 → validation
 → GitHub `video-prompts.md`
 → generated `project-status.json`
-→ GitHub Pages
+→ GitHub Pages / Control Center
 
+Editable master:
+`Google Drive / AI Film Prompts Master / video-prompts.md`  
+ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
 
-Instruction mirror / recovery:
-private Drive instructions (canonical)
-→ hourly `AI Film Recovery Sync` exact-text compare
-→ automatic repair only Drive → GitHub when mirror differs
+GitHub `virudik/ai-film-prompts` — mirror/status/site layer, не второй master.
+
+## Seven-document takeover / recovery set
+
+Google Drive является authority для:
+
+1. `NEW-CHAT-HANDOFF.md`
+2. `SYNC-RUNBOOK.md`
+3. `AI-PROJECT-GUIDE.md`
+4. `PROMPT-STYLE-GUIDE.md`
+5. `USER-GUIDE.md`
+6. `README-AI-SYNC.md`
+7. `BACKUP-AI-RUNBOOK.md`
+
+Новый чат должен прочитать **все семь**, затем fresh master и live status JSON.
+
+Instruction mirror flow:
+
+`Drive seven docs`
+→ exact compare
+→ repair **Drive → GitHub only**
 → semantic consistency check
 → `instruction-sync-status.json`
-→ project-status rebuild
+→ `project-status.json` health projection
 
-`Topview Slow Watch` runs hourly for Topview telemetry only and does not make production approval decisions. Instruction mirror verification/repair and handoff maintenance belong exclusively to hourly `AI Film Recovery Sync`, avoiding duplicated Drive/GitHub checks.
+`instruction-sync-status.json` должен отслеживать все семь документов.
 
+## Storage roles
 
-Topview telemetry:
-mapped task per slow Scene ID
+### Drive
+Canonical editable prompt master + canonical instruction/recovery docs.
+
+### GitHub
+Public mirrors, Control Center, scripts, status JSON, references, Pages.
+
+### Notion
+Story/idea/history bank. Не prompt authority.  
+Operational pointer: `AI Film — Актуальная инструкция / Handoff`.
+
+### ChatGPT Library
+Recovery mirror/cache. Не authority при доступном Drive.
+
+### Topview
+Read-only generation telemetry. Technical `success` != approval.
+
+### Supabase
+Comments backend only. No prompt/master mutation rights.
+
+## Prompt-writing flow
+
+Перед новым/существенно изменённым prompt:
+
+`PROMPT-STYLE-GUIDE.md`
+→ fresh Drive master
+→ 1–2 current example scenes
+→ write master-level prompt
+→ same-ID master edit
+→ sync/validation/Pages
+
+Если следующий Scene ID очевиден из fresh master, редактор выбирает следующий новый стабильный ID сам. Удалённые IDs не переиспользуются.
+
+## Master invariants
+
+- no duplicate master versions;
+- stable Scene IDs;
+- `project-status.json` generated, never manually used as second master;
+- slow membership is canonical from master/status;
+- slow rerun/clear requires user decision/error;
+- Topview success does not approve scene;
+- current runtime counts/SHA/slow come from fresh master/status, not historical docs;
+- raw master UTF-8 without BOM;
+- global prompt rule `FRAME FILL / NO BARS`, unless user explicitly overrides.
+
+## Control Center baseline
+
+Viewer:
+`https://virudik.github.io/ai-film-prompts/`
+
+Current permanent features:
+- Russian UI;
+- active scene map + full prompts;
+- merged slow + Topview telemetry;
+- status/model/start/elapsed/queue/ETA;
+- three-state sync lightsaber;
+- reference/character viewer;
+- light/dark theme (`ai-film-theme`);
+- collapsible `Контрольный отпечаток`;
+- directly below it collapsible `💬 Комментарии, идеи и предложения`;
+- native Supabase read/post/reply without GitHub login.
+
+Old `Архив GitHub` comments button is no longer part of the UI.
+
+## Supabase comments
+
+- org `Vint`;
+- project `ai-film-comments`;
+- ref `vzohfatqzyioydtgjiyd`;
+- Edge Function `submit-comment`;
+- public read published;
+- anonymous post/reply;
+- RLS;
+- honeypot;
+- rate limit 5 / 10 min / IP;
+- frontend publishable key only;
+- never expose service/admin secret;
+- comments never mutate master.
+
+## Material-change propagation
+
+A permanent change to site architecture, workflow, prompt standard, authority, recovery or status model is not complete until:
+
+`implementation`
+→ relevant Drive docs
+→ SAME `NEW-CHAT-HANDOFF.md`
+→ `PROMPT-STYLE-GUIDE.md` if relevant
+→ exact GitHub mirrors
+→ fresh `instruction-sync-status.json`
+→ status/Pages verification
+→ Notion operational pointer
+→ Library recovery copies
+
+Do not propagate ephemeral queue/ETA/SHA as permanent prose across all docs.
+
+## Site-only changes
+
+Edit GitHub `index.html`.
+
+After edit:
+- JS syntax;
+- duplicate IDs;
+- no secrets;
+- Pages success.
+
+If it becomes a permanent feature, also run Material-change propagation.
+
+## Topview flow
+
+`project-status.json.slow_scenes`
+→ exact verified Topview task
 → per-task queue/status/ETA
 → `topview-status.json`
 → site
 
+No guessed task mapping. No queue copying between tasks. No automatic rerun/approval.
 
-## Never do
+## Recovery safeguards
 
+- sync workflow refetch/rebuild/retry for concurrent GitHub writers;
+- BOM normalization/guard;
+- live status freshness checks;
+- historical snapshot != current invariant;
+- Topview mapping against fresh current scene body;
+- Drive → GitHub only for instruction repair.
 
-- do not edit `project-status.json` by hand
-- do not treat GitHub master mirror as editable source
-- do not create duplicate master versions
-- do not rerun slow scene because of audit/UI suggestion
-- do not reuse one Topview queue snapshot for every task
-- do not replace user-confirmed character model sheets from similarity
+## Definition of Done
 
+Prompt/master change:
+same-ID Drive write + successful sync + validation + exact mirror + current status + Pages.
 
-## Current viewer conventions
+Instruction/material change:
+all seven Drive docs current + all seven GitHub mirrors exact + fresh instruction status + Notion pointer + Library recovery current.
 
-
-- Russian UI
-- technical detail in `Контрольный отпечаток`
-- service links in `Служебные файлы`
-- clickable counters
-- W-items remain a normal table
-- Topview status localized
-- queue label = `Очередь`
-- time estimate remains current one-line combined form
-- sync health uses three-state lightsaber: green `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`, yellow `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ` during recovery observation, red for unresolved/stale error
-- slow UI объединён: одна видимая canonical+Topview таблица; raw master slow-table скрыта только в presentation layer
-
-
-## Reference architecture
-
-
-`character-references.json` = identity registry
-`references.html` = viewer
-960px preview = lightweight web display
-`reference-originals.zip` = Drive original archive
-
-
-Verified 19.09.2026: all 8 confirmed entries have existing `references/full/*.jpg` paths and `references.html` opens `model_sheet.full_image` in the lightbox.
-
-
-## Recovery
-
-
-Start from:
-1. `NEW-CHAT-HANDOFF.md`
-2. `SYNC-RUNBOOK.md`
-3. `AI-PROJECT-GUIDE.md`
-4. fresh Drive master
-5. current status JSON files
-
-
-
-
-## Write-race resilience
-
-
-Direct Topview/instruction telemetry commits can advance `main` during a Drive sync. Since 19.09.2026 the sync workflow refetches the newest `origin/main`, rebuilds status on that head and retries non-fast-forward pushes instead of failing immediately. The site health indicator also applies freshness/latest-workflow checks rather than trusting an indefinitely old green JSON.
-
-
-## Encoding normalization
-
-Since 19.09.2026 the Drive sync normalizes an optional UTF-8 BOM before validating the Markdown header. The canonical raw master is kept UTF-8 without BOM. This prevents invisible encoding markers from producing false sync failures.
-
-## Verified recovery 19.09.2026
-
-Race retry and BOM normalization are now verified by multiple successful Drive-sync runs. Current verified fingerprint: revision `19.09.2026`, SHA-256 `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`, Drive/GitHub master exact match, project health `ok`, instruction sync `ok`.
-
-
-## Recovery-warning UI
-
-The Control Center keeps a recovered error visible in yellow until three consecutive successful sync workflow runs have followed the latest detected failure. Current unresolved failure or stale/unhealthy state is red; stable healthy state is green. Exact sync time is shown without a redundant relative `N minutes ago`. A Topview-success task that remains in the canonical slow list is labeled as waiting for user decision.
-
-
-## Current-state authority — 20.09.2026
-
-Dynamic runtime facts не должны размножаться как независимые истины по инструкциям:
-- current master content/counts/slow → fresh Drive `video-prompts.md` + generated `project-status.json`;
-- current Topview task/status/queue/ETA → `topview-status.json` after exact task verification;
-- historical/checkpoint SHA/counts в документации — evidence only.
-
-Добавление/удаление Scene ID не должно вызывать health error само по себе. Validator должен проверять согласованность текущего master, а semantic checker — отличать current claims от исторических snapshot-ов.
-
-Checkpoint after Scene 20: 16 scenes, 19 prompts, slow `2,12,14,15,18,19`; Scene 20 is READY / Seedance 2.5 / not slow. Theme toggle and direct anonymous Supabase comments are already implemented; comments appear in their own collapsible section below `Контрольный отпечаток`. Fresh health/SHA are read from live status after sync.
+If any required layer is not verified, report it explicitly rather than claiming full completion.
