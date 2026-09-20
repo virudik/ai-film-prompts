@@ -1,253 +1,223 @@
-# AI Film — руководство владельца
+# USER-GUIDE v4.0 — AI Film Project
 
+**Дата актуализации:** 20.09.2026  
+**Для кого:** владелец проекта и любой чат/агент, который должен быстро понять, как проект устроен.
 
-## Где что находится
+## 1. Главное правило
 
+Единственный editable master промтов:
 
-Главный рабочий файл:
-Google Drive `AI Film Prompts Master/video-prompts.md`
+`Google Drive / AI Film Prompts Master / video-prompts.md`  
+Drive ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
 
+GitHub, сайт, Notion и Library не являются вторым prompt master.
 
-Он единственный editable master.
+## 2. Что обязан прочитать новый чат
 
+Перед вступлением в роль редактора новый чат читает **все семь** документов:
 
-Сайт:
-`https://virudik.github.io/ai-film-prompts/`
+1. `NEW-CHAT-HANDOFF.md`
+2. `SYNC-RUNBOOK.md`
+3. `AI-PROJECT-GUIDE.md`
+4. `PROMPT-STYLE-GUIDE.md`
+5. `USER-GUIDE.md`
+6. `README-AI-SYNC.md`
+7. `BACKUP-AI-RUNBOOK.md`
 
+После этого:
+- fresh Drive `video-prompts.md`;
+- live `project-status.json`;
+- live `topview-status.json`;
+- live `instruction-sync-status.json`;
+- при работе с сюжетом: `film-analysis.md`, `film-backlog.md` и релевантный Notion `Кино`.
 
-GitHub — зеркало и интерфейс. Сцены/промты не считаются изменёнными только потому, что поменялся HTML сайта.
+Чат не должен заставлять пользователя повторять сведения, которые уже есть в этих источниках.
 
-
-## Как изменить сцену или промт
-
-
-Сказать:
-- Scene ID;
-- что именно изменить;
-- нужно ли менять только prompt или ещё описание/референсы/status.
-
+## 3. Как изменить существующую сцену
 
 Правильный процесс:
-1. fresh-read Drive master;
-2. минимальная правка;
-3. тот же Drive file ID;
-4. sync trigger;
-5. validator/status/Pages.
 
+1. fresh-read exact Drive master;
+2. найти Scene ID;
+3. проверить slow/status/dependencies;
+4. если меняется сам prompt — прочитать `PROMPT-STYLE-GUIDE.md`;
+5. сделать минимальную правку;
+6. сохранить в **тот же Drive file ID**;
+7. trigger GitHub sync;
+8. дождаться validation/status/Pages;
+9. проверить результат;
+10. только после этого сообщить о завершении.
+
+## 4. Как добавить новую сцену
+
+Удалённые Scene IDs не переиспользуются.
+
+Если следующий Scene ID однозначно определяется из fresh master, чат **сам присваивает следующий новый стабильный ID** и не спрашивает пользователя номер.
+
+Новая сцена должна получить:
+- TOC entry;
+- anchor;
+- title;
+- `scene-meta`;
+- контекст;
+- references;
+- human summary;
+- полный master-level prompt;
+- корректные counts/status.
 
-## Как добавить новую сцену
+Slow-marker добавляется только при реальном запуске/решении о canonical slow.
 
+## 5. Как писать промты
 
-Перед написанием prompt обязательно прочитать полный `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) и свериться с актуальными сценами master. Новый Scene ID определяется из fresh master как следующий новый стабильный ID; удалённый старый ID не переиспользуется. Если ID однозначно определяется, пользователя об этом спрашивать не нужно.
+Полная обязательная инструкция:
+
+`PROMPT-STYLE-GUIDE.md`  
+Drive ID: `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`
+
+Она обязательна для всех новых и существенно перерабатываемых prompts.
+
+Перед prompt work чат:
+- перечитывает guide;
+- перечитывает master;
+- сверяется с 1–2 актуальными похожими сценами.
 
+Обычно master-level prompt должен проработать:
+- engine/technical parameters;
+- exact reference roles;
+- identity/reference priority;
+- scene goal;
+- timeline/story flow;
+- camera/continuity;
+- performance;
+- dialogue/vocal/lip-sync;
+- lighting/material/environment;
+- native audio;
+- scene-specific negative prompt;
+- `FRAME FILL / NO BARS`.
 
-Добавляются/обновляются:
-- scene map row
-- full scene section
-- scene-meta при необходимости
-- prompt text
-- counts/status
+Нельзя возвращаться к коротким общим промтам, если master использует более детальную режиссёрскую структуру.
 
+## 6. Slow и Topview
 
-## Как удалить готовую сцену
+Slow membership определяет master / `project-status.json`, а не Topview.
 
+Topview даёт telemetry:
+- task;
+- model;
+- status;
+- start/finish;
+- queue;
+- ETA.
 
-Удалять из active master только когда ролик принят и prompt больше не нужен.
-Topview `success` сам по себе недостаточен.
+`success` = задача технически закончилась. Это **не означает**, что ролик принят.
 
+Slow-lock снимается только после пользовательского решения/ошибки/нужного workflow.
 
-## Slow generation
+## 7. Control Center
 
+Сайт:
 
-Slow = генерация уже запущена.
+`https://virudik.github.io/ai-film-prompts/`
 
+Текущий baseline:
+- активные сцены и полные prompts;
+- merged slow + Topview;
+- модель/status/start/elapsed/queue/ETA;
+- sync lightsaber;
+- reference viewer;
+- светлая/тёмная тема;
+- `Контрольный отпечаток`;
+- непосредственно под ним отдельная раскрывающаяся секция `💬 Комментарии, идеи и предложения`;
+- comments/replies без GitHub account через Supabase;
+- старой кнопки `Архив GitHub` нет.
 
-Текущий canonical slow list:
-2,12,14,15,18,19.
+Site-only правки делаются в GitHub `index.html`, затем обязательны JS syntax check, duplicate IDs check и Pages verification.
 
+## 8. Комментарии
 
-Scene 2 по новому прямому решению пользователя снова возвращена в slow; её prompt остаётся active. Добавлена новая active+slow Scene 19 «Рыбалка и Маша-Лагуна» для Wan 3.0, 30 секунд, русский диалог. Scenes 6, 7 и 9 больше не актуальны и удалены из active master. Не восстанавливать их автоматически без нового явного запроса пользователя.
+Supabase:
+- organization `Vint`;
+- project `ai-film-comments`;
+- ref `vzohfatqzyioydtgjiyd`;
+- Edge Function `submit-comment`.
 
+Есть:
+- public read;
+- anonymous posting;
+- replies;
+- RLS;
+- honeypot;
+- rate limit 5 / 10 min / IP.
 
-## Сайт
+В публичном HTML запрещён `service_role`. Comments не могут менять master или запускать генерации.
 
+## 9. Где что хранится
 
-Навигация:
-- `Сцен` → карта активных сцен
-- `Промтов` → полные prompts
-- `Медленная генерация` → slow filter
-- `В работе` → таблица W-items
+**Drive** — editable master и инструкции.  
+**GitHub** — mirror/status/site/Pages.  
+**Notion** — идеи, сюжет, история, старый prompt bank.  
+**Library** — recovery mirror/cache.  
+**Topview** — telemetry генераций.  
+**Supabase** — comments backend.
 
+Если источники конфликтуют, current prompt/runtime truth берётся из fresh Drive master + live status JSON, а не из старой Library/Notion копии.
 
-Слева:
-- основные ссылки видимы;
-- остальные — `Служебные файлы`;
-- резервный runbook в меню называется `Инструкция для резервного ИИ`; техническое имя файла: `BACKUP-AI-RUNBOOK.md`.
+## 10. Как фиксировать новые функции и правила
 
+Если в проекте появляется постоянное нововведение — функция сайта, backend, новый prompt rule, workflow, status, источник истины, recovery step — недостаточно просто изменить код.
 
-`Контрольный отпечаток` хранит технику:
-- hash
-- schema/status
-- instruction sync
-- служебные пояснения
+В том же цикле нужно:
+1. обновить релевантные Drive-инструкции;
+2. обновить SAME `NEW-CHAT-HANDOFF.md`;
+3. обновить `PROMPT-STYLE-GUIDE.md`, если меняется prompt-writing;
+4. зеркалировать в GitHub;
+5. refresh `instruction-sync-status.json`;
+6. проверить status/Pages;
+7. обновить Notion operational pointer;
+8. обновить Library recovery copies.
 
+Это обязательный Definition of Done для материальных изменений.
 
-## Topview
+## 11. Notion
 
+Notion `Кино` остаётся полезным для:
+- старого сценарного плана;
+- идей;
+- локаций;
+- исторических промтов;
+- альтернативных сюжетных решений.
 
-Таблица показывает:
-- Scene
-- Model
-- Status
-- Start
-- Elapsed
-- Queue
-- Time estimate
+Но это не текущий prompt master.
 
-Служебные столбцы `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь` специально сделаны компактными по ширине содержимого, чтобы не съедать место у названия сцены и оценки времени. Значения `В очереди`, `Seedance 2.5`, `Wan 3.0` и `ждёт решения` не должны разрываться переносом внутри фразы.
+Операционный указатель:
+`AI Film — Актуальная инструкция / Handoff`.
 
+Страница `Важные промты` считается legacy bank и должна использоваться как inspiration/history, а не как актуальный стандарт.
 
-Русские статусы:
-- В очереди
-- Выполняется
-- Завершено
-- Ошибка
+## 12. Library
 
+Library нужна для восстановления между чатами.
 
-`Очередь` — provider telemetry конкретной task, не гарантированное точное место пользователя.
+Она должна содержать свежие recovery copies семи инструкций и связанных summary/status файлов, но при наличии Drive:
+**Drive всегда сильнее Library**.
 
+## 13. Что новый чат не должен делать
 
-Оценка времени оставлена как согласовано:
-крупная общая оценка + Topview + история одной строкой.
+- не спрашивать известный Scene ID, если он выводится из master;
+- не просить пользователя вручную вставлять текст, если доступна запись;
+- не создавать параллельный master;
+- не брать GitHub/Library copy как editable authority;
+- не массово переписывать NEEDS_FIX;
+- не approve/rerun по Topview success;
+- не использовать старый Notion prompt как новый master prompt без проверки;
+- не считать старый GitHub failure email текущей аварией без live-check.
 
+## 14. Как понять, что задача реально завершена
 
-## Световой меч синхронизации
+Master change:
+Drive write → GitHub sync → validation → current status → Pages.
 
+Instruction/material change:
+seven Drive docs → seven GitHub mirrors → fresh instruction status → Notion pointer → Library recovery copies.
 
-Три состояния:
-
-- `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ` — зелёное лезвие: всё актуально, свежо и после последней замеченной ошибки уже прошло минимум 3 успешных sync-runs подряд либо недавних ошибок в проверяемой истории нет.
-- `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ` — жёлтое лезвие: ошибка уже восстановлена и всё текущее состояние здорово, но после сбоя пока было только 1–2 успешных sync-runs. После третьего успешного запуска статус автоматически возвращается к зелёному.
-- `✕ ОШИБКА СИНХРОНИЗАЦИИ` / `✕ СИНХРОНИЗАЦИЯ УСТАРЕЛА` — красное лезвие: ошибка ещё не восстановлена, status/instructions unhealthy либо последний успешный status старше 75 минут.
-
-Точное время синхронизации показывается без дополнительного `N мин назад`, чтобы строка не дублировалась и не съезжала.
-
-
-Анимация должна быть заметной, но медленной. Зелёный, жёлтый и красный меч используют один тип движущегося градиента и пульсации; на красном эффект визуально заметнее из-за контраста.
-
-
-## Персонажи / референсы
-
-
-8 подтверждённых:
-Серёга, Юля, Паша, Артём, Илюша, Саша, Лёша, Виталик.
-
-
-Точный подтверждённый model sheet важнее Topview similarity или group image.
-
-
-Preview 960px — для скорости.
-Оригиналы хранятся отдельно; `reference-originals.zip` лежит в Drive.
-Проверено 19.09.2026: public full-res файлы существуют для всех 8 model sheets, а клик по preview открывает `full_image` в lightbox.
-
-
-## Slow-раздел сайта
-
-
-Две прежние slow-таблицы уже объединены. На сайте видна одна таблица `⏳ Сейчас в медленной генерации — Topview`: список сцен остаётся каноническим из Drive/master, а Topview добавляет технический статус и оценочные данные. Вторую видимую slow-таблицу не возвращать без отдельной причины. Если Topview уже показывает `success`, но Scene ID всё ещё canonical slow, сайт пишет `Завершено`, а строкой ниже — `ждёт решения`: ролик нужно принять/доработать/оставить/перезапустить решением пользователя. `ждёт решения` и название модели (`Seedance 2.5` / `Wan 3.0`) должны оставаться целиком в одну строку без внутреннего переноса.
-
-
-## Если что-то выглядит странно
-
-
-Не менять master автоматически.
-Сначала объяснить:
-- что дублируется;
-- что техническое;
-- что можно скрыть;
-- что можно объединить;
-- насколько изменение обратимо.
-
-
-
-
-## Если пришло письмо GitHub Run failed
-
-
-Не делать вывод по письму в отрыве от текущего status. Проверить самый свежий workflow и `project-status.json.synced_at`. После transient non-fast-forward следующая синхронизация может уже восстановить состояние. С 19.09.2026 sync workflow умеет refetch/rebuild/retry; Control Center также проверяет freshness, поэтому старый зелёный JSON не должен бесконечно маскировать новую невосстановленную ошибку.
-
-## Текущий статус после аварии 19.09.2026
-
-Проблема с race/BOM подтверждённо восстановлена: после исправлений прошли несколько успешных синхронизаций, Drive master снова совпадает с GitHub mirror, status и instruction sync = `ok`. Старые письма GitHub об ошибках сами по себе не означают, что система всё ещё сломана.
-
-
-## Автоматическое обслуживание инструкций
-
-`AI Film Recovery Sync` запускается раз в час. Drive остаётся источником истины для пяти canonical instruction files. Если GitHub mirror отличается, он автоматически восстанавливается из Drive → GitHub. Обратная запись GitHub → Drive запрещена. Отдельно проверяются известные смысловые противоречия; такие конфликты не переписываются автоматически в Drive.
-
-## Идея на будущее: режим `Сейчас`
-
-Статус: **не реализован намеренно**. Это дополнительный рабочий режим, который можно сделать позже по отдельному запросу.
-
-Он не должен заменять обычный сайт и не должен удалять или навсегда скрывать сцены. В полном режиме остаются все сцены, промты, slow/Topview, W-items, референсы и служебные данные. Кнопка/вкладка `Сейчас` будет показывать короткую выборку того, что требует внимания в ближайшее время.
-
-Планируемые блоки:
-- `Требует решения` — например, Topview уже завершил сцену, но она всё ещё в canonical slow list и ждёт принятия/доработки/перезапуска;
-- `Проблемы / блокеры` — ошибки, NEEDS_FIX/NEEDS_RERENDER, подтверждённые continuity/story blockers;
-- `Уже запущено` — slow scenes с текущей Topview telemetry, чтобы не запустить дубль;
-- `Следующее действие` — только по зафиксированным W-items/backlog или явно подтверждённому пользователем приоритету.
-
-Кто решает, что важнее: технический порядок определяется прозрачными статусами (`ждёт решения`, `error`, slow, NEEDS_FIX и т. п.). Творческий порядок сайт и ИИ не придумывают самостоятельно: он берётся из W-items/backlog или задаётся пользователем. Режим `Сейчас` только собирает уже существующие данные в более удобный приоритетный вид.
-
-
-
-## Статусы в таблице активных сцен
-
-Для canonical slow-сцен таблица `🎬 Активные сцены проекта — карта и навигация` берёт технический статус из `topview-status.json`. Если Scene ID снят с canonical slow-list, технический Topview-status в active map больше не показывается, даже если историческая task завершилась `success`.
-
-- `success` → зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`;
-- `init/queued` → `⏳ В ОЧЕРЕДИ`;
-- `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`;
-- `fail/failed` → `✕ ОШИБКА ГЕНЕРАЦИИ`.
-
-Это отображение технической генерации только для canonical slow-сцен. Зелёный status сам по себе не означает approval. Current state: scene 2 снова canonical slow; scenes 6, 7 и 9 удалены из active master; Scene 19 «Рыбалка и Маша-Лагуна» добавлена active+slow; current slow = 2, 12, 14, 15, 18, 19.
-
-## Комментарии / идеи и предложения
-
-На Control Center уже работает нативная раскрывающаяся шторка `💬 Комментарии, идеи и предложения` сразу под `Контрольный отпечаток`. Читать, писать и отвечать можно прямо на сайте без GitHub-аккаунта. Backend — Supabase `ai-film-comments` (`vzohfatqzyioydtgjiyd`): anonymous posting, replies, RLS, honeypot и rate limit. Comments backend не меняет prompt master, Scene IDs, W-items, slow-lock или approval и не запускает генерации.
-
-
-## Глобальное правило кадра для текущих промтов
-
-Во все 19 актуальных полных промтов добавлено `FRAME FILL / NO BARS`: модель должна заполнять выбранный output frame от края до края и не создавать letterboxing, pillarboxing, чёрные/боковые полосы, декоративную рамку или пустые поля. При создании нового актуального промта сохранять это правило, если пользователь явно не попросит обратное.
-
-
-## Светлая / тёмная сторона
-
-В верхней строке Control Center между `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и индикатором синхронизации уже есть переключатель:
-- `☀ Светлая сторона`
-- `🌙 Тёмная сторона`
-
-Выбор запоминается в браузере. Это только оформление сайта и не меняет проектные данные.
-
-
-
-## Stability/current-state policy — 20.09.2026
-
-Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
-
-Правило с этого checkpoint:
-- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
-- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
-- исторические/checkpoint значения не являются live invariants;
-- instruction files задают правила, а не являются параллельной базой runtime-status;
-- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
-
-На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
-
-Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
-
-
-## Prompt style standard
-
-Полный обязательный стандарт всех новых/перерабатываемых видео-промтов — `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`). Он содержит структуру и примеры master-уровня; краткие ответы чата не заменяют его. Current checkpoint after Scene 20: 16 active scenes, 19 prompts; slow `2,12,14,15,18,19`; Scene 20 READY, Seedance 2.5, not slow.
+До этого слово `ГОТОВО` преждевременно.
