@@ -181,3 +181,27 @@ Instruction/material change:
 all seven Drive docs current + all seven GitHub mirrors exact + fresh instruction status + Notion pointer + Library recovery current.
 
 If any required layer is not verified, report it explicitly rather than claiming full completion.
+
+## Character / film-context flow
+
+Takeover context теперь включает не только instructions + master/status, но и два обязательных смысловых слоя:
+
+`references.html` + `character-references.json`
+→ canonical name / alias / model-sheet map
+→ cross-check current master
+→ natural-language character resolution in new prompts.
+
+`Seregius_montazhny_razbor.html`
++ `film-analysis.md`
++ `film-backlog.md`
++ relevant Notion `Кино`
+→ compact current film/story/editing map.
+
+Это позволяет следующему чату понимать запросы вида «Паша говорит Саше, потом заходит Серёжа» без повторного описания известных персонажей и понимать монтажную функцию новой сцены.
+
+## Takeover readiness check
+
+До readiness report агент проверяет актуальность seven docs, master/status, site, character registry, montage sources, Notion operational pointer и Library recovery. Safe documentation drift repair допускается по существующим authority rules; creative/approval conflicts требуют user decision.
+
+Hourly automation должна оставаться лёгкой: проверять наличие/целостность этих слоёв и предупреждать о drift, но не перечитывать/перегенерировать тяжёлый montage HTML или image payload каждый час.
+
