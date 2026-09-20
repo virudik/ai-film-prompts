@@ -69,14 +69,19 @@ States:
 При `error` различать два случая: exact-text mismatch GitHub mirror можно автоматически исправить только из canonical Drive → GitHub; semantic conflict, missing Drive source или неоднозначность автоматически в Drive не исправлять — сообщить точные файлы/формулировки пользователю.
 
 
+## 3A. Prompt-writing standard
+
+Для новой сцены или существенной переработки prompt обязателен fresh-read `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) и 1–2 актуальных сцен master. Полный guide не заменять кратким пересказом. Новый Scene ID брать как следующий новый стабильный ID; удалённые IDs не переиспользовать.
+
 ## 4. Current integrity checkpoint
 
 
 На момент handoff:
-- 15 scenes
-- 18 prompt texts
+- 16 scenes
+- 19 prompt texts
 - W5/W7/W8
 - slow: 2,12,14,15,18,19
+- Scene 20 active READY: Seedance 2.5, 30s, not slow
 
 
 Всегда fresh-check.
