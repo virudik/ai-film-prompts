@@ -258,3 +258,17 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer → Library recovery. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
 
+## 17. Topview auto-import awareness
+
+Резервный агент должен знать, что automation `Topview Scene Intake & Slow Watch` имеет ограниченное явное право создавать новую Scene ID из genuinely new Topview video task.
+
+Это не разрешение автоматически переписывать существующие сцены:
+- known retry/duplicate → не новая сцена;
+- actual prompt должен быть сохранён verbatim;
+- новый ID только после fresh master;
+- running → slow; success → `RESULT_RECEIVED`, не APPROVED;
+- ambiguous task → no write, ask/notify;
+- после write обязателен normal sync/validation/Pages/task mapping.
+
+При recovery обязательно проверять, что одна Topview task не импортирована дважды.
+
