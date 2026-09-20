@@ -1,137 +1,247 @@
-# Инструкция для резервного ИИ — AI Film v3.5
+# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
 
+**Дата актуализации:** 20.09.2026  
+**Назначение:** правила безопасного takeover для нового/резервного ИИ.
 
-Резервный ИИ работает review-only по умолчанию.
+## 1. Нельзя начинать с редактирования
 
-
-Использовать этот файл только если пользователь явно назначает конкретный резервный ИИ временным основным редактором. Техническое имя файла: `BACKUP-AI-RUNBOOK.md`.
-
-
-## Preflight
-
-
-Перед любой записью резервный ИИ должен доказать, что его конкретное окружение умеет:
-1. read exact Drive master ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`;
-2. write back to SAME file ID;
-3. read GitHub repo `virudik/ai-film-prompts`;
-4. update `SYNC-TRIGGER.txt`;
-5. verify workflow/status/Pages.
-
-
-If same-ID Drive write is unavailable:
-remain review-only and return exact patch instructions.
-
-
-## Required reading
-
+Новый агент сначала читает **все семь** обязательных документов:
 
 1. `NEW-CHAT-HANDOFF.md`
 2. `SYNC-RUNBOOK.md`
 3. `AI-PROJECT-GUIDE.md`
-4. `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) for any prompt work
-5. fresh Drive `video-prompts.md`
-6. `project-status.json`
-7. if relevant `film-analysis.md` + `film-backlog.md`
+4. `PROMPT-STYLE-GUIDE.md`
+5. `USER-GUIDE.md`
+6. `README-AI-SYNC.md`
+7. `BACKUP-AI-RUNBOOK.md`
 
+Затем:
+- fresh exact Drive `video-prompts.md`;
+- live `project-status.json`;
+- live `topview-status.json`;
+- live `instruction-sync-status.json`;
+- при story/editing — `film-analysis.md`, `film-backlog.md`, затем релевантный Notion `Кино`.
 
-## Safety
+Только после этого takeover считается завершённым.
 
+## 2. Capability preflight
 
-- stable Scene IDs
-- no duplicate masters
-- slow list is canonical
-- no slow rerun without result/error/user decision
-- Topview success != approval
-- Current canonical state must be read fresh: scene 2 has been explicitly returned to canonical slow by the user; scenes 6, 7 and 9 remain removed from active master as obsolete; new Scene 19 «Рыбалка и Маша-Лагуна» is active+slow. Current slow = 2,12,14,15,18,19. Do not infer slow changes from historical Topview telemetry.
-- `project-status.json` is generated
-- canonical instruction semantics are not auto-rewritten; hourly `AI Film Recovery Sync` may repair only GitHub instruction mirrors from canonical Drive → GitHub and performs semantic-conflict detection
+Перед записью агент должен доказать, что конкретное окружение умеет:
 
+1. читать exact Drive master ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`;
+2. писать обратно в **тот же file ID**;
+3. читать/писать repo `virudik/ai-film-prompts`;
+4. обновлять `SYNC-TRIGGER.txt`;
+5. проверять Actions/status/Pages.
 
-## Prompt-writing requirement
+Для instruction maintenance также нужны:
+- read/write exact seven Drive instruction IDs;
+- exact GitHub mirror update;
+- проверка `instruction-sync-status.json`.
 
-For any new or substantially rewritten video prompt, fresh-read the full `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) before editing the master. Do not replace it with a shortened summary. Use the next new stable Scene ID from fresh master automatically when determinable; never reuse deleted IDs.
+Если same-ID Drive write недоступна — агент **review-only**. Он не создаёт новый master и не притворяется, что запись выполнена.
 
-## Write procedure
+## 3. Источник истины
 
+Drive:
+- prompt master;
+- seven canonical instruction/recovery docs.
 
-fresh-read
-→ minimal edit
-→ same Drive file ID
-→ sync trigger
-→ workflow
-→ validation
-→ status
-→ Pages
-→ report exact change
+GitHub:
+- mirrors;
+- Control Center;
+- machine status;
+- Pages.
 
+Notion:
+- story/ideas/history.
 
-## Site-only edits
+Library:
+- recovery mirror/cache.
 
+Topview:
+- telemetry.
 
-UI/HTML changes may be made in GitHub `index.html` when explicitly requested.
-Do not move scene content into HTML.
+Supabase:
+- comments backend.
 
+Ни один из последних пяти не становится prompt master.
 
-Current UI:
-- Russian labels
-- service and technical drawers
-- clickable metric navigation
-- Topview status translations
-- three-state animated sync lightsaber: green stable, yellow recovered-error observation, red unresolved/stale error
-- slow/Topview UI is already merged into one visible canonical+telemetry table
-- time estimate intentionally unchanged
-- Topview status labels such as `В очереди` must stay on one line; model names and `ждёт решения` also stay unbroken
+## 4. Правила master
 
+- stable Scene IDs;
+- deleted IDs never reused;
+- no `v2/final/copy`;
+- fresh-read before write;
+- minimal edit;
+- same Drive ID;
+- update TOC/count/meta consistently;
+- no automatic slow rerun;
+- Topview success != approval;
+- `NEEDS_FIX` != permission to rewrite everything.
 
-## References
+Если следующий Scene ID однозначно вычисляется по fresh master, новый чат сам выбирает следующий unused stable ID и **не задаёт лишний вопрос пользователю**.
 
+## 5. Правила prompt-writing
 
-User-approved model sheets are authoritative.
-Never substitute images based on visual similarity.
-Verified 19.09.2026: public `references/full/*.jpg` paths exist for all 8 confirmed model sheets and the lightbox uses them.
+Перед новым/существенным prompt:
+- fresh-read `PROMPT-STYLE-GUIDE.md`;
+- fresh-read master;
+- inspect 1–2 current similar scenes.
 
+Новый prompt должен соответствовать master-level сложности, а не быть коротким generic описанием.
 
+Обязательные типовые элементы:
+- exact refs / identity priority;
+- story flow/timeline;
+- camera/continuity;
+- performance;
+- dialogue/vocal/lip sync;
+- lighting/material/environment;
+- native audio;
+- scene-specific negative prompt;
+- `FRAME FILL / NO BARS`.
 
+Approved model sheet сильнее случайного frame similarity.
 
-## Environment-specific warning
+## 6. Routine write procedure
 
+`fresh-read`
+→ `minimal same-ID Drive edit`
+→ `SYNC-TRIGGER.txt`
+→ `sync-from-drive.yml`
+→ `validation`
+→ `GitHub mirror`
+→ `project-status.json`
+→ `Pages`
+→ `verification`
+→ `report`
 
-Любой web/chat-сеанс, который умеет только читать Drive и публичный GitHub, остаётся review-only независимо от названия модели. Takeover authority определяется возможностями конкретного окружения, а не брендом ИИ. Claude Code, Gemini CLI, Grok/DeepSeek в coding-agent окружении или другой резервный агент может стать main editor только после preflight, доказавшего same-ID Drive write плюс GitHub write/verification с реально подключёнными credentials/tools.
+Не говорить `ГОТОВО` до relevant verification.
 
-## Verified sync recovery
+## 7. Seven-document instruction maintenance
 
-As of 19.09.2026, the earlier race/BOM failures are resolved and confirmed by multiple successful sync runs. Before takeover, still fresh-check live status, but do not treat older failure emails as evidence of a current outage when a newer successful status exists.
+Canonical set:
+- `NEW-CHAT-HANDOFF.md`
+- `SYNC-RUNBOOK.md`
+- `AI-PROJECT-GUIDE.md`
+- `PROMPT-STYLE-GUIDE.md`
+- `USER-GUIDE.md`
+- `README-AI-SYNC.md`
+- `BACKUP-AI-RUNBOOK.md`
 
+Drive authority → GitHub mirror.
 
-## Current automation note — 19.09.2026
+`instruction-sync-status.json` должен проверять все семь.
 
-`AI Film Recovery Sync` now runs hourly. It can repair GitHub mirrors of the five canonical instruction files from Drive, but never Drive from GitHub. It also checks known semantic contradictions. This does not expand takeover authority: an external AI still needs the preflight for same-ID Drive write and GitHub write if it is to become main editor.
+Автоматический repair:
+Drive → GitHub only.
 
+Нельзя автоматически:
+GitHub → Drive.
 
-## Current takeover checkpoint — 20.09.2026
+## 8. Material Change Duty
 
-Fresh target after adding Scene 20: 16 active scenes, 19 prompts, W5/W7/W8, canonical slow `2,12,14,15,18,19`. Scene 2 is a current rerun slow task. Scene 19 `Рыбалка и Маша-Лагуна` is active+slow, Wan 3.0, 30s Russian dialogue. Scene 20 `Маша-Лагуна: рок-припев у озера` is active READY, Seedance 2.5, 30s, not slow. Fresh health/SHA must be checked from live status after sync.
+Если агент внедрил постоянное нововведение:
+- функцию сайта;
+- новый backend;
+- новый prompt rule;
+- новый sync/recovery behavior;
+- новый source-of-truth rule;
+- новый status;
 
-Exact Topview mappings currently verified:
-- Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b`
-- Scene 19 → `6ef310d646ca4605b5b10c12752b6ab7`
+он обязан **в том же сеансе**:
+1. обновить релевантные canonical Drive docs;
+2. обновить SAME handoff;
+3. обновить prompt guide, если применимо;
+4. синхронизировать GitHub mirrors;
+5. refresh instruction status;
+6. проверить site/status;
+7. обновить Notion operational pointer;
+8. обновить Library recovery copies.
 
-Do not repeat the earlier false mismatch for Scene 19: compare candidate task to fresh canonical scene body first.
+Изменение кода без документации не считается законченным.
 
-Site status: light/dark side switch already implemented. Native comments/replies are implemented via Supabase `ai-film-comments` (`vzohfatqzyioydtgjiyd`) with anonymous posting, replies, RLS, honeypot/rate-limit and no master mutation rights. UI is a collapsible `💬 Комментарии, идеи и предложения` section below `Контрольный отпечаток`.
+## 9. Control Center current baseline
 
+Сайт уже умеет:
+- active scenes/full prompts;
+- merged slow/Topview;
+- sync lightsaber;
+- references;
+- theme light/dark;
+- `Контрольный отпечаток`;
+- отдельную collapsible секцию `💬 Комментарии, идеи и предложения` сразу ниже;
+- Supabase comments/replies без GitHub login.
 
-## Stability/current-state policy — 20.09.2026
+Старой кнопки `Архив GitHub` нет.
 
-Добавление, удаление и возврат сцен в slow — нормальные операции и не должны сами по себе ломать систему. Последние сбои были связаны не с самим изменением scene list, а с race/BOM/validator migration и с тем, что current-state факты дублировались в исторических секциях и могли давать semantic false positive.
+Комментарии:
+- Supabase `ai-film-comments`;
+- ref `vzohfatqzyioydtgjiyd`;
+- Edge Function `submit-comment`;
+- RLS + honeypot + 5 messages/10min/IP;
+- no admin/service secret in public HTML;
+- no master mutation rights.
 
-Правило с этого checkpoint:
-- current counts / active IDs / slow IDs / current SHA берутся из fresh Drive master + live `project-status.json`;
-- current Topview task IDs/status/queue/ETA берутся из fresh `topview-status.json` после проверки exact task against current scene prompt;
-- исторические/checkpoint значения не являются live invariants;
-- instruction files задают правила, а не являются параллельной базой runtime-status;
-- при конфликте сначала fresh-read live sources, затем чинить documentation drift; не красить health в error только из-за явно исторического текста.
+## 10. Site-only edit procedure
 
-На 20.09.2026 live state: 15 active scenes, 18 prompt texts, W5/W7/W8, canonical slow `2,12,14,15,18,19`, health=ok, instruction_sync=ok, warnings=[]; current master SHA `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`.
+Править `index.html` в GitHub.
 
-Topview mapping checkpoint: Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`; Scene 19 exact task `6ef310d646ca4605b5b10c12752b6ab7`. Scene 19 mapping проверен по полному prompt и является high-confidence; более ранний mismatch-alert был false positive.
+После:
+- JS syntax check;
+- duplicate IDs;
+- secret scan;
+- Pages verification.
+
+Scene/prompt data нельзя hard-code в HTML.
+
+Если site change становится постоянным — выполнить Material Change Duty.
+
+## 11. Topview safety
+
+Canonical slow = fresh `project-status.json.slow_scenes`.
+
+Task mapping:
+- exact task;
+- full current scene semantics;
+- model/reference match;
+- `verified=true` only when proven.
+
+Telemetry never:
+- approves;
+- clears slow;
+- edits master;
+- reruns automatically.
+
+## 12. Recovery known issues
+
+- concurrent GitHub writers → use fresh origin/rebuild/retry;
+- BOM → master UTF-8 without BOM;
+- stale instruction status → refresh verification;
+- historical checkpoint conflicts → do not treat as live;
+- stale Topview mapping → compare against fresh canonical scene body;
+- old GitHub failure email → compare timestamps with newer success/live status.
+
+## 13. Notion / Library
+
+Notion:
+- use for story/ideas/history;
+- operational page `AI Film — Актуальная инструкция / Handoff`;
+- `Важные промты` is legacy bank.
+
+Library:
+- recovery mirror/cache;
+- keep current copies of seven docs + recovery summary/status;
+- never prefer Library over accessible Drive.
+
+## 14. Правило поведения сменщика
+
+Если ответ есть в canonical docs/status:
+- не спрашивать пользователя повторно;
+- не импровизировать другую архитектуру;
+- не перекладывать ручную работу на пользователя, если есть инструменты;
+- продолжать с текущего состояния;
+- при ограничении инструмента честно указать конкретный недоступный шаг.
+
+Цель takeover: пользователь должен иметь возможность сказать только новую творческую/рабочую задачу, а сменщик уже знает инфраструктуру и процесс.
