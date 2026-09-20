@@ -241,3 +241,10 @@ Daily deep (when `deep-audit-status.json.last_deep_audit_at` is missing or >=24h
 
 The separate `Topview Scene Intake & Slow Watch` continues to own Topview task intake, task mapping, queue/ETA and auto-creation of genuinely new Topview video scenes. Recovery Sync must not duplicate that work.
 
+## Service-files grouping
+
+Control Center `Служебные файлы` имеет две логические группы:
+- `Инструкции — читать по порядку`: ровно 7 canonical docs, вертикально 1→7;
+- `Рабочие файлы проекта`: `video-prompts.md`, `film-analysis.md`, `film-backlog.md`.
+
+Machine/recovery logic должна считать instruction set размером 7 независимо от количества project-data links в UI.
