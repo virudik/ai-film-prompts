@@ -1,482 +1,209 @@
 # NEW CHAT HANDOFF — AI Film Project
-**Checkpoint: 19.09.2026**
+**Checkpoint: 20.09.2026**
 
+Этот файл — текущая точка передачи следующему чату. Он намеренно очищен от накопившихся исторических противоречий. Исторические коммиты/старые snapshot-и не являются текущей властью.
 
-Этот файл — переходная точка для следующего чата. Он не заменяет fresh-read master/status.
+## 1. Что читать первым
 
+1. Этот `NEW-CHAT-HANDOFF.md`.
+2. `SYNC-RUNBOOK.md`.
+3. `AI-PROJECT-GUIDE.md`.
+4. Fresh-read Google Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+5. Live GitHub `project-status.json`.
+6. Live `topview-status.json`.
+7. Live `instruction-sync-status.json`.
+8. Для сюжета/монтажа: `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и `Seregius_montazhny_razbor.html`.
+9. Перед любой записью в master — ещё один fresh-read exact Drive master.
 
-## 1. Что новому ChatGPT проверить в первую очередь
+## 2. Источник истины и архитектура
 
+- Drive folder: `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
+- Единственный editable prompt master: `video-prompts.md`
+- Drive master ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+- GitHub repo: `virudik/ai-film-prompts`
+- Control Center: `https://virudik.github.io/ai-film-prompts/`
+- Handoff Drive ID: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
+- GitHub — зеркало + Pages, не второй prompt master.
+- `project-status.json` генерируется автоматически и вручную не редактируется.
+- Scene IDs стабильны. Удалённые IDs 6, 7, 9 не переиспользовать.
+- Не создавать `video-prompts-v2`, `final`, `copy`, `final-final` и т. п.
 
-До любых изменений:
+## 3. Текущий live fingerprint
 
-
-1. Прочитать этот `NEW-CHAT-HANDOFF.md`.
-2. Прочитать `SYNC-RUNBOOK.md`.
-3. Прочитать `AI-PROJECT-GUIDE.md`.
-4. Fresh-read Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
-5. Прочитать live GitHub `project-status.json`.
-6. Прочитать live `topview-status.json`.
-7. Прочитать live `instruction-sync-status.json`.
-8. Повторить пользователю current fingerprint:
-   - revision
-   - master SHA
-   - scenes/prompts
-   - work items
-   - slow scenes
-   - health
-   - instruction sync health
-9. Если задача про сюжет/монтаж — `film-analysis.md` + `film-backlog.md`.
-10. Только после этого писать.
-
-
-## 2. Ключевые точки
-
-
-Drive folder:
-`1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
-
-
-Drive master:
-`1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
-
-
-GitHub:
-`virudik/ai-film-prompts`
-
-
-Viewer:
-`https://virudik.github.io/ai-film-prompts/`
-
-
-Handoff Drive ID:
-`1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
-
-
-## 3. Snapshot на момент передачи
-
-
+Проверено 20.09.2026 перед передачей:
 - 15 active scenes
 - 18 prompt texts
 - W5, W7, W8
-- canonical slow list: 2,12,14,15,18,19
-- Scene IDs: 1,2,3,4,5,10,11,12,13,14,15,16,17,18,19
-
-
-Всегда fresh-check.
-
-
-## 4. Самое важное safety-состояние
-
-
-Current user-confirmed state:
-- scene 2 по новому прямому решению пользователя снова возвращена в canonical slow-list. Historical Topview telemetry сама по себе не отменяет и не подтверждает этот статус.
-- добавлена новая активная slow-сцена 19 «Рыбалка и Маша-Лагуна»; движок сцены — `Wan 3.0`, длительность 30s, язык диалогов — русский.
-- scenes 6, 7 and 9 пользователь признал больше не актуальными; они удалены из active master и не должны автоматически восстанавливаться.
-- canonical slow теперь: 2,12,14,15,18,19.
-
-
-Topview completion по-прежнему не снимает slow-lock автоматически. Для всех slow scenes ждать результата/ошибки или отдельного решения пользователя.
-
-
-## 4A. Последнее пользовательское решение (19.09.2026, поздний вечер)
-
-- Подтверждена новая активная сцена 19: **«Рыбалка и Маша-Лагуна»**.
-- Сцена 19 сразу добавляется и в active master, и в canonical slow-list.
-- Для сцены 19 зафиксирован один production prompt под **Wan 3.0**, 30 секунд, русский диалог.
-- Scene 2 по новому решению пользователя тоже возвращена в canonical slow-list.
-- Актуальный canonical slow после этого решения: **2,12,14,15,18,19**.
-
-
-## 5. Что сделано в этом чате
-
-
-### Control Center
-
-
-Сделано:
-- technical links → `Служебные файлы`;
-- technical explanations/status legend → `Контрольный отпечаток`;
-- search helper убран;
-- advanced filters свёрнуты;
-- duplicated status blocks сокращены;
-- `17 Сцен` кликабельно ведёт к scene map;
-- `20 Промтов` ведёт к full prompts;
-- slow count ведёт к slow filter;
-- work count ведёт к `Сцены в работе`;
-- W5/W7/W8 вернули в обычную масштабируемую таблицу;
-- active scene map восстановлена;
-- scene 1 navigation conflict fixed;
-- dependencies показываются по-русски;
-- Topview completion time находится внутри Status;
-- Topview sync timestamp справа в header;
-- `Очередь Topview` сокращено до `Очередь`;
-- per-task queue telemetry исправлена;
-- `running`/`processing` → `Выполняется`;
-- `init`/`queued` → `В очереди` (в одну строку);
-- `success` → `Завершено`;
-- `fail`/`failed` → `Ошибка`;
-- time estimate оставлена как согласовано: `≈ ... · Topview ... · история ...`;
-- button styles/hover выровнены;
-- obsolete CSS/renderer частично очищены;
-- health ok = green lightsaber `✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ`;
-- error state = red lightsaber `✕ ОШИБКА СИНХРОНИЗАЦИИ`;
-- рукоятка увеличена;
-- анимация меча затем замедлена.
-
-
-### Slow section
-
-
-Пользователь запросил короткий heading:
-`## ⏳ Сейчас в медленной генерации`
-
-
-без суффикса `— НЕ ЗАПУСКАТЬ ПОВТОРНО`.
-
-
-Safety остаётся в slow markers и логике.
-
-
-### Work notes
-
-
-Общий development paragraph убран.
-W5/W7/W8 notes разнесены в их rows.
-Historical W context перенесён ближе к соответствующим active scenes, где уместно.
-
-
-### References
-
-
-Сделано:
-- cards упрощены;
-- repeated priority text убран;
-- `Основной референс` — основной label;
-- legacy aliases secondary;
-- repeated `Нажми на лист...` убрано;
-- lightbox fixed;
-- 960px previews используются для скорости;
-- Drive содержит `reference-originals.zip`;
-- Drive также содержит `reference-serega-original.jpg`.
-
-
-## 6. Что НЕ закончено / нельзя считать законченным
-
-
-1. **Current completed-task history vs canonical active state.**
-   Scene 2 ранее технически завершалась в Topview и была снята с slow, но позднее пользователь отдельно запустил новую генерацию и прямым решением вернул Scene 2 в canonical slow-list. Поэтому current active map снова должен показывать технический Topview-status для новой exact task Scene 2. Scenes 6, 7 and 9 удалены из active master и не должны восстанавливаться.
-
-
-2. **Не менять time estimate** без нового запроса.
-
-
-3. После крупных instruction changes Drive originals остаются каноном. Hourly `AI Film Recovery Sync` автоматически ремонтирует exact GitHub mirrors из Drive → GitHub и обновляет проверку; для срочного изменения основной редактор всё равно должен выполнить немедленную сверку, а semantic conflict не исправлять автоматически в Drive.
-
-
-4. **Следить за concurrent-write recovery.**
-   18 сентября были transient падения sync на `git push (fetch first)` из-за одновременных telemetry-коммитов. 19.09.2026 workflow исправлен на fresh-fetch/rebuild/retry; исправление затем подтверждено несколькими успешными sync runs. Последний проверенный status: 19.09.2026 revision, health=ok, instruction_sync=ok, Drive master полностью совпадает с GitHub mirror.
-
-
-## 7. Как менять master
-
-
-1. Fresh-read exact Drive master.
-2. Не использовать старую GitHub/Library copy как source.
-3. Изменить только нужный Scene ID.
-4. При необходимости обновить:
-   - scene map row
-   - full section
-   - scene-meta
-   - counts
-   - slow table/status
-5. Save SAME Drive file ID.
-6. Update GitHub `SYNC-TRIGGER.txt`.
-7. Wait sync workflow.
-8. Verify `project-status.json`.
-9. Verify Pages.
-10. Report exact change.
-
-
-## 8. Как управлять сайтом
-
-
-UI:
-GitHub `index.html`
-
-
-References UI:
-GitHub `references.html`
-
-
-Registry:
-GitHub `character-references.json`
-
-
-Site-only changes можно делать прямо в GitHub presentation layer.
-
-
-После UI change:
-1. update exact file;
-2. JS syntax check;
-3. duplicate HTML ID check;
-4. wait Pages deploy;
-5. verify conclusion.
-
-
-Scene/prompt content всё равно меняется только в Drive master.
-
-
-## 9. Topview telemetry
-
-
-Automation:
-`Topview Slow Watch` — hourly, **только Topview telemetry**. Instruction mirror/recovery checks не дублируются здесь; ими владеет отдельная hourly `AI Film Recovery Sync`.
-
-
-Rules:
-- query exact mapped task per scene;
-- no global queue copied to every row;
-- Topview read-only;
-- success != accepted;
-- no automatic slow-lock removal;
-- never replace user-confirmed refs from similarity.
-
-
-## 10. Instruction sync
-
-
-Canonical Drive instructions:
-- AI-PROJECT-GUIDE.md
-- SYNC-RUNBOOK.md
-- USER-GUIDE.md
-- README-AI-SYNC.md
-- BACKUP-AI-RUNBOOK.md
-
-
-Authorized verification compares full text with GitHub mirrors.
-
-
-Mismatch / repair:
-- `instruction-sync-status.json` остаётся `error`, пока расхождение не устранено и не перепроверено;
-- если это только exact-text drift GitHub mirror и canonical Drive-файл читается, hourly `AI Film Recovery Sync` может автоматически восстановить **только Drive → GitHub**;
-- GitHub → Drive автоматически запрещено;
-- semantic conflict, missing/unreadable Drive source или неоднозначность автоматически в Drive не переписывать — сообщить точные файлы и формулировки пользователю;
-- после repair выполнить exact-text verification и обновить `instruction-sync-status.json`.
-
-
-## 11. Confirmed reference identities
-
-
-- Серёга
-- Юля
-- Паша
-- Артём
-- Илюша
-- Саша
-- Лёша
-- Виталик
-
-
-Natural names should map to these identities; user should not need internal aliases.
-
-
-## 12. Slow table — уже реализованное решение
-
-
-Объединение сделано до handoff, несмотря на старую запись обратного:
-- на Control Center видна одна таблица `⏳ Сейчас в медленной генерации — Topview`;
-- строки определяет canonical `slow_scenes`;
-- Topview только добавляет telemetry;
-- raw master slow-table скрывается на сайте, но остаётся в canonical Markdown;
-- текущее решение оставить как есть, пока пользователь не попросит изменить.
-
-
-High-resolution references тоже завершены: 19.09.2026 проверены все 8 `references/full/*.jpg` и использование `model_sheet.full_image` lightbox.
-
-
-## 13. Ready-to-paste command for next chat
-
-
-> Продолжаем AI Film project. Сначала открой свежий Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md` и exact master `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. Затем прочитай live `project-status.json`, `topview-status.json`, `instruction-sync-status.json` из `virudik/ai-film-prompts` и повтори текущий audit fingerprint. Не используй старые копии как master. Не меняй Scene IDs. Не перезапускай slow scenes автоматически. Обрати особое внимание: scene 2 по новому решению пользователя снова находится в canonical slow; scene 19 «Рыбалка и Маша-Лагуна» также active + slow; scenes 6, 7 и 9 удалены как неактуальные и не должны восстанавливаться; canonical slow сейчас 2,12,14,15,18,19. Site UI меняется в GitHub `index.html`, scene/prompt content меняется только в Drive master. Slow UI уже объединён — не возвращай устаревшее утверждение, что это только план. Full-res lightbox для 8 model sheets проверен 19.09.2026. Перед `ГОТОВО` проверь sync workflow, validation и Pages.
-
-
-## 14. Зачем этот handoff
-
-
-Следующий чат должен за несколько минут понять:
-- где истина;
-- какие файлы редактируемые;
-- как синхронизировать;
-- какие UI решения уже приняты;
-- какие решения ещё обсуждаются;
-- что нельзя автоматически перезапускать или удалять.
-
-
-
-
-## 15. Corrections after takeover — 19.09.2026
-
-
-Новый чат перепроверил фактическое состояние и исправил расхождение документации с реальностью:
-- объединённая slow-таблица уже существовала — зафиксировано как DONE;
-- full-res lightbox и 8 public originals уже существовали — зафиксировано как DONE;
-- в Drive master добавлен подраздел `Ближайшие направления` с 7 рабочими направлениями дальнейшего производства;
-- диагностированы письма GitHub: последние transient failures были non-fast-forward race, а не потеря Drive master;
-- `sync-from-drive.yml` усилен fresh-fetch/rebuild/retry;
-- Control Center health усилен проверкой freshness и latest public sync workflow;
-- любые новые изменения сайта/master после этого checkpoint снова должны отражаться здесь и в canonical instructions.
-- Исправлена только служебная подпись scene 18: `Seedance 2.5` → `Wan 3.0`, чтобы она совпадала с scene-meta и фактической Topview task. Prompt body и canonical slow-lock не менялись.
-
-
-- Takeover incident 19.09.2026: a raw-file rewrite briefly inserted UTF-8 BOM at the beginning of `video-prompts.md`, which made the workflow fail the strict `^#` header check in 4–6 seconds. BOM was removed from the SAME Drive file ID; workflow was hardened to strip optional BOM before validation. Do not interpret those fast runs as Drive/master-content corruption.
-
-## 16. Verified recovery checkpoint — 19.09.2026
-
-- После удаления UTF-8 BOM и добавления encoding guard sync снова проходит успешно.
-- Несколько последующих `Sync Drive master and generated project status` завершились успешной публикацией.
-- Последний проверенный fingerprint: revision `19.09.2026`, 17 scenes, 20 prompt texts, W5/W7/W8, slow `2,6,12,14,15,18`, health `ok`, instruction sync `ok`.
-- Проверенный canonical master SHA-256: `66c0f71841d57dd1f47b731f7f25680053e75040ac4a83962c6cf4e43e821e96`.
-- GitHub `video-prompts.md` полностью совпадает с Drive master и содержит раздел `Ближайшие направления` и исправление scene 18 на Wan 3.0.
-- Старые письма GitHub `Run failed` до этого checkpoint не считать признаком текущей поломки без fresh-check latest workflow/status.
-
-
-## 17. Infrastructure/UI update — 19.09.2026
-
-- Automation `AI Film Handoff Refresh` переименована в `AI Film Recovery Sync` и переведена с weekly на hourly.
-- Она автоматически чинит пять canonical instruction mirrors только Drive → GitHub, никогда GitHub → Drive, затем делает exact-text verification и semantic consistency check.
-- Semantic check обязан ловить stale contradiction `slow tables are planned/not merged` vs фактическое `already merged`, scene 18 engine mismatch, source-of-truth drift, auto-clear slow lock и устаревшие race/BOM rules.
-- Control Center получил третий health state: yellow `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ` после восстановленного workflow failure; он держится до 3 последовательных successful sync-runs. Green = stable healthy; red = unresolved/stale/unhealthy.
-- Из meta-line удалено дублирующее `N мин назад`, если уже показано точное время.
-- Topview `success` при сохранённом canonical slow-lock теперь показывается как `Завершено` / следующая строка `ждёт решения`.
-- Проверка slow engines 19.09.2026: 2 Seedance 2.5, 6 Seedance 2.5, 12 Wan 3.0, 14 Seedance 2.5, 15 Wan 3.0, 18 Wan 3.0; master и Topview совпадают по всем six slow scenes. Старое расхождение было только в служебной строке контекста scene 18 и уже исправлено.
-
-## 18. Library / Notion refresh — 19.09.2026
-
-- После infrastructure/UI update свежие Drive-версии пяти canonical instruction files перезаписаны в одноимённые canonical copies ChatGPT Library.
-- `NEW-CHAT-HANDOFF.md` также обновлён в Library; старые исторические `*-updated.md`/`video-prompts(n).md` не являются каноном и не использовались как источник.
-- В Notion обновлены пять instruction mirror pages из свежих canonical Drive-файлов: External AI / Project Guide, ChatGPT Sync Runbook, User Guide, Sync Rules, Backup AI / Takeover instruction.
-- Notion `AI Video Prompts — Master Hub` получил checkpoint 19.09.2026 с hourly Recovery Sync, three-state lightsaber, merged slow UI, `Завершено` / следующая строка `ждёт решения` и scene 18 = Wan 3.0.
-- Это documentation/backup refresh; prompt master и production state этим шагом не менялись.
-
-## 19. Hourly automation responsibility split — 19.09.2026
-
-- `Topview Slow Watch`: только per-task Topview status/queue/ETA/result telemetry + защита user-confirmed character references; не читает и не чинит instruction mirrors.
-- `AI Film Recovery Sync`: canonical instruction Drive → GitHub mirror repair, exact-text verification, semantic consistency check и material handoff refresh.
-- Обе задачи остаются hourly, но больше не дублируют instruction reads/writes; это уменьшает расход connector calls и вероятность concurrent commits.
-
-
-## 20. Pending infrastructure / site ideas — 19.09.2026
-
-These are **not implemented yet** and must not be reported as completed:
-- Personal domain mirror: user wants `рудик.рф/промты` to duplicate the AI Film Control Center. Exact path hosting requires access to the current `рудик.рф` hosting/router (DNS alone cannot route a URL path). A custom subdomain such as `prompts.рудик.рф` would be easier to point directly at GitHub Pages, but user specifically asked about `/промты`; do not change DNS/domain without explicit approval.
-- YouTube-free playback for Russian visitors: do not assume a YouTube iframe will work without VPN. For videos the user owns, preferred design is an independent playable copy on storage/CDN or another video host reachable by the target audience, with YouTube kept as an optional secondary source. Do not build a brittle server-side YouTube proxy.
-- Personal-site redesign draft exists in ChatGPT Library as `index(1).html`; it is not confirmed as the deployed source of `рудик.рф` and must not overwrite the live site without hosting/source verification.
-- Possible future Control Center features: a dedicated `Сейчас` view (blockers + completed renders + W-items) is the strongest candidate; a separate decision queue is partly covered already by `Завершено` / следующая строка `ждёт решения`; `Что изменилось с прошлого sync` is useful but lower priority; generated `workflow-status.json` could remove the browser's dependency on unauthenticated GitHub REST API, but is not necessary while current API usage is low. Avoid feature creep while film work is blocked by story/scene decisions.
-- Backup-editor architecture: Claude/Gemini/Grok/DeepSeek capability depends on the actual environment/connectors. A future local deterministic sync helper (`sync-master.ps1`/`.py`) remains a good resilience idea, but is not implemented.
-
-
-## 21. Final site tidy-up before feature freeze — 19.09.2026
-
-- Резервная инструкция окончательно отвязана от Claude: ссылка называется `Инструкция для резервного ИИ`, технический файл мигрирован на `BACKUP-AI-RUNBOOK.md`, старое Claude-specific имя больше не используется. Любой резервный ИИ обязан пройти capability preflight.
-- В slow/Topview таблице успешная task при сохранённом canonical slow-lock теперь визуально показывает `Завершено` и строкой ниже `ждёт решения`; дата завершения остаётся отдельной строкой ниже.
-- В `Персонажи / Референсы` порядок изменён минимально: Юля теперь сразу после Серёги; остальные персонажи сохранили взаимный порядок.
-- Рукоятка sync lightsaber намеренно НЕ менялась: пользователь попросил сначала показать варианты и выбрать один.
-- После этих трёх UI tidy-up изменений сайт считать feature-frozen до нового явного запроса; возвращаемся к работе над фильмом.
-
-
-## 22. Backup AI filename migration — 19.09.2026
-
-- По явному запросу пользователя Claude-specific техническое имя удалено из активной архитектуры.
-- Canonical Drive file ID `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` переименован в `BACKUP-AI-RUNBOOK.md`; file ID сохраняется.
-- GitHub/Pages/Notion/Library/automation links должны использовать `BACKUP-AI-RUNBOOK.md` и human label `Инструкция для резервного ИИ`.
-- Предыдущее Claude-specific имя резервной инструкции больше не считать каноническим и не восстанавливать.
-- В Topview slow table служебные колонки Model/Status/Start/Elapsed/Queue сделаны compact-width, чтобы не растягиваться шире содержимого.
-
-
-## 23. Topview nowrap + saber animation clarification — 19.09.2026
-
-- На широком экране Topview table остаётся `width:100%`: compact-width служебные колонки занимают только необходимое, а свободное место получают прежде всего название сцены и ETA; таблица не схлопывается в узкую полосу.
-- `Seedance 2.5` / `Wan 3.0` теперь принудительно остаются в одну строку внутри Model cell.
-- `ждёт решения` остаётся отдельной строкой под `Завершено`, но сама фраза больше не разрывается на две строки.
-- Красный/жёлтый/зелёный sync lightsaber уже используют одну animation family: moving `saberFlow` gradient + state-specific glow pulse. Отдельную новую анимацию текста не добавляли; на красном существующий эффект просто заметнее из-за контраста.
-
-## 23. Validator follow-up after backup-AI rename — 19.09.2026
-
-- После миграции на `BACKUP-AI-RUNBOOK.md` сайт некоторое время корректно показывал красный sync health: новые GitHub workflow действительно падали на validation.
-- Причина: `scripts/build_project_status.py` всё ещё содержал старое имя `CLAUDE-TAKEOVER-RUNBOOK.md` в `INSTRUCTION_FILES`, поэтому свежий `instruction-sync-status.json` с пятью `match=true` файлами всё равно интерпретировался как `instruction_sync_error`.
-- Validator обновлён на `BACKUP-AI-RUNBOOK.md`.
-- Первый sync после исправления успешно завершился commit `72c3e81de429fdf144e263af2e052c4e009cef7a`; свежий `project-status.json`: `health=ok`, `instruction_sync=ok`, warnings пусты.
-- По UI-правилу после первого successful run за недавним failure меч должен перейти с красного на жёлтый `! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ`; зелёный возвращается после 3 последовательных successful sync-runs.
-
-## 24. Semantic SHA false-positive fix — 19.09.2026
-
-- Hourly `AI Film Recovery Sync` correctly noticed that `SYNC-RUNBOOK.md` still showed an older recovery SHA `861c19e4…` while live `project-status.json` showed `66c0f718…`; exact Drive→GitHub mirrors themselves were matching.
-- The stale runbook checkpoint was refreshed to `66c0f718…` and instruction health re-verified.
-- More importantly, recovery semantics were hardened: SHA values explicitly labelled as historical/checkpoint snapshots are not live invariants and must not trigger `instruction_sync=error` merely because a later legitimate master edit changes the current SHA.
-- CURRENT fingerprint authority is fresh `project-status.json`. Only values explicitly claiming to be current/latest/live should be compared against it as a semantic invariant.
-
-## 25. Future UI idea — режим `Сейчас`
-
-- Статус: **не реализовано; сохранить как будущую идею**. Не внедрять без нового явного запроса пользователя.
-- Это дополнительная вкладка/view поверх текущего Control Center, а не замена полного режима. Полный список сцен/промтов/slow/W-items/references остаётся доступным и не урезается.
-- Цель: коротко показывать, что требует внимания сейчас. Предлагаемый порядок: (1) пользовательское решение; (2) реальные проблемы/блокеры; (3) уже запущенные slow/Topview задачи; (4) следующее логическое действие из canonical W-items/backlog или явно подтверждённого пользователем приоритета.
-- `Сейчас` не имеет права автоматически менять master, Scene IDs, production_state, slow-lock, approval или запускать генерации.
-- Технический приоритет должен быть детерминированным по статусам. Творческий/сюжетный приоритет нельзя придумывать самостоятельно: только из канонических W-items/backlog или после явного решения пользователя.
-- Реализация в будущем должна по возможности агрегировать уже существующие `project-status.json`, `topview-status.json`, W-items и production state без создания параллельного источника истины.
-
-
-
-## 26. Active-status / comments / no-bars update — 19.09.2026
-
-- User decision supersedes предыдущий telemetry-only state: scene 2 технически `success` и снята с slow-lock; scenes 6 и 7 удалены из active master как неактуальные; canonical slow теперь `12,14,15,18`.
-- Active scene map синхронизирует presentation-status только canonical slow-сцен из `topview-status.json`: success = зелёный `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА`; init/queued = `⏳ В ОЧЕРЕДИ`; running/processing = `▶ ВЫПОЛНЯЕТСЯ`; fail = `✕ ОШИБКА ГЕНЕРАЦИИ`. Если Scene ID снят с slow, старый Topview success больше не показывается как badge в active map.
-- Под `🛠️ Сцены в работе` и блоком `Ближайшие направления` добавлен раздел `💬 Комментарии / идеи и предложения`. Backend без отдельного сервера: public GitHub Issue #8. Сайт читает comments через GitHub API; публикация/ответ выполняются в GitHub и требуют GitHub login. Комментарии не являются canonical commands.
-- Во все 17 текущих prompt blocks master добавлено одно и то же правило `FRAME FILL / NO BARS`: full-frame edge-to-edge, no letterboxing/pillarboxing/black bars/side bars/decorative borders/empty margins.
-- Уведомление Email Monitor о серии старых `Run failed` было ложным как утверждение о текущем состоянии: live `project-status.json` уже был `health=ok` и имел более свежие successful sync. Email Monitor обновлён: для `ai-film-prompts` он обязан сравнивать timestamps и live status перед заявлением, что failure продолжается.
-- Предыдущая фраза automation про невозможность обновить same-ID handoff означала сбой/ограничение connector write в том конкретном automation run. Safety-поведение было правильным: GitHub handoff mirror не обновлялся отдельно, чтобы не создать GitHub→Drive drift. В основном чате same-ID Drive write снова доступен; этот handoff теперь обновлён именно в исходном Drive file ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`, после чего зеркало должно сверяться Drive→GitHub.
-
-## 27. User cleanup decision — 19.09.2026
-
-- По прямому решению пользователя scenes 6 (`Подводный рынок: странный фрукт`), 7 (`Канцлер: зеркало в туалете`) и 9 (`Пещера: бой с монстром`) больше не актуальны и удалены из active canonical master целиком: scene map rows + full prompt sections. Scene IDs не перенумеровывать и удалённые IDs 6/7/9 не переиспользовать.
-- Scene 2 остаётся active, но снята с canonical slow-list. Её историческая Topview task = `success`, однако в active scene map generation-status больше не показывается. Prompt scene 2 пока не удалять без отдельного решения пользователя.
-- Current fingerprint target after rebuild: 14 active scenes, 17 prompt texts, W5/W7/W8, canonical slow `12,14,15,18`, active IDs `1,2,3,4,5,10,11,12,13,14,15,16,17,18`.
-- Global `FRAME FILL / NO BARS` остаётся во всех 17 актуальных prompt blocks.
-- Topview Slow Watch на следующих runs должен следовать fresh canonical slow-list; stale telemetry для removed/unlocked scene не является основанием вернуть Scene ID в slow/master.
-
-
-## 28. Scene 2 active-status correction — 19.09.2026
-
-- Пользователь уточнил: снятие Scene 2 с canonical slow означает отсутствие generation-status и в таблице активных сцен.
-- Из canonical master удалены `✓ ГЕНЕРАЦИЯ ЗАВЕРШЕНА` и служебная completion-строка у Scene 2; сама Scene 2 остаётся active.
-- Presentation rule: active-map Topview badges существуют только для Scene IDs, которые сейчас входят в canonical `slow_scenes`. Исторический `success` для уже снятой с slow сцены не отображается.
-- Current canonical slow остаётся `12,14,15,18`; scenes 6/7/9 остаются удалёнными.
-
-
-## 29. Scene 9 removal + queued-status nowrap — 19.09.2026
-
-- По прямому решению пользователя Scene 9 (`Пещера — бой с монстром`) больше не актуальна и удалена из active canonical master: удалены scene-map row и полный prompt block; Scene ID 9 не переиспользовать.
-- Scene 17 остаётся active как продолжение уже существующего боя в пещере, но больше не имеет machine dependency на удалённый Scene ID 9.
-- Current canonical target: 14 active scenes, 17 prompt texts, W5/W7/W8, slow `12,14,15,18`, active IDs `1,2,3,4,5,10,11,12,13,14,15,16,17,18`.
-- В Topview UI status `В очереди` должен отображаться целиком в одну строку; это presentation-only изменение, не меняющее telemetry или slow membership.
-
-## 25. Идеи от Саши — 19.09.2026
-
-В canonical `video-prompts.md` под существующим блоком сюжетных идей добавлен отдельный раздел `#### Идеи от Саши`, распознанный с четырёх рукописных листов пользователя.
-
-Правила:
-- это монтажные/сюжетные предложения и заметки, а не утверждённые сцены;
-- они не дают разрешения автоматически менять промты или запускать генерации;
-- неразборчивые места в распознавании помечены как `[неразборчиво]`, а не додуманы;
-- при дальнейшей разработке эти идеи можно отдельно сверять с фильмом, W5/W7/W8 и актуальным master.
-
-Среди распознанных направлений: переходы по таймкодам, возврат шутки «хлеб и молоко» к Warcraft, полёт к планете, ускорение закат/рассвет/закат, связка подводных сцен, диалог после монстра, уход Лёхи и Виталика в лес, а также отдельная логика `три карты → три артефакта древности → доступ к запретному знанию / координатам`.
-
-
-
-## 30. Scene 2 re-run + Scene 19 / Topview mapping correction — 19.09.2026
-
-- User explicitly started a NEW Scene 2 slow task after the earlier completed task; current exact Scene 2 Topview task is the new Seedance 2.5 task, not the historical success task.
-- Scene 19 «Рыбалка и Маша-Лагуна» has an exact Wan 3.0 Topview task whose prompt matches the canonical fishing / Masha-emerges / slap / Russian-dialogue scene. Treat it as a high-confidence mapping.
-- Current canonical slow remains **2,12,14,15,18,19**. Historical sections 26–29 describe prior state changes and are not current authority.
-- If a telemetry checker claims Scene 19 task content mismatches while describing Sasha/Pasha fishing, Masha emerging from water, the slap and Russian dialogue, that checker result is false-positive and must not suppress telemetry.
+- active Scene IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19`
+- canonical slow: `2,12,14,15,18,19`
+- current master SHA-256: `3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf`
+- `project-status.json.health = ok`
+- `instruction_sync = ok`
+- warnings: none
+- Drive master == GitHub mirror: verified
+
+Эти значения — checkpoint. На следующем чате всё равно fresh-check live JSON.
+
+## 4. Current scene decisions
+
+- Scene 2 `Джедаи на крыше — триумфальный марш без мечей` снова находится в canonical slow по прямому решению пользователя. Это новый rerun, а не историческая completed task.
+- Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s, русский диалог.
+- Scenes 6, 7, 9 удалены как неактуальные и не должны автоматически возвращаться.
+- Scene 17 остаётся active как пост-монстр продолжение; machine dependency на удалённую Scene 9 снята.
+- Topview `success` = техническое завершение, не user approval.
+- Нельзя автоматически перезапускать slow scene или снимать slow-lock по одной telemetry.
+
+## 5. Scene 19 — Рыбалка и Маша-Лагуна
+
+Утверждённый сюжет:
+- стартовый кадр: Саша и Паша рыбачат у озера;
+- вода начинает рябить;
+- Маша в форме Лава-Лагуны выходит из воды;
+- подходит к Саше лицом к лицу;
+- Саша: `«Маша?..»`;
+- сразу пощёчина;
+- Маша эмоционально: `«Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?»`;
+- Паша молчит, но ярко реагирует мимикой;
+- Саша: `«Ой, у нас же важное поручение!»`;
+- Саша и Паша срываются с места;
+- финал приходит к референсу бегущих ног/бега.
+
+Референсы в scene prompt:
+- Image1 — старт рыбалки;
+- Image2 — финальный бег;
+- Image3/Image4 — Sasha/Pasha model sheets в фактической Topview task;
+- Image5 — Masha-Laguna.
+
+## 6. Topview — текущая проверенная привязка
+
+На 20.09.2026 `topview-status.json` содержит все шесть canonical slow scenes и verified high-confidence mappings.
+
+Exact current tasks:
+- Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b` — Seedance 2.5, init
+- Scene 12 → `8d2103753bb145b7990014bf83a6f652` — Wan 3.0, init
+- Scene 14 → `1fd5e89e6cd64b41af6a007a88d0939f` — Seedance 2.5, init
+- Scene 15 → `86d84863bf5e4b97b2ea9423ca514f84` — Wan 3.0, init
+- Scene 18 → `cd7c476566d84076aaa330274093ea15` — Wan 3.0, init
+- Scene 19 → `6ef310d646ca4605b5b10c12752b6ab7` — Wan 3.0, init
+
+ВАЖНО: ранее automation ошибочно назвала Scene 19 task mismatch. Это был false positive. Повторная проверка полного prompt task показала точное соответствие сцене 19: рыбалка Саши/Паши → выход Маши из воды → `Маша?..` → пощёчина → русские реплики → бег. Текущий mapping Scene 19 валиден.
+
+`Topview Slow Watch` должен сначала читать fresh Drive master и current `project-status.json`, затем сопоставлять exact task по полному содержанию сцены. Не сравнивать новую task со старым/кэшированным описанием Scene ID.
+
+## 7. Почему в последние дни было много красных/жёлтых состояний
+
+Добавление/удаление сцен само по себе не является проблемой и система должна это выдерживать. Ошибки возникали из четырёх отдельных классов:
+1. concurrent GitHub writers → non-fast-forward race;
+2. UTF-8 BOM → strict header validation fail;
+3. старое имя backup-runbook осталось в validator после rename;
+4. дублирование current-state фактов в нескольких инструкциях/handoff + stale Topview mapping logic → semantic false positives.
+
+Первые три технически исправлены. Четвёртый класс теперь должен предотвращаться правилами:
+- dynamic current facts (`counts`, `slow IDs`, current SHA, current Topview tasks) считаются live-authority только из fresh master + `project-status.json` + `topview-status.json`;
+- инструкции описывают правила, а не пытаются быть второй базой статуса;
+- checkpoint/historical sections не сравнивать как current invariant;
+- handoff содержит один явный current-state блок, исторические противоречивые слои удалены;
+- Topview task mapping проверять против current scene prompt, не против памяти/старого snapshot.
+
+На момент передачи система снова green/healthy.
+
+## 8. Control Center — что уже реализовано
+
+- русский UI;
+- объединённая slow/Topview таблица;
+- model/status/start/elapsed/queue/ETA;
+- трёхсостоянийный sync lightsaber;
+- active scene map + full prompts;
+- characters/references;
+- comments reader через GitHub Issue #8;
+- `FRAME FILL / NO BARS` во всех 18 текущих prompt blocks;
+- theme switch в верхней строке между `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и health lightsaber:
+  - `☀ Светлая сторона`
+  - `🌙 Тёмная сторона`
+  - выбор сохраняется в `localStorage` (`ai-film-theme`).
+
+Тема — presentation-only. Она не должна влиять на master/status/sync health.
+
+## 9. НОВЫЙ план сайта: комментарии прямо на сайте без GitHub
+
+Пользователь явно хочет, чтобы посетитель мог **читать, писать и отвечать прямо на Control Center без GitHub-аккаунта**.
+
+Текущий GitHub Issue #8 reader остаётся существующей реализацией до миграции, но это уже не целевой UX.
+
+Рекомендуемая архитектура следующего шага:
+- отдельный lightweight backend для comments; предпочтительный кандидат — Supabase;
+- публичное чтение опубликованных комментариев;
+- anonymous posting с отображаемым именем (без обязательного аккаунта);
+- threaded replies (`parent_id`);
+- timestamps;
+- HTML escaping/sanitization;
+- rate limit / anti-spam / CAPTCHA или honeypot;
+- moderation status (`pending`/`published`/`hidden`) при необходимости;
+- НИКОГДА не давать comment backend право менять Drive master, Scene IDs, slow-lock или approval;
+- service-role/admin key никогда не класть в клиентский `index.html`; только public anon key + RLS policies либо server-side endpoint.
+
+Перед реализацией новый чат должен проверить доступный Supabase project/credentials и согласовать минимальную схему. Не удалять GitHub Issue #8 до успешной миграции; можно оставить как архив/резерв.
+
+## 10. Другие pending UI / infrastructure планы
+
+- `Сейчас` view — будущий дополнительный режим, не реализован. Не внедрять без отдельного явного запроса.
+- personal domain `рудик.рф/промты` — не реализован; нужен реальный hosting/router access.
+- independent video playback без YouTube — будущая задача.
+- local deterministic `sync-master.ps1/.py` — будущий resilience helper, не реализован.
+- generated `workflow-status.json` — optional future hardening, пока не обязателен.
+
+## 11. Film/story priorities
+
+Главный сюжетный пробел: логика карты/трёх фрагментов/артефактов и payoff Warcraft 3.
+
+Актуальные направления:
+- W5 — Канцлер и Warcraft 3 / мотивация;
+- W7 — переходы между группами;
+- W8 — транспорт/гонки;
+- Scene 17 — последствия боя с монстром и разговор о карте;
+- Sasha ideas — теперь источник конкретных монтажных/сюжетных предложений; Scene 19 уже выросла из одной такой идеи.
+
+Не массово переписывать NEEDS_FIX/NEEDS_RERENDER. Разбирать по одной сцене.
+
+## 12. Global prompt rules
+
+- единый стиль/цветокоррекция/свет/окружение/дизайн персонажей;
+- physically stable cinematic camera motion; no random jitter;
+- coherent 3D space; no sudden geometry;
+- русская речь без акцента, если не оговорено иначе;
+- exact approved character model sheets важнее similarity;
+- global `FRAME FILL / NO BARS` во всех текущих и будущих prompts, если пользователь явно не отменит.
+
+## 13. Routine write procedure
+
+Для scene/prompt change:
+1. fresh-read exact Drive master;
+2. минимально изменить нужный Scene ID/TOC/count/slow markers;
+3. сохранить SAME Drive file ID;
+4. update GitHub `SYNC-TRIGGER.txt`;
+5. дождаться `sync-from-drive.yml`;
+6. verify validation;
+7. verify GitHub `video-prompts.md` == Drive;
+8. verify `project-status.json`;
+9. verify Pages;
+10. только потом говорить `ГОТОВО`.
+
+Для site-only UI:
+- меняется GitHub `index.html`;
+- после правки: JS syntax check + duplicate IDs + Pages verification;
+- scene/prompt content не hard-code в HTML.
+
+## 14. Canonical instruction files
+
+Drive authority:
+- `AI-PROJECT-GUIDE.md` — `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`
+- `SYNC-RUNBOOK.md` — `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`
+- `USER-GUIDE.md` — `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`
+- `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
+- `BACKUP-AI-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
+
+Hourly `AI Film Recovery Sync` may repair only Drive → GitHub instruction mirrors. Never GitHub → Drive automatically.
+
+## 15. Ready-to-paste command for the next chat
+
+> Продолжаем AI Film project. Сначала fresh-read Google Drive `NEW-CHAT-HANDOFF.md` (same ID `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`), `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, затем exact Drive `video-prompts.md` file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`. После этого проверь live GitHub `project-status.json`, `topview-status.json`, `instruction-sync-status.json` и повтори current fingerprint. Не используй старые Library/GitHub copies как editable master. Не переиспользуй Scene IDs 6/7/9. Current checkpoint: 15 active scenes, 18 prompts, W5/W7/W8, canonical slow 2,12,14,15,18,19; Scene 19 «Рыбалка и Маша-Лагуна» = Wan 3.0 30s Russian dialogue; exact Topview task `6ef310d646ca4605b5b10c12752b6ab7`; Scene 2 current rerun task `d28b2481a8b344439fa175c3ef0b7f5b`. Theme switch `Светлая сторона / Тёмная сторона` уже реализован в header. Следующий сайт-приоритет по последнему решению пользователя — комментарии прямо на сайте без GitHub-аккаунта: спроектировать/подключить безопасный backend (предпочтительно Supabase), anonymous posting + replies + anti-spam, без доступа к prompt master. Также перепроверь стабильность sync/Topview mapping; не считать historical checkpoint current invariant и не выдавать false red из-за старых секций. Перед `ГОТОВО` проверить Drive→GitHub sync, validation, Topview telemetry и Pages.
