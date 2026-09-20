@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T21:06:30Z",
+  "checked_at": "2026-09-20T21:38:00.829Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
@@ -9,44 +9,44 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T21:05:06.213Z",
-      "github_blob": "b1bd26a625964963dc2bd5aa3e133fe11ccaebfd",
+      "drive_modified_at": "2026-09-20T21:35:49.261Z",
+      "github_blob": "aa436165550daae7135534e88705683a307bbca6",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T21:05:09.186Z",
-      "github_blob": "6dba6834ea9af85625ddc6152eeb949c7508b38f",
+      "drive_modified_at": "2026-09-20T21:35:52.442Z",
+      "github_blob": "074aaff7c86fbcfb27b74847656c27962a78dd2d",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T21:05:12.384Z",
-      "github_blob": "55f3ed2a6e0bd28cd65f44f7dc3b476ab7199996",
+      "drive_modified_at": "2026-09-20T21:35:55.703Z",
+      "github_blob": "a2714426bbb91e5c2b89dd31f903b980343c4ef2",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T21:05:15.446Z",
-      "github_blob": "7332fbc36b186482d1284ce89638a78166aeae31",
+      "drive_modified_at": "2026-09-20T21:35:58.750Z",
+      "github_blob": "727100354e555e36abb5144bfe90dab0bef0c8e3",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T21:05:18.454Z",
-      "github_blob": "a3125099b1c0ad5a9a2f749bdb8e44ceca9bc08d",
+      "drive_modified_at": "2026-09-20T21:36:02.436Z",
+      "github_blob": "d801a85e82d9cbb1e327a7d83bee87916e2810a5",
       "match": true
     },
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-20T21:05:21.618Z",
-      "github_blob": "0b9185836cf68273542422e02c00509eff8c4237",
+      "drive_modified_at": "2026-09-20T21:36:05.213Z",
+      "github_blob": "5901d4dc4f350991928cf2d0f5e62fe13a1ad6a4",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T21:05:25.153Z",
-      "github_blob": "bc245f13da17ea12e1447871ae9e1a6a09b67647",
+      "drive_modified_at": "2026-09-20T21:36:08.346Z",
+      "github_blob": "c16a97056caae070e5ec5f620579189b033e3ac5",
       "match": true
     }
   },
@@ -59,5 +59,10 @@
     "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
     "readiness_audit": true
   },
-  "note": "Seven-document mirror verified after adding mandatory character/reference and montage onboarding plus final readiness audit."
+  "topview_scene_intake": {
+    "enabled": true,
+    "automation_title": "Topview Scene Intake & Slow Watch",
+    "rule": "Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."
+  },
+  "note": "Seven-document mirror verified after adding Russian service-file navigation and Topview new-video auto-import workflow."
 }
