@@ -28,9 +28,10 @@ remain review-only and return exact patch instructions.
 1. `NEW-CHAT-HANDOFF.md`
 2. `SYNC-RUNBOOK.md`
 3. `AI-PROJECT-GUIDE.md`
-4. fresh Drive `video-prompts.md`
-5. `project-status.json`
-6. if relevant `film-analysis.md` + `film-backlog.md`
+4. `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) for any prompt work
+5. fresh Drive `video-prompts.md`
+6. `project-status.json`
+7. if relevant `film-analysis.md` + `film-backlog.md`
 
 
 ## Safety
@@ -45,6 +46,10 @@ remain review-only and return exact patch instructions.
 - `project-status.json` is generated
 - canonical instruction semantics are not auto-rewritten; hourly `AI Film Recovery Sync` may repair only GitHub instruction mirrors from canonical Drive → GitHub and performs semantic-conflict detection
 
+
+## Prompt-writing requirement
+
+For any new or substantially rewritten video prompt, fresh-read the full `PROMPT-STYLE-GUIDE.md` (Drive ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`) before editing the master. Do not replace it with a shortened summary. Use the next new stable Scene ID from fresh master automatically when determinable; never reuse deleted IDs.
 
 ## Write procedure
 
@@ -105,7 +110,7 @@ As of 19.09.2026, the earlier race/BOM failures are resolved and confirmed by mu
 
 ## Current takeover checkpoint — 20.09.2026
 
-Fresh live target at handoff: 15 active scenes, 18 prompts, W5/W7/W8, canonical slow `2,12,14,15,18,19`; health and instruction sync are green. Scene 2 is a current rerun slow task. Scene 19 `Рыбалка и Маша-Лагуна` is active+slow, Wan 3.0, 30s Russian dialogue.
+Fresh target after adding Scene 20: 16 active scenes, 19 prompts, W5/W7/W8, canonical slow `2,12,14,15,18,19`. Scene 2 is a current rerun slow task. Scene 19 `Рыбалка и Маша-Лагуна` is active+slow, Wan 3.0, 30s Russian dialogue. Scene 20 `Маша-Лагуна: рок-припев у озера` is active READY, Seedance 2.5, 30s, not slow. Fresh health/SHA must be checked from live status after sync.
 
 Exact Topview mappings currently verified:
 - Scene 2 → `d28b2481a8b344439fa175c3ef0b7f5b`
@@ -113,7 +118,7 @@ Exact Topview mappings currently verified:
 
 Do not repeat the earlier false mismatch for Scene 19: compare candidate task to fresh canonical scene body first.
 
-Site status: light/dark side switch already implemented. Next explicit site plan is comments/replies directly in Control Center without GitHub login, using a safe backend; never expose admin secrets or connect comments to master mutations.
+Site status: light/dark side switch already implemented. Native comments/replies are implemented via Supabase `ai-film-comments` (`vzohfatqzyioydtgjiyd`) with anonymous posting, replies, RLS, honeypot/rate-limit and no master mutation rights. UI is a collapsible `💬 Комментарии, идеи и предложения` section below `Контрольный отпечаток`.
 
 
 ## Stability/current-state policy — 20.09.2026
