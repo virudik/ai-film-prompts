@@ -258,3 +258,11 @@ seven Drive docs → seven GitHub mirrors → fresh instruction status → Notio
 
 В шторке **«Служебные файлы»** теперь должен быть виден полный набор из семи инструкций с русскими названиями, плюс master, анализ фильма и backlog.
 
+## 20. Как теперь работает Recovery Sync
+
+Отдельной ежедневной automation нет. Одна `AI Film Recovery Sync` запускается каждый час:
+- обычно делает лёгкую проверку проекта;
+- один раз примерно в 24 часа, когда это показывает `deep-audit-status.json`, в том же запуске выполняет глубокий техосмотр master, prompts, персонажей, монтажного анализа, Notion, Library, сайта, Supabase и GitHub Actions/Pages.
+
+Topview остаётся отдельным процессом: `Topview Scene Intake & Slow Watch`. Это специально, чтобы production intake/очереди/создание новых Scene ID не смешивались с recovery-аудитом.
+
