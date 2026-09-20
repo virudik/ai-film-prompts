@@ -395,3 +395,24 @@ Cadence deep audit хранится в `deep-audit-status.json`. Missing/invalid
 
 Следующий чат при takeover обязан прочитать `deep-audit-status.json` вместе с остальными live status files и учитывать его warnings/unresolved в readiness report.
 
+## 25. Служебные файлы: что является инструкцией, а что нет
+
+На Control Center шторка **«Служебные файлы»** теперь визуально разделена на два блока.
+
+### Инструкции — читать строго по порядку
+1. `NEW-CHAT-HANDOFF.md` — Передача дел новому чату
+2. `SYNC-RUNBOOK.md` — Инструкция по синхронизации
+3. `AI-PROJECT-GUIDE.md` — Главная инструкция проекта
+4. `PROMPT-STYLE-GUIDE.md` — Стандарт написания промтов
+5. `USER-GUIDE.md` — Инструкция владельца
+6. `README-AI-SYNC.md` — Схема синхронизации и хранилищ
+7. `BACKUP-AI-RUNBOOK.md` — Инструкция резервного ИИ
+
+Это и есть полный seven-document takeover/recovery set. На сайте эти семь кнопок располагаются **вертикально, одна под другой, в этом порядке**.
+
+### Рабочие файлы проекта — НЕ инструкции
+- `video-prompts.md` — канонический master промтов;
+- `film-analysis.md` — карта и анализ фильма;
+- `film-backlog.md` — рабочий backlog фильма.
+
+Наличие этих трёх ссылок под той же общей шторкой не увеличивает число инструкций: это project data/context, а не дополнительные инструкции и не копии seven-document set.
