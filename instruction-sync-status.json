@@ -1,46 +1,18 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-20T16:23:12Z",
+  "checked_at": "2026-09-20T16:39:07Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-20T16:16:41.154Z",
-      "github_blob": "c7b8ad28af62f1e162b20d191689b017e8b2a208",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-20T16:16:54.750Z",
-      "github_blob": "852009d10f4cd2ecc3f0373d5a8132432ef7e81e",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T16:17:07.902Z",
-      "github_blob": "56603bd99b56a38934a42499a75c95b80ad7de36",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-20T16:17:20.830Z",
-      "github_blob": "67f8b3fb29237cac1927bddf6206ee8da883e804",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-20T16:17:33.276Z",
-      "github_blob": "a1a46d5e135eb793acb2e1430d7afba5ba5e8984",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-20T16:16:41.154Z","github_blob":"c7b8ad28af62f1e162b20d191689b017e8b2a208","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-20T16:16:54.750Z","github_blob":"852009d10f4cd2ecc3f0373d5a8132432ef7e81e","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-20T16:17:07.902Z","github_blob":"56603bd99b56a38934a42499a75c95b80ad7de36","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-20T16:17:20.830Z","github_blob":"67f8b3fb29237cac1927bddf6206ee8da883e804","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-20T16:17:33.276Z","github_blob":"a1a46d5e135eb793acb2e1430d7afba5ba5e8984","match":true}
   },
-  "semantic_check": {
-    "health": "ok",
-    "conflicts": []
-  },
-  "note": "20.09.2026 handoff refresh verified. Current live authority: fresh Drive master + project-status.json; Topview mappings must be checked against fresh scene bodies. Current slow checkpoint 2,12,14,15,18,19. Theme toggle is implemented. Native comments without GitHub login are pending as the next explicit site plan. Historical/checkpoint facts are not live invariants."
+  "semantic_check": {"health":"ok","conflicts":[]},
+  "note":"20.09.2026 recovery verification refreshed. Current live authority: fresh Drive master + project-status.json; Topview mappings are telemetry only and must be checked against fresh scene bodies. Current slow checkpoint 2,12,14,15,18,19. Scenes 14,15,18 are technical Topview success only and remain canonical slow pending user decision. Historical/checkpoint facts are not live invariants."
 }
