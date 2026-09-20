@@ -10,19 +10,19 @@
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
 
-**19.09.2026 · 15 сцен к генерации/доработке · 18 полных текстов промтов**
+**20.09.2026 · 16 сцен к генерации/доработке · 19 полных текстов промтов**
 
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
 - **⏳ 6** сцен сейчас в медленной генерации: **2, 12, 14, 15, 18, 19** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
-- **Последние оформленные активные сцены:** 18–19.
+- **Последние оформленные активные сцены:** 19–20.
 - **Последняя полная синхронизация:** **17.09.2026 · 20:42 (+03:00)**.
 
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
 
-**Синхронизация контекста:** **19.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 15 активных сцен и 18 полных текстов сохранены. Сцены 6, 7 и 9 удалены из active master по прямому решению пользователя как больше не актуальные; сцена 2 по новому решению пользователя возвращена в canonical slow-list; добавлена новая активная slow-сцена 19 «Рыбалка и Маша-Лагуна». Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **20.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 16 активных сцен и 19 полных текстов сохранены. Сцены 6, 7 и 9 удалены из active master по прямому решению пользователя как больше не актуальные; сцена 2 остаётся в canonical slow-list; сцена 19 «Рыбалка и Маша-Лагуна» остаётся active+slow; добавлена новая активная Scene 20 «Маша-Лагуна: рок-припев у озера» для Seedance 2.5, READY и не slow. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 
 ## ⏳ Сейчас в медленной генерации
@@ -58,6 +58,7 @@
 | 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17) | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
 | 18 | [Имперский крейсер — Канцлер и офицер в коридоре](#scene-18)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = Chancellor; @Image2 = Imperial Officer | 30-секундный диалог на ходу о новом оружии. Два варианта: A — нейтральный live-action sci-fi без франшизных терминов; B — более выраженная атмосфера военного космооперного крейсера в духе Imperial Star Destroyer. |
 | 19 | [Рыбалка и Маша-Лагуна](#scene-19)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
+| 20 | [Маша-Лагуна — рок-припев у озера](#scene-20) | @Image1 = локация/берег озера; @Image2 = Маша-Лагуна | Маша-Лагуна одна стоит у воды и исполняет оригинальный эмоциональный англоязычный рок-припев. Один стабильный непрерывный план плавно приближается от общего/среднего к более интимному кадру; точная локация и identity Маши сохраняются. |
 
 
 ---
@@ -1679,3 +1680,122 @@ bad Russian lip sync, incorrect dialogue speaker, subtitles, captions, text on s
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+---
+
+
+<a id="scene-20"></a>
+
+
+## Сцена 20 — Маша-Лагуна: рок-припев у озера
+
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"en"},"tags":["music_performance","vocal_performance","continuous_take","lakeshore"]} -->
+
+
+**Контекст использования:** Новая активная 30-секундная музыкальная сцена для Seedance 2.5. @Image1 задаёт точную локацию берега озера, @Image2 — точный образ Маши-Лагуны. Сцена строится как цельный live-action музыкальный перформанс: Маша стоит у воды и исполняет эмоциональный англоязычный рок-припев. В prompt не упоминаются конкретные существующие группа или песня. Текст припева ниже оригинальный и используется как точный вокальный текст для lip sync.
+
+
+**Референсы:** @Image1 = локация / берег озера / окружение · @Image2 = Маша-Лагуна, PRIMARY exact identity reference
+
+
+**Что происходит:** Маша-Лагуна одна стоит на берегу озера из @Image1 и поёт эмоциональный меланхоличный рок-припев. Камера начинает с более широкого плана, затем медленно и физически стабильно приближается. Лёгкий ветер естественно двигает волосы и одежду, вода остаётся спокойной и реалистичной. Вокал постепенно усиливается, но актёрская игра остаётся живой и сдержанной; финал приходит к более близкому эмоциональному кадру Маши без смены локации и без монтажной дробности.
+
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+
+REFERENCES:
+@Image1 — LOCATION / ENVIRONMENT reference only: the exact lakeshore location, shoreline shape, water placement, surrounding landscape, background geography, natural color relationships, and overall spatial mood. Preserve the recognizable location and do not redesign it into a different lake or fantasy set.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / character design, silhouette, and overall identity throughout the full 30-second performance.
+
+
+IMPORTANT REFERENCE RULE:
+@Image2 is the absolute identity lock for Masha-Laguna.
+@Image1 controls only the location, geography, shoreline, water, and environmental composition.
+Do not average Masha's face or body with anything from @Image1.
+Do not replace, beautify, restyle, age-shift, or redesign Masha.
+Do not alter the lake into another environment and do not invent large new structures that are absent from the location reference.
+
+
+STYLE GOAL:
+Photorealistic live-action cinematic music performance at a real lakeshore. Emotional, melancholic, raw, and intimate alternative-rock energy with a restrained 1990s feeling, but no reference to any specific existing band or song. The scene must feel like a serious film/music-video performance photographed with a real actress in a real outdoor location, not a stage show, not glossy pop choreography, not animation, and not a synthetic game cutscene.
+
+
+SCENE — ONE CONTINUOUS 30-SECOND PERFORMANCE:
+Masha-Laguna stands alone close to the water's edge in the exact lakeside environment established by @Image1. She faces slightly toward camera while remaining naturally connected to the landscape. The lake is clearly visible in the composition. There is no audience, no band visible in frame, no stage, no microphone stand, and no extra foreground characters.
+
+She sings the following ORIGINAL English chorus with clear articulation and accurate lip sync. These are the only required lyrics; do not replace them with lines from any existing song:
+
+“Hear the silence, hear it calling,
+Through the dark, the echoes falling,
+In my heart the fire is rising,
+Still I stand, no more disguising.”
+
+If musical timing requires additional vocal time, the same four-line chorus may repeat once naturally. Do not invent unrelated extra lyrics and do not substitute recognizable lyrics from another song.
+
+
+TIMELINE:
+[0:00–0:04]
+Open in a medium-wide establishing shot. Masha-Laguna stands at the lakeshore from @Image1 with the water and recognizable background geography clearly readable. She takes a natural breath before the vocal entry. A light breeze moves individual strands of hair and the loose parts of her clothing. The camera is already in gentle motion, beginning a very slow controlled push toward her.
+
+[0:04–0:11]
+Masha begins singing:
+“Hear the silence, hear it calling,
+Through the dark, the echoes falling,”
+Her delivery starts controlled and melancholic, then grows in emotional weight. Keep natural breathing, realistic mouth shapes, subtle jaw movement and exact sung lip sync. The camera continues its slow push-in without changing direction abruptly.
+
+[0:11–0:18]
+She continues:
+“In my heart the fire is rising,
+Still I stand, no more disguising.”
+Her vocal intensity opens up. Her eyes become more focused and emotionally charged, but the performance remains believable and grounded. No broad theatrical hand gestures. One small natural hand movement or a slight shift of weight is acceptable if motivated by the performance.
+
+[0:18–0:25]
+Let the musical phrase breathe. Masha may repeat the chorus from the beginning or sustain and resolve the final musical phrase, depending on natural timing, while keeping the exact same lyrical material. Camera reaches a clean medium shot. The lake remains visible behind or beside her and the environment stays spatially continuous.
+
+[0:25–0:30]
+The camera makes only a very subtle final arc or lateral drift while staying close enough to read her eyes and mouth clearly. Masha finishes the phrase with a strong but controlled emotional release. End on a stable cinematic medium / medium-close composition with the same lake and shoreline still coherent in the background. No freeze frame, no fade to a different location, no sudden pose.
+
+
+CAMERA / CONTINUITY:
+One continuous unbroken shot for the full 30 seconds.
+Physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
+Start medium-wide and slowly push toward medium / medium-close framing.
+A subtle motivated arc near the end is allowed, but there must be no sudden lateral jump, no teleporting camera, no random reframing, no hard cuts, no jump cuts, and no montage.
+Maintain one coherent 3D space. Shoreline, horizon, water, and background objects must remain geometrically stable and reveal themselves naturally through camera motion.
+No random jitter or micro-shake.
+
+
+PERFORMANCE / VOCAL DELIVERY:
+Masha-Laguna performs with sincere melancholy, restrained anger, vulnerability, and growing strength. She is emotionally intense without becoming hysterical or theatrical.
+Natural blinking, breathing, eye focus, facial micro-expressions, neck and jaw motion, and subtle body weight transfer.
+The singing must look physically believable: realistic inhalation before phrases, mouth opening appropriate to sustained vowels, natural chest / shoulder breathing, and no frozen face between lines.
+Do not make her smile broadly or perform cheerful pop choreography.
+Identity, hairstyle, costume and proportions must remain stable in every frame.
+
+
+LIGHTING / ENVIRONMENT:
+Preserve the environmental identity of @Image1. Use natural outdoor light consistent with the reference image. If the source is soft daylight / overcast light, keep it soft and cinematic rather than replacing it with golden-hour or concert lighting.
+Water should have small physically plausible ripples and realistic reflections. Wind affects hair and fabric lightly and consistently. Plants, shoreline material and distant background must not morph or appear/disappear.
+Natural skin tone, realistic cloth texture, believable contact with the ground, and physically plausible depth of field.
+No fantasy glow, no magical aura, no neon color wash unless already present in @Image2 as an intrinsic part of Masha-Laguna's approved design.
+
+
+AUDIO (native):
+Clear expressive female singing voice with accurate English pronunciation and tight sung lip sync.
+Vocal is the dominant element in the mix.
+Backing track: restrained melancholic alternative-rock arrangement with electric guitar, bass and drums, emotionally building without overpowering the voice. Do not imitate or reproduce a specific existing recording or melody.
+Natural lake ambience remains quietly audible underneath: soft water movement, light wind and distant outdoor atmosphere.
+No crowd noise, no applause, no spoken dialogue, no subtitles.
+
+
+NEGATIVE PROMPT:
+identity drift, different face, different age, different hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, over-smoothed skin, face morphing, bad lip sync, spoken delivery instead of singing, frozen mouth, random or recognizable lyrics from an existing song, subtitles, captions, karaoke text, lyrics on screen, extra people, audience, visible band, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, broad theatrical gestures, cheerful pop performance, cartoon, anime, stylized CGI, game cutscene, plastic skin, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, objects appearing from nowhere, surreal water behavior, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, oversaturated neon lighting, black bars, side bars, decorative borders, empty margins, logo, watermark.
+
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+

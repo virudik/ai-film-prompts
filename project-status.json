@@ -3,13 +3,13 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-20T19:13:35Z",
-  "revision_date": "19.09.2026",
+  "synced_at": "2026-09-20T19:24:52Z",
+  "revision_date": "20.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
-  "canonical_master_sha256": "3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf",
-  "canonical_master_bytes": 139774,
-  "scenes": 15,
-  "prompt_texts": 18,
+  "canonical_master_sha256": "570ea61ae49a85ba7b54272c26538c4badb8fee168b5832f9b66991f8bc44afe",
+  "canonical_master_bytes": 150827,
+  "scenes": 16,
+  "prompt_texts": 19,
   "work_items": [
     "W5",
     "W7",
@@ -40,16 +40,17 @@
     16,
     17,
     18,
-    19
+    19,
+    20
   ],
-  "latest_scene": 19,
+  "latest_scene": 20,
   "instruction_sync": {
     "health": "ok",
     "snapshot_at": "2026-09-20T16:39:07Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 2.574,
+    "age_hours_at_status_build": 2.763,
     "files": {
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -340,14 +341,31 @@
         "continuous_take"
       ],
       "render_state": "SLOW_PENDING"
+    },
+    "20": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "en"
+      },
+      "dependencies": [],
+      "tags": [
+        "music_performance",
+        "vocal_performance",
+        "continuous_take",
+        "lakeshore"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "19.09.2026",
-    "synced_at": "2026-09-20T19:13:35Z",
-    "canonical_master_sha256": "3dab6fa527063fa8e6174c620c76e17fe9d3ade07aab504ef8cbeb45952543bf",
-    "scene_count": 15,
-    "prompt_count": 18,
+    "revision_date": "20.09.2026",
+    "synced_at": "2026-09-20T19:24:52Z",
+    "canonical_master_sha256": "570ea61ae49a85ba7b54272c26538c4badb8fee168b5832f9b66991f8bc44afe",
+    "scene_count": 16,
+    "prompt_count": 19,
     "scene_ids": [
       1,
       2,
@@ -363,7 +381,8 @@
       16,
       17,
       18,
-      19
+      19,
+      20
     ],
     "work_items": [
       "W5",
