@@ -280,3 +280,8 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 При takeover проверить `deep-audit-status.json`: когда был последний successful deep audit, какие sections/warnings/unresolved. Старый/missing/failed status означает, что deep audit должен быть выполнен следующим Recovery run или вручную до уверенного readiness report.
 
+## 21. Не путать instruction set с рабочими файлами
+
+В шторке сайта **«Служебные файлы»** ссылок больше семи, но canonical instruction set всё равно состоит ровно из 7 документов. Эти семь кнопок идут вертикально в takeover order 1→7.
+
+Master, film-analysis и backlog вынесены ниже как **рабочие файлы проекта**. Резервный агент не должен ошибочно считать их дополнительными инструкциями или искать «лишние копии» seven-document set.
