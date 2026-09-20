@@ -353,3 +353,33 @@ Approved individual model sheets are identity authority. Current master is curre
 
 Финальный доклад takeover должен содержать: **что прочитано и проверено; current scene/slow checkpoint; понимание character map и film priorities; были ли исправлены stale docs; какие реальные unresolved issues остались.** Только после этого: `готов продолжать работу предшественника`.
 
+## 21. CURRENT AUTOMATION: Topview Scene Intake & Slow Watch
+
+Старый `Topview Slow Watch` расширен и переименован в **`Topview Scene Intake & Slow Watch`**.
+
+Он теперь:
+- продолжает следить за canonical slow tasks, queue/ETA/status;
+- дополнительно ищет genuinely new Topview **video-generation tasks**;
+- если task новая, не retry/duplicate и содержит actual prompt/model metadata, сам создаёт следующий Scene ID в SAME Drive master;
+- actual Topview prompt сохраняет verbatim;
+- добавляет Russian title/context/references/summary;
+- running task делает canonical slow;
+- уже successful task импортирует как `RESULT_RECEIVED`, не APPROVED;
+- затем прогоняет normal Drive→GitHub validation/Pages и записывает task↔Scene mapping;
+- ambiguous/non-video task не импортирует.
+
+Следующий чат обязан при takeover проверить эту automation и помнить, что это отдельное явное разрешение на создание **новой** scene; оно не отменяет запрет на auto-approval/rerun/delete/slow-clear существующих сцен.
+
+## 22. Служебные файлы на сайте
+
+В `Control Center → Служебные файлы` теперь опубликован полный seven-document takeover/recovery set русскими названиями:
+- Передача дел новому чату
+- Главная инструкция проекта
+- Стандарт написания промтов
+- Инструкция по синхронизации
+- Схема синхронизации и хранилищ
+- Инструкция владельца
+- Инструкция резервного ИИ
+
+Также доступны канонический master, карта/анализ фильма и рабочий backlog.
+
