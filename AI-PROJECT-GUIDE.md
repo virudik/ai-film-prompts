@@ -359,3 +359,15 @@ Library:
 
 Под раскрывающейся шторкой **«Служебные файлы»** сайт должен показывать полный seven-document set русскими названиями: передача дел новому чату, главная инструкция проекта, стандарт написания промтов, инструкция по синхронизации, схема синхронизации и хранилищ, инструкция владельца, инструкция резервного ИИ. Там же остаются канонический master, карта/анализ фильма и рабочий бэклог.
 
+## 20. AI Film Recovery Sync: hourly light + daily deep
+
+`AI Film Recovery Sync` — одна главная recovery/integrity automation с двумя уровнями внутри одного hourly schedule.
+
+**Каждый час:** лёгкий контроль seven Drive docs ↔ GitHub, fresh instruction status, master/project-status consistency, наличие ключевых site/context artifacts, character-registry metadata, permanent site baseline и отсутствие публичных privileged secrets. Этот проход не перечитывает тяжёлый монтажный HTML, весь Notion/Library или Supabase security stack без причины.
+
+**Раз в 24 часа внутри той же automation:** глубокий аудит master structure, prompt-style regressions, characters ↔ master, montage/film-analysis/backlog, Notion operational pointer, Library recovery, site JS/links, Supabase comments security, GitHub Actions/Pages и recovery-readiness. Cadence хранится в GitHub `deep-audit-status.json`. Если успешного deep audit нет или он старше 24 часов, следующий hourly run выполняет deep audit.
+
+`deep-audit-status.json` фиксирует `last_deep_audit_at`, health по секциям, repairs, warnings и unresolved. Timestamp успешного deep audit обновляется только после реально завершённого глубокого прохода; при материальной ошибке следующий hourly run повторяет попытку.
+
+`Topview Scene Intake & Slow Watch` остаётся отдельной automation: только она занимается Topview intake/slow telemetry и авторизованным созданием новых Scene ID из genuinely new Topview video tasks. Recovery Sync не создаёт сцены и не дублирует Topview intake.
+
