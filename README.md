@@ -1,26 +1,42 @@
 # AI Film Prompts Master
 
-Public read-only mirror and web viewer for the current AI-video prompt master.
+Public mirror, recovery documentation and Control Center for the AI Film project.
 
-## Files
-- [`video-prompts.md`](./video-prompts.md) — current public mirror of the prompt master.
-- [`index.html`](./index.html) — web viewer with clickable navigation, search, and Copy buttons.
-- [`README-AI-SYNC.md`](./README-AI-SYNC.md) — synchronization rules for ChatGPT / Work / Claude / Gemini.
+## Canonical source
 
-## Source of truth
-The editable canonical source remains the Google Drive file `AI Film Prompts Master/video-prompts.md`.
-This GitHub repository is a public read-only mirror for external AI review and the web viewer.
+The **only editable prompt master** is Google Drive `AI Film Prompts Master/video-prompts.md` (Drive ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`). This repository is a mirror/site/status layer, not a second master.
 
-## For external AI reviewers
-Read the raw master first:
+## New-chat / takeover reading order
 
-`https://raw.githubusercontent.com/virudik/ai-film-prompts/main/video-prompts.md`
+Before editing the project, read the full instruction/recovery set:
 
-Then review only the requested scenes. Do not create a parallel `final`, `v2`, or alternate master unless explicitly requested.
+1. [`NEW-CHAT-HANDOFF.md`](./NEW-CHAT-HANDOFF.md)
+2. [`SYNC-RUNBOOK.md`](./SYNC-RUNBOOK.md)
+3. [`AI-PROJECT-GUIDE.md`](./AI-PROJECT-GUIDE.md)
+4. [`PROMPT-STYLE-GUIDE.md`](./PROMPT-STYLE-GUIDE.md)
+5. [`USER-GUIDE.md`](./USER-GUIDE.md)
+6. [`README-AI-SYNC.md`](./README-AI-SYNC.md)
+7. [`BACKUP-AI-RUNBOOK.md`](./BACKUP-AI-RUNBOOK.md)
 
-## Web viewer
-After GitHub Pages is enabled for `main` → `/ (root)`, the viewer URL is:
+Then read fresh Drive master plus live `project-status.json`, `topview-status.json`, and `instruction-sync-status.json`.
 
-`https://virudik.github.io/ai-film-prompts/`
+## Prompt standard
 
-The viewer loads `video-prompts.md` dynamically, so the HTML does not need rebuilding when prompt text changes.
+All new or substantially reworked prompts must follow the full `PROMPT-STYLE-GUIDE.md` and be checked against 1–2 current master scenes. Do not replace it with a short generic prompt or chat summary.
+
+## Control Center
+
+Viewer: `https://virudik.github.io/ai-film-prompts/`
+
+Current site includes active-scene navigation, full prompts, merged slow/Topview telemetry, sync health indicator, character references, light/dark theme, and native anonymous comments/replies through Supabase in a collapsible `💬 Комментарии, идеи и предложения` section directly below `Контрольный отпечаток`.
+
+## Other stores
+
+- **Notion `Кино`** — story/idea/history bank; not prompt authority.
+- **ChatGPT Library** — recovery mirror/cache; not prompt authority.
+- **Topview** — render telemetry; technical success is not approval.
+- **Supabase** — comments backend only; no master mutation rights.
+
+## Material-change rule
+
+A material site/workflow/prompt-standard/authority change is not complete until the relevant Drive instructions and `NEW-CHAT-HANDOFF.md` are updated, mirrored to GitHub, verification status is refreshed, and recovery notes in Notion/Library are updated where applicable.
