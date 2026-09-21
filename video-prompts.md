@@ -1700,6 +1700,25 @@ ENVIRONMENT & ASSET LOCK:
 - CHEWBACCA (matching @Image1): Towering bipedal Wookiee, shaggy reddish-brown fur, bandolier across his chest, expressive amber eyes. Communicates only in wookiee growls/roars — no words, no subtitles. 
 - Setting: Same dim, smoke-hazed desert-cantina interior as @Image1 — stone archways, hanging amber lantern overhead, alien patrons blurred in the background, round metal table between the three. 
  
+
+REFERENCE PRIORITY / IDENTITY LOCK:
+@Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls the cantina composition, Chewbacca, table placement, background atmosphere and lighting only.
+Do not average Han or the Jedi with faces visible in @Image1. Keep all three characters in their established seats/positions and preserve costume, face, hair, body proportions and left-right geography throughout.
+
+START / END STATE:
+Start as an already-established conversation at the same table, with the Jedi focused on Han and Chewbacca present as a silent witness.
+End with Chewbacca's questioning growl and the Jedi visibly thrown off, while Han remains committed to playing dumb. Preserve this exact emotional and spatial state for Scene 11.
+
+CAMERA / CONTINUITY:
+Use motivated cinematic dialogue coverage only: readable medium three-shot for geography, then restrained singles/reaction shots that preserve eyelines and screen direction.
+No arbitrary side swaps, no 180-degree axis break, no teleporting between seats, no random montage, and no camera move that obscures the speaking face during a line.
+Keep camera motion physically stable with controlled inertia; subtle dolly or locked-off coverage is preferred over handheld movement.
+
+PERFORMANCE / LIP SYNC:
+All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation, no accent unless present in the reference performance, and accurate lip sync.
+Jedi is serious and increasingly puzzled; Han performs believable faux innocence rather than broad comedy; Chewbacca reacts only through natural head/eye/body motion and Wookiee vocalization.
+Allow natural blinking, breathing, small posture shifts and reaction pauses. Do not overlap key dialogue lines.
+
 ACTING & DIALOGUE TIMELINE (00:00 - 00:30): 
  
 - 00:00–00:08 (Shot 1 - The Accusation): 
@@ -1726,7 +1745,7 @@ Warm amber lantern light from directly overhead, soft haze/smoke drifting throug
 AUDIO: 
 Clear Russian dialogue as written, one long expressive Wookiee growl in Shot 4, quiet ambient cantina chatter and distant alien music underneath — kept low enough not to compete with the dialogue, no non-diegetic score. 
  
-NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual words, subtitles, text on screen, expressionless faces, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
+NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, seat swapping, broken eyelines, 180-degree axis flip, random camera cuts, rushed dialogue, overlapping speech, wrong speaker, bad Russian pronunciation, lip desync, Wookiee speaking actual words, subtitles, captions, text on screen, duplicated characters, extra foreground characters, distorted hands, expressionless faces, exaggerated slapstick acting, warped table or cantina geometry, camera jitter, cartoon, anime, game-render look, plastic skin, low-detail faces, watermark, logo, unwanted non-diegetic music.
 
 
 
@@ -1817,6 +1836,28 @@ ENVIRONMENT & ASSET LOCK:
 - CHEWBACCA (matching @Image1): Towering bipedal Wookiee, shaggy reddish-brown fur, bandolier across his chest, expressive amber eyes. Growls/roars only, no words. 
 - Setting: Direct continuation from the previous scene — identical cantina table, seating, and lighting, no time skip. 
  
+
+REFERENCE PRIORITY / IDENTITY LOCK:
+@Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls Chewbacca, the cantina composition, table placement, background atmosphere and lighting only.
+Do not average Han or the Jedi with faces visible in @Image1. Preserve the same costumes, seats, left-right geography, table layout, eyelines and lighting established in Scene 10.
+
+CONTINUITY FROM SCENE 10 / START STATE:
+This begins immediately after Chewbacca's questioning growl at the end of Scene 10. No time skip, no reset of posture, no new entrance and no changed seating.
+The Jedi is still thrown off but tries to recover; Han is still playing dumb; Chewbacca is attentive after his previous growl.
+
+END STATE:
+End on Han's baffled close reaction after «Какую плёнку? Мужик, ты вообще кто?» with the Jedi and Chewbacca remaining in the same established space, leaving a clean reaction beat for the next edit.
+
+CAMERA / CONTINUITY:
+Maintain the same dialogue axis and screen direction as Scene 10. Use restrained motivated coverage: medium shot, reaction shot, then close framing only when it serves the line.
+No arbitrary side swaps, no 180-degree axis break, no teleporting between seats, no random montage, and no camera movement that hides the active speaker's mouth.
+Physically stable cinematic motion with controlled inertia; subtle dolly or locked-off coverage is preferred.
+
+PERFORMANCE / LIP SYNC:
+All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation and accurate lip sync.
+The Jedi delivers the crude joke dryly rather than theatrically, then shifts back to business. Chewbacca's offended reaction is readable but still physically natural. Han's final confusion feels genuine and increasingly exasperated.
+Allow natural blinking, breathing, restrained gestures and short reaction pauses. Do not overlap key lines.
+
 ACTING & DIALOGUE TIMELINE (00:00 - 00:30): 
  
 - 00:00–00:10 (Shot 1 - The Theory): 
@@ -1841,7 +1882,7 @@ Same warm amber lantern light and soft haze as the previous scene, shallow depth
 AUDIO: 
 Clear Russian dialogue as written, one sharp indignant Wookiee growl in Shot 2, same quiet ambient cantina bed as the previous scene, no non-diegetic score. 
  
-NEGATIVE PROMPT: rushed dialogue, overlapping speech, Wookiee speaking actual words, subtitles, text on screen, expressionless faces, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
+NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, changed seating, broken eyelines, 180-degree axis flip, time-skip look, random camera cuts, rushed dialogue, overlapping speech, wrong speaker, bad Russian pronunciation, lip desync, Wookiee speaking actual words, subtitles, captions, text on screen, duplicated characters, extra foreground characters, distorted hands, expressionless faces, exaggerated slapstick acting, warped table or cantina geometry, camera jitter, cartoon, anime, game-render look, plastic skin, low-detail faces, watermark, logo, unwanted non-diegetic music.
 
 
 
