@@ -1,7 +1,21 @@
 # NEW CHAT HANDOFF — AI Film Project
 
-**Checkpoint:** 20.09.2026  
+**Checkpoint:** 22.09.2026  
 **Назначение:** единая актуальная точка передачи следующему чату. Если старый chat summary, Notion note, Library copy или исторический commit противоречат этому файлу и live sources, сначала проверять live authority, а не продолжать старое предположение.
+
+## 0. CURRENT CHECKPOINT — 22.09.2026
+
+Этот блок — быстрый вход для сменщика; подробные правила ниже остаются обязательными.
+
+- Fresh runtime authority: Drive master + `project-status.json`; на текущем snapshot активные Scene ID: `1,2,3,4,5,10,11,13,16,17,19,20`, `health: ok`.
+- Fresh Topview snapshot на момент передачи: capacity `6`, occupied `6`; UI обязан считать **tasks/slots**, а не уникальные Scene ID.
+- Компактная строка Topview на сайте: **`занято X из 6 · DD.MM.YYYY, HH:MM:SS`**. Не показывать `свободно Y` и не писать `синхр.`. Timestamp — обычный цвет/вес текста.
+- `PROMPT-STYLE-GUIDE.md` обновлён до **v1.3 / 22.09.2026** и является единственным prompt-writing standard.
+- Prompt guide теперь prompt-only: Topview runtime/slot contract живёт в `SYNC-RUNBOOK.md`; полные копии live-сцен не считаются каноническими примерами.
+- Главный принцип prompt-writing: **maximum useful specificity, minimum redundant wording**.
+- Каждый отдельно копируемый production prompt самодостаточен: short real `CHARACTER APPEARANCE / IDENTITY LOCK`, reference ownership/priority, feasible timing, coherent camera/space, risk-specific negatives, START/END state для последовательностей где полезно.
+- Качество legacy prompts проверяется **семантически**, а не буквальным grep по названию секции. Новые/перерабатываемые prompts приводятся к актуальному формату.
+- Не спрашивать пользователя повторно об известной внешности/continuity: resolve из fresh `character-references.json` + master/current variant.
 
 ## 1. TAKEOVER GATE — прочитать до любой работы
 
@@ -450,12 +464,14 @@ Principle: **keep only the state required for correctness and deduplication; det
 2. **Что занимает слот:** каждый отдельный Topview `task_id` в состоянии `init`, `queued`, `running` или `processing` занимает **ровно 1 слот**.
 3. **Scene ID и слоты — разные счётчики:** canonical `slow_scenes` остаётся множеством уникальных Scene ID без дублей. Число slow Scene ID **нельзя** использовать как число занятых слотов.
 4. **Повторный запуск той же сцены:** если одна Scene ID одновременно запущена 2–3 раза, она остаётся одной canonical scene, но занимает 2–3 Topview slot и должна появляться 2–3 отдельными строками в slow-таблице сайта.
-5. **Заголовок сайта:** справа от `⏳ Сейчас в медленной генерации — Topview` показывать только динамический счётчик занятых слотов:
-   - `занято X из 6`
-   - `X` = количество реально активных `task_id`.
-   - Не выводить в компактной шапке `свободно Y` и время последней синхронизации.
-   - `free_slots` и `checked_at` остаются допустимыми внутренними telemetry/diagnostic полями, но не являются частью заголовка.
-   При текущих шести active tasks ожидаемый вид: **`занято 6 из 6`**.
+5. **Заголовок сайта:** справа от `⏳ Сейчас в медленной генерации — Topview` показывать компактно:
+   - `занято X из 6 · DD.MM.YYYY, HH:MM:SS`
+   - `X` = количество реально активных `task_id`;
+   - дата и время берутся из свежего `topview-status.json → checked_at` и отображаются в локальном формате интерфейса;
+   - **не выводить** слова/поля `свободно Y` и `синхр.`;
+   - дата и время показываются **обычным цветом текста и обычным начертанием**, отдельно от цветовой индикации заполненности слотов;
+   - `free_slots` остаётся внутренним telemetry/diagnostic полем и не удаляется из JSON.
+   При текущих шести active tasks пример вида: **`занято 6 из 6 · 22.09.2026, 01:36:34`**.
 6. **Таблица:** одна строка = один active `task_id` = один занятый slot. Сохраняются прежние 8 колонок и их базовые пропорции: `#`, `Сцена`, `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь`, `Оценка времени`. Новую колонку `Attempt`/`Task ID` не добавлять. Если Scene ID повторяется, номер и название сцены повторяются в нескольких строках.
 7. **Telemetry:** `topview-status.json` должен содержать:
    - `slot_capacity`;
@@ -488,7 +504,7 @@ User explicitly simplified the Topview header. The compact line to the right of 
 
 `занято X из 6`
 
-Do **not** show `свободно Y` or `синхр. <time>` in this header. `free_slots` and `checked_at` may remain in `topview-status.json` and technical diagnostics; they are not deleted from telemetry.
+Show `занято X из 6 · DD.MM.YYYY, HH:MM:SS`. Do **not** show `свободно Y` or the label `синхр.`. The timestamp comes from `checked_at` and is rendered in ordinary text color/weight; `free_slots` remains telemetry only.
 
 Current verified checkpoint while preparing this handoff:
 - canonical master: **12 active Scene IDs / 24 prompt texts**;
