@@ -1,22 +1,34 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-21T08:12:01Z",
+  "checked_at": "2026-09-21T08:38:30Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
-  "source_of_truth": "Google Drive canonical seven-document instruction set",
+  "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-21T08:08:04.833Z",
-      "github_blob": "d94496cf0bfed4b007fc9f3daf3dae4b0cc67527",
+    "NEW-CHAT-HANDOFF.md": {
+      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+      "drive_modified_at": "2026-09-21T08:33:57.716Z",
+      "github_blob": "43e4edabeea293809bcd453b5d08498aa8cd0425",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
       "drive_modified_at": "2026-09-21T08:07:40.599Z",
       "github_blob": "4202f86bff92ac342d9dcd7bc7c568908c73e019",
+      "match": true
+    },
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-21T08:08:04.833Z",
+      "github_blob": "d94496cf0bfed4b007fc9f3daf3dae4b0cc67527",
+      "match": true
+    },
+    "PROMPT-STYLE-GUIDE.md": {
+      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+      "drive_modified_at": "2026-09-21T08:08:47.423Z",
+      "github_blob": "7e96344bb2876fb3b1dfa953872976b1afc822f6",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -35,18 +47,6 @@
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
       "drive_modified_at": "2026-09-21T08:09:48.933Z",
       "github_blob": "b0388fc090d5f46407ac990cffe73a93d7f9b856",
-      "match": true
-    },
-    "NEW-CHAT-HANDOFF.md": {
-      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-21T08:05:49.828Z",
-      "github_blob": "396e437ad4dcd992280fa5c78183db63143228af",
-      "match": true
-    },
-    "PROMPT-STYLE-GUIDE.md": {
-      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-21T08:08:47.423Z",
-      "github_blob": "7e96344bb2876fb3b1dfa953872976b1afc822f6",
       "match": true
     }
   },
@@ -105,5 +105,7 @@
     "scene_row_cardinality": "one_row_per_scene_id",
     "attempt_presentation": "hidden_internal_state",
     "ux_rule": "compact UI; repeat/parallel task IDs remain internal only"
-  }
+  },
+  "conflicts": [],
+  "mode": "authorized_chatgpt_drive_connector"
 }
