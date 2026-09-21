@@ -1,2 +1,2 @@
-Slow-table multi-attempt UI docs refresh
-2026-09-21T05:49:30Z
+Compact slow-table UI final sync
+2026-09-21T07:38:00Z
