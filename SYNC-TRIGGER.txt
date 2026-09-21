@@ -1,2 +1,2 @@
-Sync prompt autonomy and appearance-lock instruction rule
-2026-09-21T21:59:00Z
+Sync Scene 20 English-only production prompts and normalize master UTF-8 without BOM
+2026-09-21T23:34:40Z
