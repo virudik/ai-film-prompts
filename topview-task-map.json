@@ -1,28 +1,71 @@
 {
-  "schema_version": 2,
-  "updated_at": "2026-09-21T04:21:32Z",
-  "purpose": "Durable one-to-many Scene ID -> Topview render-attempt history. Scene IDs identify creative scenes; Topview task IDs identify individual render attempts.",
-  "authority": "Telemetry/provenance mapping only. Google Drive video-prompts.md remains canonical for active scenes, editorial state and slow membership.",
+  "schema_version": 3,
+  "updated_at": "2026-09-21T08:02:02.010Z",
+  "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
+  "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
-    "Scene ID identifies a creative scene; Topview task ID identifies one render attempt. A scene may have many attempts over time or in parallel.",
-    "A new task for an existing scene is appended to attempt history and does not create a duplicate Scene ID.",
-    "A new active attempt (init/queued/running/processing) makes or returns that existing Scene ID to canonical slow, even if an older attempt previously completed or the scene had been removed from slow.",
-    "Preserve every known task_id/outcome. Do not overwrite history when selecting a new current task.",
-    "Several active attempts of one scene still produce one canonical slow Scene ID; track every active task ID.",
-    "Topview success never implies approval and never clears canonical slow automatically.",
-    "Create a new Scene ID only for a genuinely new creative scene; ambiguous classification requires user review."
+    "Scene ID identifies the creative scene; Topview task ID identifies one render attempt.",
+    "A rerun/rerender of an existing scene keeps the same Scene ID.",
+    "Known set = all active task IDs + processed_tasks task IDs.",
+    "A scene is Topview-slow while at least one known active task for that scene is init/queued/running/processing.",
+    "When the last Topview-managed active task for a scene reaches a terminal state, remove that scene from canonical slow; do not change approval/editorial state.",
+    "Keep only minimal processed-task facts needed for dedup/statistics: task_id, scene_id, final_status, finished_at. Do not persist queue/ETA history.",
+    "New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review."
   ],
-  "mappings": {
-    "2": {"task_id":"d28b2481a8b344439fa175c3ef0b7f5b","current_task_id":"d28b2481a8b344439fa175c3ef0b7f5b","active_task_ids":["d28b2481a8b344439fa175c3ef0b7f5b"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"user-confirmed/current Topview task","attempts":[{"task_id":"d28b2481a8b344439fa175c3ef0b7f5b","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"active_current","status":"init"}]},
-    "3": {"task_id":"043d6d4c2350440dbc7bc593845387ab","current_task_id":"043d6d4c2350440dbc7bc593845387ab","active_task_ids":["043d6d4c2350440dbc7bc593845387ab"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"exact canonical prompt match","attempts":[{"task_id":"043d6d4c2350440dbc7bc593845387ab","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"active_current","status":"init"}]},
-    "4": {"task_id":"cfe166820fe046e09d57870928dd87cd","current_task_id":"cfe166820fe046e09d57870928dd87cd","active_task_ids":["cfe166820fe046e09d57870928dd87cd"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"exact canonical prompt match","attempts":[{"task_id":"cfe166820fe046e09d57870928dd87cd","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"active_current","status":"init"}]},
-    "5": {"task_id":"3f1800f1f2774492ab8bc2eb163cc589","current_task_id":"3f1800f1f2774492ab8bc2eb163cc589","active_task_ids":["3f1800f1f2774492ab8bc2eb163cc589"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"exact canonical prompt match","attempts":[{"task_id":"3f1800f1f2774492ab8bc2eb163cc589","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"active_current","status":"init"}]},
-    "12": {"task_id":"8d2103753bb145b7990014bf83a6f652","current_task_id":"8d2103753bb145b7990014bf83a6f652","active_task_ids":[],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"binding_source":"user-confirmed/current Topview task","attempts":[{"task_id":"8d2103753bb145b7990014bf83a6f652","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"role":"known_historical","status":"success"}]},
-    "13": {"task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","current_task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","active_task_ids":["73cf9e84d8b14f5f8d6653f7f6ae7318"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"binding_source":"exact canonical prompt match","attempts":[{"task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"role":"active_current","status":"init"}]},
-    "14": {"task_id":"1fd5e89e6cd64b41af6a007a88d0939f","current_task_id":"1fd5e89e6cd64b41af6a007a88d0939f","active_task_ids":[],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"user-confirmed/current Topview task","attempts":[{"task_id":"1fd5e89e6cd64b41af6a007a88d0939f","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"known_historical","status":"success"}]},
-    "15": {"task_id":"86d84863bf5e4b97b2ea9423ca514f84","current_task_id":"86d84863bf5e4b97b2ea9423ca514f84","active_task_ids":[],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"binding_source":"user-confirmed/current Topview task","attempts":[{"task_id":"86d84863bf5e4b97b2ea9423ca514f84","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"role":"known_historical","status":"success"}]},
-    "18": {"task_id":"cd7c476566d84076aaa330274093ea15","current_task_id":"cd7c476566d84076aaa330274093ea15","active_task_ids":[],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"binding_source":"user-confirmed/current Topview task","attempts":[{"task_id":"cd7c476566d84076aaa330274093ea15","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"role":"known_historical","status":"success"}]},
-    "19": {"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","current_task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","active_task_ids":["e4ad0298cf7d48a98c6ba6498bb62c48"],"board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"binding_source":"exact canonical Scene 19 prompt/reference rerender","attempts":[{"task_id":"6ef310d646ca4605b5b10c12752b6ab7","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Wan 3.0","verified":true,"role":"known_historical","status":"success","completed_at":"2026-09-21T03:20:45Z"},{"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","board_id":"1a6244cf1ae747ef847d949a80d6133c","model":"Seedance 2.5","verified":true,"role":"active_current","status":"init","started_at":"2026-09-21T03:25:17Z"}]}
+  "active_by_scene": {
+    "2": [
+      "d28b2481a8b344439fa175c3ef0b7f5b"
+    ],
+    "3": [
+      "043d6d4c2350440dbc7bc593845387ab"
+    ],
+    "4": [
+      "cfe166820fe046e09d57870928dd87cd"
+    ],
+    "5": [
+      "3f1800f1f2774492ab8bc2eb163cc589"
+    ],
+    "13": [
+      "73cf9e84d8b14f5f8d6653f7f6ae7318"
+    ],
+    "19": [
+      "e4ad0298cf7d48a98c6ba6498bb62c48"
+    ]
   },
-  "relation": "one_scene_to_many_topview_attempts"
+  "processed_tasks": [
+    {
+      "task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
+      "scene_id": 14,
+      "final_status": "success",
+      "finished_at": "2026-09-20T00:33:28Z"
+    },
+    {
+      "task_id": "86d84863bf5e4b97b2ea9423ca514f84",
+      "scene_id": 15,
+      "final_status": "success",
+      "finished_at": "2026-09-20T07:17:05Z"
+    },
+    {
+      "task_id": "cd7c476566d84076aaa330274093ea15",
+      "scene_id": 18,
+      "final_status": "success",
+      "finished_at": "2026-09-20T13:54:38Z"
+    },
+    {
+      "task_id": "8d2103753bb145b7990014bf83a6f652",
+      "scene_id": 12,
+      "final_status": "success",
+      "finished_at": "2026-09-20T20:35:56Z"
+    },
+    {
+      "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
+      "scene_id": 19,
+      "final_status": "success",
+      "finished_at": "2026-09-21T03:20:45Z"
+    }
+  ],
+  "retention": {
+    "processed_tasks_max": 200,
+    "note": "Keep the most recent 200 processed tasks; older entries may be dropped after they are outside the recent Topview scan window."
+  }
 }
