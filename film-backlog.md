@@ -164,7 +164,76 @@
 | INF-2 | NEXT | Комментарии прямо на сайте без GitHub login | Спроектировать безопасный backend (предпочтительно Supabase), anonymous post + replies + anti-spam/RLS; GitHub Issue #8 оставить fallback до миграции |
 | INF-3 | MONITOR | Стабильность Drive→GitHub sync | Следить, чтобы dynamic current facts брались только из master/status; исторические snapshot не давали false red |
 | INF-4 | MONITOR | Topview mapping robustness | Для каждого нового/возвращённого slow ID сверять exact task prompt с fresh scene body; не использовать stale handoff/memory |
-| INF-5 | FUTURE | Режим `Сейчас` | Не реализовывать без нового запроса |
+| INF-5 | FUTURE | Режим `Сейчас` | Сохранён как будущий owner-facing режим; см. подробный блок ниже. Не реализовывать без нового запроса |
 | INF-6 | FUTURE | `рудик.рф/промты` и независимое видео | Нужен hosting/router access; не трогать DNS без подтверждения |
+
+### FUTURE — режим «Сейчас» + план развития после Work-аудита
+
+Этот блок хранит идеи на будущее рядом с INF-5. Это **не текущая runtime-конфигурация и не команда на немедленную реализацию**. Перед внедрением любого пункта заново проверить fresh master/status/automation/code, потому что часть рисков могла уже измениться.
+
+#### Режим «Сейчас» — смысл
+
+Цель режима — открыть Control Center и за несколько секунд понять **что реально требует внимания сейчас**, не читать весь проект и не разбираться в технических JSON/ID.
+
+Предлагаемый принцип: это **только производное представление существующих данных**, а не новый master и не новый источник истины.
+
+Минимальный состав:
+- **Сейчас генерируется** — текущие Topview slow-задачи и занятость 6 слотов.
+- **Нужно моё решение** — новые результаты, которые уже получены, но ещё не приняты/отклонены владельцем.
+- **Следующие действия** — 3–5 ближайших полезных действий по фильму/промтам/монтажу.
+- **Есть проблема** — только реальные sync/recovery/ambiguous/security проблемы; не показывать восстановленные исторические failures как текущие.
+- **Принято, но не вставлено** — будущий монтажный слой: результат принят, но ещё не подтверждено, что он вставлен и проверен в экспорте.
+
+UX:
+- mobile-first, особенно для Android-планшета;
+- минимум технического шума;
+- ссылки ведут в уже существующие сцены/разделы;
+- публичный Control Center остаётся viewer; live-edit master в этот режим не добавлять без отдельного решения.
+
+#### Технический план после Work-аудита — приоритеты
+
+**Приоритет A — безопасность и достоверный `health`: R1 + R3 + R4 + R8 + R9**
+- Защитить master от параллельной записи: один writer или version/base-hash check перед записью.
+- Перед retry GitHub sync заново сверять source revision/hash Drive, не переиспользовать заведомо старый `/tmp` snapshot.
+- Валидатор должен fail-closed проверять invalid/missing/future timestamp, timezone, незакрытые prompt fences и persistent retired/reserved Scene IDs.
+- `instruction-sync-status` не принимать только на веру: hashes текущих GitHub/Drive-файлов должны пересчитываться/связываться с фактической проверенной версией.
+
+**Приоритет B — возобновляемая Topview-автоматика: R2 + R14**
+- Не возвращать тяжёлую permanent `attempts[]` историю.
+- Добавить минимальный operation/checkpoint механизм для многошаговых операций: discovered → classified → master written → mirror/status verified → complete.
+- Сохранять текущую упрощённую модель `active_by_scene + processed_tasks`.
+- Discovery должен иметь pagination/cursor либо другой доказуемо полный проход диапазона, overlap window и dedupe task ID.
+- Текущий 6-slot UI/telemetry оставить: 1 active task = 1 slot; canonical slow остаётся уникальным по Scene ID.
+
+**Приоритет C — связь генераций с готовностью фильма: R16**
+- Ввести простой montage/review ledger:
+  `result received → owner approved/rejected → inserted into film → reviewed in export`.
+- Не считать `Topview success` принятием ролика.
+- Не заявлять «вставлено/звук проверен», пока это не подтверждено владельцем или реальным просмотром.
+- Начать с компактной таблицы/состояний; интеграцию CapCut не считать доступной без отдельной проверки.
+
+**Приоритет D — полезные улучшения второго порядка: R7 + R10 + R15**
+- В registry чётко разделить current scene usage и historical variants, чтобы старые Scene IDs не выглядели текущими.
+- На сайте развести индикаторы `sync`, `semantic/context audit`, `Topview telemetry` и показывать возраст проверки.
+- Recovery snapshots снабдить manifest: `captured_at`, source IDs/revisions/hashes, scope, явная пометка `recovery-only`.
+
+**Отложить до реальной необходимости**
+- R5 — sanitize Markdown/HTML сайта: полезно, особенно при внешнем intake, но не блокирует текущую работу.
+- R13 — усиление anti-spam комментариев: делать при реальном спаме/росте публичного использования.
+- R17 — убрать timestamp-only Git/Page шум: housekeeping, не критичная надёжность.
+- R18 — убрать base64 previews из `character-references.json`: оптимизация размера/трафика, не срочная функциональная проблема.
+
+#### Что уже изменилось после снимка Work-аудита
+
+На 21.09.2026, после исходного отчёта:
+- **R6**: Drive `film-backlog.md` и GitHub mirror были приведены к exact match.
+- **R12**: старая тяжёлая attempts-модель и ложный `exact canonical prompt match` больше не являются текущей схемой; сохранена минимальная active/processed модель.
+- **R11, конкретный старый пример 12/14/15/18**: эти сцены по решению пользователя отработаны, удалены из active master и не являются текущей очередью review.
+- **R14** частично улучшен: есть `last_scan_at`, overlap window 6 часов и dedupe active/processed task IDs; до полного закрытия нужен надёжный полный просмотр диапазона/pagination.
+- Topview slow UI теперь считает реальные task-слоты: `занято X из 6 · свободно Y`.
+
+#### Базовый принцип будущих улучшений
+
+Не переписывать работающую систему с нуля. Не создавать второй editable master. Не добавлять третью hourly AI-автоматизацию. Сначала укреплять проверяемость и recovery существующих компонентов, затем улучшать owner-facing UX и монтажный контекст.
 
 Current exact slow checkpoint: `2,3,4,5,13,19`. Scenes 3, 4, 5 and 13 are active existing canonical scenes with running Topview tasks; they remain slow without creating new Scene IDs. Scene 19 `Рыбалка и Маша-Лагуна` remains active+slow. Scenes 12, 14, 15 and 18 are no longer active project scenes: they are completed/retired from the working master and their IDs stay reserved.
