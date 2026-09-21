@@ -2817,7 +2817,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 1 of 11.
@@ -2947,7 +2947,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 2 of 11.
@@ -3081,7 +3081,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 3 of 11.
@@ -3215,7 +3215,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 4 of 11.
@@ -3346,7 +3346,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 5 of 11.
@@ -3480,7 +3480,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 6 of 11.
@@ -3609,7 +3609,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 7 of 11.
@@ -3743,7 +3743,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 8 of 11.
@@ -3874,7 +3874,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 9 of 11.
@@ -4011,7 +4011,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 10 of 11.
@@ -4148,7 +4148,7 @@ Do not beautify, restyle, age-shift, redesign, change costume, or alter body pro
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+@Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 11 of 11.
