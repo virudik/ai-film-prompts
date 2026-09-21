@@ -114,7 +114,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <div class="topbar" style="margin:0 0 8px"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span></div>
 <div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 <div class="technical-title">Topview</div>
-<div class="technical-line">Таблица намеренно показывает одну компактную строку на Scene ID. Повторные и параллельные Topview attempts сохраняются во внутренней telemetry/statistics, но не выводятся отдельными счётчиками в основном интерфейсе. Технический success не означает approval и сам по себе не снимает canonical slow-lock.</div>
+<div class="technical-line">Таблица намеренно показывает одну компактную строку на Scene ID. Повторные и параллельные Topview task ID учитываются только внутренне. Пока у сцены есть хотя бы один активный Topview task, она остаётся slow; когда завершается последняя Topview-управляемая попытка, slow снимается автоматически, но approval и редакционный статус не меняются.</div>
 <div id="topviewChecked" class="technical-line"></div>
 <div id="technicalMasterNotes" class="technical-master-notes technical-line"></div>
 </div>
@@ -184,7 +184,7 @@ function renderTopview(tv,md){
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>#</th><th>Сцена</th><th>Модель</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь</th><th>Оценка времени</th></tr></thead><tbody>'+rows+'</tbody></table>';
  $('topviewMonitor').querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m)resetViewAndJump('scene-'+m[1])}));
  $('topviewHeaderChecked').textContent='Синхронизация Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна');
- $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · повторные attempts учитываются внутренне; интерфейс показывает одну строку на Scene ID.';
+ $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · интерфейс показывает одну строку на Scene ID; повторные task ID учитываются только внутренне.';
 }
 function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'ПРОВЕРКА УСТАРЕЛА',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
 function buttonDone(btn){const old=btn.textContent;btn.textContent='Скопировано';btn.classList.add('done');setTimeout(()=>{btn.textContent=old;btn.classList.remove('done')},1200)}
