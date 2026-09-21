@@ -450,11 +450,12 @@ Principle: **keep only the state required for correctness and deduplication; det
 2. **Что занимает слот:** каждый отдельный Topview `task_id` в состоянии `init`, `queued`, `running` или `processing` занимает **ровно 1 слот**.
 3. **Scene ID и слоты — разные счётчики:** canonical `slow_scenes` остаётся множеством уникальных Scene ID без дублей. Число slow Scene ID **нельзя** использовать как число занятых слотов.
 4. **Повторный запуск той же сцены:** если одна Scene ID одновременно запущена 2–3 раза, она остаётся одной canonical scene, но занимает 2–3 Topview slot и должна появляться 2–3 отдельными строками в slow-таблице сайта.
-5. **Заголовок сайта:** справа от `⏳ Сейчас в медленной генерации — Topview` всегда показывать динамический текст точно в формате:
-   - `занято X из 6 · свободно Y`
-   - `X` = количество реально активных `task_id`;
-   - `Y = max(0, 6 - X)`.
-   При текущих шести active tasks ожидаемый вид: **`занято 6 из 6 · свободно 0`**.
+5. **Заголовок сайта:** справа от `⏳ Сейчас в медленной генерации — Topview` показывать только динамический счётчик занятых слотов:
+   - `занято X из 6`
+   - `X` = количество реально активных `task_id`.
+   - Не выводить в компактной шапке `свободно Y` и время последней синхронизации.
+   - `free_slots` и `checked_at` остаются допустимыми внутренними telemetry/diagnostic полями, но не являются частью заголовка.
+   При текущих шести active tasks ожидаемый вид: **`занято 6 из 6`**.
 6. **Таблица:** одна строка = один active `task_id` = один занятый slot. Сохраняются прежние 8 колонок и их базовые пропорции: `#`, `Сцена`, `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь`, `Оценка времени`. Новую колонку `Attempt`/`Task ID` не добавлять. Если Scene ID повторяется, номер и название сцены повторяются в нескольких строках.
 7. **Telemetry:** `topview-status.json` должен содержать:
    - `slot_capacity`;
@@ -465,7 +466,7 @@ Principle: **keep only the state required for correctness and deduplication; det
 9. **Primary scene snapshot:** scene-level поля в `topview-status.json` можно сохранять для обратной совместимости/других частей сайта, но они **не являются источником slot-count** и не заменяют `active_tasks[]`.
 10. **Завершение:** terminal task (`success`, `fail`, `failed`, `cancelled`) немедленно перестаёт занимать slot и удаляется из `active_tasks[]`/`active_by_scene`. В minimal `processed_tasks` можно оставить только дедуп-факт.
 11. **Slow lifecycle:** если у Scene ID остаётся хотя бы один active task, Scene ID остаётся canonical slow. Если завершается последний Topview-managed active task, watcher снимает только render slow-state; approval/editorial/production state не меняются автоматически.
-12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6 · свободно 0`, считать это warning и уведомлять пользователя/аудит.
+12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6`, считать это warning и уведомлять пользователя/аудит.
 13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
 14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
 
@@ -479,3 +480,21 @@ Principle: **keep only the state required for correctness and deduplication; det
 ### Prompt-quality standard — current rule
 
 Before writing or materially revising prompts, read fresh `PROMPT-STYLE-GUIDE.md` + fresh master. The production rule is **maximum useful specificity, minimum redundant wording**. Every independently copied prompt must be self-contained, carry short real appearance/identity locks for important characters, explicit reference ownership/priority when references can conflict, feasible timing, coherent camera/space, and risk-specific negatives. For sequences use compatible START STATE / END STATE where useful. Do not ask the user to re-specify known identity; resolve it from fresh registry/master. Do not rely on stale full prompt examples in docs. Legacy prompts are audited semantically, not by literal heading grep. Topview slot/runtime rules live in `SYNC-RUNBOOK.md`, not the prompt guide.
+
+
+### UI decision — Topview compact header (22.09.2026)
+
+User explicitly simplified the Topview header. The compact line to the right of `⏳ Сейчас в медленной генерации — Topview` must show **only**:
+
+`занято X из 6`
+
+Do **not** show `свободно Y` or `синхр. <time>` in this header. `free_slots` and `checked_at` may remain in `topview-status.json` and technical diagnostics; they are not deleted from telemetry.
+
+Current verified checkpoint while preparing this handoff:
+- canonical master: **12 active Scene IDs / 24 prompt texts**;
+- active Scene IDs: `1,2,3,4,5,10,11,13,16,17,19,20`;
+- canonical slow scenes: `2,3,4,5,13,19`;
+- Topview capacity: **6**, occupied active task slots: **6** at last verified fetch;
+- `project-status.json`: `health: ok`;
+- prompt standard is already refactored: prompt-only guide, no full copied live-scene examples, no Topview runtime contract inside it, and core rule **maximum useful specificity, minimum redundant wording**;
+- every standalone production prompt must be self-contained and include short real appearance/identity locks for important characters.
