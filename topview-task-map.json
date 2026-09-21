@@ -66,6 +66,9 @@
   ],
   "retention": {
     "processed_tasks_max": 200,
-    "note": "Keep the most recent 200 processed tasks; older entries may be dropped after they are outside the recent Topview scan window."
-  }
+    "note": "Keep the most recent 200 processed tasks; older entries may be dropped after they are outside the recent Topview scan window.",
+    "scan_rule": "On each run, rescan only the overlap window since last_scan_at minus 6 hours; deduplicate with active IDs + processed_tasks. Advance last_scan_at only after a successful classification/check pass."
+  },
+  "last_scan_at": "2026-09-21T07:43:43Z",
+  "scan_overlap_hours": 6
 }
