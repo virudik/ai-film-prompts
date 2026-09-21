@@ -1,103 +1,24 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-21T03:23:00Z",
+  "checked_at": "2026-09-21T03:38:23Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "AI-PROJECT-GUIDE.md": {
-      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-21T03:18:48.065Z",
-      "github_blob": "281d7a0699424f292c2e18121848ea531053e9f8",
-      "match": true
-    },
-    "SYNC-RUNBOOK.md": {
-      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-21T03:18:43.036Z",
-      "github_blob": "6652d5feccddabaa6009e8b26ada463a54e0add1",
-      "match": true
-    },
-    "USER-GUIDE.md": {
-      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-21T03:18:57.276Z",
-      "github_blob": "d3068865202897c0fd07ec97b7c419eddea42f2b",
-      "match": true
-    },
-    "README-AI-SYNC.md": {
-      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-21T03:19:01.449Z",
-      "github_blob": "32f7cc75858b4125398cfba6f59ae6267ecff62a",
-      "match": true
-    },
-    "BACKUP-AI-RUNBOOK.md": {
-      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-21T03:19:05.472Z",
-      "github_blob": "463a6b1c8bdf962a398b10cd61e8e73b6107563a",
-      "match": true
-    },
-    "NEW-CHAT-HANDOFF.md": {
-      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-21T03:18:33.377Z",
-      "github_blob": "20407fb0f60de0808211c1d56ccc6291499fc0e4",
-      "match": true
-    },
-    "PROMPT-STYLE-GUIDE.md": {
-      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-21T03:18:52.743Z",
-      "github_blob": "e759ab5e69099b76b6b74a4cb13574642fed0a9e",
-      "match": true
-    }
+    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-21T03:18:48.065Z","github_blob":"281d7a0699424f292c2e18121848ea531053e9f8","match":true},
+    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-21T03:18:43.036Z","github_blob":"6652d5feccddabaa6009e8b26ada463a54e0add1","match":true},
+    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-21T03:18:57.276Z","github_blob":"d3068865202897c0fd07ec97b7c419eddea42f2b","match":true},
+    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-21T03:19:01.449Z","github_blob":"32f7cc75858b4125398cfba6f59ae6267ecff62a","match":true},
+    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-21T03:19:05.472Z","github_blob":"463a6b1c8bdf962a398b10cd61e8e73b6107563a","match":true},
+    "NEW-CHAT-HANDOFF.md": {"drive_file_id":"1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD","drive_modified_at":"2026-09-21T03:18:33.377Z","github_blob":"20407fb0f60de0808211c1d56ccc6291499fc0e4","match":true},
+    "PROMPT-STYLE-GUIDE.md": {"drive_file_id":"14VzE8DwjKIquGJWENci6rYWj_1xEn34d","drive_modified_at":"2026-09-21T03:18:52.743Z","github_blob":"e759ab5e69099b76b6b74a4cb13574642fed0a9e","match":true}
   },
-  "semantic_check": {
-    "health": "ok",
-    "conflicts": []
-  },
-  "takeover_requirements": {
-    "character_registry": "references.html + character-references.json",
-    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
-    "readiness_audit": true
-  },
-  "topview_scene_intake": {
-    "enabled": true,
-    "automation_title": "Topview Scene Intake & Slow Watch",
-    "relation": "one_scene_to_many_render_attempts",
-    "rule": "Scene ID identifies the creative scene; each Topview task ID is one render attempt. Re-running an existing scene appends an attempt, preserves prior attempt history, and returns the existing Scene ID to canonical slow whenever a new attempt is init/queued/running/processing. A different task ID never creates a new Scene ID by itself. New Scene IDs are only for genuinely new creative scenes; ambiguous tasks do not mutate master. Technical success is not approval and does not auto-clear slow."
-  },
-  "note": "Seven-document mirror re-verified after adopting one Scene ID -> many Topview render attempts. Existing scenes may be rendered repeatedly; each new active attempt re-enters the same Scene ID into slow without creating a duplicate scene, and attempt history is preserved.",
-  "recovery_sync": {
-    "automation_title": "AI Film Recovery Sync",
-    "schedule": "hourly",
-    "hourly_light": true,
-    "daily_deep": true,
-    "deep_audit_status_file": "deep-audit-status.json",
-    "deep_audit_interval_hours": 24,
-    "note": "Daily deep audit runs inside the hourly Recovery automation when due; Topview Scene Intake & Slow Watch remains separate."
-  },
-  "service_files_ui": {
-    "instruction_count": 7,
-    "instruction_layout": "vertical",
-    "instruction_order": [
-      "NEW-CHAT-HANDOFF.md",
-      "SYNC-RUNBOOK.md",
-      "AI-PROJECT-GUIDE.md",
-      "PROMPT-STYLE-GUIDE.md",
-      "USER-GUIDE.md",
-      "README-AI-SYNC.md",
-      "BACKUP-AI-RUNBOOK.md"
-    ],
-    "project_data_links": [
-      "video-prompts.md",
-      "film-analysis.md",
-      "film-backlog.md"
-    ],
-    "project_data_layout": "vertical",
-    "project_data_order": [
-      "video-prompts.md",
-      "film-analysis.md",
-      "film-backlog.md"
-    ],
-    "note": "Seven instructions are shown vertically 1-7; project-data links are a separate vertical group and are not additional instructions."
-  }
+  "semantic_check": {"health":"ok","conflicts":[]},
+  "takeover_requirements": {"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
+  "topview_scene_intake": {"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","relation":"one_scene_to_many_render_attempts","rule":"Scene ID identifies the creative scene; each Topview task ID is one render attempt. Re-running an existing scene appends an attempt, preserves prior attempt history, and returns the existing Scene ID to canonical slow whenever a new attempt is init/queued/running/processing. A different task ID never creates a new Scene ID by itself. New Scene IDs are only for genuinely new creative scenes; ambiguous tasks do not mutate master. Technical success is not approval and does not auto-clear slow."},
+  "note":"Seven-document mirror re-verified. Recovery remains separate from Topview intake; Scene IDs and render attempts remain distinct lifecycles.",
+  "recovery_sync": {"automation_title":"AI Film Recovery Sync","schedule":"hourly","hourly_light":true,"daily_deep":true,"deep_audit_status_file":"deep-audit-status.json","deep_audit_interval_hours":24,"note":"Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate."},
+  "service_files_ui": {"instruction_count":7,"instruction_layout":"vertical","instruction_order":["NEW-CHAT-HANDOFF.md","SYNC-RUNBOOK.md","AI-PROJECT-GUIDE.md","PROMPT-STYLE-GUIDE.md","USER-GUIDE.md","README-AI-SYNC.md","BACKUP-AI-RUNBOOK.md"],"project_data_links":["video-prompts.md","film-analysis.md","film-backlog.md"],"project_data_layout":"vertical","project_data_order":["video-prompts.md","film-analysis.md","film-backlog.md"],"note":"Seven instructions are shown vertically 1-7; project-data links are separate and are not additional instructions."}
 }
