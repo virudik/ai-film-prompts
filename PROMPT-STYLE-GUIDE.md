@@ -766,19 +766,17 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 
 Ключевая модель данных: **Scene 1 → N Topview attempts**. Scene lifecycle и render-attempt lifecycle — разные сущности.
 
-## Slow table: one Scene row, many render attempts
+## Slow table: compact UI, full internal render-attempt telemetry
 
-Control Center must visualize the canonical relation **one Scene ID → many Topview render attempts** without duplicating the creative scene.
+Control Center intentionally keeps the slow table visually compact:
 
-UI rule:
-- the slow table has exactly **one parent row per canonical Scene ID**;
-- if that Scene has more than one known or active Topview attempt, the parent row shows the attempt count and provides an expandable attempt list;
-- each attempt row shows its own model, technical status, start time, elapsed time, queue and ETA when those values are available for that exact task;
-- when more than one attempt is active simultaneously, the attempt rows are expanded by default so parallel renders are immediately visible;
-- canonical `slow_scenes` still contains the Scene ID once, regardless of how many attempts are active;
-- completed/historical attempts may remain visible in the expanded history but do not create extra Scene IDs;
-- `topview-task-map.json` is the durable Scene→attempt-history mapping; `topview-status.json` provides current/active telemetry. The UI may combine both, but must never merge queue/ETA values from different task IDs;
-- for full parallel-attempt telemetry, `topview-status.json` should expose per-task current data for every active attempt (for example `active_attempts[]`), while keeping backward-compatible current-attempt fields;
+- the main slow table shows exactly **one row per canonical Scene ID**;
+- no attempt counters, expandable attempt rows, or duplicate Scene rows are shown in the ordinary graphical interface;
+- the row displays only the current/primary telemetry snapshot for that Scene ID so the original table proportions and readability remain stable;
+- repeated and parallel Topview attempts are still preserved internally in `topview-task-map.json` and `topview-status.json` and remain available to automations, audits and statistics;
+- canonical `slow_scenes` contains the Scene ID once regardless of the number of active attempts;
+- if several attempts are active simultaneously, automation must still query and preserve all of them internally; the simplified UI must never be treated as evidence that only one attempt exists;
+- queue/ETA values from different task IDs must never be merged into a fabricated value;
 - technical `success` never equals approval and does not automatically clear canonical slow.
 
-This presentation rule is part of the permanent Control Center baseline and must be checked after site/UI changes.
+This is a deliberate UX choice: **full fidelity in machine state, minimal noise in the owner-facing interface**.
