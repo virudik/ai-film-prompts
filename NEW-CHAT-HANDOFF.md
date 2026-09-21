@@ -476,3 +476,6 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 Рабочий критерий: **один блок → одно копирование → references → generation**.
 
+### Prompt-quality standard — current rule
+
+Before writing or materially revising prompts, read fresh `PROMPT-STYLE-GUIDE.md` + fresh master. The production rule is **maximum useful specificity, minimum redundant wording**. Every independently copied prompt must be self-contained, carry short real appearance/identity locks for important characters, explicit reference ownership/priority when references can conflict, feasible timing, coherent camera/space, and risk-specific negatives. For sequences use compatible START STATE / END STATE where useful. Do not ask the user to re-specify known identity; resolve it from fresh registry/master. Do not rely on stale full prompt examples in docs. Legacy prompts are audited semantically, not by literal heading grep. Topview slot/runtime rules live in `SYNC-RUNBOOK.md`, not the prompt guide.
