@@ -77,7 +77,7 @@ Comments backend only; no prompt/master rights.
 - W5, W7, W8
 - active IDs: `1,2,3,4,5,10,11,12,13,14,15,16,17,18,19,20`
 - deleted/reserved IDs: `6,7,9`
-- canonical slow: `2,12,14,15,18,19`
+- canonical slow: `2,3,4,5,13,19`
 - latest Scene ID: `20`
 
 Runtime SHA/counts/status всё равно fresh-check по `project-status.json`; checkpoint здесь нужен только для takeover orientation.
@@ -85,8 +85,8 @@ Runtime SHA/counts/status всё равно fresh-check по `project-status.jso
 ## 4. Current scene decisions
 
 - Scene 2 — canonical slow rerun, Seedance 2.5.
-- Scene 12 — canonical slow, Wan 3.0.
-- Scenes 14, 15, 18 — Topview технически завершал (`success`), но они остаются canonical slow до user decision.
+- Scenes 3, 4, 5 и 13 — существующие canonical Scene IDs с новыми running Topview tasks; task↔Scene mappings подтверждены по exact/normalization-equivalent canonical prompts, поэтому они canonical slow без создания новых Scene ID.
+- Scenes 12, 14, 15 и 18 — сняты с canonical slow по прямому решению пользователя; их отдельные editorial/production states при этом не считаются автоматически approved.
 - Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s.
 - Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5, 30s, **не slow**.
 - Scene 17 остаётся active post-monster continuation.
@@ -359,16 +359,18 @@ Approved individual model sheets are identity authority. Current master is curre
 
 Он теперь:
 - продолжает следить за canonical slow tasks, queue/ETA/status;
-- дополнительно ищет genuinely new Topview **video-generation tasks**;
-- если task новая, не retry/duplicate и содержит actual prompt/model metadata, сам создаёт следующий Scene ID в SAME Drive master;
-- actual Topview prompt сохраняет verbatim;
-- добавляет Russian title/context/references/summary;
-- running task делает canonical slow;
-- уже successful task импортирует как `RESULT_RECEIVED`, не APPROVED;
-- затем прогоняет normal Drive→GitHub validation/Pages и записывает task↔Scene mapping;
-- ambiguous/non-video task не импортирует.
+- ищет ранее неизвестные Topview **video-generation tasks** и обязан классифицировать каждую как: existing-scene render/retry, genuinely new scene или ambiguous;
+- если actual Topview prompt exact/normalization-equivalent существующей active canonical scene (допустима только несемантическая нормализация `@image` ↔ `<<<Image>>>`, whitespace/reference-token formatting) либо есть explicit provenance, новый task привязывается к **существующему Scene ID**;
+- если такой existing-scene task queued/running/init/processing — существующий Scene ID добавляется в canonical slow, сохраняя его editorial/production state; новый Scene ID не создаётся;
+- одна лишь semantic similarity недостаточна ни для привязки, ни для тихого игнорирования; ambiguous task должен быть вынесен пользователю;
+- genuinely new task с actual prompt/model metadata получает следующий stable Scene ID в SAME Drive master;
+- actual Topview prompt новой сцены сохраняется verbatim; добавляются Russian title/context/references/summary;
+- running genuinely new task делает новую сцену canonical slow;
+- уже successful genuinely new task импортируется как `RESULT_RECEIVED`, не APPROVED;
+- затем прогоняется normal Drive→GitHub validation/Pages и записывается task↔Scene mapping;
+- non-video task игнорируется.
 
-Следующий чат обязан при takeover проверить эту automation и помнить, что это отдельное явное разрешение на создание **новой** scene; оно не отменяет запрет на auto-approval/rerun/delete/slow-clear существующих сцен.
+Следующий чат обязан при takeover проверить эту automation и помнить, что она имеет два ограниченных write-разрешения: **создать новую scene из genuinely new video task** и **привязать newly discovered running task к существующей canonical scene с добавлением её existing Scene ID в slow**. Это не разрешение auto-approve/rerun/delete/slow-clear существующих сцен и не разрешение переписывать existing prompt по одной semantic similarity.
 
 ## 22. Служебные файлы на сайте
 
