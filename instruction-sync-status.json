@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-21T03:10:00Z",
+  "checked_at": "2026-09-21T03:23:00Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
@@ -9,44 +9,44 @@
   "files": {
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-21T03:08:14.438Z",
-      "github_blob": "ee2dd38dcbc55b95d1efd85d12351da98d3b87ee",
+      "drive_modified_at": "2026-09-21T03:18:48.065Z",
+      "github_blob": "281d7a0699424f292c2e18121848ea531053e9f8",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-21T03:08:11.210Z",
-      "github_blob": "9a93005fd86186eb9feb031289785b98e89e233a",
+      "drive_modified_at": "2026-09-21T03:18:43.036Z",
+      "github_blob": "6652d5feccddabaa6009e8b26ada463a54e0add1",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-20T23:01:01.981Z",
-      "github_blob": "188603b94443d99c3a4c16f1746d9a20ac111ac5",
+      "drive_modified_at": "2026-09-21T03:18:57.276Z",
+      "github_blob": "d3068865202897c0fd07ec97b7c419eddea42f2b",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-21T03:08:17.776Z",
-      "github_blob": "0c7229c4e8f221c32597ddbf2510ae4c1d348ac0",
+      "drive_modified_at": "2026-09-21T03:19:01.449Z",
+      "github_blob": "32f7cc75858b4125398cfba6f59ae6267ecff62a",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-21T03:08:20.559Z",
-      "github_blob": "ea080d50c1b563f4458ccad6c9c68c9212ef8cef",
+      "drive_modified_at": "2026-09-21T03:19:05.472Z",
+      "github_blob": "463a6b1c8bdf962a398b10cd61e8e73b6107563a",
       "match": true
     },
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-21T03:08:04.000Z",
-      "github_blob": "773dcfbd704af700d980247f0b23705eda29994c",
+      "drive_modified_at": "2026-09-21T03:18:33.377Z",
+      "github_blob": "20407fb0f60de0808211c1d56ccc6291499fc0e4",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-20T23:00:57.574Z",
-      "github_blob": "b600a313347d13ab5272be85a1f8017c701a016d",
+      "drive_modified_at": "2026-09-21T03:18:52.743Z",
+      "github_blob": "e759ab5e69099b76b6b74a4cb13574642fed0a9e",
       "match": true
     }
   },
@@ -62,9 +62,10 @@
   "topview_scene_intake": {
     "enabled": true,
     "automation_title": "Topview Scene Intake & Slow Watch",
-    "rule": "Every previously unknown Topview video task is classified as existing canonical scene render/retry, genuinely new scene, or ambiguous. Exact/normalization-equivalent existing-scene renders bind to that existing Scene ID and become canonical slow while queued/running; no duplicate Scene ID is created. Genuinely new tasks may create the next stable Scene ID. Ambiguous tasks do not mutate the master. Topview success is not approval."
+    "relation": "one_scene_to_many_render_attempts",
+    "rule": "Scene ID identifies the creative scene; each Topview task ID is one render attempt. Re-running an existing scene appends an attempt, preserves prior attempt history, and returns the existing Scene ID to canonical slow whenever a new attempt is init/queued/running/processing. A different task ID never creates a new Scene ID by itself. New Scene IDs are only for genuinely new creative scenes; ambiguous tasks do not mutate master. Technical success is not approval and does not auto-clear slow."
   },
-  "note": "Seven-document mirror re-verified after Topview intake bug fix. Existing-scene rerenders now bind to their existing Scene IDs and enter canonical slow while running; genuinely new tasks still use new stable Scene IDs; ambiguous tasks do not mutate master.",
+  "note": "Seven-document mirror re-verified after adopting one Scene ID -> many Topview render attempts. Existing scenes may be rendered repeatedly; each new active attempt re-enters the same Scene ID into slow without creating a duplicate scene, and attempt history is preserved.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
