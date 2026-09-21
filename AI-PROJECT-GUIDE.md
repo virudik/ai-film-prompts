@@ -229,7 +229,7 @@ Supabase comments:
 ## 10. Slow / Topview
 
 Canonical membership slow берётся из fresh master / `project-status.json.slow_scenes`.  
-Topview только добавляет telemetry.
+Пассивная Topview telemetry сама по себе не меняет master. Исключение — отдельная `Topview Scene Intake & Slow Watch`: она может создать genuinely new scene либо при доказанном newly discovered existing-scene render/retry добавить **существующий Scene ID** в canonical slow и обновить task mapping.
 
 Для каждой сцены:
 - использовать её exact verified task;
@@ -332,28 +332,42 @@ Library:
 
 Если найден безопасно исправимый documentation/mirror drift — исправить по правилам authority и только затем докладывать готовность. Если исправление может изменить творческий канон/master/approval, не угадывать: сообщить конфликт пользователю. Доклад готовности должен кратко перечислить, что проверено, текущий checkpoint и известные нерешённые вопросы.
 
-## 18. Topview Scene Intake — автоимпорт новых видеогенераций
+## 18. Topview Scene Intake — new scene + existing-scene render binding
 
-Автоматизация `Topview Scene Intake & Slow Watch` теперь выполняет две роли:
-1. обслуживает telemetry уже известных canonical slow-сцен;
-2. обнаруживает новую Topview **video-generation task**, которой ещё нет в master, и при достаточных данных импортирует её как новую Scene ID.
+Автоматизация `Topview Scene Intake & Slow Watch` выполняет три функции:
+1. обслуживает telemetry известных canonical slow-сцен;
+2. обнаруживает previously unknown Topview video task, которая относится к **существующей active canonical scene**, привязывает её к existing Scene ID и при running/init/queued/processing ставит этот existing ID в canonical slow;
+3. обнаруживает genuinely new Topview **video-generation task**, которой нет среди active canonical Scene IDs, и при достаточных данных импортирует её как новую Scene ID.
 
-Правила автоимпорта:
+Классификация unknown task:
 - image-only/non-video tasks игнорируются;
-- retry/duplicate уже существующей сцены не получает новый Scene ID;
+- exact/normalization-equivalent canonical prompt либо explicit provenance → existing-scene render/retry; новый Scene ID запрещён;
+- normalization может игнорировать только несемантические различия `@image` ↔ `<<<Image>>>`, whitespace/line endings/reference-token formatting; model/duration/reference structure должны быть совместимы;
+- одна semantic similarity / общая сюжетная тема не считается доказательством и не является основанием тихо отбросить task;
+- clearly distinct task → genuinely new scene;
+- ambiguous → no write, notify user.
+
+Existing-scene binding:
+- newly launched replacement/retry task может заменить прежний task mapping той же scene;
+- queued/running/init/processing → existing Scene ID добавляется в canonical slow во всех связанных slow markers/table/TOC;
+- editorial/production state (`READY`, `NEEDS_FIX`, `NEEDS_RERENDER` и т.п.) сохраняется независимо от render slow state;
+- `success` → технически завершено, never `APPROVED`; duplicate Scene ID не создаётся;
+- failed/cancelled → no auto-rerun.
+
+Genuinely-new-scene import:
 - task должен иметь concrete task ID, model и retrievable actual prompt;
 - перед записью делается fresh-read exact Drive master;
 - новый ID = следующий unused stable Scene ID; удалённые ID не переиспользуются;
 - фактический prompt, отправленный в Topview, сохраняется **дословно как historical source prompt**; его нельзя задним числом «улучшать» и выдавать улучшенную версию за фактически использованную;
 - рядом создаются русский заголовок, `Контекст использования`, `Референсы` (если известны) и `Что происходит`;
 - known character names resolve через `character-references.json` + current master;
-- если task ещё queued/running — новая сцена входит в canonical slow;
-- если task уже `success` — production state `RESULT_RECEIVED`, но не `APPROVED`;
-- failed/cancelled task не rerun автоматически;
-- после SAME-ID Drive write обязателен обычный Drive→GitHub sync, validation, `project-status.json`, Pages и task↔Scene mapping;
-- при недостаточных данных или неоднозначности master не менять, а сообщить пользователю.
+- queued/running/init/processing → новая scene входит в canonical slow;
+- `success` → production state `RESULT_RECEIVED`, но не `APPROVED`;
+- failed/cancelled task не rerun автоматически.
 
-Автоимпорт Topview — единственное специально авторизованное исключение из общего правила «telemetry сама не меняет master»: разрешение касается только **создания новой сцены из новой незнакомой video task по правилам выше**. Telemetry существующей сцены по-прежнему не может автоматически approve/delete/clear slow.
+После любого canonical write обязателен normal Drive→GitHub sync, validation, `project-status.json`, Pages и task↔Scene mapping/telemetry refresh.
+
+Это ограниченное исключение из общего правила «telemetry сама не меняет master»: разрешены только **создание genuinely new scene** и **добавление existing Scene ID в slow при доказанном newly discovered existing-scene render/retry**. Автоматика не может auto-approve/delete/clear slow, не может переписывать existing prompt по semantic similarity и не может автоматически rerun.
 
 ## 19. Служебные файлы на Control Center
 
