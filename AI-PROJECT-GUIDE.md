@@ -1,11 +1,15 @@
 # AI Film Project — Start Here v4.0
 
+
 **Дата актуализации:** 22.09.2026  
 **Назначение:** главная операционная инструкция проекта для текущего редактора и любого следующего чата/сменщика.
 
+
 ## 1. Takeover gate — что обязательно прочитать до начала работы
 
+
 Новый чат **не считается вступившим в роль редактора**, пока не прочитал весь обязательный набор из семи документов:
+
 
 1. `NEW-CHAT-HANDOFF.md`
 2. `SYNC-RUNBOOK.md`
@@ -15,6 +19,7 @@
 6. `README-AI-SYNC.md`
 7. `BACKUP-AI-RUNBOOK.md`
 
+
 После них обязательно прочитать:
 - fresh Google Drive `video-prompts.md`, file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`;
 - live GitHub `project-status.json`;
@@ -22,19 +27,25 @@
 - live `instruction-sync-status.json`;
 - для сюжета/монтажа — `film-analysis.md` и `film-backlog.md`, а при необходимости `PROGRESS.md`, `Seregius_montazhny_razbor.html` и релевантные страницы Notion `Кино`.
 
+
 Перед **любой записью** в prompt master нужен ещё один fresh-read exact Drive master.
+
 
 Нельзя просить пользователя повторить то, что однозначно уже записано в этих источниках. Сначала найти ответ в каноне, затем действовать.
 
+
 ## 2. Источники истины и роли хранилищ
+
 
 ### Google Drive — канон
 Папка: `AI Film Prompts Master`  
 Folder ID: `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
 
+
 Единственный editable prompt master:
 - `video-prompts.md`
 - Drive ID: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`
+
 
 Канонические инструкции/recovery:
 - `NEW-CHAT-HANDOFF.md` — `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`
@@ -45,8 +56,10 @@ Folder ID: `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`
 - `README-AI-SYNC.md` — `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`
 - `BACKUP-AI-RUNBOOK.md` — `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`
 
+
 ### GitHub — mirror + сайт + machine status
 Repo: `virudik/ai-film-prompts`
+
 
 GitHub содержит:
 - публичное зеркало master;
@@ -58,28 +71,36 @@ GitHub содержит:
 - references и служебные файлы;
 - GitHub Pages.
 
+
 GitHub `video-prompts.md` **не редактируется как второй master**.
+
 
 ### Notion — сюжет/идеи/история
 База `Кино` остаётся банком идей, старого сценария, локаций и исторических промтов.  
 Она не заменяет Drive master и не определяет current runtime state.
 
+
 Актуальный операционный указатель в Notion:
 `AI Film — Актуальная инструкция / Handoff`.
+
 
 ### ChatGPT Library — recovery mirror/cache
 Library используется для аварийного восстановления и переносимости между чатами.  
 Она **не является источником истины**, если доступен Drive.
 
+
 ### Topview — production telemetry
 Topview сообщает task/model/status/queue/ETA/result.  
 `success` означает только техническое завершение задачи и **не равен пользовательскому approval**.
+
 
 ### Supabase — comments backend
 Project `ai-film-comments`, ref `vzohfatqzyioydtgjiyd`, organization `Vint`.  
 Supabase обслуживает только комментарии сайта и **не получает прав на master, Scene IDs, slow-lock, approval или запуск генераций**.
 
+
 ## 3. Master: как вести `video-prompts.md`
+
 
 - Редактировать только exact Drive file ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
 - Не создавать `v2`, `final`, `copy`, `final-final`.
@@ -93,9 +114,12 @@ Supabase обслуживает только комментарии сайта �
 - `NEEDS_FIX` и `NEEDS_RERENDER` не дают автоматического разрешения на rewrite/rerun.
 - Slow-сцены не перезапускать и не снимать с slow без результата/ошибки/явного решения пользователя.
 
+
 ## 4. Как писать промты
 
+
 Полный обязательный стандарт: `PROMPT-STYLE-GUIDE.md`.
+
 
 Перед новым или существенно перерабатываемым prompt:
 1. fresh-read `PROMPT-STYLE-GUIDE.md`;
@@ -103,6 +127,7 @@ Supabase обслуживает только комментарии сайта �
 3. открыть минимум 1–2 актуальные близкие сцены master;
 4. проверить engine, Scene ID и роли референсов;
 5. только после этого писать prompt.
+
 
 Master-level prompt обычно содержит:
 - техническую строку;
@@ -118,7 +143,9 @@ Master-level prompt обычно содержит:
 - подробный scene-specific negative prompt;
 - глобальный `FRAME FILL / NO BARS`.
 
+
 Короткий generic prompt не считается готовым master prompt.
+
 
 Глобальные правила continuity:
 - единые внешность/одежда/свет/цветокоррекция/окружение;
@@ -129,11 +156,15 @@ Master-level prompt обычно содержит:
 - объекты раскрываются движением камеры, а не возникают из ничего;
 - approved exact model sheet сильнее случайного визуального сходства.
 
+
 ## 5. Routine master write
+
 
 Стандартный путь:
 
+
 `fresh Drive master → minimal edit SAME file ID → update SYNC-TRIGGER.txt → sync-from-drive.yml → validation → GitHub mirror + project-status.json → Pages → final verification`
+
 
 Перед словом `ГОТОВО` проверить:
 - Drive содержит нужное изменение;
@@ -143,9 +174,12 @@ Master-level prompt обычно содержит:
 - Pages build успешен;
 - slow/Topview telemetry не была самовольно изменена.
 
+
 ## 6. Instruction / handoff maintenance
 
+
 Есть **семь** обязательных project/recovery документов. Google Drive — их канон.
+
 
 Любое материальное нововведение должно быть документировано **в том же рабочем цикле**, а не «когда-нибудь позже». Материальным считается:
 - новая функция сайта;
@@ -158,6 +192,7 @@ Master-level prompt обычно содержит:
 - изменение обязательного порядка takeover;
 - новая постоянная интеграция.
 
+
 Минимальный Definition of Done для материального изменения:
 1. обновить релевантные Drive-инструкции;
 2. обновить SAME `NEW-CHAT-HANDOFF.md`, если это важно следующему чату;
@@ -169,9 +204,12 @@ Master-level prompt обычно содержит:
 8. обновить Library recovery copies;
 9. не создавать параллельные «новые финальные» инструкции.
 
+
 Если меняется только временный runtime факт (queue, ETA, текущий SHA), не размножать его по всем инструкциям. Runtime truth берётся из live JSON/master.
 
+
 ## 7. Instruction sync
+
 
 `AI Film Recovery Sync` должен проверять **все семь** обязательных документов:
 - полный Drive text;
@@ -179,18 +217,24 @@ Master-level prompt обычно содержит:
 - exact text match;
 - семантические противоречия current rules.
 
+
 Разрешённое автоматическое направление ремонта:
 **Drive → GitHub only**.
+
 
 Никогда автоматически:
 **GitHub → Drive**.
 
+
 `instruction-sync-status.json` должен содержать all seven files и не считаться актуальным, если snapshot устарел.
+
 
 ## 8. Control Center — текущий baseline
 
+
 Control Center:
 `https://virudik.github.io/ai-film-prompts/`
+
 
 Текущие функции:
 - русский UI;
@@ -205,13 +249,16 @@ Control Center:
 - нативные Supabase comments: public read, anonymous post, replies, без GitHub login;
 - кнопка старого `Архив GitHub` удалена.
 
+
 Site-only UI change:
 - править GitHub `index.html`;
 - не hard-code scene/prompt content;
 - после правки проверить JS syntax, duplicate IDs и Pages;
 - если изменение становится постоянной функцией/архитектурным правилом — обновить инструкции/HANDOFF/Notion/Library по правилу раздела 6.
 
+
 ## 9. Comments security
+
 
 Supabase comments:
 - project ref `vzohfatqzyioydtgjiyd`;
@@ -226,10 +273,13 @@ Supabase comments:
 - `service_role`/admin secret запрещён в `index.html`;
 - comments backend не может менять prompt master.
 
+
 ## 10. Slow / Topview
+
 
 Canonical membership slow берётся из fresh master / `project-status.json.slow_scenes`.  
 Пассивная Topview telemetry сама по себе не меняет master. Исключение — отдельная `Topview Scene Intake & Slow Watch`: она может создать genuinely new scene либо при доказанном newly discovered existing-scene render/retry добавить **существующий Scene ID** в canonical slow и обновить task mapping.
+
 
 Для каждой сцены:
 - использовать её exact verified task;
@@ -239,22 +289,30 @@ Canonical membership slow берётся из fresh master / `project-status.jso
 - не копировать queue/ETA между сценами;
 - если mapping не доказан — `verified=false`, ETA/queue не показывать как факт.
 
+
 `success` → технически завершено, но canonical slow остаётся до решения пользователя.
 
+
 ## 11. Runtime state и исторические snapshot
+
 
 Текущие counts, active IDs, slow IDs, SHA:
 - fresh Drive master;
 - live `project-status.json`.
 
+
 Текущие Topview task/status/queue/ETA:
 - live `topview-status.json` после exact mapping verification.
 
+
 Исторические разделы, старые коммиты, письма GitHub Actions и старые Notion pages — evidence, не current authority.
+
 
 Не объявлять систему сломанной по старому failure email, если после него есть новый successful run и live status здоров.
 
+
 ## 12. Resilience / известные сбои
+
 
 Уже встречались:
 - concurrent GitHub writers → non-fast-forward;
@@ -263,6 +321,7 @@ Canonical membership slow берётся из fresh master / `project-status.jso
 - stale runtime claims в документации;
 - stale Topview mapping сравнивался со старым prompt.
 
+
 Защита:
 - sync refetch/rebuild/retry;
 - raw master UTF-8 without BOM;
@@ -270,7 +329,9 @@ Canonical membership slow берётся из fresh master / `project-status.jso
 - mapping сравнивать с fresh canonical scene body;
 - `instruction-sync-status.json` регулярно обновлять.
 
+
 ## 13. Как работать с Notion и Library
+
 
 Notion:
 - читать для story/ideas/history;
@@ -278,13 +339,16 @@ Notion:
 - не переносить старый Notion prompt в master автоматически;
 - поддерживать operational pointer актуальным при material workflow changes.
 
+
 Library:
 - recovery mirror/cache;
 - обновлять копии семи инструкций/HANDOFF при материальных изменениях;
 - не использовать Library-copy `video-prompts.md` как editable master при доступном Drive;
 - recovery package/summary должен указывать Drive IDs и live-source hierarchy.
 
+
 ## 14. Поведение нового сменщика
+
 
 Новый чат должен:
 - сначала прочитать все семь документов;
@@ -295,29 +359,42 @@ Library:
 - выполнять изменения до конца: write → sync → validation → mirror → Pages/status → documentation/recovery update, где применимо;
 - ясно отделять факт, рекомендацию и то, что требует пользовательского решения.
 
+
 Если capability same-ID Drive write недоступна в конкретном окружении, такой агент остаётся review-only и должен прямо сообщить ограничение, а не создавать новый master.
+
 
 ## 15. Персонажи / референсы — обязательный takeover слой
 
+
 До доклада «готов продолжать» новый чат обязан открыть на Control Center вкладку `Персонажи / Референсы` (`references.html`) и прочитать `character-references.json`. Он формирует рабочую карту **каноническое имя → алиасы → exact model sheet → текущие scene usages → отличительные признаки/костюм** и сверяет её с fresh `video-prompts.md`.
+
 
 Текущий глобальный registry содержит восемь подтверждённых model sheets: **Серёга (Канцлер / The Chancellor), Юля, Паша (JEDI-A / Navy Jedi), Артём (Bearded Jedi), Илюша (Hooded Jedi), Саша (JEDI-B / Glasses Jedi), Лёша (PURPLE), Виталик (BLACK)**. Естественный вариант имени `Серёжа` трактуется как `Серёга`, если контекст однозначен. Нельзя автоматически расширять алиасы до других людей с похожими именами.
 
+
 Если пользователь пишет «Паша говорит Саше», «заходит Серёжа» и т. п., редактор **не просит заново описывать внешность**, а сначала разрешает имена через registry + current master. В prompt нужно сохранить каноническую identity, использовать approved model sheet как PRIMARY identity reference (если он прикреплён/доступен в задаче) и дать достаточное текстовое описание внешности/одежды/роли, чтобы модель не перепутала персонажей.
+
 
 Если персонаж не входит в глобальный registry, но однозначно определён current master/scene references (например, Маша-Лагуна или конкретный офицер), использовать current scene reference mapping. Если имя реально неоднозначно и канон не позволяет установить личность, только тогда задать уточняющий вопрос.
 
+
 `character-references.json` — registry/публикационный слой, а не второй prompt master. При конфликте current scene usage с устаревшим полем `scenes` сначала сверять fresh master; exact user-approved model sheet всегда сильнее случайного сходства группового кадра.
+
 
 ## 16. Монтажный разбор фильма — обязательный takeover слой
 
+
 До доклада о готовности новый чат обязан открыть `Монтажный разбор фильма` на сайте (`Seregius_montazhny_razbor.html`) и ознакомиться как минимум с его structural analysis, сюжетными пробелами, рекомендациями по диалогам, финалу, переходам и персонажам. Затем сверить выводы с `film-analysis.md`, `film-backlog.md`, при необходимости `PROGRESS.md` и релевантным Notion `Кино`.
+
 
 Цель — не запомнить весь HTML дословно, а построить компактную рабочую карту: **что в фильме уже есть → что подтверждено фактами → что является рекомендацией → какие сюжетные/монтажные пробелы остаются → какие идеи уже закрыты новыми сценами**.
 
+
 Нельзя выдавать старую рекомендацию монтажного разбора за текущую задачу, если master/backlog/new user decision уже её superseded. Для глубокой монтажной работы читать нужный участок отчёта полностью.
 
+
 ## 17. Readiness audit перед докладом «готов»
+
 
 После чтения источников новый чат обязан **проверить актуальность самой системы**, а не только принять документы на веру. Минимальный audit:
 - seven Drive docs существуют и внутренне согласованы;
@@ -330,14 +407,18 @@ Library:
 - Control Center содержит заявленные permanent features;
 - Notion operational pointer и Library recovery не выдают себя за более свежий authority и не содержат очевидно устаревшие takeover rules.
 
+
 Если найден безопасно исправимый documentation/mirror drift — исправить по правилам authority и только затем докладывать готовность. Если исправление может изменить творческий канон/master/approval, не угадывать: сообщить конфликт пользователю. Доклад готовности должен кратко перечислить, что проверено, текущий checkpoint и известные нерешённые вопросы.
 
+
 ## 18. Topview Scene Intake — new scene + existing-scene render binding
+
 
 Автоматизация `Topview Scene Intake & Slow Watch` выполняет три функции:
 1. обслуживает telemetry известных canonical slow-сцен;
 2. обнаруживает previously unknown Topview video task, которая относится к **существующей active canonical scene**, привязывает её к existing Scene ID и при running/init/queued/processing ставит этот existing ID в canonical slow;
 3. обнаруживает genuinely new Topview **video-generation task**, которой нет среди active canonical Scene IDs, и при достаточных данных импортирует её как новую Scene ID.
+
 
 Классификация unknown task:
 - image-only/non-video tasks игнорируются;
@@ -347,12 +428,14 @@ Library:
 - clearly distinct task → genuinely new scene;
 - ambiguous → no write, notify user.
 
+
 Existing-scene binding:
 - newly launched replacement/retry task может заменить прежний task mapping той же scene;
 - queued/running/init/processing → existing Scene ID добавляется в canonical slow во всех связанных slow markers/table/TOC;
 - editorial/production state (`READY`, `NEEDS_FIX`, `NEEDS_RERENDER` и т.п.) сохраняется независимо от render slow state;
 - `success` → технически завершено, never `APPROVED`; duplicate Scene ID не создаётся;
 - failed/cancelled → no auto-rerun.
+
 
 Genuinely-new-scene import:
 - task должен иметь concrete task ID, model и retrievable actual prompt;
@@ -365,35 +448,51 @@ Genuinely-new-scene import:
 - `success` → production state `RESULT_RECEIVED`, но не `APPROVED`;
 - failed/cancelled task не rerun автоматически.
 
+
 После любого canonical write обязателен normal Drive→GitHub sync, validation, `project-status.json`, Pages и task↔Scene mapping/telemetry refresh.
+
 
 Это ограниченное исключение из общего правила «telemetry сама не меняет master»: разрешены только **создание genuinely new scene** и **добавление existing Scene ID в slow при доказанном newly discovered existing-scene render/retry**. Автоматика не может auto-approve/delete/clear slow, не может переписывать existing prompt по semantic similarity и не может автоматически rerun.
 
+
 ## 19. Служебные файлы на Control Center
+
 
 Под раскрывающейся шторкой **«Служебные файлы»** сайт должен показывать полный seven-document set русскими названиями: передача дел новому чату, главная инструкция проекта, стандарт написания промтов, инструкция по синхронизации, схема синхронизации и хранилищ, инструкция владельца, инструкция резервного ИИ. Там же остаются канонический master, карта/анализ фильма и рабочий бэклог.
 
+
 ## 20. AI Film Recovery Sync: hourly light + daily deep
+
 
 `AI Film Recovery Sync` — одна главная recovery/integrity automation с двумя уровнями внутри одного hourly schedule.
 
+
 **Каждый час:** лёгкий контроль seven Drive docs ↔ GitHub, fresh instruction status, master/project-status consistency, наличие ключевых site/context artifacts, character-registry metadata, permanent site baseline и отсутствие публичных privileged secrets. Этот проход не перечитывает тяжёлый монтажный HTML, весь Notion/Library или Supabase security stack без причины.
+
 
 **Раз в 24 часа внутри той же automation:** глубокий аудит master structure, prompt-style regressions, characters ↔ master, montage/film-analysis/backlog, Notion operational pointer, Library recovery, site JS/links, Supabase comments security, GitHub Actions/Pages и recovery-readiness. Cadence хранится в GitHub `deep-audit-status.json`. Если успешного deep audit нет или он старше 24 часов, следующий hourly run выполняет deep audit.
 
+
 `deep-audit-status.json` фиксирует `last_deep_audit_at`, health по секциям, repairs, warnings и unresolved. Timestamp успешного deep audit обновляется только после реально завершённого глубокого прохода; при материальной ошибке следующий hourly run повторяет попытку.
+
 
 `Topview Scene Intake & Slow Watch` остаётся отдельной automation: только она занимается Topview intake/slow telemetry и авторизованным учётом Topview render attempts и созданием новых Scene ID только из genuinely new Topview video tasks. Recovery Sync не создаёт сцены и не дублирует Topview intake.
 
+
 ## 22. Семь инструкций ≠ все ссылки в «Служебных файлах»
+
 
 Seven-document set состоит ровно из семи canonical instruction/recovery файлов. На сайте они должны идти **одной вертикальной колонкой в обязательном порядке чтения 1→7**: HANDOFF → Sync Runbook → Project Guide → Prompt Style Guide → User Guide → README AI Sync → Backup AI Runbook.
 
+
 `video-prompts.md`, `film-analysis.md`, `film-backlog.md` расположены ниже в отдельной группе **«Рабочие файлы проекта»**. Эти три кнопки тоже идут **вертикально, одна под другой**, в порядке: master → анализ → backlog. Это данные/контекст проекта, не дополнительные инструкции и не копии.
+
 
 ## Canonical Topview state — minimal operational model
 
+
 This is the permanent Topview rule for the master, watcher, recovery and Control Center:
+
 
 - **Scene ID** identifies the creative scene. **Topview task ID** identifies one render attempt.
 - A rerun/rerender/revised prompt for the same creative scene keeps the same Scene ID.
@@ -411,11 +510,15 @@ This is the permanent Topview rule for the master, watcher, recovery and Control
 - Control Center slow table deliberately shows **one row per active Topview task / occupied slot**. Therefore the same Scene ID may appear in several rows when it has several simultaneous renders. This is a slot view, not a duplicate-scene model.
 - A new Scene ID is created only for a genuinely new creative scene. Ambiguous classification means no master write and user notification.
 
+
 Principle: **keep only the state required for correctness and deduplication; detailed render history is not a permanent project entity**.
+
 
 ### Точное ТЗ — Topview slow slots, capacity = 6
 
+
 Это постоянный UI/automation contract:
+
 
 1. **Ёмкость:** Topview допускает максимум **6 одновременно активных slow-generation tasks**. `slot_capacity = 6`.
 2. **Что занимает слот:** каждый отдельный Topview `task_id` в состоянии `init`, `queued`, `running` или `processing` занимает **ровно 1 слот**.
@@ -439,16 +542,20 @@ Principle: **keep only the state required for correctness and deduplication; det
 9. **Primary scene snapshot:** scene-level поля в `topview-status.json` можно сохранять для обратной совместимости/других частей сайта, но они **не являются источником slot-count** и не заменяют `active_tasks[]`.
 10. **Завершение:** terminal task (`success`, `fail`, `failed`, `cancelled`) немедленно перестаёт занимать slot и удаляется из `active_tasks[]`/`active_by_scene`. В minimal `processed_tasks` можно оставить только дедуп-факт.
 11. **Slow lifecycle:** если у Scene ID остаётся хотя бы один active task, Scene ID остаётся canonical slow. Если завершается последний Topview-managed active task, watcher снимает только render slow-state; approval/editorial/production state не меняются автоматически.
-12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6 · DD.MM.YYYY, HH:MM:SS`, считать это warning и уведомлять пользователя/аудит.
+12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6`, считать это warning и уведомлять пользователя/аудит.
 13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
 14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
 
 
+
+
 ### Prompt self-sufficiency / appearance lock
+
 
 Каждый production prompt, предназначенный для отдельного копирования в генератор, обязан содержать собственный короткий `CHARACTER APPEARANCE / IDENTITY LOCK` с реальными отличительными признаками каждого важного персонажа. Источник — approved model sheet / `character-references.json` + fresh master/current scene variant. Общий scene-level identity bible может существовать только как документация; production prompt не должен ссылаться на него вместо собственного appearance lock. Не спрашивать пользователя повторно о внешности, если identity однозначно известна системе.
 
+
 ### Prompt quality / anti-bloat rule
 
+
 Canonical prompt style is defined by fresh `PROMPT-STYLE-GUIDE.md`: maximize useful specificity while minimizing redundant wording. Standalone prompts must include their own short appearance lock, reference ownership/priority, feasible action/dialogue timing and continuity handoff when relevant. Shared scene bibles are documentation/continuity layers and must not make a copied production prompt dependent on external prose. Audit quality semantically; do not treat a missing literal heading in a legacy prompt as failure when equivalent protection is clear. Runtime Topview slot rules belong to `SYNC-RUNBOOK.md`.
-\n\n---\n\n## ENGINE ROUTING — RUSSIAN DIALOGUE\n\n- Постоянное правило проекта: **любая сцена со слышимым разговорным диалогом на русском языке должна использовать Wan 3**.\n- Причина рабочего решения: Seedance 2.5 в текущем workflow недостаточно надёжен для естественной русской речи, произношения и lip sync.\n- Seedance 2.5 не назначать русскоязычной dialogue scene автоматически, даже если визуально он подходит лучше.\n- Исключение — только новая явная команда пользователя для конкретной сцены.\n- При fresh-read существующей сцены с `dialogue.language = ru` проверять, что `target_engine = Wan 3`; при существенной переработке исправлять старое engine assignment в рамках той же Scene ID.\n- Это routing-правило не означает автоматически перезапускать уже активную slow-задачу или менять одобренный результат без решения пользователя.\n
