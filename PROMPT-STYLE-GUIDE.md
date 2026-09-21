@@ -719,6 +719,40 @@ Global registry на текущем checkpoint: **Серёга (Канцлер/T
 
 Если user name/alias реально может относиться к двум разным людям и current sources не снимают неоднозначность, задать один точный вопрос. В остальных случаях resolve самостоятельно.
 
+## 16A. Автономность каждого prompt-блока и обязательное описание внешности
+
+Любой prompt, который пользователь может копировать в генератор как отдельный блок, обязан быть **полностью автономным**. Пользователь не должен собирать prompt из нескольких мест, отдельно копировать общий identity-блок или помнить правила, находящиеся выше по странице.
+
+Обязательный стандарт для всех новых prompt-блоков и серийных частей одной сцены (`Часть 1`, `Песня 1`, `Shot 3` и т.п.):
+
+- внутри **каждого** копируемого prompt-блока должен быть собственный краткий `CHARACTER APPEARANCE / IDENTITY LOCK`;
+- в нём кратко фиксируются ключевые признаки внешности каждого важного персонажа: лицо, возрастной образ, телосложение/пропорции, кожа/цвет, волосы или эквивалентные head elements, одежда/костюм, силуэт и критические дизайн-элементы;
+- attached model sheet / face reference остаётся абсолютным визуальным источником identity; если текстовое описание случайно конфликтует с approved reference, следует reference;
+- для известного персонажа редактор обязан сам получить описание из `character-references.json` + fresh master/current scene variant. **Не спрашивать пользователя заново**, если identity уже однозначно известна;
+- если у сцены есть длинный общий identity bible, он может оставаться в master как документация/continuity layer, но отдельный production prompt **не должен зависеть** от ссылки вида `see shared block above`, `follow the shared identity block above` и т.п.;
+- каждый prompt должен работать по принципу: **открыл один блок → скопировал целиком → приложил указанные references → запустил генерацию**;
+- short appearance lock должен быть достаточно конкретным, чтобы удерживать identity на wide / profile / orbit / close-up ракурсах, но не раздувать prompt повторением полного паспорта персонажа;
+- если в prompt несколько персонажей, краткий appearance/identity lock обязателен для каждого важного персонажа либо в общем компактном block с явным разделением по именам;
+- запрещено подменять точное описание общими словами вроде `same character as reference`, если в registry/master уже есть однозначные отличительные признаки, полезные для консистентности.
+
+Рекомендуемый формат:
+
+```text
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@ImageX is the absolute visual authority for [Character Name]. Preserve the exact face, body proportions, approved skin/hair/color identity, costume or silhouette, and the key design elements from the attached reference. Do not redesign, beautify, age-shift, replace hairstyle/head structure, change costume logic, or alter the approved character design.
+```
+
+Это шаблон структуры, а не повод писать одинаковый абстрактный текст для всех. Для конкретного персонажа редактор должен подставлять **реальные отличительные признаки из approved model sheet/current variant**.
+
+Definition of Done для любого автономного prompt:
+- prompt полностью самодостаточен;
+- внутри есть short appearance/identity lock с реальными отличительными признаками;
+- нет зависимости от prose выше/ниже копируемого блока;
+- reference roles ясны;
+- written appearance не конфликтует с attached reference;
+- пользователь не должен дополнительно уточнять, что именно ещё вставить в генератор.
+
+
 ## 17. Связь prompt с монтажным контекстом
 
 Перед созданием сцены следующий чат уже должен быть ознакомлен с `Seregius_montazhny_razbor.html`, `film-analysis.md` и `film-backlog.md`. При разработке новой сцены учитывать её монтажную функцию: что было до неё, что должно стать понятнее после неё, какие сюжетные/диалоговые проблемы она закрывает и не дублирует ли уже существующий beat.
