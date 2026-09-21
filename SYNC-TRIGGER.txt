@@ -1,2 +1,2 @@
-Retry Scene 20 shared identity lock after handoff repair
-2026-09-21T21:27:20Z
+Scene 20 autonomous Masha identity locks
+2026-09-21T21:42:00Z
