@@ -208,11 +208,13 @@ Task mapping:
 - model/reference match;
 - `verified=true` only when proven.
 
-Telemetry never:
+Passive telemetry never:
 - approves;
 - clears slow;
 - edits master;
 - reruns automatically.
+
+Отдельная `Topview Scene Intake & Slow Watch` имеет узкое write-исключение: genuinely new scene import и добавление existing Scene ID в canonical slow при доказанном newly discovered existing-scene render/retry. Это не разрешение approve/delete/slow-clear/rerun.
 
 ## 12. Recovery known issues
 
@@ -258,19 +260,24 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer → Library recovery. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
 
-## 17. Topview auto-import awareness
+## 17. Topview task-intake awareness
 
-Резервный агент должен знать, что automation `Topview Scene Intake & Slow Watch` имеет ограниченное явное право создавать новую Scene ID из genuinely new Topview video task.
+Резервный агент должен знать, что automation `Topview Scene Intake & Slow Watch` имеет два ограниченных write-права:
+1. создавать новую Scene ID из genuinely new Topview video task;
+2. привязывать newly discovered task к **существующей active canonical scene** и добавлять этот existing Scene ID в canonical slow, если task queued/running/init/processing и match доказан.
 
-Это не разрешение автоматически переписывать существующие сцены:
-- known retry/duplicate → не новая сцена;
-- actual prompt должен быть сохранён verbatim;
-- новый ID только после fresh master;
-- running → slow; success → `RESULT_RECEIVED`, не APPROVED;
+Existing-scene match считается доказанным только при exact/normalization-equivalent canonical prompt или explicit provenance; допустимы лишь несемантические различия `@image` ↔ `<<<Image>>>`, whitespace/line endings/reference-token formatting плюс совместимые model/duration/references. Общая semantic similarity не даёт права ни привязать, ни тихо проигнорировать task.
+
+Правила:
+- known task ID → не новый intake;
+- existing-scene retry/replacement → новый Scene ID не создаётся, task mapping обновляется, running → existing Scene ID slow;
+- genuinely new task → actual prompt сохраняется verbatim, новый ID только после fresh master;
+- technical `success` ≠ APPROVED;
 - ambiguous task → no write, ask/notify;
-- после write обязателен normal sync/validation/Pages/task mapping.
+- no auto-rerun/delete/slow-clear;
+- после canonical write обязателен normal sync/validation/Pages/task mapping.
 
-При recovery обязательно проверять, что одна Topview task не импортирована дважды.
+При recovery обязательно проверять, что одна Topview task не импортирована дважды и что newly launched retry существующей сцены не был ошибочно отброшен как «семантически похожий» без task binding/slow update.
 
 ## 18. Recovery automation topology
 
