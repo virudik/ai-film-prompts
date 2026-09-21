@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-21T23:35:53Z",
+  "synced_at": "2026-09-21T23:35:38Z",
   "revision_date": "21.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
   "canonical_master_sha256": "f81858b7db3efa5701baa6f6446dee57f298bc55d9cba8dce6373d51689a53c8",
@@ -45,7 +45,7 @@
     "snapshot_at": "2026-09-21T22:42:27Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
-    "freshness_max_hours": 3.0,
+    "freshness_max_hours": 3,
     "age_hours_at_status_build": 0.891,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
