@@ -1,2 +1,2 @@
-Finalize Topview Scene-to-attempt model documentation
-2026-09-21T03:24:00Z
+Slow-table multi-attempt UI docs refresh
+2026-09-21T05:49:30Z
