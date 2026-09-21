@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-21T08:02:02.010Z",
+  "updated_at": "2026-09-21T08:22:57.658Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -34,30 +34,6 @@
   },
   "processed_tasks": [
     {
-      "task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
-      "scene_id": 14,
-      "final_status": "success",
-      "finished_at": "2026-09-20T00:33:28Z"
-    },
-    {
-      "task_id": "86d84863bf5e4b97b2ea9423ca514f84",
-      "scene_id": 15,
-      "final_status": "success",
-      "finished_at": "2026-09-20T07:17:05Z"
-    },
-    {
-      "task_id": "cd7c476566d84076aaa330274093ea15",
-      "scene_id": 18,
-      "final_status": "success",
-      "finished_at": "2026-09-20T13:54:38Z"
-    },
-    {
-      "task_id": "8d2103753bb145b7990014bf83a6f652",
-      "scene_id": 12,
-      "final_status": "success",
-      "finished_at": "2026-09-20T20:35:56Z"
-    },
-    {
       "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
       "scene_id": 19,
       "final_status": "success",
@@ -66,7 +42,7 @@
   ],
   "retention": {
     "processed_tasks_max": 200,
-    "note": "Keep the most recent 200 processed tasks; older entries may be dropped after they are outside the recent Topview scan window.",
+    "note": "Keep only recent processed tasks still useful for dedup/statistics. User-declared obsolete historical terminal tasks may be removed; do not backfill them from old history unless a NEW task appears in the normal scan window.",
     "scan_rule": "On each run, rescan only the overlap window since last_scan_at minus 6 hours; deduplicate with active IDs + processed_tasks. Advance last_scan_at only after a successful classification/check pass."
   },
   "last_scan_at": "2026-09-21T07:43:43Z",
