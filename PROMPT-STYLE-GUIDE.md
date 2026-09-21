@@ -241,23 +241,55 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-## 6. Уровень подробности
+## 6. Уровень подробности и принцип качества
 
-Ориентир — не количество слов, а **плотность полезных ограничений**.
+Главный принцип: **maximum useful specificity, minimum redundant wording**.
 
-Master-level prompt:
+Хороший master-level prompt — не самый длинный. Он достаточно конкретен, чтобы модель однозначно поняла персонажей, действие, пространство, камеру, звук и ограничения, но не повторяет один и тот же смысл в нескольких длинных блоках.
 
-- однозначно распределяет роли референсов;
-- фиксирует protagonist/identity;
-- содержит понятную драматургию по времени;
-- задаёт физически правдоподобную камеру;
-- описывает performance;
-- описывает environment/light/materials;
-- управляет audio;
-- содержит сценоспецифичный negative prompt;
-- не противоречит сам себе.
+### 6.1. Самодостаточность без раздувания
 
-Простая сцена может быть короче сложной, но не должна терять ключевые блоки только потому, что исходная идея пользователя сформулирована одной строкой.
+Каждый production prompt, который пользователь копирует отдельно, должен быть самодостаточным. При этом автономность **не означает** механически копировать внутрь каждого блока весь scene-level bible.
+
+В автономный prompt переносить:
+- exact reference roles и priority;
+- short appearance/identity lock каждого важного персонажа;
+- обязательные continuity facts для этой части;
+- конкретное действие / dialogue / vocals;
+- camera plan;
+- нужные lighting/audio/negative constraints;
+- START STATE / END STATE, если prompt является частью последовательности.
+
+Scene-level bible может хранить более подробную драматургию и общую режиссуру серии, но отдельный prompt должен содержать только ту её часть, которая реально нужна этой генерации.
+
+### 6.2. Приоритеты MUST / SHOULD / MAY
+
+При сложном prompt редактор обязан мысленно, а при необходимости явно, разделять требования по важности.
+
+**MUST — нельзя потерять:** exact identity / approved costume or form; reference ownership and priority; обязательные персонажи и реквизит; точные действия, реплики и порядок событий; ключевой старт/финал; критический continuity.
+
+**SHOULD — желательно сохранить:** конкретная траектория камеры; эмоциональная динамика; lighting / production-design нюансы; второстепенные физические реакции.
+
+**MAY — можно оставить модели свободу:** микрожесты; небольшие естественные вариации ветра, дыма, воды; второстепенная фоновая жизнь, если она не ломает continuity.
+
+Если требований слишком много, сокращать MAY и часть SHOULD, а не MUST.
+
+### 6.3. Complexity budget
+
+Не перегружать 20–30 секунд количеством независимых событий. Перед сохранением prompt проверить:
+- сколько ключевых действий должно произойти;
+- сколько персонажей одновременно говорят/двигаются;
+- сколько смен композиции/камеры запрошено;
+- хватает ли времени на реплику + паузу + реакцию + переход;
+- не требуют ли два события несовместимых позиций персонажа или камеры одновременно.
+
+Если prompt перегружен, лучше сократить beats или разделить генерацию, чем компенсировать перегрузку ещё большим количеством текста.
+
+### 6.4. Запрет семантических дублей
+
+Критическое правило можно повторить максимум там, где повторение действительно усиливает управление моделью, например один раз в `REFERENCE PRIORITY` и один раз в коротком `IDENTITY LOCK`.
+
+Не нужно три-четыре раза разными словами повторять `same face`, `same costume`, `same location`, если смысл уже однозначно закреплён. Повторение не заменяет точность и может размывать относительный приоритет остальных требований.
 
 ## 7. Адаптация под движок
 
@@ -287,6 +319,19 @@ Master-level prompt:
 
 Если есть starting/ending frame references, указать, что именно они фиксируют и что они **не имеют права переопределять**.
 
+
+Для последовательных генераций предпочтительно явно фиксировать handoff:
+
+```text
+START STATE:
+[позиция персонажей, поза/направление, состояние реквизита, камера/крупность, свет]
+
+END STATE:
+[позиция персонажей, поза/направление, состояние реквизита, камера/крупность, свет]
+```
+
+`END STATE` текущего блока должен быть совместим с `START STATE` следующего. Это полезнее абстрактной фразы `preserve continuity`, особенно для 8–30-секундных последовательностей.
+
 ## 9. Правила для нового Scene ID
 
 - Scene IDs никогда не перенумеровываются ради «красивой» последовательности.
@@ -312,349 +357,87 @@ Master-level prompt:
 - снимать slow после `success` одной попытки, если у той же сцены ещё есть другие active Topview tasks;
 - создавать `video-prompts-v2/final/copy` вместо same-ID edit.
 
-## 11. Финальный чек-лист перед сохранением нового prompt
+Также это плохие практики:
 
-Перед записью в master проверить:
+- `same character as reference` без реальных distinguishing traits, если они уже известны из approved model sheet/registry;
+- `see shared block above` / `follow the shared block above` внутри prompt, который копируется отдельно;
+- несколько reference images без ясного ownership: кто задаёт лицо, кто костюм, кто композицию, кто локацию;
+- огромный универсальный negative prompt, не связанный с рисками сцены;
+- повторение одного identity/continuity правила в 3–5 местах вместо короткого приоритетного lock;
+- слишком много beats для заданной длительности;
+- камера, которая одновременно должна быть continuous take и делать физически невозможные скачки/обратные направления;
+- полные копии live-prompts внутри этой инструкции как «вечные эталоны»: актуальный текст всегда брать из fresh master.
 
+## 11. Финальный prompt-QA перед сохранением
+
+Перед записью в master редактор обязан проверить не только наличие блоков, но и их **согласованность и полезность**.
+
+### A. Структура и references
 - [ ] Scene ID определён по стабильным правилам и не переиспользован.
 - [ ] `scene-meta` соответствует движку, длительности, языку и production state.
-- [ ] Есть `Контекст использования`.
-- [ ] Есть `Референсы`.
-- [ ] Есть `Что происходит`.
-- [ ] В prompt есть техническая строка.
+- [ ] Есть `Контекст использования`, `Референсы`, `Что происходит`.
+- [ ] Техническая строка соответствует реальному движку/режиму.
 - [ ] Каждому reference назначена конкретная роль.
-- [ ] При нескольких reference есть priority rule.
-- [ ] Сюжет разбит на последовательные beats / timeline, если это полезно.
-- [ ] Камера физически понятна и стабильна.
-- [ ] Performance прописан.
-- [ ] Dialogue/vocal + lip sync прописаны, если нужны.
-- [ ] Environment / lighting / material realism описаны.
-- [ ] Audio описан при Native audio on.
-- [ ] Negative prompt привязан к рискам конкретной сцены.
-- [ ] `FRAME FILL / NO BARS` присутствует.
+- [ ] При 2+ references явно разрешён ownership/priority там, где возможен конфликт.
+- [ ] Environment/group/start/end reference не может случайно переопределить identity отдельного персонажа.
+
+### B. Персонажи
+- [ ] Каждый важный известный персонаж resolve через `character-references.json` + fresh master/current variant.
+- [ ] В автономном production prompt есть short appearance/identity lock с реальными distinguishing traits.
+- [ ] Costume/form соответствует именно этой сцене, а не случайному варианту из другой сцены.
+- [ ] При нескольких персонажах ясно, какой reference принадлежит кому; запрещено face blending / swapping.
+
+### C. Исполнимость и режиссура
+- [ ] Timeline/story flow физически реалистичен для длительности.
+- [ ] Dialogue/vocals реально помещаются в выделенное время с дыханием/паузами/реакциями.
+- [ ] Complexity budget не перегружен лишними независимыми beats.
+- [ ] Камера физически понятна, стабильна и совместима с заявленным continuous/shot-based режимом.
+- [ ] Для цепочки сцен определены совместимые START STATE / END STATE, если это полезно.
+- [ ] Performance описывает изменение состояния, а не только статичную эмоцию.
+
+### D. Реализм, звук и негативы
+- [ ] Environment / lighting / material realism описаны ровно настолько, насколько нужны сцене.
+- [ ] Audio конкретен при `Native audio: on`.
+- [ ] Negative prompt ориентирован на реальные риски именно этой сцены, а не является бесконечным универсальным хвостом.
+- [ ] `FRAME FILL / NO BARS` присутствует, если пользователь явно не отменил правило.
+
+### E. Редактура prompt
 - [ ] Нет внутренних противоречий.
-- [ ] После записи обновлены map/counts и выполнена стандартная Drive→GitHub→Pages проверка.
-
-## 12. Эталонные live-сцены в текущем master
-
-При написании нового prompt сначала выбрать ближайший по задаче эталон и прочитать его **в свежем master**, потому что master может измениться.
-
-- **Scene 2** — сложный ensemble, multiple identity references, formation lock, camera tracking.
-- **Scene 14** — одиночный герой, подробный timeline, dry comedy, environment/material logic.
-- **Scene 18** — walk-and-talk dialogue, live-action realism lock, production design, lip sync.
-- **Scene 19** — multiple references, fantasy event, dialogue beats, physical interaction, transition to running ending.
-- **Scene 20** — музыкальный performance, location reference + identity reference, sung lip sync, continuous camera.
-
-Ниже приложены несколько полных **snapshot-примеров из master**. Они нужны как ориентир по плотности и структуре. Это не второй master: если пример ниже расходится с более свежим `video-prompts.md`, всегда использовать свежий master.
-
----
-
-# Пример A — Scene 14 snapshot
-
-<a id="scene-14"></a>
-
-
-## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
-
-
-<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy"],"target_engine":"Seedance 2.5"} -->
-
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-
-Повторно не запускать до результата/ошибки или отдельного решения пользователя.
-
-
-**Контекст использования:** Новый активный промт на основе бывшей W2; рабочий пункт W2 получил конкретный референс Канцлера и теперь оформлен как активная сцена 14. 30-секундная серьёзно снятая комедийная вставка перед/внутри лесной линии: пока другие персонажи ищут опасного Канцлера, он с неожиданным искренним энтузиазмом занят грибами. Излишки затем можно сократить на монтаже.
-
-
-**Референсы:** @image3 = Chancellor, точный модель-шит лица, телосложения и тёмно-фиолетовой мантии. Лес задаётся текстом: огромные древние деревья, густой влажный подлесок, масштаб почти монументальный.
-
-
-**Что происходит:** Канцлер один идёт по колоссальному лесу с небольшой корзиной, внимательно изучает землю, замечает первую группу грибов у гигантского корня, почти научно осматривает их и бережно собирает. Затем он замечает ещё более интересный гриб глубже между корнями, быстро, но всё ещё серьёзно перебирается к нему, сравнивает находки, складывает добычу в корзину и в конце снова видит что-то перспективное впереди и уходит глубже в лес.
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCE:
-@image3 — PRIMARY exact character identity reference for THE CHANCELLOR: pale middle-aged-to-older man, bald on top with thin pale blond hair around the sides and back, pale blue-grey eyes, heavy facial structure, wearing a long deep-purple / black-purple hooded robe with layered dark fabric. Preserve his exact face, age, build, hair pattern, robe design, robe color, and proportions throughout.
-
-
-SCENE:
-A vast ancient forest on a giant-tree world. Tree trunks are enormous, wider than buildings, rising far beyond the upper frame. Massive exposed roots form natural ridges across the damp forest floor. Dense moss, ferns, fallen leaves, small plants, drifting mist, and shafts of warm filtered sunlight create a rich photorealistic environment. The Chancellor is completely alone.
-
-
-The scene is intentionally funny but must be performed and photographed with absolute seriousness. The Chancellor is not behaving like a clown. He is genuinely, almost scholarly, delighted by mushroom hunting and gives the task the same focused importance he would give to a strategic military operation.
-
-
-TIMELINE:
-[0:00–0:06]
-Wide cinematic tracking shot. The Chancellor walks slowly through the colossal forest carrying a small simple woven basket in his left hand. He studies the ground with intense concentration, occasionally moving aside a fern with his free hand. His purple robe brushes naturally against moss and low vegetation. The giant trees establish an overwhelming sense of scale.
-
-
-[0:06–0:11]
-He suddenly notices a small cluster of unusual but realistic forest mushrooms growing beside an enormous moss-covered root. His expression changes subtly: eyebrows lift, eyes sharpen with genuine interest, and a restrained pleased smile appears. He changes direction immediately and steps over a low root toward them with surprising but controlled enthusiasm.
-
-
-[0:11–0:17]
-Camera lowers into a medium three-quarter shot as he crouches beside the root. He carefully examines two mushrooms from several angles without damaging them, gently brushes away a leaf, checks the underside of one cap, then cleanly picks the best specimen at the stem. He studies it in his hand with almost scientific fascination.
-
-
-[0:17–0:21]
-He places the first mushroom carefully into the basket, then picks a second smaller one. Before standing, he compares the two for a beat, visibly satisfied with the selection. The comedy stays completely dry and understated.
-
-
-[0:21–0:26]
-While still crouched, he notices another larger but biologically plausible mushroom growing several meters away in a pocket between two gigantic roots. His eyes widen slightly. He rises faster than before, steps over the root ridge and moves toward it with renewed purpose, keeping the basket steady.
-
-
-[0:26–0:30]
-He reaches the second patch, kneels briefly, gently lifts the larger mushroom to inspect it without immediately picking it, then looks deeper into the forest and notices yet another promising area off-screen. A small satisfied smile returns. He stands and continues deeper between the colossal trunks as the camera follows, ending with him fully absorbed in the hunt.
-
-
-CAMERA:
-One continuous physically stable cinematic shot. Smooth controlled glide following and gently arcing around the Chancellor. The camera may lower with him when he crouches and rise naturally when he stands, but never teleports or cuts. Maintain one coherent 3D forest space; every root, tree and mushroom must already exist in the environment and be revealed naturally by camera movement.
-
-
-CHARACTER PERFORMANCE:
-Restrained live-action acting. Small facial micro-expressions only. He is focused, curious and sincerely pleased, not manic or goofy. Keep the same face, age, bald pattern, body shape and robe from @image3 in every frame. Natural crouching, hand contact, stepping over roots and weight transfer. His growing enthusiasm is shown through slightly quicker movement and attentive eyes, not exaggerated gestures.
-
-
-FOREST / LIGHTING:
-Photorealistic giant ancient forest. Monumental trunks, deep layered canopy, warm dappled sunlight, soft volumetric rays, cool green ambient bounce, damp moss, subtle atmospheric mist, natural insects and distant birds. Mushrooms should look biologically plausible and varied, not neon fantasy props. No modern objects.
-
-
-AUDIO (native):
-Deep quiet forest ambience, distant birds, faint insects, soft wind high in the canopy, footsteps compressing damp moss, robe brushing vegetation, slight basket creak, tiny natural sounds as mushrooms are handled and picked. No dialogue. No music.
-
-
-NEGATIVE PROMPT:
-identity drift, different face, different age, full head of hair, robe color change, costume change, duplicate Chancellor, extra people, modern hiking equipment, plastic basket, magical glowing mushrooms, giant comedy mushroom, psychedelic neon colors, slapstick acting, exaggerated grin, distorted hands, extra fingers, mushroom growing or morphing on contact, trees appearing from nowhere, changing forest geometry, floating roots, camera shake, hard cuts, cartoon, anime, game-render look, text, subtitles, logos, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
----
-
-
-<a id="scene-15"></a>
-
----
-
-# Пример B — Scene 19 snapshot
-
-<a id="scene-19"></a>
-
-
-## Сцена 19 — Рыбалка и Маша-Лагуна
-
-
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","fantasy_comedy","mission_return","continuous_take"]} -->
-
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-
-**Контекст использования:** Новая активная 30-секундная диалоговая сцена для Wan 3.0. Сцена основана на рукописной идее Саши и затем была отдельно утверждена пользователем: Саша и Паша рыбачат у озера, из воды появляется Маша в форме Лава-Лагуны, происходит короткий эмоциональный конфликт, после чего сюжет резко возвращается к миссии и выходит в бегущий финал. Это отдельная активная slow-сцена; автоматически не перезапускать.
-
-
-**Референсы:** @Image1 = стартовый кадр / композиция рыбалки · @Image2 = финальный кадр / композиция бега · @Image3 = Маша в форме «Лава-Лагуны» · @Image4 = Sasha model sheet · @Image5 = Pasha model sheet
-
-
-**Что происходит:** Саша и Паша спокойно рыбачат у озера. На воде появляется странная рябь, из воды поднимается Маша в образе Лава-Лагуны, быстро подходит к Саше лицом к лицу. Саша успевает удивлённо сказать «Маша?..», после чего получает пощёчину. Маша эмоционально упрекает его: «Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?» Паша молчит, но ярко реагирует мимикой. Саша резко вспоминает про поручение — «Ой, у нас же важное поручение!» — и вместе с Пашей срывается с места. Сцена заканчивается переходом в бег и приходит к композиции @Image2.
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-References:
-@Image1 — starting shot / fishing composition reference: Sasha and Pasha sitting by the lake and fishing. Use this image for the opening composition, lakeside environment, relaxed fishing setup, and the overall mood of the first beat.
-@Image2 — ending shot / running composition reference: Sasha and Pasha running away. Use this image only for the final running composition, motion direction, and ending energy.
-@Image3 — design reference for Masha in the “Lava-Laguna” form. Preserve her blue aquatic fantasy appearance, facial features, silhouette, and overall design identity.
-@Image4 — PRIMARY exact identity reference for Sasha. Preserve his exact face, proportions, costume, and identity throughout the whole scene.
-@Image5 — PRIMARY exact identity reference for Pasha. Preserve his exact face, proportions, costume, and identity throughout the whole scene.
-
-IMPORTANT REFERENCE RULE:
-Use @Image4 and @Image5 as the PRIMARY identity references for Sasha and Pasha.
-Use @Image1 only for the starting composition, fishing environment, and staging.
-Use @Image2 only for the final running composition.
-Use @Image3 only for Masha’s appearance, silhouette, face design, and color palette in her Lava-Laguna form.
-Do not average or replace Sasha and Pasha’s identities using the fishing or running stills.
-
-Scene:
-Create a 30-second live-action fantasy-comedy scene with clear Russian dialogue, expressive facial acting, coherent geography, stable identity, and natural physical movement. The tone starts calm and slightly comedic, becomes surprising and emotional when Masha appears, and then sharply returns to mission urgency. No horror tone. No subtitles. No on-screen text.
-
-Story flow:
-Start with Sasha and Pasha sitting by the lake in the spirit of @Image1, quietly fishing in a relaxed way. The environment is bright daytime by a peaceful lake with a large fantasy city or palace-like architecture in the background, matching the atmosphere of @Image1. Fishing rods, bottles, and small fishing details may remain present if visually consistent with @Image1.
-
-At around 0:05, strange circular ripples begin forming on the water surface. Both men notice the disturbance. The camera should clearly show that something unusual is happening in the lake.
-
-At around 0:07–0:09, Masha in her Lava-Laguna form rises out of the water. Her emergence should feel magical, surprising, and dramatic, but not monstrous or horror-like. She is wet, elegant, otherworldly, and visually faithful to @Image3. She quickly moves toward Sasha and stops face-to-face with him on the shore.
-
-Sasha looks shocked and says in Russian:
-«Маша?..»
-
-Immediately after this line, Masha gives Sasha a clear slap across the face. The slap must be readable and emotionally charged, but not brutal or violent. It is an offended dramatic slap, not an assault scene. Sasha visibly reacts in surprise.
-
-Right after the slap, Masha speaks emotionally in Russian, with clear lip sync and expressive facial acting:
-«Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?»
-
-While Masha is speaking, Pasha remains silent, but his reaction must be clearly visible. He reacts with expressive facial acting: surprise, awkwardness, discomfort, and confusion. Do not give Pasha any spoken lines.
-
-After a short stunned beat, Sasha suddenly remembers the mission and says in Russian:
-«Ой, у нас же важное поручение!»
-
-Immediately after this line, Sasha and Pasha abruptly jump up and run away. Use a dynamic but clear transition into the running ending. The final part of the scene must visually arrive at the energy and composition of @Image2: Sasha and Pasha running fast near the lakeside with urgency, as if rushing back to the mission.
-
-Camera:
-Use cinematic live-action coverage with stable motion and clean continuity. You may use natural shot progression inside the same scene: a calm medium-wide opening for the fishing setup, a lake-focused view for the ripples, a dramatic medium shot for Masha emerging, a tighter face-to-face shot for «Маша?..» and the slap, a visible reaction shot of Pasha, and then a dynamic wider motion transition into the running ending. Do not make the scene feel like random montage. All transitions should feel motivated and coherent.
-
-Performance:
-Sasha should feel distracted, caught off guard, and then suddenly alarmed when he remembers the mission. Masha should feel emotionally upset, offended, and demanding attention, but still believable and expressive rather than hysterical. Pasha should remain silent and react with strong readable facial expressions. All facial animation and lip sync must be natural.
-
-Dialogue rules:
-All spoken dialogue must be in natural Russian. Use clear Russian pronunciation and believable emotional delivery. No subtitles.
-
-Audio:
-Use natural environment sound: light wind, water movement, fishing ambience. Add clear splash and water movement when Masha emerges. The slap should have a natural audible impact. Keep spoken dialogue clearly understandable. No background music, or only extremely subtle cinematic underscore if needed, but dialogue clarity is the priority.
-
-Style:
-Photoreal live-action fantasy-comedy. Natural skin, cloth, and water simulation. Good facial consistency throughout. Readable staging. No exaggerated cartoon motion.
-
-Negative prompt:
-bad Russian lip sync, incorrect dialogue speaker, subtitles, captions, text on screen, black bars, side bars, decorative borders, identity drift, face swapping, merged faces, duplicated people, extra characters, distorted hands, extra fingers, broken slap motion, stiff facial acting, horror monster look, random teleportation, confusing geography, unstable water, broken reflections, abrupt incoherent cuts, low-detail faces, watermark, logo.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
-
-
-<a id="scene-20"></a>
-
----
-
-# Пример C — Scene 20 snapshot
-
-<a id="scene-20"></a>
-
-
-## Сцена 20 — Маша-Лагуна: рок-припев у озера
-
-
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"en"},"tags":["music_performance","vocal_performance","continuous_take","lakeshore"]} -->
-
-
-**Контекст использования:** Новая активная 30-секундная музыкальная сцена для Seedance 2.5. @Image1 задаёт точную локацию берега озера, @Image2 — точный образ Маши-Лагуны. Сцена строится как цельный live-action музыкальный перформанс: Маша стоит у воды и исполняет эмоциональный англоязычный рок-припев. В prompt не упоминаются конкретные существующие группа или песня. Текст припева ниже оригинальный и используется как точный вокальный текст для lip sync.
-
-
-**Референсы:** @Image1 = локация / берег озера / окружение · @Image2 = Маша-Лагуна, PRIMARY exact identity reference
-
-
-**Что происходит:** Маша-Лагуна одна стоит на берегу озера из @Image1 и поёт эмоциональный меланхоличный рок-припев. Камера начинает с более широкого плана, затем медленно и физически стабильно приближается. Лёгкий ветер естественно двигает волосы и одежду, вода остаётся спокойной и реалистичной. Вокал постепенно усиливается, но актёрская игра остаётся живой и сдержанной; финал приходит к более близкому эмоциональному кадру Маши без смены локации и без монтажной дробности.
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCES:
-@Image1 — LOCATION / ENVIRONMENT reference only: the exact lakeshore location, shoreline shape, water placement, surrounding landscape, background geography, natural color relationships, and overall spatial mood. Preserve the recognizable location and do not redesign it into a different lake or fantasy set.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / character design, silhouette, and overall identity throughout the full 30-second performance.
-
-
-IMPORTANT REFERENCE RULE:
-@Image2 is the absolute identity lock for Masha-Laguna.
-@Image1 controls only the location, geography, shoreline, water, and environmental composition.
-Do not average Masha's face or body with anything from @Image1.
-Do not replace, beautify, restyle, age-shift, or redesign Masha.
-Do not alter the lake into another environment and do not invent large new structures that are absent from the location reference.
-
-
-STYLE GOAL:
-Photorealistic live-action cinematic music performance at a real lakeshore. Emotional, melancholic, raw, and intimate alternative-rock energy with a restrained 1990s feeling, but no reference to any specific existing band or song. The scene must feel like a serious film/music-video performance photographed with a real actress in a real outdoor location, not a stage show, not glossy pop choreography, not animation, and not a synthetic game cutscene.
-
-
-SCENE — ONE CONTINUOUS 30-SECOND PERFORMANCE:
-Masha-Laguna stands alone close to the water's edge in the exact lakeside environment established by @Image1. She faces slightly toward camera while remaining naturally connected to the landscape. The lake is clearly visible in the composition. There is no audience, no band visible in frame, no stage, no microphone stand, and no extra foreground characters.
-
-She sings the following ORIGINAL English chorus with clear articulation and accurate lip sync. These are the only required lyrics; do not replace them with lines from any existing song:
-
-“Hear the silence, hear it calling,
-Through the dark, the echoes falling,
-In my heart the fire is rising,
-Still I stand, no more disguising.”
-
-If musical timing requires additional vocal time, the same four-line chorus may repeat once naturally. Do not invent unrelated extra lyrics and do not substitute recognizable lyrics from another song.
-
-
-TIMELINE:
-[0:00–0:04]
-Open in a medium-wide establishing shot. Masha-Laguna stands at the lakeshore from @Image1 with the water and recognizable background geography clearly readable. She takes a natural breath before the vocal entry. A light breeze moves individual strands of hair and the loose parts of her clothing. The camera is already in gentle motion, beginning a very slow controlled push toward her.
-
-[0:04–0:11]
-Masha begins singing:
-“Hear the silence, hear it calling,
-Through the dark, the echoes falling,”
-Her delivery starts controlled and melancholic, then grows in emotional weight. Keep natural breathing, realistic mouth shapes, subtle jaw movement and exact sung lip sync. The camera continues its slow push-in without changing direction abruptly.
-
-[0:11–0:18]
-She continues:
-“In my heart the fire is rising,
-Still I stand, no more disguising.”
-Her vocal intensity opens up. Her eyes become more focused and emotionally charged, but the performance remains believable and grounded. No broad theatrical hand gestures. One small natural hand movement or a slight shift of weight is acceptable if motivated by the performance.
-
-[0:18–0:25]
-Let the musical phrase breathe. Masha may repeat the chorus from the beginning or sustain and resolve the final musical phrase, depending on natural timing, while keeping the exact same lyrical material. Camera reaches a clean medium shot. The lake remains visible behind or beside her and the environment stays spatially continuous.
-
-[0:25–0:30]
-The camera makes only a very subtle final arc or lateral drift while staying close enough to read her eyes and mouth clearly. Masha finishes the phrase with a strong but controlled emotional release. End on a stable cinematic medium / medium-close composition with the same lake and shoreline still coherent in the background. No freeze frame, no fade to a different location, no sudden pose.
-
-
-CAMERA / CONTINUITY:
-One continuous unbroken shot for the full 30 seconds.
-Physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
-Start medium-wide and slowly push toward medium / medium-close framing.
-A subtle motivated arc near the end is allowed, but there must be no sudden lateral jump, no teleporting camera, no random reframing, no hard cuts, no jump cuts, and no montage.
-Maintain one coherent 3D space. Shoreline, horizon, water, and background objects must remain geometrically stable and reveal themselves naturally through camera motion.
-No random jitter or micro-shake.
-
-
-PERFORMANCE / VOCAL DELIVERY:
-Masha-Laguna performs with sincere melancholy, restrained anger, vulnerability, and growing strength. She is emotionally intense without becoming hysterical or theatrical.
-Natural blinking, breathing, eye focus, facial micro-expressions, neck and jaw motion, and subtle body weight transfer.
-The singing must look physically believable: realistic inhalation before phrases, mouth opening appropriate to sustained vowels, natural chest / shoulder breathing, and no frozen face between lines.
-Do not make her smile broadly or perform cheerful pop choreography.
-Identity, hairstyle, costume and proportions must remain stable in every frame.
-
-
-LIGHTING / ENVIRONMENT:
-Preserve the environmental identity of @Image1. Use natural outdoor light consistent with the reference image. If the source is soft daylight / overcast light, keep it soft and cinematic rather than replacing it with golden-hour or concert lighting.
-Water should have small physically plausible ripples and realistic reflections. Wind affects hair and fabric lightly and consistently. Plants, shoreline material and distant background must not morph or appear/disappear.
-Natural skin tone, realistic cloth texture, believable contact with the ground, and physically plausible depth of field.
-No fantasy glow, no magical aura, no neon color wash unless already present in @Image2 as an intrinsic part of Masha-Laguna's approved design.
-
-
-AUDIO (native):
-Clear expressive female singing voice with accurate English pronunciation and tight sung lip sync.
-Vocal is the dominant element in the mix.
-Backing track: restrained melancholic alternative-rock arrangement with electric guitar, bass and drums, emotionally building without overpowering the voice. Do not imitate or reproduce a specific existing recording or melody.
-Natural lake ambience remains quietly audible underneath: soft water movement, light wind and distant outdoor atmosphere.
-No crowd noise, no applause, no spoken dialogue, no subtitles.
-
-
-NEGATIVE PROMPT:
-identity drift, different face, different age, different hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, over-smoothed skin, face morphing, bad lip sync, spoken delivery instead of singing, frozen mouth, random or recognizable lyrics from an existing song, subtitles, captions, karaoke text, lyrics on screen, extra people, audience, visible band, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, broad theatrical gestures, cheerful pop performance, cartoon, anime, stylized CGI, game cutscene, plastic skin, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, objects appearing from nowhere, surreal water behavior, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, oversaturated neon lighting, black bars, side bars, decorative borders, empty margins, logo, watermark.
-
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
+- [ ] Нет семантических дублей и ненужного повторения больших блоков.
+- [ ] MUST-требования заметно важнее SHOULD/MAY деталей.
+- [ ] Prompt полностью самодостаточен: один блок можно скопировать и запустить без текста выше/ниже.
+- [ ] Нет зависимостей вида `see shared block above`.
+- [ ] Все references, названные в prompt, реально существуют и используются.
+
+### F. После записи
+- [ ] Обновлены map/counts/meta, если это требуется архитектурой.
+- [ ] Выполнена стандартная Drive → GitHub → validator/status → Pages проверка.
+
+Если любой пункт A–E нарушен, prompt ещё не готов, даже если он выглядит длинным и «кинематографичным».
+
+## 12. Эталон качества: только fresh master, без полнотекстовых копий
+
+Эта инструкция **не хранит полные копии текущих live-prompts** как вечные примеры. Причина: master меняется, сцены могут быть удалены, переработаны или получить новые reference roles; встроенная копия неизбежно становится stale и начинает учить сменщика устаревшему состоянию.
+
+Как работать правильно:
+1. перед созданием/переработкой prompt перечитать fresh `PROMPT-STYLE-GUIDE.md`;
+2. открыть fresh `video-prompts.md`;
+3. выбрать одну-две **текущие активные** сцены, близкие по типу задачи (dialogue / action / music / continuous take / multiple references), только как живые structural examples;
+4. брать из них удачные паттерны структуры, но не копировать факты, одежду, references или scene-specific negative prompt;
+5. если пример в handoff/старом обсуждении расходится с fresh master, fresh master имеет приоритет.
+
+Хороший эталон определяется не номером сцены, а качествами:
+- ясные reference roles и priority;
+- точный short identity lock;
+- реалистичная timeline/beat structure;
+- физически понятная камера;
+- coherent 3D space;
+- acting/dialogue/audio specificity;
+- risk-oriented negative prompt;
+- автономность copy-paste блока;
+- отсутствие лишнего повторения.
+
+Никогда не считать удалённую/неактивную сцену автоматически действующим эталоном только потому, что она когда-то была вставлена в документацию.
 
 ## 13. Правило для следующего чата / сменщика
 
@@ -713,7 +496,7 @@ Snapshot examples ниже/выше — эталоны **сложности и �
 - не переносить одежду из другой сцены, если current scene требует иной approved variant;
 - не позволять environment/group reference переопределять индивидуальную identity.
 
-Global registry на текущем checkpoint: **Серёга (Канцлер/The Chancellor), Юля, Паша (JEDI-A/Navy Jedi), Артём (Bearded Jedi), Илюша (Hooded Jedi), Саша (JEDI-B/Glasses Jedi), Лёша (PURPLE), Виталик (BLACK)**. В однозначном контексте `Серёжа` resolve → `Серёга`.
+Не хранить здесь фиксированный список персонажей как canonical truth: он быстро устаревает. Актуальный roster и aliases всегда брать из fresh `character-references.json` + current master.
 
 Персонажи, существующие только в конкретных current prompts (например Маша-Лагуна или Imperial Officer), разрешаются через fresh scene references/master. Не выдумывать global model sheet для персонажа, которого там нет.
 
@@ -752,6 +535,11 @@ Definition of Done для любого автономного prompt:
 - written appearance не конфликтует с attached reference;
 - пользователь не должен дополнительно уточнять, что именно ещё вставить в генератор.
 
+### Совместимость со старыми prompts
+
+Для **новых и существенно перерабатываемых** production prompts использовать стандартный заголовок `CHARACTER APPEARANCE / IDENTITY LOCK`.
+
+Для старых prompts audit должен проверять **семантическое наличие** identity protection, а не только буквальное совпадение заголовка. Если equivalent lock уже корректно реализован внутри `ENVIRONMENT & ASSET LOCK`, `IMPORTANT REFERENCE RULE` или другого ясного блока, это не automatic failure. При следующей содержательной переработке сцену привести к текущему стандартному заголовку.
 
 ## 17. Связь prompt с монтажным контекстом
 
@@ -773,7 +561,19 @@ Definition of Done для любого автономного prompt:
 
 ## 19. Prompt-quality проверки в daily deep audit
 
-Раз в 24 часа `AI Film Recovery Sync` внутри своего daily deep audit может **проверять** активные/new prompts на явный regression относительно этого guide: reference priority, identity handling, timeline/story flow, camera/continuity, audio, negative prompt, `FRAME FILL / NO BARS` и другие обязательные элементы.
+Раз в 24 часа `AI Film Recovery Sync` внутри daily deep audit может **проверять** активные/new prompts на regression относительно этого guide.
+
+Проверять прежде всего:
+- reference ownership/priority при нескольких изображениях;
+- identity/appearance protection каждого важного персонажа;
+- автономность copy-paste блока;
+- timeline/dialogue timing feasibility;
+- camera/continuity и START/END handoff для последовательностей;
+- semantic duplication / prompt bloat;
+- risk-oriented negative prompt;
+- audio и `FRAME FILL / NO BARS`, когда применимо.
+
+Audit должен быть **семантическим**, а не тупым grep по одному заголовку. Отсутствие буквальной строки `CHARACTER APPEARANCE / IDENTITY LOCK` в legacy prompt не является само по себе дефектом, если equivalent identity lock реально присутствует и однозначен.
 
 Это audit, а не разрешение автоматически переписывать творческий prompt. Автоматически допустимы только однозначные механические/documentation fixes. Содержательное изменение сцены, диалога, режиссуры или approval требует обычного editor/user workflow. Deep-audit result записывается в `deep-audit-status.json`; Topview auto-intake остаётся отдельной automation.
 
@@ -783,51 +583,6 @@ Definition of Done для любого автономного prompt:
 
 Master/film-analysis/backlog, находящиеся в той же общей шторке, относятся к рабочим файлам проекта и не являются дополнительными prompt-инструкциями. В UI они вынесены в отдельный блок и также идут вертикально один под другим.
 
-## Canonical Topview state — minimal operational model
+## 21. Граница ответственности этого guide
 
-This is the permanent Topview rule for the master, watcher, recovery and Control Center:
-
-- **Scene ID** identifies the creative scene. **Topview task ID** identifies one render attempt.
-- A rerun/rerender/revised prompt for the same creative scene keeps the same Scene ID.
-- Persistent Topview state is intentionally minimal:
-  - `topview-task-map.json.active_by_scene` stores only currently active task IDs per Scene ID;
-  - `topview-task-map.json.processed_tasks` stores only a bounded recent dedup/statistics journal: `task_id`, `scene_id`, `final_status`, `finished_at`;
-  - keep at most the most recent 200 processed tasks and do not persist queue/ETA history or permanent `attempts[]` / `active_attempts[]` trees.
-- `SLOW` / `SLOW_PENDING` means that a Topview-managed scene currently has at least one active task in `init`, `queued`, `running` or `processing`.
-- A new active task for an existing scene adds/returns that same Scene ID to canonical slow.
-- If several tasks of one scene are active, canonical slow still contains the Scene ID once; all active task IDs remain in `active_by_scene`.
-- When one task becomes terminal (`success`, `fail`, `failed`, `cancelled`), remove that task ID from active state and append/update the minimal processed journal.
-- When the **last Topview-managed active task** for that scene becomes terminal, remove the Scene ID from canonical slow automatically. This changes only render state: **never auto-approve, never auto-rerun, and do not change editorial/production state because rendering ended**.
-- Never auto-clear a canonical slow scene when there is no proven Topview active mapping; unknown/manual slow state is not cleared by guess.
-- `topview-status.json` stays compact but exposes transient `active_tasks[]`: one telemetry object for every task that is active **right now**. It also keeps the backward-compatible current/primary scene snapshot plus `active_task_ids`. No terminal task history, queue history or ETA history is stored there.
-- Control Center slow table deliberately shows **one row per active Topview task / occupied slot**. Therefore the same Scene ID may appear in several rows when it has several simultaneous renders. This is a slot view, not a duplicate-scene model.
-- A new Scene ID is created only for a genuinely new creative scene. Ambiguous classification means no master write and user notification.
-
-Principle: **keep only the state required for correctness and deduplication; detailed render history is not a permanent project entity**.
-
-### Точное ТЗ — Topview slow slots, capacity = 6
-
-Это постоянный UI/automation contract:
-
-1. **Ёмкость:** Topview допускает максимум **6 одновременно активных slow-generation tasks**. `slot_capacity = 6`.
-2. **Что занимает слот:** каждый отдельный Topview `task_id` в состоянии `init`, `queued`, `running` или `processing` занимает **ровно 1 слот**.
-3. **Scene ID и слоты — разные счётчики:** canonical `slow_scenes` остаётся множеством уникальных Scene ID без дублей. Число slow Scene ID **нельзя** использовать как число занятых слотов.
-4. **Повторный запуск той же сцены:** если одна Scene ID одновременно запущена 2–3 раза, она остаётся одной canonical scene, но занимает 2–3 Topview slot и должна появляться 2–3 отдельными строками в slow-таблице сайта.
-5. **Заголовок сайта:** справа от `⏳ Сейчас в медленной генерации — Topview` всегда показывать динамический текст точно в формате:
-   - `занято X из 6 · свободно Y`
-   - `X` = количество реально активных `task_id`;
-   - `Y = max(0, 6 - X)`.
-   При текущих шести active tasks ожидаемый вид: **`занято 6 из 6 · свободно 0`**.
-6. **Таблица:** одна строка = один active `task_id` = один занятый slot. Сохраняются прежние 8 колонок и их базовые пропорции: `#`, `Сцена`, `Модель`, `Статус`, `Запуск`, `Прошло`, `Очередь`, `Оценка времени`. Новую колонку `Attempt`/`Task ID` не добавлять. Если Scene ID повторяется, номер и название сцены повторяются в нескольких строках.
-7. **Telemetry:** `topview-status.json` должен содержать:
-   - `slot_capacity`;
-   - `occupied_slots`;
-   - `free_slots`;
-   - transient `active_tasks[]`, где на каждый активный task есть как минимум `scene_id`, `task_id`, `model/model_id`, `topview_status`, `started_at`, `checked_at`, `queue_count`, provider wait/process estimates и verification/mapping confidence, если известны.
-8. **Точность строки:** queue/ETA/status/start time каждой строки берутся **только из того task_id, которому принадлежит эта строка**. Не усреднять и не переносить очередь/ETA между параллельными попытками одной сцены.
-9. **Primary scene snapshot:** scene-level поля в `topview-status.json` можно сохранять для обратной совместимости/других частей сайта, но они **не являются источником slot-count** и не заменяют `active_tasks[]`.
-10. **Завершение:** terminal task (`success`, `fail`, `failed`, `cancelled`) немедленно перестаёт занимать slot и удаляется из `active_tasks[]`/`active_by_scene`. В minimal `processed_tasks` можно оставить только дедуп-факт.
-11. **Slow lifecycle:** если у Scene ID остаётся хотя бы один active task, Scene ID остаётся canonical slow. Если завершается последний Topview-managed active task, watcher снимает только render slow-state; approval/editorial/production state не меняются автоматически.
-12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6 · свободно 0`, считать это warning и уведомлять пользователя/аудит.
-13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
-14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
+`PROMPT-STYLE-GUIDE.md` отвечает только за качество, структуру и provenance prompts. Runtime-модель Topview, slot capacity, `active_tasks[]`, slow-table UI, queue/ETA telemetry и recovery invariants находятся в `SYNC-RUNBOOK.md` и не должны дублироваться здесь.
