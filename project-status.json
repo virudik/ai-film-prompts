@@ -3,11 +3,11 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-21T19:41:47Z",
+  "synced_at": "2026-09-21T21:27:17Z",
   "revision_date": "21.09.2026",
   "master_declared_last_full_sync": "17.09.2026 · 20:42 (+03:00)",
-  "canonical_master_sha256": "6daa514c9b9412644bdb3ac6b82b2145e5f5e9d1242217e74e51f378774d53c5",
-  "canonical_master_bytes": 241833,
+  "canonical_master_sha256": "a4513d35515621ae2ea55c9087d86b0928f226c06e80946159ab05df805da2b9",
+  "canonical_master_bytes": 249134,
   "scenes": 12,
   "prompt_texts": 24,
   "work_items": [
@@ -42,16 +42,16 @@
   "latest_scene": 20,
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-21T18:41:42Z",
+    "snapshot_at": "2026-09-21T21:27:05.635Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.001,
+    "age_hours_at_status_build": 0.003,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-21T08:48:18.272Z",
-        "github_blob": "5da2744e143e4f3b7c551d025e74a24071633c5c",
+        "drive_modified_at": "2026-09-21T21:26:04.933Z",
+        "github_blob": "0df66aa96c7a749c3e355dbd57737712a94bcb12",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
@@ -312,8 +312,8 @@
   },
   "audit_fingerprint": {
     "revision_date": "21.09.2026",
-    "synced_at": "2026-09-21T19:41:47Z",
-    "canonical_master_sha256": "6daa514c9b9412644bdb3ac6b82b2145e5f5e9d1242217e74e51f378774d53c5",
+    "synced_at": "2026-09-21T21:27:17Z",
+    "canonical_master_sha256": "a4513d35515621ae2ea55c9087d86b0928f226c06e80946159ab05df805da2b9",
     "scene_count": 12,
     "prompt_count": 24,
     "scene_ids": [

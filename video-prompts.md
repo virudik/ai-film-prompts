@@ -2778,6 +2778,20 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+### CHARACTER APPEARANCE / IDENTITY LOCK — MASHA-LAGUNA
+
+This appearance lock applies unchanged to **all 11 parts** of Scene 20.
+
+- **@Image2 is the absolute visual authority for Masha-Laguna.** If any written description conflicts with @Image2, follow @Image2.
+- Masha-Laguna is an adult woman with a smooth pale aquatic-blue complexion and a human feminine face with soft, balanced features.
+- Her silhouette is tall, slender and elegant. Preserve the exact body proportions and overall figure from @Image2.
+- Instead of ordinary human hair, she has long, thick, light-blue tentacle-like head strands descending along both sides and behind the head. Preserve their number, placement, length, thickness and natural movement as closely as the reference allows.
+- A glossy black organic ornamental structure frames the crown / upper head and continues into a high black neck-chest collar with a matching elongated decorative element over the upper back. Preserve this black ornamentation as part of the approved design.
+- Her main body silhouette is a sleek, floor-length, form-fitting light-blue gown-like / aquatic fantasy design matching @Image2. Preserve the exact approved design rather than inventing a new costume.
+- Keep the same face, blue skin tone, head shape, head strands, black ornamental elements, body proportions and silhouette in every shot and every camera angle.
+- Do not replace the head strands with ordinary hair, do not add a mermaid tail, fins, horns or extra tentacles, do not redesign the black ornamentation, do not change skin color, and do not turn her into a monster or a different fantasy species.
+- Wide shots, profile views, side tracking, orbit shots and close-ups must all preserve the same identity and design. Natural motion, wind and body movement are allowed; design drift is not.
+
 ### Песня Маши 1 — вступление и начало первого куплета
 
 **Музыкальный таймкод:** 0:00–0:30
@@ -2793,7 +2807,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -2802,9 +2816,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 1 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -2920,7 +2937,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -2929,9 +2946,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 2 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3051,7 +3071,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3060,9 +3080,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 3 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3182,7 +3205,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3191,9 +3214,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 4 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3310,7 +3336,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3319,9 +3345,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 5 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3441,7 +3470,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3450,9 +3479,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 6 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3567,7 +3599,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3576,9 +3608,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 7 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3698,7 +3733,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3707,9 +3742,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 8 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3826,7 +3864,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3835,9 +3873,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 9 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -3960,7 +4001,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -3969,9 +4010,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 10 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
@@ -4094,7 +4138,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
@@ -4103,9 +4147,12 @@ Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Follow the shared Scene 20 CHARACTER APPEARANCE / IDENTITY LOCK above. @Image2 remains the absolute visual authority for Masha-Laguna in every frame and camera angle. Preserve the exact approved identity/design; do not redesign or substitute features.
+
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 11 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact approved character design, same aquatic-blue skin tone, same head strands and black ornamental elements, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
