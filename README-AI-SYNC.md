@@ -205,16 +205,25 @@ Takeover context теперь включает не только instructions + 
 
 Hourly automation должна оставаться лёгкой: проверять наличие/целостность этих слоёв и предупреждать о drift, но не перечитывать/перегенерировать тяжёлый montage HTML или image payload каждый час.
 
-## Topview auto-intake flow
+## Topview task-intake flow
 
-Для genuinely new Topview video task:
+Для previously unknown Topview video task сначала выполняется classification:
 
-`Topview new video task`
-→ duplicate/retry guard
-→ actual task prompt/model/reference metadata
-→ next stable Scene ID
-→ SAME Drive master write
-→ canonical slow if running / `RESULT_RECEIVED` if already success
+`Topview unknown video task`
+→ already-known task ID? stop as known telemetry
+→ exact/normalization-equivalent active canonical prompt or explicit provenance?
+   → bind to **existing Scene ID**
+   → if queued/running/init/processing: add existing Scene ID to canonical slow
+   → preserve editorial/production state
+   → no duplicate Scene ID
+→ clearly distinct from active canonical scenes?
+   → genuinely new scene
+   → actual task prompt/model/reference metadata
+   → next stable Scene ID
+   → SAME Drive master write
+   → canonical slow if running / `RESULT_RECEIVED` if already success
+→ ambiguous?
+   → no master mutation, notify user
 → `SYNC-TRIGGER.txt`
 → `sync-from-drive.yml`
 → validation
@@ -222,7 +231,7 @@ Hourly automation должна оставаться лёгкой: проверя
 → Pages
 → task↔Scene mapping / telemetry refresh.
 
-Actual Topview prompt сохраняется verbatim как фактически использованный source prompt. Автоимпорт не может превращать технический `success` в user approval.
+Normalization may ignore only non-semantic `@image`/`<<<Image>>>`, whitespace/line-ending/reference-token formatting differences. Semantic resemblance alone must never cause a new task to be silently discarded. Actual Topview prompt of a genuinely new imported scene remains verbatim. Technical `success` never equals user approval.
 
 ## Service-files UI
 
