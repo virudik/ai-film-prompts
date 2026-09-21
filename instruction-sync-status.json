@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-21T10:38:21Z",
+  "checked_at": "2026-09-21T11:42:02Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
