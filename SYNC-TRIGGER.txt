@@ -1,2 +1,2 @@
-Sync Scene 20 English-only production prompts and normalize master UTF-8 without BOM
-2026-09-21T23:34:40Z
+Sync Scene 10-11 prompt quality upgrades and Scene 20 English-only cleanup
+2026-09-21T23:35:38Z
