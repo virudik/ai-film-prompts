@@ -415,3 +415,20 @@ Control Center → **Служебные файлы** должен явно ра�
 - Если нельзя надёжно решить, является task новой сценой или новой attempt существующей — no write / no new Scene ID; пометить ambiguous и уведомить пользователя.
 
 Ключевая модель данных: **Scene 1 → N Topview attempts**. Scene lifecycle и render-attempt lifecycle — разные сущности.
+
+## Slow table: one Scene row, many render attempts
+
+Control Center must visualize the canonical relation **one Scene ID → many Topview render attempts** without duplicating the creative scene.
+
+UI rule:
+- the slow table has exactly **one parent row per canonical Scene ID**;
+- if that Scene has more than one known or active Topview attempt, the parent row shows the attempt count and provides an expandable attempt list;
+- each attempt row shows its own model, technical status, start time, elapsed time, queue and ETA when those values are available for that exact task;
+- when more than one attempt is active simultaneously, the attempt rows are expanded by default so parallel renders are immediately visible;
+- canonical `slow_scenes` still contains the Scene ID once, regardless of how many attempts are active;
+- completed/historical attempts may remain visible in the expanded history but do not create extra Scene IDs;
+- `topview-task-map.json` is the durable Scene→attempt-history mapping; `topview-status.json` provides current/active telemetry. The UI may combine both, but must never merge queue/ETA values from different task IDs;
+- for full parallel-attempt telemetry, `topview-status.json` should expose per-task current data for every active attempt (for example `active_attempts[]`), while keeping backward-compatible current-attempt fields;
+- technical `success` never equals approval and does not automatically clear canonical slow.
+
+This presentation rule is part of the permanent Control Center baseline and must be checked after site/UI changes.
