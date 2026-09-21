@@ -67,7 +67,7 @@ Seven-document instruction/recovery set:
 11. Проверить Drive master == GitHub `video-prompts.md`.
 12. Проверить `project-status.json`.
 13. Проверить Pages build.
-14. Если сцена slow — не менять Topview mapping без доказанной необходимости.
+14. Если сцена slow — не менять Topview mapping без доказанной необходимости; newly launched replacement/retry task с exact/normalization-equivalent canonical prompt считается доказанной причиной обновить mapping.
 15. Только затем сообщать `ГОТОВО`.
 
 ## 4. Routine: добавить новую scene
@@ -332,25 +332,35 @@ Hourly recovery может делать **лёгкий integrity audit**: seven-
 
 Глубокая семантическая сверка персонажей с новыми prompts выполняется при material scene/prompt change и на takeover. Notion/Library можно проверять на явную устарелость, но автоматический hourly repair туда не должен слепо писать без необходимости.
 
-## 19. Topview auto-import routine
+## 19. Topview task intake / existing-scene binding
 
-`Topview Scene Intake & Slow Watch` может автоматически создать новую scene только из **genuinely new video-generation task**.
+`Topview Scene Intake & Slow Watch` обрабатывает previously unknown Topview video tasks по трём веткам:
 
-Порядок:
+1. **Existing canonical scene render/retry.** Actual task prompt exact/normalization-equivalent active canonical prompt либо есть explicit provenance к Scene ID. Нормализация может игнорировать только несемантические различия (`@image` ↔ `<<<Image>>>`, whitespace/line endings/reference-token formatting). Model/duration/reference structure должны быть совместимы.
+2. **Genuinely new scene.** Task явно описывает отдельную сцену, которой нет среди active canonical Scene IDs.
+3. **Ambiguous.** Нельзя безопасно доказать 1 или 2 → no master mutation, notify user. Одна semantic similarity не даёт права тихо отбросить task.
+
+Existing-scene routine:
 1. fresh master + `project-status.json` + `topview-status.json` + `topview-task-map.json`;
-2. scan recent Topview video tasks;
-3. исключить known task IDs, retries/duplicates и non-video jobs;
-4. получить exact actual prompt/model/task metadata;
-5. fresh-read master повторно непосредственно перед write;
-6. присвоить следующий unused stable Scene ID;
-7. сохранить actual Topview prompt verbatim, добавить human-readable Russian wrapper;
-8. valid `scene-meta`; running task → canonical slow, success → `RESULT_RECEIVED`, never `APPROVED`;
-9. SAME-ID Drive write;
-10. обычный trigger/sync/validation/GitHub mirror/`project-status.json`/Pages;
-11. записать task↔Scene mapping и refresh telemetry;
-12. уведомить пользователя о созданной сцене.
+2. scan recent Topview video tasks and exclude already-known task IDs/non-video jobs;
+3. доказать exact/normalization-equivalent match или explicit provenance;
+4. записать/обновить task↔**existing Scene ID** mapping; newly launched replacement/retry может заменить старый task binding;
+5. если task queued/running/init/processing — fresh-read master и добавить existing Scene ID в canonical slow во всех связанных slow markers/table/TOC, сохранив editorial/production state;
+6. если `success` — refresh telemetry, never `APPROVED`, не создавать duplicate Scene ID;
+7. если failed/cancelled — no auto-rerun; notify;
+8. SAME-ID Drive write только если canonical slow реально меняется;
+9. normal trigger/sync/validation/GitHub mirror/`project-status.json`/Pages.
 
-Если нельзя доказать, что task новая, а не retry, либо actual prompt недоступен — no master mutation.
+Genuinely-new-scene routine:
+1. получить exact actual prompt/model/task metadata;
+2. fresh-read master непосредственно перед write;
+3. присвоить следующий unused stable Scene ID;
+4. сохранить actual Topview prompt verbatim, добавить human-readable Russian wrapper;
+5. valid `scene-meta`; running task → canonical slow, success → `RESULT_RECEIVED`, never `APPROVED`;
+6. SAME-ID Drive write;
+7. normal trigger/sync/validation/GitHub mirror/`project-status.json`/Pages;
+8. записать task↔Scene mapping и refresh telemetry;
+9. уведомить пользователя о созданной сцене.
 
 ## 20. Site service-file navigation
 
