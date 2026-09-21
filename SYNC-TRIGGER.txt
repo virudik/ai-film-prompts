@@ -1,2 +1,2 @@
-Fix Topview existing-scene task binding and slow-lock
-2026-09-21T03:03:00Z
+Document Topview existing-scene binding fix
+2026-09-21T03:11:00Z
