@@ -341,3 +341,12 @@ Principle: **keep only the state required for correctness and deduplication; det
 12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6 · свободно 0`, считать это warning и уведомлять пользователя/аудит.
 13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
 14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
+
+
+### Recovery check: автономность prompts
+
+При восстановлении/передаче проекта проверять `PROMPT-STYLE-GUIDE.md`: каждый новый автономный production prompt должен содержать собственный short `CHARACTER APPEARANCE / IDENTITY LOCK`. Если prompt зависит от внешнего `shared block above`, это drift от действующего стандарта и требует исправления в master, а не просьбы пользователю вручную доклеить описание.
+
+### Recovery: prompt-quality contract
+
+При takeover/recovery считать fresh `PROMPT-STYLE-GUIDE.md` единственным стилевым стандартом. Проверять prompt semantically: self-contained copy-paste block, real appearance/identity protection, reference ownership/priority, feasible timing, coherent camera/continuity, risk-oriented negatives, no excessive duplication. Не восстанавливать старые полнотекстовые examples как canonical truth. Topview runtime/slot contract проверять по `SYNC-RUNBOOK.md`, не по prompt guide.
