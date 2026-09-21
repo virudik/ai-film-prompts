@@ -1,10 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-20T16:46:36Z",
+  "updated_at": "2026-09-21T03:02:00Z",
   "purpose": "Durable explicit Scene ID -> Topview task binding for current/known renders. Prevents remapping from prompt heuristics after normal scene edits.",
   "authority": "Telemetry mapping only. Google Drive video-prompts.md remains canonical for active scenes and slow membership.",
   "rules": [
     "Use an existing verified task_id first; do not rediscover it from semantic similarity on every run.",
+    "For an unknown Topview task whose actual prompt is an exact or normalization-equivalent match to an existing active canonical scene, bind the new task to that existing Scene ID; do not create a duplicate Scene ID.",
+    "When such a newly bound existing-scene task is queued/running/init/processing, add that existing Scene ID to the canonical slow list while preserving its editorial/production state.",
+    "Semantic resemblance alone is not enough to discard a task: if it is neither an explicit retry/exact existing-scene match nor clearly a new scene, mark it ambiguous and notify instead of silently ignoring it.",
     "Do not invalidate a binding merely because the canonical prompt text changes after a render was launched.",
     "Change a binding only after explicit user decision, a newly launched replacement task, or clear proof that the task belongs to a different scene.",
     "Topview success never implies approval and never removes canonical slow-lock."
@@ -18,6 +21,30 @@
       "binding_source": "user-confirmed/current Topview task",
       "note": "Telemetry binding only; does not control canonical slow/approval."
     },
+    "3": {
+      "task_id": "043d6d4c2350440dbc7bc593845387ab",
+      "model": "Seedance 2.5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "verified": true,
+      "binding_source": "exact canonical prompt match on newly discovered Topview task",
+      "note": "Existing canonical scene re-render binding. Running task makes the existing Scene ID slow; no duplicate Scene ID is created."
+    },
+    "4": {
+      "task_id": "cfe166820fe046e09d57870928dd87cd",
+      "model": "Seedance 2.5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "verified": true,
+      "binding_source": "exact canonical prompt match on newly discovered Topview task",
+      "note": "Existing canonical scene re-render binding. Running task makes the existing Scene ID slow; no duplicate Scene ID is created."
+    },
+    "5": {
+      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "model": "Seedance 2.5",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "verified": true,
+      "binding_source": "exact canonical prompt match on newly discovered Topview task",
+      "note": "Existing canonical scene re-render binding. Running task makes the existing Scene ID slow; no duplicate Scene ID is created."
+    },
     "12": {
       "task_id": "8d2103753bb145b7990014bf83a6f652",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -25,6 +52,14 @@
       "verified": true,
       "binding_source": "user-confirmed/current Topview task",
       "note": "Telemetry binding only; does not control canonical slow/approval."
+    },
+    "13": {
+      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "model": "Wan 3.0",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "verified": true,
+      "binding_source": "exact canonical prompt match on newly discovered Topview task",
+      "note": "Existing canonical scene re-render binding. Running task makes the existing Scene ID slow; no duplicate Scene ID is created."
     },
     "14": {
       "task_id": "1fd5e89e6cd64b41af6a007a88d0939f",
