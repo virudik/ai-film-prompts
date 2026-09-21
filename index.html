@@ -169,7 +169,7 @@ function renderTopview(tv,md){
  const occupied=tasks.length,free=Math.max(0,capacity-occupied);
  const cap=$('topviewCapacity');
  if(cap){
-  cap.textContent='занято '+occupied+' из '+capacity+' · свободно '+free;
+  cap.textContent='занято '+occupied+' из '+capacity+' · свободно '+free+' · синхр. '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна');
   cap.classList.toggle('full',occupied===capacity);
   cap.classList.toggle('over',occupied>capacity);
  }
