@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "source": "Topview read-only production telemetry",
   "checked_at": "2026-09-21T03:02:00Z",
   "timezone": "UTC",
-  "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
+  "canonical_behavior": "Telemetry only. Scene IDs are creative scenes; Topview task IDs are render attempts (one Scene -> many attempts). A new active attempt returns the existing Scene ID to canonical slow. Technical success never means approval and never clears slow automatically.",
   "estimation": {
     "basis": "Recent completed unlimited board tasks grouped by model; historical remaining estimates use observed completion durations minus current elapsed time.",
     "warning": "Both provider and historical ETA are estimates, not promises.",
@@ -32,7 +32,12 @@
       "verified": true,
       "queue_count": 1546,
       "topview_estimated_wait_seconds": 34560,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+      "active_attempt_ids": [
+        "d28b2481a8b344439fa175c3ef0b7f5b"
+      ],
+      "known_attempt_count": 1
     },
     "3": {
       "board": "My First Board",
@@ -56,7 +61,12 @@
       "verified": true,
       "queue_count": 3270,
       "topview_estimated_wait_seconds": 115308,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "043d6d4c2350440dbc7bc593845387ab",
+      "active_attempt_ids": [
+        "043d6d4c2350440dbc7bc593845387ab"
+      ],
+      "known_attempt_count": 1
     },
     "4": {
       "board": "My First Board",
@@ -80,7 +90,12 @@
       "verified": true,
       "queue_count": 3847,
       "topview_estimated_wait_seconds": 149867,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "cfe166820fe046e09d57870928dd87cd",
+      "active_attempt_ids": [
+        "cfe166820fe046e09d57870928dd87cd"
+      ],
+      "known_attempt_count": 1
     },
     "5": {
       "board": "My First Board",
@@ -104,7 +119,12 @@
       "verified": true,
       "queue_count": 2689,
       "topview_estimated_wait_seconds": 80745,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "active_attempt_ids": [
+        "3f1800f1f2774492ab8bc2eb163cc589"
+      ],
+      "known_attempt_count": 1
     },
     "13": {
       "board": "My First Board",
@@ -128,7 +148,12 @@
       "verified": true,
       "queue_count": 1892,
       "topview_estimated_wait_seconds": 46184,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "active_attempt_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ],
+      "known_attempt_count": 1
     },
     "19": {
       "board": "My First Board",
@@ -152,8 +177,13 @@
       "verified": true,
       "queue_count": 26,
       "topview_estimated_wait_seconds": 0,
-      "topview_estimated_process_seconds": null
+      "topview_estimated_process_seconds": null,
+      "current_attempt_id": "6ef310d646ca4605b5b10c12752b6ab7",
+      "active_attempt_ids": [
+        "6ef310d646ca4605b5b10c12752b6ab7"
+      ],
+      "known_attempt_count": 1
     }
   },
-  "note": "Telemetry reconciled to canonical slow set [2,3,4,5,13,19]. Four newly discovered queued Topview tasks are exact/normalization-equivalent matches to existing canonical Scenes 3, 4, 5 and 13; they are now explicitly bound to those existing Scene IDs and slow-locked. No duplicate Scene IDs were created. Topview success is technical completion only; canonical approval remains unchanged."
+  "note": "Telemetry reconciled to canonical slow set [2,3,4,5,13,19]. Four newly discovered queued Topview tasks are exact/normalization-equivalent matches to existing canonical Scenes 3, 4, 5 and 13; they are now explicitly bound to those existing Scene IDs and slow-locked. No duplicate Scene IDs were created. Topview success is technical completion only; canonical approval remains unchanged. One-to-many Scene→Topview-attempt model enabled: future reruns/rerenders must append attempt history and re-enter slow when active."
 }
