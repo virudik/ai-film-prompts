@@ -2845,9 +2845,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 1 / GLOBAL MUSIC TIMECODE 0:00–0:30:
-Открыть весь музыкальный номер: сначала озеро и одиночество Маши, затем первое очень личное вокальное вступление.
+Open the full musical number with the lake and Masha's solitude, then move into the first deeply personal vocal entrance.
 BLOCKING / PHYSICAL ACTION:
-Маша начинает почти неподвижно у самой воды. После первого вдоха медленно переводит взгляд с озера к камере, но ещё не идёт.
+Masha begins almost motionless at the water's edge. After the first breath, she slowly shifts her gaze from the lake toward the camera, but does not walk yet.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -2975,9 +2975,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 2 / GLOBAL MUSIC TIMECODE 0:30–1:00:
-Сделать номер визуально живым: Маша начинает медленно идти вдоль воды и впервые вступает с камерой в более прямой эмоциональный контакт.
+Make the performance visually more alive: Masha begins walking slowly along the water and establishes a more direct emotional connection with the camera for the first time.
 BLOCKING / PHYSICAL ACTION:
-Два-три медленных шага параллельно береговой линии; короткий взгляд в камеру, затем снова вдаль; к концу она останавливается и разворачивает корпус к объективу.
+She takes two or three slow steps parallel to the shoreline, gives the camera a brief look, then looks into the distance again; by the end she stops and turns her torso toward the lens.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3109,9 +3109,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 3 / GLOBAL MUSIC TIMECODE 1:00–1:30:
-Перевести песню из личной печали в более масштабное, тревожное высказывание и впервые использовать мягкое круговое движение камеры.
+Shift the song from personal sadness into a broader, more unsettling statement and introduce the first gentle orbiting camera move.
 BLOCKING / PHYSICAL ACTION:
-Маша остаётся на месте, но тело становится выразительнее: небольшой поворот плеч, сдержанный жест рукой, взгляд то в объектив, то поверх камеры.
+Masha remains in place, but her body language becomes more expressive: a slight shoulder turn, one restrained hand gesture, and a gaze alternating between the lens and just beyond the camera.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3243,9 +3243,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 4 / GLOBAL MUSIC TIMECODE 1:30–2:00:
-Дать первый настоящий припевный подъём: Маша сильнее обращается прямо к камере, но остаётся кинематографичной, без концертной истерики.
+Deliver the first true chorus lift: Masha addresses the camera more directly and intensely while remaining cinematic, with no concert-style hysteria.
 BLOCKING / PHYSICAL ACTION:
-Она делает один небольшой шаг к камере, потом остаётся на месте; плечи и руки раскрываются немного сильнее, чем в куплете.
+She takes one small step toward the camera, then stays in place; her shoulders and arms open slightly more than during the verse.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3374,9 +3374,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 5 / GLOBAL MUSIC TIMECODE 2:00–2:30:
-Закрыть первый припев мощным, клиповым, но не хаотичным блоком и сделать первый большой зрительский payoff.
+Close the first chorus with a powerful music-video passage that feels dynamic but never chaotic, delivering the sequence's first major visual payoff.
 BLOCKING / PHYSICAL ACTION:
-Маша поёт прямо в камеру, затем на одной фразе поворачивается на пол-оборота к озеру и снова возвращается в объектив; движения рук редкие и мотивированные.
+Masha sings directly to camera, turns halfway toward the lake during one phrase, then returns her gaze to the lens; hand gestures remain sparse and motivated.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3508,9 +3508,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 6 / GLOBAL MUSIC TIMECODE 2:30–3:00:
-Дать клипу дыхание между куплетами: меньше фронтального пения, больше красивого движения Маши и пейзажа, сохраняя её почти постоянно в кадре.
+Give the clip breathing room between verses: less frontal singing and more graceful movement through the lakeside environment, while keeping Masha visible almost continuously.
 BLOCKING / PHYSICAL ACTION:
-Маша медленно идёт вдоль воды, иногда смотрит на горизонт; вокализ исполняет свободнее, как часть музыкального номера, но не танцует.
+Masha walks slowly along the water, occasionally looking toward the horizon; she performs the vocalization more freely as part of the musical number, but does not dance.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3637,9 +3637,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 7 / GLOBAL MUSIC TIMECODE 3:00–3:30:
-Вернуть текст после интерлюдии, но уже с более зрелым и тяжёлым эмоциональным состоянием Маши.
+Bring the lyrics back after the interlude with Masha now carrying a more mature, heavier emotional state.
 BLOCKING / PHYSICAL ACTION:
-Она стоит под углом к камере, затем делает один-два медленных шага в сторону воды; периодически взгляд опускается и снова поднимается.
+She stands at an angle to the camera, then takes one or two slow steps toward the water; her gaze occasionally drops and then rises again.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3771,9 +3771,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 8 / GLOBAL MUSIC TIMECODE 3:30–4:00:
-Сделать сильный драматический мост к финальному припевному блоку; камера становится ближе, а Маша — собраннее и жёстче.
+Create a strong dramatic bridge into the final chorus section; the camera moves closer while Masha becomes more focused and emotionally firm.
 BLOCKING / PHYSICAL ACTION:
-Маша почти неподвижна в начале, затем разворачивается к камере и делает один уверенный шаг; на последней строке смотрит прямо в объектив.
+Masha is almost motionless at first, then turns toward the camera and takes one confident step; on the final line she looks directly into the lens.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -3902,9 +3902,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 9 / GLOBAL MUSIC TIMECODE 4:00–4:30:
-Максимально приблизить номер к финальной кульминации: быстрых склеек нет, но движения камеры и Маши ощущаются мощнее.
+Drive the number decisively toward its final climax: there are no rapid cuts, but both Masha's movement and the camera movement feel more powerful.
 BLOCKING / PHYSICAL ACTION:
-Маша медленно идёт к камере по диагонали вдоль берега, затем останавливается; на последних строках удерживает прямой взгляд.
+Masha slowly approaches the camera on a diagonal path along the shoreline, then stops; during the final lines she holds direct eye contact.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -4039,9 +4039,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 10 / GLOBAL MUSIC TIMECODE 4:30–5:00:
-Дать главный эмоциональный пик всего номера: наиболее сильная актёрская подача, самый выразительный close-up и затем расширение кадра перед аутро.
+Deliver the main emotional peak of the entire number: the strongest performance, the most expressive close-up, then widen the framing in preparation for the outro.
 BLOCKING / PHYSICAL ACTION:
-Маша почти не ходит: энергия теперь в лице, дыхании, корпусе и нескольких точных жестах. На середине припева может слегка раскрыть руки, затем снова собрать их.
+Masha barely walks here; the energy is carried by her face, breathing, torso, and a few precise gestures. Midway through the chorus she may open her arms slightly, then bring them back in.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
@@ -4176,9 +4176,9 @@ Masha is not merely posing for a camera: she is physically performing the song i
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 11 / GLOBAL MUSIC TIMECODE 5:00–5:30:
-Закончить песню и дать красивое кинематографичное послевкусие: после последних звуков Маша остаётся у воды одна, а камера медленно отступает.
+Finish the song with a cinematic afterglow: after the final sounds, Masha remains alone by the water as the camera slowly pulls away.
 BLOCKING / PHYSICAL ACTION:
-Первые секунды — финальный вокализ; затем Маша перестаёт петь, выдыхает, переводит взгляд на озеро и остаётся почти неподвижной.
+The opening seconds contain the final vocalization; then Masha stops singing, exhales, turns her gaze toward the lake, and remains almost motionless.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
