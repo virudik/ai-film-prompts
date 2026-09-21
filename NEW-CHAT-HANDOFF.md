@@ -73,7 +73,7 @@ Comments backend only; no prompt/master rights.
 
 На checkpoint после Scene 20:
 - 12 active scenes
-- 14 full prompt texts
+- 24 full prompt texts
 - W5, W7, W8
 - active IDs: `1,2,3,4,5,10,11,13,16,17,19,20`
 - deleted/reserved IDs: `6,7,9`
