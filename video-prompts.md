@@ -10,7 +10,7 @@
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
 
-**21.09.2026 · 16 сцен к генерации/доработке · 19 полных текстов промтов**
+**21.09.2026 · 12 сцен к генерации/доработке · 14 полных текстов промтов**
 
 
 - **🛠️ 3** сцены в раннем блоке **«Сцены в работе»**: W5, W7, W8.
@@ -22,7 +22,7 @@
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
 
-**Синхронизация контекста:** **21.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. Все 16 активных сцен и 19 полных текстов сохранены. Сцены 6, 7 и 9 удалены из active master по прямому решению пользователя как больше не актуальные. Canonical slow-list сейчас: **2, 3, 4, 5, 13, 19**. Сцены 3, 4, 5 и 13 были повторно запущены в Topview и привязаны к существующим Scene ID, поэтому новые Scene ID для этих задач не создаются. Сцена 20 «Маша-Лагуна: рок-припев у озера» остаётся READY и не slow. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **21.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются 12 актуальных сцен и 14 полных текстов. Сцены 6, 7, 9, 12, 14, 15 и 18 удалены из active master по прямому решению пользователя как уже отработанные/больше не актуальные; их Scene ID остаются зарезервированы и не переиспользуются. Canonical slow-list сейчас: **2, 3, 4, 5, 13, 19**. Сцены 3, 4, 5 и 13 были повторно запущены в Topview и привязаны к существующим Scene ID, поэтому новые Scene ID для этих задач не создаются. Сцена 20 «Маша-Лагуна: рок-припев у озера» остаётся READY и не slow. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 
 ## ⏳ Сейчас в медленной генерации
@@ -50,13 +50,9 @@
 | 5 | [Космическая погоня — единый дубль через стекло](#scene-5)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = первый кадр; @image2 = корабль; @image3 = интерьер; @image4 = последний кадр | Альтернатива сценам 3–4: внешний космический бой → непрерывный пролёт камеры через стекло → интерьер кабины → точный финальный кадр. |
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
-| 12 | [Кантина — вход двух джедаев](#scene-12) | @Image1 = стартовый кадр; @Image2 = Hooded Jedi; @Image3 = Bearded Jedi; @Image4 = зал кантины | Один непрерывный дубль: вход со спины → проход в зал → облёт камеры с раскрытием лиц. |
 | 13 | [Совет джедаев — говорящий кот](#scene-13)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @image1 = композиция/локация; @image2 = кот; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
-| 14 | [Канцлер — сбор грибов в гигантском лесу](#scene-14) | @image3 = Chancellor | Канцлер с неожиданным энтузиазмом ищет и собирает грибы среди колоссальных древних деревьев; визуально сцена серьёзная, юмор сухой и контрастный. |
-| 15 | [Кашиик — сверхбыстрые прыжки между деревьями](#scene-15) | @image4 = Black; @image5 = Purple | Те же лесные джедаи на огромной скорости вылетают из лесной деревни в гигантский лес, отталкиваясь от стволов и ветвей, выполняя несколько последовательных этапов длинных контролируемых прыжков без мультяшной стилизации. |
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак. |
 | 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17) | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
-| 18 | [Имперский крейсер — Канцлер и офицер в коридоре](#scene-18) | @Image1 = Chancellor; @Image2 = Imperial Officer | 30-секундный диалог на ходу о новом оружии. Два варианта: A — нейтральный live-action sci-fi без франшизных терминов; B — более выраженная атмосфера военного космооперного крейсера в духе Imperial Star Destroyer. |
 | 19 | [Рыбалка и Маша-Лагуна](#scene-19)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
 | 20 | [Маша-Лагуна — рок-припев у озера](#scene-20) | @Image1 = локация/берег озера; @Image2 = Маша-Лагуна | Маша-Лагуна одна стоит у воды и исполняет оригинальный эмоциональный англоязычный рок-припев. Один стабильный непрерывный план плавно приближается от общего/среднего к более интимному кадру; точная локация и identity Маши сохраняются. |
 
@@ -83,14 +79,12 @@
 Это рабочие направления для последующего разбора. Они не являются автоматическим разрешением менять существующие промты, снимать slow-lock или запускать новые генерации без отдельного решения пользователя.
 
 
-1. **Разобрать результаты генераций сцен 12, 14, 15 и 18.** Оценить конкретные ролики и принять решение: принять, доработать, оставить как есть или перезапустить. Topview `success` сам по себе не означает принятие сцены.
-2. **Закрыть сюжетную логику карты и Warcraft.** Определить, зачем Канцлеру карта, что дают её части и как это связано с Warcraft 3 / турниром, чтобы уже существующий компьютерный финал стал понятным payoff, а не случайным эпизодом.
-3. **Закрыть последствия боя с монстром.** Для сцены 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
-4. **Разобраться с Татуином и транспортом.** Согласовать W6/W8 с уже существующей погоней: какую часть материала заменяет эпизод с гигантским червём, когда окончательно исчезает/разрушается машина и у кого остаётся фрагмент карты.
-5. **Доделать переходы W7.** Проверить Татуин → Набу, последствия монстра → лесную группу, лесной финал → компьютер и другие слабые стыки. Генерировать новый переход только там, где функцию нельзя закрыть существующим планом, звуком или короткой репликой.
-6. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: 3, 4, 10, 11, 13, 17; сцена 18 — NEEDS_RERENDER. Сцены 3, 4 и 13 сейчас дополнительно находятся под slow-lock из-за активных Topview-задач; не запускать их повторно до результата/ошибки или отдельного решения пользователя. Не переписывать их массово и не считать production status разрешением на новый render.
-7. **После закрытия новых сцен перейти к финальному монтажному проходу.** Выбрать сокращения повторных боёв, танцев, гиперпрыжков и лесных проходов, пересчитать хронометраж и затем вручную проверить склейки, звук, музыку, continuity и краткие артефакты.
-
+1. **Закрыть сюжетную логику карты и Warcraft.** Определить, зачем Канцлеру карта, что дают её части и как это связано с Warcraft 3 / турниром, чтобы уже существующий компьютерный финал стал понятным payoff, а не случайным эпизодом.
+2. **Закрыть последствия боя с монстром.** Для сцены 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
+3. **Разобраться с Татуином и транспортом.** Согласовать W6/W8 с уже существующей погоней: какую часть материала заменяет эпизод с гигантским червём, когда окончательно исчезает/разрушается машина и у кого остаётся фрагмент карты.
+4. **Доделать переходы W7.** Проверить Татуин → Набу, последствия монстра → лесную группу, лесной финал → компьютер и другие слабые стыки. Генерировать новый переход только там, где функцию нельзя закрыть существующим планом, звуком или короткой репликой.
+5. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: 3, 4, 10, 11, 13, 17. Сцены 3, 4 и 13 сейчас дополнительно находятся под slow-lock из-за активных Topview-задач; не запускать их повторно до результата/ошибки или отдельного решения пользователя. Не переписывать их массово и не считать production status разрешением на новый render.
+6. **После закрытия новых сцен перейти к финальному монтажному проходу.** Выбрать сокращения повторных боёв, танцев, гиперпрыжков и лесных проходов, пересчитать хронометраж и затем вручную проверить склейки, звук, музыку, continuity и краткие артефакты.
 #### Сюжетные идеи-кандидаты для детального разбора
 
 Это предложения соавтора, а не утверждённые сцены и не разрешение на генерацию. Их задача — закрыть уже найденные сюжетные пробелы минимальным количеством нового материала.
@@ -917,74 +911,6 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 ---
 
 
-<a id="scene-12"></a>
-
-
-## Сцена 12 — Кантина: вход двух джедаев
-
-
-<!-- scene-meta: {"target_engine":"Wan 3.0","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["continuous_take","manual_review"]} -->
-
-
-
-**Контекст использования:** Сверка: вход в кантину уже есть по сюжетной функции. Перед генерацией проверить, нужен ли именно этот дубль как замена существующему входу (P12).
-
-
-**Референсы:** @Image1 = точный стартовый кадр со спины · @Image2 = Hooded Jedi · @Image3 = Bearded Jedi · @Image4 = зал кантины
-
-
-**Что происходит:** Один непрерывный дубль: два джедая входят через дверь точно как на стартовом референсе, проходят глубже в зал, затем камера облетает их сбоку и выходит на фронтальный ракурс, впервые раскрывая лица.
-
-
-```text
-[IMAGE REFERENCE 1: @Image1 - Exact Opening Frame Reference (Doorway Entrance)]
-[IMAGE REFERENCE 2: @Image2 - Hooded Jedi Model Sheet]
-[IMAGE REFERENCE 3: @Image3 - Bearded Jedi Model Sheet]
-[IMAGE REFERENCE 4: @Image4 - Cantina Hall Reference]
-
-
-Optimized for Wan 3 | Photorealistic Sci-Fi Atmosphere & Character Entrance | Duration: 30s | 4K 24fps
-
-
-ENVIRONMENT & ASSET LOCK:
-- JEDI 1 "The Hooded Jedi" (@Image2): Mustached man, tousled brown hair, weathered face with faint frown lines, light-green layered tunic, hooded deep-red cloak (hood up while walking in from outside), brown leather boots, a metal lightsaber hilt clipped to his belt.
-- JEDI 2 "The Bearded Jedi" (@Image3): Heavier build, short beard, warm friendly face, cream tunic under a brown Jedi over-robe, wide brown belt with a lightsaber hilt, brown leather boots. Calm demeanor but alert, watchful eyes.
-- Cantina (@Image4): Busy stone-arched alien bar interior — long bar counter lined with bottles, multiple hanging amber and red lanterns, dozens of alien patrons of varied species seated at tables and standing at the bar, a small astromech droid visible among them, hazy smoke drifting through shafts of light, additional archways leading to other parts of the space.
-- Opening frame (@Image1): Exact starting composition — camera positioned directly behind the two Jedi as they step through a stone doorway into a dim interior threshold, a wall panel with red indicator lights beside the door, bright sandy exterior visible behind them.
-
-
-CAMERA & TIMELINE (00:00 - 00:30) — single continuous take, no hard cuts:
-
-
-- 00:00–00:10 (Entrance — matches @Image1 exactly):
-Camera positioned directly behind the two Jedi at medium-wide distance, framing matching @Image1 precisely — the Hooded Jedi on the left, the Bearded Jedi on the right — both walking steadily forward through the stone doorway, leaving the bright sandy exterior behind them and moving into the dim interior beyond. Camera trails smoothly behind at their walking pace, same eye-level height as the reference.
-
-
-- 00:10–00:20 (Walking Deeper In):
-The corridor opens into the wide cantina hall from @Image4 — rows of alien patrons at scattered tables, the long bar lined with bottles, hanging lanterns glowing amber and red, hazy smoke drifting through beams of light. Camera continues its steady follow from behind as the two Jedi walk further in, both turning their heads slightly left and right, visibly taking in the room and its occupants.
-
-
-- 00:20–00:30 (The Orbit Reveal):
-As the two Jedi slow to a stop near the middle of the room, the camera peels smoothly away from its follow position and begins a wide circular orbit around them, swinging from behind to their side and finally around to face them head-on — revealing both of their faces (matching @Image2 and @Image3) for the first time, alert and wary as they take in the cantina. Around them, alien patrons continue their business, a few glancing warily toward the newcomers.
-
-
-LIGHTING & VISUAL EFFECTS:
-Bright harsh desert daylight spilling through the doorway behind them at the very start, quickly giving way to warm amber and red lantern glow inside, drifting smoke haze catching the light beams, deep shadow in the archways.
-
-
-AUDIO:
-Ambient cantina chatter and murmured alien voices, distant lounge-style alien music, footsteps on stone floor, occasional clinking glasses, no dialogue from either Jedi, no non-diegetic score.
-
-
-NEGATIVE PROMPT: characters speaking, subtitles, text on screen, camera cuts or jump cuts, shaky handheld motion, wrong robe colors, hood down during Shot 1, cartoon, anime, low quality, watermark, logo, unwanted non-diegetic music.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
----
-
-
 <a id="scene-13"></a>
 
 
@@ -1075,182 +1001,6 @@ identity drift, face swap, face duplication, costume swap, missing mustache, wro
 
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
----
-
-
-<a id="scene-14"></a>
-
-
-## Сцена 14 — Канцлер: сбор грибов в гигантском лесу
-
-
-<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["comedy"],"target_engine":"Seedance 2.5"} -->
-
-
-
-
-**Контекст использования:** Новый активный промт на основе бывшей W2; рабочий пункт W2 получил конкретный референс Канцлера и теперь оформлен как активная сцена 14. 30-секундная серьёзно снятая комедийная вставка перед/внутри лесной линии: пока другие персонажи ищут опасного Канцлера, он с неожиданным искренним энтузиазмом занят грибами. Излишки затем можно сократить на монтаже.
-
-
-**Референсы:** @image3 = Chancellor, точный модель-шит лица, телосложения и тёмно-фиолетовой мантии. Лес задаётся текстом: огромные древние деревья, густой влажный подлесок, масштаб почти монументальный.
-
-
-**Что происходит:** Канцлер один идёт по колоссальному лесу с небольшой корзиной, внимательно изучает землю, замечает первую группу грибов у гигантского корня, почти научно осматривает их и бережно собирает. Затем он замечает ещё более интересный гриб глубже между корнями, быстро, но всё ещё серьёзно перебирается к нему, сравнивает находки, складывает добычу в корзину и в конце снова видит что-то перспективное впереди и уходит глубже в лес.
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCE:
-@image3 — PRIMARY exact character identity reference for THE CHANCELLOR: pale middle-aged-to-older man, bald on top with thin pale blond hair around the sides and back, pale blue-grey eyes, heavy facial structure, wearing a long deep-purple / black-purple hooded robe with layered dark fabric. Preserve his exact face, age, build, hair pattern, robe design, robe color, and proportions throughout.
-
-
-SCENE:
-A vast ancient forest on a giant-tree world. Tree trunks are enormous, wider than buildings, rising far beyond the upper frame. Massive exposed roots form natural ridges across the damp forest floor. Dense moss, ferns, fallen leaves, small plants, drifting mist, and shafts of warm filtered sunlight create a rich photorealistic environment. The Chancellor is completely alone.
-
-
-The scene is intentionally funny but must be performed and photographed with absolute seriousness. The Chancellor is not behaving like a clown. He is genuinely, almost scholarly, delighted by mushroom hunting and gives the task the same focused importance he would give to a strategic military operation.
-
-
-TIMELINE:
-[0:00–0:06]
-Wide cinematic tracking shot. The Chancellor walks slowly through the colossal forest carrying a small simple woven basket in his left hand. He studies the ground with intense concentration, occasionally moving aside a fern with his free hand. His purple robe brushes naturally against moss and low vegetation. The giant trees establish an overwhelming sense of scale.
-
-
-[0:06–0:11]
-He suddenly notices a small cluster of unusual but realistic forest mushrooms growing beside an enormous moss-covered root. His expression changes subtly: eyebrows lift, eyes sharpen with genuine interest, and a restrained pleased smile appears. He changes direction immediately and steps over a low root toward them with surprising but controlled enthusiasm.
-
-
-[0:11–0:17]
-Camera lowers into a medium three-quarter shot as he crouches beside the root. He carefully examines two mushrooms from several angles without damaging them, gently brushes away a leaf, checks the underside of one cap, then cleanly picks the best specimen at the stem. He studies it in his hand with almost scientific fascination.
-
-
-[0:17–0:21]
-He places the first mushroom carefully into the basket, then picks a second smaller one. Before standing, he compares the two for a beat, visibly satisfied with the selection. The comedy stays completely dry and understated.
-
-
-[0:21–0:26]
-While still crouched, he notices another larger but biologically plausible mushroom growing several meters away in a pocket between two gigantic roots. His eyes widen slightly. He rises faster than before, steps over the root ridge and moves toward it with renewed purpose, keeping the basket steady.
-
-
-[0:26–0:30]
-He reaches the second patch, kneels briefly, gently lifts the larger mushroom to inspect it without immediately picking it, then looks deeper into the forest and notices yet another promising area off-screen. A small satisfied smile returns. He stands and continues deeper between the colossal trunks as the camera follows, ending with him fully absorbed in the hunt.
-
-
-CAMERA:
-One continuous physically stable cinematic shot. Smooth controlled glide following and gently arcing around the Chancellor. The camera may lower with him when he crouches and rise naturally when he stands, but never teleports or cuts. Maintain one coherent 3D forest space; every root, tree and mushroom must already exist in the environment and be revealed naturally by camera movement.
-
-
-CHARACTER PERFORMANCE:
-Restrained live-action acting. Small facial micro-expressions only. He is focused, curious and sincerely pleased, not manic or goofy. Keep the same face, age, bald pattern, body shape and robe from @image3 in every frame. Natural crouching, hand contact, stepping over roots and weight transfer. His growing enthusiasm is shown through slightly quicker movement and attentive eyes, not exaggerated gestures.
-
-
-FOREST / LIGHTING:
-Photorealistic giant ancient forest. Monumental trunks, deep layered canopy, warm dappled sunlight, soft volumetric rays, cool green ambient bounce, damp moss, subtle atmospheric mist, natural insects and distant birds. Mushrooms should look biologically plausible and varied, not neon fantasy props. No modern objects.
-
-
-AUDIO (native):
-Deep quiet forest ambience, distant birds, faint insects, soft wind high in the canopy, footsteps compressing damp moss, robe brushing vegetation, slight basket creak, tiny natural sounds as mushrooms are handled and picked. No dialogue. No music.
-
-
-NEGATIVE PROMPT:
-identity drift, different face, different age, full head of hair, robe color change, costume change, duplicate Chancellor, extra people, modern hiking equipment, plastic basket, magical glowing mushrooms, giant comedy mushroom, psychedelic neon colors, slapstick acting, exaggerated grin, distorted hands, extra fingers, mushroom growing or morphing on contact, trees appearing from nowhere, changing forest geometry, floating roots, camera shake, hard cuts, cartoon, anime, game-render look, text, subtitles, logos, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
----
-
-
-<a id="scene-15"></a>
-
-
-## Сцена 15 — Кашиик: сверхбыстрые прыжки между гигантскими деревьями
-
-
-<!-- scene-meta: {"production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"],"target_engine":"Wan 3.0"} -->
-
-
-
-
-**Контекст использования:** Новый активный промт на основе бывшей W3; рабочий пункт W3 получил конкретные референсы Black/Purple и теперь оформлен как активная сцена 15. 30-секундный динамический переход лесной группы **из лесной деревни в глубину гигантского леса**; сцена построена как серия последовательных этапов перемещения, чтобы при необходимости её было удобно укорачивать на монтаже. В кадре те же Black и Purple, что в сцене 13 и в сцене 8 на мосту.
-
-
-**Референсы:** @image4 = Black, точный модель-шит · @image5 = Purple, точный модель-шит
-
-
-**Что происходит:** Black и Purple стартуют **в лесной деревне**, затем резко выпрыгивают из неё в открытый лес и на огромной скорости пересекают пространство между колоссальными деревьями. Они не летают: каждый длинный прыжок имеет понятную физическую причину — разбег, отталкивание от ветви или ствола, короткая пробежка по наклонной/вертикальной поверхности, новый толчок и контролируемое приземление. За 30 секунд маршрут проходит несколько последовательных фаз: выход из деревни, серия прыжков по мостам/ветвям, вертикальные и диагональные перелёты между гигантскими стволами, затем уход всё глубже в лес. Визуально это реалистичное игровое кино с энергией wuxia и "Атаки титанов", но без мультяшной пластики.
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCES:
-@image4 — PRIMARY exact identity reference for BLACK: heavyset man with short brown hair, black tunic, dark leather vest/armor panels, dark forearm glove/gauntlet, brown trousers, tall brown boots, brown utility belt, lightsaber hilt secured at the belt. Preserve his exact face, heavier body build, hair, costume and proportions throughout.
-@image5 — PRIMARY exact identity reference for PURPLE: leaner man with brown hair and a distinct mustache, purple inner tunic, long grey hooded outer robe, brown belt, tan boots, lightsaber hilt secured at the belt. Preserve his exact face, mustache, lean build, hair, costume colors and proportions throughout.
-
-
-IDENTITY / COSTUME LOCK:
-BLACK and PURPLE remain two separate fixed identities for the entire shot. Never blend their faces, body shapes or clothing. BLACK remains visibly heavier and more powerful in movement. PURPLE remains leaner and slightly more agile. Their lightsaber hilts stay attached to their belts; no blades are drawn in this traversal shot.
-
-
-ENVIRONMENT:
-A colossal ancient jungle forest with an elevated wooden tree-village built around gigantic trunks and branches. Rope bridges, suspended platforms and village structures occupy the opening area. Beyond the village lies a vast jungle of enormous trunks, giant branches, moss, vines and layered canopy. Warm shafts of sunlight cut through cool green mist. Deep background layers reveal extreme vertical scale.
-
-
-ACTION — SINGLE CONTINUOUS 30-SECOND HIGH-SPEED TRAVERSAL:
-[0:00–0:05]
-Begin inside or at the edge of the elevated forest village. Rope bridges, hanging platforms and wooden structures are clearly visible. BLACK and PURPLE burst out from the village edge at speed, establishing immediately that they are departing from the village, not approaching it. Camera launches with them and keeps both readable.
-
-
-[0:05–0:10]
-They sprint across a swaying rope-and-plank bridge between giant trunks. PURPLE reaches the far end first and launches into a long leap toward a huge branch outside the village perimeter. BLACK follows a fraction of a second later with a heavier, more forceful jump. Robes, belts and loose fabric react naturally to speed and air.
-
-
-[0:10–0:15]
-Both land and continue without stopping. PURPLE uses a neighboring vertical trunk as a brief foot plant to redirect upward and forward. BLACK takes a more powerful lower line, lands harder, compresses through the knees, then drives upward off a broad side branch. Every airborne movement has a visible push-off, arc and landing — they do not float.
-
-
-[0:15–0:20]
-The route transitions fully into open forest traversal. Camera races parallel through foreground leaves as the pair chain together several fast movements: landing on a slanted branch, short sprint, diagonal leap, brief bark run along a colossal trunk, then another push into open air. The tree-village is now visibly behind them in the distance.
-
-
-[0:20–0:25]
-Hero traversal section. The camera arcs smoothly around a massive central trunk while PURPLE takes a nimble high path and BLACK takes a heavier, lower but equally fast path. They cross a large open gap on separate trajectories through shafts of warm sunlight, then both regain the same general level. No branch breaks catastrophically; movement remains grounded and physically believable.
-
-
-[0:25–0:30]
-They continue deeper into the giant jungle, moving away from the village. Both converge onto a broad forward-leading branch or elevated root-like pathway and keep running into the forest interior. Camera transitions into a forward-leading angle, moving backward in front of them for the final seconds while keeping both faces readable. End with the sense that they are heading farther into the wild forest beyond the village.
-
-
-MOVEMENT RULES:
-Photorealistic live-action high-speed acrobatic traversal with controlled wire-fu / vertical-mobility energy. Fast and spectacular, but every jump must show clear momentum, gravity, push-off and landing. No superhero flight. No hovering. No invisible propulsion. No impossible mid-air direction changes. Bodies retain realistic weight and inertia. BLACK's movement is heavier and more forceful; PURPLE's movement is lighter and more nimble, but both remain physically believable. Do not overpack the 30 seconds with random tricks: each movement must flow causally into the next.
-
-
-CAMERA:
-Single continuous pursuit shot for the full 30 seconds. Physically stable cinematic motion with controlled inertia. Camera may smoothly transition between village-edge follow, side-tracking, gentle orbit around an existing trunk, slightly lower pursuit, and a forward-leading final angle, but there are no hard cuts, jump cuts or random viewpoint teleports. Strong foreground foliage parallax and deep background motion reinforce speed and scale. No random jitter or micro-shake.
-
-
-SPATIAL CONTINUITY:
-Maintain one coherent 3D forest space. The giant trees, trunks, branches, bridges and village structures exist before the characters reach them. Do not generate new geometry suddenly beneath their feet. Landing branches must be visible or naturally revealed before impact. The village remains behind them after the opening and gradually recedes into the background rather than appearing ahead at the end. No clipping through bark or foliage. Characters never intersect one another.
-
-
-STYLE / LIGHTING:
-Photorealistic big-budget live-action sci-fi/fantasy. Real skin, cloth, bark, moss and atmospheric depth. Warm golden shafts through cool green canopy, subtle volumetric mist, natural motion blur, moderate depth of field so identity remains readable. Anime-like kinetic intensity translated into realistic cinema, not animated rendering.
-
-
-AUDIO (native):
-Strong rushing wind during leaps, rapid footsteps on bark and wooden bridges, heavier branch impacts, cloth and robe flutter, leaves whipping past camera, distant jungle ambience and subtle wood creaks. BLACK's landings sound slightly heavier than PURPLE's. No dialogue. No music.
-
-
-NEGATIVE PROMPT:
-identity drift, face swap, merged characters, body-shape swap, costume swap, missing mustache, wrong robe colors, drawn lightsabers, glowing blades, superhero flying, hovering, levitation, invisible propulsion, impossible mid-air turns, weightless movement, rubber limbs, exaggerated anime body deformation, cartoon, anime render, game-render look, extra characters, duplicate characters, distorted hands, extra fingers, feet clipping into bark, characters passing through trees, branches appearing from nowhere, warped tree geometry, tiny ordinary forest scale, village appearing ahead as destination at the end, unstable camera, random shake, hard cuts, montage, text, subtitles, logos, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
 ---
 
 
@@ -1427,171 +1177,6 @@ new monster attack, living monster, red liquid blood, guts, gore, comedy tone, r
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
-
----
-
-
-<a id="scene-18"></a>
-
-
-## Сцена 18 — Имперский крейсер: Канцлер и офицер в коридоре
-
-
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"NEEDS_RERENDER","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","needs_rerender"]} -->
-
-
-
-**Контекст использования:** Активная 30-секундная диалоговая сцена для Wan 3.0. Предыдущий результат получился слишком мультяшным/глянцевым, поэтому обе версии ниже специально усиливают live-action realism: реальные фактуры кожи и ткани, физически правдоподобный свет, сдержанная актёрская игра, тяжёлый материальный интерьер и одна непрерывная камера без монтажной «нарезки». Вариант A — максимально нейтральный и модель-дружелюбный; вариант B — более узнаваемая атмосфера мрачного имперского военного крейсера.
-
-
-**Референсы:** @Image1 = Chancellor Model Sheet · @Image2 = Imperial Officer Model Sheet
-
-
-**Что происходит:** Канцлер в глубоких фиолетовых бархатных одеждах и имперский офицер в оливково-серой форме быстрым уверенным шагом идут по длинному металлическому коридору большого военного звездолёта. Офицер докладывает о новом оружии: «Оружие, разработанное по вашему заказу, превзошло все ожидания. Оно мощное и неразрушимое.» Канцлер с едва заметной холодной улыбкой отвечает: «Не терпится его опробовать.» Камера всё время движется перед ними назад, сначала держит двоих, затем мягко подчёркивает лицо Канцлера и к финалу снова раскрывает масштаб коридора.
-
-
-### Вариант A — нейтральный live-action sci-fi, максимально против мультяшности
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCES:
-@Image1 — PRIMARY exact identity reference for the Chancellor: pale older man, thinning hair / bald crown, deep purple velvet robes, controlled cold expression. Preserve his exact face, age, body proportions, robe silhouette, skin texture and identity throughout.
-@Image2 — PRIMARY exact identity reference for the Imperial Officer: adult man in an olive-grey military uniform, disciplined posture, fitted tunic and restrained expression. Preserve his exact face, body type, uniform, proportions and identity throughout.
-
-
-REFERENCE PRIORITY:
-@Image1 and @Image2 are absolute identity locks. Do not average, beautify, stylize or cartoonize either face. Preserve realistic adult anatomy, natural asymmetry, believable eye movement and stable costume details.
-
-
-STYLE GOAL:
-Photorealistic live-action cinematic science fiction. The scene must feel photographed on a physical film set with real actors, practical corridor lighting, real fabric, subtle set wear and restrained visual effects. Serious political-thriller / military-space-drama tone. NOT animation, NOT stylized CGI, NOT a game cutscene, NOT glossy toy-like sci-fi.
-
-
-ENVIRONMENT / PRODUCTION DESIGN:
-A long corridor inside a massive authoritarian military starship. Brushed gunmetal wall panels, dark semi-reflective floor sections with subtle scuffs, recessed doors, practical vertical white light strips, sparse red and blue control indicators, ventilation seams, tiny signs of use and maintenance. The set feels heavy, expensive, industrial and physically built. Reflections are soft and imperfect, never mirror-like plastic. Very light atmospheric haze adds depth. A few distant uniformed guards stand at attention far in the background, small and secondary.
-
-
-SCENE STRUCTURE — ONE CONTINUOUS 30-SECOND TAKE:
-[0:00–0:07]
-Open in a medium frontal tracking two-shot. Camera retreats smoothly in front of both men as they walk at a brisk but controlled pace. The Chancellor carries calm authority; the Officer keeps disciplined posture. Natural footfalls, cloth movement and subtle corridor parallax immediately sell live-action scale.
-
-
-[0:07–0:17]
-Without stopping or cutting, the Officer turns his head slightly toward the Chancellor while continuing to walk. Exact Russian lip-sync:
-OFFICER: «Оружие, разработанное по вашему заказу, превзошло все ожидания. Оно мощное и неразрушимое.»
-He delivers it like a professional report with restrained confidence, not like an animated villain. Mouth shapes, jaw motion and breathing remain subtle and realistic.
-
-
-[0:17–0:23]
-The camera gently eases a little closer toward the Chancellor while remaining in the same moving shot. The Officer stays partially readable beside him. The Chancellor gives only the faintest controlled smile and a brief calculating side glance. Exact Russian lip-sync:
-CHANCELLOR: «Не терпится его опробовать.»
-The line is quiet, satisfied and slightly dangerous — no theatrical grin, no exaggerated eyebrow movement.
-
-
-[0:23–0:30]
-Camera gradually widens while continuing to retreat. Both men keep walking with uninterrupted momentum. The corridor opens up behind them, distant guards remain at attention, and the scale of the military ship becomes more imposing. End on a clean wide moving composition, as if the conversation simply continues beyond the cut.
-
-
-CAMERA:
-Single continuous unbroken tracking shot for the full 30 seconds. Smooth stabilized dolly / precision-gimbal behavior with controlled inertia. No hard cuts, no jump cuts, no sudden zooms, no teleporting viewpoint. Small motivated re-framing only. Physically stable cinematic motion; no random jitter or micro-shake.
-
-
-PERFORMANCE:
-Grounded adult live-action acting. Natural blinking, restrained micro-expressions, small head turns, realistic walking rhythm, believable breathing. No broad gestures, no rubbery animation, no theatrical cartoon performance. The Chancellor is calm and predatory; the Officer is formal and slightly proud of the result.
-
-
-LIVE-ACTION REALISM LOCK:
-Realistic pores and skin texture, subtle age detail, natural eye reflections, real cloth weave, physically correct robe weight, believable uniform creases, practical-light falloff, cinematic lens behavior, mild film grain, natural motion blur and moderate depth of field. Faces must remain recognizably human and photographic in every frame.
-
-
-LIGHTING:
-Cool white practical corridor strips are the main light source. Gentle edge light separates the characters from the dark metallic background. Small control-panel accents add restrained red/blue points without bathing faces in neon. No oversaturated cyberpunk color wash.
-
-
-AUDIO (native):
-Exact Russian dialogue with accurate lip sync. Rhythmic boots on metal flooring, soft robe movement, low ship-engine vibration, ventilation hum and subtle electronic door ambience. No music, or at most an almost inaudible low atmospheric tone. Dialogue remains dominant and intelligible.
-
-
-NEGATIVE PROMPT:
-cartoon, animation, anime, stylized CGI, game cutscene, toy-like sci-fi, plastic skin, wax face, over-smoothed skin, glossy plastic corridor, exaggerated expressions, huge smile, melodramatic acting, rubbery motion, lip desync, frozen mouth, face morphing, identity drift, costume drift, warped corridor geometry, fake mirror reflections, oversaturated neon, handheld chaos, jitter, hard cuts, jump cuts, lightsabers, weapons drawn, extra foreground characters, subtitles, text, logos, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
-### Вариант B — более выраженная атмосфера Imperial Star Destroyer / классической космооперы
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-REFERENCES:
-@Image1 — PRIMARY exact identity reference for the Chancellor: pale older man with thinning hair / bald crown in deep purple velvet robes. Preserve exact face, age, body proportions, robe silhouette and identity throughout.
-@Image2 — PRIMARY exact identity reference for the Imperial Officer: adult man in an olive-grey Imperial-style military uniform. Preserve exact face, body type, uniform details and identity throughout.
-
-
-REFERENCE PRIORITY:
-Character identity always comes from @Image1 and @Image2. The corridor and military atmosphere must never overwrite their faces or costumes. No stylization or character redesign.
-
-
-STYLE GOAL:
-Photorealistic live-action classic space-opera cinema with the severe military atmosphere of an Imperial Star Destroyer corridor: monumental scale, disciplined geometry, cold practical lighting, dark gunmetal surfaces, restrained retro-futuristic control panels and authoritarian visual order. It should feel like a serious big-budget live-action feature, not an animated series, fan-game cutscene or glossy CG demo.
-
-
-ENVIRONMENT / IMPERIAL CORRIDOR:
-A vast Imperial Star Destroyer-like interior hallway: long dark metallic passage, repeating wall ribs and door frames, vertical cool-white practical light panels, black and charcoal floor sections with controlled reflections, small red/blue indicator lights, recessed control stations, heavy blast-door architecture and deep perspective. The corridor has subtle scratches, panel seams, edge wear and practical imperfections. Distant stormtroopers stand rigidly at attention near side doors, small enough not to distract from the two leads.
-
-
-SCENE — ONE CONTINUOUS WALK-AND-TALK SHOT:
-[0:00–0:07]
-Medium frontal tracking shot. Camera moves backward at walking speed while Chancellor and Officer advance side by side through the Imperial corridor. Their silhouettes feel heavy and real: the Chancellor's purple velvet robe has weight and folds; the Officer's uniform remains crisp but naturally creased. No one stops walking.
-
-
-[0:07–0:17]
-The Officer turns slightly toward the Chancellor while keeping pace. Exact Russian lip-sync:
-OFFICER: «Оружие, разработанное по вашему заказу, превзошло все ожидания. Оно мощное и неразрушимое.»
-Delivery is clipped, professional and quietly impressed. No villain caricature. Keep both characters in the same moving shot.
-
-
-[0:17–0:23]
-Camera drifts subtly closer to the Chancellor within the same take, giving him visual dominance without cutting. He keeps walking, gives a tiny calculating smile and answers with exact Russian lip-sync:
-CHANCELLOR: «Не терпится его опробовать.»
-His tone is low, controlled and pleased. The expression remains minimal and believable.
-
-
-[0:23–0:30]
-The camera gently pulls wider again, revealing more corridor depth and several distant stormtroopers at attention as the pair continue forward. The rhythmic repetition of Imperial architecture and practical light panels creates scale. End while they are still walking; no pose, no stop, no dramatic freeze.
-
-
-CAMERA / LENS:
-Single continuous stabilized tracking take. Medium two-shot → subtle moving emphasis on Chancellor → wider two-shot, all achieved by smooth dolly/gimbal movement and lens/framing adjustment, never by cuts. 35–50mm live-action cinematic lens feel, natural perspective, mild anamorphic character if supported, realistic depth of field, restrained lens flare only from practical lights.
-
-
-ACTING:
-Serious live-action performances. Chancellor: quiet authority, predatory calm, almost imperceptible satisfaction. Officer: disciplined, efficient, mildly proud. Natural eye contact, realistic blink timing and restrained micro-expressions. No broad hand gestures, no cartoon timing, no camp.
-
-
-MATERIAL REALISM:
-Real human skin with pores and age texture. Real velvet with directional sheen, not plastic gloss. Real military wool/synthetic uniform weave. Heavy metal wall panels with subtle roughness and edge wear. Reflections obey physical light sources. Slight atmospheric haze gives depth but never turns the corridor into a foggy fantasy set.
-
-
-LIGHTING:
-Cold practical Imperial corridor lighting, slightly underexposed cinematic contrast, controlled highlights on faces and robe edges, deep but readable shadows, small red/blue control lights. No neon rainbow lighting and no overly clean 3D-render illumination.
-
-
-AUDIO (native):
-Exact Russian dialogue and natural lip-sync. Boots echo rhythmically on metal, robe fabric moves softly, low starship engine rumble, ventilation, distant electronic door hum, faint armor movement from background stormtroopers. No music required; if any score appears, keep it extremely low and ominous.
-
-
-NEGATIVE PROMPT:
-cartoon, animated-series look, anime, stylized 3D, glossy fan-game render, Unreal Engine cutscene look, toy corridor, plastic walls, plastic skin, waxy faces, exaggerated Palpatine-like grimace, campy villain acting, oversized smile, identity drift, face morphing, lip desync, floating walk cycle, sliding feet, corridor warping, extra main characters, stormtroopers crowding foreground, handheld shake, jitter, hard cuts, montage, lightsabers, drawn weapons, subtitles, text, logo, watermark.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
 
 ---
 
