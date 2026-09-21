@@ -4,14 +4,263 @@
   "checked_at": "2026-09-21T05:46:16Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Scene IDs are creative scenes; Topview task IDs are render attempts (one Scene -> many attempts). A new active attempt returns the existing Scene ID to canonical slow. Technical success never means approval and never clears slow automatically.",
-  "estimation": {"warning":"Provider queue/wait/process fields are per exact task and are estimates, not promises. queueCount is provider telemetry, not a guaranteed ordinal position."},
-  "scenes": {
-    "2": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"d28b2481a8b344439fa175c3ef0b7f5b","current_attempt_id":"d28b2481a8b344439fa175c3ef0b7f5b","active_attempt_ids":["d28b2481a8b344439fa175c3ef0b7f5b"],"known_attempt_count":1,"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-19T17:29:40Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"explicit","verified":true,"queue_count":2292,"topview_estimated_wait_seconds":60364,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"d28b2481a8b344439fa175c3ef0b7f5b","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-19T17:29:40Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":2292,"topview_estimated_wait_seconds":60364,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}]},
-    "3": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"043d6d4c2350440dbc7bc593845387ab","current_attempt_id":"043d6d4c2350440dbc7bc593845387ab","active_attempt_ids":["043d6d4c2350440dbc7bc593845387ab"],"known_attempt_count":1,"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:38:15Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"explicit","verified":true,"queue_count":3727,"topview_estimated_wait_seconds":141004,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"043d6d4c2350440dbc7bc593845387ab","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:38:15Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":3727,"topview_estimated_wait_seconds":141004,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}]},
-    "4": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"cfe166820fe046e09d57870928dd87cd","current_attempt_id":"cfe166820fe046e09d57870928dd87cd","active_attempt_ids":["cfe166820fe046e09d57870928dd87cd"],"known_attempt_count":1,"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:40:09Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"explicit","verified":true,"queue_count":4304,"topview_estimated_wait_seconds":175564,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"cfe166820fe046e09d57870928dd87cd","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:40:09Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":4304,"topview_estimated_wait_seconds":175564,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}]},
-    "5": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"3f1800f1f2774492ab8bc2eb163cc589","current_attempt_id":"3f1800f1f2774492ab8bc2eb163cc589","active_attempt_ids":["3f1800f1f2774492ab8bc2eb163cc589"],"known_attempt_count":1,"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:36:43Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"explicit","verified":true,"queue_count":3150,"topview_estimated_wait_seconds":106444,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"3f1800f1f2774492ab8bc2eb163cc589","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:36:43Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":3150,"topview_estimated_wait_seconds":106444,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}]},
-    "13": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","current_attempt_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","active_attempt_ids":["73cf9e84d8b14f5f8d6653f7f6ae7318"],"known_attempt_count":1,"model":"Wan 3.0","model_id":"qwen-wan3.0-video","topview_status":"init","started_at":"2026-09-21T02:12:11Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"explicit","verified":true,"queue_count":2557,"topview_estimated_wait_seconds":71884,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","model":"Wan 3.0","model_id":"qwen-wan3.0-video","topview_status":"init","started_at":"2026-09-21T02:12:11Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":2557,"topview_estimated_wait_seconds":71884,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}]},
-    "19": {"board":"My First Board","board_id":"1a6244cf1ae747ef847d949a80d6133c","task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","current_attempt_id":"e4ad0298cf7d48a98c6ba6498bb62c48","active_attempt_ids":["e4ad0298cf7d48a98c6ba6498bb62c48"],"known_attempt_count":2,"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T03:25:17Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","mapping_confidence":"exact_prompt_and_reference_semantics","verified":true,"queue_count":4881,"topview_estimated_wait_seconds":210124,"topview_estimated_process_seconds":null,"active_attempts":[{"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T03:25:17Z","completed_at":null,"checked_at":"2026-09-21T05:46:16Z","queue_count":4881,"topview_estimated_wait_seconds":210124,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"exact_prompt_and_reference_semantics"}],"attempt_history_summary":[{"task_id":"6ef310d646ca4605b5b10c12752b6ab7","model":"Wan 3.0","status":"success","completed_at":"2026-09-21T03:20:45Z"},{"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","model":"Seedance 2.5","status":"init","started_at":"2026-09-21T03:25:17Z"}]}
+  "estimation": {
+    "warning": "Provider queue/wait/process fields are per exact task and are estimates, not promises. queueCount is provider telemetry, not a guaranteed ordinal position."
   },
-  "note": "Telemetry reconciled to canonical slow set [2,3,4,5,13,19]. No previously unknown recent video task was found in this run. All six active attempts remain init; per-task provider telemetry was refreshed individually and active_attempts[] is populated for Control Center expansion. No approval/editorial state was changed."
+  "scenes": {
+    "2": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+      "current_attempt_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+      "active_attempt_ids": [
+        "d28b2481a8b344439fa175c3ef0b7f5b"
+      ],
+      "known_attempt_count": 1,
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-19T17:29:40Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 2292,
+      "topview_estimated_wait_seconds": 60364,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+          "model": "Seedance 2.5",
+          "model_id": "seedance-2.5",
+          "topview_status": "init",
+          "started_at": "2026-09-19T17:29:40Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 2292,
+          "topview_estimated_wait_seconds": 60364,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "explicit",
+          "board_task_id": "d28b2481a8b344439fa175c3ef0b7f5b",
+          "is_current": true
+        }
+      ]
+    },
+    "3": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "043d6d4c2350440dbc7bc593845387ab",
+      "current_attempt_id": "043d6d4c2350440dbc7bc593845387ab",
+      "active_attempt_ids": [
+        "043d6d4c2350440dbc7bc593845387ab"
+      ],
+      "known_attempt_count": 1,
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:38:15Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 3727,
+      "topview_estimated_wait_seconds": 141004,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "043d6d4c2350440dbc7bc593845387ab",
+          "model": "Seedance 2.5",
+          "model_id": "seedance-2.5",
+          "topview_status": "init",
+          "started_at": "2026-09-21T02:38:15Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 3727,
+          "topview_estimated_wait_seconds": 141004,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "explicit",
+          "board_task_id": "043d6d4c2350440dbc7bc593845387ab",
+          "is_current": true
+        }
+      ]
+    },
+    "4": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "cfe166820fe046e09d57870928dd87cd",
+      "current_attempt_id": "cfe166820fe046e09d57870928dd87cd",
+      "active_attempt_ids": [
+        "cfe166820fe046e09d57870928dd87cd"
+      ],
+      "known_attempt_count": 1,
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:40:09Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 4304,
+      "topview_estimated_wait_seconds": 175564,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "cfe166820fe046e09d57870928dd87cd",
+          "model": "Seedance 2.5",
+          "model_id": "seedance-2.5",
+          "topview_status": "init",
+          "started_at": "2026-09-21T02:40:09Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 4304,
+          "topview_estimated_wait_seconds": 175564,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "explicit",
+          "board_task_id": "cfe166820fe046e09d57870928dd87cd",
+          "is_current": true
+        }
+      ]
+    },
+    "5": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "current_attempt_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "active_attempt_ids": [
+        "3f1800f1f2774492ab8bc2eb163cc589"
+      ],
+      "known_attempt_count": 1,
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:36:43Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 3150,
+      "topview_estimated_wait_seconds": 106444,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+          "model": "Seedance 2.5",
+          "model_id": "seedance-2.5",
+          "topview_status": "init",
+          "started_at": "2026-09-21T02:36:43Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 3150,
+          "topview_estimated_wait_seconds": 106444,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "explicit",
+          "board_task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+          "is_current": true
+        }
+      ]
+    },
+    "13": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "current_attempt_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "active_attempt_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ],
+      "known_attempt_count": 1,
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:12:11Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 2557,
+      "topview_estimated_wait_seconds": 71884,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+          "model": "Wan 3.0",
+          "model_id": "qwen-wan3.0-video",
+          "topview_status": "init",
+          "started_at": "2026-09-21T02:12:11Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 2557,
+          "topview_estimated_wait_seconds": 71884,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "explicit",
+          "board_task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+          "is_current": true
+        }
+      ]
+    },
+    "19": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+      "current_attempt_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+      "active_attempt_ids": [
+        "e4ad0298cf7d48a98c6ba6498bb62c48"
+      ],
+      "known_attempt_count": 2,
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T03:25:17Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T05:46:16Z",
+      "mapping_confidence": "exact_prompt_and_reference_semantics",
+      "verified": true,
+      "queue_count": 4881,
+      "topview_estimated_wait_seconds": 210124,
+      "topview_estimated_process_seconds": null,
+      "active_attempts": [
+        {
+          "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+          "model": "Seedance 2.5",
+          "model_id": "seedance-2.5",
+          "topview_status": "init",
+          "started_at": "2026-09-21T03:25:17Z",
+          "completed_at": null,
+          "checked_at": "2026-09-21T05:46:16Z",
+          "queue_count": 4881,
+          "topview_estimated_wait_seconds": 210124,
+          "topview_estimated_process_seconds": null,
+          "verified": true,
+          "mapping_confidence": "exact_prompt_and_reference_semantics",
+          "board_task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+          "is_current": true
+        }
+      ],
+      "attempt_history_summary": [
+        {
+          "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
+          "model": "Wan 3.0",
+          "status": "success",
+          "completed_at": "2026-09-21T03:20:45Z"
+        },
+        {
+          "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+          "model": "Seedance 2.5",
+          "status": "init",
+          "started_at": "2026-09-21T03:25:17Z"
+        }
+      ]
+    }
+  },
+  "note": "Telemetry reconciled to canonical slow set [2,3,4,5,13,19]. No previously unknown recent video task was found in this run. All six active attempts remain init; per-task provider telemetry was refreshed individually and active_attempts[] is populated for Control Center expansion. No approval/editorial state was changed.",
+  "ui_contract": {
+    "slow_table": "one parent row per Scene ID; expandable attempt rows",
+    "active_attempts": "topview-status.json scenes.<id>.active_attempts[] contains task-level telemetry for all currently active attempts",
+    "queue_eta": "never merge queue/ETA across different task IDs"
+  }
 }
