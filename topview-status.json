@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Topview read-only production telemetry",
-  "checked_at": "2026-09-21T02:52:00Z",
+  "checked_at": "2026-09-21T03:02:00Z",
   "timezone": "UTC",
   "canonical_behavior": "Telemetry only. Does not change Drive master production_state, slow lock, approval, edit or closed state. Topview success means technical completion only.",
   "estimation": {
@@ -20,18 +20,114 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:29:40Z",
       "completed_at": null,
-      "checked_at": "2026-09-21T02:52:00Z",
-      "elapsed_hours_at_check": 33.37,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 33.53,
       "historical_eta": {
         "basis_model": "Seedance 2.5",
         "recent_completed_unlimited_samples": 1,
         "observed_completion_hours_median": 69.26,
-        "remaining_hours_median": 35.89
+        "remaining_hours_median": 35.73
       },
       "mapping_confidence": "explicit",
       "verified": true,
-      "queue_count": 1558,
-      "topview_estimated_wait_seconds": 34993,
+      "queue_count": 1546,
+      "topview_estimated_wait_seconds": 34560,
+      "topview_estimated_process_seconds": null
+    },
+    "3": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "043d6d4c2350440dbc7bc593845387ab",
+      "board_task_id": "043d6d4c2350440dbc7bc593845387ab",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:38:15Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 0.39,
+      "historical_eta": {
+        "basis_model": "Seedance 2.5",
+        "recent_completed_unlimited_samples": 1,
+        "observed_completion_hours_median": 69.26,
+        "remaining_hours_median": 68.87
+      },
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 3270,
+      "topview_estimated_wait_seconds": 115308,
+      "topview_estimated_process_seconds": null
+    },
+    "4": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "cfe166820fe046e09d57870928dd87cd",
+      "board_task_id": "cfe166820fe046e09d57870928dd87cd",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:40:09Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 0.36,
+      "historical_eta": {
+        "basis_model": "Seedance 2.5",
+        "recent_completed_unlimited_samples": 1,
+        "observed_completion_hours_median": 69.26,
+        "remaining_hours_median": 68.9
+      },
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 3847,
+      "topview_estimated_wait_seconds": 149867,
+      "topview_estimated_process_seconds": null
+    },
+    "5": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "board_task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:36:43Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 0.42,
+      "historical_eta": {
+        "basis_model": "Seedance 2.5",
+        "recent_completed_unlimited_samples": 1,
+        "observed_completion_hours_median": 69.26,
+        "remaining_hours_median": 68.84
+      },
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 2689,
+      "topview_estimated_wait_seconds": 80745,
+      "topview_estimated_process_seconds": null
+    },
+    "13": {
+      "board": "My First Board",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "board_task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-09-21T02:12:11Z",
+      "completed_at": null,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 0.83,
+      "historical_eta": {
+        "basis_model": "Wan 3.0",
+        "recent_completed_unlimited_samples": 3,
+        "observed_completion_hours_median": 70.31,
+        "remaining_hours_median": 69.48
+      },
+      "mapping_confidence": "explicit",
+      "verified": true,
+      "queue_count": 1892,
+      "topview_estimated_wait_seconds": 46184,
       "topview_estimated_process_seconds": null
     },
     "19": {
@@ -44,20 +140,20 @@
       "topview_status": "init",
       "started_at": "2026-09-19T17:10:24Z",
       "completed_at": null,
-      "checked_at": "2026-09-21T02:52:00Z",
-      "elapsed_hours_at_check": 33.69,
+      "checked_at": "2026-09-21T03:02:00Z",
+      "elapsed_hours_at_check": 33.86,
       "historical_eta": {
         "basis_model": "Wan 3.0",
         "recent_completed_unlimited_samples": 3,
         "observed_completion_hours_median": 70.31,
-        "remaining_hours_median": 36.62
+        "remaining_hours_median": 36.45
       },
       "mapping_confidence": "explicit",
       "verified": true,
-      "queue_count": 54,
-      "topview_estimated_wait_seconds": 432,
+      "queue_count": 26,
+      "topview_estimated_wait_seconds": 0,
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "Telemetry reconciled to fresh canonical slow set [2,19]. Recent board scan found four new queued video tasks, all exact semantic retries of existing canonical Scenes 3, 4, 5 and 13; no genuinely new scene was imported. Topview success is technical completion only; canonical slow/approval remain unchanged."
+  "note": "Telemetry reconciled to canonical slow set [2,3,4,5,13,19]. Four newly discovered queued Topview tasks are exact/normalization-equivalent matches to existing canonical Scenes 3, 4, 5 and 13; they are now explicitly bound to those existing Scene IDs and slow-locked. No duplicate Scene IDs were created. Topview success is technical completion only; canonical approval remains unchanged."
 }
