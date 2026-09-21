@@ -1,2 +1,2 @@
-Compact slow-table UI final sync
-2026-09-21T07:38:00Z
+Topview state simplification
+2026-09-21T08:12:21Z
