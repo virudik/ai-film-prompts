@@ -2732,1722 +2732,1477 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <a id="scene-20"></a>
 
-
-
-
 ## Сцена 20 — Маша-Лагуна: рок-припев у озера
 
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"en"},"tags":["music_performance","vocal_performance","11_part_sequence","lakeshore","cinematic_music_video","musical"]} -->
 
-
-
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"en"},"tags":["music_performance","vocal_performance","11_part_sequence","lakeshore","cinematic_music_video"]} -->
-
-
-
-
-**Контекст использования:** Полный музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**, которые затем собираются в один клип / музыкальную сцену. @Image1 задаёт точную локацию берега озера, @Image2 — точную identity Маши-Лагуны. Во всех 11 частях сохраняются одна и та же внешность, одежда, причёска, локация, свет, цветокоррекция и экранное направление. Каждый подраздел ниже является отдельным полноценным master-level prompt. Вокальный текст внутри prompts взят **только из текста, который пользователь напрямую предоставил в чате**, и должен исполняться дословно с sung lip sync.
-
-
-
+**Контекст использования:** Полный музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**, которые затем собираются в единый клип / музыкальную сцену. Это не 11 новых Scene ID: весь номер остаётся **Scene 20**. @Image1 задаёт точный берег озера, @Image2 — точную identity Маши-Лагуны. Все части используют одинаковую внешность, одежду, причёску, локацию, погоду, световую логику и цветокоррекцию. Вокальный текст внутри prompts взят **только из текста, напрямую предоставленного пользователем**, и должен исполняться дословно с sung lip sync.
 
 **Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference
 
+**Режиссёрская формула всей Scene 20:** основа всегда — берег озера; Маша почти всё время остаётся в кадре и является эмоциональным центром. Клип не должен быть статичным: по ходу номера она то стоит, то медленно идёт вдоль воды, то поворачивается к камере, то смотрит вдаль, то поёт прямо в объектив. Камера сознательно чередует **wide establishing shot, slow dolly-in, side tracking, gentle orbit / partial orbit, backward tracking, medium performance framing, expressive close-up и slow final pull-back**. Общая эстетика — **меланхоличный, драматичный и красивый cinematic music video, соединённый с эмоциональной ясностью мюзикла**. Никакой концертной сцены, танцоров, случайного клипового хаоса или одиннадцати одинаковых статичных кадров.
 
+**Что происходит:** номер развивается как единая драматургическая дуга: тихое одиночное вступление → нарастающее внутреннее напряжение → первый припевный выброс → музыкальная передышка с движением вдоль воды → более тяжёлый второй куплет → финальное нарастание → главный эмоциональный пик → спокойный широкий аутро. Каждая часть — один устойчивый 30-секундный кинематографичный фрагмент; монтаж между частями формирует единый клип.
 
+**Монтажная сетка / camera-blocking map:**
 
-**Что происходит:** Маша-Лагуна одна исполняет у озера цельный эмоциональный рок-номер, поставленный как кинематографичный музыкальный клип / мюзикл. Визуальная драматургия развивается от спокойного широкого вступления через более близкие и эмоциональные куплеты к мощным припевам, затем приходит к тихому широкому аутро. Каждая 30-секундная часть снята как устойчивый непрерывный кинематографичный фрагмент без хаотичного монтажа; монтаж между частями формирует общий клип.
+| Часть | Музыкальный диапазон | Драматургия | Маша / камера |
+|---:|---:|---|---|
+| 1 | 0:00–0:30 | вступление и начало первого куплета | стоит → slow dolly-in → medium |
+| 2 | 0:30–1:00 | первый куплет — движение вдоль воды | медленно идёт вдоль воды → боковой tracking |
+| 3 | 1:00–1:30 | первый куплет — война в голове | стоит / поворот плеч → gentle orbit |
+| 4 | 1:30–2:00 | первый припев — первый эмоциональный выброс | шаг к камере → dolly-in → close-up |
+| 5 | 2:00–2:30 | первый припев — кульминация и вопрос | пол-оборота к озеру и обратно → half-orbit |
+| 6 | 2:30–3:00 | вокализ / инструментальная передышка | идёт вдоль воды → wide side tracking |
+| 7 | 3:00–3:30 | второй куплет — новая волна | 1–2 шага к воде → diagonal dolly-in |
+| 8 | 3:30–4:00 | второй куплет — историческая тема и нарастание | почти стоит → поворот к камере → near-frontal orbit |
+| 9 | 4:00–4:30 | финальный подъём — война продолжается | идёт к камере по диагонали → backward tracking |
+| 10 | 4:30–5:00 | финальный припев — вершина | почти стоит, максимум эмоции → close-up + partial orbit |
+| 11 | 5:00–5:30 | финальный вокализ и визуальный аутро | остаётся у воды → slow pull-back → wide outro |
 
+**Важно о таймингах:** интервалы 0:00–5:30 — рабочая сетка 11 генерационных блоков по 30 секунд. Порядок вокального текста фиксирован. Если фактический аудиотрек имеет иные внутренние длительности пауз/инструментальных мест, финальная синхронизация выполняется по реальной waveform в монтаже без изменения порядка слов.
 
+### GLOBAL DIRECTING BIBLE — Scene 20
 
-
-**Монтажная сетка:** Песня Маши 1 = 0:00–0:30 · 2 = 0:30–1:00 · 3 = 1:00–1:30 · 4 = 1:30–2:00 · 5 = 2:00–2:30 · 6 = 2:30–3:00 · 7 = 3:00–3:30 · 8 = 3:30–4:00 · 9 = 4:00–4:30 · 10 = 4:30–5:00 · 11 = финальный 30-секундный сегмент с окончанием вокала в начале и визуальным аутро. Точное музыкальное попадание в исходный аудиотрек при финальном монтаже при необходимости подравнивается по фактической дорожке; порядок и слова вокала не менять.
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 
 
 ### Песня Маши 1 — вступление и начало первого куплета
 
-
-
-
 **Музыкальный таймкод:** 0:00–0:30
 
+**Функция фрагмента:** Открыть весь музыкальный номер: сначала озеро и одиночество Маши, затем первое очень личное вокальное вступление.
 
+**Пластика Маши:** Маша начинает почти неподвижно у самой воды. После первого вдоха медленно переводит взгляд с озера к камере, но ещё не идёт.
 
-
-**Функция фрагмента:** Begin as the visual opening of the full musical number. Masha is already at the exact lakeshore, alone, facing partly toward the water and partly toward camera. She begins restrained and intimate, with the feeling that the song is emerging from silence.
-
-
-
+**Камера:** Start in a wide establishing shot that clearly shows Masha and the lake, then perform one very slow controlled dolly-in toward a medium-wide / medium framing. No orbit yet.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 1 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 1 / GLOBAL MUSIC TIMECODE 0:00–0:30:
-Begin as the visual opening of the full musical number. Masha is already at the exact lakeshore, alone, facing partly toward the water and partly toward camera. She begins restrained and intimate, with the feeling that the song is emerging from silence.
-
-
-
+Открыть весь музыкальный номер: сначала озеро и одиночество Маши, затем первое очень личное вокальное вступление.
+BLOCKING / PHYSICAL ACTION:
+Маша начинает почти неподвижно у самой воды. После первого вдоха медленно переводит взгляд с озера к камере, но ещё не идёт.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 Another head hangs lowly,
 Child is slowly taken
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:06] Start medium-wide. Hold the lake, shoreline and Masha clearly in one coherent composition. She takes one natural preparatory breath; the camera begins an extremely slow controlled push-in.
-[0:06–0:15] She sings the first exact lyric line. Her gaze is mostly beyond camera toward the lake; emotion is contained, almost private.
-[0:15–0:24] She sings the second exact lyric line. Let her eyes return toward camera near the end of the phrase; wind moves only loose hair and fabric.
-[0:24–0:30] No new words. Let the last syllable resolve naturally into the instrumental space while the camera settles into a clean medium-wide / medium composition.
-
-
-
+[0:00–0:06]
+Wide establishing image of the exact lakeshore. Masha is already present near the water, almost still. One natural preparatory breath; wind moves only loose hair and fabric.
+[0:06–0:15]
+Sing the first exact lyric line. Masha looks mostly toward the distance across the lake, not directly at camera.
+[0:15–0:24]
+Sing the second exact lyric line. Her gaze slowly returns toward camera; emotion becomes more personal.
+[0:24–0:30]
+No new words. Let the final syllable resolve naturally into the music while the dolly-in settles into a clean medium composition.
 
 CAMERA / LENS / CONTINUITY:
-One continuous shot. Start medium-wide and perform a slow, physically stable dolly-in. No orbit yet; establish geography first.
+Start in a wide establishing shot that clearly shows Masha and the lake, then perform one very slow controlled dolly-in toward a medium-wide / medium framing. No orbit yet.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+quiet melancholy, contained grief, intimate vulnerability.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 2.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
 
 
-
-
-
-
-
-
-### Песня Маши 2 — первый куплет — напряжение нарастает
-
-
-
+### Песня Маши 2 — первый куплет — движение вдоль воды
 
 **Музыкальный таймкод:** 0:30–1:00
 
+**Функция фрагмента:** Сделать номер визуально живым: Маша начинает медленно идти вдоль воды и впервые вступает с камерой в более прямой эмоциональный контакт.
 
+**Пластика Маши:** Два-три медленных шага параллельно береговой линии; короткий взгляд в камеру, затем снова вдаль; к концу она останавливается и разворачивает корпус к объективу.
 
-
-**Функция фрагмента:** Continue directly from Part 1. Masha has become more emotionally present. She takes two or three slow steps parallel to the shoreline while continuing to sing, then turns her upper body more toward camera.
-
-
-
+**Камера:** A smooth side-tracking move parallel to the shoreline, gradually curving only slightly toward a three-quarter front view. End in medium framing.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 2 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 2 / GLOBAL MUSIC TIMECODE 0:30–1:00:
-Continue directly from Part 1. Masha has become more emotionally present. She takes two or three slow steps parallel to the shoreline while continuing to sing, then turns her upper body more toward camera.
-
-
-
+Сделать номер визуально живым: Маша начинает медленно идти вдоль воды и впервые вступает с камерой в более прямой эмоциональный контакт.
+BLOCKING / PHYSICAL ACTION:
+Два-три медленных шага параллельно береговой линии; короткий взгляд в камеру, затем снова вдаль; к концу она останавливается и разворачивает корпус к объективу.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 And the violence caused such silence
 Who are we mistaken
 But You see it's not me,
 It's not my family
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:07] Sing the first exact line while beginning a slow walk along the waterline.
-[0:07–0:13] Sing the second exact line. A small pause in her stride lets the question land emotionally.
-[0:13–0:20] Sing the third exact line. Her gaze becomes more direct and personal.
-[0:20–0:27] Sing the fourth exact line. She stops walking and turns slightly more toward camera.
-[0:27–0:30] No new words; hold the emotional reaction and natural breath into the next part.
-
-
-
+[0:00–0:07]
+Sing the first exact line while beginning a slow walk along the waterline.
+[0:07–0:13]
+Sing the second exact line. Briefly slow the walk so the question lands.
+[0:13–0:20]
+Sing the third exact line. Masha looks directly toward camera for the first time with more intensity.
+[0:20–0:27]
+Sing the fourth exact line. She stops and turns her upper body slightly more toward camera.
+[0:27–0:30]
+No new words. Hold the breath and expression as a transition into the next part.
 
 CAMERA / LENS / CONTINUITY:
-One continuous lateral tracking shot that gradually curves only a few degrees toward a three-quarter front view. Controlled gimbal/dolly inertia, no sudden reframing.
+A smooth side-tracking move parallel to the shoreline, gradually curving only slightly toward a three-quarter front view. End in medium framing.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+growing tension, restrained pain, questioning.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 3.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
-
-
-
-
-
-
 
 
 ### Песня Маши 3 — первый куплет — война в голове
 
-
-
-
 **Музыкальный таймкод:** 1:00–1:30
 
+**Функция фрагмента:** Перевести песню из личной печали в более масштабное, тревожное высказывание и впервые использовать мягкое круговое движение камеры.
 
+**Пластика Маши:** Маша остаётся на месте, но тело становится выразительнее: небольшой поворот плеч, сдержанный жест рукой, взгляд то в объектив, то поверх камеры.
 
-
-**Функция фрагмента:** Masha stays near the same section of shoreline. The performance grows darker and more urgent. Her hands remain natural and restrained; one small involuntary gesture near the chest or side is enough.
-
-
-
+**Камера:** Begin medium. Use a gentle partial orbit around Masha, never faster than a slow walking pace, moving toward medium-close framing by the end.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 3 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 3 / GLOBAL MUSIC TIMECODE 1:00–1:30:
-Masha stays near the same section of shoreline. The performance grows darker and more urgent. Her hands remain natural and restrained; one small involuntary gesture near the chest or side is enough.
-
-
-
+Перевести песню из личной печали в более масштабное, тревожное высказывание и впервые использовать мягкое круговое движение камеры.
+BLOCKING / PHYSICAL ACTION:
+Маша остаётся на месте, но тело становится выразительнее: небольшой поворот плеч, сдержанный жест рукой, взгляд то в объектив, то поверх камеры.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 In your head,
 in your head they are fighting
 With their tanks, and their bombs
 And their bombs, and their guns
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:05] Sing the first exact phrase in a steady medium shot.
-[0:05–0:12] Sing the second exact line. Her eyes sharpen and the emotional pressure increases.
-[0:12–0:20] Sing the third exact line. The camera begins a very subtle half-arc while maintaining the horizon and shoreline geometry.
-[0:20–0:27] Sing the fourth exact line with stronger articulation and believable breath support.
-[0:27–0:30] No new lyrics; let the phrase hang as the camera finishes in a medium-close three-quarter view.
-
-
-
+[0:00–0:05]
+Sing exactly “In your head,” in a controlled medium shot.
+[0:05–0:12]
+Sing the second exact line as the slow orbit begins.
+[0:12–0:20]
+Sing the third exact line. Her face becomes more focused; one small motivated hand gesture is allowed.
+[0:20–0:27]
+Sing the fourth exact line. Orbit continues smoothly, keeping the lake readable behind her.
+[0:27–0:30]
+No new words. Hold the final expression while the camera finishes the partial arc.
 
 CAMERA / LENS / CONTINUITY:
-One continuous medium-to-medium-close move with a restrained half-arc of less than 45 degrees. Keep the lake visible and the screen direction consistent.
+Begin medium. Use a gentle partial orbit around Masha, never faster than a slow walking pace, moving toward medium-close framing by the end.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+melancholy turning into restrained anger and urgency.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 4.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
-
-
-
-
-
-
 
 
 ### Песня Маши 4 — первый припев — первый эмоциональный выброс
 
-
-
-
 **Музыкальный таймкод:** 1:30–2:00
 
+**Функция фрагмента:** Дать первый настоящий припевный подъём: Маша сильнее обращается прямо к камере, но остаётся кинематографичной, без концертной истерики.
 
+**Пластика Маши:** Она делает один небольшой шаг к камере, потом остаётся на месте; плечи и руки раскрываются немного сильнее, чем в куплете.
 
-
-**Функция фрагмента:** This is the first clear chorus release. Masha now performs directly toward camera with stronger rock intensity, but still as a believable live-action actress rather than a stage caricature.
-
-
-
+**Камера:** Start medium-close. Use a slow frontal dolly-in with a very subtle lateral arc, ending on an expressive close-up without cutting.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 4 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 4 / GLOBAL MUSIC TIMECODE 1:30–2:00:
-This is the first clear chorus release. Masha now performs directly toward camera with stronger rock intensity, but still as a believable live-action actress rather than a stage caricature.
-
-
-
+Дать первый настоящий припевный подъём: Маша сильнее обращается прямо к камере, но остаётся кинематографичной, без концертной истерики.
+BLOCKING / PHYSICAL ACTION:
+Она делает один небольшой шаг к камере, потом остаётся на месте; плечи и руки раскрываются немного сильнее, чем в куплете.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 In your head,
 In your head they are cryin'
 In your head, In your head
-Zombie Zombie
-Zombie ie ie
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:05] Sing the first exact phrase. Begin in medium-close framing.
-[0:05–0:11] Sing the second exact line; the intensity opens up in her eyes and jaw.
-[0:11–0:17] Sing the third exact line. Let the camera continue a controlled subtle arc.
-[0:17–0:23] Sing exactly “Zombie Zombie” with a stronger, more open vocal delivery.
-[0:23–0:28] Sing exactly “Zombie ie ie”. Sustain only the final provided vowel sounds; do not add words.
-[0:28–0:30] Brief instrumental breath; hold her gaze and do not cut.
-
-
-
+[0:00–0:07]
+Sing the first exact line while taking one small step forward.
+[0:07–0:17]
+Sing the second exact line with stronger projection and direct eye contact.
+[0:17–0:26]
+Sing the third exact line. Let the camera arrive at a close but natural framing; preserve facial realism.
+[0:26–0:30]
+No new words. Let the phrase breathe while the close-up holds her emotional reaction.
 
 CAMERA / LENS / CONTINUITY:
-One continuous chorus shot. Smooth close orbit/arc around Masha combined with a slight push-in. Never lose the lake or break spatial continuity.
+Start medium-close. Use a slow frontal dolly-in with a very subtle lateral arc, ending on an expressive close-up without cutting.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+first emotional release, grief becoming force.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 5.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
 
 
-
-
-
-
-
-
-### Песня Маши 5 — первый припев — финал и вокализ
-
-
-
+### Песня Маши 5 — первый припев — кульминация и вопрос
 
 **Музыкальный таймкод:** 2:00–2:30
 
+**Функция фрагмента:** Закрыть первый припев мощным, клиповым, но не хаотичным блоком и сделать первый большой зрительский payoff.
 
+**Пластика Маши:** Маша поёт прямо в камеру, затем на одной фразе поворачивается на пол-оборота к озеру и снова возвращается в объектив; движения рук редкие и мотивированные.
 
-
-**Функция фрагмента:** Continue the first chorus without resetting the emotion. The first two lines remain direct and powerful; the long vocalized ending becomes more physical and cinematic, with Masha turning slightly toward the water while still performing.
-
-
-
+**Камера:** A controlled half-orbit that starts medium-close, briefly opens to a medium-wide view showing the lake, then returns toward medium. No cuts.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
-
-
-
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 5 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 5 / GLOBAL MUSIC TIMECODE 2:00–2:30:
-Continue the first chorus without resetting the emotion. The first two lines remain direct and powerful; the long vocalized ending becomes more physical and cinematic, with Masha turning slightly toward the water while still performing.
-
-
-
+Закрыть первый припев мощным, клиповым, но не хаотичным блоком и сделать первый большой зрительский payoff.
+BLOCKING / PHYSICAL ACTION:
+Маша поёт прямо в камеру, затем на одной фразе поворачивается на пол-оборота к озеру и снова возвращается в объектив; движения рук редкие и мотивированные.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
-
-
-
+Zombie Zombie
+Zombie ie ie
 What's in your head, in your head
 Zombie Zombie Zombie ie ie ie ou
-tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:08] Sing the first exact line in a strong medium-close shot.
-[0:08–0:17] Sing the second exact line exactly as provided, with natural sustained vowels and precise mouth shapes.
-[0:17–0:28] Perform the exact sequence of sixteen “tu” syllables in rhythm. Do not replace them with other vocal sounds. Masha turns a few degrees toward the lake, then reconnects with camera.
-[0:28–0:30] Let the vocal phrase resolve naturally; no new words.
-
-
-
+[0:00–0:06]
+Sing exactly “Zombie Zombie”. Strong direct gaze.
+[0:06–0:11]
+Sing exactly “Zombie ie ie”. Keep the mouth shapes and breathing clearly sung, not spoken.
+[0:11–0:19]
+Sing the exact question line while Masha turns partly toward the lake.
+[0:19–0:28]
+Sing the final exact lyric line of this part as she turns back toward camera; the half-orbit reveals more of the shoreline.
+[0:28–0:30]
+No additional words. Let the final “ou” resolve naturally into the instrumental transition.
 
 CAMERA / LENS / CONTINUITY:
-One continuous shot. Begin medium-close, drift gently sideways and very slightly away during the vocalise, ending in a balanced medium composition.
+A controlled half-orbit that starts medium-close, briefly opens to a medium-wide view showing the lake, then returns toward medium. No cuts.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+dramatic, wounded, strong, musically expansive.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 6.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
 
 
-
-
-
-
-
-
-### Песня Маши 6 — второй куплет — возвращение после припева
-
-
-
+### Песня Маши 6 — вокализ / инструментальная передышка
 
 **Музыкальный таймкод:** 2:30–3:00
 
+**Функция фрагмента:** Дать клипу дыхание между куплетами: меньше фронтального пения, больше красивого движения Маши и пейзажа, сохраняя её почти постоянно в кадре.
 
+**Пластика Маши:** Маша медленно идёт вдоль воды, иногда смотрит на горизонт; вокализ исполняет свободнее, как часть музыкального номера, но не танцует.
 
-
-**Функция фрагмента:** The intensity drops from the chorus into a heavier, more exhausted second verse. Masha walks slowly again, now with the emotional weight of what has already been sung.
-
-
-
+**Камера:** Begin with a wide side-tracking shot. Gradually move to a medium profile / three-quarter view while keeping Masha and the waterline in one coherent composition.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
+IMPORTANT REFERENCE RULE:
+@Image2 is the absolute identity lock for Masha-Laguna.
+@Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
+Do not average Masha's face or body with anything from @Image1.
+Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
+Do not redesign the lake or introduce large new structures absent from the location reference.
+
+SEQUENCE CONTINUITY LOCK:
+This is MASHA SONG PART 6 of 11.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
+Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
+Do not reset the character, wardrobe, location or visual style between parts.
+Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
+
+STYLE GOAL:
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+SCENE — MASHA SONG PART 6 / GLOBAL MUSIC TIMECODE 2:30–3:00:
+Дать клипу дыхание между куплетами: меньше фронтального пения, больше красивого движения Маши и пейзажа, сохраняя её почти постоянно в кадре.
+BLOCKING / PHYSICAL ACTION:
+Маша медленно идёт вдоль воды, иногда смотрит на горизонт; вокализ исполняет свободнее, как часть музыкального номера, но не танцует.
+
+VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu
+
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
+Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+TIMELINE / STORY FLOW:
+[0:00–0:08]
+Masha begins the exact provided “tu” vocalise while walking slowly parallel to the shore. Keep the rhythm musical and natural.
+[0:08–0:16]
+Continue only the remaining provided “tu” syllables in exact order. She looks out over the lake rather than into camera.
+[0:16–0:23]
+No new lyric words. Continue instrumental backing; camera tracks beside her and lets the landscape breathe.
+[0:23–0:30]
+She slows to a stop and turns slightly back toward camera, preparing the second verse. No invented lyrics.
+
+CAMERA / LENS / CONTINUITY:
+Begin with a wide side-tracking shot. Gradually move to a medium profile / three-quarter view while keeping Masha and the waterline in one coherent composition.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
+Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
+No random jitter or micro-shake.
+
+PERFORMANCE / ACTING:
+Masha performs as a real person singing an emotionally heavy rock song.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
+Identity, face, hair, costume and proportions remain stable every frame.
+
+PART-SPECIFIC EMOTIONAL TARGET:
+melancholic afterglow, suspended beauty, quiet movement.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
+
+AUDIO (native):
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
+No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 7.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
+
+NEGATIVE PROMPT:
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+```
 
 
+### Песня Маши 7 — второй куплет — новая волна
+
+**Музыкальный таймкод:** 3:00–3:30
+
+**Функция фрагмента:** Вернуть текст после интерлюдии, но уже с более зрелым и тяжёлым эмоциональным состоянием Маши.
+
+**Пластика Маши:** Она стоит под углом к камере, затем делает один-два медленных шага в сторону воды; периодически взгляд опускается и снова поднимается.
+
+**Камера:** A diagonal slow dolly-in from medium-wide to medium-close, with a slight side drift to keep the frame alive.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+REFERENCES:
+@Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
-This is MASHA SONG PART 6 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+This is MASHA SONG PART 7 of 11.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
-
-
-
-SCENE — MASHA SONG PART 6 / GLOBAL MUSIC TIMECODE 2:30–3:00:
-The intensity drops from the chorus into a heavier, more exhausted second verse. Masha walks slowly again, now with the emotional weight of what has already been sung.
-
-
-
+SCENE — MASHA SONG PART 7 / GLOBAL MUSIC TIMECODE 3:00–3:30:
+Вернуть текст после интерлюдии, но уже с более зрелым и тяжёлым эмоциональным состоянием Маши.
+BLOCKING / PHYSICAL ACTION:
+Она стоит под углом к камере, затем делает один-два медленных шага в сторону воды; периодически взгляд опускается и снова поднимается.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 Another mother's breakin'
 Heart is taking over
 When the violence causes silence
 We must be mistaken
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:07] Sing the first exact line while taking one or two slow steps along the shoreline.
-[0:07–0:13] Sing the second exact line. Her expression turns inward and tired.
-[0:13–0:21] Sing the third exact line. Let her glance toward the water for a moment without breaking the song.
-[0:21–0:27] Sing the fourth exact line with a restrained but clear rise in urgency.
-[0:27–0:30] Natural breath and instrumental space; no added lyric.
-
-
-
+[0:00–0:07]
+Sing the first exact line, starting from a quiet three-quarter profile.
+[0:07–0:13]
+Sing the second exact line. One small step toward the water; eyes briefly lower.
+[0:13–0:21]
+Sing the third exact line as the diagonal dolly-in continues.
+[0:21–0:27]
+Sing the fourth exact line. Masha lifts her gaze back toward camera.
+[0:27–0:30]
+No new words. Hold a natural breath and transition.
 
 CAMERA / LENS / CONTINUITY:
-One continuous side-tracking shot from the opposite side compared with Part 2, but preserve the same screen direction and lake geography. Slow, steady, cinematic.
+A diagonal slow dolly-in from medium-wide to medium-close, with a slight side drift to keep the frame alive.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+weariness, sorrow, deeper internal pressure.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 8.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
 
 
+### Песня Маши 8 — второй куплет — историческая тема и нарастание
 
+**Музыкальный таймкод:** 3:30–4:00
 
+**Функция фрагмента:** Сделать сильный драматический мост к финальному припевному блоку; камера становится ближе, а Маша — собраннее и жёстче.
 
+**Пластика Маши:** Маша почти неподвижна в начале, затем разворачивается к камере и делает один уверенный шаг; на последней строке смотрит прямо в объектив.
 
-
-
-### Песня Маши 7 — второй куплет — старая тема продолжается
-
-
-
-
-**Музыкальный таймкод:** 3:00–3:30
-
-
-
-
-**Функция фрагмента:** Masha slows and nearly stops. This section should feel like the lyric is landing as a historical, exhausted realization rather than a new burst of choreography.
-
-
-
+**Камера:** Begin medium-wide with a slow push-in. Transition into a gentle near-frontal orbit of only a few degrees, ending medium-close.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
-This is MASHA SONG PART 7 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+This is MASHA SONG PART 8 of 11.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
-
-
-
-SCENE — MASHA SONG PART 7 / GLOBAL MUSIC TIMECODE 3:00–3:30:
-Masha slows and nearly stops. This section should feel like the lyric is landing as a historical, exhausted realization rather than a new burst of choreography.
-
-
-
+SCENE — MASHA SONG PART 8 / GLOBAL MUSIC TIMECODE 3:30–4:00:
+Сделать сильный драматический мост к финальному припевному блоку; камера становится ближе, а Маша — собраннее и жёстче.
+BLOCKING / PHYSICAL ACTION:
+Маша почти неподвижна в начале, затем разворачивается к камере и делает один уверенный шаг; на последней строке смотрит прямо в объектив.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 It's the same old theme since nineteen sixteen
 In your head
 In your head they're still fightin'
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:11] Sing the first exact line with clear English articulation. Keep the performance physically still enough for the words to read.
-[0:11–0:16] Sing exactly “In your head”. A small lift of the eyes marks the phrase.
-[0:16–0:25] Sing the third exact line. Her restrained anger returns and the body becomes slightly more forward-facing.
-[0:25–0:30] No new lyrics. Hold a tense breath into the next section while the camera continues its slow approach.
-
-
-
+[0:00–0:11]
+Sing the first exact line slowly enough for natural articulation; Masha begins still and grounded.
+[0:11–0:16]
+Sing exactly “In your head”. She turns more directly toward camera.
+[0:16–0:25]
+Sing the third exact line as the camera makes a subtle near-frontal arc.
+[0:25–0:30]
+No new words. Let the musical tension build visibly in her face and breathing.
 
 CAMERA / LENS / CONTINUITY:
-One continuous slow dolly-in from medium-wide to medium-close. Very little lateral movement; emphasize the weight of the lyric and facial performance.
+Begin medium-wide with a slow push-in. Transition into a gentle near-frontal orbit of only a few degrees, ending medium-close.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+historical weight, restrained anger, gathering force.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 9.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
 
 
+### Песня Маши 9 — финальный подъём — война продолжается
 
+**Музыкальный таймкод:** 4:00–4:30
 
+**Функция фрагмента:** Максимально приблизить номер к финальной кульминации: быстрых склеек нет, но движения камеры и Маши ощущаются мощнее.
 
+**Пластика Маши:** Маша медленно идёт к камере по диагонали вдоль берега, затем останавливается; на последних строках удерживает прямой взгляд.
 
-
-
-### Песня Маши 8 — второй куплет — нарастание к финальному припеву
-
-
-
-
-**Музыкальный таймкод:** 3:30–4:00
-
-
-
-
-**Функция фрагмента:** The second verse reaches its darkest point. Masha becomes more forceful but stays grounded and human. Wind can increase slightly, but the environment must not turn into a storm or fantasy.
-
-
-
+**Камера:** A smooth backward tracking move as Masha advances slowly, then settle into a medium-close framing when she stops. No handheld feel.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
-This is MASHA SONG PART 8 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+This is MASHA SONG PART 9 of 11.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
-
-
-
-SCENE — MASHA SONG PART 8 / GLOBAL MUSIC TIMECODE 3:30–4:00:
-The second verse reaches its darkest point. Masha becomes more forceful but stays grounded and human. Wind can increase slightly, but the environment must not turn into a storm or fantasy.
-
-
-
+SCENE — MASHA SONG PART 9 / GLOBAL MUSIC TIMECODE 4:00–4:30:
+Максимально приблизить номер к финальной кульминации: быстрых склеек нет, но движения камеры и Маши ощущаются мощнее.
+BLOCKING / PHYSICAL ACTION:
+Маша медленно идёт к камере по диагонали вдоль берега, затем останавливается; на последних строках удерживает прямой взгляд.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 With their tanks, and their bombs
 And their bombs, and their guns
 In your head In your head
 they are dying
-
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
-Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
-
-TIMELINE / STORY FLOW:
-[0:00–0:07] Sing the first exact line. Start medium-close.
-[0:07–0:14] Sing the second exact line with stronger consonants and visible breath support.
-[0:14–0:20] Sing the third exact line, keeping the repeated words exactly in order.
-[0:20–0:27] Sing the fourth exact line. The emotion peaks into grief rather than theatrical anger.
-[0:27–0:30] No new words; one natural inhale prepares the final chorus.
-
-
-
-
-CAMERA / LENS / CONTINUITY:
-One continuous controlled push with a subtle 20–30 degree arc. End close enough to read eyes and mouth clearly, but keep enough background for lake continuity.
-Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
-No random jitter or micro-shake.
-
-
-
-
-PERFORMANCE:
-Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
-Identity, face, hair, costume and proportions remain stable every frame.
-
-
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
-
-AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
-No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
-
-
-
-
-NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
-
-
-
-
-
-
-### Песня Маши 9 — финальный припев — начало
-
-
-
-
-**Музыкальный таймкод:** 4:00–4:30
-
-
-
-
-**Функция фрагмента:** Enter the final chorus with full emotional commitment. Masha faces camera more directly than before. This is powerful rock delivery, not screaming for its own sake.
-
-
-
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
-
-REFERENCES:
-@Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
-@Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
-
-
-
-
-IMPORTANT REFERENCE RULE:
-@Image2 is the absolute identity lock for Masha-Laguna.
-@Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
-Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
-Do not redesign the lake or introduce large new structures absent from the location reference.
-
-
-
-
-SEQUENCE CONTINUITY LOCK:
-This is MASHA SONG PART 9 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
-Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
-Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
-
-
-
-
-STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
-
-SCENE — MASHA SONG PART 9 / GLOBAL MUSIC TIMECODE 4:00–4:30:
-Enter the final chorus with full emotional commitment. Masha faces camera more directly than before. This is powerful rock delivery, not screaming for its own sake.
-
-
-
-
-VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
-
 In your head, in your head
-Zombie Zombie
-Zombie ie ie
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:08] Sing the first exact line. Masha holds direct eye contact for most of the phrase.
-[0:08–0:17] Sing exactly “Zombie Zombie” with the strongest vocal attack so far.
-[0:17–0:25] Sing exactly “Zombie ie ie”, sustaining only the supplied vowel sounds.
-[0:25–0:30] No new words. Let the last vocal resonance and instrumental hit breathe while her expression remains intense.
-
-
-
+[0:00–0:06]
+Sing the first exact line while beginning the slow approach.
+[0:06–0:12]
+Sing the second exact line. Camera retreats at the same measured pace.
+[0:12–0:18]
+Sing the third exact line as Masha slows.
+[0:18–0:23]
+Sing exactly “they are dying”. She stops and the camera also settles.
+[0:23–0:29]
+Sing the final exact line with direct eye contact.
+[0:29–0:30]
+No extra words; take one breath into the final chorus.
 
 CAMERA / LENS / CONTINUITY:
-One continuous medium-close chorus shot with a smooth near-frontal arc. Controlled physical motion; no handheld shake and no abrupt zoom.
+A smooth backward tracking move as Masha advances slowly, then settle into a medium-close framing when she stops. No handheld feel.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+urgent, tragic, increasingly forceful.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 10.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
-
-
-
-
-
-
 
 
 ### Песня Маши 10 — финальный припев — вершина
 
-
-
-
 **Музыкальный таймкод:** 4:30–5:00
 
+**Функция фрагмента:** Дать главный эмоциональный пик всего номера: наиболее сильная актёрская подача, самый выразительный close-up и затем расширение кадра перед аутро.
 
+**Пластика Маши:** Маша почти не ходит: энергия теперь в лице, дыхании, корпусе и нескольких точных жестах. На середине припева может слегка раскрыть руки, затем снова собрать их.
 
-
-**Функция фрагмента:** This is the visual and emotional apex of the full sequence. Masha gives the strongest direct performance, then the framing opens slightly near the end so the lake and her silhouette regain importance.
-
-
-
+**Камера:** Start medium-close, continue into an expressive close-up, then complete a graceful partial orbit and ease slightly wider by the end. One continuous shot.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 10 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
-
-
-
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
 SCENE — MASHA SONG PART 10 / GLOBAL MUSIC TIMECODE 4:30–5:00:
-This is the visual and emotional apex of the full sequence. Masha gives the strongest direct performance, then the framing opens slightly near the end so the lake and her silhouette regain importance.
-
-
-
+Дать главный эмоциональный пик всего номера: наиболее сильная актёрская подача, самый выразительный close-up и затем расширение кадра перед аутро.
+BLOCKING / PHYSICAL ACTION:
+Маша почти не ходит: энергия теперь в лице, дыхании, корпусе и нескольких точных жестах. На середине припева может слегка раскрыть руки, затем снова собрать их.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
-
-
-
+Zombie Zombie
+Zombie ie ie
 What's in your head, in your head
 Zombie Zombie Zombie
 ie ie ie
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:10] Sing the first exact line in a tight but natural medium-close composition.
-[0:10–0:20] Sing exactly “Zombie Zombie Zombie”. Let the camera complete a graceful arc while her posture opens slightly.
-[0:20–0:27] Sing exactly “ie ie ie”, sustaining only these provided sounds.
-[0:27–0:30] No additional lyric. Ease the camera a little wider, preparing the final outro rather than ending on a freeze.
-
-
-
+[0:00–0:05]
+Sing exactly “Zombie Zombie” with the strongest direct performance of the sequence.
+[0:05–0:10]
+Sing exactly “Zombie ie ie”. Camera reaches the closest natural framing of the whole clip.
+[0:10–0:18]
+Sing the exact question line; begin a graceful partial orbit.
+[0:18–0:24]
+Sing exactly “Zombie Zombie Zombie”. Her posture opens slightly.
+[0:24–0:28]
+Sing exactly “ie ie ie”. Sustain only these provided syllables.
+[0:28–0:30]
+No additional words. Ease slightly wider, preparing the final vocal tail and outro.
 
 CAMERA / LENS / CONTINUITY:
-One continuous climax shot: medium-close push/orbit resolving into a slightly wider heroic lakeside composition. Smooth and physically plausible.
+Start medium-close, continue into an expressive close-up, then complete a graceful partial orbit and ease slightly wider by the end. One continuous shot.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+catharsis, tragic power, emotional apex.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 11.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
-
-
-
-
-
-
 
 
 ### Песня Маши 11 — финальный вокализ и визуальный аутро
 
+**Музыкальный таймкод:** 5:00–5:30
 
+**Функция фрагмента:** Закончить песню и дать красивое кинематографичное послевкусие: после последних звуков Маша остаётся у воды одна, а камера медленно отступает.
 
+**Пластика Маши:** Первые секунды — финальный вокализ; затем Маша перестаёт петь, выдыхает, переводит взгляд на озеро и остаётся почти неподвижной.
 
-**Музыкальный таймкод:** 5:00–5:30 visual segment; source-song vocal tail expected in the opening seconds
-
-
-
-
-**Функция фрагмента:** Finish the song and let the remaining duration become a quiet cinematic outro. After the final provided vocal sounds, Masha remains by the lake, emotionally spent, without adding any new lyrics.
-
-
-
+**Камера:** Start medium-close, then perform one slow stable pull-back to a wide final lakeside composition with Masha small but clearly readable in frame.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-
-
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, age, hairstyle, body proportions, clothing / approved character design, silhouette, and overall identity.
 
-
-
-
 IMPORTANT REFERENCE RULE:
 @Image2 is the absolute identity lock for Masha-Laguna.
 @Image1 controls only location, geography, shoreline, water, environmental composition, and natural lighting logic.
-Do not average Masha with anything from @Image1.
+Do not average Masha's face or body with anything from @Image1.
 Do not beautify, restyle, age-shift, redesign, change costume, or alter body proportions.
 Do not redesign the lake or introduce large new structures absent from the location reference.
 
-
-
-
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 11 of 11.
-Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same screen direction, and the same grounded live-action visual language established across the sequence.
+Keep the same Masha, same exact wardrobe, same hairstyle, same lake, same shoreline, same weather, same time-of-day logic, same color grade, same overall screen-direction logic, and the same grounded live-action visual language established across the sequence.
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
-Do not reset the character or environment between parts.
+Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
 
-
-
+GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
+- The lakeshore from @Image1 is the permanent visual foundation of the entire number. Every part remains in this same real location; only camera position and Masha's position along the shoreline may evolve naturally.
+- Masha from @Image2 is the emotional and visual protagonist and must remain visible for almost the entire sequence. Do not cut away to empty landscapes for long periods.
+- The clip must NEVER feel like eleven static clips of a woman standing still. Across the sequence Masha alternates naturally between: standing still, slowly walking along the waterline, turning toward camera, turning partly toward the lake, looking into the distance, and singing directly to lens.
+- Performance is music-video cinematic but also has the emotional clarity of a musical: the song feels physically performed in the space, while camera movement and blocking create cinematic progression.
+- Camera vocabulary across the eleven parts intentionally varies: wide establishing shot, slow dolly-in, side tracking move, gentle orbit / partial orbit, backward tracking while Masha approaches, medium performance shot, expressive close-up, and slow final pull-back.
+- Camera motion must always be physically stable, smooth and motivated, with controlled inertia. No random jitter, no micro-shake, no teleporting, no arbitrary reversal of screen direction.
+- Visual tone remains melancholic, dramatic and beautiful from beginning to end. Do not turn the sequence into glossy pop, concert coverage, cheerful choreography or fashion advertising.
+- Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
+- Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
+- Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
 
 STYLE GOAL:
-Photorealistic live-action cinematic rock music video at a real lakeshore, with the emotional clarity of a musical performance.
-Melancholic, raw, intimate, dramatic, and gradually more powerful.
-The scene should feel like a serious film sequence built around a real actress performing to camera, not glossy pop choreography, not concert coverage, not animation, and not a game cutscene.
-Camera motion is physically stable, deliberate and cinematic with controlled inertia and no random micro-shake.
+Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
+Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
+Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
+The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
 
-
-
-
-SCENE — MASHA SONG PART 11 / GLOBAL MUSIC TIMECODE 5:00–5:30 visual segment; source-song vocal tail expected in the opening seconds:
-Finish the song and let the remaining duration become a quiet cinematic outro. After the final provided vocal sounds, Masha remains by the lake, emotionally spent, without adding any new lyrics.
-
-
-
+SCENE — MASHA SONG PART 11 / GLOBAL MUSIC TIMECODE 5:00–5:30:
+Закончить песню и дать красивое кинематографичное послевкусие: после последних звуков Маша остаётся у воды одна, а камера медленно отступает.
+BLOCKING / PHYSICAL ACTION:
+Первые секунды — финальный вокализ; затем Маша перестаёт петь, выдыхает, переводит взгляд на озеро и остаётся почти неподвижной.
 
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
-Masha sings in English with tight sung lip sync and emotionally believable breath support.
-She must sing ONLY the exact user-provided lyrics below, in this exact order:
-
-
-
+Masha sings in English. This is SUNG performance, not spoken dialogue.
+Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
+She must sing ONLY the exact user-provided lyric material below, in this exact order:
 
 ou ou ou ou ou ou ou ou
 yea
 
-
-
-
-Do not add, remove, reorder, paraphrase, translate, censor, replace, or invent any lyric words.
-Do not substitute a different chorus or generic filler words.
+Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
+Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
-Do not display the lyrics as subtitles, captions, karaoke text, or typography on screen.
-
-
-
+Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
 
 TIMELINE / STORY FLOW:
-[0:00–0:05] Sing the exact eight “ou” syllables rhythmically and naturally. Do not add another syllable or word.
-[0:05–0:07] Sing exactly “yea” as the final vocal word/sound.
-[0:07–0:16] No lyrics. Masha exhales, lowers the intensity and turns her gaze toward the lake. Keep her face emotionally present rather than blank.
-[0:16–0:24] The camera begins a slow controlled pull-back; Masha remains still or makes one small natural shift of weight.
-[0:24–0:30] End in a stable wide lakeside composition with Masha alone against the water. No fade to another location, no text, no freeze frame.
-
-
-
+[0:00–0:05]
+Sing the exact eight “ou” syllables rhythmically and naturally, without adding any extra sounds.
+[0:05–0:07]
+Sing exactly “yea” as the final vocal word/sound.
+[0:07–0:16]
+No lyrics. Masha exhales, lowers her intensity and turns her gaze toward the lake.
+[0:16–0:24]
+Camera begins a slow controlled pull-back; Masha remains still or makes one small natural shift of weight.
+[0:24–0:30]
+End in a stable wide composition of the exact lakeshore with Masha alone against the water. No fade to another location, no text, no freeze frame.
 
 CAMERA / LENS / CONTINUITY:
-One continuous ending shot. Start medium-close, then perform a slow stable pull-back to a wide final composition. Preserve the same horizon, shoreline and lighting.
+Start medium-close, then perform one slow stable pull-back to a wide final lakeside composition with Masha small but clearly readable in frame.
+Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
 Use natural cinematic perspective approximately equivalent to a 40–65 mm full-frame lens depending on framing.
-Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects must remain geometrically stable.
-Objects are revealed by camera movement; they do not teleport, morph, or appear from nowhere.
-No hard cuts, no jump cuts, no random montage inside this 30-second part.
-No sudden change of camera direction that would break continuity with adjacent parts.
+Maintain one coherent 3D space. Horizon, shoreline, waterline and background objects remain geometrically stable.
+Objects are revealed by camera movement; they do not teleport, morph or appear from nowhere.
+No hard cuts, no jump cuts and no random montage inside this 30-second part.
+Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
 
-
-
-
-PERFORMANCE:
+PERFORMANCE / ACTING:
 Masha performs as a real person singing an emotionally heavy rock song.
-Natural blinking, inhalation, jaw movement, mouth opening for sustained vowels, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
-Her emotion can build from melancholy into grief, restrained anger and strength, but never into exaggerated theatrical screaming or cheerful pop choreography.
-Hands and arms remain motivated and economical; no repetitive generic “music video” gestures.
+Natural blinking, inhalation, jaw movement, sustained-vowel mouth shapes, throat/neck motion, chest and shoulder breathing, subtle weight transfer and precise eye focus.
+Her body language changes with the music: sometimes quiet and almost still, sometimes walking slowly, sometimes turning toward camera, sometimes looking over the lake, sometimes giving direct eye contact.
+Every gesture must be motivated by the phrase; avoid repetitive generic “music video” arm movements.
+Emotion may grow from melancholy into grief, restrained anger and strength, but never into uncontrolled theatrical screaming or cheerful pop choreography.
 Identity, face, hair, costume and proportions remain stable every frame.
 
+PART-SPECIFIC EMOTIONAL TARGET:
+release, exhaustion, melancholy after catharsis.
+The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
 
-
-
-LIGHTING / MATERIAL REALISM / ENVIRONMENT:
-Preserve the lighting logic of @Image1. Keep the same time of day across all eleven parts.
-Natural skin texture, pores, realistic hair strands, cloth texture and physically plausible motion blur.
-Water has small believable ripples and consistent reflections.
-Wind remains light to moderate and continuous; it affects hair, fabric and nearby vegetation consistently.
-No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already present in @Image1.
-
-
-
+LIGHTING / MATERIAL REALISM / PRODUCTION DESIGN:
+Preserve the environmental and lighting identity of @Image1. Keep one continuous time-of-day and weather family across all eleven parts.
+Natural skin texture and pores, realistic individual hair strands, cloth weave, physically plausible wind response and natural motion blur.
+Water has small believable ripples and consistent reflections; shoreline material, vegetation and background geometry do not morph.
+Use cinematic depth of field only when physically plausible; never blur the environment so aggressively that location continuity is lost.
+No fantasy aura, magical glow, neon concert wash, impossible reflections, changing sky state, or sudden weather transition unless already intrinsic to @Image1.
 
 AUDIO (native):
-Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight sung lip sync.
-Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the performance without overpowering the vocal.
-Keep musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
-Natural lake ambience remains subtle underneath: soft water, light wind, distant outdoor atmosphere.
+Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
+Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
+Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
+Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
 
-
-
+TRANSITION / EDITING HANDOFF:
+End this part on a stable, usable composition and a believable emotional state that can cut naturally into MASHA SONG PART 11.
+Do not fade to black, do not freeze-frame, and do not jump to a different location.
+The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, random arm waving, cheerful pop performance, extra foreground characters, duplicated Masha, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
-
-
-
+identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
 ```
