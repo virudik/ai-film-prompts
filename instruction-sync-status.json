@@ -1,27 +1,126 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-21T08:43:04Z",
+  "checked_at": "2026-09-21T08:53:54.429Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "NEW-CHAT-HANDOFF.md": {"drive_file_id":"1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD","drive_modified_at":"2026-09-21T08:33:57.716Z","github_blob":"43e4edabeea293809bcd453b5d08498aa8cd0425","match":true},
-    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-21T08:07:40.599Z","github_blob":"4202f86bff92ac342d9dcd7bc7c568908c73e019","match":true},
-    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-21T08:08:04.833Z","github_blob":"d94496cf0bfed4b007fc9f3daf3dae4b0cc67527","match":true},
-    "PROMPT-STYLE-GUIDE.md": {"drive_file_id":"14VzE8DwjKIquGJWENci6rYWj_1xEn34d","drive_modified_at":"2026-09-21T08:08:47.423Z","github_blob":"7e96344bb2876fb3b1dfa953872976b1afc822f6","match":true},
-    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-21T08:09:14.235Z","github_blob":"6a9b54aab1463413ae8e82a15894591b621f6b12","match":true},
-    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-21T08:09:39.359Z","github_blob":"12771319815336f52fae558f76babb983b8fa966","match":true},
-    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-21T08:09:48.933Z","github_blob":"b0388fc090d5f46407ac990cffe73a93d7f9b856","match":true}
+    "NEW-CHAT-HANDOFF.md": {
+      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+      "drive_modified_at": "2026-09-21T08:48:18.272Z",
+      "github_blob": "5da2744e143e4f3b7c551d025e74a24071633c5c",
+      "match": true
+    },
+    "SYNC-RUNBOOK.md": {
+      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_modified_at": "2026-09-21T08:49:29.253Z",
+      "github_blob": "7177170c1d078d21261d55399f6ec9257bf7b7dd",
+      "match": true
+    },
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-21T08:49:36.809Z",
+      "github_blob": "d86c1d3f0930310249606e8e4b2d369206a52468",
+      "match": true
+    },
+    "PROMPT-STYLE-GUIDE.md": {
+      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+      "drive_modified_at": "2026-09-21T08:49:43.217Z",
+      "github_blob": "911752eceb211bc014887f37f8058526795c2b82",
+      "match": true
+    },
+    "USER-GUIDE.md": {
+      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_modified_at": "2026-09-21T08:49:49.121Z",
+      "github_blob": "149c4542e26dffcb70c11451e443158717325f16",
+      "match": true
+    },
+    "README-AI-SYNC.md": {
+      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_modified_at": "2026-09-21T08:49:55.128Z",
+      "github_blob": "640c8fb7cff47ec3c08610df4e2e0f83e26e582e",
+      "match": true
+    },
+    "BACKUP-AI-RUNBOOK.md": {
+      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_modified_at": "2026-09-21T08:50:01.378Z",
+      "github_blob": "d9da38eadbd77a0b9fb3b41b2642b8ea37ad5f81",
+      "match": true
+    }
   },
-  "semantic_check": {"health":"ok","conflicts":[]},
-  "takeover_requirements": {"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
-  "topview_scene_intake": {"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","state_model":"minimal_active_plus_processed","rule":"Scene ID is the creative scene. Active task IDs keep it slow; when the last tracked task becomes terminal, Topview-managed slow clears without approval/editorial change. Keep only active_by_scene plus a bounded processed_tasks journal."},
-  "note":"Topview state simplified: no permanent detailed attempt/queue/ETA history; active_by_scene + bounded processed_tasks only.",
-  "recovery_sync": {"automation_title":"AI Film Recovery Sync","schedule":"hourly","hourly_light":true,"daily_deep":true,"deep_audit_status_file":"deep-audit-status.json","deep_audit_interval_hours":24,"note":"Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate."},
-  "service_files_ui": {"instruction_count":7,"instruction_layout":"vertical","instruction_order":["NEW-CHAT-HANDOFF.md","SYNC-RUNBOOK.md","AI-PROJECT-GUIDE.md","PROMPT-STYLE-GUIDE.md","USER-GUIDE.md","README-AI-SYNC.md","BACKUP-AI-RUNBOOK.md"],"project_data_links":["video-prompts.md","film-analysis.md","film-backlog.md"],"project_data_layout":"vertical","project_data_order":["video-prompts.md","film-analysis.md","film-backlog.md"],"note":"Seven instructions are shown vertically 1-7; project-data links are separate and are not additional instructions."},
-  "slow_table_ui": {"health":"ok","scene_row_cardinality":"one_row_per_scene_id","attempt_presentation":"hidden_internal_state","ux_rule":"compact UI; repeat/parallel task IDs remain internal only"},
+  "semantic_check": {
+    "health": "ok",
+    "conflicts": []
+  },
+  "takeover_requirements": {
+    "character_registry": "references.html + character-references.json",
+    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
+    "readiness_audit": true
+  },
+  "topview_scene_intake": {
+    "enabled": true,
+    "automation_title": "Topview Scene Intake & Slow Watch",
+    "state_model": "minimal_active_plus_processed_with_six_slot_view",
+    "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
+  },
+  "note": "Topview slot UI contract: one active task = one occupied slot; capacity 6; repeated Scene ID rows are allowed; permanent detailed attempt history remains disabled.",
+  "recovery_sync": {
+    "automation_title": "AI Film Recovery Sync",
+    "schedule": "hourly",
+    "hourly_light": true,
+    "daily_deep": true,
+    "deep_audit_status_file": "deep-audit-status.json",
+    "deep_audit_interval_hours": 24,
+    "note": "Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate."
+  },
+  "service_files_ui": {
+    "instruction_count": 7,
+    "instruction_layout": "vertical",
+    "instruction_order": [
+      "NEW-CHAT-HANDOFF.md",
+      "SYNC-RUNBOOK.md",
+      "AI-PROJECT-GUIDE.md",
+      "PROMPT-STYLE-GUIDE.md",
+      "USER-GUIDE.md",
+      "README-AI-SYNC.md",
+      "BACKUP-AI-RUNBOOK.md"
+    ],
+    "project_data_links": [
+      "video-prompts.md",
+      "film-analysis.md",
+      "film-backlog.md"
+    ],
+    "project_data_layout": "vertical",
+    "project_data_order": [
+      "video-prompts.md",
+      "film-analysis.md",
+      "film-backlog.md"
+    ],
+    "note": "Seven instructions are shown vertically 1-7; project-data links are separate and are not additional instructions."
+  },
+  "slow_table_ui": {
+    "health": "ok",
+    "slot_capacity": 6,
+    "row_cardinality": "one_row_per_active_topview_task",
+    "scene_id_may_repeat": true,
+    "header_format": "занято X из 6 · свободно Y",
+    "columns": [
+      "#",
+      "Сцена",
+      "Модель",
+      "Статус",
+      "Запуск",
+      "Прошло",
+      "Очередь",
+      "Оценка времени"
+    ],
+    "task_id_column": false,
+    "expandable_attempt_ui": false,
+    "slot_count_source": "topview-status.json.active_tasks[]",
+    "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); free_slots=max(0,6-occupied_slots); do not compare occupied_slots to unique slow_scenes count"
+  },
   "conflicts": [],
   "mode": "authorized_chatgpt_drive_connector"
 }
