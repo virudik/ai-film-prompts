@@ -254,7 +254,7 @@ Exact task mapping:
 - no guessed task;
 - no auto rerun;
 - no auto approval;
-- technical success leaves slow-lock until user decision.
+- technical completion never means approval; a tracked scene leaves slow automatically only when its last active Topview task becomes terminal.
 
 ## 14. Story / film priorities
 
@@ -420,34 +420,24 @@ Cadence deep audit хранится в `deep-audit-status.json`. Missing/invalid
 
 Наличие этих трёх ссылок под той же общей шторкой не увеличивает число инструкций: это project data/context, а не дополнительные инструкции и не копии seven-document set. UI не должен смешивать их с seven-document list и не должен раскладывать их в две колонки.
 
-## Canonical rule — Scene ID ≠ Topview render attempt
+## Canonical Topview state — minimal operational model
 
-Это обязательное правило для master, Topview watcher и recovery:
+This is the permanent Topview rule for the master, watcher, recovery and Control Center:
 
-- **Scene ID** идентифицирует саму творческую сцену/сюжетный beat. Он не меняется только потому, что сцену снова отправили в генерацию.
-- **Topview task ID** идентифицирует одну конкретную попытку рендера. У одной Scene ID может быть **сколько угодно последовательных или параллельных render attempts**.
-- Повторный запуск уже существующей сцены — с тем же prompt, исправленным prompt или другим допустимым вариантом этой же сцены — **не создаёт новый Scene ID**, если связь с существующей сценой доказана по prompt lineage, refs/story beat, предыдущему mapping или explicit provenance.
-- Новый неизвестный Topview task для существующей сцены должен быть **добавлен как новая attempt этой Scene ID**, а не заменять историю старой попытки. В telemetry/task-map нужно сохранять history известных task IDs и отдельно указывать текущую/активную попытку.
-- Если новая attempt имеет Topview state `init`, `queued`, `running` или `processing`, существующая Scene ID должна быть **добавлена/возвращена в canonical slow-list**, даже если эта сцена уже когда-то генерировалась, завершалась или ранее была вручную снята с slow.
-- Несколько одновременно активных attempts одной сцены всё равно означают один slow Scene ID; при этом должны сохраняться все активные task IDs.
-- Завершение одной attempt (`success`, `fail`, `cancelled`) не означает `APPROVED`, не создаёт новую сцену и не стирает другие attempts. `success` — только техническое завершение конкретного рендера.
-- Автоматика **не снимает slow автоматически только из-за success**. Пользовательское решение о результате/slow-lock имеет приоритет; новая последующая active attempt снова обязана вернуть сцену в slow.
-- Новый Scene ID создаётся только для **действительно новой творческой сцены**, а не для нового рендера, retry, rerender или prompt-variant существующей сцены.
-- Если нельзя надёжно решить, является task новой сценой или новой attempt существующей — no write / no new Scene ID; пометить ambiguous и уведомить пользователя.
+- **Scene ID** identifies the creative scene. **Topview task ID** identifies one render attempt.
+- A rerun/rerender/revised prompt for the same creative scene keeps the same Scene ID.
+- Persistent Topview state is intentionally minimal:
+  - `topview-task-map.json.active_by_scene` stores only currently active task IDs per Scene ID;
+  - `topview-task-map.json.processed_tasks` stores only a bounded recent dedup/statistics journal: `task_id`, `scene_id`, `final_status`, `finished_at`;
+  - keep at most the most recent 200 processed tasks and do not persist queue/ETA history or permanent `attempts[]` / `active_attempts[]` trees.
+- `SLOW` / `SLOW_PENDING` means that a Topview-managed scene currently has at least one active task in `init`, `queued`, `running` or `processing`.
+- A new active task for an existing scene adds/returns that same Scene ID to canonical slow.
+- If several tasks of one scene are active, canonical slow still contains the Scene ID once; all active task IDs remain in `active_by_scene`.
+- When one task becomes terminal (`success`, `fail`, `failed`, `cancelled`), remove that task ID from active state and append/update the minimal processed journal.
+- When the **last Topview-managed active task** for that scene becomes terminal, remove the Scene ID from canonical slow automatically. This changes only render state: **never auto-approve, never auto-rerun, and do not change editorial/production state because rendering ended**.
+- Never auto-clear a canonical slow scene when there is no proven Topview active mapping; unknown/manual slow state is not cleared by guess.
+- `topview-status.json` stays compact: one current/primary telemetry snapshot per Topview-slow Scene ID plus `active_task_ids`. If several tasks are active, the newest active task is the primary row snapshot; all active IDs are still checked internally.
+- Control Center deliberately shows **one compact row per Scene ID**, with no attempt counters, expansion UI or duplicate scene rows.
+- A new Scene ID is created only for a genuinely new creative scene. Ambiguous classification means no master write and user notification.
 
-Ключевая модель данных: **Scene 1 → N Topview attempts**. Scene lifecycle и render-attempt lifecycle — разные сущности.
-
-## Slow table: compact UI, full internal render-attempt telemetry
-
-Control Center intentionally keeps the slow table visually compact:
-
-- the main slow table shows exactly **one row per canonical Scene ID**;
-- no attempt counters, expandable attempt rows, or duplicate Scene rows are shown in the ordinary graphical interface;
-- the row displays only the current/primary telemetry snapshot for that Scene ID so the original table proportions and readability remain stable;
-- repeated and parallel Topview attempts are still preserved internally in `topview-task-map.json` and `topview-status.json` and remain available to automations, audits and statistics;
-- canonical `slow_scenes` contains the Scene ID once regardless of the number of active attempts;
-- if several attempts are active simultaneously, automation must still query and preserve all of them internally; the simplified UI must never be treated as evidence that only one attempt exists;
-- queue/ETA values from different task IDs must never be merged into a fabricated value;
-- technical `success` never equals approval and does not automatically clear canonical slow.
-
-This is a deliberate UX choice: **full fidelity in machine state, minimal noise in the owner-facing interface**.
+Principle: **keep only the state required for correctness and deduplication; detailed render history is not a permanent project entity**.
