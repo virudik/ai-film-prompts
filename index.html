@@ -122,7 +122,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <details class="fingerprint comments-fold"><summary>💬 Комментарии, идеи и предложения</summary><div id="project-comments" class="comments-panel"></div></details>
 </div>
 </section>
-<section id="slow-monitor" class="topview-monitor"><div class="topview-head"><strong>⏳ Сейчас в медленной генерации — Topview</strong><span id="topviewCapacity" class="topview-capacity">занято — из 6 · свободно —</span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
+<section id="slow-monitor" class="topview-monitor"><div class="topview-head"><strong>⏳ Сейчас в медленной генерации — Topview</strong><span id="topviewCapacity" class="topview-capacity">занято — из 6</span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
 <div id="matchNote" class="match-note"></div><div id="noResults" class="no-results">Совпадений нет. Очисти поиск или выбери другой фильтр.</div>
 <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
 </main></div>
@@ -169,13 +169,13 @@ function renderTopview(tv,md){
  const occupied=tasks.length,free=Math.max(0,capacity-occupied);
  const cap=$('topviewCapacity');
  if(cap){
-  cap.textContent='занято '+occupied+' из '+capacity+' · свободно '+free+' · синхр. '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна');
+  cap.textContent='занято '+occupied+' из '+capacity;
   cap.classList.toggle('full',occupied===capacity);
   cap.classList.toggle('over',occupied>capacity);
  }
  if(!tasks.length){
   $('topviewMonitor').innerHTML='<div class="empty">Сейчас нет активных Topview slow-генераций.</div>';
-  $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято 0 из '+capacity+' · свободно '+capacity+'.';
+  $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято 0 из '+capacity+'.';
   return
  }
  const rows=tasks.map((x,slotIndex)=>{
@@ -195,7 +195,7 @@ function renderTopview(tv,md){
  }).join('');
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>#</th><th>Сцена</th><th>Модель</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь</th><th>Оценка времени</th></tr></thead><tbody>'+rows+'</tbody></table>';
  $('topviewMonitor').querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m)resetViewAndJump('scene-'+m[1])}));
- $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято '+occupied+' из '+capacity+' · свободно '+free+' · одна строка = один активный task/слот; Scene ID может повторяться.';
+ $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято '+occupied+' из '+capacity+' · одна строка = один активный task/слот; Scene ID может повторяться.';
 }
 function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'ПРОВЕРКА УСТАРЕЛА',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
 function buttonDone(btn){const old=btn.textContent;btn.textContent='Скопировано';btn.classList.add('done');setTimeout(()=>{btn.textContent=old;btn.classList.remove('done')},1200)}
