@@ -468,3 +468,11 @@ Principle: **keep only the state required for correctness and deduplication; det
 12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6 · свободно 0`, считать это warning и уведомлять пользователя/аудит.
 13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
 14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
+
+
+### Обязательное правило автономных prompts
+
+Для любого prompt-блока, который копируется в Seedance / Veo / Topview отдельно, действует правило из `PROMPT-STYLE-GUIDE.md`: **каждый блок самодостаточен и содержит короткий `CHARACTER APPEARANCE / IDENTITY LOCK` с реальными отличительными признаками персонажа**. Нельзя оставлять production prompt зависимым от общего блока выше по странице. Известную внешность сменщик сам разрешает через `character-references.json` + fresh master/current variant и не просит пользователя повторять её.
+
+Рабочий критерий: **один блок → одно копирование → references → generation**.
+
