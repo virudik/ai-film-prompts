@@ -383,10 +383,27 @@ Genuinely-new-scene import:
 
 `deep-audit-status.json` фиксирует `last_deep_audit_at`, health по секциям, repairs, warnings и unresolved. Timestamp успешного deep audit обновляется только после реально завершённого глубокого прохода; при материальной ошибке следующий hourly run повторяет попытку.
 
-`Topview Scene Intake & Slow Watch` остаётся отдельной automation: только она занимается Topview intake/slow telemetry и авторизованным созданием новых Scene ID из genuinely new Topview video tasks. Recovery Sync не создаёт сцены и не дублирует Topview intake.
+`Topview Scene Intake & Slow Watch` остаётся отдельной automation: только она занимается Topview intake/slow telemetry и авторизованным учётом Topview render attempts и созданием новых Scene ID только из genuinely new Topview video tasks. Recovery Sync не создаёт сцены и не дублирует Topview intake.
 
 ## 22. Семь инструкций ≠ все ссылки в «Служебных файлах»
 
 Seven-document set состоит ровно из семи canonical instruction/recovery файлов. На сайте они должны идти **одной вертикальной колонкой в обязательном порядке чтения 1→7**: HANDOFF → Sync Runbook → Project Guide → Prompt Style Guide → User Guide → README AI Sync → Backup AI Runbook.
 
 `video-prompts.md`, `film-analysis.md`, `film-backlog.md` расположены ниже в отдельной группе **«Рабочие файлы проекта»**. Эти три кнопки тоже идут **вертикально, одна под другой**, в порядке: master → анализ → backlog. Это данные/контекст проекта, не дополнительные инструкции и не копии.
+
+## Canonical rule — Scene ID ≠ Topview render attempt
+
+Это обязательное правило для master, Topview watcher и recovery:
+
+- **Scene ID** идентифицирует саму творческую сцену/сюжетный beat. Он не меняется только потому, что сцену снова отправили в генерацию.
+- **Topview task ID** идентифицирует одну конкретную попытку рендера. У одной Scene ID может быть **сколько угодно последовательных или параллельных render attempts**.
+- Повторный запуск уже существующей сцены — с тем же prompt, исправленным prompt или другим допустимым вариантом этой же сцены — **не создаёт новый Scene ID**, если связь с существующей сценой доказана по prompt lineage, refs/story beat, предыдущему mapping или explicit provenance.
+- Новый неизвестный Topview task для существующей сцены должен быть **добавлен как новая attempt этой Scene ID**, а не заменять историю старой попытки. В telemetry/task-map нужно сохранять history известных task IDs и отдельно указывать текущую/активную попытку.
+- Если новая attempt имеет Topview state `init`, `queued`, `running` или `processing`, существующая Scene ID должна быть **добавлена/возвращена в canonical slow-list**, даже если эта сцена уже когда-то генерировалась, завершалась или ранее была вручную снята с slow.
+- Несколько одновременно активных attempts одной сцены всё равно означают один slow Scene ID; при этом должны сохраняться все активные task IDs.
+- Завершение одной attempt (`success`, `fail`, `cancelled`) не означает `APPROVED`, не создаёт новую сцену и не стирает другие attempts. `success` — только техническое завершение конкретного рендера.
+- Автоматика **не снимает slow автоматически только из-за success**. Пользовательское решение о результате/slow-lock имеет приоритет; новая последующая active attempt снова обязана вернуть сцену в slow.
+- Новый Scene ID создаётся только для **действительно новой творческой сцены**, а не для нового рендера, retry, rerender или prompt-variant существующей сцены.
+- Если нельзя надёжно решить, является task новой сценой или новой attempt существующей — no write / no new Scene ID; пометить ambiguous и уведомить пользователя.
+
+Ключевая модель данных: **Scene 1 → N Topview attempts**. Scene lifecycle и render-attempt lifecycle — разные сущности.
