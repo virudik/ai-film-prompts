@@ -1,2 +1,2 @@
-Scene 20 autonomous Masha identity locks
-2026-09-21T21:42:00Z
+Sync prompt autonomy and appearance-lock instruction rule
+2026-09-21T21:59:00Z
