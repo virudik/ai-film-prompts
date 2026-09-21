@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-20T23:41:23Z",
+  "checked_at": "2026-09-21T00:40:46Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical seven-document instruction set",
   "freshness_max_hours": 3,
@@ -18,7 +18,7 @@
   "semantic_check": {"health":"ok","conflicts":[]},
   "takeover_requirements": {"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
   "topview_scene_intake": {"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","rule":"Genuinely new Topview video task may auto-create the next stable Scene ID; exact source prompt is preserved; retries/duplicates/ambiguous tasks are not auto-imported; success is not approval."},
-  "note":"Hourly light recovery verification refreshed; canonical Drive modification timestamps remain identical to the previously exact-verified seven-file snapshot and GitHub blobs remain unchanged.",
+  "note":"Hourly light recovery verification refreshed. All seven Drive canonical files retain the exact modification timestamps from the last full-text verified snapshot and their GitHub mirror blobs are unchanged; semantic operating rules remain consistent.",
   "recovery_sync": {"automation_title":"AI Film Recovery Sync","schedule":"hourly","hourly_light":true,"daily_deep":true,"deep_audit_status_file":"deep-audit-status.json","deep_audit_interval_hours":24,"note":"Daily deep audit runs inside the hourly Recovery automation when due; Topview Scene Intake & Slow Watch remains separate."},
   "service_files_ui": {"instruction_count":7,"instruction_layout":"vertical","instruction_order":["NEW-CHAT-HANDOFF.md","SYNC-RUNBOOK.md","AI-PROJECT-GUIDE.md","PROMPT-STYLE-GUIDE.md","USER-GUIDE.md","README-AI-SYNC.md","BACKUP-AI-RUNBOOK.md"],"project_data_links":["video-prompts.md","film-analysis.md","film-backlog.md"],"project_data_layout":"vertical","project_data_order":["video-prompts.md","film-analysis.md","film-backlog.md"],"note":"Seven instructions are shown vertically 1-7; project-data links are a separate vertical group and are not additional instructions."}
 }
