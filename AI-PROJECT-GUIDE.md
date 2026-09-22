@@ -559,3 +559,28 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 Canonical prompt style is defined by fresh `PROMPT-STYLE-GUIDE.md`: maximize useful specificity while minimizing redundant wording. Standalone prompts must include their own short appearance lock, reference ownership/priority, feasible action/dialogue timing and continuity handoff when relevant. Shared scene bibles are documentation/continuity layers and must not make a copied production prompt dependent on external prose. Audit quality semantically; do not treat a missing literal heading in a legacy prompt as failure when equivalent protection is clear. Runtime Topview slot rules belong to `SYNC-RUNBOOK.md`.
+
+---
+
+## ENGINE ROUTING — RUSSIAN DIALOGUE
+
+- Постоянное правило проекта: **любая сцена со слышимым разговорным диалогом на русском языке должна использовать Wan 3**.
+- Причина рабочего решения: Seedance 2.5 в текущем workflow недостаточно надёжен для естественной русской речи, произношения и lip sync.
+- Seedance 2.5 не назначать русскоязычной dialogue scene автоматически, даже если визуально он подходит лучше.
+- Исключение — только новая явная команда пользователя для конкретной сцены.
+- При fresh-read существующей сцены с `dialogue.language = ru` проверять, что `target_engine = Wan 3`; при существенной переработке исправлять старое engine assignment в рамках той же Scene ID.
+- Это routing-правило не означает автоматически перезапускать уже активную slow-задачу или менять одобренный результат без решения пользователя.
+
+## CONTINUOUS KNOWLEDGE TRANSFER — подтверждённые улучшения
+
+Любое подтверждённое новое знание, улучшение, ограничение, удачная практика или изменение, которое может сделать будущую работу проекта качественнее, надёжнее или эффективнее, нельзя оставлять только в текущем чате.
+
+- Сразу определить, к какой канонической инструкции относится новое знание, и записать его туда в том же рабочем цикле.
+- Если знание важно следующему чату для продолжения работы, дополнительно обновить SAME `NEW-CHAT-HANDOFF.md`.
+- Если оно меняет стандарт промтов, обновить SAME `PROMPT-STYLE-GUIDE.md`.
+- Это относится в том числе к особенностям/ограничениям моделей, выбору engine, улучшениям prompt-writing, reference handling, continuity, генерации, монтажного workflow, сайта, sync/recovery, telemetry и новым способам предотвращения уже найденных ошибок.
+- Не хранить такое знание только в переписке, памяти одного чата, временной заметке или историческом snapshot.
+- Не размножать чисто эфемерные runtime-факты (queue/ETA/current SHA), если они не образуют нового постоянного правила.
+- После записи выполнить обычный Documentation Duty / Drive → GitHub mirror / recovery update, чтобы правило пережило смену чатов.
+
+Принцип: **если подтверждённая новая информация способна улучшить будущую работу — она должна пережить текущий чат через каноническую документацию.**
