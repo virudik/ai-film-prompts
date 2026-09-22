@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-09-22T06:04:45Z",
+  "checked_at": "2026-09-22T06:08:00Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -56,6 +56,23 @@
       "topview_estimated_wait_seconds": 46080,
       "topview_estimated_process_seconds": null
     },
+    "17": {
+      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "active_task_ids": [
+        "67b8304f8a324b7493af32fd0a0ae5d7"
+      ],
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-22T00:41:06Z",
+      "completed_at": null,
+      "checked_at": "2026-09-22T06:08:00Z",
+      "verified": true,
+      "mapping_confidence": "explicit_prompt_match",
+      "queue_count": 4908,
+      "topview_estimated_wait_seconds": 211059,
+      "topview_estimated_process_seconds": null
+    },
     "19": {
       "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
       "active_task_ids": [
@@ -83,8 +100,8 @@
     "queue_eta": "each row uses telemetry only from that exact task_id"
   },
   "slot_capacity": 6,
-  "occupied_slots": 4,
-  "free_slots": 2,
+  "occupied_slots": 5,
+  "free_slots": 1,
   "active_tasks": [
     {
       "scene_id": 3,
@@ -141,6 +158,20 @@
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "explicit"
+    },
+    {
+      "scene_id": 17,
+      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-22T00:41:06Z",
+      "checked_at": "2026-09-22T06:08:00Z",
+      "queue_count": 4908,
+      "topview_estimated_wait_seconds": 211059,
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "explicit_prompt_match"
     }
   ]
 }
