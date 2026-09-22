@@ -877,3 +877,22 @@ Current verified checkpoint while preparing this handoff:
 - `project-status.json`: `health: ok`;
 - prompt standard is already refactored: prompt-only guide, no full copied live-scene examples, no Topview runtime contract inside it, and core rule **maximum useful specificity, minimum redundant wording**;
 - every standalone production prompt must be self-contained and include short real appearance/identity locks for important characters.
+
+---
+
+## ENGINE ROUTING — RUSSIAN DIALOGUE
+
+- Постоянное правило проекта: **любая сцена со слышимым разговорным диалогом на русском языке должна использовать Wan 3**.
+- Причина рабочего решения: Seedance 2.5 в текущем workflow недостаточно надёжен для естественной русской речи, произношения и lip sync.
+- Seedance 2.5 не назначать русскоязычной dialogue scene автоматически, даже если визуально он подходит лучше.
+- Исключение — только новая явная команда пользователя для конкретной сцены.
+- При fresh-read существующей сцены с `dialogue.language = ru` проверять, что `target_engine = Wan 3`; при существенной переработке исправлять старое engine assignment в рамках той же Scene ID.
+- Это routing-правило не означает автоматически перезапускать уже активную slow-задачу или менять одобренный результат без решения пользователя.
+
+## CONTINUOUS KNOWLEDGE TRANSFER — НЕ ОСТАВЛЯТЬ УЛУЧШЕНИЯ В ОДНОМ ЧАТЕ
+
+Постоянное правило проекта: любое подтверждённое новое знание, улучшение, ограничение, удачная практика или изменение, которое может сделать будущую работу качественнее, надёжнее или эффективнее, должно быть внесено в релевантную каноническую инструкцию в том же рабочем цикле. Если это знание понадобится следующему сменщику, оно также фиксируется в SAME `NEW-CHAT-HANDOFF.md`; prompt-related knowledge — в SAME `PROMPT-STYLE-GUIDE.md`.
+
+Не оставлять такие знания только в переписке/памяти текущего чата. Это включает особенности моделей и engine routing, улучшения prompts/references/continuity, новые ограничения, workflow/sync/recovery/site changes и способы предотвращения обнаруженных ошибок. Эфемерные queue/ETA/current SHA не превращать в постоянные правила без причины.
+
+Принцип передачи смены: **любое подтверждённое улучшение, полезное будущим чатам, должно пережить текущий чат через каноническую документацию.**
