@@ -1,177 +1,26 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-09-22T08:33:00Z",
+  "checked_at": "2026-09-22T09:24:26Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
-    "3": {
-      "task_id": "043d6d4c2350440dbc7bc593845387ab",
-      "active_task_ids": [
-        "043d6d4c2350440dbc7bc593845387ab"
-      ],
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:38:15Z",
-      "completed_at": null,
-      "checked_at": "2026-09-22T08:33:00Z",
-      "verified": true,
-      "mapping_confidence": "explicit",
-      "queue_count": 2946,
-      "topview_estimated_wait_seconds": 92726,
-      "topview_estimated_process_seconds": null
-    },
-    "4": {
-      "task_id": "cfe166820fe046e09d57870928dd87cd",
-      "active_task_ids": [
-        "cfe166820fe046e09d57870928dd87cd"
-      ],
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:40:09Z",
-      "completed_at": null,
-      "checked_at": "2026-09-22T08:33:00Z",
-      "verified": true,
-      "mapping_confidence": "explicit",
-      "queue_count": 3523,
-      "topview_estimated_wait_seconds": 127286,
-      "topview_estimated_process_seconds": null
-    },
-    "5": {
-      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
-      "active_task_ids": [
-        "3f1800f1f2774492ab8bc2eb163cc589"
-      ],
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:36:43Z",
-      "completed_at": null,
-      "checked_at": "2026-09-22T08:33:00Z",
-      "verified": true,
-      "mapping_confidence": "explicit",
-      "queue_count": 2256,
-      "topview_estimated_wait_seconds": 58166,
-      "topview_estimated_process_seconds": null
-    },
-    "17": {
-      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
-      "active_task_ids": [
-        "67b8304f8a324b7493af32fd0a0ae5d7"
-      ],
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-22T00:41:06Z",
-      "completed_at": null,
-      "checked_at": "2026-09-22T08:33:00Z",
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match",
-      "queue_count": 4792,
-      "topview_estimated_wait_seconds": 203318,
-      "topview_estimated_process_seconds": null
-    },
-    "19": {
-      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
-      "active_task_ids": [
-        "e4ad0298cf7d48a98c6ba6498bb62c48"
-      ],
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T03:25:17Z",
-      "completed_at": null,
-      "checked_at": "2026-09-22T08:33:00Z",
-      "verified": true,
-      "mapping_confidence": "explicit",
-      "queue_count": 4100,
-      "topview_estimated_wait_seconds": 161846,
-      "topview_estimated_process_seconds": null
-    }
+    "3": {"task_id":"043d6d4c2350440dbc7bc593845387ab","active_task_ids":["043d6d4c2350440dbc7bc593845387ab"],"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:38:15Z","completed_at":null,"checked_at":"2026-09-22T09:24:26Z","verified":true,"mapping_confidence":"explicit","queue_count":2882,"topview_estimated_wait_seconds":89438,"topview_estimated_process_seconds":null},
+    "4": {"task_id":"cfe166820fe046e09d57870928dd87cd","active_task_ids":["cfe166820fe046e09d57870928dd87cd"],"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:40:09Z","completed_at":null,"checked_at":"2026-09-22T09:24:26Z","verified":true,"mapping_confidence":"explicit","queue_count":3459,"topview_estimated_wait_seconds":123995,"topview_estimated_process_seconds":null},
+    "5": {"task_id":"3f1800f1f2774492ab8bc2eb163cc589","active_task_ids":["3f1800f1f2774492ab8bc2eb163cc589"],"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:36:43Z","completed_at":null,"checked_at":"2026-09-22T09:24:26Z","verified":true,"mapping_confidence":"explicit","queue_count":2154,"topview_estimated_wait_seconds":54873,"topview_estimated_process_seconds":null},
+    "17": {"task_id":"67b8304f8a324b7493af32fd0a0ae5d7","active_task_ids":["67b8304f8a324b7493af32fd0a0ae5d7"],"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-22T00:41:06Z","completed_at":null,"checked_at":"2026-09-22T09:24:26Z","verified":true,"mapping_confidence":"explicit_prompt_match","queue_count":4728,"topview_estimated_wait_seconds":200022,"topview_estimated_process_seconds":null},
+    "19": {"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","active_task_ids":["e4ad0298cf7d48a98c6ba6498bb62c48"],"model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T03:25:17Z","completed_at":null,"checked_at":"2026-09-22T09:24:26Z","verified":true,"mapping_confidence":"explicit","queue_count":4036,"topview_estimated_wait_seconds":158549,"topview_estimated_process_seconds":null}
   },
   "note": "Control Center renders one table row per active Topview task/slot. Scene ID may repeat. Detailed terminal attempt history is not rendered.",
-  "ui_contract": {
-    "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
-    "capacity": 6,
-    "header": "занято 5 из 6 · DD.MM.YYYY, HH:MM:SS",
-    "attempt_counters": "no separate attempt counter UI; row count itself represents occupied slots",
-    "queue_eta": "each row uses telemetry only from that exact task_id"
-  },
+  "ui_contract": {"slow_table":"one row per active Topview task/slot; Scene ID may repeat","capacity":6,"header":"занято 5 из 6","attempt_counters":"no separate attempt counter UI; row count itself represents occupied slots","queue_eta":"each row uses telemetry only from that exact task_id"},
   "slot_capacity": 6,
   "occupied_slots": 5,
   "free_slots": 1,
   "active_tasks": [
-    {
-      "scene_id": 3,
-      "task_id": "043d6d4c2350440dbc7bc593845387ab",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:38:15Z",
-      "checked_at": "2026-09-22T08:33:00Z",
-      "queue_count": 2946,
-      "topview_estimated_wait_seconds": 92726,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit"
-    },
-    {
-      "scene_id": 4,
-      "task_id": "cfe166820fe046e09d57870928dd87cd",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:40:09Z",
-      "checked_at": "2026-09-22T08:33:00Z",
-      "queue_count": 3523,
-      "topview_estimated_wait_seconds": 127286,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit"
-    },
-    {
-      "scene_id": 5,
-      "task_id": "3f1800f1f2774492ab8bc2eb163cc589",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:36:43Z",
-      "checked_at": "2026-09-22T08:33:00Z",
-      "queue_count": 2256,
-      "topview_estimated_wait_seconds": 58166,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit"
-    },
-    {
-      "scene_id": 17,
-      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-22T00:41:06Z",
-      "checked_at": "2026-09-22T08:33:00Z",
-      "queue_count": 4792,
-      "topview_estimated_wait_seconds": 203318,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match"
-    },
-    {
-      "scene_id": 19,
-      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T03:25:17Z",
-      "checked_at": "2026-09-22T08:33:00Z",
-      "queue_count": 4100,
-      "topview_estimated_wait_seconds": 161846,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit"
-    }
+    {"scene_id":3,"task_id":"043d6d4c2350440dbc7bc593845387ab","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:38:15Z","checked_at":"2026-09-22T09:24:26Z","queue_count":2882,"topview_estimated_wait_seconds":89438,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"},
+    {"scene_id":4,"task_id":"cfe166820fe046e09d57870928dd87cd","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:40:09Z","checked_at":"2026-09-22T09:24:26Z","queue_count":3459,"topview_estimated_wait_seconds":123995,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"},
+    {"scene_id":5,"task_id":"3f1800f1f2774492ab8bc2eb163cc589","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T02:36:43Z","checked_at":"2026-09-22T09:24:26Z","queue_count":2154,"topview_estimated_wait_seconds":54873,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"},
+    {"scene_id":17,"task_id":"67b8304f8a324b7493af32fd0a0ae5d7","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-22T00:41:06Z","checked_at":"2026-09-22T09:24:26Z","queue_count":4728,"topview_estimated_wait_seconds":200022,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit_prompt_match"},
+    {"scene_id":19,"task_id":"e4ad0298cf7d48a98c6ba6498bb62c48","model":"Seedance 2.5","model_id":"seedance-2.5","topview_status":"init","started_at":"2026-09-21T03:25:17Z","checked_at":"2026-09-22T09:24:26Z","queue_count":4036,"topview_estimated_wait_seconds":158549,"topview_estimated_process_seconds":null,"verified":true,"mapping_confidence":"explicit"}
   ]
 }
