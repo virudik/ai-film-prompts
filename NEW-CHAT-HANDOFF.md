@@ -148,7 +148,7 @@ Comments backend only; no prompt/master rights.
 - W5, W7, W8
 - active IDs: `1,2,3,4,5,10,11,13,16,17,19,20`
 - deleted/reserved IDs: `6,7,9`
-- canonical slow: `2,3,4,5,13,19`
+- canonical slow: `3,4,5,17,19`
 - latest Scene ID: `20`
 
 
@@ -854,12 +854,7 @@ Before writing or materially revising prompts, read fresh `PROMPT-STYLE-GUIDE.md
 
 
 
-User explicitly simplified the Topview header. The compact line to the right of `⏳ Сейчас в медленной генерации — Topview` must show **only**:
-
-
-
-
-`занято X из 6`
+User explicitly specified the Topview header. The compact line to the right of `⏳ Сейчас в медленной генерации — Topview` must show:
 
 
 
@@ -872,7 +867,7 @@ Show `занято X из 6 · DD.MM.YYYY, HH:MM:SS`. Do **not** show `своб�
 Current verified checkpoint while preparing this handoff:
 - canonical master: **12 active Scene IDs / 24 prompt texts**;
 - active Scene IDs: `1,2,3,4,5,10,11,13,16,17,19,20`;
-- canonical slow scenes: `2,3,4,5,13,19`;
+- canonical slow scenes: `3,4,5,17,19`;
 - Topview capacity: **6**, occupied active task slots: **6** at last verified fetch;
 - `project-status.json`: `health: ok`;
 - prompt standard is already refactored: prompt-only guide, no full copied live-scene examples, no Topview runtime contract inside it, and core rule **maximum useful specificity, minimum redundant wording**;
@@ -900,3 +895,9 @@ Current verified checkpoint while preparing this handoff:
 ## CONTROL CENTER — UNIQUE FILTER LABELS
 
 После исправления дублирования фильтров действует постоянный UI-инвариант: боковое меню не должно показывать два фильтра с одной пользовательской подписью. Если `production_state` и `tag` дают одинаковый label (например `NEEDS_FIX` и `needs_fix` → `Нужна доработка`), оставлять один state-фильтр и не добавлять дублирующий tag-фильтр. Реализация в `index.html` дедуплицирует generated filters по итоговому label.
+
+### Invariant — согласованность slow-состояния во всех представлениях
+
+При **любом** добавлении или снятии Scene ID из Topview-managed slow изменение считается завершённым только после атомарной сверки всех представлений. Обязательно проверить, что один и тот же набор уникальных slow Scene ID отражён одновременно в: (1) `video-prompts.md` — строке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, canonical slow-list, dedicated slow table, TOC badge и marker внутри секции сцены; (2) `project-status.json.slow_scenes` и `scene_meta[*].render_state`; (3) `topview-status.json.scenes` / `active_tasks[]` и `topview-task-map.json.active_by_scene` для Topview-managed active tasks; (4) Control Center — блоке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, таблице `Сейчас в медленной генерации — Topview` и `Активные сцены проекта — карта и навигация`.
+
+Для Topview-managed сцены с хотя бы одним task в `init/queued/running/processing` Scene ID **обязан** присутствовать в canonical slow. После terminal последнего active task он **обязан** исчезнуть из canonical slow. Нельзя считать изменение законченным, если хотя бы одно из трёх пользовательских представлений сайта показывает другой набор/число slow-сцен. Slot count (`занято X из 6`) проверяется отдельно по `active_tasks[]`: при одном active task на каждую slow-сцену число совпадает, но архитектурно это разные величины.
