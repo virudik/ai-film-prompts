@@ -386,3 +386,6 @@ Principle: **keep only the state required for correctness and deduplication; det
 12. **Over-capacity guard:** если из-за race/provider anomaly `occupied_slots > 6`, не скрывать проблему: показывать фактическое `занято X из 6`, считать это warning и уведомлять пользователя/аудит.
 13. **Никакой тяжёлой истории:** это правило не возвращает старую permanent `attempts[]` модель. `active_tasks[]` содержит только текущие активные задачи; после terminal state подробная telemetry не хранится бессрочно.
 14. **Recovery/audit:** при проверке сайта и Topview state отдельно сверять `occupied_slots == len(active_tasks[]) == sum(len(active_by_scene[scene]))` и `free_slots == max(0, 6 - occupied_slots)`. Не сравнивать `occupied_slots` с количеством уникальных `slow_scenes`.
+### Slow-state consistency boundary
+
+`README-AI-SYNC.md` описывает **архитектуру и роли хранилищ**, а не дублирует пошаговый recovery/runbook. Полная процедура изменения slow-state живёт только в `SYNC-RUNBOOK.md`. Архитектурный инвариант: canonical slow должен быть одинаковым в Drive master, `project-status.json` и пользовательских представлениях Control Center; Topview active mapping/telemetry подтверждает Topview-managed membership. Любое изменение slow-state завершается только после этой cross-view проверки.
