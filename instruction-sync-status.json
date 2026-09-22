@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-22T06:30:19.643Z",
+  "checked_at": "2026-09-22T08:31:30Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-22T00:22:00.365Z",
-      "github_blob": "803983b259f0b3a1d18264f387f5c68881c8a2fc",
+      "drive_modified_at": "2026-09-22T08:28:12.250Z",
+      "github_blob": "8ecdda2ee3a99d2579f851af2c2c5563dc0b3d04",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-21T23:17:27.986Z",
-      "github_blob": "64364e980527f9e631e71eff45827de65750eb0b",
+      "drive_modified_at": "2026-09-22T08:27:55.508Z",
+      "github_blob": "6f6f7cd8c4a488fbaf6c565e8e5f6fa7608c0254",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-22T00:21:55.568Z",
-      "github_blob": "1611482945c92cbc8463f220097371dab1470a2d",
+      "drive_modified_at": "2026-09-22T08:28:07.114Z",
+      "github_blob": "ad4cabea7da4160d4625751568ab25b78b04e24d",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -39,8 +39,8 @@
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-21T23:17:48.692Z",
-      "github_blob": "cec2f51a42ba695b11363f1404978a1eef317725",
+      "drive_modified_at": "2026-09-22T08:28:01.165Z",
+      "github_blob": "7a8fbf42751465dd0a79f7e0037b9ae600611a16",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Topview slot UI contract: one active task = one occupied slot; capacity 6; repeated Scene ID rows are allowed; permanent detailed attempt history remains disabled.",
+  "note": "Topview slot UI contract: one active task = one occupied slot; capacity 6; repeated Scene ID rows are allowed; header shows occupied slots plus checked_at timestamp in ordinary text.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -105,7 +105,7 @@
     "slot_capacity": 6,
     "row_cardinality": "one_row_per_active_topview_task",
     "scene_id_may_repeat": true,
-    "header_format": "занято X из 6",
+    "header_format": "занято X из 6 · DD.MM.YYYY, HH:MM:SS",
     "columns": [
       "#",
       "Сцена",
@@ -119,9 +119,9 @@
     "task_id_column": false,
     "expandable_attempt_ui": false,
     "slot_count_source": "topview-status.json.active_tasks[]",
-    "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); free_slots=max(0,6-occupied_slots); do not compare occupied_slots to unique slow_scenes count",
+    "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); free_slots=max(0,6-occupied_slots); canonical slow unique Scene IDs must match all master/status/site slow representations; slot count remains a separate task count",
     "sync_time_source": "topview-status.json.checked_at",
-    "sync_time_display": "internal diagnostics only; do not render in heading line"
+    "sync_time_display": "render after occupied slot count in ordinary text color/weight; no 'синхр.' label"
   },
   "conflicts": [],
   "mode": "authorized_chatgpt_drive_connector"
