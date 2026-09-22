@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-22T07:21:19Z",
+  "updated_at": "2026-09-22T08:14:50Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": ["Scene ID identifies the creative scene; Topview task ID identifies one render attempt.","A rerun/rerender of an existing scene keeps the same Scene ID.","Known set = all active task IDs + processed_tasks task IDs.","A scene is Topview-slow while at least one known active task for that scene is init/queued/running/processing.","When the last Topview-managed active task for a scene reaches a terminal state, remove that scene from canonical slow; do not change approval/editorial state.","Keep only minimal processed-task facts needed for dedup/statistics: task_id, scene_id, final_status, finished_at. Do not persist queue/ETA history.","New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review.","Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."],
@@ -11,7 +11,7 @@
     {"task_id":"73cf9e84d8b14f5f8d6653f7f6ae7318","scene_id":13,"final_status":"success","finished_at":"2026-09-22T05:27:23Z"}
   ],
   "retention": {"processed_tasks_max":200,"note":"Keep only recent processed tasks still useful for dedup/statistics. User-declared obsolete historical terminal tasks may be removed; do not backfill them from old history unless a NEW task appears in the normal scan window.","scan_rule":"On each run, rescan only the overlap window since last_scan_at minus 6 hours; deduplicate with active IDs + processed_tasks. Advance last_scan_at only after a successful classification/check pass.","slot_note":"Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."},
-  "last_scan_at": "2026-09-22T07:21:19Z",
+  "last_scan_at": "2026-09-22T08:14:50Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6
 }
