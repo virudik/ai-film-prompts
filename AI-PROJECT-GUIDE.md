@@ -584,3 +584,7 @@ Canonical prompt style is defined by fresh `PROMPT-STYLE-GUIDE.md`: maximize use
 - После записи выполнить обычный Documentation Duty / Drive → GitHub mirror / recovery update, чтобы правило пережило смену чатов.
 
 Принцип: **если подтверждённая новая информация способна улучшить будущую работу — она должна пережить текущий чат через каноническую документацию.**
+
+## CONTROL CENTER FILTER DEDUPLICATION
+
+Постоянное правило UI: в боковом меню Control Center пользователь не должен видеть два фильтра с одинаковой подписью, даже если один пришёл из `production_state`, а другой из `tags`. `availableFilters()` должен дедуплицировать фильтры по итоговой пользовательской подписи. Например, `production_state=NEEDS_FIX` и `tag=needs_fix` отображаются как один фильтр `Нужна доработка`; каноническим считается state-фильтр, а семантически дублирующий tag-фильтр не добавляется.
