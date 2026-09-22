@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-09-22T00:51:30Z",
+  "checked_at": "2026-09-22T06:04:45Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -56,23 +56,6 @@
       "topview_estimated_wait_seconds": 46080,
       "topview_estimated_process_seconds": null
     },
-    "13": {
-      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
-      "active_task_ids": [
-        "73cf9e84d8b14f5f8d6653f7f6ae7318"
-      ],
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:12:11Z",
-      "completed_at": null,
-      "checked_at": "2026-09-21T22:36:34Z",
-      "verified": true,
-      "mapping_confidence": "explicit",
-      "queue_count": 645,
-      "topview_estimated_wait_seconds": 11520,
-      "topview_estimated_process_seconds": null
-    },
     "19": {
       "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
       "active_task_ids": [
@@ -100,8 +83,8 @@
     "queue_eta": "each row uses telemetry only from that exact task_id"
   },
   "slot_capacity": 6,
-  "occupied_slots": 5,
-  "free_slots": 1,
+  "occupied_slots": 4,
+  "free_slots": 2,
   "active_tasks": [
     {
       "scene_id": 3,
@@ -141,20 +124,6 @@
       "checked_at": "2026-09-21T22:36:34Z",
       "queue_count": 1937,
       "topview_estimated_wait_seconds": 46080,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit"
-    },
-    {
-      "scene_id": 13,
-      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
-      "started_at": "2026-09-21T02:12:11Z",
-      "checked_at": "2026-09-21T22:36:34Z",
-      "queue_count": 645,
-      "topview_estimated_wait_seconds": 11520,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "explicit"
