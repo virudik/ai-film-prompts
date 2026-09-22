@@ -20,10 +20,9 @@
     3,
     4,
     5,
-    13,
     19
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 4,
   "scene_ids": [
     1,
     2,
@@ -44,7 +43,7 @@
     "snapshot_at": "2026-09-22T00:39:02Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
-    "freshness_max_hours": 3.0,
+    "freshness_max_hours": 3,
     "age_hours_at_status_build": 5.07,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
@@ -240,7 +239,7 @@
         "continuous_take",
         "needs_fix"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "16": {
       "target_engine": "Seedance 2.5",
@@ -341,7 +340,6 @@
       3,
       4,
       5,
-      13,
       19
     ],
     "health": "ok",
