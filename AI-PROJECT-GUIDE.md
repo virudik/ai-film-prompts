@@ -588,3 +588,9 @@ Canonical prompt style is defined by fresh `PROMPT-STYLE-GUIDE.md`: maximize use
 ## CONTROL CENTER FILTER DEDUPLICATION
 
 Постоянное правило UI: в боковом меню Control Center пользователь не должен видеть два фильтра с одинаковой подписью, даже если один пришёл из `production_state`, а другой из `tags`. `availableFilters()` должен дедуплицировать фильтры по итоговой пользовательской подписи. Например, `production_state=NEEDS_FIX` и `tag=needs_fix` отображаются как один фильтр `Нужна доработка`; каноническим считается state-фильтр, а семантически дублирующий tag-фильтр не добавляется.
+
+### Invariant — согласованность slow-состояния во всех представлениях
+
+При **любом** добавлении или снятии Scene ID из Topview-managed slow изменение считается завершённым только после атомарной сверки всех представлений. Обязательно проверить, что один и тот же набор уникальных slow Scene ID отражён одновременно в: (1) `video-prompts.md` — строке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, canonical slow-list, dedicated slow table, TOC badge и marker внутри секции сцены; (2) `project-status.json.slow_scenes` и `scene_meta[*].render_state`; (3) `topview-status.json.scenes` / `active_tasks[]` и `topview-task-map.json.active_by_scene` для Topview-managed active tasks; (4) Control Center — блоке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, таблице `Сейчас в медленной генерации — Topview` и `Активные сцены проекта — карта и навигация`.
+
+Для Topview-managed сцены с хотя бы одним task в `init/queued/running/processing` Scene ID **обязан** присутствовать в canonical slow. После terminal последнего active task он **обязан** исчезнуть из canonical slow. Нельзя считать изменение законченным, если хотя бы одно из трёх пользовательских представлений сайта показывает другой набор/число slow-сцен. Slot count (`занято X из 6`) проверяется отдельно по `active_tasks[]`: при одном active task на каждую slow-сцену число совпадает, но архитектурно это разные величины.
