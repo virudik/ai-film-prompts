@@ -2,3 +2,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-09-21T23:45:08Z
 2026-09-22T00:14:00Z manual-sync-after-russian-dialogue-routing
 2026-09-22T00:52:00Z scene2-success-and-sync-repair
+2026-09-22T00:52:10Z scene2-slow-marker-cleared
