@@ -60,7 +60,7 @@ jobs:
         run: |
           set -euo pipefail
           SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT"
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
 
       - name: Repair mirrors only when needed
         shell: bash
@@ -78,7 +78,7 @@ jobs:
             git reset --hard origin/main
 
             SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT"
+            python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
 
             if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
               cp /tmp/drive-video-prompts.md video-prompts.md
