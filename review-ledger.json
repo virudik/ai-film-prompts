@@ -18,7 +18,7 @@
     "accepted=true and needs_redo=true is invalid unless a future explicit schema rule defines partial acceptance.",
     "inserted_into_film=true requires reviewed=true and accepted=true."
   ],
-  "updated_at": "2026-09-23T13:35:00Z",
+  "updated_at": "2026-09-23T13:37:24.771698Z",
   "scenes": {
     "3": {
       "result_received": false,
@@ -109,8 +109,8 @@
       "last_human_update_at": null
     },
     "19": {
-      "result_received": false,
-      "result_received_at": null,
+      "result_received": true,
+      "result_received_at": "2026-09-21T03:20:45Z",
       "reviewed": null,
       "reviewed_at": null,
       "accepted": null,
