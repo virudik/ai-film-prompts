@@ -1,0 +1,29 @@
+name: AI Film integration recovery tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tests/test_recovery_integration.py'
+      - 'scripts/build_project_status.py'
+      - 'video-prompts.md'
+      - 'topview-status.json'
+      - 'topview-task-map.json'
+      - 'instruction-sync-status.json'
+      - 'NEW-CHAT-HANDOFF.md'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: recovery-integration-tests
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run offline recovery integration tests
+        run: python3 -m unittest -v tests/test_recovery_integration.py
