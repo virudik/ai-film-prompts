@@ -3,17 +3,17 @@
 
 
 
-**Checkpoint:** 22.09.2026  
+**Checkpoint:** 23.09.2026  
 **Назначение:** единая актуальная точка передачи следующему чату. Если старый chat summary, Notion note, Library copy или исторический commit противоречат этому файлу и live sources, сначала проверять live authority, а не продолжать старое предположение.
 
 
 
 
-## 0. CURRENT CHECKPOINT — 22.09.2026
+## 0. CURRENT CHECKPOINT — 23.09.2026
 
 Этот блок — быстрый вход для сменщика; подробные правила ниже остаются обязательными.
 
-- Fresh runtime authority: Drive master + `project-status.json`; на текущем snapshot активные Scene ID: `1,2,3,4,5,10,11,13,16,17,19,20`, `health: ok`.
+- Fresh runtime authority: Drive master + `project-status.json`; на текущем snapshot активные Scene ID: `3,4,5,10,11,13,16,17,19,20`, `health: ok`.
 - Fresh Topview snapshot на момент передачи: capacity `6`, occupied `6`; UI обязан считать **tasks/slots**, а не уникальные Scene ID.
 - Компактная строка Topview на сайте: **`занято X из 6 · DD.MM.YYYY, HH:MM:SS`**. Не показывать `свободно Y` и не писать `синхр.`. Timestamp — обычный цвет/вес текста.
 - `PROMPT-STYLE-GUIDE.md` обновлён до **v1.3 / 22.09.2026** и является единственным prompt-writing standard.
@@ -22,6 +22,30 @@
 - Каждый отдельно копируемый production prompt самодостаточен: short real `CHARACTER APPEARANCE / IDENTITY LOCK`, reference ownership/priority, feasible timing, coherent camera/space, risk-specific negatives, START/END state для последовательностей где полезно.
 - Качество legacy prompts проверяется **семантически**, а не буквальным grep по названию секции. Новые/перерабатываемые prompts приводятся к актуальному формату.
 - Не спрашивать пользователя повторно об известной внешности/continuity: resolve из fresh `character-references.json` + master/current variant.
+
+## 0A. RELIABILITY IMPLEMENTATION CHECKPOINT — 23.09.2026
+
+**Owner requirement:** Control Center/project maintenance is set-and-forget. Preserve working behavior; implement reliability in verified stages and save this handoff after every stage. Never announce a stage complete until read-back/validation passes.
+
+**Current user decisions and verified live state:**
+- Scenes **1 and 2 are no longer needed** and were removed from active Drive master on 23.09.2026. Their IDs remain permanently reserved and must not be reused.
+- Scene 5 Topview task `3f1800f1f2774492ab8bc2eb163cc589` reached `success` at `2026-09-23 01:06:36`; Scene 5 was removed from render slow-state only. Success is NOT editorial approval.
+- Scene 20 has two active Topview tasks: PART 1 `efda861b19834b50bbf591ad37d52b67` and PART 2 `e620bf1255a9445b8ccfe5e44e30b5b6`. They share Scene ID 20 but occupy **two** of six Topview slots.
+- Verified active task slots after reconciliation: Scene 3, Scene 4, Scene 17, Scene 19, Scene 20 PART 1, Scene 20 PART 2 = **6/6 occupied**. Canonical unique slow scenes = `3,4,17,19,20`.
+- Active master after retirement = Scene IDs `3,4,5,10,11,13,16,17,19,20`: **10 scenes / 20 prompt texts**.
+
+**Stage plan:**
+1. Reliability foundation: one-writer ownership; fresh-read/safe retry; optimistic locking where provider supports it; read-back/hash verification; preserve enabled state on automation updates. **IN PROGRESS**. Master/Topview current-state reconciliation above is already applied and read back. Remaining before declaring Stage 1 complete: persist the one-writer/write-verification contract in canonical operational docs and verify automation + mirrors after write.
+2. Strengthened validator. **NOT STARTED.**
+3. Topview operation journal + complete pagination/page scanning. **NOT STARTED.**
+4. Recovery manifest. **NOT STARTED.**
+5. Integration/self-recovery tests without launching renders. **NOT STARTED.**
+6. Montage/review ledger. **NOT STARTED.**
+7. Control Center `Сейчас` work view. **NOT STARTED.**
+
+**One-writer direction already chosen:** Topview watcher is single writer for Topview-derived render state (`topview-task-map.json`, `topview-status.json`, canonical slow transitions and Topview-derived project-status fields). Recovery verifies and repairs infrastructure/mirrors but must not race normal watcher Topview writes. Recovery is watchdog for watcher and should re-enable it if disabled without explicit owner request. Whenever either project automation is updated, explicitly preserve `is_enabled:true`; a config/prompt update must not leave it disabled.
+
+**Safe-write invariant for all following stages:** fresh-read immediately before write; compare fingerprint/version where available; if changed, discard stale prepared write and recompute once; after write read back same ID/path and verify semantic change plus hash/content; only then rebuild dependent artifacts. No blind stale replay.
 
 ## 1. TAKEOVER GATE — прочитать до любой работы
 
