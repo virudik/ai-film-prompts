@@ -1,0 +1,20 @@
+name: Validate review ledger
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'review-ledger.json'
+      - 'scripts/validate_review_ledger.py'
+      - 'project-status.json'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/validate_review_ledger.py
