@@ -1,0 +1,41 @@
+name: Reconcile review ledger
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'topview-task-map.json'
+      - 'project-status.json'
+      - 'scripts/reconcile_review_ledger.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: review-ledger-reconcile
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reconcile technical result receipt only
+        run: python3 scripts/reconcile_review_ledger.py
+      - name: Validate ledger
+        run: python3 scripts/validate_review_ledger.py
+      - name: Publish if changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "4189826+github-actions[bot]@users.noreply.github.com"
+          git add review-ledger.json
+          if git diff --cached --quiet; then
+            echo "Review ledger current."
+            exit 0
+          fi
+          git commit -m "Reconcile review ledger"
+          git push origin HEAD:main
