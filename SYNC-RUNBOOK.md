@@ -572,3 +572,12 @@ Permanent set-and-forget rule for technical project state:
 - **No owner maintenance burden.** Deterministic drift that can be repaired from unambiguous authority is repaired silently. Ask the owner only for genuine creative/editorial ambiguity, unsafe/destructive action, security uncertainty, ambiguous task-to-scene mapping, or a deterministic repair that failed after one verified attempt.
 - **No blind rollback.** Recovery may restore only from a verified authoritative source/version; historical checkpoints and cached copies are not current truth.
 
+
+
+## Review / montage ledger — permanent contract (23.09.2026)
+
+`review-ledger.json` separates technical render receipt from human editorial and montage decisions. It is generated/maintained on GitHub and does not override the Drive master, Topview telemetry, or the actual film edit.
+
+Per Scene ID it tracks five independent facts: `result_received`, `reviewed`, `accepted`, `needs_redo`, `inserted_into_film`. Technical Topview `success` may set only `result_received=true`. It must never imply review, acceptance, no-redo, or insertion into the film. Human-decision fields remain `null` until explicitly known. `inserted_into_film=true` requires `reviewed=true` and `accepted=true`; `accepted=true` and `needs_redo=true` is invalid unless a future explicit schema rule defines partial acceptance.
+
+`Reconcile review ledger` may add newly active canonical Scene IDs and advance `result_received` from verified `processed_tasks` success. It must never infer or overwrite human review/editorial/montage fields. `Validate review ledger` blocks structurally contradictory state.
