@@ -82,12 +82,18 @@ class IntegrationRecoveryTests(unittest.TestCase):
         top["scenes"].pop("20")
         top["occupied_slots"] = len(top["active_tasks"])
         top["free_slots"] = max(0, top["slot_capacity"] - top["occupied_slots"])
+        task["processed_tasks"].append({
+            "task_id": "synthetic-terminal-scene20",
+            "scene_id": 20,
+            "final_status": "success",
+            "finished_at": "2026-09-23T13:30:00Z",
+        })
         with tempfile.TemporaryDirectory() as td:
             tp, mp = Path(td)/"top.json", Path(td)/"map.json"
             write_json(tp, top); write_json(mp, task)
             p, status = run_validator(topview=tp, taskmap=mp)
             self.assertNotEqual(p.returncode, 0)
-            self.assertFalse(status["checks"]["no_terminal_only_topview_scene_is_slow"] if "no_terminal_only_topview_scene_is_slow" in status["checks"] else status["checks"]["topview_active_scenes_are_canonical_slow"])
+            self.assertFalse(status["checks"]["no_terminal_only_topview_scene_is_slow"])
 
     def test_stale_conflicting_topview_snapshot_is_rejected(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
