@@ -32,6 +32,11 @@ def run_validator(master=MASTER, topview=TOPVIEW, taskmap=TASKMAP):
             cwd=ROOT, text=True, capture_output=True,
         )
         status = json.loads(out.read_text(encoding="utf-8")) if out.exists() else None
+        if status is None:
+            try:
+                status = json.loads(p.stdout)
+            except (json.JSONDecodeError, TypeError):
+                status = None
         return p, status
 
 
