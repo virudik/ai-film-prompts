@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-23T12:51:20Z",
+  "updated_at": "2026-09-23T13:21:16Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -60,10 +60,17 @@
   "retention": {
     "processed_tasks_max": 200,
     "note": "Keep only recent processed tasks still useful for dedup/statistics. User-declared obsolete historical terminal tasks may be removed; do not backfill them from old history unless a NEW task appears in the normal scan window.",
-    "scan_rule": "On each run, rescan only the overlap window since last_scan_at minus 6 hours; deduplicate with active IDs + processed_tasks. Advance last_scan_at only after a successful classification/check pass.",
+    "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-09-23T12:51:20Z",
+  "last_scan_at": "2026-09-23T13:21:16Z",
   "scan_overlap_hours": 6,
-  "slot_capacity": 6
+  "slot_capacity": 6,
+  "scan_cursor": {
+    "strategy": "page_scan_to_checkpoint_with_6h_overlap",
+    "last_successful_scan_at": "2026-09-23T13:21:16Z",
+    "last_full_board_pages_checked": 4,
+    "last_board_total_seen": 352,
+    "overlap_hours": 6
+  }
 }
