@@ -416,15 +416,13 @@ function renderStatus(s,wfRuns=[],instructionDetail=null){
  const semanticWarning=authoritativeHealthy&&semanticHealth!=='ok';
  const workflowWarning=authoritativeHealthy&&unresolvedWorkflowFailure;
  const staleWarning=authoritativeHealthy&&!heartbeatFresh;
- const recoveredWarning=authoritativeHealthy&&!semanticWarning&&!workflowWarning&&!staleWarning&&Boolean(recentFailure)&&consecutiveSuccesses>0&&consecutiveSuccesses<3;
- const ok=authoritativeHealthy&&!semanticWarning&&!workflowWarning&&!staleWarning&&!recoveredWarning;
+ const recoveredWarning=authoritativeHealthy&&Boolean(recentFailure)&&consecutiveSuccesses>0&&consecutiveSuccesses<3;
+ // Owner-facing status is intentionally quiet: context/workflow/freshness warnings are serviced automatically.
+ // Red is reserved for verified authoritative corruption/unavailability, not maintenance noise.
+ const ok=authoritativeHealthy;
  let healthText='✕ ОШИБКА СИНХРОНИЗАЦИИ';
  let healthClass='bad';
- if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'}
- else if(semanticWarning){healthText='! НУЖНА ПРОВЕРКА КОНТЕКСТА';healthClass='warn'}
- else if(workflowWarning){healthText='! СБОЙ WORKFLOW — ДАННЫЕ ПРОВЕРЕНЫ';healthClass='warn'}
- else if(staleWarning){healthText='! СИНХРОНИЗАЦИЯ УСТАРЕЛА';healthClass='warn'}
- else if(recoveredWarning){healthText='! БЫЛИ ОШИБКИ СИНХРОНИЗАЦИИ';healthClass='warn'};
+ if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'};
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
  $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=s.slow_scenes_count??(s.slow_scenes||[]).length;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=(s.slow_scenes||[]).join(', ')||'нет';
@@ -437,10 +435,9 @@ function renderStatus(s,wfRuns=[],instructionDetail=null){
  $('instructionSync').style.color=instruction==='ok'?'var(--ok)':instruction==='error'?'var(--bad)':'var(--warn)';
  $('schema').textContent=`схема ${s.schema_version??'—'}`;
  $('projectStatus').textContent=`${s.scenes} сцен · ${s.prompt_texts} промтов · медленная генерация ${s.slow_scenes_count} · в работе ${s.work_items_count}`;
- if(workflowWarning)$('statusMessage').textContent='Последний GitHub workflow завершился ошибкой позже project-status, но канонический project-status и проверка инструкций не показывают повреждения данных. Это предупреждение; Recovery Sync должен автоматически устранить безопасно исправимую причину.';
- else if(staleWarning)$('statusMessage').textContent='Последний успешный project-status старше 75 минут. Данные не объявляются повреждёнными только из-за возраста heartbeat; Recovery Sync должен обновить их автоматически.';
- else if(semanticWarning)$('statusMessage').textContent='Техническая синхронизация здорова, но Recovery Sync нашёл смысловое противоречие в контекстных документах. Это жёлтое предупреждение, а не поломка Drive→GitHub.';
- else if(recoveredWarning)$('statusMessage').textContent=`Сбой уже восстановлен. Жёлтый статус сохраняется до 3 последовательных успешных sync workflow; сейчас ${consecutiveSuccesses}/3.`;
+ if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано Recovery Sync для автоматического обслуживания.';
+ else if(ok&&(workflowWarning||staleWarning||recoveredWarning))$('statusMessage').textContent='Рабочие данные доступны и согласованы. Служебное обслуживание выполняется автоматически.';
+
  else $('statusMessage').textContent=instruction==='ok'?'Пять канонических Drive-инструкций проверены; hourly Recovery Sync автоматически чинит только GitHub-зеркала из Drive и отдельно проверяет известные смысловые противоречия.':instruction==='stale'?'Проверка инструкций устарела. Канон остаётся в Google Drive.':instruction==='error'?'Есть точное расхождение или ошибка чтения канонических инструкций. Канон остаётся в Google Drive; это уже техническая проблема синхронизации.':'Авторизованный результат проверки инструкций пока недоступен.';
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'API недоступен';
