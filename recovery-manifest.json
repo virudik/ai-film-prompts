@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
+  "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
+  "latest_verified_master": {
+    "sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
+    "drive_modified_at": "2026-09-23T12:51:20.640Z",
+    "scene_count": 10,
+    "prompt_count": 20
+  },
+  "artifact_ownership": {
+    "video-prompts.md": "Google Drive canonical; Topview watcher may make only explicitly authorized/deterministic render-state mutations",
+    "topview-task-map.json": "Topview Scene Intake & Slow Watch",
+    "topview-status.json": "Topview Scene Intake & Slow Watch",
+    "project-status.json": "generated validator status; Topview-derived portions follow watcher state",
+    "instruction-sync-status.json": "AI Film Recovery Sync",
+    "recovery-manifest.json": "AI Film Recovery Sync / verified maintenance",
+    "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
+  },
+  "last_verified_topview_checkpoint": {
+    "checked_at": "2026-09-23T12:51:20Z",
+    "active_task_count": 6,
+    "canonical_slow_scene_ids": [
+      3,
+      4,
+      17,
+      19,
+      20
+    ],
+    "slot_capacity": 6,
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "critical_github_blobs": {
+    "project-status.json": "fdcf90a7261864aef438cf8b76e198c3ab3d7f08",
+    "topview-status.json": "6966d5b134b92bf01dac12a860a851a4f279b7e8",
+    "topview-task-map.json": "9d319309a09d2588685f72984c0ce170544629d8"
+  },
+  "validator": {
+    "version": "cross-layer-v1",
+    "script_commit": "c3702720ab7b6331eea19680b3aebc67d2c7480e",
+    "last_result": "pending_workflow_verification"
+  },
+  "last_successful_full_reconciliation": "2026-09-23T12:51:20Z"
+}
