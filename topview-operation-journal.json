@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "purpose": "Compact bounded operational audit for Topview maintenance. No prompts, signed URLs or secrets.",
+  "retention_max_events": 500,
+  "events": [
+    {
+      "timestamp": "2026-09-23T12:51:20Z",
+      "operation": "checkpoint_baseline",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": null,
+      "new_status": "verified_snapshot",
+      "source_checkpoint": "2026-09-23T12:51:20Z",
+      "outcome": "recorded",
+      "verification": "active_by_scene=6 tasks; canonical slow=3,4,17,19,20; occupied=6/6"
+    }
+  ]
+}
