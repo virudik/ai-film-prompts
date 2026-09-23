@@ -444,3 +444,17 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 При takeover/recovery считать fresh `PROMPT-STYLE-GUIDE.md` единственным стилевым стандартом. Проверять prompt semantically: self-contained copy-paste block, real appearance/identity protection, reference ownership/priority, feasible timing, coherent camera/continuity, risk-oriented negatives, no excessive duplication. Не восстанавливать старые полнотекстовые examples как canonical truth. Topview runtime/slot contract проверять по `SYNC-RUNBOOK.md`, не по prompt guide.
+
+## Reliability write contract — 23.09.2026
+
+Permanent set-and-forget rule for technical project state:
+
+- **One writer per derived state domain.** `Topview Scene Intake & Slow Watch` is the normal single writer for Topview-derived render state: `topview-task-map.json`, `topview-status.json`, canonical slow transitions, and Topview-derived fields in `project-status.json`. `AI Film Recovery Sync` verifies/repairs infrastructure and mirrors and must not race the watcher during normal operation.
+- **Watcher watchdog.** Recovery must verify that the Topview watcher is enabled and re-enable it if it became disabled without an explicit owner request. When either project automation is updated, preserve `is_enabled: true`; prompt/config edits must never silently disable it.
+- **Fresh-read before every write.** Immediately before changing a canonical Drive file or GitHub state file, fetch the current authoritative version and fingerprint/version where available.
+- **Optimistic conflict handling.** If the source changed after preparation, discard the stale prepared write, refetch, recompute, and retry once. Never replay a stale full-file body over a newer version. GitHub writes must use the fresh file SHA.
+- **Read-back verification.** After every write, read back the same Drive file ID or GitHub path and verify the intended semantic change and content/hash/fingerprint before rebuilding dependent artifacts or reporting success.
+- **Dependency order.** Authority first, then derived status/mirrors, then Control Center/Pages verification. Never let a generated status snapshot overwrite fresh authority.
+- **No owner maintenance burden.** Deterministic drift that can be repaired from unambiguous authority is repaired silently. Ask the owner only for genuine creative/editorial ambiguity, unsafe/destructive action, security uncertainty, ambiguous task-to-scene mapping, or a deterministic repair that failed after one verified attempt.
+- **No blind rollback.** Recovery may restore only from a verified authoritative source/version; historical checkpoints and cached copies are not current truth.
+
