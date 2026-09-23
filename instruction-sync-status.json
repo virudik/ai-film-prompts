@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-23T13:12:32.253Z",
+  "checked_at": "2026-09-23T13:23:05.583Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-23T13:12:32.253Z",
-      "github_blob": "01a2f480beebe87a2e5096aac4d74b3b7673f844",
+      "drive_modified_at": "2026-09-23T13:23:05.583Z",
+      "github_blob": "6ae4949db60084abf3bdc82bb65a3894cabdbd3b",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files exactly match GitHub mirrors. Stale Scene 2/current-state handoff prose was repaired from fresh runtime authority. Topview header contract remains `занято X из 6 · DD.MM.YYYY, HH:MM:SS`.",
+  "note": "Seven canonical Drive instruction files match GitHub mirrors. Handoff records verified reliability stages 1-4 and current 10-scene / 5-slow / 6-slot checkpoint.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
