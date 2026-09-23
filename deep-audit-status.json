@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-21T22:42:27Z",
-  "last_deep_audit_at": "2026-09-21T22:42:27Z",
-  "health": "warning",
+  "checked_at": "2026-09-23T17:29:01Z",
+  "last_deep_audit_at": "2026-09-23T17:29:01Z",
+  "health": "ok",
   "sections": {
-    "master": "warning_bom",
+    "master": "ok",
     "prompts": "ok_with_review_items",
     "characters": "ok",
     "montage": "ok",
@@ -13,45 +13,39 @@
     "site": "ok",
     "supabase": "ok",
     "github_actions": "ok",
-    "recovery": "warning_master_bom"
+    "recovery": "ok",
+    "automation_watchdog": "ok",
+    "one_writer_ownership": "ok"
   },
   "repairs": [
-    "Refreshed instruction-sync-status.json after exact seven-document Drive-to-GitHub blob verification; all seven match.",
-    "Previous film-backlog.md stale 18 September slow-list issue is now explicitly historical and a current 21 September operational block correctly lists 2,3,4,5,13,19."
+    "Refreshed recovery-manifest.json to the latest verified master/status/Topview checkpoint and critical GitHub blob versions.",
+    "Cleared the obsolete BOM warning: current generated validator confirms canonical_master_utf8_without_bom=true.",
+    "Verified Topview Scene Intake & Slow Watch remains enabled and is the single writer for Topview-derived render state."
   ],
   "warnings": [
-    "The raw canonical Drive video-prompts.md currently begins with UTF-8 BOM bytes EF BB BF. The live project-status validator/hash normalizes the BOM away (canonical_master_bytes 251521 and SHA e249902b...), so runtime counts/status remain consistent, but the current recovery rule says the master should be UTF-8 without BOM. Recovery automation is not authorized to edit the canonical prompt master, so this remains unresolved for an editing workflow to normalize safely.",
     "Prompt-quality audit retains existing NEEDS_FIX items for user-by-user review; no creative prompts were auto-rewritten."
   ],
-  "unresolved": [
-    "Canonical Drive video-prompts.md has a UTF-8 BOM while current recovery instructions require the master to be UTF-8 without BOM."
-  ],
+  "unresolved": [],
   "runtime_snapshot": {
-    "scenes": 12,
-    "prompt_texts": 24,
+    "scenes": 10,
+    "prompt_texts": 20,
     "latest_scene": 20,
-    "slow_scenes": [2,3,4,5,13,19],
-    "master_sha256_normalized": "e249902b4f036822152d8ef0bf52303a584d0b3df26814b52f126181cf563002",
-    "raw_drive_bytes": 251524,
-    "normalized_bytes": 251521
+    "slow_scenes": [3,4,17,19,20],
+    "master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
     "occupied_slots": 6,
     "free_slots": 0,
     "active_task_count": 6,
-    "active_by_scene_task_count": 6,
+    "unique_slow_scene_count": 5,
     "health": "ok"
   },
   "notes": {
-    "instruction_mirrors": "All seven Drive files were raw-read and their Git blob hashes match current GitHub blobs; instruction status refreshed.",
-    "master": "Declared 12 scenes / 24 prompt texts / slow 2,3,4,5,13,19 matches fresh project-status. Prompt fences count 24; FRAME FILL and NEGATIVE markers are present across all 24 prompt texts.",
-    "topview": "Six active task IDs map one-to-one into active_by_scene and consume six slots. No intake/rerun/approval/remap performed.",
-    "montage": "Heavy montage artifact exists; film-analysis exists; film-backlog current operational block is aligned with runtime and its older 18 September block is explicitly labeled historical.",
-    "notion": "Operational pointer explicitly names Drive authority, all seven docs, references/montage onboarding, hourly-light plus daily-deep recovery topology, and separate Topview intake automation.",
-    "library": "Named recovery copies are present for canonical/recovery layers including handoff, project guide, backup runbook, CURRENT-STATE, SITE-STATUS and SHIFT-HANDOFF; Library remains recovery-only.",
-    "site": "Control Center baseline and key artifacts are present; References and Montage Analysis are linked; Topview UI contract is represented in current instruction/site metadata; no public privileged secret was identified in inspected source.",
-    "supabase": "Security advisors returned no lints for ai-film-comments.",
-    "github_actions": "Latest inspected sync-from-drive and Pages runs are successful; no unrecovered current failure identified."
+    "master": "Current validator reports all structural, count, slow-state, reserved-ID, scene-meta, fence, UTF-8/BOM and Topview invariants true.",
+    "instructions": "Seven canonical Drive instruction mirrors are reported exact-match with semantic health ok in the fresh instruction snapshot.",
+    "topview": "Six active task IDs occupy six slots across five unique slow Scene IDs; Scene 20 correctly occupies two slots while remaining one canonical slow scene.",
+    "recovery": "Recovery manifest refreshed from verified current artifacts; it remains non-authoritative metadata.",
+    "automation_watchdog": "Topview watcher verified enabled; no watchdog recovery was required."
   }
 }
