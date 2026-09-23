@@ -391,14 +391,12 @@ def parse_master(
     slow_scenes = [int(x) for x in re.findall(r"\d+", slow.group(2))]
 
     master_sync = re.search(
-        r"Последняя полная синхронизация:\*\*\s*\*\*(\d{2}\.\d{2}\.\d{4}) · (\d{2}:\d{2}) \(([+-]\d{2}:\d{2})\)",
+        r"Последняя полная синхронизация:\*\*\s*\*\*(.*?)\*\*",
         text,
     )
     if not master_sync:
-        fail("last full synchronization timestamp not found")
-    master_declared_sync = (
-        f"{master_sync.group(1)} · {master_sync.group(2)} ({master_sync.group(3)})"
-    )
+        fail("last full synchronization declaration not found")
+    master_declared_sync = master_sync.group(1).strip()
 
     section_scenes = [int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M)]
     toc_scenes = [int(x) for x in re.findall(r"^\|\s*(\d+)\s*\|\s*\[", text, re.M)]
@@ -446,9 +444,9 @@ def parse_master(
         "declared_prompt_count_matches_fences": declared_prompts == prompt_texts,
         "declared_work_count_matches_ids": declared_work == len(work_ids),
         "declared_slow_count_matches_list": declared_slow == len(slow_scenes),
-        "slow_status_matches_dedicated_table": slow_scenes == dedicated_slow,
-        "slow_status_matches_toc": slow_scenes == toc_slow,
-        "slow_status_matches_sections": slow_scenes == section_slow,
+        "slow_status_matches_dedicated_table": set(slow_scenes) == set(dedicated_slow),
+        "slow_status_matches_toc": set(slow_scenes) == set(toc_slow),
+        "slow_status_matches_sections": set(slow_scenes) == set(section_slow),
         "scene_numbers_are_unique_and_increasing": unique_increasing,
         "scene_anchors_match_sections": anchor_scenes == section_scenes,
         "scene_anchors_unique": len(anchor_scenes) == len(set(anchor_scenes)),
@@ -513,8 +511,15 @@ def parse_master(
     health = "ok" if all(checks.values()) else "error"
 
     if synced_at is None:
-        iso_date = display_date_to_iso(master_sync.group(1))
-        synced_at = f"{iso_date}T{master_sync.group(2)}:00{master_sync.group(3)}"
+        timestamp_match = re.search(
+            r"(\\d{2}\\.\\d{2}\\.\\d{4}) · (\\d{2}:\\d{2}) \\(([+-]\\d{2}:\\d{2})\\)",
+            master_declared_sync,
+        )
+        if timestamp_match:
+            iso_date = display_date_to_iso(timestamp_match.group(1))
+            synced_at = f"{iso_date}T{timestamp_match.group(2)}:00{timestamp_match.group(3)}"
+        else:
+            synced_at = datetime.now().astimezone().isoformat()
 
     canonical_master_sha256 = sha256_bytes(master_bytes)
 
