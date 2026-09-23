@@ -167,12 +167,12 @@ Comments backend only; no prompt/master rights.
 
 
 На checkpoint после Scene 20:
-- 12 active scenes
-- 24 full prompt texts
+- 10 active scenes
+- 20 full prompt texts
 - W5, W7, W8
-- active IDs: `1,2,3,4,5,10,11,13,16,17,19,20`
-- deleted/reserved IDs: `6,7,9`
-- canonical slow: `3,4,5,17,19`
+- active IDs: `3,4,5,10,11,13,16,17,19,20`
+- deleted/retired/reserved IDs: `1,2,6,7,9,12,14,15,18`
+- canonical slow: `3,4,17,19,20`
 - latest Scene ID: `20`
 
 
@@ -188,11 +188,13 @@ Runtime SHA/counts/status всё равно fresh-check по `project-status.jso
 
 
 
-- Scene 2 — canonical slow rerun, Seedance 2.5.
-- Scenes 3, 4, 5 и 13 — существующие canonical Scene IDs с новыми running Topview tasks; task↔Scene mappings подтверждены по exact/normalization-equivalent canonical prompts, поэтому они canonical slow без создания новых Scene ID.
+- Scenes 1 and 2 are retired from the active master by explicit user decision; IDs remain reserved and must not be reused.
+- Scenes 3, 4, 17 and 19 currently have active Topview tasks; Scene 20 has two active Topview tasks under the same Scene ID.
+- Scene 5 has a terminal-success Topview result and is not render-slow; technical success is not editorial approval.
+- Scene 13 is not currently render-slow.
 - Scenes 12, 14, 15 и 18 — **отработаны и удалены из active master** по прямому решению пользователя. Это retired Scene IDs: не возвращать в active set и не переиспользовать их номера без нового прямого решения пользователя.
 - Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s.
-- Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5, 30s, **не slow**.
+- Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5; canonical slow with two active Topview tasks occupying two slots.
 - Scene 17 остаётся active post-monster continuation.
 - 6/7/9 не восстанавливать и не переиспользовать без прямого нового решения пользователя.
 
