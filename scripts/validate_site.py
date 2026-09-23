@@ -6,7 +6,7 @@ from pathlib import Path
 
 root=Path(__file__).resolve().parents[1]
 html=(root/"index.html").read_text(encoding="utf-8")
-ids=re.findall(r'\bid=["\']([^"\']+)["\']',html)
+ids=re.findall(r'<[^>]+\\bid=["\\']([^"\\']+)["\\']',html,re.I)
 dupes=sorted({x for x in ids if ids.count(x)>1})
 if dupes:
     raise SystemExit("duplicate HTML ids: "+", ".join(dupes))
