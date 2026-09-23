@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-23T13:31:34.029Z",
+  "checked_at": "2026-09-23T13:39:34.914Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-23T13:31:34.029Z",
-      "github_blob": "8ef5baacade719fa361452fb8e6b0bac8ee4d198",
+      "drive_modified_at": "2026-09-23T13:39:34.914Z",
+      "github_blob": "5eeccb9de4c173034c28cf5a3d8398f31fd6b6ff",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-23T12:58:07.154Z",
-      "github_blob": "a2f8de6b5f2a6804e1788c23429529dd29dc9d6f",
+      "drive_modified_at": "2026-09-23T13:39:08.789Z",
+      "github_blob": "4dfe391a5c314b4cee4ab95658dff026e49bad87",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-23T12:58:17.869Z",
-      "github_blob": "8ef1eb52b2a71dbcc00902bd64e7fd88ef549a9b",
+      "drive_modified_at": "2026-09-23T13:39:23.656Z",
+      "github_blob": "10f17ca76623e5d68d058061453b451597f09f42",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files match GitHub mirrors. Handoff records verified reliability stages 1-5 and current 10-scene / 5-slow / 6-slot checkpoint.",
+  "note": "Seven canonical Drive instruction files match GitHub mirrors. Reliability stages 1-6 verified; review ledger contract documented.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
