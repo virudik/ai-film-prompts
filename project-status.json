@@ -3,9 +3,9 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-23T12:51:20Z",
+  "synced_at": "2026-09-23T13:15:30Z",
   "revision_date": "23.09.2026",
-  "master_declared_last_full_sync": "23.09.2026 · live Drive/Topview reconciliation",
+  "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
   "canonical_master_bytes": 237798,
   "scenes": 10,
@@ -37,30 +37,41 @@
     20
   ],
   "latest_scene": 20,
+  "reserved_scene_ids": [
+    1,
+    2,
+    6,
+    7,
+    9,
+    12,
+    14,
+    15,
+    18
+  ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-22T11:06:00Z",
+    "snapshot_at": "2026-09-23T13:12:32.253Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
-    "freshness_max_hours": 3,
-    "age_hours_at_status_build": 1.256,
+    "freshness_max_hours": 3.0,
+    "age_hours_at_status_build": 0.049,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-22T08:28:12.250Z",
-        "github_blob": "8ecdda2ee3a99d2579f851af2c2c5563dc0b3d04",
+        "drive_modified_at": "2026-09-23T13:12:32.253Z",
+        "github_blob": "01a2f480beebe87a2e5096aac4d74b3b7673f844",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-22T08:27:55.508Z",
-        "github_blob": "6f6f7cd8c4a488fbaf6c565e8e5f6fa7608c0254",
+        "drive_modified_at": "2026-09-23T12:58:07.154Z",
+        "github_blob": "a2f8de6b5f2a6804e1788c23429529dd29dc9d6f",
         "match": true
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-22T08:28:07.114Z",
-        "github_blob": "ad4cabea7da4160d4625751568ab25b78b04e24d",
+        "drive_modified_at": "2026-09-23T12:58:17.869Z",
+        "github_blob": "8ef1eb52b2a71dbcc00902bd64e7fd88ef549a9b",
         "match": true
       },
       "PROMPT-STYLE-GUIDE.md": {
@@ -83,8 +94,8 @@
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-09-21T23:17:55.159Z",
-        "github_blob": "d18489c87f136e18febbafa00f8d625f1c0f5c81",
+        "drive_modified_at": "2026-09-23T12:58:25.995Z",
+        "github_blob": "bb7c42cb8e163a3b7cd0d88db785a0220860dd8e",
         "match": true
       }
     }
@@ -278,7 +289,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.09.2026",
-    "synced_at": "2026-09-23T12:51:20Z",
+    "synced_at": "2026-09-23T13:15:30Z",
     "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
     "scene_count": 10,
     "prompt_count": 20,
@@ -321,6 +332,14 @@
     "slow_status_matches_toc": true,
     "slow_status_matches_sections": true,
     "scene_numbers_are_unique_and_increasing": true,
+    "scene_anchors_match_sections": true,
+    "scene_anchors_unique": true,
+    "reserved_scene_ids_declared": true,
+    "reserved_scene_ids_not_reused": true,
+    "prompt_fences_balanced": true,
+    "canonical_master_utf8_without_bom": true,
+    "slow_scene_ids_unique": true,
+    "slow_scene_ids_active": true,
     "canonical_master_sha256_present": true,
     "scene_meta_json_valid": true,
     "scene_meta_scene_ids_unique": true,
@@ -332,6 +351,14 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true
+    "instruction_mirrors_match_drive": true,
+    "topview_active_task_ids_unique": true,
+    "topview_telemetry_task_ids_unique": true,
+    "topview_active_tasks_match_task_map": true,
+    "topview_occupied_matches_active_tasks": true,
+    "topview_free_slots_equation": true,
+    "topview_capacity_not_exceeded": true,
+    "topview_active_scenes_are_canonical_slow": true,
+    "no_terminal_only_topview_scene_is_slow": true
   }
 }
