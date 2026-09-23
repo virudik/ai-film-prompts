@@ -558,3 +558,17 @@ Principle: **keep only the state required for correctness and deduplication; det
 При **любом** добавлении или снятии Scene ID из Topview-managed slow изменение считается завершённым только после атомарной сверки всех представлений. Обязательно проверить, что один и тот же набор уникальных slow Scene ID отражён одновременно в: (1) `video-prompts.md` — строке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, canonical slow-list, dedicated slow table, TOC badge и marker внутри секции сцены; (2) `project-status.json.slow_scenes` и `scene_meta[*].render_state`; (3) `topview-status.json.scenes` / `active_tasks[]` и `topview-task-map.json.active_by_scene` для Topview-managed active tasks; (4) Control Center — блоке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, таблице `Сейчас в медленной генерации — Topview` и `Активные сцены проекта — карта и навигация`.
 
 Для Topview-managed сцены с хотя бы одним task в `init/queued/running/processing` Scene ID **обязан** присутствовать в canonical slow. После terminal последнего active task он **обязан** исчезнуть из canonical slow. Нельзя считать изменение законченным, если хотя бы одно из трёх пользовательских представлений сайта показывает другой набор/число slow-сцен. Slot count (`занято X из 6`) проверяется отдельно по `active_tasks[]`: при одном active task на каждую slow-сцену число совпадает, но архитектурно это разные величины.
+
+## Reliability write contract — 23.09.2026
+
+Permanent set-and-forget rule for technical project state:
+
+- **One writer per derived state domain.** `Topview Scene Intake & Slow Watch` is the normal single writer for Topview-derived render state: `topview-task-map.json`, `topview-status.json`, canonical slow transitions, and Topview-derived fields in `project-status.json`. `AI Film Recovery Sync` verifies/repairs infrastructure and mirrors and must not race the watcher during normal operation.
+- **Watcher watchdog.** Recovery must verify that the Topview watcher is enabled and re-enable it if it became disabled without an explicit owner request. When either project automation is updated, preserve `is_enabled: true`; prompt/config edits must never silently disable it.
+- **Fresh-read before every write.** Immediately before changing a canonical Drive file or GitHub state file, fetch the current authoritative version and fingerprint/version where available.
+- **Optimistic conflict handling.** If the source changed after preparation, discard the stale prepared write, refetch, recompute, and retry once. Never replay a stale full-file body over a newer version. GitHub writes must use the fresh file SHA.
+- **Read-back verification.** After every write, read back the same Drive file ID or GitHub path and verify the intended semantic change and content/hash/fingerprint before rebuilding dependent artifacts or reporting success.
+- **Dependency order.** Authority first, then derived status/mirrors, then Control Center/Pages verification. Never let a generated status snapshot overwrite fresh authority.
+- **No owner maintenance burden.** Deterministic drift that can be repaired from unambiguous authority is repaired silently. Ask the owner only for genuine creative/editorial ambiguity, unsafe/destructive action, security uncertainty, ambiguous task-to-scene mapping, or a deterministic repair that failed after one verified attempt.
+- **No blind rollback.** Recovery may restore only from a verified authoritative source/version; historical checkpoints and cached copies are not current truth.
+
