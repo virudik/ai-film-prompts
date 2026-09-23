@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-23T13:32:28Z",
+  "synced_at": "2026-09-23T13:41:04Z",
   "revision_date": "23.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
@@ -50,28 +50,28 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-23T13:31:34.029Z",
+    "snapshot_at": "2026-09-23T13:39:34.914Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.015,
+    "age_hours_at_status_build": 0.025,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-23T13:31:34.029Z",
-        "github_blob": "8ef5baacade719fa361452fb8e6b0bac8ee4d198",
+        "drive_modified_at": "2026-09-23T13:39:34.914Z",
+        "github_blob": "5eeccb9de4c173034c28cf5a3d8398f31fd6b6ff",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-23T12:58:07.154Z",
-        "github_blob": "a2f8de6b5f2a6804e1788c23429529dd29dc9d6f",
+        "drive_modified_at": "2026-09-23T13:39:08.789Z",
+        "github_blob": "4dfe391a5c314b4cee4ab95658dff026e49bad87",
         "match": true
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-23T12:58:17.869Z",
-        "github_blob": "8ef1eb52b2a71dbcc00902bd64e7fd88ef549a9b",
+        "drive_modified_at": "2026-09-23T13:39:23.656Z",
+        "github_blob": "10f17ca76623e5d68d058061453b451597f09f42",
         "match": true
       },
       "PROMPT-STYLE-GUIDE.md": {
@@ -289,7 +289,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.09.2026",
-    "synced_at": "2026-09-23T13:32:28Z",
+    "synced_at": "2026-09-23T13:41:04Z",
     "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
     "scene_count": 10,
     "prompt_count": 20,
