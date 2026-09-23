@@ -1,17 +1,17 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-23T13:46:58.623Z",
+  "checked_at": "2026-09-23T14:42:34.243Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
-  "health": "warning",
-  "all_match": false,
+  "health": "ok",
+  "all_match": true,
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-23T13:46:58.623Z",
+      "drive_modified_at": "2026-09-23T14:42:34.243Z",
       "github_blob": "28f9c6804a829fab4b01a3b6babf1a663611f83d",
-      "match": false
+      "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -51,10 +51,8 @@
     }
   },
   "semantic_check": {
-    "health": "warning",
-    "conflicts": [
-      "GitHub handoff contains final Stage 7 Pages verification not yet mirrored to canonical Drive handoff."
-    ]
+    "health": "ok",
+    "conflicts": []
   },
   "takeover_requirements": {
     "character_registry": "references.html + character-references.json",
@@ -67,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Stages 1-7 are implemented and verified in GitHub/runtime. Final Stage 7 Pages success is recorded in GitHub handoff and must be mirrored to same Drive handoff ID before all_match returns true.",
+  "note": "Seven canonical Drive instruction files match GitHub mirrors. Reliability stages 1-7 are verified; final Stage 7 Pages publish checkpoint is mirrored to the same canonical Drive handoff ID.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -125,8 +123,6 @@
     "slot_count_source": "topview-status.json.active_tasks[]",
     "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); canonical slow unique Scene IDs must match master/status and all three user-facing Control Center representations; slot count remains separate"
   },
-  "conflicts": [
-    "NEW-CHAT-HANDOFF.md temporary Drive/GitHub mismatch pending canonical Drive checkpoint write."
-  ],
+  "conflicts": [],
   "mode": "authorized_chatgpt_drive_connector"
 }
