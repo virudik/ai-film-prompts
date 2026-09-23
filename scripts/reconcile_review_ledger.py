@@ -13,7 +13,7 @@ project = json.loads(project_path.read_text(encoding="utf-8"))
 taskmap = json.loads(taskmap_path.read_text(encoding="utf-8"))
 changed = False
 
-blank = {
+# Human decision fields are never inferred by this reconciler.\nblank = {
     "result_received": False,
     "result_received_at": None,
     "reviewed": None,
