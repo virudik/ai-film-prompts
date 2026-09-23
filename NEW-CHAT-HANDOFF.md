@@ -35,10 +35,10 @@
 - Active master after retirement = Scene IDs `3,4,5,10,11,13,16,17,19,20`: **10 scenes / 20 prompt texts**.
 
 **Stage plan:**
-1. Reliability foundation: one-writer ownership; fresh-read/safe retry; optimistic locking where provider supports it; read-back/hash verification; preserve enabled state on automation updates. **IN PROGRESS**. Master/Topview current-state reconciliation above is already applied and read back. Remaining before declaring Stage 1 complete: persist the one-writer/write-verification contract in canonical operational docs and verify automation + mirrors after write.
-2. Strengthened validator. **NOT STARTED.**
-3. Topview operation journal + complete pagination/page scanning. **NOT STARTED.**
-4. Recovery manifest. **NOT STARTED.**
+1. Reliability foundation: one-writer ownership; fresh-read/safe retry; optimistic locking where provider supports it; read-back/hash verification; preserve enabled state on automation updates. **COMPLETE / VERIFIED 23.09.2026.** Both project automations are enabled after verification; one-writer and safe-write contracts are persisted; canonical reconciliation was read back; seven Drive instruction files exactly match GitHub mirrors.
+2. Strengthened validator. **COMPLETE / VERIFIED 23.09.2026.** Cross-layer validator checks master structure, reserved IDs, anchors/fences, UTF-8/BOM, scene-meta, slow consistency, Topview task uniqueness/mapping, slot equations/capacity and terminal-only slow state. Verified GitHub Actions run `35865811530` succeeded.
+3. Topview operation journal + complete pagination/page scanning. **COMPLETE / VERIFIED 23.09.2026.** `topview-operation-journal.json` is bounded to 500 events; every known active task is refreshed first; Board discovery paginates to checkpoint/exhaustion. Verification scanned all 4 video-task pages / 352 tasks and found no unknown task in the overlap window.
+4. Recovery manifest. **COMPLETE / VERIFIED 23.09.2026.** `recovery-manifest.json` stores non-authoritative recovery metadata, ownership, verified master fingerprint, Topview checkpoint and validator result; it never overrides fresh authority.
 5. Integration/self-recovery tests without launching renders. **NOT STARTED.**
 6. Montage/review ledger. **NOT STARTED.**
 7. Control Center `Сейчас` work view. **NOT STARTED.**
@@ -196,7 +196,7 @@ Runtime SHA/counts/status всё равно fresh-check по `project-status.jso
 - Scene 19 `Рыбалка и Маша-Лагуна` — active + slow, Wan 3.0, 30s.
 - Scene 20 `Маша-Лагуна: рок-припев у озера` — active, READY, Seedance 2.5; canonical slow with two active Topview tasks occupying two slots.
 - Scene 17 остаётся active post-monster continuation.
-- 6/7/9 не восстанавливать и не переиспользовать без прямого нового решения пользователя.
+- 1/2/6/7/9/12/14/15/18 are reserved/retired IDs; do not reuse without an explicit new user decision.
 
 
 
