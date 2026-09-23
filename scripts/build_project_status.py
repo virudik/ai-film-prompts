@@ -399,6 +399,17 @@ def parse_master(
     master_declared_sync = master_sync.group(1).strip()
 
     section_scenes = [int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M)]
+    anchor_scenes = [int(x) for x in re.findall(r'<a\s+id=["\']scene-(\d+)["\']\s*></a>', text, re.I)]
+    reserved_match = re.search(
+        r"Сцены\s+([0-9,\s]+?)\s+удалены из active master[^\n]*?зарезервированы",
+        text,
+        re.I,
+    )
+    reserved_scene_ids = (
+        [int(x) for x in re.findall(r"\d+", reserved_match.group(1))]
+        if reserved_match
+        else []
+    )
     toc_scenes = [int(x) for x in re.findall(r"^\|\s*(\d+)\s*\|\s*\[", text, re.M)]
     fence_lines = [line for line in text.splitlines() if line.strip().startswith("```")]
     prompt_texts = len(fence_lines) // 2
@@ -407,7 +418,7 @@ def parse_master(
     dedicated_slow = [
         int(x)
         for x in re.findall(
-            rf"^\|\s*(\d+)\s+—[^\n]*\|\s*{re.escape(SLOW_LABEL)}\s*\|", text, re.M
+            rf"^\|\s*(\d+)\s+—[^\n]*\|\s*{re.escape(SLOW_LABEL)}(?:[^|]*)\|", text, re.M
         )
     ]
     toc_slow = [
