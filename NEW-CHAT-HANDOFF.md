@@ -39,7 +39,7 @@
 2. Strengthened validator. **COMPLETE / VERIFIED 23.09.2026.** Cross-layer validator checks master structure, reserved IDs, anchors/fences, UTF-8/BOM, scene-meta, slow consistency, Topview task uniqueness/mapping, slot equations/capacity and terminal-only slow state. Verified GitHub Actions run `35865811530` succeeded.
 3. Topview operation journal + complete pagination/page scanning. **COMPLETE / VERIFIED 23.09.2026.** `topview-operation-journal.json` is bounded to 500 events; every known active task is refreshed first; Board discovery paginates to checkpoint/exhaustion. Verification scanned all 4 video-task pages / 352 tasks and found no unknown task in the overlap window.
 4. Recovery manifest. **COMPLETE / VERIFIED 23.09.2026.** `recovery-manifest.json` stores non-authoritative recovery metadata, ownership, verified master fingerprint, Topview checkpoint and validator result; it never overrides fresh authority.
-5. Integration/self-recovery tests without launching renders. **NOT STARTED.**
+5. Integration/self-recovery tests without launching renders. **COMPLETE / VERIFIED 23.09.2026.** Added offline `tests/test_recovery_integration.py` plus GitHub Actions workflow `AI Film integration recovery tests`. Six tests passed in run `35867539139`: production snapshot green; multi-task one-scene slot accounting; one-of-two terminal keeps Scene 20 slow; last-terminal stale-slow state is rejected; stale/conflicting occupied-slot snapshot is rejected; watchdog/preserve-enabled contract remains documented. Tests use temporary synthetic JSON only, make no production writes and launch no Topview renders. The first test-run exposed a test-harness diagnostic-capture bug only; it was fixed and the final run passed 6/6.
 6. Montage/review ledger. **NOT STARTED.**
 7. Control Center `Сейчас` work view. **NOT STARTED.**
 
@@ -890,11 +890,12 @@ Show `занято X из 6 · DD.MM.YYYY, HH:MM:SS`. Do **not** show `своб�
 
 
 
-Current verified checkpoint while preparing this handoff:
-- canonical master: **12 active Scene IDs / 24 prompt texts**;
-- active Scene IDs: `1,2,3,4,5,10,11,13,16,17,19,20`;
-- canonical slow scenes: `3,4,5,17,19`;
-- Topview capacity: **6**, occupied active task slots: **6** at last verified fetch;
+Current verified checkpoint after reliability Stage 5:
+- canonical master: **10 active Scene IDs / 20 prompt texts**;
+- active Scene IDs: `3,4,5,10,11,13,16,17,19,20`;
+- reserved/retired Scene IDs include `1,2,6,7,9,12,14,15,18`;
+- canonical slow scenes: `3,4,17,19,20`;
+- Topview capacity: **6**, occupied active task slots: **6** at last verified fetch; Scene 20 occupies two slots;
 - `project-status.json`: `health: ok`;
 - prompt standard is already refactored: prompt-only guide, no full copied live-scene examples, no Topview runtime contract inside it, and core rule **maximum useful specificity, minimum redundant wording**;
 - every standalone production prompt must be self-contained and include short real appearance/identity locks for important characters.
