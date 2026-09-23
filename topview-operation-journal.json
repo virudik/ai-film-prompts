@@ -13,6 +13,17 @@
       "source_checkpoint": "2026-09-23T12:51:20Z",
       "outcome": "recorded",
       "verification": "active_by_scene=6 tasks; canonical slow=3,4,17,19,20; occupied=6/6"
+    },
+    {
+      "timestamp": "2026-09-23T13:21:16Z",
+      "operation": "active_refresh_and_paginated_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 active tasks",
+      "new_status": "6 active tasks",
+      "source_checkpoint": "2026-09-23T13:21:16Z",
+      "outcome": "success",
+      "verification": "queried all 6 known active task IDs; all remain init; scanned 4/4 Board video pages (352 tasks) and found no unknown video task in checkpoint overlap; Scene 20 remains two occupied slots"
     }
   ]
 }
