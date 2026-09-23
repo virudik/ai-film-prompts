@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-23T13:39:34.914Z",
+  "checked_at": "2026-09-23T13:46:58.623Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-23T13:39:34.914Z",
-      "github_blob": "5eeccb9de4c173034c28cf5a3d8398f31fd6b6ff",
+      "drive_modified_at": "2026-09-23T13:46:58.623Z",
+      "github_blob": "57e0c1e148ace550626bc45cc6a3d5e7242f4c6a",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-21T23:17:41.877Z",
-      "github_blob": "3b912212c89ee729c5cead6a911abd98abd241ea",
+      "drive_modified_at": "2026-09-23T13:46:38.841Z",
+      "github_blob": "5deb2793c65e5c07c8214561c88351caad13130f",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files match GitHub mirrors. Reliability stages 1-6 verified; review ledger contract documented.",
+  "note": "Seven canonical Drive instruction files match GitHub mirrors. Reliability stages 1-7 verified; review ledger and Control Center current-work view documented.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
