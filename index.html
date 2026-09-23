@@ -48,6 +48,11 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 
 @media(max-width:1000px){.layout{grid-template-columns:300px minmax(0,1fr)}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:820px){.layout{grid-template-columns:1fr}.side{position:relative;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:58vh}.main{padding:18px 14px 60px}.control{padding:13px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.finger-grid{grid-template-columns:1fr}.copy{opacity:1}.scene-btn{margin-left:0}article h1{font-size:25px}article h2{font-size:19px}}
+
+.now-view{margin:18px 0 20px;padding:16px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+.now-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.now-head strong{font-size:18px}.now-sub{font-size:12px;color:var(--muted)}
+.now-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.now-card{padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--bg)}.now-card-title{font-size:12px;color:var(--muted);margin-bottom:7px}.now-card-count{font-size:24px;font-weight:800;margin-bottom:8px}.now-list{display:flex;flex-wrap:wrap;gap:6px}.now-chip{border:1px solid var(--line);border-radius:999px;padding:4px 7px;font-size:11px;cursor:pointer;background:transparent;color:inherit}.now-empty{font-size:12px;color:var(--muted)}
+@media(max-width:900px){.now-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.now-grid{grid-template-columns:1fr}}
 </style>
 <script>
 (function(){try{const saved=localStorage.getItem('ai-film-theme');document.documentElement.dataset.theme=saved==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();
@@ -122,6 +127,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <details class="fingerprint comments-fold"><summary>💬 Комментарии, идеи и предложения</summary><div id="project-comments" class="comments-panel"></div></details>
 </div>
 </section>
+<section id="now-view" class="now-view"><div class="now-head"><strong>🎬 Сейчас</strong><span class="now-sub">рабочий вид: генерация → результат → решение → следующий шаг</span></div><div id="nowGrid" class="now-grid"><div class="loading">Собираю текущее состояние…</div></div></section>
 <section id="slow-monitor" class="topview-monitor"><div class="topview-head"><strong>⏳ Сейчас в медленной генерации — Topview</strong><span id="topviewCapacity" class="topview-capacity">занято — из 6<span class="topview-sync-time"></span></span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
 <div id="matchNote" class="match-note"></div><div id="noResults" class="no-results">Совпадений нет. Очисти поиск или выбери другой фильтр.</div>
 <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
@@ -196,6 +202,26 @@ function renderTopview(tv,md){
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>#</th><th>Сцена</th><th>Модель</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь</th><th>Оценка времени</th></tr></thead><tbody>'+rows+'</tbody></table>';
  $('topviewMonitor').querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m)resetViewAndJump('scene-'+m[1])}));
  $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято '+occupied+' из '+capacity+' · одна строка = один активный task/слот; Scene ID может повторяться.';
+}
+
+function renderNowView(s,tv,ledger,md){
+ const box=$('nowGrid');if(!box)return;
+ const titles=parseSceneTitles(md||'');
+ const activeStates=new Set(['init','queued','running','processing']);
+ const tasks=(Array.isArray(tv?.active_tasks)?tv.active_tasks:[]).filter(x=>activeStates.has(String(x?.topview_status||x?.status||'').toLowerCase()));
+ const counts=new Map();tasks.forEach(x=>counts.set(Number(x.scene_id),(counts.get(Number(x.scene_id))||0)+1));
+ const generating=[...counts.entries()].sort((a,b)=>a[0]-b[0]).map(([id,n])=>({id,label:'#'+id+(n>1?' ×'+n:'')}));
+ const rows=ledger?.scenes||{};
+ const received=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true).map(([id])=>Number(id)).sort((a,b)=>a-b);
+ const decisions=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true&&(x?.reviewed!==true||x?.accepted===null||x?.needs_redo===null)).map(([id])=>Number(id)).sort((a,b)=>a-b);
+ const slow=new Set((s?.slow_scenes||[]).map(Number));
+ const next=[];
+ Object.entries(s?.scene_meta||{}).forEach(([id,m])=>{const n=Number(id),r=rows[id]||{};if(slow.has(n))return;if(r.needs_redo===true)next.push({id:n,kind:'переделать'});else if(r.result_received===true&&r.reviewed!==true)next.push({id:n,kind:'проверить результат'});else if(m?.production_state==='READY'&&r.result_received!==true)next.push({id:n,kind:'можно запускать'});else if(m?.production_state==='NEEDS_FIX')next.push({id:n,kind:'обсудить доработку'})});
+ next.sort((a,b)=>a.id-b.id);
+ const chip=(id,label)=>'<button class="now-chip" data-scene="'+id+'" title="'+esc(titles[String(id)]||('Сцена '+id))+'">'+esc(label)+'</button>';
+ const card=(title,count,body)=>'<div class="now-card"><div class="now-card-title">'+title+'</div><div class="now-card-count">'+count+'</div><div class="now-list">'+(body||'<span class="now-empty">нет</span>')+'</div></div>';
+ box.innerHTML=card('Генерируется сейчас',tasks.length,generating.map(x=>chip(x.id,x.label)).join(''))+card('Результат получен',received.length,received.map(id=>chip(id,'#'+id)).join(''))+card('Нужно ваше решение',decisions.length,decisions.map(id=>chip(id,'#'+id+' · проверить')).join(''))+card('Следующие действия',next.length,next.map(x=>chip(x.id,'#'+x.id+' · '+x.kind)).join(''));
+ box.querySelectorAll('[data-scene]').forEach(b=>b.onclick=()=>resetViewAndJump('scene-'+b.dataset.scene));
 }
 function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'ПРОВЕРКА УСТАРЕЛА',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
 function buttonDone(btn){const old=btn.textContent;btn.textContent='Скопировано';btn.classList.add('done');setTimeout(()=>{btn.textContent=old;btn.classList.remove('done')},1200)}
@@ -447,6 +473,6 @@ function renderStatus(s,wfRuns=[],instructionDetail=null){
  $('copyFingerprint').onclick=()=>copyText(fingerprintText,$('copyFingerprint'));
 }
 search.addEventListener('input',applyView);clearSearch.onclick=()=>{search.value='';search.focus();applyView()};search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';applyView()}if(e.key==='Enter'){const matches=sections.filter(s=>passesFilter(s)&&queryMatches(s,search.value.trim()));if(matches.length)jumpTo(matches[0].id)}});
-Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('https://api.github.com/repos/virudik/ai-film-prompts/actions/workflows/sync-from-drive.yml/runs?branch=main&per_page=10',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(x=>x?.workflow_runs||[]).catch(()=>[])]).then(([s,md,tv,instructionDetail,wfRuns])=>{renderStatus(s,wfRuns,instructionDetail);marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
+Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('https://api.github.com/repos/virudik/ai-film-prompts/actions/workflows/sync-from-drive.yml/runs?branch=main&per_page=10',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(x=>x?.workflow_runs||[]).catch(()=>[])]).then(([s,md,tv,instructionDetail,reviewLedger,wfRuns])=>{renderStatus(s,wfRuns,instructionDetail);marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
 </script>
 </body></html>
