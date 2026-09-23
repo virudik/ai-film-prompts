@@ -401,7 +401,7 @@ def parse_master(
     section_scenes = [int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M)]
     anchor_scenes = [int(x) for x in re.findall(r'<a\s+id=["\']scene-(\d+)["\']\s*></a>', text, re.I)]
     reserved_match = re.search(
-        r"Сцены\s+([0-9,\s]+?)\s+удалены из active master[^\n]*?зарезервированы",
+        r"Сцены\s+([^\n]+?)\s+удалены из active master[^\n]*?зарезервированы",
         text,
         re.I,
     )
