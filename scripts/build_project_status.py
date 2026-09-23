@@ -28,6 +28,9 @@ PRODUCTION_STATES = {
     "CLOSED",
 }
 DEPENDENCY_TYPES = {"depends_on", "continues", "alternative_to", "related_to"}
+TERMINAL_TOPVIEW_STATUSES = {"success", "fail", "failed", "cancelled"}
+ACTIVE_TOPVIEW_STATUSES = {"init", "queued", "running", "processing"}
+
 SCENE_META_FIELDS = {
     "target_engine",
     "production_state",
@@ -354,9 +357,17 @@ def parse_master(
     repo_root: Path | None = None,
     instruction_snapshot_at: str | None = None,
     instruction_status_file: Path | None = None,
+    topview_status_file: Path | None = None,
+    topview_task_map_file: Path | None = None,
 ):
     master_bytes = path.read_bytes()
-    text = master_bytes.decode("utf-8")
+    has_utf8_bom = master_bytes.startswith(b"\xef\xbb\xbf")
+    if has_utf8_bom:
+        fail("canonical master contains UTF-8 BOM")
+    try:
+        text = master_bytes.decode("utf-8")
+    except UnicodeDecodeError as exc:
+        fail(f"canonical master is not valid UTF-8: {exc}")
 
     rev = re.search(r"\*\*(\d{2}\.\d{2}\.\d{4}) · (\d+) сцен[^·\n]* · (\d+) полн", text)
     if not rev:
@@ -391,9 +402,9 @@ def parse_master(
 
     section_scenes = [int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M)]
     toc_scenes = [int(x) for x in re.findall(r"^\|\s*(\d+)\s*\|\s*\[", text, re.M)]
-    prompt_texts = sum(
-        1 for line in text.splitlines() if line.strip().startswith("```")
-    ) // 2
+    fence_lines = [line for line in text.splitlines() if line.strip().startswith("```")]
+    prompt_texts = len(fence_lines) // 2
+    fences_balanced = len(fence_lines) % 2 == 0
 
     dedicated_slow = [
         int(x)
@@ -439,11 +450,66 @@ def parse_master(
         "slow_status_matches_toc": slow_scenes == toc_slow,
         "slow_status_matches_sections": slow_scenes == section_slow,
         "scene_numbers_are_unique_and_increasing": unique_increasing,
+        "scene_anchors_match_sections": anchor_scenes == section_scenes,
+        "scene_anchors_unique": len(anchor_scenes) == len(set(anchor_scenes)),
+        "reserved_scene_ids_declared": bool(reserved_scene_ids),
+        "reserved_scene_ids_not_reused": not (set(reserved_scene_ids) & set(section_scenes)),
+        "prompt_fences_balanced": fences_balanced,
+        "canonical_master_utf8_without_bom": not has_utf8_bom,
+        "slow_scene_ids_unique": len(slow_scenes) == len(set(slow_scenes)),
+        "slow_scene_ids_active": all(scene_id in set(section_scenes) for scene_id in slow_scenes),
         "canonical_master_sha256_present": bool(sha256_bytes(master_bytes)),
         **scene_meta_checks,
     }
     if instruction_match is not None:
         checks["instruction_mirrors_match_drive"] = instruction_match
+    # Optional cross-layer Topview validation. This is deterministic and blocks a false green
+    # when current telemetry files are supplied by the workflow.
+    if topview_status_file and topview_task_map_file:
+        try:
+            topview = json.loads(Path(topview_status_file).read_text(encoding="utf-8"))
+            task_map = json.loads(Path(topview_task_map_file).read_text(encoding="utf-8"))
+            active_tasks = topview.get("active_tasks", [])
+            active_by_scene = task_map.get("active_by_scene", {})
+            processed = task_map.get("processed_tasks", [])
+            flat_active = [
+                task_id
+                for task_ids in active_by_scene.values()
+                if isinstance(task_ids, list)
+                for task_id in task_ids
+            ]
+            active_scene_ids = sorted(
+                int(scene_id)
+                for scene_id, task_ids in active_by_scene.items()
+                if isinstance(task_ids, list) and task_ids
+            )
+            telemetry_task_ids = [
+                item.get("task_id") for item in active_tasks if isinstance(item, dict)
+            ]
+            occupied = topview.get("occupied_slots")
+            capacity = topview.get("slot_capacity", 6)
+            free = topview.get("free_slots")
+            processed_terminal_only = {
+                int(item["scene_id"])
+                for item in processed
+                if isinstance(item, dict)
+                and isinstance(item.get("scene_id"), int)
+                and str(item.get("final_status", "")).lower() in TERMINAL_TOPVIEW_STATUSES
+                and str(item["scene_id"]) not in active_by_scene
+            }
+            checks.update({
+                "topview_active_task_ids_unique": len(flat_active) == len(set(flat_active)),
+                "topview_telemetry_task_ids_unique": len(telemetry_task_ids) == len(set(telemetry_task_ids)),
+                "topview_active_tasks_match_task_map": sorted(telemetry_task_ids) == sorted(flat_active),
+                "topview_occupied_matches_active_tasks": occupied == len(active_tasks) == len(flat_active),
+                "topview_free_slots_equation": free == max(0, capacity - occupied),
+                "topview_capacity_not_exceeded": occupied <= capacity == 6,
+                "topview_active_scenes_are_canonical_slow": set(active_scene_ids).issubset(set(slow_scenes)),
+                "no_terminal_only_topview_scene_is_slow": not (processed_terminal_only & set(slow_scenes)),
+            })
+        except (OSError, json.JSONDecodeError, TypeError, ValueError, KeyError) as exc:
+            checks["topview_cross_layer_files_valid"] = False
+
     health = "ok" if all(checks.values()) else "error"
 
     if synced_at is None:
@@ -483,6 +549,7 @@ def parse_master(
         "slow_scenes_count": declared_slow,
         "scene_ids": section_scenes,
         "latest_scene": max(section_scenes) if section_scenes else None,
+        "reserved_scene_ids": reserved_scene_ids,
         "instruction_sync": instruction_sync,
         "warnings": (
             []
@@ -506,6 +573,8 @@ def main():
     ap.add_argument("--repo-root")
     ap.add_argument("--instruction-snapshot-at")
     ap.add_argument("--instruction-status-file", default="instruction-sync-status.json")
+    ap.add_argument("--topview-status-file")
+    ap.add_argument("--topview-task-map-file")
     ap.add_argument("--check-only", action="store_true")
     args = ap.parse_args()
 
@@ -516,6 +585,8 @@ def main():
         Path(args.repo_root) if args.repo_root else None,
         args.instruction_snapshot_at,
         Path(args.instruction_status_file) if args.instruction_status_file else None,
+        Path(args.topview_status_file) if args.topview_status_file else None,
+        Path(args.topview_task_map_file) if args.topview_task_map_file else None,
     )
     print(json.dumps(status, ensure_ascii=False, indent=2))
     if status["health"] != "ok":
