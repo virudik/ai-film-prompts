@@ -3,13 +3,13 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-22T12:21:23Z",
-  "revision_date": "21.09.2026",
-  "master_declared_last_full_sync": "22.09.2026 · 11:33 (+03:00)",
-  "canonical_master_sha256": "cc0a7bd9e6e427eeb1b5ea7c0d592892ffc90d1a74b547f9e74b61c830a145e3",
-  "canonical_master_bytes": 260169,
-  "scenes": 12,
-  "prompt_texts": 24,
+  "synced_at": "2026-09-23T12:51:20Z",
+  "revision_date": "23.09.2026",
+  "master_declared_last_full_sync": "23.09.2026 · live Drive/Topview reconciliation",
+  "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
+  "canonical_master_bytes": 237798,
+  "scenes": 10,
+  "prompt_texts": 20,
   "work_items": [
     "W5",
     "W7",
@@ -19,14 +19,12 @@
   "slow_scenes": [
     3,
     4,
-    5,
     17,
-    19
+    19,
+    20
   ],
   "slow_scenes_count": 5,
   "scene_ids": [
-    1,
-    2,
     3,
     4,
     5,
@@ -44,7 +42,7 @@
     "snapshot_at": "2026-09-22T11:06:00Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
-    "freshness_max_hours": 3.0,
+    "freshness_max_hours": 3,
     "age_hours_at_status_build": 1.256,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
@@ -93,38 +91,6 @@
   },
   "warnings": [],
   "scene_meta": {
-    "1": {
-      "target_engine": null,
-      "production_state": null,
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "ensemble",
-        "continuous_take",
-        "manual_review"
-      ],
-      "render_state": "IDLE"
-    },
-    "2": {
-      "target_engine": "Seedance 2.5",
-      "production_state": null,
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "ensemble",
-        "continuous_take",
-        "manual_review"
-      ],
-      "render_state": "IDLE"
-    },
     "3": {
       "target_engine": null,
       "production_state": "NEEDS_FIX",
@@ -185,7 +151,7 @@
         "alternative",
         "manual_review"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "10": {
       "target_engine": "Wan 3",
@@ -307,18 +273,16 @@
         "cinematic_music_video",
         "musical"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "21.09.2026",
-    "synced_at": "2026-09-22T12:21:23Z",
-    "canonical_master_sha256": "cc0a7bd9e6e427eeb1b5ea7c0d592892ffc90d1a74b547f9e74b61c830a145e3",
-    "scene_count": 12,
-    "prompt_count": 24,
+    "revision_date": "23.09.2026",
+    "synced_at": "2026-09-23T12:51:20Z",
+    "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
+    "scene_count": 10,
+    "prompt_count": 20,
     "scene_ids": [
-      1,
-      2,
       3,
       4,
       5,
@@ -338,9 +302,9 @@
     "slow_scenes": [
       3,
       4,
-      5,
       17,
-      19
+      19,
+      20
     ],
     "health": "ok",
     "instruction_sync_health": "ok"
