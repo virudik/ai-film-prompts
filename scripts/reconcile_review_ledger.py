@@ -13,7 +13,7 @@ project = json.loads(project_path.read_text(encoding="utf-8"))
 taskmap = json.loads(taskmap_path.read_text(encoding="utf-8"))
 changed = False
 
-# Human decision fields are never inferred by this reconciler.
+# Human decision fields are never inferred by this reconciler. This comment also serves as a CI trigger.
 blank = {
     "result_received": False,
     "result_received_at": None,
