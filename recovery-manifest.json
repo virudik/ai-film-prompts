@@ -18,7 +18,7 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-23T12:51:20Z",
+    "checked_at": "2026-09-23T13:21:16Z",
     "active_task_count": 6,
     "canonical_slow_scene_ids": [
       3,
@@ -29,12 +29,14 @@
     ],
     "slot_capacity": 6,
     "occupied_slots": 6,
-    "free_slots": 0
+    "free_slots": 0,
+    "board_video_tasks_seen": 352,
+    "pages_scanned": 4
   },
   "critical_github_blobs": {
     "project-status.json": "6087f69167136c8f1afa6b2ed1c12b88f7ab0ce4",
-    "topview-status.json": "6966d5b134b92bf01dac12a860a851a4f279b7e8",
-    "topview-task-map.json": "9d319309a09d2588685f72984c0ce170544629d8"
+    "topview-status.json": "1374dcc2c5b2031664c4c135dad823e976fb97cc",
+    "topview-task-map.json": "5069abfaa0a73eb836da8e53a446abce8d6f43d5"
   },
   "validator": {
     "version": "cross-layer-v1",
@@ -43,5 +45,5 @@
     "verified_at": "2026-09-23T13:15:30Z",
     "workflow_run_id": 35865811530
   },
-  "last_successful_full_reconciliation": "2026-09-23T13:15:30Z"
+  "last_successful_full_reconciliation": "2026-09-23T13:21:16Z"
 }
