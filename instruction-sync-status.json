@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T16:25:40.932Z",
+  "checked_at": "2026-09-24T16:31:01.762Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -21,8 +21,8 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T16:18:52.222Z",
-      "github_blob": "fb2a8986669fba3cd55f2a716891d2461396cc13",
+      "drive_modified_at": "2026-09-24T16:25:48.544Z",
+      "github_blob": "1d24ebca1dd9cd9ee7f76561e1203746bf149b5e",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T16:20:11.155Z",
-      "github_blob": "43fd7228b05d5579e2418a27442a5bb92586bba4",
+      "drive_modified_at": "2026-09-24T16:26:50.667Z",
+      "github_blob": "68680c25032cd10edbe4a35afa6945a1d9159efe",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T16:21:30.289Z",
-      "github_blob": "860975f513aedbc48f8a3d593fc1d1bb16b43f24",
+      "drive_modified_at": "2026-09-24T16:27:55.575Z",
+      "github_blob": "fcc6324a1e1ffae10c0ea602841ac16584579605",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T16:22:50.495Z",
-      "github_blob": "ae1de9e00dc712386455708931d4598407b2fd65",
+      "drive_modified_at": "2026-09-24T16:29:38.347Z",
+      "github_blob": "aa86ebbb80fc167d8f7e215992ca1d4aa5ece92a",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 Drive instruction files exact-match GitHub after error-prevention architecture update. PROMPT-STYLE-GUIDE unchanged because this is infrastructure, not prompt-writing semantics.",
+  "note": "7/7 canonical Drive instruction files exact-match GitHub. Error-prevention architecture and serialized canonical instruction writes verified; stale Topview/instruction freshness must not masquerade as canonical sync failure.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -150,32 +150,23 @@
   },
   "error_prevention_architecture": {
     "health": "ok",
-    "blocking_red_domains": [
-      "Drive master ↔ GitHub mirror/hash",
-      "generated project-status structural/hash validity",
-      "exact 7/7 instruction mismatch/read error",
-      "invalid self-contained public Topview snapshot contradicting canonical slow"
-    ],
-    "nonblocking_domains": [
-      "Topview telemetry freshness/connector availability",
-      "Topview task-map cache drift",
-      "instruction certificate age alone",
-      "Library recovery freshness"
-    ],
-    "topview_public_source": "topview-status.json",
-    "topview_internal_cache": "topview-task-map.json",
-    "stable_commit_marker": "topview-checkpoint.json",
-    "transaction_order": [
-      "canonical master if genuinely changed",
-      "task-map + compact journal and read-back",
-      "public topview-status and read-back",
-      "topview-checkpoint LAST",
-      "sync trigger only if canonical changed"
-    ],
-    "integration_test_trigger": "topview-checkpoint.json, not intermediate topview-status/task-map commits",
-    "watcher_schedule": "HH:00 Europe/Moscow",
-    "recovery_schedule": "HH:05 Europe/Moscow",
-    "connector_degradation": "never self-disable, never fabricate telemetry/checkpoint; preserve last verified snapshot and retry",
-    "owner_ui": "global red only for verified authoritative corruption; stale Topview is separate degraded warning; slow summary appears once"
+    "fault_domains": {
+      "canonical_sync": "blocking/red only for verified authority mismatch/corruption/unavailability",
+      "topview_telemetry": "operational/non-blocking; stale/degraded snapshot is not canonical sync failure",
+      "instruction_certificate": "freshness warning only; exact mismatch/read error is blocking",
+      "library": "best-effort/non-blocking recovery cache"
+    },
+    "schedules": {
+      "topview_watcher": "HH:00 Europe/Moscow, exact hourly, must remain enabled unless owner explicitly disables",
+      "recovery_sync": "HH:05 Europe/Moscow, exact hourly delayed watchdog"
+    },
+    "background_connector_rule": "If Topview Board connector is unavailable in a scheduled run, do not fabricate telemetry or advance checked_at/last_scan_at; keep watcher enabled and retry next cycle.",
+    "ui_contract": {
+      "global_green": "ПРОЕКТ СИНХРОНИЗИРОВАН",
+      "global_red": "ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ",
+      "topview_card": "M из 6 occupied slots; secondary line N scenes with multiplicity",
+      "stale_topview": "separate warning, not global red"
+    },
+    "canonical_instruction_write_policy": "serial only: fresh-read/version check -> same-ID Drive write -> read-back -> exact GitHub mirror -> verify -> next file; never multi-write batch canonical docs"
   }
 }
