@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-24T17:07:50Z",
+  "checked_at": "2026-09-24T17:43:53Z",
   "last_deep_audit_at": "2026-09-24T01:39:49.728Z",
   "health": "ok",
   "sections": {
@@ -28,39 +28,45 @@
     "Converted Topview watcher to lightweight exact-hourly schedule and Recovery to offset exact-hourly liveness watchdog/fallback.",
     "Takeover reconciliation refreshed current runtime fingerprint after Scene 4 terminal completion without changing editorial state.",
     "Refreshed film-backlog operational status from current master/Topview state and exact-mirrored Drive to GitHub.",
-    "Corrected Notion operational pointer to current HH:00 watcher / HH:05 Recovery schedule and current compact Topview header contract."
+    "Corrected Notion operational pointer to current HH:00 watcher / HH:05 Recovery schedule and current compact Topview header contract.",
+    "Reconciled explicit owner decisions: Scenes 3 and 4 retired as failed, Scene 5 accepted for film, and Scene 13 revised to NEEDS_RERENDER with strict cat-only speaker ownership.",
+    "Mapped exact Topview task 6926ce5d0f81477ea06f135d4b658f97 to existing Scene 22 and reconciled canonical slow to 17,19,20,21,22 with 6/6 occupied task slots.",
+    "Added active Scenes 23–27 for the Jedi-cat branch and synced the 14-scene / 24-prompt master through validator and status.",
+    "Simplified Control Center owner counters, removed the schema-version pill, and updated validator/integration guards to the new UI contract; latest dedicated checks passed."
   ],
   "warnings": [
-    "Prompt-quality NEEDS_FIX items remain for scene-by-scene owner review; no creative prompts were auto-rewritten.",
+    "Prompt-quality/editing work remains scene-specific: Scenes 10 and 11 are NEEDS_FIX and Scene 13 is NEEDS_RERENDER; no automatic rerender was launched.",
     "Library recovery cache is present but stale/pending; non-blocking by current best-effort policy. An attempted overwrite was not accepted as an in-place replacement, so no duplicate recovery copy was retained."
   ],
   "unresolved": [],
   "runtime_snapshot": {
-    "scenes": 12,
-    "prompt_texts": 22,
-    "latest_scene": 22,
+    "scenes": 14,
+    "prompt_texts": 24,
+    "latest_scene": 27,
     "slow_scenes": [
       17,
       19,
       20,
-      21
+      21,
+      22
     ],
-    "master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06"
+    "master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
-    "active_task_count": 5,
-    "unique_slow_scene_count": 4,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_count": 6,
+    "unique_slow_scene_count": 5,
     "health": "ok"
   },
   "notes": {
-    "master": "Current generated project-status health=ok with 12 active scenes, 22 prompt texts, latest Scene 22; Drive master exactly matches GitHub mirror.",
-    "instructions": "Seven canonical Drive instruction mirrors exact-match GitHub; certificate remains within freshness window.",
-    "topview": "Five active Topview task slots across canonical slow Scene IDs 17,19,20,21; Scene 20 occupies two slots. Stable checkpoint checked_at 2026-09-24T17:02:11.000Z.",
-    "recovery": "Recovery manifest refreshed to current master fingerprint and stable Topview checkpoint during takeover.",
+    "master": "Current generated project-status health=ok with 14 active scenes, 24 prompt texts, latest Scene 27; Drive master is mirrored to GitHub.",
+    "instructions": "Seven canonical Drive instruction mirrors exact-match GitHub; instruction certificate refreshed after Control Center documentation changes.",
+    "topview": "Six active Topview tasks across canonical slow Scene IDs 17,19,20,21,22; Scene 20 occupies two slots and Scene 22 is the newly mapped sixth task.",
+    "recovery": "Recovery manifest refreshed to the current master fingerprint, instruction certificate and stable Topview snapshot during this reconciliation.",
     "automation_watchdog": "Primary watcher exact hourly at HH:00 Europe/Moscow; Recovery exact hourly at HH:05. Both enabled; latest runs observed after the 20:00/20:05 local cycle.",
-    "integration_tests": "Latest AI Film integration recovery tests run 86 passed after the current 20:03 stable Topview checkpoint."
+    "integration_tests": "Control Center validator and AI Film integration recovery tests were updated to the new counter contract and latest dedicated runs passed.",
+    "site": "Control Center counter contract updated: top revision card shows only active slow-generation count; technical info shows dynamic active scenes/prompts/work directions and hides internal schema_version."
   }
 }
