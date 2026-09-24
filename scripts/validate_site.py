@@ -20,4 +20,22 @@ if p.returncode:
 for required in ("now-view","nowGrid","review-ledger.json","renderNowView","slow-monitor","topviewCapacity"):
     if required not in html:
         raise SystemExit("missing site contract: "+required)
-print("site contract ok; duplicate ids=0; inline JS syntax ok")
+
+# Prevent regressions that turn maintenance/telemetry degradation into a false
+# owner-facing master-sync failure.
+contracts = (
+    "const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;",
+    "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
+    "Topview telemetry временно устарела",
+    "runtimeTopview.occupied+' генераций · '+runtimeSceneMultiplicityLabel()",
+)
+for required in contracts:
+    if required not in html:
+        raise SystemExit("missing fail-safe health contract: "+required)
+
+# Slow summary is intentionally shown once in the metric; machine-status pill
+# must not duplicate the same scene/task summary.
+if "медленная генерация ${runtimeTopview.slowSceneIds.length}" in html:
+    raise SystemExit("duplicate slow summary returned to projectStatus")
+
+print("site contract ok; duplicate ids=0; inline JS syntax ok; fail-safe health contract ok")
