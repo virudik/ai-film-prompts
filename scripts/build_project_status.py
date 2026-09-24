@@ -279,9 +279,26 @@ def build_instruction_sync(
                 if not isinstance(external_files, dict):
                     external_files = {}
 
+                def external_file_match(info):
+                    if not isinstance(info, dict) or info.get("match") is not True:
+                        return False
+                    drive_hash = info.get("drive_sha256")
+                    mirror_hash = info.get("mirror_sha256")
+                    # When a certificate supplies content hashes, never trust the
+                    # boolean match flag over contradictory/malformed hashes.
+                    if drive_hash is not None or mirror_hash is not None:
+                        valid = re.compile(r"^[0-9a-f]{64}$")
+                        return (
+                            isinstance(drive_hash, str)
+                            and isinstance(mirror_hash, str)
+                            and bool(valid.fullmatch(drive_hash))
+                            and bool(valid.fullmatch(mirror_hash))
+                            and drive_hash == mirror_hash
+                        )
+                    return True
+
                 all_match = bool(external.get("all_match")) and all(
-                    isinstance(info, dict) and info.get("match") is True
-                    for info in external_files.values()
+                    external_file_match(info) for info in external_files.values()
                 ) and all(name in external_files for name in INSTRUCTION_FILES)
 
                 raw_health = external.get("health")
