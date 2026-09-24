@@ -57,6 +57,28 @@
       "source_checkpoint": "2026-09-24T03:09:38Z",
       "outcome": "success",
       "verification": "Fresh exact Topview lookup completed for all 5 active task IDs; all remain init. Telemetry checkpoint refreshed. Watcher timing changed from condition_watch to exact_schedule hourly."
+    },
+    {
+      "timestamp": "2026-09-24T03:15:21.114Z",
+      "operation": "discover_existing_scene_active_task",
+      "scene_id": 21,
+      "task_fingerprint": "scene21-new-task",
+      "previous_status": "not_tracked",
+      "new_status": "init",
+      "source_checkpoint": "2026-09-24T03:15:21.114Z",
+      "outcome": "success",
+      "verification": "New Board video task created 2026-09-24T01:52:49Z exactly matches canonical Scene 21 prompt semantics/references/model; mapped to existing Scene 21, not a new Scene ID; canonical slow must include Scene 21."
+    },
+    {
+      "timestamp": "2026-09-24T03:15:21.114Z",
+      "operation": "active_refresh_and_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 active tasks",
+      "new_status": "6 active tasks",
+      "source_checkpoint": "2026-09-24T03:15:21.114Z",
+      "outcome": "success",
+      "verification": "Refreshed all 6 active task IDs; all are init. Board discovery found one previously untracked task for existing Scene 21. Occupancy now 6/6; canonical unique slow scenes 4,17,19,20,21."
     }
   ]
 }
