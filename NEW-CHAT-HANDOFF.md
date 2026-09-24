@@ -923,11 +923,41 @@ Current verified checkpoint after reliability Stage 5:
 
 После исправления дублирования фильтров действует постоянный UI-инвариант: боковое меню не должно показывать два фильтра с одной пользовательской подписью. Если `production_state` и `tag` дают одинаковый label (например `NEEDS_FIX` и `needs_fix` → `Нужна доработка`), оставлять один state-фильтр и не добавлять дублирующий tag-фильтр. Реализация в `index.html` дедуплицирует generated filters по итоговому label.
 
-### Invariant — согласованность slow-состояния во всех представлениях
+### Invariant — единый Topview snapshot во всех трёх пользовательских представлениях
 
-При **любом** добавлении или снятии Scene ID из Topview-managed slow изменение считается завершённым только после атомарной сверки всех представлений. Обязательно проверить, что один и тот же набор уникальных slow Scene ID отражён одновременно в: (1) `video-prompts.md` — строке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, canonical slow-list, dedicated slow table, TOC badge и marker внутри секции сцены; (2) `project-status.json.slow_scenes` и `scene_meta[*].render_state`; (3) `topview-status.json.scenes` / `active_tasks[]` и `topview-task-map.json.active_by_scene` для Topview-managed active tasks; (4) Control Center — блоке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`, таблице `Сейчас в медленной генерации — Topview` и `Активные сцены проекта — карта и навигация`.
+Это **жёсткий UI/runtime-контракт**, а не общая рекомендация. Все три пользовательских представления Topview-состояния должны строиться из **одного и того же свежего `topview-status.json` snapshot с одним `checked_at`**:
 
-Для Topview-managed сцены с хотя бы одним task в `init/queued/running/processing` Scene ID **обязан** присутствовать в canonical slow. После terminal последнего active task он **обязан** исчезнуть из canonical slow. Нельзя считать изменение законченным, если хотя бы одно из трёх пользовательских представлений сайта показывает другой набор/число slow-сцен. Slot count (`занято X из 6`) проверяется отдельно по `active_tasks[]`: при одном active task на каждую slow-сцену число совпадает, но архитектурно это разные величины.
+1. `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`;
+2. `⏳ В медленной генерации — Topview`;
+3. `🎬 Активные сцены проекта — карта и навигация`.
+
+Запрещено независимо хранить/копировать Topview status, queue/ETA или список active scenes в этих трёх местах. Нельзя брать один вид из `project-status.json`, второй из `topview-status.json`, а третий из статического master, если из-за этого пользователь видит разные текущие данные. Frontend сначала нормализует **один runtime snapshot** из `topview-status.json.active_tasks[]`, затем все три представления рендерятся только из него. `project-status.json` и canonical master используются как consistency gate, а не как отдельный конкурентный realtime источник.
+
+Для **каждого active task** во всех представлениях должны относиться к одному и тому же snapshot следующие факты: `task_id`, `scene_id`, `topview_status`, `queue_count`, `topview_estimated_wait_seconds`, `checked_at`. Если где-либо показывается числовая очередь, она берётся только из соответствующего объекта `active_tasks[]`; запрещено подставлять cached queue, старый DOM-текст или scene-level `queue_count` вместо конкретного task при нескольких задачах одной сцены.
+
+Scene-level представления (`РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и `Активные сцены проекта`) агрегируют те же active tasks по Scene ID:
+- `init/queued` → `⏳ В ОЧЕРЕДИ`;
+- `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`;
+- если одна Scene ID имеет несколько active tasks, показывать кратность (`×N` / `N задач`) и не терять второй task;
+- если статусы смешанные, scene-level label обязан отражать обе группы, а не только "primary" task.
+
+**Числа в трёх местах трактуются явно:**
+- `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` показывает **N уникальных slow-сцен / M активных задач** и Scene IDs с кратностью (`20×2`);
+- таблица `⏳ В медленной генерации — Topview` содержит **ровно M строк**, одна строка = один active task/slot;
+- `🎬 Активные сцены проекта — карта и навигация` содержит **ровно N уникальных Scene ID** с live Topview status и кратностью при нескольких задачах.
+Поэтому, например, **5 slow-сцен и 6 занятых слотов — корректно**, если одна сцена имеет две active tasks; это должно быть подписано так, чтобы не выглядеть расхождением.
+
+При каждом hourly Topview refresh изменение считается завершённым только после проверки **всего контракта одновременно**:
+- `unique(active_tasks[].scene_id) == project-status.json.slow_scenes == canonical slow Scene IDs`;
+- `occupied_slots == len(active_tasks[]) == число строк Topview-таблицы`;
+- `free_slots == max(0, 6 - occupied_slots)`;
+- набор Scene ID в active-scene map == `unique(active_tasks[].scene_id)`;
+- кратность по каждой Scene ID в summary/map == числу её `active_tasks[]`;
+- scene-level `В ОЧЕРЕДИ/ВЫПОЛНЯЕТСЯ` агрегирован из тех же task statuses;
+- все три представления используют тот же `topview-status.json.checked_at`;
+- canonical master slow declaration/table/TOC/scene markers совпадают с unique active Scene IDs.
+
+Если хотя бы один пункт расходится, Control Center **не должен считаться зелёным**, изменение нельзя объявлять завершённым. Watcher/Recovery должны автоматически пересобрать deterministic state из fresh Topview authority и проверить read-back; пользователя нельзя просить вручную сравнивать эти три места.
 
 
 ## Review / montage ledger — permanent contract (23.09.2026)
