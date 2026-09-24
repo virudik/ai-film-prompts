@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-24T01:39:49.728Z",
+  "checked_at": "2026-09-24T03:23:31.528Z",
   "last_deep_audit_at": "2026-09-24T01:39:49.728Z",
   "health": "ok",
   "sections": {
@@ -23,38 +23,41 @@
     "Decoupled recovery integration tests from live slow Scene IDs; latest six-test run passed.",
     "Bound instruction certificate github_blob values to actual mirror blobs and added fatal validator status publication guard.",
     "Refreshed current character scene usage and film backlog operational state.",
-    "Verified Topview Scene Intake & Slow Watch re-enabled after controlled maintenance."
+    "Verified Topview Scene Intake & Slow Watch re-enabled after controlled maintenance.",
+    "Reconciled previously missed active Scene 21 Topview task and updated canonical slow/slot state to 6/6.",
+    "Converted Topview watcher to lightweight exact-hourly schedule and Recovery to offset exact-hourly liveness watchdog/fallback."
   ],
   "warnings": [
     "Prompt-quality NEEDS_FIX items remain for scene-by-scene owner review; no creative prompts were auto-rewritten."
   ],
   "unresolved": [],
   "runtime_snapshot": {
-    "scenes": 11,
-    "prompt_texts": 21,
-    "latest_scene": 21,
+    "scenes": 12,
+    "prompt_texts": 22,
+    "latest_scene": 22,
     "slow_scenes": [
       4,
       17,
       19,
-      20
+      20,
+      21
     ],
-    "master_sha256": "32622708456a1f9c5c080f8153c03a2b9f15254527b0aec096ac8eb762997084"
+    "master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
-    "active_task_count": 5,
-    "unique_slow_scene_count": 4,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_count": 6,
+    "unique_slow_scene_count": 5,
     "health": "ok"
   },
   "notes": {
-    "master": "Current generated project-status health=ok with 11 active scenes, 21 prompt texts, latest Scene 21, W5-W15 and all cross-layer checks true.",
+    "master": "Current generated project-status health=ok with 12 active scenes, 22 prompt texts, latest Scene 22.",
     "instructions": "Seven canonical Drive instruction mirrors exact-match; certificate is fresh and github_blob-bound.",
-    "topview": "Five active task slots remain across four unique slow Scene IDs 4,17,19,20; Scene 20 occupies two slots. Scene 3 terminal success is result_received only.",
+    "topview": "Six active Topview task slots across canonical slow Scene IDs 4,17,19,20,21; Scene 20 occupies two slots and Scene 21 now occupies the sixth slot.",
     "recovery": "Recovery manifest refreshed to current master/status/Topview checkpoint.",
-    "automation_watchdog": "Topview watcher is enabled after controlled reconciliation.",
+    "automation_watchdog": "Primary watcher exact hourly at :17 Europe/Moscow; Recovery exact hourly at :29 with stale/missed-task fallback. Owner should not manually monitor telemetry.",
     "integration_tests": "Latest six recovery integration tests passed after removing live slow-ID coupling."
   }
 }
