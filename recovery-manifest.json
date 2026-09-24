@@ -3,10 +3,10 @@
   "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
   "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
   "latest_verified_master": {
-    "sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
-    "drive_modified_at": "2026-09-23T12:51:20.640Z",
-    "scene_count": 10,
-    "prompt_count": 20
+    "sha256": "3d6b9014a0bd72790fa928a68e8eb2a6fe6d37fcd7c5687647ffe278bddb988f",
+    "drive_modified_at": "2026-09-24T01:07:53.336Z",
+    "scene_count": 11,
+    "prompt_count": 21
   },
   "artifact_ownership": {
     "video-prompts.md": "Google Drive canonical; Topview watcher may make only explicitly authorized/deterministic render-state mutations",
@@ -18,23 +18,29 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-23T15:57:59Z",
+    "checked_at": "2026-09-23T17:30:36Z",
     "active_task_count": 6,
-    "canonical_slow_scene_ids": [3,4,17,19,20],
+    "canonical_slow_scene_ids": [
+      3,
+      4,
+      17,
+      19,
+      20
+    ],
     "slot_capacity": 6,
     "occupied_slots": 6,
     "free_slots": 0
   },
   "critical_github_blobs": {
-    "project-status.json": "55fffad7c408f1adc8f2c6593ab99f00ad1cee91",
-    "topview-status.json": "0689e5fac6d024cce5bfa8f5a952dab511398714",
-    "topview-task-map.json": "f781e1bafd318f615cd48484d7ff7849aa24696f"
+    "project-status.json": "88dfd1a1f77191e5a3b34eeeccd1b23bcfdc14a5",
+    "topview-status.json": "cb6084dba08838a4ee83c9f13dce5fa637d3e29a",
+    "topview-task-map.json": "2b5576d5326483adbe7f8fbe7c47c32dfaa340da"
   },
   "validator": {
     "version": "cross-layer-v1",
     "last_result": "success",
-    "verified_at": "2026-09-23T17:29:01Z"
+    "verified_at": "2026-09-24T01:11:22.740Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-23T14:42:34.243Z",
-  "last_successful_full_reconciliation": "2026-09-23T17:29:01Z"
+  "last_successful_instruction_mirror_check": "2026-09-24T01:06:52.847Z",
+  "last_successful_full_reconciliation": "2026-09-24T01:11:22.740Z"
 }
