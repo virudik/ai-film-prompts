@@ -8,3 +8,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-09-24T00:28:45Z scene21-seamless-bridge-to-space-transition
 2026-09-24T00:53:00Z scene21-and-handoff-sync
 2026-09-24T01:05:00Z audit-hardening-rebuild
+2026-09-24T01:07:53Z fix-W6-work-item-and-refresh-instructions
