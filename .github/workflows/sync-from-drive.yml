@@ -77,6 +77,26 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
+            # Re-read Drive on EVERY retry. Never publish a stale /tmp snapshot
+            # after another writer has changed the canonical master.
+            curl -L --fail --retry 3 --retry-delay 2 \
+              "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" \
+              -o /tmp/drive-video-prompts.retry.md
+            test -s /tmp/drive-video-prompts.retry.md
+            python3 - <<'PY'
+          from pathlib import Path
+          src = Path("/tmp/drive-video-prompts.retry.md")
+          dst = Path("/tmp/drive-video-prompts.md")
+          data = src.read_bytes()
+          if data.startswith(b"\xef\xbb\xbf"):
+              data = data[3:]
+          if b"<!doctype html" in data.lower() or b"accounts.google.com" in data.lower():
+              raise SystemExit("Refusing HTML/login response during retry")
+          dst.write_bytes(data)
+          PY
+            grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
+            grep -q 'Канонический источник' /tmp/drive-video-prompts.md
+
             SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
 
