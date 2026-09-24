@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T17:33:25Z",
+  "synced_at": "2026-09-24T17:38:11Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed",
@@ -65,16 +65,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-09-24T16:31:01.762Z",
+    "snapshot_at": "2026-09-24T17:37:27.860Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.04,
+    "age_hours_at_status_build": 0.012,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-24T16:23:45.896Z",
-        "github_blob": "ae9cee6c14db522a22523ff9b281cf830cfec495",
+        "drive_modified_at": "2026-09-24T17:36:45.345Z",
+        "github_blob": "1e886f9c2680bb254f3456f2b7fe47caf38395ec",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
@@ -97,8 +97,8 @@
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-24T16:26:50.667Z",
-        "github_blob": "68680c25032cd10edbe4a35afa6945a1d9159efe",
+        "drive_modified_at": "2026-09-24T17:37:27.860Z",
+        "github_blob": "4d98184ac56fd5c33aa79caeac61a57a23bedb72",
         "match": true
       },
       "README-AI-SYNC.md": {
@@ -119,7 +119,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.04,
+      "age_hours": 0.012,
       "blocking": false
     },
     "topview_task_map": {
@@ -404,7 +404,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T17:33:25Z",
+    "synced_at": "2026-09-24T17:38:11Z",
     "canonical_master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed",
     "scene_count": 14,
     "prompt_count": 24,
