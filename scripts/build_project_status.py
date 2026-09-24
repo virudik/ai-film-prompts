@@ -664,13 +664,16 @@ def main():
         Path(args.topview_task_map_file) if args.topview_task_map_file else None,
     )
     print(json.dumps(status, ensure_ascii=False, indent=2))
-    if status["health"] != "ok":
-        fail("master invariant check failed")
+    # Always persist the generated status before returning a failing health code.
+    # This lets the Control Center publish an explicit non-green snapshot instead
+    # of remaining silently stuck on an older "ok" status.
     if not args.check_only:
         Path(args.output).write_text(
             json.dumps(status, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+    if status["health"] != "ok":
+        fail("master invariant check failed")
 
 
 if __name__ == "__main__":
