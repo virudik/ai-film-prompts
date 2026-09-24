@@ -3,19 +3,26 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-23T14:45:20Z",
-  "revision_date": "23.09.2026",
+  "synced_at": "2026-09-24T01:05:42Z",
+  "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
-  "canonical_master_bytes": 237798,
-  "scenes": 10,
-  "prompt_texts": 20,
+  "canonical_master_sha256": "39ea424b344b087f7ed10f5c0c3e7f49b1417babb81e38682a96238584c8aa8b",
+  "canonical_master_bytes": 259401,
+  "scenes": 11,
+  "prompt_texts": 21,
   "work_items": [
-    "W5",
     "W7",
-    "W8"
+    "W8",
+    "W9",
+    "W10",
+    "W11",
+    "W12",
+    "W13",
+    "W14",
+    "W15",
+    "W5"
   ],
-  "work_items_count": 3,
+  "work_items_count": 11,
   "slow_scenes": [
     3,
     4,
@@ -34,9 +41,10 @@
     16,
     17,
     19,
-    20
+    20,
+    21
   ],
-  "latest_scene": 20,
+  "latest_scene": 21,
   "reserved_scene_ids": [
     1,
     2,
@@ -49,12 +57,12 @@
     18
   ],
   "instruction_sync": {
-    "health": "ok",
+    "health": "stale",
     "snapshot_at": "2026-09-23T14:42:34.243Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.046,
+    "age_hours_at_status_build": 10.385,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -100,7 +108,9 @@
       }
     }
   },
-  "warnings": [],
+  "warnings": [
+    "instruction_sync_stale"
+  ],
   "scene_meta": {
     "3": {
       "target_engine": null,
@@ -285,14 +295,32 @@
         "musical"
       ],
       "render_state": "SLOW_PENDING"
+    },
+    "21": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "space_battle",
+        "continuous_take",
+        "first_last_frame",
+        "seamless_transition",
+        "character_identity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "23.09.2026",
-    "synced_at": "2026-09-23T14:45:20Z",
-    "canonical_master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f",
-    "scene_count": 10,
-    "prompt_count": 20,
+    "revision_date": "24.09.2026",
+    "synced_at": "2026-09-24T01:05:42Z",
+    "canonical_master_sha256": "39ea424b344b087f7ed10f5c0c3e7f49b1417babb81e38682a96238584c8aa8b",
+    "scene_count": 11,
+    "prompt_count": 21,
     "scene_ids": [
       3,
       4,
@@ -303,12 +331,20 @@
       16,
       17,
       19,
-      20
+      20,
+      21
     ],
     "work_items": [
-      "W5",
       "W7",
-      "W8"
+      "W8",
+      "W9",
+      "W10",
+      "W11",
+      "W12",
+      "W13",
+      "W14",
+      "W15",
+      "W5"
     ],
     "slow_scenes": [
       3,
@@ -317,16 +353,16 @@
       19,
       20
     ],
-    "health": "ok",
-    "instruction_sync_health": "ok"
+    "health": "error",
+    "instruction_sync_health": "stale"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
     "scene_numbers_match_toc_and_sections": true,
     "declared_prompt_count_matches_fences": true,
-    "declared_work_count_matches_ids": true,
+    "declared_work_count_matches_ids": false,
     "declared_slow_count_matches_list": true,
     "slow_status_matches_dedicated_table": true,
     "slow_status_matches_toc": true,
@@ -351,10 +387,12 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true,
     "topview_active_task_ids_unique": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_tasks_match_task_map": true,
+    "topview_active_statuses_valid": true,
+    "topview_task_scene_mapping_matches": true,
+    "topview_active_scene_ids_exist": true,
     "topview_occupied_matches_active_tasks": true,
     "topview_free_slots_equation": true,
     "topview_capacity_not_exceeded": true,
