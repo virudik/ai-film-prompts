@@ -98,7 +98,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <main class="main">
 <section class="control">
 <div class="control-head"><div class="control-title"><strong>РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС</strong></div><div class="theme-switch" id="themeSwitch" aria-label="Тема сайта"><button type="button" class="theme-choice" data-theme-choice="light">☀ Светлая сторона</button><button type="button" class="theme-choice" data-theme-choice="dark">🌙 Тёмная сторона</button></div><span id="health" class="health">проверка…</span></div>
-<div class="metrics"><div id="metricScenesCard" class="metric clickable" title="Перейти к карте всех сцен"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div id="metricPromptsCard" class="metric clickable" title="Перейти к полным промтам"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div id="metricSlowCard" class="metric clickable" title="Показать slow-сцены"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Медленная генерация</div><div id="metricSlowIds" class="metric-ids">—</div></div><div id="metricWorkCard" class="metric clickable" title="Показать сцены в работе"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div><div id="metricWorkIds" class="metric-ids">—</div></div></div>
+<div class="metrics"><div id="metricScenesCard" class="metric clickable" title="Перейти к карте всех сцен"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div id="metricPromptsCard" class="metric clickable" title="Перейти к полным промтам"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div id="metricSlowCard" class="metric clickable" title="Показать slow-сцены"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Topview · занято слотов</div><div id="metricSlowIds" class="metric-ids">—</div></div><div id="metricWorkCard" class="metric clickable" title="Показать сцены в работе"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div><div id="metricWorkIds" class="metric-ids">—</div></div></div>
 <div class="meta-line"><span id="revision">Ревизия —</span><span>•</span><span id="syncTime">Синхронизация —</span><span>•</span><span id="stamp">master загружен —</span><span>•</span><span id="instructionSync">Инструкции —</span></div>
 <div class="fingerprint-shell"><details class="fingerprint"><summary>Контрольный отпечаток</summary>
 <div id="fingerGrid" class="finger-grid"></div>
@@ -119,7 +119,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <div class="topbar" style="margin:0 0 8px"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span></div>
 <div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 <div class="technical-title">Topview</div>
-<div class="technical-line">В таблице Topview одна строка = один активный task = один занятый slow-слот. Если одна Scene ID запущена несколько раз, она появляется в нескольких строках. Лимит одновременно активных slow-задач — 6. Canonical slow-list при этом по-прежнему хранит Scene ID без дублей.</div>
+<div class="technical-line">Topview считает занятые слоты по активным генерациям, а проект считает slow-сцены по уникальным Scene ID. Поэтому 6 занятых слотов могут соответствовать 5 сценам, если одна сцена запущена дважды. Одна строка таблицы = одна активная генерация; повтор Scene ID означает второй рендер той же сцены, а не дубликат сцены.</div>
 <div id="topviewChecked" class="technical-line"></div>
 <div id="technicalMasterNotes" class="technical-master-notes technical-line"></div>
 </div>
@@ -499,12 +499,12 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  // Owner-facing status is intentionally quiet: context/workflow/freshness warnings are serviced automatically.
  // Red is reserved for verified authoritative corruption/unavailability, not maintenance noise.
  const ok=authoritativeHealthy;
- let healthText='✕ ОШИБКА СИНХРОНИЗАЦИИ';
+ let healthText='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';
  let healthClass='bad';
- if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'};
+ if(ok){healthText='✓ ПРОЕКТ СИНХРОНИЗИРОВАН';healthClass='ok'};
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
- $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.slowSceneIds.length+' сцен';$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=runtimeTopview.occupied+' генераций · '+runtimeSceneMultiplicityLabel();
+ $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=runtimeTopview.slowSceneIds.length+' сцен · '+runtimeSceneMultiplicityLabel();
  $('metricScenesCard').onclick=()=>resetViewAndJump('active-scenes-map');$('metricPromptsCard').onclick=()=>resetViewAndJump('full-prompts');$('metricWorkIds').textContent=(s.work_items||[]).join(', ')||'нет';
  $('metricSlowCard').onclick=()=>{activeFilterKey='slow';activeFilterValues=null;renderFilters();applyView();const target=$('slow-monitor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'})};
  $('metricWorkCard').onclick=()=>{search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();const h=[...content.querySelectorAll('h2')].find(x=>x.textContent.includes('Сцены в работе'));if(h)requestAnimationFrame(()=>h.scrollIntoView({behavior:'smooth',block:'start'}))};
@@ -534,6 +534,6 @@ Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)t
  const masterHashMatches=Boolean(expectedHash)&&masterHash===expectedHash;
  renderStatus(s,tv,wfRuns,instructionDetail,masterHashMatches);
  if(!masterHashMatches)$('statusMessage').textContent='Загруженный master не соответствует project-status.json. Дождитесь успешной пересборки статуса; текущие данные нельзя считать согласованными.';
- marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
+ marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
 </script>
 </body></html>
