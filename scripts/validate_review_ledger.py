@@ -8,7 +8,7 @@ ledger = json.loads((repo / "review-ledger.json").read_text(encoding="utf-8"))
 project = json.loads((repo / "project-status.json").read_text(encoding="utf-8"))
 
 errors = []
-if ledger.get("schema_version") != 1:
+if ledger.get("schema_version") != 2:
     errors.append("unsupported schema_version")
 scenes = ledger.get("scenes")
 if not isinstance(scenes, dict):
