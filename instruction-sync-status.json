@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T05:44:57.343Z",
+  "checked_at": "2026-09-24T14:10:38.008Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files exact-match GitHub. Both project automations use exact hourly HH:00:00 Europe/Moscow. Library recovery is best-effort/non-blocking and never a completion gate.",
+  "note": "Fresh 7/7 Drive↔GitHub comparison after Topview/sync incident; certificate refreshed so stale verification is not confused with an authoritative sync failure.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
