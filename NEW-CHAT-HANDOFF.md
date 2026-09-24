@@ -946,3 +946,17 @@ Per Scene ID it tracks five independent facts: `result_received`, `reviewed`, `a
 Четыре карточки: **«Генерируется сейчас»** (активные Topview task/slot; повтор Scene ID показывается как несколько попыток), **«Результат получен»** (technical `result_received`), **«Нужно ваше решение»** (полученный результат, по которому human review/accept/redo ещё не определены), **«Следующие действия»** (детерминированная подсказка: проверить результат, переделать по явному флагу, можно запускать READY idle, обсудить NEEDS_FIX). Клик по сцене переводит к её canonical prompt.
 
 Блок не должен превращать Topview `success` в approval, не должен сам ставить `reviewed/accepted/needs_redo/inserted_into_film` и не должен запускать генерации.
+
+
+## CHECKPOINT — Scene 21 added 24.09.2026
+
+- New active **Scene 21 — «Мостик → космическая битва: бесшовный пролёт через окно»** is in the canonical Drive `video-prompts.md`.
+- Target engine: **Seedance 2.5**, duration **30s**, no spoken dialogue, `production_state: READY`.
+- Purpose: seamless insert between two existing user videos. The videos are context-only and MUST NOT be added as generation references.
+- Generation references: `@Image1` exact first frame / bridge composition; `@Image2` exact final frame / exterior space-battle composition; `@Image3` canonical Serega model sheet from Characters; `@Image4` canonical Yulia model sheet from Characters.
+- Critical camera requirement: one continuous physical move from bridge interior toward the panoramic window, straight through the intact transparent pane, then forward into the same exterior battle until the camera converges on `@Image2`.
+- **Glass-crossing hard lock:** absolutely no lens flare, glare, reflection sweep, refraction, distortion, blur, bloom, white flash, exposure flash, shimmer, glass shatter, hidden cut, whip/speed-ramp masking or other transition effect. Treat the glass as optically neutral at the crossing.
+- Serega and Yulia celebrate naturally and silently on the bridge; crew remain at stations; the space battle remains continuous before/after crossing.
+- Scene 21 follows `PROMPT-STYLE-GUIDE.md` v1.4 and includes reference priority, start/end logic, 30s timeline, camera/continuity, performance, battle physics, lighting/material realism, native audio, scene-specific negatives, and FRAME FILL / NO BARS.
+- At this checkpoint Drive master declares **11 active scenes / 21 full prompt texts**, latest Scene ID **21**, and work items **W5, W7–W15**.
+- Do not mark Scene 21 slow until an actual generation task is launched. Technical render success must not imply editorial approval.
