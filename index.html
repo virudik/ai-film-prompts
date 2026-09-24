@@ -217,7 +217,9 @@ function renderTopview(tv,md){
  }
  if(!tasks.length){
   $('topviewMonitor').innerHTML='<div class="empty">Сейчас нет активных Topview slow-генераций.</div>';
-  $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято 0 из '+capacity+'.';
+  const tvMs=Date.parse(tv?.checked_at||''),tvAgeMin=Number.isFinite(tvMs)?(Date.now()-tvMs)/60000:Infinity,tvFresh=tvAgeMin<=75;
+  $('topviewChecked').textContent=(tvFresh?'Topview актуален: ':'⚠ Topview telemetry устарела: ')+(tv?.checked_at?humanDate(tv.checked_at):'время недоступно')+' · занято 0 из '+capacity+'.';
+  $('topviewChecked').style.color=tvFresh?'var(--ok)':'var(--warn)';
   return
  }
  const rows=tasks.map((x,slotIndex)=>{
@@ -237,7 +239,9 @@ function renderTopview(tv,md){
  }).join('');
  $('topviewMonitor').innerHTML='<table class="topview-table"><thead><tr><th>#</th><th>Сцена</th><th>Модель</th><th>Статус</th><th>Запуск</th><th>Прошло</th><th>Очередь</th><th>Оценка времени</th></tr></thead><tbody>'+rows+'</tbody></table>';
  $('topviewMonitor').querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m)resetViewAndJump('scene-'+m[1])}));
- $('topviewChecked').textContent='Последняя синхронизация данных Topview: '+(tv?.checked_at?humanDate(tv.checked_at):'недоступна')+' · занято '+occupied+' из '+capacity+' · одна строка = один активный task/слот; Scene ID может повторяться.';
+ const tvMs=Date.parse(tv?.checked_at||''),tvAgeMin=Number.isFinite(tvMs)?(Date.now()-tvMs)/60000:Infinity,tvFresh=tvAgeMin<=75;
+ $('topviewChecked').textContent=(tvFresh?'Topview актуален: ':'⚠ Topview telemetry устарела: ')+(tv?.checked_at?humanDate(tv.checked_at):'время недоступно')+' · занято '+occupied+' из '+capacity+' · одна строка = одна активная генерация; Scene ID может повторяться.';
+ $('topviewChecked').style.color=tvFresh?'var(--ok)':'var(--warn)';
 }
 
 function renderNowView(s,tv,ledger,md){
@@ -483,10 +487,14 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  const recentFailure=runs.find(r=>r.conclusion&&r.conclusion!=='success')||null;
  const topviewSlowMatches=sameNumericSet(s.slow_scenes||[],runtimeTopview.slowSceneIds);
  const topviewSlotsMatch=Number(tv?.occupied_slots??runtimeTopview.occupied)===runtimeTopview.occupied&&Number(tv?.free_slots??runtimeTopview.free)===runtimeTopview.free;
- const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches&&topviewSlowMatches&&topviewSlotsMatch;
+ const topviewMs=Date.parse(tv?.checked_at||''),topviewAgeMin=Number.isFinite(topviewMs)?(Date.now()-topviewMs)/60000:Infinity;
+ const topviewFresh=topviewAgeMin<=75;
+ const topviewContractHealthy=topviewSlowMatches&&topviewSlotsMatch;
+ const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;
  const semanticWarning=authoritativeHealthy&&semanticHealth!=='ok';
  const workflowWarning=authoritativeHealthy&&unresolvedWorkflowFailure;
  const staleWarning=authoritativeHealthy&&!heartbeatFresh;
+ const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);
  const recoveredWarning=authoritativeHealthy&&Boolean(recentFailure)&&consecutiveSuccesses>0&&consecutiveSuccesses<3;
  // Owner-facing status is intentionally quiet: context/workflow/freshness warnings are serviced automatically.
  // Red is reserved for verified authoritative corruption/unavailability, not maintenance noise.
@@ -496,7 +504,7 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  if(ok){healthText='✓ СИНХРОНИЗАЦИЯ В ПОРЯДКЕ';healthClass='ok'};
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
- $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.slowSceneIds.length+' сцен';$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=runtimeTopview.occupied+' генераций · занято '+runtimeTopview.occupied+' из '+runtimeTopview.capacity+' · '+runtimeSceneMultiplicityLabel();
+ $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.slowSceneIds.length+' сцен';$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=runtimeTopview.occupied+' генераций · '+runtimeSceneMultiplicityLabel();
  $('metricScenesCard').onclick=()=>resetViewAndJump('active-scenes-map');$('metricPromptsCard').onclick=()=>resetViewAndJump('full-prompts');$('metricWorkIds').textContent=(s.work_items||[]).join(', ')||'нет';
  $('metricSlowCard').onclick=()=>{activeFilterKey='slow';activeFilterValues=null;renderFilters();applyView();const target=$('slow-monitor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'})};
  $('metricWorkCard').onclick=()=>{search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();const h=[...content.querySelectorAll('h2')].find(x=>x.textContent.includes('Сцены в работе'));if(h)requestAnimationFrame(()=>h.scrollIntoView({behavior:'smooth',block:'start'}))};
@@ -506,10 +514,9 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  $('instructionSync').style.color=instruction==='ok'?'var(--ok)':instruction==='error'?'var(--bad)':'var(--warn)';
  $('schema').textContent=`схема ${s.schema_version??'—'}`;
  $('projectStatus').textContent=`${s.scenes} сцен · ${s.prompt_texts} промтов · в работе ${s.work_items_count}`;
- if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано Recovery Sync для автоматического обслуживания.';
+ if(ok&&topviewWarning)$('statusMessage').textContent=topviewFresh?'Основной проект синхронизирован. Topview имеет служебный drift между runtime snapshot и внутренним cache; Recovery исправляет его без остановки проекта.':'Основной проект синхронизирован. Topview telemetry временно устарела из-за недоступности фонового коннектора; показывается последний проверенный snapshot, watcher остаётся включён и повторит попытку автоматически.';
+ else if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано Recovery Sync для автоматического обслуживания.';
  else if(ok&&(workflowWarning||staleWarning||recoveredWarning))$('statusMessage').textContent='Рабочие данные доступны и согласованы. Служебное обслуживание выполняется автоматически.';
-
- else if(!topviewSlowMatches||!topviewSlotsMatch)$('statusMessage').textContent='Найдено расхождение Topview snapshot ↔ project-status. Три пользовательских представления не считаются согласованными; Recovery Sync должен автоматически пересобрать состояние.';
  else $('statusMessage').textContent=instruction==='ok'?'Семь канонических Drive-инструкций проверены; hourly Recovery Sync автоматически поддерживает проверочный сертификат и чинит детерминированный drift.':instruction==='stale'?'Рабочие данные синхронизированы. Отдельная проверка инструкций устарела и должна быть обновлена Recovery; это не ошибка master-sync.':instruction==='error'?'Есть подтверждённое расхождение или ошибка чтения канонических инструкций. Канон остаётся в Google Drive; это реальная проблема синхронизации инструкций.':'Рабочие данные синхронизированы; отдельная авторизованная проверка инструкций пока недоступна.';
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'API недоступен';
