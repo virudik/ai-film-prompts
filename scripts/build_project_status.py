@@ -231,9 +231,14 @@ def parse_iso_datetime(value):
     if not value:
         return None
     try:
-        return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
-    except ValueError:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (ValueError, TypeError):
         return None
+    # Health timestamps must be timezone-aware. Naive values make freshness
+    # comparisons ambiguous and previously could raise TypeError.
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        return None
+    return parsed
 
 
 def build_instruction_sync(
@@ -266,8 +271,9 @@ def build_instruction_sync(
                 checked_dt = parse_iso_datetime(checked_at)
                 sync_dt = parse_iso_datetime(synced_at)
                 age_hours = None
-                if checked_dt and sync_dt:
-                    age_hours = max(0.0, (sync_dt - checked_dt).total_seconds() / 3600.0)
+                timestamp_valid = checked_dt is not None and sync_dt is not None
+                if timestamp_valid:
+                    age_hours = (sync_dt - checked_dt).total_seconds() / 3600.0
 
                 external_files = external.get("files")
                 if not isinstance(external_files, dict):
@@ -279,7 +285,12 @@ def build_instruction_sync(
                 ) and all(name in external_files for name in INSTRUCTION_FILES)
 
                 raw_health = external.get("health")
-                fresh = age_hours is None or age_hours <= max_hours
+                # Fail closed on missing/invalid/future certificate timestamps.
+                fresh = (
+                    timestamp_valid
+                    and age_hours is not None
+                    and 0.0 <= age_hours <= max_hours
+                )
 
                 if raw_health == "ok" and all_match and fresh:
                     health = "ok"
@@ -378,11 +389,27 @@ def parse_master(
         int(rev.group(3)),
     )
 
-    work = re.search(r"\*\*🛠️\s*(\d+)\*\*[^\n]*?(W\d+(?:,\s*W\d+)*)", text)
+    work = re.search(r"\*\*🛠️\s*(\d+)\*\*([^\n]*)", text)
     if not work:
         fail("work-items status line not found")
     declared_work = int(work.group(1))
-    work_ids = re.findall(r"W\d+", work.group(2))
+    work_tail = work.group(2)
+
+    # Accept explicit IDs and compact ranges such as W7–W15 / W7-W15.
+    # Expand ranges deterministically so status always represents the real IDs.
+    work_ids = []
+    consumed_spans = []
+    for m in re.finditer(r"W(\d+)\s*[–—-]\s*W?(\d+)", work_tail):
+        start, end = int(m.group(1)), int(m.group(2))
+        if end < start:
+            fail(f"invalid descending work-item range W{start}-W{end}")
+        work_ids.extend(f"W{i}" for i in range(start, end + 1))
+        consumed_spans.append(m.span())
+    remainder = work_tail
+    for start, end in reversed(consumed_spans):
+        remainder = remainder[:start] + (" " * (end - start)) + remainder[end:]
+    work_ids.extend(re.findall(r"W\d+", remainder))
+    work_ids = list(dict.fromkeys(work_ids))
 
     slow = re.search(r"\*\*⏳\s*(\d+)\*\*[^\n]*?:\s*\*\*([0-9, ]+)\*\*", text)
     if not slow:
@@ -510,6 +537,21 @@ def parse_master(
                 "topview_active_task_ids_unique": len(flat_active) == len(set(flat_active)),
                 "topview_telemetry_task_ids_unique": len(telemetry_task_ids) == len(set(telemetry_task_ids)),
                 "topview_active_tasks_match_task_map": sorted(telemetry_task_ids) == sorted(flat_active),
+                "topview_active_statuses_valid": all(
+                    isinstance(item, dict)
+                    and str(item.get("topview_status", "")).lower() in ACTIVE_TOPVIEW_STATUSES
+                    for item in active_tasks
+                ),
+                "topview_task_scene_mapping_matches": all(
+                    isinstance(item, dict)
+                    and isinstance(item.get("scene_id"), int)
+                    and item.get("task_id") in active_by_scene.get(str(item.get("scene_id")), [])
+                    for item in active_tasks
+                ),
+                "topview_active_scene_ids_exist": all(
+                    isinstance(item, dict) and item.get("scene_id") in set(section_scenes)
+                    for item in active_tasks
+                ),
                 "topview_occupied_matches_active_tasks": occupied == len(active_tasks) == len(flat_active),
                 "topview_free_slots_equation": free == max(0, capacity - occupied),
                 "topview_capacity_not_exceeded": occupied <= capacity == 6,
