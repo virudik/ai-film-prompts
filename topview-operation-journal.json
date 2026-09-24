@@ -125,6 +125,28 @@
       "source_checkpoint": "2026-09-24T16:37:52.436Z",
       "outcome": "success",
       "verification": "Refreshed all previously active task IDs; Scene 4 terminal success, remaining 5 active tasks are init. Scanned all 4 Board video pages / 353 tasks; no new recent task discovered."
+    },
+    {
+      "timestamp": "2026-09-24T17:26:19.000Z",
+      "operation": "discover_existing_scene_active_task",
+      "scene_id": 22,
+      "task_fingerprint": "scene22-6926ce5d",
+      "previous_status": "not_tracked",
+      "new_status": "init",
+      "source_checkpoint": "2026-09-24T17:26:19.000Z",
+      "outcome": "success",
+      "verification": "Fresh Topview Board task exact-matches canonical Scene 22 prompt/model/references; mapped to existing Scene 22. No new Scene ID created."
+    },
+    {
+      "timestamp": "2026-09-24T17:26:19.000Z",
+      "operation": "active_refresh_and_overlap_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 active tasks",
+      "new_status": "6 active tasks",
+      "source_checkpoint": "2026-09-24T17:26:19.000Z",
+      "outcome": "success",
+      "verification": "Fresh exact lookup for Scenes 17,19,20x2,21,22; all six tasks remain init. Canonical slow is 17,19,20,21,22; occupancy 6/6."
     }
   ]
 }
