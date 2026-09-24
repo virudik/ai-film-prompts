@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T16:31:01.762Z",
+  "checked_at": "2026-09-24T17:37:27.860Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T16:23:45.896Z",
-      "github_blob": "ae9cee6c14db522a22523ff9b281cf830cfec495",
+      "drive_modified_at": "2026-09-24T17:36:45.345Z",
+      "github_blob": "1e886f9c2680bb254f3456f2b7fe47caf38395ec",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T16:26:50.667Z",
-      "github_blob": "68680c25032cd10edbe4a35afa6945a1d9159efe",
+      "drive_modified_at": "2026-09-24T17:37:27.860Z",
+      "github_blob": "4d98184ac56fd5c33aa79caeac61a57a23bedb72",
       "match": true
     },
     "README-AI-SYNC.md": {
