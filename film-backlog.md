@@ -8,11 +8,11 @@
 
 Все таймкоды локальны для указанной части. Для общей шкалы к части 2 прибавлять 27:31,267. Указанные места вставок — рекомендации, точные кадры входа/выхода не утверждены.
 
-## Актуальный V3.5 operational status — 21 сентября 2026
+## Актуальный operational status — 24 сентября 2026
 
-- **Медленная генерация / SLOW_PENDING:** 2, 3, 4, 5, 13, 19.
+- **Медленная генерация / SLOW_PENDING:** 4, 17, 19, 20. Scene 20 занимает два Topview task slots.
 - **Нужна доработка / NEEDS_FIX:** 3, 4, 10, 11, 13, 17.
-- Slow-lock действует на текущие slow-сцены 2, 3, 4, 5, 13 и 19. Сцены 3, 4, 5 и 13 повторно запущены в Topview и привязаны к существующим Scene ID; для них новые Scene ID не создаются. Сцены 12, 14, 15 и 18 завершены пользователем и удалены из active master; их Scene ID зарезервированы и не переиспользуются.
+- Slow-lock действует на текущие slow-сцены 4, 17, 19 и 20. Scene 3 получила terminal success 23.09.2026 20:30:53 UTC и снята только с технического slow; это не editorial approval. Scene 20 имеет две активные Topview-задачи, но остаётся одним Scene ID. Retired Scene IDs сверять по fresh master/project-status и не переиспользовать.
 - Статусы `NEEDS_FIX`/`NEEDS_RERENDER` — очередь для отдельного обсуждения с пользователем, а не авто-команда переписывать prompt.
 - Актуальные scene IDs, counts и slow-list всегда перепроверять по fresh `video-prompts.md` / `project-status.json`.
 
@@ -161,15 +161,15 @@
 | ID | Статус | Задача | Следующее действие |
 |---|---|---|---|
 | INF-1 | DONE | Переключатель темы `Светлая сторона / Тёмная сторона` | Оставить в header между revision и sync health; preference хранить в localStorage |
-| INF-2 | NEXT | Комментарии прямо на сайте без GitHub login | Спроектировать безопасный backend (предпочтительно Supabase), anonymous post + replies + anti-spam/RLS; GitHub Issue #8 оставить fallback до миграции |
+| INF-2 | DONE | Комментарии прямо на сайте без GitHub login | Реализовано через Supabase: anonymous post + replies + RLS/honeypot/rate-limit; не давать backend прав на master |
 | INF-3 | MONITOR | Стабильность Drive→GitHub sync | Следить, чтобы dynamic current facts брались только из master/status; исторические snapshot не давали false red |
 | INF-4 | MONITOR | Topview mapping robustness | Для каждого нового/возвращённого slow ID сверять exact task prompt с fresh scene body; не использовать stale handoff/memory |
-| INF-5 | FUTURE | Режим `Сейчас` | Сохранён как будущий owner-facing режим; см. подробный блок ниже. Не реализовывать без нового запроса |
+| INF-5 | DONE | Режим `Сейчас` | Реализован как read-only owner-facing слой из live status/Topview/review ledger; не превращать его во второй master |
 | INF-6 | FUTURE | `рудик.рф/промты` и независимое видео | Нужен hosting/router access; не трогать DNS без подтверждения |
 
-### FUTURE — режим «Сейчас» + план развития после Work-аудита
+### HISTORICAL DESIGN NOTE — режим «Сейчас» + план развития после Work-аудита
 
-Этот блок хранит идеи на будущее рядом с INF-5. Это **не текущая runtime-конфигурация и не команда на немедленную реализацию**. Перед внедрением любого пункта заново проверить fresh master/status/automation/code, потому что часть рисков могла уже измениться.
+Этот блок сохранён как **историческая design note**: режим «Сейчас» уже реализован. Не использовать старые FUTURE/NEXT формулировки ниже как runtime-команды; текущую конфигурацию брать из fresh master/status/automation/code.
 
 #### Режим «Сейчас» — смысл
 
@@ -236,4 +236,4 @@ UX:
 
 Не переписывать работающую систему с нуля. Не создавать второй editable master. Не добавлять третью hourly AI-автоматизацию. Сначала укреплять проверяемость и recovery существующих компонентов, затем улучшать owner-facing UX и монтажный контекст.
 
-Current exact slow checkpoint: `2,3,4,5,13,19`. Scenes 3, 4, 5 and 13 are active existing canonical scenes with running Topview tasks; they remain slow without creating new Scene IDs. Scene 19 `Рыбалка и Маша-Лагуна` remains active+slow. Scenes 12, 14, 15 and 18 are no longer active project scenes: they are completed/retired from the working master and their IDs stay reserved.
+Historical checkpoint above is superseded. Current exact slow checkpoint as of 24.09.2026 reconciliation: `4,17,19,20`; Scene 20 occupies two active Topview task slots. Scene 3 reached technical success and is no longer render-slow; technical success does not imply editorial approval. Current retired/reserved IDs must be read from fresh master/project-status.
