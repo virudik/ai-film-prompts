@@ -3,13 +3,13 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T17:15:42Z",
+  "synced_at": "2026-09-24T17:31:47Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
-  "canonical_master_bytes": 273405,
-  "scenes": 12,
-  "prompt_texts": 22,
+  "canonical_master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed",
+  "canonical_master_bytes": 303164,
+  "scenes": 14,
+  "prompt_texts": 24,
   "work_items": [
     "W5",
     "W6",
@@ -28,13 +28,11 @@
     17,
     19,
     20,
-    21
+    21,
+    22
   ],
-  "slow_scenes_count": 4,
+  "slow_scenes_count": 5,
   "scene_ids": [
-    3,
-    4,
-    5,
     10,
     11,
     13,
@@ -43,12 +41,20 @@
     19,
     20,
     21,
-    22
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
   ],
-  "latest_scene": 22,
+  "latest_scene": 27,
   "reserved_scene_ids": [
     1,
     2,
+    3,
+    4,
+    5,
     6,
     7,
     9,
@@ -63,7 +69,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.745,
+    "age_hours_at_status_build": 1.013,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -113,7 +119,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.745,
+      "age_hours": 1.013,
       "blocking": false
     },
     "topview_task_map": {
@@ -124,68 +130,6 @@
     }
   },
   "scene_meta": {
-    "3": {
-      "target_engine": null,
-      "production_state": "NEEDS_FIX",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "action",
-        "needs_fix",
-        "continuity"
-      ],
-      "render_state": "IDLE"
-    },
-    "4": {
-      "target_engine": null,
-      "production_state": "NEEDS_FIX",
-      "duration_s": 17,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 3
-        }
-      ],
-      "tags": [
-        "action",
-        "needs_fix",
-        "continuity"
-      ],
-      "render_state": "IDLE"
-    },
-    "5": {
-      "target_engine": null,
-      "production_state": null,
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "alternative_to",
-          "targets": [
-            3,
-            4
-          ]
-        }
-      ],
-      "tags": [
-        "action",
-        "continuous_take",
-        "alternative",
-        "manual_review"
-      ],
-      "render_state": "IDLE"
-    },
     "10": {
       "target_engine": "Wan 3",
       "production_state": "NEEDS_FIX",
@@ -224,7 +168,7 @@
     },
     "13": {
       "target_engine": "Wan 3",
-      "production_state": "NEEDS_FIX",
+      "production_state": "NEEDS_RERENDER",
       "duration_s": 30,
       "dialogue": {
         "enabled": true,
@@ -235,7 +179,8 @@
         "dialogue",
         "comedy",
         "continuous_take",
-        "needs_fix"
+        "needs_rerender",
+        "speaker_ownership"
       ],
       "render_state": "IDLE"
     },
@@ -342,19 +287,128 @@
         "first_last_frame",
         "seamless_transition"
       ],
+      "render_state": "SLOW_PENDING"
+    },
+    "23": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "continuous_take",
+        "seamless_transition",
+        "cats",
+        "jedi",
+        "character_identity"
+      ],
+      "render_state": "IDLE"
+    },
+    "24": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 23
+        }
+      ],
+      "tags": [
+        "cats",
+        "cockpit",
+        "takeoff",
+        "continuous_take",
+        "character_identity"
+      ],
+      "render_state": "IDLE"
+    },
+    "25": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 24
+        }
+      ],
+      "tags": [
+        "cats",
+        "cockpit",
+        "space_battle",
+        "action",
+        "character_identity"
+      ],
+      "render_state": "IDLE"
+    },
+    "26": {
+      "target_engine": "Wan 3",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 25
+        }
+      ],
+      "tags": [
+        "cats",
+        "dialogue",
+        "sith_planet",
+        "jedi",
+        "confrontation",
+        "lip_sync"
+      ],
+      "render_state": "IDLE"
+    },
+    "27": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 26
+        }
+      ],
+      "tags": [
+        "cats",
+        "lightsaber_battle",
+        "sith_planet",
+        "action",
+        "jedi",
+        "character_identity"
+      ],
       "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T17:15:42Z",
-    "canonical_master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
-    "scene_count": 12,
-    "prompt_count": 22,
+    "synced_at": "2026-09-24T17:31:47Z",
+    "canonical_master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed",
+    "scene_count": 14,
+    "prompt_count": 24,
     "scene_ids": [
-      3,
-      4,
-      5,
       10,
       11,
       13,
@@ -363,7 +417,12 @@
       19,
       20,
       21,
-      22
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
     ],
     "work_items": [
       "W5",
@@ -382,12 +441,13 @@
       17,
       19,
       20,
-      21
+      21,
+      22
     ],
-    "health": "ok",
+    "health": "error",
     "instruction_sync_health": "ok"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -426,6 +486,6 @@
     "topview_occupied_matches_active_tasks": true,
     "topview_free_slots_equation": true,
     "topview_capacity_not_exceeded": true,
-    "topview_active_scenes_match_canonical_slow": true
+    "topview_active_scenes_match_canonical_slow": false
   }
 }
