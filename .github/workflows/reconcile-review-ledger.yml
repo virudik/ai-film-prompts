@@ -38,4 +38,21 @@ jobs:
             exit 0
           fi
           git commit -m "Reconcile review ledger"
-          git push origin HEAD:main
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Concurrent writer detected; rebuilding ledger from fresh origin (attempt $attempt)." >&2
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/reconcile_review_ledger.py
+            python3 scripts/validate_review_ledger.py
+            git add review-ledger.json
+            if git diff --cached --quiet; then
+              echo "Fresh origin already contains equivalent ledger state."
+              exit 0
+            fi
+            git commit -m "Reconcile review ledger"
+          done
+          echo "Failed to publish reconciled ledger after safe retries." >&2
+          exit 1
