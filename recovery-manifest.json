@@ -3,10 +3,10 @@
   "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
   "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
   "latest_verified_master": {
-    "sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
-    "drive_modified_at": "2026-09-24T16:37:24.906Z",
-    "scene_count": 12,
-    "prompt_count": 22
+    "sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed",
+    "drive_modified_at": "2026-09-24T17:30:51.900Z",
+    "scene_count": 14,
+    "prompt_count": 24
   },
   "artifact_ownership": {
     "video-prompts.md": "Google Drive canonical; Topview watcher may make only explicitly authorized/deterministic render-state mutations",
@@ -18,30 +18,31 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-24T17:02:11.000Z",
-    "active_task_count": 5,
+    "checked_at": "2026-09-24T17:26:19.000Z",
+    "active_task_count": 6,
     "canonical_slow_scene_ids": [
       17,
       19,
       20,
-      21
+      21,
+      22
     ],
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1
+    "occupied_slots": 6,
+    "free_slots": 0
   },
   "critical_github_blobs": {
-    "project-status.json": "798423414327b64b38e1d6985dda0cec50e425f4",
-    "instruction-sync-status.json": "bb565e03ebbdabfd070094fedd9502f6435dc644",
-    "topview-status.json": "5ed6873674b93e54aa2ae70db54915af24e85240",
-    "topview-task-map.json": "ab74955ef58975ed2911f1a2d7c3f89c20db0b5e",
-    "topview-operation-journal.json": "f4af4541482147a2eef8f1d4194538b2bd0d81b1"
+    "project-status.json": "6cd9adb9552f6703d76068b8488a0c36aa5d573e",
+    "instruction-sync-status.json": "279ceb8cc0ffc79b8db13999140e08a6e6d44a0a",
+    "topview-status.json": "96ce0dc19c49a99c5f97bc50168067b758cb82ad",
+    "topview-task-map.json": "688cd10ad24ac53a4f95f1f7f4970d64e4a3205b",
+    "topview-operation-journal.json": "39f5baea629d9ae4bf5209758ac7b19057323f0c"
   },
   "validator": {
     "version": "cross-layer-v1+certificate-blob+fatal-status-guard",
     "last_result": "success",
-    "verified_at": "2026-09-24T16:45:20Z"
+    "verified_at": "2026-09-24T17:42:38Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-24T16:31:01.762Z",
-  "last_successful_full_reconciliation": "2026-09-24T17:07:50Z"
+  "last_successful_instruction_mirror_check": "2026-09-24T17:37:27.860Z",
+  "last_successful_full_reconciliation": "2026-09-24T17:43:53Z"
 }
