@@ -27,19 +27,22 @@ contracts = (
     "const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;",
     "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
     "Topview telemetry временно устарела",
-    "$('metricSlow').textContent=runtimeTopview.slowSceneIds.length;",
-    "cap.innerHTML='занято '+occupied+' из '+capacity",
+    "$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;",
+    "$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';",
+    "cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free",
     "$('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;",
 )
 for required in contracts:
     if required not in html:
         raise SystemExit("missing fail-safe health contract: "+required)
 
-# The top revision card is intentionally minimal: one UNIQUE slow-scene count.
-# Parallel Topview tasks for the same Scene count once here. Capacity/task-slot count,
-# timestamp, Scene IDs and multiplicity belong to the detailed Topview block.
-if "metricSlowIds" in html:
-    raise SystemExit("top slow metric must not include scene IDs/multiplicity")
+# The top revision card is slot-oriented because Topview capacity is task-based.
+# It must show occupied/capacity, free slots, and only a compact unique-scene count.
+for required in ('id="metricSlowMeta"', 'Свободно '+runtimeTopview.free', 'id="backToTop"', 'id="filterPanel"'):
+    if required not in html:
+        raise SystemExit("missing compact owner UI contract: "+required)
+if 'id="metricWorkIds"' in html:
+    raise SystemExit("work card must not dump raw W5…W15 identifiers")
 if 'id="schema"' in html:
     raise SystemExit("internal schema_version must not be shown in owner-facing technical info")
 
