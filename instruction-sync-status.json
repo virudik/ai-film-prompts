@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T03:21:45.643Z",
+  "checked_at": "2026-09-24T03:36:31.476Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T03:19:56.874Z",
-      "github_blob": "78846689ea26fa551807c4f45eb80585caf83db6",
+      "drive_modified_at": "2026-09-24T03:34:17.110Z",
+      "github_blob": "c527b648975bc884666d43f6f86bf68d68fb8315",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T03:20:04.277Z",
-      "github_blob": "f030de450d54aaf3f6e775280659f9be5c0d322b",
+      "drive_modified_at": "2026-09-24T03:34:24.420Z",
+      "github_blob": "ac5d57697d57e058a038bc4c824a461685424948",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T03:20:11.846Z",
-      "github_blob": "46a075428a40747c73cf8ef095afac8ac1587ce1",
+      "drive_modified_at": "2026-09-24T03:34:31.788Z",
+      "github_blob": "66ada01aa14644440c0949a5f3b5eec5cc201d9d",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T03:20:19.498Z",
-      "github_blob": "75bfae579a00af0c5e698127eb655c573a249dc2",
+      "drive_modified_at": "2026-09-24T03:34:38.618Z",
+      "github_blob": "d1e540f3ff9ba5002edc42155acd9d5f7246629f",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T03:20:28.781Z",
-      "github_blob": "c23ff8fa8b4fe7156c03778b8fe468d7f1b92928",
+      "drive_modified_at": "2026-09-24T03:34:45.606Z",
+      "github_blob": "607ed84ceac273d23cc7343540c5941f22fe9a5e",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T03:20:35.680Z",
-      "github_blob": "40b3ad47cf1670d099cdfb59a912964382dde2c5",
+      "drive_modified_at": "2026-09-24T03:34:52.940Z",
+      "github_blob": "c3f8b2bfc6457bc597f78afa861cfd6286296db0",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files freshly compared after Topview exact-hourly liveness/watchdog hardening; Drive↔GitHub exact match verified. Owner should not manually monitor telemetry freshness.",
+  "note": "Seven canonical Drive instruction files freshly compared after making the three-view Topview consistency contract explicit; Drive↔GitHub exact match verified.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -121,7 +121,7 @@
     "task_id_column": false,
     "expandable_attempt_ui": false,
     "slot_count_source": "topview-status.json.active_tasks[]",
-    "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); canonical slow unique Scene IDs must match master/status and all three user-facing Control Center representations; slot count remains separate"
+    "rule": "All three user-facing views render from one normalized topview-status active_tasks snapshot. Revision shows unique scenes/tasks, Topview table is one row per task, active-scene map is one row per Scene with multiplicity. Queue/status values must never come from independent caches."
   },
   "conflicts": [],
   "mode": "authorized_chatgpt_drive_connector",
@@ -163,5 +163,27 @@
       "fallback_after_minutes": 10
     },
     "owner_experience": "set-and-forget; deterministic telemetry drift repaired automatically"
+  },
+  "three_view_topview_contract": {
+    "health": "ok",
+    "telemetry_source": "topview-status.json.active_tasks[]",
+    "snapshot_timestamp_source": "topview-status.json.checked_at",
+    "views": [
+      "РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС",
+      "⏳ В медленной генерации — Topview",
+      "🎬 Активные сцены проекта — карта и навигация"
+    ],
+    "summary_cardinality": "unique Scene IDs plus explicit active-task multiplicity",
+    "slow_table_cardinality": "one row per active task/slot",
+    "scene_map_cardinality": "one row per unique active Scene ID with aggregated live status",
+    "queue_source": "exact active_tasks[].queue_count per task; never cached or scene-level substitute for multi-task scenes",
+    "status_mapping": "init/queued => В ОЧЕРЕДИ; running/processing => ВЫПОЛНЯЕТСЯ",
+    "required_equalities": [
+      "unique(active_tasks.scene_id) == project-status.slow_scenes == canonical slow Scene IDs",
+      "occupied_slots == len(active_tasks) == Topview table row count",
+      "scene-map active Scene IDs == unique(active_tasks.scene_id)",
+      "per-scene multiplicity == count(active_tasks for that scene)"
+    ],
+    "failure_behavior": "non-green; deterministic automatic repair by watcher/recovery; owner must not manually reconcile"
   }
 }
