@@ -112,6 +112,19 @@ class IntegrationRecoveryTests(unittest.TestCase):
             self.assertNotEqual(p.returncode, 0)
             self.assertFalse(status["checks"]["topview_occupied_matches_active_tasks"])
 
+    def test_task_map_drift_is_nonblocking_maintenance(self):
+        task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        sid = next(iter(task["active_by_scene"]))
+        task["active_by_scene"][sid] = []
+        with tempfile.TemporaryDirectory() as td:
+            mp = Path(td) / "map.json"
+            write_json(mp, task)
+            p, status = run_validator(taskmap=mp)
+            self.assertEqual(p.returncode, 0, p.stderr)
+            self.assertEqual(status["health"], "ok")
+            self.assertEqual(status["maintenance"]["topview_task_map"]["state"], "drift")
+            self.assertFalse(status["maintenance"]["topview_task_map"]["blocking"])
+
     def test_stale_instruction_certificate_is_maintenance_not_sync_failure(self):
         instr = json.loads(INSTR.read_text(encoding="utf-8"))
         instr["checked_at"] = "2026-01-01T00:00:00Z"
