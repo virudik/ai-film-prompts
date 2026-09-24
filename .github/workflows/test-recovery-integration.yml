@@ -8,8 +8,7 @@ on:
       - 'tests/test_recovery_integration.py'
       - 'scripts/build_project_status.py'
       - 'video-prompts.md'
-      - 'topview-status.json'
-      - 'topview-task-map.json'
+      - 'topview-checkpoint.json'
       - 'instruction-sync-status.json'
       - 'NEW-CHAT-HANDOFF.md'
 
