@@ -155,7 +155,9 @@ const TAG_FILTER_GROUPS=[
  {key:'continuity',label:'Связность сцен',tags:['continuity']},
  {key:'alternative',label:'Альтернативный вариант',tags:['alternative'],allowSingleton:true},
  {key:'manual-review',label:'Ручная проверка',tags:['manual_review'],allowSingleton:true},
- {key:'music',label:'Музыкальный номер',tags:['music_performance','vocal_performance','cinematic_music_video','musical'],allowSingleton:true}
+ {key:'music',label:'Музыкальный номер',tags:['music_performance','vocal_performance','cinematic_music_video','musical'],allowSingleton:true},
+ {key:'space-battle',label:'Космический бой',tags:['space_battle']},
+ {key:'seamless-transition',label:'Бесшовный переход',tags:['first_last_frame','seamless_transition']}
 ]
 function tagLabel(v){return TAG_LABELS[v]||v||''}
 function dependencyLabel(type,scene){return (({depends_on:'Зависит от сцены',continues:'Продолжает сцену',alternative_to:'Альтернатива сцене',related_to:'Связана со сценой'})[type]||'Связана со сценой')+' '+scene}
