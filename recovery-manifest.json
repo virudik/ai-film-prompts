@@ -18,30 +18,25 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-24T03:15:21.114Z",
+    "checked_at": "2026-09-24T04:14:14Z",
     "active_task_count": 6,
-    "canonical_slow_scene_ids": [
-      4,
-      17,
-      19,
-      20,
-      21
-    ],
+    "canonical_slow_scene_ids": [4,17,19,20,21],
     "slot_capacity": 6,
     "occupied_slots": 6,
     "free_slots": 0
   },
   "critical_github_blobs": {
-    "project-status.json": "9fd48fdb68059576fc4a4b5180095f25cf80da80",
-    "topview-status.json": "0d4970263fcc8e5d3996af03884a7f8a0418494c",
-    "topview-task-map.json": "b88e58ebbfdc8914f304a64ed273a44c3e33afd6",
-    "topview-operation-journal.json": "05b218498c8dc85bc6117a2227cdd489b9c28de3"
+    "project-status.json": "c6156eb8a993280bc5aa04804ea9b05d4db28c6f",
+    "instruction-sync-status.json": "d11f93b9d270bf04822e702b2ea4fe55ebf9058a",
+    "topview-status.json": "a69f1d87f827cbdfbcda98fcf9a7156405aa3565",
+    "topview-task-map.json": "4e3895e2968c4ebdec76d08784b4b6035cc62944",
+    "topview-operation-journal.json": "641dae7aaaa26e75c3171a577805d9be1eb25974"
   },
   "validator": {
     "version": "cross-layer-v1+certificate-blob+fatal-status-guard",
     "last_result": "success",
-    "verified_at": "2026-09-24T03:23:31.528Z"
+    "verified_at": "2026-09-24T04:30:03Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-24T03:21:45.643Z",
-  "last_successful_full_reconciliation": "2026-09-24T03:23:31.528Z"
+  "last_successful_instruction_mirror_check": "2026-09-24T04:29:46.571Z",
+  "last_successful_full_reconciliation": "2026-09-24T04:30:03Z"
 }
