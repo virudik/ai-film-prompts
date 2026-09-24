@@ -641,9 +641,16 @@ def parse_master(
         "instruction_sync": instruction_sync,
         "warnings": (
             []
-            if instruction_sync["health"] == "ok"
+            if instruction_sync["health"] in {"ok", "stale"}
             else [f"instruction_sync_{instruction_sync['health']}"]
         ),
+        "maintenance": {
+            "instruction_verification": {
+                "state": instruction_sync["health"],
+                "age_hours": instruction_sync.get("age_hours_at_status_build"),
+                "blocking": instruction_sync["health"] == "error",
+            }
+        },
         "scene_meta": scene_meta,
         "audit_fingerprint": audit_fingerprint,
         "health": health,
