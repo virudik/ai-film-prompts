@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T20:07:00.000Z",
+  "checked_at": "2026-09-24T22:10:00.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T20:03:19.785Z",
-      "github_blob": "42f02480c691e0e2c6b0b959f7e745b082eef76a",
+      "drive_modified_at": "2026-09-24T22:05:47.502Z",
+      "github_blob": "b61ca3f8eac29adbf3a88e8656f7c09836a2213e",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T20:04:33.397Z",
-      "github_blob": "6a845a1183f0666a2e1ca84380f082ea8fcc8911",
+      "drive_modified_at": "2026-09-24T22:07:04.116Z",
+      "github_blob": "c99acccab538ffeaaee64b0aa0df4f38c5c94f86",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub after Luchik/Ryzhik character-canon update. Scene 13 cat is Luchik; Scenes 23–27 use Luchik/Ryzhik individual identities. Control Center remains slot-based and compact.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub after adding the two-version montage-analysis chooser. First analysis remains available; second analysis is a separate HTML file. Owner-facing label is Монтажный разбор.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -200,5 +200,14 @@
     "lychik_saber": "blue",
     "ryzhik_saber": "green",
     "individual_model_sheets_required": true
+  },
+  "montage_analysis_chooser": {
+    "health": "ok",
+    "label": "Монтажный разбор",
+    "first_version": "Seregius_montazhny_razbor.html",
+    "second_version": "Seregius_montazhny_razbor-2.html",
+    "second_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
+    "first_version_preserved": true,
+    "separate_second_top_level_button": false
   }
 }
