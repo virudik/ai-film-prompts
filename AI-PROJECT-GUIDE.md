@@ -1092,10 +1092,10 @@ Blocking checks проекта используют только authoritative/s
 
 
 Control Center:
-- красный global sync — только реальная authoritative corruption/unavailability;
+- green global label = `ПРОЕКТ СИНХРОНИЗИРОВАН`; red global label = `ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ`; красный reserved только для реальной authoritative corruption/unavailability;
 - stale instruction certificate, stale Topview telemetry, historical superseded workflow failures и Library pending не должны давать global red;
 - Topview stale показывается отдельной предупреждающей строкой с временем последнего verified snapshot;
-- slow summary показывается один раз: например `5 сцен`, ниже `6 генераций · 4, 17, 19, 20×2, 21`; machine-status pill не дублирует тот же summary.
+- Topview card показывает один понятный slot-summary: крупно `M из 6` занятых слотов, ниже `N сцен · IDs с кратностью`, например `5 сцен · 4, 17, 19, 20×2, 21`; machine-status pill не дублирует этот summary.
 
 
 ### 7. Definition of Done для Topview state
@@ -1110,3 +1110,11 @@ Control Center:
 
 
 Partial intermediate commits не считаются final state и не должны порождать owner-facing красную ошибку.
+
+### 8. Serialized canonical instruction writes
+
+- Seven canonical instruction docs изменяются **только последовательно**, никогда одним длинным multi-write batch.
+- Для каждого файла: fresh-read/version check → SAME-ID Drive write → read-back → exact GitHub mirror → verify → следующий файл.
+- Если tool-call timeout/unknown outcome, перед следующей записью заново прочитать affected Drive file. Нельзя повторно заливать prepared stale copy вслепую: late completion предыдущего write может перетереть более свежую версию.
+- Read-only проверки можно batch-ить; canonical writes — serial transaction.
+- Это правило распространяется на Handoff и все relevant canonical instruction changes и должно сохраняться следующими чатами/Work.
