@@ -90,6 +90,19 @@
       "source_checkpoint": "2026-09-24T03:38:42.684Z",
       "outcome": "success",
       "verification": "Fresh exact lookup for all six tracked tasks; all remain init. My First Board page 1 (100/353 video tasks) scanned through overlap; no untracked task newer than current Scene 21 task. Three-view snapshot queue telemetry refreshed."
+    },
+    {
+      "at": "2026-09-24T14:09:02.708Z",
+      "type": "manual_reconciliation",
+      "reason": "scheduled watcher lacked Topview Board connector and disabled itself; refreshed all six active tasks and scanned all 353 board video tasks",
+      "active_tasks": 6,
+      "active_scenes": [
+        4,
+        17,
+        19,
+        20,
+        21
+      ]
     }
   ]
 }
