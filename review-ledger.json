@@ -24,13 +24,13 @@
     "3": {
       "result_received": true,
       "result_received_at": "2026-09-23T20:30:53Z",
-      "reviewed": null,
-      "reviewed_at": null,
-      "accepted": null,
-      "needs_redo": null,
-      "inserted_into_film": null,
-      "montage_note": null,
-      "last_human_update_at": null,
+      "reviewed": true,
+      "reviewed_at": "2026-09-24T17:33:08Z",
+      "accepted": false,
+      "needs_redo": false,
+      "inserted_into_film": false,
+      "montage_note": "Пользователь 24.09.2026 явно подтвердил: Scene 3 не удалась, больше не нужна и не должна дорабатываться или перезапускаться. Выбранный монтажный вариант — Scene 5. Scene 3 выведена из active master; technical success не означает acceptance.",
+      "last_human_update_at": "2026-09-24T17:33:08Z",
       "selected_result_task_id": "043d6d4c2350440dbc7bc593845387ab",
       "result_url": null,
       "film_version": null,
@@ -40,13 +40,13 @@
     "4": {
       "result_received": true,
       "result_received_at": "2026-09-24T16:07:36Z",
-      "reviewed": null,
-      "reviewed_at": null,
-      "accepted": null,
-      "needs_redo": null,
-      "inserted_into_film": null,
-      "montage_note": "Topview result received technically. User previously selected Scene 5 instead of the Scene 3 + Scene 4 combination, so this terminal success does not imply acceptance, insertion, or a rerender decision.",
-      "last_human_update_at": null,
+      "reviewed": true,
+      "reviewed_at": "2026-09-24T17:33:08Z",
+      "accepted": false,
+      "needs_redo": false,
+      "inserted_into_film": false,
+      "montage_note": "Пользователь 24.09.2026 явно подтвердил: Scene 4 не удалась, больше не нужна и не должна дорабатываться или перезапускаться. Выбранный монтажный вариант — Scene 5. Scene 4 выведена из active master; technical success не означает acceptance.",
+      "last_human_update_at": "2026-09-24T17:33:08Z",
       "selected_result_task_id": "cfe166820fe046e09d57870928dd87cd",
       "result_url": null,
       "film_version": null,
@@ -222,7 +222,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "24": {
       "result_received": false,
@@ -233,7 +238,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "25": {
       "result_received": false,
@@ -244,7 +254,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "26": {
       "result_received": false,
@@ -255,7 +270,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "27": {
       "result_received": false,
@@ -266,7 +286,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     }
   }
 }
