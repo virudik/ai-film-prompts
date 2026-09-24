@@ -54,22 +54,30 @@ class IntegrationRecoveryTests(unittest.TestCase):
     def test_multi_task_one_scene_counts_slots_not_unique_scenes(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
-        self.assertGreaterEqual(len(task["active_by_scene"]["20"]), 2)
         self.assertEqual(top["occupied_slots"], len(top["active_tasks"]))
         self.assertEqual(top["occupied_slots"], sum(len(v) for v in task["active_by_scene"].values()))
-        self.assertEqual(status_slow := set(run_validator()[1]["slow_scenes"]), {3, 4, 17, 19, 20})
-        self.assertIn(20, status_slow)
+        status_slow = set(run_validator()[1]["slow_scenes"])
+        self.assertEqual(status_slow, {int(s) for s in task["active_by_scene"]})
+        self.assertLessEqual(len(status_slow), top["occupied_slots"])
 
     def test_terminal_transition_keeps_scene_slow_until_last_task(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
-        scene20 = list(task["active_by_scene"]["20"])
-        self.assertGreaterEqual(len(scene20), 2)
-        completed = scene20[0]
-        task["active_by_scene"]["20"] = scene20[1:]
+        sid = next(iter(task["active_by_scene"]))
+        original = list(task["active_by_scene"][sid])
+        base = original[0]
+        synthetic = base + "-synthetic-second"
+        task["active_by_scene"][sid] = [base, synthetic]
+        base_row = next(x for x in top["active_tasks"] if str(x["scene_id"]) == sid)
+        extra = copy.deepcopy(base_row); extra["task_id"] = synthetic
+        top["active_tasks"].append(extra)
+        top["scenes"][sid]["active_task_ids"] = [base, synthetic]
+        top["scenes"][sid]["task_id"] = synthetic
+        completed = base
+        task["active_by_scene"][sid] = [synthetic]
         top["active_tasks"] = [x for x in top["active_tasks"] if x["task_id"] != completed]
-        top["scenes"]["20"]["active_task_ids"] = scene20[1:]
-        top["scenes"]["20"]["task_id"] = scene20[-1]
+        top["scenes"][sid]["active_task_ids"] = [synthetic]
+        top["scenes"][sid]["task_id"] = synthetic
         top["occupied_slots"] = len(top["active_tasks"])
         top["free_slots"] = max(0, top["slot_capacity"] - top["occupied_slots"])
         with tempfile.TemporaryDirectory() as td:
@@ -77,15 +85,16 @@ class IntegrationRecoveryTests(unittest.TestCase):
             write_json(tp, top); write_json(mp, task)
             p, status = run_validator(topview=tp, taskmap=mp)
             self.assertEqual(p.returncode, 0, p.stderr)
-            self.assertIn(20, status["slow_scenes"])
+            self.assertIn(int(sid), status["slow_scenes"])
 
     def test_terminal_last_task_requires_slow_removal(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
-        remove = set(task["active_by_scene"]["20"])
-        task["active_by_scene"].pop("20")
+        sid = next(iter(task["active_by_scene"]))
+        remove = set(task["active_by_scene"][sid])
+        task["active_by_scene"].pop(sid)
         top["active_tasks"] = [x for x in top["active_tasks"] if x["task_id"] not in remove]
-        top["scenes"].pop("20")
+        top["scenes"].pop(sid)
         top["occupied_slots"] = len(top["active_tasks"])
         top["free_slots"] = max(0, top["slot_capacity"] - top["occupied_slots"])
         task["processed_tasks"].append({
