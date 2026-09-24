@@ -103,6 +103,28 @@
         20,
         21
       ]
+    },
+    {
+      "timestamp": "2026-09-24T16:37:52.436Z",
+      "operation": "terminal_transition_and_slow_remove",
+      "scene_id": 4,
+      "task_fingerprint": "scene4-cfe16682",
+      "previous_status": "init",
+      "new_status": "success",
+      "source_checkpoint": "2026-09-24T16:37:52.436Z",
+      "outcome": "success",
+      "verification": "Exact Topview task completed 2026-09-24T16:07:36Z; Scene 4 removed from active task map and canonical render-slow only. User already selected Scene 5 instead of Scene 3+4; no editorial approval inferred."
+    },
+    {
+      "timestamp": "2026-09-24T16:37:52.436Z",
+      "operation": "active_refresh_and_full_board_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 active tasks",
+      "new_status": "5 active tasks",
+      "source_checkpoint": "2026-09-24T16:37:52.436Z",
+      "outcome": "success",
+      "verification": "Refreshed all previously active task IDs; Scene 4 terminal success, remaining 5 active tasks are init. Scanned all 4 Board video pages / 353 tasks; no new recent task discovered."
     }
   ]
 }
