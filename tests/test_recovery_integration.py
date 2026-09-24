@@ -157,8 +157,11 @@ class IntegrationRecoveryTests(unittest.TestCase):
 
     def test_control_center_separates_scenes_from_generation_slots(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
-        self.assertIn("runtimeTopview.occupied+' из '+runtimeTopview.capacity", html)
-        self.assertIn("runtimeTopview.slowSceneIds.length+' сцен · '+runtimeSceneMultiplicityLabel()", html)
+        self.assertIn("$('metricSlow').textContent=runtimeTopview.occupied;", html)
+        self.assertNotIn("metricSlowIds", html)
+        self.assertIn("cap.innerHTML='занято '+occupied+' из '+capacity", html)
+        self.assertIn("$('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;", html)
+        self.assertNotIn('id="schema"', html)
         self.assertIn("instruction!=='error'", html)
         self.assertIn("const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;", html)
         self.assertIn("✓ ПРОЕКТ СИНХРОНИЗИРОВАН", html)
