@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T03:36:31.476Z",
+  "checked_at": "2026-09-24T03:48:55.568Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T03:34:17.110Z",
-      "github_blob": "c527b648975bc884666d43f6f86bf68d68fb8315",
+      "drive_modified_at": "2026-09-24T03:46:06.725Z",
+      "github_blob": "c5829ebb0cc303af8b7f1e44a64273ed2646a161",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T03:34:24.420Z",
-      "github_blob": "ac5d57697d57e058a038bc4c824a461685424948",
+      "drive_modified_at": "2026-09-24T03:46:22.169Z",
+      "github_blob": "390bc5c9af7e13468ef0f14d26a83cf2fdbcbf9e",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T03:34:31.788Z",
-      "github_blob": "66ada01aa14644440c0949a5f3b5eec5cc201d9d",
+      "drive_modified_at": "2026-09-24T03:46:43.389Z",
+      "github_blob": "37624321e3bd8523d26633af646dd6b8f2743770",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T03:34:38.618Z",
-      "github_blob": "d1e540f3ff9ba5002edc42155acd9d5f7246629f",
+      "drive_modified_at": "2026-09-24T03:46:52.265Z",
+      "github_blob": "6efd56f877020ba59577541cb23fe8ad4de20130",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T03:34:45.606Z",
-      "github_blob": "607ed84ceac273d23cc7343540c5941f22fe9a5e",
+      "drive_modified_at": "2026-09-24T03:47:02.011Z",
+      "github_blob": "296a9db1e39be42b7c6f356a125e6f34416434ae",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T03:34:52.940Z",
-      "github_blob": "c3f8b2bfc6457bc597f78afa861cfd6286296db0",
+      "drive_modified_at": "2026-09-24T03:47:26.070Z",
+      "github_blob": "6bb789c7e7f31b9a78e91d2d107238ef530a99c2",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files freshly compared after making the three-view Topview consistency contract explicit; Drive↔GitHub exact match verified.",
+  "note": "Seven canonical Drive instruction files freshly compared after making hourly Topview publication to all three Control Center views mandatory; exact Drive↔GitHub match verified.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -185,5 +185,24 @@
       "per-scene multiplicity == count(active_tasks for that scene)"
     ],
     "failure_behavior": "non-green; deterministic automatic repair by watcher/recovery; owner must not manually reconcile"
+  },
+  "hourly_topview_publication": {
+    "health": "ok",
+    "primary_watcher": "Topview Scene Intake & Slow Watch",
+    "schedule": "exact hourly at :17 Europe/Moscow",
+    "recovery_watchdog": "AI Film Recovery Sync at :29 Europe/Moscow",
+    "required_every_successful_run": [
+      "fresh provider telemetry refresh for every active task",
+      "fresh topview-status.json commit even for queue/status/ETA-only changes",
+      "one checked_at for the whole snapshot",
+      "all three Control Center views rendered from the same active_tasks[] snapshot",
+      "Pages/public snapshot not knowingly left older than successful telemetry refresh"
+    ],
+    "three_views": [
+      "РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС",
+      "⏳ В медленной генерации — Topview",
+      "🎬 Активные сцены проекта — карта и навигация"
+    ],
+    "failure_behavior": "watcher run incomplete/non-green; Recovery performs one deterministic repair attempt; owner is not asked to reconcile manually"
   }
 }
