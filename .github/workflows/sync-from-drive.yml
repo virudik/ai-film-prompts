@@ -60,7 +60,33 @@ jobs:
         run: |
           set -euo pipefail
           SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json || echo "Validator reported non-green health; publishing the generated status so Control Center shows the failure explicitly."
+          rm -f /tmp/project-status.json
+          set +e
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
+          VALIDATOR_RC=$?
+          set -e
+          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          status_path = Path(os.environ["STATUS_PATH"])
+          master_path = Path(os.environ["MASTER_PATH"])
+          if not status_path.is_file() or status_path.stat().st_size == 0:
+              raise SystemExit("validator did not create a fresh project-status.json")
+          status = json.loads(status_path.read_text(encoding="utf-8"))
+          expected_hash = hashlib.sha256(master_path.read_bytes()).hexdigest()
+          if status.get("canonical_master_sha256") != expected_hash:
+              raise SystemExit("generated status does not match the fresh master hash")
+          if status.get("synced_at") != os.environ["EXPECTED_SYNCED_AT"]:
+              raise SystemExit("generated status is not from the current validator invocation")
+          PY
+          if [ "$VALIDATOR_RC" -ne 0 ]; then
+            STATUS_HEALTH="$(python3 -c 'import json; print(json.load(open("/tmp/project-status.json"))["health"])')"
+            if [ "$STATUS_HEALTH" != "error" ]; then
+              echo "Validator exited non-zero without a generated health=error snapshot." >&2
+              exit "$VALIDATOR_RC"
+            fi
+            echo "Validator reported non-green health; publishing the verified fresh error status."
+          fi
 
       - name: Repair mirrors only when needed
         shell: bash
@@ -98,7 +124,33 @@ jobs:
             grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
             SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-            python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json || echo "Validator reported non-green health; publishing the generated status so Control Center shows the failure explicitly."
+            rm -f /tmp/project-status.json
+          set +e
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
+          VALIDATOR_RC=$?
+          set -e
+          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
+          import hashlib, json, os
+          from pathlib import Path
+          status_path = Path(os.environ["STATUS_PATH"])
+          master_path = Path(os.environ["MASTER_PATH"])
+          if not status_path.is_file() or status_path.stat().st_size == 0:
+              raise SystemExit("validator did not create a fresh project-status.json")
+          status = json.loads(status_path.read_text(encoding="utf-8"))
+          expected_hash = hashlib.sha256(master_path.read_bytes()).hexdigest()
+          if status.get("canonical_master_sha256") != expected_hash:
+              raise SystemExit("generated status does not match the fresh master hash")
+          if status.get("synced_at") != os.environ["EXPECTED_SYNCED_AT"]:
+              raise SystemExit("generated status is not from the current validator invocation")
+          PY
+          if [ "$VALIDATOR_RC" -ne 0 ]; then
+            STATUS_HEALTH="$(python3 -c 'import json; print(json.load(open("/tmp/project-status.json"))["health"])')"
+            if [ "$STATUS_HEALTH" != "error" ]; then
+              echo "Validator exited non-zero without a generated health=error snapshot." >&2
+              exit "$VALIDATOR_RC"
+            fi
+            echo "Validator reported non-green health; publishing the verified fresh error status."
+          fi
 
             if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
               cp /tmp/drive-video-prompts.md video-prompts.md
