@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T05:41:40.730Z",
+  "checked_at": "2026-09-24T05:44:57.343Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files exact-match GitHub after adopting non-blocking best-effort Library recovery. Library permission prompts are not a completion gate.",
+  "note": "Seven canonical Drive instruction files exact-match GitHub. Both project automations use exact hourly HH:00:00 Europe/Moscow. Library recovery is best-effort/non-blocking and never a completion gate.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -151,18 +151,19 @@
     "primary_watcher": {
       "title": "Topview Scene Intake & Slow Watch",
       "timing_mode": "exact_schedule",
-      "minute_local": 17,
+      "minute_local": 0,
       "timezone": "Europe/Moscow",
       "expected_max_checkpoint_age_minutes": 75
     },
     "recovery_watchdog": {
       "title": "AI Film Recovery Sync",
       "timing_mode": "exact_schedule",
-      "minute_local": 29,
+      "minute_local": 0,
       "timezone": "Europe/Moscow",
-      "fallback_after_minutes": 10
+      "fallback_after_minutes": null
     },
-    "owner_experience": "set-and-forget; deterministic telemetry drift repaired automatically"
+    "owner_experience": "set-and-forget; deterministic telemetry drift repaired automatically",
+    "note": "Both automations start exact hourly at HH:00:00 Europe/Moscow; Recovery must not race an in-progress healthy watcher cycle at the shared boundary."
   },
   "three_view_topview_contract": {
     "health": "ok",
@@ -189,8 +190,8 @@
   "hourly_topview_publication": {
     "health": "ok",
     "primary_watcher": "Topview Scene Intake & Slow Watch",
-    "schedule": "exact hourly at :17 Europe/Moscow",
-    "recovery_watchdog": "AI Film Recovery Sync at :29 Europe/Moscow",
+    "schedule": "exact hourly at HH:00:00 Europe/Moscow",
+    "recovery_watchdog": "AI Film Recovery Sync exact hourly at HH:00:00 Europe/Moscow",
     "required_every_successful_run": [
       "fresh provider telemetry refresh for every active task",
       "fresh topview-status.json commit even for queue/status/ETA-only changes",
@@ -233,10 +234,10 @@
     "mode": "best_effort_non_blocking",
     "blocking": false,
     "authority": false,
-    "owner_interruption_policy": "do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required",
     "completion_gate": false,
+    "owner_interruption_policy": "do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required",
     "status": "pending_or_opportunistic",
-    "retry": "AI Film Recovery Sync / daily deep audit may retry only when no new interactive confirmation is required",
-    "truth_rule": "Never claim Library current without successful write/read-back; Drive/GitHub remain authoritative."
+    "retry": "Recovery/deep audit may retry only when no new interactive confirmation is required",
+    "truth_rule": "Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer."
   }
 }
