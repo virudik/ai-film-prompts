@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-23T14:42:34.243Z",
+  "checked_at": "2026-09-24T01:06:52.847Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-23T14:42:34.243Z",
-      "github_blob": "28f9c6804a829fab4b01a3b6babf1a663611f83d",
+      "drive_modified_at": "2026-09-24T00:52:34.217Z",
+      "github_blob": "47d6a9187cd577a57e08dcdf9222e6a38af9e469",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files match GitHub mirrors. Reliability stages 1-7 are verified; final Stage 7 Pages publish checkpoint is mirrored to the same canonical Drive handoff ID.",
+  "note": "Seven canonical Drive instruction files were freshly compared with GitHub mirrors on 24.09.2026; Drive remains authoritative and all seven mirrors match.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
