@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-23T17:29:01Z",
-  "last_deep_audit_at": "2026-09-23T17:29:01Z",
+  "checked_at": "2026-09-24T01:11:22.740Z",
+  "last_deep_audit_at": "2026-09-24T01:11:22.740Z",
   "health": "ok",
   "sections": {
     "master": "ok",
@@ -18,20 +18,27 @@
     "one_writer_ownership": "ok"
   },
   "repairs": [
-    "Refreshed recovery-manifest.json to the latest verified master/status/Topview checkpoint and critical GitHub blob versions.",
-    "Cleared the obsolete BOM warning: current generated validator confirms canonical_master_utf8_without_bom=true.",
-    "Verified Topview Scene Intake & Slow Watch remains enabled and is the single writer for Topview-derived render state."
+    "Verified Topview Scene Intake & Slow Watch remains enabled and is the single writer for Topview-derived render state.",
+    "Refreshed deep-audit runtime snapshot to canonical Scene 21 / 11 scenes / 21 prompts checkpoint.",
+    "Recovery integration tests were repaired to use the current production sync timestamp and now pass."
   ],
   "warnings": [
-    "Prompt-quality audit retains existing NEEDS_FIX items for user-by-user review; no creative prompts were auto-rewritten."
+    "Prompt-quality audit retains existing NEEDS_FIX items for user-by-user review; no creative prompts were auto-rewritten.",
+    "Topview telemetry checkpoint is older than the canonical master sync; watcher remains the authority for the next telemetry refresh."
   ],
   "unresolved": [],
   "runtime_snapshot": {
-    "scenes": 10,
-    "prompt_texts": 20,
-    "latest_scene": 20,
-    "slow_scenes": [3,4,17,19,20],
-    "master_sha256": "d19e5dfc926cab82ad3a2329c48a5b222c73b1394091a7e141a4daa86c27808f"
+    "scenes": 11,
+    "prompt_texts": 21,
+    "latest_scene": 21,
+    "slow_scenes": [
+      3,
+      4,
+      17,
+      19,
+      20
+    ],
+    "master_sha256": "3d6b9014a0bd72790fa928a68e8eb2a6fe6d37fcd7c5687647ffe278bddb988f"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
@@ -42,10 +49,11 @@
     "health": "ok"
   },
   "notes": {
-    "master": "Current validator reports all structural, count, slow-state, reserved-ID, scene-meta, fence, UTF-8/BOM and Topview invariants true.",
-    "instructions": "Seven canonical Drive instruction mirrors are reported exact-match with semantic health ok in the fresh instruction snapshot.",
+    "master": "Current generated project-status reports health=ok with 11 active scenes, 21 prompt texts, latest Scene 21, W5-W15, and all structural/cross-layer checks true.",
+    "instructions": "Seven canonical Drive instruction mirrors are exact-match with semantic health ok in the current instruction snapshot.",
     "topview": "Six active task IDs occupy six slots across five unique slow Scene IDs; Scene 20 correctly occupies two slots while remaining one canonical slow scene.",
-    "recovery": "Recovery manifest refreshed from verified current artifacts; it remains non-authoritative metadata.",
-    "automation_watchdog": "Topview watcher verified enabled; no watchdog recovery was required."
+    "recovery": "Recovery metadata is refreshed to the current canonical master/status checkpoint and remains explicitly non-authoritative.",
+    "automation_watchdog": "Topview watcher verified enabled; no watchdog recovery was required.",
+    "integration_tests": "Latest AI Film integration recovery test run completed successfully after replacing the stale hard-coded sync timestamp."
   }
 }
