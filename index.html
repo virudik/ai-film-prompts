@@ -98,7 +98,7 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 <main class="main">
 <section class="control">
 <div class="control-head"><div class="control-title"><strong>РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС</strong></div><div class="theme-switch" id="themeSwitch" aria-label="Тема сайта"><button type="button" class="theme-choice" data-theme-choice="light">☀ Светлая сторона</button><button type="button" class="theme-choice" data-theme-choice="dark">🌙 Тёмная сторона</button></div><span id="health" class="health">проверка…</span></div>
-<div class="metrics"><div id="metricScenesCard" class="metric clickable" title="Перейти к карте всех сцен"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div id="metricPromptsCard" class="metric clickable" title="Перейти к полным промтам"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div id="metricSlowCard" class="metric clickable" title="Показать slow-сцены"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Topview · занято слотов</div><div id="metricSlowIds" class="metric-ids">—</div></div><div id="metricWorkCard" class="metric clickable" title="Показать сцены в работе"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div><div id="metricWorkIds" class="metric-ids">—</div></div></div>
+<div class="metrics"><div id="metricScenesCard" class="metric clickable" title="Перейти к карте всех сцен"><div id="metricScenes" class="metric-value">—</div><div class="metric-label">Сцен</div></div><div id="metricPromptsCard" class="metric clickable" title="Перейти к полным промтам"><div id="metricPrompts" class="metric-value">—</div><div class="metric-label">Промтов</div></div><div id="metricSlowCard" class="metric clickable" title="Показать медленные генерации"><div id="metricSlow" class="metric-value">—</div><div class="metric-label">Медленных генераций</div></div><div id="metricWorkCard" class="metric clickable" title="Показать сцены в работе"><div id="metricWork" class="metric-value">—</div><div class="metric-label">В работе</div><div id="metricWorkIds" class="metric-ids">—</div></div></div>
 <div class="meta-line"><span id="revision">Ревизия —</span><span>•</span><span id="syncTime">Синхронизация —</span><span>•</span><span id="stamp">master загружен —</span><span>•</span><span id="instructionSync">Инструкции —</span></div>
 <div class="fingerprint-shell"><details class="fingerprint"><summary>Контрольный отпечаток</summary>
 <div id="fingerGrid" class="finger-grid"></div>
@@ -116,10 +116,10 @@ html[data-theme="light"] .filter-chip.slow.active{background:#fff4d5}
 
 <div class="technical-block">
 <div class="technical-title">Техническая информация</div>
-<div class="topbar" style="margin:0 0 8px"><span id="schema" class="pill">схема —</span><span id="projectStatus" class="pill status">машинный статус…</span></div>
+<div class="topbar" style="margin:0 0 8px"><span id="projectStatus" class="pill status">машинный статус…</span></div>
 <div id="statusMessage" class="status-message">Загрузка project-status.json…</div>
 <div class="technical-title">Topview</div>
-<div class="technical-line">Topview считает занятые слоты по активным генерациям, а проект считает slow-сцены по уникальным Scene ID. Поэтому 6 занятых слотов могут соответствовать 5 сценам, если одна сцена запущена дважды. Одна строка таблицы = одна активная генерация; повтор Scene ID означает второй рендер той же сцены, а не дубликат сцены.</div>
+<div class="technical-line">Topview считает медленные генерации по активным task ID, а slow-сцены — по уникальным Scene ID. Если одна сцена запущена несколько раз, генераций будет больше, чем slow-сцен. Одна строка таблицы = одна активная генерация; повтор Scene ID означает второй рендер той же сцены, а не дубликат сцены.</div>
 <div id="topviewChecked" class="technical-line"></div>
 <div id="technicalMasterNotes" class="technical-master-notes technical-line"></div>
 </div>
@@ -147,7 +147,7 @@ function normalizedQuery(q){return q.trim().toLowerCase().replace(/^сцена\s
 function humanDate(v){if(!v)return '—';const d=new Date(v);return Number.isNaN(d.getTime())?String(v):d.toLocaleString('ru-RU')}
 function productionLabel(v){return ({DRAFT:'Черновик',READY:'Готов к генерации',NEEDS_FIX:'Нужна доработка',RESULT_RECEIVED:'Результат получен',NEEDS_RERENDER:'Нужен новый дубль',APPROVED:'Одобрено',IN_EDIT:'В монтаже',CLOSED:'Закрыто'})[v]||v||''}
 function engineLabel(v){const x=String(v||'').trim();if(/^wan\s*3(?:\.0)?$/i.test(x))return 'Wan 3.0';return x}
-const TAG_LABELS={ensemble:'Групповая сцена',continuous_take:'Непрерывный дубль',manual_review:'Ручная проверка',action:'Экшен',needs_fix:'Нужна доработка',continuity:'Связность сцен',alternative:'Альтернативный вариант',comedy:'Комедия',deadpan_comedy:'Комедия',fantasy_comedy:'Комедия',camera_conflict:'Конфликт требований к камере',visual_effect:'Визуальный эффект',dialogue:'Диалог',needs_rerender:'Нужен новый дубль',map:'Карта',mission_return:'Возвращение с задания',music_performance:'Музыкальный номер',vocal_performance:'Музыкальный номер','11_part_sequence':'Серия из 11 частей',lakeshore:'Берег озера',cinematic_music_video:'Музыкальный номер',musical:'Музыкальный номер',space_battle:'Космический бой',first_last_frame:'Переход между кадрами',seamless_transition:'Переход между кадрами',character_identity:'Сохранение внешности'};
+const TAG_LABELS={ensemble:'Групповая сцена',continuous_take:'Непрерывный дубль',manual_review:'Ручная проверка',action:'Экшен',needs_fix:'Нужна доработка',continuity:'Связность сцен',alternative:'Альтернативный вариант',comedy:'Комедия',deadpan_comedy:'Комедия',fantasy_comedy:'Комедия',camera_conflict:'Конфликт требований к камере',visual_effect:'Визуальный эффект',dialogue:'Диалог',needs_rerender:'Нужен новый дубль',map:'Карта',mission_return:'Возвращение с задания',music_performance:'Музыкальный номер',vocal_performance:'Музыкальный номер','11_part_sequence':'Серия из 11 частей',lakeshore:'Берег озера',cinematic_music_video:'Музыкальный номер',musical:'Музыкальный номер',space_battle:'Космический бой',first_last_frame:'Переход между кадрами',seamless_transition:'Переход между кадрами',character_identity:'Сохранение внешности',cats:'Коты',jedi:'Джедаи',cockpit:'Кабина',takeoff:'Взлёт',sith_planet:'Планета ситхов',confrontation:'Противостояние',lip_sync:'Липсинк',lightsaber_battle:'Бой на световых мечах',speaker_ownership:'Привязка голоса'};
 const TAG_FILTER_GROUPS=[
  {key:'action',label:'Экшен',tags:['action']},
  {key:'comedy',label:'Комедия',tags:['comedy','deadpan_comedy','fantasy_comedy']},
@@ -504,7 +504,7 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  if(ok){healthText='✓ ПРОЕКТ СИНХРОНИЗИРОВАН';healthClass='ok'};
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
- $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;$('metricSlowIds').textContent=runtimeTopview.slowSceneIds.length+' сцен · '+runtimeSceneMultiplicityLabel();
+ $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;
  $('metricScenesCard').onclick=()=>resetViewAndJump('active-scenes-map');$('metricPromptsCard').onclick=()=>resetViewAndJump('full-prompts');$('metricWorkIds').textContent=(s.work_items||[]).join(', ')||'нет';
  $('metricSlowCard').onclick=()=>{activeFilterKey='slow';activeFilterValues=null;renderFilters();applyView();const target=$('slow-monitor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'})};
  $('metricWorkCard').onclick=()=>{search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();const h=[...content.querySelectorAll('h2')].find(x=>x.textContent.includes('Сцены в работе'));if(h)requestAnimationFrame(()=>h.scrollIntoView({behavior:'smooth',block:'start'}))};
@@ -512,8 +512,7 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  $('syncTime').textContent=`Синхронизация ${humanDate(s.synced_at)}`;
  $('instructionSync').textContent=instruction==='ok'?'Инструкции: ПРОВЕРЕНЫ':instruction==='stale'?'Инструкции: ПРОВЕРКА УСТАРЕЛА':instruction==='error'?'Инструкции: НАЙДЕНО РАСХОЖДЕНИЕ':'Инструкции: НЕ ПРОВЕРЕНЫ';
  $('instructionSync').style.color=instruction==='ok'?'var(--ok)':instruction==='error'?'var(--bad)':'var(--warn)';
- $('schema').textContent=`схема ${s.schema_version??'—'}`;
- $('projectStatus').textContent=`${s.scenes} сцен · ${s.prompt_texts} промтов · в работе ${s.work_items_count}`;
+ $('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;
  if(ok&&topviewWarning)$('statusMessage').textContent=topviewFresh?'Основной проект синхронизирован. Topview имеет служебный drift между runtime snapshot и внутренним cache; Recovery исправляет его без остановки проекта.':'Основной проект синхронизирован. Topview telemetry временно устарела из-за недоступности фонового коннектора; показывается последний проверенный snapshot, watcher остаётся включён и повторит попытку автоматически.';
  else if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано Recovery Sync для автоматического обслуживания.';
  else if(ok&&(workflowWarning||staleWarning||recoveredWarning))$('statusMessage').textContent='Рабочие данные доступны и согласованы. Служебное обслуживание выполняется автоматически.';
