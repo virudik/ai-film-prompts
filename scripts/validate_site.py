@@ -27,7 +27,8 @@ contracts = (
     "const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;",
     "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
     "Topview telemetry временно устарела",
-    "runtimeTopview.occupied+' генераций · '+runtimeSceneMultiplicityLabel()",
+    "runtimeTopview.occupied+' из '+runtimeTopview.capacity",
+    "runtimeTopview.slowSceneIds.length+' сцен · '+runtimeSceneMultiplicityLabel()",
 )
 for required in contracts:
     if required not in html:
