@@ -3,14 +3,16 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T01:07:04Z",
+  "synced_at": "2026-09-24T01:08:09Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "39ea424b344b087f7ed10f5c0c3e7f49b1417babb81e38682a96238584c8aa8b",
-  "canonical_master_bytes": 259401,
+  "canonical_master_sha256": "3d6b9014a0bd72790fa928a68e8eb2a6fe6d37fcd7c5687647ffe278bddb988f",
+  "canonical_master_bytes": 260143,
   "scenes": 11,
   "prompt_texts": 21,
   "work_items": [
+    "W5",
+    "W6",
     "W7",
     "W8",
     "W9",
@@ -19,8 +21,7 @@
     "W12",
     "W13",
     "W14",
-    "W15",
-    "W5"
+    "W15"
   ],
   "work_items_count": 11,
   "slow_scenes": [
@@ -62,7 +63,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.003,
+    "age_hours_at_status_build": 0.021,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -315,8 +316,8 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T01:07:04Z",
-    "canonical_master_sha256": "39ea424b344b087f7ed10f5c0c3e7f49b1417babb81e38682a96238584c8aa8b",
+    "synced_at": "2026-09-24T01:08:09Z",
+    "canonical_master_sha256": "3d6b9014a0bd72790fa928a68e8eb2a6fe6d37fcd7c5687647ffe278bddb988f",
     "scene_count": 11,
     "prompt_count": 21,
     "scene_ids": [
@@ -333,6 +334,8 @@
       21
     ],
     "work_items": [
+      "W5",
+      "W6",
       "W7",
       "W8",
       "W9",
@@ -341,8 +344,7 @@
       "W12",
       "W13",
       "W14",
-      "W15",
-      "W5"
+      "W15"
     ],
     "slow_scenes": [
       3,
@@ -351,16 +353,16 @@
       19,
       20
     ],
-    "health": "error",
+    "health": "ok",
     "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
     "scene_numbers_match_toc_and_sections": true,
     "declared_prompt_count_matches_fences": true,
-    "declared_work_count_matches_ids": false,
+    "declared_work_count_matches_ids": true,
     "declared_slow_count_matches_list": true,
     "slow_status_matches_dedicated_table": true,
     "slow_status_matches_toc": true,
