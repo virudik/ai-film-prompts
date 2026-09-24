@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T16:17:53Z",
+  "synced_at": "2026-09-24T16:26:19Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
@@ -59,29 +59,29 @@
     18
   ],
   "instruction_sync": {
-    "health": "ok",
-    "snapshot_at": "2026-09-24T15:07:41Z",
+    "health": "error",
+    "snapshot_at": "2026-09-24T16:25:40.932Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.17,
+    "age_hours_at_status_build": 0.011,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-24T14:15:42.636Z",
-        "github_blob": "d163762b32c219ed77789c66908ad75fd07f4908",
+        "drive_modified_at": "2026-09-24T16:23:45.896Z",
+        "github_blob": "ae9cee6c14db522a22523ff9b281cf830cfec495",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-24T14:16:05.479Z",
-        "github_blob": "b08abd87eee44cc553856afae8d55cc899a26e2e",
+        "drive_modified_at": "2026-09-24T16:24:49.773Z",
+        "github_blob": "fe7d7912564a693a8e3fb1fdf9fb1a88972b965f",
         "match": true
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-24T14:16:27.724Z",
-        "github_blob": "617ea0568545afc5d848396cfe50a9e200fb720a",
+        "drive_modified_at": "2026-09-24T16:18:52.222Z",
+        "github_blob": "fb2a8986669fba3cd55f2a716891d2461396cc13",
         "match": true
       },
       "PROMPT-STYLE-GUIDE.md": {
@@ -92,30 +92,32 @@
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-09-24T14:16:54.000Z",
-        "github_blob": "96e7d386e1887a64299f43d17d05c0ad49230784",
+        "drive_modified_at": "2026-09-24T16:20:11.155Z",
+        "github_blob": "43fd7228b05d5579e2418a27442a5bb92586bba4",
         "match": true
       },
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-        "drive_modified_at": "2026-09-24T14:18:01.954Z",
-        "github_blob": "adf633f59c5d006bf71c81b7860b375c641c807c",
+        "drive_modified_at": "2026-09-24T16:21:30.289Z",
+        "github_blob": "860975f513aedbc48f8a3d593fc1d1bb16b43f24",
         "match": true
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-09-24T14:18:27.871Z",
-        "github_blob": "2349723951c7bd0518248962d7018ecd153d4cd2",
+        "drive_modified_at": "2026-09-24T16:22:50.495Z",
+        "github_blob": "ae1de9e00dc712386455708931d4598407b2fd65",
         "match": true
       }
     }
   },
-  "warnings": [],
+  "warnings": [
+    "instruction_sync_error"
+  ],
   "maintenance": {
     "instruction_verification": {
-      "state": "ok",
-      "age_hours": 1.17,
-      "blocking": false
+      "state": "error",
+      "age_hours": 0.011,
+      "blocking": true
     },
     "topview_task_map": {
       "state": "ok",
@@ -348,7 +350,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T16:17:53Z",
+    "synced_at": "2026-09-24T16:26:19Z",
     "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
     "scene_count": 12,
     "prompt_count": 22,
@@ -386,10 +388,10 @@
       20,
       21
     ],
-    "health": "ok",
-    "instruction_sync_health": "ok"
+    "health": "error",
+    "instruction_sync_health": "error"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -420,7 +422,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true,
+    "instruction_mirrors_match_drive": false,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
