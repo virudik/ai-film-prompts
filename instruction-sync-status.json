@@ -139,8 +139,12 @@
       "Связность сцен",
       "Музыкальный номер",
       "Альтернативный вариант",
-      "Ручная проверка"
+      "Ручная проверка",
+      "Космический бой",
+      "Бесшовный переход"
     ],
-    "rule": "After active scene or scene-meta tag changes, audit tag frequency, duplicates/synonyms, overlap with state/engine/dialogue/dependencies/slow, Russian labels, stale filters, and missing useful scene types."
+    "rule": "After active scene or scene-meta tag changes, audit tag frequency, duplicates/synonyms, overlap with state/engine/dialogue/dependencies/slow, Russian labels, stale filters, and missing useful scene types.",
+    "last_audited_for_active_scene": 22,
+    "note": "After Scene 22, space_battle and first_last_frame/seamless_transition are present in two active scenes (21,22), so they are now useful Russian filters rather than scene-specific singleton tags."
   }
 }
