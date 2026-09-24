@@ -420,7 +420,7 @@ After site edit:
 5. refresh `instruction-sync-status.json`;
 6. проверить `project-status.json`/Pages;
 7. обновить Notion operational pointer;
-8. обновить Library recovery copies;
+8. Library recovery refresh — **best-effort / non-blocking**: обновить только если это можно сделать без интерактивного подтверждения владельца; иначе зафиксировать pending/stale и продолжить;
 9. не создавать `v2/final/copy`.
 
 
@@ -558,7 +558,7 @@ Current rules:
 - писать prompts в master style;
 - менять сайт и проверять Pages;
 - поддерживать all-seven instruction mirrors;
-- фиксировать material changes в docs/HANDOFF/Notion/Library;
+- фиксировать material changes в docs/HANDOFF/Notion; Library recovery обновлять best-effort и не блокировать работу из-за permission prompt;
 - отличать telemetry от approval;
 - не объявлять `ГОТОВО` до verification.
 
@@ -633,7 +633,7 @@ Approved individual model sheets are identity authority. Current master is curre
 7. character registry/reference viewer vs current prompts;
 8. montage report + `film-analysis.md` + `film-backlog.md`;
 9. Notion operational pointer / legacy labels;
-10. Library recovery copies / READ-FIRST / current-state package.
+10. Library recovery state / READ-FIRST / current-state package — информационно; stale Library не блокирует readiness при доступном fresh Drive/GitHub.
 
 
 
@@ -1101,10 +1101,19 @@ Prompt work: fresh PROMPT-STYLE-GUIDE.md + fresh master + 1–2 близкие c
 
 Topview: technical success != approval. Не approve/delete/rerun автоматически. Hourly watcher и Recovery должны сами поддерживать актуальный Topview snapshot и три согласованных представления сайта; пользователь не обязан вручную следить за очередью.
 
-Материальное изменение workflow/site/authority/recovery в том же цикле документируй в relevant canonical Drive docs и SAME NEW-CHAT-HANDOFF.md, затем exact GitHub mirrors + instruction status + Notion pointer + Library recovery.
+Материальное изменение workflow/site/authority/recovery в том же цикле документируй в relevant canonical Drive docs и SAME NEW-CHAT-HANDOFF.md, затем exact GitHub mirrors + instruction status + Notion pointer. Library recovery — best-effort/non-blocking: не останавливай работу и не проси владельца подтверждать каждую перезапись Library; если интерактивное разрешение требуется, пометь Library pending/stale и продолжай.
 
 Для длинной многошаговой работы предпочитай Work внутри этого Project. Для одиночных творческих задач можно обычный Project Chat. Новый чат не начинает проект заново: сначала восстанавливает live state и продолжает с текущего места.
 
 Пользовательские решения обязательны только для творческих/редакционных выборов, неоднозначного task↔Scene mapping, approval, rerender, удаления/закрытия сцен и других недетерминированных действий.
 ```
+
+## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+
+- ChatGPT Library остаётся **recovery mirror/cache**, а не authority и не обязательный транзакционный слой.
+- Обязательный путь завершения material change: relevant SAME-ID Drive canonical docs/master → exact GitHub mirrors/status/validation/Pages где применимо → fresh `instruction-sync-status.json` → Notion operational pointer, если меняется будущий workflow.
+- Library refresh выполняется **best-effort**. Если запись возможна без интерактивного подтверждения владельца — обновить. Если интерфейс требует отдельное `Разрешить это изменение в Библиотеке?`, consent/permission недоступен automation или мобильное приложение даёт только `Try again` — **не блокировать работу, не повторять prompt и не просить владельца переключаться в браузер**. Зафиксировать `pending/stale` и продолжить.
+- `pending/stale` Library не делает проект non-green, не отменяет verified Drive/GitHub/Pages change и не запрещает сообщить о завершении основной работы. Нельзя только утверждать, что Library свежая, если она фактически не обновлена.
+- `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
+- На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
 
