@@ -147,6 +147,17 @@
       "source_checkpoint": "2026-09-24T17:26:19.000Z",
       "outcome": "success",
       "verification": "Fresh exact lookup for Scenes 17,19,20x2,21,22; all six tasks remain init. Canonical slow is 17,19,20,21,22; occupancy 6/6."
+    },
+    {
+      "timestamp": "2026-09-24T18:01:12.000Z",
+      "operation": "active_refresh_and_full_board_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 active tasks",
+      "new_status": "6 active tasks",
+      "source_checkpoint": "2026-09-24T18:01:12.000Z",
+      "outcome": "success",
+      "verification": "Fresh exact lookup for Scenes 17,19,20x2,21,22; all six tasks remain init. Scanned all 4 Board video pages / 354 tasks; no additional untracked task in the 6-hour overlap. Canonical slow remains 17,19,20,21,22; occupancy 6/6."
     }
   ]
 }
