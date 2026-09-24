@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T04:29:46.571Z",
+  "checked_at": "2026-09-24T05:07:06.581Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T04:27:27.148Z",
-      "github_blob": "51bb0838fb474b6953caa90c07e4a9bd02044c3d",
+      "drive_modified_at": "2026-09-24T05:04:14.111Z",
+      "github_blob": "791b601f53677bfe175268819cd0a7034ba9ef9e",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T04:27:35.036Z",
-      "github_blob": "448da4b5f4ddfd02dc05275860887c5b78d028fd",
+      "drive_modified_at": "2026-09-24T05:04:26.309Z",
+      "github_blob": "bc1db622a916d5c058e2b63751c5243b7e0ae233",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T04:27:43.066Z",
-      "github_blob": "0438e8a2d916881a5682aa9e6dee59edacbd0bc7",
+      "drive_modified_at": "2026-09-24T05:04:37.934Z",
+      "github_blob": "22d5b2c41376074fe9d488fa02e4ca22d67e73ff",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T04:27:51.396Z",
-      "github_blob": "5c7b274dd29143c4aea6afa7fdf0b45d5cb938ed",
+      "drive_modified_at": "2026-09-24T05:04:48.524Z",
+      "github_blob": "8e04f079515ff6b7b9f67597b67c0dd512893283",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T04:27:59.025Z",
-      "github_blob": "32e17b61d3e2e5122faa976d01cb77b3094e49a4",
+      "drive_modified_at": "2026-09-24T05:05:01.173Z",
+      "github_blob": "4752b7fd007369becbc7cd8fccc950c0ad297f75",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T04:28:07.427Z",
-      "github_blob": "f6590a1fc38199e1d1e7fde8a51d85d148ace25e",
+      "drive_modified_at": "2026-09-24T05:05:12.399Z",
+      "github_blob": "0ab693534f1f2d07e87568db547844d0ecda4cdf",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files freshly compared after documenting ChatGPT Project operating mode; Drive↔GitHub exact match verified. PROMPT-STYLE-GUIDE unchanged because Project mode does not change prompt-writing standard.",
+  "note": "Seven canonical Drive instruction files freshly compared after moving both project automations to the top of every hour; Drive↔GitHub exact match verified.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -221,5 +221,12 @@
     "static_copy_rule": "stale/generated copies in old chats or Project attachments never override accessible live Drive/GitHub",
     "owner_experience": "new chats continue from current state; do not ask owner to restate known facts or manually perform deterministic infrastructure work",
     "project_instructions_template": "embedded in NEW-CHAT-HANDOFF.md and USER-GUIDE.md"
+  },
+  "automation_schedule": {
+    "health": "ok",
+    "timezone": "Europe/Moscow",
+    "topview_watcher": "exact hourly at HH:00:00",
+    "recovery_sync": "exact hourly at HH:00:00",
+    "one_writer_note": "Topview watcher remains primary writer; Recovery must not race a healthy/current watcher cycle at the shared hour boundary."
   }
 }
