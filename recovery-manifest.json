@@ -18,7 +18,7 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-24T01:34:44Z",
+    "checked_at": "2026-09-24T03:09:38Z",
     "active_task_count": 5,
     "canonical_slow_scene_ids": [
       4,
@@ -41,5 +41,5 @@
     "verified_at": "2026-09-24T01:39:49.728Z"
   },
   "last_successful_instruction_mirror_check": "2026-09-24T01:39:18.109Z",
-  "last_successful_full_reconciliation": "2026-09-24T01:39:49.728Z"
+  "last_successful_full_reconciliation": "2026-09-24T03:09:38Z"
 }
