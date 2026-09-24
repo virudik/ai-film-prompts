@@ -15,6 +15,7 @@ BUILD = ROOT / "scripts" / "build_project_status.py"
 MASTER = ROOT / "video-prompts.md"
 TOPVIEW = ROOT / "topview-status.json"
 TASKMAP = ROOT / "topview-task-map.json"
+CHECKPOINT = ROOT / "topview-checkpoint.json"
 INSTR = ROOT / "instruction-sync-status.json"
 SYNCED_AT = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))["synced_at"]
 
@@ -124,6 +125,20 @@ class IntegrationRecoveryTests(unittest.TestCase):
             self.assertEqual(status["health"], "ok")
             self.assertEqual(status["maintenance"]["topview_task_map"]["state"], "drift")
             self.assertFalse(status["maintenance"]["topview_task_map"]["blocking"])
+
+    def test_stable_topview_checkpoint_matches_public_snapshot(self):
+        top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
+        checkpoint = json.loads(CHECKPOINT.read_text(encoding="utf-8"))
+        self.assertEqual(checkpoint["checked_at"], top["checked_at"])
+        self.assertEqual(checkpoint["occupied_slots"], top["occupied_slots"])
+        self.assertEqual(
+            sorted(checkpoint["active_task_ids"]),
+            sorted(x["task_id"] for x in top["active_tasks"]),
+        )
+        self.assertEqual(
+            sorted(checkpoint["active_scene_ids"]),
+            sorted({x["scene_id"] for x in top["active_tasks"]}),
+        )
 
     def test_stale_instruction_certificate_is_maintenance_not_sync_failure(self):
         instr = json.loads(INSTR.read_text(encoding="utf-8"))
