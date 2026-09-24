@@ -3,11 +3,11 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T03:00:52Z",
+  "synced_at": "2026-09-24T03:16:44Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "245402fe81e135e0fb3b5b1b2e169372eaa7cce9478bd0957fc62f70a75e5d12",
-  "canonical_master_bytes": 273088,
+  "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
+  "canonical_master_bytes": 273574,
   "scenes": 12,
   "prompt_texts": 22,
   "work_items": [
@@ -28,9 +28,10 @@
     4,
     17,
     19,
-    20
+    20,
+    21
   ],
-  "slow_scenes_count": 4,
+  "slow_scenes_count": 5,
   "scene_ids": [
     3,
     4,
@@ -63,7 +64,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.886,
+    "age_hours_at_status_build": 1.15,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -311,7 +312,7 @@
         "seamless_transition",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "22": {
       "target_engine": "Seedance 2.5",
@@ -334,8 +335,8 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T03:00:52Z",
-    "canonical_master_sha256": "245402fe81e135e0fb3b5b1b2e169372eaa7cce9478bd0957fc62f70a75e5d12",
+    "synced_at": "2026-09-24T03:16:44Z",
+    "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
     "scene_count": 12,
     "prompt_count": 22,
     "scene_ids": [
@@ -369,7 +370,8 @@
       4,
       17,
       19,
-      20
+      20,
+      21
     ],
     "health": "ok",
     "instruction_sync_health": "ok"
