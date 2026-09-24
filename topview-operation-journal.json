@@ -46,6 +46,17 @@
       "source_checkpoint": "2026-09-24T01:34:44Z",
       "outcome": "success",
       "verification": "Refreshed all six previously known task IDs; remaining five are init. Board page 1 checked across overlap; no unknown newer video task found."
+    },
+    {
+      "timestamp": "2026-09-24T03:09:38Z",
+      "operation": "watcher_stale-checkpoint_recovery_refresh",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 active tasks; checkpoint 2026-09-24T01:34:44Z",
+      "new_status": "5 active tasks",
+      "source_checkpoint": "2026-09-24T03:09:38Z",
+      "outcome": "success",
+      "verification": "Fresh exact Topview lookup completed for all 5 active task IDs; all remain init. Telemetry checkpoint refreshed. Watcher timing changed from condition_watch to exact_schedule hourly."
     }
   ]
 }
