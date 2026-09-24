@@ -1748,10 +1748,10 @@ Blocking checks проекта используют только authoritative/s
 
 
 Control Center:
-- красный global sync — только реальная authoritative corruption/unavailability;
+- green global label = `ПРОЕКТ СИНХРОНИЗИРОВАН`; red global label = `ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ`; красный reserved только для реальной authoritative corruption/unavailability;
 - stale instruction certificate, stale Topview telemetry, historical superseded workflow failures и Library pending не должны давать global red;
 - Topview stale показывается отдельной предупреждающей строкой с временем последнего verified snapshot;
-- slow summary показывается один раз: например `5 сцен`, ниже `6 генераций · 4, 17, 19, 20×2, 21`; machine-status pill не дублирует тот же summary.
+- Topview card показывает один понятный slot-summary: крупно `M из 6` занятых слотов, ниже `N сцен · IDs с кратностью`, например `5 сцен · 4, 17, 19, 20×2, 21`; machine-status pill не дублирует этот summary.
 
 
 ### 7. Definition of Done для Topview state
@@ -1767,44 +1767,10 @@ Control Center:
 
 Partial intermediate commits не считаются final state и не должны порождать owner-facing красную ошибку.
 
-## PREVENTIVE RELIABILITY / FAULT-DOMAIN CONTRACT — 24.09.2026
+### 8. Serialized canonical instruction writes
 
-Цель этой архитектуры — не «чинить одну и ту же ошибку каждый час», а не допускать каскадных ложных аварий и самовыключения автоматики. В проекте теперь жёстко разделены три независимых домена состояния:
-
-1. **Canonical sync** — Drive master/instructions ↔ GitHub mirror/status/Pages. Красная глобальная ошибка допустима только при подтверждённом mismatch/corruption/unavailable authoritative data: неверный master hash, отсутствующий/невалидный project-status, exact instruction mismatch/error или недоступный обязательный authority layer.
-2. **Topview telemetry liveness** — очередь/status/ETA/active tasks. Устаревший Topview snapshot или временно недоступный Topview connector = **degraded telemetry**, а не поломка canonical sync. Показывается последний verified snapshot с честным возрастом; глобальный статус проекта остаётся зелёным, если authority согласован.
-3. **Instruction verification freshness** — `instruction-sync-status.json.checked_at`. Просроченный certificate сам по себе = maintenance freshness warning. Он не имеет права превращать сайт в красную `ОШИБКА СИНХРОНИЗАЦИИ`, пока 7/7 docs exact-match и master/status исправны. Recovery обязан обновлять certificate автоматически.
-
-### Topview watcher — failure containment
-
-- `Topview Scene Intake & Slow Watch` остаётся primary writer и работает exact hourly в `HH:00` Europe/Moscow.
-- **Никогда не self-disable автоматически.** `is_enabled=false` допустим только после явного решения владельца.
-- Background Scheduled Task может временно не получить Topview Board connector даже при `Allow all actions` в интерактивном Project Chat. В таком run watcher не выдумывает queue/status/ETA, не двигает `checked_at`/`last_scan_at`, не меняет slow по догадке и остаётся enabled для следующей попытки.
-- Нельзя маскировать connector outage новым timestamp: старый verified snapshot остаётся старым и честно помечается как stale/degraded.
-
-### Recovery — delayed watchdog, а не concurrent writer
-
-- `AI Film Recovery Sync` запускается exact hourly в `HH:05` Europe/Moscow, то есть через 5 минут после watcher. Offset обязателен и предотвращает race двух automation на одной границе часа.
-- Recovery re-enable watcher, если тот оказался disabled без решения владельца.
-- Recovery каждый run fresh-checks все 7 Drive instruction docs против GitHub и обновляет instruction certificate.
-- Если Topview connector доступен и watcher реально пропустил refresh, Recovery может сделать один deterministic emergency reconciliation. Если connector недоступен и Recovery тоже — ничего не фабрикуется; last verified Topview snapshot сохраняется до следующей попытки.
-- Routine degraded telemetry не уведомляет владельца и не требует ручной проверки.
-
-### Owner-facing UI — один смысл на один счётчик
-
-- В верхней карточке Topview основной крупный показатель = **занятые слоты `M из 6`**.
-- Под ним отдельно = **`N сцен · Scene IDs с кратностью`**, например `5 сцен · 4, 17, 19, 20×2, 21`.
-- Это не две версии одного числа: `M` = активные генерации/слоты, `N` = уникальные творческие Scene ID.
-- В секции `⏳ В медленной генерации — Topview` одна строка = один active task/slot; повтор Scene ID означает второй render той же сцены.
-- Не дублировать одновременно формулу `N сцен / M задач` в нескольких соседних owner-facing статусных строках.
-
-### Global health wording
-
-- Green global label: **`ПРОЕКТ СИНХРОНИЗИРОВАН`**.
-- Red global label: **`ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ`** — только для реальной authority corruption/mismatch/unavailability.
-- Topview stale/degraded и stale instruction certificate показываются отдельно как service warnings и обслуживаются автоматикой, но не перекрашивают весь проект в красный.
-
-### Invariant для следующего сменщика
-
-Если пользователь видит повторяющиеся «ошибки синхронизации», сначала определить **fault domain**, а не запускать общий repair вслепую. Не лечить telemetry outage переписью master и не лечить stale instruction certificate как corruption. Любой новый recovery fix должен устранять root cause/cascade, а не только очищать текущий warning.
-
+- Seven canonical instruction docs изменяются **только последовательно**, никогда одним длинным multi-write batch.
+- Для каждого файла: fresh-read/version check → SAME-ID Drive write → read-back → exact GitHub mirror → verify → следующий файл.
+- Если tool-call timeout/unknown outcome, перед следующей записью заново прочитать affected Drive file. Нельзя повторно заливать prepared stale copy вслепую: late completion предыдущего write может перетереть более свежую версию.
+- Read-only проверки можно batch-ить; canonical writes — serial transaction.
+- Это правило распространяется на Handoff и все relevant canonical instruction changes и должно сохраняться следующими чатами/Work.
