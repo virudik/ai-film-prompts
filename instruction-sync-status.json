@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T01:16:02.363Z",
+  "checked_at": "2026-09-24T01:39:18.109Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T01:15:19.070Z",
-      "github_blob": "58a5e7b914055a9ba542c6be371ced5794c1a384",
+      "drive_modified_at": "2026-09-24T01:37:58.869Z",
+      "github_blob": "b0c72908efdf8841b96690ca905761029d0df0ae",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T01:15:25.302Z",
-      "github_blob": "fcab9ffd5f77539b1eca4ed1f6b145b844a9d1c4",
+      "drive_modified_at": "2026-09-24T01:38:05.635Z",
+      "github_blob": "22400e7b2b0a0c63ab9c3a86178c4c056c7a70e9",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T01:15:29.713Z",
-      "github_blob": "ada4df5edca3b268880ed1b0b7ce7cecaacec17d",
+      "drive_modified_at": "2026-09-24T01:38:11.353Z",
+      "github_blob": "1545f61e26619e9a99d8a4db29bd0b70ab02c49e",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T01:15:33.494Z",
-      "github_blob": "b5b7352c99d28e2ae46cdc352668d3218816b93d",
+      "drive_modified_at": "2026-09-24T01:38:17.255Z",
+      "github_blob": "3fc3f8e743e6008f8e59630310c8d5e92c690913",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T01:15:37.286Z",
-      "github_blob": "778d3dc45544adb20d49d5acbde41b9e57dd1c89",
+      "drive_modified_at": "2026-09-24T01:38:23.023Z",
+      "github_blob": "8a365fe9ae126f4f2958b7fc7b074d14b75b7972",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T01:15:41.191Z",
-      "github_blob": "33ab3b014db0c46459a84f746bf456777d58880b",
+      "drive_modified_at": "2026-09-24T01:38:28.888Z",
+      "github_blob": "16a478ac1409155514bca1618439b2f3b046133a",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files were freshly compared with GitHub mirrors after the 24.09.2026 audit-hardening documentation update; Drive remains authoritative and all seven mirrors match.",
+  "note": "Seven canonical Drive instruction files freshly compared after audit-verification closure; exact Drive↔GitHub mirrors verified. github_blob values are bound to actual current mirror blobs.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
