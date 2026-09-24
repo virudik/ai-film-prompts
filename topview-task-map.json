@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-09-24T14:09:02.708Z",
+  "updated_at": "2026-09-24T16:37:52.436Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -14,9 +14,6 @@
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
   ],
   "active_by_scene": {
-    "4": [
-      "cfe166820fe046e09d57870928dd87cd"
-    ],
     "17": [
       "67b8304f8a324b7493af32fd0a0ae5d7"
     ],
@@ -61,6 +58,12 @@
       "scene_id": 3,
       "final_status": "success",
       "finished_at": "2026-09-23T20:30:53Z"
+    },
+    {
+      "task_id": "cfe166820fe046e09d57870928dd87cd",
+      "scene_id": 4,
+      "final_status": "success",
+      "finished_at": "2026-09-24T16:07:36Z"
     }
   ],
   "retention": {
@@ -69,12 +72,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-09-24T14:09:02.708Z",
+  "last_scan_at": "2026-09-24T16:37:52.436Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "page_scan_to_checkpoint_with_6h_overlap",
-    "last_successful_scan_at": "2026-09-24T14:09:02.708Z",
+    "last_successful_scan_at": "2026-09-24T16:37:52.436Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 353,
     "overlap_hours": 6
