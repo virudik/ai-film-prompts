@@ -16,6 +16,7 @@ MASTER = ROOT / "video-prompts.md"
 TOPVIEW = ROOT / "topview-status.json"
 TASKMAP = ROOT / "topview-task-map.json"
 INSTR = ROOT / "instruction-sync-status.json"
+SYNCED_AT = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))["synced_at"]
 
 
 def run_validator(master=MASTER, topview=TOPVIEW, taskmap=TASKMAP):
@@ -24,7 +25,7 @@ def run_validator(master=MASTER, topview=TOPVIEW, taskmap=TASKMAP):
         p = subprocess.run(
             [
                 "python3", str(BUILD), str(master), "--output", str(out),
-                "--synced-at", "2026-09-23T13:30:00Z",
+                "--synced-at", SYNCED_AT,
                 "--instruction-status-file", str(INSTR),
                 "--topview-status-file", str(topview),
                 "--topview-task-map-file", str(taskmap),
