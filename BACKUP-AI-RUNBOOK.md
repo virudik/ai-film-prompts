@@ -197,7 +197,7 @@ GitHub → Drive.
 5. refresh instruction status;
 6. проверить site/status;
 7. обновить Notion operational pointer;
-8. обновить Library recovery copies.
+8. Library recovery refresh — best-effort/non-blocking; не требовать интерактивного подтверждения владельца и не блокировать основной цикл.
 
 
 Изменение кода без документации не считается законченным.
@@ -326,7 +326,7 @@ Approved individual model sheet outranks group/environment similarity. Current m
 ## 16. Readiness gate резервного редактора
 
 
-Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer → Library recovery. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
+Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer. Library recovery проверить как recovery-only cache; stale/pending Library не блокирует readiness при доступном fresh Drive/GitHub и не требует permission prompt владельцу. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
 
 
 ## 17. Topview task-intake awareness
@@ -585,4 +585,13 @@ Permanent set-and-forget rule for technical project state:
 - Смена конкретного чата — штатная операция: новый Project Chat/Work восстанавливает состояние из Project context + canonical handoff/live sources. Нельзя строить архитектуру на предположении, что один чат будет жить бесконечно.
 - Scheduled Tasks/automations остаются независимой operational автомatikой; Project Chat не должен дублировать их ручным мониторингом, если live tools позволяют проверить состояние.
 - Владелец должен заниматься фильмом, а не обслуживать инфраструктуру: deterministic sync/status/site/Topview drift чинится автоматически или редактором; пользователя спрашивать только о genuinely creative/editorial/ambiguous decisions.
+
+## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+
+- ChatGPT Library остаётся **recovery mirror/cache**, а не authority и не обязательный транзакционный слой.
+- Обязательный путь завершения material change: relevant SAME-ID Drive canonical docs/master → exact GitHub mirrors/status/validation/Pages где применимо → fresh `instruction-sync-status.json` → Notion operational pointer, если меняется будущий workflow.
+- Library refresh выполняется **best-effort**. Если запись возможна без интерактивного подтверждения владельца — обновить. Если интерфейс требует отдельное `Разрешить это изменение в Библиотеке?`, consent/permission недоступен automation или мобильное приложение даёт только `Try again` — **не блокировать работу, не повторять prompt и не просить владельца переключаться в браузер**. Зафиксировать `pending/stale` и продолжить.
+- `pending/stale` Library не делает проект non-green, не отменяет verified Drive/GitHub/Pages change и не запрещает сообщить о завершении основной работы. Нельзя только утверждать, что Library свежая, если она фактически не обновлена.
+- `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
+- На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
 
