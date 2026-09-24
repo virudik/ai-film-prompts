@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "purpose": "Separate technical render-result receipt from human review/editorial/montage decisions. This ledger does not override the Drive master, Topview telemetry, or film edit.",
   "authority": {
     "scene_membership": "Google Drive video-prompts.md / project-status.json",
@@ -16,9 +16,10 @@
     "Topview watcher may only advance result_received from false/null to true on verified terminal success; it must not edit human decision fields.",
     "Retired scenes may remain only when useful as historical review evidence; do not resurrect them into active master.",
     "accepted=true and needs_redo=true is invalid unless a future explicit schema rule defines partial acceptance.",
-    "inserted_into_film=true requires reviewed=true and accepted=true."
+    "inserted_into_film=true requires reviewed=true and accepted=true.",
+    "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-09-23T13:37:24.771698Z",
+  "updated_at": "2026-09-24T00:58:59.945Z",
   "scenes": {
     "3": {
       "result_received": false,
@@ -29,7 +30,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "4": {
       "result_received": false,
@@ -40,7 +46,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "5": {
       "result_received": true,
@@ -51,7 +62,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "3f1800f1f2774492ab8bc2eb163cc589",
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "10": {
       "result_received": false,
@@ -62,7 +78,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "11": {
       "result_received": false,
@@ -73,7 +94,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "13": {
       "result_received": true,
@@ -84,7 +110,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "16": {
       "result_received": false,
@@ -95,7 +126,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "17": {
       "result_received": false,
@@ -106,7 +142,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "19": {
       "result_received": true,
@@ -117,7 +158,12 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": "6ef310d646ca4605b5b10c12752b6ab7",
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     },
     "20": {
       "result_received": false,
@@ -128,7 +174,28 @@
       "needs_redo": null,
       "inserted_into_film": null,
       "montage_note": null,
-      "last_human_update_at": null
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
+    },
+    "21": {
+      "result_received": false,
+      "result_received_at": null,
+      "reviewed": null,
+      "reviewed_at": null,
+      "accepted": null,
+      "needs_redo": null,
+      "inserted_into_film": null,
+      "montage_note": null,
+      "last_human_update_at": null,
+      "selected_result_task_id": null,
+      "result_url": null,
+      "film_version": null,
+      "insert_timecode": null,
+      "export_reviewed": null
     }
   }
 }
