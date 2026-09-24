@@ -467,7 +467,7 @@ Permanent set-and-forget rule for technical project state:
 - Scene 21 — current latest scene. Любой старый текст «latest Scene 20», «10 scenes / 20 prompts» или список только W5/W7/W8 является historical checkpoint, а не runtime truth.
 - `project-status.json` обязан публиковаться даже при validator health != ok. Нельзя оставлять на Control Center старый зелёный snapshot только потому, что validator завершился non-zero. Generated non-green status записывается/публикуется, затем workflow может сообщить ошибку.
 - Control Center считается зелёным только когда загруженный master соответствует `project-status.json.canonical_master_sha256`; stale green при несовпадении SHA недопустим.
-- Instruction certificate freshness является частью health. `instruction-sync-status.json` должен подтверждать fresh exact-match всех **7/7** canonical Drive docs; contradictory hashes или stale certificate должны давать non-green status, а не молча приниматься.
+- Instruction certificate **exact-match** является частью blocking health: подтверждённое различие/ошибка чтения 7/7 canonical docs даёт non-green. Возраст `checked_at` — отдельная maintenance freshness; stale certificate сам по себе не делает master/project sync красным и должен автоматически обновляться Recovery.
 - Recovery/integration tests не должны использовать жёстко зашитый исторический `synced_at`. Production snapshot test использует текущий `project-status.json.synced_at`, чтобы freshness-проверки тестировались относительно актуального production checkpoint.
 - Workflow `AI Film integration recovery tests` должен запускаться при изменении самого integration test, validator, master и зависимых status/mapping/instruction artifacts. Исправленный прогон после audit hardening прошёл успешно.
 - `deep-audit-status.json` и `recovery-manifest.json` — recovery metadata, не authority. После material canonical change они должны быть пересчитаны до текущего master fingerprint. Текущий verified checkpoint: 11 scenes / 21 prompts / latest Scene 21.
@@ -598,3 +598,76 @@ Permanent set-and-forget rule for technical project state:
 - `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
 - На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
 
+## ERROR-PREVENTION ARCHITECTURE — 24.09.2026
+
+Цель этой архитектуры — не «чинить красные ошибки после каждого служебного шага», а не создавать ложные ошибки из временных/неавторитетных состояний вообще.
+
+### 1. Пять независимых health-доменов
+
+Нельзя сворачивать все служебные состояния в один красный `ОШИБКА СИНХРОНИЗАЦИИ`.
+
+1. **Authoritative project sync — blocking/red только при реальной поломке.** Google Drive master ↔ GitHub mirror/hash, валидность generated `project-status.json`, exact mismatch/read failure 7 canonical instruction mirrors.
+2. **Topview telemetry — operational/non-blocking.** Возраст snapshot, queue/ETA и доступность Topview connector. Stale/degraded telemetry показывается отдельно и не делает master-sync красным.
+3. **Topview task-map — internal cache/non-blocking.** `topview-task-map.json` нужен для dedupe/discovery, но его временный drift относительно публичного snapshot является maintenance, а не corruption проекта.
+4. **Instruction certificate freshness — maintenance/non-blocking.** Старый `checked_at` сам по себе не является mismatch. Блокирует только подтверждённое различие Drive↔GitHub или read/validation error.
+5. **Library recovery — best-effort/non-blocking.** Никогда не completion gate.
+
+### 2. Один публичный источник Topview + stable checkpoint
+
+- `topview-status.json` — единственный PUBLIC/RUNTIME источник Topview для трёх пользовательских представлений сайта.
+- `topview-task-map.json` — внутренний cache/dedupe слой; UI не строит live state из него.
+- `topview-checkpoint.json` — стабильный commit marker. Его пишут **последним**, только после read-back verification status + task-map.
+- Integration tests не должны запускаться на каждом промежуточном commit `topview-status.json` или `topview-task-map.json`; они запускаются по stable checkpoint. Это исключает красные тесты на половине транзакции.
+
+### 3. Транзакционный порядок Topview publication
+
+При доступном Topview watcher сначала вычисляет полный intended state в памяти и публикует только в таком порядке:
+
+A. если реально меняется canonical slow/master — fresh exact Drive read → same-ID master write → read-back verification;
+B. внутренний `topview-task-map.json` + компактный journal → read-back verification;
+C. публичный `topview-status.json` из того же вычисленного state → read-back verification;
+D. `topview-checkpoint.json` **LAST** с тем же `checked_at`, active task IDs, unique Scene IDs и occupied slots;
+E. только после checkpoint — обычный sync trigger, если менялся canonical master/slow.
+
+Если шаг B не прошёл, C/D не выполняются. Если C не прошёл, D не выполняется. Нельзя продвигать checkpoint поверх partial state.
+
+### 4. Schedule / one-writer / watchdog
+
+- Primary `Topview Scene Intake & Slow Watch`: exact hourly **HH:00 Europe/Moscow**.
+- `AI Film Recovery Sync`: exact hourly **HH:05 Europe/Moscow**. Пятиминутный offset обязателен для prevention: Recovery наблюдает уже завершившийся/сорвавшийся watcher-cycle, а не стартует одновременно и не создаёт race.
+- Watcher — normal single writer Topview-derived runtime state.
+- Recovery не конкурирует со здоровым watcher. Emergency write разрешён только после доказанного missed/failed/degraded watcher и при однозначном authoritative mapping.
+- Любое изменение automation сохраняет `is_enabled:true`, если владелец явно не просил остановить задачу.
+
+### 5. Background connector degradation
+
+Если Topview connector отсутствует именно в background Scheduled Task:
+
+- watcher **не self-disable**;
+- не выдумывает status/queue/ETA;
+- не обновляет `checked_at`, `last_scan_at` или checkpoint;
+- не меняет canonical slow по догадке;
+- сохраняет последний verified snapshot и остаётся enabled для следующего HH:00.
+
+Recovery в HH:05 повторно оценивает ситуацию. Если connector недоступен и там, это честное состояние **Topview telemetry stale/degraded**, а не ошибка Drive/master sync.
+
+### 6. Validator и Control Center
+
+Blocking checks проекта используют только authoritative/self-contained invariants. Временный task-map cache drift хранится в `project-status.json.maintenance.topview_task_map` и не меняет `health=ok` сам по себе.
+
+Control Center:
+- красный global sync — только реальная authoritative corruption/unavailability;
+- stale instruction certificate, stale Topview telemetry, historical superseded workflow failures и Library pending не должны давать global red;
+- Topview stale показывается отдельной предупреждающей строкой с временем последнего verified snapshot;
+- slow summary показывается один раз: например `5 сцен`, ниже `6 генераций · 4, 17, 19, 20×2, 21`; machine-status pill не дублирует тот же summary.
+
+### 7. Definition of Done для Topview state
+
+Успешный telemetry cycle считается опубликованным только когда:
+- public `topview-status.json` self-consistent;
+- task-map read-back выполнен;
+- stable `topview-checkpoint.json` соответствует public snapshot;
+- Pages публикация не оставлена заведомо старее успешного snapshot;
+- при canonical slow change прошёл normal master/status sync.
+
+Partial intermediate commits не считаются final state и не должны порождать owner-facing красную ошибку.
