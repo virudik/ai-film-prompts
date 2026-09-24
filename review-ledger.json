@@ -19,7 +19,7 @@
     "inserted_into_film=true requires reviewed=true and accepted=true.",
     "For result_received=true, selected_result_task_id identifies the concrete render proposed for review when known; result_url may be null until a stable safe link is available."
   ],
-  "updated_at": "2026-09-24T16:38:16.341020Z",
+  "updated_at": "2026-09-24T16:39:40.575Z",
   "scenes": {
     "3": {
       "result_received": true,
@@ -45,9 +45,9 @@
       "accepted": null,
       "needs_redo": null,
       "inserted_into_film": null,
-      "montage_note": null,
+      "montage_note": "Topview result received technically. User previously selected Scene 5 instead of the Scene 3 + Scene 4 combination, so this terminal success does not imply acceptance, insertion, or a rerender decision.",
       "last_human_update_at": null,
-      "selected_result_task_id": null,
+      "selected_result_task_id": "cfe166820fe046e09d57870928dd87cd",
       "result_url": null,
       "film_version": null,
       "insert_timecode": null,
