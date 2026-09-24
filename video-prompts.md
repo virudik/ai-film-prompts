@@ -31,7 +31,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Рабочий мастер-файл. Здесь хранятся только актуальные промты, которые ещё нужны для генерации или доработки. Когда ролик готов и промт больше не нужен, соответствующая сцена удаляется из файла и из оглавления.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,6 +161,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
 
@@ -130,7 +226,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **24.09.2026 · 14 сцен к генерации/доработке · 24 полных текста промта**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -199,7 +359,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -265,7 +489,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## ⏳ Сейчас в медленной генерации
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -337,7 +625,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Статус снимается только после результата/ошибки или отдельного решения пользователя о новом запуске.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -374,7 +726,7 @@
 |---|-------|-----------|-----------------|
 | 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
 | 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
-| 13 | [Совет джедаев — говорящий кот](#scene-13) | @image1 = композиция/локация; @image2 = кот; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
+| 13 | [Совет джедаев — говорящий кот Лучик](#scene-13) | @image1 = композиция/локация; @image2 = Лучик; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак. |
 | 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
 | 19 | [Рыбалка и Маша-Лагуна](#scene-19)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
@@ -418,7 +770,43 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -428,7 +816,15 @@
 
 
 
+
+
+
+
 Это не финальные промты, а рабочий блок. Сюжетные идеи из «Ближайших направлений», «Сюжетных идей-кандидатов», заметок Саши и отдельной сюжетной логики сведены сюда в одну очередь. Статус **ОБДУМАТЬ** означает монтажную/сюжетную задачу, которую пока не следует превращать в отдельную генерационную сцену без проверки существующего материала.
+
+
+
+
 
 
 
@@ -450,12 +846,52 @@
 
 
 
+
+
+
+
 **Рабочая сюжетная очередь:** W9 → W10 → W5 → W11 → W12 → W7 → W13. W8 ведётся параллельно как transport-continuity. W14–W15 — пул «обдумать», а не разрешение на генерацию.
 
 
 
 
+
+
+
+
 ### Ближайшие направления
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -521,6 +957,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. **Закрыть сюжетную логику карты и Warcraft.** Определить, зачем Канцлеру карта, что дают её части и как это связано с Warcraft 3 / турниром, чтобы уже существующий компьютерный финал стал понятным payoff, а не случайным эпизодом.
 2. **Закрыть последствия боя с монстром.** Для сцены 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
 3. **Разобраться с Татуином и транспортом.** Согласовать W6/W8 с уже существующей погоней: какую часть материала заменяет эпизод с гигантским червём, когда окончательно исчезает/разрушается машина и у кого остаётся фрагмент карты.
@@ -544,7 +1012,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Это предложения соавтора, а не утверждённые сцены и не разрешение на генерацию. Их задача — закрыть уже найденные сюжетные пробелы минимальным количеством нового материала.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -598,6 +1098,38 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Идеи от Саши
 
 
@@ -615,7 +1147,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Распознано с четырёх рукописных листов. Это идеи, монтажные замечания и варианты сюжетной логики от Саши, а не утверждённые сцены и не разрешение автоматически менять master-промты или запускать генерации. Места, которые по фотографии нельзя уверенно разобрать, оставлены как `[неразборчиво]` вместо догадки.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -679,6 +1243,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Отдельная сюжетная логика от Саши:**
 - Продумать связную логику происходящего **от кантины до попадания в комнату с Канцлером**.
 - **Три карты → три артефакта древности.** Рядом пометки: «диск / провод к розетке / мышь» `[частично неразборчиво]`.
@@ -717,7 +1297,79 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -791,7 +1443,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Сцена 10 — Кантина: допрос про товар, часть 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -857,7 +1573,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Контекст использования:** Сверка: актуальная связка со сценой 11. В фильме уже есть контакт в кантине; наличие именно разговора Хана о товаре не подтверждено. При замене сохранить функцию эпизода с картой (P10).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -923,7 +1703,71 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Что происходит:** Джедай требует от Хана обещанный товар. Хан изображает полное непонимание и в конце обращается к Чубакке как к свидетелю; Чубакка отвечает вопросительным рыком.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -973,6 +1817,10 @@ ENVIRONMENT & ASSET LOCK:
 
 
 
+
+
+
+
 REFERENCE PRIORITY / IDENTITY LOCK:
 @Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls the cantina composition, Chewbacca, table placement, background atmosphere and lighting only.
 Do not average Han or the Jedi with faces visible in @Image1. Keep all three characters in their established seats/positions and preserve costume, face, hair, body proportions and left-right geography throughout.
@@ -980,9 +1828,17 @@ Do not average Han or the Jedi with faces visible in @Image1. Keep all three cha
 
 
 
+
+
+
+
 START / END STATE:
 Start as an already-established conversation at the same table, with the Jedi focused on Han and Chewbacca present as a silent witness.
 End with Chewbacca's questioning growl and the Jedi visibly thrown off, while Han remains committed to playing dumb. Preserve this exact emotional and spatial state for Scene 11.
+
+
+
+
 
 
 
@@ -995,10 +1851,18 @@ Keep camera motion physically stable with controlled inertia; subtle dolly or lo
 
 
 
+
+
+
+
 PERFORMANCE / LIP SYNC:
 All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation, no accent unless present in the reference performance, and accurate lip sync.
 Jedi is serious and increasingly puzzled; Han performs believable faux innocence rather than broad comedy; Chewbacca reacts only through natural head/eye/body motion and Wookiee vocalization.
 Allow natural blinking, breathing, small posture shifts and reaction pauses. Do not overlap key dialogue lines.
+
+
+
+
 
 
 
@@ -1030,6 +1894,22 @@ AUDIO:
 Clear Russian dialogue as written, one long expressive Wookiee growl in Shot 4, quiet ambient cantina chatter and distant alien music underneath — kept low enough not to compete with the dialogue, no non-diegetic score. 
  
 NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, seat swapping, broken eyelines, 180-degree axis flip, random camera cuts, rushed dialogue, overlapping speech, wrong speaker, bad Russian pronunciation, lip desync, Wookiee speaking actual words, subtitles, captions, text on screen, duplicated characters, extra foreground characters, distorted hands, expressionless faces, exaggerated slapstick acting, warped table or cantina geometry, camera jitter, cartoon, anime, game-render look, plastic skin, low-detail faces, watermark, logo, unwanted non-diegetic music.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1080,7 +1960,71 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1146,7 +2090,71 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Сцена 11 — Кантина: допрос про товар, часть 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1212,7 +2220,71 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Контекст использования:** Сверка: продолжение сцены 10. Плёнка на стекле уже показана в части 1 / 19:05–19:36; здесь нужно уточнить смысл повторного вопроса о плёнке, не представлять сцену без пояснения как её первое получение. Реплики пока сохранены (P11).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1278,7 +2350,71 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Что происходит:** Прямое продолжение части 1 без скачка во времени. Джедай шутит про Чубакку, тот возмущённо рычит, затем разговор переключается на плёнку, и Хан окончательно перестаёт понимать, о чём речь.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1328,9 +2464,17 @@ ENVIRONMENT & ASSET LOCK:
 
 
 
+
+
+
+
 REFERENCE PRIORITY / IDENTITY LOCK:
 @Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls Chewbacca, the cantina composition, table placement, background atmosphere and lighting only.
 Do not average Han or the Jedi with faces visible in @Image1. Preserve the same costumes, seats, left-right geography, table layout, eyelines and lighting established in Scene 10.
+
+
+
+
 
 
 
@@ -1342,8 +2486,16 @@ The Jedi is still thrown off but tries to recover; Han is still playing dumb; Ch
 
 
 
+
+
+
+
 END STATE:
 End on Han's baffled close reaction after «Какую плёнку? Мужик, ты вообще кто?» with the Jedi and Chewbacca remaining in the same established space, leaving a clean reaction beat for the next edit.
+
+
+
+
 
 
 
@@ -1356,10 +2508,18 @@ Physically stable cinematic motion with controlled inertia; subtle dolly or lock
 
 
 
+
+
+
+
 PERFORMANCE / LIP SYNC:
 All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation and accurate lip sync.
 The Jedi delivers the crude joke dryly rather than theatrically, then shifts back to business. Chewbacca's offended reaction is readable but still physically natural. Han's final confusion feels genuine and increasingly exasperated.
 Allow natural blinking, breathing, restrained gestures and short reaction pauses. Do not overlap key lines.
+
+
+
+
 
 
 
@@ -1405,8 +2565,56 @@ NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, c
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1472,12 +2680,52 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a id="scene-13"></a>
 
 
 
 
-## Сцена 13 — Совет джедаев: говорящий кот
+
+
+
+
+## Сцена 13 — Совет джедаев: говорящий кот Лучик
+
+
+
+
 
 
 
@@ -1487,17 +2735,33 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
-**Контекст использования:** Текущий результат отклонён пользователем: в речевом отрезке артикулировал PURPLE, а кот почти не двигал пастью; последующий обмен взглядами BLACK↔PURPLE дополнительно делал сцену похожей на разговор людей. Новый prompt сохраняет композицию и deadpan-комедию, но жёстко закрепляет голос и артикуляцию только за котом. Автоматически не перезапускать: это готовая переработка для следующего пользовательского запуска.
 
 
 
 
-**Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = точная внешность кота · @image4 = BLACK, первичный референс лица/телосложения/костюма · @image5 = PURPLE, первичный референс лица/телосложения/костюма
+**Контекст использования:** Текущий результат отклонён пользователем: в речевом отрезке артикулировал PURPLE, а кот почти не двигал пастью; последующий обмен взглядами BLACK↔PURPLE дополнительно делал сцену похожей на разговор людей. Говорящий кот канонически идентифицирован как **Лучик**. Новый prompt сохраняет композицию и deadpan-комедию, но жёстко закрепляет голос и артикуляцию только за Лучиком. Автоматически не перезапускать: это готовая переработка для следующего пользовательского запуска.
 
 
 
 
-**Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; кот всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
+
+
+
+
+**Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = **Лучик**, точный индивидуальный identity reference · @image4 = BLACK, первичный референс лица/телосложения/костюма · @image5 = PURPLE, первичный референс лица/телосложения/костюма
+
+
+
+
+
+
+
+
+**Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; **Лучик** всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
+
+
+
+
 
 
 
@@ -1509,40 +2773,64 @@ Optimized for Wan 3 | Photoreal live-action deadpan comedy | One continuous rest
 
 
 
+
+
+
+
 REFERENCES:
 @image1 — PRIMARY COMPOSITION / ENVIRONMENT reference: two seated Jedi in large armchairs inside the futuristic high-rise council lounge, panoramic golden city skyline, hookahs, furniture placement, camera axis, warm sunset light and the cat resting on the right character's lap.
-@image2 — PRIMARY CAT IDENTITY reference: exact fluffy white-and-grey long-haired cat. Preserve the exact face shape, grey facial/crown markings, ears, eye color, fur length, coat pattern and natural feline anatomy.
+@image2 — PRIMARY LUCHIK / ЛУЧИК IDENTITY reference: exact recurring fluffy white-and-grey long-haired cat. Preserve his exact face shape, white muzzle/chest/legs, grey crown/facial and back markings, ears, natural eye appearance, long fur, coat pattern and feline anatomy. The blue lightsaber, upright pose and temple background visible in the model sheet are IDENTITY-REFERENCE ARTIFACTS ONLY for this scene: do NOT import the saber, standing pose or temple environment into the Jedi Council shot.
 @image4 — PRIMARY BLACK identity reference: heavyset man, short brown hair, black tunic with dark leather vest panels, dark forearm protection, brown trousers and boots. He remains seated on the LEFT.
 @image5 — PRIMARY PURPLE identity reference: leaner mustached man with brown hair, purple inner tunic under a long grey hooded outer robe, brown belt and tan boots. He remains seated on the RIGHT with the cat across his lap.
 
 
 
 
+
+
+
+
 REFERENCE PRIORITY / IDENTITY LOCK:
-@image4 and @image5 are absolute identity authorities for BLACK and PURPLE. @image2 is absolute identity authority for the cat. @image1 controls composition, environment, furniture, hookahs, lighting and starting geography only. Never average human faces with incidental faces in @image1. Preserve every character's face, body proportions, costume, left-right position and the cat's coat pattern throughout.
+@image4 and @image5 are absolute identity authorities for BLACK and PURPLE. @image2 is absolute identity authority for LUCHIK / ЛУЧИК. @image1 controls composition, environment, furniture, hookahs, lighting and starting geography only. Never average human faces with incidental faces in @image1. Preserve every character's face, body proportions, costume, left-right position and the cat's coat pattern throughout.
 
 
 
 
-CAT BODY LOCK:
+
+
+
+
+LUCHIK BODY LOCK:
 The cat remains a normal realistic domestic cat for the entire shot. It lies naturally HORIZONTALLY ACROSS PURPLE'S LAP. It does NOT sit upright, stand on hind legs, become humanoid, grow human lips, gesture with paws or change body proportions. During the speaking beat only the cat's HEAD and NECK rise slightly. After the line it naturally lowers its head again.
 
 
 
 
+
+
+
+
 ABSOLUTE SPEAKER OWNERSHIP — CRITICAL:
-ONLY THE CAT SPEAKS.
+ONLY LUCHIK / ЛУЧИК SPEAKS.
 BLACK and PURPLE NEVER speak, whisper, mutter, mouth words, imitate speech or lip-sync at any point.
 During the entire cat line BOTH HUMAN MOUTHS remain fully CLOSED, still and visibly non-speaking.
-The Russian voice originates physically from the cat and ONLY THE CAT'S muzzle/jaw makes small synchronized speech movements.
+The Russian voice originates physically from LUCHIK and ONLY LUCHIK'S muzzle/jaw makes small synchronized speech movements.
 No ventriloquism. No off-screen human speaker. No voice transfer. No speech animation on BLACK. No speech animation on PURPLE.
 If the frame contains a human mouth during the line, it must remain clearly closed and motionless.
 
 
 
 
+
+
+
+
 START STATE:
 Match @image1. BLACK is relaxed on the left with the hookah. PURPLE is relaxed on the right with the cat lying across his lap. The meeting has already reached a calm conclusion. No one is surprised by the cat's presence.
+
+
+
+
 
 
 
@@ -1554,8 +2842,16 @@ Stable medium-wide composition matching @image1. BLACK slowly inhales from the h
 
 
 
+
+
+
+
 [0:07–0:13] — DEADPAN BUILD
 BLACK exhales a thin realistic smoke cloud. PURPLE keeps a neutral, serious council expression. The cat becomes attentive: ears adjust slightly and eyes focus forward. It stays lying down. Human mouths remain closed.
+
+
+
+
 
 
 
@@ -1566,13 +2862,21 @@ Without cutting, the camera begins a slow, physically continuous push directly t
 
 
 
+
+
+
+
 [0:17–0:23] — CAT LINE IN CLOSE-UP
 HOLD THE TRUE CLOSE-UP for the ENTIRE spoken line. Do not cut away, widen, pan to a human or reduce the cat to a secondary subject while it speaks.
 The cat looks forward and says in natural Russian:
-CAT: «Полностью с вами согласен, коллеги. Так и поступим».
+LUCHIK: «Полностью с вами согласен, коллеги. Так и поступим».
 VOICE / DELIVERY: serious, calm, controlled and confident; mature and authoritative, with no jokey, cute, excited or theatrical intonation. The humor comes only from the absurd fact that a realistic cat is speaking and everyone accepts it as normal.
 LIP SYNC: clear, readable and accurately synchronized to every Russian syllable, using restrained natural feline muzzle/jaw motion. The mouth movement must be visible in the close-up without turning into human lips.
 BLACK and PURPLE remain absolutely silent with closed mouths for the complete line.
+
+
+
+
 
 
 
@@ -1583,8 +2887,16 @@ After the cat finishes, hold the close-up for a short silent beat, then let the 
 
 
 
+
+
+
+
 [0:27–0:30] — RETURN TO NORMAL
 PURPLE resumes gently stroking the cat. The cat blinks and lowers its head back onto PURPLE's lap. BLACK calmly returns to the hookah. End on the same absurdly serious atmosphere.
+
+
+
+
 
 
 
@@ -1595,14 +2907,26 @@ One continuous unbroken take. The defining camera move is a slow physical PUSH-I
 
 
 
+
+
+
+
 LIGHTING / MATERIAL REALISM:
 Warm sunset backlight through the panoramic windows, realistic skin and fur texture, soft practical interior fill, subtle haze catching the hookah smoke, physically plausible reflections and fabric response. Preserve @image1 color balance. No plastic skin, no glossy fake fur, no fantasy glow on the cat.
 
 
 
 
+
+
+
+
 AUDIO:
-Clear natural Russian CAT dialogue only. CAT VOICE: serious, calm, mature, controlled and confident; no comic delivery, no cute voice, no excitement, no exaggerated bass or villain effect. BLACK and PURPLE produce no spoken sound. Quiet room tone, faint futuristic city ambience, subtle hookah bubbling/inhalation and cloth/fur movement. No subtitles, no narrator, no non-diegetic music. The cat voice must remain spatially centered on the cat's on-screen close-up position.
+Clear natural Russian LUCHIK dialogue only. LUCHIK VOICE: serious, calm, mature, controlled and confident; no comic delivery, no cute voice, no excitement, no exaggerated bass or villain effect. BLACK and PURPLE produce no spoken sound. Quiet room tone, faint futuristic city ambience, subtle hookah bubbling/inhalation and cloth/fur movement. No subtitles, no narrator, no non-diegetic music. The cat voice must remain spatially centered on the cat's on-screen close-up position.
+
+
+
+
 
 
 
@@ -1613,9 +2937,53 @@ wrong speaker, PURPLE speaking, BLACK speaking, human lip-sync, human mouth move
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1689,7 +3057,71 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Сцена 16 — Татуин: гигантский пустынный червь и бой на руинах
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1755,7 +3187,71 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Контекст использования:** Новый активный промт на основе бывшей W6; рабочий пункт W6 получил конкретные референсы и теперь оформлен как активная сцена 16. 30-секундная большая пустынная сцена для Seedance 2.5: двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1821,7 +3317,71 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1856,6 +3416,38 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1925,6 +3517,38 @@ REFERENCES:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 REFERENCE PRIORITY:
 Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three characters. Use @Video1 for the desert ruins environment, spatial layout and action scale. Do not let the environment reference overwrite the character identities.
 
@@ -1959,8 +3583,72 @@ Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three cha
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 SCENE OVERVIEW:
 A photorealistic cinematic desert action scene on ruined Tatooine-like wasteland terrain. The Hooded Jedi and the Bearded Jedi are confronting the Chancellor among weathered ruins when a colossal subterranean sandworm erupts from beneath the ground and turns the entire location into chaos. The worm is gigantic on the scale of a natural disaster — towering, segmented, immense, powerful, with a massive circular maw and rows of terrifying teeth. It is not a small monster; it feels like an unstoppable force of nature. Throughout the scene, the three characters stay grounded in the same battle space and must keep fighting and dodging while the worm attacks the environment around them.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2028,8 +3716,72 @@ Begin with a tense standoff on the ruined desert location. The Hooded Jedi and t
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [0:05–0:09]
 The rumble intensifies violently. Sand ripples outward in fast concentric waves. Broken beams, rocks and debris start to shake loose. All three characters instinctively shift their stance and glance toward the source of the vibration. Then the ground splits open behind and slightly to the side of them. A colossal sandworm bursts out of the earth in an explosive eruption of sand and debris, instantly dominating the background.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2096,8 +3848,72 @@ The worm rises to full terrifying scale, rearing high above the ruins with its g
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [0:14–0:20]
 The Hooded Jedi and the Bearded Jedi attempt to regroup while the Chancellor uses the chaos to press his advantage. The three continue their live-action fight in short fast exchanges — evasive footwork, quick defensive movements, robe motion, physical urgency — but the worm remains the dominant threat in the background. It sweeps across the ruins, slamming its body through structures and sending dust clouds and fragments outward. Everyone is forced to interrupt combat and dodge a second aggressive pass from the worm.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2164,8 +3980,72 @@ The worm circles partially beneath the sand and surges up again from a new angle
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [0:25–0:30]
 Final escalation. The worm rears behind the three combatants while they continue the standoff in the foreground, battered by wind and sand. The scene ends on a powerful wide action composition: the two Jedi and the Chancellor still alive and in motion on the ruined desert ground, the colossal sandworm towering behind them amid collapsing debris and swirling dust, with the conflict still unresolved and continuing beyond the cut.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2232,8 +4112,72 @@ Single continuous unbroken shot for the full 30 seconds. High-end cinematic moti
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 MOVEMENT / STAGING RULES:
 The worm's motion must feel massive and heavy, displacing huge volumes of sand. Its attacks are broad environmental threats: eruptions, surges, rears, sweeping passes, partial dives and re-emergence. The three characters must remain readable, keep their identities locked, and react believably to the danger. They are not standing still while the worm performs in the background: they are actively dodging, repositioning and trying to continue their conflict in the middle of the chaos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2300,8 +4244,72 @@ Photorealistic cinematic sci-fi/fantasy. Harsh warm desert light, dry haze, blow
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 AUDIO (native):
 Powerful subterranean rumble, violent sand eruption, debris crashes, heavy impacts, rushing sand, distant wind, robe movement, footsteps on sand and stone, and huge monstrous roar / throat resonance from the worm. Optional brief exertion grunts from the characters, but no dialogue and no music.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2352,6 +4360,22 @@ small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
@@ -2386,7 +4410,71 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2424,7 +4512,15 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
 ## Сцена 17 — Пещера: передышка после монстра и разговор о карте
+
+
+
+
 
 
 
@@ -2434,7 +4530,15 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+
+
+
+
 
 
 
@@ -2444,7 +4548,15 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
 **Референсы:** @Image1 = Паша / Jedi 1, тёмно-синий туник · @Image2 = Саша / Jedi 2, борода и очки · @Image3 = Серёга / Канцлер, глубокая тёмно-фиолетовая мантия · @Image4 = фото локации пещеры, точный environment reference · @Image5 = фото карты, точный prop reference · @Video1 = пещера, чудовище и прямое визуальное продолжение предыдущего боя · @Video2 = дополнительные ракурсы монстра/пещеры при необходимости continuity
+
+
+
+
 
 
 
@@ -2454,8 +4566,16 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 
 
+
+
+
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+
+
+
 
 
 
@@ -2472,8 +4592,16 @@ REFERENCES:
 
 
 
+
+
+
+
 REFERENCE PRIORITY / IDENTITY LOCK:
 @Image1, @Image2 and @Image3 are the absolute identity and costume authority for Pasha, Sasha and Serega. @Image4 is the exact location/environment authority. @Image5 is the exact map-prop authority. @Video1 and @Video2 provide motion, monster anatomy and immediate post-battle continuity. Environment references must never override or average the three character identities, and the map must not be redesigned from the video references. Keep all three men visually distinct and stable for the entire take.
+
+
+
+
 
 
 
@@ -2484,14 +4612,26 @@ The comedy is entirely deadpan and situational. The central visual joke is that 
 
 
 
+
+
+
+
 START STATE:
 The battle has just ended. The same cavern, monster, wet clothing, lighting and physical aftermath continue directly from the preceding footage. Three large separated sections of the defeated creature are already lying naturally in the cavern. Their cut surfaces are fully cauterized and darkened, with faint steam but no liquid blood, exposed organs or graphic gore. Pasha, Sasha and Serega are exhausted and remain close together in one readable conversational area.
 
 
 
 
+
+
+
+
 SCENE OVERVIEW:
 Direct continuation after the monster battle in a dark subterranean cavern. Pasha, Sasha and Serega settle onto three separate large severed sections of the defeated pale reptilian creature as improvised seats. They stay seated there through the conversation. Serega nostalgically remarks that it feels like old times, asks where the map is, and Pasha questions why he needs it. Serega then leans close and whispers something privately into Pasha's ear. The whisper content is deliberately inaudible and never revealed. Immediately afterward Pasha gives Serega the map without hesitation, argument or explanation. Sasha witnesses the strange exchange with restrained exhausted curiosity.
+
+
+
+
 
 
 
@@ -2503,8 +4643,16 @@ Open in the immediate aftermath of the fight. A slow controlled camera glide rev
 
 
 
+
+
+
+
 [0:05–0:10]
 Hold a quiet recovery beat. All three remain seated on the monster pieces, breathing heavily. Pasha leans forward slightly from fatigue. Sasha adjusts his posture and glasses. Serega looks from one old companion to the other. Nobody comments on what they are sitting on. Their complete seriousness is essential.
+
+
+
+
 
 
 
@@ -2517,10 +4665,18 @@ He delivers both sentences as one natural thought: first a weary recollection, t
 
 
 
+
+
+
+
 [0:16–0:20]
 Pasha answers Serega directly, guarded and genuinely puzzled, in natural Russian:
 PASHA: «Да зачем она вообще тебе?»
 No one else speaks over him. Accurate Russian lip sync. Sasha remains silent and watches.
+
+
+
+
 
 
 
@@ -2531,8 +4687,16 @@ Serega calmly leans sideways toward Pasha without standing up and whispers somet
 
 
 
+
+
+
+
 [0:24–0:28]
 The instant Serega finishes whispering, Pasha reacts with a tiny matter-of-fact acknowledgement and, without hesitation, without asking another question and without looking conflicted, takes out the map and hands it directly to Serega. The handoff must be clear and physically readable: one map, Pasha releases it, Serega receives it securely. No Force pull, no magical levitation, no struggle.
+
+
+
+
 
 
 
@@ -2543,14 +4707,26 @@ Serega looks down at the map in his hand with quiet satisfaction while remaining
 
 
 
+
+
+
+
 CAMERA / CONTINUITY:
 One physically stable continuous take. Begin with a gentle low-to-medium establishing glide that clearly reveals all three separate monster-body seats and the cavern geography, then settle into a readable three-shot. During dialogue use only a subtle controlled push-in and small lateral adjustment so the speaker and listener remain readable without cuts. For the whisper, allow a modest natural move closer to Serega and Pasha while Sasha remains visible or spatially understandable. For the map handoff, frame both hands clearly without turning the scene into an insert shot. No cuts, jump cuts, teleporting camera, random orbiting or micro-shake. Maintain coherent left/right screen positions and the same cavern axis throughout.
 
 
 
 
+
+
+
+
 PERFORMANCE:
 All three are genuinely exhausted after a brutal fight: heavy breathing, sore posture, damp clothes, restrained movements and small natural facial reactions. Play everything straight. Serega is calm, tired, slightly nostalgic and purposeful. Pasha is initially suspicious/puzzled, then after the whisper changes instantly to uncomplicated cooperation and hands over the map as though the whispered explanation completely settles the issue. Sasha remains a silent observer with a restrained "what was that?" reaction, never broad or cartoonish. No theatrical comedy acting.
+
+
+
+
 
 
 
@@ -2565,8 +4741,16 @@ Then Serega whispers privately into Pasha's ear. The whisper must remain unintel
 
 
 
+
+
+
+
 MAP PROP / HANDOFF:
 Use the exact physical map from @Image5. Preserve its recognizable design, proportions, material and markings; do not redesign, simplify or substitute it. It must not appear from nowhere: Pasha retrieves it naturally from his clothing, belt pouch or an already plausible carried place. Keep the same prop shape throughout the handoff. Pasha physically gives it to Serega. Serega ends the scene holding the map. No duplicate map, no disappearing prop, no morphing object.
+
+
+
+
 
 
 
@@ -2577,8 +4761,16 @@ Dark wet cavern, slick rock, shallow water, runoff or distant waterfall, lingeri
 
 
 
+
+
+
+
 AUDIO (native):
 Natural cavern ambience, dripping and splashing water, distant waterfall, faint steam hiss, tired breathing and subtle robe movement. The two Russian lines are clear and foregrounded. During the private whisper, lower the voice to an indistinct close murmur that the audience cannot decipher. No music. No comedic sting or sound effect when Pasha hands over the map.
+
+
+
+
 
 
 
@@ -2589,8 +4781,16 @@ wrong speaker, Sasha speaking either dialogue line, Pasha saying Serega's line, 
 
 
 
+
+
+
+
 END STATE:
 Serega is seated and clearly holds the map. Pasha has willingly surrendered it and remains seated. Sasha remains seated and silently observes. All three are still resting on separate severed monster sections in the same cavern, ready for a clean continuation into the next story beat.
+
+
+
+
 
 
 
@@ -2602,12 +4802,52 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
 
 
 
 
+
+
+
+
 <a id="scene-19"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2673,6 +4913,38 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","fantasy_comedy","mission_return","continuous_take"]} -->
 
 
@@ -2706,7 +4978,71 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2772,7 +5108,71 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Референсы:** @Image1 = стартовый кадр / композиция рыбалки · @Image2 = финальный кадр / композиция бега · @Image3 = Маша в форме «Лава-Лагуны» · @Image4 = Sasha model sheet · @Image5 = Pasha model sheet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2838,8 +5238,56 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2878,12 +5326,44 @@ References:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 IMPORTANT REFERENCE RULE:
 Use @Image4 and @Image5 as the PRIMARY identity references for Sasha and Pasha.
 Use @Image1 only for the starting composition, fishing environment, and staging.
 Use @Image2 only for the final running composition.
 Use @Image3 only for Masha’s appearance, silhouette, face design, and color palette in her Lava-Laguna form.
 Do not average or replace Sasha and Pasha’s identities using the fishing or running stills.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2918,8 +5398,40 @@ Create a 30-second live-action fantasy-comedy scene with clear Russian dialogue,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Story flow:
 Start with Sasha and Pasha sitting by the lake in the spirit of @Image1, quietly fishing in a relaxed way. The environment is bright daytime by a peaceful lake with a large fantasy city or palace-like architecture in the background, matching the atmosphere of @Image1. Fishing rods, bottles, and small fishing details may remain present if visually consistent with @Image1.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2953,7 +5465,39 @@ At around 0:05, strange circular ripples begin forming on the water surface. Bot
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 At around 0:07–0:09, Masha in her Lava-Laguna form rises out of the water. Her emergence should feel magical, surprising, and dramatic, but not monstrous or horror-like. She is wet, elegant, otherworldly, and visually faithful to @Image3. She quickly moves toward Sasha and stops face-to-face with him on the shore.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2988,7 +5532,39 @@ Sasha looks shocked and says in Russian:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Immediately after this line, Masha gives Sasha a clear slap across the face. The slap must be readable and emotionally charged, but not brutal or violent. It is an offended dramatic slap, not an assault scene. Sasha visibly reacts in surprise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3023,7 +5599,39 @@ Right after the slap, Masha speaks emotionally in Russian, with clear lip sync a
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 While Masha is speaking, Pasha remains silent, but his reaction must be clearly visible. He reacts with expressive facial acting: surprise, awkwardness, discomfort, and confusion. Do not give Pasha any spoken lines.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3058,7 +5666,39 @@ After a short stunned beat, Sasha suddenly remembers the mission and says in Rus
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Immediately after this line, Sasha and Pasha abruptly jump up and run away. Use a dynamic but clear transition into the running ending. The final part of the scene must visually arrive at the energy and composition of @Image2: Sasha and Pasha running fast near the lakeside with urgency, as if rushing back to the mission.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3093,8 +5733,40 @@ Use cinematic live-action coverage with stable motion and clean continuity. You 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Performance:
 Sasha should feel distracted, caught off guard, and then suddenly alarmed when he remembers the mission. Masha should feel emotionally upset, offended, and demanding attention, but still believable and expressive rather than hysterical. Pasha should remain silent and react with strong readable facial expressions. All facial animation and lip sync must be natural.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3129,8 +5801,40 @@ All spoken dialogue must be in natural Russian. Use clear Russian pronunciation 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Audio:
 Use natural environment sound: light wind, water movement, fishing ambience. Add clear splash and water movement when Masha emerges. The slap should have a natural audible impact. Keep spoken dialogue clearly understandable. No background music, or only extremely subtle cinematic underscore if needed, but dialogue clarity is the priority.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3165,8 +5869,40 @@ Photoreal live-action fantasy-comedy. Natural skin, cloth, and water simulation.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Negative prompt:
 bad Russian lip sync, incorrect dialogue speaker, subtitles, captions, text on screen, black bars, side bars, decorative borders, identity drift, face swapping, merged faces, duplicated people, extra characters, distorted hands, extra fingers, broken slap motion, stiff facial acting, horror monster look, random teleportation, confusing geography, unstable water, broken reflections, abrupt incoherent cuts, low-detail faces, watermark, logo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3202,7 +5938,55 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3240,7 +6024,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 20 — Маша-Лагуна: рок-припев у озера
+
+
+
+
 
 
 
@@ -3250,7 +6042,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+
+
+
+
 
 
 
@@ -3260,7 +6060,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference
+
+
+
+
 
 
 
@@ -3270,12 +6078,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Что происходит:** номер развивается как единая драматургическая дуга: тихое одиночное вступление → нарастающее внутреннее напряжение → первый припевный выброс → музыкальная передышка с движением вдоль воды → более тяжёлый второй куплет → финальное нарастание → главный эмоциональный пик → спокойный широкий аутро. Каждая часть — один устойчивый 30-секундный кинематографичный фрагмент; монтаж между частями формирует единый клип.
 
 
 
 
+
+
+
+
 **Монтажная сетка / camera-blocking map:**
+
+
+
+
 
 
 
@@ -3297,12 +6117,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Важно о таймингах:** интервалы 0:00–5:30 — рабочая сетка 11 генерационных блоков по 30 секунд. Порядок вокального текста фиксирован. Если фактический аудиотрек имеет иные внутренние длительности пауз/инструментальных мест, финальная синхронизация выполняется по реальной waveform в монтаже без изменения порядка слов.
 
 
 
 
+
+
+
+
 ### GLOBAL DIRECTING BIBLE — Scene 20
+
+
+
+
 
 
 
@@ -3318,6 +6150,18 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 - Emotional arc: quiet melancholy → growing tension → first release → lyrical breathing space → heavier second verse → rising anger/urgency → final catharsis → exhausted quiet outro.
 - Identity, costume, hairstyle, lake geography, lighting logic, weather family, color grade and physical realism stay consistent across all eleven generations.
 - Adjacent parts must end/start in compatible emotional and spatial states so the eleven renders can be assembled into one coherent clip.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3335,7 +6179,15 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 This appearance lock applies unchanged to **all 11 parts** of Scene 20.
+
+
+
+
 
 
 
@@ -3353,7 +6205,15 @@ This appearance lock applies unchanged to **all 11 parts** of Scene 20.
 
 
 
+
+
+
+
 ### Песня Маши 1 — вступление и начало первого куплета
+
+
+
+
 
 
 
@@ -3363,7 +6223,15 @@ This appearance lock applies unchanged to **all 11 parts** of Scene 20.
 
 
 
+
+
+
+
 **Функция фрагмента:** Открыть весь музыкальный номер: сначала озеро и одиночество Маши, затем первое очень личное вокальное вступление.
+
+
+
+
 
 
 
@@ -3373,7 +6241,15 @@ This appearance lock applies unchanged to **all 11 parts** of Scene 20.
 
 
 
+
+
+
+
 **Камера:** Start in a wide establishing shot that clearly shows Masha and the lake, then perform one very slow controlled dolly-in toward a medium-wide / medium framing. No orbit yet.
+
+
+
+
 
 
 
@@ -3384,9 +6260,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -3401,8 +6285,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -3413,6 +6305,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -3432,11 +6328,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -3449,10 +6353,18 @@ Masha begins almost motionless at the water's edge. After the first breath, she 
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -3463,10 +6375,18 @@ Child is slowly taken
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -3484,6 +6404,10 @@ No new words. Let the final syllable resolve naturally into the music while the 
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Start in a wide establishing shot that clearly shows Masha and the lake, then perform one very slow controlled dolly-in toward a medium-wide / medium framing. No orbit yet.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -3493,6 +6417,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -3508,9 +6436,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 quiet melancholy, contained grief, intimate vulnerability.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -3525,12 +6461,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -3543,14 +6487,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -3564,7 +6520,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 2 — первый куплет — движение вдоль воды
+
+
+
+
 
 
 
@@ -3574,7 +6542,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Сделать номер визуально живым: Маша начинает медленно идти вдоль воды и впервые вступает с камерой в более прямой эмоциональный контакт.
+
+
+
+
 
 
 
@@ -3584,7 +6560,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** A smooth side-tracking move parallel to the shoreline, gradually curving only slightly toward a three-quarter front view. End in medium framing.
+
+
+
+
 
 
 
@@ -3595,9 +6579,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -3612,8 +6604,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -3624,6 +6624,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -3643,11 +6647,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -3660,10 +6672,18 @@ She takes two or three slow steps parallel to the shoreline, gives the camera a 
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -3676,10 +6696,18 @@ It's not my family
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -3699,6 +6727,10 @@ No new words. Hold the breath and expression as a transition into the next part.
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 A smooth side-tracking move parallel to the shoreline, gradually curving only slightly toward a three-quarter front view. End in medium framing.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -3708,6 +6740,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -3723,9 +6759,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 growing tension, restrained pain, questioning.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -3740,12 +6784,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -3758,14 +6810,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -3779,7 +6843,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 3 — первый куплет — война в голове
+
+
+
+
 
 
 
@@ -3789,7 +6865,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Перевести песню из личной печали в более масштабное, тревожное высказывание и впервые использовать мягкое круговое движение камеры.
+
+
+
+
 
 
 
@@ -3799,7 +6883,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Begin medium. Use a gentle partial orbit around Masha, never faster than a slow walking pace, moving toward medium-close framing by the end.
+
+
+
+
 
 
 
@@ -3810,9 +6902,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -3827,8 +6927,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -3839,6 +6947,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -3858,11 +6970,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -3875,10 +6995,18 @@ Masha remains in place, but her body language becomes more expressive: a slight 
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -3891,10 +7019,18 @@ And their bombs, and their guns
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -3914,6 +7050,10 @@ No new words. Hold the final expression while the camera finishes the partial ar
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Begin medium. Use a gentle partial orbit around Masha, never faster than a slow walking pace, moving toward medium-close framing by the end.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -3923,6 +7063,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -3938,9 +7082,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 melancholy turning into restrained anger and urgency.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -3955,12 +7107,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -3973,14 +7133,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -3994,7 +7166,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 4 — первый припев — первый эмоциональный выброс
+
+
+
+
 
 
 
@@ -4004,7 +7188,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Дать первый настоящий припевный подъём: Маша сильнее обращается прямо к камере, но остаётся кинематографичной, без концертной истерики.
+
+
+
+
 
 
 
@@ -4014,7 +7206,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Start medium-close. Use a slow frontal dolly-in with a very subtle lateral arc, ending on an expressive close-up without cutting.
+
+
+
+
 
 
 
@@ -4025,9 +7225,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -4042,8 +7250,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -4054,6 +7270,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -4073,11 +7293,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -4090,10 +7318,18 @@ She takes one small step toward the camera, then stays in place; her shoulders a
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -4105,10 +7341,18 @@ In your head, In your head
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -4126,6 +7370,10 @@ No new words. Let the phrase breathe while the close-up holds her emotional reac
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Start medium-close. Use a slow frontal dolly-in with a very subtle lateral arc, ending on an expressive close-up without cutting.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -4135,6 +7383,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -4150,9 +7402,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 first emotional release, grief becoming force.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -4167,12 +7427,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -4185,14 +7453,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -4206,7 +7486,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 5 — первый припев — кульминация и вопрос
+
+
+
+
 
 
 
@@ -4216,7 +7508,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Закрыть первый припев мощным, клиповым, но не хаотичным блоком и сделать первый большой зрительский payoff.
+
+
+
+
 
 
 
@@ -4226,7 +7526,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** A controlled half-orbit that starts medium-close, briefly opens to a medium-wide view showing the lake, then returns toward medium. No cuts.
+
+
+
+
 
 
 
@@ -4237,9 +7545,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -4254,8 +7570,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -4266,6 +7590,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -4285,11 +7613,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -4302,10 +7638,18 @@ Masha sings directly to camera, turns halfway toward the lake during one phrase,
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -4318,10 +7662,18 @@ Zombie Zombie Zombie ie ie ie ou
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -4341,6 +7693,10 @@ No additional words. Let the final “ou” resolve naturally into the instrumen
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 A controlled half-orbit that starts medium-close, briefly opens to a medium-wide view showing the lake, then returns toward medium. No cuts.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -4350,6 +7706,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -4365,9 +7725,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 dramatic, wounded, strong, musically expansive.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -4382,12 +7750,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -4400,14 +7776,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -4421,7 +7809,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 6 — вокализ / инструментальная передышка
+
+
+
+
 
 
 
@@ -4431,7 +7831,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Дать клипу дыхание между куплетами: меньше фронтального пения, больше красивого движения Маши и пейзажа, сохраняя её почти постоянно в кадре.
+
+
+
+
 
 
 
@@ -4441,7 +7849,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Begin with a wide side-tracking shot. Gradually move to a medium profile / three-quarter view while keeping Masha and the waterline in one coherent composition.
+
+
+
+
 
 
 
@@ -4452,9 +7868,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -4469,8 +7893,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -4481,6 +7913,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -4500,11 +7936,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -4517,10 +7961,18 @@ Masha walks slowly along the water, occasionally looking toward the horizon; she
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -4530,10 +7982,18 @@ tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu tu
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -4551,6 +8011,10 @@ She slows to a stop and turns slightly back toward camera, preparing the second 
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Begin with a wide side-tracking shot. Gradually move to a medium profile / three-quarter view while keeping Masha and the waterline in one coherent composition.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -4560,6 +8024,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -4575,9 +8043,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 melancholic afterglow, suspended beauty, quiet movement.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -4592,12 +8068,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -4610,14 +8094,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -4631,7 +8127,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 7 — второй куплет — новая волна
+
+
+
+
 
 
 
@@ -4641,7 +8149,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Вернуть текст после интерлюдии, но уже с более зрелым и тяжёлым эмоциональным состоянием Маши.
+
+
+
+
 
 
 
@@ -4651,7 +8167,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** A diagonal slow dolly-in from medium-wide to medium-close, with a slight side drift to keep the frame alive.
+
+
+
+
 
 
 
@@ -4662,9 +8186,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -4679,8 +8211,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -4691,6 +8231,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -4710,11 +8254,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -4727,10 +8279,18 @@ She stands at an angle to the camera, then takes one or two slow steps toward th
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -4743,10 +8303,18 @@ We must be mistaken
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -4766,6 +8334,10 @@ No new words. Hold a natural breath and transition.
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 A diagonal slow dolly-in from medium-wide to medium-close, with a slight side drift to keep the frame alive.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -4775,6 +8347,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -4790,9 +8366,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 weariness, sorrow, deeper internal pressure.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -4807,12 +8391,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -4825,14 +8417,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -4846,7 +8450,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 8 — второй куплет — историческая тема и нарастание
+
+
+
+
 
 
 
@@ -4856,7 +8472,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Сделать сильный драматический мост к финальному припевному блоку; камера становится ближе, а Маша — собраннее и жёстче.
+
+
+
+
 
 
 
@@ -4866,7 +8490,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Begin medium-wide with a slow push-in. Transition into a gentle near-frontal orbit of only a few degrees, ending medium-close.
+
+
+
+
 
 
 
@@ -4877,9 +8509,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -4894,8 +8534,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -4906,6 +8554,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -4925,11 +8577,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -4942,10 +8602,18 @@ Masha is almost motionless at first, then turns toward the camera and takes one 
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -4957,10 +8625,18 @@ In your head they're still fightin'
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -4978,6 +8654,10 @@ No new words. Let the musical tension build visibly in her face and breathing.
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Begin medium-wide with a slow push-in. Transition into a gentle near-frontal orbit of only a few degrees, ending medium-close.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -4987,6 +8667,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -5002,9 +8686,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 historical weight, restrained anger, gathering force.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -5019,12 +8711,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -5037,14 +8737,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -5058,7 +8770,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 9 — финальный подъём — война продолжается
+
+
+
+
 
 
 
@@ -5068,7 +8792,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Максимально приблизить номер к финальной кульминации: быстрых склеек нет, но движения камеры и Маши ощущаются мощнее.
+
+
+
+
 
 
 
@@ -5078,7 +8810,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** A smooth backward tracking move as Masha advances slowly, then settle into a medium-close framing when she stops. No handheld feel.
+
+
+
+
 
 
 
@@ -5089,9 +8829,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -5106,8 +8854,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -5118,6 +8874,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -5137,11 +8897,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -5154,10 +8922,18 @@ Masha slowly approaches the camera on a diagonal path along the shoreline, then 
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -5171,10 +8947,18 @@ In your head, in your head
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -5196,6 +8980,10 @@ No extra words; take one breath into the final chorus.
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 A smooth backward tracking move as Masha advances slowly, then settle into a medium-close framing when she stops. No handheld feel.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -5205,6 +8993,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -5220,9 +9012,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 urgent, tragic, increasingly forceful.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -5237,12 +9037,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -5255,14 +9063,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -5276,7 +9096,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 10 — финальный припев — вершина
+
+
+
+
 
 
 
@@ -5286,7 +9118,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Дать главный эмоциональный пик всего номера: наиболее сильная актёрская подача, самый выразительный close-up и затем расширение кадра перед аутро.
+
+
+
+
 
 
 
@@ -5296,7 +9136,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Start medium-close, continue into an expressive close-up, then complete a graceful partial orbit and ease slightly wider by the end. One continuous shot.
+
+
+
+
 
 
 
@@ -5307,9 +9155,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -5324,8 +9180,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -5336,6 +9200,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -5355,11 +9223,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -5372,10 +9248,18 @@ Masha barely walks here; the energy is carried by her face, breathing, torso, an
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -5389,10 +9273,18 @@ ie ie ie
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -5414,6 +9306,10 @@ No additional words. Ease slightly wider, preparing the final vocal tail and out
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Start medium-close, continue into an expressive close-up, then complete a graceful partial orbit and ease slightly wider by the end. One continuous shot.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -5423,6 +9319,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -5438,9 +9338,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 catharsis, tragic power, emotional apex.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -5455,12 +9363,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -5473,14 +9389,26 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 
 
 
+
+
+
+
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+
+
+
+
 
 
 
@@ -5494,7 +9422,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
+
+
+
+
 ### Песня Маши 11 — финальный вокализ и визуальный аутро
+
+
+
+
 
 
 
@@ -5504,7 +9444,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Функция фрагмента:** Закончить песню и дать красивое кинематографичное послевкусие: после последних звуков Маша остаётся у воды одна, а камера медленно отступает.
+
+
+
+
 
 
 
@@ -5514,7 +9462,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Камера:** Start medium-close, then perform one slow stable pull-back to a wide final lakeside composition with Masha small but clearly readable in frame.
+
+
+
+
 
 
 
@@ -5525,9 +9481,17 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
+
+
+
+
 
 
 
@@ -5542,8 +9506,16 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 
 
+
+
+
+
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+
+
+
 
 
 
@@ -5554,6 +9526,10 @@ Keep the same Masha, same exact approved character design, same aquatic-blue ski
 Treat all eleven parts as one continuous music-video / musical performance assembled in editing.
 Do not reset the character, wardrobe, location or visual style between parts.
 Do not introduce an audience, band, stage, microphone stand, backup dancers, costume change, or new location.
+
+
+
+
 
 
 
@@ -5573,11 +9549,19 @@ GLOBAL DIRECTING BIBLE — APPLY TO ALL 11 PARTS:
 
 
 
+
+
+
+
 STYLE GOAL:
 Photorealistic live-action cinematic rock music video at a real lakeshore, staged with the emotional clarity and physical presence of a musical performance.
 Melancholic, dramatic, beautiful, raw and intimate; emotionally serious rather than glossy or fashionable.
 Masha is not merely posing for a camera: she is physically performing the song inside the landscape.
 The scene must feel photographed with a real actress in a real outdoor location, not a stage show, not concert coverage, not animation, and not a synthetic game cutscene.
+
+
+
+
 
 
 
@@ -5590,10 +9574,18 @@ The opening seconds contain the final vocalization; then Masha stops singing, ex
 
 
 
+
+
+
+
 VOCALS / EXACT USER-PROVIDED LYRICS / LIP SYNC:
 Masha sings in English. This is SUNG performance, not spoken dialogue.
 Use natural breathing, phrasing, consonant articulation, sustained-vowel mouth shapes and tight musical lip sync.
 She must sing ONLY the exact user-provided lyric material below, in this exact order:
+
+
+
+
 
 
 
@@ -5604,10 +9596,18 @@ yea
 
 
 
+
+
+
+
 Do not add, remove, reorder, paraphrase, translate, censor, correct, replace, or invent any lyric words.
 Do not substitute generic filler words or a different chorus.
 Where the timeline says “no new words”, use only instrumental music, breath, or the natural sustained ending of the immediately preceding provided syllable.
 Do not display lyrics as subtitles, captions, karaoke text, or typography on screen.
+
+
+
+
 
 
 
@@ -5627,6 +9627,10 @@ End in a stable wide composition of the exact lakeshore with Masha alone against
 
 
 
+
+
+
+
 CAMERA / LENS / CONTINUITY:
 Start medium-close, then perform one slow stable pull-back to a wide final lakeside composition with Masha small but clearly readable in frame.
 Use physically stable cinematic dolly / precision-gimbal behavior with controlled inertia.
@@ -5636,6 +9640,10 @@ Objects are revealed by camera movement; they do not teleport, morph or appear f
 No hard cuts, no jump cuts and no random montage inside this 30-second part.
 Keep movement direction compatible with adjacent parts; do not arbitrarily flip screen direction.
 No random jitter or micro-shake.
+
+
+
+
 
 
 
@@ -5651,9 +9659,17 @@ Identity, face, hair, costume and proportions remain stable every frame.
 
 
 
+
+
+
+
 PART-SPECIFIC EMOTIONAL TARGET:
 release, exhaustion, melancholy after catharsis.
 The emotional state must visibly evolve inside the part rather than staying as one frozen expression.
+
+
+
+
 
 
 
@@ -5668,12 +9684,20 @@ No fantasy aura, magical glow, neon concert wash, impossible reflections, changi
 
 
 
+
+
+
+
 AUDIO (native):
 Lead vocal: clear expressive female singing voice, accurate English articulation, exact provided lyrics, tight SUNG lip sync.
 Backing: melancholic alternative-rock instrumentation with electric guitar, bass and drums, supporting the vocal without overpowering it.
 Keep tempo, vocal timbre, arrangement character and musical energy compatible from one 30-second part to the next so the eleven renders can be assembled as one song sequence.
 Natural lake ambience remains subtle underneath: soft water, light wind and distant outdoor atmosphere.
 No spoken dialogue, no crowd, no applause, no narrator, no subtitles.
+
+
+
+
 
 
 
@@ -5686,8 +9710,16 @@ The final few frames should preserve the same lake, wardrobe, weather and screen
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+
+
+
+
 
 
 
@@ -5698,8 +9730,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ```
 ---
+
+
+
+
 
 
 
@@ -5709,7 +9749,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 21 — Мостик → космическая битва: бесшовный пролёт через окно
+
+
+
+
 
 
 
@@ -5719,7 +9767,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+
+
+
+
 
 
 
@@ -5729,7 +9785,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Референсы:** @Image1 = точный первый кадр / композиция мостика · @Image2 = точный последний кадр / композиция космической битвы · @Image3 = Серёга, каноническая model sheet из «Персонажей» · @Image4 = Юля, каноническая model sheet из «Персонажей».
+
+
+
+
 
 
 
@@ -5739,10 +9803,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ```text
 Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2) + character reference images @Image3 (Serega) and @Image4 (Yulia)
 Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous unbroken camera move
+
+
+
+
 
 
 
@@ -5756,9 +9828,17 @@ REFERENCES:
 
 
 
+
+
+
+
 REFERENCE PRIORITY / IDENTITY LOCK:
 @Image3 and @Image4 outrank @Image1 for Serega and Yulia's identities. @Image1 controls bridge architecture, crew layout, opening staging and lighting only. @Image2 controls the target exterior composition and motion direction only. Never average Serega or Yulia with incidental faces in @Image1. Keep both identities, hairstyles, proportions and clothing stable until the camera leaves the bridge.
 The two source videos surrounding this insert are CONTEXT ONLY and are NOT generation references; do not invent extra reference-video dependencies.
+
+
+
+
 
 
 
@@ -5769,8 +9849,16 @@ Begin exactly from @Image1 as though the preceding shot has continued without in
 
 
 
+
+
+
+
 SCENE GOAL:
 Create a physically convincing invisible bridge between the interior bridge shot and the exterior space-battle shot. The audience should feel that one real camera travels from inside the command bridge, approaches the central panoramic window, crosses its plane without any edit or optical transition effect, and continues into open space until the view becomes @Image2.
+
+
+
+
 
 
 
@@ -5782,14 +9870,26 @@ Hold the exact @Image1 geography while beginning a slow controlled forward dolly
 
 
 
+
+
+
+
 [0:06–0:12]
 The camera continues forward through the bridge on a clear physical path toward the large central window. Pass Serega and Yulia naturally while keeping them readable for several seconds; their celebration settles into focused satisfaction as they look out at the battle. Consoles and crew gain parallax and slide past the frame edges. The exterior battle grows larger through the window. No cuts and no sudden acceleration.
 
 
 
 
+
+
+
+
 [0:12–0:17]
 Approach the window until its frame moves toward the edges of the image. The camera trajectory remains perpendicular enough to the glass to make the crossing clean and spatially understandable. The battlefield beyond remains perfectly continuous in scale and direction. The window frame itself may pass around the edges, but the glass surface must NOT announce itself with an effect.
+
+
+
+
 
 
 
@@ -5802,14 +9902,26 @@ Do not make the glass disappear dramatically. Treat the transparent pane as opti
 
 
 
+
+
+
+
 [0:19–0:25]
 Now fully outside, continue the SAME forward camera vector into the battle. The bridge and window fall naturally behind camera. Fighters and larger ships move at different depths with believable parallax. Laser fire crosses the scene at safe readable distances; several ships bank through the battle and leave persistent smoke/engine trails consistent with @Image2. Preserve coherent scale and inertia — no teleporting ships, duplicated craft or instant formation changes.
 
 
 
 
+
+
+
+
 [0:25–0:30]
 Use only subtle steering/reframing while continuing forward so the spatial arrangement progressively converges on @Image2. By the final frame match @Image2 as closely as possible in camera angle, forward direction, starfield/planet placement, visible craft, trail flow, depth and overall composition. The last frame must feel like the natural next instant of the same continuous shot, not a morph into a still image.
+
+
+
+
 
 
 
@@ -5825,6 +9937,10 @@ The window crossing is geometry, not an optical effect.
 
 
 
+
+
+
+
 CHARACTER PERFORMANCE:
 SEREGA: genuine relief and delighted satisfaction at the battle turning in their favor; smiling, energized, one restrained celebratory gesture, then attention returns to the battle. No dialogue, no caricature, no dancing.
 YULIA: shares the victory beat naturally with Serega — warm excited smile, brief eye contact/reaction, then looks back through the window. No dialogue, no exaggerated cheering.
@@ -5834,8 +9950,16 @@ Bridge crew stay professional and busy; they do not all stop to celebrate or sta
 
 
 
+
+
+
+
 SPACE BATTLE / PHYSICS:
 The battle is already underway at frame one and continues without reset across the window crossing. Use multiple readable depth layers: distant capital ships, mid-distance combat, nearer fighters and projectile paths. Motion has mass and inertia. Engine trails and smoke persist consistently rather than spawning randomly. Impacts are localized and do not fill the entire frame with fire. Keep enough visual clarity that the forward camera path remains readable.
+
+
+
+
 
 
 
@@ -5848,6 +9972,10 @@ Outside: deep black space, physically coherent ship lighting, engine glow and di
 
 
 
+
+
+
+
 AUDIO (native):
 Inside bridge: low command-deck ambience, console beeps, restrained crew activity, distant muffled battle impacts through the hull, engine/ship vibration. Serega and Yulia may make brief natural nonverbal celebratory breaths/laughs, but NO spoken dialogue.
 During the window crossing, transition the sound perspective smoothly from muffled interior battle/hull ambience toward cinematic exterior battle sound design without a whoosh used to hide an edit.
@@ -5856,8 +9984,16 @@ Outside: engines, distant weapons fire, impacts and low cinematic battle rumble.
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 hard cut, hidden cut, dissolve, crossfade, morph transition, whip-pan transition, speed-ramp transition, lens flare, anamorphic flare, glare on glass, window reflection, reflected bridge, reflected characters, reflection sweep, refraction, refractive warp, chromatic aberration, glass distortion, glass blur, frosted glass, white flash, exposure flash, bloom burst, haze burst, focus wash, ripple, shimmer, glass shattering, broken window, visible transition effect, camera collision with glass, camera stopping at window, sudden focal-length change, artificial zoom, camera teleportation, spatial reset after crossing, battle changing when crossing glass, identity drift, face averaging, face swap, changed Serega face, changed Yulia face, costume drift, duplicated Serega, duplicated Yulia, all crew cheering, exaggerated celebration, dancing, wrong bridge geometry, consoles morphing, crew teleporting, duplicated ships, disappearing ships, fighters morphing, random trail spawning, warped starfield, changing planet position, incoherent scale, camera jitter, micro-shake, cartoon, anime, game-render look, plastic skin, subtitles, captions, text, logo, watermark, black bars, side bars, decorative borders, empty margins.
+
+
+
+
 
 
 
@@ -5869,7 +10005,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -5879,7 +10023,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 22 — Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину
+
+
+
+
 
 
 
@@ -5889,7 +10041,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
+
+
+
+
 
 
 
@@ -5899,12 +10059,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Референсы:** @Image1 = точный первый кадр / разрушенная станция снаружи · @Image2 = точный последний кадр / внутренний коридор станции со штурмовиками.
 
 
 
 
+
+
+
+
 **Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
+
+
+
+
 
 
 
@@ -5917,9 +10089,17 @@ Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous 
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — PRIMARY START-FRAME / EXTERIOR reference. Match the exact opening composition, damaged battle-station silhouette, visible hull destruction, burning sections, debris field, space background, camera orientation, lighting balance, scale and battle atmosphere.
 @Image2 — PRIMARY END-FRAME / INTERIOR reference. Match the exact final corridor geometry, perspective, camera height, vanishing point, wall and ceiling architecture, overhead lighting, red warning lights, floor reflections and the running stormtroopers.
+
+
+
+
 
 
 
@@ -5930,7 +10110,15 @@ IMPORTANT REFERENCE RULE:
 
 
 
+
+
+
+
 The two surrounding source videos are EDITING CONTEXT ONLY and are NOT generation references. Do not infer extra visual identities, exact frames, characters or geometry from them beyond the stated narrative continuity.
+
+
+
+
 
 
 
@@ -5941,8 +10129,16 @@ Photorealistic live-action space-opera cinematography with realistic scale, phys
 
 
 
+
+
+
+
 SCENE / CONTINUITY GOAL:
 This is a bridge shot between an exterior space-battle sequence and an interior chase/run sequence. It must make the audience feel that the second clip is physically inside the damaged station seen in the first clip. Every stage of the move must reveal the next space naturally: the breach is visible before entry, internal structure is revealed only after crossing the hull, and the final corridor emerges from the same forward trajectory.
+
+
+
+
 
 
 
@@ -5954,8 +10150,16 @@ Begin exactly on @Image1. The damaged station remains clearly readable while the
 
 
 
+
+
+
+
 [0:05–0:11] — COMMIT TO THE BREACH
 The camera accelerates toward one specific large existing breach in the station hull. The chosen opening must remain visually stable from this point onward — do not create a new hole later. Nearby ships streak past at different depths; laser fire crosses the wider battlefield. The station grows convincingly in scale and surface detail. Keep the route into the breach unobstructed and visually understandable.
+
+
+
+
 
 
 
@@ -5966,8 +10170,16 @@ Now very close to the hull: scorched plating, torn structural ribs, exposed deck
 
 
 
+
+
+
+
 [0:17–0:22] — PHYSICAL BREACH ENTRY
 Cross through the actual torn opening in one uninterrupted move. Pass between broken armor plates and structural beams with believable clearance. The transition must be achieved by real geometry moving past the lens — not a white flash, blur wipe, smoke wipe, dissolve, portal, lens flare or hidden cut. Exterior battle light falls off naturally as the camera enters the station.
+
+
+
+
 
 
 
@@ -5978,8 +10190,16 @@ Continue forward through a short damaged service/deck section logically behind t
 
 
 
+
+
+
+
 [0:26–0:30] — EXACT CORRIDOR ARRIVAL / LAST FRAME
 The damaged transition opens naturally into the intact corridor from @Image2. Several stormtroopers are already running toward camera exactly within the established corridor geography; they do not pop into existence. Camera motion smooths and settles into the exact framing, angle, height, perspective, lighting, wall geometry and troop placement of @Image2. The final generated frame must match @Image2 as closely as possible.
+
+
+
+
 
 
 
@@ -5990,8 +10210,16 @@ One continuous take, no cuts. Physically stable cinematic motion with controlled
 
 
 
+
+
+
+
 SPACE BATTLE:
 The battle remains active during the exterior half: multiple ships at different distances, laser exchanges, engine trails, occasional explosions and drifting debris. Keep action layered around the camera route rather than directly blocking it. Ships must maintain stable geometry and scale. Do not overcrowd the frame so much that the approach to the breach becomes unreadable.
+
+
+
+
 
 
 
@@ -6002,8 +10230,16 @@ The station remains the same object throughout: same hull material family, same 
 
 
 
+
+
+
+
 STORMTROOPERS / FINAL ACTION:
 Stormtroopers appear only after the camera reaches the interior corridor. Match @Image2's white armor silhouette, approximate number, running direction and spatial arrangement. Their movement is urgent but grounded: natural stride, stable anatomy, no sliding feet, no duplicated limbs or melting helmets. They remain secondary to the transition and must not block the camera path.
+
+
+
+
 
 
 
@@ -6016,14 +10252,26 @@ Interior corridor: transition cleanly into the white overhead panels and red acc
 
 
 
+
+
+
+
 AUDIO (native):
 Exterior: layered ship engines, laser fire, distant explosions and low-frequency battle rumble. As the camera enters the breach, exterior battle becomes more muffled and structural vibrations, metal groans, sparks, electrical crackles and emergency alarms take over. Final corridor: alarm ambience, running footsteps, armor movement and distant impacts transmitted through the station. No dialogue. No music. No abrupt audio reset at the transition.
 
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 hard cut, hidden edit, jump cut, dissolve, morph transition, portal, teleporting camera, white flash transition, lens-flare wipe, smoke wipe, instant exterior-to-interior replacement, camera clipping through intact hull, wall or ceiling, impossible station geometry, corridor appearing from nowhere, giant empty cavity, changing station design, changing breach location, warped perspective, unstable scale, ships morphing or duplicating, excessive battle clutter blocking the route, static empty battle, low-detail ships, random camera spin, camera jitter, micro-shake, game-render look, cartoon, anime, oversaturated neon, stormtroopers in open space, stormtroopers appearing before the corridor, duplicated stormtroopers, melted armor, warped limbs, sliding feet, distorted corridor, moving walls, floating interior props, text, subtitles, logos, watermark.
+
+
+
+
 
 
 
@@ -6035,7 +10283,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 <a id="scene-23"></a>
+
+
+
+
 
 
 
@@ -6045,7 +10301,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 <!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["continuous_take","seamless_transition","cats","jedi","character_identity"]} -->
+
+
+
+
 
 
 
@@ -6055,12 +10319,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
-**Референсы:** @Image1 = точный первый кадр / идущие люди и их пространство · @Image2 = точный второй кадр / точные личности серого и рыжего котов и целевая композиция
 
 
 
 
-**Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются GREY CAT и GINGER CAT из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
+**Референсы:** @Image1 = точный первый кадр / идущие люди и их пространство · @Image2 = точный второй кадр / парная целевая композиция котов · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference
+
+
+
+
+
+
+
+
+**Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются LUCHIK и RYZHIK из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
+
+
+
+
 
 
 
@@ -6073,29 +10349,51 @@ Optimized for Seedance 2.5 | Photoreal live-action space-fantasy | One continuou
 
 
 
+
+
+
+
 REFERENCES:
 @Image1 — PRIMARY START FRAME / HUMAN GROUP / SPACE reference. Preserve exact opening camera height, walking direction, ground plane, perspective, lighting and positions of the people.
-@Image2 — PRIMARY CAT IDENTITY / TARGET COMPOSITION reference. It contains the exact two recurring Jedi cats. GREY CAT is the exact grey cat from @Image2; GINGER CAT is the exact ginger cat from @Image2. Preserve each cat's face, coat pattern, eye color, fur length, body proportions and relative left-right identity throughout.
+@Image2 — PRIMARY TARGET COMPOSITION / PAIR STAGING reference for the two cats once revealed. Use it for their relative placement and target composition, but do not let it override the individual identities.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle, chest and legs, grey crown/facial and back markings, dense natural fur and serious calm expression.
+@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, visible darker tabby striping, lighter muzzle/chest and serious confident expression.
+
+
+
+
 
 
 
 
 REFERENCE PRIORITY:
-@Image1 owns the opening people and physical starting space. @Image2 owns both cats' exact identities and the target visual read once they are revealed. Never morph a person into a cat and never average the two cats together.
+@Image1 owns the opening people and physical starting space. @Image2 owns pair staging/target composition. @Image3 owns LUCHIK identity. @Image4 owns RYZHIK identity. Individual identity references outrank the pair/composition image for face, coat and body proportions. Never morph a person into a cat and never average the two cats together.
+
+
+
+
 
 
 
 
 CHARACTER / PROP LOCK:
-GREY CAT: exact grey cat identity from @Image2; uses one stable BLUE lightsaber.
-GINGER CAT: exact ginger cat identity from @Image2; uses one stable GREEN lightsaber.
+LUCHIK / ЛУЧИК: exact recurring fluffy white-and-grey long-haired cat from @Image3; white muzzle/chest/legs, grey crown/facial and back markings; calm, stern master-like expression; uses one stable BLUE lightsaber.
+RYZHIK / РЫЖИК: exact recurring fluffy ginger long-haired tabby cat from @Image4; warm orange coat, darker tabby striping, lighter muzzle/chest; serious, confident, slightly more aggressive expression; uses one stable GREEN lightsaber.
 They are photoreal cats with recognizably feline heads, coats and body proportions, but capable of confident stylized Jedi movement. When manipulating sabers they may balance upright briefly and grip compact hilts with their front paws; do not give them human arms, human hands or humanoid faces. Saber colors, hilts and cat identities remain fixed.
+
+
+
+
 
 
 
 
 START STATE:
 Begin exactly on @Image1. The people are already walking in a coherent direction. Camera shares their forward movement and does not yet reveal the cats clearly.
+
+
+
+
 
 
 
@@ -6107,20 +10405,36 @@ Hold @Image1 composition long enough to establish the walking group. Smooth forw
 
 
 
+
+
+
+
 [0:07–0:14] — APPROACH THE GAP
 Camera gradually accelerates and closes distance. Two people naturally separate just enough for a real corridor of visibility. Camera threads physically BETWEEN them without clipping bodies. Foreground shoulders/arms pass the lens edges with real parallax.
 
 
 
 
+
+
+
+
 [0:14–0:19] — REVEAL THE CATS
-Through the gap, GREY CAT and GINGER CAT are revealed several meters behind the people, already walking in the same direction. They were present in the same space all along; they do not spawn, teleport or replace the humans. Their exact identities converge toward @Image2.
+Through the gap, LUCHIK and RYZHIK are revealed several meters behind the people, already walking in the same direction. They were present in the same space all along; they do not spawn, teleport or replace the humans. Their exact identities converge toward @Image2.
+
+
+
+
 
 
 
 
 [0:19–0:25] — HERO WALK
-The humans slide naturally behind camera or to the far edges. Camera settles into a low heroic backward tracking shot in front of the cats. Both cats advance with calm, intimidating confidence. Their sabers ignite cleanly: GREY blue, GINGER green.
+The humans slide naturally behind camera or to the far edges. Camera settles into a low heroic backward tracking shot in front of the cats. Both cats advance with calm, intimidating confidence. Their sabers ignite cleanly: LUCHIK blue, RYZHIK green.
+
+
+
+
 
 
 
@@ -6131,8 +10445,16 @@ Without stopping their forward momentum, each cat performs one controlled, reada
 
 
 
+
+
+
+
 CAMERA / SPACE:
 One continuous physical shot. Maintain one ground plane, one forward axis and believable parallax. No teleportation, hidden cut, whip-mask, morph or impossible pass through bodies. Stable cinematic inertia, no random micro-shake. Lens perspective stays consistent; scale changes come from real camera translation.
+
+
+
+
 
 
 
@@ -6143,14 +10465,26 @@ Match @Image1 lighting at the start and preserve the same world lighting through
 
 
 
+
+
+
+
 AUDIO:
 Footsteps from the human group, ambient environment, subtle cloth movement; as cats become dominant, soft feline paw impacts, saber ignition, controlled saber hum and air swishes. No dialogue, no music unless present in surrounding edit.
 
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
-person morphing into cat, cat appearing from nowhere, teleport, hidden cut, hard cut, dissolve, wipe, whip transition, camera clipping through people, changing ground plane, wrong cat identity, grey/ginger identity swap, merged cats, duplicated cats, extra cats, human arms on cats, human hands, humanoid face, deformed paws, extra limbs, saber through body, changing saber color, duplicated saber, floating hilt, blade wobble, random acrobatics, cartoon, anime, game-render look, plastic fur, camera jitter, text, subtitles, logo, watermark, black bars, side bars.
+person morphing into cat, cat appearing from nowhere, teleport, hidden cut, hard cut, dissolve, wipe, whip transition, camera clipping through people, changing ground plane, wrong cat identity, Luchik/Ryzhik identity swap, merged cats, duplicated cats, extra cats, human arms on cats, human hands, humanoid face, deformed paws, extra limbs, saber through body, changing saber color, duplicated saber, floating hilt, blade wobble, random acrobatics, cartoon, anime, game-render look, plastic fur, camera jitter, text, subtitles, logo, watermark, black bars, side bars.
+
+
+
+
 
 
 
@@ -6162,7 +10496,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -6172,7 +10514,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 24 — Коты в кабине: запуск корабля и взлёт
+
+
+
+
 
 
 
@@ -6182,17 +10532,33 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Контекст использования:** Продолжение кошачьей ветки. Те же два кота становятся экипажем небольшого космического корабля: серый — пилот за штурвалом, рыжий — штурман/оператор систем. Они последовательно запускают системы и физически взлетают, без мгновенного прыжка из стоянки в космос.
 
 
 
 
-**Референсы:** @Image1 = тот же точный парный референс GREY CAT + GINGER CAT из фото2 предыдущей сцены. Новые отдельные личности не придумывать.
 
 
 
 
-**Что происходит:** В тесной реалистичной кабине GREY CAT сидит слева/по центру у основного штурвала и управляет кораблём, GINGER CAT справа работает с навигацией и запуском. Панели оживают, двигатели набирают тягу, корабль отрывается от площадки/ангара и через лобовое стекло видно реальный набор высоты и выход в открытое пространство.
+**Референсы:** @Image1 = парный continuity/composition reference тех же двух котов из Scene 23 · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference. Новые отдельные личности не придумывать.
+
+
+
+
+
+
+
+
+**Что происходит:** В тесной реалистичной кабине LUCHIK сидит слева/по центру у основного штурвала и управляет кораблём, RYZHIK справа работает с навигацией и запуском. Панели оживают, двигатели набирают тягу, корабль отрывается от площадки/ангара и через лобовое стекло видно реальный набор высоты и выход в открытое пространство.
+
+
+
+
 
 
 
@@ -6204,18 +10570,30 @@ Optimized for Seedance 2.5 | Photoreal live-action space-opera cockpit | Continu
 
 
 
+
+
+
+
 REFERENCE / IDENTITY:
-@Image1 — PRIMARY identity reference for BOTH recurring cats from Scene 23.
-GREY CAT = exact grey cat from @Image1, fixed pilot identity.
-GINGER CAT = exact ginger cat from @Image1, fixed navigator identity.
-Preserve coat markings, face, eye color, fur, size relationship and left-right identity. Do not average or swap them.
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for the two recurring cats from Scene 23.
+@Image2 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial and back markings, dense natural fur and calm stern expression; fixed PILOT identity and recurring BLUE lightsaber identity.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping, lighter muzzle/chest and serious confident expression; fixed NAVIGATOR / SYSTEMS identity and recurring GREEN lightsaber identity.
+Preserve coat markings, faces, fur, size relationship and left-right identity. Individual references @Image2/@Image3 outrank @Image1 for identity. Do not average or swap them.
+
+
+
+
 
 
 
 
 CHARACTER APPEARANCE / ROLE LOCK:
-GREY CAT occupies the PILOT station at the main flight controls. GINGER CAT occupies the NAVIGATOR / SYSTEMS station to the right.
+LUCHIK occupies the PILOT station at the main flight controls. RYZHIK occupies the NAVIGATOR / SYSTEMS station to the right.
 They remain visually natural photoreal cats, using compact ergonomically adapted controls with paws. No human hands, no human arms, no humanoid faces, no costume drift. Their blue/green Jedi sabers from Scene 23 are safely clipped/stowed and remain OFF inside the cockpit.
+
+
+
+
 
 
 
@@ -6226,39 +10604,67 @@ Compact two-seat starfighter/light-transport cockpit with tactile mechanical con
 
 
 
+
+
+
+
 START STATE:
-Ship is stationary on a launch pad or inside a hangar opening. Engines are off or at idle. Both cats are already strapped/positioned at their stations. GREY CAT watches forward; GINGER CAT checks systems.
+Ship is stationary on a launch pad or inside a hangar opening. Engines are off or at idle. Both cats are already strapped/positioned at their stations. LUCHIK watches forward; RYZHIK checks systems.
+
+
+
+
 
 
 
 
 TIMELINE:
 [0:00–0:06] — PRE-FLIGHT
-Medium-wide cockpit view clearly establishes GREY at the pilot controls and GINGER at navigation. GINGER taps two or three deliberate controls; indicators wake in sequence. GREY places both front paws on the flight yoke/dual controls.
+Medium-wide cockpit view clearly establishes LUCHIK at the pilot controls and RYZHIK at navigation. RYZHIK taps two or three deliberate controls; indicators wake in sequence. LUCHIK places both front paws on the flight yoke/dual controls.
+
+
+
+
 
 
 
 
 [0:06–0:12] — SYSTEMS ONLINE
-Power rises through the cockpit: displays illuminate, engine vibration builds, navigation route appears. GINGER confirms readiness with a focused look toward GREY, no speech. GREY responds with a brief determined glance and returns eyes forward.
+Power rises through the cockpit: displays illuminate, engine vibration builds, navigation route appears. RYZHIK confirms readiness with a focused look toward LUCHIK, no speech. LUCHIK responds with a brief determined glance and returns eyes forward.
+
+
+
+
 
 
 
 
 [0:12–0:18] — ENGINE START / LIFT
-GREY advances the throttle. A deep engine spool builds. Through the canopy, the hangar/pad begins to move downward relative to the ship. Camera and loose cockpit details react to believable acceleration — mild vibration only, no chaotic shake.
+LUCHIK advances the throttle. A deep engine spool builds. Through the canopy, the hangar/pad begins to move downward relative to the ship. Camera and loose cockpit details react to believable acceleration — mild vibration only, no chaotic shake.
+
+
+
+
 
 
 
 
 [0:18–0:24] — DEPARTURE
-Ship moves forward and upward through a real exit path. Exterior structures slide past the canopy with correct parallax. GINGER actively manages navigation and power distribution while GREY keeps the flight path stable.
+Ship moves forward and upward through a real exit path. Exterior structures slide past the canopy with correct parallax. RYZHIK actively manages navigation and power distribution while LUCHIK keeps the flight path stable.
+
+
+
+
 
 
 
 
 [0:24–0:30] — CLEAR OF BASE
-The craft clears the structure/atmospheric boundary into a broad open flight path. Stars/upper atmosphere become visible ahead. GREY banks gently toward the chosen vector; GINGER checks tactical/nav display. End in a stable forward-flight cockpit state that can continue directly into Scene 25.
+The craft clears the structure/atmospheric boundary into a broad open flight path. Stars/upper atmosphere become visible ahead. LUCHIK banks gently toward the chosen vector; RYZHIK checks tactical/nav display. End in a stable forward-flight cockpit state that can continue directly into Scene 25.
+
+
+
+
 
 
 
@@ -6269,8 +10675,16 @@ Keep the camera inside the cockpit for the complete shot, slightly behind and be
 
 
 
+
+
+
+
 PERFORMANCE:
 Both cats act competent, serious and purposeful. Paw interactions are clean and minimal. No comedy mugging, no random meowing, no licking/grooming during launch. Natural ears, blinking, breathing and small body adjustments under acceleration.
+
+
+
+
 
 
 
@@ -6281,14 +10695,26 @@ Practical display glow on fur, realistic brushed/worn metal, glass reflections k
 
 
 
+
+
+
+
 AUDIO:
 Cockpit power-up tones, switches, relays, navigation beeps, engine turbine/reactor spool, hull vibration, rising thrust, wind/launch ambience transitioning toward muted space-flight rumble. No dialogue, no narrator, no music.
 
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 identity swap, grey cat at navigator seat, ginger cat at pilot seat, extra cat, duplicated cat, human hands, human arms, humanoid body, warped paws, impossible control interaction, cockpit geometry changing, random seat movement, ship teleporting to space, hard cut, exterior cutaway, random camera shake, floating controls, unreadable overlaid UI, cartoon, anime, game-render look, plastic fur, subtitles, text, logo, watermark, black bars.
+
+
+
+
 
 
 
@@ -6300,7 +10726,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -6310,7 +10744,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 25 — Коты в кабине: космическое сражение
+
+
+
+
 
 
 
@@ -6320,17 +10762,33 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
-**Контекст использования:** Прямое продолжение Scene 24. Те же коты, те же места в той же кабине: GREY CAT пилотирует, GINGER CAT отвечает за навигацию/оружие. Всё сражение читается через лобовое стекло изнутри, без внешних перебивок.
 
 
 
 
-**Референсы:** @Image1 = тот же точный парный референс GREY CAT + GINGER CAT из фото2. При будущей генерации финальный кадр Scene 24 можно использовать как дополнительный стартовый continuity-reference, если он реально доступен; не придумывать его заранее.
+**Контекст использования:** Прямое продолжение Scene 24. Те же коты, те же места в той же кабине: LUCHIK пилотирует, RYZHIK отвечает за навигацию/оружие. Всё сражение читается через лобовое стекло изнутри, без внешних перебивок.
 
 
 
 
-**Что происходит:** Через кабину видно плотное космическое сражение. GREY CAT резко, но физически правдоподобно уклоняет корабль от огня и проходит между кораблями/обломками; GINGER CAT ведёт навигацию, переключает щиты и стреляет. Коты работают как уверенный экипаж, без реплик.
+
+
+
+
+**Референсы:** @Image1 = парный continuity reference тех же котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference. При будущей генерации финальный кадр Scene 24 можно использовать как дополнительный стартовый continuity-reference, если он реально доступен; не придумывать его заранее.
+
+
+
+
+
+
+
+
+**Что происходит:** Через кабину видно плотное космическое сражение. LUCHIK резко, но физически правдоподобно уклоняет корабль от огня и проходит между кораблями/обломками; RYZHIK ведёт навигацию, переключает щиты и стреляет. Коты работают как уверенный экипаж, без реплик.
+
+
+
+
 
 
 
@@ -6342,48 +10800,80 @@ Optimized for Seedance 2.5 | Photoreal cockpit battle | Continuous interior pers
 
 
 
+
+
+
+
 REFERENCE / IDENTITY:
-@Image1 — PRIMARY identity reference for the recurring cat pair.
-GREY CAT = exact grey cat, PILOT.
-GINGER CAT = exact ginger cat, NAVIGATOR / WEAPONS.
-Preserve exact coat markings, faces, eyes, fur, proportions and seat assignment. Same cockpit design and role geography as Scene 24.
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for the recurring cat pair.
+@Image2 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs and grey crown/facial/back markings; PILOT; recurring BLUE lightsaber identity.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; NAVIGATOR / WEAPONS; recurring GREEN lightsaber identity.
+Preserve exact coat markings, faces, fur, proportions and seat assignment. @Image2/@Image3 outrank the pair image for individual identity. Same cockpit design and role geography as Scene 24.
+
+
+
+
 
 
 
 
 START STATE:
-Begin as a direct continuation of Scene 24 after takeoff. The ship is already in forward flight. GREY is at the pilot controls; GINGER is at the right navigation/weapons station. The first signs of a larger battle are visible ahead through the canopy.
+Begin as a direct continuation of Scene 24 after takeoff. The ship is already in forward flight. LUCHIK is at the pilot controls; RYZHIK is at the right navigation/weapons station. The first signs of a larger battle are visible ahead through the canopy.
+
+
+
+
 
 
 
 
 TIMELINE:
 [0:00–0:06] — BATTLE ARRIVAL
-Fighters cross the canopy at different depths. Distant capital ships exchange fire. GREY leans into the controls and aligns the craft with a safe route. GINGER switches the tactical display from navigation to combat.
+Fighters cross the canopy at different depths. Distant capital ships exchange fire. LUCHIK leans into the controls and aligns the craft with a safe route. RYZHIK switches the tactical display from navigation to combat.
+
+
+
+
 
 
 
 
 [0:06–0:13] — FIRST EVASION
-Incoming fire crosses ahead. GREY makes one clean bank and controlled dive/roll with believable inertia. Exterior starfield and ships rotate consistently through the canopy. GINGER braces naturally and adjusts shields.
+Incoming fire crosses ahead. LUCHIK makes one clean bank and controlled dive/roll with believable inertia. Exterior starfield and ships rotate consistently through the canopy. RYZHIK braces naturally and adjusts shields.
+
+
+
+
 
 
 
 
 [0:13–0:20] — RETURN FIRE
-GINGER acquires a target and deliberately activates weapons. Short controlled bursts fire forward from the ship; one enemy craft ahead is hit or forced away. GREY maintains the flight path and does not abandon the controls.
+RYZHIK acquires a target and deliberately activates weapons. Short controlled bursts fire forward from the ship; one enemy craft ahead is hit or forced away. LUCHIK maintains the flight path and does not abandon the controls.
+
+
+
+
 
 
 
 
 [0:20–0:26] — THREAD THE FIGHT
-The ship passes between a larger vessel and drifting debris with clear depth and safe clearance. A nearby explosion briefly lights the cockpit, but does not white-out the frame. GREY corrects course; GINGER rapidly checks another system.
+The ship passes between a larger vessel and drifting debris with clear depth and safe clearance. A nearby explosion briefly lights the cockpit, but does not white-out the frame. LUCHIK corrects course; RYZHIK rapidly checks another system.
+
+
+
+
 
 
 
 
 [0:26–0:30] — BREAK THROUGH
-GREY accelerates through an opening in the battle formation. GINGER looks forward with focused satisfaction while keeping one paw on the tactical controls. End with the craft still in combat, ready for the next exterior or narrative shot.
+LUCHIK accelerates through an opening in the battle formation. RYZHIK looks forward with focused satisfaction while keeping one paw on the tactical controls. End with the craft still in combat, ready for the next exterior or narrative shot.
+
+
+
+
 
 
 
@@ -6394,8 +10884,16 @@ Camera remains physically mounted inside the cockpit behind/between the cats for
 
 
 
+
+
+
+
 PERFORMANCE:
-Competent, angry-focused Jedi-cat crew rather than slapstick animals. GREY actively flies; GINGER actively navigates/fires. Natural ear movement, blinking and body lean under G-forces. No dialogue and no random meowing.
+Competent, angry-focused Jedi-cat crew rather than slapstick animals. LUCHIK actively flies; RYZHIK actively navigates/fires. Natural ear movement, blinking and body lean under G-forces. No dialogue and no random meowing.
+
+
+
+
 
 
 
@@ -6406,14 +10904,26 @@ Exterior battle flashes cast brief motivated reflections on fur and metal. Weapo
 
 
 
+
+
+
+
 AUDIO:
 Cockpit engine tone, alert beeps, weapon charging/firing, shield impact, hull creaks, distant muffled explosions, rapid control clicks. No spoken dialogue, narrator or music.
 
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 role swap, identity swap, duplicated cats, extra cats, human hands, humanoid faces, cockpit morphing, seats moving, external camera cut, impossible ship rotation, teleporting stars, duplicated ships, random explosions inside cockpit, weapons firing backward, floating paws, broken controls, excessive camera shake, white flash transition, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+
+
+
+
 
 
 
@@ -6425,7 +10935,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -6435,7 +10953,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 26 — Коты-магистры на планете ситхов: ультиматум Серёге
+
+
+
+
 
 
 
@@ -6445,17 +10971,33 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Контекст использования:** Коты прибывают на мрачную планету ситхов и впервые открыто противостоят Серёге. Сцена максимально сердитая и брутальная по настроению, но без боя — это словесный вызов перед Scene 27. Русская речь требует Wan 3 и жёсткого speaker ownership.
 
 
 
 
-**Референсы:** @Image1 = тот же точный парный референс GREY CAT + GINGER CAT · @Image2 = канонический model sheet Серёги из раздела «Персонажи / Референсы». Если отдельного референса планеты нет, окружение задаётся текстом и не выдаётся за reference image.
+
+
+
+
+**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference. Если отдельного референса планеты нет, окружение задаётся текстом и не выдаётся за reference image.
+
+
+
+
 
 
 
 
 **Что происходит:** На чёрном базальтовом плато среди древних руин, красного неба и вулканического свечения Серёга стоит напротив двух котов-джедаев. Рыжий первым зло и уверенно произносит длинную фразу; серый выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует; второй кот и Серёга молчат с закрытым ртом.
+
+
+
+
 
 
 
@@ -6467,17 +11009,32 @@ Optimized for Wan 3 | Photoreal live-action dark space-fantasy | Russian dialogu
 
 
 
+
+
+
+
 REFERENCES:
-@Image1 — PRIMARY identity reference for the two recurring Jedi cats. GREY CAT and GINGER CAT must remain exactly the same individuals established in Scenes 23–25.
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for the two recurring Jedi cats established in Scenes 23–25.
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR. Match his approved face, age, hair, body proportions and established Chancellor appearance. Preserve his dark-purple Chancellor robe unless the current reference explicitly shows the approved scene variant.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings and a calm stern master-like expression.
+@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping, lighter muzzle/chest and a serious confident, more aggressive expression.
+@Image3/@Image4 outrank @Image1 for individual cat identity.
+
+
+
+
 
 
 
 
 CAT / SABER CONTINUITY:
-GREY CAT keeps the same BLUE lightsaber identity from Scene 23.
-GINGER CAT keeps the same GREEN lightsaber identity from Scene 23.
+LUCHIK keeps the same BLUE lightsaber identity from Scene 23.
+RYZHIK keeps the same GREEN lightsaber identity from Scene 23.
 Both sabers are ignited but held still/controlled during dialogue. The cats retain feline faces, coat, ears and proportions. They can stand in a stylized combat-ready posture to wield compact hilts, but never gain human hands, human arms or humanoid facial anatomy.
+
+
+
+
 
 
 
@@ -6488,22 +11045,34 @@ A hostile Sith-world plateau: black basalt ground, monumental ruined dark-stone 
 
 
 
+
+
+
+
 START STATE / BLOCKING:
 SEREGA stands alone facing the two cats across several meters of open basalt.
-GINGER CAT is slightly forward on camera-left/center; GREY CAT is half a step behind/opposite side.
+RYZHIK is slightly forward on camera-left/center; LUCHIK is half a step behind/opposite side.
 The confrontation is already tense. Nobody enters or teleports.
 
 
 
 
+
+
+
+
 ABSOLUTE SPEAKER OWNERSHIP:
-Only GINGER CAT speaks the first line.
-Only GREY CAT speaks the second line.
+Only RYZHIK / РЫЖИК speaks the first line.
+Only LUCHIK / ЛУЧИК speaks the second line.
 SEREGA NEVER speaks, whispers or mouths words.
-While GINGER speaks, GREY and SEREGA keep mouths fully closed and motionless.
-While GREY speaks, GINGER and SEREGA keep mouths fully closed and motionless.
+While RYZHIK speaks, LUCHIK and SEREGA keep mouths fully closed and motionless.
+While LUCHIK speaks, RYZHIK and SEREGA keep mouths fully closed and motionless.
 Each Russian voice originates physically from the correct cat; only that cat's muzzle/jaw makes synchronized speech movements.
 No transferred lip sync, no ventriloquism, no off-screen substitute speaker.
+
+
+
+
 
 
 
@@ -6515,24 +11084,40 @@ Low, slow forward camera move. Wind drives ash across the basalt. The cats stare
 
 
 
-[0:05–0:18] — GINGER CAT
-Camera favors GINGER CAT enough that his muzzle is unmistakably the active speaking face. He is furious, contemptuous and completely confident, not comedic. Natural Russian pronunciation, aggressive but intelligible pacing:
-GINGER CAT: «Да с чего ты, блядь, решил, что всё будет так просто? Думаешь, если разобрался с этими распиздяями и алкашами, то дальше всё пойдёт как ты задумал?»
-GREY CAT and SEREGA remain visibly silent with closed mouths.
+
+
+
+
+[0:05–0:18] — RYZHIK
+Camera favors RYZHIK enough that his muzzle is unmistakably the active speaking face. He is furious, contemptuous and completely confident, not comedic. Natural Russian pronunciation, aggressive but intelligible pacing:
+RYZHIK: «Да с чего ты, блядь, решил, что всё будет так просто? Думаешь, если разобрался с этими распиздяями и алкашами, то дальше всё пойдёт как ты задумал?»
+LUCHIK and SEREGA remain visibly silent with closed mouths.
+
+
+
+
 
 
 
 
 [0:18–0:21] — PAUSE / HANDOFF
-GINGER finishes and locks eyes on SEREGA. Camera shifts smoothly toward GREY without crossing the action axis. All mouths closed for the pause.
+RYZHIK finishes and locks eyes on SEREGA. Camera shifts smoothly toward LUCHIK without crossing the action axis. All mouths closed for the pause.
 
 
 
 
-[0:21–0:28] — GREY CAT
-GREY CAT delivers the line slowly, menacingly and with absolute conviction:
-GREY CAT: «Познай же силу истинных магистров Ордена джедаев, жалкий слизняк!»
-Only GREY articulates. GINGER and SEREGA remain silent.
+
+
+
+
+[0:21–0:28] — LUCHIK
+LUCHIK delivers the line slowly, menacingly and with absolute conviction:
+LUCHIK: «Познай же силу истинных магистров Ордена джедаев, жалкий слизняк!»
+Only LUCHIK articulates. RYZHIK and SEREGA remain silent.
+
+
+
+
 
 
 
@@ -6543,8 +11128,16 @@ Both cats lower their center of gravity into ready stances and angle their saber
 
 
 
+
+
+
+
 CAMERA / CONTINUITY:
 One coherent cinematic axis. Slow intimidating push and restrained lateral handoff between speakers; no frantic cuts that confuse lip sync. Keep all three characters in the same 3D space. Preserve left-right geography for Scene 27.
+
+
+
+
 
 
 
@@ -6555,8 +11148,16 @@ Maximum anger and threat, grounded rather than cartoonish. Cats' eyes, ears, tai
 
 
 
+
+
+
+
 LIGHTING / MATERIALS:
 Red storm sky and volcanic bounce give controlled warm rim light; cool saber light colors nearby fur/stone subtly. Detailed fur, natural skin, rough basalt, ash and worn dark architecture. No glossy game materials or giant bloom.
+
+
+
+
 
 
 
@@ -6567,8 +11168,16 @@ Exact Russian dialogue above with clean Wan 3 lip sync. Strong wind, ash, low vo
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 wrong speaker, Serega speaking, human lip-sync during cat lines, both cats speaking together, transferred voice, ventriloquism, off-screen dialogue, bad Russian pronunciation, lip desync, censored/replaced words, cat identity swap, humanoid human face on cat, human arms, human hands, extra cats, duplicated Serega, changed saber colors, saber clipping body, environment morph, random character teleport, smiling, slapstick comedy, subtitles, captions, text, logo, watermark, cartoon, anime, game-render look, camera jitter, black bars.
+
+
+
+
 
 
 
@@ -6580,7 +11189,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ---
+
+
+
+
 
 
 
@@ -6590,7 +11207,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 ## Сцена 27 — Серёга против котов-магистров: бой на световых мечах
+
+
+
+
 
 
 
@@ -6600,17 +11225,33 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 
 
+
+
+
+
 **Контекст использования:** Немедленное продолжение Scene 26 на той же планете и в той же географии. Яростный брутальный бой Серёги с двумя котами на световых мечах. Главный сюжетный результат должен читаться без двусмысленности: коты-магистры заметно быстрее, точнее и сильнее; Серёга умеет драться и сопротивляется, но почти всё время вынужден обороняться.
 
 
 
 
-**Референсы:** @Image1 = тот же точный парный референс GREY CAT + GINGER CAT · @Image2 = канонический model sheet Серёги. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference, если он реально доступен.
+
+
+
+
+**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference, если он реально доступен.
+
+
+
+
 
 
 
 
 **Что происходит:** После ультиматума оба кота одновременно давят на Серёгу: серый атакует точными силовыми сериями с синим клинком, рыжий быстро меняет углы зелёным. Серёга с красным мечом отбивается и несколько раз пытается контратаковать, но коты синхронно разбирают его защиту, отбрасывают и к финалу загоняют в явно проигрышную позицию. Без крови/расчленения; превосходство передаётся постановкой боя.
+
+
+
+
 
 
 
@@ -6622,20 +11263,34 @@ Optimized for Seedance 2.5 | Photoreal live-action lightsaber combat | Aggressiv
 
 
 
+
+
+
+
 REFERENCES / IDENTITY:
-@Image1 — PRIMARY identity reference for GREY CAT and GINGER CAT.
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for LUCHIK and RYZHIK.
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
-Preserve exact faces, fur, coat patterns, body proportions and costume. No identity swaps.
-GREY CAT = BLUE saber.
-GINGER CAT = GREEN saber.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
+@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank the pair image for individual identity. No identity swaps.
+LUCHIK = BLUE saber.
+RYZHIK = GREEN saber.
 SEREGA = RED saber.
 All three saber colors remain fixed for the entire shot.
 
 
 
 
+
+
+
+
 CONTINUITY FROM SCENE 26:
 Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same red storm horizon, same ash direction and same opening left-right positions. Begin at the exact emotional instant after the cats issue their challenge. No new arrival, no reset to a different battlefield.
+
+
+
+
 
 
 
@@ -6650,21 +11305,37 @@ The cats never look helpless, confused or accidentally lucky; their advantage is
 
 
 
+
+
+
+
 TIMELINE / CHOREOGRAPHY:
 [0:00–0:05] — EXPLOSIVE OPEN
-GINGER attacks first from one angle while GREY immediately closes from the other. SEREGA catches both strikes in a desperate compact guard. Clean saber contact, sparks and light interaction; no bodies intersect.
+RYZHIK attacks first from one angle while LUCHIK immediately closes from the other. SEREGA catches both strikes in a desperate compact guard. Clean saber contact, sparks and light interaction; no bodies intersect.
 
 
 
 
-[0:05–0:11] — GREY DOMINATES CENTER
-GREY drives a powerful precise three-beat combination that forces SEREGA back several steps across the basalt. GINGER circles to cut off the escape angle rather than randomly spinning.
+
+
+
+
+[0:05–0:11] — LUCHIK DOMINATES CENTER
+LUCHIK drives a powerful precise three-beat combination that forces SEREGA back several steps across the basalt. RYZHIK circles to cut off the escape angle rather than randomly spinning.
+
+
+
+
 
 
 
 
 [0:11–0:17] — SEREGA COUNTERS / CATS READ HIM
-SEREGA attempts one skilled red-saber counterattack. The cats anticipate it: GINGER redirects the blade, GREY slips inside the line and forces SEREGA to turn and retreat. The choreography clearly shows teamwork and superior timing.
+SEREGA attempts one skilled red-saber counterattack. The cats anticipate it: RYZHIK redirects the blade, LUCHIK slips inside the line and forces SEREGA to turn and retreat. The choreography clearly shows teamwork and superior timing.
+
+
+
+
 
 
 
@@ -6675,14 +11346,26 @@ Both cats attack in alternating rhythm, not chaotic simultaneous flailing. Blue 
 
 
 
+
+
+
+
 [0:23–0:27] — DECISIVE BREAK
-GREY pins/deflects SEREGA's saber line for a beat while GINGER lands a controlled Force-like impact or hilt/physical strike that throws SEREGA backward onto one knee or against a low basalt ruin. No gore, no dismemberment. His saber remains in hand but his defense is broken.
+LUCHIK pins/deflects SEREGA's saber line for a beat while RYZHIK lands a controlled Force-like impact or hilt/physical strike that throws SEREGA backward onto one knee or against a low basalt ruin. No gore, no dismemberment. His saber remains in hand but his defense is broken.
+
+
+
+
 
 
 
 
 [0:27–0:30] — CATS OWN THE FRAME
-SEREGA recovers into a low defensive position, breathing hard. GREY and GINGER advance together with sabers ready, completely composed. Camera settles low behind/near SEREGA so the two cats dominate the final composition and their superiority is unmistakable.
+SEREGA recovers into a low defensive position, breathing hard. LUCHIK and RYZHIK advance together with sabers ready, completely composed. Camera settles low behind/near SEREGA so the two cats dominate the final composition and their superiority is unmistakable.
+
+
+
+
 
 
 
@@ -6693,16 +11376,28 @@ Dynamic but physically readable action camera: controlled lateral tracking, shor
 
 
 
+
+
+
+
 COMBAT PHYSICS:
 Every blade has one continuous hilt and one continuous blade. Contacts happen at believable distances. No saber passing through bodies, no floating hilts, no extra blades, no blade length/color changes. Cats may use stylized bipedal combat balance while retaining feline anatomy; no human hands/arms. Landings and impacts obey gravity and momentum.
 
 
 
 
+
+
+
+
 PERFORMANCE:
-GREY: cold, forceful, disciplined master.
-GINGER: faster, more aggressive, predatory confidence.
+LUCHIK: cold, forceful, disciplined master.
+RYZHIK: faster, more aggressive, predatory confidence.
 SEREGA: skilled but increasingly pressured; anger gives way to concentration and strain. No clowning, no fear caricature, no dialogue.
+
+
+
+
 
 
 
@@ -6713,14 +11408,26 @@ Saber light subtly illuminates fur, robe and basalt at close range. Red storm/vo
 
 
 
+
+
+
+
 AUDIO:
 Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots/paws on basalt, wind, ash, stone impacts, SEREGA's exertion breaths/grunts only. Cats may produce brief natural exertion growls/hisses, but no spoken dialogue. No narrator.
 
 
 
 
+
+
+
+
 NEGATIVE PROMPT:
 Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, merged cats, duplicated cats, human hands on cats, humanoid cat face, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+
+
+
+
 
 
 
