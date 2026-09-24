@@ -38,7 +38,7 @@ for required in contracts:
 
 # The top revision card is slot-oriented because Topview capacity is task-based.
 # It must show occupied/capacity, free slots, and only a compact unique-scene count.
-for required in ('id="metricSlowMeta"', 'Свободно '+runtimeTopview.free', 'id="backToTop"', 'id="filterPanel"'):
+for required in ('id="metricSlowMeta"', "Свободно '+runtimeTopview.free", 'id="backToTop"', 'id="filterPanel"'):
     if required not in html:
         raise SystemExit("missing compact owner UI contract: "+required)
 if 'id="metricWorkIds"' in html:
