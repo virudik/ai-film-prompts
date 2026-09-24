@@ -157,9 +157,13 @@ class IntegrationRecoveryTests(unittest.TestCase):
 
     def test_control_center_separates_scenes_from_generation_slots(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
-        self.assertIn("$('metricSlow').textContent=runtimeTopview.occupied;", html)
+        self.assertIn("$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;", html)
+        self.assertIn("$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';", html)
         self.assertNotIn("metricSlowIds", html)
-        self.assertIn("cap.innerHTML='занято '+occupied+' из '+capacity", html)
+        self.assertIn("cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free", html)
+        self.assertNotIn('id="metricWorkIds"', html)
+        self.assertIn('id="backToTop"', html)
+        self.assertIn('id="filterPanel"', html)
         self.assertIn("$('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;", html)
         self.assertNotIn('id="schema"', html)
         self.assertIn("instruction!=='error'", html)
