@@ -24,6 +24,28 @@
       "source_checkpoint": "2026-09-23T13:21:16Z",
       "outcome": "success",
       "verification": "queried all 6 known active task IDs; all remain init; scanned 4/4 Board video pages (352 tasks) and found no unknown video task in checkpoint overlap; Scene 20 remains two occupied slots"
+    },
+    {
+      "timestamp": "2026-09-24T01:34:44Z",
+      "operation": "terminal_transition_and_slow_remove",
+      "scene_id": 3,
+      "task_fingerprint": "scene3-known-task",
+      "previous_status": "init",
+      "new_status": "success",
+      "source_checkpoint": "2026-09-24T01:34:44Z",
+      "outcome": "success",
+      "verification": "Exact Topview task refreshed as success; Scene 3 removed from active task map and canonical render-slow; result receipt recorded; no editorial approval inferred."
+    },
+    {
+      "timestamp": "2026-09-24T01:34:44Z",
+      "operation": "active_refresh_and_overlap_discovery",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "6 active tasks",
+      "new_status": "5 active tasks",
+      "source_checkpoint": "2026-09-24T01:34:44Z",
+      "outcome": "success",
+      "verification": "Refreshed all six previously known task IDs; remaining five are init. Board page 1 checked across overlap; no unknown newer video task found."
     }
   ]
 }
