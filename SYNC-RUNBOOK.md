@@ -179,7 +179,7 @@ Google Drive — authority.
 8. обновить `instruction-sync-status.json`;
 9. проверить `project-status.json` не содержит `instruction_sync_stale/error`;
 10. обновить Notion operational pointer, если меняется будущий workflow;
-11. обновить Library recovery copies.
+11. Library recovery refresh — best-effort/non-blocking: выполнить только без интерактивного подтверждения владельца; иначе зафиксировать pending/stale и продолжить.
 
 
 Автоматический repair допускается только **Drive → GitHub**.
@@ -233,7 +233,7 @@ Status должен описывать **все семь** обязательн�
 - GitHub mirrors не синхронизированы;
 - instruction status не refreshed;
 - Notion operational pointer не обновлён, если меняется workflow;
-- Library recovery mirror не refreshed.
+- Library recovery mirror может быть stale/pending и **не блокирует** завершение, если Drive/GitHub/instruction status/Notion прошли проверку.
 
 
 Runtime telemetry (queue/ETA/SHA) не нужно копировать во все docs: её читают live.
@@ -293,7 +293,7 @@ Security baseline:
 Library — recovery mirror/cache, not authority.
 
 
-После материальных instruction/handoff changes обновлять Library copies:
+После материальных instruction/handoff changes **пытаться** обновлять Library copies best-effort, но не блокировать основной цикл и не требовать интерактивного подтверждения владельца:
 - all seven docs;
 - `READ-FIRST.txt`;
 - `CURRENT-STATE.json`;
@@ -365,7 +365,7 @@ Refresh exact comparisons; не объявлять master broken только и
 - fresh instruction-sync-status all seven;
 - project-status no stale/error instruction warning;
 - Notion pointer current;
-- Library recovery current.
+- Library recovery state известен (`current` или `pending/stale`); `pending/stale` не блокирует завершение при доступном fresh Drive/GitHub.
 
 
 Не писать пользователю `ГОТОВО`, если relevant verification не завершена.
@@ -397,7 +397,7 @@ Refresh exact comparisons; не объявлять master broken только и
 - character registry/reference viewer availability and obvious scene-usage drift;
 - montage report + film-analysis/backlog availability;
 - Notion operational pointer current enough for navigation;
-- Library recovery copies marked recovery-only and not misleadingly newer/authoritative.
+- Library recovery copies, если доступны, marked recovery-only and not misleadingly newer/authoritative; stale/missing Library не блокирует takeover при доступном fresh Drive/GitHub.
 
 
 Safe documentation drift может быть исправлен сразу по Drive→GitHub authority. Master/story/approval conflicts требуют user decision.
@@ -703,4 +703,13 @@ Per Scene ID it tracks five independent facts: `result_received`, `reviewed`, `a
 - Смена конкретного чата — штатная операция: новый Project Chat/Work восстанавливает состояние из Project context + canonical handoff/live sources. Нельзя строить архитектуру на предположении, что один чат будет жить бесконечно.
 - Scheduled Tasks/automations остаются независимой operational автомatikой; Project Chat не должен дублировать их ручным мониторингом, если live tools позволяют проверить состояние.
 - Владелец должен заниматься фильмом, а не обслуживать инфраструктуру: deterministic sync/status/site/Topview drift чинится автоматически или редактором; пользователя спрашивать только о genuinely creative/editorial/ambiguous decisions.
+
+## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+
+- ChatGPT Library остаётся **recovery mirror/cache**, а не authority и не обязательный транзакционный слой.
+- Обязательный путь завершения material change: relevant SAME-ID Drive canonical docs/master → exact GitHub mirrors/status/validation/Pages где применимо → fresh `instruction-sync-status.json` → Notion operational pointer, если меняется будущий workflow.
+- Library refresh выполняется **best-effort**. Если запись возможна без интерактивного подтверждения владельца — обновить. Если интерфейс требует отдельное `Разрешить это изменение в Библиотеке?`, consent/permission недоступен automation или мобильное приложение даёт только `Try again` — **не блокировать работу, не повторять prompt и не просить владельца переключаться в браузер**. Зафиксировать `pending/stale` и продолжить.
+- `pending/stale` Library не делает проект non-green, не отменяет verified Drive/GitHub/Pages change и не запрещает сообщить о завершении основной работы. Нельзя только утверждать, что Library свежая, если она фактически не обновлена.
+- `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
+- На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
 
