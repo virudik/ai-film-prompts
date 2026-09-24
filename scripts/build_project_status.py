@@ -529,67 +529,103 @@ def parse_master(
     }
     if instruction_match is not None:
         checks["instruction_mirrors_match_drive"] = instruction_match
-    # Optional cross-layer Topview validation. This is deterministic and blocks a false green
-    # when current telemetry files are supplied by the workflow.
-    if topview_status_file and topview_task_map_file:
+    # Topview has two layers with different failure semantics:
+    #   1) topview-status.json = public/runtime snapshot used by Control Center;
+    #   2) topview-task-map.json = operational dedupe/cache used by the watcher.
+    # A transient cache mismatch must never turn a healthy Drive/master sync red.
+    # Only self-contained snapshot invariants and canonical slow membership are blocking.
+    topview_maintenance = {
+        "state": "unverified",
+        "blocking": False,
+        "task_map_matches_snapshot": None,
+        "terminal_cache_consistent": None,
+    }
+    if topview_status_file:
         try:
             topview = json.loads(Path(topview_status_file).read_text(encoding="utf-8"))
-            task_map = json.loads(Path(topview_task_map_file).read_text(encoding="utf-8"))
             active_tasks = topview.get("active_tasks", [])
-            active_by_scene = task_map.get("active_by_scene", {})
-            processed = task_map.get("processed_tasks", [])
-            flat_active = [
-                task_id
-                for task_ids in active_by_scene.values()
-                if isinstance(task_ids, list)
-                for task_id in task_ids
-            ]
-            active_scene_ids = sorted(
-                int(scene_id)
-                for scene_id, task_ids in active_by_scene.items()
-                if isinstance(task_ids, list) and task_ids
-            )
+            if not isinstance(active_tasks, list):
+                raise TypeError("active_tasks must be a list")
             telemetry_task_ids = [
                 item.get("task_id") for item in active_tasks if isinstance(item, dict)
             ]
+            active_scene_ids = sorted({
+                item.get("scene_id")
+                for item in active_tasks
+                if isinstance(item, dict) and isinstance(item.get("scene_id"), int)
+            })
             occupied = topview.get("occupied_slots")
             capacity = topview.get("slot_capacity", 6)
             free = topview.get("free_slots")
-            processed_terminal_only = {
-                int(item["scene_id"])
-                for item in processed
-                if isinstance(item, dict)
-                and isinstance(item.get("scene_id"), int)
-                and str(item.get("final_status", "")).lower() in TERMINAL_TOPVIEW_STATUSES
-                and str(item["scene_id"]) not in active_by_scene
-            }
             checks.update({
-                "topview_active_task_ids_unique": len(flat_active) == len(set(flat_active)),
+                "topview_snapshot_valid": isinstance(topview, dict),
                 "topview_telemetry_task_ids_unique": len(telemetry_task_ids) == len(set(telemetry_task_ids)),
-                "topview_active_tasks_match_task_map": sorted(telemetry_task_ids) == sorted(flat_active),
                 "topview_active_statuses_valid": all(
                     isinstance(item, dict)
                     and str(item.get("topview_status", "")).lower() in ACTIVE_TOPVIEW_STATUSES
-                    for item in active_tasks
-                ),
-                "topview_task_scene_mapping_matches": all(
-                    isinstance(item, dict)
-                    and isinstance(item.get("scene_id"), int)
-                    and item.get("task_id") in active_by_scene.get(str(item.get("scene_id")), [])
                     for item in active_tasks
                 ),
                 "topview_active_scene_ids_exist": all(
                     isinstance(item, dict) and item.get("scene_id") in set(section_scenes)
                     for item in active_tasks
                 ),
-                "topview_occupied_matches_active_tasks": occupied == len(active_tasks) == len(flat_active),
+                "topview_occupied_matches_active_tasks": occupied == len(active_tasks),
                 "topview_free_slots_equation": free == max(0, capacity - occupied),
-                "topview_capacity_not_exceeded": occupied <= capacity == 6,
-                "topview_active_scenes_are_canonical_slow": set(active_scene_ids).issubset(set(slow_scenes)),
-                "no_terminal_only_topview_scene_is_slow": not (processed_terminal_only & set(slow_scenes)),
+                "topview_capacity_not_exceeded": isinstance(occupied, int) and occupied <= capacity == 6,
+                "topview_active_scenes_match_canonical_slow": set(active_scene_ids) == set(slow_scenes),
             })
-        except (OSError, json.JSONDecodeError, TypeError, ValueError, KeyError) as exc:
-            checks["topview_cross_layer_files_valid"] = False
+
+            if topview_task_map_file:
+                try:
+                    task_map = json.loads(Path(topview_task_map_file).read_text(encoding="utf-8"))
+                    active_by_scene = task_map.get("active_by_scene", {})
+                    processed = task_map.get("processed_tasks", [])
+                    flat_active = [
+                        task_id
+                        for task_ids in active_by_scene.values()
+                        if isinstance(task_ids, list)
+                        for task_id in task_ids
+                    ]
+                    map_scene_ids = sorted(
+                        int(scene_id)
+                        for scene_id, task_ids in active_by_scene.items()
+                        if isinstance(task_ids, list) and task_ids
+                    )
+                    task_map_matches = (
+                        len(flat_active) == len(set(flat_active))
+                        and sorted(telemetry_task_ids) == sorted(flat_active)
+                        and set(map_scene_ids) == set(active_scene_ids)
+                        and all(
+                            isinstance(item, dict)
+                            and isinstance(item.get("scene_id"), int)
+                            and item.get("task_id") in active_by_scene.get(str(item.get("scene_id")), [])
+                            for item in active_tasks
+                        )
+                    )
+                    processed_terminal_only = {
+                        int(item["scene_id"])
+                        for item in processed
+                        if isinstance(item, dict)
+                        and isinstance(item.get("scene_id"), int)
+                        and str(item.get("final_status", "")).lower() in TERMINAL_TOPVIEW_STATUSES
+                        and str(item["scene_id"]) not in active_by_scene
+                    }
+                    terminal_consistent = not (processed_terminal_only & set(slow_scenes))
+                    topview_maintenance = {
+                        "state": "ok" if task_map_matches and terminal_consistent else "drift",
+                        "blocking": False,
+                        "task_map_matches_snapshot": task_map_matches,
+                        "terminal_cache_consistent": terminal_consistent,
+                    }
+                except (OSError, json.JSONDecodeError, TypeError, ValueError, KeyError):
+                    topview_maintenance = {
+                        "state": "unavailable",
+                        "blocking": False,
+                        "task_map_matches_snapshot": False,
+                        "terminal_cache_consistent": None,
+                    }
+        except (OSError, json.JSONDecodeError, TypeError, ValueError, KeyError):
+            checks["topview_snapshot_valid"] = False
 
     health = "ok" if all(checks.values()) else "error"
 
@@ -649,7 +685,8 @@ def parse_master(
                 "state": instruction_sync["health"],
                 "age_hours": instruction_sync.get("age_hours_at_status_build"),
                 "blocking": instruction_sync["health"] == "error",
-            }
+            },
+            "topview_task_map": topview_maintenance,
         },
         "scene_meta": scene_meta,
         "audit_fingerprint": audit_fingerprint,
