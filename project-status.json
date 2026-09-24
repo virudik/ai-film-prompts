@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T15:49:13Z",
+  "synced_at": "2026-09-24T15:57:04Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
@@ -64,7 +64,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.692,
+    "age_hours_at_status_build": 0.823,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -114,8 +114,14 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.692,
+      "age_hours": 0.823,
       "blocking": false
+    },
+    "topview_task_map": {
+      "state": "ok",
+      "blocking": false,
+      "task_map_matches_snapshot": true,
+      "terminal_cache_consistent": true
     }
   },
   "scene_meta": {
@@ -342,7 +348,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T15:49:13Z",
+    "synced_at": "2026-09-24T15:57:04Z",
     "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
     "scene_count": 12,
     "prompt_count": 22,
@@ -415,16 +421,13 @@
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
     "instruction_mirrors_match_drive": true,
-    "topview_active_task_ids_unique": true,
+    "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
-    "topview_active_tasks_match_task_map": true,
     "topview_active_statuses_valid": true,
-    "topview_task_scene_mapping_matches": true,
     "topview_active_scene_ids_exist": true,
     "topview_occupied_matches_active_tasks": true,
     "topview_free_slots_equation": true,
     "topview_capacity_not_exceeded": true,
-    "topview_active_scenes_are_canonical_slow": true,
-    "no_terminal_only_topview_scene_is_slow": true
+    "topview_active_scenes_match_canonical_slow": true
   }
 }
