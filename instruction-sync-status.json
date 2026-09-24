@@ -1,30 +1,181 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T15:07:41Z",
+  "checked_at": "2026-09-24T16:25:40.932Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
   "all_match": true,
   "files": {
-    "NEW-CHAT-HANDOFF.md": {"drive_file_id":"1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD","drive_modified_at":"2026-09-24T14:15:42.636Z","github_blob":"d163762b32c219ed77789c66908ad75fd07f4908","match":true},
-    "SYNC-RUNBOOK.md": {"drive_file_id":"1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4","drive_modified_at":"2026-09-24T14:16:05.479Z","github_blob":"b08abd87eee44cc553856afae8d55cc899a26e2e","match":true},
-    "AI-PROJECT-GUIDE.md": {"drive_file_id":"1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u","drive_modified_at":"2026-09-24T14:16:27.724Z","github_blob":"617ea0568545afc5d848396cfe50a9e200fb720a","match":true},
-    "PROMPT-STYLE-GUIDE.md": {"drive_file_id":"14VzE8DwjKIquGJWENci6rYWj_1xEn34d","drive_modified_at":"2026-09-24T05:37:49.814Z","github_blob":"4e4fd75530ef9139fd63fb3aaae79301075052fb","match":true},
-    "USER-GUIDE.md": {"drive_file_id":"1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO","drive_modified_at":"2026-09-24T14:16:54.000Z","github_blob":"96e7d386e1887a64299f43d17d05c0ad49230784","match":true},
-    "README-AI-SYNC.md": {"drive_file_id":"1hYMZ14esluB-kucasD6LjHWb_cBW_3wX","drive_modified_at":"2026-09-24T14:18:01.954Z","github_blob":"adf633f59c5d006bf71c81b7860b375c641c807c","match":true},
-    "BACKUP-AI-RUNBOOK.md": {"drive_file_id":"1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1","drive_modified_at":"2026-09-24T14:18:27.871Z","github_blob":"2349723951c7bd0518248962d7018ecd153d4cd2","match":true}
+    "NEW-CHAT-HANDOFF.md": {
+      "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+      "drive_modified_at": "2026-09-24T16:23:45.896Z",
+      "github_blob": "ae9cee6c14db522a22523ff9b281cf830cfec495",
+      "match": true
+    },
+    "SYNC-RUNBOOK.md": {
+      "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_modified_at": "2026-09-24T16:24:49.773Z",
+      "github_blob": "fe7d7912564a693a8e3fb1fdf9fb1a88972b965f",
+      "match": true
+    },
+    "AI-PROJECT-GUIDE.md": {
+      "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_modified_at": "2026-09-24T16:18:52.222Z",
+      "github_blob": "fb2a8986669fba3cd55f2a716891d2461396cc13",
+      "match": true
+    },
+    "PROMPT-STYLE-GUIDE.md": {
+      "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+      "drive_modified_at": "2026-09-24T05:37:49.814Z",
+      "github_blob": "4e4fd75530ef9139fd63fb3aaae79301075052fb",
+      "match": true
+    },
+    "USER-GUIDE.md": {
+      "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_modified_at": "2026-09-24T16:20:11.155Z",
+      "github_blob": "43fd7228b05d5579e2418a27442a5bb92586bba4",
+      "match": true
+    },
+    "README-AI-SYNC.md": {
+      "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_modified_at": "2026-09-24T16:21:30.289Z",
+      "github_blob": "860975f513aedbc48f8a3d593fc1d1bb16b43f24",
+      "match": true
+    },
+    "BACKUP-AI-RUNBOOK.md": {
+      "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_modified_at": "2026-09-24T16:22:50.495Z",
+      "github_blob": "ae1de9e00dc712386455708931d4598407b2fd65",
+      "match": true
+    }
   },
-  "semantic_check":{"health":"ok","conflicts":[]},
-  "takeover_requirements":{"character_registry":"references.html + character-references.json","montage_context":"Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md","readiness_audit":true},
-  "topview_scene_intake":{"enabled":true,"automation_title":"Topview Scene Intake & Slow Watch","state_model":"minimal_active_plus_processed_with_six_slot_view","rule":"Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."},
-  "note":"7/7 canonical Drive instruction files exact-match GitHub. Certificate refreshed by Recovery after fresh Drive/GitHub comparison; stale certificate age alone is maintenance freshness, not master-sync failure.",
-  "recovery_sync":{"automation_title":"AI Film Recovery Sync","schedule":"exact hourly at HH:05 Europe/Moscow","hourly_light":true,"daily_deep":true,"deep_audit_status_file":"deep-audit-status.json","deep_audit_interval_hours":24,"note":"Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate at HH:00."},
-  "slow_table_ui":{"health":"ok","slot_capacity":6,"row_cardinality":"one_row_per_active_topview_task","scene_id_may_repeat":true,"header_format_target":"занято X из 6 · DD.MM.YYYY, HH:MM:SS","timestamp_source":"topview-status.json.checked_at","timestamp_style":"ordinary text color/weight; no 'синхр.' label","columns":["#","Сцена","Модель","Статус","Запуск","Прошло","Очередь","Оценка времени"],"task_id_column":false,"expandable_attempt_ui":false,"slot_count_source":"topview-status.json.active_tasks[]","rule":"All three user-facing views render from one normalized topview-status active_tasks snapshot. Revision shows unique scenes/tasks, Topview table is one row per task, active-scene map is one row per Scene with multiplicity. Queue/status values must never come from independent caches."},
-  "conflicts":[],
-  "mode":"authorized_chatgpt_drive_connector",
-  "topview_liveness":{"primary_watcher":{"title":"Topview Scene Intake & Slow Watch","timing_mode":"exact_schedule","minute_local":0,"timezone":"Europe/Moscow","expected_max_checkpoint_age_minutes":75,"connector_degradation_behavior":"never self-disable; preserve last verified snapshot and retry next HH:00"},"recovery_watchdog":{"title":"AI Film Recovery Sync","timing_mode":"exact_schedule","minute_local":5,"timezone":"Europe/Moscow","fallback_after_minutes":5},"owner_experience":"set-and-forget; deterministic drift repaired automatically where authority/tools are actually available"},
-  "three_view_topview_contract":{"health":"ok","telemetry_source":"topview-status.json.active_tasks[]","snapshot_timestamp_source":"topview-status.json.checked_at","summary_cardinality":"unique Scene IDs plus explicit active-task multiplicity","slow_table_cardinality":"one row per active task/slot","scene_map_cardinality":"one row per unique active Scene ID with aggregated live status","required_equalities":["unique(active_tasks.scene_id) == project-status.slow_scenes == canonical slow Scene IDs","occupied_slots == len(active_tasks) == Topview table row count","scene-map active Scene IDs == unique(active_tasks.scene_id)","per-scene multiplicity == count(active_tasks for that scene)"]},
-  "automation_schedule":{"health":"ok","timezone":"Europe/Moscow","topview_watcher":"exact hourly at HH:00:00","recovery_sync":"exact hourly at HH:05:00","one_writer_note":"Topview watcher remains primary writer. Recovery runs five minutes later so it can observe and repair a completed/failed watcher cycle instead of racing it."},
-  "library_recovery":{"mode":"best_effort_non_blocking","blocking":false,"authority":false,"completion_gate":false,"owner_interruption_policy":"do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required","status":"pending_or_opportunistic","truth_rule":"Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer."}
+  "semantic_check": {
+    "health": "ok",
+    "conflicts": []
+  },
+  "takeover_requirements": {
+    "character_registry": "references.html + character-references.json",
+    "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
+    "readiness_audit": true
+  },
+  "topview_scene_intake": {
+    "enabled": true,
+    "automation_title": "Topview Scene Intake & Slow Watch",
+    "state_model": "minimal_active_plus_processed_with_six_slot_view",
+    "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
+  },
+  "note": "7/7 Drive instruction files exact-match GitHub after error-prevention architecture update. PROMPT-STYLE-GUIDE unchanged because this is infrastructure, not prompt-writing semantics.",
+  "recovery_sync": {
+    "automation_title": "AI Film Recovery Sync",
+    "schedule": "exact hourly at HH:05 Europe/Moscow",
+    "hourly_light": true,
+    "daily_deep": true,
+    "deep_audit_status_file": "deep-audit-status.json",
+    "deep_audit_interval_hours": 24,
+    "note": "Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate at HH:00."
+  },
+  "slow_table_ui": {
+    "health": "ok",
+    "slot_capacity": 6,
+    "row_cardinality": "one_row_per_active_topview_task",
+    "scene_id_may_repeat": true,
+    "header_format_target": "занято X из 6 · DD.MM.YYYY, HH:MM:SS",
+    "timestamp_source": "topview-status.json.checked_at",
+    "timestamp_style": "ordinary text color/weight; no 'синхр.' label",
+    "columns": [
+      "#",
+      "Сцена",
+      "Модель",
+      "Статус",
+      "Запуск",
+      "Прошло",
+      "Очередь",
+      "Оценка времени"
+    ],
+    "task_id_column": false,
+    "expandable_attempt_ui": false,
+    "slot_count_source": "topview-status.json.active_tasks[]",
+    "rule": "All three user-facing views render from one normalized topview-status active_tasks snapshot. Revision shows unique scenes/tasks, Topview table is one row per task, active-scene map is one row per Scene with multiplicity. Queue/status values must never come from independent caches."
+  },
+  "conflicts": [],
+  "mode": "authorized_chatgpt_drive_connector",
+  "topview_liveness": {
+    "primary_watcher": {
+      "title": "Topview Scene Intake & Slow Watch",
+      "timing_mode": "exact_schedule",
+      "minute_local": 0,
+      "timezone": "Europe/Moscow",
+      "expected_max_checkpoint_age_minutes": 75,
+      "connector_degradation_behavior": "never self-disable; preserve last verified snapshot and retry next HH:00"
+    },
+    "recovery_watchdog": {
+      "title": "AI Film Recovery Sync",
+      "timing_mode": "exact_schedule",
+      "minute_local": 5,
+      "timezone": "Europe/Moscow",
+      "fallback_after_minutes": 5
+    },
+    "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available"
+  },
+  "three_view_topview_contract": {
+    "health": "ok",
+    "telemetry_source": "topview-status.json.active_tasks[]",
+    "snapshot_timestamp_source": "topview-status.json.checked_at",
+    "summary_cardinality": "unique Scene IDs plus explicit active-task multiplicity",
+    "slow_table_cardinality": "one row per active task/slot",
+    "scene_map_cardinality": "one row per unique active Scene ID with aggregated live status",
+    "required_equalities": [
+      "unique(active_tasks.scene_id) == project-status.slow_scenes == canonical slow Scene IDs",
+      "occupied_slots == len(active_tasks) == Topview table row count",
+      "scene-map active Scene IDs == unique(active_tasks.scene_id)",
+      "per-scene multiplicity == count(active_tasks for that scene)"
+    ]
+  },
+  "automation_schedule": {
+    "health": "ok",
+    "timezone": "Europe/Moscow",
+    "topview_watcher": "exact hourly at HH:00:00",
+    "recovery_sync": "exact hourly at HH:05:00",
+    "one_writer_note": "Topview watcher remains primary writer. Recovery runs five minutes later so it can observe and repair a completed/failed watcher cycle instead of racing it."
+  },
+  "library_recovery": {
+    "mode": "best_effort_non_blocking",
+    "blocking": false,
+    "authority": false,
+    "completion_gate": false,
+    "owner_interruption_policy": "do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required",
+    "status": "pending_or_opportunistic",
+    "truth_rule": "Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer."
+  },
+  "error_prevention_architecture": {
+    "health": "ok",
+    "blocking_red_domains": [
+      "Drive master ↔ GitHub mirror/hash",
+      "generated project-status structural/hash validity",
+      "exact 7/7 instruction mismatch/read error",
+      "invalid self-contained public Topview snapshot contradicting canonical slow"
+    ],
+    "nonblocking_domains": [
+      "Topview telemetry freshness/connector availability",
+      "Topview task-map cache drift",
+      "instruction certificate age alone",
+      "Library recovery freshness"
+    ],
+    "topview_public_source": "topview-status.json",
+    "topview_internal_cache": "topview-task-map.json",
+    "stable_commit_marker": "topview-checkpoint.json",
+    "transaction_order": [
+      "canonical master if genuinely changed",
+      "task-map + compact journal and read-back",
+      "public topview-status and read-back",
+      "topview-checkpoint LAST",
+      "sync trigger only if canonical changed"
+    ],
+    "integration_test_trigger": "topview-checkpoint.json, not intermediate topview-status/task-map commits",
+    "watcher_schedule": "HH:00 Europe/Moscow",
+    "recovery_schedule": "HH:05 Europe/Moscow",
+    "connector_degradation": "never self-disable, never fabricate telemetry/checkpoint; preserve last verified snapshot and retry",
+    "owner_ui": "global red only for verified authoritative corruption; stale Topview is separate degraded warning; slow summary appears once"
+  }
 }
