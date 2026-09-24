@@ -514,3 +514,39 @@ Permanent set-and-forget rule for technical project state:
 - Routine healthy/repaired maintenance остаётся silent. Owner notification нужна только для ambiguous mapping, verified unrepaired failure, task failure/cancel, capacity >6 или реального творческого решения.
 - Любое изменение schedule/prompt automation обязано явно сохранять `is_enabled=true`; если watcher после run оказывается disabled без явного решения владельца, Recovery должен автоматически вернуть его в enabled state.
 
+### Invariant — единый Topview snapshot во всех трёх пользовательских представлениях
+
+Это **жёсткий UI/runtime-контракт**, а не общая рекомендация. Все три пользовательских представления Topview-состояния должны строиться из **одного и того же свежего `topview-status.json` snapshot с одним `checked_at`**:
+
+1. `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`;
+2. `⏳ В медленной генерации — Topview`;
+3. `🎬 Активные сцены проекта — карта и навигация`.
+
+Запрещено независимо хранить/копировать Topview status, queue/ETA или список active scenes в этих трёх местах. Нельзя брать один вид из `project-status.json`, второй из `topview-status.json`, а третий из статического master, если из-за этого пользователь видит разные текущие данные. Frontend сначала нормализует **один runtime snapshot** из `topview-status.json.active_tasks[]`, затем все три представления рендерятся только из него. `project-status.json` и canonical master используются как consistency gate, а не как отдельный конкурентный realtime источник.
+
+Для **каждого active task** во всех представлениях должны относиться к одному и тому же snapshot следующие факты: `task_id`, `scene_id`, `topview_status`, `queue_count`, `topview_estimated_wait_seconds`, `checked_at`. Если где-либо показывается числовая очередь, она берётся только из соответствующего объекта `active_tasks[]`; запрещено подставлять cached queue, старый DOM-текст или scene-level `queue_count` вместо конкретного task при нескольких задачах одной сцены.
+
+Scene-level представления (`РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и `Активные сцены проекта`) агрегируют те же active tasks по Scene ID:
+- `init/queued` → `⏳ В ОЧЕРЕДИ`;
+- `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`;
+- если одна Scene ID имеет несколько active tasks, показывать кратность (`×N` / `N задач`) и не терять второй task;
+- если статусы смешанные, scene-level label обязан отражать обе группы, а не только "primary" task.
+
+**Числа в трёх местах трактуются явно:**
+- `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` показывает **N уникальных slow-сцен / M активных задач** и Scene IDs с кратностью (`20×2`);
+- таблица `⏳ В медленной генерации — Topview` содержит **ровно M строк**, одна строка = один active task/slot;
+- `🎬 Активные сцены проекта — карта и навигация` содержит **ровно N уникальных Scene ID** с live Topview status и кратностью при нескольких задачах.
+Поэтому, например, **5 slow-сцен и 6 занятых слотов — корректно**, если одна сцена имеет две active tasks; это должно быть подписано так, чтобы не выглядеть расхождением.
+
+При каждом hourly Topview refresh изменение считается завершённым только после проверки **всего контракта одновременно**:
+- `unique(active_tasks[].scene_id) == project-status.json.slow_scenes == canonical slow Scene IDs`;
+- `occupied_slots == len(active_tasks[]) == число строк Topview-таблицы`;
+- `free_slots == max(0, 6 - occupied_slots)`;
+- набор Scene ID в active-scene map == `unique(active_tasks[].scene_id)`;
+- кратность по каждой Scene ID в summary/map == числу её `active_tasks[]`;
+- scene-level `В ОЧЕРЕДИ/ВЫПОЛНЯЕТСЯ` агрегирован из тех же task statuses;
+- все три представления используют тот же `topview-status.json.checked_at`;
+- canonical master slow declaration/table/TOC/scene markers совпадают с unique active Scene IDs.
+
+Если хотя бы один пункт расходится, Control Center **не должен считаться зелёным**, изменение нельзя объявлять завершённым. Watcher/Recovery должны автоматически пересобрать deterministic state из fresh Topview authority и проверить read-back; пользователя нельзя просить вручную сравнивать эти три места.
+
