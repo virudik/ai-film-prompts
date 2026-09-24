@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T19:26:24.000Z",
+  "checked_at": "2026-09-24T20:07:00.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T19:21:38.222Z",
-      "github_blob": "2190af2956ac7331bd84a338e8a7171beaabc242",
+      "drive_modified_at": "2026-09-24T20:03:19.785Z",
+      "github_blob": "42f02480c691e0e2c6b0b959f7e745b082eef76a",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T19:24:22.696Z",
-      "github_blob": "2e8cabe62911b8cc182bb02890d4a72a81ae9147",
+      "drive_modified_at": "2026-09-24T20:04:33.397Z",
+      "github_blob": "6a845a1183f0666a2e1ca84380f082ea8fcc8911",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub. Current Control Center owner UI is slot-based: M/6 occupied, free slots visible, work card count-only, compact navigation, floating back-to-top.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub after Luchik/Ryzhik character-canon update. Scene 13 cat is Luchik; Scenes 23–27 use Luchik/Ryzhik individual identities. Control Center remains slot-based and compact.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -182,5 +182,23 @@
     "back_to_top": true,
     "detailed_topview_header": "занято M из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS",
     "technical_info_schema_version_visible": false
+  },
+  "character_registry_update": {
+    "health": "ok",
+    "characters_added": [
+      "Лучик",
+      "Рыжик"
+    ],
+    "scene_13_cat": "Лучик",
+    "cat_branch_scenes": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "lychik_saber": "blue",
+    "ryzhik_saber": "green",
+    "individual_model_sheets_required": true
   }
 }
