@@ -279,7 +279,7 @@ def build_instruction_sync(
                 if not isinstance(external_files, dict):
                     external_files = {}
 
-                def external_file_match(info):
+                def external_file_match(name, info):
                     if not isinstance(info, dict) or info.get("match") is not True:
                         return False
                     drive_hash = info.get("drive_sha256")
