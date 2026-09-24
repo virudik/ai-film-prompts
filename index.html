@@ -504,7 +504,7 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  if(ok){healthText='✓ ПРОЕКТ СИНХРОНИЗИРОВАН';healthClass='ok'};
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
- $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;
+ $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.slowSceneIds.length;$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;
  $('metricScenesCard').onclick=()=>resetViewAndJump('active-scenes-map');$('metricPromptsCard').onclick=()=>resetViewAndJump('full-prompts');$('metricWorkIds').textContent=(s.work_items||[]).join(', ')||'нет';
  $('metricSlowCard').onclick=()=>{activeFilterKey='slow';activeFilterValues=null;renderFilters();applyView();const target=$('slow-monitor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'})};
  $('metricWorkCard').onclick=()=>{search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();const h=[...content.querySelectorAll('h2')].find(x=>x.textContent.includes('Сцены в работе'));if(h)requestAnimationFrame(()=>h.scrollIntoView({behavior:'smooth',block:'start'}))};
