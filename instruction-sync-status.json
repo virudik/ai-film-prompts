@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T14:10:38.008Z",
+  "checked_at": "2026-09-24T14:22:04.236Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T05:36:55.060Z",
-      "github_blob": "dec16f9def7ae0149b1f21adf0a4e7671f870db6",
+      "drive_modified_at": "2026-09-24T14:15:42.636Z",
+      "github_blob": "d163762b32c219ed77789c66908ad75fd07f4908",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T05:37:18.202Z",
-      "github_blob": "0c94baf54568536dac73596594af22f33278ee82",
+      "drive_modified_at": "2026-09-24T14:16:05.479Z",
+      "github_blob": "b08abd87eee44cc553856afae8d55cc899a26e2e",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T05:37:36.689Z",
-      "github_blob": "32d9d106c8b9f3571493fa3e5ade17657f164539",
+      "drive_modified_at": "2026-09-24T14:16:27.724Z",
+      "github_blob": "617ea0568545afc5d848396cfe50a9e200fb720a",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T05:38:02.983Z",
-      "github_blob": "827a60a4ee9ceac6a54894e9e9f0bd54a18b8924",
+      "drive_modified_at": "2026-09-24T14:16:54.000Z",
+      "github_blob": "96e7d386e1887a64299f43d17d05c0ad49230784",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T05:38:16.252Z",
-      "github_blob": "52949f940216e9da3b6e2ff1d79818b38c7b2cdb",
+      "drive_modified_at": "2026-09-24T14:18:01.954Z",
+      "github_blob": "adf633f59c5d006bf71c81b7860b375c641c807c",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T05:38:30.719Z",
-      "github_blob": "bdc184005e619da73a9bc9fe798b2e4e4ec0b59d",
+      "drive_modified_at": "2026-09-24T14:18:27.871Z",
+      "github_blob": "2349723951c7bd0518248962d7018ecd153d4cd2",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh 7/7 Drive↔GitHub comparison after Topview/sync incident; certificate refreshed so stale verification is not confused with an authoritative sync failure.",
+  "note": "7/7 canonical Drive instruction files exact-match GitHub after documenting scheduled Topview connector degradation and HH:00 watcher / HH:05 Recovery. Stale instruction certificate is maintenance warning, not master-sync failure; Recovery must refresh certificate each run.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -153,17 +153,18 @@
       "timing_mode": "exact_schedule",
       "minute_local": 0,
       "timezone": "Europe/Moscow",
-      "expected_max_checkpoint_age_minutes": 75
+      "expected_max_checkpoint_age_minutes": 75,
+      "connector_degradation_behavior": "never self-disable; preserve last verified snapshot and retry next HH:00"
     },
     "recovery_watchdog": {
       "title": "AI Film Recovery Sync",
       "timing_mode": "exact_schedule",
-      "minute_local": 0,
+      "minute_local": 5,
       "timezone": "Europe/Moscow",
-      "fallback_after_minutes": null
+      "fallback_after_minutes": 5
     },
-    "owner_experience": "set-and-forget; deterministic telemetry drift repaired automatically",
-    "note": "Both automations start exact hourly at HH:00:00 Europe/Moscow; Recovery must not race an in-progress healthy watcher cycle at the shared boundary."
+    "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available",
+    "note": "Watcher runs HH:00. Recovery runs HH:05 to avoid simultaneous-start race. Missing Topview connector in background run is degraded telemetry, not master-sync failure."
   },
   "three_view_topview_contract": {
     "health": "ok",
@@ -227,8 +228,8 @@
     "health": "ok",
     "timezone": "Europe/Moscow",
     "topview_watcher": "exact hourly at HH:00:00",
-    "recovery_sync": "exact hourly at HH:00:00",
-    "one_writer_note": "Topview watcher remains primary writer; Recovery must not race a healthy/current watcher cycle at the shared hour boundary."
+    "recovery_sync": "exact hourly at HH:05:00",
+    "one_writer_note": "Topview watcher remains primary writer. Recovery runs five minutes later so it can observe and repair a completed/failed watcher cycle instead of racing it."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",
