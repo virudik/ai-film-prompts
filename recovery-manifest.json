@@ -3,8 +3,8 @@
   "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
   "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
   "latest_verified_master": {
-    "sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
-    "drive_modified_at": "2026-09-24T03:14:56.719Z",
+    "sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
+    "drive_modified_at": "2026-09-24T16:37:24.906Z",
     "scene_count": 12,
     "prompt_count": 22
   },
@@ -18,25 +18,30 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-24T04:14:14Z",
-    "active_task_count": 6,
-    "canonical_slow_scene_ids": [4,17,19,20,21],
+    "checked_at": "2026-09-24T17:02:11.000Z",
+    "active_task_count": 5,
+    "canonical_slow_scene_ids": [
+      17,
+      19,
+      20,
+      21
+    ],
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0
+    "occupied_slots": 5,
+    "free_slots": 1
   },
   "critical_github_blobs": {
-    "project-status.json": "c6156eb8a993280bc5aa04804ea9b05d4db28c6f",
-    "instruction-sync-status.json": "d11f93b9d270bf04822e702b2ea4fe55ebf9058a",
-    "topview-status.json": "a69f1d87f827cbdfbcda98fcf9a7156405aa3565",
-    "topview-task-map.json": "4e3895e2968c4ebdec76d08784b4b6035cc62944",
-    "topview-operation-journal.json": "641dae7aaaa26e75c3171a577805d9be1eb25974"
+    "project-status.json": "798423414327b64b38e1d6985dda0cec50e425f4",
+    "instruction-sync-status.json": "bb565e03ebbdabfd070094fedd9502f6435dc644",
+    "topview-status.json": "5ed6873674b93e54aa2ae70db54915af24e85240",
+    "topview-task-map.json": "ab74955ef58975ed2911f1a2d7c3f89c20db0b5e",
+    "topview-operation-journal.json": "f4af4541482147a2eef8f1d4194538b2bd0d81b1"
   },
   "validator": {
     "version": "cross-layer-v1+certificate-blob+fatal-status-guard",
     "last_result": "success",
-    "verified_at": "2026-09-24T04:30:03Z"
+    "verified_at": "2026-09-24T16:45:20Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-24T04:29:46.571Z",
-  "last_successful_full_reconciliation": "2026-09-24T04:30:03Z"
+  "last_successful_instruction_mirror_check": "2026-09-24T16:31:01.762Z",
+  "last_successful_full_reconciliation": "2026-09-24T17:07:50Z"
 }
