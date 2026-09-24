@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T03:48:55.568Z",
+  "checked_at": "2026-09-24T03:51:56.421Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,7 +9,7 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T03:46:06.725Z",
+      "drive_modified_at": "2026-09-24T03:51:40.836Z",
       "github_blob": "c5829ebb0cc303af8b7f1e44a64273ed2646a161",
       "match": true
     },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files freshly compared after making hourly Topview publication to all three Control Center views mandatory; exact Drive↔GitHub match verified.",
+  "note": "Seven canonical Drive instruction files verified after mandatory hourly three-view Topview publication update; Drive↔GitHub text exact-match, handoff modified timestamp refreshed.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
