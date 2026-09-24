@@ -34,7 +34,7 @@
 
 
 
-**23.09.2026 · 10 сцен к генерации/доработке · 20 полных текстов промтов**
+**24.09.2026 · 11 сцен к генерации/доработке · 21 полный текст промта**
 
 
 
@@ -45,7 +45,7 @@
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5, W7–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 5** сцен сейчас в медленной генерации: **3, 4, 17, 19, 20** — повторно не запускать до результата/ошибки или отдельного решения пользователя.
-- **Последние оформленные активные сцены:** 19–20.
+- **Последние оформленные активные сцены:** 19–21.
 - **Последняя полная синхронизация:** **23.09.2026 · текущая по live Topview/Drive сверке**.
 
 
@@ -64,7 +64,7 @@
 
 
 
-**Синхронизация контекста:** **22.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются 10 актуальных сцен и 20 полных текстов промтов. Сцены 1, 2, 6, 7, 9, 12, 14, 15 и 18 удалены из active master по прямому решению пользователя как уже отработанные/больше не актуальные; их Scene ID остаются зарезервированы и не переиспользуются. Canonical slow-list сейчас: **3, 4, 17, 19, 20**. Scene 5 получила успешный terminal-result Topview 23.09.2026 и поэтому снята только с render slow-state; это не означает автоматическое editorial approval. Scene 20 имеет две активные Topview-задачи (PART 1 и PART 2), остаётся одним Scene ID и занимает два из шести task slots. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **22.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются 11 актуальных сцен и 21 полный текст промта. Сцены 1, 2, 6, 7, 9, 12, 14, 15 и 18 удалены из active master по прямому решению пользователя как уже отработанные/больше не актуальные; их Scene ID остаются зарезервированы и не переиспользуются. Canonical slow-list сейчас: **3, 4, 17, 19, 20**. Scene 5 получила успешный terminal-result Topview 23.09.2026 и поэтому снята только с render slow-state; это не означает автоматическое editorial approval. Scene 20 имеет две активные Topview-задачи (PART 1 и PART 2), остаётся одним Scene ID и занимает два из шести task slots. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 
 
@@ -118,6 +118,7 @@
 | 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
 | 19 | [Рыбалка и Маша-Лагуна](#scene-19)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
 | 20 | [Маша-Лагуна — рок-припев у озера](#scene-20)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = локация/берег озера; @Image2 = Маша-Лагуна | Полный музыкальный номер разбит на 11 взаимосвязанных 30-секундных Seedance 2.5 фрагментов «Песня Маши 1–11» с точным пользовательским вокальным текстом, единым образом Маши, одной локацией и кинематографичной эскалацией от вступления к финальному аутро. |
+| 21 | [Мостик → космическая битва: бесшовный пролёт через окно](#scene-21) | @Image1 = точный первый кадр/мостик; @Image2 = точный последний кадр/космическая битва; @Image3 = Серёга; @Image4 = Юля | 30-секундный Seedance 2.5 first-and-last-frame переход: Серёга и Юля радуются на мостике, камера непрерывно приближается к окну, без бликов/отражений/преломления проходит сквозь стекло и физически продолжает полёт в космическом сражении до точной композиции @Image2. |
 
 
 
@@ -3249,3 +3250,93 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 
 ```
+---
+
+<a id="scene-21"></a>
+
+## Сцена 21 — Мостик → космическая битва: бесшовный пролёт через окно
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["space_battle","continuous_take","first_last_frame","seamless_transition","character_identity"]} -->
+
+**Контекст использования:** Промежуточная 30-секундная сцена между двумя уже существующими роликами. Первый кадр — мостик корабля во время космического сражения; второй кадр — внешний вид продолжающегося боя в космосе. Два исходных видео использованы только как контекст монтажа и не являются референсами генерации. Критический переход: камера физически приближается к большому окну мостика и проходит сквозь стекло в одном непрерывном движении, после чего оказывается в открытом космосе и к финалу точно приходит к композиции @Image2. При пересечении стекла запрещены блики, lens flare, отражение, преломление, размытие, вспышка или белый переход — стекло в момент пересечения должно быть визуально нейтральным и практически незаметным.
+
+**Референсы:** @Image1 = точный первый кадр / композиция мостика · @Image2 = точный последний кадр / композиция космической битвы · @Image3 = Серёга, каноническая model sheet из «Персонажей» · @Image4 = Юля, каноническая model sheet из «Персонажей».
+
+**Что происходит:** На мостике идёт напряжённое сражение, видимое через панорамные окна. Серёга и Юля стоят рядом в центре и искренне радуются удачному ходу боя; экипаж продолжает работать за консолями. Камера начинает внутри мостика, плавно движется вперёд между персонажами и рабочими местами к центральному окну. По мере приближения космический бой за стеклом занимает всё больше кадра. Камера без остановки, склейки и визуального эффекта пересекает плоскость стекла, оказывается снаружи и продолжает тот же полёт вперёд среди кораблей, лазерного огня и следов движения, постепенно приходя к точной геометрии и направлению @Image2.
+
+```text
+Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2) + character reference images @Image3 (Serega) and @Image4 (Yulia)
+Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous unbroken camera move
+
+REFERENCES:
+@Image1 — PRIMARY START-FRAME / BRIDGE COMPOSITION reference. Match the exact opening bridge geometry, panoramic windows, console placement, crew distribution, lighting, exterior battle visible through the windows, camera height, lens perspective and starting framing. It controls the environment and first-frame composition, not the exact identities of Serega or Yulia.
+@Image2 — PRIMARY END-FRAME / SPACE-BATTLE COMPOSITION reference. The final frames must converge naturally toward this exact exterior battle view: same broad camera direction, depth, starfield/planet relationship, attacking craft distribution, smoke/contrail flow and forward-motion feeling. Do not snap or dissolve into it; arrive through continuous physical camera travel.
+@Image3 — PRIMARY EXACT IDENTITY reference for SEREGA. Use the approved Serega model sheet from the Characters registry as the absolute authority for his face, age, hair, body proportions and established Chancellor identity. In this scene preserve the dark-purple Chancellor robe visible on the bridge.
+@Image4 — PRIMARY EXACT IDENTITY reference for YULIA. Use the approved Yulia model sheet from the Characters registry as the absolute authority for her face, age, hair, body proportions and established appearance. Preserve the dark bridge outfit/robe appropriate to the opening composition.
+
+REFERENCE PRIORITY / IDENTITY LOCK:
+@Image3 and @Image4 outrank @Image1 for Serega and Yulia's identities. @Image1 controls bridge architecture, crew layout, opening staging and lighting only. @Image2 controls the target exterior composition and motion direction only. Never average Serega or Yulia with incidental faces in @Image1. Keep both identities, hairstyles, proportions and clothing stable until the camera leaves the bridge.
+The two source videos surrounding this insert are CONTEXT ONLY and are NOT generation references; do not invent extra reference-video dependencies.
+
+START STATE:
+Begin exactly from @Image1 as though the preceding shot has continued without interruption. The battle is already active outside the panoramic bridge windows. Serega and Yulia stand together near the center of the bridge. Bridge officers remain at their stations and continue operating consoles. No one enters from nowhere and no geometry resets.
+
+SCENE GOAL:
+Create a physically convincing invisible bridge between the interior bridge shot and the exterior space-battle shot. The audience should feel that one real camera travels from inside the command bridge, approaches the central panoramic window, crosses its plane without any edit or optical transition effect, and continues into open space until the view becomes @Image2.
+
+TIMELINE / STORY FLOW:
+[0:00–0:06]
+Hold the exact @Image1 geography while beginning a slow controlled forward dolly. Serega and Yulia react to a successful moment in the battle with genuine restrained excitement: broad relieved smiles, a short celebratory look toward each other and toward the battle, a natural small victory gesture. They do not speak. Officers remain focused on their consoles. Outside, multiple ships exchange fire and distant impacts illuminate parts of the battlefield without changing the bridge lighting unrealistically.
+
+[0:06–0:12]
+The camera continues forward through the bridge on a clear physical path toward the large central window. Pass Serega and Yulia naturally while keeping them readable for several seconds; their celebration settles into focused satisfaction as they look out at the battle. Consoles and crew gain parallax and slide past the frame edges. The exterior battle grows larger through the window. No cuts and no sudden acceleration.
+
+[0:12–0:17]
+Approach the window until its frame moves toward the edges of the image. The camera trajectory remains perpendicular enough to the glass to make the crossing clean and spatially understandable. The battlefield beyond remains perfectly continuous in scale and direction. The window frame itself may pass around the edges, but the glass surface must NOT announce itself with an effect.
+
+[0:17–0:19] — CRITICAL GLASS CROSSING
+The camera crosses the physical plane of the panoramic glass in one uninterrupted forward movement and emerges outside the ship.
+ABSOLUTELY NO lens flare, glare, reflected bridge image, reflection sweep, refraction, distortion, chromatic aberration, bloom, haze burst, blur, focus wash, white flash, exposure flash, ripple, shimmer, glass texture overlay, glass shatter or transition effect at the crossing.
+Do not make the glass disappear dramatically. Treat the transparent pane as optically neutral at the exact crossing so the audience perceives only continuous forward movement from interior air to exterior space. No hard cut, hidden cut, whip transition or speed-ramp masking the crossing.
+
+[0:19–0:25]
+Now fully outside, continue the SAME forward camera vector into the battle. The bridge and window fall naturally behind camera. Fighters and larger ships move at different depths with believable parallax. Laser fire crosses the scene at safe readable distances; several ships bank through the battle and leave persistent smoke/engine trails consistent with @Image2. Preserve coherent scale and inertia — no teleporting ships, duplicated craft or instant formation changes.
+
+[0:25–0:30]
+Use only subtle steering/reframing while continuing forward so the spatial arrangement progressively converges on @Image2. By the final frame match @Image2 as closely as possible in camera angle, forward direction, starfield/planet placement, visible craft, trail flow, depth and overall composition. The last frame must feel like the natural next instant of the same continuous shot, not a morph into a still image.
+
+CAMERA / LENS / CONTINUITY:
+One continuous unbroken take for the full 30 seconds. No edits of any kind.
+Physically stable cinematic camera with controlled inertia, smooth forward dolly/flight and no random jitter or micro-shake.
+Maintain one coherent 3D coordinate system from bridge interior through the window plane into exterior space. The battle visible through the glass before crossing must be the SAME battle the camera enters afterward; ships cannot relocate when the camera crosses the window.
+Use a natural cinematic perspective approximately equivalent to a 28–35 mm full-frame lens inside the bridge, preserving perspective continuously rather than changing focal length at the glass.
+No artificial zoom. Forward scale change comes from real camera translation.
+The window crossing is geometry, not an optical effect.
+
+CHARACTER PERFORMANCE:
+SEREGA: genuine relief and delighted satisfaction at the battle turning in their favor; smiling, energized, one restrained celebratory gesture, then attention returns to the battle. No dialogue, no caricature, no dancing.
+YULIA: shares the victory beat naturally with Serega — warm excited smile, brief eye contact/reaction, then looks back through the window. No dialogue, no exaggerated cheering.
+Both remain photoreal human performers with natural blinking, breathing, posture shifts and cloth motion. Preserve exact identity throughout their visible portion of the shot.
+Bridge crew stay professional and busy; they do not all stop to celebrate or stare at camera.
+
+SPACE BATTLE / PHYSICS:
+The battle is already underway at frame one and continues without reset across the window crossing. Use multiple readable depth layers: distant capital ships, mid-distance combat, nearer fighters and projectile paths. Motion has mass and inertia. Engine trails and smoke persist consistently rather than spawning randomly. Impacts are localized and do not fill the entire frame with fire. Keep enough visual clarity that the forward camera path remains readable.
+
+LIGHTING / MATERIAL REALISM:
+Photoreal live-action space-opera cinematography. Inside: practical console illumination, restrained overhead industrial lighting, realistic metal, glass and fabric response, natural skin texture. Exterior battle light may create subtle physically motivated changes on the bridge but never a giant flare across camera.
+At the glass crossing, preserve exposure and color continuously. NO brightness jump, NO reflection, NO highlight streak, NO flare and NO refractive distortion.
+Outside: deep black space, physically coherent ship lighting, engine glow and distant battle illumination consistent with @Image2. Avoid game-render sheen and synthetic plastic surfaces.
+
+AUDIO (native):
+Inside bridge: low command-deck ambience, console beeps, restrained crew activity, distant muffled battle impacts through the hull, engine/ship vibration. Serega and Yulia may make brief natural nonverbal celebratory breaths/laughs, but NO spoken dialogue.
+During the window crossing, transition the sound perspective smoothly from muffled interior battle/hull ambience toward cinematic exterior battle sound design without a whoosh used to hide an edit.
+Outside: engines, distant weapons fire, impacts and low cinematic battle rumble. No music unless already present in the surrounding edit. No narrator.
+
+NEGATIVE PROMPT:
+hard cut, hidden cut, dissolve, crossfade, morph transition, whip-pan transition, speed-ramp transition, lens flare, anamorphic flare, glare on glass, window reflection, reflected bridge, reflected characters, reflection sweep, refraction, refractive warp, chromatic aberration, glass distortion, glass blur, frosted glass, white flash, exposure flash, bloom burst, haze burst, focus wash, ripple, shimmer, glass shattering, broken window, visible transition effect, camera collision with glass, camera stopping at window, sudden focal-length change, artificial zoom, camera teleportation, spatial reset after crossing, battle changing when crossing glass, identity drift, face averaging, face swap, changed Serega face, changed Yulia face, costume drift, duplicated Serega, duplicated Yulia, all crew cheering, exaggerated celebration, dancing, wrong bridge geometry, consoles morphing, crew teleporting, duplicated ships, disappearing ships, fighters morphing, random trail spawning, warped starfield, changing planet position, incoherent scale, camera jitter, micro-shake, cartoon, anime, game-render look, plastic skin, subtitles, captions, text, logo, watermark, black bars, side bars, decorative borders, empty margins.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
