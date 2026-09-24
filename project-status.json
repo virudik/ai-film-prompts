@@ -3,11 +3,11 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T16:31:31Z",
+  "synced_at": "2026-09-24T16:44:28Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
-  "canonical_master_bytes": 273574,
+  "canonical_master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
+  "canonical_master_bytes": 273405,
   "scenes": 12,
   "prompt_texts": 22,
   "work_items": [
@@ -25,13 +25,12 @@
   ],
   "work_items_count": 11,
   "slow_scenes": [
-    4,
     17,
     19,
     20,
     21
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 4,
   "scene_ids": [
     3,
     4,
@@ -64,7 +63,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.008,
+    "age_hours_at_status_build": 0.224,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -114,7 +113,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.008,
+      "age_hours": 0.224,
       "blocking": false
     },
     "topview_task_map": {
@@ -160,7 +159,7 @@
         "needs_fix",
         "continuity"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "5": {
       "target_engine": null,
@@ -348,8 +347,8 @@
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T16:31:31Z",
-    "canonical_master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
+    "synced_at": "2026-09-24T16:44:28Z",
+    "canonical_master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06",
     "scene_count": 12,
     "prompt_count": 22,
     "scene_ids": [
@@ -380,7 +379,6 @@
       "W15"
     ],
     "slow_scenes": [
-      4,
       17,
       19,
       20,
