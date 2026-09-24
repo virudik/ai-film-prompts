@@ -19,14 +19,14 @@ INSTR = ROOT / "instruction-sync-status.json"
 SYNCED_AT = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))["synced_at"]
 
 
-def run_validator(master=MASTER, topview=TOPVIEW, taskmap=TASKMAP):
+def run_validator(master=MASTER, topview=TOPVIEW, taskmap=TASKMAP, instr=INSTR):
     with tempfile.TemporaryDirectory() as td:
         out = Path(td) / "status.json"
         p = subprocess.run(
             [
                 "python3", str(BUILD), str(master), "--output", str(out),
                 "--synced-at", SYNCED_AT,
-                "--instruction-status-file", str(INSTR),
+                "--instruction-status-file", str(instr),
                 "--topview-status-file", str(topview),
                 "--topview-task-map-file", str(taskmap),
             ],
@@ -111,6 +111,27 @@ class IntegrationRecoveryTests(unittest.TestCase):
             p, status = run_validator(topview=tp)
             self.assertNotEqual(p.returncode, 0)
             self.assertFalse(status["checks"]["topview_occupied_matches_active_tasks"])
+
+    def test_stale_instruction_certificate_is_maintenance_not_sync_failure(self):
+        instr = json.loads(INSTR.read_text(encoding="utf-8"))
+        instr["checked_at"] = "2026-01-01T00:00:00Z"
+        instr["health"] = "ok"
+        instr["all_match"] = True
+        with tempfile.TemporaryDirectory() as td:
+            ip = Path(td) / "instruction.json"
+            write_json(ip, instr)
+            p, status = run_validator(instr=ip)
+            self.assertEqual(p.returncode, 0, p.stderr)
+            self.assertEqual(status["health"], "ok")
+            self.assertEqual(status["instruction_sync"]["health"], "stale")
+            self.assertEqual(status["warnings"], [])
+            self.assertFalse(status["maintenance"]["instruction_verification"]["blocking"])
+
+    def test_control_center_separates_scenes_from_generation_slots(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn("runtimeTopview.slowSceneIds.length+' сцен'", html)
+        self.assertIn("runtimeTopview.occupied+' генераций · занято '", html)
+        self.assertIn("instruction!=='error'", html)
 
     def test_watcher_watchdog_contract_is_present(self):
         # Static integration guard: Recovery automation prompt is external, so repository
