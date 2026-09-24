@@ -728,3 +728,15 @@ Per Scene ID it tracks five independent facts: `result_received`, `reviewed`, `a
 - Routine healthy/repaired maintenance остаётся silent. Owner notification нужна только для ambiguous mapping, verified unrepaired failure, task failure/cancel, capacity >6 или реального творческого решения.
 - Любое изменение schedule/prompt automation обязано явно сохранять `is_enabled=true`; если watcher после run оказывается disabled без явного решения владельца, Recovery должен автоматически вернуть его в enabled state.
 
+## CHATGPT PROJECT MODE — AI Film Серёгиус — 24.09.2026
+
+- Проект ChatGPT `AI Film Серёгиус` является **контекстным рабочим контейнером**, а не новым источником истины. Чаты, Project files и Project Instructions помогают continuity/onboarding, но не заменяют fresh authoritative sources.
+- При конфликте проектной памяти, старого чата, вложения или сохранённой копии с live-источниками приоритет: exact Google Drive master/instructions → live GitHub status/runtime → Topview telemetry для генераций → Notion для story/history → Library как recovery cache.
+- Новый Chat или Work внутри Project не должен начинать с нуля и не должен просить пользователя повторять известное. Он обязан использовать контекст Project, затем выполнить canonical takeover/preflight из `NEW-CHAT-HANDOFF.md`.
+- **Project context не отменяет fresh-read.** Перед любой записью в prompt master нужен свежий exact Drive master; перед prompt work — fresh `PROMPT-STYLE-GUIDE.md` + 1–2 близкие current scenes; перед story/editing — fresh `film-analysis.md` + `film-backlog.md` и при необходимости Notion `Кино`.
+- Static/generated copies of `video-prompts.md`, handoff или status, попавшие в старые чаты/вложения Project, считаются только historical context. Нельзя брать их как editable authority, если доступен live Drive/GitHub.
+- Для длинных многошаговых технических задач, аудитов, массовой сверки источников и handoff/recovery предпочтителен **Work внутри этого Project**. Для обычного обсуждения/написания одной сцены подходит обычный Project Chat. Оба режима обязаны соблюдать один canonical workflow.
+- Смена конкретного чата — штатная операция: новый Project Chat/Work восстанавливает состояние из Project context + canonical handoff/live sources. Нельзя строить архитектуру на предположении, что один чат будет жить бесконечно.
+- Scheduled Tasks/automations остаются независимой operational автомatikой; Project Chat не должен дублировать их ручным мониторингом, если live tools позволяют проверить состояние.
+- Владелец должен заниматься фильмом, а не обслуживать инфраструктуру: deterministic sync/status/site/Topview drift чинится автоматически или редактором; пользователя спрашивать только о genuinely creative/editorial/ambiguous decisions.
+
