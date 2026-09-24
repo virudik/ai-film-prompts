@@ -27,16 +27,19 @@ contracts = (
     "const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;",
     "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
     "Topview telemetry временно устарела",
-    "runtimeTopview.occupied+' из '+runtimeTopview.capacity",
-    "runtimeTopview.slowSceneIds.length+' сцен · '+runtimeSceneMultiplicityLabel()",
+    "$('metricSlow').textContent=runtimeTopview.occupied;",
+    "cap.innerHTML='занято '+occupied+' из '+capacity",
+    "$('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;",
 )
 for required in contracts:
     if required not in html:
         raise SystemExit("missing fail-safe health contract: "+required)
 
-# Slow summary is intentionally shown once in the metric; machine-status pill
-# must not duplicate the same scene/task summary.
-if "медленная генерация ${runtimeTopview.slowSceneIds.length}" in html:
-    raise SystemExit("duplicate slow summary returned to projectStatus")
+# The top revision card is intentionally minimal: one active-generation count.
+# Capacity, timestamp, Scene IDs and multiplicity belong to the detailed Topview block.
+if "metricSlowIds" in html:
+    raise SystemExit("top slow metric must not include scene IDs/multiplicity")
+if 'id="schema"' in html:
+    raise SystemExit("internal schema_version must not be shown in owner-facing technical info")
 
 print("site contract ok; duplicate ids=0; inline JS syntax ok; fail-safe health contract ok")
