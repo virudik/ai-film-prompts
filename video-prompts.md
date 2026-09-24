@@ -129,94 +129,6 @@
 
 ---
 
-<a id="scene-22"></a>
-
-## Сцена 22 — Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину
-
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","space_battle","continuous_take","first_last_frame","seamless_transition"]} -->
-
-**Контекст использования:** Новая промежуточная 30-секундная сцена между двумя уже существующими роликами. Первый кадр — внешний вид сильно повреждённой космической станции в разгаре боя; второй кадр — внутренний коридор станции со штурмовиками. Два исходных видео используются только как монтажный контекст, чтобы понимать, какие фрагменты сцена соединяет; их не прикреплять и не трактовать как reference input. Критическая задача — один физически непрерывный перелёт: космос → подлёт к станции → вход через реальную пробоину в корпусе → повреждённая внутренняя структура → целый коридор. Никакой склейки, телепортации или мгновенной подмены пространства.
-
-**Референсы:** @Image1 = точный первый кадр / разрушенная станция снаружи · @Image2 = точный последний кадр / внутренний коридор станции со штурмовиками.
-
-**Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
-
-```text
-Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2)
-Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous unbroken camera move
-
-REFERENCES:
-@Image1 — PRIMARY START-FRAME / EXTERIOR reference. Match the exact opening composition, damaged battle-station silhouette, visible hull destruction, burning sections, debris field, space background, camera orientation, lighting balance, scale and battle atmosphere.
-@Image2 — PRIMARY END-FRAME / INTERIOR reference. Match the exact final corridor geometry, perspective, camera height, vanishing point, wall and ceiling architecture, overhead lighting, red warning lights, floor reflections and the running stormtroopers.
-
-IMPORTANT REFERENCE RULE:
-@Image1 owns only the start composition and exterior station identity. @Image2 owns only the final interior destination and exact ending composition. Do not blend the two reference images into a surreal hybrid frame. The interior must not suddenly replace the exterior. The camera must physically travel from the exterior of the same station through a visible pre-existing hull breach and through plausible damaged internal structure before reaching the intact corridor. Preserve one coherent 3D space and one continuous direction of travel.
-
-The two surrounding source videos are EDITING CONTEXT ONLY and are NOT generation references. Do not infer extra visual identities, exact frames, characters or geometry from them beyond the stated narrative continuity.
-
-STYLE GOAL:
-Photorealistic live-action space-opera cinematography with realistic scale, physically believable camera inertia, dense but readable battle action, detailed scorched metal, volumetric smoke and sparks inside the breach, convincing depth, restrained anamorphic highlights and subtle film grain. The shot should feel like an expensive practical/VFX transition in a feature film, not a game cutscene or a morphing AI transition.
-
-SCENE / CONTINUITY GOAL:
-This is a bridge shot between an exterior space-battle sequence and an interior chase/run sequence. It must make the audience feel that the second clip is physically inside the damaged station seen in the first clip. Every stage of the move must reveal the next space naturally: the breach is visible before entry, internal structure is revealed only after crossing the hull, and the final corridor emerges from the same forward trajectory.
-
-TIMELINE / STORY FLOW:
-[0:00–0:05] — EXACT START / BATTLE ESTABLISHMENT
-Begin exactly on @Image1. The damaged station remains clearly readable while the surrounding battle is already active. Distant capital ships and smaller fighters exchange laser fire; one or two ships cross the midground without obscuring the station. Small explosions and glowing impacts flicker across distant damaged surfaces. The camera is already alive with a subtle forward drift but does not immediately lose the reference composition.
-
-[0:05–0:11] — COMMIT TO THE BREACH
-The camera accelerates toward one specific large existing breach in the station hull. The chosen opening must remain visually stable from this point onward — do not create a new hole later. Nearby ships streak past at different depths; laser fire crosses the wider battlefield. The station grows convincingly in scale and surface detail. Keep the route into the breach unobstructed and visually understandable.
-
-[0:11–0:17] — CLOSE EXTERIOR APPROACH
-Now very close to the hull: scorched plating, torn structural ribs, exposed decks, glowing damage, venting smoke or vapor, sparks and slowly drifting fragments become readable. The camera makes only a small physically motivated alignment correction toward the breach. It never clips through intact metal. Battle flashes still illuminate the exterior behind and around the camera path.
-
-[0:17–0:22] — PHYSICAL BREACH ENTRY
-Cross through the actual torn opening in one uninterrupted move. Pass between broken armor plates and structural beams with believable clearance. The transition must be achieved by real geometry moving past the lens — not a white flash, blur wipe, smoke wipe, dissolve, portal, lens flare or hidden cut. Exterior battle light falls off naturally as the camera enters the station.
-
-[0:22–0:26] — DAMAGED INTERNAL TRANSITION ZONE
-Continue forward through a short damaged service/deck section logically behind the breach: exposed beams, broken wall panels, hanging cables, sparks, smoke, emergency red lighting and distant vibration from impacts. This zone gradually becomes less destroyed. The architecture must begin aligning toward the proportions, camera height and vanishing point of @Image2 while still feeling like the same station.
-
-[0:26–0:30] — EXACT CORRIDOR ARRIVAL / LAST FRAME
-The damaged transition opens naturally into the intact corridor from @Image2. Several stormtroopers are already running toward camera exactly within the established corridor geography; they do not pop into existence. Camera motion smooths and settles into the exact framing, angle, height, perspective, lighting, wall geometry and troop placement of @Image2. The final generated frame must match @Image2 as closely as possible.
-
-CAMERA / MOVEMENT:
-One continuous take, no cuts. Physically stable cinematic motion with controlled inertia. One dominant forward flight path from space into the station. No random orbit, no backward reset, no teleport, no impossible acceleration changes, no micro-shake. Small lateral/vertical corrections are allowed only to avoid debris and line up with the breach. Camera must never pass through intact hull, walls, floor, ceiling, ships or characters.
-
-SPACE BATTLE:
-The battle remains active during the exterior half: multiple ships at different distances, laser exchanges, engine trails, occasional explosions and drifting debris. Keep action layered around the camera route rather than directly blocking it. Ships must maintain stable geometry and scale. Do not overcrowd the frame so much that the approach to the breach becomes unreadable.
-
-STATION / ENVIRONMENT LOCK:
-The station remains the same object throughout: same hull material family, same damage language, same structural scale. The breach is a real opening caused by battle damage and visibly connects exterior plating to interior structure. No giant impossible cavity, no TARDIS-like larger-on-the-inside space, no sudden architectural style change. The final corridor should feel like an intact internal section farther behind the damaged outer shell.
-
-STORMTROOPERS / FINAL ACTION:
-Stormtroopers appear only after the camera reaches the interior corridor. Match @Image2's white armor silhouette, approximate number, running direction and spatial arrangement. Their movement is urgent but grounded: natural stride, stable anatomy, no sliding feet, no duplicated limbs or melting helmets. They remain secondary to the transition and must not block the camera path.
-
-LIGHTING / MATERIALS:
-Exterior: cold deep-space illumination mixed with orange fire from station damage, red/blue battle flashes and realistic reflected light on hull plates.
-Breach: strong contrast, hot sparks, glowing damaged metal, intermittent red emergency light, smoke catching directional light.
-Interior corridor: transition cleanly into the white overhead panels and red accents of @Image2. Preserve realistic metallic roughness, panel seams, floor reflections and atmospheric depth.
-
-AUDIO (native):
-Exterior: layered ship engines, laser fire, distant explosions and low-frequency battle rumble. As the camera enters the breach, exterior battle becomes more muffled and structural vibrations, metal groans, sparks, electrical crackles and emergency alarms take over. Final corridor: alarm ambience, running footsteps, armor movement and distant impacts transmitted through the station. No dialogue. No music. No abrupt audio reset at the transition.
-
-NEGATIVE PROMPT:
-hard cut, hidden edit, jump cut, dissolve, morph transition, portal, teleporting camera, white flash transition, lens-flare wipe, smoke wipe, instant exterior-to-interior replacement, camera clipping through intact hull, wall or ceiling, impossible station geometry, corridor appearing from nowhere, giant empty cavity, changing station design, changing breach location, warped perspective, unstable scale, ships morphing or duplicating, excessive battle clutter blocking the route, static empty battle, low-detail ships, random camera spin, camera jitter, micro-shake, game-render look, cartoon, anime, oversaturated neon, stormtroopers in open space, stormtroopers appearing before the corridor, duplicated stormtroopers, melted armor, warped limbs, sliding feet, distorted corridor, moving walls, floating interior props, text, subtitles, logos, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-
----
-
-
-
-
-
-
-
-
 ## Сцены в работе
 
 Это не финальные промты, а рабочий блок. Сюжетные идеи из «Ближайших направлений», «Сюжетных идей-кандидатов», заметок Саши и отдельной сюжетной логики сведены сюда в одну очередь. Статус **ОБДУМАТЬ** означает монтажную/сюжетную задачу, которую пока не следует превращать в отдельную генерационную сцену без проверки существующего материала.
@@ -3408,6 +3320,86 @@ Outside: engines, distant weapons fire, impacts and low cinematic battle rumble.
 
 NEGATIVE PROMPT:
 hard cut, hidden cut, dissolve, crossfade, morph transition, whip-pan transition, speed-ramp transition, lens flare, anamorphic flare, glare on glass, window reflection, reflected bridge, reflected characters, reflection sweep, refraction, refractive warp, chromatic aberration, glass distortion, glass blur, frosted glass, white flash, exposure flash, bloom burst, haze burst, focus wash, ripple, shimmer, glass shattering, broken window, visible transition effect, camera collision with glass, camera stopping at window, sudden focal-length change, artificial zoom, camera teleportation, spatial reset after crossing, battle changing when crossing glass, identity drift, face averaging, face swap, changed Serega face, changed Yulia face, costume drift, duplicated Serega, duplicated Yulia, all crew cheering, exaggerated celebration, dancing, wrong bridge geometry, consoles morphing, crew teleporting, duplicated ships, disappearing ships, fighters morphing, random trail spawning, warped starfield, changing planet position, incoherent scale, camera jitter, micro-shake, cartoon, anime, game-render look, plastic skin, subtitles, captions, text, logo, watermark, black bars, side bars, decorative borders, empty margins.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-22"></a>
+
+## Сцена 22 — Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","space_battle","continuous_take","first_last_frame","seamless_transition"]} -->
+
+**Контекст использования:** Новая промежуточная 30-секундная сцена между двумя уже существующими роликами. Первый кадр — внешний вид сильно повреждённой космической станции в разгаре боя; второй кадр — внутренний коридор станции со штурмовиками. Два исходных видео используются только как монтажный контекст, чтобы понимать, какие фрагменты сцена соединяет; их не прикреплять и не трактовать как reference input. Критическая задача — один физически непрерывный перелёт: космос → подлёт к станции → вход через реальную пробоину в корпусе → повреждённая внутренняя структура → целый коридор. Никакой склейки, телепортации или мгновенной подмены пространства.
+
+**Референсы:** @Image1 = точный первый кадр / разрушенная станция снаружи · @Image2 = точный последний кадр / внутренний коридор станции со штурмовиками.
+
+**Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
+
+```text
+Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2)
+Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous unbroken camera move
+
+REFERENCES:
+@Image1 — PRIMARY START-FRAME / EXTERIOR reference. Match the exact opening composition, damaged battle-station silhouette, visible hull destruction, burning sections, debris field, space background, camera orientation, lighting balance, scale and battle atmosphere.
+@Image2 — PRIMARY END-FRAME / INTERIOR reference. Match the exact final corridor geometry, perspective, camera height, vanishing point, wall and ceiling architecture, overhead lighting, red warning lights, floor reflections and the running stormtroopers.
+
+IMPORTANT REFERENCE RULE:
+@Image1 owns only the start composition and exterior station identity. @Image2 owns only the final interior destination and exact ending composition. Do not blend the two reference images into a surreal hybrid frame. The interior must not suddenly replace the exterior. The camera must physically travel from the exterior of the same station through a visible pre-existing hull breach and through plausible damaged internal structure before reaching the intact corridor. Preserve one coherent 3D space and one continuous direction of travel.
+
+The two surrounding source videos are EDITING CONTEXT ONLY and are NOT generation references. Do not infer extra visual identities, exact frames, characters or geometry from them beyond the stated narrative continuity.
+
+STYLE GOAL:
+Photorealistic live-action space-opera cinematography with realistic scale, physically believable camera inertia, dense but readable battle action, detailed scorched metal, volumetric smoke and sparks inside the breach, convincing depth, restrained anamorphic highlights and subtle film grain. The shot should feel like an expensive practical/VFX transition in a feature film, not a game cutscene or a morphing AI transition.
+
+SCENE / CONTINUITY GOAL:
+This is a bridge shot between an exterior space-battle sequence and an interior chase/run sequence. It must make the audience feel that the second clip is physically inside the damaged station seen in the first clip. Every stage of the move must reveal the next space naturally: the breach is visible before entry, internal structure is revealed only after crossing the hull, and the final corridor emerges from the same forward trajectory.
+
+TIMELINE / STORY FLOW:
+[0:00–0:05] — EXACT START / BATTLE ESTABLISHMENT
+Begin exactly on @Image1. The damaged station remains clearly readable while the surrounding battle is already active. Distant capital ships and smaller fighters exchange laser fire; one or two ships cross the midground without obscuring the station. Small explosions and glowing impacts flicker across distant damaged surfaces. The camera is already alive with a subtle forward drift but does not immediately lose the reference composition.
+
+[0:05–0:11] — COMMIT TO THE BREACH
+The camera accelerates toward one specific large existing breach in the station hull. The chosen opening must remain visually stable from this point onward — do not create a new hole later. Nearby ships streak past at different depths; laser fire crosses the wider battlefield. The station grows convincingly in scale and surface detail. Keep the route into the breach unobstructed and visually understandable.
+
+[0:11–0:17] — CLOSE EXTERIOR APPROACH
+Now very close to the hull: scorched plating, torn structural ribs, exposed decks, glowing damage, venting smoke or vapor, sparks and slowly drifting fragments become readable. The camera makes only a small physically motivated alignment correction toward the breach. It never clips through intact metal. Battle flashes still illuminate the exterior behind and around the camera path.
+
+[0:17–0:22] — PHYSICAL BREACH ENTRY
+Cross through the actual torn opening in one uninterrupted move. Pass between broken armor plates and structural beams with believable clearance. The transition must be achieved by real geometry moving past the lens — not a white flash, blur wipe, smoke wipe, dissolve, portal, lens flare or hidden cut. Exterior battle light falls off naturally as the camera enters the station.
+
+[0:22–0:26] — DAMAGED INTERNAL TRANSITION ZONE
+Continue forward through a short damaged service/deck section logically behind the breach: exposed beams, broken wall panels, hanging cables, sparks, smoke, emergency red lighting and distant vibration from impacts. This zone gradually becomes less destroyed. The architecture must begin aligning toward the proportions, camera height and vanishing point of @Image2 while still feeling like the same station.
+
+[0:26–0:30] — EXACT CORRIDOR ARRIVAL / LAST FRAME
+The damaged transition opens naturally into the intact corridor from @Image2. Several stormtroopers are already running toward camera exactly within the established corridor geography; they do not pop into existence. Camera motion smooths and settles into the exact framing, angle, height, perspective, lighting, wall geometry and troop placement of @Image2. The final generated frame must match @Image2 as closely as possible.
+
+CAMERA / MOVEMENT:
+One continuous take, no cuts. Physically stable cinematic motion with controlled inertia. One dominant forward flight path from space into the station. No random orbit, no backward reset, no teleport, no impossible acceleration changes, no micro-shake. Small lateral/vertical corrections are allowed only to avoid debris and line up with the breach. Camera must never pass through intact hull, walls, floor, ceiling, ships or characters.
+
+SPACE BATTLE:
+The battle remains active during the exterior half: multiple ships at different distances, laser exchanges, engine trails, occasional explosions and drifting debris. Keep action layered around the camera route rather than directly blocking it. Ships must maintain stable geometry and scale. Do not overcrowd the frame so much that the approach to the breach becomes unreadable.
+
+STATION / ENVIRONMENT LOCK:
+The station remains the same object throughout: same hull material family, same damage language, same structural scale. The breach is a real opening caused by battle damage and visibly connects exterior plating to interior structure. No giant impossible cavity, no TARDIS-like larger-on-the-inside space, no sudden architectural style change. The final corridor should feel like an intact internal section farther behind the damaged outer shell.
+
+STORMTROOPERS / FINAL ACTION:
+Stormtroopers appear only after the camera reaches the interior corridor. Match @Image2's white armor silhouette, approximate number, running direction and spatial arrangement. Their movement is urgent but grounded: natural stride, stable anatomy, no sliding feet, no duplicated limbs or melting helmets. They remain secondary to the transition and must not block the camera path.
+
+LIGHTING / MATERIALS:
+Exterior: cold deep-space illumination mixed with orange fire from station damage, red/blue battle flashes and realistic reflected light on hull plates.
+Breach: strong contrast, hot sparks, glowing damaged metal, intermittent red emergency light, smoke catching directional light.
+Interior corridor: transition cleanly into the white overhead panels and red accents of @Image2. Preserve realistic metallic roughness, panel seams, floor reflections and atmospheric depth.
+
+AUDIO (native):
+Exterior: layered ship engines, laser fire, distant explosions and low-frequency battle rumble. As the camera enters the breach, exterior battle becomes more muffled and structural vibrations, metal groans, sparks, electrical crackles and emergency alarms take over. Final corridor: alarm ambience, running footsteps, armor movement and distant impacts transmitted through the station. No dialogue. No music. No abrupt audio reset at the transition.
+
+NEGATIVE PROMPT:
+hard cut, hidden edit, jump cut, dissolve, morph transition, portal, teleporting camera, white flash transition, lens-flare wipe, smoke wipe, instant exterior-to-interior replacement, camera clipping through intact hull, wall or ceiling, impossible station geometry, corridor appearing from nowhere, giant empty cavity, changing station design, changing breach location, warped perspective, unstable scale, ships morphing or duplicating, excessive battle clutter blocking the route, static empty battle, low-detail ships, random camera spin, camera jitter, micro-shake, game-render look, cartoon, anime, oversaturated neon, stormtroopers in open space, stormtroopers appearing before the corridor, duplicated stormtroopers, melted armor, warped limbs, sliding feet, distorted corridor, moving walls, floating interior props, text, subtitles, logos, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

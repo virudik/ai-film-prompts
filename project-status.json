@@ -3,11 +3,11 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-24T02:57:44Z",
+  "synced_at": "2026-09-24T02:59:15Z",
   "revision_date": "24.09.2026",
   "master_declared_last_full_sync": "23.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "98f290d9419ef9dfb5ba83526ec737393be6acaf398a06522d11e2e177644fa6",
-  "canonical_master_bytes": 273096,
+  "canonical_master_sha256": "245402fe81e135e0fb3b5b1b2e169372eaa7cce9478bd0957fc62f70a75e5d12",
+  "canonical_master_bytes": 273088,
   "scenes": 12,
   "prompt_texts": 22,
   "work_items": [
@@ -32,7 +32,6 @@
   ],
   "slow_scenes_count": 4,
   "scene_ids": [
-    22,
     3,
     4,
     5,
@@ -43,7 +42,8 @@
     17,
     19,
     20,
-    21
+    21,
+    22
   ],
   "latest_scene": 22,
   "reserved_scene_ids": [
@@ -63,7 +63,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.833,
+    "age_hours_at_status_build": 0.859,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -111,24 +111,6 @@
   },
   "warnings": [],
   "scene_meta": {
-    "22": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "action",
-        "space_battle",
-        "continuous_take",
-        "first_last_frame",
-        "seamless_transition"
-      ],
-      "render_state": "IDLE"
-    },
     "3": {
       "target_engine": null,
       "production_state": "NEEDS_FIX",
@@ -330,16 +312,33 @@
         "character_identity"
       ],
       "render_state": "IDLE"
+    },
+    "22": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "READY",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "action",
+        "space_battle",
+        "continuous_take",
+        "first_last_frame",
+        "seamless_transition"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "24.09.2026",
-    "synced_at": "2026-09-24T02:57:44Z",
-    "canonical_master_sha256": "98f290d9419ef9dfb5ba83526ec737393be6acaf398a06522d11e2e177644fa6",
+    "synced_at": "2026-09-24T02:59:15Z",
+    "canonical_master_sha256": "245402fe81e135e0fb3b5b1b2e169372eaa7cce9478bd0957fc62f70a75e5d12",
     "scene_count": 12,
     "prompt_count": 22,
     "scene_ids": [
-      22,
       3,
       4,
       5,
@@ -350,7 +349,8 @@
       17,
       19,
       20,
-      21
+      21,
+      22
     ],
     "work_items": [
       "W5",
@@ -371,21 +371,21 @@
       19,
       20
     ],
-    "health": "error",
+    "health": "ok",
     "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
-    "scene_numbers_match_toc_and_sections": false,
+    "scene_numbers_match_toc_and_sections": true,
     "declared_prompt_count_matches_fences": true,
     "declared_work_count_matches_ids": true,
     "declared_slow_count_matches_list": true,
     "slow_status_matches_dedicated_table": true,
     "slow_status_matches_toc": true,
     "slow_status_matches_sections": true,
-    "scene_numbers_are_unique_and_increasing": false,
+    "scene_numbers_are_unique_and_increasing": true,
     "scene_anchors_match_sections": true,
     "scene_anchors_unique": true,
     "reserved_scene_ids_declared": true,
