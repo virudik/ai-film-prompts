@@ -589,41 +589,65 @@ Canonical prompt style is defined by fresh `PROMPT-STYLE-GUIDE.md`: maximize use
 
 Постоянное правило UI: в боковом меню Control Center пользователь не должен видеть два фильтра с одинаковой подписью, даже если один пришёл из `production_state`, а другой из `tags`. `availableFilters()` должен дедуплицировать фильтры по итоговой пользовательской подписи. Например, `production_state=NEEDS_FIX` и `tag=needs_fix` отображаются как один фильтр `Нужна доработка`; каноническим считается state-фильтр, а семантически дублирующий tag-фильтр не добавляется.
 
-### Invariant — единый Topview snapshot во всех трёх пользовательских представлениях
+### Invariant — автоматическое ежечасное обновление Topview во всех трёх пользовательских представлениях
 
-Это **жёсткий UI/runtime-контракт**, а не общая рекомендация. Все три пользовательских представления Topview-состояния должны строиться из **одного и того же свежего `topview-status.json` snapshot с одним `checked_at`**:
+Это **жёсткий runtime/publish-контракт**, а не рекомендация. Каждый успешный запуск `Topview Scene Intake & Slow Watch` обязан не только прочитать Topview, но и **опубликовать новый свежий `topview-status.json` snapshot**, даже если набор Scene ID не изменился и поменялись только `checked_at`, status, queue или ETA.
 
+Три пользовательских представления:
 1. `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС`;
 2. `⏳ В медленной генерации — Topview`;
 3. `🎬 Активные сцены проекта — карта и навигация`.
 
-Запрещено независимо хранить/копировать Topview status, queue/ETA или список active scenes в этих трёх местах. Нельзя брать один вид из `project-status.json`, второй из `topview-status.json`, а третий из статического master, если из-за этого пользователь видит разные текущие данные. Frontend сначала нормализует **один runtime snapshot** из `topview-status.json.active_tasks[]`, затем все три представления рендерятся только из него. `project-status.json` и canonical master используются как consistency gate, а не как отдельный конкурентный realtime источник.
+Все три должны автоматически актуализироваться **на каждом ежечасном Topview refresh** из **одного и того же** freshly committed `topview-status.json.active_tasks[]` и одного `checked_at`. На сайте запрещены три независимые копии live Topview state. `project-status.json` и canonical master участвуют как consistency gate для slow membership, но не заменяют `topview-status.json` как realtime telemetry source.
 
-Для **каждого active task** во всех представлениях должны относиться к одному и тому же snapshot следующие факты: `task_id`, `scene_id`, `topview_status`, `queue_count`, `topview_estimated_wait_seconds`, `checked_at`. Если где-либо показывается числовая очередь, она берётся только из соответствующего объекта `active_tasks[]`; запрещено подставлять cached queue, старый DOM-текст или scene-level `queue_count` вместо конкретного task при нескольких задачах одной сцены.
+### Что watcher обязан публиковать каждый час
 
-Scene-level представления (`РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` и `Активные сцены проекта`) агрегируют те же active tasks по Scene ID:
-- `init/queued` → `⏳ В ОЧЕРЕДИ`;
-- `running/processing` → `▶ ВЫПОЛНЯЕТСЯ`;
-- если одна Scene ID имеет несколько active tasks, показывать кратность (`×N` / `N задач`) и не терять второй task;
-- если статусы смешанные, scene-level label обязан отражать обе группы, а не только "primary" task.
+Для каждого active task watcher обновляет и сохраняет как минимум:
+- exact `task_id`;
+- `scene_id`;
+- `topview_status`;
+- `queue_count`;
+- provider ETA/process fields, если Topview их отдаёт;
+- `started_at` / `completed_at`, если применимо;
+- fresh `checked_at` текущего успешного цикла;
+- `occupied_slots`, `free_slots`;
+- per-Scene `active_task_ids` / multiplicity.
 
-**Числа в трёх местах трактуются явно:**
-- `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` показывает **N уникальных slow-сцен / M активных задач** и Scene IDs с кратностью (`20×2`);
-- таблица `⏳ В медленной генерации — Topview` содержит **ровно M строк**, одна строка = один active task/slot;
-- `🎬 Активные сцены проекта — карта и навигация` содержит **ровно N уникальных Scene ID** с live Topview status и кратностью при нескольких задачах.
-Поэтому, например, **5 slow-сцен и 6 занятых слотов — корректно**, если одна сцена имеет две active tasks; это должно быть подписано так, чтобы не выглядеть расхождением.
+**Queue/status/ETA-only изменение не является no-op.** Если watcher получил свежие данные Topview, но не записал новый `topview-status.json` и не обновил публичный snapshot сайта, hourly run считается незавершённым.
 
-При каждом hourly Topview refresh изменение считается завершённым только после проверки **всего контракта одновременно**:
+### Как эти данные должны выглядеть в трёх местах
+
+- `init` / `queued` → **`В ОЧЕРЕДИ`**;
+- `running` / `processing` → **`ВЫПОЛНЯЕТСЯ`**;
+- terminal task после reconciliation больше не считается active slot;
+- если у одной Scene несколько active tasks, кратность обязательна (`20×2`, `2 задачи`) и второй task нельзя терять;
+- если статусы нескольких tasks одной Scene различаются, scene-level отображение обязано отражать смешанное состояние, а не выбирать только `primary` task;
+- если где-либо показывается числовая очередь/ETA, она берётся только из **exact соответствующего task object** в `active_tasks[]`, без копирования scene-level значения на другие attempts.
+
+**Кардинальность трёх представлений:**
+- `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` показывает **N уникальных slow-сцен / M active tasks** и Scene IDs с кратностью;
+- `⏳ В медленной генерации — Topview` показывает **ровно M строк**, одна строка = один active task/slot;
+- `🎬 Активные сцены проекта — карта и навигация` показывает **ровно N уникальных active Scene ID** с агрегированным live status и кратностью.
+
+Например, **5 slow-сцен / 6 active tasks** — корректно только если явно видно, какая Scene занимает два слота, например `20×2`.
+
+### Hourly publish gate
+
+Каждый ежечасный watcher run считается успешным только если одновременно выполнено:
 - `unique(active_tasks[].scene_id) == project-status.json.slow_scenes == canonical slow Scene IDs`;
 - `occupied_slots == len(active_tasks[]) == число строк Topview-таблицы`;
 - `free_slots == max(0, 6 - occupied_slots)`;
-- набор Scene ID в active-scene map == `unique(active_tasks[].scene_id)`;
-- кратность по каждой Scene ID в summary/map == числу её `active_tasks[]`;
-- scene-level `В ОЧЕРЕДИ/ВЫПОЛНЯЕТСЯ` агрегирован из тех же task statuses;
-- все три представления используют тот же `topview-status.json.checked_at`;
-- canonical master slow declaration/table/TOC/scene markers совпадают с unique active Scene IDs.
+- Scene IDs в active-scene map == `unique(active_tasks[].scene_id)`;
+- multiplicity каждой Scene в summary/map == числу её active tasks;
+- scene-level `В ОЧЕРЕДИ / ВЫПОЛНЯЕТСЯ` вычислен из тех же task statuses;
+- все три представления относятся к одному `topview-status.json.checked_at`;
+- canonical master slow declaration/table/TOC/scene markers совпадают с unique active Scene IDs;
+- fresh `topview-status.json` реально закоммичен в GitHub;
+- Pages/public Control Center не оставлен заведомо на более старом telemetry snapshot.
 
-Если хотя бы один пункт расходится, Control Center **не должен считаться зелёным**, изменение нельзя объявлять завершённым. Watcher/Recovery должны автоматически пересобрать deterministic state из fresh Topview authority и проверить read-back; пользователя нельзя просить вручную сравнивать эти три места.
+После успешной записи `topview-status.json` обычный GitHub Pages pipeline должен опубликовать новый snapshot. При изменении canonical slow/master дополнительно выполняется обычный `SYNC-TRIGGER.txt` → Drive sync/validation. Если меняются только queue/status/ETA, master переписывать не нужно, но **fresh `topview-status.json` + Pages refresh обязательны**.
+
+Если хотя бы один пункт расходится, Control Center **не считается зелёным**, watcher run не считается завершённым. `AI Film Recovery Sync` через свой watchdog должен автоматически попытаться восстановить deterministic state и публикацию. Пользователя нельзя просить вручную сравнивать эти три места или следить за очередью.
 
 ## Reliability write contract — 23.09.2026
 
