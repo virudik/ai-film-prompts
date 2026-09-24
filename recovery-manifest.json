@@ -3,10 +3,10 @@
   "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
   "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
   "latest_verified_master": {
-    "sha256": "32622708456a1f9c5c080f8153c03a2b9f15254527b0aec096ac8eb762997084",
-    "drive_modified_at": "2026-09-24T01:32:38.250Z",
-    "scene_count": 11,
-    "prompt_count": 21
+    "sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf",
+    "drive_modified_at": "2026-09-24T03:14:56.719Z",
+    "scene_count": 12,
+    "prompt_count": 22
   },
   "artifact_ownership": {
     "video-prompts.md": "Google Drive canonical; Topview watcher may make only explicitly authorized/deterministic render-state mutations",
@@ -18,28 +18,30 @@
     "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-24T03:09:38Z",
-    "active_task_count": 5,
+    "checked_at": "2026-09-24T03:15:21.114Z",
+    "active_task_count": 6,
     "canonical_slow_scene_ids": [
       4,
       17,
       19,
-      20
+      20,
+      21
     ],
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1
+    "occupied_slots": 6,
+    "free_slots": 0
   },
   "critical_github_blobs": {
-    "project-status.json": "570a86366dbe9522c94b20a9dbdf3d4f499f5dd6",
-    "topview-status.json": "d4dbcac617b3d1c6d4906e3579cced898d627e5a",
-    "topview-task-map.json": "5a0e05820f18b50cf3285b4156832dbeb9880511"
+    "project-status.json": "9fd48fdb68059576fc4a4b5180095f25cf80da80",
+    "topview-status.json": "0d4970263fcc8e5d3996af03884a7f8a0418494c",
+    "topview-task-map.json": "b88e58ebbfdc8914f304a64ed273a44c3e33afd6",
+    "topview-operation-journal.json": "05b218498c8dc85bc6117a2227cdd489b9c28de3"
   },
   "validator": {
     "version": "cross-layer-v1+certificate-blob+fatal-status-guard",
     "last_result": "success",
-    "verified_at": "2026-09-24T01:39:49.728Z"
+    "verified_at": "2026-09-24T03:23:31.528Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-24T01:39:18.109Z",
-  "last_successful_full_reconciliation": "2026-09-24T03:09:38Z"
+  "last_successful_instruction_mirror_check": "2026-09-24T03:21:45.643Z",
+  "last_successful_full_reconciliation": "2026-09-24T03:23:31.528Z"
 }
