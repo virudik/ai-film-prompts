@@ -12,7 +12,10 @@
         "The Chancellor",
         "Серёжа"
       ],
-      "scenes": [],
+      "scenes": [
+        17,
+        21
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Серёга · основная model sheet",
@@ -45,7 +48,9 @@
       "id": "yulya",
       "name": "Юля",
       "aliases": [],
-      "scenes": [],
+      "scenes": [
+        21
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Юля · основная model sheet",
@@ -79,8 +84,7 @@
         "Navy Jedi"
       ],
       "scenes": [
-        1,
-        2,
+        17,
         19
       ],
       "model_sheet": {
@@ -122,10 +126,7 @@
         "Rooftop Character 1",
         "Bearded Jedi"
       ],
-      "scenes": [
-        1,
-        2
-      ],
+      "scenes": [],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Артём · основная model sheet",
@@ -170,10 +171,7 @@
         "Rooftop Character 3",
         "Hooded Jedi"
       ],
-      "scenes": [
-        1,
-        2
-      ],
+      "scenes": [],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Илюша · основная model sheet",
@@ -219,8 +217,7 @@
         "Glasses Jedi"
       ],
       "scenes": [
-        1,
-        2,
+        17,
         19
       ],
       "model_sheet": {
@@ -262,8 +259,7 @@
         "PURPLE"
       ],
       "scenes": [
-        1,
-        2
+        13
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -303,8 +299,7 @@
         "BLACK"
       ],
       "scenes": [
-        1,
-        2
+        13
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -388,6 +383,6 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-09-21T20:48:00Z",
+  "updated_at": "2026-09-24T01:33:38.690Z",
   "note": "Current active usage refreshed. Masha Laguna was added from the user-provided exact model sheet and mapped to active Scenes 19 and 20; retired Scene IDs remain historical only."
 }
