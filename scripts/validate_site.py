@@ -38,9 +38,22 @@ for required in contracts:
 
 # The top revision card is slot-oriented because Topview capacity is task-based.
 # It must show occupied/capacity, free slots, and only a compact unique-scene count.
-for required in ('id="metricSlowMeta"', "Свободно '+runtimeTopview.free", 'id="backToTop"', 'id="filterPanel"'):
+for required in (
+    'id="metricSlowMeta"',
+    "Свободно '+runtimeTopview.free",
+    'id="backToTop"',
+    'id="filterPanel"',
+    'id="analysisPicker"',
+    '>Монтажный разбор</summary>',
+    'Seregius_montazhny_razbor.html',
+    'Seregius_montazhny_razbor-2.html',
+    '>Первая версия<',
+    '>Вторая версия<',
+):
     if required not in html:
         raise SystemExit("missing compact owner UI contract: "+required)
+if '>Монтажный разбор фильма<' in html:
+    raise SystemExit("montage analysis chooser label must not contain the word фильма")
 if 'id="metricWorkIds"' in html:
     raise SystemExit("work card must not dump raw W5…W15 identifiers")
 if 'id="schema"' in html:
