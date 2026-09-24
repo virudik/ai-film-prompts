@@ -143,8 +143,10 @@ class IntegrationRecoveryTests(unittest.TestCase):
     def test_control_center_separates_scenes_from_generation_slots(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("runtimeTopview.slowSceneIds.length+' сцен'", html)
-        self.assertIn("runtimeTopview.occupied+' генераций · занято '", html)
+        self.assertIn("runtimeTopview.occupied+' генераций · '+runtimeSceneMultiplicityLabel()", html)
         self.assertIn("instruction!=='error'", html)
+        self.assertIn("const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;", html)
+        self.assertIn("Topview telemetry временно устарела", html)
 
     def test_watcher_watchdog_contract_is_present(self):
         # Static integration guard: Recovery automation prompt is external, so repository
