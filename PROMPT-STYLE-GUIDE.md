@@ -612,7 +612,7 @@ Prompt-writing standard — не отдельная статичная памя�
 3. обновить `NEW-CHAT-HANDOFF.md`, если правило важно для takeover/current workflow;
 4. exact-mirror Drive → GitHub;
 5. refresh `instruction-sync-status.json`;
-6. refresh Library recovery copy;
+6. Library recovery refresh — best-effort/non-blocking; пропустить и отметить pending/stale, если потребуется интерактивное подтверждение владельца;
 7. update Notion operational pointer if rule changes how future chats should work.
 
 
@@ -644,7 +644,7 @@ Snapshot examples ниже/выше — эталоны **сложности и �
 - exact-mirror Drive → GitHub;
 - refresh `instruction-sync-status.json`;
 - обновить Notion operational pointer;
-- обновить Library recovery copies.
+- Library recovery refresh выполнять best-effort; stale/pending Library не блокирует завершение prompt-standard change при проверенных Drive/GitHub/instruction status/Notion.
 
 
 Следующий чат обязан знать: prompt style не хранится «в памяти прошлого чата». Он хранится здесь и в живом master. Если пользователь формулирует новую сцену кратко, задача редактора — самостоятельно развернуть её до принятого master-level формата, не заставляя пользователя повторно диктовать техническую структуру.
@@ -789,3 +789,13 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 Если в ходе генераций появляется подтверждённая информация, которая улучшает будущие prompts или выбор движка — например, модель лучше/хуже справляется с определённым языком, lip sync, reference handling, identity, camera motion, длительностью или типом сцены — это нельзя оставлять только в текущем чате. Новое устойчивое знание нужно внести в SAME `PROMPT-STYLE-GUIDE.md` в том же рабочем цикле и, если оно важно следующему сменщику, также в SAME `NEW-CHAT-HANDOFF.md`.
 
 Принцип: **подтверждённое улучшение prompt workflow должно стать частью канонического стандарта, а не памятью одного чата.**
+
+## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+
+- ChatGPT Library остаётся **recovery mirror/cache**, а не authority и не обязательный транзакционный слой.
+- Обязательный путь завершения material change: relevant SAME-ID Drive canonical docs/master → exact GitHub mirrors/status/validation/Pages где применимо → fresh `instruction-sync-status.json` → Notion operational pointer, если меняется будущий workflow.
+- Library refresh выполняется **best-effort**. Если запись возможна без интерактивного подтверждения владельца — обновить. Если интерфейс требует отдельное `Разрешить это изменение в Библиотеке?`, consent/permission недоступен automation или мобильное приложение даёт только `Try again` — **не блокировать работу, не повторять prompt и не просить владельца переключаться в браузер**. Зафиксировать `pending/stale` и продолжить.
+- `pending/stale` Library не делает проект non-green, не отменяет verified Drive/GitHub/Pages change и не запрещает сообщить о завершении основной работы. Нельзя только утверждать, что Library свежая, если она фактически не обновлена.
+- `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
+- На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
+
