@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T01:39:18.109Z",
+  "checked_at": "2026-09-24T02:07:43.972Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T01:37:58.869Z",
-      "github_blob": "b0c72908efdf8841b96690ca905761029d0df0ae",
+      "drive_modified_at": "2026-09-24T02:05:40.454Z",
+      "github_blob": "2d0a821df4c61617b5bf1fca744591725d974d29",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T01:38:05.635Z",
-      "github_blob": "22400e7b2b0a0c63ab9c3a86178c4c056c7a70e9",
+      "drive_modified_at": "2026-09-24T02:05:46.024Z",
+      "github_blob": "2411acf51942f400b2f1ca25e30ba3115f026fe4",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T01:38:11.353Z",
-      "github_blob": "1545f61e26619e9a99d8a4db29bd0b70ab02c49e",
+      "drive_modified_at": "2026-09-24T02:05:51.469Z",
+      "github_blob": "c06dec7782aadd528c68609664d335fd2acf5995",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T01:38:17.255Z",
-      "github_blob": "3fc3f8e743e6008f8e59630310c8d5e92c690913",
+      "drive_modified_at": "2026-09-24T02:05:57.337Z",
+      "github_blob": "e4afbd3c983159b3c8a150b8e63f8a184570eac2",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T01:38:23.023Z",
-      "github_blob": "8a365fe9ae126f4f2958b7fc7b074d14b75b7972",
+      "drive_modified_at": "2026-09-24T02:06:07.961Z",
+      "github_blob": "bfe6f8d9ee4f91ebb63ced1181279e4e2ded23f1",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T01:38:28.888Z",
-      "github_blob": "16a478ac1409155514bca1618439b2f3b046133a",
+      "drive_modified_at": "2026-09-24T02:06:14.130Z",
+      "github_blob": "01d7c954db0deb634448990d86780b639e0afb11",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Seven canonical Drive instruction files freshly compared after audit-verification closure; exact Drive↔GitHub mirrors verified. github_blob values are bound to actual current mirror blobs.",
+  "note": "Seven canonical Drive instruction files freshly compared after Control Center filter-hygiene update; exact Drive↔GitHub mirrors verified. User-facing filters must stay current, deduplicated and Russian.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "hourly",
@@ -124,5 +124,23 @@
     "rule": "occupied_slots=len(active_tasks[])=sum(active_by_scene task ids); canonical slow unique Scene IDs must match master/status and all three user-facing Control Center representations; slot count remains separate"
   },
   "conflicts": [],
-  "mode": "authorized_chatgpt_drive_connector"
+  "mode": "authorized_chatgpt_drive_connector",
+  "site_filters": {
+    "health": "ok",
+    "source": "project-status.json.scene_meta for current active scenes",
+    "user_facing_language": "ru",
+    "deduplicate_semantic_tags": true,
+    "hide_raw_unknown_english_tags": true,
+    "singleton_policy": "hide scene-specific singleton filters unless they have explicit owner/workflow value",
+    "current_tag_groups": [
+      "Экшен",
+      "Комедия",
+      "Непрерывный дубль",
+      "Связность сцен",
+      "Музыкальный номер",
+      "Альтернативный вариант",
+      "Ручная проверка"
+    ],
+    "rule": "After active scene or scene-meta tag changes, audit tag frequency, duplicates/synonyms, overlap with state/engine/dialogue/dependencies/slow, Russian labels, stale filters, and missing useful scene types."
+  }
 }
