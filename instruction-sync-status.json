@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T18:05:32.000Z",
+  "checked_at": "2026-09-24T19:26:24.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T18:03:57.080Z",
-      "github_blob": "5699552d02a2e613c16f61449ced74a4de9bb501",
+      "drive_modified_at": "2026-09-24T19:21:38.222Z",
+      "github_blob": "2190af2956ac7331bd84a338e8a7171beaabc242",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-24T16:24:49.773Z",
-      "github_blob": "fe7d7912564a693a8e3fb1fdf9fb1a88972b965f",
+      "drive_modified_at": "2026-09-24T19:23:03.391Z",
+      "github_blob": "7cffb8223033041b2a912bc6abd462ecde3f9ad6",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-24T16:25:48.544Z",
-      "github_blob": "1d24ebca1dd9cd9ee7f76561e1203746bf149b5e",
+      "drive_modified_at": "2026-09-24T19:23:40.532Z",
+      "github_blob": "a0821053600bd26fc1df481fbedde4236e14e30f",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -33,20 +33,20 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T18:04:42.897Z",
-      "github_blob": "cb33fac113544645d4b42ce57062d2906e27a290",
+      "drive_modified_at": "2026-09-24T19:24:22.696Z",
+      "github_blob": "2e8cabe62911b8cc182bb02890d4a72a81ae9147",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-24T16:27:55.575Z",
-      "github_blob": "fcc6324a1e1ffae10c0ea602841ac16584579605",
+      "drive_modified_at": "2026-09-24T19:25:01.995Z",
+      "github_blob": "79b7169ebef7208e504d536bea8b1ced84fe4336",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-24T16:29:38.347Z",
-      "github_blob": "aa86ebbb80fc167d8f7e215992ca1d4aa5ece92a",
+      "drive_modified_at": "2026-09-24T19:25:40.617Z",
+      "github_blob": "d4d4ef15170a0f58600a1082c067b67512264cde",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instruction files exact-match GitHub. Control Center revision summary now counts unique slow Scene IDs only; detailed Topview remains task/slot based. Scene 13 close-up cat-only lip-sync requirement is persisted in handoff.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub. Current Control Center owner UI is slot-based: M/6 occupied, free slots visible, work card count-only, compact navigation, floating back-to-top.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -171,12 +171,16 @@
   },
   "control_center_summary_metric": {
     "health": "ok",
-    "label": "Медленных генераций",
-    "source": "unique(topview-status.json.active_tasks[].scene_id)",
-    "consistency_check": "equals project-status.json.slow_scenes_count",
-    "parallel_tasks_same_scene_count_once": true,
-    "detailed_topview_remains_slot_based": true,
-    "technical_info_schema_version_visible": false,
-    "technical_project_line": "N активных сцен · M промтов · K рабочих направлений"
+    "label": "Занято слотов Topview",
+    "primary": "M из 6",
+    "primary_source": "len(topview-status.json.active_tasks[])",
+    "secondary": "Свободно Y · N сцен",
+    "free_source": "max(0, slot_capacity - occupied_slots)",
+    "scene_source": "unique(topview-status.json.active_tasks[].scene_id)",
+    "raw_work_ids_visible": false,
+    "compact_navigation": true,
+    "back_to_top": true,
+    "detailed_topview_header": "занято M из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS",
+    "technical_info_schema_version_visible": false
   }
 }
