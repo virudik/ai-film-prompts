@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-24T03:23:31.528Z",
+  "checked_at": "2026-09-24T17:07:50Z",
   "last_deep_audit_at": "2026-09-24T01:39:49.728Z",
   "health": "ok",
   "sections": {
@@ -9,7 +9,7 @@
     "characters": "ok",
     "montage": "ok",
     "notion": "ok",
-    "library": "ok_presence_verified",
+    "library": "present_stale_non_blocking",
     "site": "ok",
     "supabase": "ok",
     "github_actions": "ok",
@@ -25,10 +25,14 @@
     "Refreshed current character scene usage and film backlog operational state.",
     "Verified Topview Scene Intake & Slow Watch re-enabled after controlled maintenance.",
     "Reconciled previously missed active Scene 21 Topview task and updated canonical slow/slot state to 6/6.",
-    "Converted Topview watcher to lightweight exact-hourly schedule and Recovery to offset exact-hourly liveness watchdog/fallback."
+    "Converted Topview watcher to lightweight exact-hourly schedule and Recovery to offset exact-hourly liveness watchdog/fallback.",
+    "Takeover reconciliation refreshed current runtime fingerprint after Scene 4 terminal completion without changing editorial state.",
+    "Refreshed film-backlog operational status from current master/Topview state and exact-mirrored Drive to GitHub.",
+    "Corrected Notion operational pointer to current HH:00 watcher / HH:05 Recovery schedule and current compact Topview header contract."
   ],
   "warnings": [
-    "Prompt-quality NEEDS_FIX items remain for scene-by-scene owner review; no creative prompts were auto-rewritten."
+    "Prompt-quality NEEDS_FIX items remain for scene-by-scene owner review; no creative prompts were auto-rewritten.",
+    "Library recovery cache is present but stale/pending; non-blocking by current best-effort policy. An attempted overwrite was not accepted as an in-place replacement, so no duplicate recovery copy was retained."
   ],
   "unresolved": [],
   "runtime_snapshot": {
@@ -36,28 +40,27 @@
     "prompt_texts": 22,
     "latest_scene": 22,
     "slow_scenes": [
-      4,
       17,
       19,
       20,
       21
     ],
-    "master_sha256": "65445c047fcdf25237fb76efb84e68fc67f7f11d335f287798b7104c655dbcbf"
+    "master_sha256": "2fc22c50b58f7dc1e28ce33ceb6aea0d14023cebc2a2221949daa8c8fb5aed06"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active_task_count": 6,
-    "unique_slow_scene_count": 5,
+    "occupied_slots": 5,
+    "free_slots": 1,
+    "active_task_count": 5,
+    "unique_slow_scene_count": 4,
     "health": "ok"
   },
   "notes": {
-    "master": "Current generated project-status health=ok with 12 active scenes, 22 prompt texts, latest Scene 22.",
-    "instructions": "Seven canonical Drive instruction mirrors exact-match; certificate is fresh and github_blob-bound.",
-    "topview": "Six active Topview task slots across canonical slow Scene IDs 4,17,19,20,21; Scene 20 occupies two slots and Scene 21 now occupies the sixth slot.",
-    "recovery": "Recovery manifest refreshed to current master/status/Topview checkpoint.",
-    "automation_watchdog": "Primary watcher exact hourly at :17 Europe/Moscow; Recovery exact hourly at :29 with stale/missed-task fallback. Owner should not manually monitor telemetry.",
-    "integration_tests": "Latest six recovery integration tests passed after removing live slow-ID coupling."
+    "master": "Current generated project-status health=ok with 12 active scenes, 22 prompt texts, latest Scene 22; Drive master exactly matches GitHub mirror.",
+    "instructions": "Seven canonical Drive instruction mirrors exact-match GitHub; certificate remains within freshness window.",
+    "topview": "Five active Topview task slots across canonical slow Scene IDs 17,19,20,21; Scene 20 occupies two slots. Stable checkpoint checked_at 2026-09-24T17:02:11.000Z.",
+    "recovery": "Recovery manifest refreshed to current master fingerprint and stable Topview checkpoint during takeover.",
+    "automation_watchdog": "Primary watcher exact hourly at HH:00 Europe/Moscow; Recovery exact hourly at HH:05. Both enabled; latest runs observed after the 20:00/20:05 local cycle.",
+    "integration_tests": "Latest AI Film integration recovery tests run 86 passed after the current 20:03 stable Topview checkpoint."
   }
 }
