@@ -303,7 +303,7 @@ def build_instruction_sync(
                             return False
                         data = candidate.read_bytes()
                         actual_blob = hashlib.sha1(
-                            f"blob {len(data)}\\0".encode("ascii") + data
+                            f"blob {len(data)}\0".encode("ascii") + data
                         ).hexdigest()
                         if github_blob != actual_blob:
                             return False
