@@ -1,4 +1,4 @@
-# README-AI-SYNC v4.0
+﻿# README-AI-SYNC v4.0
 
 
 
@@ -1245,3 +1245,7 @@ Partial intermediate commits не считаются final state и не дол�
 - sidebar/navigation сохраняет все ссылки и фильтры, но использует compact layout; Service Files и Filters collapsed by default, active filter виден;
 - при прокрутке вниз доступна floating **↑ Наверх**;
 - validator/Recovery должны сохранять этот контракт.
+
+## Automatic revision fingerprint — 26.09.2026
+
+`project-status.json.revision_date` формируется автоматически из semantic state master. `canonical_revision_sha256` строится из `video-prompts.md` после нормализации технических sync-only дат. Если fingerprint отличается от предыдущего verified master/status — revision date = дата текущего sync (`Europe/Moscow`); если совпадает — прежняя revision date сохраняется. Ручная дата в master больше не является источником `Ревизия`.
