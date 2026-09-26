@@ -47,6 +47,9 @@ for required in (
     'SIDEBAR_DEFAULT=328',
     '<div id="filters" class="filters"></div>',
     'now-card-head',
+    '.now-card.now-next .now-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))',
+    "'now-next'",
+    'Инструкции: СВЕРКА >3 Ч НАЗАД',
     'id="analysisPicker"',
     '>Монтажный разбор</summary>',
     'Seregius_montazhny_razbor.html',
@@ -64,6 +67,8 @@ if 'grid-template-columns:292px minmax(0,1fr)' in html:
     raise SystemExit("regressed to over-compacted sidebar width")
 if 'Drive — канон · GitHub Pages — только чтение' not in html:
     raise SystemExit("sidebar authority subtitle must remain concise and one-line friendly")
+if 'ПРОВЕРКА УСТАРЕЛА' in html:
+    raise SystemExit("instruction freshness wording must clarify that the verification timestamp, not the instructions, is stale")
 if 'id="metricWorkIds"' in html:
     raise SystemExit("work card must not dump raw W5…W15 identifiers")
 if 'id="schema"' in html:
