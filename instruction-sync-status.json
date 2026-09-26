@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-26T14:27:00.000Z",
+  "checked_at": "2026-09-26T14:52:00.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-26T14:24:28.326Z",
-      "github_blob": "3274e67f57a047f013755247914ec336f18c843a",
+      "drive_modified_at": "2026-09-26T14:38:20.779Z",
+      "github_blob": "f3655d97d0cfda488bb3e3c753970c5558fc4a4d",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-26T14:25:37.472Z",
-      "github_blob": "6d6a6ee1dcd0a80f65b0f97a7604e6fe6dfa6ba0",
+      "drive_modified_at": "2026-09-26T14:43:26.225Z",
+      "github_blob": "0e4299b08881fe906066f039a78d1026a2002d3d",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub after owner UI correction. Sidebar restored to comfortable 328px baseline with optional 280–430px resize; primary links stacked; filters visible; 🎬 Сейчас compacted instead. Montage chooser still exposes both analysis versions.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub after owner UI refinement. Sidebar restored/readable and resizable; 🎬 Сейчас compact with two-column next actions; instruction freshness wording clarifies verification age. Montage chooser still exposes both analysis versions.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -237,7 +237,12 @@
     "service_files_collapsible": true,
     "authority_subtitle": "Drive — канон · GitHub Pages — только чтение",
     "now_panel_compact": true,
-    "now_panel_wide_columns": 2,
+    "now_panel_wide_columns": 3,
+    "next_actions_full_width": true,
+    "next_actions_columns": 2,
+    "next_actions_two_columns_on_mobile": true,
+    "instruction_freshness_stale_label": "Инструкции: СВЕРКА >3 Ч НАЗАД · <timestamp>",
+    "instruction_freshness_stale_means": "verification age only, not stale instruction content",
     "back_to_top": true,
     "montage_versions": 2
   }
