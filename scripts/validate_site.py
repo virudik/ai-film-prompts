@@ -36,13 +36,17 @@ for required in contracts:
     if required not in html:
         raise SystemExit("missing fail-safe health contract: "+required)
 
-# The top revision card is slot-oriented because Topview capacity is task-based.
-# It must show occupied/capacity, free slots, and only a compact unique-scene count.
+# Owner-facing UI invariants: slot-aware Topview summary, comfortable sidebar,
+# compact current-work panel, montage chooser, and scroll-to-top control.
 for required in (
     'id="metricSlowMeta"',
     "Свободно '+runtimeTopview.free",
     'id="backToTop"',
-    'id="filterPanel"',
+    'id="sideResize"',
+    '--sidebar-width:328px',
+    'SIDEBAR_DEFAULT=328',
+    '<div id="filters" class="filters"></div>',
+    'now-card-head',
     'id="analysisPicker"',
     '>Монтажный разбор</summary>',
     'Seregius_montazhny_razbor.html',
@@ -54,6 +58,12 @@ for required in (
         raise SystemExit("missing compact owner UI contract: "+required)
 if '>Монтажный разбор фильма<' in html:
     raise SystemExit("montage analysis chooser label must not contain the word фильма")
+if 'id="filterPanel"' in html:
+    raise SystemExit("left sidebar filters must remain directly visible, not collapsed")
+if 'grid-template-columns:292px minmax(0,1fr)' in html:
+    raise SystemExit("regressed to over-compacted sidebar width")
+if 'Drive — канон · GitHub Pages — только чтение' not in html:
+    raise SystemExit("sidebar authority subtitle must remain concise and one-line friendly")
 if 'id="metricWorkIds"' in html:
     raise SystemExit("work card must not dump raw W5…W15 identifiers")
 if 'id="schema"' in html:
