@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-24T22:10:00.000Z",
+  "checked_at": "2026-09-26T07:05:00.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub after adding the two-version montage-analysis chooser. First analysis remains available; second analysis is a separate HTML file. Owner-facing label is Монтажный разбор.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub. Control Center keeps one owner-facing Монтажный разбор chooser with both historical and current analysis versions.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -209,5 +209,19 @@
     "second_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
     "first_version_preserved": true,
     "separate_second_top_level_button": false
+  },
+  "montage_analysis_ui": {
+    "health": "ok",
+    "label": "Монтажный разбор",
+    "top_level_controls": 1,
+    "chooser": [
+      "Первая версия",
+      "Вторая версия"
+    ],
+    "version_1": "Seregius_montazhny_razbor.html",
+    "version_2": "Seregius_montazhny_razbor-2.html",
+    "version_2_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
+    "version_2_build": "01:03:42,848",
+    "preserve_version_1": true
   }
 }
