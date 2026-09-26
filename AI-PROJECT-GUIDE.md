@@ -1,4 +1,4 @@
-# AI Film Project — Start Here v4.0
+﻿# AI Film Project — Start Here v4.0
 
 
 
@@ -1704,3 +1704,7 @@ Partial intermediate commits не считаются final state и не дол�
 - Sidebar должен быть компактным без потери функций: плотные отступы/TOC, основные ссылки рядом, Service Files и Filters collapsed by default, active filter виден в summary.
 - После существенной прокрутки показывать floating **↑ Наверх** с smooth scroll.
 - Validator + Pages должны защищать этот контракт от регрессии; Recovery его не откатывает.
+
+## AUTOMATIC MASTER REVISION DATE — 26.09.2026
+
+Дата `Ревизия` в Control Center является машинно вычисляемой датой последнего **содержательного изменения canonical master**. Источник — semantic fingerprint `canonical_revision_sha256` в `project-status.json`, а не ручная дата внутри `video-prompts.md`. Добавление/удаление сцены, изменение prompt body, canonical slow/render-state или важного master-context меняет fingerprint и двигает ревизию. Чистая техническая пересинхронизация без semantic change сохраняет прежнюю дату. Legacy/manual revision date в master больше не использовать.
