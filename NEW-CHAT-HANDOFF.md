@@ -1,4 +1,4 @@
-# NEW CHAT HANDOFF — AI Film Project
+﻿# NEW CHAT HANDOFF — AI Film Project
 
 
 
@@ -148059,3 +148059,12 @@ Partial intermediate commits не считаются final state и не дол�
 - Authority subtitle остаётся одной короткой строкой: `Drive — канон · GitHub Pages — только чтение`.
 - **🎬 «Сейчас»**: три короткие группы `Генерируется сейчас`, `Результат получен`, `Нужно ваше решение` располагаются компактно; карточка `Следующие действия` занимает всю ширину блока. Её scene actions показываются **строго в две колонки**, включая узкие/mobile layout, сохраняя удобный touch target. В текущем canonical состоянии это позволяет компактно показать #10, #11, #13, #16, #23, #24, #25, #26, #27 без длинного вертикального списка.
 - Instruction freshness wording: `ПРОВЕРКА УСТАРЕЛА` больше не использовать. Состояние `stale` означает только то, что **последняя точная сверка Drive ↔ GitHub старше 3 часов**, а не что сами инструкции устарели. Owner-facing формулировка: `Инструкции: СВЕРКА >3 Ч НАЗАД · <timestamp>`. При `ok`: `Инструкции: ПРОВЕРЕНЫ · <timestamp>`.
+
+## AUTOMATIC MASTER REVISION DATE — 26.09.2026
+
+- `Control Center → Ревизия` больше **не читается из вручную вписанной даты** в `video-prompts.md`.
+- `scripts/build_project_status.py` строит `canonical_revision_sha256` по содержательному состоянию master и `sync-from-drive.yml` передаёт предыдущие `project-status.json` + GitHub mirror для сравнения.
+- Если semantic fingerprint master изменился, `revision_date` автоматически становится датой текущего canonical sync в timezone `Europe/Moscow`. Если fingerprint тот же, прежний `revision_date` сохраняется.
+- Из semantic fingerprint исключаются только технические даты `Последняя полная синхронизация`, дата `Синхронизация контекста` и legacy/manual дата перед счётчиками сцен/промтов. Поэтому scene/prompt edits, slow/render-state changes и другие содержательные master changes двигают ревизию; обычный sync без изменения содержимого — нет.
+- В master строка счётчиков теперь date-less: `**N сцен к генерации/доработке · M полных текста промта**`. Не возвращать ручную revision date.
+- Текущая revision после перехода: **26.09.2026**.
