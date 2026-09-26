@@ -269,7 +269,7 @@ function renderNowView(s,tv,ledger,md){
  box.innerHTML=card('Генерируется сейчас',tasks.length,generating.map(x=>chip(x.id,x.label)).join(''))+card('Результат получен',received.length,received.map(id=>chip(id,'#'+id)).join(''))+card('Нужно ваше решение',decisions.length,decisions.map(id=>chip(id,'#'+id+' · проверить')).join(''))+card('Следующие действия',next.length,next.map(x=>chip(x.id,'#'+x.id+' · '+x.kind)).join(''),'now-next');
  box.querySelectorAll('[data-scene]').forEach(b=>b.onclick=()=>resetViewAndJump('scene-'+b.dataset.scene));
 }
-function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'ПРОВЕРКА УСТАРЕЛА',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
+function instructionLabel(v){return ({ok:'ПРОВЕРЕНЫ',stale:'СВЕРКА >3 Ч НАЗАД',unverified:'НЕ ПРОВЕРЕНЫ',error:'НАЙДЕНО РАСХОЖДЕНИЕ',unknown:'НЕИЗВЕСТНО'})[v]||String(v||'НЕИЗВЕСТНО').toUpperCase()}
 function buttonDone(btn){const old=btn.textContent;btn.textContent='Скопировано';btn.classList.add('done');setTimeout(()=>{btn.textContent=old;btn.classList.remove('done')},1200)}
 async function copyText(text,btn){try{await navigator.clipboard.writeText(text);buttonDone(btn)}catch{btn.textContent='Не удалось';setTimeout(()=>btn.textContent='Copy',1200)}}
 function parseRawSections(md){const re=/^##\s+(.+)$/gm,hits=[];let m;while((m=re.exec(md)))hits.push({title:m[1].trim(),start:m.index});return hits.map((h,i)=>{const end=i+1<hits.length?hits[i+1].start:md.length;return{title:h.title,raw:md.slice(h.start,end).trim(),sceneId:sceneIdFromTitle(h.title)}})}
