@@ -1,53 +1,19 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-09-24T18:01:12.000Z",
+  "checked_at": "2026-09-26T15:32:53.563Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
-    "17": {
-      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-22T00:41:06Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 3145,
-      "topview_estimated_wait_seconds": 103785,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match",
-      "active_task_ids": [
-        "67b8304f8a324b7493af32fd0a0ae5d7"
-      ],
-      "completed_at": null
-    },
-    "19": {
-      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T03:25:17Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 2375,
-      "topview_estimated_wait_seconds": 62312,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match",
-      "active_task_ids": [
-        "e4ad0298cf7d48a98c6ba6498bb62c48"
-      ],
-      "completed_at": null
-    },
     "20": {
       "task_id": "e620bf1255a9445b8ccfe5e44e30b5b6",
       "model": "Seedance 2.5",
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-23T12:08:15Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 4299,
-      "topview_estimated_wait_seconds": 172904,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 3665,
+      "topview_estimated_wait_seconds": 137894,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "explicit_prompt_match",
@@ -63,9 +29,9 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-24T01:52:49Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 4876,
-      "topview_estimated_wait_seconds": 207464,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 4530,
+      "topview_estimated_wait_seconds": 189733,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_canonical_prompt_match",
@@ -80,9 +46,9 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-24T17:14:29Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 5453,
-      "topview_estimated_wait_seconds": 242023,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 5395,
+      "topview_estimated_wait_seconds": 241573,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_canonical_prompt_match",
@@ -90,9 +56,26 @@
         "6926ce5d0f81477ea06f135d4b658f97"
       ],
       "completed_at": null
+    },
+    "23": {
+      "task_id": "e42b4746c792472a9586ae95cd1513d3",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-26T07:36:58Z",
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 6260,
+      "topview_estimated_wait_seconds": 293410,
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "normalization_equivalent_canonical_prompt_match",
+      "active_task_ids": [
+        "e42b4746c792472a9586ae95cd1513d3"
+      ],
+      "completed_at": null
     }
   },
-  "note": "Current occupancy is 6/6; 5 unique slow scenes: 17, 19, 20×2, 21, 22. Scene 22 exact-matches its launched Topview task. Technical task state does not imply editorial approval.",
+  "note": "Current occupancy is 5/6; 4 unique slow scenes: 20×2, 21, 22, 23. Scenes 17 and 19 completed technically and left render-slow without changing editorial approval. Scene 23 maps to the existing canonical scene by normalization-equivalent prompt/model/reference match. Technical task state does not imply editorial approval.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -107,37 +90,9 @@
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 6,
-  "free_slots": 0,
+  "occupied_slots": 5,
+  "free_slots": 1,
   "active_tasks": [
-    {
-      "scene_id": 17,
-      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-22T00:41:06Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 3145,
-      "topview_estimated_wait_seconds": 103785,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match"
-    },
-    {
-      "scene_id": 19,
-      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
-      "model": "Seedance 2.5",
-      "model_id": "seedance-2.5",
-      "topview_status": "init",
-      "started_at": "2026-09-21T03:25:17Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 2375,
-      "topview_estimated_wait_seconds": 62312,
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "explicit_prompt_match"
-    },
     {
       "scene_id": 20,
       "task_id": "efda861b19834b50bbf591ad37d52b67",
@@ -145,9 +100,9 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-22T11:50:17Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 3722,
-      "topview_estimated_wait_seconds": 138344,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 2653,
+      "topview_estimated_wait_seconds": 86055,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "explicit_prompt_match"
@@ -159,9 +114,9 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-23T12:08:15Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 4299,
-      "topview_estimated_wait_seconds": 172904,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 3665,
+      "topview_estimated_wait_seconds": 137894,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "explicit_prompt_match"
@@ -173,9 +128,9 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-24T01:52:49Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 4876,
-      "topview_estimated_wait_seconds": 207464,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 4530,
+      "topview_estimated_wait_seconds": 189733,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_canonical_prompt_match"
@@ -187,12 +142,26 @@
       "model_id": "seedance-2.5",
       "topview_status": "init",
       "started_at": "2026-09-24T17:14:29Z",
-      "checked_at": "2026-09-24T18:01:12.000Z",
-      "queue_count": 5453,
-      "topview_estimated_wait_seconds": 242023,
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 5395,
+      "topview_estimated_wait_seconds": 241573,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_canonical_prompt_match"
+    },
+    {
+      "scene_id": 23,
+      "task_id": "e42b4746c792472a9586ae95cd1513d3",
+      "model": "Seedance 2.5",
+      "model_id": "seedance-2.5",
+      "topview_status": "init",
+      "started_at": "2026-09-26T07:36:58Z",
+      "checked_at": "2026-09-26T15:32:53.563Z",
+      "queue_count": 6260,
+      "topview_estimated_wait_seconds": 293410,
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "normalization_equivalent_canonical_prompt_match"
     }
   ]
 }
