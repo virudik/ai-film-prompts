@@ -62,7 +62,7 @@ jobs:
           SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           rm -f /tmp/project-status.json
           set +e
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
           VALIDATOR_RC=$?
           set -e
           STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
@@ -126,7 +126,7 @@ jobs:
             SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             rm -f /tmp/project-status.json
           set +e
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json
+          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
           VALIDATOR_RC=$?
           set -e
           STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
