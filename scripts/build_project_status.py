@@ -6,6 +6,7 @@ import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 SLOW_LABEL = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
 INSTRUCTION_FILES = (
@@ -53,6 +54,71 @@ def sha256_bytes(data: bytes) -> str:
 def display_date_to_iso(value: str) -> str:
     day, month, year = value.split(".")
     return f"{year}-{month}-{day}"
+
+
+def revision_fingerprint_text(text: str) -> str:
+    """Normalize technical-only timestamps so they do not advance content revision."""
+    normalized = re.sub(
+        r"^\*\*\d{2}\.\d{2}\.\d{4}\s*·\s*(?=\d+\s+сцен)",
+        "**",
+        text,
+        flags=re.M,
+    )
+    normalized = re.sub(
+        r"^- \*\*Последняя полная синхронизация:\*\*.*$",
+        "- **Последняя полная синхронизация:** <TECHNICAL_SYNC>",
+        normalized,
+        flags=re.M,
+    )
+    normalized = re.sub(
+        r"(\*\*Синхронизация контекста:\*\*)\s*\*\*\d{2}\.\d{2}\.\d{4}\*\*",
+        r"\1 **<TECHNICAL_DATE>**",
+        normalized,
+    )
+    return normalized
+
+
+def revision_fingerprint_sha256(text: str) -> str:
+    return sha256_bytes(revision_fingerprint_text(text).encode("utf-8"))
+
+
+def resolve_revision_date(
+    current_revision_sha256: str,
+    declared_revision_date: str | None,
+    synced_at: str,
+    previous_status_file: Path | None,
+    previous_master_file: Path | None,
+    revision_timezone: str,
+) -> str:
+    previous_status = {}
+    if previous_status_file and previous_status_file.is_file():
+        try:
+            previous_status = json.loads(previous_status_file.read_text(encoding="utf-8"))
+        except Exception:
+            previous_status = {}
+
+    previous_revision_sha256 = previous_status.get("canonical_revision_sha256")
+    if not previous_revision_sha256 and previous_master_file and previous_master_file.is_file():
+        try:
+            previous_text = previous_master_file.read_text(encoding="utf-8-sig")
+            previous_revision_sha256 = revision_fingerprint_sha256(previous_text)
+        except Exception:
+            previous_revision_sha256 = None
+
+    previous_revision_date = previous_status.get("revision_date")
+    if (
+        previous_revision_sha256
+        and previous_revision_sha256 == current_revision_sha256
+        and previous_revision_date
+    ):
+        return previous_revision_date
+
+    try:
+        stamp = datetime.fromisoformat(synced_at.replace("Z", "+00:00"))
+        stamp = stamp.astimezone(ZoneInfo(revision_timezone))
+        return stamp.strftime("%d.%m.%Y")
+    except Exception:
+        return declared_revision_date or datetime.now(ZoneInfo(revision_timezone)).strftime("%d.%m.%Y")
 
 
 def normalize_dialogue(value):
@@ -400,6 +466,9 @@ def parse_master(
     instruction_status_file: Path | None = None,
     topview_status_file: Path | None = None,
     topview_task_map_file: Path | None = None,
+    previous_status_file: Path | None = None,
+    previous_master_file: Path | None = None,
+    revision_timezone: str = "Europe/Moscow",
 ):
     master_bytes = path.read_bytes()
     has_utf8_bom = master_bytes.startswith(b"\xef\xbb\xbf")
@@ -410,10 +479,13 @@ def parse_master(
     except UnicodeDecodeError as exc:
         fail(f"canonical master is not valid UTF-8: {exc}")
 
-    rev = re.search(r"\*\*(\d{2}\.\d{2}\.\d{4}) · (\d+) сцен[^·\n]* · (\d+) полн", text)
+    rev = re.search(
+        r"\*\*(?:(\d{2}\.\d{2}\.\d{4}) · )?(\d+) сцен[^·\n]* · (\d+) полн",
+        text,
+    )
     if not rev:
-        fail("revision line not found")
-    revision_date, declared_scenes, declared_prompts = (
+        fail("revision/status line not found")
+    declared_revision_date, declared_scenes, declared_prompts = (
         rev.group(1),
         int(rev.group(2)),
         int(rev.group(3)),
@@ -641,11 +713,21 @@ def parse_master(
             synced_at = datetime.now().astimezone().isoformat()
 
     canonical_master_sha256 = sha256_bytes(master_bytes)
+    canonical_revision_sha256 = revision_fingerprint_sha256(text)
+    revision_date = resolve_revision_date(
+        canonical_revision_sha256,
+        declared_revision_date,
+        synced_at,
+        previous_status_file,
+        previous_master_file,
+        revision_timezone,
+    )
 
     audit_fingerprint = {
         "revision_date": revision_date,
         "synced_at": synced_at,
         "canonical_master_sha256": canonical_master_sha256,
+        "canonical_revision_sha256": canonical_revision_sha256,
         "scene_count": declared_scenes,
         "prompt_count": declared_prompts,
         "scene_ids": section_scenes,
@@ -664,6 +746,7 @@ def parse_master(
         "revision_date": revision_date,
         "master_declared_last_full_sync": master_declared_sync,
         "canonical_master_sha256": canonical_master_sha256,
+        "canonical_revision_sha256": canonical_revision_sha256,
         "canonical_master_bytes": len(master_bytes),
         "scenes": declared_scenes,
         "prompt_texts": declared_prompts,
@@ -707,6 +790,9 @@ def main():
     ap.add_argument("--instruction-status-file", default="instruction-sync-status.json")
     ap.add_argument("--topview-status-file")
     ap.add_argument("--topview-task-map-file")
+    ap.add_argument("--previous-status-file")
+    ap.add_argument("--previous-master-file")
+    ap.add_argument("--revision-timezone", default="Europe/Moscow")
     ap.add_argument("--check-only", action="store_true")
     args = ap.parse_args()
 
@@ -719,6 +805,9 @@ def main():
         Path(args.instruction_status_file) if args.instruction_status_file else None,
         Path(args.topview_status_file) if args.topview_status_file else None,
         Path(args.topview_task_map_file) if args.topview_task_map_file else None,
+        Path(args.previous_status_file) if args.previous_status_file else None,
+        Path(args.previous_master_file) if args.previous_master_file else None,
+        args.revision_timezone,
     )
     print(json.dumps(status, ensure_ascii=False, indent=2))
     # Always persist the generated status before returning a failing health code.
