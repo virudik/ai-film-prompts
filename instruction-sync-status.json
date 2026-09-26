@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-26T07:05:00.000Z",
+  "checked_at": "2026-09-26T14:27:00.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-24T22:05:47.502Z",
-      "github_blob": "b61ca3f8eac29adbf3a88e8656f7c09836a2213e",
+      "drive_modified_at": "2026-09-26T14:24:28.326Z",
+      "github_blob": "3274e67f57a047f013755247914ec336f18c843a",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -33,8 +33,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-24T22:07:04.116Z",
-      "github_blob": "c99acccab538ffeaaee64b0aa0df4f38c5c94f86",
+      "drive_modified_at": "2026-09-26T14:25:37.472Z",
+      "github_blob": "6d6a6ee1dcd0a80f65b0f97a7604e6fe6dfa6ba0",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub. Control Center keeps one owner-facing Монтажный разбор chooser with both historical and current analysis versions.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub after owner UI correction. Sidebar restored to comfortable 328px baseline with optional 280–430px resize; primary links stacked; filters visible; 🎬 Сейчас compacted instead. Montage chooser still exposes both analysis versions.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -223,5 +223,22 @@
     "version_2_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
     "version_2_build": "01:03:42,848",
     "preserve_version_1": true
+  },
+  "control_center_owner_ui": {
+    "health": "ok",
+    "sidebar_default_px": 328,
+    "sidebar_resize_range_px": [
+      280,
+      430
+    ],
+    "sidebar_width_persisted_locally": true,
+    "primary_links_stacked": true,
+    "filters_collapsed": false,
+    "service_files_collapsible": true,
+    "authority_subtitle": "Drive — канон · GitHub Pages — только чтение",
+    "now_panel_compact": true,
+    "now_panel_wide_columns": 2,
+    "back_to_top": true,
+    "montage_versions": 2
   }
 }
