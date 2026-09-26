@@ -1,4 +1,4 @@
-# SYNC-RUNBOOK v4.0 — AI Film Project
+﻿# SYNC-RUNBOOK v4.0 — AI Film Project
 
 
 
@@ -1611,3 +1611,9 @@ Partial intermediate commits не считаются final state и не дол�
 - Левое меню остаётся информационно полным, но компактным: уменьшенные отступы/ширина/TOC, основные ссылки рядом, Service Files и Filters свернуты по умолчанию; активный фильтр виден и раскрывает группу.
 - После прокрутки вниз показывать плавающую **↑ Наверх**; действие — smooth scroll к началу страницы.
 - Эти owner-facing правила валидируются вместе с `index.html` и Pages; Recovery не должен откатывать их к старому варианту.
+
+## AUTOMATIC MASTER REVISION DATE — 26.09.2026
+
+`revision_date` — вычисляемое поле, а не ручной маркер в master. `sync-from-drive.yml` вызывает `build_project_status.py` с `--previous-status-file project-status.json`, `--previous-master-file video-prompts.md` и `--revision-timezone Europe/Moscow`. Валидатор вычисляет `canonical_revision_sha256`; при semantic change ставит дату текущего sync, при отсутствии semantic change сохраняет предыдущую дату. Технические sync-only timestamps нормализуются и сами по себе ревизию не двигают.
+
+Правило записи master: строку `**N сцен ... · M полных текста промта**` держать **без ручной даты**. После substantive master write нормальный Drive → trigger → validation → GitHub → Pages цикл обязан автоматически обновить `revision_date`. Не редактировать `project-status.json.revision_date` вручную для обычной работы.
