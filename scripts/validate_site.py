@@ -59,4 +59,17 @@ if 'id="metricWorkIds"' in html:
 if 'id="schema"' in html:
     raise SystemExit("internal schema_version must not be shown in owner-facing technical info")
 
-print("site contract ok; duplicate ids=0; inline JS syntax ok; fail-safe health contract ok")
+# Both montage-analysis versions must remain published. The second file is large
+# and must never regress to an empty placeholder while the chooser still links to it.
+analysis_v1=root/"Seregius_montazhny_razbor.html"
+analysis_v2=root/"Seregius_montazhny_razbor-2.html"
+if not analysis_v1.exists() or analysis_v1.stat().st_size < 10000:
+    raise SystemExit("first montage analysis is missing or unexpectedly small")
+if not analysis_v2.exists() or analysis_v2.stat().st_size < 1000000:
+    raise SystemExit("second montage analysis is missing, empty or unexpectedly small")
+analysis_v2_text=analysis_v2.read_text(encoding="utf-8")
+for required in ("монтажно-сюжетный разбор новой сборки","01:03:42,848"):
+    if required not in analysis_v2_text:
+        raise SystemExit("second montage analysis content contract failed: "+required)
+
+print("site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok")
