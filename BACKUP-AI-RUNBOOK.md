@@ -1,4 +1,4 @@
-# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
+﻿# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
 
 
 
@@ -1399,3 +1399,7 @@ Seven canonical instruction docs изменяются только послед�
 - компактный sidebar/TOC, Service Files и Filters collapsed by default, текущий активный фильтр виден;
 - floating **↑ Наверх** после прокрутки;
 - не восстанавливать старый вариант, где free slots были скрыты или верхняя карточка считала только unique slow scenes.
+
+## Recovery rule: automatic master revision — 26.09.2026
+
+Recovery не должен восстанавливать старую ручную revision date в `video-prompts.md` и не должен считать обычный sync новой ревизией. Проверять `project-status.json.canonical_revision_sha256` + `revision_date`: semantic master change должен обновить дату автоматически, технический sync-only cycle должен сохранить её. Date-less master counter line — текущий канон.
