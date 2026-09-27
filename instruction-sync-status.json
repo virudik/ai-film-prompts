@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-27T08:39:00.000Z",
+  "checked_at": "2026-09-27T08:52:30.000Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,20 +9,20 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-26T16:22:15.240Z",
-      "github_blob": "97d4664f9a4cb100d819d06d337e0b00213507b3",
+      "drive_modified_at": "2026-09-27T08:50:14.293Z",
+      "github_blob": "e841d88a92dcf4b88c8b5cc1e1a7cd6be2cbf105",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-26T16:22:43.796Z",
-      "github_blob": "39da281ffebb80a24da05d0aec976c1c32b52dd2",
+      "drive_modified_at": "2026-09-27T08:50:52.146Z",
+      "github_blob": "b7b940f03278b03f784eb1d0615148992513c1ee",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-26T16:23:15.681Z",
-      "github_blob": "3f4333648ab510058d4aed57bd04bd9fea46e98b",
+      "drive_modified_at": "2026-09-27T08:51:28.496Z",
+      "github_blob": "9720837e6fc749d50e07e12cb5d3350e8ca2c839",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "7/7 canonical Drive instructions exact-match GitHub. Automatic master revision-date rule verified; technical-only syncs preserve revision_date.",
+  "note": "7/7 canonical Drive instructions exact-match GitHub. Master whitespace invariant documented: repeated blank-line layout noise is rejected; whitespace-only normalization does not advance revision_date.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -253,6 +253,7 @@
     "substantive_change_advances_revision": true,
     "technical_sync_only_preserves_revision": true,
     "manual_master_revision_date": false,
-    "current_revision_date": "26.09.2026"
+    "current_revision_date": "26.09.2026",
+    "blank_line_layout_noise_ignored": true
   }
 }
