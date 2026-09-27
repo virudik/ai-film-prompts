@@ -148074,3 +148074,12 @@ Partial intermediate commits не считаются final state и не дол�
 - Permanent rule: canonical master may keep normal single blank separators, but repeated blank-line layout noise must be collapsed before/while writing.
 - `project-status.json.canonical_revision_sha256` now ignores repeated blank-line-only layout differences, so a whitespace-only cleanup does not advance `revision_date`; substantive prompt/status/content changes still do.
 - Control Center fix in the same cycle: the top `Промтов` metric targets the first active Scene (not hard-coded Scene 1), and `Монтажный разбор` has an explicit light-theme style.
+
+
+## 27.09.2026 — Control Center / master formatting hotfix
+
+- `Промтов` в верхнем блоке `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` обязан вести к `📝 Полные промты сцен`, привязанному к **первой реально активной Scene ID**, а не к исторической `Scene 1`. Нельзя снова искать жёстко `Сцена 1`, потому что удалённые IDs не присутствуют в active master.
+- `Монтажный разбор` — theme-aware chooser. В светлом режиме его `<summary>` должен использовать светлую палитру так же, как соседняя кнопка `Персонажи / Референсы`; чёрный фон в light theme — regression.
+- Canonical `video-prompts.md` должен хранить обычную Markdown-разметку без серий десятков пустых строк. Между смысловыми абзацами/секциями оставлять максимум один пустой separator. Это presentation cleanup: оно не меняет тексты prompts и не должно само по себе двигать `revision_date`. `canonical_revision_sha256` нормализует line endings и повторные blank lines перед вычислением semantic revision fingerprint.
+- Topview hourly watcher и Drive→GitHub sync — разные контуры. Fresh project sync не доказывает fresh Topview telemetry. Если `topview-status.json.checked_at` не обновлялся, сайт может показывать старый slot snapshot даже при зелёном master sync; current Topview truth требует fresh watcher/connector read.
+- 27.09.2026 manual reconciliation after stale public Topview snapshot: existing Scene 24 task mapped to Scene 24 by canonical prompt match; canonical slow = `20,21,22,23,24`, active task slots = `6/6` (Scene 20×2 + Scenes 21–24 ×1). Technical task state still does not imply approval.
