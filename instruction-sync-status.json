@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-27T09:43:53.081Z",
+  "checked_at": "2026-09-27T14:34:24.989Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,14 +9,14 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-27T09:15:09.003Z",
-      "github_blob": "da8df3fe08a074d3ba90281a0f38a4d10a78fcac",
+      "drive_modified_at": "2026-09-27T14:32:22.538Z",
+      "github_blob": "d7dde9df3215f23c71fe1dff009bb4f3c017b097",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-27T09:15:46.916Z",
-      "github_blob": "00be5dc0d69104ee6a0a4dd3f5206ba01993fb06",
+      "drive_modified_at": "2026-09-27T14:32:13.007Z",
+      "github_blob": "6fd3a1aa7ef5087b79adabf171ddf3b361ed6428",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
@@ -45,8 +45,8 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-26T16:26:15.461Z",
-      "github_blob": "21f4ae01f9469c3d5f06db0025f0d8bd69a234ed",
+      "drive_modified_at": "2026-09-27T14:32:33.249Z",
+      "github_blob": "f1ff36a4df3c9e042bcffdc967d959a4befd1d49",
       "match": true
     }
   },
@@ -116,7 +116,8 @@
       "timezone": "Europe/Moscow",
       "fallback_after_minutes": 5
     },
-    "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available"
+    "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available",
+    "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact."
   },
   "three_view_topview_contract": {
     "health": "ok",
@@ -208,7 +209,10 @@
     "second_version": "Seregius_montazhny_razbor-2.html",
     "second_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
     "first_version_preserved": true,
-    "separate_second_top_level_button": false
+    "separate_second_top_level_button": false,
+    "first_version_date": "2026-09-17",
+    "second_version_date": "2026-09-24",
+    "date_basis": "First: completed report publication / Drive modified date; second: author date inside report HTML, not next-day upload time."
   },
   "montage_analysis_ui": {
     "health": "ok",
