@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-27T09:16:30.000Z",
+  "checked_at": "2026-09-27T09:43:53.081Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -253,7 +253,7 @@
     "substantive_change_advances_revision": true,
     "technical_sync_only_preserves_revision": true,
     "manual_master_revision_date": false,
-    "current_revision_date": "26.09.2026",
+    "current_revision_date": "27.09.2026",
     "blank_line_layout_noise_ignored": true
   }
 }
