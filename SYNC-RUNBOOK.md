@@ -1640,3 +1640,13 @@ Partial intermediate commits не считаются final state и не дол�
 ### Topview freshness separation
 - `sync-from-drive.yml` freshness and `topview-status.json.checked_at` are independent. A successful master sync must never be interpreted as proof that Topview slots were refreshed.
 - When Topview connector/background access is unavailable, preserve last verified snapshot; UI/operations must treat its age explicitly as telemetry freshness, not silently relabel it as current.
+
+
+## 27.09.2026 — даты монтажных версий и незавершённая публикация Topview
+
+- В chooser `Монтажный разбор` сохраняются два пункта: `Первая версия` с датой **17.09.2026** (публикация завершённого первого HTML; same-ID Drive modified 17.09) и `Вторая версия` с датой **24.09.2026** (дата отчёта в самом HTML новой сборки). Дата загрузки второго файла в Drive по Москве — 25.09 — не заменяет дату, указанную автором в отчёте. Обе ссылки сохраняются.
+- При разборе stale Topview обнаружен journal-only cycle: запись о свежей проверке была добавлена, а публичный snapshot и stable checkpoint остались прежними. Выполнен live emergency refresh; подробная фактическая отметка хранится только в runtime JSON, не в этой инструкции.
+- Уточнение уже действующего publication gate: свежая запись journal или успешный Drive sync не доказывает обновление Topview. Перед успешным завершением обязателен exact read-back map/status/checkpoint, совпадение `checked_at`, `updated_at`, `last_scan_at`, task IDs/counts и проверка опубликованного Pages snapshot. Нельзя завершать successful cycle после записи только journal.
+- Watcher и Recovery сохраняют действующие расписания HH:00 / HH:05 Europe/Moscow и `is_enabled=true`. Recovery считает свежий journal при старом public checkpoint незавершённой публикацией; deterministic emergency refresh разрешён только по существующим stale/failed и one-writer правилам. При недоступном connector не подделывать timestamp.
+- Для лёгкого hourly run хранить большие Board/task payloads внутри code-mode orchestration, если она доступна; в контекст выводить компактные ID/status/model/queue/ETA projections. Полные prompts/references нужны только для неизвестного candidate. Просматривать все строки требуемых страниц, но не выгружать в контекст base64 и повторяющиеся известные промты.
+
