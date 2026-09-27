@@ -1617,3 +1617,8 @@ Partial intermediate commits не считаются final state и не дол�
 `revision_date` — вычисляемое поле, а не ручной маркер в master. `sync-from-drive.yml` вызывает `build_project_status.py` с `--previous-status-file project-status.json`, `--previous-master-file video-prompts.md` и `--revision-timezone Europe/Moscow`. Валидатор вычисляет `canonical_revision_sha256`; при semantic change ставит дату текущего sync, при отсутствии semantic change сохраняет предыдущую дату. Технические sync-only timestamps нормализуются и сами по себе ревизию не двигают.
 
 Правило записи master: строку `**N сцен ... · M полных текста промта**` держать **без ручной даты**. После substantive master write нормальный Drive → trigger → validation → GitHub → Pages цикл обязан автоматически обновить `revision_date`. Не редактировать `project-status.json.revision_date` вручную для обычной работы.
+
+## Master whitespace normalization / revision fingerprint — 27.09.2026
+- Before writing canonical `video-prompts.md`, reject/normalize accidental repeated blank-line runs. Standard presentation is at most one empty separator line between blocks, including fenced production prompts.
+- `canonical_revision_sha256` normalizes line endings and repeated blank-line-only layout noise in addition to technical timestamps. Therefore layout-only cleanup preserves the previous `revision_date`; semantic/content/status changes advance it.
+- Recovery/validation should flag pathological whitespace growth rather than publishing it as normal prompt formatting.
