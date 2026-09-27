@@ -57,11 +57,12 @@ def display_date_to_iso(value: str) -> str:
 
 
 def revision_fingerprint_text(text: str) -> str:
-    """Normalize technical-only timestamps so they do not advance content revision."""
+    """Normalize technical-only and layout-only changes that must not advance revision."""
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
     normalized = re.sub(
         r"^\*\*\d{2}\.\d{2}\.\d{4}\s*·\s*(?=\d+\s+сцен)",
         "**",
-        text,
+        normalized,
         flags=re.M,
     )
     normalized = re.sub(
@@ -75,6 +76,9 @@ def revision_fingerprint_text(text: str) -> str:
         r"\1 **<TECHNICAL_DATE>**",
         normalized,
     )
+    # Repeated blank lines are presentation/layout noise. One blank separator is semantic enough
+    # for the canonical prompt structure and keeps whitespace-only cleanup from changing revision.
+    normalized = re.sub(r"\n(?:[ \t]*\n){2,}", "\n\n", normalized)
     return normalized
 
 
@@ -98,19 +102,20 @@ def resolve_revision_date(
             previous_status = {}
 
     previous_revision_sha256 = previous_status.get("canonical_revision_sha256")
-    if not previous_revision_sha256 and previous_master_file and previous_master_file.is_file():
+    previous_master_revision_sha256 = None
+    if previous_master_file and previous_master_file.is_file():
         try:
             previous_text = previous_master_file.read_text(encoding="utf-8-sig")
-            previous_revision_sha256 = revision_fingerprint_sha256(previous_text)
+            previous_master_revision_sha256 = revision_fingerprint_sha256(previous_text)
         except Exception:
-            previous_revision_sha256 = None
+            previous_master_revision_sha256 = None
 
     previous_revision_date = previous_status.get("revision_date")
-    if (
-        previous_revision_sha256
-        and previous_revision_sha256 == current_revision_sha256
-        and previous_revision_date
-    ):
+    same_semantic_content = current_revision_sha256 in {
+        previous_revision_sha256,
+        previous_master_revision_sha256,
+    }
+    if same_semantic_content and previous_revision_date:
         return previous_revision_date
 
     try:
