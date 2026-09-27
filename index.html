@@ -39,7 +39,8 @@ html[data-theme="light"] article h2{background:linear-gradient(180deg,rgba(255,2
 html[data-theme="light"] .scene-map-heading{background:linear-gradient(90deg,rgba(57,112,168,.12),transparent);color:#173a5f}
 html[data-theme="light"] .links a,html[data-theme="light"] .toc-link,html[data-theme="light"] .fingerprint summary,html[data-theme="light"] .comments-title,html[data-theme="light"] .comment-user,html[data-theme="light"] .comment-body{color:#263646}
 html[data-theme="light"] .links a:hover,html[data-theme="light"] .toc-link:hover{color:#12202e}
-html[data-theme="light"] .links a.analysis,html[data-theme="light"] .links a.references{background:#edf5fd;color:#234b70;border-color:#9db8d1}
+html[data-theme="light"] .links a.analysis,html[data-theme="light"] .links a.references,html[data-theme="light"] .analysis-picker>summary{background:#edf5fd;color:#234b70;border-color:#9db8d1}
+html[data-theme="light"] .analysis-picker>summary:hover,html[data-theme="light"] .analysis-picker[open]>summary{background:#e2eef9;color:#173e64;border-color:#86a7c5}
 html[data-theme="light"] .finger-val,html[data-theme="light"] blockquote{color:#35485b}
 html[data-theme="light"] .small-btn,html[data-theme="light"] .scene-btn,html[data-theme="light"] .copy{background:#f4f7fa;color:#243444}
 html[data-theme="light"] .metric.clickable:hover{background:#eef3f8}
@@ -437,12 +438,12 @@ function decorateMasterOverview(){
   }
  }
  insertCommentsSection();
- const scene1=[...content.querySelectorAll('h2')].find(h=>/^Сцена\s+1\b/.test(h.textContent.trim()));
- if(scene1){
+ const firstScene=[...content.querySelectorAll('h2')].find(h=>sceneIdFromTitle(h.textContent.trim())!==null);
+ if(firstScene){
   content.querySelectorAll('a[id^="scene-"]').forEach(a=>a.removeAttribute('id'));
-  if(!scene1.previousElementSibling?.classList?.contains('prompt-section-heading')){
+  if(!firstScene.previousElementSibling?.classList?.contains('prompt-section-heading')){
    const h=document.createElement('div');h.className='scene-map-heading prompt-section-heading';h.id='full-prompts';h.textContent='📝 Полные промты сцен';
-   scene1.insertAdjacentElement('beforebegin',h);
+   firstScene.insertAdjacentElement('beforebegin',h);
   }
  }
  content.querySelectorAll('a[href^="#scene-"]').forEach(a=>{
