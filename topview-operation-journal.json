@@ -235,6 +235,17 @@
       "source_checkpoint": "2026-09-27T13:57:28.000Z",
       "outcome": "success",
       "verification": "Fresh exact lookup for all 6 active task IDs; all remain init. Scanned all 4 Board video pages / 356 tasks; no unknown active video task found. Canonical slow remains 20,21,22,23,24; occupancy 6/6."
+    },
+    {
+      "timestamp": "2026-09-27T14:28:53.193Z",
+      "operation": "repair_unpublished_telemetry_cycle",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "public checkpoint remained at 2026-09-27T09:07:12.267Z after journal-only refresh",
+      "new_status": "six active tasks verified",
+      "source_checkpoint": "2026-09-27T14:28:53.193Z",
+      "outcome": "telemetry_read_verified",
+      "verification": "Exact lookup for all six active tasks: all init. Scanned all 100 rows of Board page 1; six-hour overlap fully covered; no new candidate. Map/status/checkpoint publication is complete only when stable checkpoint checked_at matches this source_checkpoint. No editorial or canonical membership change."
     }
   ]
 }
