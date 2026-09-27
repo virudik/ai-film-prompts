@@ -1622,3 +1622,21 @@ Partial intermediate commits не считаются final state и не дол�
 - Before writing canonical `video-prompts.md`, reject/normalize accidental repeated blank-line runs. Standard presentation is at most one empty separator line between blocks, including fenced production prompts.
 - `canonical_revision_sha256` normalizes line endings and repeated blank-line-only layout noise in addition to technical timestamps. Therefore layout-only cleanup preserves the previous `revision_date`; semantic/content/status changes advance it.
 - Recovery/validation should flag pathological whitespace growth rather than publishing it as normal prompt formatting.
+
+
+## 27.09.2026 — whitespace / UI regression safeguards
+
+### Master whitespace invariant
+- Raw `video-prompts.md` must not accumulate repeated blank-line runs from connector/file conversions.
+- Safe normalization: convert line endings consistently and collapse runs of 2+ blank separator lines to a single blank separator; do not alter non-whitespace prompt text.
+- Validator revision fingerprint treats repeated blank-line layout noise as non-semantic, so whitespace cleanup alone preserves the previous `revision_date`.
+- After normalization verify scene count, prompt-fence count, IDs/anchors and Drive↔GitHub mirror before completion.
+
+### Control Center regression checks
+- Metric `Промтов` must target `#full-prompts` inserted before the **first active scene heading** (`sceneIdFromTitle(...) !== null`), never hard-code `Scene 1`.
+- In light theme `.analysis-picker > summary` must use the light button palette; verify both closed/open/hover states.
+- These checks are part of normal site JS/CSS validation together with syntax, duplicate IDs and secret scan.
+
+### Topview freshness separation
+- `sync-from-drive.yml` freshness and `topview-status.json.checked_at` are independent. A successful master sync must never be interpreted as proof that Topview slots were refreshed.
+- When Topview connector/background access is unavailable, preserve last verified snapshot; UI/operations must treat its age explicitly as telemetry freshness, not silently relabel it as current.
