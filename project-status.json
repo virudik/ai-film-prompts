@@ -3,12 +3,12 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-27T08:57:50Z",
-  "revision_date": "26.09.2026",
-  "master_declared_last_full_sync": "26.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "7bf1435d12993871f86f017bf48f71d45483d1841f5fb77573add1a5fa089e31",
-  "canonical_revision_sha256": "899bddc5efc00c857d7f96dc27c535361c53ac621be6d03fb6f5dbace3d8e179",
-  "canonical_master_bytes": 303293,
+  "synced_at": "2026-09-27T09:10:24Z",
+  "revision_date": "27.09.2026",
+  "master_declared_last_full_sync": "27.09.2026 · текущая по live Topview/Drive сверке",
+  "canonical_master_sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2",
+  "canonical_revision_sha256": "0b817128553cf92437657939da8ac0eb7f5ab42237ec8367e6018a427506d615",
+  "canonical_master_bytes": 303869,
   "scenes": 14,
   "prompt_texts": 24,
   "work_items": [
@@ -29,9 +29,10 @@
     20,
     21,
     22,
-    23
+    23,
+    24
   ],
-  "slow_scenes_count": 4,
+  "slow_scenes_count": 5,
   "scene_ids": [
     10,
     11,
@@ -69,7 +70,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.089,
+    "age_hours_at_status_build": 0.298,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -119,7 +120,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.089,
+      "age_hours": 0.298,
       "blocking": false
     },
     "topview_task_map": {
@@ -328,7 +329,7 @@
         "continuous_take",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "25": {
       "target_engine": "Seedance 2.5",
@@ -403,10 +404,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "26.09.2026",
-    "synced_at": "2026-09-27T08:57:50Z",
-    "canonical_master_sha256": "7bf1435d12993871f86f017bf48f71d45483d1841f5fb77573add1a5fa089e31",
-    "canonical_revision_sha256": "899bddc5efc00c857d7f96dc27c535361c53ac621be6d03fb6f5dbace3d8e179",
+    "revision_date": "27.09.2026",
+    "synced_at": "2026-09-27T09:10:24Z",
+    "canonical_master_sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2",
+    "canonical_revision_sha256": "0b817128553cf92437657939da8ac0eb7f5ab42237ec8367e6018a427506d615",
     "scene_count": 14,
     "prompt_count": 24,
     "scene_ids": [
@@ -442,7 +443,8 @@
       20,
       21,
       22,
-      23
+      23,
+      24
     ],
     "health": "ok",
     "instruction_sync_health": "ok"
