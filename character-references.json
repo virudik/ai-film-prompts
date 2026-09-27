@@ -13,6 +13,7 @@
         "Серёжа"
       ],
       "scenes": [
+        16,
         17,
         21,
         26,
@@ -130,7 +131,9 @@
         "Rooftop Character 1",
         "Bearded Jedi"
       ],
-      "scenes": [],
+      "scenes": [
+        16
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Артём · основная model sheet",
@@ -175,7 +178,9 @@
         "Rooftop Character 3",
         "Hooded Jedi"
       ],
-      "scenes": [],
+      "scenes": [
+        16
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Илюша · основная model sheet",
@@ -472,6 +477,6 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-09-27T09:40:45.398Z",
+  "updated_at": "2026-09-27T09:41:45.585Z",
   "note": "Current active usage refreshed. Luchik and Ryzhik were added from user-provided exact model sheets. Scene 13 speaking cat is canonically Luchik. Scenes 23–27 use Luchik/Ryzhik recurring identities; Luchik keeps blue saber identity and Ryzhik green saber identity."
 }
