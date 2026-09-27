@@ -148068,3 +148068,9 @@ Partial intermediate commits не считаются final state и не дол�
 - Из semantic fingerprint исключаются только технические даты `Последняя полная синхронизация`, дата `Синхронизация контекста` и legacy/manual дата перед счётчиками сцен/промтов. Поэтому scene/prompt edits, slow/render-state changes и другие содержательные master changes двигают ревизию; обычный sync без изменения содержимого — нет.
 - В master строка счётчиков теперь date-less: `**N сцен к генерации/доработке · M полных текста промта**`. Не возвращать ручную revision date.
 - Текущая revision после перехода: **26.09.2026**.
+
+## Master whitespace normalization — 27.09.2026
+- Canonical `video-prompts.md` was repaired after an earlier write had inserted repeated blank-line runs (up to dozens of empty lines) between normal blocks and inside fenced prompts.
+- Permanent rule: canonical master may keep normal single blank separators, but repeated blank-line layout noise must be collapsed before/while writing.
+- `project-status.json.canonical_revision_sha256` now ignores repeated blank-line-only layout differences, so a whitespace-only cleanup does not advance `revision_date`; substantive prompt/status/content changes still do.
+- Control Center fix in the same cycle: the top `Промтов` metric targets the first active Scene (not hard-coded Scene 1), and `Монтажный разбор` has an explicit light-theme style.
