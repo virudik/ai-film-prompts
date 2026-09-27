@@ -1708,3 +1708,7 @@ Partial intermediate commits не считаются final state и не дол�
 ## AUTOMATIC MASTER REVISION DATE — 26.09.2026
 
 Дата `Ревизия` в Control Center является машинно вычисляемой датой последнего **содержательного изменения canonical master**. Источник — semantic fingerprint `canonical_revision_sha256` в `project-status.json`, а не ручная дата внутри `video-prompts.md`. Добавление/удаление сцены, изменение prompt body, canonical slow/render-state или важного master-context меняет fingerprint и двигает ревизию. Чистая техническая пересинхронизация без semantic change сохраняет прежнюю дату. Legacy/manual revision date в master больше не использовать.
+
+## Canonical master formatting invariant — 27.09.2026
+- `video-prompts.md` must not accumulate repeated empty-line runs. Keep normal compact Markdown spacing: at most one blank separator line between logical blocks unless a future explicit format requires otherwise.
+- Whitespace-only normalization is technical maintenance, not a new creative/content revision. The generated semantic revision fingerprint ignores repeated blank-line-only layout noise, while real text/status/prompt changes still advance `revision_date`.
