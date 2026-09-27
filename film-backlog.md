@@ -23,14 +23,14 @@
 
 
 
-## Актуальный operational status — 26 сентября 2026
+## Актуальный operational status — 27 сентября 2026
 
 
 
 
-- **Медленная генерация / SLOW_PENDING:** 20, 21, 22, 23. Scene 20 занимает два Topview task slots; Scenes 21, 22 и 23 — по одному; всего занято **5 из 6** Topview slots, свободен **1** слот на verified snapshot `2026-09-26T15:32:53.563Z`.
+- **Медленная генерация / SLOW_PENDING:** 20, 21, 22, 23, 24. Scene 20 занимает два Topview task slots; Scenes 21, 22, 23 и 24 — по одному; всего занято **6 из 6** Topview slots, свободно **0** слотов на verified snapshot `2026-09-27T09:07:12.267Z`.
 - **Нужна доработка / NEEDS_FIX:** 10, 11. **Нужен новый дубль / NEEDS_RERENDER:** 13 — prompt уже точечно переработан после неудачного результата, но новый рендер автоматически не запускается.
-- Slow-lock действует на текущие slow-сцены **20, 21, 22 и 23**. Scene 20 имеет две активные Topview-задачи, поэтому четыре unique slow Scene ID занимают пять слотов. Scene 22 exact-match запущенной Topview-задаче `6926ce5d0f81477ea06f135d4b658f97`. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему canonical Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID.
+- Slow-lock действует на текущие slow-сцены **20, 21, 22, 23 и 24**. Scene 20 имеет две активные Topview-задачи, поэтому пять unique slow Scene ID занимают шесть слотов. Scene 22 exact-match запущенной Topview-задаче `6926ce5d0f81477ea06f135d4b658f97`. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему canonical Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID. Scene 24 — существующая сцена; её активная задача `91ed2c95c6944772bed06bafed46cdd6` фактически запущена в Wan3. Planned engine и фактический render model различаются; это не основание менять prompt или запускать новый рендер.
 - Scenes 17 и 19 завершили текущие Topview-задачи техническим `success` и поэтому вышли из render-slow; их editorial/approval state автоматически не менялся. Scenes 3 и 4 по прямому решению пользователя признаны неудачными, больше не дорабатываются и выведены из active master; Scene 5 принята вместо связки 3+4 и также выведена из active master, потому что её prompt больше не нужен. Technical success не означает approval без такого решения пользователя.
 - Статусы `NEEDS_FIX`/`NEEDS_RERENDER` — очередь для отдельного обсуждения с пользователем, а не авто-команда переписывать prompt.
 - Актуальные scene IDs, counts и slow-list всегда перепроверять по fresh `video-prompts.md` / `project-status.json`.
@@ -397,4 +397,4 @@ UX:
 
 
 
-Historical checkpoint above is superseded. Current exact slow checkpoint as of 24.09.2026 reconciliation: `17,19,20,21,22`; Scene 20 occupies two active Topview task slots, so occupancy is 6/6. Scenes 3 and 4 are user-rejected/retired; Scene 5 is user-accepted for the film and its prompt is retired. Technical success does not imply editorial approval.
+Historical checkpoint — superseded by the current operational-status section above. Archived slow checkpoint from 24.09.2026 reconciliation: `17,19,20,21,22`; Scene 20 occupies two active Topview task slots, so occupancy is 6/6. Scenes 3 and 4 are user-rejected/retired; Scene 5 is user-accepted for the film and its prompt is retired. Technical success does not imply editorial approval.
