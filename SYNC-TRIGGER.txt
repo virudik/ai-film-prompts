@@ -29,3 +29,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-09-27T08:48:30Z fix-prompts-nav-light-montage-and-master-spacing
 2026-09-27T08:54:00Z finalize-spacing-ui-and-instruction-sync
 2026-09-27T08:49:30Z fix-prompts-navigation-light-montage-and-master-spacing
+2026-09-27T08:49:30Z fix-prompts-card-light-montage-and-master-spacing
