@@ -599,6 +599,7 @@ def parse_master(
         "reserved_scene_ids_not_reused": not (set(reserved_scene_ids) & set(section_scenes)),
         "prompt_fences_balanced": fences_balanced,
         "canonical_master_utf8_without_bom": not has_utf8_bom,
+        "canonical_master_blank_spacing_compact": re.search(r"\n(?:[ \t]*\n){2,}", text) is None,
         "slow_scene_ids_unique": len(slow_scenes) == len(set(slow_scenes)),
         "slow_scene_ids_active": all(scene_id in set(section_scenes) for scene_id in slow_scenes),
         "canonical_master_sha256_present": bool(sha256_bytes(master_bytes)),
