@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-09-27T09:10:24Z",
+  "synced_at": "2026-09-27T09:16:19Z",
   "revision_date": "27.09.2026",
   "master_declared_last_full_sync": "27.09.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2",
@@ -65,12 +65,12 @@
     18
   ],
   "instruction_sync": {
-    "health": "ok",
+    "health": "error",
     "snapshot_at": "2026-09-27T08:52:30.000Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.298,
+    "age_hours_at_status_build": 0.397,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -116,12 +116,14 @@
       }
     }
   },
-  "warnings": [],
+  "warnings": [
+    "instruction_sync_error"
+  ],
   "maintenance": {
     "instruction_verification": {
-      "state": "ok",
-      "age_hours": 0.298,
-      "blocking": false
+      "state": "error",
+      "age_hours": 0.397,
+      "blocking": true
     },
     "topview_task_map": {
       "state": "ok",
@@ -405,7 +407,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "27.09.2026",
-    "synced_at": "2026-09-27T09:10:24Z",
+    "synced_at": "2026-09-27T09:16:19Z",
     "canonical_master_sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2",
     "canonical_revision_sha256": "0b817128553cf92437657939da8ac0eb7f5ab42237ec8367e6018a427506d615",
     "scene_count": 14,
@@ -446,10 +448,10 @@
       23,
       24
     ],
-    "health": "ok",
-    "instruction_sync_health": "ok"
+    "health": "error",
+    "instruction_sync_health": "error"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -481,7 +483,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": true,
+    "instruction_mirrors_match_drive": false,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
