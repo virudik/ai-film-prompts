@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-24T17:43:53Z",
-  "last_deep_audit_at": "2026-09-24T01:39:49.728Z",
+  "checked_at": "2026-09-27T09:46:20.056Z",
+  "last_deep_audit_at": "2026-09-27T09:46:20.056Z",
   "health": "ok",
   "sections": {
-    "master": "ok",
+    "master": "ok_with_nonblocking_legacy_note",
     "prompts": "ok_with_review_items",
     "characters": "ok",
     "montage": "ok",
@@ -32,25 +32,50 @@
     "Reconciled explicit owner decisions: Scenes 3 and 4 retired as failed, Scene 5 accepted for film, and Scene 13 revised to NEEDS_RERENDER with strict cat-only speaker ownership.",
     "Mapped exact Topview task 6926ce5d0f81477ea06f135d4b658f97 to existing Scene 22 and reconciled canonical slow to 17,19,20,21,22 with 6/6 occupied task slots.",
     "Added active Scenes 23–27 for the Jedi-cat branch and synced the 14-scene / 24-prompt master through validator and status.",
-    "Simplified Control Center owner counters, removed the schema-version pill, and updated validator/integration guards to the new UI contract; latest dedicated checks passed."
+    "Simplified Control Center owner counters, removed the schema-version pill, and updated validator/integration guards to the new UI contract; latest dedicated checks passed.",
+    "2026-09-27 takeover: same-ID Drive film-backlog operational snapshot reconciled to slow Scenes 20–24 / six task slots and exact-mirrored to GitHub; old checkpoint explicitly marked historical.",
+    "2026-09-27 takeover: current character usage corrected for Serega (16,17,21,26,27), Artem/Ilyusha (16) and Yulya (21); model sheets preserved byte-for-byte.",
+    "2026-09-27 takeover: Notion operational Summary changed to current-source pointers; legacy prompt bank now points to the current same-ID style guide instead of stale v1.2.",
+    "2026-09-27 takeover: seven instruction mirrors re-read and exact-certified; duplicated revision-date cache corrected to 27.09.2026."
   ],
   "warnings": [
-    "Prompt-quality/editing work remains scene-specific: Scenes 10 and 11 are NEEDS_FIX and Scene 13 is NEEDS_RERENDER; no automatic rerender was launched.",
-    "Library recovery cache is present but stale/pending; non-blocking by current best-effort policy. An attempted overwrite was not accepted as an in-place replacement, so no duplicate recovery copy was retained."
+    "Scenes 10/11 remain NEEDS_FIX and Scene 13 NEEDS_RERENDER. Technical success for Scenes 17/19 is not editorial approval.",
+    "Library recovery copies are present but stale (20–24 September); non-blocking recovery-only cache, not refreshed in this takeover.",
+    "Master section 'Ближайшие направления', item 5, retains historical candidates 3,4,17 alongside the current list. Current scene-meta/review-ledger is authoritative: 10/11 NEEDS_FIX, 13 NEEDS_RERENDER; 3/4 retired, 17 READY. Master prompts/story/approval were not edited by this audit.",
+    "Continuous audiovisual viewing and final editorial acceptance are outside this takeover; use the montage reports' stated evidence limits."
   ],
-  "unresolved": [],
+  "unresolved": [
+    "Non-blocking master narrative cleanup: reconcile the historical candidate list in 'Ближайшие направления' item 5 during the next authorized master edit."
+  ],
   "runtime_snapshot": {
     "scenes": 14,
     "prompt_texts": 24,
+    "work_items_count": 11,
     "latest_scene": 27,
-    "slow_scenes": [
+    "scene_ids": [
+      10,
+      11,
+      13,
+      16,
       17,
       19,
       20,
       21,
-      22
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
     ],
-    "master_sha256": "16610c7de81138fefbb5b68a7f1259052ac799077012872e8ca134c0183ed8ed"
+    "slow_scenes": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "master_sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
@@ -61,12 +86,24 @@
     "health": "ok"
   },
   "notes": {
-    "master": "Current generated project-status health=ok with 14 active scenes, 24 prompt texts, latest Scene 27; Drive master is mirrored to GitHub.",
-    "instructions": "Seven canonical Drive instruction mirrors exact-match GitHub; instruction certificate refreshed after Control Center documentation changes.",
-    "topview": "Six active Topview tasks across canonical slow Scene IDs 17,19,20,21,22; Scene 20 occupies two slots and Scene 22 is the newly mapped sixth task.",
-    "recovery": "Recovery manifest refreshed to the current master fingerprint, instruction certificate and stable Topview snapshot during this reconciliation.",
-    "automation_watchdog": "Primary watcher exact hourly at HH:00 Europe/Moscow; Recovery exact hourly at HH:05. Both enabled; latest runs observed after the 20:00/20:05 local cycle.",
-    "integration_tests": "Control Center validator and AI Film integration recovery tests were updated to the new counter contract and latest dedicated runs passed.",
-    "site": "Control Center counter contract updated: top revision card shows only active slow-generation count; technical info shows dynamic active scenes/prompts/work directions and hides internal schema_version."
+    "master": "Fresh same-ID Drive master exactly matches GitHub; generated status health=ok. Active IDs, metadata, dependencies, reserved IDs and 24 complete prompt blocks checked.",
+    "instructions": "Seven live Drive instruction texts exactly match GitHub blobs recorded in the refreshed certificate.",
+    "prompts": "Audited all 24 blocks for reference/identity, timing/flow, camera, audio, negatives and frame-fill requirements; reviewed scene-specific speaker ownership, cat identities/saber roles, transition geometry and eleven-part musical continuity. Known editorial queue preserved.",
+    "characters": "Eleven model sheets visually inspected in a contact sheet; explicit names/aliases matched to current scene usage. Embedded previews and original-image references preserved.",
+    "montage": "Both montage reports, film-analysis/backlog, current work directions and relevant Kino pages reviewed. New cut 01:03:42.848; priorities are fragment ownership/transfers, post-monster scene, full-set-to-Warcraft payoff and final gag/pacing. Existing pickups must not be regenerated from superseded old notes.",
+    "topview": "Six tracked tasks re-read live and remain init across Scenes 20,21,22,23,24 (Scene 20 twice). Recent Board discovery scanned every row of the 100-row first page and covered the six-hour overlap. Healthy watcher ownership preserved; no telemetry publication timestamp fabricated.",
+    "supabase": "Security advisors returned no lints. RLS enabled on comments and rate-limit tables; published-only public SELECT, no public rate-limit access. Edge function reviewed for honeypot, origin/input/parent validation and 5-per-10-minute limit; health and public comment read returned HTTP 200. No test comment or database mutation.",
+    "automation_watchdog": "Primary watcher HH:00 and Recovery HH:05 Europe/Moscow both enabled; recent runs observed. No schedule mutation.",
+    "recovery": "Local site validator, review ledger validator and 10 recovery integration tests passed; latest dedicated integration workflow and Drive sync succeeded. Recovery metadata refreshed against verified sources.",
+    "site": "Published backlog and registry bytes match their resulting GitHub blobs. Source-level UI contracts and inline JS syntax passed; both montage versions available.",
+    "limitations": "Audit verifies current sources, publication, contracts and recovery. It does not approve generated videos or replace continuous playback/editorial review."
+  },
+  "evidence": {
+    "instruction_checked_at": "2026-09-27T09:43:53.081Z",
+    "published_topview_checked_at": "2026-09-27T09:07:12.267Z",
+    "interactive_topview_checked_at": "2026-09-27T09:45:08.328Z",
+    "integration_run_id": 36310299338,
+    "drive_sync_run_id": 36310299364,
+    "pages_run_id": 36310307613
   }
 }
