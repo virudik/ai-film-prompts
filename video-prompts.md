@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**14 сцен к генерации/доработке · 24 полных текста промта**
+**14 сцен к генерации/доработке · 26 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 5** сцен сейчас в медленной генерации: **21, 22, 23, 24, 26** — это **5 активных Topview-задач / 5 занятых слотов из 6**, по одной задаче на сцену. Scenes 17, 19 и 20 технически завершились; Scenes 21, 22, 23, 24 и 26 находятся в очереди. Повторно не запускать active slow-сцены до результата/ошибки или отдельного решения пользователя.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **28.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **14 актуальных сцен и 24 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **21, 22, 23, 24, 26**. Scenes 21, 22, 23, 24 и 26 имеют по одной активной Topview-задаче, итого **5/6 занятых task slots**. Scenes 17, 19 и 20 завершили текущие Topview-задачи техническим success и поэтому вышли из render-slow без изменения editorial/approval state. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID. Scene 24 task `91ed2c95c6944772bed06bafed46cdd6` совпадает по содержанию с canonical Scene 24 prompt (Topview лишь добавил reference tokens в хвост) и относится к существующей Scene 24, а не к новой Scene ID. Scene 26 task `e100cb476f9548edae0f36a99471b6e5` точно совпадает с canonical Scene 26 prompt и относится к существующей Scene 26, а не к новой Scene ID. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **28.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **14 актуальных сцен и 26 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **21, 22, 23, 24, 26**. Scenes 21, 22, 23, 24 и 26 имеют по одной активной Topview-задаче, итого **5/6 занятых task slots**. Scenes 17, 19 и 20 завершили текущие Topview-задачи техническим success и поэтому вышли из render-slow без изменения editorial/approval state. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID. Scene 24 task `91ed2c95c6944772bed06bafed46cdd6` совпадает по содержанию с canonical Scene 24 prompt (Topview лишь добавил reference tokens в хвост) и относится к существующей Scene 24, а не к новой Scene ID. Scene 26 task `e100cb476f9548edae0f36a99471b6e5` точно совпадает с canonical Scene 26 prompt и относится к существующей Scene 26, а не к новой Scene ID. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации
 
@@ -2657,6 +2657,165 @@ Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots/paws o
 
 NEGATIVE PROMPT:
 Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, merged cats, duplicated cats, human hands on cats, humanoid cat face, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+### Дополнительная версия — Seedance 2.0 — 2 × 15 секунд
+
+**Назначение:** Альтернативная split-версия той же Scene 27 для Seedance 2.0. Исходный 30-секундный вариант выше остаётся основным и не заменяется. Здесь тот же бой разбит на два самостоятельных production prompt по 15 секунд с сохранением той же географии, identity, цветов мечей и силового соотношения.
+
+#### Часть 1 — 15 секунд
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action lightsaber combat | Aggressive but readable choreography
+
+REFERENCES / IDENTITY:
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for LUCHIK and RYZHIK.
+@Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
+@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual identity. No identity swaps.
+LUCHIK = BLUE saber.
+RYZHIK = GREEN saber.
+SEREGA = RED saber.
+All three saber colors remain fixed for the entire shot.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image2 is the absolute visual authority for SEREGA / THE CHANCELLOR. Preserve his exact approved face, age, head shape, hair, body proportions and established Chancellor appearance. Preserve the approved costume/robe logic from the attached reference and current continuity. Do not redesign, beautify, age-shift, replace hairstyle/head structure or change the approved character design.
+@Image3 is the absolute visual authority for LUCHIK. Preserve the exact white-and-grey long-haired coat, white muzzle/chest/legs, grey crown/facial/back markings, feline face structure, long fur volume and cold disciplined expression. Do not humanize him.
+@Image4 is the absolute visual authority for RYZHIK. Preserve the exact ginger long-haired tabby coat, darker orange striping, lighter muzzle/chest, feline face structure, long fur volume and aggressive confident expression. Do not humanize him.
+Both cats remain recognizably feline at all times: correct cat heads, ears, muzzles, paws, tails and fur. They may use stylized upright combat balance to wield compact lightsaber hilts, but never gain human hands, human arms or humanoid faces.
+
+CONTINUITY FROM SCENE 26:
+Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same deep red storm horizon, same drifting ash direction and same opening left-right geography. Begin at the exact emotional instant after the cats issue their challenge. No new arrival, no reset to a different battlefield, no location change.
+
+START STATE / BLOCKING:
+SEREGA faces the two cats across the same open basalt established in Scene 26.
+RYZHIK is slightly forward on camera-left/center.
+LUCHIK is offset on the opposite side, half a step back but ready to close.
+All three sabers are already ignited:
+RYZHIK = GREEN.
+LUCHIK = BLUE.
+SEREGA = RED.
+The fight begins immediately from this standoff tension.
+
+POWER DYNAMIC — CRITICAL:
+The CATS ARE CLEARLY THE SUPERIOR FIGHTERS.
+SEREGA is competent and dangerous, but the two Jedi cats are faster, more coordinated, more precise and physically dominant.
+Do not stage a balanced 50/50 duel. Do not make SEREGA casually overpower either cat.
+Every major exchange should push SEREGA farther backward or force him to defend and recover.
+The cats never look helpless, confused or accidentally lucky; their advantage is intentional mastery.
+
+TIMELINE / CHOREOGRAPHY:
+[0:00–0:04] — EXPLOSIVE OPEN
+Immediately after the standoff, RYZHIK attacks first from one angle while LUCHIK closes from the other. SEREGA catches the opening pressure in a compact desperate guard. Clean blade contacts, sparks and readable spacing; no bodies intersect.
+
+[0:04–0:08] — RYZHIK FORCES THE FIRST RETREAT
+RYZHIK drives fast aggressive green-blade attacks that make SEREGA give up ground. LUCHIK does not flail randomly; he tracks the spacing intelligently and cuts off the escape line, forcing SEREGA to stay trapped between both cats' angles.
+
+[0:08–0:12] — LUCHIK TAKES CONTROL OF CENTER
+LUCHIK enters decisively with a precise blue-blade three-beat series. SEREGA blocks and survives, but he is clearly pressured. He attempts one red-saber counter but cannot turn momentum in his favor because RYZHIK immediately threatens from the side.
+
+[0:12–0:15] — END STATE FOR PART 2
+The cats' coordinated pressure forces SEREGA backward toward a low ruined basalt structure. He ends this part in a strained defensive stance, slightly lower and off-balance, red saber still in hand. LUCHIK stands closer on one side with blue saber poised; RYZHIK has angled around to the other side with green saber ready to spring. End on a clear tense mid-wide composition that directly sets up Part 2.
+
+CAMERA / LENS / CONTINUITY:
+Dynamic but physically readable action camera. Controlled lateral tracking with short motivated push-ins. Preserve one coherent action axis and clear left-right geography. No frantic random cuts, impossible orbiting, teleporting camera or constant shake. The two cats' teamwork must remain easy to follow. Maintain one coherent 3D battlefield and stable ruin geometry.
+
+COMBAT PHYSICS:
+Every saber has one continuous hilt and one continuous blade. Contacts happen at believable distances. No saber passing through bodies, no floating hilts, no extra blades, no blade length/color changes and no clipping. Landings, footwork and impacts obey gravity and momentum. The cats may fight in stylized bipedal balance while retaining unmistakably feline anatomy.
+
+PERFORMANCE:
+LUCHIK: cold, forceful, disciplined master.
+RYZHIK: faster, more aggressive, predatory confidence.
+SEREGA: skilled and dangerous, but increasingly pressured; serious and concentrated. No clowning, parody, fear caricature or dialogue.
+
+LIGHTING / MATERIAL REALISM / VFX:
+Blue, green and red saber light subtly illuminate nearby fur, SEREGA's robe/costume and rough basalt at close range. Red storm sky and volcanic glow remain consistent. Ash moves continuously in one direction. Sparks are localized at blade/material impacts. Preserve detailed natural fur, worn fabric and rough stone response. Avoid screen-filling bloom, excessive particle spam and glossy game-render materials.
+
+AUDIO (native):
+Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots and paws on basalt, wind, drifting ash, small stone impacts and SEREGA's effort breaths/grunts only. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
+
+NEGATIVE PROMPT:
+Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### Часть 2 — 15 секунд
+
+```text
+Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action lightsaber combat | Aggressive but readable choreography
+
+REFERENCES / IDENTITY:
+@Image1 — PAIR CONTINUITY / COMPOSITION reference for LUCHIK and RYZHIK.
+@Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
+@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
+@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual identity. No identity swaps.
+LUCHIK = BLUE saber.
+RYZHIK = GREEN saber.
+SEREGA = RED saber.
+All three saber colors remain fixed for the entire shot.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image2 is the absolute visual authority for SEREGA / THE CHANCELLOR. Preserve his exact approved face, age, head shape, hair, body proportions and established Chancellor appearance. Preserve the approved costume/robe logic from the attached reference and current continuity. Do not redesign, beautify, age-shift, replace hairstyle/head structure or change the approved character design.
+@Image3 is the absolute visual authority for LUCHIK. Preserve the exact white-and-grey long-haired coat, white muzzle/chest/legs, grey crown/facial/back markings, feline face structure, long fur volume and cold disciplined expression. Do not humanize him.
+@Image4 is the absolute visual authority for RYZHIK. Preserve the exact ginger long-haired tabby coat, darker orange striping, lighter muzzle/chest, feline face structure, long fur volume and aggressive confident expression. Do not humanize him.
+Both cats remain recognizably feline at all times: correct cat heads, ears, muzzles, paws, tails and fur. They may use stylized upright combat balance to wield compact lightsaber hilts, but never gain human hands, human arms or humanoid faces.
+
+CONTINUITY FROM SCENE 26 / PART 1:
+Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same deep red storm horizon, same drifting ash direction and same action axis. This prompt continues immediately from the end of Part 1 with no reset.
+Start exactly from this Part 1 end-state:
+SEREGA is backed closer to a low basalt ruin in a strained defensive stance, slightly lower and off-balance, red saber still in hand.
+LUCHIK is closer on one side with blue saber ready to press.
+RYZHIK has angled around on the opposite side with green saber ready to spring.
+All three remain inside the same coherent battlefield geometry.
+
+POWER DYNAMIC — CRITICAL:
+The CATS ARE CLEARLY THE SUPERIOR FIGHTERS.
+SEREGA is competent and dangerous, but the two Jedi cats are faster, more coordinated, more precise and physically dominant.
+Do not stage a balanced 50/50 duel. Do not make SEREGA casually overpower either cat.
+Every major exchange should push SEREGA deeper into defense or force him to recover.
+The cats never look helpless, confused or accidentally lucky; their advantage is intentional mastery.
+
+TIMELINE / CHOREOGRAPHY:
+[0:00–0:04] — IMMEDIATE CONTINUATION
+From the Part 1 end pose, RYZHIK springs first from the wider angle while LUCHIK holds center pressure. SEREGA reacts quickly and blocks, but the geometry makes it clear he is already on the back foot and cannot reset the fight on his terms.
+
+[0:04–0:08] — COORDINATED PRESSURE
+LUCHIK drives a clean, forceful blue-blade sequence that pins SEREGA's line for a moment while RYZHIK repositions and threatens from the side. The attacks alternate rhythmically rather than degenerating into chaotic simultaneous flailing. SEREGA manages to defend, but loses more ground and composure.
+
+[0:08–0:12] — DECISIVE BREAK
+SEREGA attempts one committed red-saber counterattack to create space. The cats read it instantly: one redirects the blade while the other lands a controlled non-gory impact — either a hilt/physical hit or a restrained Force-like push — that knocks SEREGA backward onto one knee or against the low basalt ruin. His saber stays in hand, but his defense is clearly broken.
+
+[0:12–0:15] — CATS OWN THE FRAME
+SEREGA remains in a low defensive recovery posture, breathing hard, red saber held up but visibly disadvantaged. LUCHIK and RYZHIK advance together and dominate the final composition, calm and fully in control, blue and green sabers ready. End with the cats clearly owning the frame and the power dynamic unmistakable.
+
+CAMERA / LENS / CONTINUITY:
+Dynamic but physically readable action camera with controlled lateral tracking, one short motivated push-in and a low finishing angle. Preserve screen direction and action axis so the teamwork remains easy to follow. No frantic cuts, impossible orbiting, teleporting camera or constant shake. Maintain one coherent 3D battlefield and stable ruin geometry.
+
+COMBAT PHYSICS:
+Every saber has one continuous hilt and one continuous blade. Contacts happen at believable distances. No saber passing through bodies, no floating hilts, no extra blades, no clipping and no blade length/color changes. Cats retain unmistakably feline anatomy even in stylized bipedal combat balance. Motion obeys gravity and momentum.
+
+PERFORMANCE:
+LUCHIK: cold, forceful, disciplined master.
+RYZHIK: faster, more aggressive, predatory confidence.
+SEREGA: skilled but increasingly strained, serious, reactive and under heavy pressure. No clowning, dialogue or parody.
+
+LIGHTING / MATERIAL REALISM / VFX:
+Same close-range saber light interaction on fur, SEREGA's robe/costume and rough basalt. Red storm sky and volcanic rim light remain consistent. Ash continues to drift in one direction. Sparks and debris are localized and controlled. Preserve detailed natural fur, worn fabric and rough stone response. Avoid screen-filling bloom, excessive particles and glossy game aesthetics.
+
+AUDIO (native):
+Distinct blue/green/red saber hum, hard blade clashes, air swishes, wind, drifting ash, boots and paws on basalt, light debris/stone impacts and SEREGA's exertion breaths/grunts. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
+
+NEGATIVE PROMPT:
+Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
