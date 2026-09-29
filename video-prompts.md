@@ -45,7 +45,7 @@
 | 24 | [Коты в кабине: запуск корабля и взлёт](#scene-24)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = точный парный референс котов | Серый пилотирует, рыжий работает штурманом; последовательный запуск систем, набор тяги и физический взлёт из кабины. |
 | 25 | [Коты в кабине: космическое сражение](#scene-25) | @Image1 = точный парный референс котов | Из кабины видно сражение; серый выполняет уклонения, рыжий управляет навигацией/оружием. |
 | 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = коты; @Image2 = Серёга | Жёсткий диалог двух котов с Серёгой; строгий русский lip sync и speaker ownership, Wan 3. |
-| 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга | Яростный бой на планете ситхов; коты заметно превосходят Серёгу скоростью, координацией и силой. |
+| 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга; @Image3 = Лучик; @Image4 = Рыжик; @Image5 = точная локация древнего города-руины | Яростный бой среди огромного древнего каменного города-руины в тёплом оранжево-золотом закатном свете; коты заметно превосходят Серёгу скоростью, координацией и силой. |
 
 ---
 
@@ -2588,11 +2588,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":26}],"tags":["cats","lightsaber_battle","sith_planet","action","jedi","character_identity"]} -->
 
-**Контекст использования:** Немедленное продолжение Scene 26 на той же планете и в той же географии. Яростный брутальный бой Серёги с двумя котами на световых мечах. Главный сюжетный результат должен читаться без двусмысленности: коты-магистры заметно быстрее, точнее и сильнее; Серёга умеет драться и сопротивляется, но почти всё время вынужден обороняться.
+**Контекст использования:** Немедленное продолжение Scene 26 по персонажам, эмоциональному состоянию и стартовым позициям. Визуальная география боя Scene 27 теперь жёстко фиксируется отдельным exact location reference @Image5: огромный древний каменный город-руина в сухой скальной долине, залитый тёплым оранжево-золотым закатным светом. Старое словесное описание «чёрное базальтовое плато / красное штормовое небо / вулканическое свечение» для Scene 27 больше не использовать. Яростный брутальный бой Серёги с двумя котами на световых мечах. Главный сюжетный результат должен читаться без двусмысленности: коты-магистры заметно быстрее, точнее и сильнее; Серёга умеет драться и сопротивляется, но почти всё время вынужден обороняться.
 
-**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference, если он реально доступен.
+**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference · @Image5 = **точный LOCATION / ENVIRONMENT reference**: чистый широкий кадр древнего монументального каменного города-руины на закате. @Image5 является абсолютным визуальным источником локации, архитектуры, материала, пространственного масштаба, направления света и цветовой атмосферы. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference только для стартовых позиций/эмоционального состояния; он не должен переопределять @Image5 как authority окружения.
 
-**Что происходит:** После ультиматума оба кота одновременно давят на Серёгу: серый атакует точными силовыми сериями с синим клинком, рыжий быстро меняет углы зелёным. Серёга с красным мечом отбивается и несколько раз пытается контратаковать, но коты синхронно разбирают его защиту, отбрасывают и к финалу загоняют в явно проигрышную позицию. Без крови/расчленения; превосходство передаётся постановкой боя.
+**Что происходит:** Бой разворачивается прямо в локации @Image5: на широких ступенчатых террасах и открытых площадях огромного древнего города-руины из тёплого охристо-коричневого выветренного камня, среди гигантских статуй в мантиях, массивных храмовых фасадов, лестниц, разрушенных колонн, высоких прямоугольных башен и обломков кладки; вдали через сухую пыльную дымку видны зубчатые скальные шпили и слои разрушенного города. Низкое солнце у горизонта даёт насыщенный оранжево-золотой контровой свет и длинные тени под драматичными облаками. После ультиматума оба кота одновременно давят на Серёгу: Лучик атакует точными силовыми сериями с синим клинком, Рыжик быстро меняет углы зелёным. Серёга с красным мечом отбивается и несколько раз пытается контратаковать, но коты синхронно разбирают его защиту, отбрасывают и к финалу загоняют в явно проигрышную позицию. Без крови/расчленения; превосходство передаётся постановкой боя.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2603,14 +2603,20 @@ REFERENCES / IDENTITY:
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
 @Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
-Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank the pair image for individual identity. No identity swaps.
+@Image5 — PRIMARY EXACT LOCATION / ENVIRONMENT reference: the clean wide view of the same vast ancient ruined stone city/temple complex at sunset. Preserve its warm reddish-brown / ochre weathered stone, monumental robed statues, massive temple façades, broad stepped terraces and stairways, broken columns, tall rectangular ruin towers, scattered masonry, jagged canyon/mesa-like rock spires and layered distant ruins, together with the warm orange-gold low sun, dramatic cloudscape and dusty atmospheric depth.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual cat identity. @Image5 is the absolute authority for battlefield environment, architecture, material palette, spatial scale, sunset direction and atmosphere. @Image1 controls pair continuity/composition only and must not override @Image5 environment. No identity swaps.
 LUCHIK = BLUE saber.
 RYZHIK = GREEN saber.
 SEREGA = RED saber.
 All three saber colors remain fixed for the entire shot.
 
+ENVIRONMENT / LOCATION LOCK — @Image5 IS ABSOLUTE:
+Use @Image5 as the exact visual authority for the battlefield environment. The fight takes place inside the vast ancient monumental ruined stone city shown there, not on a generic dark Sith plateau. Preserve the recognizable architecture and scale logic: warm reddish-brown / ochre weathered stone, giant robed statues, massive temple façades, broad stepped terraces, long stairways, broken columns and parapets, tall rectangular ruin towers, fallen masonry, jagged desert canyon/mesa spires and layered ruined silhouettes receding into dusty haze.
+Lighting must follow @Image5: a low warm orange-gold sunset near the horizon beneath dramatic dark clouds, strong golden edge light, long natural shadows and warm atmospheric haze between the ruins. Saber colors may add only local blue/green/red light near the characters.
+This is NOT a black-basalt plateau, NOT a lava field, NOT a volcanic battlefield, NOT a featureless field of black monoliths and NOT a deep-red storm-sky environment. Do not replace @Image5 with generic Sith architecture.
+
 CONTINUITY FROM SCENE 26:
-Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same red storm horizon, same ash direction and same opening left-right positions. Begin at the exact emotional instant after the cats issue their challenge. No new arrival, no reset to a different battlefield.
+Continue the exact emotional instant and opening left-right fighter positions from Scene 26, but for Scene 27 the battlefield itself is now concretely defined by @Image5. @Image5 overrides any older text that described black basalt, broken black monoliths, volcanic glow, drifting ash or a deep-red storm sky. Begin directly after the cats issue their challenge, already inside the ancient sunset-lit stone city/ruin environment shown in @Image5. No new arrival, no temporal reset and no location drift away from @Image5.
 
 POWER DYNAMIC — CRITICAL:
 The CATS ARE CLEARLY THE SUPERIOR FIGHTERS.
@@ -2624,16 +2630,16 @@ TIMELINE / CHOREOGRAPHY:
 RYZHIK attacks first from one angle while LUCHIK immediately closes from the other. SEREGA catches both strikes in a desperate compact guard. Clean saber contact, sparks and light interaction; no bodies intersect.
 
 [0:05–0:11] — LUCHIK DOMINATES CENTER
-LUCHIK drives a powerful precise three-beat combination that forces SEREGA back several steps across the basalt. RYZHIK circles to cut off the escape angle rather than randomly spinning.
+LUCHIK drives a powerful precise three-beat combination that forces SEREGA back several steps across the broad weathered-stone terrace shown in @Image5. RYZHIK circles to cut off the escape angle rather than randomly spinning.
 
 [0:11–0:17] — SEREGA COUNTERS / CATS READ HIM
 SEREGA attempts one skilled red-saber counterattack. The cats anticipate it: RYZHIK redirects the blade, LUCHIK slips inside the line and forces SEREGA to turn and retreat. The choreography clearly shows teamwork and superior timing.
 
 [0:17–0:23] — TWO-ON-ONE PRESSURE
-Both cats attack in alternating rhythm, not chaotic simultaneous flailing. Blue and green blades create readable crossing patterns around SEREGA's red defense. SEREGA blocks but loses ground. A nearby stone/metal element is struck and throws sparks/debris, demonstrating force without harming bodies graphically.
+Both cats attack in alternating rhythm, not chaotic simultaneous flailing. Blue and green blades create readable crossing patterns around SEREGA's red defense. SEREGA blocks but loses ground. A nearby broken stone column, parapet or fallen architectural fragment from @Image5 is struck and throws localized sparks/stone chips, demonstrating force without harming bodies graphically.
 
 [0:23–0:27] — DECISIVE BREAK
-LUCHIK pins/deflects SEREGA's saber line for a beat while RYZHIK lands a controlled Force-like impact or hilt/physical strike that throws SEREGA backward onto one knee or against a low basalt ruin. No gore, no dismemberment. His saber remains in hand but his defense is broken.
+LUCHIK pins/deflects SEREGA's saber line for a beat while RYZHIK lands a controlled Force-like impact or hilt/physical strike that throws SEREGA backward onto one knee or against a low broken stone terrace / fallen masonry element from the @Image5 ruins. No gore, no dismemberment. His saber remains in hand but his defense is broken.
 
 [0:27–0:30] — CATS OWN THE FRAME
 SEREGA recovers into a low defensive position, breathing hard. LUCHIK and RYZHIK advance together with sabers ready, completely composed. Camera settles low behind/near SEREGA so the two cats dominate the final composition and their superiority is unmistakable.
@@ -2650,13 +2656,13 @@ RYZHIK: faster, more aggressive, predatory confidence.
 SEREGA: skilled but increasingly pressured; anger gives way to concentration and strain. No clowning, no fear caricature, no dialogue.
 
 LIGHTING / VFX:
-Saber light subtly illuminates fur, robe and basalt at close range. Red storm/volcanic rim light remains consistent. Sparks are localized at blade/material impacts; ash moves continuously. Avoid screen-filling bloom and game-like particle spam.
+Follow @Image5 lighting exactly: low warm orange-gold sunset, strong natural golden edge light, long directional shadows, dramatic cloud cover and dusty atmospheric depth across the ruined city. Saber light subtly adds local blue/green/red illumination to fur, SEREGA's robe/costume and nearby warm stone only at close range. Sparks and small stone chips are localized at impacts. Preserve the warm ochre/reddish-brown stone palette and cinematic sunset contrast. No volcanic glow, no drifting ash, no giant bloom and no game-like particle spam.
 
 AUDIO:
-Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots/paws on basalt, wind, ash, stone impacts, SEREGA's exertion breaths/grunts only. Cats may produce brief natural exertion growls/hisses, but no spoken dialogue. No narrator.
+Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots/paws on dry weathered stone, wind moving through monumental ruins, light grit/dust movement, localized stone chips/impacts and SEREGA's exertion breaths/grunts only. Cats may produce brief natural exertion growls/hisses, but no spoken dialogue. No narrator.
 
 NEGATIVE PROMPT:
-Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, merged cats, duplicated cats, human hands on cats, humanoid cat face, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, merged cats, duplicated cats, human hands on cats, humanoid cat face, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, black basalt plateau, lava field, volcanic glow, deep red storm sky, featureless black monolith field, generic dark Sith plateau, location drift away from @Image5, missing monumental statues/terraces/stairs/towers, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2664,7 +2670,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### Дополнительная версия — Seedance 2.0 — 2 × 15 секунд
 
-**Назначение:** Альтернативная split-версия той же Scene 27 для Seedance 2.0. Исходный 30-секундный вариант выше остаётся основным и не заменяется. Здесь тот же бой разбит на два самостоятельных production prompt по 15 секунд с сохранением той же географии, identity, цветов мечей и силового соотношения.
+**Назначение:** Альтернативная split-версия той же Scene 27 для Seedance 2.0. Исходный 30-секундный вариант выше остаётся основным и не заменяется. Здесь тот же бой разбит на два самостоятельных production prompt по 15 секунд. Оба используют ту же точную локацию @Image5 — древний монументальный каменный город-руину в оранжево-золотом закатном свете — и сохраняют одинаковые identity, цвета мечей, пространственную географию и силовое соотношение.
 
 #### Часть 1 — 15 секунд
 
@@ -2677,11 +2683,17 @@ REFERENCES / IDENTITY:
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
 @Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
-Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual identity. No identity swaps.
+@Image5 — PRIMARY EXACT LOCATION / ENVIRONMENT reference: the clean wide view of the same vast ancient ruined stone city/temple complex at sunset. Preserve its warm reddish-brown / ochre weathered stone, monumental robed statues, massive temple façades, broad stepped terraces and stairways, broken columns, tall rectangular ruin towers, scattered masonry, jagged canyon/mesa-like rock spires and layered distant ruins, together with the warm orange-gold low sun, dramatic cloudscape and dusty atmospheric depth.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual cat identity. @Image5 is the absolute authority for battlefield environment, architecture, material palette, spatial scale, sunset direction and atmosphere. @Image1 controls pair continuity/composition only and must not override @Image5 environment. No identity swaps.
 LUCHIK = BLUE saber.
 RYZHIK = GREEN saber.
 SEREGA = RED saber.
 All three saber colors remain fixed for the entire shot.
+
+ENVIRONMENT / LOCATION LOCK — @Image5 IS ABSOLUTE:
+Use @Image5 as the exact visual authority for the battlefield environment. The fight takes place inside the vast ancient monumental ruined stone city shown there, not on a generic dark Sith plateau. Preserve the recognizable architecture and scale logic: warm reddish-brown / ochre weathered stone, giant robed statues, massive temple façades, broad stepped terraces, long stairways, broken columns and parapets, tall rectangular ruin towers, fallen masonry, jagged desert canyon/mesa spires and layered ruined silhouettes receding into dusty haze.
+Lighting must follow @Image5: a low warm orange-gold sunset near the horizon beneath dramatic dark clouds, strong golden edge light, long natural shadows and warm atmospheric haze between the ruins. Saber colors may add only local blue/green/red light near the characters.
+This is NOT a black-basalt plateau, NOT a lava field, NOT a volcanic battlefield, NOT a featureless field of black monoliths and NOT a deep-red storm-sky environment. Do not replace @Image5 with generic Sith architecture.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for SEREGA / THE CHANCELLOR. Preserve his exact approved face, age, head shape, hair, body proportions and established Chancellor appearance. Preserve the approved costume/robe logic from the attached reference and current continuity. Do not redesign, beautify, age-shift, replace hairstyle/head structure or change the approved character design.
@@ -2690,10 +2702,10 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Both cats remain recognizably feline at all times: correct cat heads, ears, muzzles, paws, tails and fur. They may use stylized upright combat balance to wield compact lightsaber hilts, but never gain human hands, human arms or humanoid faces.
 
 CONTINUITY FROM SCENE 26:
-Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same deep red storm horizon, same drifting ash direction and same opening left-right geography. Begin at the exact emotional instant after the cats issue their challenge. No new arrival, no reset to a different battlefield, no location change.
+Continue the exact emotional instant and opening left-right fighter positions from Scene 26, but use @Image5 as the absolute environment authority. @Image5 overrides older wording about black basalt, volcanic glow, broken black monoliths, drifting ash or a deep-red storm sky. Begin directly after the cats issue their challenge inside the ancient sunset-lit stone city/ruin environment defined by @Image5. No new arrival, no temporal reset and no location drift away from @Image5.
 
 START STATE / BLOCKING:
-SEREGA faces the two cats across the same open basalt established in Scene 26.
+SEREGA faces the two cats across a broad open weathered-stone terrace/plaza matching @Image5, with monumental ruined architecture clearly readable around and behind them.
 RYZHIK is slightly forward on camera-left/center.
 LUCHIK is offset on the opposite side, half a step back but ready to close.
 All three sabers are already ignited:
@@ -2720,7 +2732,7 @@ RYZHIK drives fast aggressive green-blade attacks that make SEREGA give up groun
 LUCHIK enters decisively with a precise blue-blade three-beat series. SEREGA blocks and survives, but he is clearly pressured. He attempts one red-saber counter but cannot turn momentum in his favor because RYZHIK immediately threatens from the side.
 
 [0:12–0:15] — END STATE FOR PART 2
-The cats' coordinated pressure forces SEREGA backward toward a low ruined basalt structure. He ends this part in a strained defensive stance, slightly lower and off-balance, red saber still in hand. LUCHIK stands closer on one side with blue saber poised; RYZHIK has angled around to the other side with green saber ready to spring. End on a clear tense mid-wide composition that directly sets up Part 2.
+The cats' coordinated pressure forces SEREGA backward toward a low broken stone terrace / fallen masonry element matching the @Image5 ruins. He ends this part in a strained defensive stance, slightly lower and off-balance, red saber still in hand. LUCHIK stands closer on one side with blue saber poised; RYZHIK has angled around to the other side with green saber ready to spring. End on a clear tense mid-wide composition that directly sets up Part 2.
 
 CAMERA / LENS / CONTINUITY:
 Dynamic but physically readable action camera. Controlled lateral tracking with short motivated push-ins. Preserve one coherent action axis and clear left-right geography. No frantic random cuts, impossible orbiting, teleporting camera or constant shake. The two cats' teamwork must remain easy to follow. Maintain one coherent 3D battlefield and stable ruin geometry.
@@ -2734,13 +2746,13 @@ RYZHIK: faster, more aggressive, predatory confidence.
 SEREGA: skilled and dangerous, but increasingly pressured; serious and concentrated. No clowning, parody, fear caricature or dialogue.
 
 LIGHTING / MATERIAL REALISM / VFX:
-Blue, green and red saber light subtly illuminate nearby fur, SEREGA's robe/costume and rough basalt at close range. Red storm sky and volcanic glow remain consistent. Ash moves continuously in one direction. Sparks are localized at blade/material impacts. Preserve detailed natural fur, worn fabric and rough stone response. Avoid screen-filling bloom, excessive particle spam and glossy game-render materials.
+Follow @Image5: low orange-gold sunset, dramatic cloud cover, warm golden rim light, long natural shadows and dusty atmospheric depth. Blue, green and red saber light adds only local illumination to nearby fur, SEREGA's robe/costume and warm weathered stone. Preserve detailed natural fur, worn fabric, carved ancient stone and believable dust/stone response. Sparks and small stone chips remain localized at impacts. No volcanic glow, no drifting ash, no screen-filling bloom, no excessive particle spam and no glossy game-render materials.
 
 AUDIO (native):
-Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots and paws on basalt, wind, drifting ash, small stone impacts and SEREGA's effort breaths/grunts only. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
+Distinct blue/green/red saber hum, hard blade clashes, air swishes, boots and paws on dry weathered stone, wind passing through stairs/columns/ruins, light grit and dust movement, small stone impacts and SEREGA's effort breaths/grunts only. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
 
 NEGATIVE PROMPT:
-Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, black basalt plateau, lava field, volcanic glow, deep red storm sky, featureless black monolith field, generic dark Sith plateau, location drift away from @Image5, missing monumental statues/terraces/stairs/towers, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2757,11 +2769,17 @@ REFERENCES / IDENTITY:
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
 @Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
-Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual identity. No identity swaps.
+@Image5 — PRIMARY EXACT LOCATION / ENVIRONMENT reference: the clean wide view of the same vast ancient ruined stone city/temple complex at sunset. Preserve its warm reddish-brown / ochre weathered stone, monumental robed statues, massive temple façades, broad stepped terraces and stairways, broken columns, tall rectangular ruin towers, scattered masonry, jagged canyon/mesa-like rock spires and layered distant ruins, together with the warm orange-gold low sun, dramatic cloudscape and dusty atmospheric depth.
+Preserve exact faces, fur, coat patterns, body proportions and costume. @Image3/@Image4 outrank @Image1 for individual cat identity. @Image5 is the absolute authority for battlefield environment, architecture, material palette, spatial scale, sunset direction and atmosphere. @Image1 controls pair continuity/composition only and must not override @Image5 environment. No identity swaps.
 LUCHIK = BLUE saber.
 RYZHIK = GREEN saber.
 SEREGA = RED saber.
 All three saber colors remain fixed for the entire shot.
+
+ENVIRONMENT / LOCATION LOCK — @Image5 IS ABSOLUTE:
+Use @Image5 as the exact visual authority for the battlefield environment. The fight takes place inside the vast ancient monumental ruined stone city shown there, not on a generic dark Sith plateau. Preserve the recognizable architecture and scale logic: warm reddish-brown / ochre weathered stone, giant robed statues, massive temple façades, broad stepped terraces, long stairways, broken columns and parapets, tall rectangular ruin towers, fallen masonry, jagged desert canyon/mesa spires and layered ruined silhouettes receding into dusty haze.
+Lighting must follow @Image5: a low warm orange-gold sunset near the horizon beneath dramatic dark clouds, strong golden edge light, long natural shadows and warm atmospheric haze between the ruins. Saber colors may add only local blue/green/red light near the characters.
+This is NOT a black-basalt plateau, NOT a lava field, NOT a volcanic battlefield, NOT a featureless field of black monoliths and NOT a deep-red storm-sky environment. Do not replace @Image5 with generic Sith architecture.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for SEREGA / THE CHANCELLOR. Preserve his exact approved face, age, head shape, hair, body proportions and established Chancellor appearance. Preserve the approved costume/robe logic from the attached reference and current continuity. Do not redesign, beautify, age-shift, replace hairstyle/head structure or change the approved character design.
@@ -2770,9 +2788,9 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 Both cats remain recognizably feline at all times: correct cat heads, ears, muzzles, paws, tails and fur. They may use stylized upright combat balance to wield compact lightsaber hilts, but never gain human hands, human arms or humanoid faces.
 
 CONTINUITY FROM SCENE 26 / PART 1:
-Same black-basalt plateau, same ruined Sith temple fragments, same broken monoliths, same deep red storm horizon, same drifting ash direction and same action axis. This prompt continues immediately from the end of Part 1 with no reset.
+Continue immediately from the end of Part 1 with no reset. Preserve the same action axis and the same @Image5 environment: warm sunset, monumental ancient stone ruins, stepped terraces, giant statues, stairs, towers, broken masonry and distant jagged rock spires. @Image5 remains the absolute environment authority and overrides older black-basalt / volcanic / deep-red-storm wording.
 Start exactly from this Part 1 end-state:
-SEREGA is backed closer to a low basalt ruin in a strained defensive stance, slightly lower and off-balance, red saber still in hand.
+SEREGA is backed closer to a low broken stone terrace / fallen masonry element from the @Image5 environment, in a strained defensive stance, slightly lower and off-balance, red saber still in hand.
 LUCHIK is closer on one side with blue saber ready to press.
 RYZHIK has angled around on the opposite side with green saber ready to spring.
 All three remain inside the same coherent battlefield geometry.
@@ -2792,7 +2810,7 @@ From the Part 1 end pose, RYZHIK springs first from the wider angle while LUCHIK
 LUCHIK drives a clean, forceful blue-blade sequence that pins SEREGA's line for a moment while RYZHIK repositions and threatens from the side. The attacks alternate rhythmically rather than degenerating into chaotic simultaneous flailing. SEREGA manages to defend, but loses more ground and composure.
 
 [0:08–0:12] — DECISIVE BREAK
-SEREGA attempts one committed red-saber counterattack to create space. The cats read it instantly: one redirects the blade while the other lands a controlled non-gory impact — either a hilt/physical hit or a restrained Force-like push — that knocks SEREGA backward onto one knee or against the low basalt ruin. His saber stays in hand, but his defense is clearly broken.
+SEREGA attempts one committed red-saber counterattack to create space. The cats read it instantly: one redirects the blade while the other lands a controlled non-gory impact — either a hilt/physical hit or a restrained Force-like push — that knocks SEREGA backward onto one knee or against the same low broken stone terrace / fallen masonry element from Part 1. His saber stays in hand, but his defense is clearly broken.
 
 [0:12–0:15] — CATS OWN THE FRAME
 SEREGA remains in a low defensive recovery posture, breathing hard, red saber held up but visibly disadvantaged. LUCHIK and RYZHIK advance together and dominate the final composition, calm and fully in control, blue and green sabers ready. End with the cats clearly owning the frame and the power dynamic unmistakable.
@@ -2809,13 +2827,13 @@ RYZHIK: faster, more aggressive, predatory confidence.
 SEREGA: skilled but increasingly strained, serious, reactive and under heavy pressure. No clowning, dialogue or parody.
 
 LIGHTING / MATERIAL REALISM / VFX:
-Same close-range saber light interaction on fur, SEREGA's robe/costume and rough basalt. Red storm sky and volcanic rim light remain consistent. Ash continues to drift in one direction. Sparks and debris are localized and controlled. Preserve detailed natural fur, worn fabric and rough stone response. Avoid screen-filling bloom, excessive particles and glossy game aesthetics.
+Continue the exact @Image5 lighting from Part 1: low orange-gold sunset, dramatic cloud cover, warm golden rim light, long natural shadows and dusty atmospheric depth. Blue, green and red saber light adds only local color to fur, SEREGA's robe/costume and nearby warm weathered stone. Sparks and small stone debris are localized and controlled. Preserve detailed natural fur, worn fabric and carved ancient-stone response. No volcanic glow, no drifting ash, no screen-filling bloom, no excessive particles and no glossy game aesthetics.
 
 AUDIO (native):
-Distinct blue/green/red saber hum, hard blade clashes, air swishes, wind, drifting ash, boots and paws on basalt, light debris/stone impacts and SEREGA's exertion breaths/grunts. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
+Distinct blue/green/red saber hum, hard blade clashes, air swishes, wind moving through the ancient stone ruins, light grit/dust movement, boots and paws on dry weathered stone, controlled debris/stone impacts and SEREGA's exertion breaths/grunts. Cats may produce brief natural exertion hisses/growls, but no spoken dialogue. No narrator. No generated intrusive music.
 
 NEGATIVE PROMPT:
-Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helplessness, random flailing, wrong saber color, extra saber, duplicated blade, floating hilt, saber through body, gore, blood spray, dismemberment, severed limbs, identity swap, face morphing, merged cats, duplicated cats, humanoid cat face, human hands on cats, human arms on cats, extra limbs, teleporting fighters, position reset, environment morph, impossible camera spin, constant shaky cam, cartoon, anime, game-render look, black basalt plateau, lava field, volcanic glow, deep red storm sky, featureless black monolith field, generic dark Sith plateau, location drift away from @Image5, missing monumental statues/terraces/stairs/towers, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
