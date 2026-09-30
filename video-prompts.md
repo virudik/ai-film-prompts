@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **28.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **14 актуальных сцен и 26 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **21, 22, 23, 24, 26**. Scenes 21, 22, 23, 24 и 26 имеют по одной активной Topview-задаче, итого **5/6 занятых task slots**. Scenes 17, 19 и 20 завершили текущие Topview-задачи техническим success и поэтому вышли из render-slow без изменения editorial/approval state. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID. Scene 24 task `91ed2c95c6944772bed06bafed46cdd6` совпадает по содержанию с canonical Scene 24 prompt (Topview лишь добавил reference tokens в хвост) и относится к существующей Scene 24, а не к новой Scene ID. Scene 26 task `e100cb476f9548edae0f36a99471b6e5` точно совпадает с canonical Scene 26 prompt и относится к существующей Scene 26, а не к новой Scene ID. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **28.09.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **14 актуальных сцен и 26 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **21, 22, 23, 24, 26**. Scenes 21, 22, 23, 24 и 26 имеют по одной активной Topview-задаче, итого **5/6 занятых task slots**. Scenes 17, 19 и 20 завершили текущие Topview-задачи техническим success и поэтому вышли из render-slow без изменения editorial/approval state. Scene 23 task `e42b4746c792472a9586ae95cd1513d3` normalization-equivalent текущему Scene 23 prompt и относится к существующей Scene 23, а не к новой Scene ID. Scene 24 task `91ed2c95c6944772bed06bafed46cdd6` совпадает по содержанию с canonical Scene 24 prompt (Topview лишь добавил reference tokens в хвост) и относится к существующей Scene 24, а не к новой Scene ID. Scene 26 task `e100cb476f9548edae0f36a99471b6e5` относится к существующей Scene 26, а не к новой Scene ID, но была запущена до текущей коррекции location reference: активную задачу не менять и не перезапускать автоматически; её будущий результат нужно оценивать с учётом того, что он мог использовать прежнее описание окружения. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации
 
@@ -44,7 +44,7 @@
 | 23 | [Люди → коты-джедаи: бесшовное раскрытие второго плана](#scene-23)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = люди/старт; @Image2 = точные серый+рыжий коты/цель | Камера проходит между идущими людьми и без морфа раскрывает за ними двух котов-джедаев; коты пафосно идут с включёнными мечами и делают контролируемые вращения. |
 | 24 | [Коты в кабине: запуск корабля и взлёт](#scene-24)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = точный парный референс котов | Серый пилотирует, рыжий работает штурманом; последовательный запуск систем, набор тяги и физический взлёт из кабины. |
 | 25 | [Коты в кабине: космическое сражение](#scene-25) | @Image1 = точный парный референс котов | Из кабины видно сражение; серый выполняет уклонения, рыжий управляет навигацией/оружием. |
-| 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = коты; @Image2 = Серёга | Жёсткий диалог двух котов с Серёгой; строгий русский lip sync и speaker ownership, Wan 3. |
+| 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26)<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** | @Image1 = коты; @Image2 = Серёга; @Image5 = точная локация древнего города-руины | Жёсткий диалог двух котов с Серёгой в том же оранжево-золотом древнем каменном городе-руине, который продолжается в Scene 27; строгий русский lip sync и speaker ownership, Wan 3. |
 | 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга; @Image3 = Лучик; @Image4 = Рыжик; @Image5 = точная локация древнего города-руины | Яростный бой среди огромного древнего каменного города-руины в тёплом оранжево-золотом закатном свете; коты заметно превосходят Серёгу скоростью, координацией и силой. |
 
 ---
@@ -2502,11 +2502,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-**Контекст использования:** Коты прибывают на мрачную планету ситхов и впервые открыто противостоят Серёге. Сцена максимально сердитая и брутальная по настроению, но без боя — это словесный вызов перед Scene 27. Русская речь требует Wan 3 и жёсткого speaker ownership.
+**Контекст использования:** Коты прибывают в древний монументальный каменный город-руину на планете ситхов и впервые открыто противостоят Серёге. Локация должна точно соответствовать @Image5 и без визуального сброса продолжаться в Scene 27: тёплый охристо-коричневый выветренный камень, гигантские статуи, массивные храмовые сооружения, террасы, лестницы, разрушенные колонны и башни, дальние скальные шпили и оранжево-золотой закат. Сцена максимально сердитая и брутальная по настроению, но без боя — это словесный вызов перед Scene 27. Русская речь требует Wan 3 и жёсткого speaker ownership. Текущая slow-задача Topview была запущена до этой коррекции локации; её не менять и не перезапускать автоматически.
 
-**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference. Если отдельного референса планеты нет, окружение задаётся текстом и не выдаётся за reference image.
+**Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference · @Image5 = **точный LOCATION / ENVIRONMENT reference**: чистый широкий кадр древнего монументального каменного города-руины на закате. @Image5 является абсолютным источником архитектуры, каменного материала, пространственного масштаба, направления света и цветовой атмосферы для Scene 26 и последующей Scene 27.
 
-**Что происходит:** На чёрном базальтовом плато среди древних руин, красного неба и вулканического свечения Серёга стоит напротив двух котов-джедаев. Рыжий первым зло и уверенно произносит длинную фразу; серый выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует; второй кот и Серёга молчат с закрытым ртом.
+**Что происходит:** На широкой ступенчатой террасе огромного древнего города-руины из тёплого охристо-коричневого выветренного камня Серёга стоит напротив двух котов-джедаев. Вокруг — гигантские статуи в мантиях, массивные храмовые фасады, лестницы, разрушенные колонны, высокие прямоугольные башни и обломки кладки; вдали через сухую пыльную дымку видны зубчатые скальные шпили и слои разрушенного города. Низкое солнце у горизонта даёт насыщенный оранжево-золотой контровой свет и длинные тени под драматичными облаками. Рыжик первым зло и уверенно произносит длинную фразу; Лучик выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует; второй кот и Серёга молчат с закрытым ртом.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2517,18 +2517,21 @@ REFERENCES:
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR. Match his approved face, age, hair, body proportions and established Chancellor appearance. Preserve his dark-purple Chancellor robe unless the current reference explicitly shows the approved scene variant.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings and a calm stern master-like expression.
 @Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping, lighter muzzle/chest and a serious confident, more aggressive expression.
-@Image3/@Image4 outrank @Image1 for individual cat identity.
+@Image5 — PRIMARY EXACT LOCATION / ENVIRONMENT reference: the clean wide view of the same vast ancient ruined stone city/temple complex at sunset used for Scene 27. Preserve its warm reddish-brown / ochre weathered stone, monumental robed statues, massive temple façades, broad stepped terraces and stairways, broken columns, tall rectangular ruin towers, scattered masonry, jagged canyon/mesa-like rock spires and layered distant ruins, together with the warm orange-gold low sun, dramatic cloudscape and dusty atmospheric depth.
+@Image3/@Image4 outrank @Image1 for individual cat identity. @Image5 is the absolute authority for environment, architecture, material palette, spatial scale, sunset direction and atmosphere. @Image1 controls pair continuity/composition only and must not override @Image5 environment.
 
 CAT / SABER CONTINUITY:
 LUCHIK keeps the same BLUE lightsaber identity from Scene 23.
 RYZHIK keeps the same GREEN lightsaber identity from Scene 23.
 Both sabers are ignited but held still/controlled during dialogue. The cats retain feline faces, coat, ears and proportions. They can stand in a stylized combat-ready posture to wield compact hilts, but never gain human hands, human arms or humanoid facial anatomy.
 
-ENVIRONMENT LOCK:
-A hostile Sith-world plateau: black basalt ground, monumental ruined dark-stone temple fragments, broken monoliths, drifting ash, distant volcanic glow and a deep red storm sky. Wind pushes ash and fabric consistently in one direction. Keep this exact geography for Scene 27: same plateau, same ruins, same red horizon, same character positions.
+ENVIRONMENT / LOCATION LOCK — @Image5 IS ABSOLUTE:
+Use @Image5 as the exact visual authority for the entire setting. Scene 26 takes place inside the vast ancient monumental ruined stone city shown there: warm reddish-brown / ochre weathered stone, giant robed statues, massive temple façades, broad stepped terraces and stairways, broken columns and parapets, tall rectangular ruin towers, fallen masonry, jagged canyon/mesa-like rock spires and layered ruins receding into dusty haze.
+Lighting must follow @Image5: a low warm orange-gold sunset near the horizon beneath dramatic dark clouds, strong golden edge light, long natural shadows and warm atmospheric haze between the ruins. The blue and green cat sabers and SEREGA's red saber may add only local colored light near the characters.
+This is NOT a black-basalt plateau, NOT a lava field, NOT a volcanic battlefield, NOT a featureless field of black monoliths and NOT a deep-red storm-sky environment. Do not replace @Image5 with generic Sith architecture. Keep this exact @Image5 geography, lighting family and architecture for the transition into Scene 27.
 
 START STATE / BLOCKING:
-SEREGA stands alone facing the two cats across several meters of open basalt.
+SEREGA stands alone facing the two cats across several meters of an open weathered-stone terrace/plaza inside the @Image5 ruins.
 RYZHIK is slightly forward on camera-left/center; LUCHIK is half a step behind/opposite side.
 The confrontation is already tense. Nobody enters or teleports.
 
@@ -2543,7 +2546,7 @@ No transferred lip sync, no ventriloquism, no off-screen substitute speaker.
 
 TIMELINE / DIALOGUE:
 [0:00–0:05] — HOSTILE STANDOFF
-Low, slow forward camera move. Wind drives ash across the basalt. The cats stare at SEREGA with controlled fury. Saber hum is audible. No dialogue yet.
+Low, slow forward camera move across the weathered-stone terrace. Warm sunset light cuts through dusty atmospheric haze; a light dry wind moves fine grit, fur and fabric naturally. The cats stare at SEREGA with controlled fury. Saber hum is audible. No dialogue yet.
 
 [0:05–0:18] — RYZHIK
 Camera favors RYZHIK enough that his muzzle is unmistakably the active speaking face. He is furious, contemptuous and completely confident, not comedic. Natural Russian pronunciation, aggressive but intelligible pacing:
@@ -2568,13 +2571,13 @@ PERFORMANCE:
 Maximum anger and threat, grounded rather than cartoonish. Cats' eyes, ears, tails and posture show focused aggression. SEREGA is stern and wary, realizing these opponents are serious. No smiles, no comic reaction, no overacting.
 
 LIGHTING / MATERIALS:
-Red storm sky and volcanic bounce give controlled warm rim light; cool saber light colors nearby fur/stone subtly. Detailed fur, natural skin, rough basalt, ash and worn dark architecture. No glossy game materials or giant bloom.
+Follow @Image5 exactly: low orange-gold sunset, strong warm rim/edge light, long directional shadows, dramatic cloud cover and dusty atmospheric depth across the ancient city. Blue/green/red saber light colors nearby fur, SEREGA's robe and warm weathered stone only at close range. Preserve detailed natural fur, skin, worn fabric, carved stone and eroded masonry. No volcanic glow, no drifting ash, no glossy game materials and no giant bloom.
 
 AUDIO:
-Exact Russian dialogue above with clean Wan 3 lip sync. Strong wind, ash, low volcanic rumble, stable saber hum, distant stone/metal creaks. No subtitles, no narrator, no background dialogue. Music optional only if already supplied by surrounding edit; do not generate intrusive score.
+Exact Russian dialogue above with clean Wan 3 lip sync. Dry wind moving through monumental stone ruins, faint grit/dust movement, stable saber hum, distant stone creaks and subtle open-valley ambience. No volcanic rumble, no ash-storm sound. No subtitles, no narrator, no background dialogue. Music optional only if already supplied by surrounding edit; do not generate intrusive score.
 
 NEGATIVE PROMPT:
-wrong speaker, Serega speaking, human lip-sync during cat lines, both cats speaking together, transferred voice, ventriloquism, off-screen dialogue, bad Russian pronunciation, lip desync, censored/replaced words, cat identity swap, humanoid human face on cat, human arms, human hands, extra cats, duplicated Serega, changed saber colors, saber clipping body, environment morph, random character teleport, smiling, slapstick comedy, subtitles, captions, text, logo, watermark, cartoon, anime, game-render look, camera jitter, black bars.
+wrong speaker, Serega speaking, human lip-sync during cat lines, both cats speaking together, transferred voice, ventriloquism, off-screen dialogue, bad Russian pronunciation, lip desync, censored/replaced words, cat identity swap, humanoid human face on cat, human arms, human hands, extra cats, duplicated Serega, changed saber colors, saber clipping body, environment morph, random character teleport, black basalt plateau, lava field, volcanic glow, deep red storm sky, drifting ash, featureless black monolith field, generic dark Sith plateau, location drift away from @Image5, missing monumental statues/terraces/stairs/towers, smiling, slapstick comedy, subtitles, captions, text, logo, watermark, cartoon, anime, game-render look, camera jitter, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
