@@ -35,3 +35,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-09-28T21:07:11.879Z scene20-success-canonical-slow-sync
 2026-09-29T23:46:00Z scene27-add-seedance20-split-2x15s
 2026-09-29T23:55:30Z scene27-lock-location-to-image5-sunset-ruins
+2026-09-30T00:01:00Z scene26-lock-location-to-image5-sunset-ruins
