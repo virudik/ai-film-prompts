@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-09-30T13:58:32.341Z",
+  "checked_at": "2026-09-30T14:51:45.454Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,14 +9,14 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-30T13:57:54.091Z",
-      "github_blob": "47b44e0ce84dc79792724146c50b71d94125ad49",
+      "drive_modified_at": "2026-09-30T14:50:00.071Z",
+      "github_blob": "8622e59dc6d6f32ad783cc4852b24ae58aca3d08",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-30T13:56:51.106Z",
-      "github_blob": "3eb778cbf5c0ae76f96d3b63c7dd10a5270b7b07",
+      "drive_modified_at": "2026-09-30T14:48:48.922Z",
+      "github_blob": "42ebba9856f06a80c7142251ea497f80150f31ec",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
@@ -27,26 +27,26 @@
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-24T05:37:49.814Z",
-      "github_blob": "4e4fd75530ef9139fd63fb3aaae79301075052fb",
+      "drive_modified_at": "2026-09-30T14:42:30.900Z",
+      "github_blob": "e9d7faf2918c5821b532857d9fb8bc9c43b56be1",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-26T16:25:06.716Z",
-      "github_blob": "fccda7cd36a7e570911c8366bf0bc12a1733d380",
+      "drive_modified_at": "2026-09-30T14:47:51.327Z",
+      "github_blob": "777b6e2bb780d453397648f5e7e8bf0c84fcae1e",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-26T16:25:52.567Z",
-      "github_blob": "fd148b89dd7537474f2ddec375b8d0517d59854d",
+      "drive_modified_at": "2026-09-30T14:45:26.339Z",
+      "github_blob": "6244135da59c70e61eea8fd5c2f33f2336c86762",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-27T14:32:33.249Z",
-      "github_blob": "f1ff36a4df3c9e042bcffdc967d959a4befd1d49",
+      "drive_modified_at": "2026-09-30T14:46:20.971Z",
+      "github_blob": "c1ccad189c91f967d7d0b482e28e37fabadfb16b",
       "match": true
     }
   },
@@ -65,7 +65,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 authorized Google Drive↔GitHub canonical instruction verification, including the 30 Sep liveness-incident runbook/handoff amendments.",
+  "note": "Fresh complete 7/7 exact live Drive↔GitHub instruction comparison. Six canonical docs amended 30 Sep; AI-PROJECT-GUIDE remains unchanged but is an exact verified mirror. Current additions live in same-ID Handoff, SYNC-RUNBOOK, PROMPT-STYLE-GUIDE, USER-GUIDE, README, BACKUP.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -114,10 +114,17 @@
       "timing_mode": "exact_schedule",
       "minute_local": 5,
       "timezone": "Europe/Moscow",
-      "fallback_after_minutes": 5
+      "fallback_after_minutes": 5,
+      "independent_public_check_each_run": true,
+      "topview_alert_after_minutes": 105,
+      "instruction_alert_after_minutes": 165,
+      "seven_exact_drive_github_check_each_run": true,
+      "no_third_chatgpt_automation": true
     },
     "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available",
-    "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact."
+    "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact.",
+    "github_public_checker": "scripts/check_public_freshness.py present read-only; dedicated GitHub scheduled workflow NOT activated (write blocked)",
+    "notifications_as_last_observed": "ChatGPT tasks notifications_enabled:false; cannot guarantee push delivery"
   },
   "three_view_topview_contract": {
     "health": "ok",
