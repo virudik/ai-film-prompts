@@ -609,6 +609,17 @@
       "source_checkpoint": "2026-09-28T22:57:50.665Z",
       "outcome": "telemetry_read_verified",
       "verification": "Fresh exact lookup for all 5 active task IDs; all remain init. Scanned all 4 Board VIDEO pages / 357 tasks; no unknown active task. Canonical slow remains 21,22,23,24,26; occupancy 5/6."
+    },
+    {
+      "timestamp": "2026-09-30T13:45:38.844Z",
+      "operation": "scene21_terminal_and_scene27_split_tasks_verified",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "5 active tasks; slow 21,22,23,24,26",
+      "new_status": "6 active tasks; slow 22,23,24,26,27 (Scene27 x2)",
+      "source_checkpoint": "2026-09-30T13:45:38.844Z",
+      "outcome": "telemetry_read_verified",
+      "verification": "7 exact task lookups, Scene21 success. 4 Board video pages/359 tasks, exactly 2 new active Seedance2.0 tasks normalization-equal to existing Scene27 Part 1 and Part 2 prompts; no new Scene ID. Canonical master same-ID updated. Public snapshot and stable checkpoint require read-back."
     }
   ]
 }
