@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-02T22:07:32Z",
+  "synced_at": "2026-10-02T22:08:14Z",
   "revision_date": "03.10.2026",
   "master_declared_last_full_sync": "03.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "3627856617a5251cad2a0e7789f66db4233b45a6ba8e1a6501ef2fc393049d3a",
@@ -62,12 +62,12 @@
     18
   ],
   "instruction_sync": {
-    "health": "stale",
-    "snapshot_at": "2026-09-30T14:51:45.454Z",
+    "health": "ok",
+    "snapshot_at": "2026-10-02T22:07:59.023Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 55.263,
+    "age_hours_at_status_build": 0.004,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -116,8 +116,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": 55.263,
+      "state": "ok",
+      "age_hours": 0.004,
       "blocking": false
     },
     "topview_task_map": {
@@ -402,7 +402,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.10.2026",
-    "synced_at": "2026-10-02T22:07:32Z",
+    "synced_at": "2026-10-02T22:08:14Z",
     "canonical_master_sha256": "3627856617a5251cad2a0e7789f66db4233b45a6ba8e1a6501ef2fc393049d3a",
     "canonical_revision_sha256": "98f212c28e79e90dfa3342639287d76dc19d5409d7330c4c123a043f90ee8653",
     "scene_count": 14,
@@ -441,7 +441,7 @@
       27
     ],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -475,6 +475,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
