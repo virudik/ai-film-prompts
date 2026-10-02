@@ -3,12 +3,12 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-02T21:46:08Z",
-  "revision_date": "30.09.2026",
-  "master_declared_last_full_sync": "30.09.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "d6cc7cc2711502ac99523c0c42245b1d40a614a7135d62bd91f8caf19d6453ee",
-  "canonical_revision_sha256": "6394e3c2ea5f56b5d21bf1741143eff08c9c7690b49308ba1ce247e3f9ec0973",
-  "canonical_master_bytes": 336201,
+  "synced_at": "2026-10-02T22:07:32Z",
+  "revision_date": "03.10.2026",
+  "master_declared_last_full_sync": "03.10.2026 · текущая по live Topview/Drive сверке",
+  "canonical_master_sha256": "3627856617a5251cad2a0e7789f66db4233b45a6ba8e1a6501ef2fc393049d3a",
+  "canonical_revision_sha256": "98f212c28e79e90dfa3342639287d76dc19d5409d7330c4c123a043f90ee8653",
+  "canonical_master_bytes": 335627,
   "scenes": 14,
   "prompt_texts": 26,
   "work_items": [
@@ -26,13 +26,10 @@
   ],
   "work_items_count": 11,
   "slow_scenes": [
-    22,
-    23,
-    24,
     26,
     27
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 2,
   "scene_ids": [
     10,
     11,
@@ -70,7 +67,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 54.906,
+    "age_hours_at_status_build": 55.263,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -120,7 +117,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "stale",
-      "age_hours": 54.906,
+      "age_hours": 55.263,
       "blocking": false
     },
     "topview_task_map": {
@@ -288,7 +285,7 @@
         "first_last_frame",
         "seamless_transition"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "23": {
       "target_engine": "Seedance 2.5",
@@ -306,7 +303,7 @@
         "jedi",
         "character_identity"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "24": {
       "target_engine": "Seedance 2.5",
@@ -329,7 +326,7 @@
         "continuous_take",
         "character_identity"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "25": {
       "target_engine": "Seedance 2.5",
@@ -404,10 +401,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "30.09.2026",
-    "synced_at": "2026-10-02T21:46:08Z",
-    "canonical_master_sha256": "d6cc7cc2711502ac99523c0c42245b1d40a614a7135d62bd91f8caf19d6453ee",
-    "canonical_revision_sha256": "6394e3c2ea5f56b5d21bf1741143eff08c9c7690b49308ba1ce247e3f9ec0973",
+    "revision_date": "03.10.2026",
+    "synced_at": "2026-10-02T22:07:32Z",
+    "canonical_master_sha256": "3627856617a5251cad2a0e7789f66db4233b45a6ba8e1a6501ef2fc393049d3a",
+    "canonical_revision_sha256": "98f212c28e79e90dfa3342639287d76dc19d5409d7330c4c123a043f90ee8653",
     "scene_count": 14,
     "prompt_count": 26,
     "scene_ids": [
@@ -440,9 +437,6 @@
       "W15"
     ],
     "slow_scenes": [
-      22,
-      23,
-      24,
       26,
       27
     ],
