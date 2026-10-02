@@ -1,21 +1,23 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-09-28T10:12:04.822Z",
-  "last_deep_audit_at": "2026-09-28T10:12:04.822Z",
+  "checked_at": "2026-10-02T22:11:16.437Z",
+  "last_deep_audit_at": "2026-10-02T22:11:16.437Z",
   "health": "ok",
   "sections": {
-    "master": "ok_with_nonblocking_legacy_note",
+    "master": "ok",
     "prompts": "ok_with_review_items",
     "characters": "ok_unchanged_since_prior_deep_audit",
     "montage": "ok_unchanged_since_prior_deep_audit",
-    "notion": "ok_unchanged_since_prior_deep_audit",
+    "notion": "nonblocking_unchanged",
     "library": "present_stale_non_blocking",
     "site": "ok",
     "supabase": "ok_unchanged_since_prior_deep_audit",
     "github_actions": "ok",
     "recovery": "ok",
     "automation_watchdog": "ok",
-    "one_writer_ownership": "ok"
+    "one_writer_ownership": "ok",
+    "instructions": "ok_7_of_7_exact",
+    "topview_publication": "ok"
   },
   "repairs": [
     "Reconciled Scene 3 terminal Topview success and removed only its render-slow state while preserving editorial neutrality.",
@@ -37,7 +39,9 @@
     "2026-09-27 takeover: current character usage corrected for Serega (16,17,21,26,27), Artem/Ilyusha (16) and Yulya (21); model sheets preserved byte-for-byte.",
     "2026-09-27 takeover: Notion operational Summary changed to current-source pointers; legacy prompt bank now points to the current same-ID style guide instead of stale v1.2.",
     "2026-09-27 takeover: seven instruction mirrors re-read and exact-certified; duplicated revision-date cache corrected to 27.09.2026.",
-    "2026-09-28 deep audit: exact-certified Drive master and all 7 instruction mirrors, refreshed instruction certificate, verified synchronized Topview transaction, current validators, integration workflow and Pages publication."
+    "2026-09-28 deep audit: exact-certified Drive master and all 7 instruction mirrors, refreshed instruction certificate, verified synchronized Topview transaction, current validators, integration workflow and Pages publication.",
+    "2026-10-03 recovery: reconciled terminal Topview results for Scenes 22–24 without editorial approval, reduced canonical slow membership to Scenes 26–27, and published one verified 3/6-slot transaction through map → status → checkpoint.",
+    "2026-10-03 recovery: exact-certified all seven Drive instruction sources against same-name GitHub mirrors, refreshed the certificate, synchronized the canonical master, and verified the resulting Pages artifact."
   ],
   "warnings": [
     "Scenes 10/11 remain NEEDS_FIX and Scene 13 NEEDS_RERENDER; technical render status is not editorial approval.",
@@ -50,7 +54,7 @@
   ],
   "runtime_snapshot": {
     "scenes": 14,
-    "prompt_texts": 24,
+    "prompt_texts": 26,
     "work_items_count": 11,
     "latest_scene": 27,
     "scene_ids": [
@@ -70,46 +74,42 @@
       27
     ],
     "slow_scenes": [
-      20,
-      21,
-      22,
-      23,
-      24,
-      26
+      26,
+      27
     ],
-    "master_sha256": "78390b617f539f159dcffc06c9dff4d30274cee07f32f34735cafc3cd4316e56"
+    "master_sha256": "98f212c28e79e90dfa3342639287d76dc19d5409d7330c4c123a043f90ee8653"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active_task_count": 6,
-    "unique_slow_scene_count": 6,
+    "occupied_slots": 3,
+    "free_slots": 3,
+    "active_task_count": 3,
+    "unique_slow_scene_count": 2,
     "health": "ok"
   },
   "notes": {
-    "master": "Fresh same-ID Drive master exactly matches GitHub; generated project status is health=ok and every published validator invariant passes.",
-    "instructions": "All seven live Drive instruction texts exactly match their GitHub mirrors; certificate refreshed and verified by exact read-back.",
-    "prompts": "Current 14-scene / 24-prompt master passes structural validation. Existing editorial queue is preserved: Scenes 10/11 need fixes and Scene 13 needs rerender.",
-    "characters": "Character registry, model-sheet assets and references have not changed since the prior deep audit; prior verified character audit remains applicable.",
-    "montage": "Montage reports and related analysis/backlog files have not changed since the prior deep audit; prior evidence limits and recommendations remain applicable.",
-    "topview": "Task-map, public status, journal tail and checkpoint share one checked_at. Six active init tasks occupy 6/6 slots for unique slow Scenes 20,21,22,23,24,26; public Pages JSON matches.",
-    "supabase": "Supabase-related project files did not change since the prior verified deep audit; no canonical health claim depends on a new external mutation.",
-    "automation_watchdog": "Primary watcher remains enabled on the HH:00 Europe/Moscow schedule; Recovery remains enabled separately at HH:05.",
-    "recovery": "Site validator, review-ledger validator and all 10 recovery integration tests passed locally; newest integration workflow and Drive sync succeeded.",
-    "site": "Public project status, instruction certificate and Topview JSON were read after the latest successful Pages deployment and match repository state.",
+    "master": "Fresh same-ID Drive master exactly matches GitHub; generated project status is health=ok and every published validator invariant is true.",
+    "instructions": "All seven live Drive instruction texts exactly match their GitHub mirrors; certificate refreshed only after exact comparison and verified by read-back.",
+    "prompts": "Current 14-scene / 26-prompt master passes structural validation. Existing editorial queue remains unchanged by automation.",
+    "characters": "Character registry and model-sheet authority were not mutated; prior verified character audit remains applicable.",
+    "montage": "Montage reports and chooser contract were not mutated; prior verified audit remains applicable.",
+    "topview": "Task map, public status and stable checkpoint share one checked_at and identical active task IDs. Three active tasks occupy 3/6 slots for unique slow Scenes 26 and 27; Pages artifact matches.",
+    "automation_watchdog": "Primary watcher remains enabled at HH:00 Europe/Moscow; Recovery remains enabled separately at HH:05.",
+    "recovery": "Newest integration recovery workflow and Drive synchronization succeeded; superseded intermediate failure is historical.",
+    "site": "Newest successful Pages artifact contains the current Topview snapshot, instruction certificate and synchronized project status.",
     "limitations": "Audit verifies current source integrity, publication contracts and recovery behavior. It does not approve generated videos or replace continuous playback/editorial review."
   },
   "evidence": {
-    "instruction_checked_at": "2026-09-28T10:07:16.631Z",
-    "published_topview_checked_at": "2026-09-28T10:03:53.854Z",
-    "integration_run_id": 36407762681,
-    "drive_sync_run_id": 36407762727,
-    "pages_run_id": 36407782470,
-    "baseline_deep_audit_commit": "8651234d6b1c05968416b3c51c53a6beb1c9b029",
-    "delta_commits_reviewed": 176,
-    "local_site_validator": "passed",
-    "local_review_ledger_validator": "passed",
-    "local_recovery_tests": "10/10 passed"
+    "instruction_checked_at": "2026-10-02T22:07:59.023Z",
+    "published_topview_checked_at": "2026-10-02T22:03:32.759Z",
+    "integration_run_id": 37070816441,
+    "drive_sync_run_id": 37070816375,
+    "pages_run_id": 37070841276,
+    "pages_head_sha": "953c1e8f984f91f3fe28349b0e7b3f9f9fe1aa19",
+    "instruction_exact_matches": "7/7",
+    "master_drive_github_exact": true,
+    "project_status_all_checks_true": true,
+    "topview_transaction_equalities": true,
+    "pages_artifact_verified": true
   }
 }
