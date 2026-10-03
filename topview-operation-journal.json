@@ -686,6 +686,17 @@
       "source_checkpoint": "2026-10-03T04:58:48.686Z",
       "outcome": "telemetry_read_verified",
       "verification": "3 exact task lookups; all init. Full Board VIDEO scan covered 4 pages / 359 tasks; no unknown recent task. Occupancy 3/6."
+    },
+    {
+      "timestamp": "2026-10-03T07:00:16.862Z",
+      "operation": "hourly_terminal_transition_and_full_board_discovery",
+      "scene_id": 26,
+      "task_fingerprint": "e100cb476f9548edae0f36a99471b6e5",
+      "previous_status": "3 active tasks; slow 26,27 (Scene27 x2)",
+      "new_status": "2 active tasks; slow 27 (Scene27 x2)",
+      "source_checkpoint": "2026-10-03T07:00:16.862Z",
+      "outcome": "telemetry_read_verified_and_terminal_success_recorded",
+      "verification": "3 exact task lookups: Scene 26 success; Scene 27 x2 init. Full Board VIDEO scan covered 4 pages / 359 tasks; no unknown recent task. Occupancy 2/6."
     }
   ]
 }
