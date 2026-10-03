@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-03T07:00:16.862Z",
+  "checked_at": "2026-10-03T07:59:18.981Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -101,7 +101,7 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-09-30T01:31:49Z",
-      "checked_at": "2026-10-03T07:00:16.862Z",
+      "checked_at": "2026-10-03T07:59:18.981Z",
       "queue_count": null,
       "topview_estimated_wait_seconds": null,
       "topview_estimated_process_seconds": null,
@@ -139,9 +139,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-09-30T01:31:49Z",
-      "checked_at": "2026-10-03T07:00:16.862Z",
-      "queue_count": 1601,
-      "topview_estimated_wait_seconds": 43022,
+      "checked_at": "2026-10-03T07:59:18.981Z",
+      "queue_count": 1494,
+      "topview_estimated_wait_seconds": 39450,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized_exact_scene27_split_prompt_match"
@@ -153,9 +153,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-09-30T01:32:26Z",
-      "checked_at": "2026-10-03T07:00:16.862Z",
-      "queue_count": 2128,
-      "topview_estimated_wait_seconds": 64622,
+      "checked_at": "2026-10-03T07:59:18.981Z",
+      "queue_count": 2041,
+      "topview_estimated_wait_seconds": 61050,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized_exact_scene27_split_prompt_match"
