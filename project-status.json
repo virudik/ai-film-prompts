@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-03T08:49:40Z",
+  "synced_at": "2026-10-03T09:18:18Z",
   "revision_date": "03.10.2026",
   "master_declared_last_full_sync": "03.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "3e0482fc138f23947aca41db5073ad625121f43b348b743b8ac43755e5390ff8",
@@ -66,7 +66,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.759,
+    "age_hours_at_status_build": 2.236,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -116,7 +116,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.759,
+      "age_hours": 2.236,
       "blocking": false
     },
     "topview_task_map": {
@@ -401,7 +401,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "03.10.2026",
-    "synced_at": "2026-10-03T08:49:40Z",
+    "synced_at": "2026-10-03T09:18:18Z",
     "canonical_master_sha256": "3e0482fc138f23947aca41db5073ad625121f43b348b743b8ac43755e5390ff8",
     "canonical_revision_sha256": "709256d8f2f7be3e6d6f058265afacd3c1838d6237df622adb0a1eb62e74e565",
     "scene_count": 14,
