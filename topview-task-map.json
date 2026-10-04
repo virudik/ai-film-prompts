@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-03T07:59:18.981Z",
+  "updated_at": "2026-10-04T21:49:24.665Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -14,9 +14,12 @@
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
   ],
   "active_by_scene": {
-    "27": [
-      "98150f1d673344e4b2fec6f9cd6685a0",
-      "181863ea0c494773a765f4bc4ec94424"
+    "20": [
+      "7da3246d27c44cf4a0f17af16ad1b9cf",
+      "9c13463d52f9432d93c9b8b6288efdec",
+      "943741b1bb4b40fd8189767eb18c9285",
+      "f77c6f5b78d9414ebb70362d7e94c182",
+      "05ff0d3ed87b443b81dd35f0477cadd3"
     ]
   },
   "processed_tasks": [
@@ -109,6 +112,24 @@
       "scene_id": 26,
       "final_status": "success",
       "finished_at": "2026-10-03T06:55:53Z"
+    },
+    {
+      "task_id": "98150f1d673344e4b2fec6f9cd6685a0",
+      "scene_id": 27,
+      "final_status": "success",
+      "finished_at": "2026-10-03T19:01:20Z"
+    },
+    {
+      "task_id": "181863ea0c494773a765f4bc4ec94424",
+      "scene_id": 27,
+      "final_status": "success",
+      "finished_at": "2026-10-04T07:05:59Z"
+    },
+    {
+      "task_id": "2b87094928e14ca7827b911f2fbbd747",
+      "scene_id": 20,
+      "final_status": "success",
+      "finished_at": "2026-10-04T17:52:12Z"
     }
   ],
   "retention": {
@@ -117,21 +138,21 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-03T07:59:18.981Z",
+  "last_scan_at": "2026-10-04T21:49:24.665Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "page_scan_to_checkpoint_with_6h_overlap",
-    "last_successful_scan_at": "2026-10-03T07:59:18.981Z",
+    "last_successful_scan_at": "2026-10-04T21:49:24.665Z",
     "last_full_board_pages_checked": 4,
-    "last_board_total_seen": 359,
+    "last_board_total_seen": 365,
     "overlap_hours": 6,
     "pages_scanned": 4,
-    "tasks_scanned": 359,
-    "total_video_tasks": 359,
+    "tasks_scanned": 365,
+    "total_video_tasks": 365,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-03T01:00:16.862Z",
+    "overlap_from": "2026-10-03T01:59:18.981Z",
     "unknown_recent_tasks": 0
   }
 }
