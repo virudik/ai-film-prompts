@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-04T21:49:24.665Z",
+  "checked_at": "2026-10-04T22:00:29.716Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -11,9 +11,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:26Z",
-      "checked_at": "2026-10-04T21:49:24.665Z",
-      "queue_count": 907,
-      "topview_estimated_wait_seconds": 20370,
+      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 876,
+      "topview_estimated_wait_seconds": 19714,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact current Scene 20 prompt blocks; runtime model Wan 3.0",
@@ -22,7 +22,8 @@
         "9c13463d52f9432d93c9b8b6288efdec",
         "943741b1bb4b40fd8189767eb18c9285",
         "f77c6f5b78d9414ebb70362d7e94c182",
-        "05ff0d3ed87b443b81dd35f0477cadd3"
+        "05ff0d3ed87b443b81dd35f0477cadd3",
+        "117b9d976d2c4a54945256e79fc64639"
       ],
       "completed_at": null
     },
@@ -117,7 +118,7 @@
       "completed_at": "2026-10-04T07:05:59Z"
     }
   },
-  "note": "Fresh live Topview reconciliation after disabled hourly automations were detected and re-enabled. Exact task lookups: both Scene 27 Seedance 2.0 split tasks are technical success and no longer occupy slots. Board VIDEO scan: 4 pages / 365 tasks. Six Wan 3.0 tasks created 04.10 map exactly to existing Scene 20 prompt blocks (songs 3–8); song 3 task is technical success, songs 4–8 remain init and occupy 5/6 slots. Runtime model differs from Scene 20 canonical target engine but prompt bodies are exact matches. Technical success does not imply editorial approval.",
+  "note": "Fresh live Topview reconciliation after owner launched another render. Existing Scene 20 Part 9 exact prompt match added as active Wan 3.0 30s task. Parts 4–9 are all init and occupy 6/6 slots; Part 3 remains technical success. No new Scene ID; technical success does not imply editorial approval.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -132,8 +133,8 @@
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 5,
-  "free_slots": 1,
+  "occupied_slots": 6,
+  "free_slots": 0,
   "active_tasks": [
     {
       "scene_id": 20,
@@ -142,9 +143,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:26Z",
-      "queue_count": 907,
-      "topview_estimated_wait_seconds": 20370,
-      "checked_at": "2026-10-04T21:49:24.665Z",
+      "queue_count": 876,
+      "topview_estimated_wait_seconds": 19714,
+      "checked_at": "2026-10-04T22:00:29.716Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
@@ -156,9 +157,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:49Z",
-      "queue_count": 1491,
-      "topview_estimated_wait_seconds": 37649,
-      "checked_at": "2026-10-04T21:49:24.665Z",
+      "queue_count": 1466,
+      "topview_estimated_wait_seconds": 36993,
+      "checked_at": "2026-10-04T22:00:29.716Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
@@ -170,9 +171,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:06Z",
-      "queue_count": 1933,
-      "topview_estimated_wait_seconds": 54929,
-      "checked_at": "2026-10-04T21:49:24.665Z",
+      "queue_count": 1913,
+      "topview_estimated_wait_seconds": 54271,
+      "checked_at": "2026-10-04T22:00:29.716Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
@@ -184,9 +185,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:22Z",
-      "queue_count": 2343,
-      "topview_estimated_wait_seconds": 72209,
-      "checked_at": "2026-10-04T21:49:24.665Z",
+      "queue_count": 2323,
+      "topview_estimated_wait_seconds": 71550,
+      "checked_at": "2026-10-04T22:00:29.716Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
@@ -198,12 +199,26 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": 2715,
-      "topview_estimated_wait_seconds": 89489,
-      "checked_at": "2026-10-04T21:49:24.665Z",
+      "queue_count": 2697,
+      "topview_estimated_wait_seconds": 88829,
+      "checked_at": "2026-10-04T22:00:29.716Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+    },
+    {
+      "scene_id": 20,
+      "task_id": "117b9d976d2c4a54945256e79fc64639",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-04T21:58:05Z",
+      "queue_count": 3036,
+      "topview_estimated_wait_seconds": 106108,
+      "checked_at": "2026-10-04T22:00:29.716Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact_current_scene20_part9_prompt_match; runtime model Wan 3.0"
     }
   ]
 }
