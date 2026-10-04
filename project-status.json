@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-04T23:15:13Z",
+  "synced_at": "2026-10-04T23:16:05Z",
   "revision_date": "05.10.2026",
   "master_declared_last_full_sync": "05.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "0b59d3734e36713fdeb2953c6262272d9ce605c869ce3b7ba3d5c4ff7aeef04f",
@@ -61,35 +61,35 @@
     18
   ],
   "instruction_sync": {
-    "health": "error",
-    "snapshot_at": "2026-10-04T21:50:39.612Z",
+    "health": "ok",
+    "snapshot_at": "2026-10-04T23:15:37Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.409,
+    "age_hours_at_status_build": 0.008,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-09-30T14:50:00.071Z",
-        "github_blob": "8622e59dc6d6f32ad783cc4852b24ae58aca3d08",
+        "drive_modified_at": "2026-10-04T23:13:48.797Z",
+        "github_blob": "df74eba3a69e9d10926a274d982e62b7a6c30f70",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-09-30T14:48:48.922Z",
-        "github_blob": "42ebba9856f06a80c7142251ea497f80150f31ec",
+        "drive_modified_at": "2026-10-04T23:13:34.453Z",
+        "github_blob": "cc223317d17a5694797c50685bae2ce70e501d98",
         "match": true
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-09-27T08:51:28.496Z",
-        "github_blob": "9720837e6fc749d50e07e12cb5d3350e8ca2c839",
+        "drive_modified_at": "2026-10-04T23:13:19.796Z",
+        "github_blob": "28c559e8ad953704486ec2e1696a1f40c292ac35",
         "match": true
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-        "drive_modified_at": "2026-09-30T14:42:30.900Z",
-        "github_blob": "e9d7faf2918c5821b532857d9fb8bc9c43b56be1",
+        "drive_modified_at": "2026-10-04T23:13:04.681Z",
+        "github_blob": "72f1f941f95579aaa0d9a44742cd6546caacb9c5",
         "match": true
       },
       "USER-GUIDE.md": {
@@ -112,14 +112,12 @@
       }
     }
   },
-  "warnings": [
-    "instruction_sync_error"
-  ],
+  "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "error",
-      "age_hours": 1.409,
-      "blocking": true
+      "state": "ok",
+      "age_hours": 0.008,
+      "blocking": false
     },
     "topview_task_map": {
       "state": "ok",
@@ -403,7 +401,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.10.2026",
-    "synced_at": "2026-10-04T23:15:13Z",
+    "synced_at": "2026-10-04T23:16:05Z",
     "canonical_master_sha256": "0b59d3734e36713fdeb2953c6262272d9ce605c869ce3b7ba3d5c4ff7aeef04f",
     "canonical_revision_sha256": "aa85a6fdda8d4265fe8d469b2fbc2bcca3303249bb7370364e37d7d7cf949b70",
     "scene_count": 14,
@@ -440,10 +438,10 @@
     "slow_scenes": [
       20
     ],
-    "health": "error",
-    "instruction_sync_health": "error"
+    "health": "ok",
+    "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -475,7 +473,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": false,
+    "instruction_mirrors_match_drive": true,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
