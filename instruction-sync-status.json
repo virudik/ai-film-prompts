@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-04T21:50:39.612Z",
+  "checked_at": "2026-10-04T23:15:37Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,26 +9,26 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-09-30T14:50:00.071Z",
-      "github_blob": "8622e59dc6d6f32ad783cc4852b24ae58aca3d08",
+      "drive_modified_at": "2026-10-04T23:13:48.797Z",
+      "github_blob": "df74eba3a69e9d10926a274d982e62b7a6c30f70",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-09-30T14:48:48.922Z",
-      "github_blob": "42ebba9856f06a80c7142251ea497f80150f31ec",
+      "drive_modified_at": "2026-10-04T23:13:34.453Z",
+      "github_blob": "cc223317d17a5694797c50685bae2ce70e501d98",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-09-27T08:51:28.496Z",
-      "github_blob": "9720837e6fc749d50e07e12cb5d3350e8ca2c839",
+      "drive_modified_at": "2026-10-04T23:13:19.796Z",
+      "github_blob": "28c559e8ad953704486ec2e1696a1f40c292ac35",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-09-30T14:42:30.900Z",
-      "github_blob": "e9d7faf2918c5821b532857d9fb8bc9c43b56be1",
+      "drive_modified_at": "2026-10-04T23:13:04.681Z",
+      "github_blob": "72f1f941f95579aaa0d9a44742cd6546caacb9c5",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -66,7 +66,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub comparison completed at 2026-10-04T21:50:39.612Z; all mirrors match canonical Drive text.",
+  "note": "Fresh exact 7/7 Drive-to-GitHub comparison completed at 2026-10-04T23:15:37Z after Scene 24–27 prompt-policy and handoff updates; all mirrors match canonical Drive text.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
@@ -267,5 +267,12 @@
     "manual_master_revision_date": false,
     "current_revision_date": "30.09.2026",
     "blank_line_layout_noise_ignored": true
+  },
+  "cat_branch_current": {
+    "verified_at": "2026-10-04T23:15:37Z",
+    "scene24_25": "@Image4 exact approved cockpit; RYZHIK frame-left, LUCHIK frame-right; ordinary domestic-cat scale",
+    "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
+    "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
+    "topview_runtime": "Scene 20 unique slow; 6/6 active slots for Masha song parts 4–9; Part 9 task 117b9d976d2c4a54945256e79fc64639"
   }
 }
