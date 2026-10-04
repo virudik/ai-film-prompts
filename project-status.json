@@ -3,12 +3,12 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-04T22:16:56Z",
+  "synced_at": "2026-10-04T22:37:41Z",
   "revision_date": "05.10.2026",
   "master_declared_last_full_sync": "05.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "c3bac8d8908c1d087c5578d1349f5791ca3542cfd4d1ac975d0aac5e1798018c",
-  "canonical_revision_sha256": "d78088b3996d5a6f1a0e9ab292f8f94b122fb40abb6c44e95980cb8cc9541b1d",
-  "canonical_master_bytes": 335593,
+  "canonical_master_sha256": "5f76aee95ce4683c7561f371bfd4c4ba08397652f7d3027eb98c2b14b60f0124",
+  "canonical_revision_sha256": "b6ff9888f036ac1fbf937f2e753588cc4558eecd4e039d867b3b2a317341257f",
+  "canonical_master_bytes": 342423,
   "scenes": 14,
   "prompt_texts": 26,
   "work_items": [
@@ -66,7 +66,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.438,
+    "age_hours_at_status_build": 0.784,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -116,7 +116,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.438,
+      "age_hours": 0.784,
       "blocking": false
     },
     "topview_task_map": {
@@ -401,9 +401,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "05.10.2026",
-    "synced_at": "2026-10-04T22:16:56Z",
-    "canonical_master_sha256": "c3bac8d8908c1d087c5578d1349f5791ca3542cfd4d1ac975d0aac5e1798018c",
-    "canonical_revision_sha256": "d78088b3996d5a6f1a0e9ab292f8f94b122fb40abb6c44e95980cb8cc9541b1d",
+    "synced_at": "2026-10-04T22:37:41Z",
+    "canonical_master_sha256": "5f76aee95ce4683c7561f371bfd4c4ba08397652f7d3027eb98c2b14b60f0124",
+    "canonical_revision_sha256": "b6ff9888f036ac1fbf937f2e753588cc4558eecd4e039d867b3b2a317341257f",
     "scene_count": 14,
     "prompt_count": 26,
     "scene_ids": [
