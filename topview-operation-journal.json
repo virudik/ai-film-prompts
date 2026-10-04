@@ -697,6 +697,17 @@
       "source_checkpoint": "2026-10-03T07:00:16.862Z",
       "outcome": "telemetry_read_verified_and_terminal_success_recorded",
       "verification": "3 exact task lookups: Scene 26 success; Scene 27 x2 init. Full Board VIDEO scan covered 4 pages / 359 tasks; no unknown recent task. Occupancy 2/6."
+    },
+    {
+      "timestamp": "2026-10-04T21:49:24.665Z",
+      "operation": "manual_recovery_after_disabled_hourly_automations",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "stale public snapshot: Scene 27 x2 active at 2/6",
+      "new_status": "Scene 20 x5 active at 5/6; Scene 27 x2 terminal success",
+      "source_checkpoint": "2026-10-04T21:49:24.665Z",
+      "outcome": "live_topview_reconciled_and_publication_transaction_started",
+      "verification": "Re-enabled Watcher and Recovery. Exact lookup of 8 relevant tasks; full Board VIDEO scan 4 pages / 365 tasks. Six new Wan 3.0 tasks exactly match current Scene 20 prompt blocks 3–8; one terminal success, five active init. Scene 27 both tasks success. No auto-approval or rerun."
     }
   ]
 }
