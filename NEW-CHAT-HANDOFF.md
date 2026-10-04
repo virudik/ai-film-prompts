@@ -954,3 +954,36 @@ Partial intermediate commits не считаются final state и не дол�
 
 ### DoD для любой новой поправки и инструкции сменщику
 Перед правкой промта fresh `PROMPT-STYLE-GUIDE.md` + exact same-ID master + 1–2 близких живых scene examples. Не упрощать detail, не менять refs/speaker/audio без решения. Перед master-write второй fresh read; минимальная same-ID Drive правка → SYNC-TRIGGER → validator/master hash/GitHub mirror/project-status → Pages. Для материальных workflow/authority/recovery изменений обновлять relevant canonical Drive docs и ТОТ ЖЕ `NEW-CHAT-HANDOFF.md`, серийно (fresh-read/version check → same-ID write → read-back → exact GitHub mirror → verify), затем все 7 mirrors 7/7, fresh instruction-sync-status certificate, Notion operational pointer и Library recovery. `**Последняя полная синхронизация:** **...**` и `**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**` являются буквальными validator markers; multiplicity задач указывать вне жирной метки. Не говорить «готово», пока нужная верификация не завершена.
+## 05.10.2026 — TAKEOVER DELTA: кошачьи prompts, Topview 6/6 и автоматика
+
+Этот раздел — самый свежий override для кошачьей ветки и operational state. При конфликте с блоками 30.09 использовать этот раздел + fresh master/runtime JSON.
+
+### A. Scenes 24–27 — подтверждённые пользовательские коррекции
+
+- **Scenes 24–25 (корабль):** approved cockpit photo теперь отдельный exact authority. Mapping: `@Image1` pair cats, `@Image2` LUCHIK, `@Image3` RYZHIK, `@Image4` exact cockpit/composition. На экране RYZHIK слева у navigation/systems, LUCHIK справа у pilot controls; роли не меняются. Кабина должна оставаться тёплой amber lived-in с rear cabin/corridor depth. Коты ordinary domestic-cat scale; запрет giant/half-human cats и back-only staging.
+- **Scene 26 (диалог):** в кадре **только Лучик и Рыжик**. Серёга — полностью off-camera addressee; его visual reference не подключать. Mapping этой Scene: `@Image1` pair cats, `@Image2` LUCHIK, `@Image3` RYZHIK, `@Image4` exact ruined-city environment. Сохранить approved тонкий dry ash/dust + sparse ember particulate layer. Коты ordinary-cat scale. Диалог/реплики и speaker ownership сохранены.
+- **Scene 27 (бой):** mapping остаётся `@Image1` pair cats, `@Image2` SEREGA, `@Image3` LUCHIK, `@Image4` RYZHIK, `@Image5` exact ruined-city environment. **Все три prompts** — 30s Seedance 2.5 и обе 15s Seedance 2.0 части — уже исправлены одинаково: ordinary small cat scale, required ash/dust atmosphere, anti-static continuous combat, коты явно доминируют. Старые 15s renders технически success, но редакционно не approved; не rerun автоматически.
+- Важный lesson: Scene 26 и Scene 27 теперь имеют **разный reference numbering**. Нельзя копировать mapping между ними по памяти; читать свежий блок конкретной Scene.
+
+### B. Текущий Topview state на последней live сверке
+
+- Canonical slow unique Scene: **20**.
+- Active capacity: **6/6**, free 0.
+- Active existing Scene 20 attempts: «Песня Маши 4–9». Part 9 task = `117b9d976d2c4a54945256e79fc64639`; это не новый Scene ID.
+- «Песня Маши 3» уже technical success.
+- Scene 27 Part 1 `98150f1d673344e4b2fec6f9cd6685a0` и Part 2 `181863ea0c494773a765f4bc4ec94424` technical success; approval отдельно.
+- Всегда считать task slots и unique Scene IDs отдельно: одна Scene может занимать несколько слотов.
+
+### C. Watcher / Recovery
+
+- 05.10 обе существующие автоматизации были обнаружены выключенными (`is_enabled=false`), поэтому публичная telemetry снова отстала. Они были восстановлены. При следующем stale incident сначала проверить enabled-state, а не создавать третью задачу.
+- Использовать только существующие две: Topview Watcher HH:00 и Recovery HH:05. Recovery уже выполняет independent freshness check + permitted repair.
+- Никакая автоматизация не должна считать собственный `last_run_time`, новый journal или свежий master sync доказательством свежего Topview snapshot. Нужен verified public timestamp + map + checkpoint read-back.
+
+### D. Что делать следующему чату
+
+1. Выполнить обычный bootstrap из начала этого handoff: 7 Drive docs → fresh master → live project-status/topview-status/instruction-sync-status.
+2. Для кошачьих prompt changes fresh-read `PROMPT-STYLE-GUIDE.md`, master и соседние Scenes 23–27.
+3. Не возвращать Серёгу в кадр Scene 26, не убирать fine particulate из Scenes 26–27, не увеличивать котов и не откатывать cockpit @Image4/frame sides.
+4. Не auto-rerun Scene 27 technical-success renders. Решение о новом render — только пользователь.
+5. При новой Topview задаче песни Маши сопоставлять её с соответствующей Part внутри Scene 20 и обновлять task-slot telemetry без нового Scene ID.
