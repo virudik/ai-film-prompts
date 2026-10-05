@@ -50,3 +50,5 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-10-05T02:14:30+03:00 cats-scenes-24-27-finalize-and-handoff-update
 
 05.10.2026 — Add Scene 28 end-credit dance: eight autonomous prompts, preparation inputs explicitly DRAFT; add exact opaque Masha torso lock to all eleven Scene 20 parts for future renders. Preserve all Scene 24–27 edits and existing render telemetry. Drive same-ID read-back SHA256 cc7262a3f2843d339f9b2c8a09f88b80e6b4f814e5e353f445611da63bf1d1d7.
+
+05.10.2026 — Final scene package read back from same-ID Drive; stale explanatory candidates 3/4/17 corrected to actual 10/11/13. Scene 28, all eleven Masha costume locks, cast registry, backlog and same-ID handoff saved; seven instruction mirrors verified. Refresh master/status/Pages.
