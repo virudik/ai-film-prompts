@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-05T13:41:38.236Z",
+  "checked_at": "2026-10-05T14:02:49.358Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -11,9 +11,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:06Z",
-      "checked_at": "2026-10-05T13:41:38.236Z",
-      "queue_count": 1400,
-      "topview_estimated_wait_seconds": 34144,
+      "checked_at": "2026-10-05T14:02:49.358Z",
+      "queue_count": 1353,
+      "topview_estimated_wait_seconds": 32822,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only",
@@ -116,7 +116,7 @@
       "completed_at": "2026-10-04T07:05:59Z"
     }
   },
-  "note": "Fresh live exact lookup and full Board VIDEO discovery (4 pages / 366 tasks). Task 9c13463d52f9432d93c9b8b6288efdec succeeded at 2026-10-05T13:33:29Z; four Scene 20 tasks remain init with refreshed queue/ETA. No unknown recent task. Canonical slow remains Scene 20. No approval, rerun, launch or cancellation.",
+  "note": "Fresh live exact lookup of all four active Scene 20 Wan 3.0 tasks plus full Board VIDEO discovery (4 pages / 366 tasks). All four remain init; queue/ETA refreshed. No unknown recent task. Canonical slow remains Scene 20. No launch, rerun, cancellation or approval.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -141,9 +141,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:06Z",
-      "queue_count": 1400,
-      "topview_estimated_wait_seconds": 34144,
-      "checked_at": "2026-10-05T13:41:38.236Z",
+      "queue_count": 1353,
+      "topview_estimated_wait_seconds": 32822,
+      "checked_at": "2026-10-05T14:02:49.358Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -155,9 +155,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:22Z",
-      "queue_count": 1859,
-      "topview_estimated_wait_seconds": 51424,
-      "checked_at": "2026-10-05T13:41:38.236Z",
+      "queue_count": 1817,
+      "topview_estimated_wait_seconds": 50103,
+      "checked_at": "2026-10-05T14:02:49.358Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -169,9 +169,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": 2261,
-      "topview_estimated_wait_seconds": 68704,
-      "checked_at": "2026-10-05T13:41:38.236Z",
+      "queue_count": 2221,
+      "topview_estimated_wait_seconds": 67383,
+      "checked_at": "2026-10-05T14:02:49.358Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -183,9 +183,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T21:58:05Z",
-      "queue_count": 2637,
-      "topview_estimated_wait_seconds": 85984,
-      "checked_at": "2026-10-05T13:41:38.236Z",
+      "queue_count": 2598,
+      "topview_estimated_wait_seconds": 84664,
+      "checked_at": "2026-10-05T14:02:49.358Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
