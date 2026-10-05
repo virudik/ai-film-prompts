@@ -23,7 +23,7 @@
 
 
 
-## Актуальный operational status — 27 сентября 2026
+## Исторический operational snapshot — 27 сентября 2026
 
 
 
@@ -398,3 +398,10 @@ UX:
 
 
 Historical checkpoint — superseded by the current operational-status section above. Archived slow checkpoint from 24.09.2026 reconciliation: `17,19,20,21,22`; Scene 20 occupies two active Topview task slots, so occupancy is 6/6. Scenes 3 and 4 are user-rejected/retired; Scene 5 is user-accepted for the film and its prompt is retired. Technical success does not imply editorial approval.
+
+## Контентное дополнение — 05.10.2026
+
+- **Scene 28 — финальный имперский строевой танец:** постановка и восемь самостоятельных промтов оформлены в единственном master. Семь ×15 с + один ×6 с; монтаж около 90 с под Electric Six — “Dance Commander”. Касание щеки и разъезд Серёги/Юли разведены по двум кадрам. Все 11 персонажей из registry; финал — короткая анимация проверенного group-master или монтажный стоп-кадр.
+- **Статус подготовки Scene 28 — DRAFT:** новые входы ангара/пары/group-master ещё не изготовлены. Ближайший конкретный шаг: подготовить H28 и P28 по спецификации сцены, затем проверить сложный жест; запуск рендеров по команде пользователя. Готовые тексты не означают готовые изображения или ролики.
+- **Scene 20 / часть 3:** подтверждён уход от approved model sheet Маши — лишние анатомические детали закрытого торса. Во всех 11 промтах добавлен smooth opaque costume surface lock для будущих запусков; также в Scene 28. Тексты песни, действия и тайминг не изменены. Уже поставленные части 4–9 сохраняют старые submitted prompts и требуют проверки после получения, без автоматического rerender.
+- Сохранены последние пользовательские правки Scenes 24–27. Текущие 15 сцен / 34 текста подтверждаются master/status; численность очереди и время проверки читать из live Topview JSON, не из исторического блока 27 сентября выше.
