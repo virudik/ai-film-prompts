@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**14 сцен к генерации/доработке · 26 полных текстов промта**
+**15 сцен к генерации/доработке · 34 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **20** — это **6 активных Topview-задач / 6 занятых слотов из 6**: шесть 30-секундных Wan 3.0 попыток «Песня Маши 4–9». «Песня Маши 3» уже technical `success`. Scene 27 технически завершила обе 15-секундные Seedance 2.0 задачи; technical success не означает редакционное одобрение. Повторно не запускать active slow-сцены до результата/ошибки или отдельного решения пользователя.
-- **Последние оформленные активные сцены:** 23–27 — новая ветка котов-джедаев.
+- **Последняя оформленная активная сцена:** 28 — финальный имперский танец, восемь самостоятельных промтов; визуальные входы ещё в подготовке (`DRAFT`). Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **05.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **05.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **14 актуальных сцен и 26 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **20**. Live Topview сверка 05.10.2026: Scene 20 остаётся единственной canonical slow-scene. «Песня Маши 3» task `2b87094928e14ca7827b911f2fbbd747` уже technical `success` (04.10.2026 17:52:12 по времени Topview). Активны **6/6 task slots** — «Песня Маши 4–9»: 4 `7da3246d27c44cf4a0f17af16ad1b9cf`, 5 `9c13463d52f9432d93c9b8b6288efdec`, 6 `943741b1bb4b40fd8189767eb18c9285`, 7 `f77c6f5b78d9414ebb70362d7e94c182`, 8 `05ff0d3ed87b443b81dd35f0477cadd3`, 9 `117b9d976d2c4a54945256e79fc64639`. Все это existing Scene 20 attempts, не новые Scene IDs и не изменение canonical target_engine prompt-ов. Scene 27 PART 1 task `98150f1d673344e4b2fec6f9cd6685a0` technical `success` 03.10.2026 19:01:20; PART 2 task `181863ea0c494773a765f4bc4ec94424` technical `success` 04.10.2026 07:05:59. Поэтому Scene 27 вышла из Topview-managed render-slow без изменения editorial/approval state. Scenes 17, 19, 21, 22, 23, 24, 26 и 27 не имеют доказанных active tracked tasks на этой live сверке. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **05.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **15 актуальных сцен и 34 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **20**. Live Topview сверка 05.10.2026: Scene 20 остаётся единственной canonical slow-scene. «Песня Маши 3» task `2b87094928e14ca7827b911f2fbbd747` уже technical `success` (04.10.2026 17:52:12 по времени Topview). Активны **6/6 task slots** — «Песня Маши 4–9»: 4 `7da3246d27c44cf4a0f17af16ad1b9cf`, 5 `9c13463d52f9432d93c9b8b6288efdec`, 6 `943741b1bb4b40fd8189767eb18c9285`, 7 `f77c6f5b78d9414ebb70362d7e94c182`, 8 `05ff0d3ed87b443b81dd35f0477cadd3`, 9 `117b9d976d2c4a54945256e79fc64639`. Все это existing Scene 20 attempts, не новые Scene IDs и не изменение canonical target_engine prompt-ов. Scene 27 PART 1 task `98150f1d673344e4b2fec6f9cd6685a0` technical `success` 03.10.2026 19:01:20; PART 2 task `181863ea0c494773a765f4bc4ec94424` technical `success` 04.10.2026 07:05:59. Поэтому Scene 27 вышла из Topview-managed render-slow без изменения editorial/approval state. Scenes 17, 19, 21, 22, 23, 24, 26 и 27 не имеют доказанных active tracked tasks на этой live сверке. Technical render success сам по себе не означает editorial approval. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 ## ⏳ Сейчас в медленной генерации
 
@@ -42,6 +42,7 @@
 | 25 | [Коты в кабине: космическое сражение](#scene-25) | @Image1 = парный continuity котов; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = **точный approved cockpit / composition reference** | Сражение видно из той же кабины без redesign: Рыжик слева в кадре у тактики/навигации, Лучик справа пилотирует; оба остаются обычного кошачьего масштаба и хорошо читаются лицами. |
 | 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26) | @Image1 = коты / парный continuity-composition; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = точная локация древнего города-руины | В кадре **только два кота**; Серёга — исключительно off-camera адресат. Сохраняются пепел/пыль/редкие искрящиеся частицы, обычный кошачий масштаб, строгий русский lip sync и speaker ownership, Wan 3. |
 | 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга; @Image3 = Лучик; @Image4 = Рыжик; @Image5 = точная локация древнего города-руины | Обе прошлые 15s Seedance 2.0 задачи технически завершены; редакционная оценка отдельно. **30s и обе 15s версии исправлены:** обычный небольшой масштаб котов, непрерывная пепельно-пыльная атмосфера и значительно более быстрый, агрессивный бой без статичного позирования. |
+| 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; будущие H28/P28/C28/G28 описаны в сцене | 8 генераций: 7×15 с + 1×6 с, монтаж около 90 с. Серёга/Юля, две пары джедаев, трио Маши, коты и короткий ансамбль; `DRAFT` до подготовки изображений. |
 
 ---
 
@@ -612,6 +613,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Текущие задачи:** шесть active Wan 3.0 задач относятся к существующим частям «Песня Маши 4–9» и занимают 6/6 Topview slots. «Песня Маши 3» уже получила technical success. «Песня Маши 9» task `117b9d976d2c4a54945256e79fc64639` — существующая часть Scene 20, не новый Scene ID. Это render attempts существующей Scene 20; не создавать новые Scene ID, не менять target_engine canonical prompt-ов и не считать success редакционным approval.
 
+**Коррекция дизайна 05.10.2026:** присланный результат — «Песня Маши 3», task `2b87094928e14ca7827b911f2fbbd747`, фактический движок Wan 3.0, 30 с. Промт source-task сопоставлен с частью 3 с отличиями только в служебной записи image-токенов/пробелов; обложка результата соответствует присланному ролику. Визуальная проверка выявила добавленные соски/рельеф груди и пупок, которых нет на утверждённой model sheet. Это отклонение от дизайна, не новая утверждённая версия персонажа. Вероятная причина — неоднозначность описания голубой кожи и цельного облегающего силуэта; точный внутренний механизм генерации неизвестен. Во ВСЕ 11 текстов ниже добавлен автономный `COSTUME SURFACE LOCK`: непрозрачный гладкий закрытый торс из @Image2 без анатомических деталей, с сохранением существующего длинного силуэта. Это редакция ДЛЯ БУДУЩИХ запусков. Уже завершённая часть 3 и находящиеся в очереди части 4–9 используют прежние отправленные тексты; редактирование master не исправляет их задним числом. Исходный submitted prompt остаётся в соответствующей Topview task и в истории master до этой правки. Task IDs, slow membership и технические статусы не изменены; автоматического rerender/approval нет. Проверить остальные получаемые части на тот же дефект перед монтажом; не объявлять их бракованными до просмотра.
+
 **Контекст использования:** Полный музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**, которые затем собираются в единый клип / музыкальную сцену. Это не 11 новых Scene ID: весь номер остаётся **Scene 20**. @Image1 задаёт точный берег озера, @Image2 — точную identity Маши-Лагуны. Все части используют одинаковую внешность, одежду, причёску, локацию, погоду, световую логику и цветокоррекцию. Вокальный текст внутри prompts взят **только из текста, напрямую предоставленного пользователем**, и должен исполняться дословно с sung lip sync.
 
 **Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference
@@ -661,7 +664,7 @@ This appearance lock applies unchanged to **all 11 parts** of Scene 20.
 - Her silhouette is tall, slender and elegant. Preserve the exact body proportions and overall figure from @Image2.
 - Instead of ordinary human hair, she has long, thick, light-blue tentacle-like head strands descending along both sides and behind the head. Preserve their number, placement, length, thickness and natural movement as closely as the reference allows.
 - A glossy black organic ornamental structure frames the crown / upper head and continues into a high black neck-chest collar with a matching elongated decorative element over the upper back. Preserve this black ornamentation as part of the approved design.
-- Her main body silhouette is a sleek, floor-length, form-fitting light-blue gown-like / aquatic fantasy design matching @Image2. Preserve the exact approved design rather than inventing a new costume.
+- Her main body silhouette is a sleek, floor-length, form-fitting light-blue gown-like / aquatic fantasy design matching @Image2. Preserve the exact approved design rather than inventing a new costume. The chest and abdomen are fully covered by a smooth opaque blue costume surface, never bare blue skin; do not invent nipples, areolae, nipple outlines or a navel. This coverage rule is also repeated inside every independently copied production prompt.
 - Keep the same face, blue skin tone, head shape, head strands, black ornamental elements, body proportions and silhouette in every shot and every camera angle.
 - Do not replace the head strands with ordinary hair, do not add a mermaid tail, fins, horns or extra tentacles, do not redesign the black ornamentation, do not change skin color, and do not turn her into a monster or a different fantasy species.
 - Wide shots, profile views, side tracking, orbit shots and close-ups must all preserve the same identity and design. Natural motion, wind and body movement are allowed; design drift is not.
@@ -692,6 +695,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 1 of 11.
@@ -788,7 +794,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -821,6 +827,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 2 of 11.
@@ -921,7 +930,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -954,6 +963,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 3 of 11.
@@ -1054,7 +1066,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1087,6 +1099,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 4 of 11.
@@ -1184,7 +1199,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1217,6 +1232,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 5 of 11.
@@ -1317,7 +1335,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1350,6 +1368,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 6 of 11.
@@ -1445,7 +1466,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1478,6 +1499,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 7 of 11.
@@ -1578,7 +1602,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1611,6 +1635,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 8 of 11.
@@ -1708,7 +1735,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1741,6 +1768,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 9 of 11.
@@ -1844,7 +1874,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1877,6 +1907,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 10 of 11.
@@ -1980,7 +2013,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2013,6 +2046,9 @@ Do not redesign the lake or introduce large new structures absent from the locat
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image2 is the absolute visual authority for Masha-Laguna. Preserve her exact face and body proportions, pale aquatic-blue skin, long thick light-blue tentacle-like head strands, glossy black ornamental crown / neck / upper-back elements, and the same sleek light-blue full-length aquatic-fantasy silhouette. Do not replace the head strands with ordinary hair, redesign the black ornamentation, change skin color, alter body proportions, or change her approved design.
+
+COSTUME SURFACE LOCK:
+The exact full-length light-blue costume in @Image2 is OPAQUE and continuously covers the entire chest and abdomen. The torso is smooth costume material, not bare blue skin. Preserve its approved outer silhouette without adding anatomical surface detail: no visible nipples, areolae, nipple outlines, navel or navel indentation, bare chest, bare abdomen, transparency or cutouts. Do not emboss breast-tip or belly-button anatomy through the costume. Preserve the original long hem, color and black ornamental elements; do not solve this by inventing new armor, panels, seams or a different garment. @Image2 outranks inferred human anatomy.
 
 SEQUENCE CONTINUITY LOCK:
 This is MASHA SONG PART 11 of 11.
@@ -2111,7 +2147,7 @@ Do not fade to black, do not freeze-frame, and do not jump to a different locati
 The final few frames should preserve the same lake, wardrobe, weather and screen-direction logic so the next 30-second render can continue seamlessly.
 
 NEGATIVE PROMPT:
-identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
+visible nipples, areolae, nipple outlines, navel, navel indentation, bare chest, bare abdomen, transparent torso costume, anatomical torso embossing, costume cutouts, identity drift, different face, face morphing, changed age, changed hairstyle, costume change, body-shape drift, beauty-filter face, wax skin, plastic skin, over-smoothed skin, bad sung lip sync, spoken delivery instead of singing, wrong lyric order, invented lyrics, omitted lyrics, translated lyrics, extra lyric words, subtitles, captions, karaoke text, lyrics on screen, visible band, audience, backup dancers, concert stage, handheld microphone, microphone stand, exaggerated choreography, repetitive generic arm waving, cheerful pop performance, fashion-ad posing, long empty landscape cutaways without Masha, duplicated Masha, extra foreground characters, distorted hands, extra fingers, warped body, unstable horizon, changing shoreline, moving geography, lake morphing, broken water reflections, sudden weather shift, objects appearing from nowhere, hard cuts inside a part, jump cuts, random montage, sudden zoom, camera jitter, micro-shake, cartoon, anime, stylized CGI, game cutscene, oversaturated neon lighting, logo, watermark, black bars, side bars, decorative borders, empty margins.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2922,3 +2958,364 @@ Serega winning, Serega overpowering both cats, balanced 50/50 staging, cat helpl
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<a id="scene-28"></a>
+
+## Сцена 28 — Финальные титры: имперский строевой танец
+
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"tags":["end_credits","dance","ensemble","8_part_sequence","character_identity"]} -->
+
+**Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Все девять людей/гуманоидов и два кота из вкладки «Персонажи» участвуют в одном нарочито нелепом, но предельно серьёзно исполненном номере. Принцип заставок «Миротворца» — торжественная подача абсурдной хореографии; конкретную постановку, костюмы и декорацию сериала не копировать. Центральная пара — Серёга и Юля. Эта сцена не меняет решения о сюжетном финале, Warcraft или карте.
+
+**Готовность:** режиссура и восемь самостоятельных текстов подготовлены; `DRAFT` относится к ещё не изготовленным визуальным входам, а не к отсутствующему тексту. Генерации не запущены. Из существующих данных доступны 11 утверждённых character model sheets. Новый ангар, парный постановочный кадр и финальный group-master ещё НЕ созданы и НЕ утверждены: обозначения ниже являются спецификацией будущих входов, не ссылками на якобы готовые файлы. Перед запуском подготовить их по разделу «Подготовка изображений»; без них не считать пакет `READY`.
+
+**Что происходит:** имперская строевая церемония постепенно превращается в дискотеку, но никто этого не признаёт. Серёга и Юля задают общий рисунок. Он проводит тыльной стороной пальцев по её щеке; на монтажной склейке к более широкому плану они невозмутимо разъезжаются. Две пары джедаев повторяют вариации той же фигуры, Маша ведёт торжественное трио, коты исполняют минимальный «кошачий эквивалент». Все сходятся в симметричной финальной композиции и замирают. Никаких новых случайных танцоров.
+
+### Локация, общий рисунок и музыка
+
+**Локация — церемониальный ангар имперского крейсера.** Огромный прямоугольный зал с тёмными металлическими рёбрами, янтарными продольными световыми полосами и мягким белым верхним светом. Пол чёрный сатиновый, с приглушёнными отражениями, а не зеркальный: ноги читаются и не возникает второй «толпы» в отражении. Две янтарные линии отмечают центральную дорожку. В дальней стене — один широкий проём с защитным полем, неподвижная планета и звёзды; справа в глубине один неподвижный шаттл. В танцевальной зоне нет консолей, лестниц, движущихся платформ или активного воздушного движения. Палитра graphite / amber / soft white; голубая Маша остаётся цветовым акцентом. Свет не мигает и не меняет оттенок между кусками.
+
+**Общий хореографический мотив:** два коротких боковых шага → прямые угловатые предплечья перед корпусом → маленький поворот плеч → внезапная торжественная остановка. Вариации отличаются акцентом, а не превращаются в восемь несвязанных танцев. Лица серьёзные; естественное дыхание и моргание сохраняются. Нет гримас, подмигиваний, эротической пластики, акробатики, поддержек, оружия и световых мечей. У Маши движения над поясом и короткие шаги внутри длинного закрытого силуэта; у котов — нормальная четвероногая анатомия и обычный домашний масштаб.
+
+**Основная музыкальная рекомендация — Electric Six, “Dance Commander”.** Здесь хорошо работает сочетание рок-гитары, танцевального пульса и комически командного характера: Серёга буквально становится распорядителем парада. Один трек на весь номер; звук генераций в финальной сборке отключить. Рабочее ощущение темпа — около 120–121 BPM, но точную сетку и монтажные точки выставлять по ВЫБРАННОМУ аудиофайлу: каталоговые оценки/версии записи различаются. Не обещать музыкальную синхронизацию одним текстом промта. [Официальное видео](https://www.youtube.com/watch?v=vboGDSUGCyY).
+
+**Отсылка:** в первом сезоне Peacemaker звучит Wig Wam — “Do Ya Wanna Taste It”, во втором — Foxy Shazam — “Oh Lord”. “In My Dreams” и “Killin’ It” из предыдущего обсуждения были предложениями альтернатив, а не названиями тем этих сезонов. Наш выбор — “Dance Commander”; “Oh Lord” можно рассматривать только как альтернативное музыкальное решение с переразметкой монтажа. [Заставка HBO Max, сезон 1](https://www.youtube.com/watch?v=_mrr3UNALww) · [заставка HBO Max, сезон 2](https://www.youtube.com/watch?v=_74zkpM31yw). Для публичного релиза выбранная запись требует отдельного решения по использованию музыки; права этим планом не предоставляются.
+
+### Восемь генераций и монтаж примерно на 90 секунд
+
+**Пакет: семь роликов по 15 секунд + один финальный 6 секунд = 111 секунд исходного материала.** Это запас для отбора и музыкальных склеек, НЕ длительность готовых титров. Рабочая сборка — примерно 85–95 секунд; точный хронометраж задаёт музыкальная фраза. `duration_s:15` в scene-meta — основной генерационный блок, а не длина всей коды; у части 8 явно 6 секунд.
+
+| Часть | Кто в кадре | Генерация | Что взять в монтаж / зачем |
+|---:|---|---:|---|
+| 1 | Серёга + Юля | 15 с | Около 12 с: общий план, общий странный мотив, сближение. |
+| 2 | Серёга + Юля | 15 с | Около 8 с: профильный средний план, одно лёгкое касание щеки, рука полностью отходит. |
+| 3 | Серёга + Юля | 15 с | Около 10 с: широкий план, симметричное скольжение НАЗАД друг от друга, финальный поворот к зрителю. |
+| 4 | Паша + Саша | 15 с | Около 12 с: зеркальный «джедайский устав», одинаковые шаги и нелепая пауза. |
+| 5 | Артём + Илюша | 15 с | Около 12 с: тот же рисунок с тяжеловесным боковым ходом и эффектом «заводных фигур». |
+| 6 | Маша + Лёша + Виталик | 15 с | Около 12 с: Маша задаёт короткую угловатую фигуру, двое отвечают с намеренным запаздыванием. |
+| 7 | Лучик + Рыжик | 15 с | Около 8 с: маленькие синхронные шаги, остановка, поворот голов. Только коты. |
+| 8 | Все 11 | 6 с | До 6 с очень простой общей фигуры; затем 8–10 с монтажного стоп-кадра для последнего титра. |
+
+Эти ориентиры дают около 88–90 секунд со стоп-кадром; это монтажная гипотеза, а не проверенные таймкоды песни. Не резать музыкальные фразы через каждые ровно 15 секунд: при ~120 BPM это около 30 долей, а не целое число обычных четырёхдольных тактов. Сначала разметить фразы/сильные доли в редакторе, затем обрезать запас, повторить удачную короткую фигуру или слегка изменить скорость подходящего фрагмента. Для касания лица и ног избегать агрессивного optical flow; дефектную кисть интерполяция не исправит.
+
+### Технический маршрут и реальные ограничения
+
+- Базовый движок — **Seedance 2.5**, 1080p, 16:9. Live Topview config проверен при подготовке: для `omni_reference` доступны длительности 4–30 с; 15 с допустимы. Seedance 2.0 также доступен и допускает 4–15 с, но не включён как автоматическая подмена. Выбор 15 с — режиссёрское ограничение сложности, не утверждение, что Seedance 2.5 не умеет 30 с.
+- Части 1–7: `omni_reference`, обычно 3 изображения, максимум 4 по плану. Число допустимых изображений live config явно не вернул: **это бюджет нашей постановки, не подтверждённый предел модели**. Перед реальным запуском проверить входы выбранного режима/интерфейса. Не превращать один лист с четырьмя ракурсами в четырёх персонажей.
+- Часть 8: `image_to_video`, один уже собранный и визуально проверенный group-master как first frame. Такой вход не означает, что модель надёжно сохранит 11 идентичностей: при дрейфе использовать сам утверждённый статичный групповой кадр с лёгким монтажным наездом, без обязательного нового рендера.
+- Текущий standalone Topview video tool **не принимает reference audio**. Песню накладывать в монтажном редакторе; `@Audio1` не выдумывать. Видеопромты задают порядок жестов, а не гарантированный beat-sync. Частоту кадров результата проверить после получения и привести к существующему монтажному проекту; не выдавать FPS из текста за подтверждённый параметр сервиса.
+- Не отправлять восемь задач одновременно только потому, что восемь текстов готовы. Сначала самый рискованный тест: часть 2, затем часть 3; далее остальные по свободным слотам. Существующие задачи Scene 20 не отменять и не перезапускать. Платные запуски — по отдельной команде пользователя.
+- Порядок качества: лица и костюмы → целая рука / отсутствие деформации щеки → читаемые ноги → география и свет → попадание в музыкальный акцент. Титры рисуются ПОСЛЕ генерации в редакторе, не внутри видео модели.
+
+### Подготовка изображений — входы пока отсутствуют
+
+**H28 — единый location master.** Изготовить один пустой 16:9 общий кадр описанного ангара: камера на центральной оси на высоте груди, умеренно широкий объектив без fisheye, две янтарные линии сходятся к дальнему проёму, шаттл в глубине справа. Оставить свободные верхние углы для титров. Ни людей, ни котов, ни надписей. Проверить геометрию и сохранить один выбранный кадр для всех частей. Никаких восьми независимо придуманных ангаров.
+
+**P28 — парная постановка для части 2.** На основе H28 и exact sheets Серёги/Юли собрать кадр по грудь/пояс: Серёга слева в профиль смотрит вправо, Юля справа смотрит влево, лица примерно в 55–65 см друг от друга, камера видит ближнюю щёку Юли. Его правая рука пока опущена, кисть целая. Не закрывать глаза волосами. Это постановочный reference, индивидуальные model sheets сохраняют приоритет для внешности.
+
+**C28 — переход к части 3.** После получения части 2 выбрать чистый кадр ПОСЛЕ отхода руки. Для широкого начала части 3 использовать его только как reference позы/оси, вместе с H28 и теми же individual sheets. Не требовать буквального pixel-match средней и общей крупности. Если в части 2 кисть портится, сохранить читаемый предконтактный жест и склеить по музыкальному акценту; не продолжать искажённое лицо в следующем входе.
+
+**G28 — финальный group-master.** Собрать статичную общую композицию в H28 из проверенных отдельных персонажей небольшими группами и/или слоями в редакторе. Перед анимацией проверить каждого по его sheet, а не попросить модель сразу угадать 11 лиц по 11 входам. Передний человеческий ряд: Серёга слева, Юля справа. Второй ряд слева направо: Паша, Саша, Артём, Илюша; третий: Лёша, Маша, Виталик. Ряды слегка раздвинуты по горизонтали, ни одно лицо не перекрыто. Лучик на полу впереди слева, Рыжик впереди справа; высота головы обычного стоящего кота ниже человеческого колена. Все люди уже держат низкую угловатую финальную позу; руки ниже плеч, лица открыты. У Маши гладкий непрозрачный голубой торс и длинный подол как в sheet, без новых анатомических деталей. Зеркальных двойников на полу нет. Этот G28 — будущий единый first frame части 8, не новый authority вместо original sheets.
+
+Ниже — законченные автономные тексты для этих запланированных входов. @Image numbering локален каждому блоку. До изготовления и проверки H28/P28/C28/G28 их нельзя копировать в генератор как пакет с уже готовыми референсами.
+
+### Танец 1 — Серёга и Юля задают устав
+
+**Референсы:** @Image1 = будущий H28, только ангар · @Image2 = существующая exact sheet Серёги · @Image3 = существующая exact sheet Юли.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent dance plate for externally added music; no dialogue, singing or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 is the approved empty hangar master: architecture, floor markings, lighting and background only. @Image2 is the exact SEREGA identity/costume sheet; @Image3 is the exact YULIA identity/costume sheet. The individual sheets override the environment for faces, age, proportions and clothing. Multiple views on a sheet describe ONE person. Exactly two performers, no other people or animals.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA is the pale older Chancellor with a balding crown, sparse light hair and a long deep-purple robe. YULIA has the exact referenced face, long chestnut hair, dark black-grey armor, shoulder pieces, gloves and a long black cloak. Preserve both faces and builds; no beautification or costume redesign. Hands stay empty; no lightsabers.
+
+SCENE / STYLE:
+A photoreal space-opera ceremonial hangar treated as a deadly serious parade ground for absurd choreography. Black satin metal floor, two amber guide lines, tall graphite ribs, fixed soft white overhead illumination and amber wall strips. A distant shielded hangar opening frames space and a stationary planet; one shuttle remains parked deep frame-right. Floor reflections are faint, never mirror doubles. No active traffic or flashing lights.
+
+START STATE:
+Full-body frontal symmetrical two-shot. Serega is frame-left and Yulia frame-right, about three metres apart, both facing the camera between the two floor lines. Camera is outside their path, looking toward the rear opening. Both look solemn and ready for an official inspection.
+
+TIMELINE / ACTION:
+0–2s: hold the opening stance with natural breathing, eyes forward.
+2–7s: each performs two small lateral step-touches toward the centre, raises bent forearms into a low angular shape, then makes one short shoulder quarter-turn and abruptly squares back to camera. Clean weight transfers; this is deliberately stiff choreography, not robotic body deformation.
+7–11s: repeat the small step-touch motif once with the arms lowered. The robes and cloak lag naturally behind the body; no high kicks.
+11–14s: they take one final inward step each and turn toward one another: Serega faces frame-right, Yulia frame-left. Stop at a comfortable close conversational distance without touching.
+14–15s: hold the facing position, arms lowered, deadpan.
+
+CAMERA / PERFORMANCE / MATERIALS:
+One locked, chest-height full-body camera, approximately 35mm equivalent perspective; feet remain visible and heads have safe margin. No orbit, zoom or cut. Serious faces, normal blinking, restrained breathing and physically grounded foot contact. Preserve skin texture, cloth weight, armor response and stable practical-light shadows. No smiles or comedy mugging.
+
+END STATE:
+Serega left facing right and Yulia right facing left, approximately 60 cm face separation, both hands lowered. The next editorial shot may be closer on this same axis.
+
+NEGATIVE PROMPT:
+Extra dancers, duplicated sheet views, swapped identities, reversed screen positions, face drift, new hairstyle, wardrobe change, extra arms or fingers, skating without weight transfer, tangled cloak, fast spins, high kicks, weapons, heavy floor mirror images, moving architecture, changing light, exaggerated facial comedy, singing, subtitles, credits, logos, watermark, camera shake or cuts.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 2 — Касание щеки
+
+**Референсы:** @Image1 = H28 · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = будущий P28, только постановка пары.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent performance plate; external music will be added in editing. No speech, singing or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 is the approved hangar location/light master only. @Image2 is the absolute SEREGA face/body/costume reference. @Image3 is the absolute YULIA face/body/costume reference. @Image4 controls this two-person pose, camera angle and framing only. Identity sheets override the pair composition for individual appearance. Exactly two people; each multi-view sheet represents one person.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: exact pale older face, balding crown with sparse light hair, long deep-purple Chancellor robe. YULIA: exact face and build, long chestnut hair, black-grey armor and shoulder pieces, gloves, long black cloak. Do not restyle either person or obscure their eyes. Serega's one active hand has five stable fingers and the same natural proportions throughout.
+
+SCENE / START STATE:
+Photoreal live-action space-opera dance staged with absurd ceremonial seriousness. The hangar has graphite ribs, amber light strips, soft white overhead light, a satin black floor and a distant shielded opening to space. Match @Image1 without introducing a new room. Medium waist-up profile two-shot from @Image4: Serega frame-left faces right, Yulia frame-right faces left, their faces about 60 cm apart. His right hand is down. Camera sees Yulia's near cheek and the path the hand will take.
+
+TIMELINE / ONE INTERACTION:
+0–3s: they look directly at each other without smiling. Quiet breathing; neither moves their feet.
+3–6s: Serega slowly lifts his RIGHT hand between them, away from his own face. Fingers remain softly together, not spread or clenched.
+6–9s: the backs of his index and middle fingers lightly brush ONE short path along Yulia's camera-facing outer cheek, from the cheekbone toward the jaw. The hand stays outside the eye, nose and mouth area. A gentle surface touch only: no pressure, pulling, stretching or passing through skin. Yulia remains dignified and almost expressionless; her head does not follow the hand.
+9–12s: the hand clearly leaves her cheek, passes through visible empty air and lowers completely to Serega's own side.
+12–15s: both remain face-to-face, both hands lowered, no remaining contact. Hold a clean edit point. Do not begin the separation in this shot.
+
+CAMERA / PERFORMANCE / REALISM:
+One locked medium two-shot with natural 50mm-equivalent perspective. Keep the entire moving hand and both faces visible; never cut to a hand close-up. Maintain the left/right profile axis. Stable practical light, natural skin and fabric detail, no beauty filter. The joke is total earnestness during an oddly formal gesture; no grin, wink, seduction, slap or exaggerated reaction.
+
+END STATE:
+The same two people face one another on the same axis, stationary, his right hand fully lowered and a visible air gap between all hands and her face. A later wide shot starts from this no-contact state.
+
+NEGATIVE PROMPT:
+Hand covering eyes, grabbing face, palm wipe across nose, cheek stretching, melted fingers, fingers fused to skin, extra hand, switched active arm, changing face, changed hair, incorrect costume, kiss, embrace, simultaneous footwork, sliding separation, extra person, weapons, camera orbit, shake, cuts, subtitles, text, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 3 — Невозмутимый разъезд
+
+**Референсы:** @Image1 = H28 · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = будущий чистый C28 после отхода руки, только поза/ось. Монтажный переход со среднего на общий план преднамеренный.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent dance plate for an external soundtrack. No dialogue, vocals or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 defines the approved hangar architecture, floor and light. @Image2 is the exact SEREGA identity/costume sheet. @Image3 is the exact YULIA identity/costume sheet. @Image4 defines only the face-to-face orientation and the arms-down pose AFTER the cheek gesture; it does not set this wider framing. Preserve the individual identities above all other image information. Exactly two people.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: pale older Chancellor, balding crown, sparse light hair, long deep-purple robe and the exact referenced face/build. YULIA: exact face/build, long chestnut hair, black-grey armor with shoulder pieces and gloves, long black cloak. Empty hands, unchanged clothing; both feet remain grounded and anatomically correct.
+
+SCENE / START STATE:
+Photoreal ceremonial hangar with a black satin floor, two amber floor lines, graphite structural ribs and fixed soft white/amber practical light. A distant shielded opening shows a stationary planet; a parked shuttle stays deep frame-right. Wide full-body frontal camera on the same stage axis. Serega is left facing right, Yulia right facing left, about 60 cm between their faces. BOTH hands are already lowered; there is no hand-face contact.
+
+TIMELINE / GLIDE GEOMETRY:
+0–2s: hold the close facing pose; a short stillness sets up the musical edit.
+2–9s: they make three small, smooth backward heel-toe shuffles AWAY from one another. Serega travels toward frame-left while still facing right; Yulia travels toward frame-right while still facing left. Each retreats roughly 1.2 metres along one straight horizontal line. Controlled alternating foot pressure creates a smooth theatrical glide; feet never levitate and bodies do not teleport. No lateral crossing, spinning or contact. They maintain eye contact throughout this retreat.
+9–12s: both stop under control, now about three metres apart. Their cloaks settle with real inertia.
+12–14s: both turn their torsos and heads toward the camera and raise bent forearms into a deliberately severe, low angular parade pose.
+14–15s: hold the pose with unchanged serious faces.
+
+CAMERA / ACTING / MATERIALS:
+One locked full-body symmetrical view, approximately 35mm perspective; room on both outer sides for the retreat. Camera must not track a character and hide the separation. Keep feet and the growing air gap readable. Satin reflections are soft and secondary. No moving platforms, floor mechanisms, magic beams or wheels. Natural cloth, breathing and foot friction; absurdly formal performance without smiling.
+
+END STATE:
+Serega left, Yulia right, three metres apart, facing the camera in the same low angular arm pose. This pose supplies the graphic match-cut to the next dancing pair.
+
+NEGATIVE PROMPT:
+Hands touching face, attached hands during separation, stretched arms, pulled skin, reversed directions, crossing positions, sliding into each other, floating, ice-skating blades, wheels, conveyor belts, teleportation, foot distortion, identity swap, duplicate bodies, heavy mirrored doubles, weapons, slapstick faces, camera movement, cuts, generated credits, text, logos or watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 4 — Паша и Саша: джедайский устав
+
+**Референсы:** @Image1 = H28 · @Image2 = existing sheet Паши · @Image3 = existing sheet Саши.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent dance plate; external soundtrack in post. No dialogue, singing or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 is the approved empty hangar environment, framing family and lighting only. @Image2 is the exact PASHA identity/costume sheet. @Image3 is the exact SASHA identity/costume sheet. Each sheet supplies one person, not a cast of its multiple views. Individual sheets control faces and clothes above all environment information. Exactly two Jedi, empty hands and no lightsabers.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+PASHA has the exact referenced clean-shaven face and build, dark navy Jedi tunic, brown belt, dark trousers and tall boots. SASHA has the exact referenced bearded face, round glasses, cream inner tunic and dark burgundy-brown outer robe. Keep Sasha's glasses stable and present. Do not transfer beard, glasses, hair or costume between them.
+
+SCENE / START STATE:
+Photoreal live-action ceremonial space-cruiser hangar. Graphite ribs, black satin floor with two amber lines, fixed amber wall strips and soft white overhead lighting. Space and a stationary planet remain in the distant shielded opening; a shuttle is parked deep frame-right. Full-body pair composition: Pasha frame-left, Sasha frame-right, facing camera with bent forearms held in a low angular shape. Each has room to step without entering the other's silhouette.
+
+TIMELINE / CHOREOGRAPHY:
+0–2s: hold the angular opening pose, perfectly solemn.
+2–6s: two small synchronized step-touches toward frame-left. On each landing the forearms tilt as one stiff geometric shape, then return level. Hands never pass across faces.
+6–10s: reverse with two small step-touches toward frame-right, returning to the original marks. Bodies remain upright; robes respond naturally.
+10–13s: both lower their arms, turn their shoulders a quarter-turn toward each other, then square back to the lens as if receiving an absurd military command.
+13–15s: simultaneously raise only the elbows into the same low angular ending pose and become almost still. Natural blinking continues.
+
+CAMERA / PERFORMANCE / MATERIALS:
+Locked chest-height camera with moderate 35mm perspective, both complete bodies and boots visible. No orbit, zoom or cut. The movement is small, readable, precisely ordered and intentionally odd; neither performer plays a joke to camera. Preserve skin texture, fabric weave, weighted robe hems, soft boot contact and fixed shadows. No rigid frozen facial mask.
+
+END STATE:
+Pasha remains left and Sasha right on their initial marks, facing camera in the angular low-arm pose, ready for a graphic match-cut to another pair.
+
+NEGATIVE PROMPT:
+Four Jedi, background dancers, duplicated people, identity blending, missing glasses, glasses deformation, beard transfer, navy/burgundy clothing swap, extra fingers, arms through robes, high kicks, acrobatics, weapons, smiling, mugging, glossy game render, changing hangar or lighting, strong mirrored doubles, camera shake, edits, text, credits, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 5 — Артём и Илюша: заводные церемониальные фигуры
+
+**Референсы:** @Image1 = H28 · @Image2 = existing sheet Артёма · @Image3 = existing sheet Илюши.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent dance plate; music added externally. No dialogue, singing or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 defines only the approved hangar architecture, floor markings, lighting and background. @Image2 is the exact ARTEM identity/costume model sheet. @Image3 is the exact ILYUSHA identity/costume model sheet. Individual sheets override all other appearance information. Each multi-view sheet describes one person. Exactly these two performers, no other people or animals.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ARTEM has the exact referenced heavier build, short beard, cream-beige tunic, brown outer robe, broad belt and brown boots. ILYUSHA has the exact referenced face, moustache, chestnut hair, olive-green tunic, deep-red hooded cloak and brown boots. Preserve the sheet's hood placement and face visibility. Do not swap beard, moustache, colors or builds. Hands empty, no sabers.
+
+SCENE / START STATE:
+A photoreal ceremonial hangar on a huge space cruiser: graphite ribs, satin black floor, parallel amber guide lines, steady amber wall strips and soft white top light. One distant shielded opening frames space and a stationary planet; one shuttle remains parked deep frame-right. Artem stands frame-left and Ilyusha frame-right, full-body, front-facing, elbows bent in a low angular pose.
+
+TIMELINE / CHOREOGRAPHY:
+0–2s: hold with severe, earnest faces.
+2–6s: both take two short grounded side-steps toward frame-right, knees softly flexing at each landing. The heavy robes settle a fraction after the bodies, while faces remain dignified.
+6–10s: both return toward frame-left in two steps. Forearms stay angular and make one restrained outward-inward pulse below shoulder height; no hand flourishes.
+10–13s: they perform one slow, synchronized quarter-turn of shoulders away from each other, then return square to camera with an absurdly precise stop. Their feet pivot naturally instead of twisting through the floor.
+13–15s: lower hands to the belt area and hold an official inspection stance.
+
+CAMERA / PERFORMANCE / REALISM:
+One locked full-body symmetrical camera, chest height and approximately 35mm perspective. Maintain the initial screen positions, stable horizon and enough room around robe hems. No cuts or camera orbit. Choreography is stiff by intention but bodies retain real weight, natural breathing and fabric inertia. Preserve matte cloth, natural skin detail and restrained floor reflections. No comedy expressions or broad head bobbing.
+
+END STATE:
+Both stand at their original marks, arms low, looking directly at camera. Their posture reads as a solemn ceremonial punctuation to the same dance motif.
+
+NEGATIVE PROMPT:
+Extra performers, identity change, beard/moustache swapping, red cloak on Artem, brown robe replacing Ilyusha's cloak, giant shoulders, human duplication from sheets, tangled limbs, fused hands, cloak morphing, high kicks, jumps, acrobatics, weapons, facial mugging, changing location, moving shuttle, mirrored doubles, cartoon motion, unstable camera, cuts, titles, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 6 — Маша, Лёша и Виталик: торжественный сбой
+
+**Референсы:** @Image1 = H28 · @Image2 = existing sheet Маши Лагуны · @Image3 = existing sheet Лёши · @Image4 = existing sheet Виталика.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent dance plate; external soundtrack in edit. No singing, dialogue, lip sync or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 is the approved hangar architecture/light master only. @Image2 is the absolute MASHA-LAGUNA identity/design sheet. @Image3 is the absolute LESHA identity/costume sheet. @Image4 is the absolute VITALIK identity/costume sheet. Preserve these three separate identities; multiple sheet views never create extra performers. Exactly three characters.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+MASHA-LAGUNA is the tall slender adult aquatic-blue woman with the exact human face, long light-blue tentacle-like head strands and black ornamental crown, neck collar and upper-back structure. Her exact floor-length light-blue costume has an OPAQUE, continuous smooth torso covering the entire chest and abdomen. The torso is costume material, not bare skin: no nipples, areolae, navel, anatomical breast-tip relief, cutouts or transparency. Preserve the reference silhouette without adding new clothing panels or changing the long hem.
+LESHA is the exact slimmer moustached man in a purple inner tunic, long grey hooded robe, brown belt and light boots. VITALIK is the exact heavier-built man in a black tunic, dark leather/armor panels, brown trousers and tall boots. Do not blend their faces, builds or costumes. All hands are empty.
+
+SCENE / START STATE:
+Photoreal ceremonial space-cruiser hangar: graphite ribs, satin black floor with amber guide lines, fixed white overhead light and amber wall strips. The distant shielded opening shows a stationary planet; one parked shuttle stays deep frame-right. Masha is in the centre, Lesha frame-left and Vitalik frame-right, each separated by clear air. A locked frontal full-body camera sees Masha's intact long silhouette.
+
+TIMELINE / CHOREOGRAPHY:
+0–3s: all three stand formally, serious and motionless apart from breathing.
+3–7s: Masha raises both bent forearms into a low square shape, tilts that shape gently left then right, and stops. Lesha and Vitalik repeat that single short gesture a moment after her, like over-serious attendants responding to a command. No overlapping silhouettes or rapid arm waves.
+7–11s: all three make two very small step-touches in place. Masha's steps remain inside the practical movement range of her floor-length costume; do not split the hem, expose legs or invent a tail. Head strands lag softly with natural inertia.
+11–13s: all lower their hands and rotate their shoulders slightly toward centre, then face the lens again.
+13–15s: the trio freezes in a dignified low angular pose, completely convinced of its grandeur.
+
+CAMERA / ACTING / MATERIALS:
+One locked approximately 40mm full-body composition with equal facial readability. No close-up of Masha's torso. Comedy comes from the delayed response and solemn timing, never a sexual gesture. Preserve natural faces, fabric/armor weight, smooth opaque blue costume material and stable low-intensity floor reflections. Light and architecture never change.
+
+END STATE:
+Masha centre, Lesha left, Vitalik right, all facing camera, arms held low and faces clear. No new entrants.
+
+NEGATIVE PROMPT:
+Nipples, areolae, navel, bare chest, bare abdomen, see-through costume, anatomical torso embossing, shortened dress, slit, mermaid tail, new tentacles, ordinary hair on Masha, identity blending, duplicated people, transferred robes, extra limbs, hands through costume, dancing crowd, weapons, sexualized dance, smiling, lip movement, changing hangar, camera movement, cuts, captions, credits, logo, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 7 — Лучик и Рыжик: минимальная кошачья версия
+
+**Референсы:** @Image1 = H28 · @Image2 = existing exact sheet Лучика · @Image3 = existing exact sheet Рыжика. Людей на фон не добавлять.
+
+```text
+Mode: omni-reference video | Target model: Seedance 2.5 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
+Audio intent: silent plate for external music; no speech, human vocals or generated score.
+
+REFERENCES / PRIORITY:
+@Image1 defines the approved hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. Exactly two ordinary domestic cats, one of each identity. No people, animal costumes or background animals.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. No lightsabers in this dance.
+
+SCENE / START STATE:
+The same photoreal ceremonial hangar, graphite ribs, amber guide lines on a satin black floor, steady amber practical strips and soft white overhead light. A distant shielded opening and parked shuttle are fixed background geometry. Camera is low at cat chest height, with both complete bodies, paws, ears and tails safely in frame. Luchik stands frame-left, Ryzhik frame-right, both on all fours facing camera, separated by about one cat body width.
+
+TIMELINE / FELINE ACTION:
+0–3s: both stare solemnly ahead with natural breathing and occasional blinking.
+3–7s: each takes two small deliberate forward walking steps and stops. This is believable feline gait with alternating paws, not a human two-legged dance. The approximate shared timing supplies the joke.
+7–10s: both turn their heads toward frame-left, hold briefly, then bring their gaze back toward camera. Bodies remain in place.
+10–13s: each shifts weight, lifts one front paw only a few centimetres and puts it down once. No high-five, crossing paws or standing upright.
+13–15s: hold the absurdly commanding feline stare; tails may make one restrained natural movement.
+
+CAMERA / MATERIALS / PERFORMANCE:
+Locked low camera, natural 50mm-equivalent perspective, no zoom, orbit or cuts. Their serious expression remains recognizably feline, never a human grin. Real soft fur, whiskers, paw-floor contact and low-contrast reflections. Do not force exact human beat-count choreography onto the cats. The external edit chooses the best synchronized moment.
+
+END STATE:
+Both cats stand calmly on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy.
+
+NEGATIVE PROMPT:
+Giant or waist-high cats, human limbs, human hands, bipedal dancing, cat-headed people, costumes, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, changing lights, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+### Танец 8 — Общая финальная печать
+
+**Референс:** @Image1 = будущий проверенный G28 с девятью людьми/гуманоидами и двумя котами. Это один first frame для `image_to_video`; НЕ загружать сюда 11 новых individual sheets и не просить модель заново собирать состав.
+
+```text
+Mode: image-to-video from one approved first frame | Target model: Seedance 2.5 | Duration: 6s | Resolution: 1080p | Aspect ratio: 16:9 from the source frame
+Audio intent: silent ensemble plate; soundtrack and final credits are added in editing.
+
+REFERENCE / PRIORITY:
+@Image1 is the already checked eleven-character GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, light and camera. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters and TWO ordinary cats. No new references are needed for this animation input.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Front human row: SEREGA, pale older balding man in deep-purple robe, left; YULIA, long chestnut hair and dark armor/black cloak, right. Second row left to right: PASHA, clean-shaven/navy Jedi; SASHA, beard/round glasses/cream-burgundy robe; ARTEM, heavier bearded man/cream-brown robes; ILYUSHA, moustache/olive tunic/deep-red cloak. Rear row left to right: LESHA, slimmer moustached man/purple inner tunic/grey robe; MASHA-LAGUNA, aquatic-blue woman/long blue head strands/black crown-collar/back ornament/opaque floor-length blue costume; VITALIK, heavier man/black tunic/dark leather panels/brown trousers. Preserve every face exactly as visible in @Image1.
+LUCHIK, fluffy white-grey cat, is on the floor front-left; RYZHIK, fluffy ginger tabby, is front-right. Both remain on all fours at ordinary domestic-cat scale, their standing heads below a nearby adult knee. Masha's chest and abdomen remain covered by one smooth opaque blue costume surface: no nipples, areolae, navel or anatomical relief. No weapons.
+
+SCENE / START STATE:
+Match @Image1 immediately: symmetrical ceremonial hangar, satin black floor with faint reflections, amber lines and graphite ribs, steady white top light and amber practical strips. Planet and parked shuttle remain stationary in the background. All faces are visible through staggered rows. The nine people already hold a low angular arm pose below their faces; cats stand normally. Retain upper-corner negative space for later titles without generating any text.
+
+TIMELINE / MINIMAL ENSEMBLE ACTION:
+0–1s: hold the complete source composition with natural breathing.
+1–3s: the nine people make one small, coordinated downward forearm pulse and return to the original low angular pose. Feet stay planted; no locomotion, turns, crossing or formation change. The cats remain on all fours, making only a slight natural head lift.
+3–6s: everyone settles into the same solemn final tableau. Minimal breathing, one natural blink where appropriate, and tiny cloth/fur settling only. End with a clean still frame suitable for an editorial freeze. Do not keep inventing choreography.
+
+CAMERA / PERFORMANCE / REALISM:
+One completely locked camera with the source lens, perspective and framing. No push-in during generation, parallax, orbit, reframing or focus rack. Preserve source skin, fur, cloth and armor textures. The ensemble's conviction makes the pose funny; no smiles, comic grimaces, applause or waving. This is a live-action tableau, not rubber animation.
+
+END STATE:
+The same eleven visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation.
+
+NEGATIVE PROMPT:
+Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, walking, dancing formations, big gestures, mirror doubles, camera movement, background motion, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+**Проверка после результата:** проверять каждого видимого персонажа по exact sheet; отдельно кисть/щёку в части 2, направления и ноги в части 3, гладкий закрытый торс Маши в части 6, масштаб/лапы котов в части 7 и состав 9+2 в части 8. Technical success не равен принятому дублю. Сломанный group animation можно заменить монтажом утверждённого G28; это предусмотренная простая альтернатива, а не обязательство повторять генерации до лимита.

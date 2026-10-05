@@ -3,14 +3,14 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-04T23:44:24Z",
+  "synced_at": "2026-10-05T00:03:10Z",
   "revision_date": "05.10.2026",
   "master_declared_last_full_sync": "05.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "0b59d3734e36713fdeb2953c6262272d9ce605c869ce3b7ba3d5c4ff7aeef04f",
-  "canonical_revision_sha256": "aa85a6fdda8d4265fe8d469b2fbc2bcca3303249bb7370364e37d7d7cf949b70",
-  "canonical_master_bytes": 342344,
-  "scenes": 14,
-  "prompt_texts": 26,
+  "canonical_master_sha256": "cc7262a3f2843d339f9b2c8a09f88b80e6b4f814e5e353f445611da63bf1d1d7",
+  "canonical_revision_sha256": "ac88f1b785898f1cf5a4853528d36769897d68258817d4de90d20bdc7d0ee520",
+  "canonical_master_bytes": 404804,
+  "scenes": 15,
+  "prompt_texts": 34,
   "work_items": [
     "W5",
     "W6",
@@ -43,9 +43,10 @@
     24,
     25,
     26,
-    27
+    27,
+    28
   ],
-  "latest_scene": 27,
+  "latest_scene": 28,
   "reserved_scene_ids": [
     1,
     2,
@@ -66,7 +67,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.48,
+    "age_hours_at_status_build": 0.792,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -116,7 +117,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.48,
+      "age_hours": 0.792,
       "blocking": false
     },
     "topview_task_map": {
@@ -397,15 +398,33 @@
         "character_identity"
       ],
       "render_state": "IDLE"
+    },
+    "28": {
+      "target_engine": "Seedance 2.5",
+      "production_state": "DRAFT",
+      "duration_s": 15,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "end_credits",
+        "dance",
+        "ensemble",
+        "8_part_sequence",
+        "character_identity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "05.10.2026",
-    "synced_at": "2026-10-04T23:44:24Z",
-    "canonical_master_sha256": "0b59d3734e36713fdeb2953c6262272d9ce605c869ce3b7ba3d5c4ff7aeef04f",
-    "canonical_revision_sha256": "aa85a6fdda8d4265fe8d469b2fbc2bcca3303249bb7370364e37d7d7cf949b70",
-    "scene_count": 14,
-    "prompt_count": 26,
+    "synced_at": "2026-10-05T00:03:10Z",
+    "canonical_master_sha256": "cc7262a3f2843d339f9b2c8a09f88b80e6b4f814e5e353f445611da63bf1d1d7",
+    "canonical_revision_sha256": "ac88f1b785898f1cf5a4853528d36769897d68258817d4de90d20bdc7d0ee520",
+    "scene_count": 15,
+    "prompt_count": 34,
     "scene_ids": [
       10,
       11,
@@ -420,7 +439,8 @@
       24,
       25,
       26,
-      27
+      27,
+      28
     ],
     "work_items": [
       "W5",
