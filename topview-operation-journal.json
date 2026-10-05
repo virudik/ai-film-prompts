@@ -708,6 +708,17 @@
       "source_checkpoint": "2026-10-04T21:49:24.665Z",
       "outcome": "live_topview_reconciled_and_publication_transaction_started",
       "verification": "Re-enabled Watcher and Recovery. Exact lookup of 8 relevant tasks; full Board VIDEO scan 4 pages / 365 tasks. Six new Wan 3.0 tasks exactly match current Scene 20 prompt blocks 3–8; one terminal success, five active init. Scene 27 both tasks success. No auto-approval or rerun."
+    },
+    {
+      "timestamp": "2026-10-05T00:11:03.572Z",
+      "operation": "manual_recovery_after_disabled_hourly_automations",
+      "scene_id": 20,
+      "task_fingerprint": null,
+      "previous_status": "public snapshot from 2026-10-04T22:00:29.716Z; both hourly automations disabled",
+      "new_status": "six Scene 20 parts 4–9 still init; enabled hourly Watcher and Recovery; queue/ETA refreshed",
+      "source_checkpoint": "2026-10-05T00:11:03.572Z",
+      "outcome": "live_verified_publication_transaction_prepared",
+      "verification": "Exact live lookup of all six active tasks plus sorted Board VIDEO discovery, 100 rows covering the six-hour checkpoint overlap; no unknown recent tasks. No launch, rerun, cancellation or approval."
     }
   ]
 }
