@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-04T22:00:29.716Z",
+  "updated_at": "2026-10-05T00:11:03.572Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -139,12 +139,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-04T22:00:29.716Z",
+  "last_scan_at": "2026-10-05T00:11:03.572Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "page_scan_to_checkpoint_with_6h_overlap",
-    "last_successful_scan_at": "2026-10-04T22:00:29.716Z",
+    "last_successful_scan_at": "2026-10-05T00:11:03.572Z",
     "last_full_board_pages_checked": 1,
     "last_board_total_seen": 366,
     "overlap_hours": 6,
@@ -153,7 +153,7 @@
     "total_video_tasks": 366,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-04T15:49:24.665Z",
+    "overlap_from": "2026-10-04T16:00:29.716Z",
     "unknown_recent_tasks": 0
   }
 }
