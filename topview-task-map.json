@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-05T13:22:22.729Z",
+  "updated_at": "2026-10-05T13:41:38.236Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -15,7 +15,6 @@
   ],
   "active_by_scene": {
     "20": [
-      "9c13463d52f9432d93c9b8b6288efdec",
       "943741b1bb4b40fd8189767eb18c9285",
       "f77c6f5b78d9414ebb70362d7e94c182",
       "05ff0d3ed87b443b81dd35f0477cadd3",
@@ -136,6 +135,12 @@
       "scene_id": 20,
       "final_status": "success",
       "finished_at": "2026-10-05T03:42:07Z"
+    },
+    {
+      "task_id": "9c13463d52f9432d93c9b8b6288efdec",
+      "scene_id": 20,
+      "final_status": "success",
+      "finished_at": "2026-10-05T13:33:29Z"
     }
   ],
   "retention": {
@@ -144,12 +149,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-05T13:22:22.729Z",
+  "last_scan_at": "2026-10-05T13:41:38.236Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "page_scan_to_checkpoint_with_6h_overlap",
-    "last_successful_scan_at": "2026-10-05T13:22:22.729Z",
+    "last_successful_scan_at": "2026-10-05T13:41:38.236Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 366,
     "overlap_hours": 6,
@@ -158,7 +163,7 @@
     "total_video_tasks": 366,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-05T03:01:16.334Z",
+    "overlap_from": "2026-10-05T07:22:22.729Z",
     "unknown_recent_tasks": 0
   }
 }
