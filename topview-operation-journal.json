@@ -730,6 +730,17 @@
       "source_checkpoint": "2026-10-05T08:10:09.772Z",
       "outcome": "telemetry_read_verified_and_terminal_success_recorded",
       "verification": "6 exact task lookups: one success, five init. Full Board VIDEO scan covered 4 pages / 366 tasks; no unknown recent task. Canonical slow remains Scene 20."
+    },
+    {
+      "timestamp": "2026-10-05T08:27:11.377Z",
+      "operation": "hourly_telemetry_refresh_and_full_board_discovery",
+      "scene_id": 20,
+      "task_fingerprint": null,
+      "previous_status": "5 active Scene 20 tasks; occupied 5/6",
+      "new_status": "5 active Scene 20 tasks; occupied 5/6; queue/ETA refreshed",
+      "source_checkpoint": "2026-10-05T08:27:11.377Z",
+      "outcome": "telemetry_read_verified_and_publication_transaction_started",
+      "verification": "5 exact task lookups: all init. Full Board VIDEO scan covered 4 pages / 366 tasks; no unknown recent task. Canonical slow remains Scene 20."
     }
   ]
 }
