@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-05T00:07:19.929Z",
+  "checked_at": "2026-10-05T08:14:06.731Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub instruction comparison after same-ID handoff update for Scene 28 and Scene 20 costume correction. All seven texts and Git blob hashes verified; no Topview timestamp or editorial approval inferred from this check.",
+  "note": "Fresh exact 7/7 Drive-to-GitHub instruction comparison completed in Recovery. All seven canonical texts matched exactly; no Topview timestamp or editorial approval was inferred from this certificate refresh.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
