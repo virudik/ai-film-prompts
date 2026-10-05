@@ -719,6 +719,17 @@
       "source_checkpoint": "2026-10-05T00:11:03.572Z",
       "outcome": "live_verified_publication_transaction_prepared",
       "verification": "Exact live lookup of all six active tasks plus sorted Board VIDEO discovery, 100 rows covering the six-hour checkpoint overlap; no unknown recent tasks. No launch, rerun, cancellation or approval."
+    },
+    {
+      "timestamp": "2026-10-05T08:10:09.772Z",
+      "operation": "hourly_terminal_transition_and_full_board_discovery",
+      "scene_id": 20,
+      "task_fingerprint": "7da3246d27c44cf4a0f17af16ad1b9cf",
+      "previous_status": "6 active Scene 20 tasks; occupied 6/6",
+      "new_status": "5 active Scene 20 tasks; occupied 5/6",
+      "source_checkpoint": "2026-10-05T08:10:09.772Z",
+      "outcome": "telemetry_read_verified_and_terminal_success_recorded",
+      "verification": "6 exact task lookups: one success, five init. Full Board VIDEO scan covered 4 pages / 366 tasks; no unknown recent task. Canonical slow remains Scene 20."
     }
   ]
 }
