@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-04T22:00:29.716Z",
+  "checked_at": "2026-10-05T00:11:03.572Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -11,12 +11,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:26Z",
-      "checked_at": "2026-10-04T22:00:29.716Z",
-      "queue_count": 876,
-      "topview_estimated_wait_seconds": 19714,
+      "checked_at": "2026-10-05T00:11:03.572Z",
+      "queue_count": 577,
+      "topview_estimated_wait_seconds": 11901,
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact current Scene 20 prompt blocks; runtime model Wan 3.0",
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only",
       "active_task_ids": [
         "7da3246d27c44cf4a0f17af16ad1b9cf",
         "9c13463d52f9432d93c9b8b6288efdec",
@@ -118,7 +118,7 @@
       "completed_at": "2026-10-04T07:05:59Z"
     }
   },
-  "note": "Fresh live Topview reconciliation after owner launched another render. Existing Scene 20 Part 9 exact prompt match added as active Wan 3.0 30s task. Parts 4–9 are all init and occupy 6/6 slots; Part 3 remains technical success. No new Scene ID; technical success does not imply editorial approval.",
+  "note": "Fresh live exact task recheck and sorted 100-row VIDEO discovery after both existing hourly automations were found disabled and re-enabled. Scene 20 parts 4–9 remain init, 6/6 slots. No new unknown task in the checkpoint overlap window. Current master costume corrections affect future prompts only; queued task IDs and source mapping retained. No renders or approvals performed.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -143,12 +143,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:26Z",
-      "queue_count": 876,
-      "topview_estimated_wait_seconds": 19714,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 577,
+      "topview_estimated_wait_seconds": 11901,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     },
     {
       "scene_id": 20,
@@ -157,12 +157,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:06:49Z",
-      "queue_count": 1466,
-      "topview_estimated_wait_seconds": 36993,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 1236,
+      "topview_estimated_wait_seconds": 29181,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     },
     {
       "scene_id": 20,
@@ -171,12 +171,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:06Z",
-      "queue_count": 1913,
-      "topview_estimated_wait_seconds": 54271,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 1737,
+      "topview_estimated_wait_seconds": 46460,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     },
     {
       "scene_id": 20,
@@ -185,12 +185,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:22Z",
-      "queue_count": 2323,
-      "topview_estimated_wait_seconds": 71550,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 2155,
+      "topview_estimated_wait_seconds": 63740,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     },
     {
       "scene_id": 20,
@@ -199,12 +199,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": 2697,
-      "topview_estimated_wait_seconds": 88829,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 2538,
+      "topview_estimated_wait_seconds": 81021,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     },
     {
       "scene_id": 20,
@@ -213,12 +213,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T21:58:05Z",
-      "queue_count": 3036,
-      "topview_estimated_wait_seconds": 106108,
-      "checked_at": "2026-10-04T22:00:29.716Z",
+      "queue_count": 2899,
+      "topview_estimated_wait_seconds": 98301,
+      "checked_at": "2026-10-05T00:11:03.572Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact_current_scene20_part9_prompt_match; runtime model Wan 3.0"
+      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     }
   ]
 }
