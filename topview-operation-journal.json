@@ -840,6 +840,17 @@
       "source_checkpoint": "2026-10-06T18:01:15.454Z",
       "outcome": "telemetry_read_verified",
       "verification": "Full scan completed: 11 owned boards, 529 unique VIDEO tasks across 14 pages; exact direct refresh of both tracked active IDs. Both Scene 20 tasks remain init; 2/6 occupied, 4 free; no unknown recent AI Film task."
+    },
+    {
+      "timestamp": "2026-10-06T19:02:51.671Z",
+      "operation": "active_status_transition_and_full_account_refresh",
+      "scene_id": 20,
+      "task_fingerprint": "scene20-05ff0d3e",
+      "previous_status": "init",
+      "new_status": "running",
+      "source_checkpoint": "2026-10-06T19:02:51.671Z",
+      "outcome": "telemetry_read_verified",
+      "verification": "Full account scan completed: 11 boards, 529 unique VIDEO tasks, 14 pages. Exact direct refresh confirms one Scene 20 task running and the other init; active set remains two tasks, 2/6 occupied, 4 free; no unknown recent AI Film task."
     }
   ]
 }
