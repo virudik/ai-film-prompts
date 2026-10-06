@@ -1,5 +1,9 @@
 # PROMPT-STYLE-GUIDE — единый стандарт видео-промтов
 
+## Операционный указатель — 06.10.2026
+
+Этот файл остаётся стандартом написания промтов. Расписания регулирует актуальный верхний блок `SYNC-RUNBOOK.md`: одна задача **AI Film — единый монитор** (`6aac794245e481919ee7155c461cc77e`, HH:00 МСК); прежние Recovery и slot notifier намеренно архивированы. Старые указания о двух расписаниях ниже не восстанавливать. Ошибки доступа не являются основанием самоотключения; независимого scheduler watchdog при одном расписании нет.
+
 **Версия:** 1.4  
 **Дата:** 22.09.2026  
 **Назначение:** обязательная специализированная инструкция для текущего редактора и любого следующего чата/сменщика AI Film Project.
@@ -631,3 +635,4 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 - **Action scenes требуют anti-static lock.** Для динамичного боя явно запрещай длинные hero poses, solo glamour holds и frozen tableau; задавай непрерывное locomotion/re-angling/pressure и readable multi-character interaction.
 - **Одна правка должна быть перенесена во все production variants той же Scene.** Если Scene 27 имеет 30s основной prompt и split 2×15s, scale/atmosphere/action/reference corrections повторяются внутри каждого блока автономно. Движок не должен зависеть от текста соседнего prompt.
 - Technical success предыдущего render не означает approval и не разрешает rerun. Результат сначала оценивается человеком; confirmed lessons затем попадают в master и этот guide.
+
