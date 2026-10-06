@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-06T20:13:03.380Z",
+  "checked_at": "2026-10-06T21:59:24.867Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-06T06:00:15.702Z",
-      "github_blob": "4b2e43b3f22b1676967c8c750f31a8f75790a397",
-      "drive_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
-      "mirror_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
+      "drive_modified_at": "2026-10-06T21:58:37.665Z",
+      "github_blob": "016dd889ab967d9c6f005747b26115946b3df36a",
+      "drive_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
+      "mirror_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub UTF-8 SHA-256 comparison by the owner-authorized unified hourly monitor. Embedded recovery is active; two legacy project automations remain intentionally retired. Current verified Topview account observation is 1/6 occupied and 5 free after one terminal Scene 20 task.",
+  "note": "Fresh exact 7/7 comparison after Scene 27 15s prompt limits and Scene 28 choreography/reference-link handoff update. Project has 15 scenes / 46 prompt blocks; runtime Topview timestamps remain independent.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
