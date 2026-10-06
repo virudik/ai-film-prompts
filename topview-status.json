@@ -1,28 +1,27 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-06T19:02:51.671Z",
+  "checked_at": "2026-10-06T20:10:02.206Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
     "20": {
-      "task_id": "05ff0d3ed87b443b81dd35f0477cadd3",
+      "scene_id": 20,
+      "task_id": "117b9d976d2c4a54945256e79fc64639",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
-      "topview_status": "running",
-      "started_at": "2026-10-04T08:07:41Z",
-      "checked_at": "2026-10-06T19:02:51.671Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "topview_estimated_process_seconds": 5400,
+      "topview_status": "init",
+      "started_at": "2026-10-04T21:58:05Z",
+      "queue_count": 1289,
+      "topview_estimated_wait_seconds": 30618,
+      "checked_at": "2026-10-06T20:10:02.206Z",
+      "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only",
       "active_task_ids": [
-        "05ff0d3ed87b443b81dd35f0477cadd3",
         "117b9d976d2c4a54945256e79fc64639"
       ],
-      "completed_at": null,
-      "scene_id": 20
+      "completed_at": null
     },
     "21": {
       "task_id": "6d05c85753234b64b43fc75157437a0d",
@@ -115,7 +114,7 @@
       "completed_at": "2026-10-04T07:05:59Z"
     }
   },
-  "note": "Unified monitor full scan: all 11 owned boards / 529 VIDEO tasks / 14 pages checked; exact direct refresh of both tracked active IDs. No unknown recent AI Film task found in the checkpoint overlap. Scene 20 task 05ff0d3e is running; task 117b9d97 remains init. 2/6 occupied and 4 free globally and in AI Film. Queue/ETA/process are service estimates; technical success would not imply editorial approval.",
+  "note": "Fresh complete Topview account observation: 11 boards, 14 pages, 529 unique unlimited VIDEO tasks. Scene 20 Part 8 task completed successfully; Part 9 remains init. One occupied slow slot, five free; no unknown recent AI Film task.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -130,23 +129,9 @@
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 2,
-  "free_slots": 4,
+  "occupied_slots": 1,
+  "free_slots": 5,
   "active_tasks": [
-    {
-      "scene_id": 20,
-      "task_id": "05ff0d3ed87b443b81dd35f0477cadd3",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "running",
-      "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-10-06T19:02:51.671Z",
-      "topview_estimated_process_seconds": 5400,
-      "verified": true,
-      "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
-    },
     {
       "scene_id": 20,
       "task_id": "117b9d976d2c4a54945256e79fc64639",
@@ -154,15 +139,15 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T21:58:05Z",
-      "queue_count": 792,
-      "topview_estimated_wait_seconds": 17280,
-      "checked_at": "2026-10-06T19:02:51.671Z",
+      "queue_count": 1289,
+      "topview_estimated_wait_seconds": 30618,
+      "checked_at": "2026-10-06T20:10:02.206Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     }
   ],
-  "scope": "ai_film_project_projection",
+  "scope": "Account-wide capacity from all owned boards; project scenes only from AI Film board.",
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
@@ -170,10 +155,9 @@
     "video_tasks_scanned": 529,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
+    "occupied_slots": 1,
+    "free_slots": 5,
     "active_task_ids": [
-      "05ff0d3ed87b443b81dd35f0477cadd3",
       "117b9d976d2c4a54945256e79fc64639"
     ]
   }
