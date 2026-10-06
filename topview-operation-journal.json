@@ -851,6 +851,17 @@
       "source_checkpoint": "2026-10-06T19:02:51.671Z",
       "outcome": "telemetry_read_verified",
       "verification": "Full account scan completed: 11 boards, 529 unique VIDEO tasks, 14 pages. Exact direct refresh confirms one Scene 20 task running and the other init; active set remains two tasks, 2/6 occupied, 4 free; no unknown recent AI Film task."
+    },
+    {
+      "timestamp": "2026-10-06T20:10:02.206Z",
+      "operation": "terminal_transition_partial_scene_completion_and_full_account_refresh",
+      "scene_id": 20,
+      "task_fingerprint": "scene20-05ff0d3e",
+      "previous_status": "running",
+      "new_status": "success",
+      "source_checkpoint": "2026-10-06T20:10:02.206Z",
+      "outcome": "canonical_and_telemetry_verified",
+      "verification": "Exact task read confirmed terminal success at 2026-10-06T19:04:21Z; the other Scene 20 task remains init, so canonical slow membership stays Scene 20. Full account scan completed: 11 boards, 14 pages, 529 unique unlimited VIDEO tasks; occupied 1/6, free 5; no unknown recent AI Film task."
     }
   ]
 }
