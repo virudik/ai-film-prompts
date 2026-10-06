@@ -3,14 +3,14 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-06T21:45:28Z",
-  "revision_date": "06.10.2026",
+  "synced_at": "2026-10-06T21:59:38Z",
+  "revision_date": "07.10.2026",
   "master_declared_last_full_sync": "06.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "abc6772df10d765d49d5b38662b1f2f43273560fa5d0ab497bbe75a5dd72cf72",
-  "canonical_revision_sha256": "8de4532cbd8cc0628aa33a66e7dceaefafaa7e90bc692f7c6a3371e5923d7369",
-  "canonical_master_bytes": 458857,
+  "canonical_master_sha256": "37d73693be401ae35dbba80c48af432aeed91a909de0c195e85343e15f5560bb",
+  "canonical_revision_sha256": "0669e563dab04e8e996da9a60d062a54e681debcbc128134e656c48c4d0e8c4b",
+  "canonical_master_bytes": 480572,
   "scenes": 15,
-  "prompt_texts": 42,
+  "prompt_texts": 46,
   "work_items": [
     "W5",
     "W6",
@@ -63,18 +63,18 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-06T20:13:03.380Z",
+    "snapshot_at": "2026-10-06T21:59:24.867Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 1.54,
+    "age_hours_at_status_build": 0.004,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-10-06T06:00:15.702Z",
-        "github_blob": "4b2e43b3f22b1676967c8c750f31a8f75790a397",
-        "drive_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
-        "mirror_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
+        "drive_modified_at": "2026-10-06T21:58:37.665Z",
+        "github_blob": "016dd889ab967d9c6f005747b26115946b3df36a",
+        "drive_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
+        "mirror_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
@@ -131,7 +131,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.54,
+      "age_hours": 0.004,
       "blocking": false
     },
     "topview_task_map": {
@@ -426,7 +426,7 @@
         "end_credits",
         "dance",
         "ensemble",
-        "8_part_sequence",
+        "10_part_sequence",
         "two_engine_versions",
         "ceremony_to_disco",
         "character_identity"
@@ -435,12 +435,12 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "06.10.2026",
-    "synced_at": "2026-10-06T21:45:28Z",
-    "canonical_master_sha256": "abc6772df10d765d49d5b38662b1f2f43273560fa5d0ab497bbe75a5dd72cf72",
-    "canonical_revision_sha256": "8de4532cbd8cc0628aa33a66e7dceaefafaa7e90bc692f7c6a3371e5923d7369",
+    "revision_date": "07.10.2026",
+    "synced_at": "2026-10-06T21:59:38Z",
+    "canonical_master_sha256": "37d73693be401ae35dbba80c48af432aeed91a909de0c195e85343e15f5560bb",
+    "canonical_revision_sha256": "0669e563dab04e8e996da9a60d062a54e681debcbc128134e656c48c4d0e8c4b",
     "scene_count": 15,
-    "prompt_count": 42,
+    "prompt_count": 46,
     "scene_ids": [
       10,
       11,
