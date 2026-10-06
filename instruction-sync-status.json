@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-06T21:59:24.867Z",
+  "checked_at": "2026-10-06T22:06:24.432Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 comparison after Scene 27 15s prompt limits and Scene 28 choreography/reference-link handoff update. Project has 15 scenes / 46 prompt blocks; runtime Topview timestamps remain independent.",
+  "note": "Fresh exact 7/7 comparison after live Topview scene-intake publication. Project has 15 scenes / 46 prompt blocks; account occupancy is 6/6 across mapped active tasks, with unique slow Scenes 20, 26 and 27.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -302,6 +302,6 @@
     "scene24_25": "@Image4 exact approved cockpit; RYZHIK frame-left, LUCHIK frame-right; ordinary domestic-cat scale",
     "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
     "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
-    "topview_runtime": "Scene 20 unique slow; 6/6 active slots for Masha song parts 4–9; Part 9 task 117b9d976d2c4a54945256e79fc64639"
+    "topview_runtime": "Scenes 20, 26 and 27 are slow; 6/6 active task slots: three Scene 20 Masha attempts, one Scene 26 cat attempt, and two Scene 27 cat attempts."
   }
 }
