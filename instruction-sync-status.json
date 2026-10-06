@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-05T21:05:51.084Z",
+  "checked_at": "2026-10-06T02:32:55.737Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-05T00:04:23.559Z",
-      "github_blob": "c7d40e2d5ef35576ee77150f34f2e75dd3b4cd08",
-      "drive_sha256": "c110da882c66f1824076c96d0bc43f1f7f06ce619b46e1d52bf2a29106318161",
-      "mirror_sha256": "c110da882c66f1824076c96d0bc43f1f7f06ce619b46e1d52bf2a29106318161",
+      "drive_modified_at": "2026-10-06T02:31:54.647Z",
+      "github_blob": "0461fa772f9f66c48bb3f3b284e26af8ed332f91",
+      "drive_sha256": "5c8538aae01f0a9ddf7504f0d6389fec4182247fa3e1e783ff941b0f80c81b3f",
+      "mirror_sha256": "5c8538aae01f0a9ddf7504f0d6389fec4182247fa3e1e783ff941b0f80c81b3f",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub instruction comparison completed in Recovery. All seven canonical texts matched exactly; no Topview timestamp or editorial approval was inferred from this certificate refresh.",
+  "note": "Fresh exact 7/7 Drive-to-GitHub comparison after same-ID Scene 28 handoff update: location lighting references and Seedance 2.0 / Wan 3.0 prompt versions. This check does not advance Topview telemetry or imply editorial approval.",
   "recovery_sync": {
     "automation_title": "AI Film Recovery Sync",
     "schedule": "exact hourly at HH:05 Europe/Moscow",
