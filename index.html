@@ -58,6 +58,9 @@ html[data-theme="light"] .back-to-top{background:rgba(255,255,255,.96)}
 .now-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.now-card{display:block;padding:8px 9px;border:1px solid var(--line);border-radius:9px;background:var(--bg);min-width:0}.now-card-head{display:flex;align-items:center;justify-content:space-between;gap:7px;min-width:0;margin-bottom:5px}.now-card-title{font-size:11px;color:var(--muted);line-height:1.2}.now-card-count{font-size:16px;font-weight:850;line-height:1}.now-list{display:flex;flex-wrap:wrap;gap:4px;align-items:center}.now-chip{border:1px solid var(--line);border-radius:8px;padding:5px 8px;min-height:38px;font-size:11px;line-height:1.2;cursor:pointer;background:transparent;color:inherit}.now-empty{font-size:11px;color:var(--muted)}
 .now-card.now-next{grid-column:1/-1}.now-card.now-next .now-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}.now-card.now-next .now-chip{width:100%;min-height:40px;text-align:left;padding:6px 8px}
 @media(max-width:900px){.now-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.now-card.now-next{grid-column:1/-1}}@media(max-width:560px){.now-grid{grid-template-columns:1fr}.now-head{align-items:flex-start;flex-direction:column;gap:2px}.now-card-head{margin-bottom:4px}.now-card.now-next{grid-column:1}.now-card.now-next .now-list{grid-template-columns:repeat(2,minmax(0,1fr))}.now-chip{min-height:42px;padding:6px 8px;font-size:11px}}
+
+/* Keep reference media inside the reading column; retain the existing typography and scale. */
+article{min-width:0;max-width:100%}article img,article video{display:block;max-width:100%;height:auto}article a{overflow-wrap:anywhere}
 </style>
 <script>
 (function(){try{const saved=localStorage.getItem('ai-film-theme');document.documentElement.dataset.theme=saved==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();
