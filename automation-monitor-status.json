@@ -23,7 +23,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-06T12:04:33.991Z",
+    "checked_at": "2026-10-06T13:05:45.036Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
@@ -61,32 +61,32 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-06T12:04:33.991Z",
+      "checked_at": "2026-10-06T13:05:45.036Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 529,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-06T12:04:33.991Z",
-      "public_verified_at": "2026-10-06T12:08:18Z",
+      "checked_at": "2026-10-06T13:05:45.036Z",
+      "public_verified_at": "2026-10-06T13:08:39Z",
       "occupied_slots": 2,
       "free_slots": 4,
-      "pages_run_id": 37460995517
+      "pages_run_id": 37468373740
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-06T12:06:44.597Z"
+      "checked_at": "2026-10-06T13:07:20.133Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-06T12:07:05Z",
+      "checked_at": "2026-10-06T13:07:38Z",
       "master_sha256": "9d709c1bbe5dc767077c4dc74cdee08bec1cdd1e3fe9df49eba593d87084fb9a",
       "scenes": 15,
       "prompt_texts": 42,
       "all_project_checks_true": true,
-      "sync_run_id": 37460971459,
-      "pages_run_id": 37460995517
+      "sync_run_id": 37468351653,
+      "pages_run_id": 37468373740
     },
     "deep_audit": {
       "status": "not_due",
@@ -103,8 +103,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-06T11:57:12Z",
-    "completed_at": "2026-10-06T12:10:03.286Z",
+    "started_at": "2026-10-06T13:02:00Z",
+    "completed_at": "2026-10-06T13:10:03.909Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
@@ -138,9 +138,9 @@
     "retired_automations_disabled": 2,
     "unrelated_automations_unchanged": true,
     "regression_guard_commit": "8ea3bcf001202d152bcc0bc56be8743cd1d9a0ec",
-    "latest_pages_run_id": 37460995517,
+    "latest_pages_run_id": 37468373740,
     "latest_pages_conclusion": "success",
-    "latest_integration_run_id": 37460971549,
+    "latest_integration_run_id": 37468351602,
     "latest_integration_conclusion": "success"
   }
 }
