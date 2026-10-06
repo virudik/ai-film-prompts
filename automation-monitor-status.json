@@ -58,15 +58,24 @@
       "checked_at": "2026-10-06T05:52:13.246Z"
     },
     "telemetry_publication": {
-      "status": "repo_verified_pages_pending",
-      "checked_at": "2026-10-06T05:52:13.246Z"
+      "status": "verified_repo_and_public_pages",
+      "checked_at": "2026-10-06T05:52:13.246Z",
+      "public_verified_at": "2026-10-06T06:09:38.139Z",
+      "occupied_slots": 3,
+      "free_slots": 3
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
       "checked_at": "2026-10-06T06:03:15.291Z"
     },
     "canonical_sync": {
-      "status": "trigger_pending"
+      "status": "verified_drive_github_and_public_pages",
+      "master_sha256": "848bb5ecaee9d6fc8f1c65e82acf4f9585fd768ede353ec9dc9faad28f7f6b0b",
+      "scenes": 15,
+      "prompt_texts": 42,
+      "all_project_checks_true": true,
+      "sync_run_id": 37421931156,
+      "pages_run_id": 37421968724
     },
     "deep_audit": {
       "status": "not_due",
@@ -80,14 +89,25 @@
       "blocking": false
     }
   },
-  "health": "publication_pending",
+  "health": "verified_manual",
   "last_scheduled_cycle": null,
-  "first_scheduled_cycle_verification": "pending_future_execution",
+  "first_scheduled_cycle_verification": "pending_future_execution; configured start 2026-10-06T10:00:00+03:00",
   "disable_diagnosis": {
     "latest_disable_reason": "not_exposed_by_api",
     "known_historical_cause": "prior watcher self-disabled on connector unavailability; old runbook also instructed manual writer pause",
     "corrected": "old pause rule superseded; no task-state writes during execution; unavailable phases isolated",
     "platform_autopause_prevention": "not_available",
     "independent_scheduler_watchdog": false
+  },
+  "manual_verification_completed_at": "2026-10-06T06:09:38.139Z",
+  "evidence": {
+    "instruction_exact_matches": "7/7",
+    "project_status_health": "ok",
+    "telemetry_transaction_agrees": true,
+    "published_master_matches_drive": true,
+    "project_automations_enabled": 1,
+    "retired_automations_disabled": 2,
+    "unrelated_automations_unchanged": true,
+    "regression_guard_commit": "8ea3bcf001202d152bcc0bc56be8743cd1d9a0ec"
   }
 }
