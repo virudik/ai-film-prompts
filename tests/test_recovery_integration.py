@@ -189,12 +189,23 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertIn("✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ", html)
         self.assertIn("Topview telemetry временно устарела", html)
 
-    def test_watcher_watchdog_contract_is_present(self):
-        # Static integration guard: Recovery automation prompt is external, so repository
-        # docs must retain the permanent watchdog + preserve-enabled contract.
-        handoff = (ROOT / "NEW-CHAT-HANDOFF.md").read_text(encoding="utf-8")
-        self.assertIn("Recovery is watchdog for watcher", handoff)
-        self.assertIn("is_enabled:true", handoff)
+    def test_unified_monitor_configuration_agrees_across_runtime_records(self):
+        # Offline contract only: live scheduler state is verified separately via peek.
+        # Retired tasks must not be restored by the former two-automation watchdog rule.
+        state = json.loads((ROOT / "automation-monitor-status.json").read_text(encoding="utf-8"))
+        certificate = json.loads(INSTR.read_text(encoding="utf-8"))
+        schedule = certificate["automation_schedule"]
+        primary = state["automation"]
+        retired = state["retired_automations"]
+        self.assertEqual(schedule["active_project_automation_count"], 1)
+        self.assertEqual(schedule["active_automation_id"], primary["id"])
+        self.assertEqual(schedule["schedule"], primary["schedule"])
+        self.assertEqual(primary["timing_mode"], "exact_schedule")
+        self.assertEqual(primary["timezone"], schedule["timezone"])
+        self.assertEqual(set(schedule["retired_automation_ids"]), {item["id"] for item in retired})
+        self.assertNotIn(primary["id"], {item["id"] for item in retired})
+        self.assertFalse(any(item["is_enabled"] for item in retired))
+        self.assertFalse(certificate["recovery_sync"]["separately_scheduled"])
 
 
 if __name__ == "__main__":
