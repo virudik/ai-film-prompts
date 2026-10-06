@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-06T02:32:55.737Z",
+  "checked_at": "2026-10-06T06:03:15.291Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,58 +9,58 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-06T02:31:54.647Z",
-      "github_blob": "0461fa772f9f66c48bb3f3b284e26af8ed332f91",
-      "drive_sha256": "5c8538aae01f0a9ddf7504f0d6389fec4182247fa3e1e783ff941b0f80c81b3f",
-      "mirror_sha256": "5c8538aae01f0a9ddf7504f0d6389fec4182247fa3e1e783ff941b0f80c81b3f",
+      "drive_modified_at": "2026-10-06T06:00:15.702Z",
+      "github_blob": "4b2e43b3f22b1676967c8c750f31a8f75790a397",
+      "drive_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
+      "mirror_sha256": "6f312215dff05d65f264fe0a34ce9226231da6995231c6175941e7e2407adfee",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-04T23:13:34.453Z",
-      "github_blob": "cc223317d17a5694797c50685bae2ce70e501d98",
-      "drive_sha256": "5e541f11e8ca0162791c96ad9f022cd4d1a97acfba4278d2fdb705da32726136",
-      "mirror_sha256": "5e541f11e8ca0162791c96ad9f022cd4d1a97acfba4278d2fdb705da32726136",
+      "drive_modified_at": "2026-10-06T06:00:25.443Z",
+      "github_blob": "560a4ddb6804364526e56478863b37ddeabf325b",
+      "drive_sha256": "df43d4a90b245ea1389a4ac4d84eea8a26f49a3c46d88ed9e2422e6cfe9a163f",
+      "mirror_sha256": "df43d4a90b245ea1389a4ac4d84eea8a26f49a3c46d88ed9e2422e6cfe9a163f",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-04T23:13:19.796Z",
-      "github_blob": "28c559e8ad953704486ec2e1696a1f40c292ac35",
-      "drive_sha256": "65822fa19e1588ebf98863ea6317e2bf352e42dc79ddd73138cb892a2a31d890",
-      "mirror_sha256": "65822fa19e1588ebf98863ea6317e2bf352e42dc79ddd73138cb892a2a31d890",
+      "drive_modified_at": "2026-10-06T06:00:35.742Z",
+      "github_blob": "0a2f4f4696d5cdb9d14c513d9a1c3fd65d351284",
+      "drive_sha256": "94a6746df20c47637df2be0345539de6994a30378143321ae68257ca82828339",
+      "mirror_sha256": "94a6746df20c47637df2be0345539de6994a30378143321ae68257ca82828339",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-04T23:13:04.681Z",
-      "github_blob": "72f1f941f95579aaa0d9a44742cd6546caacb9c5",
-      "drive_sha256": "140308faaf8d0052073c8f8553fe0410b14600f96df7f7aad541210aef708196",
-      "mirror_sha256": "140308faaf8d0052073c8f8553fe0410b14600f96df7f7aad541210aef708196",
+      "drive_modified_at": "2026-10-06T06:00:56.357Z",
+      "github_blob": "7a51fca1385d2876b371abbb8d2c8a36d926be93",
+      "drive_sha256": "a6ad57853a7ffb0ea33ddee8a52a76572ccd9fe339cc881e3afd0c1fa4a4b72d",
+      "mirror_sha256": "a6ad57853a7ffb0ea33ddee8a52a76572ccd9fe339cc881e3afd0c1fa4a4b72d",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-09-30T14:47:51.327Z",
-      "github_blob": "777b6e2bb780d453397648f5e7e8bf0c84fcae1e",
-      "drive_sha256": "e32fce0e5933874ee51cc66c7dc5db6c3ea1e4d82a7d6bd88ce5079d5622ed1d",
-      "mirror_sha256": "e32fce0e5933874ee51cc66c7dc5db6c3ea1e4d82a7d6bd88ce5079d5622ed1d",
+      "drive_modified_at": "2026-10-06T06:01:04.731Z",
+      "github_blob": "6fe329bccd1f36e2de8c2019d7ab180d305d7901",
+      "drive_sha256": "3dd4cc313268165c3ce6747b3304b8d2e41bc9615e47cebb75a8b78daf007a71",
+      "mirror_sha256": "3dd4cc313268165c3ce6747b3304b8d2e41bc9615e47cebb75a8b78daf007a71",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-09-30T14:45:26.339Z",
-      "github_blob": "6244135da59c70e61eea8fd5c2f33f2336c86762",
-      "drive_sha256": "c5e18f8b1418c8261949b6d77541828f555ec7a0b3a1d3b27441dd84a381cbab",
-      "mirror_sha256": "c5e18f8b1418c8261949b6d77541828f555ec7a0b3a1d3b27441dd84a381cbab",
+      "drive_modified_at": "2026-10-06T06:01:12.782Z",
+      "github_blob": "166757ffb70dc8bab8c6b63e454fbd4bb4ba8302",
+      "drive_sha256": "d4df6d27fe8419ce3bff37cbddc7374317d942ac4155980da10d7a85adfbbfe2",
+      "mirror_sha256": "d4df6d27fe8419ce3bff37cbddc7374317d942ac4155980da10d7a85adfbbfe2",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-09-30T14:46:20.971Z",
-      "github_blob": "c1ccad189c91f967d7d0b482e28e37fabadfb16b",
-      "drive_sha256": "82924489a413f116da14d19c2e62afb4eb448bb515ccf462279c6f5d92d44e63",
-      "mirror_sha256": "82924489a413f116da14d19c2e62afb4eb448bb515ccf462279c6f5d92d44e63",
+      "drive_modified_at": "2026-10-06T06:01:54.485Z",
+      "github_blob": "ce7a962009af5ca3c364db06f6705606c348dd26",
+      "drive_sha256": "eba9f04e1a451d97cc5126ad6df1ecd87feb5402faab7d0d34f604a7e310a09e",
+      "mirror_sha256": "eba9f04e1a451d97cc5126ad6df1ecd87feb5402faab7d0d34f604a7e310a09e",
       "match": true
     }
   },
@@ -76,26 +76,27 @@
   },
   "topview_scene_intake": {
     "enabled": true,
-    "automation_title": "Topview Scene Intake & Slow Watch",
+    "automation_title": "AI Film — единый монитор",
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub comparison after same-ID Scene 28 handoff update: location lighting references and Seedance 2.0 / Wan 3.0 prompt versions. This check does not advance Topview telemetry or imply editorial approval.",
+  "note": "Fresh exact 7/7 Drive-to-GitHub comparison after owner-authorized consolidation into one hourly monitor. Two legacy tasks are intentionally retired. Manual account scan verified 3/6 occupied; future scheduled execution is not yet verified.",
   "recovery_sync": {
-    "automation_title": "AI Film Recovery Sync",
-    "schedule": "exact hourly at HH:05 Europe/Moscow",
+    "automation_title": "AI Film — единый монитор",
+    "phase": "embedded_in_unified_monitor",
+    "separately_scheduled": false,
     "hourly_light": true,
     "daily_deep": true,
     "deep_audit_status_file": "deep-audit-status.json",
     "deep_audit_interval_hours": 24,
-    "note": "Daily deep audit runs inside hourly Recovery when due; Topview Scene Intake & Slow Watch remains separate at HH:00."
+    "note": "Old Recovery ID is intentionally archived; do not re-enable. Same run performs recovery after Topview publication."
   },
   "slow_table_ui": {
     "health": "ok",
     "slot_capacity": 6,
     "row_cardinality": "one_row_per_active_topview_task",
     "scene_id_may_repeat": true,
-    "header_format_target": "занято X из 6 · DD.MM.YYYY, HH:MM:SS",
+    "header_format_target": "занято X из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS",
     "timestamp_source": "topview-status.json.checked_at",
     "timestamp_style": "ordinary text color/weight; no 'синхр.' label",
     "columns": [
@@ -117,20 +118,22 @@
   "mode": "authorized_chatgpt_drive_connector",
   "topview_liveness": {
     "primary_watcher": {
-      "title": "Topview Scene Intake & Slow Watch",
+      "title": "AI Film — единый монитор",
+      "automation_id": "6aac794245e481919ee7155c461cc77e",
       "timing_mode": "exact_schedule",
       "minute_local": 0,
       "timezone": "Europe/Moscow",
+      "is_enabled": true,
+      "configuration_verified_at": "2026-10-06T06:04:45.168Z",
       "expected_max_checkpoint_age_minutes": 75,
-      "connector_degradation_behavior": "never self-disable; preserve last verified snapshot and retry next HH:00"
+      "connector_degradation_behavior": "continue other phases, preserve verified timestamps, retry next cycle; never self-disable"
     },
     "recovery_watchdog": {
-      "title": "AI Film Recovery Sync",
-      "timing_mode": "exact_schedule",
-      "minute_local": 5,
-      "timezone": "Europe/Moscow",
-      "fallback_after_minutes": 5,
-      "independent_public_check_each_run": true,
+      "status": "retired_by_owner",
+      "automation_id": "6aac3e4dfe6c81918b3eead8529edf30",
+      "is_enabled": false,
+      "replacement": "embedded recovery phase in unified monitor",
+      "independent_scheduler_watchdog": false,
       "topview_alert_after_minutes": 105,
       "instruction_alert_after_minutes": 165,
       "seven_exact_drive_github_check_each_run": true,
@@ -139,7 +142,8 @@
     "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available",
     "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact.",
     "github_public_checker": "scripts/check_public_freshness.py present read-only; dedicated GitHub scheduled workflow NOT activated (write blocked)",
-    "notifications_as_last_observed": "ChatGPT tasks notifications_enabled:false; cannot guarantee push delivery"
+    "notifications_as_last_observed": "ChatGPT tasks notifications_enabled:false; cannot guarantee push delivery",
+    "scheduler_limit": "A single paused automation cannot resume itself; API does not expose latest disable reason or a never-auto-pause control."
   },
   "three_view_topview_contract": {
     "health": "ok",
@@ -158,9 +162,18 @@
   "automation_schedule": {
     "health": "ok",
     "timezone": "Europe/Moscow",
+    "active_automation_id": "6aac794245e481919ee7155c461cc77e",
+    "active_automation_title": "AI Film — единый монитор",
+    "active_project_automation_count": 1,
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261006T100000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "timing_mode": "exact_schedule",
     "topview_watcher": "exact hourly at HH:00:00",
-    "recovery_sync": "exact hourly at HH:05:00",
-    "one_writer_note": "Topview watcher remains primary writer. Recovery runs five minutes later so it can observe and repair a completed/failed watcher cycle instead of racing it."
+    "recovery_sync": "embedded phase; no independent schedule",
+    "retired_automation_ids": [
+      "6aac3e4dfe6c81918b3eead8529edf30",
+      "6ac358bf36548191b64ae6326bcc1f9b"
+    ],
+    "one_writer_note": "Unified monitor is sole scheduled project writer. Manual recovery uses fresh-read/version guard/rebase without pausing scheduler."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",
@@ -180,8 +193,9 @@
       "library": "best-effort/non-blocking recovery cache"
     },
     "schedules": {
-      "topview_watcher": "HH:00 Europe/Moscow, exact hourly, must remain enabled unless owner explicitly disables",
-      "recovery_sync": "HH:05 Europe/Moscow, exact hourly delayed watchdog"
+      "unified_monitor": "HH:00 Europe/Moscow exact hourly, one enabled task",
+      "recovery_sync": "embedded phase, no separate schedule",
+      "legacy_automations": "intentionally disabled by owner; never re-enable automatically"
     },
     "background_connector_rule": "If Topview Board connector is unavailable in a scheduled run, do not fabricate telemetry or advance checked_at/last_scan_at; keep watcher enabled and retry next cycle.",
     "ui_contract": {
@@ -190,7 +204,8 @@
       "topview_card": "M из 6 occupied slots; secondary line N scenes with multiplicity",
       "stale_topview": "separate warning, not global red"
     },
-    "canonical_instruction_write_policy": "serial only: fresh-read/version check -> same-ID Drive write -> read-back -> exact GitHub mirror -> verify -> next file; never multi-write batch canonical docs"
+    "canonical_instruction_write_policy": "serial only: fresh-read/version check -> same-ID Drive write -> read-back -> exact GitHub mirror -> verify -> next file; never multi-write batch canonical docs",
+    "phase_isolation": "Topview, publication, instruction/canonical checks and daily audit have separate outcomes; one unavailable connector does not disable or abort unrelated phases."
   },
   "control_center_summary_metric": {
     "health": "ok",
