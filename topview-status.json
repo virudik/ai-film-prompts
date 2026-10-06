@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-06T11:11:21.954Z",
+  "checked_at": "2026-10-06T12:04:33.991Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -11,9 +11,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "checked_at": "2026-10-06T11:11:21.954Z",
-      "queue_count": 1206,
-      "topview_estimated_wait_seconds": 27548,
+      "checked_at": "2026-10-06T12:04:33.991Z",
+      "queue_count": 1080,
+      "topview_estimated_wait_seconds": 24272,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only",
@@ -114,7 +114,7 @@
       "completed_at": "2026-10-04T07:05:59Z"
     }
   },
-  "note": "Unified monitor full scan: all 11 owned boards / 529 VIDEO tasks / 14 pages checked; exact direct refresh of all previously active and anomalous IDs. Scene 20 part 7 reached technical success; parts 8–9 remain init. 2/6 occupied and 4 free globally and in AI Film. Technical success does not imply editorial approval.",
+  "note": "Unified monitor full scan: all 11 owned boards / 529 VIDEO tasks / 14 pages checked; exact direct refresh of both previously active IDs. No unknown recent AI Film task found in the checkpoint overlap. Both Scene 20 tasks remain init. 2/6 occupied and 4 free globally and in AI Film. Queue/ETA are service estimates; technical success would not imply editorial approval.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -139,9 +139,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": 1206,
-      "topview_estimated_wait_seconds": 27548,
-      "checked_at": "2026-10-06T11:11:21.954Z",
+      "queue_count": 1080,
+      "topview_estimated_wait_seconds": 24272,
+      "checked_at": "2026-10-06T12:04:33.991Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -153,9 +153,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T21:58:05Z",
-      "queue_count": 1690,
-      "topview_estimated_wait_seconds": 44828,
-      "checked_at": "2026-10-06T11:11:21.954Z",
+      "queue_count": 1603,
+      "topview_estimated_wait_seconds": 41552,
+      "checked_at": "2026-10-06T12:04:33.991Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
