@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-06T19:03:42.970Z",
+  "checked_at": "2026-10-06T20:13:03.380Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub comparison by the owner-authorized unified hourly monitor. Embedded recovery is active; two legacy project automations remain intentionally retired. Current verified Topview account observation is 2/6 occupied and 4 free after one terminal Scene 20 task.",
+  "note": "Fresh exact 7/7 Drive-to-GitHub UTF-8 SHA-256 comparison by the owner-authorized unified hourly monitor. Embedded recovery is active; two legacy project automations remain intentionally retired. Current verified Topview account observation is 1/6 occupied and 5 free after one terminal Scene 20 task.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
