@@ -1,5 +1,20 @@
 ﻿# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
 
+## Действующее расписание — решение владельца 06.10.2026
+
+**Приоритет этого блока:** он заменяет все прежние указания ниже о двух/трёх project automations, HH:05 Recovery, восстановлении архивных задач и временном выключении writer при ручном ремонте. Исторические checkpoints ниже не являются текущей конфигурацией.
+
+Единственная действующая задача: **AI Film — единый монитор**, ID `6aac794245e481919ee7155c461cc77e`, exact hourly **HH:00 Europe/Moscow**. Внутри одного запуска: Topview account slots + уведомления, AI Film scene intake/telemetry publication, проверка 7/7 Drive↔GitHub и canonical sync, hourly light health, daily deep audit при возрасте ≥24 ч. Recovery — фаза этой же задачи, без отдельного расписания.
+
+Намеренно архивированы по просьбе владельца: Recovery `6aac3e4dfe6c81918b3eead8529edf30` и «Свободные слоты Topview» `6ac358bf36548191b64ae6326bcc1f9b`. Оставлять `is_enabled:false`; **не включать обратно**, не создавать заменяющие дубли. Их история сохраняется. Правило preserve-enabled относится только к единственному действующему монитору.
+
+При недоступном connector, конфликте записи или partial publication не выключать задачу: сохранить старые подтверждённые timestamps, записать конкретный сбой, выполнить остальные доступные фазы и повторить недоступную фазу в следующем цикле. Не вызывать automations.update из фонового запуска. Для ручного ремонта использовать fresh-read/version guard/rebase и отложенную конфликтующую запись, без паузы расписания. Явное решение владельца остановить задачу имеет приоритет.
+
+Уведомления — только новое освобождение slow slot, новый существенный результат/блокер либо восстановление; неизменные здоровые проверки не спамят. Дедупликация и последняя фактически выполненная фаза: `automation-monitor-status.json`. Глобальные slots считать по complete all-owned-boards VIDEO scan и уникальным active `useUnlimitMode=true` task IDs; project scene intake ограничен доказанными AI Film mappings. Не придумывать Scene ID чужой задаче. Успех генерации не является редакционным approval.
+
+**Ограничение одного расписания:** независимой второй проверки работоспособности scheduler больше нет. Если платформа остановит саму задачу, отключённая задача себя не запустит. Доступный API не раскрывает причину последнего отключения и не предоставляет настройку «никогда не приостанавливать». Не выдавать prompt-запрет самоотключения за гарантию платформы. Не имитировать чтение уведомлений/активность пользователя. Проверка конфигурации — read-back automations и этот актуальный блок.
+
+
 
 
 
@@ -1048,7 +1063,7 @@ Permanent set-and-forget rule for technical project state:
 
 
 
-- Topview watcher остаётся единственным штатным writer для Topview-derived render state. После recovery он должен быть `is_enabled:true`; при ручной аварийной сверке writer временно останавливается, затем обязательно включается обратно.
+- Topview watcher остаётся единственным штатным writer для Topview-derived render state. После recovery он должен быть `is_enabled:true`; при ручной аварийной сверке расписание НЕ останавливается; использовать fresh-read/version guard/rebase, конфликтующую запись отложить. Актуальная архитектура одного монитора — в верхнем блоке от 06.10.2026.
 - Scene 3 task достиг technical `success` 23.09.2026 20:30:53 UTC. Scene 3 снята только с render slow-state и отмечена `result_received`; editorial approval не выводится автоматически. Current canonical slow после сверки: **4, 17, 19, 20**. Scene 20 занимает два task slots, поэтому current occupancy = **5/6 task slots** при четырёх unique slow Scene IDs.
 - `review-ledger.json` использует **schema_version 2**. Validator и reconciler обязаны поддерживать поля `selected_result_task_id`, `result_url`, `film_version`, `insert_timecode`, `export_reviewed`; новые строки создаются сразу в schema 2. Human/editorial fields не выводятся из technical success.
 - Recovery integration tests не должны закреплять конкретный live slow-набор или конкретную текущую сцену как вечный fixture. Production snapshot проверяется по общим invariants, переходы — на synthetic/invariant fixtures.
@@ -1420,3 +1435,4 @@ Recovery не должен восстанавливать старую ручн�
 Recovery threshold: Topview >105 min since last real verified check, instruction exact certificate >165 min, либо любое несовпадение `topview-status.checked_at == topview-task-map.updated_at == topview-task-map.last_scan_at == topview-checkpoint.checked_at`, task IDs, capacity/occupied or canonical slow Scene ID set. При доступном Topview/Drive детерминированно устранять drift и публиковать map (journal optional) → PUBLIC status → checkpoint LAST, read-back every write, Pages verification. При недоступном connector сохранять last known verified data/timestamps и отдельно помечать degraded; НЕ чинить свежесть простой заменой даты. Не дублировать часовые сообщения о том же инциденте. Review/approve/rerun/new-launch/delete/close остаются только по решению владельца.
 
 Исторический checkpoint 30.09: five slow Scenes `22,23,24,26,27`, six active Topview task slots (Scene 27 two 15s Seedance 2.0 tasks), Scene 21 terminal success без auto-approval. Scene 26 launched before @Image5 environment correction; редакционную оценку результата не делать автоматически. Scene 27 original 30s prompt preserved plus split 2×15s in SAME exact master; refs Scenes 26–27 @Image1 pair, @Image2 Serega, @Image3 Luchik, @Image4 Ryzhik, @Image5 exact ochre monumental ruined city at orange-gold sunset. Восстановление Library = best-effort only; authoritative Drive text надо fresh-read, не возвращать архивную версию master из Library/GitHub по догадке. Любую material workflow правку документировать в relevant Drive docs и SAME `NEW-CHAT-HANDOFF.md`, затем exact GitHub mirrors, instruction certificate, Pages and Notion pointer.
+
