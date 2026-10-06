@@ -752,6 +752,17 @@
       "source_checkpoint": "2026-10-05T09:01:16.334Z",
       "outcome": "telemetry_read_verified_and_publication_transaction_started",
       "verification": "5 exact task lookups: all init. Full Board VIDEO scan covered 4 pages / 366 tasks; no unknown recent task. Canonical slow remains Scene 20."
+    },
+    {
+      "timestamp": "2026-10-06T05:52:13.246Z",
+      "operation": "unified_monitor_migration_and_terminal_reconciliation",
+      "scene_id": 20,
+      "task_fingerprint": "scene20-part6-943741b1",
+      "previous_status": "4 active tasks; stale published checkpoint",
+      "new_status": "3 active tasks",
+      "source_checkpoint": "2026-10-06T05:52:13.246Z",
+      "outcome": "verified",
+      "verification": "All 11 owned boards / 529 VIDEO tasks / 14 pages checked, known parts 4–9 refreshed directly. Part 6 terminal success, parts 7–9 init; no generation or approval actions. One hourly monitor replaces three project schedules."
     }
   ]
 }
