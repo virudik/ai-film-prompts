@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "purpose": "Durable unified monitor configuration, phase outcomes and notification deduplication; no signed URLs, credentials or full prompts.",
+  "configured_at": "2026-10-06T06:04:45.168Z",
+  "automation": {
+    "id": "6aac794245e481919ee7155c461cc77e",
+    "title": "AI Film — единый монитор",
+    "is_enabled": true,
+    "timing_mode": "exact_schedule",
+    "timezone": "Europe/Moscow",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261006T100000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+  },
+  "retired_automations": [
+    {
+      "id": "6aac3e4dfe6c81918b3eead8529edf30",
+      "is_enabled": false,
+      "reason": "Owner-authorized consolidation 2026-10-06"
+    },
+    {
+      "id": "6ac358bf36548191b64ae6326bcc1f9b",
+      "is_enabled": false,
+      "reason": "Owner-authorized consolidation 2026-10-06"
+    }
+  ],
+  "account_observation": {
+    "checked_at": "2026-10-06T05:52:13.246Z",
+    "scope": "all_owned_boards_unlimited_video_tasks",
+    "complete": true,
+    "boards_scanned": 11,
+    "video_tasks_scanned": 529,
+    "pages_scanned": 14,
+    "slot_capacity": 6,
+    "occupied_slots": 3,
+    "free_slots": 3,
+    "active_task_ids": [
+      "f77c6f5b78d9414ebb70362d7e94c182",
+      "05ff0d3ed87b443b81dd35f0477cadd3",
+      "117b9d976d2c4a54945256e79fc64639"
+    ]
+  },
+  "notification_state": {
+    "baseline_at": "2026-10-06T05:52:13.246Z",
+    "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
+    "last_notified_at": null,
+    "last_observed_free_slots": 3,
+    "observed_active_task_ids": [
+      "f77c6f5b78d9414ebb70362d7e94c182",
+      "05ff0d3ed87b443b81dd35f0477cadd3",
+      "117b9d976d2c4a54945256e79fc64639"
+    ],
+    "open_incidents": [],
+    "last_message_event": null,
+    "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
+  },
+  "phases": {
+    "topview": {
+      "status": "verified_manual",
+      "checked_at": "2026-10-06T05:52:13.246Z"
+    },
+    "telemetry_publication": {
+      "status": "repo_verified_pages_pending",
+      "checked_at": "2026-10-06T05:52:13.246Z"
+    },
+    "instruction_sync": {
+      "status": "verified_7_of_7",
+      "checked_at": "2026-10-06T06:03:15.291Z"
+    },
+    "canonical_sync": {
+      "status": "trigger_pending"
+    },
+    "deep_audit": {
+      "status": "not_due",
+      "last_checked_at": "2026-10-05T09:13:50.675Z"
+    },
+    "notion": {
+      "status": "updated_and_read_back"
+    },
+    "library": {
+      "status": "pending_or_opportunistic",
+      "blocking": false
+    }
+  },
+  "health": "publication_pending",
+  "last_scheduled_cycle": null,
+  "first_scheduled_cycle_verification": "pending_future_execution",
+  "disable_diagnosis": {
+    "latest_disable_reason": "not_exposed_by_api",
+    "known_historical_cause": "prior watcher self-disabled on connector unavailability; old runbook also instructed manual writer pause",
+    "corrected": "old pause rule superseded; no task-state writes during execution; unavailable phases isolated",
+    "platform_autopause_prevention": "not_available",
+    "independent_scheduler_watchdog": false
+  }
+}
