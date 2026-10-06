@@ -23,17 +23,16 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-06T06:57:27.874Z",
+    "checked_at": "2026-10-06T11:11:21.954Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 529,
-    "pages_scanned": 12,
+    "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 3,
-    "free_slots": 3,
+    "occupied_slots": 2,
+    "free_slots": 4,
     "active_task_ids": [
-      "f77c6f5b78d9414ebb70362d7e94c182",
       "05ff0d3ed87b443b81dd35f0477cadd3",
       "117b9d976d2c4a54945256e79fc64639"
     ]
@@ -41,51 +40,58 @@
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": null,
-    "last_observed_free_slots": 3,
+    "last_notified_at": "2026-10-06T11:15:09.496Z",
+    "last_observed_free_slots": 4,
     "observed_active_task_ids": [
-      "f77c6f5b78d9414ebb70362d7e94c182",
       "05ff0d3ed87b443b81dd35f0477cadd3",
       "117b9d976d2c4a54945256e79fc64639"
     ],
     "open_incidents": [],
-    "last_message_event": null,
+    "last_message_event": {
+      "type": "new_slot_release",
+      "observed_at": "2026-10-06T11:11:21.954Z",
+      "task_id": "f77c6f5b78d9414ebb70362d7e94c182",
+      "scene_id": 20,
+      "occupied_slots": 2,
+      "free_slots": 4,
+      "delivery": "chat_result_this_run"
+    },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-06T06:57:27.874Z",
+      "checked_at": "2026-10-06T11:11:21.954Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 529,
-      "pages_scanned": 12
+      "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-06T06:57:27.874Z",
-      "public_verified_at": "2026-10-06T07:00:08Z",
-      "occupied_slots": 3,
-      "free_slots": 3,
-      "pages_run_id": 37426841361
+      "checked_at": "2026-10-06T11:11:21.954Z",
+      "public_verified_at": "2026-10-06T11:13:51Z",
+      "occupied_slots": 2,
+      "free_slots": 4,
+      "pages_run_id": 37454935110
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-06T06:58:31.829Z"
+      "checked_at": "2026-10-06T11:12:31.496Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-06T06:58:42Z",
-      "master_sha256": "848bb5ecaee9d6fc8f1c65e82acf4f9585fd768ede353ec9dc9faad28f7f6b0b",
+      "checked_at": "2026-10-06T11:13:05Z",
+      "master_sha256": "9d709c1bbe5dc767077c4dc74cdee08bec1cdd1e3fe9df49eba593d87084fb9a",
       "scenes": 15,
       "prompt_texts": 42,
       "all_project_checks_true": true,
-      "sync_run_id": 37426825799,
-      "pages_run_id": 37426841361
+      "sync_run_id": 37454880129,
+      "pages_run_id": 37454935110
     },
     "deep_audit": {
-      "status": "not_due",
-      "last_checked_at": "2026-10-05T09:13:50.675Z",
-      "next_due_at": "2026-10-06T09:13:50.675Z"
+      "status": "completed",
+      "last_checked_at": "2026-10-06T11:14:44.322Z",
+      "next_due_at": "2026-10-07T11:14:44.322Z"
     },
     "notion": {
       "status": "updated_and_read_back"
@@ -97,18 +103,19 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-06T06:55:07Z",
-    "completed_at": "2026-10-06T07:01:53.650Z",
+    "started_at": "2026-10-06T11:05:02Z",
+    "completed_at": "2026-10-06T11:15:09.496Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
       "telemetry_publication",
       "instruction_exact_7_of_7",
       "canonical_sync",
-      "light_health"
+      "light_health",
+      "deep_audit"
     ],
-    "deep_audit": "not_due",
-    "notification": "suppressed_unchanged_baseline"
+    "deep_audit": "completed",
+    "notification": "new_slot_release_scene20_part7"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -132,9 +139,9 @@
     "retired_automations_disabled": 2,
     "unrelated_automations_unchanged": true,
     "regression_guard_commit": "8ea3bcf001202d152bcc0bc56be8743cd1d9a0ec",
-    "latest_pages_run_id": 37426841361,
+    "latest_pages_run_id": 37454935110,
     "latest_pages_conclusion": "success",
-    "latest_integration_run_id": 37426825662,
+    "latest_integration_run_id": 37454880139,
     "latest_integration_conclusion": "success"
   }
 }
