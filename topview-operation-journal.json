@@ -774,6 +774,17 @@
       "source_checkpoint": "2026-10-06T06:57:27.874Z",
       "outcome": "verified",
       "verification": "All 11 owned boards / 529 VIDEO tasks / 12 pages checked; 3 project tasks directly confirmed init; prior anomalous task directly confirmed success; no unknown recent project task. Account scope and project projection agree."
+    },
+    {
+      "timestamp": "2026-10-06T11:11:21.954Z",
+      "operation": "unified_monitor_terminal_reconciliation",
+      "scene_id": 20,
+      "task_fingerprint": "scene20-part7-f77c6f5b",
+      "previous_status": "3 active Scene 20 tasks; occupied 3/6",
+      "new_status": "2 active Scene 20 tasks; occupied 2/6; free 4",
+      "source_checkpoint": "2026-10-06T11:11:21.954Z",
+      "outcome": "verified",
+      "verification": "All 11 owned boards / 529 VIDEO tasks / 14 pages checked; all prior active IDs directly refreshed. Part 7 terminal success; parts 8–9 init; no unknown recent AI Film task. Canonical slow Scene 20 retained; no editorial fields changed."
     }
   ]
 }
