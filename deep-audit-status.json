@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-05T09:13:50.675Z",
-  "last_deep_audit_at": "2026-10-05T09:13:50.675Z",
+  "checked_at": "2026-10-06T11:14:44.322Z",
+  "last_deep_audit_at": "2026-10-06T11:14:44.322Z",
   "health": "ok",
   "sections": {
     "master": "ok",
@@ -43,20 +43,18 @@
     "2026-10-03 recovery: reconciled terminal Topview results for Scenes 22–24 without editorial approval, reduced canonical slow membership to Scenes 26–27, and published one verified 3/6-slot transaction through map → status → checkpoint.",
     "2026-10-03 recovery: exact-certified all seven Drive instruction sources against same-name GitHub mirrors, refreshed the certificate, synchronized the canonical master, and verified the resulting Pages artifact.",
     "2026-10-05 deep audit: exact-certified the Drive master and all seven instruction mirrors, refreshed the instruction certificate, verified the generated project status, integration workflow, canonical sync and published Pages artifact.",
-    "2026-10-05 deep audit: verified the latest Topview map → public status → checkpoint transaction with one shared timestamp, five active task IDs, 5/6 occupied slots and canonical slow Scene 20."
+    "2026-10-05 deep audit: verified the latest Topview map → public status → checkpoint transaction with one shared timestamp, five active task IDs, 5/6 occupied slots and canonical slow Scene 20.",
+    "2026-10-06 deep audit: verified the owner-authorized single hourly monitor, reconciled Scene 20 part 7 terminal success, reduced account occupancy to 2/6 with four free slots, exact-certified the Drive master and all seven instruction mirrors, and verified integration, canonical sync and Pages artifact."
   ],
   "warnings": [
     "Scenes 10/11 remain NEEDS_FIX and Scene 13 NEEDS_RERENDER; technical render status is not editorial approval.",
     "Library recovery copies remain a stale non-blocking recovery cache; no canonical or publication health depends on them.",
-    "Master section 'Ближайшие направления', item 5, retains historical candidates 3,4,17. Current scene-meta/review-ledger remains authoritative; this audit did not make an editorial master rewrite.",
     "Continuous audiovisual playback and final editorial acceptance remain outside automated verification."
   ],
-  "unresolved": [
-    "Non-blocking master narrative cleanup: reconcile the historical candidate list in 'Ближайшие направления' item 5 during the next authorized master edit."
-  ],
+  "unresolved": [],
   "runtime_snapshot": {
     "scenes": 15,
-    "prompt_texts": 34,
+    "prompt_texts": 42,
     "work_items_count": 11,
     "latest_scene": 28,
     "scene_ids": [
@@ -79,35 +77,35 @@
     "slow_scenes": [
       20
     ],
-    "master_sha256": "b938d2b10a8435e2b7a1d20106594b7155965fe3111afa0a120be0fcad6890e4"
+    "master_sha256": "9d709c1bbe5dc767077c4dc74cdee08bec1cdd1e3fe9df49eba593d87084fb9a"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
-    "active_task_count": 5,
+    "occupied_slots": 2,
+    "free_slots": 4,
+    "active_task_count": 2,
     "unique_slow_scene_count": 1,
     "health": "ok"
   },
   "notes": {
     "master": "Fresh same-ID Drive master exactly matches GitHub; generated project status is health=ok and every published validator invariant is true.",
     "instructions": "All seven live Drive instruction texts exactly match their GitHub mirrors; certificate refreshed only after exact comparison and verified by read-back.",
-    "prompts": "Current 15-scene / 34-prompt master passes structural validation. Existing editorial queue remains unchanged by automation.",
+    "prompts": "Current 15-scene / 42-prompt master passes structural validation. Existing editorial queue remains unchanged by automation.",
     "characters": "Character registry and model-sheet authority were not mutated; prior verified character audit remains applicable.",
     "montage": "Montage reports and chooser contract were not mutated; prior verified audit remains applicable.",
-    "topview": "Task map, public status and stable checkpoint share one checked_at and identical active task IDs. Five active tasks occupy 5/6 slots for unique slow Scene 20; Pages artifact matches.",
-    "automation_watchdog": "Primary watcher remains enabled at HH:00 Europe/Moscow; Recovery remains enabled separately at HH:05.",
-    "recovery": "Newest integration recovery workflow and Drive synchronization succeeded; superseded intermediate cancellations are historical.",
+    "topview": "Task map, public status and stable checkpoint share one checked_at and identical active task IDs. Two active tasks occupy 2/6 slots for unique slow Scene 20; Pages artifact matches.",
+    "automation_watchdog": "Exactly one project automation remains enabled at HH:00 Europe/Moscow; the two owner-retired project automations remain disabled.",
+    "recovery": "Embedded recovery phase, integration tests and Drive synchronization succeeded; superseded intermediate Pages cancellations are historical.",
     "site": "Newest successful Pages artifact contains the current Topview snapshot, instruction certificate and synchronized project status.",
     "limitations": "Audit verifies current source integrity, publication contracts and recovery behavior. It does not approve generated videos or replace continuous playback/editorial review."
   },
   "evidence": {
-    "instruction_checked_at": "2026-10-05T09:09:45.919Z",
-    "published_topview_checked_at": "2026-10-05T09:01:16.334Z",
-    "integration_run_id": 37288216478,
-    "drive_sync_run_id": 37288216524,
-    "pages_run_id": 37288236882,
-    "pages_head_sha": "2ddbd677db7dfdb68662d574d4ec174afca88644",
+    "instruction_checked_at": "2026-10-06T11:12:31.496Z",
+    "published_topview_checked_at": "2026-10-06T11:11:21.954Z",
+    "integration_run_id": 37454880139,
+    "drive_sync_run_id": 37454880129,
+    "pages_run_id": 37454935110,
+    "pages_head_sha": "afcdb9e888cd7a00c096e680f2ea1f6f4a10af3e",
     "instruction_exact_matches": "7/7",
     "master_drive_github_exact": true,
     "project_status_all_checks_true": true,
