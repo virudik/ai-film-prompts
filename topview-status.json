@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-06T05:52:13.246Z",
+  "checked_at": "2026-10-06T06:57:27.874Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -11,9 +11,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:22Z",
-      "checked_at": "2026-10-06T05:52:13.246Z",
-      "queue_count": 526,
-      "topview_estimated_wait_seconds": 11297,
+      "checked_at": "2026-10-06T06:57:27.874Z",
+      "queue_count": 358,
+      "topview_estimated_wait_seconds": 7419,
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only",
@@ -140,9 +140,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:22Z",
-      "queue_count": 526,
-      "topview_estimated_wait_seconds": 11297,
-      "checked_at": "2026-10-06T05:52:13.246Z",
+      "queue_count": 358,
+      "topview_estimated_wait_seconds": 7419,
+      "checked_at": "2026-10-06T06:57:27.874Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -154,9 +154,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T08:07:41Z",
-      "queue_count": 1185,
-      "topview_estimated_wait_seconds": 28576,
-      "checked_at": "2026-10-06T05:52:13.246Z",
+      "queue_count": 1063,
+      "topview_estimated_wait_seconds": 24698,
+      "checked_at": "2026-10-06T06:57:27.874Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
@@ -168,12 +168,28 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-04T21:58:05Z",
-      "queue_count": 1698,
-      "topview_estimated_wait_seconds": 45856,
-      "checked_at": "2026-10-06T05:52:13.246Z",
+      "queue_count": 1615,
+      "topview_estimated_wait_seconds": 41977,
+      "checked_at": "2026-10-06T06:57:27.874Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "verified existing Scene 20 part source prompt; master costume correction dated 05.10 is future-render-only"
     }
-  ]
+  ],
+  "scope": "ai_film_project_projection",
+  "account_observation": {
+    "scope": "all_owned_boards_unlimited_video_tasks",
+    "complete": true,
+    "boards_scanned": 11,
+    "video_tasks_scanned": 529,
+    "pages_scanned": 12,
+    "slot_capacity": 6,
+    "occupied_slots": 3,
+    "free_slots": 3,
+    "active_task_ids": [
+      "f77c6f5b78d9414ebb70362d7e94c182",
+      "05ff0d3ed87b443b81dd35f0477cadd3",
+      "117b9d976d2c4a54945256e79fc64639"
+    ]
+  }
 }
