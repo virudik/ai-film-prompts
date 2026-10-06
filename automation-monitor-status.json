@@ -23,7 +23,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-06T18:01:15.454Z",
+    "checked_at": "2026-10-06T19:02:51.671Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
@@ -61,32 +61,32 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-06T18:01:15.454Z",
+      "checked_at": "2026-10-06T19:02:51.671Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 529,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-06T18:01:15.454Z",
-      "public_verified_at": "2026-10-06T18:03:13Z",
+      "checked_at": "2026-10-06T19:02:51.671Z",
+      "public_verified_at": "2026-10-06T19:04:52Z",
       "occupied_slots": 2,
       "free_slots": 4,
-      "pages_run_id": 37508199379
+      "pages_run_id": 37516130210
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-06T18:02:06.341Z"
+      "checked_at": "2026-10-06T19:03:42.970Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-06T18:02:19Z",
+      "checked_at": "2026-10-06T19:03:54Z",
       "master_sha256": "9d709c1bbe5dc767077c4dc74cdee08bec1cdd1e3fe9df49eba593d87084fb9a",
       "scenes": 15,
       "prompt_texts": 42,
       "all_project_checks_true": true,
-      "sync_run_id": 37508172592,
-      "pages_run_id": 37508199379
+      "sync_run_id": 37516107923,
+      "pages_run_id": 37516130210
     },
     "deep_audit": {
       "status": "not_due",
@@ -103,8 +103,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-06T17:58:19Z",
-    "completed_at": "2026-10-06T18:04:05.577Z",
+    "started_at": "2026-10-06T19:00:50Z",
+    "completed_at": "2026-10-06T19:05:51.989Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
@@ -114,7 +114,7 @@
       "light_health"
     ],
     "deep_audit": "not_due",
-    "notification": "none_unchanged_baseline"
+    "notification": "none_unchanged_availability"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -128,7 +128,7 @@
     "platform_autopause_prevention": "not_available",
     "independent_scheduler_watchdog": false
   },
-  "manual_verification_completed_at": "2026-10-06T18:04:05.577Z",
+  "manual_verification_completed_at": "2026-10-06T19:05:51.989Z",
   "evidence": {
     "instruction_exact_matches": "7/7",
     "project_status_health": "ok",
@@ -138,9 +138,9 @@
     "retired_automations_disabled": 2,
     "unrelated_automations_unchanged": true,
     "regression_guard_commit": "8ea3bcf001202d152bcc0bc56be8743cd1d9a0ec",
-    "latest_pages_run_id": 37508199379,
+    "latest_pages_run_id": 37516130210,
     "latest_pages_conclusion": "success",
-    "latest_integration_run_id": 37508172465,
+    "latest_integration_run_id": 37516107960,
     "latest_integration_conclusion": "success"
   }
 }
