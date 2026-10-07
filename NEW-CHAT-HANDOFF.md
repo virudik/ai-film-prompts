@@ -1087,3 +1087,21 @@ Still incomplete and therefore MUST be continued, not silently dropped:
 3. Preserve active slow tasks 20/26/27; reference preparation does not authorize rerender or duplicate slow jobs.
 4. Before any Nano Banana helper submit, prove the specific route is unlimited/zero-credit. Historical Board tasks show Nano Banana 2 with `useUnlimitMode=true` and `creditsCost=0`, but the generic connector submit contract does not expose an explicit unlimited switch; never silently fall back to a paid path.
 
+### Reference Pack implementation checkpoint — 07.10.2026 14:20 MSK
+
+**Verified completed in this cycle:**
+- Fresh exact comparison of all seven canonical Drive instruction files against their GitHub mirrors: **7/7 exact match**.
+- `instruction-sync-status.json` refreshed; `project-status.json` regenerated with `health: ok`, instruction sync `ok`, and fresh maintenance age.
+- GitHub `sync-from-drive` and integration recovery tests completed successfully; subsequent Pages deployment completed successfully.
+- Notion operational pointer `AI Film — Актуальная инструкция / Handoff` now begins with the reference-first / QC / SAVE-BEFORE-NEXT / `запускай сцену N` contract and the per-scene pack architecture.
+- Library recovery copies of all seven canonical instructions were overwritten from fresh Drive originals and re-listed successfully.
+- Topview provenance recovery expanded: authorized Canvas `AI Film — recovered refs audit 2026-10-07` (`bb998522de624208b708598568116f78`) contains **30 unique exact input-image sources** recovered from live AI Film Topview tasks for Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26 and 27. Batched download preparation succeeds and yields the exact source media.
+
+**Current blocker / required continuation:**
+- In ordinary Project Chat, the Topview Canvas download action yields short-lived authenticated CloudFront URLs, but this surface does not provide a direct binary handoff from those URLs into Drive/GitHub/Library. Do **not** ask the owner to re-upload those images.
+- Preferred continuation is **Project Work with Cloud Browser** (or desktop built-in browser once its current incident is fixed): open the authorized Topview Canvas/task media, download each exact source, place it into the matching Drive `Scene N — Reference Pack`, write/update the scene manifest, mirror only scene-used refs into `references/scenes/scene-N/`, then publish compact thumbnails in that same master scene and run the normal sync/Pages verification.
+- Never publish short-lived signed Topview URLs into the canonical master/site.
+- Nano Banana 2: live capabilities accept 1–16 reference images. Historical AI Film Board tasks prove `useUnlimitMode=true` + `creditsCost=0` exists, but the generic connector generation endpoint is explicitly a paid submit and exposes no unlimited-mode selector. Therefore do not submit through that route as “unlimited”; use a UI/browser path only after visibly confirming unlimited/zero-credit mode, or wait until the connector exposes that control.
+
+**Next reference-production order:** Scene 28 S28 then G28; Scene 13; Scene 17; Scene 27; Scenes 10/11; Scene 16; then conditional improvements in 19/20/21/23/25/26. Scenes 22 and 24 need no new helper still by default. Active slow jobs 20/26/27 stay untouched.
+
