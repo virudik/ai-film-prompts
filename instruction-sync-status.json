@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-07T14:28:24.798Z",
+  "checked_at": "2026-10-07T15:01:06.250Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -10,7 +10,7 @@
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
       "drive_modified_at": "2026-10-07T14:21:07.247Z",
-      "github_blob": "47d55eedf4311bb5424443092c82d495cf11f6b0",
+      "github_blob": "601d7505584862fc99083fce5b890a35d53f02d1",
       "drive_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
       "mirror_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
       "match": true
@@ -58,7 +58,7 @@
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
       "drive_modified_at": "2026-10-07T14:19:38.744Z",
-      "github_blob": "ef25adf48c35d41de8dba1c07d5768ed20c60ee4",
+      "github_blob": "98632e5d4e5015d9b493870c937a4641dd97d79a",
       "drive_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
       "mirror_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
       "match": true
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh 7/7 exact mirror certificate after Claude Code non-canonical bootstrap adapter implementation. CLAUDE.md is verified separately and is not an eighth canonical instruction.",
+  "note": "Fresh 7/7 exact Drive↔GitHub verification after 07.10.2026 successor handoff and Topview Slides recovery-bridge documentation.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
