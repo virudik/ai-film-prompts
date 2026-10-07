@@ -65,3 +65,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-10-07T03:32:00Z | Scene Reference Pack rollout: per-scene packs + reference-first QC/save-before-next + H28A/H28B thumbnail gallery + Topview input recovery workflow.
 2026-10-07T03:47:00Z | Finalize Scene Reference Pack automation docs/handoff/source provenance; request fresh instruction sync and Pages rebuild.
 2026-10-07T03:56:00Z | Publish active-scene identity thumbnail galleries; preserve exact scene-specific Topview inputs for materialization without owner re-upload.
+2026-10-07T04:06:02.895Z | Unified monitor: normalize repeated blank separators only; Drive same-ID exact read-back SHA256 b75c71f6cf10efee18d785b4c523c4042c7dfd91d1b0f5701587757444af6fd4; rerun canonical validator.
