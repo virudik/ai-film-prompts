@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-07T03:47:14Z",
+  "synced_at": "2026-10-07T03:48:45Z",
   "revision_date": "07.10.2026",
   "master_declared_last_full_sync": "06.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "d0f83f99113c88c1fc913a7a1e9b9c045fc9707c4f034e1ffa4cb52627b33adf",
@@ -64,79 +64,77 @@
     18
   ],
   "instruction_sync": {
-    "health": "error",
-    "snapshot_at": "2026-10-07T03:04:22.659Z",
+    "health": "stale",
+    "snapshot_at": "2026-10-07T03:58:30Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.714,
+    "age_hours_at_status_build": -0.163,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "drive_modified_at": "2026-10-06T21:58:37.665Z",
-        "github_blob": "016dd889ab967d9c6f005747b26115946b3df36a",
-        "drive_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
-        "mirror_sha256": "7b8e8e198e4676260f07e5229807cb6bb6b611ddeabf8569d803f52d82c56a32",
+        "drive_modified_at": "2026-10-07T03:38:47.611Z",
+        "github_blob": "cf473b771888e0f3344548af4275c3d9f5a04aa8",
+        "drive_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
+        "mirror_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
         "match": true
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "drive_modified_at": "2026-10-06T06:00:25.443Z",
-        "github_blob": "560a4ddb6804364526e56478863b37ddeabf325b",
-        "drive_sha256": "df43d4a90b245ea1389a4ac4d84eea8a26f49a3c46d88ed9e2422e6cfe9a163f",
-        "mirror_sha256": "df43d4a90b245ea1389a4ac4d84eea8a26f49a3c46d88ed9e2422e6cfe9a163f",
+        "drive_modified_at": "2026-10-07T03:31:41.924Z",
+        "github_blob": "bb399017300926c960f870c82ddccd650dee2909",
+        "drive_sha256": "c0ef4458bf1c6989f68970d4a8ac47e0c922e310665e83f20171265a39cc7b5f",
+        "mirror_sha256": "c0ef4458bf1c6989f68970d4a8ac47e0c922e310665e83f20171265a39cc7b5f",
         "match": true
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-        "drive_modified_at": "2026-10-06T06:00:35.742Z",
-        "github_blob": "0a2f4f4696d5cdb9d14c513d9a1c3fd65d351284",
-        "drive_sha256": "94a6746df20c47637df2be0345539de6994a30378143321ae68257ca82828339",
-        "mirror_sha256": "94a6746df20c47637df2be0345539de6994a30378143321ae68257ca82828339",
+        "drive_modified_at": "2026-10-07T03:29:22.234Z",
+        "github_blob": "3e9779494e4f9d5c23efea7f57b0989c39f583a0",
+        "drive_sha256": "6cb65946932b6992d7a69f6cf7aa780abfb3ade7e9c5fa0593af866fbc7580c3",
+        "mirror_sha256": "6cb65946932b6992d7a69f6cf7aa780abfb3ade7e9c5fa0593af866fbc7580c3",
         "match": true
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-        "drive_modified_at": "2026-10-06T06:00:56.357Z",
-        "github_blob": "7a51fca1385d2876b371abbb8d2c8a36d926be93",
-        "drive_sha256": "a6ad57853a7ffb0ea33ddee8a52a76572ccd9fe339cc881e3afd0c1fa4a4b72d",
-        "mirror_sha256": "a6ad57853a7ffb0ea33ddee8a52a76572ccd9fe339cc881e3afd0c1fa4a4b72d",
+        "drive_modified_at": "2026-10-07T03:30:16.649Z",
+        "github_blob": "243553cb1fd090a0d3724f54fdef61f8dbf71580",
+        "drive_sha256": "14f77dab55c98deff4446ee0a6bf1b60a2f4368a026b533232c8944dd195d0c9",
+        "mirror_sha256": "14f77dab55c98deff4446ee0a6bf1b60a2f4368a026b533232c8944dd195d0c9",
         "match": true
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-        "drive_modified_at": "2026-10-06T06:01:04.731Z",
-        "github_blob": "6fe329bccd1f36e2de8c2019d7ab180d305d7901",
-        "drive_sha256": "3dd4cc313268165c3ce6747b3304b8d2e41bc9615e47cebb75a8b78daf007a71",
-        "mirror_sha256": "3dd4cc313268165c3ce6747b3304b8d2e41bc9615e47cebb75a8b78daf007a71",
+        "drive_modified_at": "2026-10-07T03:30:45.655Z",
+        "github_blob": "13dce6a45f4352fd1ed78e5af3882103e5374526",
+        "drive_sha256": "5f2370876edfa3a54874e89c898f4be5f353850339b1b9ffbb4b25be733e3249",
+        "mirror_sha256": "5f2370876edfa3a54874e89c898f4be5f353850339b1b9ffbb4b25be733e3249",
         "match": true
       },
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-        "drive_modified_at": "2026-10-06T06:01:12.782Z",
-        "github_blob": "166757ffb70dc8bab8c6b63e454fbd4bb4ba8302",
-        "drive_sha256": "d4df6d27fe8419ce3bff37cbddc7374317d942ac4155980da10d7a85adfbbfe2",
-        "mirror_sha256": "d4df6d27fe8419ce3bff37cbddc7374317d942ac4155980da10d7a85adfbbfe2",
+        "drive_modified_at": "2026-10-07T03:31:14.858Z",
+        "github_blob": "f054337bc800a13383edabd5835471e32c28bcd7",
+        "drive_sha256": "652223dd4818dc3a1071c228f6a5a2a6e133353f1f8d4d2c7457826019070c21",
+        "mirror_sha256": "652223dd4818dc3a1071c228f6a5a2a6e133353f1f8d4d2c7457826019070c21",
         "match": true
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-        "drive_modified_at": "2026-10-06T06:01:54.485Z",
-        "github_blob": "ce7a962009af5ca3c364db06f6705606c348dd26",
-        "drive_sha256": "eba9f04e1a451d97cc5126ad6df1ecd87feb5402faab7d0d34f604a7e310a09e",
-        "mirror_sha256": "eba9f04e1a451d97cc5126ad6df1ecd87feb5402faab7d0d34f604a7e310a09e",
+        "drive_modified_at": "2026-10-07T03:32:08.384Z",
+        "github_blob": "fd1a578a79fc958a230b495947c749350c6f24c0",
+        "drive_sha256": "26ef1ee9b5bfb16d54ffbae4bdddcf0e7c133c3ce2e19b1462979e5fb1071e80",
+        "mirror_sha256": "26ef1ee9b5bfb16d54ffbae4bdddcf0e7c133c3ce2e19b1462979e5fb1071e80",
         "match": true
       }
     }
   },
-  "warnings": [
-    "instruction_sync_error"
-  ],
+  "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "error",
-      "age_hours": 0.714,
-      "blocking": true
+      "state": "stale",
+      "age_hours": -0.163,
+      "blocking": false
     },
     "topview_task_map": {
       "state": "ok",
@@ -440,7 +438,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "07.10.2026",
-    "synced_at": "2026-10-07T03:47:14Z",
+    "synced_at": "2026-10-07T03:48:45Z",
     "canonical_master_sha256": "d0f83f99113c88c1fc913a7a1e9b9c045fc9707c4f034e1ffa4cb52627b33adf",
     "canonical_revision_sha256": "57bd6ae772346559b218d656d0a0ccea2f101d009ee76b38cb0581e7e296c426",
     "scene_count": 15,
@@ -481,7 +479,7 @@
       27
     ],
     "health": "error",
-    "instruction_sync_health": "error"
+    "instruction_sync_health": "stale"
   },
   "health": "error",
   "checks": {
@@ -515,7 +513,6 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
-    "instruction_mirrors_match_drive": false,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
