@@ -2441,3 +2441,18 @@ Recovery threshold: Topview >105 min since last real verified check, instruction
 - `CLAUDE.md` must not duplicate the live handoff or become a source of truth. If it conflicts with fresh Drive canonical docs, the fresh Drive canonical docs win.
 - The bootstrap must preserve the existing authority chain, same-ID Drive write rules, master sync cycle, Topview approval safeguards, capability preflight, and owner-decision boundaries by pointing Claude Code to the canonical instructions rather than restating a second independent rule set.
 - Material changes to this Claude bootstrap contract are documented in this SAME `BACKUP-AI-RUNBOOK.md` and SAME `NEW-CHAT-HANDOFF.md`; the canonical set remains seven files.
+
+## Topview exact-input binary recovery bridge — 07.10.2026
+
+When Topview task metadata exposes only S3/source paths and `download_topview_canvas_nodes` returns short-lived authorized URLs, ordinary Project Chat can still persist the exact source bytes without asking the owner to re-upload them:
+
+1. Create/reuse an authorized Topview Canvas and add the exact task-input S3 sources as media nodes.
+2. Call the Canvas download action in small batches to obtain fresh authorized short-lived URLs.
+3. Create a temporary Google Slides bridge deck with one blank slide per recovered image and insert each authorized URL via `createImage`.
+4. Export the deck as PPTX and extract exact image bytes from `ppt/media/`.
+5. Persist those bytes into the matching Drive Scene Reference Pack and Library recovery folder; mirror only scene-used refs into GitHub/site.
+6. Record source task ID / original Topview role (`Image1`, `Image2`, etc.) / sha256 / file IDs in the scene manifest.
+7. Never publish the temporary signed Topview URL itself; it expires. Never ask the owner to re-upload a reference that can be recovered by this bridge.
+
+This method was verified on 07.10.2026 for 30 unique exact inputs from Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26 and 27. Recovery Canvas: `bb998522de624208b708598568116f78`. Google Slides bridge deck: `1NaISrGUmA1ICODoQrqidrzhQdUyn81Trv9vkiIVtw10`.
+
