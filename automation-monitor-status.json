@@ -138,9 +138,16 @@
     "known_historical_cause": "prior watcher self-disabled on connector unavailability; old runbook also instructed manual writer pause",
     "corrected": "old pause rule superseded; no task-state writes during execution; unavailable phases isolated",
     "platform_autopause_prevention": "not_available",
-    "independent_scheduler_watchdog": false
+    "independent_scheduler_watchdog": false,
+    "latest_observation": {
+      "observed_disabled_at": "2026-10-07T15:57:47.953366Z",
+      "last_run_time": "2026-10-07T15:56:43.873370Z",
+      "restored_manually_at": "2026-10-07T16:02:44.314115Z",
+      "current_enabled": true,
+      "note": "Primary unified monitor was again observed disabled immediately after a scheduled run. Platform/API exposes no disable reason. Re-enabled from the owner chat; no claim of permanent scheduler self-heal."
+    }
   },
-  "manual_verification_completed_at": "2026-10-07T03:06:12.957Z",
+  "manual_verification_completed_at": "2026-10-07T16:02:44.314115Z",
   "evidence": {
     "instruction_exact_matches": "7/7",
     "project_status_health": "ok",
