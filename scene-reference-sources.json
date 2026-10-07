@@ -1,0 +1,251 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-07",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "authority_note": "Topview task-input provenance only; canonical story/prompt authority remains Drive.",
+  "scenes": {
+    "13": {
+      "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+      "found": true,
+      "status": "success",
+      "model": "Wan 3.0",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cFRl3Jt4tru3Xd2Pmky8u.jpg"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/62AWx8tu9wvTY8uBqE7Gl.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/mWQZ2QkPTID3zZMUS7soL.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ypHkhwX75zcSU8xcPy0Uo.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "17": {
+      "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "found": true,
+      "status": "success",
+      "model": "Seedance 2.5",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/URZkIfBrW4O26AlGjD2qE.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Zn38qxWr5jDhD3M87TO9L.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/7ThfzRq0KeiOTdVrtgsnn.jpg"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QMRCt0782xeffUCEEp3XU.png"
+        }
+      ],
+      "input_videos": [
+        {
+          "name": "Video1",
+          "s3_path": "analyzed_video/task/object_replace_llm/68b4bc5c753a42f48decafdf2ad028cc/68b4bc5c753a42f48decafdf2ad028cc.mp4"
+        }
+      ]
+    },
+    "19": {
+      "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+      "found": true,
+      "status": "success",
+      "model": "Seedance 2.5",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/lyDLbqyIVNorxERSj8Sob.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bogP81HUapeKSxqX4MDSa.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/kGIaSLpTNLkRAVM7Y1RS6.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/1VYF91yAZUT8ctyO7nmSj.png"
+        },
+        {
+          "name": "Image5",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/0wRohHLocNEqMS4msDH8m.jpg"
+        }
+      ],
+      "input_videos": []
+    },
+    "20": {
+      "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
+      "found": true,
+      "status": "init",
+      "model": "Wan 3.0",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QUlw6fegrLWplEL7BK5jL.jpg"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/YxE8aMS6CuwQPsPv7ehCV.jpg"
+        }
+      ],
+      "input_videos": []
+    },
+    "21": {
+      "task_id": "6d05c85753234b64b43fc75157437a0d",
+      "found": true,
+      "status": "success",
+      "model": "Seedance 2.5",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/UGIGrcX0fll4SD5ThmNz4.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/J3ywrau8SBi4YZ73wcybS.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/TByKT9CvunpDrlRa3E8il.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "analyzed_video/task/object_replace_llm/6cce6ce3c3fb4121bf17b465255acef8/inline_image_0.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "22": {
+      "task_id": "6926ce5d0f81477ea06f135d4b658f97",
+      "found": true,
+      "status": "success",
+      "model": "Seedance 2.5",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/9cD74y61CUR8VdkG4VUbU.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/iRgwJ7mS5Peh5HCg0ntyG.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "23": {
+      "task_id": "e42b4746c792472a9586ae95cd1513d3",
+      "found": true,
+      "status": "success",
+      "model": "Seedance 2.5",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/ZU38q5Psq7RRXAts4plBr.jpg"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "analyzed_video/task/object_replace_llm/3c98ba63684d41439fba3508eff9d99f/image_0_0.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/XJMfxZRR2HKAa6t7txDxR.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/D2gsyGvjsI4Qaq0PmQSAK.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "24": {
+      "task_id": "91ed2c95c6944772bed06bafed46cdd6",
+      "found": true,
+      "status": "success",
+      "model": "Wan 3.0",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/XJMfxZRR2HKAa6t7txDxR.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/D2gsyGvjsI4Qaq0PmQSAK.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/HwP81b5O30QGU2Qzx8Iut.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "26": {
+      "task_id": "b95a76b92f9d4787b738b165eaeb270f",
+      "found": true,
+      "status": "init",
+      "model": "Wan 3.0",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bKPaeq7GSfMVChxsUuhL1.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/XJMfxZRR2HKAa6t7txDxR.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/D2gsyGvjsI4Qaq0PmQSAK.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Ae7YWfSxykHIjKXNsTG5H.png"
+        }
+      ],
+      "input_videos": []
+    },
+    "27": {
+      "task_id": "017bebefc4c54038954301968a4b5d68",
+      "found": true,
+      "status": "init",
+      "model": "Wan 3.0",
+      "input_images": [
+        {
+          "name": "Image1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/6o2Bzua5sGdxAzEXY1mvo.png"
+        },
+        {
+          "name": "Image2",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/TByKT9CvunpDrlRa3E8il.png"
+        },
+        {
+          "name": "Image3",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/XJMfxZRR2HKAa6t7txDxR.png"
+        },
+        {
+          "name": "Image4",
+          "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/D2gsyGvjsI4Qaq0PmQSAK.png"
+        },
+        {
+          "name": "Image5",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/jUmTnIA5vZSSJYRud481p.png"
+        }
+      ],
+      "input_videos": []
+    }
+  }
+}
