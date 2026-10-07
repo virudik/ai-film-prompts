@@ -61,6 +61,11 @@ html[data-theme="light"] .back-to-top{background:rgba(255,255,255,.96)}
 
 /* Keep reference media inside the reading column; retain the existing typography and scale. */
 article{min-width:0;max-width:100%}article img,article video{display:block;max-width:100%;height:auto}article a{overflow-wrap:anywhere}
+.scene-ref-gallery,.scene28-ref-gallery{display:grid!important;grid-template-columns:repeat(auto-fill,minmax(min(145px,100%),170px))!important;gap:10px!important;max-width:100%;align-items:start}
+.scene-ref-gallery figure,.scene28-ref-gallery figure{min-width:0;margin:0}
+.scene-ref-gallery img,.scene28-ref-gallery img{width:100%!important;height:104px!important;object-fit:contain;border:1px solid var(--line);background:var(--panel3);border-radius:8px}
+.scene-ref-gallery figcaption,.scene28-ref-gallery figcaption{font-size:11px!important;line-height:1.35;overflow-wrap:anywhere}
+.topview-capacity.stale{color:var(--warn)}
 </style>
 <script>
 (function(){try{const saved=localStorage.getItem('ai-film-theme');document.documentElement.dataset.theme=saved==='light'?'light':'dark'}catch{document.documentElement.dataset.theme='dark'}})();
@@ -178,7 +183,7 @@ function tvStatusLabel(v){return ({init:'В очереди',queued:'В очер�
 function buildTopviewRuntime(tv){
  const activeStates=new Set(['init','queued','running','processing']);
  let tasks=Array.isArray(tv?.active_tasks)?tv.active_tasks.filter(x=>activeStates.has(String(x?.topview_status||x?.status||'').toLowerCase())).map(x=>({...x})):[];
- if(!tasks.length){
+ if(!Array.isArray(tv?.active_tasks)){
   tasks=Object.entries(tv?.scenes||{}).flatMap(([sid,x])=>{
    const ids=(x?.active_task_ids||[]).length?x.active_task_ids:(x?.task_id?[x.task_id]:[]);
    return ids.map(id=>{
@@ -194,7 +199,7 @@ function buildTopviewRuntime(tv){
  const capacity=Math.max(1,Number(tv?.slot_capacity||6));
  return {tasks,byScene,slowSceneIds,capacity,occupied:tasks.length,free:Math.max(0,capacity-tasks.length),checkedAt:tv?.checked_at||null}
 }
-function runtimeSlowIds(){return runtimeTopview?.slowSceneIds?.length?[...runtimeTopview.slowSceneIds]:(status?.slow_scenes||[]).map(Number)}
+function runtimeSlowIds(){return runtimeTopview?[...runtimeTopview.slowSceneIds]:(status?.slow_scenes||[]).map(Number)}
 function runtimeSceneMultiplicityLabel(){
  if(!runtimeTopview)return (status?.slow_scenes||[]).join(', ')||'нет';
  return runtimeTopview.slowSceneIds.map(id=>{const n=runtimeTopview.byScene.get(id)?.length||0;return n>1?id+'×'+n:String(id)}).join(', ')||'нет'
@@ -217,12 +222,15 @@ function parseSceneTitles(md){
 }
 function renderTopview(tv,md){
  topview=tv;
- runtimeTopview=runtimeTopview||buildTopviewRuntime(tv);
+ runtimeTopview=buildTopviewRuntime(tv);
  const titles=parseSceneTitles(md||'');
  const {tasks,capacity,occupied,free}=runtimeTopview;
  const cap=$('topviewCapacity');
  if(cap){
-  cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free+(tv?.checked_at?' <span class="topview-sync-time">· '+esc(humanDate(tv.checked_at))+'</span>':'');
+  const fresh=Number.isFinite(Date.parse(tv?.checked_at||''))&&Date.now()-Date.parse(tv.checked_at)<=75*60000;
+  cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free+(tv?.checked_at?' <span class="topview-sync-time">· '+esc(humanDate(tv.checked_at))+'</span>':'')+(fresh?'':' · ⚠ проверка устарела');
+  cap.classList.toggle('stale',!fresh);
+  cap.title='Время последней фактической проверки Topview. Страница перечитывает опубликованный статус каждые 5 минут; единый монитор проверяет сервис каждый час.';
   cap.classList.toggle('full',occupied===capacity);
   cap.classList.toggle('over',occupied>capacity);
  }
@@ -258,14 +266,14 @@ function renderTopview(tv,md){
 function renderNowView(s,tv,ledger,md){
  const box=$('nowGrid');if(!box)return;
  const titles=parseSceneTitles(md||'');
- runtimeTopview=runtimeTopview||buildTopviewRuntime(tv);
+ runtimeTopview=buildTopviewRuntime(tv);
  const tasks=runtimeTopview.tasks;
  const counts=new Map();tasks.forEach(x=>counts.set(Number(x.scene_id),(counts.get(Number(x.scene_id))||0)+1));
  const generating=[...counts.entries()].sort((a,b)=>a[0]-b[0]).map(([id,n])=>({id,label:'#'+id+(n>1?' ×'+n:'')}));
  const rows=ledger?.scenes||{};
  const received=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true).map(([id])=>Number(id)).sort((a,b)=>a-b);
  const decisions=Object.entries(rows).filter(([id,x])=>s?.scene_ids?.includes(Number(id))&&x?.result_received===true&&(x?.reviewed!==true||x?.accepted===null||x?.needs_redo===null)).map(([id])=>Number(id)).sort((a,b)=>a-b);
- const slow=new Set((s?.slow_scenes||[]).map(Number));
+ const slow=new Set(runtimeSlowIds());
  const next=[];
  Object.entries(s?.scene_meta||{}).forEach(([id,m])=>{const n=Number(id),r=rows[id]||{};if(slow.has(n))return;if(r.needs_redo===true)next.push({id:n,kind:'переделать'});else if(r.result_received===true&&r.reviewed!==true)next.push({id:n,kind:'проверить результат'});else if(m?.production_state==='READY'&&r.result_received!==true)next.push({id:n,kind:'можно запускать'});else if(m?.production_state==='NEEDS_FIX')next.push({id:n,kind:'обсудить доработку'})});
  next.sort((a,b)=>a.id-b.id);
@@ -362,7 +370,7 @@ async function submitProjectComment(e){
  finally{if(btn)btn.disabled=false}
 }
 function syncActiveSceneStatuses(tv){
- runtimeTopview=runtimeTopview||buildTopviewRuntime(tv);
+ runtimeTopview=buildTopviewRuntime(tv);
  const slow=new Set(runtimeSlowIds());
  const table=[...content.querySelectorAll('table')].find(t=>{
   const h=[...t.querySelectorAll('thead th')].map(x=>x.textContent.trim().toLowerCase());
@@ -374,7 +382,7 @@ function syncActiveSceneStatuses(tv){
   const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(!m)return;
   const sid=Number(m[1]);
   const cell=row.children[1];if(!cell)return;
-  if(!slow.has(sid))return;
+  if(!slow.has(sid)){cell.querySelectorAll('.slow-status,.scene-generation').forEach(b=>{if(b.previousElementSibling?.tagName==='BR')b.previousElementSibling.remove();b.remove()});return;}
   const summary=runtimeSceneStatus(sid);
   let badge=cell.querySelector('.slow-status,.scene-generation');
   if(!badge){badge=document.createElement('strong');cell.appendChild(document.createElement('br'));cell.appendChild(badge)}
@@ -527,10 +535,10 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  $('instructionSync').title=instruction==='stale'?'Устарела только дата последней точной сверки Drive ↔ GitHub, а не сами инструкции.':instruction==='ok'?'Последняя точная сверка 7 канонических Drive-инструкций с GitHub: '+instructionCheckedText:'';
  $('instructionSync').style.color=instruction==='ok'?'var(--ok)':instruction==='error'?'var(--bad)':'var(--warn)';
  $('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;
- if(ok&&topviewWarning)$('statusMessage').textContent=topviewFresh?'Основной проект синхронизирован. Topview имеет служебный drift между runtime snapshot и внутренним cache; Recovery исправляет его без остановки проекта.':'Основной проект синхронизирован. Topview telemetry временно устарела из-за недоступности фонового коннектора; показывается последний проверенный snapshot, watcher остаётся включён и повторит попытку автоматически.';
- else if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано Recovery Sync для автоматического обслуживания.';
+ if(ok&&topviewWarning)$('statusMessage').textContent=topviewFresh?'Основной проект синхронизирован. Topview имеет служебный drift между runtime snapshot и внутренним cache; Recovery исправляет его без остановки проекта.':'Основной проект синхронизирован. Проверка Topview устарела; показаны последние подтверждённые данные. Состояние фонового расписания и причина задержки проверяются отдельно.';
+ else if(ok&&semanticWarning)$('statusMessage').textContent='Синхронизация рабочих данных исправна. Внутреннее контекстное предупреждение передано единому монитору для обслуживания.';
  else if(ok&&(workflowWarning||staleWarning||recoveredWarning))$('statusMessage').textContent='Рабочие данные доступны и согласованы. Служебное обслуживание выполняется автоматически.';
- else $('statusMessage').textContent=instruction==='ok'?'Семь канонических Drive-инструкций проверены; hourly Recovery Sync автоматически поддерживает проверочный сертификат и чинит детерминированный drift.':instruction==='stale'?'Рабочие данные синхронизированы. Отдельная проверка инструкций устарела и должна быть обновлена Recovery; это не ошибка master-sync.':instruction==='error'?'Есть подтверждённое расхождение или ошибка чтения канонических инструкций. Канон остаётся в Google Drive; это реальная проблема синхронизации инструкций.':'Рабочие данные синхронизированы; отдельная авторизованная проверка инструкций пока недоступна.';
+ else $('statusMessage').textContent=instruction==='ok'?'Семь канонических Drive-инструкций проверены; Единый монитор каждый час поддерживает проверочный сертификат и чинит детерминированный drift.':instruction==='stale'?'Рабочие данные синхронизированы. Отдельная проверка инструкций устарела и должна быть обновлена Recovery; это не ошибка master-sync.':instruction==='error'?'Есть подтверждённое расхождение или ошибка чтения канонических инструкций. Канон остаётся в Google Drive; это реальная проблема синхронизации инструкций.':'Рабочие данные синхронизированы; отдельная авторизованная проверка инструкций пока недоступна.';
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'API недоступен';
  const rows=[['ревизия',fp.revision_date||s.revision_date],['синхронизация',fp.synced_at||s.synced_at],['Topview snapshot',runtimeTopview.checkedAt||'—'],['Topview slots',runtimeTopview.occupied+' / '+runtimeTopview.capacity],['GitHub workflow',wfState],['успехов подряд после сбоя',recentFailure?consecutiveSuccesses:'сбоев в окне не видно'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['рабочие направления',(s.work_items_count??(s.work_items||[]).length)+' всего'],['медленная генерация',runtimeSceneMultiplicityLabel()],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction],['семантическая проверка',semanticHealth]];
@@ -538,6 +546,29 @@ function renderStatus(s,tv,wfRuns=[],instructionDetail=null,masterHashMatches=tr
  fingerprintText=rows.map(([k,v])=>`${k}: ${v??'—'}`).join('\n');
  $('copyFingerprint').onclick=()=>copyText(fingerprintText,$('copyFingerprint'));
 }
+// Refresh telemetry without rebuilding prompt sections, changing scroll, or losing comment drafts.
+let telemetryContext=null,telemetryRefreshPending=false;
+async function refreshPublishedTelemetry(){
+ if(!telemetryContext||telemetryRefreshPending)return;
+ telemetryRefreshPending=true;
+ try{
+  const [tv,ledger]=await Promise.all([fetch('topview-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  const checked=Date.parse(tv?.checked_at||'');
+  if(!Number.isFinite(checked)||!Array.isArray(tv.active_tasks))throw new Error('Некорректный статус Topview');
+  if(checked<Date.parse(topview?.checked_at||''))return;
+  const c=telemetryContext;if(ledger)c.ledger=ledger;
+  renderStatus(c.s,tv,c.runs,c.instructions,c.masterHashMatches);
+  renderTopview(tv,c.md);renderNowView(c.s,tv,c.ledger,c.md);syncActiveSceneStatuses(tv);
+  renderFilters();applyView();
+ }catch(err){
+  $('topviewChecked').textContent='⚠ Не удалось перечитать опубликованный статус. Последняя проверка: '+(topview?.checked_at?humanDate(topview.checked_at):'нет данных')+'. '+err.message;
+  $('topviewChecked').style.color='var(--warn)';
+ }finally{telemetryRefreshPending=false}
+}
+setInterval(()=>{if(!document.hidden)refreshPublishedTelemetry()},5*60*1000);
+setInterval(()=>{if(!document.hidden&&telemetryContext&&topview)renderTopview(topview,telemetryContext.md)},60*1000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshPublishedTelemetry()});
+window.addEventListener('online',refreshPublishedTelemetry);
 const analysisPicker=$('analysisPicker');if(analysisPicker){analysisPicker.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{analysisPicker.open=false}));document.addEventListener('click',e=>{if(analysisPicker.open&&!analysisPicker.contains(e.target))analysisPicker.open=false})}
 const backToTop=$('backToTop');function syncBackToTop(){backToTop?.classList.toggle('show',window.scrollY>650)}window.addEventListener('scroll',syncBackToTop,{passive:true});if(backToTop)backToTop.onclick=()=>window.scrollTo({top:0,behavior:'smooth'});syncBackToTop();
 const sideResize=$('sideResize');const SIDEBAR_DEFAULT=328,SIDEBAR_MIN=280,SIDEBAR_MAX=430;
@@ -551,6 +582,7 @@ Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)t
  const masterHash=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
  const expectedHash=s.canonical_master_sha256||s.audit_fingerprint?.canonical_master_sha256||'';
  const masterHashMatches=Boolean(expectedHash)&&masterHash===expectedHash;
+ telemetryContext={s,md,ledger:reviewLedger,runs:wfRuns,instructions:instructionDetail,masterHashMatches};
  renderStatus(s,tv,wfRuns,instructionDetail,masterHashMatches);
  if(!masterHashMatches)$('statusMessage').textContent='Загруженный master не соответствует project-status.json. Дождитесь успешной пересборки статуса; текущие данные нельзя считать согласованными.';
  marked.setOptions({gfm:true,breaks:false});content.innerHTML=marked.parse(md);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});

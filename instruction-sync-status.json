@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-07T15:01:06.250Z",
+  "checked_at": "2026-10-07T20:58:35.124554Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-07T14:21:07.247Z",
-      "github_blob": "601d7505584862fc99083fce5b890a35d53f02d1",
-      "drive_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
-      "mirror_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
+      "drive_modified_at": "2026-10-07T15:39:40.305Z",
+      "github_blob": "9feb36af47d836b94d8fb117d23d9e68bb257cef",
+      "drive_sha256": "9a31c4d0ba3dce2206063f1c46ec6042e89a30eb32d65c30e3bb499e7f73e105",
+      "mirror_sha256": "9a31c4d0ba3dce2206063f1c46ec6042e89a30eb32d65c30e3bb499e7f73e105",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -57,17 +57,18 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-10-07T14:19:38.744Z",
+      "drive_modified_at": "2026-10-07T14:59:14.274Z",
       "github_blob": "98632e5d4e5015d9b493870c937a4641dd97d79a",
-      "drive_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
-      "mirror_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
+      "drive_sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
+      "mirror_sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
       "match": true
     }
   },
   "semantic_check": {
     "health": "ok",
+    "status": "ok",
     "conflicts": [],
-    "status": "ok"
+    "note": "Current rules retain one monitor, two retired schedules, Drive authority, same-ID edits, separate runtime/editorial state. Historical checkpoints are not current runtime facts."
   },
   "takeover_requirements": {
     "character_registry": "references.html + character-references.json",

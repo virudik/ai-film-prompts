@@ -26,7 +26,7 @@ for required in ("now-view","nowGrid","review-ledger.json","renderNowView","slow
 contracts = (
     "const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;",
     "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
-    "Topview telemetry временно устарела",
+    "Проверка Topview устарела",
     "$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;",
     "$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';",
     "cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free",
