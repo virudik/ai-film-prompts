@@ -18,5 +18,11 @@
     27
   ],
   "task_map_updated_at": "2026-10-07T04:02:39.475Z",
-  "task_map_last_scan_at": "2026-10-07T04:02:39.475Z"
+  "task_map_last_scan_at": "2026-10-07T04:02:39.475Z",
+  "canonical_validation": {
+    "verified_at": "2026-10-07T04:06:52.567Z",
+    "health": "ok",
+    "canonical_master_sha256": "b75c71f6cf10efee18d785b4c523c4042c7dfd91d1b0f5701587757444af6fd4",
+    "all_project_checks_true": true
+  }
 }
