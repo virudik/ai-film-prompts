@@ -1400,3 +1400,150 @@ Still incomplete and therefore MUST be continued, not silently dropped:
 - `CLAUDE.md` must stay compact and must not duplicate the evolving handoff/recovery text. If it ever conflicts with live canonical Drive instructions, Claude Code follows Drive.
 - The existing same-ID master/edit, sync/validation, Topview approval, capability-preflight and owner-decision rules remain unchanged and are inherited through the canonical takeover.
 - Relevant recovery documentation is updated in SAME `BACKUP-AI-RUNBOOK.md`; the 7/7 instruction certificate continues to cover only the seven canonical instruction files.
+
+## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК
+
+Пользователь прямо попросил: **не начинать заново, а продолжить ровно с текущего места; всё, что не успел этот чат, обязан закончить сменщик.** Ниже — проверенный checkpoint и разрешённый порядок действий.
+
+### Что уже реально сделано
+
+1. Внедрён project-wide **Scene Reference Pack workflow**: отдельный pack на Scene ID, reference-first audit, one-image-at-a-time QC, `SAVE BEFORE NEXT GENERATION`, thumbnails на сайте, `запускай сцену N` как детерминированная команда preflight→submit.
+2. Drive root `Scene Reference Packs` = `16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI`; отдельные папки созданы для active Scene IDs 10, 11, 13, 16, 17, 19–28. Scene 28 сохранила прежний pack ID `1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ`.
+3. Library mirror `/AI Film/Scene Reference Packs/Scene N` создан.
+4. **Topview exact-input recovery теперь НЕ требует Work.** Рабочая схема доказана в обычном Project Chat:
+   - live Topview task metadata/S3 → authorized Topview Canvas media nodes;
+   - `download_topview_canvas_nodes` даёт short-lived authorized URLs;
+   - эти URLs вставляются в отдельные Google Slides pages через `batch_update_presentation.createImage`;
+   - презентация экспортируется как PPTX;
+   - PPTX распаковывается, точные `ppt/media/image*` bytes сохраняются локально;
+   - затем файлы кладутся в Library/Drive/GitHub обычными connector writers.
+   Этот **Slides bridge** — предпочтительный fallback, если прямого binary handoff Topview→Drive нет. Не просить пользователя повторно загружать уже существующие Topview refs.
+5. Через этот bridge восстановлено **30 уникальных exact Topview input images** для Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26, 27. Recovery Canvas: `bb998522de624208b708598568116f78`. Bridge deck: `1NaISrGUmA1ICODoQrqidrzhQdUyn81Trv9vkiIVtw10`.
+6. Все 30 точных исходников сохранены в Library по соответствующим Scene folders с суффиксом `-topview-source.png`. В Drive соответствующих сцен тоже уже лежат `*-topview-source.png`; в некоторых папках дополнительно остались дубликаты под именами `Sxx-ImageN.*` после промежуточного переноса. Дубликаты не считать отдельными refs; при следующем проходе очистить/нормализовать manifest, но не удалять без проверки байтов/ролей.
+7. Scene 28: приняты и опубликованы **P28**, **L28**, **F28**; H28A/H28B корректные. **R28A/R28B = composition-only helpers**, не identity authority. Неудачные G28 не утверждены.
+8. Canonical master на свежем read показывает Scene 28 всё ещё `DRAFT`: **S28 нужно переделать**, **G28 нужно собрать заново**, C28 только из clean frame результата части 2.
+9. На 07.10.2026 14:25:59Z live Topview telemetry показывала **5/6 active slow slots, 1 free**, хотя сайт у пользователя показывал устаревшее `6/6 · свободно 0 · 07.10.2026, 07:02:39`. Перед любым submit ОБЯЗАТЕЛЬНО сделать свежий live board check; не доверять старому header сайта.
+10. Active slow tasks на последнем fresh status: Scene 20 ×2, Scene 26 ×1, Scene 27 ×2 = 5 slots. Не дублировать и не rerun их автоматически.
+11. Канонические инструкции Drive↔GitHub были 7/7 exact-match, `instruction-sync-status.health=ok`. После этой передачи снова выполнить exact validation.
+
+### Что НЕ закончено и что сменщик обязан сделать
+
+#### A. Scene 28 — закончить визуальные входы и танец
+
+1. **S28 — правильная посадка Юли на плече Серёги.**
+   - Юля сидит upright side-saddle на **правом плече** Серёги.
+   - обе согнутые ноги вместе свисают/идут вперёд по правой стороне его корпуса;
+   - его правая рука/предплечье поддерживает бёдра, левая стабилизирует голени;
+   - её корпус вертикальный, одна рука слегка на плече, головы разделены;
+   - exact identity/wardrobe from individual sheets, exact H28B geometry/light.
+   - Делать **одну картинку за раз**, проверять; не принимать «примерно».
+   - Как только хорошая — SAVE BEFORE NEXT: Drive Scene28 Approved refs + Library + GitHub/site thumbnail, потом следующий кадр.
+2. **G28 — clean full group 9 humans/humanoids + 2 cats.**
+   - front: Serega left, Yulia right;
+   - second: Pasha, Sasha, Artem, Ilyusha;
+   - rear: Lesha, Masha, Vitalik;
+   - Luchik front-left floor, Ryzhik front-right floor, normal quadruped cats below adult knees.
+   - Ноль дублей, ноль face blending, ноль лишних людей.
+   - Identity from individual sheets; R28A/R28B only composition hints.
+   - Предпочтительно собирать из проверенных small subgroups/progressive edit, а не просить модель заново «изобрести» 11 лиц одним text-to-image.
+3. Сделать/сохранить дополнительные **dance pose refs** для первых частей, если они реально уменьшают ambiguity:
+   - Part 1 ceremonial pair / transition into H28B;
+   - Part 2 face-gesture — F28 уже есть, не перегенерировать;
+   - Part 3 pair separating/back-sliding;
+   - Part 4 Pasha+Sasha;
+   - Part 5 Artem+Ilyusha;
+   - Part 6 Masha+Lesha+Vitalik;
+   - Part 7 cats;
+   - Part 8 L28 already exists;
+   - Part 9 S28 after repair;
+   - Part 10 G28 after repair.
+   Не плодить helpers, если existing approved ref уже достаточен.
+4. После публикации **визуально проверить thumbnails** Scene 28: не stretched, правильные люди, подписи соответствуют файлам, full link открывается, H28A/H28B и human refs одного компактного масштаба.
+5. Только после clean S28/G28 перевести Scene 28 из DRAFT в подходящее ready state, свежо перечитать master перед записью.
+
+#### B. Scene 28 — запуск Topview
+
+Пользователь уже дал разрешение: **если Scene 28 готова со всеми необходимыми refs, проверить свободные slow slots и запустить в них первые части танца**.
+
+Алгоритм:
+1. fresh board check;
+2. определить N free slots из capacity 6;
+3. запускать первые N последовательных частей Seedance 2.0 15s, начиная с Part 1, только если refs конкретной части complete;
+4. использовать правильные refs/role mapping из master;
+5. не использовать generic paid route, если можно/нужно сохранить unlimited slow contract; проверить live config/submit path;
+6. записать task IDs → Topview status/task map → site;
+7. technical success != approval.
+
+На последнем fresh check был **1 свободный слот**, но это только checkpoint, а не разрешение полагаться на старое число.
+
+#### C. Exact Topview refs → GitHub/site
+
+1. Для Scenes **13,17,19,20,21,22,23,24,26,27** физические exact source images уже recovered/persisted.
+2. Не закончено: **нормализованный GitHub mirror** `references/scenes/scene-N/` и публикация именно **scene-used exact refs** thumbnails внутри соответствующей Scene section.
+3. Была попытка начать Scene 13 GitHub blobs, но GitHub GraphQL дал transient UNKNOWN; не считать Scene13 mirror завершённым. Перед retry сначала list/fetch repo tree и проверить, что реально попало.
+4. В каждой сцене публиковать только действительно используемые refs; individual sheets + exact scene input, а не все подряд.
+5. После публикации открыть/проверить каждый thumbnail и full link. Пользователь заметил, что часть старых миниатюр «косячная» — неверные/неподходящие изображения заменить правильными exact refs.
+
+#### D. Scene 16 — песчаный червь
+
+Пользователь отдельно приказал: **«Сцену с нападением червя в пустыне джедай по фото референсам, создай фото нужные и приложи на сайт».**
+
+Master Scene 16 требует:
+- @Video1 = exact desert ruins environment/staging;
+- @Image1 = Hooded Jedi;
+- @Image2 = Bearded Jedi;
+- @Image3 = Chancellor.
+
+Нужно сделать и QC:
+1. clean three-character standoff in exact desert ruins;
+2. separate worm scale/composition reference: worm erupts behind/offset from trio, natural-disaster scale, characters remain readable;
+3. optional action-spacing still only if needed.
+Использовать exact character refs и location frame/video, не generic lookalikes. Сохранить в Scene 16 pack и опубликовать thumbnails в Scene 16. Не менять character identity authority на generated helper.
+
+#### E. manifests — довести автоматизацию
+
+Для каждого Scene Pack создать/довести machine-readable manifest:
+- `identity_refs`
+- `location_refs`
+- `prop_refs`
+- `start_frame`
+- `end_frame`
+- `pose_composition_helpers`
+- `approved`
+- `rejected`
+- `topview_source_provenance`
+- `prompt_reference_mapping` (`@ImageN/@VideoN`)
+- `site_published`
+- `sha256/file IDs`
+- `last_qc_at`
+
+Команды:
+- `создаём сцену N` → автоматически reference audit + предложение/создание missing refs;
+- `запускай сцену N` → resolve manifest → prompt mapping → Topview preflight → submit.
+Не просить пользователя вручную пересылать recoverable assets.
+
+### Что делать с Work и Codex
+
+**По умолчанию НЕ привлекать ни Work, ни Codex**: пользователь хочет экономить их лимиты, а обычный Project Chat теперь умеет и Topview ref recovery через Slides bridge.
+
+- **Work** использовать только если нужен GUI/Cloud Browser шаг, который действительно невозможно выполнить текущими connector tools (например, UI-only unlimited toggle/website interaction).
+- **Codex** использовать для repo/code debugging, scripts, validation, site code refactors; не использовать как замену Topview UI/browser.
+- Если физический blocker возникнет, сначала записать его в handoff и дать пользователю готовый текст задачи для Work/Codex; не перекладывать то, что текущий чат может сделать сам.
+
+### Контрольные точки сменщика
+
+Порядок продолжения:
+1. Fresh takeover: 7 canonical Drive docs → exact master → project/topview/instruction status.
+2. Verify 30-ref persistence + repo tree.
+3. Finish Scene 28 S28 → save/QC/publish.
+4. Finish G28 → save/QC/publish.
+5. Audit/publish dance refs/thumbnails.
+6. Fresh slots; if Scene28 READY and free slots exist, submit first N Seedance parts.
+7. Finish exact Topview scene-used refs publication for 13/17/19/20/21/22/23/24/26/27.
+8. Create Scene16 worm refs + publish.
+9. Finish per-scene manifests.
+10. Update canonical master only after fresh read; run SYNC-TRIGGER → validation → GitHub/status → Pages → visual verification.
+11. Update this SAME handoff after each major checkpoint.
+
+**Do not say «готово» until the relevant step is verified on Drive/GitHub/Pages/Topview as applicable.**
+
