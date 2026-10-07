@@ -1,3 +1,11 @@
+## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z
+
+- Прочитаны обе публичные переписки и четыре связанных задания, сверены fresh Drive master, семь инструкций, GitHub tree и Library/Drive packs. 7/7 canonical mirrors exact at takeover. CLAUDE.md существует как non-canonical adapter.
+- Подтверждена публикация exact source refs Scene 13 и 17 (предыдущий handoff ошибочно считал её незавершённой).
+- Materialized все 30 сохранённых source-файлов; по SHA-256 это 25 уникальных изображений, остальные — повторное использование в других сценах. В manifest считать роли/scene bindings, не раздувать unique count.
+- S28 исправлен и прошёл visual QC: две exact личности, upright side-saddle на правом плече, обе ноги вместе, поддержка бёдер/голеней. Saved Drive `1UoaFEPUyVeEYojAuich8dhbdNfmgHD6o`, Library `libfile_d0e480b09c308191ac53747285e13aab`, GitHub `references/scenes/scene-28/S28-shoulder.png`. Master same-ID updated and exact readback verified; SYNC-TRIGGER sent. Старые три черновые попытки этой итерации не используются.
+- Далее: G28 (не готов), полная публикация exact inputs других сцен, Scene16 worm refs, manifests, fresh Topview/unlimited preflight, проверка публикации. Scene28 DRAFT сохраняется до G28; C28 только из результата Part2.
+
 ﻿# NEW CHAT HANDOFF — AI Film Project
 
 
@@ -1546,4 +1554,5 @@ Master Scene 16 требует:
 11. Update this SAME handoff after each major checkpoint.
 
 **Do not say «готово» until the relevant step is verified on Drive/GitHub/Pages/Topview as applicable.**
+
 
