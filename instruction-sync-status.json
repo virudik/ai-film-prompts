@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-07T11:23:52.365Z",
+  "checked_at": "2026-10-07T14:28:24.798Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,58 +9,58 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-07T03:38:47.611Z",
-      "github_blob": "68f5e91642a1a9edb06e796532a7b379028ebc2b",
-      "drive_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
-      "mirror_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
+      "drive_modified_at": "2026-10-07T14:21:07.247Z",
+      "github_blob": "47d55eedf4311bb5424443092c82d495cf11f6b0",
+      "drive_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
+      "mirror_sha256": "42eb83adf23d605063272a16efeef3308c7b0bc335136484fd46833ca6c7c3ba",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-07T03:31:41.924Z",
-      "github_blob": "bb399017300926c960f870c82ddccd650dee2909",
-      "drive_sha256": "c0ef4458bf1c6989f68970d4a8ac47e0c922e310665e83f20171265a39cc7b5f",
-      "mirror_sha256": "c0ef4458bf1c6989f68970d4a8ac47e0c922e310665e83f20171265a39cc7b5f",
+      "drive_modified_at": "2026-10-07T14:23:51.185Z",
+      "github_blob": "2bd487633671a9ceaffb93f5e9207d098f2c821b",
+      "drive_sha256": "7420c19ea8ca0af4e00124812211b7529b0aba4751b043f06d7d7ac29b3e9a03",
+      "mirror_sha256": "7420c19ea8ca0af4e00124812211b7529b0aba4751b043f06d7d7ac29b3e9a03",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-07T03:29:22.234Z",
-      "github_blob": "3e9779494e4f9d5c23efea7f57b0989c39f583a0",
-      "drive_sha256": "6cb65946932b6992d7a69f6cf7aa780abfb3ade7e9c5fa0593af866fbc7580c3",
-      "mirror_sha256": "6cb65946932b6992d7a69f6cf7aa780abfb3ade7e9c5fa0593af866fbc7580c3",
+      "drive_modified_at": "2026-10-07T14:22:57.169Z",
+      "github_blob": "31f725b9210fe384137ae51def2a91d612594f92",
+      "drive_sha256": "d8a3048d9492302eaedd0a27e320fec3bea0a9b80d95af3b103e390f09862f36",
+      "mirror_sha256": "d8a3048d9492302eaedd0a27e320fec3bea0a9b80d95af3b103e390f09862f36",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-07T03:30:16.649Z",
-      "github_blob": "243553cb1fd090a0d3724f54fdef61f8dbf71580",
-      "drive_sha256": "14f77dab55c98deff4446ee0a6bf1b60a2f4368a026b533232c8944dd195d0c9",
-      "mirror_sha256": "14f77dab55c98deff4446ee0a6bf1b60a2f4368a026b533232c8944dd195d0c9",
+      "drive_modified_at": "2026-10-07T14:24:31.241Z",
+      "github_blob": "d5415a154920b6166916e3919d341139e35deaf8",
+      "drive_sha256": "21ed16f6a362465d8b21c759b0886bfbcdcd682911a273e7cf0121b6d3b6541f",
+      "mirror_sha256": "21ed16f6a362465d8b21c759b0886bfbcdcd682911a273e7cf0121b6d3b6541f",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-07T03:30:45.655Z",
-      "github_blob": "13dce6a45f4352fd1ed78e5af3882103e5374526",
-      "drive_sha256": "5f2370876edfa3a54874e89c898f4be5f353850339b1b9ffbb4b25be733e3249",
-      "mirror_sha256": "5f2370876edfa3a54874e89c898f4be5f353850339b1b9ffbb4b25be733e3249",
+      "drive_modified_at": "2026-10-07T14:25:09.278Z",
+      "github_blob": "2338805c647a08025ed1419184fa36275037fcf4",
+      "drive_sha256": "e76a2f85a92d280096508c898528f3b13ae1bacf7d35f572972cb692668a32a0",
+      "mirror_sha256": "e76a2f85a92d280096508c898528f3b13ae1bacf7d35f572972cb692668a32a0",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-10-07T03:31:14.858Z",
-      "github_blob": "f054337bc800a13383edabd5835471e32c28bcd7",
-      "drive_sha256": "652223dd4818dc3a1071c228f6a5a2a6e133353f1f8d4d2c7457826019070c21",
-      "mirror_sha256": "652223dd4818dc3a1071c228f6a5a2a6e133353f1f8d4d2c7457826019070c21",
+      "drive_modified_at": "2026-10-07T14:25:41.911Z",
+      "github_blob": "c259d643aa5a8a4063cef5fb7c6d4a63f370d95f",
+      "drive_sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
+      "mirror_sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-10-07T03:32:08.384Z",
-      "github_blob": "fd1a578a79fc958a230b495947c749350c6f24c0",
-      "drive_sha256": "26ef1ee9b5bfb16d54ffbae4bdddcf0e7c133c3ce2e19b1462979e5fb1071e80",
-      "mirror_sha256": "26ef1ee9b5bfb16d54ffbae4bdddcf0e7c133c3ce2e19b1462979e5fb1071e80",
+      "drive_modified_at": "2026-10-07T14:19:38.744Z",
+      "github_blob": "ef25adf48c35d41de8dba1c07d5768ed20c60ee4",
+      "drive_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
+      "mirror_sha256": "fa2691965dd0f0511f4e076e3f924a348c0fce173db43fea466ca2bcfe3b49f8",
       "match": true
     }
   },
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh 7/7 exact mirror certificate after Reference Pack implementation checkpoint 07.10.2026.",
+  "note": "Fresh 7/7 exact mirror certificate after Claude Code non-canonical bootstrap adapter implementation. CLAUDE.md is verified separately and is not an eighth canonical instruction.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -303,5 +303,13 @@
     "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
     "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
     "topview_runtime": "Scenes 20, 26 and 27 remain slow; 6/6 active task slots: three Scene 20 attempts, one Scene 26 attempt and two Scene 27 attempts."
+  },
+  "claude_code_bootstrap": {
+    "path": "CLAUDE.md",
+    "canonical": false,
+    "included_in_7_of_7": false,
+    "github_blob": "475c14667ffd91c64a1e6aad0ff303ed97f59c87",
+    "verified": true,
+    "rule": "Bootstrap pointer only; fresh canonical Google Drive instructions always win."
   }
 }
