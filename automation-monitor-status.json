@@ -95,7 +95,7 @@
       "checked_at": "2026-10-07T03:05:46Z",
       "master_sha256": "1a9ffeb9735236f98f2d5d99e4eecba074cf0d6f38fb461eaf8f93a81e7dd3e1",
       "scenes": 15,
-      "prompt_texts": 42,
+      "prompt_texts": 46,
       "all_project_checks_true": true,
       "sync_run_id": 37565028687,
       "pages_run_id": 37565043291
