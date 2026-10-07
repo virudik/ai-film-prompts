@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-07T11:16:43.496Z",
+  "checked_at": "2026-10-07T11:23:52.365Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -10,7 +10,7 @@
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
       "drive_modified_at": "2026-10-07T03:38:47.611Z",
-      "github_blob": "cf473b771888e0f3344548af4275c3d9f5a04aa8",
+      "github_blob": "68f5e91642a1a9edb06e796532a7b379028ebc2b",
       "drive_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
       "mirror_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
       "match": true
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive-to-GitHub comparison after Scene Reference Pack workflow verification on 07.10.2026.",
+  "note": "Fresh 7/7 exact mirror certificate after Reference Pack implementation checkpoint 07.10.2026.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
