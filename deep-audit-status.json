@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-06T11:14:44.322Z",
-  "last_deep_audit_at": "2026-10-06T11:14:44.322Z",
+  "checked_at": "2026-10-07T21:05:51.576Z",
+  "last_deep_audit_at": "2026-10-07T21:05:51.576Z",
   "health": "ok",
   "sections": {
     "master": "ok",
@@ -9,12 +9,12 @@
     "characters": "ok_unchanged_since_prior_deep_audit",
     "montage": "ok_unchanged_since_prior_deep_audit",
     "notion": "nonblocking_unchanged",
-    "library": "present_stale_non_blocking",
-    "site": "ok",
+    "library": "pending_non_blocking",
+    "site": "ok_public_pages_verified",
     "supabase": "ok_unchanged_since_prior_deep_audit",
-    "github_actions": "ok",
+    "github_actions": "public_pages_verified_current",
     "recovery": "ok",
-    "automation_watchdog": "ok",
+    "automation_watchdog": "configuration_preserved_no_task_state_write",
     "one_writer_ownership": "ok",
     "instructions": "ok_7_of_7_exact",
     "topview_publication": "ok"
@@ -44,7 +44,8 @@
     "2026-10-03 recovery: exact-certified all seven Drive instruction sources against same-name GitHub mirrors, refreshed the certificate, synchronized the canonical master, and verified the resulting Pages artifact.",
     "2026-10-05 deep audit: exact-certified the Drive master and all seven instruction mirrors, refreshed the instruction certificate, verified the generated project status, integration workflow, canonical sync and published Pages artifact.",
     "2026-10-05 deep audit: verified the latest Topview map → public status → checkpoint transaction with one shared timestamp, five active task IDs, 5/6 occupied slots and canonical slow Scene 20.",
-    "2026-10-06 deep audit: verified the owner-authorized single hourly monitor, reconciled Scene 20 part 7 terminal success, reduced account occupancy to 2/6 with four free slots, exact-certified the Drive master and all seven instruction mirrors, and verified integration, canonical sync and Pages artifact."
+    "2026-10-06 deep audit: verified the owner-authorized single hourly monitor, reconciled Scene 20 part 7 terminal success, reduced account occupancy to 2/6 with four free slots, exact-certified the Drive master and all seven instruction mirrors, and verified integration, canonical sync and Pages artifact.",
+    "2026-10-07 deep audit: exact-certified the live Drive master and all seven instruction mirrors, refreshed the instruction certificate from current source text, reconciled a terminal Scene 20 render attempt without editorial approval, and published/verified one 4/6-slot map → status → checkpoint transaction on Pages."
   ],
   "warnings": [
     "Scenes 10/11 remain NEEDS_FIX and Scene 13 NEEDS_RERENDER; technical render status is not editorial approval.",
@@ -54,7 +55,7 @@
   "unresolved": [],
   "runtime_snapshot": {
     "scenes": 15,
-    "prompt_texts": 42,
+    "prompt_texts": 46,
     "work_items_count": 11,
     "latest_scene": 28,
     "scene_ids": [
@@ -75,41 +76,44 @@
       28
     ],
     "slow_scenes": [
-      20
+      20,
+      26,
+      27
     ],
-    "master_sha256": "9d709c1bbe5dc767077c4dc74cdee08bec1cdd1e3fe9df49eba593d87084fb9a"
+    "master_sha256": "5515f166bffc381d0e172a3aa6b869bea95a15f7807cb4ee0bd9504c3c323c4d"
   },
   "topview_slot_contract": {
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
-    "active_task_count": 2,
-    "unique_slow_scene_count": 1,
+    "occupied_slots": 4,
+    "free_slots": 2,
+    "active_task_count": 4,
+    "unique_slow_scene_count": 3,
     "health": "ok"
   },
   "notes": {
     "master": "Fresh same-ID Drive master exactly matches GitHub; generated project status is health=ok and every published validator invariant is true.",
-    "instructions": "All seven live Drive instruction texts exactly match their GitHub mirrors; certificate refreshed only after exact comparison and verified by read-back.",
-    "prompts": "Current 15-scene / 42-prompt master passes structural validation. Existing editorial queue remains unchanged by automation.",
+    "instructions": "All seven fresh Drive instruction texts exactly match their same-name GitHub mirrors; the certificate was refreshed only after exact UTF-8 comparison and read-back.",
+    "prompts": "Current 15-scene / 46-prompt master passes published validation. Existing editorial review items remain unchanged by automation.",
     "characters": "Character registry and model-sheet authority were not mutated; prior verified character audit remains applicable.",
     "montage": "Montage reports and chooser contract were not mutated; prior verified audit remains applicable.",
-    "topview": "Task map, public status and stable checkpoint share one checked_at and identical active task IDs. Two active tasks occupy 2/6 slots for unique slow Scene 20; Pages artifact matches.",
-    "automation_watchdog": "Exactly one project automation remains enabled at HH:00 Europe/Moscow; the two owner-retired project automations remain disabled.",
-    "recovery": "Embedded recovery phase, integration tests and Drive synchronization succeeded; superseded intermediate Pages cancellations are historical.",
-    "site": "Newest successful Pages artifact contains the current Topview snapshot, instruction certificate and synchronized project status.",
+    "topview": "The task map, public status and stable checkpoint share one checked_at and identical four active task IDs. Four tasks occupy 4/6 account slots for unique project Scenes 20, 26 and 27; the public Pages view shows the same snapshot.",
+    "automation_watchdog": "The configured unified monitor and two retired IDs were preserved. This run performed no automation state or schedule writes.",
+    "recovery": "Embedded recovery checks completed. The Board-only task identifiers were verified from the complete Board dataset because the standalone query endpoint does not address that task subtype.",
+    "site": "The public Control Center displays the current 4/6 Topview snapshot, refreshed instruction certificate and synchronized project status.",
     "limitations": "Audit verifies current source integrity, publication contracts and recovery behavior. It does not approve generated videos or replace continuous playback/editorial review."
   },
   "evidence": {
-    "instruction_checked_at": "2026-10-06T11:12:31.496Z",
-    "published_topview_checked_at": "2026-10-06T11:11:21.954Z",
-    "integration_run_id": 37454880139,
-    "drive_sync_run_id": 37454880129,
-    "pages_run_id": 37454935110,
-    "pages_head_sha": "afcdb9e888cd7a00c096e680f2ea1f6f4a10af3e",
+    "instruction_checked_at": "2026-10-07T21:00:29.273Z",
+    "published_topview_checked_at": "2026-10-07T21:00:52.381Z",
     "instruction_exact_matches": "7/7",
     "master_drive_github_exact": true,
     "project_status_all_checks_true": true,
     "topview_transaction_equalities": true,
-    "pages_artifact_verified": true
+    "pages_artifact_verified": true,
+    "pages_observed_metrics": {
+      "occupied_slots": 4,
+      "free_slots": 2,
+      "local_timestamp": "08.10.2026, 00:00:52 МСК"
+    }
   }
 }
