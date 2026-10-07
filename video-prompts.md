@@ -48,6 +48,18 @@
 
 ---
 
+
+## Автоматизация референсов по Scene ID
+
+Для каждой активной сцены используется собственный `Scene Reference Pack`. Перед новым prompt/rerender/запуском оператор сам определяет, какие входы нужны: individual identity sheets, точная локация, props, first/last frames и дополнительные pose/composition stills. Уже доступные референсы из Drive/сайта/Topview повторно у пользователя не запрашиваются.
+
+**QC и сохранение:** новые постановочные фото делаются по одному; каждый результат сравнивается с identity/location authority. При дрейфе лица, одежды, геометрии, масштаба, позы, дубликатах или merged faces результат отклоняется и попытка продолжается. Как только кадр пригоден, он сохраняется в Scene pack **до следующей генерации**. Для групп сначала используются маленькие проверенные подгруппы; composition helper не заменяет individual identity sheet.
+
+**Topview:** для уже запущенных сцен восстанавливаются точные task-input images из live Board provenance, когда они доступны. Команда пользователя `запускай сцену N` означает: fresh master/status → Scene pack → недостающие обязательные refs → prompt/reference mapping → live Topview preflight → submit. Existing slow locks и правило `technical success != approval` сохраняются. Помощник не должен молча тратить кредиты на вспомогательные изображения: unlimited/zero-credit путь должен быть подтверждён для конкретного submit.
+
+**Rollout / чекпоинт:** актуальный аудит необходимости новых stills ведётся в Drive `Scene Reference Packs/scene-reference-plan`; приоритет сейчас: Scene 28 S28/G28, затем 13, 17, 27, 10/11 и 16. Сцены с достаточными first/last/cockpit refs не получают лишние изображения без наблюдаемой проблемы.
+
+
 ## Сцены в работе
 
 Это не финальные промты, а рабочий блок. Сюжетные идеи из «Ближайших направлений», «Сюжетных идей-кандидатов», заметок Саши и отдельной сюжетной логики сведены сюда в одну очередь. Статус **ОБДУМАТЬ** означает монтажную/сюжетную задачу, которую пока не следует превращать в отдельную генерационную сцену без проверки существующего материала.
@@ -2969,9 +2981,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### Два состояния одной локации
 
-**H28A — церемония, исходный свет.** [Открыть PNG](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28A-ceremony.png)
-
-**H28B — дискотека в том же ангаре.** [Открыть PNG](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28B-disco.png)
+<div class="scene28-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0 20px">
+<figure style="margin:0"><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="H28A — церемониальный свет в ангаре Scene 28" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>H28A</b> — церемония, исходный свет. <a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener">Открыть PNG</a></figcaption></figure>
+<figure style="margin:0"><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="H28B — дискотечный свет в том же ангаре Scene 28" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>H28B</b> — дискотека в том же ангаре. <a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener">Открыть PNG</a></figcaption></figure>
+</div>
 
 ### Сохранённые референсные кадры Scene 28
 
