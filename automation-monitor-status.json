@@ -23,18 +23,16 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-07T03:03:01.367Z",
+    "checked_at": "2026-10-07T21:00:52.381Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 534,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
+    "occupied_slots": 4,
+    "free_slots": 2,
     "active_task_ids": [
-      "117b9d976d2c4a54945256e79fc64639",
-      "ef0a2cdb1c8841ac8d031a19fa07bd9e",
       "42e5cdb42c1a45df8a037a26eb3fa26b",
       "b95a76b92f9d4787b738b165eaeb270f",
       "ffa34324436745beb161d72ae9d4394f",
@@ -44,11 +42,9 @@
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-06T20:10:02.206Z",
-    "last_observed_free_slots": 0,
+    "last_notified_at": "2026-10-07T21:00:52.381Z",
+    "last_observed_free_slots": 2,
     "observed_active_task_ids": [
-      "117b9d976d2c4a54945256e79fc64639",
-      "ef0a2cdb1c8841ac8d031a19fa07bd9e",
       "42e5cdb42c1a45df8a037a26eb3fa26b",
       "b95a76b92f9d4787b738b165eaeb270f",
       "ffa34324436745beb161d72ae9d4394f",
@@ -56,16 +52,13 @@
     ],
     "open_incidents": [],
     "last_message_event": {
-      "type": "new_existing_scene_attempts",
-      "observed_at": "2026-10-06T22:03:16.004Z",
-      "task_count": 5,
-      "scene_ids": [
-        20,
-        26,
-        27
+      "type": "new_free_slot",
+      "observed_at": "2026-10-07T21:00:52.381Z",
+      "released_task_ids": [
+        "ef0a2cdb1c8841ac8d031a19fa07bd9e"
       ],
-      "occupied_slots": 6,
-      "free_slots": 0,
+      "occupied_slots": 4,
+      "free_slots": 2,
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -73,40 +66,37 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-07T03:03:01.367Z",
+      "checked_at": "2026-10-07T21:00:52.381Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 534,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-07T03:03:01.367Z",
-      "public_verified_at": "2026-10-07T03:05:46Z",
-      "occupied_slots": 6,
-      "free_slots": 0,
-      "pages_run_id": 37565043291
+      "checked_at": "2026-10-07T21:00:52.381Z",
+      "public_verified_at": "2026-10-07T21:06:15.439Z",
+      "occupied_slots": 4,
+      "free_slots": 2
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-07T03:04:22.659Z"
+      "checked_at": "2026-10-07T21:00:29.273Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-07T03:05:46Z",
-      "master_sha256": "1a9ffeb9735236f98f2d5d99e4eecba074cf0d6f38fb461eaf8f93a81e7dd3e1",
+      "checked_at": "2026-10-07T21:06:15.439Z",
+      "master_sha256": "5515f166bffc381d0e172a3aa6b869bea95a15f7807cb4ee0bd9504c3c323c4d",
       "scenes": 15,
       "prompt_texts": 46,
-      "all_project_checks_true": true,
-      "sync_run_id": 37565028687,
-      "pages_run_id": 37565043291
+      "all_project_checks_true": true
     },
     "deep_audit": {
-      "status": "not_due",
-      "last_checked_at": "2026-10-06T11:14:44.322Z",
-      "next_due_at": "2026-10-07T11:14:44.322Z"
+      "status": "completed",
+      "last_checked_at": "2026-10-07T21:05:51.576Z",
+      "next_due_at": "2026-10-08T21:05:51.576Z"
     },
     "notion": {
-      "status": "updated_and_read_back"
+      "status": "unchanged_nonblocking"
     },
     "library": {
       "status": "pending_or_opportunistic",
@@ -115,18 +105,19 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-07T03:01:14Z",
-    "completed_at": "2026-10-07T03:06:12.957Z",
+    "started_at": "2026-10-07T20:55:55Z",
+    "completed_at": "2026-10-07T21:06:15.439Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
       "telemetry_publication",
       "instruction_exact_7_of_7",
       "canonical_sync",
-      "light_health"
+      "light_health",
+      "deep_audit"
     ],
-    "deep_audit": "not_due",
-    "notification": "none"
+    "deep_audit": "completed",
+    "notification": "new_free_slot"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -153,15 +144,10 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "project_automations_enabled": 1,
-    "retired_automations_disabled": 2,
-    "unrelated_automations_unchanged": true,
-    "regression_guard_commit": "8ea3bcf001202d152bcc0bc56be8743cd1d9a0ec",
-    "latest_pages_run_id": 37565043291,
-    "latest_pages_conclusion": "success",
-    "latest_integration_run_id": 37565028713,
-    "latest_integration_conclusion": "success",
-    "latest_sync_run_id": 37565028687,
-    "latest_sync_conclusion": "success"
+    "public_pages_topview_checked_at": "2026-10-07T21:00:52.381Z",
+    "public_pages_occupied_slots": 4,
+    "public_pages_free_slots": 2,
+    "deep_audit_checked_at": "2026-10-07T21:05:51.576Z",
+    "automation_state_mutated": false
   }
 }
