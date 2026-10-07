@@ -155,6 +155,14 @@
 
 **Референсы:** @Image1 = композиция кантины и Чубакка · @Image2 = Han · @Image3 = Jedi
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** Джедай требует от Хана обещанный товар. Хан изображает полное непонимание и в конце обращается к Чубакке как к свидетелю; Чубакка отвечает вопросительным рыком.
 
 ```text
@@ -230,6 +238,14 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 **Контекст использования:** Сверка: продолжение сцены 10. Плёнка на стекле уже показана в части 1 / 19:05–19:36; здесь нужно уточнить смысл повторного вопроса о плёнке, не представлять сцену без пояснения как её первое получение. Реплики пока сохранены (P11).
 
 **Референсы:** те же @Image1 = композиция/Чубакка · @Image2 = Han · @Image3 = Jedi
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** Прямое продолжение части 1 без скачка во времени. Джедай шутит про Чубакку, тот возмущённо рычит, затем разговор переключается на плёнку, и Хан окончательно перестаёт понимать, о чём речь.
 
@@ -307,6 +323,16 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 **Контекст использования:** Текущий результат отклонён пользователем: в речевом отрезке артикулировал PURPLE, а кот почти не двигал пастью; последующий обмен взглядами BLACK↔PURPLE дополнительно делал сцену похожей на разговор людей. Говорящий кот канонически идентифицирован как **Лучик**. Новый prompt сохраняет композицию и deadpan-комедию, но жёстко закрепляет голос и артикуляцию только за Лучиком. Автоматически не перезапускать: это готовая переработка для следующего пользовательского запуска.
 
 **Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = **Лучик**, точный индивидуальный identity reference · @image4 = BLACK, первичный референс лица/телосложения/костюма · @image5 = PURPLE, первичный референс лица/телосложения/костюма
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/vitalik.webp" target="_blank" rel="noopener"><img src="references/vitalik.webp" alt="BLACK / Виталик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">BLACK / Виталик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/lesha.webp" target="_blank" rel="noopener"><img src="references/lesha.webp" alt="PURPLE / Лёша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">PURPLE / Лёша — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; **Лучик** всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
 
@@ -387,6 +413,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Hooded Jedi / Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Hooded Jedi / Илюша</figcaption></figure>
+<figure style="margin:0"><a href="references/artem.webp" target="_blank" rel="noopener"><img src="references/artem.webp" alt="Bearded Jedi / Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Bearded Jedi / Артём</figcaption></figure>
+<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга / Chancellor" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга / Chancellor</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
 
 ```text
@@ -452,6 +488,16 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 **Контекст использования:** Прямое продолжение уже существующего боя в пещере. Главная комедийная конструкция сцены — трое совершенно серьёзно и буднично разговаривают после тяжёлого боя, при этом всё это время сидят на трёх крупных отрубленных частях тела только что побеждённого монстра. Персонажи не считают ситуацию смешной и никак специально её не комментируют: юмор возникает только из абсурдного визуального контраста. Серёга вспоминает старые времена, спрашивает о карте; Паша сначала не понимает, зачем она ему, затем Серёга тихо говорит Паше что-то на ухо, после чего Паша без колебаний отдаёт карту Серёге. Содержание шёпота не раскрывается.
 
 **Референсы:** @Image1 = Паша / Jedi 1, тёмно-синий туник · @Image2 = Саша / Jedi 2, борода и очки · @Image3 = Серёга / Канцлер, глубокая тёмно-фиолетовая мантия · @Image4 = фото локации пещеры, точный environment reference · @Image5 = фото карты, точный prop reference · @Video1 = пещера, чудовище и прямое визуальное продолжение предыдущего боя · @Video2 = дополнительные ракурсы монстра/пещеры при необходимости continuity
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** Бой окончен. В тёмной влажной пещере трое измотанных героев сидят каждый на отдельной массивной отрубленной части тела чудовища с прижжёнными срезами без крови и органов. Несколько секунд они молча приходят в себя. Серёга с усталой ностальгией говорит: «Как в старые добрые времена. Куда вы дели карту?» Паша отвечает: «Да зачем она вообще тебе?» Серёга наклоняется и тихо шепчет Паше что-то на ухо — слов зритель не слышит. Паша сразу, совершенно без раздумий и без дальнейших вопросов, достаёт карту и отдаёт её Серёге. Саша наблюдает за этим с усталой сдержанной реакцией. Все продолжают сидеть на частях монстра, будто это самое обычное место для разговора.
 
@@ -549,6 +595,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Image1 = стартовый кадр / композиция рыбалки · @Image2 = финальный кадр / композиция бега · @Image3 = Маша в форме «Лава-Лагуны» · @Image4 = Sasha model sheet · @Image5 = Pasha model sheet
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** Саша и Паша спокойно рыбачат у озера. На воде появляется странная рябь, из воды поднимается Маша в образе Лава-Лагуны, быстро подходит к Саше лицом к лицу. Саша успевает удивлённо сказать «Маша?..», после чего получает пощёчину. Маша эмоционально упрекает его: «Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?» Паша молчит, но ярко реагирует мимикой. Саша резко вспоминает про поручение — «Ой, у нас же важное поручение!» — и вместе с Пашей срывается с места. Сцена заканчивается переходом в бег и приходит к композиции @Image2.
 
 ```text
@@ -632,6 +688,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Контекст использования:** Полный музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**, которые затем собираются в единый клип / музыкальную сцену. Это не 11 новых Scene ID: весь номер остаётся **Scene 20**. @Image1 задаёт точный берег озера, @Image2 — точную identity Маши-Лагуны. Все части используют одинаковую внешность, одежду, причёску, локацию, погоду, световую логику и цветокоррекцию. Вокальный текст внутри prompts взят **только из текста, напрямую предоставленного пользователем**, и должен исполняться дословно с sung lip sync.
 
 **Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна — exact identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна — exact identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Режиссёрская формула всей Scene 20:** основа всегда — берег озера; Маша почти всё время остаётся в кадре и является эмоциональным центром. Клип не должен быть статичным: по ходу номера она то стоит, то медленно идёт вдоль воды, то поворачивается к камере, то смотрит вдаль, то поёт прямо в объектив. Камера сознательно чередует **wide establishing shot, slow dolly-in, side tracking, gentle orbit / partial orbit, backward tracking, medium performance framing, expressive close-up и slow final pull-back**. Общая эстетика — **меланхоличный, драматичный и красивый cinematic music video, соединённый с эмоциональной ясностью мюзикла**. Никакой концертной сцены, танцоров, случайного клипового хаоса или одиннадцати одинаковых статичных кадров.
 
@@ -2181,6 +2245,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Image1 = точный первый кадр / композиция мостика · @Image2 = точный последний кадр / композиция космической битвы · @Image3 = Серёга, каноническая model sheet из «Персонажей» · @Image4 = Юля, каноническая model sheet из «Персонажей».
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/yulya.webp" target="_blank" rel="noopener"><img src="references/yulya.webp" alt="Юля — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** На мостике идёт напряжённое сражение, видимое через панорамные окна. Серёга и Юля стоят рядом в центре и искренне радуются удачному ходу боя; экипаж продолжает работать за консолями. Камера начинает внутри мостика, плавно движется вперёд между персонажами и рабочими местами к центральному окну. По мере приближения космический бой за стеклом занимает всё больше кадра. Камера без остановки, склейки и визуального эффекта пересекает плоскость стекла, оказывается снаружи и продолжает тот же полёт вперёд среди кораблей, лазерного огня и следов движения, постепенно приходя к точной геометрии и направлению @Image2.
 
 ```text
@@ -2273,6 +2346,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Image1 = точный первый кадр / разрушенная станция снаружи · @Image2 = точный последний кадр / внутренний коридор станции со штурмовиками.
 
+**Публикация exact scene-refs:** first/last frame уже используются канонически; их бинарные источники зафиксированы в Topview provenance и должны быть опубликованы миниатюрами после materialize шага, без повторного запроса у владельца.
+
 **Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
 
 ```text
@@ -2353,6 +2428,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Image1 = точный первый кадр / идущие люди и их пространство · @Image2 = точный второй кадр / парная целевая композиция котов · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются LUCHIK и RYZHIK из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
 
 ```text
@@ -2422,6 +2506,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Контекст использования:** Продолжение кошачьей ветки после просмотра результата. Главный визуальный приоритет — **точно сохранить approved cockpit photo**: тёплый янтарный жилой интерьер корабля с плотными физическими панелями, глубиной заднего отсека/коридора и той же фронтальной композицией. Рыжик остаётся штурманом/оператором систем и виден **слева в кадре**; Лучик остаётся пилотом и виден **справа в кадре**. Коты обычного домашнего размера относительно кресел и консолей, не гигантские полугуманоидные существа.
 
 **Референсы:** @Image1 = парный continuity/composition reference тех же двух котов из Scene 23 · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **APPROVED EXACT COCKPIT / COMPOSITION reference**: текущая фотография с тёплым интерьером, Рыжиком слева в кадре у навигации и Лучиком справа у пилотских органов управления. @Image4 абсолютен для интерьера, света, масштаба кресел/консолей и композиции.
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** В **той же кабине, что на @Image4**, RYZHIK визуально остаётся слева в кадре и работает с навигацией/голографическими системами, а LUCHIK справа держит основные пилотские органы управления. Оба кота читаются лицами и сохраняют обычный кошачий масштаб. Панели оживают, двигатели набирают тягу, корабль физически взлетает без redesign интерьера и без перехода к generic starfighter cockpit.
 
@@ -2504,6 +2597,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Референсы:** @Image1 = парный continuity reference котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **APPROVED EXACT COCKPIT / COMPOSITION reference**, тот же что в Scene 24. Финальный кадр Scene 24 можно добавить как дополнительный start continuity reference только если он реально доступен; он не переопределяет @Image4.
 
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
+
 **Что происходит:** Через окна **той же кабины @Image4** видно плотное космическое сражение. LUCHIK справа в кадре резко, но физически правдоподобно уклоняет корабль от огня; RYZHIK слева ведёт навигацию, переключает щиты и стреляет. Интерьер, свет, масштаб кресел и обычный кошачий размер не меняются.
 
 ```text
@@ -2576,6 +2678,15 @@ Active Wan 3.0 task `b95a76b92f9d4787b738b165eaeb270f` — нормализац�
 **Контекст использования:** Исправленная после просмотра результата диалоговая сцена. В кадре должны быть **только Лучик и Рыжик**. Серёга является адресатом их слов, но остаётся полностью **off-camera** и не появляется ни лицом, ни телом, ни мантией, ни силуэтом, ни отражением, ни фрагментом, поэтому не может «раствориться» в воздухе. Локация остаётся тем же древним монументальным каменным городом-руиной на оранжево-золотом закате. Сохраняем удачную атмосферу прошлой генерации: заметная, но не чрезмерная взвесь мелкой сухой пыли, пепла и редких ember-like частиц. Оба кота обычного домашнего масштаба.
 
 **Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **точный LOCATION / ENVIRONMENT reference**: чистый широкий кадр древнего монументального каменного города-руины на закате. **Серёгу как image reference в исправленную Scene 26 не прикреплять**, потому что он не должен быть виден.
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** На широкой ступенчатой террасе древнего города-руины видны только два кота-магистра. Рыжик первым зло и уверенно обращается к Серёге, который находится за пределами кадра; затем Лучик выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует. Тёплый закатный свет режет пыльный воздух, а мелкий пепел, сухая пыль и редкие искрящиеся частицы постоянно проходят через глубину кадра и затем продолжаются в Scene 27.
 
@@ -2685,6 +2796,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Контекст использования:** Немедленное продолжение исправленной Scene 26. **Все три production-варианта Scene 27 — основной 30s Seedance 2.5 и обе 15s части Seedance 2.0 — получают одинаковые коррективы после просмотра результатов:** коты остаются обычного небольшого домашнего масштаба, в воздухе непрерывно присутствует та же сухая пепельно-пыльная взвесь с редкими искрящимися частицами, а бой становится заметно быстрее, агрессивнее и подвижнее, без долгих hero-pose пауз и статичного стояния. Коты явно превосходят Серёгу скоростью и координацией; Серёга почти всё время вынужден обороняться.
 
 **Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference · @Image5 = **точный LOCATION / ENVIRONMENT reference**: чистый широкий кадр древнего монументального каменного города-руины на закате. @Image5 является абсолютным визуальным источником локации, архитектуры, материала, пространственного масштаба, направления света и цветовой атмосферы. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference только для стартовых позиций/эмоционального состояния; он не должен переопределять @Image5 как authority окружения.
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
+</div>
+
+**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+
 
 **Что происходит:** Бой разворачивается прямо в локации @Image5 и сохраняет атмосферу Scene 26: в тёплом закатном воздухе постоянно движутся мелкий сухой пепел, пыль и редкие ember-like частицы. Оба кота заметно меньше Серёги — даже в вертикальной боевой стойке их голова не выше примерно уровня его колена. Они не позируют, а непрерывно меняют позиции и углы атаки: Лучик давит точными силовыми сериями с синим клинком, Рыжик быстро обходит и режет углы зелёным. Серёга с красным мечом отбивается и пытается контратаковать, но почти каждый обмен заставляет его отступать, блокировать или восстанавливаться.
 
@@ -3067,6 +3188,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 #### A1 · Танец 1 — Серёга и Юля задают устав
 
 **Референсы:** @Image1 = H28A (ангар и начальный свет) · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = H28B (только конечный дискотечный свет).
+
+**Используемые identity-референсы на сайте:**
+<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
+<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга</figcaption></figure>
+<figure style="margin:0"><a href="references/yulya.webp" target="_blank" rel="noopener"><img src="references/yulya.webp" alt="Юля" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля</figcaption></figure>
+<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша</figcaption></figure>
+<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша</figcaption></figure>
+<figure style="margin:0"><a href="references/artem.webp" target="_blank" rel="noopener"><img src="references/artem.webp" alt="Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Артём</figcaption></figure>
+<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Илюша</figcaption></figure>
+<figure style="margin:0"><a href="references/lesha.webp" target="_blank" rel="noopener"><img src="references/lesha.webp" alt="Лёша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лёша</figcaption></figure>
+<figure style="margin:0"><a href="references/vitalik.webp" target="_blank" rel="noopener"><img src="references/vitalik.webp" alt="Виталик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Виталик</figcaption></figure>
+<figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна</figcaption></figure>
+<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик</figcaption></figure>
+<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик</figcaption></figure>
+</div>
+
 
 ```text
 Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
