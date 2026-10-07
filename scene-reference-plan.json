@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-07",
+  "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
+  "rules": {
+    "save_before_next_generation": true,
+    "one_image_at_a_time": true,
+    "individual_sheet_overrides_composition": true,
+    "no_silent_paid_reference_generation": true,
+    "site_thumbnails_required_for_used_refs": true
+  },
+  "scenes": {
+    "10": {
+      "drive_folder_id": "1H3Bq3G-saw0RXW3vSzI-mVy6R1Ob6MRX",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 10",
+      "priority": "high",
+      "needed": [
+        "identity_locked_three_shot"
+      ],
+      "topview_task_ids": []
+    },
+    "11": {
+      "drive_folder_id": "18fjLl8dKPi5U6Iu0nTdUDhfKNgo-pWVa",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 11",
+      "priority": "high",
+      "needed": [
+        "reuse_scene_10",
+        "optional_end_state"
+      ],
+      "topview_task_ids": []
+    },
+    "13": {
+      "drive_folder_id": "1uRaTN2UP7UBjhjxcsBHBviG85ojIrSAw",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 13",
+      "priority": "high",
+      "needed": [
+        "council_luchik_lap",
+        "luchik_speaking_closeup"
+      ],
+      "topview_task_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ]
+    },
+    "16": {
+      "drive_folder_id": "1ilIL52alNkjLMiab2XaMcKc6H_y951Nl",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 16",
+      "priority": "high",
+      "needed": [
+        "three_character_standoff",
+        "optional_worm_scale"
+      ],
+      "topview_task_ids": []
+    },
+    "17": {
+      "drive_folder_id": "144klZY5o3pQ8v1O03UrGtIJSEj0Yjf0s",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 17",
+      "priority": "high",
+      "needed": [
+        "post_battle_seated",
+        "map_handoff"
+      ],
+      "topview_task_ids": [
+        "67b8304f8a324b7493af32fd0a0ae5d7"
+      ]
+    },
+    "19": {
+      "drive_folder_id": "1j5w0tM90pQANhYe_rjNx61LRghttUE9_",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 19",
+      "priority": "medium",
+      "needed": [
+        "optional_masha_sasha_faceoff"
+      ],
+      "topview_task_ids": [
+        "6ef310d646ca4605b5b10c12752b6ab7",
+        "e4ad0298cf7d48a98c6ba6498bb62c48"
+      ]
+    },
+    "20": {
+      "drive_folder_id": "1Xzix5Am_jdAO-t0_yeyWy6SQ3fjNIzfL",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 20",
+      "priority": "medium-high",
+      "needed": [
+        "wide_standing",
+        "side_walk_profile",
+        "close_performance"
+      ],
+      "topview_task_ids": [
+        "2b87094928e14ca7827b911f2fbbd747",
+        "117b9d976d2c4a54945256e79fc64639",
+        "ef0a2cdb1c8841ac8d031a19fa07bd9e",
+        "42e5cdb42c1a45df8a037a26eb3fa26b"
+      ]
+    },
+    "21": {
+      "drive_folder_id": "1A3fQyPcKbNeIYqN4PrW9y-Go4U6r91vk",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 21",
+      "priority": "conditional",
+      "needed": [
+        "only_if_identity_drift"
+      ],
+      "topview_task_ids": [
+        "6d05c85753234b64b43fc75157437a0d"
+      ]
+    },
+    "22": {
+      "drive_folder_id": "1kmTryF7g6nUtXutZ0-FUTGf_lYLMr_ho",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 22",
+      "priority": "low",
+      "needed": [
+        "none_by_default"
+      ],
+      "topview_task_ids": [
+        "6926ce5d0f81477ea06f135d4b658f97"
+      ]
+    },
+    "23": {
+      "drive_folder_id": "10cPrK_10RbYr9pfrSHN0IjXGKnxO-5OD",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 23",
+      "priority": "low",
+      "needed": [
+        "only_if_pair_drift"
+      ],
+      "topview_task_ids": [
+        "e42b4746c792472a9586ae95cd1513d3"
+      ]
+    },
+    "24": {
+      "drive_folder_id": "1SoP5-DvpXquHVX7gukIYPniqAiHnlEO7",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 24",
+      "priority": "low",
+      "needed": [
+        "none_by_default"
+      ],
+      "topview_task_ids": [
+        "91ed2c95c6944772bed06bafed46cdd6"
+      ]
+    },
+    "25": {
+      "drive_folder_id": "1WMG0T_EL-RspzBqX4AhXydWO9yB5e5WV",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 25",
+      "priority": "conditional",
+      "needed": [
+        "only_if_battle_light_drift"
+      ],
+      "topview_task_ids": []
+    },
+    "26": {
+      "drive_folder_id": "1m0O7Cp05lNv2nwLWmu8gV5-qYZ4WFLh2",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 26",
+      "priority": "medium",
+      "needed": [
+        "two_cat_dialogue_staging"
+      ],
+      "topview_task_ids": [
+        "e100cb476f9548edae0f36a99471b6e5",
+        "b95a76b92f9d4787b738b165eaeb270f"
+      ]
+    },
+    "27": {
+      "drive_folder_id": "1iuNnARiLSLR1U9lMO1bEK7bRQx5_7kEn",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 27",
+      "priority": "high",
+      "needed": [
+        "three_subject_action_staging"
+      ],
+      "topview_task_ids": [
+        "98150f1d673344e4b2fec6f9cd6685a0",
+        "181863ea0c494773a765f4bc4ec94424",
+        "ffa34324436745beb161d72ae9d4394f",
+        "017bebefc4c54038954301968a4b5d68"
+      ]
+    },
+    "28": {
+      "drive_folder_id": "1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ",
+      "library_path": "/AI Film/Scene Reference Packs/Scene 28",
+      "priority": "highest",
+      "needed": [
+        "S28_correct_shoulder_pose",
+        "G28_clean_11_subject_group"
+      ],
+      "topview_task_ids": []
+    }
+  }
+}
