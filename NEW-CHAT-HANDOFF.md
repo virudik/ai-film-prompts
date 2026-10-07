@@ -1071,3 +1071,19 @@ Partial intermediate commits не считаются final state и не дол�
 **Current implementation checkpoint (07.10.2026).** Drive root `Scene Reference Packs` = `16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI`; folders now exist for every active Scene ID 10, 11, 13, 16, 17, 19–28; existing Scene 28 pack `1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ` was moved under that root without changing its ID. Matching Library folders exist under `/AI Film/Scene Reference Packs/`. The durable `scene-reference-plan` contains the active-scene audit and rollout priority. Proven live Topview input recovery currently covers Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26 and 27. Scene 28 accepted P28/L28/F28 must not be regenerated gratuitously; R28A/R28B remain composition-only; correct S28 and clean G28 remain pending.
 
 **Do not abandon a working reference method after one success.** When a method preserves the exact identities/location and passes QC, save that output and treat the method as the preferred baseline for the next comparable ref. Experiment with another path only when the saved baseline cannot satisfy the next requirement. If a new path performs worse, revert to the last verified path rather than continuing uncontrolled experimentation.
+
+### Reference Pack rollout checkpoint — 07.10.2026 / source provenance
+
+Completed:
+- Drive root `Scene Reference Packs` and per-active-scene folders 10, 11, 13, 16, 17, 19–28 exist; Scene 28 retained its original folder ID.
+- Library mirror `/AI Film/Scene Reference Packs/Scene N` exists for the same active Scene IDs.
+- `scene-reference-plan` is stored in Drive/Library/GitHub and records the per-scene need/priority audit.
+- Exact live Topview input provenance for Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26 and 27 is snapshotted in `scene-reference-sources.json`; Drive pointer document ID `1PfsK0qpBRCmvEiFD-O6H7oH_Np5zLgVASmoki0jz0Hk`.
+- An authorized Topview Canvas `AI Film — Reference Bridge` (`cc0e9be082eb4df88bf9f38d111af25b`) proved that task `inputImageS3Path` media can be rehydrated without asking the owner to re-upload it.
+
+Still incomplete and therefore MUST be continued, not silently dropped:
+1. Materialize exact Topview image inputs into each Scene pack, add manifests/role mapping, then publish scene-used inputs as compact site thumbnails.
+2. Prepare only the additional stills listed in `scene-reference-plan`, highest value first: Scene 28 S28/G28; Scene 13; Scene 17; Scene 27; Scene 10/11; Scene 16; then conditional scenes.
+3. Preserve active slow tasks 20/26/27; reference preparation does not authorize rerender or duplicate slow jobs.
+4. Before any Nano Banana helper submit, prove the specific route is unlimited/zero-credit. Historical Board tasks show Nano Banana 2 with `useUnlimitMode=true` and `creditsCost=0`, but the generic connector submit contract does not expose an explicit unlimited switch; never silently fall back to a paid path.
+
