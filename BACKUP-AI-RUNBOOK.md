@@ -1,18 +1,34 @@
 ﻿# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
 
+
 ## Действующее расписание — решение владельца 06.10.2026
+
 
 **Приоритет этого блока:** он заменяет все прежние указания ниже о двух/трёх project automations, HH:05 Recovery, восстановлении архивных задач и временном выключении writer при ручном ремонте. Исторические checkpoints ниже не являются текущей конфигурацией.
 
+
 Единственная действующая задача: **AI Film — единый монитор**, ID `6aac794245e481919ee7155c461cc77e`, exact hourly **HH:00 Europe/Moscow**. Внутри одного запуска: Topview account slots + уведомления, AI Film scene intake/telemetry publication, проверка 7/7 Drive↔GitHub и canonical sync, hourly light health, daily deep audit при возрасте ≥24 ч. Recovery — фаза этой же задачи, без отдельного расписания.
+
 
 Намеренно архивированы по просьбе владельца: Recovery `6aac3e4dfe6c81918b3eead8529edf30` и «Свободные слоты Topview» `6ac358bf36548191b64ae6326bcc1f9b`. Оставлять `is_enabled:false`; **не включать обратно**, не создавать заменяющие дубли. Их история сохраняется. Правило preserve-enabled относится только к единственному действующему монитору.
 
+
 При недоступном connector, конфликте записи или partial publication не выключать задачу: сохранить старые подтверждённые timestamps, записать конкретный сбой, выполнить остальные доступные фазы и повторить недоступную фазу в следующем цикле. Не вызывать automations.update из фонового запуска. Для ручного ремонта использовать fresh-read/version guard/rebase и отложенную конфликтующую запись, без паузы расписания. Явное решение владельца остановить задачу имеет приоритет.
+
 
 Уведомления — только новое освобождение slow slot, новый существенный результат/блокер либо восстановление; неизменные здоровые проверки не спамят. Дедупликация и последняя фактически выполненная фаза: `automation-monitor-status.json`. Глобальные slots считать по complete all-owned-boards VIDEO scan и уникальным active `useUnlimitMode=true` task IDs; project scene intake ограничен доказанными AI Film mappings. Не придумывать Scene ID чужой задаче. Успех генерации не является редакционным approval.
 
+
 **Ограничение одного расписания:** независимой второй проверки работоспособности scheduler больше нет. Если платформа остановит саму задачу, отключённая задача себя не запустит. Доступный API не раскрывает причину последнего отключения и не предоставляет настройку «никогда не приостанавливать». Не выдавать prompt-запрет самоотключения за гарантию платформы. Не имитировать чтение уведомлений/активность пользователя. Проверка конфигурации — read-back automations и этот актуальный блок.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32,6 +48,14 @@
 
 
 
+
+
+
+
+
+
+
+
 ## 1. Нельзя начинать с редактирования
 
 
@@ -41,7 +65,23 @@
 
 
 
+
+
+
+
+
+
+
+
 Новый агент сначала читает **все семь** обязательных документов:
+
+
+
+
+
+
+
+
 
 
 
@@ -65,12 +105,28 @@
 
 
 
+
+
+
+
+
+
+
+
 Затем:
 - fresh exact Drive `video-prompts.md`;
 - live `project-status.json`;
 - live `topview-status.json`;
 - live `instruction-sync-status.json`;
 - при story/editing — `film-analysis.md`, `film-backlog.md`, затем релевантный Notion `Кино`.
+
+
+
+
+
+
+
+
 
 
 
@@ -88,6 +144,14 @@
 
 
 
+
+
+
+
+
+
+
+
 ## 2. Capability preflight
 
 
@@ -97,7 +161,23 @@
 
 
 
+
+
+
+
+
+
+
+
 Перед записью агент должен доказать, что конкретное окружение умеет:
+
+
+
+
+
+
+
+
 
 
 
@@ -119,10 +199,26 @@
 
 
 
+
+
+
+
+
+
+
+
 Для instruction maintenance также нужны:
 - read/write exact seven Drive instruction IDs;
 - exact GitHub mirror update;
 - проверка `instruction-sync-status.json`.
+
+
+
+
+
+
+
+
 
 
 
@@ -140,7 +236,23 @@
 
 
 
+
+
+
+
+
+
+
+
 ## 3. Источник истины
+
+
+
+
+
+
+
+
 
 
 
@@ -152,6 +264,14 @@
 Drive:
 - prompt master;
 - seven canonical instruction/recovery docs.
+
+
+
+
+
+
+
+
 
 
 
@@ -173,8 +293,24 @@ GitHub:
 
 
 
+
+
+
+
+
+
+
+
 Notion:
 - story/ideas/history.
+
+
+
+
+
+
+
+
 
 
 
@@ -193,8 +329,24 @@ Library:
 
 
 
+
+
+
+
+
+
+
+
 Topview:
 - telemetry.
+
+
+
+
+
+
+
+
 
 
 
@@ -213,6 +365,14 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 Ни один из последних пяти не становится prompt master.
 
 
@@ -222,7 +382,23 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 ## 4. Правила master
+
+
+
+
+
+
+
+
 
 
 
@@ -249,6 +425,14 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 Если следующий Scene ID однозначно вычисляется по fresh master, новый чат сам выбирает следующий unused stable ID и **не задаёт лишний вопрос пользователю**.
 
 
@@ -258,7 +442,23 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 ## 5. Правила prompt-writing
+
+
+
+
+
+
+
+
 
 
 
@@ -279,7 +479,23 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 Новый prompt должен соответствовать master-level сложности, а не быть коротким generic описанием.
+
+
+
+
+
+
+
+
 
 
 
@@ -306,6 +522,14 @@ Supabase:
 
 
 
+
+
+
+
+
+
+
+
 Approved model sheet сильнее случайного frame similarity.
 
 
@@ -315,7 +539,23 @@ Approved model sheet сильнее случайного frame similarity.
 
 
 
+
+
+
+
+
+
+
+
 ## 6. Routine write procedure
+
+
+
+
+
+
+
+
 
 
 
@@ -342,6 +582,14 @@ Approved model sheet сильнее случайного frame similarity.
 
 
 
+
+
+
+
+
+
+
+
 Не говорить `ГОТОВО` до relevant verification.
 
 
@@ -351,7 +599,23 @@ Approved model sheet сильнее случайного frame similarity.
 
 
 
+
+
+
+
+
+
+
+
 ## 7. Seven-document instruction maintenance
+
+
+
+
+
+
+
+
 
 
 
@@ -376,6 +640,14 @@ Canonical set:
 
 
 
+
+
+
+
+
+
+
+
 Drive authority → GitHub mirror.
 
 
@@ -385,7 +657,23 @@ Drive authority → GitHub mirror.
 
 
 
+
+
+
+
+
+
+
+
 `instruction-sync-status.json` должен проверять все семь.
+
+
+
+
+
+
+
+
 
 
 
@@ -404,8 +692,24 @@ Drive → GitHub only.
 
 
 
+
+
+
+
+
+
+
+
 Нельзя автоматически:
 GitHub → Drive.
+
+
+
+
+
+
+
+
 
 
 
@@ -423,6 +727,14 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 Если агент внедрил постоянное нововведение:
 - функцию сайта;
 - новый backend;
@@ -430,6 +742,14 @@ GitHub → Drive.
 - новый sync/recovery behavior;
 - новый source-of-truth rule;
 - новый status;
+
+
+
+
+
+
+
+
 
 
 
@@ -455,6 +775,14 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 Изменение кода без документации не считается законченным.
 
 
@@ -464,7 +792,23 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 ## 9. Control Center current baseline
+
+
+
+
+
+
+
+
 
 
 
@@ -490,7 +834,23 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 Старой кнопки `Архив GitHub` нет.
+
+
+
+
+
+
+
+
 
 
 
@@ -514,6 +874,14 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 ## 10. Site-only edit procedure
 
 
@@ -523,7 +891,23 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 Править `index.html` в GitHub.
+
+
+
+
+
+
+
+
 
 
 
@@ -545,7 +929,23 @@ GitHub → Drive.
 
 
 
+
+
+
+
+
+
+
+
 Scene/prompt data нельзя hard-code в HTML.
+
+
+
+
+
+
+
+
 
 
 
@@ -563,6 +963,14 @@ Scene/prompt data нельзя hard-code в HTML.
 
 
 
+
+
+
+
+
+
+
+
 ## 11. Topview safety
 
 
@@ -572,7 +980,23 @@ Scene/prompt data нельзя hard-code в HTML.
 
 
 
+
+
+
+
+
+
+
+
 Canonical slow = fresh `project-status.json.slow_scenes`.
+
+
+
+
+
+
+
+
 
 
 
@@ -594,11 +1018,27 @@ Task mapping:
 
 
 
+
+
+
+
+
+
+
+
 Passive telemetry never:
 - approves;
 - clears slow;
 - edits master;
 - reruns automatically.
+
+
+
+
+
+
+
+
 
 
 
@@ -616,7 +1056,23 @@ Passive telemetry never:
 
 
 
+
+
+
+
+
+
+
+
 ## 12. Recovery known issues
+
+
+
+
+
+
+
+
 
 
 
@@ -639,7 +1095,23 @@ Passive telemetry never:
 
 
 
+
+
+
+
+
+
+
+
 ## 13. Notion / Library
+
+
+
+
+
+
+
+
 
 
 
@@ -660,6 +1132,14 @@ Notion:
 
 
 
+
+
+
+
+
+
+
+
 Library:
 - recovery mirror/cache;
 - keep current copies of seven docs + recovery summary/status;
@@ -672,7 +1152,23 @@ Library:
 
 
 
+
+
+
+
+
+
+
+
 ## 14. Правило поведения сменщика
+
+
+
+
+
+
+
+
 
 
 
@@ -695,7 +1191,23 @@ Library:
 
 
 
+
+
+
+
+
+
+
+
 Цель takeover: пользователь должен иметь возможность сказать только новую творческую/рабочую задачу, а сменщик уже знает инфраструктуру и процесс.
+
+
+
+
+
+
+
+
 
 
 
@@ -713,7 +1225,23 @@ Library:
 
 
 
+
+
+
+
+
+
+
+
 До вступления в роль резервный агент обязан открыть `references.html`, прочитать `character-references.json` и сопоставить глобальные имена/aliases/model sheets с current master. Пользователь имеет право называть персонажей коротко по именам; агент должен сам восстановить identity/appearance/costume/reference mapping.
+
+
+
+
+
+
+
+
 
 
 
@@ -731,7 +1259,23 @@ Library:
 
 
 
+
+
+
+
+
+
+
+
 Approved individual model sheet outranks group/environment similarity. Current master outranks stale scene-usage metadata. Если имя реально ambiguous — спросить; иначе не перекладывать повторное описание на пользователя.
+
+
+
+
+
+
+
+
 
 
 
@@ -749,6 +1293,14 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 
 
+
+
+
+
+
+
+
+
 Перед `готов продолжать` выполнить cross-layer audit: Drive canonical docs/master → GitHub mirrors/status/site → references → montage sources → Notion operational pointer. Library recovery проверить как recovery-only cache; stale/pending Library не блокирует readiness при доступном fresh Drive/GitHub и не требует permission prompt владельцу. Безопасный documentation drift исправить согласно authority. Не менять story/master/approval на основании audit без пользовательского решения.
 
 
@@ -758,7 +1310,23 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 
 
+
+
+
+
+
+
+
+
 ## 17. Topview task-intake awareness
+
+
+
+
+
+
+
+
 
 
 
@@ -778,7 +1346,23 @@ Approved individual model sheet outranks group/environment similarity. Current m
 
 
 
+
+
+
+
+
+
+
+
 Existing-scene match считается доказанным только при exact/normalization-equivalent canonical prompt или explicit provenance; допустимы лишь несемантические различия `@image` ↔ `<<<Image>>>`, whitespace/line endings/reference-token formatting плюс совместимые model/duration/references. Общая semantic similarity не даёт права ни привязать, ни тихо проигнорировать task.
+
+
+
+
+
+
+
+
 
 
 
@@ -803,6 +1387,14 @@ Existing-scene match считается доказанным только при
 
 
 
+
+
+
+
+
+
+
+
 При recovery обязательно проверять, что одна Topview task не импортирована дважды и что newly launched retry существующей сцены не был ошибочно отброшен как «семантически похожий» без task binding/slow update.
 
 
@@ -812,7 +1404,23 @@ Existing-scene match считается доказанным только при
 
 
 
+
+
+
+
+
+
+
+
 ## 18. Recovery automation topology
+
+
+
+
+
+
+
+
 
 
 
@@ -832,7 +1440,23 @@ Existing-scene match считается доказанным только при
 
 
 
+
+
+
+
+
+
+
+
 При takeover проверить `deep-audit-status.json`: когда был последний successful deep audit, какие sections/warnings/unresolved. Старый/missing/failed status означает, что deep audit должен быть выполнен следующим Recovery run или вручную до уверенного readiness report.
+
+
+
+
+
+
+
+
 
 
 
@@ -850,7 +1474,23 @@ Existing-scene match считается доказанным только при
 
 
 
+
+
+
+
+
+
+
+
 В шторке сайта **«Служебные файлы»** ссылок больше семи, но canonical instruction set всё равно состоит ровно из 7 документов. Эти семь кнопок идут вертикально в takeover order 1→7.
+
+
+
+
+
+
+
+
 
 
 
@@ -868,6 +1508,14 @@ Master, film-analysis и backlog вынесены ниже как **рабочи
 
 
 
+
+
+
+
+
+
+
+
 ## Canonical Topview state — minimal operational model
 
 
@@ -877,7 +1525,23 @@ Master, film-analysis и backlog вынесены ниже как **рабочи
 
 
 
+
+
+
+
+
+
+
+
 This is the permanent Topview rule for the master, watcher, recovery and Control Center:
+
+
+
+
+
+
+
+
 
 
 
@@ -909,7 +1573,23 @@ This is the permanent Topview rule for the master, watcher, recovery and Control
 
 
 
+
+
+
+
+
+
+
+
 Principle: **keep only the state required for correctness and deduplication; detailed render history is not a permanent project entity**.
+
+
+
+
+
+
+
+
 
 
 
@@ -927,7 +1607,23 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 
+
+
+
+
+
+
+
+
 Это постоянный UI/automation contract:
+
+
+
+
+
+
+
+
 
 
 
@@ -977,7 +1673,31 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Recovery check: автономность prompts
+
+
+
+
+
+
+
+
 
 
 
@@ -995,7 +1715,23 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 
+
+
+
+
+
+
+
+
 ### Recovery: prompt-quality contract
+
+
+
+
+
+
+
+
 
 
 
@@ -1009,12 +1745,24 @@ Principle: **keep only the state required for correctness and deduplication; det
 
 
 
+
+
+
+
 ## Reliability write contract — 23.09.2026
 
 
 
 
+
+
+
+
 Permanent set-and-forget rule for technical project state:
+
+
+
+
 
 
 
@@ -1031,12 +1779,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## AUDIT HARDENING UPDATE — 24.09.2026
 
 
 
 
+
+
+
+
 Этот блок фиксирует внедрённые после комплексного аудита правила. При конфликте со старым checkpoint/prose выше этот блок и fresh live sources имеют приоритет.
+
+
+
+
 
 
 
@@ -1058,7 +1818,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## AUDIT VERIFICATION CLOSURE — 24.09.2026
+
+
+
+
 
 
 
@@ -1077,7 +1845,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## CONTROL CENTER FILTER HYGIENE — 24.09.2026
+
+
+
+
 
 
 
@@ -1095,7 +1871,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## TOPVIEW HOURLY LIVENESS SLA — 24.09.2026
+
+
+
+
 
 
 
@@ -1117,12 +1901,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ### Invariant — автоматическое ежечасное обновление Topview во всех трёх пользовательских представлениях
 
 
 
 
+
+
+
+
 Это **жёсткий runtime/publish-контракт**, а не рекомендация. Каждый успешный запуск `Topview Scene Intake & Slow Watch` обязан не только прочитать Topview, но и **опубликовать новый свежий `topview-status.json` snapshot**, даже если набор Scene ID не изменился и поменялись только `checked_at`, status, queue или ETA.
+
+
+
+
 
 
 
@@ -1135,12 +1931,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 Все три должны автоматически актуализироваться **на каждом ежечасном Topview refresh** из **одного и того же** freshly committed `topview-status.json.active_tasks[]` и одного `checked_at`. На сайте запрещены три независимые копии live Topview state. `project-status.json` и canonical master участвуют как consistency gate для slow membership, но не заменяют `topview-status.json` как realtime telemetry source.
 
 
 
 
+
+
+
+
 ### Что watcher обязан публиковать каждый час
+
+
+
+
 
 
 
@@ -1159,12 +1967,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 **Queue/status/ETA-only изменение не является no-op.** Если watcher получил свежие данные Topview, но не записал новый `topview-status.json` и не обновил публичный snapshot сайта, hourly run считается незавершённым.
 
 
 
 
+
+
+
+
 ### Как эти данные должны выглядеть в трёх местах
+
+
+
+
 
 
 
@@ -1179,10 +1999,18 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 **Кардинальность трёх представлений:**
 - `РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС` показывает **N уникальных slow-сцен / M active tasks** и Scene IDs с кратностью;
 - `⏳ В медленной генерации — Topview` показывает **ровно M строк**, одна строка = один active task/slot;
 - `🎬 Активные сцены проекта — карта и навигация` показывает **ровно N уникальных active Scene ID** с агрегированным live status и кратностью.
+
+
+
+
 
 
 
@@ -1192,7 +2020,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ### Hourly publish gate
+
+
+
+
 
 
 
@@ -1212,7 +2048,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 После успешной записи `topview-status.json` обычный GitHub Pages pipeline должен опубликовать новый snapshot. При изменении canonical slow/master дополнительно выполняется обычный `SYNC-TRIGGER.txt` → Drive sync/validation. Если меняются только queue/status/ETA, master переписывать не нужно, но **fresh `topview-status.json` + Pages refresh обязательны**.
+
+
+
+
 
 
 
@@ -1222,7 +2066,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## CHATGPT PROJECT MODE — AI Film Серёгиус — 24.09.2026
+
+
+
+
 
 
 
@@ -1240,7 +2092,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+
+
+
+
 
 
 
@@ -1255,7 +2115,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ## ERROR-PREVENTION ARCHITECTURE — 24.09.2026
+
+
+
+
 
 
 
@@ -1265,12 +2133,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ### 1. Пять независимых health-доменов
 
 
 
 
+
+
+
+
 Нельзя сворачивать все служебные состояния в один красный `ОШИБКА СИНХРОНИЗАЦИИ`.
+
+
+
+
 
 
 
@@ -1284,7 +2164,15 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ### 2. Один публичный источник Topview + stable checkpoint
+
+
+
+
 
 
 
@@ -1297,12 +2185,24 @@ Permanent set-and-forget rule for technical project state:
 
 
 
+
+
+
+
 ### 3. Транзакционный порядок Topview publication
 
 
 
 
+
+
+
+
 При доступном Topview watcher сначала вычисляет полный intended state в памяти и публикует только в таком порядке:
+
+
+
+
 
 
 
@@ -1316,12 +2216,24 @@ E. только после checkpoint — обычный sync trigger, если 
 
 
 
+
+
+
+
 Если шаг B не прошёл, C/D не выполняются. Если C не прошёл, D не выполняется. Нельзя продвигать checkpoint поверх partial state.
 
 
 
 
+
+
+
+
 ### 4. Schedule / one-writer / watchdog
+
+
+
+
 
 
 
@@ -1335,12 +2247,24 @@ E. только после checkpoint — обычный sync trigger, если 
 
 
 
+
+
+
+
 ### 5. Background connector degradation
 
 
 
 
+
+
+
+
 Если Topview connector отсутствует именно в background Scheduled Task:
+
+
+
+
 
 
 
@@ -1354,7 +2278,15 @@ E. только после checkpoint — обычный sync trigger, если 
 
 
 
+
+
+
+
 Recovery в HH:05 повторно оценивает ситуацию. Если connector недоступен и там, это честное состояние **Topview telemetry stale/degraded**, а не ошибка Drive/master sync.
+
+
+
+
 
 
 
@@ -1364,7 +2296,15 @@ Recovery в HH:05 повторно оценивает ситуацию. Если
 
 
 
+
+
+
+
 Blocking checks проекта используют только authoritative/self-contained invariants. Временный task-map cache drift хранится в `project-status.json.maintenance.topview_task_map` и не меняет `health=ok` сам по себе.
+
+
+
+
 
 
 
@@ -1378,7 +2318,15 @@ Control Center:
 
 
 
+
+
+
+
 ### 7. Definition of Done для Topview state
+
+
+
+
 
 
 
@@ -1393,10 +2341,18 @@ Control Center:
 
 
 
+
+
+
+
 Partial intermediate commits не считаются final state и не должны порождать owner-facing красную ошибку.
 
 
+
+
 ### Serialized canonical instruction writes
+
+
 
 
 Seven canonical instruction docs изменяются только последовательно: fresh-read/version check → SAME-ID Drive write → read-back → exact GitHub mirror → verify → следующий файл. После timeout/unknown outcome обязательно заново прочитать affected Drive file; не повторять stale write вслепую. Read-only проверки можно batch-ить; canonical writes — serial transaction.
@@ -1404,7 +2360,13 @@ Seven canonical instruction docs изменяются только послед�
 
 
 
+
+
+
+
 ## CONTROL CENTER OWNER UI — 24.09.2026
+
+
 
 
 При восстановлении сайта сохранять актуальный owner-facing контракт:
@@ -1415,12 +2377,17 @@ Seven canonical instruction docs изменяются только послед�
 - floating **↑ Наверх** после прокрутки;
 - не восстанавливать старый вариант, где free slots были скрыты или верхняя карточка считала только unique slow scenes.
 
+
 ## Recovery rule: automatic master revision — 26.09.2026
+
 
 Recovery не должен восстанавливать старую ручную revision date в `video-prompts.md` и не должен считать обычный sync новой ревизией. Проверять `project-status.json.canonical_revision_sha256` + `revision_date`: semantic master change должен обновить дату автоматически, технический sync-only cycle должен сохранить её. Date-less master counter line — текущий канон.
 
 
+
+
 ## 27.09.2026 — даты монтажных версий и незавершённая публикация Topview
+
 
 - В chooser `Монтажный разбор` сохраняются два пункта: `Первая версия` с датой **17.09.2026** (публикация завершённого первого HTML; same-ID Drive modified 17.09) и `Вторая версия` с датой **24.09.2026** (дата отчёта в самом HTML новой сборки). Дата загрузки второго файла в Drive по Москве — 25.09 — не заменяет дату, указанную автором в отчёте. Обе ссылки сохраняются.
 - При разборе stale Topview обнаружен journal-only cycle: запись о свежей проверке была добавлена, а публичный snapshot и stable checkpoint остались прежними. Выполнен live emergency refresh; подробная фактическая отметка хранится только в runtime JSON, не в этой инструкции.
@@ -1428,26 +2395,49 @@ Recovery не должен восстанавливать старую ручн�
 - Watcher и Recovery сохраняют действующие расписания HH:00 / HH:05 Europe/Moscow и `is_enabled=true`. Recovery считает свежий journal при старом public checkpoint незавершённой публикацией; deterministic emergency refresh разрешён только по существующим stale/failed и one-writer правилам. При недоступном connector не подделывать timestamp.
 - Для лёгкого hourly run хранить большие Board/task payloads внутри code-mode orchestration, если она доступна; в контекст выводить компактные ID/status/model/queue/ETA projections. Полные prompts/references нужны только для неизвестного candidate. Просматривать все строки требуемых страниц, но не выгружать в контекст base64 и повторяющиеся известные промты.
 
+
 ## 30.09.2026 — Recovery при повторном устаревании сайта
+
 
 Фиксировать в recovery journal разные доказательства: 1) `project-status.synced_at` / hash master; 2) `topview-status.checked_at` / task-map/checkpoint identity; 3) `instruction-sync-status.checked_at` / 7-of-7 exact Drive↔GitHub comparison; 4) latest successful Pages artifact. НЕЛЬЗЯ использовать время успешного sync или `last_run_time` watcher вместо provider `checked_at`. Фоновое выполнение Scheduled Task может успешно стартовать, но не завершить PUBLIC publication. GitHub scripts/check_public_freshness.py присутствует как read-only checker, scheduled GitHub watchdog workflow НЕ активирован после blocked creation. Страховка живёт в уже имеющемся Recovery HH:05, который каждый час независимо читает публичные JSON и семь Drive canonical docs; Watcher HH:00 сохраняется enabled, третью задачу не создавать.
 
+
 Recovery threshold: Topview >105 min since last real verified check, instruction exact certificate >165 min, либо любое несовпадение `topview-status.checked_at == topview-task-map.updated_at == topview-task-map.last_scan_at == topview-checkpoint.checked_at`, task IDs, capacity/occupied or canonical slow Scene ID set. При доступном Topview/Drive детерминированно устранять drift и публиковать map (journal optional) → PUBLIC status → checkpoint LAST, read-back every write, Pages verification. При недоступном connector сохранять last known verified data/timestamps и отдельно помечать degraded; НЕ чинить свежесть простой заменой даты. Не дублировать часовые сообщения о том же инциденте. Review/approve/rerun/new-launch/delete/close остаются только по решению владельца.
+
 
 Исторический checkpoint 30.09: five slow Scenes `22,23,24,26,27`, six active Topview task slots (Scene 27 two 15s Seedance 2.0 tasks), Scene 21 terminal success без auto-approval. Scene 26 launched before @Image5 environment correction; редакционную оценку результата не делать автоматически. Scene 27 original 30s prompt preserved plus split 2×15s in SAME exact master; refs Scenes 26–27 @Image1 pair, @Image2 Serega, @Image3 Luchik, @Image4 Ryzhik, @Image5 exact ochre monumental ruined city at orange-gold sunset. Восстановление Library = best-effort only; authoritative Drive text надо fresh-read, не возвращать архивную версию master из Library/GitHub по догадке. Любую material workflow правку документировать в relevant Drive docs и SAME `NEW-CHAT-HANDOFF.md`, затем exact GitHub mirrors, instruction certificate, Pages and Notion pointer.
 
+
 ## Scene Reference Pack automation — 07.10.2026
+
 
 **Reference-first rule.** For every new or materially changed scene, determine the minimum reference set *before* final prompt preparation or a Topview submit: character identity sheets, exact location/environment, props, first/last continuity frames, and scene-specific pose/composition stills when they materially reduce ambiguity. Reuse approved assets first; do not regenerate a good approved still without a creative reason.
 
+
 **One-image QC loop.** Generate scene-specific stills one at a time. After every result, inspect identity, age, hair/fur, wardrobe, body proportions, character count, left/right geography, exact location geometry, lighting state and requested pose. If the result drifts, merges faces, duplicates characters, changes anatomy/costume/location or misses the pose, reject it and continue with an adjusted method. For multi-character scenes prefer verified small subgroups and then a final group; individual model sheets always outrank composition helpers for identity.
+
 
 **Save-before-next invariant.** The instant a still is accepted as useful, persist it *before* starting the next image: same Scene ID folder in Google Drive `Scene Reference Packs/Scene N — Reference Pack` (Scene 28 keeps its existing same-ID pack), Library recovery mirror `/AI Film/Scene Reference Packs/Scene N`, and GitHub/site when the still is actually used by the scene. The site must show used refs as compact thumbnails linking to the full file; never embed them full-size in a way that changes page scale.
 
+
 **Existing Topview scenes.** Do not ask the owner to re-upload inputs already available from Topview. Recover the exact task input images from live Board task metadata/S3 through the authorized Reference Bridge, record provenance in the scene pack manifest, and propose only additive replacements/improvements. Topview remains generation telemetry/provenance, not story authority.
+
 
 **Launch command contract.** `запускай сцену N` means: fresh-read canonical master/status -> resolve Scene N pack and prompt -> verify or create any genuinely required missing refs -> update reference mapping if necessary -> live Topview preflight (model/input mode, six-slot slow lock, unlimited-vs-credit path) -> submit the requested generation. Do not ask the user to re-send an already recoverable reference. Do not silently spend credits on helper-image generation: use a route verified as unlimited/zero-credit for that submit, or stop before submit and report the limitation. Technical success never means editorial approval.
 
+
 **Checkpoint rule for long work.** Treat `pack structure -> source recovery -> new reference generation/QC -> site publication -> canonical instructions/handoff/sync verification` as separate checkpoints. Persist every completed checkpoint before starting the next. If a chat/Work run ends, the successor reads the handoff and `scene-reference-plan` and resumes from the first incomplete checkpoint rather than restarting.
 
+
 **Recovery requirement.** Recovery snapshots must preserve the per-scene pack structure and the latest accepted/rejected distinction. An image shown only in transient chat preview is not safely persisted. `SAVE BEFORE NEXT GENERATION` is therefore a recovery invariant, not merely a convenience. When Topview is the only remaining source, recover exact task-input media through the authorized S3/Canvas bridge rather than requesting a duplicate upload from the owner.
+
+
+## Claude Code bootstrap — 07.10.2026
+
+
+- Root `CLAUDE.md` is a **non-canonical bootstrap pointer** for Claude Code. It is not an eighth canonical instruction and is excluded from the 7/7 instruction certificate.
+- Claude Code opening the repository must use `CLAUDE.md` only to enter the existing recovery path, then perform the full seven-document canonical takeover from fresh Google Drive sources.
+- Required takeover remains: the seven canonical Drive docs → fresh exact Drive `video-prompts.md` (ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`) → live `project-status.json` → `topview-status.json` → `instruction-sync-status.json`.
+- `CLAUDE.md` must not duplicate the live handoff or become a source of truth. If it conflicts with fresh Drive canonical docs, the fresh Drive canonical docs win.
+- The bootstrap must preserve the existing authority chain, same-ID Drive write rules, master sync cycle, Topview approval safeguards, capability preflight, and owner-decision boundaries by pointing Claude Code to the canonical instructions rather than restating a second independent rule set.
+- Material changes to this Claude bootstrap contract are documented in this SAME `BACKUP-AI-RUNBOOK.md` and SAME `NEW-CHAT-HANDOFF.md`; the canonical set remains seven files.
