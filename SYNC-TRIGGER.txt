@@ -1,1 +1,1 @@
-2026-10-07 S28 shoulder reference verified and saved; sync canonical Drive master.
+2026-10-07 Scene28 S28/G28 ready for staged 15s generation; C28 depends on Part2.
