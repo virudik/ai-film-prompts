@@ -63,3 +63,4 @@ Sync Scene 17 approved dialogue, map handoff, and deadpan monster-seat comedy
 2026-10-06T22:04:27.921Z | Unified monitor: telemetry checkpoint now agrees with canonical slow Scenes 20,26,27 and 6/6 active task slots; recompute project-status
 2026-10-07T02:39:00Z | Scene 28 reference gallery: P28/L28/F28 saved; R28A/R28B composition-only; S28/G28 remain pending; Drive same-ID read-back SHA256 1a9ffeb9735236f98f2d5d99e4eecba074cf0d6f38fb461eaf8f93a81e7dd3e1.
 2026-10-07T03:32:00Z | Scene Reference Pack rollout: per-scene packs + reference-first QC/save-before-next + H28A/H28B thumbnail gallery + Topview input recovery workflow.
+2026-10-07T03:47:00Z | Finalize Scene Reference Pack automation docs/handoff/source provenance; request fresh instruction sync and Pages rebuild.
