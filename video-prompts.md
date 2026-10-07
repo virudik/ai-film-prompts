@@ -48,7 +48,6 @@
 
 ---
 
-
 ## Автоматизация референсов по Scene ID
 
 Для каждой активной сцены используется собственный `Scene Reference Pack`. Перед новым prompt/rerender/запуском оператор сам определяет, какие входы нужны: individual identity sheets, точная локация, props, first/last frames и дополнительные pose/composition stills. Уже доступные референсы из Drive/сайта/Topview повторно у пользователя не запрашиваются.
@@ -58,7 +57,6 @@
 **Topview:** для уже запущенных сцен восстанавливаются точные task-input images из live Board provenance, когда они доступны. Команда пользователя `запускай сцену N` означает: fresh master/status → Scene pack → недостающие обязательные refs → prompt/reference mapping → live Topview preflight → submit. Existing slow locks и правило `technical success != approval` сохраняются. Помощник не должен молча тратить кредиты на вспомогательные изображения: unlimited/zero-credit путь должен быть подтверждён для конкретного submit.
 
 **Rollout / чекпоинт:** актуальный аудит необходимости новых stills ведётся в Drive `Scene Reference Packs/scene-reference-plan`; приоритет сейчас: Scene 28 S28/G28, затем 13, 17, 27, 10/11 и 16. Сцены с достаточными first/last/cockpit refs не получают лишние изображения без наблюдаемой проблемы.
-
 
 ## Сцены в работе
 
@@ -162,7 +160,6 @@
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** Джедай требует от Хана обещанный товар. Хан изображает полное непонимание и в конце обращается к Чубакке как к свидетелю; Чубакка отвечает вопросительным рыком.
 
 ```text
@@ -245,7 +242,6 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** Прямое продолжение части 1 без скачка во времени. Джедай шутит про Чубакку, тот возмущённо рычит, затем разговор переключается на плёнку, и Хан окончательно перестаёт понимать, о чём речь.
 
@@ -332,7 +328,6 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; **Лучик** всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
 
@@ -422,7 +417,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
 
 ```text
@@ -497,7 +491,6 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** Бой окончен. В тёмной влажной пещере трое измотанных героев сидят каждый на отдельной массивной отрубленной части тела чудовища с прижжёнными срезами без крови и органов. Несколько секунд они молча приходят в себя. Серёга с усталой ностальгией говорит: «Как в старые добрые времена. Куда вы дели карту?» Паша отвечает: «Да зачем она вообще тебе?» Серёга наклоняется и тихо шепчет Паше что-то на ухо — слов зритель не слышит. Паша сразу, совершенно без раздумий и без дальнейших вопросов, достаёт карту и отдаёт её Серёге. Саша наблюдает за этим с усталой сдержанной реакцией. Все продолжают сидеть на частях монстра, будто это самое обычное место для разговора.
 
@@ -604,7 +597,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** Саша и Паша спокойно рыбачат у озера. На воде появляется странная рябь, из воды поднимается Маша в образе Лава-Лагуны, быстро подходит к Саше лицом к лицу. Саша успевает удивлённо сказать «Маша?..», после чего получает пощёчину. Маша эмоционально упрекает его: «Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?» Паша молчит, но ярко реагирует мимикой. Саша резко вспоминает про поручение — «Ой, у нас же важное поручение!» — и вместе с Пашей срывается с места. Сцена заканчивается переходом в бег и приходит к композиции @Image2.
 
 ```text
@@ -695,7 +687,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Режиссёрская формула всей Scene 20:** основа всегда — берег озера; Маша почти всё время остаётся в кадре и является эмоциональным центром. Клип не должен быть статичным: по ходу номера она то стоит, то медленно идёт вдоль воды, то поворачивается к камере, то смотрит вдаль, то поёт прямо в объектив. Камера сознательно чередует **wide establishing shot, slow dolly-in, side tracking, gentle orbit / partial orbit, backward tracking, medium performance framing, expressive close-up и slow final pull-back**. Общая эстетика — **меланхоличный, драматичный и красивый cinematic music video, соединённый с эмоциональной ясностью мюзикла**. Никакой концертной сцены, танцоров, случайного клипового хаоса или одиннадцати одинаковых статичных кадров.
 
@@ -2253,7 +2244,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** На мостике идёт напряжённое сражение, видимое через панорамные окна. Серёга и Юля стоят рядом в центре и искренне радуются удачному ходу боя; экипаж продолжает работать за консолями. Камера начинает внутри мостика, плавно движется вперёд между персонажами и рабочими местами к центральному окну. По мере приближения космический бой за стеклом занимает всё больше кадра. Камера без остановки, склейки и визуального эффекта пересекает плоскость стекла, оказывается снаружи и продолжает тот же полёт вперёд среди кораблей, лазерного огня и следов движения, постепенно приходя к точной геометрии и направлению @Image2.
 
 ```text
@@ -2436,7 +2426,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются LUCHIK и RYZHIK из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
 
 ```text
@@ -2514,7 +2503,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** В **той же кабине, что на @Image4**, RYZHIK визуально остаётся слева в кадре и работает с навигацией/голографическими системами, а LUCHIK справа держит основные пилотские органы управления. Оба кота читаются лицами и сохраняют обычный кошачий масштаб. Панели оживают, двигатели набирают тягу, корабль физически взлетает без redesign интерьера и без перехода к generic starfighter cockpit.
 
@@ -2605,7 +2593,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
 
-
 **Что происходит:** Через окна **той же кабины @Image4** видно плотное космическое сражение. LUCHIK справа в кадре резко, но физически правдоподобно уклоняет корабль от огня; RYZHIK слева ведёт навигацию, переключает щиты и стреляет. Интерьер, свет, масштаб кресел и обычный кошачий размер не меняются.
 
 ```text
@@ -2686,7 +2673,6 @@ Active Wan 3.0 task `b95a76b92f9d4787b738b165eaeb270f` — нормализац�
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** На широкой ступенчатой террасе древнего города-руины видны только два кота-магистра. Рыжик первым зло и уверенно обращается к Серёге, который находится за пределами кадра; затем Лучик выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует. Тёплый закатный свет режет пыльный воздух, а мелкий пепел, сухая пыль и редкие искрящиеся частицы постоянно проходят через глубину кадра и затем продолжаются в Scene 27.
 
@@ -2805,7 +2791,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 **Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
-
 
 **Что происходит:** Бой разворачивается прямо в локации @Image5 и сохраняет атмосферу Scene 26: в тёплом закатном воздухе постоянно движутся мелкий сухой пепел, пыль и редкие ember-like частицы. Оба кота заметно меньше Серёги — даже в вертикальной боевой стойке их голова не выше примерно уровня его колена. Они не позируют, а непрерывно меняют позиции и углы атаки: Лучик давит точными силовыми сериями с синим клинком, Рыжик быстро обходит и режет углы зелёным. Серёга с красным мечом отбивается и пытается контратаковать, но почти каждый обмен заставляет его отступать, блокировать или восстанавливаться.
 
@@ -3203,7 +3188,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик</figcaption></figure>
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик</figcaption></figure>
 </div>
-
 
 ```text
 Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
