@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-07T20:58:35.124554Z",
+  "checked_at": "2026-10-07T21:00:29.273Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -66,9 +66,8 @@
   },
   "semantic_check": {
     "health": "ok",
-    "status": "ok",
     "conflicts": [],
-    "note": "Current rules retain one monitor, two retired schedules, Drive authority, same-ID edits, separate runtime/editorial state. Historical checkpoints are not current runtime facts."
+    "status": "ok"
   },
   "takeover_requirements": {
     "character_registry": "references.html + character-references.json",
@@ -81,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh 7/7 exact Drive↔GitHub verification after 07.10.2026 successor handoff and Topview Slides recovery-bridge documentation.",
+  "note": "Fresh 7/7 exact UTF-8 Drive↔GitHub verification by the unified monitor; runtime certificate describes one hourly monitor with embedded recovery and two owner-retired automation IDs.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
