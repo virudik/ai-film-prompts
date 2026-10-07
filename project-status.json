@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-07T11:18:03Z",
+  "synced_at": "2026-10-07T11:24:04Z",
   "revision_date": "07.10.2026",
   "master_declared_last_full_sync": "06.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "b75c71f6cf10efee18d785b4c523c4042c7dfd91d1b0f5701587757444af6fd4",
@@ -65,16 +65,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-07T11:16:43.496Z",
+    "snapshot_at": "2026-10-07T11:23:52.365Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "authorized_chatgpt_drive_connector",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.022,
+    "age_hours_at_status_build": 0.003,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "drive_modified_at": "2026-10-07T03:38:47.611Z",
-        "github_blob": "cf473b771888e0f3344548af4275c3d9f5a04aa8",
+        "github_blob": "68f5e91642a1a9edb06e796532a7b379028ebc2b",
         "drive_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
         "mirror_sha256": "7b412ecf84d3e1d852cfe4755a915df95ebfa97f87773010bad556bf591c66d6",
         "match": true
@@ -133,7 +133,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.022,
+      "age_hours": 0.003,
       "blocking": false
     },
     "topview_task_map": {
@@ -438,7 +438,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "07.10.2026",
-    "synced_at": "2026-10-07T11:18:03Z",
+    "synced_at": "2026-10-07T11:24:04Z",
     "canonical_master_sha256": "b75c71f6cf10efee18d785b4c523c4042c7dfd91d1b0f5701587757444af6fd4",
     "canonical_revision_sha256": "57bd6ae772346559b218d656d0a0ccea2f101d009ee76b38cb0581e7e296c426",
     "scene_count": 15,
