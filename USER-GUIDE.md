@@ -881,3 +881,12 @@ Partial intermediate commits не считаются final state и не дол�
 - `CLAUDE.md` in the repository root is only an entry pointer for Claude Code. It does not create a new canonical instruction; the owner-facing project architecture remains the same seven canonical Drive documents.
 - Claude Code must perform the same takeover as any replacement AI and must not treat local repository state as newer than fresh Drive authority.
 - The owner should not need to repeat existing project rules: Claude Code is expected to recover them through the canonical takeover.
+
+## 9 октября 2026 — что изменилось на сайте
+
+- **Цвет «светового меча».** Зелёный — всё в порядке. **Жёлтый** — канон в порядке, но данные Topview или единый монитор не обновлялись больше 2 часов (или время проверки неверное). Это не авария master, но очереди и ETA на экране могут быть устаревшими. Красный — настоящая проблема синхронизации master.
+- Под индикатором строка: совпадение master и его SHA, когда последний раз проверялся Topview, когда был последний цикл монитора и последняя сверка Drive → GitHub.
+- **Картинки в сценах и в «Персонажах»** показываются лёгкими миниатюрами; клик открывает точный оригинал. Сайт грузится в разы быстрее, особенно с телефона.
+- **На телефоне** фильтры и оглавление спрятаны под кнопку «☰ Фильтры и оглавление»; поиск остаётся видимым, статус — на первом экране. Таблица Topview прокручивается внутри себя.
+- В карточках сцен: «Промт: …» — для какого движка написан промт, «Рендер: …» — на чём реально идёт генерация.
+- В «Сейчас» сцены, ждущие вашего решения, показаны один раз и с числом дней ожидания.

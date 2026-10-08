@@ -103,6 +103,16 @@
    "thumb_bytes": 19644,
    "src_sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0"
   },
+  "references/previews/ilyusha.webp": {
+   "thumb": "references/thumbs/previews/ilyusha.webp.webp",
+   "width": 640,
+   "height": 853,
+   "src_width": 960,
+   "src_height": 1280,
+   "src_bytes": 67780,
+   "thumb_bytes": 46406,
+   "src_sha256": "9cce67ec68d41f83736ee6c6daae9a508fbca2b8f93a0c0424e0faaed05debdb"
+  },
   "references/ryzhik.jpg": {
    "thumb": "references/thumbs/ryzhik.jpg.webp",
    "width": 640,

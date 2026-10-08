@@ -1019,3 +1019,13 @@ Partial intermediate commits не считаются final state и не дол�
 - Claude Code must use it to start the normal takeover, then read the seven fresh Drive canonical docs, fresh exact Drive master, and live status JSON before substantive work.
 - `CLAUDE.md` never overrides Drive authority and must not become a duplicated handoff/recovery body.
 - Instruction verification and repair remain seven-doc Drive → GitHub exact mirror only; `CLAUDE.md` is verified separately as a repository adapter.
+
+## 09.10.2026 — Control Center и синхронизация: действующие контракты
+
+- **Сигналы статуса сайта.** `health` красный — только при проверенной проблеме канона (`project-status.health` ≠ ok, несовпадение SHA загруженного master со статусом, ошибка 7/7). Жёлтый (`.health.warn`) — канон в порядке, но `topview-status.json.checked_at` или `automation-monitor-status.json.last_scheduled_cycle.completed_at` старше 120 мин, отсутствует, некорректен или более чем на 10 мин в будущем, либо `last_scheduled_cycle.health` ≠ ok. Отсутствие файла монитора не окрашивает статус (обратная совместимость).
+- **`ci-status.json`** (публикует `sync-from-drive.yml`, шаг «Publish CI state change»): `last_conclusion`, `last_failure_at`, `last_failure_run_url`, `last_success_at`. Пишется только при смене результата. Сайт не обращается к `api.github.com`.
+- **Пульс синхронизации.** `project-status.json` коммитится сразу при любом изменении содержимого; если отличаются только `synced_at`/`age_hours`/`age_hours_at_status_build`, коммит не чаще раза в 45 мин (сообщение «Sync heartbeat…»). Лимит свежести master-sync 100 мин не меняется.
+- **Миниатюры.** `build-thumbnails.yml` при push в `references/**` (кроме `references/thumbs/**`) запускает `scripts/build_thumbnails.py`: WebP ≤640 px в `references/thumbs/<путь>.webp`, манифест `references/thumbs/manifest.json` с SHA-256 источника. Сайт подменяет `src` в галереях на миниатюру; ссылки ведут на оригинал; при ошибке загрузки — откат на оригинал. `--check` показывает устаревшие миниатюры.
+- **Реестр персонажей** хранит пути к файлам вместо data URI.
+- **Master — только LF без BOM.** Проверки `canonical_master_lf_line_endings` и `canonical_master_blank_spacing_compact` (с учётом CRLF) блокирующие. После каждой записи master проверять отсутствие `\r`.
+- **`marked`** — локальный `vendor/marked-15.0.12.min.js`, без CDN; HTML master проходит `safeHtml()` (удаляет script/iframe/object/embed/form, on*-атрибуты, javascript:-ссылки).

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-08T20:26:30.796Z",
-  "verification_mode": "authorized_chatgpt_drive_connector",
+  "checked_at": "2026-10-08T23:07:52.000Z",
+  "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -9,18 +9,18 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-08T20:25:59.028Z",
-      "github_blob": "c5ad387a34c2a7a311bd4c584faa2f7dfa186ac2",
-      "drive_sha256": "7eead2b70277744c0cecc7dc5816db3e7b87963f27c9dcbb6a8fb62ec8c7f8b8",
-      "mirror_sha256": "7eead2b70277744c0cecc7dc5816db3e7b87963f27c9dcbb6a8fb62ec8c7f8b8",
+      "drive_modified_at": "2026-10-08T23:05:19.772Z",
+      "github_blob": "860668f234ced5f052fae1998cf2b4b776966c2f",
+      "drive_sha256": "d55753fbc627599ae4d4740003b73836066916ac2a7454a8119f0f7e5efd1787",
+      "mirror_sha256": "d55753fbc627599ae4d4740003b73836066916ac2a7454a8119f0f7e5efd1787",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-07T14:23:51.185Z",
-      "github_blob": "2bd487633671a9ceaffb93f5e9207d098f2c821b",
-      "drive_sha256": "7420c19ea8ca0af4e00124812211b7529b0aba4751b043f06d7d7ac29b3e9a03",
-      "mirror_sha256": "7420c19ea8ca0af4e00124812211b7529b0aba4751b043f06d7d7ac29b3e9a03",
+      "drive_modified_at": "2026-10-08T23:05:21.835Z",
+      "github_blob": "f42fb47c799d1efb120896b24b07a994f1ebb959",
+      "drive_sha256": "cee22b7dae3755ee95ad776f51259e8de98d6a4e9107f139ad8c7d0b644a6546",
+      "mirror_sha256": "cee22b7dae3755ee95ad776f51259e8de98d6a4e9107f139ad8c7d0b644a6546",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
@@ -41,10 +41,10 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-07T14:25:09.278Z",
-      "github_blob": "2338805c647a08025ed1419184fa36275037fcf4",
-      "drive_sha256": "e76a2f85a92d280096508c898528f3b13ae1bacf7d35f572972cb692668a32a0",
-      "mirror_sha256": "e76a2f85a92d280096508c898528f3b13ae1bacf7d35f572972cb692668a32a0",
+      "drive_modified_at": "2026-10-08T23:05:22.307Z",
+      "github_blob": "32cfb18d8722e14a3fa3b46cc7b81255934516bf",
+      "drive_sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
+      "mirror_sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
       "match": true
     },
     "README-AI-SYNC.md": {

@@ -841,7 +841,7 @@ Before writing or materially revising prompts, read fresh `PROMPT-STYLE-GUIDE.md
 User explicitly specified the Topview header. The compact line to the right of `⏳ Сейчас в медленной генерации — Topview` must show:
 
 
-Show `занято X из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS`. Do **not** show `свободно Y` or the label `синхр.`. The timestamp comes from `checked_at` and is rendered in ordinary text color/weight; `free_slots` remains telemetry only.
+Show `занято X из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS`. Do **not** show the label `синхр.`. The timestamp comes from `checked_at` and is rendered in ordinary text color/weight; `free_slots` remains telemetry only.
 
 
 Current verified checkpoint after reliability Stage 5:
@@ -1677,5 +1677,15 @@ Master Scene 16 требует:
 
 **Do not say «готово» until the relevant step is verified on Drive/GitHub/Pages/Topview as applicable.**
 
+## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)
 
-
+- **Статус сайта — три независимых сигнала.** Красный — только проверенная проблема канона (health≠ok, расхождение SHA master, ошибка 7/7). Жёлтый — канон в порядке, но `topview-status.checked_at` или последний цикл единого монитора (`automation-monitor-status.json.last_scheduled_cycle`) старше 2 ч, отсутствует, некорректен или «из будущего». Под индикатором строка «Master/SHA · Topview проверен · Монитор · Drive→GitHub». ETA Topview корректируется на возраст снимка, при устаревании показывается серым. Нельзя «чинить» жёлтый подменой `checked_at`: только реальной проверкой.
+- **Браузер больше не вызывает GitHub Actions API.** Состояние CI публикует сам `sync-from-drive.yml` в `ci-status.json` — только при смене результата (сбой / первый успех после сбоя).
+- **Синхронизация без пустых коммитов чаще раза в 45 мин.** Изменения содержимого — сразу; если изменились только время/возраст проверки, коммит-«пульс» не чаще раза в 45 мин. Лимит свежести 100 мин (`scripts/check_public_freshness.py`) сохраняется.
+- **`marked` закреплён:** локальная копия `vendor/marked-15.0.12.min.js`; отрисованный HTML проходит санитайзер исполняемого содержимого. Галереи и разметка master не меняются.
+- **Миниатюры:** `scripts/build_thumbnails.py` + workflow `build-thumbnails.yml` создают WebP 640 px в `references/thumbs/` (манифест с SHA-256 источника). Карточки показывают миниатюру, ссылка и лайтбокс открывают точный оригинал. Оригиналы и identity-приоритеты не трогать.
+- **`character-references.json` без base64:** `public_image`/`full_image` — пути к байт-в-байт тем же файлам (`references/previews/*.webp`, `references/full/*.jpg` и т. д.). Не возвращать data URI.
+- **Master — только LF.** Правка 09.10 01:12 МСК перевела `video-prompts.md` в CRLF и спрятала 5 двойных пустых строк. Нормализовано Claude с сохранением ID (sha256 `bd6125c1…`, 587 822 байт, текст не менялся). Валидатор теперь проверяет `canonical_master_lf_line_endings` и пустые строки с учётом CRLF; CRLF делает статус красным. **Каждый writer после записи master должен убедиться, что в файле нет `\r`.**
+- Подписи «Промт: <target_engine>» / «Рендер: <model>»; панель «Сейчас» без дубля «проверить результат», с возрастом ожидания и пометками «старый результат / новый рендер».
+- Код: ветка `claude/audit-p0` слита в `main` 09.10; тесты: `tests/site_status_check.js` (10 сценариев статуса), `tests/test_recovery_integration.py` (13 тестов).
+- Не сделано в этом ТЗ: запуск генераций сцены 28 (безлимит через MCP не поддерживается — blocker), ChatGPT Library (best-effort, pending). P2-проекты (L–P) — во втором ТЗ «Единая архитектурная оптимизация».
