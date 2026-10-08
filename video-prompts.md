@@ -6,17 +6,19 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**15 сцен к генерации/доработке · 46 полных текста промта**
+**21 сцена к генерации/доработке · 54 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет** — **0 активных Topview-задач / 0 занятых слотов из 6**. Отслеживаемые задачи Scenes 26–27 технически завершены; редакционная приёмка результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 34 — Серёга входит в полуразрушенный храм ситхов. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **08.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **08.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **15 актуальных сцен и 46 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **нет**. Полная live Topview сверка 08.10.2026: 11 boards, 14 страниц, 537 video tasks, **0/6 active task slots**, свободно 6. Scene 26 `b95a76b92f9d4787b738b165eaeb270f` завершилась 10:36:38 UTC; Scene 27 `ffa34324436745beb161d72ae9d4394f` и `017bebefc4c54038954301968a4b5d68` завершились 13:44:15 и 13:46:23 UTC. Новые внешние попытки Scenes 10/11 учтены в telemetry; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **08.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 54 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **нет**. Полная live Topview сверка 08.10.2026: 11 boards, 14 страниц, 537 video tasks, **0/6 active task slots**, свободно 6. Scene 26 `b95a76b92f9d4787b738b165eaeb270f` завершилась 10:36:38 UTC; Scene 27 `ffa34324436745beb161d72ae9d4394f` и `017bebefc4c54038954301968a4b5d68` завершились 13:44:15 и 13:46:23 UTC. Новые внешние попытки Scenes 10/11 учтены в telemetry; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+
+**Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
 ## ⏳ Сейчас в медленной генерации
 
@@ -34,7 +36,7 @@
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак. |
 | 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17) | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
 | 19 | [Рыбалка и Маша-Лагуна](#scene-19) | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
-| 20 | [Маша-Лагуна — рок-припев у озера](#scene-20) | @Image1 = локация/берег озера; @Image2 = Маша-Лагуна | Полный музыкальный номер разбит на 11 взаимосвязанных 30-секундных фрагментов «Песня Маши 1–11»; три Wan 3.0 попытки частей 9–11 технически завершены и не создают новые Scene ID. Результаты требуют отдельного редакционного просмотра. |
+| 20 | [Маша-Лагуна — рок-припев у озера](#scene-20) | @Image1 озеро; @Image2 Маша; в 12-й части @Image6 Саша, @Image7 Паша | 11 исходных музыкальных частей + новые 12 (её комедийно-драматичная ревнивая фантазия) и 13 (мюзикловая эмоциональная вставка). Порядок оригинального вокала сохраняется; исходные результаты не автоматически одобрены. |
 | 21 | [Мостик → космическая битва: бесшовный пролёт через окно](#scene-21) | @Image1 = точный первый кадр/мостик; @Image2 = точный последний кадр/космическая битва; @Image3 = Серёга; @Image4 = Юля | 30-секундный Seedance 2.5 first-and-last-frame переход: Серёга и Юля радуются на мостике, камера непрерывно приближается к окну, без бликов/отражений/преломления проходит сквозь стекло и физически продолжает полёт в космическом сражении до точной композиции @Image2. |
 | 22 | [Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину](#scene-22) | @Image1 = точный первый кадр/разрушенная станция; @Image2 = точный последний кадр/коридор со штурмовиками | 30-секундный Seedance 2.5 first-and-last-frame переход: камера летит через продолжающуюся космическую битву к разрушенной станции, физически входит через пробоину в корпусе, проходит повреждённую внутреннюю структуру и без склейки приходит к точной композиции коридора @Image2. |
 | 23 | [Люди → коты-джедаи: бесшовное раскрытие второго плана](#scene-23) | @Image1 = люди/старт; @Image2 = точные серый+рыжий коты/цель | Камера проходит между идущими людьми и без морфа раскрывает за ними двух котов-джедаев; коты пафосно идут с включёнными мечами и делают контролируемые вращения. |
@@ -43,6 +45,12 @@
 | 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26) | @Image1 = коты / парный continuity-composition; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = точная локация древнего города-руины | В кадре **только два кота**; Серёга — исключительно off-camera адресат. Сохраняются пепел/пыль/редкие искрящиеся частицы, обычный кошачий масштаб, строгий русский lip sync и speaker ownership, Wan 3. |
 | 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга; @Image3 = Лучик; @Image4 = Рыжик; @Image5 = точная локация древнего города-руины | Обе прошлые 15s Seedance 2.0 задачи технически завершены; обе Wan 3.0 попытки основного 30s варианта технически завершены и требуют отдельного просмотра. **30s и обе 15s версии исправлены:** обычный небольшой масштаб котов, непрерывная пепельно-пыльная атмосфера и значительно более быстрый, агрессивный бой без статичного позирования. |
 | 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; H28A/H28B; сохранённые P28/L28/F28; R28A/R28B как композиционные helpers; S28/G28 проверены; C28 только после результата части 2 | Две версии: 10×15 с Seedance 2.0 / 10×30 с Wan 3.0. Церемония → дискотека; жесты у лица, разъезд, кружение на руках и на плече; монтаж около 90 с; `READY` для поэтапного запуска; часть 3 ждёт C28 из части 2. |
+| 29 | [Кантина — Илюха, Хан и Чубакка, часть 3](#scene-29) | @Image1 кантина/Чубакка; @Image2 Хан; @Image3 Илюха | Прямая третья часть после Scenes 10–11: шутка про плёнку на «Тысячелетнем соколе», сердитое недоумение Хана и Чубакки. |
+| 30 | [Коты против Серёги — разрушение колоннады](#scene-30) | Коты + Серёга + та же локация и масштаб Scene 27 | Удары мечей надрезают парапет и колонну; Force-удар обрушивает повреждённую каменную опору. |
+| 31 | [Коты против Серёги — разрушенная лестница](#scene-31) | Те же точные персонажи/руины | Телекинетический бой с перехватом камней и логичным разрушением лестницы. |
+| 32 | [Коты против Серёги — обрушение арки](#scene-32) | Те же точные персонажи/руины | Кульминационный бой: мечи и Сила обрушивают часть арки, оставляя повреждения в окружении. |
+| 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. |
+| 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. |
 
 ---
 
@@ -426,6 +434,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image6 — масштаб червя после появления" loading="lazy"></a><figcaption>@Image6 — масштаб червя после появления</figcaption></figure>
 </div>
 
+**Подготовка проверена 09.10.2026:** точный пакет Scene 16 в Google Drive имеет статус `ready`, `remaining: []`, содержит два исходных MP4 (`S16-desert-source-1.mp4` и `S16-desert-source-2.mp4`), три вспомогательных PNG и manifest. Обе исходные Topview-задачи проверены как `success`. Это подтверждает наличие исходников и соответствующий промт с шестью @Image + @Video1; сам новый тридцатисекундный ролик не запускался, перед submit требуется выбор фактического бесплатного режима и загрузка всех указанных референсов. Не принимать `READY` за одобрение будущего результата.
+
 **Источник пустыни найден:** @Video1 — [второй указанный ролик Topview](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=9fd93e2905e14c77b616884f1d6962f6). [Первый ролик](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=f1a90e67bfe44c50a31692b905a290f0) — дополнительная проверка той же пустыни. Image4 очищен на основе кадра Video1 около 14 с; это реконструкция пустой площадки, а не найденное исходное фото. Две покрытые знаками опоры и центральный обелиск фиксируют географию. Исторический Topview Image4 со спидером не является локацией.
 
 **Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
@@ -701,9 +711,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Коррекция дизайна 05.10.2026:** присланный результат — «Песня Маши 3», task `2b87094928e14ca7827b911f2fbbd747`, фактический движок Wan 3.0, 30 с. Промт source-task сопоставлен с частью 3 с отличиями только в служебной записи image-токенов/пробелов; обложка результата соответствует присланному ролику. Визуальная проверка выявила добавленные соски/рельеф груди и пупок, которых нет на утверждённой model sheet. Это отклонение от дизайна, не новая утверждённая версия персонажа. Вероятная причина — неоднозначность описания голубой кожи и цельного облегающего силуэта; точный внутренний механизм генерации неизвестен. Во ВСЕ 11 текстов ниже добавлен автономный `COSTUME SURFACE LOCK`: непрозрачный гладкий закрытый торс из @Image2 без анатомических деталей, с сохранением существующего длинного силуэта. Это редакция ДЛЯ БУДУЩИХ запусков. Уже завершённая часть 3 и находившиеся на момент коррекции в очереди части 4–9 используют прежние отправленные тексты; редактирование master не исправляет их задним числом. Исходный submitted prompt остаётся в соответствующей Topview task и в истории master до этой правки. Task IDs, slow membership и технические статусы не изменены; автоматического rerender/approval нет. Проверить остальные получаемые части на тот же дефект перед монтажом; не объявлять их бракованными до просмотра.
 
-**Контекст использования:** Полный музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**, которые затем собираются в единый клип / музыкальную сцену. Это не 11 новых Scene ID: весь номер остаётся **Scene 20**. @Image1 задаёт точный берег озера, @Image2 — точную identity Маши-Лагуны. Все части используют одинаковую внешность, одежду, причёску, локацию, погоду, световую логику и цветокоррекцию. Вокальный текст внутри prompts взят **только из текста, напрямую предоставленного пользователем**, и должен исполняться дословно с sung lip sync.
+**Контекст использования:** Основной музыкальный номер Маши-Лагуны разбит на **11 самостоятельных 30-секундных генераций Seedance 2.5**; отдельно добавлены **генерации 12 и 13** как две самостоятельные музыкально-сюжетные вставки в ту же Scene 20 (не два новых Scene ID), которые затем собираются в единый клип / музыкальную сцену. Это не 11 новых Scene ID: весь номер остаётся **Scene 20**. @Image1 задаёт точный берег озера, @Image2 — точную identity Маши-Лагуны. Все части используют одинаковую внешность, одежду, причёску, локацию, погоду, световую логику и цветокоррекцию. Вокальный текст внутри prompts взят **только из текста, напрямую предоставленного пользователем**, и должен исполняться дословно с sung lip sync.
 
-**Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference
+**Референсы:** @Image1 = LOCATION / берег озера / окружение · @Image2 = MASHA-LAGUNA / PRIMARY exact identity reference · только для новой части 12: @Image6 = точный Саша · @Image7 = точный Паша (мужчина).
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
@@ -717,6 +727,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-20/S20-side-walk-profile.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-side-walk-profile.png" alt="@Image4 — профиль и небольшой шаг" loading="lazy"></a><figcaption>@Image4 — профиль и небольшой шаг</figcaption></figure>
 <figure><a href="references/scenes/scene-20/S20-close-performance.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-close-performance.png" alt="@Image5 — крупный план исполнения" loading="lazy"></a><figcaption>@Image5 — крупный план исполнения</figcaption></figure>
 </div>
+
+**Дополнение 09.10.2026:** пользователь добавил два полных музыкальных промта «Песня Маши 12» (ревнивая, трагикомичная фантазия о Саше и Паше) и «Песня Маши 13» (максимально эмоциональный кинематографичный клиповый номер). Они являются вставками к существующим 11 частям и не удлиняют автоматически оригинальную песню: монтажное место выбирать по реальному треку. Воображаемая измена НЕ утверждается сюжетным фактом. Машина модель, гладкий полностью закрытый торс и то же озеро обязательны. Для части 12 дополнительные identity sheets Sasha/Pasha существовали ранее и не заменяются новыми лицами.
 
 **Режиссёрская формула всей Scene 20:** основа всегда — берег озера; Маша почти всё время остаётся в кадре и является эмоциональным центром. Клип не должен быть статичным: по ходу номера она то стоит, то медленно идёт вдоль воды, то поворачивается к камере, то смотрит вдаль, то поёт прямо в объектив. Камера сознательно чередует **wide establishing shot, slow dolly-in, side tracking, gentle orbit / partial orbit, backward tracking, medium performance framing, expressive close-up и slow final pull-back**. Общая эстетика — **меланхоличный, драматичный и красивый cinematic music video, соединённый с эмоциональной ясностью мюзикла**. Никакой концертной сцены, танцоров, случайного клипового хаоса или одиннадцати одинаковых статичных кадров.
 
@@ -2265,6 +2277,83 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 
 ```
+---
+
+### Песня Маши 12 — ревнивая фантазия о Саше и Паше
+
+**Тип:** дополнительная 30-секундная музыкально-сюжетная вставка внутри Scene 20, не новый Scene ID и не новая строфа. **Монтаж:** разместить по эмоции и точной waveform исходной песни, не менять 11 существующих частей/их текст.
+
+**Референсы:** прежние @Image1=озеро, @Image2=Маша, вспомогательные @Image3–5; **дополнительно только для части 12** @Image6=[Саша](references/full/sasha.jpg) — муж Маши, борода и очки; @Image7=[Паша](references/full/pasha.jpg) — **мужчина**, близкий друг Саши в тёмно-синем одеянии. Все трое имеют точные индивидуальные identity sheets.
+
+**Что происходит:** Маша поёт и представляет Сашу с Пашей слишком милыми и близкими; ей кажется, что Паша стал разлучником и брак рушится. Зритель отличает трагикомичную ревнивую фантазию от реальности.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.5 | photoreal premium cinematic tragicomic music video.
+REFERENCES (AUTHORITATIVE):
+@Image1 — same exact lake / shore from Parts 1–11.
+@Image2 — exact adult Masha-Laguna identity and opaque blue costume.
+@Image6 — exact SASHA identity, adult bearded male friend/husband with glasses, original recognized face and Jedi outfit from references/full/sasha.jpg.
+@Image7 — exact PASHA identity, original CLEAN-SHAVEN MALE friend in a dark navy-blue Jedi tunic from references/full/pasha.jpg. Pasha is a MAN, not a woman or a new female villain. @Image6 and @Image7 outrank composite imagery for male faces.
+FIXED REFERENCE BIBLE:
+@Image1 = EXACT familiar lakeshore location, shape of shoreline, horizon, sky, reflections and lighting direction from original Scene 20; @Image2 = ABSOLUTE approved Masha-Laguna identity. An adult elegant woman with pale aquatic-blue complexion, long thick light-blue tentacle-like head strands, glossy black ornamental headpiece and collar and the identical long flowing, close-fitting LIGHT-BLUE FULL-LENGTH COSTUME. The entire chest and abdomen MUST be covered by a continuously smooth OPAQUE costume surface, not bare skin: NO nipples/areolae/outlines, navel/indentation, transparent or embossed torso anatomy, cutouts or redesign. Preserve her exact face, eye proportions, head-strands and black ornament from @Image2 in wide and close views. Existing @Image3/4/5 are optional composition helpers only, NEVER face/costume replacements.
+Keep restrained melancholic alternative-rock music-video look, same lake geography and weather family across the whole musical sequence. Masha is the emotional protagonist and visually dominant; no concert crowd, microphone, random costumes, backup dancers, unknown new scenery or fantasy new species.
+MUSIC / DIALOGUE RULE:
+This is an extra modular visual insert into the existing 11-part song, NOT a new chronological verse. Choose its edit position on the ACTUAL audio waveform; do not invent song text. If singing is visible, mouth movement should match the established user-provided song at the edit stage, or a neutral sustained wordless vocal phrase; never fabricate lyrics or a different language. Natural soundtrack atmosphere / breathing permitted; no new spoken dialogue. Exact source-music sync is an editing step, not guaranteed without uploaded reference audio.
+NEGATIVE: wrong Masha, nipple/navel costume defect, romantic hallucination presented as verified real infidelity, hair instead of blue strands, new dress, unnatural lip sync, incorrect people, gender change, cloned actor, cartoon thought bubbles, captions, karaoke text, titles, logo, game-render, artificial zoom, camera jitter, morphing lake, black bars. Fill full 16:9 edge-to-edge.
+CONCEPT / TRUTH STATUS:
+Sasha is Masha's husband; Pasha is Sasha's close male friend. As Masha sings she JEALOUSLY IMAGINES their closeness as infidelity and views Pasha as a romantic rival threatening the marriage. These images are not proof of an affair or historical truth. The comic quality is the over-romantic interpretation of innocently close behavior, while Masha's own hurt remains deeply real. Masha is not physically present in their fantasy couple scenes: her eyes/reflection motivate these glimpses.
+
+TIMELINE / SHOT OWNERSHIP:
+[00:00–00:05] At @Image1 the real Masha faces the same lake; slow elegant push-in from medium to her hurt eyes. Controlled deep breath before a lyrical musical phrase; same sunset/water/wind.
+[00:05–00:11] A motivated reflection/eyeline association leads into Masha's SUBJECTIVE memory-like picture: Sasha and Pasha sit closely together on a recognizable stretch of this very shoreline, laughing at a private joke, almost like an overly romantic advert. Their original faces and costumes are exact, not stylized caricatures.
+[00:11–00:17] Her imagination exaggerates a friendly act: Sasha offers Pasha his jacket/warm drink with conspicuously tender attention, the gesture Masha wishes Sasha had offered HER. Shot/reverse-shot keeps screen geography, believable hands, real subtle embarrassment; lightly heightened affectionate music-video light.
+[00:17–00:23] The dramatic-comic fantasy escalates: the two men walk together with one umbrella or pose side-by-side for an overly sentimental keepsake photo as though on a date. An EMPTY third place/unused cup subtly symbolizes Masha's absence. Never invent a wedding, literal kiss, third partner or objective proof.
+[00:23–00:27] One motivated match cut returns to real Masha beside the UNCHANGED lake. The false images vanish as the film leaves a subjective thought, not as bodies dematerializing in real space. She feels abandoned and furious, then catches herself in the absurdity.
+[00:27–00:30] Tight grounded lens portrait: Masha's pain, disbelief and a small almost involuntary comical eye movement converge in a strong sustained sung performance. End with stable expression for editorial cut to Part13/another existing phrase.
+
+CAMERA / ART DIRECTION:
+No generic stage. Elegant 35mm lake wides, warm human medium memory imagery and restrained 75mm Masha close portraits, smooth dolly/half-orbit, motivated internal music-video cuts but no disconnected random vignettes. Main reality stays muted blue-gold; jealous fantasy may feel fractionally warmer and sentimental, remaining photoreal. Natural water/ray reflections and lens flare only if physically plausible.
+AUDIO: emotionally coherent female vocal color and melancholic rock feeling; no specific invented lyric content. Make the imagined pair's interactions primarily silent/visual, only natural laughter without words; no narrator, no subtitles or text-based explanation.
+NO big magical thought clouds, rubber faces, sexualized costume change, pantomime or stage dance.
+FRAME: no bars, full frame.
+```
+
+### Песня Маши 13 — мощная эмоциональная клиповая кульминация
+
+**Тип:** ещё одна самостоятельная музыкально-кинематографичная 30-секундная вставка в существующий музыкальный номер.
+
+**Референсы:** @Image1 точное озеро; @Image2 точная Маша; необязательные @Image3–5 — уже сохранённые постановочные ракурсы, не новые личности.
+
+**Что происходит:** Маша проживает песню максимально эмоционально, словно в дорогом кинематографическом мюзикле, с мощным вокальным переживанием, плавной и различной камерой и без смены локации, внешности или готового текста песни.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.5 | exceptionally emotional music-video / grounded movie musical, no invented verse.
+REFERENCES:
+@Image1 = exact existing lakeshore; @Image2 = identical Masha-Laguna model sheet; optional @Image3 standing, @Image4 profile walk and @Image5 close-performance framing helpers only.
+FIXED REFERENCE BIBLE:
+@Image1 = EXACT familiar lakeshore location, shape of shoreline, horizon, sky, reflections and lighting direction from original Scene 20; @Image2 = ABSOLUTE approved Masha-Laguna identity. An adult elegant woman with pale aquatic-blue complexion, long thick light-blue tentacle-like head strands, glossy black ornamental headpiece and collar and the identical long flowing, close-fitting LIGHT-BLUE FULL-LENGTH COSTUME. The entire chest and abdomen MUST be covered by a continuously smooth OPAQUE costume surface, not bare skin: NO nipples/areolae/outlines, navel/indentation, transparent or embossed torso anatomy, cutouts or redesign. Preserve her exact face, eye proportions, head-strands and black ornament from @Image2 in wide and close views. Existing @Image3/4/5 are optional composition helpers only, NEVER face/costume replacements.
+Keep restrained melancholic alternative-rock music-video look, same lake geography and weather family across the whole musical sequence. Masha is the emotional protagonist and visually dominant; no concert crowd, microphone, random costumes, backup dancers, unknown new scenery or fantasy new species.
+MUSIC / DIALOGUE RULE:
+This is an extra modular visual insert into the existing 11-part song, NOT a new chronological verse. Choose its edit position on the ACTUAL audio waveform; do not invent song text. If singing is visible, mouth movement should match the established user-provided song at the edit stage, or a neutral sustained wordless vocal phrase; never fabricate lyrics or a different language. Natural soundtrack atmosphere / breathing permitted; no new spoken dialogue. Exact source-music sync is an editing step, not guaranteed without uploaded reference audio.
+NEGATIVE: wrong Masha, nipple/navel costume defect, romantic hallucination presented as verified real infidelity, hair instead of blue strands, new dress, unnatural lip sync, incorrect people, gender change, cloned actor, cartoon thought bubbles, captions, karaoke text, titles, logo, game-render, artificial zoom, camera jitter, morphing lake, black bars. Fill full 16:9 edge-to-edge.
+DRAMA: A new modular musical-performance insert responding to jealousy and loneliness. Masha's expression combines wounded love, suspicion, hurt pride and the slightest tragicomic awareness that her own mind can overdramatize. Do NOT re-enact Sasha/Pasha here: focus entirely on her song, face, hands, body and cinema choreography. This is emotionally huge without noisy cheap special effects.
+TIMELINE / MUSIC VIDEO GRAMMAR:
+[00:00–00:05] Epic-but-intimate wide at exact waterline; Masha is a distinct readable blue silhouette, natural head-strand motion in wind. Physically motivated smooth dolly from 28mm environment frame, no new buildings.
+[00:05–00:10] Full/medium lateral tracking as she takes two deliberate steps, turning slightly toward camera; her hand touches the SAFE smooth blue costume at the collarbone without fabric distortion. The camera tracks natural screen direction along shore.
+[00:10–00:16] An expressive 50–85mm portrait: she lifts her gaze directly to lens, draws one trembling breath and releases a sustained, powerful emotional note timed in post to the real track. Moist eyes, microexpressions and tear line credible, not a CG waterfall.
+[00:16–00:22] In one clear wider view she turns toward distant water, opens an arm as if reaching for an absent partner, stops herself and lets the arm fall. The black collar/crown, head strands and entirely opaque blue full-length garment retain identical shape under wind.
+[00:22–00:27] Gentle no-more-than-quarter orbit; her vocal phrase peaks, jaw/lips expressive but no new lyric is invented. The soft sky/water fill meets warm sunset rim; no magical sky change. The performance is proud yet vulnerable, no robotic repeated arm waving.
+[00:27–00:30] Smooth move to intimate face close-up and natural breath release. Eyes soften from anger toward sadness and unresolved hope. Stable final shot can connect to any suitable spot among Parts1–11 without placing this after the completed quiet outro.
+
+PERFORMANCE / AUDIO:
+Native sound is optional guide for the later authentic rock-music montage, not replacement for existing song. Genuine adult female sustained melodic voice, breaths and soft lake wind, no fabricated recognizable song lyric, no spoken monologue. One expressive movement per musical beat; elegant camera inertia, no arbitrary rapid fashion montage. 
+LIGHT: same muted organic live-action shoreline realism, aquamarine blue skin/blue costume, amber rim light, natural reflections, correct horizon, fine wind. Not a concert stage.
+NEGATIVE: Masha beauty-filter/different face, additional women, Sasha/Pasha becoming singers, duplicate Masha, body anatomy showing through costume, changing black crown, new head tentacles, invented lyrics, subtitles, random lights, hysterical clowning, unstable hands, camera shake, frame bars.
+FRAME FILL: entire 16:9 frame, no letterboxing or decorative borders.
+```
+
 ---
 
 <a id="scene-21"></a>
@@ -4121,3 +4210,286 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 ```
 
 **Проверка результата:** сверить каждое видимое лицо/костюм с individual sheet; очередность четырёх жестов и обе кисти/щёки в части 2; разрыв контакта и направления разъезда в части 3; закрытый гладкий торс Маши в части 6; масштаб и лапы котов в части 7; контакты рук/тел и опору в частях 8–9; точный состав 9+1+2 в части 10. Свет может меняться только по партитуре, геометрия и внешность остаются теми же. Technical success не равен принятому дублю. Если общий рендер плывёт, использовать проверенный G28 и монтажный стоп-кадр.
+
+---
+
+<a id="scene-29"></a>
+
+## Сцена 29 — Кантина: Илюха о плёнке на «Тысячелетнем соколе», часть 3
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":11}],"tags":["cantina","han","chewbacca","ilyusha","comedy","dialogue"]} -->
+
+**Контекст использования:** Третья часть того же комедийного разговора из сцен 10–11. Прежние 10–11 в `NEEDS_FIX`, поэтому монтажную стыковку не считать принятой автоматически.
+
+**Референсы:** @Image1 — та же кантина/Чубакка; @Image2 — Han; @Image3 — Илюша/джедай
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Илюша"></a><figcaption>Илюша — exact identity</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина и Чубакка"></a><figcaption>@Image1 — кантина + Чубакка</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="Хан"></a><figcaption>@Image2 — Хан</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="Илюша в кантине"></a><figcaption>@Image3 — Илюша в кантине</figcaption></figure></div>
+
+**Что происходит:** Илюха невозмутимо напоминает Хану о плёнке, когда-то наклеенной им на его корабль, а Хан и Чубакка возмущённо не понимают.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Live-action natural Russian dialogue, dry comedy and precise lip sync.
+REFERENCE AUTHORITY:
+@Image1 = EXACT cantina + Chewbacca composition from Scenes 10/11: dim warm amber desert-cantina, round metal table, hanging light, worn stone arches, light smoke, blurred alien extras. Chewbacca remains the same tall shaggy reddish-brown Wookiee with bandolier; this plate controls the environment and Chewie, never replaces male faces.
+@Image2 = ABSOLUTE HAN SOLO face/outfit: sandy brown hair, slight stubble, cream shirt, unbuttoned dark vest, blue trousers with red side detail and blaster holster. @Image3 = ABSOLUTE ILYUSHA / Jedi: mustached man with wavy brown hair, exact older weathered face, light green layered tunic, deep-red hooded cloak DOWN and brown boots. No Sasha/Pasha/Serega or other invented principals.
+CONTINUITY: direct third part after Scene11. The same people remain in the SAME seats around the SAME table, same eye-line axes/lighting/screen orientation. The previous phrase was Han's angry «Какую плёнку? Мужик, ты вообще кто?»; do not duplicate it or reset the conversation. The subject is the ALREADY MENTIONED protective film, now connected to the Millennium Falcon by Ilyusha's confident absurd explanation. No actual spacecraft comes into the room.
+
+TIMELINE:
+[00:00–00:05] 35mm motivated three-shot from the existing table axis: Han still looks incredulous after Scene11, Chewbacca's head turns slowly toward the Jedi, Ilyusha remains deadpan as if he has a routine answer. Same warm haze, believable pauses.
+[00:05–00:18] Unhurried medium close on Ilyusha with active lips visibly unobscured. EXACT RUSSIAN line, idiomatic pronunciation without foreign accent and no added words:
+ИЛЮХА: «Ну я тебе плёнку на Тысячелетний сокол клеил в прошлом цикле. Уже пора переклеивать. Так ты принёс?»
+Let him naturally breathe at sentence breaks. He makes a tiny businesslike gesture as a technician reminding a customer of a service interval. During this line Han and Chewie's mouths MUST NOT make the Russian speech.
+[00:18–00:23] A clear comedically LONG stunned reaction: Han blinks twice, jaw tightens, looks at Chewie and back. Chewie looks back, raising brow/ridge and drawing a breath. Ilyusha is sincerely oblivious to how nonsensical his request sounds.
+[00:23–00:30] Han turns furious, lifts both hands just enough to express disbelief and emits a short outraged NONVERBAL scoff, not a newly invented Russian line. Chewbacca leans in and gives an indignant loud Wookiee growl/roar (not translated human speech); both look angry and bewildered. End on the same fixed table geography with a clear reaction beat.
+
+CAMERA / AUDIO:
+Motivated clean dialogue coverage; physically stable medium table shot, close view during Ilyusha's words and one reaction two-shot. Preserve left/right, never cross axis, no sudden new guest between seats, no slapstick fall. Warm practical amber light from established lantern, natural fur/fabric/skin, light smoky depth.
+Native audio: one human Russian speaker Ilyusha only, dry quiet environment chatter, natural Chewie growl, Han's brief frustrated breath/wordless sound. No words assigned to Chewie, no narrator, no subtitle, no score above dialogue.
+
+NEGATIVE:
+wrong speaker or words, rushed line, English accent, fake subtitles, changing table, different faces, duplicated Chewie, Han wardrobe change, new Millennium Falcon in the restaurant, new props/film spool materializing, bad hand anatomy, warped cantina, switched seats, actor freeze, glossy CGI, cartoon, random camera jitter, black bars, watermarks.
+FRAME: 16:9 full bleed, no bars.
+```
+
+---
+
+
+<a id="scene-30"></a>
+
+## Сцена 30 — Коты против Серёги: разрушение колоннады
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":27}],"tags":["cats","force","saber_combat","destructible_environment"]} -->
+
+**Контекст использования:** Первый новый разрушительный бой в той же точной локации с обычным малым масштабом котов, не переодобряет старые результаты.
+
+**Референсы:** @Image1 пара котов; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 город-руины; @Image6 масштаб, optional
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image2 — Серёга</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image1-topview-source.png" alt="Коты вместе"></a><figcaption>@Image1 — пара котов</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image5 — точные руины</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image6 — масштаб</figcaption></figure></div>
+
+**Что происходит:** Коты заставляют Серёгу отступить; мечи прорезают каменную колоннаду, Сила опрокидывает предварительно надрезанную колонну, следы остаются.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
+SCENE: RUIN COLONNADE — SEREGA VS TWO JEDI CATS, SABER-CUT SUPPORT.
+REFERENCES / SPACE / IDENTITY:
+@Image1 = composition of both Jedi cats, NOT individual face lock.
+@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
+@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
+@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
+@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
+CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
+POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
+STARTING HISTORY: Optional next battle after Scene27, identical sunset city; start with the same terrace architecture, any verified prior damage preserved. The cats on both sides of Serega, all sabers lit.
+ACTION TIMELINE:
+[00:00–00:05] One cinematic mid-wide establishes a familiar ochre terrace, two knee-high cats closing on the purple-robed human. Dust glows in golden sunset, broad stairs and statues hold spatial orientation.
+[00:05–00:11] RYZHIK lashes out with a quick GREEN saber sequence that makes SEREGA retreat toward a weathered balustrade. LUCHIK flanks and draws his BLUE blade across a small cracked section of the stone railing; the severed rail falls heavily DOWN its own steps.
+[00:11–00:18] Serega makes one compact desperate RED parry; Ryzhik slips around him and scores a green hot incision around the already weakened base of a nearby column. Camera stays mid-wide so cause of damage and safe position of all three are obvious.
+[00:18–00:24] LUCHIK braces and Force-pushes the PRE-CUT column sideways into an empty stone path. It tips with believable momentum and gravity, breaks into heavy chunks and creates a finite dust cloud; no one teleports to avoid it.
+[00:24–00:30] Serega ducks behind his red saber and springs aside as cats advance through settling debris, maintaining superiority. The missing rail and toppled column remain visible, altering his escape route.
+END STATE / NEXT CUT:
+End with Serega retreating down a connected stairway, damaged column lying behind, cats pressing aggressively. No final victory or death.
+EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+```
+
+---
+
+
+<a id="scene-31"></a>
+
+## Сцена 31 — Коты против Серёги: лестница и телекинетические обломки
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":30}],"tags":["cats","force","saber_combat","destructible_environment"]} -->
+
+**Контекст использования:** Продолжение географии и накопленных разрушений Scene30, не новая арена.
+
+**Референсы:** @Image1 коты; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 те же руины; @Image6 опциональный масштаб
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image2 — Серёга</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image1-topview-source.png" alt="Коты вместе"></a><figcaption>@Image1 — пара котов</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image5 — точные руины</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image6 — масштаб</figcaption></figure></div>
+
+**Что происходит:** Коты перехватывают обломки Силой, разбивают часть перил и теснят Серёгу по ступеням.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
+SCENE: STAIRCASE FORCE COMBAT — LEVITATING RUBBLE AND INTERCEPTS.
+REFERENCES / SPACE / IDENTITY:
+@Image1 = composition of both Jedi cats, NOT individual face lock.
+@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
+@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
+@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
+@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
+CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
+POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
+STARTING HISTORY: Continue from Scene30's stair route. Fallen column and missing railing still behind fighters; not a new arena.
+ACTION TIMELINE:
+[00:00–00:05] Track Serega moving downward on intact connected stone steps. Both small cats pursue and their correct sabers remain visible. Weathered giant statues orient the camera.
+[00:05–00:11] Serega sends two small broken stones outward by a deliberate RED-side Force gesture as a delaying defense. RYZHIK dodges; LUCHIK arrests one heavier stone in air with a planted feline stance and redirects it toward an empty cracked wall.
+[00:11–00:18] The redirected stone impacts the old wall, producing realistic chipped masonry and fine ochre dust, not a building-size magical explosion. Luchik immediately drives three precise blue saber beats; Serega blocks and loses three steps; Ryzhik circles wide with green saber poised.
+[00:18–00:24] Ryzhik slices a narrow notch in the existing stair rail, then uses a focused paw gesture to Force-shove its now weak top block; one support crumbles and falls toward a vacant lower landing. Show exact trajectory and final debris.
+[00:24–00:30] The cats combine forward tactical pressure; Serega staggers to the foot of the stair beside an ancient half-ruined stone arch, trying to defend as dust swirls. Both cats are clearly on top.
+END STATE / NEXT CUT:
+End with a damaged rail, displaced blocks on a lower landing and an old stone arch still standing ahead; ready for Scene32.
+EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+```
+
+---
+
+
+<a id="scene-32"></a>
+
+## Сцена 32 — Коты против Серёги: обрушение древней арки
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":31}],"tags":["cats","force","saber_combat","temple_arch","destructible_environment"]} -->
+
+**Контекст использования:** Монтажно-открытая кульминация с устойчивыми повреждениями каменного сооружения.
+
+**Референсы:** @Image1 коты; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 те же руины; @Image6 масштаб
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image2 — Серёга</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image1-topview-source.png" alt="Коты вместе"></a><figcaption>@Image1 — пара котов</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image5 — точные руины</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image6 — масштаб</figcaption></figure></div>
+
+**Что происходит:** Световые мечи надрезают арку, два координированных Force-удара обрушивают её локальную часть, три бойца продолжают противостояние.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
+SCENE: TEMPLE ARCH CLIMAX — SABER SCARS AND COLLAPSING MASONRY.
+REFERENCES / SPACE / IDENTITY:
+@Image1 = composition of both Jedi cats, NOT individual face lock.
+@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
+@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
+@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
+@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
+CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
+POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
+STARTING HISTORY: Physically continuous from Scene31 near the temple stair plaza. Preserve missing rails, fallen blocks and the same sunset city, no unexplained fresh walls.
+ACTION TIMELINE:
+[00:00–00:05] 35mm mid-wide of a stable half-ruined temple arch, Serega forced close to it by the blue/green duo. The three identities stay fixed and cats remain around human-knee height.
+[00:05–00:11] Ryzhik accelerates from an outside angle with fast green blade strikes; Serega blocks with the red blade but is driven backward. Luchik's blue saber intersects the red attack and deliberately scores a HOT CUT on one visibly cracked lower arch support.
+[00:11–00:18] Serega tries one committed red counter to break the encirclement, but the cats move faster. His blade leaves a separate real shallow scar across a stone slab. Ryzhik raises one paw to apply Force pressure on an unstable lintel directly above the pre-cut support.
+[00:18–00:24] Luchik braces safely and adds a single well-directed Force push. Dust sifts, the pre-existing crack lengthens, and THREE identifiable heavy blocks fall from a short arch section into an EMPTY side passage. Show impacts and debris that remains; the entire temple does NOT vanish.
+[00:24–00:30] Camera tracks backward as Serega narrowly dodges and drops into a strained low defensive stance; cats advance side by side with blue/green sabers amid settling ochre dust. The partly standing arch is clearly permanently changed.
+END STATE / NEXT CUT:
+Unresolved tense stance: cats dominate, Serega alive and struggling. Preserve the blocked shortcut and partial arch for next edit.
+EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+```
+
+---
+
+
+<a id="scene-33"></a>
+
+## Сцена 33 — Серёга исследует руины на планете ситхов
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","sith_city","exploration","camera"]} -->
+
+**Контекст использования:** Атмосферный самостоятельный проход по локации боя. Место в сюжетной последовательности относительно боёв пока монтажное, не выдумывать утверждённую хронологию.
+
+**Референсы:** @Image1 Серёга; @Image2 та же древняя планета/город-руины
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image1 — Серёга, exact identity</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Планета ситхов"></a><figcaption>@Image2 — exact ruined city</figcaption></figure></div>
+
+**Что происходит:** Серёга идёт по руинам, внимательно осматривает древний город, замечает вход храма.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | premium photoreal feature-film exploration / smooth camera.
+REFERENCES / IDENTITY:
+@Image1 — EXACT SEREGA: older pale Chancellor with distinct mature face, thinning sparse light hair/bald crown, real human proportions, flowing deep dark-purple robe and fixed costume; do not average with other humans.
+@Image2 — EXACT Sith-planet stone city location from Scenes26/27: ochre/red-brown ancient weathered masonry, colossal robed statues, broad stepped terraces, broken columns and tall squared stone towers, distant jagged canyon spires, low orange-gold sunset and dramatic layered clouds. Same planet and direction of light, not lava or generic black Sith arena.
+PURPOSE: atmospheric reconnaissance / investigation of a monumental place. Only Serega visually present, no cats or additional figures; he is alive and thoughtfully observant, no spoken dialogue. Can be placed before or after combat once montage chronology is decided, so do not falsely assert a specific unapproved battle-damage state. Old architectural decay exists but current duel may not yet have occurred.
+TIMELINE:
+[00:00–00:06] Wide 28mm opening from a recognizable stepped stone terrace; one physically continuous lateral dolly reveals Serega approaching slowly through the giant ruin geometry. His robe and wind are natural; no invisible teleporting.
+[00:06–00:12] Medium side tracking along a cracked carved balustrade as Serega scans ancient columns and far statues. His eyes lead head turns, then feet follow. He is wary and interested, not performing exaggerated fear.
+[00:12–00:18] Motivated over-shoulder view onto the same @Image2 sprawling ruin rooftops, massive temple façade, steps and distant spires. One ancient erosion mark catches his attention; no map, supernatural artifact or unrelated structure conjured.
+[00:18–00:24] Camera performs a small physically credible quarter orbit as Serega climbs two real visible steps, touches weathered masonry with one hand and wipes off some fine dry dust. The damage and dust stay coherent.
+[00:24–00:30] From mid-wide over his shoulder the massive half-ruined temple entrance comes into line, still part of the original city. He hesitates, studies the silhouette against orange light and deliberately starts toward it. End with a clear approach direction for Scene34.
+SPACE / CAMERA / LOOK:
+One shared navigable stone environment, smooth stable 3D tracking, slow plausible parallax, no jump cuts or impossible speed ramp. High-end live-action face, purple cloth fibers, physically plausible setting sun and long warm shadows; drifting dry ash, thin dust and rare emberlike particles from the Scenes26/27 mood without heavy volcanic fog.
+NATIVE AUDIO: boots crunching grit/stone, dry valley breeze, subtle robe rustle, slight stone crackle, natural breathing; no talk, voiceover or intrusive musical score.
+NEGATIVE: wrong Serega, changed purple robe, cats appearing, duplicated humans, lava, black basalt, sudden interior cut, new fantastical building, unstable temple geometry, camera shake, face beauty filter, exaggerated magic, game render, subtitles/logo/watermark/borders.
+FULL FRAME 16:9.
+```
+
+---
+
+
+<a id="scene-34"></a>
+
+## Сцена 34 — Серёга входит в полуразрушенный храм ситхов
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":33}],"tags":["serega","sith_temple","exploration","continuous_take"]} -->
+
+**Контекст использования:** Непрерывное продолжение Scene33. @Image2 — точный внешний вид; интерьер по нему реконструируется консервативно, без ложного обещания точного исходного интерьера.
+
+**Референсы:** @Image1 Серёга; @Image2 тот же внешний храм/локация битвы
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image1 — Серёга, exact identity</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Планета ситхов"></a><figcaption>@Image2 — exact ruined city</figcaption></figure></div>
+
+**Что происходит:** Он входит через частично разрушенную арку и осматривает первый полутёмный древний зал без смены лица или архитектурной логики.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | photoreal unbroken outdoor-to-indoor temple entry.
+REFERENCES:
+@Image1 — exact older pale SEREGA Chancellor identity, approved thinning light hair, long dark-purple cloak and human body scale.
+@Image2 — absolute exterior Sith-planet ruin city temple façade, ochre weathered stone, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and orange sunset direction. This is the same exact setting as Scene33 and Scenes26/27, not a new temple.
+No specific approved interior photo exists: inside the door conservatively CONTINUE this very same stone construction, load-bearing geometry, ancient erosion, broken vaults, credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or unrelated cave.
+SCENE CONTINUITY:
+Starts directly from Scene33 final approach. The temple entrance is already in his line of sight and in the same position relative to exterior columns; he takes the same forward travel vector. One physical camera path: sunlight steps → damaged arch → first dark hall. No new people, cats or enemy attack. No jump cut or magical wipe through doorway.
+THIRTY-SECOND ACTION:
+[00:00–00:06] Exterior wide-middle shows the exact partly broken stone temple façade and Serega at its approach. Low orange light edges his robe, wind lifts fine dust. He steps around identifiable debris rather than through it.
+[00:06–00:12] Controlled shoulder-level tracking accompanies Serega up shallow uneven steps. He briefly tilts his head up to study an eroded monumental lintel. Slow breathing, serious focused expression and believable footing.
+[00:12–00:18] One uninterrupted behind-shoulder push crosses the arch plane naturally. Same textured stone continues inward; outside sunshine remains visible backward through the entrance and a narrow beam enters through a cracked vault. Exposure adapts gradually; no flash or teleport.
+[00:18–00:24] Inside a conservative first chamber, cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse and realistic old stone reliefs. Serega keeps a steady cautious pace and studies those walls without revealing an arbitrary new artifact.
+[00:24–00:30] Camera settles on his profile with the dark interior corridor behind; he pauses, glances at the carved wall, then turns toward the deeper passage. Still enough to cut into later investigation; no monster cliffhanger or premature resolution.
+CAMERA / SPATIAL PHYSICS:
+Feature-film single continuous take, smooth physically motivated dolly, 28–35mm consistent perspective, no cut from outside directly to disconnected hall, no impossible wide room behind narrow exterior wall, no morphing roof. Real sunlight penetration, physically coherent shadow direction, dry drifting dust lit in shafts, detailed robe/skin/stone, stable geography.
+AUDIO: exterior wind gradually takes on a reverberant low indoor ambience, authentic footsteps on stone and cloth noise, occasional granular masonry movement. Native audio ON, no dialogue, narrator, cinematic music, whispering apparitions or chants.
+NEGATIVE: wrong person/robe, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, gratuitous enemies, faceless statue morphs, impossible 3D plan, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
+16:9 edge-to-edge.
+```
+
+---
