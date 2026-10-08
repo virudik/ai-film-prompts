@@ -1,1 +1,1 @@
-2026-10-08 Canonical Topview terminal reconciliation; Drive master sha256 52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59; full account scan 537 VIDEO tasks, 0/6 occupied; Scenes 10/11 terminal attempts classified, no new Scene ID.
+2026-10-08 Unified monitor refresh; Drive master sha256 814a16b610913d968e3e9cda27141e91f3893608aa9e9ff787c7046a5e91e9ee; full account scan 537 VIDEO tasks, 0/6 occupied; canonical slow empty; 7-instruction exact sync refresh requested.
