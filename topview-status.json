@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-07T21:00:52.381Z",
+  "checked_at": "2026-10-08T02:07:03.475Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -10,18 +10,16 @@
       "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
+      "topview_status": "success",
       "started_at": "2026-10-06T20:28:06Z",
-      "queue_count": 618,
-      "topview_estimated_wait_seconds": 13086,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 20 part prompt/reference/model match",
-      "active_task_ids": [
-        "42e5cdb42c1a45df8a037a26eb3fa26b"
-      ],
-      "completed_at": null
+      "active_task_ids": [],
+      "completed_at": "2026-10-08T00:46:22Z"
     },
     "21": {
       "task_id": "6d05c85753234b64b43fc75157437a0d",
@@ -90,9 +88,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-06T20:33:09Z",
-      "queue_count": 1240,
-      "topview_estimated_wait_seconds": 30366,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": 1234,
+      "topview_estimated_wait_seconds": 30038,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 26 prompt/reference/model match",
@@ -108,9 +106,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-06T20:39:46Z",
-      "queue_count": 1751,
-      "topview_estimated_wait_seconds": 47646,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": 1737,
+      "topview_estimated_wait_seconds": 47318,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 27 prompt/reference/model match",
@@ -121,7 +119,7 @@
       "completed_at": null
     }
   },
-  "note": "Fresh complete account-wide Board check: Scene 20 task ef0a2cdb…07bd9e completed successfully at 2026-10-07T14:59:15Z. Four unlimited video tasks remain active, so occupancy is 4/6 and two slow slots are free.",
+  "note": "Fresh complete account-wide Board check: the final tracked Scene 20 task completed successfully at 2026-10-08T00:46:22Z. Three unlimited video tasks remain active, so occupancy is 3/6 and three slow slots are free.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -136,23 +134,9 @@
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 4,
-  "free_slots": 2,
+  "occupied_slots": 3,
+  "free_slots": 3,
   "active_tasks": [
-    {
-      "scene_id": 20,
-      "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
-      "started_at": "2026-10-06T20:28:06Z",
-      "queue_count": 618,
-      "topview_estimated_wait_seconds": 13086,
-      "checked_at": "2026-10-07T21:00:52.381Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "normalized canonical Scene 20 part prompt/reference/model match"
-    },
     {
       "scene_id": 26,
       "task_id": "b95a76b92f9d4787b738b165eaeb270f",
@@ -160,9 +144,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-06T20:33:09Z",
-      "queue_count": 1240,
-      "topview_estimated_wait_seconds": 30366,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": 1234,
+      "topview_estimated_wait_seconds": 30038,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 26 prompt/reference/model match"
@@ -174,9 +158,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-06T20:39:46Z",
-      "queue_count": 1751,
-      "topview_estimated_wait_seconds": 47646,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": 1737,
+      "topview_estimated_wait_seconds": 47318,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 27 prompt/reference/model match"
@@ -188,9 +172,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-06T20:40:25Z",
-      "queue_count": 2159,
-      "topview_estimated_wait_seconds": 64926,
-      "checked_at": "2026-10-07T21:00:52.381Z",
+      "queue_count": 2148,
+      "topview_estimated_wait_seconds": 64598,
+      "checked_at": "2026-10-08T02:07:03.475Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized canonical Scene 27 prompt/reference/model match"
@@ -200,15 +184,14 @@
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-07T21:00:52.381Z",
+    "checked_at": "2026-10-08T02:07:03.475Z",
     "boards_scanned": 11,
     "video_tasks_scanned": 534,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 4,
-    "free_slots": 2,
+    "occupied_slots": 3,
+    "free_slots": 3,
     "active_task_ids": [
-      "42e5cdb42c1a45df8a037a26eb3fa26b",
       "b95a76b92f9d4787b738b165eaeb270f",
       "ffa34324436745beb161d72ae9d4394f",
       "017bebefc4c54038954301968a4b5d68"
