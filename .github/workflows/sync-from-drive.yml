@@ -156,7 +156,41 @@ jobs:
               cp /tmp/drive-video-prompts.md video-prompts.md
             fi
 
-            if ! cmp -s /tmp/project-status.json project-status.json; then
+            # No-op aware publish: a status that differs only by volatile check
+            # timestamps is not committed again until the heartbeat is due, so the
+            # public "last check" never ages past the 100-minute freshness limit
+            # (scripts/check_public_freshness.py) while half of the empty Pages
+            # deploys disappear. Any content change is always committed at once.
+            MASTER_CHANGED=0
+            git diff --quiet -- video-prompts.md || MASTER_CHANGED=1
+            DECISION="$(MASTER_CHANGED=$MASTER_CHANGED python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          VOLATILE = {"synced_at", "age_hours", "age_hours_at_status_build"}
+          HEARTBEAT_MIN = 45
+          def strip(x):
+              if isinstance(x, dict):
+                  return {k: strip(v) for k, v in x.items() if k not in VOLATILE}
+              if isinstance(x, list):
+                  return [strip(v) for v in x]
+              return x
+          try:
+              old = json.load(open("project-status.json", encoding="utf-8-sig"))
+          except Exception:
+              print("publish"); raise SystemExit
+          new = json.load(open("/tmp/project-status.json", encoding="utf-8"))
+          if os.environ.get("MASTER_CHANGED") == "1" or strip(old) != strip(new):
+              print("publish"); raise SystemExit
+          try:
+              last = datetime.fromisoformat(str(old.get("synced_at")).replace("Z", "+00:00"))
+              age = (datetime.now(timezone.utc) - last).total_seconds() / 60
+          except Exception:
+              age = float("inf")
+          print("heartbeat" if age >= HEARTBEAT_MIN else "skip")
+          PY
+          )"
+            echo "Status publish decision: $DECISION"
+            if [ "$DECISION" != "skip" ]; then
               cp /tmp/project-status.json project-status.json
             fi
 
@@ -166,7 +200,11 @@ jobs:
               exit 0
             fi
 
-            git commit -m "Sync Drive master and generated project status"
+            if [ "$DECISION" = "heartbeat" ]; then
+              git commit -m "Sync heartbeat: Drive master unchanged, verification time refreshed"
+            else
+              git commit -m "Sync Drive master and generated project status"
+            fi
             if git push origin HEAD:main; then
               exit 0
             fi
@@ -176,3 +214,50 @@ jobs:
 
           echo "Unable to publish Drive mirror after 4 retries." >&2
           exit 1
+
+      - name: Publish CI state change for the Control Center
+        if: always()
+        shell: bash
+        env:
+          JOB_STATUS: ${{ job.status }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -uo pipefail
+          [ "$JOB_STATUS" = "cancelled" ] && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main || exit 0
+            CHANGED="$(python3 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          path = "ci-status.json"
+          try:
+              data = json.load(open(path, encoding="utf-8"))
+          except Exception:
+              data = {"schema_version": 1, "workflow": "sync-from-drive.yml"}
+          status = "success" if os.environ["JOB_STATUS"] == "success" else "failure"
+          if data.get("last_conclusion") == status:
+              print("no"); raise SystemExit
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+          data["last_conclusion"] = status
+          if status == "failure":
+              data["last_failure_at"] = now
+              data["last_failure_run_url"] = os.environ["RUN_URL"]
+          else:
+              data["last_success_at"] = now
+          data.pop("seeded_from", None)
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+          print("yes")
+          PY
+          )"
+            [ "$CHANGED" = "yes" ] || exit 0
+            git add ci-status.json
+            git commit -q -m "CI state: sync-from-drive $JOB_STATUS"
+            git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "Could not publish CI state change (best effort)." >&2
+          exit 0

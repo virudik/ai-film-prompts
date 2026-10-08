@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "purpose": "Published CI state of sync-from-drive.yml for the Control Center (replaces browser calls to the GitHub Actions API). Written only when the conclusion changes: on a failure, and on the first success after a failure.",
+  "workflow": "sync-from-drive.yml",
+  "last_conclusion": "success",
+  "last_failure_at": "2026-10-08T20:20:08Z",
+  "last_failure_run_url": "https://github.com/virudik/ai-film-prompts/actions/runs/37838631919",
+  "last_success_at": "2026-10-08T20:35:48Z",
+  "seeded_from": "GitHub Actions API history at branch creation (Claude, 2026-10-09)"
+}

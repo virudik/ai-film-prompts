@@ -87,4 +87,24 @@ for required in ("монтажно-сюжетный разбор новой сб
     if required not in analysis_v2_text:
         raise SystemExit("second montage analysis content contract failed: "+required)
 
+# 09.10 audit P0: honest freshness, pinned local Markdown renderer, no browser GitHub API.
+for required in (
+    '<script src="vendor/marked-15.0.12.min.js"></script>',
+    "content.innerHTML=safeHtml(marked.parse(md));",
+    'id="freshnessLine"',
+    "const STALE_MIN=120",
+    "healthClass='warn'",
+    "fetch('ci-status.json'",
+    "fetch('automation-monitor-status.json'",
+):
+    if required not in html:
+        raise SystemExit("missing freshness/renderer contract: "+required)
+for forbidden in ("api.github.com", "cdn.jsdelivr.net/npm/marked/marked.min.js"):
+    if forbidden in html:
+        raise SystemExit("forbidden dependency returned: "+forbidden)
+if not (root/"vendor"/"marked-15.0.12.min.js").is_file():
+    raise SystemExit("vendored marked 15.0.12 is missing")
+if not (root/"ci-status.json").is_file():
+    raise SystemExit("ci-status.json is missing")
+
 print("site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok")
