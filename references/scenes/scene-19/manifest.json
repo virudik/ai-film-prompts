@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "scene_id": 19,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — старт рыбалки"
+    },
+    {
+      "path": "references/scenes/scene-19/S19-Image2-topview-source.png",
+      "sha256": "14f995d076f6528a9ec4029aa317c542ff7ad16b79445e949dde22109fb66c80",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image2 — финальный бег"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

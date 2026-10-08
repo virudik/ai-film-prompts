@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -17,7 +17,14 @@
       "needed": [
         "identity_locked_three_shot"
       ],
-      "topview_task_ids": []
+      "topview_task_ids": [],
+      "status": "base_references_ready_helper_blocked",
+      "manifest": "references/scenes/scene-10/manifest.json",
+      "remaining": [
+        "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
+      ],
+      "reference_count": 4,
+      "checked_at": "2026-10-08"
     },
     "11": {
       "drive_folder_id": "18fjLl8dKPi5U6Iu0nTdUDhfKNgo-pWVa",
@@ -27,7 +34,14 @@
         "reuse_scene_10",
         "optional_end_state"
       ],
-      "topview_task_ids": []
+      "topview_task_ids": [],
+      "status": "base_references_ready_helper_blocked",
+      "manifest": "references/scenes/scene-11/manifest.json",
+      "remaining": [
+        "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
+      ],
+      "reference_count": 4,
+      "checked_at": "2026-10-08"
     },
     "13": {
       "drive_folder_id": "1uRaTN2UP7UBjhjxcsBHBviG85ojIrSAw",
@@ -39,7 +53,12 @@
       ],
       "topview_task_ids": [
         "73cf9e84d8b14f5f8d6653f7f6ae7318"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-13/manifest.json",
+      "remaining": [],
+      "reference_count": 6,
+      "checked_at": "2026-10-08"
     },
     "16": {
       "drive_folder_id": "1ilIL52alNkjLMiab2XaMcKc6H_y951Nl",
@@ -49,7 +68,15 @@
         "three_character_standoff",
         "optional_worm_scale"
       ],
-      "topview_task_ids": []
+      "topview_task_ids": [
+        "f1a90e67bfe44c50a31692b905a290f0",
+        "9fd93e2905e14c77b616884f1d6962f6"
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-16/manifest.json",
+      "remaining": [],
+      "reference_count": 6,
+      "checked_at": "2026-10-08"
     },
     "17": {
       "drive_folder_id": "144klZY5o3pQ8v1O03UrGtIJSEj0Yjf0s",
@@ -61,7 +88,12 @@
       ],
       "topview_task_ids": [
         "67b8304f8a324b7493af32fd0a0ae5d7"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-17/manifest.json",
+      "remaining": [],
+      "reference_count": 7,
+      "checked_at": "2026-10-08"
     },
     "19": {
       "drive_folder_id": "1j5w0tM90pQANhYe_rjNx61LRghttUE9_",
@@ -73,7 +105,12 @@
       "topview_task_ids": [
         "6ef310d646ca4605b5b10c12752b6ab7",
         "e4ad0298cf7d48a98c6ba6498bb62c48"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-19/manifest.json",
+      "remaining": [],
+      "reference_count": 5,
+      "checked_at": "2026-10-08"
     },
     "20": {
       "drive_folder_id": "1Xzix5Am_jdAO-t0_yeyWy6SQ3fjNIzfL",
@@ -89,7 +126,12 @@
         "117b9d976d2c4a54945256e79fc64639",
         "ef0a2cdb1c8841ac8d031a19fa07bd9e",
         "42e5cdb42c1a45df8a037a26eb3fa26b"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-20/manifest.json",
+      "remaining": [],
+      "reference_count": 5,
+      "checked_at": "2026-10-08"
     },
     "21": {
       "drive_folder_id": "1A3fQyPcKbNeIYqN4PrW9y-Go4U6r91vk",
@@ -100,7 +142,12 @@
       ],
       "topview_task_ids": [
         "6d05c85753234b64b43fc75157437a0d"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-21/manifest.json",
+      "remaining": [],
+      "reference_count": 4,
+      "checked_at": "2026-10-08"
     },
     "22": {
       "drive_folder_id": "1kmTryF7g6nUtXutZ0-FUTGf_lYLMr_ho",
@@ -111,7 +158,12 @@
       ],
       "topview_task_ids": [
         "6926ce5d0f81477ea06f135d4b658f97"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-22/manifest.json",
+      "remaining": [],
+      "reference_count": 2,
+      "checked_at": "2026-10-08"
     },
     "23": {
       "drive_folder_id": "10cPrK_10RbYr9pfrSHN0IjXGKnxO-5OD",
@@ -122,7 +174,12 @@
       ],
       "topview_task_ids": [
         "e42b4746c792472a9586ae95cd1513d3"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-23/manifest.json",
+      "remaining": [],
+      "reference_count": 4,
+      "checked_at": "2026-10-08"
     },
     "24": {
       "drive_folder_id": "1SoP5-DvpXquHVX7gukIYPniqAiHnlEO7",
@@ -133,7 +190,12 @@
       ],
       "topview_task_ids": [
         "91ed2c95c6944772bed06bafed46cdd6"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-24/manifest.json",
+      "remaining": [],
+      "reference_count": 3,
+      "checked_at": "2026-10-08"
     },
     "25": {
       "drive_folder_id": "1WMG0T_EL-RspzBqX4AhXydWO9yB5e5WV",
@@ -142,7 +204,12 @@
       "needed": [
         "only_if_battle_light_drift"
       ],
-      "topview_task_ids": []
+      "topview_task_ids": [],
+      "status": "ready",
+      "manifest": "references/scenes/scene-25/manifest.json",
+      "remaining": [],
+      "reference_count": 3,
+      "checked_at": "2026-10-08"
     },
     "26": {
       "drive_folder_id": "1m0O7Cp05lNv2nwLWmu8gV5-qYZ4WFLh2",
@@ -154,7 +221,12 @@
       "topview_task_ids": [
         "e100cb476f9548edae0f36a99471b6e5",
         "b95a76b92f9d4787b738b165eaeb270f"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-26/manifest.json",
+      "remaining": [],
+      "reference_count": 4,
+      "checked_at": "2026-10-08"
     },
     "27": {
       "drive_folder_id": "1iuNnARiLSLR1U9lMO1bEK7bRQx5_7kEn",
@@ -168,7 +240,12 @@
         "181863ea0c494773a765f4bc4ec94424",
         "ffa34324436745beb161d72ae9d4394f",
         "017bebefc4c54038954301968a4b5d68"
-      ]
+      ],
+      "status": "ready",
+      "manifest": "references/scenes/scene-27/manifest.json",
+      "remaining": [],
+      "reference_count": 6,
+      "checked_at": "2026-10-08"
     },
     "28": {
       "drive_folder_id": "1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ",
@@ -178,7 +255,14 @@
         "S28_correct_shoulder_pose",
         "G28_clean_11_subject_group"
       ],
-      "topview_task_ids": []
+      "topview_task_ids": [],
+      "status": "ready",
+      "manifest": "references/scenes/scene-28/manifest.json",
+      "remaining": [
+        "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
+      ],
+      "reference_count": 21,
+      "checked_at": "2026-10-08"
     }
   }
 }

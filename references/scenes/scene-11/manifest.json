@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scene_id": 11,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "base_references_ready_helper_blocked",
+  "references": [
+    {
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "drive_file_id": "1iM-h2G1jCjXg1jUDV4H4BJe1ES_qdsPh",
+      "library_file_id": "libfile_8dab02fb0c48819187251f2d32a69480",
+      "role": "@Image1 — точная кантина, композиция и Чубакка"
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image2-han-source.png",
+      "sha256": "716a91f0f3a45153f65b90b8b9de2e45f8bb21cb53dc42104e10a4da0fe12e10",
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "drive_file_id": "1ue6HOEvEuFYX4oKxJAR1MCxsAA7ZdGdE",
+      "library_file_id": "libfile_9094f60808588191ac9be6b654923bbf",
+      "role": "@Image2 — точный Han"
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
+      "dimensions": [
+        896,
+        1195
+      ],
+      "drive_file_id": "189mrOdNgYW9BR7ZYl61pDZ86dSoOU6Xf",
+      "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
+      "role": "@Image3 — точный Jedi"
+    }
+  ],
+  "remaining": [
+    "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
+  ],
+  "technical_success_is_editorial_approval": false
+}

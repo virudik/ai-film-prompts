@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scene_id": 26,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "dimensions": [
+        1536,
+        962
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — парная композиция котов"
+    },
+    {
+      "path": "references/scenes/scene-26/S26-Image4-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image4 — точная локация древних руин"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

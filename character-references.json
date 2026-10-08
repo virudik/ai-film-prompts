@@ -474,6 +474,31 @@
           "notes": "Recurring Jedi identity. Зелёный световой меч; в Scenes 24–25 Рыжик — штурман/системы/оружие; в Scene 26 произносит первую длинную реплику. Не менять окрас, табби-рисунок и кошачью анатомию."
         }
       ]
+    },
+    {
+      "id": "alesya",
+      "name": "Алеся",
+      "aliases": [
+        "ALESYA",
+        "Эвок Алеся",
+        "Ale28"
+      ],
+      "scenes": [
+        28
+      ],
+      "model_sheet": {
+        "source": "Two exact input photographs from owner-specified Topview task dd7ccc1b23334ea0b54455a6605e12ea; generated multi-view sheet visually checked 2026-10-08",
+        "primary": "Алеся · развёрнутый модельный лист",
+        "additional": [],
+        "public_image": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+        "full_image": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+        "full_image_source": "generated_from_verified_owner_references",
+        "web_preview_display_max": 480
+      },
+      "outfit_variant": "Небольшой эвок с взрослым человеческим лицом Алеси, коричневым мехом, круглыми ушами и коричневым капюшоном. Для танца без копья.",
+      "variants": [],
+      "reference_priority": "Individual Ale28 overrides composition helpers for identity; source photos remain provenance.",
+      "mapping_confidence": "owner_identified_source_task_and_visual_QC"
     }
   ],
   "non_character_reference_rules": [
@@ -488,6 +513,6 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-05T00:03:18.443Z",
+  "updated_at": "2026-10-08",
   "note": "All eleven approved characters are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master."
 }

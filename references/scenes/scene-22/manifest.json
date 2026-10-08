@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "scene_id": 22,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/scenes/scene-22/S22-Image1-topview-source.png",
+      "sha256": "230f53f5da80d5b41cac13a770dcca43dbf1171c8554b38e9225859515a42bd2",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — наружный первый кадр"
+    },
+    {
+      "path": "references/scenes/scene-22/S22-Image2-topview-source.png",
+      "sha256": "1e84713aa2ffdb03967efd6ded50fc807f8008ccf60732d7bca9878eaac6595f",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image2 — внутренний последний кадр"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

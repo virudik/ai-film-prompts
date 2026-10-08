@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "scene_id": 28,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/scenes/scene-28/H28A-ceremony.png",
+      "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/P28-pair-facing.webp",
+      "sha256": "09e3a7e171c0843210d0a4e26d47dfdfce61d038446c7feb2387beeb10a8d1f7",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/L28-carry.webp",
+      "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/F28-face-gesture.webp",
+      "sha256": "e2fc7fa3897846d59e00bc95d657e94ddf802c05330874b1e566d40ccb90d3ce",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/S28-shoulder.png",
+      "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1mUz9yeiw3aAToCqT-vFZYsoY22UjE_QF",
+      "library_file_id": "libfile_a7657555aac081918923f62de24b76e8",
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/J28-four-jedi.png",
+      "sha256": "bac8fcf78342e50adacadafa57ef0d42fc3645f0306ddb87be7efbf7d2198573",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/T28-trio.png",
+      "sha256": "ff55bc9fa9714cf44a62124774214919b253d8768e0cac26e9f241ac8b57d197",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1bKw7QQ16otJiCO6KHbmhtl-Rs7aInGQK",
+      "library_file_id": "libfile_2cfa63cd49148191a4891a7994aeb295",
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "dimensions": [
+        1359,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "dimensions": [
+        1536,
+        962
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    }
+  ],
+  "remaining": [
+    "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
+  ],
+  "technical_success_is_editorial_approval": false
+}

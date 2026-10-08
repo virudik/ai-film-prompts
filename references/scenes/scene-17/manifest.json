@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "scene_id": 17,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+      "sha256": "132ec6cbf9d0de3c315479ed9b921973b6c57fe8e8bf64d743b0bbe3c552229a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "drive_file_id": "1IdfL4jTcc4z1ir_neCCiD_3dOETxDUdx",
+      "library_file_id": "libfile_996eafedef88819185b1d745e9cb33ff",
+      "role": "@Image4 — точный кадр пещеры из Video1"
+    },
+    {
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image5 — точный предмет-карта; историческое имя Image4"
+    },
+    {
+      "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+      "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1YA4CvDG7cZNB-v6R7K4hWS5gTVF-C0bA",
+      "library_file_id": "libfile_39f45af784cc819196451ea4d576523d",
+      "role": "@Image6 — трое после боя, постановка"
+    },
+    {
+      "path": "references/scenes/scene-17/S17-map-handoff.png",
+      "sha256": "10866da8029a9127a7c13c7565e6c57e73f5040c6f3467b73d040ec444cba55d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1HlmA97IwiLkuUEOZmlyDfBMMNY3cv9Qj",
+      "library_file_id": "libfile_670887bf91888191b62e94e57956a369",
+      "role": "@Image7 — передача единственной карты, постановка"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

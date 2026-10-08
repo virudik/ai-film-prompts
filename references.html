@@ -31,7 +31,7 @@ function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
  document.getElementById('grid').innerHTML=chars.length?chars.map(ch=>{
-  const p=ch.preview||{},src=ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,img=src?'<img class="zoomable" src="'+esc(src)+'" data-full="'+esc(full)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал">':'Фото пока не подтверждено';
+  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,img=src?'<img class="zoomable" src="'+esc(src)+'" data-full="'+esc(full)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал">':'Фото пока не подтверждено';
   const sceneList=ch.scenes||[],scenes=sceneList.map(id=>'<a class="scene" href="index.html#scene-'+id+'">Сцена '+id+'</a>').join('');
   const add=(ch.model_sheet?.additional||[]).length?' + '+ch.model_sheet.additional.join(', '):'';
   const variants=(ch.variants||[]).map(v=>'<div class="variant"><b>'+esc(v.label||'Вариант')+':</b> '+esc(v.notes||'')+(v.scenes?.length?' · сцены '+v.scenes.join(', '):'')+'</div>').join('');

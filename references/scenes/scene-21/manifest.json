@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scene_id": 21,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-21/S21-Image1-topview-source.png",
+      "sha256": "2c218c0dd0d760a396dfb5dfb6c53ed79779feafabdb53e2714bd2462bb1ef83",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — точный первый кадр мостика"
+    },
+    {
+      "path": "references/scenes/scene-21/S21-Image2-topview-source.png",
+      "sha256": "9c1c0ecb79206fc5012eb2d6f5b279920d0fbebfb54c748828bc1353fbba165d",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image2 — точный последний кадр космоса"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

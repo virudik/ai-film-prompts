@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scene_id": 23,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "dimensions": [
+        1536,
+        962
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-23/S23-Image1-topview-source.png",
+      "sha256": "9904b9b036140e3458603cee0f1b71e2b493ed47a75da77aff27ed7f31110785",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — люди, старт"
+    },
+    {
+      "path": "references/scenes/scene-23/S23-Image2-topview-source.png",
+      "sha256": "37806738d99f93a1e0571e4b48827637c5fa26a67a948af95edb8662a70ca8dc",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image2 — парная композиция котов"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

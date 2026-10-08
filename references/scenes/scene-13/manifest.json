@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "scene_id": 13,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "dimensions": [
+        1536,
+        962
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@image1 — Совет: локация и композиция"
+    },
+    {
+      "path": "references/scenes/scene-13/S13-council-lap.png",
+      "sha256": "3c3a3efc56a66a6a9d34eeb15c679b83fdd0ec78a21f3dd386476b0956cdfb36",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1lnEQvN3raGg843qZodA9gvdqT3Jw_VEg",
+      "library_file_id": "libfile_5fbcf1ad3c0c8191a559cd5bc6c2513f",
+      "role": "@image6 — проверенная расстановка: Лучик на коленях у Лёши"
+    },
+    {
+      "path": "references/scenes/scene-13/S13-luchik-closeup.png",
+      "sha256": "f480469db3edd539b7c1d5ee3676ab830a921af21b45c5b5d07f218c52823cc7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1qnfhind2uXc9PPcS__bwFQ0nuIuFj5TU",
+      "library_file_id": "libfile_cc524b23891c8191b00f940621c3c286",
+      "role": "@image7 — крупность Лучика, человеческие рты вне кадра"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

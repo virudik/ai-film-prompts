@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "scene_id": 16,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "dimensions": [
+        1359,
+        1536
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1brg2XCNajrSLHmi3SCFULPSZ4qX8JaBa",
+      "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
+      "role": "@Image4 — чистая локация из Video1, реконструкция"
+    },
+    {
+      "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+      "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1ZKgfMv8U0EjpllkUYsqbsCQ9k9llD-cl",
+      "library_file_id": "libfile_08fd90eedd34819193093332c6d50645",
+      "role": "@Image5 — стартовая расстановка трёх героев"
+    },
+    {
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "drive_file_id": "1w2cwJjUNW1d0NSJkucOi-BWL-k_5zXU4",
+      "library_file_id": "libfile_b07ba3643d188191bb5fe93c49cae694",
+      "role": "@Image6 — масштаб червя после появления"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}

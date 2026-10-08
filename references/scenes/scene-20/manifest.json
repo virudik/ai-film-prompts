@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "scene_id": 20,
+  "updated_at": "2026-10-08",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "individual identity or explicit Scene 28 binding in master"
+    },
+    {
+      "path": "references/scenes/scene-20/S20-Image1-topview-source.png",
+      "sha256": "32f85b561bd727995943fa48eade0f5fe3fab4107f000638b13235d3f6a97222",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "@Image1 — точная локация озера"
+    },
+    {
+      "path": "references/scenes/scene-20/S20-wide-standing.png",
+      "sha256": "ed1367bd25ebbb5988cbf99127a7920ed0844c31c12a69ca574f0279d3c013fc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1J0zNwjnrYHdijSwi7u65gA2drimnv5Yy",
+      "library_file_id": "libfile_c714c0d40698819195d83b280d48211b",
+      "role": "@Image3 — общий план, закрытый костюм"
+    },
+    {
+      "path": "references/scenes/scene-20/S20-side-walk-profile.png",
+      "sha256": "4a3b2981ed8cde65fc4c127cc648468d0d6530adc6f01984784da4500f4efebf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "14IGOT_VoUVHhErJejqXjKbxVKTkU8etO",
+      "library_file_id": "libfile_98734aff46388191b328b1acb23ed141",
+      "role": "@Image4 — профиль и небольшой шаг"
+    },
+    {
+      "path": "references/scenes/scene-20/S20-close-performance.png",
+      "sha256": "8164354887bb6775998aae80aea481837d815225a19c721ba08f087aa97e4fbd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1xZ6RaxjqZOmpLNu80V41vP6izIka_27Z",
+      "library_file_id": "libfile_ba52cc2f5f748191b1e803456b20400e",
+      "role": "@Image5 — крупный план исполнения"
+    }
+  ],
+  "remaining": [],
+  "technical_success_is_editorial_approval": false
+}
