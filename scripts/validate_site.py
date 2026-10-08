@@ -90,7 +90,10 @@ for required in ("монтажно-сюжетный разбор новой сб
 # 09.10 audit P0: honest freshness, pinned local Markdown renderer, no browser GitHub API.
 for required in (
     '<script src="vendor/marked-15.0.12.min.js"></script>',
-    "content.innerHTML=safeHtml(marked.parse(md));",
+    "content.innerHTML=safeHtml(marked.parse(md),",
+    "armThumbFallback(content)",
+    "references/thumbs/manifest.json",
+    'id="sideToggle"',
     'id="freshnessLine"',
     "const STALE_MIN=120",
     "healthClass='warn'",

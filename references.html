@@ -27,21 +27,22 @@ function openLightbox(src,alt){
  img.src=src;img.alt=alt||'Model sheet';box.classList.add('open');box.setAttribute('aria-hidden','false');
 }
 function closeLightbox(){const box=document.getElementById('lightbox');box.classList.remove('open');box.setAttribute('aria-hidden','true')}
+let thumbs=null;
 function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
  document.getElementById('grid').innerHTML=chars.length?chars.map(ch=>{
-  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,img=src?'<img class="zoomable" src="'+esc(src)+'" data-full="'+esc(full)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал">':'Фото пока не подтверждено';
+  const p=ch.preview||{},src=ch.model_sheet?.full_image||ch.model_sheet?.public_image||p.url||'',full=ch.model_sheet?.full_image||src,shown=(thumbs&&thumbs[src]&&thumbs[src].thumb)||src,img=src?'<img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(full)+'" data-orig="'+esc(src)+'" alt="'+esc(ch.name)+'" title="Открыть оригинал" loading="lazy" decoding="async">':'Фото пока не подтверждено';
   const sceneList=ch.scenes||[],scenes=sceneList.map(id=>'<a class="scene" href="index.html#scene-'+id+'">Сцена '+id+'</a>').join('');
   const add=(ch.model_sheet?.additional||[]).length?' + '+ch.model_sheet.additional.join(', '):'';
   const variants=(ch.variants||[]).map(v=>'<div class="variant"><b>'+esc(v.label||'Вариант')+':</b> '+esc(v.notes||'')+(v.scenes?.length?' · сцены '+v.scenes.join(', '):'')+'</div>').join('');
   return '<article class="card"><div><div class="photo">'+img+'</div></div><div><div class="name">'+esc(ch.name)+'</div>'+((ch.aliases||[]).length?'<div class="alias">Технические имена: '+esc((ch.aliases||[]).join(' · '))+'</div>':'')+(sceneList.length?'<div class="scenes">'+scenes+'</div>':'<span class="unassigned">Пока не привязана к активной сцене</span>')+'<div class="row"><b>Основной референс:</b> '+esc(ch.model_sheet?.primary||'—')+esc(add)+'</div><div class="row"><b>Одежда / образ:</b> '+esc(ch.outfit_variant||'—')+'</div>'+(variants?'<div class="variants"><b>Сценические варианты</b>'+variants+'</div>':'')+'</div></article>';
  }).join(''):'<div class="empty">Ничего не найдено.</div>';
- document.querySelectorAll('.zoomable').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.full||img.src,img.alt)));
+ document.querySelectorAll('.zoomable').forEach(img=>{img.addEventListener('click',()=>openLightbox(img.dataset.full||img.src,img.alt));img.addEventListener('error',()=>{if(img.dataset.orig&&img.getAttribute('src')!==img.dataset.orig)img.src=img.dataset.orig},{once:true})});
  const rules=reg?.non_character_reference_rules||[];
  document.getElementById('rules').innerHTML='<b>Правило референсов:</b> '+esc(rules.join(' · '));
 }
-fetch('character-references.json',{cache:'no-store'}).then(r=>r.json()).then(x=>{reg=x;render()}).catch(e=>document.getElementById('grid').innerHTML='<div class="empty">Не удалось загрузить character-references.json</div>');
+Promise.all([fetch('character-references.json',{cache:'no-store'}).then(r=>r.json()),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(([x,m])=>{reg=x;thumbs=m?.items||null;render()}).catch(e=>document.getElementById('grid').innerHTML='<div class="empty">Не удалось загрузить character-references.json</div>');
 document.getElementById('q').addEventListener('input',render);
 document.getElementById('lightboxClose').onclick=closeLightbox;
 document.getElementById('lightbox').addEventListener('click',e=>{if(e.target.id==='lightbox')closeLightbox()});

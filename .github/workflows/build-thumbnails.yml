@@ -1,0 +1,44 @@
+name: Build reference thumbnails
+
+# Keeps references/thumbs/ in step with reference images. Originals are never
+# modified; the Control Center shows the light WebP card and links the original.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'references/**'
+      - '!references/thumbs/**'
+      - 'scripts/build_thumbnails.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-thumbnails
+  cancel-in-progress: false
+
+jobs:
+  thumbs:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install --quiet pillow
+      - name: Build and publish thumbnails
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 scripts/build_thumbnails.py
+            git add references/thumbs
+            if git diff --cached --quiet; then echo "Thumbnails already current."; exit 0; fi
+            git commit -q -m "Build reference thumbnails"
+            git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "Could not publish thumbnails after retries." >&2
+          exit 1
