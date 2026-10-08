@@ -4258,7 +4258,6 @@ FRAME: 16:9 full bleed, no bars.
 
 ---
 
-
 <a id="scene-30"></a>
 
 ## Сцена 30 — Коты против Серёги: разрушение колоннады
@@ -4309,7 +4308,6 @@ EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source
 ```
 
 ---
-
 
 <a id="scene-31"></a>
 
@@ -4362,7 +4360,6 @@ EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source
 
 ---
 
-
 <a id="scene-32"></a>
 
 ## Сцена 32 — Коты против Серёги: обрушение древней арки
@@ -4414,7 +4411,6 @@ EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source
 
 ---
 
-
 <a id="scene-33"></a>
 
 ## Сцена 33 — Серёга исследует руины на планете ситхов
@@ -4452,7 +4448,6 @@ FULL FRAME 16:9.
 ```
 
 ---
-
 
 <a id="scene-34"></a>
 
