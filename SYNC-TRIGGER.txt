@@ -1,1 +1,1 @@
-2026-10-07 Scene28 S28/G28 ready for staged 15s generation; C28 depends on Part2.
+2026-10-08 Topview terminal reconciliation: canonical slow Scenes 26,27; Drive master sha256 2b157bb39a2497bdff699216deed2cd1c481485057728a2344ddfdff6bc28f7c.\n
