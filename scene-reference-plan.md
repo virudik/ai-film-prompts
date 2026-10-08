@@ -1,8 +1,8 @@
 # Scene Reference Pack Plan — AI Film Серёгиус
 
-Updated: 2026-10-07
+Обновлено: 2026-10-08T09:58:58.592675Z
 
-Purpose: one deterministic reference pack per active Scene ID. Drive is authority; GitHub/site is the public thumbnail mirror; Library is recovery only; Topview task inputs are generation provenance/telemetry, not canonical story authority.
+15 типизированных манифестов; 46 автономных привязок промтов, включая 20 вариантов Scene 28. Это индекс референсов, не новый канон и не разрешение на генерацию. Свежий Drive master остаётся авторитетным.
 
 ## Global workflow
 
@@ -17,28 +17,32 @@ Purpose: one deterministic reference pack per active Scene ID. Drive is authorit
 9. Command `запускай сцену N` means: fresh-read master/status -> resolve scene pack -> ensure required references -> update prompt reference mapping if needed -> preflight Topview model/slots/cost -> submit only after the user's command. Technical success never means approval.
 10. Never silently spend credits for a reference-image helper. Prefer an actually verified unlimited route when available; otherwise stop before submit and report the cost/path issue.
 
-## Active-scene audit
+## Текущий статус
 
-| Scene | Priority | Existing inputs | Additional reference work |
-|---|---|---|---|
-| 10 | HIGH | cantina composition/Chewbacca + Han + Jedi | Create one clean identity-locked three-shot/axis anchor; optionally a reaction-state still shared with Scene 11. |
-| 11 | HIGH | same as Scene 10 | Reuse Scene 10 pack; create only a continuation/end-state still if needed. |
-| 13 | HIGH | council composition + Luchik + Black + Purple; Topview source inputs exist | Create clean council still with Luchik lying horizontally across Purple's lap + true cat close-up reference for speaking beat. |
-| 16 | HIGH | desert-ruins video + 2 Jedi + Serega | Create clean three-character standoff in exact ruins + optional worm scale/composition still. |
-| 17 | HIGH | Pasha + Sasha + Serega + cave + map + continuity video; Topview source inputs exist | Create post-battle seated composition + clear map-handoff pose/reference. |
-| 19 | MEDIUM | start fishing comp + running end comp + Masha + Sasha + Pasha; Topview source inputs exist | Preserve current start/end; add face-to-face Masha/Sasha confrontation only if identity drift persists. |
-| 20 | MEDIUM-HIGH | exact lake + exact Masha; Topview source inputs exist | Add 3 optional pose anchors for 11-part sequence: wide standing, side-walk/profile, close performance. Do not redesign Masha. |
-| 21 | LOW/CONDITIONAL | exact first/last frames + Serega + Yulya; Topview source inputs exist | Existing first/last-frame workflow is sufficient unless identity drift is found; then create corrected bridge-start still only. |
-| 22 | NONE/LOW | exact first and last frames; Topview source inputs exist | No new still required unless geometry mismatch is observed. |
-| 23 | LOW | start people frame + pair-cat target + individual cats; Topview source inputs exist | Existing references are sufficient if pair target is clean; regenerate only if pair identity/scale is wrong. |
-| 24 | LOW | cat pair + individual cats + approved exact cockpit; Topview source inputs exist | Already strong reference pack; no new still by default. |
-| 25 | MEDIUM/CONDITIONAL | same cockpit/cats | Reuse Scene 24. Add battle-light cockpit still only if result shows interior/light drift. |
-| 26 | MEDIUM | cat pair + individual cats + exact ruins; Topview source inputs exist | Prepare a clean two-cat dialogue staging still in exact ruins for future rerender only; do not interrupt current slow task. |
-| 27 | HIGH | cat pair + Serega + individual cats + exact ruins; Topview source inputs exist | Prepare exact 3-subject confrontation/action-staging still; current video tasks remain untouched until result/decision. |
-| 28 | HIGHEST | H28A/H28B + individual sheets + accepted P28/L28/F28; R28A/R28B composition-only | Correct S28 shoulder-carry pose; rebuild G28 without identity mixing/duplicates; keep accepted refs immutable unless user asks. |
+| Сцена | Промтов | Референсов | Остаток |
+|---|---:|---:|---|
+| 10 | 1 | 4 | New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable. |
+| 11 | 1 | 4 | New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable. |
+| 13 | 1 | 6 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 16 | 1 | 6 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 17 | 1 | 7 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 19 | 1 | 5 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 20 | 11 | 5 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 21 | 1 | 4 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 22 | 1 | 2 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 23 | 1 | 4 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 24 | 1 | 4 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 25 | 1 | 4 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 26 | 1 | 4 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 27 | 3 | 6 | Обязательные референсы сохранены; редакционная приёмка видео отдельно. |
+| 28 | 20 | 21 | C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access. |
 
-## Current Topview provenance checkpoint
+В каждом MANIFEST.json: identity/location/prop, start/end, helpers, owner approval отдельно от assistant QC, historical Topview provenance, локальные слоты каждого промта, SHA-256 и известные ID. null означает отсутствие доказанного ID, а не готовый файл.
 
-Scenes with proven Topview task-input recovery available from live board metadata: 13, 17, 19, 20, 21, 22, 23, 24, 26, 27. Their original input S3 paths can be bridged into an authorized Topview Canvas media node and downloaded/reused without asking the owner to upload the same images again.
+Scene 16: оба точных видео сохранены в Drive и Library, Video1 — второй ролик. Чистая локация является реконструкцией кадра около 14 секунд. Scene 17: существующий Drive Video1 сохранён в Library без дублирования в Drive; Video2 остаётся необязательным и непривязанным.
 
-Nano Banana 2 is visible in live Topview image-edit config. The AI Film board history contains successful Nano Banana 2 image-edit tasks marked `useUnlimitMode: true` and `creditsCost: 0`. However, the generic standalone connector submit route does not expose an explicit unlimited-mode switch, so automation must preflight and must never silently fall back to a credit-consuming route.
+Scene 28: A1/A2 подготовлены; A3/B3 ждут C28 из чистого результата A2. C28 нельзя рисовать вручную. Платный запуск запрещён.
+
+Scene 10/11: три оригинальных входа доступны; отклонённый инструментом дополнительный three-shot не создан и не обходится. Для Scene 26 не прикреплять Серёгу.
+
+Сохранение нового полезного кадра до следующей генерации, exact same-ID canonical guard, 7/7, один монитор и порядок синхронизации остаются без изменений. Оптимизация только в отдельном предложении.

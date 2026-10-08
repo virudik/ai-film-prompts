@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 17,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1PI2B8VEIICMr0yXN6mXBMySDwrZzlvhR",
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "role": "identity",
+      "asset_id": "references/full/pasha.jpg",
+      "bytes": 233562,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/pasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/sasha.jpg",
@@ -23,9 +37,23 @@
         1536,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1J8NI9Zk18wYgm90QCpljirKDCyZ0zMxT",
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "role": "identity",
+      "asset_id": "references/full/sasha.jpg",
+      "bytes": 289714,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/sasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/serega.jpg",
@@ -34,9 +62,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
@@ -47,7 +89,21 @@
       ],
       "drive_file_id": "1IdfL4jTcc4z1ir_neCCiD_3dOETxDUdx",
       "library_file_id": "libfile_996eafedef88819185b1d745e9cb33ff",
-      "role": "@Image4 — точный кадр пещеры из Video1"
+      "role": "location",
+      "asset_id": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+      "bytes": 826403,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
@@ -56,9 +112,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image5 — точный предмет-карта; историческое имя Image4"
+      "drive_file_id": "1biqJcdwU4xb5-dwoQLE8DQhrIxEbRYE2",
+      "library_file_id": "libfile_03e8512aec548191908ce3e31462aadd",
+      "role": "prop",
+      "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "bytes": 222565,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-17/S17-post-battle-seated.png",
@@ -69,7 +139,21 @@
       ],
       "drive_file_id": "1YA4CvDG7cZNB-v6R7K4hWS5gTVF-C0bA",
       "library_file_id": "libfile_39f45af784cc819196451ea4d576523d",
-      "role": "@Image6 — трое после боя, постановка"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-17/S17-post-battle-seated.png",
+      "bytes": 2369809,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-17/S17-map-handoff.png",
@@ -80,9 +164,214 @@
       ],
       "drive_file_id": "1HlmA97IwiLkuUEOZmlyDfBMMNY3cv9Qj",
       "library_file_id": "libfile_670887bf91888191b62e94e57956a369",
-      "role": "@Image7 — передача единственной карты, постановка"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-17/S17-map-handoff.png",
+      "bytes": 2279928,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-map-handoff.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/full/pasha.jpg",
+    "references/full/sasha.jpg",
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-17/S17-cave-Video1-frame-003s.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-17/S17-Image4-topview-source.png"
+  ],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-17/S17-post-battle-seated.png",
+    "references/scenes/scene-17/S17-map-handoff.png"
+  ],
+  "video_refs": [
+    {
+      "asset_id": "S17-Video1-exact-cave-continuity.mp4",
+      "file_name": "S17-Video1-exact-cave-continuity.mp4",
+      "sha256": "7c7a38aa67c2af6304d4b2189486b5d0c5e86d910dbfee54122b28eaeb6a770f",
+      "bytes": 42641950,
+      "drive_file_id": "1qKUuh3tZ88tgRP6X7_ZHLSHxGUlgKdN_",
+      "library_file_id": "libfile_acc22fbc840c819183b57972a377baa9",
+      "topview_task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "source_role": "exact_task_input_Video1",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    }
+  ],
+  "approved": {
+    "assistant_qc": [
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/serega.jpg",
+      "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+      "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "references/scenes/scene-17/S17-post-battle-seated.png",
+      "references/scenes/scene-17/S17-map-handoff.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/serega.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+        "found": true,
+        "status": "success",
+        "model": "Seedance 2.5",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/URZkIfBrW4O26AlGjD2qE.png"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Zn38qxWr5jDhD3M87TO9L.png"
+          },
+          {
+            "name": "Image3",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/7ThfzRq0KeiOTdVrtgsnn.jpg"
+          },
+          {
+            "name": "Image4",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QMRCt0782xeffUCEEp3XU.png"
+          }
+        ],
+        "input_videos": [
+          {
+            "name": "Video1",
+            "s3_path": "analyzed_video/task/object_replace_llm/68b4bc5c753a42f48decafdf2ad028cc/68b4bc5c753a42f48decafdf2ad028cc.mp4"
+          }
+        ]
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    },
+    {
+      "asset_id": "S17-Video1-exact-cave-continuity.mp4",
+      "file_name": "S17-Video1-exact-cave-continuity.mp4",
+      "sha256": "7c7a38aa67c2af6304d4b2189486b5d0c5e86d910dbfee54122b28eaeb6a770f",
+      "bytes": 42641950,
+      "drive_file_id": "1qKUuh3tZ88tgRP6X7_ZHLSHxGUlgKdN_",
+      "library_file_id": "libfile_acc22fbc840c819183b57972a377baa9",
+      "topview_task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+      "source_role": "exact_task_input_Video1",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S17",
+      "canonical_heading": "Scene 17",
+      "canonical_prompt_sha256": "387d8d93d0641767f04d41e733d4230350d457fedfb47e3a382d1d5f7058a35d",
+      "characters": 11570,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "required": true,
+          "role": "prop",
+          "status": "available"
+        },
+        "@Image6": {
+          "asset_id": "references/scenes/scene-17/S17-post-battle-seated.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image7": {
+          "asset_id": "references/scenes/scene-17/S17-map-handoff.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Video1": {
+          "asset_id": "S17-Video1-exact-cave-continuity.mp4",
+          "required": true,
+          "role": "continuity_video",
+          "source": "video_refs"
+        },
+        "@Video2": {
+          "asset_id": null,
+          "required": false,
+          "status": "optional_not_bound",
+          "role": "additional_continuity_video",
+          "reason": "Canonical optional input; no exact independent source identified. Do not invent."
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-17",
+    "gallery_paths": [
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/serega.jpg",
+      "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+      "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "references/scenes/scene-17/S17-post-battle-seated.png",
+      "references/scenes/scene-17/S17-map-handoff.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

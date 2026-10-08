@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 26,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1536,
         962
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "12RohRPbsax0EiHGFWUXYxf7fLgonv-f4",
+      "library_file_id": "libfile_6db6dce7d9b4819190691e7b35d10fa6",
+      "role": "identity",
+      "asset_id": "references/luchik.jpg",
+      "bytes": 262158,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/luchik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/ryzhik.jpg",
@@ -23,9 +37,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1uNg8Ob62905PIRY-SNkdDx4p0Z9N03sM",
+      "library_file_id": "libfile_168584bb8d3c8191876eb1d853da41b1",
+      "role": "identity",
+      "asset_id": "references/ryzhik.jpg",
+      "bytes": 229358,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/ryzhik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-26/S26-Image1-topview-source.png",
@@ -34,9 +62,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image1 — парная композиция котов"
+      "drive_file_id": "19n-FVlw3yyHsLPeBhkSj8tSemivI_YQ6",
+      "library_file_id": "libfile_2d5da5bfffe881918be6d60de93c1d1c",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "bytes": 1955624,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-26/S26-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-26/S26-Image4-topview-source.png",
@@ -45,11 +87,147 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image4 — точная локация древних руин"
+      "drive_file_id": "1xpKEdkRM4hj8jbbwu2yYiCi_AxpZV7dv",
+      "library_file_id": "libfile_b4d6a3c8000c8191ac52e33e7bb8f213",
+      "role": "location",
+      "asset_id": "references/scenes/scene-26/S26-Image4-topview-source.png",
+      "bytes": 2034728,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-26/S26-Image4-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/luchik.jpg",
+    "references/ryzhik.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-26/S26-Image4-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-26/S26-Image1-topview-source.png"
+  ],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/luchik.jpg",
+      "references/ryzhik.jpg",
+      "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "references/scenes/scene-26/S26-Image4-topview-source.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/luchik.jpg",
+      "references/ryzhik.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "b95a76b92f9d4787b738b165eaeb270f",
+        "found": true,
+        "status": "init",
+        "model": "Wan 3.0",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bKPaeq7GSfMVChxsUuhL1.png"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/XJMfxZRR2HKAa6t7txDxR.png"
+          },
+          {
+            "name": "Image3",
+            "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/D2gsyGvjsI4Qaq0PmQSAK.png"
+          },
+          {
+            "name": "Image4",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Ae7YWfSxykHIjKXNsTG5H.png"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S26",
+      "canonical_heading": "Scene 26",
+      "canonical_prompt_sha256": "658095c50a14af29c1bc3ddee41ccb4f2778255efe566b440538a812f44d7198",
+      "characters": 7453,
+      "duration_seconds": 30,
+      "model": "Wan 3",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-26/S26-Image1-topview-source.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-26/S26-Image4-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-26",
+    "gallery_paths": [
+      "references/luchik.jpg",
+      "references/ryzhik.jpg",
+      "references/scenes/scene-26/S26-Image1-topview-source.png",
+      "references/scenes/scene-26/S26-Image4-topview-source.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized",
+    "Serega is off-camera only; do not upload Serega identity to this prompt"
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 22,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image1 — наружный первый кадр"
+      "drive_file_id": "10h7qL0qk9sZWzRkrltkUslrmKjZA-jaH",
+      "library_file_id": "libfile_b795ca91e02c819199f9286ae15fe13a",
+      "role": "location",
+      "asset_id": "references/scenes/scene-22/S22-Image1-topview-source.png",
+      "bytes": 1451319,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-22/S22-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-22/S22-Image2-topview-source.png",
@@ -23,11 +37,115 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image2 — внутренний последний кадр"
+      "drive_file_id": "1ALeatiHLBeHqj25Rw6Owr-CqS6kbzY9o",
+      "library_file_id": "libfile_5c923a120dd08191bb9daa003c8ecec1",
+      "role": "location",
+      "asset_id": "references/scenes/scene-22/S22-Image2-topview-source.png",
+      "bytes": 1177853,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-22/S22-Image2-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [],
+  "location_refs": [
+    "references/scenes/scene-22/S22-Image1-topview-source.png",
+    "references/scenes/scene-22/S22-Image2-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": "references/scenes/scene-22/S22-Image1-topview-source.png",
+  "end_frame": "references/scenes/scene-22/S22-Image2-topview-source.png",
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/scenes/scene-22/S22-Image1-topview-source.png",
+      "references/scenes/scene-22/S22-Image2-topview-source.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "6926ce5d0f81477ea06f135d4b658f97",
+        "found": true,
+        "status": "success",
+        "model": "Seedance 2.5",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/9cD74y61CUR8VdkG4VUbU.png"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/iRgwJ7mS5Peh5HCg0ntyG.png"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S22",
+      "canonical_heading": "Scene 22",
+      "canonical_prompt_sha256": "f611d5550b2672e6cddfdd580f3a91db8c6f11a4b8f955c32fb72a15f90d324c",
+      "characters": 8974,
+      "duration_seconds": 30,
+      "model": "Seedance 2.5",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-22/S22-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/scenes/scene-22/S22-Image2-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        }
+      },
+      "start_frame": "references/scenes/scene-22/S22-Image1-topview-source.png",
+      "end_frame": "references/scenes/scene-22/S22-Image2-topview-source.png",
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-22",
+    "gallery_paths": [
+      "references/scenes/scene-22/S22-Image1-topview-source.png",
+      "references/scenes/scene-22/S22-Image2-topview-source.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

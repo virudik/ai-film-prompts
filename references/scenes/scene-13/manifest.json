@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 13,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1536,
         962
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "12RohRPbsax0EiHGFWUXYxf7fLgonv-f4",
+      "library_file_id": "libfile_6db6dce7d9b4819190691e7b35d10fa6",
+      "role": "identity",
+      "asset_id": "references/luchik.jpg",
+      "bytes": 262158,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/luchik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/vitalik.jpg",
@@ -23,9 +37,23 @@
         1536,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1pwKCeOlclqiSIeE6v2ncth94Gny6o7nv",
+      "library_file_id": "libfile_1c5dd93a5dd48191b884fed687e314ae",
+      "role": "identity",
+      "asset_id": "references/full/vitalik.jpg",
+      "bytes": 277558,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/vitalik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/lesha.jpg",
@@ -34,9 +62,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "10ZQtV_Sl-8U-dXFhUvsUm2AHor_HLy09",
+      "library_file_id": "libfile_b2cdfbc101cc8191a4a5967015946b78",
+      "role": "identity",
+      "asset_id": "references/full/lesha.jpg",
+      "bytes": 161032,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/lesha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
@@ -45,9 +87,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@image1 — Совет: локация и композиция"
+      "drive_file_id": "1Vi6PtVxNVkNQcZJgmV5UgA4G0ntiRDer",
+      "library_file_id": "libfile_c37ae329279081919bc7447c5bba911c",
+      "role": "location",
+      "asset_id": "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "bytes": 1223451,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-13/S13-council-lap.png",
@@ -58,7 +114,21 @@
       ],
       "drive_file_id": "1lnEQvN3raGg843qZodA9gvdqT3Jw_VEg",
       "library_file_id": "libfile_5fbcf1ad3c0c8191a559cd5bc6c2513f",
-      "role": "@image6 — проверенная расстановка: Лучик на коленях у Лёши"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-13/S13-council-lap.png",
+      "bytes": 1969144,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-council-lap.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-13/S13-luchik-closeup.png",
@@ -69,9 +139,163 @@
       ],
       "drive_file_id": "1qnfhind2uXc9PPcS__bwFQ0nuIuFj5TU",
       "library_file_id": "libfile_cc524b23891c8191b00f940621c3c286",
-      "role": "@image7 — крупность Лучика, человеческие рты вне кадра"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-13/S13-luchik-closeup.png",
+      "bytes": 2119805,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-luchik-closeup.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/luchik.jpg",
+    "references/full/vitalik.jpg",
+    "references/full/lesha.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-13/S13-Image1-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-13/S13-council-lap.png",
+    "references/scenes/scene-13/S13-luchik-closeup.png"
+  ],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/luchik.jpg",
+      "references/full/vitalik.jpg",
+      "references/full/lesha.jpg",
+      "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "references/scenes/scene-13/S13-council-lap.png",
+      "references/scenes/scene-13/S13-luchik-closeup.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/luchik.jpg",
+      "references/full/vitalik.jpg",
+      "references/full/lesha.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "73cf9e84d8b14f5f8d6653f7f6ae7318",
+        "found": true,
+        "status": "success",
+        "model": "Wan 3.0",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/cFRl3Jt4tru3Xd2Pmky8u.jpg"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/62AWx8tu9wvTY8uBqE7Gl.png"
+          },
+          {
+            "name": "Image3",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/mWQZ2QkPTID3zZMUS7soL.png"
+          },
+          {
+            "name": "Image4",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ypHkhwX75zcSU8xcPy0Uo.png"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S13",
+      "canonical_heading": "Scene 13",
+      "canonical_prompt_sha256": "de075ff14daef87899821b1dd862819f98e8463208a007720b473855419b8fd9",
+      "characters": 8390,
+      "duration_seconds": 30,
+      "model": "Wan 3",
+      "slots": {
+        "@image1": {
+          "asset_id": "references/scenes/scene-13/S13-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@image2": {
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@image4": {
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@image5": {
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@image6": {
+          "asset_id": "references/scenes/scene-13/S13-council-lap.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@image7": {
+          "asset_id": "references/scenes/scene-13/S13-luchik-closeup.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-13",
+    "gallery_paths": [
+      "references/luchik.jpg",
+      "references/full/vitalik.jpg",
+      "references/full/lesha.jpg",
+      "references/scenes/scene-13/S13-Image1-topview-source.png",
+      "references/scenes/scene-13/S13-council-lap.png",
+      "references/scenes/scene-13/S13-luchik-closeup.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

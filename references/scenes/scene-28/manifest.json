@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1672,
         941
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1Vt3GiuV-6MsQlz_1-B12cKnwp0jWrD_X",
+      "library_file_id": "libfile_354dfaba5ec48191b1c5cdbe1074e21e",
+      "role": "location",
+      "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+      "bytes": 2421508,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/H28A-ceremony.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/H28B-disco.png",
@@ -23,9 +37,23 @@
         1672,
         941
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1vBNpyHNTsvdHa_kjLrOdw2oxkvt1HgDx",
+      "library_file_id": "libfile_7293c6d3444c8191af0f5ef154259a5f",
+      "role": "location",
+      "asset_id": "references/scenes/scene-28/H28B-disco.png",
+      "bytes": 2440738,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/H28B-disco.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/P28-pair-facing.webp",
@@ -35,8 +63,22 @@
         900
       ],
       "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "library_file_id": "libfile_d5983db0a00c819182f3081812ca3fff",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/P28-pair-facing.webp",
+      "bytes": 163236,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/P28-pair-facing.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/L28-carry.webp",
@@ -46,8 +88,22 @@
         900
       ],
       "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "library_file_id": "libfile_8dee3819050c81919c817ef420c70285",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/L28-carry.webp",
+      "bytes": 162514,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/L28-carry.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/F28-face-gesture.webp",
@@ -57,8 +113,21 @@
         900
       ],
       "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "library_file_id": "libfile_70e4f7e7f5988191af76b6f2131822fc",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/F28-face-gesture.webp",
+      "media_type": "image",
+      "bytes": 163246,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/F28-face-gesture.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/S28-shoulder.png",
@@ -67,9 +136,23 @@
         1672,
         941
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1UoaFEPUyVeEYojAuich8dhbdNfmgHD6o",
+      "library_file_id": "libfile_d0e480b09c308191ac53747285e13aab",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/S28-shoulder.png",
+      "bytes": 2194299,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/S28-shoulder.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
@@ -80,7 +163,21 @@
       ],
       "drive_file_id": "1mUz9yeiw3aAToCqT-vFZYsoY22UjE_QF",
       "library_file_id": "libfile_a7657555aac081918923f62de24b76e8",
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "bytes": 2366049,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/J28-four-jedi.png",
@@ -90,8 +187,21 @@
         941
       ],
       "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "library_file_id": "libfile_64acba59322881918b187bd148bdc90c",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/J28-four-jedi.png",
+      "media_type": "image",
+      "bytes": 2510803,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/J28-four-jedi.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/T28-trio.png",
@@ -101,8 +211,21 @@
         941
       ],
       "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "library_file_id": "libfile_a20327a6c89c819188e056c279be8509",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-28/T28-trio.png",
+      "media_type": "image",
+      "bytes": 2605329,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/T28-trio.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
@@ -113,7 +236,21 @@
       ],
       "drive_file_id": "1bKw7QQ16otJiCO6KHbmhtl-Rs7aInGQK",
       "library_file_id": "libfile_2cfa63cd49148191a4891a7994aeb295",
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "role": "identity",
+      "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "bytes": 2584564,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/serega.jpg",
@@ -122,9 +259,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/yulya.jpg",
@@ -133,9 +284,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1fiv8yxoGuQUcZO-0UJ7kFbuH0IigtH1r",
+      "library_file_id": "libfile_4c090545bf548191889736d805764786",
+      "role": "identity",
+      "asset_id": "references/full/yulya.jpg",
+      "bytes": 161368,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/yulya.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/pasha.jpg",
@@ -144,9 +309,23 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1PI2B8VEIICMr0yXN6mXBMySDwrZzlvhR",
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "role": "identity",
+      "asset_id": "references/full/pasha.jpg",
+      "bytes": 233562,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/pasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/sasha.jpg",
@@ -155,9 +334,23 @@
         1536,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1J8NI9Zk18wYgm90QCpljirKDCyZ0zMxT",
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "role": "identity",
+      "asset_id": "references/full/sasha.jpg",
+      "bytes": 289714,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/sasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/artem.jpg",
@@ -166,9 +359,23 @@
         1359,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1fFo-c_i_zDClPbEOWgd8PpDKczr5sC_A",
+      "library_file_id": "libfile_cb2792b279c48191a899d848702855ab",
+      "role": "identity",
+      "asset_id": "references/full/artem.jpg",
+      "bytes": 276298,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/artem.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/ilyusha.jpg",
@@ -177,9 +384,23 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1IZulGTHz4gmxWKNl35oa1R-mAnENmnuL",
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "role": "identity",
+      "asset_id": "references/full/ilyusha.jpg",
+      "bytes": 271235,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/ilyusha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/lesha.jpg",
@@ -188,9 +409,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "10ZQtV_Sl-8U-dXFhUvsUm2AHor_HLy09",
+      "library_file_id": "libfile_b2cdfbc101cc8191a4a5967015946b78",
+      "role": "identity",
+      "asset_id": "references/full/lesha.jpg",
+      "bytes": 161032,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/lesha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/vitalik.jpg",
@@ -199,9 +434,23 @@
         1536,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1pwKCeOlclqiSIeE6v2ncth94Gny6o7nv",
+      "library_file_id": "libfile_1c5dd93a5dd48191b884fed687e314ae",
+      "role": "identity",
+      "asset_id": "references/full/vitalik.jpg",
+      "bytes": 277558,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/vitalik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/masha-laguna.webp",
@@ -210,9 +459,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1v02HKKtLp77hb0Ab_FGDghFDTALw1uM-",
+      "library_file_id": "libfile_98ec75c21c908191bbc6119a56020e05",
+      "role": "identity",
+      "asset_id": "references/masha-laguna.webp",
+      "bytes": 78318,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/masha-laguna.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/luchik.jpg",
@@ -221,9 +484,23 @@
         1536,
         962
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "12RohRPbsax0EiHGFWUXYxf7fLgonv-f4",
+      "library_file_id": "libfile_6db6dce7d9b4819190691e7b35d10fa6",
+      "role": "identity",
+      "asset_id": "references/luchik.jpg",
+      "bytes": 262158,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/luchik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/ryzhik.jpg",
@@ -232,13 +509,951 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1uNg8Ob62905PIRY-SNkdDx4p0Z9N03sM",
+      "library_file_id": "libfile_168584bb8d3c8191876eb1d853da41b1",
+      "role": "identity",
+      "asset_id": "references/ryzhik.jpg",
+      "bytes": 229358,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/ryzhik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [
     "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
   ],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+    "references/full/serega.jpg",
+    "references/full/yulya.jpg",
+    "references/full/pasha.jpg",
+    "references/full/sasha.jpg",
+    "references/full/artem.jpg",
+    "references/full/ilyusha.jpg",
+    "references/full/lesha.jpg",
+    "references/full/vitalik.jpg",
+    "references/masha-laguna.webp",
+    "references/luchik.jpg",
+    "references/ryzhik.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-28/H28A-ceremony.png",
+    "references/scenes/scene-28/H28B-disco.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-28/P28-pair-facing.webp",
+    "references/scenes/scene-28/L28-carry.webp",
+    "references/scenes/scene-28/F28-face-gesture.webp",
+    "references/scenes/scene-28/S28-shoulder.png",
+    "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+    "references/scenes/scene-28/J28-four-jedi.png",
+    "references/scenes/scene-28/T28-trio.png"
+  ],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/scenes/scene-28/H28A-ceremony.png",
+      "references/scenes/scene-28/H28B-disco.png",
+      "references/scenes/scene-28/P28-pair-facing.webp",
+      "references/scenes/scene-28/L28-carry.webp",
+      "references/scenes/scene-28/F28-face-gesture.webp",
+      "references/scenes/scene-28/S28-shoulder.png",
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "references/scenes/scene-28/J28-four-jedi.png",
+      "references/scenes/scene-28/T28-trio.png",
+      "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/artem.jpg",
+      "references/full/ilyusha.jpg",
+      "references/full/lesha.jpg",
+      "references/full/vitalik.jpg",
+      "references/masha-laguna.webp",
+      "references/luchik.jpg",
+      "references/ryzhik.jpg"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/artem.jpg",
+      "references/full/ilyusha.jpg",
+      "references/full/lesha.jpg",
+      "references/full/vitalik.jpg",
+      "references/masha-laguna.webp",
+      "references/luchik.jpg",
+      "references/ryzhik.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [
+    {
+      "candidate": "R28A/R28B old composition previews",
+      "status": "archived_not_identity_authority",
+      "owner_rejection_inferred": false
+    }
+  ],
+  "topview_source_provenance": [
+    {
+      "task_id": "dd7ccc1b23334ea0b54455a6605e12ea",
+      "role": "two owner-specified Alesya source photographs",
+      "derived_asset": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "A1",
+      "canonical_heading": "A1 · Танец 1 — Серёга и Юля задают устав",
+      "canonical_prompt_sha256": "6f5a8629275dbe61673a7f8ec6099385df7458187914aeefdd5537f1a8abe367",
+      "characters": 5134,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A2",
+      "canonical_heading": "A2 · Танец 2 — Четыре взаимных жеста у лица",
+      "canonical_prompt_sha256": "57802b65a93af3477e594b9c99f381ccd2cbf5a0de1e10cef29b5ffca8177148",
+      "characters": 4965,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/P28-pair-facing.webp",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A3",
+      "canonical_heading": "A3 · Танец 3 — Невозмутимый разъезд",
+      "canonical_prompt_sha256": "748a154f80e34cdfcaaf5fcc87e156193368f78913ec2d6919f1fd252ea13156",
+      "characters": 4755,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": null,
+          "required": true,
+          "role": "continuity_frame",
+          "status": "wait_for_clean_A2_result"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "blocked_C28",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A4",
+      "canonical_heading": "A4 · Танец 4 — Паша и Саша: джедайский устав",
+      "canonical_prompt_sha256": "856568f2ff303b18fe86b7e57a70e6febd27862fa71d0f138ef4f3037238983c",
+      "characters": 4533,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A5",
+      "canonical_heading": "A5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
+      "canonical_prompt_sha256": "f186f3bbd0b74b3550cf71c8d96fc0496d9399122b319d92f2e11c41e2acae86",
+      "characters": 4492,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A6",
+      "canonical_heading": "A6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
+      "canonical_prompt_sha256": "4daa1e7cb1ed19b11283ffbf46fa004972ce815317a7403697689aad89f22f0d",
+      "characters": 5176,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A7",
+      "canonical_heading": "A7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
+      "canonical_prompt_sha256": "3cea8e301789cdcc58b68467a6c15f3ab6482deecab9a7eabe59275794f1f50a",
+      "characters": 5367,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A8",
+      "canonical_heading": "A8 · Танец 8 — Размеренное кружение на руках",
+      "canonical_prompt_sha256": "124fe457a6fb54591c8356f9793f28f1a254b4b77912749976225b33f63d7789",
+      "characters": 5117,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/L28-carry.webp",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A9",
+      "canonical_heading": "A9 · Танец 9 — Парадная переноска на плече",
+      "canonical_prompt_sha256": "27049c60e3c81b659daebf6782bb1ec8f86d85c0585af8fcb2484d64105b0252",
+      "characters": 5278,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/S28-shoulder.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A10",
+      "canonical_heading": "A10 · Танец 10 — Общая финальная печать",
+      "canonical_prompt_sha256": "a709845b6ecfb8e11b2901669190a81fd53e7810451e6275b12edd70b8c76140",
+      "characters": 5586,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B1",
+      "canonical_heading": "B1 · Танец 1 — Серёга и Юля задают устав",
+      "canonical_prompt_sha256": "16f1ffff4169aaa60591a3091358d06d2bdff88f4cb7736d81cbe5d843f38fb0",
+      "characters": 5246,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B2",
+      "canonical_heading": "B2 · Танец 2 — Четыре взаимных жеста у лица",
+      "canonical_prompt_sha256": "e4344788d7a93ed51f239076b56dcc0c1d30ecf1f9155031c47ebf8d6f5d7763",
+      "characters": 4974,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/P28-pair-facing.webp",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B3",
+      "canonical_heading": "B3 · Танец 3 — Невозмутимый разъезд",
+      "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
+      "characters": 4857,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": null,
+          "required": true,
+          "role": "continuity_frame",
+          "status": "wait_for_clean_A2_result"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "blocked_C28",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B4",
+      "canonical_heading": "B4 · Танец 4 — Паша и Саша: джедайский устав",
+      "canonical_prompt_sha256": "ee4aafaedcf8448ae5309409313ff01b1f9db7ec261c29f8a65fd6cbad672f27",
+      "characters": 4652,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B5",
+      "canonical_heading": "B5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
+      "canonical_prompt_sha256": "00f669d69e15d3355b6a6367e4036cf9de02eeb061bb9e9ac6986b3d557e3820",
+      "characters": 4542,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B6",
+      "canonical_heading": "B6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
+      "canonical_prompt_sha256": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
+      "characters": 5274,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/lesha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/full/vitalik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B7",
+      "canonical_heading": "B7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
+      "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
+      "characters": 5415,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/luchik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/ryzhik.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B8",
+      "canonical_heading": "B8 · Танец 8 — Размеренное кружение на руках",
+      "canonical_prompt_sha256": "86e88d4bfad13a45d12e64b70e2bff7a5ccdcbd6edeaaa8db592c6e7d2762568",
+      "characters": 5109,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/L28-carry.webp",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B9",
+      "canonical_heading": "B9 · Танец 9 — Парадная переноска на плече",
+      "canonical_prompt_sha256": "ac9bb9b1381597b0653c922279c8ef62432d29b335fe8cba9301b46379e56b62",
+      "characters": 5328,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-28/S28-shoulder.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B10",
+      "canonical_heading": "B10 · Танец 10 — Общая финальная печать",
+      "canonical_prompt_sha256": "14ba7add024d27bf594ce01a72b3fa9f2f9c3d9081868137a2579102665eb6f4",
+      "characters": 5866,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-28",
+    "gallery_paths": [
+      "references/scenes/scene-28/H28A-ceremony.png",
+      "references/scenes/scene-28/H28B-disco.png",
+      "references/scenes/scene-28/P28-pair-facing.webp",
+      "references/scenes/scene-28/L28-carry.webp",
+      "references/scenes/scene-28/F28-face-gesture.webp",
+      "references/scenes/scene-28/S28-shoulder.png",
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "references/scenes/scene-28/J28-four-jedi.png",
+      "references/scenes/scene-28/T28-trio.png",
+      "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/artem.jpg",
+      "references/full/ilyusha.jpg",
+      "references/full/lesha.jpg",
+      "references/full/vitalik.jpg",
+      "references/masha-laguna.webp",
+      "references/luchik.jpg",
+      "references/ryzhik.jpg"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ],
+  "operational_copy_history": {
+    "authority_note": "Character sheets are canonical identity sources. H28A/H28B canonical source remains the project site/GitHub PNG; *-materialized.png are faithful 16:9 operational copies created only to bridge those pixels into chat/Library/Drive workflows.",
+    "items": [
+      {
+        "file": "serega.jpg",
+        "role": "Серёга — canonical full character sheet",
+        "size": 155182,
+        "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+        "local_ready": true
+      },
+      {
+        "file": "yulya.jpg",
+        "role": "Юля — canonical full character sheet",
+        "size": 161368,
+        "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+        "local_ready": true
+      },
+      {
+        "file": "pasha.jpg",
+        "role": "Паша — canonical full character sheet",
+        "size": 233562,
+        "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+        "local_ready": true
+      },
+      {
+        "file": "sasha.jpg",
+        "role": "Саша — canonical full character sheet",
+        "size": 289714,
+        "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+        "local_ready": true
+      },
+      {
+        "file": "artem.jpg",
+        "role": "Артём — canonical full character sheet",
+        "size": 276298,
+        "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+        "local_ready": true
+      },
+      {
+        "file": "ilyusha.jpg",
+        "role": "Илюша — canonical full character sheet",
+        "size": 271235,
+        "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+        "local_ready": true
+      },
+      {
+        "file": "lesha.jpg",
+        "role": "Лёша — canonical full character sheet",
+        "size": 161032,
+        "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+        "local_ready": true
+      },
+      {
+        "file": "vitalik.jpg",
+        "role": "Виталик — canonical full character sheet",
+        "size": 277558,
+        "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+        "local_ready": true
+      },
+      {
+        "file": "masha-laguna.webp",
+        "role": "Маша Лагуна — canonical model sheet",
+        "size": 78318,
+        "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+        "local_ready": true
+      },
+      {
+        "file": "luchik.jpg",
+        "role": "Лучик — canonical cat reference",
+        "size": 262158,
+        "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+        "local_ready": true
+      },
+      {
+        "file": "ryzhik.jpg",
+        "role": "Рыжик — canonical cat reference",
+        "size": 229358,
+        "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+        "local_ready": true
+      },
+      {
+        "file": "H28A-ceremony-materialized.png",
+        "role": "Operational materialized copy of canonical H28A for chat/image input",
+        "size": 1494453,
+        "sha256": "75a649a94c5288cf5d792f5f5fb40ea205a79b5fb66cec8c7f8eb437d948c3f8",
+        "local_ready": true
+      },
+      {
+        "file": "H28B-disco-materialized.png",
+        "role": "Operational materialized copy of canonical H28B for chat/image input",
+        "size": 1626378,
+        "sha256": "e9f8eba196a8bd26d3927d0b229717011ad0922ce795f0806d552d9bcfb5d6cb",
+        "local_ready": true
+      }
+    ],
+    "canonical_hangar_urls": {
+      "H28A": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28A-ceremony.png",
+      "H28B": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28B-disco.png"
+    }
+  }
 }

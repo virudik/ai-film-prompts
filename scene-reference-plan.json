@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-10-08",
+  "schema_version": 2,
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -24,7 +24,9 @@
         "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
       ],
       "reference_count": 4,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "11": {
       "drive_folder_id": "18fjLl8dKPi5U6Iu0nTdUDhfKNgo-pWVa",
@@ -41,7 +43,9 @@
         "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
       ],
       "reference_count": 4,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "13": {
       "drive_folder_id": "1uRaTN2UP7UBjhjxcsBHBviG85ojIrSAw",
@@ -58,7 +62,9 @@
       "manifest": "references/scenes/scene-13/manifest.json",
       "remaining": [],
       "reference_count": 6,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "16": {
       "drive_folder_id": "1ilIL52alNkjLMiab2XaMcKc6H_y951Nl",
@@ -76,7 +82,9 @@
       "manifest": "references/scenes/scene-16/manifest.json",
       "remaining": [],
       "reference_count": 6,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "17": {
       "drive_folder_id": "144klZY5o3pQ8v1O03UrGtIJSEj0Yjf0s",
@@ -93,7 +101,9 @@
       "manifest": "references/scenes/scene-17/manifest.json",
       "remaining": [],
       "reference_count": 7,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "19": {
       "drive_folder_id": "1j5w0tM90pQANhYe_rjNx61LRghttUE9_",
@@ -110,7 +120,9 @@
       "manifest": "references/scenes/scene-19/manifest.json",
       "remaining": [],
       "reference_count": 5,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "20": {
       "drive_folder_id": "1Xzix5Am_jdAO-t0_yeyWy6SQ3fjNIzfL",
@@ -131,7 +143,9 @@
       "manifest": "references/scenes/scene-20/manifest.json",
       "remaining": [],
       "reference_count": 5,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 11
     },
     "21": {
       "drive_folder_id": "1A3fQyPcKbNeIYqN4PrW9y-Go4U6r91vk",
@@ -147,7 +161,9 @@
       "manifest": "references/scenes/scene-21/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "22": {
       "drive_folder_id": "1kmTryF7g6nUtXutZ0-FUTGf_lYLMr_ho",
@@ -163,7 +179,9 @@
       "manifest": "references/scenes/scene-22/manifest.json",
       "remaining": [],
       "reference_count": 2,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "23": {
       "drive_folder_id": "10cPrK_10RbYr9pfrSHN0IjXGKnxO-5OD",
@@ -179,7 +197,9 @@
       "manifest": "references/scenes/scene-23/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "24": {
       "drive_folder_id": "1SoP5-DvpXquHVX7gukIYPniqAiHnlEO7",
@@ -194,8 +214,10 @@
       "status": "ready",
       "manifest": "references/scenes/scene-24/manifest.json",
       "remaining": [],
-      "reference_count": 3,
-      "checked_at": "2026-10-08"
+      "reference_count": 4,
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "25": {
       "drive_folder_id": "1WMG0T_EL-RspzBqX4AhXydWO9yB5e5WV",
@@ -208,8 +230,10 @@
       "status": "ready",
       "manifest": "references/scenes/scene-25/manifest.json",
       "remaining": [],
-      "reference_count": 3,
-      "checked_at": "2026-10-08"
+      "reference_count": 4,
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "26": {
       "drive_folder_id": "1m0O7Cp05lNv2nwLWmu8gV5-qYZ4WFLh2",
@@ -226,7 +250,9 @@
       "manifest": "references/scenes/scene-26/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1
     },
     "27": {
       "drive_folder_id": "1iuNnARiLSLR1U9lMO1bEK7bRQx5_7kEn",
@@ -245,7 +271,9 @@
       "manifest": "references/scenes/scene-27/manifest.json",
       "remaining": [],
       "reference_count": 6,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 3
     },
     "28": {
       "drive_folder_id": "1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ",
@@ -262,7 +290,13 @@
         "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
       ],
       "reference_count": 21,
-      "checked_at": "2026-10-08"
+      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 20
     }
-  }
+  },
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "manifest_contract_complete": true,
+  "total_prompt_mappings": 46,
+  "generation_started": false
 }

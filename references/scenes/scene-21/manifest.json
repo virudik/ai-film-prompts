@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 21,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/yulya.jpg",
@@ -23,9 +37,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1fiv8yxoGuQUcZO-0UJ7kFbuH0IigtH1r",
+      "library_file_id": "libfile_4c090545bf548191889736d805764786",
+      "role": "identity",
+      "asset_id": "references/full/yulya.jpg",
+      "bytes": 161368,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/yulya.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-21/S21-Image1-topview-source.png",
@@ -34,9 +62,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image1 — точный первый кадр мостика"
+      "drive_file_id": "1sZ2nHAoZFT6220tmLb4vxcakIDIaoeDM",
+      "library_file_id": "libfile_4074422f671c81918111dbecb07e6dc0",
+      "role": "location",
+      "asset_id": "references/scenes/scene-21/S21-Image1-topview-source.png",
+      "bytes": 1477712,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-21/S21-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-21/S21-Image2-topview-source.png",
@@ -45,11 +87,145 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image2 — точный последний кадр космоса"
+      "drive_file_id": "1d3kQGI2iUQL_jCACM8Q8f81oyTgAno0w",
+      "library_file_id": "libfile_5bf7ce44cccc8191a6f426ca80e09b1e",
+      "role": "location",
+      "asset_id": "references/scenes/scene-21/S21-Image2-topview-source.png",
+      "bytes": 798652,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-21/S21-Image2-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/full/serega.jpg",
+    "references/full/yulya.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-21/S21-Image1-topview-source.png",
+    "references/scenes/scene-21/S21-Image2-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": "references/scenes/scene-21/S21-Image1-topview-source.png",
+  "end_frame": "references/scenes/scene-21/S21-Image2-topview-source.png",
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/scenes/scene-21/S21-Image1-topview-source.png",
+      "references/scenes/scene-21/S21-Image2-topview-source.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "6d05c85753234b64b43fc75157437a0d",
+        "found": true,
+        "status": "success",
+        "model": "Seedance 2.5",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/UGIGrcX0fll4SD5ThmNz4.png"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/J3ywrau8SBi4YZ73wcybS.png"
+          },
+          {
+            "name": "Image3",
+            "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/TByKT9CvunpDrlRa3E8il.png"
+          },
+          {
+            "name": "Image4",
+            "s3_path": "analyzed_video/task/object_replace_llm/6cce6ce3c3fb4121bf17b465255acef8/inline_image_0.png"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S21",
+      "canonical_heading": "Scene 21",
+      "canonical_prompt_sha256": "a409c254ac01cbe45d80b3a1fffcbb823e9f18085b8d00532ce12fa2e99a5c9c",
+      "characters": 10783,
+      "duration_seconds": 30,
+      "model": "Seedance 2.5",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-21/S21-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/scenes/scene-21/S21-Image2-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": "references/scenes/scene-21/S21-Image1-topview-source.png",
+      "end_frame": "references/scenes/scene-21/S21-Image2-topview-source.png",
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-21",
+    "gallery_paths": [
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/scenes/scene-21/S21-Image1-topview-source.png",
+      "references/scenes/scene-21/S21-Image2-topview-source.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

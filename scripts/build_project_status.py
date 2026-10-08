@@ -518,7 +518,7 @@ def parse_master(
     work_ids.extend(re.findall(r"W\d+", remainder))
     work_ids = list(dict.fromkeys(work_ids))
 
-    slow = re.search(r"\*\*⏳\s*(\d+)\*\*[^\n]*?:\s*\*\*([0-9, ]+)\*\*", text)
+    slow = re.search(r"\*\*⏳\s*(\d+)\*\*[^\n]*?:\s*\*\*([0-9, ]+|нет|—)\*\*", text)
     if not slow:
         fail("slow-generation status line not found")
     declared_slow = int(slow.group(1))

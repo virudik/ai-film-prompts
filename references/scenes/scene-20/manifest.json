@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 20,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1v02HKKtLp77hb0Ab_FGDghFDTALw1uM-",
+      "library_file_id": "libfile_98ec75c21c908191bbc6119a56020e05",
+      "role": "identity",
+      "asset_id": "references/masha-laguna.webp",
+      "bytes": 78318,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/masha-laguna.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-20/S20-Image1-topview-source.png",
@@ -23,9 +37,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image1 — точная локация озера"
+      "drive_file_id": "1BFMlgRV3VGyRUOgEyeQLDZAEnfDPGiP8",
+      "library_file_id": "libfile_d499a94a6b8c8191a8d88021d1224a94",
+      "role": "location",
+      "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+      "bytes": 2025163,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-20/S20-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-20/S20-wide-standing.png",
@@ -36,7 +64,21 @@
       ],
       "drive_file_id": "1J0zNwjnrYHdijSwi7u65gA2drimnv5Yy",
       "library_file_id": "libfile_c714c0d40698819195d83b280d48211b",
-      "role": "@Image3 — общий план, закрытый костюм"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+      "bytes": 2541620,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-20/S20-wide-standing.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-20/S20-side-walk-profile.png",
@@ -47,7 +89,21 @@
       ],
       "drive_file_id": "14IGOT_VoUVHhErJejqXjKbxVKTkU8etO",
       "library_file_id": "libfile_98734aff46388191b328b1acb23ed141",
-      "role": "@Image4 — профиль и небольшой шаг"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+      "bytes": 2576344,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-20/S20-side-walk-profile.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-20/S20-close-performance.png",
@@ -58,9 +114,584 @@
       ],
       "drive_file_id": "1xZ6RaxjqZOmpLNu80V41vP6izIka_27Z",
       "library_file_id": "libfile_ba52cc2f5f748191b1e803456b20400e",
-      "role": "@Image5 — крупный план исполнения"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+      "bytes": 2116747,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-20/S20-close-performance.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/masha-laguna.webp"
+  ],
+  "location_refs": [
+    "references/scenes/scene-20/S20-Image1-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-20/S20-wide-standing.png",
+    "references/scenes/scene-20/S20-side-walk-profile.png",
+    "references/scenes/scene-20/S20-close-performance.png"
+  ],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/masha-laguna.webp",
+      "references/scenes/scene-20/S20-Image1-topview-source.png",
+      "references/scenes/scene-20/S20-wide-standing.png",
+      "references/scenes/scene-20/S20-side-walk-profile.png",
+      "references/scenes/scene-20/S20-close-performance.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/masha-laguna.webp"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
+        "found": true,
+        "status": "init",
+        "model": "Wan 3.0",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QUlw6fegrLWplEL7BK5jL.jpg"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/YxE8aMS6CuwQPsPv7ehCV.jpg"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S20-part-1",
+      "canonical_heading": "Песня Маши 1 — вступление и начало первого куплета",
+      "canonical_prompt_sha256": "09ec7fc0ecac3bf9eb6bd4aeb22b0fdb2e947567047e36e36887050507dbe579",
+      "characters": 12572,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-2",
+      "canonical_heading": "Песня Маши 2 — первый куплет — движение вдоль воды",
+      "canonical_prompt_sha256": "716c62bdfb89de900c9278f67dd52a4e619956755b980069e0ee963c01ff758e",
+      "characters": 12577,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-3",
+      "canonical_heading": "Песня Маши 3 — первый куплет — война в голове",
+      "canonical_prompt_sha256": "27f0de49ebc659471b3a6e232a112a927197af9e64c01b2226cbb40714accca6",
+      "characters": 12521,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-4",
+      "canonical_heading": "Песня Маши 4 — первый припев — первый эмоциональный выброс",
+      "canonical_prompt_sha256": "cb993e2203bacabc78d59ff98539f95bc1d744271ca3cbe2486dd3521bbd182d",
+      "characters": 12348,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-5",
+      "canonical_heading": "Песня Маши 5 — первый припев — кульминация и вопрос",
+      "canonical_prompt_sha256": "f5185b22675422ff63d51a2c1cb3ea375d37b5f153529ff7b8311f366dcfdbe8",
+      "characters": 12522,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-6",
+      "canonical_heading": "Песня Маши 6 — вокализ / инструментальная передышка",
+      "canonical_prompt_sha256": "5e66d01d55ef1f2d500e96ee0332d88fb7a1a928b18c776a84846de9485191d4",
+      "characters": 12565,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-7",
+      "canonical_heading": "Песня Маши 7 — второй куплет — новая волна",
+      "canonical_prompt_sha256": "dad3b507eaa3d66644944e8c8d7fbda8bff682af8c0b87259d16a11fe7195002",
+      "characters": 12337,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-8",
+      "canonical_heading": "Песня Маши 8 — второй куплет — историческая тема и нарастание",
+      "canonical_prompt_sha256": "c1412cf37f9d139a94d105f6424e4dcdb99e35b647b50fda215fc7116037f7cc",
+      "characters": 12376,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-9",
+      "canonical_heading": "Песня Маши 9 — финальный подъём — война продолжается",
+      "canonical_prompt_sha256": "be433854000e68f6ae8e62db3cfab29a7f7372029667b601e006b3ffc346f4bf",
+      "characters": 12458,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-10",
+      "canonical_heading": "Песня Маши 10 — финальный припев — вершина",
+      "canonical_prompt_sha256": "54424881719d0b6e40216217b1fd01c76fb29c81a0e747a5cc3dccafbeab39bd",
+      "characters": 12606,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-11",
+      "canonical_heading": "Песня Маши 11 — финальный вокализ и визуальный аутро",
+      "canonical_prompt_sha256": "43608d32701764035e0586e6ea772128aa6029fbe24e967a2d259328625ccf98",
+      "characters": 12494,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-20",
+    "gallery_paths": [
+      "references/masha-laguna.webp",
+      "references/scenes/scene-20/S20-Image1-topview-source.png",
+      "references/scenes/scene-20/S20-wide-standing.png",
+      "references/scenes/scene-20/S20-side-walk-profile.png",
+      "references/scenes/scene-20/S20-close-performance.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

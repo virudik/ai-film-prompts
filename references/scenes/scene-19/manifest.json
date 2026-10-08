@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 19,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1v02HKKtLp77hb0Ab_FGDghFDTALw1uM-",
+      "library_file_id": "libfile_98ec75c21c908191bbc6119a56020e05",
+      "role": "identity",
+      "asset_id": "references/masha-laguna.webp",
+      "bytes": 78318,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/masha-laguna.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/sasha.jpg",
@@ -23,9 +37,23 @@
         1536,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1J8NI9Zk18wYgm90QCpljirKDCyZ0zMxT",
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "role": "identity",
+      "asset_id": "references/full/sasha.jpg",
+      "bytes": 289714,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/sasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/pasha.jpg",
@@ -34,9 +62,23 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1PI2B8VEIICMr0yXN6mXBMySDwrZzlvhR",
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "role": "identity",
+      "asset_id": "references/full/pasha.jpg",
+      "bytes": 233562,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/pasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
@@ -45,9 +87,23 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image1 — старт рыбалки"
+      "drive_file_id": "1XclssPl3-Oy0KHXrF_ZevWbQAxjBKte9",
+      "library_file_id": "libfile_d0521cf568fc8191a297579db43c1e88",
+      "role": "location",
+      "asset_id": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "bytes": 1351161,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-19/S19-Image2-topview-source.png",
@@ -56,11 +112,159 @@
         1600,
         900
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "@Image2 — финальный бег"
+      "drive_file_id": "1mbJFFdN4wJw8-Sh3gvl_u-dnkf9VKpka",
+      "library_file_id": "libfile_fe887ce1b6bc8191a0d33d84460c1980",
+      "role": "location",
+      "asset_id": "references/scenes/scene-19/S19-Image2-topview-source.png",
+      "bytes": 886540,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-19/S19-Image2-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/masha-laguna.webp",
+    "references/full/sasha.jpg",
+    "references/full/pasha.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-19/S19-Image1-topview-source.png",
+    "references/scenes/scene-19/S19-Image2-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": "references/scenes/scene-19/S19-Image1-topview-source.png",
+  "end_frame": "references/scenes/scene-19/S19-Image2-topview-source.png",
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/masha-laguna.webp",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg",
+      "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "references/scenes/scene-19/S19-Image2-topview-source.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/masha-laguna.webp",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "source_type": "task_input_snapshot",
+      "recovered_at": "2026-10-07",
+      "data": {
+        "task_id": "e4ad0298cf7d48a98c6ba6498bb62c48",
+        "found": true,
+        "status": "success",
+        "model": "Seedance 2.5",
+        "input_images": [
+          {
+            "name": "Image1",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/lyDLbqyIVNorxERSj8Sob.png"
+          },
+          {
+            "name": "Image2",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bogP81HUapeKSxqX4MDSa.png"
+          },
+          {
+            "name": "Image3",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/kGIaSLpTNLkRAVM7Y1RS6.png"
+          },
+          {
+            "name": "Image4",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/1VYF91yAZUT8ctyO7nmSj.png"
+          },
+          {
+            "name": "Image5",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/0wRohHLocNEqMS4msDH8m.jpg"
+          }
+        ],
+        "input_videos": []
+      },
+      "historical_slot_names_are_not_current_prompt_slots": true
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S19",
+      "canonical_heading": "Scene 19",
+      "canonical_prompt_sha256": "f623b6438f5af8d1e9ff10ea4c8ddeb41d045c192e789553af7fd39679a252ec",
+      "characters": 6082,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/scenes/scene-19/S19-Image2-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "end_frame": "references/scenes/scene-19/S19-Image2-topview-source.png",
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-19",
+    "gallery_paths": [
+      "references/masha-laguna.webp",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg",
+      "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "references/scenes/scene-19/S19-Image2-topview-source.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

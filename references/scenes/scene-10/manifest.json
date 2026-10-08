@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 10,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "base_references_ready_helper_blocked",
   "references": [
@@ -12,9 +12,22 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1IZulGTHz4gmxWKNl35oa1R-mAnENmnuL",
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "role": "identity",
+      "asset_id": "references/full/ilyusha.jpg",
+      "media_type": "image",
+      "bytes": 271235,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/ilyusha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
@@ -25,7 +38,21 @@
       ],
       "drive_file_id": "1iM-h2G1jCjXg1jUDV4H4BJe1ES_qdsPh",
       "library_file_id": "libfile_8dab02fb0c48819187251f2d32a69480",
-      "role": "@Image1 — точная кантина, композиция и Чубакка"
+      "role": "location",
+      "asset_id": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "bytes": 6607132,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-10/S10-Image2-han-source.png",
@@ -36,7 +63,21 @@
       ],
       "drive_file_id": "1ue6HOEvEuFYX4oKxJAR1MCxsAA7ZdGdE",
       "library_file_id": "libfile_9094f60808588191ac9be6b654923bbf",
-      "role": "@Image2 — точный Han"
+      "role": "identity",
+      "asset_id": "references/scenes/scene-10/S10-Image2-han-source.png",
+      "bytes": 5148067,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image2-han-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
@@ -47,11 +88,117 @@
       ],
       "drive_file_id": "189mrOdNgYW9BR7ZYl61pDZ86dSoOU6Xf",
       "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
-      "role": "@Image3 — точный Jedi"
+      "role": "identity",
+      "asset_id": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "bytes": 1879083,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [
     "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
   ],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/full/ilyusha.jpg",
+    "references/scenes/scene-10/S10-Image2-han-source.png",
+    "references/scenes/scene-10/S10-Image3-jedi-source.png"
+  ],
+  "location_refs": [
+    "references/scenes/scene-10/S10-Image1-cantina-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": {
+    "assistant_qc": [
+      "references/full/ilyusha.jpg",
+      "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "references/scenes/scene-10/S10-Image2-han-source.png",
+      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/scenes/scene-10/S10-Image2-han-source.png",
+      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [
+    {
+      "asset_id": null,
+      "candidate": "additional identity-locked three-shot",
+      "status": "generation_tool_refused",
+      "output_created": false,
+      "reason": "other",
+      "retry_or_tool_switch_authorized": false
+    }
+  ],
+  "topview_source_provenance": [],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S10",
+      "canonical_heading": "Scene 10",
+      "canonical_prompt_sha256": "55bb07884660b452acefdfbb1f4b88efe8c548a9fb7724ee4a0850249113a339",
+      "characters": 5356,
+      "duration_seconds": 30,
+      "model": "Wan 3",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/scenes/scene-10/S10-Image2-han-source.png",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-10",
+    "gallery_paths": [
+      "references/full/ilyusha.jpg",
+      "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "references/scenes/scene-10/S10-Image2-han-source.png",
+      "references/scenes/scene-10/S10-Image3-jedi-source.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

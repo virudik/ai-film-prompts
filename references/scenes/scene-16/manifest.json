@@ -1,7 +1,7 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "scene_id": 16,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -12,9 +12,23 @@
         1152,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1IZulGTHz4gmxWKNl35oa1R-mAnENmnuL",
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "role": "identity",
+      "asset_id": "references/full/ilyusha.jpg",
+      "bytes": 271235,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/ilyusha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/artem.jpg",
@@ -23,9 +37,23 @@
         1359,
         1536
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1fFo-c_i_zDClPbEOWgd8PpDKczr5sC_A",
+      "library_file_id": "libfile_cb2792b279c48191a899d848702855ab",
+      "role": "identity",
+      "asset_id": "references/full/artem.jpg",
+      "bytes": 276298,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/artem.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/full/serega.jpg",
@@ -34,9 +62,23 @@
         1536,
         857
       ],
-      "drive_file_id": null,
-      "library_file_id": null,
-      "role": "individual identity or explicit Scene 28 binding in master"
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-16/S16-desert-location-clean.png",
@@ -47,7 +89,21 @@
       ],
       "drive_file_id": "1brg2XCNajrSLHmi3SCFULPSZ4qX8JaBa",
       "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
-      "role": "@Image4 — чистая локация из Video1, реконструкция"
+      "role": "location",
+      "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "bytes": 2228040,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-16/S16-three-character-standoff.png",
@@ -58,7 +114,21 @@
       ],
       "drive_file_id": "1ZKgfMv8U0EjpllkUYsqbsCQ9k9llD-cl",
       "library_file_id": "libfile_08fd90eedd34819193093332c6d50645",
-      "role": "@Image5 — стартовая расстановка трёх героев"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-16/S16-three-character-standoff.png",
+      "bytes": 2341002,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     },
     {
       "path": "references/scenes/scene-16/S16-worm-scale.png",
@@ -69,9 +139,184 @@
       ],
       "drive_file_id": "1w2cwJjUNW1d0NSJkucOi-BWL-k_5zXU4",
       "library_file_id": "libfile_b07ba3643d188191bb5fe93c49cae694",
-      "role": "@Image6 — масштаб червя после появления"
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+      "bytes": 2506337,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-worm-scale.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "identity_refs": [
+    "references/full/ilyusha.jpg",
+    "references/full/artem.jpg",
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-16/S16-desert-location-clean.png"
+  ],
+  "prop_refs": [],
+  "start_frame": "references/scenes/scene-16/S16-three-character-standoff.png",
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-16/S16-three-character-standoff.png",
+    "references/scenes/scene-16/S16-worm-scale.png"
+  ],
+  "video_refs": [
+    {
+      "asset_id": "S16-desert-source-1.mp4",
+      "file_name": "S16-desert-source-1.mp4",
+      "sha256": "7a8236042984c016b074960f5d3e557ac591e1a90bb89a711b1e4edff79b9d37",
+      "bytes": 9052975,
+      "drive_file_id": "1eDYXGqDudJ_41jwN4AgAn-9nW_cwTQkR",
+      "library_file_id": "libfile_b7dcc3d710d08191aa7f6a31d98e9513",
+      "topview_task_id": "f1a90e67bfe44c50a31692b905a290f0",
+      "source_role": "task_output",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    },
+    {
+      "asset_id": "S16-desert-source-2.mp4",
+      "file_name": "S16-desert-source-2.mp4",
+      "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+      "bytes": 8802878,
+      "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+      "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+      "topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+      "source_role": "task_output",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    }
+  ],
+  "approved": {
+    "assistant_qc": [
+      "references/full/ilyusha.jpg",
+      "references/full/artem.jpg",
+      "references/full/serega.jpg",
+      "references/scenes/scene-16/S16-desert-location-clean.png",
+      "references/scenes/scene-16/S16-three-character-standoff.png",
+      "references/scenes/scene-16/S16-worm-scale.png"
+    ],
+    "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
+    "owner_supplied_identity_refs": [
+      "references/full/ilyusha.jpg",
+      "references/full/artem.jpg",
+      "references/full/serega.jpg"
+    ],
+    "owner_explicit": []
+  },
+  "rejected": [],
+  "topview_source_provenance": [
+    {
+      "asset_id": "S16-desert-source-1.mp4",
+      "file_name": "S16-desert-source-1.mp4",
+      "sha256": "7a8236042984c016b074960f5d3e557ac591e1a90bb89a711b1e4edff79b9d37",
+      "bytes": 9052975,
+      "drive_file_id": "1eDYXGqDudJ_41jwN4AgAn-9nW_cwTQkR",
+      "library_file_id": "libfile_b7dcc3d710d08191aa7f6a31d98e9513",
+      "topview_task_id": "f1a90e67bfe44c50a31692b905a290f0",
+      "source_role": "task_output",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    },
+    {
+      "asset_id": "S16-desert-source-2.mp4",
+      "file_name": "S16-desert-source-2.mp4",
+      "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+      "bytes": 8802878,
+      "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+      "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+      "topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+      "source_role": "task_output",
+      "saved_at": "2026-10-08T09:58:58.592675Z"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "S16",
+      "canonical_heading": "Scene 16",
+      "canonical_prompt_sha256": "718cee833ba4d24a4ed03e642534a231d6514c10c83896a079777febf7244f3d",
+      "characters": 8204,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/full/ilyusha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/full/artem.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-16/S16-three-character-standoff.png",
+          "required": true,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image6": {
+          "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Video1": {
+          "asset_id": "S16-desert-source-2.mp4",
+          "required": true,
+          "role": "continuity_video",
+          "source": "video_refs"
+        }
+      },
+      "start_frame": "references/scenes/scene-16/S16-three-character-standoff.png",
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-16",
+    "gallery_paths": [
+      "references/full/ilyusha.jpg",
+      "references/full/artem.jpg",
+      "references/full/serega.jpg",
+      "references/scenes/scene-16/S16-desert-location-clean.png",
+      "references/scenes/scene-16/S16-three-character-standoff.png",
+      "references/scenes/scene-16/S16-worm-scale.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ]
 }

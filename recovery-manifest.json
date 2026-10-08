@@ -3,48 +3,41 @@
   "purpose": "Non-authoritative recovery metadata. Fresh Drive master and live operational sources always outrank this file.",
   "canonical_drive_master_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
   "latest_verified_master": {
-    "sha256": "3c6f541531ddebf41a83659087e2496d93612a3d572404defa24fc43b4d18ae2",
-    "drive_modified_at": "2026-09-27T09:07:12.267Z",
-    "scene_count": 14,
-    "prompt_count": 24
+    "sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+    "drive_modified_at": "2026-10-08T15:01:52.825Z",
+    "scene_count": 15,
+    "prompt_count": 46
   },
   "artifact_ownership": {
     "video-prompts.md": "Google Drive canonical; Topview watcher may make only explicitly authorized/deterministic render-state mutations",
-    "topview-task-map.json": "Topview Scene Intake & Slow Watch",
-    "topview-status.json": "Topview Scene Intake & Slow Watch",
+    "topview-task-map.json": "Unified AI Film monitor; fresh source guarded maintenance",
+    "topview-status.json": "Unified AI Film monitor",
     "project-status.json": "generated validator status; Topview-derived portions follow watcher state",
-    "instruction-sync-status.json": "AI Film Recovery Sync",
+    "instruction-sync-status.json": "Canonical seven-doc verification",
     "recovery-manifest.json": "AI Film Recovery Sync / verified maintenance",
-    "topview-operation-journal.json": "Topview Scene Intake & Slow Watch"
+    "topview-operation-journal.json": "Unified AI Film monitor bounded dedup"
   },
   "last_verified_topview_checkpoint": {
-    "checked_at": "2026-09-27T09:07:12.267Z",
-    "active_task_count": 6,
-    "canonical_slow_scene_ids": [
-      20,
-      21,
-      22,
-      23,
-      24
-    ],
+    "checked_at": "2026-10-08T20:06:34.125Z",
+    "active_task_count": 0,
+    "canonical_slow_scene_ids": [],
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0
+    "occupied_slots": 0,
+    "free_slots": 6
   },
   "critical_github_blobs": {
-    "project-status.json": "726679ae0db1ab1e446c31a85472b2f9cc43268f",
-    "instruction-sync-status.json": "93254838a8c47d68d2ad0c20d2dc4aa0fb39bc26",
-    "topview-status.json": "7f5bbc54f671280c136b3bd98399a3b2faaa95e9",
-    "topview-task-map.json": "f1855960f222f28d51710eaf5f333a7b877487be",
-    "topview-operation-journal.json": "7675ff5a4235786d75068c914825d4ba5a33211c",
-    "topview-checkpoint.json": "a05d86d2360a4d8d883e7f8d9d038c6d560e4f1c"
+    "instruction-sync-status.json": "4df16a45832a321768fe9713732913e9f4e67925",
+    "topview-status.json": "875af0103c420c57fe737f1658d35881cc9e4ad9",
+    "topview-task-map.json": "e914377b5a14fc15771710b632bdad7e73a131d1",
+    "topview-operation-journal.json": "6d84eb4ca52c3bf3f241f46c5d5722321f5393f0",
+    "topview-checkpoint.json": "df95cf617ef3cac166fe083d31d831d401b26444"
   },
   "validator": {
     "version": "cross-layer-v1+certificate-blob+fatal-status-guard",
     "last_result": "success",
-    "verified_at": "2026-09-27T09:46:20.056Z"
+    "verified_at": "2026-10-08T20:31:40.960396Z"
   },
-  "last_successful_instruction_mirror_check": "2026-09-27T09:43:53.081Z",
+  "last_successful_instruction_mirror_check": "2026-10-08T20:26:30.796Z",
   "last_successful_full_reconciliation": "2026-09-27T09:46:20.056Z",
-  "note": "Verified takeover checkpoint: 14 active scenes / 24 prompts / 11 work directions; slow Scenes 20–24 occupy six slots (Scene 20 twice). Fresh Drive and GitHub master exact-match. Seven instructions exact-certified; site and recovery tests passed; current character/backlog/Notion drift repaired. Six tasks also corroborated by read-only live Topview checks. Library recovery cache remains stale/non-blocking. Historical master candidate-list cleanup is recorded in deep-audit-status.json. This manifest is non-authoritative; future live sources always outrank this captured checkpoint."
+  "note": "15 active scenes, 46 complete prompts, 11 work directions. Typed manifests complete; source preservation and native plan synchronized. Empty queue verified; scheduled recovery cycle completed at 20:13 UTC. Technical success is not editorial approval. Optimization proposal only; no generation started. Full prior reconciliation date is historical; current publication receipts are separate."
 }

@@ -5,6 +5,7 @@ No network calls, no Topview renders, and no production artifact writes.
 """
 import copy
 import json
+import re
 import subprocess
 import tempfile
 import unittest
@@ -46,6 +47,28 @@ def write_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def active_fixture(top, task):
+    """Keep transition tests useful even when the live queue is empty."""
+    master = MASTER.read_text(encoding="utf-8")
+    if task["active_by_scene"]:
+        return master
+    scenes = json.loads((ROOT / "project-status.json").read_text())["scene_ids"]
+    sid = next(str(n) for n in scenes if str(n) in top["scenes"])
+    task_id = "offline-active-fixture"
+    row = copy.deepcopy(top["scenes"][sid])
+    row.update(scene_id=int(sid), task_id=task_id, topview_status="running",
+               active_task_ids=[task_id], completed_at=None)
+    top["scenes"][sid] = copy.deepcopy(row)
+    top.update(active_tasks=[row], occupied_slots=1, free_slots=5)
+    task["active_by_scene"] = {sid: [task_id]}
+    master = re.sub(r"^- \*\*⏳.*$", f"- **⏳ 1** сцена сейчас в медленной генерации: **{sid}**.", master, count=1, flags=re.M)
+    label = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
+    master = master.replace("|---|---|---|\n", f"|---|---|---|\n| {sid} — Offline fixture | {label} | Wait |\n", 1)
+    master = re.sub(rf"(^\| {sid} \| .*?\]\(#scene-{sid}\))", rf"\1<br>**{label}**", master, count=1, flags=re.M)
+    master = re.sub(rf"(^## Сцена {sid} —[^\n]*)", rf"\1\n\n**{label}**", master, count=1, flags=re.M)
+    return master
+
+
 class IntegrationRecoveryTests(unittest.TestCase):
     def test_production_snapshot_is_green(self):
         p, status = run_validator()
@@ -64,6 +87,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
     def test_terminal_transition_keeps_scene_slow_until_last_task(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        master_text = active_fixture(top, task)
         sid = next(iter(task["active_by_scene"]))
         original = list(task["active_by_scene"][sid])
         base = original[0]
@@ -83,14 +107,16 @@ class IntegrationRecoveryTests(unittest.TestCase):
         top["free_slots"] = max(0, top["slot_capacity"] - top["occupied_slots"])
         with tempfile.TemporaryDirectory() as td:
             tp, mp = Path(td)/"top.json", Path(td)/"map.json"
+            master = Path(td)/"master.md"; master.write_text(master_text, encoding="utf-8")
             write_json(tp, top); write_json(mp, task)
-            p, status = run_validator(topview=tp, taskmap=mp)
+            p, status = run_validator(master=master, topview=tp, taskmap=mp)
             self.assertEqual(p.returncode, 0, p.stderr)
             self.assertIn(int(sid), status["slow_scenes"])
 
     def test_terminal_last_task_requires_slow_removal(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        master_text = active_fixture(top, task)
         sid = next(iter(task["active_by_scene"]))
         terminal_id = task["active_by_scene"][sid][0]
         for row in top["active_tasks"]:
@@ -99,8 +125,9 @@ class IntegrationRecoveryTests(unittest.TestCase):
         top["scenes"][sid]["topview_status"] = "success"
         with tempfile.TemporaryDirectory() as td:
             tp, mp = Path(td)/"top.json", Path(td)/"map.json"
+            master = Path(td)/"master.md"; master.write_text(master_text, encoding="utf-8")
             write_json(tp, top); write_json(mp, task)
-            p, status = run_validator(topview=tp, taskmap=mp)
+            p, status = run_validator(master=master, topview=tp, taskmap=mp)
             self.assertNotEqual(p.returncode, 0)
             self.assertFalse(status["checks"]["topview_active_statuses_valid"])
 
@@ -114,13 +141,17 @@ class IntegrationRecoveryTests(unittest.TestCase):
             self.assertFalse(status["checks"]["topview_occupied_matches_active_tasks"])
 
     def test_task_map_drift_is_nonblocking_maintenance(self):
+        top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        master_text = active_fixture(top, task)
         sid = next(iter(task["active_by_scene"]))
         task["active_by_scene"][sid] = []
         with tempfile.TemporaryDirectory() as td:
             mp = Path(td) / "map.json"
+            master = Path(td)/"master.md"; master.write_text(master_text, encoding="utf-8")
+            tp = Path(td)/"top.json"; write_json(tp, top)
             write_json(mp, task)
-            p, status = run_validator(taskmap=mp)
+            p, status = run_validator(master=master, topview=tp, taskmap=mp)
             self.assertEqual(p.returncode, 0, p.stderr)
             self.assertEqual(status["health"], "ok")
             self.assertEqual(status["maintenance"]["topview_task_map"]["state"], "drift")

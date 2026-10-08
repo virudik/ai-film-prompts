@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-08T20:06:34.125Z",
+  "checked_at": "2026-10-08T20:26:30.796Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-08T15:06:38.057Z",
-      "github_blob": "d3cd4884dccf26e75a695f1087ccb446da241322",
-      "drive_sha256": "85c5c09762bd25253aa04987dd0c91f813e9e9f7c18a7535b600971ba85a4eb0",
-      "mirror_sha256": "85c5c09762bd25253aa04987dd0c91f813e9e9f7c18a7535b600971ba85a4eb0",
+      "drive_modified_at": "2026-10-08T20:25:59.028Z",
+      "github_blob": "c5ad387a34c2a7a311bd4c584faa2f7dfa186ac2",
+      "drive_sha256": "7eead2b70277744c0cecc7dc5816db3e7b87963f27c9dcbb6a8fb62ec8c7f8b8",
+      "mirror_sha256": "7eead2b70277744c0cecc7dc5816db3e7b87963f27c9dcbb6a8fb62ec8c7f8b8",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
