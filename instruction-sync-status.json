@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-08T15:05:25.327Z",
+  "checked_at": "2026-10-08T20:06:34.125Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-08T04:14:11.129Z",
-      "github_blob": "d89d210b61cf8cb8f21e81a9ca4ca75a7b244b4f",
-      "drive_sha256": "424c723bc177c67f8102da7a1d703d2c76c9617f8c25db3ab8d780d6c73fe9c5",
-      "mirror_sha256": "424c723bc177c67f8102da7a1d703d2c76c9617f8c25db3ab8d780d6c73fe9c5",
+      "drive_modified_at": "2026-10-08T15:06:38.057Z",
+      "github_blob": "d3cd4884dccf26e75a695f1087ccb446da241322",
+      "drive_sha256": "85c5c09762bd25253aa04987dd0c91f813e9e9f7c18a7535b600971ba85a4eb0",
+      "mirror_sha256": "85c5c09762bd25253aa04987dd0c91f813e9e9f7c18a7535b600971ba85a4eb0",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive–GitHub verification during the unified monitor cycle; all mirrors match byte-for-byte.",
+  "note": "Fresh exact 7/7 Drive–GitHub verification during the unified monitor cycle; one stale mirror was repaired from Drive authority and all mirrors now match byte-for-byte.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
