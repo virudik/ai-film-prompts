@@ -10,7 +10,7 @@
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 2** сцены сейчас в медленной генерации: **26, 27** — это **3 активные Topview-задачи / 3 занятых слота из 6**. Scene 26: один Wan 3.0 render attempt; Scene 27: два Wan 3.0 render attempts основного 30-секундного варианта. Все три отслеживаемые попытки Scene 20 «Песня Маши 9–11» технически завершены; это не означает редакционное одобрение. Повторно не запускать active slow-сцены до результата/ошибки или отдельного решения пользователя.
-- **Последняя оформленная активная сцена:** 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 с точным составом 9+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **08.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -47,15 +47,6 @@
 
 ---
 
-## Автоматизация референсов по Scene ID
-
-Для каждой активной сцены используется собственный `Scene Reference Pack`. Перед новым prompt/rerender/запуском оператор сам определяет, какие входы нужны: individual identity sheets, точная локация, props, first/last frames и дополнительные pose/composition stills. Уже доступные референсы из Drive/сайта/Topview повторно у пользователя не запрашиваются.
-
-**QC и сохранение:** новые постановочные фото делаются по одному; каждый результат сравнивается с identity/location authority. При дрейфе лица, одежды, геометрии, масштаба, позы, дубликатах или merged faces результат отклоняется и попытка продолжается. Как только кадр пригоден, он сохраняется в Scene pack **до следующей генерации**. Для групп сначала используются маленькие проверенные подгруппы; composition helper не заменяет individual identity sheet.
-
-**Topview:** для уже запущенных сцен восстанавливаются точные task-input images из live Board provenance, когда они доступны. Команда пользователя `запускай сцену N` означает: fresh master/status → Scene pack → недостающие обязательные refs → prompt/reference mapping → live Topview preflight → submit. Existing slow locks и правило `technical success != approval` сохраняются. Помощник не должен молча тратить кредиты на вспомогательные изображения: unlimited/zero-credit путь должен быть подтверждён для конкретного submit.
-
-**Rollout / чекпоинт:** актуальный аудит необходимости новых stills ведётся в Drive `Scene Reference Packs/scene-reference-plan`; приоритет сейчас: Scene 28 S28/G28, затем 13, 17, 27, 10/11 и 16. Сцены с достаточными first/last/cockpit refs не получают лишние изображения без наблюдаемой проблемы.
 
 ## Сцены в работе
 
@@ -154,10 +145,16 @@
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="@Image1 — точная кантина, композиция и Чубакка" loading="lazy"></a><figcaption>@Image1 — точная кантина, композиция и Чубакка</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="@Image2 — точный Han" loading="lazy"></a><figcaption>@Image2 — точный Han</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="@Image3 — точный Jedi" loading="lazy"></a><figcaption>@Image3 — точный Jedi</figcaption></figure>
+</div>
+
 
 **Что происходит:** Джедай требует от Хана обещанный товар. Хан изображает полное непонимание и в конце обращается к Чубакке как к свидетелю; Чубакка отвечает вопросительным рыком.
 
@@ -237,10 +234,16 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="@Image1 — точная кантина, композиция и Чубакка" loading="lazy"></a><figcaption>@Image1 — точная кантина, композиция и Чубакка</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="@Image2 — точный Han" loading="lazy"></a><figcaption>@Image2 — точный Han</figcaption></figure>
+<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="@Image3 — точный Jedi" loading="lazy"></a><figcaption>@Image3 — точный Jedi</figcaption></figure>
+</div>
+
 
 **Что происходит:** Прямое продолжение части 1 без скачка во времени. Джедай шутит про Чубакку, тот возмущённо рычит, затем разговор переключается на плёнку, и Хан окончательно перестаёт понимать, о чём речь.
 
@@ -322,11 +325,17 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
 <figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/vitalik.webp" target="_blank" rel="noopener"><img src="references/vitalik.webp" alt="BLACK / Виталик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">BLACK / Виталик — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/lesha.webp" target="_blank" rel="noopener"><img src="references/lesha.webp" alt="PURPLE / Лёша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">PURPLE / Лёша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="BLACK / Виталик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">BLACK / Виталик — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="PURPLE / Лёша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">PURPLE / Лёша — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-13/S13-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-Image1-topview-source.png" alt="@image1 — Совет: локация и композиция" loading="lazy"></a><figcaption>@image1 — Совет: локация и композиция</figcaption></figure>
+<figure><a href="references/scenes/scene-13/S13-council-lap.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-council-lap.png" alt="@image6 — проверенная расстановка: Лучик на коленях у Лёши" loading="lazy"></a><figcaption>@image6 — проверенная расстановка: Лучик на коленях у Лёши</figcaption></figure>
+<figure><a href="references/scenes/scene-13/S13-luchik-closeup.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-luchik-closeup.png" alt="@image7 — крупность Лучика, человеческие рты вне кадра" loading="lazy"></a><figcaption>@image7 — крупность Лучика, человеческие рты вне кадра</figcaption></figure>
+</div>
+
 
 **Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; **Лучик** всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
 
@@ -335,6 +344,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3 | Photoreal live-action deadpan comedy | One continuous restrained camera move
 
 REFERENCES:
+@image6 — supplemental opening staging only: exact BLACK left, PURPLE right, Luchik on PURPLE lap. @image7 — supplemental cat close-up framing only, with human mouths outside the crop. Individual identities remain locked by images2/4/5.
 @image1 — PRIMARY COMPOSITION / ENVIRONMENT reference: two seated Jedi in large armchairs inside the futuristic high-rise council lounge, panoramic golden city skyline, hookahs, furniture placement, camera axis, warm sunset light and the cat resting on the right character's lap.
 @image2 — PRIMARY LUCHIK / ЛУЧИК IDENTITY reference: exact recurring fluffy white-and-grey long-haired cat. Preserve his exact face shape, white muzzle/chest/legs, grey crown/facial and back markings, ears, natural eye appearance, long fur, coat pattern and feline anatomy. The blue lightsaber, upright pose and temple background visible in the model sheet are IDENTITY-REFERENCE ARTIFACTS ONLY for this scene: do NOT import the saber, standing pose or temple environment into the Jedi Council shot.
 @image4 — PRIMARY BLACK identity reference: heavyset man, short brown hair, black tunic with dark leather vest panels, dark forearm protection, brown trousers and boots. He remains seated on the LEFT.
@@ -405,16 +415,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:** Новый активный промт на основе бывшей W6; рабочий пункт W6 получил конкретные референсы и теперь оформлен как активная сцена 16. 30-секундная большая пустынная сцена для Seedance 2.5: двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
 
-**Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor
+**Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor · @Image4 = чистая локация · @Image5 = стартовая расстановка · @Image6 = масштаб червя
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Hooded Jedi / Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Hooded Jedi / Илюша</figcaption></figure>
-<figure style="margin:0"><a href="references/artem.webp" target="_blank" rel="noopener"><img src="references/artem.webp" alt="Bearded Jedi / Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Bearded Jedi / Артём</figcaption></figure>
-<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга / Chancellor" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга / Chancellor</figcaption></figure>
+<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Hooded Jedi / Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Hooded Jedi / Илюша</figcaption></figure>
+<figure style="margin:0"><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="Bearded Jedi / Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Bearded Jedi / Артём</figcaption></figure>
+<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга / Chancellor" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга / Chancellor</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — чистая локация из Video1, реконструкция" loading="lazy"></a><figcaption>@Image4 — чистая локация из Video1, реконструкция</figcaption></figure>
+<figure><a href="references/scenes/scene-16/S16-three-character-standoff.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-three-character-standoff.png" alt="@Image5 — стартовая расстановка трёх героев" loading="lazy"></a><figcaption>@Image5 — стартовая расстановка трёх героев</figcaption></figure>
+<figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image6 — масштаб червя после появления" loading="lazy"></a><figcaption>@Image6 — масштаб червя после появления</figcaption></figure>
+</div>
+
+
+**Источник пустыни найден:** @Video1 — [второй указанный ролик Topview](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=9fd93e2905e14c77b616884f1d6962f6). [Первый ролик](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=f1a90e67bfe44c50a31692b905a290f0) — дополнительная проверка той же пустыни. Image4 очищен на основе кадра Video1 около 14 с; это реконструкция пустой площадки, а не найденное исходное фото. Две покрытые знаками опоры и центральный обелиск фиксируют географию. Исторический Topview Image4 со спидером не является локацией.
 
 **Что происходит:** На пустынных руинах двое джедаев и Канцлер находятся в напряжённом противостоянии. Внезапно земля начинает дрожать, и из песка вырывается колоссальный пустынный червь масштаба «гигантское стихийное бедствие». Он рушит окружающие конструкции, вздымает песчаные волны, делает несколько агрессивных заходов и кружит вокруг героев. На протяжении всей сцены герои остаются в кадре на фоне катастрофы, продолжают сражаться и вынуждены постоянно уклоняться от атак чудовища и обрушений.
 
@@ -422,23 +440,27 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCES:
-@Video1 — PRIMARY environment and staging reference: a desert ruins location with open sandy space, broken structures, weathered stone or metal debris, and a composition suitable for a large-scale action scene. Use it for the location feel, scale, terrain, ruin placement, and general camera mood.
+@Video1 — PRIMARY exact desert environment continuity: the supplied Topview desert-car video (source task 9fd93e2905e14c77b616884f1d6962f6). Preserve its sandy plain, two tall glyph-covered gate piers and narrow central obelisk. Do not inherit incidental character faces, saber-color errors or previous video actions.
 @Image1 — PRIMARY identity reference for the Hooded Jedi: mustached man, tousled brown hair, weathered face, light-green layered tunic, deep-red hooded cloak, brown boots, lightsaber hilt on belt. Preserve face, costume, proportions and overall identity exactly.
 @Image2 — PRIMARY identity reference for the Bearded Jedi: heavier build, short beard, cream tunic under a brown Jedi over-robe, wide brown belt, brown boots, lightsaber hilt on belt. Preserve face, build, costume and identity exactly.
 @Image3 — PRIMARY identity reference for the Chancellor: pale man with thinning hair / bald crown and deep purple robes. Preserve face, body type, robe silhouette and identity exactly.
 
+@Image4 — CLEAN LOCATION plate reconstructed from Video1 at about 14s; environment geometry and daylight only.
+@Image5 — OPENING COMPOSITION: Ilyusha frame-left with blue blade, Artem centre-left with green blade, Serega frame-right. Three exact identities still come from Images1–3.
+@Image6 — WORM SCALE/DESIGN after emergence: gigantic segmented worm beyond the gate, right of the central obelisk, much larger than people and gate piers. This is NOT the first frame; the worm must be absent at 0s.
+
 REFERENCE PRIORITY:
-Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three characters. Use @Video1 for the desert ruins environment, spatial layout and action scale. Do not let the environment reference overwrite the character identities.
+Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three characters. Use @Video1 and @Image4 for the exact desert environment; @Image5 locks initial staging and @Image6 locks the later worm scale. Helpers never override individual identities. Do not let the environment reference overwrite the character identities.
 
 SCENE OVERVIEW:
 A photorealistic cinematic desert action scene on ruined Tatooine-like wasteland terrain. The Hooded Jedi and the Bearded Jedi are confronting the Chancellor among weathered ruins when a colossal subterranean sandworm erupts from beneath the ground and turns the entire location into chaos. The worm is gigantic on the scale of a natural disaster — towering, segmented, immense, powerful, with a massive circular maw and rows of terrifying teeth. It is not a small monster; it feels like an unstoppable force of nature. Throughout the scene, the three characters stay grounded in the same battle space and must keep fighting and dodging while the worm attacks the environment around them.
 
 ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
 [0:00–0:05]
-Begin with a tense standoff on the ruined desert location. The Hooded Jedi and the Bearded Jedi face the Chancellor at medium distance. Wind moves robes and loose sand. The camera glides laterally through the ruins, keeping all three readable in the same frame. Small grains of sand begin to tremble across the ground and a low subterranean rumble builds beneath the dialogue-free tension.
+Begin with the clean three-person standoff from @Image5 in the exact @Image4 ruins. The worm is still beneath the sand and invisible. Ilyusha is left, Artem centre-left, Serega right; keep the gate and central obelisk as stable orientation landmarks. The Hooded Jedi and the Bearded Jedi face the Chancellor at medium distance. Wind moves robes and loose sand. The camera glides laterally through the ruins, keeping all three readable in the same frame. Small grains of sand begin to tremble across the ground and a low subterranean rumble builds beneath the dialogue-free tension.
 
 [0:05–0:09]
-The rumble intensifies violently. Sand ripples outward in fast concentric waves. Broken beams, rocks and debris start to shake loose. All three characters instinctively shift their stance and glance toward the source of the vibration. Then the ground splits open behind and slightly to the side of them. A colossal sandworm bursts out of the earth in an explosive eruption of sand and debris, instantly dominating the background.
+The rumble intensifies violently. Sand ripples outward in fast concentric waves. Broken beams, rocks and debris start to shake loose. All three characters instinctively shift their stance and glance toward the source of the vibration. Then the ground splits beyond the gate, behind the group and right of the central obelisk, at the location established by @Image6. A colossal sandworm bursts out of the earth in an explosive eruption of sand and debris, instantly dominating the background.
 
 [0:09–0:14]
 The worm rises to full terrifying scale, rearing high above the ruins with its gigantic circular mouth open. Sand cascades off its ridged body. The shockwave throws dust through the air and knocks loose pieces of the surrounding structures. The heroes break their positions and sprint in different directions to avoid the collapse and the worm's initial surge. The camera keeps moving fluidly, holding spatial continuity so the audience clearly understands where each person is relative to the worm.
@@ -447,10 +469,10 @@ The worm rises to full terrifying scale, rearing high above the ruins with its g
 The Hooded Jedi and the Bearded Jedi attempt to regroup while the Chancellor uses the chaos to press his advantage. The three continue their live-action fight in short fast exchanges — evasive footwork, quick defensive movements, robe motion, physical urgency — but the worm remains the dominant threat in the background. It sweeps across the ruins, slamming its body through structures and sending dust clouds and fragments outward. Everyone is forced to interrupt combat and dodge a second aggressive pass from the worm.
 
 [0:20–0:25]
-The worm circles partially beneath the sand and surges up again from a new angle, its massive head and upper body carving through the location. One ruin wall collapses, sending debris and sand down around the fighters. The Bearded Jedi dives clear. The Hooded Jedi uses a fast sidestep and roll. The Chancellor pivots away with dangerous precision, barely avoiding the jaws. Keep the worm huge in frame and unmistakably larger than every surrounding structure.
+The worm follows one readable broad arc behind the group, dives partially beneath the sand and surges up from the same background side, its massive head and upper body carving through the location. One ruin wall collapses, sending debris and sand down around the fighters. The Bearded Jedi dives clear. The Hooded Jedi uses a fast sidestep and roll. The Chancellor pivots away with dangerous precision, barely avoiding the jaws. Keep the worm huge in frame and unmistakably larger than every surrounding structure.
 
 [0:25–0:30]
-Final escalation. The worm rears behind the three combatants while they continue the standoff in the foreground, battered by wind and sand. The scene ends on a powerful wide action composition: the two Jedi and the Chancellor still alive and in motion on the ruined desert ground, the colossal sandworm towering behind them amid collapsing debris and swirling dust, with the conflict still unresolved and continuing beyond the cut.
+Final escalation. Keep the three people alive and the narrative outcome unresolved; do not add a map exchange, a vehicle explosion or a new ending.  The worm rears behind the three combatants while they continue the standoff in the foreground, battered by wind and sand. The scene ends on a powerful wide action composition: the two Jedi and the Chancellor still alive and in motion on the ruined desert ground, the colossal sandworm towering behind them amid collapsing debris and swirling dust, with the conflict still unresolved and continuing beyond the cut.
 
 CAMERA:
 Single continuous unbroken shot for the full 30 seconds. High-end cinematic motion with controlled inertia and stable spatial continuity. The camera may drift, arc and reframe to preserve all three characters and the worm, but there are no cuts, jump cuts or teleporting viewpoints. Emphasize scale through parallax, dust layers, foreground debris and wide-to-medium re-framing within the same take. No random micro-shake; only motivated impact vibration during the biggest eruptions.
@@ -484,12 +506,19 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-17/S17-cave-Video1-frame-003s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-cave-Video1-frame-003s.png" alt="@Image4 — точный кадр пещеры из Video1" loading="lazy"></a><figcaption>@Image4 — точный кадр пещеры из Video1</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image5 — точный предмет-карта; историческое имя Image4" loading="lazy"></a><figcaption>@Image5 — точный предмет-карта; историческое имя Image4</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-post-battle-seated.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-post-battle-seated.png" alt="@Image6 — трое после боя, постановка" loading="lazy"></a><figcaption>@Image6 — трое после боя, постановка</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-map-handoff.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-map-handoff.png" alt="@Image7 — передача единственной карты, постановка" loading="lazy"></a><figcaption>@Image7 — передача единственной карты, постановка</figcaption></figure>
+</div>
+
 
 **Что происходит:** Бой окончен. В тёмной влажной пещере трое измотанных героев сидят каждый на отдельной массивной отрубленной части тела чудовища с прижжёнными срезами без крови и органов. Несколько секунд они молча приходят в себя. Серёга с усталой ностальгией говорит: «Как в старые добрые времена. Куда вы дели карту?» Паша отвечает: «Да зачем она вообще тебе?» Серёга наклоняется и тихо шепчет Паше что-то на ухо — слов зритель не слышит. Паша сразу, совершенно без раздумий и без дальнейших вопросов, достаёт карту и отдаёт её Серёге. Саша наблюдает за этим с усталой сдержанной реакцией. Все продолжают сидеть на частях монстра, будто это самое обычное место для разговора.
 
@@ -497,6 +526,7 @@ FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterbox
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCES:
+@Image6 — supplemental seated post-battle staging only; retain individual identities from Images1–3. @Image7 — supplemental handoff staging of the one exact map from Image5. Do not clone a map, change identities or force a different story beat from either helper.
 @Image1 — PRIMARY exact identity reference for PASHA / Jedi 1: clean-shaven man in a dark navy-blue Jedi tunic, wet and battle-worn from the previous cavern fight. Preserve his exact face, age, hairstyle, costume, body proportions and identity.
 @Image2 — PRIMARY exact identity reference for SASHA / Jedi 2: bearded man with glasses in a brown-and-cream Jedi robe, wet and battle-worn from the previous cavern fight. Preserve his exact face, beard, glasses, hairstyle, costume, body proportions and identity.
 @Image3 — PRIMARY exact identity reference for SEREGA / the Chancellor: pale man in a long deep dark-purple robe, exhausted after combat. Preserve his exact face, hairstyle, robe silhouette, proportions and identity.
@@ -590,11 +620,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
 <figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image1 — старт рыбалки" loading="lazy"></a><figcaption>@Image1 — старт рыбалки</figcaption></figure>
+<figure><a href="references/scenes/scene-19/S19-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image2-topview-source.png" alt="@Image2 — финальный бег" loading="lazy"></a><figcaption>@Image2 — финальный бег</figcaption></figure>
+</div>
+
 
 **Что происходит:** Саша и Паша спокойно рыбачат у озера. На воде появляется странная рябь, из воды поднимается Маша в образе Лава-Лагуны, быстро подходит к Саше лицом к лицу. Саша успевает удивлённо сказать «Маша?..», после чего получает пощёчину. Маша эмоционально упрекает его: «Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?» Паша молчит, но ярко реагирует мимикой. Саша резко вспоминает про поручение — «Ой, у нас же важное поручение!» — и вместе с Пашей срывается с места. Сцена заканчивается переходом в бег и приходит к композиции @Image2.
 
@@ -683,7 +718,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна — exact identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна — exact identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-20/S20-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-Image1-topview-source.png" alt="@Image1 — точная локация озера" loading="lazy"></a><figcaption>@Image1 — точная локация озера</figcaption></figure>
+<figure><a href="references/scenes/scene-20/S20-wide-standing.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-wide-standing.png" alt="@Image3 — общий план, закрытый костюм" loading="lazy"></a><figcaption>@Image3 — общий план, закрытый костюм</figcaption></figure>
+<figure><a href="references/scenes/scene-20/S20-side-walk-profile.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-side-walk-profile.png" alt="@Image4 — профиль и небольшой шаг" loading="lazy"></a><figcaption>@Image4 — профиль и небольшой шаг</figcaption></figure>
+<figure><a href="references/scenes/scene-20/S20-close-performance.png" target="_blank" rel="noopener"><img src="references/scenes/scene-20/S20-close-performance.png" alt="@Image5 — крупный план исполнения" loading="lazy"></a><figcaption>@Image5 — крупный план исполнения</figcaption></figure>
+</div>
+
 
 **Режиссёрская формула всей Scene 20:** основа всегда — берег озера; Маша почти всё время остаётся в кадре и является эмоциональным центром. Клип не должен быть статичным: по ходу номера она то стоит, то медленно идёт вдоль воды, то поворачивается к камере, то смотрит вдаль, то поёт прямо в объектив. Камера сознательно чередует **wide establishing shot, slow dolly-in, side tracking, gentle orbit / partial orbit, backward tracking, medium performance framing, expressive close-up и slow final pull-back**. Общая эстетика — **меланхоличный, драматичный и красивый cinematic music video, соединённый с эмоциональной ясностью мюзикла**. Никакой концертной сцены, танцоров, случайного клипового хаоса или одиннадцати одинаковых статичных кадров.
 
@@ -745,11 +787,14 @@ This appearance lock applies unchanged to **all 11 parts** of Scene 20.
 
 **Камера:** Start in a wide establishing shot that clearly shows Masha and the lake, then perform one very slow controlled dolly-in toward a medium-wide / medium framing. No orbit yet.
 
+**Постановочные фото для будущих запусков:** общий план @Image3, профиль @Image4 и крупный план @Image5 сохранены. Подключать только нужный по действию кадр как дополнительную композицию; @Image2 всегда остаётся главным источником внешности. Уже завершённые или запущенные ролики эти новые фото не меняют.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -882,6 +927,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1018,6 +1064,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1154,6 +1201,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1287,6 +1335,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1423,6 +1472,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1554,6 +1604,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1690,6 +1741,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1823,6 +1875,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -1962,6 +2015,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -2101,6 +2155,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 
 REFERENCES:
 @Image1 — LOCATION / ENVIRONMENT reference only: preserve the exact lakeshore, shoreline shape, water placement, background geography, natural color relationships, horizon, and overall spatial mood.
+Optional supplemental stills: @Image3 wide standing, @Image4 side walk, @Image5 close performance, when supplied. These guide framing and the smooth opaque costume only; never override Image2 identity or the timeline.
 @Image2 — PRIMARY exact identity reference for MASHA-LAGUNA: preserve her exact face, aquatic-blue skin tone, head shape, long light-blue tentacle-like head strands, black ornamental head / neck / upper-back elements, body proportions, approved light-blue full-length character design, silhouette, and overall identity.
 
 IMPORTANT REFERENCE RULE:
@@ -2235,11 +2290,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/yulya.webp" target="_blank" rel="noopener"><img src="references/yulya.webp" alt="Юля — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="Юля — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-21/S21-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-21/S21-Image1-topview-source.png" alt="@Image1 — точный первый кадр мостика" loading="lazy"></a><figcaption>@Image1 — точный первый кадр мостика</figcaption></figure>
+<figure><a href="references/scenes/scene-21/S21-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-21/S21-Image2-topview-source.png" alt="@Image2 — точный последний кадр космоса" loading="lazy"></a><figcaption>@Image2 — точный последний кадр космоса</figcaption></figure>
+</div>
+
 
 **Что происходит:** На мостике идёт напряжённое сражение, видимое через панорамные окна. Серёга и Юля стоят рядом в центре и искренне радуются удачному ходу боя; экипаж продолжает работать за консолями. Камера начинает внутри мостика, плавно движется вперёд между персонажами и рабочими местами к центральному окну. По мере приближения космический бой за стеклом занимает всё больше кадра. Камера без остановки, склейки и визуального эффекта пересекает плоскость стекла, оказывается снаружи и продолжает тот же полёт вперёд среди кораблей, лазерного огня и следов движения, постепенно приходя к точной геометрии и направлению @Image2.
 
@@ -2337,6 +2397,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
 
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-22/S22-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-22/S22-Image1-topview-source.png" alt="@Image1 — наружный первый кадр" loading="lazy"></a><figcaption>@Image1 — наружный первый кадр</figcaption></figure>
+<figure><a href="references/scenes/scene-22/S22-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-22/S22-Image2-topview-source.png" alt="@Image2 — внутренний последний кадр" loading="lazy"></a><figcaption>@Image2 — внутренний последний кадр</figcaption></figure>
+</div>
+
 ```text
 Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2)
 Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2421,7 +2487,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-23/S23-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-23/S23-Image1-topview-source.png" alt="@Image1 — люди, старт" loading="lazy"></a><figcaption>@Image1 — люди, старт</figcaption></figure>
+<figure><a href="references/scenes/scene-23/S23-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-23/S23-Image2-topview-source.png" alt="@Image2 — парная композиция котов" loading="lazy"></a><figcaption>@Image2 — парная композиция котов</figcaption></figure>
+</div>
+
 
 **Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются LUCHIK и RYZHIK из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
 
@@ -2499,7 +2570,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — точная тёплая кабина; историческое имя Image3" loading="lazy"></a><figcaption>@Image4 — точная тёплая кабина; историческое имя Image3</figcaption></figure>
+</div>
+
 
 **Что происходит:** В **той же кабине, что на @Image4**, RYZHIK визуально остаётся слева в кадре и работает с навигацией/голографическими системами, а LUCHIK справа держит основные пилотские органы управления. Оба кота читаются лицами и сохраняют обычный кошачий масштаб. Панели оживают, двигатели набирают тягу, корабль физически взлетает без redesign интерьера и без перехода к generic starfighter cockpit.
 
@@ -2588,7 +2663,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — точная тёплая кабина; историческое имя Image3" loading="lazy"></a><figcaption>@Image4 — точная тёплая кабина; историческое имя Image3</figcaption></figure>
+</div>
+
 
 **Что происходит:** Через окна **той же кабины @Image4** видно плотное космическое сражение. LUCHIK справа в кадре резко, но физически правдоподобно уклоняет корабль от огня; RYZHIK слева ведёт навигацию, переключает щиты и стреляет. Интерьер, свет, масштаб кресел и обычный кошачий размер не меняются.
 
@@ -2669,7 +2748,12 @@ Active Wan 3.0 task `b95a76b92f9d4787b738b165eaeb270f` — нормализац�
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-26/S26-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-26/S26-Image1-topview-source.png" alt="@Image1 — парная композиция котов" loading="lazy"></a><figcaption>@Image1 — парная композиция котов</figcaption></figure>
+<figure><a href="references/scenes/scene-26/S26-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-26/S26-Image4-topview-source.png" alt="@Image4 — точная локация древних руин" loading="lazy"></a><figcaption>@Image4 — точная локация древних руин</figcaption></figure>
+</div>
+
 
 **Что происходит:** На широкой ступенчатой террасе древнего города-руины видны только два кота-магистра. Рыжик первым зло и уверенно обращается к Серёге, который находится за пределами кадра; затем Лучик выдерживает паузу и добавляет свой ультиматум. Только активный кот артикулирует. Тёплый закатный свет режет пыльный воздух, а мелкий пепел, сухая пыль и редкие искрящиеся частицы постоянно проходят через глубину кадра и затем продолжаются в Scene 27.
 
@@ -2782,12 +2866,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
+<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
 <figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
 </div>
 
-**Exact scene-specific source:** location/composition/first-last inputs remain authoritative in the scene mapping; when their exact Topview/Drive binary is not yet in GitHub, publish it from the recovered Scene pack rather than asking the owner to upload it again.
+**Референсы локации, композиции и действия:**
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-27/S27-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image1-topview-source.png" alt="@Image1 — парная композиция котов" loading="lazy"></a><figcaption>@Image1 — парная композиция котов</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image5 — точная локация древних руин" loading="lazy"></a><figcaption>@Image5 — точная локация древних руин</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="@Image6 — небольшой масштаб котов и общий бой" loading="lazy"></a><figcaption>@Image6 — небольшой масштаб котов и общий бой</figcaption></figure>
+</div>
+
 
 **Что происходит:** Бой разворачивается прямо в локации @Image5 и сохраняет атмосферу Scene 26: в тёплом закатном воздухе постоянно движутся мелкий сухой пепел, пыль и редкие ember-like частицы. Оба кота заметно меньше Серёги — даже в вертикальной боевой стойке их голова не выше примерно уровня его колена. Они не позируют, а непрерывно меняют позиции и углы атаки: Лучик давит точными силовыми сериями с синим клинком, Рыжик быстро обходит и режет углы зелёным. Серёга с красным мечом отбивается и пытается контратаковать, но почти каждый обмен заставляет его отступать, блокировать или восстанавливаться.
 
@@ -2796,6 +2886,7 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Seedance 2.5 | Photoreal live-action lightsaber combat | Aggressive but readable choreography
 
 REFERENCES / IDENTITY:
+@Image6 — optional three-subject scale/staging only: small domestic cats below Serega knee height. Images2/3/4 remain identity authority; Image5 remains exact environment.
 @Image1 — PAIR CONTINUITY / COMPOSITION reference for LUCHIK and RYZHIK.
 @Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
@@ -2892,6 +2983,7 @@ Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Seedance 2.0 | Photoreal live-action lightsaber combat | Aggressive but readable choreography
 
 REFERENCES / IDENTITY:
+@Image6 — optional three-subject scale/staging only: small domestic cats below Serega knee height. Images2/3/4 remain identity authority; Image5 remains exact environment.
 @Image1 = LUCHIK/RYZHIK pair continuity and composition ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute individual LUCHIK identity sheet.
@@ -2986,6 +3078,7 @@ Mode: reference-to-video | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Seedance 2.0 | Photoreal live-action lightsaber combat | Aggressive but readable choreography
 
 REFERENCES / IDENTITY:
+@Image6 — optional three-subject scale/staging only: small domestic cats below Serega knee height. Images2/3/4 remain identity authority; Image5 remains exact environment.
 @Image1 = LUCHIK/RYZHIK pair continuity and composition ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute individual LUCHIK identity sheet.
@@ -3074,11 +3167,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"tags":["end_credits","dance","ensemble","10_part_sequence","two_engine_versions","ceremony_to_disco","character_identity"]} -->
 
-**Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Девять людей/гуманоидов и два кота из вкладки «Персонажи» исполняют нелепую хореографию с абсолютно серьёзными лицами. Отсылка к заставкам «Миротворца» — серьёзная подача нелепой хореографии. По запросу пользователя добавлены мотивы второй заставки: повторные движения руками у лица, кружение на руках и перенос на плече; здесь они поставлены для наших персонажей и ангара. Центральная пара — Серёга и Юля. Сцена не меняет сюжетный финал, Warcraft или историю карты.
+**Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Девять людей/гуманоидов, Алеся и два кота из вкладки «Персонажи» исполняют нелепую хореографию с абсолютно серьёзными лицами. Отсылка к заставкам «Миротворца» — серьёзная подача нелепой хореографии. По запросу пользователя добавлены мотивы второй заставки: повторные движения руками у лица, кружение на руках и перенос на плече; здесь они поставлены для наших персонажей и ангара. Центральная пара — Серёга и Юля. Сцена не меняет сюжетный финал, Warcraft или историю карты.
 
-**Редакция 07.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — 10×15 с** и **Wan 3.0 — 10×30 с**, всего 20 автономных промтов. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
+**Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — 10×15 с** и **Wan 3.0 — 10×30 с**, всего 20 автономных промтов. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
 
-**Готовность:** H28A/H28B сохранены как две версии света одной локации. Существуют 11 утверждённых individual character sheets. Дополнительно сохранены удачные постановочные кадры **P28** (пара лицом к лицу), **L28** (Серёга несёт Юлю) и **F28** (взаимный жест у лица). **R28A/R28B** сохранены отдельно только как вспомогательные кадры композиции/расстановки: individual character sheets всегда имеют приоритет внешности, а ошибки лица/кошачьей пластики из этих helpers нельзя переносить в генерацию. **C28** формируется только из чистого результата части 2; **S28** исправлен и сохранён: Юля сидит боком на правом плече, правая рука Серёги поддерживает бёдра, левая — голени; **G28** собран и проверен по individual sheets: девять людей/гуманоидов и два обычных кота, без дублей. Scene 28 — `READY` для поэтапного запуска. Части 1–2 имеют все входы; часть 3 запускается только после выбора C28 из чистого результата части 2. Видеогенерации этой сцены не запускались. Готовность текстов не означает готовность всех визуальных входов.
+**Готовность:** H28A/H28B сохранены как две версии света одной локации. Существуют 11 ранее утверждённых individual character sheets; 08.10 добавлен проверенный модельный лист Алеси по двум входным фото из указанной пользователем Topview-задачи. Дополнительно сохранены удачные постановочные кадры **P28** (пара лицом к лицу), **L28** (Серёга несёт Юлю) и **F28** (взаимный жест у лица). **R28A/R28B** сохранены отдельно только как вспомогательные кадры композиции/расстановки: individual character sheets всегда имеют приоритет внешности, а ошибки лица/кошачьей пластики из этих helpers нельзя переносить в генерацию. **C28** формируется только из чистого результата части 2; **S28** исправлен и сохранён: Юля сидит боком на правом плече, правая рука Серёги поддерживает бёдра, левая — голени; **G28** собран и проверен по individual sheets: девять людей/гуманоидов, маленькая Алеся и два обычных кота, без дублей. Scene 28 — `READY` для поэтапного запуска. Части 1–2 имеют все входы; часть 3 запускается только после выбора C28 из чистого результата части 2. Видеогенерации этой сцены не запускались. Готовность текстов не означает готовность всех визуальных входов.
 
 **Драматургия:** имперская строевая церемония постепенно превращается в дискотеку, но никто этого не признаёт. Сначала строгая симметрия и бело-янтарный свет. На полу оживает геометрическая сетка cyan/magenta, затем включаются потолочные лучи. Танец всё нелепее, лица всё так же официальны. В конце все замирают как на парадном портрете. Декорация не превращается в другую комнату: дискотечное оборудование встроено в тот же имперский ангар.
 
@@ -3091,18 +3184,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### Сохранённые референсные кадры Scene 28
 
-Эти изображения сохранены отдельно для повторного использования; удачные кадры **не перегенерировать без отдельной причины**. Для внешности каждого персонажа абсолютный приоритет остаётся у его individual model sheet. P28/L28/F28/S28/G28 можно использовать как pose/location continuity references. R28A/R28B — только вспомогательная постановка рядов/композиции, не identity authority. Прежние неудачные групповые попытки не используются. Новый G28-full-ensemble.png прошёл проверку состава и внешности; J28/T28 — проверенные промежуточные группы для сборки, individual sheets остаются identity authority.
+Эти изображения сохранены отдельно для повторного использования; удачные кадры **не перегенерировать без отдельной причины**. Для внешности каждого персонажа абсолютный приоритет остаётся у его individual model sheet. P28/L28/F28/S28/G28 можно использовать как pose/location continuity references. R28A/R28B — только вспомогательная постановка рядов/композиции, не identity authority. Прежние неудачные групповые попытки не используются. Новый G28-full-ensemble-Alesya-v2.png прошёл проверку состава и внешности; J28/T28 — проверенные промежуточные группы для сборки, individual sheets остаются identity authority.
 
 <div class="scene28-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0 20px">
 <figure style="margin:0"><a href="references/scenes/scene-28/P28-pair-facing.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-28/P28-pair-facing.webp" alt="P28 — Серёга и Юля лицом к лицу в H28B" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>P28</b> — пара лицом к лицу; поза, ось и H28B.</figcaption></figure>
 <figure style="margin:0"><a href="references/scenes/scene-28/L28-carry.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-28/L28-carry.webp" alt="L28 — Серёга несёт Юлю на руках в H28B" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>L28</b> — перенос Юли на руках; pose reference.</figcaption></figure>
 <figure style="margin:0"><a href="references/scenes/scene-28/F28-face-gesture.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-28/F28-face-gesture.webp" alt="F28 — взаимный жест у лица Серёги и Юли в H28B" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>F28</b> — взаимный жест у лица; staging reference.</figcaption></figure>
 <figure style="margin:0"><a href="references/scenes/scene-28/S28-shoulder.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/S28-shoulder.png" alt="S28 — Юля боком на правом плече Серёги" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>S28</b> — исправленная посадка на правом плече; поддержка бёдер и голеней.</figcaption></figure>
-<figure style="margin:0"><a href="references/scenes/scene-28/G28-full-ensemble.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble.png" alt="G28 — Финальный ансамбль: девять людей/гуманоидов и два кота." loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>G28</b> — Финальный ансамбль: девять людей/гуманоидов и два кота.</figcaption></figure>
+<figure style="margin:0"><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 — Финальный ансамбль: девять людей/гуманоидов, Алеся и два кота." loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>G28</b> — Финальный ансамбль: девять людей/гуманоидов, Алеся и два кота.</figcaption></figure>
 <figure style="margin:0"><a href="references/scenes/scene-28/J28-four-jedi.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/J28-four-jedi.png" alt="J28 — Проверенная группа джедаев для сборки G28; не добавлять четырёх людей в парный дубль." loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>J28</b> — Проверенная группа джедаев для сборки G28; не добавлять четырёх людей в парный дубль.</figcaption></figure>
 <figure style="margin:0"><a href="references/scenes/scene-28/T28-trio.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/T28-trio.png" alt="T28 — Маша, Лёша и Виталик — проверенная группа в H28B." loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>T28</b> — Маша, Лёша и Виталик — проверенная группа в H28B.</figcaption></figure>
-<figure style="margin:0"><a href="references/scenes/scene-28/R28A-second-row.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-28/R28A-second-row.webp" alt="R28A — вспомогательная композиция второго ряда" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>R28A</b> — только композиция второго ряда; лица брать из sheets.</figcaption></figure>
-<figure style="margin:0"><a href="references/scenes/scene-28/R28B-third-row-cats.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-28/R28B-third-row-cats.webp" alt="R28B — вспомогательная композиция третьего ряда и котов" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px"><b>R28B</b> — только расстановка третьего ряда/котов; внешний вид брать из sheets.</figcaption></figure>
 </div>
 
 **Геометрия:** тёмные металлические рёбра, белые вертикальные световые вставки, две янтарные направляющие на чёрном сатиновом полу, плоская имперская эмблема в центре. В глубине широкий проём с космосом и планетой; справа неподвижный шаттл. H28B сделан как смена света H28A: камера, пол, стены, эмблема, проём и шаттл сохраняются. Нет сцены-подиума, DJ-стойки, барной мебели или новых танцоров. Слабые отражения пола не создают двойников персонажей.
@@ -3110,6 +3201,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Световая партитура:** часть 1 начинается в H28A и постепенно приходит к H28B; часть 2 сохраняет стабильный H28B для читаемых взаимных жестов у лица; часть 3 допускает один медленный проход лучей только после завершения разъезда; части 4–7 используют плавное пульсирование пола и медленные симметричные проходы лучей; в частях 8–9 свет стабилен для поддержек, в части 10 лучи останавливаются для финальной позы. Нейтральный мягкий свет на лицах постоянен. Цветные акценты работают на полу, стенах и заднем плане, без пересветов кожи, изменения голубого дизайна Маши и частого стробоскопа. Если модель не удерживает переключение, взять чистую церемониальную и дискотечную фазы и соединить на музыкальном акценте; не маскировать геометрические ошибки вспышкой.
 
 **Общий мотив:** два коротких боковых шага → низкие угловатые предплечья → небольшой поворот плеч → внезапная торжественная остановка. Вариации сохраняют один танец. Никаких улыбок, подмигиваний, эротических жестов, прыжков, бросков партнёра или оружия. Исключение из прежнего запрета поддержек: две отдельные контролируемые парные вставки 8–9, по новой команде пользователя. Маша двигается в пределах своего длинного цельного закрытого костюма; коты остаются обычными четвероногими котами.
+
+**Алеся:** маленький коричневый эвок с точным взрослым человеческим лицом Алеси, мехом, круглыми ушами и коричневым капюшоном. [Развёрнутый Ale28](references/scenes/scene-28/Ale28-Alesya-model-sheet.png). Источник — обе входные фотографии задачи `dd7ccc1b23334ea0b54455a6605e12ea`. В танце без копья: отдельный номер 7 и общий финал 10.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" alt="Ale28 — Алеся: повороты тела и крупные планы лица" loading="lazy"></a><figcaption>Ale28 — Алеся: повороты тела и крупные планы лица</figcaption></figure>
+</div>
 
 ### Музыка
 
@@ -3134,10 +3231,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 | 4 | Паша + Саша | Зеркальный джедайский устав. | 8 с |
 | 5 | Артём + Илюша | Тяжеловесная вариация общего рисунка. | 8 с |
 | 6 | Маша + Лёша + Виталик | Маша задаёт фигуру, мужчины отвечают с запаздыванием. | 9 с |
-| 7 | Лучик + Рыжик | Кошачьи шаги, поворот головы и подъём лапы. | 7 с |
+| 7 | Алеся + Лучик + Рыжик | Алеся дирижирует двумя маленькими жестами; коты шагают и поворачивают головы. | 7 с |
 | 8 | Серёга + Юля | После склейки он уже держит её на руках; один размеренный полукруг мелкими шагами. | 9 с |
 | 9 | Серёга + Юля | Новая склейка: она уже сидит боком на его правом плече; два парадных шага и замер. | 9 с |
-| 10 | Все 11 | Общий акцент и торжественно нелепая финальная поза. | 4 с + 10 с стоп-кадра |
+| 10 | Все 12 | Общий акцент и торжественно нелепая финальная поза. | 4 с + 10 с стоп-кадра |
 
 Это даёт около 90 секунд. Короткие окна — ориентир: выбирать чистые целые движения и при необходимости расширить монтаж до 95–105 с, не ускорять силой взаимодействия рук/тел. Точные склейки выставить по выбранному аудиофайлу: генерационные 15/30 секунд не обязаны совпадать с музыкальными фразами. При ~120 BPM 15 секунд — примерно 30 долей, не целое число четырёхдольных тактов; обрезать на сильную долю и использовать запас. Касание и ноги не исправлять агрессивным optical flow. Для финальных 11 персонажей достаточно нескольких чистых секунд; длинный хвост Wan — запас для выбора, не просьба всё время усложнять танец.
 
@@ -3148,7 +3245,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 При подготовке проверен live Topview config: **Seedance 2.0 — 4–15 с; Wan 3.0 — 2–30 с**, обе модели доступны в `omni_reference`, 1080p, 16:9. Подпись Wan 3.0 относится к модели, доступной в Topview; не переносить на неё автоматически сведения о других версиях Wan. Источники: [официальное описание Seedance 2.0](https://seed.bytedance.com/en/blog/seedance-2-0-official-launch) · [страница сравнения Topview](https://www.topview.ai/wan-3-vs-seedance-2).
 
 - Части 1–9: `omni_reference`, 3–4 изображения по конкретной схеме блока. Это выбранный бюджет постановки, не заявление о максимуме модели. Model sheet с несколькими видами описывает одного персонажа.
-- Часть 10: `image_to_video`, один заранее собранный и проверенный G28. Перед отправкой сверить текущую доступность режима выбранного движка; не подменять движок молча. При дрейфе 11 лиц использовать сам G28 с монтажным стоп-кадром/небольшим наездом.
+- Часть 10: `image_to_video`, один заранее собранный и проверенный G28. Перед отправкой сверить текущую доступность режима выбранного движка; не подменять движок молча. При дрейфе лиц ансамбля использовать сам G28 с монтажным стоп-кадром/небольшим наездом.
 - В текущем standalone Topview video tool нет входа reference audio. Это ограничение данного интерфейса, не утверждение, что модель нигде не поддерживает аудиореференс. Песню накладывать в CapCut/другом редакторе; `@Audio1` в эти промты не добавлять. Синхронизация ударов музыки — монтажная задача.
 - По последней команде владельца запустить первые доступные последовательные части Seedance 2.0 начиная с части 1. Части 1 и 2 можно отправить при двух свободных слотах; часть 3 ждёт C28 из результата части 2. Затем оценить руку/щёку, лица, ось и ноги. Другую модель пробовать на том же эпизоде и с теми же входами, если нужен честный A/B. Не запускать сразу 20 задач. Новые поддержки сначала отдельно проверить на чистых L28/S28; сложную пересадку с рук на плечо не генерировать одним движением. Existing slow-задачи Scene 20 не отменять и не перезапускать.
 - Владелец уже разрешил первые последовательные 15s части при готовых входах и свободных slow slots. Запуск только через проверенный unlimited/zero-credit путь; платный fallback не разрешён. Приёмка: лица и костюмы → рука/щёка → ноги → география и свет → музыкальный акцент. Титры добавляются в редакторе, а не внутри генерации.
@@ -3165,7 +3262,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **S28 — исправлен, проверен и сохранён 07.10.2026.** [Открыть PNG](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/S28-shoulder.png). Проверенный общий парный кадр для части 9: Юля сидит прямо боком на правом плече Серёги, обе согнутые ноги перед правой стороной его корпуса; его правая рука держит бёдра, левая стабилизирует голени. Головы разнесены и видны. Не пытаться одновременно развернуть, поднять и пересадить её из L28: переход делается монтажной склейкой. Эта конкретная поза — наша постановка мотива «на плече», а не утверждение о точной позе из сериала.
 
-**G28 — собран, проверен и сохранён 07.10.2026.** [Открыть PNG](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/G28-full-ensemble.png). Общий кадр собран последовательно из проверенных J28/T28, individual sheets Серёги/Юли и двух котов. Состав 9+2 проверен, предыдущие неудачные попытки не используются. Передний человеческий ряд: Серёга слева, Юля справа. Второй слева направо: Паша, Саша, Артём, Илюша. Третий: Лёша, Маша, Виталик. Ряды раздвинуты, каждое лицо видно. Лучик на полу впереди слева, Рыжик справа, головы ниже человеческого колена. Низкая угловатая поза, руки не закрывают лица. У Маши гладкий непрозрачный голубой торс и длинный подол. G28 — один first frame части 10 после проверки всех 9+2 персонажей по их individual sheets.
+**G28 v2 — дополнен Алесей, проверен и сохранён 08.10.2026.** [Открыть PNG](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png). Общий кадр собран последовательно из проверенных J28/T28, individual sheets Серёги/Юли и двух котов. Состав 9+1+2 проверен, предыдущие неудачные попытки не используются. Передний человеческий ряд: Серёга слева, Юля справа. Второй слева направо: Паша, Саша, Артём, Илюша. Третий: Лёша, Маша, Виталик. Алеся стоит впереди по центру между главной парой и котами; её небольшой рост и лицо взяты из Ale28. Ряды раздвинуты, каждое лицо видно. Лучик на полу впереди слева, Рыжик справа, головы ниже человеческого колена. Низкая угловатая поза, руки не закрывают лица. У Маши гладкий непрозрачный голубой торс и длинный подол. G28 — один first frame части 10 после проверки всех 9+1+2 персонажей по их individual sheets.
 
 Ниже — полные тексты для указанных входов. Нумерация @Image локальна каждому промту. P28/L28/F28 уже сохранены; R28A/R28B — helpers композиции. S28 подготовлен и прошёл проверку позы/внешности; G28 тоже проверен; только C28 ожидает чистого результата части 2. Individual character sheets всегда выше generated pose/composition reference по внешности.
 
@@ -3177,14 +3274,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/serega.webp" target="_blank" rel="noopener"><img src="references/serega.webp" alt="Серёга" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга</figcaption></figure>
-<figure style="margin:0"><a href="references/yulya.webp" target="_blank" rel="noopener"><img src="references/yulya.webp" alt="Юля" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля</figcaption></figure>
-<figure style="margin:0"><a href="references/pasha.webp" target="_blank" rel="noopener"><img src="references/pasha.webp" alt="Паша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша</figcaption></figure>
-<figure style="margin:0"><a href="references/sasha.webp" target="_blank" rel="noopener"><img src="references/sasha.webp" alt="Саша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша</figcaption></figure>
-<figure style="margin:0"><a href="references/artem.webp" target="_blank" rel="noopener"><img src="references/artem.webp" alt="Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Артём</figcaption></figure>
-<figure style="margin:0"><a href="references/ilyusha.webp" target="_blank" rel="noopener"><img src="references/ilyusha.webp" alt="Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Илюша</figcaption></figure>
-<figure style="margin:0"><a href="references/lesha.webp" target="_blank" rel="noopener"><img src="references/lesha.webp" alt="Лёша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лёша</figcaption></figure>
-<figure style="margin:0"><a href="references/vitalik.webp" target="_blank" rel="noopener"><img src="references/vitalik.webp" alt="Виталик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Виталик</figcaption></figure>
+<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга</figcaption></figure>
+<figure style="margin:0"><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="Юля" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Юля</figcaption></figure>
+<figure style="margin:0"><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="Паша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша</figcaption></figure>
+<figure style="margin:0"><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша</figcaption></figure>
+<figure style="margin:0"><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="Артём" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Артём</figcaption></figure>
+<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Илюша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Илюша</figcaption></figure>
+<figure style="margin:0"><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="Лёша" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лёша</figcaption></figure>
+<figure style="margin:0"><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="Виталик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Виталик</figcaption></figure>
 <figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна</figcaption></figure>
 <figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик</figcaption></figure>
 <figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик</figcaption></figure>
@@ -3433,41 +3530,41 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
-#### A7 · Танец 7 — Лучик и Рыжик: минимальная кошачья версия
+#### A7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Лучика · @Image3 = sheet Рыжика. Людей на фон не добавлять.
+**Референсы:** @Image1 = H28B · @Image2 = sheet Лучика · @Image3 = sheet Рыжика · @Image4 = Ale28, sheet Алеси. Ровно три персонажа; людей на фон не добавлять.
 
 ```text
 Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
 Audio intent: silent plate for external music; no speech, human vocals or generated score.
 
 REFERENCES / PRIORITY:
-@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. Exactly two ordinary domestic cats, one of each identity. No people, animal costumes or background animals.
+@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. @Image4 is the absolute ALESYA identity: the small brown-furred Ewok-like adult woman with her exact human face, brown hood, round ears and compact furry body. Exactly THREE subjects: Alesya plus two ordinary domestic cats. No extra people or animals. Do not turn cats into Ewoks or Alesya into a cat.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. No lightsabers in this dance.
+LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. Alesya is about one metre tall; the cats remain normal house cats well below her waist. Preserve her adult face from Image4, hood and short furry limbs. Alesya has no spear or other weapon. No lightsabers in this dance.
 
 SCENE / START STATE:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. Camera is low at cat chest height, with both complete bodies, paws, ears and tails safely in frame. Luchik stands frame-left, Ryzhik frame-right, both on all fours facing camera, separated by about one cat body width.
+Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. Camera is low and wide enough to include all three complete bodies and Alesya's hood. Alesya stands centred slightly behind the cats, Luchik frame-left and Ryzhik frame-right on all fours. Leave clear gaps around every silhouette, without overlapping faces.
 
 LIGHTING CUE / CONTINUITY:
 Full H28B disco state is already active. Floor strips behind the cats pulse gently every two seconds; ceiling beams remain high and in the rear background. The cats and paws stay clearly visible in neutral white fill. No beam points into the cats' eyes. Keep soft neutral-white key/fill on every face constant, with stable exposure and readable natural skin. Cyan/magenta accents affect floor, rear walls and thin overhead haze, never wash out faces or recolor costumes. Preserve the exact architecture, camera axis, shuttle and planet. Lighting changes are gradual adjustments of existing fixtures, not morphing scenery, flashes or rapid strobing.
 
-TIMELINE / FELINE ACTION:
-0–3s: both stare solemnly ahead with natural breathing and occasional blinking.
-3–7s: each takes two small deliberate forward walking steps and stops. This is believable feline gait with alternating paws, not a human two-legged dance. The approximate shared timing supplies the joke.
+TIMELINE / FELINE ACTION AND CONDUCTOR:
+0–3s: Alesya holds a perfectly solemn expression, arms low. Both cats stare solemnly ahead with natural breathing and occasional blinking.
+3–7s: Alesya gives one small downward two-forearm conducting pulse, then holds; each cat takes two small deliberate forward walking steps and stops. This is believable feline gait with alternating paws, not a human two-legged dance. The approximate shared timing supplies the joke.
 7–10s: both turn their heads toward frame-left, hold briefly, then bring their gaze back toward camera. Bodies remain in place.
-10–13s: each shifts weight, lifts one front paw only a few centimetres and puts it down once. No high-five, crossing paws or standing upright.
+10–13s: Alesya repeats one small downward forearm pulse and returns her arms low; each cat shifts weight, lifts one front paw only a few centimetres and puts it down once. No high-five, crossing paws or standing upright.
 13–15s: hold the absurdly commanding feline stare; tails may make one restrained natural movement.
 
 CAMERA / MATERIALS / PERFORMANCE:
 Locked low camera, natural 50mm-equivalent perspective, no zoom, orbit or cuts. Their serious expression remains recognizably feline, never a human grin. Real soft fur, whiskers, paw-floor contact and low-contrast reflections. Do not force exact human beat-count choreography onto the cats. The external edit chooses the best synchronized moment.
 
 END STATE:
-Both cats stand calmly on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
+Alesya remains centre with her original adult face and low arms. Both cats stand calmly on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs, human hands, bipedal dancing, cat-headed people, costumes, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark.
+Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs on cats, human hands on cats, bipedal cats, cat-headed people, costumes on cats, Alesya face drift, changed hood, giant Ewok, extra Ewoks, spear, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -3570,21 +3667,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 #### A10 · Танец 10 — Общая финальная печать
 
-**Референсы:** @Image1 = G28-full-ensemble.png, проверенный G28 с 9 людьми/гуманоидами и 2 котами в свете H28B; единый first frame. Не загружать 11 individual sheets вместо него.
+**Референсы:** @Image1 = G28-full-ensemble-Alesya-v2.png, проверенный G28 с 9 людьми/гуманоидами, Алесей и 2 котами в свете H28B; единый first frame. Не загружать 12 individual sheets вместо него.
 
 ```text
 Mode: image-to-video from one approved first frame | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9 from the source frame
 Audio intent: silent ensemble plate; soundtrack and final credits are added in editing.
 
 REFERENCE / PRIORITY:
-@Image1 is the already checked eleven-character GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and camera. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters and TWO ordinary cats. No new references are needed for this animation input.
+@Image1 is the already checked twelve-subject GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and camera. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters, ONE small ALESYA Ewok-like character with her exact adult human face, and TWO ordinary cats. No new references are needed for this animation input.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Front human row: SEREGA, pale older balding man in deep-purple robe, left; YULIA, long chestnut hair and dark armor/black cloak, right. Second row left to right: PASHA, clean-shaven/navy Jedi; SASHA, beard/round glasses/cream-burgundy robe; ARTEM, heavier bearded man/cream-brown robes; ILYUSHA, moustache/olive tunic/deep-red cloak. Rear row left to right: LESHA, slimmer moustached man/purple inner tunic/grey robe; MASHA-LAGUNA, aquatic-blue woman/long blue head strands/black crown-collar/back ornament/opaque floor-length blue costume; VITALIK, heavier man/black tunic/dark leather panels/brown trousers. Preserve every face exactly as visible in @Image1.
+ALESYA stands at front centre: small brown-furred body, brown hood, round ears and exact adult human face from the source sheet; no spear. Keep her distinct from the two cats and smaller than the adults.
 LUCHIK, fluffy white-grey cat, is on the floor front-left; RYZHIK, fluffy ginger tabby, is front-right. Both remain on all fours at ordinary domestic-cat scale, their standing heads below a nearby adult knee. Masha's chest and abdomen remain covered by one smooth opaque blue costume surface: no nipples, areolae, navel or anatomical relief. No weapons.
 
 SCENE / START STATE:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. All faces are visible through staggered rows. The nine people already hold a low angular arm pose below their faces; cats stand normally. Retain upper-corner negative space for later titles without generating any text.
+Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. All faces are visible through staggered rows. Alesya keeps her arms low and remains still with natural breathing. The nine people already hold a low angular arm pose below their faces; cats stand normally. Retain upper-corner negative space for later titles without generating any text.
 
 LIGHTING CUE / CONTINUITY:
 The provided group master already contains the H28B disco light. Hold the floor strips and ceiling beams completely steady for the entire final tableau: no new lighting event, pulse or sweep. Keep every face, Masha's smooth blue costume and both cats readable. Keep soft neutral-white key/fill on every face constant, with stable exposure and readable natural skin. Cyan/magenta accents affect floor, rear walls and thin overhead haze, never wash out faces or recolor costumes. Preserve the exact architecture, camera axis, shuttle and planet. Lighting changes are gradual adjustments of existing fixtures, not morphing scenery, flashes or rapid strobing.
@@ -3598,7 +3696,7 @@ CAMERA / PERFORMANCE / REALISM:
 One completely locked camera with the source lens, perspective and framing. No push-in during generation, parallax, orbit, reframing or focus rack. Preserve source skin, fur, cloth and armor textures. The ensemble's conviction makes the pose funny; no smiles, comic grimaces, applause or waving. This is a live-action tableau, not rubber animation.
 
 END STATE:
-The same eleven visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
+The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
 
 NEGATIVE PROMPT:
 Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, walking, dancing formations, big gestures, mirror doubles, camera movement, background motion, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look.
@@ -3863,31 +3961,31 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
-#### B7 · Танец 7 — Лучик и Рыжик: минимальная кошачья версия
+#### B7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Лучика · @Image3 = sheet Рыжика. Людей на фон не добавлять.
+**Референсы:** @Image1 = H28B · @Image2 = sheet Лучика · @Image3 = sheet Рыжика · @Image4 = Ale28, sheet Алеси. Ровно три персонажа; людей на фон не добавлять.
 
 ```text
 Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9
 Audio intent: silent plate for external music; no speech, human vocals or generated score.
 
 REFERENCES / PRIORITY:
-@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. Exactly two ordinary domestic cats, one of each identity. No people, animal costumes or background animals.
+@Image1 defines the supplied H28B hangar geometry, light and floor only. @Image2 defines the exact LUCHIK feline identity; @Image3 defines the exact RYZHIK feline identity. Individual cat sheets outrank the location for face, fur, size and anatomy. @Image4 is the absolute ALESYA identity: the small brown-furred Ewok-like adult woman with her exact human face, brown hood, round ears and compact furry body. Exactly THREE subjects: Alesya plus two ordinary domestic cats. No extra people or animals. Do not turn cats into Ewoks or Alesya into a cat.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. No lightsabers in this dance.
+LUCHIK is the long-haired fluffy white-grey cat with white muzzle, chest and paws, grey crown/back markings and the exact referenced feline face. RYZHIK is the long-haired ginger tabby with darker orange stripes and a paler muzzle/chest. Keep their separate coat patterns, body proportions, ear shapes and natural paws. They remain ordinary domestic-cat scale relative to hangar floor panels: low bodies, four feline legs, no human torso or hands. Alesya is about one metre tall; the cats remain normal house cats well below her waist. Preserve her adult face from Image4, hood and short furry limbs. Alesya has no spear or other weapon. No lightsabers in this dance.
 
 SCENE / START STATE:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. Camera is low at cat chest height, with both complete bodies, paws, ears and tails safely in frame. Luchik stands frame-left, Ryzhik frame-right, both on all fours facing camera, separated by about one cat body width.
+Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. Camera is low and wide enough to include all three complete bodies and Alesya's hood. Alesya stands centred slightly behind the cats, Luchik frame-left and Ryzhik frame-right on all fours. Leave clear gaps around every silhouette, without overlapping faces.
 
 LIGHTING CUE / CONTINUITY:
 Full H28B disco state is already active. Floor strips behind the cats pulse gently every two seconds; ceiling beams remain high and in the rear background. The cats and paws stay clearly visible in neutral white fill. No beam points into the cats' eyes. Keep soft neutral-white key/fill on every face constant, with stable exposure and readable natural skin. Cyan/magenta accents affect floor, rear walls and thin overhead haze, never wash out faces or recolor costumes. Preserve the exact architecture, camera axis, shuttle and planet. Lighting changes are gradual adjustments of existing fixtures, not morphing scenery, flashes or rapid strobing.
 
-TIMELINE / FELINE ACTION:
-0–5s: both cats stand on all fours and look solemnly forward, with natural breathing and blinking. Disco lighting is already established behind them.
-5–10s: each takes two small deliberate forward walking steps and stops. Use normal alternating feline gait, never human bipedal dance.
+TIMELINE / FELINE ACTION AND CONDUCTOR:
+0–5s: Alesya stands solemnly with arms low; both cats stand on all fours and look solemnly forward, with natural breathing and blinking. Disco lighting is already established behind them.
+5–10s: Alesya gives one small downward two-forearm conducting pulse and holds; each cat takes two small deliberate forward walking steps and stops. Use normal alternating feline gait, never human bipedal dance.
 10–15s: both turn heads toward frame-left, pause, then look back to camera; bodies stay planted.
-15–20s: each shifts weight and lifts one front paw only a few centimetres, then places it down once. No high-five, crossed paws or human hands.
+15–20s: Alesya repeats one small downward forearm pulse and returns her arms low; each cat shifts weight and lifts one front paw only a few centimetres, then places it down once. No high-five, crossed paws or human hands.
 20–25s: hold the closer marks. Allow one restrained natural tail-tip movement; do not repeat the walk or add tricks.
 25–30s: both hold a calm commanding feline stare on all fours, fur and anatomy stable.
 
@@ -3895,10 +3993,10 @@ CAMERA / MATERIALS / PERFORMANCE:
 Locked low camera, natural 50mm-equivalent perspective, no zoom, orbit or cuts. Their serious expression remains recognizably feline, never a human grin. Real soft fur, whiskers, paw-floor contact and low-contrast reflections. Do not force exact human beat-count choreography onto the cats. The external edit chooses the best synchronized moment.
 
 END STATE:
-Both cats stand calmly on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
+Alesya remains centre with her original adult face and low arms. Both cats stand calmly on all fours at the closer marks, Luchik left and Ryzhik right, facing camera with stable anatomy. Keep the established H28B disco palette and unchanged neutral facial fill through the final frame.
 
 NEGATIVE PROMPT:
-Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs, human hands, bipedal dancing, cat-headed people, costumes, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark.
+Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, generated text, Giant or waist-high cats, human limbs on cats, human hands on cats, bipedal cats, cat-headed people, costumes on cats, Alesya face drift, changed hood, giant Ewok, extra Ewoks, spear, extra cats, merged fur patterns, grey/ginger swapping, duplicate paws, extra tails, elastic bodies, levitation, lip-sync speech, saber props, humans in background, moving architecture, rapid strobing, mirror doubles, cartoon fur, shaky camera, cuts, text, credits, logos, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -4001,21 +4099,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 #### B10 · Танец 10 — Общая финальная печать
 
-**Референсы:** @Image1 = G28-full-ensemble.png, проверенный G28 с 9 людьми/гуманоидами и 2 котами в свете H28B; единый first frame. Не загружать 11 individual sheets вместо него.
+**Референсы:** @Image1 = G28-full-ensemble-Alesya-v2.png, проверенный G28 с 9 людьми/гуманоидами, Алесей и 2 котами в свете H28B; единый first frame. Не загружать 12 individual sheets вместо него.
 
 ```text
 Mode: image-to-video from one approved first frame | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 from the source frame
 Audio intent: silent ensemble plate; soundtrack and final credits are added in editing.
 
 REFERENCE / PRIORITY:
-@Image1 is the already checked eleven-character GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and camera. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters and TWO ordinary cats. No new references are needed for this animation input.
+@Image1 is the already checked twelve-subject GROUP MASTER and the exact first frame. Preserve its identities, complete head count, costumes, row positions, cat scale, hangar geometry, steady H28B light and camera. It was assembled from the approved individual character sheets; animate those existing people, do not invent or recompose a cast. Exactly NINE adult human/humanoid characters, ONE small ALESYA Ewok-like character with her exact adult human face, and TWO ordinary cats. No new references are needed for this animation input.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 Front human row: SEREGA, pale older balding man in deep-purple robe, left; YULIA, long chestnut hair and dark armor/black cloak, right. Second row left to right: PASHA, clean-shaven/navy Jedi; SASHA, beard/round glasses/cream-burgundy robe; ARTEM, heavier bearded man/cream-brown robes; ILYUSHA, moustache/olive tunic/deep-red cloak. Rear row left to right: LESHA, slimmer moustached man/purple inner tunic/grey robe; MASHA-LAGUNA, aquatic-blue woman/long blue head strands/black crown-collar/back ornament/opaque floor-length blue costume; VITALIK, heavier man/black tunic/dark leather panels/brown trousers. Preserve every face exactly as visible in @Image1.
+ALESYA stands at front centre: small brown-furred body, brown hood, round ears and exact adult human face from the source sheet; no spear. Keep her distinct from the two cats and smaller than the adults.
 LUCHIK, fluffy white-grey cat, is on the floor front-left; RYZHIK, fluffy ginger tabby, is front-right. Both remain on all fours at ordinary domestic-cat scale, their standing heads below a nearby adult knee. Masha's chest and abdomen remain covered by one smooth opaque blue costume surface: no nipples, areolae, navel or anatomical relief. No weapons.
 
 SCENE / START STATE:
-Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. All faces are visible through staggered rows. The nine people already hold a low angular arm pose below their faces; cats stand normally. Retain upper-corner negative space for later titles without generating any text.
+Photoreal live-action Imperial space-cruiser ceremonial hangar. Match the supplied location geometry: tall graphite ribs and white wall strips, satin dark floor with a flush Imperial starburst medallion, two amber guide lines and embedded cyan/magenta tile borders. A huge rear opening frames stationary space and a planet; one shuttle stays parked deep frame-right. The dance floor is the original hangar floor, not a newly appearing stage. Reflections stay faint and never create duplicate performers. No traffic, extra furniture, DJ booth or crowd. All faces are visible through staggered rows. Alesya keeps her arms low and remains still with natural breathing. The nine people already hold a low angular arm pose below their faces; cats stand normally. Retain upper-corner negative space for later titles without generating any text.
 
 LIGHTING CUE / CONTINUITY:
 The provided group master already contains the H28B disco light. Hold the floor strips and ceiling beams completely steady for the entire final tableau: no new lighting event, pulse or sweep. Keep every face, Masha's smooth blue costume and both cats readable. Keep soft neutral-white key/fill on every face constant, with stable exposure and readable natural skin. Cyan/magenta accents affect floor, rear walls and thin overhead haze, never wash out faces or recolor costumes. Preserve the exact architecture, camera axis, shuttle and planet. Lighting changes are gradual adjustments of existing fixtures, not morphing scenery, flashes or rapid strobing.
@@ -4023,7 +4122,7 @@ The provided group master already contains the H28B disco light. Hold the floor 
 TIMELINE / MINIMAL ENSEMBLE ACTION:
 0–4s: hold the complete supplied group composition with natural breathing and fully steady disco lighting.
 4–7s: the nine people make ONE small coordinated downward forearm pulse and return to the source low angular pose. Feet remain planted; both cats stay on all fours, with at most a slight natural head lift.
-7–15s: settle into the solemn final tableau, no new choreography. Keep all nine faces and two feline identities unchanged.
+7–15s: settle into the solemn final tableau, no new choreography. Keep all nine adult human/humanoid faces, Alesya's face and the two feline identities unchanged.
 15–23s: hold that same pose, allowing only breathing, occasional natural blinks and tiny cloth/fur settling. No walking, turns, hand waves or formation changes.
 23–30s: continue the clean unchanged tableau through the final frame, suitable for an editorial freeze. Do not invent a second ending or alter any face to fill the duration.
 
@@ -4031,7 +4130,7 @@ CAMERA / PERFORMANCE / REALISM:
 One completely locked camera with the source lens, perspective and framing. No push-in during generation, parallax, orbit, reframing or focus rack. Preserve source skin, fur, cloth and armor textures. The ensemble's conviction makes the pose funny; no smiles, comic grimaces, applause or waving. This is a live-action tableau, not rubber animation.
 
 END STATE:
-The same eleven visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
+The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
 
 NEGATIVE PROMPT:
 Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, walking, dancing formations, big gestures, mirror doubles, camera movement, background motion, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look.
@@ -4040,4 +4139,4 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
-**Проверка результата:** сверить каждое видимое лицо/костюм с individual sheet; очередность четырёх жестов и обе кисти/щёки в части 2; разрыв контакта и направления разъезда в части 3; закрытый гладкий торс Маши в части 6; масштаб и лапы котов в части 7; контакты рук/тел и опору в частях 8–9; точный состав 9+2 в части 10. Свет может меняться только по партитуре, геометрия и внешность остаются теми же. Technical success не равен принятому дублю. Если общий рендер плывёт, использовать проверенный G28 и монтажный стоп-кадр.
+**Проверка результата:** сверить каждое видимое лицо/костюм с individual sheet; очередность четырёх жестов и обе кисти/щёки в части 2; разрыв контакта и направления разъезда в части 3; закрытый гладкий торс Маши в части 6; масштаб и лапы котов в части 7; контакты рук/тел и опору в частях 8–9; точный состав 9+1+2 в части 10. Свет может меняться только по партитуре, геометрия и внешность остаются теми же. Technical success не равен принятому дублю. Если общий рендер плывёт, использовать проверенный G28 и монтажный стоп-кадр.
