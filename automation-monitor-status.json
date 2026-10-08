@@ -23,36 +23,28 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-08T04:03:54.507Z",
+    "checked_at": "2026-10-08T20:06:34.125Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
-    "video_tasks_scanned": 534,
+    "video_tasks_scanned": 537,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 3,
-    "free_slots": 3,
-    "active_task_ids": [
-      "b95a76b92f9d4787b738b165eaeb270f",
-      "ffa34324436745beb161d72ae9d4394f",
-      "017bebefc4c54038954301968a4b5d68"
-    ]
+    "occupied_slots": 0,
+    "free_slots": 6,
+    "active_task_ids": []
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-08T02:07:03.475Z",
-    "last_observed_free_slots": 3,
-    "observed_active_task_ids": [
-      "b95a76b92f9d4787b738b165eaeb270f",
-      "ffa34324436745beb161d72ae9d4394f",
-      "017bebefc4c54038954301968a4b5d68"
-    ],
+    "last_notified_at": "2026-10-08T20:06:34.125Z",
+    "last_observed_free_slots": 6,
+    "observed_active_task_ids": [],
     "open_incidents": [],
     "last_message_event": {
-      "type": "canonical_validator_recovered",
-      "observed_at": "2026-10-08T04:11:25.447Z",
-      "issue": "canonical_master_blank_spacing_compact",
+      "type": "topview_capacity_available_and_canonical_recovery",
+      "observed_at": "2026-10-08T20:13:11.393Z",
+      "issue": "three previously occupied Scene 26/27 tasks terminal; stale instruction/master mirrors recovered",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -60,34 +52,34 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-08T04:03:54.507Z",
+      "checked_at": "2026-10-08T20:06:34.125Z",
       "boards_scanned": 11,
-      "video_tasks_scanned": 534,
+      "video_tasks_scanned": 537,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-08T04:03:54.507Z",
-      "public_verified_at": "2026-10-08T04:06:07.405Z",
-      "occupied_slots": 3,
-      "free_slots": 3
+      "checked_at": "2026-10-08T20:06:34.125Z",
+      "public_verified_at": "2026-10-08T20:13:11.393Z",
+      "occupied_slots": 0,
+      "free_slots": 6
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-08T04:03:31.301Z"
+      "checked_at": "2026-10-08T20:06:34.125Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-08T04:11:25.447Z",
-      "master_sha256": "0a911e0fb99462849c83bffb8def20bacbba6a959ff43f1d60bf88ad3b495780",
+      "checked_at": "2026-10-08T20:13:11.393Z",
+      "master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
       "scenes": 15,
       "prompt_texts": 46,
       "all_project_checks_true": true
     },
     "deep_audit": {
-      "status": "not_due",
-      "last_checked_at": "2026-10-07T21:05:51.576Z",
-      "next_due_at": "2026-10-08T21:05:51.576Z"
+      "status": "completed_due_to_substantial_discrepancy",
+      "last_checked_at": "2026-10-08T20:13:11.393Z",
+      "next_due_at": "2026-10-09T20:13:11.393Z"
     },
     "notion": {
       "status": "unchanged_nonblocking"
@@ -99,18 +91,19 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-08T04:01:26Z",
-    "completed_at": "2026-10-08T04:11:25.447Z",
+    "started_at": "2026-10-08T20:02:25Z",
+    "completed_at": "2026-10-08T20:13:11.393Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
       "telemetry_publication",
       "instruction_exact_7_of_7",
       "canonical_sync",
-      "light_health"
+      "light_health",
+      "deep_audit"
     ],
-    "deep_audit": "not_due",
-    "notification": "canonical_validator_recovery"
+    "deep_audit": "completed_due_to_substantial_discrepancy",
+    "notification": "topview_capacity_available_and_canonical_recovery"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -137,13 +130,13 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-08T04:03:54.507Z",
-    "public_pages_occupied_slots": 3,
-    "public_pages_free_slots": 3,
-    "deep_audit_checked_at": "2026-10-07T21:05:51.576Z",
+    "public_pages_topview_checked_at": "2026-10-08T20:06:34.125Z",
+    "public_pages_occupied_slots": 0,
+    "public_pages_free_slots": 6,
+    "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "passed_after_whitespace_recovery",
-    "canonical_master_sha256": "0a911e0fb99462849c83bffb8def20bacbba6a959ff43f1d60bf88ad3b495780",
+    "site_validator": "passed_after_authority_recovery",
+    "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
     "public_pages_canonical_health": "ok"
   }
 }
