@@ -157,6 +157,47 @@ class IntegrationRecoveryTests(unittest.TestCase):
             self.assertEqual(status["maintenance"]["topview_task_map"]["state"], "drift")
             self.assertFalse(status["maintenance"]["topview_task_map"]["blocking"])
 
+    def _validate_master_bytes(self, data):
+        with tempfile.TemporaryDirectory() as td:
+            master = Path(td) / "master.md"; master.write_bytes(data)
+            return run_validator(master=master)
+
+    def test_crlf_master_is_detected_even_when_blank_lines_hide_behind_cr(self):
+        lf = MASTER.read_bytes().replace(b"\r\n", b"\n")
+        crlf = lf.replace(b"\n", b"\r\n")
+        p, status = self._validate_master_bytes(crlf)
+        self.assertNotEqual(status["health"], "ok")
+        self.assertFalse(status["checks"]["canonical_master_lf_line_endings"])
+        gap = crlf.replace(b"\r\n---\r\n", b"\r\n---\r\n\r\n", 1)
+        p, status = self._validate_master_bytes(gap)
+        self.assertFalse(status["checks"]["canonical_master_blank_spacing_compact"])
+
+    def test_instruction_certificate_hash_mismatch_is_not_green(self):
+        instr = json.loads(INSTR.read_text(encoding="utf-8"))
+        name = next(iter(instr["files"]))
+        instr["files"][name]["mirror_sha256"] = "0" * 64
+        instr["files"][name]["match"] = False
+        instr["all_match"] = False
+        with tempfile.TemporaryDirectory() as td:
+            ip = Path(td) / "instr.json"; write_json(ip, instr)
+            p, status = run_validator(instr=ip)
+            self.assertNotEqual(status["health"], "ok")
+
+    def test_active_task_for_unknown_scene_is_rejected(self):
+        top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
+        task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        unknown = 9999
+        row = {"scene_id": unknown, "task_id": "offline-unknown-scene", "model": "Wan 3.0",
+               "topview_status": "init", "started_at": top.get("checked_at"), "verified": True}
+        top["active_tasks"] = list(top.get("active_tasks") or []) + [row]
+        top["occupied_slots"] = len(top["active_tasks"])
+        top["free_slots"] = max(0, top["slot_capacity"] - top["occupied_slots"])
+        with tempfile.TemporaryDirectory() as td:
+            tp = Path(td) / "top.json"; write_json(tp, top)
+            p, status = run_validator(topview=tp)
+            self.assertNotEqual(p.returncode, 0)
+            self.assertFalse(status["checks"]["topview_active_scene_ids_exist"])
+
     def test_stable_topview_checkpoint_matches_public_snapshot(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         checkpoint = json.loads(CHECKPOINT.read_text(encoding="utf-8"))
