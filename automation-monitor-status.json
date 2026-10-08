@@ -50,13 +50,9 @@
     ],
     "open_incidents": [],
     "last_message_event": {
-      "type": "new_free_slot",
-      "observed_at": "2026-10-08T02:07:03.475Z",
-      "released_task_ids": [
-        "42e5cdb42c1a45df8a037a26eb3fa26b"
-      ],
-      "occupied_slots": 3,
-      "free_slots": 3,
+      "type": "canonical_validator_recovered",
+      "observed_at": "2026-10-08T04:11:25.447Z",
+      "issue": "canonical_master_blank_spacing_compact",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -82,8 +78,8 @@
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-08T04:06:07.405Z",
-      "master_sha256": "2b157bb39a2497bdff699216deed2cd1c481485057728a2344ddfdff6bc28f7c",
+      "checked_at": "2026-10-08T04:11:25.447Z",
+      "master_sha256": "0a911e0fb99462849c83bffb8def20bacbba6a959ff43f1d60bf88ad3b495780",
       "scenes": 15,
       "prompt_texts": 46,
       "all_project_checks_true": true
@@ -104,7 +100,7 @@
   "health": "ok",
   "last_scheduled_cycle": {
     "started_at": "2026-10-08T04:01:26Z",
-    "completed_at": "2026-10-08T04:06:07.405Z",
+    "completed_at": "2026-10-08T04:11:25.447Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
@@ -114,7 +110,7 @@
       "light_health"
     ],
     "deep_audit": "not_due",
-    "notification": "none_unchanged"
+    "notification": "canonical_validator_recovery"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -146,6 +142,8 @@
     "public_pages_free_slots": 3,
     "deep_audit_checked_at": "2026-10-07T21:05:51.576Z",
     "automation_state_mutated": false,
-    "site_validator": "passed"
+    "site_validator": "passed_after_whitespace_recovery",
+    "canonical_master_sha256": "0a911e0fb99462849c83bffb8def20bacbba6a959ff43f1d60bf88ad3b495780",
+    "public_pages_canonical_health": "ok"
   }
 }
