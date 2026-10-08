@@ -23,7 +23,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-08T02:07:03.475Z",
+    "checked_at": "2026-10-08T04:03:54.507Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
@@ -64,25 +64,25 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-08T02:07:03.475Z",
+      "checked_at": "2026-10-08T04:03:54.507Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 534,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-08T02:07:03.475Z",
-      "public_verified_at": "2026-10-08T02:12:07.883Z",
+      "checked_at": "2026-10-08T04:03:54.507Z",
+      "public_verified_at": "2026-10-08T04:06:07.405Z",
       "occupied_slots": 3,
       "free_slots": 3
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-08T02:06:21.636Z"
+      "checked_at": "2026-10-08T04:03:31.301Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-08T02:12:07.883Z",
+      "checked_at": "2026-10-08T04:06:07.405Z",
       "master_sha256": "2b157bb39a2497bdff699216deed2cd1c481485057728a2344ddfdff6bc28f7c",
       "scenes": 15,
       "prompt_texts": 46,
@@ -103,8 +103,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-08T02:00:03Z",
-    "completed_at": "2026-10-08T02:12:07.883Z",
+    "started_at": "2026-10-08T04:01:26Z",
+    "completed_at": "2026-10-08T04:06:07.405Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
@@ -114,7 +114,7 @@
       "light_health"
     ],
     "deep_audit": "not_due",
-    "notification": "new_free_slot"
+    "notification": "none_unchanged"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -141,7 +141,7 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-08T02:07:03.475Z",
+    "public_pages_topview_checked_at": "2026-10-08T04:03:54.507Z",
     "public_pages_occupied_slots": 3,
     "public_pages_free_slots": 3,
     "deep_audit_checked_at": "2026-10-07T21:05:51.576Z",
