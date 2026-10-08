@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-08T23:29:18Z",
+  "synced_at": "2026-10-08T23:45:57Z",
   "revision_date": "09.10.2026",
   "master_declared_last_full_sync": "08.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "bd6125c121e718d85f99a44a5a2967f208effdcca6cd96a2920370c9795719d0",
@@ -66,12 +66,12 @@
     18
   ],
   "instruction_sync": {
-    "health": "stale",
+    "health": "ok",
     "snapshot_at": "2026-10-08T23:31:00.000Z",
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "claude_drive_connector_download_sha256",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": -0.028,
+    "age_hours_at_status_build": 0.249,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -134,8 +134,8 @@
   "warnings": [],
   "maintenance": {
     "instruction_verification": {
-      "state": "stale",
-      "age_hours": -0.028,
+      "state": "ok",
+      "age_hours": 0.249,
       "blocking": false
     },
     "topview_task_map": {
@@ -570,7 +570,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.10.2026",
-    "synced_at": "2026-10-08T23:29:18Z",
+    "synced_at": "2026-10-08T23:45:57Z",
     "canonical_master_sha256": "bd6125c121e718d85f99a44a5a2967f208effdcca6cd96a2920370c9795719d0",
     "canonical_revision_sha256": "7d97f719d6b5f3a01628b121cee10eac58f4a1e0ef8b69dfb19e50246a418e0b",
     "scene_count": 21,
@@ -613,7 +613,7 @@
     ],
     "slow_scenes": [],
     "health": "ok",
-    "instruction_sync_health": "stale"
+    "instruction_sync_health": "ok"
   },
   "health": "ok",
   "checks": {
@@ -648,6 +648,7 @@
     "scene_meta_dialogue_valid": true,
     "scene_meta_tags_valid": true,
     "scene_meta_target_engine_valid": true,
+    "instruction_mirrors_match_drive": true,
     "topview_snapshot_valid": true,
     "topview_telemetry_task_ids_unique": true,
     "topview_active_statuses_valid": true,
