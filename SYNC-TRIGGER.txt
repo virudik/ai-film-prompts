@@ -1,1 +1,2 @@
 2026-10-08 Final transaction validation: Topview map/status/checkpoint agree at 2026-10-08T02:07:03.475Z; canonical slow Scenes 26,27; Drive master sha256 2b157bb39a2497bdff699216deed2cd1c481485057728a2344ddfdff6bc28f7c.
+2026-10-08T04:07:00Z | Owner-requested recovery: Alesya in dance A/B, exact Scene16 desert + worm refs, full-quality galleries, 15 manifests, scene27 15s blocks <=10000; Drive exact readback verified.
