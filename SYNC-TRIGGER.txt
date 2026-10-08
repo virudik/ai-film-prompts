@@ -1,2 +1,1 @@
-AI Film — new production scenes, 2026-10-09
-Canonical same-ID Drive video-prompts.md updated and verified in place: Scene 20 Song Parts 12/13; new Scene 29 Han/Ilyusha/Chewie; Scenes 30–32 Force battles with environmental destruction; Scenes 33–34 Serega ruins exploration and temple entry. 21 active scenes / 54 prompts. Scene 16 reference pack READY. No paid generation or auto editorial approval.
+2026-10-09 Claude: Drive master normalised to LF line endings and 5 double blank lines removed (content unchanged); expected Drive master sha256 bd6125c121e718d85f99a44a5a2967f208effdcca6cd96a2920370c9795719d0.
