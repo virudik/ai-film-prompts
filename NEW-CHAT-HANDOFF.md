@@ -1,3 +1,107 @@
+## ТЕКУЩАЯ ПЕРЕДАЧА В НОВЫЙ WORK — 08.10.2026, 07:15 МСК
+
+Этот верхний чекпоинт заменяет устаревшие статусы ниже; прежняя история сохранена. Перед продолжением проверить fresh authority и публикации. Пользователь просит продолжить все прежние задачи, но текущий чат остановлен для передачи.
+
+# Продолжение AI Film Серёгиус — передача Work-чату
+
+Чекпоинт: 08.10.2026, около 07:10 МСК. Владелец попросил передать продолжение новому Work-чату. Это остановка для передачи, а не завершение большого задания. Не начинать заново и не считать все задачи выполненными.
+
+## Команда владельца и границы
+
+Продолжить первоначальный комплексный аудит и доделать хвосты предыдущих чатов, сохраняя новые задачи. Свежий Drive — канон. Пользователь уже разрешил правки сайта/промтов/персонажей, подготовку референсов, ремонт одного мониторинга и запуск первых последовательных готовых частей Scene 28 в доступные бесплатные/unlimited slow slots. Платный fallback НЕ разрешён. Проект будущей оптимизации только изучить и подготовить; внедрение только отдельной командой. Не спрашивать повторно разрешение на уже разрешённые обычные действия.
+
+Новый Work-чат сам этим чатом не создан и сообщение в него не отправлено. Для продолжения достаточно открыть новый Work-чат в проекте и дать ему этот чекпоинт; первыми читать свежие семь canonical файлов по их IDs, а не считать этот снимок восьмой инструкцией.
+
+## Канонические входы
+
+- Drive folder `1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6`.
+- Master `video-prompts.md`: `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`.
+- NEW-CHAT-HANDOFF.md: `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD`.
+- SYNC-RUNBOOK.md: `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4`.
+- AI-PROJECT-GUIDE.md: `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u`.
+- PROMPT-STYLE-GUIDE.md: `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`.
+- USER-GUIDE.md: `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO`.
+- README-AI-SYNC.md: `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX`.
+- BACKUP-AI-RUNBOOK.md: `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1`.
+- Backlog: `1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9`.
+- GitHub `virudik/ai-film-prompts`, branch `main`; site https://virudik.github.io/ai-film-prompts/ . Notion `3e1fe763-7762-81d5-8c4e-dce504d7c5ec` — указатель/история, не authority.
+
+Порядок записи canonical: fresh same-ID Drive read → сравнение содержимого/версии → минимальный diff → same-ID raw UTF-8 update → exact read-back → свежий Git mirror/SYNC-TRIGGER с CAS → CI → проверка опубликованного Pages. Не перезаписывать изменения мониторинга или другого чата старым локальным master. Canonical документы менять по одному. Не отключать монитор ради ручной работы.
+
+## Что уже выполнено и опубликовано
+
+1. Полностью извлечены две указанные shared-переписки и четыре связанных сообщения; прочитан их контекст. Найден ошибочный прежний handoff: исходники сцен 13/17 уже были опубликованы. Восстановлены все 30 сохранённых входных файлов сцен (25 уникальных по SHA, часть переиспользуется). Данные не надо повторно просить у владельца.
+2. Сохранены в Drive + Library + GitHub новые хорошие референсы: S28 на плече, J28 четыре джедая, T28 трио, первоначальный G28; два кадра Scene13; три исходника Scene10; exact Video1-frame и два кадра Scene17; три кадра Scene16; Ale28; G28 v2 с Алесей; исправленный масштаб Scene27; три кадра Scene20. Точные IDs новых файлов — в приложенном `new-assets.json` и scene manifests. S28 сохранён ранее и отдельно указан ниже.
+3. Создан Ale28 — полный модельный лист Алеси по двум входным фото пользовательской Topview-задачи, с поворотами тела и крупными планами лица. В персонажи сайта добавлена 12-я запись `alesya`. Это визуально проверенная генерация по указанным владельцем исходникам, не заявление о явной пользовательской приёмке каждого пикселя.
+4. Scene28 обновлена в обеих полных версиях: 10×15s Seedance2.0 и 10×30s Wan3.0. Алеся — маленький серьёзный дирижёр в части7 рядом с обычными котами и в части10. Новый G28 v2: ровно 9 взрослых людей/гуманоидов + 1 маленькая Алеся + 2 кота, всего12. Остальной танец сохранён: имперская церемония постепенно становится дискотекой; взаимные четыре жеста у лица в части2, разъезд в3, кружение на руках в8, перенос на плече в9. Главная пара Серёга/Юля. Музыка в master — Electric Six “Dance Commander”, монтаж около90s из выбранных фрагментов. Рекомендован старт с15s, без обещания превосходства модели без A/B.
+5. Scene16: точная пустыня восстановлена из двух указанных видео. Сохранены пустая реконструкция локации из Video2 около14s, стартовый кадр трёх героев и отдельный масштаб гигантского червя. В master введены @Image4 чистая локация, @Image5 старт, @Image6 масштаб; Video1 привязан ко второму указанному ролику. Две покрытые знаками опоры и центральный обелиск держат географию. Червь появляется за воротами справа от обелиска после начала сцены, отсутствует в первом кадре. Сюжетный финал, история карты и взрыв машины не додумывались. 30s Seedance2.5 сохранён.
+6. Scene13/17/27 получили явные дополнительные композиционные входы. Scene20 — три новых вспомогательных кадра (общий/профиль/крупный) с закрытым гладким голубым костюмом; optional bindings добавлены во все11 автономных промтов. Старые видео не менялись и не перезапускались.
+7. В master для всех15 активных сцен добавлены/доведены галереи точных location/first-last/prop/action refs. Все8 человеческих превью переведены с плохих WebP на целые полные JPG. Две прежние WebP были повреждены, остальные часто200px; оригиналы целы. `references.html` теперь предпочитает `full_image`. Прежние неточные R28A/R28B убраны из видимой галереи, сохранены как архивные helpers. Ничего из хороших P28/L28/F28 не перегенерировано.
+8. Текстовый сервисный раздел «Автоматизация референсов по Scene ID» убран из основной страницы master, поскольку процедуры уже есть в7 canonical документах. Он был добавлен при rollout07.10 и предназначался оператору, а не просмотру сцен. Сами процедуры сохранены.
+9. Размер двух15s промтов Scene27 после добавления optional Image6:9851 и9751 символ (считая текст внутри fence без крайних пробелов). Оба <10000. Основной30s текст10403, на него запрос лимита15s не распространялся.
+10. Записаны15 базовых JSON-manifests в `references/scenes/scene-N/manifest.json`, обновлён `scene-reference-plan.json`. Они содержат пути, размеры, SHA, новые Drive/LibraryIDs где известны, роли, статус/remaining. Это ПОКА не полный типизированный manifest-контракт (см. остаток ниже); не объявлять автоматизацию завершённой.
+11. UI ранее исправлен: ограниченные галереи145–170px, картинки104px contain; общий масштаб/sidebar не увеличен. Live Topview JSON обновляется каждые5мин, при возврате вкладки/online; возраст обновляется каждую минуту; пустой active_tasks[] не создаёт фантомные slow-задачи; устаревший статус не заменяется фиктивным текущим временем. Это обновление отображения, реальные проверки планируются раз в час.
+12. Исправлено ложное canonical mismatch: прежний сертификат имел старые SHA handoff/backup. 7/7 exact сверка восстановлена. Existing integration test адаптирован к новому честному тексту “Проверка Topview устарела”. На commit fcbf56de integration recovery tests прошли.
+13. Монитор исправлен дополнительно: `fail` признан terminal (API реально отдаёт этот статус), для старых Board задач явно указан `topview_get_board_task({req:{taskId}})`, не standalone query_task. В одном запуске изолированы фазы, ограничен retry, запрещено самовыключение, preserved timestamps/dedup. Новых автоматизаций не создано.
+
+Публикация08.10: canonical master записан same-ID04:04:51Z, exact read-back. Commit `fcbf56de616f692c4d3db02b8a9a6c74fc318999` — registry/UI/manifests/test; `768ed323c3eb185c25a2f11f0dc230b72318e0bd` — sync trigger. Монитор затем убрал только лишние blank lines в fresh master04:08:04Z, SHA256 `0a911e0fb99462849c83bffb8def20bacbba6a959ff43f1d60bf88ad3b495780`. Не откатывать его нормализацию старым candidate. Sync run37726026004 success; Pages run37726044345 success, SHA `836635a73896d56d83377ad1cd89ccdedea7f770`. Финальный визуальный browser QA ещё НЕ сделан.
+
+## Topview и монитор — факты, не обещания
+
+- Основной board `1a6244cf1ae747ef847d949a80d6133c`.
+- Один включённый монитор `6aac794245e481919ee7155c461cc77e`, Europe/Moscow, каждый час HH:00. Архивные `6aac3e4dfe6c81918b3eead8529edf30` и `6ac358bf36548191b64ae6326bcc1f9b` намеренно выключены, не восстанавливать.
+- Последняя лично завершённая полная проверка07.10 около21:04Z:11boards/14pages/534video tasks,4active/2free. Следующая ручная08.10 около02:20Z прошла все11boards+371video main pages и прямые4проверки, подтвердила3active/3free, но отдельно в репозиторий не публиковалась: монитор уже публиковал такой же свежий снимок.
+- Монитор успешно завершил цикл08.10 02:00–02:12Z: все фазы, 7/7, master/site, новое освобождение слота. Свежий checkpoint08.10 04:03:54.507Z присутствует в последнем trigger; перед новым launch заново проверить данные.
+- Scene20 последний task `42e5cdb42c1a45df8a037a26eb3fa26b` success08.10 00:46:22Z. Сцена снята со slow, но результат НЕ принят редакционно автоматически.
+- Активны Scene26 `b95a76b92f9d4787b738b165eaeb270f`; Scene27 `ffa34324436745beb161d72ae9d4394f`, `017bebefc4c54038954301968a4b5d68`. Не отменять, не дублировать и не объявлять принятыми.
+- API не раскрывает причину повторного отключения07.10 15:57Z. Старое self-disable правило было удалено; отдельные ошибки чтения/публикации обработаны. Нельзя обещать самопробуждение уже выключенной платформой единственной задачи. Проверять enabled + фактическую публикацию, а не только last_run.
+- Оплата/кредиты не равны slow slots. Generic standalone/video/Canvas submit — PAID. Текущий Canvas Seedance2.0 modelID `seedance-2.0-style`, video_edit до15s, Wan3 `qwen-wan3.0-video` до30s. В прочитанном parametersSchema нет `useUnlimitMode`, additionalProperties:false. MCP free quota касается двух image моделей, не6video slots. Нельзя придумать флаг и потратить кредиты.
+- Веб Topview ранее открывался без входа. Plugin OAuth не авторизует сайт. По правилам browser fallback при недостаточности плагина нужно разрешение пользователя; сначала закончить всё возможное и подготовить конкретный запуск. После разрешения read browserAuth guidance и login handoff; не добывать cookies/credentials обходом. Video Scene28 ещё НИ РАЗУ не запускалось в этой работе.
+- Scene28 Canvas `d1b840b37da84cecb5ac056db349bec4`; bridge recovery Canvas `cc0e9be082eb4df88bf9f38d111af25b`. Существующие draft nodes не размножать, перед mutation читать текущий state/revision.
+
+## Остаток — продолжать именно отсюда
+
+1. Проверить свежие master/site/registry и browser desktop/mobile: все картинки открываются, никакого горизонтального раздувания, captions/галереи не перекрывают текст. Уже были проведены PIL проверки всех использованных gallery binaries и синтаксис/static gates; не повторять дорого весь аудит без причины. Проверить публичный snapshot, новые12персонажей и актуальные сцены16/28. При необходимости исправлять только найденное.
+2. Довести15 manifests до полей, требуемых хендофом: `identity_refs`, `location_refs`, `prop_refs`, `start_frame`, `end_frame`, `pose_composition_helpers`, `approved`, `rejected`, `topview_source_provenance`, `prompt_reference_mapping`, `site_published`, SHA/fileIDs, `last_qc_at`. Нумерация @Image локальная каждому автономному промту, Scene28 имеет20разныхmapping. Отделять assistant visual QC от owner approval. Все типизированные mappings задавать по canonical roles, а не историческому имени файла. Сохранить/обновить manifests в соответствующих Drive/Library packs без дублирования существующего Scene28 MANIFEST. Обновить same-ID plan.json/md/txt при необходимости; Drive и Library plan ещё НЕ синхронизированы с новым GitHub plan.
+3. Досохранить точные исходные видео Scene16 (оба) в Drive/Library; проверить Library copy Scene17Video1. Scene17Video1 уже в Drive `1qKUuh3tZ88tgRP6X7_ZHLSHxGUlgKdN_` (проверено по inventory). Не загружать его повторно. По необходимости сохранить точный Scene16frame14s рядом с реконструкцией для provenance. Не путать реконструкцию пустой локации с найденным исходным фото.
+4. Подготовить полный проект оптимизации из последней shared-переписки и GitHub Issue9. Не внедрять. Рабочий вариант: автоматически производный краткий brief с hash/revision, обязательными правилами, checkpoint и индексами → relevant full sections по действию → full-read fallback при расхождении/сомнении. 7/7 hash сам по себе не доказывает чтение/понимание. Полный fresh Drive guard для записей остаётся. Оценить реальные bytes/token overhead, не обещать точные квоты. Предусмотреть shadow test, сравнение на7–10сценариях, ручную команду на rollout, rollback. Число canonical документов и расписаний пока не менять.
+5. Подготовить concrete launch pack A1/A2 Scene28 с точными файлами и complete prompts; A3 ждёт C28 из чистого результата A2. Если свободны3слота, не отправлять A3 без C28; запускать первые2, оставшийся использовать только для следующей независимой части при явной соответствии команды/порядку. По текущему master сформулирован старт1/2; безопасно первые2. Установить verified unlimited submit path. Если плагин по-прежнему только paid, в конце попросить вход/доступ к Topview в браузере, не запускать платно. Все остальные задачи закончить до этого вопроса.
+6. Scene10/11: exact3исходника уже есть. Дополнительный identity-locked three-shot был отклонён image generation tool с reason other; он НЕ создан. Не представлять rejected output как готовый, не обходить отказ сменой инструмента. Исходные3референса остаются пригодны. Scene19/21/22/23/24/25 имеют достаточные базовые refs; дополнительные кадры были conditional и не должны автоматически плодиться. Scene26 использует существующую парную композицию и точную локацию, не требует заново рисовать котов.
+7. Сверить полную таблицу «что сделал другой чат / что завершено здесь / что не завершено» по сохранённым transcript и дать финальный отчёт. Обновить backlog/handoff после реального окончания, не только marker ready. Вопрос Android: support text/escalation requested были подготовлены, серверную ошибку чата мы не устраняли, факт человеческой эскалации/решения не подтверждён. Монтажный dropdown датирован17.09 и24.09; проверить видимые labels. Фраза3/4/17 относилась к устаревшей пояснительной строке, не потере сцен; неканонический cache не блокировал продолжение.
+8. После canonical изменений обновить exact7/7 certificate и проверить CI/Pages. Финальная передача08.10 обновляет handoff отдельно; новый чат обязан перечитать fresh.
+
+## Точные источники и роли
+
+Scene16 task sources: `f1a90e67bfe44c50a31692b905a290f0` и `9fd93e2905e14c77b616884f1d6962f6`. Второй выбран canonicalVideo1; первый дополнительная проверка. Historical S16Image4 — спидер, НЕ локация.
+
+Алесю брать из inputs задачи `dd7ccc1b23334ea0b54455a6605e12ea`: adult female face + small brown furry Ewok body/hood. Ale28 Drive `1bKw7QQ16otJiCO6KHbmhtl-Rs7aInGQK`, Library `libfile_2cfa63cd49148191a4891a7994aeb295`. G28v2 Drive `1mUz9yeiw3aAToCqT-vFZYsoY22UjE_QF`, Library `libfile_a7657555aac081918923f62de24b76e8`. S28 Drive `1UoaFEPUyVeEYojAuich8dhbdNfmgHD6o`, Library `libfile_d0e480b09c308191ac53747285e13aab`.
+
+Scene13 historical1=env,2=BLACK/Vitalik,3=PURPLE/Lesha,4=cat; canonical1=env,2=cat,4=BLACK,5=PURPLE. Scene17 historical4=технокарта с двумя янтарными лампами, canonical4=cave,5=map. Scene19 historical3=Sasha,4=Pasha,5=Masha; canonical3=Masha,4=Sasha,5=Pasha. Scene24 historicalImage3=точная тёплая кабина с котами, canonicalImage4; это же для25. Никогда не интерпретировать filenameImageN как текущий prompt slot.
+
+Individual sheets всегда выше generated group/pose helpers по внешности. Full human files `references/full/{serega,yulya,pasha,sasha,artem,ilyusha,lesha,vitalik}.jpg`; cats `references/luchik.jpg`,`references/ryzhik.jpg`; Masha `references/masha-laguna.webp`. Не генерировать C28 вручную: только чистый кадр после отхода рук в готовой части2. Коты обычного размера; у Маши torso opaque/no visible nipples/navel; Алеся1метр, не гигантская.
+
+## Файлы восстановления
+
+Текущий scratch `/workspace/scratch/0c2ad64fb248/recovery-oct7/`, clone `repo/`. Новый чат может получить другой/пустой scratch — ZIP и опубликованные Drive/GitHub/Library сохраняют материалы.
+
+- `master-candidate.md` — записанная нами версия ДО последующей нормализации монитором. НЕ писать её поверх свежего Drive.
+- `finish_content.py` — одноразовый уже исполненный patch, НЕ запускать повторно. Нужен для проверки сделанного.
+- `new-assets.json`, `recovered-files.json`, `drive-inventory.json`, `library-download-request.json` — receipts/provenance.
+- `chat-link-0..5.transcript.txt` — шесть исходных sharedматериалов. `optimization-share.transcript.txt` — предложение оптимизации. Уже прочитаны, повторять только нужные части.
+- `Downloads/S16-desert-source-1.mp4`9052975bytes, `S16-desert-source-2.mp4`8802878bytes; `Downloads/001_video.mp4`42641950bytes (S17). В checkpoint ZIP видео не включены: восстановимы через Topview/Drive, отдельно сохранять по пункту3.
+- `S16-video2-14s.png` — точный исходный кадр, из него сделана cleanplate; generated good images уже вGitHub/Drive/Library.
+- `publish-helper.js` — публикация через fresh main tree и expectedSHA CAS. `save-image.js` — сохранение одного прошедшегоQC кадра во все3места, затем записьreceipt. Перед использованием восстановить tools в текущем окружении; не печатать base64/подписанныеURL.
+- Все canonical IDs перечислены выше. Если scratch потерян, клонировать свежий main; хранить историю другого чата, не checkout/reset старую копию поверхработы.
+
+Ссылки исходного аудита: https://chatgpt.com/share/6ac6602c-e6dc-83ed-bc43-677e6397da95 ; https://chatgpt.com/share/6ac660ad-7cf4-83ed-b9bf-07fd431dcecc ; https://chatgpt.com/s/p_6ac660d6c9308191862fe214fa2a8f06 ; https://chatgpt.com/s/p_6ac660fe069481918d83ac67272b6e54 ; https://chatgpt.com/s/p_6ac6611d27488191b5b7111ad0a5d6a1 ; https://chatgpt.com/s/p_6ac6613a51dc8191a33cba12ab34781d . Оптимизация: https://chatgpt.com/share/6ac670e3-311c-83ed-94af-82c728b27cd2 .
+
+Не утверждать непрерывную длительность работы от07.10 до08.10: были лимиты/паузы. Последнее активное продолжение08.10 07:00–07:10МСК до просьбы о передаче. Не заявлять, что все видео/все задачи готовы. При Topview tools в новом чате follow skill feedback exactly once immediately before final reply; в этом чате это будет сделано отдельно, не переносить его как невыполненную задачу.
+
+
+---
+
+## Предыдущая история (не текущий статус)
+
 ## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z
 
 - Прочитаны обе публичные переписки и четыре связанных задания, сверены fresh Drive master, семь инструкций, GitHub tree и Library/Drive packs. 7/7 canonical mirrors exact at takeover. CLAUDE.md существует как non-canonical adapter.
@@ -1554,5 +1658,6 @@ Master Scene 16 требует:
 11. Update this SAME handoff after each major checkpoint.
 
 **Do not say «готово» until the relevant step is verified on Drive/GitHub/Pages/Topview as applicable.**
+
 
 

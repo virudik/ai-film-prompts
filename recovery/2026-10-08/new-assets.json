@@ -1,0 +1,171 @@
+[
+  {
+    "scene_id": 13,
+    "path": "references/scenes/scene-13/S13-luchik-closeup.png",
+    "drive_file_id": "1qnfhind2uXc9PPcS__bwFQ0nuIuFj5TU",
+    "library_file_id": "libfile_cc524b23891c8191b00f940621c3c286",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "140532687a48d7ff8aa186ea66b7f8763a4d9db3"
+  },
+  {
+    "scene_id": 13,
+    "path": "references/scenes/scene-13/S13-council-lap.png",
+    "drive_file_id": "1lnEQvN3raGg843qZodA9gvdqT3Jw_VEg",
+    "library_file_id": "libfile_5fbcf1ad3c0c8191a559cd5bc6c2513f",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets"
+  },
+  {
+    "scene_id": 10,
+    "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+    "drive_file_id": "1iM-h2G1jCjXg1jUDV4H4BJe1ES_qdsPh",
+    "library_file_id": "libfile_8dab02fb0c48819187251f2d32a69480",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "f9971e8fe3e59997e00f78aaef4f69bb51a5287d"
+  },
+  {
+    "scene_id": 10,
+    "path": "references/scenes/scene-10/S10-Image2-han-source.png",
+    "drive_file_id": "1ue6HOEvEuFYX4oKxJAR1MCxsAA7ZdGdE",
+    "library_file_id": "libfile_9094f60808588191ac9be6b654923bbf",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "86ae3f8115bb132d449c31c16127fd432ef23c6a"
+  },
+  {
+    "scene_id": 10,
+    "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+    "drive_file_id": "189mrOdNgYW9BR7ZYl61pDZ86dSoOU6Xf",
+    "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "14c81173595c356ec1fff18d91ff22ee542b53e2"
+  },
+  {
+    "scene_id": 17,
+    "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+    "drive_file_id": "1IdfL4jTcc4z1ir_neCCiD_3dOETxDUdx",
+    "library_file_id": "libfile_996eafedef88819185b1d745e9cb33ff",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "b505ad8b26d031c5fc3991e9d06ee3a10096d00a"
+  },
+  {
+    "scene_id": 17,
+    "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+    "drive_file_id": "1YA4CvDG7cZNB-v6R7K4hWS5gTVF-C0bA",
+    "library_file_id": "libfile_39f45af784cc819196451ea4d576523d",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "56855161577201783119b032cfe152cb83683f34"
+  },
+  {
+    "scene_id": 28,
+    "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+    "drive_file_id": "1bKw7QQ16otJiCO6KHbmhtl-Rs7aInGQK",
+    "library_file_id": "libfile_2cfa63cd49148191a4891a7994aeb295",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "ead886ce06363aef83b6da3b38d4401c778b6d5f"
+  },
+  {
+    "scene_id": 28,
+    "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+    "drive_file_id": "1mUz9yeiw3aAToCqT-vFZYsoY22UjE_QF",
+    "library_file_id": "libfile_a7657555aac081918923f62de24b76e8",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "5b5e243239ccf393cc394c1228472bbbe682514d"
+  },
+  {
+    "scene_id": 16,
+    "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+    "drive_file_id": "1brg2XCNajrSLHmi3SCFULPSZ4qX8JaBa",
+    "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "bb43fe02da5ff81d10c7a8c02adbed6e3b89040f"
+  },
+  {
+    "scene_id": 16,
+    "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+    "drive_file_id": "1ZKgfMv8U0EjpllkUYsqbsCQ9k9llD-cl",
+    "library_file_id": "libfile_08fd90eedd34819193093332c6d50645",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "bebe27e4c98ace873a6c27106b3bb0c975cec15f"
+  },
+  {
+    "scene_id": 16,
+    "path": "references/scenes/scene-16/S16-worm-scale.png",
+    "drive_file_id": "1w2cwJjUNW1d0NSJkucOi-BWL-k_5zXU4",
+    "library_file_id": "libfile_b07ba3643d188191bb5fe93c49cae694",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "397bde21d630ee8d18333968460cdfaf8f332ab4"
+  },
+  {
+    "scene_id": 17,
+    "path": "references/scenes/scene-17/S17-map-handoff.png",
+    "drive_file_id": "1HlmA97IwiLkuUEOZmlyDfBMMNY3cv9Qj",
+    "library_file_id": "libfile_670887bf91888191b62e94e57956a369",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "daf06259b6632326ef70cbc8770deb6f04ec2fc7"
+  },
+  {
+    "scene_id": 27,
+    "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+    "drive_file_id": "1CWpamnJBWAE5pnzqcb7HCiH1mW0va4xr",
+    "library_file_id": "libfile_8b2ddd7ded648191a65889f802889c74",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "5aa54d615b58bf63dee06403dc36a21dcfa6a6f1"
+  },
+  {
+    "scene_id": 20,
+    "path": "references/scenes/scene-20/S20-wide-standing.png",
+    "drive_file_id": "1J0zNwjnrYHdijSwi7u65gA2drimnv5Yy",
+    "library_file_id": "libfile_c714c0d40698819195d83b280d48211b",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "614cf3a50463ea13ec5e3eb7f8c20e4119453081"
+  },
+  {
+    "scene_id": 20,
+    "path": "references/scenes/scene-20/S20-side-walk-profile.png",
+    "drive_file_id": "14IGOT_VoUVHhErJejqXjKbxVKTkU8etO",
+    "library_file_id": "libfile_98734aff46388191b328b1acb23ed141",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "90f63e375a653d3db48f556151fe6ce91c39ae0f"
+  },
+  {
+    "scene_id": 20,
+    "path": "references/scenes/scene-20/S20-close-performance.png",
+    "drive_file_id": "1xZ6RaxjqZOmpLNu80V41vP6izIka_27Z",
+    "library_file_id": "libfile_ba52cc2f5f748191b1e803456b20400e",
+    "qc": "passed",
+    "owner_approval": "not_requested",
+    "identity_authority": "individual_character_sheets",
+    "commit": "92c19fe095d62829fac35f2b569a400ea1355a7c"
+  }
+]
