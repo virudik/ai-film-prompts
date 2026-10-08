@@ -928,6 +928,17 @@
       "source_checkpoint": "2026-10-08T04:03:54.507Z",
       "outcome": "success",
       "verification": "Fresh direct Board-task lookup of all three active task IDs plus complete account-wide VIDEO scan: 11 boards, 14 pages, 534 unique tasks. All three remain init; no new active task, terminal transition or unknown recent AI Film task. Occupancy remains 3/6; canonical slow remains Scenes 26 and 27."
+    },
+    {
+      "timestamp": "2026-10-08T15:05:25.327Z",
+      "operation": "terminal_reconciliation_scene_attempt_intake_and_full_account_discovery",
+      "scene_id": null,
+      "task_fingerprint": "scenes10x2-11x1-26x1-27x2",
+      "previous_status": "3 active tasks; slow Scenes 26 and 27",
+      "new_status": "0 active tasks; canonical slow empty; Scenes 10/11 terminal attempts classified",
+      "source_checkpoint": "2026-10-08T15:05:25.327Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 537 unique tasks. All three previously active tasks were directly refreshed to success. Three newer AI Film tasks are terminal and map to existing Scene 10 (one failed, one successful retry) and Scene 11 (success); no new Scene ID. No editorial approval or generation action inferred."
     }
   ]
 }
