@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-08T04:15:06.080860Z",
+  "checked_at": "2026-10-08T15:05:25.327Z",
   "verification_mode": "authorized_chatgpt_drive_connector",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh exact 7/7 Drive–GitHub verification after owner-requested handoff to a new Work chat; previous phases remain separate.",
+  "note": "Fresh exact 7/7 Drive–GitHub verification during the unified monitor cycle; all mirrors match byte-for-byte.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -302,7 +302,7 @@
     "scene24_25": "@Image4 exact approved cockpit; RYZHIK frame-left, LUCHIK frame-right; ordinary domestic-cat scale",
     "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
     "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
-    "topview_runtime": "Scenes 20, 26 and 27 remain slow; 6/6 active task slots: three Scene 20 attempts, one Scene 26 attempt and two Scene 27 attempts."
+    "topview_runtime": "No active unlimited Topview video tasks remain; 0/6 occupied after direct terminal reconciliation of Scenes 26 and 27. Technical success does not imply editorial acceptance."
   },
   "claude_code_bootstrap": {
     "path": "CLAUDE.md",
