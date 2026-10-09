@@ -1029,3 +1029,9 @@ Partial intermediate commits не считаются final state и не дол�
 - **Реестр персонажей** хранит пути к файлам вместо data URI.
 - **Master — только LF без BOM.** Проверки `canonical_master_lf_line_endings` и `canonical_master_blank_spacing_compact` (с учётом CRLF) блокирующие. После каждой записи master проверять отсутствие `\r`.
 - **`marked`** — локальный `vendor/marked-15.0.12.min.js`, без CDN; HTML master проходит `safeHtml()` (удаляет script/iframe/object/embed/form, on*-атрибуты, javascript:-ссылки).
+
+## 09.10.2026 — shadow-пилот takeover brief (НЕ КАНОН, 09.10–16.10)
+
+- Workflow `shadow-brief.yml` (без собственного расписания; при push зеркал 7 документов, master, `instruction-sync-status.json`, а также после каждого запуска «Sync canonical master from Google Drive») запускает `scripts/build_takeover_brief.py` и коммитит `shadow/` только при изменении содержимого (`generated_at` игнорируется).
+- Это производный навигатор для измерения, не authority и не часть сертификата 7/7. Монитор и синхронизация его не читают и не проверяют; падение этого workflow не влияет на health проекта.
+- Журнал пилота — `shadow/pilot-log.md` (ведёт Claude). После 16.10 — решение владельца: перейти, доработать или удалить `shadow/`, скрипт и workflow.
