@@ -23,48 +23,50 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-09T02:01:51.007Z",
+    "checked_at": "2026-10-09T03:03:07.118Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
-    "video_tasks_scanned": 552,
+    "video_tasks_scanned": 554,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
+    "occupied_slots": 6,
+    "free_slots": 0,
     "active_task_ids": [
       "3fb3d9ee26474b62982ae8ef062afc32",
       "e369529cc93d465ba14127e4712f7bbd",
       "32a4df3b18714cde9c55f0281cc2dd41",
       "9746bfed635c451e97095c35b4e3b2bf",
-      "2c28a4161c8f459d8bf0c0460ac21ec5"
+      "2c28a4161c8f459d8bf0c0460ac21ec5",
+      "36e8320e34da4f1b97c35e1e765e3e63"
     ]
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-09T02:04:51.975Z",
-    "last_observed_free_slots": 1,
+    "last_notified_at": "2026-10-09T03:09:31.696Z",
+    "last_observed_free_slots": 0,
     "observed_active_task_ids": [
       "3fb3d9ee26474b62982ae8ef062afc32",
       "e369529cc93d465ba14127e4712f7bbd",
       "32a4df3b18714cde9c55f0281cc2dd41",
       "9746bfed635c451e97095c35b4e3b2bf",
-      "2c28a4161c8f459d8bf0c0460ac21ec5"
+      "2c28a4161c8f459d8bf0c0460ac21ec5",
+      "36e8320e34da4f1b97c35e1e765e3e63"
     ],
     "open_incidents": [
       {
         "id": "public_pages_readback_unavailable",
         "first_seen_at": "2026-10-09T02:04:51.975Z",
-        "last_seen_at": "2026-10-09T02:04:51.975Z",
+        "last_seen_at": "2026-10-09T03:09:31.696Z",
         "status": "open",
-        "summary": "Direct public GitHub Pages read-back was blocked by the execution environment after repo publication; repo map/status/checkpoint and project validator are verified, but current public snapshot was not independently observed."
+        "summary": "Direct public GitHub Pages read-back remains blocked by the execution environment after repo publication; repo map/status/checkpoint, exact Drive/GitHub master and project validator are verified, but the current public snapshot was not independently observed."
       }
     ],
     "last_message_event": {
-      "type": "topview_free_slot_scene33_terminal",
-      "observed_at": "2026-10-09T02:04:51.975Z",
-      "issue": "Scene 33 reached technical success; account occupancy changed from 6/6 to 5/6",
+      "type": "scene16_existing_attempt_intake_account_full",
+      "observed_at": "2026-10-09T03:09:31.696Z",
+      "issue": "A new unlimited Wan 3.0 launch matched existing Scene 16; account occupancy changed from 5/6 to 6/6",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -72,29 +74,29 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-09T02:01:51.007Z",
+      "checked_at": "2026-10-09T03:03:07.118Z",
       "boards_scanned": 11,
-      "video_tasks_scanned": 552,
+      "video_tasks_scanned": 554,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T02:01:51.007Z",
-      "repo_verified_at": "2026-10-09T02:04:51.975Z",
-      "occupied_slots": 5,
-      "free_slots": 1,
+      "checked_at": "2026-10-09T03:03:07.118Z",
+      "repo_verified_at": "2026-10-09T03:09:31.696Z",
+      "occupied_slots": 6,
+      "free_slots": 0,
       "missing": [
         "direct_public_pages_readback"
       ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-09T02:01:51.007Z"
+      "checked_at": "2026-10-09T03:03:07.118Z"
     },
     "canonical_sync": {
       "status": "verified_drive_and_github_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T02:04:51.975Z",
-      "master_sha256": "1037123b8d0e58bae75ea248539a44573b491808837b7e9fff339b948a3fbd68",
+      "checked_at": "2026-10-09T03:08:54Z",
+      "master_sha256": "e362bde4c1fddfbf9a6aac576c657f0094f162d2462b52cd9672373f335e3620",
       "scenes": 21,
       "prompt_texts": 54,
       "all_project_checks_true": true,
@@ -117,8 +119,8 @@
   },
   "health": "partial",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T01:56:17Z",
-    "completed_at": "2026-10-09T02:04:51.975Z",
+    "started_at": "2026-10-09T02:56:52Z",
+    "completed_at": "2026-10-09T03:09:31.696Z",
     "health": "partial",
     "phases_completed": [
       "topview_account_scan",
@@ -132,7 +134,7 @@
       "direct_public_pages_readback"
     ],
     "deep_audit": "not_due",
-    "notification": "topview_free_slot_scene33_terminal"
+    "notification": "scene16_existing_attempt_intake_account_full"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -165,9 +167,9 @@
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
     "site_validator": "passed_in_repo_project-status",
-    "canonical_master_sha256": "1037123b8d0e58bae75ea248539a44573b491808837b7e9fff339b948a3fbd68",
+    "canonical_master_sha256": "e362bde4c1fddfbf9a6aac576c657f0094f162d2462b52cd9672373f335e3620",
     "public_pages_canonical_health": "not_reverified_current_cycle",
     "public_pages_current_readback": "unavailable_in_execution_environment",
-    "public_pages_readback_attempted_at": "2026-10-09T02:04:51.975Z"
+    "public_pages_readback_attempted_at": "2026-10-09T03:09:31.696Z"
   }
 }
