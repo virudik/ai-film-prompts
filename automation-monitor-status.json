@@ -115,22 +115,21 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T11:03:36.000Z",
-    "completed_at": "2026-10-09T11:08:47.243Z",
-    "health": "partial",
+    "started_at": "2026-10-09T12:04:53.000Z",
+    "completed_at": "2026-10-09T12:15:51.133Z",
+    "health": "ok",
     "phases_completed": [
+      "topview_account_scan",
+      "scene_intake",
+      "telemetry_map_status_checkpoint_publication",
       "instruction_exact_7_of_7",
       "canonical_drive_github_sync",
       "public_pages_readback",
       "light_health"
     ],
-    "phases_missing": [
-      "topview_account_scan",
-      "scene_intake",
-      "telemetry_map_status_checkpoint_publication"
-    ],
+    "phases_missing": [],
     "deep_audit": "not_due",
-    "notification": "topview_connector_unavailable"
+    "notification": "topview_connector_recovered"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -157,7 +156,7 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-09T10:09:27.461Z",
+    "public_pages_topview_checked_at": "2026-10-09T12:10:01.949Z",
     "public_pages_occupied_slots": 5,
     "public_pages_free_slots": 1,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
@@ -166,20 +165,20 @@
     "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
     "public_pages_canonical_health": "ok",
     "public_pages_current_readback": "verified",
-    "public_pages_readback_attempted_at": "2026-10-09T11:08:47.243Z",
+    "public_pages_readback_attempted_at": "2026-10-09T12:15:51.133Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
     "latest_recovery": {
-      "type": "runtime_schedule_certificate_mismatch",
-      "detected_at": "2026-10-09T08:01:34.921Z",
-      "recovered_at": "2026-10-09T08:04:26.855Z",
-      "verification": "integration_tests_success",
+      "type": "topview_connector_unavailable",
+      "detected_at": "2026-10-09T11:08:47.243Z",
+      "recovered_at": "2026-10-09T12:10:01.949Z",
+      "verification": "complete account scan; direct active-task reads; telemetry and Pages publication verified",
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-09T11:08:47.243Z",
-    "topview_live_result": "unavailable_preserved_last_successful_observation"
+    "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
+    "topview_live_result": "complete_5_of_6_occupied"
   },
   "last_completed_cycle_at": "2026-10-09T12:10:01.949Z",
   "last_successful_cycle_at": "2026-10-09T12:10:01.949Z"
