@@ -23,9 +23,9 @@
   "task_map_updated_at": "2026-10-09T03:03:07.118Z",
   "task_map_last_scan_at": "2026-10-09T03:03:07.118Z",
   "canonical_validation": {
-    "verified_at": null,
-    "health": "pending_revalidation",
-    "canonical_master_sha256": "d4d2e514510b2379a0c8c8bf00ef759e4697e6eeaaf9ca0a25c2603aba4cc142",
-    "all_project_checks_true": false
+    "verified_at": "2026-10-09T03:08:54Z",
+    "health": "ok",
+    "canonical_master_sha256": "e362bde4c1fddfbf9a6aac576c657f0094f162d2462b52cd9672373f335e3620",
+    "all_project_checks_true": true
   }
 }
