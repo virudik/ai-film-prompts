@@ -8,7 +8,7 @@
     "is_enabled": true,
     "timing_mode": "exact_schedule",
     "timezone": "Europe/Moscow",
-    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261006T100000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261007T190000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
   },
   "retired_automations": [
     {
@@ -170,6 +170,9 @@
     "canonical_master_sha256": "e362bde4c1fddfbf9a6aac576c657f0094f162d2462b52cd9672373f335e3620",
     "public_pages_canonical_health": "not_reverified_current_cycle",
     "public_pages_current_readback": "unavailable_in_execution_environment",
-    "public_pages_readback_attempted_at": "2026-10-09T03:09:31.696Z"
+    "public_pages_readback_attempted_at": "2026-10-09T03:09:31.696Z",
+    "automation_runtime_verified_at": "2026-10-09T03:09:31.696Z",
+    "active_monitor_enabled": true,
+    "retired_automations_enabled": false
   }
 }
