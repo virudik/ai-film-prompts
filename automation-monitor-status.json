@@ -23,7 +23,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-09T08:01:08.038Z",
+    "checked_at": "2026-10-09T09:01:20.000Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
@@ -56,7 +56,7 @@
       {
         "id": "public_pages_readback_unavailable",
         "first_seen_at": "2026-10-09T02:04:51.975Z",
-        "last_seen_at": "2026-10-09T08:01:15.655Z",
+        "last_seen_at": "2026-10-09T09:02:40.000Z",
         "status": "open",
         "summary": "Direct public GitHub Pages read-back remains blocked by the execution environment after repo publication; repo map/status/checkpoint, exact Drive/GitHub master and project validator are verified, but the current public snapshot was not independently observed."
       }
@@ -72,15 +72,15 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-09T08:01:08.038Z",
+      "checked_at": "2026-10-09T09:01:20.000Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 554,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T08:01:08.038Z",
-      "repo_verified_at": "2026-10-09T08:01:15.655Z",
+      "checked_at": "2026-10-09T09:01:20.000Z",
+      "repo_verified_at": "2026-10-09T09:02:40.000Z",
       "occupied_slots": 5,
       "free_slots": 1,
       "missing": [
@@ -89,11 +89,11 @@
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-09T08:01:08.038Z"
+      "checked_at": "2026-10-09T09:01:20.000Z"
     },
     "canonical_sync": {
       "status": "verified_drive_and_github_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T08:01:15.655Z",
+      "checked_at": "2026-10-09T09:02:40.000Z",
       "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
       "scenes": 21,
       "prompt_texts": 54,
@@ -117,8 +117,8 @@
   },
   "health": "partial",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T08:01:08.038Z",
-    "completed_at": "2026-10-09T08:04:26.855Z",
+    "started_at": "2026-10-09T08:57:48.000Z",
+    "completed_at": "2026-10-09T09:02:40.000Z",
     "health": "partial",
     "phases_completed": [
       "topview_account_scan",
@@ -126,16 +126,13 @@
       "telemetry_repo_publication",
       "instruction_exact_7_of_7",
       "canonical_drive_github_sync",
-      "light_health",
-      "automation_state_peek",
-      "runtime_schedule_certificate_reconciliation",
-      "integration_recovery_tests"
+      "light_health"
     ],
     "phases_missing": [
       "direct_public_pages_readback"
     ],
     "deep_audit": "not_due",
-    "notification": "schedule_certificate_mismatch_detected_and_recovered"
+    "notification": "none_unchanged"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -167,12 +164,12 @@
     "public_pages_free_slots": 0,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "AI Film integration recovery tests passed after runtime schedule certificate reconciliation",
+    "site_validator": "repository project-status remains health=ok; direct current Pages read-back unavailable",
     "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
     "public_pages_canonical_health": "not_reverified_current_cycle",
     "public_pages_current_readback": "unavailable_in_execution_environment",
-    "public_pages_readback_attempted_at": "2026-10-09T08:01:15.655Z",
-    "automation_runtime_verified_at": "2026-10-09T08:04:26.855Z",
+    "public_pages_readback_attempted_at": "2026-10-09T09:02:40.000Z",
+    "automation_runtime_verified_at": "2026-10-09T09:02:40.000Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
     "latest_recovery": {
