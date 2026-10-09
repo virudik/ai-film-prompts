@@ -1,1 +1,1 @@
-2026-10-09 Claude: Drive master normalised to LF line endings and 5 double blank lines removed (content unchanged); expected Drive master sha256 bd6125c121e718d85f99a44a5a2967f208effdcca6cd96a2920370c9795719d0.
+2026-10-09 ChatGPT Work: Drive master runtime slow set updated to Scenes 20, 30, 31, 32, 33, 34 after complete live Topview scan; expected Drive master sha256 f9b19e92fbeca2afbed558b4fb76769322c1e6c71dcb4d2f048185e3a5d2b6cb.
