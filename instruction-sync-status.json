@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-08T23:31:00.000Z",
-  "verification_mode": "claude_drive_connector_download_sha256",
+  "checked_at": "2026-10-09T01:06:34.467Z",
+  "verification_mode": "chatgpt_work_google_drive_exact_utf8_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Claude: fresh full Drive downloads of all 7 docs hashed against GitHub mirrors; NEW-CHAT-HANDOFF.md gained a top pointer to the current 09.10 contract section (same ID, read-back verified).",
+  "note": "ChatGPT Work: seven full fresh Drive texts exact-matched their same-name GitHub mirrors during the unified monitor cycle; certificate refreshed only after complete 7/7 comparison.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
