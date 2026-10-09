@@ -1,1 +1,1 @@
-2026-10-09 ChatGPT Work: revalidate Drive master and telemetry after Scene 16 Wan 3.0 launch; canonical slow Scenes 16, 20, 30, 31, 32, 34; expected Drive master sha256 d4d2e514510b2379a0c8c8bf00ef759e4697e6eeaaf9ca0a25c2603aba4cc142.
+2026-10-09 ChatGPT Work: revalidate synchronized Scene 16 master and telemetry; canonical slow Scenes 16, 20, 30, 31, 32, 34; expected Drive master sha256 d4d2e514510b2379a0c8c8bf00ef759e4697e6eeaaf9ca0a25c2603aba4cc142; telemetry checked_at 2026-10-09T03:03:07.118Z.
