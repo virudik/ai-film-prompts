@@ -3,7 +3,7 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-09T02:02:42Z",
+  "synced_at": "2026-10-09T02:03:43Z",
   "revision_date": "09.10.2026",
   "master_declared_last_full_sync": "09.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "1037123b8d0e58bae75ea248539a44573b491808837b7e9fff339b948a3fbd68",
@@ -77,7 +77,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "chatgpt_work_google_drive_exact_utf8_sha256",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.014,
+    "age_hours_at_status_build": 0.031,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -141,7 +141,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.014,
+      "age_hours": 0.031,
       "blocking": false
     },
     "topview_task_map": {
@@ -576,7 +576,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "09.10.2026",
-    "synced_at": "2026-10-09T02:02:42Z",
+    "synced_at": "2026-10-09T02:03:43Z",
     "canonical_master_sha256": "1037123b8d0e58bae75ea248539a44573b491808837b7e9fff339b948a3fbd68",
     "canonical_revision_sha256": "38eb7b69f6fb169c64356c5a7b4b45ff0f58ae67cb1cc5afab2c523329a05984",
     "scene_count": 21,
@@ -624,10 +624,10 @@
       32,
       34
     ],
-    "health": "error",
+    "health": "ok",
     "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -668,6 +668,6 @@
     "topview_occupied_matches_active_tasks": true,
     "topview_free_slots_equation": true,
     "topview_capacity_not_exceeded": true,
-    "topview_active_scenes_match_canonical_slow": false
+    "topview_active_scenes_match_canonical_slow": true
   }
 }
