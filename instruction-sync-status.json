@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-09T10:09:27.461Z",
-  "verification_mode": "chatgpt_work_google_drive_exact_utf8_sha256",
+  "checked_at": "2026-10-09T10:14:10.591Z",
+  "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-08T23:26:59.903Z",
-      "github_blob": "18dbdf0bf0f58d6038d7ae6ca14d196ab4f17807",
-      "drive_sha256": "c502a93d64d1eb31d7561c1b5c37f11c760754b0e8e3bca185f8abc77d52017f",
-      "mirror_sha256": "c502a93d64d1eb31d7561c1b5c37f11c760754b0e8e3bca185f8abc77d52017f",
+      "drive_modified_at": "2026-10-09T10:12:32.916Z",
+      "github_blob": "d475f7ab00f43db14e396bc60f5f1b7e70066ad4",
+      "drive_sha256": "29f7173a103178e88c9b41b03031c5f7840628bdaf6da7f4d6258cbed7f59aa5",
+      "mirror_sha256": "29f7173a103178e88c9b41b03031c5f7840628bdaf6da7f4d6258cbed7f59aa5",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Fresh complete 7/7 exact UTF-8 SHA-256 verification. One unified monitor owns Topview publication and embeds recovery; retired automation IDs remain disabled. Public Pages read-back is tracked separately from exact repository verification.",
+  "note": "Claude: full Drive downloads of all 7 docs hashed against mirrors; NEW-CHAT-HANDOFF.md gained a top note on the shadow pilot (owner decision D1), same ID, read-back verified.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
