@@ -23,28 +23,42 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-08T20:06:34.125Z",
+    "checked_at": "2026-10-09T01:06:34.467Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
-    "video_tasks_scanned": 537,
+    "video_tasks_scanned": 552,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 0,
-    "free_slots": 6,
-    "active_task_ids": []
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "e95f1bab9ab24f528b55fa58495d7adb",
+      "3fb3d9ee26474b62982ae8ef062afc32",
+      "e369529cc93d465ba14127e4712f7bbd",
+      "32a4df3b18714cde9c55f0281cc2dd41",
+      "9746bfed635c451e97095c35b4e3b2bf",
+      "2c28a4161c8f459d8bf0c0460ac21ec5"
+    ]
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-08T20:06:34.125Z",
-    "last_observed_free_slots": 6,
-    "observed_active_task_ids": [],
+    "last_notified_at": "2026-10-09T01:15:42.795Z",
+    "last_observed_free_slots": 0,
+    "observed_active_task_ids": [
+      "e95f1bab9ab24f528b55fa58495d7adb",
+      "3fb3d9ee26474b62982ae8ef062afc32",
+      "e369529cc93d465ba14127e4712f7bbd",
+      "32a4df3b18714cde9c55f0281cc2dd41",
+      "9746bfed635c451e97095c35b4e3b2bf",
+      "2c28a4161c8f459d8bf0c0460ac21ec5"
+    ],
     "open_incidents": [],
     "last_message_event": {
-      "type": "topview_capacity_available_and_canonical_recovery",
-      "observed_at": "2026-10-08T20:13:11.393Z",
-      "issue": "three previously occupied Scene 26/27 tasks terminal; stale instruction/master mirrors recovered",
+      "type": "six_existing_scene_attempts_mapped_capacity_full",
+      "observed_at": "2026-10-09T01:15:42.795Z",
+      "issue": "six new unlimited Wan 3.0 tasks mapped to existing Scenes 20 and 30-34; account capacity now full",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -52,32 +66,32 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-08T20:06:34.125Z",
+      "checked_at": "2026-10-09T01:06:34.467Z",
       "boards_scanned": 11,
-      "video_tasks_scanned": 537,
+      "video_tasks_scanned": 552,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-08T20:06:34.125Z",
-      "public_verified_at": "2026-10-08T20:13:11.393Z",
-      "occupied_slots": 0,
-      "free_slots": 6
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "public_verified_at": "2026-10-09T01:15:42.795Z",
+      "occupied_slots": 6,
+      "free_slots": 0
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-08T20:06:34.125Z"
+      "checked_at": "2026-10-09T01:06:34.467Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-08T20:13:11.393Z",
-      "master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
-      "scenes": 15,
-      "prompt_texts": 46,
+      "checked_at": "2026-10-09T01:15:42.795Z",
+      "master_sha256": "627ddd5eba3994b367880e6ca31192936970e73bf89df7396c3d7734048a6fee",
+      "scenes": 21,
+      "prompt_texts": 54,
       "all_project_checks_true": true
     },
     "deep_audit": {
-      "status": "completed_due_to_substantial_discrepancy",
+      "status": "not_due",
       "last_checked_at": "2026-10-08T20:13:11.393Z",
       "next_due_at": "2026-10-09T20:13:11.393Z"
     },
@@ -91,19 +105,19 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-08T20:02:25Z",
-    "completed_at": "2026-10-08T20:13:11.393Z",
+    "started_at": "2026-10-09T01:02:37Z",
+    "completed_at": "2026-10-09T01:15:42.795Z",
     "health": "ok",
     "phases_completed": [
       "topview_account_scan",
+      "scene_intake_existing_ids",
       "telemetry_publication",
       "instruction_exact_7_of_7",
       "canonical_sync",
-      "light_health",
-      "deep_audit"
+      "light_health"
     ],
-    "deep_audit": "completed_due_to_substantial_discrepancy",
-    "notification": "topview_capacity_available_and_canonical_recovery"
+    "deep_audit": "not_due",
+    "notification": "six_existing_scene_attempts_mapped_capacity_full"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -130,13 +144,13 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-08T20:06:34.125Z",
-    "public_pages_occupied_slots": 0,
-    "public_pages_free_slots": 6,
+    "public_pages_topview_checked_at": "2026-10-09T01:06:34.467Z",
+    "public_pages_occupied_slots": 6,
+    "public_pages_free_slots": 0,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "passed_after_authority_recovery",
-    "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+    "site_validator": "passed",
+    "canonical_master_sha256": "627ddd5eba3994b367880e6ca31192936970e73bf89df7396c3d7734048a6fee",
     "public_pages_canonical_health": "ok"
   }
 }
