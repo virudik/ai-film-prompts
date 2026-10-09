@@ -62,9 +62,9 @@
       }
     ],
     "last_message_event": {
-      "type": "scene34_terminal_free_slot",
-      "observed_at": "2026-10-09T07:14:39.188Z",
-      "issue": "Scene 34 completed; account occupancy changed from 6/6 to 5/6",
+      "type": "integration_schedule_certificate_recovered",
+      "observed_at": "2026-10-09T08:04:26.855Z",
+      "issue": "Runtime certificate held an obsolete DTSTART while the live unified monitor used the owner-approved 2026-10-07T19:00 Europe/Moscow DTSTART; certificate corrected and integration tests passed.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -118,7 +118,7 @@
   "health": "partial",
   "last_scheduled_cycle": {
     "started_at": "2026-10-09T08:01:08.038Z",
-    "completed_at": "2026-10-09T08:01:15.655Z",
+    "completed_at": "2026-10-09T08:04:26.855Z",
     "health": "partial",
     "phases_completed": [
       "topview_account_scan",
@@ -127,13 +127,15 @@
       "instruction_exact_7_of_7",
       "canonical_drive_github_sync",
       "light_health",
-      "automation_state_peek"
+      "automation_state_peek",
+      "runtime_schedule_certificate_reconciliation",
+      "integration_recovery_tests"
     ],
     "phases_missing": [
       "direct_public_pages_readback"
     ],
     "deep_audit": "not_due",
-    "notification": "none_deduplicated_unchanged_free_slot"
+    "notification": "schedule_certificate_mismatch_detected_and_recovered"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -165,13 +167,21 @@
     "public_pages_free_slots": 0,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "passed_in_repo_project-status",
+    "site_validator": "AI Film integration recovery tests passed after runtime schedule certificate reconciliation",
     "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
     "public_pages_canonical_health": "not_reverified_current_cycle",
     "public_pages_current_readback": "unavailable_in_execution_environment",
     "public_pages_readback_attempted_at": "2026-10-09T08:01:15.655Z",
-    "automation_runtime_verified_at": "2026-10-09T08:01:15.655Z",
+    "automation_runtime_verified_at": "2026-10-09T08:04:26.855Z",
     "active_monitor_enabled": true,
-    "retired_automations_enabled": false
+    "retired_automations_enabled": false,
+    "latest_recovery": {
+      "type": "runtime_schedule_certificate_mismatch",
+      "detected_at": "2026-10-09T08:01:34.921Z",
+      "recovered_at": "2026-10-09T08:04:26.855Z",
+      "verification": "integration_tests_success",
+      "canonical_docs_changed": false,
+      "automation_state_mutated": false
+    }
   }
 }
