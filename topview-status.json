@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-08T20:06:34.125Z",
+  "checked_at": "2026-10-09T01:06:34.467Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -46,19 +46,21 @@
     },
     "20": {
       "scene_id": 20,
-      "task_id": "42e5cdb42c1a45df8a037a26eb3fa26b",
+      "task_id": "2c28a4161c8f459d8bf0c0460ac21ec5",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
-      "topview_status": "success",
-      "started_at": "2026-10-06T20:28:06Z",
-      "queue_count": null,
-      "topview_estimated_wait_seconds": null,
-      "checked_at": "2026-10-08T02:07:03.475Z",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:54:33Z",
+      "queue_count": 2612,
+      "topview_estimated_wait_seconds": 86689,
+      "checked_at": "2026-10-09T01:06:34.467Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "normalized canonical Scene 20 part prompt/reference/model match",
-      "active_task_ids": [],
-      "completed_at": "2026-10-08T00:46:22Z"
+      "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match",
+      "active_task_ids": [
+        "2c28a4161c8f459d8bf0c0460ac21ec5"
+      ],
+      "completed_at": null
     },
     "21": {
       "task_id": "6d05c85753234b64b43fc75157437a0d",
@@ -155,9 +157,99 @@
         "ffa34324436745beb161d72ae9d4394f",
         "017bebefc4c54038954301968a4b5d68"
       ]
+    },
+    "30": {
+      "scene_id": 30,
+      "task_id": "e369529cc93d465ba14127e4712f7bbd",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:48:41Z",
+      "queue_count": 1366,
+      "topview_estimated_wait_seconds": 34865,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 30 prompt/reference/model match",
+      "active_task_ids": [
+        "e369529cc93d465ba14127e4712f7bbd"
+      ],
+      "completed_at": null
+    },
+    "31": {
+      "scene_id": 31,
+      "task_id": "32a4df3b18714cde9c55f0281cc2dd41",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:49:13Z",
+      "queue_count": 1814,
+      "topview_estimated_wait_seconds": 52149,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 31 prompt/reference/model match",
+      "active_task_ids": [
+        "32a4df3b18714cde9c55f0281cc2dd41"
+      ],
+      "completed_at": null
+    },
+    "32": {
+      "scene_id": 32,
+      "task_id": "9746bfed635c451e97095c35b4e3b2bf",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:50:03Z",
+      "queue_count": 2224,
+      "topview_estimated_wait_seconds": 69427,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 32 prompt/reference/model match",
+      "active_task_ids": [
+        "9746bfed635c451e97095c35b4e3b2bf"
+      ],
+      "completed_at": null
+    },
+    "33": {
+      "scene_id": 33,
+      "task_id": "e95f1bab9ab24f528b55fa58495d7adb",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:46:39Z",
+      "queue_count": 36,
+      "topview_estimated_wait_seconds": 304,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 33 prompt/reference/model match",
+      "active_task_ids": [
+        "e95f1bab9ab24f528b55fa58495d7adb"
+      ],
+      "completed_at": null
+    },
+    "34": {
+      "scene_id": 34,
+      "task_id": "3fb3d9ee26474b62982ae8ef062afc32",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:47:13Z",
+      "queue_count": 789,
+      "topview_estimated_wait_seconds": 17584,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 34 prompt/reference/model match",
+      "active_task_ids": [
+        "3fb3d9ee26474b62982ae8ef062afc32"
+      ],
+      "completed_at": null
     }
   },
-  "note": "Fresh complete account-wide Board check: no unlimited VIDEO task remains active. Previously active Scenes 26 and 27 remain terminal success. No new project scene candidate was found; technical result receipt does not imply review or acceptance.",
+  "note": "Fresh complete account-wide Board check: six unlimited Wan 3.0 tasks are active with status init. They map to existing Scenes 20 and 30–34; no new Scene ID. Technical result receipt will not imply review or acceptance.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -172,20 +264,112 @@
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 0,
-  "free_slots": 6,
-  "active_tasks": [],
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active_tasks": [
+    {
+      "scene_id": 33,
+      "task_id": "e95f1bab9ab24f528b55fa58495d7adb",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:46:39Z",
+      "queue_count": 36,
+      "topview_estimated_wait_seconds": 304,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 33 prompt/reference/model match"
+    },
+    {
+      "scene_id": 34,
+      "task_id": "3fb3d9ee26474b62982ae8ef062afc32",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:47:13Z",
+      "queue_count": 789,
+      "topview_estimated_wait_seconds": 17584,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 34 prompt/reference/model match"
+    },
+    {
+      "scene_id": 30,
+      "task_id": "e369529cc93d465ba14127e4712f7bbd",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:48:41Z",
+      "queue_count": 1366,
+      "topview_estimated_wait_seconds": 34865,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 30 prompt/reference/model match"
+    },
+    {
+      "scene_id": 31,
+      "task_id": "32a4df3b18714cde9c55f0281cc2dd41",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:49:13Z",
+      "queue_count": 1814,
+      "topview_estimated_wait_seconds": 52149,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 31 prompt/reference/model match"
+    },
+    {
+      "scene_id": 32,
+      "task_id": "9746bfed635c451e97095c35b4e3b2bf",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:50:03Z",
+      "queue_count": 2224,
+      "topview_estimated_wait_seconds": 69427,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 32 prompt/reference/model match"
+    },
+    {
+      "scene_id": 20,
+      "task_id": "2c28a4161c8f459d8bf0c0460ac21ec5",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-08T22:54:33Z",
+      "queue_count": 2612,
+      "topview_estimated_wait_seconds": 86689,
+      "checked_at": "2026-10-09T01:06:34.467Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match"
+    }
+  ],
   "scope": "Account-wide capacity from all owned boards; project scenes only from AI Film board.",
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-08T20:06:34.125Z",
+    "checked_at": "2026-10-09T01:06:34.467Z",
     "boards_scanned": 11,
-    "video_tasks_scanned": 537,
+    "video_tasks_scanned": 552,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 0,
-    "free_slots": 6,
-    "active_task_ids": []
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_task_ids": [
+      "e95f1bab9ab24f528b55fa58495d7adb",
+      "3fb3d9ee26474b62982ae8ef062afc32",
+      "e369529cc93d465ba14127e4712f7bbd",
+      "32a4df3b18714cde9c55f0281cc2dd41",
+      "9746bfed635c451e97095c35b4e3b2bf",
+      "2c28a4161c8f459d8bf0c0460ac21ec5"
+    ]
   }
 }
