@@ -23,17 +23,16 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-09T03:03:07.118Z",
+    "checked_at": "2026-10-09T07:13:36.129Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 554,
     "pages_scanned": 14,
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
+    "occupied_slots": 5,
+    "free_slots": 1,
     "active_task_ids": [
-      "3fb3d9ee26474b62982ae8ef062afc32",
       "e369529cc93d465ba14127e4712f7bbd",
       "32a4df3b18714cde9c55f0281cc2dd41",
       "9746bfed635c451e97095c35b4e3b2bf",
@@ -44,10 +43,9 @@
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-09T03:09:31.696Z",
-    "last_observed_free_slots": 0,
+    "last_notified_at": "2026-10-09T07:14:39.188Z",
+    "last_observed_free_slots": 1,
     "observed_active_task_ids": [
-      "3fb3d9ee26474b62982ae8ef062afc32",
       "e369529cc93d465ba14127e4712f7bbd",
       "32a4df3b18714cde9c55f0281cc2dd41",
       "9746bfed635c451e97095c35b4e3b2bf",
@@ -58,15 +56,15 @@
       {
         "id": "public_pages_readback_unavailable",
         "first_seen_at": "2026-10-09T02:04:51.975Z",
-        "last_seen_at": "2026-10-09T03:09:31.696Z",
+        "last_seen_at": "2026-10-09T07:14:39.188Z",
         "status": "open",
         "summary": "Direct public GitHub Pages read-back remains blocked by the execution environment after repo publication; repo map/status/checkpoint, exact Drive/GitHub master and project validator are verified, but the current public snapshot was not independently observed."
       }
     ],
     "last_message_event": {
-      "type": "scene16_existing_attempt_intake_account_full",
-      "observed_at": "2026-10-09T03:09:31.696Z",
-      "issue": "A new unlimited Wan 3.0 launch matched existing Scene 16; account occupancy changed from 5/6 to 6/6",
+      "type": "scene34_terminal_free_slot",
+      "observed_at": "2026-10-09T07:14:39.188Z",
+      "issue": "Scene 34 completed; account occupancy changed from 6/6 to 5/6",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
@@ -74,29 +72,29 @@
   "phases": {
     "topview": {
       "status": "verified",
-      "checked_at": "2026-10-09T03:03:07.118Z",
+      "checked_at": "2026-10-09T07:13:36.129Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 554,
       "pages_scanned": 14
     },
     "telemetry_publication": {
       "status": "verified_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T03:03:07.118Z",
-      "repo_verified_at": "2026-10-09T03:09:31.696Z",
-      "occupied_slots": 6,
-      "free_slots": 0,
+      "checked_at": "2026-10-09T07:13:36.129Z",
+      "repo_verified_at": "2026-10-09T07:14:39.188Z",
+      "occupied_slots": 5,
+      "free_slots": 1,
       "missing": [
         "direct_public_pages_readback"
       ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-09T03:03:07.118Z"
+      "checked_at": "2026-10-09T07:13:36.129Z"
     },
     "canonical_sync": {
       "status": "verified_drive_and_github_repo_public_readback_unavailable",
-      "checked_at": "2026-10-09T03:08:54Z",
-      "master_sha256": "e362bde4c1fddfbf9a6aac576c657f0094f162d2462b52cd9672373f335e3620",
+      "checked_at": "2026-10-09T07:14:39.188Z",
+      "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
       "scenes": 21,
       "prompt_texts": 54,
       "all_project_checks_true": true,
@@ -119,12 +117,12 @@
   },
   "health": "partial",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T02:56:52Z",
-    "completed_at": "2026-10-09T03:09:31.696Z",
+    "started_at": "2026-10-09T07:13:36.129Z",
+    "completed_at": "2026-10-09T07:14:39.188Z",
     "health": "partial",
     "phases_completed": [
       "topview_account_scan",
-      "scene_intake_existing_ids",
+      "scene34_terminal_reconciliation",
       "telemetry_repo_publication",
       "instruction_exact_7_of_7",
       "canonical_drive_github_sync",
@@ -134,7 +132,7 @@
       "direct_public_pages_readback"
     ],
     "deep_audit": "not_due",
-    "notification": "scene16_existing_attempt_intake_account_full"
+    "notification": "scene34_terminal_free_slot"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
