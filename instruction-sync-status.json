@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-09T10:15:53.956Z",
+  "checked_at": "2026-10-09T11:07:23.802Z",
   "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Claude: full Drive downloads of all 7 docs hashed against mirrors; SYNC-RUNBOOK.md gained a section on the shadow takeover-brief pilot (owner decision D1), same ID, read-back verified.",
+  "note": "Unified monitor: fresh full Drive downloads of all 7 canonical documents exactly match their GitHub mirrors; runtime remains one HH:00 Europe/Moscow monitor with embedded recovery and two owner-retired automation IDs.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
