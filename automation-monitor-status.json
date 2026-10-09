@@ -52,39 +52,48 @@
       "2c28a4161c8f459d8bf0c0460ac21ec5",
       "36e8320e34da4f1b97c35e1e765e3e63"
     ],
-    "open_incidents": [],
+    "open_incidents": [
+      {
+        "type": "topview_connector_unavailable",
+        "opened_at": "2026-10-09T11:08:47.243Z",
+        "last_observed_at": "2026-10-09T11:08:47.243Z",
+        "detail": "Topview MCP Board connector returned internal/network errors for paginated board discovery and direct reads of all five previously active Board task IDs; no live account occupancy was published."
+      }
+    ],
     "last_message_event": {
-      "type": "public_pages_readback_recovered",
-      "observed_at": "2026-10-09T10:11:15.869Z",
-      "issue": "Independent public GitHub Pages read-back is available again; current telemetry, canonical master indicator and 7/7 instruction certificate were observed after deployment.",
+      "type": "topview_connector_unavailable",
+      "observed_at": "2026-10-09T11:08:47.243Z",
+      "issue": "Topview MCP Board connector unavailable; live slot count could not be verified. Last successful 5/6 observation remains preserved.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
-      "status": "verified",
-      "checked_at": "2026-10-09T10:09:27.461Z",
-      "boards_scanned": 11,
-      "video_tasks_scanned": 554,
-      "pages_scanned": 14
+      "status": "unavailable_partial",
+      "attempted_at": "2026-10-09T11:08:47.243Z",
+      "last_successful_checked_at": "2026-10-09T10:09:27.461Z",
+      "error": "MCP internal error / connection failed to mcp-browser.topview.ai; list_boards retry and direct active-task reads failed",
+      "preserved_account_observation": true
     },
     "telemetry_publication": {
-      "status": "verified_repo_and_public_pages",
-      "checked_at": "2026-10-09T10:09:27.461Z",
-      "repo_verified_at": "2026-10-09T10:11:15.869Z",
-      "public_verified_at": "2026-10-09T10:11:15.869Z",
-      "occupied_slots": 5,
-      "free_slots": 1,
-      "missing": []
+      "status": "not_advanced_preserved_last_verified",
+      "attempted_at": "2026-10-09T11:08:47.243Z",
+      "last_verified_checked_at": "2026-10-09T10:09:27.461Z",
+      "reason": "No complete live Topview account scan; map/status/checkpoint timestamps intentionally preserved",
+      "missing": [
+        "complete owned-board pagination",
+        "direct active-task status reads",
+        "verified map/status/checkpoint transaction"
+      ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-09T10:09:27.461Z"
+      "checked_at": "2026-10-09T11:07:23.802Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-09T10:11:15.869Z",
+      "checked_at": "2026-10-09T11:08:47.243Z",
       "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
       "scenes": 21,
       "prompt_texts": 54,
@@ -104,23 +113,24 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "partial",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T10:04:59.000Z",
-    "completed_at": "2026-10-09T10:11:15.869Z",
-    "health": "ok",
+    "started_at": "2026-10-09T11:03:36.000Z",
+    "completed_at": "2026-10-09T11:08:47.243Z",
+    "health": "partial",
     "phases_completed": [
-      "topview_account_scan",
-      "unchanged_project_scene_intake",
-      "telemetry_repo_publication",
       "instruction_exact_7_of_7",
       "canonical_drive_github_sync",
       "public_pages_readback",
       "light_health"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "topview_account_scan",
+      "scene_intake",
+      "telemetry_map_status_checkpoint_publication"
+    ],
     "deep_audit": "not_due",
-    "notification": "public_pages_readback_recovery"
+    "notification": "topview_connector_unavailable"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -156,7 +166,7 @@
     "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
     "public_pages_canonical_health": "ok",
     "public_pages_current_readback": "verified",
-    "public_pages_readback_attempted_at": "2026-10-09T10:11:15.869Z",
+    "public_pages_readback_attempted_at": "2026-10-09T11:08:47.243Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -167,6 +177,8 @@
       "verification": "integration_tests_success",
       "canonical_docs_changed": false,
       "automation_state_mutated": false
-    }
+    },
+    "topview_live_attempted_at": "2026-10-09T11:08:47.243Z",
+    "topview_live_result": "unavailable_preserved_last_successful_observation"
   }
 }
