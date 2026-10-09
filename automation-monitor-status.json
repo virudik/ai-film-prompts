@@ -23,7 +23,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-09T10:09:27.461Z",
+    "checked_at": "2026-10-09T12:10:01.949Z",
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
     "boards_scanned": 11,
@@ -52,48 +52,48 @@
       "2c28a4161c8f459d8bf0c0460ac21ec5",
       "36e8320e34da4f1b97c35e1e765e3e63"
     ],
-    "open_incidents": [
-      {
-        "type": "topview_connector_unavailable",
-        "opened_at": "2026-10-09T11:08:47.243Z",
-        "last_observed_at": "2026-10-09T11:08:47.243Z",
-        "detail": "Topview MCP Board connector returned internal/network errors for paginated board discovery and direct reads of all five previously active Board task IDs; no live account occupancy was published."
-      }
-    ],
+    "open_incidents": [],
     "last_message_event": {
-      "type": "topview_connector_unavailable",
-      "observed_at": "2026-10-09T11:08:47.243Z",
-      "issue": "Topview MCP Board connector unavailable; live slot count could not be verified. Last successful 5/6 observation remains preserved.",
+      "type": "topview_connector_recovered",
+      "observed_at": "2026-10-09T12:10:01.949Z",
+      "issue": "Topview Board connector recovered; complete account scan and public telemetry publication resumed with unchanged 5/6 occupancy.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
-      "status": "unavailable_partial",
-      "attempted_at": "2026-10-09T11:08:47.243Z",
-      "last_successful_checked_at": "2026-10-09T10:09:27.461Z",
-      "error": "MCP internal error / connection failed to mcp-browser.topview.ai; list_boards retry and direct active-task reads failed",
-      "preserved_account_observation": true
+      "status": "complete",
+      "checked_at": "2026-10-09T12:10:01.949Z",
+      "boards_scanned": 11,
+      "video_tasks_scanned": 554,
+      "pages_scanned": 14,
+      "occupied_slots": 5,
+      "free_slots": 1,
+      "active_task_ids": [
+        "e369529cc93d465ba14127e4712f7bbd",
+        "32a4df3b18714cde9c55f0281cc2dd41",
+        "9746bfed635c451e97095c35b4e3b2bf",
+        "2c28a4161c8f459d8bf0c0460ac21ec5",
+        "36e8320e34da4f1b97c35e1e765e3e63"
+      ],
+      "direct_active_task_reads": "5_of_5_verified"
     },
     "telemetry_publication": {
-      "status": "not_advanced_preserved_last_verified",
-      "attempted_at": "2026-10-09T11:08:47.243Z",
-      "last_verified_checked_at": "2026-10-09T10:09:27.461Z",
-      "reason": "No complete live Topview account scan; map/status/checkpoint timestamps intentionally preserved",
-      "missing": [
-        "complete owned-board pagination",
-        "direct active-task status reads",
-        "verified map/status/checkpoint transaction"
-      ]
+      "status": "verified_map_status_checkpoint_and_public_pages",
+      "checked_at": "2026-10-09T12:10:01.949Z",
+      "task_map_checked_at": "2026-10-09T12:10:01.949Z",
+      "status_checked_at": "2026-10-09T12:10:01.949Z",
+      "checkpoint_checked_at": "2026-10-09T12:10:01.949Z",
+      "missing": []
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
-      "checked_at": "2026-10-09T11:07:23.802Z"
+      "checked_at": "2026-10-09T12:10:01.949Z"
     },
     "canonical_sync": {
       "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-09T11:08:47.243Z",
+      "checked_at": "2026-10-09T12:10:01.949Z",
       "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
       "scenes": 21,
       "prompt_texts": 54,
@@ -113,7 +113,7 @@
       "blocking": false
     }
   },
-  "health": "partial",
+  "health": "ok",
   "last_scheduled_cycle": {
     "started_at": "2026-10-09T11:03:36.000Z",
     "completed_at": "2026-10-09T11:08:47.243Z",
@@ -180,5 +180,7 @@
     },
     "topview_live_attempted_at": "2026-10-09T11:08:47.243Z",
     "topview_live_result": "unavailable_preserved_last_successful_observation"
-  }
+  },
+  "last_completed_cycle_at": "2026-10-09T12:10:01.949Z",
+  "last_successful_cycle_at": "2026-10-09T12:10:01.949Z"
 }
