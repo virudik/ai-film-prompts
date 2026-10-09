@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "ChatGPT Work: seven full fresh Drive texts exact-matched their same-name GitHub mirrors during the unified monitor cycle; certificate refreshed only after complete 7/7 comparison.",
+  "note": "ChatGPT Work: seven full fresh Drive texts exact-matched their same-name GitHub mirrors during the unified monitor cycle; runtime schedule certificate was reconciled to the read-only automation observation.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -165,7 +165,7 @@
     "active_automation_id": "6aac794245e481919ee7155c461cc77e",
     "active_automation_title": "AI Film — единый монитор",
     "active_project_automation_count": 1,
-    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261006T100000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261007T190000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
     "timing_mode": "exact_schedule",
     "topview_watcher": "exact hourly at HH:00:00",
     "recovery_sync": "embedded phase; no independent schedule",
