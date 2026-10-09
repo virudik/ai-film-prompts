@@ -961,6 +961,17 @@
       "source_checkpoint": "2026-10-09T01:06:34.467Z",
       "outcome": "canonical_and_telemetry_verified_pending_public_readback",
       "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 552 unique tasks. Six new unlimited Wan 3.0 tasks were directly read and mapped by exact canonical prompt/reference/model equivalence to existing Scenes 20 and 30–34. No new Scene ID and no editorial approval inferred."
+    },
+    {
+      "timestamp": "2026-10-09T02:01:51.007Z",
+      "operation": "terminal_reconciliation_scene33_and_full_account_refresh",
+      "scene_id": 33,
+      "task_fingerprint": "e95f1bab9ab24f528b55fa58495d7adb",
+      "previous_status": "6 active tasks; canonical slow Scenes 20,30,31,32,33,34; occupied 6 of 6",
+      "new_status": "5 active tasks; canonical slow Scenes 20,30,31,32,34; occupied 5 of 6",
+      "source_checkpoint": "2026-10-09T02:01:51.007Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 552 unique tasks. Direct Board-task lookup confirmed Scene 33 terminal success at 2026-10-09T01:24:31Z; five mapped unlimited Wan 3.0 tasks remain init. result_received advanced only; no editorial approval inferred."
     }
   ]
 }
