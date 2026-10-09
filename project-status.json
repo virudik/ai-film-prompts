@@ -3,12 +3,12 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-09T07:09:53Z",
+  "synced_at": "2026-10-09T07:12:00Z",
   "revision_date": "09.10.2026",
   "master_declared_last_full_sync": "09.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "d171cfcdc91e9cfadc11f3e588b4e55e714379efeecc50fd680b788907296fc5",
-  "canonical_revision_sha256": "ff1b16d4ba476c0f3cfab483791d5dbadf9bef889476a89cdd43eacb035198a3",
-  "canonical_master_bytes": 590851,
+  "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
+  "canonical_revision_sha256": "c900ff1813f089bdfb148d1067b8680cf0c27d539ba8cfac4ad9a7c233e95975",
+  "canonical_master_bytes": 590845,
   "scenes": 21,
   "prompt_texts": 54,
   "work_items": [
@@ -30,10 +30,9 @@
     20,
     30,
     31,
-    32,
-    34
+    32
   ],
-  "slow_scenes_count": 6,
+  "slow_scenes_count": 5,
   "scene_ids": [
     10,
     11,
@@ -78,7 +77,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "chatgpt_work_google_drive_exact_utf8_sha256",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 4.113,
+    "age_hours_at_status_build": 4.148,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -142,7 +141,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "stale",
-      "age_hours": 4.113,
+      "age_hours": 4.148,
       "blocking": false
     },
     "topview_task_map": {
@@ -572,14 +571,14 @@
         "exploration",
         "continuous_take"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "09.10.2026",
-    "synced_at": "2026-10-09T07:09:53Z",
-    "canonical_master_sha256": "d171cfcdc91e9cfadc11f3e588b4e55e714379efeecc50fd680b788907296fc5",
-    "canonical_revision_sha256": "ff1b16d4ba476c0f3cfab483791d5dbadf9bef889476a89cdd43eacb035198a3",
+    "synced_at": "2026-10-09T07:12:00Z",
+    "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
+    "canonical_revision_sha256": "c900ff1813f089bdfb148d1067b8680cf0c27d539ba8cfac4ad9a7c233e95975",
     "scene_count": 21,
     "prompt_count": 54,
     "scene_ids": [
@@ -623,8 +622,7 @@
       20,
       30,
       31,
-      32,
-      34
+      32
     ],
     "health": "error",
     "instruction_sync_health": "stale"
@@ -637,9 +635,9 @@
     "declared_prompt_count_matches_fences": true,
     "declared_work_count_matches_ids": true,
     "declared_slow_count_matches_list": true,
-    "slow_status_matches_dedicated_table": false,
-    "slow_status_matches_toc": false,
-    "slow_status_matches_sections": false,
+    "slow_status_matches_dedicated_table": true,
+    "slow_status_matches_toc": true,
+    "slow_status_matches_sections": true,
     "scene_numbers_are_unique_and_increasing": true,
     "scene_anchors_match_sections": true,
     "scene_anchors_unique": true,
@@ -669,6 +667,6 @@
     "topview_occupied_matches_active_tasks": true,
     "topview_free_slots_equation": true,
     "topview_capacity_not_exceeded": true,
-    "topview_active_scenes_match_canonical_slow": true
+    "topview_active_scenes_match_canonical_slow": false
   }
 }
