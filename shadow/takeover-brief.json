@@ -1,0 +1,773 @@
+{
+ "schema_version": 1,
+ "generator": "pilot-1.0",
+ "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
+ "generated_at": "2026-10-09T10:05:16+00:00",
+ "valid_at_generation": true,
+ "validity_mismatches": [],
+ "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
+ "sources": [
+  {
+   "file": "NEW-CHAT-HANDOFF.md",
+   "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+   "sha256": "c502a93d64d1eb31d7561c1b5c37f11c760754b0e8e3bca185f8abc77d52017f",
+   "bytes": 215262
+  },
+  {
+   "file": "SYNC-RUNBOOK.md",
+   "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+   "sha256": "cee22b7dae3755ee95ad776f51259e8de98d6a4e9107f139ad8c7d0b644a6546",
+   "bytes": 106828
+  },
+  {
+   "file": "AI-PROJECT-GUIDE.md",
+   "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+   "sha256": "d8a3048d9492302eaedd0a27e320fec3bea0a9b80d95af3b103e390f09862f36",
+   "bytes": 99741
+  },
+  {
+   "file": "PROMPT-STYLE-GUIDE.md",
+   "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+   "sha256": "21ed16f6a362465d8b21c759b0886bfbcdcd682911a273e7cf0121b6d3b6541f",
+   "bytes": 69474
+  },
+  {
+   "file": "USER-GUIDE.md",
+   "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+   "sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
+   "bytes": 91208
+  },
+  {
+   "file": "README-AI-SYNC.md",
+   "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+   "sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
+   "bytes": 72363
+  },
+  {
+   "file": "BACKUP-AI-RUNBOOK.md",
+   "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+   "sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
+   "bytes": 81119
+  },
+  {
+   "file": "video-prompts.md",
+   "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
+   "sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
+   "bytes": 590845
+  }
+ ],
+ "invariants": [
+  {
+   "id": "INV-AUTH",
+   "rule": "Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache.",
+   "owner_doc": "AI-PROJECT-GUIDE.md",
+   "anchor": "^## 2\\. Источники истины",
+   "anchor_ok": true,
+   "section_sha256_12": "a70a40a6d58e"
+  },
+  {
+   "id": "INV-ONE-MASTER",
+   "rule": "One SAME-ID master; no v2/final/copy.",
+   "owner_doc": "AI-PROJECT-GUIDE.md",
+   "anchor": "^## 3\\. Master",
+   "anchor_ok": true,
+   "section_sha256_12": "5dfd1d65442c"
+  },
+  {
+   "id": "INV-FRESH-WRITE",
+   "rule": "Before any master write: second fresh read of the exact Drive master; minimal same-ID edit → SYNC-TRIGGER → validation → mirror/status → Pages → verification.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## 1\\. Обязательный preflight",
+   "anchor_ok": true,
+   "section_sha256_12": "fdf5e5eb339d"
+  },
+  {
+   "id": "INV-SERIAL-DOCS",
+   "rule": "Canonical instruction writes are serial: fresh read/version → same-ID write → read-back → exact mirror → verify; never replay a stale write.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^### 8\\. Serialized canonical instruction writes",
+   "anchor_ok": true,
+   "section_sha256_12": "0d16a7b2efba"
+  },
+  {
+   "id": "INV-SCENE-ID",
+   "rule": "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.",
+   "owner_doc": "AI-PROJECT-GUIDE.md",
+   "anchor": "^## 3\\. Master",
+   "anchor_ok": true,
+   "section_sha256_12": "5dfd1d65442c"
+  },
+  {
+   "id": "INV-SUCCESS-NOT-APPROVAL",
+   "rule": "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## 10\\. Topview telemetry",
+   "anchor_ok": true,
+   "section_sha256_12": "d9e56fc4d03e"
+  },
+  {
+   "id": "INV-SLOTS",
+   "rule": "Slot capacity 6; one active task = one slot; Scene stays slow until its last active task is terminal.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^### Точное ТЗ — Topview slow slots",
+   "anchor_ok": true,
+   "section_sha256_12": "bc64678ee777"
+  },
+  {
+   "id": "INV-ONE-MONITOR",
+   "rule": "Exactly one automation «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e, HH:00 MSK); archived 6aac3e4d…/6ac358bf… stay off; no duplicates; never disable it. If found disabled without an explicit owner decision to stop it: re-enable THAT task (is_enabled:true), record the incident, then verify a real publication (fresh topview-status/checkpoint + Pages). A disabled task cannot re-enable itself.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## Действующее расписание",
+   "anchor_ok": true,
+   "section_sha256_12": "9d51b84221b0"
+  },
+  {
+   "id": "INV-NO-FAKE-TIME",
+   "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^### 5\\. Background connector degradation",
+   "anchor_ok": true,
+   "section_sha256_12": "6368aa152849"
+  },
+  {
+   "id": "INV-OWNER-BOUNDARY",
+   "rule": "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
+   "owner_doc": "AI-PROJECT-GUIDE.md",
+   "anchor": "^## 14\\. Поведение нового сменщика",
+   "anchor_ok": true,
+   "section_sha256_12": "98a512f006c2"
+  },
+  {
+   "id": "INV-PROMPT-AUTONOMY",
+   "rule": "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
+   "owner_doc": "PROMPT-STYLE-GUIDE.md",
+   "anchor": "^## 16A\\. Автономность",
+   "anchor_ok": true,
+   "section_sha256_12": "c427850b91b5"
+  },
+  {
+   "id": "INV-MATERIAL-CHANGE",
+   "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → mirrors → 7/7 certificate → Notion pointer → Library (best-effort).",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## 9\\. Material Change Documentation Rule",
+   "anchor_ok": true,
+   "section_sha256_12": "185b164842ec"
+  },
+  {
+   "id": "INV-NO-CREDITS",
+   "rule": "No paid generation or credit spending without the canonical workflow and owner permission; launches only on owner command.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## Scene Reference Pack automation",
+   "anchor_ok": true,
+   "section_sha256_12": "9343f59cb9e5"
+  },
+  {
+   "id": "INV-LIBRARY-NONBLOCKING",
+   "rule": "Library is best-effort, never a completion gate.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## LIBRARY RECOVERY",
+   "anchor_ok": true,
+   "section_sha256_12": "8c1c381d002d"
+  },
+  {
+   "id": "INV-DONE",
+   "rule": "Never say «готово» before the relevant read-back/verification passed.",
+   "owner_doc": "SYNC-RUNBOOK.md",
+   "anchor": "^## 15\\. Verification before final answer",
+   "anchor_ok": true,
+   "section_sha256_12": "9bbd118f3f40"
+  }
+ ],
+ "current_checkpoint": {
+  "source": "NEW-CHAT-HANDOFF.md",
+  "chars": 63591,
+  "above_marker_chars": 21869,
+  "recent_sections_below_marker": [
+   "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
+   "## Актуальная правка сцен и отображения — 07.10.2026",
+   "## Действующее расписание — решение владельца 06.10.2026",
+   "## 05.10.2026 — TAKEOVER DELTA: кошачьи prompts, Topview 6/6 и автоматика",
+   "## 05.10.2026 — Scene 20: исправление дизайна Маши; новая Scene 28: финальный танец",
+   "## 06.10.2026 — Scene 28: готовые референсы света и две версии танца",
+   "## Scene Reference Pack automation — 07.10.2026",
+   "## Claude Code bootstrap adapter — 07.10.2026",
+   "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
+   "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
+  ],
+  "sha256_12": "3e58e12778d0",
+  "extra_current_sections": [
+   "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
+  ]
+ },
+ "runtime": {
+  "project_health": "ok",
+  "scenes": 21,
+  "prompt_texts": 54,
+  "scene_ids": [
+   10,
+   11,
+   13,
+   16,
+   17,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34
+  ],
+  "latest_scene": 34,
+  "reserved": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9,
+   12,
+   14,
+   15,
+   18
+  ],
+  "live_files": [
+   "project-status.json",
+   "topview-status.json",
+   "instruction-sync-status.json",
+   "automation-monitor-status.json"
+  ],
+  "freshness_rule": "Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified."
+ },
+ "scene_index": [
+  {
+   "id": 10,
+   "title": "Кантина: допрос про товар, часть 1",
+   "target_engine": "Wan 3",
+   "state": "NEEDS_FIX",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 25715,
+   "chars": 7589,
+   "sha256_12": "4bcf7357b408"
+  },
+  {
+   "id": 11,
+   "title": "Кантина: допрос про товар, часть 2",
+   "target_engine": "Wan 3",
+   "state": "NEEDS_FIX",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [
+    10
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 33304,
+   "chars": 7380,
+   "sha256_12": "cc7a847ac011"
+  },
+  {
+   "id": 13,
+   "title": "Совет джедаев: говорящий кот Лучик",
+   "target_engine": "Wan 3",
+   "state": "NEEDS_RERENDER",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [],
+   "offset": 40684,
+   "chars": 12560,
+   "sha256_12": "cf5b524e491f"
+  },
+  {
+   "id": 16,
+   "title": "Татуин: гигантский пустынный червь и бой на руинах",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "SLOW_PENDING",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 53244,
+   "chars": 13140,
+   "sha256_12": "17f27d6e4cb0"
+  },
+  {
+   "id": 17,
+   "title": "Пещера: передышка после монстра и разговор о карте",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6",
+    "@Image7"
+   ],
+   "offset": 66384,
+   "chars": 16173,
+   "sha256_12": "611dc54063c4"
+  },
+  {
+   "id": 19,
+   "title": "Рыбалка и Маша-Лагуна",
+   "target_engine": "Wan 3.0",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5"
+   ],
+   "offset": 82557,
+   "chars": 9550,
+   "sha256_12": "a0b923994ec4"
+  },
+  {
+   "id": 20,
+   "title": "Маша-Лагуна: рок-припев у озера",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "SLOW_PENDING",
+   "duration_s": 30,
+   "dialogue": "en",
+   "depends_on": [],
+   "prompts": 13,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6",
+    "@Image7"
+   ],
+   "offset": 92107,
+   "chars": 169095,
+   "sha256_12": "6320c046e5f5"
+  },
+  {
+   "id": 21,
+   "title": "Мостик → космическая битва: бесшовный пролёт через окно",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 261202,
+   "chars": 14407,
+   "sha256_12": "53eb9b26374f"
+  },
+  {
+   "id": 22,
+   "title": "Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 275609,
+   "chars": 11876,
+   "sha256_12": "ac8ea0da407a"
+  },
+  {
+   "id": 23,
+   "title": "Люди → коты-джедаи: бесшовное раскрытие второго плана",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 287485,
+   "chars": 8502,
+   "sha256_12": "7c7acf98efda"
+  },
+  {
+   "id": 24,
+   "title": "Коты в кабине: запуск корабля и взлёт",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    23
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 295987,
+   "chars": 10009,
+   "sha256_12": "86d19bea3cb2"
+  },
+  {
+   "id": 25,
+   "title": "Коты в кабине: космическое сражение",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    24
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 305996,
+   "chars": 7688,
+   "sha256_12": "0951b58b93f8"
+  },
+  {
+   "id": 26,
+   "title": "Коты-магистры на планете ситхов: ультиматум Серёге",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [
+    25
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 313684,
+   "chars": 11023,
+   "sha256_12": "e1a8783cfe9f"
+  },
+  {
+   "id": 27,
+   "title": "Серёга против котов-магистров: бой на световых мечах",
+   "target_engine": "Seedance 2.5",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    26
+   ],
+   "prompts": 3,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 324707,
+   "chars": 36052,
+   "sha256_12": "74f9f994f645"
+  },
+  {
+   "id": 28,
+   "title": "Финальные титры: имперский строевой танец",
+   "target_engine": "Seedance 2.0",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 15,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 20,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 360759,
+   "chars": 130411,
+   "sha256_12": "e99966898051"
+  },
+  {
+   "id": 29,
+   "title": "Кантина: Илюха о плёнке на «Тысячелетнем соколе», часть 3",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [
+    11
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 491170,
+   "chars": 5487,
+   "sha256_12": "a1b98e0c7420"
+  },
+  {
+   "id": 30,
+   "title": "Коты против Серёги: разрушение колоннады",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "SLOW_PENDING",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    27
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 496657,
+   "chars": 7573,
+   "sha256_12": "0f9a88e3c28b"
+  },
+  {
+   "id": 31,
+   "title": "Коты против Серёги: лестница и телекинетические обломки",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "SLOW_PENDING",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    30
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 504230,
+   "chars": 7389,
+   "sha256_12": "146849dd71b5"
+  },
+  {
+   "id": 32,
+   "title": "Коты против Серёги: обрушение древней арки",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "SLOW_PENDING",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    31
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 511619,
+   "chars": 7572,
+   "sha256_12": "932e0f1dfc9b"
+  },
+  {
+   "id": 33,
+   "title": "Серёга исследует руины на планете ситхов",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 519191,
+   "chars": 4600,
+   "sha256_12": "c434640420c2"
+  },
+  {
+   "id": 34,
+   "title": "Серёга входит в полуразрушенный храм ситхов",
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    33
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 523791,
+   "chars": 4931,
+   "sha256_12": "2f5bc485bf9d"
+  }
+ ],
+ "read_sets": {
+  "takeover": {
+   "always": [
+    "brief",
+    "current_checkpoint_verbatim"
+   ],
+   "docs": {},
+   "master": "index_only",
+   "note": "Shadow only. Production takeover remains the full 7+master+status read until the owner decides."
+  },
+  "prompt_edit": {
+   "docs": {
+    "PROMPT-STYLE-GUIDE.md": "full"
+   },
+   "master": "target_scene_full + neighbours_full",
+   "extra": [
+    "character-references.json (target identities)"
+   ]
+  },
+  "new_scene": {
+   "docs": {
+    "PROMPT-STYLE-GUIDE.md": "full",
+    "SYNC-RUNBOOK.md": [
+     "^## 4\\. Routine: добавить новую scene",
+     "^## 19\\. Topview task intake"
+    ]
+   },
+   "master": "last_two_scenes_full + header",
+   "extra": [
+    "character-references.json"
+   ]
+  },
+  "story_edit": {
+   "docs": {},
+   "master": "relevant_scenes_full",
+   "extra": [
+    "film-analysis.md",
+    "film-backlog.md",
+    "montage v2",
+    "Notion «Кино»"
+   ]
+  },
+  "topview_check": {
+   "docs": {
+    "SYNC-RUNBOOK.md": [
+     "^### Порядок фаз единого монитора",
+     "^### Точное ТЗ — Topview slow slots",
+     "^### Hourly publish gate"
+    ]
+   },
+   "master": "none_unless_slow_change",
+   "extra": [
+    "topview-status.json",
+    "topview-task-map.json",
+    "topview-checkpoint.json"
+   ]
+  },
+  "instruction_change": {
+   "docs": "ALL_FULL",
+   "master": "none",
+   "note": "material change: full current cycle"
+  },
+  "recovery": {
+   "docs": "ALL_FULL",
+   "master": "full",
+   "note": "always full"
+  }
+ },
+ "full_fallback_triggers": [
+  "any source sha256 in the brief ≠ live mirror / instruction certificate",
+  "instruction-sync health ≠ ok or certificate older than its freshness limit",
+  "project-status health ≠ ok or canonical_master_sha256 ≠ brief master sha",
+  "task touches authority, sync, recovery, schedule, slot semantics or ≥2 scenes' shared rules",
+  "agent cannot answer a mandatory takeover question from the brief + read set",
+  "brief generator version or schema unknown"
+ ]
+}

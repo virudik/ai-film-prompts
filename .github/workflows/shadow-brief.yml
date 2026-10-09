@@ -1,0 +1,62 @@
+name: Shadow pilot takeover brief (not canonical)
+
+# Owner decision D1 (09.10.2026): 7-day shadow pilot of a derived takeover brief.
+# NOT CANONICAL — takeover still follows NEW-CHAT-HANDOFF.md in full. No own schedule:
+# runs when canonical mirrors/status change and after each master sync run.
+# Commits only when shadow/ content changes (generated_at is ignored).
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['Sync canonical master from Google Drive']
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'NEW-CHAT-HANDOFF.md'
+      - 'SYNC-RUNBOOK.md'
+      - 'AI-PROJECT-GUIDE.md'
+      - 'PROMPT-STYLE-GUIDE.md'
+      - 'USER-GUIDE.md'
+      - 'README-AI-SYNC.md'
+      - 'BACKUP-AI-RUNBOOK.md'
+      - 'video-prompts.md'
+      - 'instruction-sync-status.json'
+      - 'scripts/build_takeover_brief.py'
+      - '.github/workflows/shadow-brief.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shadow-brief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Build shadow brief
+        run: python3 scripts/build_takeover_brief.py . shadow
+
+      - name: Commit only on content change
+        run: |
+          if git diff --quiet -- shadow/ && [ -z "$(git ls-files --others --exclude-standard shadow/)" ]; then
+            echo "shadow brief unchanged — no commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add shadow/
+          git commit -m "Shadow pilot: refresh takeover brief (not canonical)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          echo "push failed after retries" && exit 1
