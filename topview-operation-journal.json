@@ -950,6 +950,17 @@
       "source_checkpoint": "2026-10-08T20:06:34.125Z",
       "outcome": "telemetry_read_verified",
       "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 537 unique tasks. Direct Board-task lookup reconfirmed the three previously active Scene 26/27 tasks terminal success; no active unlimited task, unknown status or new AI Film scene candidate. Occupancy 0/6."
+    },
+    {
+      "timestamp": "2026-10-09T01:06:34.467Z",
+      "operation": "discover_six_existing_scene_attempts_and_full_account_refresh",
+      "scene_id": null,
+      "task_fingerprint": "existing-scenes-20-30-31-32-33-34",
+      "previous_status": "0 active tasks; canonical slow empty",
+      "new_status": "6 active tasks; canonical slow Scenes 20,30,31,32,33,34; occupied 6 of 6",
+      "source_checkpoint": "2026-10-09T01:06:34.467Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 552 unique tasks. Six new unlimited Wan 3.0 tasks were directly read and mapped by exact canonical prompt/reference/model equivalence to existing Scenes 20 and 30–34. No new Scene ID and no editorial approval inferred."
     }
   ]
 }
