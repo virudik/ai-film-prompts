@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-09T08:01:08.038Z",
+  "checked_at": "2026-10-09T09:01:20.000Z",
   "verification_mode": "chatgpt_work_google_drive_exact_utf8_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "ChatGPT Work: seven full fresh Drive texts exact-matched their same-name GitHub mirrors during the unified monitor cycle; runtime schedule certificate was reconciled to the read-only automation observation.",
+  "note": "Fresh complete 7/7 exact UTF-8 SHA-256 verification. One unified monitor owns Topview publication and embeds recovery; retired automation IDs remain disabled. Public Pages read-back is tracked separately from exact repository verification.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
