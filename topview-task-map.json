@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-08T20:06:34.125Z",
+  "updated_at": "2026-10-09T01:06:34.467Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -13,7 +13,26 @@
     "New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review.",
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
   ],
-  "active_by_scene": {},
+  "active_by_scene": {
+    "20": [
+      "2c28a4161c8f459d8bf0c0460ac21ec5"
+    ],
+    "30": [
+      "e369529cc93d465ba14127e4712f7bbd"
+    ],
+    "31": [
+      "32a4df3b18714cde9c55f0281cc2dd41"
+    ],
+    "32": [
+      "9746bfed635c451e97095c35b4e3b2bf"
+    ],
+    "33": [
+      "e95f1bab9ab24f528b55fa58495d7adb"
+    ],
+    "34": [
+      "3fb3d9ee26474b62982ae8ef062afc32"
+    ]
+  },
   "processed_tasks": [
     {
       "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
@@ -214,24 +233,24 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-08T20:06:34.125Z",
+  "last_scan_at": "2026-10-09T01:06:34.467Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "all_owned_boards_full_video_scan",
-    "last_successful_scan_at": "2026-10-08T20:06:34.125Z",
+    "last_successful_scan_at": "2026-10-09T01:06:34.467Z",
     "last_full_board_pages_checked": 4,
-    "last_board_total_seen": 374,
+    "last_board_total_seen": 389,
     "overlap_hours": 6,
     "pages_scanned": 14,
-    "tasks_scanned": 537,
-    "total_video_tasks": 537,
+    "tasks_scanned": 552,
+    "total_video_tasks": 552,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-07T22:03:54.507Z",
+    "overlap_from": "2026-10-08T14:06:34.125Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
-    "project_board_total_video_tasks": 374,
+    "project_board_total_video_tasks": 389,
     "scope": "all owned boards for capacity; AI Film board for scene intake"
   }
 }
