@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-09T12:10:01.949Z",
+  "checked_at": "2026-10-09T13:00:51.209Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -53,7 +53,7 @@
       "started_at": "2026-10-09T02:29:55Z",
       "queue_count": 2366,
       "topview_estimated_wait_seconds": 74710,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match",
@@ -71,7 +71,7 @@
       "started_at": "2026-10-08T22:54:33Z",
       "queue_count": 1991,
       "topview_estimated_wait_seconds": 57434,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match",
@@ -185,7 +185,7 @@
       "started_at": "2026-10-08T22:48:41Z",
       "queue_count": 283,
       "topview_estimated_wait_seconds": 5589,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 30 prompt/reference/model match",
@@ -203,7 +203,7 @@
       "started_at": "2026-10-08T22:49:13Z",
       "queue_count": 1005,
       "topview_estimated_wait_seconds": 22870,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 31 prompt/reference/model match",
@@ -221,7 +221,7 @@
       "started_at": "2026-10-08T22:50:03Z",
       "queue_count": 1563,
       "topview_estimated_wait_seconds": 40143,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 32 prompt/reference/model match",
@@ -263,7 +263,7 @@
       "completed_at": "2026-10-09T06:30:02Z"
     }
   },
-  "note": "Fresh complete account-wide Board check after connector recovery: the same five unlimited Wan 3.0 tasks remain active with status init in existing Scenes 16, 20, 30, 31 and 32. No new project task or terminal transition was found. Queue and wait values are service estimates, not completion promises. Technical result receipt does not imply review or acceptance.",
+  "note": "Fresh complete account-wide Board check: the same five unlimited Wan 3.0 tasks remain active with status init in existing Scenes 16, 20, 30, 31 and 32. No new project task or terminal transition was found. Queue and wait values are the latest service estimates and are not completion promises. Technical result receipt does not imply review or acceptance.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -273,7 +273,7 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-09T12:10:01.949Z",
+    "three_view_checked_at": "2026-10-09T13:00:51.209Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
@@ -290,7 +290,7 @@
       "started_at": "2026-10-08T22:48:41Z",
       "queue_count": 283,
       "topview_estimated_wait_seconds": 5589,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 30 prompt/reference/model match"
@@ -304,7 +304,7 @@
       "started_at": "2026-10-08T22:49:13Z",
       "queue_count": 1005,
       "topview_estimated_wait_seconds": 22870,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 31 prompt/reference/model match"
@@ -318,7 +318,7 @@
       "started_at": "2026-10-08T22:50:03Z",
       "queue_count": 1563,
       "topview_estimated_wait_seconds": 40143,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 32 prompt/reference/model match"
@@ -332,7 +332,7 @@
       "started_at": "2026-10-08T22:54:33Z",
       "queue_count": 1991,
       "topview_estimated_wait_seconds": 57434,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match"
@@ -346,7 +346,7 @@
       "started_at": "2026-10-09T02:29:55Z",
       "queue_count": 2366,
       "topview_estimated_wait_seconds": 74710,
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-09T13:00:51.209Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match"
@@ -356,7 +356,7 @@
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-09T12:10:01.949Z",
+    "checked_at": "2026-10-09T13:00:51.209Z",
     "boards_scanned": 11,
     "video_tasks_scanned": 554,
     "pages_scanned": 14,
