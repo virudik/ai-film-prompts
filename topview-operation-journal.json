@@ -1023,6 +1023,17 @@
       "source_checkpoint": "2026-10-09T10:09:27.461Z",
       "outcome": "success",
       "verification": "11 owned boards / 14 pages / 554 VIDEO tasks scanned; all 5 mapped active unlimited task IDs directly refetched and remain init; no new project task or terminal transition"
+    },
+    {
+      "timestamp": "2026-10-09T12:10:01.949Z",
+      "operation": "connector_recovery_and_unchanged_full_account_refresh",
+      "scene_id": null,
+      "task_fingerprint": null,
+      "previous_status": "Topview connector unavailable; last verified snapshot 5 active tasks",
+      "new_status": "connector recovered; unchanged 5 active tasks; occupied 5 of 6",
+      "source_checkpoint": "2026-10-09T12:10:01.949Z",
+      "outcome": "telemetry_verified_pending_public_readback",
+      "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 554 unique tasks. Direct Board-task lookup reconfirmed all five mapped unlimited Wan 3.0 tasks remain init. No new project task, Scene ID, terminal transition, or editorial decision."
     }
   ]
 }
