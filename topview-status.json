@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-10T10:36:39.221Z",
+  "checked_at": "2026-10-10T15:54:00.000Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -51,9 +51,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 1533,
-      "topview_estimated_wait_seconds": 40115,
-      "checked_at": "2026-10-10T10:36:39.221Z",
+      "queue_count": 900,
+      "topview_estimated_wait_seconds": 21074,
+      "checked_at": "2026-10-10T15:54:00.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match",
@@ -69,9 +69,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-08T22:54:33Z",
-      "queue_count": 1001,
-      "topview_estimated_wait_seconds": 22836,
-      "checked_at": "2026-10-10T10:36:39.221Z",
+      "queue_count": 193,
+      "topview_estimated_wait_seconds": 3794,
+      "checked_at": "2026-10-10T15:54:00.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match",
@@ -257,7 +257,7 @@
       "completed_at": "2026-10-09T06:30:02Z"
     }
   },
-  "note": "Manual Claude reconciliation while the unified monitor is not publishing (last monitor snapshot 2026-10-09T13:00:51.209Z). Fresh complete account-wide Board check: 11 boards, 554 unlimited video tasks, no new project task. Scenes 30, 31 and 32 reached terminal success (2026-10-09T13:57:32Z, 2026-10-09T21:25:14Z, 2026-10-10T07:21:04Z) and left canonical slow. Two Wan 3.0 tasks remain active with status init in existing Scenes 16 and 20. Queue and wait values are the latest service estimates and are not completion promises. Technical result receipt does not imply review or acceptance.",
+  "note": "Ручное обновление из чата Claude 10.10 15:54Z: оба монитора упёрлись в лимиты подписок; scheduled-цикл не засчитан.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -267,7 +267,7 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-10T10:36:39.221Z",
+    "three_view_checked_at": "2026-10-10T15:54:00.000Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
@@ -282,9 +282,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-08T22:54:33Z",
-      "queue_count": 1001,
-      "topview_estimated_wait_seconds": 22836,
-      "checked_at": "2026-10-10T10:36:39.221Z",
+      "queue_count": 193,
+      "topview_estimated_wait_seconds": 3794,
+      "checked_at": "2026-10-10T15:54:00.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match"
@@ -296,9 +296,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 1533,
-      "topview_estimated_wait_seconds": 40115,
-      "checked_at": "2026-10-10T10:36:39.221Z",
+      "queue_count": 900,
+      "topview_estimated_wait_seconds": 21074,
+      "checked_at": "2026-10-10T15:54:00.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match"
@@ -308,7 +308,7 @@
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-10T10:36:39.221Z",
+    "checked_at": "2026-10-10T15:54:00.000Z",
     "boards_scanned": 11,
     "video_tasks_scanned": 554,
     "pages_scanned": 13,
