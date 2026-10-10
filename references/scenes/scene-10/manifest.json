@@ -3,7 +3,7 @@
   "scene_id": 10,
   "updated_at": "2026-10-08T09:58:58.592675Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
-  "status": "base_references_ready_helper_blocked",
+  "status": "ready",
   "references": [
     {
       "path": "references/full/ilyusha.jpg",
@@ -105,9 +105,7 @@
       }
     }
   ],
-  "remaining": [
-    "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
-  ],
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
   "identity_refs": [
@@ -200,5 +198,12 @@
     "@Image numbering is local to each autonomous prompt",
     "technical success does not imply editorial approval",
     "no paid generation authorized"
-  ]
+  ],
+  "owner_decision": {
+    "date": "2026-10-10",
+    "decision": "Use the three original source image references; do not generate an additional combined three-shot helper.",
+    "new_helper_required": false,
+    "technical_result_approval_inferred": false
+  },
+  "last_metadata_reconciled_at": "2026-10-10T15:04:44.384Z"
 }
