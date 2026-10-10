@@ -299,7 +299,7 @@ Supabase comments:
 
 
 Canonical membership slow берётся из fresh master / `project-status.json.slow_scenes`.  
-Пассивная Topview telemetry сама по себе не меняет master. Исключение — отдельная `Topview Scene Intake & Slow Watch`: она может создать genuinely new scene либо при доказанном newly discovered existing-scene render/retry добавить **существующий Scene ID** в canonical slow и обновить task mapping.
+Пассивная Topview telemetry сама по себе не меняет master. Исключение — фаза scene intake единственной automation «AI Film — единый монитор» (прежняя отдельная `Topview Scene Intake & Slow Watch` архивирована 06.10.2026): она может создать genuinely new scene либо при доказанном newly discovered existing-scene render/retry добавить **существующий Scene ID** в canonical slow и обновить task mapping.
 
 
 Для каждой сцены:
@@ -311,7 +311,7 @@ Canonical membership slow берётся из fresh master / `project-status.jso
 - если mapping не доказан — `verified=false`, ETA/queue не показывать как факт.
 
 
-`success` → технически завершено, но canonical slow остаётся до решения пользователя.
+`success` → технически завершено. Topview-managed canonical slow снимается автоматически, когда терминальной становится **последняя** активная задача этой сцены (пока у сцены есть другие active tasks — slow остаётся); см. «Canonical Topview state — minimal operational model» и SYNC-RUNBOOK §10. Editorial state не меняется: success ≠ approval, решение о приёмке — только владельца. *(Исправлено 10.10.2026: прежняя формулировка «slow остаётся до решения пользователя» противоречила действующей модели.)*
 
 
 ## 11. Runtime state и исторические snapshot
@@ -953,7 +953,7 @@ Partial intermediate commits не считаются final state и не дол�
 - **Scene 27 mapping:** `@Image1` pair cats; `@Image2` SEREGA; `@Image3` LUCHIK; `@Image4` RYZHIK; `@Image5` exact ruined-city location. Один Scene ID 27 содержит три production prompts: основной 30s Seedance 2.5 + Part 1 15s Seedance 2.0 + Part 2 15s Seedance 2.0. Во всех трёх одинаково обязательны ordinary-cat scale, ash/dust atmosphere и anti-static fast combat.
 - Не переносить reference numbering механически между Scene 26 и 27: после cats-only correction mapping у них **разный**. Сначала fresh-read конкретной Scene.
 - Последние две 15s задачи Scene 27 технически `success`, но editorial approval не принят; автоматически не rerun и не закрывать Scene.
-- **Topview runtime на последней live сверке 05.10.2026:** canonical slow unique Scene = `20`; active slots = **6/6** — «Песня Маши 4–9». «Песня Маши 3» technical success. Part 9 task: `117b9d976d2c4a54945256e79fc64639`. Все эти tasks принадлежат Scene 20, новые Scene IDs не создаются.
+- **Topview runtime на live сверке 05.10.2026 (исторический снимок; текущее состояние — только live JSON):** canonical slow unique Scene = `20`; active slots = **6/6** — «Песня Маши 4–9». «Песня Маши 3» technical success. Part 9 task: `117b9d976d2c4a54945256e79fc64639`. Все эти tasks принадлежат Scene 20, новые Scene IDs не создаются.
 
 
 ## Scene Reference Pack automation — 07.10.2026

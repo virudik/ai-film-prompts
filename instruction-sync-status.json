@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-09T13:00:51.209Z",
+  "checked_at": "2026-10-10T05:57:47.136Z",
   "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -25,10 +25,10 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-07T14:22:57.169Z",
-      "github_blob": "31f725b9210fe384137ae51def2a91d612594f92",
-      "drive_sha256": "d8a3048d9492302eaedd0a27e320fec3bea0a9b80d95af3b103e390f09862f36",
-      "mirror_sha256": "d8a3048d9492302eaedd0a27e320fec3bea0a9b80d95af3b103e390f09862f36",
+      "drive_modified_at": "2026-10-10T05:56:03.536Z",
+      "github_blob": "1a9e08e40bf6fc5a4545bea8751b43030f9f304f",
+      "drive_sha256": "babcfd65c652ee0174794a9edce671b47d67672c228701a7cde861a0d0472f2d",
+      "mirror_sha256": "babcfd65c652ee0174794a9edce671b47d67672c228701a7cde861a0d0472f2d",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Unified monitor: fresh full Drive downloads of all 7 canonical documents exactly match their GitHub mirrors; runtime remains one HH:00 Europe/Moscow monitor with embedded recovery and two owner-retired automation IDs.",
+  "note": "Claude 10.10: full Drive downloads of all 7 docs hashed against mirrors; AI-PROJECT-GUIDE.md §10 aligned with the current slow model (contradiction found by the TZ2 full-canon check), same ID, read-back verified. Stale prose fields (revision date, cat-branch runtime) replaced by live pointers.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -294,15 +294,16 @@
     "substantive_change_advances_revision": true,
     "technical_sync_only_preserves_revision": true,
     "manual_master_revision_date": false,
-    "current_revision_date": "30.09.2026",
-    "blank_line_layout_noise_ignored": true
+    "current_revision_date": "09.10.2026",
+    "blank_line_layout_noise_ignored": true,
+    "current_revision_date_source": "project-status.json.revision_date (live value; this field is a copy)"
   },
   "cat_branch_current": {
     "verified_at": "2026-10-04T23:15:37Z",
     "scene24_25": "@Image4 exact approved cockpit; RYZHIK frame-left, LUCHIK frame-right; ordinary domestic-cat scale",
     "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
     "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
-    "topview_runtime": "No active unlimited Topview video tasks remain; 0/6 occupied after direct terminal reconciliation of Scenes 26 and 27. Technical success does not imply editorial acceptance."
+    "topview_runtime": "Not recorded in the certificate (it went stale). Live slots/slow: topview-status.json (checked_at) and project-status.json.slow_scenes. Technical success does not imply editorial acceptance."
   },
   "claude_code_bootstrap": {
     "path": "CLAUDE.md",
