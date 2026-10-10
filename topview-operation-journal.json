@@ -1045,6 +1045,17 @@
       "source_checkpoint": "2026-10-09T13:00:51.209Z",
       "outcome": "telemetry_verified_pending_public_readback",
       "verification": "Complete account-wide VIDEO scan: 11 boards, 14 pages, 554 unique tasks. Direct Board-task lookup reconfirmed all five mapped unlimited Wan 3.0 tasks remain init. No new project task, Scene ID, terminal transition, or editorial decision."
+    },
+    {
+      "timestamp": "2026-10-10T10:36:39.221Z",
+      "operation": "manual_recovery_terminal_reconciliation_scenes30_31_32_and_full_account_refresh",
+      "scene_id": null,
+      "task_fingerprint": "e369529c…/32a4df3b…/9746bfed…",
+      "previous_status": "stale public snapshot 2026-10-09T13:00:51.209Z: 5 active tasks; canonical slow Scenes 16,20,30,31,32; occupied 5 of 6",
+      "new_status": "2 active tasks; canonical slow Scenes 16,20; occupied 2 of 6; free 4",
+      "source_checkpoint": "2026-10-10T10:36:39.221Z",
+      "outcome": "canonical_and_telemetry_verified_pending_public_readback",
+      "verification": "Claude manual recovery while the unified monitor has not published since 2026-10-09T13:00:51Z. Complete account-wide VIDEO scan: 11 boards, 13 pages, 554 unique tasks; no task created after the previous snapshot. Direct Board-task lookup: Scenes 16 and 20 remain init. Scenes 30, 31, 32 terminal success at 2026-10-09T13:57:32Z, 2026-10-09T21:25:14Z, 2026-10-10T07:21:04Z; removed from canonical slow via same-ID Drive master edit. result_received recorded; no generation, approval, rerun or deletion."
     }
   ]
 }
