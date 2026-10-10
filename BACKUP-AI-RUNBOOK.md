@@ -3,13 +3,13 @@
 
 ## Действующее расписание — решение владельца 06.10.2026
 
-> **Обновление 10.10.2026 (решение владельца): два монитора, пишет всегда один.** Основной и резервный указаны в GitHub `monitor-role.json`. Сейчас основной — scheduled task Claude «AI Film — монитор Claude» (`trig_014eEvBooAV2hxx1asRo9snm`, ежечасно HH:10 МСК, привязана к компьютеру владельца для same-ID записей Drive; процедура — `ops/CLAUDE-MONITOR.md`). Резервный — задача ChatGPT «AI Film — единый монитор» (`6aac794245e481919ee7155c461cc77e`, HH:00). Перед записью каждый монитор выполняет `scripts/monitor_role.py`. Резервный пишет только тогда, когда последний цикл основного старше 120 мин, и только на этот цикл. Оба уступают, если другой сделал коммит за последние 50 мин. Роли меняет только владелец командой «основной монитор — Claude / ChatGPT». Остальные правила этого блока (фазы цикла, честное время, запрет дублей) действуют для обоих.
+> **Обновление 10.10.2026 (решение владельца): два монитора, пишет всегда один.** Основной и резервный указаны в GitHub `monitor-role.json`. Сейчас основной — scheduled task Claude «AI Film — монитор Claude» (`trig_014eEvBooAV2hxx1asRo9snm`, ежечасно HH:10 МСК, привязана к компьютеру владельца для same-ID записей Drive; процедура — `ops/CLAUDE-MONITOR.md`). Резервный — задача ChatGPT «AI Film — единый монитор» (`6aac794245e481919ee7155c461cc77e`, HH:00). Перед записью каждый монитор выполняет `scripts/monitor_role.py`. Резервный автоматически подхватывает цикл при отсутствии подтверждённого завершённого цикла основного более 180 мин (3 часов); после собственного цикла уступает 100 мин для возврата основного. Защита от записи другого монитора — 50 мин. Назначенные роли меняются только по команде владельца, автоматический failover/возврат роли не меняет. Оба уступают, если другой сделал коммит за последние 50 мин. Роли меняет только владелец командой «основной монитор — Claude / ChatGPT». Остальные правила этого блока (фазы цикла, честное время, запрет дублей) действуют для обоих.
 
 
 **Приоритет этого блока:** он заменяет все прежние указания ниже о двух/трёх project automations, HH:05 Recovery, восстановлении архивных задач и временном выключении writer при ручном ремонте. Исторические checkpoints ниже не являются текущей конфигурацией.
 
 
-Единственная действующая задача: **AI Film — единый монитор**, ID `6aac794245e481919ee7155c461cc77e`, exact hourly **HH:00 Europe/Moscow**. Внутри одного запуска: Topview account slots + уведомления, AI Film scene intake/telemetry publication, проверка 7/7 Drive↔GitHub и canonical sync, hourly light health, daily deep audit при возрасте ≥24 ч. Recovery — фаза этой же задачи, без отдельного расписания.
+Историческое описание задачи ChatGPT (сейчас РЕЗЕРВНЫЙ монитор при основном Claude; настоящий порядок — верхний блок и свежий `monitor-role.json`): **AI Film — единый монитор**, ID `6aac794245e481919ee7155c461cc77e`, exact hourly **HH:00 Europe/Moscow**. Внутри одного запуска: Topview account slots + уведомления, AI Film scene intake/telemetry publication, проверка 7/7 Drive↔GitHub и canonical sync, hourly light health, daily deep audit при возрасте ≥24 ч. Recovery — фаза этой же задачи, без отдельного расписания.
 
 
 Намеренно архивированы по просьбе владельца: Recovery `6aac3e4dfe6c81918b3eead8529edf30` и «Свободные слоты Topview» `6ac358bf36548191b64ae6326bcc1f9b`. Оставлять `is_enabled:false`; **не включать обратно**, не создавать заменяющие дубли. Их история сохраняется. Правило preserve-enabled относится только к единственному действующему монитору.
@@ -2461,4 +2461,3 @@ When Topview task metadata exposes only S3/source paths and `download_topview_ca
 7. Never publish the temporary signed Topview URL itself; it expires. Never ask the owner to re-upload a reference that can be recovered by this bridge.
 
 This method was verified on 07.10.2026 for 30 unique exact inputs from Scenes 13, 17, 19, 20, 21, 22, 23, 24, 26 and 27. Recovery Canvas: `bb998522de624208b708598568116f78`. Google Slides bridge deck: `1NaISrGUmA1ICODoQrqidrzhQdUyn81Trv9vkiIVtw10`.
-
