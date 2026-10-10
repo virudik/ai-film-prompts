@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "scene_id": 33,
+  "updated_at": "2026-10-10T12:34:45Z",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": "1oqPzDlUzUlUXpt39We-6HBB-MhXDQz2e",
+      "library_file_id": "libfile_55ba68200a148191bd9f696c1f434ef1",
+      "role": "location",
+      "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "bytes": 2034728,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-27/S27-Image5-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": {
+    "task_id": "e95f1bab9ab24f528b55fa58495d7adb",
+    "model": "Wan 3.0",
+    "status": "success",
+    "completed_at": "2026-10-09T01:24:31Z"
+  },
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "local_numbering": true,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "canonical_role": "Серёга"
+        },
+        {
+          "slot": "@Image2",
+          "canonical_role": "та же древняя планета/город-руины"
+        }
+      ]
+    }
+  ],
+  "site_published": true,
+  "last_qc_at": "2026-10-10T12:34:45Z",
+  "last_qc_scope": "Claude 10.10: paths/SHA from Git, roles reused from existing packs, mapping from master Референсы line. No new images; owner approval not recorded.",
+  "remaining": [
+    "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+  ],
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt"
+  ]
+}

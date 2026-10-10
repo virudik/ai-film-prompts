@@ -1,0 +1,233 @@
+{
+  "schema_version": 2,
+  "scene_id": 31,
+  "updated_at": "2026-10-10T12:34:45Z",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "dimensions": [
+        1536,
+        962
+      ],
+      "drive_file_id": "12RohRPbsax0EiHGFWUXYxf7fLgonv-f4",
+      "library_file_id": "libfile_6db6dce7d9b4819190691e7b35d10fa6",
+      "role": "identity",
+      "asset_id": "references/luchik.jpg",
+      "bytes": 262158,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/luchik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1uNg8Ob62905PIRY-SNkdDx4p0Z9N03sM",
+      "library_file_id": "libfile_168584bb8d3c8191876eb1d853da41b1",
+      "role": "identity",
+      "asset_id": "references/ryzhik.jpg",
+      "bytes": 229358,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/ryzhik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+      "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": "1PiKHWUwV6-DHKdeUBoThsM5ovYQaaiPS",
+      "library_file_id": "libfile_a363625c6b2c8191853d26f9f17ce123",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-27/S27-Image1-topview-source.png",
+      "bytes": 1955624,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": "1oqPzDlUzUlUXpt39We-6HBB-MhXDQz2e",
+      "library_file_id": "libfile_55ba68200a148191bd9f696c1f434ef1",
+      "role": "location",
+      "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "bytes": 2034728,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+      "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1CWpamnJBWAE5pnzqcb7HCiH1mW0va4xr",
+      "library_file_id": "libfile_8b2ddd7ded648191a65889f802889c74",
+      "role": "pose_composition_helper",
+      "asset_id": "references/scenes/scene-27/S27-three-subject-scale.png",
+      "bytes": 2430455,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg",
+    "references/luchik.jpg",
+    "references/ryzhik.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-27/S27-Image5-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [
+    "references/scenes/scene-27/S27-Image1-topview-source.png",
+    "references/scenes/scene-27/S27-three-subject-scale.png"
+  ],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": {
+    "task_id": "32a4df3b18714cde9c55f0281cc2dd41",
+    "model": "Wan 3.0",
+    "status": "success",
+    "completed_at": "2026-10-09T21:25:14Z"
+  },
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "local_numbering": true,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "canonical_role": "коты"
+        },
+        {
+          "slot": "@Image2",
+          "canonical_role": "Серёга"
+        },
+        {
+          "slot": "@Image3",
+          "canonical_role": "Лучик"
+        },
+        {
+          "slot": "@Image4",
+          "canonical_role": "Рыжик"
+        },
+        {
+          "slot": "@Image5",
+          "canonical_role": "те же руины"
+        },
+        {
+          "slot": "@Image6",
+          "canonical_role": "опциональный масштаб"
+        }
+      ]
+    }
+  ],
+  "site_published": true,
+  "last_qc_at": "2026-10-10T12:34:45Z",
+  "last_qc_scope": "Claude 10.10: paths/SHA from Git, roles reused from existing packs, mapping from master Референсы line. No new images; owner approval not recorded.",
+  "remaining": [
+    "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+  ],
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt"
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "scene_id": 29,
+  "updated_at": "2026-10-10T12:34:45Z",
+  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": "1IZulGTHz4gmxWKNl35oa1R-mAnENmnuL",
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "role": "identity",
+      "asset_id": "references/full/ilyusha.jpg",
+      "bytes": 271235,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/ilyusha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "sha256": "efffc8a83aafec3cf3d710db13ab9e833f7f40ded28702f05ed9ab680357485f",
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "drive_file_id": "1iM-h2G1jCjXg1jUDV4H4BJe1ES_qdsPh",
+      "library_file_id": "libfile_8dab02fb0c48819187251f2d32a69480",
+      "role": "location",
+      "asset_id": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+      "bytes": 6607132,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image1-cantina-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image2-han-source.png",
+      "sha256": "716a91f0f3a45153f65b90b8b9de2e45f8bb21cb53dc42104e10a4da0fe12e10",
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "drive_file_id": "1ue6HOEvEuFYX4oKxJAR1MCxsAA7ZdGdE",
+      "library_file_id": "libfile_9094f60808588191ac9be6b654923bbf",
+      "role": "identity",
+      "asset_id": "references/scenes/scene-10/S10-Image2-han-source.png",
+      "bytes": 5148067,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image2-han-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "sha256": "f308cb384704d43eb6f4db5bb9425d4ade6be930710e90d3fc4277d9995f07c4",
+      "dimensions": [
+        896,
+        1195
+      ],
+      "drive_file_id": "189mrOdNgYW9BR7ZYl61pDZ86dSoOU6Xf",
+      "library_file_id": "libfile_34bf3f99b85c8191877f57c551650d04",
+      "role": "identity",
+      "asset_id": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+      "bytes": 1879083,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "passed_in_previous_work",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-10/S10-Image3-jedi-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/ilyusha.jpg",
+    "references/scenes/scene-10/S10-Image2-han-source.png",
+    "references/scenes/scene-10/S10-Image3-jedi-source.png"
+  ],
+  "location_refs": [
+    "references/scenes/scene-10/S10-Image1-cantina-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "local_numbering": true,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "canonical_role": "та же кантина/Чубакка"
+        },
+        {
+          "slot": "@Image2",
+          "canonical_role": "Han"
+        },
+        {
+          "slot": "@Image3",
+          "canonical_role": "Илюша/джедай"
+        }
+      ]
+    }
+  ],
+  "site_published": true,
+  "last_qc_at": "2026-10-10T12:34:45Z",
+  "last_qc_scope": "Claude 10.10: paths/SHA from Git, roles reused from existing packs, mapping from master Референсы line. No new images; owner approval not recorded.",
+  "remaining": [
+    "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+  ],
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt"
+  ]
+}
