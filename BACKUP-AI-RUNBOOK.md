@@ -1,5 +1,14 @@
 ﻿# BACKUP-AI-RUNBOOK v4.0 — резервный редактор AI Film
 
+## ВОССТАНОВЛЕНИЕ — live checkpoint 11.10.2026 МСК
+
+При takeover сначала семь fresh canonical Drive docs и same-ID master, затем GitHub `project-status.json`/`topview-status.json`/`instruction-sync-status.json` и `monitor-role.json`. На текущем checkpoint master 17 scenes/50 prompts, retired in-film IDs 10,11,17,19,22,23,29 зарезервированы; Scenes35–37 DRAFT и не запускаются автоматически. Live runtime может измениться — числа не фиксировать навечно. В однописательской паре Claude primary / ChatGPT standby (роль всегда определяется live JSON) failover только после 180 минут без **здорового полного цикла**; `degraded` не reset success clock. CI regression suite добавлен к integration tests и прошёл 10.10.2026 run 38087297146.
+
+Безкомпьютерный GitHub writer `drive-write.yml` не объявлять работающим до установки owner-side secret `GDRIVE_SA_KEY` и двух подтверждённых проб guarded same-ID записи. Последние известные GitHub logs 10.10 17:44 UTC показали пустой GDRIVE_SA_KEY, текущие секреты API не раскрывает; никогда не собирать JSON ключ в чат, зеркало, backup или Notion. One-time owner steps в `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`. ChatGPT connector same-ID manual write доказан, но не гарантирует запуск scheduler при исчерпании недельного Work лимита. После установки ключа idempotent test → fresh same-ID update → exact readback SHA → validator → GitHub mirrors/status → Pages → canonical instruction update и Library recovery best-effort. Не включать архивные Recovery/slot-watcher и не дублировать активные automation.
+
+---
+
+
 
 ## Действующее расписание — решение владельца 06.10.2026
 
