@@ -10,8 +10,8 @@
 - Не публиковать telemetry, которая расходится с master: validator требует `active Topview scenes == canonical slow`.
 
 ## Шаги
-0. **Роль.** `python3 scripts/monitor_role.py . --me claude`. `skip` — сразу закончить: ничего не писать, статус цикла не трогать (иначе спрячется отставание основного). `run` — обычный цикл. `failover` — обычный цикл, в note: «failover за <основной>». Владельцу при первом failover за сутки — одно сообщение.
 1. `cd /home/claude/ai-film-prompts` (если нет — `git clone https://github.com/virudik/ai-film-prompts`), затем `git fetch && git checkout -B work origin/main`. Запомнить `started_at` (UTC, реальное).
+   - **Роль.** `python3 scripts/monitor_role.py . --me claude`. `skip` — сразу закончить: ничего не писать, статус цикла не трогать (иначе спрячется отставание основного). `run` — обычный цикл. `failover` — обычный цикл, в note: «failover за <основной>». Владельцу при первом failover за сутки — одно сообщение.
 2. **Скан Topview.**
    - `topview_list_boards` (`mode=my-boards`, `pageSize=50`).
    - Для каждой доски с задачами — `topview_list_board_tasks` (`mediaType=video`, `pageSize=100`, все страницы; у основной доски `1a6244cf1ae747ef847d949a80d6133c` 4 страницы). Большие ответы сохраняются в файлы tool-results — это нормально.
@@ -47,7 +47,7 @@
 
    Тихие циклы без изменений — без сообщения.
 
-11. **Раз в сутки (если `deep-audit-status.json.last_deep_audit_at` старше 24 ч) — глубокая проверка:** полное чтение 7 инструкций на противоречия между собой и с fresh master (как дневная проверка пилота); `scripts/validate_site.py`; живой сайт (Pages) открывается; список находок — владельцу. Детерминированные мелочи (устаревшие пометки, счётчики) чинить только обычным каноническим циклом, по одному документу; спорное — не трогать. Обновить `deep-audit-status.json`.
+   Тот же шаг 10 — **Раз в сутки (если `deep-audit-status.json.last_deep_audit_at` старше 24 ч) — глубокая проверка:** полное чтение 7 инструкций на противоречия между собой и с fresh master (как дневная проверка пилота); `scripts/validate_site.py`; живой сайт (Pages) открывается; список находок — владельцу. Детерминированные мелочи (устаревшие пометки, счётчики) чинить только обычным каноническим циклом, по одному документу; спорное — не трогать. Обновить `deep-audit-status.json`.
 
 ## Что делает каждая часть системы
 - **D3:** `sync-from-drive.yml` открывает issue `monitor-alert`, если `last_scheduled_cycle.completed_at` старше 3 ч, и закрывает её после свежего цикла.
