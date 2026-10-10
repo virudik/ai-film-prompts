@@ -82,7 +82,7 @@
   },
   "note": "Claude 10.10.2026: exact 7/7 Drive connector download after same-ID edits (canon cleanup of 11 pilot findings, D3/D5 docs, owner decisions, Topview manual reconciliation note).",
   "recovery_sync": {
-    "automation_title": "AI Film — единый монитор",
+    "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
     "separately_scheduled": false,
     "hourly_light": true,
@@ -162,18 +162,19 @@
   "automation_schedule": {
     "health": "ok",
     "timezone": "Europe/Moscow",
-    "active_automation_id": "6aac794245e481919ee7155c461cc77e",
-    "active_automation_title": "AI Film — единый монитор",
+    "active_automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
+    "active_automation_title": "AI Film — монитор Claude",
     "active_project_automation_count": 1,
-    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261007T190000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT",
+    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
     "timing_mode": "exact_schedule",
-    "topview_watcher": "exact hourly at HH:00:00",
+    "topview_watcher": "exact hourly at HH:10 (Claude scheduled task)",
     "recovery_sync": "embedded phase; no independent schedule",
     "retired_automation_ids": [
       "6aac3e4dfe6c81918b3eead8529edf30",
-      "6ac358bf36548191b64ae6326bcc1f9b"
+      "6ac358bf36548191b64ae6326bcc1f9b",
+      "6aac794245e481919ee7155c461cc77e"
     ],
-    "one_writer_note": "Unified monitor is sole scheduled project writer. Manual recovery uses fresh-read/version guard/rebase without pausing scheduler."
+    "one_writer_note": "Claude monitor is the sole scheduled project writer since 2026-10-10 (owner request). It yields if ChatGPT (virudik) committed in the last 50 min. Manual recovery uses fresh-read/version guard/rebase."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",

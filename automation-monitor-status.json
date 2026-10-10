@@ -3,12 +3,17 @@
   "purpose": "Durable unified monitor configuration, phase outcomes and notification deduplication; no signed URLs, credentials or full prompts.",
   "configured_at": "2026-10-06T06:04:45.168Z",
   "automation": {
-    "id": "6aac794245e481919ee7155c461cc77e",
-    "title": "AI Film — единый монитор",
+    "id": "trig_014eEvBooAV2hxx1asRo9snm",
+    "title": "AI Film — монитор Claude",
     "is_enabled": true,
     "timing_mode": "exact_schedule",
     "timezone": "Europe/Moscow",
-    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261007T190000\nRRULE:FREQ=HOURLY;BYMINUTE=0;BYSECOND=0\nEND:VEVENT"
+    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
+    "runner": "claude_scheduled_task",
+    "requires_owner_computer": true,
+    "procedure": "ops/CLAUDE-MONITOR.md",
+    "since": "2026-10-10",
+    "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT."
   },
   "retired_automations": [
     {
@@ -20,6 +25,13 @@
       "id": "6ac358bf36548191b64ae6326bcc1f9b",
       "is_enabled": false,
       "reason": "Owner-authorized consolidation 2026-10-06"
+    },
+    {
+      "id": "6aac794245e481919ee7155c461cc77e",
+      "is_enabled": false,
+      "reason": "Replaced by the Claude monitor on owner request 2026-10-10; silent since 2026-10-09 16:01 MSK",
+      "disable_verified_by_claude": false,
+      "note": "Claude has no access to ChatGPT tasks; the owner turns it off. Until then the Claude monitor yields to any virudik commit in the last 50 min."
     }
   ],
   "account_observation": {
