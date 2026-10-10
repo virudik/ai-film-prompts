@@ -60,14 +60,20 @@ runner = normalize_runner(cycle.get("runner"))
 # Older snapshots without a runner are not evidence of a Claude primary cycle.
 if runner is None and cycle.get("completed_at"):
     runner = "chatgpt"
-age_last_cycle = minutes_since(cycle.get("completed_at"))
+# Only verified healthy cycles are liveness evidence for failover.
+# A degraded/error or incomplete cycle must NEVER reset the 180-minute clock.
+# Missing per-runner success data is not inferred from last_completed_by_runner:
+# that field also includes degraded runs. The role selection time is the
+# conservative grace baseline until the next verified success is recorded.
+successes = status.get("last_successful_by_runner") or {}
+primary_at = successes.get(primary)
 per_runner = status.get("last_completed_by_runner") or {}
-primary_at = per_runner.get(primary)
 standby_at = per_runner.get(standby)
-if runner == primary:
-    primary_at = cycle.get("completed_at")
-elif runner == standby:
-    standby_at = cycle.get("completed_at")
+if cycle.get("health") == "ok" and not cycle.get("phases_missing"):
+    if runner == primary:
+        primary_at = cycle.get("completed_at")
+    elif runner == standby:
+        standby_at = cycle.get("completed_at")
 # On a just-switched primary without a recorded cycle allow the full 3h
 # from the owner's role-selection decision (not from a standby heartbeat).
 primary_age = minutes_since(primary_at or role.get("set_at"))
