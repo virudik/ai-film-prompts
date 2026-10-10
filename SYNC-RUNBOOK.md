@@ -1047,3 +1047,22 @@ Partial intermediate commits не считаются final state и не дол�
 - **D3.** В том же workflow (расписание `*/30`, новых cron нет) шаг «Alert when the unified monitor is silent for more than 3 hours». Если последний цикл в `automation-monitor-status.json` старше **3 ч**, он открывает одну GitHub issue с меткой `monitor-alert` (уведомления репозитория приходят владельцу на почту). Когда цикл снова свежий, issue закрывается сам. Если записи о цикле нет, берётся возраст `topview-status.checked_at`. Шаг best-effort: не роняет синхронизацию, не пишет в Topview и канон.
 - Ручная сверка Topview от Claude не сбрасывает оповещение: сигнал — именно цикл монитора. Issue — это сигнал «перезапусти ту же задачу в ChatGPT», а не разрешение создавать дубль монитора.
 
+## 10.10.2026 — два монитора и решения владельца: процедура
+
+- **Роли.** `monitor-role.json` (GitHub) — `primary` / `standby`, `failover_after_minutes` (120), `collision_guard_minutes` (50). Перед любой записью: `python3 scripts/monitor_role.py . --me <claude|chatgpt>`.
+  - `skip` — не писать и не трогать запись цикла: иначе спрячется отставание основного.
+  - `run` — обычный цикл.
+  - `failover` — обычный цикл с пометкой «failover за <основной>».
+
+  Роли меняются только командой владельца.
+- **Цикл Claude** — `ops/CLAUDE-MONITOR.md`:
+  1. Скан Topview read-only.
+  2. Приём новых задач по совпадению промта; неоднозначность решает владелец.
+  3. Если меняется slow — `scripts/master_slow_edit.py` → валидатор → same-ID запись Drive через J: с mtime-guard → побайтный read-back.
+  4. `scripts/monitor_publish.py` (map → журнал → статус → ledger `result_received` → checkpoint последним) → SYNC-TRIGGER.
+  5. Сертификат 7/7, если старше 2 ч.
+  6. Решения владельца из Supabase `owner_decisions`.
+  7. `scripts/monitor_status.py`.
+  8. Раз в сутки — глубокая проверка.
+- **Решения владельца** применяются по таблице из верхнего блока NEW-CHAT-HANDOFF («СТАРТ ДЛЯ СМЕНЩИКА», п. 2). Ledger-поля — только по нажатой кнопке. `scene_not_needed` и `tv_drop_task` — только обычным каноническим циклом master.
+- **Без компьютера владельца** master не правится, противоречивая telemetry не публикуется, цикл = `degraded`.
