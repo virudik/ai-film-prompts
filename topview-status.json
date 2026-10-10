@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-10T16:11:51Z",
+  "checked_at": "2026-10-10T17:14:05.000Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -51,12 +51,12 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 868,
-      "topview_estimated_wait_seconds": 20017,
-      "checked_at": "2026-10-10T16:11:51Z",
+      "queue_count": 1350,
+      "topview_estimated_wait_seconds": 34222,
+      "checked_at": "2026-10-10T17:14:05.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match",
+      "mapping_confidence": "exact canonical Scene 16 prompt/reference/model match",
       "active_task_ids": [
         "36e8320e34da4f1b97c35e1e765e3e63"
       ],
@@ -67,18 +67,16 @@
       "task_id": "2c28a4161c8f459d8bf0c0460ac21ec5",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
+      "topview_status": "success",
       "started_at": "2026-10-08T22:54:33Z",
-      "queue_count": 149,
-      "topview_estimated_wait_seconds": 2737,
-      "checked_at": "2026-10-10T16:11:51Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-10-10T17:14:05.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match",
-      "active_task_ids": [
-        "2c28a4161c8f459d8bf0c0460ac21ec5"
-      ],
-      "completed_at": null
+      "active_task_ids": [],
+      "completed_at": "2026-10-10T17:08:14Z"
     },
     "21": {
       "task_id": "6d05c85753234b64b43fc75157437a0d",
@@ -257,7 +255,7 @@
       "completed_at": "2026-10-09T06:30:02Z"
     }
   },
-  "note": "Claude monitor hourly cycle: slow 16,20 unchanged; 22 owner site decisions applied to review-ledger.",
+  "note": "Чат Claude 10.10 17:14Z: Scene 20 технически готова (success 17:08:14Z), slow снят same-ID правкой master; монитор 17:11Z был degraded (нет доступа к J:).",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -267,13 +265,13 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-10T16:11:51Z",
+    "three_view_checked_at": "2026-10-10T17:14:05.000Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 2,
-  "free_slots": 4,
+  "occupied_slots": 1,
+  "free_slots": 5,
   "active_tasks": [
     {
       "scene_id": 16,
@@ -282,42 +280,27 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 868,
-      "topview_estimated_wait_seconds": 20017,
-      "checked_at": "2026-10-10T16:11:51Z",
+      "queue_count": 1350,
+      "topview_estimated_wait_seconds": 34222,
+      "checked_at": "2026-10-10T17:14:05.000Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "exact canonical Scene 16 sandworm prompt/reference/model match"
-    },
-    {
-      "scene_id": 20,
-      "task_id": "2c28a4161c8f459d8bf0c0460ac21ec5",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
-      "started_at": "2026-10-08T22:54:33Z",
-      "queue_count": 149,
-      "topview_estimated_wait_seconds": 2737,
-      "checked_at": "2026-10-10T16:11:51Z",
-      "topview_estimated_process_seconds": null,
-      "verified": true,
-      "mapping_confidence": "exact canonical Scene 20 song part 12 prompt/reference/model match"
+      "mapping_confidence": "exact canonical Scene 16 prompt/reference/model match"
     }
   ],
   "scope": "Account-wide capacity from all owned boards; project scenes only from AI Film board.",
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-10T16:11:51Z",
+    "checked_at": "2026-10-10T17:14:05.000Z",
     "boards_scanned": 11,
     "video_tasks_scanned": 554,
     "pages_scanned": 13,
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
+    "occupied_slots": 1,
+    "free_slots": 5,
     "active_task_ids": [
-      "36e8320e34da4f1b97c35e1e765e3e63",
-      "2c28a4161c8f459d8bf0c0460ac21ec5"
+      "36e8320e34da4f1b97c35e1e765e3e63"
     ]
   }
 }
