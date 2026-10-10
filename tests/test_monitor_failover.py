@@ -81,6 +81,19 @@ class MonitorHeartbeatTest(unittest.TestCase):
         })
         self.assertEqual(self.role_action()["action"], "skip")
 
+    def test_legacy_verified_success_survives_degraded_followup(self):
+        # Upgrade path: old monitor snapshots have last_successful_cycle_at
+        # but did not yet populate last_successful_by_runner.
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_scheduled_cycle": {
+                "completed_at": timestamp(5), "health": "degraded",
+                "phases_missing": ["master_slow_edit"], "runner": "claude_scheduled_task",
+            },
+            "last_completed_by_runner": {"claude": timestamp(5)},
+            "last_successful_cycle_at": timestamp(45),
+        })
+        self.assertEqual(self.role_action()["action"], "skip")
+
     def test_degraded_cycle_does_not_overwrite_success_time(self):
         original = timestamp(230)
         write_json(self.repo / "automation-monitor-status.json", {
