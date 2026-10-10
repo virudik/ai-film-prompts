@@ -89,12 +89,19 @@ primary_age = minutes_since(primary_at or role.get("set_at"))
 standby_age = minutes_since(standby_at)
 other_author = role["monitors"][other].get("commit_author") or ""
 
+# Files a monitor cycle writes. Only commits of the other agent that touch these
+# block this cycle; documentation/ops/site commits (e.g. a ChatGPT work chat) must
+# not silence monitoring for hours (incident 10.10.2026 18:10–23:10 UTC).
+WRITER_FILES = ["topview-status.json", "topview-checkpoint.json", "topview-task-map.json",
+                "topview-operation-journal.json", "automation-monitor-status.json",
+                "monitor-role.json", "review-ledger.json", "SYNC-TRIGGER.txt",
+                "video-prompts.md", "project-status.json"]
 # The 50-minute guard protects against real concurrent GitHub writes.
 # A failed git-log inspection is uncertainty: skip rather than race.
 try:
     proc = subprocess.run(
         ["git", "log", "origin/main", f"--since={guard} minutes ago",
-         f"--author={other_author}", "--format=%h %s"],
+         f"--author={other_author}", "--format=%h %s", "--", *WRITER_FILES],
         cwd=repo, check=True, capture_output=True, text=True,
     )
     recent_other = proc.stdout.strip()

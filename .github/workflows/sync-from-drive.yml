@@ -233,6 +233,11 @@ jobs:
           from datetime import datetime, timezone
           LIMIT_MIN = 180
           now = datetime.now(timezone.utc)
+          def age_key(v):
+              try:
+                  return datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+              except Exception:
+                  return datetime.min.replace(tzinfo=timezone.utc)
           def age(v):
               try:
                   return (now - datetime.fromisoformat(str(v).replace("Z", "+00:00"))).total_seconds() / 60
@@ -242,15 +247,23 @@ jobs:
               tv = json.load(open("topview-status.json", encoding="utf-8")).get("checked_at")
           except Exception:
               tv = None
+          # Only HEALTHY monitor cycles count as liveness (owner rule 11.10): a degraded,
+          # errored or phase-incomplete cycle must not keep the alert quiet.
           try:
-              mon = (json.load(open("automation-monitor-status.json", encoding="utf-8")).get("last_scheduled_cycle") or {}).get("completed_at")
+              st = json.load(open("automation-monitor-status.json", encoding="utf-8"))
+              cand = [st.get("last_successful_cycle_at")] + list((st.get("last_successful_by_runner") or {}).values())
+              cyc = st.get("last_scheduled_cycle") or {}
+              if cyc.get("health") == "ok" and not cyc.get("phases_missing"):
+                  cand.append(cyc.get("completed_at"))
+              cand = [c for c in cand if c]
+              mon = max(cand, key=age_key) if cand else None
           except Exception:
               mon = None
           a_tv, a_mon = age(tv), age(mon)
           # The monitor cycle is the signal; Topview age is used only if the cycle record is missing.
           state = "silent" if (a_mon if mon else a_tv) > LIMIT_MIN else "ok"
           fmt = lambda m: "нет данных" if m == float("inf") else f"{m/60:.1f} ч"
-          print(state, f"Topview_checked_at={tv}({fmt(a_tv)})_monitor_cycle={mon}({fmt(a_mon)})")
+          print(state, f"Topview_checked_at={tv}({fmt(a_tv)})_last_healthy_monitor_cycle={mon}({fmt(a_mon)})")
           PY
           )
           echo "Monitor watchdog: $STATE $DETAIL"
