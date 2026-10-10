@@ -1,3 +1,14 @@
+## LIVE CHECKPOINT — 11.10.2026 · Сцена 38 и «Квест трёх ключей» (решение владельца)
+
+Этот пункт новее checkpoint от 10.10 и обязателен при следующей передаче смены. Не подменяет полный bootstrap из 7 Drive canonical instructions → exact Drive master → live `project-status.json`, `topview-status.json`, `instruction-sync-status.json`. Время, роли и статусы всегда перепроверять live.
+
+- **Сцена 38 опубликована**: Серёга рассматривает древний компьютер в заброшенном храме, 30s Wan 3.0, `DRAFT`, прямое продолжение Scene 35. Не повторять находку ПК; ПК остаётся выключенным. Для READY потребуются точный конечный кадр Scene 35 и проверка continuity. Никаких автоматических рендеров/редакционного approval. Тот же canonical Drive `video-prompts.md` ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` — raw SHA-256 `9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a`, **18 сцен / 51 промт**. GitHub `project-status.json` подтверждён `health=ok`, Pages deployment успешен на 10.10.2026 22:19 UTC. Исторические ниже 17/50 не считать актуальными.
+- **Квест трёх ключей — активная незавершённая архитектурная задача**, владелец подтвердил цель: сайт — полноценный пульт управления фильмом, действия и Topview-мониторинг независимы от компьютера, лимитов Claude и ChatGPT Work. Канонический `film-backlog.md` same-ID Drive и GitHub mirror содержит задачу; подробные шаги в `ops/QUEST-THREE-KEYS.md`, `ops/PLAN-OWNER-PANEL-AUTOMATION.md` и `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`.
+- **Доступы пока НЕ подтверждены**: `GDRIVE_SA_KEY` (service account JSON, GitHub Actions Secret с editor-доступом только к папке master), `SUPABASE_SERVICE_ROLE_KEY` (GitHub Actions Secret для `owner_decisions`), `TOPVIEW_API_KEY` (GitHub Actions Secret) и `TOPVIEW_UID` (GitHub Actions Variable). Не получать/публиковать значения ключей в чат, репозиторий, сайт или бэкапы. Владелец добавляет их приватно.
+- **Проверка до переключения**: same-ID Drive test + raw SHA readback; Supabase owner-button E2E с безопасным ack; GitHub exact mirrors/validator/status/Pages; Topview read-only API probe, проверка полного покрытия boards и всех шести unlimited slots (отдельный task query не доказывает полноту). До проверки не заявлять «готово», не показывать выдуманный X/6, не отключать действующий «AI Film — единый монитор», не включать архивные Recovery и slot-watcher. Технический успех Topview не означает одобрение.
+
+---
+
 ## СТАРТ ДЛЯ СМЕНЩИКА — действующее состояние на 10.10.2026, 20:55 МСК (Claude). Читать первым
 
 ## LIVE CHECKPOINT — 11.10.2026 МСК · смена ChatGPT, 10.10 21:27 UTC
