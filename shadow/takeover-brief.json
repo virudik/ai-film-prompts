@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T15:02:52+00:00",
+ "generated_at": "2026-10-10T17:02:51+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,20 +10,20 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "d4af85a4b5be86913e0876ac5f4ef34a047567181fc7d98aa63b5609cf35604d",
-   "bytes": 245497
+   "sha256": "b20a494ad454df9095b24dc5c78d49b42e94c51344f2e478c9f21b663240df84",
+   "bytes": 251046
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "3dc18186a627a1444f96d5a777e37fa19eb6f5c03cede875226a587a87860b89",
-   "bytes": 114222
+   "sha256": "9cda65809528f0d6e9c7b3341845b2273145709dd08e3aee2237c6ceca4a8d96",
+   "bytes": 116238
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "50ab244861a9e6f3eeaec2b0127cbcd2a4fe9bed993ddfefe0becc58df09a400",
-   "bytes": 103234
+   "sha256": "593d35f0c8d47f5fd8eb13f8adc5071c9f4fa23426fc72afb507581dd10ba40f",
+   "bytes": 104058
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
@@ -34,20 +34,20 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "9c9850b9049787182edd63db671a050bd96d032df7dad4037d8ff9fc80380a21",
-   "bytes": 97824
+   "sha256": "9e710a5e01bb650230db00b7b041016826bc196da9e423c52d459d3674ff74a9",
+   "bytes": 100734
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "123d8b0e8a16a20e92decdf10a8b7104e6f0e494a0703b63b2381114e9bf90b8",
-   "bytes": 75349
+   "sha256": "3fd2d64b0a94a05d37b4645a143428ad6999bfd84aef7cac99ad4d21f45b4ee2",
+   "bytes": 75959
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "8c0b7a09bc1023b09cbbb73d2751dd9e34ea5c72840e2dbd2168b12e3494c210",
-   "bytes": 86559
+   "sha256": "c480e9d193bbfdfd632d0cbf0418dbb44e92a0b1051b7f5f60b6eec3eb82a5b4",
+   "bytes": 87169
   },
   {
    "file": "video-prompts.md",
@@ -63,7 +63,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 2\\. Источники истины",
    "anchor_ok": true,
-   "section_sha256_12": "a70a40a6d58e"
+   "section_sha256_12": "78e2dfab6280"
   },
   {
    "id": "INV-ONE-MASTER",
@@ -119,7 +119,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Действующее расписание",
    "anchor_ok": true,
-   "section_sha256_12": "d88ef8541d2a"
+   "section_sha256_12": "7deee2085410"
   },
   {
    "id": "INV-NO-FAKE-TIME",
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 81042,
-  "above_marker_chars": 38129,
+  "chars": 84091,
+  "above_marker_chars": 40863,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,7 +194,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "0ebd0eb5fc81",
+  "sha256_12": "dbf45c0bec21",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
