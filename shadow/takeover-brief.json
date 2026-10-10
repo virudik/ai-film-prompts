@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T17:32:27+00:00",
+ "generated_at": "2026-10-10T17:32:46+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
-   "bytes": 592123
+   "sha256": "2e8111940cd108cb4639eadad69c6940456188037be5e471ab8f8b9995acf149",
+   "bytes": 592442
   }
  ],
  "invariants": [
@@ -267,7 +267,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 26056,
+   "offset": 26115,
    "chars": 7589,
    "sha256_12": "4bcf7357b408"
   },
@@ -288,7 +288,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 33645,
+   "offset": 33704,
    "chars": 7380,
    "sha256_12": "cc7a847ac011"
   },
@@ -303,7 +303,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 41025,
+   "offset": 41084,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -325,7 +325,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 53585,
+   "offset": 53644,
    "chars": 13140,
    "sha256_12": "17f27d6e4cb0"
   },
@@ -348,7 +348,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 66725,
+   "offset": 66784,
    "chars": 16173,
    "sha256_12": "611dc54063c4"
   },
@@ -369,7 +369,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 82898,
+   "offset": 82957,
    "chars": 9550,
    "sha256_12": "a0b923994ec4"
   },
@@ -378,7 +378,7 @@
    "title": "Маша-Лагуна: рок-припев у озера",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": "en",
    "depends_on": [],
@@ -392,9 +392,9 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 92448,
-   "chars": 169095,
-   "sha256_12": "6320c046e5f5"
+   "offset": 92507,
+   "chars": 169240,
+   "sha256_12": "923f01691381"
   },
   {
    "id": 21,
@@ -412,7 +412,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 261543,
+   "offset": 261747,
    "chars": 14407,
    "sha256_12": "53eb9b26374f"
   },
@@ -430,7 +430,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275950,
+   "offset": 276154,
    "chars": 11876,
    "sha256_12": "ac8ea0da407a"
   },
@@ -450,7 +450,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 287826,
+   "offset": 288030,
    "chars": 8502,
    "sha256_12": "7c7acf98efda"
   },
@@ -472,7 +472,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 296328,
+   "offset": 296532,
    "chars": 10009,
    "sha256_12": "86d19bea3cb2"
   },
@@ -494,7 +494,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 306337,
+   "offset": 306541,
    "chars": 7688,
    "sha256_12": "0951b58b93f8"
   },
@@ -516,7 +516,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 314025,
+   "offset": 314229,
    "chars": 11023,
    "sha256_12": "e1a8783cfe9f"
   },
@@ -540,7 +540,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 325048,
+   "offset": 325252,
    "chars": 36052,
    "sha256_12": "74f9f994f645"
   },
@@ -560,7 +560,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 361100,
+   "offset": 361304,
    "chars": 130427,
    "sha256_12": "c0a156267d76"
   },
@@ -581,7 +581,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 491527,
+   "offset": 491731,
    "chars": 5487,
    "sha256_12": "a1b98e0c7420"
   },
@@ -605,7 +605,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 497014,
+   "offset": 497218,
    "chars": 7718,
    "sha256_12": "15792ffc960a"
   },
@@ -629,7 +629,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 504732,
+   "offset": 504936,
    "chars": 7534,
    "sha256_12": "e63eaa1e0ebc"
   },
@@ -653,7 +653,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 512266,
+   "offset": 512470,
    "chars": 7717,
    "sha256_12": "aaa2050e2dfd"
   },
@@ -671,7 +671,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 519983,
+   "offset": 520187,
    "chars": 4600,
    "sha256_12": "c434640420c2"
   },
@@ -691,7 +691,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 524583,
+   "offset": 524787,
    "chars": 4931,
    "sha256_12": "2f5bc485bf9d"
   }

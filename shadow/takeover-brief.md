@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-10T17:32:27+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-10T17:32:46+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 101392 B · `3c6d68a9e1801413`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 76202 B · `92348d0f49489db2`
 - BACKUP-AI-RUNBOOK.md · Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 87412 B · `047d4f00dca32be8`
-- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 592123 B · `ec8d8d23965432c7`
+- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 592442 B · `2e8111940cd108cb`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache. → `AI-PROJECT-GUIDE.md` ✓
@@ -48,7 +48,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 17f27d6e4cb0 |
 | 17 | Пещера: передышка после монстра и разговор о карте | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [] | 611dc54063c4 |
 | 19 | Рыбалка и Маша-Лагуна | Wan 3.0 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | a0b923994ec4 |
-| 20 | Маша-Лагуна: рок-припев у озера | Seedance 2.5 | READY/SLOW_PENDING | 13 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [] | 6320c046e5f5 |
+| 20 | Маша-Лагуна: рок-припев у озера | Seedance 2.5 | READY/IDLE | 13 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [] | 923f01691381 |
 | 21 | Мостик → космическая битва: бесшовный пролёт через окно | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 53eb9b26374f |
 | 22 | Разрушенная станция → внутренний коридор: бесшовный пролёт ч | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 | [] | ac8ea0da407a |
 | 23 | Люди → коты-джедаи: бесшовное раскрытие второго плана | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 7c7acf98efda |
