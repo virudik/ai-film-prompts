@@ -70,7 +70,7 @@
   "phases": {
     "topview": {
       "status": "complete",
-      "checked_at": "2026-10-09T12:10:01.949Z",
+      "checked_at": "2026-10-10T16:11:51Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 554,
       "pages_scanned": 14,
@@ -121,21 +121,15 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-09T12:04:53.000Z",
-    "completed_at": "2026-10-09T12:15:51.133Z",
+    "started_at": "2026-10-10T16:11:17Z",
+    "completed_at": "2026-10-10T16:13:41Z",
     "health": "ok",
     "phases_completed": [
-      "topview_account_scan",
-      "scene_intake",
-      "telemetry_map_status_checkpoint_publication",
-      "instruction_exact_7_of_7",
-      "canonical_drive_github_sync",
-      "public_pages_readback",
-      "light_health"
+      "complete"
     ],
     "phases_missing": [],
-    "deep_audit": "not_due",
-    "notification": "topview_connector_recovered"
+    "runner": "claude_scheduled_task",
+    "note": "Claude monitor: full scan 11 boards/554 video; slow 16,20 init (queue 868/149), no new/finished tasks; master SHA verified vs Drive; 35 owner site decisions (22 unique) applied to review-ledger; deep audit (>24h) still owed — site validated, full 7-doc audit deferred to a working chat."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -186,8 +180,8 @@
     "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
     "topview_live_result": "complete_5_of_6_occupied"
   },
-  "last_completed_cycle_at": "2026-10-09T12:10:01.949Z",
-  "last_successful_cycle_at": "2026-10-09T12:10:01.949Z",
+  "last_completed_cycle_at": "2026-10-10T16:13:41Z",
+  "last_successful_cycle_at": "2026-10-10T16:13:41Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -197,5 +191,8 @@
     "takes_over_when": "primary last cycle older than monitor-role.json failover_after_minutes",
     "note": "Owner decision 2026-10-10: two monitors, one primary, one standby; roles switch only by owner command. ChatGPT must read monitor-role.json before writing (its prompt still needs that update when its limit resets)."
   },
-  "role_file": "monitor-role.json"
+  "role_file": "monitor-role.json",
+  "last_completed_by_runner": {
+    "claude": "2026-10-10T16:13:41Z"
+  }
 }
