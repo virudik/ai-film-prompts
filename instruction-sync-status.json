@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T17:30:40.000Z",
-  "verification_mode": "chatgpt_live_exact_7_of_7_Drive_GitHub_utf8_sha256_after_owner_3h_failover",
+  "checked_at": "2026-10-10T20:02:32.133Z",
+  "verification_mode": "chatgpt_live_exact_drive_github_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-10T17:25:19.413Z",
-      "github_blob": "6cbb089f5e653894b0f41b0991525cdc76fc0e0a",
-      "drive_sha256": "e74a3b72a4cb72e8bbbf7abab146b38cc5a5fe63e12801b6a234d63ea42c71dd",
-      "mirror_sha256": "e74a3b72a4cb72e8bbbf7abab146b38cc5a5fe63e12801b6a234d63ea42c71dd",
+      "drive_modified_at": "2026-10-10T17:59:34.931Z",
+      "github_blob": "07a0a0aae237ec486cd4599094514cb2f1ff8354",
+      "drive_sha256": "ced2e05b38eeb4eb58b75487bb1b1e1b002b5f68b77ef130f98d7cd514c5c9fe",
+      "mirror_sha256": "ced2e05b38eeb4eb58b75487bb1b1e1b002b5f68b77ef130f98d7cd514c5c9fe",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -41,10 +41,10 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-10T17:25:19.330Z",
-      "github_blob": "5f6489df2dcdb5dee514dc0ac0dacec100f8d482",
-      "drive_sha256": "3c6d68a9e180141304951493e0abfb0047035a62eac60464cb9c61d4f34b2b41",
-      "mirror_sha256": "3c6d68a9e180141304951493e0abfb0047035a62eac60464cb9c61d4f34b2b41",
+      "drive_modified_at": "2026-10-10T17:50:37.960Z",
+      "github_blob": "0d5d7cd8c71abd7530f8a8978b340b390dcd620d",
+      "drive_sha256": "8ffc38b201658ba25b5bf5c614d266403fde4f924dbf3905ce021b8485433b63",
+      "mirror_sha256": "8ffc38b201658ba25b5bf5c614d266403fde4f924dbf3905ce021b8485433b63",
       "match": true
     },
     "README-AI-SYNC.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "10.10.2026 fresh exact 7/7 Drive↔GitHub SHA256 verified after updating all seven same-ID canonical docs and GitHub mirrors for automatic 3-hour monitor failover; ChatGPT standby prompt updated; Library recovery copied from fresh canonical Drive; master untouched (SHA ec8d8d23...). Scheduled monitor execution remains separately unverified; do not treat this certificate as a completed monitor cycle.",
+  "note": "10.10.2026 manually rechecked 7/7 exact canonical Drive→GitHub instruction hashes after restoring later Claude edits in NEW-CHAT-HANDOFF.md and USER-GUIDE.md; this certificate is not a completed scheduled monitor cycle. Site owner task popup and owner decision ledger changed separately; same-ID master unchanged; 7 in-film scenes await canonical Drive cleanup.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
