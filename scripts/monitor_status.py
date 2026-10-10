@@ -22,6 +22,10 @@ d["last_scheduled_cycle"] = {"started_at": a.started, "completed_at": a.complete
                              "phases_completed": a.phase, "phases_missing": a.missing, "runner": "claude_scheduled_task",
                              "note": a.note}
 d["last_completed_cycle_at"] = a.completed
+# Last completed cycle per actual runner: standby cycles must never count as
+# proof that the preferred primary has recovered.
+d.setdefault("last_completed_by_runner", {})["claude"] = a.completed
+d["last_scheduled_cycle"]["runner"] = "claude_scheduled_task"
 if a.health == "ok":
     d["last_successful_cycle_at"] = a.completed
 d["health"] = a.health
