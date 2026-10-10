@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T05:57:47.136Z",
+  "checked_at": "2026-10-10T06:04:14.757Z",
   "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -33,10 +33,10 @@
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-07T14:24:31.241Z",
-      "github_blob": "d5415a154920b6166916e3919d341139e35deaf8",
-      "drive_sha256": "21ed16f6a362465d8b21c759b0886bfbcdcd682911a273e7cf0121b6d3b6541f",
-      "mirror_sha256": "21ed16f6a362465d8b21c759b0886bfbcdcd682911a273e7cf0121b6d3b6541f",
+      "drive_modified_at": "2026-10-10T06:01:30.630Z",
+      "github_blob": "ed68c8342630e7d93971ad3aeca0b2618e15a709",
+      "drive_sha256": "6568b9b97ea30ab268b0d593d6dc7ce48e78cb1d3db510cb7b45742286844537",
+      "mirror_sha256": "6568b9b97ea30ab268b0d593d6dc7ce48e78cb1d3db510cb7b45742286844537",
       "match": true
     },
     "USER-GUIDE.md": {
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Claude 10.10: full Drive downloads of all 7 docs hashed against mirrors; AI-PROJECT-GUIDE.md §10 aligned with the current slow model (contradiction found by the TZ2 full-canon check), same ID, read-back verified. Stale prose fields (revision date, cat-branch runtime) replaced by live pointers.",
+  "note": "Claude 10.10: full Drive downloads of all 7 docs hashed against mirrors; PROMPT-STYLE-GUIDE.md 30.09 block marked partly superseded for Scene 26 (block 05.10 governs), same ID, read-back verified.",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
