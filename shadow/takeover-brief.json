@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T10:41:15+00:00",
+ "generated_at": "2026-10-10T11:27:15+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,44 +10,44 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "0a04824158594cc8f7c170f5c04e8b5f0fd12af65510adb1e62fe605b464d51f",
-   "bytes": 218818
+   "sha256": "307cf68433be56e1784f73c02866f24bb527c9a06e998cb064abc2531de8476f",
+   "bytes": 227032
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "97d54b717b2ce6c5c1fdc3f3b28ddb96966e5303a7ef82cc57c84bd724c7b8bf",
-   "bytes": 107928
+   "sha256": "73c8f30a7b871718634ecc8f6e9e8bed00e99e4e5abe556538eb5017bfc6e155",
+   "bytes": 110207
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "babcfd65c652ee0174794a9edce671b47d67672c228701a7cde861a0d0472f2d",
-   "bytes": 100620
+   "sha256": "274c224baf3572990988e650161de30e7d199ea15573b238fb6f0b5aff361d8b",
+   "bytes": 101274
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "6568b9b97ea30ab268b0d593d6dc7ce48e78cb1d3db510cb7b45742286844537",
-   "bytes": 70192
+   "sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
+   "bytes": 70332
   },
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
-   "bytes": 91208
+   "sha256": "d157578ed6ee81dd1ee3b8ba82cd7832180b003885b909db587ae8f2d1602979",
+   "bytes": 92234
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
-   "bytes": 72363
+   "sha256": "2c055acd9a2ee58bd936c921845ecbc30aa08914358388f651c2edc05ca3bc6f",
+   "bytes": 73389
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
-   "bytes": 81119
+   "sha256": "f1923979e0bec66b3e4df02dd72c1a387b0447d0930d738a3af9487b68636c8e",
+   "bytes": 82141
   },
   {
    "file": "video-prompts.md",
@@ -71,7 +71,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "5dfd1d65442c"
+   "section_sha256_12": "c616615dfdba"
   },
   {
    "id": "INV-FRESH-WRITE",
@@ -95,7 +95,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "5dfd1d65442c"
+   "section_sha256_12": "c616615dfdba"
   },
   {
    "id": "INV-SUCCESS-NOT-APPROVAL",
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 65950,
-  "above_marker_chars": 24228,
+  "chars": 70261,
+  "above_marker_chars": 28444,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,8 +194,9 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "71d2aaac866d",
+  "sha256_12": "6f162812809c",
   "extra_current_sections": [
+   "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
