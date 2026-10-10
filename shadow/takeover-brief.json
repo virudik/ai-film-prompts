@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T21:33:12+00:00",
+ "generated_at": "2026-10-10T22:16:41+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "7389ce692e15048c37eba463c01c39f892dbb82de55ffa4c6bdf1a16942e0d3d",
-   "bytes": 537986
+   "sha256": "9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a",
+   "bytes": 548543
   }
  ],
  "invariants": [
@@ -203,8 +203,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 17,
-  "prompt_texts": 50,
+  "scenes": 18,
+  "prompt_texts": 51,
   "scene_ids": [
    13,
    16,
@@ -222,9 +222,10 @@
    34,
    35,
    36,
-   37
+   37,
+   38
   ],
-  "latest_scene": 37,
+  "latest_scene": 38,
   "reserved": [
    1,
    2,
@@ -266,7 +267,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 25284,
+   "offset": 25671,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -288,7 +289,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 37844,
+   "offset": 38231,
    "chars": 13140,
    "sha256_12": "2d0b42cac782"
   },
@@ -311,7 +312,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 50984,
+   "offset": 51371,
    "chars": 169240,
    "sha256_12": "923f01691381"
   },
@@ -331,7 +332,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 220224,
+   "offset": 220611,
    "chars": 14407,
    "sha256_12": "106cff4a5cea"
   },
@@ -351,7 +352,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 234631,
+   "offset": 235018,
    "chars": 9978,
    "sha256_12": "de5774965c9b"
   },
@@ -373,7 +374,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 244609,
+   "offset": 244996,
    "chars": 7688,
    "sha256_12": "0951b58b93f8"
   },
@@ -395,7 +396,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 252297,
+   "offset": 252684,
    "chars": 11023,
    "sha256_12": "e1a8783cfe9f"
   },
@@ -419,7 +420,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 263320,
+   "offset": 263707,
    "chars": 36052,
    "sha256_12": "74f9f994f645"
   },
@@ -439,7 +440,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 299372,
+   "offset": 299759,
    "chars": 130427,
    "sha256_12": "dcd69af7849d"
   },
@@ -463,7 +464,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 429799,
+   "offset": 430186,
    "chars": 7718,
    "sha256_12": "15792ffc960a"
   },
@@ -487,7 +488,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 437517,
+   "offset": 437904,
    "chars": 7534,
    "sha256_12": "e63eaa1e0ebc"
   },
@@ -511,7 +512,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 445051,
+   "offset": 445438,
    "chars": 7717,
    "sha256_12": "aaa2050e2dfd"
   },
@@ -529,7 +530,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 452768,
+   "offset": 453155,
    "chars": 4600,
    "sha256_12": "c434640420c2"
   },
@@ -549,7 +550,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 457368,
+   "offset": 457755,
    "chars": 4960,
    "sha256_12": "2359ffefb996"
   },
@@ -570,7 +571,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 462328,
+   "offset": 462715,
    "chars": 6397,
    "sha256_12": "be29369dada9"
   },
@@ -589,7 +590,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 468725,
+   "offset": 469112,
    "chars": 5915,
    "sha256_12": "05d5c70b6b3a"
   },
@@ -610,9 +611,30 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 474640,
-   "chars": 6349,
-   "sha256_12": "46ef85e2f03c"
+   "offset": 475027,
+   "chars": 6373,
+   "sha256_12": "b4ce1e9cae62"
+  },
+  {
+   "id": 38,
+   "title": "Серёга рассматривает древний компьютер в заброшенном храме",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    35
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 481400,
+   "chars": 8519,
+   "sha256_12": "e8c5acb610b3"
   }
  ],
  "read_sets": {
