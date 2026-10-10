@@ -1,6 +1,6 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 
-// AI Film owner-only decisions and free-text owner tasks (v5, prepared 10.10.2026).
+// AI Film owner-only decisions and free-text owner tasks (v6, 10.10.2026: + in_film).
 // Custom auth: header x-owner-key must equal the OWNER_DECISION_KEY secret (the owner's own
 // password, set by the owner in the Supabase dashboard; never in HTML, GitHub or chat).
 // verify_jwt is off on purpose because this check replaces it.
@@ -8,7 +8,7 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 const SERVICE_ROLE = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
 const OWNER_KEY = Deno.env.get("OWNER_DECISION_KEY") || "";
 const ALLOWED_ORIGINS = new Set(["https://virudik.github.io", "https://рудик.рф", "https://xn--d1aigvp.xn--p1ai"]);
-const ACTIONS = new Set(["accept", "redo", "to_montage", "scene_not_needed", "tv_drop_task", "tv_mark_status", "owner_task"]);
+const ACTIONS = new Set(["accept", "redo", "to_montage", "scene_not_needed", "tv_drop_task", "tv_mark_status", "owner_task", "in_film"]);
 const TV_STATUSES = new Set(["result_ok", "result_bad", "not_waiting", "failed"]);
 
 function cors(origin: string | null) {

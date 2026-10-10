@@ -625,10 +625,10 @@ Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)t
 <script>
 (()=>{
 const API='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/owner-decision',PUB='sb_publishable_Jk9lV1ZxYXvn5-XK7ICYBQ_TxdQrTut',LS='aifilm_owner_key';
-const SCENE_ACTIONS=[['accept','✓ Принять',''],['redo','↺ Переделать',''],['to_montage','🎬 В монтаж',''],['scene_not_needed','✕ Не нужна','danger'],['owner_task','✎ Задача','']];
+const SCENE_ACTIONS=[['accept','✓ Принять',''],['redo','↺ Переделать',''],['to_montage','🎬 В монтаж',''],['in_film','🎞 В фильме',''],['scene_not_needed','✕ Не нужна','danger'],['owner_task','✎ Задача','']];
 const TV_ACTIONS=[['tv_drop_task','Не ждать','danger',null],['tv_mark_status','Готово ✓','', 'result_ok'],['tv_mark_status','Брак','danger','result_bad']];
-const DONE_ACTIONS=[['accept','✓ Принять','',null],['redo','↺ Переделать','',null],['to_montage','🎬 В монтаж','',null],['tv_mark_status','Брак','danger','result_bad']];
-const LABEL={accept:'принять',redo:'переделать',to_montage:'в монтаж',scene_not_needed:'сцена не нужна',tv_drop_task:'не ждать генерацию',tv_mark_status:'статус генерации',owner_task:'задача'};
+const DONE_ACTIONS=[['accept','✓ Принять','',null],['redo','↺ Переделать','',null],['to_montage','🎬 В монтаж','',null],['in_film','🎞 В фильме','',null],['tv_mark_status','Брак','danger','result_bad']];
+const LABEL={accept:'принять',redo:'переделать',to_montage:'в монтаж',scene_not_needed:'сцена не нужна',tv_drop_task:'не ждать генерацию',tv_mark_status:'статус генерации',owner_task:'задача',in_film:'в фильме — убрать из активных'};
 const get=()=>{try{return localStorage.getItem(LS)||''}catch(e){return ''}},set=v=>{try{v?localStorage.setItem(LS,v):localStorage.removeItem(LS)}catch(e){}};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const toast=t=>{const d=document.createElement('div');d.className='owner-toast';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),4200)};
