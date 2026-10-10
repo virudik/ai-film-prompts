@@ -15,8 +15,8 @@
     "since": "2026-10-10",
     "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
     "role": "primary",
-    "bound_to_owner_computer": false,
-    "binding_note": "10.10.2026: scheduled task не привязана к компьютеру (нет bound_device); без привязки same-ID запись master невозможна — при смене slow цикл degraded. Привязку включает владелец («Требовать этот компьютер» в приложении Claude)."
+    "bound_to_owner_computer": "app_says_required_but_run_had_no_J_access",
+    "binding_note": "10.10.2026: в приложении Claude у задачи «Требуется этот компьютер (Vint)» (поле bound_device в list_triggers этого не показывает), но запуск 20:10 МСК доступа к диску J: не получил (cycle degraded). Компьютер нужен только для same-ID записи master."
   },
   "retired_automations": [
     {
