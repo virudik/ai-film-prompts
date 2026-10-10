@@ -2089,7 +2089,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 24 — Коты в кабине: запуск корабля и взлёт
 
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":23}],"tags":["cats","cockpit","takeoff","continuous_take","character_identity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["cats","cockpit","takeoff","continuous_take","character_identity"]} -->
 
 **✅ Технический результат Topview получен (02.10.2026); редакционное решение не принято.**
 
