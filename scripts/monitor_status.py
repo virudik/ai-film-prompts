@@ -28,6 +28,7 @@ d.setdefault("last_completed_by_runner", {})["claude"] = a.completed
 d["last_scheduled_cycle"]["runner"] = "claude_scheduled_task"
 if a.health == "ok" and not a.missing:
     d["last_successful_cycle_at"] = a.completed
+    d["last_successful_cycle_runner"] = "claude_scheduled_task"
     # Reliable per-runner healthy heartbeat for sticky failover. Never update
     # it for degraded, errored, or phase-incomplete scheduled cycles.
     d.setdefault("last_successful_by_runner", {})["claude"] = a.completed
