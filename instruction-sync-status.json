@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T21:33:02.069Z",
+  "checked_at": "2026-10-10T22:28:06.906Z",
   "verification_mode": "chatgpt_live_exact_drive_github_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -9,10 +9,10 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-10T21:30:18.419Z",
-      "github_blob": "2319e799182a3a7cefcff3a202bef6cade1f8b1b",
-      "drive_sha256": "c574064d4be55a086f017e517ae6a9c227410d42560dc0b26b71a255aaa0d978",
-      "mirror_sha256": "c574064d4be55a086f017e517ae6a9c227410d42560dc0b26b71a255aaa0d978",
+      "drive_modified_at": "2026-10-10T22:26:27.227Z",
+      "github_blob": "c4bdfbec552ea59d5eff4c7628d75b870cc2424b",
+      "drive_sha256": "8b4c4f4a750909c48c3cbc6d6b45a0849bc183e812e49e8ab734816eeb0c70a2",
+      "mirror_sha256": "8b4c4f4a750909c48c3cbc6d6b45a0849bc183e812e49e8ab734816eeb0c70a2",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
@@ -41,7 +41,7 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-10T21:30:49.072Z",
+      "drive_modified_at": "2026-10-10T22:21:34.861Z",
       "github_blob": "118d3fca34546874ff22092e87a72d7c329511b8",
       "drive_sha256": "0962f478aca8d540b8a75a39e0e4c7c53f5b3b7255e159d3d013f82e29bf60d0",
       "mirror_sha256": "0962f478aca8d540b8a75a39e0e4c7c53f5b3b7255e159d3d013f82e29bf60d0",
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "11.10.2026 UTC: fresh 7/7 exact Drive-GitHub instruction verification. Master 17 scenes, 50 prompts; retired in-film scenes 10,11,17,19,22,23,29; added DRAFT 35–37; monitor failover test passed. Independent GitHub Drive writer still awaits secure key and tests.",
+  "note": "11.10.2026: same-ID Drive NEW-CHAT-HANDOFF.md patched with Scene 38 and three-key control-center quest; exact Drive↔GitHub instruction mirror verified 7/7. Canonical master 18 active scenes / 51 prompts, Scene 38 DRAFT. Three-key GitHub Actions autonomy remains planned/unverified, API keys not confirmed; Topview free slots require full-board coverage before publishing.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
