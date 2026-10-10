@@ -2,9 +2,10 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T14:58:18+00:00",
+ "generated_at": "2026-10-10T14:59:29+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [
+  "NEW-CHAT-HANDOFF.md",
   "SYNC-RUNBOOK.md",
   "AI-PROJECT-GUIDE.md",
   "PROMPT-STYLE-GUIDE.md",
@@ -17,8 +18,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "808ac50e2a8247d2304b8b2174d20ac747519a8cbaee3b744462192261cd4867",
-   "bytes": 241104
+   "sha256": "d4af85a4b5be86913e0876ac5f4ef34a047567181fc7d98aa63b5609cf35604d",
+   "bytes": 245497
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -187,8 +188,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 79499,
-  "above_marker_chars": 36825,
+  "chars": 81042,
+  "above_marker_chars": 38129,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -201,7 +202,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "3bea4725308c",
+  "sha256_12": "0ebd0eb5fc81",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",

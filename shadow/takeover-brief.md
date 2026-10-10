@@ -2,14 +2,14 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-10T14:58:18+00:00. Валиден при генерации: **False** (расхождения: ['SYNC-RUNBOOK.md', 'AI-PROJECT-GUIDE.md', 'PROMPT-STYLE-GUIDE.md', 'USER-GUIDE.md', 'README-AI-SYNC.md', 'BACKUP-AI-RUNBOOK.md'])
+Сгенерирован 2026-10-10T14:59:29+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md', 'SYNC-RUNBOOK.md', 'AI-PROJECT-GUIDE.md', 'PROMPT-STYLE-GUIDE.md', 'USER-GUIDE.md', 'README-AI-SYNC.md', 'BACKUP-AI-RUNBOOK.md'])
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 241104 B · `808ac50e2a8247d2`
+- NEW-CHAT-HANDOFF.md · Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 245497 B · `d4af85a4b5be8691`
 - SYNC-RUNBOOK.md · Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 114222 B · `3dc18186a627a144`
 - AI-PROJECT-GUIDE.md · Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 103234 B · `50ab244861a9e6f3`
 - PROMPT-STYLE-GUIDE.md · Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 70779 B · `aac8ddcd75a6bc25`
@@ -74,4 +74,4 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (79499 симв., sha `3bea4725308c`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (81042 симв., sha `0ebd0eb5fc81`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
