@@ -312,3 +312,61 @@ jobs:
           done
           echo "Could not publish CI state change (best effort)." >&2
           exit 0
+
+  owner_decisions:
+    name: Apply deterministic owner buttons (Supabase -> review ledger)
+    needs: [sync]
+    # This job stays independent of a failed Drive mirror sync, but is never
+    # a third creative monitor. It runs on the EXISTING 30-minute schedule.
+    if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Process site button decisions without modifying master
+        shell: bash
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then
+            echo "::notice::Owner sync not configured: missing SUPABASE_SERVICE_ROLE_KEY GitHub Actions secret"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          applied=0
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            rm -f /tmp/owner-decisions-plan.json
+            python3 scripts/process_owner_decisions.py prepare --plan /tmp/owner-decisions-plan.json
+            count="$(python3 -c 'import json; print(len(json.load(open("/tmp/owner-decisions-plan.json"))["updates"]))')"
+            if [ "$count" -eq 0 ]; then
+              echo "No deterministic buttons awaiting processing."
+              applied=1
+              break
+            fi
+            python3 scripts/validate_review_ledger.py
+            git add review-ledger.json
+            if git diff --cached --quiet; then
+              python3 scripts/process_owner_decisions.py ack --plan /tmp/owner-decisions-plan.json
+              applied=1
+              break
+            fi
+            git commit -m "Owner panel: apply $count verified decisions to review ledger"
+            if git push origin HEAD:main; then
+              python3 scripts/process_owner_decisions.py ack --plan /tmp/owner-decisions-plan.json
+              applied=1
+              break
+            fi
+            echo "GitHub main changed concurrently; re-reading latest ledger and retrying ($attempt/4)"
+          done
+          if [ "$applied" -ne 1 ]; then
+            echo "Failed to publish reviewed owner decisions after retries" >&2
+            exit 1
+          fi
