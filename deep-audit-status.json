@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-08T20:13:11.393Z",
-  "last_deep_audit_at": "2026-10-08T20:13:11.393Z",
-  "health": "ok",
+  "checked_at": "2026-10-10T16:54:41.365Z",
+  "last_deep_audit_at": "2026-10-10T16:54:41.365Z",
+  "health": "ok_with_findings_fix_pending_drive_upload",
   "sections": {
     "master": "ok",
     "prompts": "ok_with_review_items",
@@ -11,15 +11,16 @@
     "notion": "nonblocking_unchanged",
     "library": "pending_non_blocking",
     "site": "ok_public_pages_verified",
-    "supabase": "ok_unchanged_since_prior_deep_audit",
+    "supabase": "owner_decisions_owner_task_in_film_v6",
     "github_actions": "public_pages_verified_current",
     "recovery": "ok",
-    "automation_watchdog": "configuration_preserved_no_task_state_write",
+    "automation_watchdog": "two_monitors_primary_claude_not_bound_to_owner_computer",
     "one_writer_ownership": "ok",
-    "instructions": "ok_7_of_7_exact",
+    "instructions": "14_findings_12_deterministic_fixed_in_same_id_drive_write_pending_cloud_upload_2_need_owner",
     "topview_publication": "ok"
   },
   "repairs": [
+    "10.10.2026 deep audit (Claude chat): 14 findings across 7 docs; 12 deterministic (stale 'bound to computer', 'single monitor', pulse 45/100 min, D3 restart target, Scene 26 refs marker, historical checkpoints, HH:00/HH:05 sections marked УСТАРЕЛО, Supabase scope) fixed by same-ID J: writes — mirrors/7-of-7 follow after Drive cloud upload; 2 for owner: does the primary monitor create new Scene IDs automatically; Project Instructions still name 'единый монитор' as the only automation.",
     "Reconciled Scene 3 terminal Topview success and removed only its render-slow state while preserving editorial neutrality.",
     "Completed review-ledger schema 2 validator/reconciler migration and safe concurrent publish retry.",
     "Decoupled recovery integration tests from live slow Scene IDs; latest six-test run passed.",
