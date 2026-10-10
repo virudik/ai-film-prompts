@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T06:09:52+00:00",
+ "generated_at": "2026-10-10T10:41:15+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
-   "bytes": 590845
+   "sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+   "bytes": 592123
   }
  ],
  "invariants": [
@@ -267,7 +267,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 25715,
+   "offset": 26056,
    "chars": 7589,
    "sha256_12": "4bcf7357b408"
   },
@@ -288,7 +288,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 33304,
+   "offset": 33645,
    "chars": 7380,
    "sha256_12": "cc7a847ac011"
   },
@@ -303,7 +303,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 40684,
+   "offset": 41025,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -325,7 +325,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 53244,
+   "offset": 53585,
    "chars": 13140,
    "sha256_12": "17f27d6e4cb0"
   },
@@ -348,7 +348,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 66384,
+   "offset": 66725,
    "chars": 16173,
    "sha256_12": "611dc54063c4"
   },
@@ -369,7 +369,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 82557,
+   "offset": 82898,
    "chars": 9550,
    "sha256_12": "a0b923994ec4"
   },
@@ -392,7 +392,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 92107,
+   "offset": 92448,
    "chars": 169095,
    "sha256_12": "6320c046e5f5"
   },
@@ -412,7 +412,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 261202,
+   "offset": 261543,
    "chars": 14407,
    "sha256_12": "53eb9b26374f"
   },
@@ -430,7 +430,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275609,
+   "offset": 275950,
    "chars": 11876,
    "sha256_12": "ac8ea0da407a"
   },
@@ -450,7 +450,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 287485,
+   "offset": 287826,
    "chars": 8502,
    "sha256_12": "7c7acf98efda"
   },
@@ -472,7 +472,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 295987,
+   "offset": 296328,
    "chars": 10009,
    "sha256_12": "86d19bea3cb2"
   },
@@ -494,7 +494,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 305996,
+   "offset": 306337,
    "chars": 7688,
    "sha256_12": "0951b58b93f8"
   },
@@ -516,7 +516,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 313684,
+   "offset": 314025,
    "chars": 11023,
    "sha256_12": "e1a8783cfe9f"
   },
@@ -540,7 +540,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 324707,
+   "offset": 325048,
    "chars": 36052,
    "sha256_12": "74f9f994f645"
   },
@@ -560,9 +560,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 360759,
-   "chars": 130411,
-   "sha256_12": "e99966898051"
+   "offset": 361100,
+   "chars": 130427,
+   "sha256_12": "c0a156267d76"
   },
   {
    "id": 29,
@@ -581,7 +581,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 491170,
+   "offset": 491527,
    "chars": 5487,
    "sha256_12": "a1b98e0c7420"
   },
@@ -590,7 +590,7 @@
    "title": "Коты против Серёги: разрушение колоннады",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -605,16 +605,16 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 496657,
-   "chars": 7573,
-   "sha256_12": "0f9a88e3c28b"
+   "offset": 497014,
+   "chars": 7718,
+   "sha256_12": "15792ffc960a"
   },
   {
    "id": 31,
    "title": "Коты против Серёги: лестница и телекинетические обломки",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -629,16 +629,16 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 504230,
-   "chars": 7389,
-   "sha256_12": "146849dd71b5"
+   "offset": 504732,
+   "chars": 7534,
+   "sha256_12": "e63eaa1e0ebc"
   },
   {
    "id": 32,
    "title": "Коты против Серёги: обрушение древней арки",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -653,9 +653,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 511619,
-   "chars": 7572,
-   "sha256_12": "932e0f1dfc9b"
+   "offset": 512266,
+   "chars": 7717,
+   "sha256_12": "aaa2050e2dfd"
   },
   {
    "id": 33,
@@ -671,7 +671,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 519191,
+   "offset": 519983,
    "chars": 4600,
    "sha256_12": "c434640420c2"
   },
@@ -691,7 +691,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 523791,
+   "offset": 524583,
    "chars": 4931,
    "sha256_12": "2f5bc485bf9d"
   }

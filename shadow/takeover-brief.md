@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-10T06:09:52+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-10T10:41:15+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 91208 B · `6c26d0dbcfb97532`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 72363 B · `e471a8600d6a0ed5`
 - BACKUP-AI-RUNBOOK.md · Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 81119 B · `4301b58878494bcd`
-- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 590845 B · `7b336c1e90f1f6b3`
+- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 592123 B · `ec8d8d23965432c7`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache. → `AI-PROJECT-GUIDE.md` ✓
@@ -56,11 +56,11 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | 25 | Коты в кабине: космическое сражение | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [24] | 0951b58b93f8 |
 | 26 | Коты-магистры на планете ситхов: ультиматум Серёге | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [25] | e1a8783cfe9f |
 | 27 | Серёга против котов-магистров: бой на световых мечах | Seedance 2.5 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [26] | 74f9f994f645 |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/IDLE | 20 | @Image1 @Image2 @Image3 @Image4 | [] | e99966898051 |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/IDLE | 20 | @Image1 @Image2 @Image3 @Image4 | [] | c0a156267d76 |
 | 29 | Кантина: Илюха о плёнке на «Тысячелетнем соколе», часть 3 | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 | [11] | a1b98e0c7420 |
-| 30 | Коты против Серёги: разрушение колоннады | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [27] | 0f9a88e3c28b |
-| 31 | Коты против Серёги: лестница и телекинетические обломки | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [30] | 146849dd71b5 |
-| 32 | Коты против Серёги: обрушение древней арки | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [31] | 932e0f1dfc9b |
+| 30 | Коты против Серёги: разрушение колоннады | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [27] | 15792ffc960a |
+| 31 | Коты против Серёги: лестница и телекинетические обломки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [30] | e63eaa1e0ebc |
+| 32 | Коты против Серёги: обрушение древней арки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [31] | aaa2050e2dfd |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [] | c434640420c2 |
 | 34 | Серёга входит в полуразрушенный храм ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [33] | 2f5bc485bf9d |
 
