@@ -1,0 +1,53 @@
+name: Same-ID Drive write (no owner computer)
+
+# Applies drive-write-requests/*.json to Google Drive with a service account
+# (secret GDRIVE_SA_KEY). Without the secret it only reports "not_configured".
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'drive-write-requests/**'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: drive-write
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Google auth
+        run: pip install --quiet google-auth requests
+      - name: Apply requests
+        id: apply
+        env:
+          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+        run: |
+          set -o pipefail
+          python3 scripts/drive_write.py | tee /tmp/drive-write.log
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A drive-write-requests drive-write-results SYNC-TRIGGER.txt 2>/dev/null || true
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Drive write: results of same-ID requests"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
+      - name: Re-sync master after a successful write
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '"status": "applied"' /tmp/drive-write.log; then
+            gh workflow run sync-from-drive.yml --ref main
+          fi
