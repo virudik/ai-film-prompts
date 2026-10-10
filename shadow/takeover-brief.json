@@ -2,12 +2,13 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T21:32:11+00:00",
+ "generated_at": "2026-10-10T21:32:23+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [
   "NEW-CHAT-HANDOFF.md",
   "SYNC-RUNBOOK.md",
-  "USER-GUIDE.md"
+  "USER-GUIDE.md",
+  "BACKUP-AI-RUNBOOK.md"
  ],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
  "sources": [
@@ -50,8 +51,8 @@
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "047d4f00dca32be869e8909e288c5dc355433e1a24a27f78554883905224142d",
-   "bytes": 87412
+   "sha256": "db47eadf2ec3686ae9e3f01ebc5a97fdde02680a177d5a347e62e8b5f5c8b164",
+   "bytes": 89501
   },
   {
    "file": "video-prompts.md",
