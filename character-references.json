@@ -2,7 +2,7 @@
   "schema_version": 2,
   "source": "User-confirmed exact character model sheets + current canonical scene usage",
   "checked_at": "2026-09-27",
-  "publication_policy": "These eleven model sheets were explicitly provided by the user for the public Control Center reference section. Individual model sheets outrank group/environment references for identity, body proportions and costume/design.",
+  "publication_policy": "Eleven of these twelve model sheets were explicitly provided by the user; the twelfth (Алеся, Ale28) was generated from owner-specified Topview inputs for the public Control Center reference section. Individual model sheets outrank group/environment references for identity, body proportions and costume/design.",
   "characters": [
     {
       "id": "serega",
@@ -16,9 +16,13 @@
         16,
         17,
         21,
-        26,
         27,
-        28
+        28,
+        30,
+        31,
+        32,
+        33,
+        34
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -93,6 +97,7 @@
       "scenes": [
         17,
         19,
+        20,
         28
       ],
       "model_sheet": {
@@ -184,7 +189,8 @@
       ],
       "scenes": [
         16,
-        28
+        28,
+        29
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -233,6 +239,7 @@
       "scenes": [
         17,
         19,
+        20,
         28
       ],
       "model_sheet": {
@@ -401,7 +408,10 @@
         25,
         26,
         27,
-        28
+        28,
+        30,
+        31,
+        32
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -448,7 +458,10 @@
         25,
         26,
         27,
-        28
+        28,
+        30,
+        31,
+        32
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -514,5 +527,6 @@
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
   "updated_at": "2026-10-08",
-  "note": "All eleven approved characters are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master."
+  "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
+  "scene_lists_reconciled_at": "2026-10-10 (Claude): scene lists matched to fresh master reference lines; Scene 26 frames only the cats"
 }
