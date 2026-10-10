@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-10T20:01:32+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md'])
+Сгенерирован 2026-10-10T20:01:47+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md', 'USER-GUIDE.md'])
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -13,7 +13,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - SYNC-RUNBOOK.md · Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 117097 B · `60989eaa2ced7400`
 - AI-PROJECT-GUIDE.md · Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 104486 B · `bf2865f496bf3618`
 - PROMPT-STYLE-GUIDE.md · Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 70779 B · `aac8ddcd75a6bc25`
-- USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 101392 B · `3c6d68a9e1801413`
+- USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 102560 B · `8ffc38b201658ba2`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 76202 B · `92348d0f49489db2`
 - BACKUP-AI-RUNBOOK.md · Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 87412 B · `047d4f00dca32be8`
 - video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 592442 B · `2e8111940cd108cb`
