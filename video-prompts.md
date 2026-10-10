@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21 сцена к генерации/доработке · 54 полных текста промта**
+**17 сцен к генерации/доработке · 50 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **16** — **1 активная Topview-задача / 1 занятый слот из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 34 — Серёга входит в полуразрушенный храм ситхов. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 37 — переход от пещеры к лесной сюжетной линии. Scenes 35–37 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **10.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **10.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 54 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 12, 14, 15 и 18** удалены из active master; их Scene ID зарезервированы и не переиспользуются. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **11.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **17 актуальных сцен и 50 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 22, 23 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -35,27 +35,23 @@ Slow-статус снимается автоматически, когда по
 
 | # | Сцена | Референсы | Что происходит |
 |---|-------|-----------|-----------------|
-| 10 | [Кантина — допрос про товар, часть 1](#scene-10) | @Image1 = композиция/Чубакка; @Image2 = Han; @Image3 = Jedi | Джедай спрашивает Хана про товар, Хан делает вид, что не понимает, и ссылается на Чубакку. |
-| 11 | [Кантина — допрос про товар, часть 2](#scene-11) | те же @Image1/@Image2/@Image3 | Прямое продолжение: шутка про Чубакку, вопрос про плёнку и финальная растерянность Хана. |
 | 13 | [Совет джедаев — говорящий кот Лучик](#scene-13) | @image1 = композиция/локация; @image2 = Лучик; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 17 | [Пещера — передышка после монстра и разговор о карте](#scene-17) | @video1/@video2/@video3 = продолжение пещеры/монстр | Прямое продолжение после боя: трое измотаны, сидят на отрубленных частях чудовища и начинают разговор о карте. |
-| 19 | [Рыбалка и Маша-Лагуна](#scene-19) | @Image1 = стартовый кадр/рыбалка; @Image2 = финальный кадр/бег; @Image3 = Маша-Лагуна; @Image4 = Sasha; @Image5 = Pasha | Саша и Паша спокойно рыбачат у озера, из воды появляется Маша-Лагуна, Саша успевает сказать «Маша?..», получает пощёчину и слышит упрёк. Паша молча реагирует мимикой, Саша вспоминает про важное поручение, после чего оба срываются в бег к финальному кадру. |
 | 20 | [Маша-Лагуна — рок-припев у озера](#scene-20) | @Image1 озеро; @Image2 Маша; в 12-й части @Image6 Саша, @Image7 Паша | 11 исходных музыкальных частей + новые 12 (её комедийно-драматичная ревнивая фантазия) и 13 (мюзикловая эмоциональная вставка). Порядок оригинального вокала сохраняется; исходные результаты не автоматически одобрены. Технический результат получен; требуется отдельная редакционная проверка. |
 | 21 | [Мостик → космическая битва: бесшовный пролёт через окно](#scene-21) | @Image1 = точный первый кадр/мостик; @Image2 = точный последний кадр/космическая битва; @Image3 = Серёга; @Image4 = Юля | 30-секундный Seedance 2.5 first-and-last-frame переход: Серёга и Юля радуются на мостике, камера непрерывно приближается к окну, без бликов/отражений/преломления проходит сквозь стекло и физически продолжает полёт в космическом сражении до точной композиции @Image2. |
-| 22 | [Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину](#scene-22) | @Image1 = точный первый кадр/разрушенная станция; @Image2 = точный последний кадр/коридор со штурмовиками | 30-секундный Seedance 2.5 first-and-last-frame переход: камера летит через продолжающуюся космическую битву к разрушенной станции, физически входит через пробоину в корпусе, проходит повреждённую внутреннюю структуру и без склейки приходит к точной композиции коридора @Image2. |
-| 23 | [Люди → коты-джедаи: бесшовное раскрытие второго плана](#scene-23) | @Image1 = люди/старт; @Image2 = точные серый+рыжий коты/цель | Камера проходит между идущими людьми и без морфа раскрывает за ними двух котов-джедаев; коты пафосно идут с включёнными мечами и делают контролируемые вращения. |
 | 24 | [Коты в кабине: запуск корабля и взлёт](#scene-24) | @Image1 = парный continuity котов; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = **точный approved cockpit / composition reference** | Тот же тёплый жилой интерьер как на фото: Рыжик слева в кадре у навигации, Лучик справа у пилотских органов управления; обычный домашний масштаб котов, без гигантских полугуманоидных пропорций. |
 | 25 | [Коты в кабине: космическое сражение](#scene-25) | @Image1 = парный continuity котов; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = **точный approved cockpit / composition reference** | Сражение видно из той же кабины без redesign: Рыжик слева в кадре у тактики/навигации, Лучик справа пилотирует; оба остаются обычного кошачьего масштаба и хорошо читаются лицами. |
 | 26 | [Коты-магистры на планете ситхов: ультиматум Серёге](#scene-26) | @Image1 = коты / парный continuity-composition; @Image2 = Лучик; @Image3 = Рыжик; @Image4 = точная локация древнего города-руины | В кадре **только два кота**; Серёга — исключительно off-camera адресат. Сохраняются пепел/пыль/редкие искрящиеся частицы, обычный кошачий масштаб, строгий русский lip sync и speaker ownership, Wan 3. |
 | 27 | [Серёга против котов-магистров: бой на световых мечах](#scene-27) | @Image1 = коты; @Image2 = Серёга; @Image3 = Лучик; @Image4 = Рыжик; @Image5 = точная локация древнего города-руины | Обе прошлые 15s Seedance 2.0 задачи технически завершены; обе Wan 3.0 попытки основного 30s варианта технически завершены и требуют отдельного просмотра. **30s и обе 15s версии исправлены:** обычный небольшой масштаб котов, непрерывная пепельно-пыльная атмосфера и значительно более быстрый, агрессивный бой без статичного позирования. |
 | 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; H28A/H28B; сохранённые P28/L28/F28; R28A/R28B как композиционные helpers; S28/G28 проверены; C28 только после результата части 2 | Две версии: 10×15 с Seedance 2.0 / 10×30 с Wan 3.0. Церемония → дискотека; жесты у лица, разъезд, кружение на руках и на плече; монтаж около 90 с; `READY` для поэтапного запуска; часть 3 ждёт C28 из части 2. |
-| 29 | [Кантина — Илюха, Хан и Чубакка, часть 3](#scene-29) | @Image1 кантина/Чубакка; @Image2 Хан; @Image3 Илюха | Прямая третья часть после Scenes 10–11: шутка про плёнку на «Тысячелетнем соколе», сердитое недоумение Хана и Чубакки. |
 | 30 | [Коты против Серёги — разрушение колоннады](#scene-30) | Коты + Серёга + та же локация и масштаб Scene 27 | Удары мечей надрезают парапет и колонну; Force-удар обрушивает повреждённую каменную опору. Технический результат получен; требуется отдельная редакционная проверка. |
 | 31 | [Коты против Серёги — разрушенная лестница](#scene-31) | Те же точные персонажи/руины | Телекинетический бой с перехватом камней и логичным разрушением лестницы. Технический результат получен; требуется отдельная редакционная проверка. |
 | 32 | [Коты против Серёги — обрушение арки](#scene-32) | Те же точные персонажи/руины | Кульминационный бой: мечи и Сила обрушивают часть арки, оставляя повреждения в окружении. Технический результат получен; требуется отдельная редакционная проверка. |
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. Технический результат получен; требуется отдельная редакционная проверка. |
+| 35 | [Древний ПК в храме: находка Серёги](#scene-35) | Серёга; тот же храм; фактический конец Scene 34 | Приключенческое открытие старого ПК и CRT под древними камнями; без включения и преждевременного Warcraft payoff. DRAFT, требуется фактический финал 34. |
+| 36 | [После пещеры: Серёга с картой уходит к кораблю](#scene-36) | Серёга; пещера; единственная карта; точный транспорт | Продолжение уже вставленной Scene 17: Паша/Саша остаются на Набу; Серёга уходит с одной картой. DRAFT до сверки выхода и корабля. |
+| 37 | [Полёт к лесной планете: географическая связка](#scene-37) | Серёга; последний кадр 36; существующее лесное начало | Физически понятный перелёт к Кашиику с выходом на уже снятую лесную группу, без выдуманной встречи. DRAFT, требуются 36 и лесной старт. |
 
 ---
 
@@ -65,7 +61,7 @@ Slow-статус снимается автоматически, когда по
 
 | ID | Очередь / сцена в работе | Статус | Базовые референсы | Что уже понятно |
 |---|---|---|---|---|
-| W9 | **После монстра: долг, карта и временное перемирие** | В РАЗРАБОТКЕ | Scene 17; существующие кадры после боя; персонажи Канцлер + джедаи | Продолжить линию Scene 17: джедаи признают, что Канцлер помог им выжить, но это не даёт ему автоматического права на карту. В диалоге естественно поднять вопросы «зачем тебе эта карта?» и «почему её отдали?». Сюда же относится Сашина заметка 48:22. Цель — объяснить временное перемирие и владельца фрагмента, а не заново снимать бой. |
+| W9 | **После монстра: долг, карта и временное перемирие** | В РАЗРАБОТКЕ | Scene 17; существующие кадры после боя; персонажи Канцлер + джедаи | Продолжить линию уже вставленной в фильм Scene 17 через новые Scenes 36–37: джедаи признают, что Канцлер помог им выжить, но это не даёт ему автоматического права на карту. В диалоге естественно поднять вопросы «зачем тебе эта карта?» и «почему её отдали?». Сюда же относится Сашина заметка 48:22. Цель — объяснить временное перемирие и владельца фрагмента, а не заново снимать бой. |
 | W10 | **После монстра → уход Лёхи и Виталика в лес** | В РАЗРАБОТКЕ | конечные кадры блока после монстра; начальные кадры лесной линии | Сашина идея 50:31: уход в лес, камера может вращаться между героями и затем раскрыть окрестности/лес. Это часть W7 и логическое продолжение W9. Сначала проверить, можно ли закрыть стык существующим кадром; новый рендер только если переход действительно нужен. |
 | W6 | **Татуин: гигантский червь, карта и побег Канцлера** | В РАЗРАБОТКЕ / СВЕРИТЬ МОНТАЖ | развязка Татуина; карта; машина; Канцлер | Развалины/пустыня: разговор о карте, гигантский червь ломает машину, дуэль на фоне угрозы, Канцлер уезжает верхом. До промта выбрать судьбу карты и заменяемый кусок погони. Разрушать машину только после последнего сохраняемого кадра с ней. Не запускать генерацию автоматически. |
 | W5 | **Три фрагмента / артефакта → запретное знание → Warcraft 3** | В РАЗРАБОТКЕ | три фрагмента/карты; компьютер/CRT; референс Канцлера | Главный сюжетный пакет. Совместить идеи «три ключа турнира» и Сашину логику «три карты → три артефакта древности». Фрагменты должны давать понятный доступ к знанию/координатам/терминалу; на CRT можно кратко связать пустыню, воду и лес с уже существующим Warcraft-финалом. Конкретный вариант «диск / провод / мышь» пока считать идеей, а не утверждённым каноном. |
@@ -84,10 +80,10 @@ Slow-статус снимается автоматически, когда по
 Это рабочие направления для последующего разбора. Они не являются автоматическим разрешением менять существующие промты, снимать slow-lock или запускать новые генерации без отдельного решения пользователя.
 
 1. **Закрыть сюжетную логику карты и Warcraft.** Определить, зачем Канцлеру карта, что дают её части и как это связано с Warcraft 3 / турниром, чтобы уже существующий компьютерный финал стал понятным payoff, а не случайным эпизодом.
-2. **Закрыть последствия боя с монстром.** Для сцены 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
+2. **Закрыть последствия боя с монстром.** Для монтажного продолжения бывшей Scene 17 / линии W1 определить владельца набусского фрагмента, причину временного перемирия Канцлера и джедаев и понятный выход к следующей сюжетной линии.
 3. **Разобраться с Татуином и транспортом.** Согласовать W6/W8 с уже существующей погоней: какую часть материала заменяет эпизод с гигантским червём, когда окончательно исчезает/разрушается машина и у кого остаётся фрагмент карты.
 4. **Доделать переходы W7.** Проверить Татуин → Набу, последствия монстра → лесную группу, лесной финал → компьютер и другие слабые стыки. Генерировать новый переход только там, где функцию нельзя закрыть существующим планом, звуком или короткой репликой.
-5. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: Scene 10 и 11 — NEEDS_FIX; Scene 13 — NEEDS_RERENDER. Scenes 3 и 4 выведены из active master по решению пользователя в пользу Scene 5 и не являются текущими кандидатами на доработку. Scene 17 остаётся активной без статуса NEEDS_FIX / NEEDS_RERENDER; её технический результат не равен редакционному одобрению. Не переписывать сцены массово и не считать production status разрешением на новый render.
+5. **Разбирать существующие NEEDS_FIX / NEEDS_RERENDER по одной сцене.** Текущие кандидаты: Scenes 10 и 11 выведены из active master по подтверждению «в фильме»; Scene 13 — NEEDS_RERENDER. Scenes 3 и 4 выведены из active master по решению пользователя в пользу Scene 5 и не являются текущими кандидатами на доработку. Scene 17 остаётся активной без статуса NEEDS_FIX / NEEDS_RERENDER; её технический результат не равен редакционному одобрению. Не переписывать сцены массово и не считать production status разрешением на новый render.
 6. **После закрытия новых сцен перейти к финальному монтажному проходу.** Выбрать сокращения повторных боёв, танцев, гиперпрыжков и лесных проходов, пересчитать хронометраж и затем вручную проверить склейки, звук, музыку, continuity и краткие артефакты.
 #### Сюжетные идеи-кандидаты для детального разбора
 
@@ -141,183 +137,6 @@ Slow-статус снимается автоматически, когда по
 - Реплика/смысл: **«Вы получили доступ к запретному знанию»**.
 - Предусмотреть заключительный кадр с джедаями, которые потеряли карту `[часть формулировки неразборчива]`.
 - Карты/артефакты дают доступ к **координатам заброшенного объекта в космосе** `[точное определение объекта неразборчиво]`; в связанной комнате/объекте есть компьютер/терминал, после чего появляется голограмма/карта с координатами `[частично неразборчиво]`.
-
----
-
-<a id="scene-10"></a>
-
-## Сцена 10 — Кантина: допрос про товар, часть 1
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","needs_fix"]} -->
-
-**Контекст использования:** Сверка: актуальная связка со сценой 11. В фильме уже есть контакт в кантине; наличие именно разговора Хана о товаре не подтверждено. При замене сохранить функцию эпизода с картой (P10).
-
-**Референсы:** @Image1 = композиция кантины и Чубакка · @Image2 = Han · @Image3 = Jedi
-
-**Используемые identity-референсы на сайте:**
-<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
-</div>
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="@Image1 — точная кантина, композиция и Чубакка" loading="lazy"></a><figcaption>@Image1 — точная кантина, композиция и Чубакка</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="@Image2 — точный Han" loading="lazy"></a><figcaption>@Image2 — точный Han</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="@Image3 — точный Jedi" loading="lazy"></a><figcaption>@Image3 — точный Jedi</figcaption></figure>
-</div>
-
-**Что происходит:** Джедай требует от Хана обещанный товар. Хан изображает полное непонимание и в конце обращается к Чубакке как к свидетелю; Чубакка отвечает вопросительным рыком.
-
-```text
-[IMAGE REFERENCE 1: @Image1 - Cantina Composition & Chewbacca Reference] 
-[IMAGE REFERENCE 2: @Image2 - Han Model Sheet] 
-[IMAGE REFERENCE 3: @Image3 - The Jedi Model Sheet] 
- 
-Optimized for Wan 3 | Photorealistic Acting, Facial Micro-Expressions & Dialogue Focus | Duration: 30s | 4K 24fps 
- 
-ENVIRONMENT & ASSET LOCK: 
-- THE JEDI (@Image3): Mustached man, tousled brown hair, weathered face with faint frown lines, light-green layered tunic, hooded deep-red cloak with the hood down, brown leather boots, a metal lightsaber hilt clipped to his belt. Wary, slightly bewildered expression throughout — this is clearly not going the way he expected. 
-- HAN (@Image2): Sandy-brown hair, light stubble, cream shirt under an open black vest, blue trousers with a red side-stripe, holstered blaster on a leg-strap. Relaxed, faux-innocent expression, visibly playing dumb. 
-- CHEWBACCA (matching @Image1): Towering bipedal Wookiee, shaggy reddish-brown fur, bandolier across his chest, expressive amber eyes. Communicates only in wookiee growls/roars — no words, no subtitles. 
-- Setting: Same dim, smoke-hazed desert-cantina interior as @Image1 — stone archways, hanging amber lantern overhead, alien patrons blurred in the background, round metal table between the three. 
-
-REFERENCE PRIORITY / IDENTITY LOCK:
-@Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls the cantina composition, Chewbacca, table placement, background atmosphere and lighting only.
-Do not average Han or the Jedi with faces visible in @Image1. Keep all three characters in their established seats/positions and preserve costume, face, hair, body proportions and left-right geography throughout.
-
-START / END STATE:
-Start as an already-established conversation at the same table, with the Jedi focused on Han and Chewbacca present as a silent witness.
-End with Chewbacca's questioning growl and the Jedi visibly thrown off, while Han remains committed to playing dumb. Preserve this exact emotional and spatial state for Scene 11.
-
-CAMERA / CONTINUITY:
-Use motivated cinematic dialogue coverage only: readable medium three-shot for geography, then restrained singles/reaction shots that preserve eyelines and screen direction.
-No arbitrary side swaps, no 180-degree axis break, no teleporting between seats, no random montage, and no camera move that obscures the speaking face during a line.
-Keep camera motion physically stable with controlled inertia; subtle dolly or locked-off coverage is preferred over handheld movement.
-
-PERFORMANCE / LIP SYNC:
-All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation, no accent unless present in the reference performance, and accurate lip sync.
-Jedi is serious and increasingly puzzled; Han performs believable faux innocence rather than broad comedy; Chewbacca reacts only through natural head/eye/body motion and Wookiee vocalization.
-Allow natural blinking, breathing, small posture shifts and reaction pauses. Do not overlap key dialogue lines.
-
-ACTING & DIALOGUE TIMELINE (00:00 - 00:30): 
- 
-- 00:00–00:08 (Shot 1 - The Accusation): 
-Medium three-shot across the table. THE JEDI leans forward slightly, direct and serious, holding eye contact with Han: 
-JEDI: «Ты добыл товар как договаривались?» 
-Quick cut to Han's face — genuine-looking confusion mixed with a faint, too-innocent smile: 
-HAN: «Какой ещё товар?» 
- 
-- 00:08–00:16 (Shot 2 - Spelling It Out): 
-Close-up on THE JEDI, brow furrowed, patient but firm, spelling it out slowly and clearly: 
-JEDI: «Я заплатил тебе, чтобы ты выкрал снюс у торговца спайсом.» 
-Hold on his stern expression for a beat after the line. 
- 
-- 00:16–00:24 (Shot 3 - Playing Dumb): 
-Cut to Han, shrugging with exaggerated innocence, glancing sideways toward Chewbacca as he speaks: 
-HAN: «Не помню такого. Я тебя впервые вижу. Правда же, Чубака?» 
- 
-- 00:24–00:30 (Shot 4 - The Growl): 
-Cut to CHEWBACCA — a long, questioning-sounding growl/roar, head tilting slightly. Quick reaction cut to THE JEDI's face, eyebrows raised, visibly thrown off. 
- 
-LIGHTING & VISUAL EFFECTS: 
-Warm amber lantern light from directly overhead, soft haze/smoke drifting through the light beam, out-of-focus alien patrons in the background, shallow depth of field keeping the three main faces sharp. 
- 
-AUDIO: 
-Clear Russian dialogue as written, one long expressive Wookiee growl in Shot 4, quiet ambient cantina chatter and distant alien music underneath — kept low enough not to compete with the dialogue, no non-diegetic score. 
- 
-NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, seat swapping, broken eyelines, 180-degree axis flip, random camera cuts, rushed dialogue, overlapping speech, wrong speaker, bad Russian pronunciation, lip desync, Wookiee speaking actual words, subtitles, captions, text on screen, duplicated characters, extra foreground characters, distorted hands, expressionless faces, exaggerated slapstick acting, warped table or cantina geometry, camera jitter, cartoon, anime, game-render look, plastic skin, low-detail faces, watermark, logo, unwanted non-diegetic music.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
-
-<a id="scene-11"></a>
-
-## Сцена 11 — Кантина: допрос про товар, часть 2
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"NEEDS_FIX","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":10}],"tags":["dialogue","needs_fix","continuity"]} -->
-
-**Контекст использования:** Сверка: продолжение сцены 10. Плёнка на стекле уже показана в части 1 / 19:05–19:36; здесь нужно уточнить смысл повторного вопроса о плёнке, не представлять сцену без пояснения как её первое получение. Реплики пока сохранены (P11).
-
-**Референсы:** те же @Image1 = композиция/Чубакка · @Image2 = Han · @Image3 = Jedi
-
-**Используемые identity-референсы на сайте:**
-<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Jedi / Илюша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Jedi / Илюша — identity</figcaption></figure>
-</div>
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="@Image1 — точная кантина, композиция и Чубакка" loading="lazy"></a><figcaption>@Image1 — точная кантина, композиция и Чубакка</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="@Image2 — точный Han" loading="lazy"></a><figcaption>@Image2 — точный Han</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="@Image3 — точный Jedi" loading="lazy"></a><figcaption>@Image3 — точный Jedi</figcaption></figure>
-</div>
-
-**Что происходит:** Прямое продолжение части 1 без скачка во времени. Джедай шутит про Чубакку, тот возмущённо рычит, затем разговор переключается на плёнку, и Хан окончательно перестаёт понимать, о чём речь.
-
-```text
-[IMAGE REFERENCE 1: @Image1 - Cantina Composition & Chewbacca Reference] 
-[IMAGE REFERENCE 2: @Image2 - Han Model Sheet] 
-[IMAGE REFERENCE 3: @Image3 - The Jedi Model Sheet] 
- 
-Optimized for Wan 3 | Photorealistic Acting, Facial Micro-Expressions & Dialogue Focus | Duration: 30s | 4K 24fps 
- 
-ENVIRONMENT & ASSET LOCK: 
-- THE JEDI (@Image3): Mustached man, tousled brown hair, weathered face with faint frown lines, light-green layered tunic, hooded deep-red cloak with the hood down, brown leather boots, a metal lightsaber hilt clipped to his belt. 
-- HAN (@Image2): Sandy-brown hair, light stubble, cream shirt under an open black vest, blue trousers with a red side-stripe, holstered blaster on a leg-strap. 
-- CHEWBACCA (matching @Image1): Towering bipedal Wookiee, shaggy reddish-brown fur, bandolier across his chest, expressive amber eyes. Growls/roars only, no words. 
-- Setting: Direct continuation from the previous scene — identical cantina table, seating, and lighting, no time skip. 
-
-REFERENCE PRIORITY / IDENTITY LOCK:
-@Image2 is the absolute identity authority for HAN. @Image3 is the absolute identity authority for THE JEDI. @Image1 controls Chewbacca, the cantina composition, table placement, background atmosphere and lighting only.
-Do not average Han or the Jedi with faces visible in @Image1. Preserve the same costumes, seats, left-right geography, table layout, eyelines and lighting established in Scene 10.
-
-CONTINUITY FROM SCENE 10 / START STATE:
-This begins immediately after Chewbacca's questioning growl at the end of Scene 10. No time skip, no reset of posture, no new entrance and no changed seating.
-The Jedi is still thrown off but tries to recover; Han is still playing dumb; Chewbacca is attentive after his previous growl.
-
-END STATE:
-End on Han's baffled close reaction after «Какую плёнку? Мужик, ты вообще кто?» with the Jedi and Chewbacca remaining in the same established space, leaving a clean reaction beat for the next edit.
-
-CAMERA / CONTINUITY:
-Maintain the same dialogue axis and screen direction as Scene 10. Use restrained motivated coverage: medium shot, reaction shot, then close framing only when it serves the line.
-No arbitrary side swaps, no 180-degree axis break, no teleporting between seats, no random montage, and no camera movement that hides the active speaker's mouth.
-Physically stable cinematic motion with controlled inertia; subtle dolly or locked-off coverage is preferred.
-
-PERFORMANCE / LIP SYNC:
-All Russian dialogue must be spoken exactly by the assigned character with natural Russian pronunciation and accurate lip sync.
-The Jedi delivers the crude joke dryly rather than theatrically, then shifts back to business. Chewbacca's offended reaction is readable but still physically natural. Han's final confusion feels genuine and increasingly exasperated.
-Allow natural blinking, breathing, restrained gestures and short reaction pauses. Do not overlap key lines.
-
-ACTING & DIALOGUE TIMELINE (00:00 - 00:30): 
- 
-- 00:00–00:10 (Shot 1 - The Theory): 
-Medium shot on THE JEDI, gesturing dismissively toward Chewbacca, half-amused and half-exasperated. Deliver with a small natural beat/pause between the two sentences for comedic timing — unhurried: 
-JEDI: «Да никто не понимает, что он говорит. Может, он просто срать хочет, а выйти не может — ты тут сидишь.» 
- 
-- 00:10–00:16 (Shot 2 - Offended Growl): 
-Cut to CHEWBACCA — a sharper, more indignant-sounding growl/roar, visibly offended by the remark. Brief reaction cut to Han smirking slightly. 
- 
-- 00:16–00:22 (Shot 3 - Changing the Subject): 
-Cut to THE JEDI, tone shifting, more businesslike, moving on to his next question: 
-JEDI: «Так а плёнку ты принёс?» 
- 
-- 00:22–00:30 (Shot 4 - Final Confusion): 
-Close-up on Han, throwing his hands up slightly, genuinely exasperated now: 
-HAN: «Какую плёнку? Мужик, ты вообще кто?» 
-Hold on his baffled expression as the shot ends. 
- 
-LIGHTING & VISUAL EFFECTS: 
-Same warm amber lantern light and soft haze as the previous scene, shallow depth of field, out-of-focus background patrons. 
- 
-AUDIO: 
-Clear Russian dialogue as written, one sharp indignant Wookiee growl in Shot 2, same quiet ambient cantina bed as the previous scene, no non-diegetic score. 
- 
-NEGATIVE PROMPT: identity drift, face averaging, face swapping, costume drift, changed seating, broken eyelines, 180-degree axis flip, time-skip look, random camera cuts, rushed dialogue, overlapping speech, wrong speaker, bad Russian pronunciation, lip desync, Wookiee speaking actual words, subtitles, captions, text on screen, duplicated characters, extra foreground characters, distorted hands, expressionless faces, exaggerated slapstick acting, warped table or cantina geometry, camera jitter, cartoon, anime, game-render look, plastic skin, low-detail faces, watermark, logo, unwanted non-diegetic music.
-
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
 
 ---
 
@@ -501,209 +320,6 @@ NEGATIVE PROMPT:
 small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, game-render look, floating worm, worm flying in the air without sand displacement, characters ignoring the worm, static posing, identity drift, face swap, extra characters, costume changes, missing robe colors, duplicate Chancellor, duplicate Jedi, warping ruins, popping geometry, sudden scene reset, teleporting camera, hard cuts, subtitles, on-screen text, logo, watermark.
 
 FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
-
-<a id="scene-17"></a>
-
-## Сцена 17 — Пещера: передышка после монстра и разговор о карте
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","continuous_take","continuity","deadpan_comedy","map"]} -->
-
-**Контекст использования:** Прямое продолжение уже существующего боя в пещере. Главная комедийная конструкция сцены — трое совершенно серьёзно и буднично разговаривают после тяжёлого боя, при этом всё это время сидят на трёх крупных отрубленных частях тела только что побеждённого монстра. Персонажи не считают ситуацию смешной и никак специально её не комментируют: юмор возникает только из абсурдного визуального контраста. Серёга вспоминает старые времена, спрашивает о карте; Паша сначала не понимает, зачем она ему, затем Серёга тихо говорит Паше что-то на ухо, после чего Паша без колебаний отдаёт карту Серёге. Содержание шёпота не раскрывается.
-
-**Референсы:** @Image1 = Паша / Jedi 1, тёмно-синий туник · @Image2 = Саша / Jedi 2, борода и очки · @Image3 = Серёга / Канцлер, глубокая тёмно-фиолетовая мантия · @Image4 = фото локации пещеры, точный environment reference · @Image5 = фото карты, точный prop reference · @Video1 = пещера, чудовище и прямое визуальное продолжение предыдущего боя · @Video2 = дополнительные ракурсы монстра/пещеры при необходимости continuity
-
-**Используемые identity-референсы на сайте:**
-<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Серёга — identity</figcaption></figure>
-</div>
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-17/S17-cave-Video1-frame-003s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-cave-Video1-frame-003s.png" alt="@Image4 — точный кадр пещеры из Video1" loading="lazy"></a><figcaption>@Image4 — точный кадр пещеры из Video1</figcaption></figure>
-<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image5 — точный предмет-карта; историческое имя Image4" loading="lazy"></a><figcaption>@Image5 — точный предмет-карта; историческое имя Image4</figcaption></figure>
-<figure><a href="references/scenes/scene-17/S17-post-battle-seated.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-post-battle-seated.png" alt="@Image6 — трое после боя, постановка" loading="lazy"></a><figcaption>@Image6 — трое после боя, постановка</figcaption></figure>
-<figure><a href="references/scenes/scene-17/S17-map-handoff.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-map-handoff.png" alt="@Image7 — передача единственной карты, постановка" loading="lazy"></a><figcaption>@Image7 — передача единственной карты, постановка</figcaption></figure>
-</div>
-
-**Что происходит:** Бой окончен. В тёмной влажной пещере трое измотанных героев сидят каждый на отдельной массивной отрубленной части тела чудовища с прижжёнными срезами без крови и органов. Несколько секунд они молча приходят в себя. Серёга с усталой ностальгией говорит: «Как в старые добрые времена. Куда вы дели карту?» Паша отвечает: «Да зачем она вообще тебе?» Серёга наклоняется и тихо шепчет Паше что-то на ухо — слов зритель не слышит. Паша сразу, совершенно без раздумий и без дальнейших вопросов, достаёт карту и отдаёт её Серёге. Саша наблюдает за этим с усталой сдержанной реакцией. Все продолжают сидеть на частях монстра, будто это самое обычное место для разговора.
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-REFERENCES:
-@Image6 — supplemental seated post-battle staging only; retain individual identities from Images1–3. @Image7 — supplemental handoff staging of the one exact map from Image5. Do not clone a map, change identities or force a different story beat from either helper.
-@Image1 — PRIMARY exact identity reference for PASHA / Jedi 1: clean-shaven man in a dark navy-blue Jedi tunic, wet and battle-worn from the previous cavern fight. Preserve his exact face, age, hairstyle, costume, body proportions and identity.
-@Image2 — PRIMARY exact identity reference for SASHA / Jedi 2: bearded man with glasses in a brown-and-cream Jedi robe, wet and battle-worn from the previous cavern fight. Preserve his exact face, beard, glasses, hairstyle, costume, body proportions and identity.
-@Image3 — PRIMARY exact identity reference for SEREGA / the Chancellor: pale man in a long deep dark-purple robe, exhausted after combat. Preserve his exact face, hairstyle, robe silhouette, proportions and identity.
-@Image4 — PRIMARY LOCATION reference: exact cavern location photo. Preserve its rock formations, wet surfaces, water layout, spatial proportions, lighting direction and recognizable environment design. Do not copy incidental people or unrelated props from this image.
-@Image5 — PRIMARY MAP PROP reference: exact map used in the story. Preserve its shape, material, markings, proportions, folds/edges and overall appearance throughout the handoff.
-@Video1 — PRIMARY continuity reference for the cavern environment, defeated monster remains and immediate post-battle geography. Match the wet rocks, shallow splashing water, waterfall ambience, mist, lighting, scale and the pale reptilian creature.
-@Video2 — supplemental continuity reference for alternate angles of the same monster and cavern only.
-
-REFERENCE PRIORITY / IDENTITY LOCK:
-@Image1, @Image2 and @Image3 are the absolute identity and costume authority for Pasha, Sasha and Serega. @Image4 is the exact location/environment authority. @Image5 is the exact map-prop authority. @Video1 and @Video2 provide motion, monster anatomy and immediate post-battle continuity. Environment references must never override or average the three character identities, and the map must not be redesigned from the video references. Keep all three men visually distinct and stable for the entire take.
-
-COMEDY / TONE LOCK:
-The comedy is entirely deadpan and situational. The central visual joke is that three exhausted men conduct a serious, almost ordinary conversation while each of them is sitting on a different severed body section of the monster they have just defeated. They do NOT laugh, grin, wink at the camera, make jokes about the body parts, act goofy, or acknowledge how absurd the seating is. Play the dialogue sincerely and naturally. The stranger and more matter-of-fact their behavior feels against the bizarre seating arrangement, the better the comedy works.
-
-START STATE:
-The battle has just ended. The same cavern, monster, wet clothing, lighting and physical aftermath continue directly from the preceding footage. Three large separated sections of the defeated creature are already lying naturally in the cavern. Their cut surfaces are fully cauterized and darkened, with faint steam but no liquid blood, exposed organs or graphic gore. Pasha, Sasha and Serega are exhausted and remain close together in one readable conversational area.
-
-SCENE OVERVIEW:
-Direct continuation after the monster battle in a dark subterranean cavern. Pasha, Sasha and Serega settle onto three separate large severed sections of the defeated pale reptilian creature as improvised seats. They stay seated there through the conversation. Serega nostalgically remarks that it feels like old times, asks where the map is, and Pasha questions why he needs it. Serega then leans close and whispers something privately into Pasha's ear. The whisper content is deliberately inaudible and never revealed. Immediately afterward Pasha gives Serega the map without hesitation, argument or explanation. Sasha witnesses the strange exchange with restrained exhausted curiosity.
-
-ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
-[0:00–0:05]
-Open in the immediate aftermath of the fight. A slow controlled camera glide reveals the wet cavern, drifting mist, shallow water, steam and the defeated monster's massive separated body sections. Reveal Pasha, Sasha and Serega already lowering themselves onto or settling on three different monster sections. Make the bizarre improvised seating visually unmistakable without framing it as a gag. They are simply exhausted and need somewhere to sit.
-
-[0:05–0:10]
-Hold a quiet recovery beat. All three remain seated on the monster pieces, breathing heavily. Pasha leans forward slightly from fatigue. Sasha adjusts his posture and glasses. Serega looks from one old companion to the other. Nobody comments on what they are sitting on. Their complete seriousness is essential.
-
-[0:10–0:16]
-Serega looks at Pasha and Sasha with a faint trace of tired nostalgia, not a smile, and says clearly in natural Russian:
-SEREGA: «Как в старые добрые времена. Куда вы дели карту?»
-He delivers both sentences as one natural thought: first a weary recollection, then a direct practical question. Pasha and Sasha look toward him.
-
-[0:16–0:20]
-Pasha answers Serega directly, guarded and genuinely puzzled, in natural Russian:
-PASHA: «Да зачем она вообще тебе?»
-No one else speaks over him. Accurate Russian lip sync. Sasha remains silent and watches.
-
-[0:20–0:24]
-Serega calmly leans sideways toward Pasha without standing up and whispers something very quietly into Pasha's ear. The actual words must NOT be intelligible to the audience: only a soft indistinct whisper/murmur is heard. Do not invent audible dialogue, subtitles or captions. Sasha notices the whisper and watches them with restrained curiosity.
-
-[0:24–0:28]
-The instant Serega finishes whispering, Pasha reacts with a tiny matter-of-fact acknowledgement and, without hesitation, without asking another question and without looking conflicted, takes out the map and hands it directly to Serega. The handoff must be clear and physically readable: one map, Pasha releases it, Serega receives it securely. No Force pull, no magical levitation, no struggle.
-
-[0:28–0:30]
-Serega looks down at the map in his hand with quiet satisfaction while remaining seated on the monster section. Pasha settles back as if the matter is completely resolved. Sasha gives them a brief tired, slightly puzzled look but says nothing. End with all three still seated on the grotesquely inappropriate monster-body seats, preserving the deadpan visual joke and setting up the next story beat.
-
-CAMERA / CONTINUITY:
-One physically stable continuous take. Begin with a gentle low-to-medium establishing glide that clearly reveals all three separate monster-body seats and the cavern geography, then settle into a readable three-shot. During dialogue use only a subtle controlled push-in and small lateral adjustment so the speaker and listener remain readable without cuts. For the whisper, allow a modest natural move closer to Serega and Pasha while Sasha remains visible or spatially understandable. For the map handoff, frame both hands clearly without turning the scene into an insert shot. No cuts, jump cuts, teleporting camera, random orbiting or micro-shake. Maintain coherent left/right screen positions and the same cavern axis throughout.
-
-PERFORMANCE:
-All three are genuinely exhausted after a brutal fight: heavy breathing, sore posture, damp clothes, restrained movements and small natural facial reactions. Play everything straight. Serega is calm, tired, slightly nostalgic and purposeful. Pasha is initially suspicious/puzzled, then after the whisper changes instantly to uncomplicated cooperation and hands over the map as though the whispered explanation completely settles the issue. Sasha remains a silent observer with a restrained "what was that?" reaction, never broad or cartoonish. No theatrical comedy acting.
-
-DIALOGUE / LIP SYNC:
-Spoken language: Russian, natural native pronunciation, no foreign accent.
-Only these two public lines are audible:
-SEREGA: «Как в старые добрые времена. Куда вы дели карту?»
-PASHA: «Да зачем она вообще тебе?»
-Then Serega whispers privately into Pasha's ear. The whisper must remain unintelligible; do not generate additional understandable words. Accurate lip sync for the two audible lines. No subtitles, captions or on-screen text.
-
-MAP PROP / HANDOFF:
-Use the exact physical map from @Image5. Preserve its recognizable design, proportions, material and markings; do not redesign, simplify or substitute it. It must not appear from nowhere: Pasha retrieves it naturally from his clothing, belt pouch or an already plausible carried place. Keep the same prop shape throughout the handoff. Pasha physically gives it to Serega. Serega ends the scene holding the map. No duplicate map, no disappearing prop, no morphing object.
-
-ENVIRONMENT / MATERIAL REALISM:
-Dark wet cavern, slick rock, shallow water, runoff or distant waterfall, lingering mist and subtle steam from cauterized monster wounds. Soft reflected light on wet stone and damp fabric. The defeated creature remains must clearly belong to the same massive pale reptilian monster from the previous fight. Body sections have sealed, charred/cauterized cut surfaces only — no liquid red blood, no exposed organs, no graphic gore. Preserve believable weight: the monster sections compress or support the seated characters naturally and do not wobble like rubber.
-
-AUDIO (native):
-Natural cavern ambience, dripping and splashing water, distant waterfall, faint steam hiss, tired breathing and subtle robe movement. The two Russian lines are clear and foregrounded. During the private whisper, lower the voice to an indistinct close murmur that the audience cannot decipher. No music. No comedic sting or sound effect when Pasha hands over the map.
-
-NEGATIVE PROMPT:
-wrong speaker, Sasha speaking either dialogue line, Pasha saying Serega's line, Serega saying Pasha's line, intelligible whispered words, invented extra dialogue, subtitles, captions, on-screen text, characters laughing or smiling at the situation, slapstick acting, exaggerated comedy faces, characters commenting on the monster seats, anyone standing up during the core conversation, ordinary chairs or rocks replacing the monster-body seats, characters sitting on the same body section, living monster, new monster attack, red liquid blood, blood spray, exposed organs, graphic gore, duplicate characters, missing character, identity drift, face swapping, missing Sasha's glasses, costume changes, map appearing from nowhere, duplicate map, map levitation, Force pull, refusal or hesitation after the whisper, broken hand interaction, extra fingers, warped anatomy, dry cave, bright daylight, random camera shake, micro-jitter, hard cuts, jump cuts, cartoon look, glossy video-game render, logo, watermark.
-
-END STATE:
-Serega is seated and clearly holds the map. Pasha has willingly surrendered it and remains seated. Sasha remains seated and silently observes. All three are still resting on separate severed monster sections in the same cavern, ready for a clean continuation into the next story beat.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
-
-<a id="scene-19"></a>
-
-## Сцена 19 — Рыбалка и Маша-Лагуна
-
-<!-- scene-meta: {"target_engine":"Wan 3.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"tags":["dialogue","fantasy_comedy","mission_return","continuous_take"]} -->
-
-**Контекст использования:** Новая активная 30-секундная диалоговая сцена для Wan 3.0. Сцена основана на рукописной идее Саши и затем была отдельно утверждена пользователем: Саша и Паша рыбачат у озера, из воды появляется Маша в форме Лава-Лагуны, происходит короткий эмоциональный конфликт, после чего сюжет резко возвращается к миссии и выходит в бегущий финал. Это отдельная активная сцена; текущая Topview-задача технически завершена. Technical success не означает editorial approval; новый запуск — только по отдельному решению пользователя.
-
-**Референсы:** @Image1 = стартовый кадр / композиция рыбалки · @Image2 = финальный кадр / композиция бега · @Image3 = Маша в форме «Лава-Лагуны» · @Image4 = Sasha model sheet · @Image5 = Pasha model sheet
-
-**Используемые identity-референсы на сайте:**
-<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="Маша-Лагуна — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Маша-Лагуна — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="Саша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Саша — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="Паша — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Паша — identity</figcaption></figure>
-</div>
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image1 — старт рыбалки" loading="lazy"></a><figcaption>@Image1 — старт рыбалки</figcaption></figure>
-<figure><a href="references/scenes/scene-19/S19-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image2-topview-source.png" alt="@Image2 — финальный бег" loading="lazy"></a><figcaption>@Image2 — финальный бег</figcaption></figure>
-</div>
-
-**Что происходит:** Саша и Паша спокойно рыбачат у озера. На воде появляется странная рябь, из воды поднимается Маша в образе Лава-Лагуны, быстро подходит к Саше лицом к лицу. Саша успевает удивлённо сказать «Маша?..», после чего получает пощёчину. Маша эмоционально упрекает его: «Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?» Паша молчит, но ярко реагирует мимикой. Саша резко вспоминает про поручение — «Ой, у нас же важное поручение!» — и вместе с Пашей срывается с места. Сцена заканчивается переходом в бег и приходит к композиции @Image2.
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-
-References:
-@Image1 — starting shot / fishing composition reference: Sasha and Pasha sitting by the lake and fishing. Use this image for the opening composition, lakeside environment, relaxed fishing setup, and the overall mood of the first beat.
-@Image2 — ending shot / running composition reference: Sasha and Pasha running away. Use this image only for the final running composition, motion direction, and ending energy.
-@Image3 — design reference for Masha in the “Lava-Laguna” form. Preserve her blue aquatic fantasy appearance, facial features, silhouette, and overall design identity.
-@Image4 — PRIMARY exact identity reference for Sasha. Preserve his exact face, proportions, costume, and identity throughout the whole scene.
-@Image5 — PRIMARY exact identity reference for Pasha. Preserve his exact face, proportions, costume, and identity throughout the whole scene.
-
-IMPORTANT REFERENCE RULE:
-Use @Image4 and @Image5 as the PRIMARY identity references for Sasha and Pasha.
-Use @Image1 only for the starting composition, fishing environment, and staging.
-Use @Image2 only for the final running composition.
-Use @Image3 only for Masha’s appearance, silhouette, face design, and color palette in her Lava-Laguna form.
-Do not average or replace Sasha and Pasha’s identities using the fishing or running stills.
-
-Scene:
-Create a 30-second live-action fantasy-comedy scene with clear Russian dialogue, expressive facial acting, coherent geography, stable identity, and natural physical movement. The tone starts calm and slightly comedic, becomes surprising and emotional when Masha appears, and then sharply returns to mission urgency. No horror tone. No subtitles. No on-screen text.
-
-Story flow:
-Start with Sasha and Pasha sitting by the lake in the spirit of @Image1, quietly fishing in a relaxed way. The environment is bright daytime by a peaceful lake with a large fantasy city or palace-like architecture in the background, matching the atmosphere of @Image1. Fishing rods, bottles, and small fishing details may remain present if visually consistent with @Image1.
-
-At around 0:05, strange circular ripples begin forming on the water surface. Both men notice the disturbance. The camera should clearly show that something unusual is happening in the lake.
-
-At around 0:07–0:09, Masha in her Lava-Laguna form rises out of the water. Her emergence should feel magical, surprising, and dramatic, but not monstrous or horror-like. She is wet, elegant, otherworldly, and visually faithful to @Image3. She quickly moves toward Sasha and stops face-to-face with him on the shore.
-
-Sasha looks shocked and says in Russian:
-«Маша?..»
-
-Immediately after this line, Masha gives Sasha a clear slap across the face. The slap must be readable and emotionally charged, but not brutal or violent. It is an offended dramatic slap, not an assault scene. Sasha visibly reacts in surprise.
-
-Right after the slap, Masha speaks emotionally in Russian, with clear lip sync and expressive facial acting:
-«Опять ты пропадаешь на рыбалке! Когда наконец сможешь уделять внимание мне, а не своим увлечениям?»
-
-While Masha is speaking, Pasha remains silent, but his reaction must be clearly visible. He reacts with expressive facial acting: surprise, awkwardness, discomfort, and confusion. Do not give Pasha any spoken lines.
-
-After a short stunned beat, Sasha suddenly remembers the mission and says in Russian:
-«Ой, у нас же важное поручение!»
-
-Immediately after this line, Sasha and Pasha abruptly jump up and run away. Use a dynamic but clear transition into the running ending. The final part of the scene must visually arrive at the energy and composition of @Image2: Sasha and Pasha running fast near the lakeside with urgency, as if rushing back to the mission.
-
-Camera:
-Use cinematic live-action coverage with stable motion and clean continuity. You may use natural shot progression inside the same scene: a calm medium-wide opening for the fishing setup, a lake-focused view for the ripples, a dramatic medium shot for Masha emerging, a tighter face-to-face shot for «Маша?..» and the slap, a visible reaction shot of Pasha, and then a dynamic wider motion transition into the running ending. Do not make the scene feel like random montage. All transitions should feel motivated and coherent.
-
-Performance:
-Sasha should feel distracted, caught off guard, and then suddenly alarmed when he remembers the mission. Masha should feel emotionally upset, offended, and demanding attention, but still believable and expressive rather than hysterical. Pasha should remain silent and react with strong readable facial expressions. All facial animation and lip sync must be natural.
-
-Dialogue rules:
-All spoken dialogue must be in natural Russian. Use clear Russian pronunciation and believable emotional delivery. No subtitles.
-
-Audio:
-Use natural environment sound: light wind, water movement, fishing ambience. Add clear splash and water movement when Masha emerges. The slap should have a natural audible impact. Keep spoken dialogue clearly understandable. No background music, or only extremely subtle cinematic underscore if needed, but dialogue clarity is the priority.
-
-Style:
-Photoreal live-action fantasy-comedy. Natural skin, cloth, and water simulation. Good facial consistency throughout. Readable staging. No exaggerated cartoon motion.
-
-Negative prompt:
-bad Russian lip sync, incorrect dialogue speaker, subtitles, captions, text on screen, black bars, side bars, decorative borders, identity drift, face swapping, merged faces, duplicated people, extra characters, distorted hands, extra fingers, broken slap motion, stiff facial acting, horror monster look, random teleportation, confusing geography, unstable water, broken reflections, abrupt incoherent cuts, low-detail faces, watermark, logo.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -2469,176 +2085,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ---
 
-<a id="scene-22"></a>
-
-## Сцена 22 — Разрушенная станция → внутренний коридор: бесшовный пролёт через пробоину
-
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","space_battle","continuous_take","first_last_frame","seamless_transition"]} -->
-
-**✅ Технический результат Topview получен (01.10.2026); редакционное решение не принято.**
-
-**Контекст использования:** Новая промежуточная 30-секундная сцена между двумя уже существующими роликами. Первый кадр — внешний вид сильно повреждённой космической станции в разгаре боя; второй кадр — внутренний коридор станции со штурмовиками. Два исходных видео используются только как монтажный контекст, чтобы понимать, какие фрагменты сцена соединяет; их не прикреплять и не трактовать как reference input. Критическая задача — один физически непрерывный перелёт: космос → подлёт к станции → вход через реальную пробоину в корпусе → повреждённая внутренняя структура → целый коридор. Никакой склейки, телепортации или мгновенной подмены пространства.
-
-**Референсы:** @Image1 = точный первый кадр / разрушенная станция снаружи · @Image2 = точный последний кадр / внутренний коридор станции со штурмовиками.
-
-**Публикация exact scene-refs:** first/last frame уже используются канонически; их бинарные источники зафиксированы в Topview provenance и должны быть опубликованы миниатюрами после materialize шага, без повторного запроса у владельца.
-
-**Что происходит:** Вокруг разрушенной станции продолжается активное космическое сражение: корабли пересекают пространство, ведут огонь, вдали вспыхивают попадания и взрывы. Камера начинает точно с @Image1 и сразу выбирает одну хорошо читаемую пробоину в повреждённом корпусе как цель. В течение сцены она непрерывно ускоряется к станции, проходит рядом с обломками и боевыми кораблями, затем физически входит через пробоину, пролетает сквозь разрушенные наружные и внутренние конструкции и постепенно выравнивается по геометрии целого коридора. В финальные секунды пространство должно стать точно таким, как @Image2: тот же коридор, перспектива, свет и бегущие штурмовики, с точным приходом к последнему кадру.
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-22/S22-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-22/S22-Image1-topview-source.png" alt="@Image1 — наружный первый кадр" loading="lazy"></a><figcaption>@Image1 — наружный первый кадр</figcaption></figure>
-<figure><a href="references/scenes/scene-22/S22-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-22/S22-Image2-topview-source.png" alt="@Image2 — внутренний последний кадр" loading="lazy"></a><figcaption>@Image2 — внутренний последний кадр</figcaption></figure>
-</div>
-
-```text
-Mode: first-and-last-frame (first frame: @Image1, last frame: @Image2)
-Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.5 | Photoreal live-action space-opera | One continuous unbroken camera move
-
-REFERENCES:
-@Image1 — PRIMARY START-FRAME / EXTERIOR reference. Match the exact opening composition, damaged battle-station silhouette, visible hull destruction, burning sections, debris field, space background, camera orientation, lighting balance, scale and battle atmosphere.
-@Image2 — PRIMARY END-FRAME / INTERIOR reference. Match the exact final corridor geometry, perspective, camera height, vanishing point, wall and ceiling architecture, overhead lighting, red warning lights, floor reflections and the running stormtroopers.
-
-IMPORTANT REFERENCE RULE:
-@Image1 owns only the start composition and exterior station identity. @Image2 owns only the final interior destination and exact ending composition. Do not blend the two reference images into a surreal hybrid frame. The interior must not suddenly replace the exterior. The camera must physically travel from the exterior of the same station through a visible pre-existing hull breach and through plausible damaged internal structure before reaching the intact corridor. Preserve one coherent 3D space and one continuous direction of travel.
-
-The two surrounding source videos are EDITING CONTEXT ONLY and are NOT generation references. Do not infer extra visual identities, exact frames, characters or geometry from them beyond the stated narrative continuity.
-
-STYLE GOAL:
-Photorealistic live-action space-opera cinematography with realistic scale, physically believable camera inertia, dense but readable battle action, detailed scorched metal, volumetric smoke and sparks inside the breach, convincing depth, restrained anamorphic highlights and subtle film grain. The shot should feel like an expensive practical/VFX transition in a feature film, not a game cutscene or a morphing AI transition.
-
-SCENE / CONTINUITY GOAL:
-This is a bridge shot between an exterior space-battle sequence and an interior chase/run sequence. It must make the audience feel that the second clip is physically inside the damaged station seen in the first clip. Every stage of the move must reveal the next space naturally: the breach is visible before entry, internal structure is revealed only after crossing the hull, and the final corridor emerges from the same forward trajectory.
-
-TIMELINE / STORY FLOW:
-[0:00–0:05] — EXACT START / BATTLE ESTABLISHMENT
-Begin exactly on @Image1. The damaged station remains clearly readable while the surrounding battle is already active. Distant capital ships and smaller fighters exchange laser fire; one or two ships cross the midground without obscuring the station. Small explosions and glowing impacts flicker across distant damaged surfaces. The camera is already alive with a subtle forward drift but does not immediately lose the reference composition.
-
-[0:05–0:11] — COMMIT TO THE BREACH
-The camera accelerates toward one specific large existing breach in the station hull. The chosen opening must remain visually stable from this point onward — do not create a new hole later. Nearby ships streak past at different depths; laser fire crosses the wider battlefield. The station grows convincingly in scale and surface detail. Keep the route into the breach unobstructed and visually understandable.
-
-[0:11–0:17] — CLOSE EXTERIOR APPROACH
-Now very close to the hull: scorched plating, torn structural ribs, exposed decks, glowing damage, venting smoke or vapor, sparks and slowly drifting fragments become readable. The camera makes only a small physically motivated alignment correction toward the breach. It never clips through intact metal. Battle flashes still illuminate the exterior behind and around the camera path.
-
-[0:17–0:22] — PHYSICAL BREACH ENTRY
-Cross through the actual torn opening in one uninterrupted move. Pass between broken armor plates and structural beams with believable clearance. The transition must be achieved by real geometry moving past the lens — not a white flash, blur wipe, smoke wipe, dissolve, portal, lens flare or hidden cut. Exterior battle light falls off naturally as the camera enters the station.
-
-[0:22–0:26] — DAMAGED INTERNAL TRANSITION ZONE
-Continue forward through a short damaged service/deck section logically behind the breach: exposed beams, broken wall panels, hanging cables, sparks, smoke, emergency red lighting and distant vibration from impacts. This zone gradually becomes less destroyed. The architecture must begin aligning toward the proportions, camera height and vanishing point of @Image2 while still feeling like the same station.
-
-[0:26–0:30] — EXACT CORRIDOR ARRIVAL / LAST FRAME
-The damaged transition opens naturally into the intact corridor from @Image2. Several stormtroopers are already running toward camera exactly within the established corridor geography; they do not pop into existence. Camera motion smooths and settles into the exact framing, angle, height, perspective, lighting, wall geometry and troop placement of @Image2. The final generated frame must match @Image2 as closely as possible.
-
-CAMERA / MOVEMENT:
-One continuous take, no cuts. Physically stable cinematic motion with controlled inertia. One dominant forward flight path from space into the station. No random orbit, no backward reset, no teleport, no impossible acceleration changes, no micro-shake. Small lateral/vertical corrections are allowed only to avoid debris and line up with the breach. Camera must never pass through intact hull, walls, floor, ceiling, ships or characters.
-
-SPACE BATTLE:
-The battle remains active during the exterior half: multiple ships at different distances, laser exchanges, engine trails, occasional explosions and drifting debris. Keep action layered around the camera route rather than directly blocking it. Ships must maintain stable geometry and scale. Do not overcrowd the frame so much that the approach to the breach becomes unreadable.
-
-STATION / ENVIRONMENT LOCK:
-The station remains the same object throughout: same hull material family, same damage language, same structural scale. The breach is a real opening caused by battle damage and visibly connects exterior plating to interior structure. No giant impossible cavity, no TARDIS-like larger-on-the-inside space, no sudden architectural style change. The final corridor should feel like an intact internal section farther behind the damaged outer shell.
-
-STORMTROOPERS / FINAL ACTION:
-Stormtroopers appear only after the camera reaches the interior corridor. Match @Image2's white armor silhouette, approximate number, running direction and spatial arrangement. Their movement is urgent but grounded: natural stride, stable anatomy, no sliding feet, no duplicated limbs or melting helmets. They remain secondary to the transition and must not block the camera path.
-
-LIGHTING / MATERIALS:
-Exterior: cold deep-space illumination mixed with orange fire from station damage, red/blue battle flashes and realistic reflected light on hull plates.
-Breach: strong contrast, hot sparks, glowing damaged metal, intermittent red emergency light, smoke catching directional light.
-Interior corridor: transition cleanly into the white overhead panels and red accents of @Image2. Preserve realistic metallic roughness, panel seams, floor reflections and atmospheric depth.
-
-AUDIO (native):
-Exterior: layered ship engines, laser fire, distant explosions and low-frequency battle rumble. As the camera enters the breach, exterior battle becomes more muffled and structural vibrations, metal groans, sparks, electrical crackles and emergency alarms take over. Final corridor: alarm ambience, running footsteps, armor movement and distant impacts transmitted through the station. No dialogue. No music. No abrupt audio reset at the transition.
-
-NEGATIVE PROMPT:
-hard cut, hidden edit, jump cut, dissolve, morph transition, portal, teleporting camera, white flash transition, lens-flare wipe, smoke wipe, instant exterior-to-interior replacement, camera clipping through intact hull, wall or ceiling, impossible station geometry, corridor appearing from nowhere, giant empty cavity, changing station design, changing breach location, warped perspective, unstable scale, ships morphing or duplicating, excessive battle clutter blocking the route, static empty battle, low-detail ships, random camera spin, camera jitter, micro-shake, game-render look, cartoon, anime, oversaturated neon, stormtroopers in open space, stormtroopers appearing before the corridor, duplicated stormtroopers, melted armor, warped limbs, sliding feet, distorted corridor, moving walls, floating interior props, text, subtitles, logos, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-<a id="scene-23"></a>
-
-## Сцена 23 — Люди → коты-джедаи: бесшовное раскрытие второго плана
-
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["continuous_take","seamless_transition","cats","jedi","character_identity"]} -->
-
-**✅ Технический результат Topview получен (02.10.2026); редакционное решение не принято.**
-
-**Контекст использования:** Начало новой кошачьей ветки. Переход должен соединить фото1 с фото2 без морфа людей в котов: камера физически приближается к идущим людям, проходит между ними и естественно раскрывает двух котов, которые всё это время шли позади. Коты становятся новым центром кадра и продолжают движение с включёнными световыми мечами.
-
-**Референсы:** @Image1 = точный первый кадр / идущие люди и их пространство · @Image2 = точный второй кадр / парная целевая композиция котов · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference
-
-**Используемые identity-референсы на сайте:**
-<div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
-<figure style="margin:0"><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Лучик — identity</figcaption></figure>
-<figure style="margin:0"><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик — identity" loading="lazy" style="display:block;width:100%;height:auto;border-radius:10px"></a><figcaption style="font-size:12px;margin-top:5px">Рыжик — identity</figcaption></figure>
-</div>
-
-**Референсы локации, композиции и действия:**
-<div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-23/S23-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-23/S23-Image1-topview-source.png" alt="@Image1 — люди, старт" loading="lazy"></a><figcaption>@Image1 — люди, старт</figcaption></figure>
-<figure><a href="references/scenes/scene-23/S23-Image2-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-23/S23-Image2-topview-source.png" alt="@Image2 — парная композиция котов" loading="lazy"></a><figcaption>@Image2 — парная композиция котов</figcaption></figure>
-</div>
-
-**Что происходит:** Камера начинает с @Image1, движется вперёд в том же направлении, аккуратно проходит между идущими людьми. За ними постепенно открываются LUCHIK и RYZHIK из @Image2. Люди уходят к краям/за камеру, а коты без склейки становятся главным планом: пафосно идут вперёд, серый держит синий, рыжий зелёный световой меч; оба делают контролируемые эффектные вращения клинками, не останавливаясь.
-
-```text
-Mode: first-and-last-frame / reference-to-video | First frame: @Image1 | Target identity/composition: @Image2
-Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.5 | Photoreal live-action space-fantasy | One continuous unbroken camera move
-
-REFERENCES:
-@Image1 — PRIMARY START FRAME / HUMAN GROUP / SPACE reference. Preserve exact opening camera height, walking direction, ground plane, perspective, lighting and positions of the people.
-@Image2 — PRIMARY TARGET COMPOSITION / PAIR STAGING reference for the two cats once revealed. Use it for their relative placement and target composition, but do not let it override the individual identities.
-@Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle, chest and legs, grey crown/facial and back markings, dense natural fur and serious calm expression.
-@Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, visible darker tabby striping, lighter muzzle/chest and serious confident expression.
-
-REFERENCE PRIORITY:
-@Image1 owns the opening people and physical starting space. @Image2 owns pair staging/target composition. @Image3 owns LUCHIK identity. @Image4 owns RYZHIK identity. Individual identity references outrank the pair/composition image for face, coat and body proportions. Never morph a person into a cat and never average the two cats together.
-
-CHARACTER / PROP LOCK:
-LUCHIK / ЛУЧИК: exact recurring fluffy white-and-grey long-haired cat from @Image3; white muzzle/chest/legs, grey crown/facial and back markings; calm, stern master-like expression; uses one stable BLUE lightsaber.
-RYZHIK / РЫЖИК: exact recurring fluffy ginger long-haired tabby cat from @Image4; warm orange coat, darker tabby striping, lighter muzzle/chest; serious, confident, slightly more aggressive expression; uses one stable GREEN lightsaber.
-They are photoreal cats with recognizably feline heads, coats and body proportions, but capable of confident stylized Jedi movement. When manipulating sabers they may balance upright briefly and grip compact hilts with their front paws; do not give them human arms, human hands or humanoid faces. Saber colors, hilts and cat identities remain fixed.
-
-START STATE:
-Begin exactly on @Image1. The people are already walking in a coherent direction. Camera shares their forward movement and does not yet reveal the cats clearly.
-
-TIMELINE:
-[0:00–0:07] — MATCH PHOTO 1
-Hold @Image1 composition long enough to establish the walking group. Smooth forward tracking, natural human steps and cloth motion. No cats popping into the foreground.
-
-[0:07–0:14] — APPROACH THE GAP
-Camera gradually accelerates and closes distance. Two people naturally separate just enough for a real corridor of visibility. Camera threads physically BETWEEN them without clipping bodies. Foreground shoulders/arms pass the lens edges with real parallax.
-
-[0:14–0:19] — REVEAL THE CATS
-Through the gap, LUCHIK and RYZHIK are revealed several meters behind the people, already walking in the same direction. They were present in the same space all along; they do not spawn, teleport or replace the humans. Their exact identities converge toward @Image2.
-
-[0:19–0:25] — HERO WALK
-The humans slide naturally behind camera or to the far edges. Camera settles into a low heroic backward tracking shot in front of the cats. Both cats advance with calm, intimidating confidence. Their sabers ignite cleanly: LUCHIK blue, RYZHIK green.
-
-[0:25–0:30] — SABER FLOURISH / TARGET COMPOSITION
-Without stopping their forward momentum, each cat performs one controlled, readable saber flourish — elegant wrist/forepaw rotation, blades tracing clean arcs without hitting each other or the ground. End with both cats still advancing and composition matching @Image2 as closely as possible.
-
-CAMERA / SPACE:
-One continuous physical shot. Maintain one ground plane, one forward axis and believable parallax. No teleportation, hidden cut, whip-mask, morph or impossible pass through bodies. Stable cinematic inertia, no random micro-shake. Lens perspective stays consistent; scale changes come from real camera translation.
-
-LIGHTING / VFX:
-Match @Image1 lighting at the start and preserve the same world lighting through the reveal. Lightsaber glow is restrained and physically motivates subtle colored light on nearby fur/ground; no giant bloom, no overexposed neon fog. Fur remains detailed and photoreal.
-
-AUDIO:
-Footsteps from the human group, ambient environment, subtle cloth movement; as cats become dominant, soft feline paw impacts, saber ignition, controlled saber hum and air swishes. No dialogue, no music unless present in surrounding edit.
-
-NEGATIVE PROMPT:
-person morphing into cat, cat appearing from nowhere, teleport, hidden cut, hard cut, dissolve, wipe, whip transition, camera clipping through people, changing ground plane, wrong cat identity, Luchik/Ryzhik identity swap, merged cats, duplicated cats, extra cats, human arms on cats, human hands, humanoid face, deformed paws, extra limbs, saber through body, changing saber color, duplicated saber, floating hilt, blade wobble, random acrobatics, cartoon, anime, game-render look, plastic fur, camera jitter, text, subtitles, logo, watermark, black bars, side bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
----
-
 <a id="scene-24"></a>
 
 ## Сцена 24 — Коты в кабине: запуск корабля и взлёт
@@ -4222,51 +3668,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 ---
 
-<a id="scene-29"></a>
-
-## Сцена 29 — Кантина: Илюха о плёнке на «Тысячелетнем соколе», часть 3
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":11}],"tags":["cantina","han","chewbacca","ilyusha","comedy","dialogue"]} -->
-
-**Контекст использования:** Третья часть того же комедийного разговора из сцен 10–11. Прежние 10–11 в `NEEDS_FIX`, поэтому монтажную стыковку не считать принятой автоматически.
-
-**Референсы:** @Image1 — та же кантина/Чубакка; @Image2 — Han; @Image3 — Илюша/джедай
-
-<div class="scene-ref-gallery">
-<figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Илюша"></a><figcaption>Илюша — exact identity</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image1-cantina-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image1-cantina-source.png" alt="Кантина и Чубакка"></a><figcaption>@Image1 — кантина + Чубакка</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image2-han-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image2-han-source.png" alt="Хан"></a><figcaption>@Image2 — Хан</figcaption></figure>
-<figure><a href="references/scenes/scene-10/S10-Image3-jedi-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-10/S10-Image3-jedi-source.png" alt="Илюша в кантине"></a><figcaption>@Image3 — Илюша в кантине</figcaption></figure></div>
-
-**Что происходит:** Илюха невозмутимо напоминает Хану о плёнке, когда-то наклеенной им на его корабль, а Хан и Чубакка возмущённо не понимают.
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Live-action natural Russian dialogue, dry comedy and precise lip sync.
-REFERENCE AUTHORITY:
-@Image1 = EXACT cantina + Chewbacca composition from Scenes 10/11: dim warm amber desert-cantina, round metal table, hanging light, worn stone arches, light smoke, blurred alien extras. Chewbacca remains the same tall shaggy reddish-brown Wookiee with bandolier; this plate controls the environment and Chewie, never replaces male faces.
-@Image2 = ABSOLUTE HAN SOLO face/outfit: sandy brown hair, slight stubble, cream shirt, unbuttoned dark vest, blue trousers with red side detail and blaster holster. @Image3 = ABSOLUTE ILYUSHA / Jedi: mustached man with wavy brown hair, exact older weathered face, light green layered tunic, deep-red hooded cloak DOWN and brown boots. No Sasha/Pasha/Serega or other invented principals.
-CONTINUITY: direct third part after Scene11. The same people remain in the SAME seats around the SAME table, same eye-line axes/lighting/screen orientation. The previous phrase was Han's angry «Какую плёнку? Мужик, ты вообще кто?»; do not duplicate it or reset the conversation. The subject is the ALREADY MENTIONED protective film, now connected to the Millennium Falcon by Ilyusha's confident absurd explanation. No actual spacecraft comes into the room.
-
-TIMELINE:
-[00:00–00:05] 35mm motivated three-shot from the existing table axis: Han still looks incredulous after Scene11, Chewbacca's head turns slowly toward the Jedi, Ilyusha remains deadpan as if he has a routine answer. Same warm haze, believable pauses.
-[00:05–00:18] Unhurried medium close on Ilyusha with active lips visibly unobscured. EXACT RUSSIAN line, idiomatic pronunciation without foreign accent and no added words:
-ИЛЮХА: «Ну я тебе плёнку на Тысячелетний сокол клеил в прошлом цикле. Уже пора переклеивать. Так ты принёс?»
-Let him naturally breathe at sentence breaks. He makes a tiny businesslike gesture as a technician reminding a customer of a service interval. During this line Han and Chewie's mouths MUST NOT make the Russian speech.
-[00:18–00:23] A clear comedically LONG stunned reaction: Han blinks twice, jaw tightens, looks at Chewie and back. Chewie looks back, raising brow/ridge and drawing a breath. Ilyusha is sincerely oblivious to how nonsensical his request sounds.
-[00:23–00:30] Han turns furious, lifts both hands just enough to express disbelief and emits a short outraged NONVERBAL scoff, not a newly invented Russian line. Chewbacca leans in and gives an indignant loud Wookiee growl/roar (not translated human speech); both look angry and bewildered. End on the same fixed table geography with a clear reaction beat.
-
-CAMERA / AUDIO:
-Motivated clean dialogue coverage; physically stable medium table shot, close view during Ilyusha's words and one reaction two-shot. Preserve left/right, never cross axis, no sudden new guest between seats, no slapstick fall. Warm practical amber light from established lantern, natural fur/fabric/skin, light smoky depth.
-Native audio: one human Russian speaker Ilyusha only, dry quiet environment chatter, natural Chewie growl, Han's brief frustrated breath/wordless sound. No words assigned to Chewie, no narrator, no subtitle, no score above dialogue.
-
-NEGATIVE:
-wrong speaker or words, rushed line, English accent, fake subtitles, changing table, different faces, duplicated Chewie, Han wardrobe change, new Millennium Falcon in the restaurant, new props/film spool materializing, bad hand anatomy, warped cantina, switched seats, actor freeze, glossy CGI, cartoon, random camera jitter, black bars, watermarks.
-FRAME: 16:9 full bleed, no bars.
-```
-
----
-
 <a id="scene-30"></a>
 
 ## Сцена 30 — Коты против Серёги: разрушение колоннады
@@ -4504,6 +3905,117 @@ Feature-film single continuous take, smooth physically motivated dolly, 28–35m
 AUDIO: exterior wind gradually takes on a reverberant low indoor ambience, authentic footsteps on stone and cloth noise, occasional granular masonry movement. Native audio ON, no dialogue, narrator, cinematic music, whispering apparitions or chants.
 NEGATIVE: wrong person/robe, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, gratuitous enemies, faceless statue morphs, impossible 3D plan, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
 16:9 edge-to-edge.
+```
+
+---
+
+---
+
+<a id="scene-35"></a>
+
+## Сцена 35 — Древний ПК в руинах храма: находка Серёги
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":34}],"tags":["serega","sith_temple","exploration","ancient_computer","continuity"]} -->
+
+**Контекст использования:** Прямое продолжение Scene 34. Владелец попросил приключенческий проход в духе поиска древнего артефакта: в храме Серёга находит старый персональный компьютер. Это постановочный кандидат после уже созданной Scene 34. Перед запуском взять фактический последний кадр её результата как @Video1/@Image3, чтобы не угадывать интерьер, и проверить монтажное место. Находка пока не утверждает, что ПК работает или что карта уже собрана; технический результат Scene 34 не равен редакционному одобрению. Без автоматической генерации.
+
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга, точная identity</a>; @Image2 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">та же наружная архитектура планеты ситхов</a>; @Video1/@Image3 — фактический конец готовой Scene 34, интерьер (подключить перед запуском).
+
+**Что происходит:** Серёга изучает пыльный зал, обнаруживает скрытый древний проход и каменную нишу, в которой на постаменте под обломками лежит неожиданная находка: облезлый бежевый системный блок 1990-х, массивный CRT-монитор и клавиатура. Удивление сыграно сухо и серьёзно. Концовка — крупный читаемый общий вид найденного компьютера, готовый для дальнейшего монтажного эпизода про Warcraft.
+
+```text
+MODE: reference-to-video | Wan 3.0 | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | photoreal live-action cinema.
+IDENTITY / REFERENCES:
+@Image1 is the ABSOLUTE SEREGA identity: exact older pale Chancellor face, receding thin light hair, human anatomy, long dark-purple robe; no face averaging, costume change or invented jewellery.
+@Image2 establishes the same Sith-planet city and temple architecture already used for Scenes 33 and 34: red-ochre ancient masonry, eroded stone, orange sunset and modest dry dust; exterior design may only be glimpsed through the existing entrance.
+@Video1 / @Image3 MUST be the genuine end of approved-for-use Scene 34, not an imagined temple interior. These references lock the current first interior hall, carved corridor entrance, camera side, sunlight direction, actual door position and physical geometry. Do not replace with fantasy statues, a vast new cathedral or a generic cave.
+STORY FUNCTION: This is a serious archaeological adventure with a deadpan absurd find. Serega is alone, searching intentionally rather than looking into the camera. Treat the dusty beige late-20th-century computer as an ordinary tangible object found in an ancient temple, not a magical CGI interface. An old beige desktop PC tower or horizontal case, bulky grey-beige CRT monitor, simple keyboard, coiled dusty cables; no modern flat monitor, RGB LEDs or futuristic holograms. Nothing automatically powers on.
+START: Continue the exact final position and forward direction of Scene 34. Serega turns from the first chamber into a narrower accessible side passage, with the exterior light remaining geometrically consistent behind him. He still holds the same appearance and robe; no visible new prop may spontaneously appear in his hands.
+ACTION / TIME:
+[00:00–00:05] Medium-wide stable continuation of the last frame from Scene 34. Serega pauses at the carved masonry and notices a narrow recess behind fallen stone. A restrained, observant expression; the camera glides laterally only enough to reveal the recess naturally.
+[00:05–00:11] He approaches along the same floor; slow deliberate boots over ancient grit. Tracking follows at shoulder height, passing one broken architectural support. A thin sunlight shaft from the known wall opening rakes through floating fine dust. Preserve navigable walls and believable scale.
+[00:11–00:17] Over the same shoulder, Serega carefully moves a small loose flat stone aside with both hands. The movement uncovers the corner of a rectangular beige object beneath cloth and dust. The reveal is mechanical and physically plausible, not a glowing portal or puzzle trap.
+[00:17–00:23] Smooth motivated three-quarter view, still spatially linked: Serega brushes dust from a bulky boxy CRT monitor on a stone shelf; below it a beige case and keyboard become visible in the same wide enough composition. Keyboard and cables remain attached where visible; do not morph the computer between angles.
+[00:23–00:27] Close medium reaction on Serega: his intense explorer's concentration shifts into a tiny, utterly serious bewilderment. He looks from the monitor to the keyboard, but never laughs or winks. One authentic dry stone scrape and quiet shoe movement.
+[00:27–00:30] Camera drifts back to an attractive, readable archaeological still composition: Serega, the dusty old PC, CRT monitor and keyboard all in one spatially consistent shot. He reaches toward the keyboard but does NOT press the power button. End on an unresolved find suitable for the existing Warcraft/CRT story.
+CAMERA / SPACE: high-end physically stable cinema, 35 mm natural perspective, smooth inertia, no jitter, no cut that moves objects or changes the hallway topology. If coverage is needed, maintain same axis and motivated viewpoint. Preserve the real size of a desktop system and Serega's hands.
+LIGHT / MATERIALS: matte etched stone, airborne dust lit by warm side shafts, dim bounce-lit chamber, greyed ABS computer plastic with age-yellowing and scratches, realistic CRT convex glass and inert black screen, no LEDs or backlit text.
+NATIVE AUDIO: dry wind fading into reverberant temple room tone, grit under boots, soft robe, stone scrape, dust brushing, faint plastic contact. No dialogue, off-screen speech, song, voiceover, narrator, score or audible machine startup.
+NEGATIVE: different man or robe, new location, impossible hall, weightless objects, morphing CRT, flat-screen, magic sigils, neon, glowing screen, hologram, powered-on gameplay, modern MacBook, extra characters, cats, cartoon comedy, giggling, subtitles, text added to image, flicker, handheld shake, wrong shadows, logo, watermark, black bars.
+END: dusty computer remains in place and off; adventure can continue with a separate carefully linked future scene.
+```
+
+---
+
+<a id="scene-36"></a>
+
+## Сцена 36 — После пещеры: Серёга с картой направляется к кораблю
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","nabu","map","depart","continuity"]} -->
+
+**Контекст использования:** Продолжение уже вставленной в фильм Scene 17 (её Scene ID навсегда зарезервирован). В конце Scene 17 Серёга сидит вместе с Пашей и Сашей и держит одну физическую карту. Здесь он встаёт, прощается жестом, покидает ту же пещеру и идёт к прежнему транспорту. Никакого дублирования карты, телепорта или переноса всей тройки на другую планету. Перед запуском сверить реальный последний кадр Scene 17, вход/выход пещеры и существующий кадр транспортного средства; если нет точного транспортного исходника, сцену оставить DRAFT, не выдумывать корабль. Новых генераций автоматически нет.
+
+**Референсы:** @Image1 = <a href="references/full/serega.jpg">Серёга (identity)</a>; @Image2 = <a href="references/scenes/scene-17/S17-cave-Video1-frame-003s.png">пещера/свет/пространство</a>; @Image3 = <a href="references/scenes/scene-17/S17-Image4-topview-source.png">единственная карта</a>; @Video1 = исходный готовый конец Scene 17; @Video2 = существующий кадр доступного на Набу транспорта Серёги, подобрать из монтажа до запуска.
+
+**Что происходит:** После передачи карты Серёга без спешки поднимается со своего места, оставляя Пашу и Сашу в пещере, идёт к выходу и выходит на знакомую местность к своему транспорту. Концовка фиксирует подготовку к отлёту, сам полёт — в Scene 37.
+
+```text
+MODE: reference-to-video | optimized for Wan 3.0 | duration 30s | 1080p | 16:9 | 24fps | native audio ON | realistic cinematic adventure.
+REFERENCES / HIERARCHY:
+@Image1 is the ABSOLUTE SEREGA/CHANCELLOR identity: exact pale older man, thinning light hair, deep dark-purple robe. Do not borrow accidental faces or costumes from scenery references.
+@Image2 and @Video1 are physical continuity of the SAME humid post-battle cavern from the finished Scene 17: wet layered rock, shallow water, echoes, waterfall-like noise, monster-remains seating, recognizable exit direction, moisture and cool bounce light. @Video1 final frame governs positions and which hand holds the map.
+@Image3 is the ABSOLUTE single map prop, including folded edges, markings, size, surface and material; never substitute a disk, book, glowing generic tablet or second map.
+@Video2 must be an actual approved Naboo departure transport shot from the existing film: exact shape, exterior geography and approach vector, rather than a newly invented generic spacecraft. If not provided, the render is NOT ready; defer instead of fabricating continuity.
+START LOCK: The LAST FRAME of completed Scene 17 is the beginning continuity authority. Serega is seated and HOLDS the one map after Pasha hands it over, Pasha and Sasha remain on separate monster remains. Do not replay the handoff, whisper or dialogue. Wet clothes and faces continue without reset. The defeated monster remains inert.
+STORY: Serega decides to leave after the encounter. Pasha and Sasha remain on Naboo and do NOT accompany him. No reconciliation dialogue, no new villain, no telepathic link to the forest group. A slight farewell gesture is enough.
+TIMELINE:
+[00:00–00:06] Begin near the exact established three-shot, with everyone still exhausted. Serega looks briefly at the map in his hand, folds it only along its existing crease and secures it inside the same robe, visibly and safely. Pasha and Sasha watch silently.
+[00:06–00:12] Serega plants his feet onto firm wet stone and rises carefully from the separate monster section; the camera reveals his coherent weight shift. Pasha remains seated and Sasha remains seated. Serega gives a small, serious nod. They answer only with minimal eye movements, no spoken lines.
+[00:12–00:18] Follow Serega at his own walking speed along the cavern's previously established water edge toward the visible actual exit. The camera follows from behind three-quarter and keeps the seating area in believable perspective; no suddenly appearing staircases, no change in waterfall position.
+[00:18–00:24] A continuous motivated camera travel crosses the real cave opening; damp rock gives way gradually to the existing Naboo exterior light and terrain. His robe remains wet near the hem. Exposure adjusts naturally as outside light grows, with the cave opening still visible behind.
+[00:24–00:30] The same walking vector brings him toward the known transport seen in @Video2, parked consistently with pre-existing footage. Establish a clear but not rushed composition with him still approaching the boarding point, map secured, vehicle motionless. No instant takeoff or planetary cut. Save a matchable last frame for Scene 37.
+CAMERA / GEOGRAPHY: one smooth controlled 35 mm follow without arbitrary cuts, physical 3D spatial constraints, no abrupt change of screen direction, stable left/right identities, no digital zoom or micro-shake. Maintain believable cave-to-exterior gradient, scale and weather.
+PERFORMANCE: adult restrained tired movement after a difficult battle; no face drift, superhero swagger, parody acting or extra gesticulation.
+NATIVE AUDIO: wet steps and faint dripping, distant waterfall, fabric rustle, then natural outdoor wind; sound bed changes gradually as Serega emerges. No dialogue or narrator, no music, no audible coordinates.
+NEGATIVE: double map, missing map, flying map, extra characters, Pasha/Sasha following, changed man or purple robe, magical portal, wrong vehicle, invented landing platform, duplicated body seats, resurrected monster, new combat, inconsistent lighting, fake CG, jump cuts, subtitles, watermark, black bars, camera jitter.
+END STATE: only Serega is leaving, with the identical single map safely concealed; the agreed vehicle awaits in the original Naboo environment.
+```
+
+---
+
+<a id="scene-37"></a>
+
+## Сцена 37 — Полёт Серёги к лесной планете и стык с отдельной группой
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","forest","map","continuity"]} -->
+
+**Контекст использования:** Владелец попросил связку после Scene 17 — Серёга покидает место боя, улетает на другую планету, где уже существует лесная группа Виталика и Лёхи. Это не означает, что группа на Кашиике физически присутствовала в пещере на Набу. Начало должно совпадать с полученным концом Scene 36, а лесная локация — с фактическим монтажным началом лесного блока (film-analysis.md, W7/T4). Если этих двух кадров нет, prompt остаётся DRAFT и не должен запускаться. События после посадки остаются монтажным выбором; встречу в этой части не инсценировать.
+
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Video1 = только что созданный конец Scene 36 / настоящий корабль; @Video2 = существующий кадр корабля/планеты из текущего монтажа; @Video3 = точный открывающий кадр лесной группы Кашиика; @Image2 = <a href="references/full/vitalik.jpg">Виталик</a>, @Image3 = <a href="references/full/lesha.jpg">Лёха</a> — только идентичности, если лесную пару действительно видно в финальной стыковке.
+
+**Что происходит:** Серёга поднимается на известный корабль, взлетает, проходит через короткий космический переход и приближается к лесной планете. Лесные джедаи существуют в отдельной сюжетной линии; концовка показывает планету/её атмосферу и оставляет пространство для монтажной склейки к уже существующему лесному фрагменту.
+
+```text
+MODE: reference-to-video | optimized for Wan 3.0 | duration 30s | 1080p | 16:9 | 24 fps | native sound ON | cinematic physically plausible planetary transfer.
+REFERENCE LOCK:
+@Image1 = absolute Serega facial/body identity, older pale Chancellor, thinning fair hair, same dark-purple robe.
+@Video1 = exact ending of newly generated Scene 36: specific actual Naboo exterior parking environment, exact transport craft model, hatch, geometry, camera side and Serega approach vector. Required before rendering.
+@Video2 = actual previously existing film shot containing the matching ship / known space travel design and a believable establishing planet view; preserves scale and finishes the transition without inventing new vehicle designs.
+@Video3 = actual existing editorial FIRST FOREST SHOT from the Kashyyyk/forest group. Use only as exact geographic/lighting/vegetation and final composition anchor, not as a license to shift the forest Jedi into Naboo cave scenes.
+@Image2 and @Image3 = exact identity reference ONLY IF these two men appear in the established forest source footage: BLACK / Vitalik and PURPLE / Lesha. They are a separate pair from NABOO'S Sasha/Pasha. No face blending or wardrobe swaps. Do not generate a new interaction among all five people.
+STORY CONTINUITY: The one physical map has already been received from Pasha by Serega in the completed scene and secured in his robe in Scene 36. It does NOT multiply, teleport to the forest Jedi or become a floating hologram. The forest storyline already exists independently; the proposed transfer establishes a geographic approach, not an assumed already-shot encounter or alliance.
+TIMELINE:
+[00:00–00:06] Begin in exactly the closing physical arrangement of Scene 36: Serega standing by the same real transport's hatch. He takes two steps, boards through a visible, mechanically plausible entry, and the hatch closes; identity, robe, distance and screen direction stay coherent.
+[00:06–00:12] One motivated exterior wide view shows the same full craft making a realistic vertical or shallow forward departure from the known location, dust/water and local vegetation reacting as appropriate. No vehicle redesign or instant switch from shuttle to fighter.
+[00:12–00:18] Cinematic forward-following shot as the craft ascends through atmospheric layers. The camera movement is stable and depicts a continuous navigable flight path; one concise time-compression edit is permitted between upper atmosphere and established deep-space travel, not within the launch itself.
+[00:18–00:23] Same ship passes through a restrained, short space travel beat. Keep the actual hull, exhaust behavior, proportions and flight direction. No overcrowded fleets, laser battle, explosion, magic warp doorway or new cockpit personalities.
+[00:23–00:27] A new planet becomes readable ahead: its cloud deck, wooded continental landforms and horizon should lead plausibly into the approved forest scene @Video3. Camera glides from behind the ship toward its approach vector, preserving orientation and lighting continuity.
+[00:27–00:30] Landward approach establishes the distinct forest planet and its biome. Hold enough of the foliage/geography composition to allow a clean cut into the already filmed BLACK/PURPLE forest story. Do not introduce a newly invented personal meeting, combat, speech or a contradictory landing. Preserve geographic ambiguity only where source footage itself requires it.
+CAMERA / EDIT: Stable 3D continuity, smooth inertial cinema, accurate perceived ship size; two motivated transitions allowed only for truly distant travel. No endless static warp montage, no jump discontinuity on a ship or person. Keep first and final visual states matchable to @Video1 and @Video3.
+LIGHT / PHYSICS: Natural Naboo daylight transitioning to space and then believable forest-atmosphere lighting. Real cloud haze, parallax and starfield, muted clean color grade compatible with the two neighboring scenes.
+NATIVE AUDIO: recognizable ship hatch/servo, engine ignition, air movement and low-frequency ascent vibration; low travel ambience, subtle atmospheric wind near destination. No songs, narrator, speech, subtitles, or crowd.
+NEGATIVE: wrong faces, a new craft, mismatch to @Video1, teleporting map, extra map, Pasha/Sasha in the forest, BLACK/PURPLE in the departing ship unless pre-existing source proves it, impossible instant landing, made-up planet landmarks, shiny game CGI, random flight direction flips, hard geometry morph, jitter, black bars, watermark.
+END: separate forest world visually established; reserve an exact-match final cut into real forest-group footage, NOT an invented reunion.
 ```
 
 ---

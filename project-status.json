@@ -3,14 +3,14 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-10T20:03:02Z",
-  "revision_date": "10.10.2026",
+  "synced_at": "2026-10-10T21:16:55Z",
+  "revision_date": "11.10.2026",
   "master_declared_last_full_sync": "10.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "2e8111940cd108cb4639eadad69c6940456188037be5e471ab8f8b9995acf149",
-  "canonical_revision_sha256": "45e61c262212af6e2f995cdaa9d7baa7dcf92a3ab21e2735290c6f6bc34aa3fc",
-  "canonical_master_bytes": 592442,
-  "scenes": 21,
-  "prompt_texts": 54,
+  "canonical_master_sha256": "e0913e26ab575aa0a831c04606f59abfc654d8430a1304e2a4bbfda1ed5695d9",
+  "canonical_revision_sha256": "9ddae100a1bf75c222cb72dedfed4a35cebacd9e8786eb3091db6532d5754621",
+  "canonical_master_bytes": 538017,
+  "scenes": 17,
+  "prompt_texts": 50,
   "work_items": [
     "W5",
     "W6",
@@ -30,29 +30,25 @@
   ],
   "slow_scenes_count": 1,
   "scene_ids": [
-    10,
-    11,
     13,
     16,
-    17,
-    19,
     20,
     21,
-    22,
-    23,
     24,
     25,
     26,
     27,
     28,
-    29,
     30,
     31,
     32,
     33,
-    34
+    34,
+    35,
+    36,
+    37
   ],
-  "latest_scene": 34,
+  "latest_scene": 37,
   "reserved_scene_ids": [
     1,
     2,
@@ -62,10 +58,17 @@
     6,
     7,
     9,
+    10,
+    11,
     12,
     14,
     15,
-    18
+    17,
+    18,
+    19,
+    22,
+    23,
+    29
   ],
   "instruction_sync": {
     "health": "ok",
@@ -73,7 +76,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "chatgpt_live_exact_drive_github_sha256",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.008,
+    "age_hours_at_status_build": 1.24,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -137,7 +140,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.008,
+      "age_hours": 1.24,
       "blocking": false
     },
     "topview_task_map": {
@@ -148,42 +151,6 @@
     }
   },
   "scene_meta": {
-    "10": {
-      "target_engine": "Wan 3",
-      "production_state": "NEEDS_FIX",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [],
-      "tags": [
-        "dialogue",
-        "needs_fix"
-      ],
-      "render_state": "IDLE"
-    },
-    "11": {
-      "target_engine": "Wan 3",
-      "production_state": "NEEDS_FIX",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 10
-        }
-      ],
-      "tags": [
-        "dialogue",
-        "needs_fix",
-        "continuity"
-      ],
-      "render_state": "IDLE"
-    },
     "13": {
       "target_engine": "Wan 3",
       "production_state": "NEEDS_RERENDER",
@@ -216,41 +183,6 @@
         "continuous_take"
       ],
       "render_state": "SLOW_PENDING"
-    },
-    "17": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [],
-      "tags": [
-        "dialogue",
-        "continuous_take",
-        "continuity",
-        "deadpan_comedy",
-        "map"
-      ],
-      "render_state": "IDLE"
-    },
-    "19": {
-      "target_engine": "Wan 3.0",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [],
-      "tags": [
-        "dialogue",
-        "fantasy_comedy",
-        "mission_return",
-        "continuous_take"
-      ],
-      "render_state": "IDLE"
     },
     "20": {
       "target_engine": "Seedance 2.5",
@@ -285,42 +217,6 @@
         "continuous_take",
         "first_last_frame",
         "seamless_transition",
-        "character_identity"
-      ],
-      "render_state": "IDLE"
-    },
-    "22": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "action",
-        "space_battle",
-        "continuous_take",
-        "first_last_frame",
-        "seamless_transition"
-      ],
-      "render_state": "IDLE"
-    },
-    "23": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "continuous_take",
-        "seamless_transition",
-        "cats",
-        "jedi",
         "character_identity"
       ],
       "render_state": "IDLE"
@@ -439,30 +335,6 @@
       ],
       "render_state": "IDLE"
     },
-    "29": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 11
-        }
-      ],
-      "tags": [
-        "cantina",
-        "han",
-        "chewbacca",
-        "ilyusha",
-        "comedy",
-        "dialogue"
-      ],
-      "render_state": "IDLE"
-    },
     "30": {
       "target_engine": "Wan 3",
       "production_state": "READY",
@@ -568,37 +440,97 @@
         "continuous_take"
       ],
       "render_state": "IDLE"
+    },
+    "35": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 34
+        }
+      ],
+      "tags": [
+        "serega",
+        "sith_temple",
+        "exploration",
+        "ancient_computer",
+        "continuity"
+      ],
+      "render_state": "IDLE"
+    },
+    "36": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "nabu",
+        "map",
+        "depart",
+        "continuity"
+      ],
+      "render_state": "IDLE"
+    },
+    "37": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 36
+        }
+      ],
+      "tags": [
+        "serega",
+        "travel",
+        "forest",
+        "map",
+        "continuity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "10.10.2026",
-    "synced_at": "2026-10-10T20:03:02Z",
-    "canonical_master_sha256": "2e8111940cd108cb4639eadad69c6940456188037be5e471ab8f8b9995acf149",
-    "canonical_revision_sha256": "45e61c262212af6e2f995cdaa9d7baa7dcf92a3ab21e2735290c6f6bc34aa3fc",
-    "scene_count": 21,
-    "prompt_count": 54,
+    "revision_date": "11.10.2026",
+    "synced_at": "2026-10-10T21:16:55Z",
+    "canonical_master_sha256": "e0913e26ab575aa0a831c04606f59abfc654d8430a1304e2a4bbfda1ed5695d9",
+    "canonical_revision_sha256": "9ddae100a1bf75c222cb72dedfed4a35cebacd9e8786eb3091db6532d5754621",
+    "scene_count": 17,
+    "prompt_count": 50,
     "scene_ids": [
-      10,
-      11,
       13,
       16,
-      17,
-      19,
       20,
       21,
-      22,
-      23,
       24,
       25,
       26,
       27,
       28,
-      29,
       30,
       31,
       32,
       33,
-      34
+      34,
+      35,
+      36,
+      37
     ],
     "work_items": [
       "W5",
@@ -616,10 +548,10 @@
     "slow_scenes": [
       16
     ],
-    "health": "ok",
+    "health": "error",
     "instruction_sync_health": "ok"
   },
-  "health": "ok",
+  "health": "error",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
@@ -644,7 +576,7 @@
     "canonical_master_sha256_present": true,
     "scene_meta_json_valid": true,
     "scene_meta_scene_ids_unique": true,
-    "scene_meta_dependency_targets_exist": true,
+    "scene_meta_dependency_targets_exist": false,
     "scene_meta_duration_positive": true,
     "scene_meta_production_state_valid": true,
     "scene_meta_dependency_types_valid": true,
