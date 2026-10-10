@@ -2,17 +2,9 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-10T14:59:29+00:00",
- "valid_at_generation": false,
- "validity_mismatches": [
-  "NEW-CHAT-HANDOFF.md",
-  "SYNC-RUNBOOK.md",
-  "AI-PROJECT-GUIDE.md",
-  "PROMPT-STYLE-GUIDE.md",
-  "USER-GUIDE.md",
-  "README-AI-SYNC.md",
-  "BACKUP-AI-RUNBOOK.md"
- ],
+ "generated_at": "2026-10-10T15:02:52+00:00",
+ "valid_at_generation": true,
+ "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
  "sources": [
   {

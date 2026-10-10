@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-10T14:59:29+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md', 'SYNC-RUNBOOK.md', 'AI-PROJECT-GUIDE.md', 'PROMPT-STYLE-GUIDE.md', 'USER-GUIDE.md', 'README-AI-SYNC.md', 'BACKUP-AI-RUNBOOK.md'])
+Сгенерирован 2026-10-10T15:02:52+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
