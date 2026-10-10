@@ -1,5 +1,16 @@
 ﻿# SYNC-RUNBOOK v4.0 — AI Film Project
 
+## СРОЧНОЕ УТОЧНЕНИЕ — 11.10.2026 МСК · здоровый heartbeat и same-ID writer
+
+Этот блок дополняет действующий верхний канон и имеет приоритет над историческими рекомендациями внутри этого файла. Мониторы Claude/ChatGPT — один writer, sticky takeover после 180 мин отсутствия *здорового полного* цикла; 50-мин collision guard; `degraded`/ошибочный/неполный run НЕ освежает success clock. Live role from `monitor-role.json`; `scripts/monitor_role.py`, `scripts/monitor_status.py`, CI `tests/test_monitor_failover.py` являются исполняемой процедурой. Тесты вместе с recovery-интеграцией включены в CI, success run 38087297146 на 10.10.2026 UTC.
+
+Владельческие `in_film` (10,11,17,19,22,23,29) уже полностью применены: same-ID Drive master readback, reserved IDs, ledger, 8 Supabase rows `applied`, sync GitHub and Pages. Canonical checkpoint 17 scenes / 50 prompts, SHA256 `7389ce692e15048c37eba463c01c39f892dbb82de55ffa4c6bdf1a16942e0d3d`; новые Scenes 35–37 `DRAFT`, без автоматического запуска. При retire scene проверять `scene-meta.dependencies`: active Scene24 больше НЕ ссылается на retired 23; литературные связи в описании можно сохранять без мёртвых metadata-ссылок. Всегда пересчитывать validator до `health=ok` и сверять Pages.
+
+Для безкомпьютерной записи будущего GitHub writer нужна **отдельная** авторизация `GDRIVE_SA_KEY` в GitHub Secrets и editor-доступ сервисного аккаунта к папке Master. Пока секрет и реальное `applied` + readback не проверены, схема **не введена**. Зеленый job без записи не является проверкой. Никогда не помещать JSON-key в Markdown, chat, GitHub repo/Issues/Notion/Library. Ручной ChatGPT connector same-ID write проверен и может быть использован с fresh-read, staged `file_uri`, guarded update, readback, exact mirrors и SYNC-TRIGGER; staging удалить. После настроенного GitHub-key путь включается только после idempotent test+реальной guarded записи+readback+validator+Pages и документации в SAME NEW-CHAT-HANDOFF.md. Полные шаги в `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`.
+
+---
+
+
 
 ## Действующее расписание — решение владельца 06.10.2026
 
