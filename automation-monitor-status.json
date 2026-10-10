@@ -14,7 +14,9 @@
     "procedure": "ops/CLAUDE-MONITOR.md",
     "since": "2026-10-10",
     "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
-    "role": "primary"
+    "role": "primary",
+    "bound_to_owner_computer": false,
+    "binding_note": "10.10.2026: scheduled task не привязана к компьютеру (нет bound_device); без привязки same-ID запись master невозможна — при смене slow цикл degraded. Привязку включает владелец («Требовать этот компьютер» в приложении Claude)."
   },
   "retired_automations": [
     {

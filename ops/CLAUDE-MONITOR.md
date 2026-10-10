@@ -46,7 +46,6 @@
      3. Большое (новая функция сайта, несколько документов, новые сцены) — `in_progress`, в `result_note` короткий план; делать по частям в следующих циклах или оставить рабочему чату: каждый новый чат при takeover читает открытые задачи (`pending` / `in_progress` / `needs_owner`).
      4. Творческий выбор с вариантами, неясный смысл, или то, что требует отдельного разрешения (запуск генераций и трата кредитов, удаление, закрытие сцены, approve без кнопки, изменение архитектуры проекта) — `needs_owner`, в `result_note` — один короткий вопрос с вариантами. Владелец отвечает новой задачей на сайте или в чате.
    - Статусы: `pending` (ждёт) → `in_progress` (в работе) / `needs_owner` (нужен ответ) → `applied` (сделано) / `rejected` (нельзя, с причиной). `superseded` — отменено владельцем.
-   - **Пока не применена миграция `ops/supabase/2026-10-10_owner_tasks.sql` и функция `ops/supabase/owner-decision/index.ts` v5, `owner_task` сервер не принимает** (сайт покажет «сервер ещё не обновлён»).
 8. **Статус цикла** — `python3 scripts/monitor_status.py . --started … --completed <сейчас> --health ok|degraded --phase … [--missing …] --note …`.
 9. Коммит одним набором (`git add` нужных файлов, сообщение `Claude monitor: …`), `git pull --rebase`, `git push origin HEAD:main`. Затем проверить CI (sync, integration tests) и `project-status.json` health.
 10. **Отчёт владельцу** (`SendUserMessage`) — только если что-то произошло:
