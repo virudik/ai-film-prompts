@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Which project monitor is primary. Exactly one monitor writes at a time; the standby only takes over a cycle when the primary is late. Owner command switches roles.",
+  "purpose": "Fixed preferred primary and standby; automatic 3-hour failover per cycle with one-writer protection and automatic opportunity for recovered primary to resume.",
   "primary": "claude",
   "standby": "chatgpt",
   "set_by": "owner",
@@ -31,7 +31,9 @@
     "Automatic per-cycle failover: after 180 minutes without a verified completed primary cycle, the enabled standby may take over, subject to the 50-minute collision guard. On primary recovery the standby skips; no owner command is needed for per-cycle failover.",
     "Nobody writes if the other monitor committed within collision_guard_minutes.",
     "Roles never change automatically; failover is per cycle. Only the owner switches primary.",
-    "Owner approval is needed only to change the preferred named primary/standby designation, NOT for automatic failover or automatic return after recovery. Failover cannot start a disabled or rate-limited scheduler."
+    "Owner approval is needed only to change the preferred named primary/standby designation, NOT for automatic failover or automatic return after recovery. Failover cannot start a disabled or rate-limited scheduler.",
+    "When the standby has just completed a failover cycle, it yields the next hourly slot for 100 minutes so the preferred primary can recover and resume; after that, it may continue failover if primary remains silent. Do not count standby cycles as evidence that primary recovered."
   ],
-  "failover_policy_updated_at": "2026-10-10T14:29:38.876Z"
+  "failover_policy_updated_at": "2026-10-10T14:29:38.876Z",
+  "standby_yield_minutes": 100
 }
