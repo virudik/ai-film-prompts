@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T12:44:39.858Z",
-  "verification_mode": "claude_drive_connector_download_sha256",
+  "checked_at": "2026-10-10T13:51:56.842Z",
+  "verification_mode": "chatgpt_fresh_drive_github_exact_utf8_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -9,23 +9,23 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-10T06:06:29.483Z",
-      "github_blob": "39e10ed53151e2a192c9f2da5c56dc10e32cea1e",
-      "drive_sha256": "8aef993fe7b8eb0347c26dd0ccc676d46fb8919296e39b567dae36e6f8da6eb8",
-      "mirror_sha256": "8aef993fe7b8eb0347c26dd0ccc676d46fb8919296e39b567dae36e6f8da6eb8",
+      "drive_modified_at": "2026-10-10T13:21:13.532Z",
+      "github_blob": "9e62675e4d585a786ead1b5d3ba7318aeb8c0652",
+      "drive_sha256": "808ac50e2a8247d2304b8b2174d20ac747519a8cbaee3b744462192261cd4867",
+      "mirror_sha256": "808ac50e2a8247d2304b8b2174d20ac747519a8cbaee3b744462192261cd4867",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-09T10:15:39.237Z",
-      "github_blob": "0ece4fb235ce3cdab208750d115566eb1189e939",
-      "drive_sha256": "dfa205fc83a129f88ac13a0539341e1ef1377bdb051993ed04dca3ab96c2a06a",
-      "mirror_sha256": "dfa205fc83a129f88ac13a0539341e1ef1377bdb051993ed04dca3ab96c2a06a",
+      "drive_modified_at": "2026-10-10T13:20:28.404Z",
+      "github_blob": "0e035d1d9eaac7d22657a925ef66769f2765a21f",
+      "drive_sha256": "2f51fc56629533951af209649a980004df87b81c8aadfc18748d9c0f341cc49e",
+      "mirror_sha256": "2f51fc56629533951af209649a980004df87b81c8aadfc18748d9c0f341cc49e",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-10T05:56:03.536Z",
+      "drive_modified_at": "2026-10-10T12:39:12.368Z",
       "github_blob": "14bea0813372263060be1f8222c0d8cae7773da3",
       "drive_sha256": "a7b69c2e8a7b9c21d022cc79630a35d2c364af3e61742a6d9905ee031398a9a5",
       "mirror_sha256": "a7b69c2e8a7b9c21d022cc79630a35d2c364af3e61742a6d9905ee031398a9a5",
@@ -33,7 +33,7 @@
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-10T06:01:30.630Z",
+      "drive_modified_at": "2026-10-10T11:24:03.968Z",
       "github_blob": "eadb9cca4a7d7527318b4d8690a5d869e668f9d4",
       "drive_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
       "mirror_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
@@ -41,15 +41,15 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-08T23:05:22.307Z",
-      "github_blob": "5ddc68fa5e610ec2ca7f87fbf49374a8104a0a17",
-      "drive_sha256": "af1188959174d41f61d7f56b151b8d903fd73367d53b295d30b689c2ac1b5e65",
-      "mirror_sha256": "af1188959174d41f61d7f56b151b8d903fd73367d53b295d30b689c2ac1b5e65",
+      "drive_modified_at": "2026-10-10T13:19:00.735Z",
+      "github_blob": "7e3826d6584143209f0dacd88e3610cd7a24e6a8",
+      "drive_sha256": "e95b0a79d958ac4cacd62b8734e0ecce6efc49fd4661cc6e3e6d36110f3584b5",
+      "mirror_sha256": "e95b0a79d958ac4cacd62b8734e0ecce6efc49fd4661cc6e3e6d36110f3584b5",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-10-07T14:25:41.911Z",
+      "drive_modified_at": "2026-10-10T12:40:53.182Z",
       "github_blob": "1019bd6864aa551037dcc2fdc913d02b777c5588",
       "drive_sha256": "f647c4e1e4613a354ba14a5173a5560561bbe70f819bd87d617e542a31d6168d",
       "mirror_sha256": "f647c4e1e4613a354ba14a5173a5560561bbe70f819bd87d617e542a31d6168d",
@@ -57,7 +57,7 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-10-07T14:59:14.274Z",
+      "drive_modified_at": "2026-10-10T12:43:46.550Z",
       "github_blob": "ad259d6b481f3ca429c49e1d43140731cb9451c6",
       "drive_sha256": "91a0ed90d9a48627640f5fe20e298c7f0cceae9d59230fcca717d4b043e819a5",
       "mirror_sha256": "91a0ed90d9a48627640f5fe20e298c7f0cceae9d59230fcca717d4b043e819a5",
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Claude 10.10.2026: exact 7/7 after same-ID notes on two monitors (primary/standby, owner-switched).",
+  "note": "10.10.2026 ChatGPT manual fresh exact 7/7 Drive↔GitHub content and SHA256 check after deterministic restoration of handoff/sync runbook/user guide mirrors; two monitors with one writer (Claude primary), no claim that Topview scheduled cycle ran.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
@@ -118,15 +118,15 @@
   "mode": "authorized_chatgpt_drive_connector",
   "topview_liveness": {
     "primary_watcher": {
-      "title": "AI Film — единый монитор",
-      "automation_id": "6aac794245e481919ee7155c461cc77e",
+      "title": "AI Film — монитор Claude",
+      "automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
       "timing_mode": "exact_schedule",
-      "minute_local": 0,
+      "minute_local": 10,
       "timezone": "Europe/Moscow",
-      "is_enabled": true,
-      "configuration_verified_at": "2026-10-06T06:04:45.168Z",
-      "expected_max_checkpoint_age_minutes": 75,
-      "connector_degradation_behavior": "continue other phases, preserve verified timestamps, retry next cycle; never self-disable"
+      "requires_owner_computer": true,
+      "primary_by_role_file": true,
+      "execution_verified_by_this_certificate": false,
+      "staleness_guard": "Topview and monitor recency are checked separately from seven-document exact sync."
     },
     "recovery_watchdog": {
       "status": "retired_by_owner",
@@ -143,7 +143,17 @@
     "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact.",
     "github_public_checker": "scripts/check_public_freshness.py present read-only; dedicated GitHub scheduled workflow NOT activated (write blocked)",
     "notifications_as_last_observed": "ChatGPT tasks notifications_enabled:false; cannot guarantee push delivery",
-    "scheduler_limit": "A single paused automation cannot resume itself; API does not expose latest disable reason or a never-auto-pause control."
+    "scheduler_limit": "A single paused automation cannot resume itself; API does not expose latest disable reason or a never-auto-pause control.",
+    "standby_watcher": {
+      "title": "AI Film — единый монитор",
+      "automation_id": "6aac794245e481919ee7155c461cc77e",
+      "minute_local": 0,
+      "timezone": "Europe/Moscow",
+      "role": "standby",
+      "failover_after_minutes": 120,
+      "collision_guard_minutes": 50,
+      "task_prompt_role_check": "pending_update_when_limits_allow"
+    }
   },
   "three_view_topview_contract": {
     "health": "ok",
@@ -164,7 +174,7 @@
     "timezone": "Europe/Moscow",
     "active_automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
     "active_automation_title": "AI Film — монитор Claude",
-    "active_project_automation_count": 1,
+    "active_project_automation_count": 2,
     "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
     "timing_mode": "exact_schedule",
     "topview_watcher": "exact hourly at HH:10 (Claude scheduled task)",
