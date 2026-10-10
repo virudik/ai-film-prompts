@@ -121,17 +121,22 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-10T16:11:17Z",
-    "completed_at": "2026-10-10T16:13:41Z",
-    "health": "ok",
+    "started_at": "2026-10-10T17:11:15Z",
+    "completed_at": "2026-10-10T17:12:15Z",
+    "health": "degraded",
     "phases_completed": [
-      "complete"
+      "role",
+      "topview_scan",
+      "owner_decisions"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "master_slow_edit",
+      "telemetry_publication"
+    ],
     "runner": "claude_scheduled_task",
-    "note": "Claude monitor: full scan 11 boards/554 video; slow 16,20 init (queue 868/149), no new/finished tasks; master SHA verified vs Drive; 35 owner site decisions (22 unique) applied to review-ledger; deep audit (>24h) still owed — site validated, full 7-doc audit deferred to a working chat."
+    "note": "Claude monitor: full scan 11 boards/554 video. Scene 20 task 2c28a416 finished success at 17:08:14Z (slot freed, 1/6 occupied: Scene 16 init, queue 1356). Slow-set change (remove 20) needs same-ID master write, but owner computer/J: not connected to this scheduled task — master untouched, telemetry not published (would contradict master). Owner decisions: none pending. Cert 7/7 and deep audit fresh."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -182,7 +187,7 @@
     "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
     "topview_live_result": "complete_5_of_6_occupied"
   },
-  "last_completed_cycle_at": "2026-10-10T16:13:41Z",
+  "last_completed_cycle_at": "2026-10-10T17:12:15Z",
   "last_successful_cycle_at": "2026-10-10T16:13:41Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -195,6 +200,6 @@
   },
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
-    "claude": "2026-10-10T16:13:41Z"
+    "claude": "2026-10-10T17:12:15Z"
   }
 }
