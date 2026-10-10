@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Fixed preferred primary and standby; automatic 3-hour failover per cycle with one-writer protection and automatic opportunity for recovered primary to resume.",
+  "purpose": "Two monitors, one writer. Whoever takes over after 180 min of primary silence becomes the primary (sticky takeover, owner decision 10.10.2026).",
   "primary": "claude",
   "standby": "chatgpt",
   "set_by": "owner",
@@ -27,13 +27,12 @@
   "switch_command": "Owner says 'основной монитор — Claude' or 'основной монитор — ChatGPT'. Any agent then swaps primary/standby, sets set_at to the real time, commits this file.",
   "rules": [
     "Before any write each monitor runs: python3 scripts/monitor_role.py . --me <claude|chatgpt>.",
-    "run -> full cycle as primary; failover -> full cycle, cycle note says 'failover for <primary>'; skip -> no writes at all.",
-    "Automatic per-cycle failover: after 180 minutes without a verified completed primary cycle, the enabled standby may take over, subject to the 50-minute collision guard. On primary recovery the standby skips; no owner command is needed for per-cycle failover.",
+    "run -> full cycle as primary; skip -> no writes at all; failover -> the script has already made you primary in monitor-role.json: run a full cycle, commit monitor-role.json with it, cycle note 'takeover from <old primary>', tell the owner once.",
+    "Automatic takeover: after 180 minutes without a verified completed primary cycle, the standby takes over and BECOMES the primary (owner decision 10.10.2026). There is no automatic return; the old primary is now the standby and takes over back only if the new primary is silent for 180 minutes.",
     "Nobody writes if the other monitor committed within collision_guard_minutes.",
-    "Roles never change automatically; failover is per cycle. Only the owner switches primary.",
-    "Owner approval is needed only to change the preferred named primary/standby designation, NOT for automatic failover or automatic return after recovery. Failover cannot start a disabled or rate-limited scheduler.",
-    "When the standby has just completed a failover cycle, it yields the next hourly slot for 100 minutes so the preferred primary can recover and resume; after that, it may continue failover if primary remains silent. Do not count standby cycles as evidence that primary recovered."
+    "The owner can still set the primary by command ('основной монитор — Claude / ChatGPT'): any agent swaps primary/standby, sets set_by=owner and set_at, commits.",
+    "Takeover cannot start a disabled or rate-limited scheduler; do not count standby cycles as evidence that the primary recovered."
   ],
-  "failover_policy_updated_at": "2026-10-10T14:29:38.876Z",
-  "standby_yield_minutes": 100
+  "failover_policy_updated_at": "2026-10-10T17:20:00Z",
+  "standby_yield_minutes": 0
 }

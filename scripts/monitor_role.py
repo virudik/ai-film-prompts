@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""Decide one AI Film monitor cycle. Read-only, failover with per-runner time.
+"""Decide one AI Film monitor cycle (one writer, sticky automatic takeover).
 
-usage: python3 scripts/monitor_role.py <repo> --me claude|chatgpt
-prints {"action": "run"|"failover"|"skip", "reason": "..."}
+usage: python3 scripts/monitor_role.py <repo> --me claude|chatgpt [--dry-run]
+prints {"action": "run"|"failover"|"skip", "reason": "...", "swapped": bool}
 Uses monitor-role.json as live config. The set_at timestamp is the failover
 grace baseline until a verified primary cycle has been recorded.
+
+Owner decision 10.10.2026: whoever takes over becomes the primary. On
+"failover" this script swaps primary/standby in monitor-role.json (unless
+--dry-run); the caller MUST commit monitor-role.json together with its cycle
+and tell the owner once: "основным монитором стал <me>". The old primary then
+acts as standby and takes over back only if the new primary is silent > threshold.
 """
 import argparse
 import json
@@ -15,6 +21,7 @@ from pathlib import Path
 parser = argparse.ArgumentParser()
 parser.add_argument("repo")
 parser.add_argument("--me", choices=("claude", "chatgpt"), required=True)
+parser.add_argument("--dry-run", action="store_true")
 args = parser.parse_args()
 
 repo = Path(args.repo)
@@ -97,7 +104,15 @@ elif primary_age <= threshold:
     reason = f"standby; primary last verified (or owner role set) {primary_age:.0f}/{threshold} min ago"
 else:
     action = "failover"
-    reason = f"primary {primary} has no verified cycle for {primary_age:.0f} min (threshold {threshold} min); one-cycle fallback"
+    reason = f"primary {primary} has no verified cycle for {primary_age:.0f} min (threshold {threshold} min); takeover: {args.me} becomes primary"
 
-print(json.dumps({"action": action, "reason": reason, "primary": primary,
-                  "runner": args.me, "primary_age_minutes": round(primary_age, 1)}))
+swapped = False
+if action == "failover" and not args.dry_run:
+    role.update(primary=args.me, standby=primary, set_by="auto_takeover",
+                set_at=now.isoformat(timespec="seconds").replace("+00:00", "Z"),
+                reason=f"automatic takeover: {primary} had no verified cycle for {primary_age:.0f} min; {args.me} became primary (owner rule 10.10.2026)")
+    (repo / "monitor-role.json").write_text(json.dumps(role, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    swapped = True
+
+print(json.dumps({"action": action, "reason": reason, "primary": role["primary"],
+                  "runner": args.me, "primary_age_minutes": round(primary_age, 1), "swapped": swapped}))
