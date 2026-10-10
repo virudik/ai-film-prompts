@@ -99,12 +99,13 @@ def prepare(plan_path):
     planned = []
     for scene, items in by_scene.items():
         actions = {x["action"] for x in items}
-        if "accept" in actions and ("redo" in actions or
-                                     any(x["action"] == "tv_mark_status" for x in items)):
+        if (("accept" in actions or "to_montage" in actions)
+                and ("redo" in actions or
+                     any(x["action"] == "tv_mark_status" for x in items))):
             for x in items:
                 if x["status"] == "pending":
                     patch_status(x["id"], "pending", "needs_owner",
-                                 "Противоречивые кнопки «Принять» и «Переделать/Брак»; нужно одно решение владельца")
+                                 "Противоречивые кнопки «Принять/В монтаж» и «Переделать/Брак»; нужно одно решение владельца")
             continue
         original = ledger.get("scenes", {}).get(scene)
         if original is None:
