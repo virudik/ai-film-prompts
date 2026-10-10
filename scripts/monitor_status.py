@@ -26,8 +26,11 @@ d["last_completed_cycle_at"] = a.completed
 # proof that the preferred primary has recovered.
 d.setdefault("last_completed_by_runner", {})["claude"] = a.completed
 d["last_scheduled_cycle"]["runner"] = "claude_scheduled_task"
-if a.health == "ok":
+if a.health == "ok" and not a.missing:
     d["last_successful_cycle_at"] = a.completed
+    # Reliable per-runner healthy heartbeat for sticky failover. Never update
+    # it for degraded, errored, or phase-incomplete scheduled cycles.
+    d.setdefault("last_successful_by_runner", {})["claude"] = a.completed
 d["health"] = a.health
 if a.topview_checked:
     d.setdefault("phases", {}).setdefault("topview", {})["checked_at"] = a.topview_checked
