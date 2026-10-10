@@ -1,0 +1,21 @@
+name: Topview public API coverage probe (read-only, no generation)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public_api_probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public API access without generating or writing telemetry
+        env:
+          TOPVIEW_API_KEY: ${{ secrets.TOPVIEW_API_KEY }}
+          TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
+        run: python3 scripts/topview_api_probe.py
