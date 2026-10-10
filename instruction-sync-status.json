@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T13:51:56.842Z",
-  "verification_mode": "chatgpt_fresh_drive_github_exact_utf8_sha256",
+  "checked_at": "2026-10-10T15:02:37.052Z",
+  "verification_mode": "chatgpt_live_exact_7_of_7_Drive_GitHub_utf8_sha256_after_owner_3h_failover",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
   "health": "ok",
@@ -9,58 +9,58 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-10T13:21:13.532Z",
-      "github_blob": "9e62675e4d585a786ead1b5d3ba7318aeb8c0652",
-      "drive_sha256": "808ac50e2a8247d2304b8b2174d20ac747519a8cbaee3b744462192261cd4867",
-      "mirror_sha256": "808ac50e2a8247d2304b8b2174d20ac747519a8cbaee3b744462192261cd4867",
+      "drive_modified_at": "2026-10-10T14:59:07.601Z",
+      "github_blob": "b194f4c01eb105a660796e385e6c39a117cd9602",
+      "drive_sha256": "d4af85a4b5be86913e0876ac5f4ef34a047567181fc7d98aa63b5609cf35604d",
+      "mirror_sha256": "d4af85a4b5be86913e0876ac5f4ef34a047567181fc7d98aa63b5609cf35604d",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-10T13:20:28.404Z",
-      "github_blob": "0e035d1d9eaac7d22657a925ef66769f2765a21f",
-      "drive_sha256": "2f51fc56629533951af209649a980004df87b81c8aadfc18748d9c0f341cc49e",
-      "mirror_sha256": "2f51fc56629533951af209649a980004df87b81c8aadfc18748d9c0f341cc49e",
+      "drive_modified_at": "2026-10-10T14:54:21.428Z",
+      "github_blob": "5b5276add9b05d655550277dafe3044f593a20e3",
+      "drive_sha256": "3dc18186a627a1444f96d5a777e37fa19eb6f5c03cede875226a587a87860b89",
+      "mirror_sha256": "3dc18186a627a1444f96d5a777e37fa19eb6f5c03cede875226a587a87860b89",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-10T12:39:12.368Z",
-      "github_blob": "14bea0813372263060be1f8222c0d8cae7773da3",
-      "drive_sha256": "a7b69c2e8a7b9c21d022cc79630a35d2c364af3e61742a6d9905ee031398a9a5",
-      "mirror_sha256": "a7b69c2e8a7b9c21d022cc79630a35d2c364af3e61742a6d9905ee031398a9a5",
+      "drive_modified_at": "2026-10-10T14:55:14.661Z",
+      "github_blob": "a4fadfe14ea076c1ab7e5265d8772d94962c78d8",
+      "drive_sha256": "50ab244861a9e6f3eeaec2b0127cbcd2a4fe9bed993ddfefe0becc58df09a400",
+      "mirror_sha256": "50ab244861a9e6f3eeaec2b0127cbcd2a4fe9bed993ddfefe0becc58df09a400",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-10T11:24:03.968Z",
-      "github_blob": "eadb9cca4a7d7527318b4d8690a5d869e668f9d4",
-      "drive_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
-      "mirror_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
+      "drive_modified_at": "2026-10-10T14:52:19.763Z",
+      "github_blob": "99f4eec44a545717132b1bf924ac50c4eb3c1a9d",
+      "drive_sha256": "aac8ddcd75a6bc25630c24804d30dbd7cbefa763cf11a332a1e7d5a7c860eca4",
+      "mirror_sha256": "aac8ddcd75a6bc25630c24804d30dbd7cbefa763cf11a332a1e7d5a7c860eca4",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-10T13:19:00.735Z",
-      "github_blob": "7e3826d6584143209f0dacd88e3610cd7a24e6a8",
-      "drive_sha256": "e95b0a79d958ac4cacd62b8734e0ecce6efc49fd4661cc6e3e6d36110f3584b5",
-      "mirror_sha256": "e95b0a79d958ac4cacd62b8734e0ecce6efc49fd4661cc6e3e6d36110f3584b5",
+      "drive_modified_at": "2026-10-10T14:56:05.278Z",
+      "github_blob": "8332192b4d82cbdc80d30ced3da4ac8d92719e31",
+      "drive_sha256": "9c9850b9049787182edd63db671a050bd96d032df7dad4037d8ff9fc80380a21",
+      "mirror_sha256": "9c9850b9049787182edd63db671a050bd96d032df7dad4037d8ff9fc80380a21",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-10-10T12:40:53.182Z",
-      "github_blob": "1019bd6864aa551037dcc2fdc913d02b777c5588",
-      "drive_sha256": "f647c4e1e4613a354ba14a5173a5560561bbe70f819bd87d617e542a31d6168d",
-      "mirror_sha256": "f647c4e1e4613a354ba14a5173a5560561bbe70f819bd87d617e542a31d6168d",
+      "drive_modified_at": "2026-10-10T14:57:00.405Z",
+      "github_blob": "deaae1d26d48d6ab1eed2d5e23aab1e3204612de",
+      "drive_sha256": "123d8b0e8a16a20e92decdf10a8b7104e6f0e494a0703b63b2381114e9bf90b8",
+      "mirror_sha256": "123d8b0e8a16a20e92decdf10a8b7104e6f0e494a0703b63b2381114e9bf90b8",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-10-10T12:43:46.550Z",
-      "github_blob": "ad259d6b481f3ca429c49e1d43140731cb9451c6",
-      "drive_sha256": "91a0ed90d9a48627640f5fe20e298c7f0cceae9d59230fcca717d4b043e819a5",
-      "mirror_sha256": "91a0ed90d9a48627640f5fe20e298c7f0cceae9d59230fcca717d4b043e819a5",
+      "drive_modified_at": "2026-10-10T14:57:58.845Z",
+      "github_blob": "48ea6f135d0fca76099db5b47856704984ab4b1e",
+      "drive_sha256": "8c0b7a09bc1023b09cbbb73d2751dd9e34ea5c72840e2dbd2168b12e3494c210",
+      "mirror_sha256": "8c0b7a09bc1023b09cbbb73d2751dd9e34ea5c72840e2dbd2168b12e3494c210",
       "match": true
     }
   },
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "10.10.2026 ChatGPT manual fresh exact 7/7 Drive↔GitHub content and SHA256 check after deterministic restoration of handoff/sync runbook/user guide mirrors; two monitors with one writer (Claude primary), no claim that Topview scheduled cycle ran. Compatibility: preserve legacy integration contract active_project_automation_count=1 (one writer), explicitly record configured_enabled_monitors_count=2.",
+  "note": "10.10.2026 fresh exact 7/7 Drive↔GitHub SHA256 verified after updating all seven same-ID canonical docs and GitHub mirrors for automatic 3-hour monitor failover; ChatGPT standby prompt updated; Library recovery copied from fresh canonical Drive; master untouched (SHA ec8d8d23...). Scheduled monitor execution remains separately unverified; do not treat this certificate as a completed monitor cycle.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
@@ -150,9 +150,11 @@
       "minute_local": 0,
       "timezone": "Europe/Moscow",
       "role": "standby",
-      "failover_after_minutes": 120,
+      "failover_after_minutes": 180,
       "collision_guard_minutes": 50,
-      "task_prompt_role_check": "pending_update_when_limits_allow"
+      "task_prompt_role_check": "updated_and_enabled_2026-10-10",
+      "standby_yield_minutes": 100,
+      "last_successful_scheduled_failover_verified": false
     }
   },
   "three_view_topview_contract": {
@@ -183,12 +185,12 @@
       "6aac3e4dfe6c81918b3eead8529edf30",
       "6ac358bf36548191b64ae6326bcc1f9b"
     ],
-    "one_writer_note": "Two monitors, exactly one writer: primary (monitor-role.json, now Claude) runs every cycle; standby (ChatGPT) writes only when the primary's last cycle is older than failover_after_minutes. Roles switch only by owner command. Both yield to the other's commits within 50 min.",
+    "one_writer_note": "Primary Claude and standby ChatGPT; role assignment fixed by owner, per-cycle automatic takeover at 180m verified primary silence; standby yields 100m after own cycle; 50m recent-commit collision guard. ChatGPT scheduled prompt updated 2026-10-10 and enabled.",
     "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
     "standby_automation_title": "AI Film — единый монитор",
     "role_file": "monitor-role.json",
     "configured_enabled_monitors_count": 2,
-    "active_project_automation_count_semantics": "Compatibility field: exactly one primary active WRITE OWNER per cycle, not total enabled scheduled tasks. Primary Claude and standby ChatGPT are both configured and enabled; standby may fail over only after 120 minutes."
+    "active_project_automation_count_semantics": "One preferred primary writer per cycle; configured monitors=2; standby automatically runs on genuine primary liveness lapse beyond 180 minutes; collision guard=50m and standby yield=100m."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",
@@ -197,7 +199,10 @@
     "completion_gate": false,
     "owner_interruption_policy": "do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required",
     "status": "pending_or_opportunistic",
-    "truth_rule": "Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer."
+    "truth_rule": "Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer.",
+    "description": "Seven current canonical instruction snapshots + exact same-ID master saved as best-effort recovery in /AI Film/Canonical Instructions Recovery on 2026-10-10.",
+    "health": "ok",
+    "last_verified_at": "2026-10-10T15:02:37.052Z"
   },
   "error_prevention_architecture": {
     "health": "ok",
