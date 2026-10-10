@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "10.10.2026 ChatGPT manual fresh exact 7/7 Drive↔GitHub content and SHA256 check after deterministic restoration of handoff/sync runbook/user guide mirrors; two monitors with one writer (Claude primary), no claim that Topview scheduled cycle ran.",
+  "note": "10.10.2026 ChatGPT manual fresh exact 7/7 Drive↔GitHub content and SHA256 check after deterministic restoration of handoff/sync runbook/user guide mirrors; two monitors with one writer (Claude primary), no claim that Topview scheduled cycle ran. Compatibility: preserve legacy integration contract active_project_automation_count=1 (one writer), explicitly record configured_enabled_monitors_count=2.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
@@ -174,7 +174,7 @@
     "timezone": "Europe/Moscow",
     "active_automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
     "active_automation_title": "AI Film — монитор Claude",
-    "active_project_automation_count": 2,
+    "active_project_automation_count": 1,
     "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
     "timing_mode": "exact_schedule",
     "topview_watcher": "exact hourly at HH:10 (Claude scheduled task)",
@@ -186,7 +186,9 @@
     "one_writer_note": "Two monitors, exactly one writer: primary (monitor-role.json, now Claude) runs every cycle; standby (ChatGPT) writes only when the primary's last cycle is older than failover_after_minutes. Roles switch only by owner command. Both yield to the other's commits within 50 min.",
     "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
     "standby_automation_title": "AI Film — единый монитор",
-    "role_file": "monitor-role.json"
+    "role_file": "monitor-role.json",
+    "configured_enabled_monitors_count": 2,
+    "active_project_automation_count_semantics": "Compatibility field: exactly one primary active WRITE OWNER per cycle, not total enabled scheduled tasks. Primary Claude and standby ChatGPT are both configured and enabled; standby may fail over only after 120 minutes."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",
