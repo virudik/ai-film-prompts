@@ -67,6 +67,15 @@ if runner is None and cycle.get("completed_at"):
 # conservative grace baseline until the next verified success is recorded.
 successes = status.get("last_successful_by_runner") or {}
 primary_at = successes.get(primary)
+# Migration from snapshots written before per-runner healthy timestamps existed.
+# Legacy success is safe to attribute ONLY when the most recent scheduled
+# runner is still the selected primary AND the success is newer than that
+# role assignment. Never credit a degraded 'completed_at' as success.
+if not primary_at:
+    legacy_success = status.get("last_successful_cycle_at")
+    legacy_runner = normalize_runner(status.get("last_successful_cycle_runner")) or runner
+    if legacy_success and legacy_runner == primary and 0 <= minutes_since(legacy_success) <= minutes_since(role.get("set_at")):
+        primary_at = legacy_success
 per_runner = status.get("last_completed_by_runner") or {}
 standby_at = per_runner.get(standby)
 if cycle.get("health") == "ok" and not cycle.get("phases_missing"):
