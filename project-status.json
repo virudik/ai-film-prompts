@@ -3,14 +3,14 @@
   "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
   "instruction_source_of_truth": "Google Drive canonical instruction files",
   "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
-  "synced_at": "2026-10-10T21:33:18Z",
+  "synced_at": "2026-10-10T22:16:13Z",
   "revision_date": "11.10.2026",
   "master_declared_last_full_sync": "10.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "7389ce692e15048c37eba463c01c39f892dbb82de55ffa4c6bdf1a16942e0d3d",
-  "canonical_revision_sha256": "cd9da86ba1277ef871152fae802fd993eb4708e35cb893489f7ece74483bc5e6",
-  "canonical_master_bytes": 537986,
-  "scenes": 17,
-  "prompt_texts": 50,
+  "canonical_master_sha256": "9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a",
+  "canonical_revision_sha256": "599d0e170bf14dbac8d101c976bf25eeb8ab3e61c17cd6636a08162dba770acb",
+  "canonical_master_bytes": 548543,
+  "scenes": 18,
+  "prompt_texts": 51,
   "work_items": [
     "W5",
     "W6",
@@ -46,9 +46,10 @@
     34,
     35,
     36,
-    37
+    37,
+    38
   ],
-  "latest_scene": 37,
+  "latest_scene": 38,
   "reserved_scene_ids": [
     1,
     2,
@@ -76,7 +77,7 @@
     "source_of_truth": "Google Drive canonical instruction files",
     "verification_mode": "chatgpt_live_exact_drive_github_sha256",
     "freshness_max_hours": 3.0,
-    "age_hours_at_status_build": 0.004,
+    "age_hours_at_status_build": 0.72,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -140,7 +141,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.004,
+      "age_hours": 0.72,
       "blocking": false
     },
     "topview_task_map": {
@@ -499,15 +500,38 @@
         "continuity"
       ],
       "render_state": "IDLE"
+    },
+    "38": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 35
+        }
+      ],
+      "tags": [
+        "serega",
+        "sith_temple",
+        "ancient_computer",
+        "inspection",
+        "continuity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "11.10.2026",
-    "synced_at": "2026-10-10T21:33:18Z",
-    "canonical_master_sha256": "7389ce692e15048c37eba463c01c39f892dbb82de55ffa4c6bdf1a16942e0d3d",
-    "canonical_revision_sha256": "cd9da86ba1277ef871152fae802fd993eb4708e35cb893489f7ece74483bc5e6",
-    "scene_count": 17,
-    "prompt_count": 50,
+    "synced_at": "2026-10-10T22:16:13Z",
+    "canonical_master_sha256": "9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a",
+    "canonical_revision_sha256": "599d0e170bf14dbac8d101c976bf25eeb8ab3e61c17cd6636a08162dba770acb",
+    "scene_count": 18,
+    "prompt_count": 51,
     "scene_ids": [
       13,
       16,
@@ -525,7 +549,8 @@
       34,
       35,
       36,
-      37
+      37,
+      38
     ],
     "work_items": [
       "W5",
