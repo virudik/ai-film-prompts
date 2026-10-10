@@ -1,3 +1,18 @@
+## АКТУАЛЬНЫЙ CHECKPOINT — 11.10.2026 · Scene 38 + «Квест трёх ключей»
+
+**Факт с проверенным readback Google Drive:** канонический `video-prompts.md` тот же ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`, Scene 38 «Серёга рассматривает древний компьютер в заброшенном храме» добавлена как 30s Wan 3.0 `DRAFT`, продолжение Scene 35 без включения ПК/Warcraft, без запуска генерации. По фактическому raw readback: **18 активных сцен / 51 полный промт**, SHA-256 `9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a`. Для READY нужны реальный финальный кадр Scene 35 и монтажная continuity-проверка. GitHub `SYNC-TRIGGER.txt` запущен; готовность зеркала, валидатора и Pages всегда проверять по новым live status/workflow, не выводить из одной записи Drive.
+
+**Утверждённая владельцем цель «сайт — полноценный пульт управления фильмом»:** автоматическое применение решений сайта независимо от Claude, ChatGPT Work и компьютера; GitHub Actions → Supabase `owner_decisions` → проверенное обновление журнала и, где нужно, same-ID Google Drive master → GitHub mirror, project-status, Pages; плюс независимая Topview telemetry со счётчиком медленных задач / 6 бесплатных слотов **только при подтверждённом полном API покрытии**. Официальный подробный рабочий квест и инструкция владельцу: GitHub [`ops/QUEST-THREE-KEYS.md`](https://github.com/virudik/ai-film-prompts/blob/main/ops/QUEST-THREE-KEYS.md). Технический план: `ops/PLAN-OWNER-PANEL-AUTOMATION.md`, `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`.
+
+**Три обязательных секретных доступа, владелец пока не подтвердил установку:**
+- `GDRIVE_SA_KEY`: Google Cloud service account JSON, editor только к master-папке Drive, хранить в GitHub Actions Secrets; same-ID writer проверять idempotent test → real minimal edit → raw SHA readback.
+- `SUPABASE_SERVICE_ROLE_KEY`: только GitHub Actions Secrets для защищённой очереди `owner_decisions`; обработчик детерминированных кнопок уже подготовлен, но end-to-end без секретов не подтверждён. Не путать с публичным anon/publishable и паролем владельца.
+- `TOPVIEW_API_KEY` в GitHub Actions Secrets + `TOPVIEW_UID` в GitHub Actions Variables: только серверные запросы. GitHub workflow `topview-api-probe.yml` делает read-only диагностический тест. **Нельзя** считать отдельный ответ о known task доказательством всех board tasks или занятости 6/6; до сверки всей пользовательской очереди статус точных слотов считать неопределённым. Публичный API может не покрывать безлимитную очередь. Никаких генераций, approval, delete, rerun по умолчанию.
+
+**Незавершённые действия и критерии готовности:** владелец вводит ключи лично через GitHub Secrets (не в чат); проверить green GitHub *с реальными действиями*, E2E кнопка/ack Supabase, same-ID Drive guard/readback, точное зеркало/health/Pages, Topview API board-coverage/6-slot сверка, публикация статуса с истинным `checked_at`, штатный Recovery. Переназначение ролей и отключение зависимости от существующего монитора — только ПОСЛЕ доказанного эквивалентного покрытия. Не считать один зелёный workflow без секретов доказательством. Существующий «AI Film — единый монитор» не выключать, архивные Recovery/slot-watcher не включать. Эта архитектурная работа входит в ближайший backlog до закрытия. Не копировать секреты в публичные документы, репозиторий или чат.
+
+---
+
 ## LIVE CHECKPOINT — 11.10.2026 (после приёма смены ChatGPT)
 
 Канонический Google Drive `video-prompts.md` обновлён **по прежнему ID**; в GitHub `project-status.json` — `health: ok`, 17 активных сцен и 50 полных промтов; зеркальная публикация Pages 10.10.2026 21:21 UTC — workflow success. Старые блоки ниже — историческая монтажная очередь, не live-список активных промтов.
