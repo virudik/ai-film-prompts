@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: drive-sync
@@ -158,7 +159,7 @@ jobs:
 
             # No-op aware publish: a status that differs only by volatile check
             # timestamps is not committed again until the heartbeat is due, so the
-            # public "last check" never ages past the 100-minute freshness limit
+            # public "last check" never ages past the 240-minute freshness limit
             # (scripts/check_public_freshness.py) while half of the empty Pages
             # deploys disappear. Any content change is always committed at once.
             MASTER_CHANGED=0
@@ -167,7 +168,7 @@ jobs:
           import json, os
           from datetime import datetime, timezone
           VOLATILE = {"synced_at", "age_hours", "age_hours_at_status_build"}
-          HEARTBEAT_MIN = 45
+          HEARTBEAT_MIN = 180  # owner decision D5 (10.10.2026): pulse every 3 h, freshness limit 4 h
           def strip(x):
               if isinstance(x, dict):
                   return {k: strip(v) for k, v in x.items() if k not in VOLATILE}
@@ -214,6 +215,56 @@ jobs:
 
           echo "Unable to publish Drive mirror after 4 retries." >&2
           exit 1
+
+      - name: Alert when the unified monitor is silent for more than 3 hours
+        # Owner decision D3 (10.10.2026). Opens ONE GitHub issue (repo notifications
+        # reach the owner by e-mail) and closes it when telemetry is fresh again.
+        # Best-effort: never fails the sync and never touches Topview or canon.
+        if: always()
+        continue-on-error: true
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          git fetch -q origin main && git reset -q --hard origin/main || exit 0
+          read -r STATE DETAIL < <(python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          LIMIT_MIN = 180
+          now = datetime.now(timezone.utc)
+          def age(v):
+              try:
+                  return (now - datetime.fromisoformat(str(v).replace("Z", "+00:00"))).total_seconds() / 60
+              except Exception:
+                  return float("inf")
+          try:
+              tv = json.load(open("topview-status.json", encoding="utf-8")).get("checked_at")
+          except Exception:
+              tv = None
+          try:
+              mon = (json.load(open("automation-monitor-status.json", encoding="utf-8")).get("last_scheduled_cycle") or {}).get("completed_at")
+          except Exception:
+              mon = None
+          a_tv, a_mon = age(tv), age(mon)
+          # The monitor cycle is the signal; Topview age is used only if the cycle record is missing.
+          state = "silent" if (a_mon if mon else a_tv) > LIMIT_MIN else "ok"
+          fmt = lambda m: "нет данных" if m == float("inf") else f"{m/60:.1f} ч"
+          print(state, f"Topview_checked_at={tv}({fmt(a_tv)})_monitor_cycle={mon}({fmt(a_mon)})")
+          PY
+          )
+          echo "Monitor watchdog: $STATE $DETAIL"
+          OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=monitor-alert&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
+          if [ "$STATE" = "silent" ] && [ -z "$OPEN" ]; then
+            gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=monitor-alert -f color=d93f0b >/dev/null 2>&1 || true
+            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="AI Film: единый монитор молчит больше 3 ч" \
+              -f body="Автоматическое оповещение (решение владельца D3). Последние отметки: ${DETAIL//_/ }. Монитор публикует Topview только из ChatGPT: проверьте задачу «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e) и лимиты ChatGPT. Дубль не создавать. Issue закроется сам, когда данные снова станут свежими." \
+              -f "labels[]=monitor-alert" >/dev/null && echo "alert issue opened"
+          elif [ "$STATE" = "ok" ] && [ -n "$OPEN" ]; then
+            gh api "repos/${GITHUB_REPOSITORY}/issues/${OPEN}/comments" -f body="Данные снова свежие: ${DETAIL//_/ }. Закрываю автоматически." >/dev/null
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${OPEN}" -f state=closed >/dev/null && echo "alert issue closed"
+          fi
+          exit 0
 
       - name: Publish CI state change for the Control Center
         if: always()

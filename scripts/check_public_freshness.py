@@ -21,7 +21,7 @@ def stamp(value):
     return dt.astimezone(timezone.utc)
 
 
-def inspect(root, now, topview_limit=105, instruction_limit=165, master_limit=100):
+def inspect(root, now, topview_limit=105, instruction_limit=165, master_limit=240):
     """Return a public-safe, deterministic report. No writes, no network."""
     root = Path(root)
     errors = []
@@ -118,7 +118,7 @@ def main():
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--topview-limit", type=int, default=105)
     parser.add_argument("--instruction-limit", type=int, default=165)
-    parser.add_argument("--master-limit", type=int, default=100)
+    parser.add_argument("--master-limit", type=int, default=240)
     parser.add_argument("--json-out", type=Path)
     args = parser.parse_args()
     report = inspect(args.root, datetime.now(timezone.utc),
