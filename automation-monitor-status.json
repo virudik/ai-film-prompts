@@ -13,7 +13,8 @@
     "requires_owner_computer": true,
     "procedure": "ops/CLAUDE-MONITOR.md",
     "since": "2026-10-10",
-    "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT."
+    "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
+    "role": "primary"
   },
   "retired_automations": [
     {
@@ -25,13 +26,6 @@
       "id": "6ac358bf36548191b64ae6326bcc1f9b",
       "is_enabled": false,
       "reason": "Owner-authorized consolidation 2026-10-06"
-    },
-    {
-      "id": "6aac794245e481919ee7155c461cc77e",
-      "is_enabled": false,
-      "reason": "Replaced by the Claude monitor on owner request 2026-10-10; silent since 2026-10-09 16:01 MSK",
-      "disable_verified_by_claude": false,
-      "note": "Claude has no access to ChatGPT tasks; the owner turns it off. Until then the Claude monitor yields to any virudik commit in the last 50 min."
     }
   ],
   "account_observation": {
@@ -193,5 +187,15 @@
     "topview_live_result": "complete_5_of_6_occupied"
   },
   "last_completed_cycle_at": "2026-10-09T12:10:01.949Z",
-  "last_successful_cycle_at": "2026-10-09T12:10:01.949Z"
+  "last_successful_cycle_at": "2026-10-09T12:10:01.949Z",
+  "standby_automation": {
+    "id": "6aac794245e481919ee7155c461cc77e",
+    "title": "AI Film — единый монитор",
+    "runner": "chatgpt_scheduled_task",
+    "role": "standby",
+    "schedule": "hourly HH:00 Europe/Moscow",
+    "takes_over_when": "primary last cycle older than monitor-role.json failover_after_minutes",
+    "note": "Owner decision 2026-10-10: two monitors, one primary, one standby; roles switch only by owner command. ChatGPT must read monitor-role.json before writing (its prompt still needs that update when its limit resets)."
+  },
+  "role_file": "monitor-role.json"
 }

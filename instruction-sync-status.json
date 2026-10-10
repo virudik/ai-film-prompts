@@ -171,10 +171,12 @@
     "recovery_sync": "embedded phase; no independent schedule",
     "retired_automation_ids": [
       "6aac3e4dfe6c81918b3eead8529edf30",
-      "6ac358bf36548191b64ae6326bcc1f9b",
-      "6aac794245e481919ee7155c461cc77e"
+      "6ac358bf36548191b64ae6326bcc1f9b"
     ],
-    "one_writer_note": "Claude monitor is the sole scheduled project writer since 2026-10-10 (owner request). It yields if ChatGPT (virudik) committed in the last 50 min. Manual recovery uses fresh-read/version guard/rebase."
+    "one_writer_note": "Two monitors, exactly one writer: primary (monitor-role.json, now Claude) runs every cycle; standby (ChatGPT) writes only when the primary's last cycle is older than failover_after_minutes. Roles switch only by owner command. Both yield to the other's commits within 50 min.",
+    "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
+    "standby_automation_title": "AI Film — единый монитор",
+    "role_file": "monitor-role.json"
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",

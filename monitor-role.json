@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "purpose": "Which project monitor is primary. Exactly one monitor writes at a time; the standby only takes over a cycle when the primary is late. Owner command switches roles.",
+  "primary": "claude",
+  "standby": "chatgpt",
+  "set_by": "owner",
+  "set_at": "2026-10-10T12:35:00Z",
+  "reason": "ChatGPT monitor stopped (weekly ChatGPT limit); owner made the Claude monitor primary and ChatGPT the standby.",
+  "failover_after_minutes": 120,
+  "collision_guard_minutes": 50,
+  "monitors": {
+    "claude": {"title": "AI Film — монитор Claude", "id": "trig_014eEvBooAV2hxx1asRo9snm", "schedule": "hourly HH:10 Europe/Moscow", "procedure": "ops/CLAUDE-MONITOR.md", "commit_author": "Claude"},
+    "chatgpt": {"title": "AI Film — единый монитор", "id": "6aac794245e481919ee7155c461cc77e", "schedule": "hourly HH:00 Europe/Moscow", "procedure": "SYNC-RUNBOOK.md (Drive) + this file", "commit_author": "virudik"}
+  },
+  "switch_command": "Owner says 'основной монитор — Claude' or 'основной монитор — ChatGPT'. Any agent then swaps primary/standby, sets set_at to the real time, commits this file.",
+  "rules": [
+    "Before any write each monitor runs: python3 scripts/monitor_role.py . --me <claude|chatgpt>.",
+    "run -> full cycle as primary; failover -> full cycle, cycle note says 'failover for <primary>'; skip -> no writes at all.",
+    "Standby takes over only when the last recorded cycle of the primary is older than failover_after_minutes (or missing).",
+    "Nobody writes if the other monitor committed within collision_guard_minutes.",
+    "Roles never change automatically; failover is per cycle. Only the owner switches primary."
+  ]
+}

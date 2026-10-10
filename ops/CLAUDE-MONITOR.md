@@ -1,15 +1,16 @@
 # Claude monitor — процедура одного цикла (НЕ КАНОН, рабочая инструкция)
 
-Решение владельца 10.10.2026: роль «единого монитора» берёт на себя Claude — ежечасная scheduled task «AI Film — монитор Claude». Задача ChatGPT «AI Film — единый монитор» (`6aac794245e481919ee7155c461cc77e`) выводится из работы: владелец выключает её сам. Канон — Drive; правила — 7 инструкций. Этот файл только описывает шаги. При конфликте побеждает свежий Drive `NEW-CHAT-HANDOFF.md` / `SYNC-RUNBOOK.md`.
+Решение владельца 10.10.2026: **два монитора, пишет всегда один.** Кто основной — файл `monitor-role.json` (сейчас основной — «AI Film — монитор Claude», резервный — ChatGPT «AI Film — единый монитор» `6aac794245e481919ee7155c461cc77e`). Резервный берёт цикл на себя, только если основной отстал больше `failover_after_minutes`. Роли меняются только командой владельца («основной монитор — Claude / ChatGPT»): агент меняет `primary`/`standby` и `set_at` и коммитит файл. Канон — Drive; правила — 7 инструкций. Этот файл только описывает шаги. При конфликте побеждает свежий Drive `NEW-CHAT-HANDOFF.md` / `SYNC-RUNBOOK.md`.
 
 ## Жёсткие запреты
 - Ничего не одобрять, не перезапускать, не удалять и не закрывать сцены. Генерации не запускать. Кредиты Topview не тратить: только read-only инструменты `topview_list_boards`, `topview_list_board_tasks`, `topview_get_board_task`, `topview_get_credit`.
 - Время честное: `checked_at` — реальный момент окончания скана. Никогда не сдвигать вперёд.
 - Master — только same-ID запись на Drive через компьютер владельца, `J:\Мой диск\AI Film Prompts Master\video-prompts.md`: `device_commit_files` с `expectedMtimeMs`, затем read-back через Drive connector (`download_file_content`, ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`) и сравнение байтов. Никаких v2/copy.
-- Один писатель: если за последние 50 мин в `origin/main` есть коммиты автора `virudik` (ChatGPT), этот цикл ничего не пишет, а только отчитывается.
+- Один писатель: решает шаг 0 (`monitor-role.json` + коммиты другого монитора за 50 мин).
 - Не публиковать telemetry, которая расходится с master: validator требует `active Topview scenes == canonical slow`.
 
 ## Шаги
+0. **Роль.** `python3 scripts/monitor_role.py . --me claude`. `skip` — сразу закончить: ничего не писать, статус цикла не трогать (иначе спрячется отставание основного). `run` — обычный цикл. `failover` — обычный цикл, в note: «failover за <основной>». Владельцу при первом failover за сутки — одно сообщение.
 1. `cd /home/claude/ai-film-prompts` (если нет — `git clone https://github.com/virudik/ai-film-prompts`), затем `git fetch && git checkout -B work origin/main`. Запомнить `started_at` (UTC, реальное).
 2. **Скан Topview.**
    - `topview_list_boards` (`mode=my-boards`, `pageSize=50`).
@@ -45,6 +46,8 @@
    - сбой или компьютер недоступен.
 
    Тихие циклы без изменений — без сообщения.
+
+11. **Раз в сутки (если `deep-audit-status.json.last_deep_audit_at` старше 24 ч) — глубокая проверка:** полное чтение 7 инструкций на противоречия между собой и с fresh master (как дневная проверка пилота); `scripts/validate_site.py`; живой сайт (Pages) открывается; список находок — владельцу. Детерминированные мелочи (устаревшие пометки, счётчики) чинить только обычным каноническим циклом, по одному документу; спорное — не трогать. Обновить `deep-audit-status.json`.
 
 ## Что делает каждая часть системы
 - **D3:** `sync-from-drive.yml` открывает issue `monitor-alert`, если `last_scheduled_cycle.completed_at` старше 3 ч, и закрывает её после свежего цикла.
