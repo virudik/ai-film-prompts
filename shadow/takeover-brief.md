@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-09T10:16:23+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-10T05:58:26+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -11,7 +11,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 ## Источники (sha256)
 - NEW-CHAT-HANDOFF.md · Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 216569 B · `29f7173a103178e8`
 - SYNC-RUNBOOK.md · Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 107928 B · `97d54b717b2ce6c5`
-- AI-PROJECT-GUIDE.md · Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 99741 B · `d8a3048d9492302e`
+- AI-PROJECT-GUIDE.md · Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 100620 B · `babcfd65c652ee01`
 - PROMPT-STYLE-GUIDE.md · Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 69474 B · `21ed16f6a362465d`
 - USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 91208 B · `6c26d0dbcfb97532`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 72363 B · `e471a8600d6a0ed5`
