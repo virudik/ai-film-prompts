@@ -1,49 +1,103 @@
 #!/usr/bin/env python3
-"""Primary/standby decision for one monitor cycle. Read-only.
+"""Decide one AI Film monitor cycle. Read-only, failover with per-runner time.
 
-usage: monitor_role.py <repo> --me claude|chatgpt
-prints JSON {"action": "run"|"failover"|"skip", "reason": ...}; exit code 0 always.
+usage: python3 scripts/monitor_role.py <repo> --me claude|chatgpt
+prints {"action": "run"|"failover"|"skip", "reason": "..."}
+Uses monitor-role.json as live config. The set_at timestamp is the failover
+grace baseline until a verified primary cycle has been recorded.
 """
-import argparse, json, subprocess
+import argparse
+import json
+import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-ap = argparse.ArgumentParser(); ap.add_argument("repo"); ap.add_argument("--me", required=True, choices=["claude", "chatgpt"])
-a = ap.parse_args(); repo = Path(a.repo)
+parser = argparse.ArgumentParser()
+parser.add_argument("repo")
+parser.add_argument("--me", choices=("claude", "chatgpt"), required=True)
+args = parser.parse_args()
+
+repo = Path(args.repo)
 role = json.loads((repo / "monitor-role.json").read_text(encoding="utf-8"))
-mon = json.loads((repo / "automation-monitor-status.json").read_text(encoding="utf-8"))
+status = json.loads((repo / "automation-monitor-status.json").read_text(encoding="utf-8"))
 now = datetime.now(timezone.utc)
-other = "chatgpt" if a.me == "claude" else "claude"
-author = role["monitors"][other]["commit_author"]
+primary = role["primary"]
+standby = role["standby"]
+other = "chatgpt" if args.me == "claude" else "claude"
+guard = int(role["collision_guard_minutes"])
+threshold = int(role["failover_after_minutes"])
+standby_yield = int(role.get("standby_yield_minutes", 100))
 
 
-def minutes_since(iso):
+def minutes_since(value):
     try:
-        return (now - datetime.fromisoformat(str(iso).replace("Z", "+00:00"))).total_seconds() / 60
-    except Exception:
+        dt = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            return float("inf")
+        return (now - dt).total_seconds() / 60
+    except (TypeError, ValueError, OverflowError):
         return float("inf")
 
 
-# collision guard: recent commits by the other monitor
+def normalize_runner(value):
+    value = str(value or "").lower()
+    if "claude" in value:
+        return "claude"
+    if "chatgpt" in value:
+        return "chatgpt"
+    return None
+
+
+cycle = status.get("last_scheduled_cycle") or {}
+runner = normalize_runner(cycle.get("runner"))
+# Older snapshots without a runner are not evidence of a Claude primary cycle.
+if runner is None and cycle.get("completed_at"):
+    runner = "chatgpt"
+age_last_cycle = minutes_since(cycle.get("completed_at"))
+per_runner = status.get("last_completed_by_runner") or {}
+primary_at = per_runner.get(primary)
+standby_at = per_runner.get(standby)
+if runner == primary:
+    primary_at = cycle.get("completed_at")
+elif runner == standby:
+    standby_at = cycle.get("completed_at")
+# On a just-switched primary without a recorded cycle allow the full 3h
+# from the owner's role-selection decision (not from a standby heartbeat).
+primary_age = minutes_since(primary_at or role.get("set_at"))
+standby_age = minutes_since(standby_at)
+other_author = role["monitors"][other].get("commit_author") or ""
+
+# The 50-minute guard protects against real concurrent GitHub writes.
+# A failed git-log inspection is uncertainty: skip rather than race.
 try:
-    out = subprocess.run(["git", "log", "origin/main", f"--since={role['collision_guard_minutes']} minutes ago", f"--author={author}", "--format=%h %s"],
-                         cwd=repo, capture_output=True, text=True).stdout.strip()
-except Exception:
-    out = ""
-cycle = mon.get("last_scheduled_cycle") or {}
-runner = cycle.get("runner", "chatgpt_scheduled_task" if "runner" not in cycle else "")
-last_runner = "claude" if "claude" in str(runner) else "chatgpt"
-age = minutes_since(cycle.get("completed_at"))
-if out:
-    res = {"action": "skip", "reason": f"other monitor ({other}) committed within {role['collision_guard_minutes']} min: {out.splitlines()[0]}"}
-elif role["primary"] == a.me:
-    res = {"action": "run", "reason": "primary"}
+    proc = subprocess.run(
+        ["git", "log", "origin/main", f"--since={guard} minutes ago",
+         f"--author={other_author}", "--format=%h %s"],
+        cwd=repo, check=True, capture_output=True, text=True,
+    )
+    recent_other = proc.stdout.strip()
+except (OSError, subprocess.CalledProcessError) as exc:
+    print(json.dumps({"action": "skip", "reason": "collision guard unavailable; avoid concurrent write", "error": type(exc).__name__}))
+    raise SystemExit(0)
+
+if recent_other:
+    action = "skip"
+    reason = f"other monitor ({other}) wrote within {guard} minutes: {recent_other.splitlines()[0]}"
+elif args.me == primary:
+    action = "run"
+    reason = "preferred primary; no recent conflicting write"
+elif args.me != standby:
+    action = "skip"
+    reason = "not assigned primary or standby"
+elif standby_age < standby_yield:
+    action = "skip"
+    reason = f"standby yield {standby_age:.0f}/{standby_yield} min; allow preferred primary to recover"
+elif primary_age <= threshold:
+    action = "skip"
+    reason = f"standby; primary last verified (or owner role set) {primary_age:.0f}/{threshold} min ago"
 else:
-    primary = role["primary"]
-    if last_runner == primary and age <= role["failover_after_minutes"]:
-        res = {"action": "skip", "reason": f"standby; primary {primary} last cycle {age:.0f} min ago"}
-    elif last_runner == a.me and age <= role["failover_after_minutes"]:
-        res = {"action": "failover", "reason": f"standby already covering for {primary}; continue (last own cycle {age:.0f} min ago)"}
-    else:
-        res = {"action": "failover", "reason": f"primary {primary} late: last recorded cycle by {last_runner} {age:.0f} min ago"}
-print(json.dumps(res, ensure_ascii=False))
+    action = "failover"
+    reason = f"primary {primary} has no verified cycle for {primary_age:.0f} min (threshold {threshold} min); one-cycle fallback"
+
+print(json.dumps({"action": action, "reason": reason, "primary": primary,
+                  "runner": args.me, "primary_age_minutes": round(primary_age, 1)}))
