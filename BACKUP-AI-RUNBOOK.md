@@ -1414,6 +1414,8 @@ Existing-scene match считается доказанным только при
 
 ## 18. Recovery automation topology
 
+> **УСТАРЕЛО (пометка 10.10.2026).** Схема с отдельными Watcher/Recovery (HH:00/HH:05) заменена 06.10 одной задачей «AI Film — единый монитор» — см. блок «Действующее расписание» в начале файла. Раздел сохранён как история; текущей конфигурацией не является.
+
 
 
 
@@ -2397,6 +2399,8 @@ Recovery не должен восстанавливать старую ручн�
 
 
 ## 30.09.2026 — Recovery при повторном устаревании сайта
+
+> **Частично устарело (пометка 10.10.2026).** Схема Watcher HH:00 / Recovery HH:05 заменена 06.10 «единым монитором» (блок «Действующее расписание» в начале файла). Референсы Scene 26 — по блоку 05.10.2026 в PROMPT-STYLE-GUIDE и fresh master: в кадре только Лучик и Рыжик, референс Серёги не прикладывается, `@Image4` — точная локация. Mapping @Image1–@Image5 ниже относится только к Scene 27.
 
 
 Фиксировать в recovery journal разные доказательства: 1) `project-status.synced_at` / hash master; 2) `topview-status.checked_at` / task-map/checkpoint identity; 3) `instruction-sync-status.checked_at` / 7-of-7 exact Drive↔GitHub comparison; 4) latest successful Pages artifact. НЕЛЬЗЯ использовать время успешного sync или `last_run_time` watcher вместо provider `checked_at`. Фоновое выполнение Scheduled Task может успешно стартовать, но не завершить PUBLIC publication. GitHub scripts/check_public_freshness.py присутствует как read-only checker, scheduled GitHub watchdog workflow НЕ активирован после blocked creation. Страховка живёт в уже имеющемся Recovery HH:05, который каждый час независимо читает публичные JSON и семь Drive canonical docs; Watcher HH:00 сохраняется enabled, третью задачу не создавать.

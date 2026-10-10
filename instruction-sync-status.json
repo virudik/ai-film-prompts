@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T06:09:20.577Z",
+  "checked_at": "2026-10-10T11:26:23.986Z",
   "verification_mode": "claude_drive_connector_download_sha256",
   "source_of_truth": "Google Drive canonical instruction files",
   "freshness_max_hours": 3,
@@ -10,57 +10,57 @@
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
       "drive_modified_at": "2026-10-10T06:06:29.483Z",
-      "github_blob": "ba32d6e948a749ca32aa2a0c98ff5eb87f92f516",
-      "drive_sha256": "0a04824158594cc8f7c170f5c04e8b5f0fd12af65510adb1e62fe605b464d51f",
-      "mirror_sha256": "0a04824158594cc8f7c170f5c04e8b5f0fd12af65510adb1e62fe605b464d51f",
+      "github_blob": "ccab2253903c46ccdafa96d9344bf8b15e2e7052",
+      "drive_sha256": "307cf68433be56e1784f73c02866f24bb527c9a06e998cb064abc2531de8476f",
+      "mirror_sha256": "307cf68433be56e1784f73c02866f24bb527c9a06e998cb064abc2531de8476f",
       "match": true
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
       "drive_modified_at": "2026-10-09T10:15:39.237Z",
-      "github_blob": "413d88be6e34a429980882734be9280f092a5634",
-      "drive_sha256": "97d54b717b2ce6c5c1fdc3f3b28ddb96966e5303a7ef82cc57c84bd724c7b8bf",
-      "mirror_sha256": "97d54b717b2ce6c5c1fdc3f3b28ddb96966e5303a7ef82cc57c84bd724c7b8bf",
+      "github_blob": "ead3ddbc57489a6b7103cac3d10126246e7643f7",
+      "drive_sha256": "73c8f30a7b871718634ecc8f6e9e8bed00e99e4e5abe556538eb5017bfc6e155",
+      "mirror_sha256": "73c8f30a7b871718634ecc8f6e9e8bed00e99e4e5abe556538eb5017bfc6e155",
       "match": true
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
       "drive_modified_at": "2026-10-10T05:56:03.536Z",
-      "github_blob": "1a9e08e40bf6fc5a4545bea8751b43030f9f304f",
-      "drive_sha256": "babcfd65c652ee0174794a9edce671b47d67672c228701a7cde861a0d0472f2d",
-      "mirror_sha256": "babcfd65c652ee0174794a9edce671b47d67672c228701a7cde861a0d0472f2d",
+      "github_blob": "40a9bf0dccdf11a365bd854058223bf0475c73c6",
+      "drive_sha256": "274c224baf3572990988e650161de30e7d199ea15573b238fb6f0b5aff361d8b",
+      "mirror_sha256": "274c224baf3572990988e650161de30e7d199ea15573b238fb6f0b5aff361d8b",
       "match": true
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
       "drive_modified_at": "2026-10-10T06:01:30.630Z",
-      "github_blob": "ed68c8342630e7d93971ad3aeca0b2618e15a709",
-      "drive_sha256": "6568b9b97ea30ab268b0d593d6dc7ce48e78cb1d3db510cb7b45742286844537",
-      "mirror_sha256": "6568b9b97ea30ab268b0d593d6dc7ce48e78cb1d3db510cb7b45742286844537",
+      "github_blob": "eadb9cca4a7d7527318b4d8690a5d869e668f9d4",
+      "drive_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
+      "mirror_sha256": "28542cedf06c07c3f7728651e6d7168a4795e9f12363036aecc75b2ac6a809e3",
       "match": true
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
       "drive_modified_at": "2026-10-08T23:05:22.307Z",
-      "github_blob": "32cfb18d8722e14a3fa3b46cc7b81255934516bf",
-      "drive_sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
-      "mirror_sha256": "6c26d0dbcfb975320d5d5101a2350b4fd3a4f68f5b1c470817f74a64adf26ed9",
+      "github_blob": "201a1e9d93d835739521df15da8c14e25e8f8fe0",
+      "drive_sha256": "d157578ed6ee81dd1ee3b8ba82cd7832180b003885b909db587ae8f2d1602979",
+      "mirror_sha256": "d157578ed6ee81dd1ee3b8ba82cd7832180b003885b909db587ae8f2d1602979",
       "match": true
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
       "drive_modified_at": "2026-10-07T14:25:41.911Z",
-      "github_blob": "c259d643aa5a8a4063cef5fb7c6d4a63f370d95f",
-      "drive_sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
-      "mirror_sha256": "e471a8600d6a0ed541f25a99a20ed3981bc16bffe6b9cd4ea50ca00728ee15ff",
+      "github_blob": "49154a875501fc8fec943f29cdec293c10650934",
+      "drive_sha256": "2c055acd9a2ee58bd936c921845ecbc30aa08914358388f651c2edc05ca3bc6f",
+      "mirror_sha256": "2c055acd9a2ee58bd936c921845ecbc30aa08914358388f651c2edc05ca3bc6f",
       "match": true
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
       "drive_modified_at": "2026-10-07T14:59:14.274Z",
-      "github_blob": "98632e5d4e5015d9b493870c937a4641dd97d79a",
-      "drive_sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
-      "mirror_sha256": "4301b58878494bcd6b9f9450ab3dcc6627057e1271859042277f1a1383340848",
+      "github_blob": "6090067f335862227508ffeb6ee56e694be5173a",
+      "drive_sha256": "f1923979e0bec66b3e4df02dd72c1a387b0447d0930d738a3af9487b68636c8e",
+      "mirror_sha256": "f1923979e0bec66b3e4df02dd72c1a387b0447d0930d738a3af9487b68636c8e",
       "match": true
     }
   },
@@ -80,7 +80,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "Claude 10.10: full Drive downloads of all 7 docs hashed against mirrors; NEW-CHAT-HANDOFF.md top note on the 10.10 canon fixes, closed mobile QA item and the open unified-monitor incident, same ID, read-back verified.",
+  "note": "Claude 10.10.2026: exact 7/7 Drive connector download after same-ID edits (canon cleanup of 11 pilot findings, D3/D5 docs, owner decisions, Topview manual reconciliation note).",
   "recovery_sync": {
     "automation_title": "AI Film — единый монитор",
     "phase": "embedded_in_unified_monitor",
@@ -294,7 +294,7 @@
     "substantive_change_advances_revision": true,
     "technical_sync_only_preserves_revision": true,
     "manual_master_revision_date": false,
-    "current_revision_date": "09.10.2026",
+    "current_revision_date": "10.10.2026",
     "blank_line_layout_noise_ignored": true,
     "current_revision_date_source": "project-status.json.revision_date (live value; this field is a copy)"
   },

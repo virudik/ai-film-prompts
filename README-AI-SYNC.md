@@ -1207,6 +1207,8 @@ Normalization may ignore only non-semantic `@image`/`<<<Image>>>`, whitespace/li
 
 ## Recovery cadence
 
+> **УСТАРЕЛО (пометка 10.10.2026).** Схема с отдельными Watcher/Recovery (HH:00/HH:05) заменена 06.10 одной задачей «AI Film — единый монитор» — см. блок «Действующее расписание» в начале файла. Раздел сохранён как история; текущей конфигурацией не является.
+
 
 
 
@@ -2111,6 +2113,8 @@ Partial intermediate commits не считаются final state и не дол�
 
 
 ## 30.09.2026 — контроль актуальности публичного сайта и Scenes 26–27
+
+> **Частично устарело (пометка 10.10.2026).** Схема Watcher HH:00 / Recovery HH:05 заменена 06.10 «единым монитором» (блок «Действующее расписание» в начале файла). Референсы Scene 26 — по блоку 05.10.2026 в PROMPT-STYLE-GUIDE и fresh master: в кадре только Лучик и Рыжик, референс Серёги не прикладывается, `@Image4` — точная локация. Mapping @Image1–@Image5 ниже относится только к Scene 27.
 
 
 Единый editable master: same-ID Drive `video-prompts.md` (`1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`); GitHub `video-prompts.md`/`project-status.json`/Pages — автоматически публикуемые зеркала, не источник промтов. На 30.09 в master 14 сцен и 26 full prompts. Scenes 26 и 27 содержат @Image1 pair cats, @Image2 Serega, @Image3 Luchik, @Image4 Ryzhik, @Image5 exact ancient ochre stone city/ruins at golden sunset. Scene 27 имеет ОДИН Scene ID и ТРИ prompt options: оригинальный Seedance 2.5 ×30s плюс split Seedance 2.0 ×15s (Part 1 и Part 2). Никаких silent замен исходного текста и повторного Scene ID.
