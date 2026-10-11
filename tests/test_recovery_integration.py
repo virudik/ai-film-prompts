@@ -81,8 +81,8 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertEqual(top["occupied_slots"], len(top["active_tasks"]))
         self.assertEqual(top["occupied_slots"], sum(len(v) for v in task["active_by_scene"].values()))
         status_slow = set(run_validator()[1]["slow_scenes"])
-        self.assertEqual(status_slow, {int(s) for s in task["active_by_scene"]})
-        self.assertLessEqual(len(status_slow), top["occupied_slots"])
+        self.assertTrue({int(s) for s in task["active_by_scene"]}.issubset(status_slow))
+        # Owner-pending scenes may outnumber currently occupied Topview slots.
 
     def test_terminal_transition_keeps_scene_slow_until_last_task(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
@@ -130,6 +130,28 @@ class IntegrationRecoveryTests(unittest.TestCase):
             p, status = run_validator(master=master, topview=tp, taskmap=mp)
             self.assertNotEqual(p.returncode, 0)
             self.assertFalse(status["checks"]["topview_active_statuses_valid"])
+
+
+    def test_last_task_terminal_does_not_auto_clear_canonical_slow(self):
+        top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
+        task = json.loads(TASKMAP.read_text(encoding="utf-8"))
+        master_text = active_fixture(top, task)
+        sid = next(iter(task["active_by_scene"]))
+        terminal_id = task["active_by_scene"][sid][0]
+        top["active_tasks"] = [t for t in top["active_tasks"] if t["task_id"] != terminal_id]
+        top["scenes"][sid]["active_task_ids"] = []
+        top["scenes"][sid]["topview_status"] = "success"
+        task["active_by_scene"].pop(sid)
+        task["processed_tasks"].append({"task_id": terminal_id, "scene_id": int(sid),
+                                         "final_status": "success", "finished_at": "2026-10-11T16:00:00Z"})
+        top["occupied_slots"] = len(top["active_tasks"])
+        top["free_slots"] = top["slot_capacity"] - top["occupied_slots"]
+        with tempfile.TemporaryDirectory() as td:
+            mp, tp, master = Path(td)/"map.json", Path(td)/"top.json", Path(td)/"master.md"
+            write_json(mp, task); write_json(tp, top); master.write_text(master_text, encoding="utf-8")
+            p, status = run_validator(master=master, topview=tp, taskmap=mp)
+            self.assertEqual(p.returncode, 0, p.stderr)
+            self.assertIn(int(sid), status["slow_scenes"])
 
     def test_stale_conflicting_topview_snapshot_is_rejected(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
@@ -230,7 +252,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
     def test_control_center_separates_scenes_from_generation_slots(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;", html)
-        self.assertIn("$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';", html)
+        self.assertIn("$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeSlowIds().length+' сцен ждут решения';", html)
         self.assertNotIn("metricSlowIds", html)
         self.assertIn("cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free", html)
         self.assertNotIn('id="metricWorkIds"', html)

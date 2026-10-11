@@ -665,7 +665,7 @@ def parse_master(
                 "topview_occupied_matches_active_tasks": occupied == len(active_tasks),
                 "topview_free_slots_equation": free == max(0, capacity - occupied),
                 "topview_capacity_not_exceeded": isinstance(occupied, int) and occupied <= capacity == 6,
-                "topview_active_scenes_match_canonical_slow": set(active_scene_ids) == set(slow_scenes),
+                "topview_active_scene_ids_exist_in_master": set(active_scene_ids).issubset(set(section_scenes)),  # owner controls canonical slow
             })
 
             if topview_task_map_file:
@@ -703,7 +703,7 @@ def parse_master(
                         and str(item.get("final_status", "")).lower() in TERMINAL_TOPVIEW_STATUSES
                         and str(item["scene_id"]) not in active_by_scene
                     }
-                    terminal_consistent = not (processed_terminal_only & set(slow_scenes))
+                    terminal_consistent = not any(isinstance(item, dict) and item.get('task_id') in flat_active for item in processed)  # terminal results may remain slow until owner decides
                     topview_maintenance = {
                         "state": "ok" if task_map_matches and terminal_consistent else "drift",
                         "blocking": False,

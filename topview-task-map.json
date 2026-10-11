@@ -8,7 +8,7 @@
     "A rerun/rerender of an existing scene keeps the same Scene ID.",
     "Known set = all active task IDs + processed_tasks task IDs.",
     "A scene is Topview-slow while at least one known active task for that scene is init/queued/running/processing.",
-    "When the last Topview-managed active task for a scene reaches a terminal state, remove that scene from canonical slow; do not change approval/editorial state.",
+    "On a terminal task, update physical slot usage and processed_tasks; do NOT remove the scene from canonical slow automatically. Only a verified owner_decisions button from the site may release canonical slow.",
     "Keep only minimal processed-task facts needed for dedup/statistics: task_id, scene_id, final_status, finished_at. Do not persist queue/ETA history.",
     "New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review.",
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
@@ -313,5 +313,6 @@
     },
     "scan_mode": "full"
   },
-  "note": "ChatGPT 11.10.2026 full scan: 11 boards 560 video tasks, 5 init, Scene21 success; full prompts 5 normalized exact, Scene21 high truncated suffix. No new Scene ID."
+  "note": "ChatGPT 11.10.2026 full scan: 11 boards 560 video tasks, 5 init, Scene21 success; full prompts 5 normalized exact, Scene21 high truncated suffix. No new Scene ID.",
+  "owner_controlled_slow": true
 }

@@ -13,8 +13,8 @@ usage:
 plan.json:
   {"add":    [{"scene": 28, "task_id": "<32hex>", "model": "Seedance 2.0", "status": "init", "row_title": "28 — Танец A1"}],
    "finish": [{"scene": 30, "task_id": "<32hex>", "model": "Wan 3.0", "final_status": "success", "finished_utc": "09.10.2026 13:57:32 UTC"}]}
-Rows of finished tasks are converted in place; a scene leaves slow only when no
-active row of that scene remains. Editorial/production state is never touched.
+Terminal tasks remain canonical slow pending the owner's explicit site-panel decision.
+Only a verified owner action may clear the marker. Physical slots are counted separately.
 """
 import argparse, json, re, sys
 
@@ -50,11 +50,11 @@ def apply_plan(t, plan, date):
         cells = lines[idx[0]].split(" | ")
         title = cells[0].lstrip("| ")
         if f["final_status"] == "success":
-            lines[idx[0]] = f"| {title} | ✅ Технический результат получен · `success` · {f['model']} | task `{f['task_id']}`; требуется отдельная редакционная проверка |"
+            lines[idx[0]] = f"| {title} | {LABEL} · ✅ Технический результат получен · `success` · {f['model']} | task `{f['task_id']}`; ждёт решения владельца в панели сайта |"
         elif f["final_status"] == ABANDONED:
             lines[idx[0]] = f"| {title} | ⚪ Снята с учёта владельцем · `{ABANDONED}` · {f['model']} | task `{f['task_id']}`; кнопка «Не ждать» только снимает ожидание — саму задачу в Topview отменяет владелец вручную |"
         else:
-            lines[idx[0]] = f"| {title} | ❌ Ошибка Topview · `{f['final_status']}` · {f['model']} | task `{f['task_id']}`; нужен разбор и решение владельца о новом запуске |"
+            lines[idx[0]] = f"| {title} | {LABEL} · ❌ Ошибка Topview · `{f['final_status']}` · {f['model']} | task `{f['task_id']}`; ждёт решения владельца в панели сайта |"
 
     # add tasks: append rows at table end
     new_rows = []
@@ -71,7 +71,7 @@ def apply_plan(t, plan, date):
         active_by_scene.setdefault(sid, 0)
         active_by_scene[sid] += 1
     slow = sorted(active_by_scene)
-    k = len(active_rows)
+    k = sum(bool(re.search(r'`(?:init|queued|running|processing)`', row)) for row in active_rows)  # real slots, not owner-pending terminal rows
     t = "\n".join(lines)
 
     # --- header bullet

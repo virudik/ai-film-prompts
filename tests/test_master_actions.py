@@ -290,7 +290,7 @@ class EndToEndTests(unittest.TestCase):
         self.assertEqual((rc, store.status_of("d")), (0, "applied"))
         status = json.loads(self.origin_file("project-status.json"))
         self.assertEqual((status["health"], status["slow_scenes"]), ("ok", []))
-        self.assertTrue(status["checks"]["topview_active_scenes_match_canonical_slow"])
+        self.assertTrue(status["checks"]["topview_active_scene_ids_exist_in_master"])
         self.assertEqual(json.loads(self.origin_file("topview-status.json"))["occupied_slots"], 0)
         self.assertIn("abandoned_by_owner", self.origin_file("topview-task-map.json"))
         self.assertIn("только снимает ожидание", self.origin_file("video-prompts.md"))

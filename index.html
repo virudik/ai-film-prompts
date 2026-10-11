@@ -209,14 +209,14 @@ function buildTopviewRuntime(tv){
  const capacity=Math.max(1,Number(tv?.slot_capacity||6));
  return {tasks,byScene,slowSceneIds,capacity,occupied:tasks.length,free:Math.max(0,capacity-tasks.length),checkedAt:tv?.checked_at||null}
 }
-function runtimeSlowIds(){return runtimeTopview?[...runtimeTopview.slowSceneIds]:(status?.slow_scenes||[]).map(Number)}
+function runtimeSlowIds(){return (status?.slow_scenes||[]).map(Number)} // owner-controlled, never derived from terminal/active Topview tasks
 function runtimeSceneMultiplicityLabel(){
  if(!runtimeTopview)return (status?.slow_scenes||[]).join(', ')||'нет';
- return runtimeTopview.slowSceneIds.map(id=>{const n=runtimeTopview.byScene.get(id)?.length||0;return n>1?id+'×'+n:String(id)}).join(', ')||'нет'
+ return runtimeSlowIds().map(id=>{const n=runtimeTopview?.byScene.get(id)?.length||0;return n>1?id+'×'+n:String(id)}).join(', ')||'нет'
 }
 function runtimeSceneStatus(sid){
  const tasks=runtimeTopview?.byScene?.get(Number(sid))||[];
- if(!tasks.length)return null;
+ if(!tasks.length)return runtimeSlowIds().includes(Number(sid))?{tasks:[],running:0,queued:0,label:'⏳ ЖДЁТ РЕШЕНИЯ ВЛАДЕЛЬЦА'}:null;
  const running=tasks.filter(x=>['running','processing'].includes(String(x?.topview_status||x?.status||'').toLowerCase())).length;
  const queued=tasks.filter(x=>['init','queued'].includes(String(x?.topview_status||x?.status||'').toLowerCase())).length;
  const parts=[];
@@ -419,7 +419,7 @@ function syncActiveSceneStatuses(tv){
    const q=summary.tasks.map(x=>x.queue_count!=null?Number(x.queue_count).toLocaleString('ru-RU'):'—').join(' / ');
    badge.title='Topview snapshot '+(runtimeTopview.checkedAt?humanDate(runtimeTopview.checkedAt):'—')+' · задач: '+summary.tasks.length+' · очередь: '+q;
   }else{
-   badge.classList.add('pending');badge.textContent='⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ';
+   badge.classList.add('pending');badge.textContent='⏳ ЖДЁТ РЕШЕНИЯ ВЛАДЕЛЬЦА';
   }
  });
 }
@@ -526,7 +526,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  const unresolvedWorkflowFailure=ci?.last_conclusion==='failure'&&Number.isFinite(ciFailureMs)&&(!Number.isFinite(ciSuccessMs)||ciFailureMs>ciSuccessMs);
  const recentFailure=Number.isFinite(ciFailureMs)&&Date.now()-ciFailureMs<24*3600000?{conclusion:'failure'}:null;
  const consecutiveSuccesses=recentFailure&&!unresolvedWorkflowFailure?1:0;
- const topviewSlowMatches=sameNumericSet(s.slow_scenes||[],runtimeTopview.slowSceneIds);
+ const topviewSlowMatches=true; // physical task list and canonical owner-controlled slow list need not match
  const topviewSlotsMatch=Number(tv?.occupied_slots??runtimeTopview.occupied)===runtimeTopview.occupied&&Number(tv?.free_slots??runtimeTopview.free)===runtimeTopview.free;
  const topviewMs=Date.parse(tv?.checked_at||''),topviewAgeMin=Number.isFinite(topviewMs)?(Date.now()-topviewMs)/60000:Infinity;
  const topviewFresh=topviewAgeMin<=STALE_MIN;
@@ -549,7 +549,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  const fl=$('freshnessLine');if(fl){const part=(label,info,okText)=>'<span class="fresh-'+(info.state==='fresh'?'ok':info.state==='unknown'?'muted':'warn')+'">'+esc(label)+': '+esc(info.state==='future'?'время из будущего':info.state==='missing'?'нет данных':info.state==='unknown'?okText:fmtAge(info.min))+'</span>';const short=info=>info.state==='future'?'время из будущего':info.state==='missing'||info.state==='unknown'?'нет данных':fmtAge(info.min).replace(' назад','');const chip=(label,info,tip)=>'<span class="fresh-'+(info.state==='fresh'?'ok':info.state==='unknown'?'muted':'warn')+'" title="'+esc(tip)+'">'+esc(label)+' '+esc(short(info))+'</span>';const insAge=ageInfo(instructionDetail?.checked_at||s.instruction_sync?.snapshot_at);if(insAge.state!=='missing'&&insAge.state!=='future')insAge.state=instruction==='ok'?'fresh':'stale';fl.innerHTML='<span class="fresh-muted" title="Дата содержательного изменения master · синхронизация '+esc(humanDateOnly(s.synced_at))+'">Ревизия '+esc(String(s.revision_date||'—').slice(0,5))+'</span>'+'<span class="fresh-'+(masterHashMatches?'ok':'warn')+'" title="master совпадает с project-status · SHA '+esc(String(s.canonical_master_sha256||'').slice(0,12))+'">Master '+(masterHashMatches?'✓':'✕')+'</span>'+chip('Topview',tvAge,'Возраст реальной проверки Topview (checked_at)')+chip('Монитор',monAge,'Последний завершённый цикл монитора-писателя (сейчас — монитор Claude)')+chip('Инструкции',insAge,instruction==='error'?'Найдено расхождение 7/7':'Последняя точная сверка 7 инструкций Drive ↔ GitHub')+chip('Drive→GitHub',(()=>{const i=ageInfo(s.synced_at);if(i.state==='stale'&&i.min<=SYNC_STALE_MIN)i.state='fresh';return i})(),'Последняя синхронизация master Drive → GitHub');fl.title='Три независимых сигнала: совпадение master с project-status, возраст реальной проверки Topview (checked_at) и последний завершённый цикл единого монитора. Жёлтый — старше '+STALE_MIN/60+' ч.'}
  $('health').textContent=healthText;
  $('health').classList.remove('ok','bad','warn');$('health').classList.add(healthClass);
- $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;
+ $('metricScenes').textContent=s.scenes??'—';$('metricPrompts').textContent=s.prompt_texts??'—';$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeSlowIds().length+' сцен ждут решения';$('metricWork').textContent=s.work_items_count??(s.work_items||[]).length;
  $('metricScenesCard').onclick=()=>resetViewAndJump('active-scenes-map');$('metricPromptsCard').onclick=()=>resetViewAndJump('full-prompts');
  $('metricSlowCard').onclick=()=>{activeFilterKey='slow';activeFilterValues=null;renderFilters();applyView();const target=$('slow-monitor');if(target)target.scrollIntoView({behavior:'smooth',block:'start'})};
  $('metricWorkCard').onclick=()=>{search.value='';clearSearch.classList.remove('show');activeFilterKey='all';activeFilterValues=null;renderFilters();applyView();const h=[...content.querySelectorAll('h2')].find(x=>x.textContent.includes('Сцены в работе'));if(h)requestAnimationFrame(()=>h.scrollIntoView({behavior:'smooth',block:'start'}))};
@@ -578,7 +578,7 @@ async function refreshPublishedTelemetry(){
  if(!telemetryContext||telemetryRefreshPending)return;
  telemetryRefreshPending=true;
  try{
-  const [tv,ledger,monitor,ci]=await Promise.all([fetch('topview-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  const [tv,ledger,monitor,ci]=await Promise.all([fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
   const checked=Date.parse(tv?.checked_at||'');
   if(!Number.isFinite(checked)||!Array.isArray(tv.active_tasks))throw new Error('Некорректный статус Topview');
   if(checked<Date.parse(topview?.checked_at||''))return;
@@ -602,7 +602,7 @@ function setSidebarWidth(px,persist=true){const w=Math.max(SIDEBAR_MIN,Math.min(
 try{const saved=Number(localStorage.getItem('ai-film-sidebar-width'));if(saved)setSidebarWidth(saved,false)}catch{}
 if(sideResize){let dragging=false;const move=e=>{if(!dragging)return;setSidebarWidth(e.clientX)};const stop=()=>{dragging=false;sideResize.classList.remove('dragging');document.body.style.userSelect='';window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',stop)};sideResize.addEventListener('pointerdown',e=>{if(window.innerWidth<=820)return;dragging=true;sideResize.classList.add('dragging');document.body.style.userSelect='none';sideResize.setPointerCapture?.(e.pointerId);window.addEventListener('pointermove',move);window.addEventListener('pointerup',stop)});sideResize.addEventListener('dblclick',()=>setSidebarWidth(SIDEBAR_DEFAULT));sideResize.addEventListener('keydown',e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home')return;e.preventDefault();const current=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-width'))||SIDEBAR_DEFAULT;setSidebarWidth(e.key==='Home'?SIDEBAR_DEFAULT:current+(e.key==='ArrowRight'?10:-10))})}
 search.addEventListener('input',applyView);clearSearch.onclick=()=>{search.value='';search.focus();applyView()};search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';applyView()}if(e.key==='Enter'){const matches=sections.filter(s=>passesFilter(s)&&queryMatches(s,search.value.trim()));if(matches.length)jumpTo(matches[0].id)}});
-Promise.all([fetch('project-status.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(async ([s,md,tv,instructionDetail,reviewLedger,ci,monitor,thumbManifest])=>{
+Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null)]).then(async ([s,md,tv,instructionDetail,reviewLedger,ci,monitor,thumbManifest])=>{
  const bytes=new TextEncoder().encode(md);
  const digest=await crypto.subtle.digest('SHA-256',bytes);
  const masterHash=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
