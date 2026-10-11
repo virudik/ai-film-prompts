@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-11T00:11:30.000Z",
+  "updated_at": "2026-10-11T01:12:05Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -254,24 +254,39 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-11T00:11:30.000Z",
+  "last_scan_at": "2026-10-11T01:12:05Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "all_owned_boards_full_video_scan",
-    "last_successful_scan_at": "2026-10-11T00:11:30.000Z",
+    "last_successful_scan_at": "2026-10-11T01:12:05Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 391,
     "overlap_hours": 6,
-    "pages_scanned": 4,
+    "pages_scanned": 12,
     "tasks_scanned": 554,
     "total_video_tasks": 554,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-10T18:11:30.000Z",
+    "overlap_from": "2026-10-10T19:12:05.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
     "project_board_total_video_tasks": 391,
-    "scope": "all_owned_boards_full_video_scan_with_project_scene_projection"
+    "scope": "all_owned_boards_full_video_scan_with_project_scene_projection",
+    "last_full_scan_at": "2026-10-11T01:12:05Z",
+    "board_task_counts": {
+      "1a66054a659e4fe094646c0fa00eeb2f": 0,
+      "db4b4d6d0abc4cb4b278ea80738639f2": 32,
+      "24a69085fab4497b9c1a52536252b63d": 20,
+      "0aafc553d8a049d2bc21221511293830": 5,
+      "9f8ec3c1d7294675bfb87fa75577dec2": 64,
+      "29d5b28f0e744b9eb6bfbee47efb6ff9": 37,
+      "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
+      "dde2634b5fb54e789bb22dd4c95a75b6": 23,
+      "6b246f75715f43be945f17b06bff9d88": 16,
+      "caa5d8898f14442ea37c3278d156b3fe": 59,
+      "1a6244cf1ae747ef847d949a80d6133c": 604
+    },
+    "scan_mode": "full"
   }
 }

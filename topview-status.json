@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-11T00:11:30.000Z",
+  "checked_at": "2026-10-11T01:12:05Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -51,9 +51,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 437,
-      "topview_estimated_wait_seconds": 9180,
-      "checked_at": "2026-10-11T00:11:30.000Z",
+      "queue_count": 274,
+      "topview_estimated_wait_seconds": 5530,
+      "checked_at": "2026-10-11T01:12:05Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 prompt/reference/model match",
@@ -255,7 +255,7 @@
       "completed_at": "2026-10-09T06:30:02Z"
     }
   },
-  "note": "Монитор Claude 11.10 00:11Z: без изменений, занят 1 из 6 (Scene 16 в очереди 437, ~2.5 ч).",
+  "note": "Монитор Claude 11.10 01:12Z: полный скан, без изменений, занят 1 из 6 (Scene 16 в очереди 274, ~1.5 ч).",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -265,7 +265,7 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-11T00:11:30.000Z",
+    "three_view_checked_at": "2026-10-11T01:12:05Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
@@ -280,9 +280,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-09T02:29:55Z",
-      "queue_count": 437,
-      "topview_estimated_wait_seconds": 9180,
-      "checked_at": "2026-10-11T00:11:30.000Z",
+      "queue_count": 274,
+      "topview_estimated_wait_seconds": 5530,
+      "checked_at": "2026-10-11T01:12:05Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "exact canonical Scene 16 prompt/reference/model match"
@@ -292,15 +292,16 @@
   "account_observation": {
     "scope": "all_owned_boards_unlimited_video_tasks",
     "complete": true,
-    "checked_at": "2026-10-11T00:11:30.000Z",
+    "checked_at": "2026-10-11T01:12:05Z",
     "boards_scanned": 11,
     "video_tasks_scanned": 554,
-    "pages_scanned": 4,
+    "pages_scanned": 12,
     "slot_capacity": 6,
     "occupied_slots": 1,
     "free_slots": 5,
     "active_task_ids": [
       "36e8320e34da4f1b97c35e1e765e3e63"
-    ]
+    ],
+    "scan_mode": "full_all_pages"
   }
 }
