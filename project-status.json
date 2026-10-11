@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-11T14:17:48Z",
+  "synced_at": "2026-10-11T16:11:34Z",
   "revision_date": "11.10.2026",
   "master_declared_last_full_sync": "11.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
-  "canonical_revision_sha256": "8b30cddbd05c0e7ea3b0d79319cf7f1d0a0e4c56b9f336fdff7908e1c8b8c500",
-  "canonical_master_bytes": 548862,
+  "canonical_master_sha256": "e2ed214df6963d5174bcca934d2f6972111ce00c3563cf9fe21c9fccc9eba8a1",
+  "canonical_revision_sha256": "cf165e28ab4b08190ff3c99393727118d5cf68bb96d27555c63e89308f9bb7b3",
+  "canonical_master_bytes": 550848,
   "scenes": 18,
   "prompt_texts": 51,
   "work_items": [
@@ -25,8 +25,14 @@
     "W15"
   ],
   "work_items_count": 11,
-  "slow_scenes": [],
-  "slow_scenes_count": 0,
+  "slow_scenes": [
+    24,
+    25,
+    27,
+    30,
+    31
+  ],
+  "slow_scenes_count": 5,
   "scene_ids": [
     13,
     16,
@@ -75,7 +81,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.007,
+    "age_hours_at_status_build": 1.903,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -153,7 +159,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.007,
+      "age_hours": 1.903,
       "blocking": false
     },
     "topview_task_map": {
@@ -250,7 +256,7 @@
         "continuous_take",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "25": {
       "target_engine": "Seedance 2.5",
@@ -273,7 +279,7 @@
         "action",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "26": {
       "target_engine": "Wan 3",
@@ -321,7 +327,7 @@
         "jedi",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "28": {
       "target_engine": "Seedance 2.0",
@@ -363,7 +369,7 @@
         "saber_combat",
         "destructible_environment"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "31": {
       "target_engine": "Wan 3",
@@ -385,7 +391,7 @@
         "saber_combat",
         "destructible_environment"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "32": {
       "target_engine": "Wan 3",
@@ -539,9 +545,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "11.10.2026",
-    "synced_at": "2026-10-11T14:17:48Z",
-    "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
-    "canonical_revision_sha256": "8b30cddbd05c0e7ea3b0d79319cf7f1d0a0e4c56b9f336fdff7908e1c8b8c500",
+    "synced_at": "2026-10-11T16:11:34Z",
+    "canonical_master_sha256": "e2ed214df6963d5174bcca934d2f6972111ce00c3563cf9fe21c9fccc9eba8a1",
+    "canonical_revision_sha256": "cf165e28ab4b08190ff3c99393727118d5cf68bb96d27555c63e89308f9bb7b3",
     "scene_count": 18,
     "prompt_count": 51,
     "scene_ids": [
@@ -577,7 +583,13 @@
       "W14",
       "W15"
     ],
-    "slow_scenes": [],
+    "slow_scenes": [
+      24,
+      25,
+      27,
+      30,
+      31
+    ],
     "health": "ok",
     "instruction_sync_health": "ok"
   },
