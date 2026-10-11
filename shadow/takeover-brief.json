@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T20:55:55+00:00",
+ "generated_at": "2026-10-11T20:57:24+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -202,7 +202,7 @@
   ]
  },
  "runtime": {
-  "project_health": "ok",
+  "project_health": "error",
   "scenes": 18,
   "prompt_texts": 51,
   "scene_ids": [
@@ -559,7 +559,7 @@
    "title": "Древний ПК в руинах храма: находка Серёги",
    "target_engine": "Wan 3",
    "state": "DRAFT",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
