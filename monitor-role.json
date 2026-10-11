@@ -17,10 +17,10 @@
       "commit_author": "Claude"
     },
     "chatgpt": {
-      "title": "AI Film — резервный контроль",
+      "title": "AI Film — монитор ChatGPT",
       "id": "6acae6ab433481919e88665c520b8ef2",
-      "schedule": "hourly BYMINUTE=40 (Task timezone Europe/Moscow; verify actual execution)",
-      "procedure": "Read-only status checks; migration issue #12 closed as not_planned; no writer takeover without new owner authorization",
+      "schedule": "hourly HH:55 Europe/Moscow (ChatGPT task, exact)",
+      "procedure": "ops/CHATGPT-MONITOR-FAST-PATH.md; NEW-CHAT-HANDOFF.md; role guard",
       "commit_author": "virudik"
     }
   },
@@ -31,16 +31,16 @@
     "Automatic takeover: after 180 minutes without a verified completed primary cycle, the standby takes over and BECOMES the primary (owner decision 10.10.2026). There is no automatic return; the old primary is now the standby and takes over back only if the new primary is silent for 180 minutes.",
     "Nobody writes if the other monitor committed within collision_guard_minutes.",
     "The owner can still set the primary by command ('основной монитор — Claude / ChatGPT'): any agent swaps primary/standby, sets set_by=owner and set_at, commits.",
-    "Takeover cannot start a disabled or rate-limited scheduler; do not count standby cycles as evidence that the primary recovered. The ChatGPT migration task is NOT a proven full writer; do not perform automatic takeover until A-F migration checks pass and owner approves cutover."
+    "ChatGPT is owner-authorized as temporary writer through 16.10.2026 07:00 MSK; background successful cycle is NOT yet proven and must never be fabricated. On/after deadline ChatGPT read-only until owner explicitly updates roles."
   ],
   "failover_policy_updated_at": "2026-10-10T17:20:00Z",
   "standby_yield_minutes": 0,
   "migration_state": {
     "issue": 12,
     "chatgpt_writer_eligible": true,
-    "reason": "Only active ChatGPT AI Film task is a read-only migration pilot; background connector and guarded writer not yet proven.",
+    "reason": "Owner explicitly authorized temporary ChatGPT writer until 16 Oct 2026 07:00 MSK; a complete unattended scheduled-write cycle remains unproven.",
     "legacy_chatgpt_monitor_disabled": true,
-    "migration_outcome": "not_planned_background_capabilities_unverified",
+    "migration_outcome": "temporary_owner_authorization_background_full_cycle_unverified",
     "closed_issue": 12,
     "writer_authorization": "Owner 11.10 13:59 MSK: ChatGPT is the writer until the Claude limit resets (Fri 16.10); then return roles to Claude primary."
   }
