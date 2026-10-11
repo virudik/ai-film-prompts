@@ -12,7 +12,7 @@ ChatGPT's job: this script only produces evidence for the report.
 
 Confidence levels (normalised text = CRLF→LF, <<<ImageN>>>/@imageN → @ImageN, whitespace collapsed):
   exact       byte-identical block (after CRLF→LF and strip)
-  normalized  identical after normalisation
+  normalized  identical after normalisation (CRLF, image-token spelling, padding around tokens)
   high        >= 0.97 similarity and clearly ahead of the runner-up (edited by a few words)
   medium      >= 0.85
   low         below that / ambiguous runner-up -> owner/ChatGPT decide
@@ -79,7 +79,8 @@ def normalise(s):
     s = s.replace("\r\n", "\n").replace("\r", "\n")
     s = re.sub(r"<<<\s*(Image|Video|Audio)\s*(\d+)\s*>>>", lambda m: "@" + m.group(1).capitalize() + m.group(2), s, flags=re.I)
     s = re.sub(r"@(image|video|audio)\s*(\d+)", lambda m: "@" + m.group(1).capitalize() + m.group(2), s, flags=re.I)
-    return re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\s+", " ", s).strip()
+    return re.sub(r"\(\s+", "(", re.sub(r"\s+([,);.:])", r"\1", s))   # Topview pads image tokens: "<<<Image1>>> ,"
 
 
 def similarity(a, b):
