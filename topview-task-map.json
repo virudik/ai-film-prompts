@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-11T03:10:58Z",
+  "updated_at": "2026-10-11T16:10:48Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -13,7 +13,23 @@
     "New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review.",
     "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
   ],
-  "active_by_scene": {},
+  "active_by_scene": {
+    "24": [
+      "a3efa5cce8224b7896e8166e0d5f2b9e"
+    ],
+    "25": [
+      "57b6f3aac4804d2486721131e30640f6"
+    ],
+    "27": [
+      "dbe204aeb9a74478af04c6bbfe7693f9"
+    ],
+    "30": [
+      "3710685303634b2482b90581aa6a8a2b"
+    ],
+    "31": [
+      "4682335cffc24a339179845c2713c46e"
+    ]
+  },
   "processed_tasks": [
     {
       "task_id": "6ef310d646ca4605b5b10c12752b6ab7",
@@ -248,6 +264,12 @@
       "scene_id": 16,
       "final_status": "success",
       "finished_at": "2026-10-11T03:00:50Z"
+    },
+    {
+      "task_id": "71ff9f82cf864225b0cea5caae96854a",
+      "scene_id": 21,
+      "final_status": "success",
+      "finished_at": "2026-10-11T15:04:15Z"
     }
   ],
   "retention": {
@@ -256,26 +278,26 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-11T03:10:58Z",
+  "last_scan_at": "2026-10-11T16:10:48Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "all_owned_boards_full_video_scan",
-    "last_successful_scan_at": "2026-10-11T03:10:58Z",
+    "last_successful_scan_at": "2026-10-11T16:10:48Z",
     "last_full_board_pages_checked": 4,
-    "last_board_total_seen": 391,
+    "last_board_total_seen": 610,
     "overlap_hours": 6,
-    "pages_scanned": 12,
-    "tasks_scanned": 554,
-    "total_video_tasks": 554,
+    "pages_scanned": 17,
+    "tasks_scanned": 560,
+    "total_video_tasks": 560,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
     "overlap_from": "2026-10-10T21:10:58.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
-    "project_board_total_video_tasks": 391,
+    "project_board_total_video_tasks": 397,
     "scope": "all_owned_boards_full_video_scan_with_project_scene_projection",
-    "last_full_scan_at": "2026-10-11T01:12:05Z",
+    "last_full_scan_at": "2026-10-11T16:10:48Z",
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
       "db4b4d6d0abc4cb4b278ea80738639f2": 32,
@@ -289,6 +311,7 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 604
     },
-    "scan_mode": "light"
-  }
+    "scan_mode": "full"
+  },
+  "note": "ChatGPT 11.10.2026 full scan: 11 boards 560 video tasks, 5 init, Scene21 success; full prompts 5 normalized exact, Scene21 high truncated suffix. No new Scene ID."
 }
