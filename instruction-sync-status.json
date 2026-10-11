@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T14:17:22.276Z",
+  "checked_at": "2026-10-11T16:38:13.419Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,31 +9,31 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "e5c26a990be9857de6132824825142bf01884646",
-      "mirror_sha256": "1b00f9353ff02dd9855569d07852bb464052f0524098cb62f1de9030d0f0cc00",
+      "github_blob": "30c9ac043275882b83b3870e2a09cb68bc949fce",
+      "mirror_sha256": "c84b2e029766a3ba55bd89ba2866e4788dc3d90f4e4ee3cfe49ffa88274fc85e",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-11T14:05:34.767Z",
       "drive_copy_checked_at": "2026-10-11T14:05:43.030Z"
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "b6e2432f4da5b78d11719287e538fe9fb0ecc83e",
-      "mirror_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
+      "github_blob": "1248a29334b67843ba3e9d269d61f1c17d6c5691",
+      "mirror_sha256": "825bced5ed0d06757c8ace957303f7a24ae85514eac8ac1070038a875f1a5fba",
       "match": true,
       "drive_copy_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-11T00:38:22.076Z",
       "drive_copy_checked_at": "2026-10-11T14:05:43.030Z"
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "github_blob": "7feb79a02a88cf9e90c4e8410993b35a0550c7ca",
-      "mirror_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
+      "github_blob": "769008a165352eab00d87347f695860b3f12443f",
+      "mirror_sha256": "02c391c60233ee819082edbbcdf22c00a7a5b7391cccc36f216b8e472ca050c5",
       "match": true,
       "drive_copy_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-11T01:36:45.843Z",
       "drive_copy_checked_at": "2026-10-11T14:05:43.030Z"
     },
@@ -49,11 +49,11 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "4e2ec243ae0a65cdd2e4355d4a6286e409314707",
-      "mirror_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
+      "github_blob": "86dbc06a7cc27af7fdfe764059a3589eb6dbebc9",
+      "mirror_sha256": "b4267045b8f4e34074c3a7ea973b39c403f8ffc35956d1c57f5e396f1b776332",
       "match": true,
       "drive_copy_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-11T02:19:13.474Z",
       "drive_copy_checked_at": "2026-10-11T14:05:43.030Z"
     },
@@ -73,7 +73,7 @@
       "mirror_sha256": "d8443d0ed35cadf30519edfadae072d5c57e3091ad5c4f2e8e68304ceb76ae78",
       "match": true,
       "drive_copy_sha256": "a0b2670efa8539a604a828b0adfb8822e2a098e3889889a1be1abe18878d238f",
-      "drive_copy_match": true,
+      "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-11T14:05:40.374Z",
       "drive_copy_checked_at": "2026-10-11T14:05:43.030Z"
     }
@@ -92,9 +92,9 @@
     "enabled": true,
     "automation_title": "AI Film — единый монитор",
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
-    "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
+    "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные.",
+  "note": "Сертификат 7 GitHub canonical docs обновлён после owner-controlled slow policy; Drive-копии только информационные и обновляются отдельным безопасным процессом.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
@@ -126,7 +126,7 @@
     "task_id_column": false,
     "expandable_attempt_ui": false,
     "slot_count_source": "topview-status.json.active_tasks[]",
-    "rule": "All three user-facing views render from one normalized topview-status active_tasks snapshot. Revision shows unique scenes/tasks, Topview table is one row per task, active-scene map is one row per Scene with multiplicity. Queue/status values must never come from independent caches."
+    "rule": "Physical Topview table counts active tasks/slots only; canonical slow badges and filters use project-status.slow_scenes and persist until explicit owner decision."
   },
   "conflicts": [],
   "mode": "authorized_chatgpt_drive_connector",
@@ -179,10 +179,9 @@
     "slow_table_cardinality": "one row per active task/slot",
     "scene_map_cardinality": "one row per unique active Scene ID with aggregated live status",
     "required_equalities": [
-      "unique(active_tasks.scene_id) == project-status.slow_scenes == canonical slow Scene IDs",
-      "occupied_slots == len(active_tasks) == Topview table row count",
-      "scene-map active Scene IDs == unique(active_tasks.scene_id)",
-      "per-scene multiplicity == count(active_tasks for that scene)"
+      "occupied_slots == len(active_tasks) == physical occupied Topview rows",
+      "scene-map active IDs == unique(active_tasks.scene_id)",
+      "canonical slow Scene IDs come from master owner-controlled state; they MAY include terminal tasks awaiting decision and need not equal active-task Scene IDs"
     ]
   },
   "automation_schedule": {
