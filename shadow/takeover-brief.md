@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-11T17:55:08+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-11T20:55:55+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 119890 B · `b4267045b8f4e340`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 77972 B · `ce203d54861821e6`
 - BACKUP-AI-RUNBOOK.md · Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 95635 B · `d8443d0ed35cadf3`
-- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 551139 B · `adc3a3e6ec1c2b6d`
+- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 551598 B · `17d7da867ee6dff4`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -56,7 +56,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | 32 | Коты против Серёги: обрушение древней арки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [31] | aaa2050e2dfd |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [] | c434640420c2 |
 | 34 | Серёга входит в полуразрушенный храм ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [33] | 2359ffefb996 |
-| 35 | Древний ПК в руинах храма: находка Серёги | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [34] | be29369dada9 |
+| 35 | Древний ПК в руинах храма: находка Серёги | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [34] | d18d463dc9aa |
 | 36 | После пещеры: Серёга с картой направляется к кораблю | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [] | 05d5c70b6b3a |
 | 37 | Полёт Серёги к лесной планете и стык с отдельной группой | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [36] | b4ce1e9cae62 |
 | 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [35] | e8c5acb610b3 |
