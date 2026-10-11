@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-11T14:04:42Z",
+  "mode": "probe",
+  "summary": {
+    "would_write": 3,
+    "current": 7
+  },
+  "files": [
+    {
+      "name": "video-prompts.md",
+      "github_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+      "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
+      "drive_sha256": "9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a",
+      "status": "would_write",
+      "drive_modified": "2026-10-10T22:15:49.976Z"
+    },
+    {
+      "name": "NEW-CHAT-HANDOFF.md",
+      "github_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
+      "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+      "drive_sha256": "e511e3643303b58ecfe9138a305dc3929f2f5d59100ab3c6b566854dabf655b6",
+      "status": "would_write",
+      "drive_modified": "2026-10-11T03:41:48.532Z"
+    },
+    {
+      "name": "SYNC-RUNBOOK.md",
+      "github_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
+      "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+      "drive_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
+      "status": "current",
+      "drive_modified": "2026-10-11T00:38:22.076Z"
+    },
+    {
+      "name": "AI-PROJECT-GUIDE.md",
+      "github_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
+      "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+      "drive_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
+      "status": "current",
+      "drive_modified": "2026-10-11T01:36:45.843Z"
+    },
+    {
+      "name": "PROMPT-STYLE-GUIDE.md",
+      "github_sha256": "b6a70e926a161fb20f920ce2642a00fcdc5f6b58fde7a730790e595a0ccaf7d5",
+      "file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+      "drive_sha256": "b6a70e926a161fb20f920ce2642a00fcdc5f6b58fde7a730790e595a0ccaf7d5",
+      "status": "current",
+      "drive_modified": "2026-10-11T00:39:52.760Z"
+    },
+    {
+      "name": "USER-GUIDE.md",
+      "github_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
+      "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+      "drive_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
+      "status": "current",
+      "drive_modified": "2026-10-11T02:19:13.474Z"
+    },
+    {
+      "name": "README-AI-SYNC.md",
+      "github_sha256": "ce203d54861821e631c6319ca48eb389fc9f0b7e13bc32c75bd8e6fafbcb72af",
+      "file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+      "drive_sha256": "ce203d54861821e631c6319ca48eb389fc9f0b7e13bc32c75bd8e6fafbcb72af",
+      "status": "current",
+      "drive_modified": "2026-10-11T00:39:25.162Z"
+    },
+    {
+      "name": "BACKUP-AI-RUNBOOK.md",
+      "github_sha256": "a0b2670efa8539a604a828b0adfb8822e2a098e3889889a1be1abe18878d238f",
+      "file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+      "drive_sha256": "3eb1746a6799b86bb5cc11ce317d7d9d8cb9261a7027a2739b3ba1ee4198af8b",
+      "status": "would_write",
+      "drive_modified": "2026-10-11T03:26:31.303Z"
+    },
+    {
+      "name": "film-backlog.md",
+      "github_sha256": "081a718fa68586f376e6a34c5d7626abd00bbb4d038a5020f77218fd00a47cc1",
+      "file_id": "1YixC7zQFY7z3Bn1XGXxeQIMema3inCT9",
+      "drive_sha256": "081a718fa68586f376e6a34c5d7626abd00bbb4d038a5020f77218fd00a47cc1",
+      "status": "current",
+      "drive_modified": "2026-10-11T03:46:51.233Z"
+    },
+    {
+      "name": "film-analysis.md",
+      "github_sha256": "fc99275e27071b5f3a9c42c2c2c050fbe56bb7443bb80bf8f6a57bb4cdfbb1c3",
+      "file_id": "1O3bsGGivBktRSbeg-9JWeMLK4J_JYu0M",
+      "drive_sha256": "fc99275e27071b5f3a9c42c2c2c050fbe56bb7443bb80bf8f6a57bb4cdfbb1c3",
+      "status": "current",
+      "drive_modified": "2026-09-20T16:18:11.837Z"
+    }
+  ]
+}
