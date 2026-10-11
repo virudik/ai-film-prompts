@@ -41,6 +41,31 @@ def request(path, *, query=None):
         return {"http_status": 0, "api_code": "", "api_status": "", "result_present": False,
                 "error_type": type(e).__name__}
 
+def request_meta(path, *, query=None):
+    """GET returning only status codes, message, result keys and list sizes (safe to print)."""
+    url = BASE + path + (("?" + urlencode(query)) if query else "")
+    headers = {"Authorization": "Bearer " + os.environ["TOPVIEW_API_KEY"].strip(),
+               "Topview-Uid": os.environ["TOPVIEW_UID"].strip(), "Accept": "application/json"}
+    try:
+        with urlopen(Request(url, headers=headers, method="GET"), timeout=20) as r:
+            p = json.loads(r.read(512_000).decode("utf-8"))
+            res = p.get("result")
+            meta = {"http": r.status, "code": str(p.get("code", "")), "msg": str(p.get("message") or p.get("msg") or "")[:80]}
+            if isinstance(res, dict):
+                meta["result_keys"] = sorted(res.keys())[:15]
+                for k, v in res.items():
+                    if isinstance(v, list):
+                        meta["list_" + k] = len(v)
+                    elif k in ("total", "totalCount", "count") :
+                        meta[k] = v
+            elif isinstance(res, list):
+                meta["result_list"] = len(res)
+            return meta
+    except HTTPError as e:
+        return {"http": e.code}
+    except (URLError, TimeoutError, ValueError) as e:
+        return {"http": 0, "error": type(e).__name__}
+
 def main():
     if not os.environ.get("TOPVIEW_API_KEY") or not os.environ.get("TOPVIEW_UID"):
         print(json.dumps({"configured": False, "reason": "TOPVIEW_API_KEY or TOPVIEW_UID absent",
@@ -68,6 +93,14 @@ def main():
                 "queries": {path: request(path, query={"taskId": tid})
                             for path in QUERY_PATHS}
             }
+    # Board endpoints exist in the public API reference (List Boards / List Board Tasks /
+    # Get Board Task Detail); exact paths are probed read-only (GET), reporting only codes,
+    # top-level keys and item counts — no content, no writes.
+    board_probe = {}
+    for path in ["/v1/board/list", "/v1/boards", "/v1/board/page", "/v1/board/my-boards",
+                 "/v1/board/task/list", "/v1/board/task/page", "/v1/board_task/list", "/v1/board/tasks"]:
+        board_probe[path] = request_meta(path, query={"pageNo": 1, "pageSize": 5})
+    out["board_probe"] = board_probe
     print(json.dumps(out, ensure_ascii=False, sort_keys=True))
     # also as a workflow annotation, readable via the check-runs API (no secrets inside)
     print("::notice title=topview-probe::" + json.dumps(out, ensure_ascii=False, sort_keys=True))
