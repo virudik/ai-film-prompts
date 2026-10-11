@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 21,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-11T18:26:33Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
     {
@@ -104,6 +104,58 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-21/S21-Image3-topview-source.png",
+      "asset_id": "references/scenes/scene-21/S21-Image3-topview-source.png",
+      "sha256": "db0e783a4e052b54e40a4682f4dc213ca3ce6a1d2ea22820813dd80933e9651d",
+      "bytes": 1199203,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-21/S21-Image3-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image3",
+      "source_task_ids": [
+        "6d05c85753234b64b43fc75157437a0d"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-21/S21-Image4-topview-source.png",
+      "asset_id": "references/scenes/scene-21/S21-Image4-topview-source.png",
+      "sha256": "0dbd3b216fa9ad81d8f73886c7a187f9fc72659afdb68682b628e9e917c3c72c",
+      "bytes": 1299783,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-21/S21-Image4-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image4",
+      "source_task_ids": [
+        "6d05c85753234b64b43fc75157437a0d"
+      ]
     }
   ],
   "remaining": [],

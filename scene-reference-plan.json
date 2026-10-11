@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
+  "updated_at": "2026-10-11T18:26:33Z",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -13,39 +13,39 @@
     "10": {
       "drive_folder_id": "1H3Bq3G-saw0RXW3vSzI-mVy6R1Ob6MRX",
       "library_path": "/AI Film/Scene Reference Packs/Scene 10",
-      "priority": "high",
-      "needed": [
+      "priority": "archived",
+      "topview_task_ids": [],
+      "status": "retired_in_film",
+      "manifest": "references/scenes/scene-10/manifest.json",
+      "remaining": [],
+      "reference_count": 4,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
         "identity_locked_three_shot"
       ],
-      "topview_task_ids": [],
-      "status": "base_references_ready_helper_blocked",
-      "manifest": "references/scenes/scene-10/manifest.json",
-      "remaining": [
-        "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
-      ],
-      "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
-      "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "11": {
       "drive_folder_id": "18fjLl8dKPi5U6Iu0nTdUDhfKNgo-pWVa",
       "library_path": "/AI Film/Scene Reference Packs/Scene 11",
-      "priority": "high",
-      "needed": [
+      "priority": "archived",
+      "topview_task_ids": [],
+      "status": "retired_in_film",
+      "manifest": "references/scenes/scene-11/manifest.json",
+      "remaining": [],
+      "reference_count": 4,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
         "reuse_scene_10",
         "optional_end_state"
       ],
-      "topview_task_ids": [],
-      "status": "base_references_ready_helper_blocked",
-      "manifest": "references/scenes/scene-11/manifest.json",
-      "remaining": [
-        "New identity-locked three-shot image generation was blocked by the image tool; exact original three source inputs are saved and usable."
-      ],
-      "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
-      "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "13": {
       "drive_folder_id": "1uRaTN2UP7UBjhjxcsBHBviG85ojIrSAw",
@@ -61,10 +61,11 @@
       "status": "ready",
       "manifest": "references/scenes/scene-13/manifest.json",
       "remaining": [],
-      "reference_count": 6,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 9,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "16": {
       "drive_folder_id": "1ilIL52alNkjLMiab2XaMcKc6H_y951Nl",
@@ -82,47 +83,52 @@
       "manifest": "references/scenes/scene-16/manifest.json",
       "remaining": [],
       "reference_count": 6,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "17": {
       "drive_folder_id": "144klZY5o3pQ8v1O03UrGtIJSEj0Yjf0s",
       "library_path": "/AI Film/Scene Reference Packs/Scene 17",
-      "priority": "high",
-      "needed": [
-        "post_battle_seated",
-        "map_handoff"
-      ],
+      "priority": "archived",
       "topview_task_ids": [
         "67b8304f8a324b7493af32fd0a0ae5d7"
       ],
-      "status": "ready",
+      "status": "retired_in_film",
       "manifest": "references/scenes/scene-17/manifest.json",
       "remaining": [],
-      "reference_count": 7,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 10,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
+        "post_battle_seated",
+        "map_handoff"
+      ],
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "19": {
       "drive_folder_id": "1j5w0tM90pQANhYe_rjNx61LRghttUE9_",
       "library_path": "/AI Film/Scene Reference Packs/Scene 19",
-      "priority": "medium",
-      "needed": [
-        "optional_masha_sasha_faceoff"
-      ],
+      "priority": "archived",
       "topview_task_ids": [
         "6ef310d646ca4605b5b10c12752b6ab7",
         "e4ad0298cf7d48a98c6ba6498bb62c48"
       ],
-      "status": "ready",
+      "status": "retired_in_film",
       "manifest": "references/scenes/scene-19/manifest.json",
       "remaining": [],
-      "reference_count": 5,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 8,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
+        "optional_masha_sasha_faceoff"
+      ],
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "20": {
       "drive_folder_id": "1Xzix5Am_jdAO-t0_yeyWy6SQ3fjNIzfL",
@@ -142,10 +148,11 @@
       "status": "ready",
       "manifest": "references/scenes/scene-20/manifest.json",
       "remaining": [],
-      "reference_count": 5,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 8,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 11
+      "prompt_mapping_count": 13,
+      "canonical_state": "active"
     },
     "21": {
       "drive_folder_id": "1A3fQyPcKbNeIYqN4PrW9y-Go4U6r91vk",
@@ -160,46 +167,51 @@
       "status": "ready",
       "manifest": "references/scenes/scene-21/manifest.json",
       "remaining": [],
-      "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 6,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "22": {
       "drive_folder_id": "1kmTryF7g6nUtXutZ0-FUTGf_lYLMr_ho",
       "library_path": "/AI Film/Scene Reference Packs/Scene 22",
-      "priority": "low",
-      "needed": [
-        "none_by_default"
-      ],
+      "priority": "archived",
       "topview_task_ids": [
         "6926ce5d0f81477ea06f135d4b658f97"
       ],
-      "status": "ready",
+      "status": "retired_in_film",
       "manifest": "references/scenes/scene-22/manifest.json",
       "remaining": [],
       "reference_count": 2,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
+        "none_by_default"
+      ],
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "23": {
       "drive_folder_id": "10cPrK_10RbYr9pfrSHN0IjXGKnxO-5OD",
       "library_path": "/AI Film/Scene Reference Packs/Scene 23",
-      "priority": "low",
-      "needed": [
-        "only_if_pair_drift"
-      ],
+      "priority": "archived",
       "topview_task_ids": [
         "e42b4746c792472a9586ae95cd1513d3"
       ],
-      "status": "ready",
+      "status": "retired_in_film",
       "manifest": "references/scenes/scene-23/manifest.json",
       "remaining": [],
-      "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 6,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "in_film",
+      "historical_needed": [
+        "only_if_pair_drift"
+      ],
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
     },
     "24": {
       "drive_folder_id": "1SoP5-DvpXquHVX7gukIYPniqAiHnlEO7",
@@ -215,9 +227,10 @@
       "manifest": "references/scenes/scene-24/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "25": {
       "drive_folder_id": "1WMG0T_EL-RspzBqX4AhXydWO9yB5e5WV",
@@ -231,9 +244,10 @@
       "manifest": "references/scenes/scene-25/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "26": {
       "drive_folder_id": "1m0O7Cp05lNv2nwLWmu8gV5-qYZ4WFLh2",
@@ -250,9 +264,10 @@
       "manifest": "references/scenes/scene-26/manifest.json",
       "remaining": [],
       "reference_count": 4,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 1
+      "prompt_mapping_count": 1,
+      "canonical_state": "active"
     },
     "27": {
       "drive_folder_id": "1iuNnARiLSLR1U9lMO1bEK7bRQx5_7kEn",
@@ -271,32 +286,215 @@
       "manifest": "references/scenes/scene-27/manifest.json",
       "remaining": [],
       "reference_count": 6,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 3
+      "prompt_mapping_count": 3,
+      "canonical_state": "active"
     },
     "28": {
       "drive_folder_id": "1PASZv8o1iRFy6DryVXpIbmnWKVpBtGGZ",
       "library_path": "/AI Film/Scene Reference Packs/Scene 28",
       "priority": "highest",
       "needed": [
-        "S28_correct_shoulder_pose",
-        "G28_clean_11_subject_group"
+        "C28_from_actual_clean_part_2_result"
       ],
       "topview_task_ids": [],
       "status": "ready",
       "manifest": "references/scenes/scene-28/manifest.json",
       "remaining": [
-        "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
+        "A1/A2 Seedance 2.0 15s and B1/B2 Wan 3.0 30s are owner-authorized A/B candidates; launch only via signed-in Topview website with verified unlimited zero-credit mode. If Seedance is not unlimited, owner fallback is B1/B2/B4/B5. A3/B3 require actual C28 from part 2."
       ],
-      "reference_count": 21,
-      "checked_at": "2026-10-08T09:58:58.592675Z",
+      "reference_count": 24,
+      "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
-      "prompt_mapping_count": 20
+      "prompt_mapping_count": 20,
+      "canonical_state": "active"
+    },
+    "29": {
+      "manifest": "references/scenes/scene-29/manifest.json",
+      "status": "retired_in_film",
+      "canonical_state": "in_film",
+      "reference_count": 4,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "archived",
+      "topview_task_ids": [],
+      "historical_needed": [],
+      "note": "Historical pack retained; no active generation/helper task. Owner decision is in review-ledger.json."
+    },
+    "30": {
+      "manifest": "references/scenes/scene-30/manifest.json",
+      "status": "ready",
+      "canonical_state": "active",
+      "reference_count": 6,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "31": {
+      "manifest": "references/scenes/scene-31/manifest.json",
+      "status": "ready",
+      "canonical_state": "active",
+      "reference_count": 6,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "32": {
+      "manifest": "references/scenes/scene-32/manifest.json",
+      "status": "ready",
+      "canonical_state": "active",
+      "reference_count": 6,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "33": {
+      "manifest": "references/scenes/scene-33/manifest.json",
+      "status": "ready",
+      "canonical_state": "active",
+      "reference_count": 2,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "34": {
+      "manifest": "references/scenes/scene-34/manifest.json",
+      "status": "ready",
+      "canonical_state": "active",
+      "reference_count": 2,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "35": {
+      "manifest": "references/scenes/scene-35/manifest.json",
+      "status": "draft_inputs_pending",
+      "canonical_state": "active",
+      "reference_count": 2,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "Внешняя генерация 6d1ff4a96a0043f2884ffb528d5d9c9a уже активна. В фактических inputImages только Image1/2, Video1/Image3 отсутствуют. Не дублировать и не отменять: после результата проверить стык 34→35. Сохранённый последний кадр34 — candidate_external_inputs, не вход активной задачи."
+      ],
+      "drive_folder_id": "1it_Oia14Q6UMOuV7wgVOk3jWXsUESbtf",
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": [
+        "6d1ff4a96a0043f2884ffb528d5d9c9a"
+      ],
+      "candidate_external_input_count": 2,
+      "note": "Existing external generation is active in canonical telemetry. Do not submit a duplicate; saved frame remains an unbound archive candidate."
+    },
+    "36": {
+      "manifest": "references/scenes/scene-36/manifest.json",
+      "status": "draft_inputs_pending",
+      "canonical_state": "active",
+      "reference_count": 3,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "@Video1 — конец Scene 17 из монтажа: не сохранён в репозитории.",
+        "@Video2 — точный кадр транспорта на Набу: не подобран; без него сцена остаётся DRAFT (не выдумывать корабль).",
+        "Паша и Саша в кадре, но их identity-референсы в промте не приложены — решение владельца/ChatGPT (см. reports/prompt-audit-2026-10.md)."
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "37": {
+      "manifest": "references/scenes/scene-37/manifest.json",
+      "status": "draft_inputs_pending",
+      "canonical_state": "active",
+      "reference_count": 3,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "@Video1 — конец Scene 36 ещё не создан.",
+        "@Video2 — кадр корабля/планеты из монтажа не выбран.",
+        "@Video3 — открывающий кадр лесной группы не выбран."
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
+    },
+    "38": {
+      "manifest": "references/scenes/scene-38/manifest.json",
+      "status": "draft_inputs_pending",
+      "canonical_state": "active",
+      "reference_count": 2,
+      "checked_at": "2026-10-11T18:26:33Z",
+      "manifest_schema_version": 2,
+      "prompt_mapping_count": 1,
+      "remaining": [
+        "@Video1/@Image3 — выбранный конечный кадр Scene 35: Scene 35 ещё не сгенерирована; до этого сцена DRAFT."
+      ],
+      "drive_folder_id": null,
+      "library_path": null,
+      "priority": "per_current_backlog",
+      "needed": [],
+      "topview_task_ids": []
     }
   },
-  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
   "manifest_contract_complete": true,
-  "total_prompt_mappings": 46,
-  "generation_started": false
+  "total_prompt_mappings": 58,
+  "source_of_truth": "GitHub main/video-prompts.md; derived reference index",
+  "active_prompt_mappings": 51,
+  "manifest_count": 25,
+  "active_manifest_count": 18,
+  "historical_manifest_count": 7,
+  "generation_authorization": "This derived index does not authorize generation. Existing owner decisions and a live unlimited website preflight are required."
 }

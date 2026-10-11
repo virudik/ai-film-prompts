@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 35,
-  "updated_at": "2026-10-11T00:00:00Z",
+  "updated_at": "2026-10-11T18:33:28Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -91,7 +91,7 @@
         {
           "slot": "@Video1/@Image3",
           "canonical_role": "фактический конец готовой Scene 34 (интерьер)",
-          "input_status": "required_not_available"
+          "input_status": "candidate_available_boundary_not_selected"
         }
       ]
     }
@@ -100,7 +100,7 @@
   "last_qc_at": "2026-10-11T00:00:00Z",
   "last_qc_scope": "Claude Code session 11.10.2026: paths/SHA/roles reused from existing packs, mapping from the master \"Референсы\" line. No images generated, no Topview call; owner approval not recorded.",
   "remaining": [
-    "@Video1/@Image3 — фактический последний кадр результата Scene 34: не выбран владельцем, в репозитории отсутствует; до выбора сцена DRAFT."
+    "Внешняя генерация 6d1ff4a96a0043f2884ffb528d5d9c9a уже активна. В фактических inputImages только Image1/2, Video1/Image3 отсутствуют. Не дублировать и не отменять: после результата проверить стык 34→35. Сохранённый последний кадр34 — candidate_external_inputs, не вход активной задачи."
   ],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
@@ -108,5 +108,70 @@
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
-  ]
+  ],
+  "candidate_external_inputs": [
+    {
+      "file_name": "S34-result.mp4",
+      "role": "source_result_video",
+      "drive_file_id": "1BExvQqFpxcSt-od8iGUHsVV4hx_Q3h6G",
+      "library_file_id": "libfile_bbba8d426d788191829dcbf839ee7a31",
+      "sha256": "e00a0a1f08ee89ea41ad8f881e2dee3c6f820a4a7955ac3233516ad7c02bdc69",
+      "bytes": 35367758,
+      "source_task_id": "3fb3d9ee26474b62982ae8ef062afc32",
+      "usage_status": "candidate_not_bound",
+      "owner_approval": "not_recorded_for_this_boundary",
+      "saved_at": "2026-10-11T18:33:28Z",
+      "video_frames": 900,
+      "fps": 30,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "video_duration_seconds": 30
+    },
+    {
+      "file_name": "S35-Scene34-last-frame-candidate.png",
+      "role": "last_frame_candidate",
+      "drive_file_id": "15G06a2SIL18rA8kg1T9InvPbdK7RXfAN",
+      "library_file_id": "libfile_5e472aeb0f9881918dfbe4fddbcc41b0",
+      "sha256": "7091f51b9c805965ee0ba1746f61a3d7fe39caa020ddc36991b774eeb53f4865",
+      "bytes": 1077754,
+      "source_task_id": "3fb3d9ee26474b62982ae8ef062afc32",
+      "usage_status": "candidate_not_bound",
+      "owner_approval": "not_recorded_for_this_boundary",
+      "saved_at": "2026-10-11T18:33:28Z",
+      "frame_index_zero_based": 899,
+      "frame_time_seconds": 29.966666666666665,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "extraction": "Decoded exact last video frame; no generative processing.",
+      "assistant_qc": {
+        "status": "viewed_candidate",
+        "evidence": "Back of Serega in purple robe inside the stone temple; not a black frame. Identity and montage continuity are not certified."
+      }
+    }
+  ],
+  "drive_folder_id": "1it_Oia14Q6UMOuV7wgVOk3jWXsUESbtf",
+  "active_task_provenance": {
+    "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
+    "verified_at": "2026-10-11T21:58:48.491Z",
+    "status": "init",
+    "unlimited": true,
+    "credits_cost": 0,
+    "input_images": [
+      {
+        "name": "Image1",
+        "s3_path": "board/1a6244cf1ae747ef847d949a80d6133c/upload/FGlyiGi4FG26kZmpCiUH/TByKT9CvunpDrlRa3E8il.png"
+      },
+      {
+        "name": "Image2",
+        "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/WH1OrxZ4Tj1GDqZp65k61.png"
+      }
+    ],
+    "input_videos_present": false,
+    "continuity_requirement": "Canonical @Video1/@Image3 boundary from Scene 34 is absent in the visible task inputs.",
+    "action": "Do not cancel or rerun. Await the existing result and review the 34→35 continuity; archived candidate remains available."
+  }
 }

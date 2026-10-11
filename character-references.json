@@ -14,7 +14,6 @@
       ],
       "scenes": [
         16,
-        17,
         21,
         27,
         28,
@@ -51,6 +50,13 @@
             18
           ],
           "notes": "Фиолетовая/чёрно-фиолетовая длинная роба; лицо, возраст и силуэт фиксированы. Scenes 14 и 18 — историческое использование в retired-сценах; текущие active сцены указаны в основном поле scenes."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            17
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ],
       "reference_priority": "ВЫСШИЙ — этот лист является каноническим identity/costume reference Серёги.",
@@ -99,8 +105,6 @@
         "Navy Jedi"
       ],
       "scenes": [
-        17,
-        19,
         20,
         28
       ],
@@ -109,7 +113,7 @@
         "primary": "Паша · основная model sheet",
         "additional": [
           "Сцена 2 · Image3",
-          "Сцена 19 · Image5"
+          "Сцена 19 · Topview e4ad0298… · Image4 (исторический ввод)"
         ],
         "public_image": "references/previews/pasha.webp",
         "web_preview_width": 960,
@@ -131,6 +135,14 @@
             6
           ],
           "notes": "Один и тот же образ между крышей и подводным рынком."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            17,
+            19
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ],
       "reference_priority": "ВЫСШИЙ — лицо, телосложение и тёмно-синяя одежда берутся с этой model sheet.",
@@ -193,8 +205,7 @@
       ],
       "scenes": [
         16,
-        28,
-        29
+        28
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -228,6 +239,13 @@
             12
           ],
           "notes": "Светло-зелёная многослойная туника + глубокий красный hooded cloak."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            29
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ],
       "reference_priority": "ВЫСШИЙ — одна identity sheet для Илюши; opening/environment references не меняют лицо или одежду.",
@@ -241,8 +259,6 @@
         "Glasses Jedi"
       ],
       "scenes": [
-        17,
-        19,
         20,
         28
       ],
@@ -251,7 +267,7 @@
         "primary": "Саша · основная model sheet",
         "additional": [
           "Сцена 2 · Image6",
-          "Сцена 19 · Image4"
+          "Сцена 19 · Topview e4ad0298… · Image3 (исторический ввод)"
         ],
         "public_image": "references/previews/sasha.webp",
         "web_preview_width": 960,
@@ -273,6 +289,14 @@
             6
           ],
           "notes": "Очки, борода и бордово-кремовый костюм фиксированы."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            17,
+            19
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ],
       "reference_priority": "ВЫСШИЙ — лицо, очки, борода, телосложение и костюм берутся с этой model sheet.",
@@ -373,7 +397,6 @@
         "Lava-Laguna"
       ],
       "scenes": [
-        19,
         20,
         28
       ],
@@ -381,7 +404,7 @@
         "source": "User-provided exact model sheet",
         "primary": "Маша Лагуна · основная model sheet",
         "additional": [
-          "Сцена 19 · Image3",
+          "Сцена 19 · Topview e4ad0298… · Image5 (исторический ввод)",
           "Сцена 20 · Image2"
         ],
         "public_image": "references/masha-laguna.webp",
@@ -397,6 +420,13 @@
             20
           ],
           "notes": "Точная голубая aquatic fantasy identity с model sheet пользователя; лицо, пропорции, головные элементы, длинные боковые пряди и чёрный декоративный ворот/спинной элемент фиксированы."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            19
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ],
       "reference_priority": "ВЫСШИЙ — exact model sheet определяет identity/design Маши Лагуны; отсутствие анатомических деталей на закрытом торсе также является частью дизайна. Для локального Image numbering читать текущую сцену.",
@@ -411,7 +441,6 @@
       ],
       "scenes": [
         13,
-        23,
         24,
         25,
         26,
@@ -451,6 +480,13 @@
             27
           ],
           "notes": "Recurring Jedi identity. Синий световой меч; в Scenes 24–25 Лучик — пилот. Сохранять бело-серый окрас, морду, длинную шерсть и кошачью анатомию."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            23
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ]
     },
@@ -462,7 +498,6 @@
         "GINGER CAT"
       ],
       "scenes": [
-        23,
         24,
         25,
         26,
@@ -494,6 +529,13 @@
             27
           ],
           "notes": "Recurring Jedi identity. Зелёный световой меч; в Scenes 24–25 Рыжик — штурман/системы/оружие; в Scene 26 произносит первую длинную реплику. Не менять окрас, табби-рисунок и кошачью анатомию."
+        },
+        {
+          "label": "В фильме — историческое использование",
+          "scenes": [
+            23
+          ],
+          "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
         }
       ]
     },
@@ -535,7 +577,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-11T18:26:33Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
-  "scene_lists_reconciled_at": "2026-10-11 (Claude monitor daily check): added reference-line usage from fresh master — Серёга 35–38; Виталик/Лёха 37 (identity refs only if the forest pair is visible); earlier lists kept"
+  "scene_lists_reconciled_at": "2026-10-11T18:26:33Z — fresh active master + owner in-film ledger; retired usage retained in variants. Scene 19 historical input labels verified against exact Topview task e4ad0298cf7d48a98c6ba6498bb62c48; archived canonical prompt numbering remains separate."
 }

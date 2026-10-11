@@ -1,3 +1,5 @@
+> **Сверка референсов Work, 11.10.2026:** действующий индекс — `scene-reference-plan.json/.md` в GitHub main, 25 manifests / 58 mappings. Исторические Topview ImageN и текущие prompt slots различать явно; пример Scene19 проверен в provenance. `candidate_external_inputs` в manifest35 — сохранённые, но ещё не выбранные монтажные входы: не повышать DRAFT до READY и не считать их owner approval. Подробный результат — `reports/work-resume-2026-10-11.md`.
+
 
 ## ВАЖНО: canonical slow снимает только владелец (решение 11.10.2026)
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T17:54:09Z",
+  "checked_at": "2026-10-11T21:59:04.581Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "a6d4ee1ff91ba320cec8d0e05f06c8327c36d4ed",
-      "mirror_sha256": "67649cf8238241574d2c9468907974743f8a1fc4352ab12d64fb484a48a9e67d",
+      "github_blob": "9d63a986023382116d51a9bb0484ba6413a5913b",
+      "mirror_sha256": "438917b1329c11d968c956c1b6b84cd2c7c2c973c2715a3f16216136c814ae1e",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
       "drive_copy_match": false,
@@ -29,8 +29,8 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "github_blob": "769008a165352eab00d87347f695860b3f12443f",
-      "mirror_sha256": "02c391c60233ee819082edbbcdf22c00a7a5b7391cccc36f216b8e472ca050c5",
+      "github_blob": "a3e01b5554c34d93d9fdff061d341814f0e546bf",
+      "mirror_sha256": "4e7c994ee7f4ecc1e7e0945aa7816ef2d859bf20f1e6e2d2f299e22879153e69",
       "match": true,
       "drive_copy_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
       "drive_copy_match": false,
@@ -94,7 +94,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "GitHub main 7-doc canon. 11.10.2026 handoff updated with temporary ChatGPT fast path; stale Drive backup is informational, not a sync failure.",
+  "note": "С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",

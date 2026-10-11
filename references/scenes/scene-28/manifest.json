@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-11T18:26:33Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
     {
@@ -525,6 +525,72 @@
         "path": "references/ryzhik.jpg",
         "linked_in_master": true,
         "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-28/R28A-second-row.webp",
+      "asset_id": "references/scenes/scene-28/R28A-second-row.webp",
+      "sha256": "55d070661a91db589017ab8407f7e9ec8974957a59e6716cced924b4e5742771",
+      "bytes": 183898,
+      "media_type": "image",
+      "role": "pose_composition_helper",
+      "usage_status": "archived_not_active_input",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:24:58Z",
+        "evidence": "Existing archived helper; fresh master permits composition-only use, earlier handoff excludes it from visible gallery. Identity/use approval is not inferred."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/R28A-second-row.webp",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "path": "references/scenes/scene-28/R28B-third-row-cats.webp",
+      "asset_id": "references/scenes/scene-28/R28B-third-row-cats.webp",
+      "sha256": "bbb269df20fe0bcd6167e9f322c1f74849a2327458d379f51e25795e8bb1fb57",
+      "bytes": 181306,
+      "media_type": "image",
+      "role": "pose_composition_helper",
+      "usage_status": "archived_not_active_input",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:24:58Z",
+        "evidence": "Existing archived helper; fresh master permits composition-only use, earlier handoff excludes it from visible gallery. Identity/use approval is not inferred."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/R28B-third-row-cats.webp",
+        "git_present": true,
+        "linked_in_master": false
+      }
+    },
+    {
+      "path": "references/scenes/scene-28/G28-full-ensemble.png",
+      "asset_id": "references/scenes/scene-28/G28-full-ensemble.png",
+      "sha256": "443e5c60fd36be73006b53755def99ff6c2c18b2150777a595deeda89977375b",
+      "bytes": 2412133,
+      "media_type": "image",
+      "role": "superseded_composition_helper",
+      "usage_status": "superseded_by_G28_with_Alesya",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/G28-full-ensemble.png",
+        "git_present": true,
+        "linked_in_master": false
       }
     }
   ],

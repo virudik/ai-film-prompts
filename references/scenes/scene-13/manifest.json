@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 13,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-11T18:26:33Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
     {
@@ -154,6 +154,84 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+      "asset_id": "references/scenes/scene-13/S13-Image2-topview-source.png",
+      "sha256": "e9b5613886641887dd222097eb32d0a702e5f46aa10fa4a69ebc66e37c257b97",
+      "bytes": 843599,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-Image2-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image2",
+      "source_task_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+      "asset_id": "references/scenes/scene-13/S13-Image3-topview-source.png",
+      "sha256": "b98957a9bf41db22403cbdcc6b8a6bc61537055e869a6a75576e416e4810635e",
+      "bytes": 1344988,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-Image3-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image3",
+      "source_task_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-13/S13-Image4-topview-source.png",
+      "asset_id": "references/scenes/scene-13/S13-Image4-topview-source.png",
+      "sha256": "ae01fb9cca6ff7e404b7f3d5b9a10aa678e59ff43006400c7f89e20255589cef",
+      "bytes": 1406091,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-13/S13-Image4-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image4",
+      "source_task_ids": [
+        "73cf9e84d8b14f5f8d6653f7f6ae7318"
+      ]
     }
   ],
   "remaining": [],

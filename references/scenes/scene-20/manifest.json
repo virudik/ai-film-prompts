@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 20,
-  "updated_at": "2026-10-11T00:00:00Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-11T18:26:33Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
     {
@@ -181,6 +181,32 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-20/S20-Image2-topview-source.png",
+      "asset_id": "references/scenes/scene-20/S20-Image2-topview-source.png",
+      "sha256": "efe0ab0a37b8da125a8eb925e36e66b470e599f9c6bf145a1089bc576b2a7ab1",
+      "bytes": 786405,
+      "media_type": "image",
+      "role": "historical_task_input",
+      "usage_status": "historical_provenance_only",
+      "drive_file_id": null,
+      "library_file_id": null,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "byte_integrity_only",
+        "checked_at": "2026-10-11T18:26:33Z",
+        "evidence": "Existing source file registered for provenance only; no identity/visual approval or new prompt binding."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-20/S20-Image2-topview-source.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "historical_slot_name": "Image2",
+      "source_task_ids": [
+        "42e5cdb42c1a45df8a037a26eb3fa26b"
+      ]
     }
   ],
   "remaining": [],
