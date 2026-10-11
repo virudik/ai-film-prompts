@@ -53,7 +53,7 @@ jobs:
         run: pip install --quiet google-auth requests
       - name: Keyless login to Google (Workload Identity Federation)
         id: auth
-        if: ${{ env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' }}
+        if: ${{ env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' && !contains(env.WIF_PROVIDER, '123456789') && !contains(env.WIF_SERVICE_ACCOUNT, '<') }}
         uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: ${{ env.WIF_PROVIDER }}
@@ -66,6 +66,11 @@ jobs:
             echo "::notice title=drive-copy::not_configured: set GitHub variables GCP_WORKLOAD_IDENTITY_PROVIDER and GCP_SERVICE_ACCOUNT (ops/DRIVE-WIF-SETUP.md); nothing done"
             exit 0
           fi
+          case "${WIF_PROVIDER}${WIF_SERVICE_ACCOUNT}" in
+            *123456789*|*"<"*|*">"*)
+              echo "::error title=drive-copy::Переменные GitHub содержат ПРИМЕР из инструкции, а не реальные значения. Возьмите две строки из конца вывода Cloud Shell (GCP_WORKLOAD_IDENTITY_PROVIDER и GCP_SERVICE_ACCOUNT) — см. ops/DRIVE-WIF-SETUP.md, шаг 1.4"
+              exit 1 ;;
+          esac
           export DRIVE_COPY_DIR="${RUNNER_TEMP}/drive-copy"
           python3 scripts/drive_write.py "${MODE}" | tee /tmp/drive-write.log
       - name: Refresh the instruction certificate from the verified Drive copies

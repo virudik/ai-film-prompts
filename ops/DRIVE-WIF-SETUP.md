@@ -61,8 +61,8 @@ https://github.com/virudik/ai-film-prompts/settings/variables/actions → **New 
 
 | Name | Value |
 |---|---|
-| `GCP_WORKLOAD_IDENTITY_PROVIDER` | строка вида `projects/123456789/locations/global/workloadIdentityPools/github/providers/ai-film-repo` |
-| `GCP_SERVICE_ACCOUNT` | `ai-film-writer@<проект>.iam.gserviceaccount.com` |
+| `GCP_WORKLOAD_IDENTITY_PROVIDER` | **ваша** строка из вывода Cloud Shell, вида `projects/<ЧИСЛО>/locations/global/workloadIdentityPools/github/providers/ai-film-repo` (ЧИСЛО — номер вашего проекта; копируйте строку целиком из вывода, не из этой таблицы) |
+| `GCP_SERVICE_ACCOUNT` | **ваш** адрес из вывода Cloud Shell (`ai-film-writer@ИД-ПРОЕКТА.iam.gserviceaccount.com`, без угловых скобок) |
 
 Пока этих переменных нет, workflow «Drive copy refresh» ничего не делает (`not_configured`) — это безопасно.
 
@@ -72,4 +72,4 @@ https://github.com/virudik/ai-film-prompts/settings/variables/actions → **New 
 2. Если проба зелёная — снова **Run workflow** с `action = sync`: файлы обновятся, робот перечитает их и сверит sha256, затем обновит `instruction-sync-status.json` (`scripts/cert_github.py . --drive-copy-dir …`).
 3. Напишите мне «Drive готов» — дальше обновление идёт само раз в сутки.
 
-**Типичные ошибки.** `unauthorized_client` / `attribute condition` — опечатка в имени репозитория или провайдера в переменной. `403 … Drive API has not been used` — не включён Drive API (команда 1 выше). `File not found` — папка не предоставлена адресу сервисного аккаунта (шаг 2). Файл `film-analysis.md` ищется на Drive по имени внутри папки; если их там два или ни одного, робот его пропустит и скажет об этом в логе (ничего не создаёт).
+**Типичные ошибки.** `invalid_target` — в переменную вставлен пример из инструкции вместо реального значения: возьмите две строки из конца вывода блока команд (если вывод потерян — вставьте последние две команды `echo` блока ещё раз).  `unauthorized_client` / `attribute condition` — опечатка в имени репозитория или провайдера в переменной. `403 … Drive API has not been used` — не включён Drive API (команда 1 выше). `File not found` — папка не предоставлена адресу сервисного аккаунта (шаг 2). Файл `film-analysis.md` ищется на Drive по имени внутри папки; если их там два или ни одного, робот его пропустит и скажет об этом в логе (ничего не создаёт).
