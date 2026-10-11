@@ -7,7 +7,7 @@
 ## Жёсткие запреты
 - Ничего не одобрять, не перезапускать, не удалять и не закрывать сцены. Генерации не запускать. Кредиты Topview не тратить: только read-only инструменты `topview_list_boards`, `topview_list_board_tasks`, `topview_get_board_task`, `topview_get_credit`.
 - Время честное: `checked_at` — реальный момент окончания скана. Никогда не сдвигать вперёд.
-- Master — только same-ID запись на Drive через компьютер владельца, `J:\Мой диск\AI Film Prompts Master\video-prompts.md`: `device_commit_files` с `expectedMtimeMs`, затем read-back через Drive connector (`download_file_content`, ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`) и сравнение байтов. Никаких v2/copy.
+- Master — только правка `video-prompts.md` в GitHub `main` (канон с 11.10.2026), минимальный diff; Drive не трогать. Никаких v2/copy.
 - Один писатель: решает шаг 0 (`monitor-role.json` + коммиты другого монитора за 50 мин).
 - Не публиковать telemetry, которая расходится с master: validator требует `active Topview scenes == canonical slow`.
 
@@ -25,18 +25,15 @@
    - `unknown_new` — новые задачи. Сцену определить по совпадению промта с fresh master (нормализованное сравнение блока промта, модель, референсы). Совпадение однозначно — задача существующей сцены, тот же Scene ID. Сомнение — ничего не менять и написать владельцу (решение «неоднозначный task↔Scene» — за ним). **Совсем новый промт (новая сцена) — тоже только владельцу**: новый Scene ID монитор сам не заводит (решение 10.10).
    - Задачи не с доски AI Film в `active_tasks` не включать. Если такая задача активна и занимает слот, сообщить владельцу и не публиковать противоречивые счётчики.
 4. **Нужно ли менять master.** Slow-набор меняется, если сцена теряет последнюю активную задачу или получает первую.
-   - Fresh-read master через Drive connector (base64 → файл), убедиться, что SHA = `project-status.json.canonical_master_sha256` или новее. Если Drive новее зеркала — работать от Drive.
+   - **С 11.10.2026 канон master — GitHub `main`** (Drive — копия для чтения). Fresh-read: `git pull` и `video-prompts.md` из `main`; SHA должен совпадать с `project-status.json.canonical_master_sha256` (иначе подождать синхронизацию).
    - `python3 scripts/master_slow_edit.py <fresh> <new> --date DD.MM.YYYY --plan plan.json` (`add` / `finish`, формат в шапке скрипта).
    - Валидация: `python3 scripts/build_project_status.py <new> --output /tmp/ps.json --topview-status-file <будущий topview-status> ...` — нужен `health=ok`.
-   - Запись на Drive (см. запреты), ожидание синхронизации Drive (3–8 мин), read-back байт-в-байт. Компьютер недоступен — master не трогать, telemetry не публиковать, цикл = `degraded`.
+   - Запись: коммит `video-prompts.md` в `main` вместе с telemetry и `SYNC-TRIGGER.txt` (ожидаемый SHA), `git pull --rebase`, push; затем проверить, что `project-status.json` пересобран с `health=ok`. Компьютер и Drive для этого не нужны. Drive-копию обновляет обслуживание, не монитор.
 5. **Публикация.**
    - Собрать `cycle.json` (формат в шапке `scripts/monitor_publish.py`) и выполнить `python3 scripts/monitor_publish.py . cycle.json`. Порядок записи файлов — внутри скрипта, checkpoint последним.
    - Проверки: `python3 -m unittest tests/test_recovery_integration.py` и `python3 scripts/check_public_freshness.py --root .` (допустима только ошибка возраста сертификата 7/7, её чинит шаг 6).
    - Если master менялся — `SYNC-TRIGGER.txt` с ожидаемым SHA.
-6. **Сертификат 7/7** — если `instruction-sync-status.checked_at` старше 2 ч.
-   - Скачать 7 документов через Drive connector. ID: в `instruction-sync-status.json → files[].drive_file_id`.
-   - Убедиться, что зеркала совпадают побайтно.
-   - Обновить `checked_at` временем последнего скачивания, `all_match`, `health`. Логика — как в `cert.py` из истории Claude: обновлять только при полном совпадении 7/7. Расхождение — не чинить автоматически, а сообщить; канон правит только отдельный цикл по правилам.
+6. **Сертификат инструкций** (с 11.10.2026 канон — GitHub): если `instruction-sync-status.checked_at` старше 24 ч или инструкции менялись — `python3 scripts/cert_github.py .` (сверяет blob GitHub-файлов; Drive-копия справочно) и закоммитить вместе с циклом. Drive не скачивать.
 7. **Решения и задачи владельца с сайта** (Supabase `owner_decisions`, статусы `pending` / `in_progress`). Читать через Supabase `execute_sql` (service), владельцу не показывать чужих данных.
    - **Кнопки** (`accept`, `redo`, `to_montage`, `in_film`, `scene_not_needed`, `tv_drop_task`, `tv_mark_status`) — применить по таблице из handoff (верхний блок 10.10), поставить `applied` / `result_note`. Действия, требующие master (`in_film`, `scene_not_needed`, `tv_drop_task`), — по тому же циклу шага 4.
    - **`in_film` («🎞 В фильме»)** = сцена отработана, принята и уже вставлена в фильм:

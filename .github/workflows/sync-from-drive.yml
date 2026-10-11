@@ -28,31 +28,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download canonical master from Google Drive
+      - name: Canonical master from GitHub (owner decision 11.10.2026 03:25 MSK)
         shell: bash
         run: |
           set -euo pipefail
-          curl -L --fail --retry 3 --retry-delay 2 \
-            "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" \
-            -o /tmp/drive-video-prompts.md
-
+          # Since 11.10.2026 the editable canonical master and the 7 instructions live in
+          # GitHub main. Google Drive is a read-only copy refreshed periodically; it is
+          # never pulled over GitHub (see the drift guard step below).
+          cp video-prompts.md /tmp/drive-video-prompts.md
           test -s /tmp/drive-video-prompts.md
-
-          # Normalize an optional UTF-8 BOM before strict first-line validation.
-          # A raw Markdown file may still be valid with BOM, and this prevents an
-          # invisible encoding marker from breaking the '^#' guard.
-          python3 - <<'PY'
-          from pathlib import Path
-          p = Path("/tmp/drive-video-prompts.md")
-          data = p.read_bytes()
-          if data.startswith(b"\xef\xbb\xbf"):
-              p.write_bytes(data[3:])
-          PY
-
-          if grep -qi '<!doctype html\|accounts.google.com' /tmp/drive-video-prompts.md; then
-            echo "Refusing to use HTML/login response as video-prompts.md" >&2
-            exit 1
-          fi
           grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
           grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
@@ -104,23 +88,8 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
 
-            # Re-read Drive on EVERY retry. Never publish a stale /tmp snapshot
-            # after another writer has changed the canonical master.
-            curl -L --fail --retry 3 --retry-delay 2 \
-              "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" \
-              -o /tmp/drive-video-prompts.retry.md
-            test -s /tmp/drive-video-prompts.retry.md
-            python3 - <<'PY'
-          from pathlib import Path
-          src = Path("/tmp/drive-video-prompts.retry.md")
-          dst = Path("/tmp/drive-video-prompts.md")
-          data = src.read_bytes()
-          if data.startswith(b"\xef\xbb\xbf"):
-              data = data[3:]
-          if b"<!doctype html" in data.lower() or b"accounts.google.com" in data.lower():
-              raise SystemExit("Refusing HTML/login response during retry")
-          dst.write_bytes(data)
-          PY
+            # Canonical master = GitHub main (owner decision 11.10.2026); re-read the newest head on every retry.
+            cp video-prompts.md /tmp/drive-video-prompts.md
             grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
             grep -q 'Канонический источник' /tmp/drive-video-prompts.md
 
@@ -202,9 +171,9 @@ jobs:
             fi
 
             if [ "$DECISION" = "heartbeat" ]; then
-              git commit -m "Sync heartbeat: Drive master unchanged, verification time refreshed"
+              git commit -m "Sync heartbeat: GitHub master unchanged, verification time refreshed"
             else
-              git commit -m "Sync Drive master and generated project status"
+              git commit -m "Rebuild project status from canonical GitHub master"
             fi
             if git push origin HEAD:main; then
               exit 0
@@ -213,8 +182,47 @@ jobs:
             echo "Remote main advanced during sync; retrying from the newest head." >&2
           done
 
-          echo "Unable to publish Drive mirror after 4 retries." >&2
+          echo "Unable to publish project status after 4 retries." >&2
           exit 1
+
+      - name: Drive copy drift guard (Drive is read-only since 11.10.2026)
+        # If the Drive copy of the master holds content that never existed in GitHub,
+        # someone edited Drive directly. Never pull it over GitHub: open ONE issue
+        # 'drive-drift' so an agent ports the edit into GitHub; close it when resolved.
+        if: always()
+        continue-on-error: true
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          git fetch -q origin main && git reset -q --hard origin/main || exit 0
+          curl -sL --fail --retry 3 "https://drive.usercontent.google.com/download?id=1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj&export=download&confirm=t" -o /tmp/drive-copy.md || { echo "Drive copy unreachable; skip"; exit 0; }
+          if grep -qi '<!doctype html\|accounts.google.com' /tmp/drive-copy.md; then echo "Drive returned HTML; skip"; exit 0; fi
+          python3 - <<'PY' > /tmp/drift.txt
+          import hashlib, subprocess
+          drive = open("/tmp/drive-copy.md", "rb").read()
+          if drive.startswith(b"\xef\xbb\xbf"):
+              drive = drive[3:]
+          h = hashlib.sha256(drive).hexdigest()
+          revs = subprocess.run(["git", "log", "-n", "60", "--format=%H", "--", "video-prompts.md"], capture_output=True, text=True).stdout.split()
+          known = set()
+          for r in revs:
+              b = subprocess.run(["git", "show", f"{r}:video-prompts.md"], capture_output=True).stdout
+              known.add(hashlib.sha256(b).hexdigest())
+          print("drift" if h not in known else "ok", h[:16])
+          PY
+          read -r STATE HASH < /tmp/drift.txt
+          echo "Drive copy: $STATE $HASH"
+          OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=drive-drift&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
+          if [ "$STATE" = "drift" ] && [ -z "$OPEN" ]; then
+            gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=drive-drift -f color=fbca04 >/dev/null 2>&1 || true
+            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="Drive-копия master изменена вручную (sha ${HASH}) — перенести правку в GitHub" \
+              -f body="С 11.10.2026 главная копия master — GitHub main, Drive — только копия для чтения. На Drive обнаружено содержимое, которого не было в GitHub. GitHub НЕ перезаписан. Агент: сравнить Drive-копию с GitHub, перенести осмысленную правку в GitHub обычным каноническим циклом, затем обновить Drive-копию из GitHub." \
+              -f "labels[]=drive-drift" >/dev/null && echo "drift issue opened"
+          elif [ "$STATE" = "ok" ] && [ -n "$OPEN" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${OPEN}" -f state=closed >/dev/null && echo "drift issue closed"
+          fi
 
       - name: Alert when the unified monitor is silent for more than 3 hours
         # Owner decision D3 (10.10.2026). Opens ONE GitHub issue (repo notifications

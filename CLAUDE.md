@@ -4,6 +4,9 @@
 >
 > **NON-CANONICAL:** this file is not an eighth project instruction and is not a source of truth. The mandatory canonical takeover set remains exactly seven Google Drive documents. If this file conflicts with fresh canonical Drive sources or live status, the fresh canonical source wins.
 
+
+> **11.10.2026, 03:25 MSK — owner decision: the editable canon moved to GitHub.** `video-prompts.md` and the seven instructions are canonical in this repository (`main`). Google Drive keeps a read-only copy refreshed periodically — never edit or pull from it. Wherever this file says "Drive" for reading/writing canon, use GitHub `main`: edit = minimal commit → `SYNC-TRIGGER.txt` for master → validator `project-status.health=ok` → Pages → verification; after instruction edits run `python3 scripts/cert_github.py .`. See the top block of `NEW-CHAT-HANDOFF.md`.
+
 ## 1. Start every substantive project task with live takeover
 
 Do not assume repository files, old chat history, local copies, generated artifacts, or prior summaries are current.

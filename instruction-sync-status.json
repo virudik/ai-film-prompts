@@ -1,67 +1,74 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-10T22:54:03.970Z",
-  "verification_mode": "chatgpt_live_exact_drive_github_7file_text_and_sha256_for_changed",
-  "source_of_truth": "Google Drive canonical instruction files",
-  "freshness_max_hours": 3,
+  "checked_at": "2026-10-11T00:31:29.363Z",
+  "verification_mode": "github_canonical_blob_check",
+  "source_of_truth": "github",
+  "freshness_max_hours": 48,
   "health": "ok",
   "all_match": true,
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_modified_at": "2026-10-10T22:52:26.924Z",
-      "github_blob": "96c9e2acfa9de7392babdbc0255a12d8e14bc106",
-      "drive_sha256": "697e9d0916fd2cfe4f334be2ce59a8ef80edef34311ef9c1e4aa56a118b961dd",
-      "mirror_sha256": "697e9d0916fd2cfe4f334be2ce59a8ef80edef34311ef9c1e4aa56a118b961dd",
-      "match": true
+      "github_blob": "98e57267a515370078d6a9d53a9a5b1fd6a69f54",
+      "mirror_sha256": "98ef494fd8436595f686da57af089712271bf2839cd30888492d9c0ec2cf1dea",
+      "match": true,
+      "drive_copy_sha256": "697e9d0916fd2cfe4f334be2ce59a8ef80edef34311ef9c1e4aa56a118b961dd",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T22:52:26.924Z"
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_modified_at": "2026-10-10T21:30:38.537Z",
-      "github_blob": "d2181a229b6ba44f1ad0e85fb1b16b1b9aa1887c",
-      "drive_sha256": "503e76f7069c156e167d6f0df27274d3791deec74431c3ba3d1b76c271d5c99f",
-      "mirror_sha256": "503e76f7069c156e167d6f0df27274d3791deec74431c3ba3d1b76c271d5c99f",
-      "match": true
+      "github_blob": "b6e2432f4da5b78d11719287e538fe9fb0ecc83e",
+      "mirror_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
+      "match": true,
+      "drive_copy_sha256": "503e76f7069c156e167d6f0df27274d3791deec74431c3ba3d1b76c271d5c99f",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T21:30:38.537Z"
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_modified_at": "2026-10-10T22:52:17.269Z",
-      "github_blob": "164e258cfd162e38b193b96d23e1286f71132706",
-      "drive_sha256": "4526fb7368c0b04257306ae506ccb1a70b81bd91b7ef6b2ff69a77075fb53c63",
-      "mirror_sha256": "4526fb7368c0b04257306ae506ccb1a70b81bd91b7ef6b2ff69a77075fb53c63",
-      "match": true
+      "github_blob": "4e133e1b038b7c38df07e57061831df374711bf7",
+      "mirror_sha256": "b68f99bb1e0235bcec9b9dd640f0797821e943525734f774bb0d2ade4f13282e",
+      "match": true,
+      "drive_copy_sha256": "4526fb7368c0b04257306ae506ccb1a70b81bd91b7ef6b2ff69a77075fb53c63",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T22:52:17.269Z"
     },
     "PROMPT-STYLE-GUIDE.md": {
       "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-      "drive_modified_at": "2026-10-10T14:52:19.763Z",
-      "github_blob": "99f4eec44a545717132b1bf924ac50c4eb3c1a9d",
-      "drive_sha256": "aac8ddcd75a6bc25630c24804d30dbd7cbefa763cf11a332a1e7d5a7c860eca4",
-      "mirror_sha256": "aac8ddcd75a6bc25630c24804d30dbd7cbefa763cf11a332a1e7d5a7c860eca4",
-      "match": true
+      "github_blob": "a18b2fb158b8dcdde965170fa6ecaf9e5800358b",
+      "mirror_sha256": "b6a70e926a161fb20f920ce2642a00fcdc5f6b58fde7a730790e595a0ccaf7d5",
+      "match": true,
+      "drive_copy_sha256": "aac8ddcd75a6bc25630c24804d30dbd7cbefa763cf11a332a1e7d5a7c860eca4",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T14:52:19.763Z"
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_modified_at": "2026-10-10T22:21:34.861Z",
-      "github_blob": "118d3fca34546874ff22092e87a72d7c329511b8",
-      "drive_sha256": "0962f478aca8d540b8a75a39e0e4c7c53f5b3b7255e159d3d013f82e29bf60d0",
-      "mirror_sha256": "0962f478aca8d540b8a75a39e0e4c7c53f5b3b7255e159d3d013f82e29bf60d0",
-      "match": true
+      "github_blob": "0f074db857c62d8d5aa0505f0451def6566b07a3",
+      "mirror_sha256": "ceb7754a7393bef8b5d7e8905c5c40a82fe95911f369ef300a69727cf24ccfba",
+      "match": true,
+      "drive_copy_sha256": "0962f478aca8d540b8a75a39e0e4c7c53f5b3b7255e159d3d013f82e29bf60d0",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T22:21:34.861Z"
     },
     "README-AI-SYNC.md": {
       "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-      "drive_modified_at": "2026-10-10T17:25:32.631Z",
-      "github_blob": "a71960ec1a5573d73c0d87adb19782d6350ffd81",
-      "drive_sha256": "92348d0f49489db26290555bd402f6b225481d9aff6ce8743a326e0ce5d4decc",
-      "mirror_sha256": "92348d0f49489db26290555bd402f6b225481d9aff6ce8743a326e0ce5d4decc",
-      "match": true
+      "github_blob": "4fcce3262703db44ceeed4457ac12234bc038ff6",
+      "mirror_sha256": "ce203d54861821e631c6319ca48eb389fc9f0b7e13bc32c75bd8e6fafbcb72af",
+      "match": true,
+      "drive_copy_sha256": "92348d0f49489db26290555bd402f6b225481d9aff6ce8743a326e0ce5d4decc",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T17:25:32.631Z"
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_modified_at": "2026-10-10T21:31:05.425Z",
-      "github_blob": "40831c5919c71572fbe3dd06b23e765385bb257d",
-      "drive_sha256": "db47eadf2ec3686ae9e3f01ebc5a97fdde02680a177d5a347e62e8b5f5c8b164",
-      "mirror_sha256": "db47eadf2ec3686ae9e3f01ebc5a97fdde02680a177d5a347e62e8b5f5c8b164",
-      "match": true
+      "github_blob": "d83e4e51b20565297eb98916f3210f6acd955140",
+      "mirror_sha256": "6f24d9b7adacd6c03710ab70926027b76e61dbbe835a23f053347665961d4d9d",
+      "match": true,
+      "drive_copy_sha256": "db47eadf2ec3686ae9e3f01ebc5a97fdde02680a177d5a347e62e8b5f5c8b164",
+      "drive_copy_match": true,
+      "drive_copy_modified_at": "2026-10-10T21:31:05.425Z"
     }
   },
   "semantic_check": {
@@ -80,7 +87,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
   },
-  "note": "11.10.2026: Owner future roadmap recorded in SAME Drive AI-PROJECT-GUIDE.md and NEW-CHAT-HANDOFF.md: three outcomes in two architecture programs (context continuity/reduced takeover & Claude verification cost; separate three-key GitHub autonomy). No process rollout and no bootstrap reduction. Fresh 7/7 exact Drive↔GitHub content confirmed. Prior semantic audit retained; this edit does not claim a new full cross-document semantic audit.",
+  "note": "С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",

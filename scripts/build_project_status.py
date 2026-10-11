@@ -350,9 +350,20 @@ def build_instruction_sync(
                 if not isinstance(external_files, dict):
                     external_files = {}
 
+                github_canonical = external.get("source_of_truth") == "github"
+
                 def external_file_match(name, info):
                     if not isinstance(info, dict) or info.get("match") is not True:
                         return False
+                    if github_canonical:
+                        # Since 11.10.2026 GitHub main is canonical; the Drive copy may lag and
+                        # is informational only. Integrity = certificate blob == repo file.
+                        github_blob = info.get("github_blob")
+                        candidate = Path.cwd() / name
+                        if not (isinstance(github_blob, str) and re.fullmatch(r"[0-9a-f]{40}", github_blob) and candidate.is_file()):
+                            return False
+                        data = candidate.read_bytes()
+                        return github_blob == hashlib.sha1(f"blob {len(data)}\0".encode("ascii") + data).hexdigest()
                     drive_hash = info.get("drive_sha256")
                     mirror_hash = info.get("mirror_sha256")
                     if drive_hash is not None or mirror_hash is not None:
@@ -406,7 +417,7 @@ def build_instruction_sync(
                 return {
                     "health": health,
                     "snapshot_at": checked_at,
-                    "source_of_truth": "Google Drive canonical instruction files",
+                    "source_of_truth": ("GitHub main canonical instruction files (Drive = read-only copy)" if github_canonical else "Google Drive canonical instruction files"),
                     "verification_mode": external.get(
                         "verification_mode",
                         "authorized_external_instruction_check",
@@ -750,7 +761,7 @@ def parse_master(
         "schema_version": 3,
         "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
         "instruction_source_of_truth": "Google Drive canonical instruction files",
-        "automation": "Drive master -> validation -> GitHub mirror/status -> Pages; authorized connector verifies private instruction mirrors into instruction-sync-status.json",
+        "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
         "synced_at": synced_at,
         "revision_date": revision_date,
         "master_declared_last_full_sync": master_declared_sync,
