@@ -110,7 +110,7 @@ class SyncTests(Base):
         self.assertEqual(sorted(p.name for p in copy_dir.iterdir()), sorted(dw.INSTRUCTIONS))
         self.assertEqual((copy_dir / "SYNC-RUNBOOK.md").read_bytes(), self.new["SYNC-RUNBOOK.md"])
         self.assertEqual(len(drive.writes), len(dw.COPY_FILES))
-        self.assertIn(self.ids["film-analysis.md"], drive.writes)        # resolved by name, then same-ID update
+        self.assertIn(self.ids["film-analysis.md"], drive.writes)        # resolved by name, then updated in place
 
     def test_equal_sha_means_no_write(self):
         for n in dw.COPY_FILES:

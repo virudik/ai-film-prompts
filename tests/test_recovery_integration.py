@@ -262,24 +262,21 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertIn("✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ", html)
         self.assertIn("Проверка Topview устарела", html)
 
-    def test_unified_monitor_configuration_agrees_across_runtime_records(self):
-        # Offline contract only: live scheduler state is verified separately via peek.
-        # Retired tasks must not be restored by the former two-automation watchdog rule.
+    def test_monitor_configuration_agrees_across_runtime_records(self):
+        # Offline contract only: live scheduler state is verified separately.
+        # Retired tasks must never be restored; roles come from monitor-role.json.
         state = json.loads((ROOT / "automation-monitor-status.json").read_text(encoding="utf-8"))
-        certificate = json.loads(INSTR.read_text(encoding="utf-8"))
-        schedule = certificate["automation_schedule"]
+        role = json.loads((ROOT / "monitor-role.json").read_text(encoding="utf-8"))
         primary = state["automation"]
         retired = state["retired_automations"]
-        self.assertEqual(schedule["active_project_automation_count"], 1)
-        self.assertEqual(schedule["active_automation_id"], primary["id"])
-        self.assertEqual(schedule["schedule"], primary["schedule"])
+        self.assertEqual(role["monitors"]["claude"]["id"], primary["id"])
         self.assertEqual(primary["timing_mode"], "exact_schedule")
-        self.assertEqual(primary["timezone"], schedule["timezone"])
-        self.assertEqual(set(schedule["retired_automation_ids"]), {item["id"] for item in retired})
         self.assertNotIn(primary["id"], {item["id"] for item in retired})
         self.assertFalse(any(item["is_enabled"] for item in retired))
-        self.assertFalse(certificate["recovery_sync"]["separately_scheduled"])
-
+        self.assertTrue(role["migration_state"]["legacy_chatgpt_monitor_disabled"])
+        self.assertNotEqual(role["monitors"]["chatgpt"]["id"], role["monitors"]["claude"]["id"])
+        self.assertIn(role["primary"], ("claude", "chatgpt"))
+        self.assertNotEqual(role["primary"], role["standby"])
 
 if __name__ == "__main__":
     unittest.main()

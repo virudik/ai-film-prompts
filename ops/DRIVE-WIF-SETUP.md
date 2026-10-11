@@ -68,7 +68,7 @@ https://github.com/virudik/ai-film-prompts/settings/variables/actions → **New 
 
 ## 4. Проверка
 
-1. https://github.com/virudik/ai-film-prompts/actions/workflows/drive-write.yml → **Run workflow** → `action = probe` (только чтение, ничего не пишет). В логе по каждому файлу: `current` (уже совпадает), `would_write` (копия отстала, будет обновлена), `drift` (на Drive правили вручную — не затрём).
+1. https://github.com/virudik/ai-film-prompts/actions/workflows/drive-copy.yml → **Run workflow** → `action = probe` (только чтение, ничего не пишет). В логе по каждому файлу: `current` (уже совпадает), `would_write` (копия отстала, будет обновлена), `drift` (на Drive правили вручную — не затрём).
 2. Если проба зелёная — снова **Run workflow** с `action = sync`: файлы обновятся, робот перечитает их и сверит sha256, затем обновит `instruction-sync-status.json` (`scripts/cert_github.py . --drive-copy-dir …`).
 3. Напишите мне «Drive готов» — дальше обновление идёт само раз в сутки.
 
