@@ -199,23 +199,20 @@ class EvaluateTests(unittest.TestCase):
     def test_drop_task_updates_master_map_snapshot_and_checkpoint(self):
         groups, files = self.plan([fx.row("d", 30, "tv_drop_task", task_id=fx.ACTIVE_TASK)])
         self.assertEqual(groups[0].verdict, "apply", groups[0].reason)
-        self.assertEqual(set(files), {"video-prompts.md", "topview-task-map.json", "topview-status.json",
-                                      "topview-checkpoint.json", "topview-operation-journal.json"})
+        self.assertEqual(set(files), {"video-prompts.md", "topview-task-map.json", "topview-operation-journal.json"})
         master = files["video-prompts.md"]
         self.assertNotIn("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**", master)
         self.assertIn("abandoned_by_owner", master)
         tm = json.loads(files["topview-task-map.json"])
-        self.assertEqual(tm["active_by_scene"], {})
-        self.assertEqual(tm["processed_tasks"][-1]["final_status"], "abandoned_by_owner")
+        self.assertEqual(tm["active_by_scene"], {"30": [fx.ACTIVE_TASK]})
+        self.assertIn(fx.ACTIVE_TASK, tm["owner_released_task_ids"])
         self.assertEqual(tm["last_scan_at"], fx.T0)                       # nothing was scanned
-        status = json.loads(files["topview-status.json"])
-        self.assertEqual((status["occupied_slots"], status["free_slots"], status["active_tasks"]), (0, 6, []))
-        self.assertEqual(status["checked_at"], fx.T0)
-        self.assertEqual(json.loads(files["topview-checkpoint.json"])["active_task_ids"], [])
+        self.assertNotIn("topview-status.json", files)  # technical snapshot unchanged
+        self.assertNotIn("topview-checkpoint.json", files)  # stable checkpoint unchanged
 
     def test_drop_task_edge_cases(self):
         groups, _ = self.plan([fx.row("d", 30, "tv_drop_task", task_id=fx.OLD_TASK)])
-        self.assertEqual(groups[0].verdict, "noop")                       # already processed
+        self.assertEqual(groups[0].verdict, "needs_owner")                # processed task has no matching owner-slow row in fixture
         groups, files = self.plan([fx.row("d", 30, "tv_drop_task", task_id="c" * 32)])
         self.assertEqual((groups[0].verdict, files), ("needs_owner", {}))  # unknown task
         groups, files = self.plan([fx.row("d", 13, "tv_drop_task", task_id=fx.ACTIVE_TASK)])
@@ -291,8 +288,8 @@ class EndToEndTests(unittest.TestCase):
         status = json.loads(self.origin_file("project-status.json"))
         self.assertEqual((status["health"], status["slow_scenes"]), ("ok", []))
         self.assertTrue(status["checks"]["topview_active_scene_ids_exist_in_master"])
-        self.assertEqual(json.loads(self.origin_file("topview-status.json"))["occupied_slots"], 0)
-        self.assertIn("abandoned_by_owner", self.origin_file("topview-task-map.json"))
+        self.assertEqual(json.loads(self.origin_file("topview-status.json"))["occupied_slots"], 1)  # provider task still active
+        self.assertIn("owner_released_task_ids", self.origin_file("topview-task-map.json"))
         self.assertIn("только снимает ожидание", self.origin_file("video-prompts.md"))
 
     def test_active_task_and_conflicts_touch_nothing_but_supabase_status(self):
