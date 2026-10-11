@@ -14,7 +14,7 @@ from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-import drive_write as dw  # noqa: E402
+import drive_copy as dw  # noqa: E402
 
 FOLDER = dw.ALLOWED_PARENT
 
@@ -165,7 +165,7 @@ class ModeTests(Base):
         try:
             buf = io.StringIO()
             with patch.dict(os.environ, env, clear=False), contextlib.redirect_stdout(buf):
-                rc = dw.main(["drive_write.py", *args])
+                rc = dw.main(["drive_copy.py", *args])
             return rc, buf.getvalue()
         finally:
             os.chdir(cwd)
@@ -176,19 +176,15 @@ class ModeTests(Base):
             rc, out = self.run_main([mode], env)
             self.assertEqual(rc, 0)
             self.assertIn("not_configured", out)
-        self.assertFalse((self.repo / "drive-write-results").exists())
-        (self.repo / "drive-write-requests").mkdir()
-        (self.repo / "drive-write-requests" / "r.json").write_text("{}")
-        rc, out = self.run_main(["requests"], env)
-        self.assertEqual(rc, 0)
-        self.assertIn("not_configured", out)
-        self.assertTrue((self.repo / "drive-write-requests" / "r.json").exists())     # untouched
+        self.assertFalse((self.repo / "drive-copy-results").exists())
+        rc, out = self.run_main(["requests"], env)      # the retired request mode no longer exists
+        self.assertEqual(rc, 2)
 
     def test_no_key_file_path_remains(self):
-        src = (ROOT / "scripts" / "drive_write.py").read_text(encoding="utf-8")
+        src = (ROOT / "scripts" / "drive_copy.py").read_text(encoding="utf-8")
         self.assertNotIn("GDRIVE_SA_KEY", src)
         self.assertNotIn("service_account.Credentials", src)
-        wf = (ROOT / ".github" / "workflows" / "drive-write.yml").read_text(encoding="utf-8")
+        wf = (ROOT / ".github" / "workflows" / "drive-copy.yml").read_text(encoding="utf-8")
         self.assertNotIn("GDRIVE_SA_KEY", wf)
         self.assertIn("google-github-actions/auth@v2", wf)
         self.assertIn("id-token: write", wf)
@@ -200,7 +196,7 @@ class ModeTests(Base):
         with patch.object(dw, "session", return_value=drive):
             rc, out = self.run_main(["sync"], {"DRIVE_COPY_DIR": str(copy_dir)})
         self.assertEqual(rc, 0, out)
-        summary = json.loads((self.repo / "drive-write-results" / "copy-sync.json").read_text(encoding="utf-8"))
+        summary = json.loads((self.repo / "drive-copy-results" / "copy-sync.json").read_text(encoding="utf-8"))
         self.assertEqual(summary["summary"], {"written": len(dw.COPY_FILES)})
         # the instruction certificate accepts the verified copies (drive_copy_match true)
         shutil.copy(ROOT / "scripts" / "cert_github.py", self.repo / "cert_github.py")

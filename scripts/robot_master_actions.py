@@ -342,7 +342,7 @@ class Git:
 
 
 def build_status(root, master_path, out_path, synced_at):
-    """Same validator invocation as sync-from-drive.yml. Returns (status|None, failed_checks)."""
+    """Same validator invocation as sync-master.yml. Returns (status|None, failed_checks)."""
     root = Path(root)
     out = Path(out_path)
     out.unlink(missing_ok=True)

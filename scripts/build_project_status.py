@@ -313,171 +313,105 @@ def parse_iso_datetime(value):
 
 
 def build_instruction_sync(
-    instruction_dir,
-    repo_root,
     snapshot_at,
     status_file=None,
     synced_at=None,
 ):
+    """Project the instruction certificate (instruction-sync-status.json) into project-status.json.
+
+    Canon = GitHub main: the certificate is valid when `match` is true and the recorded git blob of
+    every one of the 7 instruction files equals the blob of the file in the checkout. The Drive
+    backup copy (drive_copy_* fields) is informational only.
+    """
     files = {}
-    all_match = True
-    complete = bool(instruction_dir and repo_root)
 
-    if not complete:
-        status_path = Path(status_file) if status_file else None
-        if status_path and status_path.is_file():
+    status_path = Path(status_file) if status_file else None
+    if status_path and status_path.is_file():
+        try:
+            external = json.loads(status_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            external = None
+
+        if isinstance(external, dict):
+            checked_at = external.get("checked_at")
+            max_hours = external.get("freshness_max_hours", 3)
             try:
-                external = json.loads(status_path.read_text(encoding="utf-8"))
-            except (json.JSONDecodeError, OSError):
-                external = None
+                max_hours = float(max_hours)
+            except (TypeError, ValueError):
+                max_hours = 3.0
 
-            if isinstance(external, dict):
-                checked_at = external.get("checked_at")
-                max_hours = external.get("freshness_max_hours", 3)
-                try:
-                    max_hours = float(max_hours)
-                except (TypeError, ValueError):
-                    max_hours = 3.0
+            checked_dt = parse_iso_datetime(checked_at)
+            sync_dt = parse_iso_datetime(synced_at)
+            age_hours = None
+            timestamp_valid = checked_dt is not None and sync_dt is not None
+            if timestamp_valid:
+                age_hours = (sync_dt - checked_dt).total_seconds() / 3600.0
 
-                checked_dt = parse_iso_datetime(checked_at)
-                sync_dt = parse_iso_datetime(synced_at)
-                age_hours = None
-                timestamp_valid = checked_dt is not None and sync_dt is not None
-                if timestamp_valid:
-                    age_hours = (sync_dt - checked_dt).total_seconds() / 3600.0
+            external_files = external.get("files")
+            if not isinstance(external_files, dict):
+                external_files = {}
 
-                external_files = external.get("files")
-                if not isinstance(external_files, dict):
-                    external_files = {}
+            def external_file_match(name, info):
+                if not isinstance(info, dict) or info.get("match") is not True:
+                    return False
+                # Integrity = certificate blob == the instruction file in the checkout.
+                github_blob = info.get("github_blob")
+                candidate = Path.cwd() / name
+                if not (isinstance(github_blob, str) and re.fullmatch(r"[0-9a-f]{40}", github_blob) and candidate.is_file()):
+                    return False
+                data = candidate.read_bytes()
+                return github_blob == hashlib.sha1(f"blob {len(data)}\0".encode("ascii") + data).hexdigest()
 
-                github_canonical = external.get("source_of_truth") == "github"
+            all_match = bool(external.get("all_match")) and all(
+                external_file_match(name, external_files.get(name))
+                for name in INSTRUCTION_FILES
+            )
 
-                def external_file_match(name, info):
-                    if not isinstance(info, dict) or info.get("match") is not True:
-                        return False
-                    if github_canonical:
-                        # Since 11.10.2026 GitHub main is canonical; the Drive copy may lag and
-                        # is informational only. Integrity = certificate blob == repo file.
-                        github_blob = info.get("github_blob")
-                        candidate = Path.cwd() / name
-                        if not (isinstance(github_blob, str) and re.fullmatch(r"[0-9a-f]{40}", github_blob) and candidate.is_file()):
-                            return False
-                        data = candidate.read_bytes()
-                        return github_blob == hashlib.sha1(f"blob {len(data)}\0".encode("ascii") + data).hexdigest()
-                    drive_hash = info.get("drive_sha256")
-                    mirror_hash = info.get("mirror_sha256")
-                    if drive_hash is not None or mirror_hash is not None:
-                        valid = re.compile(r"^[0-9a-f]{64}$")
-                        if not (
-                            isinstance(drive_hash, str)
-                            and isinstance(mirror_hash, str)
-                            and bool(valid.fullmatch(drive_hash))
-                            and bool(valid.fullmatch(mirror_hash))
-                            and drive_hash == mirror_hash
-                        ):
-                            return False
-                    github_blob = info.get("github_blob")
-                    if github_blob is not None:
-                        if not isinstance(github_blob, str) or not re.fullmatch(r"[0-9a-f]{40}", github_blob):
-                            return False
-                        candidate = Path.cwd() / name
-                        if not candidate.is_file():
-                            return False
-                        data = candidate.read_bytes()
-                        actual_blob = hashlib.sha1(
-                            f"blob {len(data)}\0".encode("ascii") + data
-                        ).hexdigest()
-                        if github_blob != actual_blob:
-                            return False
-                    return True
+            raw_health = external.get("health")
+            # Fail closed on missing/invalid/future certificate timestamps.
+            fresh = (
+                timestamp_valid
+                and age_hours is not None
+                and 0.0 <= age_hours <= max_hours
+            )
 
-                all_match = bool(external.get("all_match")) and all(
-                    external_file_match(name, external_files.get(name))
-                    for name in INSTRUCTION_FILES
-                )
+            if raw_health == "ok" and all_match and fresh:
+                health = "ok"
+                instruction_match = True
+            elif raw_health == "ok" and all_match and not fresh:
+                health = "stale"
+                instruction_match = None
+            else:
+                health = "error"
+                instruction_match = False
 
-                raw_health = external.get("health")
-                # Fail closed on missing/invalid/future certificate timestamps.
-                fresh = (
-                    timestamp_valid
-                    and age_hours is not None
-                    and 0.0 <= age_hours <= max_hours
-                )
-
-                if raw_health == "ok" and all_match and fresh:
-                    health = "ok"
-                    instruction_match = True
-                elif raw_health == "ok" and all_match and not fresh:
-                    health = "stale"
-                    instruction_match = None
-                else:
-                    health = "error"
-                    instruction_match = False
-
-                return {
-                    "health": health,
-                    "snapshot_at": checked_at,
-                    "source_of_truth": ("GitHub main canonical instruction files (Drive = read-only copy)" if github_canonical else "Google Drive canonical instruction files"),
-                    "verification_mode": external.get(
-                        "verification_mode",
-                        "authorized_external_instruction_check",
-                    ),
-                    "freshness_max_hours": max_hours,
-                    "age_hours_at_status_build": (
-                        round(age_hours, 3) if age_hours is not None else None
-                    ),
-                    "files": external_files,
-                }, instruction_match
-
-        return {
-            "health": "unverified",
-            "snapshot_at": snapshot_at,
-            "source_of_truth": "Google Drive canonical instruction files",
-            "verification_mode": "authorized_instruction_check_not_available",
-            "files": files,
-        }, None
-
-    instruction_dir = Path(instruction_dir)
-    repo_root = Path(repo_root)
-
-    for name in INSTRUCTION_FILES:
-        drive_path = instruction_dir / name
-        mirror_path = repo_root / name
-        if not drive_path.is_file() or not mirror_path.is_file():
-            all_match = False
-            files[name] = {
-                "drive_sha256": None,
-                "mirror_sha256": None,
-                "match": False,
-            }
-            continue
-
-        drive_bytes = drive_path.read_bytes()
-        mirror_bytes = mirror_path.read_bytes()
-        drive_sha = sha256_bytes(drive_bytes)
-        mirror_sha = sha256_bytes(mirror_bytes)
-        match = drive_bytes == mirror_bytes
-        all_match &= match
-        files[name] = {
-            "drive_sha256": drive_sha,
-            "mirror_sha256": mirror_sha,
-            "match": match,
-            "bytes": len(drive_bytes),
-        }
+            return {
+                "health": health,
+                "snapshot_at": checked_at,
+                "source_of_truth": "GitHub main canonical instruction files (Drive = read-only backup copy)",
+                "verification_mode": external.get(
+                    "verification_mode",
+                    "authorized_external_instruction_check",
+                ),
+                "freshness_max_hours": max_hours,
+                "age_hours_at_status_build": (
+                    round(age_hours, 3) if age_hours is not None else None
+                ),
+                "files": external_files,
+            }, instruction_match
 
     return {
-        "health": "ok" if all_match else "error",
+        "health": "unverified",
         "snapshot_at": snapshot_at,
-        "source_of_truth": "Google Drive canonical instruction files",
+        "source_of_truth": "GitHub main canonical instruction files (Drive = read-only backup copy)",
+        "verification_mode": "instruction_certificate_not_available",
         "files": files,
-    }, all_match
+    }, None
 
 
 def parse_master(
     path: Path,
     synced_at: str | None = None,
-    instruction_dir: Path | None = None,
-    repo_root: Path | None = None,
     instruction_snapshot_at: str | None = None,
     instruction_status_file: Path | None = None,
     topview_status_file: Path | None = None,
@@ -587,8 +521,6 @@ def parse_master(
     )
 
     instruction_sync, instruction_match = build_instruction_sync(
-        instruction_dir,
-        repo_root,
         instruction_snapshot_at,
         instruction_status_file,
         synced_at,
@@ -621,11 +553,11 @@ def parse_master(
         **scene_meta_checks,
     }
     if instruction_match is not None:
-        checks["instruction_mirrors_match_drive"] = instruction_match
+        checks["instruction_files_match_certificate"] = instruction_match
     # Topview has two layers with different failure semantics:
     #   1) topview-status.json = public/runtime snapshot used by Control Center;
     #   2) topview-task-map.json = operational dedupe/cache used by the watcher.
-    # A transient cache mismatch must never turn a healthy Drive/master sync red.
+    # A transient cache mismatch must never turn a healthy master sync red.
     # Only self-contained snapshot invariants and canonical slow membership are blocking.
     topview_maintenance = {
         "state": "unverified",
@@ -805,8 +737,6 @@ def main():
     ap.add_argument("master", nargs="?", default="video-prompts.md")
     ap.add_argument("--output", default="project-status.json")
     ap.add_argument("--synced-at")
-    ap.add_argument("--instruction-dir")
-    ap.add_argument("--repo-root")
     ap.add_argument("--instruction-snapshot-at")
     ap.add_argument("--instruction-status-file", default="instruction-sync-status.json")
     ap.add_argument("--topview-status-file")
@@ -820,8 +750,6 @@ def main():
     status = parse_master(
         Path(args.master),
         args.synced_at,
-        Path(args.instruction_dir) if args.instruction_dir else None,
-        Path(args.repo_root) if args.repo_root else None,
         args.instruction_snapshot_at,
         Path(args.instruction_status_file) if args.instruction_status_file else None,
         Path(args.topview_status_file) if args.topview_status_file else None,

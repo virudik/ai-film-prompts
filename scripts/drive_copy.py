@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Google Drive copy writer for AI Film (GitHub Actions, no owner computer, NO key file).
+"""Google Drive backup-copy refresher for AI Film (GitHub Actions, no owner computer, NO key file).
 
 Since 11.10.2026 the canon is GitHub `main`; Drive «AI Film Prompts Master» holds read-only COPIES.
 This script refreshes those copies from `main` — it never writes canon to Drive and never creates,
@@ -8,7 +8,7 @@ Identity Federation, GitHub OIDC → service account `ai-film-writer`) exports
 GOOGLE_APPLICATION_CREDENTIALS; no JSON key exists anywhere (org policy forbids it).
 Without those credentials every mode is a clean no-op reporting `not_configured`.
 
-usage: drive_write.py [sync|probe|requests]          (default: sync)
+usage: drive_copy.py [sync|probe]          (default: sync)
 
 sync / probe  — daily: for video-prompts.md, the 7 instructions, film-backlog.md, film-analysis.md
   1. resolve the file (known Drive ID; film-analysis.md by exact name inside the folder, exactly one hit)
@@ -17,13 +17,12 @@ sync / probe  — daily: for video-prompts.md, the 7 instructions, film-backlog.
   3. otherwise the Drive bytes must equal ONE OF THE PAST VERSIONS of that file in git (the copy is just
      stale). Anything else was edited by hand on Drive → `drift`: NOT overwritten; the workflow opens
      the issue `drive-drift` so an agent ports the edit into `main`;
-  4. write the exact bytes of `main` to the SAME file ID (files.update), read back and require equal
+  4. write the exact bytes of `main` into the existing copy (files.update; the Drive file ID never changes), read back and require equal
      sha256 → `written`; otherwise `error`.
   `probe` does everything except the write (status `would_write`).
   Afterwards the workflow runs `scripts/cert_github.py . --drive-copy-dir <copies>`.
-requests      — legacy request files drive-write-requests/*.json (base_sha256 guarded same-ID writes).
 
-Result summary: drive-write-results/copy-sync.json (+ copies directory given by DRIVE_COPY_DIR).
+Result summary: drive-copy-results/copy-sync.json (+ copies directory given by DRIVE_COPY_DIR).
 """
 import hashlib
 import json
@@ -34,8 +33,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-REQ = Path("drive-write-requests")
-RES = Path("drive-write-results")
+RES = Path("drive-copy-results")
 ALLOWED_PARENT = "1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6"  # AI Film Prompts Master
 HISTORY_DEPTH = 400
 INSTRUCTIONS = ["NEW-CHAT-HANDOFF.md", "SYNC-RUNBOOK.md", "AI-PROJECT-GUIDE.md", "PROMPT-STYLE-GUIDE.md",
@@ -202,73 +200,11 @@ def run_sync(dry_run):
     return 1 if out["summary"].get("error") or out["summary"].get("rejected") else 0
 
 
-# --------------------------------------------------------------------------- legacy request files
-def process(s, req_path):
-    req = json.loads(req_path.read_text(encoding="utf-8"))
-    out = {"request": req_path.name, "file_id": req.get("file_id"), "name": req.get("name"),
-           "requested_by": req.get("requested_by"), "reason": req.get("reason"), "processed_at": now()}
-    payload = Path(req["payload"]).read_bytes()
-    if sha(payload) != req["result_sha256"]:
-        return dict(out, status="rejected", detail="payload sha256 != result_sha256")
-    m = meta(s, req["file_id"])
-    if m.get("name") != req.get("name") or ALLOWED_PARENT not in (m.get("parents") or []):
-        return dict(out, status="rejected", detail=f"file name/folder mismatch: {m.get('name')} {m.get('parents')}")
-    current = download(s, req["file_id"])
-    out["drive_before"] = {"sha256": sha(current), "size": len(current), "modifiedTime": m.get("modifiedTime")}
-    if sha(current) == req["result_sha256"]:
-        return dict(out, status="applied", detail="Drive already has exactly these bytes (idempotent)")
-    if sha(current) != req["base_sha256"]:
-        return dict(out, status="rejected", detail="Drive changed since the edit was prepared (base_sha256 mismatch); prepare the edit again from fresh Drive")
-    up = upload(s, req["file_id"], payload, m.get("mimeType") or "text/markdown")
-    for attempt in range(5):
-        back = download(s, req["file_id"])
-        if sha(back) == req["result_sha256"]:
-            break
-        time.sleep(3)
-    ok = sha(back) == req["result_sha256"]
-    return dict(out, status="applied" if ok else "error", drive_after={"sha256": sha(back), "size": len(back), "modifiedTime": up.get("modifiedTime")},
-                detail="same-ID write + byte-exact read-back" if ok else "read-back mismatch after upload")
-
-
-def run_requests():
-    reqs = sorted(REQ.glob("*.json")) if REQ.exists() else []
-    if not reqs:
-        print(json.dumps({"status": "nothing_to_do"}))
-        return 0
-    s = session()
-    if s is None:
-        print(json.dumps({"status": "not_configured", "detail": "no Google credentials; requests left untouched", "pending": [p.name for p in reqs]}))
-        return 0
-    RES.mkdir(exist_ok=True)
-    sync = False
-    failed = False
-    for p in reqs:
-        try:
-            r = process(s, p)
-        except Exception as e:  # network/auth errors: keep the request for a retry
-            print(json.dumps({"request": p.name, "status": "retry_later", "error": f"{type(e).__name__}: {e}"[:500]}))
-            failed = True
-            continue
-        (RES / p.name).write_text(json.dumps(r, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(json.dumps(r, ensure_ascii=False))
-        req = json.loads(p.read_text(encoding="utf-8"))
-        if r["status"] == "applied" and req.get("sync_trigger"):
-            sync = True
-        Path(req["payload"]).unlink(missing_ok=True)
-        p.unlink()
-        failed |= r["status"] == "error"
-    if sync:
-        Path("SYNC-TRIGGER.txt").write_text(f"{now()} drive-write workflow: same-ID Drive write applied; re-sync master.\n", encoding="utf-8")
-    return 1 if failed else 0
-
-
 def main(argv):
     mode = argv[1] if len(argv) > 1 else "sync"
-    if mode == "requests":
-        return run_requests()
     if mode in ("sync", "probe"):
         return run_sync(dry_run=(mode == "probe"))
-    print("usage: drive_write.py [sync|probe|requests]", file=sys.stderr)
+    print("usage: drive_copy.py [sync|probe]", file=sys.stderr)
     return 2
 
 

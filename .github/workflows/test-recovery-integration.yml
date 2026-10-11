@@ -10,7 +10,7 @@ on:
       - 'tests/test_topview_light_check.py'
       - 'scripts/topview_light_check.py'
       - 'scripts/topview_api_scan.py'
-      - 'scripts/drive_write.py'
+      - 'scripts/drive_copy.py'
       - 'tests/test_drive_copy.py'
       - 'tests/test_topview_api_scan.py'
       - 'scripts/monitor_publish.py'

@@ -8,7 +8,7 @@ name: Shadow pilot takeover brief (not canonical)
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['Sync canonical master from Google Drive']
+    workflows: ['Sync canonical master from GitHub']
     types: [completed]
   push:
     branches: [main]

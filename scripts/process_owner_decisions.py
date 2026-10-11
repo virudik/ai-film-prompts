@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Apply only deterministic owner button decisions from Supabase to review-ledger.json.
 
-Used by the EXISTING scheduled sync-from-drive.yml. Never edits Google Drive,
+Used by the scheduled sync-master.yml. Never edits Google Drive,
 retires a scene, starts a render, or infers editorial approval. Supabase's
 service-role key must live ONLY in GitHub Actions Secrets, never in Pages.
 Two-phase operation: prepare -> validated GitHub push -> ack. A claimed

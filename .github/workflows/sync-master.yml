@@ -1,4 +1,4 @@
-name: Sync canonical master from Google Drive
+name: Sync canonical master from GitHub
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths:
       - 'SYNC-TRIGGER.txt'
-      - '.github/workflows/sync-from-drive.yml'
+      - '.github/workflows/sync-master.yml'
       - 'scripts/build_project_status.py'
       - 'instruction-sync-status.json'
 
@@ -17,7 +17,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: drive-sync
+  group: master-sync
   cancel-in-progress: false
 
 jobs:
@@ -32,13 +32,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # Since 11.10.2026 the editable canonical master and the 7 instructions live in
-          # GitHub main. Google Drive is a read-only copy refreshed periodically; it is
+          # Since 11.10.2026 the canonical master and the 7 instructions live in GitHub main.
+          # Google Drive holds a read-only backup copy refreshed periodically; it is
           # never pulled over GitHub (see the drift guard step below).
-          cp video-prompts.md /tmp/drive-video-prompts.md
-          test -s /tmp/drive-video-prompts.md
-          grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
-          grep -q 'Канонический источник' /tmp/drive-video-prompts.md
+          cp video-prompts.md /tmp/master-video-prompts.md
+          test -s /tmp/master-video-prompts.md
+          grep -q '^# Актуальные видео-сцены и промты' /tmp/master-video-prompts.md
+          grep -q 'Канонический источник' /tmp/master-video-prompts.md
 
       - name: Validate master and generate deterministic project status
         shell: bash
@@ -47,10 +47,10 @@ jobs:
           SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           rm -f /tmp/project-status.json
           set +e
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
+          python3 scripts/build_project_status.py /tmp/master-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
           VALIDATOR_RC=$?
           set -e
-          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
+          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/master-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
           import hashlib, json, os
           from pathlib import Path
           status_path = Path(os.environ["STATUS_PATH"])
@@ -73,7 +73,7 @@ jobs:
             echo "Validator reported non-green health; publishing the verified fresh error status."
           fi
 
-      - name: Repair mirrors only when needed
+      - name: Publish project status (rebuild on the newest head, retry on concurrent writers)
         shell: bash
         run: |
           set -euo pipefail
@@ -89,17 +89,17 @@ jobs:
             git reset --hard origin/main
 
             # Canonical master = GitHub main (owner decision 11.10.2026); re-read the newest head on every retry.
-            cp video-prompts.md /tmp/drive-video-prompts.md
-            grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
-            grep -q 'Канонический источник' /tmp/drive-video-prompts.md
+            cp video-prompts.md /tmp/master-video-prompts.md
+            grep -q '^# Актуальные видео-сцены и промты' /tmp/master-video-prompts.md
+            grep -q 'Канонический источник' /tmp/master-video-prompts.md
 
             SYNCED_AT="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
             rm -f /tmp/project-status.json
           set +e
-          python3 scripts/build_project_status.py /tmp/drive-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
+          python3 scripts/build_project_status.py /tmp/master-video-prompts.md --output /tmp/project-status.json --synced-at "$SYNCED_AT" --topview-status-file topview-status.json --topview-task-map-file topview-task-map.json --previous-status-file project-status.json --previous-master-file video-prompts.md --revision-timezone Europe/Moscow
           VALIDATOR_RC=$?
           set -e
-          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/drive-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
+          STATUS_PATH=/tmp/project-status.json MASTER_PATH=/tmp/master-video-prompts.md EXPECTED_SYNCED_AT="$SYNCED_AT" python3 - <<'PY'
           import hashlib, json, os
           from pathlib import Path
           status_path = Path(os.environ["STATUS_PATH"])
@@ -122,8 +122,8 @@ jobs:
             echo "Validator reported non-green health; publishing the verified fresh error status."
           fi
 
-            if ! cmp -s /tmp/drive-video-prompts.md video-prompts.md; then
-              cp /tmp/drive-video-prompts.md video-prompts.md
+            if ! cmp -s /tmp/master-video-prompts.md video-prompts.md; then
+              cp /tmp/master-video-prompts.md video-prompts.md
             fi
 
             # No-op aware publish: a status that differs only by volatile check
@@ -185,7 +185,7 @@ jobs:
           echo "Unable to publish project status after 4 retries." >&2
           exit 1
 
-      - name: Drive copy drift guard (Drive is read-only since 11.10.2026)
+      - name: Drive backup copy drift guard (the copy is read-only)
         # If the Drive copy of the master holds content that never existed in GitHub,
         # someone edited Drive directly. Never pull it over GitHub: open ONE issue
         # 'drive-drift' so an agent ports the edit into GitHub; close it when resolved.
@@ -214,7 +214,7 @@ jobs:
           PY
           read -r STATE HASH < /tmp/drift.txt
           echo "Drive copy: $STATE $HASH"
-          # issues labelled drive-copy-files belong to the daily copy refresh (drive-write.yml), not to this master guard
+          # issues labelled drive-copy-files belong to the daily copy refresh (drive-copy.yml), not to this master guard
           OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=drive-drift&per_page=10" --jq '[.[] | select(all(.labels[]; .name != "drive-copy-files"))][0].number // empty' 2>/dev/null || true)"
           if [ "$STATE" = "drift" ] && [ -z "$OPEN" ]; then
             gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=drive-drift -f color=fbca04 >/dev/null 2>&1 || true
@@ -225,7 +225,7 @@ jobs:
             gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${OPEN}" -f state=closed >/dev/null && echo "drift issue closed"
           fi
 
-      - name: Alert when the unified monitor is silent for more than 3 hours
+      - name: Alert when the primary monitor is silent for more than 3 hours
         # Owner decision D3 (10.10.2026). Opens ONE GitHub issue (repo notifications
         # reach the owner by e-mail) and closes it when telemetry is fresh again.
         # Best-effort: never fails the sync and never touches Topview or canon.
@@ -280,7 +280,7 @@ jobs:
           if [ "$STATE" = "silent" ] && [ -z "$OPEN" ]; then
             gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=monitor-alert -f color=d93f0b >/dev/null 2>&1 || true
             gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="AI Film: монитор молчит больше 3 ч" \
-              -f body="Автоматическое оповещение (решение владельца D3). Последние отметки: ${DETAIL//_/ }. Монитор публикует Topview только из ChatGPT: проверьте задачу «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e) и лимиты ChatGPT. Дубль не создавать. Issue закроется сам, когда данные снова станут свежими." \
+              -f body="Автоматическое оповещение (решение владельца D3). Последние отметки: ${DETAIL//_/ }. Проверьте основного монитора по monitor-role.json (по умолчанию монитор Claude, процедура ops/CLAUDE-MONITOR.md), его расписание и лимиты подписки; работу при необходимости продолжает рабочий чат. Дубль монитора не создавать. Issue закроется сам, когда данные снова станут свежими." \
               -f "labels[]=monitor-alert" >/dev/null && echo "alert issue opened"
           elif [ "$STATE" = "ok" ] && [ -n "$OPEN" ]; then
             gh api "repos/${GITHUB_REPOSITORY}/issues/${OPEN}/comments" -f body="Данные снова свежие: ${DETAIL//_/ }. Закрываю автоматически." >/dev/null
@@ -308,7 +308,7 @@ jobs:
           try:
               data = json.load(open(path, encoding="utf-8"))
           except Exception:
-              data = {"schema_version": 1, "workflow": "sync-from-drive.yml"}
+              data = {"schema_version": 1, "workflow": "sync-master.yml"}
           status = "success" if os.environ["JOB_STATUS"] == "success" else "failure"
           if data.get("last_conclusion") == status:
               print("no"); raise SystemExit
@@ -328,7 +328,7 @@ jobs:
           )"
             [ "$CHANGED" = "yes" ] || exit 0
             git add ci-status.json
-            git commit -q -m "CI state: sync-from-drive $JOB_STATUS"
+            git commit -q -m "CI state: sync-master $JOB_STATUS"
             git push -q origin HEAD:main && exit 0
             sleep 5
           done
@@ -338,7 +338,7 @@ jobs:
   owner_decisions:
     name: Apply deterministic owner buttons (Supabase -> review ledger)
     needs: [sync]
-    # This job stays independent of a failed Drive mirror sync, but is never
+    # This job stays independent of a failed master sync, but is never
     # a third creative monitor. It runs on the EXISTING 30-minute schedule.
     if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     runs-on: ubuntu-latest

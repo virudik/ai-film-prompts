@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Refresh instruction-sync-status.json in GitHub-canonical mode (owner decision 11.10.2026).
+"""Refresh instruction-sync-status.json (canon = GitHub main since the owner decision of 11.10.2026).
 
 usage: cert_github.py <repo> [--drive-copy-dir DIR] [--drive-modified NAME=ISO ...]
-Since 11.10.2026 the 7 canonical instructions live in GitHub main; Google Drive holds a
-read-only copy. This writes, for each instruction file, the GitHub blob + sha256 of the
+The 7 canonical instructions live in GitHub main; Google Drive holds a read-only backup copy.
+This writes, for each instruction file, the GitHub blob + sha256 of the
 repo file (what the validator checks) and, when --drive-copy-dir is given (files downloaded
 from Drive), whether the Drive copy currently equals GitHub (informational only).
 Run it after every commit that changes an instruction, and after refreshing the Drive copy.
@@ -39,13 +39,10 @@ for name in FILES:
             info["drive_copy_checked_at"] = now
     if name in mods:
         info["drive_copy_modified_at"] = mods[name]
-    # legacy Drive-authority fields → informational Drive-copy fields
-    old = info.pop("drive_sha256", None)
-    if old and not a.drive_copy_dir:
-        info["drive_copy_sha256"] = old
-        info["drive_copy_match"] = old == info["mirror_sha256"]
-        if info.get("drive_modified_at"):
-            info["drive_copy_modified_at"] = info.pop("drive_modified_at")
+    # Informational only: the Drive copy is a read-only backup. Without fresh copies, recompute
+    # whether the last known copy still equals the file in main (it may now lag behind).
+    if not a.drive_copy_dir and info.get("drive_copy_sha256"):
+        info["drive_copy_match"] = info["drive_copy_sha256"] == info["mirror_sha256"]
 d.update(source_of_truth="github", checked_at=now, all_match=True, health="ok",
          verification_mode="github_canonical_blob_check", freshness_max_hours=48,
          note="С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные.")
