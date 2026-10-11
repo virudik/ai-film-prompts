@@ -402,6 +402,7 @@
       "mapping_confidence": "user_confirmed"
     },
     {
+      "id": "luchik",
       "name": "Лучик",
       "aliases": [
         "LUCHIK",
@@ -453,6 +454,7 @@
       ]
     },
     {
+      "id": "ryzhik",
       "name": "Рыжик",
       "aliases": [
         "RYZHIK",
