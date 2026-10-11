@@ -393,10 +393,16 @@ def run(root, store, git, *, mode, now=None, sync=True):
             git.sync()
         rows = store.list_open()
         st = load_state(root)
-        groups, files = evaluate(rows, st, now=now)
         if mode != "on":
+            # plan-only must never turn the 30-minute sync red because of an unexpected master/telemetry shape
+            try:
+                groups, files = evaluate(rows, st, now=now)
+            except Exception as e:  # noqa: BLE001
+                print(f"::warning title=robot-master-actions::plan failed ({type(e).__name__}); nothing was changed")
+                return 0
             report_plan(groups, files, mode)
             return 0
+        groups, files = evaluate(rows, st, now=now)
         applying = [g for g in groups if g.verdict == "apply"]
         # 1. everything ambiguous → owner, nothing else touched
         for g in groups:

@@ -214,7 +214,8 @@ jobs:
           PY
           read -r STATE HASH < /tmp/drift.txt
           echo "Drive copy: $STATE $HASH"
-          OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=drive-drift&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
+          # issues labelled drive-copy-files belong to the daily copy refresh (drive-write.yml), not to this master guard
+          OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=drive-drift&per_page=10" --jq '[.[] | select(all(.labels[]; .name != "drive-copy-files"))][0].number // empty' 2>/dev/null || true)"
           if [ "$STATE" = "drift" ] && [ -z "$OPEN" ]; then
             gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=drive-drift -f color=fbca04 >/dev/null 2>&1 || true
             gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="Drive-копия master изменена вручную (sha ${HASH}) — перенести правку в GitHub" \

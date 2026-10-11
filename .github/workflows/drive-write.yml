@@ -1,9 +1,24 @@
-name: Same-ID Drive write (no owner computer)
+name: Drive copy refresh (keyless, Workload Identity Federation)
 
-# Applies drive-write-requests/*.json to Google Drive with a service account
-# (secret GDRIVE_SA_KEY). Without the secret it only reports "not_configured".
+# Since 11.10.2026 the canon is GitHub main; Google Drive «AI Film Prompts Master» holds read-only
+# COPIES. Once a day this workflow refreshes them with exact bytes from main (only when the sha
+# differs and the Drive file still equals one of its past git versions; a hand-edited Drive file is
+# never overwritten -> issue `drive-drift`). Canon is never written to Drive.
+# Login is KEYLESS: google-github-actions/auth exchanges the GitHub OIDC token for service account
+# `ai-film-writer` through Workload Identity Federation. No JSON key (org policy forbids it).
+# Without the GitHub VARIABLES GCP_WORKLOAD_IDENTITY_PROVIDER and GCP_SERVICE_ACCOUNT every run is
+# a clean no-op `not_configured`. Setup for the owner: ops/DRIVE-WIF-SETUP.md.
 on:
   workflow_dispatch:
+    inputs:
+      action:
+        description: 'sync = refresh the copies; probe = read-only check (no Drive write); requests = legacy request files'
+        required: false
+        default: sync
+        type: choice
+        options: [sync, probe, requests]
+  schedule:
+    - cron: '20 3 * * *'
   push:
     branches: [main]
     paths:
@@ -11,6 +26,8 @@ on:
 
 permissions:
   contents: write
+  issues: write
+  id-token: write
   actions: write
 
 concurrency:
@@ -18,36 +35,90 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  write:
+  copy:
     runs-on: ubuntu-latest
+    env:
+      WIF_PROVIDER: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+      WIF_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT }}
+      MODE: ${{ github.event_name == 'push' && 'requests' || inputs.action || 'sync' }}
+      BRANCH: ${{ github.ref_name }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # the drift guard compares Drive with past git versions
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install Google auth
+      - name: Install Google auth libraries
         run: pip install --quiet google-auth requests
-      - name: Apply requests
-        id: apply
-        env:
-          GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
+      - name: Keyless login to Google (Workload Identity Federation)
+        id: auth
+        if: ${{ env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' }}
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ env.WIF_PROVIDER }}
+          service_account: ${{ env.WIF_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+      - name: Refresh Drive copies / process requests
         run: |
           set -o pipefail
-          python3 scripts/drive_write.py | tee /tmp/drive-write.log
+          if [ -z "${WIF_PROVIDER}" ] || [ -z "${WIF_SERVICE_ACCOUNT}" ]; then
+            echo "::notice title=drive-copy::not_configured: set GitHub variables GCP_WORKLOAD_IDENTITY_PROVIDER and GCP_SERVICE_ACCOUNT (ops/DRIVE-WIF-SETUP.md); nothing done"
+            exit 0
+          fi
+          export DRIVE_COPY_DIR="${RUNNER_TEMP}/drive-copy"
+          python3 scripts/drive_write.py "${MODE}" | tee /tmp/drive-write.log
+      - name: Refresh the instruction certificate from the verified Drive copies
+        if: ${{ env.MODE != 'requests' && env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' && !cancelled() }}
+        run: |
+          set -euo pipefail
+          test -f drive-write-results/copy-sync.json || { echo "no copy-sync result; certificate not touched"; exit 0; }
+          MODIFIED="$(python3 - <<'PY'
+          import json
+          r = json.load(open("drive-write-results/copy-sync.json", encoding="utf-8"))
+          print(" ".join(f"{f['name']}={f['drive_modified']}" for f in r["files"] if f.get("drive_modified") and f["name"].endswith(".md")))
+          PY
+          )"
+          DIR="${RUNNER_TEMP}/drive-copy"
+          if [ "${MODE}" = "sync" ] && [ -d "${DIR}" ]; then
+            # shellcheck disable=SC2086
+            python3 scripts/cert_github.py . --drive-copy-dir "${DIR}" --drive-modified ${MODIFIED}
+          fi
+      - name: Open / close the drive-drift issue
+        if: ${{ env.MODE != 'requests' && env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' && !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          test -f drive-write-results/copy-sync.json || exit 0
+          DRIFT="$(python3 -c 'import json;r=json.load(open("drive-write-results/copy-sync.json"));print(", ".join(f["name"] for f in r["files"] if f["status"]=="drift"))')"
+          OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=drive-copy-files&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
+          if [ -n "${DRIFT}" ] && [ -z "${OPEN}" ]; then
+            gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=drive-drift -f color=fbca04 >/dev/null 2>&1 || true
+            gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=drive-copy-files -f color=fbca04 >/dev/null 2>&1 || true
+            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="Drive-копия изменена вручную: ${DRIFT} — перенести правку в GitHub" \
+              -f body="Суточное обновление Drive-копии НЕ перезаписало файл(ы): ${DRIFT}. Их содержимое на Drive не совпадает ни с одной прошлой версией в git, значит правили вручную. Канон — GitHub main. Агент: сравнить Drive-копию с GitHub, перенести осмысленную правку в main, затем запустить workflow «Drive copy refresh» (действие sync). Issue закроется само после чистого прогона." \
+              -f "labels[]=drive-drift" -f "labels[]=drive-copy-files" >/dev/null && echo "drift issue opened"
+          elif [ -z "${DRIFT}" ] && [ -n "${OPEN}" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${OPEN}" -f state=closed >/dev/null && echo "drift issue closed"
+          fi
       - name: Commit results
-        if: always()
+        if: ${{ env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' && !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A drive-write-requests drive-write-results SYNC-TRIGGER.txt 2>/dev/null || true
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A drive-write-requests drive-write-results SYNC-TRIGGER.txt instruction-sync-status.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
-          git commit -m "Drive write: results of same-ID requests"
-          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
-      - name: Re-sync master after a successful write
-        if: success()
+          git commit -m "Drive copy refresh: results and instruction certificate"
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${BRANCH}" && git push origin "HEAD:${BRANCH}" && break
+            sleep 5
+          done
+      - name: Re-sync master after a successful legacy request write
+        if: ${{ env.MODE == 'requests' && success() }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           if grep -q '"status": "applied"' /tmp/drive-write.log; then
-            gh workflow run sync-from-drive.yml --ref main
+            gh workflow run sync-from-drive.yml --ref "${BRANCH}"
           fi
