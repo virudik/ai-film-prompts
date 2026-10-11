@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 20,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
+  "updated_at": "2026-10-11T00:00:00Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -129,13 +129,67 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": "1J8NI9Zk18wYgm90QCpljirKDCyZ0zMxT",
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "role": "identity",
+      "asset_id": "references/full/sasha.jpg",
+      "bytes": 289714,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/sasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": "1PI2B8VEIICMr0yXN6mXBMySDwrZzlvhR",
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "role": "identity",
+      "asset_id": "references/full/pasha.jpg",
+      "bytes": 233562,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "source_preserved",
+        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
+        "checked_at": "2026-10-08"
+      },
+      "site_published": {
+        "path": "references/full/pasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     }
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
   "identity_refs": [
-    "references/masha-laguna.webp"
+    "references/masha-laguna.webp",
+    "references/full/sasha.jpg",
+    "references/full/pasha.jpg"
   ],
   "location_refs": [
     "references/scenes/scene-20/S20-Image1-topview-source.png"
@@ -155,11 +209,15 @@
       "references/scenes/scene-20/S20-Image1-topview-source.png",
       "references/scenes/scene-20/S20-wide-standing.png",
       "references/scenes/scene-20/S20-side-walk-profile.png",
-      "references/scenes/scene-20/S20-close-performance.png"
+      "references/scenes/scene-20/S20-close-performance.png",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg"
     ],
     "scope_note": "owner_supplied_identity_refs identifies previously provided identity sources. Explicit acceptance of generated helpers/video is not inferred; owner_explicit empty means no separate acceptance receipt recorded here. Assistant QC is not owner acceptance.",
     "owner_supplied_identity_refs": [
-      "references/masha-laguna.webp"
+      "references/masha-laguna.webp",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg"
     ],
     "owner_explicit": []
   },
@@ -672,6 +730,94 @@
       "end_frame": null,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-12",
+      "canonical_heading": "Песня Маши 12 — ревнивая фантазия о Саше и Паше",
+      "canonical_prompt_sha256": "9b80ae1f6c500a1d308fe3a749c0e1be82f3810c45d1bd42873f8472edfa7978",
+      "characters": 5917,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image6": {
+          "asset_id": "references/full/sasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image7": {
+          "asset_id": "references/full/pasha.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S20-part-13",
+      "canonical_heading": "Песня Маши 13 — мощная эмоциональная клиповая кульминация",
+      "canonical_prompt_sha256": "f733fe3ec4dba401751a2d12efdfe445cafc542d51e8361e358cf554e944cdf1",
+      "characters": 5426,
+      "duration_seconds": 30,
+      "model": null,
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-20/S20-Image1-topview-source.png",
+          "required": true,
+          "role": "location",
+          "status": "available"
+        },
+        "@Image2": {
+          "asset_id": "references/masha-laguna.webp",
+          "required": true,
+          "role": "identity",
+          "status": "available"
+        },
+        "@Image3": {
+          "asset_id": "references/scenes/scene-20/S20-wide-standing.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image4": {
+          "asset_id": "references/scenes/scene-20/S20-side-walk-profile.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-20/S20-close-performance.png",
+          "required": false,
+          "role": "pose_composition_helper",
+          "status": "available"
+        }
+      },
+      "start_frame": null,
+      "end_frame": null,
+      "launch_readiness": "reference_inputs_available",
+      "owner_generation_approval_inferred": false
     }
   ],
   "site_published": {
@@ -681,13 +827,15 @@
       "references/scenes/scene-20/S20-Image1-topview-source.png",
       "references/scenes/scene-20/S20-wide-standing.png",
       "references/scenes/scene-20/S20-side-walk-profile.png",
-      "references/scenes/scene-20/S20-close-performance.png"
+      "references/scenes/scene-20/S20-close-performance.png",
+      "references/full/sasha.jpg",
+      "references/full/pasha.jpg"
     ],
     "status": "existing_gallery_in_published_master",
     "manifest_publication": "included_with_this_repository_version"
   },
-  "last_qc_at": "2026-10-08T09:58:58.592675Z",
-  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "last_qc_at": "2026-10-11T00:00:00Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval | 11.10.2026 Claude Code: added mapping for insert parts 12 and 13 (Sasha/Pasha identity sheets for part 12) from the master Референсы lines; no images generated.",
   "invariants": [
     "individual identity sheets outrank group/pose helpers",
     "@Image numbering is local to each autonomous prompt",
