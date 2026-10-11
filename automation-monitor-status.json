@@ -31,22 +31,24 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-09T12:10:01.949Z",
-    "scope": "all_owned_boards_unlimited_video_tasks",
-    "complete": true,
+    "checked_at": "2026-10-11T15:00:45Z",
+    "scope": "owned_boards_latest_page_plus_shadow_full_scan_not_authoritative",
+    "complete": false,
     "boards_scanned": 11,
-    "video_tasks_scanned": 554,
-    "pages_scanned": 14,
+    "video_tasks_scanned": 100,
+    "pages_scanned": 1,
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
+    "occupied_slots": 6,
+    "free_slots": 0,
     "active_task_ids": [
-      "e369529cc93d465ba14127e4712f7bbd",
-      "32a4df3b18714cde9c55f0281cc2dd41",
-      "9746bfed635c451e97095c35b4e3b2bf",
-      "2c28a4161c8f459d8bf0c0460ac21ec5",
-      "36e8320e34da4f1b97c35e1e765e3e63"
-    ]
+      "a3efa5cce8224b7896e8166e0d5f2b9e",
+      "57b6f3aac4804d2486721131e30640f6",
+      "dbe204aeb9a74478af04c6bbfe7693f9",
+      "3710685303634b2482b90581aa6a8a2b",
+      "4682335cffc24a339179845c2713c46e",
+      "71ff9f82cf864225b0cea5caae96854a"
+    ],
+    "verification": "Topview newest page 6/6; direct detail 5/6; full scan shadow only (not authoritative)"
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
@@ -71,21 +73,23 @@
   },
   "phases": {
     "topview": {
-      "status": "complete",
-      "checked_at": "2026-10-11T01:12:05Z",
+      "status": "degraded",
+      "checked_at": "2026-10-11T15:00:45Z",
       "boards_scanned": 11,
-      "video_tasks_scanned": 554,
-      "pages_scanned": 14,
-      "occupied_slots": 5,
-      "free_slots": 1,
+      "video_tasks_scanned": 100,
+      "pages_scanned": 1,
+      "occupied_slots": 6,
+      "free_slots": 0,
       "active_task_ids": [
-        "e369529cc93d465ba14127e4712f7bbd",
-        "32a4df3b18714cde9c55f0281cc2dd41",
-        "9746bfed635c451e97095c35b4e3b2bf",
-        "2c28a4161c8f459d8bf0c0460ac21ec5",
-        "36e8320e34da4f1b97c35e1e765e3e63"
+        "a3efa5cce8224b7896e8166e0d5f2b9e",
+        "57b6f3aac4804d2486721131e30640f6",
+        "dbe204aeb9a74478af04c6bbfe7693f9",
+        "3710685303634b2482b90581aa6a8a2b",
+        "4682335cffc24a339179845c2713c46e",
+        "71ff9f82cf864225b0cea5caae96854a"
       ],
-      "direct_active_task_reads": "5_of_5_verified"
+      "direct_active_task_reads": "5_of_6_verified",
+      "complete": false
     },
     "telemetry_publication": {
       "status": "verified_map_status_checkpoint_and_public_pages",
@@ -121,17 +125,31 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-11T03:10:42Z",
-    "completed_at": "2026-10-11T03:11:59Z",
-    "health": "ok",
+    "started_at": "2026-10-11T14:57:43Z",
+    "completed_at": "2026-10-11T15:00:45Z",
+    "health": "degraded",
     "phases_completed": [
-      "complete"
+      "role_guard",
+      "github_canonical_read",
+      "seven_instructions",
+      "topview_boards_11",
+      "topview_latest_page",
+      "topview_direct_5_of_6",
+      "supabase_owner_decisions",
+      "drive_master_metadata",
+      "library_metadata"
     ],
-    "phases_missing": [],
-    "runner": "claude_scheduled_task",
-    "note": "light scan; Scene 16 success 03:00:50 UTC -> master slow-list empty, 0/6 slots"
+    "phases_missing": [
+      "topview_direct_71ff_unavailable",
+      "topview_full_scan_not_due",
+      "unknown_task_exact_mapping",
+      "canonical_slow_and_telemetry_publication",
+      "validator_and_pages_readback"
+    ],
+    "runner": "chatgpt_scheduled_task",
+    "note": "Topview live latest page 6/6 unlimited active (5 init, 1 running). Five direct reads succeeded; one task detail transient UNAVAILABLE. Unknown task 71ff... is not exact canonical Scene 21. GitHub published telemetry remains stale 0/6; no canonical or Topview telemetry changes attempted. Incomplete cycle must not count as healthy primary success."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -182,7 +200,7 @@
     "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
     "topview_live_result": "complete_5_of_6_occupied"
   },
-  "last_completed_cycle_at": "2026-10-11T03:11:59Z",
+  "last_completed_cycle_at": "2026-10-11T15:00:45Z",
   "last_successful_cycle_at": "2026-10-11T03:11:59Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -195,7 +213,8 @@
   },
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
-    "claude": "2026-10-11T03:11:59Z"
+    "claude": "2026-10-11T03:11:59Z",
+    "chatgpt": "2026-10-11T15:00:45Z"
   },
   "last_successful_cycle_runner": "claude_scheduled_task",
   "last_successful_by_runner": {
