@@ -61,7 +61,8 @@
 
 ## Флажки прохождения
 
-- [ ] **А.** `SUPABASE_SERVICE_ROLE_KEY` в GitHub Secrets; контролируемая кнопка привела к реальному commit и Supabase `applied`
+- [x] **А (чтение).** `SUPABASE_SERVICE_ROLE_KEY` добавлен владельцем 11.10 06:37 МСК; плановый запуск 03:49Z: job `owner_decisions` без «not configured», шаг успешен — робот читает Supabase.
+- [ ] **А (E2E).** Первая реальная кнопка владельца → commit робота в `review-ledger.json` → Supabase `applied`
 - [ ] **А+.** `in_film` / `scene_not_needed` / `tv_drop_task` прямым коммитом master в GitHub, проверены на тестовой заявке
 - [x] **Б.** `TOPVIEW_API_KEY` (Secret) и `TOPVIEW_UID` (Variable) добавлены владельцем 11.10 06:52 МСК; `topview-api-probe.yml` прошёл 11.10 03:57Z (запрос дошёл, HTTP 200; эндпоинт `tts/list` ответил кодом 5000 — смысл кода не подтверждён). Известная задача доски `36e8320e…` (Scene 16) через публичные task-query API **не найдена** (код 4004 на всех трёх эндпоинтах)
 - [x] **Б+ — отрицательно (11.10):** публичный Topview API не видит задачи досок (безлимитная очередь сайта), поэтому робот GitHub не может заменить монитор для Topview. Шаг Б закрыт как «не нужен»: Topview по-прежнему проверяет монитор Claude через коннектор. Ключ оставлен в Secrets на случай, если Topview откроет API досок; ничего не тратит.
