@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-11T02:15:55+00:00. Валиден при генерации: **False** (расхождения: ['NEW-CHAT-HANDOFF.md', 'SYNC-RUNBOOK.md', 'AI-PROJECT-GUIDE.md', 'PROMPT-STYLE-GUIDE.md', 'USER-GUIDE.md', 'README-AI-SYNC.md', 'BACKUP-AI-RUNBOOK.md'])
+Сгенерирован 2026-10-11T02:33:37+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -19,14 +19,14 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 548543 B · `9b62a5b64358cc80`
 
 ## Обязательные инварианты
-- **INV-AUTH** — Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache. → `AI-PROJECT-GUIDE.md` ✓
-- **INV-ONE-MASTER** — One SAME-ID master; no v2/final/copy. → `AI-PROJECT-GUIDE.md` ✓
-- **INV-FRESH-WRITE** — Before any master write: second fresh read of the exact Drive master; minimal same-ID edit → SYNC-TRIGGER → validation → mirror/status → Pages → verification. → `SYNC-RUNBOOK.md` ✓
-- **INV-SERIAL-DOCS** — Canonical instruction writes are serial: fresh read/version → same-ID write → read-back → exact mirror → verify; never replay a stale write. → `SYNC-RUNBOOK.md` ✓
+- **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
+- **INV-ONE-MASTER** — One master: video-prompts.md in GitHub main; no v2/final/copy. → `AI-PROJECT-GUIDE.md` ✓
+- **INV-FRESH-WRITE** — Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch. → `NEW-CHAT-HANDOFF.md` ✓
+- **INV-SERIAL-DOCS** — Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write. → `NEW-CHAT-HANDOFF.md` ✓
 - **INV-SCENE-ID** — Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID. → `AI-PROJECT-GUIDE.md` ✓
 - **INV-SUCCESS-NOT-APPROVAL** — Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close. → `SYNC-RUNBOOK.md` ✓
 - **INV-SLOTS** — Slot capacity 6; one active task = one slot; Scene stays slow until its last active task is terminal. → `SYNC-RUNBOOK.md` ✓
-- **INV-ONE-MONITOR** — Exactly one automation «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e, HH:00 MSK); archived 6aac3e4d…/6ac358bf… stay off; no duplicates; never disable it. If found disabled without an explicit owner decision to stop it: re-enable THAT task (is_enabled:true), record the incident, then verify a real publication (fresh topview-status/checkpoint + Pages). A disabled task cannot re-enable itself. → `SYNC-RUNBOOK.md` ✓
+- **INV-ONE-MONITOR** — One writer: the Claude monitor (HH:10) is the only writer; ChatGPT «резервный контроль» (6acae6ab…, HH:40) is read-only and may not take over until monitor-role.json migration_state allows it; old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off. Claude monitor silent >3 h → issue monitor-alert, restore it; a disabled task cannot re-enable itself. → `NEW-CHAT-HANDOFF.md` ✓
 - **INV-NO-FAKE-TIME** — Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps. → `SYNC-RUNBOOK.md` ✓
 - **INV-OWNER-BOUNDARY** — Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources. → `AI-PROJECT-GUIDE.md` ✓
 - **INV-PROMPT-AUTONOMY** — Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL. → `PROMPT-STYLE-GUIDE.md` ✓

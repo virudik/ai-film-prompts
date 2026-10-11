@@ -2,17 +2,9 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T02:15:55+00:00",
- "valid_at_generation": false,
- "validity_mismatches": [
-  "NEW-CHAT-HANDOFF.md",
-  "SYNC-RUNBOOK.md",
-  "AI-PROJECT-GUIDE.md",
-  "PROMPT-STYLE-GUIDE.md",
-  "USER-GUIDE.md",
-  "README-AI-SYNC.md",
-  "BACKUP-AI-RUNBOOK.md"
- ],
+ "generated_at": "2026-10-11T02:33:37+00:00",
+ "valid_at_generation": true,
+ "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
  "sources": [
   {
@@ -67,15 +59,15 @@
  "invariants": [
   {
    "id": "INV-AUTH",
-   "rule": "Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache.",
-   "owner_doc": "AI-PROJECT-GUIDE.md",
-   "anchor": "^## 2\\. Источники истины",
+   "rule": "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+   "owner_doc": "NEW-CHAT-HANDOFF.md",
+   "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "78e2dfab6280"
+   "section_sha256_12": "435923dd67a6"
   },
   {
    "id": "INV-ONE-MASTER",
-   "rule": "One SAME-ID master; no v2/final/copy.",
+   "rule": "One master: video-prompts.md in GitHub main; no v2/final/copy.",
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
@@ -83,19 +75,19 @@
   },
   {
    "id": "INV-FRESH-WRITE",
-   "rule": "Before any master write: second fresh read of the exact Drive master; minimal same-ID edit → SYNC-TRIGGER → validation → mirror/status → Pages → verification.",
-   "owner_doc": "SYNC-RUNBOOK.md",
-   "anchor": "^## 1\\. Обязательный preflight",
+   "rule": "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+   "owner_doc": "NEW-CHAT-HANDOFF.md",
+   "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "fdf5e5eb339d"
+   "section_sha256_12": "435923dd67a6"
   },
   {
    "id": "INV-SERIAL-DOCS",
-   "rule": "Canonical instruction writes are serial: fresh read/version → same-ID write → read-back → exact mirror → verify; never replay a stale write.",
-   "owner_doc": "SYNC-RUNBOOK.md",
-   "anchor": "^### 8\\. Serialized canonical instruction writes",
+   "rule": "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+   "owner_doc": "NEW-CHAT-HANDOFF.md",
+   "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "0d16a7b2efba"
+   "section_sha256_12": "435923dd67a6"
   },
   {
    "id": "INV-SCENE-ID",
@@ -123,11 +115,11 @@
   },
   {
    "id": "INV-ONE-MONITOR",
-   "rule": "Exactly one automation «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e, HH:00 MSK); archived 6aac3e4d…/6ac358bf… stay off; no duplicates; never disable it. If found disabled without an explicit owner decision to stop it: re-enable THAT task (is_enabled:true), record the incident, then verify a real publication (fresh topview-status/checkpoint + Pages). A disabled task cannot re-enable itself.",
-   "owner_doc": "SYNC-RUNBOOK.md",
-   "anchor": "^## Действующее расписание",
+   "rule": "One writer: the Claude monitor (HH:10) is the only writer; ChatGPT «резервный контроль» (6acae6ab…, HH:40) is read-only and may not take over until monitor-role.json migration_state allows it; old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off. Claude monitor silent >3 h → issue monitor-alert, restore it; a disabled task cannot re-enable itself.",
+   "owner_doc": "NEW-CHAT-HANDOFF.md",
+   "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "6268e0d29d0d"
+   "section_sha256_12": "435923dd67a6"
   },
   {
    "id": "INV-NO-FAKE-TIME",
