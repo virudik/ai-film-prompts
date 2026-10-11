@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-11T16:10:48Z",
+  "updated_at": "2026-10-11T17:50:46Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -279,12 +279,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-11T16:10:48Z",
+  "last_scan_at": "2026-10-11T17:50:46Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "all_owned_boards_full_video_scan",
-    "last_successful_scan_at": "2026-10-11T16:10:48Z",
+    "last_successful_scan_at": "2026-10-11T17:50:46Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 610,
     "overlap_hours": 6,
@@ -312,8 +312,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 604
     },
-    "scan_mode": "full"
+    "scan_mode": "light",
+    "last_light_scan_at": "2026-10-11T17:50:46Z"
   },
-  "note": "ChatGPT 11.10.2026 full scan: 11 boards 560 video tasks, 5 init, Scene21 success; full prompts 5 normalized exact, Scene21 high truncated suffix. No new Scene ID.",
+  "note": "Manual emergency refresh, five direct active tasks plus consistent 11-board shadow counts; no canonical slow changes.",
   "owner_controlled_slow": true
 }

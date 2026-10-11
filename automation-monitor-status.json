@@ -241,5 +241,17 @@
     "is_enabled": true,
     "full_cycle_verified": false,
     "observation_note": "Scheduled task ran after the last GitHub-reported degraded cycle, but no newer completed full cycle was committed. Do not advance last_scheduled_cycle or last_successful_cycle_at on this basis."
+  },
+  "manual_interactive_verification": {
+    "checked_at": "2026-10-11T17:50:46Z",
+    "runner": "chatgpt_interactive_session",
+    "full_scheduled_cycle_verified": false,
+    "provider_status": "5_of_6_unlimited_active_init",
+    "checks": [
+      "all_11_board_counts_unchanged",
+      "all_5_active_tasks_verified",
+      "project_health_last_reported_ok"
+    ],
+    "note": "Manual repair evidence only; the scheduled cycle and last successful clock are unchanged."
   }
 }
