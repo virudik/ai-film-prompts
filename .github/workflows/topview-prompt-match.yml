@@ -1,0 +1,32 @@
+name: Topview prompt match (read-only, annotation only)
+
+# Matches Topview tasks to master prompts by parameters.positivePrompt (exact / normalised / similarity)
+# and prints ONLY `task_id -> Scene/part + confidence` as an annotation. GET /boards/tasks/detail only:
+# no generation, no credits, no files written, no telemetry, no scenes created. Task <-> Scene mapping is
+# applied by the writer (monitor_role.py decides who) from the report; this workflow is evidence only.
+# Default tasks = unknown_new of shadow/topview-robot-status.json; pass `tasks` (comma-separated ids) to override.
+on:
+  workflow_dispatch:
+    inputs:
+      tasks:
+        description: 'Optional comma-separated Topview task ids (default: unknown_new of the shadow status)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  match:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compare task prompts with master prompts (annotation only)
+        env:
+          TOPVIEW_API_KEY: ${{ secrets.TOPVIEW_API_KEY }}
+          TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
+          TASKS: ${{ inputs.tasks }}
+        run: python3 scripts/topview_prompt_match.py --tasks "$TASKS"
