@@ -759,8 +759,8 @@ def parse_master(
 
     status = {
         "schema_version": 3,
-        "source_of_truth": "Google Drive/AI Film Prompts Master/video-prompts.md",
-        "instruction_source_of_truth": "Google Drive canonical instruction files",
+        "source_of_truth": "GitHub main/video-prompts.md",
+        "instruction_source_of_truth": "GitHub main canonical instruction files",
         "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
         "synced_at": synced_at,
         "revision_date": revision_date,
