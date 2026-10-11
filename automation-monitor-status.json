@@ -28,84 +28,97 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-11T17:51:59.636Z",
-    "scope": "owned_boards_metadata_plus_main_latest_100_plus_direct_5_active_plus_1_terminal; shadow_light_auxiliary",
-    "complete": false,
+    "checked_at": "2026-10-11T21:01:30.493Z",
+    "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_6_active; shadow_auxiliary",
+    "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 100,
     "pages_scanned": 1,
     "slot_capacity": 6,
-    "occupied_slots": 5,
-    "free_slots": 1,
+    "occupied_slots": 6,
+    "free_slots": 0,
     "active_task_ids": [
       "a3efa5cce8224b7896e8166e0d5f2b9e",
       "57b6f3aac4804d2486721131e30640f6",
       "dbe204aeb9a74478af04c6bbfe7693f9",
       "3710685303634b2482b90581aa6a8a2b",
-      "4682335cffc24a339179845c2713c46e"
+      "4682335cffc24a339179845c2713c46e",
+      "6d1ff4a96a0043f2884ffb528d5d9c9a"
     ],
-    "verification": "5/5 direct active reads status init, 1/1 recent terminal success, shadow agrees; no full account-wide scan this cycle"
+    "verification": "6/6 direct active reads status init; exact new task match to existing Scene 35; all owned board counts and AI Film current page checked"
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-09T07:14:39.188Z",
-    "last_observed_free_slots": 1,
+    "last_notified_at": "2026-10-11T21:01:30.493Z",
+    "last_observed_free_slots": 0,
     "observed_active_task_ids": [
-      "e369529cc93d465ba14127e4712f7bbd",
-      "32a4df3b18714cde9c55f0281cc2dd41",
-      "9746bfed635c451e97095c35b4e3b2bf",
-      "2c28a4161c8f459d8bf0c0460ac21ec5",
-      "36e8320e34da4f1b97c35e1e765e3e63"
+      "a3efa5cce8224b7896e8166e0d5f2b9e",
+      "57b6f3aac4804d2486721131e30640f6",
+      "dbe204aeb9a74478af04c6bbfe7693f9",
+      "3710685303634b2482b90581aa6a8a2b",
+      "4682335cffc24a339179845c2713c46e",
+      "6d1ff4a96a0043f2884ffb528d5d9c9a"
     ],
-    "open_incidents": [],
+    "open_incidents": [
+      {
+        "type": "github_pages_publication_pending",
+        "detected_at": "2026-10-11T21:01:30.493Z",
+        "reason": "GitHub main and integration checks are current, but Pages deployment remains pending and the public page still serves the previous 5/6 snapshot."
+      }
+    ],
     "last_message_event": {
-      "type": "topview_connector_recovered",
-      "observed_at": "2026-10-09T12:10:01.949Z",
-      "issue": "Topview Board connector recovered; complete account scan and public telemetry publication resumed with unchanged 5/6 occupancy.",
+      "type": "site_publication_pending",
+      "observed_at": "2026-10-11T21:01:30.493Z",
+      "issue": "Public Pages snapshot remains stale while latest Pages build is pending; monitor cycle cannot be marked healthy.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
-      "status": "degraded",
-      "checked_at": "2026-10-11T17:51:59.636Z",
+      "status": "verified_fast_path",
+      "checked_at": "2026-10-11T20:56:49.975Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
-      "occupied_slots": 5,
-      "free_slots": 1,
+      "occupied_slots": 6,
+      "free_slots": 0,
       "active_task_ids": [
         "a3efa5cce8224b7896e8166e0d5f2b9e",
         "57b6f3aac4804d2486721131e30640f6",
         "dbe204aeb9a74478af04c6bbfe7693f9",
         "3710685303634b2482b90581aa6a8a2b",
-        "4682335cffc24a339179845c2713c46e"
+        "4682335cffc24a339179845c2713c46e",
+        "6d1ff4a96a0043f2884ffb528d5d9c9a"
       ],
-      "direct_active_task_reads": "5_of_5_verified",
-      "complete": false
+      "direct_active_task_reads": "6_of_6_verified",
+      "complete": true
     },
     "telemetry_publication": {
-      "status": "verified_map_status_checkpoint_and_public_pages",
-      "checked_at": "2026-10-09T12:10:01.949Z",
-      "task_map_checked_at": "2026-10-09T12:10:01.949Z",
-      "status_checked_at": "2026-10-09T12:10:01.949Z",
-      "checkpoint_checked_at": "2026-10-09T12:10:01.949Z",
-      "missing": []
+      "status": "verified_map_status_checkpoint_on_github_pages_pending",
+      "checked_at": "2026-10-11T21:01:30.493Z",
+      "task_map_checked_at": "2026-10-11T20:56:49.975Z",
+      "status_checked_at": "2026-10-11T20:56:49.975Z",
+      "checkpoint_checked_at": "2026-10-11T20:59:07.946Z",
+      "missing": [
+        "public_pages_current_readback"
+      ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
       "checked_at": "2026-10-09T12:10:01.949Z"
     },
     "canonical_sync": {
-      "status": "verified_drive_github_and_public_pages",
-      "checked_at": "2026-10-09T12:10:01.949Z",
-      "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
-      "scenes": 21,
-      "prompt_texts": 54,
+      "status": "verified_github_project_status_pages_pending",
+      "checked_at": "2026-10-11T21:01:30.493Z",
+      "master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+      "scenes": 18,
+      "prompt_texts": 51,
       "all_project_checks_true": true,
-      "missing": []
+      "missing": [
+        "public_pages_current_readback"
+      ]
     },
     "deep_audit": {
       "status": "not_due",
@@ -122,27 +135,29 @@
   },
   "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-11T17:50:26Z",
-    "completed_at": "2026-10-11T17:51:59.636Z",
+    "started_at": "2026-10-11T20:53:06Z",
+    "completed_at": "2026-10-11T21:01:30.493Z",
     "health": "degraded",
     "phases_completed": [
-      "role_guard_equivalent_recent_main_commit_authors",
-      "github_canonical_status_and_instructions",
+      "role_and_50_minute_guard",
+      "fresh_head",
       "topview_owned_boards_11",
-      "topview_main_latest_100",
-      "topview_direct_active_5_of_5",
-      "topview_direct_terminal_1",
-      "shadow_comparison_auxiliary",
-      "supabase_owner_decisions"
+      "topview_ai_film_latest_100",
+      "topview_direct_active_6_of_6",
+      "supabase_owner_decisions",
+      "exact_scene_35_canonical_mapping",
+      "canonical_master_update",
+      "topview_map_and_status_readback",
+      "project_status_health_ok",
+      "integration_tests_success",
+      "checkpoint_last"
     ],
     "phases_missing": [
-      "account_wide_full_scan_not_independently_repeated",
-      "canonical_topview_telemetry_checked_at_not_advanced",
-      "canonical_validator_and_pages_readback_not_repeated",
-      "ops_fast_path_file_missing_404"
+      "github_pages_deployment_pending",
+      "public_pages_current_readback"
     ],
     "runner": "chatgpt_scheduled_task",
-    "note": "Verified 11 owned boards, newest 100 video tasks on main board, all five active unlimited tasks direct status init, terminal sixth success; 5/6 occupied, 1 free. Shadow light scan agrees but is not account-wide authoritative. No new unknown task observed. No canonical slow change or new task mapping. Fast path file absent. Telemetry/checkpoint untouched; this is not a healthy full-cycle heartbeat."
+    "note": "Six active unlimited tasks verified (6/6); new task matched existing Scene 35 exactly and canonical telemetry/master were updated. GitHub project-status is healthy and recovery integration tests passed, but Pages deployment remains pending and the public site still shows the prior 5/6 snapshot; no healthy heartbeat claimed."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -174,11 +189,11 @@
     "public_pages_free_slots": 1,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "integration tests success; public Pages snapshot independently observed",
-    "canonical_master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
-    "public_pages_canonical_health": "ok",
-    "public_pages_current_readback": "verified",
-    "public_pages_readback_attempted_at": "2026-10-09T12:15:51.133Z",
+    "site_validator": "project-status all checks true; integration recovery tests success; Pages deployment pending",
+    "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+    "public_pages_canonical_health": "stale_error_snapshot",
+    "public_pages_current_readback": "stale_previous_5_of_6_snapshot",
+    "public_pages_readback_attempted_at": "2026-10-11T21:01:30.493Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -190,10 +205,10 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
-    "topview_live_result": "complete_5_of_6_occupied"
+    "topview_live_attempted_at": "2026-10-11T20:56:49.975Z",
+    "topview_live_result": "complete_6_of_6_occupied"
   },
-  "last_completed_cycle_at": "2026-10-11T17:51:59.636Z",
+  "last_completed_cycle_at": "2026-10-11T21:01:30.493Z",
   "last_successful_cycle_at": "2026-10-11T03:11:59Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -208,7 +223,7 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-11T17:51:59.636Z"
+    "chatgpt": "2026-10-11T21:01:30.493Z"
   },
   "last_successful_cycle_runner": "claude_scheduled_task",
   "last_successful_by_runner": {
@@ -239,15 +254,18 @@
     "observation_note": "Scheduled task ran after the last GitHub-reported degraded cycle, but no newer completed full cycle was committed. Do not advance last_scheduled_cycle or last_successful_cycle_at on this basis."
   },
   "manual_interactive_verification": {
-    "checked_at": "2026-10-11T17:50:46Z",
-    "runner": "chatgpt_interactive_session",
+    "checked_at": "2026-10-11T20:56:49.975Z",
+    "runner": "chatgpt_scheduled_task",
     "full_scheduled_cycle_verified": false,
-    "provider_status": "5_of_6_unlimited_active_init",
+    "provider_status": "6_of_6_unlimited_active_init",
     "checks": [
-      "all_11_board_counts_unchanged",
-      "all_5_active_tasks_verified",
-      "project_health_last_reported_ok"
+      "all_11_owned_board_counts",
+      "ai_film_latest_100",
+      "all_6_active_tasks_direct",
+      "supabase_owner_decisions",
+      "project_status_health_ok",
+      "integration_tests_success"
     ],
-    "note": "Manual repair evidence only; the scheduled cycle and last successful clock are unchanged."
+    "note": "Pages publication is still pending; healthy scheduled-cycle recovery is not declared."
   }
 }
