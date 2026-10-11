@@ -1,6 +1,6 @@
 # AI Film — автоматическое применение решений из панели сайта (план внедрения)
 
-**Статус на 11.10.2026:** первая серверная фаза подготовлена в GitHub, но не подтверждена end-to-end и без ключа Supabase НЕ выполняется. Этот файл — рабочее ТЗ, **не канонический источник**. При активации внести запись в SAME Google Drive `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `USER-GUIDE.md`, проверить зеркала и Pages.
+**Статус на 11.10.2026 (пересмотрен 04:32):** первая серверная фаза подготовлена в GitHub, но не подтверждена end-to-end и без ключа Supabase НЕ выполняется. С 03:25 канон — GitHub `main`: фазы, меняющие master, делаются прямым коммитом, Drive-писатель для них не нужен. Этот файл — рабочее ТЗ, **не канонический источник**. При активации внести запись в `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `USER-GUIDE.md` в GitHub `main`, проверить статус и Pages.
 
 ## Задача
 
@@ -17,14 +17,14 @@
 ## Ключи и настройка
 
 1. На GitHub `virudik/ai-film-prompts` в **Settings → Secrets and variables → Actions** создать `SUPABASE_SERVICE_ROLE_KEY`, значение — `service_role`/secret API key проекта Supabase `vzohfatqzyioydtgjiyd`. Не путать с публичным `sb_publishable_...`, который не имеет права менять защищённые решения. Не помещать секрет в чат или код. Это привилегированный ключ ко всему проекту Supabase: хранить только в защищённом серверном хранилище; в будущем заменить узко-скоупным proxy/Edge Function token.
-2. Независимая same-ID запись `video-prompts.md` уже имеет `.github/workflows/drive-write.yml` и требует отдельный `GDRIVE_SA_KEY` (полный JSON service account, ограниченный доступ к папке master). Подробности: `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`. До успешного readback и SHA не включать действия с master.
+2. Правки master роботом — прямой коммит в GitHub `main` от свежего HEAD (минимальный diff; push отклоняется при гонке — повтор с нуля), затем валидатор `health=ok` и Pages. `GDRIVE_SA_KEY` для этого не нужен (он только для автообновления Drive-копии).
 3. Удостовериться в первом реальном run `sync-from-drive.yml`: job `owner_decisions` executed, `review-ledger.json` verified, Supabase `status=applied` verified. Зеленый skipped/no-op — **не тест применения**.
 4. Не отключать `AI Film — единый монитор`, Claude primary/ChatGPT standby; Github job — отдельный исполнитель решений владельца, не третий Topview монитор и не меняет `monitor-role.json`.
 
 ## Целевая полная схема — следующие фазы
 
-- **Фаза 2.** Строго определённые операции `in_film` / `scene_not_needed` / `tv_drop_task` переходят через same-ID Drive writer с optimistic `base_sha256`, exact byte readback, reserved Scene IDs, revalidation dependencies, GitHub mirror, Pages. Статус `applied` только после всего цикла. Если существует active Topview task или коллизия master — `needs_owner`, ничего не закрывать.
-- **Фаза 3.** Структурированное редактирование сцены: `scene_id`, выбор поля (реплики, действие, камера, референсы, длительность), текст изменения, базовая ревизия master; необязательный предпросмотр diff. Сервер получает fresh Drive + PROMPT-STYLE-GUIDE + близкие сцены/refs, строит proposal, валидирует identity, continuity, syntax и зависимости. Конкретно сформулированная правка владельца может быть применена автоматически после проверки; неоднозначность → `needs_owner`. Для LLM-части потребуется отдельный серверный AI API key, GitHub Actions secrets и лимиты. Не предоставлять LLM права произвольных файловых/секретных записей.
+- **Фаза 2.** Строго определённые операции `in_film` / `scene_not_needed` / `tv_drop_task` делаются прямым коммитом master в GitHub `main` от свежего HEAD с проверкой `base_sha256`, reserved Scene IDs, revalidation dependencies, валидатором и Pages. Статус `applied` только после всего цикла. Если существует active Topview task или коллизия master — `needs_owner`, ничего не закрывать.
+- **Фаза 3.** Структурированное редактирование сцены: `scene_id`, выбор поля (реплики, действие, камера, референсы, длительность), текст изменения, базовая ревизия master; необязательный предпросмотр diff. Сервер получает fresh master из `main` + PROMPT-STYLE-GUIDE + близкие сцены/refs, строит proposal, валидирует identity, continuity, syntax и зависимости. Конкретно сформулированная правка владельца может быть применена автоматически после проверки; неоднозначность → `needs_owner`. Для LLM-части потребуется отдельный серверный AI API key, GitHub Actions secrets и лимиты. Не предоставлять LLM права произвольных файловых/секретных записей.
 - **Фаза 4.** Статус прогресса и история в панели: `pending` → `in_progress` → `applied` / `needs_owner` / `rejected`; ссылки на проверенный GitHub commit/master SHA, ошибка и повтор. `owner_task` не смешивать со статусом однозначной кнопки.
 
 ## Тесты и safety
