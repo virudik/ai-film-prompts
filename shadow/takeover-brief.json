@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T02:33:37+00:00",
+ "generated_at": "2026-10-11T02:46:16+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "6c64544c8d6ec300513ed41d9d1dffb0ff1228f0c6aae8f1d5434204c07f0f45",
-   "bytes": 275086
+   "sha256": "cd56c29ed50cd29036026d5382bf2ee73ce018b43a9d4c1bfd866c0335589bfe",
+   "bytes": 276708
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -63,7 +63,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "435923dd67a6"
+   "section_sha256_12": "b270b1ae6d3f"
   },
   {
    "id": "INV-ONE-MASTER",
@@ -79,7 +79,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "435923dd67a6"
+   "section_sha256_12": "b270b1ae6d3f"
   },
   {
    "id": "INV-SERIAL-DOCS",
@@ -87,7 +87,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "435923dd67a6"
+   "section_sha256_12": "b270b1ae6d3f"
   },
   {
    "id": "INV-SCENE-ID",
@@ -119,7 +119,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "435923dd67a6"
+   "section_sha256_12": "b270b1ae6d3f"
   },
   {
    "id": "INV-NO-FAKE-TIME",
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 102304,
-  "above_marker_chars": 58906,
+  "chars": 103274,
+  "above_marker_chars": 59876,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,7 +194,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "b02bf2f18ae0",
+  "sha256_12": "148a2f881007",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
