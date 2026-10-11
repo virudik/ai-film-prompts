@@ -65,7 +65,7 @@ if 'id="filterPanel"' in html:
     raise SystemExit("left sidebar filters must remain directly visible, not collapsed")
 if 'grid-template-columns:292px minmax(0,1fr)' in html:
     raise SystemExit("regressed to over-compacted sidebar width")
-if 'Drive — канон · GitHub Pages — только чтение' not in html:
+if 'GitHub main — канон · Drive — копия' not in html:
     raise SystemExit("sidebar authority subtitle must remain concise and one-line friendly")
 if 'ПРОВЕРКА УСТАРЕЛА' in html:
     raise SystemExit("instruction freshness wording must clarify that the verification timestamp, not the instructions, is stale")
@@ -86,6 +86,14 @@ for required in (
         raise SystemExit("monitor freshness regression: "+required)
 if "chip('Запуск задачи',ageInfo(monitor.scheduler_observation.last_run_time)" in html:
     raise SystemExit("old scheduler timestamp must not masquerade as current monitoring activity")
+
+# Canonical authority is GitHub main: obsolete Drive-origin owner labels are forbidden.
+for old_label in ('Drive — канон','Drive→GitHub','Drive ↔ GitHub','Канон остаётся в Google Drive','7 канонических Drive-инструкций'):
+    if old_label in html:
+        raise SystemExit('obsolete Drive-authority label returned: '+old_label)
+for label in ('GitHub main — канон · Drive — копия',"chip('Проверка GitHub',",'Семь канонических инструкций GitHub main проверены'):
+    if label not in html:
+        raise SystemExit('GitHub canonical label is missing: '+label)
 
 # Both montage-analysis versions must remain published. The second file is large
 # and must never regress to an empty placeholder while the chooser still links to it.
