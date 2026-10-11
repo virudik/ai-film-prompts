@@ -118,7 +118,7 @@ elif args.me == primary:
 elif args.me != standby:
     action = "skip"
     reason = "not assigned primary or standby"
-elif args.me == "chatgpt" and not role.get("migration_state", {}).get("chatgpt_writer_eligible", True):
+elif args.me == "chatgpt" and not role.get("migration_state", {}).get("chatgpt_writer_eligible", False):
     action = "skip"
     reason = "ChatGPT migration pilot is read-only; writer takeover blocked until proven and approved"
 elif standby_age < standby_yield:
