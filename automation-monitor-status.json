@@ -3,20 +3,17 @@
   "purpose": "Durable unified monitor configuration, phase outcomes and notification deduplication; no signed URLs, credentials or full prompts.",
   "configured_at": "2026-10-06T06:04:45.168Z",
   "automation": {
-    "id": "trig_014eEvBooAV2hxx1asRo9snm",
-    "title": "AI Film — монитор Claude",
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "title": "AI Film — монитор ChatGPT",
     "is_enabled": true,
     "timing_mode": "exact_schedule",
     "timezone": "Europe/Moscow",
-    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
-    "runner": "claude_scheduled_task",
-    "requires_owner_computer": true,
-    "procedure": "ops/CLAUDE-MONITOR.md",
-    "since": "2026-10-10",
-    "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
+    "schedule": "hourly HH:55 Europe/Moscow",
+    "runner": "chatgpt_scheduled_task",
     "role": "primary",
-    "bound_to_owner_computer": "app_says_required_but_run_had_no_J_access",
-    "binding_note": "10.10.2026: в приложении Claude у задачи «Требуется этот компьютер (Vint)» (поле bound_device в list_triggers этого не показывает), но запуск 20:10 МСК доступа к диску J: не получил (cycle degraded). Компьютер нужен только для same-ID записи master."
+    "since": "2026-10-11T11:00:00Z",
+    "source": "owner-assigned monitor-role.json, verified automations control plane",
+    "owner_decision": "ChatGPT is writer until 16.10.2026 07:00 MSK; after this read-only until explicit new authorization"
   },
   "retired_automations": [
     {
@@ -206,10 +203,11 @@
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
     "runner": "chatgpt_scheduled_task",
-    "role": "standby",
+    "role": "disabled_legacy_not_active",
     "schedule": "hourly HH:00 Europe/Moscow",
     "takes_over_when": "primary last cycle older than monitor-role.json failover_after_minutes",
-    "note": "Owner decision 2026-10-10: two monitors, one primary, one standby; roles switch only by owner command. ChatGPT must read monitor-role.json before writing (its prompt still needs that update when its limit resets)."
+    "note": "Archived duplicate ChatGPT unified monitor disabled; not a standby process.",
+    "is_enabled": false
   },
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
@@ -219,5 +217,29 @@
   "last_successful_cycle_runner": "claude_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z"
+  },
+  "previous_primary_automation": {
+    "id": "trig_014eEvBooAV2hxx1asRo9snm",
+    "title": "AI Film — монитор Claude",
+    "is_enabled": true,
+    "timing_mode": "exact_schedule",
+    "timezone": "Europe/Moscow",
+    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
+    "runner": "claude_scheduled_task",
+    "requires_owner_computer": true,
+    "procedure": "ops/CLAUDE-MONITOR.md",
+    "since": "2026-10-10",
+    "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
+    "role": "primary",
+    "bound_to_owner_computer": "app_says_required_but_run_had_no_J_access",
+    "binding_note": "10.10.2026: в приложении Claude у задачи «Требуется этот компьютер (Vint)» (поле bound_device в list_triggers этого не показывает), но запуск 20:10 МСК доступа к диску J: не получил (cycle degraded). Компьютер нужен только для same-ID записи master."
+  },
+  "scheduler_observation": {
+    "source": "ChatGPT automations control plane read-back, not evidence of a successful monitoring cycle",
+    "last_run_time": "2026-10-11T16:58:34.256092Z",
+    "last_task_updated_at": "2026-10-11T16:58:57.264085Z",
+    "is_enabled": true,
+    "full_cycle_verified": false,
+    "observation_note": "Scheduled task ran after the last GitHub-reported degraded cycle, but no newer completed full cycle was committed. Do not advance last_scheduled_cycle or last_successful_cycle_at on this basis."
   }
 }

@@ -139,5 +139,41 @@ class MonitorHeartbeatTest(unittest.TestCase):
         self.assertEqual(status["last_successful_cycle_at"], finished)
 
 
+
+    def test_chatgpt_success_is_not_misattributed_to_claude(self):
+        old_claude = timestamp(190)
+        finished = timestamp(1)
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_successful_by_runner": {"claude": old_claude},
+            "last_completed_by_runner": {"claude": old_claude},
+        })
+        subprocess.run([sys.executable, str(STATUS_SCRIPT), str(self.repo),
+                        "--runner", "chatgpt", "--started", timestamp(2),
+                        "--completed", finished, "--health", "ok",
+                        "--phase", "topview", "--phase", "github_publication"],
+                       check=True, text=True, capture_output=True)
+        d = json.loads((self.repo / "automation-monitor-status.json").read_text())
+        self.assertEqual(d["last_scheduled_cycle"]["runner"], "chatgpt_scheduled_task")
+        self.assertEqual(d["last_successful_by_runner"]["chatgpt"], finished)
+        self.assertEqual(d["last_successful_by_runner"]["claude"], old_claude)
+        self.assertEqual(d["last_completed_by_runner"]["chatgpt"], finished)
+
+    def test_chatgpt_degraded_cannot_become_fake_success(self):
+        old = timestamp(210)
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_successful_by_runner": {"chatgpt": old},
+            "last_successful_cycle_at": old,
+        })
+        subprocess.run([sys.executable, str(STATUS_SCRIPT), str(self.repo),
+                        "--runner", "chatgpt", "--started", timestamp(2),
+                        "--completed", timestamp(1), "--health", "degraded",
+                        "--missing", "topview_direct_read"],
+                       check=True, text=True, capture_output=True)
+        d = json.loads((self.repo / "automation-monitor-status.json").read_text())
+        self.assertEqual(d["last_scheduled_cycle"]["runner"], "chatgpt_scheduled_task")
+        self.assertEqual(d["last_successful_by_runner"]["chatgpt"], old)
+        self.assertEqual(d["last_successful_cycle_at"], old)
+        self.assertEqual(d["health"], "degraded")
+
 if __name__ == "__main__":
     unittest.main()

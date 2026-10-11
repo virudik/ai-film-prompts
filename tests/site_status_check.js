@@ -25,7 +25,7 @@ function scenarios() {
     { name: 'Topview checked_at invalid', tv: Object.assign(freshTv(), { checked_at: 'not-a-date' }), mon: freshMon(), expect: { cls: 'warn', text: 'ДАННЫЕ TOPVIEW УСТАРЕЛИ' } },
     { name: 'Topview checked_at in the future', tv: Object.assign(freshTv(), { checked_at: iso(-90) }), mon: freshMon(), expect: { cls: 'warn', text: 'НЕВЕРНОЕ ВРЕМЯ ПРОВЕРКИ' } },
     { name: 'monitor cycle 3 h old', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.completed_at = iso(180); return m; })(), expect: { cls: 'warn', text: 'МОНИТОР НЕ ОТВЕЧАЕТ' } },
-    { name: 'monitor cycle unhealthy', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.health = 'degraded'; return m; })(), expect: { cls: 'warn', text: 'МОНИТОР НЕ ОТВЕЧАЕТ' } },
+    { name: 'monitor cycle unhealthy', tv: freshTv(), mon: (() => { const m = freshMon(); m.last_scheduled_cycle.health = 'degraded'; return m; })(), expect: { cls: 'warn', text: 'МОНИТОР: НЕПОЛНЫЙ ЦИКЛ' } },
     { name: 'monitor file missing (backward compatible)', tv: freshTv(), mon: 404, expect: { cls: 'ok', text: 'ПРОЕКТ СИНХРОНИЗИРОВАН' } },
     { name: 'wrong master SHA is never green', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { canonical_master_sha256: '0'.repeat(64) }), expect: { cls: 'bad', text: 'ОШИБКА' } },
     { name: 'canonical health error is red even with fresh telemetry', tv: freshTv(), mon: freshMon(), status: Object.assign(clone(status), { health: 'error' }), expect: { cls: 'bad', text: 'ОШИБКА' } },
