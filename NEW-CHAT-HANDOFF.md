@@ -3,7 +3,8 @@
 > **ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ — 11.10.2026, 03:25 МСК (решение владельца).** С этого момента редактируемый канон — **GitHub `virudik/ai-film-prompts`, ветка `main`**: `video-prompts.md` и эти 7 инструкций. Google Drive (папка «AI Film Prompts Master», те же имена файлов) — **копия только для чтения**, обновляется периодически из GitHub; на Drive ничего не править. Любое более старое место ниже, где написано «Drive = editable master / canonical», «same-ID Drive write», «Drive → GitHub mirror», «сверка 7/7 Drive↔GitHub», читать так: правка = коммит в GitHub `main` (минимальный diff, `git pull --rebase` перед push) → для master `SYNC-TRIGGER.txt` → валидатор `project-status.health=ok` → Pages → проверка; после изменения инструкций — `python3 scripts/cert_github.py .`. GitHub больше не забирает master с Drive; если Drive-копию поправили вручную, workflow откроет issue `drive-drift`, и агент переносит правку в GitHub. Один писатель и защита от одновременной записи сохраняются (git отклоняет устаревший push; `monitor-role.json`). Ключ `GDRIVE_SA_KEY` теперь нужен только для автоматического обновления Drive-копии и не обязателен; компьютер владельца для правки канона не нужен.
 
 - **Что сделано в GitHub (01:55–04:00 МСК):** `sync-from-drive.yml` строит `project-status.json` из master в `main` и только сторожит Drive-копию (issue `drive-drift`); валидатор понимает режим `source_of_truth=github` в `instruction-sync-status.json` (сверка blob GitHub-файлов, Drive-копия справочно); `scripts/cert_github.py` — обновление сертификата после правок инструкций.
-- **Drive-копия:** обновляет вечернее обслуживание Claude (21:40 МСК) через компьютер владельца, если он включён; после ключа `GDRIVE_SA_KEY` — автоматически `drive-write.yml`. Опоздание копии ничего не ломает.
+- **Резервные копии (решение владельца 11.10 03:46):** канон один — GitHub `main`; Drive, Notion, Claude Project, ChatGPT Project и Library — резервные копии, обновляются автоматически: Drive — ChatGPT в суточной проверке через Drive-коннектор (без компьютера), запасной путь — вечернее обслуживание Claude через J:, ключ `GDRIVE_SA_KEY` необязателен; Claude Project и Notion — вечернее обслуживание Claude (21:40 МСК); ChatGPT Project и Library — ChatGPT. Таблица — `BACKUP-AI-RUNBOOK.md` «РЕЗЕРВНЫЕ КОПИИ КАНОНА». Новые тексты Project Instructions обоих проектов — `USER-GUIDE.md` «Тексты Project Instructions (11.10.2026)», владелец вставляет сам.
+- **Ключи (11.10 03:46):** для работы без компьютера ни один ключ сейчас не обязателен — монитор Claude в облаке читает Topview и Supabase коннекторами, канон пишется в GitHub. `SUPABASE_SERVICE_ROLE_KEY` и `TOPVIEW_API_KEY`/`TOPVIEW_UID` дали бы работу GitHub Actions вообще без агентов (экономия лимитов подписок) — оптимизация, не условие. Компьютер владельца остаётся нужен для запуска генераций Topview (вход на сайте Topview во встроенном браузере) и как запасной путь Drive-копии.
 - **ChatGPT:** правит канон коммитами в GitHub (как уже коммитит зеркала), а не Drive-коннектором; при takeover читает канон из GitHub `main` (Drive-копия может отставать).
 - **Мониторы (01:55):** `monitor-alert` и подхват считают живым только здоровый цикл (`health=ok`, без `phases_missing`); защита от одновременной записи в `scripts/monitor_role.py` блокирует цикл только при коммитах другого агента в файлы телеметрии/master (`WRITER_FILES`) — правки документации больше не глушат монитор (инцидент 10.10 18:10–23:10 UTC). Промт монитора Claude: писать или нет решает только `monitor_role.py`; новые сцены — только с согласия владельца.
 - **Облегчённая проверка Topview (03:16, экономия лимита):** каждый час — список досок со счётчиками задач + первая страница новых задач основной доски + `get_board_task` по активным; полный обход всех досок и страниц — раз в ~3 часа или при любом расхождении счётчиков; решает `scripts/topview_light_check.py`; оба режима — полноценный цикл (`ops/CLAUDE-MONITOR.md` шаг 2).
@@ -1296,40 +1297,7 @@ Per Scene ID it tracks five independent facts: `result_received`, `reviewed`, `a
 
 ### Рекомендуемый текст ChatGPT Project Instructions
 
-
-```text
-Ты — основной редактор и оператор проекта «AI Film Серёгиус». Отвечай по-русски, если пользователь не просит иначе.
-
-
-Главное: Project-чаты, Project files и память дают continuity, но НЕ являются источником истины. При конфликте всегда перепроверяй live-канон.
-
-
-Перед substantive project work используй takeover из NEW-CHAT-HANDOFF.md. Минимальный bootstrap нового чата/Work: 7 canonical Drive docs → fresh exact Drive video-prompts.md (ID 1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj) → live project-status.json → topview-status.json → instruction-sync-status.json. Перед записью в master сделай ещё один fresh-read exact Drive master.
-
-
-Authority: Google Drive = editable prompt master + canonical instructions; GitHub = mirror/status/site/Pages; Topview = generation telemetry only; Notion = story/ideas/history; Library = recovery cache. Старые чаты, вложения и generated copies не должны переопределять live authority.
-
-
-Не проси пользователя повторять сведения, уже доступные в Project/canonical sources, и не перекладывай на него ручные шаги, которые можешь выполнить инструментами. Перед заявлением «нет доступа» сделай capability preflight.
-
-
-Prompt work: fresh PROMPT-STYLE-GUIDE.md + fresh master + 1–2 близкие current scenes; сохраняй continuity, identity, camera/space, refs, native audio и master-level detail. Story/editing: fresh film-analysis.md + film-backlog.md + релевантный Notion «Кино».
-
-
-Любая master-правка: minimal same-ID Drive edit → SYNC-TRIGGER → validation → GitHub mirror/project-status → Pages → verification. Никаких v2/final/copy. Не говорить «готово», пока relevant verification не прошла.
-
-
-Topview: technical success != approval. Не approve/delete/rerun автоматически. Hourly watcher и Recovery должны сами поддерживать актуальный Topview snapshot и три согласованных представления сайта; пользователь не обязан вручную следить за очередью.
-
-
-Материальное изменение workflow/site/authority/recovery в том же цикле документируй в relevant canonical Drive docs и SAME NEW-CHAT-HANDOFF.md, затем exact GitHub mirrors + instruction status + Notion pointer. Library recovery — best-effort/non-blocking: не останавливай работу и не проси владельца подтверждать каждую перезапись Library; если интерактивное разрешение требуется, пометь Library pending/stale и продолжай.
-
-
-Для длинной многошаговой работы предпочитай Work внутри этого Project. Для одиночных творческих задач можно обычный Project Chat. Новый чат не начинает проект заново: сначала восстанавливает live state и продолжает с текущего места.
-
-
-Пользовательские решения обязательны только для творческих/редакционных выборов, неоднозначного task↔Scene mapping, approval, rerender, удаления/закрытия сцен и других недетерминированных действий.
-```
+Устарел: актуальные тексты для обоих проектов — `USER-GUIDE.md`, раздел «Тексты Project Instructions (11.10.2026)».
 
 
 ## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026

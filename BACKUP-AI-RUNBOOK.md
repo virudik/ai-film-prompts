@@ -2,6 +2,21 @@
 
 > **ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ — 11.10.2026, 03:25 МСК (решение владельца).** С этого момента редактируемый канон — **GitHub `virudik/ai-film-prompts`, ветка `main`**: `video-prompts.md` и эти 7 инструкций. Google Drive (папка «AI Film Prompts Master», те же имена файлов) — **копия только для чтения**, обновляется периодически из GitHub; на Drive ничего не править. Любое более старое место ниже, где написано «Drive = editable master / canonical», «same-ID Drive write», «Drive → GitHub mirror», «сверка 7/7 Drive↔GitHub», читать так: правка = коммит в GitHub `main` (минимальный diff, `git pull --rebase` перед push) → для master `SYNC-TRIGGER.txt` → валидатор `project-status.health=ok` → Pages → проверка; после изменения инструкций — `python3 scripts/cert_github.py .`. GitHub больше не забирает master с Drive; если Drive-копию поправили вручную, workflow откроет issue `drive-drift`, и агент переносит правку в GitHub. Один писатель и защита от одновременной записи сохраняются (git отклоняет устаревший push; `monitor-role.json`). Ключ `GDRIVE_SA_KEY` теперь нужен только для автоматического обновления Drive-копии и не обязателен; компьютер владельца для правки канона не нужен.
 
+## РЕЗЕРВНЫЕ КОПИИ КАНОНА — кто и когда обновляет (решение владельца 11.10.2026, 03:46 МСК)
+
+Канон один — GitHub `main`. Всё остальное — резервные копии: обновляются периодически и автоматически, опоздание копии ничего не ломает, копию никогда не правят вместо канона. Копии не должны отставать от `main` больше чем на 48 ч.
+
+| Копия | Кто | Когда | Как |
+|---|---|---|---|
+| Google Drive «AI Film Prompts Master» (те же file ID) | **ChatGPT — основной путь, без компьютера** | суточная проверка ChatGPT | Drive-коннектор same-ID: файлы, чей sha отличается от `main` (master, 7 инструкций, `film-backlog.md`, `film-analysis.md`), перезаписать точной копией из `main`; перед записью убедиться, что Drive-файл совпадает с одной из прошлых версий в GitHub (иначе его правили вручную — не затирать, перенести правку в GitHub или спросить владельца; workflow открывает issue `drive-drift`); read-back; `python3 scripts/cert_github.py . --drive-copy-dir <скачанные копии>` и коммит |
+| то же | Claude — запасной путь | вечернее обслуживание 21:40 МСК, если копия отстаёт больше суток и компьютер владельца включён | диск J: по одному файлу с mtime-guard, сразу проверка размера (обрезанную запись перезаписать), read-back Drive-коннектором, `cert_github.py` |
+| то же | GitHub `drive-write.yml` | автоматически, только если владелец когда-нибудь добавит `GDRIVE_SA_KEY` (необязательно) | сервисный аккаунт |
+| Файлы Claude Project | Claude | вечернее обслуживание 21:40 МСК | `project_write`; `claude/CURRENT-STATE.md` = верхние блоки хендофа |
+| Notion «🧭 AI Film — Актуальная инструкция / Handoff» | Claude | вечернее обслуживание и при материальных изменениях | Summary + верхний блок-указатель |
+| Файлы ChatGPT Project и Library | ChatGPT | суточная проверка ChatGPT | best-effort; если Library требует интерактивного разрешения — пометить stale и продолжить |
+
+Свежесть Drive-копии видна в `instruction-sync-status.json` (поля `drive_copy_*`) и по issue `drive-drift`. Если один агент выбыл (лимит), Drive-копию подхватывает другой при ближайшем обслуживании; Project files и Library каждого агента обновляет только он сам.
+
 ## ВОССТАНОВЛЕНИЕ — live checkpoint 11.10.2026 МСК
 
 При takeover сначала семь fresh canonical Drive docs и same-ID master, затем GitHub `project-status.json`/`topview-status.json`/`instruction-sync-status.json` и `monitor-role.json`. На текущем checkpoint master 17 scenes/50 prompts, retired in-film IDs 10,11,17,19,22,23,29 зарезервированы; Scenes35–37 DRAFT и не запускаются автоматически. Live runtime может измениться — числа не фиксировать навечно. В однописательской паре Claude primary / ChatGPT standby (роль всегда определяется live JSON) failover только после 180 минут без **здорового полного цикла**; `degraded` не reset success clock. CI regression suite добавлен к integration tests и прошёл 10.10.2026 run 38087297146.
