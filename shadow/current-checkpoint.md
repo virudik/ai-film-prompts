@@ -1,3 +1,5 @@
+> **11.10.2026 — приоритет мониторинга ChatGPT (временный writer до 16.10 07:00 МСК):** быстрый ежечасный протокол — `ops/CHATGPT-MONITOR-FAST-PATH.md`. Каждый допущенный запуск обязан оставить реальный `automation-monitor-status.json` даже при `degraded`; никаких ложных heartbeat. Теневой Topview-робот не заменяет полноценный ChatGPT-цикл. Canonical slow снимается исключительно кнопкой владельца.
+
 > ДОПОЛНЕНИЕ К OWNER-SLOW (11.10): кнопка «Не ждать» означает только owner release; `robot_master_actions.drop_task_telemetry` не трогает физические Topview `active_tasks` и `occupied_slots`, пока провайдер реально не завершил задачу; release сохраняется в `topview-task-map.json.owner_released_task_ids`. GitHub `ROBOT_MASTER_ACTIONS=on` пока отдельно не подтверждён: фаза 2 остаётся выключенной; её нельзя выдавать за работающую. Монитор обрабатывает допустимые owner_decisions с проверкой GitHub read-back.
 
 
