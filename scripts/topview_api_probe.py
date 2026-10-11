@@ -53,7 +53,11 @@ def main():
     f = ROOT / "topview-status.json"
     if f.exists():
         data = json.loads(f.read_text(encoding="utf-8"))
-        for t in (data.get("active_tasks") or [])[:1]:
+        cands = list(data.get("active_tasks") or [])
+        tm = ROOT / "topview-task-map.json"
+        if not cands and tm.exists():  # no active task: test the most recent known board task instead
+            cands = [{"task_id": p.get("task_id")} for p in (json.loads(tm.read_text(encoding="utf-8")).get("processed_tasks") or [])[-1:]]
+        for t in cands[:1]:
             tid = str(t.get("task_id", ""))
             if not tid or len(tid) > 100:
                 continue
@@ -65,6 +69,8 @@ def main():
                             for path in QUERY_PATHS}
             }
     print(json.dumps(out, ensure_ascii=False, sort_keys=True))
+    # also as a workflow annotation, readable via the check-runs API (no secrets inside)
+    print("::notice title=topview-probe::" + json.dumps(out, ensure_ascii=False, sort_keys=True))
     print("Topview public API board-list coverage and 6 free slots still unverified; "
           "DO NOT publish this diagnostic to topview-status.json.")
     return 0
