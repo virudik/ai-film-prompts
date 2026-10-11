@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T04:21:34.024Z",
+  "checked_at": "2026-10-11T04:41:30.547Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "306961bf9b6b162089716a57ed42f5439af59ee2",
-      "mirror_sha256": "0a47f93ce0a42ae20fad68c62e85810ce22d699b984588aa87f04c1afd224791",
+      "github_blob": "f403cbe87a58a983cacc93ace12c2fd2865c7549",
+      "mirror_sha256": "d2aa06261b4f23d6f08335557538dc3d5f03948564aebb60d1900723632db3a9",
       "match": true,
       "drive_copy_sha256": "6c64544c8d6ec300513ed41d9d1dffb0ff1228f0c6aae8f1d5434204c07f0f45",
       "drive_copy_match": false,
