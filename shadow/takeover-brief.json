@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T16:11:31+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-11T16:11:53+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
  "sources": [
@@ -341,7 +341,7 @@
    "title": "Коты в кабине: запуск корабля и взлёт",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -361,7 +361,7 @@
    "title": "Коты в кабине: космическое сражение",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -405,7 +405,7 @@
    "title": "Серёга против котов-магистров: бой на световых мечах",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -449,7 +449,7 @@
    "title": "Коты против Серёги: разрушение колоннады",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -473,7 +473,7 @@
    "title": "Коты против Серёги: лестница и телекинетические обломки",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
