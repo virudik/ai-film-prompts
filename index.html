@@ -269,7 +269,7 @@ function renderTopview(tv,md){
   if(!done&&x.topview_estimated_wait_seconds!=null)providerHours=Math.max(0,Number(x.topview_estimated_wait_seconds)/3600);
   const snap=ageInfo(tv?.checked_at),snapH=Number.isFinite(snap.min)?snap.min/60:0;
   const left=providerHours!=null?providerHours-snapH:null;
-  const eta=left==null?'—':snap.state!=='fresh'?'<span class="eta-stale" title="Оценка Topview на момент проверки; данные устарели">≈ '+esc(fmtHours(Math.max(0,left)))+' · снимок '+esc(fmtAge(snap.min))+'</span>':left<=0?'<b>ожидается готовность</b>':'<b>≈ '+esc(fmtHours(left))+'</b>';
+  const eta=left==null?'—':snap.state!=='fresh'?'<span class="eta-stale" title="Оценка Topview на момент проверки; данные устарели">≈ '+esc(fmtHours(Math.max(0,left)))+' · снимок '+esc(fmtAge(snap.min))+'</span>':left<=0?'<span class="eta-stale" title="Срок по оценке Topview на момент проверки уже прошёл, а задача ещё не готова. Новую оценку даст следующая проверка монитора.">срок по оценке прошёл · ждём</span>':'<b>≈ '+esc(fmtHours(left))+'</b>';
   const queue=x.queue_count!=null?Number(x.queue_count).toLocaleString('ru-RU'):'—';
   const cls=['success'].includes(st)?'success':['fail','failed','cancelled'].includes(st)?'fail':'pending';
   const statusText=esc(tvStatusLabel(st));
