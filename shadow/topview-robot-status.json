@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-11T15:22:44Z",
+  "checked_at": "2026-10-11T15:51:00Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -24,7 +24,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 7,
     "detail_failed": []
   },
   "cursor": {
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2535,
-      "wait_seconds": 85290,
+      "queue_count": 2511,
+      "wait_seconds": 83593,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2876,
-      "wait_seconds": 102569,
+      "queue_count": 2852,
+      "wait_seconds": 100873,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1799,
-      "wait_seconds": 50729,
+      "queue_count": 1769,
+      "wait_seconds": 49033,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1343,
-      "wait_seconds": 33448,
+      "queue_count": 1297,
+      "wait_seconds": 31753,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2190,
-      "wait_seconds": 68009,
+      "queue_count": 2160,
+      "wait_seconds": 66313,
       "process_seconds": null
     }
   ],
@@ -165,15 +165,7 @@
       "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence."
     }
   ],
-  "finished_known": [
-    {
-      "task_id": "71ff9f82cf864225b0cea5caae96854a",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-10-11 15:04:15",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -200,7 +192,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-11T03:10:58Z",
-    "monitor_age_minutes": 732,
+    "monitor_age_minutes": 760,
     "monitor_occupied": 0,
     "robot_occupied": 5,
     "consistent": false,
