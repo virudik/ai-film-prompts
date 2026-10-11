@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T14:17:49+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-11T16:11:31+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
-   "bytes": 548862
+   "sha256": "e2ed214df6963d5174bcca934d2f6972111ce00c3563cf9fe21c9fccc9eba8a1",
+   "bytes": 550848
   }
  ],
  "invariants": [
@@ -267,7 +267,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 25723,
+   "offset": 26452,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -289,7 +289,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 38283,
+   "offset": 39012,
    "chars": 13285,
    "sha256_12": "ea333195cce8"
   },
@@ -312,7 +312,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 51568,
+   "offset": 52297,
    "chars": 169240,
    "sha256_12": "923f01691381"
   },
@@ -332,7 +332,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 220808,
+   "offset": 221537,
    "chars": 14407,
    "sha256_12": "106cff4a5cea"
   },
@@ -352,9 +352,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 235215,
-   "chars": 9978,
-   "sha256_12": "de5774965c9b"
+   "offset": 235944,
+   "chars": 10121,
+   "sha256_12": "14f571f42505"
   },
   {
    "id": 25,
@@ -374,9 +374,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 245193,
-   "chars": 7688,
-   "sha256_12": "0951b58b93f8"
+   "offset": 246065,
+   "chars": 7831,
+   "sha256_12": "fa8c75d4699a"
   },
   {
    "id": 26,
@@ -396,7 +396,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 252881,
+   "offset": 253896,
    "chars": 11023,
    "sha256_12": "e1a8783cfe9f"
   },
@@ -420,9 +420,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 263904,
-   "chars": 36052,
-   "sha256_12": "74f9f994f645"
+   "offset": 264919,
+   "chars": 36195,
+   "sha256_12": "8982e606a961"
   },
   {
    "id": 28,
@@ -440,7 +440,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 299956,
+   "offset": 301114,
    "chars": 130427,
    "sha256_12": "dcd69af7849d"
   },
@@ -464,9 +464,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 430383,
-   "chars": 7718,
-   "sha256_12": "15792ffc960a"
+   "offset": 431541,
+   "chars": 7861,
+   "sha256_12": "98807b4f7026"
   },
   {
    "id": 31,
@@ -488,9 +488,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 438101,
-   "chars": 7534,
-   "sha256_12": "e63eaa1e0ebc"
+   "offset": 439402,
+   "chars": 7677,
+   "sha256_12": "9ff63ee430c6"
   },
   {
    "id": 32,
@@ -512,7 +512,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 445635,
+   "offset": 447079,
    "chars": 7717,
    "sha256_12": "aaa2050e2dfd"
   },
@@ -530,7 +530,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 453352,
+   "offset": 454796,
    "chars": 4600,
    "sha256_12": "c434640420c2"
   },
@@ -550,7 +550,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 457952,
+   "offset": 459396,
    "chars": 4960,
    "sha256_12": "2359ffefb996"
   },
@@ -571,7 +571,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 462912,
+   "offset": 464356,
    "chars": 6397,
    "sha256_12": "be29369dada9"
   },
@@ -590,7 +590,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 469309,
+   "offset": 470753,
    "chars": 5915,
    "sha256_12": "05d5c70b6b3a"
   },
@@ -611,7 +611,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 475224,
+   "offset": 476668,
    "chars": 6373,
    "sha256_12": "b4ce1e9cae62"
   },
@@ -632,7 +632,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 481597,
+   "offset": 483041,
    "chars": 8519,
    "sha256_12": "e8c5acb610b3"
   }
