@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T00:31:55+00:00",
+ "generated_at": "2026-10-11T00:50:10+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [
   "NEW-CHAT-HANDOFF.md",
@@ -18,8 +18,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "98ef494fd8436595f686da57af089712271bf2839cd30888492d9c0ec2cf1dea",
-   "bytes": 273227
+   "sha256": "663f2c44923eb518c72bd2bf3e233b7fc50300ea4635546e64e1bc1c2906636a",
+   "bytes": 270870
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -42,8 +42,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "ceb7754a7393bef8b5d7e8905c5c40a82fe95911f369ef300a69727cf24ccfba",
-   "bytes": 106717
+   "sha256": "8c0377eee9e6d8eb8d82160e1b499732cd57f10ca6c9d353b8998a9edade8f56",
+   "bytes": 117428
   },
   {
    "file": "README-AI-SYNC.md",
@@ -54,8 +54,8 @@
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "6f24d9b7adacd6c03710ab70926027b76e61dbbe835a23f053347665961d4d9d",
-   "bytes": 91271
+   "sha256": "ba59cb70f347bba02f953a0a2ecdadff0a46a0b0f71a80d0b4f0b07fe6092176",
+   "bytes": 94532
   },
   {
    "file": "video-prompts.md",
@@ -188,8 +188,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 98835,
-  "above_marker_chars": 55437,
+  "chars": 99763,
+  "above_marker_chars": 56365,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -202,7 +202,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "942169a1c41b",
+  "sha256_12": "4bba519421f3",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
