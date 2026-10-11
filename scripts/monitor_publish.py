@@ -12,6 +12,8 @@ cycle.json:
              "status":"init","started_at":"…Z","queue_count":1,"wait_seconds":2,
              "mapping_confidence":"exact canonical Scene 16 prompt/reference/model match"}],
  "finished": [{"scene_id":30,"task_id":"…","final_status":"success","finished_at":"…Z"}],
+ "scan_mode": "full" | "light",   # light = topview_light_check.py said "light" (owner decision 11.10)
+ "board_task_counts": {"<boardId>": <taskCount from topview_list_boards>, ...},
  "operation": "claude_monitor_hourly_cycle", "previous_status": "…", "new_status": "…",
  "verification": "…", "note": "…",
  "canonical": {"verified_at":"…Z","master_sha256":"…","health":"ok"}
@@ -44,8 +46,18 @@ def main():
             m["processed_tasks"].append({"task_id": f["task_id"], "scene_id": f["scene_id"], "final_status": f["final_status"], "finished_at": f["finished_at"]})
     m["processed_tasks"] = m["processed_tasks"][-m.get("retention", {}).get("processed_tasks_max", 200):]
     c = m["scan_cursor"]
+    mode = cyc.get("scan_mode", "full")
+    assert mode in ("full", "light")
     ov = (datetime.fromisoformat(T.replace("Z", "+00:00")) - timedelta(hours=6)).isoformat(timespec="milliseconds").replace("+00:00", "Z")
-    c.update(last_successful_scan_at=T, pages_scanned=cyc["pages"], tasks_scanned=cyc["video_tasks"], total_video_tasks=cyc["video_tasks"], overlap_from=ov, unknown_recent_tasks=0, boards_scanned=cyc["boards"])
+    if mode == "full":
+        c.update(pages_scanned=cyc["pages"], tasks_scanned=cyc["video_tasks"], total_video_tasks=cyc["video_tasks"],
+                 boards_scanned=cyc["boards"], last_full_scan_at=T)
+    else:  # light: totals stay from the last full scan; completeness proven by board task counts
+        cyc.setdefault("pages", c.get("pages_scanned")); cyc.setdefault("video_tasks", c.get("total_video_tasks"))
+        cyc.setdefault("boards", c.get("boards_scanned"))
+    if cyc.get("board_task_counts"):
+        c["board_task_counts"] = cyc["board_task_counts"]
+    c.update(last_successful_scan_at=T, overlap_from=ov, unknown_recent_tasks=0, scan_mode=mode)
     save("topview-task-map.json", m)
 
     j = load("topview-operation-journal.json")
@@ -85,7 +97,8 @@ def main():
                  topview_estimated_process_seconds=None, checked_at=T, active_task_ids=[], completed_at=f["finished_at"])
         sc[sid] = e
     ao = t.setdefault("account_observation", {})
-    ao.update(scope="all_owned_boards_unlimited_video_tasks", complete=True, checked_at=T, boards_scanned=cyc["boards"],
+    ao.update(scope="all_owned_boards_unlimited_video_tasks", complete=True, checked_at=T,
+              scan_mode=("full_all_pages" if mode == "full" else "light_board_counts_verified"), boards_scanned=cyc["boards"],
               video_tasks_scanned=cyc["video_tasks"], pages_scanned=cyc["pages"], slot_capacity=t.get("slot_capacity", 6),
               occupied_slots=len(act), free_slots=t["free_slots"], active_task_ids=ids)
     save("topview-status.json", t)

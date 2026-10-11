@@ -14,12 +14,12 @@
 ## Шаги
 1. `cd /home/claude/ai-film-prompts` (если нет — `git clone https://github.com/virudik/ai-film-prompts`), затем `git fetch && git checkout -B work origin/main`. Запомнить `started_at` (UTC, реальное).
    - **Роль.** `python3 scripts/monitor_role.py . --me claude`. `skip` — сразу закончить: ничего не писать, статус цикла не трогать (иначе спрячется отставание основного). `run` — обычный цикл. `failover` — скрипт уже сделал тебя основным в `monitor-role.json`: обычный цикл, `monitor-role.json` закоммитить вместе с ним, в note: «takeover от <прежний основной>», владельцу одно сообщение «основным монитором стал Claude».
-2. **Скан Topview.**
-   - `topview_list_boards` (`mode=my-boards`, `pageSize=50`).
-   - Для каждой доски с задачами — `topview_list_board_tasks` (`mediaType=video`, `pageSize=100`, все страницы; у основной доски `1a6244cf1ae747ef847d949a80d6133c` 4 страницы). Большие ответы сохраняются в файлы tool-results — это нормально.
-   - Сводка: `python3 scripts/topview_scan_summary.py . <файлы страниц> --inline-total <число задач из маленьких досок, прочитанных inline>`.
-   - Для каждой задачи из `active` — `topview_get_board_task`: точный статус и `estimateInfo` (`queueCount`, `estimatedWaitSeconds`).
-   - Время окончания скана = `checked_at`.
+2. **Скан Topview: облегчённый каждый час, полный раз в ~3 часа** (решение владельца 11.10 — экономия лимита подписки).
+   - Всегда: `topview_list_boards` (`mode=my-boards`, `pageSize=50`) и первая страница новых задач основной доски `1a6244cf1ae747ef847d949a80d6133c`: `topview_list_board_tasks` (`mediaType=video`, `sortField=gmtCreate`, `sortOrder=desc`, `pageSize=20`, `pageNo=1`). Ответы сохранить в файлы.
+   - Решение: `python3 scripts/topview_light_check.py . <boards.json> <page.json>` → `light` или `full` с причинами. Полный обход обязателен, если: прошлому полному больше 170 мин, сменилось число задач на любой другой доске, основная доска выросла больше, чем видно новых задач на первой странице, или нет сохранённых счётчиков. Для суточной глубокой проверки — `--force-full`.
+   - **light:** для каждой известной активной задачи — `topview_get_board_task` (статус, `queueCount`, `estimatedWaitSeconds`); новые задачи — из `unknown_new` скрипта. В `cycle.json`: `"scan_mode": "light"`, `board_task_counts` из ответа скрипта.
+   - **full:** все доски с задачами, все страницы `topview_list_board_tasks` (`mediaType=video`, `pageSize=100`), сводка `python3 scripts/topview_scan_summary.py . <файлы страниц> --inline-total <N>`, затем `topview_get_board_task` для активных. В `cycle.json`: `"scan_mode": "full"`, `boards`, `pages`, `video_tasks`, `board_task_counts`.
+   - Время окончания скана = `checked_at`. Оба режима — полноценный здоровый цикл (полнота light доказана счётчиками досок).
 3. **Классификация.**
    - `finished_known` — terminal (`success` / `fail`) у прежде активных задач.
    - `unknown_new` — новые задачи. Сцену определить по совпадению промта с fresh master (нормализованное сравнение блока промта, модель, референсы). Совпадение однозначно — задача существующей сцены, тот же Scene ID. Сомнение — ничего не менять и написать владельцу (решение «неоднозначный task↔Scene» — за ним). **Совсем новый промт (новая сцена) — тоже только владельцу**: новый Scene ID монитор сам не заводит (решение 10.10).
