@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-11T15:51:00Z",
+  "checked_at": "2026-10-11T16:23:50Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -59,10 +59,10 @@
       "unlimited": true,
       "created_at": "2026-10-11 05:11:58",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2511,
-      "wait_seconds": 83593,
+      "scene_id": 30,
+      "mapping": "task_map",
+      "queue_count": 2462,
+      "wait_seconds": 81624,
       "process_seconds": null
     },
     {
@@ -72,10 +72,10 @@
       "unlimited": true,
       "created_at": "2026-10-11 05:13:31",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2852,
-      "wait_seconds": 100873,
+      "scene_id": 31,
+      "mapping": "task_map",
+      "queue_count": 2804,
+      "wait_seconds": 98903,
       "process_seconds": null
     },
     {
@@ -85,10 +85,10 @@
       "unlimited": true,
       "created_at": "2026-10-11 05:10:23",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 1769,
-      "wait_seconds": 49033,
+      "scene_id": 25,
+      "mapping": "task_map",
+      "queue_count": 1710,
+      "wait_seconds": 47063,
       "process_seconds": null
     },
     {
@@ -98,10 +98,10 @@
       "unlimited": true,
       "created_at": "2026-10-11 05:09:58",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 1297,
-      "wait_seconds": 31753,
+      "scene_id": 24,
+      "mapping": "task_map",
+      "queue_count": 1221,
+      "wait_seconds": 29783,
       "process_seconds": null
     },
     {
@@ -111,67 +111,21 @@
       "unlimited": true,
       "created_at": "2026-10-11 05:11:31",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2160,
-      "wait_seconds": 66313,
+      "scene_id": 27,
+      "mapping": "task_map",
+      "queue_count": 2106,
+      "wait_seconds": 64343,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "a3efa5cce8224b7896e8166e0d5f2b9e",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-11 05:09:58",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Seedance 2.5 | Photoreal live-action space-opera cockpit | Continuous phys"
-    },
-    {
-      "task_id": "57b6f3aac4804d2486721131e30640f6",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-11 05:10:23",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Seedance 2.5 | Photoreal cockpit battle | Continuous interior perspective\r"
-    },
-    {
-      "task_id": "dbe204aeb9a74478af04c6bbfe7693f9",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-11 05:11:31",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Seedance 2.5 | Photoreal live-action lightsaber combat | Aggressive but re"
-    },
-    {
-      "task_id": "3710685303634b2482b90581aa6a8a2b",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-11 05:11:58",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence."
-    },
-    {
-      "task_id": "4682335cffc24a339179845c2713c46e",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-11 05:13:31",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence."
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
       "task_id": "71ff9f82cf864225b0cea5caae96854a",
-      "scene_id": null,
-      "mapping": "unknown_new",
+      "scene_id": 21,
+      "mapping": "task_map",
       "final_status": "success",
       "completed_at": "2026-10-11 15:04:15"
     },
@@ -191,48 +145,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-11T03:10:58Z",
-    "monitor_age_minutes": 760,
-    "monitor_occupied": 0,
+    "monitor_checked_at": "2026-10-11T16:10:48Z",
+    "monitor_age_minutes": 13,
+    "monitor_occupied": 5,
     "robot_occupied": 5,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "3710685303634b2482b90581aa6a8a2b",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "4682335cffc24a339179845c2713c46e",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "57b6f3aac4804d2486721131e30640f6",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "a3efa5cce8224b7896e8166e0d5f2b9e",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "dbe204aeb9a74478af04c6bbfe7693f9",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 0,
-        "robot": 5
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
