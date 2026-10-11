@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "purpose": "Separate technical render-result receipt from human review/editorial/montage decisions. This ledger does not override the Drive master, Topview telemetry, or film edit.",
+  "purpose": "Separate technical render-result receipt from human review/editorial/montage decisions. This ledger does not override the master in GitHub main, Topview telemetry, or the film edit.",
   "authority": {
-    "scene_membership": "Google Drive video-prompts.md / project-status.json",
+    "scene_membership": "video-prompts.md in GitHub main / project-status.json",
     "result_received": "Topview terminal success may set this true automatically for a known Scene ID",
     "reviewed": "human/editorial decision only",
     "accepted": "human/editorial decision only",
@@ -85,7 +85,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "11": {
       "result_received": true,
@@ -103,7 +103,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "13": {
       "result_received": true,
@@ -154,7 +154,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "19": {
       "result_received": true,
@@ -172,7 +172,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "20": {
       "result_received": true,
@@ -224,7 +224,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "23": {
       "result_received": true,
@@ -242,7 +242,7 @@
       "insert_timecode": null,
       "export_reviewed": null,
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write"
+      "canonical_master_removal": "done_removed_from_master_in_main"
     },
     "24": {
       "result_received": true,
@@ -333,7 +333,7 @@
       "montage_note": "в фильме",
       "last_human_update_at": "2026-10-10T19:32:30.422451Z",
       "owner_decision_source": "site owner_decisions",
-      "canonical_master_removal": "pending_same_id_Drive_write",
+      "canonical_master_removal": "done_removed_from_master_in_main",
       "owner_evidence_note": "User explicitly marked in film; tracked result_received remains false (no technical result inferred)."
     },
     "30": {

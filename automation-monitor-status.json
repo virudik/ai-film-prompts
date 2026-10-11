@@ -10,13 +10,13 @@
     "timezone": "Europe/Moscow",
     "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
     "runner": "claude_scheduled_task",
-    "requires_owner_computer": true,
+    "requires_owner_computer": false,
     "procedure": "ops/CLAUDE-MONITOR.md",
     "since": "2026-10-10",
     "owner_decision": "Owner asked Claude on 2026-10-10 to take over the monitor role from ChatGPT.",
     "role": "primary",
-    "bound_to_owner_computer": "app_says_required_but_run_had_no_J_access",
-    "binding_note": "10.10.2026: в приложении Claude у задачи «Требуется этот компьютер (Vint)» (поле bound_device в list_triggers этого не показывает), но запуск 20:10 МСК доступа к диску J: не получил (cycle degraded). Компьютер нужен только для same-ID записи master."
+    "bound_to_owner_computer": "not_needed_canon_in_github_main",
+    "binding_note": "С 11.10.2026 канон правится коммитами в GitHub main: компьютер владельца для цикла монитора не нужен. Отметка «Требуется этот компьютер» в приложении Claude не используется; задачу не удалять и не пересоздавать (теряется история)."
   },
   "retired_automations": [
     {
@@ -104,7 +104,7 @@
       "checked_at": "2026-10-09T12:10:01.949Z"
     },
     "canonical_sync": {
-      "status": "verified_drive_github_and_public_pages",
+      "status": "verified_master_sync_and_public_pages",
       "checked_at": "2026-10-09T12:10:01.949Z",
       "master_sha256": "7b336c1e90f1f6b30388db4fd398ed6602730fd45afd93ea9fa307eb18b0a823",
       "scenes": 21,
@@ -175,7 +175,7 @@
     "instruction_exact_matches": "7/7",
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
-    "published_master_matches_drive": true,
+    "published_master_matches_status": true,
     "public_pages_topview_checked_at": "2026-10-09T12:10:01.949Z",
     "public_pages_occupied_slots": 5,
     "public_pages_free_slots": 1,
@@ -203,13 +203,13 @@
   "last_completed_cycle_at": "2026-10-11T15:00:45Z",
   "last_successful_cycle_at": "2026-10-11T03:11:59Z",
   "standby_automation": {
-    "id": "6aac794245e481919ee7155c461cc77e",
-    "title": "AI Film — единый монитор",
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "title": "AI Film — резервный контроль",
     "runner": "chatgpt_scheduled_task",
-    "role": "standby",
-    "schedule": "hourly HH:00 Europe/Moscow",
-    "takes_over_when": "primary last cycle older than monitor-role.json failover_after_minutes",
-    "note": "Owner decision 2026-10-10: two monitors, one primary, one standby; roles switch only by owner command. ChatGPT must read monitor-role.json before writing (its prompt still needs that update when its limit resets)."
+    "role": "standby (read-only)",
+    "schedule": "hourly BYMINUTE=40 Europe/Moscow",
+    "takes_over_when": "only if monitor-role.json migration_state.chatgpt_writer_eligible is true (owner decision) and the primary has no verified healthy cycle for failover_after_minutes",
+    "note": "Roles are decided by monitor-role.json and scripts/monitor_role.py; the former ChatGPT hourly monitor (6aac794245e481919ee7155c461cc77e) is disabled for good."
   },
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T15:20:11.627Z",
+  "checked_at": "2026-10-11T15:23:01.510Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -19,8 +19,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "d0679ea4339e41b325871d8020dfa9698a125b7b",
-      "mirror_sha256": "adab0653ab16c6116e81f4515d1ea518dd83022972adb31530634b3a7c1b7b90",
+      "github_blob": "d8b615099c1a5c0b37a671120afb9ea091a0bd86",
+      "mirror_sha256": "6d0687ce1f224400294624bafeb51fad1f6fcf2d3831989cb67db5854a0b43dd",
       "match": true,
       "drive_copy_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
       "drive_copy_match": false,
@@ -88,263 +88,13 @@
     "montage_context": "Seregius_montazhny_razbor.html + film-analysis.md + film-backlog.md",
     "readiness_audit": true
   },
-  "topview_scene_intake": {
-    "enabled": true,
-    "automation_title": "AI Film — единый монитор",
-    "state_model": "minimal_active_plus_processed_with_six_slot_view",
-    "rule": "Scene ID is the creative scene; task ID is one render/slot. Capacity is 6 active task IDs. Canonical slow_scenes stays unique by Scene ID, while the Control Center shows one row per active task/slot."
-  },
-  "note": "С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные.",
-  "recovery_sync": {
-    "automation_title": "AI Film — монитор Claude",
-    "phase": "embedded_in_unified_monitor",
-    "separately_scheduled": false,
-    "hourly_light": true,
-    "daily_deep": true,
-    "deep_audit_status_file": "deep-audit-status.json",
-    "deep_audit_interval_hours": 24,
-    "note": "Old Recovery ID is intentionally archived; do not re-enable. Same run performs recovery after Topview publication."
-  },
-  "slow_table_ui": {
-    "health": "ok",
-    "slot_capacity": 6,
-    "row_cardinality": "one_row_per_active_topview_task",
-    "scene_id_may_repeat": true,
-    "header_format_target": "занято X из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS",
-    "timestamp_source": "topview-status.json.checked_at",
-    "timestamp_style": "ordinary text color/weight; no 'синхр.' label",
-    "columns": [
-      "#",
-      "Сцена",
-      "Модель",
-      "Статус",
-      "Запуск",
-      "Прошло",
-      "Очередь",
-      "Оценка времени"
-    ],
-    "task_id_column": false,
-    "expandable_attempt_ui": false,
-    "slot_count_source": "topview-status.json.active_tasks[]",
-    "rule": "All three user-facing views render from one normalized topview-status active_tasks snapshot. Revision shows unique scenes/tasks, Topview table is one row per task, active-scene map is one row per Scene with multiplicity. Queue/status values must never come from independent caches."
-  },
-  "conflicts": [],
-  "mode": "authorized_chatgpt_drive_connector",
-  "topview_liveness": {
-    "primary_watcher": {
-      "title": "AI Film — монитор Claude",
-      "automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
-      "timing_mode": "exact_schedule",
-      "minute_local": 10,
-      "timezone": "Europe/Moscow",
-      "requires_owner_computer": true,
-      "primary_by_role_file": true,
-      "execution_verified_by_this_certificate": false,
-      "staleness_guard": "Topview and monitor recency are checked separately from seven-document exact sync."
-    },
-    "recovery_watchdog": {
-      "status": "retired_by_owner",
-      "automation_id": "6aac3e4dfe6c81918b3eead8529edf30",
-      "is_enabled": false,
-      "replacement": "embedded recovery phase in unified monitor",
-      "independent_scheduler_watchdog": false,
-      "topview_alert_after_minutes": 105,
-      "instruction_alert_after_minutes": 165,
-      "seven_exact_drive_github_check_each_run": true,
-      "no_third_chatgpt_automation": true
-    },
-    "owner_experience": "set-and-forget; deterministic drift repaired automatically where authority/tools are actually available",
-    "publication_completeness": "Journal-only refresh is incomplete. Require verified map/status/stable-checkpoint agreement and published Pages snapshot; keep payload projections compact.",
-    "github_public_checker": "scripts/check_public_freshness.py present read-only; dedicated GitHub scheduled workflow NOT activated (write blocked)",
-    "notifications_as_last_observed": "ChatGPT tasks notifications_enabled:false; cannot guarantee push delivery",
-    "scheduler_limit": "A single paused automation cannot resume itself; API does not expose latest disable reason or a never-auto-pause control.",
-    "standby_watcher": {
-      "title": "AI Film — единый монитор",
-      "automation_id": "6aac794245e481919ee7155c461cc77e",
-      "minute_local": 0,
-      "timezone": "Europe/Moscow",
-      "role": "standby",
-      "failover_after_minutes": 180,
-      "collision_guard_minutes": 50,
-      "task_prompt_role_check": "updated_and_enabled_2026-10-10",
-      "standby_yield_minutes": 100,
-      "last_successful_scheduled_failover_verified": false
-    }
-  },
-  "three_view_topview_contract": {
-    "health": "ok",
-    "telemetry_source": "topview-status.json.active_tasks[]",
-    "snapshot_timestamp_source": "topview-status.json.checked_at",
-    "summary_cardinality": "unique Scene IDs plus explicit active-task multiplicity",
-    "slow_table_cardinality": "one row per active task/slot",
-    "scene_map_cardinality": "one row per unique active Scene ID with aggregated live status",
-    "required_equalities": [
-      "unique(active_tasks.scene_id) == project-status.slow_scenes == canonical slow Scene IDs",
-      "occupied_slots == len(active_tasks) == Topview table row count",
-      "scene-map active Scene IDs == unique(active_tasks.scene_id)",
-      "per-scene multiplicity == count(active_tasks for that scene)"
-    ]
-  },
-  "automation_schedule": {
-    "health": "ok",
-    "timezone": "Europe/Moscow",
-    "active_automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
-    "active_automation_title": "AI Film — монитор Claude",
-    "active_project_automation_count": 1,
-    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
-    "timing_mode": "exact_schedule",
-    "topview_watcher": "exact hourly at HH:10 (Claude scheduled task)",
-    "recovery_sync": "embedded phase; no independent schedule",
-    "retired_automation_ids": [
-      "6aac3e4dfe6c81918b3eead8529edf30",
-      "6ac358bf36548191b64ae6326bcc1f9b"
-    ],
-    "one_writer_note": "Primary Claude and standby ChatGPT; role assignment fixed by owner, per-cycle automatic takeover at 180m verified primary silence; standby yields 100m after own cycle; 50m recent-commit collision guard. ChatGPT scheduled prompt updated 2026-10-10 and enabled.",
-    "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
-    "standby_automation_title": "AI Film — единый монитор",
-    "role_file": "monitor-role.json",
-    "configured_enabled_monitors_count": 2,
-    "active_project_automation_count_semantics": "One preferred primary writer per cycle; configured monitors=2; standby automatically runs on genuine primary liveness lapse beyond 180 minutes; collision guard=50m and standby yield=100m."
-  },
-  "library_recovery": {
-    "mode": "best_effort_non_blocking",
-    "blocking": false,
-    "authority": false,
-    "completion_gate": false,
-    "owner_interruption_policy": "do_not_prompt_owner_for_routine_library_overwrite; skip and mark pending/stale if interactive consent is required",
-    "status": "pending_or_opportunistic",
-    "truth_rule": "Never claim Library current without successful write/read-back; authoritative layers remain Drive/GitHub; Notion remains operational/story pointer.",
-    "description": "Seven current canonical instruction snapshots + exact same-ID master saved as best-effort recovery in /AI Film/Canonical Instructions Recovery on 2026-10-10.",
-    "health": "ok",
-    "last_verified_at": "2026-10-10T15:02:37.052Z"
-  },
-  "error_prevention_architecture": {
-    "health": "ok",
-    "fault_domains": {
-      "canonical_sync": "blocking/red only for verified authority mismatch/corruption/unavailability",
-      "topview_telemetry": "operational/non-blocking; stale/degraded snapshot is not canonical sync failure",
-      "instruction_certificate": "freshness warning only; exact mismatch/read error is blocking",
-      "library": "best-effort/non-blocking recovery cache"
-    },
-    "schedules": {
-      "unified_monitor": "HH:00 Europe/Moscow exact hourly, one enabled task",
-      "recovery_sync": "embedded phase, no separate schedule",
-      "legacy_automations": "intentionally disabled by owner; never re-enable automatically"
-    },
-    "background_connector_rule": "If Topview Board connector is unavailable in a scheduled run, do not fabricate telemetry or advance checked_at/last_scan_at; keep watcher enabled and retry next cycle.",
-    "ui_contract": {
-      "global_green": "ПРОЕКТ СИНХРОНИЗИРОВАН",
-      "global_red": "ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ",
-      "topview_card": "M из 6 occupied slots; secondary line N scenes with multiplicity",
-      "stale_topview": "separate warning, not global red"
-    },
-    "canonical_instruction_write_policy": "serial only: fresh-read/version check -> same-ID Drive write -> read-back -> exact GitHub mirror -> verify -> next file; never multi-write batch canonical docs",
-    "phase_isolation": "Topview, publication, instruction/canonical checks and daily audit have separate outcomes; one unavailable connector does not disable or abort unrelated phases."
-  },
-  "control_center_summary_metric": {
-    "health": "ok",
-    "label": "Занято слотов Topview",
-    "primary": "M из 6",
-    "primary_source": "len(topview-status.json.active_tasks[])",
-    "secondary": "Свободно Y · N сцен",
-    "free_source": "max(0, slot_capacity - occupied_slots)",
-    "scene_source": "unique(topview-status.json.active_tasks[].scene_id)",
-    "raw_work_ids_visible": false,
-    "compact_navigation": true,
-    "back_to_top": true,
-    "detailed_topview_header": "занято M из 6 · свободно Y · DD.MM.YYYY, HH:MM:SS",
-    "technical_info_schema_version_visible": false
-  },
-  "character_registry_update": {
-    "health": "ok",
-    "characters_added": [
-      "Лучик",
-      "Рыжик"
-    ],
-    "scene_13_cat": "Лучик",
-    "cat_branch_scenes": [
-      23,
-      24,
-      25,
-      26,
-      27
-    ],
-    "lychik_saber": "blue",
-    "ryzhik_saber": "green",
-    "individual_model_sheets_required": true
-  },
-  "montage_analysis_chooser": {
-    "health": "ok",
-    "label": "Монтажный разбор",
-    "first_version": "Seregius_montazhny_razbor.html",
-    "second_version": "Seregius_montazhny_razbor-2.html",
-    "second_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
-    "first_version_preserved": true,
-    "separate_second_top_level_button": false,
-    "first_version_date": "2026-09-17",
-    "second_version_date": "2026-09-24",
-    "date_basis": "First: completed report publication / Drive modified date; second: author date inside report HTML, not next-day upload time."
-  },
-  "montage_analysis_ui": {
-    "health": "ok",
-    "label": "Монтажный разбор",
-    "top_level_controls": 1,
-    "chooser": [
-      "Первая версия",
-      "Вторая версия"
-    ],
-    "version_1": "Seregius_montazhny_razbor.html",
-    "version_2": "Seregius_montazhny_razbor-2.html",
-    "version_2_drive_file_id": "1g7ybmz_2UvPuhVvSdyhS3GuLBEbZm4qT",
-    "version_2_build": "01:03:42,848",
-    "preserve_version_1": true
-  },
-  "control_center_owner_ui": {
-    "health": "ok",
-    "sidebar_default_px": 328,
-    "sidebar_resize_range_px": [
-      280,
-      430
-    ],
-    "sidebar_width_persisted_locally": true,
-    "primary_links_stacked": true,
-    "filters_collapsed": false,
-    "service_files_collapsible": true,
-    "authority_subtitle": "Drive — канон · GitHub Pages — только чтение",
-    "now_panel_compact": true,
-    "now_panel_wide_columns": 3,
-    "next_actions_full_width": true,
-    "next_actions_columns": 2,
-    "next_actions_two_columns_on_mobile": true,
-    "instruction_freshness_stale_label": "Инструкции: СВЕРКА >3 Ч НАЗАД · <timestamp>",
-    "instruction_freshness_stale_means": "verification age only, not stale instruction content",
-    "back_to_top": true,
-    "montage_versions": 2
-  },
-  "automatic_revision_date": {
-    "health": "ok",
-    "source": "project-status.json.canonical_revision_sha256",
-    "timezone": "Europe/Moscow",
-    "substantive_change_advances_revision": true,
-    "technical_sync_only_preserves_revision": true,
-    "manual_master_revision_date": false,
-    "current_revision_date": "10.10.2026",
-    "blank_line_layout_noise_ignored": true,
-    "current_revision_date_source": "project-status.json.revision_date (live value; this field is a copy)"
-  },
-  "cat_branch_current": {
-    "verified_at": "2026-10-04T23:15:37Z",
-    "scene24_25": "@Image4 exact approved cockpit; RYZHIK frame-left, LUCHIK frame-right; ordinary domestic-cat scale",
-    "scene26": "cats-only; no SEREGA visual reference; pair @Image1, LUCHIK @Image2, RYZHIK @Image3, location @Image4; fine non-volcanic ash/dust/ember atmosphere",
-    "scene27": "30s plus 2x15s all carry ordinary-cat scale, required particulate atmosphere and anti-static fast combat",
-    "topview_runtime": "Not recorded in the certificate (it went stale). Live slots/slow: topview-status.json (checked_at) and project-status.json.slow_scenes. Technical success does not imply editorial acceptance."
-  },
   "claude_code_bootstrap": {
     "path": "CLAUDE.md",
     "canonical": false,
     "included_in_7_of_7": false,
     "github_blob": "475c14667ffd91c64a1e6aad0ff303ed97f59c87",
     "verified": true,
-    "rule": "Bootstrap pointer only; fresh canonical Google Drive instructions always win."
-  }
+    "rule": "Bootstrap pointer only; fresh GitHub main always wins."
+  },
+  "note": "С 11.10.2026 канон 7 инструкций — GitHub main (решение владельца 03:25 МСК); Drive — копия для чтения, drive_copy_* поля справочные."
 }

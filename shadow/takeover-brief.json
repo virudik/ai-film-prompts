@@ -1,57 +1,57 @@
 {
  "schema_version": 1,
  "generator": "pilot-1.0",
- "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T14:17:49+00:00",
+ "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh GitHub main always wins",
+ "generated_at": "2026-10-11T15:23:01+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
- "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
+ "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
-   "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "1b00f9353ff02dd9855569d07852bb464052f0524098cb62f1de9030d0f0cc00",
-   "bytes": 287651
+   "backup_drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
+   "sha256": "d397b403268f3dfaae5ad2d0e53cf0239a1a38975db72d23637cff8632973e29",
+   "bytes": 45694
   },
   {
    "file": "SYNC-RUNBOOK.md",
-   "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
-   "bytes": 121666
+   "backup_drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
+   "sha256": "6d0687ce1f224400294624bafeb51fad1f6fcf2d3831989cb67db5854a0b43dd",
+   "bytes": 76073
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
-   "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
-   "bytes": 111213
+   "backup_drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
+   "sha256": "ded77e788dec5ba794f202e61e177452996cc6bf2b44415a8cace1079f60b83b",
+   "bytes": 40501
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
-   "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "b6a70e926a161fb20f920ce2642a00fcdc5f6b58fde7a730790e595a0ccaf7d5",
-   "bytes": 72549
+   "backup_drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
+   "sha256": "b882ddd340c3d432359bb4a17def3a1c281209f8c6d1609c6b3f058495c3178a",
+   "bytes": 68638
   },
   {
    "file": "USER-GUIDE.md",
-   "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
-   "bytes": 117973
+   "backup_drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
+   "sha256": "4b0301bc383027b4262617d7447d59defb9c29b1ec98d3722a6dd75123f51a85",
+   "bytes": 47874
   },
   {
    "file": "README-AI-SYNC.md",
-   "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "ce203d54861821e631c6319ca48eb389fc9f0b7e13bc32c75bd8e6fafbcb72af",
-   "bytes": 77972
+   "backup_drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
+   "sha256": "c12123066ab42bbc7a29f1aa5b50816ed0ec362da6c33504eb09a98be5477192",
+   "bytes": 19165
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
-   "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "d8443d0ed35cadf30519edfadae072d5c57e3091ad5c4f2e8e68304ceb76ae78",
-   "bytes": 95635
+   "backup_drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
+   "sha256": "d390678b295bda2704f70a0cd0aa4ea1eee349754245c9d91780e7c76932b756",
+   "bytes": 30401
   },
   {
    "file": "video-prompts.md",
-   "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
+   "backup_drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
    "sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
    "bytes": 548862
   }
@@ -63,7 +63,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "16ba1813a08a"
+   "section_sha256_12": "9d4698e598a3"
   },
   {
    "id": "INV-ONE-MASTER",
@@ -71,7 +71,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "c616615dfdba"
+   "section_sha256_12": "a4ff6cf91777"
   },
   {
    "id": "INV-FRESH-WRITE",
@@ -79,7 +79,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "16ba1813a08a"
+   "section_sha256_12": "9d4698e598a3"
   },
   {
    "id": "INV-SERIAL-DOCS",
@@ -87,7 +87,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "16ba1813a08a"
+   "section_sha256_12": "9d4698e598a3"
   },
   {
    "id": "INV-SCENE-ID",
@@ -95,7 +95,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "c616615dfdba"
+   "section_sha256_12": "a4ff6cf91777"
   },
   {
    "id": "INV-SUCCESS-NOT-APPROVAL",
@@ -103,7 +103,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## 10\\. Topview telemetry",
    "anchor_ok": true,
-   "section_sha256_12": "d9e56fc4d03e"
+   "section_sha256_12": "2bec9d626a26"
   },
   {
    "id": "INV-SLOTS",
@@ -111,23 +111,23 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^### Точное ТЗ — Topview slow slots",
    "anchor_ok": true,
-   "section_sha256_12": "bc64678ee777"
+   "section_sha256_12": "25d71c970508"
   },
   {
    "id": "INV-ONE-MONITOR",
-   "rule": "One writer: the Claude monitor (HH:10) is the only writer; ChatGPT «резервный контроль» (6acae6ab…, HH:40) is read-only and may not take over until monitor-role.json migration_state allows it; old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off. Claude monitor silent >3 h → issue monitor-alert, restore it; a disabled task cannot re-enable itself.",
+   "rule": "One writer, decided by monitor-role.json + scripts/monitor_role.py (default primary: the Claude monitor, HH:10); ChatGPT «резервный контроль» (6acae6ab…, HH:40) is read-only and may not take over until monitor-role.json migration_state allows it; the former ChatGPT hourly monitor and the archived Recovery/slot-watcher stay off. Primary silent >3 h → issue monitor-alert, restore it; a disabled task cannot re-enable itself.",
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "16ba1813a08a"
+   "section_sha256_12": "9d4698e598a3"
   },
   {
    "id": "INV-NO-FAKE-TIME",
    "rule": "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.",
    "owner_doc": "SYNC-RUNBOOK.md",
-   "anchor": "^### 5\\. Background connector degradation",
+   "anchor": "^### Background connector degradation",
    "anchor_ok": true,
-   "section_sha256_12": "6368aa152849"
+   "section_sha256_12": "efedce883af9"
   },
   {
    "id": "INV-OWNER-BOUNDARY",
@@ -135,7 +135,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 14\\. Поведение нового сменщика",
    "anchor_ok": true,
-   "section_sha256_12": "98a512f006c2"
+   "section_sha256_12": "9937d543edda"
   },
   {
    "id": "INV-PROMPT-AUTONOMY",
@@ -147,11 +147,11 @@
   },
   {
    "id": "INV-MATERIAL-CHANGE",
-   "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → mirrors → 7/7 certificate → Notion pointer → Library (best-effort).",
+   "rule": "Material workflow/site/authority/recovery change → relevant canonical docs + SAME handoff → cert_github.py certificate → push to main → Notion pointer → backup copies (best-effort).",
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## 9\\. Material Change Documentation Rule",
    "anchor_ok": true,
-   "section_sha256_12": "185b164842ec"
+   "section_sha256_12": "d776cc5112c3"
   },
   {
    "id": "INV-NO-CREDITS",
@@ -159,7 +159,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Scene Reference Pack automation",
    "anchor_ok": true,
-   "section_sha256_12": "9343f59cb9e5"
+   "section_sha256_12": "09ebdaf42c9c"
   },
   {
    "id": "INV-LIBRARY-NONBLOCKING",
@@ -167,36 +167,24 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## LIBRARY RECOVERY",
    "anchor_ok": true,
-   "section_sha256_12": "8c1c381d002d"
+   "section_sha256_12": "aeb1793c67f5"
   },
   {
    "id": "INV-DONE",
    "rule": "Never say «готово» before the relevant read-back/verification passed.",
    "owner_doc": "SYNC-RUNBOOK.md",
-   "anchor": "^## 15\\. Verification before final answer",
+   "anchor": "^## 14\\. Verification before final answer",
    "anchor_ok": true,
-   "section_sha256_12": "9bbd118f3f40"
+   "section_sha256_12": "45a5715381ff"
   }
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 110640,
-  "above_marker_chars": 67242,
-  "recent_sections_below_marker": [
-   "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
-   "## Актуальная правка сцен и отображения — 07.10.2026",
-   "## Действующее расписание — решение владельца 06.10.2026",
-   "## 05.10.2026 — TAKEOVER DELTA: кошачьи prompts, Topview 6/6 и автоматика",
-   "## 05.10.2026 — Scene 20: исправление дизайна Маши; новая Scene 28: финальный танец",
-   "## 06.10.2026 — Scene 28: готовые референсы света и две версии танца",
-   "## Scene Reference Pack automation — 07.10.2026",
-   "## Claude Code bootstrap adapter — 07.10.2026",
-   "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
-   "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
-  ],
-  "sha256_12": "b76bc7e7f679",
+  "chars": 26545,
+  "above_marker_chars": 26545,
+  "recent_sections_below_marker": [],
+  "sha256_12": "e5a02179c0a6",
   "extra_current_sections": [
-   "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
   ]
@@ -661,7 +649,7 @@
     "PROMPT-STYLE-GUIDE.md": "full",
     "SYNC-RUNBOOK.md": [
      "^## 4\\. Routine: добавить новую scene",
-     "^## 19\\. Topview task intake"
+     "^## 18\\. Topview task intake"
     ]
    },
    "master": "last_two_scenes_full + header",
@@ -682,9 +670,9 @@
   "topview_check": {
    "docs": {
     "SYNC-RUNBOOK.md": [
-     "^### Порядок фаз единого монитора",
+     "^### Порядок фаз цикла монитора",
      "^### Точное ТЗ — Topview slow slots",
-     "^### Hourly publish gate"
+     "^### Publish gate"
     ]
    },
    "master": "none_unless_slow_change",

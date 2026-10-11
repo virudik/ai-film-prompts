@@ -2,7 +2,7 @@
   "schema_version": 3,
   "updated_at": "2026-10-11T03:10:58Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
-  "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
+  "authority": "Operational telemetry/dedup only. video-prompts.md in GitHub main remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
     "Scene ID identifies the creative scene; Topview task ID identifies one render attempt.",
     "A rerun/rerender of an existing scene keeps the same Scene ID.",

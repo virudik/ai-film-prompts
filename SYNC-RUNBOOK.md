@@ -344,7 +344,7 @@ E. только после checkpoint — обычный sync-trigger, если 
 - Реестр `character-references.json`: поле `scenes` — текущее использование в активных сценах (не архив); пути к файлам вместо data URI. Миниатюры `references/thumbs/` — только для показа: `build-thumbnails.yml` при push в `references/**` собирает WebP ≤ 640 px и `references/thumbs/manifest.json` (SHA-256 источника); сайт подменяет `src` на миниатюру, ссылки ведут на оригинал, при ошибке — откат на оригинал. Оригиналы и реестр обратно в base64 не менять.
 - Markdown рендерит локальный `vendor/marked-15.0.12.min.js` (без CDN); HTML master проходит `safeHtml()` (удаляет script / iframe / object / embed / form, `on*`-атрибуты, `javascript:`-ссылки). `api.github.com` и CDN-версий `marked` в `index.html` быть не должно.
 - Свежесть синхронизации master и `topview-status.json.checked_at` независимы: успешная синхронизация не доказывает обновления слотов.
-- `deep-audit-status.json` и `recovery-manifest.json` — метаданные восстановления, не authority; после материальной смены канона пересчитываются.
+- `deep-audit-status.json` — метаданные суточной проверки, не authority.
 - `NEEDS_FIX` — не разрешение на автоматическую творческую перепись. Массовая автоперепись промтов по validator / audit запрещена: сцены разбираются по одной с решением владельца.
 - Не вводить без отдельной реальной необходимости: второго конкурирующего писателя, тяжёлую постоянную историю попыток Topview, автоматический rerender, автоматическое редакторское принятие, миграцию референсов в base64 ради размера, сложные anti-spam-автоматы.
 
