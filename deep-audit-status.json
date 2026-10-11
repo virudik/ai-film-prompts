@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-10T16:54:41.365Z",
-  "last_deep_audit_at": "2026-10-10T16:54:41.365Z",
+  "checked_at": "2026-10-11T00:13:55.000Z",
+  "last_deep_audit_at": "2026-10-11T00:13:55.000Z",
   "health": "ok_with_owner_questions",
   "sections": {
     "master": "ok",
     "prompts": "ok_with_review_items",
-    "characters": "ok_unchanged_since_prior_deep_audit",
+    "characters": "drift_fixed_serega_35_38_vitalik_lesha_37",
     "montage": "ok_unchanged_since_prior_deep_audit",
     "notion": "nonblocking_unchanged",
     "library": "pending_non_blocking",
-    "site": "ok_public_pages_verified",
+    "site": "validate_site_ok_pages_deploy_success_ci",
     "supabase": "owner_decisions_owner_task_in_film_v6",
     "github_actions": "public_pages_verified_current",
     "recovery": "ok",
     "automation_watchdog": "two_monitors_primary_claude_not_bound_to_owner_computer",
     "one_writer_ownership": "ok",
-    "instructions": "14_findings_12_deterministic_fixed_drive_readback_7_of_7_exact_2_need_owner",
+    "instructions": "7_of_7_exact_drive_readback_targeted_top_block_check_no_new_contradictions",
     "topview_publication": "ok"
   },
   "repairs": [
@@ -48,7 +48,8 @@
     "2026-10-06 deep audit: verified the owner-authorized single hourly monitor, reconciled Scene 20 part 7 terminal success, reduced account occupancy to 2/6 with four free slots, exact-certified the Drive master and all seven instruction mirrors, and verified integration, canonical sync and Pages artifact.",
     "2026-10-07 deep audit: exact-certified the live Drive master and all seven instruction mirrors, refreshed the instruction certificate from current source text, reconciled a terminal Scene 20 render attempt without editorial approval, and published/verified one 4/6-slot map → status → checkpoint transaction on Pages.",
     "2026-10-08 deep audit: repaired a fresh Drive-authority mismatch in NEW-CHAT-HANDOFF.md, exact-certified all seven instruction mirrors, recovered the canonical master mirror and regenerated runtime project status after the normal trigger did not advance, then verified the published Pages snapshot.",
-    "2026-10-08 deep audit: verified a complete 11-board / 537-VIDEO Topview scan, direct terminal read-back of the three previously active Scene 26/27 tasks, and a stable 0/6 map → status → checkpoint transaction without editorial approval."
+    "2026-10-08 deep audit: verified a complete 11-board / 537-VIDEO Topview scan, direct terminal read-back of the three previously active Scene 26/27 tasks, and a stable 0/6 map → status → checkpoint transaction without editorial approval.",
+    "2026-10-11 daily check (Claude monitor): Drive→GitHub 7/7 exact byte match; handoff top block consistent with live status (18 scenes / 51 prompts, master 9b62a5b6…); validate_site ok; all 26 tests pass; CI sync/Pages green; no open monitor-alert; character registry drift fixed (Серёга +35–38, Виталик/Лёха +37 from master reference lines); Supabase: 3 new owner_task (rethink Scenes 36–37) moved to in_progress for the working chat. Fired reminder trig_01JbsgYKMw62fJ8D3FRfShBz NOT deleted: it woke the working-chat session and delete_trigger also deletes sessions a task started — left for the working chat to confirm. Full semantic read of all 7 docs not repeated (previous full pass 10.10; texts unchanged except handoff/runbook top blocks). ChatGPT standby monitor: no healthy cycle recorded (stopped by weekly limit, owner-known)."
   ],
   "warnings": [
     "Scenes 10/11 remain NEEDS_FIX and Scene 13 NEEDS_RERENDER; technical render status is not editorial approval.",

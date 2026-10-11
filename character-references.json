@@ -22,7 +22,11 @@
         31,
         32,
         33,
-        34
+        34,
+        35,
+        36,
+        37,
+        38
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -282,7 +286,8 @@
       ],
       "scenes": [
         13,
-        28
+        28,
+        37
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -323,7 +328,8 @@
       ],
       "scenes": [
         13,
-        28
+        28,
+        37
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -528,5 +534,5 @@
   },
   "updated_at": "2026-10-08",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
-  "scene_lists_reconciled_at": "2026-10-10 (Claude): scene lists matched to fresh master reference lines; Scene 26 frames only the cats"
+  "scene_lists_reconciled_at": "2026-10-11 (Claude monitor daily check): added reference-line usage from fresh master — Серёга 35–38; Виталик/Лёха 37 (identity refs only if the forest pair is visible); earlier lists kept"
 }
