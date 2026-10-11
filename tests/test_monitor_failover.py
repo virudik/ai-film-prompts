@@ -48,6 +48,8 @@ class MonitorHeartbeatTest(unittest.TestCase):
                 "claude": {"commit_author": "Claude"},
                 "chatgpt": {"commit_author": "virudik"},
             },
+            # heartbeat tests model a ChatGPT standby that is allowed to write
+            "migration_state": {"chatgpt_writer_eligible": True},
         })
 
     def role_action(self):
@@ -69,6 +71,18 @@ class MonitorHeartbeatTest(unittest.TestCase):
         result = self.role_action()
         self.assertEqual(result["action"], "failover")
         self.assertTrue(result["primary_age_minutes"] > 180)
+
+    def test_chatgpt_takeover_fails_closed_without_writer_eligibility(self):
+        role = json.loads((self.repo / "monitor-role.json").read_text(encoding="utf-8"))
+        role.pop("migration_state")
+        write_json(self.repo / "monitor-role.json", role)
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_successful_by_runner": {"claude": timestamp(400)},
+            "last_successful_cycle_at": timestamp(400),
+        })
+        result = self.role_action()
+        self.assertEqual(result["action"], "skip")
+        self.assertIn("read-only", result["reason"])
 
     def test_recent_healthy_cycle_blocks_takeover(self):
         write_json(self.repo / "automation-monitor-status.json", {
