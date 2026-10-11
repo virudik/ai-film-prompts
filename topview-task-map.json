@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-11T17:50:46Z",
+  "updated_at": "2026-10-11T20:56:49.975Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -29,6 +29,9 @@
     ],
     "31": [
       "4682335cffc24a339179845c2713c46e"
+    ],
+    "35": [
+      "6d1ff4a96a0043f2884ffb528d5d9c9a"
     ]
   },
   "processed_tasks": [
@@ -279,25 +282,25 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-11T17:50:46Z",
+  "last_scan_at": "2026-10-11T20:56:49.975Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
-    "strategy": "all_owned_boards_full_video_scan",
-    "last_successful_scan_at": "2026-10-11T17:50:46Z",
+    "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
+    "last_successful_scan_at": "2026-10-11T20:56:49.975Z",
     "last_full_board_pages_checked": 4,
-    "last_board_total_seen": 610,
+    "last_board_total_seen": 611,
     "overlap_hours": 6,
     "pages_scanned": 17,
-    "tasks_scanned": 560,
-    "total_video_tasks": 560,
+    "tasks_scanned": 100,
+    "total_video_tasks": 561,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
     "overlap_from": "2026-10-10T21:10:58.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
-    "project_board_total_video_tasks": 397,
-    "scope": "all_owned_boards_full_video_scan_with_project_scene_projection",
+    "project_board_total_video_tasks": 398,
+    "scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification",
     "last_full_scan_at": "2026-10-11T16:10:48Z",
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -310,11 +313,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 604
+      "1a6244cf1ae747ef847d949a80d6133c": 611
     },
-    "scan_mode": "light",
-    "last_light_scan_at": "2026-10-11T17:50:46Z"
+    "scan_mode": "fast_path",
+    "last_light_scan_at": "2026-10-11T20:56:49.975Z"
   },
-  "note": "Manual emergency refresh, five direct active tasks plus consistent 11-board shadow counts; no canonical slow changes.",
+  "note": "Scheduled fast path: all 11 owned board counts, AI Film latest page, six direct active task reads; new exact canonical match mapped to existing Scene 35. No new Scene ID.",
   "owner_controlled_slow": true
 }
