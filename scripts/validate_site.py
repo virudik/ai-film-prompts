@@ -65,8 +65,14 @@ if 'id="filterPanel"' in html:
     raise SystemExit("left sidebar filters must remain directly visible, not collapsed")
 if 'grid-template-columns:292px minmax(0,1fr)' in html:
     raise SystemExit("regressed to over-compacted sidebar width")
-if 'Drive — канон · GitHub Pages — только чтение' not in html:
+if 'GitHub main — канон · Pages — только чтение' not in html:
     raise SystemExit("sidebar authority subtitle must remain concise and one-line friendly")
+# Canon is GitHub main (owner decision 11.10.2026): the site must not present Drive or the retired
+# "unified monitor" as authority/actors in owner-facing texts.
+for forbidden in ('Drive — канон', 'канонических Drive-инструкций', 'Единый монитор', 'единого монитора', 'единому монитору',
+                  'Drive ↔ GitHub', "chip('Drive→GitHub'", 'зеркала/status с Google Drive'):
+    if forbidden in html:
+        raise SystemExit("retired Drive-canon wording returned to index.html: "+forbidden)
 if 'ПРОВЕРКА УСТАРЕЛА' in html:
     raise SystemExit("instruction freshness wording must clarify that the verification timestamp, not the instructions, is stale")
 if 'id="metricWorkIds"' in html:
