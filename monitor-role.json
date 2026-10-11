@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Two monitors, one writer. Whoever takes over after 180 min of primary silence becomes the primary (sticky takeover, owner decision 10.10.2026).",
-  "primary": "claude",
-  "standby": "chatgpt",
+  "primary": "chatgpt",
+  "standby": "claude",
   "set_by": "owner",
-  "set_at": "2026-10-10T12:35:00Z",
-  "reason": "ChatGPT monitor stopped (weekly ChatGPT limit); owner made the Claude monitor primary and ChatGPT the standby.",
+  "set_at": "2026-10-11T11:00:00Z",
+  "reason": "Owner 11.10 13:59 MSK: Claude weekly limit nearly exhausted (reset Fri 16.10 07:00 MSK); Claude monitor paused, ChatGPT monitors and writes until then. Claude returns as primary after the reset.",
   "failover_after_minutes": 180,
   "collision_guard_minutes": 50,
   "monitors": {
@@ -37,10 +37,11 @@
   "standby_yield_minutes": 0,
   "migration_state": {
     "issue": 12,
-    "chatgpt_writer_eligible": false,
+    "chatgpt_writer_eligible": true,
     "reason": "Only active ChatGPT AI Film task is a read-only migration pilot; background connector and guarded writer not yet proven.",
     "legacy_chatgpt_monitor_disabled": true,
     "migration_outcome": "not_planned_background_capabilities_unverified",
-    "closed_issue": 12
+    "closed_issue": 12,
+    "writer_authorization": "Owner 11.10 13:59 MSK: ChatGPT is the writer until the Claude limit resets (Fri 16.10); then return roles to Claude primary."
   }
 }
