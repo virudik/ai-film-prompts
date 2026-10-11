@@ -93,3 +93,24 @@ class PrepareTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SlowOwnerReleaseTests(unittest.TestCase):
+    def test_owner_drop_does_not_falsely_free_physical_slot(self):
+        import robot_master_actions as robot
+        task_id = "a" * 32
+        st = {
+            "topview-task-map.json": {"active_by_scene": {"24": [task_id]}, "processed_tasks": []},
+            "topview-status.json": {"active_tasks": [{"task_id": task_id, "scene_id": 24}],
+                                    "occupied_slots": 1, "free_slots": 5, "slot_capacity": 6},
+            "topview-checkpoint.json": {"checked_at": "2026-10-11T16:10:48Z",
+                                       "occupied_slots": 1, "active_task_ids": [task_id]},
+            "topview-operation-journal.json": {"events": [], "retention_max_events": 500},
+        }
+        robot.drop_task_telemetry(st, 24, task_id, "2026-10-11T16:40:00Z")
+        self.assertEqual(st["topview-status.json"]["occupied_slots"], 1)
+        self.assertEqual(st["topview-status.json"]["free_slots"], 5)
+        self.assertEqual(st["topview-task-map.json"]["active_by_scene"], {"24": [task_id]})
+        self.assertEqual(st["topview-task-map.json"]["processed_tasks"], [])
+        self.assertIn(task_id, st["topview-task-map.json"]["owner_released_task_ids"])
+        self.assertEqual(st["topview-checkpoint.json"]["checked_at"], "2026-10-11T16:10:48Z")

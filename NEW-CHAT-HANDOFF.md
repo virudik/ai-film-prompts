@@ -1,3 +1,5 @@
+> ДОПОЛНЕНИЕ К OWNER-SLOW (11.10): кнопка «Не ждать» означает только owner release; `robot_master_actions.drop_task_telemetry` не трогает физические Topview `active_tasks` и `occupied_slots`, пока провайдер реально не завершил задачу; release сохраняется в `topview-task-map.json.owner_released_task_ids`. GitHub `ROBOT_MASTER_ACTIONS=on` пока отдельно не подтверждён: фаза 2 остаётся выключенной; её нельзя выдавать за работающую. Монитор обрабатывает допустимые owner_decisions с проверкой GitHub read-back.
+
 
 ## ВАЖНО: canonical slow снимает только владелец (решение 11.10.2026)
 

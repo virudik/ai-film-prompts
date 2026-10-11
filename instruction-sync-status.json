@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T16:38:13.419Z",
+  "checked_at": "2026-10-11T16:42:02.565Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "30c9ac043275882b83b3870e2a09cb68bc949fce",
-      "mirror_sha256": "c84b2e029766a3ba55bd89ba2866e4788dc3d90f4e4ee3cfe49ffa88274fc85e",
+      "github_blob": "161165f0adb4b19f17dbfcace30d928c742f3dc7",
+      "mirror_sha256": "022f5a06ce30203f4b288e7d7b3666e769b81367aece931db36acd8da8ab98ae",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
       "drive_copy_match": false,
@@ -94,7 +94,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "Сертификат 7 GitHub canonical docs обновлён после owner-controlled slow policy; Drive-копии только информационные и обновляются отдельным безопасным процессом.",
+  "note": "GitHub canonical 7-doc certificate updated after explicit owner slow-release and physical slot semantics. Drive backups informational; next safe copy sync updates them.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",

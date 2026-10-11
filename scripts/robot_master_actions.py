@@ -123,45 +123,26 @@ def ledger_in_film(row, stamp):
 
 
 def drop_task_telemetry(st, scene, task_id, stamp):
-    """Stop waiting for a task: map → processed (abandoned_by_owner), snapshot rows/counters, checkpoint.
-    `checked_at` of the scan is NOT touched: nothing was scanned."""
-    tm, status, cp, journal = (st["topview-task-map.json"], st["topview-status.json"],
-                               st["topview-checkpoint.json"], st["topview-operation-journal.json"])
-    sid = str(scene)
-    ids = [t for t in tm["active_by_scene"].get(sid, []) if t != task_id]
-    if ids:
-        tm["active_by_scene"][sid] = ids
-    else:
-        tm["active_by_scene"].pop(sid, None)
-    tm["processed_tasks"].append({"task_id": task_id, "scene_id": scene, "final_status": slow_edit.ABANDONED,
-                                  "finished_at": stamp})
-    tm["processed_tasks"] = tm["processed_tasks"][-tm.get("retention", {}).get("processed_tasks_max", 200):]
-    tm["updated_at"] = stamp
+    """Owner pressed «Не ждать». Release ONLY editorial slow, NOT a physical Topview slot.
 
-    status["active_tasks"] = [t for t in status.get("active_tasks", []) if t.get("task_id") != task_id]
-    occupied = len(status["active_tasks"])
-    status["occupied_slots"] = occupied
-    status["free_slots"] = max(0, status.get("slot_capacity", 6) - occupied)
-    row = status.get("scenes", {}).get(sid)
-    if row is not None:
-        row["active_task_ids"] = ids
-        if not ids:
-            row.update(topview_status=slow_edit.ABANDONED, queue_count=None,
-                       topview_estimated_wait_seconds=None, topview_estimated_process_seconds=None,
-                       completed_at=None)
-    ao = status.get("account_observation")
-    if isinstance(ao, dict):
-        ao.update(occupied_slots=occupied, free_slots=status["free_slots"],
-                  active_task_ids=[t["task_id"] for t in status["active_tasks"]])
-
-    cp.update(committed_at=stamp, occupied_slots=occupied,
-              active_task_ids=[t["task_id"] for t in status["active_tasks"]],
-              active_scene_ids=sorted({int(k) for k, v in tm["active_by_scene"].items() if v}))
-    journal["events"].append({"timestamp": stamp, "operation": "robot_owner_drop_task", "scene_id": scene,
-                              "task_fingerprint": task_id[:8], "previous_status": "active",
-                              "new_status": slow_edit.ABANDONED, "source_checkpoint": cp.get("checked_at"),
-                              "outcome": "owner_stopped_waiting_task_not_cancelled_in_topview",
-                              "verification": "owner button «Не ждать»; scan data untouched"})
+    Retain the actual active task in map/snapshot/checkpoint until Topview confirms
+    it is terminal. A completed task remains processed with its real terminal status.
+    Owner releases are tracked independently to prevent re-adding canonical slow.
+    """
+    tm = st["topview-task-map.json"]
+    journal = st["topview-operation-journal.json"]
+    owner_released = tm.setdefault("owner_released_task_ids", [])
+    if task_id not in owner_released:
+        owner_released.append(task_id)
+    tm["updated_at"] = stamp  # Does NOT advance the Topview scan timestamp.
+    journal["events"].append({
+        "timestamp": stamp, "operation": "robot_owner_drop_task",
+        "scene_id": scene, "task_fingerprint": task_id[:8],
+        "previous_status": "owner_waiting", "new_status": slow_edit.ABANDONED,
+        "source_checkpoint": st["topview-checkpoint.json"].get("checked_at"),
+        "outcome": "owner_stopped_waiting_physical_topview_task_unchanged",
+        "verification": "explicit owner panel decision; physical slot counts and provider task status unchanged"
+    })
     journal["events"] = journal["events"][-journal.get("retention_max_events", 500):]
 
 
@@ -223,15 +204,16 @@ def evaluate(rows, st, *, now=None):
             g.verdict, g.reason = "defer", "по сцене открыта текстовая задача владельца"
             continue
         where, owner_scene = _task_location(st["topview-task-map.json"], tid)
-        if where == "processed":
-            g.verdict, g.reason = "noop", "задача уже не числится активной"
+        if tid in st["topview-task-map.json"].get("owner_released_task_ids", []):
+            g.verdict, g.reason = "noop", "ожидание уже снято решением владельца"
             continue
-        if where != "active" or owner_scene != scene:
+        if where not in ("active", "processed") or owner_scene != scene:
             g.reason = "задача не найдена среди активных задач этой сцены в карте Topview"
             continue
         model = next((t.get("model") for t in st["topview-status.json"].get("active_tasks", [])
                       if t.get("task_id") == tid), None) or "Topview"
-        plan = {"finish": [{"scene": scene, "task_id": tid, "model": model, "final_status": slow_edit.ABANDONED,
+        plan = {"occupied_slots": st["topview-status.json"].get("occupied_slots", 0),
+                "finish": [{"scene": scene, "task_id": tid, "model": model, "final_status": slow_edit.ABANDONED,
                             "finished_utc": datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%SZ").strftime("%d.%m.%Y %H:%M:%S UTC")}]}
         try:
             new_master, info = slow_edit.apply_plan(st["video-prompts.md"], plan, today)
@@ -246,7 +228,7 @@ def evaluate(rows, st, *, now=None):
             continue
         st.update({k: trial[k] for k in FILES[1:]})
         st["video-prompts.md"] = new_master
-        g.verdict, g.report = "apply", {"slow_after": info["slow"], "occupied_after": info["occupied"]}
+        g.verdict, g.report = "apply", {"slow_after": info["slow"], "occupied_after": st["topview-status.json"].get("occupied_slots", 0)}
 
     # ---- in_film / scene_not_needed: one group per scene
     scenes = {}

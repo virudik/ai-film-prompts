@@ -71,7 +71,7 @@ def apply_plan(t, plan, date):
         active_by_scene.setdefault(sid, 0)
         active_by_scene[sid] += 1
     slow = sorted(active_by_scene)
-    k = sum(bool(re.search(r'`(?:init|queued|running|processing)`', row)) for row in active_rows)  # real slots, not owner-pending terminal rows
+    k = int(plan.get('occupied_slots', sum(bool(re.search(r'`(?:init|queued|running|processing)`', row)) for row in active_rows)))  # physical provider occupancy when supplied
     t = "\n".join(lines)
 
     # --- header bullet

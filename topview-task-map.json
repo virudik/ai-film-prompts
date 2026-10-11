@@ -11,7 +11,8 @@
     "On a terminal task, update physical slot usage and processed_tasks; do NOT remove the scene from canonical slow automatically. Only a verified owner_decisions button from the site may release canonical slow.",
     "Keep only minimal processed-task facts needed for dedup/statistics: task_id, scene_id, final_status, finished_at. Do not persist queue/ETA history.",
     "New Scene ID is created only for a genuinely new creative scene; ambiguity requires user review.",
-    "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID."
+    "Topview slow capacity is 6 concurrent active task slots; each active task_id occupies one slot even when multiple tasks belong to the same Scene ID. Canonical slow_scenes remains unique by Scene ID.",
+    "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
   "active_by_scene": {
     "24": [
