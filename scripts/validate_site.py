@@ -74,6 +74,19 @@ if 'id="metricWorkIds"' in html:
 if 'id="schema"' in html:
     raise SystemExit("internal schema_version must not be shown in owner-facing technical info")
 
+# Monitor freshness: stale scheduler observation must not look like a new
+# autonomous run; the owner should see the last verified healthy cycle.
+for required in (
+    "monSuccessAge=monitor?ageInfo(monitor?.last_successful_cycle_at)",
+    "unreportedSchedulerRun=Number.isFinite(schedulerObservedMs)",
+    "chip('Успешный цикл',monSuccessAge",
+    "chip('Запуск без отчёта',ageInfo(schedulerObservedAt)",
+):
+    if required not in html:
+        raise SystemExit("monitor freshness regression: "+required)
+if "chip('Запуск задачи',ageInfo(monitor.scheduler_observation.last_run_time)" in html:
+    raise SystemExit("old scheduler timestamp must not masquerade as current monitoring activity")
+
 # Both montage-analysis versions must remain published. The second file is large
 # and must never regress to an empty placeholder while the chooser still links to it.
 analysis_v1=root/"Seregius_montazhny_razbor.html"
