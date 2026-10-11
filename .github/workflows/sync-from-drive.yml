@@ -391,3 +391,20 @@ jobs:
             echo "Failed to publish reviewed owner decisions after retries" >&2
             exit 1
           fi
+
+      - name: Phase 2 - master buttons (in_film / scene_not_needed / tv_drop_task)
+        # OFF by default: without the GitHub variable ROBOT_MASTER_ACTIONS=on this only prints
+        # the plan as an annotation and writes nothing (neither git nor Supabase). The owner
+        # switches it on after checking the plan. See scripts/robot_master_actions.py.
+        if: always() && !cancelled()
+        shell: bash
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ROBOT_MASTER_ACTIONS: ${{ vars.ROBOT_MASTER_ACTIONS }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then
+            echo "::notice::Master actions not configured: missing SUPABASE_SERVICE_ROLE_KEY GitHub Actions secret"
+            exit 0
+          fi
+          python3 scripts/robot_master_actions.py

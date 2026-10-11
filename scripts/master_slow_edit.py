@@ -19,6 +19,7 @@ active row of that scene remains. Editorial/production state is never touched.
 import argparse, json, re, sys
 
 LABEL = "⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ"
+ABANDONED = "abandoned_by_owner"   # owner pressed «Не ждать» (tv_drop_task); the task itself is not cancelled
 
 
 def plural(n, one, few, many):
@@ -30,15 +31,9 @@ def plural(n, one, few, many):
     return many
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("inp"); ap.add_argument("out")
-    ap.add_argument("--date", required=True)
-    ap.add_argument("--plan", required=True)
-    a = ap.parse_args()
-    t = open(a.inp, encoding="utf-8", newline="").read()
+def apply_plan(t, plan, date):
+    """Pure core of the CLI: returns (new_text, info). Importable by the GitHub robot."""
     assert "\r" not in t, "master must be LF"
-    plan = json.load(open(a.plan, encoding="utf-8"))
 
     lines = t.split("\n")
     # --- dedicated table bounds
@@ -56,6 +51,8 @@ def main():
         title = cells[0].lstrip("| ")
         if f["final_status"] == "success":
             lines[idx[0]] = f"| {title} | ✅ Технический результат получен · `success` · {f['model']} | task `{f['task_id']}`; требуется отдельная редакционная проверка |"
+        elif f["final_status"] == ABANDONED:
+            lines[idx[0]] = f"| {title} | ⚪ Снята с учёта владельцем · `{ABANDONED}` · {f['model']} | task `{f['task_id']}`; кнопка «Не ждать» только снимает ожидание — саму задачу в Topview отменяет владелец вручную |"
         else:
             lines[idx[0]] = f"| {title} | ❌ Ошибка Topview · `{f['final_status']}` · {f['model']} | task `{f['task_id']}`; нужен разбор и решение владельца о новом запуске |"
 
@@ -90,9 +87,9 @@ def main():
     # --- canonical slow-list sentence and dates
     t, n = re.subn(r"Canonical slow-list сейчас: \*\*[^*]*\*\*\.", f"Canonical slow-list сейчас: **{ids}**.", t)
     assert n == 1
-    t, n = re.subn(r"(- \*\*Последняя полная синхронизация:\*\* \*\*)\d\d\.\d\d\.\d{4}", r"\g<1>" + a.date, t)
+    t, n = re.subn(r"(- \*\*Последняя полная синхронизация:\*\* \*\*)\d\d\.\d\d\.\d{4}", r"\g<1>" + date, t)
     assert n == 1
-    t, n = re.subn(r"(\*\*Синхронизация контекста:\*\* \*\*)\d\d\.\d\d\.\d{4}", r"\g<1>" + a.date, t)
+    t, n = re.subn(r"(\*\*Синхронизация контекста:\*\* \*\*)\d\d\.\d\d\.\d{4}", r"\g<1>" + date, t)
     assert n == 1
 
     # --- TOC markers and section markers per scene
@@ -100,6 +97,8 @@ def main():
     for f in plan.get("finish", []):
         if f["final_status"] == "success":
             finished_lines.setdefault(f["scene"], []).append(f"{f['model']} task `{f['task_id']}` технически завершён {f['finished_utc']}. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.")
+        elif f["final_status"] == ABANDONED:
+            finished_lines.setdefault(f["scene"], []).append(f"{f['model']} task `{f['task_id']}` снята с учёта владельцем («Не ждать») {f['finished_utc']}. Отмена самой задачи в Topview — вручную; новый запуск только по решению владельца.")
         else:
             finished_lines.setdefault(f["scene"], []).append(f"{f['model']} task `{f['task_id']}` завершился ошибкой Topview (`{f['final_status']}`) {f['finished_utc']}. Новый запуск — только по решению владельца.")
     touched = {x["scene"] for x in plan.get("add", [])} | {x["scene"] for x in plan.get("finish", [])}
@@ -114,7 +113,10 @@ def main():
         if is_slow and not has:
             new = row[: row.rstrip().rfind("|")].rstrip() + f"<br>**{LABEL}** |"
         elif not is_slow and has:
-            new = row.replace(f"<br>**{LABEL}** |", " Технический результат получен; требуется отдельная редакционная проверка. |")
+            only_dropped = all(f["final_status"] == ABANDONED for f in plan.get("finish", []) if f["scene"] == sid)
+            tail_txt = (" Задача снята с учёта владельцем («Не ждать»). |" if only_dropped
+                        else " Технический результат получен; требуется отдельная редакционная проверка. |")
+            new = row.replace(f"<br>**{LABEL}** |", tail_txt)
         t = t.replace(row, new, 1)
         # section
         s = t.index(f"\n## Сцена {sid} —")
@@ -134,8 +136,20 @@ def main():
             sec = sec[:me] + ins + sec[me:]
         t = t[:s] + sec + t[e:]
 
+    return t, {"slow": slow, "occupied": k, "active_by_scene": active_by_scene}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("inp"); ap.add_argument("out")
+    ap.add_argument("--date", required=True)
+    ap.add_argument("--plan", required=True)
+    a = ap.parse_args()
+    t = open(a.inp, encoding="utf-8", newline="").read()
+    plan = json.load(open(a.plan, encoding="utf-8"))
+    t, info = apply_plan(t, plan, a.date)
     open(a.out, "w", encoding="utf-8", newline="").write(t)
-    print(json.dumps({"slow": slow, "occupied": k, "active_by_scene": active_by_scene}, ensure_ascii=False))
+    print(json.dumps(info, ensure_ascii=False))
 
 
 if __name__ == "__main__":

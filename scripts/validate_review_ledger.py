@@ -3,7 +3,7 @@ import json
 import sys
 from pathlib import Path
 
-repo = Path(__file__).resolve().parents[1]
+repo = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 ledger = json.loads((repo / "review-ledger.json").read_text(encoding="utf-8"))
 project = json.loads((repo / "project-status.json").read_text(encoding="utf-8"))
 

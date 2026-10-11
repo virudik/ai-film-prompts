@@ -18,6 +18,8 @@ from urllib.request import Request, urlopen
 
 BASE = "https://vzohfatqzyioydtgjiyd.supabase.co/rest/v1/owner_decisions"
 AUTO = {"accept", "redo", "to_montage", "tv_mark_status"}
+# Phase 2 (direct master commit, behind the GitHub variable ROBOT_MASTER_ACTIONS=on):
+MASTER_ACTIONS = {"in_film", "scene_not_needed", "tv_drop_task"}
 MAX_ROWS = 100
 CLAIM = "github-owner-sync:"
 ROOT = Path(__file__).resolve().parents[1]
@@ -50,6 +52,26 @@ def patch_status(row_id, from_status, to_status, note):
                             "select": "id"},
                   {"status": to_status, "result_note": note})
     return bool(matches)
+
+
+def button_token(row):
+    """Normalised meaning of a button row, used for conflict detection between phases."""
+    action, value = row.get("action"), row.get("value")
+    if action == "tv_mark_status":
+        return "result_bad" if value == "result_bad" else "result_ok" if value == "result_ok" else "tv_mark_status"
+    return action
+
+
+# in_film only contradicts a rejection; scene_not_needed contradicts every verdict on the same scene.
+_CONFLICTS = {
+    "in_film": {"redo", "result_bad", "scene_not_needed"},
+    "scene_not_needed": {"accept", "to_montage", "redo", "result_bad", "result_ok", "in_film"},
+}
+
+
+def master_conflict(master_tokens, other_tokens):
+    """True when a pending master button (in_film / scene_not_needed) contradicts another open button."""
+    return any(_CONFLICTS.get(m, set()) & set(other_tokens) for m in master_tokens)
 
 
 def eligible(row):
@@ -85,7 +107,7 @@ def transform(ledger_row, action, stamp):
 
 def prepare(plan_path):
     # Includes retryable claimed rows, but excludes manual owner_tasks.
-    fetched = api("GET", {"select": "id,created_at,scene_id,action,value,status,result_note",
+    fetched = api("GET", {"select": "id,created_at,scene_id,action,task_id,value,status,result_note",
                           "status": "in.(pending,in_progress)",
                           "order": "created_at.asc", "limit": str(MAX_ROWS)})
     rows = [r for r in fetched if eligible(r) and
@@ -93,11 +115,22 @@ def prepare(plan_path):
     by_scene = {}
     for r in rows:
         by_scene.setdefault(str(r["scene_id"]), []).append(r)
+    # A scene whose pending master button (in_film / scene_not_needed) contradicts a ledger button is
+    # left untouched here: the master-actions phase (scripts/robot_master_actions.py) classifies the
+    # whole scene as needs_owner. Applying e.g. «Переделать» first would hide the conflict.
+    master_by_scene = {}
+    for r in fetched:
+        if r["action"] in MASTER_ACTIONS and r["action"] != "tv_drop_task":
+            master_by_scene.setdefault(str(r["scene_id"]), set()).add(button_token(r))
+    held = {sid for sid, mt in master_by_scene.items()
+            if master_conflict(mt, {button_token(x) for x in by_scene.get(sid, [])})}
     ledger_path = ROOT / "review-ledger.json"
     ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
     stamp = utcnow()
     planned = []
     for scene, items in by_scene.items():
+        if scene in held:
+            continue
         actions = {x["action"] for x in items}
         if (("accept" in actions or "to_montage" in actions)
                 and ("redo" in actions or
