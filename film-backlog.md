@@ -4,7 +4,7 @@
 
 **Пересмотр 11.10 04:32 (решение владельца о каноне в GitHub):** квест ключей стал необязательной оптимизацией — «робот GitHub» без ИИ и лимитов; порядок шагов (Supabase → Topview-проба → необязательно Google) — `NEW-CHAT-HANDOFF.md` «ПЛАН НА БУДУЩЕЕ» п. 3.
 
-**Факт с проверенным readback Google Drive:** канонический `video-prompts.md` тот же ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`, Scene 38 «Серёга рассматривает древний компьютер в заброшенном храме» добавлена как 30s Wan 3.0 `DRAFT`, продолжение Scene 35 без включения ПК/Warcraft, без запуска генерации. По фактическому raw readback: **18 активных сцен / 51 полный промт**, SHA-256 `9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a`. Для READY нужны реальный финальный кадр Scene 35 и монтажная continuity-проверка. GitHub `SYNC-TRIGGER.txt` запущен; готовность зеркала, валидатора и Pages всегда проверять по новым live status/workflow, не выводить из одной записи Drive.
+**Факт на 11.10 (канон — `video-prompts.md` в GitHub `main`):** Scene 38 «Серёга рассматривает древний компьютер в заброшенном храме» добавлена как 30s Wan 3.0 `DRAFT`, продолжение Scene 35 без включения ПК/Warcraft, без запуска генерации. По фактическому raw readback: **18 активных сцен / 51 полный промт**, SHA-256 `9b62a5b64358cc80a8e85b1ecfbce4cedc3730be235eea994ee7d947681e319a`. Для READY нужны реальный финальный кадр Scene 35 и монтажная continuity-проверка. `SYNC-TRIGGER.txt` запущен; готовность валидатора и Pages всегда проверять по новым live status / workflow, не выводить из одной записи.
 
 **Утверждённая владельцем цель «сайт — полноценный пульт управления фильмом»:** автоматическое применение решений сайта независимо от Claude, ChatGPT Work и компьютера; GitHub Actions → Supabase `owner_decisions` → проверенное обновление журнала и, где нужно, коммит master в GitHub `main` (с 11.10 канон в GitHub) → project-status, Pages; плюс независимая Topview telemetry со счётчиком медленных задач / 6 бесплатных слотов **только при подтверждённом полном API покрытии**. Официальный подробный рабочий квест и инструкция владельцу: GitHub [`ops/QUEST-THREE-KEYS.md`](https://github.com/virudik/ai-film-prompts/blob/main/ops/QUEST-THREE-KEYS.md). Технический план: `ops/PLAN-OWNER-PANEL-AUTOMATION.md`, `ops/PLAN-DRIVE-WITHOUT-COMPUTER.md`.
 
@@ -17,7 +17,7 @@
 
 ---
 
-## LIVE CHECKPOINT — 11.10.2026 (после приёма смены ChatGPT)
+## ИСТОРИЯ (не текущий статус; пометка зачистки 16.10.2026): LIVE CHECKPOINT — 11.10.2026 (после приёма смены ChatGPT)
 
 Канонический Google Drive `video-prompts.md` обновлён **по прежнему ID**; в GitHub `project-status.json` — `health: ok`, 17 активных сцен и 50 полных промтов; зеркальная публикация Pages 10.10.2026 21:21 UTC — workflow success. Старые блоки ниже — историческая монтажная очередь, не live-список активных промтов.
 
@@ -29,7 +29,7 @@
 
 ---
 
-## ТЕКУЩИЙ WORK-CHECKPOINT — 08.10.2026, завершение технического хвоста
+## ИСТОРИЯ (не текущий статус; пометка зачистки 16.10.2026): WORK-CHECKPOINT — 08.10.2026, завершение технического хвоста
 
 Этот верхний раздел заменяет устаревшие статусы ниже, сохраняя историю. Свежие семь canonical инструкций остаются обязательными. Оптимизация НЕ внедрена. Генерации текущим Work НЕ запускались; платный fallback запрещён.
 
@@ -318,7 +318,7 @@ UI desktop: посещены все15сцен, горизонтального р
 |---|---|---|---|
 | INF-1 | DONE | Переключатель темы `Светлая сторона / Тёмная сторона` | Оставить в header между revision и sync health; preference хранить в localStorage |
 | INF-2 | DONE | Комментарии прямо на сайте без GitHub login | Реализовано через Supabase: anonymous post + replies + RLS/honeypot/rate-limit; не давать backend прав на master |
-| INF-3 | MONITOR | Стабильность Drive→GitHub sync | Следить, чтобы dynamic current facts брались только из master/status; исторические snapshot не давали false red |
+| INF-3 | MONITOR | Стабильность синхронизации master → project-status → Pages | Следить, чтобы dynamic current facts брались только из master/status; исторические snapshot не давали false red |
 | INF-4 | MONITOR | Topview mapping robustness | Для каждого нового/возвращённого slow ID сверять exact task prompt с fresh scene body; не использовать stale handoff/memory |
 | INF-5 | DONE | Режим `Сейчас` | Реализован как read-only owner-facing слой из live status/Topview/review ledger; не превращать его во второй master |
 | INF-6 | FUTURE | `рудик.рф/промты` и независимое видео | Нужен hosting/router access; не трогать DNS без подтверждения |

@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh GitHub main always wins",
- "generated_at": "2026-10-11T15:23:01+00:00",
+ "generated_at": "2026-10-11T15:24:45+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "backup_drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "d397b403268f3dfaae5ad2d0e53cf0239a1a38975db72d23637cff8632973e29",
-   "bytes": 45694
+   "sha256": "a01e6973199db6894e59ac752c64d5bc756ae0a5763f7d5889be3ab376806d33",
+   "bytes": 46260
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "backup_drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "6d0687ce1f224400294624bafeb51fad1f6fcf2d3831989cb67db5854a0b43dd",
-   "bytes": 76073
+   "sha256": "e33e4e9b974efcedb7c704f6c849958fe11f1e7a1e5309c3ee124faf582228d7",
+   "bytes": 80365
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -28,8 +28,8 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "backup_drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "b882ddd340c3d432359bb4a17def3a1c281209f8c6d1609c6b3f058495c3178a",
-   "bytes": 68638
+   "sha256": "e2656be53e10afb53fa60e5e4d81179b53117da82c8b7657219085d354bd0fa4",
+   "bytes": 68877
   },
   {
    "file": "USER-GUIDE.md",
@@ -46,8 +46,8 @@
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "backup_drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "d390678b295bda2704f70a0cd0aa4ea1eee349754245c9d91780e7c76932b756",
-   "bytes": 30401
+   "sha256": "e4e1c28d83f7d2f00c995128c6c793379713f451ddfdc65cdf4c6b1142237dea",
+   "bytes": 30782
   },
   {
    "file": "video-prompts.md",
@@ -159,7 +159,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Scene Reference Pack automation",
    "anchor_ok": true,
-   "section_sha256_12": "09ebdaf42c9c"
+   "section_sha256_12": "fbe022d06afa"
   },
   {
    "id": "INV-LIBRARY-NONBLOCKING",
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 26545,
-  "above_marker_chars": 26545,
+  "chars": 26984,
+  "above_marker_chars": 26984,
   "recent_sections_below_marker": [],
-  "sha256_12": "e5a02179c0a6",
+  "sha256_12": "06213343ee38",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
