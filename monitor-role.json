@@ -17,10 +17,10 @@
       "commit_author": "Claude"
     },
     "chatgpt": {
-      "title": "AI Film — единый монитор",
-      "id": "6aac794245e481919ee7155c461cc77e",
-      "schedule": "hourly HH:00 Europe/Moscow",
-      "procedure": "SYNC-RUNBOOK.md (Drive) + this file",
+      "title": "AI Film — единственный монитор и миграция",
+      "id": "6acae6ab433481919e88665c520b8ef2",
+      "schedule": "hourly BYMINUTE=40 (Task timezone Europe/Moscow; verify actual execution)",
+      "procedure": "GitHub issue #12 migration pilot; read-only until scheduled connector/write tests pass; monitor_role.py required for any canonical writer takeover",
       "commit_author": "virudik"
     }
   },
@@ -31,8 +31,14 @@
     "Automatic takeover: after 180 minutes without a verified completed primary cycle, the standby takes over and BECOMES the primary (owner decision 10.10.2026). There is no automatic return; the old primary is now the standby and takes over back only if the new primary is silent for 180 minutes.",
     "Nobody writes if the other monitor committed within collision_guard_minutes.",
     "The owner can still set the primary by command ('основной монитор — Claude / ChatGPT'): any agent swaps primary/standby, sets set_by=owner and set_at, commits.",
-    "Takeover cannot start a disabled or rate-limited scheduler; do not count standby cycles as evidence that the primary recovered."
+    "Takeover cannot start a disabled or rate-limited scheduler; do not count standby cycles as evidence that the primary recovered. The ChatGPT migration task is NOT a proven full writer; do not perform automatic takeover until A-F migration checks pass and owner approves cutover."
   ],
   "failover_policy_updated_at": "2026-10-10T17:20:00Z",
-  "standby_yield_minutes": 0
+  "standby_yield_minutes": 0,
+  "migration_state": {
+    "issue": 12,
+    "chatgpt_writer_eligible": false,
+    "reason": "Only active ChatGPT AI Film task is a read-only migration pilot; background connector and guarded writer not yet proven.",
+    "legacy_chatgpt_monitor_disabled": true
+  }
 }
