@@ -132,12 +132,12 @@
   "mode": "authorized_chatgpt_drive_connector",
   "topview_liveness": {
     "primary_watcher": {
-      "title": "AI Film — монитор Claude",
-      "automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
+      "title": "AI Film — монитор ChatGPT",
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "timing_mode": "exact_schedule",
-      "minute_local": 10,
+      "minute_local": 55,
       "timezone": "Europe/Moscow",
-      "requires_owner_computer": true,
+      "requires_owner_computer": false,
       "primary_by_role_file": true,
       "execution_verified_by_this_certificate": false,
       "staleness_guard": "Topview and monitor recency are checked separately from seven-document exact sync."
@@ -163,10 +163,10 @@
       "automation_id": "6aac794245e481919ee7155c461cc77e",
       "minute_local": 0,
       "timezone": "Europe/Moscow",
-      "role": "standby",
+      "role": "disabled_legacy",
       "failover_after_minutes": 180,
       "collision_guard_minutes": 50,
-      "task_prompt_role_check": "updated_and_enabled_2026-10-10",
+      "task_prompt_role_check": "disabled_2026-10-11",
       "standby_yield_minutes": 100,
       "last_successful_scheduled_failover_verified": false
     }
@@ -187,23 +187,23 @@
   "automation_schedule": {
     "health": "ok",
     "timezone": "Europe/Moscow",
-    "active_automation_id": "trig_014eEvBooAV2hxx1asRo9snm",
-    "active_automation_title": "AI Film — монитор Claude",
+    "active_automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "active_automation_title": "AI Film — монитор ChatGPT",
     "active_project_automation_count": 1,
-    "schedule": "CRON_TZ=Europe/Moscow 10 * * * * (Claude scheduled task, hourly at HH:10)",
+    "schedule": "hourly HH:55 Europe/Moscow",
     "timing_mode": "exact_schedule",
-    "topview_watcher": "exact hourly at HH:10 (Claude scheduled task)",
+    "topview_watcher": "ChatGPT exact hourly HH:55 (trigger observed; last complete cycle still unverified)",
     "recovery_sync": "embedded phase; no independent schedule",
     "retired_automation_ids": [
       "6aac3e4dfe6c81918b3eead8529edf30",
       "6ac358bf36548191b64ae6326bcc1f9b"
     ],
-    "one_writer_note": "Primary Claude and standby ChatGPT; role assignment fixed by owner, per-cycle automatic takeover at 180m verified primary silence; standby yields 100m after own cycle; 50m recent-commit collision guard. ChatGPT scheduled prompt updated 2026-10-10 and enabled.",
+    "one_writer_note": "Owner 11.10: ChatGPT temporary primary writer until 16.10.2026 07:00 MSK, afterwards read-only. Claude HH:10 paused until user-authorized return; legacy ChatGPT unified task disabled. Current scheduled trigger exists but complete-cycle publication not proven.",
     "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
-    "standby_automation_title": "AI Film — единый монитор",
+    "standby_automation_title": "AI Film — единый монитор (disabled legacy)",
     "role_file": "monitor-role.json",
-    "configured_enabled_monitors_count": 2,
-    "active_project_automation_count_semantics": "One preferred primary writer per cycle; configured monitors=2; standby automatically runs on genuine primary liveness lapse beyond 180 minutes; collision guard=50m and standby yield=100m."
+    "configured_enabled_monitors_count": 1,
+    "active_project_automation_count_semantics": "Only one ChatGPT monitor is enabled; former unified ChatGPT monitor disabled; Claude paused."
   },
   "library_recovery": {
     "mode": "best_effort_non_blocking",
@@ -345,5 +345,12 @@
     "github_blob": "475c14667ffd91c64a1e6aad0ff303ed97f59c87",
     "verified": true,
     "rule": "Bootstrap pointer only; fresh canonical Google Drive instructions always win."
+  },
+  "monitor_observation": {
+    "source": "ChatGPT automations control plane, inspected 11.10.2026",
+    "last_run_time": "2026-10-11T16:58:34.256092Z",
+    "scheduler_task_enabled": true,
+    "latest_complete_cycle_verified": false,
+    "note": "Not a new instruction certification: the seven instruction SHA/checked_at values are unchanged. Current primary config metadata updated to reflect owner-licensed role; do not infer complete cycle success from this record."
   }
 }

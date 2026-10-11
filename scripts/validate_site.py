@@ -28,7 +28,7 @@ contracts = (
     "const topviewWarning=authoritativeHealthy&&(!topviewFresh||!topviewContractHealthy);",
     "Проверка Topview устарела",
     "$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;",
-    "$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeTopview.slowSceneIds.length+' сцен';",
+    "$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeSlowIds().length+' сцен ждут решения';",
     "cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free",
     "$('projectStatus').textContent=`${s.scenes} активных сцен · ${s.prompt_texts} промтов · ${s.work_items_count} рабочих направлений`;",
 )
