@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic slow-state edits of the canonical master (used by the Claude monitor).
 
-Edits ONLY the slow-related markers, so a same-ID Drive write stays minimal:
+Edits ONLY the slow-related markers, so the master commit stays minimal:
   * header bullet  "**⏳ N** ... медленной генерации: **IDS** — **K ... / K ... из 6**";
   * dedicated table "## ⏳ Сейчас в медленной генерации" (one row per active task);
   * TOC row marker "<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**";

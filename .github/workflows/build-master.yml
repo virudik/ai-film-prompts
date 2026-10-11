@@ -14,4 +14,4 @@ jobs:
         run: |
           echo "This legacy _source/part-*.md builder is intentionally disabled."
           echo "Canonical flow: Google Drive video-prompts.md -> GitHub root video-prompts.md -> GitHub Pages."
-          echo "Use .github/workflows/sync-from-drive.yml or update the canonical Drive master instead."
+          echo "Use .github/workflows/sync-from-drive.yml or commit the canonical master video-prompts.md in main instead."

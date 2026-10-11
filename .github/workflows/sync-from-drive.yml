@@ -278,7 +278,7 @@ jobs:
           OPEN="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=monitor-alert&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
           if [ "$STATE" = "silent" ] && [ -z "$OPEN" ]; then
             gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=monitor-alert -f color=d93f0b >/dev/null 2>&1 || true
-            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="AI Film: единый монитор молчит больше 3 ч" \
+            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="AI Film: монитор молчит больше 3 ч" \
               -f body="Автоматическое оповещение (решение владельца D3). Последние отметки: ${DETAIL//_/ }. Монитор публикует Topview только из ChatGPT: проверьте задачу «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e) и лимиты ChatGPT. Дубль не создавать. Issue закроется сам, когда данные снова станут свежими." \
               -f "labels[]=monitor-alert" >/dev/null && echo "alert issue opened"
           elif [ "$STATE" = "ok" ] && [ -n "$OPEN" ]; then

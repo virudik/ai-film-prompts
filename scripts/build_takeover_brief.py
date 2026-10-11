@@ -35,20 +35,20 @@ CURRENT_POINTER = re.compile(r"^## ТЕКУЩЕЕ ДОПОЛНЕНИЕ", re.M)
 # Mandatory invariants: always in the brief, each anchored to the section that owns it.
 # anchor = regex for a heading in owner doc; keywords = words that must occur in that section
 INVARIANTS = [
-    ("INV-AUTH", "Drive = editable master + 7 canonical docs; GitHub = mirror/status/site; Topview = telemetry; Notion = story/pointer; Library = recovery cache.",
-     "AI-PROJECT-GUIDE.md", r"^## 2\. Источники истины", ["Drive", "GitHub"]),
-    ("INV-ONE-MASTER", "One SAME-ID master; no v2/final/copy.", "AI-PROJECT-GUIDE.md", r"^## 3\. Master", ["master"]),
-    ("INV-FRESH-WRITE", "Before any master write: second fresh read of the exact Drive master; minimal same-ID edit → SYNC-TRIGGER → validation → mirror/status → Pages → verification.",
-     "SYNC-RUNBOOK.md", r"^## 1\. Обязательный preflight", ["fresh"]),
-    ("INV-SERIAL-DOCS", "Canonical instruction writes are serial: fresh read/version → same-ID write → read-back → exact mirror → verify; never replay a stale write.",
-     "SYNC-RUNBOOK.md", r"^### 8\. Serialized canonical instruction writes", ["read-back"]),
+    ("INV-AUTH", "Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story.",
+     "NEW-CHAT-HANDOFF.md", r"^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ", ["GitHub", "Drive"]),
+    ("INV-ONE-MASTER", "One master: video-prompts.md in GitHub main; no v2/final/copy.", "AI-PROJECT-GUIDE.md", r"^## 3\. Master", ["master"]),
+    ("INV-FRESH-WRITE", "Before any master write: fresh git pull of main; minimal commit → SYNC-TRIGGER → validator health=ok → Pages → verification; rejected push = another writer, redo from scratch.",
+     "NEW-CHAT-HANDOFF.md", r"^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ", ["SYNC-TRIGGER"]),
+    ("INV-SERIAL-DOCS", "Instruction edits: fresh pull → minimal commit → scripts/cert_github.py → push → verify; never replay a stale write.",
+     "NEW-CHAT-HANDOFF.md", r"^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ", ["cert_github"]),
     ("INV-SCENE-ID", "Scene IDs stable; retired IDs never reused; rerender keeps the same Scene ID.", "AI-PROJECT-GUIDE.md", r"^## 3\. Master", ["Scene"]),
     ("INV-SUCCESS-NOT-APPROVAL", "Topview technical success ≠ editorial approval; never auto approve/rerun/delete/close.",
      "SYNC-RUNBOOK.md", r"^## 10\. Topview telemetry", ["approval"]),
     ("INV-SLOTS", "Slot capacity 6; one active task = one slot; Scene stays slow until its last active task is terminal.",
      "SYNC-RUNBOOK.md", r"^### Точное ТЗ — Topview slow slots", ["6"]),
-    ("INV-ONE-MONITOR", "Exactly one automation «AI Film — единый монитор» (ID 6aac794245e481919ee7155c461cc77e, HH:00 MSK); archived 6aac3e4d…/6ac358bf… stay off; no duplicates; never disable it. If found disabled without an explicit owner decision to stop it: re-enable THAT task (is_enabled:true), record the incident, then verify a real publication (fresh topview-status/checkpoint + Pages). A disabled task cannot re-enable itself.",
-     "SYNC-RUNBOOK.md", r"^## Действующее расписание", ["единый монитор"]),
+    ("INV-ONE-MONITOR", "One writer: the Claude monitor (HH:10) is the only writer; ChatGPT «резервный контроль» (6acae6ab…, HH:40) is read-only and may not take over until monitor-role.json migration_state allows it; old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off. Claude monitor silent >3 h → issue monitor-alert, restore it; a disabled task cannot re-enable itself.",
+     "NEW-CHAT-HANDOFF.md", r"^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ", ["резервный контроль"]),
     ("INV-NO-FAKE-TIME", "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.", "SYNC-RUNBOOK.md", r"^### 5\. Background connector degradation", ["checked_at"]),
     ("INV-OWNER-BOUNDARY", "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
      "AI-PROJECT-GUIDE.md", r"^## 14\. Поведение нового сменщика", ["пользовател"]),
@@ -115,7 +115,8 @@ def main(repo, out):
         mon = {}
 
     # validity: brief agrees with the certificate and project status at generation time
-    cert = {k: v.get("drive_sha256") for k, v in (isc.get("files") or {}).items()}
+    # since 11.10.2026 the certificate is GitHub-canonical (mirror_sha256); legacy Drive mode used drive_sha256
+    cert = {k: (v.get("mirror_sha256") if isc.get("source_of_truth") == "github" else v.get("drive_sha256")) for k, v in (isc.get("files") or {}).items()}
     mismatches = [s["file"] for s in sources if s["file"] in cert and cert[s["file"]] != s["sha256"]]
     master_sha = next(s["sha256"] for s in sources if s["file"] == MASTER[0])
     valid = not mismatches and ps.get("canonical_master_sha256") == master_sha and ps.get("health") == "ok"
