@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-11T03:12:12+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-11T03:12:28+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -43,7 +43,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | ID | Название | Промт-движок | Состояние | Промтов | Refs | Зависит | sha |
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 1 |  | [] | cf5b524e491f |
-| 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ea333195cce8 |
+| 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ea333195cce8 |
 | 20 | Маша-Лагуна: рок-припев у озера | Seedance 2.5 | READY/IDLE | 13 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [] | 923f01691381 |
 | 21 | Мостик → космическая битва: бесшовный пролёт через окно | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 106cff4a5cea |
 | 24 | Коты в кабине: запуск корабля и взлёт | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | de5774965c9b |
