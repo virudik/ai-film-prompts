@@ -28,24 +28,23 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-11T15:00:45Z",
-    "scope": "owned_boards_latest_page_plus_shadow_full_scan_not_authoritative",
+    "checked_at": "2026-10-11T17:51:59.636Z",
+    "scope": "owned_boards_metadata_plus_main_latest_100_plus_direct_5_active_plus_1_terminal; shadow_light_auxiliary",
     "complete": false,
     "boards_scanned": 11,
     "video_tasks_scanned": 100,
     "pages_scanned": 1,
     "slot_capacity": 6,
-    "occupied_slots": 6,
-    "free_slots": 0,
+    "occupied_slots": 5,
+    "free_slots": 1,
     "active_task_ids": [
       "a3efa5cce8224b7896e8166e0d5f2b9e",
       "57b6f3aac4804d2486721131e30640f6",
       "dbe204aeb9a74478af04c6bbfe7693f9",
       "3710685303634b2482b90581aa6a8a2b",
-      "4682335cffc24a339179845c2713c46e",
-      "71ff9f82cf864225b0cea5caae96854a"
+      "4682335cffc24a339179845c2713c46e"
     ],
-    "verification": "Topview newest page 6/6; direct detail 5/6; full scan shadow only (not authoritative)"
+    "verification": "5/5 direct active reads status init, 1/1 recent terminal success, shadow agrees; no full account-wide scan this cycle"
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
@@ -71,21 +70,20 @@
   "phases": {
     "topview": {
       "status": "degraded",
-      "checked_at": "2026-10-11T15:00:45Z",
+      "checked_at": "2026-10-11T17:51:59.636Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
-      "occupied_slots": 6,
-      "free_slots": 0,
+      "occupied_slots": 5,
+      "free_slots": 1,
       "active_task_ids": [
         "a3efa5cce8224b7896e8166e0d5f2b9e",
         "57b6f3aac4804d2486721131e30640f6",
         "dbe204aeb9a74478af04c6bbfe7693f9",
         "3710685303634b2482b90581aa6a8a2b",
-        "4682335cffc24a339179845c2713c46e",
-        "71ff9f82cf864225b0cea5caae96854a"
+        "4682335cffc24a339179845c2713c46e"
       ],
-      "direct_active_task_reads": "5_of_6_verified",
+      "direct_active_task_reads": "5_of_5_verified",
       "complete": false
     },
     "telemetry_publication": {
@@ -124,29 +122,27 @@
   },
   "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-11T14:57:43Z",
-    "completed_at": "2026-10-11T15:00:45Z",
+    "started_at": "2026-10-11T17:50:26Z",
+    "completed_at": "2026-10-11T17:51:59.636Z",
     "health": "degraded",
     "phases_completed": [
-      "role_guard",
-      "github_canonical_read",
-      "seven_instructions",
-      "topview_boards_11",
-      "topview_latest_page",
-      "topview_direct_5_of_6",
-      "supabase_owner_decisions",
-      "drive_master_metadata",
-      "library_metadata"
+      "role_guard_equivalent_recent_main_commit_authors",
+      "github_canonical_status_and_instructions",
+      "topview_owned_boards_11",
+      "topview_main_latest_100",
+      "topview_direct_active_5_of_5",
+      "topview_direct_terminal_1",
+      "shadow_comparison_auxiliary",
+      "supabase_owner_decisions"
     ],
     "phases_missing": [
-      "topview_direct_71ff_unavailable",
-      "topview_full_scan_not_due",
-      "unknown_task_exact_mapping",
-      "canonical_slow_and_telemetry_publication",
-      "validator_and_pages_readback"
+      "account_wide_full_scan_not_independently_repeated",
+      "canonical_topview_telemetry_checked_at_not_advanced",
+      "canonical_validator_and_pages_readback_not_repeated",
+      "ops_fast_path_file_missing_404"
     ],
     "runner": "chatgpt_scheduled_task",
-    "note": "Topview live latest page 6/6 unlimited active (5 init, 1 running). Five direct reads succeeded; one task detail transient UNAVAILABLE. Unknown task 71ff... is not exact canonical Scene 21. GitHub published telemetry remains stale 0/6; no canonical or Topview telemetry changes attempted. Incomplete cycle must not count as healthy primary success."
+    "note": "Verified 11 owned boards, newest 100 video tasks on main board, all five active unlimited tasks direct status init, terminal sixth success; 5/6 occupied, 1 free. Shadow light scan agrees but is not account-wide authoritative. No new unknown task observed. No canonical slow change or new task mapping. Fast path file absent. Telemetry/checkpoint untouched; this is not a healthy full-cycle heartbeat."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -197,7 +193,7 @@
     "topview_live_attempted_at": "2026-10-09T12:10:01.949Z",
     "topview_live_result": "complete_5_of_6_occupied"
   },
-  "last_completed_cycle_at": "2026-10-11T15:00:45Z",
+  "last_completed_cycle_at": "2026-10-11T17:51:59.636Z",
   "last_successful_cycle_at": "2026-10-11T03:11:59Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -212,7 +208,7 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-11T15:00:45Z"
+    "chatgpt": "2026-10-11T17:51:59.636Z"
   },
   "last_successful_cycle_runner": "claude_scheduled_task",
   "last_successful_by_runner": {
