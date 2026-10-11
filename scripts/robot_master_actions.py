@@ -55,6 +55,12 @@ def moscow_date(now=None):
     return ((now or datetime.now(timezone.utc)) + timedelta(hours=3)).strftime("%d.%m.%Y")
 
 
+def read_raw(path):
+    """UTF-8 text without newline translation (Path.read_text(newline=) needs Python 3.13)."""
+    with open(path, encoding="utf-8", newline="") as f:
+        return f.read()
+
+
 def dumps(obj):
     return json.dumps(obj, ensure_ascii=False, indent=2) + "\n"
 
@@ -95,7 +101,7 @@ class Group:
 # --------------------------------------------------------------------------- state
 def load_state(root):
     root = Path(root)
-    st = {name: (root / name).read_text(encoding="utf-8", newline="") for name in FILES}
+    st = {name: read_raw(root / name) for name in FILES}
     for name in FILES[1:]:
         st[name] = json.loads(st[name])
     ps = root / "project-status.json"
@@ -462,7 +468,7 @@ def run(root, store, git, *, mode, now=None, sync=True):
         finally:
             tmp_master.unlink(missing_ok=True)
             tmp_status.unlink(missing_ok=True)
-        master_sha = sha256((root / "video-prompts.md").read_text(encoding="utf-8", newline=""))
+        master_sha = sha256(read_raw(root / "video-prompts.md"))
         summary = "; ".join(g.brief().split(":")[0] for g in applying)
         (root / "SYNC-TRIGGER.txt").write_text(
             f"{utcnow(now)} GitHub robot (owner panel): {summary}; SHA256 {master_sha}. "

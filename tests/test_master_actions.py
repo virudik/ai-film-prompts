@@ -111,7 +111,7 @@ class RetireSceneTests(unittest.TestCase):
 
     def test_live_master_smoke(self):
         """The real master: every scene that is not ambiguous retires into a validator-green master."""
-        text = (ROOT / "video-prompts.md").read_text(encoding="utf-8", newline="")
+        text = robot.read_raw(ROOT / "video-prompts.md")
         ids = mse.active_scene_ids(text)
         candidate = None
         for sid in ids:
