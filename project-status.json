@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-11T20:57:07Z",
+  "synced_at": "2026-10-11T20:57:47Z",
   "revision_date": "11.10.2026",
   "master_declared_last_full_sync": "11.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "17d7da867ee6dff4fce2e91b46f6a22f8be3449aea42aef23dc9c78e07242bef",
-  "canonical_revision_sha256": "198408fa2d79de06a74931b2bafb7676b0eaf14b2f9ab4bf0dd8e86ea907e265",
-  "canonical_master_bytes": 551598,
+  "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+  "canonical_revision_sha256": "9d9289e153054e9762337e1f9792c3e52dfd6cc9858f1743c75478dbbb954ebd",
+  "canonical_master_bytes": 551651,
   "scenes": 18,
   "prompt_texts": 51,
   "work_items": [
@@ -33,7 +33,7 @@
     31,
     35
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 6,
   "scene_ids": [
     13,
     16,
@@ -82,7 +82,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 3.049,
+    "age_hours_at_status_build": 3.061,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -160,7 +160,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 3.049,
+      "age_hours": 3.061,
       "blocking": false
     },
     "topview_task_map": {
@@ -546,9 +546,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "11.10.2026",
-    "synced_at": "2026-10-11T20:57:07Z",
-    "canonical_master_sha256": "17d7da867ee6dff4fce2e91b46f6a22f8be3449aea42aef23dc9c78e07242bef",
-    "canonical_revision_sha256": "198408fa2d79de06a74931b2bafb7676b0eaf14b2f9ab4bf0dd8e86ea907e265",
+    "synced_at": "2026-10-11T20:57:47Z",
+    "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+    "canonical_revision_sha256": "9d9289e153054e9762337e1f9792c3e52dfd6cc9858f1743c75478dbbb954ebd",
     "scene_count": 18,
     "prompt_count": 51,
     "scene_ids": [
@@ -592,19 +592,19 @@
       31,
       35
     ],
-    "health": "error",
+    "health": "ok",
     "instruction_sync_health": "ok"
   },
-  "health": "error",
+  "health": "ok",
   "checks": {
     "declared_scene_count_matches_sections": true,
     "declared_scene_count_matches_toc": true,
     "scene_numbers_match_toc_and_sections": true,
     "declared_prompt_count_matches_fences": true,
     "declared_work_count_matches_ids": true,
-    "declared_slow_count_matches_list": false,
+    "declared_slow_count_matches_list": true,
     "slow_status_matches_dedicated_table": true,
-    "slow_status_matches_toc": false,
+    "slow_status_matches_toc": true,
     "slow_status_matches_sections": true,
     "scene_numbers_are_unique_and_increasing": true,
     "scene_anchors_match_sections": true,
