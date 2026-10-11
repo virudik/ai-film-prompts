@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-11T18:54:01Z",
+  "checked_at": "2026-10-11T19:22:38Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -20,11 +20,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 610
+      "1a6244cf1ae747ef847d949a80d6133c": 611
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 7,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -39,14 +39,14 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 610
+      "1a6244cf1ae747ef847d949a80d6133c": 611
     },
     "last_full_scan_at": "2026-10-11T16:51:24Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 5,
-    "free": 1,
+    "occupied": 6,
+    "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 30,
       "mapping": "task_map",
-      "queue_count": 2264,
-      "wait_seconds": 72613,
+      "queue_count": 2239,
+      "wait_seconds": 70895,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 31,
       "mapping": "task_map",
-      "queue_count": 2620,
-      "wait_seconds": 89893,
+      "queue_count": 2596,
+      "wait_seconds": 88175,
       "process_seconds": null
     },
     {
@@ -87,8 +87,21 @@
       "model": "Wan 3.0",
       "scene_id": 25,
       "mapping": "task_map",
-      "queue_count": 1473,
-      "wait_seconds": 38053,
+      "queue_count": 1437,
+      "wait_seconds": 36335,
+      "process_seconds": null
+    },
+    {
+      "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-10-11 19:19:35",
+      "model": "Wan 3.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 2926,
+      "wait_seconds": 105455,
       "process_seconds": null
     },
     {
@@ -100,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 24,
       "mapping": "task_map",
-      "queue_count": 904,
-      "wait_seconds": 20773,
+      "queue_count": 847,
+      "wait_seconds": 19054,
       "process_seconds": null
     },
     {
@@ -113,12 +126,22 @@
       "model": "Wan 3.0",
       "scene_id": 27,
       "mapping": "task_map",
-      "queue_count": 1899,
-      "wait_seconds": 55333,
+      "queue_count": 1876,
+      "wait_seconds": 53614,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-10-11 19:19:35",
+      "model": "Wan 3.0",
+      "unlimited": true,
+      "prompt_head": "MODE: reference-to-video | Wan 3.0 | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | photoreal live-action cinema.\r\nIDENTITY / REFERENCES:\r\n<<<Image1>>> is the ABSOLUTE SEREGA identity: exact o"
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -139,11 +162,23 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-11T17:50:46Z",
-    "monitor_age_minutes": 63,
+    "monitor_age_minutes": 92,
     "monitor_occupied": 5,
-    "robot_occupied": 5,
-    "consistent": true,
-    "monitor_may_lag": false,
-    "differences": []
+    "robot_occupied": 6,
+    "consistent": false,
+    "monitor_may_lag": true,
+    "differences": [
+      {
+        "type": "only_in_robot",
+        "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
+        "scene_id": null,
+        "mapping": "unknown_new"
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 5,
+        "robot": 6
+      }
+    ]
   }
 }
