@@ -38,20 +38,17 @@ def ts(v):
         return None
 
 
-def main():
-    args = sys.argv[1:]
-    force = "--force-full" in args
-    args = [a for a in args if a != "--force-full"]
-    repo, boards_f, page_f = Path(args[0]), args[1], args[2]
-    tm = json.loads((repo / "topview-task-map.json").read_text(encoding="utf-8"))
+def decide(tm, boards, page, force=False, now=None):
+    """Pure decision (also used by scripts/topview_api_scan.py).
+    tm     — task-map-shaped dict: scan_cursor{last_full_scan_at, board_task_counts}, last_scan_at,
+             active_by_scene, processed_tasks
+    boards — list of board dicts (boardId, taskCount); page — newest tasks of the main board."""
     cur = tm.get("scan_cursor", {})
-    boards = json.load(open(boards_f, encoding="utf-8"))["result"]["data"]
-    page = json.load(open(page_f, encoding="utf-8"))["result"]["data"]
     counts = {b["boardId"]: int(b.get("taskCount") or 0) for b in boards}
     stored = cur.get("board_task_counts") or {}
     last_full = ts(cur.get("last_full_scan_at"))
     last_scan = ts(tm.get("last_scan_at") or cur.get("last_successful_scan_at"))
-    now = datetime.now(timezone.utc)
+    now = now or datetime.now(timezone.utc)
     reasons = []
     if force:
         reasons.append("forced")
@@ -90,9 +87,19 @@ def main():
             reasons.append(f"main board grew by {grew}, newest page shows only {new_seen} new")
         if new_seen >= len(page) and page:
             reasons.append("newest page is entirely new tasks; older pages may hold more")
-    print(json.dumps({"mode": "full" if reasons else "light", "reasons": reasons,
-                      "board_task_counts": counts, "unknown_new": unknown, "main_new_seen": new_seen},
-                     ensure_ascii=False, indent=1))
+    return {"mode": "full" if reasons else "light", "reasons": reasons,
+            "board_task_counts": counts, "unknown_new": unknown, "main_new_seen": new_seen}
+
+
+def main():
+    args = sys.argv[1:]
+    force = "--force-full" in args
+    args = [a for a in args if a != "--force-full"]
+    repo, boards_f, page_f = Path(args[0]), args[1], args[2]
+    tm = json.loads((repo / "topview-task-map.json").read_text(encoding="utf-8"))
+    boards = json.load(open(boards_f, encoding="utf-8"))["result"]["data"]
+    page = json.load(open(page_f, encoding="utf-8"))["result"]["data"]
+    print(json.dumps(decide(tm, boards, page, force), ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":

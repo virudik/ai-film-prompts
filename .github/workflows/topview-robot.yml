@@ -1,0 +1,64 @@
+name: Topview robot scanner (SHADOW MODE, read-only)
+
+# Owner decision 11.10.2026: the GitHub robot scans Topview through the public API every 30 minutes
+# in PARALLEL with the Claude monitor. SHADOW MODE: it writes only shadow/topview-robot-status.json
+# and compares itself with the monitor's topview-status.json (differences go into that file and into
+# a notice annotation). It never touches topview-status.json / task map / checkpoint / master /
+# ledger, never starts, approves, reruns or deletes anything, never spends credits.
+# Switching real telemetry to the robot (monitor_publish.py + monitor_role.py) and a rarer Claude
+# monitor are the owner's decision after 1-2 days of parallel runs: ops/QUEST-THREE-KEYS.md.
+# Without TOPVIEW_API_KEY (secret) and TOPVIEW_UID (variable) it is a clean no-op.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'auto = light/full by the monitor rules; full = force a complete sweep'
+        required: false
+        default: auto
+        type: choice
+        options: [auto, full, light]
+  schedule:
+    - cron: '7,37 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: topview-robot
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan Topview (GET only) and compare with the monitor
+        env:
+          TOPVIEW_API_KEY: ${{ secrets.TOPVIEW_API_KEY }}
+          TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
+          SCAN_MODE: ${{ inputs.mode || 'auto' }}
+        run: python3 scripts/topview_api_scan.py --mode "$SCAN_MODE"
+      - name: Commit the shadow status only when its content changed
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- shadow/topview-robot-status.json)" ]; then
+            echo "No change in shadow/topview-robot-status.json; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add shadow/topview-robot-status.json
+          git commit -m "Topview robot (shadow): status update"
+          for attempt in 1 2 3 4; do
+            if git push origin "HEAD:${BRANCH}"; then exit 0; fi
+            echo "Push rejected (another writer); re-reading ${BRANCH} and retrying ($attempt/4)"
+            git fetch origin "${BRANCH}"
+            git rebase "origin/${BRANCH}"
+          done
+          echo "::warning title=topview-robot-shadow::could not push the shadow status after 4 attempts"
+          exit 0

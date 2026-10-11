@@ -9,6 +9,8 @@ on:
       - 'tests/test_monitor_failover.py'
       - 'tests/test_topview_light_check.py'
       - 'scripts/topview_light_check.py'
+      - 'scripts/topview_api_scan.py'
+      - 'tests/test_topview_api_scan.py'
       - 'scripts/monitor_publish.py'
       - 'tests/test_owner_decisions.py'
       - 'scripts/process_owner_decisions.py'
@@ -39,4 +41,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run offline canonical and monitor failover regression tests
-        run: python3 -m unittest -v tests/test_recovery_integration.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py
+        run: python3 -m unittest -v tests/test_recovery_integration.py tests/test_monitor_failover.py tests/test_owner_decisions.py tests/test_topview_light_check.py tests/test_master_actions.py tests/test_topview_api_scan.py
