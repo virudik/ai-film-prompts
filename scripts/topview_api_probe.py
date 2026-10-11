@@ -41,7 +41,18 @@ def request(path, *, query=None):
         return {"http_status": 0, "api_code": "", "api_status": "", "result_present": False,
                 "error_type": type(e).__name__}
 
-def request_meta(path, *, query=None):
+def summarize(items):
+    keys, statuses, unlimited = set(), {}, 0
+    for it in items[:100]:
+        if isinstance(it, dict):
+            keys |= set(it.keys())
+            s = str(it.get("status", "")).lower(); statuses[s] = statuses.get(s, 0) + 1
+            par = it.get("parameters") if isinstance(it.get("parameters"), dict) else {}
+            if it.get("useUnlimitMode") or par.get("useUnlimitMode"):
+                unlimited += 1
+    return {"item_keys": sorted(keys)[:40], "statuses": statuses, "unlimited_items": unlimited}
+
+def request_meta(path, *, query=None, summarize_items=False):
     """GET returning only status codes, message, result keys and list sizes (safe to print)."""
     url = BASE + path + (("?" + urlencode(query)) if query else "")
     headers = {"Authorization": "Bearer " + os.environ["TOPVIEW_API_KEY"].strip(),
@@ -56,10 +67,18 @@ def request_meta(path, *, query=None):
                 for k, v in res.items():
                     if isinstance(v, list):
                         meta["list_" + k] = len(v)
-                    elif k in ("total", "totalCount", "count") :
+                        if summarize_items:
+                            meta["summary_" + k] = summarize(v)
+                        elif v and isinstance(v[0], dict):
+                            meta["item_keys_" + k] = sorted(v[0].keys())[:25]
+                    elif k in ("total", "totalCount", "count", "pageNo", "pageSize", "pages"):
                         meta[k] = v
             elif isinstance(res, list):
                 meta["result_list"] = len(res)
+                if summarize_items:
+                    meta["summary"] = summarize(res)
+                elif res and isinstance(res[0], dict):
+                    meta["item_keys"] = sorted(res[0].keys())[:25]
             return meta
     except HTTPError as e:
         return {"http": e.code}
@@ -96,10 +115,11 @@ def main():
     # Board endpoints exist in the public API reference (List Boards / List Board Tasks /
     # Get Board Task Detail); exact paths are probed read-only (GET), reporting only codes,
     # top-level keys and item counts — no content, no writes.
-    board_probe = {}
-    for path in ["/v1/board/list", "/v1/boards", "/v1/board/page", "/v1/board/my-boards",
-                 "/v1/board/task/list", "/v1/board/task/page", "/v1/board_task/list", "/v1/board/tasks"]:
-        board_probe[path] = request_meta(path, query={"pageNo": 1, "pageSize": 5})
+    board_probe = {"/boards/list": request_meta("/boards/list", query={"pageNo": 1, "pageSize": 50})}
+    MAIN_BOARD = "1a6244cf1ae747ef847d949a80d6133c"   # AI Film main board (monitor scan_cursor)
+    board_probe["/boards/tasks/list"] = request_meta("/boards/tasks/list", query={
+        "boardId": MAIN_BOARD, "mediaType": "video", "sortField": "gmtCreate", "sortOrder": "desc",
+        "pageNo": 1, "pageSize": 20}, summarize_items=True)
     out["board_probe"] = board_probe
     print(json.dumps(out, ensure_ascii=False, sort_keys=True))
     # also as a workflow annotation, readable via the check-runs API (no secrets inside)
