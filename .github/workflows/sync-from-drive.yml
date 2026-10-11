@@ -239,7 +239,7 @@ jobs:
           read -r STATE DETAIL < <(python3 - <<'PY'
           import json
           from datetime import datetime, timezone
-          LIMIT_MIN = 180
+          LIMIT_MIN = 240  # temporary (owner 11.10 06:00): monitor every 3 h until weekly limit reset Fri 16.10; restore 180 with hourly schedule
           now = datetime.now(timezone.utc)
           def age_key(v):
               try:
