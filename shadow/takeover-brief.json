@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T20:58:03+00:00",
+ "generated_at": "2026-10-11T22:00:52+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "67649cf8238241574d2c9468907974743f8a1fc4352ab12d64fb484a48a9e67d",
-   "bytes": 290905
+   "sha256": "438917b1329c11d968c956c1b6b84cd2c7c2c973c2715a3f16216136c814ae1e",
+   "bytes": 292270
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -22,8 +22,8 @@
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "02c391c60233ee819082edbbcdf22c00a7a5b7391cccc36f216b8e472ca050c5",
-   "bytes": 113130
+   "sha256": "4e7c994ee7f4ecc1e7e0945aa7816ef2d859bf20f1e6e2d2f299e22879153e69",
+   "bytes": 113757
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 112755,
-  "above_marker_chars": 69357,
+  "chars": 113671,
+  "above_marker_chars": 70273,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,7 +194,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "6a45ede079b5",
+  "sha256_12": "133e17b10a51",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
