@@ -17,10 +17,10 @@
       "commit_author": "Claude"
     },
     "chatgpt": {
-      "title": "AI Film — единственный монитор и миграция",
+      "title": "AI Film — резервный контроль",
       "id": "6acae6ab433481919e88665c520b8ef2",
       "schedule": "hourly BYMINUTE=40 (Task timezone Europe/Moscow; verify actual execution)",
-      "procedure": "GitHub issue #12 migration pilot; read-only until scheduled connector/write tests pass; monitor_role.py required for any canonical writer takeover",
+      "procedure": "Read-only status checks; migration issue #12 closed as not_planned; no writer takeover without new owner authorization",
       "commit_author": "virudik"
     }
   },
@@ -39,6 +39,8 @@
     "issue": 12,
     "chatgpt_writer_eligible": false,
     "reason": "Only active ChatGPT AI Film task is a read-only migration pilot; background connector and guarded writer not yet proven.",
-    "legacy_chatgpt_monitor_disabled": true
+    "legacy_chatgpt_monitor_disabled": true,
+    "migration_outcome": "not_planned_background_capabilities_unverified",
+    "closed_issue": 12
   }
 }
