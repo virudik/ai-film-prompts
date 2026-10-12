@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-12T00:15:28.489Z",
+  "checked_at": "2026-10-12T00:25:04.210Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "2bf51b78bd2de58efde5cfc6c810cffb6825e417",
-      "mirror_sha256": "3f0fffd7f8090f997e66adab3395db76fb43325b5c33c84d13609f54ba399320",
+      "github_blob": "ea01cd044c4d037a34d0dbd9c91155bcc0611dd5",
+      "mirror_sha256": "51eeceb92a58d60bac24edb11c6eeda17ef8a4cddaf069bb255b2aedc91ec726",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
       "drive_copy_match": false,
@@ -19,8 +19,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "64e573a74c227286cbc19de9a315cd4a6c3401dd",
-      "mirror_sha256": "b5461dd3152b7bf6165303f70fea16b294b1c071512f53612415097eadec228c",
+      "github_blob": "ce2673a036372dee1a8843905717424e39de1578",
+      "mirror_sha256": "250d2346201fe867fcdf10bd4b04d6446777702359bec4b834123d6213043090",
       "match": true,
       "drive_copy_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
       "drive_copy_match": false,
@@ -29,8 +29,8 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "github_blob": "a3e01b5554c34d93d9fdff061d341814f0e546bf",
-      "mirror_sha256": "4e7c994ee7f4ecc1e7e0945aa7816ef2d859bf20f1e6e2d2f299e22879153e69",
+      "github_blob": "928cd206c281f5cbc16b67e0099367ffb23f117b",
+      "mirror_sha256": "720e9dbc429e8dda1464a6a7f0fd88472c3cc3037c00d97dba684a9e5db03d5b",
       "match": true,
       "drive_copy_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
       "drive_copy_match": false,
@@ -49,8 +49,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "6f5168e07dbcb199df057eaccb2512a9cbb76e40",
-      "mirror_sha256": "471c1761de69aa7176ef14e0b6cf97ffeac65cd44878926c73ce143c06e9b719",
+      "github_blob": "3b5bc18f6dc677488a1eee1363426b430b779b28",
+      "mirror_sha256": "c0347894f429ed9beb47b8214084ef2d8829d798e2bf62a9f23b72110f670d72",
       "match": true,
       "drive_copy_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
       "drive_copy_match": false,
@@ -69,8 +69,8 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "github_blob": "da2eb2c7725a382a37115c558dd6ae36b7132460",
-      "mirror_sha256": "d8443d0ed35cadf30519edfadae072d5c57e3091ad5c4f2e8e68304ceb76ae78",
+      "github_blob": "5de1ce6bd07a7f7576f2646f2fe193345692f0f0",
+      "mirror_sha256": "fd57798c785521b790ee131ccb00379ac5b91b712af10c3a8c21a31e774fb988",
       "match": true,
       "drive_copy_sha256": "a0b2670efa8539a604a828b0adfb8822e2a098e3889889a1be1abe18878d238f",
       "drive_copy_match": false,
@@ -94,7 +94,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "12.10.2026: canonical seven GitHub instructions verified; layout-only Topview owner buttons moved from Status to Scene in index.html. Drive remains a backup.",
+  "note": "12.10.2026 03:24 MSK handoff signed in GitHub main: monitor/sync/owner buttons/Topview UI and 7-instruction certificate. Drive remains noncanonical backup.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",
