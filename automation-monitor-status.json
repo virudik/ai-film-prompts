@@ -28,7 +28,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-12T04:56:47.982Z",
+    "checked_at": "2026-10-12T05:55:20.181Z",
     "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_6_active_reads; shadow_auxiliary",
     "complete": true,
     "boards_scanned": 11,
@@ -72,7 +72,7 @@
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_six_active",
-      "checked_at": "2026-10-12T04:54:36.954Z",
+      "checked_at": "2026-10-12T05:52:45.894Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -91,10 +91,10 @@
     },
     "telemetry_publication": {
       "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-12T04:56:47.982Z",
-      "task_map_checked_at": "2026-10-12T04:54:36.954Z",
-      "status_checked_at": "2026-10-12T04:54:36.954Z",
-      "checkpoint_checked_at": "2026-10-12T04:54:58.286Z",
+      "checked_at": "2026-10-12T05:55:20.181Z",
+      "task_map_checked_at": "2026-10-12T05:52:45.894Z",
+      "status_checked_at": "2026-10-12T05:52:45.894Z",
+      "checkpoint_checked_at": "2026-10-12T05:53:23.769Z",
       "missing": []
     },
     "instruction_sync": {
@@ -103,7 +103,7 @@
     },
     "canonical_sync": {
       "status": "verified_github_project_status_and_public_pages",
-      "checked_at": "2026-10-12T04:56:47.982Z",
+      "checked_at": "2026-10-12T05:55:20.181Z",
       "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
       "scenes": 15,
       "prompt_texts": 36,
@@ -134,8 +134,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-12T04:52:52Z",
-    "completed_at": "2026-10-12T04:56:47.982Z",
+    "started_at": "2026-10-12T05:50:28Z",
+    "completed_at": "2026-10-12T05:55:20.181Z",
     "health": "ok",
     "phases_completed": [
       "role_and_50_minute_guard",
@@ -154,7 +154,7 @@
     ],
     "phases_missing": [],
     "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled cycle verified with no state transition. Scenes 25, 27, 30, 31, 35 and 38 remain active in init; physical capacity remains 6/6. Canonical slow list remains unchanged. Supabase contains 75 applied, 6 in_progress and 2 needs_owner decisions. Integration tests, Pages, GitHub readback and public 07:54:36 MSK telemetry were verified."
+    "note": "Full scheduled cycle verified with no state transition. Scenes 25, 27, 30, 31, 35 and 38 remain active in init; physical capacity remains 6/6. Canonical slow list remains unchanged. Supabase contains 75 applied, 6 in_progress and 2 needs_owner decisions. Integration tests, Pages, GitHub readback and public 08:52:45 MSK telemetry were verified."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -181,7 +181,7 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-12T04:54:36.954Z",
+    "public_pages_topview_checked_at": "2026-10-12T05:52:45.894Z",
     "public_pages_occupied_slots": 6,
     "public_pages_free_slots": 0,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
@@ -190,7 +190,7 @@
     "canonical_master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
     "public_pages_canonical_health": "ok",
     "public_pages_current_readback": "current_6_of_6_snapshot_scenes_25_27_30_31_35_38",
-    "public_pages_readback_attempted_at": "2026-10-12T04:56:47.982Z",
+    "public_pages_readback_attempted_at": "2026-10-12T05:55:20.181Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -202,11 +202,11 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-12T04:54:36.954Z",
+    "topview_live_attempted_at": "2026-10-12T05:52:45.894Z",
     "topview_live_result": "six_active_unchanged_6_of_6"
   },
-  "last_completed_cycle_at": "2026-10-12T04:56:47.982Z",
-  "last_successful_cycle_at": "2026-10-12T04:56:47.982Z",
+  "last_completed_cycle_at": "2026-10-12T05:55:20.181Z",
+  "last_successful_cycle_at": "2026-10-12T05:55:20.181Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -220,12 +220,12 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-12T04:56:47.982Z"
+    "chatgpt": "2026-10-12T05:55:20.181Z"
   },
   "last_successful_cycle_runner": "chatgpt_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-12T04:56:47.982Z"
+    "chatgpt": "2026-10-12T05:55:20.181Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -252,7 +252,7 @@
     "observation_note": "Scheduled task ran after the last GitHub-reported degraded cycle, but no newer completed full cycle was committed. Do not advance last_scheduled_cycle or last_successful_cycle_at on this basis."
   },
   "manual_interactive_verification": {
-    "checked_at": "2026-10-12T04:56:47.982Z",
+    "checked_at": "2026-10-12T05:55:20.181Z",
     "runner": "chatgpt_scheduled_task",
     "full_scheduled_cycle_verified": true,
     "provider_status": "6_of_6_unlimited_active_unchanged",
