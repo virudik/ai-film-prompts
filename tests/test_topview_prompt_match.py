@@ -2,6 +2,7 @@
 """topview_prompt_match: offline tests (fake API client, no network, no keys)."""
 import contextlib
 import io
+import json
 import os
 import sys
 import unittest
@@ -33,8 +34,10 @@ class PromptMatch(unittest.TestCase):
         self.assertEqual(len(labels), len(set(labels)))
         self.assertIn("28 B1", labels)
         self.assertIn("27 · Seedance 2.0 часть 2", labels)
-        self.assertIn("20 · песня 13", labels)
-        self.assertGreaterEqual(len(labels), 51)
+        project = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))
+        self.assertEqual(project["health"], "ok")
+        self.assertNotIn("20 · песня 13", labels)  # scene 20 is retired and permanently reserved
+        self.assertEqual(len(labels), project["prompt_texts"])  # match the live canonical master
 
     def test_topview_flavoured_text_matches_normalized(self):
         label, body = next((l, b) for l, b in BLOCKS if l == "24")
