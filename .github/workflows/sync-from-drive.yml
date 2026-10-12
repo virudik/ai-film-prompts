@@ -3,7 +3,7 @@ name: Sync canonical master from Google Drive
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '11,41 * * * *'
   push:
     branches: [main]
     paths:
@@ -338,9 +338,9 @@ jobs:
   owner_decisions:
     name: Apply deterministic owner buttons (Supabase -> review ledger)
     needs: [sync]
-    # This job stays independent of a failed Drive mirror sync, but is never
-    # a third creative monitor. It runs on the EXISTING 30-minute schedule.
-    if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    # Owner-approved 12.10.2026: process buttons every 30 min and on direct human push.
+    # Do not recurse on bot pushes; commit-before-ack and rebase safety remain.
+    if: always() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.actor != 'github-actions[bot]'))
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -394,14 +394,14 @@ jobs:
           fi
 
       - name: Phase 2 - master buttons (in_film / scene_not_needed / tv_drop_task)
-        # OFF by default: without the GitHub variable ROBOT_MASTER_ACTIONS=on this only prints
-        # the plan as an annotation and writes nothing (neither git nor Supabase). The owner
-        # switches it on after checking the plan. See scripts/robot_master_actions.py.
+        # Explicit owner approval 12.10: ON by default. An explicit GitHub variable
+        # ROBOT_MASTER_ACTIONS=off pauses the phase. Conflicting/active scenes are guarded
+        # inside robot_master_actions.py (never auto-generate or approve by Topview).
         if: always() && !cancelled()
         shell: bash
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          ROBOT_MASTER_ACTIONS: ${{ vars.ROBOT_MASTER_ACTIONS }}
+          ROBOT_MASTER_ACTIONS: ${{ vars.ROBOT_MASTER_ACTIONS || 'on' }}
         run: |
           set -euo pipefail
           if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then

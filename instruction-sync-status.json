@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-11T22:18:44.973Z",
+  "checked_at": "2026-10-12T00:01:00.332Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "fd0e0d83d34768956e7562ec53f57fdd57a7738b",
-      "mirror_sha256": "01c9eec7a227c785af1e4c228d028d2ced2dee910f41486d538c0790bb22f222",
+      "github_blob": "90bab0246768664ff760944aa467b686f6bdef8f",
+      "mirror_sha256": "c290a2d5d3af2f75a915ac628d5a235c51116c50bed6abf35382027d1d3ec141",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
       "drive_copy_match": false,
@@ -19,8 +19,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "1248a29334b67843ba3e9d269d61f1c17d6c5691",
-      "mirror_sha256": "825bced5ed0d06757c8ace957303f7a24ae85514eac8ac1070038a875f1a5fba",
+      "github_blob": "64e573a74c227286cbc19de9a315cd4a6c3401dd",
+      "mirror_sha256": "b5461dd3152b7bf6165303f70fea16b294b1c071512f53612415097eadec228c",
       "match": true,
       "drive_copy_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
       "drive_copy_match": false,
@@ -49,8 +49,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "7f78ffef326d821e1d2e5a59bcee5422abb5a851",
-      "mirror_sha256": "7c4043ac7170977a535e711bf862d88a1010fa230aee03ff6f91694053ed62f1",
+      "github_blob": "0867a7496f45ea4426c00b0ccef010ea31568f65",
+      "mirror_sha256": "deac6699f8db162cda7a717cf112b3f222dc688e2fdbcf00d9147f8093c61006",
       "match": true,
       "drive_copy_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
       "drive_copy_match": false,
@@ -94,7 +94,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "С 11.10.2026 канон 7 инструкций — GitHub main; Drive — копия для чтения, drive_copy_* поля справочные.",
+  "note": "12.10.2026 GitHub canonical instructions updated for owner-approved in_film automation; Drive is a backup.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",

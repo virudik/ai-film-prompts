@@ -390,5 +390,17 @@ class PhaseOneHoldTests(unittest.TestCase):
         self.assertEqual([p[0] for p in patches], ["c"])
 
 
+
+class OwnerActionsWorkflowContract(unittest.TestCase):
+    """Owner buttons must not revert silently to a plan-only GitHub job."""
+
+    def test_phase2_activation_and_cadence(self):
+        workflow = (ROOT / '.github/workflows/sync-from-drive.yml').read_text(encoding='utf-8')
+        self.assertIn("cron: '11,41 * * * *'", workflow)
+        self.assertIn("ROBOT_MASTER_ACTIONS: ${{ vars.ROBOT_MASTER_ACTIONS || 'on' }}", workflow)
+        self.assertIn("github.actor != 'github-actions[bot]'", workflow)
+        self.assertIn('scripts/process_owner_decisions.py prepare', workflow)
+        self.assertIn('scripts/robot_master_actions.py', workflow)
+
 if __name__ == "__main__":
     unittest.main()
