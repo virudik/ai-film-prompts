@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-12T00:01:00.332Z",
+  "checked_at": "2026-10-12T00:15:28.489Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "90bab0246768664ff760944aa467b686f6bdef8f",
-      "mirror_sha256": "c290a2d5d3af2f75a915ac628d5a235c51116c50bed6abf35382027d1d3ec141",
+      "github_blob": "2bf51b78bd2de58efde5cfc6c810cffb6825e417",
+      "mirror_sha256": "3f0fffd7f8090f997e66adab3395db76fb43325b5c33c84d13609f54ba399320",
       "match": true,
       "drive_copy_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
       "drive_copy_match": false,
@@ -49,8 +49,8 @@
     },
     "USER-GUIDE.md": {
       "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "github_blob": "0867a7496f45ea4426c00b0ccef010ea31568f65",
-      "mirror_sha256": "deac6699f8db162cda7a717cf112b3f222dc688e2fdbcf00d9147f8093c61006",
+      "github_blob": "6f5168e07dbcb199df057eaccb2512a9cbb76e40",
+      "mirror_sha256": "471c1761de69aa7176ef14e0b6cf97ffeac65cd44878926c73ce143c06e9b719",
       "match": true,
       "drive_copy_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
       "drive_copy_match": false,
@@ -94,7 +94,7 @@
     "state_model": "minimal_active_plus_processed_with_six_slot_view",
     "rule": "Scene ID belongs to creative scene, task ID identifies physical slot. Canonical slow stays OWNER-CONTROLLED until applied site owner_decisions; terminal completion does not auto-clear canonical slow."
   },
-  "note": "12.10.2026 GitHub canonical instructions updated for owner-approved in_film automation; Drive is a backup.",
+  "note": "12.10.2026: canonical seven GitHub instructions verified; layout-only Topview owner buttons moved from Status to Scene in index.html. Drive remains a backup.",
   "recovery_sync": {
     "automation_title": "AI Film — монитор Claude",
     "phase": "embedded_in_unified_monitor",

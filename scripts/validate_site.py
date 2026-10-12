@@ -95,6 +95,20 @@ for label in ('GitHub main — канон · Drive — копия',"chip('Про
     if label not in html:
         raise SystemExit('GitHub canonical label is missing: '+label)
 
+# Topview owner buttons must be placed inside the Scene column, not the narrow Status
+# column, and should remain a horizontal group with the same styling as scene buttons.
+for required in (
+    "box.className='owner-btns tv-scene-actions'",
+    "tr.cells[1]?.appendChild(box)",
+    ".topview-table .tv-scene .tv-scene-actions{display:flex;flex-wrap:nowrap;",
+    ".topview-table .tv-scene .tv-scene-actions .owner-btn{flex:0 0 auto;white-space:nowrap}",
+    "(tr.dataset.finished?DONE_ACTIONS:TV_ACTIONS)",
+):
+    if required not in html:
+        raise SystemExit("Topview owner button layout regression: "+required)
+if "tr.cells[3]?.appendChild(box)" in html:
+    raise SystemExit("Topview owner buttons cannot be placed in Status column")
+
 # Both montage-analysis versions must remain published. The second file is large
 # and must never regress to an empty placeholder while the chooser still links to it.
 analysis_v1=root/"Seregius_montazhny_razbor.html"
