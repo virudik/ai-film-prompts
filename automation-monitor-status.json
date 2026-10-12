@@ -28,12 +28,12 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-12T15:07:29.580Z",
-    "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_5_active; shadow_auxiliary",
-    "complete": true,
-    "boards_scanned": 11,
-    "video_tasks_scanned": 100,
-    "pages_scanned": 1,
+    "checked_at": "2026-10-12T16:01:54.144Z",
+    "scope": "topview_live_attempt_owned_boards_plus_ai_film_page_plus_direct_known_ids; connector_degraded; supabase_counts_verified",
+    "complete": false,
+    "boards_scanned": 0,
+    "video_tasks_scanned": 0,
+    "pages_scanned": 0,
     "slot_capacity": 6,
     "occupied_slots": 5,
     "free_slots": 1,
@@ -44,7 +44,7 @@
       "6d1ff4a96a0043f2884ffb528d5d9c9a",
       "e948bd09e5d349448e0ff72fb3049d04"
     ],
-    "verification": "All 11 owned board counts, AI Film current page and all 5 active task IDs checked directly; all five remain init, unlimited and zero-credit"
+    "verification": "Topview connector unavailable for owned boards and current page; 1 of 5 direct active-task reads succeeded (Scene 27 remains init, unlimited, zero-credit). Occupied/free values are retained as last-known and were not revalidated."
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
@@ -69,11 +69,11 @@
   },
   "phases": {
     "topview": {
-      "status": "verified_fast_path_unchanged_5_of_6_one_free_slot",
-      "checked_at": "2026-10-12T15:00:48.453Z",
-      "boards_scanned": 11,
-      "video_tasks_scanned": 100,
-      "pages_scanned": 1,
+      "status": "degraded_connector_unavailable_partial_1_of_5",
+      "checked_at": "2026-10-12T16:01:54.144Z",
+      "boards_scanned": 0,
+      "video_tasks_scanned": 0,
+      "pages_scanned": 0,
       "occupied_slots": 5,
       "free_slots": 1,
       "active_task_ids": [
@@ -83,24 +83,31 @@
         "6d1ff4a96a0043f2884ffb528d5d9c9a",
         "e948bd09e5d349448e0ff72fb3049d04"
       ],
-      "direct_active_task_reads": "5_of_5_verified",
-      "complete": true
+      "direct_active_task_reads": "1_of_5_verified",
+      "complete": false
     },
     "telemetry_publication": {
-      "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-12T15:07:29.580Z",
+      "status": "not_updated_due_incomplete_topview",
+      "checked_at": "2026-10-12T16:01:54.144Z",
       "task_map_checked_at": "2026-10-12T15:00:48.453Z",
       "status_checked_at": "2026-10-12T15:00:48.453Z",
       "checkpoint_checked_at": "2026-10-12T15:02:25.111Z",
-      "missing": []
+      "missing": [
+        "owned_board_inventory",
+        "ai_film_current_page",
+        "direct_active_task_reads_4_of_5",
+        "fresh_slot_and_queue_telemetry",
+        "checkpoint",
+        "ci_pages_public_readback"
+      ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
       "checked_at": "2026-10-12T03:36:24.412Z"
     },
     "canonical_sync": {
-      "status": "verified_github_project_status_and_public_pages",
-      "checked_at": "2026-10-12T15:07:29.580Z",
+      "status": "github_project_status_health_ok_but_full_cycle_not_revalidated",
+      "checked_at": "2026-10-12T16:01:54.144Z",
       "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
       "prompt_texts": 36,
       "slow_scenes": [
@@ -113,7 +120,11 @@
         38
       ],
       "all_project_checks_true": true,
-      "missing": []
+      "missing": [
+        "full_topview_provider_cycle",
+        "fresh_telemetry_publication",
+        "ci_pages_public_readback"
+      ]
     },
     "deep_audit": {
       "status": "not_due",
@@ -128,30 +139,31 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-12T14:56:55Z",
-    "completed_at": "2026-10-12T15:07:29.580Z",
-    "health": "ok",
+    "started_at": "2026-10-12T15:59:18.000Z",
+    "completed_at": "2026-10-12T16:01:54.144Z",
+    "health": "degraded",
     "phases_completed": [
       "role_and_50_minute_guard",
       "fresh_head",
-      "instruction_hashes_7_of_7",
+      "instruction_certificate_unchanged",
+      "topview_live_attempt",
+      "topview_direct_known_read_1_of_5",
+      "supabase_owner_decision_counts",
+      "github_project_status_health_ok"
+    ],
+    "phases_missing": [
       "topview_owned_boards_11",
       "topview_ai_film_latest_100",
-      "topview_direct_known_reads_5",
-      "supabase_owner_decisions",
-      "task_map_master_consistency",
-      "topview_map_and_status_readback",
-      "project_status_health_ok",
-      "integration_tests_success",
-      "checkpoint_last",
-      "github_pages_success",
+      "topview_direct_known_reads_4_of_5",
+      "fresh_6_slot_queue_eta_telemetry",
+      "task_map_status_checkpoint_publication",
+      "integration_tests_and_pages",
       "public_pages_current_readback"
     ],
-    "phases_missing": [],
     "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled cycle verified with no provider state transition. Scenes 27, 30, 31, 35 and 38 remain active in init, unlimited and zero-credit; capacity remains 5/6 with one free slot. Queue/ETA telemetry refreshed. Canonical slow remains unchanged. Supabase contains 75 applied, 6 in_progress and 2 needs_owner decisions. GitHub readback, integration tests, Pages and the public 18:00:48 MSK telemetry were verified."
+    "note": "Scheduled cycle degraded: Topview MCP connection failed for owned-board inventory and current AI Film page after a control retry; only Scene 27 direct read succeeded and remained init/unlimited/zero-credit. Supabase counts remained 75 applied, 6 in_progress and 2 needs_owner. Last-known 5/6 capacity was not revalidated and no telemetry/checkpoint files were advanced. No canonical slow state changed."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -199,12 +211,18 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-12T15:00:48.453Z",
-    "topview_live_result": "five_active_init_5_of_6_one_free_unchanged",
+    "topview_live_attempted_at": "2026-10-12T16:01:54.144Z",
+    "topview_live_result": "connector_unavailable_boards_and_page_partial_1_of_5_direct_scene27_init",
     "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38267316929",
-    "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38267316546"
+    "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38267316546",
+    "supabase_owner_decision_counts": {
+      "applied": 75,
+      "in_progress": 6,
+      "needs_owner": 2,
+      "checked_at": "2026-10-12T16:01:54.144Z"
+    }
   },
-  "last_completed_cycle_at": "2026-10-12T15:07:29.580Z",
+  "last_completed_cycle_at": "2026-10-12T16:01:54.144Z",
   "last_successful_cycle_at": "2026-10-12T15:07:29.580Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -219,7 +237,7 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-12T15:07:29.580Z"
+    "chatgpt": "2026-10-12T16:01:54.144Z"
   },
   "last_successful_cycle_runner": "chatgpt_scheduled_task",
   "last_successful_by_runner": {
