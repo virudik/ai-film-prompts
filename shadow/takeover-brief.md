@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-12T01:59:03+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-12T05:50:26+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -56,7 +56,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | 35 | Древний ПК в руинах храма: находка Серёги | Wan 3 | DRAFT/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 | [34] | d18d463dc9aa |
 | 36 | После пещеры: Серёга с картой направляется к кораблю | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [] | 05d5c70b6b3a |
 | 37 | Полёт Серёги к лесной планете и стык с отдельной группой | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [36] | b4ce1e9cae62 |
-| 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [35] | f5979ba6e4cf |
+| 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 | [35] | f5979ba6e4cf |
 
 ## Полный fresh-read обязателен, если
 - any source sha256 in the brief ≠ live mirror / instruction certificate
