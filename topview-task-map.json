@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-12T13:03:03.000Z",
+  "updated_at": "2026-10-12T14:00:06.607Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -291,12 +291,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-12T13:03:03.000Z",
+  "last_scan_at": "2026-10-12T14:00:06.607Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-12T13:03:03.000Z",
+    "last_successful_scan_at": "2026-10-12T14:00:06.607Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -305,7 +305,7 @@
     "total_video_tasks": 399,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-12T07:03:03.000Z",
+    "overlap_from": "2026-10-12T08:00:06.607Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
     "project_board_total_video_tasks": 399,
@@ -325,7 +325,7 @@
       "1a6244cf1ae747ef847d949a80d6133c": 612
     },
     "scan_mode": "fast_path",
-    "last_light_scan_at": "2026-10-12T13:03:03.000Z"
+    "last_light_scan_at": "2026-10-12T14:00:06.607Z"
   },
   "note": "Light scan verified all 11 owned board counts, AI Film latest 100 video tasks, and direct reads of all 5 known active task IDs. All five remain init, unlimited and zero-credit; capacity remains 5/6 with one free slot. Canonical slow is owner-controlled and unchanged.",
   "owner_controlled_slow": true
