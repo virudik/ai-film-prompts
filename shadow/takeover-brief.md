@@ -2,7 +2,7 @@
 
 > Приёмка смены по-прежнему — полное чтение по NEW-CHAT-HANDOFF.md. Этот файл только измеряет, хватило бы brief.
 
-Сгенерирован 2026-10-12T00:25:53+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-12T01:59:03+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 - USER-GUIDE.md · Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 125086 B · `c0347894f429ed9b`
 - README-AI-SYNC.md · Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 77972 B · `ce203d54861821e6`
 - BACKUP-AI-RUNBOOK.md · Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 96855 B · `fd57798c785521b7`
-- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 341863 B · `1302f3a4a421caba`
+- video-prompts.md · Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 342664 B · `694e1a2c72ba01d9`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -44,7 +44,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 1 |  | [] | cf5b524e491f |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 75964595562a |
-| 24 | Коты в кабине: запуск корабля и взлёт | Seedance 2.5 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 14f571f42505 |
+| 24 | Коты в кабине: запуск корабля и взлёт | Seedance 2.5 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 31483dfb97b1 |
 | 25 | Коты в кабине: космическое сражение | Seedance 2.5 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [24] | 88cc39ae51c9 |
 | 27 | Серёга против котов-магистров: бой на световых мечах | Seedance 2.5 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | b8f60f7db58e |
 | 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/IDLE | 20 | @Image1 @Image2 @Image3 @Image4 | [] | dcd69af7849d |
@@ -56,7 +56,7 @@ Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Not
 | 35 | Древний ПК в руинах храма: находка Серёги | Wan 3 | DRAFT/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 | [34] | d18d463dc9aa |
 | 36 | После пещеры: Серёга с картой направляется к кораблю | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [] | 05d5c70b6b3a |
 | 37 | Полёт Серёги к лесной планете и стык с отдельной группой | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [36] | b4ce1e9cae62 |
-| 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [35] | e8c5acb610b3 |
+| 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [35] | f5979ba6e4cf |
 
 ## Полный fresh-read обязателен, если
 - any source sha256 in the brief ≠ live mirror / instruction certificate
