@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-12T20:01:41.358Z",
+  "updated_at": "2026-10-12T20:58:38.400Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -15,9 +15,6 @@
     "Owner-confirmed releases are stored as owner_released_task_ids. A released but still active Topview task stays in active_by_scene and the 6-slot public count until provider-terminal; do not re-add it to canonical slow."
   ],
   "active_by_scene": {
-    "27": [
-      "dbe204aeb9a74478af04c6bbfe7693f9"
-    ],
     "30": [
       "3710685303634b2482b90581aa6a8a2b"
     ],
@@ -283,6 +280,12 @@
       "scene_id": 25,
       "final_status": "success",
       "finished_at": "2026-10-12T10:41:28Z"
+    },
+    {
+      "task_id": "dbe204aeb9a74478af04c6bbfe7693f9",
+      "scene_id": 27,
+      "final_status": "success",
+      "finished_at": "2026-10-12T20:29:33Z"
     }
   ],
   "retention": {
@@ -291,12 +294,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-12T20:01:41.358Z",
+  "last_scan_at": "2026-10-12T20:58:38.400Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-12T20:01:41.358Z",
+    "last_successful_scan_at": "2026-10-12T20:58:38.400Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -305,7 +308,7 @@
     "total_video_tasks": 399,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-12T14:01:41.358Z",
+    "overlap_from": "2026-10-12T14:58:38.400Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
     "project_board_total_video_tasks": 399,
@@ -325,8 +328,8 @@
       "1a6244cf1ae747ef847d949a80d6133c": 612
     },
     "scan_mode": "fast_path",
-    "last_light_scan_at": "2026-10-12T20:01:41.358Z"
+    "last_light_scan_at": "2026-10-12T20:58:38.400Z"
   },
-  "note": "Light scan verified all 11 owned board counts, AI Film latest 100 video tasks, and direct reads of all 5 known active task IDs. All five remain init, unlimited and zero-credit; capacity remains 5/6 with one free slot. Canonical slow is owner-controlled and unchanged.",
+  "note": "Light scan verified all 11 owned board counts, AI Film latest 100 video tasks, and direct reads of all 5 previously known active task IDs. Scene 27 reached technical success; Scenes 30, 31, 35 and 38 remain init, unlimited and zero-credit. Capacity is now 4/6 with two free slots. Canonical slow is owner-controlled and unchanged.",
   "owner_controlled_slow": true
 }
