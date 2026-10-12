@@ -28,8 +28,8 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-11T21:56:49.403Z",
-    "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_6_active; shadow_auxiliary",
+    "checked_at": "2026-10-12T02:02:45.622Z",
+    "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_7_transition_reads; shadow_auxiliary",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 100,
@@ -38,63 +38,63 @@
     "occupied_slots": 6,
     "free_slots": 0,
     "active_task_ids": [
-      "a3efa5cce8224b7896e8166e0d5f2b9e",
       "57b6f3aac4804d2486721131e30640f6",
       "dbe204aeb9a74478af04c6bbfe7693f9",
       "3710685303634b2482b90581aa6a8a2b",
       "4682335cffc24a339179845c2713c46e",
-      "6d1ff4a96a0043f2884ffb528d5d9c9a"
+      "6d1ff4a96a0043f2884ffb528d5d9c9a",
+      "e948bd09e5d349448e0ff72fb3049d04"
     ],
-    "verification": "6/6 direct active reads remain init; no new unknown task; all owned board counts and AI Film current page checked"
+    "verification": "Scene 24 direct read success; Scenes 25,27,30,31,35 init; newly discovered Scene 38 exact canonical prompt match and init; all owned board counts and AI Film current page checked"
   },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-11T21:56:49.403Z",
+    "last_notified_at": "2026-10-12T02:02:45.622Z",
     "last_observed_free_slots": 0,
     "observed_active_task_ids": [
-      "a3efa5cce8224b7896e8166e0d5f2b9e",
       "57b6f3aac4804d2486721131e30640f6",
       "dbe204aeb9a74478af04c6bbfe7693f9",
       "3710685303634b2482b90581aa6a8a2b",
       "4682335cffc24a339179845c2713c46e",
-      "6d1ff4a96a0043f2884ffb528d5d9c9a"
+      "6d1ff4a96a0043f2884ffb528d5d9c9a",
+      "e948bd09e5d349448e0ff72fb3049d04"
     ],
     "open_incidents": [],
     "last_message_event": {
-      "type": "monitor_restored",
-      "observed_at": "2026-10-11T21:56:49.403Z",
-      "issue": "First confirmed healthy ChatGPT scheduled cycle after the Pages publication incident; GitHub readback, project health, integration tests, Pages and public telemetry all verified.",
+      "type": "topview_completion_and_replacement_active",
+      "observed_at": "2026-10-12T02:02:45.622Z",
+      "issue": "Scene 24 reached technical success; the released physical slot is already occupied by a newly discovered unlimited zero-credit task exactly matching canonical Scene 38. Canonical slow Scene 24 remains pending owner decision.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
-      "status": "verified_fast_path",
-      "checked_at": "2026-10-11T21:55:05.142Z",
+      "status": "verified_fast_path_with_terminal_and_new_active",
+      "checked_at": "2026-10-12T01:57:13.848Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
       "occupied_slots": 6,
       "free_slots": 0,
       "active_task_ids": [
-        "a3efa5cce8224b7896e8166e0d5f2b9e",
         "57b6f3aac4804d2486721131e30640f6",
         "dbe204aeb9a74478af04c6bbfe7693f9",
         "3710685303634b2482b90581aa6a8a2b",
         "4682335cffc24a339179845c2713c46e",
-        "6d1ff4a96a0043f2884ffb528d5d9c9a"
+        "6d1ff4a96a0043f2884ffb528d5d9c9a",
+        "e948bd09e5d349448e0ff72fb3049d04"
       ],
-      "direct_active_task_reads": "6_of_6_verified",
+      "direct_active_task_reads": "7_transition_reads_verified",
       "complete": true
     },
     "telemetry_publication": {
       "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-11T21:56:49.403Z",
-      "task_map_checked_at": "2026-10-11T21:55:05.142Z",
-      "status_checked_at": "2026-10-11T21:55:05.142Z",
-      "checkpoint_checked_at": "2026-10-11T21:55:12.315Z",
+      "checked_at": "2026-10-12T02:02:45.622Z",
+      "task_map_checked_at": "2026-10-12T01:57:13.848Z",
+      "status_checked_at": "2026-10-12T01:57:13.848Z",
+      "checkpoint_checked_at": "2026-10-12T02:00:34.866Z",
       "missing": []
     },
     "instruction_sync": {
@@ -103,10 +103,19 @@
     },
     "canonical_sync": {
       "status": "verified_github_project_status_and_public_pages",
-      "checked_at": "2026-10-11T21:56:49.403Z",
-      "master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
-      "scenes": 18,
-      "prompt_texts": 51,
+      "checked_at": "2026-10-12T02:02:45.622Z",
+      "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
+      "scenes": 15,
+      "prompt_texts": 36,
+      "slow_scenes": [
+        24,
+        25,
+        27,
+        30,
+        31,
+        35,
+        38
+      ],
       "all_project_checks_true": true,
       "missing": []
     },
@@ -125,17 +134,20 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-11T21:52:32Z",
-    "completed_at": "2026-10-11T21:56:49.403Z",
+    "started_at": "2026-10-12T01:53:54Z",
+    "completed_at": "2026-10-12T02:02:45.622Z",
     "health": "ok",
     "phases_completed": [
       "role_and_50_minute_guard",
       "fresh_head",
       "topview_owned_boards_11",
       "topview_ai_film_latest_100",
-      "topview_direct_active_6_of_6",
+      "topview_direct_transition_reads_7",
       "supabase_owner_decisions",
       "task_map_master_consistency",
+      "scene_24_terminal_recorded",
+      "scene_38_exact_prompt_mapping",
+      "canonical_slow_add_38_keep_terminal_24",
       "topview_map_and_status_readback",
       "project_status_health_ok",
       "integration_tests_success",
@@ -145,7 +157,7 @@
     ],
     "phases_missing": [],
     "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled fast-path cycle verified. Six active unlimited tasks remain init (6/6); no new unknown task or owner release. GitHub project-status is healthy, integration recovery tests and Pages succeeded, and public Pages displays the current 00:55:05 MSK six-slot telemetry."
+    "note": "Full scheduled cycle verified. Scene 24 reached technical success; Scene 38 exact canonical prompt task is active and occupies the released slot, so physical capacity remains 6/6. Canonical slow Scene 24 was retained pending owner action and Scene 38 was added. Integration recovery tests, Pages, GitHub readback and public 04:57:13 MSK telemetry were verified."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -172,16 +184,16 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-11T21:55:05.142Z",
+    "public_pages_topview_checked_at": "2026-10-12T01:57:13.848Z",
     "public_pages_occupied_slots": 6,
     "public_pages_free_slots": 0,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
-    "site_validator": "project-status all checks true; integration recovery tests success; Pages deployment success",
-    "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+    "site_validator": "project-status all checks true; integration recovery tests success; Pages deployment jobs success",
+    "canonical_master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
     "public_pages_canonical_health": "ok",
-    "public_pages_current_readback": "current_6_of_6_snapshot",
-    "public_pages_readback_attempted_at": "2026-10-11T21:56:49.403Z",
+    "public_pages_current_readback": "current_6_of_6_snapshot_scenes_25_27_30_31_35_38",
+    "public_pages_readback_attempted_at": "2026-10-12T02:02:45.622Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -193,11 +205,11 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-11T21:55:05.142Z",
-    "topview_live_result": "complete_6_of_6_occupied_no_unknown_tasks"
+    "topview_live_attempted_at": "2026-10-12T01:57:13.848Z",
+    "topview_live_result": "scene24_success_scene38_active_6_of_6"
   },
-  "last_completed_cycle_at": "2026-10-11T21:56:49.403Z",
-  "last_successful_cycle_at": "2026-10-11T21:56:49.403Z",
+  "last_completed_cycle_at": "2026-10-12T02:02:45.622Z",
+  "last_successful_cycle_at": "2026-10-12T02:02:45.622Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -211,12 +223,12 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-11T21:56:49.403Z"
+    "chatgpt": "2026-10-12T02:02:45.622Z"
   },
   "last_successful_cycle_runner": "chatgpt_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-11T21:56:49.403Z"
+    "chatgpt": "2026-10-12T02:02:45.622Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
@@ -243,14 +255,14 @@
     "observation_note": "Scheduled task ran after the last GitHub-reported degraded cycle, but no newer completed full cycle was committed. Do not advance last_scheduled_cycle or last_successful_cycle_at on this basis."
   },
   "manual_interactive_verification": {
-    "checked_at": "2026-10-11T21:56:49.403Z",
+    "checked_at": "2026-10-12T02:02:45.622Z",
     "runner": "chatgpt_scheduled_task",
     "full_scheduled_cycle_verified": true,
-    "provider_status": "6_of_6_unlimited_active_init",
+    "provider_status": "6_of_6_unlimited_active_after_scene24_to_scene38_transition",
     "checks": [
       "all_11_owned_board_counts",
       "ai_film_latest_100",
-      "all_6_active_tasks_direct",
+      "direct_transition_reads_7",
       "supabase_owner_decisions",
       "project_status_health_ok",
       "integration_tests_success",
