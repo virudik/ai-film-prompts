@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-11T22:19:18+00:00",
+ "generated_at": "2026-10-12T00:01:42+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "01c9eec7a227c785af1e4c228d028d2ced2dee910f41486d538c0790bb22f222",
-   "bytes": 293311
+   "sha256": "c290a2d5d3af2f75a915ac628d5a235c51116c50bed6abf35382027d1d3ec141",
+   "bytes": 295073
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "825bced5ed0d06757c8ace957303f7a24ae85514eac8ac1070038a875f1a5fba",
-   "bytes": 123583
+   "sha256": "b5461dd3152b7bf6165303f70fea16b294b1c071512f53612415097eadec228c",
+   "bytes": 125345
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -34,8 +34,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "7c4043ac7170977a535e711bf862d88a1010fa230aee03ff6f91694053ed62f1",
-   "bytes": 120677
+   "sha256": "deac6699f8db162cda7a717cf112b3f222dc688e2fdbcf00d9147f8093c61006",
+   "bytes": 122439
   },
   {
    "file": "README-AI-SYNC.md",
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 114323,
-  "above_marker_chars": 70925,
+  "chars": 115461,
+  "above_marker_chars": 72063,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,7 +194,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "d7c2ce491f90",
+  "sha256_12": "98325e3a9939",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
