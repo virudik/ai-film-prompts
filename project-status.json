@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-12T00:01:45Z",
-  "revision_date": "11.10.2026",
+  "synced_at": "2026-10-12T00:02:02Z",
+  "revision_date": "12.10.2026",
   "master_declared_last_full_sync": "11.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
-  "canonical_revision_sha256": "9d9289e153054e9762337e1f9792c3e52dfd6cc9858f1743c75478dbbb954ebd",
-  "canonical_master_bytes": 551651,
-  "scenes": 18,
-  "prompt_texts": 51,
+  "canonical_master_sha256": "1302f3a4a421caba20b2ba04c0aeec40b5abe6d2f97e91461c3ad2aac2fe6189",
+  "canonical_revision_sha256": "3966a2806cbec47be8c8ea3e4dea47b1f54d2b2d4074d8e7a3e7a9bdbe248b81",
+  "canonical_master_bytes": 341863,
+  "scenes": 15,
+  "prompt_texts": 36,
   "work_items": [
     "W5",
     "W6",
@@ -37,11 +37,8 @@
   "scene_ids": [
     13,
     16,
-    20,
-    21,
     24,
     25,
-    26,
     27,
     28,
     30,
@@ -72,8 +69,11 @@
     17,
     18,
     19,
+    20,
+    21,
     22,
     23,
+    26,
     29
   ],
   "instruction_sync": {
@@ -82,7 +82,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.012,
+    "age_hours_at_status_build": 0.017,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -160,7 +160,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.012,
+      "age_hours": 0.017,
       "blocking": false
     },
     "topview_task_map": {
@@ -201,43 +201,6 @@
       "tags": [
         "action",
         "continuous_take"
-      ],
-      "render_state": "IDLE"
-    },
-    "20": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "en"
-      },
-      "dependencies": [],
-      "tags": [
-        "music_performance",
-        "vocal_performance",
-        "11_part_sequence",
-        "lakeshore",
-        "cinematic_music_video",
-        "musical"
-      ],
-      "render_state": "IDLE"
-    },
-    "21": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "space_battle",
-        "continuous_take",
-        "first_last_frame",
-        "seamless_transition",
-        "character_identity"
       ],
       "render_state": "IDLE"
     },
@@ -282,30 +245,6 @@
       ],
       "render_state": "SLOW_PENDING"
     },
-    "26": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 25
-        }
-      ],
-      "tags": [
-        "cats",
-        "dialogue",
-        "sith_planet",
-        "jedi",
-        "confrontation",
-        "lip_sync"
-      ],
-      "render_state": "IDLE"
-    },
     "27": {
       "target_engine": "Seedance 2.5",
       "production_state": "READY",
@@ -314,12 +253,7 @@
         "enabled": false,
         "language": null
       },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 26
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "cats",
         "lightsaber_battle",
@@ -545,20 +479,17 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "11.10.2026",
-    "synced_at": "2026-10-12T00:01:45Z",
-    "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
-    "canonical_revision_sha256": "9d9289e153054e9762337e1f9792c3e52dfd6cc9858f1743c75478dbbb954ebd",
-    "scene_count": 18,
-    "prompt_count": 51,
+    "revision_date": "12.10.2026",
+    "synced_at": "2026-10-12T00:02:02Z",
+    "canonical_master_sha256": "1302f3a4a421caba20b2ba04c0aeec40b5abe6d2f97e91461c3ad2aac2fe6189",
+    "canonical_revision_sha256": "3966a2806cbec47be8c8ea3e4dea47b1f54d2b2d4074d8e7a3e7a9bdbe248b81",
+    "scene_count": 15,
+    "prompt_count": 36,
     "scene_ids": [
       13,
       16,
-      20,
-      21,
       24,
       25,
-      26,
       27,
       28,
       30,
