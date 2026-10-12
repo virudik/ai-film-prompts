@@ -1,42 +1,42 @@
 {
-  "checked_at": "2026-10-11T14:05:42Z",
+  "checked_at": "2026-10-12T03:36:24Z",
   "mode": "sync",
   "summary": {
-    "written": 3,
-    "current": 7
+    "written": 6,
+    "current": 4
   },
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+      "github_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+      "drive_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
       "status": "written",
-      "drive_modified": "2026-10-11T14:05:31.688Z"
+      "drive_modified": "2026-10-12T03:36:05.514Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
+      "github_sha256": "51eeceb92a58d60bac24edb11c6eeda17ef8a4cddaf069bb255b2aedc91ec726",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "103a9807f84b5369d4b1e294132c2ac638ce21ca3181bddb60dca800dd5c0c28",
+      "drive_sha256": "51eeceb92a58d60bac24edb11c6eeda17ef8a4cddaf069bb255b2aedc91ec726",
       "status": "written",
-      "drive_modified": "2026-10-11T14:05:34.767Z"
+      "drive_modified": "2026-10-12T03:36:08.727Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
-      "github_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
+      "github_sha256": "250d2346201fe867fcdf10bd4b04d6446777702359bec4b834123d6213043090",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_sha256": "e6d9e91e3aae4149fe5e7b1b5a9f3688060ba50c9be6c334711cfbf80471e779",
-      "status": "current",
-      "drive_modified": "2026-10-11T00:38:22.076Z"
+      "drive_sha256": "250d2346201fe867fcdf10bd4b04d6446777702359bec4b834123d6213043090",
+      "status": "written",
+      "drive_modified": "2026-10-12T03:36:12.201Z"
     },
     {
       "name": "AI-PROJECT-GUIDE.md",
-      "github_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
+      "github_sha256": "720e9dbc429e8dda1464a6a7f0fd88472c3cc3037c00d97dba684a9e5db03d5b",
       "file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "drive_sha256": "e593e1c619253725a9a13950ed5067d97ddb843c341355a8f99b3d1ffa58337c",
-      "status": "current",
-      "drive_modified": "2026-10-11T01:36:45.843Z"
+      "drive_sha256": "720e9dbc429e8dda1464a6a7f0fd88472c3cc3037c00d97dba684a9e5db03d5b",
+      "status": "written",
+      "drive_modified": "2026-10-12T03:36:14.676Z"
     },
     {
       "name": "PROMPT-STYLE-GUIDE.md",
@@ -48,11 +48,11 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
+      "github_sha256": "c0347894f429ed9beb47b8214084ef2d8829d798e2bf62a9f23b72110f670d72",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "7edd34aeb112bd25ece263ca67b12e11aebdda16388ea6b0f4f67152264c775d",
-      "status": "current",
-      "drive_modified": "2026-10-11T02:19:13.474Z"
+      "drive_sha256": "c0347894f429ed9beb47b8214084ef2d8829d798e2bf62a9f23b72110f670d72",
+      "status": "written",
+      "drive_modified": "2026-10-12T03:36:18.402Z"
     },
     {
       "name": "README-AI-SYNC.md",
@@ -64,11 +64,11 @@
     },
     {
       "name": "BACKUP-AI-RUNBOOK.md",
-      "github_sha256": "a0b2670efa8539a604a828b0adfb8822e2a098e3889889a1be1abe18878d238f",
+      "github_sha256": "fd57798c785521b790ee131ccb00379ac5b91b712af10c3a8c21a31e774fb988",
       "file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "drive_sha256": "a0b2670efa8539a604a828b0adfb8822e2a098e3889889a1be1abe18878d238f",
+      "drive_sha256": "fd57798c785521b790ee131ccb00379ac5b91b712af10c3a8c21a31e774fb988",
       "status": "written",
-      "drive_modified": "2026-10-11T14:05:40.374Z"
+      "drive_modified": "2026-10-12T03:36:21.422Z"
     },
     {
       "name": "film-backlog.md",
