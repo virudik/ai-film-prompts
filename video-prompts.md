@@ -1816,7 +1816,7 @@ Wan 3.0 task `3710685303634b2482b90581aa6a8a2b` технически завер�
 
 Wan 3.0 task `e369529cc93d465ba14127e4712f7bbd` технически завершён 09.10.2026 13:57:32 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Первый новый разрушительный бой в той же точной локации с обычным малым масштабом котов, не переодобряет старые результаты.
+**Контекст использования:** Первый новый разрушительный бой в той же точной локации с обычным малым масштабом котов, не переодобряет старые результаты. Готовый результат Scene 27/30/31 — возможный источник кадра-стыка только после того, как владелец выберет фактический ролик; @Image5 остаётся абсолютным для архитектуры; не утверждать, что выбранный ролик уже есть или одобрен.
 
 **Референсы:** @Image1 пара котов; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 город-руины; @Image6 масштаб, optional
 
@@ -1830,33 +1830,72 @@ Wan 3.0 task `e369529cc93d465ba14127e4712f7bbd` технически завер�
 
 **Что происходит:** Коты заставляют Серёгу отступить; мечи прорезают каменную колоннаду, Сила опрокидывает предварительно надрезанную колонну, следы остаются.
 
+**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `e369529cc93d465ba14127e4712f7bbd`, `3710685303634b2482b90581aa6a8a2b` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
-SCENE: RUIN COLONNADE — SEREGA VS TWO JEDI CATS, SABER-CUT SUPPORT.
-REFERENCES / SPACE / IDENTITY:
-@Image1 = composition of both Jedi cats, NOT individual face lock.
-@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
-@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
-@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
-@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
-@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
-CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
-POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
-DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
-CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
-NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
-NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
-STARTING HISTORY: Optional next battle after Scene27, identical sunset city; start with the same terrace architecture, any verified prior damage preserved. The cats on both sides of Serega, all sabers lit.
-ACTION TIMELINE:
-[00:00–00:05] One cinematic mid-wide establishes a familiar ochre terrace, two knee-high cats closing on the purple-robed human. Dust glows in golden sunset, broad stairs and statues hold spatial orientation.
-[00:05–00:11] RYZHIK lashes out with a quick GREEN saber sequence that makes SEREGA retreat toward a weathered balustrade. LUCHIK flanks and draws his BLUE blade across a small cracked section of the stone railing; the severed rail falls heavily DOWN its own steps.
-[00:11–00:18] Serega makes one compact desperate RED parry; Ryzhik slips around him and scores a green hot incision around the already weakened base of a nearby column. Camera stays mid-wide so cause of damage and safe position of all three are obvious.
-[00:18–00:24] LUCHIK braces and Force-pushes the PRE-CUT column sideways into an empty stone path. It tips with believable momentum and gravity, breaks into heavy chunks and creates a finite dust cloud; no one teleports to avoid it.
-[00:24–00:30] Serega ducks behind his red saber and springs aside as cats advance through settling debris, maintaining superiority. The missing rail and toppled column remain visible, altering his escape route.
-END STATE / NEXT CUT:
-End with Serega retreating down a connected stairway, damaged column lying behind, cats pressing aggressively. No final victory or death.
-EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence | RUIN COLONNADE — SEREGA VS TWO JEDI CATS, SABER-CUT SUPPORT
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — composition of both Jedi cats together, NOT an individual face lock.
+@Image2 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image3 — exact LUCHIK identity.
+@Image4 — exact RYZHIK identity.
+@Image5 — ABSOLUTE ancient Sith-planet ruins geography and sunset (see LOCATION LOCK — CRITICAL).
+@Image6 — optional three-subject scale/staging helper only; never overrides actual identities or location.
+Priority: @Image5 controls architecture, geography and sunset. @Image2, @Image3 and @Image4 control identities; the individual cat sheets @Image3 / @Image4 override @Image1. @Image6 only helps scale and staging.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image2): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. Always a RED saber.
+LUCHIK (@Image3): exact white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression. Always a BLUE saber.
+RYZHIK (@Image4): exact warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Always a GREEN saber.
+CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. Stable single blade/hilt per fighter.
+
+LOCATION LOCK — CRITICAL:
+@Image5 is the REAL SAME WORLD from Scenes 26/27: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+
+DESTRUCTION PHYSICS LOCK — CRITICAL:
+Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+
+START STATE:
+The next battle after Scene 27 in the identical sunset city. Start with the same terrace architecture, any verified prior damage preserved. The cats stand on both sides of Serega, all sabers lit.
+
+TIMELINE:
+[0:00–0:05] — ESTABLISHING THE TERRACE
+One cinematic mid-wide establishes a familiar ochre terrace, two knee-high cats closing on the purple-robed human. Dust glows in golden sunset; broad stairs and statues hold spatial orientation.
+
+[0:05–0:11] — THE SEVERED RAIL
+RYZHIK lashes out with a quick GREEN saber sequence that makes SEREGA retreat toward a weathered balustrade. LUCHIK flanks and draws his BLUE blade across a small cracked section of the stone railing; the severed rail falls heavily DOWN its own steps.
+
+[0:11–0:18] — THE PRE-CUT COLUMN
+Serega makes one compact desperate RED parry; Ryzhik slips around him and scores a green hot incision around the already weakened base of a nearby column. Camera stays mid-wide so the cause of damage and the safe position of all three are obvious.
+
+[0:18–0:24] — FORCE TOPPLE
+LUCHIK braces and Force-pushes the PRE-CUT column sideways into an empty stone path. It tips with believable momentum and gravity, breaks into heavy chunks and creates a finite dust cloud; no one teleports to avoid it.
+
+[0:24–0:30] — RETREAT THROUGH DEBRIS
+Serega ducks behind his red saber and springs aside as the cats advance through settling debris, maintaining superiority. The missing rail and toppled column remain visible, altering his escape route.
+
+END STATE:
+Serega retreats down a connected stairway, the damaged column lying behind, the cats pressing aggressively. No final victory or death.
+
+CAMERA / SPACE:
+One coherent 3D space, readable geography, fixed sunset direction. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+
+PERFORMANCE:
+Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+
+LIGHTING / MATERIALS:
+Warm weathered stones in low orange-gold sunset light; continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes 26/27, NOT volcanic smoke. Distinct glowing blue, green and red blades; hot glowing incisions cooling on cut stone.
+
+AUDIO:
+Realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+
+NEGATIVE PROMPT:
+giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -1873,7 +1912,7 @@ Wan 3.0 task `4682335cffc24a339179845c2713c46e` технически завер�
 
 Wan 3.0 task `32a4df3b18714cde9c55f0281cc2dd41` технически завершён 09.10.2026 21:25:14 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Продолжение географии и накопленных разрушений Scene30, не новая арена.
+**Контекст использования:** Продолжение географии и накопленных разрушений Scene30, не новая арена. Готовый результат Scene 27/30/31 — возможный источник кадра-стыка только после того, как владелец выберет фактический ролик; @Image5 остаётся абсолютным для архитектуры; не утверждать, что выбранный ролик уже есть или одобрен.
 
 **Референсы:** @Image1 коты; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 те же руины; @Image6 опциональный масштаб
 
@@ -1887,33 +1926,72 @@ Wan 3.0 task `32a4df3b18714cde9c55f0281cc2dd41` технически завер�
 
 **Что происходит:** Коты перехватывают обломки Силой, разбивают часть перил и теснят Серёгу по ступеням.
 
+**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `32a4df3b18714cde9c55f0281cc2dd41`, `4682335cffc24a339179845c2713c46e` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
-SCENE: STAIRCASE FORCE COMBAT — LEVITATING RUBBLE AND INTERCEPTS.
-REFERENCES / SPACE / IDENTITY:
-@Image1 = composition of both Jedi cats, NOT individual face lock.
-@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
-@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
-@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
-@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
-@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
-CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
-POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
-DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
-CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
-NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
-NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
-STARTING HISTORY: Continue from Scene30's stair route. Fallen column and missing railing still behind fighters; not a new arena.
-ACTION TIMELINE:
-[00:00–00:05] Track Serega moving downward on intact connected stone steps. Both small cats pursue and their correct sabers remain visible. Weathered giant statues orient the camera.
-[00:05–00:11] Serega sends two small broken stones outward by a deliberate RED-side Force gesture as a delaying defense. RYZHIK dodges; LUCHIK arrests one heavier stone in air with a planted feline stance and redirects it toward an empty cracked wall.
-[00:11–00:18] The redirected stone impacts the old wall, producing realistic chipped masonry and fine ochre dust, not a building-size magical explosion. Luchik immediately drives three precise blue saber beats; Serega blocks and loses three steps; Ryzhik circles wide with green saber poised.
-[00:18–00:24] Ryzhik slices a narrow notch in the existing stair rail, then uses a focused paw gesture to Force-shove its now weak top block; one support crumbles and falls toward a vacant lower landing. Show exact trajectory and final debris.
-[00:24–00:30] The cats combine forward tactical pressure; Serega staggers to the foot of the stair beside an ancient half-ruined stone arch, trying to defend as dust swirls. Both cats are clearly on top.
-END STATE / NEXT CUT:
-End with a damaged rail, displaced blocks on a lower landing and an old stone arch still standing ahead; ready for Scene32.
-EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence | STAIRCASE FORCE COMBAT — LEVITATING RUBBLE AND INTERCEPTS
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — composition of both Jedi cats together, NOT an individual face lock.
+@Image2 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image3 — exact LUCHIK identity.
+@Image4 — exact RYZHIK identity.
+@Image5 — ABSOLUTE ancient Sith-planet ruins geography and sunset (see LOCATION LOCK — CRITICAL).
+@Image6 — optional three-subject scale/staging helper only; never overrides actual identities or location.
+Priority: @Image5 controls architecture, geography and sunset. @Image2, @Image3 and @Image4 control identities; the individual cat sheets @Image3 / @Image4 override @Image1. @Image6 only helps scale and staging.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image2): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. Always a RED saber.
+LUCHIK (@Image3): exact white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression. Always a BLUE saber.
+RYZHIK (@Image4): exact warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Always a GREEN saber.
+CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. Stable single blade/hilt per fighter.
+
+LOCATION LOCK — CRITICAL:
+@Image5 is the REAL SAME WORLD from Scenes 26/27: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+
+DESTRUCTION PHYSICS LOCK — CRITICAL:
+Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+
+START STATE:
+Continue from Scene 30's stair route, not a new arena. The fallen column and the missing railing are still behind the fighters.
+
+TIMELINE:
+[0:00–0:05] — PURSUIT DOWN THE STEPS
+Track Serega moving downward on intact connected stone steps. Both small cats pursue and their correct sabers remain visible. Weathered giant statues orient the camera.
+
+[0:05–0:11] — DELAYING STONES
+Serega sends two small broken stones outward with a deliberate RED-side Force gesture as a delaying defense. RYZHIK dodges; LUCHIK arrests one heavier stone in the air with a planted feline stance and redirects it toward an empty cracked wall.
+
+[0:11–0:18] — IMPACT AND PRESSURE
+The redirected stone impacts the old wall, producing realistic chipped masonry and fine ochre dust, not a building-size magical explosion. Luchik immediately drives three precise blue saber beats; Serega blocks and loses three steps; Ryzhik circles wide with green saber poised.
+
+[0:18–0:24] — THE RAIL SUPPORT FALLS
+Ryzhik slices a narrow notch in the existing stair rail, then uses a focused paw gesture to Force-shove its now weak top block; one support crumbles and falls toward a vacant lower landing. Show the exact trajectory and the final debris.
+
+[0:24–0:30] — DRIVEN TO THE ARCH
+The cats combine forward tactical pressure; Serega staggers to the foot of the stair beside an ancient half-ruined stone arch, trying to defend as dust swirls. Both cats are clearly on top.
+
+END STATE:
+A damaged rail, displaced blocks on a lower landing and an old stone arch still standing ahead; ready to continue into Scene 32.
+
+CAMERA / SPACE:
+One coherent 3D space, readable geography, fixed sunset direction. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+
+PERFORMANCE:
+Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+
+LIGHTING / MATERIALS:
+Warm weathered stones in low orange-gold sunset light; continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes 26/27, NOT volcanic smoke. Distinct glowing blue, green and red blades; hot glowing incisions cooling on cut stone.
+
+AUDIO:
+Realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+
+NEGATIVE PROMPT:
+giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -1926,7 +2004,7 @@ EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source
 
 Wan 3.0 task `9746bfed635c451e97095c35b4e3b2bf` технически завершён 10.10.2026 07:21:04 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Монтажно-открытая кульминация с устойчивыми повреждениями каменного сооружения.
+**Контекст использования:** Монтажно-открытая кульминация с устойчивыми повреждениями каменного сооружения. Готовый результат Scene 27/30/31 — возможный источник кадра-стыка только после того, как владелец выберет фактический ролик; @Image5 остаётся абсолютным для архитектуры; не утверждать, что выбранный ролик уже есть или одобрен.
 
 **Референсы:** @Image1 коты; @Image2 Серёга; @Image3 Лучик; @Image4 Рыжик; @Image5 те же руины; @Image6 масштаб
 
@@ -1940,33 +2018,72 @@ Wan 3.0 task `9746bfed635c451e97095c35b4e3b2bf` технически завер�
 
 **Что происходит:** Световые мечи надрезают арку, два координированных Force-удара обрушивают её локальную часть, три бойца продолжают противостояние.
 
+**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `9746bfed635c451e97095c35b4e3b2bf` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence.
-SCENE: TEMPLE ARCH CLIMAX — SABER SCARS AND COLLAPSING MASONRY.
-REFERENCES / SPACE / IDENTITY:
-@Image1 = composition of both Jedi cats, NOT individual face lock.
-@Image2 = exact SEREGA older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe.
-@Image3 = exact LUCHIK white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression.
-@Image4 = exact RYZHIK warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Individual sheets override @Image1.
-@Image5 = ABSOLUTE ancient Sith-planet ruins geography and sunset: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. This remains the REAL SAME WORLD from Scenes26/27. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
-@Image6 optional three-subject scale/staging helper only, never overrides actual identities or location.
-CAT SCALE: Both cats ordinary housecat size with upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. LUCHIK always BLUE saber, RYZHIK always GREEN, SEREGA always RED: stable single blade/hilt per fighter.
-POWER: Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
-DESTRUCTION PHYSICS: Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
-CONTINUITY / CINEMATOGRAPHY: One coherent 3D space, readable geography, fixed sunset direction, warm weathered stones, continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes26/27, NOT volcanic smoke. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
-NATIVE AUDIO: realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
-NEGATIVE: giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders. Full 16:9 edge-to-edge.
-STARTING HISTORY: Physically continuous from Scene31 near the temple stair plaza. Preserve missing rails, fallen blocks and the same sunset city, no unexplained fresh walls.
-ACTION TIMELINE:
-[00:00–00:05] 35mm mid-wide of a stable half-ruined temple arch, Serega forced close to it by the blue/green duo. The three identities stay fixed and cats remain around human-knee height.
-[00:05–00:11] Ryzhik accelerates from an outside angle with fast green blade strikes; Serega blocks with the red blade but is driven backward. Luchik's blue saber intersects the red attack and deliberately scores a HOT CUT on one visibly cracked lower arch support.
-[00:11–00:18] Serega tries one committed red counter to break the encirclement, but the cats move faster. His blade leaves a separate real shallow scar across a stone slab. Ryzhik raises one paw to apply Force pressure on an unstable lintel directly above the pre-cut support.
-[00:18–00:24] Luchik braces safely and adds a single well-directed Force push. Dust sifts, the pre-existing crack lengthens, and THREE identifiable heavy blocks fall from a short arch section into an EMPTY side passage. Show impacts and debris that remains; the entire temple does NOT vanish.
-[00:24–00:30] Camera tracks backward as Serega narrowly dodges and drops into a strained low defensive stance; cats advance side by side with blue/green sabers amid settling ochre dust. The partly standing arch is clearly permanently changed.
-END STATE / NEXT CUT:
-Unresolved tense stance: cats dominate, Serega alive and struggling. Preserve the blocked shortcut and partial arch for next edit.
-EDITING NOTE: A prior Scene27/30/31 result is a possible frame-continuity source only AFTER a human selects the actual output; @Image5 remains absolute for architecture. Do not claim the selected prior render already exists or is approved.
+Optimized for Wan 3.0 | Photoreal choreographed lightsaber + Force destruction sequence | TEMPLE ARCH CLIMAX — SABER SCARS AND COLLAPSING MASONRY
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — composition of both Jedi cats together, NOT an individual face lock.
+@Image2 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image3 — exact LUCHIK identity.
+@Image4 — exact RYZHIK identity.
+@Image5 — ABSOLUTE ancient Sith-planet ruins geography and sunset (see LOCATION LOCK — CRITICAL).
+@Image6 — optional three-subject scale/staging helper only; never overrides actual identities or location.
+Priority: @Image5 controls architecture, geography and sunset. @Image2, @Image3 and @Image4 control identities; the individual cat sheets @Image3 / @Image4 override @Image1. @Image6 only helps scale and staging.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image2): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. Always a RED saber.
+LUCHIK (@Image3): exact white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression. Always a BLUE saber.
+RYZHIK (@Image4): exact warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. Always a GREEN saber.
+CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's human knee. They remain genuinely feline, with paws, fur, tail, ears, muzzles; no human hands/arms or giant anthropomorphic bodies. Stable single blade/hilt per fighter.
+
+LOCATION LOCK — CRITICAL:
+@Image5 is the REAL SAME WORLD from Scenes 26/27: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces/stairs, shattered columns, rectangular towers and distant jagged mesa spires, dramatic low warm orange-gold sun. Never substitute lava, black basalt, featureless arena or generic red volcanic storm.
+
+DESTRUCTION PHYSICS LOCK — CRITICAL:
+Every saber cut makes a localized glowing real incision in solid stone at actual contact. Force actions have initiator, direction, identifiable affected mass, realistic acceleration, gravity and landing. Stones must visibly fracture, fall, scatter pebbles and raise dry dust; rubble and scars PERSIST in following shots. Never restore vanished supports or magically rebuild the terrace. Limit structural destruction to readable localized architecture; no indiscriminate whole-city explosion. Fighters avoid falling debris; no gore, dismemberment or graphic injuries.
+
+START STATE:
+Physically continuous from Scene 31 near the temple stair plaza. Preserve the missing rails, fallen blocks and the same sunset city; no unexplained fresh walls.
+
+TIMELINE:
+[0:00–0:05] — CORNERED AT THE ARCH
+35mm mid-wide of a stable half-ruined temple arch, Serega forced close to it by the blue/green duo. The three identities stay fixed and the cats remain around human-knee height.
+
+[0:05–0:11] — HOT CUT ON THE SUPPORT
+Ryzhik accelerates from an outside angle with fast green blade strikes; Serega blocks with the red blade but is driven backward. Luchik's blue saber intersects the red attack and deliberately scores a HOT CUT on one visibly cracked lower arch support.
+
+[0:11–0:18] — FAILED COUNTER
+Serega tries one committed red counter to break the encirclement, but the cats move faster. His blade leaves a separate real shallow scar across a stone slab. Ryzhik raises one paw to apply Force pressure on an unstable lintel directly above the pre-cut support.
+
+[0:18–0:24] — PARTIAL COLLAPSE
+Luchik braces safely and adds a single well-directed Force push. Dust sifts, the pre-existing crack lengthens, and THREE identifiable heavy blocks fall from a short arch section into an EMPTY side passage. Show the impacts and the debris that remains; the entire temple does NOT vanish.
+
+[0:24–0:30] — LOW DEFENSIVE STANCE
+The camera tracks backward as Serega narrowly dodges and drops into a strained low defensive stance; the cats advance side by side with blue/green sabers amid settling ochre dust. The partly standing arch is clearly permanently changed.
+
+END STATE:
+Unresolved tense stance: the cats dominate, Serega alive and struggling. The blocked shortcut and the partial arch stay preserved for the next edit.
+
+CAMERA / SPACE:
+One coherent 3D space, readable geography, fixed sunset direction. Controlled, smooth motivated 28–35mm tracking and restrained 50mm accents, physically possible perspective and inertia, no camera jitter, teleportation, spatial resets or 180-degree axis flips.
+
+PERFORMANCE:
+Cats clearly outrank Serega in speed, precision and two-against-one coordination. Luchik controls center; Ryzhik aggressively takes wide angles. Serega is skilled but pressured and constantly defending/repositioning; never easy victory or balanced 50/50. No actors frozen in hero poses longer than one second during fights.
+
+LIGHTING / MATERIALS:
+Warm weathered stones in low orange-gold sunset light; continuous drift of fine dry ash/dust with rare ember-like particles as in Scenes 26/27, NOT volcanic smoke. Distinct glowing blue, green and red blades; hot glowing incisions cooling on cut stone.
+
+AUDIO:
+Realistic distinct colored saber hum and clashes, cracking stone, gritty paw/boot movement, small impacts, dry wind, force-pressure dust rush, natural short effort noises only. No spoken dialogue, narrator, background songs, subtitles or on-screen titles.
+
+NEGATIVE PROMPT:
+giant cats, human cat-hands, swaps, wrong saber color, random extra weapons, clipping blades, floating hilts, impossible stone weight, self-healing architecture, empty clean air, changing ruin geometry, lava, fake Force fireballs, character duplicates, glossy game look, anime, static posing, incoherent cuts, text, watermark, frame borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -1989,24 +2106,65 @@ Wan 3.0 task `e95f1bab9ab24f528b55fa58495d7adb` технически завер�
 
 **Что происходит:** Серёга идёт по руинам, внимательно осматривает древний город, замечает вход храма.
 
+**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `e95f1bab9ab24f528b55fa58495d7adb` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | premium photoreal feature-film exploration / smooth camera.
-REFERENCES / IDENTITY:
-@Image1 — EXACT SEREGA: older pale Chancellor with distinct mature face, thinning sparse light hair/bald crown, real human proportions, flowing deep dark-purple robe and fixed costume; do not average with other humans.
-@Image2 — EXACT Sith-planet stone city location from Scenes26/27: ochre/red-brown ancient weathered masonry, colossal robed statues, broad stepped terraces, broken columns and tall squared stone towers, distant jagged canyon spires, low orange-gold sunset and dramatic layered clouds. Same planet and direction of light, not lava or generic black Sith arena.
-PURPOSE: atmospheric reconnaissance / investigation of a monumental place. Only Serega visually present, no cats or additional figures; he is alive and thoughtfully observant, no spoken dialogue. Can be placed before or after combat once montage chronology is decided, so do not falsely assert a specific unapproved battle-damage state. Old architectural decay exists but current duel may not yet have occurred.
+Optimized for Wan 3.0 | Premium photoreal feature-film exploration, smooth camera | Atmospheric reconnaissance of a monumental ruined city
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — EXACT SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image2 — EXACT Sith-planet stone city location from Scenes 26/27 (see LOCATION LOCK — CRITICAL).
+Priority: @Image2 controls location, architecture and light direction. @Image1 controls identity and costume only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image1): older pale Chancellor with a distinct mature face, thinning sparse light hair / bald crown, real human proportions, flowing deep dark-purple robe and fixed costume; do not average with other humans.
+
+LOCATION LOCK — CRITICAL:
+@Image2: ochre/red-brown ancient weathered masonry, colossal robed statues, broad stepped terraces, broken columns and tall squared stone towers, distant jagged canyon spires, low orange-gold sunset and dramatic layered clouds. Same planet and direction of light, not lava or a generic black Sith arena.
+
+STORY LOCK — CRITICAL:
+Atmospheric reconnaissance / investigation of a monumental place. Only Serega is visually present: no cats or additional figures. He is alive and thoughtfully observant, no spoken dialogue. Show only old architectural decay; no fresh battle damage from the duel.
+
+START STATE:
+Serega approaches slowly across a recognizable stepped stone terrace of the same city.
+
 TIMELINE:
-[00:00–00:06] Wide 28mm opening from a recognizable stepped stone terrace; one physically continuous lateral dolly reveals Serega approaching slowly through the giant ruin geometry. His robe and wind are natural; no invisible teleporting.
-[00:06–00:12] Medium side tracking along a cracked carved balustrade as Serega scans ancient columns and far statues. His eyes lead head turns, then feet follow. He is wary and interested, not performing exaggerated fear.
-[00:12–00:18] Motivated over-shoulder view onto the same @Image2 sprawling ruin rooftops, massive temple façade, steps and distant spires. One ancient erosion mark catches his attention; no map, supernatural artifact or unrelated structure conjured.
-[00:18–00:24] Camera performs a small physically credible quarter orbit as Serega climbs two real visible steps, touches weathered masonry with one hand and wipes off some fine dry dust. The damage and dust stay coherent.
-[00:24–00:30] From mid-wide over his shoulder the massive half-ruined temple entrance comes into line, still part of the original city. He hesitates, studies the silhouette against orange light and deliberately starts toward it. End with a clear approach direction for Scene34.
-SPACE / CAMERA / LOOK:
-One shared navigable stone environment, smooth stable 3D tracking, slow plausible parallax, no jump cuts or impossible speed ramp. High-end live-action face, purple cloth fibers, physically plausible setting sun and long warm shadows; drifting dry ash, thin dust and rare emberlike particles from the Scenes26/27 mood without heavy volcanic fog.
-NATIVE AUDIO: boots crunching grit/stone, dry valley breeze, subtle robe rustle, slight stone crackle, natural breathing; no talk, voiceover or intrusive musical score.
-NEGATIVE: wrong Serega, changed purple robe, cats appearing, duplicated humans, lava, black basalt, sudden interior cut, new fantastical building, unstable temple geometry, camera shake, face beauty filter, exaggerated magic, game render, subtitles/logo/watermark/borders.
-FULL FRAME 16:9.
+[0:00–0:06] — ARRIVAL ON THE TERRACE
+Wide 28mm opening from a recognizable stepped stone terrace; one physically continuous lateral dolly reveals Serega approaching slowly through the giant ruin geometry. His robe and the wind are natural; no invisible teleporting.
+
+[0:06–0:12] — SCANNING THE RUINS
+Medium side tracking along a cracked carved balustrade as Serega scans ancient columns and far statues. His eyes lead the head turns, then his feet follow. He is wary and interested, not performing exaggerated fear.
+
+[0:12–0:18] — THE EROSION MARK
+Motivated over-shoulder view onto the same @Image2 sprawling ruin rooftops, massive temple façade, steps and distant spires. One ancient erosion mark catches his attention; no map, supernatural artifact or unrelated structure is conjured.
+
+[0:18–0:24] — TOUCHING THE STONE
+The camera performs a small physically credible quarter orbit as Serega climbs two real visible steps, touches weathered masonry with one hand and wipes off some fine dry dust. The damage and dust stay coherent.
+
+[0:24–0:30] — THE TEMPLE ENTRANCE
+From mid-wide over his shoulder the massive half-ruined temple entrance comes into line, still part of the original city. He hesitates, studies the silhouette against the orange light and deliberately starts toward it.
+
+END STATE:
+Serega walks toward the temple entrance with a clear approach direction, ready to continue into Scene 34.
+
+CAMERA / SPACE:
+One shared navigable stone environment, smooth stable 3D tracking, slow plausible parallax, no jump cuts or impossible speed ramp.
+
+PERFORMANCE:
+Wary, interested, thoughtful explorer; eyes lead, body follows. No exaggerated fear, no talking.
+
+LIGHTING / MATERIALS:
+High-end live-action face, purple cloth fibers, physically plausible setting sun and long warm shadows; drifting dry ash, thin dust and rare ember-like particles in the Scenes 26/27 mood without heavy volcanic fog.
+
+AUDIO:
+Boots crunching grit/stone, dry valley breeze, subtle robe rustle, slight stone crackle, natural breathing. No talk, voiceover or intrusive musical score.
+
+NEGATIVE PROMPT:
+wrong Serega, changed purple robe, cats appearing, duplicated humans, lava, black basalt, sudden interior cut, new fantastical building, unstable temple geometry, camera shake, face beauty filter, exaggerated magic, game render, subtitles, logo, watermark, borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -2029,26 +2187,65 @@ Wan 3.0 task `3fb3d9ee26474b62982ae8ef062afc32` технически завер�
 
 **Что происходит:** Он входит через частично разрушенную арку и осматривает первый полутёмный древний зал без смены лица или архитектурной логики.
 
+**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `3fb3d9ee26474b62982ae8ef062afc32` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | photoreal unbroken outdoor-to-indoor temple entry.
-REFERENCES:
-@Image1 — exact older pale SEREGA Chancellor identity, approved thinning light hair, long dark-purple cloak and human body scale.
-@Image2 — absolute exterior Sith-planet ruin city temple façade, ochre weathered stone, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and orange sunset direction. This is the same exact setting as Scene33 and Scenes26/27, not a new temple.
-No specific approved interior photo exists: inside the door conservatively CONTINUE this very same stone construction, load-bearing geometry, ancient erosion, broken vaults, credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or unrelated cave.
-SCENE CONTINUITY:
-Starts directly from Scene33 final approach. The temple entrance is already in his line of sight and in the same position relative to exterior columns; he takes the same forward travel vector. One physical camera path: sunlight steps → damaged arch → first dark hall. No new people, cats or enemy attack. No jump cut or magical wipe through doorway.
-THIRTY-SECOND ACTION:
-[00:00–00:06] Exterior wide-middle shows the exact partly broken stone temple façade and Serega at its approach. Low orange light edges his robe, wind lifts fine dust. He steps around identifiable debris rather than through it.
-[00:06–00:12] Controlled shoulder-level tracking accompanies Serega up shallow uneven steps. He briefly tilts his head up to study an eroded monumental lintel. Slow breathing, serious focused expression and believable footing.
-[00:12–00:18] One uninterrupted behind-shoulder push crosses the arch plane naturally. Same textured stone continues inward; outside sunshine remains visible backward through the entrance and a narrow beam enters through a cracked vault. Exposure adapts gradually; no flash or teleport.
-[00:18–00:24] Inside a conservative first chamber, cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse and realistic old stone reliefs. Serega keeps a steady cautious pace and studies those walls without revealing an arbitrary new artifact.
-[00:24–00:30] Camera settles on his profile with the dark interior corridor behind; he pauses, glances at the carved wall, then turns toward the deeper passage. Still enough to cut into later investigation; no monster cliffhanger or premature resolution.
-CAMERA / SPATIAL PHYSICS:
-Feature-film single continuous take, smooth physically motivated dolly, 28–35mm consistent perspective, no cut from outside directly to disconnected hall, no impossible wide room behind narrow exterior wall, no morphing roof. Real sunlight penetration, physically coherent shadow direction, dry drifting dust lit in shafts, detailed robe/skin/stone, stable geography.
-AUDIO: exterior wind gradually takes on a reverberant low indoor ambience, authentic footsteps on stone and cloth noise, occasional granular masonry movement. Native audio ON, no dialogue, narrator, cinematic music, whispering apparitions or chants.
-NEGATIVE: wrong person/robe, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, gratuitous enemies, faceless statue morphs, impossible 3D plan, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
-16:9 edge-to-edge.
+Optimized for Wan 3.0 | Photoreal unbroken outdoor-to-indoor temple entry | One continuous take from the sunlit steps into the first dark hall
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image2 — absolute exterior: the Sith-planet ruin city temple façade (see LOCATION LOCK — CRITICAL).
+Priority: @Image2 controls the exterior, the stone construction and the sunset direction; the interior continues it conservatively. @Image1 controls identity and costume only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image1): exact older pale Chancellor identity, thinning light hair, long dark-purple cloak and human body scale.
+
+LOCATION LOCK — CRITICAL:
+@Image2: ochre weathered stone temple façade, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and the orange sunset direction. The same exact setting as Scene 33 and Scenes 26/27, not a new temple.
+
+INTERIOR LOCK — CRITICAL:
+Inside the door, conservatively CONTINUE this very same stone construction: load-bearing geometry, ancient erosion, broken vaults, a credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or an unrelated cave. No new people, cats or enemy attack.
+
+START STATE:
+Directly from the final approach of Scene 33: the temple entrance is already in his line of sight, in the same position relative to the exterior columns; he keeps the same forward travel vector. One physical camera path: sunlit steps → damaged arch → first dark hall.
+
+TIMELINE:
+[0:00–0:06] — APPROACH TO THE FAÇADE
+Exterior wide-middle shows the exact partly broken stone temple façade and Serega at its approach. Low orange light edges his robe, wind lifts fine dust. He steps around identifiable debris rather than through it.
+
+[0:06–0:12] — UP THE STEPS
+Controlled shoulder-level tracking accompanies Serega up shallow uneven steps. He briefly tilts his head up to study an eroded monumental lintel. Slow breathing, serious focused expression and believable footing.
+
+[0:12–0:18] — CROSSING THE ARCH
+One uninterrupted behind-shoulder push crosses the arch plane naturally. The same textured stone continues inward; outside sunshine remains visible behind through the entrance and a narrow beam enters through a cracked vault. Exposure adapts gradually; no flash or teleport.
+
+[0:18–0:24] — THE FIRST CHAMBER
+Inside a conservative first chamber: cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse and realistic old stone reliefs. Serega keeps a steady cautious pace and studies the walls without revealing an arbitrary new artifact.
+
+[0:24–0:30] — TOWARD THE DEEPER PASSAGE
+The camera settles on his profile with the dark interior corridor behind; he pauses, glances at the carved wall, then turns toward the deeper passage. Still enough to cut into a later investigation; no monster cliffhanger or premature resolution.
+
+END STATE:
+Serega in profile inside the first hall, turned toward the deeper passage, exterior light still visible behind him through the entrance.
+
+CAMERA / SPACE:
+Feature-film single continuous take, smooth physically motivated dolly, consistent 28–35mm perspective. No cut from outside directly to a disconnected hall, no impossible wide room behind a narrow exterior wall, no morphing roof; stable geography.
+
+PERFORMANCE:
+Serious, focused, cautious explorer with slow breathing and believable footing; no talking.
+
+LIGHTING / MATERIALS:
+Real sunlight penetration, physically coherent shadow direction, dry drifting dust lit in shafts, detailed robe, skin and stone; gradual exposure adaptation from sunset exterior to dim interior.
+
+AUDIO:
+Exterior wind gradually takes on a reverberant low indoor ambience, authentic footsteps on stone and cloth noise, occasional granular masonry movement. No dialogue, narrator, cinematic music, whispering apparitions or chants.
+
+NEGATIVE PROMPT:
+wrong person or robe, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, gratuitous enemies, faceless statue morphs, impossible 3D plan, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---

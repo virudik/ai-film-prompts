@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-13T22:25:39+00:00",
+ "generated_at": "2026-10-13T22:38:02+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "ae112a4dd25b632af6eba886a32ee216335cef4e6627acc772927343e5aa584b",
-   "bytes": 37690
+   "sha256": "7ec2d737e2db09dc889047ecd6acc362f89483b7c872ed7f848949f77ab5de55",
+   "bytes": 37820
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -28,8 +28,8 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "b6c655aa5c74cdd5ab71d673154ed906909f079139421dc6782239697bde79ad",
-   "bytes": 73563
+   "sha256": "fe5deda4c5726607b42c87cbca78f707ff0cb342ed80e6e3362b8c3e19e5a771",
+   "bytes": 73612
   },
   {
    "file": "USER-GUIDE.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "87328c2b26aaea2de9a1b526596507feedacf291b8cc91c2468729f82d2a72e8",
-   "bytes": 348631
+   "sha256": "141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd",
+   "bytes": 357106
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 21258,
-  "above_marker_chars": 21258,
+  "chars": 21335,
+  "above_marker_chars": 21335,
   "recent_sections_below_marker": [],
-  "sha256_12": "b49d26b952ca",
+  "sha256_12": "60d2043b17a0",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -386,8 +386,8 @@
     "@Image6"
    ],
    "offset": 236397,
-   "chars": 7921,
-   "sha256_12": "92eff17cd419"
+   "chars": 9222,
+   "sha256_12": "85538d29ff9a"
   },
   {
    "id": 31,
@@ -409,9 +409,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 244318,
-   "chars": 7737,
-   "sha256_12": "20ef82ba5808"
+   "offset": 245619,
+   "chars": 9061,
+   "sha256_12": "b7e2d8b4a234"
   },
   {
    "id": 32,
@@ -433,9 +433,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 252055,
-   "chars": 7717,
-   "sha256_12": "aaa2050e2dfd"
+   "offset": 254680,
+   "chars": 9008,
+   "sha256_12": "71b4c8e41633"
   },
   {
    "id": 33,
@@ -451,9 +451,9 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 259772,
-   "chars": 4600,
-   "sha256_12": "c434640420c2"
+   "offset": 263688,
+   "chars": 5876,
+   "sha256_12": "c0b60e785059"
   },
   {
    "id": 34,
@@ -471,9 +471,9 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 264372,
-   "chars": 4960,
-   "sha256_12": "2359ffefb996"
+   "offset": 269564,
+   "chars": 6399,
+   "sha256_12": "de5a1b8b3c65"
   },
   {
    "id": 35,
@@ -492,7 +492,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 269332,
+   "offset": 275963,
    "chars": 7787,
    "sha256_12": "2dbb4299d3e9"
   },
@@ -511,7 +511,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 277119,
+   "offset": 283750,
    "chars": 7226,
    "sha256_12": "da50cffb5d16"
   },
@@ -532,7 +532,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 284345,
+   "offset": 290976,
    "chars": 7681,
    "sha256_12": "f81fe6c5166e"
   },
@@ -553,7 +553,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 292026,
+   "offset": 298657,
    "chars": 9544,
    "sha256_12": "7fcc8220229a"
   }

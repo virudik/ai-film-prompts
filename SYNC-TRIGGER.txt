@@ -1,1 +1,1 @@
-2026-10-13T21:05:26Z Claude: master slow markers normalised (one plain marker per slow scene; scene 24 duplicate removed; stale init tails dropped); SHA256 87328c2b26aaea2de9a1b526596507feedacf291b8cc91c2468729f82d2a72e8. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-13T22:37:53Z Claude: Scenes 30–34 prompt format unified to PROMPT-STYLE-GUIDE §5A (meaning, references and timings unchanged); SHA256 141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd. Sync exact master -> validator -> project-status -> GitHub Pages.
