@@ -267,10 +267,23 @@ def run(limit, task_id=None):
         except Exception as e:
             # Never print exception messages, responses or URLs: signed MP4 URLs may
             # appear there. Stage and HTTP status are sufficient for safe triage.
-            status = getattr(getattr(e, "response", None), "status_code", None)
+            response = getattr(e, "response", None)
+            status = getattr(response, "status_code", None)
             code = f" HTTP {status}" if isinstance(status, int) else ""
+            reason = ""
+            if status == 403 and response is not None:
+                try:
+                    data = response.json().get("error", {})
+                    raw = str((data.get("errors") or [{}])[0].get("reason", ""))
+                    # Emit only a fixed safe category; never response text or URLs.
+                    safe = {"storageQuotaExceeded", "insufficientFilePermissions",
+                            "userRateLimitExceeded", "rateLimitExceeded", "quotaExceeded"}
+                    if raw in safe:
+                        reason = " " + raw
+                except (ValueError, TypeError, AttributeError, IndexError):
+                    pass
             print(f"::error title=Topview archive::Scene {scene_id}, task {tid[:8]}: "
-                  f"{phase}: {type(e).__name__}{code}")
+                  f"{phase}: {type(e).__name__}{code}{reason}")
             errors.append((scene_id, tid))
     print(f"Topview archive: verified={successes}, failed={len(errors)}, pending_before={len(jobs)}")
     return 1 if errors else 0
