@@ -147,8 +147,22 @@ if not (root/"ci-status.json").is_file():
 
 print("site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok")
 
-if "link.textContent='▶ Ролик '+(i+1)" not in html or "tools.appendChild(link)" not in html:
+if "link.textContent='▶ Ролик '+(i+1)" not in html or "videosRow(tools).appendChild(link)" not in html:
     raise SystemExit("Per-scene finished video link regression")
+# 13.10.2026 owner site requests: video links on their own line, no technical rule text, no duplicate slow label
+for required in (
+    ".scene-videos{flex:0 0 100%",
+    "videosRow(tools).appendChild(link)",
+    "/^Правило владельца \\(11\\.10\\.2026\\)/",
+    "el.textContent.includes('В МЕДЛЕННОЙ ГЕНЕРАЦИИ')){const br=el.previousElementSibling",
+    "['owner_task','✎ Задача','',null]",
+    "const TIP={",
+    "<br><span class=\"tv-eta-date\">",
+):
+    if required not in html:
+        raise SystemExit("Owner site request regression (13.10): " + required)
+if "Ежечасная проверка подхватит" in html:
+    raise SystemExit("Stale hourly-check text is back in the owner panel")
 # Slow-result retention regression guard (13.10.2026):
 # terminal rows are owner-controlled, not aged away or filtered by reviewed.
 for required in (
