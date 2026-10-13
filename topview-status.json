@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-13T13:02:36.256Z",
+  "checked_at": "2026-10-13T13:57:02.541Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -229,9 +229,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-11T05:13:31Z",
-      "queue_count": 516,
-      "topview_estimated_wait_seconds": 10497,
-      "checked_at": "2026-10-13T13:02:36.256Z",
+      "queue_count": 379,
+      "topview_estimated_wait_seconds": 7204,
+      "checked_at": "2026-10-13T13:57:02.541Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized exact canonical prompt match",
@@ -298,10 +298,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-11T19:19:35Z",
-      "queue_count": 1188,
-      "topview_estimated_wait_seconds": 27777,
+      "queue_count": 1088,
+      "topview_estimated_wait_seconds": 24484,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T13:02:36.256Z",
+      "checked_at": "2026-10-13T13:57:02.541Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 35 prompt match",
       "active_task_ids": [
@@ -318,10 +318,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-12T01:16:27Z",
-      "queue_count": 1677,
-      "topview_estimated_wait_seconds": 45058,
+      "queue_count": 1608,
+      "topview_estimated_wait_seconds": 41764,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T13:02:36.256Z",
+      "checked_at": "2026-10-13T13:57:02.541Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 38 prompt match",
       "active_task_ids": [
@@ -425,5 +425,5 @@
     "scan_mode": "fast_path_11_board_counts_latest_100_and_3_direct_active",
     "source": "Topview live board metadata, AI Film current page and direct active task details; shadow auxiliary only"
   },
-  "updated_at": "2026-10-13T13:02:36.256Z"
+  "updated_at": "2026-10-13T13:57:02.541Z"
 }
