@@ -47,7 +47,7 @@
 
 ## 1. Нельзя начинать с редактирования
 
-Новый агент сначала читает **все семь** документов из `main` (`git pull`) в порядке: `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, `PROMPT-STYLE-GUIDE.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `BACKUP-AI-RUNBOOK.md`. Затем: свежий `video-prompts.md`; живые `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `monitor-role.json`; открытые задачи владельца в Supabase `owner_decisions`; при сюжетной работе — `film-analysis.md`, `film-backlog.md`, затем релевантный Notion `Кино`. Только после этого takeover считается завершённым. Формат takeover — полное чтение (решение D7 о сокращённом чтении — `AI-PROJECT-GUIDE.md`).
+Новый агент принимает смену коротко по брифу `shadow/takeover-brief.md` (решение D7, 14.10.2026; порядок и триггеры полного чтения — `NEW-CHAT-HANDOFF.md`, «Приём смены и решение D7»). Для восстановления после сбоя — всегда полный приём: все семь документов из `main` (`git pull`) в порядке `NEW-CHAT-HANDOFF.md`, `SYNC-RUNBOOK.md`, `AI-PROJECT-GUIDE.md`, `PROMPT-STYLE-GUIDE.md`, `USER-GUIDE.md`, `README-AI-SYNC.md`, `BACKUP-AI-RUNBOOK.md`; затем свежий `video-prompts.md`, живые `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `monitor-role.json` и открытые задачи владельца в Supabase `owner_decisions`; при сюжетной работе — `film-analysis.md`, `film-backlog.md`, затем релевантный Notion «Кино».
 
 ## 2. Capability preflight
 

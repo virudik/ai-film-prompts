@@ -8,7 +8,14 @@
 
 Do not assume local clones, old chat history, attachments, backup copies or prior summaries are current. `git pull` first.
 
-Read the seven canonical instruction documents from `main` in this order:
+**Short takeover (owner decision D7, 14.10.2026) — the default:**
+
+1. `shadow/takeover-brief.md` — must say «Валиден при генерации: True» with all 15 rules ✓; otherwise do the full takeover;
+2. `shadow/current-checkpoint.md` in full (verbatim top blocks of `NEW-CHAT-HANDOFF.md`);
+3. live `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `automation-monitor-status.json`, `monitor-role.json` and open owner tasks in Supabase `owner_decisions`;
+4. the full sections your task needs («Что читать под задачу» in the brief): prompt work → `PROMPT-STYLE-GUIDE.md` + the target scene and 1–2 nearby current master scenes; story/editing → `film-analysis.md`, `film-backlog.md`, relevant Notion `Кино`.
+
+**Full takeover** is mandatory when the brief is invalid or shows `✕ ANCHOR MISSING`; when the task edits any of the 7 instructions or materially changes workflow / site / authority / recovery; for recovery after an incident; when the task touches sync, schedules, slot semantics or rules shared by several scenes; when in doubt; or when the owner asks for a full takeover. Read the seven canonical instruction documents from `main` in this order:
 
 1. `NEW-CHAT-HANDOFF.md` (top blocks = live state)
 2. `SYNC-RUNBOOK.md`
@@ -18,17 +25,7 @@ Read the seven canonical instruction documents from `main` in this order:
 6. `README-AI-SYNC.md`
 7. `BACKUP-AI-RUNBOOK.md`
 
-Then read from `main`:
-
-1. `video-prompts.md` (canonical master);
-2. live `project-status.json`;
-3. live `topview-status.json`;
-4. live `instruction-sync-status.json`;
-5. `monitor-role.json` and open owner tasks in Supabase `owner_decisions`.
-
-For prompt work, additionally follow `PROMPT-STYLE-GUIDE.md` and inspect 1–2 nearby current master scenes.
-
-For story/editing work, additionally read `film-analysis.md`, `film-backlog.md`, and relevant Notion `Кино` context when available.
+then `video-prompts.md` (canonical master) and the live status files above. Say in the readiness report which takeover (short / full) you used.
 
 ## 2. Authority
 
