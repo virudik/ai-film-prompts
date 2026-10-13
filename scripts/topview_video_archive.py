@@ -156,17 +156,30 @@ def verify(s, fid, scene_folder, task_id, size, md5):
     return f
 
 
-def upload_mp4(s, parent, task_id, scene_id, path, size):
+def upload_mp4(s, parent, task_id, scene_id, path, size, *, existing_id=None):
     metadata = {
         "name": task_id + ".mp4", "parents": [parent], "mimeType": "video/mp4",
         "appProperties": {"topview_task_id": task_id, "scene_id": str(scene_id),
                           "source": "Topview", "archive_schema": "1"}}
-    r = s.post(DRIVE_UPLOAD,
-               params={"uploadType": "resumable", "fields": "id,name,size,md5Checksum,parents,appProperties"},
-               json=metadata,
-               headers={"X-Upload-Content-Type": "video/mp4",
-                        "X-Upload-Content-Length": str(size)},
-               timeout=60)
+    if existing_id:
+        # Google Drive service accounts have no personal storage quota. They can
+        # still overwrite an existing file owned by the user when shared with
+        # writer permission. Never create/own a new MP4 as the service account.
+        metadata.pop("parents")
+        r = s.patch(DRIVE_UPLOAD + "/" + existing_id,
+                    params={"uploadType": "resumable", "fields": "id,name,size,md5Checksum,parents,appProperties",
+                            "supportsAllDrives": "true"},
+                    json=metadata,
+                    headers={"X-Upload-Content-Type": "video/mp4",
+                             "X-Upload-Content-Length": str(size)},
+                    timeout=60)
+    else:
+        r = s.post(DRIVE_UPLOAD,
+                   params={"uploadType": "resumable", "fields": "id,name,size,md5Checksum,parents,appProperties"},
+                   json=metadata,
+                   headers={"X-Upload-Content-Type": "video/mp4",
+                            "X-Upload-Content-Length": str(size)},
+                   timeout=60)
     r.raise_for_status()
     location = r.headers.get("Location", "")
     url = urlsplit(location)
@@ -220,6 +233,7 @@ def run(limit, task_id=None):
     index = json.loads(INDEX.read_text(encoding="utf-8")) if INDEX.exists() else {
         "schema_version": 1, "location": "AI Film Prompts Master/AI Film Generated Videos",
         "videos": {}}
+    seeds = json.loads(Path("topview-archive-seeds.json").read_text(encoding="utf-8")) if Path("topview-archive-seeds.json").exists() else {"by_task": {}}
     jobs = candidates(mapping, index)
     if task_id:
         # Only select already-mapped success; no arbitrary ID supplied by CI/operator.
@@ -249,6 +263,15 @@ def run(limit, task_id=None):
                     raise RuntimeError("Multiple archived files with this task ID")
                 if already:
                     drive_id = already[0]["id"]
+                    if (already[0].get("md5Checksum") != md5 or
+                            int(already[0].get("size") or -1) != size):
+                        # Never overwrite another user's file without a specific,
+                        # pre-authorized user-owned Drive placeholder reservation.
+                        if seeds.get("by_task", {}).get(tid) != drive_id:
+                            raise RuntimeError("Existing file mismatch and not reserved for this task")
+                        phase = "drive_update_user_owned_seed"
+                        drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size,
+                                              existing_id=drive_id)
                 else:
                     phase = "drive_upload"
                     drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size)

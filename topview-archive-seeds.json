@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "notes": "Private user-owned Drive seed for one idempotent end-to-end archive test. Never overwrite unreserved mismatches.",
+  "by_task": {
+    "3710685303634b2482b90581aa6a8a2b": "16YXhWAkhwwzNf0--4Mq0wr_rpb4zYJHc"
+  }
+}
