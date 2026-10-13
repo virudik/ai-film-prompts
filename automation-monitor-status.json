@@ -48,10 +48,9 @@
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-12T21:02:34.341Z",
-    "last_observed_free_slots": 2,
+    "last_notified_at": "2026-10-13T07:00:09.454Z",
+    "last_observed_free_slots": 3,
     "observed_active_task_ids": [
-      "3710685303634b2482b90581aa6a8a2b",
       "4682335cffc24a339179845c2713c46e",
       "6d1ff4a96a0043f2884ffb528d5d9c9a",
       "e948bd09e5d349448e0ff72fb3049d04"
@@ -59,37 +58,38 @@
     "open_incidents": [],
     "last_message_event": {
       "type": "topview_completion_and_free_slot",
-      "observed_at": "2026-10-12T20:58:38.400Z",
-      "issue": "Scene 27 reached technical success and released one additional physical Topview slot. Four tasks remain active; canonical slow Scene 27 remains pending owner decision.",
+      "observed_at": "2026-10-13T06:55:30.000Z",
+      "issue": "Scene 30 reached technical success and released one additional physical Topview slot. Three tasks remain active; canonical slow Scene 30 remains pending owner decision.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
   },
   "phases": {
     "topview": {
-      "status": "verified_fast_path_unchanged_4_of_6_two_free_slots",
-      "checked_at": "2026-10-13T05:54:47.261Z",
+      "status": "verified_fast_path_scene_30_terminal_3_of_6_three_free_slots",
+      "checked_at": "2026-10-13T06:55:30.000Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
-      "occupied_slots": 4,
-      "free_slots": 2,
+      "occupied_slots": 3,
+      "free_slots": 3,
       "active_task_ids": [
-        "3710685303634b2482b90581aa6a8a2b",
         "4682335cffc24a339179845c2713c46e",
         "6d1ff4a96a0043f2884ffb528d5d9c9a",
         "e948bd09e5d349448e0ff72fb3049d04"
       ],
-      "terminal_task_ids": [],
-      "direct_active_task_reads": "4_of_4_verified_active",
+      "terminal_task_ids": [
+        "3710685303634b2482b90581aa6a8a2b"
+      ],
+      "direct_active_task_reads": "4_of_4_verified_direct;_3_active_1_terminal",
       "complete": true
     },
     "telemetry_publication": {
       "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-13T05:57:30.738Z",
-      "task_map_checked_at": "2026-10-13T05:54:47.261Z",
-      "status_checked_at": "2026-10-13T05:54:47.261Z",
-      "checkpoint_checked_at": "2026-10-13T05:54:47.261Z",
+      "checked_at": "2026-10-13T07:00:09.454Z",
+      "task_map_checked_at": "2026-10-13T06:55:30.000Z",
+      "status_checked_at": "2026-10-13T06:55:30.000Z",
+      "checkpoint_checked_at": "2026-10-13T06:55:30.000Z",
       "missing": []
     },
     "instruction_sync": {
@@ -98,7 +98,7 @@
     },
     "canonical_sync": {
       "status": "verified_github_project_status_and_public_pages",
-      "checked_at": "2026-10-13T05:57:30.738Z",
+      "checked_at": "2026-10-13T07:00:09.454Z",
       "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
       "prompt_texts": 36,
       "slow_scenes": [
@@ -128,8 +128,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-13T05:52:33.000Z",
-    "completed_at": "2026-10-13T05:57:30.738Z",
+    "started_at": "2026-10-13T06:54:20.000Z",
+    "completed_at": "2026-10-13T07:00:30.000Z",
     "health": "ok",
     "phases_completed": [
       "role_and_50_minute_guard",
@@ -149,7 +149,7 @@
     ],
     "phases_missing": [],
     "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled cycle completed; live Topview unchanged at 4/6 with two free slots; GitHub readback, integration, Pages and public site verified."
+    "note": "Full scheduled cycle completed; Scene 30 reached technical success, physical Topview capacity is 3/6 with three free slots; canonical slow unchanged; GitHub readback, integration, Pages and public site verified."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -176,16 +176,16 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-13T05:54:47.261Z",
-    "public_pages_occupied_slots": 4,
-    "public_pages_free_slots": 2,
+    "public_pages_topview_checked_at": "2026-10-13T06:55:30.000Z",
+    "public_pages_occupied_slots": 3,
+    "public_pages_free_slots": 3,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
     "automation_state_mutated": false,
     "site_validator": "project-status all checks true; integration tests success; public Pages current",
     "canonical_master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
     "public_pages_canonical_health": "ok",
-    "public_pages_current_readback": "current_4_of_6_snapshot_scenes_30_31_35_38_two_free_unchanged",
-    "public_pages_readback_attempted_at": "2026-10-13T05:57:30.738Z",
+    "public_pages_current_readback": "current_3_of_6_snapshot_scenes_31_35_38_three_free_scene_30_terminal",
+    "public_pages_readback_attempted_at": "2026-10-13T07:00:09.454Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -197,19 +197,19 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-13T05:54:47.261Z",
-    "topview_live_result": "four_active_init_4_of_6_two_free_unchanged",
-    "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38353922411",
-    "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38353923094",
+    "topview_live_attempted_at": "2026-10-13T06:55:30.000Z",
+    "topview_live_result": "scene_30_success_three_active_init_3_of_6_three_free",
+    "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38359807119",
+    "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38359807193",
     "supabase_owner_decision_counts": {
       "applied": 75,
       "in_progress": 6,
       "needs_owner": 2,
-      "checked_at": "2026-10-13T05:54:47.261Z"
+      "checked_at": "2026-10-13T06:55:30.000Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-13T05:57:30.738Z",
-  "last_successful_cycle_at": "2026-10-13T05:57:30.738Z",
+  "last_completed_cycle_at": "2026-10-13T07:00:30.000Z",
+  "last_successful_cycle_at": "2026-10-13T07:00:30.000Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -223,12 +223,12 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-13T05:57:30.738Z"
+    "chatgpt": "2026-10-13T07:00:30.000Z"
   },
   "last_successful_cycle_runner": "chatgpt_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-13T05:57:30.738Z"
+    "chatgpt": "2026-10-13T07:00:30.000Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
