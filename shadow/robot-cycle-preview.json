@@ -2,9 +2,9 @@
   "schema_version": 1,
   "mode": "shadow",
   "note": "ТЕНЕВОЙ режим: что робот ОПУБЛИКОВАЛ БЫ. Канон не затронут. События — только когда решение не 'noop'.",
-  "generated_at": "2026-10-13T18:20:17Z",
-  "scan_checked_at": "2026-10-13T18:20:13Z",
-  "decision": "noop",
+  "generated_at": "2026-10-13T18:50:13Z",
+  "scan_checked_at": "2026-10-13T18:50:10Z",
+  "decision": "publish",
   "reasons": [],
   "changes": {
     "new": [],
@@ -16,6 +16,23 @@
     "add": [],
     "finish": []
   },
-  "published_age_minutes": 28.2,
-  "events": []
+  "published_age_minutes": 58.1,
+  "events": [
+    {
+      "at": "2026-10-13T18:50:13Z",
+      "decision": "publish",
+      "reasons": [],
+      "changes": {
+        "new": [],
+        "gone": [],
+        "finished": [],
+        "status_changed": []
+      },
+      "master_plan": {
+        "add": [],
+        "finish": []
+      },
+      "sig": "('publish', (), '{\"finished\": [], \"gone\": [], \"new\": [], \"status_changed\": []}')"
+    }
+  ]
 }
