@@ -22,6 +22,7 @@ on:
 permissions:
   contents: write
   id-token: write
+  issues: write
 
 concurrency:
   group: topview-video-archive
@@ -63,6 +64,20 @@ jobs:
             exit 1
           fi
           python3 scripts/topview_video_archive.py --limit "$BATCH"
+      - name: Alert owner before Drive slot pool is exhausted
+        if: ${{ always() && steps.archive.outcome != 'skipped' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test -f topview-archive-pool-health.json || exit 0
+          left="$(python3 -c 'import json;print(json.load(open("topview-archive-pool-health.json"))["available"])')"
+          open="$(gh api "repos/${GITHUB_REPOSITORY}/issues?state=open&labels=topview-archive-pool&per_page=5" --jq '.[0].number // empty' 2>/dev/null || true)"
+          if [ "$left" -le 10 ] && [ -z "$open" ]; then
+            gh api "repos/${GITHUB_REPOSITORY}/labels" -f name=topview-archive-pool -f color=fbca04 >/dev/null 2>&1 || true
+            gh api "repos/${GITHUB_REPOSITORY}/issues" -f title="Topview MP4 archive: replenish owner-owned Google Drive upload slots" -f body="Remaining owner-owned Drive upload slots: $left. The service account cannot own new MP4 (Google storageQuotaExceeded). Replenish the private Drive folder 'AI Film Generated Videos/Available Upload Slots' via the user's Google Drive OAuth, register new slot IDs in topview-archive-seeds.json. Never create public MP4 GitHub releases, delete old backups, or weaken permissions. See ops/TOPVIEW-VIDEO-ARCHIVE.md." -f 'labels[]=topview-archive-pool' >/dev/null
+          elif [ "$left" -gt 10 ] && [ -n "$open" ]; then
+            gh api -X PATCH "repos/${GITHUB_REPOSITORY}/issues/${open}" -f state=closed >/dev/null
+          fi
       - name: Commit verified archive index only
         if: ${{ always() && steps.archive.outcome != 'skipped' }}
         run: |

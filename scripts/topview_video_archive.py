@@ -367,6 +367,17 @@ def run(limit, task_id=None):
                   f"{phase}: {type(e).__name__}{code}{reason}")
             errors.append((scene_id, tid))
     print(f"Topview archive: verified={successes}, failed={len(errors)}, pending_before={len(jobs)}")
+    try:
+        available = pool_slots(s)
+        count = sum(bool(choose_slot([item], seeds)) for item in available)
+        Path("topview-archive-pool-health.json").write_text(
+            json.dumps({"available": count, "checked_at": iso_now()}) + "\n",
+            encoding="utf-8")
+        print(f"Topview archive: available owner-owned upload slots={count}")
+        if count <= 10:
+            print(f"::warning title=Topview archive::Only {count} preauthorized upload slots remain; replenish via owner Drive OAuth")
+    except Exception:
+        print("::warning title=Topview archive::Could not verify remaining seed pool capacity")
     return 1 if errors else 0
 
 

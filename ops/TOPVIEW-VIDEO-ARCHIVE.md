@@ -1,6 +1,6 @@
 # Topview completed video archive — private Drive backup
 
-**Status:** implementation installed 13.10.2026; confirm successful GitHub Actions run and Drive read-back before claiming the service is operational.
+**Status 13.10.2026: OPERATIONAL** — two end-to-end successful MP4 uploads and Drive checksum read-back verified: Scene 30 (78,644,925 B) and Scene 27 (78,611,053 B). GitHub Actions runs 38381306579 and 38381835331. Output link / scene ID / task ID recorded in topview-video-archive.json. No Topview generation launched.
 
 GitHub Actions workflow: `.github/workflows/topview-video-archive.yml`; program: `scripts/topview_video_archive.py`; verified index: `topview-video-archive.json`.
 
@@ -14,3 +14,9 @@ GitHub Actions workflow: `.github/workflows/topview-video-archive.yml`; program:
 - Run manually in GitHub Actions → “Archive successful Topview videos to Drive” → “Run workflow”, or allow schedule. If Google Drive service accounts are not permitted to **create** files in the currently shared My Drive folder (storage quota/403), do **not** weaken IAM or add keys: select a compatible storage destination or authenticated user route and verify a real MP4 archive first.
 
 To verify end-to-end: find run with both "Copy and verify completed videos" and "Commit verified archive index only" successful, inspect one `topview-video-archive.json` entry, open it under the user's Drive account and confirm playable MP4. Topview remains telemetry; no signed media URL belongs in public JSON.
+
+## Google service-account quota workaround — tested
+
+Google rejects brand-new MP4 **owned by the service account** in user My Drive with `403 storageQuotaExceeded`. Do not retry the creation route repeatedly. Instead, the authorized Drive user created **100 tiny user-owned reserve seed files** inside `AI Film Generated Videos/Available Upload Slots` (folder ID `1goC9h_OwvPfSffaYRTKcFjT8c2pAg2jv`). Their exact IDs are allowlisted in `topview-archive-seeds.json`. One was consumed by the second successful upload, and one earlier Scene 30 owner-created placeholder is registered by task ID; thus **two MP4 backups are confirmed**, 99 remaining slots. Every completed task automatically claims a seed by moving/renaming it into the scene folder and overwriting **that owner-owned file** with the MP4. Only the matching, allowlisted seed can be overwritten. Recovery after interrupted claim uses task ID stored in Drive appProperties; a finished upload is certified only after checksum verification. Never overwrite an unrelated Drive file.
+
+**Finite capacity:** new videos consume one reserved slot each. A low-water GitHub issue opens at 10 or fewer, closes after refill. To replenish: via the owner's authenticated Google Drive connector, copy a small existing user-owned non-canonical file into the same private pool with new unique `reserved-slot-NNN.seed` names; add exact returned IDs to `topview-archive-seeds.json.pool_slots`. There is no unrestricted, endless service-account create in personal Drive without user OAuth, so do not claim infinite capacity. Scheduled scanner continues every 30 minutes; default two videos/batch. The pool requires periodic refill; videos remain in private Drive, not public GitHub.
