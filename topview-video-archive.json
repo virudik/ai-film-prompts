@@ -10,6 +10,15 @@
       "scene_id": 30,
       "sha256": "35ac3c6149392d6eb15e7e2a2b00c476cc56f37126c6c64fab9583b1b5927401",
       "size_bytes": 78644925
+    },
+    "dbe204aeb9a74478af04c6bbfe7693f9": {
+      "archived_at": "2026-10-13T10:13:22Z",
+      "drive_url": "https://drive.google.com/file/d/1u3trCQ3BCTrDKrPehLKuSVbjMgAABgLQ/view",
+      "file_id": "1u3trCQ3BCTrDKrPehLKuSVbjMgAABgLQ",
+      "md5": "17cc7ebe67822a11ad54df7925627b96",
+      "scene_id": 27,
+      "sha256": "884143ae902d7f3541bd46a9308909f3b88478ad3d715c31515c60d885d81b13",
+      "size_bytes": 78611053
     }
   }
 }
