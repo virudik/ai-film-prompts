@@ -59,12 +59,13 @@
       "issue": "Scene 31 reached technical success at 2026-10-13T16:07:41Z and released one additional physical Topview slot. Two tasks remain active; canonical slow Scene 31 remains pending owner decision.",
       "delivery": "chat_result_this_run"
     },
-    "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
+    "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status.",
+    "robot_notified_keys": []
   },
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
-      "checked_at": "2026-10-13T19:02:02.187Z",
+      "checked_at": "2026-10-13T20:53:01Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -124,28 +125,20 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-13T18:57:52.000Z",
-    "completed_at": "2026-10-13T19:06:30.299Z",
+    "started_at": "2026-10-13T20:53:06Z",
+    "completed_at": "2026-10-13T20:53:06Z",
     "health": "ok",
     "phases_completed": [
-      "role_and_50_minute_guard",
-      "fresh_head",
-      "instruction_hashes_7_of_7",
-      "topview_owned_boards_11",
-      "topview_ai_film_latest_100",
-      "topview_direct_known_reads_2",
-      "supabase_owner_decisions",
+      "role_check",
+      "topview_scan_api",
       "task_map_master_consistency",
-      "topview_map_and_status_readback",
+      "telemetry_publish",
       "project_status_health_ok",
-      "integration_tests_success",
-      "checkpoint_last",
-      "github_pages_success",
-      "public_pages_current_readback"
+      "checkpoint_last"
     ],
     "phases_missing": [],
-    "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled cycle completed; live Topview unchanged at 2/6 with four free slots; GitHub readback, integration run 38451958593, Pages run 38451959071 and public site verified."
+    "runner": "robot_scheduled_task",
+    "note": "GitHub robot: 2 из 6 слотов занято, новых 0, завершено 0."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -204,8 +197,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-13T19:06:30.299Z",
-  "last_successful_cycle_at": "2026-10-13T19:06:30.299Z",
+  "last_completed_cycle_at": "2026-10-13T20:53:06Z",
+  "last_successful_cycle_at": "2026-10-13T20:53:06Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -219,12 +212,14 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-13T19:06:30.299Z"
+    "chatgpt": "2026-10-13T19:06:30.299Z",
+    "robot": "2026-10-13T20:53:06Z"
   },
-  "last_successful_cycle_runner": "chatgpt_scheduled_task",
+  "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-13T19:06:30.299Z"
+    "chatgpt": "2026-10-13T19:06:30.299Z",
+    "robot": "2026-10-13T20:53:06Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
