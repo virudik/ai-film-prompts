@@ -1,0 +1,83 @@
+name: Archive successful Topview videos to Drive (private backup)
+
+# Independent from editorial approvals and from canonical slow membership.
+# Topview API: read-only. Drive: writes files in the dedicated backup subfolder.
+# No Topview signed URLs, credentials, generated video bytes or user prompts in Git.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum videos per run (1-10)"
+        required: false
+        default: "2"
+  schedule:
+    - cron: '17,47 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/topview-video-archive.yml'
+      - 'scripts/topview_video_archive.py'
+      - 'tests/test_topview_video_archive.py'
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: topview-video-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    env:
+      WIF_PROVIDER: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
+      WIF_SERVICE_ACCOUNT: ${{ vars.GCP_SERVICE_ACCOUNT }}
+      TOPVIEW_API_KEY: ${{ secrets.TOPVIEW_API_KEY }}
+      TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install only required libraries
+        run: pip install --quiet google-auth requests
+      - name: Syntax and offline guard tests
+        run: |
+          python3 -m py_compile scripts/topview_video_archive.py
+          python3 -m unittest discover -s tests -p 'test_topview_video_archive.py'
+      - name: Keyless login to Google
+        if: ${{ env.WIF_PROVIDER != '' && env.WIF_SERVICE_ACCOUNT != '' && env.TOPVIEW_API_KEY != '' && env.TOPVIEW_UID != '' }}
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ env.WIF_PROVIDER }}
+          service_account: ${{ env.WIF_SERVICE_ACCOUNT }}
+          create_credentials_file: true
+      - name: Copy and verify completed videos
+        id: archive
+        env:
+          BATCH: ${{ github.event_name == 'push' && '1' || inputs.limit || '2' }}
+        run: |
+          if [ -z "$WIF_PROVIDER" ] || [ -z "$WIF_SERVICE_ACCOUNT" ] || [ -z "$TOPVIEW_API_KEY" ] || [ -z "$TOPVIEW_UID" ]; then
+            echo "::error title=Topview archive::Missing Topview or Google WIF configuration"
+            exit 1
+          fi
+          python3 scripts/topview_video_archive.py --limit "$BATCH"
+      - name: Commit verified archive index only
+        if: ${{ always() && steps.archive.outcome != 'skipped' }}
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- topview-video-archive.json)" ]; then
+            echo "No new verified video metadata to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add topview-video-archive.json
+          git commit -m "Archive Topview MP4: verified Drive backup metadata"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            sleep 5
+          done
+          echo "::error title=Topview archive::Could not persist verified metadata"
+          exit 1

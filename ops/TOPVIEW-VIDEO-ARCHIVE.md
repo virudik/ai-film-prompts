@@ -1,0 +1,16 @@
+# Topview completed video archive — private Drive backup
+
+**Status:** implementation installed 13.10.2026; confirm successful GitHub Actions run and Drive read-back before claiming the service is operational.
+
+GitHub Actions workflow: `.github/workflows/topview-video-archive.yml`; program: `scripts/topview_video_archive.py`; verified index: `topview-video-archive.json`.
+
+- Automatically checks on schedule at minute 17 and 47; does not run Topview generations.
+- Takes only existing proven Scene↔task mapping from `topview-task-map.json.processed_tasks` and only terminal `success` tasks. Recent successes first; default 2 videos/run. Retry failures next run.
+- Reads Topview task details using `TOPVIEW_API_KEY` / `TOPVIEW_UID`, downloads its `result.originVideo.url` privately on the runner. Never stores expiring signed URL in Git or logs.
+- Uses existing keyless GitHub→Google WIF account with permission to `AI Film Prompts Master`; creates backup subfolder **AI Film Prompts Master/AI Film Generated Videos/Scene-NN**. Each video saved as `<Topview task ID>.mp4`, preserving retries as separate files. Parent folder is a location convenience, NOT an editable canon. Do not let archive data replace master / story.
+- Upload via Google Drive resumable protocol, then independently verify name, scene parent, task ID, file size and Google Drive MD5 checksum against downloaded bytes. Only then save metadata (Drive ID, hashes, private link) to `topview-video-archive.json`. No binary video files in public GitHub.
+- Idempotence: manifest prevents repeat download; Drive folder + filename lookup prevents duplicate upload if a run ended after upload but before index commit.
+- Archive performs no deletion, owner approval, slow release, rerun, Scene ID creation or other editorial writes. An archived video is not an approved scene. Owner retains access permissions; never share archive folder publicly.
+- Run manually in GitHub Actions → “Archive successful Topview videos to Drive” → “Run workflow”, or allow schedule. If Google Drive service accounts are not permitted to **create** files in the currently shared My Drive folder (storage quota/403), do **not** weaken IAM or add keys: select a compatible storage destination or authenticated user route and verify a real MP4 archive first.
+
+To verify end-to-end: find run with both "Copy and verify completed videos" and "Commit verified archive index only" successful, inspect one `topview-video-archive.json` entry, open it under the user's Drive account and confirm playable MP4. Topview remains telemetry; no signed media URL belongs in public JSON.
