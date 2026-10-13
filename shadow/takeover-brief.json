@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-13T20:55:06+00:00",
+ "generated_at": "2026-10-13T21:06:42+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "3b15893b2e9f07b664850f9a2abb73c2c44b432fd61a07a474940442183d210a",
-   "bytes": 323200
+   "sha256": "e0529437ece4f413274adb44ce29b14ebfc64400ad3d07eed3ca9cecda3368df",
+   "bytes": 325684
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "7a62d26ee37068f8fd75391ead493ba40cc06b109c6112d7f6f33e676e6fd553",
-   "bytes": 131923
+   "sha256": "4dff549281eb6caadb066b25ab12897322140af31cdef234f3967749540e09c0",
+   "bytes": 133435
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -28,14 +28,14 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "dd9361be260d87ce19799f227752037ade03fa0e855934586ee0b083c24e2eb6",
-   "bytes": 77435
+   "sha256": "7387168f4c25e5ecf0d9b377ac4fb93b8d94782b23f7e415b100addabd7fcadf",
+   "bytes": 77593
   },
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "546d7ae233aec9ed06340ecc5fc146347eb3b941521aec9c640fb91cf25514b9",
-   "bytes": 129419
+   "sha256": "6c2b423484713991083e7b6938ac3dc846833c42f031692f276b197543180ae9",
+   "bytes": 130213
   },
   {
    "file": "README-AI-SYNC.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "3be7b7569e689d2c4e52ecc05c434c059403ed4b918ae3dba3d535cffda1df4f",
-   "bytes": 349500
+   "sha256": "87328c2b26aaea2de9a1b526596507feedacf291b8cc91c2468729f82d2a72e8",
+   "bytes": 348631
   }
  ],
  "invariants": [
@@ -180,8 +180,8 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 133468,
-  "above_marker_chars": 90070,
+  "chars": 134934,
+  "above_marker_chars": 91536,
   "recent_sections_below_marker": [
    "## Checkpoint аудита двух чатов — 2026-10-07T15:38:56.100Z",
    "## Актуальная правка сцен и отображения — 07.10.2026",
@@ -194,7 +194,7 @@
    "## Передача сменщику — незавершённая работа 07.10.2026 17:30 МСК",
    "## 09.10.2026 — Control Center: честный статус, миниатюры, LF-master (Claude, по ТЗ «Единое задание Work по аудитам»)"
   ],
-  "sha256_12": "88039af558d6",
+  "sha256_12": "5d963e806607",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
@@ -310,8 +310,8 @@
     "@Image4"
    ],
    "offset": 51655,
-   "chars": 10324,
-   "sha256_12": "31483dfb97b1"
+   "chars": 10200,
+   "sha256_12": "353817ca7a46"
   },
   {
    "id": 25,
@@ -331,9 +331,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 61979,
-   "chars": 8005,
-   "sha256_12": "edd0a32cc746"
+   "offset": 61855,
+   "chars": 7891,
+   "sha256_12": "9889b2806cd0"
   },
   {
    "id": 27,
@@ -353,9 +353,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 69984,
-   "chars": 36338,
-   "sha256_12": "7dc9701795fa"
+   "offset": 69746,
+   "chars": 36224,
+   "sha256_12": "0ae7b2df08c0"
   },
   {
    "id": 28,
@@ -373,7 +373,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 106322,
+   "offset": 105970,
    "chars": 130427,
    "sha256_12": "dcd69af7849d"
   },
@@ -397,9 +397,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 236749,
-   "chars": 8035,
-   "sha256_12": "cbf6b49a7f29"
+   "offset": 236397,
+   "chars": 7921,
+   "sha256_12": "92eff17cd419"
   },
   {
    "id": 31,
@@ -421,9 +421,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 244784,
-   "chars": 7851,
-   "sha256_12": "77ace9765d3c"
+   "offset": 244318,
+   "chars": 7737,
+   "sha256_12": "20ef82ba5808"
   },
   {
    "id": 32,
@@ -445,7 +445,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 252635,
+   "offset": 252055,
    "chars": 7717,
    "sha256_12": "aaa2050e2dfd"
   },
@@ -463,7 +463,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 260352,
+   "offset": 259772,
    "chars": 4600,
    "sha256_12": "c434640420c2"
   },
@@ -483,7 +483,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 264952,
+   "offset": 264372,
    "chars": 4960,
    "sha256_12": "2359ffefb996"
   },
@@ -504,9 +504,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 269912,
-   "chars": 7901,
-   "sha256_12": "c438bf9bc64f"
+   "offset": 269332,
+   "chars": 7787,
+   "sha256_12": "2dbb4299d3e9"
   },
   {
    "id": 36,
@@ -523,7 +523,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 277813,
+   "offset": 277119,
    "chars": 7226,
    "sha256_12": "da50cffb5d16"
   },
@@ -544,7 +544,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 285039,
+   "offset": 284345,
    "chars": 7681,
    "sha256_12": "f81fe6c5166e"
   },
@@ -565,7 +565,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 292720,
+   "offset": 292026,
    "chars": 9544,
    "sha256_12": "7fcc8220229a"
   }
