@@ -15,6 +15,7 @@
         "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161"
       ],
       "next_actions": [
+        "Сверить/применить актуальный шаблон USER-GUIDE.md § «2. ChatGPT Project» в реальных настройках ChatGPT Project: однословный триггер «Продолжай» пока unverified (GitHub не меняет поле автоматически)",
         "Проверить новую команду «Продолжай» в отдельном Project-чате без ручного хендофа и сверить 10 инвариантов и zero-repeat questions",
         "Обновить непосредственно Project Files через пользовательский интерфейс, потому что Project file-write API из текущего чата недоступен",
         "После испытания обновить issue #9 и register; при ошибке полный D7 fallback"
@@ -27,8 +28,10 @@
         "NEW-CHAT-HANDOFF.md",
         "ops/CONTINUE-PROTOCOL.md",
         "shadow/takeover-brief.md",
-        "work-resume-register.json"
-      ]
+        "work-resume-register.json",
+        "USER-GUIDE.md"
+      ],
+      "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings"
     }
   ],
   "rules": [
