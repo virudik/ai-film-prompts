@@ -234,19 +234,25 @@ def run(limit, task_id=None):
     errors = []
     successes = 0
     for scene_id, tid in jobs:
+        phase = "prepare_scene_folder"
         try:
             scene_folder = folder(s, archive_id, f"Scene-{scene_id:02d}")
+            phase = "topview_task_detail"
             url = topview_detail(tid, key, uid)
             with tempfile.TemporaryDirectory(prefix="topview-mp4-") as d:
                 temp = Path(d) / "video.mp4"
+                phase = "download_mp4"
                 size, md5, sha = fetch_mp4(url, temp)
+                phase = "drive_lookup_existing"
                 already = drive_list(s, scene_folder, tid + ".mp4")
                 if len(already) > 1:
                     raise RuntimeError("Multiple archived files with this task ID")
                 if already:
                     drive_id = already[0]["id"]
                 else:
+                    phase = "drive_upload"
                     drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size)
+                phase = "drive_verify"
                 verified = verify(s, drive_id, scene_folder, tid, size, md5)
             # Index only verified successes. No signed Topview media URLs in git.
             index["videos"][tid] = {
@@ -259,8 +265,12 @@ def run(limit, task_id=None):
             successes += 1
             print(f"::notice title=Topview archive::Verified Scene {scene_id}, task {tid[:8]}, bytes {size}")
         except Exception as e:
-            # Deliberately no exception body: HTTP errors sometimes embed signed URLs.
-            print(f"::error title=Topview archive::Scene {scene_id}, task {tid[:8]}: {type(e).__name__}")
+            # Never print exception messages, responses or URLs: signed MP4 URLs may
+            # appear there. Stage and HTTP status are sufficient for safe triage.
+            status = getattr(getattr(e, "response", None), "status_code", None)
+            code = f" HTTP {status}" if isinstance(status, int) else ""
+            print(f"::error title=Topview archive::Scene {scene_id}, task {tid[:8]}: "
+                  f"{phase}: {type(e).__name__}{code}")
             errors.append((scene_id, tid))
     print(f"Topview archive: verified={successes}, failed={len(errors)}, pending_before={len(jobs)}")
     return 1 if errors else 0
