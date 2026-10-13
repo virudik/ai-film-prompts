@@ -153,6 +153,17 @@ class IntegrationRecoveryTests(unittest.TestCase):
             self.assertEqual(p.returncode, 0, p.stderr)
             self.assertIn(int(sid), status["slow_scenes"])
 
+    def test_site_keeps_terminal_rows_and_version_links_until_owner_release(self):
+        html = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn("runtimeSlowIds().filter(sid=>!active.has(sid))", html)
+        self.assertIn("sceneResultAttempts(sceneId,tv)", html)
+        self.assertIn("topview-task-map.json?fresh=", html)
+        self.assertIn("▶ Версия ", html)
+        self.assertIn("✅ Готово", html)
+        self.assertIn("const DONE_ACTIONS=[['tv_drop_task','Не ждать'", html)
+        self.assertNotIn("now-done>21*864e5", html)
+        self.assertNotIn("l&&l.reviewed===true", html)
+
     def test_stale_conflicting_topview_snapshot_is_rejected(self):
         top = json.loads(TOPVIEW.read_text(encoding="utf-8"))
         top["occupied_slots"] += 1

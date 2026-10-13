@@ -146,3 +146,20 @@ if not (root/"ci-status.json").is_file():
     raise SystemExit("ci-status.json is missing")
 
 print("site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok")
+
+# Slow-result retention regression guard (13.10.2026):
+# terminal rows are owner-controlled, not aged away or filtered by reviewed.
+for required in (
+    "function sceneResultAttempts(sceneId,tv){",
+    "return runtimeSlowIds().filter(sid=>!active.has(sid)).map(sid=>{",
+    "topviewResultLinks(sid,tv)",
+    "topview-task-map.json?fresh=",
+    "TOPVIEW_FILM_BOARD='1a6244cf1ae747ef847d949a80d6133c'",
+    "else if(summary.finishedStatus==='success'){badge.classList.add('done')}",
+    "const DONE_ACTIONS=[['tv_drop_task','Не ждать'",
+):
+    if required not in html:
+        raise SystemExit("Topview completed slow retention/link regression: " + required)
+for forbidden in ("now-done>21*864e5", "l&&l.reviewed===true"):
+    if forbidden in html:
+        raise SystemExit("Topview completed rows must never expire without owner decision: " + forbidden)
