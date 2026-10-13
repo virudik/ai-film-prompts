@@ -2063,26 +2063,67 @@ NEGATIVE: wrong person/robe, redesigned façade, giant new stairs, glowing Sith 
 
 **Что происходит:** Серёга изучает пыльный зал, обнаруживает скрытый древний проход и каменную нишу, в которой на постаменте под обломками лежит неожиданная находка: облезлый бежевый системный блок 1990-х, массивный CRT-монитор и клавиатура. Удивление сыграно сухо и серьёзно. Концовка — крупный читаемый общий вид найденного компьютера, готовый для дальнейшего монтажного эпизода про Warcraft.
 
+**Примечание к редакции (13.10.2026):** формат промта приведён к стандарту `PROMPT-STYLE-GUIDE` (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. В Topview по задаче `6d1ff4a96a0043f2884ffb528d5d9c9a` уже запущена предыдущая редакция текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 35–38»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
-MODE: reference-to-video | Wan 3.0 | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | photoreal live-action cinema.
-IDENTITY / REFERENCES:
-@Image1 is the ABSOLUTE SEREGA identity: exact older pale Chancellor face, receding thin light hair, human anatomy, long dark-purple robe; no face averaging, costume change or invented jewellery.
-@Image2 establishes the same Sith-planet city and temple architecture already used for Scenes 33 and 34: red-ochre ancient masonry, eroded stone, orange sunset and modest dry dust; exterior design may only be glimpsed through the existing entrance.
-@Video1 / @Image3 MUST be the genuine end of approved-for-use Scene 34, not an imagined temple interior. These references lock the current first interior hall, carved corridor entrance, camera side, sunlight direction, actual door position and physical geometry. Do not replace with fantasy statues, a vast new cathedral or a generic cave.
-STORY FUNCTION: This is a serious archaeological adventure with a deadpan absurd find. Serega is alone, searching intentionally rather than looking into the camera. Treat the dusty beige late-20th-century computer as an ordinary tangible object found in an ancient temple, not a magical CGI interface. An old beige desktop PC tower or horizontal case, bulky grey-beige CRT monitor, simple keyboard, coiled dusty cables; no modern flat monitor, RGB LEDs or futuristic holograms. Nothing automatically powers on.
-START: Continue the exact final position and forward direction of Scene 34. Serega turns from the first chamber into a narrower accessible side passage, with the exterior light remaining geometrically consistent behind him. He still holds the same appearance and robe; no visible new prop may spontaneously appear in his hands.
-ACTION / TIME:
-[00:00–00:05] Medium-wide stable continuation of the last frame from Scene 34. Serega pauses at the carved masonry and notices a narrow recess behind fallen stone. A restrained, observant expression; the camera glides laterally only enough to reveal the recess naturally.
-[00:05–00:11] He approaches along the same floor; slow deliberate boots over ancient grit. Tracking follows at shoulder height, passing one broken architectural support. A thin sunlight shaft from the known wall opening rakes through floating fine dust. Preserve navigable walls and believable scale.
-[00:11–00:17] Over the same shoulder, Serega carefully moves a small loose flat stone aside with both hands. The movement uncovers the corner of a rectangular beige object beneath cloth and dust. The reveal is mechanical and physically plausible, not a glowing portal or puzzle trap.
-[00:17–00:23] Smooth motivated three-quarter view, still spatially linked: Serega brushes dust from a bulky boxy CRT monitor on a stone shelf; below it a beige case and keyboard become visible in the same wide enough composition. Keyboard and cables remain attached where visible; do not morph the computer between angles.
-[00:23–00:27] Close medium reaction on Serega: his intense explorer's concentration shifts into a tiny, utterly serious bewilderment. He looks from the monitor to the keyboard, but never laughs or winks. One authentic dry stone scrape and quiet shoe movement.
-[00:27–00:30] Camera drifts back to an attractive, readable archaeological still composition: Serega, the dusty old PC, CRT monitor and keyboard all in one spatially consistent shot. He reaches toward the keyboard but does NOT press the power button. End on an unresolved find suitable for the existing Warcraft/CRT story.
-CAMERA / SPACE: high-end physically stable cinema, 35 mm natural perspective, smooth inertia, no jitter, no cut that moves objects or changes the hallway topology. If coverage is needed, maintain same axis and motivated viewpoint. Preserve the real size of a desktop system and Serega's hands.
-LIGHT / MATERIALS: matte etched stone, airborne dust lit by warm side shafts, dim bounce-lit chamber, greyed ABS computer plastic with age-yellowing and scratches, realistic CRT convex glass and inert black screen, no LEDs or backlit text.
-NATIVE AUDIO: dry wind fading into reverberant temple room tone, grit under boots, soft robe, stone scrape, dust brushing, faint plastic contact. No dialogue, off-screen speech, song, voiceover, narrator, score or audible machine startup.
-NEGATIVE: different man or robe, new location, impossible hall, weightless objects, morphing CRT, flat-screen, magic sigils, neon, glowing screen, hologram, powered-on gameplay, modern MacBook, extra characters, cats, cartoon comedy, giggling, subtitles, text added to image, flicker, handheld shake, wrong shadows, logo, watermark, black bars.
-END: dusty computer remains in place and off; adventure can continue with a separate carefully linked future scene.
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action cinema | Deadpan archaeological discovery in a Sith temple
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE SEREGA identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image2 — the same Sith-planet city and temple architecture already used for Scenes 33 and 34: red-ochre ancient masonry, eroded stone, orange sunset and modest dry dust. The exterior design may only be glimpsed through the existing entrance.
+@Video1 / @Image3 — the genuine end of approved-for-use Scene 34, not an imagined temple interior. They lock the current first interior hall, carved corridor entrance, camera side, sunlight direction, actual door position and physical geometry. Do not replace with fantasy statues, a vast new cathedral or a generic cave.
+Priority: @Video1 / @Image3 control the interior geometry and the starting frame. @Image2 controls architecture material, palette and light only. @Image1 controls identity only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): exact older pale human face, receding thin light hair, human anatomy and proportions, long dark-purple robe. No face averaging, costume change or invented jewellery. No new visible prop may spontaneously appear in his hands.
+
+STORY / PROP LOCK — CRITICAL:
+This is a serious archaeological adventure with a deadpan absurd find. Serega is alone, searching intentionally rather than looking into the camera.
+The dusty beige late-20th-century computer is an ordinary tangible object found in an ancient temple, not a magical CGI interface: an old beige desktop PC tower or horizontal case, a bulky grey-beige CRT monitor, a simple keyboard, coiled dusty cables. No modern flat monitor, RGB LEDs or futuristic holograms. Nothing automatically powers on.
+
+START STATE:
+Continue the exact final position and forward direction of Scene 34. Serega turns from the first chamber into a narrower accessible side passage, with the exterior light remaining geometrically consistent behind him. He keeps the same appearance and robe.
+
+TIMELINE:
+[0:00–0:05] — NOTICING THE RECESS
+Medium-wide stable continuation of the last frame from Scene 34. Serega pauses at the carved masonry and notices a narrow recess behind fallen stone. A restrained, observant expression; the camera glides laterally only enough to reveal the recess naturally.
+
+[0:05–0:11] — APPROACH
+He approaches along the same floor, slow deliberate boots over ancient grit. Tracking follows at shoulder height, passing one broken architectural support. A thin sunlight shaft from the known wall opening rakes through floating fine dust. Walls stay navigable and the scale believable.
+
+[0:11–0:17] — UNCOVERING
+Over the same shoulder, Serega carefully moves a small loose flat stone aside with both hands. The movement uncovers the corner of a rectangular beige object beneath cloth and dust. The reveal is mechanical and physically plausible, not a glowing portal or puzzle trap.
+
+[0:17–0:23] — THE COMPUTER REVEALED
+Smooth motivated three-quarter view, still spatially linked: Serega brushes dust from a bulky boxy CRT monitor on a stone shelf; below it a beige case and keyboard become visible in the same wide-enough composition. Keyboard and cables remain attached where visible; the computer does not morph between angles.
+
+[0:23–0:27] — DEADPAN BEWILDERMENT
+Close medium reaction on Serega: his intense explorer's concentration shifts into a tiny, utterly serious bewilderment. He looks from the monitor to the keyboard, but never laughs or winks. One authentic dry stone scrape and quiet shoe movement.
+
+[0:27–0:30] — FINAL COMPOSITION
+The camera drifts back to an attractive, readable archaeological still composition: Serega, the dusty old PC, CRT monitor and keyboard all in one spatially consistent shot. He reaches toward the keyboard but does NOT press the power button.
+
+END STATE:
+The dusty computer remains in place and off. The find is unresolved, suitable for the existing Warcraft/CRT story; the adventure can continue with a separate carefully linked future scene.
+
+CAMERA / SPACE:
+High-end physically stable cinema, 35 mm natural perspective, smooth inertia, no jitter, no cut that moves objects or changes the hallway topology. If coverage is needed, maintain the same axis and a motivated viewpoint. Preserve the real size of a desktop system and of Serega's hands.
+
+PERFORMANCE:
+Restrained, observant explorer; surprise is played dry and fully serious, never comedic acting. Serega never looks into the camera, never laughs or winks.
+
+LIGHTING / MATERIALS:
+Matte etched stone, airborne dust lit by warm side shafts, dim bounce-lit chamber, greyed ABS computer plastic with age-yellowing and scratches, realistic CRT convex glass and inert black screen. No LEDs or backlit text.
+
+AUDIO:
+Dry wind fading into reverberant temple room tone, grit under boots, soft robe, stone scrape, dust brushing, faint plastic contact. No dialogue, off-screen speech, song, voiceover, narrator, score or audible machine startup.
+
+NEGATIVE PROMPT:
+different man or robe, new location, impossible hall, weightless objects, morphing CRT, flat-screen, magic sigils, neon, glowing screen, hologram, powered-on gameplay, modern MacBook, extra characters, cats, cartoon comedy, giggling, subtitles, text added to image, flicker, handheld shake, wrong shadows, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -2100,25 +2141,63 @@ END: dusty computer remains in place and off; adventure can continue with a sepa
 **Что происходит:** После передачи карты Серёга без спешки поднимается со своего места, оставляя Пашу и Сашу в пещере, идёт к выходу и выходит на знакомую местность к своему транспорту. Концовка фиксирует подготовку к отлёту, сам полёт — в Scene 37.
 
 ```text
-MODE: reference-to-video | optimized for Wan 3.0 | duration 30s | 1080p | 16:9 | 24fps | native audio ON | realistic cinematic adventure.
-REFERENCES / HIERARCHY:
-@Image1 is the ABSOLUTE SEREGA/CHANCELLOR identity: exact pale older man, thinning light hair, deep dark-purple robe. Do not borrow accidental faces or costumes from scenery references.
-@Image2 and @Video1 are physical continuity of the SAME humid post-battle cavern from the finished Scene 17: wet layered rock, shallow water, echoes, waterfall-like noise, monster-remains seating, recognizable exit direction, moisture and cool bounce light. @Video1 final frame governs positions and which hand holds the map.
-@Image3 is the ABSOLUTE single map prop, including folded edges, markings, size, surface and material; never substitute a disk, book, glowing generic tablet or second map.
-@Video2 must be an actual approved Naboo departure transport shot from the existing film: exact shape, exterior geography and approach vector, rather than a newly invented generic spacecraft. If not provided, the render is NOT ready; defer instead of fabricating continuity.
-START LOCK: The LAST FRAME of completed Scene 17 is the beginning continuity authority. Serega is seated and HOLDS the one map after Pasha hands it over, Pasha and Sasha remain on separate monster remains. Do not replay the handoff, whisper or dialogue. Wet clothes and faces continue without reset. The defeated monster remains inert.
-STORY: Serega decides to leave after the encounter. Pasha and Sasha remain on Naboo and do NOT accompany him. No reconciliation dialogue, no new villain, no telepathic link to the forest group. A slight farewell gesture is enough.
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Realistic cinematic adventure | Serega leaves the cavern with the single map
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE SEREGA / CHANCELLOR identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image2 and @Video1 — physical continuity of the SAME humid post-battle cavern from the finished Scene 17: wet layered rock, shallow water, echoes, waterfall-like noise, monster-remains seating, recognizable exit direction, moisture and cool bounce light. The final frame of @Video1 governs positions and which hand holds the map.
+@Image3 — the ABSOLUTE single map prop, including folded edges, markings, size, surface and material. Never substitute a disk, book, glowing generic tablet or a second map.
+@Video2 — an actual approved Naboo departure transport shot from the existing film: exact shape, exterior geography and approach vector, rather than a newly invented generic spacecraft.
+Priority: the last frame of @Video1 controls starting positions and the map hand. @Image2 supports the cave look. @Image3 controls the map. @Video2 controls the transport. @Image1 controls Serega's identity only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA / CHANCELLOR: exact pale older man, thinning light hair, deep dark-purple robe. Do not borrow accidental faces or costumes from scenery references.
+PASHA and SASHA appear only in the opening beats and stay seated. Their faces, builds, clothes and wet look come exclusively from the last frame of @Video1 (the finished Scene 17); do not redesign them.
+
+STORY / START LOCK — CRITICAL:
+The LAST FRAME of the completed Scene 17 is the beginning continuity authority. Serega is seated and HOLDS the one map after Pasha has handed it over; Pasha and Sasha remain on separate monster remains. Do not replay the handoff, whisper or dialogue. Wet clothes and faces continue without reset. The defeated monster remains inert.
+Serega decides to leave after the encounter. Pasha and Sasha remain on Naboo and do NOT accompany him. No reconciliation dialogue, no new villain, no telepathic link to the forest group. A slight farewell gesture is enough.
+
+START STATE:
+Serega seated in the exact established three-shot, still exhausted, one map in his hand; Pasha and Sasha seated on their separate monster remains.
+
 TIMELINE:
-[00:00–00:06] Begin near the exact established three-shot, with everyone still exhausted. Serega looks briefly at the map in his hand, folds it only along its existing crease and secures it inside the same robe, visibly and safely. Pasha and Sasha watch silently.
-[00:06–00:12] Serega plants his feet onto firm wet stone and rises carefully from the separate monster section; the camera reveals his coherent weight shift. Pasha remains seated and Sasha remains seated. Serega gives a small, serious nod. They answer only with minimal eye movements, no spoken lines.
-[00:12–00:18] Follow Serega at his own walking speed along the cavern's previously established water edge toward the visible actual exit. The camera follows from behind three-quarter and keeps the seating area in believable perspective; no suddenly appearing staircases, no change in waterfall position.
-[00:18–00:24] A continuous motivated camera travel crosses the real cave opening; damp rock gives way gradually to the existing Naboo exterior light and terrain. His robe remains wet near the hem. Exposure adjusts naturally as outside light grows, with the cave opening still visible behind.
-[00:24–00:30] The same walking vector brings him toward the known transport seen in @Video2, parked consistently with pre-existing footage. Establish a clear but not rushed composition with him still approaching the boarding point, map secured, vehicle motionless. No instant takeoff or planetary cut. Save a matchable last frame for Scene 37.
-CAMERA / GEOGRAPHY: one smooth controlled 35 mm follow without arbitrary cuts, physical 3D spatial constraints, no abrupt change of screen direction, stable left/right identities, no digital zoom or micro-shake. Maintain believable cave-to-exterior gradient, scale and weather.
-PERFORMANCE: adult restrained tired movement after a difficult battle; no face drift, superhero swagger, parody acting or extra gesticulation.
-NATIVE AUDIO: wet steps and faint dripping, distant waterfall, fabric rustle, then natural outdoor wind; sound bed changes gradually as Serega emerges. No dialogue or narrator, no music, no audible coordinates.
-NEGATIVE: double map, missing map, flying map, extra characters, Pasha/Sasha following, changed man or purple robe, magical portal, wrong vehicle, invented landing platform, duplicated body seats, resurrected monster, new combat, inconsistent lighting, fake CG, jump cuts, subtitles, watermark, black bars, camera jitter.
-END STATE: only Serega is leaving, with the identical single map safely concealed; the agreed vehicle awaits in the original Naboo environment.
+[0:00–0:06] — THE MAP IS SECURED
+Begin near the exact established three-shot, with everyone still exhausted. Serega looks briefly at the map in his hand, folds it only along its existing crease and secures it inside the same robe, visibly and safely. Pasha and Sasha watch silently.
+
+[0:06–0:12] — SEREGA RISES
+Serega plants his feet onto firm wet stone and rises carefully from the separate monster section; the camera reveals his coherent weight shift. Pasha remains seated and Sasha remains seated. Serega gives a small, serious nod. They answer only with minimal eye movements, no spoken lines.
+
+[0:12–0:18] — WALK TO THE EXIT
+Follow Serega at his own walking speed along the cavern's previously established water edge toward the visible actual exit. The camera follows from behind three-quarter and keeps the seating area in believable perspective; no suddenly appearing staircases, no change in waterfall position.
+
+[0:18–0:24] — FROM CAVE TO DAYLIGHT
+A continuous motivated camera travel crosses the real cave opening; damp rock gives way gradually to the existing Naboo exterior light and terrain. His robe remains wet near the hem. Exposure adjusts naturally as outside light grows, with the cave opening still visible behind.
+
+[0:24–0:30] — APPROACH TO THE TRANSPORT
+The same walking vector brings him toward the known transport seen in @Video2, parked consistently with pre-existing footage. Establish a clear but not rushed composition with him still approaching the boarding point, map secured, vehicle motionless. No instant takeoff or planetary cut. Save a matchable last frame for Scene 37.
+
+END STATE:
+Only Serega is leaving, with the identical single map safely concealed in his robe; the agreed vehicle awaits in the original Naboo environment. The last frame is matchable for Scene 37.
+
+CAMERA / SPACE:
+One smooth controlled 35 mm follow without arbitrary cuts, physical 3D spatial constraints, no abrupt change of screen direction, stable left/right identities, no digital zoom or micro-shake. Maintain a believable cave-to-exterior gradient, scale and weather.
+
+PERFORMANCE:
+Adult, restrained, tired movement after a difficult battle; no face drift, superhero swagger, parody acting or extra gesticulation.
+
+LIGHTING / MATERIALS:
+Humid cool bounce light inside the cavern, wet rock and a wet robe hem; a gradual, natural exposure change to Naboo exterior light as Serega emerges, with the cave opening still visible behind him.
+
+AUDIO:
+Wet steps and faint dripping, distant waterfall, fabric rustle, then natural outdoor wind; the sound bed changes gradually as Serega emerges. No dialogue or narrator, no music, no audible coordinates.
+
+NEGATIVE PROMPT:
+double map, missing map, flying map, extra characters, Pasha/Sasha following, changed man or purple robe, magical portal, wrong vehicle, invented landing platform, duplicated body seats, resurrected monster, new combat, inconsistent lighting, fake CG, jump cuts, subtitles, watermark, black bars, camera jitter.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -2136,26 +2215,67 @@ END STATE: only Serega is leaving, with the identical single map safely conceale
 **Что происходит:** Серёга поднимается на известный корабль, взлетает, проходит через короткий космический переход и приближается к лесной планете. Лесные джедаи существуют в отдельной сюжетной линии; концовка показывает планету/её атмосферу и оставляет пространство для монтажной склейки к уже существующему лесному фрагменту.
 
 ```text
-MODE: reference-to-video | optimized for Wan 3.0 | duration 30s | 1080p | 16:9 | 24 fps | native sound ON | cinematic physically plausible planetary transfer.
-REFERENCE LOCK:
-@Image1 = absolute Serega facial/body identity, older pale Chancellor, thinning fair hair, same dark-purple robe.
-@Video1 = exact ending of newly generated Scene 36: specific actual Naboo exterior parking environment, exact transport craft model, hatch, geometry, camera side and Serega approach vector. Required before rendering.
-@Video2 = actual previously existing film shot containing the matching ship / known space travel design and a believable establishing planet view; preserves scale and finishes the transition without inventing new vehicle designs.
-@Video3 = actual existing editorial FIRST FOREST SHOT from the Kashyyyk/forest group. Use only as exact geographic/lighting/vegetation and final composition anchor, not as a license to shift the forest Jedi into Naboo cave scenes.
-@Image2 and @Image3 = exact identity reference ONLY IF these two men appear in the established forest source footage: BLACK / Vitalik and PURPLE / Lesha. They are a separate pair from NABOO'S Sasha/Pasha. No face blending or wardrobe swaps. Do not generate a new interaction among all five people.
-STORY CONTINUITY: The one physical map has already been received from Pasha by Serega in the completed scene and secured in his robe in Scene 36. It does NOT multiply, teleport to the forest Jedi or become a floating hologram. The forest storyline already exists independently; the proposed transfer establishes a geographic approach, not an assumed already-shot encounter or alliance.
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Cinematic, physically plausible planetary transfer | Serega flies to the forest planet
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE SEREGA identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Video1 — the exact ending of the newly generated Scene 36: the specific actual Naboo exterior parking environment, the exact transport craft model, hatch, geometry, camera side and Serega's approach vector.
+@Video2 — an actual previously existing film shot containing the matching ship / known space travel design and a believable establishing planet view. It preserves scale and finishes the transition without inventing new vehicle designs.
+@Video3 — the actual existing editorial FIRST FOREST SHOT of the Kashyyyk / forest group. Use it only as the exact geographic / lighting / vegetation and final-composition anchor, not as a license to shift the forest Jedi into Naboo cave scenes.
+@Image2 and @Image3 — exact identity references ONLY IF the two men appear in the established forest source footage: @Image2 = VITALIK (BLACK), @Image3 = LESHA (PURPLE).
+Priority: @Video1 controls the first frame, the ship and the departure site. @Video2 controls ship scale and travel design. @Video3 controls the forest destination. @Image1 controls Serega's identity only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA: older pale Chancellor, thinning fair hair, the same dark-purple robe, same facial and body identity.
+VITALIK (BLACK) — only if visible in the forest source footage: heavier build, black tunic with dark leather / armor panels, brown trousers, high boots. LESHA (PURPLE) — only if visible: mustache, purple inner tunic, long grey hooded robe, brown belt, light boots. They are a separate pair from NABOO'S Sasha/Pasha. No face blending or wardrobe swaps. Do not generate a new interaction among all five people.
+
+STORY / MAP CONTINUITY LOCK — CRITICAL:
+The one physical map has already been received from Pasha by Serega in the completed scene and secured in his robe in Scene 36. It does NOT multiply, teleport to the forest Jedi or become a floating hologram.
+The forest storyline already exists independently; the transfer establishes a geographic approach, not an assumed already-shot encounter or alliance.
+
+START STATE:
+The exact closing physical arrangement of Scene 36: Serega standing by the hatch of the same real transport, map secured in his robe.
+
 TIMELINE:
-[00:00–00:06] Begin in exactly the closing physical arrangement of Scene 36: Serega standing by the same real transport's hatch. He takes two steps, boards through a visible, mechanically plausible entry, and the hatch closes; identity, robe, distance and screen direction stay coherent.
-[00:06–00:12] One motivated exterior wide view shows the same full craft making a realistic vertical or shallow forward departure from the known location, dust/water and local vegetation reacting as appropriate. No vehicle redesign or instant switch from shuttle to fighter.
-[00:12–00:18] Cinematic forward-following shot as the craft ascends through atmospheric layers. The camera movement is stable and depicts a continuous navigable flight path; one concise time-compression edit is permitted between upper atmosphere and established deep-space travel, not within the launch itself.
-[00:18–00:23] Same ship passes through a restrained, short space travel beat. Keep the actual hull, exhaust behavior, proportions and flight direction. No overcrowded fleets, laser battle, explosion, magic warp doorway or new cockpit personalities.
-[00:23–00:27] A new planet becomes readable ahead: its cloud deck, wooded continental landforms and horizon should lead plausibly into the approved forest scene @Video3. Camera glides from behind the ship toward its approach vector, preserving orientation and lighting continuity.
-[00:27–00:30] Landward approach establishes the distinct forest planet and its biome. Hold enough of the foliage/geography composition to allow a clean cut into the already filmed BLACK/PURPLE forest story. Do not introduce a newly invented personal meeting, combat, speech or a contradictory landing. Preserve geographic ambiguity only where source footage itself requires it.
-CAMERA / EDIT: Stable 3D continuity, smooth inertial cinema, accurate perceived ship size; two motivated transitions allowed only for truly distant travel. No endless static warp montage, no jump discontinuity on a ship or person. Keep first and final visual states matchable to @Video1 and @Video3.
-LIGHT / PHYSICS: Natural Naboo daylight transitioning to space and then believable forest-atmosphere lighting. Real cloud haze, parallax and starfield, muted clean color grade compatible with the two neighboring scenes.
-NATIVE AUDIO: recognizable ship hatch/servo, engine ignition, air movement and low-frequency ascent vibration; low travel ambience, subtle atmospheric wind near destination. No songs, narrator, speech, subtitles, or crowd.
-NEGATIVE: wrong faces, a new craft, mismatch to @Video1, teleporting map, extra map, Pasha/Sasha in the forest, BLACK/PURPLE in the departing ship unless pre-existing source proves it, impossible instant landing, made-up planet landmarks, shiny game CGI, random flight direction flips, hard geometry morph, jitter, black bars, watermark.
-END: separate forest world visually established; reserve an exact-match final cut into real forest-group footage, NOT an invented reunion.
+[0:00–0:06] — BOARDING
+Serega takes two steps, boards through a visible, mechanically plausible entry, and the hatch closes. Identity, robe, distance and screen direction stay coherent.
+
+[0:06–0:12] — DEPARTURE
+One motivated exterior wide view shows the same full craft making a realistic vertical or shallow forward departure from the known location, dust / water and local vegetation reacting as appropriate. No vehicle redesign or instant switch from shuttle to fighter.
+
+[0:12–0:18] — ASCENT
+Cinematic forward-following shot as the craft ascends through atmospheric layers. The camera movement is stable and depicts a continuous navigable flight path; one concise time-compression edit is permitted between upper atmosphere and established deep-space travel, not within the launch itself.
+
+[0:18–0:23] — SPACE TRAVEL
+The same ship passes through a restrained, short space travel beat. Keep the actual hull, exhaust behavior, proportions and flight direction. No overcrowded fleets, laser battle, explosion, magic warp doorway or new cockpit personalities.
+
+[0:23–0:27] — THE FOREST PLANET
+A new planet becomes readable ahead: its cloud deck, wooded continental landforms and horizon lead plausibly into the approved forest scene @Video3. The camera glides from behind the ship toward its approach vector, preserving orientation and lighting continuity.
+
+[0:27–0:30] — APPROACH AND HOLD
+Landward approach establishes the distinct forest planet and its biome. Hold enough of the foliage / geography composition to allow a clean cut into the already filmed BLACK / PURPLE forest story. Do not introduce a newly invented personal meeting, combat, speech or a contradictory landing. Preserve geographic ambiguity only where the source footage itself requires it.
+
+END STATE:
+The separate forest world is visually established; the final frame is matchable for an exact-match cut into real forest-group footage, NOT an invented reunion.
+
+CAMERA / SPACE:
+Stable 3D continuity, smooth inertial cinema, accurate perceived ship size. Two motivated transitions are allowed only for truly distant travel. No endless static warp montage, no jump discontinuity on a ship or person. Keep the first and final visual states matchable to @Video1 and @Video3.
+
+PERFORMANCE:
+Serega boards calmly and purposefully with restrained adult movement; no superhero swagger, parody acting or extra gesticulation (the same level as Scene 36). No dialogue.
+
+LIGHTING / MATERIALS:
+Natural Naboo daylight transitioning to space and then to believable forest-atmosphere lighting. Real cloud haze, parallax and starfield, a muted clean color grade compatible with the two neighboring scenes.
+
+AUDIO:
+Recognizable ship hatch / servo, engine ignition, air movement and low-frequency ascent vibration; low travel ambience, subtle atmospheric wind near the destination. No songs, narrator, speech, subtitles or crowd.
+
+NEGATIVE PROMPT:
+wrong faces, a new craft, mismatch to @Video1, teleporting map, extra map, Pasha/Sasha in the forest, BLACK/PURPLE in the departing ship unless pre-existing source proves it, impossible instant landing, made-up planet landmarks, shiny game CGI, random flight direction flips, hard geometry morph, jitter, black bars, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -2174,28 +2294,66 @@ END: separate forest world visually established; reserve an exact-match final cu
 
 **Что происходит:** Серёга остаётся один перед раскрытой каменной нишей. С серьёзностью археолога он медленно обходит неподвижный старый компьютер, щурится в выпуклое тёмное стекло CRT, осторожно протирает угол экрана, осматривает пыльную клавиатуру и массивный бежевый корпус. Он узнаёт форму обычной земной техники, но не может понять, как она оказалась в этом древнем храме. Ирония исключительно в игре взглядов и несовместимости предметов; никаких комедийных спецэффектов, надписей и реплик. Завершение — выразительный полусредний кадр Серёги и всего неработающего комплекта, удобный для следующей сюжетной сцены.
 
+**Примечание к редакции (13.10.2026):** формат промта приведён к стандарту `PROMPT-STYLE-GUIDE` (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. В Topview по задаче `e948bd09e5d349448e0ff72fb3049d04` уже запущена предыдущая редакция текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 35–38»). Результат сравнивать с фактически запущенным текстом.
+
 ```text
-MODE: Wan 3.0 | reference-to-video | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | high-end photoreal live-action cinema.
-PERFORMER / IMMUTABLE IDENTITY:
-@Image1 is the absolute SEREGA appearance lock: exact older pale human Chancellor face, recognizable receding thin light hair, natural age/skin structure, long dark-purple robe/outer garment, same height and proportions as Scenes 33–35. Maintain the approved actor identity through profiles, over-the-shoulder framing, reflections and close shots. No younger face, no duplicate, no costume changes, no new weapon or accessory in his hands.
-REFERENCE OWNERSHIP / SET:
-@Video1 / @Image3 is the actual selected LAST FRAME of Scene 35 and absolutely defines the first frame, Serega position and gaze, dust layers, spatial arrangement of the PC, monitor, keyboard, stone shelf, nearest support, passage, incoming light direction and camera axis. Start from that frame rather than re-creating a different temple. @Image2 supplies only the established exterior world's red-ochre ancient masonry, dry dusty air and warm sunset light; it must not override the actual Scene 35 interior. @Image1 alone owns facial identity. If exact Scene 35 terminal frame is missing or unsuitable, do not invent continuity; stay DRAFT.
-OBJECT LOCK / PHYSICS:
-One SAME plausible late-1990s beige desktop/tower computer case, one bulky convex-glass grey-beige CRT monitor and one simple dusty wired keyboard, arranged in the EXACT SAME physical positions and orientation as the last shot of Scene 35. Their cables, yellowed plastic, dull buttons, scuffs, dust and sizes are stable. Serega can gently touch dust and keys, but must not unplug, carry, replace, shrink or levitate the equipment. No changing the monitor to a flat screen, no new additional machine, no magical sci-fi device, no glowing interface or spontaneous power-on. Black CRT screen reflects faint room light only, with no visible image or glyphs.
-START / DRAMATIC INTENTION:
-Directly continue the end of Scene 35: the computer has ALREADY BEEN FOUND and partly uncovered; Serega is at the original stone niche, one hand near the keyboard. No re-entry into the room, second reveal, new relic or montage time jump. The solemn explorer cautiously studies what looks absurdly familiar, playing puzzlement under an almost completely straight face. Light comedy from his reaction, never caricature.
-TIMED ACTION — 30s:
-[00:00–00:05] Hold a geometrically exact medium-wide match to Scene 35 ending: Serega by the same shelf, the black CRT, keyboard and beige case fully readable in one grounded composition. He freezes briefly at the incongruous find, eyes tracing the monitor's bulky outline. Stabilized dolly nudges closer without crossing the axis.
-[00:05–00:10] Motivated mid-over-shoulder camera follows his small lean toward the CRT. He examines the thick glass, old controls, pale scratches and dust rim; his near hand very carefully wipes a narrow strip of powder from the lower bezel. Dust follows gravity; fingertips visibly contact the plastic. Screen stays absolutely black.
-[00:10–00:16] Keep his profile and computer in the same spatial frame. Serega leans lower and reads the physical shape of the keyboard: a slow glance from cable to raised keys, an experimental touch of ONE ordinary key with his index finger. Key physically depresses and springs back, producing only a tiny mechanical tick. No chime, boot tone, text, power or mysterious response.
-[00:16–00:22] Short continuous shoulder-level drift, no new corridor or camera-side inversion: he examines the beige system unit's rough side panel, dust-caked ventilation and an unplugged-looking front opening, without reaching for power. He reacts to the ordinary age of the machine with subtle dawning recognition, then checks the impossible ancient stone surrounding it. All equipment stays where it was.
-[00:22–00:27] Medium reaction: eyes return from the stone relief to the lifeless CRT; a tiny raised eyebrow and restrained, incredulous exhale reveal dry humour. He looks once toward the passage he came from, then immediately back to the computer, still alone. No speech, laugh track or extra characters.
-[00:27–00:30] Smooth slow ease-out to a clear final connected three-quarter composition containing Serega's recognizable face, the inert old monitor, case, keyboard and the same cracked temple niche, framed with an unchanged warm light shaft. Serega rests his fingertips gently near (NOT on) the power control; freeze no magical result. Hold an edit-friendly final beat leading to a possible separate artifact/Warcraft reveal later.
-CAMERA / CONTINUITY: one plausible 3D set, natural 35mm lens perspective with restrained short 50mm inspection accents, fluid cinema dolly and focus pulls without perspective warping; positions of doorway, shelf, wall cracks, broken stone and sun shaft remain absolutely consistent. Prefer uninterrupted motivated motion and no discontinuous cuts. Smooth no shake or micro-jitter. No scale drift of hands, computer or temple.
-LIGHT / GRADE: same aged red-ochre masonry and dry particulate air as Scenes 33–35, low warm dusty sun beams from the established side, soft dark chamber fill, matte scratch detail on old plastic, dusty convex CRT glass catching only plausible inert reflections. Photochemical cinematic contrast, no blue sci-fi lighting, no horror jump effects.
-NATIVE SOUND: subdued dry temple ambience and faint far wind, cloth and feet, fine dust brush, soft fingertip on old plastic and SINGLE tactile keyboard-key click, small involuntary breath. No musical underscore, no narrator, no lip-sync dialogue, no machine fan, no power-on sound, no magic hum and no synthetic UI beeps.
-NEGATIVE: finding the computer again, teleporting to a second room, wrong face/robe, new castle, moving/rearranged/duplicated computer, floating keyboard, laptop, modern RGB gaming PC, LED text, CRT on/glowing/playing Warcraft, premature maps/artifacts, mystical portal, extra person/cats, giant hands, unrealistic close-up morphing, shifted camera axis, random jump cuts, shaky camera, cartoon acting, subtitles, captions, titles, logos, watermark, pillarbox or black bars.
-END: the SAME vintage computer remains dormant in the same niche; Serega is still quietly examining it; leave a clean continuation point. No generation authorized by this draft.
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | High-end photoreal live-action cinema | Serega inspects the ancient computer
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE SEREGA identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Video1 / @Image3 — the actual selected LAST FRAME of Scene 35; it absolutely defines the first frame, Serega's position and gaze, dust layers, the spatial arrangement of the PC, monitor, keyboard, stone shelf, nearest support, passage, incoming light direction and camera axis. Start from that frame rather than re-creating a different temple.
+@Image2 — supplies only the established exterior world's red-ochre ancient masonry, dry dusty air and warm sunset light; it must not override the actual Scene 35 interior.
+Priority: @Video1 / @Image3 control the set and the starting frame. @Image2 controls palette and architecture material only. @Image1 alone owns facial identity.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA: exact older pale human Chancellor face, recognizable receding thin light hair, natural age / skin structure, long dark-purple robe / outer garment, the same height and proportions as Scenes 33–35. Maintain the approved actor identity through profiles, over-the-shoulder framing, reflections and close shots. No younger face, no duplicate, no costume changes, no new weapon or accessory in his hands.
+
+OBJECT / PHYSICS LOCK — CRITICAL:
+One SAME plausible late-1990s beige desktop / tower computer case, one bulky convex-glass grey-beige CRT monitor and one simple dusty wired keyboard, in the EXACT SAME physical positions and orientation as the last shot of Scene 35. Their cables, yellowed plastic, dull buttons, scuffs, dust and sizes are stable. Serega can gently touch dust and keys, but must not unplug, carry, replace, shrink or levitate the equipment. No changing the monitor to a flat screen, no new additional machine, no magical sci-fi device, no glowing interface or spontaneous power-on. The black CRT screen reflects faint room light only, with no visible image or glyphs.
+
+START STATE:
+Directly continue the end of Scene 35: the computer has ALREADY BEEN FOUND and partly uncovered; Serega is at the original stone niche, one hand near the keyboard. No re-entry into the room, second reveal, new relic or montage time jump.
+
+TIMELINE:
+[0:00–0:05] — THE MATCH FRAME
+Hold a geometrically exact medium-wide match to the Scene 35 ending: Serega by the same shelf, the black CRT, keyboard and beige case fully readable in one grounded composition. He freezes briefly at the incongruous find, eyes tracing the monitor's bulky outline. A stabilized dolly nudges closer without crossing the axis.
+
+[0:05–0:10] — EXAMINING THE MONITOR
+Motivated mid over-the-shoulder camera follows his small lean toward the CRT. He examines the thick glass, old controls, pale scratches and dust rim; his near hand very carefully wipes a narrow strip of powder from the lower bezel. Dust follows gravity; fingertips visibly contact the plastic. The screen stays absolutely black.
+
+[0:10–0:16] — THE KEYBOARD
+Keep his profile and the computer in the same spatial frame. Serega leans lower and reads the physical shape of the keyboard: a slow glance from cable to raised keys, an experimental touch of ONE ordinary key with his index finger. The key physically depresses and springs back, producing only a tiny mechanical tick. No chime, boot tone, text, power or mysterious response.
+
+[0:16–0:22] — THE SYSTEM UNIT
+A short continuous shoulder-level drift, no new corridor or camera-side inversion: he examines the beige system unit's rough side panel, dust-caked ventilation and an unplugged-looking front opening, without reaching for power. He reacts to the ordinary age of the machine with subtle dawning recognition, then checks the impossible ancient stone surrounding it. All equipment stays where it was.
+
+[0:22–0:27] — INCREDULOUS REACTION
+Medium reaction: his eyes return from the stone relief to the lifeless CRT; a tiny raised eyebrow and a restrained, incredulous exhale reveal dry humour. He looks once toward the passage he came from, then immediately back to the computer, still alone. No speech, laugh track or extra characters.
+
+[0:27–0:30] — FINAL BEAT
+A smooth slow ease-out to a clear final connected three-quarter composition containing Serega's recognizable face, the inert old monitor, case, keyboard and the same cracked temple niche, framed with an unchanged warm light shaft. Serega rests his fingertips gently near (NOT on) the power control; no magical result. Hold an edit-friendly final beat leading to a possible separate artifact / Warcraft reveal later.
+
+END STATE:
+The SAME vintage computer remains dormant in the same niche; Serega is still quietly examining it. A clean continuation point is left.
+
+CAMERA / SPACE:
+One plausible 3D set, natural 35 mm lens perspective with restrained short 50 mm inspection accents, fluid cinema dolly and focus pulls without perspective warping. The positions of the doorway, shelf, wall cracks, broken stone and sun shaft remain absolutely consistent. Prefer uninterrupted motivated motion and no discontinuous cuts. Smooth, no shake or micro-jitter. No scale drift of hands, computer or temple.
+
+PERFORMANCE:
+The solemn explorer cautiously studies what looks absurdly familiar, playing puzzlement under an almost completely straight face. Light comedy comes from his reaction, never caricature. No cartoon acting.
+
+LIGHTING / MATERIALS:
+The same aged red-ochre masonry and dry particulate air as Scenes 33–35, low warm dusty sun beams from the established side, soft dark chamber fill, matte scratch detail on old plastic, dusty convex CRT glass catching only plausible inert reflections. Photochemical cinematic contrast, no blue sci-fi lighting, no horror jump effects.
+
+AUDIO:
+Subdued dry temple ambience and faint far wind, cloth and feet, fine dust brush, soft fingertip on old plastic and a SINGLE tactile keyboard-key click, a small involuntary breath. No musical underscore, no narrator, no lip-sync dialogue, no machine fan, no power-on sound, no magic hum and no synthetic UI beeps.
+
+NEGATIVE PROMPT:
+finding the computer again, teleporting to a second room, wrong face/robe, new castle, moving/rearranged/duplicated computer, floating keyboard, laptop, modern RGB gaming PC, LED text, CRT on/glowing/playing Warcraft, premature maps/artifacts, mystical portal, extra person/cats, giant hands, unrealistic close-up morphing, shifted camera axis, random jump cuts, shaky camera, cartoon acting, subtitles, captions, titles, logos, watermark, pillarbox or black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---

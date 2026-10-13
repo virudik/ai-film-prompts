@@ -1,1 +1,1 @@
-2026-10-12T00:02:03Z GitHub robot (owner panel): in_film сцена 20; in_film сцена 21; in_film сцена 26; SHA256 1302f3a4a421caba20b2ba04c0aeec40b5abe6d2f97e91461c3ad2aac2fe6189. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-13T20:01:19Z Claude (prompt format unification, Scenes 35-38 per PROMPT-STYLE-GUIDE); SHA256 253a20f50c46bc7b5277bd52801708021afd22251d0333b887a25bfe6b4d4d57. Sync exact master -> validator -> project-status -> GitHub Pages.
