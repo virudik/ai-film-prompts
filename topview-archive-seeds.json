@@ -1,7 +1,30 @@
 {
-  "schema_version": 1,
-  "notes": "Private user-owned Drive seed for one idempotent end-to-end archive test. Never overwrite unreserved mismatches.",
+  "schema_version": 2,
+  "description": "Owner-created raw-file slots for keyless Drive archive. Not a source of truth.",
   "by_task": {
     "3710685303634b2482b90581aa6a8a2b": "16YXhWAkhwwzNf0--4Mq0wr_rpb4zYJHc"
+  },
+  "pool_parent_id": "1goC9h_OwvPfSffaYRTKcFjT8c2pAg2jv",
+  "pool_slots": {
+    "reserved-slot-001.seed": "1u3trCQ3BCTrDKrPehLKuSVbjMgAABgLQ",
+    "reserved-slot-002.seed": "1b5-zDkEDzOuMk6vfObCEpXK-0TV8SBHD",
+    "reserved-slot-003.seed": "1luGU3ma6_RR_WYUOS4TOwDx5YsMCCInt",
+    "reserved-slot-004.seed": "1pnf37eNlkUBM721tLmCJCZzPzUgCGmdu",
+    "reserved-slot-005.seed": "1RE5dzMXCwjwiySqs0SV-mHpR9JJiw9c7",
+    "reserved-slot-006.seed": "1VM5jzLgCl4S_mQECqwZVXCsOqxVCYNrL",
+    "reserved-slot-007.seed": "1e4K8Y0eMovxMgxi24FnohGqtmlittFY6",
+    "reserved-slot-008.seed": "1oYtib-e03oq4fo2MEIrp8PshLhf_mSUp",
+    "reserved-slot-009.seed": "1wAov-EOkkMEUmWoT7Gk-2I1BZNego4Oz",
+    "reserved-slot-010.seed": "16tdCx_XzEBig_LypE7I5iRewZVDwki2c",
+    "reserved-slot-011.seed": "1ZRB0gwp6mthaxoKHuStzOjcw41l7frUF",
+    "reserved-slot-012.seed": "1M6yT7mWnTZGD2JzYwPLB9PmeopBrWQyO",
+    "reserved-slot-013.seed": "1EnW14-r1YJ9NX4dIE5KZhmEoMhT3pe4X",
+    "reserved-slot-014.seed": "1K4Q5MMOw0gLjBIDLxbXTbME2erNHOup6",
+    "reserved-slot-015.seed": "1ThfXyJRRhLE3xlcSmH8jmGFUZTc1RShG",
+    "reserved-slot-016.seed": "11fysg2cAvMnJUvRtM5Q92-aVD0lPDSnh",
+    "reserved-slot-017.seed": "1r-i4Jmw-Ag6IJVwzjyL35m442f1CiYjU",
+    "reserved-slot-018.seed": "1loPhc0ijEQVxzXZt0_fi45h6lgFNJ17v",
+    "reserved-slot-019.seed": "1uCTLx9-eeJBHMYhX-L3_KvYu54MsXT60",
+    "reserved-slot-020.seed": "1izIyYzTlPQAGkELv875dntoifEXDJuMY"
   }
 }

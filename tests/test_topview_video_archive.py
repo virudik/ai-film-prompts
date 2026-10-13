@@ -20,6 +20,16 @@ class ArchiveGuards(unittest.TestCase):
         self.assertEqual(a.candidates({"processed_tasks": items}, {"videos": {}}), [(24, good)])
         self.assertEqual(a.candidates({"processed_tasks": items}, {"videos": {good: {}}}), [])
 
+    def test_pool_selects_only_allowlisted_unmodified_owner_seed(self):
+        name = "reserved-slot-001.seed"
+        seed = {"pool_slots": {name: "known-id"}}
+        items = [{"id": "other-id", "name": name, "mimeType": "text/markdown",
+                  "parents": [a.POOL_PARENT], "size": "8270"}]
+        self.assertIsNone(a.choose_slot(items, seed))
+        items.append({"id": "known-id", "name": name, "mimeType": "text/markdown",
+                      "parents": [a.POOL_PARENT], "size": "8270"})
+        self.assertEqual(a.choose_slot(items, seed), "known-id")
+
     def test_preserves_versions_of_same_scene(self):
         t1, t2 = "1" * 32, "2" * 32
         rows = [{"task_id": t1, "scene_id": 27, "final_status": "success", "finished_at": "2026-10-11T01:00:00Z"},

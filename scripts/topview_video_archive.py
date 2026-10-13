@@ -26,6 +26,10 @@ DRIVE_API = "https://www.googleapis.com/drive/v3/files"
 DRIVE_UPLOAD = "https://www.googleapis.com/upload/drive/v3/files"
 AUTHORIZED_PARENT = "1mRBfoh5ljjINMWKolxG-ciRcitOp-VW6"  # existing shared folder
 ARCHIVE_FOLDER = "AI Film Generated Videos"
+# Twenty+ owner-owned, non-canonical seed files created with the Drive user's
+# OAuth; a WIF service account can update/move them, but cannot own new MP4
+# bytes (Google storageQuotaExceeded). Slots are tracked by ID in seeds JSON.
+POOL_PARENT = "1goC9h_OwvPfSffaYRTKcFjT8c2pAg2jv"
 INDEX = Path("topview-video-archive.json")
 TASK_MAP = Path("topview-task-map.json")
 CHUNK_SIZE = 8 * 1024 * 1024
@@ -124,6 +128,54 @@ def drive_list(s, parent, name):
     if data.get("nextPageToken"):
         raise RuntimeError("Ambiguous Drive result (pagination)")
     return data.get("files", [])
+
+
+def pool_slots(s):
+    r = s.get(DRIVE_API, params={
+        "q": f"'{POOL_PARENT}' in parents and trashed = false",
+        "pageSize": 100,
+        "fields": "nextPageToken,files(id,name,mimeType,size,parents,appProperties)",
+        "supportsAllDrives": "true", "includeItemsFromAllDrives": "true"
+    }, timeout=45)
+    r.raise_for_status()
+    out = r.json()
+    if out.get("nextPageToken"):
+        raise RuntimeError("Pool slots exceed first page, refusing unsafe partial scan")
+    return out.get("files", [])
+
+
+def choose_slot(items, seeds):
+    """Pick an exact preauthorized user-owned seed, never an arbitrary Drive file."""
+    reserved = seeds.get("pool_slots", {})
+    for item in sorted(items, key=lambda x: x.get("name", "")):
+        fid, name = item.get("id"), item.get("name")
+        if (reserved.get(name) == fid
+                and item.get("mimeType") == "text/markdown"
+                and POOL_PARENT in (item.get("parents") or [])
+                and 0 < int(item.get("size") or 0) <= 20_000
+                and not item.get("appProperties", {}).get("topview_task_id")):
+            return fid
+    return None
+
+
+def claim_slot(s, seeds, scene_folder, scene_id, tid):
+    fid = choose_slot(pool_slots(s), seeds)
+    if not fid:
+        raise RuntimeError("No preauthorized owner-owned Drive upload slots remain")
+    r = s.patch(DRIVE_API + "/" + fid,
+                params={"addParents": scene_folder, "removeParents": POOL_PARENT,
+                        "fields": "id,name,parents,appProperties",
+                        "supportsAllDrives": "true"},
+                json={"name": tid + ".mp4",
+                      "appProperties": {"topview_task_id": tid,
+                                        "scene_id": str(scene_id),
+                                        "source": "Topview", "archive_schema": "1"}},
+                timeout=45)
+    r.raise_for_status()
+    meta = r.json()
+    if meta.get("id") != fid or meta.get("name") != tid + ".mp4" or scene_folder not in meta.get("parents", []):
+        raise RuntimeError("User-owned Drive slot claim read-back mismatch")
+    return fid
 
 
 def folder(s, parent, name):
@@ -267,14 +319,20 @@ def run(limit, task_id=None):
                             int(already[0].get("size") or -1) != size):
                         # Never overwrite another user's file without a specific,
                         # pre-authorized user-owned Drive placeholder reservation.
-                        if seeds.get("by_task", {}).get(tid) != drive_id:
+                        is_reserved = (seeds.get("by_task", {}).get(tid) == drive_id
+                                       or (drive_id in seeds.get("pool_slots", {}).values()
+                                           and already[0].get("appProperties", {}).get("topview_task_id") == tid))
+                        if not is_reserved:
                             raise RuntimeError("Existing file mismatch and not reserved for this task")
                         phase = "drive_update_user_owned_seed"
                         drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size,
                                               existing_id=drive_id)
                 else:
-                    phase = "drive_upload"
-                    drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size)
+                    phase = "drive_claim_user_owned_slot"
+                    drive_id = claim_slot(s, seeds, scene_folder, scene_id, tid)
+                    phase = "drive_update_user_owned_slot"
+                    drive_id = upload_mp4(s, scene_folder, tid, scene_id, temp, size,
+                                          existing_id=drive_id)
                 phase = "drive_verify"
                 verified = verify(s, drive_id, scene_folder, tid, size, md5)
             # Index only verified successes. No signed Topview media URLs in git.
