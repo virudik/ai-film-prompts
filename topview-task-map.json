@@ -300,12 +300,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-13T17:52:06.640Z",
+  "last_scan_at": "2026-10-13T19:02:02.187Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-13T17:52:06.640Z",
+    "last_successful_scan_at": "2026-10-13T19:02:02.187Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -314,7 +314,7 @@
     "total_video_tasks": 399,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-13T11:52:06.640Z",
+    "overlap_from": "2026-10-13T13:02:02.187Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
     "project_board_total_video_tasks": 399,
@@ -334,7 +334,7 @@
       "1a6244cf1ae747ef847d949a80d6133c": 612
     },
     "scan_mode": "fast_path",
-    "last_light_scan_at": "2026-10-13T17:52:06.640Z"
+    "last_light_scan_at": "2026-10-13T19:02:02.187Z"
   },
   "note": "Light scan verified all 11 owned board counts, AI Film latest 100 video tasks, and direct reads of both known active task IDs. Scenes 35 and 38 remain init, unlimited and zero-credit. Physical capacity remains 2/6 with four free slots. Canonical slow is owner-controlled and unchanged.",
   "owner_controlled_slow": true
