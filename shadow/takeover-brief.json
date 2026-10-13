@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "pilot-1.0",
  "status": "SHADOW PILOT 09.10–16.10.2026 — NOT CANONICAL — do not use instead of the full takeover; fresh Drive canon always wins",
- "generated_at": "2026-10-13T18:13:49+00:00",
+ "generated_at": "2026-10-13T19:37:27+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "Drive canon/master → GitHub mirrors/status/Pages → Topview telemetry → Notion story/pointer → Library cache",
@@ -34,8 +34,8 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "cfb7464ff39bd6ca056e356ea655b1c4dc754b9668811bfd844c05ee6762a69a",
-   "bytes": 127799
+   "sha256": "546d7ae233aec9ed06340ecc5fc146347eb3b941521aec9c640fb91cf25514b9",
+   "bytes": 129419
   },
   {
    "file": "README-AI-SYNC.md",
