@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-13T14:55:50.880Z",
+  "checked_at": "2026-10-13T16:59:54.712Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -227,21 +227,20 @@
       "task_id": "4682335cffc24a339179845c2713c46e",
       "model": "Wan 3.0",
       "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
+      "topview_status": "success",
       "started_at": "2026-10-11T05:13:31Z",
-      "queue_count": 195,
-      "topview_estimated_wait_seconds": 3717,
-      "checked_at": "2026-10-13T14:55:50.880Z",
+      "queue_count": null,
+      "topview_estimated_wait_seconds": null,
+      "checked_at": "2026-10-13T16:59:54.712Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "normalized exact canonical prompt match",
-      "active_task_ids": [
-        "4682335cffc24a339179845c2713c46e"
-      ],
+      "active_task_ids": [],
       "attempt_task_ids": [
         "32a4df3b18714cde9c55f0281cc2dd41",
         "4682335cffc24a339179845c2713c46e"
-      ]
+      ],
+      "completed_at": "2026-10-13T16:07:41Z"
     },
     "32": {
       "scene_id": 32,
@@ -298,10 +297,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-11T19:19:35Z",
-      "queue_count": 955,
-      "topview_estimated_wait_seconds": 20997,
+      "queue_count": 1316,
+      "topview_estimated_wait_seconds": 31464,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T14:55:50.880Z",
+      "checked_at": "2026-10-13T16:59:54.712Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 35 prompt match",
       "active_task_ids": [
@@ -318,10 +317,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-12T01:16:27Z",
-      "queue_count": 1506,
-      "topview_estimated_wait_seconds": 38277,
+      "queue_count": 1782,
+      "topview_estimated_wait_seconds": 48743,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T14:55:50.880Z",
+      "checked_at": "2026-10-13T16:59:54.712Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 38 prompt match",
       "active_task_ids": [
@@ -332,7 +331,7 @@
       ]
     }
   },
-  "note": "All 11 owned board counts, AI Film latest 100 video tasks and all 3 known active tasks were checked directly. Scenes 31, 35 and 38 remain init in unlimited zero-credit mode. Physical occupancy remains 3/6; canonical slow remains owner-controlled and unchanged.",
+  "note": "All 11 owned board counts, AI Film latest 100 video tasks and all 3 previously known active tasks were checked directly. Scene 31 reached success at 2026-10-13T16:07:41Z. Scenes 35 and 38 remain init in unlimited zero-credit mode. Physical occupancy is now 2/6; canonical slow remains owner-controlled and unchanged.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -342,32 +341,14 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-13T08:56:45.000Z",
+    "three_view_checked_at": "2026-10-13T16:59:54.712Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 3,
-  "free_slots": 3,
+  "occupied_slots": 2,
+  "free_slots": 4,
   "active_tasks": [
-    {
-      "task_id": "4682335cffc24a339179845c2713c46e",
-      "scene_id": 31,
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "model": "Wan 3.0",
-      "model_id": "qwen-wan3.0-video",
-      "topview_status": "init",
-      "started_at": "2026-10-11T05:13:31Z",
-      "queue_count": 195,
-      "topview_estimated_wait_seconds": 3717,
-      "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T14:55:50.880Z",
-      "verified": true,
-      "mapping_confidence": "normalized exact canonical prompt match",
-      "unlimited": true,
-      "credits_cost": 0,
-      "use_unlimited_mode": true
-    },
     {
       "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
       "scene_id": 35,
@@ -376,10 +357,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-11T19:19:35Z",
-      "queue_count": 955,
-      "topview_estimated_wait_seconds": 20997,
+      "queue_count": 1316,
+      "topview_estimated_wait_seconds": 31464,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T14:55:50.880Z",
+      "checked_at": "2026-10-13T16:59:54.712Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 35 prompt match",
       "unlimited": true,
@@ -394,10 +375,10 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-12T01:16:27Z",
-      "queue_count": 1506,
-      "topview_estimated_wait_seconds": 38277,
+      "queue_count": 1782,
+      "topview_estimated_wait_seconds": 48743,
       "topview_estimated_process_seconds": null,
-      "checked_at": "2026-10-13T14:55:50.880Z",
+      "checked_at": "2026-10-13T16:59:54.712Z",
       "verified": true,
       "mapping_confidence": "exact canonical Scene 38 prompt match",
       "unlimited": true,
@@ -407,12 +388,12 @@
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-10-13T14:55:50.880Z",
+    "checked_at": "2026-10-13T16:59:54.712Z",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 100,
     "pages_scanned": 1,
     "scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification"
   },
-  "updated_at": "2026-10-13T14:55:50.880Z"
+  "updated_at": "2026-10-13T16:59:54.712Z"
 }
