@@ -165,3 +165,8 @@ for required in (
 for forbidden in ("now-done>21*864e5", "l&&l.reviewed===true"):
     if forbidden in html:
         raise SystemExit("Topview completed rows must never expire without owner decision: " + forbidden)
+
+# Verified Topview MP4 Drive backup links are separate from Topview deep links.
+for required in ("topview-video-archive.json?fresh=", "function archivedDriveUrl(taskId,sceneId){", "function syncArchivedSceneLinks(){", "💾 Drive ", "💾 MP4 ", "syncArchivedSceneLinks();"):
+    if required not in html:
+        raise SystemExit("Archived Drive MP4 link regression: " + required)

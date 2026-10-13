@@ -162,7 +162,7 @@ function fmtAge(min){if(!Number.isFinite(min))return 'нет данных';if(mi
 function safeHtml(html,thumbs=null){const doc=new DOMParser().parseFromString('<body>'+html+'</body>','text/html');doc.body.querySelectorAll('script,iframe,frame,object,embed,base,meta,link,form').forEach(n=>n.remove());doc.body.querySelectorAll('*').forEach(el=>{for(const a of [...el.attributes]){const n=a.name.toLowerCase(),v=a.value.replace(/[\u0000-\u0020]+/g,'').toLowerCase();if(n.startsWith('on')||n==='srcdoc'||((n==='href'||n==='src'||n==='xlink:href'||n==='action'||n==='formaction')&&(v.startsWith('javascript:')||v.startsWith('vbscript:')||v.startsWith('data:text/html'))))el.removeAttribute(a.name)}});if(thumbs)doc.body.querySelectorAll('img[src]').forEach(img=>{const src=img.getAttribute('src').split('#')[0].split('?')[0];const t=thumbs[src];if(t&&t.thumb){img.setAttribute('data-full',src);img.setAttribute('src',t.thumb);if(!img.getAttribute('decoding'))img.setAttribute('decoding','async')}});return doc.body.innerHTML}
 function armThumbFallback(root){root.querySelectorAll('img[data-full]').forEach(img=>img.addEventListener('error',()=>{if(img.dataset.full&&img.getAttribute('src')!==img.dataset.full)img.src=img.dataset.full},{once:true}))}
 const content=$('content'),toc=$('toc'),search=$('search'),clearSearch=$('clearSearch'),filters=$('filters'),resultCount=$('resultCount'),activeFilter=$('activeFilter'),noResults=$('noResults'),matchNote=$('matchNote');
-let status=null,topview=null,topviewTaskMap=null,runtimeTopview=null,sections=[],activeFilterKey='all',activeFilterValues=null,fingerprintText='';
+let status=null,topview=null,topviewTaskMap=null,topviewVideoArchive=null,runtimeTopview=null,sections=[],activeFilterKey='all',activeFilterValues=null,fingerprintText='';
 function applyTheme(theme){const t=theme==='light'?'light':'dark';document.documentElement.dataset.theme=t;try{localStorage.setItem('ai-film-theme',t)}catch{};document.querySelectorAll('[data-theme-choice]').forEach(b=>b.classList.toggle('active',b.dataset.themeChoice===t))}
 document.querySelectorAll('[data-theme-choice]').forEach(b=>b.addEventListener('click',()=>applyTheme(b.dataset.themeChoice)));applyTheme(document.documentElement.dataset.theme||'dark');
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
@@ -258,12 +258,39 @@ function sceneResultAttempts(sceneId,tv){
  }
  return [...seen.values()].sort((a,b)=>String(a.finished_at||'').localeCompare(String(b.finished_at||''))||String(a.task_id).localeCompare(String(b.task_id)));
 }
+function archivedDriveUrl(taskId,sceneId){
+ const entry=topviewVideoArchive?.videos?.[String(taskId)];
+ const id=String(entry?.file_id||'');
+ if(Number(entry?.scene_id)!==Number(sceneId)||!/^[A-Za-z0-9_-]{15,}$/.test(id))return null;
+ return 'https://drive.google.com/file/d/'+encodeURIComponent(id)+'/view';
+}
 function topviewResultLinks(sceneId,tv){
  const successes=sceneResultAttempts(sceneId,tv).filter(x=>x.status==='success');
  if(!successes.length)return '';
- return '<div class="tv-result-links">'+successes.map((x,i)=>
-  '<a target="_blank" rel="noopener noreferrer" title="Открыть получившийся ролик в своём Topview (для просмотра может потребоваться вход)" href="https://www.topview.ai/board/'+TOPVIEW_FILM_BOARD+'?tool-type=video-edit&amp;boardResultId='+x.task_id+'">▶ Версия '+(i+1)+'</a>'
- ).join(' · ')+'</div>';
+ return '<div class="tv-result-links">'+successes.map((x,i)=>{
+  const inTopview='<a target="_blank" rel="noopener noreferrer" title="Открыть получившийся ролик в своём Topview" href="https://www.topview.ai/board/'+TOPVIEW_FILM_BOARD+'?tool-type=video-edit&amp;boardResultId='+x.task_id+'">▶ Версия '+(i+1)+'</a>';
+  const url=archivedDriveUrl(x.task_id,sceneId);
+  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="Проверенная резервная копия MP4; может потребоваться вход в Google Drive" href="'+esc(url)+'">💾 Drive '+(i+1)+'</a>':'');
+ }).join(' · ')+'</div>';
+}
+function syncArchivedSceneLinks(){
+ sections.forEach(s=>{
+  if(s.sceneId===null)return;
+  const tools=s.head.nextElementSibling;
+  if(!tools?.classList?.contains('scene-tools'))return;
+  tools.querySelectorAll('a.scene-archive-link').forEach(el=>el.remove());
+  const successful=sceneResultAttempts(s.sceneId,topview).filter(x=>x.status==='success');
+  successful.forEach((v,i)=>{
+   const url=archivedDriveUrl(v.task_id,s.sceneId);
+   if(!url)return;
+   const link=document.createElement('a');
+   link.className='scene-chip scene-archive-link';
+   link.textContent='💾 MP4 '+(i+1);
+   link.href=url;link.target='_blank';link.rel='noopener noreferrer';
+   link.title='Проверенная резервная копия ролика в вашем Google Drive';
+   tools.appendChild(link);
+  });
+ });
 }
 function finishedTopviewRows(tv,titles){
  const active=new Set((runtimeTopview?.tasks||[]).map(x=>Number(x.scene_id)));
@@ -632,13 +659,13 @@ async function refreshPublishedTelemetry(){
  if(!telemetryContext||telemetryRefreshPending)return;
  telemetryRefreshPending=true;
  try{
-  const [tv,ledger,monitor,ci]=await Promise.all([fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  const [tv,ledger,monitor,ci,videoArchive]=await Promise.all([fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-video-archive.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
   const checked=Date.parse(tv?.checked_at||'');
   if(!Number.isFinite(checked)||!Array.isArray(tv.active_tasks))throw new Error('Некорректный статус Topview');
   if(checked<Date.parse(topview?.checked_at||''))return;
-  const c=telemetryContext;if(ledger)c.ledger=ledger;if(monitor)c.monitor=monitor;if(ci)c.ci=ci;
+  const c=telemetryContext;if(ledger)c.ledger=ledger;if(monitor)c.monitor=monitor;if(ci)c.ci=ci;if(videoArchive)topviewVideoArchive=videoArchive;
   renderStatus(c.s,tv,c.ci,c.instructions,c.masterHashMatches,c.monitor);
-  renderTopview(tv,c.md);renderNowView(c.s,tv,c.ledger,c.md);syncActiveSceneStatuses(tv);
+  renderTopview(tv,c.md);renderNowView(c.s,tv,c.ledger,c.md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();
   renderFilters();applyView();
  }catch(err){
   $('topviewChecked').textContent='⚠ Не удалось перечитать опубликованный статус. Последняя проверка: '+(topview?.checked_at?humanDate(topview.checked_at):'нет данных')+'. '+err.message;
@@ -656,8 +683,8 @@ function setSidebarWidth(px,persist=true){const w=Math.max(SIDEBAR_MIN,Math.min(
 try{const saved=Number(localStorage.getItem('ai-film-sidebar-width'));if(saved)setSidebarWidth(saved,false)}catch{}
 if(sideResize){let dragging=false;const move=e=>{if(!dragging)return;setSidebarWidth(e.clientX)};const stop=()=>{dragging=false;sideResize.classList.remove('dragging');document.body.style.userSelect='';window.removeEventListener('pointermove',move);window.removeEventListener('pointerup',stop)};sideResize.addEventListener('pointerdown',e=>{if(window.innerWidth<=820)return;dragging=true;sideResize.classList.add('dragging');document.body.style.userSelect='none';sideResize.setPointerCapture?.(e.pointerId);window.addEventListener('pointermove',move);window.addEventListener('pointerup',stop)});sideResize.addEventListener('dblclick',()=>setSidebarWidth(SIDEBAR_DEFAULT));sideResize.addEventListener('keydown',e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight'&&e.key!=='Home')return;e.preventDefault();const current=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--sidebar-width'))||SIDEBAR_DEFAULT;setSidebarWidth(e.key==='Home'?SIDEBAR_DEFAULT:current+(e.key==='ArrowRight'?10:-10))})}
 search.addEventListener('input',applyView);clearSearch.onclick=()=>{search.value='';search.focus();applyView()};search.addEventListener('keydown',e=>{if(e.key==='Escape'){search.value='';applyView()}if(e.key==='Enter'){const matches=sections.filter(s=>passesFilter(s)&&queryMatches(s,search.value.trim()));if(matches.length)jumpTo(matches[0].id)}});
-Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-task-map.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(async ([s,md,tv,instructionDetail,reviewLedger,ci,monitor,thumbManifest,taskMap])=>{
- topviewTaskMap=taskMap;
+Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('status HTTP '+r.status);return r.json()}),fetch('video-prompts.md?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('instruction-sync-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-task-map.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-video-archive.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]).then(async ([s,md,tv,instructionDetail,reviewLedger,ci,monitor,thumbManifest,taskMap,videoArchive])=>{
+ topviewTaskMap=taskMap;topviewVideoArchive=videoArchive;
  const bytes=new TextEncoder().encode(md);
  const digest=await crypto.subtle.digest('SHA-256',bytes);
  const masterHash=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
@@ -666,7 +693,7 @@ Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).t
  telemetryContext={s,md,ledger:reviewLedger,ci,monitor,instructions:instructionDetail,masterHashMatches};
  renderStatus(s,tv,ci,instructionDetail,masterHashMatches,monitor);
  if(!masterHashMatches)$('statusMessage').textContent='Загруженный master не соответствует project-status.json. Дождитесь успешной пересборки статуса; текущие данные нельзя считать согласованными.';
- marked.setOptions({gfm:true,breaks:false});content.innerHTML=safeHtml(marked.parse(md),thumbManifest?.items||null);armThumbFallback(content);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
+ marked.setOptions({gfm:true,breaks:false});content.innerHTML=safeHtml(marked.parse(md),thumbManifest?.items||null);armThumbFallback(content);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
 </script>
 <style>
 .fresh-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;position:relative;margin-top:8px}.fresh-row .freshness-line{margin-top:0}
