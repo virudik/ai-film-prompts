@@ -1,17 +1,15 @@
 ﻿# PROMPT-STYLE-GUIDE — единый стандарт видео-промтов
 
-> **ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ — 11.10.2026, 03:25 МСК (решение владельца).** С этого момента редактируемый канон — **GitHub `virudik/ai-film-prompts`, ветка `main`**: `video-prompts.md` и эти 7 инструкций. Google Drive (папка «AI Film Prompts Master», те же имена файлов) — **копия только для чтения**, обновляется периодически из GitHub; на Drive ничего не править. Любое более старое место ниже, где написано «Drive = editable master / canonical», «same-ID Drive write», «Drive → GitHub mirror», «сверка 7/7 Drive↔GitHub», читать так: правка = коммит в GitHub `main` (минимальный diff, `git pull --rebase` перед push) → для master `SYNC-TRIGGER.txt` → валидатор `project-status.health=ok` → Pages → проверка; после изменения инструкций — `python3 scripts/cert_github.py .`. GitHub больше не забирает master с Drive; если Drive-копию поправили вручную, workflow откроет issue `drive-drift`, и агент переносит правку в GitHub. Один писатель и защита от одновременной записи сохраняются (git отклоняет устаревший push; `monitor-role.json`). Ключ `GDRIVE_SA_KEY` теперь нужен только для автоматического обновления Drive-копии и не обязателен; компьютер владельца для правки канона не нужен.
+> **Источник истины (решение владельца 11.10.2026, 03:25 МСК).** Канон один — GitHub `virudik/ai-film-prompts`, ветка `main`: `video-prompts.md` и ровно 7 инструкций. Google Drive, Notion, Claude Project, ChatGPT Project и Library — резервные копии только для чтения (`BACKUP-AI-RUNBOOK.md`). Правка = минимальный коммит в `main` (пошаговые процедуры — `SYNC-RUNBOOK.md`). Свежий `main` всегда побеждает.
 
 
-## Операционный указатель — 06.10.2026
+## Операционный указатель
 
+Этот файл — стандарт написания промтов: качество, структура и происхождение (provenance) промтов. Кто пишет канон, роли мониторов, расписание, слоты Topview и процедуры записи — в `SYNC-RUNBOOK.md` и свежем `monitor-role.json`; здесь они не дублируются.
 
-Этот файл остаётся стандартом написания промтов. Действует схема двух мониторов с ОДНИМ писателем: основной Claude HH:10 и резервный ChatGPT «AI Film — единый монитор» HH:00 МСК, точные роли — свежий GitHub `monitor-role.json`. Автоматический failover после 180 мин (3 часов) отсутствия подтверждённого цикла основного, защита от конкурентной записи 50 мин, окно возврата основного 100 мин после цикла резерва. Только владелец меняет назначенные роли; failover и возврат выполняются автоматически. Старые Recovery и slot notifier намеренно архивированы. Схема расписаний и детальные правила — свежий Drive `SYNC-RUNBOOK.md`; исторические утверждения об одном мониторе ниже не действуют.
-
-
-**Версия:** 1.5  
-**Дата:** 13.10.2026 (добавлен единый шаблон §5А; схема мониторов в «Операционном указателе» ниже — история)  
-**Назначение:** обязательная специализированная инструкция для текущего редактора и любого следующего чата/сменщика AI Film Project.
+**Версия:** 2.1  
+**Редакция:** генеральная зачистка 14.10.2026 — служебные части (источник истины, процедура записи, мониторы) приведены к GitHub `main`; правила написания промтов не менялись. Включает всё из v1.5: §5А «Единый шаблон полного prompt» (13.10.2026) и правило 14.10.2026 об одной метке slow без технического хвоста (§4.1).  
+**Назначение:** обязательная специализированная инструкция для текущего редактора и любого следующего чата / сменщика AI Film Project.
 
 
 ## 1. Зачем существует этот файл
@@ -36,7 +34,7 @@
 
 
 1. fresh-read этот `PROMPT-STYLE-GUIDE.md`;
-2. fresh-read exact Drive `video-prompts.md`;
+2. `git pull` и чтение свежего `video-prompts.md` из `main`;
 3. открыть минимум 1–2 актуальные сцены master, наиболее близкие к задаче;
 4. проверить current Scene ID / engine / reference assignment;
 5. только затем писать новый prompt.
@@ -45,15 +43,15 @@
 Нельзя заменять этот full guide кратким пересказом из переписки или памятью предыдущего чата.
 
 
-Для добавления новой сцены не спрашивать номер, если его можно определить из проекта. Scene IDs стабильны; удалённые номера не переиспользуются. Новый ID = следующий ещё не использованный стабильный Scene ID после последнего известного ID проекта. На checkpoint 20.09.2026 после Scene 19 следующая новая сцена получила ID 20.
+Для добавления новой сцены не спрашивать номер, если его можно определить из проекта. Scene IDs стабильны; удалённые номера не переиспользуются. Новый ID = следующий ещё не использованный стабильный Scene ID после последнего известного ID проекта (`project-status.json.latest_scene` и список зарезервированных ID). Новую сцену из Topview-задачи заводят только с согласия владельца.
 
 
 ## 3. Источник истины и приоритеты
 
 
-- Единственный editable prompt master: Google Drive `video-prompts.md`.
-- Сначала выполняется fresh-read Drive master, затем правка.
-- Старые вложения, Library-копии и GitHub mirror не являются editable master.
+- Единственный prompt master: `video-prompts.md` в GitHub `main`.
+- Сначала `git pull` и чтение свежего master, затем правка.
+- Старые вложения и резервные копии (Drive, Library, Project) master не являются.
 - Текущая явная команда пользователя сильнее старых заметок и исторических snapshot-ов.
 - Approved model sheet сильнее визуального сходства случайного frame reference.
 - Не придумывать отсутствующие референсы, костюмы, имена файлов или номера сцен.
@@ -531,7 +529,7 @@ END STATE:
 - добавлять в prompt выдуманный reference;
 - превращать continuous scene в хаотичный montage без причины;
 - снимать slow после `success` одной попытки, если у той же сцены ещё есть другие active Topview tasks;
-- создавать `video-prompts-v2/final/copy` вместо same-ID edit.
+- создавать `video-prompts-v2/final/copy` вместо правки единственного master в `main`.
 
 
 Также это плохие практики:
@@ -597,7 +595,7 @@ END STATE:
 
 ### F. После записи
 - [ ] Обновлены map/counts/meta, если это требуется архитектурой.
-- [ ] Выполнена стандартная Drive → GitHub → validator/status → Pages проверка.
+- [ ] Выполнена стандартная проверка: свежий `git pull` → минимальный коммит в `main` → `SYNC-TRIGGER.txt` → валидатор (`project-status.json`, `health=ok`) → Pages → проверка.
 
 
 Если любой пункт A–E нарушен, prompt ещё не готов, даже если он выглядит длинным и «кинематографичным».
@@ -643,49 +641,33 @@ END STATE:
 
 ## 14. Documentation / handoff maintenance for prompt changes
 
+Prompt-writing standard — не отдельная статичная памятка. Если в ходе работы появляется новое повторяемое правило, которое должно действовать для будущих сцен (новый обязательный block, новый reference-priority rule, новое continuity / audio / camera правило, новая engine-specific практика), текущий редактор обязан в том же цикле:
 
-Prompt-writing standard — не отдельная статичная памятка. Если в ходе работы появляется новое повторяемое правило, которое должно действовать для будущих сцен (новый обязательный block, новый reference-priority rule, новое continuity/audio/camera правило, новая engine-specific практика), текущий редактор обязан в том же цикле:
+1. обновить **этот** `PROMPT-STYLE-GUIDE.md`;
+2. обновить релевантные `AI-PROJECT-GUIDE.md`, `USER-GUIDE.md`, `BACKUP-AI-RUNBOOK.md`;
+3. обновить `NEW-CHAT-HANDOFF.md`, если правило важно для takeover / текущего workflow;
+4. выполнить `python3 scripts/cert_github.py .`, тесты и push в `main`;
+5. обновить Notion-указатель, если правило меняет способ работы будущих чатов; резервные копии (Library и др.) — best-effort, `pending/stale` не блокирует.
 
+Не создавать `PROMPT-STYLE-GUIDE-v2/final/copy`: правится тот же файл в `main`.
 
-1. обновить **этот SAME Drive `PROMPT-STYLE-GUIDE.md`**;
-2. обновить relevant `AI-PROJECT-GUIDE.md`, `USER-GUIDE.md`, `BACKUP-AI-RUNBOOK.md`;
-3. обновить `NEW-CHAT-HANDOFF.md`, если правило важно для takeover/current workflow;
-4. exact-mirror Drive → GitHub;
-5. refresh `instruction-sync-status.json`;
-6. Library recovery refresh — best-effort/non-blocking; пропустить и отметить pending/stale, если потребуется интерактивное подтверждение владельца;
-7. update Notion operational pointer if rule changes how future chats should work.
-
-
-Не создавать `PROMPT-STYLE-GUIDE-v2/final/copy`. Правится тот же canonical Drive file ID `14VzE8DwjKIquGJWENci6rYWj_1xEn34d`.
-
-
-Snapshot examples ниже/выше — эталоны **сложности и структуры**, а не eternal current scene truth. Перед копированием решения всегда смотреть fresh master.
+Snapshot-примеры в этом файле — эталоны **сложности и структуры**, а не вечная правда о текущих сценах. Перед копированием решения всегда смотреть свежий master.
 
 
 ## 15. Definition of Done для prompt-work и передачи следующему чату
 
+Обычная новая или изменённая сцена считается записанной только после:
+1. свежий `git pull`, свежий guide + свежий master;
+2. промт master-level;
+3. минимальный коммит в `main`;
+4. согласованность оглавления / счётчиков / meta;
+5. `SYNC-TRIGGER.txt` → workflow `.github/workflows/sync-from-drive.yml` (`Sync canonical master`): валидатор и `project-status.json` (`health=ok`);
+6. Pages, если сцена отображается на Control Center;
+7. read-back и проверка.
 
-Обычная новая/изменённая сцена считается записанной только после:
-1. fresh guide + fresh master;
-2. master-level prompt;
-3. SAME-ID Drive write;
-4. TOC/count/meta consistency;
-5. Drive → GitHub sync;
-6. validator/status verification;
-7. Pages verification, если сцена отображается на Control Center.
+Если во время prompt-work появилось **новое повторяемое правило** для будущих сцен, это материальное изменение workflow. До завершения задачи: обновить этот `PROMPT-STYLE-GUIDE.md`, релевантные документы из семи, тот же `NEW-CHAT-HANDOFF.md`, выполнить `cert_github.py` и push; обновить Notion-указатель; резервные копии — best-effort, stale / pending Library не блокирует.
 
-
-Если во время prompt-work появилось **новое повторяемое правило**, которое должно действовать для будущих сцен, это уже material workflow change. Тогда до завершения задачи требуется:
-- обновить SAME `PROMPT-STYLE-GUIDE.md`;
-- обновить релевантные файлы seven-document takeover set;
-- обновить SAME `NEW-CHAT-HANDOFF.md`;
-- exact-mirror Drive → GitHub;
-- refresh `instruction-sync-status.json`;
-- обновить Notion operational pointer;
-- Library recovery refresh выполнять best-effort; stale/pending Library не блокирует завершение prompt-standard change при проверенных Drive/GitHub/instruction status/Notion.
-
-
-Следующий чат обязан знать: prompt style не хранится «в памяти прошлого чата». Он хранится здесь и в живом master. Если пользователь формулирует новую сцену кратко, задача редактора — самостоятельно развернуть её до принятого master-level формата, не заставляя пользователя повторно диктовать техническую структуру.
+Следующий чат обязан знать: prompt style не хранится «в памяти прошлого чата». Он хранится здесь и в живом master. Если владелец формулирует новую сцену кратко, задача редактора — самостоятельно развернуть её до принятого master-level формата, не заставляя повторно диктовать техническую структуру.
 
 
 ## 16. Имена персонажей → exact identity в prompt
@@ -773,7 +755,7 @@ Definition of Done для любого автономного prompt:
 ## 18. Imported Topview prompt: fidelity rule
 
 
-Когда новая сцена создана автоматикой из уже запущенной/готовой Topview video task, есть особое правило происхождения prompt:
+Когда новая сцена создана (только с согласия владельца) из уже запущенной/готовой Topview video task, есть особое правило происхождения prompt:
 
 
 - **actual prompt, реально отправленный в Topview, сохраняется verbatim** как source prompt этой imported scene;
@@ -789,7 +771,7 @@ Definition of Done для любого автономного prompt:
 ## 19. Prompt-quality проверки в daily deep audit
 
 
-Раз в 24 часа `AI Film Recovery Sync` внутри daily deep audit может **проверять** активные/new prompts на regression относительно этого guide.
+Раз в 24 часа суточная глубокая проверка монитора (`SYNC-RUNBOOK.md`) может **проверять** активные / новые промты на регрессию относительно этого guide.
 
 
 Проверять прежде всего:
@@ -806,7 +788,7 @@ Definition of Done для любого автономного prompt:
 Audit должен быть **семантическим**, а не тупым grep по одному заголовку. Отсутствие буквальной строки `CHARACTER APPEARANCE / IDENTITY LOCK` в legacy prompt не является само по себе дефектом, если equivalent identity lock реально присутствует и однозначен.
 
 
-Это audit, а не разрешение автоматически переписывать творческий prompt. Автоматически допустимы только однозначные механические/documentation fixes. Содержательное изменение сцены, диалога, режиссуры или approval требует обычного editor/user workflow. Deep-audit result записывается в `deep-audit-status.json`; Topview auto-intake остаётся отдельной automation.
+Это audit, а не разрешение автоматически переписывать творческий prompt. Автоматически допустимы только однозначные механические/documentation fixes. Содержательное изменение сцены, диалога, режиссуры или approval требует обычного editor/user workflow. Результат глубокой проверки записывается в `deep-audit-status.json`.
 
 
 ## 20. Место этой инструкции в takeover order
@@ -831,15 +813,9 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 Принцип: **подтверждённое улучшение prompt workflow должно стать частью канонического стандарта, а не памятью одного чата.**
 
 
-## LIBRARY RECOVERY — NON-BLOCKING / BEST-EFFORT — 24.09.2026
+## LIBRARY RECOVERY — best-effort, не блокирует
 
-
-- ChatGPT Library остаётся **recovery mirror/cache**, а не authority и не обязательный транзакционный слой.
-- Обязательный путь завершения material change: relevant SAME-ID Drive canonical docs/master → exact GitHub mirrors/status/validation/Pages где применимо → fresh `instruction-sync-status.json` → Notion operational pointer, если меняется будущий workflow.
-- Library refresh выполняется **best-effort**. Если запись возможна без интерактивного подтверждения владельца — обновить. Если интерфейс требует отдельное `Разрешить это изменение в Библиотеке?`, consent/permission недоступен automation или мобильное приложение даёт только `Try again` — **не блокировать работу, не повторять prompt и не просить владельца переключаться в браузер**. Зафиксировать `pending/stale` и продолжить.
-- `pending/stale` Library не делает проект non-green, не отменяет verified Drive/GitHub/Pages change и не запрещает сообщить о завершении основной работы. Нельзя только утверждать, что Library свежая, если она фактически не обновлена.
-- `AI Film Recovery Sync` / daily deep audit может повторить Library refresh позже, когда write доступен без нового интерактивного разрешения. Не создавать цикл повторных consent prompts.
-- На takeover stale/missing Library — информационный recovery warning only, пока доступны fresh Drive canonical sources и live GitHub status.
+Library — резервный кэш, не authority и не шаг завершения. Обновлять best-effort, без интерактивных подтверждений владельца; при запросе разрешения или «Try again» не блокировать работу, записать `pending/stale` и продолжить. Подробности — `SYNC-RUNBOOK.md`, раздел «LIBRARY RECOVERY».
 
 
 ## 30.09.2026 — Scene 26→27: пример reference authority и автономных split-промтов
@@ -847,7 +823,7 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 > **Частично устарело (пометка 10.10.2026).** Для Scene 26 действует блок 05.10.2026 ниже и fresh master: в кадре только Лучик и Рыжик, референс Серёги **не прикладывается**, `@Image4` = точная локация. Для Scenes 26–27 тонкий сухой non-volcanic particulate layer **обязателен** (запрет `drifting ash` ниже отменён). Mapping @Image1–@Image5 ниже действует только для Scene 27. Нумерацию референсов всегда брать из fresh master конкретной сцены.
 
 
-Это уточнение принципов стиля, а НЕ ещё один prompt master. Точные полные промты всегда брать из свежего same-ID Google Drive `video-prompts.md` (`1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`), а не из архивных чатов/Library. На момент документирования в master 14 активных сцен / 26 полных prompt-блоков; это историческое значение, не неизменный счётчик.
+Это уточнение принципов стиля, а НЕ ещё один prompt master. Точные полные промты всегда брать из свежего `video-prompts.md` в `main`, а не из архивных чатов и копий.
 
 
 - Scene 26: Wan 3, 30s, самостоятельный диалог-ультиматум, строгие Russian lip-sync / speaker ownership, продолжение в Scene 27.
@@ -860,7 +836,7 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 ## 05.10.2026 — обязательные правила после проверки Scenes 24–27
 
 
-Этот раздел **заменяет противоречащие ему формулировки блока 30.09.2026 для кошачьей ветки**. Полные актуальные prompts всегда брать только из fresh same-ID Drive `video-prompts.md`.
+Этот раздел **заменяет противоречащие ему формулировки блока 30.09.2026 для кошачьей ветки**. Полные актуальные prompts всегда брать только из свежего `video-prompts.md` в `main`.
 
 
 - **Разделяй pair continuity и exact environment/composition.** Общий парный референс персонажей не должен одновременно задавать интерьер. Если есть утверждённое фото кабины/локации, выделяй его отдельным `PRIMARY EXACT ... reference` с абсолютным authority для пространства, света, масштаба мебели/архитектуры и композиции.
@@ -873,33 +849,19 @@ Master/film-analysis/backlog, находящиеся в той же общей �
 - Technical success предыдущего render не означает approval и не разрешает rerun. Результат сначала оценивается человеком; confirmed lessons затем попадают в master и этот guide.
 
 
-## Scene Reference Pack automation — 07.10.2026
-
+## Scene Reference Pack automation — правила для промтов
 
 **Reference-first rule.** For every new or materially changed scene, determine the minimum reference set *before* final prompt preparation or a Topview submit: character identity sheets, exact location/environment, props, first/last continuity frames, and scene-specific pose/composition stills when they materially reduce ambiguity. Reuse approved assets first; do not regenerate a good approved still without a creative reason.
 
-
 **One-image QC loop.** Generate scene-specific stills one at a time. After every result, inspect identity, age, hair/fur, wardrobe, body proportions, character count, left/right geography, exact location geometry, lighting state and requested pose. If the result drifts, merges faces, duplicates characters, changes anatomy/costume/location or misses the pose, reject it and continue with an adjusted method. For multi-character scenes prefer verified small subgroups and then a final group; individual model sheets always outrank composition helpers for identity.
-
-
-**Save-before-next invariant.** The instant a still is accepted as useful, persist it *before* starting the next image: same Scene ID folder in Google Drive `Scene Reference Packs/Scene N — Reference Pack` (Scene 28 keeps its existing same-ID pack), Library recovery mirror `/AI Film/Scene Reference Packs/Scene N`, and GitHub/site when the still is actually used by the scene. The site must show used refs as compact thumbnails linking to the full file; never embed them full-size in a way that changes page scale.
-
-
-**Existing Topview scenes.** Do not ask the owner to re-upload inputs already available from Topview. Recover the exact task input images from live Board task metadata/S3 through the authorized Reference Bridge, record provenance in the scene pack manifest, and propose only additive replacements/improvements. Topview remains generation telemetry/provenance, not story authority.
-
-
-**Launch command contract.** `запускай сцену N` means: fresh-read canonical master/status -> resolve Scene N pack and prompt -> verify or create any genuinely required missing refs -> update reference mapping if necessary -> live Topview preflight (model/input mode, six-slot slow lock, unlimited-vs-credit path) -> submit the requested generation. Do not ask the user to re-send an already recoverable reference. Do not silently spend credits on helper-image generation: use a route verified as unlimited/zero-credit for that submit, or stop before submit and report the limitation. Technical success never means editorial approval.
-
-
-**Checkpoint rule for long work.** Treat `pack structure -> source recovery -> new reference generation/QC -> site publication -> canonical instructions/handoff/sync verification` as separate checkpoints. Persist every completed checkpoint before starting the next. If a chat/Work run ends, the successor reads the handoff and `scene-reference-plan` and resumes from the first incomplete checkpoint rather than restarting.
-
 
 **Prompt integration.** A prompt's `REFERENCES` section must distinguish identity authority, environment authority, prop authority, composition/pose helper and first/last-frame authority. A generated group/composition still must never silently become an identity authority. When a new approved still is adopted, update the scene's reference map and negative prompt against the failure it was designed to prevent.
 
+Нумерация `@ImageN` локальна для каждого автономного промта; роли задаются каноническими ролями, а не историческим именем файла `ImageN`.
 
-## Claude Code bootstrap adapter — 07.10.2026
+Сохранение кадров (`references/scenes/scene-N/` в `main`), восстановление входов из Topview, команда «запускай сцену N» (**генерация только по команде владельца, только безлимит через сайт Topview под входом владельца; платный путь MCP / Canvas запрещён, credits не тратить; технический `success` ≠ одобрение**) и контрольные точки — `SYNC-RUNBOOK.md`, раздел «Scene Reference Pack automation».
 
 
-- Repository-root `CLAUDE.md` may bootstrap Claude Code into this project, but it is not a prompt-authority document and not an eighth canonical instruction.
-- Before Claude Code writes or materially revises any prompt, it must complete the normal seven-document takeover and then fresh-read this guide, the exact Drive master, and 1–2 nearby current scenes.
-- If `CLAUDE.md` or any local repository context conflicts with this fresh guide/master, the fresh Drive sources win.
+## Claude Code bootstrap adapter
+
+Корневой `CLAUDE.md` запускает Claude Code в проекте, но не является документом-авторитетом по промтам и не восьмой инструкцией. Перед написанием или существенной переработкой любого промта Claude Code проходит обычный takeover из 7 документов и затем читает этот guide, свежий master и 1–2 близкие актуальные сцены. Если `CLAUDE.md` или локальный контекст конфликтует со свежим guide / master — побеждают свежие источники из `main`.

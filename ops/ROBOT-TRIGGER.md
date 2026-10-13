@@ -19,5 +19,5 @@
 - Принято GitHub: `select status_code, count(*) from net._http_response group by 1;` — 204.
 - Запуски: Actions → событие `workflow_dispatch`.
 - Остановить: `select cron.unschedule('<имя>');` или удалить токен в GitHub (Settings → Developer settings). Тогда остаётся расписание GitHub.
-- Если файл workflow переименуют (план зачистки: `sync-from-drive.yml` → `sync-master.yml`), задачу пересоздать с новым именем.
+- Задачи вызывают workflow по имени файла, поэтому файлы workflow не переименовывать (зачистка 14.10 переименование `sync-from-drive.yml` отменила). Если всё же переименуют — задачу в pg_cron пересоздать с новым именем в том же коммите.
 - Если триггер молчит больше 3 часов, сработает `monitor-alert` (D3).
