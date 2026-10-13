@@ -154,6 +154,8 @@ for required in (
     ".scene-videos{flex:0 0 100%",
     "videosRow(tools).appendChild(link)",
     "/^Правило владельца \\(11\\.10\\.2026\\)/",
+    "технически завершён|снят[аоы]? с учёта|завершил\\S* ошибкой|Редакционная приёмка отдельно",
+    "while(el.nextSibling)el.nextSibling.remove()",
     "el.textContent.includes('В МЕДЛЕННОЙ ГЕНЕРАЦИИ')){const br=el.previousElementSibling",
     "['owner_task','✎ Задача','',null]",
     "const TIP={",
