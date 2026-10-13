@@ -2,7 +2,35 @@
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
   "last_updated_at": "2026-10-14",
-  "active_work": [],
+  "active_work": [
+    {
+      "work_id": "CONTINUE-001",
+      "title": "Бесшовный переход между чатами AI Film",
+      "status": "in_progress",
+      "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
+      "verified_at": "2026-10-14",
+      "done": [
+        "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
+        "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
+        "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161"
+      ],
+      "next_actions": [
+        "Проверить новую команду «Продолжай» в отдельном Project-чате без ручного хендофа и сверить 10 инвариантов и zero-repeat questions",
+        "Обновить непосредственно Project Files через пользовательский интерфейс, потому что Project file-write API из текущего чата недоступен",
+        "После испытания обновить issue #9 и register; при ошибке полный D7 fallback"
+      ],
+      "constraints": [
+        "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
+        "Никогда не выдавать Project файлы за обновлённые без проверки"
+      ],
+      "canonical_refs": [
+        "NEW-CHAT-HANDOFF.md",
+        "ops/CONTINUE-PROTOCOL.md",
+        "shadow/takeover-brief.md",
+        "work-resume-register.json"
+      ]
+    }
+  ],
   "rules": [
     "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
     "No invented task completions, approvals, renders or background progress",
