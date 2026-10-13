@@ -162,6 +162,8 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertIn("link.textContent=\'▶ Ролик \'+(i+1)", html)
         self.assertIn("✅ Готово", html)
         self.assertIn("const DONE_ACTIONS=[['tv_drop_task','Не ждать'", html)
+        # ready (success) rows must not offer «Не ждать»; failed / pending rows keep it
+        self.assertIn("a==='tv_drop_task'&&tr.querySelector('.tv-status.success')", html)
         self.assertNotIn("now-done>21*864e5", html)
         self.assertNotIn("l&&l.reviewed===true", html)
 

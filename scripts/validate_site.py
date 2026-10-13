@@ -102,7 +102,7 @@ for required in (
     "tr.cells[1]?.appendChild(box)",
     ".topview-table .tv-scene .tv-scene-actions{display:flex;flex-wrap:nowrap;",
     ".topview-table .tv-scene .tv-scene-actions .owner-btn{flex:0 0 auto;white-space:nowrap}",
-    "(tr.dataset.finished?DONE_ACTIONS:TV_ACTIONS)",
+    "(tr.dataset.finished?DONE_ACTIONS.filter(([a])=>!(a==='tv_drop_task'&&tr.querySelector('.tv-status.success'))):TV_ACTIONS)",
 ):
     if required not in html:
         raise SystemExit("Topview owner button layout regression: "+required)
