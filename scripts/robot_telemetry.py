@@ -2,7 +2,8 @@
 """GitHub robot: publish REAL Topview telemetry (the work of the hourly AI monitor cycle) without an AI.
 
 Owner decision 13.10.2026: routine monitoring moves to the robot so the project does not depend on
-a Claude/ChatGPT schedule. Two modes (GitHub variable ROBOT_TELEMETRY, default `shadow`):
+a Claude/ChatGPT schedule. Two modes (GitHub variable ROBOT_TELEMETRY; the workflow defaults to `on` since the owner
+made the robot the primary writer on 13.10.2026, the CLI defaults to `shadow`):
 
   shadow  compute exactly what the robot WOULD publish and write only shadow/robot-cycle-preview.json
           (decision, reasons, would-be changes, a short event log). Nothing canonical is touched.
@@ -208,6 +209,25 @@ def plan_cycle(scan, root, now, *, resolver=None):
             plan["finish"].append({"scene": f["scene_id"], "task_id": f["task_id"], "model": model,
                                    "final_status": "success" if f["final_status"] == "success" else f["final_status"],
                                    "finished_utc": utc_label(f["finished_at"])})
+    # Repair: a master row still shows an active status although the task map already recorded the task as
+    # terminal (a cycle published telemetry but its master edit was lost). Deterministic: model from the row,
+    # status and time from the task map; the row stays canonical slow (only the owner's button clears it).
+    planned = {x["task_id"] for x in plan["finish"]}
+    proc_by_id = {p.get("task_id"): p for p in tm.get("processed_tasks", []) if p.get("task_id")}
+    repairs = []
+    for tid, row in rows.items():
+        p = proc_by_id.get(tid)
+        m = re.search(r"`(?:init|queued|running|processing)` · ([^|]+?) \|", row)
+        if not p or tid in planned or tid in cur or not m or mse.LABEL not in row:
+            continue
+        fs = str(p.get("final_status") or "").lower()
+        if fs not in TERMINAL and fs != mse.ABANDONED:
+            continue
+        repairs.append(tid)
+        plan["finish"].append({"scene": int(p.get("scene_id") or re.match(r"^\|\s*(\d+)", row).group(1)), "task_id": tid,
+                               "model": m.group(1).strip(), "final_status": fs,
+                               "finished_utc": utc_label(p.get("finished_at") or p.get("completed_at"))})
+    plan["occupied_slots"] = len(cur)      # physical Topview occupancy, not a count of master rows
     for f in finished:
         free = max(0, 6 - len(cur))
         events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
@@ -217,7 +237,7 @@ def plan_cycle(scan, root, now, *, resolver=None):
 
     if reasons:
         decision = "hold"
-    elif unchanged and age is not None and age < HEARTBEAT_MIN:
+    elif unchanged and not repairs and age is not None and age < HEARTBEAT_MIN:
         decision = "noop"
     else:
         decision = "publish"
@@ -244,6 +264,8 @@ def plan_cycle(scan, root, now, *, resolver=None):
                                "health": ps.get("health")}}
         if mode == "full":     # light keeps the totals of the last full scan (monitor_publish contract)
             cycle.update(boards=sc.get("boards"), pages=sc.get("pages_scanned"), video_tasks=sc.get("tasks_seen"))
+    if repairs:
+        changes["repaired_rows"] = sorted(repairs)
     return {"decision": decision, "reasons": reasons, "changes": changes, "cycle": cycle, "master_plan": plan,
             "events": events, "resolved_by_prompt": resolved, "age_minutes": None if age is None else round(age, 1)}
 
@@ -458,7 +480,8 @@ def run_on(root, scan, git, *, now, resolver, notifier):
         finally:
             for t in (cyc_path, tmp_master, tmp_status):
                 t.unlink(missing_ok=True)
-        summary = f"{len(cycle['active'])}/6 slots, +{len(plan['changes']['new'])} new, {len(plan['changes']['finished'])} finished"
+        summary = f"{len(cycle['active'])}/6 slots, +{len(plan['changes']['new'])} new, {len(plan['changes']['finished'])} finished" + (
+            f", {len(plan['changes']['repaired_rows'])} master rows repaired" if plan['changes'].get('repaired_rows') else "")
         commit = git.commit(f"GitHub robot: Topview telemetry — {summary}", sorted(set(files)))
         if commit is None:
             return 0
@@ -509,7 +532,7 @@ def main():
         changed = write_preview(root, scan, plan, now)
         print("::notice title=robot-telemetry-shadow::" + json.dumps(
             {"decision": plan["decision"], "reasons": plan["reasons"], "changes": plan["changes"],
-             "master_plan": {k: len(v) for k, v in plan["master_plan"].items()}}, ensure_ascii=False))
+             "master_plan": {k: len(v) if isinstance(v, list) else v for k, v in plan["master_plan"].items()}}, ensure_ascii=False))
         if changed and not may_commit:
             print("::notice title=robot-telemetry-shadow::preview written locally; commit/push only inside GitHub Actions")
         if changed and may_commit:

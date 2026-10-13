@@ -124,12 +124,18 @@ def apply_plan(t, plan, date):
         e = len(t) if e < 0 else e
         sec = t[s:e]
         marker = f"\n**{LABEL}**\n\n"
-        if is_slow and marker not in sec:
+        # an existing marker may carry a technical tail ("**LABEL** · Wan 3.0 · task ..."): never add a second one
+        marker_line = re.search(rf"\n\*\*{re.escape(LABEL)}\*\*[^\n]*\n\n", sec)
+        if is_slow and not marker_line:
             head_end = sec.index("\n", 1) + 1  # end of heading line
             sec = sec[:head_end] + marker + sec[head_end + 1:] if sec[head_end] == "\n" else sec[:head_end] + marker[1:] + sec[head_end:]
-        if not is_slow and marker in sec:
-            sec = sec.replace(marker, "\n", 1)
+        if not is_slow and marker_line:
+            sec = sec[:marker_line.start()] + "\n" + sec[marker_line.end():]
         if sid in finished_lines:
+            # idempotent: a task's technical line is written once even if the row is repaired later
+            finished_lines[sid] = [x for x in finished_lines[sid]
+                                   if not re.search(re.escape(x.split("` ", 1)[0]) + r"` (?:технически завершён|снята с учёта|завершился ошибкой)", sec)]
+        if finished_lines.get(sid):
             mm = sec.find("<!-- scene-meta:")
             me = sec.index("-->\n", mm) + 4 if mm >= 0 else sec.index("\n", 1) + 1
             ins = "".join("\n" + x + "\n" for x in finished_lines[sid])

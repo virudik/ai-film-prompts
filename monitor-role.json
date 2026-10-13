@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Two monitors, one writer. Whoever takes over after 180 min of primary silence becomes the primary (sticky takeover, owner decision 10.10.2026).",
-  "primary": "chatgpt",
-  "standby": "claude",
+  "primary": "robot",
+  "standby": "chatgpt",
   "set_by": "owner",
-  "set_at": "2026-10-11T11:00:00Z",
-  "reason": "Owner 11.10 13:59 MSK: Claude weekly limit nearly exhausted (reset Fri 16.10 07:00 MSK); Claude monitor paused, ChatGPT monitors and writes. Owner 13.10.2026: ChatGPT stays the writer past 16.10.2026 07:00 MSK until the GitHub robot is accepted as the telemetry writer (no fixed end date; the owner reviews it); Claude does not return as primary meanwhile.",
+  "set_at": "2026-10-13T20:50:41Z",
+  "reason": "Owner 13.10.2026 (~23:55 MSK): 'пускай робот всё делает' — the GitHub robot becomes the telemetry writer without the 1–2 day parallel check. ChatGPT is the standby (read-only while the robot is healthy; takes over by the sticky rule after 180 min without a verified healthy robot cycle). Claude monitor stays off.",
   "failover_after_minutes": 180,
   "collision_guard_minutes": 50,
   "monitors": {
@@ -29,8 +29,8 @@
       "schedule": "every 10 minutes, started by Supabase pg_cron (ops/ROBOT-TRIGGER.md)",
       "procedure": "ops/ROBOT-TELEMETRY.md",
       "commit_author": "github-actions[bot]",
-      "mode_variable": "ROBOT_TELEMETRY=shadow|on",
-      "status": "shadow (13.10.2026): not a writer until the owner switches primary to robot"
+      "mode_variable": "ROBOT_TELEMETRY=on (default when the variable is absent) | shadow (kill switch)",
+      "status": "on (13.10.2026, owner): primary writer; ROBOT_TELEMETRY defaults to on, set the variable to 'shadow' to stop it"
     }
   },
   "switch_command": "Owner says 'основной монитор — Claude' or 'основной монитор — ChatGPT'. Any agent then swaps primary/standby, sets set_at to the real time, commits this file.",
@@ -40,18 +40,18 @@
     "Automatic takeover: after 180 minutes without a verified completed primary cycle, the standby takes over and BECOMES the primary (owner decision 10.10.2026). There is no automatic return; the old primary is now the standby and takes over back only if the new primary is silent for 180 minutes.",
     "Nobody writes if the other monitor committed within collision_guard_minutes.",
     "The owner can still set the primary by command ('основной монитор — Claude / ChatGPT'): any agent swaps primary/standby, sets set_by=owner and set_at, commits.",
-    "ChatGPT is owner-authorized as writer. Owner 13.10.2026: ChatGPT stays the writer past 16.10.2026 07:00 MSK until the GitHub robot is accepted as the telemetry writer (no fixed end date; the owner reviews it). A background successful cycle must never be fabricated.",
-    "The GitHub robot is a third named writer (13.10.2026). It runs real telemetry only while primary == robot AND GitHub variable ROBOT_TELEMETRY=on; it never takes over by silence. If the robot is primary and has no VERIFIED healthy cycle for 180 minutes, the standby takes over by the usual sticky rule."
+    "ChatGPT is owner-authorized as writer and is now the STANDBY (owner 13.10.2026: the GitHub robot is the primary). While the robot is healthy ChatGPT only reads (skip); it takes over only by the 180-minute sticky rule. A background successful cycle must never be fabricated.",
+    "The GitHub robot is a third named writer (13.10.2026) and the primary since the owner's decision 13.10.2026. It runs real telemetry only while primary == robot AND ROBOT_TELEMETRY != shadow (default on); it never takes over by silence. If the robot is primary and has no VERIFIED healthy cycle for 180 minutes, the standby takes over by the usual sticky rule; the robot then stays silent until an owner command makes it primary again."
   ],
   "failover_policy_updated_at": "2026-10-10T17:20:00Z",
   "standby_yield_minutes": 0,
   "migration_state": {
     "issue": 12,
     "chatgpt_writer_eligible": true,
-    "reason": "Owner explicitly authorized the ChatGPT writer (11.10) and extended it on 13.10.2026 beyond 16 Oct 07:00 MSK until the GitHub robot takes over; scheduled-write cycles are proven by automation-monitor-status.json.",
+    "reason": "Owner authorized the ChatGPT writer (11.10); since 13.10.2026 it is the standby behind the GitHub robot; scheduled-write cycles are proven by automation-monitor-status.json.",
     "legacy_chatgpt_monitor_disabled": true,
     "migration_outcome": "temporary_owner_authorization_background_full_cycle_unverified",
     "closed_issue": 12,
-    "writer_authorization": "Owner 11.10 13:59 MSK: ChatGPT is the writer. Extended by the owner 13.10: no fixed end; until the GitHub robot takes over telemetry (ops/ROBOT-TELEMETRY.md). Claude returns as primary only on a new owner command."
+    "writer_authorization": "Owner 11.10 13:59 MSK: ChatGPT is the writer. 13.10.2026: the owner made the GitHub robot the primary writer; ChatGPT is the standby with takeover rights (180 min). Claude returns as primary only on a new owner command."
   }
 }

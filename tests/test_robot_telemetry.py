@@ -65,7 +65,8 @@ class PlanTests(Base):
     def test_unchanged_but_old_telemetry_is_refreshed_by_heartbeat(self):
         p = self.plan(scan(steady()), now=T0_PLUS_2H)
         self.assertEqual(p["decision"], "publish")
-        self.assertEqual(p["master_plan"], {"add": [], "finish": []})
+        self.assertEqual((p["master_plan"]["add"], p["master_plan"]["finish"]), ([], []))
+        self.assertEqual(p["master_plan"]["occupied_slots"], 1)
         self.assertEqual(p["cycle"]["active"][0]["task_id"], fx.ACTIVE_TASK)
         self.assertEqual(p["cycle"]["active"][0]["model_id"], "qwen-wan3.0-video")
         self.assertEqual(p["cycle"]["active"][0]["started_at"], "2026-10-11T09:30:00Z")
@@ -85,7 +86,7 @@ class PlanTests(Base):
     def test_status_change_publishes_without_master_edit(self):
         p = self.plan(scan([active(fx.ACTIVE_TASK, 30, "queued")]))
         self.assertEqual((p["decision"], p["changes"]["status_changed"]), ("publish", [fx.ACTIVE_TASK]))
-        self.assertEqual(p["master_plan"], {"add": [], "finish": []})
+        self.assertEqual((p["master_plan"]["add"], p["master_plan"]["finish"]), ([], []))
 
     def test_terminal_result_keeps_slow_and_plans_finish_line(self):
         fin = [{"task_id": fx.ACTIVE_TASK, "scene_id": 30, "final_status": "success", "completed_at": "2026-10-11 10:05:00",
@@ -142,6 +143,22 @@ class PlanTests(Base):
     def test_non_unlimited_tasks_do_not_take_slots(self):
         p = self.plan(scan(steady() + [active(NEW_TASK, 24, "init", unlimited=False)]), now=T0_PLUS_2H)
         self.assertEqual([a["task_id"] for a in p["cycle"]["active"]], [fx.ACTIVE_TASK])
+
+
+class MasterEditTests(Base):
+    def test_marker_with_technical_tail_is_not_doubled(self):
+        import master_slow_edit as mse
+        master = (self.work / "video-prompts.md").read_text(encoding="utf-8")
+        tail = f"**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** · Wan 3.0 · task `{fx.ACTIVE_TASK}` (`init`, unlimited 0 credits). Редакционная приёмка отдельно.\n\n"
+        s = master.index("\n## Сцена 30 —")
+        master = master[:s] + master[s:].replace("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**\n\n", tail, 1)
+        plan = {"finish": [{"scene": 30, "task_id": fx.ACTIVE_TASK, "model": "Wan 3.0", "final_status": "success",
+                            "finished_utc": "11.10.2026 10:05:00 UTC"}], "occupied_slots": 0}
+        out, _ = mse.apply_plan(master, plan, "11.10.2026")
+        sec = out[out.index("\n## Сцена 30 —"):]
+        self.assertEqual(sec.count("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**"), 1)
+        again, _ = mse.apply_plan(out.replace("✅ Технический результат получен · `success`", "`running`"), plan, "11.10.2026")
+        self.assertEqual(again[again.index("\n## Сцена 30 —"):].count("технически завершён"), 1)
 
 
 class RoleTests(Base):
@@ -229,6 +246,32 @@ class PublishTests(Base):
         self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 5, tzinfo=timezone.utc)), 0)
         self.assertEqual(len(self.n.posts), 1)
         self.assertEqual(self.head(), before)
+
+    def test_stale_active_row_of_an_already_processed_task_is_repaired_once(self):
+        # 13.10.2026: telemetry recorded the result, but the master row still said `running`
+        tm = self.load("topview-task-map.json")
+        tm["processed_tasks"].append({"task_id": fx.ACTIVE_TASK, "scene_id": 30, "final_status": "success",
+                                      "finished_at": "2026-10-11T10:20:00Z"})
+        tm["active_by_scene"] = {}
+        (self.work / "topview-task-map.json").write_text(json.dumps(tm, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        ts = self.load("topview-status.json")
+        ts["active_tasks"], ts["checked_at"] = [], "2026-10-11T11:50:00Z"
+        (self.work / "topview-status.json").write_text(json.dumps(ts, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        fx.git(self.work, "commit", "-qam", "result already recorded, master row stale")
+        fx.git(self.work, "push", "-q", "origin", "main")
+        p = rt.plan_cycle(scan([]), self.work, T0_PLUS_2H)
+        self.assertEqual((p["decision"], p["changes"].get("repaired_rows")), ("publish", [fx.ACTIVE_TASK]))
+        self.assertEqual(self.go(scan([])), 0)
+        master = (self.work / "video-prompts.md").read_text(encoding="utf-8")
+        row = next(l for l in master.split("\n") if f"task `{fx.ACTIVE_TASK}`" in l and l.startswith("| 30"))
+        self.assertIn("Технический результат получен", row)
+        self.assertNotIn("`running`", row)
+        self.assertIn("**0 активных Topview-задач / 0 занятых слотов из 6**", master)   # physical slots, not rows
+        sec = master[master.index("\n## Сцена 30 —"):]
+        self.assertEqual(sec.count("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**"), 1)                 # marker kept, never doubled
+        self.assertEqual(sec.count(f"task `{fx.ACTIVE_TASK}` технически завершён"), 1)
+        self.assertEqual(self.load("project-status.json")["health"], "ok")
+        self.assertEqual(rt.plan_cycle(scan([]), self.work, T0_PLUS_2H)["changes"].get("repaired_rows"), None)
 
     def test_not_the_writer_means_no_write(self):
         write_role(self.work, primary="chatgpt", standby="claude")
