@@ -1,5 +1,7 @@
 ﻿# README-AI-SYNC v4.0
 
+> **13.10.2026 — автоархив Topview MP4 в Drive:** отдельный workflow `topview-video-archive.yml` копирует готовые ролики в приватную Drive-папку и пишет в git только метаданные (`topview-video-archive.json`). Не канон, не approval, не влияет на slow. Подробности: верхний блок `NEW-CHAT-HANDOFF.md`, `ops/TOPVIEW-VIDEO-ARCHIVE.md`.
+
 > **ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ — 11.10.2026, 03:25 МСК (решение владельца).** С этого момента редактируемый канон — **GitHub `virudik/ai-film-prompts`, ветка `main`**: `video-prompts.md` и эти 7 инструкций. Google Drive (папка «AI Film Prompts Master», те же имена файлов) — **копия только для чтения**, обновляется периодически из GitHub; на Drive ничего не править. Любое более старое место ниже, где написано «Drive = editable master / canonical», «same-ID Drive write», «Drive → GitHub mirror», «сверка 7/7 Drive↔GitHub», читать так: правка = коммит в GitHub `main` (минимальный diff, `git pull --rebase` перед push) → для master `SYNC-TRIGGER.txt` → валидатор `project-status.health=ok` → Pages → проверка; после изменения инструкций — `python3 scripts/cert_github.py .`. GitHub больше не забирает master с Drive; если Drive-копию поправили вручную, workflow откроет issue `drive-drift`, и агент переносит правку в GitHub. Один писатель и защита от одновременной записи сохраняются (git отклоняет устаревший push; `monitor-role.json`). Ключ `GDRIVE_SA_KEY` теперь нужен только для автоматического обновления Drive-копии и не обязателен; компьютер владельца для правки канона не нужен.
 
 

@@ -1,6 +1,6 @@
 # Topview completed video archive — private Drive backup
 
-**Status:** implementation installed 13.10.2026; confirm successful GitHub Actions run and Drive read-back before claiming the service is operational.
+**Status (13.10.2026):** operating. Workflow runs #4 and #5 succeeded; `topview-video-archive.json` holds 2 verified videos (Scene 30, Scene 27) with Drive read-back (size + MD5). Still open (issue #16): two versions of one scene not yet shown; owner has not yet confirmed playback in their own Drive; no Drive links on the site yet. **Upload slots are finite:** the service account cannot own new MP4 bytes (403 `storageQuotaExceeded`), so each video is written into one pre-created owner-owned placeholder listed in `topview-archive-seeds.json` (20 pool slots; at least 19 free on 13.10 against 41 pending successful tasks). When the pool is exhausted the run fails with "No preauthorized owner-owned Drive upload slots remain" - owner decision: create more placeholders (add IDs to the seeds file) or choose other storage. Do not weaken IAM or add keys. Full description: `NEW-CHAT-HANDOFF.md`, block "АВТОАРХИВ ГОТОВЫХ MP4 В DRIVE".
 
 GitHub Actions workflow: `.github/workflows/topview-video-archive.yml`; program: `scripts/topview_video_archive.py`; verified index: `topview-video-archive.json`.
 
