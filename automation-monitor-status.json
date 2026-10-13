@@ -47,7 +47,7 @@
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
-    "last_notified_at": "2026-10-13T07:00:09.454Z",
+    "last_notified_at": "2026-10-13T12:02:44.955Z",
     "last_observed_free_slots": 3,
     "observed_active_task_ids": [
       "4682335cffc24a339179845c2713c46e",
@@ -59,13 +59,14 @@
         "type": "github_workflow_evidence_unavailable",
         "detected_at": "2026-10-13T12:02:14.568Z",
         "consecutive_degraded_cycles": 1,
-        "reason": "GitHub fetch_commit_workflow_runs returned no CI/Pages runs for the telemetry checkpoint commit; public site itself is current."
+        "reason": "GitHub fetch_commit_workflow_runs returned no CI/Pages runs for the telemetry checkpoint commit; public site itself is current.",
+        "owner_notified_at": "2026-10-13T12:02:44.955Z"
       }
     ],
     "last_message_event": {
-      "type": "topview_completion_and_free_slot",
-      "observed_at": "2026-10-13T06:55:30.000Z",
-      "issue": "Scene 30 reached technical success and released one additional physical Topview slot. Three tasks remain active; canonical slow Scene 30 remains pending owner decision.",
+      "type": "monitor_regression_alert",
+      "observed_at": "2026-10-13T12:02:44.955Z",
+      "issue": "No confirmed healthy primary-monitor cycle for more than 3 hours after recovery. Current scheduled cycle is degraded because GitHub exposed no CI/Pages workflow-run evidence for the telemetry checkpoint, while public telemetry itself is current at 3/6.",
       "delivery": "chat_result_this_run"
     },
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status."
