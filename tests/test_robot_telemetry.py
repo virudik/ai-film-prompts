@@ -157,6 +157,11 @@ class MasterEditTests(Base):
         out, _ = mse.apply_plan(master, plan, "11.10.2026")
         sec = out[out.index("\n## Сцена 30 —"):]
         self.assertEqual(sec.count("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**"), 1)
+        self.assertIn("\n**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**\n\n", sec)                 # plain marker, stale tail dropped
+        self.assertNotIn("unlimited 0 credits", sec)
+        doubled = master[:s] + master[s:].replace(tail, tail + "**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**\n\n", 1)
+        out2, _ = mse.apply_plan(doubled, plan, "11.10.2026")
+        self.assertEqual(out2[out2.index("\n## Сцена 30 —"):].count("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**"), 1)
         again, _ = mse.apply_plan(out.replace("✅ Технический результат получен · `success`", "`running`"), plan, "11.10.2026")
         self.assertEqual(again[again.index("\n## Сцена 30 —"):].count("технически завершён"), 1)
 

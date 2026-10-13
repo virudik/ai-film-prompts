@@ -156,6 +156,8 @@ for required in (
     "/^Правило владельца \\(11\\.10\\.2026\\)/",
     "технически завершён|снят[аоы]? с учёта|завершил\\S* ошибкой|Редакционная приёмка отдельно",
     "while(el.nextSibling)el.nextSibling.remove()",
+    "mk.push(...n.querySelectorAll('strong.slow-status'))",
+    "m0.textContent='✅ ГОТОВО — ждёт решения владельца'",
     "el.textContent.includes('В МЕДЛЕННОЙ ГЕНЕРАЦИИ')){const br=el.previousElementSibling",
     "['owner_task','✎ Задача','',null]",
     "const TIP={",

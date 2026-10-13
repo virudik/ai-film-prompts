@@ -124,8 +124,15 @@ def apply_plan(t, plan, date):
         e = len(t) if e < 0 else e
         sec = t[s:e]
         marker = f"\n**{LABEL}**\n\n"
-        # an existing marker may carry a technical tail ("**LABEL** · Wan 3.0 · task ..."): never add a second one
-        marker_line = re.search(rf"\n\*\*{re.escape(LABEL)}\*\*[^\n]*\n\n", sec)
+        # Exactly one PLAIN marker per slow scene (owner 14.10.2026): a technical tail ("**LABEL** · Wan 3.0 · task ...")
+        # goes stale and contradicts the live status, a second marker duplicates it. Normalise whenever a scene is touched.
+        mline = re.compile(rf"(?m)^\*\*{re.escape(LABEL)}\*\*[^\n]*\n\n?")
+        found = list(mline.finditer(sec))
+        for extra in reversed(found[1:]):
+            sec = sec[:extra.start()] + sec[extra.end():]
+        if found:
+            sec = sec[:found[0].start()] + marker[1:] + sec[found[0].end():]
+        marker_line = re.search(rf"\n\*\*{re.escape(LABEL)}\*\*\n\n", sec)
         if is_slow and not marker_line:
             head_end = sec.index("\n", 1) + 1  # end of heading line
             sec = sec[:head_end] + marker + sec[head_end + 1:] if sec[head_end] == "\n" else sec[:head_end] + marker[1:] + sec[head_end:]
