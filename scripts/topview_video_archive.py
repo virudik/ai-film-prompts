@@ -41,8 +41,20 @@ def iso_now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
-def candidates(task_map, index):
-    """Only proven task↔scene mappings, and successful *terminal* attempts."""
+def active_scene_ids(status):
+    """Scene IDs that are active in the canonical master (project-status.json.scene_ids).
+
+    Owner decision 13.10.2026: only active scenes are archived. A scene the owner has sent
+    «В фильме» (or closed) leaves the master and its Drive slots are not spent on it."""
+    ids = status.get("scene_ids") if isinstance(status, dict) else None
+    if not isinstance(ids, list) or not ids or not all(isinstance(x, int) for x in ids):
+        return None
+    return set(ids)
+
+
+def candidates(task_map, index, active_scenes=None):
+    """Only proven task↔scene mappings, successful *terminal* attempts, and (when given)
+    scenes that are active in the master. active_scenes=None disables the scene filter."""
     seen = set(index.get("videos", {}))
     out = []
     for t in task_map.get("processed_tasks", []):
@@ -50,6 +62,8 @@ def candidates(task_map, index):
         if (not isinstance(task_id, str) or not HEX_ID.fullmatch(task_id)
                 or task_id in seen or t.get("final_status") != "success"
                 or not isinstance(scene_id, int) or scene_id < 1):
+            continue
+        if active_scenes is not None and scene_id not in active_scenes:
             continue
         out.append((t.get("finished_at") or "", scene_id, task_id))
     out.sort(reverse=True)
@@ -286,7 +300,16 @@ def run(limit, task_id=None):
         "schema_version": 1, "location": "AI Film Prompts Master/AI Film Generated Videos",
         "videos": {}}
     seeds = json.loads(Path("topview-archive-seeds.json").read_text(encoding="utf-8")) if Path("topview-archive-seeds.json").exists() else {"by_task": {}}
-    jobs = candidates(mapping, index)
+    try:
+        status = json.loads(Path("project-status.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        status = None
+    active = active_scene_ids(status)
+    if active is None:
+        # Fail closed: without the list of active scenes we would spend Drive slots on retired scenes.
+        print("::error title=Topview archive::project-status.json has no usable scene_ids; nothing archived")
+        return 2
+    jobs = candidates(mapping, index, active)
     if task_id:
         # Only select already-mapped success; no arbitrary ID supplied by CI/operator.
         jobs = [j for j in jobs if j[1] == task_id]

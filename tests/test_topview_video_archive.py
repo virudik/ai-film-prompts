@@ -36,6 +36,20 @@ class ArchiveGuards(unittest.TestCase):
                 {"task_id": t2, "scene_id": 27, "final_status": "success", "finished_at": "2026-10-12T01:00:00Z"}]
         self.assertEqual(a.candidates({"processed_tasks": rows}, {"videos": {}}), [(27, t2), (27, t1)])
 
+    def test_only_active_scenes_are_archived(self):
+        a1, a2, a3 = "a" * 32, "b" * 32, "c" * 32
+        rows = [{"task_id": a1, "scene_id": 27, "final_status": "success", "finished_at": "2026-10-12T01:00:00Z"},
+                {"task_id": a2, "scene_id": 20, "final_status": "success", "finished_at": "2026-10-12T02:00:00Z"},
+                {"task_id": a3, "scene_id": 30, "final_status": "success", "finished_at": "2026-10-12T03:00:00Z"}]
+        active = a.active_scene_ids({"scene_ids": [27, 30]})
+        self.assertEqual(a.candidates({"processed_tasks": rows}, {"videos": {}}, active), [(30, a3), (27, a1)])
+        # no filter only when explicitly requested
+        self.assertEqual(len(a.candidates({"processed_tasks": rows}, {"videos": {}})), 3)
+
+    def test_missing_scene_list_fails_closed(self):
+        for bad in (None, {}, {"scene_ids": []}, {"scene_ids": ["27"]}, {"scene_ids": "27"}):
+            self.assertIsNone(a.active_scene_ids(bad))
+
 
 if __name__ == "__main__":
     unittest.main()
