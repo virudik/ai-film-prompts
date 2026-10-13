@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
+  "last_updated_at": "2026-10-14",
+  "active_work": [],
+  "rules": [
+    "Only verified GitHub commits, GitHub issue URLs, project statuses and owner_decisions can be cited as evidence",
+    "No invented task completions, approvals, renders or background progress",
+    "Only owner decisions can authorize creative changes, approvals and renders",
+    "Keep one writer for canonical changes; update with material work checkpoint"
+  ]
+}

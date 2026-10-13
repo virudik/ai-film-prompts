@@ -1,0 +1,44 @@
+name: AI Film Project and Library canonical snapshot
+
+# Explicitly noncanonical recovery bundle. Source bytes come from a single main
+# checkout and are tagged with the exact HEAD. No secrets or private media.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/library-snapshot.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify resume entry and package current canonical files
+        run: |
+          set -euo pipefail
+          python3 -m unittest -v tests/test_continue_preflight.py
+          mkdir -p snapshot
+          python3 scripts/continue_preflight.py . --output snapshot/continue-preflight.json
+          for file in NEW-CHAT-HANDOFF.md SYNC-RUNBOOK.md AI-PROJECT-GUIDE.md PROMPT-STYLE-GUIDE.md USER-GUIDE.md README-AI-SYNC.md BACKUP-AI-RUNBOOK.md video-prompts.md; do
+            cp "$file" snapshot/
+          done
+          cp shadow/takeover-brief.md snapshot/
+          cp shadow/current-checkpoint.md snapshot/
+          cp work-resume-register.json snapshot/
+          git rev-parse HEAD > snapshot/GITHUB-MAIN-COMMIT.txt
+          (cd snapshot && sha256sum *.md *.json > FILE-SHA256SUMS.txt)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ai-film-project-library-canon
+          path: snapshot/
+          if-no-files-found: error
+          retention-days: 3
