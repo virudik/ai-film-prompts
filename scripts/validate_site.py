@@ -157,6 +157,10 @@ for required in (
     "el.textContent.includes('В МЕДЛЕННОЙ ГЕНЕРАЦИИ')){const br=el.previousElementSibling",
     "['owner_task','✎ Задача','',null]",
     "const TIP={",
+    "function sceneDoneState(sid)",
+    "m.className='mini done';m.textContent='✅ готово'",
+    "chips.push(ds==='done'?['✅ Готово','done']",
+    ".scene-videos{flex:0 0 100%;order:3;",
     "<br><span class=\"tv-eta-date\">",
 ):
     if required not in html:
