@@ -159,6 +159,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertIn("sceneResultAttempts(sceneId,tv)", html)
         self.assertIn("topview-task-map.json?fresh=", html)
         self.assertIn("▶ Версия ", html)
+        self.assertIn("link.textContent=\'▶ Ролик \'+(i+1)", html)
         self.assertIn("✅ Готово", html)
         self.assertIn("const DONE_ACTIONS=[['tv_drop_task','Не ждать'", html)
         self.assertNotIn("now-done>21*864e5", html)

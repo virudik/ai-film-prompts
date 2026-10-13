@@ -147,6 +147,8 @@ if not (root/"ci-status.json").is_file():
 
 print("site contract ok; duplicate ids=0; inline JS syntax ok; montage versions ok; fail-safe health contract ok")
 
+if "link.textContent='▶ Ролик '+(i+1)" not in html or "tools.appendChild(link)" not in html:
+    raise SystemExit("Per-scene finished video link regression")
 # Slow-result retention regression guard (13.10.2026):
 # terminal rows are owner-controlled, not aged away or filtered by reviewed.
 for required in (
