@@ -28,7 +28,7 @@
     }
   ],
   "account_observation": {
-    "checked_at": "2026-10-13T08:56:45.000Z",
+    "checked_at": "2026-10-13T11:59:49.960Z",
     "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_3_known; shadow_auxiliary",
     "complete": true,
     "boards_scanned": 11,
@@ -54,7 +54,14 @@
       "6d1ff4a96a0043f2884ffb528d5d9c9a",
       "e948bd09e5d349448e0ff72fb3049d04"
     ],
-    "open_incidents": [],
+    "open_incidents": [
+      {
+        "type": "github_workflow_evidence_unavailable",
+        "detected_at": "2026-10-13T12:02:14.568Z",
+        "consecutive_degraded_cycles": 1,
+        "reason": "GitHub fetch_commit_workflow_runs returned no CI/Pages runs for the telemetry checkpoint commit; public site itself is current."
+      }
+    ],
     "last_message_event": {
       "type": "topview_completion_and_free_slot",
       "observed_at": "2026-10-13T06:55:30.000Z",
@@ -66,7 +73,7 @@
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_3_of_6_three_free_slots",
-      "checked_at": "2026-10-13T08:56:45.000Z",
+      "checked_at": "2026-10-13T11:59:49.960Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -82,12 +89,14 @@
       "complete": true
     },
     "telemetry_publication": {
-      "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-13T09:00:16.000Z",
-      "task_map_checked_at": "2026-10-13T08:56:45.000Z",
-      "status_checked_at": "2026-10-13T08:56:45.000Z",
-      "checkpoint_checked_at": "2026-10-13T08:56:45.000Z",
-      "missing": []
+      "status": "verified_map_status_checkpoint_github_and_public_pages_but_workflow_evidence_missing",
+      "checked_at": "2026-10-13T12:02:14.568Z",
+      "task_map_checked_at": "2026-10-13T11:59:49.960Z",
+      "status_checked_at": "2026-10-13T11:59:49.960Z",
+      "checkpoint_checked_at": "2026-10-13T11:59:49.960Z",
+      "missing": [
+        "github_ci_and_pages_workflow_run_evidence"
+      ]
     },
     "instruction_sync": {
       "status": "verified_7_of_7",
@@ -123,11 +132,11 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-13T08:55:39.000Z",
-    "completed_at": "2026-10-13T09:00:16.000Z",
-    "health": "ok",
+    "started_at": "2026-10-13T11:56:28.000Z",
+    "completed_at": "2026-10-13T12:02:14.568Z",
+    "health": "degraded",
     "phases_completed": [
       "role_and_50_minute_guard",
       "fresh_head",
@@ -139,14 +148,14 @@
       "task_map_master_consistency",
       "topview_map_and_status_readback",
       "project_status_health_ok",
-      "integration_tests_success",
       "checkpoint_last",
-      "github_pages_success",
       "public_pages_current_readback"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "github_ci_and_pages_workflow_run_evidence"
+    ],
     "runner": "chatgpt_scheduled_task",
-    "note": "Full scheduled cycle completed; live Topview unchanged at 3/6 with three free slots; GitHub readback, integration, Pages and public site verified."
+    "note": "Live Topview unchanged at 3/6 with three free slots; canonical telemetry and public page read back successfully. Cycle is degraded because GitHub returned no CI/Pages workflow-run evidence for the checkpoint commit; successful heartbeat was not advanced."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -173,7 +182,7 @@
     "project_status_health": "ok",
     "telemetry_transaction_agrees": true,
     "published_master_matches_drive": true,
-    "public_pages_topview_checked_at": "2026-10-13T08:56:45.000Z",
+    "public_pages_topview_checked_at": "2026-10-13T11:59:49.960Z",
     "public_pages_occupied_slots": 3,
     "public_pages_free_slots": 3,
     "deep_audit_checked_at": "2026-10-08T20:13:11.393Z",
@@ -182,7 +191,7 @@
     "canonical_master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
     "public_pages_canonical_health": "ok",
     "public_pages_current_readback": "current_3_of_6_snapshot_scenes_31_35_38_three_free_unchanged",
-    "public_pages_readback_attempted_at": "2026-10-13T09:00:16.000Z",
+    "public_pages_readback_attempted_at": "2026-10-13T12:02:14.568Z",
     "automation_runtime_verified_at": "2026-10-09T10:11:15.869Z",
     "active_monitor_enabled": true,
     "retired_automations_enabled": false,
@@ -194,7 +203,7 @@
       "canonical_docs_changed": false,
       "automation_state_mutated": false
     },
-    "topview_live_attempted_at": "2026-10-13T08:56:45.000Z",
+    "topview_live_attempted_at": "2026-10-13T11:59:49.960Z",
     "topview_live_result": "unchanged_three_active_init_3_of_6_three_free",
     "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38372951511",
     "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38372950108",
@@ -202,10 +211,10 @@
       "applied": 75,
       "in_progress": 6,
       "needs_owner": 2,
-      "checked_at": "2026-10-13T08:56:45.000Z"
+      "checked_at": "2026-10-13T11:59:49.960Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-13T09:00:16.000Z",
+  "last_completed_cycle_at": "2026-10-13T12:02:14.568Z",
   "last_successful_cycle_at": "2026-10-13T09:00:16.000Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -220,7 +229,7 @@
   "role_file": "monitor-role.json",
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
-    "chatgpt": "2026-10-13T09:00:16.000Z"
+    "chatgpt": "2026-10-13T12:02:14.568Z"
   },
   "last_successful_cycle_runner": "chatgpt_scheduled_task",
   "last_successful_by_runner": {
