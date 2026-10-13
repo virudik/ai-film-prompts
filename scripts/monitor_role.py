@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Decide one AI Film monitor cycle (one writer, sticky automatic takeover).
 
-usage: python3 scripts/monitor_role.py <repo> --me claude|chatgpt [--dry-run]
+usage: python3 scripts/monitor_role.py <repo> --me claude|chatgpt|robot [--dry-run]
 prints {"action": "run"|"failover"|"skip", "reason": "...", "swapped": bool}
 Uses monitor-role.json as live config. The set_at timestamp is the failover
 grace baseline until a verified primary cycle has been recorded.
@@ -20,7 +20,7 @@ from pathlib import Path
 
 parser = argparse.ArgumentParser()
 parser.add_argument("repo")
-parser.add_argument("--me", choices=("claude", "chatgpt"), required=True)
+parser.add_argument("--me", choices=("claude", "chatgpt", "robot"), required=True)
 parser.add_argument("--dry-run", action="store_true")
 args = parser.parse_args()
 
@@ -30,7 +30,7 @@ status = json.loads((repo / "automation-monitor-status.json").read_text(encoding
 now = datetime.now(timezone.utc)
 primary = role["primary"]
 standby = role["standby"]
-other = "chatgpt" if args.me == "claude" else "claude"
+other = "claude" if args.me == "chatgpt" else "chatgpt"   # for robot: the AI monitor that may still write
 guard = int(role["collision_guard_minutes"])
 threshold = int(role["failover_after_minutes"])
 standby_yield = int(role.get("standby_yield_minutes", 100))
@@ -52,6 +52,8 @@ def normalize_runner(value):
         return "claude"
     if "chatgpt" in value:
         return "chatgpt"
+    if "robot" in value:
+        return "robot"
     return None
 
 
@@ -87,7 +89,7 @@ if cycle.get("health") == "ok" and not cycle.get("phases_missing"):
 # from the owner's role-selection decision (not from a standby heartbeat).
 primary_age = minutes_since(primary_at or role.get("set_at"))
 standby_age = minutes_since(standby_at)
-other_author = role["monitors"][other].get("commit_author") or ""
+other_author = (role["monitors"].get(other) or {}).get("commit_author") or ""
 
 # Files a monitor cycle writes. Only commits of the other agent that touch these
 # block this cycle; documentation/ops/site commits (e.g. a ChatGPT work chat) must
@@ -115,6 +117,10 @@ if recent_other:
 elif args.me == primary:
     action = "run"
     reason = "preferred primary; no recent conflicting write"
+elif args.me == "robot":
+    # The robot is a deterministic script: it never takes over by silence (fail closed).
+    action = "skip"
+    reason = "robot is not the primary writer (owner decision required)"
 elif args.me != standby:
     action = "skip"
     reason = "not assigned primary or standby"

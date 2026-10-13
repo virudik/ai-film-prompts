@@ -13,7 +13,7 @@
     "role": "primary",
     "since": "2026-10-11T11:00:00Z",
     "source": "owner-assigned monitor-role.json, verified automations control plane",
-    "owner_decision": "ChatGPT is writer until 16.10.2026 07:00 MSK; after this read-only until explicit new authorization"
+    "owner_decision": "ChatGPT is writer; extended by the owner 13.10.2026 beyond 16.10 07:00 MSK until the GitHub robot takes over telemetry (ops/ROBOT-TELEMETRY.md)"
   },
   "retired_automations": [
     {

@@ -175,5 +175,49 @@ class MonitorHeartbeatTest(unittest.TestCase):
         self.assertEqual(d["last_successful_cycle_at"], old)
         self.assertEqual(d["health"], "degraded")
 
+class RobotRoleTest(MonitorHeartbeatTest):
+    """The GitHub robot is a third named writer: it runs only as primary and never takes over by silence;
+    the AI standby takes over only after 180 minutes without a VERIFIED healthy robot cycle."""
+
+    def set_roles(self, primary, standby):
+        role = json.loads((self.repo / "monitor-role.json").read_text(encoding="utf-8"))
+        role.update(primary=primary, standby=standby)
+        role["monitors"]["robot"] = {"commit_author": "github-actions[bot]"}
+        write_json(self.repo / "monitor-role.json", role)
+
+    def action(self, me):
+        r = subprocess.run([sys.executable, str(ROLE_SCRIPT), str(self.repo), "--me", me, "--dry-run"],
+                           text=True, capture_output=True, check=True)
+        return json.loads(r.stdout)
+
+    def test_robot_runs_only_while_it_is_primary(self):
+        write_json(self.repo / "automation-monitor-status.json", {"last_scheduled_cycle": {}})
+        self.assertEqual(self.action("robot")["action"], "skip")          # primary is claude → robot stays silent
+        self.set_roles("robot", "chatgpt")
+        self.assertEqual(self.action("robot")["action"], "run")
+
+    def test_standby_takes_over_after_180_minutes_of_robot_silence_only_if_healthy_clock_is_old(self):
+        self.set_roles("robot", "chatgpt")
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_scheduled_cycle": {"completed_at": timestamp(5), "health": "degraded",
+                                     "phases_missing": ["telemetry_publish"], "runner": "robot_scheduled_task"},
+            "last_successful_by_runner": {"robot": timestamp(200)}})
+        res = self.action("chatgpt")
+        self.assertEqual(res["action"], "failover")                       # a recent DEGRADED robot hold is no proof of life
+        write_json(self.repo / "automation-monitor-status.json", {
+            "last_scheduled_cycle": {"completed_at": timestamp(5), "health": "ok", "phases_missing": [],
+                                     "runner": "robot_scheduled_task"},
+            "last_successful_by_runner": {"robot": timestamp(5)}})
+        self.assertEqual(self.action("chatgpt")["action"], "skip")        # healthy robot cycle → standby yields
+
+    def test_status_script_records_robot_cycle(self):
+        write_json(self.repo / "automation-monitor-status.json", {})
+        subprocess.run([sys.executable, str(STATUS_SCRIPT), str(self.repo), "--started", timestamp(1),
+                        "--completed", timestamp(0), "--runner", "robot", "--health", "ok"], check=True, capture_output=True)
+        d = json.loads((self.repo / "automation-monitor-status.json").read_text(encoding="utf-8"))
+        self.assertEqual(d["last_scheduled_cycle"]["runner"], "robot_scheduled_task")
+        self.assertIn("robot", d["last_successful_by_runner"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-13T18:04:54.804Z",
+  "checked_at": "2026-10-13T18:12:26.027Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,8 +9,8 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "de32d645660e1b18ef9d2fb18ebd403c6b44e9bd",
-      "mirror_sha256": "a23281beb30af51b22f0bb0c67c9893e01aca1aa865454dc40a94106dc440c21",
+      "github_blob": "e4868482663c4a6c767063acea721fb1815358bc",
+      "mirror_sha256": "ae453ea2aea616adf799571c9e2ee7c51225141f461f96708c4bcc07feb8ec85",
       "match": true,
       "drive_copy_sha256": "eb4e1be5d893951f75125975a9ecadc7aa8b73afce9707f16d539348b974cae0",
       "drive_copy_match": true,
@@ -19,8 +19,8 @@
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "github_blob": "f96af1093e1828fe17ac1f0d42a4208b60c31d91",
-      "mirror_sha256": "d349c40a5348667def42944358bb7ba8e490baa4fafb9cf3f785f26fb5b8a7d9",
+      "github_blob": "734786f56ce472387d072e4fea0620724d9df756",
+      "mirror_sha256": "7a62d26ee37068f8fd75391ead493ba40cc06b109c6112d7f6f33e676e6fd553",
       "match": true,
       "drive_copy_sha256": "55f441cb4618df0d04c70f64c048df9e6d7f913135709de2fd44effd0df29b9a",
       "drive_copy_match": true,
@@ -29,8 +29,8 @@
     },
     "AI-PROJECT-GUIDE.md": {
       "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-      "github_blob": "e1e31d082c3956614a21ede046bca3af5b58475f",
-      "mirror_sha256": "7102fdcb2ae90543b2503dd77c251bb89a074e3fe63481c40ef1f89db341ecb8",
+      "github_blob": "f236bb3c1e6baf1c7d0c292ba1ea3406fc5bbe15",
+      "mirror_sha256": "97e9043d652a7e0e101c37b87376ce71f27a6d3ca6247f815ccea9d5baf87f33",
       "match": true,
       "drive_copy_sha256": "f1a89a9fbd41ba2afc7f2b9e0a3dc1a88b1b238f312a8f7894af17d7fc0548c1",
       "drive_copy_match": true,
@@ -198,7 +198,7 @@
       "6aac3e4dfe6c81918b3eead8529edf30",
       "6ac358bf36548191b64ae6326bcc1f9b"
     ],
-    "one_writer_note": "Owner 11.10: ChatGPT temporary primary writer until 16.10.2026 07:00 MSK, afterwards read-only. Claude HH:10 paused until user-authorized return; legacy ChatGPT unified task disabled. Current scheduled trigger exists but complete-cycle publication not proven.",
+    "one_writer_note": "Owner 11.10, extended 13.10: ChatGPT primary writer until the GitHub robot takes over telemetry (no fixed date). Claude HH:10 paused until user-authorized return; legacy ChatGPT unified task disabled. Current scheduled trigger exists but complete-cycle publication not proven.",
     "standby_automation_id": "6aac794245e481919ee7155c461cc77e",
     "standby_automation_title": "AI Film — единый монитор (disabled legacy)",
     "role_file": "monitor-role.json",

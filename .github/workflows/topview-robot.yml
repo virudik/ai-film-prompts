@@ -5,6 +5,9 @@ name: Topview robot scanner (SHADOW MODE, read-only)
 # and compares itself with the monitor's topview-status.json (differences go into that file and into
 # a notice annotation). It never touches topview-status.json / task map / checkpoint / master /
 # ledger, never starts, approves, reruns or deletes anything, never spends credits.
+# 13.10.2026: a second step (scripts/robot_telemetry.py) computes what the robot would publish. GitHub variable
+# ROBOT_TELEMETRY: `shadow` (default; writes only shadow/robot-cycle-preview.json) or `on` (real telemetry, allowed only
+# while monitor-role.json says primary=robot). Started every 10 minutes by Supabase pg_cron (ops/ROBOT-TRIGGER.md).
 # Switching real telemetry to the robot (monitor_publish.py + monitor_role.py) and a rarer Claude
 # monitor are the owner's decision after 1-2 days of parallel runs: ops/QUEST-THREE-KEYS.md.
 # Without TOPVIEW_API_KEY (secret) and TOPVIEW_UID (variable) it is a clean no-op.
@@ -22,6 +25,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: topview-robot
@@ -61,4 +65,14 @@ jobs:
             git rebase "origin/${BRANCH}"
           done
           echo "::warning title=topview-robot-shadow::could not push the shadow status after 4 attempts"
+          exit 0
+      - name: Robot telemetry (shadow preview, or real publish when ROBOT_TELEMETRY=on and the robot is the primary writer)
+        env:
+          TOPVIEW_API_KEY: ${{ secrets.TOPVIEW_API_KEY }}
+          TOPVIEW_UID: ${{ vars.TOPVIEW_UID }}
+          ROBOT_TELEMETRY: ${{ vars.ROBOT_TELEMETRY || 'shadow' }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          python3 scripts/robot_telemetry.py --mode "$ROBOT_TELEMETRY" || echo "::warning title=robot-telemetry::exited with code $?"
           exit 0

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Record one scheduled monitor cycle in automation-monitor-status.json (Claude or ChatGPT) (honest times only).
+"""Record one scheduled monitor cycle in automation-monitor-status.json (Claude, ChatGPT or the GitHub robot) (honest times only).
 
 usage: monitor_status.py <repo> --started ISO --completed ISO --health ok|degraded|error
-       [--runner claude|chatgpt] [--phase NAME ...] [--missing NAME ...] [--note TEXT] [--topview-checked ISO]
+       [--runner claude|chatgpt|robot] [--phase NAME ...] [--missing NAME ...] [--note TEXT] [--topview-checked ISO]
 The site's "Монитор" chip and the D3 alert read last_scheduled_cycle.completed_at.
 A cycle that could not finish its required phases must use --health degraded and
 list them in --missing; never move completed_at forward without a real run.
@@ -12,7 +12,7 @@ from pathlib import Path
 
 ap = argparse.ArgumentParser()
 ap.add_argument("repo"); ap.add_argument("--started", required=True); ap.add_argument("--completed", required=True)
-ap.add_argument("--runner", choices=("claude", "chatgpt"), default="claude")
+ap.add_argument("--runner", choices=("claude", "chatgpt", "robot"), default="claude")
 ap.add_argument("--health", required=True, choices=["ok", "degraded", "error"])
 ap.add_argument("--phase", action="append", default=[]); ap.add_argument("--missing", action="append", default=[])
 ap.add_argument("--note", default=""); ap.add_argument("--topview-checked")

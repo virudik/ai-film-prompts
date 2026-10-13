@@ -1,6 +1,6 @@
-# ChatGPT hourly monitor — короткий безопасный цикл (временный, 11–16.10.2026)
+# ChatGPT hourly monitor — короткий безопасный цикл (временный: продлён владельцем 13.10.2026 до перехода телеметрии на GitHub-робота)
 
-**Источник истины:** GitHub `virudik/ai-film-prompts:main`. **Это дополнение, не замена 7 инструкций и NEW-CHAT-HANDOFF.md.** Писатель только назначенный в `monitor-role.json`; после 16.10.2026 07:00 МСК ChatGPT исключительно read-only. Не включать архивные мониторы.
+**Источник истины:** GitHub `virudik/ai-film-prompts:main`. **Это дополнение, не замена 7 инструкций и NEW-CHAT-HANDOFF.md.** Писатель только назначенный в `monitor-role.json`; 16.10.2026 07:00 МСК больше НЕ конец: владелец 13.10.2026 продлил роль писателя ChatGPT до принятия GitHub-робота (`ops/ROBOT-TELEMETRY.md`); когда `monitor-role.json` назначит основным `robot`, ChatGPT сам перейдёт в read-only. Не включать архивные мониторы.
 
 ## Каждый час HH:55 МСК (приоритет — проверяемый результат)
 1. Зафиксируй фактическое начало. Прочитай live `monitor-role.json`, `automation-monitor-status.json`, `topview-status.json`, `topview-task-map.json`, `topview-checkpoint.json`, `project-status.json` и верхний handoff. Проверку семи полных инструкций и 500KB master делай при изменившихся хешах, необходимости материальной правки или ежедневном аудите; не позволяй большому контексту сорвать ежечасную легкую проверку.
