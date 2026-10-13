@@ -51,8 +51,8 @@
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 35 | [Древний ПК в храме: находка Серёги](#scene-35) | Серёга; тот же храм; фактический конец Scene 34 | Приключенческое открытие старого ПК и CRT под древними камнями; без включения и преждевременного Warcraft payoff. DRAFT, требуется фактический финал 34. <br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 36 | [После пещеры: Серёга с картой уходит к кораблю](#scene-36) | Серёга; пещера; единственная карта; точный транспорт | Продолжение уже вставленной Scene 17: Паша/Саша остаются на Набу; Серёга уходит с одной картой. DRAFT до сверки выхода и корабля. |
-| 37 | [Полёт к лесной планете: географическая связка](#scene-37) | Серёга; последний кадр 36; существующее лесное начало | Физически понятный перелёт к Кашиику с выходом на уже снятую лесную группу, без выдуманной встречи. DRAFT, требуются 36 и лесной старт. |
+| 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. DRAFT до выгрузки конца Scene 17. |
+| 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; луг у озера Набу; лесная планета | Взлёт с Набу, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. DRAFT до выгрузки кадров корабля и планеты. |
 | 38 | [Серёга рассматривает древний компьютер в храме](#scene-38) | @Image1 точный Серёга; @Image2 храм; @Video1/@Image3 конец Scene 35 с компьютером | Отдельное 30-секундное продолжение находки: внимательно исследует CRT, клавиатуру и бежевый системный блок, без включения, новых артефактов или преждевременного Warcraft. DRAFT до сверки реального конца 35.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 
 ---
@@ -2333,71 +2333,82 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <a id="scene-36"></a>
 
-## Сцена 36 — После пещеры: Серёга с картой направляется к кораблю
+## Сцена 36 — После пещеры: Серёга уходит с фрагментом карты
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","nabu","map","depart","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","pasha","sasha","naboo","cave","map","depart","continuity"]} -->
 
-**Контекст использования:** Продолжение уже вставленной в фильм Scene 17 (её Scene ID навсегда зарезервирован). В конце Scene 17 Серёга сидит вместе с Пашей и Сашей и держит одну физическую карту. Здесь он встаёт, прощается жестом, покидает ту же пещеру и идёт к прежнему транспорту. Никакого дублирования карты, телепорта или переноса всей тройки на другую планету. Перед запуском сверить реальный последний кадр Scene 17, вход/выход пещеры и существующий кадр транспортного средства; если нет точного транспортного исходника, сцену оставить DRAFT, не выдумывать корабль. Новых генераций автоматически нет.
+**Контекст использования:** Прямое продолжение Scene 17, которая уже в фильме (её Scene ID зарезервирован, поэтому связь в `dependencies` не пишется). Место в монтаже — стык около 51:52 после боя с монстром, перед блоком лесной пары. Сцена показывает расставание после вынужденного союза: Серёга молча уходит с единственным набусским фрагментом, Паша и Саша остаются на Набу. Карта — жёсткий светящийся модуль с референса сцены 17, не бумага. Транспорта и внешней местности нет: выход из пещеры — светлая водяная завеса, перелёт показан в Scene 37. До READY выгрузить из монтажа фактический конец Scene 17 (@Video1) и сверить сторону кадра и руку с модулем. Технический результат не равен одобрению; запуск — только по команде владельца. Правка 14.10.2026 по решению владельца (вариант A, `reports/scenes-36-37-proposal-2026-10-14.md`).
 
-**Референсы:** @Image1 = <a href="references/full/serega.jpg">Серёга (identity)</a>; @Image2 = <a href="references/scenes/scene-17/S17-cave-Video1-frame-003s.png">пещера/свет/пространство</a>; @Image3 = <a href="references/scenes/scene-17/S17-Image4-topview-source.png">единственная карта</a>; @Video1 = исходный готовый конец Scene 17; @Video2 = существующий кадр доступного на Набу транспорта Серёги, подобрать из монтажа до запуска.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/pasha.jpg">Паша</a>; @Image3 — <a href="references/full/sasha.jpg">Саша</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image5 — <a href="references/scenes/scene-17/S17-post-battle-seated.png">пещера после боя, рассадка троих</a>; @Video1 — фактический конец Scene 17 из монтажа (выгрузить перед запуском).
 
-**Что происходит:** После передачи карты Серёга без спешки поднимается со своего места, оставляя Пашу и Сашу в пещере, идёт к выходу и выходит на знакомую местность к своему транспорту. Концовка фиксирует подготовку к отлёту, сам полёт — в Scene 37.
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image2 — Паша"></a><figcaption>@Image2 — Паша</figcaption></figure>
+<figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="@Image3 — Саша"></a><figcaption>@Image3 — Саша</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image4 — модуль карты"></a><figcaption>@Image4 — модуль карты</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-post-battle-seated.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-post-battle-seated.png" alt="@Image5 — пещера после боя"></a><figcaption>@Image5 — пещера после боя</figcaption></figure></div>
+
+**Что происходит:** Серёга прячет полученный модуль под робу, молча кивает Паше и Саше и уходит по мокрым камням в глубь пещеры, к светлой водяной завесе. Паша и Саша остаются сидеть на останках монстра и провожают его взглядом.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Realistic cinematic adventure | Serega leaves the cavern with the single map
+Optimized for Wan 3.0 | Photoreal live-action cinema | Deadpan quiet departure: Serega leaves the post-battle cavern with the single map module
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — ABSOLUTE SEREGA / CHANCELLOR identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Image2 and @Video1 — physical continuity of the SAME humid post-battle cavern from the finished Scene 17: wet layered rock, shallow water, echoes, waterfall-like noise, monster-remains seating, recognizable exit direction, moisture and cool bounce light. The final frame of @Video1 governs positions and which hand holds the map.
-@Image3 — the ABSOLUTE single map prop, including folded edges, markings, size, surface and material. Never substitute a disk, book, glowing generic tablet or a second map.
-@Video2 — an actual approved Naboo departure transport shot from the existing film: exact shape, exterior geography and approach vector, rather than a newly invented generic spacecraft.
-Priority: the last frame of @Video1 controls starting positions and the map hand. @Image2 supports the cave look. @Image3 controls the map. @Video2 controls the transport. @Image1 controls Serega's identity only.
+@Video1 — the genuine final seconds of the finished previous scene in this same cavern. Its last frame is the absolute start authority: positions of the three seated men, which hand holds the map module, camera side, water level, light and the inert monster remains.
+@Image5 — the same post-battle cavern and seating arrangement: Pasha seated screen-left, Serega centre, Sasha screen-right, each on a separate severed pale section of the dead monster; wet black rocks and shallow water in front; the huge inert monster carcass lying behind on the right; a bright misty curtain of falling water at the back of the cave. It controls location geometry and composition if @Video1 is ambiguous.
+@Image4 — the exact map module prop.
+@Image1, @Image2, @Image3 — identity sheets for Serega, Pasha and Sasha.
+Priority: @Video1 controls the first frame and positions; @Image5 controls cave geometry; @Image4 controls the prop; @Image1–@Image3 control faces and costumes only. No reference may add a fourth person or revive the monster.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA / CHANCELLOR: exact pale older man, thinning light hair, deep dark-purple robe. Do not borrow accidental faces or costumes from scenery references.
-PASHA and SASHA appear only in the opening beats and stay seated. Their faces, builds, clothes and wet look come exclusively from the last frame of @Video1 (the finished Scene 17); do not redesign them.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with hood lowered, soaked and darkened by water.
+@Image2 is the absolute visual authority for PASHA: clean-shaven man, dark navy-blue Jedi tunic, brown belt, dark trousers, high boots, leather bracer, soaked and battle-worn.
+@Image3 is the absolute visual authority for SASHA: bearded man with round glasses, cream inner tunic, dark burgundy-brown robe, brown boots, soaked and battle-worn.
+Three clearly different men; no face blending, no costume swaps, no added armour or jewellery.
 
-STORY / START LOCK — CRITICAL:
-The LAST FRAME of the completed Scene 17 is the beginning continuity authority. Serega is seated and HOLDS the one map after Pasha has handed it over; Pasha and Sasha remain on separate monster remains. Do not replay the handoff, whisper or dialogue. Wet clothes and faces continue without reset. The defeated monster remains inert.
-Serega decides to leave after the encounter. Pasha and Sasha remain on Naboo and do NOT accompany him. No reconciliation dialogue, no new villain, no telepathic link to the forest group. A slight farewell gesture is enough.
+PROP LOCK — CRITICAL:
+The map is ONE small rigid palm-sized rectangular module from @Image4: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels in the upper middle, a black central stripe with a tiny lock-like mark, small dark markings at the corners. It never folds, bends, unrolls, duplicates, becomes paper, a disk or a hologram. Exactly one module exists in this scene.
+
+CAVE / CONTINUITY LOCK:
+The monster is dead and stays completely inert; its cut surfaces are dark and cauterized, no fresh blood. Pasha and Sasha stay seated on their own sections for the whole take and do not follow. No exterior landscape, vehicle or sky is revealed: the cave exit is only the bright misty water curtain at the back.
 
 START STATE:
-Serega seated in the exact established three-shot, still exhausted, one map in his hand; Pasha and Sasha seated on their separate monster remains.
+Exact last frame of @Video1: all three seated and exhausted, Serega in the centre holding the single module in his hand, Pasha on the left, Sasha on the right, wet clothes, shallow water, mist.
 
 TIMELINE:
-[0:00–0:06] — THE MAP IS SECURED
-Begin near the exact established three-shot, with everyone still exhausted. Serega looks briefly at the map in his hand, folds it only along its existing crease and secures it inside the same robe, visibly and safely. Pasha and Sasha watch silently.
+[0:00–0:06] — THE MODULE SECURED
+Hold the established three-shot. Serega looks down at the module; its amber panels glow softly on his wet fingers. He slides it calmly into an inner fold of his robe at the chest; the glow disappears under the cloth. Pasha and Sasha watch silently.
 
 [0:06–0:12] — SEREGA RISES
-Serega plants his feet onto firm wet stone and rises carefully from the separate monster section; the camera reveals his coherent weight shift. Pasha remains seated and Sasha remains seated. Serega gives a small, serious nod. They answer only with minimal eye movements, no spoken lines.
+Serega plants his boots on the wet stone and stands up from his monster section with tired, careful weight. He gives Pasha a small serious nod, then Sasha the same. Pasha answers with a minimal nod; Sasha glances at Pasha with a restrained "what was that about?" look. No words.
 
-[0:12–0:18] — WALK TO THE EXIT
-Follow Serega at his own walking speed along the cavern's previously established water edge toward the visible actual exit. The camera follows from behind three-quarter and keeps the seating area in believable perspective; no suddenly appearing staircases, no change in waterfall position.
+[0:12–0:20] — WALKING AWAY
+Serega turns his back to the camera and walks upstage between the two seated men, along the wet rocky edge of the shallow water, past the dead carcass. The camera stays low behind Pasha and Sasha and slowly pushes in between them, keeping both seated in the foreground.
 
-[0:18–0:24] — FROM CAVE TO DAYLIGHT
-A continuous motivated camera travel crosses the real cave opening; damp rock gives way gradually to the existing Naboo exterior light and terrain. His robe remains wet near the hem. Exposure adjusts naturally as outside light grows, with the cave opening still visible behind.
+[0:20–0:26] — TOWARD THE LIGHT
+Serega reaches the back of the cave; the bright curtain of falling water fills the background with cool misty light. His dark-purple silhouette becomes smaller and backlit; spray drifts around him.
 
-[0:24–0:30] — APPROACH TO THE TRANSPORT
-The same walking vector brings him toward the known transport seen in @Video2, parked consistently with pre-existing footage. Establish a clear but not rushed composition with him still approaching the boarding point, map secured, vehicle motionless. No instant takeoff or planetary cut. Save a matchable last frame for Scene 37.
+[0:26–0:30] — THE PARTING IMAGE
+Serega stops for one beat at the edge of the water curtain, a dark silhouette in the glow, then steps forward into the bright mist. In the foreground Pasha and Sasha remain seated on the monster sections, looking after him.
 
 END STATE:
-Only Serega is leaving, with the identical single map safely concealed in his robe; the agreed vehicle awaits in the original Naboo environment. The last frame is matchable for Scene 37.
+Serega is a backlit silhouette entering the bright water curtain at the back of the cave, the single module hidden in his robe; Pasha and Sasha remain seated in the foreground on separate monster sections; the monster stays dead. Clean cut point to a departure scene.
 
 CAMERA / SPACE:
-One smooth controlled 35 mm follow without arbitrary cuts, physical 3D spatial constraints, no abrupt change of screen direction, stable left/right identities, no digital zoom or micro-shake. Maintain a believable cave-to-exterior gradient, scale and weather.
+One continuous take, 35 mm natural perspective, slow low push-in from behind the two seated men; no cuts, no orbit, no camera shake. Stable screen positions: Pasha left, Sasha right, the water curtain at the back. Real cave scale; the walk is a few dozen metres, no new tunnels or staircases.
 
 PERFORMANCE:
-Adult, restrained, tired movement after a difficult battle; no face drift, superhero swagger, parody acting or extra gesticulation.
+Adult, restrained, physically tired after a hard fight. Serega is calm and purposeful, almost formal; Pasha is resigned; Sasha is quietly puzzled. Play it completely straight: nobody comments on sitting on monster pieces, nobody laughs or looks into the camera.
 
 LIGHTING / MATERIALS:
-Humid cool bounce light inside the cavern, wet rock and a wet robe hem; a gradual, natural exposure change to Naboo exterior light as Serega emerges, with the cave opening still visible behind him.
+Cool humid bounce light, glistening wet rock and soaked fabric, pale cauterized monster skin, drifting spray and mist. The water curtain is the brightest area of the frame and gradually rims Serega's silhouette. The module's amber glow is small and warm and is visible only before he hides it.
 
 AUDIO:
-Wet steps and faint dripping, distant waterfall, fabric rustle, then natural outdoor wind; the sound bed changes gradually as Serega emerges. No dialogue or narrator, no music, no audible coordinates.
+Steady roar of falling water growing louder as Serega approaches it, dripping, wet footsteps on stone, soft heavy robe rustle, tired breathing. No dialogue, whisper, narrator or music.
 
 NEGATIVE PROMPT:
-double map, missing map, flying map, extra characters, Pasha/Sasha following, changed man or purple robe, magical portal, wrong vehicle, invented landing platform, duplicated body seats, resurrected monster, new combat, inconsistent lighting, fake CG, jump cuts, subtitles, watermark, black bars, camera jitter.
+folded paper map, scroll, second module, glowing hologram, map floating, Pasha or Sasha standing up or following, extra people, cats, resurrected or moving monster, fresh blood, gore, new combat, lightsabers ignited, spaceship, vehicle, exterior landscape, sunny sky, staircase, teleport, jump cut, changed faces, missing glasses on Sasha, dry clothes, comedy mugging, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2407,75 +2418,82 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <a id="scene-37"></a>
 
-## Сцена 37 — Полёт Серёги к лесной планете и стык с отдельной группой
+## Сцена 37 — Отлёт Серёги с Набу к лесной планете
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","forest","map","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","naboo","forest_planet","map","bread_and_milk","continuity"]} -->
 
-**Контекст использования:** Владелец попросил связку после Scene 17 — Серёга покидает место боя, улетает на другую планету, где уже существует лесная группа Виталика и Лёхи. Это не означает, что группа на Кашиике физически присутствовала в пещере на Набу. Начало должно совпадать с полученным концом Scene 36, а лесная локация — с фактическим монтажным началом лесного блока (film-analysis.md, W7/T4). Если этих двух кадров нет, prompt остаётся DRAFT и не должен запускаться. События после посадки остаются монтажным выбором; встречу в этой части не инсценировать.
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с одним набусским фрагментом летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с лугового берега озера Набу, как в Scene 19. Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. Вид лесной планеты — из установочного плана 51:52–52:40, только планета. В монтаж достаточно ~10–15 с. До READY выгрузить из монтажа @Video1 (корабль и кабина Канцлера) и @Video2 (лесная планета). Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Video1 = только что созданный конец Scene 36 / настоящий корабль; @Video2 = существующий кадр корабля/планеты из текущего монтажа; @Video3 = точный открывающий кадр лесной группы Кашиика; @Image2 = <a href="references/full/vitalik.jpg">Виталик</a>, @Image3 = <a href="references/full/lesha.jpg">Лёха</a> — только идентичности, если лесную пару действительно видно в финальной стыковке.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, деревья</a> (только палитра и тип местности); @Video1 — корабль и кабина Канцлера из ч. 1 фильма, 09:20–09:55 (выгрузить перед запуском); @Video2 — установочный план лесной планеты, 51:52–52:40 (выгрузить; только планета).
 
-**Что происходит:** Серёга поднимается на известный корабль, взлетает, проходит через короткий космический переход и приближается к лесной планете. Лесные джедаи существуют в отдельной сюжетной линии; концовка показывает планету/её атмосферу и оставляет пространство для монтажной склейки к уже существующему лесному фрагменту.
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image2 — модуль карты"></a><figcaption>@Image2 — модуль карты</figcaption></figure>
+<figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image3 — луг у озера Набу"></a><figcaption>@Image3 — луг у озера Набу</figcaption></figure></div>
+
+**Что происходит:** Серёга один в кабине своего корабля, замечает на пульте стикер с нарисованными хлебом и молоком, устало выдыхает и взлетает с лугового берега озера Набу. Корабль проходит облака и выходит в космос; Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче. Корабль уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Cinematic, physically plausible planetary transfer | Serega flies to the forest planet
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Serega alone departs Naboo in his own craft; the map module points him toward a distant forest planet
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — ABSOLUTE SEREGA identity reference (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Video1 — the exact ending of the newly generated Scene 36: the specific actual Naboo exterior parking environment, the exact transport craft model, hatch, geometry, camera side and Serega's approach vector.
-@Video2 — an actual previously existing film shot containing the matching ship / known space travel design and a believable establishing planet view. It preserves scale and finishes the transition without inventing new vehicle designs.
-@Video3 — the actual existing editorial FIRST FOREST SHOT of the Kashyyyk / forest group. Use it only as the exact geographic / lighting / vegetation and final-composition anchor, not as a license to shift the forest Jedi into Naboo cave scenes.
-@Image2 and @Image3 — exact identity references ONLY IF the two men appear in the established forest source footage: @Image2 = VITALIK (BLACK), @Image3 = LESHA (PURPLE).
-Priority: @Video1 controls the first frame, the ship and the departure site. @Video2 controls ship scale and travel design. @Video3 controls the forest destination. @Image1 controls Serega's identity only.
+@Video1 — Serega's own craft and cockpit exactly as already shown earlier in the film: hull shape, colour, proportions, engines, cockpit layout, seats, windows and controls. It is the only authority for the vehicle; do not design a new ship.
+@Image1 — absolute identity of SEREGA.
+@Image2 — the exact map module prop.
+@Image3 — Naboo landscape palette only: calm blue lake, bright green lakeshore meadow, rounded trees, soft clear daylight. People and buildings in this image are not part of the shot.
+@Video2 — the destination planet's appearance from space exactly as already established in the film: colour, cloud cover, dense green forested continents. Use the planet only; any other ship in that footage must not appear.
+Priority: @Video1 controls the vehicle and cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the Naboo look; @Video2 controls the destination planet.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA: older pale Chancellor, thinning fair hair, the same dark-purple robe, same facial and body identity.
-VITALIK (BLACK) — only if visible in the forest source footage: heavier build, black tunic with dark leather / armor panels, brown trousers, high boots. LESHA (PURPLE) — only if visible: mustache, purple inner tunic, long grey hooded robe, brown belt, light boots. They are a separate pair from NABOO'S Sasha/Pasha. No face blending or wardrobe swaps. Do not generate a new interaction among all five people.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi.
 
-STORY / MAP CONTINUITY LOCK — CRITICAL:
-The one physical map has already been received from Pasha by Serega in the completed scene and secured in his robe in Scene 36. It does NOT multiply, teleport to the forest Jedi or become a floating hologram.
-The forest storyline already exists independently; the transfer establishes a geographic approach, not an assumed already-shot encounter or alliance.
+PROP LOCK — CRITICAL:
+Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet, the two amber panels brighten and pulse slowly and steadily; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
+BREAD-AND-MILK NOTE: one small square paper sticky note is stuck on the cockpit console beside the controls, with a simple hand-drawn doodle of a loaf of bread and a milk bottle — pictures only, no letters, words or numbers. It stays stuck in the same place for the whole scene.
+
+VEHICLE / TRAVEL LOCK — CRITICAL:
+One and the same craft from @Video1 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
 
 START STATE:
-The exact closing physical arrangement of Scene 36: Serega standing by the hatch of the same real transport, map secured in his robe.
+Serega is already seated alone at the controls inside the cockpit from @Video1, the map module hidden in his robe, the craft resting on a green lakeshore meadow of Naboo, calm blue lake and rounded trees visible through the window.
 
 TIMELINE:
-[0:00–0:06] — BOARDING
-Serega takes two steps, boards through a visible, mechanically plausible entry, and the hatch closes. Identity, robe, distance and screen direction stay coherent.
+[0:00–0:05] — THE NOTE ON THE CONSOLE
+Medium shot inside the cockpit. Serega reaches for the controls, then his eyes stop on the small bread-and-milk doodle note on the console. A tiny, utterly serious resigned exhale through the nose; he lets it be and places both hands on the controls. Instrument lights come on.
 
-[0:06–0:12] — DEPARTURE
-One motivated exterior wide view shows the same full craft making a realistic vertical or shallow forward departure from the known location, dust / water and local vegetation reacting as appropriate. No vehicle redesign or instant switch from shuttle to fighter.
+[0:05–0:11] — LIFT-OFF FROM THE MEADOW
+Exterior wide: the same craft rises steadily from the green lakeshore meadow; grass flattens and the lake surface ripples under the engine wash; trees and calm water stretch to the horizon in soft daylight.
 
-[0:12–0:18] — ASCENT
-Cinematic forward-following shot as the craft ascends through atmospheric layers. The camera movement is stable and depicts a continuous navigable flight path; one concise time-compression edit is permitted between upper atmosphere and established deep-space travel, not within the launch itself.
+[0:11–0:16] — THROUGH THE CLOUDS
+Following shot from behind and slightly below: the craft climbs through a white cloud layer; Naboo's lakes and green land shrink below and the sky darkens toward space.
 
-[0:18–0:23] — SPACE TRAVEL
-The same ship passes through a restrained, short space travel beat. Keep the actual hull, exhaust behavior, proportions and flight direction. No overcrowded fleets, laser battle, explosion, magic warp doorway or new cockpit personalities.
+[0:16–0:21] — LEAVING NABOO
+Space: the blue-green curve of Naboo fills the lower frame. The craft levels out; the engines glow steadily.
 
-[0:23–0:27] — THE FOREST PLANET
-A new planet becomes readable ahead: its cloud deck, wooded continental landforms and horizon lead plausibly into the approved forest scene @Video3. The camera glides from behind the ship toward its approach vector, preserving orientation and lighting continuity.
+[0:21–0:26] — THE MODULE POINTS THE WAY
+Back in the cockpit, after one clean time-compression cut: a small distant green forest planet is visible through the front window. Serega takes the module from his robe and holds it up; as its face turns toward the planet, the two amber panels brighten and pulse steadily. He gives the smallest nod, corrects the heading slightly with one hand, and slides the module back into his robe.
 
-[0:27–0:30] — APPROACH AND HOLD
-Landward approach establishes the distinct forest planet and its biome. Hold enough of the foliage / geography composition to allow a clean cut into the already filmed BLACK / PURPLE forest story. Do not introduce a newly invented personal meeting, combat, speech or a contradictory landing. Preserve geographic ambiguity only where the source footage itself requires it.
+[0:26–0:30] — THE FOREST PLANET AHEAD
+Exterior from behind: the same small craft accelerates once toward the distant planet with dense green forested continents and white cloud bands that match @Video2. Hold this composition; the craft is still far from the planet.
 
 END STATE:
-The separate forest world is visually established; the final frame is matchable for an exact-match cut into real forest-group footage, NOT an invented reunion.
+The craft travels through open space toward the distant forest planet; no arrival, no other ship, no other characters. A clean cut point to the existing footage of the other Jedi pair, which follows separately.
 
 CAMERA / SPACE:
-Stable 3D continuity, smooth inertial cinema, accurate perceived ship size. Two motivated transitions are allowed only for truly distant travel. No endless static warp montage, no jump discontinuity on a ship or person. Keep the first and final visual states matchable to @Video1 and @Video3.
+Cockpit and exterior angles of one continuous journey; exactly one time-compression cut (into [0:21–0:26]). Smooth inertial camera, credible ship scale against clouds and planets, a stable direction of travel left-to-right in every exterior shot, no warp tunnel, no shake, no zoom jumps.
 
 PERFORMANCE:
-Serega boards calmly and purposefully with restrained adult movement; no superhero swagger, parody acting or extra gesticulation (the same level as Scene 36). No dialogue.
+Serega is calm, focused and alone; small precise movements. The note is played completely deadpan — one resigned exhale, no smile, no eye-roll to the camera, no speech.
 
 LIGHTING / MATERIALS:
-Natural Naboo daylight transitioning to space and then to believable forest-atmosphere lighting. Real cloud haze, parallax and starfield, a muted clean color grade compatible with the two neighboring scenes.
+Cockpit: soft instrument glow and daylight through the window on his face and damp robe; the module's warm amber glow on his fingers. Exterior: natural Naboo daylight, real volumetric clouds, then the hard sunlight and black of space, believable planet atmosphere glow. Restrained colour grade matching the neighbouring scenes.
 
 AUDIO:
-Recognizable ship hatch / servo, engine ignition, air movement and low-frequency ascent vibration; low travel ambience, subtle atmospheric wind near the destination. No songs, narrator, speech, subtitles or crowd.
+Cockpit switches and soft servo clicks, one quiet exhale, engine spin-up, low rumble of the climb, wind roar through the clouds fading to a quiet deep hum in space, a faint soft electronic pulse from the module. No dialogue, narrator, music or radio voices.
 
 NEGATIVE PROMPT:
-wrong faces, a new craft, mismatch to @Video1, teleporting map, extra map, Pasha/Sasha in the forest, BLACK/PURPLE in the departing ship unless pre-existing source proves it, impossible instant landing, made-up planet landmarks, shiny game CGI, random flight direction flips, hard geometry morph, jitter, black bars, watermark.
+new or different ship design, second ship, the other Jedi pair, Vitalik, Lesha, Pasha, Sasha, pilot droid, cats, extra passengers, landing, forest floor, entering the forest planet's atmosphere, Sith ruins, temple, ancient computer, Warcraft screen, hologram map, projected map, two or three modules, folded paper map, readable text, letters or words on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 36,
-  "updated_at": "2026-10-11T00:00:00Z",
+  "updated_at": "2026-10-13T22:50:55Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -20,9 +20,9 @@
       "media_type": "image",
       "owner_approval": "user_supplied_identity",
       "assistant_qc": {
-        "status": "passed_in_previous_work",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
         "path": "references/full/serega.jpg",
@@ -32,26 +32,52 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
-      "sha256": "132ec6cbf9d0de3c315479ed9b921973b6c57fe8e8bf64d743b0bbe3c552229a",
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
       "dimensions": [
-        1280,
-        720
+        1152,
+        1536
       ],
-      "drive_file_id": "1IdfL4jTcc4z1ir_neCCiD_3dOETxDUdx",
-      "library_file_id": "libfile_996eafedef88819185b1d745e9cb33ff",
-      "role": "location",
-      "asset_id": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
-      "bytes": 826403,
+      "drive_file_id": "1PI2B8VEIICMr0yXN6mXBMySDwrZzlvhR",
+      "library_file_id": "libfile_b236e009b43c8191a783ffa1e4f4d78d",
+      "role": "identity",
+      "asset_id": "references/full/pasha.jpg",
+      "bytes": 233562,
       "media_type": "image",
-      "owner_approval": "not_recorded",
+      "owner_approval": "user_supplied_identity",
       "assistant_qc": {
-        "status": "passed_in_previous_work",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
-        "path": "references/scenes/scene-17/S17-cave-Video1-frame-003s.png",
+        "path": "references/full/pasha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "dimensions": [
+        1536,
+        1536
+      ],
+      "drive_file_id": "1J8NI9Zk18wYgm90QCpljirKDCyZ0zMxT",
+      "library_file_id": "libfile_3ce2abb4a2148191bd130cfc5fb26fc6",
+      "role": "identity",
+      "asset_id": "references/full/sasha.jpg",
+      "bytes": 289714,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
+      },
+      "site_published": {
+        "path": "references/full/sasha.jpg",
         "linked_in_master": true,
         "git_present": true
       },
@@ -72,9 +98,9 @@
       "media_type": "image",
       "owner_approval": "not_recorded",
       "assistant_qc": {
-        "status": "source_preserved",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
         "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
@@ -82,13 +108,41 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+      "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1YA4CvDG7cZNB-v6R7K4hWS5gTVF-C0bA",
+      "library_file_id": "libfile_39f45af784cc819196451ea4d576523d",
+      "role": "location",
+      "asset_id": "references/scenes/scene-17/S17-post-battle-seated.png",
+      "bytes": 2369809,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     }
   ],
   "identity_refs": [
-    "references/full/serega.jpg"
+    "references/full/serega.jpg",
+    "references/full/pasha.jpg",
+    "references/full/sasha.jpg"
   ],
   "location_refs": [
-    "references/scenes/scene-17/S17-cave-Video1-frame-003s.png"
+    "references/scenes/scene-17/S17-post-battle-seated.png"
   ],
   "prop_refs": [
     "references/scenes/scene-17/S17-Image4-topview-source.png"
@@ -103,7 +157,7 @@
   "prompt_reference_mapping": [
     {
       "prompt": "main",
-      "canonical_prompt_sha256": "8475d6fa66254919a051e82a578628dc97197abbadf8184dae6de75707f88baf",
+      "canonical_prompt_sha256": "f7db627ade946a9b27513193186fd36e4aa30088ca6c74aa795f1d5ccbecac5e",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,
@@ -114,35 +168,36 @@
         },
         {
           "slot": "@Image2",
-          "canonical_role": "пещера/свет/пространство (кадр Scene 17)"
+          "canonical_role": "Паша (identity)"
         },
         {
           "slot": "@Image3",
-          "canonical_role": "единственная карта"
+          "canonical_role": "Саша (identity)"
+        },
+        {
+          "slot": "@Image4",
+          "canonical_role": "фрагмент карты — светящийся модуль"
+        },
+        {
+          "slot": "@Image5",
+          "canonical_role": "пещера после боя, рассадка троих (кадр Scene 17)"
         },
         {
           "slot": "@Video1",
-          "canonical_role": "готовый конец Scene 17 (уже в фильме)",
-          "input_status": "required_not_available"
-        },
-        {
-          "slot": "@Video2",
-          "canonical_role": "существующий кадр транспорта Серёги на Набу",
+          "canonical_role": "фактический конец Scene 17 из монтажа",
           "input_status": "required_not_available"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-11T00:00:00Z",
-  "last_qc_scope": "Claude Code session 11.10.2026: paths/SHA/roles reused from existing packs, mapping from the master \"Референсы\" line. No images generated, no Topview call; owner approval not recorded.",
+  "last_qc_at": "2026-10-13T22:50:55Z",
+  "last_qc_scope": "14.10.2026 owner decision: scenes 36–37 variant A (reports/scenes-36-37-proposal-2026-10-14.md). References reused from existing assets, SHA/bytes/dimensions verified; no images generated, no Topview call.",
   "remaining": [
-    "@Video1 — конец Scene 17 из монтажа: не сохранён в репозитории.",
-    "@Video2 — точный кадр транспорта на Набу: не подобран; без него сцена остаётся DRAFT (не выдумывать корабль).",
-    "Паша и Саша в кадре, но их identity-референсы в промте не приложены — решение владельца/ChatGPT (см. reports/prompt-audit-2026-10.md)."
+    "@Video1 — фактический конец Scene 17 из монтажа: выгрузить и сохранить перед запуском; без него сцена остаётся DRAFT."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",

@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-13T22:42:11+00:00",
+ "generated_at": "2026-10-13T22:51:39+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "2ce0230204d71f773c648575afa1dae681df466acbbe79210b54e374d9d58d39",
-   "bytes": 37996
+   "sha256": "61afc25556dc0b806ea60fb60ce34aa20cf0f4b586206b4c47bfd1352bbce726",
+   "bytes": 38336
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd",
-   "bytes": 357106
+   "sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
+   "bytes": 362031
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 21439,
-  "above_marker_chars": 21439,
+  "chars": 21649,
+  "above_marker_chars": 21649,
   "recent_sections_below_marker": [],
-  "sha256_12": "612ed52601b3",
+  "sha256_12": "f83e9395627d",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -255,7 +255,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 25810,
+   "offset": 25848,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 38370,
+   "offset": 38408,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -297,7 +297,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 51655,
+   "offset": 51693,
    "chars": 10200,
    "sha256_12": "353817ca7a46"
   },
@@ -319,7 +319,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 61855,
+   "offset": 61893,
    "chars": 7891,
    "sha256_12": "9889b2806cd0"
   },
@@ -341,7 +341,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 69746,
+   "offset": 69784,
    "chars": 36224,
    "sha256_12": "0ae7b2df08c0"
   },
@@ -361,7 +361,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 105970,
+   "offset": 106008,
    "chars": 130427,
    "sha256_12": "dcd69af7849d"
   },
@@ -385,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 236397,
+   "offset": 236435,
    "chars": 9222,
    "sha256_12": "85538d29ff9a"
   },
@@ -409,7 +409,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 245619,
+   "offset": 245657,
    "chars": 9061,
    "sha256_12": "b7e2d8b4a234"
   },
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 254680,
+   "offset": 254718,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 263688,
+   "offset": 263726,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 269564,
+   "offset": 269602,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -492,13 +492,13 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 275963,
+   "offset": 276001,
    "chars": 7787,
    "sha256_12": "2dbb4299d3e9"
   },
   {
    "id": 36,
-   "title": "После пещеры: Серёга с картой направляется к кораблю",
+   "title": "После пещеры: Серёга уходит с фрагментом карты",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -509,15 +509,17 @@
    "refs": [
     "@Image1",
     "@Image2",
-    "@Image3"
+    "@Image3",
+    "@Image4",
+    "@Image5"
    ],
-   "offset": 283750,
-   "chars": 7226,
-   "sha256_12": "da50cffb5d16"
+   "offset": 283788,
+   "chars": 9360,
+   "sha256_12": "e384fd83de7d"
   },
   {
    "id": 37,
-   "title": "Полёт Серёги к лесной планете и стык с отдельной группой",
+   "title": "Отлёт Серёги с Набу к лесной планете",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -532,9 +534,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 290976,
-   "chars": 7681,
-   "sha256_12": "f81fe6c5166e"
+   "offset": 293148,
+   "chars": 9775,
+   "sha256_12": "c1bdff2b503e"
   },
   {
    "id": 38,
@@ -553,7 +555,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 298657,
+   "offset": 302923,
    "chars": 9544,
    "sha256_12": "7fcc8220229a"
   }

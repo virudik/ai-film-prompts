@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 37,
-  "updated_at": "2026-10-11T00:00:00Z",
+  "updated_at": "2026-10-13T22:50:55Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -20,9 +20,9 @@
       "media_type": "image",
       "owner_approval": "user_supplied_identity",
       "assistant_qc": {
-        "status": "passed_in_previous_work",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
         "path": "references/full/serega.jpg",
@@ -32,52 +32,52 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/full/vitalik.jpg",
-      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
       "dimensions": [
-        1536,
-        1536
+        1600,
+        900
       ],
-      "drive_file_id": "1pwKCeOlclqiSIeE6v2ncth94Gny6o7nv",
-      "library_file_id": "libfile_1c5dd93a5dd48191b884fed687e314ae",
-      "role": "identity",
-      "asset_id": "references/full/vitalik.jpg",
-      "bytes": 277558,
+      "drive_file_id": "1biqJcdwU4xb5-dwoQLE8DQhrIxEbRYE2",
+      "library_file_id": "libfile_03e8512aec548191908ce3e31462aadd",
+      "role": "prop",
+      "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "bytes": 222565,
       "media_type": "image",
-      "owner_approval": "user_supplied_identity",
+      "owner_approval": "not_recorded",
       "assistant_qc": {
-        "status": "passed_in_previous_work",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
-        "path": "references/full/vitalik.jpg",
+        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
         "linked_in_master": true,
         "git_present": true
       },
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/full/lesha.jpg",
-      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
       "dimensions": [
-        1536,
-        857
+        1600,
+        900
       ],
-      "drive_file_id": "10ZQtV_Sl-8U-dXFhUvsUm2AHor_HLy09",
-      "library_file_id": "libfile_b2cdfbc101cc8191a4a5967015946b78",
-      "role": "identity",
-      "asset_id": "references/full/lesha.jpg",
-      "bytes": 161032,
+      "drive_file_id": "1XclssPl3-Oy0KHXrF_ZevWbQAxjBKte9",
+      "library_file_id": "libfile_d0521cf568fc8191a297579db43c1e88",
+      "role": "location_palette",
+      "asset_id": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "bytes": 1351161,
       "media_type": "image",
-      "owner_approval": "user_supplied_identity",
+      "owner_approval": "not_recorded",
       "assistant_qc": {
-        "status": "passed_in_previous_work",
-        "evidence": "08.10.2026 handoff + saved asset receipts; current run verifies bytes and prompt mapping",
-        "checked_at": "2026-10-08"
+        "status": "reused_existing_asset",
+        "evidence": "14.10.2026 variant A: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-13"
       },
       "site_published": {
-        "path": "references/full/lesha.jpg",
+        "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
         "linked_in_master": true,
         "git_present": true
       },
@@ -85,12 +85,14 @@
     }
   ],
   "identity_refs": [
-    "references/full/serega.jpg",
-    "references/full/vitalik.jpg",
-    "references/full/lesha.jpg"
+    "references/full/serega.jpg"
   ],
-  "location_refs": [],
-  "prop_refs": [],
+  "location_refs": [
+    "references/scenes/scene-19/S19-Image1-topview-source.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-17/S17-Image4-topview-source.png"
+  ],
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [],
@@ -101,7 +103,7 @@
   "prompt_reference_mapping": [
     {
       "prompt": "main",
-      "canonical_prompt_sha256": "b1b485443de677423bdf8cb29ffd4a8bab066eac7748c6549afb3230cac048f1",
+      "canonical_prompt_sha256": "7eaaa98ede8fc4ee3118302b7c9f645e31519a8d4aa1b9a39de6281f2defb1b1",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,
@@ -111,41 +113,35 @@
           "canonical_role": "Серёга (identity)"
         },
         {
+          "slot": "@Image2",
+          "canonical_role": "фрагмент карты — светящийся модуль"
+        },
+        {
+          "slot": "@Image3",
+          "canonical_role": "пейзаж Набу: озеро, луг, деревья (только палитра)"
+        },
+        {
           "slot": "@Video1",
-          "canonical_role": "конец Scene 36 / настоящий корабль",
+          "canonical_role": "корабль и кабина Канцлера из ч. 1, 09:20–09:55",
           "input_status": "required_not_available"
         },
         {
           "slot": "@Video2",
-          "canonical_role": "существующий кадр корабля/планеты из монтажа",
+          "canonical_role": "установочный план лесной планеты, 51:52–52:40 (только планета)",
           "input_status": "required_not_available"
-        },
-        {
-          "slot": "@Video3",
-          "canonical_role": "точный открывающий кадр лесной группы Кашиика",
-          "input_status": "required_not_available"
-        },
-        {
-          "slot": "@Image2",
-          "canonical_role": "Виталик (только identity, если пара видна в стыке)"
-        },
-        {
-          "slot": "@Image3",
-          "canonical_role": "Лёша/«Лёха» (только identity, если пара видна в стыке)"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-11T00:00:00Z",
-  "last_qc_scope": "Claude Code session 11.10.2026: paths/SHA/roles reused from existing packs, mapping from the master \"Референсы\" line. No images generated, no Topview call; owner approval not recorded.",
+  "last_qc_at": "2026-10-13T22:50:55Z",
+  "last_qc_scope": "14.10.2026 owner decision: scenes 36–37 variant A (reports/scenes-36-37-proposal-2026-10-14.md). References reused from existing assets, SHA/bytes/dimensions verified; no images generated, no Topview call.",
   "remaining": [
-    "@Video1 — конец Scene 36 ещё не создан.",
-    "@Video2 — кадр корабля/планеты из монтажа не выбран.",
-    "@Video3 — открывающий кадр лесной группы не выбран."
+    "@Video1 — корабль и кабина Канцлера из ч. 1 (09:20–09:55): выгрузить из монтажа перед запуском.",
+    "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",

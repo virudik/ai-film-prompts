@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 35,
-  "updated_at": "2026-10-11T18:33:28Z",
+  "updated_at": "2026-10-13T22:50:55Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -75,7 +75,7 @@
   "prompt_reference_mapping": [
     {
       "prompt": "main",
-      "canonical_prompt_sha256": "3cad59407049acaf9f780dd2851d36844bfcb5aec1ac0bf7d2ed804a47037d33",
+      "canonical_prompt_sha256": "60ec2cc960dfa933964e64679fa0f7e61edf4a1e3435d8216fd8a7960b0ff93a",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,
@@ -103,7 +103,7 @@
     "Внешняя генерация 6d1ff4a96a0043f2884ffb528d5d9c9a уже активна. В фактических inputImages только Image1/2, Video1/Image3 отсутствуют. Не дублировать и не отменять: после результата проверить стык 34→35. Сохранённый последний кадр34 — candidate_external_inputs, не вход активной задачи."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "2a018157146fbafcac246d14f3e2ab98d2b3861eae6206215b4e5c28bf8a0d4d",
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",

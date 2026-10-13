@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 31,
-  "updated_at": "2026-10-10T12:34:45Z",
+  "updated_at": "2026-10-13T22:50:55Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -215,7 +215,8 @@
           "slot": "@Image6",
           "canonical_role": "опциональный масштаб"
         }
-      ]
+      ],
+      "canonical_prompt_sha256": "1c561b10d4a660e6f17fae6a1899b633d00223c5b5e6cb6445dbebcb2d03b121"
     }
   ],
   "site_published": true,
@@ -225,7 +226,7 @@
     "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt"

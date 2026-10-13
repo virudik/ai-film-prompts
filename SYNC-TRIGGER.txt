@@ -1,1 +1,1 @@
-2026-10-13T22:37:53Z Claude: Scenes 30–34 prompt format unified to PROMPT-STYLE-GUIDE §5A (meaning, references and timings unchanged); SHA256 141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-13T22:51:39Z Claude: Scenes 36–37 rewritten per owner decision (variant A); SHA256 c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b. Sync exact master -> validator -> project-status -> GitHub Pages.

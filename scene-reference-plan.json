@@ -436,14 +436,12 @@
       "manifest": "references/scenes/scene-36/manifest.json",
       "status": "draft_inputs_pending",
       "canonical_state": "active",
-      "reference_count": 3,
-      "checked_at": "2026-10-11T18:26:33Z",
+      "reference_count": 5,
+      "checked_at": "2026-10-13T22:50:55Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 1,
       "remaining": [
-        "@Video1 — конец Scene 17 из монтажа: не сохранён в репозитории.",
-        "@Video2 — точный кадр транспорта на Набу: не подобран; без него сцена остаётся DRAFT (не выдумывать корабль).",
-        "Паша и Саша в кадре, но их identity-референсы в промте не приложены — решение владельца/ChatGPT (см. reports/prompt-audit-2026-10.md)."
+        "@Video1 — фактический конец Scene 17 из монтажа: выгрузить и сохранить перед запуском; без него сцена остаётся DRAFT."
       ],
       "drive_folder_id": null,
       "library_path": null,
@@ -456,13 +454,12 @@
       "status": "draft_inputs_pending",
       "canonical_state": "active",
       "reference_count": 3,
-      "checked_at": "2026-10-11T18:26:33Z",
+      "checked_at": "2026-10-13T22:50:55Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 1,
       "remaining": [
-        "@Video1 — конец Scene 36 ещё не создан.",
-        "@Video2 — кадр корабля/планеты из монтажа не выбран.",
-        "@Video3 — открывающий кадр лесной группы не выбран."
+        "@Video1 — корабль и кабина Канцлера из ч. 1 (09:20–09:55): выгрузить из монтажа перед запуском.",
+        "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать."
       ],
       "drive_folder_id": null,
       "library_path": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 33,
-  "updated_at": "2026-10-10T12:34:45Z",
+  "updated_at": "2026-10-13T22:50:55Z",
   "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -90,7 +90,8 @@
           "slot": "@Image2",
           "canonical_role": "та же древняя планета/город-руины"
         }
-      ]
+      ],
+      "canonical_prompt_sha256": "cb55ccaf87e669e7497a4ca4d521cab11821a8e230f37d6baf4ee0e9920c4095"
     }
   ],
   "site_published": true,
@@ -100,7 +101,7 @@
     "Drive Scene Reference Pack folder and Library copy not created (reused assets already live in packs of Scenes 10/26/27)"
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "ec8d8d23965432c7a989795262236a29179e389924feaf6ae968d10520cf4b9d",
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt"

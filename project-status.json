@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-13T22:50:13Z",
+  "synced_at": "2026-10-13T22:51:39Z",
   "revision_date": "13.10.2026",
   "master_declared_last_full_sync": "13.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd",
-  "canonical_revision_sha256": "1f44db13401100135b5b19a0303bc2cc277658889622a220c7be5c233ecd4ef2",
-  "canonical_master_bytes": 357106,
+  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
+  "canonical_revision_sha256": "a08ecc82e42aeb258de157b6f2e65aad074821198715cede79144577751df959",
+  "canonical_master_bytes": 362031,
   "scenes": 15,
   "prompt_texts": 36,
   "work_items": [
@@ -79,16 +79,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-13T22:42:11.327Z",
+    "snapshot_at": "2026-10-13T22:51:08.564Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.134,
+    "age_hours_at_status_build": 0.008,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "bb8d3e70a5f98e2e4bd0fceac15964aab1fe2933",
-        "mirror_sha256": "2ce0230204d71f773c648575afa1dae681df466acbbe79210b54e374d9d58d39",
+        "github_blob": "2bcc332e0c3fa39bbc6235c281a3c218c738f671",
+        "mirror_sha256": "61afc25556dc0b806ea60fb60ce34aa20cf0f4b586206b4c47bfd1352bbce726",
         "match": true,
         "drive_copy_sha256": "eb4e1be5d893951f75125975a9ecadc7aa8b73afce9707f16d539348b974cae0",
         "drive_copy_match": true,
@@ -161,7 +161,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.134,
+      "age_hours": 0.008,
       "blocking": false
     },
     "topview_task_map": {
@@ -425,7 +425,10 @@
       "dependencies": [],
       "tags": [
         "serega",
-        "nabu",
+        "pasha",
+        "sasha",
+        "naboo",
+        "cave",
         "map",
         "depart",
         "continuity"
@@ -449,8 +452,10 @@
       "tags": [
         "serega",
         "travel",
-        "forest",
+        "naboo",
+        "forest_planet",
         "map",
+        "bread_and_milk",
         "continuity"
       ],
       "render_state": "IDLE"
@@ -481,9 +486,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "13.10.2026",
-    "synced_at": "2026-10-13T22:50:13Z",
-    "canonical_master_sha256": "141a1e0e885f31ae2b1a5f1acdb0001efa7619af9b1bac58398b850afe6f3bbd",
-    "canonical_revision_sha256": "1f44db13401100135b5b19a0303bc2cc277658889622a220c7be5c233ecd4ef2",
+    "synced_at": "2026-10-13T22:51:39Z",
+    "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
+    "canonical_revision_sha256": "a08ecc82e42aeb258de157b6f2e65aad074821198715cede79144577751df959",
     "scene_count": 15,
     "prompt_count": 36,
     "scene_ids": [
