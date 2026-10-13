@@ -61,7 +61,7 @@ Workflow (`.github/workflows/`):
 
 Внешний запуск: GitHub `schedule:` ненадёжен, поэтому Supabase pg_cron + pg_net вызывает `workflow_dispatch`: `topview-robot.yml` — каждые 10 минут, `sync-from-drive.yml` — :02/:12/…, `topview-video-archive.yml` — :05/:15/… Токен — в Supabase Vault; SQL без секретов — `ops/supabase/`; справка — `ops/ROBOT-TRIGGER.md`. Расписания в самих workflow оставлены запасными.
 
-Ключевые скрипты: `scripts/cert_github.py` (сертификат инструкций), `scripts/monitor_role.py` (роль писателя: `claude` / `chatgpt` / `robot`), `scripts/master_scene_edit.py`, `scripts/topview_prompt_match.py` (привязка задача → сцена только по точному или нормализованному совпадению промта).
+Ключевые скрипты: `scripts/cert_github.py` (сертификат инструкций), `scripts/monitor_role.py` (роль писателя: `claude` / `chatgpt` / `robot`), `scripts/master_scene_edit.py` (правка блока сцены), `scripts/master_slow_edit.py` (минимальная правка slow-меток и таблицы; одна метка на сцену), `scripts/topview_prompt_match.py` (привязка задача → сцена только по точному или нормализованному совпадению промта).
 
 ## Кнопки владельца
 

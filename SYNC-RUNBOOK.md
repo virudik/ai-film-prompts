@@ -43,7 +43,7 @@ GitHub `schedule:` ненадёжен (по истории запусков 12�
 
 ### Автоархив готовых Topview MP4 в Drive (13.10.2026)
 
-`.github/workflows/topview-video-archive.yml` + `scripts/topview_video_archive.py` копируют успешные ролики **только активных сцен** master (`project-status.json.scene_ids`) в приватную папку Drive (`AI Film Prompts Master / AI Film Generated Videos / Scene-NN / <task_id>.mp4`); индекс — `topview-video-archive.json`. Полное описание — `ops/TOPVIEW-VIDEO-ARCHIVE.md` и верхний блок `NEW-CHAT-HANDOFF.md` «АВТОАРХИВ ГОТОВЫХ MP4 В DRIVE». Решение владельца 13.10: «🎞 В фильме» = сцена одобрена, добавлена в фильм и убрана из master — её ролики больше не копируются (уже заархивированное остаётся). Для исполнителя:
+`.github/workflows/topview-video-archive.yml` + `scripts/topview_video_archive.py` копируют успешные ролики **только активных сцен** master (`project-status.json.scene_ids`) в приватную папку Drive (`AI Film Prompts Master / AI Film Generated Videos / Scene-NN / <task_id>.mp4`); индекс — `topview-video-archive.json`. Полное описание — `ops/TOPVIEW-VIDEO-ARCHIVE.md` и блок `NEW-CHAT-HANDOFF.md` «Автоархив MP4 в Drive». Решение владельца 13.10: «🎞 В фильме» = сцена одобрена, добавлена в фильм и убрана из master — её ролики больше не копируются (уже заархивированное остаётся). Для исполнителя:
 
 1. workflow независим от монитора, робота кнопок и canonical slow; пишет в git только `topview-video-archive.json`;
 2. запись в индексе появляется лишь после проверки имени, папки `Scene-NN`, размера и MD5 в Drive;
