@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-13T22:15:19.239Z",
+  "checked_at": "2026-10-13T22:25:39.781Z",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -69,8 +69,8 @@
     },
     "BACKUP-AI-RUNBOOK.md": {
       "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-      "github_blob": "b967036b7fb08177fdcb7a40aa2e12e6e6a77afc",
-      "mirror_sha256": "b8f5f248497a7d1afc74dfa930d949ec0c81bb7a4473150ece1cd2ac643d636a",
+      "github_blob": "b0f8d1346f5e6316da065545e5898145b778f038",
+      "mirror_sha256": "c9fc05c29a4b004bef4dab480ad6dfa49d01726f972ec3213efc9d03618387fa",
       "match": true,
       "drive_copy_sha256": "8124c33b1836c3a94a07f52dcaa3ee8f9627bd52562d140e94079d6ab7ab0707",
       "drive_copy_match": true,
