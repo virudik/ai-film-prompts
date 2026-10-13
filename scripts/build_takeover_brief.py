@@ -49,7 +49,7 @@ INVARIANTS = [
      "SYNC-RUNBOOK.md", r"^### Точное ТЗ — Topview slow slots", ["6"]),
     ("INV-ONE-MONITOR", "One writer, decided by monitor-role.json + scripts/monitor_role.py: since 13.10.2026 the GitHub robot (topview-robot.yml → robot_telemetry.py, every 10 min via Supabase pg_cron) is primary, ChatGPT is standby and takes over only after 180 min without a verified healthy robot cycle; the Claude monitor is off; kill switch ROBOT_TELEMETRY=shadow. Old ChatGPT HH:00 monitor and archived Recovery/slot-watcher stay off.",
      "NEW-CHAT-HANDOFF.md", r"^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ", ["monitor-role.json"]),
-    ("INV-NO-FAKE-TIME", "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.", "SYNC-RUNBOOK.md", r"^### 5\. Background connector degradation", ["checked_at"]),
+    ("INV-NO-FAKE-TIME", "Never fake checked_at/queue/ETA; partial phases keep last confirmed timestamps.", "SYNC-RUNBOOK.md", r"^### Background connector degradation", ["checked_at"]),
     ("INV-OWNER-BOUNDARY", "Owner decides only creative/editorial choices, ambiguous task↔Scene mapping, approval, rerender, deletion/closing; deterministic work is done by the agent; never ask for info already in sources.",
      "AI-PROJECT-GUIDE.md", r"^## 14\. Поведение нового сменщика", ["пользовател"]),
     ("INV-PROMPT-AUTONOMY", "Every copyable prompt is self-contained: identity lock, reference roles/priority, camera/space, timeline, native audio, negatives, FRAME FILL.",
@@ -59,7 +59,7 @@ INVARIANTS = [
     ("INV-NO-CREDITS", "No paid generation or credit spending without the canonical workflow and owner permission; launches only on owner command.",
      "SYNC-RUNBOOK.md", r"^## Scene Reference Pack automation", ["credit"]),
     ("INV-LIBRARY-NONBLOCKING", "Library is best-effort, never a completion gate.", "SYNC-RUNBOOK.md", r"^## LIBRARY RECOVERY", ["Library"]),
-    ("INV-DONE", "Never say «готово» before the relevant read-back/verification passed.", "SYNC-RUNBOOK.md", r"^## 15\. Verification before final answer", ["verif"]),
+    ("INV-DONE", "Never say «готово» before the relevant read-back/verification passed.", "SYNC-RUNBOOK.md", r"^## 14\. Verification before final answer", ["verif"]),
 ]
 
 # Minimal read sets per task, on top of the brief. 'full' = whole file.
@@ -68,10 +68,10 @@ READ_SETS = {
                  "note": "Shadow only. Production takeover remains the full 7+master+status read until the owner decides."},
     "prompt_edit": {"docs": {"PROMPT-STYLE-GUIDE.md": "full"}, "master": "target_scene_full + neighbours_full",
                     "extra": ["character-references.json (target identities)"]},
-    "new_scene": {"docs": {"PROMPT-STYLE-GUIDE.md": "full", "SYNC-RUNBOOK.md": [r"^## 4\. Routine: добавить новую scene", r"^## 19\. Topview task intake"]},
+    "new_scene": {"docs": {"PROMPT-STYLE-GUIDE.md": "full", "SYNC-RUNBOOK.md": [r"^## 4\. Routine: добавить новую scene", r"^## 18\. Topview task intake"]},
                   "master": "last_two_scenes_full + header", "extra": ["character-references.json"]},
     "story_edit": {"docs": {}, "master": "relevant_scenes_full", "extra": ["film-analysis.md", "film-backlog.md", "montage v2", "Notion «Кино»"]},
-    "topview_check": {"docs": {"SYNC-RUNBOOK.md": [r"^### Порядок фаз единого монитора", r"^### Точное ТЗ — Topview slow slots", r"^### Hourly publish gate"]},
+    "topview_check": {"docs": {"SYNC-RUNBOOK.md": [r"^### Порядок фаз цикла монитора", r"^### Точное ТЗ — Topview slow slots", r"^### Publish gate"]},
                       "master": "none_unless_slow_change", "extra": ["topview-status.json", "topview-task-map.json", "topview-checkpoint.json"]},
     "instruction_change": {"docs": "ALL_FULL", "master": "none", "note": "material change: full current cycle"},
     "recovery": {"docs": "ALL_FULL", "master": "full", "note": "always full"},
