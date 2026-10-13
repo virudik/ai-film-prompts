@@ -1,10 +1,10 @@
 # AI Film Prompts Master
 
-Public mirror, recovery documentation and Control Center for the AI Film project.
+Canonical repository (prompt master, instructions, statuses), recovery documentation and Control Center for the AI Film project.
 
 ## Canonical source
 
-The **only editable prompt master** is Google Drive `AI Film Prompts Master/video-prompts.md` (Drive ID `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj`). This repository is a mirror/site/status layer, not a second master.
+Since 11.10.2026 the **only editable canon is this repository, branch `main`**: `video-prompts.md` (prompt master) and the seven instruction documents listed below. Google Drive (`AI Film Prompts Master`), Notion, ChatGPT Library and Project files are read-only backup copies, refreshed automatically; they never override `main`. Edits are minimal commits to `main` followed by validation, status and Pages checks (see `CLAUDE.md` and `SYNC-RUNBOOK.md`).
 
 ## New-chat / takeover reading order
 
@@ -18,7 +18,7 @@ Before editing the project, read the full instruction/recovery set:
 6. [`README-AI-SYNC.md`](./README-AI-SYNC.md)
 7. [`BACKUP-AI-RUNBOOK.md`](./BACKUP-AI-RUNBOOK.md)
 
-Then read fresh Drive master plus live `project-status.json`, `topview-status.json`, and `instruction-sync-status.json`.
+Then read `video-prompts.md` from fresh `main` plus live `project-status.json`, `topview-status.json`, `instruction-sync-status.json`, `monitor-role.json` and open owner tasks.
 
 ## Prompt standard
 
@@ -39,14 +39,14 @@ Current site includes active-scene navigation, full prompts, merged slow/Topview
 
 ## Material-change rule
 
-A material site/workflow/prompt-standard/authority change is not complete until the relevant Drive instructions and `NEW-CHAT-HANDOFF.md` are updated, mirrored to GitHub, verification status is refreshed, and recovery notes in Notion/Library are updated where applicable.
+A material site/workflow/prompt-standard/authority change is not complete until the relevant instructions and `NEW-CHAT-HANDOFF.md` are updated in `main`, `python3 scripts/cert_github.py .` and the tests pass, and the Pages deployment is verified. Backup copies (Drive, Notion pointer, Library) are refreshed best-effort afterwards.
 
 ## New-chat takeover
-Before acting as the project editor, a new chat must read all seven canonical project/recovery documents mirrored in this repository, then fresh Google Drive `video-prompts.md` and live status JSON. It must also review:
+Before acting as the project editor, a new chat must read all seven canonical project/recovery documents in this repository, then `video-prompts.md` and the live status JSON from fresh `main`. It must also review:
 - [Characters / references](./references.html) + `character-references.json` to map canonical names/aliases to approved model sheets and current prompt usage;
 - [Montage analysis](./Seregius_montazhny_razbor.html) together with `film-analysis.md` and `film-backlog.md`.
 
-Only after a cross-layer audit of Drive ↔ GitHub ↔ site ↔ references ↔ montage context ↔ Notion ↔ Library should the new chat report that it is ready to continue the predecessor's work.
+Only after a cross-layer audit of `main` ↔ site/Pages ↔ references ↔ montage context ↔ Notion (backup copies are checked best-effort) should the new chat report that it is ready to continue the predecessor's work.
 
 Natural-language character shorthand is expected: requests such as “Паша говорит Саше, потом заходит Серёжа” should be resolved from the approved character registry/current master without asking the user to repeat known appearance.
 
