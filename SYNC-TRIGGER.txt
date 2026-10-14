@@ -1,1 +1,1 @@
-2026-10-14T00:38:50Z Reconcile previously applied explicit owner redo buttons for scenes 24,25,27,30,31. Reviewed in Supabase and ledger; no Topview tasks or physical slots changed.
+2026-10-14T00:42:25Z GitHub robot (owner panel): redo сцена 24; redo сцена 25; redo сцена 27; redo сцена 30; redo сцена 31; SHA256 5dd34a19cfa1f15b3f9922d2d00256b4c59cb3f65f23df3000874dfc6421b263. Sync exact master -> validator -> project-status -> GitHub Pages.
