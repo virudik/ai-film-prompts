@@ -1,1 +1,1 @@
-2026-10-13T22:51:39Z Claude: Scenes 36–37 rewritten per owner decision (variant A); SHA256 c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-14T00:38:50Z Reconcile previously applied explicit owner redo buttons for scenes 24,25,27,30,31. Reviewed in Supabase and ledger; no Topview tasks or physical slots changed.
