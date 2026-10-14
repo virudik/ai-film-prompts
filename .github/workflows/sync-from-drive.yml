@@ -336,7 +336,7 @@ jobs:
           exit 0
 
   owner_decisions:
-    name: Apply deterministic owner buttons (Supabase -> review ledger)
+    name: Apply deterministic owner buttons (Supabase -> ledger and canonical slow)
     needs: [sync]
     # Owner-approved 12.10.2026: process buttons every 30 min and on direct human push.
     # Do not recurse on bot pushes; commit-before-ack and rebase safety remain.
@@ -349,7 +349,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Process site button decisions without modifying master
+      - name: Phase 1 - bad result button (ledger only)
         shell: bash
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
@@ -393,7 +393,7 @@ jobs:
             exit 1
           fi
 
-      - name: Phase 2 - master buttons (in_film / scene_not_needed / tv_drop_task)
+      - name: Phase 2 - master and editorial owner buttons (slow release)
         # Explicit owner approval 12.10: ON by default. An explicit GitHub variable
         # ROBOT_MASTER_ACTIONS=off pauses the phase. Conflicting/active scenes are guarded
         # inside robot_master_actions.py (never auto-generate or approve by Topview).

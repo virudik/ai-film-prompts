@@ -64,6 +64,23 @@ def apply_plan(t, plan, date):
     lines[rows_end:rows_end] = new_rows
     rows_end += len(new_rows)
 
+    # Explicit owner review closes editorial waiting for every terminal task of a
+    # scene, while preserving each task ID and the physical provider slot counts.
+    reviewed_scenes = {}
+    for item in plan.get("release", []):
+        sid, action = int(item["scene"]), item["action"]
+        assert action in ("accept", "redo", "to_montage")
+        assert sid not in reviewed_scenes
+        reviewed_scenes[sid] = action
+        decision = {"accept": "принято", "redo": "на переделку", "to_montage": "в монтаж"}[action]
+        found = 0
+        for i in range(rows_start, rows_end):
+            if re.match(rf"^\\|\\s*{sid}\\s+—", lines[i]) and LABEL in lines[i]:
+                lines[i] = lines[i].replace(LABEL, "✅ Решение владельца: " + decision)
+                lines[i] = lines[i].replace("ждёт решения владельца", "решение владельца применено")
+                found += 1
+        assert found, ("slow row not found for explicit owner review", sid)
+
     active_rows = [l for l in lines[rows_start:rows_end] if LABEL in l]
     active_by_scene = {}
     for l in active_rows:
@@ -101,7 +118,7 @@ def apply_plan(t, plan, date):
             finished_lines.setdefault(f["scene"], []).append(f"{f['model']} task `{f['task_id']}` снята с учёта владельцем («Не ждать») {f['finished_utc']}. Отмена самой задачи в Topview — вручную; новый запуск только по решению владельца.")
         else:
             finished_lines.setdefault(f["scene"], []).append(f"{f['model']} task `{f['task_id']}` завершился ошибкой Topview (`{f['final_status']}`) {f['finished_utc']}. Новый запуск — только по решению владельца.")
-    touched = {x["scene"] for x in plan.get("add", [])} | {x["scene"] for x in plan.get("finish", [])}
+    touched = {x["scene"] for x in plan.get("add", [])} | {x["scene"] for x in plan.get("finish", [])} | set(reviewed_scenes)
     for sid in sorted(touched):
         is_slow = sid in active_by_scene
         # TOC
@@ -114,8 +131,12 @@ def apply_plan(t, plan, date):
             new = row[: row.rstrip().rfind("|")].rstrip() + f"<br>**{LABEL}** |"
         elif not is_slow and has:
             only_dropped = all(f["final_status"] == ABANDONED for f in plan.get("finish", []) if f["scene"] == sid)
-            tail_txt = (" Задача снята с учёта владельцем («Не ждать»). |" if only_dropped
-                        else " Технический результат получен; требуется отдельная редакционная проверка. |")
+            if sid in reviewed_scenes:
+                decision = {"accept": "принято", "redo": "на переделку", "to_montage": "в монтаж"}[reviewed_scenes[sid]]
+                tail_txt = " Решение владельца: " + decision + "; ожидание завершено. |"
+            else:
+                tail_txt = (" Задача снята с учёта владельцем («Не ждать»). |" if only_dropped
+                            else " Технический результат получен; требуется отдельная редакционная проверка. |")
             new = row.replace(f"<br>**{LABEL}** |", tail_txt)
         t = t.replace(row, new, 1)
         # section

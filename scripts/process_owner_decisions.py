@@ -17,9 +17,9 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 BASE = "https://vzohfatqzyioydtgjiyd.supabase.co/rest/v1/owner_decisions"
-AUTO = {"accept", "redo", "to_montage", "tv_mark_status"}
-# Phase 2 (direct master commit, behind the GitHub variable ROBOT_MASTER_ACTIONS=on):
-MASTER_ACTIONS = {"in_film", "scene_not_needed", "tv_drop_task"}
+AUTO = {"tv_mark_status"}
+# Owner review must atomically update ledger AND canonical slow (phase 2).
+MASTER_ACTIONS = {"in_film", "scene_not_needed", "tv_drop_task", "accept", "redo", "to_montage"}
 MAX_ROWS = 100
 CLAIM = "github-owner-sync:"
 ROOT = Path(__file__).resolve().parents[1]
@@ -66,6 +66,9 @@ def button_token(row):
 _CONFLICTS = {
     "in_film": {"redo", "result_bad", "scene_not_needed"},
     "scene_not_needed": {"accept", "to_montage", "redo", "result_bad", "result_ok", "in_film"},
+    "accept": {"redo", "result_bad", "scene_not_needed"},
+    "redo": {"accept", "to_montage", "result_ok", "in_film", "scene_not_needed"},
+    "to_montage": {"redo", "result_bad", "scene_not_needed"},
 }
 
 
@@ -76,8 +79,7 @@ def master_conflict(master_tokens, other_tokens):
 
 def eligible(row):
     action = row["action"]
-    return (action in ("accept", "redo", "to_montage")
-            or (action == "tv_mark_status" and row.get("value") == "result_bad"))
+    return action == "tv_mark_status" and row.get("value") == "result_bad"
 
 
 def transform(ledger_row, action, stamp):

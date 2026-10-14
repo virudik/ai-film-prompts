@@ -4,6 +4,7 @@
   in_film           «🎞 В фильме»   – scene is done and already in the film: ledger + remove from master
   scene_not_needed  «✕ Не нужна»    – remove the scene from master (no ledger verdict)
   tv_drop_task      «Не ждать»      – stop waiting for a Topview task (slow list, task map, telemetry)
+  accept/redo/to_montage – explicit review decision; atomically updates ledger and slow after terminal
 
 Scene IDs are reserved forever. Everything ambiguous → Supabase `needs_owner`, nothing touched:
 active Topview task on the scene, contradicting buttons, an open owner_task on the scene,
@@ -40,6 +41,7 @@ import process_owner_decisions as pod    # noqa: E402
 
 CLAIM = pod.CLAIM
 RETIRE = ("in_film", "scene_not_needed")
+REVIEW = ("accept", "redo", "to_montage")
 TASK_RE = re.compile(r"^[0-9a-f]{32}$")
 FILES = ("video-prompts.md", "review-ledger.json", "topview-task-map.json", "topview-status.json",
          "topview-checkpoint.json", "topview-operation-journal.json")
@@ -82,7 +84,7 @@ def is_mine(row):
 
 @dataclass
 class Group:
-    kind: str                 # 'retire' | 'drop'
+    kind: str                 # 'retire' | 'drop' | 'review'
     scene: int
     actions: list
     rows: list
@@ -155,6 +157,23 @@ def _task_location(tm, task_id):
         if p.get("task_id") == task_id:
             return ("processed", p.get("scene_id"))
     return (None, None)
+
+
+def _scene_has_physical_active_task(st, scene):
+    sid = str(scene)
+    if st["topview-task-map.json"].get("active_by_scene", {}).get(sid):
+        return True
+    return any(str(t.get("scene_id")) == sid for t in st["topview-status.json"].get("active_tasks", []))
+
+
+def _scene_has_confirmed_terminal(st, scene):
+    sid = str(scene)
+    terminal = ("success", "fail", "failed", "cancelled", "canceled")
+    return (any(str(t.get("scene_id")) == sid and
+                str(t.get("final_status", "")).lower() in terminal
+                for t in st["topview-task-map.json"].get("processed_tasks", []))
+            or str(st["topview-status.json"].get("scenes", {}).get(sid, {}).get("topview_status", "")).lower()
+               in terminal)
 
 
 def _scene_has_active_task(st, scene):
@@ -235,8 +254,17 @@ def evaluate(rows, st, *, now=None):
     for r in mine:
         if r["action"] in RETIRE:
             scenes.setdefault(str(r.get("scene_id")), []).append(r)
+    review_scenes = {}
+    for r in mine:
+        if r["action"] in REVIEW:
+            review_scenes.setdefault(str(r.get("scene_id")), []).append(r)
+    review_consumed = set()
     for sid, rs in sorted(scenes.items(), key=lambda kv: kv[0].zfill(6)):
-        actions = sorted({r["action"] for r in rs})
+        review_here = review_scenes.get(sid, [])
+        if review_here:
+            review_consumed.add(sid)
+            rs = rs + review_here
+        actions = sorted({r["action"] for r in rs if r["action"] in RETIRE})
         try:
             scene = int(sid)
         except ValueError:
@@ -248,6 +276,10 @@ def evaluate(rows, st, *, now=None):
             g.reason = "одновременно «В фильме» и «Не нужна»"
             continue
         mode = actions[0]
+        review_actions = {r["action"] for r in rs if r["action"] in REVIEW}
+        if review_actions and (mode != "in_film" or not review_actions.issubset({"accept", "to_montage"})):
+            g.reason = "«В фильме»/«Не нужна» противоречит принятию/переделке"
+            continue
         around = [r for r in open_for_scene(scene) if r.get("action") != "tv_drop_task"]
         if any(r.get("action") == "owner_task" for r in around):
             g.verdict, g.reason = "defer", "по сцене открыта текстовая задача владельца"
@@ -277,6 +309,65 @@ def evaluate(rows, st, *, now=None):
             g.verdict, g.reason = "noop", "сцена уже убрана из master (Scene ID зарезервирован)"
         else:
             g.verdict = "apply"
+
+    # ---- Reviewed by explicit owner button: ledger and canonical slow are
+    # committed atomically; physical Topview telemetry and Scene ID stay intact.
+    for sid, rs in sorted(review_scenes.items(), key=lambda kv: kv[0].zfill(6)):
+        if sid in review_consumed:
+            continue
+        acts = sorted({r["action"] for r in rs})
+        try:
+            scene = int(sid)
+        except ValueError:
+            groups.append(Group("review", -1, acts, rs, reason="Scene ID не указан"))
+            continue
+        g = Group("review", scene, acts, rs)
+        groups.append(g)
+        others_here = open_for_scene(scene)
+        if any(r.get("action") == "owner_task" for r in others_here):
+            g.verdict, g.reason = "defer", "по сцене открыта текстовая задача владельца"
+            continue
+        other_tokens = {pod.button_token(r) for r in others_here if r.get("action") != "tv_drop_task"}
+        conflicts = [r for r in others_here if pod.master_conflict(set(acts), {pod.button_token(r)})]
+        if (len(acts) > 1 and "redo" in acts) or conflicts:
+            g.reason, g.also = "противоречивые решения владельца", conflicts
+            continue
+        if scene not in st["project-status.json"].get("scene_ids", []):
+            g.reason = "сцена отсутствует в active master"
+            continue
+        old = st["review-ledger.json"].get("scenes", {}).get(sid)
+        if old is None:
+            g.reason = "нет сцены в review-ledger.json"
+            continue
+        if _scene_has_physical_active_task(st, scene):
+            g.verdict, g.reason = "defer", "ещё есть активная задача Topview"
+            continue
+        if scene in st["project-status.json"].get("slow_scenes", []) and not _scene_has_confirmed_terminal(st, scene):
+            g.verdict, g.reason = "defer", "нет подтверждённого terminal Topview"
+            continue
+        result = dict(old)
+        try:
+            for r in rs:
+                result = pod.transform(result, r["action"], stamp)
+        except ValueError as e:
+            g.reason = str(e)
+            continue
+        if scene in st["project-status.json"].get("slow_scenes", []):
+            try:
+                action = "redo" if "redo" in acts else "to_montage" if "to_montage" in acts else "accept"
+                new_master, info = slow_edit.apply_plan(
+                    st["video-prompts.md"],
+                    {"occupied_slots": st["topview-status.json"].get("occupied_slots", 0),
+                     "release": [{"scene": scene, "action": action}]}, today)
+            except (AssertionError, StopIteration, ValueError, KeyError, AttributeError) as e:
+                g.reason = "формат slow master не позволяет снять ожидание: " + type(e).__name__
+                continue
+            st["video-prompts.md"] = new_master
+            g.report = {"slow_after": info["slow"], "physical_slots_unchanged": True}
+            st["project-status.json"]["slow_scenes"].remove(scene)
+        st["review-ledger.json"]["scenes"][sid] = result
+        st["review-ledger.json"]["updated_at"] = stamp
+        g.verdict = "apply"
 
     files = {}
     for n in FILES:
@@ -480,7 +571,10 @@ def run(root, store, git, *, mode, now=None, sync=True):
             for r in g.rows:
                 note = {"in_film": "Автоматически: сцена убрана из active master, Scene ID зарезервирован, журнал «в фильме»",
                         "scene_not_needed": "Автоматически: сцена убрана из active master, Scene ID зарезервирован",
-                        "tv_drop_task": "Автоматически: ожидание задачи снято (abandoned_by_owner); саму задачу в Topview отмените вручную"}[r["action"]]
+                        "tv_drop_task": "Автоматически: ожидание задачи снято (abandoned_by_owner); саму задачу в Topview отмените вручную",
+                        "accept": "Решение «Принять»: журнал обновлён, slow снят после terminal, физические слоты без изменений",
+                        "redo": "Решение «Переделать»: журнал обновлён, старое slow снято; новый рендер не запускался",
+                        "to_montage": "Решение «В монтаж»: журнал обновлён, slow снято, сцена остаётся в master"}[r["action"]]
                 store.mark(dict(r, status="in_progress"), "applied",
                            f"{note}. Commit {commit[:7]}, project-status.health=ok, SHA {master_sha[:12]}")
         for g in groups:

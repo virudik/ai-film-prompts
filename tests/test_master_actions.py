@@ -191,10 +191,52 @@ class EvaluateTests(unittest.TestCase):
         groups, _ = self.plan([fx.row("r2", 77, "scene_not_needed")])
         self.assertEqual(groups[0].verdict, "needs_owner")
 
-    def test_unrelated_and_foreign_claims_are_ignored(self):
+    def test_unrelated_foreign_claim_does_not_block_owner_review(self):
         foreign = fx.row("m", 13, "in_film", status="in_progress", note="claimed by the monitor")
         groups, files = self.plan([foreign, fx.row("r", 13, "accept")])
-        self.assertEqual((groups, files), ([], {}))
+        self.assertEqual(groups[0].kind, "review")
+        self.assertEqual(groups[0].verdict, "apply")
+        self.assertEqual(set(files), {"review-ledger.json"})
+
+    def test_owner_review_clears_only_terminal_slow_and_keeps_scene(self):
+        for action in ("accept", "redo", "to_montage"):
+            with self.subTest(action=action):
+                st = json.loads(json.dumps(self.st))
+                st["topview-task-map.json"]["active_by_scene"] = {}
+                st["topview-task-map.json"]["processed_tasks"].append(
+                    {"scene_id": 30, "task_id": fx.ACTIVE_TASK, "final_status": "success"})
+                st["topview-status.json"]["active_tasks"] = []
+                st["topview-status.json"]["occupied_slots"] = 0
+                st["topview-status.json"]["free_slots"] = 6
+                st["topview-status.json"]["scenes"]["30"]["topview_status"] = "success"
+                groups, files = robot.evaluate([fx.row("rv", 30, action)], st, now=NOW)
+                self.assertEqual(groups[0].verdict, "apply", groups[0].reason)
+                self.assertEqual(set(files), {"review-ledger.json", "video-prompts.md"})
+                updated = files["video-prompts.md"]
+                self.assertIn("## Сцена 30 — Колоннада", updated)
+                self.assertIn("**⏳ 0**", updated)
+                self.assertIn("Решение владельца", updated)
+                self.assertNotIn("**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**", updated)
+                result = json.loads(files["review-ledger.json"])["scenes"]["30"]
+                self.assertEqual(result["needs_redo"], action == "redo")
+                self.assertIsNone(result["inserted_into_film"])
+                with tempfile.TemporaryDirectory() as td:
+                    temp = Path(td) / "new-master.md"
+                    temp.write_text(updated, encoding="utf-8", newline="")
+                    status, bad = robot.build_status(self.work, temp, Path(td) / "status.json",
+                                                     "2026-10-14T00:22:00Z")
+                    self.assertEqual(bad, [])
+
+    def test_owner_review_defers_if_task_physically_active(self):
+        for action in ("accept", "redo", "to_montage"):
+            groups, files = self.plan([fx.row("a", 30, action)])
+            self.assertEqual(groups[0].verdict, "defer")
+            self.assertEqual(files, {})
+
+    def test_review_conflict_does_not_mutate_master_or_ledger(self):
+        groups, files = self.plan([fx.row("a", 13, "accept"), fx.row("b", 13, "redo")])
+        self.assertEqual(groups[0].verdict, "needs_owner")
+        self.assertEqual(files, {})
 
     def test_drop_task_updates_master_map_snapshot_and_checkpoint(self):
         groups, files = self.plan([fx.row("d", 30, "tv_drop_task", task_id=fx.ACTIVE_TASK)])

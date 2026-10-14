@@ -111,10 +111,12 @@ def resolve_revision_date(
             previous_master_revision_sha256 = None
 
     previous_revision_date = previous_status.get("revision_date")
-    same_semantic_content = current_revision_sha256 in {
-        previous_revision_sha256,
-        previous_master_revision_sha256,
-    }
+    # A caller may supply the already-updated master as previous_master_file.
+    # Never allow its matching hash to override a DIFFERENT published status hash.
+    if previous_revision_sha256:
+        same_semantic_content = current_revision_sha256 == previous_revision_sha256
+    else:
+        same_semantic_content = current_revision_sha256 == previous_master_revision_sha256
     if same_semantic_content and previous_revision_date:
         return previous_revision_date
 

@@ -72,13 +72,13 @@ class PrepareTests(unittest.TestCase):
             plan = json.loads((root / "plan.json").read_text(encoding="utf-8"))
             return patches, ledger, plan
 
-    def test_prepare_reserves_then_applies_explicit_accept(self):
+    def test_review_is_routed_to_atomic_master_phase(self):
         decisions = [{"id": "a", "scene_id": 13, "action": "accept",
                       "status": "pending", "result_note": None}]
         patches, ledger, plan = self._run(decisions)
-        self.assertEqual([x[:3] for x in patches], [("a", "pending", "in_progress")])
-        self.assertTrue(ledger["scenes"]["13"]["accepted"])
-        self.assertEqual(len(plan["updates"]), 1)
+        self.assertEqual(patches, [])
+        self.assertIsNone(ledger["scenes"]["13"]["accepted"])
+        self.assertEqual(plan["updates"], [])
 
     def test_conflicting_buttons_need_owner_and_do_not_change_ledger(self):
         decisions = [
@@ -88,7 +88,7 @@ class PrepareTests(unittest.TestCase):
         patches, ledger, plan = self._run(decisions)
         self.assertEqual(len(plan["updates"]), 0)
         self.assertIsNone(ledger["scenes"]["13"]["accepted"])
-        self.assertEqual([(x[0], x[2]) for x in patches], [("a", "needs_owner"), ("b", "needs_owner")])
+        self.assertEqual(patches, [])  # phase 2 detects conflicting owner review decisions
 
 
 if __name__ == "__main__":
