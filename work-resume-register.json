@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-14",
+  "last_updated_at": "2026-10-14T09:53:52Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -32,6 +32,48 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings"
+    },
+    {
+      "work_id": "FILM-20261014-REFS-DANCE",
+      "title": "Принять изменения Клода, новые референсы, запуск танцев",
+      "status": "blocked",
+      "verified_at": "2026-10-14T09:53:52Z",
+      "authorization": "Прямая команда владельца 14.10.2026 в текущем чате: принять изменения, создать фото и запустить танцы в свободные слоты по плану.",
+      "done": [
+        "Полный приём свежего main; preflight D7 15/15, исходные 138 тестов проходят",
+        "Созданы 3 фото helpers 36/37, визуальный QC, сохранены на Drive и в references; выгружены 2 настоящих кадра корабля/кабины и 35-секундный источник",
+        "Исправлены остаточные противоречия D7; исторические Scene IDs убраны из active списков персонажей с сохранением в variants",
+        "Подготовлены A1/A2/B1/B2 (fallback B1/B2/B4/B5) по точным текстам master",
+        "Сохранён и визуально проверен последний кадр Scene 35 (900/900) как кандидат для 38; Drive 1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL; текущая 38 не изменялась"
+      ],
+      "next_actions": [
+        "Войти в существующий аккаунт Topview через безопасный browserAuth в открытой веб-вкладке",
+        "Проверить глобальные свободные слоты, unlimited и стоимость 0; отправить A1/A2/B1/B2 либо согласованный fallback",
+        "Записать фактические task IDs, сохранить proof и дать роботу принять привязки; не писать его heartbeat",
+        "Для 36/37 требуются выбранный конец 17 и отдельный вид лесной планеты; для 38 кандидат конца 35 сохранён, сверить после результата 38."
+      ],
+      "constraints": [
+        "Никаких платных Topview MCP/Canvas submit",
+        "Не дублировать 35/38; не объявлять запуск без task ID",
+        "A3/B3 только после фактического C28 из части 2",
+        "Не менять approval/slow автоматически"
+      ],
+      "new_topview_task_ids": [],
+      "canonical_refs": [
+        "reports/acceptance-and-references-2026-10-14.md",
+        "references/scenes/scene-36/manifest.json",
+        "references/scenes/scene-37/manifest.json",
+        "NEW-CHAT-HANDOFF.md"
+      ],
+      "blockers": [
+        "Topview web session requires sign-in; no new dance task submitted"
+      ],
+      "recovered_local_commit": "8b8e51f",
+      "verification": {
+        "tests_passed": 144,
+        "site_contract": "passed",
+        "publication": "pending"
+      }
     }
   ],
   "rules": [

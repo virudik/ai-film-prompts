@@ -2340,6 +2340,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image4 — модуль карты"></a><figcaption>@Image4 — модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-post-battle-seated.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-post-battle-seated.png" alt="@Image5 — пещера после боя"></a><figcaption>@Image5 — пещера после боя</figcaption></figure></div>
 
+**Новые опорные кадры · 14.10.2026:** постановочные helpers проверены ChatGPT; индивидуальные model sheets и фактические монтажные входы имеют приоритет. Это не одобрение владельца и не подмена последних кадров.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-36/S36-waterfall-exit-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-36/S36-waterfall-exit-helper.png" alt="S36-waterfall-exit-helper.png" loading="lazy"></a><figcaption>Серёга у водяной завесы, двое остаются сидеть; модуль спрятан.</figcaption></figure>
+</div>
+
 **Что происходит:** Серёга прячет полученный модуль под робу, молча кивает Паше и Саше и уходит по мокрым камням в глубь пещеры, к светлой водяной завесе. Паша и Саша остаются сидеть на останках монстра и провожают его взглядом.
 
 ```text
@@ -2423,6 +2429,17 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image2 — модуль карты"></a><figcaption>@Image2 — модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image3 — луг у озера Набу"></a><figcaption>@Image3 — луг у озера Набу</figcaption></figure></div>
 
+**Новые опорные кадры · 14.10.2026:** постановочные helpers проверены ChatGPT; индивидуальные model sheets и фактические монтажные входы имеют приоритет. Это не одобрение владельца и не подмена последних кадров.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" alt="S37-cockpit-bread-milk-helper.png" loading="lazy"></a><figcaption>Кабина с Серёгой и рисунками хлеба и молока; модельный лист приоритетнее helper.</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" alt="S37-lakeside-takeoff-helper.png" loading="lazy"></a><figcaption>Взлёт того же плоского корабля у озера; корпус из ч. 1 09:03.</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="S37-cockpit-source-part1-09m25s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить.</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="S37-ship-source-part1-09m03s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:03: только корпус корабля.</figcaption></figure>
+</div>
+
+[Скачать @Video1 — фактический отрывок ч. 1, 09:20–09:55](https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view). Выгружен 14.10; сверка выбранной монтажной версии и @Video2 ещё требуется.
+
 **Что происходит:** Серёга один в кабине своего корабля, замечает на пульте стикер с нарисованными хлебом и молоком, устало выдыхает и взлетает с лугового берега озера Набу. Корабль проходит облака и выходит в космос; Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче. Корабль уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
 
 ```text
@@ -2504,6 +2521,12 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Контекст использования:** Самостоятельный кинематографичный эпизод **после** Scene 35 «Древний ПК: находка Серёги». Scene 35 заканчивается открытием пыльного компьютера; эта сцена НЕ обнаруживает его заново, а даёт Серёге время внимательно рассмотреть странную вещь, физически исследовать детали и осознать комический контраст: древний храм ситхов и знакомый земной ПК из 1990-х. Никакого самостоятельного «оживания», запуска Warcraft, получения карт/ключей или новых сущностей. Перед статусом READY обязательно приложить и сверить фактический последний кадр Scene 35; ни 34, ни 35 не считать принятыми только по техническому status. Пока DRAFT; запуск Topview только по отдельному решению владельца.
 
 **Референсы:** @Image1 — <a href="references/full/serega.jpg">канонический Серёга (лицо, волосы, мантия)</a>; @Image2 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">точная архитектура и палитра руинной планеты ситхов</a>; @Video1/@Image3 — **реальный выбранный конечный кадр Scene 35**, где уже стоят CRT, старый системный блок и клавиатура (ещё не выбран; подключить перед запуском). Не заменять эти фотографии случайной моделью ПК или вымышленным интерьером.
+
+**Кандидат монтажного стыка · 14.10.2026:** из технически завершённой Scene 35 извлечён её последний кадр (задача `6d1ff4a96a0043f2884ffb528d5d9c9a`, кадр 900/900). Требует выбора монтажного результата владельцем; этот новый референс не меняет входы уже запущенной Scene 38.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" target="_blank" rel="noopener"><img src="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" alt="Последний кадр Scene 35 — кандидат стыка Scene 38" loading="lazy"></a><figcaption>Фактический конец Scene 35: Серёга, ниша и тот же компьютер. Кандидат, не утверждённый кадр.</figcaption></figure>
+</div>
 
 **Что происходит:** Серёга остаётся один перед раскрытой каменной нишей. С серьёзностью археолога он медленно обходит неподвижный старый компьютер, щурится в выпуклое тёмное стекло CRT, осторожно протирает угол экрана, осматривает пыльную клавиатуру и массивный бежевый корпус. Он узнаёт форму обычной земной техники, но не может понять, как она оказалась в этом древнем храме. Ирония исключительно в игре взглядов и несовместимости предметов; никаких комедийных спецэффектов, надписей и реплик. Завершение — выразительный полусредний кадр Серёги и всего неработающего комплекта, удобный для следующей сюжетной сцены.
 

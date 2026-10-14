@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 37,
-  "updated_at": "2026-10-13T22:50:55Z",
+  "updated_at": "2026-10-14T00:21:57Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -82,6 +82,149 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "role": "pose_composition_helper",
+      "media_type": "image",
+      "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+      "bytes": 2115808,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T00:21:57Z",
+        "evidence": "Кабина с Серёгой и рисунками хлеба и молока; модельный лист приоритетнее helper."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "source": {
+        "kind": "imagegen",
+        "note": "Кабина с Серёгой и рисунками хлеба и молока; модельный лист приоритетнее helper."
+      },
+      "drive_file_id": "16qrVllR8y5JsbWsR0beitM9ZftM5GBEJ",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "references/scenes/scene-37/S37-lakeside-takeoff-helper.png",
+      "asset_id": "references/scenes/scene-37/S37-lakeside-takeoff-helper.png",
+      "role": "location_ship_helper",
+      "media_type": "image",
+      "sha256": "3322150aaa0277e540048ba152f16fd97bb108f4214c1918210c6c750437c77e",
+      "bytes": 2908189,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T00:21:57Z",
+        "evidence": "Взлёт того же плоского корабля у озера; корпус из ч. 1 09:03."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-lakeside-takeoff-helper.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "source": {
+        "kind": "imagegen",
+        "note": "Взлёт того же плоского корабля у озера; корпус из ч. 1 09:03."
+      },
+      "drive_file_id": "1DiDyH10-VHLNMllA4L31jJBy2Zonnr2z",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "role": "film_source_frame",
+      "media_type": "image",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "bytes": 575523,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T00:21:57Z",
+        "evidence": "Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "source": {
+        "kind": "film_extraction",
+        "note": "Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить.",
+        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
+        "source_title": "Серёгиус-копия часть 1.mp4"
+      },
+      "dimensions": [
+        854,
+        480
+      ],
+      "drive_file_id": "1Pk0f3nUiJc6odPG1tZZoceP6LMLaT76_"
+    },
+    {
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "asset_id": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "role": "film_source_frame",
+      "media_type": "image",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "bytes": 462691,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T00:21:57Z",
+        "evidence": "Фактический кадр ч. 1, 09:03: только корпус корабля."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "source": {
+        "kind": "film_extraction",
+        "note": "Фактический кадр ч. 1, 09:03: только корпус корабля.",
+        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
+        "source_title": "Серёгиус-копия часть 1.mp4"
+      },
+      "dimensions": [
+        854,
+        480
+      ],
+      "drive_file_id": "1QBfAt4ngDh2xppYE00BsmUAug3Ok_cmz"
+    },
+    {
+      "asset_id": "drive:1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m",
+      "role": "film_source_video",
+      "media_type": "video",
+      "sha256": "cec6e5cfa720d24c1848d6e8738833e998935b8ce7211a92e74deddbb04ba177",
+      "bytes": 6938184,
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T00:21:57Z",
+        "evidence": "Фактический отрывок ч. 1, 09:20–09:55; без звука, только геометрия корабля/кабины."
+      },
+      "site_published": {
+        "linked_in_master": true,
+        "git_present": false,
+        "storage": "private_google_drive"
+      },
+      "source": {
+        "kind": "film_extraction",
+        "note": "Фактический отрывок ч. 1, 09:20–09:55; без звука, только геометрия корабля/кабины.",
+        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
+        "source_title": "Серёгиус-копия часть 1.mp4"
+      },
+      "duration_s": 35,
+      "drive_file_id": "1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m",
+      "url": "https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view"
     }
   ],
   "identity_refs": [
@@ -95,8 +238,13 @@
   ],
   "start_frame": null,
   "end_frame": null,
-  "pose_composition_helpers": [],
-  "video_refs": [],
+  "pose_composition_helpers": [
+    "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "references/scenes/scene-37/S37-lakeside-takeoff-helper.png"
+  ],
+  "video_refs": [
+    "https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view"
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": null,
@@ -123,7 +271,9 @@
         {
           "slot": "@Video1",
           "canonical_role": "корабль и кабина Канцлера из ч. 1, 09:20–09:55",
-          "input_status": "required_not_available"
+          "input_status": "available_extracted_source_pending_montage_check",
+          "drive_file_id": "1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m",
+          "url": "https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view"
         },
         {
           "slot": "@Video2",
@@ -134,17 +284,19 @@
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-13T22:50:55Z",
-  "last_qc_scope": "14.10.2026 owner decision: scenes 36–37 variant A (reports/scenes-36-37-proposal-2026-10-14.md). References reused from existing assets, SHA/bytes/dimensions verified; no images generated, no Topview call.",
+  "last_qc_at": "2026-10-14T09:53:52Z",
+  "last_qc_scope": "Созданные helpers и реальные кадры проверены; MP4 хранится только в приватном Drive. DRAFT и prompt unchanged.",
   "remaining": [
-    "@Video1 — корабль и кабина Канцлера из ч. 1 (09:20–09:55): выгрузить из монтажа перед запуском.",
-    "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать."
+    "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать.",
+    "Выгруженный @Video1: сверить с выбранной монтажной версией; helpers не заменяют фактический @Video2 лесной планеты."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
+  "canonical_master_sha256": "1c2bc2ab2d9cab08748f927972c91f88261f713eeedb6f03dabe61cc46a839ae",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
-  ]
+  ],
+  "drive_folder_id": "1uIpQx5GbLB2CDKW_6romr4UxC9qiGsj_",
+  "note": "14.10: новые helpers прошли визуальный QC ChatGPT; это не owner approval и не конечные кадры монтажа. Копируемый video prompt и DRAFT сохранены."
 }

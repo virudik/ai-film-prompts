@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-10-11T18:26:33Z",
+  "updated_at": "2026-10-14T09:57:15Z",
   "drive_root_folder_id": "16LjAT7YkVGMAc1xw0WkjgGDYbAejzJNI",
   "rules": {
     "save_before_next_generation": true,
@@ -436,14 +436,14 @@
       "manifest": "references/scenes/scene-36/manifest.json",
       "status": "draft_inputs_pending",
       "canonical_state": "active",
-      "reference_count": 5,
-      "checked_at": "2026-10-13T22:50:55Z",
+      "reference_count": 6,
+      "checked_at": "2026-10-14T00:22:44Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 1,
       "remaining": [
         "@Video1 — фактический конец Scene 17 из монтажа: выгрузить и сохранить перед запуском; без него сцена остаётся DRAFT."
       ],
-      "drive_folder_id": null,
+      "drive_folder_id": "10poNxUdS8993D-2Qu-iCd1bluz-pRGb1",
       "library_path": null,
       "priority": "per_current_backlog",
       "needed": [],
@@ -453,15 +453,15 @@
       "manifest": "references/scenes/scene-37/manifest.json",
       "status": "draft_inputs_pending",
       "canonical_state": "active",
-      "reference_count": 3,
-      "checked_at": "2026-10-13T22:50:55Z",
+      "reference_count": 8,
+      "checked_at": "2026-10-14T00:22:44Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 1,
       "remaining": [
-        "@Video1 — корабль и кабина Канцлера из ч. 1 (09:20–09:55): выгрузить из монтажа перед запуском.",
-        "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать."
+        "@Video2 — установочный план лесной планеты (51:52–52:40): выгрузить; корабль лесной пары не использовать.",
+        "Выгруженный @Video1: сверить с выбранной монтажной версией; helpers не заменяют фактический @Video2 лесной планеты."
       ],
-      "drive_folder_id": null,
+      "drive_folder_id": "1uIpQx5GbLB2CDKW_6romr4UxC9qiGsj_",
       "library_path": null,
       "priority": "per_current_backlog",
       "needed": [],
@@ -471,21 +471,21 @@
       "manifest": "references/scenes/scene-38/manifest.json",
       "status": "draft_inputs_pending",
       "canonical_state": "active",
-      "reference_count": 2,
-      "checked_at": "2026-10-11T18:26:33Z",
+      "reference_count": 3,
+      "checked_at": "2026-10-14T09:57:15Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 1,
       "remaining": [
-        "@Video1/@Image3 — выбранный конечный кадр Scene 35: Scene 35 ещё не сгенерирована; до этого сцена DRAFT."
+        "Сверить кандидат конца Scene 35 с выбранным монтажным результатом и результатом уже активной Scene 38; запуск не дублировать."
       ],
-      "drive_folder_id": null,
+      "drive_folder_id": "1W09ore-p1MOu56TkS_6v7pjjo-OxUQiP",
       "library_path": null,
       "priority": "per_current_backlog",
       "needed": [],
       "topview_task_ids": []
     }
   },
-  "canonical_master_sha256": "d68f3fc8b793c14daf55f03703e529eea43236be4bf04154b11f301dcb31bcef",
+  "canonical_master_sha256": "1c2bc2ab2d9cab08748f927972c91f88261f713eeedb6f03dabe61cc46a839ae",
   "manifest_contract_complete": true,
   "total_prompt_mappings": 58,
   "source_of_truth": "GitHub main/video-prompts.md; derived reference index",

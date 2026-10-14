@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 38,
-  "updated_at": "2026-10-13T22:50:55Z",
+  "updated_at": "2026-10-14T09:57:15Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -56,6 +56,39 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "asset_id": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "role": "continuity_frame_candidate",
+      "media_type": "image",
+      "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+      "bytes": 1360067,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "drive_file_id": "1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-14T09:57:15Z",
+        "evidence": "Последний декодированный кадр n=899 из 900, video PTS 29.9667с; Серёга у ниши, видны CRT, системный блок, клавиатура. Кандидат стыка, не owner approval."
+      },
+      "source": {
+        "kind": "video_last_frame",
+        "scene_id": 35,
+        "task_id": "6d1ff4a96a0043f2884ffb528d5d9c9a",
+        "drive_file_id": "1r-i4Jmw-Ag6IJVwzjyL35m442f1CiYjU",
+        "sha256": "f0a381828feb0d61b84f582b69ccfc7c955a82b6912df355df58a392e7b9b264",
+        "frame_index_zero_based": 899,
+        "fps": 30
+      },
+      "site_published": {
+        "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [
@@ -77,7 +110,7 @@
       "prompt": "main",
       "canonical_prompt_sha256": "4ebee705554c785311a7f5b2c0fa3686bf9bd0c2aac522b2071c52abeb13d4c8",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "candidate_available_pending_editorial_selection",
       "owner_generation_approval_inferred": false,
       "slots": [
         {
@@ -91,22 +124,25 @@
         {
           "slot": "@Video1/@Image3",
           "canonical_role": "реальный выбранный конечный кадр Scene 35",
-          "input_status": "required_not_available"
+          "input_status": "actual_last_frame_candidate_available_not_owner_selected",
+          "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-11T00:00:00Z",
-  "last_qc_scope": "Claude Code session 11.10.2026: paths/SHA/roles reused from existing packs, mapping from the master \"Референсы\" line. No images generated, no Topview call; owner approval not recorded.",
+  "last_qc_at": "2026-10-14T09:57:15Z",
+  "last_qc_scope": "Реальный кадр извлечён из проверенной SHA256 Drive-копии Scene 35; осмотрен; DRAFT, approval и активная задача Scene 38 не менялись.",
   "remaining": [
-    "@Video1/@Image3 — выбранный конечный кадр Scene 35: Scene 35 ещё не сгенерирована; до этого сцена DRAFT."
+    "Сверить кандидат конца Scene 35 с выбранным монтажным результатом и результатом уже активной Scene 38; запуск не дублировать."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
+  "canonical_master_sha256": "1c2bc2ab2d9cab08748f927972c91f88261f713eeedb6f03dabe61cc46a839ae",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
-  ]
+  ],
+  "drive_folder_id": "1W09ore-p1MOu56TkS_6v7pjjo-OxUQiP",
+  "start_frame_candidate": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png"
 }

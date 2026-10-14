@@ -702,6 +702,66 @@
    "src_bytes": 2605329,
    "thumb_bytes": 48632,
    "src_sha256": "ff55bc9fa9714cf44a62124774214919b253d8768e0cac26e9f241ac8b57d197"
+  },
+  "references/scenes/scene-36/S36-waterfall-exit-helper.png": {
+   "thumb": "references/thumbs/scenes/scene-36/S36-waterfall-exit-helper.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2454353,
+   "thumb_bytes": 50154,
+   "src_sha256": "4c9e828b4995034dc580174df5a269e15c98fea9a7c1b38cb694ea9de9d0fe23"
+  },
+  "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-cockpit-bread-milk-helper.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2115808,
+   "thumb_bytes": 38850,
+   "src_sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90"
+  },
+  "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-cockpit-source-part1-09m25s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 854,
+   "src_height": 480,
+   "src_bytes": 575523,
+   "thumb_bytes": 23550,
+   "src_sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
+  },
+  "references/scenes/scene-37/S37-lakeside-takeoff-helper.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-lakeside-takeoff-helper.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2908189,
+   "thumb_bytes": 60362,
+   "src_sha256": "3322150aaa0277e540048ba152f16fd97bb108f4214c1918210c6c750437c77e"
+  },
+  "references/scenes/scene-37/S37-ship-source-part1-09m03s.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-ship-source-part1-09m03s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 854,
+   "src_height": 480,
+   "src_bytes": 462691,
+   "thumb_bytes": 20250,
+   "src_sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba"
+  },
+  "references/scenes/scene-38/S38-Image3-scene35-last-frame.png": {
+   "thumb": "references/thumbs/scenes/scene-38/S38-Image3-scene35-last-frame.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1360067,
+   "thumb_bytes": 32662,
+   "src_sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48"
   }
  }
 }
