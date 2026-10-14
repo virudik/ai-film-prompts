@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-14T00:32:31+00:00",
+ "generated_at": "2026-10-14T00:42:05+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "fa40ccf4e98dd5ba178ac5e215995e1c8bd5e7cc6f5f92b7a59a403a747a254e",
-   "bytes": 43437
+   "sha256": "a0fb85892fd24df2d36569edfe2e443eb05c0bfec413e215ea327e4bd654a303",
+   "bytes": 44860
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "c6cfa5feaa6166b1732494c31ad4874b5cebf65bbfa1d258060a22919476a64b",
-   "bytes": 362031
+   "sha256": "5dd34a19cfa1f15b3f9922d2d00256b4c59cb3f65f23df3000874dfc6421b263",
+   "bytes": 362108
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 24825,
-  "above_marker_chars": 24825,
+  "chars": 25821,
+  "above_marker_chars": 25821,
   "recent_sections_below_marker": [],
-  "sha256_12": "ed3e5dbd4567",
+  "sha256_12": "c989f3263972",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -255,7 +255,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 25848,
+   "offset": 25994,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 38408,
+   "offset": 38554,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -286,7 +286,7 @@
    "title": "Коты в кабине: запуск корабля и взлёт",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -297,16 +297,16 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 51693,
-   "chars": 10200,
-   "sha256_12": "353817ca7a46"
+   "offset": 51839,
+   "chars": 10171,
+   "sha256_12": "089f09d85ad3"
   },
   {
    "id": 25,
    "title": "Коты в кабине: космическое сражение",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -319,16 +319,16 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 61893,
-   "chars": 7891,
-   "sha256_12": "9889b2806cd0"
+   "offset": 62010,
+   "chars": 7862,
+   "sha256_12": "307489e41935"
   },
   {
    "id": 27,
    "title": "Серёга против котов-магистров: бой на световых мечах",
    "target_engine": "Seedance 2.5",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -341,9 +341,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 69784,
-   "chars": 36224,
-   "sha256_12": "0ae7b2df08c0"
+   "offset": 69872,
+   "chars": 36195,
+   "sha256_12": "a9c8f6b42c67"
   },
   {
    "id": 28,
@@ -361,7 +361,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 106008,
+   "offset": 106067,
    "chars": 130427,
    "sha256_12": "dcd69af7849d"
   },
@@ -370,7 +370,7 @@
    "title": "Коты против Серёги: разрушение колоннады",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -385,16 +385,16 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 236435,
-   "chars": 9222,
-   "sha256_12": "85538d29ff9a"
+   "offset": 236494,
+   "chars": 9193,
+   "sha256_12": "aa77c9bbbcd2"
   },
   {
    "id": 31,
    "title": "Коты против Серёги: лестница и телекинетические обломки",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -409,9 +409,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 245657,
-   "chars": 9061,
-   "sha256_12": "b7e2d8b4a234"
+   "offset": 245687,
+   "chars": 9032,
+   "sha256_12": "4895ab1fd4b3"
   },
   {
    "id": 32,
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 254718,
+   "offset": 254719,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 263726,
+   "offset": 263727,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 269602,
+   "offset": 269603,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -492,7 +492,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 276001,
+   "offset": 276002,
    "chars": 7787,
    "sha256_12": "2dbb4299d3e9"
   },
@@ -513,7 +513,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 283788,
+   "offset": 283789,
    "chars": 9360,
    "sha256_12": "e384fd83de7d"
   },
@@ -534,7 +534,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 293148,
+   "offset": 293149,
    "chars": 9775,
    "sha256_12": "c1bdff2b503e"
   },
@@ -555,7 +555,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 302923,
+   "offset": 302924,
    "chars": 9544,
    "sha256_12": "7fcc8220229a"
   }
