@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-14T23:20:10Z",
+  "checked_at": "2026-10-14T23:30:12Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -24,7 +24,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 6,
+    "api_requests": 5,
     "detail_failed": []
   },
   "cursor": {
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2294,
-      "wait_seconds": 73294,
+      "queue_count": 2288,
+      "wait_seconds": 72691,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1382,
-      "wait_seconds": 34414,
+      "queue_count": 1367,
+      "wait_seconds": 33810,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1912,
-      "wait_seconds": 56013,
+      "queue_count": 1905,
+      "wait_seconds": 55410,
       "process_seconds": null
     }
   ],
@@ -121,15 +121,7 @@
       "prompt_head": "Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or generat"
     }
   ],
-  "finished_known": [
-    {
-      "task_id": "c5e925f461f44f4e9b451fc3fbe088fd",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-10-14 23:17:44",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -156,7 +148,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 680,
+    "monitor_age_minutes": 690,
     "monitor_occupied": 0,
     "robot_occupied": 3,
     "consistent": false,
