@@ -1,0 +1,59 @@
+name: Reconcile explicitly applied owner redo (one-time idempotent)
+
+# Recovery of 13/14 October buttons previously written to ledger without slow release.
+# Re-runs are no-ops; no generation, approval, or provider task mutation.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/reconcile_applied_review.py'
+      - '.github/workflows/reconcile-applied-review.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-film-owner-review-reconcile
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Verify old applied clicks and safely reconcile canonical slow
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY:-}" ]; then
+            echo "::error::Supabase key not configured; no reconciliation attempted"
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            python3 scripts/reconcile_applied_review.py
+            git add video-prompts.md project-status.json SYNC-TRIGGER.txt
+            if git diff --cached --quiet; then
+              echo "No eligible old owner decisions require changes"
+              exit 0
+            fi
+            git commit -qm "Reconcile previously applied owner redo: release only completed slow scenes"
+            if git push -q origin HEAD:main; then
+              git fetch -q origin main
+              git merge-base --is-ancestor HEAD origin/main
+              echo "Verified master status and commit are published"
+              exit 0
+            fi
+            echo "Concurrent writer; re-evaluate fresh main, attempt $attempt"
+          done
+          echo "::error::Could not publish reconciled owner decisions after retries"
+          exit 1
