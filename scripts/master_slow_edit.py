@@ -75,7 +75,7 @@ def apply_plan(t, plan, date):
         decision = {"accept": "принято", "redo": "на переделку", "to_montage": "в монтаж"}[action]
         found = 0
         for i in range(rows_start, rows_end):
-            if re.match(rf"^\\|\\s*{sid}\\s+—", lines[i]) and LABEL in lines[i]:
+            if re.match(rf"^\|\s*{sid}\s+—", lines[i]) and LABEL in lines[i]:
                 lines[i] = lines[i].replace(LABEL, "✅ Решение владельца: " + decision)
                 lines[i] = lines[i].replace("ждёт решения владельца", "решение владельца применено")
                 found += 1
