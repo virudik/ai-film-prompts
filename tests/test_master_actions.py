@@ -434,6 +434,22 @@ class PhaseOneHoldTests(unittest.TestCase):
 class OwnerActionsWorkflowContract(unittest.TestCase):
     """Owner buttons must not revert silently to a plan-only GitHub job."""
 
+    def test_owner_button_descriptions_match_canonical_slow_semantics(self):
+        """Guard against old phase-one documentation surviving future handoffs."""
+        names = ("NEW-CHAT-HANDOFF.md", "SYNC-RUNBOOK.md",
+                 "AI-PROJECT-GUIDE.md", "USER-GUIDE.md", "README-AI-SYNC.md")
+        docs = {name: (ROOT / name).read_text(encoding="utf-8") for name in names}
+        for name, content in docs.items():
+            with self.subTest(name=name):
+                self.assertIn("Принять", content)
+                self.assertIn("Переделать", content)
+                self.assertIn("В монтаж", content)
+        for name in ("SYNC-RUNBOOK.md", "AI-PROJECT-GUIDE.md", "README-AI-SYNC.md"):
+            self.assertIn("фаза 2", docs[name])
+            self.assertNotIn("фаза 1 «Принять", docs[name])
+        self.assertNotIn("ни робот, ни монитор его не снимают", docs["README-AI-SYNC.md"])
+        self.assertIn("Телеметрический робот не делает", docs["NEW-CHAT-HANDOFF.md"])
+
     def test_phase2_activation_and_cadence(self):
         workflow = (ROOT / '.github/workflows/sync-from-drive.yml').read_text(encoding='utf-8')
         self.assertIn("cron: '11,41 * * * *'", workflow)

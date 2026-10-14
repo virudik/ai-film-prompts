@@ -65,7 +65,7 @@ Workflow (`.github/workflows/`):
 
 ## Кнопки владельца
 
-Панель «🔑 Владелец» на сайте → Supabase `owner_decisions` (Edge Function, исходник `ops/supabase/owner-decision/`) → `sync-from-drive.yml`: фаза 1 «Принять» / «Переделать» / «В монтаж» → `review-ledger.json` (`process_owner_decisions.py`); фаза 2 «В фильме» / «Не нужна» / «Не ждать» → `robot_master_actions.py` (GitHub Variable `ROBOT_MASTER_ACTIONS`, по умолчанию `on`; `off` — пауза). Решение получает `applied` только после коммита, валидатора и read-back; неоднозначное → `needs_owner`. «В фильме» применяется автоматически. Текстовые задачи владельца (`owner_task`) выполняет агент. Кнопки не запускают генерации.
+Панель «🔑 Владелец» на сайте → Supabase `owner_decisions` (Edge Function, исходник `ops/supabase/owner-decision/`) → `sync-from-drive.yml`: фаза 1 «Брак» → `review-ledger.json` (`process_owner_decisions.py`); фаза 2 «Принять» / «Переделать» / «В монтаж» → одновременно журнал и снятие canonical slow у завершённой сцены; «В фильме» / «Не нужна» / «Не ждать» → `robot_master_actions.py` (GitHub Variable `ROBOT_MASTER_ACTIONS`, по умолчанию `on`; `off` — пауза). Решение получает `applied` только после коммита, валидатора и read-back; неоднозначное → `needs_owner`. «В фильме» применяется автоматически. Текстовые задачи владельца (`owner_task`) выполняет агент. Кнопки не запускают генерации.
 
 ## Prompt-writing flow
 
@@ -84,7 +84,7 @@ Workflow (`.github/workflows/`):
 - единственный master, без дублей и версий `v2` / `final` / `copy`;
 - стабильные Scene ID;
 - `project-status.json` генерируется, не используется как второй master;
-- slow canonical берётся из master и статуса; новая активная задача Topview возвращает тот же Scene ID в slow; терминальная задача освобождает физический слот Topview, но canonical slow снимает **только кнопка владельца** (ни робот, ни монитор его не снимают);
+- slow canonical берётся из master и статуса; новая активная задача Topview возвращает тот же Scene ID в slow; терминальная задача освобождает физический слот Topview, но canonical slow снимается **только по явной кнопке владельца**: обработчик кнопок записывает решение и смену slow вместе после подтверждённого завершения; робот телеметрии и монитор сами slow не снимают;
 - в карточке каждой canonical slow-сцены ровно одна простая метка `**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**` (14.10.2026); живой статус задачи сайт показывает по телеметрии;
 - Topview success не одобряет сцену;
 - текущие счётчики / SHA / slow — из свежего master и статуса, не из исторических документов;
