@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-14T12:00:12Z",
+  "checked_at": "2026-10-14T12:10:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -24,7 +24,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 3,
+    "api_requests": 2,
     "detail_failed": []
   },
   "cursor": {
@@ -53,15 +53,7 @@
   },
   "active_tasks": [],
   "unknown_new": [],
-  "finished_known": [
-    {
-      "task_id": "e948bd09e5d349448e0ff72fb3049d04",
-      "scene_id": 38,
-      "final_status": "success",
-      "completed_at": "2026-10-14 11:54:44",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -87,23 +79,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-14T11:50:10Z",
+    "monitor_checked_at": "2026-10-14T12:00:12Z",
     "monitor_age_minutes": 10,
-    "monitor_occupied": 1,
+    "monitor_occupied": 0,
     "robot_occupied": 0,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_monitor",
-        "task_id": "e948bd09e5d349448e0ff72fb3049d04",
-        "scene_id": 38
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 1,
-        "robot": 0
-      }
-    ]
+    "differences": []
   }
 }
