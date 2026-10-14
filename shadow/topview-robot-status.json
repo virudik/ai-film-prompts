@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-14T19:00:13Z",
+  "checked_at": "2026-10-14T19:10:14Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -20,11 +20,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 614
+      "1a6244cf1ae747ef847d949a80d6133c": 615
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 4,
+    "api_requests": 5,
     "detail_failed": []
   },
   "cursor": {
@@ -39,14 +39,14 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 614
+      "1a6244cf1ae747ef847d949a80d6133c": 615
     },
     "last_full_scan_at": "2026-10-14T17:10:12Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 2,
-    "free": 4,
+    "occupied": 3,
+    "free": 3,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1341,
-      "wait_seconds": 32103,
+      "queue_count": 1323,
+      "wait_seconds": 31502,
       "process_seconds": null
     },
     {
@@ -74,8 +74,21 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 728,
-      "wait_seconds": 14823,
+      "queue_count": 698,
+      "wait_seconds": 14221,
+      "process_seconds": null
+    },
+    {
+      "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-10-14 19:10:09",
+      "model": "Seedance 2.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 1876,
+      "wait_seconds": 53101,
       "process_seconds": null
     }
   ],
@@ -97,6 +110,15 @@
       "model": "Wan 3.0",
       "unlimited": true,
       "prompt_head": "MODE: Wan 3.0 | reference-to-video | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | high-end photoreal live-action cinema.\r\nPERFORMER / IMMUTABLE IDENTITY:\r\n<<<Image1>>> is the absolute SEREGA"
+    },
+    {
+      "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-10-14 19:10:09",
+      "model": "Seedance 2.0",
+      "unlimited": true,
+      "prompt_head": "Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or ge"
     }
   ],
   "finished_known": [],
@@ -119,9 +141,9 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 420,
+    "monitor_age_minutes": 430,
     "monitor_occupied": 0,
-    "robot_occupied": 2,
+    "robot_occupied": 3,
     "consistent": false,
     "monitor_may_lag": true,
     "differences": [
@@ -138,9 +160,15 @@
         "mapping": "unknown_new"
       },
       {
+        "type": "only_in_robot",
+        "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+        "scene_id": null,
+        "mapping": "unknown_new"
+      },
+      {
         "type": "occupied_differs",
         "monitor": 0,
-        "robot": 2
+        "robot": 3
       }
     ]
   }
