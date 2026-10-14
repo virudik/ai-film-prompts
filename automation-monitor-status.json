@@ -70,7 +70,7 @@
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
-      "checked_at": "2026-10-14T17:20:16Z",
+      "checked_at": "2026-10-14T18:20:15Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -130,8 +130,8 @@
   },
   "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-14T17:20:20Z",
-    "completed_at": "2026-10-14T17:20:20Z",
+    "started_at": "2026-10-14T18:20:19Z",
+    "completed_at": "2026-10-14T18:20:19Z",
     "health": "degraded",
     "phases_completed": [
       "topview_scan"
@@ -199,7 +199,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-14T17:20:20Z",
+  "last_completed_cycle_at": "2026-10-14T18:20:19Z",
   "last_successful_cycle_at": "2026-10-14T12:00:15Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -215,7 +215,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-14T17:20:20Z"
+    "robot": "2026-10-14T18:20:19Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
