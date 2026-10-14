@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-14T14:50:13Z",
+  "checked_at": "2026-10-14T15:00:13Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1744,
-      "wait_seconds": 47103,
+      "queue_count": 1725,
+      "wait_seconds": 46503,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1273,
-      "wait_seconds": 29823,
+      "queue_count": 1250,
+      "wait_seconds": 29223,
       "process_seconds": null
     }
   ],
@@ -126,7 +126,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 170,
+    "monitor_age_minutes": 180,
     "monitor_occupied": 0,
     "robot_occupied": 2,
     "consistent": false,
