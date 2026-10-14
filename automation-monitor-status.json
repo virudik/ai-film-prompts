@@ -62,13 +62,15 @@
     "policy": "Notify a new availability/release or new incident/recovery once; do not resend unchanged healthy status.",
     "robot_notified_keys": [
       "result:6d1ff4a96a0043f2884ffb528d5d9c9a",
-      "result:e948bd09e5d349448e0ff72fb3049d04"
+      "result:e948bd09e5d349448e0ff72fb3049d04",
+      "unmapped:7dd261cf0f404a39ab1915379e97cb9a",
+      "unmapped:c5e925f461f44f4e9b451fc3fbe088fd"
     ]
   },
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
-      "checked_at": "2026-10-14T12:00:12Z",
+      "checked_at": "2026-10-14T13:40:14Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -126,22 +128,19 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-14T12:00:15Z",
-    "completed_at": "2026-10-14T12:00:15Z",
-    "health": "ok",
+    "started_at": "2026-10-14T13:40:18Z",
+    "completed_at": "2026-10-14T13:40:18Z",
+    "health": "degraded",
     "phases_completed": [
-      "role_check",
-      "topview_scan_api",
-      "task_map_master_consistency",
-      "telemetry_publish",
-      "project_status_health_ok",
-      "checkpoint_last"
+      "topview_scan"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "telemetry_publish"
+    ],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 0 из 6 слотов занято, новых 0, завершено 1."
+    "note": "hold: unmapped_active:7dd261cf,c5e925f4"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -200,7 +199,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-14T12:00:15Z",
+  "last_completed_cycle_at": "2026-10-14T13:40:18Z",
   "last_successful_cycle_at": "2026-10-14T12:00:15Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -216,7 +215,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-14T12:00:15Z"
+    "robot": "2026-10-14T13:40:18Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
