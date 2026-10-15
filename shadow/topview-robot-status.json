@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-15T09:20:12Z",
+  "checked_at": "2026-10-15T09:25:39Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -59,10 +59,10 @@
       "unlimited": true,
       "created_at": "2026-10-14 19:11:19",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2010,
-      "wait_seconds": 59600,
+      "scene_id": 28,
+      "mapping": "task_map",
+      "queue_count": 2004,
+      "wait_seconds": 59272,
       "process_seconds": null
     },
     {
@@ -72,33 +72,14 @@
       "unlimited": true,
       "created_at": "2026-10-14 19:10:09",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 1603,
-      "wait_seconds": 42319,
+      "scene_id": 28,
+      "mapping": "task_map",
+      "queue_count": 1596,
+      "wait_seconds": 41992,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-14 19:10:09",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or ge"
-    },
-    {
-      "task_id": "721cfbef2af0479da57f0a52479d2f54",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-14 19:11:19",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or generat"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -125,30 +106,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 1280,
-    "monitor_occupied": 0,
+    "monitor_checked_at": "2026-10-15T09:20:12Z",
+    "monitor_age_minutes": 5,
+    "monitor_occupied": 2,
     "robot_occupied": 2,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "721cfbef2af0479da57f0a52479d2f54",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 0,
-        "robot": 2
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
