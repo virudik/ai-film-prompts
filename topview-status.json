@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-15T12:40:14Z",
+  "checked_at": "2026-10-15T12:50:13Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -335,20 +335,22 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-14T19:11:19Z",
-      "queue_count": 1743,
-      "topview_estimated_wait_seconds": 47597,
-      "checked_at": "2026-10-15T12:40:14Z",
+      "queue_count": 1729,
+      "topview_estimated_wait_seconds": 46997,
+      "checked_at": "2026-10-15T12:50:13Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 B1 (robot)",
       "active_task_ids": [
         "721cfbef2af0479da57f0a52479d2f54",
+        "762b3091b3e44b8599a0a58b91a253c5",
+        "e471e35fc7454fe5a2a89e06fac3f122",
         "fec838b4f63b452c8c76fe50f8e0fdad"
       ],
       "completed_at": null,
       "topview_estimated_process_seconds": null
     }
   },
-  "note": "GitHub robot: 2 из 6 слотов занято, новых 0, завершено 0.",
+  "note": "GitHub robot: 4 из 6 слотов занято, новых 2, завершено 0.",
   "ui_contract": {
     "slow_table": "one row per active Topview task/slot; Scene ID may repeat",
     "capacity": 6,
@@ -358,13 +360,13 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-15T12:40:14Z",
+    "three_view_checked_at": "2026-10-15T12:50:13Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
   "slot_capacity": 6,
-  "occupied_slots": 2,
-  "free_slots": 4,
+  "occupied_slots": 4,
+  "free_slots": 2,
   "active_tasks": [
     {
       "scene_id": 28,
@@ -373,12 +375,40 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-14T19:11:19Z",
-      "queue_count": 1743,
-      "topview_estimated_wait_seconds": 47597,
-      "checked_at": "2026-10-15T12:40:14Z",
+      "queue_count": 1729,
+      "topview_estimated_wait_seconds": 46997,
+      "checked_at": "2026-10-15T12:50:13Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 B1 (robot)"
+    },
+    {
+      "scene_id": 28,
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "model": "Wan 3.0",
+      "model_id": "qwen-wan3.0-video",
+      "topview_status": "init",
+      "started_at": "2026-10-15T12:47:47Z",
+      "queue_count": 2531,
+      "topview_estimated_wait_seconds": 85877,
+      "checked_at": "2026-10-15T12:50:13Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "prompt normalized match with master block 28 B2 (robot)"
+    },
+    {
+      "scene_id": 28,
+      "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "model": "Seedance 2.0",
+      "model_id": "seedance-2.0-style",
+      "topview_status": "init",
+      "started_at": "2026-10-15T12:46:56Z",
+      "queue_count": 2183,
+      "topview_estimated_wait_seconds": 68596,
+      "checked_at": "2026-10-15T12:50:13Z",
+      "topview_estimated_process_seconds": null,
+      "verified": true,
+      "mapping_confidence": "prompt normalized match with master block 28 A2 (robot)"
     },
     {
       "scene_id": 28,
@@ -387,9 +417,9 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-10-14T19:10:09Z",
-      "queue_count": 1275,
-      "topview_estimated_wait_seconds": 30317,
-      "checked_at": "2026-10-15T12:40:14Z",
+      "queue_count": 1257,
+      "topview_estimated_wait_seconds": 29716,
+      "checked_at": "2026-10-15T12:50:13Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 A1 (robot)"
@@ -397,7 +427,7 @@
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-10-15T12:40:14Z",
+    "checked_at": "2026-10-15T12:50:13Z",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 399,
@@ -405,10 +435,12 @@
     "scope": "all_owned_boards_unlimited_video_tasks",
     "scan_mode": "light_board_counts_verified",
     "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
+    "occupied_slots": 4,
+    "free_slots": 2,
     "active_task_ids": [
       "721cfbef2af0479da57f0a52479d2f54",
+      "762b3091b3e44b8599a0a58b91a253c5",
+      "e471e35fc7454fe5a2a89e06fac3f122",
       "fec838b4f63b452c8c76fe50f8e0fdad"
     ]
   },
