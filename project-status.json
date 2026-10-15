@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-15T08:22:12Z",
-  "revision_date": "14.10.2026",
-  "master_declared_last_full_sync": "14.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "a59d2a7f77d46c04374c9e9f60138f825e517ed0593e60f022a9d949b9a74f45",
-  "canonical_revision_sha256": "76e8da76e8a28972fd73d6102042fb3bc25a25bd85009a3d9d8cf20560425767",
-  "canonical_master_bytes": 366748,
+  "synced_at": "2026-10-15T09:20:14Z",
+  "revision_date": "15.10.2026",
+  "master_declared_last_full_sync": "15.10.2026 · текущая по live Topview/Drive сверке",
+  "canonical_master_sha256": "a3166690b230cd3f36f53eb53f9169ee0b59d62fd114fa297854328e42e4f44b",
+  "canonical_revision_sha256": "5eec8e8c2d21ac6beeeeb75068174efae244ded0a817d4155c58c52e4383b10f",
+  "canonical_master_bytes": 367419,
   "scenes": 15,
   "prompt_texts": 36,
   "work_items": [
@@ -26,10 +26,11 @@
   ],
   "work_items_count": 11,
   "slow_scenes": [
+    28,
     35,
     38
   ],
-  "slow_scenes_count": 2,
+  "slow_scenes_count": 3,
   "scene_ids": [
     13,
     16,
@@ -78,7 +79,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.032,
+    "age_hours_at_status_build": 0.999,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -156,7 +157,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.032,
+      "age_hours": 0.999,
       "blocking": false
     },
     "topview_task_map": {
@@ -278,7 +279,7 @@
         "ceremony_to_disco",
         "character_identity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "30": {
       "target_engine": "Wan 3",
@@ -480,10 +481,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "14.10.2026",
-    "synced_at": "2026-10-15T08:22:12Z",
-    "canonical_master_sha256": "a59d2a7f77d46c04374c9e9f60138f825e517ed0593e60f022a9d949b9a74f45",
-    "canonical_revision_sha256": "76e8da76e8a28972fd73d6102042fb3bc25a25bd85009a3d9d8cf20560425767",
+    "revision_date": "15.10.2026",
+    "synced_at": "2026-10-15T09:20:14Z",
+    "canonical_master_sha256": "a3166690b230cd3f36f53eb53f9169ee0b59d62fd114fa297854328e42e4f44b",
+    "canonical_revision_sha256": "5eec8e8c2d21ac6beeeeb75068174efae244ded0a817d4155c58c52e4383b10f",
     "scene_count": 15,
     "prompt_count": 36,
     "scene_ids": [
@@ -517,6 +518,7 @@
       "W15"
     ],
     "slow_scenes": [
+      28,
       35,
       38
     ],
