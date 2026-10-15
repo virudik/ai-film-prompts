@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-11T18:26:33Z",
+  "updated_at": "2026-10-15T18:55:18.057239Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -595,7 +595,7 @@
     }
   ],
   "remaining": [
-    "C28 is intentionally deferred until a clean frame from generated part 2 exists. Unlimited submit route still needs verified access."
+    "C28 is intentionally deferred until a clean frame from generated part 2 exists."
   ],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
@@ -1521,5 +1521,11 @@
       "H28A": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28A-ceremony.png",
       "H28B": "https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/H28B-disco.png"
     }
+  },
+  "free_web_route_verification": {
+    "verified_at": "2026-10-15T13:04:07Z",
+    "receipt": "reports/scene28-launch-2026-10-15.json",
+    "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+    "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
   }
 }

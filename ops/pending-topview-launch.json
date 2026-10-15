@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "reservation_id": "FILM-20261015-NEXT-B6",
+  "state": "waiting_for_slot",
+  "updated_at": "2026-10-15T18:55:18.057239Z",
+  "authorization": {
+    "source": "Owner instruction in current chat, 2026-10-15 16:10 Europe/Moscow: select next ready scene and launch when a slot frees",
+    "max_submissions": 1,
+    "max_credits": 0
+  },
+  "scene_id": 28,
+  "prompt_id": "B6",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "canonical_prompt_source": "video-prompts.md / Scene 28 / B6",
+  "canonical_prompt_sha256": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
+  "model": "Wan 3.0",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "actual_resolution": 720,
+  "prompt_text_resolution": 1080,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "unlimited_required": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+    }
+  ],
+  "visual_qc_at": "2026-10-15T18:55:18.057239Z",
+  "task_id": null,
+  "claim": null,
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "status": "enabled_verified_update_response",
+    "browser_execution": "not_guaranteed_until_runtime_check",
+    "verified_at": "2026-10-15T18:55:50Z",
+    "schedule": "Hourly at HH:55 Europe/Moscow, DTSTART 2026-10-15 22:55",
+    "timing_mode": "exact_schedule",
+    "next_run_time_reported": null
+  },
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md"
+}

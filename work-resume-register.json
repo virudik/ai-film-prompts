@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-15T13:04:07Z",
+  "last_updated_at": "2026-10-15T18:55:18.057239Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -240,6 +240,31 @@
         "reports/evidence/scene28-six-slots-2026-10-15.jpg"
       ],
       "blockers": []
+    },
+    {
+      "work_id": "FILM-20261015-NEXT-B6",
+      "title": "Аудит референсов, инструкция веб-запуска и один следующий B6",
+      "status": "in_progress",
+      "verified_at": "2026-10-15T18:55:18.057239Z",
+      "done": [
+        "47/47 уникальных изображений проверены по SHA256",
+        "B6: четыре исходника повторно просмотрены, промт совпал с manifest",
+        "Практический workflow и handoff дополнены; B6 ещё не отправлен",
+        "Существующая automation переименована и включена: B6, HH:55 Europe/Moscow; update success 18:55:50 UTC; браузер фонового запуска ещё не проверен"
+      ],
+      "next_actions": [
+        "При свободном слоте: live проверки → CAS claim → один бесплатный веб-submit B6 → receipt → выключить automation; при отсутствии браузера сообщить блокировку"
+      ],
+      "constraints": [
+        "Один B6, ноль кредитов, без MCP/Canvas submit",
+        "Не повторять A1/B1/A2/B2/B4/B5",
+        "Не менять approval/slow/роль робота"
+      ],
+      "canonical_refs": [
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "ops/pending-topview-launch.json",
+        "reports/reference-readiness-2026-10-15.md"
+      ]
     }
   ],
   "rules": [
