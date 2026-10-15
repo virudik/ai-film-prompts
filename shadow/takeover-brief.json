@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-14T12:02:46+00:00",
+ "generated_at": "2026-10-15T09:22:48+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "a59d2a7f77d46c04374c9e9f60138f825e517ed0593e60f022a9d949b9a74f45",
-   "bytes": 366748
+   "sha256": "a3166690b230cd3f36f53eb53f9169ee0b59d62fd114fa297854328e42e4f44b",
+   "bytes": 367419
   }
  ],
  "invariants": [
@@ -255,7 +255,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 26056,
+   "offset": 26470,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 38616,
+   "offset": 39030,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -297,7 +297,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 51901,
+   "offset": 52315,
    "chars": 10171,
    "sha256_12": "089f09d85ad3"
   },
@@ -319,7 +319,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 62072,
+   "offset": 62486,
    "chars": 7862,
    "sha256_12": "307489e41935"
   },
@@ -341,7 +341,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 69934,
+   "offset": 70348,
    "chars": 36195,
    "sha256_12": "a9c8f6b42c67"
   },
@@ -350,7 +350,7 @@
    "title": "Финальные титры: имперский строевой танец",
    "target_engine": "Seedance 2.0",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 15,
    "dialogue": null,
    "depends_on": [],
@@ -361,9 +361,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 106129,
-   "chars": 130427,
-   "sha256_12": "dcd69af7849d"
+   "offset": 106543,
+   "chars": 130456,
+   "sha256_12": "a5e688c319ad"
   },
   {
    "id": 30,
@@ -385,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 236556,
+   "offset": 236999,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -409,7 +409,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 245749,
+   "offset": 246192,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 254781,
+   "offset": 255224,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 263789,
+   "offset": 264232,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 269665,
+   "offset": 270108,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -492,7 +492,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 276064,
+   "offset": 276507,
    "chars": 7961,
    "sha256_12": "e2f0c67454d4"
   },
@@ -513,7 +513,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 284025,
+   "offset": 284468,
    "chars": 9939,
    "sha256_12": "ce768b7dd557"
   },
@@ -534,7 +534,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 293964,
+   "offset": 294407,
    "chars": 11616,
    "sha256_12": "2ba566970567"
   },
@@ -555,7 +555,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 305580,
+   "offset": 306023,
    "chars": 10418,
    "sha256_12": "149a304644ae"
   }
