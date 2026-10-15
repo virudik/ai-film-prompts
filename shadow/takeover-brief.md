@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-15T18:57:31+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-15T21:22:45+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 69943 B · `b6d7e18e01f4f369`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26993 B · `449e4a784206cab4`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 368530 B · `2c67ccd61ef45dfb`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 368847 B · `58442a35c9f18fde`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -47,7 +47,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 24 | Коты в кабине: запуск корабля и взлёт | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 089f09d85ad3 |
 | 25 | Коты в кабине: космическое сражение | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [24] | 307489e41935 |
 | 27 | Серёга против котов-магистров: бой на световых мечах | Seedance 2.5 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | a9c8f6b42c67 |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 | [] | a5e688c319ad |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 | [] | 518156c58d47 |
 | 30 | Коты против Серёги: разрушение колоннады | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [27] | aa77c9bbbcd2 |
 | 31 | Коты против Серёги: лестница и телекинетические обломки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [30] | 4895ab1fd4b3 |
 | 32 | Коты против Серёги: обрушение древней арки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [31] | 71b4c8e41633 |
