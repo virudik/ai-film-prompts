@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-15T09:00:13Z",
+  "checked_at": "2026-10-15T09:10:54Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -45,8 +45,8 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 3,
-    "free": 3,
+    "occupied": 2,
+    "free": 4,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
     "active_not_unlimited": 0
@@ -61,22 +61,9 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1507,
-      "wait_seconds": 38880,
+      "queue_count": 2023,
+      "wait_seconds": 60157,
       "process_seconds": null
-    },
-    {
-      "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-10-14 13:31:29",
-      "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 5400
     },
     {
       "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
@@ -87,21 +74,12 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 942,
-      "wait_seconds": 21600,
+      "queue_count": 1618,
+      "wait_seconds": 42876,
       "process_seconds": null
     }
   ],
   "unknown_new": [
-    {
-      "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "created_at": "2026-10-14 13:31:29",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "MODE: Wan 3.0 | reference-to-video | 30 seconds | 1080p | 16:9 | 24 fps | native audio ON | high-end photoreal live-action cinema.\r\nPERFORMER / IMMUTABLE IDENTITY:\r\n<<<Image1>>> is the absolute SEREGA"
-    },
     {
       "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
@@ -121,9 +99,24 @@
       "prompt_head": "Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or generat"
     }
   ],
-  "finished_known": [],
+  "finished_known": [
+    {
+      "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
+      "scene_id": null,
+      "final_status": "success",
+      "completed_at": "2026-10-15 09:05:33",
+      "error_code": null
+    }
+  ],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "final_status": "success",
+      "completed_at": "2026-10-15 09:05:33"
+    },
     {
       "task_id": "c5e925f461f44f4e9b451fc3fbe088fd",
       "scene_id": null,
@@ -141,21 +134,15 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 1260,
+    "monitor_age_minutes": 1271,
     "monitor_occupied": 0,
-    "robot_occupied": 3,
+    "robot_occupied": 2,
     "consistent": false,
     "monitor_may_lag": true,
     "differences": [
       {
         "type": "only_in_robot",
         "task_id": "721cfbef2af0479da57f0a52479d2f54",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "only_in_robot",
-        "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
         "scene_id": null,
         "mapping": "unknown_new"
       },
@@ -168,7 +155,7 @@
       {
         "type": "occupied_differs",
         "monitor": 0,
-        "robot": 3
+        "robot": 2
       }
     ]
   }
