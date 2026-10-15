@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 28,
-  "verified_at": "2026-10-15T12:50:33Z",
+  "verified_at": "2026-10-15T13:04:07Z",
   "source": "Topview read-only board task API after owner-authorized web unlimited submissions",
   "canonical_reference_commit": "39cff05",
   "variants": [
@@ -88,6 +88,46 @@
         "yulya",
         "P28"
       ]
+    },
+    {
+      "variant": "B4",
+      "scene_id": 28,
+      "task_id": "d3844e4199d64abebe323be430a5cb35",
+      "model": "Wan 3.0",
+      "duration_s": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-15T13:01:27Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "67c8e28fb08d16faf42e04ecc769cfd7b0113e651f310e10f89cf9adb3d4c949",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28B",
+        "pasha",
+        "sasha"
+      ]
+    },
+    {
+      "variant": "B5",
+      "scene_id": 28,
+      "task_id": "f88eee8ea93242309b71621e354ccac2",
+      "model": "Wan 3.0",
+      "duration_s": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-15T13:02:41Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "d51440cf709f8831c1a1330c2b99cfc8e2453207c1f330ef7d858e36d8021963",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28B",
+        "artem",
+        "ilyusha"
+      ]
     }
   ],
   "credits_spent": 0,
@@ -103,5 +143,14 @@
     "occupied_slots": 4,
     "free_slots": 2,
     "all_four_mapped": true
+  },
+  "additional_launch_authorization": "Owner requested two more remaining dance parts on 2026-10-15 at 15:58 MSK",
+  "additional_proof": "reports/evidence/scene28-six-slots-2026-10-15.jpg",
+  "additional_proof_sha256": "56e2fd26c13fca2f3bcf5fe5f78974032410156a7dea0e7be1bee05b1b4b27f9",
+  "latest_board_observation": {
+    "active_task_count": 6,
+    "status": "all init",
+    "credits_cost_total": 0,
+    "note": "Direct read-only Topview API after B4/B5 submission; robot canonical snapshot may lag until next scan"
   }
 }
