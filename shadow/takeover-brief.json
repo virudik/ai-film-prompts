@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-15T12:52:46+00:00",
+ "generated_at": "2026-10-15T13:22:53+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "113b30cb04edebe44d8e05d7bd6817ac5597700a58e0ad3030cf6c07a2fac75d",
-   "bytes": 367980
+   "sha256": "2c67ccd61ef45dfb1868906476c4223d4af0e0df9d790be6d1deef49e920936d",
+   "bytes": 368530
   }
  ],
  "invariants": [
@@ -255,7 +255,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 26845,
+   "offset": 27253,
    "chars": 12560,
    "sha256_12": "cf5b524e491f"
   },
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 39405,
+   "offset": 39813,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -297,7 +297,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 52690,
+   "offset": 53098,
    "chars": 10171,
    "sha256_12": "089f09d85ad3"
   },
@@ -319,7 +319,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 62861,
+   "offset": 63269,
    "chars": 7862,
    "sha256_12": "307489e41935"
   },
@@ -341,7 +341,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 70723,
+   "offset": 71131,
    "chars": 36195,
    "sha256_12": "a9c8f6b42c67"
   },
@@ -361,7 +361,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 106918,
+   "offset": 107326,
    "chars": 130456,
    "sha256_12": "a5e688c319ad"
   },
@@ -385,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 237374,
+   "offset": 237782,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -409,7 +409,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 246567,
+   "offset": 246975,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 255599,
+   "offset": 256007,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 264607,
+   "offset": 265015,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 270483,
+   "offset": 270891,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -480,7 +480,7 @@
    "title": "Древний ПК в руинах храма: находка Серёги",
    "target_engine": "Wan 3",
    "state": "DRAFT",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -492,9 +492,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 276882,
-   "chars": 7961,
-   "sha256_12": "e2f0c67454d4"
+   "offset": 277290,
+   "chars": 7932,
+   "sha256_12": "6aec72e0d953"
   },
   {
    "id": 36,
@@ -513,7 +513,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 284843,
+   "offset": 285222,
    "chars": 9939,
    "sha256_12": "ce768b7dd557"
   },
@@ -534,7 +534,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 294782,
+   "offset": 295161,
    "chars": 11616,
    "sha256_12": "2ba566970567"
   },
@@ -543,7 +543,7 @@
    "title": "Серёга рассматривает древний компьютер в заброшенном храме",
    "target_engine": "Wan 3",
    "state": "DRAFT",
-   "render_state": "SLOW_PENDING",
+   "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -555,9 +555,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 306398,
-   "chars": 10418,
-   "sha256_12": "149a304644ae"
+   "offset": 306777,
+   "chars": 10389,
+   "sha256_12": "8f77f9519603"
   }
  ],
  "read_sets": {
