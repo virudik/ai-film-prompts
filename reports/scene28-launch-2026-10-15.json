@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "scene_id": 28,
+  "verified_at": "2026-10-15T12:50:33Z",
+  "source": "Topview read-only board task API after owner-authorized web unlimited submissions",
+  "canonical_reference_commit": "39cff05",
+  "variants": [
+    {
+      "variant": "A1",
+      "scene_id": 28,
+      "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-14T19:10:09Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "8c78e522a0b99d3f836f3c60415f5ab6a66314329869d8e9a4793e4b70cbf2a9",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28A",
+        "serega",
+        "yulya",
+        "H28B"
+      ]
+    },
+    {
+      "variant": "A2",
+      "scene_id": 28,
+      "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-15T12:46:56Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "edd38979f7150a8ac681d5acb67a69453365619f38c3269dfe1b8650ab9368b5",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28B",
+        "serega",
+        "yulya",
+        "P28"
+      ]
+    },
+    {
+      "variant": "B1",
+      "scene_id": 28,
+      "task_id": "721cfbef2af0479da57f0a52479d2f54",
+      "model": "Wan 3.0",
+      "duration_s": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-14T19:11:19Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "bad367c25df2845e64727c9c08f2cbc407ca7a141e54912d6b1a4cbd6625bc0e",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28A",
+        "serega",
+        "yulya",
+        "H28B"
+      ]
+    },
+    {
+      "variant": "B2",
+      "scene_id": 28,
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "model": "Wan 3.0",
+      "duration_s": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "credits_cost": 0,
+      "unlimited": true,
+      "submitted_at": "2026-10-15T12:47:47Z",
+      "status_at_verification": "init",
+      "normalized_prompt_sha256": "a6f602b448ca0452f49183cbf35a5437ad02e3d9cf9b21efd32aa7dc870cc124",
+      "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+      "reference_order": [
+        "H28B",
+        "serega",
+        "yulya",
+        "P28"
+      ]
+    }
+  ],
+  "credits_spent": 0,
+  "balance_after": 332,
+  "proof": "reports/evidence/scene28-free-queue-2026-10-15.jpg",
+  "proof_sha256": "7748364ded0b84938f88b0d2a0bb0b15ac621cd24788b552172b0eac2ae1d9ba",
+  "resolution_note": "Actual renderer setting is 720p. Canonical prompt text still says 1080p; Seedance 1080p would consume credits, so free 720p was used.",
+  "editorial_approval": false,
+  "robot_intake": {
+    "checked_at": "2026-10-15T12:50:13Z",
+    "canonical_commit": "11a82e1e830a693a647657edb8e15b57e20fd64a",
+    "scene_id": 28,
+    "occupied_slots": 4,
+    "free_slots": 2,
+    "all_four_mapped": true
+  }
+}

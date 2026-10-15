@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-14T09:53:52Z",
+  "last_updated_at": "2026-10-15T12:50:33Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -36,21 +36,24 @@
     {
       "work_id": "FILM-20261014-REFS-DANCE",
       "title": "Принять изменения Клода, новые референсы, запуск танцев",
-      "status": "blocked",
-      "verified_at": "2026-10-14T09:53:52Z",
+      "status": "completed",
+      "verified_at": "2026-10-15T12:50:33Z",
       "authorization": "Прямая команда владельца 14.10.2026 в текущем чате: принять изменения, создать фото и запустить танцы в свободные слоты по плану.",
       "done": [
         "Полный приём свежего main; preflight D7 15/15, исходные 138 тестов проходят",
         "Созданы 3 фото helpers 36/37, визуальный QC, сохранены на Drive и в references; выгружены 2 настоящих кадра корабля/кабины и 35-секундный источник",
         "Исправлены остаточные противоречия D7; исторические Scene IDs убраны из active списков персонажей с сохранением в variants",
         "Подготовлены A1/A2/B1/B2 (fallback B1/B2/B4/B5) по точным текстам master",
-        "Сохранён и визуально проверен последний кадр Scene 35 (900/900) как кандидат для 38; Drive 1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL; текущая 38 не изменялась"
+        "Сохранён и визуально проверен последний кадр Scene 35 (900/900) как кандидат для 38; Drive 1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL; текущая 38 не изменялась",
+        "Публикация референсов и правок подтверждена: commit 57faa5528249716760f12e4bf589e4e23beef065; 31/31 файлов Pages совпали побайтно; CI и Pages success",
+        "14.10.2026 через веб-Topview отправлены A1 (Seedance 2.0, 15с) и B1 (Wan 3.0, 30с): unlimited=true, creditsCost=0, 720p, 16:9; фактические промты нормализованно совпали с master",
+        "15.10.2026 отправлены A2 и B2 в веб-Topview: unlimited=true, creditsCost=0; все четыре фактических промта нормализованно совпали с master, robot classifier подтверждает Scene 28; proof сохранён",
+        "Штатный робот сам принял A2/B2: каноническая телеметрия 15.10 12:50:13 UTC подтверждает все 4 задачи Scene 28, 4/6 занятых слота; ручной heartbeat не использовался"
       ],
       "next_actions": [
-        "Войти в существующий аккаунт Topview через безопасный browserAuth в открытой веб-вкладке",
-        "Проверить глобальные свободные слоты, unlimited и стоимость 0; отправить A1/A2/B1/B2 либо согласованный fallback",
-        "Записать фактические task IDs, сохранить proof и дать роботу принять привязки; не писать его heartbeat",
-        "Для 36/37 требуются выбранный конец 17 и отдельный вид лесной планеты; для 38 кандидат конца 35 сохранён, сверить после результата 38."
+        "Не повторять A1/A2/B1/B2: все четыре запуска подтверждены; дождаться фактических результатов и отдельной оценки владельцем",
+        "A3/B3 возможны только после выбора чистого конечного кадра C28 из части 2 и команды владельца",
+        "Пакеты 36/37 ещё требуют выбранный конец Scene 17 и отдельный вид лесной планеты; это зависимости следующего этапа, не разрешение на запуск"
       ],
       "constraints": [
         "Никаких платных Topview MCP/Canvas submit",
@@ -58,22 +61,117 @@
         "A3/B3 только после фактического C28 из части 2",
         "Не менять approval/slow автоматически"
       ],
-      "new_topview_task_ids": [],
+      "new_topview_task_ids": [
+        "fec838b4f63b452c8c76fe50f8e0fdad",
+        "e471e35fc7454fe5a2a89e06fac3f122",
+        "721cfbef2af0479da57f0a52479d2f54",
+        "762b3091b3e44b8599a0a58b91a253c5"
+      ],
       "canonical_refs": [
         "reports/acceptance-and-references-2026-10-14.md",
         "references/scenes/scene-36/manifest.json",
         "references/scenes/scene-37/manifest.json",
-        "NEW-CHAT-HANDOFF.md"
+        "NEW-CHAT-HANDOFF.md",
+        "reports/scene28-launch-2026-10-15.json",
+        "reports/evidence/scene28-free-queue-2026-10-15.jpg"
       ],
-      "blockers": [
-        "Topview web session requires sign-in; no new dance task submitted"
-      ],
+      "blockers": [],
       "recovered_local_commit": "8b8e51f",
       "verification": {
         "tests_passed": 144,
         "site_contract": "passed",
-        "publication": "pending"
-      }
+        "publication": "verified",
+        "publication_commit": "57faa5528249716760f12e4bf589e4e23beef065",
+        "pages_exact_files": "31/31",
+        "ci": "success",
+        "latest_observation": "GitHub robot canonical telemetry 2026-10-15T12:50:13Z: A1/A2/B1/B2 mapped to Scene 28; all init; occupied_slots=4, free_slots=2, project health=ok."
+      },
+      "submitted_variants": [
+        {
+          "variant": "A1",
+          "scene_id": 28,
+          "task_id": "fec838b4f63b452c8c76fe50f8e0fdad",
+          "model": "Seedance 2.0",
+          "duration_s": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-14T19:10:09Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "8c78e522a0b99d3f836f3c60415f5ab6a66314329869d8e9a4793e4b70cbf2a9",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28A",
+            "serega",
+            "yulya",
+            "H28B"
+          ]
+        },
+        {
+          "variant": "A2",
+          "scene_id": 28,
+          "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+          "model": "Seedance 2.0",
+          "duration_s": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T12:46:56Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "edd38979f7150a8ac681d5acb67a69453365619f38c3269dfe1b8650ab9368b5",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "serega",
+            "yulya",
+            "P28"
+          ]
+        },
+        {
+          "variant": "B1",
+          "scene_id": 28,
+          "task_id": "721cfbef2af0479da57f0a52479d2f54",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-14T19:11:19Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "bad367c25df2845e64727c9c08f2cbc407ca7a141e54912d6b1a4cbd6625bc0e",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28A",
+            "serega",
+            "yulya",
+            "H28B"
+          ]
+        },
+        {
+          "variant": "B2",
+          "scene_id": 28,
+          "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+          "model": "Wan 3.0",
+          "duration_s": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "credits_cost": 0,
+          "unlimited": true,
+          "submitted_at": "2026-10-15T12:47:47Z",
+          "status_at_verification": "init",
+          "normalized_prompt_sha256": "a6f602b448ca0452f49183cbf35a5437ad02e3d9cf9b21efd32aa7dc870cc124",
+          "prompt_match": "normalized full match with canonical master; robot classifier agrees",
+          "reference_order": [
+            "H28B",
+            "serega",
+            "yulya",
+            "P28"
+          ]
+        }
+      ]
     }
   ],
   "rules": [
