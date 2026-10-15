@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-15T09:10:54Z",
+  "checked_at": "2026-10-15T09:20:12Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -24,7 +24,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 5,
+    "api_requests": 4,
     "detail_failed": []
   },
   "cursor": {
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 2023,
-      "wait_seconds": 60157,
+      "queue_count": 2010,
+      "wait_seconds": 59600,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 1618,
-      "wait_seconds": 42876,
+      "queue_count": 1603,
+      "wait_seconds": 42319,
       "process_seconds": null
     }
   ],
@@ -99,15 +99,7 @@
       "prompt_head": "Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent dance plate for externally added music; no dialogue, singing or generat"
     }
   ],
-  "finished_known": [
-    {
-      "task_id": "7dd261cf0f404a39ab1915379e97cb9a",
-      "scene_id": null,
-      "final_status": "success",
-      "completed_at": "2026-10-15 09:05:33",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -134,7 +126,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-14T12:00:12Z",
-    "monitor_age_minutes": 1271,
+    "monitor_age_minutes": 1280,
     "monitor_occupied": 0,
     "robot_occupied": 2,
     "consistent": false,
