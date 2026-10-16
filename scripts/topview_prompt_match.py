@@ -72,6 +72,11 @@ def label_for(scene, heading, index_in_scene):
     if scene == 27:
         m = re.match(r"Часть\s+(\d+)", heading)
         return f"27 · Seedance 2.0 часть {m.group(1)}" if m else "27 · основной 30 с"
+    # Scene 49 rock-band and Scene 50 Wookiee audience have independent A–F / A–B parts.
+    # Keep each text block uniquely identifiable for matching and collision prevention.
+    if scene in (49, 50):
+        m = re.match(rf"({scene}[A-Z])\b", heading)
+        return m.group(1) if m else str(scene)
     return str(scene)
 
 

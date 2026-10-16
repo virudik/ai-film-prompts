@@ -388,7 +388,8 @@
       "done": [
         "Prepared Scene 49 with 6 standalone 15-second Seedance 2.0 prompts, canonical H28B and individual identity references",
         "Prepared Scene 50 with 2 standalone 15-second Seedance 2.0 prompts for Wookiee headbanging and controlled mosh pit",
-        "Added existing real reference gallery only, manifest with pending photo QC, no video render authorization"
+        "Added existing real reference gallery only, manifest with pending photo QC, no video render authorization",
+        "Fixed scene-part labelling in scripts/topview_prompt_match.py for 49A–49F and 50A–50B, plus explicit integration assertions after catching CI regression"
       ],
       "next_actions": [
         "Verify newest GitHub Pages deployment for Scenes 49 and 50 and project-status health=ok",
