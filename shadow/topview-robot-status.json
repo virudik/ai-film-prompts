@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-16T04:57:34Z",
+  "checked_at": "2026-10-16T05:00:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -62,7 +62,7 @@
       "scene_id": 28,
       "mapping": "task_map",
       "queue_count": 3085,
-      "wait_seconds": 118915,
+      "wait_seconds": 118759,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 294,
-      "wait_seconds": 6595,
+      "queue_count": 287,
+      "wait_seconds": 6438,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2077,
-      "wait_seconds": 67075,
+      "queue_count": 2072,
+      "wait_seconds": 66918,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2447,
-      "wait_seconds": 84355,
+      "queue_count": 2445,
+      "wait_seconds": 84199,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1698,
-      "wait_seconds": 49795,
+      "queue_count": 1692,
+      "wait_seconds": 49639,
       "process_seconds": null
     },
     {
@@ -127,7 +127,7 @@
       "scene_id": 28,
       "mapping": "task_map",
       "queue_count": 2787,
-      "wait_seconds": 101635,
+      "wait_seconds": 101478,
       "process_seconds": null
     }
   ],
@@ -152,7 +152,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-16T04:40:12Z",
-    "monitor_age_minutes": 17,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
