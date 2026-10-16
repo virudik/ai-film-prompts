@@ -1,0 +1,59 @@
+{
+  "scene_id": 28,
+  "prompt_id": "B7",
+  "task_id": "979f07acffe04750961515f4baf21a3f",
+  "submitted_at": "2026-10-16T17:26:19Z",
+  "status": "init",
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "useUnlimitMode": true,
+  "creditsCost": 0,
+  "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
+  "normalized_prompt_sha256": "fcc7bf170b24912b011cb5bb9420f345d85ed0a35527eaa467a9ad199e74741f",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "required": true,
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/luchik.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/ryzhik.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "role": "identity",
+      "required": true,
+      "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f"
+    }
+  ],
+  "route": "Topview website GUI; one click",
+  "ui_evidence": "reports/topview-queue-2026-10-16/B7-submitted.jpg",
+  "active_slots_after": 6,
+  "owner_approval": "not_recorded",
+  "claim": {
+    "run_id": "chatgpt-20261016-B7-1792152654924",
+    "claimed_at": "2026-10-16T12:10:54.924Z",
+    "actor": "ChatGPT Work",
+    "route": "free_web_gui",
+    "resumed_at": "2026-10-16T17:26:11.229Z",
+    "reconciliation": "Complete 11-board/571-video scan: no B7 task; last new video remains B6; previous attempt did not click Create. Resume same single claim."
+  }
+}
