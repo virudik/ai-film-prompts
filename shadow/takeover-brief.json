@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T14:49:00+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-16T14:49:17+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 25,
-  "prompt_texts": 46,
+  "scenes": 27,
+  "prompt_texts": 54,
   "scene_ids": [
    13,
    16,
@@ -218,9 +218,11 @@
    45,
    46,
    47,
-   48
+   48,
+   49,
+   50
   ],
-  "latest_scene": 48,
+  "latest_scene": 50,
   "reserved": [
    1,
    2,
@@ -788,12 +790,14 @@
   {
    "id": 49,
    "title": "Финальные титры: все играют космический рок на инопланетных инструментах",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Seedance 2.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 15,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    28
+   ],
    "prompts": 6,
    "refs": [
     "@Image1",
@@ -808,12 +812,15 @@
   {
    "id": 50,
    "title": "Финальные титры: вуки-фанаты слэмятся и трясут гривами",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Seedance 2.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 15,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    28,
+    49
+   ],
    "prompts": 2,
    "refs": [
     "@Image1",
