@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-16T17:40:15Z",
+  "checked_at": "2026-10-16T17:50:15Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 3070,
-      "wait_seconds": 117120,
+      "queue_count": 3061,
+      "wait_seconds": 116521,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2079,
-      "wait_seconds": 65280,
+      "queue_count": 2064,
+      "wait_seconds": 64680,
       "process_seconds": null
     },
     {
@@ -85,10 +85,10 @@
       "unlimited": true,
       "created_at": "2026-10-16 17:26:19",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 3359,
-      "wait_seconds": 134399,
+      "scene_id": 28,
+      "mapping": "task_map",
+      "queue_count": 3351,
+      "wait_seconds": 133799,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2431,
-      "wait_seconds": 82558,
+      "queue_count": 2421,
+      "wait_seconds": 81960,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1635,
-      "wait_seconds": 47998,
+      "queue_count": 1620,
+      "wait_seconds": 47399,
       "process_seconds": null
     },
     {
@@ -126,22 +126,12 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2764,
-      "wait_seconds": 99839,
+      "queue_count": 2754,
+      "wait_seconds": 99239,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "979f07acffe04750961515f4baf21a3f",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-16 17:26:19",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9\nAudio intent: silent plate for external music; no speech, human vocals or generated score.\n\n"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -161,24 +151,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-16T16:30:15Z",
-    "monitor_age_minutes": 70,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-10-16T17:40:15Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "979f07acffe04750961515f4baf21a3f",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
