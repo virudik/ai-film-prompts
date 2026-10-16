@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T22:35:47+00:00",
+ "generated_at": "2026-10-16T23:09:57+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "ec70d1efc68ea0e3cf7e9c04b6d6946522bbc4962333dd80e8409edc007dac18",
-   "bytes": 593130
+   "sha256": "f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669",
+   "bytes": 600568
   }
  ],
  "invariants": [
@@ -799,7 +799,7 @@
    "id": 49,
    "title": "Финальные титры: все играют космический рок на инопланетных инструментах",
    "target_engine": "Seedance 2.0",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 15,
    "dialogue": null,
@@ -811,11 +811,14 @@
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5",
+    "@Image6",
+    "@Image7"
    ],
    "offset": 434049,
-   "chars": 49446,
-   "sha256_12": "d2105a04b192"
+   "chars": 53948,
+   "sha256_12": "1b9319af8607"
   },
   {
    "id": 50,
@@ -834,7 +837,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 483495,
+   "offset": 487997,
    "chars": 14695,
    "sha256_12": "dd8303bdf75f"
   },
@@ -842,7 +845,7 @@
    "id": 51,
    "title": "Финальные титры: рок-финал с разбиванием инопланетных инструментов",
    "target_engine": "Seedance 2.0",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 15,
    "dialogue": null,
@@ -856,11 +859,14 @@
     "@Image1",
     "@Image2",
     "@Image3",
-    "@Image4"
+    "@Image4",
+    "@Image5",
+    "@Image6",
+    "@Image7"
    ],
-   "offset": 498190,
-   "chars": 14355,
-   "sha256_12": "52641527ab79"
+   "offset": 502692,
+   "chars": 17095,
+   "sha256_12": "03a5f95a54aa"
   }
  ],
  "read_sets": {
