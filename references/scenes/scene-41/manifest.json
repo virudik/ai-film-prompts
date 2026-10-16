@@ -156,7 +156,7 @@
     {
       "prompt": "main",
       "prompt_id": "S41",
-      "canonical_prompt_sha256": "63f1612194530e0bb19212572b598c12904651529976bcdfc1f5765b312d1bec",
+      "canonical_prompt_sha256": "b1889671eab2d38b9f74212bdfd762ceffef31c0d60d4e22919cee920f815fc3",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,

@@ -185,7 +185,7 @@
     {
       "prompt": "main",
       "prompt_id": "S48",
-      "canonical_prompt_sha256": "8d842998e0e5fa340c226369ee4f59516facd3fbff4869f38014b1ede0778e4e",
+      "canonical_prompt_sha256": "3070fc31154b769cd10fe629e9b6a816c5c3c1bc0ab955143da0197a55a43ab4",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,

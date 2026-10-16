@@ -183,7 +183,7 @@
     {
       "prompt": "main",
       "prompt_id": "S40",
-      "canonical_prompt_sha256": "fce6b8605d5e1355a6958df6b5d9aa6ab02a39e7515c691b8262f1f3482248f8",
+      "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
       "local_numbering": true,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,

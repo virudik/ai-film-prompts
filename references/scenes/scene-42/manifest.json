@@ -157,7 +157,7 @@
     {
       "prompt": "main",
       "prompt_id": "S42",
-      "canonical_prompt_sha256": "cee72effd4370bc888a7a8d73fc4628d2bf037c99b893a8f75842b817b388ef8",
+      "canonical_prompt_sha256": "8638c4b1f31fa10f7b805bff64880738552ca91494fa7e16baa99bc2fa91b342",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,
