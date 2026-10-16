@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T15:20:22Z",
+  "synced_at": "2026-10-16T15:40:15Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "aecdbc9bdc35002bf46fd1bc7f88279b7b144582ff795f47feabe4c98bd3d907",
@@ -809,7 +809,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T15:20:22Z",
+    "synced_at": "2026-10-16T15:40:15Z",
     "canonical_master_sha256": "aecdbc9bdc35002bf46fd1bc7f88279b7b144582ff795f47feabe4c98bd3d907",
     "canonical_revision_sha256": "b4c4eecf66fb3368fe6a9430b611c3f57530d49becba23f3af40d69659522738",
     "scene_count": 28,
