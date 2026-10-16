@@ -2,7 +2,7 @@
   "schema_version": 1,
   "reservation_id": "FILM-20261015-NEXT-B6",
   "state": "submitted",
-  "updated_at": "2026-10-16T00:10:00Z",
+  "updated_at": "2026-10-16T00:10:30Z",
   "authorization": {
     "source": "Owner instruction in current chat, 2026-10-15 16:10 Europe/Moscow: select next ready scene and launch when a slot frees",
     "max_submissions": 1,
@@ -53,12 +53,14 @@
   },
   "automation": {
     "id": "6acae6ab433481919e88665c520b8ef2",
-    "status": "disable_pending_after_verified_submission",
+    "status": "disabled_after_verified_submission",
     "browser_execution": "not_guaranteed_until_runtime_check",
     "verified_at": "2026-10-15T18:55:50Z",
     "schedule": "Hourly at HH:55 Europe/Moscow, DTSTART 2026-10-15 22:55",
     "timing_mode": "exact_schedule",
-    "next_run_time_reported": null
+    "next_run_time_reported": null,
+    "disabled_at": "2026-10-16T00:10:28Z",
+    "disable_verified": true
   },
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "submission": {
