@@ -3433,14 +3433,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 47 — Красная точка: Серёга уходит от котов хитростью
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":32}],"tags":["serega","cats","sith_planet","saber_duel","red_dot","comedy","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":32}],"tags":["serega","cats","sith_planet","saber_duel","red_dot","comedy","continuity"]} -->
 
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026:** дуэль котов и Серёги (Scenes 27–32) заканчивается «красной точкой». Серёга понимает, что котов не победить, гасит меч и рукоятью пускает по камням красную точку. Коты не выдерживают и бросаются её ловить, а он спокойно уходит в храм. Коты остаются непобеждёнными мастерами, Серёга выигрывает хитростью.
 - **Место в фильме:** сразу после Scene 32 (арка), перед Scene 33 (Серёга один идёт по руинам к храму). В монтаж ~15–20 с.
-- **Стык:** старт — фактический последний кадр того ролика Scene 32, который пойдёт в монтаж (сейчас единственный результат — task `9746bfed635c451e97095c35b4e3b2bf`). Кадр ещё не извлечён, поэтому сцена DRAFT.
-- Без речи → Wan 3.0, как бой 30–32. В очередь запуска не внесена; запуск — только по команде владельца.
+- **Стык:** старт — фактический последний кадр того ролика Scene 32, который пойдёт в монтаж (сейчас единственный результат — task `9746bfed635c451e97095c35b4e3b2bf`). Настоящий последний кадр 899/899 (29.966667 с) извлечён и проверен; @Image6 задаёт точный старт. На фактическом кадре арка стоит: не придумывать обрушение между сценами.
+- Без речи → Wan 3.0, как бой 30–32. READY; добавлена в разрешённую владельцем очередь после танцев, в порядке п. 6в.
 
 **Референсы:**
 
@@ -3449,14 +3449,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image3 — <a href="references/ryzhik.jpg">Рыжик</a>;
 - @Image4 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">те же руины</a>;
 - @Image5 — <a href="references/scenes/scene-27/S27-three-subject-scale.png">масштаб</a> (вспомогательный).
-- Перед запуском добавить: последний кадр выбранного ролика Scene 32 как стартовый кадр (локальную нумерацию сдвинуть).
+- @Image6 — <a href="references/scenes/scene-47/S47-start-from-S32-result.png">настоящий последний кадр Scene 32</a>, абсолютный стартовый кадр; лица — по индивидуальным референсам.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик"></a><figcaption>@Image2 — Лучик</figcaption></figure>
 <figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик"></a><figcaption>@Image3 — Рыжик</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image4 — точные руины</figcaption></figure>
-<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image5 — масштаб</figcaption></figure></div>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image5 — масштаб</figcaption></figure><figure><a href="references/scenes/scene-47/S47-start-from-S32-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-47/S47-start-from-S32-result.png.webp" alt="@Image6 — настоящий конец Scene 32"></a><figcaption>@Image6 — конец 32, 29.966667 с</figcaption></figure></div>
 
 **Что происходит:** Серёга зажат котами у полуразрушенной арки. Он вдруг успокаивается, гасит красный меч и направляет пустую рукоять в землю: на камне перед котами появляется маленькая красная точка. Коты замирают, головы синхронно следят за ней, Лучик секунду держится — и сдаётся. Оба гасят мечи и бросаются ловить точку, прыгают, промахиваются, сталкиваются. Серёга загоняет точку в тёмную щель между обломками арки, коты ныряют туда же. Он опускает рукоять, поправляет мантию и один поднимается по ступеням к храму.
 
@@ -3470,7 +3470,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — exact RYZHIK identity.
 @Image4 — ABSOLUTE ancient Sith-planet ruins geography and sunset (see LOCATION LOCK — CRITICAL).
 @Image5 — optional three-subject scale/staging helper only; never overrides identities or location.
-Priority: @Image4 controls architecture, geography and sunset. @Image1, @Image2 and @Image3 control identities. @Image5 only helps scale and staging.
+@Image6 — genuine final frame of Scene 32: absolute opening composition, cat-left/right positions, standing arch and existing rubble. Preserve this actual state; do not invent an off-screen collapse.
+Priority: @Image6 controls the exact opening frame and existing damage; @Image4 controls wider architecture, geography and sunset. @Image1, @Image2 and @Image3 control identities. @Image5 only helps scale and staging.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (@Image1): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His saber is RED; its polished metal hilt stays in his right hand for the whole shot.
@@ -3479,13 +3480,13 @@ RYZHIK (@Image3): exact warm orange striped tabby with fluffy ginger coat, light
 CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's knee. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands, arms or anthropomorphic bodies. Exactly three characters, no duplicates.
 
 LOCATION LOCK — CRITICAL:
-@Image4 is the same world as the previous duel: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces and stairs, shattered columns, rectangular towers, distant jagged mesa spires, low warm orange-gold sun. Fallen blocks, saber scars and a half-collapsed arch from the fight stay in place. Never substitute lava, black basalt, a clean arena or a red volcanic storm.
+@Image4 is the same world as the previous duel: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces and stairs, shattered columns, rectangular towers, distant jagged mesa spires, low warm orange-gold sun. Preserve the standing arch and existing fallen blocks exactly as shown in @Image6; no invented collapse between shots. Never substitute lava, black basalt, a clean arena or a red volcanic storm.
 
 RED DOT LOCK — CRITICAL:
 One small, crisp, bright red pointer dot, about the size of a coin, cast on the stone surfaces from the emitter end of Serega's switched-off saber hilt. Exactly one dot. It moves only where Serega points the hilt and only along real surfaces: stone floor, block faces, steps. No beam, no laser line in the air, no explosion, no magic; the blade itself is off while the dot is used.
 
 START STATE:
-Physically continuous from the end of the previous duel shot near the half-collapsed temple arch: Serega in a strained low defensive stance with his red saber lit; Luchik (blue) and Ryzhik (green) advance side by side amid settling ochre dust, clearly dominating.
+Begin exactly from @Image6: Ryzhik on frame-left with a green saber, Luchik on frame-right with a blue saber, Serega behind them with his red saber lit, and the standing arch behind Serega. Continue their movement naturally into the confrontation; keep the exact existing rubble and sunset.
 
 TIMELINE:
 [0:00–0:05] — CORNERED
@@ -3501,7 +3502,7 @@ Close two-shot of the cats at their own eye level: both heads snap down to the d
 Wide: Serega flicks the dot away across the terrace. Both cats explode after it, pouncing, missing, bumping into each other and bounding over fallen blocks, as the dot skitters up a step and along a block face. Serega, still pointing the hilt with one hand, backs away calmly toward the temple stairs without hurrying.
 
 [0:24–0:30] — GONE
-Serega sends the dot deep into a dark narrow gap between fallen blocks of the collapsed arch. Both cats dive into the gap after it and disappear; a puff of dust drifts out. Serega lowers the hilt, straightens his robe, turns his back and walks up the temple stairs alone.
+Serega sends the dot deep into a dark narrow gap between existing fallen blocks beside the arch. Both cats dive into the gap after it and disappear; a puff of dust drifts out. Serega lowers the hilt, straightens his robe, turns his back and walks up the temple stairs alone.
 
 END STATE:
 Serega alone, walking away toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.
