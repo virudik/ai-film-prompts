@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T07:10:14Z",
+  "synced_at": "2026-10-16T08:09:05Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "6a513fc5bc3ef2bd329610c4f089921d927ca0321ffd1c70d1ea1857a02ff967",
-  "canonical_revision_sha256": "dc36870086f86fa29cc64fe2527b977fa27ea6562b9db9b36f63332aa3cc970d",
-  "canonical_master_bytes": 374110,
-  "scenes": 15,
-  "prompt_texts": 36,
+  "canonical_master_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+  "canonical_revision_sha256": "3f3dccb4021dde9eca991c3503587d20b5786638005981c43beba4871768817b",
+  "canonical_master_bytes": 403770,
+  "scenes": 17,
+  "prompt_texts": 38,
   "work_items": [
     "W5",
     "W6",
@@ -44,9 +44,11 @@
     35,
     36,
     37,
-    38
+    38,
+    39,
+    40
   ],
-  "latest_scene": 38,
+  "latest_scene": 40,
   "reserved_scene_ids": [
     1,
     2,
@@ -73,16 +75,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-16T05:56:14.844Z",
+    "snapshot_at": "2026-10-16T08:08:03.208Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.233,
+    "age_hours_at_status_build": 0.017,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "d0ae5c273c5f28aa1a9dfcaa3bb1ce7f117a2245",
-        "mirror_sha256": "1ebb20db056d38d1f302c55b8e0b31ef37c6a695375f2444a89e0358bb13ccf7",
+        "github_blob": "40247f150e5c6440bd7bddb66657f153b1847872",
+        "mirror_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
         "match": true,
         "drive_copy_sha256": "92bbf601f9632dec1bf0dc4a948450f678f0e9001a73cd474a4557501f6ec767",
         "drive_copy_match": true,
@@ -155,7 +157,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.233,
+      "age_hours": 0.017,
       "blocking": false
     },
     "topview_task_map": {
@@ -476,15 +478,54 @@
         "continuity"
       ],
       "render_state": "IDLE"
+    },
+    "39": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "travel",
+        "landing",
+        "naboo",
+        "lake",
+        "continuity"
+      ],
+      "render_state": "IDLE"
+    },
+    "40": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "travel",
+        "landing",
+        "sith_planet",
+        "map",
+        "bread_and_milk",
+        "continuity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T07:10:14Z",
-    "canonical_master_sha256": "6a513fc5bc3ef2bd329610c4f089921d927ca0321ffd1c70d1ea1857a02ff967",
-    "canonical_revision_sha256": "dc36870086f86fa29cc64fe2527b977fa27ea6562b9db9b36f63332aa3cc970d",
-    "scene_count": 15,
-    "prompt_count": 36,
+    "synced_at": "2026-10-16T08:09:05Z",
+    "canonical_master_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+    "canonical_revision_sha256": "3f3dccb4021dde9eca991c3503587d20b5786638005981c43beba4871768817b",
+    "scene_count": 17,
+    "prompt_count": 38,
     "scene_ids": [
       13,
       16,
@@ -500,7 +541,9 @@
       35,
       36,
       37,
-      38
+      38,
+      39,
+      40
     ],
     "work_items": [
       "W5",
