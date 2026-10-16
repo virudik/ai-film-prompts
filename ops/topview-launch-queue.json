@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T05:35:47.036Z",
-  "state": "active",
+  "updated_at": "2026-10-16T07:54:07.176652Z",
+  "state": "blocked_browser",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -984,11 +984,32 @@
   "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval",
   "automation_verification": {
     "id": "6acae6ab433481919e88665c520b8ef2",
-    "is_enabled": true,
-    "verified_at": "2026-10-16T05:35:47.036Z",
-    "last_run_time": "2026-10-16T04:58:40.069318+00:00",
+    "is_enabled": false,
+    "verified_at": "2026-10-16T07:54:07.176652Z",
+    "last_run_time": "2026-10-16T06:53:45.468088+00:00",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
     "next_run_time_reported": null,
-    "status": "enabled; observed scheduled run after queue update"
+    "status": "paused after global blocked_browser; resume only from working chat after browser access is available"
+  },
+  "blocked_browser": {
+    "detected_at": "2026-10-16T07:54:07.176652Z",
+    "run_id": "chatgpt-scheduled-20261016T075021Z",
+    "scope": "global_web_submit",
+    "reason": "Authorized cloud browser reached Topview but was denied by Cloudflare Error 1010 (browser signature). No submit was attempted and no paid API fallback was used.",
+    "slot_snapshot": {
+      "checked_at": "2026-10-16T07:50:32Z",
+      "active_unlimited": 5,
+      "capacity": 6,
+      "free_slots": 1,
+      "newly_terminal": [
+        {
+          "task_id": "721cfbef2af0479da57f0a52479d2f54",
+          "status": "success"
+        }
+      ]
+    },
+    "next_ready_item": "B7",
+    "continuation": "working_chat_with_same_owner_authorization",
+    "notification_state": "owner_notification_required_once"
   }
 }
