@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T11:33:41+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-16T11:41:51+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "08c1ffb41dcb6ff1309c0aaa60152e3afdc1cab6c46100312c42fb53c2d75311",
-   "bytes": 59017
+   "sha256": "653a0e3e4fc8e1d66178aa5dd231bde3f1be11f7e481f501cf484c4faca51e11",
+   "bytes": 59717
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "7a23f8b173c516afe3f149c7dda21af7a401c715e1c5418ede9f784d32b82ad4",
-   "bytes": 481716
+   "sha256": "1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd",
+   "bytes": 493629
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 34308,
-  "above_marker_chars": 34308,
+  "chars": 34736,
+  "above_marker_chars": 34736,
   "recent_sections_below_marker": [],
-  "sha256_12": "c5eb0c469c08",
+  "sha256_12": "d07866fb57ac",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -264,7 +264,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 30275,
+   "offset": 30840,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -286,9 +286,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 43252,
-   "chars": 13285,
-   "sha256_12": "75964595562a"
+   "offset": 43817,
+   "chars": 13502,
+   "sha256_12": "7afc53e5dc5f"
   },
   {
    "id": 24,
@@ -306,7 +306,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 56537,
+   "offset": 57319,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -328,7 +328,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 67222,
+   "offset": 68004,
    "chars": 8179,
    "sha256_12": "98869d4a3236"
   },
@@ -350,7 +350,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 75401,
+   "offset": 76183,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -370,7 +370,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 111671,
+   "offset": 112453,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -394,7 +394,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 242190,
+   "offset": 242972,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -418,7 +418,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 251383,
+   "offset": 252165,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -442,7 +442,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 260415,
+   "offset": 261197,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -460,7 +460,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 269423,
+   "offset": 270205,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -480,7 +480,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275299,
+   "offset": 276081,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -501,7 +501,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 281698,
+   "offset": 282480,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -523,7 +523,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 289630,
+   "offset": 290412,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -547,7 +547,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 300275,
+   "offset": 301057,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -568,7 +568,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 313135,
+   "offset": 313917,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -587,9 +587,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 323548,
+   "offset": 324330,
    "chars": 10109,
-   "sha256_12": "efc8a3f2da24"
+   "sha256_12": "01237ccbfc8e"
   },
   {
    "id": 40,
@@ -609,9 +609,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 333657,
-   "chars": 13099,
-   "sha256_12": "723906b1a838"
+   "offset": 334439,
+   "chars": 13221,
+   "sha256_12": "f242345a75e0"
   },
   {
    "id": 41,
@@ -630,13 +630,13 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 346756,
+   "offset": 347660,
    "chars": 10889,
    "sha256_12": "ab216b32c33a"
   },
   {
    "id": 42,
-   "title": "Татуин: после червя Канцлер забирает фрагмент карты",
+   "title": "Татуин: бой на фоне червя — червь им не интересен",
    "target_engine": "Wan 3",
    "state": "DRAFT",
    "render_state": "IDLE",
@@ -651,12 +651,11 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5",
-    "@Image6"
+    "@Image5"
    ],
-   "offset": 357645,
-   "chars": 10019,
-   "sha256_12": "b2375d3a8239"
+   "offset": 358549,
+   "chars": 8983,
+   "sha256_12": "2b230fa157f9"
   },
   {
    "id": 43,
@@ -672,7 +671,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 367664,
+   "offset": 367532,
    "chars": 9703,
    "sha256_12": "902be5a48bd9"
   },
@@ -692,7 +691,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 377367,
+   "offset": 377235,
    "chars": 9535,
    "sha256_12": "b51962b79ebf"
   },
@@ -713,7 +712,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 386902,
+   "offset": 386770,
    "chars": 8973,
    "sha256_12": "fbd9d79190ec"
   },
@@ -733,7 +732,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 395875,
+   "offset": 395743,
    "chars": 7009,
    "sha256_12": "8c867a5eac85"
   },
@@ -756,9 +755,31 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 402884,
-   "chars": 9243,
-   "sha256_12": "7f51d80cc0cd"
+   "offset": 402752,
+   "chars": 9267,
+   "sha256_12": "bfeace9a7862"
+  },
+  {
+   "id": 48,
+   "title": "Татуин: после боя Канцлер забирает фрагмент карты",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 412019,
+   "chars": 10120,
+   "sha256_12": "f9245eb84014"
   }
  ],
  "read_sets": {
