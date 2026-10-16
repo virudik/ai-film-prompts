@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T14:49:07Z",
+  "synced_at": "2026-10-16T15:20:22Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "1516265f5b9a3bdb40dd3ca442d757c006985c4e0d68ff5db397bc1a612bb8bf",
-  "canonical_revision_sha256": "b940613e293c4ea9d2fc8a06d9cee0166af3b1d5a5ace9395880eda6a01b2357",
-  "canonical_master_bytes": 572608,
-  "scenes": 27,
-  "prompt_texts": 54,
+  "canonical_master_sha256": "aecdbc9bdc35002bf46fd1bc7f88279b7b144582ff795f47feabe4c98bd3d907",
+  "canonical_revision_sha256": "b4c4eecf66fb3368fe6a9430b611c3f57530d49becba23f3af40d69659522738",
+  "canonical_master_bytes": 589007,
+  "scenes": 28,
+  "prompt_texts": 56,
   "work_items": [
     "W5",
     "W6",
@@ -56,9 +56,10 @@
     47,
     48,
     49,
-    50
+    50,
+    51
   ],
-  "latest_scene": 50,
+  "latest_scene": 51,
   "reserved_scene_ids": [
     1,
     2,
@@ -93,14 +94,14 @@
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "6385b4f1cba96e33fffc2d1d76a73b865c86ac47",
-        "mirror_sha256": "a8c33c57fcf7c539c142603275d002d2c7cdc4b9ab568b34a7d0400da68121a5",
+        "github_blob": "8db87f1cbda8c89e2f77997f97585f34a4f367dd",
+        "mirror_sha256": "f869ce6ca87312ec1ef5561b9380b0d71bd8f448a9dd33db4cd4f85cee71b095",
         "match": true,
         "drive_copy_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
         "drive_copy_match": false,
         "drive_copy_modified_at": "2026-10-16T08:12:18.394Z",
         "drive_copy_checked_at": "2026-10-16T08:12:30.269Z",
-        "drive_copy_note": "GitHub canonical updated, Drive read-only backup may lag."
+        "drive_copy_note": "New canonical handoff; read-only Drive backup may be stale"
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
@@ -772,15 +773,47 @@
         "montage_insert"
       ],
       "render_state": "IDLE"
+    },
+    "51": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 15,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "related_to",
+          "scene": 28
+        },
+        {
+          "type": "related_to",
+          "scene": 49
+        },
+        {
+          "type": "related_to",
+          "scene": 50
+        }
+      ],
+      "tags": [
+        "dance_credits",
+        "alien_rock_band",
+        "instrument_smash",
+        "same_H28B",
+        "wookiee_fans",
+        "montage_insert"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T14:49:07Z",
-    "canonical_master_sha256": "1516265f5b9a3bdb40dd3ca442d757c006985c4e0d68ff5db397bc1a612bb8bf",
-    "canonical_revision_sha256": "b940613e293c4ea9d2fc8a06d9cee0166af3b1d5a5ace9395880eda6a01b2357",
-    "scene_count": 27,
-    "prompt_count": 54,
+    "synced_at": "2026-10-16T15:20:22Z",
+    "canonical_master_sha256": "aecdbc9bdc35002bf46fd1bc7f88279b7b144582ff795f47feabe4c98bd3d907",
+    "canonical_revision_sha256": "b4c4eecf66fb3368fe6a9430b611c3f57530d49becba23f3af40d69659522738",
+    "scene_count": 28,
+    "prompt_count": 56,
     "scene_ids": [
       13,
       16,
@@ -808,7 +841,8 @@
       47,
       48,
       49,
-      50
+      50,
+      51
     ],
     "work_items": [
       "W5",
