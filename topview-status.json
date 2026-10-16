@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "source": "Topview operational telemetry",
-  "checked_at": "2026-10-16T10:30:11Z",
+  "checked_at": "2026-10-16T11:20:14Z",
   "timezone": "UTC",
   "canonical_behavior": "Topview slow capacity is 6 concurrent active task slots. One active Topview task occupies one slot even when several tasks belong to the same Scene ID. Canonical slow membership remains unique by Scene ID.",
   "scenes": {
@@ -335,9 +335,9 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-16T00:09:14Z",
-      "queue_count": 3499,
-      "topview_estimated_wait_seconds": 142924,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 3443,
+      "topview_estimated_wait_seconds": 139920,
+      "checked_at": "2026-10-16T11:20:14Z",
       "verified": true,
       "mapping_confidence": "prompt normalized match with master block 28 B6 (robot)",
       "active_task_ids": [
@@ -361,7 +361,7 @@
     "header_timestamp_source": "checked_at",
     "header_timestamp_style": "ordinary text color and weight; no 'синхр.' label",
     "three_view_source": "active_tasks[] normalized once per page load",
-    "three_view_checked_at": "2026-10-16T10:30:11Z",
+    "three_view_checked_at": "2026-10-16T11:20:14Z",
     "scene_summary": "unique Scene IDs with multiplicity; mixed task statuses preserved",
     "queue_source": "exact active_tasks[].queue_count per task"
   },
@@ -376,12 +376,13 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-16T00:09:14Z",
-      "queue_count": 3499,
-      "topview_estimated_wait_seconds": 142924,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 3443,
+      "topview_estimated_wait_seconds": 139920,
+      "checked_at": "2026-10-16T11:20:14Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 28 B6 (robot)"
+      "mapping_confidence": "prompt normalized match with master block 28 B6 (robot)",
+      "part": "B6"
     },
     {
       "scene_id": 28,
@@ -390,12 +391,13 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-15T12:47:47Z",
-      "queue_count": 2599,
-      "topview_estimated_wait_seconds": 91084,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 2544,
+      "topview_estimated_wait_seconds": 88081,
+      "checked_at": "2026-10-16T11:20:14Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 28 B2 (robot)"
+      "mapping_confidence": "prompt normalized match with master block 28 B2 (robot)",
+      "part": "B2"
     },
     {
       "scene_id": 28,
@@ -404,12 +406,13 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-15T13:01:27Z",
-      "queue_count": 2918,
-      "topview_estimated_wait_seconds": 108364,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 2860,
+      "topview_estimated_wait_seconds": 105359,
+      "checked_at": "2026-10-16T11:20:14Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 28 B4 (robot)"
+      "mapping_confidence": "prompt normalized match with master block 28 B4 (robot)",
+      "part": "B4"
     },
     {
       "scene_id": 28,
@@ -418,12 +421,13 @@
       "model_id": "seedance-2.0-style",
       "topview_status": "init",
       "started_at": "2026-10-15T12:46:56Z",
-      "queue_count": 2225,
-      "topview_estimated_wait_seconds": 73803,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 2155,
+      "topview_estimated_wait_seconds": 70799,
+      "checked_at": "2026-10-16T11:20:14Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 28 A2 (robot)"
+      "mapping_confidence": "prompt normalized match with master block 28 A2 (robot)",
+      "part": "A2"
     },
     {
       "scene_id": 28,
@@ -432,17 +436,18 @@
       "model_id": "qwen-wan3.0-video",
       "topview_status": "init",
       "started_at": "2026-10-15T13:02:41Z",
-      "queue_count": 3210,
-      "topview_estimated_wait_seconds": 125644,
-      "checked_at": "2026-10-16T10:30:11Z",
+      "queue_count": 3152,
+      "topview_estimated_wait_seconds": 122639,
+      "checked_at": "2026-10-16T11:20:14Z",
       "topview_estimated_process_seconds": null,
       "verified": true,
-      "mapping_confidence": "prompt normalized match with master block 28 B5 (robot)"
+      "mapping_confidence": "prompt normalized match with master block 28 B5 (robot)",
+      "part": "B5"
     }
   ],
   "scope": "all_owned_board_counts_plus_ai_film_latest_100_plus_direct_known_active",
   "account_observation": {
-    "checked_at": "2026-10-16T10:30:11Z",
+    "checked_at": "2026-10-16T11:20:14Z",
     "complete": true,
     "boards_scanned": 11,
     "video_tasks_scanned": 571,
@@ -460,5 +465,12 @@
       "f88eee8ea93242309b71621e354ccac2"
     ]
   },
-  "updated_at": "2026-10-13T17:52:06.640Z"
+  "updated_at": "2026-10-13T17:52:06.640Z",
+  "task_parts": {
+    "2bccc8a3521b411cb7bd51f9c8ba1119": "B6",
+    "762b3091b3e44b8599a0a58b91a253c5": "B2",
+    "d3844e4199d64abebe323be430a5cb35": "B4",
+    "e471e35fc7454fe5a2a89e06fac3f122": "A2",
+    "f88eee8ea93242309b71621e354ccac2": "B5"
+  }
 }
