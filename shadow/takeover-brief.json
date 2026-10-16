@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T11:23:15+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-16T11:33:01+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "2130568403e12f5017a960014023f11b295663faa9fd49f154c52f764d92c708",
-   "bytes": 58533
+   "sha256": "08c1ffb41dcb6ff1309c0aaa60152e3afdc1cab6c46100312c42fb53c2d75311",
+   "bytes": 59017
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "b788a60467affe246183c942cb9cb7b85192b9979f1c1113c3c17a251486be14",
-   "bytes": 470467
+   "sha256": "7a23f8b173c516afe3f149c7dda21af7a401c715e1c5418ede9f784d32b82ad4",
+   "bytes": 481716
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 34008,
-  "above_marker_chars": 34008,
+  "chars": 34308,
+  "above_marker_chars": 34308,
   "recent_sections_below_marker": [],
-  "sha256_12": "a31c754588d3",
+  "sha256_12": "c5eb0c469c08",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -263,7 +263,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 29853,
+   "offset": 30275,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -285,7 +285,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 42830,
+   "offset": 43252,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -305,7 +305,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 56115,
+   "offset": 56537,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -327,7 +327,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 66800,
+   "offset": 67222,
    "chars": 8179,
    "sha256_12": "98869d4a3236"
   },
@@ -349,7 +349,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 74979,
+   "offset": 75401,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -369,7 +369,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 111249,
+   "offset": 111671,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -393,7 +393,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 241768,
+   "offset": 242190,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -417,7 +417,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 250961,
+   "offset": 251383,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -441,7 +441,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 259993,
+   "offset": 260415,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -459,7 +459,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 269001,
+   "offset": 269423,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -479,7 +479,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 274877,
+   "offset": 275299,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -500,7 +500,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 281276,
+   "offset": 281698,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -522,7 +522,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 289208,
+   "offset": 289630,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -546,7 +546,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 299853,
+   "offset": 300275,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -567,7 +567,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 312713,
+   "offset": 313135,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -586,7 +586,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 323126,
+   "offset": 323548,
    "chars": 10109,
    "sha256_12": "efc8a3f2da24"
   },
@@ -608,7 +608,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 333235,
+   "offset": 333657,
    "chars": 13099,
    "sha256_12": "723906b1a838"
   },
@@ -629,7 +629,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 346334,
+   "offset": 346756,
    "chars": 10889,
    "sha256_12": "ab216b32c33a"
   },
@@ -653,7 +653,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 357223,
+   "offset": 357645,
    "chars": 10019,
    "sha256_12": "b2375d3a8239"
   },
@@ -671,7 +671,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 367242,
+   "offset": 367664,
    "chars": 9703,
    "sha256_12": "902be5a48bd9"
   },
@@ -691,7 +691,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 376945,
+   "offset": 377367,
    "chars": 9535,
    "sha256_12": "b51962b79ebf"
   },
@@ -712,7 +712,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 386480,
+   "offset": 386902,
    "chars": 8973,
    "sha256_12": "fbd9d79190ec"
   },
@@ -732,9 +732,30 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 395453,
-   "chars": 6985,
-   "sha256_12": "e9ccbec92eef"
+   "offset": 395875,
+   "chars": 7009,
+   "sha256_12": "8c867a5eac85"
+  },
+  {
+   "id": 47,
+   "title": "Красная точка: Серёга уходит от котов хитростью",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5"
+   ],
+   "offset": 402884,
+   "chars": 9243,
+   "sha256_12": "7f51d80cc0cd"
   }
  ],
  "read_sets": {
