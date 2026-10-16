@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T11:23:18Z",
+  "synced_at": "2026-10-16T11:33:04Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "b788a60467affe246183c942cb9cb7b85192b9979f1c1113c3c17a251486be14",
-  "canonical_revision_sha256": "9e39ef3c3c1d560a329ee3b5c37a3a8b65dd66da6910c2f9f863462e6f113f86",
-  "canonical_master_bytes": 470467,
-  "scenes": 23,
-  "prompt_texts": 44,
+  "canonical_master_sha256": "7a23f8b173c516afe3f149c7dda21af7a401c715e1c5418ede9f784d32b82ad4",
+  "canonical_revision_sha256": "e79f0f8a2cd94d232866befb982c2b30b840cee983f438447f511ca86c9b57db",
+  "canonical_master_bytes": 481716,
+  "scenes": 24,
+  "prompt_texts": 45,
   "work_items": [
     "W5",
     "W6",
@@ -52,9 +52,10 @@
     43,
     44,
     45,
-    46
+    46,
+    47
   ],
-  "latest_scene": 46,
+  "latest_scene": 47,
   "reserved_scene_ids": [
     1,
     2,
@@ -81,16 +82,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-16T11:22:26.033Z",
+    "snapshot_at": "2026-10-16T11:31:17.959Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.014,
+    "age_hours_at_status_build": 0.029,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "fdd2c66f09f89c7dc151580e0bb586bf3a77431c",
-        "mirror_sha256": "2130568403e12f5017a960014023f11b295663faa9fd49f154c52f764d92c708",
+        "github_blob": "5a9f6256ab901f373541cbbcbee0fca351f00b88",
+        "mirror_sha256": "08c1ffb41dcb6ff1309c0aaa60152e3afdc1cab6c46100312c42fb53c2d75311",
         "match": true,
         "drive_copy_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
         "drive_copy_match": true,
@@ -163,7 +164,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.014,
+      "age_hours": 0.029,
       "blocking": false
     },
     "topview_task_map": {
@@ -662,15 +663,40 @@
         "logo"
       ],
       "render_state": "IDLE"
+    },
+    "47": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 32
+        }
+      ],
+      "tags": [
+        "serega",
+        "cats",
+        "sith_planet",
+        "saber_duel",
+        "red_dot",
+        "comedy",
+        "continuity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T11:23:18Z",
-    "canonical_master_sha256": "b788a60467affe246183c942cb9cb7b85192b9979f1c1113c3c17a251486be14",
-    "canonical_revision_sha256": "9e39ef3c3c1d560a329ee3b5c37a3a8b65dd66da6910c2f9f863462e6f113f86",
-    "scene_count": 23,
-    "prompt_count": 44,
+    "synced_at": "2026-10-16T11:33:04Z",
+    "canonical_master_sha256": "7a23f8b173c516afe3f149c7dda21af7a401c715e1c5418ede9f784d32b82ad4",
+    "canonical_revision_sha256": "e79f0f8a2cd94d232866befb982c2b30b840cee983f438447f511ca86c9b57db",
+    "scene_count": 24,
+    "prompt_count": 45,
     "scene_ids": [
       13,
       16,
@@ -694,7 +720,8 @@
       43,
       44,
       45,
-      46
+      46,
+      47
     ],
     "work_items": [
       "W5",
