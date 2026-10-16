@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T08:09:44+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-16T10:30:57+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
-   "bytes": 49939
+   "sha256": "c1d28e9b3eeffb73c82a2604b6a5ee8d37ed7a6ee6d06444651a5b774dd57037",
+   "bytes": 50233
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
-   "bytes": 403770
+   "sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+   "bytes": 426984
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 28640,
-  "above_marker_chars": 28640,
+  "chars": 28842,
+  "above_marker_chars": 28842,
   "recent_sections_below_marker": [],
-  "sha256_12": "591808312402",
+  "sha256_12": "52615343a865",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -257,7 +257,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 29180,
+   "offset": 28466,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -279,7 +279,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 42157,
+   "offset": 41443,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -299,7 +299,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 55442,
+   "offset": 54728,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -321,7 +321,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 66127,
+   "offset": 65413,
    "chars": 8179,
    "sha256_12": "98869d4a3236"
   },
@@ -343,7 +343,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 74306,
+   "offset": 73592,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -363,7 +363,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 110576,
+   "offset": 109862,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -387,7 +387,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 241095,
+   "offset": 240381,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -411,7 +411,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 250288,
+   "offset": 249574,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -435,7 +435,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 259320,
+   "offset": 258606,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -453,7 +453,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 268328,
+   "offset": 267614,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -473,7 +473,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 274204,
+   "offset": 273490,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -494,7 +494,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 280603,
+   "offset": 279889,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -516,7 +516,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 288535,
+   "offset": 287821,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -540,9 +540,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 299180,
-   "chars": 12836,
-   "sha256_12": "a27ede53d244"
+   "offset": 298466,
+   "chars": 12860,
+   "sha256_12": "4301ff8aa4d1"
   },
   {
    "id": 38,
@@ -561,7 +561,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 312016,
+   "offset": 311326,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -580,9 +580,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 322429,
-   "chars": 10219,
-   "sha256_12": "a359bd9a17d1"
+   "offset": 321739,
+   "chars": 10109,
+   "sha256_12": "efc8a3f2da24"
   },
   {
    "id": 40,
@@ -602,9 +602,52 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 332648,
-   "chars": 12656,
-   "sha256_12": "e2d2da2143e8"
+   "offset": 331848,
+   "chars": 13099,
+   "sha256_12": "723906b1a838"
+  },
+  {
+   "id": 41,
+   "title": "Серёга увозит древний ПК с планеты ситхов",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5"
+   ],
+   "offset": 344947,
+   "chars": 10889,
+   "sha256_12": "ab216b32c33a"
+  },
+  {
+   "id": 42,
+   "title": "Татуин: после червя Канцлер забирает фрагмент карты",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 355836,
+   "chars": 9932,
+   "sha256_12": "371b0a93fff6"
   }
  ],
  "read_sets": {
