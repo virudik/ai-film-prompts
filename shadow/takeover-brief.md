@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-16T11:41:51+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-16T11:42:27+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 24 ([13, 16, 24, 25, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]); промтов 45; последний ID 47; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29]
+- health ok; сцен 25 ([13, 16, 24, 25, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]); промтов 46; последний ID 48; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -58,7 +58,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 37 | Отлёт Серёги с Набу к лесной планете | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 4301ff8aa4d1 |
 | 38 | Серёга рассматривает древний компьютер в заброшенном храме | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [35] | df2fc65b6ed4 |
 | 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [] | 01237ccbfc8e |
-| 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | f242345a75e0 |
+| 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | f242345a75e0 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | ab216b32c33a |
 | 42 | Татуин: бой на фоне червя — червь им не интересен | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [16] | 2b230fa157f9 |
 | 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 | [] | 902be5a48bd9 |
@@ -66,7 +66,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 45 | Корабль котов в стиле РосКОТмоса: космическое сражение снару | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [25] | fbd9d79190ec |
 | 46 | Спутники РосКОТмоса сбиты в сражении | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 | [45] | 8c867a5eac85 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [32] | bfeace9a7862 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | None | None/None | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | f9245eb84014 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [42] | f9245eb84014 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
