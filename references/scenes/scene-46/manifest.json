@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "scene_id": 46,
+  "updated_at": "2026-10-16T10:42:38Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
+  "status": "draft_inputs_pending",
+  "references": [
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+      "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+      "dimensions": [
+        560,
+        630
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "prop_logo",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-logo.png",
+      "bytes": 267116,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026: cropped from the owner's grey T-shirt photo (250x250 source), Lanczos upscale; visually checked: roundel, cat astronaut, red swoosh, РОСКОТМОС wordmark",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [],
+  "location_refs": [],
+  "prop_refs": [
+    "references/scenes/scene-45/S45-roskotmos-logo.png"
+  ],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "prompt_id": "S46",
+      "canonical_prompt_sha256": "091e4d0e85a206d46c2ee2a615e1d48afd1655f35a18f582859bbc017bc5545b",
+      "local_numbering": true,
+      "launch_readiness": "blocked_missing_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": null,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+        },
+        {
+          "slot": "@Image2",
+          "canonical_role": "vehicle_exterior",
+          "input_status": "required_not_available"
+        }
+      ]
+    }
+  ],
+  "site_published": false,
+  "last_qc_at": "2026-10-16T10:42:38Z",
+  "last_qc_scope": "16.10.2026: DRAFT-сцена по команде владельца (тред «Шаттл с крылом и бой Роскотмоса»). Изображения не генерировались, Topview не вызывался.",
+  "remaining": [
+    "@Image2 — тот же референс корабля котов снаружи, что @Image3 Scene 45."
+  ],
+  "technical_success_is_editorial_approval": false,
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt",
+    "Missing @Video inputs must not be invented"
+  ],
+  "drive_folder_id": null,
+  "note": "16.10: DRAFT по команде владельца, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+}

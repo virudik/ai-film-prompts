@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**19 сцен к генерации/доработке · 40 полных текстов промта**
+**23 сцены к генерации/доработке · 44 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **28** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **16.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **19 актуальных сцен и 40 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 44 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -65,6 +65,10 @@
 | 40 | [Серёга прилетает на планету ситхов: посадка у руин](#scene-40) | Серёга; корабль Канцлера; модуль карты; стикер «хлеб и молоко»; руины ситхов | Модуль светится к цели, посадка у руин, зажигание меча за кадром — стык с котами Scene 26. После лесного блока. DRAFT до решения о месте ветки (D1). |
 | 41 | [Серёга увозит древний ПК с планеты ситхов](#scene-41) | Серёга; древний ПК; корабль Канцлера; руины ситхов; крейсер | Сила несёт блок и монитор из храма в кабину, взлёт, полёт к крейсеру — стык с финальным компьютером у окна в космос (01:02:45). DRAFT до выгрузки кадра крейсера. |
 | 42 | [Татуин: после червя Канцлер забирает фрагмент карты](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16; модуль карты | Продолжение Scene 16: меч Илюши гаснет, модуль летит Силой в руку Канцлера, Серёга уходит в бурю. DRAFT до решения по Scene 16 и её финального кадра. |
+| 43 | [Ангар крейсера: у шаттла Канцлера заело крыло](#scene-43) | Серёга; имперский ангар H28A с шаттлом | Шаттл не может взлететь: левое крыло застряло на полпути. «Владыка… крыло заело». — «Я заметил». Серёга выходит по рампе. DRAFT, русская речь. |
+| 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43. |
+| 45 | [Корабль котов в стиле РосКОТмоса: космическое сражение снаружи](#scene-45) | Логотип РосКОТмос (футболка владельца); свет кабины 24–25; корабль снаружи — создать | Тот же бой, что в 25, снаружи: белый корабль с красной «галочкой» и логотипом уклоняется, стреляет и прорывается. DRAFT до референса корабля. |
+| 46 | [Спутники РосКОТмоса сбиты в сражении](#scene-46) | Логотип РосКОТмос; корабль котов из 45 | Шальной огонь и обломки цепочкой ломают три спутника с логотипом; последняя панель с котом-космонавтом кувыркается мимо камеры. DRAFT. |
 
 ---
 
@@ -3050,6 +3054,366 @@ The worm's deep roar and throat resonance, sand crashing down, debris impacts, w
 
 NEGATIVE PROMPT:
 worm swallowing or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega running or fighting with a saber, map exchange by hand, cuts, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-43"></a>
+
+## Сцена 43 — Ангар крейсера: у шаттла Канцлера заело крыло
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","imperial_cruiser","hangar","shuttle","comedy","dialogue","speaker_ownership"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 16.10.2026:** имперский треугольный шаттл с раскладными крыльями стоит в ангаре звёздного разрушителя; перед взлётом крылья должны перейти в полётное положение, но одно заело, и Канцлер Серёга не может улететь; обыграть комедийно. Продолжение (ремонтники, крыло отваливается) — Scene 44. Две сцены вместо одной: заевшее крыло и ремонт с отваливанием не помещаются в одни 30 с.
+- **Место в фильме (предложение, не решение владельца):** на крейсере Канцлера перед его отлётом к Татуину. Шутка заодно объясняет, почему дальше Канцлер летает на своём плоском корабле из ч. 1 09:20–09:55 (Scenes 37, 39–41), а не на парадном шаттле.
+- **Ангар** — тот же имперский ангар крейсера, что в Scene 28 (H28A), в рабочем белом свете, без танцевальной подсветки. Шаттл уже виден в H28A справа с поднятыми крыльями; отдельного кадра шаттла крупно и его кабины нет — до READY желательно сделать один helper «шаттл в этом ангаре, крылья подняты» (сайт Topview в безлимите или ChatGPT).
+- **Пилот** — безымянный имперский пилот в шлеме; глобального листа нет, лицо не показывается.
+- **Комедия** — серьёзная игра, юмор из ситуации: крыло жалко подёргивается, Серёга не меняется в лице.
+- Русская речь → Wan 3.0. В монтаж ~20–25 с. В очередь запуска не внесена; запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
+- @Image2 — <a href="references/scenes/scene-28/H28A-ceremony.png">имперский ангар крейсера H28A</a> (геометрия ангара и силуэт шаттла справа; без танцевального света).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure></div>
+
+**Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. Правое крыло плавно опускается в полётное положение, левое дёргается, скрежещет и застревает на полпути. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа опускается, и Серёга молча спускается на пол ангара и смотрит вверх на кривое крыло.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera deadpan comedy | The Chancellor's Imperial shuttle cannot take off because one wing jams halfway
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
+@Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet. The white triangular shuttle with raised wings on the right of @Image2 is the shuttle of this scene. Location geometry and shuttle silhouette only; no people from this image.
+Priority: @Image1 controls Serega; @Image2 controls the hangar and the shuttle's silhouette.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves. No lightsaber in his hands.
+IMPERIAL PILOT: one anonymous Imperial shuttle pilot in a black flight suit and a closed black helmet with a dark visor; his face is never shown.
+Exactly two people: Serega and the pilot. Ground crew may stand far in the background as small, still silhouettes.
+
+SHUTTLE / WING LOCK — CRITICAL:
+One classic white triangular Imperial Lambda-type shuttle: a tall fixed central dorsal fin, two long side wings hinged at the top of the hull, a forward cockpit with a framed window and a lowering front boarding ramp, three landing legs. Parked, both side wings are raised almost vertical beside the central fin, as in @Image2. For flight they must swing DOWN and outward into the lowered flight position. In this scene: the RIGHT wing lowers smoothly and correctly; the LEFT wing jerks, grinds and stops jammed halfway at about 45 degrees and never reaches flight position. The shuttle stays on its landing legs the whole time and never lifts off. Same single shuttle, same white colour and shape, in every shot.
+
+START STATE:
+The shuttle stands on the hangar floor with both wings raised, front ramp closed, engines starting to whine. Serega is already inside, seated in the passenger seat right behind the pilot.
+
+TIMELINE:
+[0:00–0:05] — READY FOR DEPARTURE
+Exterior wide in the hangar from @Image2, the shuttle on the right third of frame facing the open hangar mouth with stars and the blue planet beyond. The engine glow at the rear brightens; a rising turbine whine. A tiny background crew figure steps back to a safe distance.
+
+[0:05–0:11] — ONE WING GOES, ONE DOESN'T
+Closer exterior three-quarter view of the shuttle. With a smooth hydraulic hum the right wing swings down into flight position. The left wing starts, jerks, gives a loud metallic grind and stops dead at about 45 degrees. The whole hull rocks slightly on its landing legs.
+
+[0:11–0:17] — TRY AGAIN
+Inside the cockpit, medium shot from the front-side: the pilot in his black helmet flips the same wing toggle three times in a row. Through the side window behind Serega the jammed left wing twitches a few centimetres up and down in time with each flip, with a pathetic stuttering servo whine. Serega sits upright with his hands folded on his lap, slowly turning his head to look at the wing through the window.
+
+[0:17–0:23] — THE REPORT
+The pilot stops, does not turn around, and says carefully: «Владыка… крыло заело.» A two-second pause. Serega, without moving anything except his eyes back to the pilot's helmet, answers flatly: «Я заметил.»
+
+[0:23–0:30] — THE RAMP
+Exterior wide again: the engines wind down with a falling whine; the working right wing slowly lifts back up to parked position while the left wing stays crooked at 45 degrees. The front ramp lowers with a hiss of vented gas. Serega walks down the ramp alone, steps onto the hangar floor, stops and looks up at the crooked wing. Hold on him small beneath the lopsided shuttle.
+
+END STATE:
+Serega standing on the hangar floor at the foot of the lowered front ramp, looking up at the left wing jammed at 45 degrees; the right wing raised; engines off; hangar mouth with stars behind. A clean cut point to Scene 44.
+
+CAMERA / SPACE:
+Three motivated angles in a clear order: exterior wide, exterior three-quarter, cockpit interior, then the same exterior wide — no other cuts. The left wing is on frame-left of the shuttle in every exterior shot and visible through Serega's side window inside. Stable tripod or slow dolly; no handheld jitter, no whip pans, no zoom jumps. Real hangar scale: the shuttle is far larger than a person and far smaller than the hangar.
+
+PERFORMANCE:
+Played completely straight. The pilot is tense and embarrassed but professional; small, quick toggle movements, no slapstick. Serega is icy and still; the joke is that his face does not change. No smiles, no eye-rolls to camera.
+
+LIGHTING / MATERIALS:
+Working state of the @Image2 hangar: cool white wall strips and amber floor guide lines only, no cyan or magenta strips, no disco beams. Clean white painted metal of the shuttle with panel lines and light wear, hydraulic sheen at the wing hinge, a small puff of vapour from the hinge when the wing jams. Realistic skin texture and velvet response on Serega.
+
+AUDIO:
+Turbine whine rising, smooth hydraulic hum of the right wing, a loud metallic grind and clunk when the left wing jams, repeated stuttering servo whine, toggle clicks, cockpit beeps, then the engines winding down and the ramp's gas hiss and footsteps on metal. Big hangar reverb.
+
+DIALOGUE / VOCALS:
+Language: Russian, natural pronunciation without accent, accurate lip sync where a mouth is visible.
+PILOT (voice from inside his closed helmet, slightly muffled, cautious): «Владыка… крыло заело.»
+SEREGA (low, calm, completely flat): «Я заметил.»
+Only these two lines. Serega's mouth moves only on his line; the pilot's helmet stays still. No narrator, no music, no subtitles.
+
+NEGATIVE PROMPT:
+shuttle taking off, hovering or leaving the hangar, both wings working, both wings jammed, wings falling off in this scene, explosions, fire, second shuttle, different ship design, X-wing or TIE fighter replacing the shuttle, disco lights, dancers, crowd, extra officers in the foreground, pilot's face visible, Serega smiling or shouting, lightsaber, slapstick mugging, changed face or robe, wrong speaker, extra dialogue, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-44"></a>
+
+## Сцена 44 — Ангар крейсера: ремонт крыла, и оно отваливается
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":43}],"tags":["serega","imperial_cruiser","hangar","shuttle","technicians","comedy","dialogue","speaker_ownership"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 16.10.2026:** вторая сцена с тем же шаттлом — Серёга ходит и возмущается, а на заднем плане имперские ремонтники максимально комично пытаются сдвинуть заевшее крыло, и в процессе оно вообще отваливается. Продолжает Scene 43 через короткий скачок времени.
+- **Техники** — трое безымянных имперских техников наземной службы; глобальных листов нет, описаны в промте.
+- **До READY:** @Video1 или последний кадр результата Scene 43 (по нему старт) — после генерации 43; желательно тот же helper шаттла, что для 43.
+- **Падение крыла** — без пострадавших: крыло падает плашмя рядом с техниками, никого не задевает.
+- Русская речь → Wan 3.0. В монтаж ~20–25 с. В очередь запуска не внесена; запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
+- @Image2 — <a href="references/scenes/scene-28/H28A-ceremony.png">имперский ангар крейсера H28A</a> (геометрия ангара и силуэт шаттла);
+- @Video1 — последние секунды результата Scene 43 (выгрузить после её генерации).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure></div>
+
+**Что происходит:** Немного позже. На переднем плане Серёга ходит взад-вперёд, руки за спиной: «Лучший флот в галактике… а крыло сложить некому». За его спиной трое техников воюют с заевшим левым крылом: один на стремянке лупит молотком по шарниру, второй повис на верёвке, привязанной к концу крыла, третий упирается плечом. От последнего удара крыло со стоном отрывается целиком и с грохотом падает плашмя на пол. Серёга замирает спиной к этому и закрывает глаза. Техник со стремянки, с молотком в руке: «Зато… теперь не мешает». Серёга медленно поворачивает голову.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera deadpan comedy | Imperial technicians try to free the jammed shuttle wing behind the fuming Chancellor, and the wing falls off
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of the previous scene: Serega at the foot of the lowered ramp, the shuttle with its left wing jammed at 45 degrees and its right wing raised, the same hangar and light. Authority for the START STATE and the shuttle's position.
+@Image1 — absolute identity of SEREGA (the Chancellor).
+@Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet; the white triangular shuttle with raised wings on its right. Location and shuttle silhouette only; no people from this image.
+Priority: @Video1 controls the start; @Image1 controls Serega; @Image2 controls the hangar and the shuttle.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves; hands clasped behind his back while pacing.
+THREE IMPERIAL TECHNICIANS, ordinary adult men in identical dark-grey Imperial ground-crew coveralls, black utility belts and soft black peaked caps:
+TECH 1 — thin, on a tall rolling metal stepladder at the wing hinge, holding a big heavy hammer;
+TECH 2 — stocky, hanging with both hands on a rope tied to the tip of the jammed wing;
+TECH 3 — tall, pushing the wing's underside with his shoulder from the floor.
+Exactly four people. No pilot visible, no other crew in the foreground.
+
+SHUTTLE / WING LOCK — CRITICAL:
+The same white triangular Imperial Lambda-type shuttle as before: tall fixed central dorsal fin, side wings hinged at the top of the hull, lowered front ramp. Its LEFT wing is jammed at about 45 degrees; its right wing is raised and never moves. The jammed left wing tears off at its hinge only once, in [0:18–0:24], and falls flat onto the floor beside the shuttle; it never hits anyone. The rest of the shuttle stays intact and on its landing legs. No fire, no explosion.
+
+START STATE:
+A little later than the end of @Video1: the shuttle in the same place with the left wing jammed at 45 degrees; the stepladder already at the hinge, the rope already tied to the wingtip, the three technicians in position. Serega in the foreground, frame-centre, a few metres in front of the shuttle.
+
+TIMELINE:
+[0:00–0:06] — THE REPAIR BEGINS
+Wide, lens at chest height. In the sharp foreground Serega paces from frame-left to frame-right with his hands behind his back. Behind him in the middle ground: TECH 1 on the stepladder taps the hinge with the hammer, TECH 2 pulls the rope, TECH 3 pushes with his shoulder. The wing does not move.
+
+[0:06–0:12] — THE FLEET
+Serega turns and paces back, not looking at the shuttle, and says to nobody: «Лучший флот в галактике…» Behind him TECH 2 lifts both feet and hangs on the rope with his whole weight, swinging slightly; the wing still does not move.
+
+[0:12–0:18] — NOBODY CAN FOLD A WING
+Serega stops in the foreground, back to the shuttle, and finishes: «…а крыло сложить некому.» Behind him TECH 1 swings the hammer with full force — a loud CLANG and a spray of sparks at the hinge.
+
+[0:18–0:24] — THE WING FALLS OFF
+With a long rising metallic groan the whole left wing tears free at the hinge, swings down and crashes flat onto the hangar floor beside the shuttle with a huge booming impact that echoes through the hangar; a puff of dust and a few bolts bounce across the floor. TECH 2 drops onto his backside still holding the rope; TECH 3 jumps back; the stepladder wobbles with TECH 1 clinging to it. Serega, still with his back to it, stops completely and closes his eyes.
+
+[0:24–0:30] — STILL HELPFUL
+Total silence except the last echo. TECH 1 on the ladder, holding the hammer, says after a pause, hopefully: «Зато… теперь не мешает.» Serega slowly opens his eyes and turns only his head toward the technicians. Hold on his cold stare in the foreground; behind him the three technicians freeze.
+
+END STATE:
+Serega in the foreground, head turned toward the technicians with a cold stare; the left wing lying flat on the hangar floor; TECH 1 frozen on the stepladder with the hammer, TECH 2 sitting on the floor with the rope, TECH 3 standing still; the one-winged shuttle behind them.
+
+CAMERA / SPACE:
+One continuous take with a fixed axis: Serega always in the foreground, the shuttle and technicians always behind him in the middle ground, the hangar mouth with stars beyond. A very slow push-in from [0:12] to the end, finishing on a medium shot of Serega with the technicians still readable behind him. Deep focus so both planes stay readable. No cuts, no handheld jitter, no zoom jumps.
+
+PERFORMANCE:
+Serega is restrained, cold irritation: measured steps, quiet voice, no shouting, no big gestures. The technicians are earnest and trying hard; the comedy comes from their sincere effort, not from mugging or falling over on purpose. Nobody is hurt.
+
+LIGHTING / MATERIALS:
+Working state of the @Image2 hangar: cool white wall strips and amber floor guide lines, no cyan or magenta strips, no disco beams. White painted shuttle metal with panel lines; a bright short spark burst at the hinge; real dust and small debris when the wing lands. Realistic skin and velvet on Serega, matte coveralls on the technicians.
+
+AUDIO:
+Hangar room tone, Serega's footsteps on metal, hammer taps, rope creak, a loud CLANG with sparks crackle, a long metallic groan, then a massive booming crash with long reverb, bolts rattling on the floor, then near silence.
+
+DIALOGUE / VOCALS:
+Language: Russian, natural pronunciation without accent, accurate lip sync.
+SEREGA (quiet, cold, to nobody, in two parts): «Лучший флот в галактике…» — pause — «…а крыло сложить некому.»
+TECH 1 (after the crash, hesitant, hopeful): «Зато… теперь не мешает.»
+Only these lines. Mouths move only for the current speaker; the other technicians never speak. No narrator, no music, no subtitles.
+
+NEGATIVE PROMPT:
+wing hitting a person, injury, blood, fire, explosion, whole shuttle collapsing, both wings falling, shuttle taking off, second shuttle, different ship design, more than three technicians, stormtroopers, droids, pilot, Serega looking at the shuttle while speaking, Serega shouting, smiling or using the Force, technicians speaking together, slapstick pratfalls on purpose, wrong speaker, changed face or robe, disco lights, dancers, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-45"></a>
+
+## Сцена 45 — Корабль котов в стиле РосКОТмоса: космическое сражение снаружи
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":25}],"tags":["cats","roskotmos","ship_exterior","space_battle","action","logo"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 16.10.2026:** корабль котов снаружи сражается в космическом сражении; дизайн корабля в стиле РосКОТмоса и с его логотипом — как на футболках владельца (@Image1, исходники рядом).
+- **Место в фильме:** то же сражение, что Scene 25 (кабина котов), но снаружи; beats повторяют 25 по времени, чтобы в монтаже перемежать кабину и внешний вид. Сам бой котов уже есть в 25; эта сцена — не новый сюжетный поворот.
+- **Корабль** — тот же, в чьей тёплой янтарной кабине сидят Лучик и Рыжик в Scenes 24–25: снаружи видны освещённые изнутри передние окна кабины. Внешнего вида корабля котов в фильме и в референсах пока нет. **До READY:** один референс корабля снаружи в стиле РосКОТмоса (белый корпус, красная «галочка», круглый логотип) — сделать на сайте Topview в безлимите или у ChatGPT и сохранить в эту папку. Без него дизайн корабля в каждом ролике будет свой.
+- **Логотип** с футболок низкого разрешения (250 px); надпись РОСКОТМОС генераторы часто искажают — в промте эмблема важнее надписи.
+- Котов в кадре не видно (только окна кабины). Без речи → Wan 3.0, как основной движок 30-секундных сцен. В очередь запуска не внесена; запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a> (вырезан из фото футболки владельца; исходники: <a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg">серая</a>, <a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg">чёрная</a>);
+- @Image2 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов Scenes 24–25</a> (только тёплый свет окон кабины снаружи, котов не брать);
+- @Image3 — внешний вид корабля котов в стиле РосКОТмоса (создать до READY).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure>
+<figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" alt="Исходник — серая футболка"></a><figcaption>Исходник — серая футболка</figcaption></figure>
+<figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" alt="Исходник — чёрная футболка"></a><figcaption>Исходник — чёрная футболка</figcaption></figure>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure></div>
+
+**Что происходит:** Снаружи, в разгар того же боя, что в Scene 25: корабль котов — белый, с широкой красной «галочкой» вдоль борта и большим круглым логотипом РосКОТмоса с котом-космонавтом — влетает в сражение, уходит креном от огня, отстреливается вперёд, проскальзывает между крупным кораблём и обломками и прорывается в просвет строя. В окнах кабины тёплый янтарный свет.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera battle, exterior | The cats' RosKOTmos-styled ship fights its way through a space battle, seen from outside
+
+REFERENCES / AUTHORITY ORDER:
+@Image3 — the exact exterior design of the cats' ship: hull shape, proportions, colours, markings and engines. Vehicle design authority.
+@Image1 — the exact RosKOTmos emblem painted on the hull: a round grey-and-white roundel with a tabby cat in a white spacesuit and helmet, a bold red swoosh arrow cutting diagonally up across its lower half, and the wordmark РОСКОТМОС beneath it with КОТ in red. Emblem design only; ignore the T-shirt fabric.
+@Image2 — the cats' cockpit interior: use ONLY its warm amber light as the glow seen through the ship's cockpit windows from outside. Do not show the cats or the interior.
+Priority: @Image3 controls the ship; @Image1 controls the emblem; @Image2 controls only the window glow.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+No characters are visible. The cats' ship is the hero; the crew inside is never seen. Enemy ships are anonymous with no pilots visible.
+
+SHIP / ROSKOTMOS DESIGN LOCK — CRITICAL:
+One and the same mid-size, chunky, lived-in starship in every shot, exactly as @Image3: a rounded nose with a row of forward cockpit windows glowing warm amber, white and light-grey hull panels with light wear and scorch marks, a broad red stripe sweeping along each flank in the shape of the emblem's swoosh arrow, a dark-blue accent band, two rear engines with steady blue-white glow. The RosKOTmos roundel from @Image1 is painted large on each flank behind the cockpit, always the same size and position, readable whenever the flank faces the camera. Space-agency styling: clean painted markings, small hull numbers, no extra text or slogans. The ship never changes shape, colour or markings and never splits into two.
+
+START STATE:
+The cats' ship enters the battle area from frame-left in steady forward flight, matching the start of the cockpit battle: fighters crossing at various depths, distant capital ships exchanging fire.
+
+TIMELINE:
+[0:00–0:06] — INTO THE BATTLE
+Tracking shot from slightly above and behind the right flank: the ship flies left-to-right into a dense battle; fighters streak past at different depths; big capital ships trade bright fire far behind. The roundel on the flank catches the light.
+
+[0:06–0:13] — FIRST EVASION
+A burst of enemy bolts flashes ahead. The ship banks hard and rolls once with believable mass; bolts miss by a few metres. The camera keeps pace in a steady chase, the starfield and ships rotating consistently around it.
+
+[0:13–0:20] — RETURN FIRE
+Front three-quarter view: short controlled bursts fire FORWARD from cannons under the nose; one small enemy fighter ahead is hit and spins away trailing debris. The amber cockpit windows glow in the nose.
+
+[0:20–0:26] — THREAD THE FIGHT
+Side view: the ship slips through a narrow gap between the dark hull of a huge capital ship and a field of drifting debris. A nearby explosion lights the white hull and the red swoosh in orange for a moment without whiting out the frame.
+
+[0:26–0:30] — BREAK THROUGH
+Rear view: the engines flare once and the ship accelerates through an opening in the enemy formation toward open space. Hold as it shrinks, still in the battle.
+
+END STATE:
+The cats' ship accelerating away through a gap in the battle formation, seen from behind; battle still raging around; no landing, no hyperspace jump. A clean cut back to the cockpit of Scene 25.
+
+CAMERA / SPACE:
+Exterior only. Smooth, inertial chase-camera moves with motivated motion cuts between the five beats; the ship always travels left-to-right or away from camera, never flipping direction. Realistic scale: fighters smaller than the cats' ship, capital ships enormous. No wobbly shake, no zoom jumps, no teleporting stars.
+
+PERFORMANCE:
+The ship flies like a competent crew is at the controls: precise evasions, deliberate shots, no aimless spinning.
+
+LIGHTING / MATERIALS:
+Hard key light from a distant sun, deep black space, blue engine glow, warm amber in the cockpit windows, short bright laser bolts in stable colours, brief orange explosion light. Real painted metal with panel seams, scratches and scorch marks; the emblem looks painted on the hull, not a glowing hologram.
+
+AUDIO:
+Cinematic space-battle sound: engine roar on fly-bys, laser cannon bursts, a fighter explosion, a deep rumble passing the capital ship, debris pinging off the hull. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+cats visible, people visible, cockpit interior shots, the ship changing shape or colour between shots, two cats' ships, missing or moving emblem, emblem replaced by another logo, garbled or extra lettering, slogans, real-world agency logos, Imperial insignia on the cats' ship, giant explosions filling the frame, white flash transitions, ship flying backwards, weapons firing backward, cartoon, toy-like model, game-render look, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-46"></a>
+
+## Сцена 46 — Спутники РосКОТмоса сбиты в сражении
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":45}],"tags":["roskotmos","satellites","space_battle","comedy","logo"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 16.10.2026:** сцена, где в сражении сбиваются и ломаются спутники РосКОТмоса; логотип как на футболке (@Image1).
+- **Место в фильме:** вставка внутри того же космического боя (Scenes 25 и 45): шальной огонь и обломки задевают мирные спутники РосКОТмоса на орбите. Комедия — цепная реакция: каждый следующий спутник ломается от обломков предыдущего.
+- **Спутники** — три разных спутника в одном «агентском» стиле, у каждого на корпусе тот же круглый логотип. Отдельного референса спутников нет; стиль описан в промте. Корабль котов пролетает в кадре одним силуэтом — нужен тот же референс корабля, что для Scene 45.
+- **До READY:** @Image2 — референс корабля котов из Scene 45 (создать). Без речи → Wan 3.0. В очередь запуска не внесена; запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a>;
+- @Image2 — внешний вид корабля котов из Scene 45 (создать до READY).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure></div>
+
+**Что происходит:** Над голубой планетой тихо висят три спутника РосКОТмоса с логотипом кота-космонавта. Сквозь кадр проносится бой: корабль котов, за ним вражеские истребители. Шальной залп отрезает первому спутнику солнечную панель, и его закручивает. Его обломки врезаются во второй, тот сминается и разваливается. Кувыркающаяся половина второго сносит третьему антенну-тарелку, и тот медленно уплывает, грустно мигая огоньком. Последняя солнечная панель с логотипом кувыркается прямо мимо камеры.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-opera battle with a deadpan comic chain reaction | Stray fire and debris from a space battle wreck three RosKOTmos satellites one after another
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — the exact RosKOTmos emblem painted on every satellite: a round grey-and-white roundel with a tabby cat in a white spacesuit and helmet, a bold red swoosh arrow cutting diagonally up across its lower half, and the wordmark РОСКОТМОС beneath with КОТ in red. Emblem design only; ignore the T-shirt fabric.
+@Image2 — the exterior design of the cats' ship (white hull, red swoosh stripe, RosKOTmos roundel on the flank). It appears only once as a fast fly-by. Vehicle design only.
+Priority: @Image1 controls the emblem on the satellites; @Image2 controls the cats' ship.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+No characters are visible: no cats, no people, no pilots in view. The satellites are the "heroes" of the shot.
+
+SATELLITE / EMBLEM LOCK — CRITICAL:
+Exactly THREE uncrewed RosKOTmos satellites in one consistent space-agency style, each with the @Image1 roundel painted clearly on its main body:
+SAT A — a white cylindrical body with two long rectangular dark-blue solar panel wings;
+SAT B — a gold-foil-wrapped box body with a single solar wing and two thin antennas;
+SAT C — a white body with a large white dish antenna and a small blinking red light.
+Real orbital hardware: foil, panels, struts, small thrusters. They stay recognisable as they break; parts break off along joints, no magic disintegration. They never fight back.
+
+START STATE:
+Wide, calm orbital view above a large blue planet with white clouds; SAT A, B and C hang in a loose diagonal from frame-left to frame-right, slowly turning, emblems toward camera. Distant flashes of a battle far beyond.
+
+TIMELINE:
+[0:00–0:05] — PEACEFUL ORBIT
+Hold the calm wide view: silence except a soft hum; the satellites turn gently; SAT C's red light blinks.
+
+[0:05–0:10] — THE BATTLE PASSES THROUGH
+The cats' ship from @Image2 streaks across the frame from left to right above the satellites, chased by two dark enemy fighters firing. A stray burst of bolts slices one solar wing off SAT A; SAT A starts to spin.
+
+[0:10–0:16] — DOMINO TWO
+Fragments of SAT A's wing tumble into SAT B: its gold-foil body crumples, one antenna snaps, and SAT B breaks into two halves with a puff of sparks and venting gas.
+
+[0:16–0:22] — DOMINO THREE
+The rear half of SAT B tumbles slowly into SAT C and knocks its big dish antenna clean off; the dish spins away like a frisbee. SAT C drifts out of position, its red light still blinking, now slowly and sadly.
+
+[0:22–0:30] — THE LAST PANEL
+In the quiet after the fighters are gone, a single detached solar panel with the RosKOTmos roundel tumbles end over end toward the camera, fills the frame for a moment with the cat-astronaut emblem, and spins past the lens. Behind it the three broken satellites drift apart above the planet.
+
+END STATE:
+The three damaged satellites drifting apart over the blue planet amid small debris; SAT C's red light still blinking; distant battle flashes; no ships left in frame.
+
+CAMERA / SPACE:
+One continuous wide-to-medium take with a slow drift; a short tracking pan only to follow the fly-by in [0:05–0:10], then settle. Consistent orbital geometry: the planet stays below, the satellites keep their relative positions until hit. Debris obeys inertia: objects keep moving in straight lines and spin steadily. No cuts, no shake, no zoom jumps.
+
+PERFORMANCE:
+The comedy is mechanical and deadpan: slow, inevitable chain reaction, no cartoon timing, no exaggerated bounces.
+
+LIGHTING / MATERIALS:
+Hard sunlight from one side, deep black space, realistic gold foil glints, blue solar cells, white painted metal; small spark bursts and short gas puffs, brief orange light from bolt hits; the emblem looks painted on the hardware. No huge fireballs.
+
+AUDIO:
+Quiet orbital hum, then the roar of the fly-by and laser bolts, crunching metal, snapping struts, a hiss of venting gas, the dish whirring away, a sad slow electronic beep from SAT C, then quiet. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+characters, cats, astronauts, people, pilots, crewed station, satellites firing weapons, more or fewer than three satellites, different logos, garbled or extra lettering, slogans, real-world agency logos, flags, huge fireballs, the planet exploding, debris stopping in mid-air, cartoon bounces, toy-like models, game-render look, white flash transitions, cuts, subtitles, text overlays, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
