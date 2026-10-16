@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T08:09:02+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-16T08:09:44+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 15,
-  "prompt_texts": 36,
+  "scenes": 17,
+  "prompt_texts": 38,
   "scene_ids": [
    13,
    16,
@@ -208,9 +208,11 @@
    35,
    36,
    37,
-   38
+   38,
+   39,
+   40
   ],
-  "latest_scene": 38,
+  "latest_scene": 40,
   "reserved": [
    1,
    2,
@@ -566,10 +568,10 @@
   {
    "id": 39,
    "title": "Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
    "prompts": 1,
@@ -585,10 +587,10 @@
   {
    "id": 40,
    "title": "Серёга прилетает на планету ситхов: посадка у руин",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
    "prompts": 1,
