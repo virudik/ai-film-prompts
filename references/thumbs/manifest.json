@@ -782,6 +782,16 @@
    "src_bytes": 1360067,
    "thumb_bytes": 32662,
    "src_sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48"
+  },
+  "references/scenes/scene-45/S45-roskotmos-logo.png": {
+   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-logo.png.webp",
+   "width": 560,
+   "height": 630,
+   "src_width": 560,
+   "src_height": 630,
+   "src_bytes": 267116,
+   "thumb_bytes": 20742,
+   "src_sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
   }
  }
 }
