@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T10:30:14Z",
+  "synced_at": "2026-10-16T10:30:57Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
-  "canonical_revision_sha256": "3f3dccb4021dde9eca991c3503587d20b5786638005981c43beba4871768817b",
-  "canonical_master_bytes": 403770,
-  "scenes": 17,
-  "prompt_texts": 38,
+  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+  "canonical_revision_sha256": "4cdcd03fa6e8e704c0c1d70e49e6876058345992e6d4ec66ee32419e74f10ff0",
+  "canonical_master_bytes": 426984,
+  "scenes": 19,
+  "prompt_texts": 40,
   "work_items": [
     "W5",
     "W6",
@@ -46,9 +46,11 @@
     37,
     38,
     39,
-    40
+    40,
+    41,
+    42
   ],
-  "latest_scene": 40,
+  "latest_scene": 42,
   "reserved_scene_ids": [
     1,
     2,
@@ -75,16 +77,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-16T08:12:30.269Z",
+    "snapshot_at": "2026-10-16T10:29:33.798Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.295,
+    "age_hours_at_status_build": 0.023,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "40247f150e5c6440bd7bddb66657f153b1847872",
-        "mirror_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
+        "github_blob": "052c3f840e71ddd5abb15a1831138ad32c1abb53",
+        "mirror_sha256": "c1d28e9b3eeffb73c82a2604b6a5ee8d37ed7a6ee6d06444651a5b774dd57037",
         "match": true,
         "drive_copy_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
         "drive_copy_match": true,
@@ -157,7 +159,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.295,
+      "age_hours": 0.023,
       "blocking": false
     },
     "topview_task_map": {
@@ -517,15 +519,61 @@
         "continuity"
       ],
       "render_state": "IDLE"
+    },
+    "41": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "travel",
+        "sith_planet",
+        "ancient_computer",
+        "depart",
+        "bread_and_milk",
+        "continuity"
+      ],
+      "render_state": "IDLE"
+    },
+    "42": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 16
+        }
+      ],
+      "tags": [
+        "serega",
+        "ilyusha",
+        "artem",
+        "tatooine",
+        "worm",
+        "map",
+        "force_pull",
+        "continuity"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T10:30:14Z",
-    "canonical_master_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
-    "canonical_revision_sha256": "3f3dccb4021dde9eca991c3503587d20b5786638005981c43beba4871768817b",
-    "scene_count": 17,
-    "prompt_count": 38,
+    "synced_at": "2026-10-16T10:30:57Z",
+    "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+    "canonical_revision_sha256": "4cdcd03fa6e8e704c0c1d70e49e6876058345992e6d4ec66ee32419e74f10ff0",
+    "scene_count": 19,
+    "prompt_count": 40,
     "scene_ids": [
       13,
       16,
@@ -543,7 +591,9 @@
       37,
       38,
       39,
-      40
+      40,
+      41,
+      42
     ],
     "work_items": [
       "W5",
