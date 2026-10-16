@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 42,
-  "updated_at": "2026-10-16T10:28:48Z",
+  "updated_at": "2026-10-16T11:36:29Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -134,32 +134,6 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
-    },
-    {
-      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
-      "dimensions": [
-        1600,
-        900
-      ],
-      "drive_file_id": "1biqJcdwU4xb5-dwoQLE8DQhrIxEbRYE2",
-      "library_file_id": "libfile_03e8512aec548191908ce3e31462aadd",
-      "role": "prop",
-      "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
-      "bytes": 222565,
-      "media_type": "image",
-      "owner_approval": "not_recorded",
-      "assistant_qc": {
-        "status": "reused_existing_asset",
-        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
-        "checked_at": "2026-10-16"
-      },
-      "site_published": {
-        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-        "linked_in_master": true,
-        "git_present": true
-      },
-      "reused_from_existing_pack": true
     }
   ],
   "identity_refs": [
@@ -171,9 +145,7 @@
     "references/scenes/scene-16/S16-desert-location-clean.png",
     "references/scenes/scene-16/S16-worm-scale.png"
   ],
-  "prop_refs": [
-    "references/scenes/scene-17/S17-Image4-topview-source.png"
-  ],
+  "prop_refs": [],
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [],
@@ -185,7 +157,7 @@
     {
       "prompt": "main",
       "prompt_id": "S42",
-      "canonical_prompt_sha256": "eb83d25bcbe4e4b6fc18ff2d2ffbab2fe98bfba010ca3411c76d1b512f86d15b",
+      "canonical_prompt_sha256": "cee72effd4370bc888a7a8d73fc4628d2bf037c99b893a8f75842b817b388ef8",
       "local_numbering": true,
       "launch_readiness": "blocked_missing_inputs",
       "owner_generation_approval_inferred": false,
@@ -225,24 +197,18 @@
           "path": "references/scenes/scene-16/S16-worm-scale.png",
           "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
           "input_status": "available"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
-          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
-          "input_status": "available"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-16T10:28:48Z",
+  "last_qc_at": "2026-10-16T11:36:29Z",
   "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
   "remaining": [
-    "@Video1 — последние секунды результата Scene 16 (task 36e8320e34da4f1b97c35e1e765e3e63): скачать результат и извлечь. Решение по 16 принято владельцем 16.10.2026 — продолжить."
+    "@Video1 — последние секунды результата Scene 16 (task 36e8320e34da4f1b97c35e1e765e3e63; Scene 16 принята владельцем 16.10): извлечь из результата."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+  "canonical_master_sha256": "1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",

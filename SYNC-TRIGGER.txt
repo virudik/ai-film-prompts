@@ -1,1 +1,1 @@
-2026-10-16T11:31:17Z Claude: Scene 47 (DRAFT) red-dot duel ending, owner decision 16.10; SHA256 7a23f8b173c516afe3f149c7dda21af7a401c715e1c5418ede9f784d32b82ad4. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-16T12:30:00Z Claude (project thread): owner 16.10 — Scene 16 accepted; Scene 42 rewritten (worm ignored), Scene 48 added (fragment); Scene 40 READY; SHA256 1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd. Sync exact master -> validator -> project-status -> GitHub Pages.
