@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T03:58:51Z",
+  "last_updated_at": "2026-10-16T05:35:47.036Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -304,13 +304,16 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-16T03:58:51Z",
+      "verified_at": "2026-10-16T05:35:47.036Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
         "Новый вид лесной планеты и настоящий последний кадр результата 17 сохранены commit b2a780b37091d6fac319cbc1d9ba5e566557364d",
         "36/37 подключены к шести реальным файлам каждый, READY; для 13 исправлена последовательная нумерация",
-        "Создана ограниченная очередь 16 следующих попыток; уже отправленные и принятые исключены"
+        "Создана ограниченная очередь 16 следующих попыток; уже отправленные и принятые исключены",
+        "Публикация ca7b83669061e70c469f4c91523b46b61faa06a3; 13/13 файлов Pages совпадают, обе 36/37 READY, ревизия 16.10, health=ok; 144 теста прошли",
+        "То же задание расширено и включено; фактический запуск проверки 16.10 07:58 МСК, 6/6 слотов заняты; новых submit не было",
+        "Notion-указатель обновлён на очередь вместо старого одного B6"
       ],
       "next_actions": [
         "Продолжать ops/topview-launch-queue.json по минимальному готовому priority при свободных глобальных слотах, только бесплатный веб",
@@ -328,7 +331,15 @@
         "reports/reference-readiness-2026-10-16.md"
       ],
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
-      "automation_verification": "pending enable after publication"
+      "automation_verification": {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "is_enabled": true,
+        "verified_at": "2026-10-16T05:35:47.036Z",
+        "last_run_time": "2026-10-16T04:58:40.069318+00:00",
+        "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+        "next_run_time_reported": null,
+        "status": "enabled; observed scheduled run after queue update"
+      }
     }
   ],
   "rules": [

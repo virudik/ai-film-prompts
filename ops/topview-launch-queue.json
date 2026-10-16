@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T03:57:30Z",
+  "updated_at": "2026-10-16T05:35:47.036Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -981,5 +981,14 @@
     "Ambiguous previous submit; reconcile task first",
     "Prompt or input SHA differs from approved queued snapshot: re-audit and update package before claim"
   ],
-  "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval"
+  "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval",
+  "automation_verification": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "is_enabled": true,
+    "verified_at": "2026-10-16T05:35:47.036Z",
+    "last_run_time": "2026-10-16T04:58:40.069318+00:00",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+    "next_run_time_reported": null,
+    "status": "enabled; observed scheduled run after queue update"
+  }
 }

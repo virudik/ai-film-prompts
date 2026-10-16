@@ -1,0 +1,118 @@
+{
+  "files": [
+    {
+      "path": "video-prompts.md",
+      "match": true,
+      "sha256": "1a670cb7cae5d97f2e54064bede0fea901c77c5cb33351efc7504ab5d6d57f7b",
+      "bytes": 372154
+    },
+    {
+      "path": "NEW-CHAT-HANDOFF.md",
+      "match": true,
+      "sha256": "ea136740c923b6b393acb11faa59c8ee15916f9108e6d4eaf7d602d03abdd634",
+      "bytes": 48290
+    },
+    {
+      "path": "SYNC-RUNBOOK.md",
+      "match": true,
+      "sha256": "ee3e9764dcdc5bd0603852a19f5ffcda2d0980906125ab6206ad95077eef8086",
+      "bytes": 108732
+    },
+    {
+      "path": "ops/TOPVIEW-FREE-LAUNCH.md",
+      "match": true,
+      "sha256": "7cddf07b48e3495bc382545b5d2bca9820dabaa939c197ab372be53ebbd54fd1",
+      "bytes": 13862
+    },
+    {
+      "path": "ops/topview-launch-queue.json",
+      "match": true,
+      "sha256": "f13895d68869fd3924205c9ba255a5e7303735d1eab2b34d1570ea494e1230a9",
+      "bytes": 35161
+    },
+    {
+      "path": "references/scenes/scene-13/manifest.json",
+      "match": true,
+      "sha256": "9950eb14f472add5a80f229b866b3f5c2de8d86286448da6d8cb3fbb02f89508",
+      "bytes": 13866
+    },
+    {
+      "path": "references/scenes/scene-36/manifest.json",
+      "match": true,
+      "sha256": "4e0e51b494ab7727cc6f9728bce98b26bc046cecea1f084c8276588ba6b6d49a",
+      "bytes": 11072
+    },
+    {
+      "path": "references/scenes/scene-37/manifest.json",
+      "match": true,
+      "sha256": "d956090c2b1cd712b410ec8c8259e11f081c46b2faf50fa4066defe8004a14f2",
+      "bytes": 14427
+    },
+    {
+      "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+      "match": true,
+      "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+      "bytes": 1152902
+    },
+    {
+      "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+      "match": true,
+      "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+      "bytes": 2194581
+    },
+    {
+      "path": "references/thumbs/scenes/scene-36/S36-start-from-S17-result.png.webp",
+      "match": true,
+      "sha256": "5c77bde587da5d60b24578e0ee242e392b042758e4d2c86ee66e318fe85b7efb",
+      "bytes": 13662
+    },
+    {
+      "path": "references/thumbs/scenes/scene-37/S37-forest-planet-reference.png.webp",
+      "match": true,
+      "sha256": "cb18314cbeef45278e8bacc3b1480f619080b2f10ad72b95a0c04af86ced4bb0",
+      "bytes": 33768
+    },
+    {
+      "path": "reports/reference-readiness-2026-10-16.md",
+      "match": true,
+      "sha256": "5dccca79ea57981bcb0412ee6c9db154e2c4940758aaae32d36539565bb0bf6d",
+      "bytes": 4540
+    }
+  ],
+  "health": "ok",
+  "revision": "16.10.2026",
+  "instruction_health": "ok",
+  "ready36": "READY",
+  "ready37": "READY",
+  "verified_at": "2026-10-16T05:35:47.036Z",
+  "publication_commit": "ca7b83669061e70c469f4c91523b46b61faa06a3",
+  "tests": {
+    "passed": 144,
+    "site_contract": "passed"
+  },
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "is_enabled": true,
+    "verified_at": "2026-10-16T05:35:47.036Z",
+    "last_run_time": "2026-10-16T04:58:40.069318+00:00",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
+    "next_run_time_reported": null,
+    "status": "enabled; observed scheduled run after queue update"
+  },
+  "topview": {
+    "checked_at": "2026-10-16T05:35:47.036Z",
+    "occupied_verified_task_ids": [
+      "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "f88eee8ea93242309b71621e354ccac2",
+      "d3844e4199d64abebe323be430a5cb35",
+      "762b3091b3e44b8599a0a58b91a253c5",
+      "e471e35fc7454fe5a2a89e06fac3f122",
+      "721cfbef2af0479da57f0a52479d2f54"
+    ],
+    "note": "All six confirmed init/unlimited on fresh main-board read; no free slot; no submit performed."
+  },
+  "backups": {
+    "notion_pointer": "updated",
+    "library_project_files": "not refreshed; canonical GitHub published"
+  }
+}
