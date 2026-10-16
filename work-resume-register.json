@@ -438,11 +438,12 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-16T17:27:22.134Z",
+      "verified_at": "2026-10-16T17:30:20.331178+00:00",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
-        "B7 submitted once 17:26:19 UTC, task979f07acffe04750961515f4baf21a3f; full prompt match, Wan3/30s/720p/unlimited/0 credits. 6/6 slots occupied."
+        "B7 submitted once 17:26:19 UTC, task979f07acffe04750961515f4baf21a3f; full prompt match, Wan3/30s/720p/unlimited/0 credits. 6/6 slots occupied.",
+        "Shared shuttle43/44 close reference saved after QC;43 READY and queued;44 remains blocked on actual result43."
       ],
       "next_actions": [
         "Wait for free slot then B8/B9/B10; B3 requires actual B2 final frame. Never repeat B7.",

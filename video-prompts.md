@@ -3066,25 +3066,27 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 43 — Ангар крейсера: у шаттла Канцлера заело крыло
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","imperial_cruiser","hangar","shuttle","comedy","dialogue","speaker_ownership"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","imperial_cruiser","hangar","shuttle","comedy","dialogue","speaker_ownership"]} -->
 
 **Контекст использования:**
 
 - **Команда владельца 16.10.2026:** имперский треугольный шаттл с раскладными крыльями стоит в ангаре звёздного разрушителя; перед взлётом крылья должны перейти в полётное положение, но одно заело, и Канцлер Серёга не может улететь; обыграть комедийно. Продолжение (ремонтники, крыло отваливается) — Scene 44. Две сцены вместо одной: заевшее крыло и ремонт с отваливанием не помещаются в одни 30 с.
 - **Место в фильме (подтверждено владельцем 16.10.2026, как и разбивка на две сцены 43/44):** на крейсере Канцлера перед его отлётом к Татуину. Шутка заодно объясняет, почему дальше Канцлер летает на своём плоском корабле из ч. 1 09:20–09:55 (Scenes 37, 39–41), а не на парадном шаттле.
-- **Ангар** — тот же имперский ангар крейсера, что в Scene 28 (H28A), в рабочем белом свете, без танцевальной подсветки. Шаттл уже виден в H28A справа с поднятыми крыльями; отдельного кадра шаттла крупно и его кабины нет — до READY желательно сделать один helper «шаттл в этом ангаре, крылья подняты» (сайт Topview в безлимите или ChatGPT).
+- **Ангар** — тот же имперский ангар крейсера, что в Scene 28 (H28A), в рабочем белом свете, без танцевальной подсветки. Шаттл уже виден в H28A справа с поднятыми крыльями; общий крупный референс шаттла с поднятыми крыльями создан, сохранён и прошёл QC; используется в 43 и 44. Это AI-референс дизайна, не кадр результата.
 - **Пилот** — безымянный имперский пилот в шлеме; глобального листа нет, лицо не показывается.
 - **Комедия** — серьёзная игра, юмор из ситуации: крыло жалко подёргивается, Серёга не меняется в лице.
-- Русская речь → Wan 3.0. В монтаж ~20–25 с. В очередь запуска не внесена; запуск — только по команде владельца.
+- Русская речь → Wan 3.0. В монтаж ~20–25 с. READY после QC, внесена в очередь по команде владельца 16.10.2026 после танцев и Scene40, только бесплатный безлимит.
 
 **Референсы:**
+
+- @Image3 — <a href="references/scenes/scene-43/S43-shuttle-raised-wings.png">общий шаттл 43/44 с поднятыми крыльями</a> (геометрия корпуса и шарниров; начало 44 — только по результату 43).
 
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-28/H28A-ceremony.png">имперский ангар крейсера H28A</a> (геометрия ангара и силуэт шаттла справа; без танцевального света).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure></div>
+<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure></div>
 
 **Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. Правое крыло плавно опускается в полётное положение, левое дёргается, скрежещет и застревает на полпути. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа опускается, и Серёга молча спускается на пол ангара и смотрит вверх на кривое крыло.
 
@@ -3095,7 +3097,8 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera deadpan comedy | The C
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
 @Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet. The white triangular shuttle with raised wings on the right of @Image2 is the shuttle of this scene. Location geometry and shuttle silhouette only; no people from this image.
-Priority: @Image1 controls Serega; @Image2 controls the hangar and the shuttle's silhouette.
+@Image3 — the shared close exterior design reference of the same shuttle with BOTH side wings raised: hull, three distinct fins, hinges, cockpit and landing supports. Vehicle geometry only.
+Priority: @Image1 controls Serega; @Image2 controls the hangar; @Image3 controls the shuttle design. The timeline controls moving wing positions.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves. No lightsaber in his hands.
@@ -3164,11 +3167,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 - **Команда владельца 16.10.2026:** вторая сцена с тем же шаттлом — Серёга ходит и возмущается, а на заднем плане имперские ремонтники максимально комично пытаются сдвинуть заевшее крыло, и в процессе оно вообще отваливается. Продолжает Scene 43 через короткий скачок времени.
 - **Техники** — трое безымянных имперских техников наземной службы; глобальных листов нет, описаны в промте.
-- **До READY:** @Video1 или последний кадр результата Scene 43 (по нему старт) — после генерации 43; желательно тот же helper шаттла, что для 43.
+- **До READY:** @Video1 или последний кадр результата Scene 43 (по нему старт) — после генерации 43; общий референс шаттла @Image3 уже сохранён; он задаёт дизайн, но не заменяет повреждённое положение крыла в результате 43.
 - **Падение крыла** — без пострадавших: крыло падает плашмя рядом с техниками, никого не задевает.
 - Русская речь → Wan 3.0. В монтаж ~20–25 с. В очередь запуска не внесена; запуск — только по команде владельца.
 
 **Референсы:**
+
+- @Image3 — <a href="references/scenes/scene-43/S43-shuttle-raised-wings.png">общий шаттл 43/44 с поднятыми крыльями</a> (геометрия корпуса и шарниров; начало 44 — только по результату 43).
 
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-28/H28A-ceremony.png">имперский ангар крейсера H28A</a> (геометрия ангара и силуэт шаттла);
@@ -3176,7 +3181,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure></div>
+<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure></div>
 
 **Что происходит:** Немного позже. На переднем плане Серёга ходит взад-вперёд, руки за спиной: «Лучший флот в галактике… а крыло сложить некому». За его спиной трое техников воюют с заевшим левым крылом: один на стремянке лупит молотком по шарниру, второй повис на верёвке, привязанной к концу крыла, третий упирается плечом. От последнего удара крыло со стоном отрывается целиком и с грохотом падает плашмя на пол. Серёга замирает спиной к этому и закрывает глаза. Техник со стремянки, с молотком в руке: «Зато… теперь не мешает». Серёга медленно поворачивает голову.
 
@@ -3188,7 +3193,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of the previous scene: Serega at the foot of the lowered ramp, the shuttle with its left wing jammed at 45 degrees and its right wing raised, the same hangar and light. Authority for the START STATE and the shuttle's position.
 @Image1 — absolute identity of SEREGA (the Chancellor).
 @Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet; the white triangular shuttle with raised wings on its right. Location and shuttle silhouette only; no people from this image.
-Priority: @Video1 controls the start; @Image1 controls Serega; @Image2 controls the hangar and the shuttle.
+@Image3 — the same shared close exterior shuttle design reference used for Scene43: hull, fins and hinges only. Its two raised wings are NOT the start pose of this scene.
+Priority: @Video1 controls the actual damaged start state and wing angles; @Image1 controls Serega; @Image2 controls the hangar; @Image3 preserves the vehicle design. Never reset the jammed wing to the raised reference pose.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves; hands clasped behind his back while pacing.
