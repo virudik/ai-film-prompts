@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-16T10:44:19+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-16T10:44:55+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 19 ([13, 16, 24, 25, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42]); промтов 40; последний ID 42; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29]
+- health ok; сцен 23 ([13, 16, 24, 25, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]); промтов 44; последний ID 46; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -61,10 +61,10 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 723906b1a838 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | ab216b32c33a |
 | 42 | Татуин: после червя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 715070ede5fe |
-| 43 | Ангар крейсера: у шаттла Канцлера заело крыло | None | None/None | 1 | @Image1 @Image2 | [] | b06efea0afca |
-| 44 | Ангар крейсера: ремонт крыла, и оно отваливается | None | None/None | 1 | @Image1 @Image2 | [] | b51962b79ebf |
-| 45 | Корабль котов в стиле РосКОТмоса: космическое сражение снару | None | None/None | 1 | @Image1 @Image2 @Image3 | [] | fbd9d79190ec |
-| 46 | Спутники РосКОТмоса сбиты в сражении | None | None/None | 1 | @Image1 @Image2 | [] | e9ccbec92eef |
+| 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 | [] | b06efea0afca |
+| 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 | [43] | b51962b79ebf |
+| 45 | Корабль котов в стиле РосКОТмоса: космическое сражение снару | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [25] | fbd9d79190ec |
+| 46 | Спутники РосКОТмоса сбиты в сражении | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 | [45] | e9ccbec92eef |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
