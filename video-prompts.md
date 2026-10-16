@@ -6,11 +6,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**23 сцены к генерации/доработке · 44 полных текста промта**
+**24 сцены к генерации/доработке · 45 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **28** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **16.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -69,6 +69,7 @@
 | 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43. |
 | 45 | [Корабль котов в стиле РосКОТмоса: космическое сражение снаружи](#scene-45) | Логотип РосКОТмос (футболка владельца); свет кабины 24–25; корабль снаружи — создать | Тот же бой, что в 25, снаружи: белый корабль с красной «галочкой» и логотипом уклоняется, стреляет и прорывается. DRAFT до референса корабля. |
 | 46 | [Спутники РосКОТмоса сбиты в сражении](#scene-46) | Логотип РосКОТмос; корабль котов из 45 | Шальной огонь и обломки цепочкой ломают три спутника с логотипом; последняя панель с котом-космонавтом кувыркается мимо камеры. DRAFT. |
+| 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. DRAFT до кадра конца 32. |
 
 ---
 
@@ -3414,6 +3415,104 @@ Quiet orbital hum, then the roar of the fly-by and laser bolts, crunching metal,
 
 NEGATIVE PROMPT:
 characters, cats, astronauts, people, pilots, crewed station, satellites firing weapons, more or fewer than three satellites, different logos, garbled or extra lettering, slogans, real-world agency logos, flags, huge fireballs, the planet exploding, debris stopping in mid-air, cartoon bounces, toy-like models, game-render look, white flash transitions, cuts, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+---
+
+<a id="scene-47"></a>
+
+## Сцена 47 — Красная точка: Серёга уходит от котов хитростью
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":32}],"tags":["serega","cats","sith_planet","saber_duel","red_dot","comedy","continuity"]} -->
+
+**Контекст использования:**
+
+- **Решение владельца 16.10.2026:** дуэль котов и Серёги (Scenes 27–32) заканчивается «красной точкой». Серёга понимает, что котов не победить, гасит меч и рукоятью пускает по камням красную точку. Коты не выдерживают и бросаются её ловить, а он спокойно уходит в храм. Коты остаются непобеждёнными мастерами, Серёга выигрывает хитростью.
+- **Место в фильме:** сразу после Scene 32 (арка), перед Scene 33 (Серёга один идёт по руинам к храму). В монтаж ~15–20 с.
+- **Стык:** старт — фактический последний кадр того ролика Scene 32, который пойдёт в монтаж (сейчас единственный результат — task `9746bfed635c451e97095c35b4e3b2bf`). Кадр ещё не извлечён, поэтому сцена DRAFT.
+- Без речи → Wan 3.0, как бой 30–32. В очередь запуска не внесена; запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
+- @Image2 — <a href="references/luchik.jpg">Лучик</a>;
+- @Image3 — <a href="references/ryzhik.jpg">Рыжик</a>;
+- @Image4 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">те же руины</a>;
+- @Image5 — <a href="references/scenes/scene-27/S27-three-subject-scale.png">масштаб</a> (вспомогательный).
+- Перед запуском добавить: последний кадр выбранного ролика Scene 32 как стартовый кадр (локальную нумерацию сдвинуть).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="Лучик"></a><figcaption>@Image2 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="Рыжик"></a><figcaption>@Image3 — Рыжик</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image4 — точные руины</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image5 — масштаб</figcaption></figure></div>
+
+**Что происходит:** Серёга зажат котами у полуразрушенной арки. Он вдруг успокаивается, гасит красный меч и направляет пустую рукоять в землю: на камне перед котами появляется маленькая красная точка. Коты замирают, головы синхронно следят за ней, Лучик секунду держится — и сдаётся. Оба гасят мечи и бросаются ловить точку, прыгают, промахиваются, сталкиваются. Серёга загоняет точку в тёмную щель между обломками арки, коты ныряют туда же. Он опускает рукоять, поправляет мантию и один поднимается по ступеням к храму.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action deadpan comedy at the end of a lightsaber duel | THE RED DOT — SEREGA ESCAPES BY CUNNING
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
+@Image2 — exact LUCHIK identity.
+@Image3 — exact RYZHIK identity.
+@Image4 — ABSOLUTE ancient Sith-planet ruins geography and sunset (see LOCATION LOCK — CRITICAL).
+@Image5 — optional three-subject scale/staging helper only; never overrides identities or location.
+Priority: @Image4 controls architecture, geography and sunset. @Image1, @Image2 and @Image3 control identities. @Image5 only helps scale and staging.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image1): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His saber is RED; its polished metal hilt stays in his right hand for the whole shot.
+LUCHIK (@Image2): exact white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression. BLUE saber.
+RYZHIK (@Image3): exact warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. GREEN saber.
+CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's knee. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands, arms or anthropomorphic bodies. Exactly three characters, no duplicates.
+
+LOCATION LOCK — CRITICAL:
+@Image4 is the same world as the previous duel: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces and stairs, shattered columns, rectangular towers, distant jagged mesa spires, low warm orange-gold sun. Fallen blocks, saber scars and a half-collapsed arch from the fight stay in place. Never substitute lava, black basalt, a clean arena or a red volcanic storm.
+
+RED DOT LOCK — CRITICAL:
+One small, crisp, bright red pointer dot, about the size of a coin, cast on the stone surfaces from the emitter end of Serega's switched-off saber hilt. Exactly one dot. It moves only where Serega points the hilt and only along real surfaces: stone floor, block faces, steps. No beam, no laser line in the air, no explosion, no magic; the blade itself is off while the dot is used.
+
+START STATE:
+Physically continuous from the end of the previous duel shot near the half-collapsed temple arch: Serega in a strained low defensive stance with his red saber lit; Luchik (blue) and Ryzhik (green) advance side by side amid settling ochre dust, clearly dominating.
+
+TIMELINE:
+[0:00–0:05] — CORNERED
+35mm mid-wide: the cats close in step by step, sabers ready. Serega holds his red blade low, breathing hard. His eyes flick from the cats to the flat sunlit stone slab in front of them; his face goes calm and deadpan.
+
+[0:05–0:10] — THE IDEA
+Serega switches off his red blade with a short falling hum. The cats stop, ears up, suspicious. He slowly points the empty hilt at the ground: one small bright red dot appears on the stone slab a metre in front of the cats.
+
+[0:10–0:16] — INSTINCT WINS
+Close two-shot of the cats at their own eye level: both heads snap down to the dot, pupils widen, tails twitch. Luchik tries to stay disciplined for one second, then loses. Serega moves the dot a little left and right; both cat heads track it in perfect sync. Both cats switch off their sabers and drop into a hunting crouch, rear ends wiggling.
+
+[0:16–0:24] — THE CHASE
+Wide: Serega flicks the dot away across the terrace. Both cats explode after it, pouncing, missing, bumping into each other and bounding over fallen blocks, as the dot skitters up a step and along a block face. Serega, still pointing the hilt with one hand, backs away calmly toward the temple stairs without hurrying.
+
+[0:24–0:30] — GONE
+Serega sends the dot deep into a dark narrow gap between fallen blocks of the collapsed arch. Both cats dive into the gap after it and disappear; a puff of dust drifts out. Serega lowers the hilt, straightens his robe, turns his back and walks up the temple stairs alone.
+
+END STATE:
+Serega alone, walking away toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.
+
+CAMERA / SPACE:
+One coherent 3D space with readable geography and a fixed sunset direction. Smooth motivated 28–35mm tracking, one low cat-eye-level 50mm two-shot; physically possible perspective and inertia, no jitter, teleporting, spatial resets or 180-degree axis flips.
+
+PERFORMANCE:
+Absolutely serious deadpan from Serega: no smile, no wink, no talking. The cats stay genuine cats: natural hunting instinct, ear and tail motion, real feline jumps and pounces. Comedy comes from the situation, not from mugging; nobody looks into the lens.
+
+LIGHTING / MATERIALS:
+Warm weathered stone in low orange-gold sunset light; continuous fine dry dust with rare ember-like particles; saber glow only while the blades are lit; the red dot stays small, crisp and slightly brighter than the sunlit stone.
+
+AUDIO:
+Saber hums and their switch-off sounds, settling stones, dry wind, soft paw thumps and scrabbling claws, one surprised cat chirp, Serega's calm footsteps on stone steps. No spoken dialogue, narrator, music, subtitles or on-screen titles.
+
+NEGATIVE PROMPT:
+giant cats, human cat-hands, talking cats, swaps, wrong saber color, a second red dot, visible laser beam, explosions, fake Force effects, floating hilts, Serega smiling or winking, self-healing architecture, changing ruin geometry, lava, character duplicates, glossy game look, cartoon, anime, incoherent cuts, text, watermark, frame borders.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
