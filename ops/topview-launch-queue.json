@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T07:54:07.176652Z",
+  "updated_at": "2026-10-16T07:55:30Z",
   "state": "blocked_browser",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1010,6 +1010,8 @@
     },
     "next_ready_item": "B7",
     "continuation": "working_chat_with_same_owner_authorization",
-    "notification_state": "owner_notification_required_once"
+    "notification_state": "owner_notified",
+    "notified_at": "2026-10-16T07:55:30Z",
+    "notification_event": "blocked_browser_global_20261016T0754Z"
   }
 }
