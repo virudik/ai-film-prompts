@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-16T22:37:59.365600+00:00",
+  "updated_at": "2026-10-16T22:41:06.695081+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -102,6 +102,38 @@
       },
       "applies_to": [
         "49A",
+        "49F",
+        "51A",
+        "51B"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+      "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+      "role": "prop",
+      "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+      "bytes": 2491681,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:41:06.695081+00:00",
+        "evidence": "Bronze four-string bass, separate cobalt rhythm guitar and three-ring percussion on stable stand with two sticks; exact H28B bay/planet/shuttle-right/emblem retained; no faces."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Three instrument-only props in exact H28B: Pasha bronze four-amber-string gravibass; Sasha cobalt six-string twin-rail guitar; Artem three-ring percussion console with two sticks; rigid playable mechanics, original background."
+      },
+      "applies_to": [
+        "49B",
         "49F",
         "51A",
         "51B"
