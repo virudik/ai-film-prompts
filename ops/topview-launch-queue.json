@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T23:09:14.907896+00:00",
+  "updated_at": "2026-10-16T23:30:45.479901+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -215,7 +215,7 @@
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
       "priority": 220,
-      "state": "blocked_owner_decision",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -224,7 +224,13 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [],
+      "depends_on_submitted": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B3"
+      ],
       "references": [
         {
           "slot": "@Image1",
@@ -265,7 +271,8 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
+      "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
+      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained."
     },
     {
       "id": "S37-S37",
@@ -275,7 +282,7 @@
       "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
       "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
       "priority": 221,
-      "state": "blocked_owner_decision",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -327,7 +334,8 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
+      "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
+      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained."
     },
     {
       "id": "S13-S13",
