@@ -1,1 +1,1 @@
-2026-10-16T07:10:14Z GitHub robot (Topview telemetry): slow add/finish; SHA256 6a513fc5bc3ef2bd329610c4f089921d927ca0321ffd1c70d1ea1857a02ff967. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-16T08:08:03Z Claude (project thread): Scenes 39–40 DRAFT added (Serega travel, owner 16.10), W-table revision; SHA256 8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b. Sync exact master -> validator -> project-status -> GitHub Pages.
