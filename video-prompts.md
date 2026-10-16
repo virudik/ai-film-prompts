@@ -157,6 +157,8 @@
 
 **Контекст использования:** Текущий результат отклонён пользователем: в речевом отрезке артикулировал PURPLE, а кот почти не двигал пастью; последующий обмен взглядами BLACK↔PURPLE дополнительно делал сцену похожей на разговор людей. Говорящий кот канонически идентифицирован как **Лучик**. Новый prompt сохраняет композицию и deadpan-комедию, но жёстко закрепляет голос и артикуляцию только за Лучиком. Автоматически не перезапускать: это готовая переработка для следующего пользовательского запуска.
 
+**Правка 16.10.2026:** добавлен `END STATE` по последнему биту таймлайна; механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
+
 **Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = **Лучик**, точный индивидуальный identity reference · @image3 = BLACK, первичный референс лица/телосложения/костюма · @image4 = PURPLE, первичный референс лица/телосложения/костюма
 
 **Используемые identity-референсы на сайте:**
@@ -226,6 +228,9 @@ After the cat finishes, hold the close-up for a short silent beat, then let the 
 
 [0:27–0:30] — RETURN TO NORMAL
 PURPLE resumes gently stroking the cat. The cat blinks and lowers its head back onto PURPLE's lap. BLACK calmly returns to the hookah. End on the same absurdly serious atmosphere.
+
+END STATE:
+PURPLE gently strokes LUCHIK lying across his lap, the cat's head resting down; BLACK back at the hookah; nobody speaks; same chairs, hookahs, panoramic window and skyline.
 
 CAMERA / SPACE:
 One continuous unbroken take. The defining camera move is a slow physical PUSH-IN from the established two-shot to a TRUE CLOSE-UP of the cat's face BEFORE the cat begins speaking. HOLD that close-up for the full line so the cat's lip sync is impossible to misread. Only after the final word may the camera ease slightly back/reframe for BLACK and PURPLE's reaction. No reaction cuts during the line. Preserve the established 180-degree axis, chair positions, hookahs, panoramic window and skyline. Camera motion is physically stable with controlled inertia. No digital zoom look, handheld jitter, whip pan, zoom jump or geometry reset.
@@ -345,6 +350,8 @@ Wan 3.0 task `a3efa5cce8224b7896e8166e0d5f2b9e` технически завер�
 
 **Контекст использования:** Продолжение кошачьей ветки после просмотра результата. Главный визуальный приоритет — **точно сохранить approved cockpit photo**: тёплый янтарный жилой интерьер корабля с плотными физическими панелями, глубиной заднего отсека/коридора и той же фронтальной композицией. Рыжик остаётся штурманом/оператором систем и виден **слева в кадре**; Лучик остаётся пилотом и виден **справа в кадре**. Коты обычного домашнего размера относительно кресел и консолей, не гигантские полугуманоидные существа.
 
+**Правка 16.10.2026:** «canopy» в таймлайне заменено на «windows/viewports» (cockpit lock запрещает bubble canopy), добавлен `END STATE`; механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
+
 **Референсы:** @Image1 = парный continuity/composition reference тех же двух котов из Scene 23 · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **APPROVED EXACT COCKPIT / COMPOSITION reference**: текущая фотография с тёплым интерьером, Рыжиком слева в кадре у навигации и Лучиком справа у пилотских органов управления. @Image4 абсолютен для интерьера, света, масштаба кресел/консолей и композиции.
 
 **Используемые identity-референсы на сайте:**
@@ -398,13 +405,16 @@ Medium-wide cockpit view matches @Image4 closely: RYZHIK stays on frame-left at 
 Power rises through the cockpit: displays illuminate, engine vibration builds, navigation route appears. RYZHIK confirms readiness with a focused look toward LUCHIK, no speech. LUCHIK responds with a brief determined glance and returns eyes forward.
 
 [0:12–0:18] — ENGINE START / LIFT
-LUCHIK advances the throttle. A deep engine spool builds. Through the canopy, the hangar/pad begins to move downward relative to the ship. Camera and loose cockpit details react to believable acceleration — mild vibration only, no chaotic shake.
+LUCHIK advances the throttle. A deep engine spool builds. Through the forward windows/viewports, the hangar/pad begins to move downward relative to the ship. Camera and loose cockpit details react to believable acceleration — mild vibration only, no chaotic shake.
 
 [0:18–0:24] — DEPARTURE
-Ship moves forward and upward through a real exit path. Exterior structures slide past the canopy with correct parallax. RYZHIK actively manages navigation and power distribution while LUCHIK keeps the flight path stable.
+Ship moves forward and upward through a real exit path. Exterior structures slide past the windows with correct parallax. RYZHIK actively manages navigation and power distribution while LUCHIK keeps the flight path stable.
 
 [0:24–0:30] — CLEAR OF BASE
 The craft clears the structure/atmospheric boundary into a broad open flight path. Stars/upper atmosphere become visible ahead. LUCHIK banks gently toward the chosen vector; RYZHIK checks tactical/nav display. End in a stable forward-flight cockpit state that can continue directly into Scene 25.
+
+END STATE:
+Stable forward flight, stars/upper atmosphere ahead through the windows; RYZHIK frame-left checking navigation, LUCHIK frame-right at the controls; same @Image4 cockpit and composition.
 
 CAMERA / CONTINUITY:
 Keep the camera inside the cockpit for the complete shot and compositionally close to the approved @Image4 photo: front-biased medium-wide / three-quarter-front view, not a long rear-view of the cats.
@@ -438,6 +448,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 Wan 3.0 task `57b6f3aac4804d2486721131e30640f6` технически завершён 12.10.2026 10:41:28 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
 **Контекст использования:** Прямое продолжение исправленной Scene 24. Те же коты и **тот же exact cockpit @Image4** без redesign: RYZHIK остаётся слева в кадре у навигации/оружия, LUCHIK справа пилотирует. Оба кота сохраняют обычный домашний масштаб и читаются лицами. Всё сражение видно изнутри того же тёплого жилого корабля.
+
+**Правка 16.10.2026:** «canopy» в таймлайне и CAMERA заменено на «windows/viewports» (cockpit lock запрещает bubble canopy); механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
 **Референсы:** @Image1 = парный continuity reference котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **APPROVED EXACT COCKPIT / COMPOSITION reference**, тот же что в Scene 24. Финальный кадр Scene 24 можно добавить как дополнительный start continuity reference только если он реально доступен; он не переопределяет @Image4.
 
@@ -475,10 +487,10 @@ Begin as a direct continuation of Scene 24 after takeoff. The ship is already in
 
 TIMELINE:
 [0:00–0:06] — BATTLE ARRIVAL
-Fighters cross the canopy at different depths. Distant capital ships exchange fire. LUCHIK leans into the controls and aligns the craft with a safe route. RYZHIK switches the tactical display from navigation to combat.
+Fighters cross the view through the forward windows at different depths. Distant capital ships exchange fire. LUCHIK leans into the controls and aligns the craft with a safe route. RYZHIK switches the tactical display from navigation to combat.
 
 [0:06–0:13] — FIRST EVASION
-Incoming fire crosses ahead. LUCHIK makes one clean bank and controlled dive/roll with believable inertia. Exterior starfield and ships rotate consistently through the canopy. RYZHIK braces naturally and adjusts shields.
+Incoming fire crosses ahead. LUCHIK makes one clean bank and controlled dive/roll with believable inertia. Exterior starfield and ships rotate consistently through the windows. RYZHIK braces naturally and adjusts shields.
 
 [0:13–0:20] — RETURN FIRE
 RYZHIK acquires a target and deliberately activates weapons. Short controlled bursts fire forward from the ship; one enemy craft ahead is hit or forced away. LUCHIK maintains the flight path and does not abandon the controls.
@@ -491,7 +503,7 @@ LUCHIK accelerates through an opening in the battle formation. RYZHIK looks forw
 
 CAMERA / SPACE:
 Camera remains inside the cockpit for the full scene, but stays compositionally close to @Image4 rather than settling into a back-only angle. Both cat faces remain readable for most of the scene.
-No exterior cutaway. Cockpit geometry stays fixed; all external movement is visible through windows/canopy with correct parallax. Motion follows ship physics: mass, inertia, no instantaneous 180-degree turns, no starfield teleport.
+No exterior cutaway. Cockpit geometry stays fixed; all external movement is visible through the windows/viewports with correct parallax. Motion follows ship physics: mass, inertia, no instantaneous 180-degree turns, no starfield teleport.
 
 PERFORMANCE:
 Competent, angry-focused Jedi-cat crew rather than slapstick animals. LUCHIK actively flies; RYZHIK actively navigates/fires. Natural ear movement, blinking and body lean under G-forces. No dialogue and no random meowing.
@@ -521,9 +533,11 @@ Wan 3.0 task `dbe204aeb9a74478af04c6bbfe7693f9` технически завер�
 
 **Последние Topview-задачи:** обе 15-секундные альтернативные части Seedance 2.0 технически завершены (`success`): Part 1 — 03.10.2026 19:01:20, Part 2 — 04.10.2026 07:05:59. Обе Wan 3.0 попытки существующего основного 30-секундного варианта технически завершены 08.10.2026: `ffa34324436745beb161d72ae9d4394f` — 13:44:15 UTC, `017bebefc4c54038954301968a4b5d68` — 13:46:23 UTC. Scene 27 снята с Topview-managed slow; новые Scene ID не создаются. Technical success не означает редакционное одобрение.
 
-**Лимит split-версии — 07.10.2026:** каждый самостоятельный промт Seedance 2.0 на 15 с — не более **10 000 символов**  включая пробелы и переносы. Часть 1: **9 851**; часть 2: **9 751** символ (текст внутри fence без крайних пробелов). Редакция ниже предназначена для будущего запуска; уже полученные ролики использовали ранее отправленные тексты.
+**Лимит split-версии — 07.10.2026:** каждый самостоятельный промт Seedance 2.0 на 15 с — не более **10 000 символов**  включая пробелы и переносы. Часть 1: **9 532**; часть 2: **9 682** символ (текст внутри fence без крайних пробелов). Редакция ниже предназначена для будущего запуска; уже полученные ролики использовали ранее отправленные тексты.
 
 **Контекст использования:** Немедленное продолжение исправленной Scene 26. **Все три production-варианта Scene 27 — основной 30s Seedance 2.5 и обе 15s части Seedance 2.0 — получают одинаковые коррективы после просмотра результатов:** коты остаются обычного небольшого домашнего масштаба, в воздухе непрерывно присутствует та же сухая пепельно-пыльная взвесь с редкими искрящимися частицами, а бой становится заметно быстрее, агрессивнее и подвижнее, без долгих hero-pose пауз и статичного стояния. Коты явно превосходят Серёгу скоростью и координацией; Серёга почти всё время вынужден обороняться.
+
+**Правка 16.10.2026:** из всех трёх блоков убраны слова об устаревшей локации (black-basalt / volcanic) из позитивной части; в основной 30 с абзац continuity заменён на `START STATE / BLOCKING` как в части 1, у @Image2 добавлена краткая внешность Серёги; механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
 **Референсы:** @Image1 = парный continuity/composition reference котов · @Image2 = канонический model sheet Серёги · @Image3 = **Лучик**, точный индивидуальный identity reference · @Image4 = **Рыжик**, точный индивидуальный identity reference · @Image5 = **точный LOCATION / ENVIRONMENT reference**: чистый широкий кадр древнего монументального каменного города-руины на закате. @Image5 является абсолютным визуальным источником локации, архитектуры, материала, пространственного масштаба, направления света и цветовой атмосферы. При будущей генерации фактический последний кадр Scene 26 можно добавить как start-frame continuity reference только для стартовых позиций/эмоционального состояния; он не должен переопределять @Image5 как authority окружения.
 
@@ -550,7 +564,7 @@ Optimized for Seedance 2.5 | Photoreal live-action lightsaber combat | Aggressiv
 REFERENCES / IDENTITY:
 @Image6 — optional three-subject scale/staging only: small domestic cats below Serega knee height. Images2/3/4 remain identity authority; Image5 remains exact environment.
 @Image1 — PAIR CONTINUITY / COMPOSITION reference for LUCHIK and RYZHIK.
-@Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR.
+@Image2 — PRIMARY exact identity reference for SEREGA / THE CHANCELLOR: pale older Chancellor face and build, balding crown with sparse light hair, long deep-purple robe; no beautification or redesign.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs, grey crown/facial/back markings; cold, disciplined master-like presence.
 @Image4 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; faster, more aggressive predatory confidence.
 @Image5 — PRIMARY EXACT LOCATION / ENVIRONMENT reference: the clean wide view of the same vast ancient ruined stone city/temple complex at sunset. Preserve its warm reddish-brown / ochre weathered stone, monumental robed statues, massive temple façades, broad stepped terraces and stairways, broken columns, tall rectangular ruin towers, scattered masonry, jagged canyon/mesa-like rock spires and layered distant ruins, together with the warm orange-gold low sun, dramatic cloudscape and dusty atmospheric depth.
@@ -575,8 +589,8 @@ Carry over the successful atmosphere from Scene 26: fine drifting dry ash, dust 
 This is dry ruin atmosphere, not volcanic smoke. The particles should react subtly to footwork, blade motion and impacts, adding motion and depth without obscuring the choreography.
 Do not render clean empty air.
 
-CONTINUITY FROM SCENE 26:
-Continue the exact emotional instant and opening left-right fighter positions from Scene 26, but for Scene 27 the battlefield itself is now concretely defined by @Image5. @Image5 overrides older black-basalt / black-monolith / volcanic-glow / deep-red-storm wording. Fine dry ash/dust/embers are now intentionally retained as atmosphere. Begin directly after the cats issue their challenge, already inside the ancient sunset-lit stone city/ruin environment shown in @Image5. No new arrival, no temporal reset and no location drift away from @Image5.
+START STATE / BLOCKING:
+Begin directly after the cats issue their challenge in Scene 26, already inside the ancient sunset-lit stone city of @Image5; no new arrival, no temporal reset, no location drift. SEREGA faces the two cats across a broad open weathered-stone terrace. RYZHIK is slightly forward on camera-left/center; LUCHIK is offset on the opposite side, half a step back but ready to close. All three sabers are already ignited. The fight begins immediately from this standoff tension.
 
 POWER DYNAMIC — CRITICAL:
 The CATS ARE CLEARLY THE SUPERIOR FIGHTERS.
@@ -675,7 +689,7 @@ RYZHIK (@Image4): ginger long-haired tabby, warm orange coat, darker tabby strip
 Preserve the individual sheets' proportions, ears, muzzles, paws, tails and coat patterns. Compact hilts may be held with stylized feline combat balance; cats never acquire human hands, arms, faces or torsos.
 
 CONTINUITY FROM SCENE 26:
-Continue the exact emotional instant and opening left-right fighter positions from Scene 26, but use @Image5 as the absolute environment authority. @Image5 overrides older black-basalt / black-monolith / volcanic-glow / deep-red-storm wording. Fine dry ash/dust/embers are now intentionally retained as atmosphere. Begin directly after the cats issue their challenge inside the ancient sunset-lit stone city/ruin environment defined by @Image5. No new arrival, no temporal reset and no location drift away from @Image5.
+Begin directly after the cats issue their challenge in Scene 26, already inside the ancient sunset-lit stone city of @Image5. No new arrival, no temporal reset and no location drift away from @Image5.
 
 START STATE / BLOCKING:
 SEREGA faces the two cats across a broad open weathered-stone terrace/plaza matching @Image5, with monumental ruined architecture clearly readable around and behind them.
@@ -770,7 +784,7 @@ RYZHIK (@Image4): ginger long-haired tabby, warm orange coat, darker tabby strip
 Preserve the individual sheets' proportions, ears, muzzles, paws, tails and coat patterns. Compact hilts may be held with stylized feline combat balance; cats never acquire human hands, arms, faces or torsos.
 
 CONTINUITY FROM SCENE 26 / PART 1:
-Continue immediately from the end of Part 1 with no reset. Preserve the same action axis and the same @Image5 environment: warm sunset, monumental ancient stone ruins, stepped terraces, giant statues, stairs, towers, broken masonry and distant jagged rock spires. @Image5 remains the absolute environment authority and overrides older black-basalt / volcanic / deep-red-storm wording.
+Continue immediately from the end of Part 1 with no reset. Preserve the same action axis and the same @Image5 environment: warm sunset, monumental ancient stone ruins, stepped terraces, giant statues, stairs, towers, broken masonry and distant jagged rock spires. @Image5 remains the absolute environment authority.
 Start exactly from this Part 1 end-state:
 SEREGA is backed closer to a low broken stone terrace / fallen masonry element from the @Image5 environment, in a strained defensive stance, slightly lower and off-balance, red saber still in hand.
 LUCHIK is closer on one side with blue saber ready to press.
@@ -836,6 +850,8 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 **Контекст использования:** отдельная внесюжетная кода ПОСЛЕ сюжетного финала, под финальные титры. Девять людей/гуманоидов, Алеся и два кота из вкладки «Персонажи» исполняют нелепую хореографию с абсолютно серьёзными лицами. Отсылка к заставкам «Миротворца» — серьёзная подача нелепой хореографии. По запросу пользователя добавлены мотивы второй заставки: повторные движения руками у лица, кружение на руках и перенос на плече; здесь они поставлены для наших персонажей и ангара. Центральная пара — Серёга и Юля. Сцена не меняет сюжетный финал, Warcraft или историю карты.
 
 **Редакция 08.10.2026:** по запросу пользователя подготовлены ДВЕ законченные версии одного номера: **Seedance 2.0 — 10×15 с** и **Wan 3.0 — 10×30 с**, всего 20 автономных промтов. Старый вариант Seedance 2.5 заменён этими версиями. Каждый блок содержит собственные референсы, внешность, действие, свет, начало/конец и ограничения. Это альтернативы: не требуется генерировать оба комплекта.
+
+**Правка 16.10.2026:** из A8–A10 и B8–B10 убраны операторские и монтажные пометки («use only after…», «editorial cut / freeze»); их заменили нейтральным описанием начала и конца клипа. Механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
 **Готовность:** H28A/H28B сохранены как две версии света одной локации. Существуют 11 ранее утверждённых individual character sheets; 08.10 добавлен проверенный модельный лист Алеси по двум входным фото из указанной пользователем Topview-задачи. Дополнительно сохранены удачные постановочные кадры **P28** (пара лицом к лицу), **L28** (Серёга несёт Юлю) и **F28** (взаимный жест у лица). **R28A/R28B** сохранены отдельно только как вспомогательные кадры композиции/расстановки: individual character sheets всегда имеют приоритет внешности, а ошибки лица/кошачьей пластики из этих helpers нельзя переносить в генерацию. **C28** формируется только из чистого результата части 2; **S28** исправлен и сохранён: Юля сидит боком на правом плече, правая рука Серёги поддерживает бёдра, левая — голени; **G28** собран и проверен по individual sheets: девять людей/гуманоидов, маленькая Алеся и два обычных кота, без дублей. Scene 28 — `READY` для поэтапного запуска. Части 1–2 имеют все входы; часть 3 запускается только после выбора C28 из чистого результата части 2. Видеогенерации этой сцены не запускались. Готовность текстов не означает готовность всех визуальных входов.
 
@@ -1248,7 +1264,7 @@ REFERENCES / PRIORITY:
 @Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people. Use this prompt only after the pose reference is actually prepared and approved for anatomy.
+@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
@@ -1258,7 +1274,7 @@ Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain
 
 START STATE / SUPPORT GEOMETRY:
 SEREGA already holds YULIA in a stable two-arm cradle across the front of his torso: his left forearm supports her upper back and his right forearm supports her thighs above the knees. Her head is toward his left shoulder; her bent legs extend to his right. She keeps her torso compact, one gloved hand resting on his upper shoulder, without covering his neck or face. Both heads remain separate and visible. His feet begin shoulder-width apart on the hangar floor.
-This shot begins AFTER the lift, reached by an editorial cut from another dance fragment. Do not invent an on-camera pickup or a transfer from the previous shot.
+This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 ACTION / PHYSICS:
 One slow CLOCKWISE half-turn viewed from above, performed by four small grounded walking steps around a compact arc. He turns his whole supported body and her with it; he does not twist her torso independently. Keep the same hands, support points, body scale and gap between their heads throughout. Her knees stay bent and legs together, boots clear of his robe. No full revolution, throw, release, jump or switch of carrier.
@@ -1295,7 +1311,7 @@ REFERENCES / PRIORITY:
 @Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people. Use this prompt only after the pose reference is actually prepared and approved for anatomy.
+@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
@@ -1305,7 +1321,7 @@ Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain
 
 START STATE / SUPPORT GEOMETRY:
 YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly as the approved pose reference: both bent legs hang together in front of the right side of his torso. His right forearm supports her thighs, while his left hand stabilizes her lower legs. Her torso stays upright and slightly balanced toward him; one gloved hand lightly rests on his shoulder away from his face. Their heads are separate with an unobstructed outline. His stance is broad and grounded, their cloaks hang separately. She is one full-size adult, not miniaturized.
-This shot begins AFTER the lift, reached by an editorial cut from another dance fragment. Do not invent an on-camera pickup or a transfer from the previous shot.
+This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 ACTION / PHYSICS:
 Keeping this one fixed supported pose, SEREGA performs TWO small solemn parade steps toward camera along a straight line, then stops. He carries the combined weight with measured heel-to-toe transfer and modest torso response. YULIA makes one small dignified chin lift and otherwise remains remarkably official. No mounting, dismounting, spinning, bounce, toss, shoulder swap or change of grip. The joke is a formal parade carried out in this absurd pose.
@@ -1322,7 +1338,7 @@ CAMERA / PERFORMANCE:
 One locked, wide full-body two-shot, natural approximately 35mm perspective, matching the supplied pose reference. Frame the full height and width of both people with head and foot clearance for the entire motion. Do not zoom or orbit to fake the turn. Both stay solemn, with natural blinking and breathing; no smile, wink, panic, romantic kiss or exaggerated strain. Skin, armor, hair and cloth retain practical material detail and believable inertia.
 
 END STATE:
-Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. The following ensemble shot is an editorial cut to another formation; do not generate the dismount or extra cast here. H28B light and the hangar remain unchanged through the final frame.
+Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. End on the held pose; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
 
 NEGATIVE PROMPT:
 Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, fast spin, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark.
@@ -1356,13 +1372,13 @@ The provided group master already contains the H28B disco light. Hold the floor 
 TIMELINE / MINIMAL ENSEMBLE ACTION:
 0–2s: hold the source composition in steady disco lighting with natural breathing.
 2–5s: the nine people make ONE small coordinated downward forearm pulse and return to the same low angular pose. Feet remain planted. Both cats stay on all fours with at most a slight natural head lift.
-5–15s: settle into the same solemn final tableau and hold. Only natural breathing, occasional blinking and tiny cloth/fur settling. No extra gestures, steps or formation changes. Preserve a clean still frame for the later editorial freeze.
+5–15s: settle into the same solemn final tableau and hold. Only natural breathing, occasional blinking and tiny cloth/fur settling. No extra gestures, steps or formation changes. Keep the final frames clean and still.
 
 CAMERA / PERFORMANCE / REALISM:
 One completely locked camera with the source lens, perspective and framing. No push-in during generation, parallax, orbit, reframing or focus rack. Preserve source skin, fur, cloth and armor textures. The ensemble's conviction makes the pose funny; no smiles, comic grimaces, applause or waving. This is a live-action tableau, not rubber animation.
 
 END STATE:
-The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
+The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; nothing follows inside this clip. H28B disco lighting is established and steady at the last frame.
 
 NEGATIVE PROMPT:
 Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, walking, dancing formations, big gestures, mirror doubles, camera movement, background motion, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look.
@@ -1680,7 +1696,7 @@ REFERENCES / PRIORITY:
 @Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people. Use this prompt only after the pose reference is actually prepared and approved for anatomy.
+@Image4 = the supplied and checked L28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
@@ -1690,7 +1706,7 @@ Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain
 
 START STATE / SUPPORT GEOMETRY:
 SEREGA already holds YULIA in a stable two-arm cradle across the front of his torso: his left forearm supports her upper back and his right forearm supports her thighs above the knees. Her head is toward his left shoulder; her bent legs extend to his right. She keeps her torso compact, one gloved hand resting on his upper shoulder, without covering his neck or face. Both heads remain separate and visible. His feet begin shoulder-width apart on the hangar floor.
-This shot begins AFTER the lift, reached by an editorial cut from another dance fragment. Do not invent an on-camera pickup or a transfer from the previous shot.
+This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 ACTION / PHYSICS:
 One slow CLOCKWISE half-turn viewed from above, performed by four small grounded walking steps around a compact arc. He turns his whole supported body and her with it; he does not twist her torso independently. Keep the same hands, support points, body scale and gap between their heads throughout. Her knees stay bent and legs together, boots clear of his robe. No full revolution, throw, release, jump or switch of carrier.
@@ -1727,7 +1743,7 @@ REFERENCES / PRIORITY:
 @Image1 = H28B, exact hangar geometry and established disco lighting ONLY.
 @Image2 = absolute SEREGA identity/costume sheet.
 @Image3 = absolute YULIA identity/costume sheet.
-@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people. Use this prompt only after the pose reference is actually prepared and approved for anatomy.
+@Image4 = the supplied and checked S28 two-person supported-pose reference: exact opening body arrangement, support points and camera framing ONLY. Individual sheets outrank it for faces, build and wardrobe. Exactly two adults; multiple sheet views never create extra people.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA: exact pale older Chancellor, balding crown with sparse light hair, approved build and long deep-purple robe. YULIA: exact referenced face/build, long chestnut hair, black-grey armor and shoulder pieces, gloves and a long black cloak. Preserve age, proportions, clothing and full adult scale during the support. No beautification, costume change, face blending or head/body swapping. Hands are empty apart from the specified support; no weapons.
@@ -1737,7 +1753,7 @@ Photoreal live-action Imperial ceremonial hangar in the H28B disco state. Retain
 
 START STATE / SUPPORT GEOMETRY:
 YULIA is already seated upright SIDE-SADDLE on SEREGA's RIGHT shoulder, exactly as the approved pose reference: both bent legs hang together in front of the right side of his torso. His right forearm supports her thighs, while his left hand stabilizes her lower legs. Her torso stays upright and slightly balanced toward him; one gloved hand lightly rests on his shoulder away from his face. Their heads are separate with an unobstructed outline. His stance is broad and grounded, their cloaks hang separately. She is one full-size adult, not miniaturized.
-This shot begins AFTER the lift, reached by an editorial cut from another dance fragment. Do not invent an on-camera pickup or a transfer from the previous shot.
+This clip starts already in the supported pose. Do not show the lift, an on-camera pickup or a transfer from another shot.
 
 ACTION / PHYSICS:
 Keeping this one fixed supported pose, SEREGA performs TWO small solemn parade steps toward camera along a straight line, then stops. He carries the combined weight with measured heel-to-toe transfer and modest torso response. YULIA makes one small dignified chin lift and otherwise remains remarkably official. No mounting, dismounting, spinning, bounce, toss, shoulder swap or change of grip. The joke is a formal parade carried out in this absurd pose.
@@ -1754,7 +1770,7 @@ CAMERA / PERFORMANCE:
 One locked, wide full-body two-shot, natural approximately 35mm perspective, matching the supplied pose reference. Frame the full height and width of both people with head and foot clearance for the entire motion. Do not zoom or orbit to fake the turn. Both stay solemn, with natural blinking and breathing; no smile, wink, panic, romantic kiss or exaggerated strain. Skin, armor, hair and cloth retain practical material detail and believable inertia.
 
 END STATE:
-Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. The following ensemble shot is an editorial cut to another formation; do not generate the dismount or extra cast here. H28B light and the hangar remain unchanged through the final frame.
+Stop in the same right-shoulder pose, both faces visible, with exactly the original supporting arms and legs. End on the held pose; do not generate the dismount or extra cast. H28B light and the hangar remain unchanged through the final frame.
 
 NEGATIVE PROMPT:
 Incorrect support geometry, missing support hand, detached grip, extra arms/legs/fingers, fused bodies, face swap, changing scale, child-sized partner, broken joints, floating feet, gliding carrier, weightless partner, duplicated people, mirrored doubles, tangled cloaks, body passing through armor, lift during camera cut, pickup transition, shoulder transfer, throw, drop, fast spin, jump, weapons, smiles, changing room, facial color flicker, strobe, camera shake, cuts within this clip, captions, credits, text, logos or watermark.
@@ -1790,13 +1806,13 @@ TIMELINE / MINIMAL ENSEMBLE ACTION:
 4–7s: the nine people make ONE small coordinated downward forearm pulse and return to the source low angular pose. Feet remain planted; both cats stay on all fours, with at most a slight natural head lift.
 7–15s: settle into the solemn final tableau, no new choreography. Keep all nine adult human/humanoid faces, Alesya's face and the two feline identities unchanged.
 15–23s: hold that same pose, allowing only breathing, occasional natural blinks and tiny cloth/fur settling. No walking, turns, hand waves or formation changes.
-23–30s: continue the clean unchanged tableau through the final frame, suitable for an editorial freeze. Do not invent a second ending or alter any face to fill the duration.
+23–30s: continue the clean unchanged tableau through the final frame. Do not invent a second ending or alter any face to fill the duration.
 
 CAMERA / PERFORMANCE / REALISM:
 One completely locked camera with the source lens, perspective and framing. No push-in during generation, parallax, orbit, reframing or focus rack. Preserve source skin, fur, cloth and armor textures. The ensemble's conviction makes the pose funny; no smiles, comic grimaces, applause or waving. This is a live-action tableau, not rubber animation.
 
 END STATE:
-The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; credits and any extended freeze are editorial operations outside this generation. H28B disco lighting is established and steady at the last frame.
+The same twelve visible identities in the same positions and low final pose, no occluded faces and no changed bodies. Hold until the last frame; nothing follows inside this clip. H28B disco lighting is established and steady at the last frame.
 
 NEGATIVE PROMPT:
 Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting-driven identity drift, new room geometry, DJ booth, Missing or extra person, duplicated face, merged rows, costume swap, changed glasses, changed cat colors, human-scale cats, humanoid cats, bipedal cats, Masha torso anatomy, nipples, navel, exposed abdomen, new weapons, crossing arms over faces, walking, dancing formations, big gestures, mirror doubles, camera movement, background motion, lip sync, generated titles, captions, logos, watermark, cartoon or game-render look.

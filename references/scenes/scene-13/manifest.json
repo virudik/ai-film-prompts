@@ -307,8 +307,8 @@
     {
       "prompt_id": "S13",
       "canonical_heading": "Scene 13",
-      "canonical_prompt_sha256": "1a681708b32cc3756b18fe50b86c23b41ca2454a9453c6fa3a39a6f179def73e",
-      "characters": 8390,
+      "canonical_prompt_sha256": "6596c3c2aa07eec16f0b9ae4f6c0cde8875cd420cfb3dccf227c8f47e3482cbe",
+      "characters": 8575,
       "duration_seconds": 30,
       "model": "Wan 3",
       "slots": {

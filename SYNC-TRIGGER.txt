@@ -1,1 +1,1 @@
-2026-10-16T03:58:51Z owner-authorized all-ready queue and scenes 36/37 reference integration
+2026-10-16T05:56:19Z Claude: mechanical prompt cleanup per prompt-audit §4 (scenes 13, 24, 25, 27, 28 A/B 8–10); queue and manifest hashes updated; SHA256 7578209bc9e73f18ac2e8d9446375b36bd9bc7f1d6b135bd30e4a2d3354dec5e. Sync exact master -> validator -> project-status -> GitHub Pages.

@@ -942,8 +942,8 @@
     {
       "prompt_id": "A8",
       "canonical_heading": "A8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "124fe457a6fb54591c8356f9793f28f1a254b4b77912749976225b33f63d7789",
-      "characters": 5117,
+      "canonical_prompt_sha256": "ebd8ac8af5b2439ee57f5d1659b586a4b40e82f3acda1cf24ee8d6ef9082392c",
+      "characters": 4985,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -980,8 +980,8 @@
     {
       "prompt_id": "A9",
       "canonical_heading": "A9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "27049c60e3c81b659daebf6782bb1ec8f86d85c0585af8fcb2484d64105b0252",
-      "characters": 5278,
+      "canonical_prompt_sha256": "6b75c1a46bd6db6b1aada644a8a40714f6d63da050699546949221cdfebddeff",
+      "characters": 5093,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1018,8 +1018,8 @@
     {
       "prompt_id": "A10",
       "canonical_heading": "A10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "a709845b6ecfb8e11b2901669190a81fd53e7810451e6275b12edd70b8c76140",
-      "characters": 5586,
+      "canonical_prompt_sha256": "da4da644b25c55f1ff8fdae596e378bdb6d146c00cd1142d6de84f979d908b6d",
+      "characters": 5516,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1292,8 +1292,8 @@
     {
       "prompt_id": "B8",
       "canonical_heading": "B8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "86e88d4bfad13a45d12e64b70e2bff7a5ccdcbd6edeaaa8db592c6e7d2762568",
-      "characters": 5109,
+      "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
+      "characters": 4977,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1330,8 +1330,8 @@
     {
       "prompt_id": "B9",
       "canonical_heading": "B9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "ac9bb9b1381597b0653c922279c8ef62432d29b335fe8cba9301b46379e56b62",
-      "characters": 5328,
+      "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
+      "characters": 5143,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1368,8 +1368,8 @@
     {
       "prompt_id": "B10",
       "canonical_heading": "B10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "14ba7add024d27bf594ce01a72b3fa9f2f9c3d9081868137a2579102665eb6f4",
-      "characters": 5866,
+      "canonical_prompt_sha256": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4",
+      "characters": 5784,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
