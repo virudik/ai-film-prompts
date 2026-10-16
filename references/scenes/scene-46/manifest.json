@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-16T10:42:38Z",
+  "updated_at": "2026-10-16T17:22:27.061016+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "draft_inputs_pending",
+  "status": "ready",
   "references": [
     {
       "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
@@ -30,6 +30,40 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+      "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "bytes": 2602753,
+      "media_type": "image",
+      "role": "vehicle_exterior",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T17:22:27.061016+00:00",
+        "evidence": "Full ship visible; white hull, red swoosh, cat-astronaut roundel, amber windows, two engines, no visible crew; shared design for 45/46."
+      },
+      "provenance": {
+        "type": "ai_generated_design_reference",
+        "tool": "ChatGPT imagegen",
+        "created_at": "2026-10-16T17:22:27.061016+00:00",
+        "inputs": [
+          "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "references/scenes/scene-24/S24-Image3-topview-source.png"
+        ],
+        "not_a_film_frame": true
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+        "thumbnail": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [],
@@ -50,9 +84,9 @@
       "prompt_id": "S46",
       "canonical_prompt_sha256": "091e4d0e85a206d46c2ee2a615e1d48afd1655f35a18f582859bbc017bc5545b",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": null,
+      "generation_authorization": "Direct owner command 16.10.2026; unlimited website only, zero credits, after dances.",
       "slots": [
         {
           "slot": "@Image1",
@@ -63,17 +97,17 @@
         {
           "slot": "@Image2",
           "canonical_role": "vehicle_exterior",
-          "input_status": "required_not_available"
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-16T10:42:38Z",
-  "last_qc_scope": "16.10.2026: DRAFT-сцена по команде владельца (тред «Шаттл с крылом и бой Роскотмоса»). Изображения не генерировались, Topview не вызывался.",
-  "remaining": [
-    "@Image2 — тот же референс корабля котов снаружи, что @Image3 Scene 45."
-  ],
+  "last_qc_at": "2026-10-16T17:22:27.061016+00:00",
+  "last_qc_scope": "Shared exterior design QC; no video approval.",
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
   "invariants": [
     "Individual sheets outrank helpers for identity",
@@ -81,5 +115,5 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "16.10: DRAFT по команде владельца, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+  "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun."
 }

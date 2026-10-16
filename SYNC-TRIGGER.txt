@@ -1,2 +1,1 @@
-2026-10-16 ChatGPT: owner authorized Scene 51A/51B, same approved H28B location and original individual faces, DRAFT pending QC new pose photos; do not launch Topview.
-2026-10-16T15:47:19Z Scenes 39-51: owner-approved prompt cleanup (montage notes removed, 49 identity/cat locks, 49F shortened, rock tempo in 49-51 audio); SHA256 4594b9a78ae69749205ebe3ff130a5fc7ba005ed589f59f6ee1a960500d462c3. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-16T17:22:27.061016+00:00 shared RosKOTmos exterior reference45/46; READY inputs; queue40 first after dances

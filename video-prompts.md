@@ -3254,27 +3254,27 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 45 — Корабль котов в стиле РосКОТмоса: космическое сражение снаружи
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":25}],"tags":["cats","roskotmos","ship_exterior","space_battle","action","logo"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":25}],"tags":["cats","roskotmos","ship_exterior","space_battle","action","logo"]} -->
 
 **Контекст использования:**
 
 - **Команда владельца 16.10.2026:** корабль котов снаружи сражается в космическом сражении; дизайн корабля в стиле РосКОТмоса и с его логотипом — как на футболках владельца (@Image1, исходники рядом).
 - **Место в фильме:** то же сражение, что Scene 25 (кабина котов), но снаружи; beats повторяют 25 по времени, чтобы в монтаже перемежать кабину и внешний вид. Сам бой котов уже есть в 25; эта сцена — не новый сюжетный поворот.
-- **Корабль** — тот же, в чьей тёплой янтарной кабине сидят Лучик и Рыжик в Scenes 24–25: снаружи видны освещённые изнутри передние окна кабины. Внешнего вида корабля котов в фильме и в референсах пока нет. **До READY:** один референс корабля снаружи в стиле РосКОТмоса (белый корпус, красная «галочка», круглый логотип) — сделать на сайте Topview в безлимите или у ChatGPT и сохранить в эту папку. Без него дизайн корабля в каждом ролике будет свой.
+- **Корабль** — тот же, в чьей тёплой янтарной кабине сидят Лучик и Рыжик в Scenes 24–25: снаружи видны освещённые изнутри передние окна кабины. Общий внешний вид корабля для Scenes 45–46 создан в ChatGPT по логотипу и свету кабины, сохранён и прошёл визуальный QC 16.10.2026. Это AI-референс дизайна, не настоящий кадр фильма; QC не означает одобрение владельцем.
 - **Логотип** с футболок низкого разрешения (250 px); надпись РОСКОТМОС генераторы часто искажают — в промте эмблема важнее надписи.
-- Котов в кадре не видно (только окна кабины). Без речи → Wan 3.0, как основной движок 30-секундных сцен. В очередь запуска не внесена; запуск — только по команде владельца.
+- Котов в кадре не видно (только окна кабины). Без речи → Wan 3.0, как основной движок 30-секундных сцен. Внесена в очередь по прямой команде владельца 16.10.2026; запуск после танцев, только бесплатный безлимит.
 
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a> (вырезан из фото футболки владельца; исходники: <a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg">серая</a>, <a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg">чёрная</a>);
 - @Image2 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов Scenes 24–25</a> (только тёплый свет окон кабины снаружи, котов не брать);
-- @Image3 — внешний вид корабля котов в стиле РосКОТмоса (создать до READY).
+- @Image3 — <a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" alt="Исходник — серая футболка"></a><figcaption>Исходник — серая футболка</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" alt="Исходник — чёрная футболка"></a><figcaption>Исходник — чёрная футболка</figcaption></figure>
-<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure></div>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image3 — корабль РосКОТмоса"></a><figcaption>@Image3 — общий корабль 45/46; AI-референс дизайна</figcaption></figure></div>
 
 **Что происходит:** Снаружи, в разгар того же боя, что в Scene 25: корабль котов — белый, с широкой красной «галочкой» вдоль борта и большим круглым логотипом РосКОТмоса с котом-космонавтом — влетает в сражение, уходит креном от огня, отстреливается вперёд, проскальзывает между крупным кораблём и обломками и прорывается в просвет строя. В окнах кабины тёплый янтарный свет.
 
@@ -3341,22 +3341,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 46 — Спутники РосКОТмоса сбиты в сражении
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":45}],"tags":["roskotmos","satellites","space_battle","comedy","logo"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":45}],"tags":["roskotmos","satellites","space_battle","comedy","logo"]} -->
 
 **Контекст использования:**
 
 - **Команда владельца 16.10.2026:** сцена, где в сражении сбиваются и ломаются спутники РосКОТмоса; логотип как на футболке (@Image1).
 - **Место в фильме:** вставка внутри того же космического боя (Scenes 25 и 45): шальной огонь и обломки задевают мирные спутники РосКОТмоса на орбите. Комедия — цепная реакция: каждый следующий спутник ломается от обломков предыдущего.
 - **Спутники** — три разных спутника в одном «агентском» стиле, у каждого на корпусе тот же круглый логотип. Отдельного референса спутников нет; стиль описан в промте. Корабль котов пролетает в кадре одним силуэтом — нужен тот же референс корабля, что для Scene 45.
-- **До READY:** @Image2 — референс корабля котов из Scene 45 (создать). Без речи → Wan 3.0. В очередь запуска не внесена; запуск — только по команде владельца.
+- **Готовность:** @Image2 — общий сохранённый референс корабля из Scene 45; визуальный QC пройден 16.10.2026. Без речи → Wan 3.0. Внесена в очередь по прямой команде владельца 16.10.2026; запуск после танцев, только бесплатный безлимит.
 
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a>;
-- @Image2 — внешний вид корабля котов из Scene 45 (создать до READY).
+- @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure></div>
+<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — общий корабль 45/46; AI-референс дизайна</figcaption></figure></div>
 
 **Что происходит:** Над голубой планетой тихо висят три спутника РосКОТмоса с логотипом кота-космонавта. Сквозь кадр проносится бой: корабль котов, за ним вражеские истребители. Шальной залп отрезает первому спутнику солнечную панель, и его закручивает. Его обломки врезаются во второй, тот сминается и разваливается. Кувыркающаяся половина второго сносит третьему антенну-тарелку, и тот медленно уплывает, грустно мигая огоньком. Последняя солнечная панель с логотипом кувыркается прямо мимо камеры.
 

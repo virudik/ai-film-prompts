@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T12:10:54.924Z",
+  "updated_at": "2026-10-16T17:22:27.061016+00:00",
   "state": "running",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -210,7 +210,7 @@
       "canonical_block_label": "36",
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
-      "priority": 20,
+      "priority": 220,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -269,7 +269,7 @@
       "canonical_block_label": "37",
       "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
       "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
-      "priority": 21,
+      "priority": 221,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -330,7 +330,7 @@
       "canonical_block_label": "13",
       "canonical_prompt_sha256": "6596c3c2aa07eec16f0b9ae4f6c0cde8875cd420cfb3dccf227c8f47e3482cbe",
       "normalized_prompt_sha256": "c16503e64ca6adbfd1b694fae32b4a50b964f95f14ae0c156a6b089d3d048fed",
-      "priority": 30,
+      "priority": 230,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -395,8 +395,8 @@
       "canonical_block_label": "24",
       "canonical_prompt_sha256": "de926efd2c11329e35456440c6202624ec3e6c155264d9a6d56d6742e2f26dba",
       "normalized_prompt_sha256": "a8a99449b5f4395e3772ee5f8cf204e1dadc31822fd27a0f7b22289a56f2b64a",
-      "priority": 40,
-      "state": "waiting_for_slot",
+      "priority": 240,
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.5",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -437,7 +437,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
     },
     {
       "id": "S25-S25",
@@ -446,8 +447,8 @@
       "canonical_block_label": "25",
       "canonical_prompt_sha256": "8980a09782572a7034fe28fd1d42e0a402ccabe989b147203bb48f007f90fb87",
       "normalized_prompt_sha256": "d188ac76bfe1510e5cbef4a3c3e6b4b6d9389bae4b839575d4bf4887ac587eda",
-      "priority": 41,
-      "state": "waiting_for_slot",
+      "priority": 241,
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.5",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -490,7 +491,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
     },
     {
       "id": "S27-S27-part-2",
@@ -499,8 +501,8 @@
       "canonical_block_label": "27 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "231c9fec84c3c40b2e3211f02084e0a93d4ce257b62bee4076dd7dd1fa280a02",
       "normalized_prompt_sha256": "f722174e329942edddf09e9194e58ff16503ae72dbaae3e353c93e846ccb3a92",
-      "priority": 50,
-      "state": "waiting_for_slot",
+      "priority": 250,
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -555,7 +557,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
     },
     {
       "id": "S27-S27-part-3",
@@ -564,8 +567,8 @@
       "canonical_block_label": "27 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "f49ef732031e594efced3dadd08f348d82ecfbd149276725c6c04da87702db58",
       "normalized_prompt_sha256": "913220bba5d5eefaebfa674d693346b0f726f5660235d6b20f612baa2883e9ad",
-      "priority": 51,
-      "state": "waiting_for_slot",
+      "priority": 251,
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -622,7 +625,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
     },
     {
       "id": "S30-S30",
@@ -631,7 +635,7 @@
       "canonical_block_label": "30",
       "canonical_prompt_sha256": "39d16deef2aeeff76e818e670ed320cd24736ddf7d31b0eb91ddd86a91cbf09e",
       "normalized_prompt_sha256": "14d0a7b4ecc6acd61999fa0fe3c84b29b2a6cdcce39ecffd527da25ff7a35af6",
-      "priority": 60,
+      "priority": 260,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -692,7 +696,7 @@
       "canonical_block_label": "31",
       "canonical_prompt_sha256": "1c561b10d4a660e6f17fae6a1899b633d00223c5b5e6cb6445dbebcb2d03b121",
       "normalized_prompt_sha256": "3f4d15c6305d476f13763a92286c81ed192eb0d0fecf97c7f94a1f1166241033",
-      "priority": 61,
+      "priority": 261,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -753,7 +757,7 @@
       "canonical_block_label": "32",
       "canonical_prompt_sha256": "cdf27c5668f4aaafe3b7712a992d9d81947a5ddeb57081d90831a4f46c441962",
       "normalized_prompt_sha256": "cd4fea0ae03c88e93626b3e06de4e441d98346d06f4c457a23e3343a2280b8df",
-      "priority": 62,
+      "priority": 262,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -814,8 +818,8 @@
       "canonical_block_label": "16",
       "canonical_prompt_sha256": "718cee833ba4d24a4ed03e642534a231d6514c10c83896a079777febf7244f3d",
       "normalized_prompt_sha256": "a88a859b89b9b60284d8f8d789661cbcaa882be13a77799fde6d6204bf4b20a9",
-      "priority": 70,
-      "state": "waiting_for_slot",
+      "priority": 270,
+      "state": "blocked_owner_decision",
       "model": "Seedance 2.5",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -881,7 +885,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
     },
     {
       "id": "B3",
@@ -929,6 +934,159 @@
           "role": "continuity_frame",
           "required": true,
           "status": "wait_for_clean_A2_result"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S40",
+      "scene_id": 40,
+      "prompt_id": "S40",
+      "canonical_block_label": "40",
+      "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
+      "normalized_prompt_sha256": "d6313b55f14d8c184a658da2fe8e4923f4b5baa644900284c39e77f829a6b4df",
+      "priority": 100,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B3"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S45",
+      "scene_id": 45,
+      "prompt_id": "S45",
+      "canonical_block_label": "45",
+      "canonical_prompt_sha256": "0a0ed3e5b3188a3f38615ede145edecf5742e50f99cc0e87ca70ac6c70fa3063",
+      "normalized_prompt_sha256": "ef8196822e328f61d29e588d62d3ded380e7d046271c63a9bd02203884f5093e",
+      "priority": 102,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B3"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S46",
+      "scene_id": 46,
+      "prompt_id": "S46",
+      "canonical_block_label": "46",
+      "canonical_prompt_sha256": "091e4d0e85a206d46c2ee2a615e1d48afd1655f35a18f582859bbc017bc5545b",
+      "normalized_prompt_sha256": "1844d61c4a3571700e317e75e70899ef34465b25a00f06c9873152afbd292952",
+      "priority": 103,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "B7",
+        "B8",
+        "B9",
+        "B10",
+        "B3"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
+          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+          "required": true
         }
       ],
       "task_id": null,
@@ -1018,5 +1176,21 @@
     "notification_state": "owner_notified",
     "notified_at": "2026-10-16T07:55:30Z",
     "notification_event": "blocked_browser_global_20261016T0754Z"
-  }
+  },
+  "new_scene_order": [
+    40,
+    43,
+    45,
+    46,
+    41,
+    39,
+    47,
+    44,
+    42,
+    48,
+    49,
+    50,
+    51
+  ],
+  "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun."
 }

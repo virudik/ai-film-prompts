@@ -433,6 +433,28 @@
         "No wrong faces or other arena",
         "No unapproved video launch, deletion, approval or credit spending"
       ]
+    },
+    {
+      "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
+      "title": "Новые референсы и бесплатная очередь 39–51",
+      "status": "in_progress",
+      "verified_at": "2026-10-16T17:22:27.061016+00:00",
+      "done": [
+        "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
+        "40 added first among new scenes; dance prompts untouched."
+      ],
+      "next_actions": [
+        "Recover B7 claim by checking all actual tasks; submit once only through free website.",
+        "Create shared shuttle43/44 reference; extract real39/41/42/47 sources; prepare49–51 refs."
+      ],
+      "canonical_refs": [
+        "references/scenes/scene-45/manifest.json",
+        "references/scenes/scene-46/manifest.json",
+        "ops/topview-launch-queue.json"
+      ],
+      "constraints": [
+        "No automatic approvals, deletions or reruns; zero credits."
+      ]
     }
   ],
   "rules": [

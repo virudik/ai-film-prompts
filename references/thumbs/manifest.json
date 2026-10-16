@@ -792,6 +792,16 @@
    "src_bytes": 267116,
    "thumb_bytes": 20742,
    "src_sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+  },
+  "references/scenes/scene-45/S45-roskotmos-ship-exterior.png": {
+   "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2602753,
+   "thumb_bytes": 52586,
+   "src_sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
   }
  }
 }
