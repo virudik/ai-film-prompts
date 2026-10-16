@@ -1,2 +1,2 @@
-2026-10-16T23:09:14.907896+00:00
-49/51 reference integration and READY queue;50 blocked; no28 prompt changes. master sha256 f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669
+2026-10-16T23:46:26.892168+00:00
+Scene46 exact satelliteABC reference, Image3, manifest and queue SHA; master sha256 0668ab45a62b0ef5a93113bbdf062fd22d37fda3e7382e5c092ddf85879614d1

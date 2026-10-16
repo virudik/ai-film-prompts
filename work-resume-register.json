@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T23:37:40.568447+00:00",
+  "last_updated_at": "2026-10-16T23:46:26.892168+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-16T23:37:40.568447+00:00",
+      "verified_at": "2026-10-16T23:46:26.892168+00:00",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -455,7 +455,8 @@
         "Git readback, Pages master and six new PNGs verified byte-identical; integration recovery tests/sync/Pages success; evidence reports/reference-readiness-2026-10-17.json. Existing hourly queue automation enabled and updated; no new Topview task while all six slots occupied.",
         "Owner17.10 requested durable in-progress handoff checkpoints. Current completed/remaining plan, exact source/task IDs and recovery steps recorded in reports/current-work-checkpoint.md and top handoff block. Live Topview check still six init tasks; no submit.",
         "17.10 full11-board572-video scan:6init, no free slots and no36/37 prompt matches/mapped tasks. Corrected mistaken rerun hold on36/37: restored first authorized submissions at220/221, dances first and37 after36. Full prompt/input hashes checked; no submit.",
-        "Owner repeated full reference task17.10: audited13scenes/40unique existing input files, Git/master/SHA and prompt hashes match; report reference-input-audit-2026-10-17.json. One calmer static-audience image request50 rejected output moderation_blocked again, no image or Topview launch."
+        "Owner repeated full reference task17.10: audited13scenes/40unique existing input files, Git/master/SHA and prompt hashes match; report reference-input-audit-2026-10-17.json. One calmer static-audience image request50 rejected output moderation_blocked again, no image or Topview launch.",
+        "Owner17.10: Scene46 satelliteABC reference created/QC/saved immediately (6249eea), linked as Image3 in master/manifest/queue; prompt hashes updated. All other prompt blocks unchanged; no video generation."
       ],
       "next_actions": [
         "B8 → B9 → B10 as slots free; B3 only after real B2/C28. No duplicate submits.",

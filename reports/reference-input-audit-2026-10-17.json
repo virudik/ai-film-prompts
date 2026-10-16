@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-16T23:36:55.505990+00:00",
+  "checked_at": "2026-10-16T23:46:43.849856+00:00",
   "scope": "Scenes39–51 required available prompt slots; real missing outputs remain blocked; no QC/owner approval invented",
   "scene_count": 13,
-  "unique_available_input_files": 40,
+  "unique_available_input_files": 41,
   "files": [
     {
       "path": "references/full/serega.jpg",
@@ -147,6 +147,13 @@
     {
       "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
       "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
+      "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true

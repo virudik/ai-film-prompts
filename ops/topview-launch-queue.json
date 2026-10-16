@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T23:30:45.479901+00:00",
+  "updated_at": "2026-10-16T23:46:26.892168+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1074,8 +1074,8 @@
       "scene_id": 46,
       "prompt_id": "S46",
       "canonical_block_label": "46",
-      "canonical_prompt_sha256": "091e4d0e85a206d46c2ee2a615e1d48afd1655f35a18f582859bbc017bc5545b",
-      "normalized_prompt_sha256": "1844d61c4a3571700e317e75e70899ef34465b25a00f06c9873152afbd292952",
+      "canonical_prompt_sha256": "c985e36eac92aa8bb729dbfb2e0dbbaae1c2e7b6642c839bc9b1c2fd8e2e9883",
+      "normalized_prompt_sha256": "0b06c501dd5faa40142e373d62efa04e62132031be8c4fb9d3f8cf6ed37480a4",
       "priority": 103,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1104,6 +1104,12 @@
           "slot": "@Image2",
           "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
           "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
+          "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
           "required": true
         }
       ],
