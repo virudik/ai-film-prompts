@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "scene_id": 49,
+  "updated_at": "2026-10-16",
+  "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
+  "status": "DRAFT",
+  "references": [
+    {
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "role": "ensemble_composition",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/yulya.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/sasha.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/ilyusha.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/lesha.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/full/vitalik.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/masha-laguna.webp",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/luchik.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/ryzhik.jpg",
+      "role": "identity",
+      "qc": "preexisting_canonical"
+    }
+  ],
+  "remaining": [
+    "Create instrument-only or selective pose references against exact H28B and individual identity sheets. Each one needs visual QC; never use the five rejected generic arena images.",
+    "Preserve existing character outfits and hangar, then update prompt local @Image mapping after accepted assets exist."
+  ],
+  "approved": [],
+  "rejected": [
+    "Previous mismatched generated pictures of different people/new arena; do not use for identity or location"
+  ],
+  "prompt_reference_mapping": [],
+  "site_published": {
+    "scene_anchor": "#scene-49",
+    "gallery_paths": [
+      "references/scenes/scene-28/H28B-disco.png",
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/full/pasha.jpg",
+      "references/full/sasha.jpg",
+      "references/full/artem.jpg",
+      "references/full/ilyusha.jpg",
+      "references/full/lesha.jpg",
+      "references/full/vitalik.jpg",
+      "references/masha-laguna.webp",
+      "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+      "references/luchik.jpg",
+      "references/ryzhik.jpg"
+    ],
+    "status": "linked_in_master_pending_pages_verification"
+  },
+  "invariants": [
+    "H28B exact location overrides any stylistic wish",
+    "Exact individual character identity from approved canonical references",
+    "No paid or automatic video generation",
+    "DRAFT until individual image QC and explicit READY promotion"
+  ]
+}

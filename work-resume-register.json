@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T12:53:00Z",
+  "last_updated_at": "2026-10-16",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -377,6 +377,34 @@
       ],
       "constraints": [
         "No new Scene ID, no model change, no automatic rerender or paid credits"
+      ]
+    },
+    {
+      "work_id": "FILM-20261016-ALIEN-ROCK-WOOKIEES",
+      "title": "Сцены 49–50: рок-группа и вуки-фанаты",
+      "status": "in_progress",
+      "verified_at": "2026-10-16",
+      "authorization": "Direct owner commands on 16.10.2026: create scene on canonical website FIRST with complete prompts, only then produce reference photos; add a separate Wookiee crowd slam/headbang scene.",
+      "done": [
+        "Prepared Scene 49 with 6 standalone 15-second Seedance 2.0 prompts, canonical H28B and individual identity references",
+        "Prepared Scene 50 with 2 standalone 15-second Seedance 2.0 prompts for Wookiee headbanging and controlled mosh pit",
+        "Added existing real reference gallery only, manifest with pending photo QC, no video render authorization"
+      ],
+      "next_actions": [
+        "Verify newest GitHub Pages deployment for Scenes 49 and 50 and project-status health=ok",
+        "Generate new photos for each music subgroup ONLY using real H28B and approved identities; inspect before saving to GitHub and promote from DRAFT only after QC",
+        "Create and QC Wookiee audience reference in exact H28B, save-before-next; do not queue or launch until READY and owner instruction"
+      ],
+      "canonical_refs": [
+        "video-prompts.md#scene-49",
+        "video-prompts.md#scene-50",
+        "references/scenes/scene-49/manifest.json",
+        "references/scenes/scene-50/manifest.json"
+      ],
+      "constraints": [
+        "No old invented concert arena photos",
+        "No paid/automatic Topview generation",
+        "No changed original faces or wardrobe"
       ]
     }
   ],

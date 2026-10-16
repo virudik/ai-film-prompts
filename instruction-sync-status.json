@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "checked_at": "2026-10-16T12:53:00Z",
+  "checked_at": "2026-10-16",
   "verification_mode": "github_canonical_blob_check",
   "source_of_truth": "github",
   "freshness_max_hours": 48,
@@ -9,14 +9,14 @@
   "files": {
     "NEW-CHAT-HANDOFF.md": {
       "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "github_blob": "3a6921422fe488190211f668e313b32b4fd8023d",
-      "mirror_sha256": "a9953df73cd2c152b918c63453beb6273dbb24f7cd978ce696f1c9e0c66778e7",
+      "github_blob": "6385b4f1cba96e33fffc2d1d76a73b865c86ac47",
+      "mirror_sha256": "a8c33c57fcf7c539c142603275d002d2c7cdc4b9ab568b34a7d0400da68121a5",
       "match": true,
       "drive_copy_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
       "drive_copy_match": false,
       "drive_copy_modified_at": "2026-10-16T08:12:18.394Z",
       "drive_copy_checked_at": "2026-10-16T08:12:30.269Z",
-      "drive_copy_note": "GitHub canonical instruction was updated; Drive read-only backup will be synchronized separately"
+      "drive_copy_note": "GitHub canonical updated, Drive read-only backup may lag."
     },
     "SYNC-RUNBOOK.md": {
       "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",

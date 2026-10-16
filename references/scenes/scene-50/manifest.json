@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "scene_id": 50,
+  "updated_at": "2026-10-16",
+  "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
+  "status": "DRAFT",
+  "references": [
+    {
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "role": "ensemble_composition",
+      "qc": "preexisting_canonical"
+    }
+  ],
+  "remaining": [
+    "Create a physically coherent photo of Wookiee fans in the same H28B with exact ship/imperial-floor geometry, with no band-member replacement; perform QC."
+  ],
+  "approved": [],
+  "rejected": [
+    "Previous mismatched generated pictures of different people/new arena; do not use for identity or location"
+  ],
+  "prompt_reference_mapping": [],
+  "site_published": {
+    "scene_anchor": "#scene-50",
+    "gallery_paths": [
+      "references/scenes/scene-28/H28B-disco.png",
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png"
+    ],
+    "status": "linked_in_master_pending_pages_verification"
+  },
+  "invariants": [
+    "H28B exact location overrides any stylistic wish",
+    "Exact individual character identity from approved canonical references",
+    "No paid or automatic video generation",
+    "DRAFT until individual image QC and explicit READY promotion"
+  ]
+}

@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**25 сцен к генерации/доработке · 46 полных текстов промта**
+**27 сцен к генерации/доработке · 54 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **28** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **16.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **25 актуальных сцен и 46 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 54 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -71,6 +71,8 @@
 | 46 | [Спутники РосКОТмоса сбиты в сражении](#scene-46) | Логотип РосКОТмос; корабль котов из 45 | Шальной огонь и обломки цепочкой ломают три спутника с логотипом; последняя панель с котом-космонавтом кувыркается мимо камеры. DRAFT. |
 | 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. DRAFT до кадра конца 32. |
 | 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 42: червь падает между дуэлянтами, меч Илюши гаснет, модуль Силой летит в руку Канцлера, Серёга уходит в бурю (D6). DRAFT до результата 42. |
+| 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
+| 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. DRAFT до точного постановочного кадра и QC. |
 
 ---
 
@@ -3622,3 +3624,585 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 ```
 
 ---
+
+<a id="scene-49"></a>
+
+## Сцена 49 — Финальные титры: все играют космический рок на инопланетных инструментах
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28}],"tags":["dance_credits","alien_rock_band","imperial_hangar","same_H28B","identity_lock","instrument_ensemble","montage_insert"]} -->
+
+**Контекст использования:** По прямому решению владельца 16.10.2026 — отдельная музыкальная сцена для монтажа вперемешку с танцами Scene 28. Это не новый зал: **тот же самый H28B-disco ангар с имперской эмблемой на полу и шаттлом справа**. Пафосные мини-составы по 2–3 человека, каждый музыкальный клип снимается на 15 секунд с монтажно пригодными 3–6-секундными фрагментами. В конце общий ансамбль 9 взрослых людей + Алеся + Лучик и Рыжик (как утверждено в Scene 28). **DRAFT:** нужны отдельные визуально проверенные фото новых *музыкальных инструментов/постановки* по каждому составу; ни одной генерации Topview не запускать по факту появления текста. Неверные предыдущие AI-картинки отвергнуты: не использовать их как референсы. Внешность брать только из individual identity-файлов и G28-v2, костюмы не менять. Музыка из пользовательской ссылки Яндекс Музыки — ориентир по монтажному настроению; точную композицию в Topview не воспроизводить, синхронизация на монтаже.
+
+**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, **главная неизменная локация**</a> · персональные @Image2–@Image4 — ссылки в соответствующих подсценах · для общего финала @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">утверждённый состав G28 v2</a>. Дополнительные instrument pose-фото будут прикреплены после отдельного визуального QC. Номера @Image локальны каждому copy-paste промту.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="H28B — тот же ангар-танцпол, обязательный фон" loading="lazy"></a><figcaption>H28B — тот же ангар-танцпол, обязательный фон</figcaption></figure>
+<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 v2 — точный состав и костюмы 9+1+2" loading="lazy"></a><figcaption>G28 v2 — точный состав и костюмы 9+1+2</figcaption></figure>
+</div>
+
+**Что происходит:** В ангаре сначала сталкиваются два гитарных соло, затем играют трое ритмистов, затем ударная и тяжёлая секция, Маша Лагуна и крошечная Алеся исполняют космический синтезаторный пассаж, Лучик с Рыжиком серьёзно колотят лапами по кошачьим контроллерам, и вся компания складывается в чересчур пафосный рок-финал. Камера не создаёт новой площадки. Каждый ролик самостоятельный — можно смонтировать «танец → рок-группа → вуки-фанаты → танец».
+
+### 49A · Гитарный дуэт — Серёга и Юля · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — Серёга" loading="lazy"></a><figcaption>@Image2 — Серёга</figcaption></figure>
+<figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. A wildly pompous face-to-face melodic alien-guitar duet. The two rivals radiate serious rock-star grandeur, staged so the editor can cut to the existing Scene 28 choreography.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Серёга (@Image2) — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
+Юля (@Image3) — YULYA, long chestnut hair, exact adult female face; charcoal-black fitted armour, shoulder plates, gloves and long dark cape.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core
+Юля: silver-and-violet four-string alien bass with slim nacelle-like resonator, physical frets and hand-sized body
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+Exactly Серёга, Юля arrive in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — INTRODUCTION
+Inside the familiar exact H28B disco hangar, SEREGA (screen-left) strikes a bright electric-blue lead chord and plants his feet; YULYA (screen-right) answers on her violet bass. Their real faces and original clothes are plainly visible. The unchanged imperial floor circle grounds the perspective.
+
+[0:05–0:10] — RIFF DUEL
+SEREGA physically fingers notes while strumming with his other hand; YULYA picks matching bass notes, staring defiantly back. Colored instrument lights respond only when actually played. One smooth small lateral camera slide, no arbitrary location cut.
+
+[0:10–0:15] — ROCK POWER POSE
+They move two steps toward each other and hit one shared beat with aggressive but controlled head and shoulder movement, raising their instrument necks without colliding. End in a clear triumphal pose with faces readable for 2 seconds.
+
+END STATE:
+All named performers and instruments remain visible and physically stable in the same position within H28B; no costume or face changes. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 49B · Ритм-секция — Паша, Саша и Артём · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/pasha.jpg">Паша</a> · @Image3 = <a href="references/full/sasha.jpg">Саша</a> · @Image4 = <a href="references/full/artem.jpg">Артём</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image2 — Паша" loading="lazy"></a><figcaption>@Image2 — Паша</figcaption></figure>
+<figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="@Image3 — Саша" loading="lazy"></a><figcaption>@Image3 — Саша</figcaption></figure>
+<figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image4 — Артём" loading="lazy"></a><figcaption>@Image4 — Артём</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. A three-person, extremely confident and slightly absurdly majestic rock rhythm break: heavy gravibass, alien electric guitar and orbital-ring percussion.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Паша; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Саша; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image4 — ABSOLUTE CHARACTER IDENTITY: Артём; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Паша (@Image2) — PASHA, adult man in dark navy Jedi tunic with brown belt, dark trousers and high boots; exact adult face and build from his sheet.
+Саша (@Image3) — SASHA, bearded adult man with distinctive round glasses, cream under-tunic and burgundy-brown robe; exact face and glasses.
+Артём (@Image4) — ARTEM, heavier-built bearded man, cream/beige tunic beneath brown outer robe, wide belt and boots, unmodified facial hair.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Паша: heavy bronze gravibass with four distinct amber light-strings, conventional playable fingerboard and solid body
+Саша: compact twin-rail cobalt alien rhythm guitar with glowing pickups and six playable strings
+Артём: standing metallic three-ring kinetic-percussion console struck by two short sticks; amber impact halos, solid supporting stand
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+Exactly Паша, Саша, Артём arrive in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — FOUNDATION
+Three unchanged Jedi performers stand in the exact H28B hangar. PASHA at left lays down a slow heavy four-string bass phrase, SASHA with round glasses takes center on bright cobalt guitar; ARTEM on the right is behind a waist-high three-ring percussion stand. All three props separate.
+
+[0:05–0:10] — ACCELERATION
+The camera makes a steady low-angle sideways tracking shot staying in the same floor geometry. Artëm strikes two actual rings with physical drumsticks; bright amber light pulses follow contact. Sasha's hands remain anatomically consistent and Pasha actually frets and plucks.
+
+[0:10–0:15] — THREE-WAY HIT
+All three exchange one sharp glance and execute an accented final chord and percussion hit simultaneously. Slight robe movement, smoke and existing disco light only; finish with instruments and faces stable and visible.
+
+END STATE:
+All named performers and instruments remain visible and physically stable in the same position within H28B; no costume or face changes. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 49C · Тяжёлый драйв — Илюша, Лёша и Виталик · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/ilyusha.jpg">Илюша</a> · @Image3 = <a href="references/full/lesha.jpg">Лёша</a> · @Image4 = <a href="references/full/vitalik.jpg">Виталик</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="@Image2 — Илюша" loading="lazy"></a><figcaption>@Image2 — Илюша</figcaption></figure>
+<figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image3 — Лёша" loading="lazy"></a><figcaption>@Image3 — Лёша</figcaption></figure>
+<figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image4 — Виталик" loading="lazy"></a><figcaption>@Image4 — Виталик</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. Three different alien instruments create a monumental hard-rock break without changing the already established Jedi costumes.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Илюша; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Лёша; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image4 — ABSOLUTE CHARACTER IDENTITY: Виталик; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Илюша (@Image2) — ILYUSHA, chestnut tousled hair, moustache, olive-green Jedi tunic and deep-red hooded cloak, brown boots.
+Лёша (@Image3) — LESHA, moustache, purple inner tunic under long hooded grey robe, brown belt and pale boots.
+Виталик (@Image4) — VITALIK, broad sturdy adult man in black tunic and dark leather/armour panels, brown trousers, tall boots, exact individual face.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks
+Лёша: black-brass spiral alien wind synthesizer, real curved tube and mouthpiece, turquoise sound-ring at the bell
+Виталик: large black low-frequency bass with orange-red luminous strings and one round sub-bass resonator
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+Exactly Илюша, Лёша, Виталик arrive in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — POWER START
+ILYUSHA sits behind a modest futuristic drum kit slightly rear-center, moustache and red cloak visible. LESHA to screen-left blows a turquoise-glowing spiral wind-synth, physically keeping its mouthpiece at his lips. VITALIK to screen-right starts a huge red-orange bass riff, heavy dark armour unchanged.
+
+[0:05–0:10] — PERCUSSION BUILD
+Drummer hits alternating membranes and a ring cymbal with two visible sticks; the ring flashes after hits, not before. Lesha holds sustained brassy notes while Vitalik bends his knees, visibly picking bass strings. The camera moves closer but stays wide enough for all three.
+
+[0:10–0:15] — MAXIMUM IMPACT
+A 2-second crescendo ends as the drummer lands a double impact, bass drops one emphatic low note and Lesha points his synth's bell upward while continuing to play. The hangar's existing violet/blue wash and orange side-lights flare briefly, then a clean hold.
+
+END STATE:
+All named performers and instruments remain visible and physically stable in the same position within H28B; no costume or face changes. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 49D · Космические синты — Маша Лагуна и Алеся · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/masha-laguna.webp">Маша Лагуна</a> · @Image3 = <a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png">Алеся</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="@Image2 — Маша Лагуна" loading="lazy"></a><figcaption>@Image2 — Маша Лагуна</figcaption></figure>
+<figure><a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" alt="@Image3 — Алеся" loading="lazy"></a><figcaption>@Image3 — Алеся</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. An intentionally overdramatic two-performer instrumental interlude: crystalline resonance harp and small illuminated alien keyboard, preserving the approved Laguna and Ewok designs.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Маша Лагуна; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Алеся; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Маша Лагуна (@Image2) — MASHA LAGUNA, exact blue humanoid face and long light-blue tentacle-like head strands, completely opaque full-length blue costume with smooth enclosed torso, dark head and back details; no exposed body modifications.
+Алеся (@Image3) — ALESYA, very short Ewok-sized character with approved adult human face, brown fur and round ears inside her brown hood, NO spear.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Маша Лагуна: fixed slender silver-and-blue crystalline string-harp, six physically anchored light-arcs plucked by both hands
+Алеся: small stable two-tier amber-violet alien synthesizer on a low stool-height stand, real tactile keys
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+Exactly Маша Лагуна, Алеся arrive in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — CRYSTAL CHORD
+MASHA LAGUNA plays a standing crystalline alien harp, visibly plucking physical taut arc-strings with natural hands; ALEСYA stands lower on the same stage at her actual tiny Ewok height and hits the keys of a stable small alien synthesizer. Masha's opaque blue costume and head tendrils are exact.
+
+[0:05–0:10] — KEYBOARD ANSWER
+In a fixed two-shot, the small Ewok keyboard answers the harp with a rapid ascending phrase; a camera push moves only slightly, never scaling Aleсya up to human height. Both instruments emit synchronized contained colored halos, without magic hologram walls.
+
+[0:10–0:15] — HEROIC HOLD
+Both finish with one matching high musical accent, Aleсya lifting her tiny hands briefly above the keys while Masha makes a restrained regal gesture. Clean 2-second facial and costume hold, same hangar.
+
+END STATE:
+All named performers and instruments remain visible and physically stable in the same position within H28B; no costume or face changes. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 49E · Кошачий ударный дуэт — Лучик и Рыжик · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/luchik.jpg">Лучик</a> · @Image3 = <a href="references/ryzhik.jpg">Рыжик</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image2 — Лучик" loading="lazy"></a><figcaption>@Image2 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image3 — Рыжик" loading="lazy"></a><figcaption>@Image3 — Рыжик</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. Two real unclothed cats become a comically serious percussion duo, while remaining ordinary small domestic cats; no anthropomorphic hands, clothes or standing upright.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — ABSOLUTE CHARACTER IDENTITY: Лучик; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+@Image3 — ABSOLUTE CHARACTER IDENTITY: Рыжик; preserve their exact individual face, proportions and unchanged Scene 28 outfit.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Лучик (@Image2) — LUCHIK, natural small white-and-grey long-haired domestic cat: white muzzle/chest/paws, grey crown and back, exact real fur and cat limbs; no clothes.
+Рыжик (@Image3) — RYZHIK, natural small long-haired orange tabby with darker striped fur and paler chest, exact real cat scale and cat paws; no clothes.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Лучик: low cat-sized broad blue touch-percussion pad, four paw-sized pressure surfaces
+Рыжик: low cat-sized amber touch-percussion pad, three separate circular strike zones
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+Exactly Лучик, Рыжик arrive in a consistent medium-wide shot within H28B, already in playing position with one distinct instrument apiece. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — THE LITTLE STAGE
+Low camera at FLOOR height near the same imperial dance-floor emblem. LUCHIK, white-grey, on left has a low four-pad blue drum controller; RYZHIK, ginger tabby, on right has a separate three-pad amber controller. The cats sit/stand naturally with hind paws on the real floor and front paws on reachable pads.
+
+[0:05–0:10] — PAW GROOVE
+Luc hik strikes two wide pads with alternating natural front paws; Ryzhik answers on his amber pads. Each contact produces a contained pulse. Their natural bodies remain cat-sized, fur consistent; small focused meows and impatient growls punctuate the interaction without speech.
+
+[0:10–0:15] — CAT ROCK FINISH
+Both cats hit a final synchronized beat and look upward in magnificent serious poses as the drum lights fade. Camera makes a tiny floor-level push and keeps paws and original coats sharp and realistic.
+
+END STATE:
+All named performers and instruments remain visible and physically stable in the same position within H28B; no costume or face changes. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Natural cat meows and tiny rhythmic growls permitted between distinct percussion hits; no human words from cats.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 49F · Все музыканты — общий пафосный финал · 15 с
+
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2 — полный ансамбль</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
+<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — утверждённый G28 v2" loading="lazy"></a><figcaption>@Image2 — утверждённый G28 v2</figcaption></figure>
+</div>
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramatic and absurdly pompous, intercuttable with Scene 28 dance. A master-wide shot combining the already established 9+1+2 people/Ewok/cats into one deliberately absurdly pompous cosmic rock-band finale, with accurate approved ensemble geography.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
+@Image2 — approved G28-full-ensemble-Alesya-v2: ABSOLUTE ALL-CAST IDENTITY, original wardrobe, true tiny Ewok and domestic-cat scales, and overall ensemble composition. NOT a reference for new concert props.
+Priority: identity references outrank any new generated composition, @Image1 absolutely locks original hangar; when provided @Image2 is group authority for ALL characters. The alien instruments are newly invented props ONLY, NOT reasons to alter location, character faces or established costumes. Image references are all existing canonical sources.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Серёга — SEREGA, pale older male Chancellor with sparse light hair and a bald crown, reserved mature face, EXACT long dark-purple robe from individual sheet.
+Юля — YULYA, long chestnut hair, exact adult female face; charcoal-black fitted armour, shoulder plates, gloves and long dark cape.
+Паша — PASHA, adult man in dark navy Jedi tunic with brown belt, dark trousers and high boots; exact adult face and build from his sheet.
+Саша — SASHA, bearded adult man with distinctive round glasses, cream under-tunic and burgundy-brown robe; exact face and glasses.
+Артём — ARTEM, heavier-built bearded man, cream/beige tunic beneath brown outer robe, wide belt and boots, unmodified facial hair.
+Илюша — ILYUSHA, chestnut tousled hair, moustache, olive-green Jedi tunic and deep-red hooded cloak, brown boots.
+Лёша — LESHA, moustache, purple inner tunic under long hooded grey robe, brown belt and pale boots.
+Виталик — VITALIK, broad sturdy adult man in black tunic and dark leather/armour panels, brown trousers, tall boots, exact individual face.
+Маша Лагуна — MASHA LAGUNA, exact blue humanoid face and long light-blue tentacle-like head strands, completely opaque full-length blue costume with smooth enclosed torso, dark head and back details; no exposed body modifications.
+Алеся — ALESYA, very short Ewok-sized character with approved adult human face, brown fur and round ears inside her brown hood, NO spear.
+Лучик — LUCHIK, natural small white-and-grey long-haired domestic cat: white muzzle/chest/paws, grey crown and back, exact real fur and cat limbs; no clothes.
+Рыжик — RYZHIK, natural small long-haired orange tabby with darker striped fur and paler chest, exact real cat scale and cat paws; no clothes.
+Every person retains approved age, face, hair, original outfit and human anatomy. No face blending or character substitutions. No children added. Natural cats remain small, uncostumed cats.
+
+LOCATION / PROP / SCALE LOCK — CRITICAL:
+Same exact H28B-disco from Scene 28, on the same floor, at the same shuttle and imperial insignia; never replace with another arena, cathedral, stadium, balcony, spaceship bridge or neon planet vista. Instrument design must be physically rigid and PLAYABLE: precise hand/paw interaction, visible strings/keys/membranes, stable prop continuity through every cut. Assigned instruments: 
+Серёга: blue-ringed black-metal alien lead guitar, six clearly defined taut luminous strings, one physical neck and resonant blue energy core; Юля: silver-and-violet four-string alien bass with slim nacelle-like resonator, physical frets and hand-sized body; Паша: heavy bronze gravibass with four distinct amber light-strings, conventional playable fingerboard and solid body; Саша: compact twin-rail cobalt alien rhythm guitar with glowing pickups and six playable strings; Артём: standing metallic three-ring kinetic-percussion console struck by two short sticks; amber impact halos, solid supporting stand; Илюша: compact futuristic drum kit with blue-edged rigid drum membranes, one kick drum and two ring-cymbals; real sticks; Лёша: black-brass spiral alien wind synthesizer, real curved tube and mouthpiece, turquoise sound-ring at the bell; Виталик: large black low-frequency bass with orange-red luminous strings and one round sub-bass resonator; Маша Лагуна: fixed slender silver-and-blue crystalline string-harp, six physically anchored light-arcs plucked by both hands; Алеся: small stable two-tier amber-violet alien synthesizer on a low stool-height stand, real tactile keys; Лучик: low cat-sized broad blue touch-percussion pad, four paw-sized pressure surfaces; Рыжик: low cat-sized amber touch-percussion pad, three separate circular strike zones
+Any instrument light is a small physical effect; DO NOT morph instruments into light swords, extra limbs or unknown faces. All characters remain inside the already established 3D layout and its scale.
+
+START STATE:
+The canonical full Scene 28 ensemble from @Image2 stands in the actual H28B dance-floor positions, now holding believable assigned alien instruments. The camera sees enough of floor architecture to register the SAME hangar; this is a separate concert insert for the Scene 28 montage.
+
+TIMELINE:
+[0:00–0:05] — FULL BAND REVEAL
+Match the exact lineup of @Image2, nine existing people, tiny Aleсya and two ordinary-sized cats, all standing on the unchanged H28B hangar dance floor; maintain their true faces/costumes and relative sizes. The ensemble holds their individual alien instruments in visually plausible positions. No new musicians.
+
+[0:05–0:10] — SYNCHRONIZED ROCK ACCENT
+One grand synchronized musical beat: forward-row guitarists strike, back-row instrumentalists play, little Aleсya operates a low keyboard and the two cats paw their small drums at floor level. Camera moves forward only slightly at mid-height, never fly-throughs or identity-swapping cuts.
+
+[0:10–0:15] — STADIUM FINISH
+One collective pose timed to a huge ending chord: guitars angled upward, hands still on playable instruments, the cats lifting their heads, bright existing lights and a trace of haze. Hold a 2-second clean wide frame so the montage can cut to the Scene 28 dance.
+
+END STATE:
+The exact full lineup remains visibly recognizable in a clean wide performance pose, no new figures or changed stage. Hold last 1–2 seconds for cut to an imperial dance shot.
+
+CAMERA / SPACE:
+One continuous 15s cinematic performance shot with a small controlled dolly or one physically possible composition change as described; steady 28–50mm lens feeling, dramatic low-angle only without losing faces, no fast orbit through people or changing screen sides. Preserve the fixed direction of hangar entrance and shuttle (frame-right) for montage continuity. No external aerial establishing shot. Every player occupies a consistent spot.
+
+PERFORMANCE:
+Extremely confident, overly dramatic hard-rock stage attitude, strong deliberate musical accents and synchronized rhythm, but credible hand/instrument physics. Expressions proud, intense and slightly comically solemn; never switch into a different dance, mug for camera or become passive statues. Realistic robe/cape movement.
+
+LIGHTING / MATERIALS:
+Exact Scene 28 industrial hangar with bluish and magenta disco lighting and isolated amber practical sources. Modest stage haze, textured old metal panels, real reflective floor, existing shuttle and distant stars. Sculptural glowing instruments add local light only; no giant stage, skyscraper, unrelated planets or redesign.
+
+AUDIO:
+Native temporary original instrumental hard-rock groove only: distinct crunchy guitar, deep bass, thudding percussion and futuristic synthesizer timbres synchronized precisely with fingers/paws. Avoid any recognizable published melody, no licensed track recreation. Room reverberation of same hangar; this audio is a guide and may be replaced during editing to the owner's chosen song.
+
+DIALOGUE / VOCALS:
+No spoken dialogue, lyrics, stage announcements or human singing. Only natural exertion, breath and faint cheers from any distant existing onlookers if present.
+
+NEGATIVE PROMPT:
+Wrong people or faces, new human performers, different hangar, new huge concert arena, incorrect clothes, mutated anatomy, duplicated fingers/paws, changing character count, impossible instrument playing, swapped or liquefied instruments, excessive holograms, identity blending, stretched adult-sized Ewok, giant cats, floating cats, cartoon render, CGI plastic look, poster, collage, split-screen, montage cuts, readable signs, subtitles, camera shake, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+---
+
+<a id="scene-50"></a>
+
+## Сцена 50 — Финальные титры: вуки-фанаты слэмятся и трясут гривами
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49}],"tags":["dance_credits","wookiee_crowd","rock_headbang","safe_mosh_pit","same_H28B","montage_insert"]} -->
+
+**Контекст использования:** Дополнительная зрительская сцена по прямому решению владельца 16.10.2026. **В той же H28B-ангар-дискотеке** толпа вуки восторженно фанатеет от группы из Scene 49 и энергично трясёт шерстью как хэви-метал фанаты. Два **самостоятельных** коротких 15-секундных монтажа: (50A) волна хедбэнга; (50B) дружелюбный контролируемый слэм в небольшом круге. Для дальнейшего монтажа вместе с танцами Scene 28 и музыкантами Scene 49. **DRAFT:** до READY подготовить настоящий постановочный кадр вуки в H28B и пройти QC ракурсов / толпы; опубликованные ref-изображения ниже только существующие канонические файлы, новые не выдуманы. Ни Topview-запуска, ни решения о приёмке пока нет.
+
+**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, точная локация</a>; @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только знакомые участники группы на дальнем плане</a>, **не заменять их вуки**. Вуки — отдельные зрители, а не новые члены основной группы.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — неизменный ангар-дискотека" loading="lazy"></a><figcaption>@Image1 — неизменный ангар-дискотека</figcaption></figure>
+<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — состав группы, только фоновые участники" loading="lazy"></a><figcaption>@Image2 — состав группы, только фоновые участники</figcaption></figure>
+</div>
+
+**Что происходит:** Несколько десятков высоких лохматых вуки на танцполе смотрят на группу и радостно рычат, раскачивают длинную шерсть и головы в тяжёлом рок-ритме, вскидывают лапы, а потом устраивают небольшой дружелюбный слэм-круг без травм и агрессивной драки. Танцы, рок-концерт и кадры фанатов монтируются вперемешку. Только та же просторная площадка и свет Scene 28.
+
+### 50A · Стена грив — радостный хедбэнг · 15 с
+
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a>.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED CROWD OF WOOKIEE FANS intensely enjoying the alien rock band in the same Scene 28 hangar. First fan-wave: synchronized headbanging.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
+@Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
+Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
+
+LOCATION / CROWD SAFETY LOCK — CRITICAL:
+The exact original H28B disco hangar; floor emblem remains fixed and the ship is STILL at frame-right. Audience fills the actual open space IN FRONT of the existing group performing at the back of the same hall. Do NOT create a new raised concert stage or move the group or shuttle. All contact is controlled playful dance-crowd shoulder-to-shoulder bouncing; no injury, crush, fall, impact against architecture or knocked-over children/cats. Plenty of plausible standing space between Wookiees.
+
+START STATE:
+From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. The front rows are ready to catch a huge downbeat, elbows and claws kept clear.
+
+TIMELINE:
+[0:00–0:05] — THE WALL OF FUR
+Medium-wide side/front view of 8–12 distinguishable Wookiee fans near the camera, with additional fans in depth; their massive shaggy heads bend forward and their long hair SWINGS down naturally in the first synchronized beat. Real faces/muzzles are briefly visible between swings.
+
+[0:05–0:10] — THE HEADBANG WAVE
+A visible ROCK HEADBANG WAVE crosses the crowd from screen-left to screen-right. Each Wookiee sharply nods neck and shoulders on a repeated rhythmic beat while thick fur strands continue with plausible inertia. Some raise one arm toward the distant band, some stomp in place; no random jumping teleportation.
+
+[0:10–0:15] — FULL THROTTLE
+A heroic low-angle close/medium shot on a front-row pair: they roar with enthusiasm, pump their arms once and perform two tight synchronized headbangs. The rest remain visible behind them; end on a wide rhythmic beat with a 2-second hold.
+
+END STATE:
+All Wookiee fans are safe, upright and still excited, with natural fur inertia settling in the same location. The band remains beyond them, never substituted by Wookiees. Hold a sharp visually cuttable finish into the Scene 49 band or Scene 28 dance.
+
+CAMERA / SPACE:
+One continuous physically consistent shot in the SAME H28B hall. Moderate eye-level dolly that ends slightly lower on the lead two fans. Keep the floor, walls, stage zone and fixed shuttle consistent. No stadium, canyon, forest, balcony or cosmic floating platform. Fur motions must respect gravity and real body mass.
+
+PERFORMANCE:
+Maximum exaggerated adoration and happy hard-rock energy: natural Wookiee roaring and waving, rhythmic headbangs, stomps and compact coordinated bouncing. Distinct facial reactions, shoulders, hands, heads and shaggy mane all physically coordinated. Slamming is enthusiastic dancing, not a fight. No aggressive attacks or collisions at head level.
+
+LIGHTING / MATERIALS:
+Same approved Scene 28 magenta, blue and amber disco spotlights moving on real metal/fur surfaces; the same floor reflections, controlled haze and industrial lamps. Dense detailed authentic fur with physically believable strand movement.
+
+AUDIO:
+Deep cheers and distinct Wookiee growls, happy roars, claps, footfalls and a distant original heavy rock beat spilling over from the band. Rhythmic whooshes of their fur movement; no recognizable copyrighted song recreated. Final musical match occurs in CapCut edit.
+
+DIALOGUE / VOCALS:
+Wookiee roars and growls only. No spoken languages, narrators, chant lyrics, subtitles, voiceover or identifiable lines from a known film.
+
+NEGATIVE PROMPT:
+Wrong hangar, invented concert arena, different dance floor, new shuttle, missing imperial emblem, crowd of humans, bear suits, cartoon fur, cloned heads, giant mismatched monsters, band members replaced by Wookiees, violent fight, injuries, crowd crush, stampede, broken equipment, furry limbs morphing, invisible legs, duplicated fingers, temporal flicker, teleporting audience, aggressive mosh punches, camera warp, subtitles, music lyrics, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 50B · Вуки-слэм — праздничный круг · 15 с
+
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a>.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED CROWD OF WOOKIEE FANS intensely enjoying the alien rock band in the same Scene 28 hangar. Second fan-wave: controlled, playful heavy-metal mosh pit.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
+@Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
+Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
+
+LOCATION / CROWD SAFETY LOCK — CRITICAL:
+The exact original H28B disco hangar; floor emblem remains fixed and the ship is STILL at frame-right. Audience fills the actual open space IN FRONT of the existing group performing at the back of the same hall. Do NOT create a new raised concert stage or move the group or shuttle. All contact is controlled playful dance-crowd shoulder-to-shoulder bouncing; no injury, crush, fall, impact against architecture or knocked-over children/cats. Plenty of plausible standing space between Wookiees.
+
+START STATE:
+From a camera placed behind/among the Wookiee audience looking toward the established band area in H28B, dozens of tall fur-covered Wookiee rock fans stand in a crowded but traversable dance-floor sector. An open circular pocket in the crowd is beginning to form as two safe groups dance toward one another.
+
+TIMELINE:
+[0:00–0:05] — OPEN THE PIT
+A handful of exuberant adult Wookiee fans create a small circular open dance pocket on the same familiar disco floor, raising arms and nodding heads to the offscreen band's rhythm. Camera keeps both participants and recognizable H28B architecture visible.
+
+[0:05–0:10] — PLAYFUL MOSH
+A contained circle pit begins: four to six Wookiees bounce shoulder-to-shoulder lightly and safely, veering off one another, with a clear open perimeter. Fur whips with inertial motion as they headbang. One enthusiastic fan helps another keep balance; no aggression, no falls.
+
+[0:10–0:15] — MASSIVE FINISH
+The whole surrounding group stomps a synchronized final downbeat and throws their long manes forward and back. One Wookiee makes a triumphant guttural rock cheer; end in a stable wide shot clearly showing the unchanged hangar and crowd.
+
+END STATE:
+All Wookiee fans are safe, upright and still excited, with natural fur inertia settling in the same location. The band remains beyond them, never substituted by Wookiees. Hold a sharp visually cuttable finish into the Scene 49 band or Scene 28 dance.
+
+CAMERA / SPACE:
+One continuous physically consistent shot in the SAME H28B hall. Wide master view of the compact circular pit with a gentle shoulder-height orbit of at most 30 degrees, no teleporting. Keep the floor, walls, stage zone and fixed shuttle consistent. No stadium, canyon, forest, balcony or cosmic floating platform. Fur motions must respect gravity and real body mass.
+
+PERFORMANCE:
+Maximum exaggerated adoration and happy hard-rock energy: natural Wookiee roaring and waving, rhythmic headbangs, stomps and compact coordinated bouncing. Distinct facial reactions, shoulders, hands, heads and shaggy mane all physically coordinated. Slamming is enthusiastic dancing, not a fight. No aggressive attacks or collisions at head level.
+
+LIGHTING / MATERIALS:
+Same approved Scene 28 magenta, blue and amber disco spotlights moving on real metal/fur surfaces; the same floor reflections, controlled haze and industrial lamps. Dense detailed authentic fur with physically believable strand movement.
+
+AUDIO:
+Deep cheers and distinct Wookiee growls, happy roars, claps, footfalls and a distant original heavy rock beat spilling over from the band. Rhythmic whooshes of their fur movement; no recognizable copyrighted song recreated. Final musical match occurs in CapCut edit.
+
+DIALOGUE / VOCALS:
+Wookiee roars and growls only. No spoken languages, narrators, chant lyrics, subtitles, voiceover or identifiable lines from a known film.
+
+NEGATIVE PROMPT:
+Wrong hangar, invented concert arena, different dance floor, new shuttle, missing imperial emblem, crowd of humans, bear suits, cartoon fur, cloned heads, giant mismatched monsters, band members replaced by Wookiees, violent fight, injuries, crowd crush, stampede, broken equipment, furry limbs morphing, invisible legs, duplicated fingers, temporal flicker, teleporting audience, aggressive mosh punches, camera warp, subtitles, music lyrics, watermarks, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+---
+
