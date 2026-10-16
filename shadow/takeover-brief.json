@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T15:48:58+00:00",
+ "generated_at": "2026-10-16T17:23:57+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "4594b9a78ae69749205ebe3ff130a5fc7ba005ed589f59f6ee1a960500d462c3",
-   "bytes": 585999
+   "sha256": "848f4edba53857e99242b6dbd0e8701d88185ba4c8f92d34a4431f46c0d66178",
+   "bytes": 587032
   }
  ],
  "invariants": [
@@ -704,7 +704,7 @@
    "id": 45,
    "title": "Корабль котов в стиле РосКОТмоса: космическое сражение снаружи",
    "target_engine": "Wan 3",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
@@ -718,14 +718,14 @@
     "@Image3"
    ],
    "offset": 392669,
-   "chars": 8928,
-   "sha256_12": "de4f5956a8df"
+   "chars": 9315,
+   "sha256_12": "de6179fb51eb"
   },
   {
    "id": 46,
    "title": "Спутники РосКОТмоса сбиты в сражении",
    "target_engine": "Wan 3",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
@@ -737,9 +737,9 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 401597,
-   "chars": 7009,
-   "sha256_12": "8c867a5eac85"
+   "offset": 401984,
+   "chars": 7527,
+   "sha256_12": "5ef0bcc25ca7"
   },
   {
    "id": 47,
@@ -760,7 +760,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 408606,
+   "offset": 409511,
    "chars": 9267,
    "sha256_12": "bfeace9a7862"
   },
@@ -784,7 +784,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 417873,
+   "offset": 418778,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -806,7 +806,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 427998,
+   "offset": 428903,
    "chars": 49446,
    "sha256_12": "d2105a04b192"
   },
@@ -827,7 +827,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 477444,
+   "offset": 478349,
    "chars": 14695,
    "sha256_12": "dd8303bdf75f"
   },
@@ -851,7 +851,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 492139,
+   "offset": 493044,
    "chars": 14355,
    "sha256_12": "52641527ab79"
   }
