@@ -2,18 +2,18 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-16T10:44:55+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-16T10:50:46+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 51332 B · `cefd71acda9b6cb2`
-- SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 108641 B · `97f79bf13f2224a4`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 53608 B · `fab86519d4b61eec`
+- SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 111258 B · `e91ed1c353c14700`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 64207 B · `d6daec3b31b39065`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 73734 B · `ac9860171bfe57a5`
-- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 69943 B · `b6d7e18e01f4f369`
+- USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 71771 B · `13362dfc7621e1f0`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26963 B · `fd675db34520e2a0`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
 - video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 470355 B · `8db5d766b467d566`
@@ -88,4 +88,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (29586 симв., sha `d8575fa55ed5`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (30862 симв., sha `fd1aa72381fe`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
