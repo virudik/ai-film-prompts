@@ -455,11 +455,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Wan 3.0 task `57b6f3aac4804d2486721131e30640f6` технически завершён 12.10.2026 10:41:28 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Прямое продолжение исправленной Scene 24. Те же коты и **тот же exact cockpit @Image4** без redesign: RYZHIK остаётся слева в кадре у навигации/оружия, LUCHIK справа пилотирует. Оба кота сохраняют обычный домашний масштаб и читаются лицами. Всё сражение видно изнутри того же тёплого жилого корабля.
+**Контекст использования:** Прямое продолжение исправленной Scene 24. **@Image4 остаётся главным точным референсом кабины и её тёплого интерьера**; новый кадр владельца **@Image5** дополняет его только задним ракурсом и видом космического боя через переднее окно. **Физические кресла и роли не менять:** при съёмке *спереди* Рыжик визуально слева, Лучик справа; при съёмке *со спины* Лучик слева, Рыжик справа. Корабль строго летит **носом вперёд в сторону боя**, не задним ходом. Оба кота нервно мяукают, шипят и рычат друг на друга, активно управляя кораблём, без человеческой речи.
 
 **Правка 16.10.2026:** «canopy» в таймлайне и CAMERA заменено на «windows/viewports» (cockpit lock запрещает bubble canopy); механическая чистка по `reports/prompt-audit-2026-10.md` §4, смысл сцены не менялся. Прежние запуски шли по предыдущей редакции, она дословно в истории git.
 
-**Референсы:** @Image1 = парный continuity reference котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **APPROVED EXACT COCKPIT / COMPOSITION reference**, тот же что в Scene 24. Финальный кадр Scene 24 можно добавить как дополнительный start continuity reference только если он реально доступен; он не переопределяет @Image4.
+**Референсы:** @Image1 = парный continuity reference котов · @Image2 = **Лучик**, точный индивидуальный identity reference · @Image3 = **Рыжик**, точный индивидуальный identity reference · @Image4 = **PRIMARY APPROVED EXACT COCKPIT / COMPOSITION**, тот же что Scene 24 · @Image5 = **SECONDARY owner-provided REAR VIEW / FORWARD WINDOWS / BATTLE-ORIENTATION reference** (новый кадр). @Image5 не имеет права менять @Image4-интерьер и индивидуальную внешность @Image2–3. Финальный кадр Scene 24 можно использовать для continuity при наличии.
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
@@ -470,9 +470,10 @@ Wan 3.0 task `57b6f3aac4804d2486721131e30640f6` технически завер�
 **Референсы локации, композиции и действия:**
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — точная тёплая кабина; историческое имя Image3" loading="lazy"></a><figcaption>@Image4 — точная тёплая кабина; историческое имя Image3</figcaption></figure>
+<figure><a href="references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp" target="_blank" rel="noopener"><img src="references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp" alt="@Image5 — кадр владельца, вид со спины: космический бой строго за передним окном" loading="lazy"></a><figcaption>@Image5 — вид со спины, направление вперёд и бой за передним окном (референс владельца, только ориентация)</figcaption></figure>
 </div>
 
-**Что происходит:** Через окна **той же кабины @Image4** видно плотное космическое сражение. LUCHIK справа в кадре резко, но физически правдоподобно уклоняет корабль от огня; RYZHIK слева ведёт навигацию, переключает щиты и стреляет. Интерьер, свет, масштаб кресел и обычный кошачий размер не меняются.
+**Что происходит:** Корабль **летит вперёд носом к бою**. Сквозь передние окна кабины с правильным параллаксом видны враги, трассеры, взрывы и сближение объектов по курсу. Короткий кадр со спины по @Image5 показывает направление полёта и работу обоих котов; остальные крупные/фронтальные ракурсы сохраняют прежнюю кабину @Image4 и узнаваемые морды. Лучик активно уклоняет корабль от огня, Рыжик отслеживает цели, щиты и оружие. Оба напряжённо и адресно мяукают, шипят и порыкивают друг на друга, реагируя на угрозы. Нет перестановки кресел, полёта задом или redesign интерьера.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -482,48 +483,49 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — PAIR CONTINUITY reference for the recurring cat pair.
 @Image2 — ABSOLUTE INDIVIDUAL IDENTITY reference for LUCHIK / ЛУЧИК: fluffy white-and-grey long-haired cat with white muzzle/chest/legs and grey crown/facial/back markings; PILOT; recurring BLUE lightsaber identity.
 @Image3 — ABSOLUTE INDIVIDUAL IDENTITY reference for RYZHIK / РЫЖИК: fluffy ginger long-haired tabby cat with warm orange coat, darker tabby striping and lighter muzzle/chest; NAVIGATOR / WEAPONS; recurring GREEN lightsaber identity.
-@Image4 — PRIMARY EXACT COCKPIT / STAGING reference, identical to Scene 24. Preserve its warm amber practical lighting, dense physical controls, visible rear-cabin depth, seat/console proportions, camera family and frame-left/frame-right placement.
-Priority: @Image4 controls cockpit environment/composition. @Image2/@Image3 control identity. @Image1 supports pair continuity.
+@Image4 — PRIMARY EXACT COCKPIT / STAGING reference, identical to Scene 24. Preserve warm amber practical lighting, dense physical controls, rear-cabin depth, existing forward windows, exact panel/seat proportions and material layout.
+@Image5 — SECONDARY OWNER-SUPPLIED REAR-VIEW / FORWARD-FLIGHT ORIENTATION reference: both cats seen from behind operating the consoles, the FRONT windows pointing into space, clear forward view of space combat. Use ONLY for spatial forward axis, rear camera staging, cat gestures and forward exterior battle visibility. Do not copy its different cockpit surfaces, panel design or lighting when these disagree with @Image4.
+Priority: @Image2/@Image3 absolutely control individual cat identities; @Image4 controls exact cockpit environment and physical seats; @Image5 controls forward/rear view axis and combat through front windows; @Image1 supports pair continuity. The added image is not a license to redesign any existing asset.
 
 COCKPIT / SCALE LOCK — CRITICAL:
 Use the exact same warm lived-in @Image4 cockpit from Scene 24.
-RYZHIK remains on the LEFT SIDE OF FRAME at tactical/navigation systems; LUCHIK remains on the RIGHT SIDE OF FRAME at the pilot controls.
-Both remain ordinary adult domestic-cat scale relative to chairs and consoles; no giant or half-human cats.
+PHYSICAL SEATS NEVER CHANGE: RYZHIK stays the navigator/weapons operator, LUCHIK stays the pilot. From the existing FRONT/FACE-VISIBLE CAMERA they appear RYZHIK FRAME-LEFT and LUCHIK FRAME-RIGHT. In the short REAR CAMERA view @Image5, their SCREEN positions are necessarily REVERSED: LUCHIK FRAME-LEFT, RYZHIK FRAME-RIGHT. This change of camera axis MUST NOT be interpreted as a seat swap, cat swap or reverse flight.
+Both remain ordinary adult domestic-cat scale relative to chairs and consoles; no giant or half-human cats. The craft always travels NOSE-FIRST through its forward windows toward the threat.
 
 START STATE:
-Begin as a direct continuation of Scene 24 after takeoff. The ship is already in forward flight. Both cats are clearly visible from the front/three-quarter front in the same cockpit geometry and the first signs of a larger battle appear outside.
+Begin as a direct continuation of Scene 24 after takeoff, in its original face-readable front/three-quarter view. The ship is already flying FORWARD, NOSE-FIRST. Enemy vessels and weapons fire become visible through the ship's existing FORWARD windows. Establish the cockpit physical geometry and both cats before briefly changing to the @Image5-inspired rear look-forward view.
 
 TIMELINE:
 [0:00–0:06] — BATTLE ARRIVAL
-Fighters cross the view through the forward windows at different depths. Distant capital ships exchange fire. LUCHIK leans into the controls and aligns the craft with a safe route. RYZHIK switches the tactical display from navigation to combat.
+Enemy fighters APPROACH THROUGH THE FRONT WINDOWS ahead of the ship and grow larger with decreasing distance, then slip rearward toward the window edges as the ship passes them; distant capital ships exchange fire. Never show starfield approaching from behind or objects sliding as if the craft moves backward. LUCHIK makes tense, definite steering corrections; RYZHIK changes the tactical display from navigation to combat and gives a sharp alarmed meow.
 
 [0:06–0:13] — FIRST EVASION
-Incoming fire crosses ahead. LUCHIK makes one clean bank and controlled dive/roll with believable inertia. Exterior starfield and ships rotate consistently through the windows. RYZHIK braces naturally and adjusts shields.
+A brief @Image5-inspired camera angle FROM BEHIND BOTH CATS looks through the FRONT WINDOWS into the battle along the ship's forward heading. The cockpit furniture remains @Image4. Incoming laser fire crosses AHEAD, not behind. LUCHIK makes an urgent but physically coherent bank and controlled dive with real inertia, paws on flight controls. RYZHIK braces, taps shields, hisses in alarm at LUCHIK; LUCHIK answers with an impatient short growl. Starfield, nearby ships and debris shift with consistent forward parallax, never backward flight.
 
 [0:13–0:20] — RETURN FIRE
-RYZHIK acquires a target and deliberately activates weapons. Short controlled bursts fire forward from the ship; one enemy craft ahead is hit or forced away. LUCHIK maintains the flight path and does not abandon the controls.
+Return to a face-readable interior angle close to @Image4. RYZHIK rapidly identifies an enemy target AHEAD and triggers controlled forward fire. An enemy ship ahead is struck or evades. RYZHIK makes an excited strained meow; LUCHIK growls back while continually steering and maintaining their course. No paws float or change roles.
 
 [0:20–0:26] — THREAD THE FIGHT
-The ship passes between a larger vessel and drifting debris with clear depth and safe clearance. A nearby explosion briefly lights the cockpit, but does not white-out the frame. LUCHIK corrects course; RYZHIK rapidly checks another system.
+Brief rear-to-front cockpit view reinforces that the ship is MOVING FORWARD between a larger vessel and debris with clear depth and safe clearance. Outside objects loom at the FRONT, sweep toward the SIDES, and disappear toward the REAR as the ship flies past. A nearby forward explosion lights fur and metal but does not white-out the image. LUCHIK actively corrects course; RYZHIK furiously checks shields and vocalizes a worried hiss/meow.
 
 [0:26–0:30] — BREAK THROUGH
-LUCHIK accelerates through an opening in the battle formation. RYZHIK looks forward with focused satisfaction while keeping one paw on the tactical controls. End with the craft still in combat, ready for the next exterior or narrative shot.
+LUCHIK accelerates forward THROUGH the visible opening in the enemy formation, never backing away, making one last steering input. RYZHIK tracks incoming fighters, growls and gives an urgent meow to LUCHIK while adjusting weapons. Both remain under combat stress, actively reacting to forward external threats. End still flying forward in combat, from an interior angle showing familiar cat faces and the same cockpit.
 
 CAMERA / SPACE:
-Camera remains inside the cockpit for the full scene, but stays compositionally close to @Image4 rather than settling into a back-only angle. Both cat faces remain readable for most of the scene.
-No exterior cutaway. Cockpit geometry stays fixed; all external movement is visible through the windows/viewports with correct parallax. Motion follows ship physics: mass, inertia, no instantaneous 180-degree turns, no starfield teleport.
+Camera stays WITHIN the fixed @Image4 cockpit, with face-readable front/three-quarter coverage for MOST of the clip. For two short decisive views only (during FIRST EVASION and THREAD THE FIGHT), move the camera logically INSIDE THE CABIN behind both cats, using @Image5 as rear-angle framing guidance: FORWARD windows and battle are in front of the cat crew. Switches are physically motivated cuts within the SAME cockpit, never a reversal of flight, cat seat exchange or newly invented cockpit. Exterior craft and debris approach through forward windows, expand, slide outward and recede past the sides as our ship overtakes them; visible speed and parallax consistent with NOSE-FIRST flight.
+No exterior camera cutaway; no generic bubble canopy or new rear window. No instantaneous 180-degree turns, no rearward starfield teleport, no motion that implies reverse thrust. Cockpit geometry, lighting, interfaces and control layout remain locked to @Image4.
 
 PERFORMANCE:
-Competent, angry-focused Jedi-cat crew rather than slapstick animals. LUCHIK actively flies; RYZHIK actively navigates/fires. Natural ear movement, blinking and body lean under G-forces. No dialogue and no random meowing.
+Competent, tightly stressed Jedi-cat crew, not slapstick animals. LUCHIK continuously PILOTS: fast purposeful paw movement on flight controls, tense ears, head turns toward approaching ships, lean under G-forces, quick corrections synchronized with visible incoming fire. RYZHIK continuously NAVIGATES/FIRES: rapid purposeful paw inputs on shields, target acquisition, weapons and warning readouts, matching visual threats. In the heat of battle the cats EXCHANGE DISTINCT NATURAL FELINE VOCALIZATIONS: worried short meows, urgent hisses and low irritated growls addressed to one another as if communicating danger. They interrupt each other and react immediately to maneuvers, weapon strikes and close calls. Audible animal sounds only, no human words, no random constant yowling. Identity and body proportions never change.
 
 LIGHTING / VFX:
 Exterior battle flashes cast brief motivated reflections on fur and metal. Weapon bolts and engines retain stable colors and geometry. Avoid giant lens flares, oversaturated neon and screen-filling explosions.
 
 AUDIO:
-Cockpit engine tone, alert beeps, weapon charging/firing, shield impact, hull creaks, distant muffled explosions, rapid control clicks. No spoken dialogue, narrator or music.
+Continuous cockpit engine tone, escalating urgent alerts, weapon fire, shield hits, hull strain, distant battle explosions and real control clicks. Up-front natural cat performance: distinct stressed meows, startled hisses and short warning growls from LUCHIK and RYZHIK, alternating/replying to each other precisely as they react to visible events. Balance cat vocals above engine bed but below major danger transients. No human voice, speech, subtitles, narrator or music.
 
 NEGATIVE PROMPT:
-wrong cockpit, cockpit redesign, generic fighter canopy replacing @Image4, cold blue cockpit, missing rear-cabin depth, frame-left/frame-right swap, RYZHIK on frame-right, LUCHIK on frame-left, giant cats, half-human cats, oversized cats relative to seats, hidden cat, back-only cat framing, role swap, identity swap, duplicated cats, extra cats, human hands, humanoid faces, cockpit morphing, seats moving, external camera cut, impossible ship rotation, teleporting stars, duplicated ships, random explosions inside cockpit, weapons firing backward, floating paws, broken controls, excessive camera shake, white flash transition, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
+wrong cockpit, cockpit redesign, generic fighter canopy replacing @Image4, cold blue cockpit, missing rear-cabin depth, PHYSICAL seat swap, FRONT-VIEW RYZHIK on frame-right, FRONT-VIEW LUCHIK on frame-left, REAR-VIEW RYZHIK on frame-left, REAR-VIEW LUCHIK on frame-right, giant cats, half-human cats, oversized cats relative to seats, hidden cat, back-only cat framing, role swap, identity swap, duplicated cats, extra cats, human hands, humanoid faces, cockpit morphing, seats moving, external camera cut, impossible ship rotation, teleporting stars, reverse flight, drifting backward through a forward window, forward combat mysteriously behind the ship, starfield moving as if reversing, duplicated ships, random explosions inside cockpit, weapons firing backward, silent cats, human speech from cats, floating paws, broken controls, excessive camera shake, white flash transition, cartoon, anime, game-render look, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

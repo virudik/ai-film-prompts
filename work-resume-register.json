@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T07:54:07.176652Z",
+  "last_updated_at": "2026-10-16T12:53:00Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -352,6 +352,31 @@
           "next_ready_item": "B7",
           "no_submit_attempted": true
         }
+      ]
+    },
+    {
+      "work_id": "FILM-20261016-S25-FORWARD-BATTLE",
+      "title": "Scene 25: окно, бой по курсу, нервные коты",
+      "status": "completed",
+      "verified_at": "2026-10-16",
+      "authorization": "Explicit owner request 16.10.2026 to add supplied frame to site and amend Scene 25 prompt",
+      "done": [
+        "Owner source preserved as web-optimized scene25 rear-forward window reference, exact cockpit @Image4 kept authoritative",
+        "Canonical Scene25 prompt revised for forward flight, camera-side identity continuity and feline combat vocals",
+        "Scene25 manifest + gallery + master updated together; no video launch, no spend"
+      ],
+      "next_actions": [
+        "Verify GitHub Pages deployment/read-back for Scene25 image and prompt",
+        "Future Topview rerender only on separate owner command"
+      ],
+      "canonical_refs": [
+        "video-prompts.md#scene-25",
+        "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+        "references/scenes/scene-25/manifest.json",
+        "NEW-CHAT-HANDOFF.md"
+      ],
+      "constraints": [
+        "No new Scene ID, no model change, no automatic rerender or paid credits"
       ]
     }
   ],

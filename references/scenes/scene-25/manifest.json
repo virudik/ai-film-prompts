@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 25,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-16T12:53:00Z",
+  "authority": "Derived canonical index; GitHub main/master and preserved original character identity sheets are authoritative. Owner-supplied new image is SECONDARY forward-window orientation only, not a replacement for approved cockpit @Image4.",
   "status": "ready",
   "references": [
     {
@@ -100,11 +100,34 @@
         "linked_in_master": false,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+      "asset_id": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+      "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e",
+      "bytes": 6422,
+      "dimensions": [
+        384,
+        216
+      ],
+      "media_type": "image/webp",
+      "role": "spatial_orientation_helper",
+      "owner_approval": "owner_supplied_reference",
+      "assistant_qc": {
+        "status": "source_frame_preserved_downscaled_for_web",
+        "evidence": "Owner-provided 1280x720 original in conversation; visually checked the 16:9 composition and cat positions. Downscaled 384x216 WebP for site; original source SHA256 b346b47b8f2dff7a6d97f3ed014198f876f510e533b36011a6bf1ad67bb59ae3",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "canonical_master_sha256": "b1e07439006e06d963e0ca2d01a420b3627baffd27bab6eb3f5ecc5427913471",
   "identity_refs": [
     "references/luchik.jpg",
     "references/ryzhik.jpg"
@@ -116,7 +139,8 @@
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [
-    "references/scenes/scene-23/S23-Image2-topview-source.png"
+    "references/scenes/scene-23/S23-Image2-topview-source.png",
+    "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp"
   ],
   "video_refs": [],
   "approved": {
@@ -139,8 +163,8 @@
     {
       "prompt_id": "S25",
       "canonical_heading": "Scene 25",
-      "canonical_prompt_sha256": "8980a09782572a7034fe28fd1d42e0a402ccabe989b147203bb48f007f90fb87",
-      "characters": 5055,
+      "canonical_prompt_sha256": "12d8984f2d116d595912240f3b69e38172d6ff04c1f448eb0065755e510a26b8",
+      "characters": 8841,
       "duration_seconds": 30,
       "model": "Seedance 2.5",
       "slots": {
@@ -167,12 +191,19 @@
           "required": true,
           "role": "location",
           "status": "available"
+        },
+        "@Image5": {
+          "asset_id": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+          "required": true,
+          "role": "spatial_orientation_helper",
+          "status": "available"
         }
       },
       "start_frame": null,
       "end_frame": null,
       "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "owner_generation_approval_inferred": false,
+      "notes": "@Image5 is camera/forward-combat helper only; @Image4 exact cockpit/seat layout and @Image2/@Image3 identities override it"
     }
   ],
   "site_published": {
@@ -180,9 +211,10 @@
     "gallery_paths": [
       "references/luchik.jpg",
       "references/ryzhik.jpg",
-      "references/scenes/scene-24/S24-Image3-topview-source.png"
+      "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp"
     ],
-    "status": "existing_gallery_in_published_master",
+    "status": "referenced_in_canonical_master_for_publication",
     "manifest_publication": "included_with_this_repository_version"
   },
   "last_qc_at": "2026-10-08T09:58:58.592675Z",
