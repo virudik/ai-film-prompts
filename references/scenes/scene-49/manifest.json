@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-16T22:42:46.754109+00:00",
+  "updated_at": "2026-10-16T22:45:13.992381+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -166,6 +166,36 @@
       },
       "applies_to": [
         "49C",
+        "49F"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+      "asset_id": "references/scenes/scene-49/S49D-harp-small-synth.png",
+      "role": "prop",
+      "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+      "bytes": 2251767,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:45:13.992381+00:00",
+        "evidence": "Corrected harp has six separated anchored blue strings; low two-tier amber-violet keyboard stand scaled for one-metre Alesya. No people, original H28B. Earlier four-string draft rejected and not used."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Masha silver-blue crystalline six-string harp and Alesya small two-tier amber-violet synthesizer on low60cm stand, exact H28B. Targeted correction ensured six distinct anchored strings."
+      },
+      "applies_to": [
+        "49D",
         "49F"
       ]
     }
