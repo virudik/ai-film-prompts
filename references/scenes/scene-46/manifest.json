@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-16T17:22:27.061016+00:00",
+  "updated_at": "2026-10-16T23:44:51.328020+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -64,6 +64,36 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
+      "asset_id": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
+      "role": "satellite_design_helper",
+      "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
+      "bytes": 2591338,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T23:44:51.328020+00:00",
+        "evidence": "Exactly three separated intact satellites: white cylinder with two hinged rectangular wings (one white reverse with logo, one blue-cell face); gold-foil cube with one solar wing and two long antennas; white bus with large dish and red indicator. Original cat/helmet/red-arrow roundel retained on all three, extra roundel on A panel reverse. Blue planet below, no extra spacecraft or characters. Assistant QC is not owner approval."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "references/scenes/scene-45/S45-roskotmos-ship-exterior.png"
+        ],
+        "prompt": "Three distinct intact RosKOTmos satellite designs in orbit from exact logo and ship style: A white cylinder/two blue solar wings, B gold cube/one wing/two antennas, C white dish bus/red light; all logos toward camera and additional logo on A panel reverse; no battle/debris/crew."
+      },
+      "applies_to": [
+        "46"
+      ]
     }
   ],
   "identity_refs": [],
