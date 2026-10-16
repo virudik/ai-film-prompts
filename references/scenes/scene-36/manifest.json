@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 36,
-  "updated_at": "2026-10-14T00:21:57Z",
+  "updated_at": "2026-10-16T03:55:57Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "draft_inputs_pending",
+  "status": "ready",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -162,6 +162,35 @@
         1672,
         941
       ]
+    },
+    {
+      "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+      "asset_id": "references/scenes/scene-36/S36-start-from-S17-result.png",
+      "role": "continuity_frame",
+      "media_type": "image",
+      "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+      "bytes": 1152902,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "source": {
+        "kind": "topview_result_frame",
+        "note": "Извлечён реальный последний кадр task 67b8304f8a324b7493af32fd0a0ae5d7; QC: три человека, Паша слева, Серёга центр с модулем в двух руках, Саша справа. Точка авторского монтажного trim отдельно не подтверждена.",
+        "topview_task_id": "67b8304f8a324b7493af32fd0a0ae5d7",
+        "frame_time_s": 29.95
+      },
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T03:55:57Z",
+        "evidence": "Извлечён реальный последний кадр task 67b8304f8a324b7493af32fd0a0ae5d7; QC: три человека, Паша слева, Серёга центр с модулем в двух руках, Саша справа. Точка авторского монтажного trim отдельно не подтверждена."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+        "git_present": true,
+        "linked_in_master": true
+      }
     }
   ],
   "identity_refs": [
@@ -175,7 +204,7 @@
   "prop_refs": [
     "references/scenes/scene-17/S17-Image4-topview-source.png"
   ],
-  "start_frame": null,
+  "start_frame": "references/scenes/scene-36/S36-start-from-S17-result.png",
   "end_frame": null,
   "pose_composition_helpers": [
     "references/scenes/scene-36/S36-waterfall-exit-helper.png"
@@ -187,52 +216,63 @@
   "prompt_reference_mapping": [
     {
       "prompt": "main",
-      "canonical_prompt_sha256": "f7db627ade946a9b27513193186fd36e4aa30088ca6c74aa795f1d5ccbecac5e",
+      "prompt_id": "S36",
+      "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
+      "generation_authorization": "Explicit current-chat owner instruction 2026-10-15: launch all ready scenes as slots free",
       "slots": [
         {
           "slot": "@Image1",
-          "canonical_role": "Серёга (identity)"
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
         },
         {
           "slot": "@Image2",
-          "canonical_role": "Паша (identity)"
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "input_status": "available"
         },
         {
           "slot": "@Image3",
-          "canonical_role": "Саша (identity)"
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "canonical_role": "фрагмент карты — светящийся модуль"
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "input_status": "available"
         },
         {
           "slot": "@Image5",
-          "canonical_role": "пещера после боя, рассадка троих (кадр Scene 17)"
+          "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+          "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+          "input_status": "available"
         },
         {
-          "slot": "@Video1",
-          "canonical_role": "фактический конец Scene 17 из монтажа",
-          "input_status": "required_not_available"
+          "slot": "@Image6",
+          "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+          "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+          "input_status": "available"
         }
       ]
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-13T22:50:55Z",
-  "last_qc_scope": "14.10.2026 owner decision: scenes 36–37 variant A (reports/scenes-36-37-proposal-2026-10-14.md). References reused from existing assets, SHA/bytes/dimensions verified; no images generated, no Topview call.",
-  "remaining": [
-    "@Video1 — фактический конец Scene 17 из монтажа: выгрузить и сохранить перед запуском; без него сцена остаётся DRAFT."
-  ],
+  "last_qc_at": "2026-10-16T03:55:57Z",
+  "last_qc_scope": "Извлечён реальный последний кадр task 67b8304f8a324b7493af32fd0a0ae5d7; QC: три человека, Паша слева, Серёга центр с модулем в двух руках, Саша справа. Точка авторского монтажного trim отдельно не подтверждена.",
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "1c2bc2ab2d9cab08748f927972c91f88261f713eeedb6f03dabe61cc46a839ae",
+  "canonical_master_sha256": "08cf0cb4c492a7e174ec3510ac1f77418bb6f9aa4bf237663d3b3c469e0d18a4",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": "10poNxUdS8993D-2Qu-iCd1bluz-pRGb1",
-  "note": "14.10: новые helpers прошли визуальный QC ChatGPT; это не owner approval и не конечные кадры монтажа. Копируемый video prompt и DRAFT сохранены."
+  "note": "16.10: все обязательные изображения сохранены; запуск разрешён владельцем в ограниченной очереди; QC не означает approval."
 }

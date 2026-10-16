@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 13,
-  "updated_at": "2026-10-11T18:26:33Z",
+  "updated_at": "2026-10-16T03:55:57Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -236,7 +236,7 @@
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "canonical_master_sha256": "08cf0cb4c492a7e174ec3510ac1f77418bb6f9aa4bf237663d3b3c469e0d18a4",
   "identity_refs": [
     "references/luchik.jpg",
     "references/full/vitalik.jpg",
@@ -307,7 +307,7 @@
     {
       "prompt_id": "S13",
       "canonical_heading": "Scene 13",
-      "canonical_prompt_sha256": "de075ff14daef87899821b1dd862819f98e8463208a007720b473855419b8fd9",
+      "canonical_prompt_sha256": "1a681708b32cc3756b18fe50b86c23b41ca2454a9453c6fa3a39a6f179def73e",
       "characters": 8390,
       "duration_seconds": 30,
       "model": "Wan 3",
@@ -324,25 +324,25 @@
           "role": "identity",
           "status": "available"
         },
-        "@image4": {
+        "@image3": {
           "asset_id": "references/full/vitalik.jpg",
           "required": true,
           "role": "identity",
           "status": "available"
         },
-        "@image5": {
+        "@image4": {
           "asset_id": "references/full/lesha.jpg",
           "required": true,
           "role": "identity",
           "status": "available"
         },
-        "@image6": {
+        "@image5": {
           "asset_id": "references/scenes/scene-13/S13-council-lap.png",
           "required": false,
           "role": "pose_composition_helper",
           "status": "available"
         },
-        "@image7": {
+        "@image6": {
           "asset_id": "references/scenes/scene-13/S13-luchik-closeup.png",
           "required": false,
           "role": "pose_composition_helper",
@@ -375,5 +375,6 @@
     "@Image numbering is local to each autonomous prompt",
     "technical success does not imply editorial approval",
     "no paid generation authorized"
-  ]
+  ],
+  "note": "16.10: устранён пустой слот @Image3; прежние 4/5/6/7 стали 3/4/5/6 без изменения содержания."
 }

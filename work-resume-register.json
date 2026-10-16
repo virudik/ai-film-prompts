@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T00:10:00Z",
+  "last_updated_at": "2026-10-16T03:58:51Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -299,6 +299,36 @@
           "vitalik"
         ]
       }
+    },
+    {
+      "work_id": "FILM-20261015-ALL-READY",
+      "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
+      "status": "in_progress",
+      "verified_at": "2026-10-16T03:58:51Z",
+      "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
+      "done": [
+        "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
+        "Новый вид лесной планеты и настоящий последний кадр результата 17 сохранены commit b2a780b37091d6fac319cbc1d9ba5e566557364d",
+        "36/37 подключены к шести реальным файлам каждый, READY; для 13 исправлена последовательная нумерация",
+        "Создана ограниченная очередь 16 следующих попыток; уже отправленные и принятые исключены"
+      ],
+      "next_actions": [
+        "Продолжать ops/topview-launch-queue.json по минимальному готовому priority при свободных глобальных слотах, только бесплатный веб",
+        "После success B2 извлечь настоящий C28 и подготовить B3; не рисовать и не повторять B2",
+        "Перед 16 получить точный сохранённый видеоисточник, проверить SHA; перед каждой моделью проверить доступность бесплатного режима"
+      ],
+      "constraints": [
+        "Никакого платного MCP/Canvas",
+        "Никаких автоматических повторов failed/unknown",
+        "Не менять approval, slow или heartbeat вместо робота"
+      ],
+      "canonical_refs": [
+        "ops/topview-launch-queue.json",
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "reports/reference-readiness-2026-10-16.md"
+      ],
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "automation_verification": "pending enable after publication"
     }
   ],
   "rules": [

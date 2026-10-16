@@ -1,0 +1,985 @@
+{
+  "schema_version": 1,
+  "queue_id": "FILM-20261015-ALL-READY",
+  "updated_at": "2026-10-16T03:57:30Z",
+  "state": "active",
+  "authorization": {
+    "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
+    "authorized_at": "2026-10-15T19:03:10Z",
+    "max_credits_per_task": 0,
+    "max_concurrent_account_tasks": 6,
+    "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit."
+  },
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+  "automation_id": "6acae6ab433481919e88665c520b8ef2",
+  "selection_policy": "Lowest priority among ready entries, respecting submission order dependencies. Missing inputs or unavailable free model do not block independent entries. Dependencies here order independent reference-based prompts; technical success is never editorial approval. Any actual-frame dependency must be resolved before submission.",
+  "items": [
+    {
+      "id": "B7",
+      "scene_id": 28,
+      "prompt_id": "B7",
+      "canonical_block_label": "28 B7",
+      "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
+      "normalized_prompt_sha256": "fcc7bf170b24912b011cb5bb9420f345d85ed0a35527eaa467a9ad199e74741f",
+      "priority": 10,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "role": "location",
+          "required": true,
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "role": "identity",
+          "required": true,
+          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "B8",
+      "scene_id": 28,
+      "prompt_id": "B8",
+      "canonical_block_label": "28 B8",
+      "canonical_prompt_sha256": "86e88d4bfad13a45d12e64b70e2bff7a5ccdcbd6edeaaa8db592c6e7d2762568",
+      "normalized_prompt_sha256": "7cdae2f55f464093787febf494d8ff0441cb2f2f11635a843314938e8ad79342",
+      "priority": 11,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "role": "location",
+          "required": true,
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/L28-carry.webp",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "B9",
+      "scene_id": 28,
+      "prompt_id": "B9",
+      "canonical_block_label": "28 B9",
+      "canonical_prompt_sha256": "ac9bb9b1381597b0653c922279c8ef62432d29b335fe8cba9301b46379e56b62",
+      "normalized_prompt_sha256": "129ef6410d0781bdf975cf6ce4a9e28448c87af6a355a1b0833761d75e048789",
+      "priority": 12,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "role": "location",
+          "required": true,
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-28/S28-shoulder.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "B10",
+      "scene_id": 28,
+      "prompt_id": "B10",
+      "canonical_block_label": "28 B10",
+      "canonical_prompt_sha256": "14ba7add024d27bf594ce01a72b3fa9f2f9c3d9081868137a2579102665eb6f4",
+      "normalized_prompt_sha256": "d7b8b3356bb54057134be86e84e161b0caaf9a5037e71bfd85074aa96095b9b1",
+      "priority": 13,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_to_video",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S36-S36",
+      "scene_id": 36,
+      "prompt_id": "S36",
+      "canonical_block_label": "36",
+      "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
+      "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
+      "priority": 20,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+          "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+          "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S37-S37",
+      "scene_id": 37,
+      "prompt_id": "S37",
+      "canonical_block_label": "37",
+      "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
+      "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
+      "priority": 21,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S36-S36"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S13-S13",
+      "scene_id": 13,
+      "prompt_id": "S13",
+      "canonical_block_label": "13",
+      "canonical_prompt_sha256": "1a681708b32cc3756b18fe50b86c23b41ca2454a9453c6fa3a39a6f179def73e",
+      "normalized_prompt_sha256": "f961f6bb5331ea265682c38a1f4c736a26a1be71d268ebc843e2125dc8bf0135",
+      "priority": 30,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@image1",
+          "path": "references/scenes/scene-13/S13-Image1-topview-source.png",
+          "role": "location",
+          "required": true,
+          "sha256": "7604d92708048afbb6bcfbdd23edb555ccc52cf7492f4be62085a394f36e0cda"
+        },
+        {
+          "slot": "@image2",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@image3",
+          "path": "references/full/vitalik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d"
+        },
+        {
+          "slot": "@image4",
+          "path": "references/full/lesha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9"
+        },
+        {
+          "slot": "@image5",
+          "path": "references/scenes/scene-13/S13-council-lap.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "3c3a3efc56a66a6a9d34eeb15c679b83fdd0ec78a21f3dd386476b0956cdfb36"
+        },
+        {
+          "slot": "@image6",
+          "path": "references/scenes/scene-13/S13-luchik-closeup.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "f480469db3edd539b7c1d5ee3676ab830a921af21b45c5b5d07f218c52823cc7"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S24-S24",
+      "scene_id": 24,
+      "prompt_id": "S24",
+      "canonical_block_label": "24",
+      "canonical_prompt_sha256": "995031ccbe280d86662a1b651b38eda9354e89c5fe1a68fcb91a8c9ff9f053ab",
+      "normalized_prompt_sha256": "4fe802ee4d7a3e631f2f370be3a959e957bcfc420860829039106d59da8936f6",
+      "priority": 40,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-23/S23-Image2-topview-source.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "37806738d99f93a1e0571e4b48827637c5fa26a67a948af95edb8662a70ca8dc"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "role": "location",
+          "required": true,
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S25-S25",
+      "scene_id": 25,
+      "prompt_id": "S25",
+      "canonical_block_label": "25",
+      "canonical_prompt_sha256": "05e112c5db485e79f5983f5ddf7b4e62f16e76c72412a7353443b465644b12f5",
+      "normalized_prompt_sha256": "16763bfb42d208fd446c9d22afd5388a984f92b65d19699efbdb7b1ec5d54f4d",
+      "priority": 41,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S24-S24"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-23/S23-Image2-topview-source.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "37806738d99f93a1e0571e4b48827637c5fa26a67a948af95edb8662a70ca8dc"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "role": "location",
+          "required": true,
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S27-S27-part-2",
+      "scene_id": 27,
+      "prompt_id": "S27-part-2",
+      "canonical_block_label": "27 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "87089f9cfd18b23ca57b1e0d3b10743c3198846a6c98b28444b0b139bec9b49f",
+      "normalized_prompt_sha256": "6e7f1d11e944ccec11f34e3716a1870c4e02391a9695f8060336781b7c1f7ccd",
+      "priority": 50,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "role": "location",
+          "required": true,
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S27-S27-part-3",
+      "scene_id": 27,
+      "prompt_id": "S27-part-3",
+      "canonical_block_label": "27 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "31e428830ef6347dc53f22cb2d76a0218de68a210ae1dd1e6c0c6494953dedfb",
+      "normalized_prompt_sha256": "ed0650dbe6bc308634d91a10e73c2025d37094ef05fb6eeabd7f4ab5ee9898c5",
+      "priority": 51,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S27-S27-part-2"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "role": "location",
+          "required": true,
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S30-S30",
+      "scene_id": 30,
+      "prompt_id": "S30",
+      "canonical_block_label": "30",
+      "canonical_prompt_sha256": "39d16deef2aeeff76e818e670ed320cd24736ddf7d31b0eb91ddd86a91cbf09e",
+      "normalized_prompt_sha256": "14d0a7b4ecc6acd61999fa0fe3c84b29b2a6cdcce39ecffd527da25ff7a35af6",
+      "priority": 60,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S27-S27-part-3"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+          "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": false
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S31-S31",
+      "scene_id": 31,
+      "prompt_id": "S31",
+      "canonical_block_label": "31",
+      "canonical_prompt_sha256": "1c561b10d4a660e6f17fae6a1899b633d00223c5b5e6cb6445dbebcb2d03b121",
+      "normalized_prompt_sha256": "3f4d15c6305d476f13763a92286c81ed192eb0d0fecf97c7f94a1f1166241033",
+      "priority": 61,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S30-S30"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+          "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": false
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S32-S32",
+      "scene_id": 32,
+      "prompt_id": "S32",
+      "canonical_block_label": "32",
+      "canonical_prompt_sha256": "cdf27c5668f4aaafe3b7712a992d9d81947a5ddeb57081d90831a4f46c441962",
+      "normalized_prompt_sha256": "cd4fea0ae03c88e93626b3e06de4e441d98346d06f4c457a23e3343a2280b8df",
+      "priority": 62,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S31-S31"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-27/S27-Image1-topview-source.png",
+          "sha256": "a6b44b808a9be0581b853194f1d7a0949c39bdf5fd0c44fcdd1faaaae23bd81f",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": false
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "S16-S16",
+      "scene_id": 16,
+      "prompt_id": "S16",
+      "canonical_block_label": "16",
+      "canonical_prompt_sha256": "718cee833ba4d24a4ed03e642534a231d6514c10c83896a079777febf7244f3d",
+      "normalized_prompt_sha256": "a88a859b89b9b60284d8f8d789661cbcaa882be13a77799fde6d6204bf4b20a9",
+      "priority": 70,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.5",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a"
+        },
+        {
+          "slot": "@Video1",
+          "path": "S16-desert-source-2.mp4",
+          "role": "continuity_video",
+          "required": true,
+          "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+          "storage": "private_drive_or_library",
+          "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+          "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+          "source_topview_task_id": "9fd93e2905e14c77b616884f1d6962f6"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    },
+    {
+      "id": "B3",
+      "scene_id": 28,
+      "prompt_id": "B3",
+      "canonical_block_label": "28 B3",
+      "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
+      "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b",
+      "priority": 5,
+      "state": "blocked_reference",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "role": "location",
+          "required": true,
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        {
+          "slot": "@Image4",
+          "path": null,
+          "role": "continuity_frame",
+          "required": true,
+          "status": "wait_for_clean_A2_result"
+        }
+      ],
+      "task_id": null,
+      "claim": null
+    }
+  ],
+  "already_submitted": {
+    "A1": "fec838b4f63b452c8c76fe50f8e0fdad",
+    "B1": "721cfbef2af0479da57f0a52479d2f54",
+    "A2": "e471e35fc7454fe5a2a89e06fac3f122",
+    "B2": "762b3091b3e44b8599a0a58b91a253c5",
+    "B4": "d3844e4199d64abebe323be430a5cb35",
+    "B5": "f88eee8ea93242309b71621e354ccac2",
+    "B6": "2bccc8a3521b411cb7bd51f9c8ba1119"
+  },
+  "not_selected_alternatives": {
+    "scene28": [
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10"
+    ],
+    "scene27": [
+      "S27-part-1"
+    ],
+    "reason": "Master defines A/B and 30s/2x15s as alternative versions, not a requirement to render every duplicate. Continue the already started Wan dance production; keep A alternatives for comparison or a later explicit selection."
+  },
+  "excluded_completed_scenes": [
+    33,
+    34,
+    35,
+    38
+  ],
+  "reference_preparation": [
+    {
+      "scene_id": 28,
+      "prompt_id": "B3",
+      "needed": "C28: genuine clean ending from B2 result 762b3091b3e44b8599a0a58b91a253c5",
+      "action": "When success, download actual result through supported browser, inspect last seconds and extract clean last usable frame. Do not invent or AI-generate C28. Save source task/time/QC/SHA/image and thumbnail, update B3 manifest and queue with CAS. If result defective, keep blocked and report once; do not auto-rerender B2."
+    },
+    {
+      "scene_id": 16,
+      "needed": "S16-desert-source-2.mp4",
+      "action": "Retrieve existing exact video by listed Drive/Library ID or original Topview result, verify SHA before upload. Six images already saved. No new image needed."
+    }
+  ],
+  "receipts_directory": "reports/topview-queue-2026-10-16",
+  "stop_conditions": [
+    "Owner revokes or changes affected item",
+    "No verified free/unlimited website mode or price not zero",
+    "Ambiguous previous submit; reconcile task first",
+    "Prompt or input SHA differs from approved queued snapshot: re-audit and update package before claim"
+  ],
+  "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval"
+}

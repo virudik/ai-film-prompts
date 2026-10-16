@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T00:32:41+00:00",
+ "generated_at": "2026-10-16T03:58:51+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,14 +10,14 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "bc758b3ad3e04d8ae75854b0aaca3bbbefc966c2ffb5d8bbbf3cd2c2fba5f588",
-   "bytes": 47591
+   "sha256": "ea136740c923b6b393acb11faa59c8ee15916f9108e6d4eaf7d602d03abdd634",
+   "bytes": 48290
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "4eb5caf73fee77d8ffe800dd85c4a31adda78e4c715dfad016ed9ea6579dba79",
-   "bytes": 108396
+   "sha256": "ee3e9764dcdc5bd0603852a19f5ffcda2d0980906125ab6206ad95077eef8086",
+   "bytes": 108732
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "45de71b2fd54bd1d6b823e85c8a20ea7037cf2f30c63bdb4cee72dfe3f8f7736",
-   "bytes": 369125
+   "sha256": "1a670cb7cae5d97f2e54064bede0fea901c77c5cb33351efc7504ab5d6d57f7b",
+   "bytes": 372154
   }
  ],
  "invariants": [
@@ -159,7 +159,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Scene Reference Pack automation",
    "anchor_ok": true,
-   "section_sha256_12": "525891aca617"
+   "section_sha256_12": "b36a58f87be3"
   },
   {
    "id": "INV-LIBRARY-NONBLOCKING",
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 27507,
-  "above_marker_chars": 27507,
+  "chars": 27970,
+  "above_marker_chars": 27970,
   "recent_sections_below_marker": [],
-  "sha256_12": "3659a29da1df",
+  "sha256_12": "8894d9d53475",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -255,9 +255,9 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 27467,
+   "offset": 27591,
    "chars": 12560,
-   "sha256_12": "cf5b524e491f"
+   "sha256_12": "29dba032e1f5"
   },
   {
    "id": 16,
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 40027,
+   "offset": 40151,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -297,7 +297,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 53312,
+   "offset": 53436,
    "chars": 10171,
    "sha256_12": "089f09d85ad3"
   },
@@ -319,7 +319,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 63483,
+   "offset": 63607,
    "chars": 7862,
    "sha256_12": "307489e41935"
   },
@@ -341,7 +341,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 71345,
+   "offset": 71469,
    "chars": 36195,
    "sha256_12": "a9c8f6b42c67"
   },
@@ -361,9 +361,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 107540,
-   "chars": 130635,
-   "sha256_12": "518156c58d47"
+   "offset": 107664,
+   "chars": 130788,
+   "sha256_12": "96da1b318a5e"
   },
   {
    "id": 30,
@@ -385,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 238175,
+   "offset": 238452,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -409,7 +409,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 247368,
+   "offset": 247645,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 256400,
+   "offset": 256677,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 265408,
+   "offset": 265685,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 271284,
+   "offset": 271561,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -492,7 +492,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 277683,
+   "offset": 277960,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -500,7 +500,7 @@
    "id": 36,
    "title": "После пещеры: Серёга уходит с фрагментом карты",
    "target_engine": "Wan 3",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
@@ -511,17 +511,18 @@
     "@Image2",
     "@Image3",
     "@Image4",
-    "@Image5"
+    "@Image5",
+    "@Image6"
    ],
-   "offset": 285615,
-   "chars": 9939,
-   "sha256_12": "ce768b7dd557"
+   "offset": 285892,
+   "chars": 10645,
+   "sha256_12": "9b422e28b9a5"
   },
   {
    "id": 37,
    "title": "Отлёт Серёги с Набу к лесной планете",
    "target_engine": "Wan 3",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
@@ -532,11 +533,14 @@
    "refs": [
     "@Image1",
     "@Image2",
-    "@Image3"
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
    ],
-   "offset": 295554,
-   "chars": 11616,
-   "sha256_12": "2ba566970567"
+   "offset": 296537,
+   "chars": 12836,
+   "sha256_12": "a27ede53d244"
   },
   {
    "id": 38,
@@ -555,7 +559,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 307170,
+   "offset": 309373,
    "chars": 10389,
    "sha256_12": "8f77f9519603"
   }

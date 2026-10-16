@@ -9,7 +9,7 @@
 **15 сцен к генерации/доработке · 36 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
-- **⏳ 1** сцена сейчас в медленной генерации: **28** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
+- **⏳ 1** сцена сейчас в медленной генерации: **28** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации — только в пределах разрешённой владельцем очереди `ops/topview-launch-queue.json`.
 - **Последняя оформленная активная сцена:** 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **16.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
@@ -58,8 +58,8 @@
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 35 | [Древний ПК в храме: находка Серёги](#scene-35) | Серёга; тот же храм; фактический конец Scene 34 | Приключенческое открытие старого ПК и CRT под древними камнями; без включения и преждевременного Warcraft payoff. DRAFT, требуется фактический финал 34.  Решение владельца: принято; ожидание завершено. |
-| 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. DRAFT до выгрузки конца Scene 17. |
-| 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; луг у озера Набу; лесная планета | Взлёт с Набу, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. DRAFT до выгрузки кадров корабля и планеты. |
+| 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. READY: настоящий финальный кадр результата Scene 17 сохранён и проверен. |
+| 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; луг у озера Набу; лесная планета | Взлёт с Набу, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. READY: реальные кадры корабля и новый референс лесной планеты сохранены. |
 | 38 | [Серёга рассматривает древний компьютер в храме](#scene-38) | @Image1 точный Серёга; @Image2 храм; @Video1/@Image3 конец Scene 35 с компьютером | Отдельное 30-секундное продолжение находки: внимательно исследует CRT, клавиатуру и бежевый системный блок, без включения, новых артефактов или преждевременного Warcraft. DRAFT до сверки реального конца 35. Решение владельца: принято; ожидание завершено. |
 
 ---
@@ -157,7 +157,7 @@
 
 **Контекст использования:** Текущий результат отклонён пользователем: в речевом отрезке артикулировал PURPLE, а кот почти не двигал пастью; последующий обмен взглядами BLACK↔PURPLE дополнительно делал сцену похожей на разговор людей. Говорящий кот канонически идентифицирован как **Лучик**. Новый prompt сохраняет композицию и deadpan-комедию, но жёстко закрепляет голос и артикуляцию только за Лучиком. Автоматически не перезапускать: это готовая переработка для следующего пользовательского запуска.
 
-**Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = **Лучик**, точный индивидуальный identity reference · @image4 = BLACK, первичный референс лица/телосложения/костюма · @image5 = PURPLE, первичный референс лица/телосложения/костюма
+**Референсы:** @image1 = композиция, кресла, кальяны, панорамный город и общий свет · @image2 = **Лучик**, точный индивидуальный identity reference · @image3 = BLACK, первичный референс лица/телосложения/костюма · @image4 = PURPLE, первичный референс лица/телосложения/костюма
 
 **Используемые identity-референсы на сайте:**
 <div class="scene-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin:10px 0 16px">
@@ -169,8 +169,8 @@
 **Референсы локации, композиции и действия:**
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-13/S13-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-Image1-topview-source.png" alt="@image1 — Совет: локация и композиция" loading="lazy"></a><figcaption>@image1 — Совет: локация и композиция</figcaption></figure>
-<figure><a href="references/scenes/scene-13/S13-council-lap.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-council-lap.png" alt="@image6 — проверенная расстановка: Лучик на коленях у Лёши" loading="lazy"></a><figcaption>@image6 — проверенная расстановка: Лучик на коленях у Лёши</figcaption></figure>
-<figure><a href="references/scenes/scene-13/S13-luchik-closeup.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-luchik-closeup.png" alt="@image7 — крупность Лучика, человеческие рты вне кадра" loading="lazy"></a><figcaption>@image7 — крупность Лучика, человеческие рты вне кадра</figcaption></figure>
+<figure><a href="references/scenes/scene-13/S13-council-lap.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-council-lap.png" alt="@image5 — проверенная расстановка: Лучик на коленях у Лёши" loading="lazy"></a><figcaption>@image5 — проверенная расстановка: Лучик на коленях у Лёши</figcaption></figure>
+<figure><a href="references/scenes/scene-13/S13-luchik-closeup.png" target="_blank" rel="noopener"><img src="references/scenes/scene-13/S13-luchik-closeup.png" alt="@image6 — крупность Лучика, человеческие рты вне кадра" loading="lazy"></a><figcaption>@image6 — крупность Лучика, человеческие рты вне кадра</figcaption></figure>
 </div>
 
 **Что происходит:** BLACK спокойно сидит слева и курит кальян. PURPLE сидит справа; **Лучик** всё время естественно лежит поперёк его колен, не садится вертикально. После длинной серьёзной паузы камера одним непрерывным медленным движением приближается к коту и ДО начала реплики приходит в настоящий крупный план его морды. BLACK и PURPLE к этому моменту уходят из читаемой речевой зоны кадра и всё время держат рты полностью закрытыми. Весь текст кот произносит целиком в крупном плане с отчётливым естественным липсинком: «Полностью с вами согласен, коллеги. Так и поступим». Голос серьёзный, спокойный и уверенный — без комедийной интонации. После реплики камера очень мягко освобождает место для реакции: BLACK переводит взгляд именно на кота, PURPLE слегка кивает именно коту, гладит его, кот снова опускает голову.
@@ -180,14 +180,14 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3 | Photoreal live-action deadpan comedy | One continuous restrained camera move
 
 REFERENCES:
-@image6 — supplemental opening staging only: exact BLACK left, PURPLE right, Luchik on PURPLE lap. @image7 — supplemental cat close-up framing only, with human mouths outside the crop. Individual identities remain locked by images2/4/5.
+@image5 — supplemental opening staging only: exact BLACK left, PURPLE right, Luchik on PURPLE lap. @image6 — supplemental cat close-up framing only, with human mouths outside the crop. Individual identities remain locked by images2/3/4.
 @image1 — PRIMARY COMPOSITION / ENVIRONMENT reference: two seated Jedi in large armchairs inside the futuristic high-rise council lounge, panoramic golden city skyline, hookahs, furniture placement, camera axis, warm sunset light and the cat resting on the right character's lap.
 @image2 — PRIMARY LUCHIK / ЛУЧИК IDENTITY reference: exact recurring fluffy white-and-grey long-haired cat. Preserve his exact face shape, white muzzle/chest/legs, grey crown/facial and back markings, ears, natural eye appearance, long fur, coat pattern and feline anatomy. The blue lightsaber, upright pose and temple background visible in the model sheet are IDENTITY-REFERENCE ARTIFACTS ONLY for this scene: do NOT import the saber, standing pose or temple environment into the Jedi Council shot.
-@image4 — PRIMARY BLACK identity reference: heavyset man, short brown hair, black tunic with dark leather vest panels, dark forearm protection, brown trousers and boots. He remains seated on the LEFT.
-@image5 — PRIMARY PURPLE identity reference: leaner mustached man with brown hair, purple inner tunic under a long grey hooded outer robe, brown belt and tan boots. He remains seated on the RIGHT with the cat across his lap.
+@image3 — PRIMARY BLACK identity reference: heavyset man, short brown hair, black tunic with dark leather vest panels, dark forearm protection, brown trousers and boots. He remains seated on the LEFT.
+@image4 — PRIMARY PURPLE identity reference: leaner mustached man with brown hair, purple inner tunic under a long grey hooded outer robe, brown belt and tan boots. He remains seated on the RIGHT with the cat across his lap.
 
 REFERENCE PRIORITY / IDENTITY LOCK:
-@image4 and @image5 are absolute identity authorities for BLACK and PURPLE. @image2 is absolute identity authority for LUCHIK / ЛУЧИК. @image1 controls composition, environment, furniture, hookahs, lighting and starting geography only. Never average human faces with incidental faces in @image1. Preserve every character's face, body proportions, costume, left-right position and the cat's coat pattern throughout.
+@image3 and @image4 are absolute identity authorities for BLACK and PURPLE. @image2 is absolute identity authority for LUCHIK / ЛУЧИК. @image1 controls composition, environment, furniture, hookahs, lighting and starting geography only. Never average human faces with incidental faces in @image1. Preserve every character's face, body proportions, costume, left-right position and the cat's coat pattern throughout.
 
 LUCHIK BODY LOCK:
 The cat remains a normal realistic domestic cat for the entire shot. It lies naturally HORIZONTALLY ACROSS PURPLE'S LAP. It does NOT sit upright, stand on hind legs, become humanoid, grow human lips, gesture with paws or change body proportions. During the speaking beat only the cat's HEAD and NECK rise slightly. After the line it naturally lowers its head again.
@@ -913,7 +913,7 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 - Части 1–9: `omni_reference`, 3–4 изображения по конкретной схеме блока. Это выбранный бюджет постановки, не заявление о максимуме модели. Model sheet с несколькими видами описывает одного персонажа.
 - Часть 10: `image_to_video`, один заранее собранный и проверенный G28. Перед отправкой сверить текущую доступность режима выбранного движка; не подменять движок молча. При дрейфе лиц ансамбля использовать сам G28 с монтажным стоп-кадром/небольшим наездом.
 - В текущем standalone Topview video tool нет входа reference audio. Это ограничение данного интерфейса, не утверждение, что модель нигде не поддерживает аудиореференс. Песню накладывать в CapCut/другом редакторе; `@Audio1` в эти промты не добавлять. Синхронизация ударов музыки — монтажная задача.
-- По последней команде владельца запустить первые доступные последовательные части Seedance 2.0 начиная с части 1. Части 1 и 2 можно отправить при двух свободных слотах; часть 3 ждёт C28 из результата части 2. Затем оценить руку/щёку, лица, ось и ноги. Другую модель пробовать на том же эпизоде и с теми же входами, если нужен честный A/B. Не запускать сразу 20 задач. Новые поддержки сначала отдельно проверить на чистых L28/S28; сложную пересадку с рук на плечо не генерировать одним движением. Existing slow-задачи Scene 20 не отменять и не перезапускать.
+- По последней команде владельца запустить первые доступные последовательные части Seedance 2.0 начиная с части 1. Части 1 и 2 можно отправить при двух свободных слотах; часть 3 ждёт C28 из результата части 2. Затем оценить руку/щёку, лица, ось и ноги. Другую модель пробовать на том же эпизоде и с теми же входами, если нужен честный A/B. Уточнение владельца 15.10: все готовые сцены запускать постепенно по свободным слотам, максимум шесть активных задач; очередь и защита от повторов — `ops/topview-launch-queue.json`. Новые поддержки сначала отдельно проверить на чистых L28/S28; сложную пересадку с рук на плечо не генерировать одним движением. Existing slow-задачи Scene 20 не отменять и не перезапускать.
 - Владелец уже разрешил первые последовательные 15s части при готовых входах и свободных slow slots. Запуск только через проверенный unlimited/zero-credit путь; платный fallback не разрешён. Приёмка: лица и костюмы → рука/щёка → ноги → география и свет → музыкальный акцент. Титры добавляются в редакторе, а не внутри генерации.
 
 ### Оставшиеся визуальные входы
@@ -2336,11 +2336,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 36 — После пещеры: Серёга уходит с фрагментом карты
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","pasha","sasha","naboo","cave","map","depart","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","pasha","sasha","naboo","cave","map","depart","continuity"]} -->
 
-**Контекст использования:** Прямое продолжение Scene 17, которая уже в фильме (её Scene ID зарезервирован, поэтому связь в `dependencies` не пишется). Место в монтаже — стык около 51:52 после боя с монстром, перед блоком лесной пары. Сцена показывает расставание после вынужденного союза: Серёга молча уходит с единственным набусским фрагментом, Паша и Саша остаются на Набу. Карта — жёсткий светящийся модуль с референса сцены 17, не бумага. Транспорта и внешней местности нет: выход из пещеры — светлая водяная завеса, перелёт показан в Scene 37. До READY выгрузить из монтажа фактический конец Scene 17 (@Video1) и сверить сторону кадра и руку с модулем. Технический результат не равен одобрению; запуск — только по команде владельца. Правка 14.10.2026 по решению владельца (вариант A, `reports/scenes-36-37-proposal-2026-10-14.md`).
+**Контекст использования:** Прямое продолжение Scene 17, которая уже в фильме (её Scene ID зарезервирован, поэтому связь в `dependencies` не пишется). Место в монтаже — стык около 51:52 после боя с монстром, перед блоком лесной пары. Сцена показывает расставание после вынужденного союза: Серёга молча уходит с единственным набусским фрагментом, Паша и Саша остаются на Набу. Карта — жёсткий светящийся модуль с референса сцены 17, не бумага. Транспорта и внешней местности нет: выход из пещеры — светлая водяная завеса, перелёт показан в Scene 37. Стартовый @Image6 — настоящий последний кадр канонического результата Scene 17 (task 67b8304f8a324b7493af32fd0a0ae5d7), извлечён и визуально проверен 16.10.2026: Паша слева, Серёга в центре держит модуль двумя руками, Саша справа. Это выбранный технический источник продолжения; точка обрезки в авторском монтаже отдельно не подтверждена. Технический результат не равен одобрению; запуск — только по команде владельца. Правка 14.10.2026 по решению владельца (вариант A, `reports/scenes-36-37-proposal-2026-10-14.md`).
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/pasha.jpg">Паша</a>; @Image3 — <a href="references/full/sasha.jpg">Саша</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image5 — <a href="references/scenes/scene-17/S17-post-battle-seated.png">пещера после боя, рассадка троих</a>; @Video1 — фактический конец Scene 17 из монтажа (выгрузить перед запуском).
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/pasha.jpg">Паша</a>; @Image3 — <a href="references/full/sasha.jpg">Саша</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image5 — <a href="references/scenes/scene-17/S17-post-battle-seated.png">пещера после боя, рассадка троих</a>; @Image6 — <a href="references/scenes/scene-36/S36-start-from-S17-result.png">настоящий последний кадр результата Scene 17</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -2355,6 +2355,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-36/S36-waterfall-exit-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-36/S36-waterfall-exit-helper.png" alt="S36-waterfall-exit-helper.png" loading="lazy"></a><figcaption>Серёга у водяной завесы, двое остаются сидеть; модуль спрятан.</figcaption></figure>
 </div>
 
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-36/S36-start-from-S17-result.png" target="_blank" rel="noopener"><img src="references/scenes/scene-36/S36-start-from-S17-result.png" alt="@Image6 — настоящий финал Scene 17; старт Scene 36" loading="lazy"></a><figcaption>@Image6 — настоящий финал Scene 17; старт Scene 36</figcaption></figure>
+</div>
+
 **Что происходит:** Серёга прячет полученный модуль под робу, молча кивает Паше и Саше и уходит по мокрым камням в глубь пещеры, к светлой водяной завесе. Паша и Саша остаются сидеть на останках монстра и провожают его взглядом.
 
 ```text
@@ -2362,11 +2366,11 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action cinema | Deadpan quiet departure: Serega leaves the post-battle cavern with the single map module
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the genuine final seconds of the finished previous scene in this same cavern. Its last frame is the absolute start authority: positions of the three seated men, which hand holds the map module, camera side, water level, light and the inert monster remains.
-@Image5 — the same post-battle cavern and seating arrangement: Pasha seated screen-left, Serega centre, Sasha screen-right, each on a separate severed pale section of the dead monster; wet black rocks and shallow water in front; the huge inert monster carcass lying behind on the right; a bright misty curtain of falling water at the back of the cave. It controls location geometry and composition if @Video1 is ambiguous.
+@Image6 — the genuine final frame of the canonical Scene 17 result in this same cavern. This image is the absolute start authority: positions of the three seated men, which hand holds the map module, camera side, water level, light and the inert monster remains.
+@Image5 — the same post-battle cavern and seating arrangement: Pasha seated screen-left, Serega centre, Sasha screen-right, each on a separate severed pale section of the dead monster; wet black rocks and shallow water in front; the huge inert monster carcass lying behind on the right; a bright misty curtain of falling water at the back of the cave. It controls location geometry and composition if @Image6 is ambiguous.
 @Image4 — the exact map module prop.
 @Image1, @Image2, @Image3 — identity sheets for Serega, Pasha and Sasha.
-Priority: @Video1 controls the first frame and positions; @Image5 controls cave geometry; @Image4 controls the prop; @Image1–@Image3 control faces and costumes only. No reference may add a fourth person or revive the monster.
+Priority: @Image6 controls the first frame and positions; @Image5 controls cave geometry; @Image4 controls the prop; @Image1–@Image3 control faces and costumes only. No reference may add a fourth person or revive the monster.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with hood lowered, soaked and darkened by water.
@@ -2381,7 +2385,7 @@ CAVE / CONTINUITY LOCK:
 The monster is dead and stays completely inert; its cut surfaces are dark and cauterized, no fresh blood. Pasha and Sasha stay seated on their own sections for the whole take and do not follow. No exterior landscape, vehicle or sky is revealed: the cave exit is only the bright misty water curtain at the back.
 
 START STATE:
-Exact last frame of @Video1: all three seated and exhausted, Serega in the centre holding the single module in his hand, Pasha on the left, Sasha on the right, wet clothes, shallow water, mist.
+Match @Image6 exactly: all three seated and exhausted, Serega in the centre holding the single module between both hands, Pasha on the left, Sasha on the right, wet clothes, shallow water, mist.
 
 TIMELINE:
 [0:00–0:06] — THE MODULE SECURED
@@ -2391,7 +2395,7 @@ Hold the established three-shot. Serega looks down at the module; its amber pane
 Serega plants his boots on the wet stone and stands up from his monster section with tired, careful weight. He gives Pasha a small serious nod, then Sasha the same. Pasha answers with a minimal nod; Sasha glances at Pasha with a restrained "what was that about?" look. No words.
 
 [0:12–0:20] — WALKING AWAY
-Serega turns his back to the camera and walks upstage between the two seated men, along the wet rocky edge of the shallow water, past the dead carcass. The camera stays low behind Pasha and Sasha and slowly pushes in between them, keeping both seated in the foreground.
+Serega turns his back to the camera and walks upstage between the two seated men, along the wet rocky edge of the shallow water, past the dead carcass. The camera stays on its established frontal side and slowly pushes forward between Pasha and Sasha, keeping both seated in the foreground.
 
 [0:20–0:26] — TOWARD THE LIGHT
 Serega reaches the back of the cave; the bright curtain of falling water fills the background with cool misty light. His dark-purple silhouette becomes smaller and backlit; spray drifts around him.
@@ -2403,7 +2407,7 @@ END STATE:
 Serega is a backlit silhouette entering the bright water curtain at the back of the cave, the single module hidden in his robe; Pasha and Sasha remain seated in the foreground on separate monster sections; the monster stays dead. Clean cut point to a departure scene.
 
 CAMERA / SPACE:
-One continuous take, 35 mm natural perspective, slow low push-in from behind the two seated men; no cuts, no orbit, no camera shake. Stable screen positions: Pasha left, Sasha right, the water curtain at the back. Real cave scale; the walk is a few dozen metres, no new tunnels or staircases.
+One continuous take, 35 mm natural perspective, slow push-in from the established frontal three-shot between the two seated men; no cuts, no orbit, no camera shake. Stable screen positions: Pasha left, Sasha right, the water curtain at the back. Real cave scale; the walk is a few dozen metres, no new tunnels or staircases.
 
 PERFORMANCE:
 Adult, restrained, physically tired after a hard fight. Serega is calm and purposeful, almost formal; Pasha is resigned; Sasha is quietly puzzled. Play it completely straight: nobody comments on sitting on monster pieces, nobody laughs or looks into the camera.
@@ -2427,11 +2431,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 37 — Отлёт Серёги с Набу к лесной планете
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","naboo","forest_planet","map","bread_and_milk","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","naboo","forest_planet","map","bread_and_milk","continuity"]} -->
 
-**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с одним набусским фрагментом летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с лугового берега озера Набу, как в Scene 19. Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. Вид лесной планеты — из установочного плана 51:52–52:40, только планета. В монтаж достаточно ~10–15 с. До READY выгрузить из монтажа @Video1 (корабль и кабина Канцлера) и @Video2 (лесная планета). Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с одним набусским фрагментом летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с лугового берега озера Набу, как в Scene 19. Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, деревья</a> (только палитра и тип местности); @Video1 — корабль и кабина Канцлера из ч. 1 фильма, 09:20–09:55 (выгрузить перед запуском); @Video2 — установочный план лесной планеты, 51:52–52:40 (выгрузить; только планета).
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, деревья</a> (только палитра и тип местности); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -2447,7 +2451,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="S37-ship-source-part1-09m03s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:03: только корпус корабля.</figcaption></figure>
 </div>
 
-[Скачать @Video1 — фактический отрывок ч. 1, 09:20–09:55](https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view). Выгружен 14.10; сверка выбранной монтажной версии и @Video2 ещё требуется.
+[Скачать @Video1 — фактический отрывок ч. 1, 09:20–09:55](https://drive.google.com/file/d/1CLUP8dSgb0XsISVIsd8t5KZ_oCQZ_x_m/view). Архивный источник геометрии; в текущий запуск не загружается, вместо него используются реальные кадры @Image4 и @Image5.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="@Image6 — лесная планета, новый созданный референс" loading="lazy"></a><figcaption>@Image6 — лесная планета, новый созданный референс</figcaption></figure>
+</div>
 
 **Что происходит:** Серёга один в кабине своего корабля, замечает на пульте стикер с нарисованными хлебом и молоком, устало выдыхает и взлетает с лугового берега озера Набу. Корабль проходит облака и выходит в космос; Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче. Корабль уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
 
@@ -2456,12 +2464,13 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Serega alone departs Naboo in his own craft; the map module points him toward a distant forest planet
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — Serega's own craft and cockpit exactly as already shown earlier in the film: hull shape, colour, proportions, engines, cockpit layout, seats, windows and controls. It is the only authority for the vehicle; do not design a new ship.
+@Image4 — genuine film frame of Serega's own craft: exact hull shape, colour, proportions and engines. Vehicle design only.
+@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons visible in this source frame.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop.
 @Image3 — Naboo landscape palette only: calm blue lake, bright green lakeshore meadow, rounded trees, soft clear daylight. People and buildings in this image are not part of the shot.
-@Video2 — the destination planet's appearance from space exactly as already established in the film: colour, cloud cover, dense green forested continents. Use the planet only; any other ship in that footage must not appear.
-Priority: @Video1 controls the vehicle and cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the Naboo look; @Video2 controls the destination planet.
+@Image6 — the newly created destination-planet reference: blue-green globe, dense green forested continents, white cloud bands and thin blue atmosphere. Use its planet design only; show the planet small and distant in this scene, not at the reference image's large framing scale.
+Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the Naboo look; @Image6 controls the destination planet.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi.
@@ -2471,10 +2480,10 @@ Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded 
 BREAD-AND-MILK NOTE: one small square paper sticky note is stuck on the cockpit console beside the controls, with a simple hand-drawn doodle of a loaf of bread and a milk bottle — pictures only, no letters, words or numbers. It stays stuck in the same place for the whole scene.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Video1 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
 
 START STATE:
-Serega is already seated alone at the controls inside the cockpit from @Video1, the map module hidden in his robe, the craft resting on a green lakeshore meadow of Naboo, calm blue lake and rounded trees visible through the window.
+Serega is already seated alone at the controls inside the cockpit from @Image5, the map module hidden in his robe, the craft resting on a green lakeshore meadow of Naboo, calm blue lake and rounded trees visible through the window.
 
 TIMELINE:
 [0:00–0:05] — THE NOTE ON THE CONSOLE
@@ -2493,7 +2502,7 @@ Space: the blue-green curve of Naboo fills the lower frame. The craft levels out
 Back in the cockpit, after one clean time-compression cut: a small distant green forest planet is visible through the front window. Serega takes the module from his robe and holds it up; as its face turns toward the planet, the two amber panels brighten and pulse steadily. He gives the smallest nod, corrects the heading slightly with one hand, and slides the module back into his robe.
 
 [0:26–0:30] — THE FOREST PLANET AHEAD
-Exterior from behind: the same small craft accelerates once toward the distant planet with dense green forested continents and white cloud bands that match @Video2. Hold this composition; the craft is still far from the planet.
+Exterior from behind: the same small craft accelerates once toward the distant planet with dense green forested continents and white cloud bands that match @Image6. Hold this composition; the craft is still far from the planet.
 
 END STATE:
 The craft travels through open space toward the distant forest planet; no arrival, no other ship, no other characters. A clean cut point to the existing footage of the other Jedi pair, which follows separately.
