@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "reservation_id": "FILM-20261015-NEXT-B6",
+  "run_id": "chatgpt-b6-20261016T000903Z",
+  "scene_id": 28,
+  "variant": "B6",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+  "submitted_at": "2026-10-16T00:09:14Z",
+  "verified_at": "2026-10-16T00:10:00Z",
+  "status_at_verification": "init",
+  "submission": {
+    "channel": "Topview website in authenticated owner browser",
+    "create_clicks": 1,
+    "duplicate_check": "no full normalized B6 match among tasks since 2026-10-15",
+    "active_unlimited_before": 5,
+    "capacity": 6
+  },
+  "parameters": {
+    "model": "Wan 3.0",
+    "model_id": "qwen-wan3.0-video",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "prompt": {
+    "canonical_source": "video-prompts.md / Scene 28 / B6",
+    "sha256": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
+    "full_normalized_match": true,
+    "prompt_text_resolution": 1080
+  },
+  "references": [
+    {
+      "slot": "@Image1",
+      "label": "H28B",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "topview_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Ml9I3itIm7gIzr8nJHLJ1.png"
+    },
+    {
+      "slot": "@Image2",
+      "label": "Маша",
+      "path": "references/masha-laguna.webp",
+      "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+      "topview_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/noc4m65X54Dx2RqmvhyTe.webp"
+    },
+    {
+      "slot": "@Image3",
+      "label": "Лёша",
+      "path": "references/full/lesha.jpg",
+      "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+      "topview_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BLM6S318w7xaEmkza13mb.jpg"
+    },
+    {
+      "slot": "@Image4",
+      "label": "Виталик",
+      "path": "references/full/vitalik.jpg",
+      "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+      "topview_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BKtmit6jGe7R2cMOvg5yF.jpg"
+    }
+  ],
+  "owner_decisions": {
+    "scene_28_rows": 0,
+    "cancellation_or_conflict": false
+  },
+  "verification_source": "Topview read-only board task API after website submission",
+  "claim_commit": "14a9364ccbb57c52860abe7829e4a2f84fb0041c",
+  "editorial_approval": false
+}
