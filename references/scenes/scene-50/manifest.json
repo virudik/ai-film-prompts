@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-16T23:09:14.907896+00:00",
+  "updated_at": "2026-10-16T23:37:04.041896+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -42,6 +42,9 @@
     "code": "image_generation_moderation_blocked",
     "generator": "ChatGPT built-in image generation",
     "request_id": "97268457-e0d7-4090-a5e4-d717de110b96",
-    "details": "Generator returned HTTP400 moderation_blocked (other); no audience image produced. Do not bypass or automatically retry. Remains DRAFT; no Topview task submitted."
+    "details": "Generator returned HTTP400 moderation_blocked (other); no audience image produced. Do not bypass or automatically retry. Remains DRAFT; no Topview task submitted.",
+    "latest_attempt_at": "2026-10-16T23:37:04.041896+00:00",
+    "latest_request_id": "28705105-c373-41c0-83d5-5fcb45916da5",
+    "latest_attempt_scope": "After renewed owner request17.10: calm static adult Wookiee audience layout in exactH28B, no contact/action; output moderation blocked (other). No image produced; no further retry or bypass."
   }
 }
