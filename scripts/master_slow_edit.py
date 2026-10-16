@@ -75,7 +75,7 @@ def apply_plan(t, plan, date):
         decision = {"accept": "принято", "redo": "на переделку", "to_montage": "в монтаж"}[action]
         found = 0
         for i in range(rows_start, rows_end):
-            if re.match(rf"^\|\s*{sid}\s+—", lines[i]) and LABEL in lines[i]:
+            if re.match(rf"^\|\s*{sid}\s+[—·]", lines[i]) and LABEL in lines[i]:
                 lines[i] = lines[i].replace(LABEL, "✅ Решение владельца: " + decision)
                 lines[i] = lines[i].replace("ждёт решения владельца", "решение владельца применено")
                 found += 1
@@ -84,7 +84,7 @@ def apply_plan(t, plan, date):
     active_rows = [l for l in lines[rows_start:rows_end] if LABEL in l]
     active_by_scene = {}
     for l in active_rows:
-        sid = int(re.match(r"^\|\s*(\d+)\s+—", l).group(1))
+        sid = int(re.match(r"^\|\s*(\d+)\s+[—·]", l).group(1))
         active_by_scene.setdefault(sid, 0)
         active_by_scene[sid] += 1
     slow = sorted(active_by_scene)

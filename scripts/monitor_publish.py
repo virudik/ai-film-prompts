@@ -43,7 +43,8 @@ def main():
     known = {p["task_id"] for p in m["processed_tasks"]}
     for f in fin:
         if f["task_id"] not in known:
-            m["processed_tasks"].append({"task_id": f["task_id"], "scene_id": f["scene_id"], "final_status": f["final_status"], "finished_at": f["finished_at"]})
+            m["processed_tasks"].append({"task_id": f["task_id"], "scene_id": f["scene_id"], "final_status": f["final_status"], "finished_at": f["finished_at"],
+                                         **({"part": f["part"]} if f.get("part") else {})})
     m["processed_tasks"] = m["processed_tasks"][-m.get("retention", {}).get("processed_tasks_max", 200):]
     c = m["scan_cursor"]
     mode = cyc.get("scan_mode", "full")
@@ -81,7 +82,17 @@ def main():
                    started_at=a.get("started_at"), queue_count=a.get("queue_count"), topview_estimated_wait_seconds=a.get("wait_seconds"),
                    checked_at=T, topview_estimated_process_seconds=None, verified=True,
                    mapping_confidence=a.get("mapping_confidence", row.get("mapping_confidence", "")))
+        if a.get("part") or row.get("part"):
+            row["part"] = a.get("part") or row.get("part")
         t["active_tasks"].append(row)
+    # Sub-scene code of every task (A1, B6, «часть 2» …) kept after the task finishes, so the site can show which
+    # part of a multi-part scene is ready, running or not started (owner request 16.10.2026).
+    tp = dict(t.get("task_parts") or {})
+    for x in list(act) + list(fin):
+        if x.get("part"):
+            tp[x["task_id"]] = x["part"]
+    if tp:
+        t["task_parts"] = dict(list(tp.items())[-300:])
     sc = t.setdefault("scenes", {})
     for sid, tids in by_scene.items():
         lead = next(x for x in t["active_tasks"] if x["task_id"] == tids[0])

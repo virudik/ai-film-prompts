@@ -96,6 +96,36 @@ def scene_title(master, sid):
     return m.group(1).strip() if m else f"Сцена {sid}"
 
 
+def part_from_label(label):
+    """Sub-scene code of a master prompt block label: '28 B2' -> 'B2', '27 · Seedance 2.0 часть 2' -> 'Seedance 2.0
+    часть 2', '16' -> None (topview_prompt_match.label_for)."""
+    m = re.match(r"^\d+\s*(?:·\s*)?(.*)$", str(label or "").strip())
+    return (m.group(1).strip() or None) if m else None
+
+
+def part_from_confidence(text):
+    """Sub-scene code from a stored mapping_confidence: '… master block 28 B6 (robot)' -> 'B6'."""
+    m = re.search(r"master block (\d+[^()]*?) \(robot\)", str(text or ""))
+    return part_from_label(m.group(1)) if m else None
+
+
+def part_heading(master, sid, part):
+    """Title of the sub-scene heading '#### B6 · Танец 6 — …' inside scene `sid`, or None."""
+    m = re.search(rf"^## Сцена {sid} — .*?$(.*?)(?=^## |\Z)", master, re.M | re.S)
+    if not m or not part:
+        return None
+    h = re.search(rf"^#{{3,4}}\s+{re.escape(part)}\s*·\s*(.+)$", m.group(1), re.M)
+    return h.group(1).strip() if h else None
+
+
+def row_title(master, sid, part):
+    """First cell of a slow-table row: the sub-scene code is part of it, so the owner sees WHICH part runs."""
+    if not part:
+        return f"{sid} — {scene_title(master, sid)}"
+    sub = part_heading(master, sid, part)
+    return f"{sid} · {part} · {sub}" if sub else f"{sid} · {part} — {scene_title(master, sid)}"
+
+
 def table_rows(master):
     """Rows of the dedicated slow table keyed by task id → text of the row."""
     lines = master.split("\n")
@@ -166,9 +196,15 @@ def plan_cycle(scan, root, now, *, resolver=None):
                                    "занимает слот, но не совпала точно ни с одним промтом активной сцены. Робот ничего не публикует "
                                    "и ничего не угадывает: нужен ответ владельца (какая это сцена) или агент."})
 
+    known_parts = dict(ts.get("task_parts") or {})
     for a in mapped:
         if int(a["scene_id"]) not in scene_ids:
             reasons.append(f"scene_not_in_master:{a['scene_id']}")
+        prow = prev_rows.get(a["task_id"], {})
+        hit = resolved.get(a["task_id"]) or {}
+        a["part"] = (part_from_label(hit.get("label")) or part_from_confidence(a.get("mapping_confidence"))
+                     or prow.get("part") or part_from_confidence(prow.get("mapping_confidence"))
+                     or known_parts.get(a["task_id"]))
 
     finished = []
     for f in scan.get("finished_known", []):
@@ -177,8 +213,10 @@ def plan_cycle(scan, root, now, *, resolver=None):
         if f.get("scene_id") is None:
             reasons.append("finished_without_scene:" + f["task_id"][:8])
             continue
+        prow = prev_rows.get(f["task_id"], {})
+        part = prow.get("part") or part_from_confidence(prow.get("mapping_confidence")) or known_parts.get(f["task_id"])
         finished.append({"scene_id": int(f["scene_id"]), "task_id": f["task_id"], "final_status": f["final_status"],
-                         "finished_at": iso_z(f.get("completed_at")) or now_z(now)})
+                         "finished_at": iso_z(f.get("completed_at")) or now_z(now), **({"part": part} if part else {})})
 
     cur = {a["task_id"]: a for a in mapped}
     new_ids = sorted(set(cur) - set(prev_rows))
@@ -200,7 +238,7 @@ def plan_cycle(scan, root, now, *, resolver=None):
         a = cur[tid]
         if tid not in rows:
             plan["add"].append({"scene": int(a["scene_id"]), "task_id": tid, "model": a.get("model") or "модель неизвестна",
-                                "status": a["status"], "row_title": f"{a['scene_id']} — {scene_title(master, a['scene_id'])}"})
+                                "status": a["status"], "row_title": row_title(master, a["scene_id"], a.get("part"))})
     for f in finished:
         row = rows.get(f["task_id"])
         if row and mse.LABEL in row and "Технический результат получен" not in row and "Ошибка Topview" not in row \
@@ -252,7 +290,7 @@ def plan_cycle(scan, root, now, *, resolver=None):
             active.append({"scene_id": int(a["scene_id"]), "task_id": tid, "model": model,
                            "model_id": MODEL_IDS.get(model) or prow.get("model_id"),
                            "status": a["status"], "started_at": iso_z(a.get("created_at")) or prow.get("started_at"),
-                           "queue_count": a.get("queue_count"), "wait_seconds": a.get("wait_seconds"),
+                           "queue_count": a.get("queue_count"), "wait_seconds": a.get("wait_seconds"), "part": a.get("part"),
                            "mapping_confidence": a.get("mapping_confidence") or prow.get("mapping_confidence")
                            or "Topview task map (exact Scene mapping from the monitor's map)"})
         cycle = {"checked_at": scan["checked_at"], "active": active, "finished": finished, "scan_mode": mode,
@@ -378,6 +416,59 @@ def record_cycle(root, started, completed, health, phases, missing, note, topvie
     subprocess.run(cmd, check=True, capture_output=True, text=True)
 
 
+LEDGER_BLANK = {"result_received": False, "result_received_at": None, "reviewed": None, "reviewed_at": None,
+                "accepted": None, "needs_redo": None, "inserted_into_film": None, "montage_note": None,
+                "last_human_update_at": None}
+
+
+def ensure_ledger_rows(root, scene_ids):
+    """Add an EMPTY review-ledger row for every active scene that has none (a new scene was added to the master).
+
+    Same blank row as scripts/reconcile_review_ledger.py: no human decision is ever inferred. 16.10.2026 the
+    reconciler did not run after scenes 39–40 (the status rebuild was a bot push) and the ledger validator then
+    refused every robot publish for 3 h. Returns the added scene ids."""
+    path = Path(root) / "review-ledger.json"
+    led = read_json(path, None)
+    if not isinstance(led, dict) or not isinstance(led.get("scenes"), dict):
+        return []
+    added = [str(s) for s in sorted(int(x) for x in scene_ids) if str(s) not in led["scenes"]]
+    if not added:
+        return []
+    for sid in added:
+        led["scenes"][sid] = dict(LEDGER_BLANK)
+    path.write_text(json.dumps(led, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return added
+
+
+def record_failure(root, git, scan, now, started, reason, notifier):
+    """A publish that failed validation is a DEGRADED cycle, recorded once (like a hold) and announced once.
+
+    Before 16.10.2026 such a failure only printed an error: the site kept showing old telemetry with no reason
+    and nobody was told. Telemetry files are never written here, only automation-monitor-status.json."""
+    note = ("publish failed: " + reason)[:200]
+    status = read_json(Path(root) / "automation-monitor-status.json", {})
+    last = status.get("last_scheduled_cycle") or {}
+    if (last.get("runner") == f"{RUNNER}_scheduled_task" and last.get("health") == "degraded" and last.get("note") == note
+            and (minutes_since(last.get("completed_at"), now) or 1e9) < HOLD_REPEAT_MIN):
+        return
+    key = "publish_failed:" + re.sub(r"[^0-9A-Za-z_:,\[\]' -]", "", reason)[:120]
+    notified = set((status.get("notification_state") or {}).get("robot_notified_keys") or [])
+    try:
+        record_cycle(root, started, now_z(now), "degraded", ["topview_scan"], ["telemetry_publish"], note, scan.get("checked_at"))
+        if key not in notified:
+            mark_notified(root, [key])
+        if git.commit("GitHub robot: publish failed — " + reason[:70], ["automation-monitor-status.json"]) is None or not git.push():
+            git.reset()
+            return
+    except (subprocess.CalledProcessError, OSError):
+        git.reset()
+        return
+    if key not in notified:
+        notifier.post("Робот Topview: публикация не прошла проверку",
+                      f"Причина: `{reason[:300]}`. Телеметрия на сайте не обновляется, пока причина не устранена; "
+                      "робот повторяет попытку каждые 10 минут. Ничего не запускалось и не одобрялось.")
+
+
 def mark_notified(root, keys):
     path = Path(root) / "automation-monitor-status.json"
     d = read_json(path, {})
@@ -449,6 +540,9 @@ def run_on(root, scan, git, *, now, resolver, notifier):
             st, bad = rma.build_status(root, check_master, tmp_status, synced)
             if bad:
                 raise ValueError("validator: " + ", ".join(bad)[:200])
+            added = ensure_ledger_rows(root, st.get("scene_ids") or [])
+            if added:
+                print(f"::notice title=robot-telemetry::added empty review-ledger rows for new scenes {', '.join(added)}")
             ok, msg = rma.validate_ledger(root)
             if not ok:
                 raise ValueError("review-ledger: " + msg)
@@ -475,7 +569,8 @@ def run_on(root, scan, git, *, now, resolver, notifier):
             mark_notified(root, [e["key"] for e in fresh])
         except (ValueError, subprocess.CalledProcessError, AssertionError, KeyError) as e:
             git.reset()
-            print(f"::error title=robot-telemetry::publish validation failed ({type(e).__name__}: {str(e)[:160]}); nothing committed")
+            print(f"::error title=robot-telemetry::publish validation failed ({type(e).__name__}: {str(e)[:160]}); telemetry not committed")
+            record_failure(root, git, scan, now, started, f"{type(e).__name__}: {str(e)[:160]}", notifier)
             return 1
         finally:
             for t in (cyc_path, tmp_master, tmp_status):

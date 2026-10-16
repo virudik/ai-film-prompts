@@ -186,7 +186,7 @@ def retire_scene(text, scene_id, *, mode, date=None):
         raise NeedsOwner("строка оглавления сцены не найдена или не единственна")
     new = toc.sub("", new, count=1)
     # 3. slow table rows of this scene (finished/dropped rows only)
-    row = re.compile(rf"^\|\s*{scene_id}\s+—[^\n]*\n", re.M)
+    row = re.compile(rf"^\|\s*{scene_id}\s+[—·][^\n]*\n", re.M)
     for r in row.findall(new):
         if LABEL in r:
             raise NeedsOwner(f"в таблице медленной генерации у сцены {scene_id} есть активная строка")
