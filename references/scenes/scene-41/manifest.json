@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 41,
-  "updated_at": "2026-10-16T10:28:48Z",
+  "updated_at": "2026-10-16T22:29:10.886904+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "draft_inputs_pending",
+  "status": "ready",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -134,13 +134,45 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+      "asset_id": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+      "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+      "bytes": 355292,
+      "dimensions": [
+        854,
+        480
+      ],
+      "media_type": "image",
+      "role": "vehicle",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:29:10.886904+00:00",
+        "evidence": "Actual film part1 11:22; whole grey wedge cruiser, superstructure, bridge spheres and lit hull openings visible; no people, no black frame, no AI replacement."
+      },
+      "provenance": {
+        "kind": "actual_film_frame",
+        "source_name": "Серёгиус-копия часть 1.mp4",
+        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
+        "source_sha256": "99a10222b39210174dd28f19688f52049e2cf656184d5ca4b92cba87def06b15",
+        "timestamp_seconds": 682,
+        "extraction": "ffmpeg -ss 682, first decoded frame; unchanged"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [
     "references/full/serega.jpg"
   ],
   "location_refs": [
-    "references/scenes/scene-27/S27-Image5-topview-source.png"
+    "references/scenes/scene-27/S27-Image5-topview-source.png",
+    "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png"
   ],
   "prop_refs": [
     "references/scenes/scene-38/S38-Image3-scene35-last-frame.png"
@@ -156,11 +188,11 @@
     {
       "prompt": "main",
       "prompt_id": "S41",
-      "canonical_prompt_sha256": "b1889671eab2d38b9f74212bdfd762ceffef31c0d60d4e22919cee920f815fc3",
+      "canonical_prompt_sha256": "bc42b0ebeb5b31fa3e7a5c7a7e83c997b9b933710470280bfcc900367447ae42",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": null,
+      "generation_authorization": "Explicit owner command 16.10.2026: prepare 39–51 and queue after dance28",
       "slots": [
         {
           "slot": "@Image1",
@@ -193,26 +225,31 @@
           "input_status": "available"
         },
         {
-          "slot": "@Video1",
-          "canonical_role": "flagship_exterior",
-          "input_status": "required_not_available"
+          "slot": "@Image6",
+          "canonical_role": "vehicle",
+          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+          "input_status": "available"
         }
-      ]
+      ],
+      "characters": 6486
     }
   ],
-  "site_published": false,
-  "last_qc_at": "2026-10-16T10:28:48Z",
-  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
-  "remaining": [
-    "@Video1 — крейсер Канцлера снаружи из ч. 1 (≈11:20–11:50 по сборке [Р2]): выгрузить из монтажа перед запуском."
-  ],
+  "site_published": {
+    "scene_anchor": "#scene-41",
+    "linked_in_master": true,
+    "status": "pending_pages_verification"
+  },
+  "last_qc_at": "2026-10-16T22:29:10.886904+00:00",
+  "last_qc_scope": "Actual film part1 11:22; whole grey wedge cruiser, superstructure, bridge spheres and lit hull openings visible; no people, no black frame, no AI replacement.",
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+  "canonical_master_sha256": "6e2b4baf2ada60133aac5fa0b5f9a0138f886ca304f0a606aa6e075817890559",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "16.10: DRAFT, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval."
 }

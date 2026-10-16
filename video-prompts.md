@@ -2863,7 +2863,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 41 — Серёга увозит древний ПК с планеты ситхов
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","travel","sith_planet","ancient_computer","depart","bread_and_milk","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","travel","sith_planet","ancient_computer","depart","bread_and_milk","continuity"]} -->
 
 **Контекст использования:**
 
@@ -2876,7 +2876,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - Котов нет: в 33–38 Серёга один.
 - В монтаж 12–20 с.
 - **Входы-изображения есть:** ПК — фактический последний кадр результата Scene 35 (@Image2, тот же, что старт 38); корпус и кабина — кадры ч. 1 09:03 / 09:25 из пака Scene 37.
-- **До READY выгрузить:** @Video1 — внешний вид крейсера Канцлера из фильма (ч. 1 [Р1] 10:50–11:30 «корабль снаружи», ≈11:20–11:50 по сборке [Р2]).
+- **READY:** настоящий внешний вид крейсера извлечён из ч. 1, 11:22, сохранён как @Image6. Сцена добавлена в разрешённую очередь после танцев.
 - Создана по команде владельца 16.10.2026 (разбор — `reports/serega-travel-2026-10-14.md`).
 - Запуск — только по команде владельца.
 
@@ -2887,14 +2887,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a>;
 - @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
 - @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
-- @Video1 — крейсер Канцлера снаружи, ч. 1 (выгрузить).
+- @Image6 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">крейсер Канцлера снаружи, настоящий кадр ч. 1, 11:22</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" target="_blank" rel="noopener"><img src="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" alt="@Image2 — древний ПК"></a><figcaption>@Image2 — древний ПК</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины планеты ситхов"></a><figcaption>@Image3 — руины планеты ситхов</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure></div>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure><figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp" alt="@Image6 — крейсер, настоящий кадр ч. 1 11:22"></a><figcaption>@Image6 — крейсер, настоящий кадр ч. 1 11:22</figcaption></figure></div>
 
 **Что происходит:** На закате Серёга выходит из арки храма. Перед ним, поднятые Силой, плывут бежевый системный блок и массивный CRT-монитор; клавиатура у него под мышкой, провод болтается. Он заводит всё по рампе в кабину и пристёгивает монитор ремнём к пассажирскому креслу, рядом со стикером «хлеб и молоко» и корзинкой с грибами. Корабль взлетает с пыльной площади, уходит от охристой планеты и летит к огромному крейсеру Канцлера, к освещённому проёму ангара.
 
@@ -2907,9 +2907,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
 @Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
-@Video1 — Serega's huge imperial flagship exactly as already shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
+@Image6 — Serega's huge imperial flagship exactly as already shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
 @Image1 — absolute identity of SEREGA.
-Priority: @Image2 controls the computer objects; @Image3 controls the ruins; @Image4 controls the hull; @Image5 controls the cockpit; @Video1 controls the flagship; @Image1 controls Serega's face and costume.
+Priority: @Image2 controls the computer objects; @Image3 controls the ruins; @Image4 controls the hull; @Image5 controls the cockpit; @Image6 controls the flagship; @Image1 controls Serega's face and costume.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the entire scene. No cats, no Jedi, no Sith, no droids, no crew.
@@ -2920,7 +2920,7 @@ COCKPIT NOTE: the same small square paper sticky note with a simple hand-drawn d
 MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Image4 in every shot: parked on the dusty stone plaza at the foot of the temple stair at the start, then one lift-off, one climb out of the atmosphere, one approach to the flagship from @Video1. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
+One and the same craft from @Image4 in every shot: parked on the dusty stone plaza at the foot of the temple stair at the start, then one lift-off, one climb out of the atmosphere, one approach to the flagship from @Image6. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
 
 START STATE:
 Sunset outside the temple from @Image3. Serega's craft stands parked on the dusty plaza at the foot of the stair, hatch open. Serega appears in the dark temple arch at the top of the stair.
@@ -2939,7 +2939,7 @@ Exterior wide: the craft lifts off the plaza; dust swirls around the hooded stat
 Cockpit: Serega at the controls, the strapped dark CRT on the seat beside him, the ochre-red planet curving away below through the window into black space.
 
 [0:24–0:30] — TOWARD THE FLAGSHIP
-After one clean time-compression cut: exterior from behind; the small craft approaches the huge flagship from @Video1 and heads for its brightly lit hangar opening. Hold this composition; the craft is still outside.
+After one clean time-compression cut: exterior from behind; the small craft approaches the huge flagship from @Image6 and heads for its brightly lit hangar opening. Hold this composition; the craft is still outside.
 
 END STATE:
 The small craft flying toward the lit hangar opening of the huge flagship; inside it, the switched-off computer strapped to the passenger seat.
