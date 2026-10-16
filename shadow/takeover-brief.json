@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T13:02:51+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-16T14:49:00+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "a9953df73cd2c152b918c63453beb6273dbb24f7cd978ce696f1c9e0c66778e7",
-   "bytes": 61536
+   "sha256": "a8c33c57fcf7c539c142603275d002d2c7cdc4b9ab568b34a7d0400da68121a5",
+   "bytes": 63064
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "b1e07439006e06d963e0ca2d01a420b3627baffd27bab6eb3f5ecc5427913471",
-   "bytes": 499115
+   "sha256": "1516265f5b9a3bdb40dd3ca442d757c006985c4e0d68ff5db397bc1a612bb8bf",
+   "bytes": 572608
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 35847,
-  "above_marker_chars": 35847,
+  "chars": 36778,
+  "above_marker_chars": 36778,
   "recent_sections_below_marker": [],
-  "sha256_12": "1dcd6b0c5ad4",
+  "sha256_12": "f2059f693734",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -265,7 +265,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 30840,
+   "offset": 31692,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -287,7 +287,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 43817,
+   "offset": 44669,
    "chars": 13502,
    "sha256_12": "7afc53e5dc5f"
   },
@@ -307,7 +307,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 57319,
+   "offset": 58171,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -330,7 +330,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 68004,
+   "offset": 68856,
    "chars": 13057,
    "sha256_12": "ba90242da394"
   },
@@ -352,7 +352,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 81061,
+   "offset": 81913,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -372,7 +372,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 117331,
+   "offset": 118183,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -396,7 +396,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 247850,
+   "offset": 248702,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -420,7 +420,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 257043,
+   "offset": 257895,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -444,7 +444,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 266075,
+   "offset": 266927,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -462,7 +462,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275083,
+   "offset": 275935,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -482,7 +482,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 280959,
+   "offset": 281811,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -503,7 +503,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 287358,
+   "offset": 288210,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -525,7 +525,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 295290,
+   "offset": 296142,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -549,7 +549,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 305935,
+   "offset": 306787,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -570,7 +570,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 318795,
+   "offset": 319647,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -589,7 +589,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 329208,
+   "offset": 330060,
    "chars": 10109,
    "sha256_12": "01237ccbfc8e"
   },
@@ -611,7 +611,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 339317,
+   "offset": 340169,
    "chars": 13221,
    "sha256_12": "f242345a75e0"
   },
@@ -632,7 +632,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 352538,
+   "offset": 353390,
    "chars": 10889,
    "sha256_12": "ab216b32c33a"
   },
@@ -655,7 +655,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 363427,
+   "offset": 364279,
    "chars": 8983,
    "sha256_12": "2b230fa157f9"
   },
@@ -673,7 +673,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 372410,
+   "offset": 373262,
    "chars": 9703,
    "sha256_12": "902be5a48bd9"
   },
@@ -693,7 +693,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 382113,
+   "offset": 382965,
    "chars": 9535,
    "sha256_12": "b51962b79ebf"
   },
@@ -714,7 +714,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 391648,
+   "offset": 392500,
    "chars": 8973,
    "sha256_12": "fbd9d79190ec"
   },
@@ -734,7 +734,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 400621,
+   "offset": 401473,
    "chars": 7009,
    "sha256_12": "8c867a5eac85"
   },
@@ -757,7 +757,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 407630,
+   "offset": 408482,
    "chars": 9267,
    "sha256_12": "bfeace9a7862"
   },
@@ -781,9 +781,47 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 416897,
-   "chars": 10120,
-   "sha256_12": "f9245eb84014"
+   "offset": 417749,
+   "chars": 10144,
+   "sha256_12": "01daa80e6d3a"
+  },
+  {
+   "id": 49,
+   "title": "Финальные титры: все играют космический рок на инопланетных инструментах",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 6,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 427893,
+   "chars": 52944,
+   "sha256_12": "bc405dd6b5af"
+  },
+  {
+   "id": 50,
+   "title": "Финальные титры: вуки-фанаты слэмятся и трясут гривами",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 2,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 480837,
+   "chars": 14470,
+   "sha256_12": "266f8d2f0c9c"
   }
  ],
  "read_sets": {
