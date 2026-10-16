@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T17:22:27.061016+00:00",
+  "updated_at": "2026-10-16T17:26:11.229Z",
   "state": "running",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -68,7 +68,9 @@
         "run_id": "chatgpt-20261016-B7-1792152654924",
         "claimed_at": "2026-10-16T12:10:54.924Z",
         "actor": "ChatGPT Work",
-        "route": "free_web_gui"
+        "route": "free_web_gui",
+        "resumed_at": "2026-10-16T17:26:11.229Z",
+        "reconciliation": "Complete 11-board/571-video scan: no B7 task; last new video remains B6; previous attempt did not click Create. Resume same single claim."
       }
     },
     {
