@@ -3640,11 +3640,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 49 — Финальные титры: все играют космический рок на инопланетных инструментах
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28}],"tags":["dance_credits","alien_rock_band","imperial_hangar","same_H28B","identity_lock","instrument_ensemble","montage_insert"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28}],"tags":["dance_credits","alien_rock_band","imperial_hangar","same_H28B","identity_lock","instrument_ensemble","montage_insert"]} -->
 
-**Контекст использования:** По прямому решению владельца 16.10.2026 — отдельная музыкальная сцена для монтажа вперемешку с танцами Scene 28. Это не новый зал: **тот же самый H28B-disco ангар с имперской эмблемой на полу и шаттлом справа**. Пафосные мини-составы по 2–3 человека, каждый музыкальный клип снимается на 15 секунд с монтажно пригодными 3–6-секундными фрагментами. В конце общий ансамбль 9 взрослых людей + Алеся + Лучик и Рыжик (как утверждено в Scene 28). **DRAFT:** нужны отдельные визуально проверенные фото новых *музыкальных инструментов/постановки* по каждому составу; ни одной генерации Topview не запускать по факту появления текста. Неверные предыдущие AI-картинки отвергнуты: не использовать их как референсы. Внешность брать только из individual identity-файлов и G28-v2, костюмы не менять. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, уточнены приметы героев, 49F сокращена (9 146 → 7 360 знаков).
+**Контекст использования:** По прямому решению владельца 16.10.2026 — отдельная музыкальная сцена для монтажа вперемешку с танцами Scene 28. Это не новый зал: **тот же самый H28B-disco ангар с имперской эмблемой на полу и шаттлом справа**. Пафосные мини-составы по 2–3 человека, каждый музыкальный клип снимается на 15 секунд с монтажно пригодными 3–6-секундными фрагментами. В конце общий ансамбль 9 взрослых людей + Алеся + Лучик и Рыжик (как утверждено в Scene 28). **READY:** пять отдельных фотографий инструментов прошли визуальный QC и сохранены с manifest; каждый состав использует свой набор, общий 49F — все пять. Лица, костюмы и масштабы задают исходные identity-файлы и G28 v2. Запуск — по очереди после танцев, только безлимит / 0 кредитов. Неверные предыдущие AI-картинки отвергнуты: не использовать их как референсы. Внешность брать только из individual identity-файлов и G28-v2, костюмы не менять. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, уточнены приметы героев, 49F сокращена (9 146 → 7 360 знаков).
 
-**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, **главная неизменная локация**</a> · персональные @Image2–@Image4 — ссылки в соответствующих подсценах · для общего финала @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">утверждённый состав G28 v2</a>. Дополнительные instrument pose-фото будут прикреплены после отдельного визуального QC. Номера @Image локальны каждому copy-paste промту.
+**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, **главная неизменная локация**</a> · персональные @Image2–@Image4 — ссылки в соответствующих подсценах · для общего финала @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">утверждённый состав G28 v2</a>. Фотографии инструментов подключены отдельными слотами после визуального QC. Номера @Image локальны каждому copy-paste промту.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="H28B — тот же ангар-танцпол, обязательный фон" loading="lazy"></a><figcaption>H28B — тот же ангар-танцпол, обязательный фон</figcaption></figure>
@@ -3655,12 +3655,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ### 49A · Гитарный дуэт — Серёга и Юля · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты A</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — Серёга" loading="lazy"></a><figcaption>@Image2 — Серёга</figcaption></figure>
 <figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -3671,6 +3672,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; exact face, hair, build and costume as described below.
+@Image4 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3724,13 +3726,14 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 49B · Ритм-секция — Паша, Саша и Артём · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/pasha.jpg">Паша</a> · @Image3 = <a href="references/full/sasha.jpg">Саша</a> · @Image4 = <a href="references/full/artem.jpg">Артём</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/pasha.jpg">Паша</a> · @Image3 = <a href="references/full/sasha.jpg">Саша</a> · @Image4 = <a href="references/full/artem.jpg">Артём</a> · @Image5 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты B</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image2 — Паша" loading="lazy"></a><figcaption>@Image2 — Паша</figcaption></figure>
 <figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="@Image3 — Саша" loading="lazy"></a><figcaption>@Image3 — Саша</figcaption></figure>
 <figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image4 — Артём" loading="lazy"></a><figcaption>@Image4 — Артём</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -3742,6 +3745,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Паша; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Саша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Артём; exact face, hair, build and costume as described below.
+@Image5 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3797,13 +3801,14 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 49C · Тяжёлый драйв — Илюша, Лёша и Виталик · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/ilyusha.jpg">Илюша</a> · @Image3 = <a href="references/full/lesha.jpg">Лёша</a> · @Image4 = <a href="references/full/vitalik.jpg">Виталик</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/full/ilyusha.jpg">Илюша</a> · @Image3 = <a href="references/full/lesha.jpg">Лёша</a> · @Image4 = <a href="references/full/vitalik.jpg">Виталик</a> · @Image5 = <a href="references/scenes/scene-49/S49C-drums-wind-bass.png">инструменты C</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="@Image2 — Илюша" loading="lazy"></a><figcaption>@Image2 — Илюша</figcaption></figure>
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image3 — Лёша" loading="lazy"></a><figcaption>@Image3 — Лёша</figcaption></figure>
 <figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image4 — Виталик" loading="lazy"></a><figcaption>@Image4 — Виталик</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49C-drums-wind-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49C-drums-wind-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -3815,6 +3820,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Илюша; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Лёша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Виталик; exact face, hair, build and costume as described below.
+@Image5 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3870,12 +3876,13 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 49D · Космические синты — Маша Лагуна и Алеся · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/masha-laguna.webp">Маша Лагуна</a> · @Image3 = <a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png">Алеся</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/masha-laguna.webp">Маша Лагуна</a> · @Image3 = <a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png">Алеся</a> · @Image4 = <a href="references/scenes/scene-49/S49D-harp-small-synth.png">инструменты D</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="@Image2 — Маша Лагуна" loading="lazy"></a><figcaption>@Image2 — Маша Лагуна</figcaption></figure>
 <figure><a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" alt="@Image3 — Алеся" loading="lazy"></a><figcaption>@Image3 — Алеся</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49D-harp-small-synth.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49D-harp-small-synth.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -3886,6 +3893,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Маша Лагуна; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Алеся; exact face, hair, build and costume as described below.
+@Image4 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3939,12 +3947,13 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 49E · Кошачий ударный дуэт — Лучик и Рыжик · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/luchik.jpg">Лучик</a> · @Image3 = <a href="references/ryzhik.jpg">Рыжик</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/luchik.jpg">Лучик</a> · @Image3 = <a href="references/ryzhik.jpg">Рыжик</a> · @Image4 = <a href="references/scenes/scene-49/S49E-cat-paw-controllers.png">инструменты E</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image2 — Лучик" loading="lazy"></a><figcaption>@Image2 — Лучик</figcaption></figure>
 <figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image3 — Рыжик" loading="lazy"></a><figcaption>@Image3 — Рыжик</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49E-cat-paw-controllers.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49E-cat-paw-controllers.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -3955,6 +3964,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Лучик; exact fur pattern, size and natural cat body as described below; no clothes.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Рыжик; exact fur pattern, size and natural cat body as described below; no clothes.
+@Image4 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4008,11 +4018,16 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 49F · Все музыканты — общий пафосный финал · 15 с
 
-**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2 — полный ансамбль</a>. **Фотографии инопланетных инструментов:** ещё в работе, после QC могут быть добавлены новыми слотами без замены identity или H28B.
+**Входы (в этом порядке):** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2 — полный ансамбль</a> · @Image3 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты A</a> · @Image4 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты B</a> · @Image5 = <a href="references/scenes/scene-49/S49C-drums-wind-bass.png">инструменты C</a> · @Image6 = <a href="references/scenes/scene-49/S49D-harp-small-synth.png">инструменты D</a> · @Image7 = <a href="references/scenes/scene-49/S49E-cat-paw-controllers.png">инструменты E</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точная H28B-локация" loading="lazy"></a><figcaption>@Image1 — точная H28B-локация</figcaption></figure>
 <figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — утверждённый G28 v2" loading="lazy"></a><figcaption>@Image2 — утверждённый G28 v2</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image3 — инструменты" loading="lazy"></a><figcaption>@Image3 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49C-drums-wind-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49C-drums-wind-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49D-harp-small-synth.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49D-harp-small-synth.png.webp" alt="@Image6 — инструменты" loading="lazy"></a><figcaption>@Image6 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49E-cat-paw-controllers.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49E-cat-paw-controllers.png.webp" alt="@Image7 — инструменты" loading="lazy"></a><figcaption>@Image7 — инструменты</figcaption></figure>
 </div>
 
 ```text
@@ -4022,6 +4037,11 @@ Optimized for Seedance 2.0 | Photoreal cinematic alien-rock performance, dramati
 REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B: PRIMARY EXACT LOCATION. This is the established imperial starship hangar/dance floor, not a new arena. Preserve geometry: big rear opening into space, the shuttle at frame-right, existing wall lights and imperial floor circle, fixed pillars and industrial walls. Lighting blue, magenta/violet with sparse amber accents.
 @Image2 — approved G28-full-ensemble-Alesya-v2: ABSOLUTE ALL-CAST IDENTITY, original wardrobe, true tiny Ewok and domestic-cat scales, and overall ensemble composition. NOT a reference for new concert props.
+@Image3 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
+@Image4 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
+@Image5 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
+@Image6 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
+@Image7 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
 Priority: @Image2 is the authority for every character's face, costume and size; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4220,9 +4240,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ## Сцена 51 — Финальные титры: рок-финал с разбиванием инопланетных инструментов
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
 
-**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **DRAFT:** сначала разместить сцену на сайте; далее отдельно готовить и QC референсные фотографии инструментов и постановки. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **READY:** фотографии инструментов 49A/49B и постановка замаха прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после 50; 51B после 51A, без автоматического повторения. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
 
 **Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">оригинальный H28B-ангар</a>; @Image2 = <a href="references/full/serega.jpg">Серёга</a>; @Image3 = <a href="references/full/yulya.jpg">Юля</a>; @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Абсолютный приоритет сохранения настоящих лиц и костюмов, а также геометрии H28B. <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2</a> — вспомогательный референс состава Scene 49, не слот генерации.
 
@@ -4232,13 +4252,16 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
 <figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image4 — Паша" loading="lazy"></a><figcaption>@Image4 — Паша</figcaption></figure>
 <figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 v2 — вспомогательный общий состав" loading="lazy"></a><figcaption>G28 v2 — вспомогательный общий состав</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image6 — инструменты" loading="lazy"></a><figcaption>@Image6 — инструменты</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51-pre-impact-pose.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51-pre-impact-pose.png.webp" alt="@Image7 — постановка замаха" loading="lazy"></a><figcaption>@Image7 — постановка замаха</figcaption></figure>
 </div>
 
 **Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают часть своих инопланетных инструментов о пол или стойки. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
 
 ### 51A · Последний аккорд и замах · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-pre-impact-pose.png">постановка замаха</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4249,6 +4272,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
 @Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
 @Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
+@Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
+@Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
+@Image7 — POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4300,7 +4326,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 51B · Разбивают инструменты — рок-кульминация · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-pre-impact-pose.png">постановка замаха</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4311,6 +4337,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
 @Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
 @Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
+@Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
+@Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
+@Image7 — POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

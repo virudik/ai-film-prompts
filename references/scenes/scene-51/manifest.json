@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-16T23:07:28.783738+00:00",
-  "status": "DRAFT",
-  "authority": "GitHub main/video-prompts.md; exact originals only",
+  "updated_at": "2026-10-16T23:09:14.907896+00:00",
+  "status": "ready",
+  "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
     {
       "path": "references/scenes/scene-28/H28B-disco.png",
@@ -63,54 +63,204 @@
         "51A",
         "51B"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "asset_id": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "role": "prop",
+      "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+      "bytes": 2499199,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:37:59.365600+00:00",
+        "evidence": "Two separate rigid playable props: black/blue six-string lead with ring core, silver/violet four-string bass; original H28B bay/planet/shuttle-right/emblem retained, no people, stands secondary."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Two instrument-only references in exact H28B: Serega black-metal six-blue-string ring-core guitar and Yulya silver-violet four-string nacelle bass. Full props, realistic frets/bridges, no people; original background geometry."
+      },
+      "applies_to": [
+        "49A",
+        "49F",
+        "51A",
+        "51B"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+      "asset_id": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+      "role": "prop",
+      "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+      "bytes": 2491681,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:41:06.695081+00:00",
+        "evidence": "Bronze four-string bass, separate cobalt rhythm guitar and three-ring percussion on stable stand with two sticks; exact H28B bay/planet/shuttle-right/emblem retained; no faces."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Three instrument-only props in exact H28B: Pasha bronze four-amber-string gravibass; Sasha cobalt six-string twin-rail guitar; Artem three-ring percussion console with two sticks; rigid playable mechanics, original background."
+      },
+      "applies_to": [
+        "49B",
+        "49F",
+        "51A",
+        "51B"
+      ]
     }
   ],
   "approved": [],
   "rejected": [
     "Wrong generated people and new arena versions, prohibited"
   ],
-  "remaining": [
-    "Photo references: exact instrument poses and impact geometry with approved H28B and faces, each reviewed and saved before new generation",
-    "51B may use actual end frame of 51A if/when available, not fictional frame",
-    "No DRAFT to READY until full QC"
-  ],
+  "remaining": [],
   "prompt_reference_mapping": [
     {
       "prompt": "51A",
-      "status": "DRAFT",
-      "slots": {
-        "@Image1": "references/scenes/scene-28/H28B-disco.png",
-        "@Image2": "references/full/serega.jpg",
-        "@Image3": "references/full/yulya.jpg",
-        "@Image4": "references/full/pasha.jpg"
-      }
+      "status": "READY",
+      "canonical_prompt_sha256": "458384de9cb8bc82e2e496ac393cf52c8e7a6897661369cb44060db465ae385f",
+      "characters": 5548,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
+          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "required": true,
+          "input_status": "available"
+        }
+      ]
     },
     {
       "prompt": "51B",
-      "status": "DRAFT",
-      "slots": {
-        "@Image1": "references/scenes/scene-28/H28B-disco.png",
-        "@Image2": "references/full/serega.jpg",
-        "@Image3": "references/full/yulya.jpg",
-        "@Image4": "references/full/pasha.jpg"
-      }
+      "status": "READY",
+      "canonical_prompt_sha256": "6b1edf94a64646f14f279a054890135c567615e548161a7b6cfa78436d9ee678",
+      "characters": 5632,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
+          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "required": true,
+          "input_status": "available"
+        }
+      ]
     }
   ],
   "site_published": {
     "scene_anchor": "#scene-51",
-    "gallery_paths": [
-      "references/scenes/scene-28/H28B-disco.png",
-      "references/full/serega.jpg",
-      "references/full/yulya.jpg",
-      "references/full/pasha.jpg",
-      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png"
-    ],
-    "status": "pending verification"
+    "linked_in_master": true,
+    "status": "pending_pages_verification"
   },
   "invariants": [
     "Identity sheets override invented details",
     "H28B exact original is only stage",
     "Safety for cats, tiny Ewok and fans",
-    "No automatic Topview launch"
-  ]
+    "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
+  ],
+  "canonical_master_sha256": "f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669",
+  "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
 }
