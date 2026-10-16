@@ -407,6 +407,32 @@
         "No paid/automatic Topview generation",
         "No changed original faces or wardrobe"
       ]
+    },
+    {
+      "work_id": "FILM-20261016-ROCK-51",
+      "title": "Scene 51 — рок-финал: разбивание инопланетных инструментов",
+      "status": "in_progress",
+      "verified_at": "2026-10-16",
+      "authorization": "Explicit owner command in Project chat: follow handoff and publish Scene 51 on website",
+      "done": [
+        "Created full 51A/B standalone 15-second production prompts for Seedance 2.0",
+        "Canonical H28B exact-location and Serega/Yulya/Pasha original identity references linked",
+        "Registered DRAFT stage and Topview matcher unique 51A/51B labels"
+      ],
+      "next_actions": [
+        "Verify integration tests, canonical status health=ok and GitHub Pages successful publication",
+        "Later create photographic instrument/pose reference(s) with visual QC and save to scene51 GitHub manifest",
+        "Promote DRAFT to READY only after evidence; no automatic Topview runs"
+      ],
+      "canonical_refs": [
+        "video-prompts.md#scene-51",
+        "references/scenes/scene-51/manifest.json",
+        "NEW-CHAT-HANDOFF.md"
+      ],
+      "constraints": [
+        "No wrong faces or other arena",
+        "No unapproved video launch, deletion, approval or credit spending"
+      ]
     }
   ],
   "rules": [

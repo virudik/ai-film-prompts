@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**27 сцен к генерации/доработке · 54 полных текста промта**
+**28 сцен к генерации/доработке · 56 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **28** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **16.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **27 актуальных сцен и 54 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **16.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **28 актуальных сцен и 56 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26 и 29** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -73,6 +73,7 @@
 | 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 42: червь падает между дуэлянтами, меч Илюши гаснет, модуль Силой летит в руку Канцлера, Серёга уходит в бурю (D6). DRAFT до результата 42. |
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
 | 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. DRAFT до точного постановочного кадра и QC. |
+| 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, вуки-фанаты 50 | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
 
 ---
 
@@ -4206,3 +4207,151 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ---
 
+<a id="scene-51"></a>
+
+## Сцена 51 — Финальные титры: рок-финал с разбиванием инопланетных инструментов
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
+
+**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **DRAFT:** сначала разместить сцену на сайте; далее отдельно готовить и QC референсные фотографии инструментов и постановки.
+
+**Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">оригинальный H28B-ангар</a>; @Image2 = <a href="references/full/serega.jpg">Серёга</a>; @Image3 = <a href="references/full/yulya.jpg">Юля</a>; @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Абсолютный приоритет сохранения настоящих лиц и костюмов, а также геометрии H28B. <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2</a> — вспомогательный референс состава Scene 49, не слот генерации.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-28/H28B-disco.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28B-disco.png" alt="@Image1 — точный ангар H28B" loading="lazy"></a><figcaption>@Image1 — точный ангар H28B</figcaption></figure>
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — Серёга" loading="lazy"></a><figcaption>@Image2 — Серёга</figcaption></figure>
+<figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
+<figure><a href="references/full/pasha.jpg" target="_blank" rel="noopener"><img src="references/full/pasha.jpg" alt="@Image4 — Паша" loading="lazy"></a><figcaption>@Image4 — Паша</figcaption></figure>
+<figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 v2 — вспомогательный общий состав" loading="lazy"></a><figcaption>G28 v2 — вспомогательный общий состав</figcaption></figure>
+</div>
+
+**Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают часть своих инопланетных инструментов о пол или стойки. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
+
+### 51A · Последний аккорд и замах · 15 с
+
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Других людей не добавлять.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic hard-rock finale insert, same exact Scene 28 H28B hangar, same approved cast and wardrobe as Scene 49, ending phase BEFORE the actual destruction. This clip is the dramatic setup for the instrument-smash payoff.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE EXACT H28B hangar from Scene 28 and 49; preserve the original imperial emblem on the dance floor, shuttle at frame-right, space opening, blue/magenta and amber practical lights, same walls and floor.
+@Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
+@Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
+@Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
+Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. The album song is not reproduced; sync to it in editing. Instruments are props only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
+YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
+PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
+Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+
+LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
+Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
+
+START STATE:
+Same original three characters and three intact alien instruments, in their Scene 49 positions inside H28B. Serega at frame-left, Yulya midframe and Pasha frame-right, with clear empty floor areas in front. The Wookiee fans cheer well behind them. The fixed shuttle is on the right.
+
+TIMELINE:
+[0:00–0:05] — FINAL UNISON CHORD
+The band hits one massive synchronized final chord in the same H28B layout. Camera sees enough of the floor and shuttle to prove this is the identical hangar. The lead players lean into the hit. Wookiees in the audience answer with a loud excited reaction.
+
+[0:05–0:10] — THE PAUSE OF GLORY
+A dramatic micro-pause. Serёga raises his blue lead guitar, Yulya grips her violet bass, Pasha angles his bronze gravibass downwards. Smoke and disco lights thicken the atmosphere. The crowd realises what is about to happen.
+
+[0:10–0:15] — DRAWBACK BEFORE IMPACT
+The selected musicians take one clear wind-up motion toward smashing. Freeze the energy just before impact: instruments high or pulled back, faces proud and intense, Wookiees roaring and throwing manes back. End on a perfect cut point that leads straight into the destruction shot.
+
+END STATE:
+All THREE instruments remain INTACT, visibly held above the empty floor areas in a controlled dramatic wind-up. Two-second pre-impact hold for the edit; NO debris or destruction in 51A.
+
+CAMERA / SPACE:
+One continuous cinematic shot in the SAME H28B hangar, with a controlled dolly-in or low-angle push. No teleporting, no changing to a different arena. Keep spatial continuity with Scene 49–50.
+
+PERFORMANCE:
+Extremely pompous theatrical rock-star performance. One synchronized chord, tense comedic pause and slow careful wind-up, real hand-to-neck physics. Do not break the props in this part.
+
+LIGHTING / MATERIALS:
+Same H28B blue-magenta disco wash with small amber practicals and mild haze. Metallic surfaces, robes, fur and instruments catch real highlights. No redesign.
+
+AUDIO:
+Original non-copyrighted heavy-rock finale sting only, synced to the final chord. Roars from Wookiee fans, metallic stage resonance, instrument hum, and breath/exertion. No lyrics, no spoken dialogue.
+
+DIALOGUE / VOCALS:
+No speech. Wookiee cheering/roaring only. Cats may give brief natural reaction sounds but no human-like voices.
+
+NEGATIVE PROMPT:
+Wrong hangar, wrong faces, different costumes, different stage, smashing already happens too early, new arena, cartoon look, blood, injuries, human crowd instead of Wookiees, cats in danger, duplicated instruments, black bars, subtitles, watermarks.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+### 51B · Разбивают инструменты — рок-кульминация · 15 с
+
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Других людей не добавлять.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal cinematic hard-rock destruction payoff in the exact same H28B hangar, immediately following the setup of 51A. This is the actual triumphant instrument-smash moment.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — ABSOLUTE EXACT H28B hangar from Scene 28 and 49; preserve the original imperial emblem on the dance floor, shuttle at frame-right, space opening, blue/magenta and amber practical lights, same walls and floor.
+@Image2 — EXACT SEREGA face and deep purple Chancellor robe from his approved individual reference.
+@Image3 — EXACT YULYA face and her dark armoured costume, long chestnut hair, shoulder pieces and cape.
+@Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
+Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. The album song is not reproduced; sync to it in editing. Instruments are props only.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchanged face and deep-purple Chancellor robe; plays the same rigid black-metal alien LEAD GUITAR with SIX physical glowing-blue strings and one blue ring resonance core as Scene 49.
+YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
+PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
+Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+
+LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
+Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
+
+START STATE:
+Direct continuation of 51A's pre-impact position: the same faces, costumes, and INTACT three distinct instruments held safely above three empty non-overlapping areas of the exact H28B floor. Wookiees at a safe distance behind, no cats or tiny Alesya in impact area.
+
+TIMELINE:
+[0:00–0:05] — IMPACT
+Open right on the decisive strike. The three distinct guitars and basses are individually smashed onto separate unoccupied H28B floor marks. A shower of small rigid fragments and sparks bursts outward in a clear controlled pattern. The performers’ faces show proud intensity.
+
+[0:05–0:10] — CROWD ERUPTS
+Wookiee fans in the same H28B space roar, pump fists and violently headbang in celebration. Some band members lift broken necks or fragments in victory. The cats react from a safe distance, startled but not endangered.
+
+[0:10–0:15] — VICTORY TABLEAU
+The camera settles into a heroic end pose: broken instrument pieces on the reflective floor, smoke and colored light around the musicians, several players holding final victory stances, Wookiee fans still cheering behind them. End on a clean, montage-friendly finishing frame.
+
+END STATE:
+Three instruments each fractured only ONCE upon distinct floor contacts; coherent outer-shell pieces and three proud uninjured musicians remain in exact H28B. Wookiees behind, clean two-second heroic ending for montage.
+
+CAMERA / SPACE:
+Single continuous physically coherent shot. Keep enough architecture visible to confirm the same H28B hangar and same shuttle orientation. No cut to a different venue. No chaotic handheld collapse.
+
+PERFORMANCE:
+One real impact per original instrument in an unoccupied floor area, then proud triumphant poses. The fans celebrate and headbang behind; no human attack or injury, cats stay safe.
+
+SAFETY / TONE:
+No blood, no bodily harm, no limbs struck by debris, no dangerous attack behavior. The instrument-smash is theatrical stage action only. Keep it triumphant, absurdly pompous and montage-friendly.
+
+LIGHTING / MATERIALS:
+Same magenta-blue disco lighting, amber practicals, reflective floor, haze and real metal textures from Scene 28 / 49 / 50. Spark effects are brief and local.
+
+AUDIO:
+Original non-copyrighted final rock hit, destructive crunches, shattering instrument shells, metallic clang, crowd roar, Wookiee cheers and room echo. No lyrics, no spoken dialogue.
+
+DIALOGUE / VOCALS:
+No speech. Wookiee roars only. No subtitles or narration.
+
+NEGATIVE PROMPT:
+Wrong location, new arena, wrong cast, gore, injuries, fire engulfing the set, cats under debris, broken body parts, random explosions, different costumes, crowd crush, cartoon rendering, black bars, text overlays, watermarks.
+
+FRAME FILL / NO BARS:
+Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pillarboxing, no decorative borders, no text overlays.
+```
+
+---

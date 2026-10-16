@@ -38,6 +38,8 @@ class PromptMatch(unittest.TestCase):
             self.assertIn("49" + suffix, labels)
         self.assertIn("50A", labels)
         self.assertIn("50B", labels)
+        self.assertIn("51A", labels)
+        self.assertIn("51B", labels)
         project = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))
         self.assertEqual(project["health"], "ok")
         self.assertNotIn("20 · песня 13", labels)  # scene 20 is retired and permanently reserved

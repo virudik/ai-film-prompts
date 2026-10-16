@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "scene_id": 51,
+  "updated_at": "2026-10-16",
+  "status": "DRAFT",
+  "authority": "GitHub main/video-prompts.md; exact originals only",
+  "references": [
+    {
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "qc": "canonical original from 28"
+    },
+    {
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "qc": "approved individual original"
+    },
+    {
+      "path": "references/full/yulya.jpg",
+      "role": "identity",
+      "qc": "approved individual original"
+    },
+    {
+      "path": "references/full/pasha.jpg",
+      "role": "identity",
+      "qc": "approved individual original"
+    },
+    {
+      "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "role": "ensemble_composition_helper",
+      "qc": "approved Scene28 group reference; not a slot"
+    }
+  ],
+  "approved": [],
+  "rejected": [
+    "Wrong generated people and new arena versions, prohibited"
+  ],
+  "remaining": [
+    "Photo references: exact instrument poses and impact geometry with approved H28B and faces, each reviewed and saved before new generation",
+    "51B may use actual end frame of 51A if/when available, not fictional frame",
+    "No DRAFT to READY until full QC"
+  ],
+  "prompt_reference_mapping": [
+    {
+      "prompt": "51A",
+      "status": "DRAFT",
+      "slots": {
+        "@Image1": "references/scenes/scene-28/H28B-disco.png",
+        "@Image2": "references/full/serega.jpg",
+        "@Image3": "references/full/yulya.jpg",
+        "@Image4": "references/full/pasha.jpg"
+      }
+    },
+    {
+      "prompt": "51B",
+      "status": "DRAFT",
+      "slots": {
+        "@Image1": "references/scenes/scene-28/H28B-disco.png",
+        "@Image2": "references/full/serega.jpg",
+        "@Image3": "references/full/yulya.jpg",
+        "@Image4": "references/full/pasha.jpg"
+      }
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-51",
+    "gallery_paths": [
+      "references/scenes/scene-28/H28B-disco.png",
+      "references/full/serega.jpg",
+      "references/full/yulya.jpg",
+      "references/full/pasha.jpg",
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png"
+    ],
+    "status": "pending verification"
+  },
+  "invariants": [
+    "Identity sheets override invented details",
+    "H28B exact original is only stage",
+    "Safety for cats, tiny Ewok and fans",
+    "No automatic Topview launch"
+  ]
+}
