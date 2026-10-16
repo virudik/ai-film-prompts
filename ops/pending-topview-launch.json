@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "reservation_id": "FILM-20261015-NEXT-B6",
-  "state": "waiting_for_slot",
-  "updated_at": "2026-10-15T18:55:18.057239Z",
+  "state": "claimed",
+  "updated_at": "2026-10-16T00:09:03Z",
   "authorization": {
     "source": "Owner instruction in current chat, 2026-10-15 16:10 Europe/Moscow: select next ready scene and launch when a slot frees",
     "max_submissions": 1,
@@ -45,7 +45,12 @@
   ],
   "visual_qc_at": "2026-10-15T18:55:18.057239Z",
   "task_id": null,
-  "claim": null,
+  "claim": {
+    "run_id": "chatgpt-b6-20261016T000903Z",
+    "claimed_at": "2026-10-16T00:09:03Z",
+    "runner": "chatgpt_scheduled_task",
+    "reason": "free_slot_verified_5_of_6; browser_authenticated; package_and_form_verified"
+  },
   "automation": {
     "id": "6acae6ab433481919e88665c520b8ef2",
     "status": "enabled_verified_update_response",
