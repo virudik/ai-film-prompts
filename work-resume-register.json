@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T22:32:11.599509+00:00",
+  "last_updated_at": "2026-10-16T22:35:03.308269+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-16T22:32:11.599509+00:00",
+      "verified_at": "2026-10-16T22:35:03.308269+00:00",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -446,7 +446,8 @@
         "Shared shuttle43/44 close reference saved after QC;43 READY and queued;44 remains blocked on actual result43.",
         "47: genuine final frame899 of archived Scene32 extracted and visually checked, saved with source SHA/provenance, mapped as Image6; READY and queued priority106. No Topview submission; six active slots.",
         "Scene41: Actual film part1 11:22; whole grey wedge cruiser, superstructure, bridge spheres and lit hull openings visible; no people, no black frame, no AI replacement. Saved original frame/provenance/thumbnail, READY and queued. No generation.",
-        "Scene42: Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity. Saved original frame/provenance/thumbnail, READY and queued. No generation."
+        "Scene42: Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity. Saved original frame/provenance/thumbnail, READY and queued. No generation.",
+        "Scene39: Real camp shot from part2 14:16: two fish-filled imperial crates and caught fish by stone-ring fire. Use objects only, exclude both sleepers and night lighting. Actual shore geometry and sunset are separate Image4; no invented empty-film frame. Saved original frame/provenance/thumbnail, READY and queued. No generation."
       ],
       "next_actions": [
         "B8 → B9 → B10 as slots free; B3 after actual B2/C28. Do not repeat existing submissions.",

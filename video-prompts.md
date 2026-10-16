@@ -2648,7 +2648,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 39 — Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","travel","landing","naboo","lake","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","travel","landing","naboo","lake","continuity"]} -->
 
 **Контекст использования:**
 
@@ -2663,8 +2663,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Комедийный контраст:** пара в панике бежала и прыгала, а Серёга спокойно входит в воду в мантии. Персонажи под водой без снаряжения — это правило мира фильма ([FA]: «персонажи под водой в своей одежде»).
 - В монтаж достаточно 10–15 с.
 - **Корпус корабля** — фактический кадр ч. 1, 09:03 (@Image3), тот же, что в Scene 37; видеовход корабля заменён этим кадром, как в 37.
-- **До READY выгрузить из монтажа:** @Video1 — берег со стоянкой сразу после прыжка пары (около 44:45–45:05 по сборке [Р2]; ящики с рыбой — участки 53–55). Таймкоды [Р2] — сквозные по сборке 01:03:42, с таймкодами частей не взаимозаменяемы.
-- Без этого входа DRAFT. Запуск — только по команде владельца.
+- **READY:** найдены настоящие кадры берега (ч. 2 14:27, перед прыжком) и стоянки с ящиками (ч. 2 14:16, до бега). В этой старой двухчастной версии прыжок происходит на 14:29–14:31; это не таймкод 44:45–45:05 сборки [Р2]. Отдельного общего кадра пустой стоянки после прыжка нет: @Image4 фиксирует берег/закат, @Image5 — реквизит, людей из обоих исключить.
+- Подготовлена и добавлена в разрешённую очередь после танцев; старт после ухода пары задаётся сценарием, а не выдаётся за извлечённый кадр.
 - Создана по команде владельца 16.10.2026 (разбор маршрута Серёги — `reports/serega-travel-2026-10-14.md`).
 
 **Референсы:**
@@ -2672,12 +2672,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
 - @Image2 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, дворец на дальнем берегу</a> (только пейзаж; рыбаков с кадра не переносить);
 - @Image3 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
-- @Video1 — брошенная стоянка у озера после прыжка пары, около 44:45–45:05 по сборке (выгрузить перед запуском).
+- @Image4 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег перед прыжком, ч. 2 14:27</a>, только геометрия и вечерний свет.
+- @Image5 — <a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png">стоянка с ящиками рыбы, ч. 2 14:16</a>, только реквизит; людей и ночной свет не переносить.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image2 — озеро Набу"></a><figcaption>@Image2 — озеро Набу</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure></div>
+<figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure><figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
 
 **Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
 
@@ -2687,10 +2688,11 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Serega alone 
 
 REFERENCES / AUTHORITY ORDER:
 @Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof in this source frame are not part of the shot. Do not design a new ship.
-@Video1 — the exact Naboo lakeshore fishing spot as already established in the film, moments after two fishermen ran off and jumped into the lake: shoreline shape, meadow, camp leftovers, light direction and time of day. It controls the location layout and light; no person from it appears in this shot.
+@Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene, not a claim about this reference.
+@Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered caught fish and stone-ring fire spot. Props only; remove the sleeping people and do not copy its night lighting or lit fire. The camp is now deserted.
 @Image2 — Naboo landscape look: calm blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
 @Image1 — absolute identity of SEREGA.
-Priority: @Image3 controls the vehicle; @Video1 controls the location layout and light; @Image2 fills in landscape detail where @Video1 is ambiguous; @Image1 controls Serega's face and costume.
+Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats.
@@ -2699,10 +2701,10 @@ VEHICLE / LANDING LOCK — CRITICAL:
 One and the same craft from @Image3 in every shot: same silhouette, colour, engine glow and scale. Realistic, unhurried landing: smooth descent, a short flare, touchdown on its landing gear, engines spooling down. After touchdown the craft stays parked on the meadow for the rest of the scene. No second ship, no water vehicle driving, no crash, no hovering speeder.
 
 CAMP / PROP LOCK:
-The abandoned camp is exactly what @Video1 shows: fishing rods dropped on the grass, crates overflowing with caught fish, a few empty brown bottles, a cold fire spot. Do not add tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object exists in this scene.
+Use the actual crates and fish from @Image5, the fishing rods and brown bottles from @Image2, and the actual bank geometry and evening light from @Image4. Their abandoned arrangement is the new shot: dropped rods, fish-filled crates, a few empty brown bottles and a cold fire spot. Do not add tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object exists in this scene.
 
 START STATE:
-Evening over the Naboo lake as in @Video1: the calm water still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is a small shape descending from the sky above the far end of the lake.
+Evening over the Naboo lake as in @Image4: the calm water still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is a small shape descending from the sky above the far end of the lake.
 
 TIMELINE:
 [0:00–0:06] — DESCENT OVER THE LAKE
@@ -2730,7 +2732,7 @@ PERFORMANCE:
 Serega is calm, cold and purposeful. The contrast with the fishermen's frantic run lies in his total lack of hurry. His disapproval of the fish is a tiny movement of the eyes, not a gesture to the camera. No speech, no smile.
 
 LIGHTING / MATERIALS:
-Warm low evening sun matching @Video1, long shadows across the meadow, soft reflections on the lake. Engine heat shimmer fading after touchdown. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.
+Warm low evening sun matching @Image4, long shadows across the meadow, soft reflections on the lake. Engine heat shimmer fading after touchdown. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.
 
 AUDIO:
 Engine whine and wash, grass rustling, landing-gear servo whir, hatch hiss, footsteps on grass, flies buzzing over the fish crates, distant birdsong, gentle lapping water, the robe dragging through the water, one calm inhale, the water closing overhead. No dialogue, narrator or music.
