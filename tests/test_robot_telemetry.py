@@ -128,6 +128,26 @@ class PlanTests(Base):
         # a scene that is not active in the master is refused
         self.assertIsNone(res(UNKNOWN_TASK, master, {13, 25, 30}))
 
+    def test_sub_scene_code_is_kept_for_every_task(self):
+        # 16.10.2026: the owner could not tell which part (A1, B6 …) of a multi-part scene was running or ready
+        self.assertEqual(rt.part_from_label("28 B6"), "B6")
+        self.assertEqual(rt.part_from_label("27 · Seedance 2.0 часть 2"), "Seedance 2.0 часть 2")
+        self.assertIsNone(rt.part_from_label("16"))
+        self.assertEqual(rt.part_from_confidence("prompt normalized match with master block 28 B2 (robot)"), "B2")
+        self.assertIsNone(rt.part_from_confidence("prompt exact match with master block 24 (robot)"))
+        self.assertIsNone(rt.part_from_confidence("Topview task map (exact Scene mapping from the monitor's map)"))
+        m = ("## Сцена 28 — Финальные титры: имперский строевой танец\n\n#### B6 · Танец 6 — Маша, Лёша и Виталик\n\n"
+             "```text\nx\n```\n\n## Сцена 30 — Колоннада\n\n#### B6 · чужая\n")
+        self.assertEqual(rt.row_title(m, 28, "B6"), "28 · B6 · Танец 6 — Маша, Лёша и Виталик")
+        self.assertEqual(rt.row_title(m, 28, "B9"), "28 · B9 — Финальные титры: имперский строевой танец")
+        self.assertEqual(rt.row_title(m, 28, None), "28 — Финальные титры: имперский строевой танец")
+        # a new task matched by its prompt carries the code into the slow row and the published telemetry
+        res = lambda tid, master, ids: {"scene": 24, "confidence": "prompt exact match with master block 24 B3 (robot)",
+                                        "label": "24 B3"}
+        p = self.plan(scan(steady() + [active(UNKNOWN_TASK, None, "init")]), resolver=res)
+        self.assertEqual(p["master_plan"]["add"][0]["row_title"], "24 · B3 — Кабина")
+        self.assertEqual({a["task_id"]: a["part"] for a in p["cycle"]["active"]}, {fx.ACTIVE_TASK: None, UNKNOWN_TASK: "B3"})
+
     def test_incomplete_scan_or_vanished_task_holds(self):
         self.assertEqual(self.plan(scan(steady(), detail_failed=["x" * 32]))["decision"], "hold")
         self.assertEqual(self.plan(scan(steady(), missing=["x" * 32]))["decision"], "hold")
@@ -301,7 +321,36 @@ class PublishTests(Base):
         self.assertEqual(self.go(s, now=datetime(2026, 10, 11, 12, 10, tzinfo=timezone.utc)), 0)
         self.assertEqual((self.head(), len(self.n.posts)), (head, 1))
 
-    def test_validator_failure_commits_nothing(self):
+    def test_new_scene_without_ledger_row_does_not_block_publishing(self):
+        # 16.10.2026: scenes 39–40 had no ledger row, the validator refused every robot publish for 3 h
+        led = self.load("review-ledger.json")
+        del led["scenes"]["25"]
+        (self.work / "review-ledger.json").write_text(json.dumps(led, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        fx.git(self.work, "commit", "-qam", "new scene 25 without a ledger row")
+        fx.git(self.work, "push", "-q", "origin", "main")
+        self.assertEqual(self.go(scan(steady() + [active(NEW_TASK, 24, "init")])), 0)
+        row = self.load("review-ledger.json")["scenes"]["25"]
+        self.assertEqual(row, rt.LEDGER_BLANK)                              # empty: no decision inferred
+        self.assertIn("review-ledger.json", self.files(self.head()))
+        self.assertEqual(self.load("automation-monitor-status.json")["last_scheduled_cycle"]["health"], "ok")
+
+    def test_part_survives_the_end_of_the_task(self):
+        res = lambda tid, master, ids: {"scene": 24, "confidence": "prompt exact match with master block 24 B3 (robot)",
+                                        "label": "24 B3"}
+        self.assertEqual(self.go(scan(steady() + [active(UNKNOWN_TASK, None, "init")]), resolver=res), 0)
+        ts = self.load("topview-status.json")
+        self.assertEqual(ts["task_parts"], {UNKNOWN_TASK: "B3"})
+        self.assertIn(f"| 24 · B3 — Кабина |", (self.work / "video-prompts.md").read_text(encoding="utf-8"))
+        fin = [{"task_id": UNKNOWN_TASK, "scene_id": 24, "final_status": "success", "completed_at": "2026-10-11 12:30:00"}]
+        self.assertEqual(self.go(scan(steady(), fin, checked="2026-10-11T12:40:00Z"),
+                                 now=datetime(2026, 10, 11, 12, 40, tzinfo=timezone.utc)), 0)
+        ts = self.load("topview-status.json")
+        self.assertNotIn(UNKNOWN_TASK, {r["task_id"] for r in ts["active_tasks"]})
+        self.assertEqual(ts["task_parts"], {UNKNOWN_TASK: "B3"})
+        done = [x for x in self.load("topview-task-map.json")["processed_tasks"] if x["task_id"] == UNKNOWN_TASK]
+        self.assertEqual(done[0]["part"], "B3")
+
+    def test_validator_failure_commits_no_telemetry_and_is_reported_once(self):
         # scene 25 exists in master but the cycle references a task for an unknown scene id inside the plan
         s = scan(steady())
         s["active_tasks"][0]["scene_id"] = 30
@@ -313,8 +362,22 @@ class PublishTests(Base):
         finally:
             rma.build_status = orig
         self.assertEqual(rc, 1)
-        self.assertEqual(self.head(), before)
+        after = self.head()
+        self.assertNotEqual(after, before)
+        self.assertEqual(self.files(after), {"automation-monitor-status.json"})   # telemetry untouched
         self.assertEqual(self.git.run("status", "--porcelain").stdout.strip(), "")
+        st = self.load("automation-monitor-status.json")
+        self.assertEqual(st["last_scheduled_cycle"]["health"], "degraded")
+        self.assertTrue(st["last_scheduled_cycle"]["note"].startswith("publish failed: "))
+        self.assertNotIn("last_successful_by_runner", st)
+        self.assertEqual(len(self.n.posts), 1)
+        # the same failure ten minutes later: no new commit, no second message
+        rma.build_status = lambda *a, **k: (None, ["forced failure"])
+        try:
+            self.assertEqual(self.go(s, now=datetime(2026, 10, 11, 12, 10, tzinfo=timezone.utc)), 1)
+        finally:
+            rma.build_status = orig
+        self.assertEqual((self.head(), len(self.n.posts)), (after, 1))
 
 
 class ShadowTests(Base):

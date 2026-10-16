@@ -566,7 +566,7 @@ def parse_master(
     dedicated_slow = [
         int(x)
         for x in re.findall(
-            rf"^\|\s*(\d+)\s+—[^\n]*\|\s*{re.escape(SLOW_LABEL)}(?:[^|]*)\|", text, re.M
+            rf"^\|\s*(\d+)\s+[—·][^\n]*\|\s*{re.escape(SLOW_LABEL)}(?:[^|]*)\|", text, re.M
         )
     ]
     toc_slow = [
