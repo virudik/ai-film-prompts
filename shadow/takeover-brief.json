@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T07:12:39+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-16T08:09:02+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "1ebb20db056d38d1f302c55b8e0b31ef37c6a695375f2444a89e0358bb13ccf7",
-   "bytes": 48834
+   "sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
+   "bytes": 49939
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "6a513fc5bc3ef2bd329610c4f089921d927ca0321ffd1c70d1ea1857a02ff967",
-   "bytes": 374110
+   "sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+   "bytes": 403770
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 27970,
-  "above_marker_chars": 27970,
+  "chars": 28640,
+  "above_marker_chars": 28640,
   "recent_sections_below_marker": [],
-  "sha256_12": "8894d9d53475",
+  "sha256_12": "591808312402",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -255,7 +255,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 27564,
+   "offset": 29180,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -277,7 +277,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 40541,
+   "offset": 42157,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -297,7 +297,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 53826,
+   "offset": 55442,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -319,7 +319,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 64511,
+   "offset": 66127,
    "chars": 8179,
    "sha256_12": "98869d4a3236"
   },
@@ -341,7 +341,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 72690,
+   "offset": 74306,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -361,7 +361,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 108960,
+   "offset": 110576,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -385,7 +385,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 239479,
+   "offset": 241095,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -409,7 +409,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 248672,
+   "offset": 250288,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -433,7 +433,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 257704,
+   "offset": 259320,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -451,7 +451,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 266712,
+   "offset": 268328,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -471,7 +471,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 272588,
+   "offset": 274204,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -492,7 +492,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 278987,
+   "offset": 280603,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -514,7 +514,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 286919,
+   "offset": 288535,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -538,7 +538,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 297564,
+   "offset": 299180,
    "chars": 12836,
    "sha256_12": "a27ede53d244"
   },
@@ -559,9 +559,50 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 310400,
-   "chars": 10389,
-   "sha256_12": "8f77f9519603"
+   "offset": 312016,
+   "chars": 10413,
+   "sha256_12": "df2fc65b6ed4"
+  },
+  {
+   "id": 39,
+   "title": "Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 322429,
+   "chars": 10219,
+   "sha256_12": "a359bd9a17d1"
+  },
+  {
+   "id": 40,
+   "title": "Серёга прилетает на планету ситхов: посадка у руин",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 332648,
+   "chars": 12656,
+   "sha256_12": "e2d2da2143e8"
   }
  ],
  "read_sets": {
