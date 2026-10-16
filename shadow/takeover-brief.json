@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T17:23:57+00:00",
+ "generated_at": "2026-10-16T17:31:29+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "848f4edba53857e99242b6dbd0e8701d88185ba4c8f92d34a4431f46c0d66178",
-   "bytes": 587032
+   "sha256": "2d6328c5ecbcec78bb290e7f67a8b28db3dee6f7c0d98d8691ea34752bad0226",
+   "bytes": 588969
   }
  ],
  "invariants": [
@@ -666,7 +666,7 @@
    "id": 43,
    "title": "Ангар крейсера: у шаттла Канцлера заело крыло",
    "target_engine": "Wan 3",
-   "state": "DRAFT",
+   "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": "ru",
@@ -674,11 +674,12 @@
    "prompts": 1,
    "refs": [
     "@Image1",
-    "@Image2"
+    "@Image2",
+    "@Image3"
    ],
    "offset": 373462,
-   "chars": 9672,
-   "sha256_12": "5f687925f318"
+   "chars": 10436,
+   "sha256_12": "bac2c47b3d78"
   },
   {
    "id": 44,
@@ -694,11 +695,12 @@
    "prompts": 1,
    "refs": [
     "@Image1",
-    "@Image2"
+    "@Image2",
+    "@Image3"
    ],
-   "offset": 383134,
-   "chars": 9535,
-   "sha256_12": "b51962b79ebf"
+   "offset": 383898,
+   "chars": 10390,
+   "sha256_12": "1c9cfc43a3c9"
   },
   {
    "id": 45,
@@ -717,7 +719,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 392669,
+   "offset": 394288,
    "chars": 9315,
    "sha256_12": "de6179fb51eb"
   },
@@ -737,7 +739,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 401984,
+   "offset": 403603,
    "chars": 7527,
    "sha256_12": "5ef0bcc25ca7"
   },
@@ -760,7 +762,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 409511,
+   "offset": 411130,
    "chars": 9267,
    "sha256_12": "bfeace9a7862"
   },
@@ -784,7 +786,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 418778,
+   "offset": 420397,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -806,7 +808,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 428903,
+   "offset": 430522,
    "chars": 49446,
    "sha256_12": "d2105a04b192"
   },
@@ -827,7 +829,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 478349,
+   "offset": 479968,
    "chars": 14695,
    "sha256_12": "dd8303bdf75f"
   },
@@ -851,7 +853,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 493044,
+   "offset": 494663,
    "chars": 14355,
    "sha256_12": "52641527ab79"
   }
