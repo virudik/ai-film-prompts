@@ -783,6 +783,16 @@
    "thumb_bytes": 32662,
    "src_sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48"
   },
+  "references/scenes/scene-39/S39-shore-film-part2-14m27s.png": {
+   "thumb": "references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 854,
+   "src_height": 480,
+   "src_bytes": 293465,
+   "thumb_bytes": 11452,
+   "src_sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51"
+  },
   "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png": {
    "thumb": "references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp",
    "width": 640,
