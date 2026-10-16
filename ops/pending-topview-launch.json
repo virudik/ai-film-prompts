@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "reservation_id": "FILM-20261015-NEXT-B6",
-  "state": "claimed",
-  "updated_at": "2026-10-16T00:09:03Z",
+  "state": "submitted",
+  "updated_at": "2026-10-16T00:10:00Z",
   "authorization": {
     "source": "Owner instruction in current chat, 2026-10-15 16:10 Europe/Moscow: select next ready scene and launch when a slot frees",
     "max_submissions": 1,
@@ -44,7 +44,7 @@
     }
   ],
   "visual_qc_at": "2026-10-15T18:55:18.057239Z",
-  "task_id": null,
+  "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
   "claim": {
     "run_id": "chatgpt-b6-20261016T000903Z",
     "claimed_at": "2026-10-16T00:09:03Z",
@@ -53,12 +53,29 @@
   },
   "automation": {
     "id": "6acae6ab433481919e88665c520b8ef2",
-    "status": "enabled_verified_update_response",
+    "status": "disable_pending_after_verified_submission",
     "browser_execution": "not_guaranteed_until_runtime_check",
     "verified_at": "2026-10-15T18:55:50Z",
     "schedule": "Hourly at HH:55 Europe/Moscow, DTSTART 2026-10-15 22:55",
     "timing_mode": "exact_schedule",
     "next_run_time_reported": null
   },
-  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md"
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+  "submission": {
+    "submitted_at": "2026-10-16T00:09:14Z",
+    "verified_at": "2026-10-16T00:10:00Z",
+    "status": "init",
+    "model": "Wan 3.0",
+    "model_id": "qwen-wan3.0-video",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "use_unlimit_mode": true,
+    "credits_cost": 0,
+    "prompt_full_normalized_match": true,
+    "input_count": 4,
+    "receipt": "reports/scene28-b6-launch-2026-10-16.json",
+    "receipt_commit": "85d5551e424a213814cee216d53e9afbe9202fea"
+  }
 }
