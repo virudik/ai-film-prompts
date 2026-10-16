@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-16T10:30:57Z",
+  "synced_at": "2026-10-16T10:44:21Z",
   "revision_date": "16.10.2026",
   "master_declared_last_full_sync": "16.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
-  "canonical_revision_sha256": "4cdcd03fa6e8e704c0c1d70e49e6876058345992e6d4ec66ee32419e74f10ff0",
-  "canonical_master_bytes": 426984,
-  "scenes": 19,
-  "prompt_texts": 40,
+  "canonical_master_sha256": "8db5d766b467d5661a071b9b0c2c2f23af6c652f33d43486f435d1887141a5f5",
+  "canonical_revision_sha256": "fb2a9fa854659b4548666d37b2203074b655783b2bb4cef0424d2895ef4ecefa",
+  "canonical_master_bytes": 470355,
+  "scenes": 23,
+  "prompt_texts": 44,
   "work_items": [
     "W5",
     "W6",
@@ -48,9 +48,13 @@
     39,
     40,
     41,
-    42
+    42,
+    43,
+    44,
+    45,
+    46
   ],
-  "latest_scene": 42,
+  "latest_scene": 46,
   "reserved_scene_ids": [
     1,
     2,
@@ -77,16 +81,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-16T10:29:33.798Z",
+    "snapshot_at": "2026-10-16T10:42:38.359Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.023,
+    "age_hours_at_status_build": 0.029,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "052c3f840e71ddd5abb15a1831138ad32c1abb53",
-        "mirror_sha256": "c1d28e9b3eeffb73c82a2604b6a5ee8d37ed7a6ee6d06444651a5b774dd57037",
+        "github_blob": "b291e390d4b4ec0c639709756b78270fa23171b1",
+        "mirror_sha256": "cefd71acda9b6cb22e4fad5b8f989c7a3c66f194b1ea571ecd27c1bd9b858d34",
         "match": true,
         "drive_copy_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
         "drive_copy_match": true,
@@ -159,7 +163,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.023,
+      "age_hours": 0.029,
       "blocking": false
     },
     "topview_task_map": {
@@ -565,15 +569,108 @@
         "continuity"
       ],
       "render_state": "IDLE"
+    },
+    "43": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [],
+      "tags": [
+        "serega",
+        "imperial_cruiser",
+        "hangar",
+        "shuttle",
+        "comedy",
+        "dialogue",
+        "speaker_ownership"
+      ],
+      "render_state": "IDLE"
+    },
+    "44": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": true,
+        "language": "ru"
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 43
+        }
+      ],
+      "tags": [
+        "serega",
+        "imperial_cruiser",
+        "hangar",
+        "shuttle",
+        "technicians",
+        "comedy",
+        "dialogue",
+        "speaker_ownership"
+      ],
+      "render_state": "IDLE"
+    },
+    "45": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "related_to",
+          "scene": 25
+        }
+      ],
+      "tags": [
+        "cats",
+        "roskotmos",
+        "ship_exterior",
+        "space_battle",
+        "action",
+        "logo"
+      ],
+      "render_state": "IDLE"
+    },
+    "46": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "related_to",
+          "scene": 45
+        }
+      ],
+      "tags": [
+        "roskotmos",
+        "satellites",
+        "space_battle",
+        "comedy",
+        "logo"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "16.10.2026",
-    "synced_at": "2026-10-16T10:30:57Z",
-    "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
-    "canonical_revision_sha256": "4cdcd03fa6e8e704c0c1d70e49e6876058345992e6d4ec66ee32419e74f10ff0",
-    "scene_count": 19,
-    "prompt_count": 40,
+    "synced_at": "2026-10-16T10:44:21Z",
+    "canonical_master_sha256": "8db5d766b467d5661a071b9b0c2c2f23af6c652f33d43486f435d1887141a5f5",
+    "canonical_revision_sha256": "fb2a9fa854659b4548666d37b2203074b655783b2bb4cef0424d2895ef4ecefa",
+    "scene_count": 23,
+    "prompt_count": 44,
     "scene_ids": [
       13,
       16,
@@ -593,7 +690,11 @@
       39,
       40,
       41,
-      42
+      42,
+      43,
+      44,
+      45,
+      46
     ],
     "work_items": [
       "W5",
