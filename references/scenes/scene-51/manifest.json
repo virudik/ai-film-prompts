@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-16T23:07:28.783738+00:00",
   "status": "DRAFT",
   "authority": "GitHub main/video-prompts.md; exact originals only",
   "references": [
@@ -29,6 +29,40 @@
       "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "role": "ensemble_composition_helper",
       "qc": "approved Scene28 group reference; not a slot"
+    },
+    {
+      "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
+      "asset_id": "references/scenes/scene-51/S51-pre-impact-pose.png",
+      "role": "pose_composition_helper",
+      "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+      "bytes": 2682585,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T23:07:28.783738+00:00",
+        "evidence": "Three separate intact props, all feet visible, separated wind-up zones, matching original outfits and H28B architecture. Pose helper ONLY: individual originals override facial details; S49A/S49B instrument photos override this helper's prop/body/strings variation. No owner approval inferred."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/full/pasha.jpg",
+          "references/scenes/scene-49/S49A-lead-and-bass.png"
+        ],
+        "prompt": "Three original foreground performers in exact H28B: Serega left, Yulya center, Pasha right, separate theatrical pre-impact wind-ups holding intact blue lead guitar, violet bass and bronze gravibass above empty floor."
+      },
+      "applies_to": [
+        "51A",
+        "51B"
+      ]
     }
   ],
   "approved": [],
