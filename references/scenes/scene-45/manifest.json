@@ -1,0 +1,169 @@
+{
+  "schema_version": 2,
+  "scene_id": 45,
+  "updated_at": "2026-10-16T10:42:38Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
+  "status": "draft_inputs_pending",
+  "references": [
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+      "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+      "dimensions": [
+        560,
+        630
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "prop_logo",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-logo.png",
+      "bytes": 267116,
+      "media_type": "image",
+      "owner_approval": "user_supplied_logo_source",
+      "assistant_qc": {
+        "status": "new_owner_upload_saved",
+        "evidence": "16.10.2026: cropped from the owner's grey T-shirt photo (250x250 source), Lanczos upscale; visually checked: roundel, cat astronaut, red swoosh, РОСКОТМОС wordmark",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": false
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg",
+      "sha256": "c7b90cd03bcd624d906bf2d9873b2dadde4b261aa74f5d5f79bee1ba538c12a3",
+      "dimensions": [
+        250,
+        250
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "source_provenance",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg",
+      "bytes": 12385,
+      "media_type": "image",
+      "owner_approval": "user_supplied_logo_source",
+      "assistant_qc": {
+        "status": "new_owner_upload_saved",
+        "evidence": "16.10.2026: owner upload in project thread, saved verbatim as provenance source",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": false
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg",
+      "sha256": "cf7af2c0f8a61341f1a7cc3feeb1a609c1a8168e6bbe9e377d62cadd33c7c687",
+      "dimensions": [
+        250,
+        250
+      ],
+      "drive_file_id": null,
+      "library_file_id": null,
+      "role": "source_provenance",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg",
+      "bytes": 7426,
+      "media_type": "image",
+      "owner_approval": "user_supplied_logo_source",
+      "assistant_qc": {
+        "status": "new_owner_upload_saved",
+        "evidence": "16.10.2026: owner upload in project thread, saved verbatim as provenance source",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": false
+    },
+    {
+      "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": "18Z6ONIrdamu0einfbEuqwHNbf15KnQkK",
+      "library_file_id": "libfile_940f50239ce48191a2876302d3000744",
+      "role": "vehicle_interior_light",
+      "asset_id": "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "bytes": 2085347,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [],
+  "location_refs": [],
+  "prop_refs": [
+    "references/scenes/scene-45/S45-roskotmos-logo.png"
+  ],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "prompt_id": "S45",
+      "canonical_prompt_sha256": "336952fda72c706d1ff894b28c64e68ae12c34f2d79e657591e0d80a74dfb446",
+      "local_numbering": true,
+      "launch_readiness": "blocked_missing_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": null,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        },
+        {
+          "slot": "@Image3",
+          "canonical_role": "vehicle_exterior",
+          "input_status": "required_not_available"
+        }
+      ]
+    }
+  ],
+  "site_published": false,
+  "last_qc_at": "2026-10-16T10:42:38Z",
+  "last_qc_scope": "16.10.2026: DRAFT-сцена по команде владельца (тред «Шаттл с крылом и бой Роскотмоса»). Изображения не генерировались, Topview не вызывался.",
+  "remaining": [
+    "@Image3 — внешний вид корабля котов в стиле РосКОТмоса (белый корпус, красная «галочка», круглый логотип на борту): создать на сайте Topview в безлимите или у ChatGPT и сохранить сюда."
+  ],
+  "technical_success_is_editorial_approval": false,
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt",
+    "Missing @Video inputs must not be invented"
+  ],
+  "drive_folder_id": null,
+  "note": "16.10: DRAFT по команде владельца, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+}

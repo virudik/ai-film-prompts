@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T10:31:33+00:00",
+ "generated_at": "2026-10-16T10:44:55+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "c1d28e9b3eeffb73c82a2604b6a5ee8d37ed7a6ee6d06444651a5b774dd57037",
-   "bytes": 50233
+   "sha256": "cefd71acda9b6cb22e4fad5b8f989c7a3c66f194b1ea571ecd27c1bd9b858d34",
+   "bytes": 51332
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
-   "bytes": 426984
+   "sha256": "8db5d766b467d5661a071b9b0c2c2f23af6c652f33d43486f435d1887141a5f5",
+   "bytes": 470355
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 28842,
-  "above_marker_chars": 28842,
+  "chars": 29586,
+  "above_marker_chars": 29586,
   "recent_sections_below_marker": [],
-  "sha256_12": "52615343a865",
+  "sha256_12": "d8575fa55ed5",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 19,
-  "prompt_texts": 40,
+  "scenes": 23,
+  "prompt_texts": 44,
   "scene_ids": [
    13,
    16,
@@ -212,9 +212,13 @@
    39,
    40,
    41,
-   42
+   42,
+   43,
+   44,
+   45,
+   46
   ],
-  "latest_scene": 42,
+  "latest_scene": 46,
   "reserved": [
    1,
    2,
@@ -259,7 +263,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 28466,
+   "offset": 29835,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -281,7 +285,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 41443,
+   "offset": 42812,
    "chars": 13285,
    "sha256_12": "75964595562a"
   },
@@ -301,7 +305,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 54728,
+   "offset": 56097,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -323,7 +327,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 65413,
+   "offset": 66782,
    "chars": 8179,
    "sha256_12": "98869d4a3236"
   },
@@ -345,7 +349,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 73592,
+   "offset": 74961,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -365,7 +369,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 109862,
+   "offset": 111231,
    "chars": 130519,
    "sha256_12": "81527038d0fd"
   },
@@ -389,7 +393,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 240381,
+   "offset": 241750,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -413,7 +417,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 249574,
+   "offset": 250943,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -437,7 +441,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 258606,
+   "offset": 259975,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -455,7 +459,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 267614,
+   "offset": 268983,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -475,7 +479,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 273490,
+   "offset": 274859,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -496,7 +500,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 279889,
+   "offset": 281258,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -518,7 +522,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 287821,
+   "offset": 289190,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -542,7 +546,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 298466,
+   "offset": 299835,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -563,7 +567,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 311326,
+   "offset": 312695,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -582,7 +586,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 321739,
+   "offset": 323108,
    "chars": 10109,
    "sha256_12": "efc8a3f2da24"
   },
@@ -604,7 +608,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 331848,
+   "offset": 333217,
    "chars": 13099,
    "sha256_12": "723906b1a838"
   },
@@ -625,7 +629,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 344947,
+   "offset": 346316,
    "chars": 10889,
    "sha256_12": "ab216b32c33a"
   },
@@ -649,9 +653,88 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 355836,
-   "chars": 9932,
-   "sha256_12": "371b0a93fff6"
+   "offset": 357205,
+   "chars": 9956,
+   "sha256_12": "715070ede5fe"
+  },
+  {
+   "id": 43,
+   "title": "Ангар крейсера: у шаттла Канцлера заело крыло",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 367161,
+   "chars": 9667,
+   "sha256_12": "b06efea0afca"
+  },
+  {
+   "id": 44,
+   "title": "Ангар крейсера: ремонт крыла, и оно отваливается",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": "ru",
+   "depends_on": [
+    43
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 376828,
+   "chars": 9535,
+   "sha256_12": "b51962b79ebf"
+  },
+  {
+   "id": 45,
+   "title": "Корабль котов в стиле РосКОТмоса: космическое сражение снаружи",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    25
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3"
+   ],
+   "offset": 386363,
+   "chars": 8973,
+   "sha256_12": "fbd9d79190ec"
+  },
+  {
+   "id": 46,
+   "title": "Спутники РосКОТмоса сбиты в сражении",
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
+   "dialogue": null,
+   "depends_on": [
+    45
+   ],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2"
+   ],
+   "offset": 395336,
+   "chars": 6985,
+   "sha256_12": "e9ccbec92eef"
   }
  ],
  "read_sets": {
