@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-16T22:45:13.992381+00:00",
+  "updated_at": "2026-10-16T22:47:05.731959+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -196,6 +196,36 @@
       },
       "applies_to": [
         "49D",
+        "49F"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+      "asset_id": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+      "role": "prop",
+      "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+      "bytes": 2357292,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:47:05.731959+00:00",
+        "evidence": "Exactly four blue pressure pads and three amber circular strike pads; separate low stable housings on original H28B floor, no human/cat anatomy invented. Absolute scale governed by prompt and individual cat refs."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Low ordinary-housecat-sized controllers in exact H28B: left four blue pads2x2, right three amber circular pads; no people/cats, floor-level view, rigid housings8cm high35cm wide."
+      },
+      "applies_to": [
+        "49E",
         "49F"
       ]
     }
