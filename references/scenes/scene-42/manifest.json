@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 42,
-  "updated_at": "2026-10-16T11:36:29Z",
+  "updated_at": "2026-10-16T22:32:11.599509+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "draft_inputs_pending",
+  "status": "ready",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -134,6 +134,40 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-42/S42-start-from-S16-result.png",
+      "asset_id": "references/scenes/scene-42/S42-start-from-S16-result.png",
+      "sha256": "99d2175159727444485b4eef94758898cd1813ec07c06c44b2a16013818fa1ef",
+      "bytes": 660525,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "start_frame",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:32:11.599509+00:00",
+        "evidence": "Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity."
+      },
+      "provenance": {
+        "kind": "extracted_actual_generated_video_frame",
+        "source_task_id": "36e8320e34da4f1b97c35e1e765e3e63",
+        "drive_file_id": "1RE5dzMXCwjwiySqs0SV-mHpR9JJiw9c7",
+        "source_sha256": "793d3377b3c83f60c165c2554b0d0e11cdeec38d91075829dc71418dd5395e3e",
+        "frame_index_zero_based": 899,
+        "source_frame_count": 900,
+        "timestamp_seconds": 29.966666666666665,
+        "fps": 30,
+        "extraction": "ffmpeg select eq(n,899); no generative edit"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-42/S42-start-from-S16-result.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [
@@ -146,7 +180,7 @@
     "references/scenes/scene-16/S16-worm-scale.png"
   ],
   "prop_refs": [],
-  "start_frame": null,
+  "start_frame": "references/scenes/scene-42/S42-start-from-S16-result.png",
   "end_frame": null,
   "pose_composition_helpers": [],
   "video_refs": [],
@@ -157,17 +191,12 @@
     {
       "prompt": "main",
       "prompt_id": "S42",
-      "canonical_prompt_sha256": "8638c4b1f31fa10f7b805bff64880738552ca91494fa7e16baa99bc2fa91b342",
+      "canonical_prompt_sha256": "c0f26efe865b9a3e801d39e65b35aeb34fbff384c62f5ae2290ad562bbabfa5e",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": null,
+      "generation_authorization": "Explicit owner command 16.10.2026: prepare 39–51 and queue after dance28",
       "slots": [
-        {
-          "slot": "@Video1",
-          "canonical_role": "start_frame",
-          "input_status": "required_not_available"
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -197,23 +226,33 @@
           "path": "references/scenes/scene-16/S16-worm-scale.png",
           "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
           "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "canonical_role": "start_frame",
+          "path": "references/scenes/scene-42/S42-start-from-S16-result.png",
+          "sha256": "99d2175159727444485b4eef94758898cd1813ec07c06c44b2a16013818fa1ef",
+          "input_status": "available"
         }
-      ]
+      ],
+      "characters": 5736
     }
   ],
-  "site_published": false,
-  "last_qc_at": "2026-10-16T11:36:29Z",
-  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
-  "remaining": [
-    "@Video1 — последние секунды результата Scene 16 (task 36e8320e34da4f1b97c35e1e765e3e63; Scene 16 принята владельцем 16.10): извлечь из результата."
-  ],
+  "site_published": {
+    "scene_anchor": "#scene-42",
+    "linked_in_master": true,
+    "status": "pending_pages_verification"
+  },
+  "last_qc_at": "2026-10-16T22:32:11.599509+00:00",
+  "last_qc_scope": "Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity.",
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd",
+  "canonical_master_sha256": "cc9741628a10fc7d88f38a301cefcac9499aa680d8a13883776599bbe0037c21",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "16.10: DRAFT, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval."
 }

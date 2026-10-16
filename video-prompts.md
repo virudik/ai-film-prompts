@@ -2969,7 +2969,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 42 — Татуин: бой на фоне червя — червь им не интересен
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":16}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":16}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","deadpan","continuity"]} -->
 
 **Контекст использования:**
 
@@ -2978,7 +2978,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Тон меняется осознанно:** в 16 червь — катастрофа; здесь комедия в равнодушии. Все трое заняты только дуэлью, от червя отмахиваются как от назойливой помехи. Без гримас и взглядов в камеру — смешно за счёт контраста масштаба и полного спокойствия.
 - Цвета мечей — как в 16 и 27: Илюша синий, Артём зелёный, Серёга красный.
 - Машина после разрушения не появляется (W8). Модуль карты в этой сцене не показывается — его исход в Scene 48.
-- **До READY:** @Video1 — последние секунды результата Scene 16 (извлечь из задачи выше; п. 6в хендофа).
+- **READY:** настоящий последний кадр Scene 16 извлечён и проверен (899/899, 29.966667 с), подключён как @Image6. В разрешённой очереди после танцев.
 - В монтаж 15–25 с. Запуск — только по команде владельца.
 
 **Референсы:**
@@ -2988,14 +2988,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image3 — <a href="references/full/artem.jpg">Артём (Bearded Jedi)</a>;
 - @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">пустынные руины Scene 16</a> (только локация);
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
-- @Video1 — последние секунды результата Scene 16 (выгрузить).
+- @Image6 — <a href="references/scenes/scene-42/S42-start-from-S16-result.png">настоящий последний кадр Scene 16</a>; пыль и позы — из результата, лица — по индивидуальным листам.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="@Image2 — Илюша"></a><figcaption>@Image2 — Илюша</figcaption></figure>
 <figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image3 — Артём"></a><figcaption>@Image3 — Артём</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — руины"></a><figcaption>@Image4 — руины</figcaption></figure>
-<figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure></div>
+<figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure><figure><a href="references/scenes/scene-42/S42-start-from-S16-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-42/S42-start-from-S16-result.png.webp" alt="@Image6 — настоящий конец Scene 16, 29.966667 с"></a><figcaption>@Image6 — настоящий конец Scene 16, 29.966667 с</figcaption></figure></div>
 
 **Что происходит:** Бой на руинах продолжается, а колоссальный червь крушит всё вокруг: сносит опоры ворот, раскалывает обелиск, роет волны песка. Илюша и Артём фехтуют с Серёгой, не отрываясь от дуэли. Когда червь бьёт рядом, каждый уходит от удара ленивым полушагом или наклоном, даже не глядя на него, и сразу возвращается к поединку. Червь в ярости ревёт над ними, но никому до него нет дела.
 
@@ -3004,13 +3004,13 @@ Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, deadpan action comedy | Two Jedi keep dueling the Chancellor while a colossal sandworm destroys everything around them, and none of them cares
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: exact positions of the three duelists, the worm, the light, the dust and the ruins at the cut. Absolute authority for the START STATE.
+@Image6 — the genuine final frame of the previous scene: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
 @Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
-Priority: @Video1 controls the start; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+Priority: @Image6 controls the start; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
@@ -3022,7 +3022,7 @@ WORM / DESTRUCTION LOCK — CRITICAL:
 The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. It keeps destroying the ruins of @Image4 around the duel: it smashes one gate pier, cracks the central obelisk in half, ploughs a trench of sand and throws debris. It strikes near the duelists several times but never hits, swallows or touches anyone. Nobody ever fights the worm or looks up at it for more than a glance.
 
 START STATE:
-Exactly the last frame of @Video1: the two Jedi and the Chancellor alive in the foreground of the ruins, the worm towering behind them amid swirling dust.
+Begin exactly from @Image6: Artem crouched on frame-left, Serega in the centre, Ilyusha on frame-right, all alive with the enormous worm behind them amid dense native dust. They straighten and re-engage as the dust moves; individual sheets preserve faces and costumes.
 
 TIMELINE:
 [0:00–0:06] — BACK TO THE DUEL
@@ -3044,7 +3044,7 @@ END STATE:
 The three duelists locked blade against blade in the foreground, ignoring the worm that looms motionless over them amid falling dust and broken ruins.
 
 CAMERA / SPACE:
-One continuous take, wide to medium within the same shot, controlled lateral and arcing moves; no cuts. Stable geography: Jedi on frame-left, Serega on frame-right, the worm behind them. Keep the worm partly in frame at all times for scale; let the destruction fill the background while the duel stays readable in the foreground. Only motivated impact vibration.
+One continuous take, wide to medium within the same shot, controlled lateral and arcing moves; no cuts. Start with the exact left/centre/right positions of @Image6; follow their visible steps into the duel without teleporting them or resetting geography, the worm stays behind them. Keep the worm partly in frame at all times for scale; let the destruction fill the background while the duel stays readable in the foreground. Only motivated impact vibration.
 
 PERFORMANCE:
 Completely deadpan. The fighters are focused only on each other: precise, fast swordplay, but their dodges from the worm are minimal, lazy and bored, never panicked. No fear, no screaming, no mugging, no look into the lens, no speech.
