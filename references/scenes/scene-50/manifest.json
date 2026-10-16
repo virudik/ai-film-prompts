@@ -46,5 +46,12 @@
     "latest_attempt_at": "2026-10-16T23:37:04.041896+00:00",
     "latest_request_id": "28705105-c373-41c0-83d5-5fcb45916da5",
     "latest_attempt_scope": "After renewed owner request17.10: calm static adult Wookiee audience layout in exactH28B, no contact/action; output moderation blocked (other). No image produced; no further retry or bypass."
+  },
+  "existing_asset_search": {
+    "checked_at": "2026-10-16T23:52:13.899469+00:00",
+    "scope": "Main Topview board:214 image records; Star Wars board:25 image records. Metadata-only search, not visual QC.",
+    "records_checked": 239,
+    "wookiee_candidates": 6,
+    "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   }
 }

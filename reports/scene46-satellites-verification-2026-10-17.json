@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-16T23:52:13.899469+00:00",
+  "integration_commit": "2ef583079d5ee333e33d6a99c8ad2ddb6270da66",
+  "asset_commit": "6249eea883f8b5dfd0cebdc27b019051e38fb1ca",
+  "asset_path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
+  "asset_sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
+  "public_png_exact_bytes": true,
+  "public_master_exact_bytes": true,
+  "public_master_satellite_link_present": true,
+  "master_sha256": "0668ab45a62b0ef5a93113bbdf062fd22d37fda3e7382e5c092ddf85879614d1",
+  "prompt_slot": "@Image3",
+  "pages_workflow_run": 38983258900,
+  "pages_conclusion": "success",
+  "owner_approval": "not_recorded"
+}

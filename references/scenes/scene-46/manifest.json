@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-16T23:46:26.892168+00:00",
+  "updated_at": "2026-10-16T23:52:13.899469+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -145,10 +145,12 @@
   "site_published": {
     "scene_anchor": "#scene-46",
     "linked_in_master": true,
-    "status": "pending_pages_verification"
+    "status": "verified",
+    "checked_at": "2026-10-16T23:52:13.899469+00:00",
+    "evidence_path": "reports/scene46-satellites-verification-2026-10-17.json"
   },
   "last_qc_at": "2026-10-16T23:46:26.892168+00:00",
-  "last_qc_scope": "Shared exterior design QC; no video approval.",
+  "last_qc_scope": "Satellite design helper and published @Image3 mapping verified; no video or owner approval.",
   "remaining": [],
   "technical_success_is_editorial_approval": false,
   "invariants": [
