@@ -783,6 +783,16 @@
    "thumb_bytes": 32662,
    "src_sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48"
   },
+  "references/scenes/scene-43/S43-shuttle-raised-wings.png": {
+   "thumb": "references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2422410,
+   "thumb_bytes": 47760,
+   "src_sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93"
+  },
   "references/scenes/scene-45/S45-roskotmos-logo.png": {
    "thumb": "references/thumbs/scenes/scene-45/S45-roskotmos-logo.png.webp",
    "width": 560,
@@ -802,16 +812,6 @@
    "src_bytes": 2602753,
    "thumb_bytes": 52586,
    "src_sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
-  },
-  "references/scenes/scene-43/S43-shuttle-raised-wings.png": {
-   "thumb": "references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp",
-   "width": 640,
-   "height": 360,
-   "src_width": 1672,
-   "src_height": 941,
-   "src_bytes": 2422410,
-   "thumb_bytes": 47760,
-   "src_sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93"
   }
  }
 }
