@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-16T05:35:47.036Z",
+  "last_updated_at": "2026-10-16T07:54:07.176652Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -303,8 +303,8 @@
     {
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
-      "status": "in_progress",
-      "verified_at": "2026-10-16T05:35:47.036Z",
+      "status": "blocked_browser",
+      "verified_at": "2026-10-16T07:54:07.176652Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -313,10 +313,12 @@
         "Создана ограниченная очередь 16 следующих попыток; уже отправленные и принятые исключены",
         "Публикация ca7b83669061e70c469f4c91523b46b61faa06a3; 13/13 файлов Pages совпадают, обе 36/37 READY, ревизия 16.10, health=ok; 144 теста прошли",
         "То же задание расширено и включено; фактический запуск проверки 16.10 07:58 МСК, 6/6 слотов заняты; новых submit не было",
-        "Notion-указатель обновлён на очередь вместо старого одного B6"
+        "Notion-указатель обновлён на очередь вместо старого одного B6",
+        "16.10 10:50 МСК полный скан 11 досок: B1 завершён, активных unlimited 5/6 и свободен 1 слот; B7 не отправлен — разрешённый cloud browser получил Topview Cloudflare Error 1010, платный/API обход не использован"
       ],
       "next_actions": [
-        "Продолжать ops/topview-launch-queue.json по минимальному готовому priority при свободных глобальных слотах, только бесплатный веб",
+        "Продолжить очередь в рабочем чате с тем же разрешением владельца, когда будет доступен авторизованный веб-Topview без Cloudflare 1010",
+        "Начать с fresh-read и повторного глобального скана; B7 остаётся waiting_for_slot и не был claimed/submitted",
         "После success B2 извлечь настоящий C28 и подготовить B3; не рисовать и не повторять B2",
         "Перед 16 получить точный сохранённый видеоисточник, проверить SHA; перед каждой моделью проверить доступность бесплатного режима"
       ],
@@ -333,13 +335,24 @@
       "automation_id": "6acae6ab433481919e88665c520b8ef2",
       "automation_verification": {
         "id": "6acae6ab433481919e88665c520b8ef2",
-        "is_enabled": true,
-        "verified_at": "2026-10-16T05:35:47.036Z",
-        "last_run_time": "2026-10-16T04:58:40.069318+00:00",
+        "is_enabled": false,
+        "verified_at": "2026-10-16T07:54:07.176652Z",
+        "last_run_time": "2026-10-16T06:53:45.468088+00:00",
         "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
         "next_run_time_reported": null,
-        "status": "enabled; observed scheduled run after queue update"
-      }
+        "status": "paused after global blocked_browser"
+      },
+      "blockers": [
+        {
+          "type": "blocked_browser",
+          "detected_at": "2026-10-16T07:54:07.176652Z",
+          "scope": "global_web_submit",
+          "details": "Topview website denied the authorized cloud browser with Cloudflare Error 1010 (browser signature).",
+          "free_slots_at_detection": 1,
+          "next_ready_item": "B7",
+          "no_submit_attempted": true
+        }
+      ]
     }
   ],
   "rules": [
