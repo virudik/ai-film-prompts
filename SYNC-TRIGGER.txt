@@ -1,1 +1,1 @@
-2026-10-16T08:08:03Z Claude (project thread): Scenes 39–40 DRAFT added (Serega travel, owner 16.10), W-table revision; SHA256 8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b. Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-16T10:29:33Z Claude (project thread): owner answers 16.10 — Scenes 41–42 DRAFT added, 39–40 updated, W9/W10/W12/W15 removed; SHA256 4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898. Sync exact master -> validator -> project-status -> GitHub Pages.

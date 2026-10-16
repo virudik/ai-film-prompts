@@ -1,0 +1,254 @@
+{
+  "schema_version": 2,
+  "scene_id": 42,
+  "updated_at": "2026-10-16T10:28:48Z",
+  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
+  "status": "draft_inputs_pending",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/ilyusha.jpg",
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "drive_file_id": "1IZulGTHz4gmxWKNl35oa1R-mAnENmnuL",
+      "library_file_id": "libfile_21f7b10047188191881e729ceb757105",
+      "role": "identity",
+      "asset_id": "references/full/ilyusha.jpg",
+      "bytes": 271235,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/full/ilyusha.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/artem.jpg",
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "dimensions": [
+        1359,
+        1536
+      ],
+      "drive_file_id": "1fFo-c_i_zDClPbEOWgd8PpDKczr5sC_A",
+      "library_file_id": "libfile_cb2792b279c48191a899d848702855ab",
+      "role": "identity",
+      "asset_id": "references/full/artem.jpg",
+      "bytes": 276298,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/full/artem.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1brg2XCNajrSLHmi3SCFULPSZ4qX8JaBa",
+      "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
+      "role": "location",
+      "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "bytes": 2228040,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "drive_file_id": "1w2cwJjUNW1d0NSJkucOi-BWL-k_5zXU4",
+      "library_file_id": "libfile_b07ba3643d188191bb5fe93c49cae694",
+      "role": "location_creature",
+      "asset_id": "references/scenes/scene-16/S16-worm-scale.png",
+      "bytes": 2506337,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-worm-scale.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "drive_file_id": "1biqJcdwU4xb5-dwoQLE8DQhrIxEbRYE2",
+      "library_file_id": "libfile_03e8512aec548191908ce3e31462aadd",
+      "role": "prop",
+      "asset_id": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "bytes": 222565,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "16.10.2026 new DRAFT travel scene: path, bytes and SHA verified in repository",
+        "checked_at": "2026-10-16"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg",
+    "references/full/ilyusha.jpg",
+    "references/full/artem.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-16/S16-desert-location-clean.png",
+    "references/scenes/scene-16/S16-worm-scale.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-17/S17-Image4-topview-source.png"
+  ],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "prompt_id": "S42",
+      "canonical_prompt_sha256": "eb83d25bcbe4e4b6fc18ff2d2ffbab2fe98bfba010ca3411c76d1b512f86d15b",
+      "local_numbering": true,
+      "launch_readiness": "blocked_missing_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": null,
+      "slots": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "start_frame",
+          "input_status": "required_not_available"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "input_status": "available"
+        }
+      ]
+    }
+  ],
+  "site_published": false,
+  "last_qc_at": "2026-10-16T10:28:48Z",
+  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
+  "remaining": [
+    "Одно решение владельца по Scene 16 (сейчас «Принять» и «Переделать» конфликтуют).",
+    "@Video1 — последние секунды выбранного результата Scene 16: выгрузить после решения."
+  ],
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt",
+    "Missing @Video inputs must not be invented"
+  ],
+  "drive_folder_id": null,
+  "note": "16.10: DRAFT, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+}

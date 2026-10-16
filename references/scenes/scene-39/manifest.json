@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 39,
-  "updated_at": "2026-10-16T08:08:03Z",
+  "updated_at": "2026-10-16T10:28:48Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "draft_inputs_pending",
   "references": [
@@ -135,14 +135,13 @@
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-16T08:08:03Z",
-  "last_qc_scope": "16.10.2026: новая DRAFT-сцена перелёта Серёги по команде владельца (reports/serega-travel-2026-10-14.md). Референсы взяты из существующих паков (Scenes 17, 19, 27, 37); изображения не генерировались, Topview не вызывался.",
+  "last_qc_at": "2026-10-16T10:28:48Z",
+  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
   "remaining": [
-    "@Video1 — брошенная стоянка у озера сразу после прыжка пары (около 44:45–45:05 по сборке [Р2]): выгрузить из монтажа перед запуском.",
-    "Место стыка (~45:05) подтверждает владелец (вопрос 2 разбора)."
+    "@Video1 — брошенная стоянка у озера сразу после прыжка пары (около 44:45–45:05 по сборке [Р2]): выгрузить из монтажа перед запуском."
   ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+  "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
