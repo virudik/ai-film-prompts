@@ -703,6 +703,16 @@
    "thumb_bytes": 48632,
    "src_sha256": "ff55bc9fa9714cf44a62124774214919b253d8768e0cac26e9f241ac8b57d197"
   },
+  "references/scenes/scene-36/S36-start-from-S17-result.png": {
+   "thumb": "references/thumbs/scenes/scene-36/S36-start-from-S17-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1152902,
+   "thumb_bytes": 13662,
+   "src_sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc"
+  },
   "references/scenes/scene-36/S36-waterfall-exit-helper.png": {
    "thumb": "references/thumbs/scenes/scene-36/S36-waterfall-exit-helper.png.webp",
    "width": 640,
@@ -732,6 +742,16 @@
    "src_bytes": 575523,
    "thumb_bytes": 23550,
    "src_sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
+  },
+  "references/scenes/scene-37/S37-forest-planet-reference.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-forest-planet-reference.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2194581,
+   "thumb_bytes": 33768,
+   "src_sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323"
   },
   "references/scenes/scene-37/S37-lakeside-takeoff-helper.png": {
    "thumb": "references/thumbs/scenes/scene-37/S37-lakeside-takeoff-helper.png.webp",
