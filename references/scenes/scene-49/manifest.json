@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-16",
+  "updated_at": "2026-10-16T22:37:59.365600+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -74,6 +74,38 @@
       "path": "references/ryzhik.jpg",
       "role": "identity",
       "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "asset_id": "references/scenes/scene-49/S49A-lead-and-bass.png",
+      "role": "prop",
+      "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+      "bytes": 2499199,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-16T22:37:59.365600+00:00",
+        "evidence": "Two separate rigid playable props: black/blue six-string lead with ring core, silver/violet four-string bass; original H28B bay/planet/shuttle-right/emblem retained, no people, stands secondary."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png"
+        ],
+        "prompt": "Two instrument-only references in exact H28B: Serega black-metal six-blue-string ring-core guitar and Yulya silver-violet four-string nacelle bass. Full props, realistic frets/bridges, no people; original background geometry."
+      },
+      "applies_to": [
+        "49A",
+        "49F",
+        "51A",
+        "51B"
+      ]
     }
   ],
   "remaining": [
