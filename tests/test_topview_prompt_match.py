@@ -43,7 +43,13 @@ class PromptMatch(unittest.TestCase):
         project = json.loads((ROOT / "project-status.json").read_text(encoding="utf-8"))
         self.assertEqual(project["health"], "ok")
         self.assertNotIn("20 · песня 13", labels)  # scene 20 is retired and permanently reserved
-        self.assertEqual(len(labels), project["prompt_texts"])  # match the live canonical master
+        # The status publisher runs asynchronously after a master commit. Test the
+        # canonical master unconditionally, and compare status counts only when
+        # its recorded master checksum proves it is from the same revision.
+        self.assertEqual(len(labels), sum(line.startswith("```text") for line in MASTER.splitlines()))
+        import hashlib
+        if project.get("canonical_master_sha256") == hashlib.sha256(MASTER.encode("utf-8")).hexdigest():
+            self.assertEqual(len(labels), project["prompt_texts"])
 
     def test_topview_flavoured_text_matches_normalized(self):
         label, body = next((l, b) for l, b in BLOCKS if l == "24")
