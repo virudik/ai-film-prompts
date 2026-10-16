@@ -82,6 +82,29 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+      "role": "location",
+      "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+      "bytes": 293465,
+      "dimensions": [
+        854,
+        480
+      ],
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Actual lakeshore immediately before jump; two original runners must not be reproduced in Scene39. Sand/grass bank, low evening sun, distant treeline and water geometry visible."
+      },
+      "provenance": {
+        "kind": "actual_film_frame",
+        "source_name": "Серёгиус-копия часть 2.mp4",
+        "library_file_id": "libfile_d1ad5c9eba8481919f9fcdbe1ff1aa00",
+        "source_sha256": "58efa447bd97d4b1a4dd8f6a4bbb1b20aa20f6d02714b1364067c022a63e5df4",
+        "timestamp_seconds": 867,
+        "note": "Older two-part cut: jump at 14:29–14:31; not the newer 44:45–45:05 timeline. This is a genuine BEFORE-jump frame, not an empty camp."
+      }
     }
   ],
   "identity_refs": [
@@ -138,7 +161,7 @@
   "last_qc_at": "2026-10-16T10:28:48Z",
   "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
   "remaining": [
-    "@Video1 — брошенная стоянка у озера сразу после прыжка пары (около 44:45–45:05 по сборке [Р2]): выгрузить из монтажа перед запуском."
+    "Save actual camp props frame from same sequence; map shore/camp images in master before READY."
   ],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "4ee88a5d8a39502a26e26a01c33e272d735987ae10ac12b4ec278f8b91a6c898",
