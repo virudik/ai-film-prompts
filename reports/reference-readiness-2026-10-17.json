@@ -1,0 +1,28 @@
+{
+  "canonical_commit": "6774ff76ab39d0181405341675b817ecb17d08c1",
+  "master_sha256": "f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669",
+  "verified": [
+    "8 production prompts under10000 characters",
+    "all49/51 input SHA256 match full local files",
+    "all6 new49/51 PNGs returned byte-identically from publicPages",
+    "28 copy-paste prompt bodies unchanged",
+    "Git readback master/manifests/queue/register/trigger match published blobs",
+    "live project-status health ok",
+    "integration recovery tests and sync workflow success",
+    "Public Pages master byte-identical to canonical master SHA256",
+    "Pages workflow38979965738 success"
+  ],
+  "pending": [
+    "50 missing audience ref: moderation_blocked",
+    "44 actual43 result",
+    "48 actual42 result",
+    "B3 realB2 finalframe; sixactive slots"
+  ],
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "enabled": true,
+    "schedule": "hourly minute55 Europe/Moscow",
+    "last_run": "2026-10-16T22:59:19.418222+00:00"
+  },
+  "verified_at": "2026-10-16T23:11:53.447848+00:00"
+}

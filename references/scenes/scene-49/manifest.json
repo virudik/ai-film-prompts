@@ -491,7 +491,9 @@
   "site_published": {
     "scene_anchor": "#scene-49",
     "linked_in_master": true,
-    "status": "pending_pages_verification"
+    "status": "verified",
+    "verified_at": "2026-10-16T23:11:53.447848+00:00",
+    "evidence": "reports/reference-readiness-2026-10-17.json"
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",
