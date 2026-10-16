@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-16T10:30:57+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-16T10:31:33+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 17,
-  "prompt_texts": 38,
+  "scenes": 19,
+  "prompt_texts": 40,
   "scene_ids": [
    13,
    16,
@@ -210,9 +210,11 @@
    37,
    38,
    39,
-   40
+   40,
+   41,
+   42
   ],
-  "latest_scene": 40,
+  "latest_scene": 42,
   "reserved": [
    1,
    2,
@@ -609,10 +611,10 @@
   {
    "id": 41,
    "title": "Серёга увозит древний ПК с планеты ситхов",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
    "prompts": 1,
@@ -630,12 +632,14 @@
   {
    "id": 42,
    "title": "Татуин: после червя Канцлер забирает фрагмент карты",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    16
+   ],
    "prompts": 1,
    "refs": [
     "@Image1",
