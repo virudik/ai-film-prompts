@@ -1,6 +1,6 @@
 {
   "authorized_at": "2026-10-17T23:41:31Z",
-  "updated_at": "2026-10-17T23:45:27.809Z",
+  "updated_at": "2026-10-17T23:50:08.776Z",
   "variants": [
     {
       "lyrics": "[Intro - one bar, impatient shout]\nДа дайте же поиграть!\n\n[Verse 1 - tight rhythmic male vocal]\nЯ вечер расчистил. Я планы убрал.\nЯ мысленно базу уже расставлял.\nНо тут переворот, караул и конвой —\nИ я из окна вместо кнопки «В бой»!\nПотом этот шаттл: «Починим сейчас!»\nКрыло отвалилось. Прекрасно. Как раз.\n\n[Pre-Chorus - rising, clipped]\nМне не нужен трон!\nМне бы свой компьютер!\n\n[Chorus - huge melodic hook, gang replies]\nДайте мне в Варкрафт! Дайте мне домой!\nХватит приключений! Я уже герой!\nДайте мне в Варкрафт! Времени в обрез!\nМне бы строить базу — хватит мне чудес!\n\n[Verse 2 - faster, mounting comic frustration]\nТо в баре разборки, то модуль искать,\nТо вместо такси на червя залезать.\nТо Набу, то вуки, то снова полёт —\nКогда же отстанет весь этот народ?\nДва ситха с усами — мне снова мешать!\nВот точка на стенке. Бегите играть!\n\n[Pre-Chorus - stop-start riff]\nКосмос, подожди!\nЯ уже наигрался в тебя!\n\n[Chorus - full band]\nДайте мне в Варкрафт! Дайте мне домой!\nХватит приключений! Я уже герой!\nДайте мне в Варкрафт! Времени в обрез!\nМне бы строить базу — хватит мне чудес!\n\n[Bridge - half-time, intimate, short]\nЯ древний компьютер домой дотащил.\nНе ради короны. Не ради светил.\nЭкран загорелся. Отряд ждёт приказ.\nЯ в бой. Не мешайте. Хотя бы сейчас!\n\n[Build - four bars, rising gang shouts]\nСтроить!\nГотово!\nВ атаку!\nЗа мной!\n\n[Final Chorus - triumphant, transformed]\nВот он мой Варкрафт! Вот он мой покой!\nТут хотя бы ясно, кто идёт войной.\nБольше ни полётов, ни чужих забот!\nТолько эта мышка. Только мой поход!\n\n[Outro - sudden musical cut]\n[Spoken female - dry, natural]\nДорогой, а ты купил хлеб и молоко?\n\n[Spoken male - quiet stunned whisper]\nОпять квест...\n\n[Single guitar hit, end]\n",
@@ -8,14 +8,31 @@
       "title": "Серёгиус — Дайте мне в Варкрафт",
       "path": "music/seregius-daite-mne-v-warcraft.md",
       "duration": "3:40",
-      "state": "blocked_captcha_submission_unconfirmed",
+      "state": "completed_results_observed",
       "create_clicked_at": "2026-10-17T23:44:29.854Z",
       "create_click_count": 1,
       "model": "v6-mini",
       "lyrics_match": true,
       "styles_match": true,
-      "results": [],
-      "evidence": "reports/evidence/suno-warcraft-captcha-20261018.jpg"
+      "results": [
+        {
+          "id": "56043835-b8ba-411c-b2ad-bb5d5aa7fa57",
+          "duration": "3:40",
+          "model": "V6-MINI"
+        },
+        {
+          "id": "f3cc3d16-33ec-4b08-b8b7-94161fe0203b",
+          "duration": "3:39",
+          "model": "V6-MINI"
+        }
+      ],
+      "evidence": "reports/evidence/suno-warcraft-captcha-20261018.jpg",
+      "preview_results": [
+        "2c69e22d-e093-4ebc-aea1-6e6c2464a7e3",
+        "6a2c2195-be93-42e0-a7b6-b30c630876b0"
+      ],
+      "blocker": null,
+      "observed_at": "2026-10-17T23:50:08.776Z"
     },
     {
       "lyrics": "[Intro - one bar riff, no ambient lead-in]\n\n[Verse A - two long syncopated lines, sharp caesuras, then short shouted tag]\nТревога, двери, стража — шаг за раму, держись, держись!\nА в ангаре — грохот: после ремонта крыло упало вниз.\nСнова! Другой корабль! Ну давай, заводись!\n\n[Verse B - same rhythmic cell, rising intensity]\nДва солнца, пыль и ветер — след за следом, карта в руках.\nНи сна, ни остановки — дальше, дальше, дом в облаках.\nПомню! Батон, молоко! Только позже, сейчас никак!\n\n[Pre-Chorus - two short rising lines]\nДом зовёт меня.\nСквозь чужие звёзды.\n\n[Chorus - three rhythmic lines, same short opening hook]\nМне домой! Через грохот, поломки и взрывы.\nМне домой! Все долги и дела подождут.\nМне домой! Там мой мир — настоящий, любимый.\n\n[Post-Chorus - wordless gang vocal, two bars]\nО-о! О-о!\n\n[Verse C - two long syncopated lines, short shouted tag]\nДва ситха, зубы, когти — блеск на стенке, ловите луч.\nЯ мимо их охраны — прямо к цели, компьютер включу.\nХватит! Пора домой! Я его унесу!\n\n[Chorus - bigger, retain exact hook rhythm]\nМне домой! Через грохот, поломки и взрывы.\nМне домой! Все долги и дела подождут.\nМне домой! Там мой мир — настоящий, любимый.\n\n[Chant - four bars, percussive, no extra verse]\nМне домой!\nМне домой!\nСлышишь, космос?\nМне домой!\n\n[Bridge - sparse, lower register, four lines]\nВ комнате тихо. За окнами вечер.\nСтарый компьютер гудит на столе.\nЖёлтый листочек остался в кабине.\nЧто-то забыл... Но уже я в игре.\n\n[Final A - full band return, three lines, same rhythmic drive]\nСнова в бой! На экране растут мои башни.\nСнова в бой! Поднимаю уставший отряд.\nСнова в бой! Я вернулся — и всё не напрасно.\n\n[Final B - highest intensity, three lines, no interlude]\nЕщё бой! Пусть за дверью уснёт вся вселенная.\nЕщё бой! Я закончу — и сразу приду.\nЕщё бой! Только эта победа последняя!\n\n[Outro - short gang chant then hard cut]\nЕщё бой!\nЕщё бой!\nЕщё бой!\nЕщё бой!\n\n[Spoken female - after full silence, dry]\nДорогой, а ты купил хлеб и молоко?\n\n[Two beats silence, one final guitar hit, end]\n",
@@ -23,13 +40,18 @@
       "title": "Серёгиус — Мне домой",
       "path": "music/seregius-mne-domoi.md",
       "duration": "3:34",
-      "state": "prepared_not_submitted",
-      "create_click_count": 0,
+      "state": "blocked_captcha_submission_unconfirmed",
+      "create_click_count": 1,
       "model": "v6-mini",
-      "results": []
+      "results": [],
+      "create_clicked_at": "2026-10-17T23:49:28.977Z",
+      "custom_duration": "3:34",
+      "lyrics_match": true,
+      "styles_match": true,
+      "evidence": "reports/evidence/suno-mne-domoi-captcha-20261018.jpg"
     }
   ],
-  "next_action": "User completes hCaptcha in handed-off tab. Reconcile Warcraft results before any retry; then submit Мне домой once with Custom Duration3:34, exact saved Lyrics/Styles. No paid purchase or upgrade.",
+  "next_action": "User completes hCaptcha for Мне домой. Inspect newly appeared results before any repeat Create. Warcraft is completed; no relaunch.",
   "audio_reference_uploaded": false,
   "original_rhythm_transcription": "not performed; broad text section structure and phrase pattern only"
 }

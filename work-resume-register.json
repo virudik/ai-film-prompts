@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:45:27.809Z",
+  "last_updated_at": "2026-10-17T23:50:08.776Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -676,16 +676,18 @@
       "work_id": "FILM-20261018-SUNO-TWO",
       "title": "Warcraft и структура референса: две новые песни",
       "status": "in_progress",
-      "verified_at": "2026-10-17T23:45:27.809Z",
+      "verified_at": "2026-10-17T23:50:08.776Z",
       "done": [
         "Оба текста/Styles сохранены",
-        "Warcraft: точная форма,3:40, одинCreate"
+        "Warcraft: точная форма,3:40, одинCreate",
+        "Warcraft: два полных результата3:40/3:39",
+        "Мне домой: форма сверена,3:34, одинCreate23:49:28.977UTC"
       ],
       "blockers": [
-        "hCaptcha Warcraft, generation unconfirmed"
+        "hCaptcha Мне домой; submission unconfirmed"
       ],
       "next_actions": [
-        "User completes hCaptcha in handed-off tab. Reconcile Warcraft results before any retry; then submit Мне домой once with Custom Duration3:34, exact saved Lyrics/Styles. No paid purchase or upgrade."
+        "User completes hCaptcha for Мне домой. Inspect newly appeared results before any repeat Create. Warcraft is completed; no relaunch."
       ],
       "canonical_refs": [
         "music/seregius-daite-mne-v-warcraft.md",
