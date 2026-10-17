@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-17T19:50:11Z",
+  "checked_at": "2026-10-17T20:00:09Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2391,
-      "wait_seconds": 80236,
+      "queue_count": 2376,
+      "wait_seconds": 79638,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 491,
-      "wait_seconds": 11115,
+      "queue_count": 462,
+      "wait_seconds": 10518,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1620,
-      "wait_seconds": 45675,
+      "queue_count": 1602,
+      "wait_seconds": 45078,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2028,
-      "wait_seconds": 62955,
+      "queue_count": 2012,
+      "wait_seconds": 62358,
       "process_seconds": null
     },
     {
@@ -111,10 +111,10 @@
       "unlimited": true,
       "created_at": "2026-10-17 19:36:53",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2721,
-      "wait_seconds": 97515,
+      "scene_id": 55,
+      "mapping": "task_map",
+      "queue_count": 2706,
+      "wait_seconds": 96918,
       "process_seconds": null
     },
     {
@@ -126,22 +126,12 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1121,
-      "wait_seconds": 28394,
+      "queue_count": 1097,
+      "wait_seconds": 27798,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "86741d99f7634e3b97e8b139996b83b0",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-17 19:36:53",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 | Photoreal live-action space-opera cinema | One dry domestic punch"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -224,24 +214,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-17T19:00:11Z",
-    "monitor_age_minutes": 50,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-10-17T19:50:11Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "86741d99f7634e3b97e8b139996b83b0",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
