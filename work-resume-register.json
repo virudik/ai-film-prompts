@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T19:57:44.144973Z",
+  "last_updated_at": "2026-10-17T20:00:46.440Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -579,7 +579,8 @@
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
         "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
-        "Owner22:55:43 physical doorway/ramp exit and44 single detached wing/empty root added to master, queue hashes and manifests; published result QC still required."
+        "Owner22:55:43 physical doorway/ramp exit and44 single detached wing/empty root added to master, queue hashes and manifests; published result QC still required.",
+        "43/44 prompt corrections published and Pages masterSHA dda59f6f91bed9f9205dd2ff3d93c3fb63fb0cbfafec0f823d59de95ccd0dd78 matched project-status health=ok; output-video QC remains pending."
       ],
       "next_actions": [
         "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
