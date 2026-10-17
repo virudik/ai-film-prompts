@@ -1,6 +1,6 @@
 {
   "authorized_at": "2026-10-17T23:41:31Z",
-  "updated_at": "2026-10-17T23:50:08.776Z",
+  "updated_at": "2026-10-17T23:59:00.683Z",
   "variants": [
     {
       "lyrics": "[Intro - one bar, impatient shout]\nДа дайте же поиграть!\n\n[Verse 1 - tight rhythmic male vocal]\nЯ вечер расчистил. Я планы убрал.\nЯ мысленно базу уже расставлял.\nНо тут переворот, караул и конвой —\nИ я из окна вместо кнопки «В бой»!\nПотом этот шаттл: «Починим сейчас!»\nКрыло отвалилось. Прекрасно. Как раз.\n\n[Pre-Chorus - rising, clipped]\nМне не нужен трон!\nМне бы свой компьютер!\n\n[Chorus - huge melodic hook, gang replies]\nДайте мне в Варкрафт! Дайте мне домой!\nХватит приключений! Я уже герой!\nДайте мне в Варкрафт! Времени в обрез!\nМне бы строить базу — хватит мне чудес!\n\n[Verse 2 - faster, mounting comic frustration]\nТо в баре разборки, то модуль искать,\nТо вместо такси на червя залезать.\nТо Набу, то вуки, то снова полёт —\nКогда же отстанет весь этот народ?\nДва ситха с усами — мне снова мешать!\nВот точка на стенке. Бегите играть!\n\n[Pre-Chorus - stop-start riff]\nКосмос, подожди!\nЯ уже наигрался в тебя!\n\n[Chorus - full band]\nДайте мне в Варкрафт! Дайте мне домой!\nХватит приключений! Я уже герой!\nДайте мне в Варкрафт! Времени в обрез!\nМне бы строить базу — хватит мне чудес!\n\n[Bridge - half-time, intimate, short]\nЯ древний компьютер домой дотащил.\nНе ради короны. Не ради светил.\nЭкран загорелся. Отряд ждёт приказ.\nЯ в бой. Не мешайте. Хотя бы сейчас!\n\n[Build - four bars, rising gang shouts]\nСтроить!\nГотово!\nВ атаку!\nЗа мной!\n\n[Final Chorus - triumphant, transformed]\nВот он мой Варкрафт! Вот он мой покой!\nТут хотя бы ясно, кто идёт войной.\nБольше ни полётов, ни чужих забот!\nТолько эта мышка. Только мой поход!\n\n[Outro - sudden musical cut]\n[Spoken female - dry, natural]\nДорогой, а ты купил хлеб и молоко?\n\n[Spoken male - quiet stunned whisper]\nОпять квест...\n\n[Single guitar hit, end]\n",
@@ -40,18 +40,31 @@
       "title": "Серёгиус — Мне домой",
       "path": "music/seregius-mne-domoi.md",
       "duration": "3:34",
-      "state": "blocked_captcha_submission_unconfirmed",
+      "state": "completed_results_observed",
       "create_click_count": 1,
       "model": "v6-mini",
-      "results": [],
+      "results": [
+        {
+          "id": "e431d61b-3adb-4f0b-88d6-15aa21d541d4",
+          "duration": "3:34",
+          "model": "V6-MINI"
+        },
+        {
+          "id": "5119841c-23b9-471a-9f40-3151e3b0cf46",
+          "duration": "3:34",
+          "model": "V6-MINI"
+        }
+      ],
       "create_clicked_at": "2026-10-17T23:49:28.977Z",
       "custom_duration": "3:34",
       "lyrics_match": true,
       "styles_match": true,
-      "evidence": "reports/evidence/suno-mne-domoi-captcha-20261018.jpg"
+      "evidence": "reports/evidence/suno-all-ready-20261018.jpg",
+      "blocker": null,
+      "observed_at": "2026-10-17T23:59:00.683Z"
     }
   ],
-  "next_action": "User completes hCaptcha for Мне домой. Inspect newly appeared results before any repeat Create. Warcraft is completed; no relaunch.",
+  "next_action": "All four song versions completed (8 full V6-MINI songs). Owner listens and selects. No pending CAPTCHA or further song generation. Audio quality not reviewed.",
   "audio_reference_uploaded": false,
   "original_rhythm_transcription": "not performed; broad text section structure and phrase pattern only"
 }

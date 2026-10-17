@@ -83,6 +83,4 @@ Urgent cinematic alternative hard rock / melodic metal, 148 BPM, 4/4, minor key,
 
 ## Статус
 
-18Oct02:49МСК: «Дайте мне в Варкрафт» готова, два полных V6-MINI3:40/3:39 (56043835-b8ba-411c-b2ad-bb5d5aa7fa57,f3cc3d16-33ec-4b08-b8b7-94161fe0203b). «Мне домой»: точные сохранённые Lyrics/Styles сверены, Custom Duration3:34, v6-mini; одинCreate17Oct23:49:28.977UTC. hCaptcha блокирует подтверждение отправки, новых songID нет, handoff владельцу. После проверки искать результаты «Серёгиус — Мне домой» до повторногоCreate. Никаких повторных запусков Warcraft.
-
-Квитанция: reports/suno-two-versions-2026-10-18.json.
+Готовы два полных результата по3:34: https://suno.com/song/e431d61b-3adb-4f0b-88d6-15aa21d541d4 и https://suno.com/song/5119841c-23b9-471a-9f40-3151e3b0cf46 . Проверено в списке Suno18Oct02:58МСК. Аудио не прослушивалось. Квитанция: reports/suno-two-versions-2026-10-18.json.

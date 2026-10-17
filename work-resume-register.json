@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:50:08.776Z",
+  "last_updated_at": "2026-10-17T23:59:00.683Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -675,19 +675,18 @@
     {
       "work_id": "FILM-20261018-SUNO-TWO",
       "title": "Warcraft и структура референса: две новые песни",
-      "status": "in_progress",
-      "verified_at": "2026-10-17T23:50:08.776Z",
+      "status": "completed",
+      "verified_at": "2026-10-17T23:59:00.683Z",
       "done": [
         "Оба текста/Styles сохранены",
         "Warcraft: точная форма,3:40, одинCreate",
         "Warcraft: два полных результата3:40/3:39",
-        "Мне домой: форма сверена,3:34, одинCreate23:49:28.977UTC"
+        "Мне домой: форма сверена,3:34, одинCreate23:49:28.977UTC",
+        "18Oct02:58МСК: все4версии песен готовы,8полных результатов V6-MINI. «Я ненадолго»5:31/5:33; короткая3:39/3:39; «Дайте мне в Варкрафт»3:40/3:39; «Мне домой»3:34/3:34. ПоследниеID e431d61b-3adb-4f0b-88d6-15aa21d541d4 и5119841c-23b9-471a-9f40-3151e3b0cf46. В текущем списке также6минутныхV6PREVIEW; их не считать полными песнями. CAPTCHA больше не блокирует, незавершённых авторизованных музыкальных запусков нет. Новые генерации не запускать без нового задания. Владелец выбирает после прослушивания; агент аудио не оценивал. ОчередьTopview в этом цикле не проверялась/не менялась."
       ],
-      "blockers": [
-        "hCaptcha Мне домой; submission unconfirmed"
-      ],
+      "blockers": [],
       "next_actions": [
-        "User completes hCaptcha for Мне домой. Inspect newly appeared results before any repeat Create. Warcraft is completed; no relaunch."
+        "Владелец прослушивает и выбирает; новых запусков не требуется."
       ],
       "canonical_refs": [
         "music/seregius-daite-mne-v-warcraft.md",
