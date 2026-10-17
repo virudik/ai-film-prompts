@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-17T00:41:02.845078+00:00",
+  "updated_at": "2026-10-17T00:46:43.016245+00:00",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -260,6 +260,72 @@
       "applies_to": [
         "49A"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49B-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49B-playing-grip.png",
+      "role": "playing_pose",
+      "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+      "bytes": 2574112,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:46:39.228827+00:00",
+        "evidence": "Correct distinct cast, clothing, location and playable contact: fretting/picking or real stick grips; C mouthpiece at lips and two key-stack hands. Pose helper, original faces and instrument photos retain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/pasha.jpg",
+          "references/full/sasha.jpg",
+          "references/full/artem.jpg",
+          "references/scenes/scene-49/S49B-rhythm-instruments.png"
+        ],
+        "prompt": "Photoreal 16:9 live-action frame, exact identity and wardrobe of each individual sheet (multiple views = ONE person); exact H28B hangar from image1, floor circle, starfield opening, parked shuttle deep frame-right, blue/magenta lights with neutral face light. Full bodies and whole instruments, no extra people, no text/collage/bars. All instruments rigid and playable, each hand anatomically clear, vigorous grounded performance poses, no overhead smashing. Original identity photos are absolute authority; final input is exact PROP design. Image2 Pasha at LEFT in navy tunic playing bronze FOUR amber-string bass: left hand frets neck, right plucks above body bridge, shoulder strap supports it at waist. Image3 Sasha CENTER exact beard/round eyeglasses/cream tunic/burgundy robe playing cobalt SIX-string guitar: left hand frets, right picks near bridge, strap. Image4 heavier Artem RIGHT cream/brown robes behind waist-high supported three-ring percussion console; holds exactly one short real drumstick in each hand, tips poised over separate rings. Three distinct adult men only, no altered faces. Instruments match image5, separate non-overlapping hands/necks/props."
+      },
+      "applies_to": [
+        "49B"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49C-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49C-playing-grip.png",
+      "role": "playing_pose",
+      "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+      "bytes": 2665909,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:46:39.369722+00:00",
+        "evidence": "Correct distinct cast, clothing, location and playable contact: fretting/picking or real stick grips; C mouthpiece at lips and two key-stack hands. Pose helper, original faces and instrument photos retain authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/ilyusha.jpg",
+          "references/full/lesha.jpg",
+          "references/full/vitalik.jpg",
+          "references/scenes/scene-49/S49C-drums-wind-bass.png"
+        ],
+        "prompt": "Photoreal 16:9 live-action frame, exact identity and wardrobe of each individual sheet (multiple views = ONE person); exact H28B hangar from image1, floor circle, starfield opening, parked shuttle deep frame-right, blue/magenta lights with neutral face light. Full bodies and whole instruments, no extra people, no text/collage/bars. All instruments rigid and playable, each hand anatomically clear, vigorous grounded performance poses, no overhead smashing. Original identity photos are absolute authority; final input is exact PROP design. Image2 Ilyusha rear CENTER seated on drum stool behind compact blue drumkit, olive tunic/red hooded cloak/moustache visible; holds ONE short physical stick in each hand, tips near two real membranes; feet to kick pedal and floor. Image3 Lesha LEFT moustache/purple tunic/grey robe playing curved black/brass wind synth with turquoise bell: mouthpiece touching lips, left hand on upper key stack, right on lower, plausible saxophone-style hand/finger positions and neck strap. Image4 Vitalik RIGHT sturdy man black tunic/leather panels/brown trousers playing large black orange-red bass at waist on shoulder strap: left hand frets physical neck, right picks at body bridge. Keep all three faces recognizable and props separate, reproduce image5 instrument designs."
+      },
+      "applies_to": [
+        "49C"
+      ]
     }
   ],
   "remaining": [],
@@ -313,8 +379,8 @@
     {
       "prompt": "49B",
       "status": "READY",
-      "canonical_prompt_sha256": "68389e226a0364592c66b26e7652e6cd2494bfa456561c79d2e13f1a32b0691b",
-      "characters": 6657,
+      "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
+      "characters": 6954,
       "slots": [
         {
           "slot": "@Image1",
@@ -350,14 +416,20 @@
           "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-playing-grip.png",
+          "input_status": "available",
+          "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7"
         }
       ]
     },
     {
       "prompt": "49C",
       "status": "READY",
-      "canonical_prompt_sha256": "9493024dfb07c5f736691adc94ec33a16f96425612f5637fce35a64969e28a68",
-      "characters": 6656,
+      "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
+      "characters": 6961,
       "slots": [
         {
           "slot": "@Image1",
@@ -393,6 +465,12 @@
           "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49C-playing-grip.png",
+          "input_status": "available",
+          "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9"
         }
       ]
     },
@@ -539,6 +617,6 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
+  "canonical_master_sha256": "d041f7bf0269e6332c20e77b5751bab63698d311bc2c709e97a2c135aa895ace",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
 }

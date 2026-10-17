@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T00:41:02.845078+00:00",
+  "updated_at": "2026-10-17T00:46:43.016245+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1488,8 +1488,8 @@
       "scene_id": 49,
       "prompt_id": "S49B",
       "canonical_block_label": "49B",
-      "canonical_prompt_sha256": "68389e226a0364592c66b26e7652e6cd2494bfa456561c79d2e13f1a32b0691b",
-      "normalized_prompt_sha256": "33cedacbaef7a1d3b94fae42f3f84bf405e568fbe6f7b0ead221f466031c9d8d",
+      "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
+      "normalized_prompt_sha256": "58cd189029db2762f2d53e1a8ff40ac1ee23994d47c1196e94c001b36f2aabab",
       "priority": 111,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1537,6 +1537,12 @@
           "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
           "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-playing-grip.png",
+          "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+          "required": true
         }
       ],
       "task_id": null,
@@ -1547,8 +1553,8 @@
       "scene_id": 49,
       "prompt_id": "S49C",
       "canonical_block_label": "49C",
-      "canonical_prompt_sha256": "9493024dfb07c5f736691adc94ec33a16f96425612f5637fce35a64969e28a68",
-      "normalized_prompt_sha256": "9bfa476804a1f92d8d34ee30ed147bcf21049488fcf953d8a87184cdb2e9a8ed",
+      "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
+      "normalized_prompt_sha256": "646e9b3e0835dddd4e19b8c071a1f0eef5f55195d1f222836646216ee5a2acc9",
       "priority": 112,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1595,6 +1601,12 @@
           "slot": "@Image5",
           "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
           "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49C-playing-grip.png",
+          "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
           "required": true
         }
       ],

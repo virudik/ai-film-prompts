@@ -3745,7 +3745,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/full/sasha.jpg" target="_blank" rel="noopener"><img src="references/full/sasha.jpg" alt="@Image3 — Саша" loading="lazy"></a><figcaption>@Image3 — Саша</figcaption></figure>
 <figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image4 — Артём" loading="lazy"></a><figcaption>@Image4 — Артём</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49B-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-playing-grip.png.webp" alt="@Image6 — игровые позы 49B" loading="lazy"></a><figcaption>@Image6 — игровые позы 49B</figcaption></figure></div>
+
+**Дополнительный вход:** @Image6 = <a href="references/scenes/scene-49/S49B-playing-grip.png">игровые позы 49B</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3757,6 +3759,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Саша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Артём; exact face, hair, build and costume as described below.
 @Image5 — PROP DESIGN ONLY: Pasha bronze four-amber-string gravibass, Sasha cobalt six-string rhythm guitar and Artem three-ring percussion.
+@Image6 — PLAYING GRIP / POSE ONLY: Pasha left and Sasha centre use left hand fretting and right hand picking at the body bridge; Artem right holds one stick in each hand over separate rings. This is not a smash grip. Individual originals and separate prop designs override any helper deviations.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3820,7 +3823,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/full/lesha.jpg" target="_blank" rel="noopener"><img src="references/full/lesha.jpg" alt="@Image3 — Лёша" loading="lazy"></a><figcaption>@Image3 — Лёша</figcaption></figure>
 <figure><a href="references/full/vitalik.jpg" target="_blank" rel="noopener"><img src="references/full/vitalik.jpg" alt="@Image4 — Виталик" loading="lazy"></a><figcaption>@Image4 — Виталик</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49C-drums-wind-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49C-drums-wind-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49C-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49C-playing-grip.png.webp" alt="@Image6 — игровые позы 49C" loading="lazy"></a><figcaption>@Image6 — игровые позы 49C</figcaption></figure></div>
+
+**Дополнительный вход:** @Image6 = <a href="references/scenes/scene-49/S49C-playing-grip.png">игровые позы 49C</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3832,6 +3837,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Лёша; exact face, hair, build and costume as described below.
 @Image4 — ABSOLUTE CHARACTER IDENTITY: Виталик; exact face, hair, build and costume as described below.
 @Image5 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
+@Image6 — PLAYING GRIP / POSE ONLY: Lesha left has the mouthpiece at his lips, hands on upper/lower keys; Ilyusha rear-centre sits with two sticks and feet at pedal/floor; Vitalik right frets with left hand, picks with right. Individual originals and separate prop designs override any helper deviations.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
