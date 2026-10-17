@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:27:19.157Z",
+  "last_updated_at": "2026-10-17T23:38:39.048Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -652,6 +652,25 @@
       "constraints": [
         "Do not modify film canon or replace49–51music without owner decision.",
         "No subscription purchase or paid-credit spend without appropriate authorization; never claim original-track melody/structure was exactly reproduced."
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-SHORT",
+      "title": "Короткая версия песни Серёгиуса",
+      "status": "in_progress",
+      "verified_at": "2026-10-17T23:38:39.048Z",
+      "done": [
+        "Сокращены текст и структура; файл сохранён; Custom Duration3:40; форма сверена; один Create."
+      ],
+      "blockers": [
+        "Новая Cloudflare CAPTCHA, submission unconfirmed. Manual handoff requested."
+      ],
+      "next_actions": [
+        "После CAPTCHA проверить новые результаты до любого повторного Create."
+      ],
+      "canonical_refs": [
+        "music/seregius-ya-nenadolgo-short.md",
+        "reports/suno-short-attempt-2026-10-18.json"
       ]
     }
   ],
