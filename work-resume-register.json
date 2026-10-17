@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T19:07:34.210Z",
+  "last_updated_at": "2026-10-17T19:40:49.110Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -304,7 +304,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:07:34.210Z",
+      "verified_at": "2026-10-17T19:40:49.110Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -318,10 +318,11 @@
         "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit.",
         "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved.",
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
-        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate."
+        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
+        "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified."
       ],
       "next_actions": [
-        "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+        "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -346,10 +347,10 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "6/6 slots occupied at18:42:09UTC; rescan before submit.",
-        "44 awaits actual corrected43 video;48 awaits42; fan image result pending."
+        "Six active videos at19:38:17UTC; rescan before next submit.",
+        "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
       ],
-      "next_action": "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+      "next_action": "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -357,16 +358,15 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T19:06:36.781Z",
+        "checked_at": "2026-10-17T19:38:17.221Z",
         "boards": 11,
         "pages": 17,
-        "total_tasks": 905,
+        "total_tasks": 906,
         "complete": true,
-        "occupied_slots": 7,
+        "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
-          "792d7b8a3912484bb34907e219f9c188",
-          "1c48a62d14d14d348a5c49fe5cdb5e70",
+          "86741d99f7634e3b97e8b139996b83b0",
           "0d1f17c226834bfbb851d76ed32f9877",
           "56c0ea656f484b0cb8464233fe097e0d",
           "5333994f739f4a8b813a6a36dcb7e140",
@@ -459,7 +459,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:07:34.210Z",
+      "verified_at": "2026-10-17T19:40:49.110Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -499,10 +499,11 @@
         "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit.",
         "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved.",
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
-        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate."
+        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
+        "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified."
       ],
       "next_actions": [
-        "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+        "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -521,10 +522,10 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+      "next_action": "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
       "blockers": [
-        "6/6 slots occupied at18:42:09UTC; rescan before submit.",
-        "44 awaits actual corrected43 video;48 awaits42; fan image result pending."
+        "Six active videos at19:38:17UTC; rescan before next submit.",
+        "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
       "handoff_status": "continuing_owner_confirmed_plan_20261017_1648",
@@ -537,16 +538,15 @@
       },
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T19:06:36.781Z",
+        "checked_at": "2026-10-17T19:38:17.221Z",
         "boards": 11,
         "pages": 17,
-        "total_tasks": 905,
+        "total_tasks": 906,
         "complete": true,
-        "occupied_slots": 7,
+        "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
-          "792d7b8a3912484bb34907e219f9c188",
-          "1c48a62d14d14d348a5c49fe5cdb5e70",
+          "86741d99f7634e3b97e8b139996b83b0",
           "0d1f17c226834bfbb851d76ed32f9877",
           "56c0ea656f484b0cb8464233fe097e0d",
           "5333994f739f4a8b813a6a36dcb7e140",
@@ -559,7 +559,7 @@
       "work_id": "FILM-20261017-OWNER-FIXES",
       "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:07:34.210Z",
+      "verified_at": "2026-10-17T19:40:49.110Z",
       "done": [
         "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
         "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
@@ -571,10 +571,11 @@
         "17Oct16:54MSK owner requested inheritable autonomous continuation; explicit procedure added to handoff, project guide and continue protocol; same automation enabled verified, no duplicate task.",
         "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved.",
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
-        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate."
+        "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
+        "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified."
       ],
       "next_actions": [
-        "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+        "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -589,18 +590,17 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Archive and inspect three fan image results, owner choice pending. All fan items submitted; next launch S55 when actual free video capacity verified. Live5videos+2images disproved shared-six assumption; do not fabricate separate caps.",
+      "next_action": "Fresh main/lock/decisions/full scan; next free video slot S43-R1, then44 with actualVideo1 and story52–54 etc by queue. No45/46/fan/55 reruns. Owner fan image selection pending.",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T19:06:36.781Z",
+        "checked_at": "2026-10-17T19:38:17.221Z",
         "boards": 11,
         "pages": 17,
-        "total_tasks": 905,
+        "total_tasks": 906,
         "complete": true,
-        "occupied_slots": 7,
+        "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
-          "792d7b8a3912484bb34907e219f9c188",
-          "1c48a62d14d14d348a5c49fe5cdb5e70",
+          "86741d99f7634e3b97e8b139996b83b0",
           "0d1f17c226834bfbb851d76ed32f9877",
           "56c0ea656f484b0cb8464233fe097e0d",
           "5333994f739f4a8b813a6a36dcb7e140",

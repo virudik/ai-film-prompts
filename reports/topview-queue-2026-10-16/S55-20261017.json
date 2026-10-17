@@ -1,0 +1,170 @@
+{
+  "item_id": "S55",
+  "verified_at": "2026-10-17T19:40:49.110Z",
+  "claim": {
+    "run_id": "chatgpt-s55-1792265804265",
+    "claimed_at": "2026-10-17T19:36:44.265Z",
+    "holder": "chatgpt",
+    "account_scan": {
+      "checked_at": "2026-10-17T19:34:12.587Z",
+      "boards": 11,
+      "pages": 17,
+      "total_tasks": 905,
+      "complete": true,
+      "occupied_slots": 5,
+      "free_slots": 1,
+      "active_unlimited_task_ids": [
+        "0d1f17c226834bfbb851d76ed32f9877",
+        "56c0ea656f484b0cb8464233fe097e0d",
+        "5333994f739f4a8b813a6a36dcb7e140",
+        "979f07acffe04750961515f4baf21a3f",
+        "2bccc8a3521b411cb7bd51f9c8ba1119"
+      ]
+    },
+    "ui_verified": {
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "unlimited": true,
+      "credits": 0,
+      "prompt_length": 5079,
+      "prompt_exact": true,
+      "input_sha_verified": true,
+      "input_count": 4
+    },
+    "dedup": "Full905-task account scan: no same story55 prompt or existing task; owner_decisions43–55 open none"
+  },
+  "task": {
+    "boardTaskId": "86741d99f7634e3b97e8b139996b83b0",
+    "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+    "sortWeight": 685,
+    "uid": "FGlyiGi4FG26kZmpCiUH",
+    "userName": "Виталик Рудик",
+    "toolType": "video-edit",
+    "toolCategory": "video",
+    "status": "init",
+    "mediaType": "video",
+    "rating": 0,
+    "parameters": {
+      "taskType": "videoEdit",
+      "modelId": "qwen-wan3.0-video",
+      "modelName": "Wan 3.0",
+      "resolution": 720,
+      "duration": 30,
+      "inputImages": [
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/EfzeS3CnbfcmcTUYJoqSg.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image1"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/y71HxaMvR5VkcyD0AFPp8.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image2"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QJhevtwOGmqeGzhomO6fO.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image3"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/65dbn5dDiRUfu0bi2ovDu.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image4"
+        }
+      ],
+      "imageMode": "multiImage",
+      "positivePrompt": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 | Photoreal live-action space-opera cinema | One dry domestic punchline: the forgotten bread and milk\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  controls Serega's exact face, build, age and long dark-purple robe.\n<<<Image2>>>  controls Yulya's exact face, long chestnut hair, dark black-grey armour with pauldrons and gloves, and long black cloak.\n<<<Image3>>>  is a genuine frame of the existing computer room seen from its entrance: dark angular ribbed walls, white wall strips, blue side panels, metal floor grilles, the heavy desk and chair in front of a large circular space viewport. Room geometry and entrance axis only.\n<<<Image4>>>  is a genuine frame of the same room closer to the desk: heavy metal desk, tall angular chair facing the viewport, drifting rocks in space outside. It fixes the desk/chair position and the seated direction, not a pose.\nPriority: <<<Image1>>>  and <<<Image2>>>  identity; <<<Image3>>>  and <<<Image4>>>  room.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (<<<Image1>>> ): pale older man, sparse light hair and bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega.\nYULYA (<<<Image2>>> ): exact face and age, long chestnut hair, dark black-grey armour with pauldrons and gloves, long black cloak. Exactly one Yulya. She walks normally; no weapon, no hologram, no magic.\nPreserve both identities and costumes in every angle; no beautification, no wardrobe change, no other people, droids or cats.\n\nPROP / CONTINUITY LOCK:\nExactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos. No bread, no milk, no shopping bags, no basket anywhere in the room.\n\nSTART STATE:\nInside the existing computer room. Serega sits in the heavy chair at the desk facing the circular viewport, hunched forward, one hand on the mouse, the other on the keyboard, fully absorbed in the game. Camera behind and slightly to the side of him on the room's entrance axis, as in <<<Image3>>> .\n\nTIMELINE:\n[0:00–0:07] — ABSORBED: medium shot from behind and to the side of the chair along the room axis; rapid mouse clicks and keyboard taps, soft game glow flickering on Serega's three-quarter face. He leans in, lips pressed, fully concentrated. Slow push-in.\n\n[0:07–0:13] — YULYA ENTERS: a soft door hiss from the entrance end. Yulya walks in along the room axis, cloak moving, takes in the scene, and stops just behind and beside the chair, arms folded. Serega does not notice; he keeps clicking.\n\n[0:13–0:18] — THE QUESTION: medium two-shot, both faces readable. Yulya, calm and matter-of-fact, asks her question. Serega's clicking stops mid-motion.\n\n[0:18–0:23] — FREEZE: close-up on Serega, hand frozen on the mouse. A beat of silence; he slowly turns his head toward her, eyes widening with guilty realisation.\n\n[0:23–0:30] — GUILTY PAUSE: two-shot. Serega looks up at Yulya with a tiny apologetic half-smile and says nothing; then his eyes slide sideways back toward the glowing screen. Yulya keeps waiting, one eyebrow raised. Hold to the end.\n\nEND STATE:\nSerega seated, half turned to Yulya, guilty half-smile, eyes drifting to the screen; Yulya standing beside the chair, arms folded, waiting. Same room, same lighting.\n\nCAMERA / SPACE:\nOne room only. Shots keep the desk-to-viewport axis, wall ribs and floor grilles from <<<Image3>>>  and <<<Image4>>> ; Yulya enters from the entrance end. Medium and close shots; faces always readable, never tiny. Cuts are motivated and invisible; no new corridor, apartment or second computer.\n\nPERFORMANCE:\nDeadpan domestic comedy. Yulya: calm, warm, unimpressed, not angry. Serega: total absorption, then a frozen guilty schoolboy reaction, no shouting, no exaggerated cartoon faces.\n\nLIGHTING / MATERIALS:\nCool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Worn beige plastic, matte armour, heavy purple cloth.\n\nAUDIO:\nFast mouse clicks and keyboard taps with faint muffled fantasy battle sounds from the computer, soft door hiss, Yulya's footsteps, the clicking stopping dead, ship ventilation hum, one small guilty swallow. No music.\n\nDIALOGUE / VOCALS:\nYulya, in Russian, calm and clear at 0:14: «Дорогой, а ты купил хлеб и молоко?»\nSerega says nothing.\nNo other speech, no subtitles.\n\nNEGATIVE PROMPT:\nreadable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, basket, cockpit, extra people, droids, cats, changed robe, changed armour, face drift, new room, subtitles, watermark.\n\nFRAME FILL / NO BARS:\nFill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.",
+      "aspectRatio": "16:9",
+      "source": "board",
+      "sound": "on",
+      "boardTaskId": "86741d99f7634e3b97e8b139996b83b0",
+      "useUnlimitMode": true,
+      "internetSearch": false,
+      "autoVideoUpscale": false,
+      "skipCreditConsume": false
+    },
+    "creditsCost": 0,
+    "creditsPayerUid": "FGlyiGi4FG26kZmpCiUH",
+    "creditsPayerName": "Виталик Рудик",
+    "gmtCreate": "2026-10-17 19:36:53",
+    "gmtModify": "2026-10-17 19:36:54",
+    "isPinned": false,
+    "groupIds": [
+      "879d0ea65b834d3c8a877f995e597f41"
+    ],
+    "unresolvedCount": 0,
+    "useUnlimitMode": true,
+    "estimateInfo": {
+      "queueCount": 2741,
+      "estimatedWaitSeconds": 98303,
+      "estimatedProcessSeconds": null
+    }
+  },
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "role": "identity",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "role": "identity",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+      "role": "location",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-54/S54-room-side-actual.png",
+      "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+      "role": "composition",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "full_normalized_prompt_match": true,
+  "normalized_prompt_sha256": "f0e648b6616aa079a00288de8941b265331dc0c58f2a833e3f855dc01de45078",
+  "single_gui_create": true,
+  "credits_cost": 0,
+  "proof": "reports/evidence/s55-submitted-20261017.jpg",
+  "post_submit_scan": {
+    "checked_at": "2026-10-17T19:38:17.221Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 906,
+    "complete": true,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_unlimited_task_ids": [
+      "86741d99f7634e3b97e8b139996b83b0",
+      "0d1f17c226834bfbb851d76ed32f9877",
+      "56c0ea656f484b0cb8464233fe097e0d",
+      "5333994f739f4a8b813a6a36dcb7e140",
+      "979f07acffe04750961515f4baf21a3f",
+      "2bccc8a3521b411cb7bd51f9c8ba1119"
+    ]
+  }
+}

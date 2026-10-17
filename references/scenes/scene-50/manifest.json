@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T01:16:16.790231+00:00",
+  "updated_at": "2026-10-17T19:40:49.110Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -97,7 +97,7 @@
     }
   ],
   "remaining": [
-    "Fan crowd composition in H28B: website Nano Banana Pro free Unlimited submission rejected17Oct01:14:09UTC because concurrent slots are full; no image task created. Retry only after a free slot, checking duplicates and zero-credit mode."
+    "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
   ],
   "approved": [],
   "rejected": [
@@ -194,7 +194,8 @@
     "latest_attempt_at": "2026-10-16T23:37:04.041896+00:00",
     "latest_request_id": "28705105-c373-41c0-83d5-5fcb45916da5",
     "latest_attempt_scope": "After renewed owner request17.10: calm static adult Wookiee audience layout in exactH28B, no contact/action; output moderation blocked (other). No image produced; no further retry or bypass.",
-    "current_status": "Existing source frame recovered. Built-in moderation reasons remain unknown; no copyright conclusion. Website Nano Banana not submitted: local browser timed out; cloud browser is signed out."
+    "current_status": "Resolved by three free website results; original PNGs and thumbnails archived17Oct. Built-in imagegen historical moderation unchanged; no retry.",
+    "historical": true
   },
   "existing_asset_search": {
     "checked_at": "2026-10-16T23:52:13.899469+00:00",
@@ -203,5 +204,89 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9"
+  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
+  "generated_fan_candidates": [
+    {
+      "variant": 1,
+      "task_id": "48657a07dac542b0a3340e44c15b933f",
+      "path": "references/scenes/scene-50/S50-fans-48657a07.png",
+      "thumbnail": "references/scenes/scene-50/S50-fans-48657a07-thumb.jpg",
+      "sha256": "45954e5f24d538c6aacff1e4db1847e62b42280e6c7744f40054c6f76995e361",
+      "bytes": 6353870,
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "provenance": {
+        "kind": "Topview generated image original PNG",
+        "model": "Nano Banana Pro",
+        "credits_cost": 0,
+        "use_unlimit_mode": true,
+        "download_source": "MCP-returned result.originImage.url",
+        "downloaded_at": "2026-10-17T19:40:49.110Z"
+      },
+      "assistant_qc": {
+        "checked_at": "2026-10-17T19:40:49.110Z",
+        "status": "candidate_reviewed",
+        "notes": "Full-body spaced crowd, clapping at chest level; location preserved. Faces readable, but similar and less varied than requested.",
+        "shared": "Correct hangar, cyan/magenta light, shuttle at rear right, no humans, no bars/text; do not mistake candidate QC for owner approval."
+      },
+      "owner_approval": "pending_selection"
+    },
+    {
+      "variant": 2,
+      "task_id": "1c48a62d14d14d348a5c49fe5cdb5e70",
+      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+      "thumbnail": "references/scenes/scene-50/S50-fans-1c48a62d-thumb.jpg",
+      "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+      "bytes": 6490570,
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "provenance": {
+        "kind": "Topview generated image original PNG",
+        "model": "Nano Banana Pro",
+        "credits_cost": 0,
+        "use_unlimit_mode": true,
+        "download_source": "MCP-returned result.originImage.url",
+        "downloaded_at": "2026-10-17T19:40:49.110Z"
+      },
+      "assistant_qc": {
+        "checked_at": "2026-10-17T19:40:49.110Z",
+        "status": "candidate_reviewed",
+        "notes": "Most energetic cheering poses with raised arms, foreground/midground depth. Several arms exceed requested shoulder height; deliberate candidate, not exact pose compliance.",
+        "shared": "Correct hangar, cyan/magenta light, shuttle at rear right, no humans, no bars/text; do not mistake candidate QC for owner approval."
+      },
+      "owner_approval": "pending_selection"
+    },
+    {
+      "variant": 3,
+      "task_id": "792d7b8a3912484bb34907e219f9c188",
+      "path": "references/scenes/scene-50/S50-fans-792d7b8a.png",
+      "thumbnail": "references/scenes/scene-50/S50-fans-792d7b8a-thumb.jpg",
+      "sha256": "f38252cc78d99a3d690edc9252f7abfa867dd207a35620a1f0f0ea582746ca2b",
+      "bytes": 5985564,
+      "dimensions": [
+        2752,
+        1536
+      ],
+      "provenance": {
+        "kind": "Topview generated image original PNG",
+        "model": "Nano Banana Pro",
+        "credits_cost": 0,
+        "use_unlimit_mode": true,
+        "download_source": "MCP-returned result.originImage.url",
+        "downloaded_at": "2026-10-17T19:40:49.110Z"
+      },
+      "assistant_qc": {
+        "checked_at": "2026-10-17T19:40:49.110Z",
+        "status": "candidate_reviewed",
+        "notes": "Closer foreground figures and largest readable faces; standing/cheering. Good candidate for close audience inserts; less full-body space. Similar facial anatomy across crowd.",
+        "shared": "Correct hangar, cyan/magenta light, shuttle at rear right, no humans, no bars/text; do not mistake candidate QC for owner approval."
+      },
+      "owner_approval": "pending_selection"
+    }
+  ],
+  "selection_status": "owner_choice_pending"
 }
