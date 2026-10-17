@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-17T00:15:50.741779+00:00",
+  "checked_at": "2026-10-17T01:16:40.927946+00:00",
   "scope": "Scenes39–51 required available prompt slots; real missing outputs remain blocked; no QC/owner approval invented",
   "scene_count": 13,
-  "unique_available_input_files": 42,
+  "unique_available_input_files": 51,
   "files": [
     {
       "path": "references/full/serega.jpg",
@@ -131,6 +131,13 @@
       "bytes_verified": true
     },
     {
+      "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+      "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
       "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
       "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
       "git_present": true,
@@ -145,8 +152,15 @@
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
-      "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+      "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
@@ -208,6 +222,13 @@
       "bytes_verified": true
     },
     {
+      "path": "references/scenes/scene-49/S49A-playing-grip.png",
+      "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
       "path": "references/full/pasha.jpg",
       "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
       "git_present": true,
@@ -224,6 +245,13 @@
     {
       "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
       "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-49/S49B-playing-grip.png",
+      "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
@@ -250,6 +278,13 @@
       "bytes_verified": true
     },
     {
+      "path": "references/scenes/scene-49/S49C-playing-grip.png",
+      "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
       "path": "references/masha-laguna.webp",
       "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
       "git_present": true,
@@ -271,8 +306,22 @@
       "bytes_verified": true
     },
     {
+      "path": "references/scenes/scene-49/S49D-playing-grip.png",
+      "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
       "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
       "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-49/S49E-playing-grip.png",
+      "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
@@ -285,15 +334,29 @@
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
-      "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+      "path": "references/scenes/scene-49/S49F-playing-grip.png",
+      "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-      "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
+      "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+      "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
@@ -391,7 +454,7 @@
       "missing_continuity_slots": [],
       "prompt_count": 2,
       "remaining": [
-        "Fan crowd composition in H28B: species source now recovered; Nano Banana website requires browser login. Prepared prompt saved."
+        "Fan crowd composition in H28B: website Nano Banana Pro free Unlimited submission rejected17Oct01:14:09UTC because concurrent slots are full; no image task created. Retry only after a free slot, checking duplicates and zero-credit mode."
       ]
     },
     {

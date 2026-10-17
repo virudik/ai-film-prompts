@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T01:00:14.249576+00:00",
+  "updated_at": "2026-10-17T01:16:16.790231+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1127,8 +1127,8 @@
       "scene_id": 43,
       "prompt_id": "S43",
       "canonical_block_label": "43",
-      "canonical_prompt_sha256": "90222547693cf2ed409e4cebbc093732b41ad334d2dfb842cfa52138f301f0ac",
-      "normalized_prompt_sha256": "dc2c1f548898027a2e24fc15af7f9f31e661c1ef0878aa10631c78976af0fbb2",
+      "canonical_prompt_sha256": "7c6e9571715a5630c6448c919cb632fc492a90a67289ba50959f2afffa25a504",
+      "normalized_prompt_sha256": "7004f6e6d3837783702707153441629f4a31572473edd3c21dd9cae78411c304",
       "priority": 101,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1164,6 +1164,12 @@
           "slot": "@Image3",
           "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
           "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+          "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a",
           "required": true
         }
       ],

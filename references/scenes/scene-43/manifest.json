@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 43,
-  "updated_at": "2026-10-16T17:30:20.331178+00:00",
+  "updated_at": "2026-10-17T01:16:16.790231+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -86,6 +86,36 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+      "asset_id": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+      "role": "mechanical_detail",
+      "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a",
+      "bytes": 2450999,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T01:03:48.182012+00:00",
+        "evidence": "Raised attached wing and recognizable adjacent engine/fuselage, compact pivot/actuator/detail in working hangar lighting. Supplemental mechanical interpretation only; not exact movie frame, not jammed end-state."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-43/S43-shuttle-raised-wings.png"
+        ],
+        "prompt": "One photoreal 16:9 mechanical close-up reference of the WING ROOT HINGE of the EXACT white shuttle shown in image1. It is a tighter camera view on the existing visible outer wing attachment above the near engine, not a redesign. The tall side wing remains UPRIGHT in parked state and physically attached. Show a plausible compact load-bearing pivot barrel, existing brackets, hinge pin, short hydraulic actuator and cable routing nestled between the same white wing-root panels and same white engine/fuselage structure, consistent worn seams/materials. Enough adjacent white fuselage, engine housing and raised wing surface remain visible to identify the same craft. No cutaway or exploded diagram, no new wings, no detached/damaged parts, no repair people, no arbitrary extra mechanism. Cool white practical working hangar lights, faint amber floor behind, NO disco colors. This is a detail helper for the joint only, NOT a frame from the video and NOT the jammed ending state; do not imply screen-left/right geography. Sharp realistic metal and hoses, cinematic neutral exposure, no labels/arrows/text/watermark/black bars."
+      },
+      "applies_to": [
+        "43",
+        "44"
+      ]
     }
   ],
   "identity_refs": [
@@ -106,7 +136,7 @@
     {
       "prompt": "main",
       "prompt_id": "S43",
-      "canonical_prompt_sha256": "90222547693cf2ed409e4cebbc093732b41ad334d2dfb842cfa52138f301f0ac",
+      "canonical_prompt_sha256": "7c6e9571715a5630c6448c919cb632fc492a90a67289ba50959f2afffa25a504",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -130,8 +160,16 @@
           "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
           "input_status": "available",
           "canonical_role": "vehicle_design_helper"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+          "input_status": "available",
+          "canonical_role": "mechanical_detail_helper",
+          "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a"
         }
-      ]
+      ],
+      "characters": 7290
     }
   ],
   "site_published": false,
@@ -145,5 +183,6 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "Shared vehicle helper saved and QC checked. Owner authorized free website generation16.10; editorial approval not inferred."
+  "note": "Shared vehicle helper saved and QC checked. Owner authorized free website generation16.10; editorial approval not inferred.",
+  "canonical_master_sha256": "786f01b6e597781e5336f22900517191b7617efca4764457b872c86bdf580166"
 }

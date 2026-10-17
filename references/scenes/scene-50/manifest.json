@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T00:41:02.845078+00:00",
+  "updated_at": "2026-10-17T01:16:16.790231+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -62,8 +62,10 @@
         "kind": "owner_supplied_video_frame",
         "library_file_id": "libfile_777baa76fba08191bc124945b7b5b57a",
         "original_filename": "Кадр 00_03.400.jpg",
-        "source_video_filename": "26dd8fa23f444fa981c071b85297fd7a.mp4",
-        "source_video_sha256": "a53867b1e262a48775992ee31ccd155840c2b334ce677202fd5e907708dc85b7"
+        "topview_extract_task_id": "8e62acb693804e8a97590325b1555148",
+        "source_task_id": "200c9f6132384957a0a71834c692b51a",
+        "time_ms": 3400,
+        "verification": "Downloaded Topview extracted JPEG matches owner attachment SHA256 byte-for-byte. Separate uploaded forest-action MP4 is NOT this source."
       }
     },
     {
@@ -87,13 +89,15 @@
         "kind": "owner_supplied_video_frame",
         "library_file_id": "libfile_c3e6cb3dc0b08191a26af1df9c626614",
         "original_filename": "Кадр 00_14.833.jpg",
-        "source_video_filename": "26dd8fa23f444fa981c071b85297fd7a.mp4",
-        "source_video_sha256": "a53867b1e262a48775992ee31ccd155840c2b334ce677202fd5e907708dc85b7"
+        "topview_extract_task_id": "98bbd8b2b32043e99d59f1f0347a339f",
+        "source_task_id": "7edc5aa681404e569af02f2ce7789132",
+        "time_ms": 14833,
+        "verification": "Downloaded Topview extracted JPEG matches owner attachment SHA256 byte-for-byte. Separate uploaded forest-action MP4 is NOT this source."
       }
     }
   ],
   "remaining": [
-    "Crowd composition in H28B still needed; owner supplied two better species frames, now linked."
+    "Fan crowd composition in H28B: website Nano Banana Pro free Unlimited submission rejected17Oct01:14:09UTC because concurrent slots are full; no image task created. Retry only after a free slot, checking duplicates and zero-credit mode."
   ],
   "approved": [],
   "rejected": [

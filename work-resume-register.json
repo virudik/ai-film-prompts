@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T01:00:14.249576+00:00",
+  "last_updated_at": "2026-10-17T01:16:16.790231+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T01:00:14.249576+00:00",
+      "verified_at": "2026-10-17T01:16:16.790231+00:00",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -463,7 +463,8 @@
         "Постановочные референсы игры 49B,49C созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
         "Постановочные референсы игры 49D,49E созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
         "Постановочные референсы игры 49F созданы, визуально проверены и подключены отдельными слотами в master/manifest/очереди. Это игровой хват, не замах; лица и точный дизайн инструментов по исходным рефам. Промты28 не менялись; новых видео submit нет. Остаток проверять по текущим manifest; общий49F, исправление51 и шарнир43 в работе.",
-        "49A–F теперь имеют отдельные игровые постановки, включая полный ансамбль9+1+2.51A/B подключают новый S51-neck-grip-windup: ОБЕ руки за узкий гриф у головки, корпус поднят и ударяет пол первым; в51A прописан переход от игрового хвата к замаху. Старый ошибочный помощник оставлен в истории, в inputs не используется. Промты28 неизменны; разборA1/B1 отдельно, без rerun. Осталось43 шарнир, толпа50 по новым кадрам;44/48/B3 только настоящие финалы."
+        "49A–F теперь имеют отдельные игровые постановки, включая полный ансамбль9+1+2.51A/B подключают новый S51-neck-grip-windup: ОБЕ руки за узкий гриф у головки, корпус поднят и ударяет пол первым; в51A прописан переход от игрового хвата к замаху. Старый ошибочный помощник оставлен в истории, в inputs не используется. Промты28 неизменны; разборA1/B1 отдельно, без rerun. Осталось43 шарнир, толпа50 по новым кадрам;44/48/B3 только настоящие финалы.",
+        "Первый корабль выбран и подключён45/46; задний ракурс45, игровые позы49A–E и полный состав49F, отдельный хват ОБЕИМИ руками за гриф для замаха51A/B, деталь шарнира43 готовы и подключены. Два кадра вуки владельца подключены50; подтверждены исходные Topview extract-task и SHA. Разбор готовых A1/B1: reports/dance-review-2026-10-17.md;28 не менялись, rerun нет. Референс толпы50 пока НЕ готов: сайт Nano Banana Pro16:9/2K, Unlimited free отказал17.10 01:14:09UTC из-за заполненных concurrent slots, task не создан, кредитов0. Подготовленный запрос и receipt сохранены.44/48/B3 требуют настоящие финалы43/42/B2."
       ],
       "next_actions": [
         "B8 → B9 → B10 as slots free; B3 only after real B2/C28. No duplicate submits.",
@@ -487,7 +488,7 @@
         "42 result →48 continuity reference",
         "50 audience image unavailable after two service refusals; requires supplied suitable image; no bypass/repeated attempts"
       ],
-      "next_action": "Finish authorized pose refs49B–F/51 and optional43 hinge; review dance improvement without rerun; real43/42/B2 finals when available."
+      "next_action": "Check current main and live Unlimited slots. Finish scene50 crowd using prepared3-input Nano Banana Pro website request when slot free; record actual task, QC, save full image/thumb/manifest/mapping then READY. Continue B8→B9→B10, B3 after actual B2 final; then ordered new scenes with real43→44 and42→48. Owner decides dance reruns."
     }
   ],
   "rules": [

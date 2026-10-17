@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-17T01:16:16.790231+00:00",
+  "attempted_at": "2026-10-17T01:14:09Z",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "task_id": null,
+  "status": "not_created_slot_limit",
+  "model": "Nano Banana Pro",
+  "resolution": "2K",
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "mode": "website Unlimited free",
+  "credits_spent": 0,
+  "prompt": "Create one photoreal cinematic 16:9 still for our film, scene 50: a crowd of Wookiee fans enjoying their favorite band. Image 1 is the exact hangar location and lighting reference. Images 2 and 3 are Wookiee species appearance references only: ignore all humans, tavern interiors and black bars in those images. Show 8–12 different adult Wookiees in foreground and midground, with a few more behind, layered brown, black and auburn fur, varied faces and manes. Joyful expressions, cheering, hands raised naturally at chest or shoulder height, comfortable natural spacing with small open floor patches. No humans. Eye-level medium-wide camera. The fans look toward the band OFFSCREEN beside the camera. Preserve Image 1 hangar geometry, shuttle at back right and space scenery. Natural readable face lighting with existing cyan and magenta practical lights. This is a simple crowd of fans in the established hangar, no arena, no stage, no forest, no tavern, no battle or collision. No captions, logos, collage, black bars or split screen.",
+  "prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+  "references": [
+    {
+      "slot": "Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+    },
+    {
+      "slot": "Image2",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+    },
+    {
+      "slot": "Image3",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+    }
+  ],
+  "site_error": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
+  "response": "Did not switch to credits; no repeat submission; readonly latest task list contains no new image task.",
+  "earlier_builtin_attempt": {
+    "request_id": "b41b3d05-141c-4ff9-b086-2a73ce569094",
+    "status": "moderation_blocked",
+    "category": "other",
+    "asset_created": false
+  },
+  "next_action": "After an Unlimited slot becomes free, check all board tasks for a duplicate and submit this one image request via website only. Preserve dance/video ordering; no video reruns."
+}

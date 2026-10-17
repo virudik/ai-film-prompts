@@ -1,14 +1,9 @@
-SCENE 50 — WOOKIEE ROCK FANS — STILL REFERENCE IMAGE
-Intended website model: Nano Banana, only if Unlimited / 0 credits is visibly available.
-Attach Image 1: H28B-disco.png — absolute location.
-Attach Image 2: S50-wookiees-kashyyyk-12s.png — Wookiee appearance only.
+SCENE50 — PREPARED IMAGE REQUEST, NOT A GENERATED RESULT
+Website Nano Banana Pro |16:9 |2K |quantity1 |Unlimited free only
+Image1: references/scenes/scene-28/H28B-disco.png
+Image2: references/scenes/scene-50/S50-wookiees-owner-03m400.jpg
+Image3: references/scenes/scene-50/S50-wookiees-owner-14m833.jpg
 
-Create one photorealistic cinematic 16:9 still of a crowd of Wookiee rock-concert fans in the EXACT hangar from Image 1. Preserve its industrial walls, pillars, rear opening to space, Imperial floor emblem, parked shuttle at frame-right, camera geography, and blue-magenta-amber lighting. The crowd occupies the existing open floor; no new stage or arena.
+Create one photoreal cinematic 16:9 still for our film, scene 50: a crowd of Wookiee fans enjoying their favorite band. Image 1 is the exact hangar location and lighting reference. Images 2 and 3 are Wookiee species appearance references only: ignore all humans, tavern interiors and black bars in those images. Show 8–12 different adult Wookiees in foreground and midground, with a few more behind, layered brown, black and auburn fur, varied faces and manes. Joyful expressions, cheering, hands raised naturally at chest or shoulder height, comfortable natural spacing with small open floor patches. No humans. Eye-level medium-wide camera. The fans look toward the band OFFSCREEN beside the camera. Preserve Image 1 hangar geometry, shuttle at back right and space scenery. Natural readable face lighting with existing cyan and magenta practical lights. This is a simple crowd of fans in the established hangar, no arena, no stage, no forest, no tavern, no battle or collision. No captions, logos, collage, black bars or split screen.
 
-Use only the Wookiees from Image 2 as the species reference: tall intelligent bipedal aliens, long layered brown/chestnut/sandy/grey fur, expressive eyes and authentic Wookiee muzzles. Make distinct individuals. Do not import the human, forest, trees, bridges, daylight or composition from Image 2. Do not make gorillas, bears, animal costumes, human faces, cloned heads or Ewoks.
-
-Camera at Wookiee shoulder height, looking diagonally across the audience toward the off-screen band. Show 8–12 clearly distinguishable fans in the foreground, more fans behind, all oriented consistently toward the same off-screen performers. Two front-row fans have clearly visible three-quarter faces. They look delighted, a few raise one relaxed hand, others lean forward ready to headbang. Natural stable standing poses, visible feet where unobstructed, physically plausible spacing. Keep a small open patch of floor between the front rows for the subsequent playful mosh-circle. This is a static BEFORE-action reference, without collisions, falling or blurred fur.
-
-Band remains outside this camera framing; do not invent or replace its human, Ewok or cat members. No instruments in the fans' hands. Detailed realistic fur lit by the existing disco lights, consistent scale and perspective, cinematic materials, no text, lyrics, labels, watermark or borders.
-
-QC before use: exact H28B / shuttle at right / species anatomy / distinct faces / plausible spacing / no imported human or forest. This image would guide crowd arrangement only; the original H28B stays location authority. A technical success is not owner approval.
+QC: same H28B, correct varied Wookiees, no imported humans/tavern, no invented arena. Save PNG + thumbnail + SHA/provenance + mapping before READY50. Not editorial acceptance.

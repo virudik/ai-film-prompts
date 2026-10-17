@@ -3089,9 +3089,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure></div>
+<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-43/S43-wing-hinge-closeup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-wing-hinge-closeup.png.webp" alt="@Image4 — шарнир поднятого крыла, деталь механики" loading="lazy"></a><figcaption>@Image4 — шарнир поднятого крыла, деталь механики</figcaption></figure></div>
 
 **Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. Правое крыло плавно опускается в полётное положение, левое дёргается, скрежещет и застревает на полпути. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа опускается, и Серёга молча спускается на пол ангара и смотрит вверх на кривое крыло.
+
+**Дополнительный вход:** @Image4 = <a href="references/scenes/scene-43/S43-wing-hinge-closeup.png">шарнир поднятого крыла, деталь механики</a>.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3101,6 +3103,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
 @Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet. The white triangular shuttle with raised wings on the right of @Image2 is the shuttle of this scene. Location geometry and shuttle silhouette only; no people from this image.
 @Image3 — the shared close exterior design reference of the same shuttle with BOTH side wings raised: hull, three distinct fins, hinges, cockpit and landing supports. Vehicle geometry only.
+@Image4 — WING ROOT MECHANICAL DETAIL ONLY: compact pivot and actuator of the SAME upright parked shuttle from @Image3. @Image3 controls overall vehicle design, @Image2 location. This close-up does not set screen-left/right geography or the jammed end state and never replaces the real last frame of result43.
 Priority: @Image1 controls Serega; @Image2 controls the hangar; @Image3 controls the shuttle design. The timeline controls moving wing positions.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
