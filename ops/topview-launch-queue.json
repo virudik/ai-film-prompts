@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T11:27:13.271Z",
+  "updated_at": "2026-10-17T11:52:37+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2079,7 +2079,25 @@
     "continuation": "working_chat_with_same_owner_authorization",
     "notification_state": "owner_notified",
     "notified_at": "2026-10-17T06:59:55.713Z",
-    "notification_event": "blocked_browser_b2_c28_20261017T065955713Z"
+    "notification_event": "blocked_browser_b2_c28_20261017T065955713Z",
+    "working_chat_observation": {
+      "checked_at": "2026-10-17T11:52:37+00:00",
+      "browser": "Chrome extension",
+      "authenticated": true,
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode_label": "Безлимитный режим — бесплатно",
+      "filechooser_opened": true,
+      "file_upload_completed": false,
+      "reason": "Missing Chrome extension Allow access to file URLs permission; setFiles explicitly rejected.",
+      "next_ready_item": "B3",
+      "claim_created": false,
+      "create_clicked": false,
+      "credits_spent": 0
+    }
   },
   "new_scene_order": [
     40,

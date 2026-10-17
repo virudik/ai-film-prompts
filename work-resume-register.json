@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T11:34:58.641Z",
+      "verified_at": "2026-10-17T11:52:37+00:00",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -470,8 +470,9 @@
         "B8 отправлен17.10 03:06:04UTC через сайт Topview: task5333994f739f4a8b813a6a36dcb7e140, Unlimited=true,0credits,Wan3.0/30s/720p/16:9,4проверенных входа; полный нормализованный промт совпал с master. Claim закрыт submitted, повторять нельзя. A2 готова; B2/B4/B5/B6/B7/B8 занимают6слотов. Следующие B9→B10;B3 только после настоящего B2/C28. Робот восстановился: штатный цикл02:50:18UTC health=ok после fix549452b (27тестов). Вне этой сессии уже отправлены43/44/45/46, не дублировать; второй46 task07f5e7a57b484035a1cee4d5479b1474 также точно совпал с master и success, paid12 — только наблюдение, не наш запуск и не одобрение.43 готов: следующий шаг извлечь настоящий финальный кадр для44; существующий44 не перезапускать. Толпа50 ещё отсутствует,42→48 иB2→B3 ждут результатов. Фоновая автоматизация отключилась из-за отсутствия входа в своей среде; рабочий чат авторизован, это не подтверждает вход следующего фонового запуска.",
         "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически. Файл references/scenes/scene-44/S44-start-from-S43-result.png; manifest/sourceSHA/thumb/master link saved. Automation resumed, same hourly schedule; scheduled-session access unverified.",
         "17Oct06:59UTC: B2 task762b3091b3e44b8599a0a58b91a253c5 reached success at06:20:26UTC; live account now5/6 Unlimited. Scheduled environment has no authenticated owner Topview session, so the real result/C28 could not be downloaded or QC'd. No claim/upload/submit/credits.",
-        "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview Ultra авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42.",
-        "17Oct14:32MSK owner requested handoff. C28 from actual B2 saved in commit325b29d6e640ad0f07fb47af3d5525564e79a866, Pages exact SHA verified; B3 ready. B3/B9/B10 NOT submitted, no claim, no Create. Detailed transfer at top of existing checkpoint/handoff."
+        "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42.",
+        "17Oct14:32MSK owner requested handoff. C28 from actual B2 saved in commit325b29d6e640ad0f07fb47af3d5525564e79a866, Pages exact SHA verified; B3 ready. B3/B9/B10 NOT submitted, no claim, no Create. Detailed transfer at top of existing checkpoint/handoff.",
+        "17.10 приём D7: 15/15, SHA 8 источников совпали; shared chat сверён с main. Полный скан 11 досок/17 страниц/898 задач: 4 активных Unlimited (B5–B8), 2 свободных. Проверены SHA всех входов B3/B9/B10 и полных промтов; точных нормализованных дублей нет. Локальный Chrome Topview авторизован. Выбраны Wan3/30s/720p/16:9/qty1/Безлимитный режим — бесплатно. Видимый Импорт успешно открыл filechooser (multiple=true), но setFiles заблокирован отсутствующим разрешением расширения Allow access to file URLs. Это конкретный блокер рабочего Chrome, не отсутствие входа. Ни один референс не загрузился; промт не вставлен; claim/Create/submit отсутствуют. Кредиты не потрачены. После включения разрешения владельцем: свежий main/слоты/решения, импорт B3, полный UI match, CAS-claim, один submit; затем B9/B10. Автоматика остаётся выключенной до восстановления импорта."
       ],
       "next_actions": [
         "Fresh main/D7, owner decisions, complete Topview scan; B3 currently ready priority5, B9priority12, B10priority13. No claim or submit for these three.",
@@ -495,16 +496,16 @@
         "42 result→48 actual final frame",
         "44 actual43 final saved but incompatible wing pose; owner decision, no automatic rerender"
       ],
-      "next_action": "Restore authorized Topview browser upload; B3→B9→B10 by live slots. Last UI still PAID12credits, so explicitly switch to Unlimited0 before any submit. Filechooser timed out before setFiles; no uploads confirmed, prompt not pasted, no claim/submission.",
+      "next_action": "Owner enables Chrome ChatGPT extension Allow access to file URLs, then fresh main/global slots/owner decisions → four B3 refs → exact prompt/UI match → CAS claim → one Unlimited0 submit; B9/B10 follow by slots. No claims/submissions exist for these items.",
       "blockers": [
-        "Browser filechooser timeout before uploads; working session itself authenticated Ultra. Last UI paid12, must select Unlimited0.",
+        "Working local Chrome authenticated; visible Import opens filechooser, but setFiles explicitly blocked by missing Allow access to file URLs extension permission. No uploads/prompt/claim/Create.",
         "44 genuine43 final has raised wings; owner continuity decision; existing44 must not be rerun.",
         "50 fan-crowd image still missing; authorized Nano Banana website prepared request pending slot/priority.",
         "48 waits for actual42 result.",
         "Hourly ChatGPT queue automation disabled after scheduled Login blocker; do not claim background submissions. Same task may be resumed after recovery; no duplicate watcher."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
-      "handoff_status": "prepared_for_successor",
+      "handoff_status": "accepted_d7_blocked_chrome_file_permission",
       "automation_observation": {
         "id": "6acae6ab433481919e88665c520b8ef2",
         "is_enabled": false,
