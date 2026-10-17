@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T21:22:26+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-17T21:23:12+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -61,7 +61,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 70bc3aff4ff6 |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | 1c5a4c000ecb |
 | 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 34350b20b80c |
-| 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | 48c9d32e67d3 |
+| 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | 48c9d32e67d3 |
 | 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [41] | 7442f27d9b82 |
 | 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [54] | 2f9b48dca0b3 |
 
