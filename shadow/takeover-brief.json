@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T17:47:39+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-17T18:07:05+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "39deb3e4924dc339b90b28873df2912cca0b7969b229c63dceabb0370ae251cb",
-   "bytes": 684957
+   "sha256": "586055a7ed7690c79b831408fc46899942ed536f6b1d6f338c0bcdedcbe3b217",
+   "bytes": 685320
   }
  ],
  "invariants": [
@@ -272,7 +272,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 35353,
+   "offset": 35343,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -294,7 +294,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 48330,
+   "offset": 48320,
    "chars": 13502,
    "sha256_12": "7afc53e5dc5f"
   },
@@ -314,7 +314,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 61832,
+   "offset": 61822,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -337,7 +337,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 72517,
+   "offset": 72507,
    "chars": 13057,
    "sha256_12": "ba90242da394"
   },
@@ -359,7 +359,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 85574,
+   "offset": 85564,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -379,7 +379,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 121844,
+   "offset": 121834,
    "chars": 143136,
    "sha256_12": "3a7f6c681d92"
   },
@@ -403,7 +403,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 264980,
+   "offset": 264970,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -427,7 +427,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 274173,
+   "offset": 274163,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -451,7 +451,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 283205,
+   "offset": 283195,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -469,7 +469,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 292213,
+   "offset": 292203,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -489,7 +489,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 298089,
+   "offset": 298079,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -510,7 +510,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 304488,
+   "offset": 304478,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -532,7 +532,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 312420,
+   "offset": 312410,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -556,7 +556,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 323065,
+   "offset": 323055,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -577,7 +577,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 335925,
+   "offset": 335915,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -598,7 +598,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 346338,
+   "offset": 346328,
    "chars": 11439,
    "sha256_12": "1fe8a1315d01"
   },
@@ -620,7 +620,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 357777,
+   "offset": 357767,
    "chars": 13150,
    "sha256_12": "ccb1024ec8e5"
   },
@@ -642,7 +642,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 370927,
+   "offset": 370917,
    "chars": 11212,
    "sha256_12": "be779d8a17e0"
   },
@@ -666,7 +666,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 382139,
+   "offset": 382129,
    "chars": 9667,
    "sha256_12": "3544c33b16f7"
   },
@@ -686,7 +686,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 391806,
+   "offset": 391796,
    "chars": 12523,
    "sha256_12": "fdf714a2565b"
   },
@@ -707,7 +707,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 404329,
+   "offset": 404319,
    "chars": 12179,
    "sha256_12": "5d7b7be5cdfb"
   },
@@ -729,7 +729,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 416508,
+   "offset": 416498,
    "chars": 12293,
    "sha256_12": "1dda6ed3ede6"
   },
@@ -751,7 +751,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 428801,
+   "offset": 428791,
    "chars": 13750,
    "sha256_12": "3a62a883d0e7"
   },
@@ -775,7 +775,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 442551,
+   "offset": 442541,
    "chars": 10099,
    "sha256_12": "e869a45bf9dc"
   },
@@ -799,7 +799,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 452650,
+   "offset": 452640,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -825,7 +825,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 462775,
+   "offset": 462765,
    "chars": 58084,
    "sha256_12": "94a0936af45d"
   },
@@ -848,7 +848,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 520859,
+   "offset": 520849,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -875,7 +875,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 538133,
+   "offset": 538123,
    "chars": 18968,
    "sha256_12": "ade962fc722d"
   },
@@ -898,7 +898,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 557101,
+   "offset": 557091,
    "chars": 8213,
    "sha256_12": "8f374c0fb553"
   },
@@ -922,7 +922,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 565314,
+   "offset": 565304,
    "chars": 7903,
    "sha256_12": "96011d487faa"
   },
@@ -944,7 +944,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 573217,
+   "offset": 573207,
    "chars": 8861,
    "sha256_12": "17d6bc71c050"
   },
@@ -968,9 +968,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 582078,
-   "chars": 10268,
-   "sha256_12": "de1b3d134872"
+   "offset": 582068,
+   "chars": 10577,
+   "sha256_12": "464b5e309517"
   }
  ],
  "read_sets": {
