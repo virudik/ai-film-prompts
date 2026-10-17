@@ -4,7 +4,7 @@
   "owner_authorization": "18Oct2026 02:15MSK: Запусти",
   "create_clicked_at": "2026-10-17T23:18:27.828Z",
   "create_click_count": 1,
-  "state": "blocked_human_verification_before_submission_confirmation",
+  "state": "blocked_hcaptcha_manual_handoff",
   "task_id": null,
   "model": "v6-mini",
   "plan": "Free £0/month,50dailycredits",
@@ -14,7 +14,8 @@
   "money_spent": 0,
   "credit_debit": "not_observed",
   "evidence": "reports/evidence/suno-captcha-20261018.jpg",
-  "blocker": "Cloudflare checkbox Подтвердите, что вы человек appeared after Create. No task/result appeared before checkpoint. CAPTCHA not clicked; need per-action user permission under browser policy.",
-  "next_action": "After user permission inspect current challenge, complete allowed verification, then reconcile new songs before any second Create. Do not blindly resubmit.",
-  "recorded_at": "2026-10-17T23:19:53.814Z"
+  "blocker": "Current browser now shows hCaptcha image challenge with Попробуйте еще раз. No checkbox action performed this turn; no second Create click. Manual cloud browser handoff requested.",
+  "next_action": "User completes current CAPTCHA in handed-off cloud tab. Then inspect new song IDs/results before any second Create click.",
+  "recorded_at": "2026-10-17T23:23:47.661Z",
+  "captcha_authorization": "Owner confirmed 18Oct2026 02:20:58MSK: Подтверждаю, я человек"
 }
