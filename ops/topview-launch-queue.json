@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:47:42.993047Z",
+  "updated_at": "2026-10-17T19:53:52.866Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -10,14 +10,14 @@
     "max_concurrent_account_tasks": 6,
     "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit.",
     "latest_owner_update": {
-      "authorized_at": "2026-10-17T13:19:51Z",
-      "source": "Owner16:11MSK: fans first; three story bridges; energetic close dance with ONE15s test; repair43/44/46. Owner16:19MSK: retain successful ship and FOUR engines; investigate Wan vs Seedance."
+      "authorized_at": "2026-10-17T19:52:55Z",
+      "source": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images."
     }
   },
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Owner17Oct22:43MSK: S41 is the NEXT eligible video on the first free video slot, ahead of S43-R1. Then S43-R1, S44 only with actual corrected43 Video1, and remaining story by readiness. Owner17Oct22:33MSK: no more RosKOTmos45/46 or fan images. All three fan images success and originals archived; selection pending. S55submitted86741d99f7634e3b97e8b139996b83b0; never repeat. Next ready S43-R1, then44 with actual corrected43 video; story52–54 and36/37/39–42/47–48 by readiness. Dance one15s test after story, music last. Fresh main/owner decisions/lock/full scan, exact prompt/refs, website Unlimited0, CAS and receipt required.",
+  "selection_policy": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -214,8 +214,6 @@
       "mode": "image_to_video",
       "max_new_submissions": 1,
       "depends_on_submitted": [
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -247,7 +245,7 @@
       "canonical_block_label": "36",
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
-      "priority": 30,
+      "priority": 3,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -299,7 +297,12 @@
       "task_id": null,
       "claim": null,
       "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
-      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained."
+      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained.",
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 3
+      }
     },
     {
       "id": "S37-S37",
@@ -308,7 +311,7 @@
       "canonical_block_label": "37",
       "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
       "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
-      "priority": 31,
+      "priority": 4,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -362,7 +365,12 @@
       "task_id": null,
       "claim": null,
       "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
-      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained."
+      "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained.",
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 4
+      }
     },
     {
       "id": "S13-S13",
@@ -999,7 +1007,7 @@
       "canonical_block_label": "40",
       "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
       "normalized_prompt_sha256": "d6313b55f14d8c184a658da2fe8e4923f4b5baa644900284c39e77f829a6b4df",
-      "priority": 33,
+      "priority": 6,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1049,7 +1057,12 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 6
+      }
     },
     {
       "id": "S45",
@@ -1341,9 +1354,9 @@
       "task_id": null,
       "claim": null,
       "priority_owner_override": {
-        "requested_at": "2026-10-17T19:43:30Z",
-        "source": "Owner: 41 поставить следующей",
-        "previous_priority": 34
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 0
       }
     },
     {
@@ -1412,7 +1425,7 @@
       "canonical_block_label": "39",
       "canonical_prompt_sha256": "38df51a65308aee76d55bc55058f1dcee1b2af5887ef15d3f9225b8689792bf5",
       "normalized_prompt_sha256": "3b54a38ab0c51478950719aab4ef12cc77cee4037c4ef82c5424eed51490f070",
-      "priority": 32,
+      "priority": 5,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1468,7 +1481,12 @@
       "previous_prompt_sha256": [
         "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce"
       ],
-      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6)."
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6).",
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 5
+      }
     },
     {
       "id": "S49A",
@@ -1493,8 +1511,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1568,8 +1584,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1649,8 +1663,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1730,8 +1742,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1805,8 +1815,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1880,8 +1888,6 @@
         "B9",
         "B10",
         "B3",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -1976,8 +1982,6 @@
         "S49F",
         "S50A",
         "S50B",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -2065,8 +2069,6 @@
         "B10",
         "B3",
         "S51A",
-        "S45-R1-20261017",
-        "S46-R1-20261017",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
@@ -2253,7 +2255,7 @@
       "canonical_block_label": "43",
       "canonical_prompt_sha256": "740bbb900dad845aa23774220542526eb73217e611537d40ad6b611dcdfb3ef1",
       "normalized_prompt_sha256": "ed5fbaae46ee0b6e33f8aff99d7656c9dbb8d9ac80dcfb7fe2938deac8f6c2e7",
-      "priority": 12,
+      "priority": 1,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -2299,7 +2301,12 @@
         "1b8f85b65ff24b13bcdbbeea3af3c096"
       ],
       "attempt": "one_corrected_attempt_authorized_20261017",
-      "max_credits": 0
+      "max_credits": 0,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 1
+      }
     },
     {
       "scene_id": 44,
@@ -2314,7 +2321,7 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "id": "S44-R1-20261017",
-      "priority": 13,
+      "priority": 7,
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
@@ -2356,7 +2363,12 @@
       "attempt": "one_corrected_attempt_authorized_20261017",
       "blocker": "Need actual clean ending of NEW43 with jammed wing",
       "launch_readiness": "blocked_continuity",
-      "max_credits": 0
+      "max_credits": 0,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 7
+      }
     },
     {
       "scene_id": 48,
@@ -2657,7 +2669,7 @@
       "canonical_block_label": "54",
       "canonical_prompt_sha256": "d132a313e6b199d862d9dd940df75c95792bad0bd24f83196d0e1030a1d19c47",
       "normalized_prompt_sha256": "45fa1934635539cc0bce83be5f0c14ccb6993a0643ad79b5047b442ff60e0840",
-      "priority": 22,
+      "priority": 2,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -2707,7 +2719,12 @@
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
-      "max_credits": 0
+      "max_credits": 0,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:52:55Z",
+        "source": "Explicit owner sequence",
+        "sequence_index": 2
+      }
     },
     {
       "id": "S28-A1-TEST-20261017",
@@ -3073,8 +3090,8 @@
     },
     {
       "scene_id": 50,
-      "needed": "Wookiee fan crowd",
-      "action": "Prepared website request remains pending; music dessert, after story. No new image task exists as of this review."
+      "needed": "Owner choice among three generated fan images",
+      "action": "All3 success, originals/thumbs archived and published in scene50; no new image generation. Choose approved candidate and verify updated50A/B reference mapping before READY/video launch."
     }
   ],
   "receipts_directory": "reports/topview-queue-2026-10-16",
@@ -3134,15 +3151,16 @@
     }
   },
   "new_scene_order": [
-    45,
-    46,
+    41,
     43,
-    44,
+    54,
     36,
     37,
     39,
     40,
-    41,
+    44,
+    52,
+    53,
     42,
     47,
     48,
@@ -3193,5 +3211,89 @@
     "observed_total": 7,
     "conclusion": "Live account contradicts assumption of shared six image+video cap. Exact separate model/media cap not verified; do not silently change video cap or hardcode an image cap."
   },
-  "owner_instruction_20261017_2233": "Owner: three Wookiee images ready; RosKOTmos scenes sufficient, continue. Cancel unsubmitted45/46; keep existing results and continue55→43/44→story by readiness. No new fan generation."
+  "owner_instruction_20261017_2233": "Owner: three Wookiee images ready; RosKOTmos scenes sufficient, continue. Cancel unsubmitted45/46; keep existing results and continue55→43/44→story by readiness. No new fan generation.",
+  "owner_instruction_20261017_2253": {
+    "authorized_at": "2026-10-17T19:52:55Z",
+    "request": "Итого следующая 41 за ней 43 после 54 потом 36, 37, 39, 40. Затем крыло. Далее по плану, чтобы все готовые сцены запустить",
+    "item_order": [
+      "S41",
+      "S43-R1-20261017",
+      "S54",
+      "S36-S36",
+      "S37-S37",
+      "S39",
+      "S40",
+      "S44-R1-20261017"
+    ],
+    "remaining": "52,53,42,47,48 by readiness; then previously authorized dance test and music with existing review/reference gates"
+  },
+  "cancelled_dependency_cleanup": {
+    "at": "2026-10-17T19:53:52.866Z",
+    "reason": "Owner22:33 cancelled future45/46; remove only downstream ordering dependencies so remaining authorized queue is not permanently blocked; no content or review gate changed.",
+    "changes": [
+      {
+        "item": "B10",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49A",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49B",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49C",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49D",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49E",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S49F",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S51A",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      },
+      {
+        "item": "S51B",
+        "removed": [
+          "S45-R1-20261017",
+          "S46-R1-20261017"
+        ]
+      }
+    ]
+  }
 }

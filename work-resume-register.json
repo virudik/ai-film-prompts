@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T19:51:25.814Z",
+  "last_updated_at": "2026-10-17T19:53:52.866Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -320,10 +320,11 @@
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
         "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
-        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success."
+        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
+        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items."
       ],
       "next_actions": [
-        "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -351,7 +352,7 @@
         "Six active videos at19:38:17UTC; rescan before next submit.",
         "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
       ],
-      "next_action": "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -502,10 +503,11 @@
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
         "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
-        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success."
+        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
+        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items."
       ],
       "next_actions": [
-        "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -524,7 +526,7 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
       "blockers": [
         "Six active videos at19:38:17UTC; rescan before next submit.",
         "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
@@ -575,10 +577,11 @@
         "Owner21:45MSK authorized three fan image alternatives total; two additional finite zero-credit items V2/V3 queued before55; first remains submitted.",
         "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
-        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success."
+        "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
+        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items."
       ],
       "next_actions": [
-        "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
         "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
         "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
@@ -593,7 +596,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "S41 next on first free video slot (owner17Oct22:43MSK, priority0), then S43-R1 and remaining story by readiness. Do not repeat S55; no new RosKOTmos45/46 or fan images.",
+      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
       "last_observed_topview": {
         "checked_at": "2026-10-17T19:38:17.221Z",
         "boards": 11,
