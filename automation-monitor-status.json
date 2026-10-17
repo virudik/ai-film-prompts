@@ -72,7 +72,7 @@
   "phases": {
     "topview": {
       "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
-      "checked_at": "2026-10-17T01:40:17Z",
+      "checked_at": "2026-10-17T02:30:18Z",
       "boards_scanned": 11,
       "video_tasks_scanned": 100,
       "pages_scanned": 1,
@@ -130,22 +130,19 @@
       "blocking": false
     }
   },
-  "health": "ok",
+  "health": "degraded",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-17T01:40:22Z",
-    "completed_at": "2026-10-17T01:40:22Z",
-    "health": "ok",
+    "started_at": "2026-10-17T02:30:22Z",
+    "completed_at": "2026-10-17T02:30:22Z",
+    "health": "degraded",
     "phases_completed": [
-      "role_check",
-      "topview_scan_api",
-      "task_map_master_consistency",
-      "telemetry_publish",
-      "project_status_health_ok",
-      "checkpoint_last"
+      "topview_scan"
     ],
-    "phases_missing": [],
+    "phases_missing": [
+      "telemetry_publish"
+    ],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 0."
+    "note": "hold: finished_without_scene:6ada672c"
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -204,7 +201,7 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-17T01:40:22Z",
+  "last_completed_cycle_at": "2026-10-17T02:30:22Z",
   "last_successful_cycle_at": "2026-10-17T01:40:22Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
@@ -220,7 +217,7 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-17T01:40:22Z"
+    "robot": "2026-10-17T02:30:22Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
