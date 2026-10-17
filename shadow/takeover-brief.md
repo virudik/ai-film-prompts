@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T18:07:05+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-17T18:07:33+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -73,7 +73,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 8f374c0fb553 |
 | 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [48, 39] | 96011d487faa |
 | 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [41] | 17d6bc71c050 |
-| 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Seedance 2.0 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [54] | 464b5e309517 |
+| 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [54] | 464b5e309517 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
