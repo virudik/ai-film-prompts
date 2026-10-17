@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T03:10:21.750Z",
+  "last_updated_at": "2026-10-17T03:13:41.992Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T03:10:21.750Z",
+      "verified_at": "2026-10-17T03:13:41.992Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -467,7 +467,8 @@
         "Первый корабль выбран и подключён45/46; задний ракурс45, игровые позы49A–E и полный состав49F, отдельный хват ОБЕИМИ руками за гриф для замаха51A/B, деталь шарнира43 готовы и подключены. Два кадра вуки владельца подключены50; подтверждены исходные Topview extract-task и SHA. Разбор готовых A1/B1: reports/dance-review-2026-10-17.md;28 не менялись, rerun нет. Референс толпы50 пока НЕ готов: сайт Nano Banana Pro16:9/2K, Unlimited free отказал17.10 01:14:09UTC из-за заполненных concurrent slots, task не создан, кредитов0. Подготовленный запрос и receipt сохранены.44/48/B3 требуют настоящие финалы43/42/B2.",
         "17Oct05:29MSK resume: matched external existing tasks43/44/45/46 exactly and reconciled queue to prevent duplicates; robot terminal prompt-resolver fix prepared and27tests passed. No assistant paid generation. See reports/resume-2026-10-17-0530.json.",
         "17Oct02:52UTC slot check: A2 task e471e35fc7454fe5a2a89e06fac3f122 reached success; active Unlimited count 5/6. B2 remains init, so B3 still blocked. B8 is next ready item. Scheduled environment could not submit: connected local browser unavailable and cloud Topview board showed Login. No claim/upload/Create/credits.",
-        "B8 отправлен17.10 03:06:04UTC через сайт Topview: task5333994f739f4a8b813a6a36dcb7e140, Unlimited=true,0credits,Wan3.0/30s/720p/16:9,4проверенных входа; полный нормализованный промт совпал с master. Claim закрыт submitted, повторять нельзя. A2 готова; B2/B4/B5/B6/B7/B8 занимают6слотов. Следующие B9→B10;B3 только после настоящего B2/C28. Робот восстановился: штатный цикл02:50:18UTC health=ok после fix549452b (27тестов). Вне этой сессии уже отправлены43/44/45/46, не дублировать; второй46 task07f5e7a57b484035a1cee4d5479b1474 также точно совпал с master и success, paid12 — только наблюдение, не наш запуск и не одобрение.43 готов: следующий шаг извлечь настоящий финальный кадр для44; существующий44 не перезапускать. Толпа50 ещё отсутствует,42→48 иB2→B3 ждут результатов. Фоновая автоматизация отключилась из-за отсутствия входа в своей среде; рабочий чат авторизован, это не подтверждает вход следующего фонового запуска."
+        "B8 отправлен17.10 03:06:04UTC через сайт Topview: task5333994f739f4a8b813a6a36dcb7e140, Unlimited=true,0credits,Wan3.0/30s/720p/16:9,4проверенных входа; полный нормализованный промт совпал с master. Claim закрыт submitted, повторять нельзя. A2 готова; B2/B4/B5/B6/B7/B8 занимают6слотов. Следующие B9→B10;B3 только после настоящего B2/C28. Робот восстановился: штатный цикл02:50:18UTC health=ok после fix549452b (27тестов). Вне этой сессии уже отправлены43/44/45/46, не дублировать; второй46 task07f5e7a57b484035a1cee4d5479b1474 также точно совпал с master и success, paid12 — только наблюдение, не наш запуск и не одобрение.43 готов: следующий шаг извлечь настоящий финальный кадр для44; существующий44 не перезапускать. Толпа50 ещё отсутствует,42→48 иB2→B3 ждут результатов. Фоновая автоматизация отключилась из-за отсутствия входа в своей среде; рабочий чат авторизован, это не подтверждает вход следующего фонового запуска.",
+        "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически. Файл references/scenes/scene-44/S44-start-from-S43-result.png; manifest/sourceSHA/thumb/master link saved. Automation resumed, same hourly schedule; scheduled-session access unverified."
       ],
       "next_actions": [
         "B9 → B10 as slots free; B8 submitted, do not duplicate. B3 only after real B2/C28.",
@@ -486,12 +487,12 @@
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "checkpoint_policy": "Owner17.10: save after each material step and before long operations/pause; update same report, handoff checkpoint and register, commit/push/read-back.",
       "remaining_reference_work": [
-        "43 actual result →44 genuine final frame (available, extract next)",
+        "44 genuine43 final saved; continuity mismatch (wings raised), requires owner decision, no automatic rerun.",
         "B2 result →actualC28→B3 (waiting)",
         "42 result→48 final frame (waiting)",
         "50 exact fan crowd: authorized prepared Nano Banana Pro website request when a free slot exists; no paid route"
       ],
-      "next_action": "Extract and inspect genuine final frame of successful43 for44; never resubmit existing44. Next website video B9 as a slot frees; background browser authentication remains environment-specific."
+      "next_action": "Wait for free Unlimited slot, then B9→B10; prepare50 via authorized Nano Banana when priority permits.44 blocked by real43 wing geometry mismatch and already submitted externally; owner chooses continuity, no automatic rerun."
     }
   ],
   "rules": [

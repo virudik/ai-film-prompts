@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-17T03:13:41.992Z",
+  "scene": 44,
+  "status": "blocked_continuity_mismatch",
+  "frame": {
+    "path": "references/scenes/scene-44/S44-start-from-S43-result.png",
+    "sha256": "13d6ac672dfc7a8067362f7a10ac2d5d4c79ee1e34f62f15909ea577a7c5dc17"
+  },
+  "provenance": {
+    "type": "actual_generated_video_final_frame",
+    "source_scene": 43,
+    "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "resource_id": "cc51a015a25d41699b6e009a48e6f409",
+    "source_sha256": "c70106ea103626f215b24d4f38b4e2ad6b4176615b6a43033a24a80b743aa9ef",
+    "source_bytes": 24839750,
+    "frame_index": 899,
+    "total_frames": 900,
+    "fps": "30/1",
+    "time_seconds": 29.966666666666665,
+    "extraction": "ffmpeg select=eq(n\\,899), original1280x720; no synthesis/crop/retouch",
+    "source_task_submission": "observed_external_existing_task; assistant did not submit",
+    "source_task_credits": 12
+  },
+  "qc": "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически.",
+  "existing44": {
+    "task_id": "d837b803f130431ea0e2e5ad4b786c09",
+    "already_submitted": true,
+    "assistant_submitted": false,
+    "approval": false
+  },
+  "extra_existing46": {
+    "task_id": "07f5e7a57b484035a1cee4d5479b1474",
+    "unique_normalized_full_prompt_match": "46",
+    "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce",
+    "status": "success",
+    "credits": 12,
+    "unlimited": false,
+    "assistant_submitted": false
+  },
+  "next": [
+    "No duplicate44; owner continuity decision",
+    "B9 thenB10 once Unlimited slot frees",
+    "50 fan crowd prepared website request pending free slot",
+    "48 requires42;B3 requiresB2"
+  ],
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "is_enabled": true,
+    "schedule_unchanged": true,
+    "scheduled_browser_authentication_verified": false
+  }
+}

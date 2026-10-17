@@ -246,6 +246,17 @@
         }
       ],
       "input_videos": []
+    },
+    "44": {
+      "source_type": "generated_previous_scene_final_frame",
+      "source_scene": 43,
+      "source_task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+      "manifest": "references/scenes/scene-44/manifest.json",
+      "frame_index": 899,
+      "sha256": "13d6ac672dfc7a8067362f7a10ac2d5d4c79ee1e34f62f15909ea577a7c5dc17",
+      "path": "references/scenes/scene-44/S44-start-from-S43-result.png",
+      "continuity_check": "blocked_wing_geometry",
+      "owner_approval": false
     }
   }
 }

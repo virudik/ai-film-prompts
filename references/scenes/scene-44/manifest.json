@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 44,
-  "updated_at": "2026-10-16T17:30:20.331178+00:00",
+  "updated_at": "2026-10-17T03:13:41.992Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "blocked_continuity",
+  "status": "blocked_continuity_mismatch",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -86,6 +86,47 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-44/S44-start-from-S43-result.png",
+      "asset_id": "references/scenes/scene-44/S44-start-from-S43-result.png",
+      "sha256": "13d6ac672dfc7a8067362f7a10ac2d5d4c79ee1e34f62f15909ea577a7c5dc17",
+      "bytes": 1637188,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "actual_previous_result_final_frame_candidate",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "blocked_continuity_mismatch",
+        "checked_at": "2026-10-17T03:13:41.992Z",
+        "evidence": "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически."
+      },
+      "provenance": {
+        "type": "actual_generated_video_final_frame",
+        "source_scene": 43,
+        "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "resource_id": "cc51a015a25d41699b6e009a48e6f409",
+        "source_sha256": "c70106ea103626f215b24d4f38b4e2ad6b4176615b6a43033a24a80b743aa9ef",
+        "source_bytes": 24839750,
+        "frame_index": 899,
+        "total_frames": 900,
+        "fps": "30/1",
+        "time_seconds": 29.966666666666665,
+        "extraction": "ffmpeg select=eq(n\\,899), original1280x720; no synthesis/crop/retouch",
+        "source_task_submission": "observed_external_existing_task; assistant did not submit",
+        "source_task_credits": 12
+      },
+      "site_published": {
+        "path": "references/scenes/scene-44/S44-start-from-S43-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-44/S44-start-from-S43-result.png.webp",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "use_for_generation": false
     }
   ],
   "identity_refs": [
@@ -101,14 +142,29 @@
   "video_refs": [],
   "approved": [],
   "rejected": [],
-  "topview_source_provenance": null,
+  "topview_source_provenance": {
+    "type": "actual_generated_video_final_frame",
+    "source_scene": 43,
+    "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "resource_id": "cc51a015a25d41699b6e009a48e6f409",
+    "source_sha256": "c70106ea103626f215b24d4f38b4e2ad6b4176615b6a43033a24a80b743aa9ef",
+    "source_bytes": 24839750,
+    "frame_index": 899,
+    "total_frames": 900,
+    "fps": "30/1",
+    "time_seconds": 29.966666666666665,
+    "extraction": "ffmpeg select=eq(n\\,899), original1280x720; no synthesis/crop/retouch",
+    "source_task_submission": "observed_external_existing_task; assistant did not submit",
+    "source_task_credits": 12
+  },
   "prompt_reference_mapping": [
     {
       "prompt": "main",
       "prompt_id": "S44",
       "canonical_prompt_sha256": "51a09473f68a8f38fddd6be984e2fbe5e2c7e16de37f665e1a624cee81325995",
       "local_numbering": true,
-      "launch_readiness": "blocked_missing_inputs",
+      "launch_readiness": "blocked_continuity_mismatch_existing_task",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Direct owner command16.10.2026; unlimited website, zero credits;44 only after actual result43.",
       "slots": [
@@ -127,7 +183,7 @@
         {
           "slot": "@Video1",
           "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available"
+          "input_status": "source_result_available_but_continuity_mismatch"
         },
         {
           "slot": "@Image3",
@@ -140,10 +196,10 @@
     }
   ],
   "site_published": false,
-  "last_qc_at": "2026-10-16T17:30:20.331178+00:00",
-  "last_qc_scope": "16.10.2026: DRAFT-сцена по команде владельца (тред «Шаттл с крылом и бой Роскотмоса»). Изображения не генерировались, Topview не вызывался.",
+  "last_qc_at": "2026-10-17T03:13:41.992Z",
+  "last_qc_scope": "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически.",
   "remaining": [
-    "Actual last seconds/final frame of Scene43; do not use raised-wing design image as start state."
+    "Owner choice on43→44 continuity: actual43 final lacks jammed45degree wing; no automatic rerender/acceptance. Existing external44 already success; do not duplicate."
   ],
   "technical_success_is_editorial_approval": false,
   "invariants": [
@@ -152,5 +208,7 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "Shared vehicle helper saved and QC checked. Owner authorized free website generation16.10; editorial approval not inferred."
+  "note": "Shared vehicle helper saved and QC checked. Owner authorized free website generation16.10; editorial approval not inferred.",
+  "start_frame_candidate": "references/scenes/scene-44/S44-start-from-S43-result.png",
+  "existing_scene44_task_id": "d837b803f130431ea0e2e5ad4b786c09"
 }
