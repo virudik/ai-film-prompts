@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-17T00:46:43.016245+00:00",
+  "updated_at": "2026-10-17T00:52:06.034223+00:00",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -326,6 +326,70 @@
       "applies_to": [
         "49C"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49D-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49D-playing-grip.png",
+      "role": "playing_pose",
+      "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+      "bytes": 2404461,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:52:05.723020+00:00",
+        "evidence": "D exact two approved characters, little adult Alesya scale, separate harp strings/keyboard contacts; E two natural small cats, reachable paw pads, no weapons/human hands. Original identity/props remain authoritative."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/masha-laguna.webp",
+          "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "references/scenes/scene-49/S49D-harp-small-synth.png"
+        ],
+        "prompt": "One photoreal cinematic 16:9 performance pose reference. Image1 exact established hangar geography, white face lighting/cyan-magenta practicals/floor emblem/space opening/shuttle on right. Image2 exact Masha Laguna blue ADULT humanoid face, light-blue head tendrils and opaque smooth full-length blue costume with black neck/back detail. Keep all anatomy fully covered by opaque outfit as reference. Image3 exact Alesya: adult woman's face within brown furry small Ewok character hood, very short Ewok-sized body, rounded ears, brown fur; NO spear. Image4 exact instruments. Masha LEFT at standing silver-blue crystal harp, SIX taut anchored blue strings: both hands visibly plucking separate strings at mid-torso height with natural bent fingers; harp rests rigidly on floor. Alesya RIGHT much shorter, approximately waist-height to Masha, with original adult face unchanged, standing at a correspondingly low two-tier amber/violet keyboard stand, both hands resting over reachable keys, slight joyful confident expression. Playing posture, no smashing, no levitating instruments. Clear hands/strings/keys, full bodies/full instruments, exactly two performers, no cats or other humans, no text/panels/black bars. Preserve faces, clothes and proportions, no redesign."
+      },
+      "applies_to": [
+        "49D"
+      ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49E-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49E-playing-grip.png",
+      "role": "playing_pose",
+      "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
+      "bytes": 2486814,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:52:05.873954+00:00",
+        "evidence": "D exact two approved characters, little adult Alesya scale, separate harp strings/keyboard contacts; E two natural small cats, reachable paw pads, no weapons/human hands. Original identity/props remain authoritative."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg",
+          "references/scenes/scene-49/S49E-cat-paw-controllers.png"
+        ],
+        "prompt": "One photoreal 16:9 low floor-level reference frame. Image1 exact H28B hangar architecture, floor emblem, stars/planet opening, shuttle far-right, same cyan-magenta practical light. Image2 Luchik exact white-grey long-haired DOMESTIC CAT fur/face only; image3 Ryzhik exact ginger tabby long-haired DOMESTIC CAT fur/face only. REMOVE ALL lightsabers, people, human pose and backgrounds from those cat references. Natural small real cats, four feline limbs, unclothed, NO human hands, NOT upright humanoids. Image4 exact low paw instruments. Luchik LEFT sitting naturally on rear haunches, both rear paws on real floor, one front paw lightly pressing blue square pad of FOUR-pad 2x2 device, other resting on separate pad. Ryzhik RIGHT sitting naturally, rear paws grounded, one front paw touching reachable amber pad of THREE circular pad device. Devices just a few cm tall, paw surfaces reachable without stretching, ordinary domestic-cat scale, not huge lions. Serious focused cats looking toward their paws, realistic fur and anatomy, no text/no bars/no panels/no extra animals. All body/paws/devices visible, each contact explicit."
+      },
+      "applies_to": [
+        "49E"
+      ]
     }
   ],
   "remaining": [],
@@ -477,8 +541,8 @@
     {
       "prompt": "49D",
       "status": "READY",
-      "canonical_prompt_sha256": "48484717a11f450f25c6737ae4ef92ea34cf75e240faa20dbc7f2606f5d66fe0",
-      "characters": 6436,
+      "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
+      "characters": 6716,
       "slots": [
         {
           "slot": "@Image1",
@@ -507,14 +571,20 @@
           "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49D-playing-grip.png",
+          "input_status": "available",
+          "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723"
         }
       ]
     },
     {
       "prompt": "49E",
       "status": "READY",
-      "canonical_prompt_sha256": "7856e3d7c0fc2118cc3a224cdb5f4ce0ed1d1ac10855013a2b813fd3ddb01a42",
-      "characters": 6279,
+      "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
+      "characters": 6529,
       "slots": [
         {
           "slot": "@Image1",
@@ -543,6 +613,12 @@
           "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49E-playing-grip.png",
+          "input_status": "available",
+          "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d"
         }
       ]
     },
@@ -617,6 +693,6 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "d041f7bf0269e6332c20e77b5751bab63698d311bc2c709e97a2c135aa895ace",
+  "canonical_master_sha256": "946c28f0f09633b7cc22a932edaeeb35dad609ad23889eb688e8796750d7b428",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
 }

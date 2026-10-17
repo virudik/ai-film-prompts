@@ -3900,7 +3900,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/masha-laguna.webp" target="_blank" rel="noopener"><img src="references/masha-laguna.webp" alt="@Image2 — Маша Лагуна" loading="lazy"></a><figcaption>@Image2 — Маша Лагуна</figcaption></figure>
 <figure><a href="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/Ale28-Alesya-model-sheet.png" alt="@Image3 — Алеся" loading="lazy"></a><figcaption>@Image3 — Алеся</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49D-harp-small-synth.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49D-harp-small-synth.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49D-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49D-playing-grip.png.webp" alt="@Image5 — игровые позы 49D" loading="lazy"></a><figcaption>@Image5 — игровые позы 49D</figcaption></figure></div>
+
+**Дополнительный вход:** @Image5 = <a href="references/scenes/scene-49/S49D-playing-grip.png">игровые позы 49D</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3911,6 +3913,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Маша Лагуна; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Алеся; exact face, hair, build and costume as described below.
 @Image4 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
+@Image5 — PLAYING HAND CONTACT / SCALE ONLY: Masha plucks separate anchored harp strings with both hands; tiny adult Alesya reaches the two low keyboard tiers naturally. Preserve original small scale. Individual originals and separate prop designs override any helper deviations.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3971,7 +3974,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image2 — Лучик" loading="lazy"></a><figcaption>@Image2 — Лучик</figcaption></figure>
 <figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image3 — Рыжик" loading="lazy"></a><figcaption>@Image3 — Рыжик</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49E-cat-paw-controllers.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49E-cat-paw-controllers.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49E-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49E-playing-grip.png.webp" alt="@Image5 — игровые позы 49E" loading="lazy"></a><figcaption>@Image5 — игровые позы 49E</figcaption></figure></div>
+
+**Дополнительный вход:** @Image5 = <a href="references/scenes/scene-49/S49E-playing-grip.png">игровые позы 49E</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3982,6 +3987,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Лучик; exact fur pattern, size and natural cat body as described below; no clothes.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Рыжик; exact fur pattern, size and natural cat body as described below; no clothes.
 @Image4 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
+@Image5 — PLAYING PAW CONTACT ONLY: natural cat bodies, hind paws on real floor; reachable front paws on separate low blue/amber pads. No human hands or upright standing. Individual originals and separate prop designs override any helper deviations.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

@@ -1,2 +1,2 @@
-2026-10-17T00:46:43.016245+00:00
+2026-10-17T00:52:06.034223+00:00
 Owner-selected first ship; reference pose work checkpoint; no video submits.

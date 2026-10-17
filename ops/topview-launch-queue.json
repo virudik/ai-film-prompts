@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T00:46:43.016245+00:00",
+  "updated_at": "2026-10-17T00:52:06.034223+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1618,8 +1618,8 @@
       "scene_id": 49,
       "prompt_id": "S49D",
       "canonical_block_label": "49D",
-      "canonical_prompt_sha256": "48484717a11f450f25c6737ae4ef92ea34cf75e240faa20dbc7f2606f5d66fe0",
-      "normalized_prompt_sha256": "caa93dcab10025978a20c33f6cb1d4b1de7d1f28cc8ccb59e0ba8107e351985c",
+      "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
+      "normalized_prompt_sha256": "304f067568f7ab533dc431cda984457a689b03207d03ab54f508f8e5cf02b48d",
       "priority": 113,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1661,6 +1661,12 @@
           "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
           "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
           "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49D-playing-grip.png",
+          "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+          "required": true
         }
       ],
       "task_id": null,
@@ -1671,8 +1677,8 @@
       "scene_id": 49,
       "prompt_id": "S49E",
       "canonical_block_label": "49E",
-      "canonical_prompt_sha256": "7856e3d7c0fc2118cc3a224cdb5f4ce0ed1d1ac10855013a2b813fd3ddb01a42",
-      "normalized_prompt_sha256": "d1b15c1c976e6c406e46d210907ce86df0585b6988578aaba9b5cbe11417c3e9",
+      "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
+      "normalized_prompt_sha256": "dc69a7f17091754e93a6cb3e087487151ecd786113d67cc2bb3369bdddad8a57",
       "priority": 114,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1713,6 +1719,12 @@
           "slot": "@Image4",
           "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
           "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49E-playing-grip.png",
+          "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
           "required": true
         }
       ],
