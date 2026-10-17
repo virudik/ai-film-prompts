@@ -8,9 +8,12 @@
     "all_master_reference_links_exist": true,
     "historical_submitted_items_unchanged": true,
     "site_validator": "passed",
-    "new_topview_submissions": 0
+    "new_topview_submissions": 0,
+    "offline_required_regression_tests": "148 passed after canonical format fix",
+    "remote_exact_readback": "24 files at a1a64f5; 4 format-fix files at491a039",
+    "canonical_validator": "health=ok, all checks true, independently reproduced and confirmed on main"
   },
-  "master_sha256": "0d89c388c21a420753acb015a94a505baf1c67eccf0f4af3da6d84fcfe29752c",
+  "master_sha256": "81d821e0b047cd9345669e8b7dc2722d492aee7c8e44f78ff7e30a7643b9fd75",
   "source_head": "f51d6ea9d988b2dbf4bfb17f2c7712358b5db01d",
   "remaining": [
     "six_account_slots_full",
@@ -19,5 +22,6 @@
     "50_image_not_generated_yet",
     "one15s_test_then_owner_review"
   ],
-  "canonical_format_fix": "Dependency types continues/related_to; compact spacing. No prompt body change."
+  "canonical_format_fix": "Dependency types continues/related_to; compact spacing. No prompt body change.",
+  "ci_note": "491a039 CI checkout retained previous generated error project-status; sole failure asserted stored health. Canonical sync subsequently published health=ok. Latest master update reruns required CI on healthy derived state."
 }
