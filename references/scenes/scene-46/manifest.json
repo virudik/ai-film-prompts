@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-16T23:52:13.899469+00:00",
+  "updated_at": "2026-10-17T00:10:43.037091+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -94,6 +94,37 @@
       "applies_to": [
         "46"
       ]
+    },
+    {
+      "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+      "asset_id": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+      "role": "satellite_design_helper",
+      "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
+      "bytes": 2452346,
+      "dimensions": [
+        1671,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:10:43.037091+00:00",
+        "evidence": "Three separated intact satellites, elongated optical cylinder A, compact twin-aperture B with two three-section wings, relay derivative C with dish and red light; exact RosKOTmos family livery. Not owner approval."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT imagegen",
+        "source_urls": [
+          "https://en.racurs.ru/upload/iblock/224/Resurs_P.jpg",
+          "https://astrohn.ru/wp-content/uploads/2017/11/3.jpg"
+        ],
+        "source_reference_paths": [
+          "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png"
+        ],
+        "note": "Artistic Resurs-P / Kanopus-V inspired geometry; C relay dish is fictional, not a factual flight configuration."
+      }
     }
   ],
   "identity_refs": [],

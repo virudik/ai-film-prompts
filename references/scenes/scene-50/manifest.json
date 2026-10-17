@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-16T23:37:04.041896+00:00",
+  "updated_at": "2026-10-17T00:10:43.037091+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -14,6 +14,32 @@
       "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "role": "ensemble_composition",
       "qc": "preexisting_canonical"
+    },
+    {
+      "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
+      "asset_id": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
+      "role": "species_appearance",
+      "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+      "bytes": 1204854,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:10:43.037091+00:00",
+        "evidence": "Visible long-haired Wookiee faces, brown fur, body proportions, bandoliers. Use only Wookiees, never forest or human subject; H28B remains location authority."
+      },
+      "provenance": {
+        "kind": "existing_video_frame",
+        "board_task_id": "b60d82ff9ccf40d7a08d8cbe5e2e9ca7",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "timestamp_seconds": 12,
+        "source_video_sha256": "446da73c06e8030e57e5799c05589a279cd138fa71b1e3b5c2b08177c3802dd1",
+        "note": "Extracted existing owner video, not newly generated. Species only; ignore human and forest."
+      }
     }
   ],
   "remaining": [

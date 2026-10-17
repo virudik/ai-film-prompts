@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 45,
-  "updated_at": "2026-10-16T17:22:27.061016+00:00",
+  "updated_at": "2026-10-17T00:10:43.037091+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -141,6 +141,30 @@
         "thumbnail": "references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp",
         "linked_in_master": true,
         "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "role": "vehicle_design_candidate",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "bytes": 2580201,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:10:43.037091+00:00",
+        "evidence": "First option recovered: angular cockpit, elongated hull, red chevron, roundel, two visible rear engines. Owner choosing between two designs; not rejected or selected automatically."
+      },
+      "provenance": {
+        "kind": "existing_generated_image",
+        "library_file_id": "libfile_741734b21c048191be98ec071d9b2c1c",
+        "created_at": "2026-10-16T12:11:24.257002Z",
+        "note": "Recovered earlier option for owner comparison; not substituted into prompts."
       }
     }
   ],
