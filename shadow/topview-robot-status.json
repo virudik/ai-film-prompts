@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-17T02:10:17Z",
+  "checked_at": "2026-10-17T02:20:17Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -20,11 +20,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 625
+      "1a6244cf1ae747ef847d949a80d6133c": 626
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 9,
     "detail_failed": []
   },
   "cursor": {
@@ -39,7 +39,7 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 625
+      "1a6244cf1ae747ef847d949a80d6133c": 626
     },
     "last_full_scan_at": "2026-10-17T00:30:15Z"
   },
@@ -49,7 +49,7 @@
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
-    "active_not_unlimited": 0
+    "active_not_unlimited": 1
   },
   "active_tasks": [
     {
@@ -61,9 +61,22 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2506,
-      "wait_seconds": 86518,
+      "queue_count": 2498,
+      "wait_seconds": 85919,
       "process_seconds": null
+    },
+    {
+      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "unlimited": false,
+      "created_at": "2026-10-17 02:16:20",
+      "model": "Wan 3.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 741
     },
     {
       "task_id": "762b3091b3e44b8599a0a58b91a253c5",
@@ -74,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1336,
-      "wait_seconds": 34678,
+      "queue_count": 1319,
+      "wait_seconds": 34079,
       "process_seconds": null
     },
     {
@@ -87,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2838,
-      "wait_seconds": 103798,
+      "queue_count": 2830,
+      "wait_seconds": 103199,
       "process_seconds": null
     },
     {
@@ -100,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1767,
-      "wait_seconds": 51958,
+      "queue_count": 1756,
+      "wait_seconds": 51358,
       "process_seconds": null
     },
     {
@@ -113,8 +126,8 @@
       "model": "Seedance 2.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 743,
-      "wait_seconds": 17397,
+      "queue_count": 722,
+      "wait_seconds": 16798,
       "process_seconds": null
     },
     {
@@ -126,12 +139,22 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2155,
-      "wait_seconds": 69237,
+      "queue_count": 2145,
+      "wait_seconds": 68638,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "created_at": "2026-10-17 02:16:20",
+      "model": "Wan 3.0",
+      "unlimited": false,
+      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal live-action space-opera battle with a deadpan comic ch"
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -145,7 +168,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-17T01:40:17Z",
-    "monitor_age_minutes": 30,
+    "monitor_age_minutes": 40,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
