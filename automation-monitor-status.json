@@ -4,16 +4,15 @@
   "configured_at": "2026-10-06T06:04:45.168Z",
   "automation": {
     "id": "6acae6ab433481919e88665c520b8ef2",
-    "title": "AI Film — монитор ChatGPT",
+    "title": "AI Film — готовые сцены по слотам (ChatGPT)",
     "is_enabled": true,
     "timing_mode": "exact_schedule",
     "timezone": "Europe/Moscow",
     "schedule": "hourly HH:55 Europe/Moscow",
     "runner": "chatgpt_scheduled_task",
-    "role": "primary",
-    "since": "2026-10-11T11:00:00Z",
-    "source": "owner-assigned monitor-role.json, verified automations control plane",
-    "owner_decision": "ChatGPT is writer; extended by the owner 13.10.2026 beyond 16.10 07:00 MSK until the GitHub robot takes over telemetry (ops/ROBOT-TELEMETRY.md)"
+    "role": "launch_queue; telemetry_standby",
+    "source": "monitor-role.json (primary=robot, standby=chatgpt) + ops/topview-launch-queue.json automation_id",
+    "owner_decision": "С 13.10.2026 телеметрию пишет GitHub-робот (primary), ChatGPT — standby. С 15–17.10 эта же задача ChatGPT ведёт бесплатную очередь запусков Topview (ops/CONTINUE-PROTOCOL.md). Слоты — в topview-status.json (пишет робот), не здесь."
   },
   "retired_automations": [
     {
@@ -27,22 +26,6 @@
       "reason": "Owner-authorized consolidation 2026-10-06"
     }
   ],
-  "account_observation": {
-    "checked_at": "2026-10-13T19:02:02.187Z",
-    "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_2_known; shadow_auxiliary",
-    "complete": true,
-    "boards_scanned": 11,
-    "video_tasks_scanned": 100,
-    "pages_scanned": 1,
-    "slot_capacity": 6,
-    "occupied_slots": 2,
-    "free_slots": 4,
-    "active_task_ids": [
-      "6d1ff4a96a0043f2884ffb528d5d9c9a",
-      "e948bd09e5d349448e0ff72fb3049d04"
-    ],
-    "verification": "All 11 owned board counts, AI Film current page and both known active task IDs checked directly; Scenes 35 and 38 remain init, unlimited and zero-credit"
-  },
   "notification_state": {
     "baseline_at": "2026-10-06T05:52:13.246Z",
     "baseline_reason": "Manual consolidation; unchanged three free slots already reported in previous notifier history and current chat. Baseline is not a new release event.",
@@ -76,51 +59,8 @@
   },
   "phases": {
     "topview": {
-      "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
       "checked_at": "2026-10-17T17:20:10Z",
-      "boards_scanned": 11,
-      "video_tasks_scanned": 100,
-      "pages_scanned": 1,
-      "occupied_slots": 2,
-      "free_slots": 4,
-      "active_task_ids": [
-        "6d1ff4a96a0043f2884ffb528d5d9c9a",
-        "e948bd09e5d349448e0ff72fb3049d04"
-      ],
-      "terminal_task_ids": [],
-      "direct_active_task_reads": "2_of_2_verified_active",
-      "complete": true
-    },
-    "telemetry_publication": {
-      "status": "verified_map_status_checkpoint_github_and_public_pages",
-      "checked_at": "2026-10-13T19:06:30.299Z",
-      "task_map_checked_at": "2026-10-13T19:02:02.187Z",
-      "status_checked_at": "2026-10-13T19:02:02.187Z",
-      "checkpoint_checked_at": "2026-10-13T19:02:02.187Z",
-      "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38451958593",
-      "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38451959071",
-      "missing": []
-    },
-    "instruction_sync": {
-      "status": "verified_7_of_7",
-      "checked_at": "2026-10-13T19:02:02.187Z"
-    },
-    "canonical_sync": {
-      "status": "verified_github_project_status_and_public_pages",
-      "checked_at": "2026-10-13T19:06:30.299Z",
-      "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
-      "prompt_texts": 36,
-      "slow_scenes": [
-        24,
-        25,
-        27,
-        30,
-        31,
-        35,
-        38
-      ],
-      "all_project_checks_true": true,
-      "missing": []
+      "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
       "status": "not_due",
@@ -273,5 +213,70 @@
       "public_pages_current_readback"
     ],
     "note": "Full scheduled cycle completed and read back successfully; no new owner notification event."
+  },
+  "chatgpt_monitor_snapshot_20261013": {
+    "note": "Исторический снимок старого монитора ChatGPT (13.10.2026). Не текущее состояние.",
+    "account_observation": {
+      "checked_at": "2026-10-13T19:02:02.187Z",
+      "scope": "owned_boards_metadata_plus_ai_film_latest_100_plus_direct_2_known; shadow_auxiliary",
+      "complete": true,
+      "boards_scanned": 11,
+      "video_tasks_scanned": 100,
+      "pages_scanned": 1,
+      "slot_capacity": 6,
+      "occupied_slots": 2,
+      "free_slots": 4,
+      "active_task_ids": [
+        "6d1ff4a96a0043f2884ffb528d5d9c9a",
+        "e948bd09e5d349448e0ff72fb3049d04"
+      ],
+      "verification": "All 11 owned board counts, AI Film current page and both known active task IDs checked directly; Scenes 35 and 38 remain init, unlimited and zero-credit"
+    },
+    "telemetry_publication": {
+      "status": "verified_map_status_checkpoint_github_and_public_pages",
+      "checked_at": "2026-10-13T19:06:30.299Z",
+      "task_map_checked_at": "2026-10-13T19:02:02.187Z",
+      "status_checked_at": "2026-10-13T19:02:02.187Z",
+      "checkpoint_checked_at": "2026-10-13T19:02:02.187Z",
+      "integration_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38451958593",
+      "pages_workflow_run": "https://github.com/virudik/ai-film-prompts/actions/runs/38451959071",
+      "missing": []
+    },
+    "canonical_sync": {
+      "status": "verified_github_project_status_and_public_pages",
+      "checked_at": "2026-10-13T19:06:30.299Z",
+      "master_sha256": "694e1a2c72ba01d9384040feefa8ca6022b84fc35e1839bbba9821a6bd19ce0f",
+      "prompt_texts": 36,
+      "slow_scenes": [
+        24,
+        25,
+        27,
+        30,
+        31,
+        35,
+        38
+      ],
+      "all_project_checks_true": true,
+      "missing": []
+    },
+    "instruction_sync": {
+      "status": "verified_7_of_7",
+      "checked_at": "2026-10-13T19:02:02.187Z"
+    },
+    "topview": {
+      "status": "verified_fast_path_unchanged_2_of_6_four_free_slots",
+      "boards_scanned": 11,
+      "video_tasks_scanned": 100,
+      "pages_scanned": 1,
+      "occupied_slots": 2,
+      "free_slots": 4,
+      "active_task_ids": [
+        "6d1ff4a96a0043f2884ffb528d5d9c9a",
+        "e948bd09e5d349448e0ff72fb3049d04"
+      ],
+      "terminal_task_ids": [],
+      "direct_active_task_reads": "2_of_2_verified_active",
+      "complete": true
+    }
   }
 }

@@ -35,6 +35,8 @@ if a.health == "ok" and not a.missing:
     d.setdefault("last_successful_by_runner", {})[a.runner] = a.completed
 d["health"] = a.health
 if a.topview_checked:
-    d.setdefault("phases", {}).setdefault("topview", {})["checked_at"] = a.topview_checked
+    # Only the time is recorded here; slot counts live in topview-status.json. Stale counts are not kept.
+    d.setdefault("phases", {})["topview"] = {"checked_at": a.topview_checked,
+                                           "source": a.runner + "; число слотов — topview-status.json"}
 p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print("recorded", a.health, a.completed)
