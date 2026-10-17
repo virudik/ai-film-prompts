@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T00:15:44+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-17T00:42:53+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 74869 B · `e964222058ed1f3d`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 75877 B · `9df29424562d5d2e`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 111258 B · `e91ed1c353c14700`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 64207 B · `d6daec3b31b39065`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 73734 B · `ac9860171bfe57a5`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 76180 B · `e309bcbd853b998a`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26963 B · `fd675db34520e2a0`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 606673 B · `96efd5628a394854`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 608473 B · `93f8ea85760ed0d8`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -63,12 +63,12 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 42 | Татуин: бой на фоне червя — червь им не интересен | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 3544c33b16f7 |
 | 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 | [] | bac2c47b3d78 |
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [43] | 1c9cfc43a3c9 |
-| 45 | Корабль котов в стиле РосКОТмоса: космическое сражение снару | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 | [25] | 84cff8349dbd |
-| 46 | Спутники РосКОТмоса сбиты в сражении | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 | [45] | 5872e3aa97c2 |
+| 45 | Корабль котов в стиле РосКОТмоса: космическое сражение снару | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [25] | f11c87220a43 |
+| 46 | Спутники РосКОТмоса сбиты в сражении | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 | [45] | 5665df3598e9 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [32] | e869a45bf9dc |
 | 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [42] | 0543c547686e |
-| 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28] | 1b9319af8607 |
-| 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | DRAFT/IDLE | 2 | @Image1 @Image2 @Image3 | [28, 49] | d0c9a4adf8ec |
+| 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28] | 16b999a25284 |
+| 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | DRAFT/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 | [28, 49] | ac7b5c603c7a |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 | [28, 49, 50] | 03a5f95a54aa |
 
 ## Что читать под задачу (сверх брифа)
@@ -93,4 +93,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (44205 симв., sha `0e777687a3df`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (44806 симв., sha `a94c809fe173`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
