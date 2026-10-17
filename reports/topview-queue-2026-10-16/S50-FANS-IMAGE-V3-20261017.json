@@ -1,0 +1,111 @@
+{
+  "item_id": "S50-FANS-IMAGE-V3",
+  "verified_at": "2026-10-17T19:07:34.210Z",
+  "task": {
+    "boardTaskId": "792d7b8a3912484bb34907e219f9c188",
+    "boardId": "1a6244cf1ae747ef847d949a80d6133c",
+    "sortWeight": 684,
+    "uid": "FGlyiGi4FG26kZmpCiUH",
+    "userName": "Виталик Рудик",
+    "toolType": "image-edit",
+    "toolCategory": "image",
+    "status": "init",
+    "mediaType": "image",
+    "rating": 0,
+    "parameters": {
+      "type": "imageEdit",
+      "prompt": "Create one photoreal cinematic 16:9 still for our film, scene 50: a crowd of Wookiee fans enjoying their favorite band. Image1 is the exact hangar location and lighting reference. Images 2 and 3 are Wookiee species appearance references only: ignore all humans, tavern interiors and black bars in those images. Show 8–12 different adult Wookiees in foreground and midground, with a few more behind, layered brown, black and auburn fur, varied faces and manes. Joyful expressions, cheering, hands raised naturally at chest or shoulder height, comfortable natural spacing with small open floor patches. No humans. Eye-level medium-wide camera. The fans look toward the band OFFSCREEN beside the camera. Preserve Image1 hangar geometry, shuttle at back right and space scenery. Natural readable face lighting with existing cyan and magenta practical lights. This is a simple crowd of fans in the established hangar, no arena, no stage, no forest, no tavern, no battle or collision. No captions, logos, collage, black bars or split screen.",
+      "modelName": "Nano Banana Pro",
+      "promptEnhancementStatus": "Auto",
+      "inputImages": [
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/ghHiuw7lqZaVQ3oOAI2Dm.png",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image1"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/0i6GNN3xgZWICDKQDVNzj.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image2"
+        },
+        {
+          "inputImageResourceId": null,
+          "inputImageS3Path": "analyzed_video/task/ai_image/FGlyiGi4FG26kZmpCiUH/geegtQIlGEeoYRVhqQjtH.jpg",
+          "inputImageUrl": null,
+          "projectAssetId": null,
+          "name": "Image3"
+        }
+      ],
+      "mode": "nano_banana2",
+      "aspectRatio": "16:9",
+      "resolution": "2K",
+      "imageCount": 1,
+      "skipCreditConsume": false,
+      "boardTaskId": "792d7b8a3912484bb34907e219f9c188",
+      "useUnlimitMode": true
+    },
+    "creditsCost": 0,
+    "creditsPayerUid": "FGlyiGi4FG26kZmpCiUH",
+    "creditsPayerName": "Виталик Рудик",
+    "gmtCreate": "2026-10-17 19:05:44",
+    "gmtModify": "2026-10-17 19:05:45",
+    "isPinned": false,
+    "groupIds": [
+      "879d0ea65b834d3c8a877f995e597f41"
+    ],
+    "useUnlimitMode": true,
+    "estimateInfo": {
+      "queueCount": 1,
+      "estimatedWaitSeconds": 1200,
+      "estimatedProcessSeconds": null
+    }
+  },
+  "origin": "observed_concurrent_submission_creator_unverified",
+  "claim": null,
+  "references": [
+    {
+      "slot": "Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+    },
+    {
+      "slot": "Image2",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+    },
+    {
+      "slot": "Image3",
+      "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+    }
+  ],
+  "verification": {
+    "observed_at": "2026-10-17T19:07:34.210Z",
+    "reason": "Third fan image appeared19:05:44UTC during this cycle; same uploaded input paths, same prompt except bare Image 1→Image1 spacing; zero credits. Count against owner-authorized alternative; do not submit another V3. No click for this task by working chat.",
+    "prompt_difference": "Two occurrences of Image 1 have space removed",
+    "owner_approval": "not_granted"
+  },
+  "post_scan": {
+    "checked_at": "2026-10-17T19:06:36.781Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 905,
+    "complete": true,
+    "occupied_slots": 7,
+    "free_slots": 0,
+    "active_unlimited_task_ids": [
+      "792d7b8a3912484bb34907e219f9c188",
+      "1c48a62d14d14d348a5c49fe5cdb5e70",
+      "0d1f17c226834bfbb851d76ed32f9877",
+      "56c0ea656f484b0cb8464233fe097e0d",
+      "5333994f739f4a8b813a6a36dcb7e140",
+      "979f07acffe04750961515f4baf21a3f",
+      "2bccc8a3521b411cb7bd51f9c8ba1119"
+    ]
+  },
+  "proof": "reports/evidence/s50-v2-submitted-20261017.jpg"
+}

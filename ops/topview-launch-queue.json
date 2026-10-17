@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:05:19.905Z",
+  "updated_at": "2026-10-17T19:07:34.210Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Lowest priority among ready entries. Owner17Oct21:45MSK authorizes THREE fan image variants TOTAL: S50-FANS-IMAGE already submitted, then S50-FANS-IMAGE-V2(priority1), V3(priority2), then S55(priority5), then existing45→46→43→44/story/test/music order. Same fan prompt/refs intentionally reused for these three distinct authorized alternatives only. Deduplicate each item using assigned task IDs, claim/time/input evidence; reconcile every unassigned match before Create. Never exceed three fan image submissions or repeat a claimed/submitted item. Website Unlimited0, full-account scan, CAS, receipt required; all other constraints unchanged.",
+  "selection_policy": "All three requested fan image alternatives are submitted (original success; V2 and externally observed V3 init). Never submit any of these three items again. Next scheduled item S55, then existing story/test/music queue by readiness. Verify real website capacity by media/model; live17Oct19:06UTC showed5activevideos+2activeimages despite historical shared-six assumption. Preserve zero-credit website route, fresh main/lock/owner decisions, full account scan, CAS, input/prompt match and receipts. No automatic retry/approval.",
   "items": [
     {
       "id": "B7",
@@ -2825,7 +2825,7 @@
       "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "priority": 1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -2853,7 +2853,7 @@
           "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
         }
       ],
-      "task_id": null,
+      "task_id": "1c48a62d14d14d348a5c49fe5cdb5e70",
       "claim": {
         "run_id": "chatgpt-s50v2-1792263919905",
         "claimed_at": "2026-10-17T19:05:19.905Z",
@@ -2894,7 +2894,13 @@
       "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
       "variant_number": 2,
       "variant_group": "S50-FANS-THREE-20261017",
-      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth."
+      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth.",
+      "submitted_at": "2026-10-17T19:05:26Z",
+      "verified_at": "2026-10-17T19:07:34.210Z",
+      "credits_cost": 0,
+      "use_unlimit_mode": true,
+      "submission_origin": "working_chat_single_gui_create",
+      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-V2-20261017.json"
     },
     {
       "id": "S50-FANS-IMAGE-V3",
@@ -2906,7 +2912,7 @@
       "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "priority": 2,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -2934,7 +2940,7 @@
           "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
         }
       ],
-      "task_id": null,
+      "task_id": "792d7b8a3912484bb34907e219f9c188",
       "claim": null,
       "previous_attempt_created_task": false,
       "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
@@ -2942,7 +2948,19 @@
       "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
       "variant_number": 3,
       "variant_group": "S50-FANS-THREE-20261017",
-      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth."
+      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth.",
+      "submitted_at": "2026-10-17T19:05:44Z",
+      "verified_at": "2026-10-17T19:07:34.210Z",
+      "credits_cost": 0,
+      "use_unlimit_mode": true,
+      "submission_origin": "observed_concurrent_submission_creator_unverified",
+      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-V3-20261017.json",
+      "reconciliation": {
+        "observed_at": "2026-10-17T19:07:34.210Z",
+        "reason": "Third fan image appeared19:05:44UTC during this cycle; same uploaded input paths, same prompt except bare Image 1→Image1 spacing; zero credits. Count against owner-authorized alternative; do not submit another V3. No click for this task by working chat.",
+        "prompt_difference": "Two occurrences of Image 1 have space removed",
+        "owner_approval": "not_granted"
+      }
     }
   ],
   "already_submitted": {
@@ -3076,15 +3094,16 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "checked_at": "2026-10-17T18:42:09.059Z",
+    "checked_at": "2026-10-17T19:06:36.781Z",
     "boards": 11,
     "pages": 17,
-    "total_tasks": 903,
+    "total_tasks": 905,
     "complete": true,
-    "occupied_slots": 6,
+    "occupied_slots": 7,
     "free_slots": 0,
     "active_unlimited_task_ids": [
-      "48657a07dac542b0a3340e44c15b933f",
+      "792d7b8a3912484bb34907e219f9c188",
+      "1c48a62d14d14d348a5c49fe5cdb5e70",
       "0d1f17c226834bfbb851d76ed32f9877",
       "56c0ea656f484b0cb8464233fe097e0d",
       "5333994f739f4a8b813a6a36dcb7e140",
@@ -3107,5 +3126,12 @@
     "max_credits_per_task": 0,
     "order": "remaining fans V2 then V3, then S55, then existing story queue",
     "no_automatic_fourth_attempt": true
+  },
+  "slot_capacity_observation": {
+    "checked_at": "2026-10-17T19:07:34.210Z",
+    "active_unlimited_images": 2,
+    "active_unlimited_videos": 5,
+    "observed_total": 7,
+    "conclusion": "Live account contradicts assumption of shared six image+video cap. Exact separate model/media cap not verified; do not silently change video cap or hardcode an image cap."
   }
 }
