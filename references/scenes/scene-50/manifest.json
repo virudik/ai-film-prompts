@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T19:40:49.110Z",
+  "updated_at": "2026-10-17T19:47:42.993047Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -178,7 +178,18 @@
       "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png"
     ],
-    "status": "linked_in_master_pending_pages_verification"
+    "status": "linked_in_master_pending_pages_verification",
+    "fan_candidate_gallery": {
+      "status": "linked_in_master_pending_pages_verification",
+      "scene_anchor": "#scene-50",
+      "paths": [
+        "references/scenes/scene-50/S50-fans-48657a07.png",
+        "references/scenes/scene-50/S50-fans-1c48a62d.png",
+        "references/scenes/scene-50/S50-fans-792d7b8a.png"
+      ],
+      "owner_selection": "pending",
+      "linked_at": "2026-10-17T19:47:42.993047Z"
+    }
   },
   "invariants": [
     "H28B exact location overrides any stylistic wish",

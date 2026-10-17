@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:40:49.110Z",
+  "updated_at": "2026-10-17T19:47:42.993047Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Owner17Oct22:33MSK: no more RosKOTmos45/46 or fan images. All three fan images success and originals archived; selection pending. S55submitted86741d99f7634e3b97e8b139996b83b0; never repeat. Next ready S43-R1, then44 with actual corrected43 video; story52–54 and36/37/39–42/47–48 by readiness. Dance one15s test after story, music last. Fresh main/owner decisions/lock/full scan, exact prompt/refs, website Unlimited0, CAS and receipt required.",
+  "selection_policy": "Owner17Oct22:43MSK: S41 is the NEXT eligible video on the first free video slot, ahead of S43-R1. Then S43-R1, S44 only with actual corrected43 Video1, and remaining story by readiness. Owner17Oct22:33MSK: no more RosKOTmos45/46 or fan images. All three fan images success and originals archived; selection pending. S55submitted86741d99f7634e3b97e8b139996b83b0; never repeat. Next ready S43-R1, then44 with actual corrected43 video; story52–54 and36/37/39–42/47–48 by readiness. Dance one15s test after story, music last. Fresh main/owner decisions/lock/full scan, exact prompt/refs, website Unlimited0, CAS and receipt required.",
   "items": [
     {
       "id": "B7",
@@ -1289,7 +1289,7 @@
       "canonical_block_label": "41",
       "canonical_prompt_sha256": "bc42b0ebeb5b31fa3e7a5c7a7e83c997b9b933710470280bfcc900367447ae42",
       "normalized_prompt_sha256": "02011accef455f9815c038eaa0da3679176c2c221b1c211efa6cc52c81a2c917",
-      "priority": 34,
+      "priority": 0,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1339,7 +1339,12 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "priority_owner_override": {
+        "requested_at": "2026-10-17T19:43:30Z",
+        "source": "Owner: 41 поставить следующей",
+        "previous_priority": 34
+      }
     },
     {
       "id": "S42",
