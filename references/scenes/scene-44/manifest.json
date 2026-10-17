@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 44,
-  "updated_at": "2026-10-17T12:43:48.484492+00:00",
+  "updated_at": "2026-10-17T19:57:44.144973Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "blocked_continuity_mismatch",
   "references": [
@@ -162,7 +162,7 @@
     {
       "prompt": "main",
       "prompt_id": "S44",
-      "canonical_prompt_sha256": "3776b7b7fbe36305cbc15976879a9b20c528f61cbdf69de726ed4f5d166a53fb",
+      "canonical_prompt_sha256": "280c9eabc1872cbb64a9a4406fdf66c542a47b6a36b8cb8f630baf662219290d",
       "local_numbering": true,
       "launch_readiness": "blocked_continuity",
       "owner_generation_approval_inferred": false,
@@ -193,7 +193,7 @@
           "canonical_role": "vehicle_design_helper"
         }
       ],
-      "characters": 7805
+      "characters": 8237
     }
   ],
   "site_published": false,
@@ -212,5 +212,17 @@
   "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
   "start_frame_candidate": "references/scenes/scene-44/S44-start-from-S43-result.png",
   "existing_scene44_task_id": "d837b803f130431ea0e2e5ad4b786c09",
-  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130"
+  "canonical_master_sha256": "dda59f6f91bed9f9205dd2ff3d93c3fb63fb0cbfafec0f823d59de95ccd0dd78",
+  "owner_continuity_fix_2255": {
+    "at": "2026-10-17T19:57:44.144973Z",
+    "source": "Owner17Oct22:55:56MSK",
+    "requirements": [
+      "One physical detached wing only; zero left wings remain on hull; empty hinge and fallen wing visible together",
+      "Actual corrected43 Video1 required"
+    ]
+  },
+  "result_qc_requirements": [
+    "One physical detached wing only; zero left wings remain on hull; empty hinge and fallen wing visible together",
+    "Actual corrected43 Video1 required"
+  ]
 }

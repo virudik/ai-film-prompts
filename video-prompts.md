@@ -2236,14 +2236,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:**
 
-- **Редакция 17.10.2026 после разбора владельцем:** 43 после45/46: одна исправленная бесплатная попытка. Старый результат1b8f85b65ff24b13bcdbbeea3af3c096 сбрасывает повреждение в финале. Исправлена география крыльев, убрана конфликтующая видимость крыла сквозь окно; наземный тест ограничен безопасным углом, финал остаётся асимметричным. Реплики и шутка сохранены. Реальный конец НОВОЙ43 нужен для44; старый конец не годится.
+- **Редакция 17.10.2026 после разбора владельцем:** одна исправленная бесплатная попытка, следующая после41 по команде22:53. Старый результат1b8f85b65ff24b13bcdbbeea3af3c096 сбрасывает повреждение в финале. Исправлена география крыльев, убрана конфликтующая видимость крыла сквозь окно; наземный тест ограничен безопасным углом, финал остаётся асимметричным. Уточнение владельца22:55: в старом результате Канцлер проходит сквозь корпус. Новый выход — через видимый открытый проём по полностью остановившейся рампе, без пересечения обшивки; выделены отдельные последовательные фазы открытия и спуска. Реплики и шутка сохранены. Реальный конец НОВОЙ43 нужен для44; старый конец не годится.
 
 - **Команда владельца 16.10.2026:** имперский треугольный шаттл с раскладными крыльями стоит в ангаре звёздного разрушителя; перед взлётом крылья должны перейти в полётное положение, но одно заело, и Канцлер Серёга не может улететь; обыграть комедийно. Продолжение (ремонтники, крыло отваливается) — Scene 44. Две сцены вместо одной: заевшее крыло и ремонт с отваливанием не помещаются в одни 30 с.
 - **Место в фильме (подтверждено владельцем 16.10.2026, как и разбивка на две сцены 43/44):** на крейсере Канцлера перед его отлётом к Татуину. Шутка заодно объясняет, почему дальше Канцлер летает на своём плоском корабле из ч. 1 09:20–09:55 (Scenes 37, 39–41), а не на парадном шаттле.
 - **Ангар** — тот же имперский ангар крейсера, что в Scene 28 (H28A), в рабочем белом свете, без танцевальной подсветки. Шаттл уже виден в H28A справа с поднятыми крыльями; общий крупный референс шаттла с поднятыми крыльями создан, сохранён и прошёл QC; используется в 43 и 44. Это AI-референс дизайна, не кадр результата.
 - **Пилот** — безымянный имперский пилот в шлеме; глобального листа нет, лицо не показывается.
 - **Комедия** — серьёзная игра, юмор из ситуации: крыло жалко подёргивается, Серёга не меняется в лице.
-- Русская речь → Wan 3.0. В монтаж ~20–25 с. READY после QC; новый приоритет17.10: после45/46, только бесплатный безлимит.
+- Русская речь → Wan 3.0. В монтаж ~20–25 с. READY после QC; актуальный приоритет: после41, только бесплатный безлимит.
 
 **Референсы:**
 
@@ -2256,7 +2256,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-43/S43-wing-hinge-closeup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-wing-hinge-closeup.png.webp" alt="@Image4 — шарнир поднятого крыла, деталь механики" loading="lazy"></a><figcaption>@Image4 — шарнир поднятого крыла, деталь механики</figcaption></figure></div>
 
-**Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. При ограниченном наземном тесте правое крыло плавно отклоняется наружу, левое дёргается, скрежещет и застревает под45° над горизонталью; полного раскрытия до пола нет. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа опускается, и Серёга молча спускается на пол ангара и смотрит вверх на кривое крыло.
+**Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. При ограниченном наземном тесте правое крыло плавно отклоняется наружу, левое дёргается, скрежещет и застревает под45° над горизонталью; полного раскрытия до пола нет. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа полностью опускается и останавливается; только затем Серёга появляется в открытом проёме, переступает порог и молча спускается по рампе на пол ангара и смотрит вверх на кривое крыло.
 
 **Дополнительный вход:** @Image4 = <a href="references/scenes/scene-43/S43-wing-hinge-closeup.png">шарнир поднятого крыла, деталь механики</a>.
 
@@ -2279,6 +2279,9 @@ Exactly two people: Serega and the pilot. Ground crew may stand far in the backg
 SHUTTLE / WING LOCK — CRITICAL:
 One classic white triangular Imperial Lambda-type shuttle: a tall fixed central dorsal fin, two long side wings hinged at the top of the hull, a forward cockpit with a framed window and a lowering front boarding ramp, three landing legs. Parked, both side wings are raised almost vertical beside the central fin, as in @Image2. For flight the side wings unfold DOWN and outward. Here the shuttle performs a LIMITED ground preflight test, aborted before full flight deployment: neither wingtip may touch or pass through the hangar floor. The working RIGHT wing smoothly pivots outward to 45 degrees above horizontal and can return upright. The LEFT wing follows to the same 45-degree angle, jerks and jams there; it cannot return upright. LEFT and RIGHT are defined from the pilot's forward-facing seat, not by arbitrary screen position. The tall CENTRAL dorsal fin is fixed and never rotates. The shuttle stays on its landing legs the whole time and never lifts off. Same single shuttle, same white colour and shape, in every shot.
 
+BOARDING PATH LOCK — CRITICAL:
+One existing front boarding doorway opens onto one ramp with an unbroken walking surface from the threshold to the hangar floor. The solid hull, cockpit window and doorframe remain rigid obstacles. Serega stays inside until the ramp is fully lowered and stationary; he exits only through the clear doorway, with his body fitting inside its opening and his robe clear of the frame. His shoes stay on top of the ramp, with visible alternating foot contact and weight transfer. No part of him intersects the hull, closed panels, ramp or floor.
+
 START STATE:
 The shuttle stands on the hangar floor with both wings raised, front ramp closed, engines starting to whine. Serega is already inside, seated in the passenger seat right behind the pilot.
 
@@ -2286,23 +2289,26 @@ TIMELINE:
 [0:00–0:05] — READY FOR DEPARTURE
 Exterior wide in the hangar from @Image2, the shuttle on the right third of frame facing the open hangar mouth with stars and the blue planet beyond. The engine glow at the rear brightens; a rising turbine whine. A tiny background crew figure steps back to a safe distance.
 
-[0:05–0:11] — ONE WING GOES, ONE DOESN'T
+[0:05–0:10] — ONE WING GOES, ONE DOESN'T
 Closer exterior three-quarter view of the shuttle. Keep both side-wing roots and the fixed central fin visible in one front three-quarter view. With a smooth hydraulic hum the working right wing pivots outward to 45 degrees ABOVE horizontal, still clear of the floor. The left wing starts the same ground test, jerks, gives a loud metallic grind and jams at that outward 45-degree angle. The whole hull rocks slightly on its landing legs.
 
-[0:11–0:17] — TRY AGAIN
+[0:10–0:15] — TRY AGAIN
 Inside the cockpit, medium shot from the front-side: the pilot in his black helmet flips the same wing toggle three times in a row. The failed actuator gives a pathetic stuttering servo whine with each flip. The wing is outside this cockpit framing; do not invent a new wing position through the window. Serega sits upright with his hands folded on his lap and slowly turns his head toward the sound at the side window.
 
-[0:17–0:23] — THE REPORT
+[0:15–0:21] — THE REPORT
 The pilot stops, does not turn around, and says carefully: «Владыка… крыло заело.» A two-second pause. Serega, without moving anything except his eyes back to the pilot's helmet, answers flatly: «Я заметил.»
 
-[0:23–0:30] — THE RAMP
-Return to exactly the same front three-quarter exterior axis: the engines wind down with a falling whine. ONLY the working right wing lifts back upright; the left wing REMAINS stuck outward at 45 degrees above horizontal. The resulting lopsided silhouette remains unchanged during the ramp opening, Serega exiting and the final hold. The front ramp lowers with a hiss of vented gas. Serega walks down the ramp alone, steps onto the hangar floor, stops and looks up at the crooked wing. Hold on him small beneath the lopsided shuttle.
+[0:21–0:24] — OPEN FIRST
+Return to the same front three-quarter exterior axis, with a clear view of the doorway, the entire ramp and both wing roots. Engines wind down. ONLY the working right wing lifts upright; the left wing stays jammed at 45 degrees above horizontal. The front ramp lowers, its bottom edge meets the floor, and it stops. The doorway is visibly open; Serega remains inside while the ramp moves.
+
+[0:24–0:30] — EXIT THROUGH THE DOORWAY
+Keep this exterior shot uncut. Serega appears within the open doorway, crosses its threshold and walks alone down the centre of the stationary ramp at a normal pace. Show his whole body and his feet contacting its upper surface. He steps off the bottom edge onto the hangar floor, stops clear of the ramp and looks up. Hold the last second: left wing jammed at45 degrees, right wing upright. The pilot remains inside.
 
 END STATE:
 Serega standing on the hangar floor at the foot of the lowered front ramp, looking up at the left wing jammed at 45 degrees; the right wing raised; engines off; hangar mouth with stars behind.
 
 CAMERA / SPACE:
-Three camera setups in order: establishing exterior wide; front three-quarter exterior showing both hinges and central fin; cockpit; return to the SAME front three-quarter exterior. Never cross the shuttle axis or exchange the two side wings. Keep the jammed wing and the other raised wing fully visible through the entire final beat. Stable tripod or slow dolly; no handheld jitter, no whip pans, no zoom jumps. Real hangar scale: the shuttle is far larger than a person and far smaller than the hangar.
+Three fixed camera setups, reused in this order: establishing exterior wide; front three-quarter exterior showing both hinges and central fin; cockpit; return to the SAME front three-quarter exterior. Never cross the shuttle axis or exchange the two side wings. For the final exterior shot, keep the open doorway, full ramp and Serega's feet unobstructed, with both wing roots and the asymmetric wing positions readable; do not hide the exit behind the nose or a wing. Stable tripod or slow dolly; no handheld jitter, no whip pans, no zoom jumps. Real hangar scale: the shuttle is far larger than a person and far smaller than the hangar.
 
 PERFORMANCE:
 Played completely straight. The pilot is tense and embarrassed but professional; small, quick toggle movements, no slapstick. Serega is icy and still; the joke is that his face does not change. No smiles, no eye-rolls to camera.
@@ -2320,7 +2326,7 @@ SEREGA (low, calm, completely flat): «Я заметил.»
 Only these two lines. Serega's mouth moves only on his line; the pilot's helmet stays still. No narrator, no music, no subtitles.
 
 NEGATIVE PROMPT:
-shuttle taking off, hovering or leaving the hangar, both wings working, both wings jammed, jammed wing returning upright, restored symmetrical final pose, rotating central fin, wings passing through the floor, wings falling off in this scene, explosions, fire, second shuttle, different ship design, X-wing or TIE fighter replacing the shuttle, disco lights, dancers, crowd, extra officers in the foreground, pilot's face visible, Serega smiling or shouting, lightsaber, slapstick mugging, changed face or robe, wrong speaker, extra dialogue, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
+walking through the hull or cockpit window, body clipping through panels, feet sinking through the ramp, exiting a closed door, walking on a moving ramp, teleporting outside, shuttle taking off, hovering or leaving the hangar, both wings working, both wings jammed, jammed wing returning upright, restored symmetrical final pose, rotating central fin, wings passing through the floor, wings falling off in this scene, explosions, fire, second shuttle, different ship design, X-wing or TIE fighter replacing the shuttle, disco lights, dancers, crowd, extra officers in the foreground, pilot's face visible, Serega smiling or shouting, lightsaber, slapstick mugging, changed face or robe, wrong speaker, extra dialogue, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -2335,6 +2341,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":43}],"tags":["serega","imperial_cruiser","hangar","shuttle","technicians","comedy","dialogue","speaker_ownership"]} -->
 
 **Контекст использования:**
+
+- **Уточнение владельца17.10,22:55:** в старом результате крыло одновременно лежит на полу и остаётся на шаттле. Исправленная попытка отслеживает одну физическую деталь: до падения она на шарнире, после — только на полу; на корпусе виден пустой корень, без второго крыла. Это требование к новому ролику, не утверждение об исправлении старого.
 
 - **Редакция 17.10.2026 после разбора владельцем:** Новая одна бесплатная попытка44 разрешена17.10 после43; остаётся DRAFT до настоящего видео/финального кадра новой43 с застрявшим крылом. В старой платной задаче d837b803f130431ea0e2e5ad4b786c09 было4изображения, но отсутствовал требуемый @Video1; это не готовый continuity-пакет. Уточнено постоянное пустое крепление после падения; финальный общий план сохраняет крыло на полу. Старую задачу и её входы не переписывать.
 
@@ -2379,7 +2387,7 @@ TECH 3 — tall, pushing the wing's underside with his shoulder from the floor.
 Exactly four people. No pilot visible, no other crew in the foreground.
 
 SHUTTLE / WING LOCK — CRITICAL:
-The same white triangular Imperial Lambda-type shuttle as before: tall fixed central dorsal fin, side wings hinged at the top of the hull, lowered front ramp. Its LEFT wing is jammed at about 45 degrees; its right wing is raised and never moves. The jammed left wing tears off at its hinge only once, in [0:18–0:24], and falls flat onto the floor beside the shuttle; it never hits anyone. The rest of the shuttle stays intact and on its landing legs. After separation the left wing root stays visibly EMPTY and the same detached wing stays on the floor through the last frame. It never regrows, reattaches or duplicates. The raised right wing and fixed central fin remain exactly where they were. No fire, no explosion.
+The same white triangular Imperial Lambda-type shuttle as before: tall fixed central dorsal fin, side wings hinged at the top of the hull, lowered front ramp. Its LEFT wing is jammed at about 45 degrees; its right wing is raised and never moves. The jammed left wing tears off at its hinge only once, in [0:18–0:24], and falls flat onto the floor beside the shuttle; it never hits anyone. Track ONE physical left-wing object continuously from its hinge to the floor. Before separation it is attached; after separation there are ZERO left wings on the hull and exactly ONE detached left wing on the floor. The vacated root is a short exposed hinge with a visible gap, not a second wing or wing-shaped remnant. The hull remains on its landing legs. This object count and empty root persist through the last frame; the wing never regrows, reattaches or duplicates. The raised right wing and fixed central fin remain exactly where they were. No fire, no explosion.
 
 START STATE:
 A little later than the end of @Video1: the shuttle in the same place with the left wing jammed at 45 degrees; the stepladder already at the hinge, the rope already tied to the wingtip, the three technicians in position. Serega in the foreground, frame-centre, a few metres in front of the shuttle.
@@ -2395,13 +2403,13 @@ Serega turns and paces back, not looking at the shuttle, and says to nobody: «�
 Serega stops in the foreground, back to the shuttle, and finishes: «…а крыло сложить некому.» Behind him TECH 1 swings the hammer with full force — a loud CLANG and a spray of sparks at the hinge.
 
 [0:18–0:24] — THE WING FALLS OFF
-With a long rising metallic groan the whole left wing tears free at the hinge, swings down and crashes flat onto the hangar floor beside the shuttle with a huge booming impact that echoes through the hangar; a puff of dust and a few bolts bounce across the floor. Before the wing reaches the floor, TECH 3 steps clear of its landing area. TECH 2 releases the pull and drops onto his backside outside that area, still holding the slack rope; the stepladder wobbles with TECH 1 clinging to it. Serega, still with his back to it, stops completely and closes his eyes.
+With a long rising metallic groan the one attached left wing separates visibly at its hinge, leaving that attachment point empty. Track that same wing as it swings down and crashes flat onto the hangar floor beside the shuttle with a huge booming impact that echoes through the hangar; a puff of dust and a few bolts bounce across the floor. Before the wing reaches the floor, TECH 3 steps clear of its landing area. TECH 2 releases the pull and drops onto his backside outside that area, still holding the slack rope; the stepladder wobbles with TECH 1 clinging to it. Serega, still with his back to it, stops completely and closes his eyes.
 
 [0:24–0:30] — STILL HELPFUL
 Total silence except the last echo. TECH 1 on the ladder, holding the hammer, says after a pause, hopefully: «Зато… теперь не мешает.» Serega slowly opens his eyes and turns only his head toward the technicians. Hold on his cold stare in the foreground; behind him the three technicians freeze.
 
 END STATE:
-Serega in the foreground, head turned toward the technicians with a cold stare; the left wing lying flat on the hangar floor; TECH 1 frozen on the stepladder with the hammer, TECH 2 sitting on the floor with the rope, TECH 3 standing still; the one-winged shuttle behind them.
+Serega in the foreground, head turned toward the technicians with a cold stare; the left wing lying flat on the hangar floor; TECH 1 frozen on the stepladder with the hammer, TECH 2 sitting on the floor with the rope, TECH 3 standing still; the shuttle behind them with its empty left-wing root clearly visible, only the right side wing still attached and the central dorsal fin unchanged.
 
 CAMERA / SPACE:
 One continuous take with a fixed axis: Serega always in the foreground, the shuttle and technicians always behind him in the middle ground, the hangar mouth with stars beyond. No push-in during the fall. Keep Serega, the entire detached wing on the floor and its EMPTY root in one readable medium-wide composition through the end; do not hide the damage behind Serega. Deep focus so both planes stay readable. No cuts, no handheld jitter, no zoom jumps.

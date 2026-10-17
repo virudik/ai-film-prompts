@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:53:52.866Z",
+  "updated_at": "2026-10-17T19:57:44.144973Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2253,8 +2253,8 @@
       "scene_id": 43,
       "prompt_id": "S43",
       "canonical_block_label": "43",
-      "canonical_prompt_sha256": "740bbb900dad845aa23774220542526eb73217e611537d40ad6b611dcdfb3ef1",
-      "normalized_prompt_sha256": "ed5fbaae46ee0b6e33f8aff99d7656c9dbb8d9ac80dcfb7fe2938deac8f6c2e7",
+      "canonical_prompt_sha256": "7677ed0d37da72bf30d831d1855349c9e68f9e97fc1a81bc147a09f4b4ab587a",
+      "normalized_prompt_sha256": "8716593f86d24a2e11950d105eb19ea180895059f29fc9ed92a47df7cb5aedbb",
       "priority": 1,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2306,6 +2306,14 @@
         "requested_at": "2026-10-17T19:52:55Z",
         "source": "Explicit owner sequence",
         "sequence_index": 1
+      },
+      "owner_continuity_fix_2255": {
+        "at": "2026-10-17T19:57:44.144973Z",
+        "source": "Owner17Oct22:55:56MSK",
+        "requirements": [
+          "Wait until ramp fully lowered and stationary; visible doorway and continuous feet-on-ramp descent; no hull penetration",
+          "Left wing remains jammed45degrees"
+        ]
       }
     },
     {
@@ -2325,8 +2333,8 @@
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
-      "canonical_prompt_sha256": "3776b7b7fbe36305cbc15976879a9b20c528f61cbdf69de726ed4f5d166a53fb",
-      "normalized_prompt_sha256": "b6857e8d0f12db42062f837f9f943b31ccbb1cb2b94564674779163f544e80ab",
+      "canonical_prompt_sha256": "280c9eabc1872cbb64a9a4406fdf66c542a47b6a36b8cb8f630baf662219290d",
+      "normalized_prompt_sha256": "1eeb9bde26d8b1c8ed292f8de01fa168058b3afc6abe67888e9d16d71c4e1df3",
       "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "depends_on_submitted": [
         "S43-R1-20261017"
@@ -2368,6 +2376,14 @@
         "requested_at": "2026-10-17T19:52:55Z",
         "source": "Explicit owner sequence",
         "sequence_index": 7
+      },
+      "owner_continuity_fix_2255": {
+        "at": "2026-10-17T19:57:44.144973Z",
+        "source": "Owner17Oct22:55:56MSK",
+        "requirements": [
+          "One physical detached wing only; zero left wings remain on hull; empty hinge and fallen wing visible together",
+          "Actual corrected43 Video1 required"
+        ]
       }
     },
     {
