@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T21:39:33+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-17T21:40:05+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 22 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55]); промтов 48; последний ID 55; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
+- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 49; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -56,7 +56,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | fd93b0457531 |
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [43] | 39c7faae6ff2 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7233d1c77947 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [42] | 0e47c8f5b047 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 0e47c8f5b047 |
 | 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28] | 94a0936af45d |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 70bc3aff4ff6 |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | 1c5a4c000ecb |
@@ -64,7 +64,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | 48c9d32e67d3 |
 | 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [41] | 7442f27d9b82 |
 | 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [54] | 3a2a6586d884 |
-| 56 | Татуин: бой в движении — червь требует внимания | None | None/None | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [] | e48fb38656e7 |
+| 56 | Татуин: бой в движении — червь требует внимания | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | e48fb38656e7 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
