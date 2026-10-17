@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T13:50:17.515787+00:00",
+  "last_updated_at": "2026-10-17T13:55:48.052693+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -527,7 +527,8 @@
         "Ship selected from successful45 video; FOUR engines retained45/46; asteroid field excluded",
         "Actual room/desk frames saved for54; existing Warcraft game footage reused in edit",
         "Primary-source Wan3.0/Seedance research saved; model equality and sole-cause claims rejected",
-        "Owner confirmed continuation; canonical master/refs/queue published and read back, CI148 tests and Pages passed; research report published through f105f84. Checkpoint refreshed without new generation."
+        "Owner confirmed continuation; canonical master/refs/queue published and read back, CI148 tests and Pages passed; research report published through f105f84. Checkpoint refreshed without new generation.",
+        "17Oct16:54MSK owner requested inheritable autonomous continuation; explicit procedure added to handoff, project guide and continue protocol; same automation enabled verified, no duplicate task."
       ],
       "next_actions": [
         "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
@@ -539,7 +540,10 @@
         "video-prompts.md",
         "ops/topview-launch-queue.json",
         "reports/owner-fixes-2026-10-17.md",
-        "reports/owner-fixes-verification-2026-10-17.json"
+        "reports/owner-fixes-verification-2026-10-17.json",
+        "NEW-CHAT-HANDOFF.md",
+        "AI-PROJECT-GUIDE.md",
+        "ops/CONTINUE-PROTOCOL.md"
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
@@ -549,7 +553,8 @@
         "occupied_slots": 6,
         "free_slots": 0,
         "note": "Historical verified observation, not a new scan during this save."
-      }
+      },
+      "autonomy_rule": "Continue authorized queue without repeated owner nudges; use existing hourly automation; independently verify scheduled browser access and report real blockers; no paid launches, unapproved retries or editorial approval."
     }
   ],
   "rules": [
