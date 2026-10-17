@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T21:40:05+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-17T22:32:39+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 98297 B · `481efe2c61d5e7eb`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 100743 B · `594a8152bd854a4b`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 111258 B · `e91ed1c353c14700`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 65789 B · `eee939e64dd52a45`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 73734 B · `ac9860171bfe57a5`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 76533 B · `0a55eeed9635d97a`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26963 B · `fd675db34520e2a0`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 565458 B · `0476e9ade9ac0ba9`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 710349 B · `4db4dfd9b1944df4`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 49; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
+- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 69; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -48,23 +48,23 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [] | c0b60e785059 |
 | 34 | Серёга входит в полуразрушенный храм ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 | [33] | 0f9ca41808d7 |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 9b422e28b9a5 |
-| 37 | Отлёт Серёги с Набу к лесной планете | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 19c4078cf70e |
-| 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 859062b9085a |
-| 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 8908d3f70473 |
-| 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | a3193ff6d9de |
-| 42 | Татуин: бой на фоне червя — червь им не интересен | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 2a5493cdf325 |
+| 37 | Отлёт Серёги с Набу к лесной планете | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | f15f9c983684 |
+| 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 90bf912ef9c4 |
+| 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 6bd159dc1e1f |
+| 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 797206c6c011 |
+| 42 | Татуин: бой на фоне червя — червь им не интересен | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 4c545abacbbe |
 | 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | fd93b0457531 |
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 | [43] | 39c7faae6ff2 |
-| 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 7233d1c77947 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 0e47c8f5b047 |
+| 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 5ad333351c39 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 2e0cadf079c8 |
 | 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 6 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28] | 94a0936af45d |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 70bc3aff4ff6 |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | READY/IDLE | 2 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | 1c5a4c000ecb |
-| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 34350b20b80c |
-| 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | 48c9d32e67d3 |
+| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 941878180ed1 |
+| 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | c72b9b1b0922 |
 | 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [41] | 7442f27d9b82 |
 | 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Wan 3 | READY/SLOW_PENDING | 1 | @Image1 @Image2 @Image3 @Image4 | [54] | 3a2a6586d884 |
-| 56 | Татуин: бой в движении — червь требует внимания | Wan 3 | DRAFT/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | e48fb38656e7 |
+| 56 | Татуин: бой в движении — червь требует внимания | Wan 3 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | be7648cb9fcd |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
@@ -88,4 +88,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (59147 симв., sha `70cbd95d9ca7`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (60682 симв., sha `c455848d1eb2`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
