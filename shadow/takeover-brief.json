@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T13:32:39+00:00",
+ "generated_at": "2026-10-17T13:33:50+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -190,9 +190,9 @@
   ]
  },
  "runtime": {
-  "project_health": "ok",
-  "scenes": 28,
-  "prompt_texts": 56,
+  "project_health": "error",
+  "scenes": 31,
+  "prompt_texts": 59,
   "scene_ids": [
    13,
    16,
@@ -221,9 +221,12 @@
    48,
    49,
    50,
-   51
+   51,
+   52,
+   53,
+   54
   ],
-  "latest_scene": 51,
+  "latest_scene": 54,
   "reserved": [
    1,
    2,
@@ -878,12 +881,14 @@
   {
    "id": 52,
    "title": "Серёга пересаживается на свой корабль и прилетает на Татуин",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    44
+   ],
    "prompts": 1,
    "refs": [
     "@Image1",
@@ -899,12 +904,15 @@
   {
    "id": 53,
    "title": "Взлёт Серёги с Татуина: курс на Набу",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    48,
+    39
+   ],
    "prompts": 1,
    "refs": [
     "@Image1",
@@ -920,12 +928,14 @@
   {
    "id": 54,
    "title": "Доставка древнего компьютера в комнату: стык к Warcraft",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Wan 3",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    41
+   ],
    "prompts": 1,
    "refs": [
     "@Image1",
