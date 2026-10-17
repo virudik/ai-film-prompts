@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-10-17T12:46:24.937505+00:00",
+  "master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130",
+  "packages": [
+    {
+      "id": "S45-R1-20261017",
+      "state": "waiting_for_slot",
+      "prompt_and_available_reference_hashes": "passed"
+    },
+    {
+      "id": "S46-R1-20261017",
+      "state": "waiting_for_slot",
+      "prompt_and_available_reference_hashes": "passed"
+    },
+    {
+      "id": "S43-R1-20261017",
+      "state": "waiting_for_slot",
+      "prompt_and_available_reference_hashes": "passed"
+    },
+    {
+      "id": "S44-R1-20261017",
+      "state": "blocked_inputs",
+      "prompt_and_available_reference_hashes": "passed"
+    },
+    {
+      "id": "S48",
+      "state": "blocked_inputs",
+      "prompt_and_available_reference_hashes": "passed"
+    }
+  ],
+  "no_new_generation": true,
+  "editorial_approval": false,
+  "site_contract": "passed_before_report_write",
+  "scan": {
+    "checked_at": "2026-10-17T12:41:48.302Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 900,
+    "complete": true,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_unlimited_task_ids": [
+      "0d1f17c226834bfbb851d76ed32f9877",
+      "56c0ea656f484b0cb8464233fe097e0d",
+      "5333994f739f4a8b813a6a36dcb7e140",
+      "979f07acffe04750961515f4baf21a3f",
+      "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "f88eee8ea93242309b71621e354ccac2"
+    ],
+    "note": "Read-only working-chat snapshot, not robot heartbeat; fail is terminal and not an occupied slot."
+  }
+}

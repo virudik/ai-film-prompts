@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 44,
-  "updated_at": "2026-10-17T03:13:41.992Z",
+  "updated_at": "2026-10-17T12:43:48.484492+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "blocked_continuity_mismatch",
   "references": [
@@ -162,11 +162,11 @@
     {
       "prompt": "main",
       "prompt_id": "S44",
-      "canonical_prompt_sha256": "51a09473f68a8f38fddd6be984e2fbe5e2c7e16de37f665e1a624cee81325995",
+      "canonical_prompt_sha256": "3776b7b7fbe36305cbc15976879a9b20c528f61cbdf69de726ed4f5d166a53fb",
       "local_numbering": true,
-      "launch_readiness": "blocked_continuity_mismatch_existing_task",
+      "launch_readiness": "blocked_continuity",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": "Direct owner command16.10.2026; unlimited website, zero credits;44 only after actual result43.",
+      "generation_authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "slots": [
         {
           "slot": "@Image1",
@@ -192,14 +192,15 @@
           "input_status": "available",
           "canonical_role": "vehicle_design_helper"
         }
-      ]
+      ],
+      "characters": 7805
     }
   ],
   "site_published": false,
   "last_qc_at": "2026-10-17T03:13:41.992Z",
   "last_qc_scope": "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически.",
   "remaining": [
-    "Owner choice on43→44 continuity: actual43 final lacks jammed45degree wing; no automatic rerender/acceptance. Existing external44 already success; do not duplicate."
+    "Actual clean final video/frame of NEW43 showing jammed left wing; extract, QC and update exact mapping before READY."
   ],
   "technical_success_is_editorial_approval": false,
   "invariants": [
@@ -208,7 +209,8 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "Shared vehicle helper saved and QC checked. Owner authorized free website generation16.10; editorial approval not inferred.",
+  "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
   "start_frame_candidate": "references/scenes/scene-44/S44-start-from-S43-result.png",
-  "existing_scene44_task_id": "d837b803f130431ea0e2e5ad4b786c09"
+  "existing_scene44_task_id": "d837b803f130431ea0e2e5ad4b786c09",
+  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130"
 }

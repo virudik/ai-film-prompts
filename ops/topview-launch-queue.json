@@ -1,19 +1,23 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T12:05:09.756Z",
+  "updated_at": "2026-10-17T12:43:48.484492+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
     "max_credits_per_task": 0,
     "max_concurrent_account_tasks": 6,
-    "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit."
+    "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit.",
+    "latest_owner_update": {
+      "authorized_at": "2026-10-17T12:28:58Z",
+      "source": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history."
+    }
   },
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Lowest priority among ready entries, respecting submission order dependencies. Missing inputs or unavailable free model do not block independent entries. Dependencies here order independent reference-based prompts; technical success is never editorial approval. Any actual-frame dependency must be resolved before submission.",
+  "selection_policy": "Lowest priority among ready entries, respecting submission order dependencies. Missing inputs or unavailable free model do not block independent entries. Dependencies here order independent reference-based prompts; technical success is never editorial approval. Any actual-frame dependency must be resolved before submission. Latest17Oct order overrides prior dances-first notes. 44/48 wait for genuine continuity; skip blocked item and continue independent ready story items. Music awaits story submissions; no new dance rerenders authorized.",
   "items": [
     {
       "id": "B7",
@@ -199,7 +203,7 @@
       "canonical_block_label": "28 B10",
       "canonical_prompt_sha256": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4",
       "normalized_prompt_sha256": "918328f5ecc78c01664d278b8db473d6f270e9077089d070fbbc5d10e71f64b4",
-      "priority": 13,
+      "priority": 500,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -209,7 +213,20 @@
       "quantity": 1,
       "mode": "image_to_video",
       "max_new_submissions": 1,
-      "depends_on_submitted": [],
+      "depends_on_submitted": [
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
+      ],
       "references": [
         {
           "slot": "@Image1",
@@ -229,7 +246,7 @@
       "canonical_block_label": "36",
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
-      "priority": 220,
+      "priority": 30,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -239,13 +256,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -296,7 +307,7 @@
       "canonical_block_label": "37",
       "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
       "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
-      "priority": 221,
+      "priority": 31,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -987,7 +998,7 @@
       "canonical_block_label": "40",
       "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
       "normalized_prompt_sha256": "d6313b55f14d8c184a658da2fe8e4923f4b5baa644900284c39e77f829a6b4df",
-      "priority": 100,
+      "priority": 33,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -997,13 +1008,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -1224,7 +1229,7 @@
       "canonical_block_label": "47",
       "canonical_prompt_sha256": "2a36d6653917dfdfb535881753f2ed5348bbedcf612d31f96f2be39a31b85952",
       "normalized_prompt_sha256": "c0e77d42ab73246c88451c551b4e09ff3dc0d0c12922b6e4183d1978c22feb4e",
-      "priority": 106,
+      "priority": 36,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1234,13 +1239,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -1289,7 +1288,7 @@
       "canonical_block_label": "41",
       "canonical_prompt_sha256": "bc42b0ebeb5b31fa3e7a5c7a7e83c997b9b933710470280bfcc900367447ae42",
       "normalized_prompt_sha256": "02011accef455f9815c038eaa0da3679176c2c221b1c211efa6cc52c81a2c917",
-      "priority": 104,
+      "priority": 34,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1299,13 +1298,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -1354,7 +1347,7 @@
       "canonical_block_label": "42",
       "canonical_prompt_sha256": "c0f26efe865b9a3e801d39e65b35aeb34fbff384c62f5ae2290ad562bbabfa5e",
       "normalized_prompt_sha256": "d7d3c44250bd0eda91dfe596f9cf1c08073badb60cb9206b318b406830a3aff1",
-      "priority": 108,
+      "priority": 35,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1364,13 +1357,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -1419,7 +1406,7 @@
       "canonical_block_label": "39",
       "canonical_prompt_sha256": "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce",
       "normalized_prompt_sha256": "c1aa4b675efc329e513f613bbdb6b6dbc7000b937a0348ae96b52bd8283cc6b0",
-      "priority": 105,
+      "priority": 32,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
@@ -1429,13 +1416,7 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [
-        "B7",
-        "B8",
-        "B9",
-        "B10",
-        "B3"
-      ],
+      "depends_on_submitted": [],
       "references": [
         {
           "slot": "@Image1",
@@ -1478,7 +1459,7 @@
       "canonical_block_label": "49A",
       "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
       "normalized_prompt_sha256": "ede7b5d4aed64838c882606459405dec64e5dd3147ce98468f0fd883fd9b4b81",
-      "priority": 110,
+      "priority": 610,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1493,7 +1474,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1537,7 +1530,7 @@
       "canonical_block_label": "49B",
       "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
       "normalized_prompt_sha256": "58cd189029db2762f2d53e1a8ff40ac1ee23994d47c1196e94c001b36f2aabab",
-      "priority": 111,
+      "priority": 611,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1552,7 +1545,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1602,7 +1607,7 @@
       "canonical_block_label": "49C",
       "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
       "normalized_prompt_sha256": "646e9b3e0835dddd4e19b8c071a1f0eef5f55195d1f222836646216ee5a2acc9",
-      "priority": 112,
+      "priority": 612,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1617,7 +1622,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1667,7 +1684,7 @@
       "canonical_block_label": "49D",
       "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
       "normalized_prompt_sha256": "304f067568f7ab533dc431cda984457a689b03207d03ab54f508f8e5cf02b48d",
-      "priority": 113,
+      "priority": 613,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1682,7 +1699,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1726,7 +1755,7 @@
       "canonical_block_label": "49E",
       "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
       "normalized_prompt_sha256": "dc69a7f17091754e93a6cb3e087487151ecd786113d67cc2bb3369bdddad8a57",
-      "priority": 114,
+      "priority": 614,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1741,7 +1770,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1785,7 +1826,7 @@
       "canonical_block_label": "49F",
       "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
       "normalized_prompt_sha256": "d2bf032478abe9a7023ea8472fbe9d9548b2d816b6d0225732eb8ca9833e925b",
-      "priority": 115,
+      "priority": 615,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1800,7 +1841,19 @@
         "B8",
         "B9",
         "B10",
-        "B3"
+        "B3",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1862,7 +1915,7 @@
       "canonical_block_label": "51A",
       "canonical_prompt_sha256": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
       "normalized_prompt_sha256": "d8117cd9dfc2be49972d8f1d60e5a6d5efbf1b8df9e2ec4fdca6b14305c672d4",
-      "priority": 118,
+      "priority": 618,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1880,7 +1933,19 @@
         "B3",
         "S49F",
         "S50A",
-        "S50B"
+        "S50B",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -1937,7 +2002,7 @@
       "canonical_block_label": "51B",
       "canonical_prompt_sha256": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
       "normalized_prompt_sha256": "90a41423d111010a348eaa89ece67d11eecdbe2dba7ea5ec534d87ca1a457e77",
-      "priority": 119,
+      "priority": 619,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -1953,7 +2018,19 @@
         "B9",
         "B10",
         "B3",
-        "S51A"
+        "S51A",
+        "S45-R1-20261017",
+        "S46-R1-20261017",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47",
+        "S48"
       ],
       "references": [
         {
@@ -2001,6 +2078,291 @@
       ],
       "task_id": null,
       "claim": null
+    },
+    {
+      "id": "S45-R1-20261017",
+      "scene_id": 45,
+      "prompt_id": "S45",
+      "canonical_block_label": "45",
+      "canonical_prompt_sha256": "fc8e7cdff237cd523be7ef8ffce1691dd3736d3cefc811f4ac123e230e674f45",
+      "normalized_prompt_sha256": "73eb9ce7b8586b71de3cec8150bef8d855294dd2488e6676988a8f464ce4555f",
+      "priority": 10,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        },
+        {
+          "slot": "@Image3",
+          "canonical_role": "vehicle_exterior",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "input_status": "available",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "previous_task_ids": [
+        "76f62cdad1bd4cff8ebc3306a0a3ec6b"
+      ],
+      "attempt": "one_corrected_attempt_authorized_20261017",
+      "max_credits": 0
+    },
+    {
+      "id": "S46-R1-20261017",
+      "scene_id": 46,
+      "prompt_id": "S46",
+      "canonical_block_label": "46",
+      "canonical_prompt_sha256": "0e310fc20cd318078b74e954c422f1e883bdcbf553090f0f0bb90e29a094ca68",
+      "normalized_prompt_sha256": "8abec2379dc4ea0e05a2f283837f60b2163d6c9c5357fd2f34be70657ed33a31",
+      "priority": 11,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+        },
+        {
+          "slot": "@Image2",
+          "canonical_role": "vehicle_exterior",
+          "input_status": "available",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+          "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
+          "input_status": "available",
+          "canonical_role": "satellite_design_helper"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "previous_task_ids": [
+        "6ada672ccc5e48d2b1438c0aa18af945",
+        "07f5e7a57b484035a1cee4d5479b1474"
+      ],
+      "attempt": "one_corrected_attempt_authorized_20261017",
+      "max_credits": 0
+    },
+    {
+      "id": "S43-R1-20261017",
+      "scene_id": 43,
+      "prompt_id": "S43",
+      "canonical_block_label": "43",
+      "canonical_prompt_sha256": "740bbb900dad845aa23774220542526eb73217e611537d40ad6b611dcdfb3ef1",
+      "normalized_prompt_sha256": "ed5fbaae46ee0b6e33f8aff99d7656c9dbb8d9ac80dcfb7fe2938deac8f6c2e7",
+      "priority": 12,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-43/S43-wing-hinge-closeup.png",
+          "input_status": "available",
+          "canonical_role": "mechanical_detail_helper",
+          "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "previous_task_ids": [
+        "1b8f85b65ff24b13bcdbbeea3af3c096"
+      ],
+      "attempt": "one_corrected_attempt_authorized_20261017",
+      "max_credits": 0
+    },
+    {
+      "scene_id": 44,
+      "prompt_id": "S44",
+      "canonical_block_label": "44",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "id": "S44-R1-20261017",
+      "priority": 13,
+      "state": "blocked_inputs",
+      "task_id": null,
+      "claim": null,
+      "canonical_prompt_sha256": "3776b7b7fbe36305cbc15976879a9b20c528f61cbdf69de726ed4f5d166a53fb",
+      "normalized_prompt_sha256": "b6857e8d0f12db42062f837f9f943b31ccbb1cb2b94564674779163f544e80ab",
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_scene_end",
+          "input_status": "pending_new_S43_result"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        }
+      ],
+      "previous_task_ids": [
+        "d837b803f130431ea0e2e5ad4b786c09"
+      ],
+      "attempt": "one_corrected_attempt_authorized_20261017",
+      "blocker": "Need actual clean ending of NEW43 with jammed wing",
+      "launch_readiness": "blocked_continuity",
+      "max_credits": 0
+    },
+    {
+      "scene_id": 48,
+      "prompt_id": "S48",
+      "canonical_block_label": "48",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "id": "S48",
+      "priority": 37,
+      "state": "blocked_inputs",
+      "task_id": null,
+      "claim": null,
+      "canonical_prompt_sha256": "3070fc31154b769cd10fe629e9b6a816c5c3c1bc0ab955143da0197a55a43ab4",
+      "normalized_prompt_sha256": "87050754c49e6fe5c24a90005bacd6b8087ef3b308de118ae11870442cd4a58d",
+      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "depends_on_submitted": [
+        "S42"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "start_frame",
+          "input_status": "required_not_available"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "input_status": "available"
+        }
+      ],
+      "blocker": "Need actual clean ending of42; no AI substitute",
+      "launch_readiness": "blocked_continuity"
     }
   ],
   "already_submitted": {
@@ -2042,15 +2404,19 @@
   ],
   "reference_preparation": [
     {
-      "scene_id": 28,
-      "prompt_id": "B3",
-      "needed": "C28: genuine clean ending from B2 result 762b3091b3e44b8599a0a58b91a253c5",
-      "action": "When success, download actual result through supported browser, inspect last seconds and extract clean last usable frame. Do not invent or AI-generate C28. Save source task/time/QC/SHA/image and thumbnail, update B3 manifest and queue with CAS. If result defective, keep blocked and report once; do not auto-rerender B2."
+      "scene_id": 44,
+      "needed": "Actual final seconds of NEW corrected43 with left wing still jammed",
+      "action": "Download exact new result, inspect end, save genuine video/frame with provenance/SHA/QC. Do not use old raised-wing ending or replace Video1 by unrelated Image4. Update manifest and new44 item before READY."
     },
     {
-      "scene_id": 16,
-      "needed": "S16-desert-source-2.mp4",
-      "action": "Retrieve existing exact video by listed Drive/Library ID or original Topview result, verify SHA before upload. Six images already saved. No new image needed."
+      "scene_id": 48,
+      "needed": "Actual end of42",
+      "action": "After42 success extract genuine ending and QC; update manifest/queue before READY."
+    },
+    {
+      "scene_id": 50,
+      "needed": "Wookiee fan crowd",
+      "action": "Prepared website request remains pending; music dessert, after story. No new image task exists as of this review."
     }
   ],
   "receipts_directory": "reports/topview-queue-2026-10-16",
@@ -2069,9 +2435,9 @@
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
     "next_run_time_reported": null,
     "status": "Paused after B2 success exposed a free slot but the scheduled environment lacked an authenticated owner Topview session needed to recover and QC the real B2 result/C28.",
-    "checked_at": "2026-10-17T12:05:09.756Z",
+    "checked_at": "2026-10-17T12:46:24.937505+00:00",
     "automation_id": "6acae6ab433481919e88665c520b8ef2",
-    "latest_observation": "Resumed same hourly :55 Europe/Moscow automation after successful cloud B3/B9 GUI submissions. Prompt updated with owner cloud-browser preference and confirmed tasks. Scheduled browser authentication remains unverified."
+    "latest_observation": "Same automation enabled; latest owner story-first override verified; no new watcher. Scheduled browser session must be checked independently."
   },
   "blocked_browser": {
     "detected_at": "2026-10-17T06:59:55.713Z",
@@ -2110,19 +2476,41 @@
     }
   },
   "new_scene_order": [
-    40,
-    43,
     45,
     46,
-    41,
-    39,
-    47,
+    43,
     44,
+    36,
+    37,
+    39,
+    40,
+    41,
     42,
+    47,
     48,
+    28,
     49,
     50,
     51
   ],
-  "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun."
+  "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
+  "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+  "last_live_scan": {
+    "checked_at": "2026-10-17T12:41:48.302Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 900,
+    "complete": true,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_unlimited_task_ids": [
+      "0d1f17c226834bfbb851d76ed32f9877",
+      "56c0ea656f484b0cb8464233fe097e0d",
+      "5333994f739f4a8b813a6a36dcb7e140",
+      "979f07acffe04750961515f4baf21a3f",
+      "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "f88eee8ea93242309b71621e354ccac2"
+    ],
+    "note": "Read-only working-chat snapshot, not robot heartbeat; fail is terminal and not an occupied slot."
+  }
 }

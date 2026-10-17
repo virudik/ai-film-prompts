@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-17T00:41:02.845078+00:00",
+  "updated_at": "2026-10-17T12:43:48.484492+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -143,11 +143,11 @@
     {
       "prompt": "main",
       "prompt_id": "S46",
-      "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
+      "canonical_prompt_sha256": "0e310fc20cd318078b74e954c422f1e883bdcbf553090f0f0bb90e29a094ca68",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": "Direct owner command 16.10.2026; unlimited website only, zero credits, after dances.",
+      "generation_authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "slots": [
         {
           "slot": "@Image1",
@@ -170,7 +170,7 @@
           "canonical_role": "satellite_design_helper"
         }
       ],
-      "characters": 6128
+      "characters": 7562
     }
   ],
   "site_published": {
@@ -190,7 +190,7 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun.",
-  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
+  "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
+  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130",
   "design_selection_note": "Owner selected FIRST ship explicitly17Oct2026 03:32MSK. Same vehicle in45/46; second preserved, not an input."
 }

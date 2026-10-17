@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 45,
-  "updated_at": "2026-10-17T00:41:02.845078+00:00",
+  "updated_at": "2026-10-17T12:43:48.484492+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -213,11 +213,11 @@
     {
       "prompt": "main",
       "prompt_id": "S45",
-      "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
+      "canonical_prompt_sha256": "fc8e7cdff237cd523be7ef8ffce1691dd3736d3cefc811f4ac123e230e674f45",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
-      "generation_authorization": "Direct owner command 16.10.2026; unlimited website only, zero credits, after dances.",
+      "generation_authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "slots": [
         {
           "slot": "@Image1",
@@ -245,7 +245,7 @@
           "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
         }
       ],
-      "characters": 5540
+      "characters": 6347
     }
   ],
   "site_published": false,
@@ -259,7 +259,7 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun.",
+  "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
   "design_selection_note": "Owner selected FIRST ship explicitly17Oct2026 03:32MSK. Same vehicle in45/46; second preserved, not an input.",
-  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9"
+  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130"
 }
