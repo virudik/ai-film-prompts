@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T00:13:28.179457+00:00",
+  "updated_at": "2026-10-17T00:41:02.845078+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1027,10 +1027,10 @@
       "scene_id": 45,
       "prompt_id": "S45",
       "canonical_block_label": "45",
-      "canonical_prompt_sha256": "0a0ed3e5b3188a3f38615ede145edecf5742e50f99cc0e87ca70ac6c70fa3063",
-      "normalized_prompt_sha256": "ef8196822e328f61d29e588d62d3ded380e7d046271c63a9bd02203884f5093e",
+      "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
+      "normalized_prompt_sha256": "c2b768237b311ebae44162d4988b6d004a104717e6f84f8ac4d7b815eb624b59",
       "priority": 102,
-      "state": "blocked_owner_decision",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1061,14 +1061,19 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
-          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
           "required": true
         }
       ],
       "task_id": null,
-      "claim": null,
-      "block_reason": "Owner17Oct02:58MSK is choosing between recovered first ship and current second ship. Do not launch45/46 until choice. Do not automatically reject either design."
+      "claim": null
     },
     {
       "id": "S46",
@@ -1078,7 +1083,7 @@
       "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
       "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce",
       "priority": 103,
-      "state": "blocked_owner_decision",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1103,8 +1108,8 @@
         },
         {
           "slot": "@Image2",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
-          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true
         },
         {
@@ -1115,8 +1120,7 @@
         }
       ],
       "task_id": null,
-      "claim": null,
-      "block_reason": "Owner17Oct02:58MSK is choosing between recovered first ship and current second ship. Do not launch45/46 until choice. Do not automatically reject either design."
+      "claim": null
     },
     {
       "id": "S43",
@@ -1425,8 +1429,8 @@
       "scene_id": 49,
       "prompt_id": "S49A",
       "canonical_block_label": "49A",
-      "canonical_prompt_sha256": "f00038ba169753f29b8f42ac9e3b8a5dc6298920e260509a0d91030637d9ea8f",
-      "normalized_prompt_sha256": "039aa58db4679de173d652702b2bdacc65acb06ed206580f2b1af6dd971045d7",
+      "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
+      "normalized_prompt_sha256": "ede7b5d4aed64838c882606459405dec64e5dd3147ce98468f0fd883fd9b4b81",
       "priority": 110,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1467,6 +1471,12 @@
           "slot": "@Image4",
           "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
           "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-playing-grip.png",
+          "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
           "required": true
         }
       ],

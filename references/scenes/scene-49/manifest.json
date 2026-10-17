@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-16T23:09:14.907896+00:00",
+  "updated_at": "2026-10-17T00:41:02.845078+00:00",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -228,6 +228,38 @@
         "49E",
         "49F"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49A-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49A-playing-grip.png",
+      "role": "playing_pose",
+      "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+      "bytes": 2592972,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:38:20.698964+00:00",
+        "evidence": "Two correct distinct identities/costumes, Serega left/Yulya right; left fretting and right picking grip; straps, separate rigid instruments, exact hangar. Pose helper only; original identity and prop design outrank small deviations."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/H28B-disco.png",
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/scenes/scene-49/S49A-lead-and-bass.png"
+        ],
+        "prompt": "Create one photoreal 16:9 cinematic pose reference for scene49A. Image1 is exact hangar location, image2 exact Serega identity/costume sheet (one man, not many), image3 exact Yulya identity/costume sheet(one woman), image4 exact instruments. Exactly these two people: Serega LEFT in original deep-purple robe, Yulya RIGHT in original dark armor/cape, unchanged real faces, ages, builds, no beautifying. They stand at a three-quarter angle toward each other in energetic grounded PLAYING stances. Guitar/bass bodies at waist on practical shoulder straps; each LEFT hand wraps the physical fingerboard with thumb behind and fingertips fretting strings, RIGHT hand picks strings above bridge on instrument BODY. Clear anatomically plausible separate hands, rigid continuous necks, no hands gripping body as a handle, no overhead smashing pose. Serega black-blue SIX-string ring-core guitar; Yulya silver-violet FOUR-string bass, faithfully copy shape. Full bodies and entire instruments visible with margin, mid-height camera. Exact H28B floor emblem, space opening and parked shuttle on frame-right, neutral face light, cyan/magenta practicals. No extra people, no cats, no labels, no panels, no text, no black bars."
+      },
+      "applies_to": [
+        "49A"
+      ]
     }
   ],
   "remaining": [],
@@ -239,8 +271,8 @@
     {
       "prompt": "49A",
       "status": "READY",
-      "canonical_prompt_sha256": "f00038ba169753f29b8f42ac9e3b8a5dc6298920e260509a0d91030637d9ea8f",
-      "characters": 6288,
+      "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
+      "characters": 6536,
       "slots": [
         {
           "slot": "@Image1",
@@ -269,6 +301,12 @@
           "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-playing-grip.png",
+          "input_status": "available",
+          "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568"
         }
       ]
     },
@@ -501,6 +539,6 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669",
+  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
 }

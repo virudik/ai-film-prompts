@@ -3277,19 +3277,19 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a> (вырезан из фото футболки владельца; исходники: <a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg">серая</a>, <a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg">чёрная</a>);
 - @Image2 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов Scenes 24–25</a> (только тёплый свет окон кабины снаружи, котов не брать);
-- @Image3 — <a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
+- @Image3 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-grey-source.jpg" alt="Исходник — серая футболка"></a><figcaption>Исходник — серая футболка</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" alt="Исходник — чёрная футболка"></a><figcaption>Исходник — чёрная футболка</figcaption></figure>
-<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image3 — корабль РосКОТмоса"></a><figcaption>@Image3 — общий корабль 45/46; AI-референс дизайна</figcaption></figure></div>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp" alt="@Image3 — корабль РосКОТмоса"></a><figcaption>@Image3 — общий корабль 45/46; AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-rear.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-rear.png.webp" alt="@Image4 — выбранный первый корабль, задний ракурс" loading="lazy"></a><figcaption>@Image4 — выбранный первый корабль, задний ракурс</figcaption></figure></div>
 
-**Выбор корабля владельцем · 17.10:** доступны два варианта. Первый восстановлен из ранее созданного изображения; второй пока остаётся текущим входом. Окончательный выбор ещё не сделан. Для45 и46 требуется ОДИН выбранный дизайн; оба одновременно в генерацию не подавать. До выбора запуск45/46 удержан.
-
-<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp" alt="Вариант 1 — ранний звездолёт; кандидат, не дополнительный @Image" loading="lazy"></a><figcaption>Вариант 1 — ранний звездолёт; кандидат, не дополнительный @Image</figcaption></figure></div>
+**Выбор владельца17.10 03:32МСК:** первый корабль выбран для45/46. Второй сохранён в истории, в генерацию не подавать.
 
 **Что происходит:** Снаружи, в разгар того же боя, что в Scene 25: корабль котов — белый, с широкой красной «галочкой» вдоль борта и большим круглым логотипом РосКОТмоса с котом-космонавтом — влетает в сражение, уходит креном от огня, отстреливается вперёд, проскальзывает между крупным кораблём и обломками и прорывается в просвет строя. В окнах кабины тёплый янтарный свет.
+
+**Дополнительный вход:** @Image4 = <a href="references/scenes/scene-45/S45-roskotmos-ship-first-rear.png">выбранный первый корабль, задний ракурс</a>.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3299,13 +3299,14 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — the exact exterior design of the cats' ship: hull shape, proportions, colours, markings and engines. Vehicle design authority.
 @Image1 — the exact RosKOTmos emblem painted on the hull: a round grey-and-white roundel with a tabby cat in a white spacesuit and helmet, a bold red swoosh arrow cutting diagonally up across its lower half, and the wordmark РОСКОТМОС beneath it with КОТ in red. Emblem design only; ignore the T-shirt fabric.
 @Image2 — the cats' cockpit interior: use ONLY its warm amber light as the glow seen through the ship's cockpit windows from outside. Do not show the cats or the interior.
+@Image4 — REAR VIEW / ENGINE GEOMETRY helper of the SAME chosen ship. @Image3 remains the primary overall vehicle design and @Image1 the exact emblem. Use @Image4 only for the two round rear exhausts and chase-shot orientation; do not mirror markings or invent another craft.
 Priority: @Image3 controls the ship; @Image1 controls the emblem; @Image2 controls only the window glow.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 No characters are visible. The cats' ship is the hero; the crew inside is never seen. Enemy ships are anonymous with no pilots visible.
 
 SHIP / ROSKOTMOS DESIGN LOCK — CRITICAL:
-One and the same mid-size, chunky, lived-in starship in every shot, exactly as @Image3: a rounded nose with a row of forward cockpit windows glowing warm amber, white and light-grey hull panels with light wear and scorch marks, a broad red stripe sweeping along each flank in the shape of the emblem's swoosh arrow, a dark-blue accent band, two rear engines with steady blue-white glow. The RosKOTmos roundel from @Image1 is painted large on each flank behind the cockpit, always the same size and position, readable whenever the flank faces the camera. Space-agency styling: clean painted markings, small hull numbers, no extra text or slogans. The ship never changes shape, colour or markings and never splits into two.
+One and the same mid-size, elongated, lived-in starship in every shot, exactly as @Image3: an angular multi-pane forward cockpit with sloped amber-glazed windows glowing warm amber, white and light-grey hull panels with light wear and scorch marks, a broad red stripe sweeping along each flank in the shape of the emblem's swoosh arrow, a dark-blue accent band, two rear engines with steady blue-white glow. The RosKOTmos roundel from @Image1 is painted large on each flank behind the cockpit, always the same size and position, readable whenever the flank faces the camera. Space-agency styling: clean painted markings, small hull numbers, no extra text or slogans. The ship never changes shape, colour or markings and never splits into two.
 
 START STATE:
 The cats' ship enters the battle area from frame-left in steady forward flight, matching the start of the cockpit battle: fighters crossing at various depths, distant capital ships exchanging fire.
@@ -3366,11 +3367,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a>;
-- @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
+- @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
 - @Image3 — <a href="references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png">три спутника РосКОТмоса A/B/C — полный референс дизайна</a> (AI-референс, исходное целое состояние; QC пройден, не результат генерации видео).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — общий корабль 45/46; AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-46/S46-roskotmos-resurs-kanopus.png.webp" alt="@Image3 — три спутника РосКОТмоса" loading="lazy"></a><figcaption>@Image3 — A: по мотивам Ресурс-П; B: Канопус-В; C: вымышленный ретранслятор</figcaption></figure></div>
+<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — общий корабль 45/46; AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-46/S46-roskotmos-resurs-kanopus.png.webp" alt="@Image3 — три спутника РосКОТмоса" loading="lazy"></a><figcaption>@Image3 — A: по мотивам Ресурс-П; B: Канопус-В; C: вымышленный ретранслятор</figcaption></figure></div>
 
 **Что происходит:** Над голубой планетой тихо висят три спутника РосКОТмоса с логотипом кота-космонавта. Сквозь кадр проносится бой: корабль котов, за ним вражеские истребители. Шальной залп отрезает первому спутнику солнечную панель, и его закручивает. Его обломки врезаются во второй, тот сминается и разваливается. Кувыркающаяся половина второго сносит третьему антенну-тарелку, и тот медленно уплывает, грустно мигая огоньком. Последняя солнечная панель с логотипом кувыркается прямо мимо камеры.
 
@@ -3669,7 +3670,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image2 — Серёга" loading="lazy"></a><figcaption>@Image2 — Серёга</figcaption></figure>
 <figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image3 — Юля" loading="lazy"></a><figcaption>@Image3 — Юля</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image4 — инструменты" loading="lazy"></a><figcaption>@Image4 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49A-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-playing-grip.png.webp" alt="@Image5 — игровой хват дуэта" loading="lazy"></a><figcaption>@Image5 — игровой хват дуэта</figcaption></figure></div>
+
+**Дополнительный вход:** @Image5 = <a href="references/scenes/scene-49/S49A-playing-grip.png">игровой хват дуэта</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3680,6 +3683,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — ABSOLUTE CHARACTER IDENTITY: Серёга; exact face, hair, build and costume as described below.
 @Image3 — ABSOLUTE CHARACTER IDENTITY: Юля; exact face, hair, build and costume as described below.
 @Image4 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
+@Image5 — PLAYING GRIP / POSE ONLY: left hand frets the physical neck, right hand picks strings above the body bridge, supported by a strap; do not use a two-handed smash grip. Original identities @Image2–3 and prop design @Image4 retain priority.
 Priority: identity references outrank any new composition; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4125,15 +4129,19 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — состав группы, только фоновые участники" loading="lazy"></a><figcaption>@Image2 — состав группы, только фоновые участники</figcaption></figure>
 </div>
 
-**Референс внешности вуки · 17.10:** @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">настоящий кадр12с из существующего ролика Кашиика</a>. Использовать только морды, шерсть и анатомию вуки; лес и человека из кадра не переносить. Локация остаётся H28B. «Аудитория» здесь означает только толпу зрителей-фанатов. Постановочный кадр толпы ещё не создан; DRAFT сохраняется. <a href="references/scenes/scene-50/S50-fans-image-prompt.txt">Подготовленный промт изображения для Nano Banana</a>.
+**Референс внешности вуки · 17.10:** @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">предоставленный владельцем кадр00:03.400</a>. Использовать только морды, шерсть и анатомию вуки; интерьер и людей из кадра не переносить. Локация остаётся H28B. «Аудитория» здесь означает только толпу зрителей-фанатов. Постановочный кадр толпы ещё не создан; DRAFT сохраняется. <a href="references/scenes/scene-50/S50-fans-image-prompt.txt">Подготовленный промт изображения для Nano Banana</a>.
 
-<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-kashyyyk-12s.png.webp" alt="@Image3 — внешность вуки из своего ролика, только species reference" loading="lazy"></a><figcaption>@Image3 — внешность вуки из своего ролика, только species reference</figcaption></figure></div>
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-03m400.jpg.webp" alt="@Image3 — внешность вуки из своего ролика, только species reference" loading="lazy"></a><figcaption>@Image3 — внешность вуки из своего ролика, только species reference</figcaption></figure></div>
+
+**Дополнительный вход:** @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно00:14.833</a>; только внешность.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-14m833.jpg.webp" alt="@Image4 — морда и шерсть вуки, кадр владельца" loading="lazy"></a><figcaption>@Image4 — морда и шерсть вуки, кадр владельца</figcaption></figure></div>
 
 **Что происходит:** Несколько десятков высоких лохматых вуки на танцполе смотрят на группу и радостно рычат, раскачивают длинную шерсть и головы в тяжёлом рок-ритме, вскидывают лапы, а потом устраивают небольшой дружелюбный слэм-круг без травм и агрессивной драки. Танцы, рок-концерт и кадры фанатов монтируются вперемешку. Только та же просторная площадка и свет Scene 28.
 
 ### 50A · Стена грив — радостный хедбэнг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">вуки, внешний вид</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4142,7 +4150,8 @@ Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED
 REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
-@Image3 — existing Kashyyyk video frame: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore its human subject, forest, bridges, lighting and composition. Do not clone one face across the crowd.
+@Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
+@Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
 Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4191,7 +4200,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 50B · Вуки-слэм — праздничный круг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">вуки, внешний вид</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4200,7 +4209,8 @@ Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED
 REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
-@Image3 — existing Kashyyyk video frame: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore its human subject, forest, bridges, lighting and composition. Do not clone one face across the crowd.
+@Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
+@Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
 Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

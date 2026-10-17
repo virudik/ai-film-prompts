@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 45,
-  "updated_at": "2026-10-17T00:10:43.037091+00:00",
+  "updated_at": "2026-10-17T00:41:02.845078+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -146,7 +146,7 @@
     {
       "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
       "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-      "role": "vehicle_design_candidate",
+      "role": "vehicle_exterior",
       "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
       "bytes": 2580201,
       "dimensions": [
@@ -154,7 +154,7 @@
         941
       ],
       "media_type": "image",
-      "owner_approval": "not_recorded",
+      "owner_approval": "design_selected_2026-10-17T03:32MSK",
       "assistant_qc": {
         "status": "passed",
         "checked_at": "2026-10-17T00:10:43.037091+00:00",
@@ -164,8 +164,37 @@
         "kind": "existing_generated_image",
         "library_file_id": "libfile_741734b21c048191be98ec071d9b2c1c",
         "created_at": "2026-10-16T12:11:24.257002Z",
-        "note": "Recovered earlier option for owner comparison; not substituted into prompts."
+        "note": "Recovered earlier image; selected by owner17Oct03:32MSK."
       }
+    },
+    {
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+      "role": "vehicle_rear_pose",
+      "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
+      "bytes": 2606016,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:41:02.706797+00:00",
+        "evidence": "Rear exhaust faces visible; same elongated white ship, two nacelles, dorsal fin, red checkmark/navy band and cat logo. Supplemental aft orientation only; selected original is design authority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+        ],
+        "prompt": "Create a photoreal 16:9 rear three-quarter view of EXACTLY THE SAME RosKOTmos spaceship in the single reference. This is a camera rotation around the chosen existing ship, NOT a second vehicle design. Keep the elongated broad fuselage, angular forward multi-pane amber cockpit, white worn segmented plating, big red checkmark swoosh along side, narrow dark navy lower band, circular astronaut cat emblem on side, dorsal fin, and the TWO cylindrical external engine nacelles at rear exactly consistent. Camera above and BEHIND right flank, looking forward along hull toward nose receding into distance. Two clearly visible round rear blue-white engine exhausts, engines pointing at camera, the nose pointing AWAY. Show whole craft within frame with margin, no cropping, same realistic used industrial model and proportions. Dark neutral starfield only, no battle or other ships. Do not invent extra engines, tailplanes, wings, text, extra logos, or change chosen design. Cinematic sharp neutral lighting with readable hull details. Pose helper for a rear chase shot; not a new approved design."
+      },
+      "applies_to": [
+        "45"
+      ]
     }
   ],
   "identity_refs": [],
@@ -184,7 +213,7 @@
     {
       "prompt": "main",
       "prompt_id": "S45",
-      "canonical_prompt_sha256": "0a0ed3e5b3188a3f38615ede145edecf5742e50f99cc0e87ca70ac6c70fa3063",
+      "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -206,10 +235,17 @@
           "slot": "@Image3",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
-          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "input_status": "available",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
         }
-      ]
+      ],
+      "characters": 5540
     }
   ],
   "site_published": false,
@@ -223,5 +259,7 @@
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun."
+  "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun.",
+  "design_selection_note": "Owner selected FIRST ship explicitly17Oct2026 03:32MSK. Same vehicle in45/46; second preserved, not an input.",
+  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9"
 }

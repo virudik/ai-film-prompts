@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T00:13:28.179457+00:00",
+  "updated_at": "2026-10-17T00:41:02.845078+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -40,10 +40,60 @@
         "source_video_sha256": "446da73c06e8030e57e5799c05589a279cd138fa71b1e3b5c2b08177c3802dd1",
         "note": "Extracted existing owner video, not newly generated. Species only; ignore human and forest."
       }
+    },
+    {
+      "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "asset_id": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+      "role": "species_appearance",
+      "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+      "bytes": 106713,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "owner_approval": "provided_for_reference",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:41:02.845078+00:00",
+        "evidence": "Clear Wookiee facial anatomy and fur; use species only, ignore all human subjects/interior/bars. No fan crowd composition claimed."
+      },
+      "provenance": {
+        "kind": "owner_supplied_video_frame",
+        "library_file_id": "libfile_777baa76fba08191bc124945b7b5b57a",
+        "original_filename": "Кадр 00_03.400.jpg",
+        "source_video_filename": "26dd8fa23f444fa981c071b85297fd7a.mp4",
+        "source_video_sha256": "a53867b1e262a48775992ee31ccd155840c2b334ce677202fd5e907708dc85b7"
+      }
+    },
+    {
+      "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "asset_id": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+      "role": "species_appearance",
+      "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+      "bytes": 97370,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "owner_approval": "provided_for_reference",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T00:41:02.845078+00:00",
+        "evidence": "Clear Wookiee facial anatomy and fur; use species only, ignore all human subjects/interior/bars. No fan crowd composition claimed."
+      },
+      "provenance": {
+        "kind": "owner_supplied_video_frame",
+        "library_file_id": "libfile_c3e6cb3dc0b08191a26af1df9c626614",
+        "original_filename": "Кадр 00_14.833.jpg",
+        "source_video_filename": "26dd8fa23f444fa981c071b85297fd7a.mp4",
+        "source_video_sha256": "a53867b1e262a48775992ee31ccd155840c2b334ce677202fd5e907708dc85b7"
+      }
     }
   ],
   "remaining": [
-    "Fan crowd composition in H28B: species source now recovered; Nano Banana website requires browser login. Prepared prompt saved."
+    "Crowd composition in H28B still needed; owner supplied two better species frames, now linked."
   ],
   "approved": [],
   "rejected": [
@@ -52,8 +102,8 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "50A",
-      "canonical_prompt_sha256": "717fa7fa4a846b57cc2e9ff6d94e6bea34691e2f60b2efd0690cfe3934e7fecb",
-      "characters": 5924,
+      "canonical_prompt_sha256": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
+      "characters": 6108,
       "launch_readiness": "draft",
       "slots": [
         {
@@ -70,17 +120,23 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
-          "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
           "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "input_status": "available",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
         }
       ],
       "prompt": "50A"
     },
     {
       "prompt_id": "50B",
-      "canonical_prompt_sha256": "0ff7d20f3cbdb137c2fe523348652c3f571d5a8508ac7edaf28c6d1980845487",
-      "characters": 5945,
+      "canonical_prompt_sha256": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
+      "characters": 6129,
       "launch_readiness": "draft",
       "slots": [
         {
@@ -97,9 +153,15 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
-          "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
           "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "input_status": "available",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
         }
       ],
       "prompt": "50B"
@@ -136,5 +198,6 @@
     "records_checked": 239,
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
-  }
+  },
+  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9"
 }

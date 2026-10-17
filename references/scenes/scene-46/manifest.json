@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-17T00:13:28.179457+00:00",
+  "updated_at": "2026-10-17T00:41:02.845078+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -159,8 +159,8 @@
           "slot": "@Image2",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-exterior.png",
-          "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29"
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
         },
         {
           "slot": "@Image3",
@@ -191,6 +191,6 @@
   ],
   "drive_folder_id": null,
   "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun.",
-  "canonical_master_sha256": "96efd5628a394854bca3c6c941f2da463bab16323f4555fdddee176e2edca86a",
-  "design_selection_note": "Owner choosing ship option1/2; satellite update authorized, launch46 held until ship choice."
+  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
+  "design_selection_note": "Owner selected FIRST ship explicitly17Oct2026 03:32MSK. Same vehicle in45/46; second preserved, not an input."
 }
