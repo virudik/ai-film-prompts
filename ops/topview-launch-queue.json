@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T13:27:23.958826+00:00",
+  "updated_at": "2026-10-17T18:14:54.851044+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1405,8 +1405,8 @@
       "scene_id": 39,
       "prompt_id": "S39",
       "canonical_block_label": "39",
-      "canonical_prompt_sha256": "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce",
-      "normalized_prompt_sha256": "c1aa4b675efc329e513f613bbdb6b6dbc7000b937a0348ae96b52bd8283cc6b0",
+      "canonical_prompt_sha256": "38df51a65308aee76d55bc55058f1dcee1b2af5887ef15d3f9225b8689792bf5",
+      "normalized_prompt_sha256": "3b54a38ab0c51478950719aab4ef12cc77cee4037c4ef82c5424eed51490f070",
       "priority": 32,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1448,10 +1448,22 @@
           "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
           "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
           "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "previous_prompt_sha256": [
+        "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce"
+      ],
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6)."
     },
     {
       "id": "S49A",
@@ -2454,8 +2466,8 @@
       "scene_id": 52,
       "prompt_id": "S52",
       "canonical_block_label": "52",
-      "canonical_prompt_sha256": "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
-      "normalized_prompt_sha256": "9352778f36c97b43d9fc8a4d799793f4931bc6f1b51c823bc6b4e340271b6536",
+      "canonical_prompt_sha256": "3ab36c2b1e06318b9eaeca133dfe838fa5fd44cdec60bdbc370a7f3712181aea",
+      "normalized_prompt_sha256": "2444712da6aaefed5db007bb8c284ebd00ad75f9e040e9f5de3948f383fe3b4f",
       "priority": 20,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2509,12 +2521,24 @@
           "role": "location",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
-      "max_credits": 0
+      "max_credits": 0,
+      "previous_prompt_sha256": [
+        "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d"
+      ],
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6)."
     },
     {
       "id": "S53",
@@ -2699,6 +2723,65 @@
       "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test.",
       "max_credits": 0,
       "review_gate_after_success": "Assess identity, energy, framing and anatomy; owner review before further dance submissions. This is not a controlled model comparison by itself."
+    },
+    {
+      "id": "S55",
+      "scene_id": 55,
+      "prompt_id": "S55",
+      "canonical_block_label": "55",
+      "canonical_prompt_sha256": "bfc55bdbbff305b6c88f8599e077eb1f989f439521ccd603b31f32a56f99b0ae",
+      "normalized_prompt_sha256": "f0e648b6616aa079a00288de8941b265331dc0c58f2a833e3f855dc01de45078",
+      "priority": 5,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S50-FANS-IMAGE"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+          "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-54/S54-room-side-actual.png",
+          "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+          "role": "composition",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner 17Oct2026 21:12 MSK: new Scene 55, queue it early, right after the Wookiee fans image (S50-FANS-IMAGE).",
+      "max_credits": 0
     }
   ],
   "already_submitted": {
@@ -2848,5 +2931,6 @@
       "f88eee8ea93242309b71621e354ccac2"
     ],
     "note": "Read-only working-chat snapshot, not robot heartbeat; fail is terminal and not an occupied slot."
-  }
+  },
+  "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA)."
 }

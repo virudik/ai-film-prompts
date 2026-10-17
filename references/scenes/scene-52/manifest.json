@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-17T13:24:57.256658+00:00",
+  "updated_at": "2026-10-17T18:14:54.851044+00:00",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "ready",
   "references": [
@@ -139,6 +139,26 @@
         "git_present": true
       },
       "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "bytes": 575523,
+      "media_type": "image",
+      "role": "location",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T18:14:54.851044+00:00",
+        "evidence": "Genuine cockpit frame already used by Scene 37/53."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
     }
   ],
   "identity_refs": [
@@ -146,7 +166,8 @@
   ],
   "location_refs": [
     "references/scenes/scene-28/H28A-ceremony.png",
-    "references/scenes/scene-16/S16-desert-location-clean.png"
+    "references/scenes/scene-16/S16-desert-location-clean.png",
+    "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png"
   ],
   "prop_refs": [],
   "video_refs": [],
@@ -158,7 +179,7 @@
     {
       "prompt": "main",
       "prompt_id": "S52",
-      "canonical_prompt_sha256": "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
+      "canonical_prompt_sha256": "3ab36c2b1e06318b9eaeca133dfe838fa5fd44cdec60bdbc370a7f3712181aea",
       "local_numbering": true,
       "launch_readiness": "ready",
       "generation_authorization": "Direct owner17Oct2026 16:11:29MSK: make these three bridges and launch as free slots become available",
@@ -202,6 +223,11 @@
           "role": "location",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
         }
       ]
     }

@@ -10,7 +10,7 @@
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 1** сцена сейчас в медленной генерации: **28** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY по входам, 30s Wan 3.0, запуск по команде владельца). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **17.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -81,7 +81,7 @@
 | 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Image1 = Серёга, @Image2 = личный корабль, настоящий кадр фильма, @Image3 = ангар разрушителя H28A, @Image4 = разрушитель, настоящий кадр фильма, @Image5 = Татуин, песок и руины | Серёга решительно садится в личный корабль. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним. READY, 30s Wan 3.0. |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = Татуин, @Image5 = один модуль карты | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка, уходит над руинами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0. |
-| 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры, @Image5 = кабина личного корабля, @Image6 = стикер «хлеб и молоко» | Серёга играет; Юля заходит и спрашивает «Серёжа, а молоко?». Он замирает; вставка: в кабине стикер и корзинка грибов вместо покупок; виноватая пауза. READY по входам, 30s Wan 3.0, запуск по команде владельца. |
+| 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры | Серёга играет; Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?». Он замирает и виновато молчит. Пасхалка к просьбе из начала фильма и стикеру в перелётах. READY, 30s Wan 3.0, в очереди сразу после картинки вуки. |
 
 ---
 
@@ -95,7 +95,7 @@
 | W5 | **Три фрагмента / артефакта → запретное знание → Warcraft 3** | В РАЗРАБОТКЕ (D5) | три фрагмента/карты; компьютер/CRT; референс Канцлера | Путь фрагментов к цели виден через приём «модуль светится к цели» (37, решение 14.10; продолжение — 40): Набу → лес → планета ситхов → храм → древний ПК (35/38). Открыто: (1) как соединяются фрагменты и что открывают (D5; рекомендация [Р2] — «А + Д»: доступ, затем бытовой возврат); (2) тот ли это ПК, что в существующем финале, и где тот стоит (D4; по [Р1] §1 — «в космическом окружении», тогда нужна 41). «Диск / провод / мышь» по-прежнему идея. **16.10 владелец:** D4 решён — финальный компьютер стоит на борту у окна в космос, это тот же ПК из храма → **Scene 41** (Сила несёт блок и монитор). Все три фрагмента у Канцлера: Татуин — Scene 48, Набу — 17/36, лес — силовой захват. Открыт D5. |
 | W11 | **Татуин: кто передал Канцлеру маршрут / координаты** | В РАЗРАБОТКЕ · КОРОТКАЯ РЕПЛИКА / ЗВУК | кантина; существующий контакт/бармен/коммуникатор; татуинский блок | Прибытие Канцлера на Татуин не показано, он появляется в кантине 33:50 [Р2]. Посадку не генерировать: отлёт уже есть (уход корабля в гиперпространство, 27:50–28:55 [Р2]), а причину появления даёт только «след». Варианты без новой сцены: реплика у карты 14:05–15:20 «Координаты прислал наш контакт на Татуине» ([Р2] §13) или сигнал/маяк в кантине ([Р1] N4). Бармен отдал модуль герою (31:51–31:52, [Р2] §3) — не противоречить этому. **16.10 владелец:** прилёт на Татуин не генерируем. |
 | W7 | **Переходы между крупными группами / полёт к следующей планете** | В РАБОТЕ: 37, 40 (READY), 39/41 (DRAFT) + монтаж | конечные и начальные кадры соседних блоков; корабль/планета | Линия Серёги: Корусант → крейсер показан (09:20–09:55); крейсер → Татуин — монтаж + W11; Татуин → Набу — **Scene 39** (стык ~45:05); Набу → лес — **36 + 37** (решение 14.10, без посадки); лес → планета ситхов — **Scene 40** (стык после 01:02:45 → Scene 26); ПК → финальный CRT — **Scene 41** (D4 решён 16.10). **16.10 владелец:** 39 и 40 нужны, место стыков подтверждено; прилёт на Татуин и посадку на Кашиике не генерируем. Смена групп: T2 и Татуин → Набу — существующая посадка пары (39:25–40:30); идея Саши 37:30 уже есть в этом участке. Корабль везде один — из ч.1 09:20–09:55. |
-| W13 | **Финальный Warcraft → callback «хлеб и молоко»** | В РАЗРАБОТКЕ ПОСЛЕ W5 | компьютер/Warcraft; начало фильма с бытовой просьбой; Канцлер | Просьба «хлеб и молоко» есть в начале ([FA] ч.1 01:40–02:30). Промежуточное напоминание — стикер на пульте в 37 (решение 14.10); тот же стикер как continuity в 40/41. **16.10 владелец:** в 40 и 41 в кабине стоит корзинка с грибами из лесного эпизода. Финальный удар («А молоко?» и взгляд на корзинку — [Р2] §12, вариант Д) — 6–10 с после W5. **17.10 владелец:** финальный удар — отдельная Scene 55: Юля заходит в комнату с Warcraft и спрашивает «Серёжа, а молоко?», вставка с корзинкой. |
+| W13 | **Финальный Warcraft → callback «хлеб и молоко»** | В РАЗРАБОТКЕ ПОСЛЕ W5 | компьютер/Warcraft; начало фильма с бытовой просьбой; Канцлер | Просьба «хлеб и молоко» есть в начале ([FA] ч.1 01:40–02:30). Промежуточное напоминание — стикер на пульте в 37 (решение 14.10); тот же стикер как continuity в 40/41. **16.10 владелец:** в 40 и 41 в кабине стоит корзинка с грибами из лесного эпизода. Финальный удар («А молоко?» и взгляд на корзинку — [Р2] §12, вариант Д) — 6–10 с после W5. **17.10 владелец:** финальный удар — отдельная Scene 55: Юля заходит в комнату с Warcraft и спрашивает «Дорогой, а ты купил хлеб и молоко?», без вставки; стикер с хлебом и молоком — во всех перелётах (37, 39, 40, 41, 52, 53). |
 | W8 | **Недоделанные гонки и транспорт** | В РАЗРАБОТКЕ / СВЕРИТЬ (Татуин) | референсы конкретной машины/экипажа; татуинская линия | Космическая погоня решена (Scene 5); сцены 3 и 4 не возвращать. Транспорт Канцлера между планетами зафиксирован: один корабль из ч.1 09:20–09:55 (37, 39, 40, 41). Открыто: татуинская машина и Scene 16 — машина не появляется после уничтожения; один узнаваемый дизайн машины Канцлера ([Р1] §16, [Р2] §8). |
 | W14 | **ОБДУМАТЬ: монтажные и локальные идеи из заметок Саши** | ОБДУМАТЬ, НЕ НОВАЯ СЦЕНА | существующий фильм и точные таймкоды | Пункты Саши разбирать по одному при монтаже. Уточнения: 53:16 («показ спуска на землю») — посадка лесной пары, уже есть (51:52–52:40 [Р2]); 37:30 — прилёт пары на Набу, уже есть (39:25–40:30); 30:01 и 49:26 — сверить с вставленными 17 и 23. |
 
@@ -2797,11 +2797,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image3 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a> (только корабль);
 - @Image4 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег перед прыжком, ч. 2 14:27</a>, только геометрия и вечерний свет.
 - @Image5 — <a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png">стоянка с ящиками рыбы, ч. 2 14:16</a>, только реквизит; людей и ночной свет не переносить.
+- @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (короткий план со стикером «хлеб и молоко», решение владельца 17.10);
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image2 — озеро Набу"></a><figcaption>@Image2 — озеро Набу</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure><figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 
 **Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
 
@@ -2813,9 +2815,10 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof in this source frame are not part of the shot. Do not design a new ship.
 @Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene, not a claim about this reference.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered caught fish and stone-ring fire spot. Props only; remove the sleeping people and do not copy its night lighting or lit fire. The camp is now deserted.
+@Image6 — genuine cockpit of the same craft: seats, console, forward windows and hard interior geometry ONLY, for one short interior beat.
 @Image2 — Naboo landscape look: calm blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
 @Image1 — absolute identity of SEREGA.
-Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume.
+Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume; @Image6 controls the cockpit interior.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats.
@@ -2831,7 +2834,7 @@ Evening over the Naboo lake as in @Image4: the calm water still rippling where t
 
 TIMELINE:
 [0:00–0:06] — DESCENT OVER THE LAKE
-Wide exterior. The craft descends in a smooth curve over the calm lake toward the near shore; the pale palace domes stand on the far bank; the craft's reflection slides across the water; the engine whine grows.
+Wide exterior. The craft descends in a smooth curve over the calm lake toward the near shore; the pale palace domes stand on the far bank; the craft's reflection slides across the water; the engine whine grows. Around 0:03 one brief two-second interior cut inside the cockpit (@Image6): Serega at the controls, and a small paper note on the console shows a simple loaf-and-milk-bottle doodle, no words or numbers; then back to the exterior descent.
 
 [0:06–0:12] — TOUCHDOWN ON THE MEADOW
 The craft flares and settles on its landing gear on the green meadow a short walk from the camp. Grass flattens in a ring, the shallow water near the bank ripples under the engine wash, the engines spool down to silence.
@@ -4590,7 +4593,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 **Контекст использования:** После поломки шаттла 43–44, до татуинской ветки 16/42/48. Короткая временная склейка: сломанный шаттл уже остался вне кадра, Серёга пользуется собственным плоским кораблём из начала фильма. Показываем настоящий перелёт и посадку, а не только объяснение пересадки. Старт не выдаётся за точный последний кадр 44; новой механической поломки здесь нет. В монтаж достаточно 10–15 секунд из 30-секундного результата.
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин, песок и руины</a>.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин, песок и руины</a>; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -4598,6 +4601,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image3 — ангар разрушителя H28A" loading="lazy"></a><figcaption>@Image3 — ангар разрушителя H28A</figcaption></figure>
 <figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" alt="@Image4 — разрушитель, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image4 — разрушитель, настоящий кадр фильма</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image5 — Татуин, песок и руины" loading="lazy"></a><figcaption>@Image5 — Татуин, песок и руины</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 </div>
 
 **Что происходит:** Серёга решительно садится в личный корабль. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним.
@@ -4614,6 +4618,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 supplies only the destroyer's hangar architecture and ceremonial white/amber light. Ignore its parked formal shuttle; that broken shuttle is elsewhere outside this shot. Do not turn on disco lights or reproduce its distant empty-room framing.
 @Image4 is the genuine film exterior of the enormous grey wedge-shaped destroyer, defining its silhouette, scale, superstructure and hangar opening. It is the departure vessel, not Serega's small craft.
 @Image5 defines Tatooine: warm dry sand, dunes and the established weathered ancient stone ruin geometry. No people or worm are imported.
+@Image6 is the genuine cockpit of the same craft: seats, console, forward windows and interior geometry only, for one short interior beat.
 Priority: individual identity > corresponding vehicle design > location; image compositions do not override the timeline.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4627,7 +4632,8 @@ After a short time jump from the failed-shuttle episode, Serega stands beside th
 
 TIMELINE:
 0–6s: medium three-quarter view, Serega large and recognisable beside his personal craft. He walks up its short access ramp, enters; the hatch closes behind him. No dialogue or new crew.
-6–12s: exterior tracking from the destroyer's hangar mouth; the SAME craft lifts and exits into open black space, revealing the immense destroyer hull from @Image4. Stable left-to-right flight, exact ship geometry.
+6–8s: brief interior: Serega settles into the pilot seat of the cockpit (@Image6); a small paper note on the console shows a simple loaf-and-milk-bottle doodle, no words or numbers.
+8–12s: exterior tracking from the destroyer's hangar mouth; the SAME craft lifts and exits into open black space, revealing the immense destroyer hull from @Image4. Stable left-to-right flight, exact ship geometry.
 12–21s: one explicit time-compression cut to the SAME craft descending above the warm dunes of Tatooine. The established stone ruins from @Image5 are visible in the distance. This is arrival at the destination, not instantaneous travel through the hangar wall.
 21–26s: the craft lands gently on a clear sandy flat a short walk from the ruins; a low dust skirt settles, engines subside, landing supports take the weight. One landing only.
 26–30s: closer view of the opened hatch: Serega steps onto the sand and turns toward the existing ruins. His face and purple robe are recognisable. Hold a clean walking cut point.
@@ -4808,35 +4814,31 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":54}],"tags":["serega","yulya","final_gag","callback","W13"]} -->
 
-**Контекст использования:** Финальная шутка линии W13 (решение владельца 17.10.2026). Идёт после существующего игрового финала: Серёга уже играет в Warcraft за древним ПК в своей комнате на крейсере (комната — настоящие кадры старого финала, как в 54). В начале фильма Юля просила по пути купить хлеба и молока ([FA] ч. 1, 01:40–02:30); стикер с хлебом и молоком был в кабине в 37/40/41, а корзинка с грибами из лесного эпизода стоит у кресла пилота в 40/41. Здесь Юля заходит в комнату и спрашивает «Серёжа, а молоко?»; Серёга замирает, короткая вставка показывает кабину припаркованного личного корабля со стикером и корзинкой грибов вместо покупок, затем снова его виноватое лицо. Игровой экран не генерируется: CRT повёрнут от камеры или виден под углом, только цветной отсвет. Корзинка описана текстом, как в 41; отдельного кадра корзинки в репозитории нет. Wan 3.0 на 30 с выбран владельцем 17.10: Wan лучше справляется с русской речью. В монтаже можно сократить до 15–20 с; последняя сцена перед титрами 49–51.
+**Контекст использования:** Финальная шутка линии W13 (решения владельца 17.10.2026). Идёт после существующего игрового финала: Серёга уже играет в Warcraft за древним ПК в своей комнате на крейсере (комната — настоящие кадры старого финала, как в 54). Пасхалка «понял тот, кто понял»: в первые минуты фильма Юля просит купить хлеба и молока ([FA] ч. 1, 01:40–02:30), стикер-напоминание с хлебом и молоком висит в кабине во всех его перелётах (37, 39, 40, 41, 52, 53), а он всё равно забыл. Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?»; Серёга замирает, виноватая пауза. Без вставки с кабиной: зритель вспоминает сам. Игровой экран не генерируется: CRT повёрнут от камеры или виден под углом, только цветной отсвет. Wan 3.0 на 30 с выбран владельцем 17.10: Wan лучше справляется с русской речью. В монтаже можно сократить до 15–20 с; последняя сцена перед титрами 49–51.
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/yulya.jpg">Юля</a>; @Image3 — <a href="references/scenes/scene-54/S54-room-opening-actual.png">комната, вид от входа, настоящий кадр финала</a>; @Image4 — <a href="references/scenes/scene-54/S54-room-side-actual.png">стол, кресло и окно, настоящий кадр финала</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a>; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png">стикер «хлеб и молоко» на пульте</a>.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/yulya.jpg">Юля</a>; @Image3 — <a href="references/scenes/scene-54/S54-room-opening-actual.png">комната, вид от входа, настоящий кадр финала</a>; @Image4 — <a href="references/scenes/scene-54/S54-room-side-actual.png">стол, кресло и окно, настоящий кадр финала</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image2 — Юля" loading="lazy"></a><figcaption>@Image2 — Юля</figcaption></figure>
 <figure><a href="references/scenes/scene-54/S54-room-opening-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-opening-actual.png" alt="@Image3 — комната, вид от входа, настоящий кадр финала" loading="lazy"></a><figcaption>@Image3 — комната, вид от входа, настоящий кадр финала</figcaption></figure>
 <figure><a href="references/scenes/scene-54/S54-room-side-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-side-actual.png" alt="@Image4 — стол, кресло и окно, настоящий кадр финала" loading="lazy"></a><figcaption>@Image4 — стол, кресло и окно, настоящий кадр финала</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина личного корабля, настоящий кадр ч. 1" loading="lazy"></a><figcaption>@Image5 — кабина личного корабля, настоящий кадр ч. 1</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" alt="@Image6 — стикер «хлеб и молоко» на пульте" loading="lazy"></a><figcaption>@Image6 — стикер «хлеб и молоко» на пульте</figcaption></figure>
 </div>
 
-**Что происходит:** Серёга сидит за древним ПК и увлечённо играет, лицо в отсвете экрана. За его спиной в комнату входит Юля, подходит к креслу и спокойно спрашивает: «Серёжа, а молоко?». Серёга замирает с рукой на мышке и медленно поворачивается к ней. Вставка: кабина его корабля в ангаре — на пульте стикер с хлебом и молоком, у кресла корзинка, полная лесных грибов. Снова Серёга: виноватая пауза, взгляд на Юлю, потом украдкой на экран.
+**Что происходит:** Серёга сидит за древним ПК и увлечённо играет, лицо в отсвете экрана. За его спиной в комнату входит Юля, подходит к креслу и спокойно спрашивает: «Дорогой, а ты купил хлеб и молоко?». Серёга замирает с рукой на мышке, медленно поворачивается к ней, виновато молчит и украдкой косится на экран.
 
-**Готовность:** READY по входам (все 6 изображений в репозитории). В очередь запуска не поставлена: бесплатный запуск — отдельной командой владельца. Готовый текст не означает полученный или одобренный ролик.
+**Готовность:** READY по входам (все 4 изображения в репозитории). В очереди сразу после картинки вуки-фанатов (решение владельца 17.10), бесплатный запуск. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One dry domestic punchline: the forgotten milk
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One dry domestic punchline: the forgotten bread and milk
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 controls Serega's exact face, build, age and long dark-purple robe.
 @Image2 controls Yulya's exact face, long chestnut hair, dark black-grey armour with pauldrons and gloves, and long black cloak.
 @Image3 is a genuine frame of the existing computer room seen from its entrance: dark angular ribbed walls, white wall strips, blue side panels, metal floor grilles, the heavy desk and chair in front of a large circular space viewport. Room geometry and entrance axis only.
 @Image4 is a genuine frame of the same room closer to the desk: heavy metal desk, tall angular chair facing the viewport, drifting rocks in space outside. It fixes the desk/chair position and the seated direction, not a pose.
-@Image5 is a genuine frame of Serega's personal ship cockpit: console, seats, control yokes and window frame. Cockpit geometry for the insert only.
-@Image6 shows the small yellow sticky note with a simple drawing of a loaf of bread and a milk carton, stuck on the cockpit console. Use only the note and its place; no Serega in the insert, no lake outside.
-Priority: @Image1 and @Image2 identity; @Image3 and @Image4 room; @Image5 cockpit; @Image6 sticker.
+Priority: @Image1 and @Image2 identity; @Image3 and @Image4 room.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (@Image1): pale older man, sparse light hair and bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega.
@@ -4844,49 +4846,45 @@ YULYA (@Image2): exact face and age, long chestnut hair, dark black-grey armour 
 Preserve both identities and costumes in every angle; no beautification, no wardrobe change, no other people, droids or cats.
 
 PROP / CONTINUITY LOCK:
-Exactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos.
-INSERT: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat; the bread-and-milk sticky note from @Image6 stays on the console. No bread, no milk, no shopping bags anywhere. The ship is parked and dark; the window shows only dim hangar lights.
+Exactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos. No bread, no milk, no shopping bags, no basket anywhere in the room.
 
 START STATE:
-Inside the existing computer room. Serega sits in the heavy chair at the desk facing the circular viewport, hunched forward, one hand on the mouse, the other on the keyboard, fully absorbed in the game. Camera behind and slightly to the side of him at the room's entrance axis, as in @Image3.
+Inside the existing computer room. Serega sits in the heavy chair at the desk facing the circular viewport, hunched forward, one hand on the mouse, the other on the keyboard, fully absorbed in the game. Camera behind and slightly to the side of him on the room's entrance axis, as in @Image3.
 
 TIMELINE:
-[0:00–0:06] — ABSORBED: medium shot from behind and to the side of the chair along the room axis; rapid mouse clicks and keyboard taps, soft game glow flickering on Serega's three-quarter face. He leans in, lips pressed, fully concentrated. Slow push-in.
+[0:00–0:07] — ABSORBED: medium shot from behind and to the side of the chair along the room axis; rapid mouse clicks and keyboard taps, soft game glow flickering on Serega's three-quarter face. He leans in, lips pressed, fully concentrated. Slow push-in.
 
-[0:06–0:11] — YULYA ENTERS: a soft door hiss from the entrance end. Yulya walks in along the room axis, cloak moving, takes in the scene, and stops just behind and beside the chair, arms folded. Serega does not notice; he keeps clicking.
+[0:07–0:13] — YULYA ENTERS: a soft door hiss from the entrance end. Yulya walks in along the room axis, cloak moving, takes in the scene, and stops just behind and beside the chair, arms folded. Serega does not notice; he keeps clicking.
 
-[0:11–0:15] — THE QUESTION: medium two-shot, both faces readable. Yulya, calm and matter-of-fact, says the line. Serega's clicking stops mid-motion.
+[0:13–0:18] — THE QUESTION: medium two-shot, both faces readable. Yulya, calm and matter-of-fact, asks her question. Serega's clicking stops mid-motion.
 
-[0:15–0:19] — FREEZE: close-up on Serega, hand frozen on the mouse. A beat of silence; he slowly turns his head toward her, eyes widening with guilty realisation.
+[0:18–0:23] — FREEZE: close-up on Serega, hand frozen on the mouse. A beat of silence; he slowly turns his head toward her, eyes widening with guilty realisation.
 
-[0:19–0:24] — INSERT, PARKED SHIP: hard cut to the dark cockpit of his personal ship (@Image5), parked in the hangar: slow push-in from the console sticky note with bread and milk (@Image6) down to the wicker basket of mushrooms on the floor beside the pilot seat. Near silence.
-
-[0:24–0:30] — GUILTY PAUSE: hard cut back to the room two-shot. Serega looks up at Yulya with a tiny apologetic half-smile and says nothing; then his eyes slide sideways back toward the glowing screen. Yulya keeps waiting, one eyebrow raised. Hold to the end.
+[0:23–0:30] — GUILTY PAUSE: two-shot. Serega looks up at Yulya with a tiny apologetic half-smile and says nothing; then his eyes slide sideways back toward the glowing screen. Yulya keeps waiting, one eyebrow raised. Hold to the end.
 
 END STATE:
 Serega seated, half turned to Yulya, guilty half-smile, eyes drifting to the screen; Yulya standing beside the chair, arms folded, waiting. Same room, same lighting.
 
 CAMERA / SPACE:
-One room plus one short cockpit insert. Room shots keep the desk-to-viewport axis, wall ribs and floor grilles from @Image3 and @Image4; Yulya enters from the entrance end. Medium and close shots; faces always readable, never tiny. Hard cuts only; no new corridor, apartment or second computer.
+One room only. Shots keep the desk-to-viewport axis, wall ribs and floor grilles from @Image3 and @Image4; Yulya enters from the entrance end. Medium and close shots; faces always readable, never tiny. Cuts are motivated and invisible; no new corridor, apartment or second computer.
 
 PERFORMANCE:
-Deadpan domestic comedy. Yulya: calm, unimpressed, not angry. Serega: total absorption, then a frozen guilty schoolboy reaction, no shouting, no exaggerated cartoon faces.
+Deadpan domestic comedy. Yulya: calm, warm, unimpressed, not angry. Serega: total absorption, then a frozen guilty schoolboy reaction, no shouting, no exaggerated cartoon faces.
 
 LIGHTING / MATERIALS:
-Cool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Cockpit insert dim, lit only by small console indicators and faint hangar light. Worn beige plastic, matte armour, heavy purple cloth, woven wicker.
+Cool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Worn beige plastic, matte armour, heavy purple cloth.
 
 AUDIO:
-Fast mouse clicks and keyboard taps with faint muffled fantasy battle sounds from the computer, soft door hiss, Yulya's footsteps, the clicking stopping dead, ship ventilation hum, near silence in the cockpit insert, one small guilty swallow. No music.
+Fast mouse clicks and keyboard taps with faint muffled fantasy battle sounds from the computer, soft door hiss, Yulya's footsteps, the clicking stopping dead, ship ventilation hum, one small guilty swallow. No music.
 
 DIALOGUE / VOCALS:
-Yulya, in Russian, calm and clear at 0:12: «Серёжа, а молоко?»
+Yulya, in Russian, calm and clear at 0:14: «Дорогой, а ты купил хлеб и молоко?»
 Serega says nothing.
 No other speech, no subtitles.
 
 NEGATIVE PROMPT:
-readable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, mushrooms spilled, extra people, droids, cats, changed robe, changed armour, face drift, lake or daylight in the cockpit, new room, subtitles, watermark.
+readable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, basket, cockpit, extra people, droids, cats, changed robe, changed armour, face drift, new room, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
-
