@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:34:25.906Z",
+  "updated_at": "2026-10-17T19:36:44.265Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2766,7 +2766,7 @@
       "canonical_prompt_sha256": "bfc55bdbbff305b6c88f8599e077eb1f989f439521ccd603b31f32a56f99b0ae",
       "normalized_prompt_sha256": "f0e648b6616aa079a00288de8941b265331dc0c58f2a833e3f855dc01de45078",
       "priority": 5,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2815,7 +2815,41 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-s55-1792265804265",
+        "claimed_at": "2026-10-17T19:36:44.265Z",
+        "holder": "chatgpt",
+        "account_scan": {
+          "checked_at": "2026-10-17T19:34:12.587Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 905,
+          "complete": true,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "active_unlimited_task_ids": [
+            "0d1f17c226834bfbb851d76ed32f9877",
+            "56c0ea656f484b0cb8464233fe097e0d",
+            "5333994f739f4a8b813a6a36dcb7e140",
+            "979f07acffe04750961515f4baf21a3f",
+            "2bccc8a3521b411cb7bd51f9c8ba1119"
+          ]
+        },
+        "ui_verified": {
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 5079,
+          "prompt_exact": true,
+          "input_sha_verified": true,
+          "input_count": 4
+        },
+        "dedup": "Full905-task account scan: no same story55 prompt or existing task; owner_decisions43–55 open none"
+      },
       "authorization": "Direct owner 17Oct2026 21:12 MSK: new Scene 55, queue it early, right after the Wookiee fans image (S50-FANS-IMAGE).",
       "max_credits": 0
     },
