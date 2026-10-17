@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T02:36:21.036342+00:00",
-  "state": "waiting_for_slot",
+  "updated_at": "2026-10-17T02:52:57.907Z",
+  "state": "blocked_browser",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -2040,36 +2040,35 @@
   "automation_verification": {
     "id": "6acae6ab433481919e88665c520b8ef2",
     "is_enabled": true,
-    "verified_at": "2026-10-16T22:26:26.018487+00:00",
+    "verified_at": "2026-10-17T02:52:57.907Z",
     "last_run_time": "2026-10-16T06:53:45.468088+00:00",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
     "next_run_time_reported": null,
-    "status": "Enabled; independently verified through Automations on 2026-10-16T22:20Z; current run scanned all 11 boards, 6/6 occupied."
+    "status": "Blocker persisted; disable requested immediately after canonical checkpoint writes."
   },
   "blocked_browser": {
-    "detected_at": "2026-10-16T07:54:07.176652Z",
-    "run_id": "chatgpt-scheduled-20261016T075021Z",
+    "detected_at": "2026-10-17T02:52:57.907Z",
+    "run_id": "chatgpt-scheduled-20261017T025257907Z",
     "scope": "global_web_submit",
-    "reason": "Authorized cloud browser reached Topview but was denied by Cloudflare Error 1010 (browser signature). No submit was attempted and no paid API fallback was used.",
+    "reason": "Connected local browser was unavailable in the scheduled environment; the authorized cloud browser reached the Topview board but had no owner login/session (Login screen). This non-interactive run cannot authenticate. No CAS claim, upload, submit, or paid MCP/Canvas fallback was attempted.",
     "slot_snapshot": {
-      "checked_at": "2026-10-16T07:50:32Z",
+      "checked_at": "2026-10-17T02:52:57.907Z",
       "active_unlimited": 5,
       "capacity": 6,
       "free_slots": 1,
       "newly_terminal": [
         {
-          "task_id": "721cfbef2af0479da57f0a52479d2f54",
-          "status": "success"
+          "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+          "status": "success",
+          "completed_at": "2026-10-17T02:36:06Z"
         }
       ]
     },
-    "next_ready_item": "B7",
+    "next_ready_item": "B8",
     "continuation": "working_chat_with_same_owner_authorization",
     "notification_state": "owner_notified",
-    "notified_at": "2026-10-16T07:55:30Z",
-    "notification_event": "blocked_browser_global_20261016T0754Z",
-    "resolved_at": "2026-10-16T17:27:21.704Z",
-    "resolution": "Authorized web GUI worked; B7 submitted and verified zero-credit."
+    "notified_at": "2026-10-17T02:52:57.907Z",
+    "notification_event": "blocked_browser_global_20261017T025257907Z"
   },
   "new_scene_order": [
     40,
