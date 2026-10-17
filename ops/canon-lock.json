@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Owner22:43: S41 next; publish three scene50 Wookiee candidates",
   "acquired_at": "2026-10-17T19:46:36.209Z",
-  "expires_at": "2026-10-17T20:31:36.209Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-17T19:51:25.814Z",
   "rules": "ops/CANON-LOCK.md"
 }
