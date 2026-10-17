@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-17T06:20:17Z",
+  "checked_at": "2026-10-17T06:30:17Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 179 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 11,
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -24,9 +22,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 631
     },
-    "pages_scanned": 14,
-    "tasks_seen": 578,
-    "api_requests": 22,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -47,10 +45,10 @@
   },
   "slots": {
     "capacity": 6,
-    "occupied": 6,
-    "free": 0,
+    "occupied": 5,
+    "free": 1,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -63,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1719,
-      "wait_seconds": 51840,
+      "queue_count": 1715,
+      "wait_seconds": 51248,
       "process_seconds": null
     },
     {
@@ -76,22 +74,9 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2485,
-      "wait_seconds": 86400,
+      "queue_count": 2483,
+      "wait_seconds": 85808,
       "process_seconds": null
-    },
-    {
-      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "running",
-      "unlimited": true,
-      "created_at": "2026-10-15 12:47:47",
-      "model": "Wan 3.0",
-      "scene_id": 28,
-      "mapping": "task_map",
-      "queue_count": null,
-      "wait_seconds": null,
-      "process_seconds": 5400
     },
     {
       "task_id": "979f07acffe04750961515f4baf21a3f",
@@ -102,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2119,
-      "wait_seconds": 69120,
+      "queue_count": 2116,
+      "wait_seconds": 68527,
       "process_seconds": null
     },
     {
@@ -115,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 748,
-      "wait_seconds": 17280,
+      "queue_count": 732,
+      "wait_seconds": 16687,
       "process_seconds": null
     },
     {
@@ -128,15 +113,30 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1302,
-      "wait_seconds": 34560,
+      "queue_count": 1291,
+      "wait_seconds": 33967,
       "process_seconds": null
     }
   ],
   "unknown_new": [],
-  "finished_known": [],
+  "finished_known": [
+    {
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "scene_id": 28,
+      "final_status": "success",
+      "completed_at": "2026-10-17 06:20:26",
+      "error_code": null
+    }
+  ],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "scene_id": 28,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-10-17 06:20:26"
+    },
     {
       "task_id": "07f5e7a57b484035a1cee4d5479b1474",
       "scene_id": 46,
@@ -189,11 +189,22 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-17T06:10:16Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
-    "robot_occupied": 6,
-    "consistent": true,
+    "robot_occupied": 5,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "only_in_monitor",
+        "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+        "scene_id": 28
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 6,
+        "robot": 5
+      }
+    ]
   }
 }
