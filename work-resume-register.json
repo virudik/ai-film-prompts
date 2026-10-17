@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T13:55:48.052693+00:00",
+  "last_updated_at": "2026-10-17T18:42:56.158Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -304,7 +304,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-17T12:46:24.937505+00:00",
+      "verified_at": "2026-10-17T18:42:56.158Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -315,13 +315,13 @@
         "То же задание расширено и включено; фактический запуск проверки 16.10 07:58 МСК, 6/6 слотов заняты; новых submit не было",
         "Notion-указатель обновлён на очередь вместо старого одного B6",
         "16.10 10:50 МСК полный скан 11 досок: B1 завершён, активных unlimited 5/6 и свободен 1 слот; B7 не отправлен — разрешённый cloud browser получил Topview Cloudflare Error 1010, платный/API обход не использован",
-        "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit."
+        "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit.",
+        "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved."
       ],
       "next_actions": [
-        "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
-        "Story52→53→54 and36/37/39/40/41/42/47/48 according to canonical queue;44 requires actual new43 video,48 actual42 ending; proceed with independent items.",
-        "ONLY one A1 Seedance2.0/15s energetic close dance test after ready story; B10 and additional dances await review; musical numbers last.",
-        "Retain successful RosKOTmos hull and FOUR engines45/46; no asteroid field. Save each result/receipt/checkpoint; no automatic approval or retries."
+        "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
+        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
+        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -344,16 +344,33 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "Last verified scan13:38:46UTC had6/6 occupied; rescan before submit.",
-        "44 awaits actual corrected43 video;48 awaits42; next fan image not generated."
+        "6/6 slots occupied at18:42:09UTC; rescan before submit.",
+        "44 awaits actual corrected43 video;48 awaits42; fan image result pending."
       ],
-      "next_action": "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
+      "next_action": "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
       "handoff_status": "continuing_owner_confirmed_plan_20261017_1648",
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
-      "checkpoint_path": "reports/current-work-checkpoint.md"
+      "checkpoint_path": "reports/current-work-checkpoint.md",
+      "last_observed_topview": {
+        "checked_at": "2026-10-17T18:42:09.059Z",
+        "boards": 11,
+        "pages": 17,
+        "total_tasks": 903,
+        "complete": true,
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "active_unlimited_task_ids": [
+          "48657a07dac542b0a3340e44c15b933f",
+          "0d1f17c226834bfbb851d76ed32f9877",
+          "56c0ea656f484b0cb8464233fe097e0d",
+          "5333994f739f4a8b813a6a36dcb7e140",
+          "979f07acffe04750961515f4baf21a3f",
+          "2bccc8a3521b411cb7bd51f9c8ba1119"
+        ]
+      }
     },
     {
       "work_id": "FILM-20261016-S25-FORWARD-BATTLE",
@@ -439,7 +456,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T12:46:24.937505+00:00",
+      "verified_at": "2026-10-17T18:42:56.158Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -476,13 +493,13 @@
         "17.10 приём D7: 15/15, SHA 8 источников совпали; shared chat сверён с main. Полный скан 11 досок/17 страниц/898 задач: 4 активных Unlimited (B5–B8), 2 свободных. Проверены SHA всех входов B3/B9/B10 и полных промтов; точных нормализованных дублей нет. Локальный Chrome Topview авторизован. Выбраны Wan3/30s/720p/16:9/qty1/Безлимитный режим — бесплатно. Видимый Импорт успешно открыл filechooser (multiple=true), но setFiles заблокирован отсутствующим разрешением расширения Allow access to file URLs. Это конкретный блокер рабочего Chrome, не отсутствие входа. Ни один референс не загрузился; промт не вставлен; claim/Create/submit отсутствуют. Кредиты не потрачены. После включения разрешения владельцем: свежий main/слоты/решения, импорт B3, полный UI match, CAS-claim, один submit; затем B9/B10. Автоматика остаётся выключенной до восстановления импорта.",
         "17.10 через встроенный браузер B3 отправлен один раз 12:00:12 UTC: task 56c0ea656f484b0cb8464233fe097e0d. Wan 3.0,30s,720p,16:9,qty1,Unlimited=true,creditsCost=0. Все четыре полных входа загружены в порядке manifest; SHA и полный нормализованный промпт совпали. CAS claim b04fe2b подтверждён перед единственным Create. Блокер импорта рабочего чата снят. До отправки полный скан11досок/17страниц/898задач:4active, дублей B3/B9/B10 нет. Далее B9 в оставшийся свободный слот; B10 после освобождения.",
         "17.10 встроенный браузер: B3 56c0ea656f484b0cb8464233fe097e0d (12:00:12UTC) и B9 0d1f17c226834bfbb851d76ed32f9877 (12:03:25UTC) отправлены по одному разу. Оба Wan3.0/30s/720p/16:9/qty1/Unlimited=true/creditsCost=0. Полные нормализованные промпты совпали с master; SHA и порядок четырёх входов проверены; B9 Image4 заменён на S28-shoulder.png. CAS claims закрыты submitted, receipts сохранены; не повторять. Итоговый полный скан12:04:18UTC:11досок/17страниц/900задач,6init (B3,B5–B9), свободных слотов0. Следующий B10, затем40→41→39→47→42→48whenready→49A–F→50A/B→51A/B. Прежняя почасовая автоматика6acae6ab433481919e88665c520b8ef2 возобновлена, расписание сохранено, новый watcher не создан. Доступ scheduled среды проверять отдельно; текущий успешный вход не гарантирует следующий.",
-        "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit."
+        "17Oct owner story-first command applied: new corrected zero-credit43–46 attempts queued separately; review of old/new dances and actual43–46 results saved; fullscan12:41UTC six active, no new submit.",
+        "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved."
       ],
       "next_actions": [
-        "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
-        "Story52→53→54 and36/37/39/40/41/42/47/48 according to canonical queue;44 requires actual new43 video,48 actual42 ending; proceed with independent items.",
-        "ONLY one A1 Seedance2.0/15s energetic close dance test after ready story; B10 and additional dances await review; musical numbers last.",
-        "Retain successful RosKOTmos hull and FOUR engines45/46; no asteroid field. Save each result/receipt/checkpoint; no automatic approval or retries."
+        "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
+        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
+        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -499,10 +516,10 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
+      "next_action": "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
       "blockers": [
-        "Last verified scan13:38:46UTC had6/6 occupied; rescan before submit.",
-        "44 awaits actual corrected43 video;48 awaits42; next fan image not generated."
+        "6/6 slots occupied at18:42:09UTC; rescan before submit.",
+        "44 awaits actual corrected43 video;48 awaits42; fan image result pending."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
       "handoff_status": "continuing_owner_confirmed_plan_20261017_1648",
@@ -513,13 +530,30 @@
         "checked_at": "2026-10-17T12:05:09.756Z",
         "scheduled_session_access": "unverified; check every run"
       },
-      "current_plan_work_id": "FILM-20261017-OWNER-FIXES"
+      "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
+      "last_observed_topview": {
+        "checked_at": "2026-10-17T18:42:09.059Z",
+        "boards": 11,
+        "pages": 17,
+        "total_tasks": 903,
+        "complete": true,
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "active_unlimited_task_ids": [
+          "48657a07dac542b0a3340e44c15b933f",
+          "0d1f17c226834bfbb851d76ed32f9877",
+          "56c0ea656f484b0cb8464233fe097e0d",
+          "5333994f739f4a8b813a6a36dcb7e140",
+          "979f07acffe04750961515f4baf21a3f",
+          "2bccc8a3521b411cb7bd51f9c8ba1119"
+        ]
+      }
     },
     {
       "work_id": "FILM-20261017-OWNER-FIXES",
       "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
       "status": "in_progress",
-      "verified_at": "2026-10-17T13:50:17.515787+00:00",
+      "verified_at": "2026-10-17T18:42:56.158Z",
       "done": [
         "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
         "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
@@ -528,13 +562,13 @@
         "Actual room/desk frames saved for54; existing Warcraft game footage reused in edit",
         "Primary-source Wan3.0/Seedance research saved; model equality and sole-cause claims rejected",
         "Owner confirmed continuation; canonical master/refs/queue published and read back, CI148 tests and Pages passed; research report published through f105f84. Checkpoint refreshed without new generation.",
-        "17Oct16:54MSK owner requested inheritable autonomous continuation; explicit procedure added to handoff, project guide and continue protocol; same automation enabled verified, no duplicate task."
+        "17Oct16:54MSK owner requested inheritable autonomous continuation; explicit procedure added to handoff, project guide and continue protocol; same automation enabled verified, no duplicate task.",
+        "17Oct21:41MSK: S50-FANS-IMAGE submitted exactly once via built-in browser, task48657a07dac542b0a3340e44c15b933f, NanoBananaPro/2K/16:9/qty1/Unlimited0, exact prompt and three reference SHA/order verified; receipt saved."
       ],
       "next_actions": [
-        "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
-        "Story52→53→54 and36/37/39/40/41/42/47/48 according to canonical queue;44 requires actual new43 video,48 actual42 ending; proceed with independent items.",
-        "ONLY one A1 Seedance2.0/15s energetic close dance test after ready story; B10 and additional dances await review; musical numbers last.",
-        "Retain successful RosKOTmos hull and FOUR engines45/46; no asteroid field. Save each result/receipt/checkpoint; no automatic approval or retries."
+        "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
+        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
+        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -547,12 +581,23 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Fresh main/owner decisions/full account scan; FIRST free slot S50-FANS-IMAGE through free website, then corrected45→46→43→44 as inputs allow.",
+      "next_action": "Fresh main/owner decisions/full account scan; next free slot S55(priority5), then45→46→43→44 and story. Never resubmit fans.",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T13:38:46.542Z",
+        "checked_at": "2026-10-17T18:42:09.059Z",
+        "boards": 11,
+        "pages": 17,
+        "total_tasks": 903,
+        "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
-        "note": "Historical verified observation, not a new scan during this save."
+        "active_unlimited_task_ids": [
+          "48657a07dac542b0a3340e44c15b933f",
+          "0d1f17c226834bfbb851d76ed32f9877",
+          "56c0ea656f484b0cb8464233fe097e0d",
+          "5333994f739f4a8b813a6a36dcb7e140",
+          "979f07acffe04750961515f4baf21a3f",
+          "2bccc8a3521b411cb7bd51f9c8ba1119"
+        ]
       },
       "autonomy_rule": "Continue authorized queue without repeated owner nudges; use existing hourly automation; independently verify scheduled browser access and report real blockers; no paid launches, unapproved retries or editorial approval."
     }

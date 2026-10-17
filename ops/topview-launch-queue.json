@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T18:41:00.343Z",
+  "updated_at": "2026-10-17T18:42:37.941Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Lowest priority among ready entries, with explicit submission dependencies. FIRST new task must be S50-FANS-IMAGE through free website Nano Banana Pro (image prompt file, not master video). Then45→46→43→44 as inputs permit, then story and ONE A1 15s test. Missing actual43/42 results block44/48 only; continue independent story. New dance batch/B10 waits test review. Never change submitted historical hashes or cancel active B3/B5–B9. Website Unlimited0 only, full-account scan, CAS claim, dedup and receipt remain mandatory.",
+  "selection_policy": "Lowest priority among ready entries with explicit dependencies. S50-FANS-IMAGE submitted17Oct18:41UTC; next S55(priority5, owner17Oct21:12MSK), then corrected45→46→43→44, then story52–54 and36/37/39–42/47–48 as inputs permit. One A1 15s test after story; further dance submissions await review. Missing actual43/42 results block44/48 only. Website Unlimited0 only, full-account scan, CAS claim and exact prompt/input validation. Do not retry submitted items.",
   "items": [
     {
       "id": "B7",
@@ -2428,7 +2428,7 @@
       "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "priority": 0,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -2454,7 +2454,7 @@
           "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
         }
       ],
-      "task_id": null,
+      "task_id": "48657a07dac542b0a3340e44c15b933f",
       "claim": {
         "run_id": "chatgpt-working-s50-1792262460343",
         "claimed_at": "2026-10-17T18:41:00.343Z",
@@ -2482,7 +2482,12 @@
       "previous_attempt_created_task": false,
       "authorization": "Explicit owner17Oct16:11MSK: FIRST next free slot Wookiee fans. Existing harmless prepared image request.",
       "on_success": "Download actual image, visual QC, save full file+thumbnail+provenance+SHA+manifest+master link; only then READY50A/B and add their finite video items after story. Do not treat technical success as owner approval.",
-      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704"
+      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
+      "submitted_at": "2026-10-17T18:41:12Z",
+      "verified_at": "2026-10-17T18:42:37.941Z",
+      "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-20261017.json",
+      "credits_cost": 0,
+      "use_unlimit_mode": true
     },
     {
       "id": "S52",
@@ -2873,13 +2878,13 @@
     "id": "6acae6ab433481919e88665c520b8ef2",
     "is_enabled": true,
     "verified_at": "2026-10-17T07:00:09.282Z",
-    "last_run_time": "2026-10-17T01:58:20.895099+00:00",
+    "last_run_time": "2026-10-17T17:57:29.616483+00:00",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
     "next_run_time_reported": null,
     "status": "Paused after B2 success exposed a free slot but the scheduled environment lacked an authenticated owner Topview session needed to recover and QC the real B2 result/C28.",
-    "checked_at": "2026-10-17T12:46:24.937505+00:00",
+    "checked_at": "2026-10-17T18:42:37.941Z",
     "automation_id": "6acae6ab433481919e88665c520b8ef2",
-    "latest_observation": "Same automation enabled; latest owner story-first override verified; no new watcher. Scheduled browser session must be checked independently."
+    "latest_observation": "Existing hourly task enabled; latest main includes S55 after fans. This working chat launched fans successfully; scheduled browser access must be checked independently."
   },
   "blocked_browser": {
     "detected_at": "2026-10-17T06:59:55.713Z",
@@ -2938,22 +2943,21 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "checked_at": "2026-10-17T12:41:48.302Z",
+    "checked_at": "2026-10-17T18:42:09.059Z",
     "boards": 11,
     "pages": 17,
-    "total_tasks": 900,
+    "total_tasks": 903,
     "complete": true,
     "occupied_slots": 6,
     "free_slots": 0,
     "active_unlimited_task_ids": [
+      "48657a07dac542b0a3340e44c15b933f",
       "0d1f17c226834bfbb851d76ed32f9877",
       "56c0ea656f484b0cb8464233fe097e0d",
       "5333994f739f4a8b813a6a36dcb7e140",
       "979f07acffe04750961515f4baf21a3f",
-      "2bccc8a3521b411cb7bd51f9c8ba1119",
-      "f88eee8ea93242309b71621e354ccac2"
-    ],
-    "note": "Read-only working-chat snapshot, not robot heartbeat; fail is terminal and not an occupied slot."
+      "2bccc8a3521b411cb7bd51f9c8ba1119"
+    ]
   },
   "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA)."
 }
