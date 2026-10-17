@@ -1063,6 +1063,36 @@
    "thumb_bytes": 73754,
    "src_sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d"
   },
+  "references/scenes/scene-50/S50-fans-1c48a62d.png": {
+   "thumb": "references/thumbs/scenes/scene-50/S50-fans-1c48a62d.png.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 2752,
+   "src_height": 1536,
+   "src_bytes": 6490570,
+   "thumb_bytes": 43488,
+   "src_sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf"
+  },
+  "references/scenes/scene-50/S50-fans-48657a07.png": {
+   "thumb": "references/thumbs/scenes/scene-50/S50-fans-48657a07.png.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 2752,
+   "src_height": 1536,
+   "src_bytes": 6353870,
+   "thumb_bytes": 42690,
+   "src_sha256": "45954e5f24d538c6aacff1e4db1847e62b42280e6c7744f40054c6f76995e361"
+  },
+  "references/scenes/scene-50/S50-fans-792d7b8a.png": {
+   "thumb": "references/thumbs/scenes/scene-50/S50-fans-792d7b8a.png.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 2752,
+   "src_height": 1536,
+   "src_bytes": 5985564,
+   "thumb_bytes": 42018,
+   "src_sha256": "f38252cc78d99a3d690edc9252f7abfa867dd207a35620a1f0f0ea582746ca2b"
+  },
   "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png": {
    "thumb": "references/thumbs/scenes/scene-50/S50-wookiees-kashyyyk-12s.png.webp",
    "width": 640,
