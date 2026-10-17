@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "scene_id": 28,
+  "prompt_id": "B8",
+  "task_id": "5333994f739f4a8b813a6a36dcb7e140",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-17T03:06:04Z",
+  "verified_at": "2026-10-17T03:10:21.750Z",
+  "route": "Topview website GUI; one Create click",
+  "status": "init",
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
+  "normalized_prompt_sha256": "a7f56eb53f13c6e0dc2c2282a1dacd4d16132eff8260bf0b80f413e5d7ead84c",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "required": true,
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "actual_input": {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/L5wB3WQa4jJ5oGpR5xFXU.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      }
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "actual_input": {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/b9swrdJYB4h9YCtxVLtGS.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      }
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "actual_input": {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/whUzbAflGtBxMNHh8JfOT.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      }
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/L28-carry.webp",
+      "role": "pose_composition_helper",
+      "required": true,
+      "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120",
+      "actual_input": {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/C8YJMpwapK6orz7BuVeno.webp",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      }
+    }
+  ],
+  "claim": {
+    "run_id": "chatgpt-B8-20261017-1792206338241",
+    "claimed_at": "2026-10-17T03:05:38.241Z",
+    "actor": "ChatGPT Work",
+    "route": "free_web_gui",
+    "preflight": "Fresh11board full scan;5Unlimited active; no normalized B8 duplicate;4SHA verified; full UI text normalized match;Wan3/30s/720p/16:9/quantity1/Unlimited free"
+  },
+  "claim_commit": "0a33bb87a67ed5e3e86df390d9a3db35577a661c",
+  "ui_evidence": "reports/evidence/B8-unlimited-submitted-20261017.jpg",
+  "editorial_approval": false,
+  "slots_after_submit": {
+    "occupied": 6,
+    "capacity": 6,
+    "task_ids": [
+      "5333994f739f4a8b813a6a36dcb7e140",
+      "979f07acffe04750961515f4baf21a3f",
+      "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "f88eee8ea93242309b71621e354ccac2",
+      "d3844e4199d64abebe323be430a5cb35",
+      "762b3091b3e44b8599a0a58b91a253c5"
+    ]
+  }
+}

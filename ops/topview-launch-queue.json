@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T03:05:38.241Z",
-  "state": "blocked_browser",
+  "updated_at": "2026-10-17T03:10:21.750Z",
+  "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -83,7 +83,7 @@
       "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
       "normalized_prompt_sha256": "a7f56eb53f13c6e0dc2c2282a1dacd4d16132eff8260bf0b80f413e5d7ead84c",
       "priority": 11,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -123,14 +123,16 @@
           "sha256": "2016742079c44d40deaf3644eb1d054a38db1f6194fb38d63c2e5b8fd140c120"
         }
       ],
-      "task_id": null,
+      "task_id": "5333994f739f4a8b813a6a36dcb7e140",
       "claim": {
         "run_id": "chatgpt-B8-20261017-1792206338241",
         "claimed_at": "2026-10-17T03:05:38.241Z",
         "actor": "ChatGPT Work",
         "route": "free_web_gui",
         "preflight": "Fresh11board full scan;5Unlimited active; no normalized B8 duplicate;4SHA verified; full UI text normalized match;Wan3/30s/720p/16:9/quantity1/Unlimited free"
-      }
+      },
+      "submitted_at": "2026-10-17T03:06:04Z",
+      "receipt": "reports/topview-queue-2026-10-17/B8-receipt.json"
     },
     {
       "id": "B9",
@@ -1998,7 +2000,8 @@
     "S44": "d837b803f130431ea0e2e5ad4b786c09",
     "S43": "1b8f85b65ff24b13bcdbbeea3af3c096",
     "S45": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
-    "S46": "6ada672ccc5e48d2b1438c0aa18af945"
+    "S46": "6ada672ccc5e48d2b1438c0aa18af945",
+    "B8": "5333994f739f4a8b813a6a36dcb7e140"
   },
   "not_selected_alternatives": {
     "scene28": [
@@ -2055,7 +2058,7 @@
   "blocked_browser": {
     "detected_at": "2026-10-17T02:52:57.907Z",
     "run_id": "chatgpt-scheduled-20261017T025257907Z",
-    "scope": "global_web_submit",
+    "scope": "scheduled_environment_only",
     "reason": "Connected local browser was unavailable in the scheduled environment; the authorized cloud browser reached the Topview board but had no owner login/session (Login screen). This non-interactive run cannot authenticate. No CAS claim, upload, submit, or paid MCP/Canvas fallback was attempted.",
     "slot_snapshot": {
       "checked_at": "2026-10-17T02:52:57.907Z",
@@ -2074,7 +2077,9 @@
     "continuation": "working_chat_with_same_owner_authorization",
     "notification_state": "owner_notified",
     "notified_at": "2026-10-17T02:52:57.907Z",
-    "notification_event": "blocked_browser_global_20261017T025257907Z"
+    "notification_event": "blocked_browser_global_20261017T025257907Z",
+    "working_chat_resolved_at": "2026-10-17T03:10:21.750Z",
+    "working_chat_evidence": "reports/topview-queue-2026-10-17/B8-receipt.json"
   },
   "new_scene_order": [
     40,
