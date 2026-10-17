@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T18:16:28+00:00",
+ "generated_at": "2026-10-17T19:42:49+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "d5e18dbd478fc2331dc6cfddf5d26e34664751af4c1da6a91535d010e0fe77f5",
-   "bytes": 684903
+   "sha256": "a1902151433e9787dfe1cacdeb45bdca945363d7c6106493e178688658df3093",
+   "bytes": 526697
   }
  ],
  "invariants": [
@@ -191,32 +191,22 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 32,
-  "prompt_texts": 60,
+  "scenes": 22,
+  "prompt_texts": 48,
   "scene_ids": [
    13,
    16,
-   24,
-   25,
-   27,
    28,
-   30,
-   31,
-   32,
    33,
    34,
-   35,
    36,
    37,
-   38,
    39,
    40,
    41,
    42,
    43,
    44,
-   45,
-   46,
    47,
    48,
    49,
@@ -249,8 +239,18 @@
    21,
    22,
    23,
+   24,
+   25,
    26,
-   29
+   27,
+   29,
+   30,
+   31,
+   32,
+   35,
+   38,
+   45,
+   46
   ],
   "live_files": [
    "project-status.json",
@@ -272,7 +272,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 35357,
+   "offset": 30022,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -294,74 +294,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 48334,
-   "chars": 13502,
-   "sha256_12": "7afc53e5dc5f"
-  },
-  {
-   "id": 24,
-   "title": "Коты в кабине: запуск корабля и взлёт",
-   "target_engine": "Seedance 2.5",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4"
-   ],
-   "offset": 61836,
-   "chars": 10685,
-   "sha256_12": "44dc07cb1bf4"
-  },
-  {
-   "id": 25,
-   "title": "Коты в кабине: космическое сражение",
-   "target_engine": "Seedance 2.5",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    24
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5"
-   ],
-   "offset": 72521,
-   "chars": 13057,
-   "sha256_12": "ba90242da394"
-  },
-  {
-   "id": 27,
-   "title": "Серёга против котов-магистров: бой на световых мечах",
-   "target_engine": "Seedance 2.5",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 85578,
-   "chars": 36270,
-   "sha256_12": "5914eccd2b5e"
+   "offset": 42999,
+   "chars": 13497,
+   "sha256_12": "6123e91bb4de"
   },
   {
    "id": 28,
@@ -379,81 +314,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 121848,
+   "offset": 56496,
    "chars": 143310,
-   "sha256_12": "e63a68de8f6e"
-  },
-  {
-   "id": 30,
-   "title": "Коты против Серёги: разрушение колоннады",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    27
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 265158,
-   "chars": 9193,
-   "sha256_12": "aa77c9bbbcd2"
-  },
-  {
-   "id": 31,
-   "title": "Коты против Серёги: лестница и телекинетические обломки",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    30
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 274351,
-   "chars": 9032,
-   "sha256_12": "4895ab1fd4b3"
-  },
-  {
-   "id": 32,
-   "title": "Коты против Серёги: обрушение древней арки",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    31
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4",
-    "@Image5",
-    "@Image6"
-   ],
-   "offset": 283383,
-   "chars": 9008,
-   "sha256_12": "71b4c8e41633"
+   "sha256_12": "3886de1136d6"
   },
   {
    "id": 33,
@@ -469,7 +332,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 292391,
+   "offset": 199806,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -489,30 +352,9 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 298267,
+   "offset": 205682,
    "chars": 6399,
-   "sha256_12": "de5a1b8b3c65"
-  },
-  {
-   "id": 35,
-   "title": "Древний ПК в руинах храма: находка Серёги",
-   "target_engine": "Wan 3",
-   "state": "DRAFT",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    34
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3"
-   ],
-   "offset": 304666,
-   "chars": 7932,
-   "sha256_12": "6aec72e0d953"
+   "sha256_12": "0f9ca41808d7"
   },
   {
    "id": 36,
@@ -532,7 +374,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 312598,
+   "offset": 212081,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -556,30 +398,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 323243,
+   "offset": 222726,
    "chars": 12860,
-   "sha256_12": "4301ff8aa4d1"
-  },
-  {
-   "id": 38,
-   "title": "Серёга рассматривает древний компьютер в заброшенном храме",
-   "target_engine": "Wan 3",
-   "state": "DRAFT",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    35
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3"
-   ],
-   "offset": 336103,
-   "chars": 10413,
-   "sha256_12": "df2fc65b6ed4"
+   "sha256_12": "96c58cf79d6f"
   },
   {
    "id": 39,
@@ -599,7 +420,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 346516,
+   "offset": 235586,
    "chars": 12369,
    "sha256_12": "67313a1ffff4"
   },
@@ -621,7 +442,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 358885,
+   "offset": 247955,
    "chars": 13150,
    "sha256_12": "ccb1024ec8e5"
   },
@@ -643,7 +464,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 372035,
+   "offset": 261105,
    "chars": 11212,
    "sha256_12": "be779d8a17e0"
   },
@@ -667,7 +488,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 383247,
+   "offset": 272317,
    "chars": 9667,
    "sha256_12": "3544c33b16f7"
   },
@@ -687,7 +508,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 392914,
+   "offset": 281984,
    "chars": 12523,
    "sha256_12": "fdf714a2565b"
   },
@@ -708,53 +529,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 405437,
+   "offset": 294507,
    "chars": 12179,
-   "sha256_12": "5d7b7be5cdfb"
-  },
-  {
-   "id": 45,
-   "title": "Корабль котов в стиле РосКОТмоса: космическое сражение снаружи",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    25
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4"
-   ],
-   "offset": 417616,
-   "chars": 12293,
-   "sha256_12": "1dda6ed3ede6"
-  },
-  {
-   "id": 46,
-   "title": "Спутники РосКОТмоса сбиты в сражении",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "IDLE",
-   "duration_s": 30,
-   "dialogue": null,
-   "depends_on": [
-    45
-   ],
-   "prompts": 1,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4"
-   ],
-   "offset": 429909,
-   "chars": 13750,
-   "sha256_12": "3a62a883d0e7"
+   "sha256_12": "3536b45f9db6"
   },
   {
    "id": 47,
@@ -764,9 +541,7 @@
    "render_state": "IDLE",
    "duration_s": 30,
    "dialogue": null,
-   "depends_on": [
-    32
-   ],
+   "depends_on": [],
    "prompts": 1,
    "refs": [
     "@Image1",
@@ -776,9 +551,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 443659,
-   "chars": 10099,
-   "sha256_12": "e869a45bf9dc"
+   "offset": 306686,
+   "chars": 10068,
+   "sha256_12": "7233d1c77947"
   },
   {
    "id": 48,
@@ -800,7 +575,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 453758,
+   "offset": 316754,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -826,7 +601,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 463883,
+   "offset": 326879,
    "chars": 58084,
    "sha256_12": "94a0936af45d"
   },
@@ -849,7 +624,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 521967,
+   "offset": 384963,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -876,7 +651,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 539241,
+   "offset": 402237,
    "chars": 18968,
    "sha256_12": "ade962fc722d"
   },
@@ -900,7 +675,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 558209,
+   "offset": 421205,
    "chars": 9009,
    "sha256_12": "c2970249b1a7"
   },
@@ -924,7 +699,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 567218,
+   "offset": 430214,
    "chars": 7903,
    "sha256_12": "96011d487faa"
   },
@@ -946,7 +721,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 575121,
+   "offset": 438117,
    "chars": 8861,
    "sha256_12": "17d6bc71c050"
   },
@@ -968,7 +743,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 583982,
+   "offset": 446978,
    "chars": 8322,
    "sha256_12": "7740717b87ed"
   }
