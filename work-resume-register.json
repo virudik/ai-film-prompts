@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T20:10:54.298Z",
+  "last_updated_at": "2026-10-17T22:59:53.290Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -304,7 +304,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:40:49.110Z",
+      "verified_at": "2026-10-17T22:59:53.290Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -321,12 +321,13 @@
         "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
-        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items."
+        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
       ],
       "next_actions": [
-        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
-        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
-        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
+        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
+        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
+        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -349,8 +350,8 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "Six active videos at19:38:17UTC; rescan before next submit.",
-        "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
+        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
+        "Actual continuity sources pending:43→44→52 and42→56→48."
       ],
       "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
       "remaining_reference_work": [
@@ -406,18 +407,18 @@
       "work_id": "FILM-20261016-ALIEN-ROCK-WOOKIEES",
       "title": "Сцены 49–50: рок-группа и вуки-фанаты",
       "status": "in_progress",
-      "verified_at": "2026-10-16",
+      "verified_at": "2026-10-17T22:59:53.290Z",
       "authorization": "Direct owner commands on 16.10.2026: create scene on canonical website FIRST with complete prompts, only then produce reference photos; add a separate Wookiee crowd slam/headbang scene.",
       "done": [
         "Prepared Scene 49 with 6 standalone 15-second Seedance 2.0 prompts, canonical H28B and individual identity references",
         "Prepared Scene 50 with 2 standalone 15-second Seedance 2.0 prompts for Wookiee headbanging and controlled mosh pit",
         "Added existing real reference gallery only, manifest with pending photo QC, no video render authorization",
-        "Fixed scene-part labelling in scripts/topview_prompt_match.py for 49A–49F and 50A–50B, plus explicit integration assertions after catching CI regression"
+        "Fixed scene-part labelling in scripts/topview_prompt_match.py for 49A–49F and 50A–50B, plus explicit integration assertions after catching CI regression",
+        "18Oct Claude owner decision: WookieeV2 selected and alreadylinked50A/B and51A/B; no more fan image creation. Use current manifests/master."
       ],
       "next_actions": [
-        "Verify newest GitHub Pages deployment for Scenes 49 and 50 and project-status health=ok",
-        "Generate new photos for each music subgroup ONLY using real H28B and approved identities; inspect before saving to GitHub and promote from DRAFT only after QC",
-        "Create and QC Wookiee audience reference in exact H28B, save-before-next; do not queue or launch until READY and owner instruction"
+        "Continue music50A/B after story/dance-test gates and49F by current queue; existing reference packs retained.",
+        "Do not recreate saved fan candidates or wait for owner selection:variant2chosen."
       ],
       "canonical_refs": [
         "video-prompts.md#scene-49",
@@ -461,7 +462,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:40:49.110Z",
+      "verified_at": "2026-10-17T22:59:53.290Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -504,12 +505,13 @@
         "17Oct22:07MSK: three zero-credit fan image tasks accounted: original success, V2 submitted once by working chat, concurrent third observed and assigned V3 to prevent duplicate.",
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
-        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items."
+        "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
       ],
       "next_actions": [
-        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
-        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
-        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
+        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
+        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
+        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -528,8 +530,8 @@
       ],
       "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
       "blockers": [
-        "Six active videos at19:38:17UTC; rescan before next submit.",
-        "44 awaits actual corrected43 video;48 awaits42 ending; fan reference selection pending."
+        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
+        "Actual continuity sources pending:43→44→52 and42→56→48."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
       "handoff_status": "continuing_owner_confirmed_plan_20261017_1648",
@@ -563,7 +565,7 @@
       "work_id": "FILM-20261017-OWNER-FIXES",
       "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
       "status": "in_progress",
-      "verified_at": "2026-10-17T19:40:49.110Z",
+      "verified_at": "2026-10-17T22:59:53.290Z",
       "done": [
         "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
         "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
@@ -582,12 +584,13 @@
         "Owner22:55:43 physical doorway/ramp exit and44 single detached wing/empty root added to master, queue hashes and manifests; published result QC still required.",
         "43/44 prompt corrections published and Pages masterSHA dda59f6f91bed9f9205dd2ff3d93c3fb63fb0cbfafec0f823d59de95ccd0dd78 matched project-status health=ok; output-video QC remains pending.",
         "Owner23:03:44comic escalation;52 actual44Video1 seamless start (blocked_inputs until source); recurring visible yellow bread/milk note in6travel prompts;55unchanged/submitted. See reports/bread-milk-callback-2026-10-17.md.",
-        "23:03 owner callback edits verified on Pages: master/statusSHA f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24, health=ok, run39065474905success, browser confirms52bridge+6note descriptions. Actual output QC pending."
+        "23:03 owner callback edits verified on Pages: master/statusSHA f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24, health=ok, run39065474905success, browser confirms52bridge+6note descriptions. Actual output QC pending.",
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
       ],
       "next_actions": [
-        "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
-        "On S50 image success: download original, visual QC and durable reference pack; technical success is not owner approval.",
-        "Preserve existing story/dance constraints and exact queue dependencies. Only ONE15s A1 test after story; further dances await review."
+        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
+        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
+        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -621,6 +624,10 @@
       "autonomy_rule": "Continue authorized queue without repeated owner nudges; use existing hourly automation; independently verify scheduled browser access and report real blockers; no paid launches, unapproved retries or editorial approval.",
       "remaining_reference_work": [
         "52: actual ending of corrected44, video provenance/SHA/QC and free UI1video+6images support"
+      ],
+      "blockers": [
+        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
+        "Actual continuity sources pending:43→44→52 and42→56→48."
       ]
     }
   ],
