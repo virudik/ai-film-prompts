@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T00:53:17+00:00",
+ "generated_at": "2026-10-17T01:01:26+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "3f94c68b38d90696cc1417b98a9bb196804e630f5d71ba030c061ae39b79ca1a",
-   "bytes": 77143
+   "sha256": "e0b90c9aa0bba598bd0069a3c37c4d973380f0cbaff30db5d7fb2e7088559b99",
+   "bytes": 78585
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "946c28f0f09633b7cc22a932edaeeb35dad609ad23889eb688e8796750d7b428",
-   "bytes": 611429
+   "sha256": "c1f4e7666ecad397739531a862e425968cae68f5df0f6e8e382962b3180ff057",
+   "bytes": 614097
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 45560,
-  "above_marker_chars": 45560,
+  "chars": 46419,
+  "above_marker_chars": 46419,
   "recent_sections_below_marker": [],
-  "sha256_12": "4d7ff56803ec",
+  "sha256_12": "0ec9a9cec166",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -816,11 +816,12 @@
     "@Image4",
     "@Image5",
     "@Image6",
-    "@Image7"
+    "@Image7",
+    "@Image8"
    ],
    "offset": 437374,
-   "chars": 57329,
-   "sha256_12": "9bb149689093"
+   "chars": 58084,
+   "sha256_12": "94a0936af45d"
   },
   {
    "id": 50,
@@ -841,7 +842,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 494703,
+   "offset": 495458,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -868,9 +869,9 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 511977,
-   "chars": 17095,
-   "sha256_12": "03a5f95a54aa"
+   "offset": 512732,
+   "chars": 18939,
+   "sha256_12": "da084a7a8e2a"
   }
  ],
  "read_sets": {
