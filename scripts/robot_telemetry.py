@@ -210,11 +210,21 @@ def plan_cycle(scan, root, now, *, resolver=None):
     for f in scan.get("finished_known", []):
         if f.get("task_id") in processed:
             continue
+        f = dict(f)  # resolving a first-seen terminal task must not mutate the scan
         if f.get("scene_id") is None:
-            reasons.append("finished_without_scene:" + f["task_id"][:8])
+            hit = resolver(f["task_id"], master, scene_ids) if resolver else None
+            if not hit:
+                reasons.append("finished_without_scene:" + f["task_id"][:8])
+                continue
+            f["scene_id"] = hit["scene"]
+            resolved[f["task_id"]] = hit
+        if int(f["scene_id"]) not in scene_ids:
+            reasons.append(f"scene_not_in_master:{f['scene_id']}")
             continue
         prow = prev_rows.get(f["task_id"], {})
-        part = prow.get("part") or part_from_confidence(prow.get("mapping_confidence")) or known_parts.get(f["task_id"])
+        hit = resolved.get(f["task_id"]) or {}
+        part = (part_from_label(hit.get("label")) or prow.get("part")
+                or part_from_confidence(prow.get("mapping_confidence")) or known_parts.get(f["task_id"]))
         finished.append({"scene_id": int(f["scene_id"]), "task_id": f["task_id"], "final_status": f["final_status"],
                          "finished_at": iso_z(f.get("completed_at")) or now_z(now), **({"part": part} if part else {})})
 
@@ -647,3 +657,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+

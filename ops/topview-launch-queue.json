@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T01:16:16.790231+00:00",
+  "updated_at": "2026-10-17T02:36:21.036342+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1030,7 +1030,7 @@
       "canonical_prompt_sha256": "11d6edda9fb32ccbbba41af99ff6db675ae5e636841953bde11920bdec6cc74f",
       "normalized_prompt_sha256": "c2b768237b311ebae44162d4988b6d004a104717e6f84f8ac4d7b815eb624b59",
       "priority": 102,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1072,8 +1072,14 @@
           "required": true
         }
       ],
-      "task_id": null,
-      "claim": null
+      "task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+      "claim": null,
+      "submitted_at": "2026-10-17T02:21:41Z",
+      "submission_origin": "observed_external_existing_task",
+      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
+      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
+      "observed_use_unlimit_mode": false,
+      "observed_credits_cost": 12
     },
     {
       "id": "S46",
@@ -1083,7 +1089,7 @@
       "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
       "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce",
       "priority": 103,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1119,8 +1125,14 @@
           "required": true
         }
       ],
-      "task_id": null,
-      "claim": null
+      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
+      "claim": null,
+      "submitted_at": "2026-10-17T02:16:20Z",
+      "submission_origin": "observed_external_existing_task",
+      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
+      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
+      "observed_use_unlimit_mode": false,
+      "observed_credits_cost": 12
     },
     {
       "id": "S43",
@@ -1130,7 +1142,7 @@
       "canonical_prompt_sha256": "7c6e9571715a5630c6448c919cb632fc492a90a67289ba50959f2afffa25a504",
       "normalized_prompt_sha256": "7004f6e6d3837783702707153441629f4a31572473edd3c21dd9cae78411c304",
       "priority": 101,
-      "state": "waiting_for_slot",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1173,8 +1185,14 @@
           "required": true
         }
       ],
-      "task_id": null,
-      "claim": null
+      "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+      "claim": null,
+      "submitted_at": "2026-10-17T02:24:00Z",
+      "submission_origin": "observed_external_existing_task",
+      "reconciled_at": "2026-10-17T02:36:21.036342+00:00",
+      "external_submission_note": "Read-only observation, not submitted by this assistant. Unique normalized full master prompt match. Paid mode is historical observation, NOT authorization for paid launches. Source input correctness and editorial acceptance are not inferred; do not duplicate.",
+      "observed_use_unlimit_mode": false,
+      "observed_credits_cost": 12
     },
     {
       "id": "S47",
@@ -1970,7 +1988,11 @@
     "B4": "d3844e4199d64abebe323be430a5cb35",
     "B5": "f88eee8ea93242309b71621e354ccac2",
     "B6": "2bccc8a3521b411cb7bd51f9c8ba1119",
-    "B7": "979f07acffe04750961515f4baf21a3f"
+    "B7": "979f07acffe04750961515f4baf21a3f",
+    "S44": "d837b803f130431ea0e2e5ad4b786c09",
+    "S43": "1b8f85b65ff24b13bcdbbeea3af3c096",
+    "S45": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+    "S46": "6ada672ccc5e48d2b1438c0aa18af945"
   },
   "not_selected_alternatives": {
     "scene28": [

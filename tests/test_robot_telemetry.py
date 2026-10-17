@@ -104,6 +104,34 @@ class PlanTests(Base):
         p = self.plan(scan(steady(), fin), now=T0_PLUS_2H)
         self.assertEqual(p["cycle"]["finished"], [])
 
+    def test_first_seen_terminal_is_resolved_without_consuming_a_slot(self):
+        fin = {"task_id": UNKNOWN_TASK, "scene_id": None, "final_status": "success",
+               "completed_at": "2026-10-11 10:05:00"}
+        res = rt.make_resolver(lambda tid: ("Mode: reference-to-video | prompt 1 of scene 24", "Wan 3.0"))
+        p = self.plan(scan(steady(), [fin]), resolver=res)
+        self.assertEqual(p["decision"], "publish")
+        self.assertEqual(p["cycle"]["finished"][0]["scene_id"], 24)
+        self.assertEqual(p["master_plan"]["occupied_slots"], 1)
+        self.assertIn(UNKNOWN_TASK, p["resolved_by_prompt"])
+        self.assertIsNone(fin["scene_id"])
+
+    def test_first_seen_terminal_with_changed_prompt_still_holds(self):
+        fin = {"task_id": UNKNOWN_TASK, "scene_id": None, "final_status": "success"}
+        res = rt.make_resolver(lambda tid: ("Mode: reference-to-video | prompt 1 of scene 24 EXTRA", "Wan 3.0"))
+        p = self.plan(scan(steady(), [fin]), resolver=res)
+        self.assertEqual(p["decision"], "hold")
+        self.assertIn("finished_without_scene:" + UNKNOWN_TASK[:8], p["reasons"])
+
+    def test_resolved_terminal_keeps_part_and_rejects_retired_scene(self):
+        fin = {"task_id": UNKNOWN_TASK, "scene_id": None, "final_status": "success"}
+        res = lambda tid, master, ids: {"scene": 24, "confidence": "exact", "label": "24 B3"}
+        p = self.plan(scan(steady(), [fin]), resolver=res)
+        self.assertEqual(p["cycle"]["finished"][0]["part"], "B3")
+        fin["scene_id"] = 999
+        p = self.plan(scan(steady(), [fin]))
+        self.assertEqual(p["decision"], "hold")
+        self.assertIn("scene_not_in_master:999", p["reasons"])
+
     def test_unmapped_active_task_holds_and_never_invents_a_scene(self):
         p = self.plan(scan(steady() + [active(UNKNOWN_TASK, None, "init")]))
         self.assertEqual(p["decision"], "hold")
@@ -399,3 +427,4 @@ class ShadowTests(Base):
 
 if __name__ == "__main__":
     unittest.main()
+

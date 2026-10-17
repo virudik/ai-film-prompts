@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-17T02:36:21.036342+00:00",
+  "findings": [
+    {
+      "scene": 44,
+      "task_id": "d837b803f130431ea0e2e5ad4b786c09",
+      "status": "running",
+      "created_at": "2026-10-17 02:25:00",
+      "prompt_match": "unique normalized exact",
+      "task_prompt_sha256": "6d99350a5ec5ff569b437ae6877edbac1721d5592230c44d4300fbffaad4b611",
+      "unlimited": false,
+      "credits": 12,
+      "assistant_submitted": false,
+      "reference_inputs_verified": false,
+      "editorial_approval": false
+    },
+    {
+      "scene": 43,
+      "task_id": "1b8f85b65ff24b13bcdbbeea3af3c096",
+      "status": "running",
+      "created_at": "2026-10-17 02:24:00",
+      "prompt_match": "unique normalized exact",
+      "task_prompt_sha256": "11eeb5e24a8913d87e6c20fbaf9d9b57cff46d706feed96fc45c036c26979dea",
+      "unlimited": false,
+      "credits": 12,
+      "assistant_submitted": false,
+      "reference_inputs_verified": false,
+      "editorial_approval": false
+    },
+    {
+      "scene": 45,
+      "task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+      "status": "running",
+      "created_at": "2026-10-17 02:21:41",
+      "prompt_match": "unique normalized exact",
+      "task_prompt_sha256": "a8af3eede7c50f16d2a4a67711ab8b34117980c79bef6475a7df9c8ffc79b790",
+      "unlimited": false,
+      "credits": 12,
+      "assistant_submitted": false,
+      "reference_inputs_verified": false,
+      "editorial_approval": false
+    },
+    {
+      "scene": 46,
+      "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
+      "status": "success",
+      "created_at": "2026-10-17 02:16:20",
+      "prompt_match": "unique normalized exact",
+      "task_prompt_sha256": "3557d815c10faa6b2438a96dd87d08e1bf52de2ce43f92f1b9b0e0dfac391f63",
+      "unlimited": false,
+      "credits": 12,
+      "assistant_submitted": false,
+      "reference_inputs_verified": false,
+      "editorial_approval": false
+    }
+  ],
+  "blocker": "Robot plan_cycle did not invoke exact resolver for first-seen terminal task, stopped at finished_without_scene:6ada672c.",
+  "fix": "Use existing exact/normalized unique-scene resolver for terminal tasks too; uncertain/retired mappings still hold; never infer approval or occupy an Unlimited slot.",
+  "validation": "27 offline robot telemetry tests passed including3 new regression cases.",
+  "next": "Wait for robot scheduled cycle and verify publication. Six authorized Unlimited dance tasks still active; A2 running, B2/B4/B5/B6/B7 init. Next B8. No new assistant submits.",
+  "source": "Live API, not stale canonical telemetry"
+}
