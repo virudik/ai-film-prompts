@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-16T08:12:30Z",
+  "checked_at": "2026-10-17T07:49:28Z",
   "mode": "sync",
   "summary": {
     "written": 4,
@@ -8,27 +8,27 @@
   "files": [
     {
       "name": "video-prompts.md",
-      "github_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+      "github_sha256": "6785f096dabb4a5d814a6926062debcbc8ca5202744cfc01f272caa6ce28bffe",
       "file_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-      "drive_sha256": "8f0130de12d5f7bc503b24f1c5294cbeddf8dc34667c2e56d996ead183476b9b",
+      "drive_sha256": "6785f096dabb4a5d814a6926062debcbc8ca5202744cfc01f272caa6ce28bffe",
       "status": "written",
-      "drive_modified": "2026-10-16T08:12:14.899Z"
+      "drive_modified": "2026-10-17T07:49:12.883Z"
     },
     {
       "name": "NEW-CHAT-HANDOFF.md",
-      "github_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
+      "github_sha256": "90d6e474ace840aa8adb56b5ee8dcf80fba0cf9c8a29a078710e6715c82f4ccd",
       "file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-      "drive_sha256": "026b36d8def523fe9d7b1f66ae5edb8eb5a5cc7580da5e03736fd65d305481ed",
+      "drive_sha256": "90d6e474ace840aa8adb56b5ee8dcf80fba0cf9c8a29a078710e6715c82f4ccd",
       "status": "written",
-      "drive_modified": "2026-10-16T08:12:18.394Z"
+      "drive_modified": "2026-10-17T07:49:16.388Z"
     },
     {
       "name": "SYNC-RUNBOOK.md",
-      "github_sha256": "97f79bf13f2224a4a67c3bde1f6ce6e5c52fdadd01504749cabbb3f0d9fe1fe5",
+      "github_sha256": "e91ed1c353c147002dfbf9e0f85df73b5177f069ff7b27bc9352ac0e5c078c0c",
       "file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-      "drive_sha256": "97f79bf13f2224a4a67c3bde1f6ce6e5c52fdadd01504749cabbb3f0d9fe1fe5",
+      "drive_sha256": "e91ed1c353c147002dfbf9e0f85df73b5177f069ff7b27bc9352ac0e5c078c0c",
       "status": "written",
-      "drive_modified": "2026-10-16T08:12:21.399Z"
+      "drive_modified": "2026-10-17T07:49:19.127Z"
     },
     {
       "name": "AI-PROJECT-GUIDE.md",
@@ -48,18 +48,18 @@
     },
     {
       "name": "USER-GUIDE.md",
-      "github_sha256": "b6d7e18e01f4f369965a3269f715d96abb8373d7b777ca33b0851797404e4c23",
+      "github_sha256": "e309bcbd853b998a7ddc938f24412f42ff5b0a17b915ebcabe95cf969d57b4ba",
       "file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-      "drive_sha256": "b6d7e18e01f4f369965a3269f715d96abb8373d7b777ca33b0851797404e4c23",
-      "status": "current",
-      "drive_modified": "2026-10-14T08:44:51.757Z"
+      "drive_sha256": "e309bcbd853b998a7ddc938f24412f42ff5b0a17b915ebcabe95cf969d57b4ba",
+      "status": "written",
+      "drive_modified": "2026-10-17T07:49:23.496Z"
     },
     {
       "name": "README-AI-SYNC.md",
       "github_sha256": "fd675db34520e2a0740acd1101f65bdfcba269f6e7d89ed7a9a4e3e56bbd5026",
       "file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
       "drive_sha256": "fd675db34520e2a0740acd1101f65bdfcba269f6e7d89ed7a9a4e3e56bbd5026",
-      "status": "written",
+      "status": "current",
       "drive_modified": "2026-10-16T08:12:26.396Z"
     },
     {
