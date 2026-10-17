@@ -102,3 +102,5 @@ Fresh-read main/owner decisions/queue; проверить Topview. При шес
 ## Проверка сохранения17.10
 
 Содержательный commit93f27e28921e850835efb88b93899b4e23f97cb7: GitHub master побайтно и51 полных входных файлов по Git blob подтверждены;11 изменённых готовых элементов очереди имеют точные prompt/input SHA;5 matcher tests OK; integration/sync/thumbnails CI success. Pages deployment нового HEAD ещё завершает публикацию. Существующая hourly automation6acae6ab433481919e88665c520b8ef2 дополнена выбором первого корабля, готовыми poses и разрешённой бесплатной попыткой Nano Banana50 после свободных слотов; расписание прежнее. Все отсутствующие входы остаются блокерами, новых видео/image task нет.
+
+Финальная проверка Pages: deployment38990245475 SUCCESS; обновлённый master и9 новых PNG (45 rear,49A–F,51 neck grip,43 hinge) скачаны с сайта и совпали побайтно. Публикация изображений подтверждена. Сохранение верхнего хендофа: commitc8c0c75a51389e9c1564392f7baa4de8134c11fb.
