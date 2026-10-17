@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-55",
   "task": "новая сцена 55 «А молоко?» (W13) в мастер, DRAFT",
   "acquired_at": "2026-10-17T17:43:34Z",
-  "expires_at": "2026-10-17T18:28:34Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-17T17:46:52Z",
   "rules": "ops/CANON-LOCK.md"
 }

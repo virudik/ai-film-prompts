@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "scene_id": 55,
+  "updated_at": "2026-10-17T17:46:52.537118+00:00",
+  "authority": "GitHub main master, exact individual sheets and actual film/result frames",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "asset_id": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "bytes": 155182,
+      "media_type": "image",
+      "role": "identity",
+      "slot": "@Image1",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/full/yulya.jpg",
+      "asset_id": "references/full/yulya.jpg",
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "bytes": 161368,
+      "media_type": "image",
+      "role": "identity",
+      "slot": "@Image2",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/full/yulya.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "asset_id": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+      "bytes": 1062297,
+      "media_type": "image",
+      "role": "location",
+      "slot": "@Image3",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-54/S54-room-side-actual.png",
+      "asset_id": "references/scenes/scene-54/S54-room-side-actual.png",
+      "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+      "bytes": 1287497,
+      "media_type": "image",
+      "role": "location",
+      "slot": "@Image4",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-54/S54-room-side-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "bytes": 575523,
+      "media_type": "image",
+      "role": "location",
+      "slot": "@Image5",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+      "sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90",
+      "bytes": 2115808,
+      "media_type": "image",
+      "role": "prop",
+      "slot": "@Image6",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T17:46:52.537118+00:00",
+        "evidence": "Existing canonical asset, exact bytes; role checked against Scene 54/37 usage."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg",
+    "references/full/yulya.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-54/S54-room-opening-actual.png",
+    "references/scenes/scene-54/S54-room-side-actual.png",
+    "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png"
+  ],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "start_frame": null,
+  "end_frame": null,
+  "prompt_reference_mapping": {
+    "@Image1": "references/full/serega.jpg",
+    "@Image2": "references/full/yulya.jpg",
+    "@Image3": "references/scenes/scene-54/S54-room-opening-actual.png",
+    "@Image4": "references/scenes/scene-54/S54-room-side-actual.png",
+    "@Image5": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+    "@Image6": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png"
+  },
+  "technical_success_is_editorial_approval": false
+}

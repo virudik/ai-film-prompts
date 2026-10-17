@@ -35,7 +35,8 @@
         48,
         52,
         53,
-        54
+        54,
+        55
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -78,7 +79,8 @@
       "name": "Юля",
       "aliases": [],
       "scenes": [
-        28
+        28,
+        55
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
