@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T11:34:58.641Z",
+  "last_updated_at": "2026-10-17T12:01:22.937Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T11:52:37+00:00",
+      "verified_at": "2026-10-17T12:01:22.937Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -472,14 +472,13 @@
         "17Oct06:59UTC: B2 task762b3091b3e44b8599a0a58b91a253c5 reached success at06:20:26UTC; live account now5/6 Unlimited. Scheduled environment has no authenticated owner Topview session, so the real result/C28 could not be downloaded or QC'd. No claim/upload/submit/credits.",
         "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42.",
         "17Oct14:32MSK owner requested handoff. C28 from actual B2 saved in commit325b29d6e640ad0f07fb47af3d5525564e79a866, Pages exact SHA verified; B3 ready. B3/B9/B10 NOT submitted, no claim, no Create. Detailed transfer at top of existing checkpoint/handoff.",
-        "17.10 приём D7: 15/15, SHA 8 источников совпали; shared chat сверён с main. Полный скан 11 досок/17 страниц/898 задач: 4 активных Unlimited (B5–B8), 2 свободных. Проверены SHA всех входов B3/B9/B10 и полных промтов; точных нормализованных дублей нет. Локальный Chrome Topview авторизован. Выбраны Wan3/30s/720p/16:9/qty1/Безлимитный режим — бесплатно. Видимый Импорт успешно открыл filechooser (multiple=true), но setFiles заблокирован отсутствующим разрешением расширения Allow access to file URLs. Это конкретный блокер рабочего Chrome, не отсутствие входа. Ни один референс не загрузился; промт не вставлен; claim/Create/submit отсутствуют. Кредиты не потрачены. После включения разрешения владельцем: свежий main/слоты/решения, импорт B3, полный UI match, CAS-claim, один submit; затем B9/B10. Автоматика остаётся выключенной до восстановления импорта."
+        "17.10 приём D7: 15/15, SHA 8 источников совпали; shared chat сверён с main. Полный скан 11 досок/17 страниц/898 задач: 4 активных Unlimited (B5–B8), 2 свободных. Проверены SHA всех входов B3/B9/B10 и полных промтов; точных нормализованных дублей нет. Локальный Chrome Topview авторизован. Выбраны Wan3/30s/720p/16:9/qty1/Безлимитный режим — бесплатно. Видимый Импорт успешно открыл filechooser (multiple=true), но setFiles заблокирован отсутствующим разрешением расширения Allow access to file URLs. Это конкретный блокер рабочего Chrome, не отсутствие входа. Ни один референс не загрузился; промт не вставлен; claim/Create/submit отсутствуют. Кредиты не потрачены. После включения разрешения владельцем: свежий main/слоты/решения, импорт B3, полный UI match, CAS-claim, один submit; затем B9/B10. Автоматика остаётся выключенной до восстановления импорта.",
+        "17.10 через встроенный браузер B3 отправлен один раз 12:00:12 UTC: task 56c0ea656f484b0cb8464233fe097e0d. Wan 3.0,30s,720p,16:9,qty1,Unlimited=true,creditsCost=0. Все четыре полных входа загружены в порядке manifest; SHA и полный нормализованный промпт совпали. CAS claim b04fe2b подтверждён перед единственным Create. Блокер импорта рабочего чата снят. До отправки полный скан11досок/17страниц/898задач:4active, дублей B3/B9/B10 нет. Далее B9 в оставшийся свободный слот; B10 после освобождения."
       ],
       "next_actions": [
-        "Fresh main/D7, owner decisions, complete Topview scan; B3 currently ready priority5, B9priority12, B10priority13. No claim or submit for these three.",
-        "B3 four exact refs H28B/fullSerega/fullYulia/C28; restore upload, paste unchanged full prompt, verify normalization/SHA/settings/Unlimited0; CAS claim and single submit with verified receipt.",
-        "After each submit recheck global slots; continue B9/B10. Then40→41→39→47→42→48whenready→49A–F→50A/B→51A/B; skip externally submitted43/44/45/46.",
-        "Complete50 crowd through authorized free website;48 only genuine42final;44 requires owner choice on mismatch.36/37 first launches low priority; historical reruns held.",
-        "Save checkpoints after each material step; no further launches during requested handoff turn."
+        "Fresh global slots and exact B9 inputs/prompt → CAS claim → one Unlimited0 GUI submit; B10 next by free slots.",
+        "After dances continue40→41→39→47→42→48whenready→49A–F→50A/B→51A/B. Never duplicate existing43/44/45/46.",
+        "Prepare50 via authorized free website;48 genuine42 final;44 owner continuity decision. Save checkpoint after each material step."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -496,16 +495,15 @@
         "42 result→48 actual final frame",
         "44 actual43 final saved but incompatible wing pose; owner decision, no automatic rerender"
       ],
-      "next_action": "Owner enables Chrome ChatGPT extension Allow access to file URLs, then fresh main/global slots/owner decisions → four B3 refs → exact prompt/UI match → CAS claim → one Unlimited0 submit; B9/B10 follow by slots. No claims/submissions exist for these items.",
+      "next_action": "Fresh global slots and exact B9 inputs/prompt → CAS claim → one Unlimited0 GUI submit; B10 next by free slots.",
       "blockers": [
-        "Working local Chrome authenticated; visible Import opens filechooser, but setFiles explicitly blocked by missing Allow access to file URLs extension permission. No uploads/prompt/claim/Create.",
         "44 genuine43 final has raised wings; owner continuity decision; existing44 must not be rerun.",
         "50 fan-crowd image still missing; authorized Nano Banana website prepared request pending slot/priority.",
         "48 waits for actual42 result.",
         "Hourly ChatGPT queue automation disabled after scheduled Login blocker; do not claim background submissions. Same task may be resumed after recovery; no duplicate watcher."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
-      "handoff_status": "accepted_d7_blocked_chrome_file_permission",
+      "handoff_status": "accepted_d7_cloud_browser_running",
       "automation_observation": {
         "id": "6acae6ab433481919e88665c520b8ef2",
         "is_enabled": false,

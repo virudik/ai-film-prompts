@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T11:59:56.276Z",
+  "updated_at": "2026-10-17T12:01:22.937Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -922,7 +922,7 @@
       "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
       "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b",
       "priority": 5,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -962,14 +962,16 @@
           "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a"
         }
       ],
-      "task_id": null,
+      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
       "claim": {
         "run_id": "chatgpt-cloud-20261017-B3-1792238396276",
         "claimed_at": "2026-10-17T11:59:56.276Z",
         "actor": "ChatGPT Work",
         "route": "free_web_gui"
       },
-      "reference_prepared_at": "2026-10-17T11:27:13.271Z"
+      "reference_prepared_at": "2026-10-17T11:27:13.271Z",
+      "submitted_at": "2026-10-17T12:00:12Z",
+      "receipt": "reports/topview-queue-2026-10-16/B3-receipt.json"
     },
     {
       "id": "S40",
@@ -2086,22 +2088,11 @@
     "notified_at": "2026-10-17T06:59:55.713Z",
     "notification_event": "blocked_browser_b2_c28_20261017T065955713Z",
     "working_chat_observation": {
-      "checked_at": "2026-10-17T11:52:37+00:00",
-      "browser": "Chrome extension",
-      "authenticated": true,
-      "model": "Wan 3.0",
-      "duration_seconds": 30,
-      "resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode_label": "Безлимитный режим — бесплатно",
-      "filechooser_opened": true,
-      "file_upload_completed": false,
-      "reason": "Missing Chrome extension Allow access to file URLs permission; setFiles explicitly rejected.",
-      "next_ready_item": "B3",
-      "claim_created": false,
-      "create_clicked": false,
-      "credits_spent": 0
+      "checked_at": "2026-10-17T12:01:22.937Z",
+      "status": "resolved_cloud_browser",
+      "reason": "Owner requested built-in browser. Authenticated Ultra cloud session; visible Import loaded all four full B3 files. B3 submitted once and receipt verified. Local extension file-permission workaround no longer required.",
+      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+      "credits_cost": 0
     }
   },
   "new_scene_order": [

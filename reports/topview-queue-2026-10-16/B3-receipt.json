@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "item_id": "B3",
+  "scene_id": 28,
+  "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-17T12:00:12Z",
+  "verified_at": "2026-10-17T12:01:22.937Z",
+  "route": "free_web_gui_cloud_browser",
+  "claim": {
+    "run_id": "chatgpt-cloud-20261017-B3-1792238396276",
+    "claimed_at": "2026-10-17T11:59:56.276Z",
+    "actor": "ChatGPT Work",
+    "route": "free_web_gui"
+  },
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "status_at_verification": "init",
+  "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
+  "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "required": true,
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "actual_name": "Image1",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "actual_name": "Image2",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "actual_name": "Image3",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/C28-from-B2-result.png",
+      "role": "continuity_frame",
+      "required": true,
+      "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a",
+      "actual_name": "Image4",
+      "input_order_verified": true
+    }
+  ],
+  "ui_proof": "Observed one successful task toast, queued card and Unlimited-free control; screenshot retained in working chat only, not public repository.",
+  "global_scan": {
+    "checked_at": "2026-10-17T11:57:55.624Z",
+    "boards": 11,
+    "pages": 17,
+    "tasks": 898,
+    "active_before": 4
+  },
+  "technical_success_is_owner_approval": false
+}
