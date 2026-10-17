@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T17:38:12+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-17T17:47:03+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "81d821e0b047cd9345669e8b7dc2722d492aee7c8e44f78ff7e30a7643b9fd75",
-   "bytes": 671732
+   "sha256": "39deb3e4924dc339b90b28873df2912cca0b7969b229c63dceabb0370ae251cb",
+   "bytes": 684957
   }
  ],
  "invariants": [
@@ -271,7 +271,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 34607,
+   "offset": 35353,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -293,7 +293,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 47584,
+   "offset": 48330,
    "chars": 13502,
    "sha256_12": "7afc53e5dc5f"
   },
@@ -313,7 +313,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 61086,
+   "offset": 61832,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -336,7 +336,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 71771,
+   "offset": 72517,
    "chars": 13057,
    "sha256_12": "ba90242da394"
   },
@@ -358,7 +358,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 84828,
+   "offset": 85574,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -378,7 +378,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 121098,
+   "offset": 121844,
    "chars": 143136,
    "sha256_12": "3a7f6c681d92"
   },
@@ -402,7 +402,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 264234,
+   "offset": 264980,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -426,7 +426,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 273427,
+   "offset": 274173,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -450,7 +450,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 282459,
+   "offset": 283205,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -468,7 +468,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 291467,
+   "offset": 292213,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -488,7 +488,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 297343,
+   "offset": 298089,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -509,7 +509,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 303742,
+   "offset": 304488,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -531,7 +531,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 311674,
+   "offset": 312420,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -555,7 +555,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 322319,
+   "offset": 323065,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -576,7 +576,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 335179,
+   "offset": 335925,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -597,7 +597,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 345592,
+   "offset": 346338,
    "chars": 11439,
    "sha256_12": "1fe8a1315d01"
   },
@@ -619,7 +619,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 357031,
+   "offset": 357777,
    "chars": 13150,
    "sha256_12": "ccb1024ec8e5"
   },
@@ -641,7 +641,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 370181,
+   "offset": 370927,
    "chars": 11212,
    "sha256_12": "be779d8a17e0"
   },
@@ -665,7 +665,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 381393,
+   "offset": 382139,
    "chars": 9667,
    "sha256_12": "3544c33b16f7"
   },
@@ -685,7 +685,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 391060,
+   "offset": 391806,
    "chars": 12523,
    "sha256_12": "fdf714a2565b"
   },
@@ -706,7 +706,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 403583,
+   "offset": 404329,
    "chars": 12179,
    "sha256_12": "5d7b7be5cdfb"
   },
@@ -728,7 +728,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 415762,
+   "offset": 416508,
    "chars": 12293,
    "sha256_12": "1dda6ed3ede6"
   },
@@ -750,7 +750,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 428055,
+   "offset": 428801,
    "chars": 13750,
    "sha256_12": "3a62a883d0e7"
   },
@@ -774,7 +774,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 441805,
+   "offset": 442551,
    "chars": 10099,
    "sha256_12": "e869a45bf9dc"
   },
@@ -798,7 +798,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 451904,
+   "offset": 452650,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -824,7 +824,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 462029,
+   "offset": 462775,
    "chars": 58084,
    "sha256_12": "94a0936af45d"
   },
@@ -847,7 +847,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 520113,
+   "offset": 520859,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -874,7 +874,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 537387,
+   "offset": 538133,
    "chars": 18968,
    "sha256_12": "ade962fc722d"
   },
@@ -897,7 +897,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 556355,
+   "offset": 557101,
    "chars": 8213,
    "sha256_12": "8f374c0fb553"
   },
@@ -921,7 +921,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 564568,
+   "offset": 565314,
    "chars": 7903,
    "sha256_12": "96011d487faa"
   },
@@ -943,9 +943,31 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 572471,
-   "chars": 8832,
-   "sha256_12": "5bc704480c85"
+   "offset": 573217,
+   "chars": 8861,
+   "sha256_12": "17d6bc71c050"
+  },
+  {
+   "id": 55,
+   "title": "«А молоко?»: Юля заходит, пока Серёга играет в Warcraft",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5",
+    "@Image6"
+   ],
+   "offset": 582078,
+   "chars": 10268,
+   "sha256_12": "de1b3d134872"
   }
  ],
  "read_sets": {
