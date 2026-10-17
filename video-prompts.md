@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**23 сцены к генерации/доработке · 49 полных текстов промта**
+**23 сцены к генерации/доработке · 69 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 2** сцены сейчас в медленной генерации: **28, 55** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **17.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 49 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **17.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 69 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -1710,7 +1710,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","naboo","forest_planet","map","bread_and_milk","continuity"]} -->
 
-**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
 
@@ -1736,74 +1736,206 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Серёга один в кабине своего корабля, замечает на пульте стикер с нарисованными хлебом и молоком, устало выдыхает и взлетает с лугового берега озера Набу. Корабль проходит облака и выходит в космос; Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче. Корабль уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
+**Что происходит:** Серёга один в кабине своего корабля, бросает взгляд на стикер с нарисованными хлебом и молоком, коротко выдыхает и резко даёт газ. Корабль срывается с того же берега у брошенной стоянки, где сел в 39, низко проносится над лугом и озером, поднимая брызги, затем штопором уходит вертикально вверх сквозь грозовую тучу с молниями и вырывается в космос. Там Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче, — и корабль рывком уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Serega alone departs Naboo in his own craft; the map module points him toward a distant forest planet
+Optimized for Wan 3.0 | Photoreal live-action space-opera action cinema | Serega blasts off the Naboo lakeshore, rips a low pass over the lake, corkscrews up through a thunderhead, and the map module points him to a distant forest planet
 
 REFERENCES / AUTHORITY ORDER:
-@Image4 — genuine film frame of Serega's own craft: exact hull shape, colour, proportions and engines. Vehicle design only.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons visible in this source frame.
+@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons in it.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop.
-@Image3 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners in this frame are NOT part of the shot, and its low evening sun is replaced by soft clear daylight.
-@Image6 — the newly created destination-planet reference: blue-green globe, dense green forested continents, white cloud bands and thin blue atmosphere. Use its planet design only; show the planet small and distant in this scene, not at the reference image's large framing scale.
+@Image3 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
+@Image6 — the created destination-planet reference: blue-green globe, dense green forested continents, white cloud bands, thin blue atmosphere. Planet design only; show it small and distant, not at the reference's large framing.
 Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the lakeshore; @Image6 controls the destination planet.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in medium shots with even light; never a tiny blurred face during the fast flight.
 
 PROP LOCK — CRITICAL:
-Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet, the two amber panels brighten and pulse slowly and steadily; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
+Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet, the two amber panels brighten and pulse rhythmically; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed. Fast, skilled, physically credible flying: one take-off, one low pass, one corkscrew climb through one thunderhead, one burst of acceleration in space. It rolls around its long axis but never tumbles, is never struck by lightning and takes no damage. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
 
 START STATE:
-Serega is already seated alone at the controls inside the cockpit from @Image5, the map module hidden in his robe, the craft resting on the grassy lakeshore of @Image3, calm blue lake and treeline visible through the window. A few metres away on the shore lies the abandoned fishing camp from his arrival: two fish-filled crates and dropped fishing rods, nobody there.
+Serega is already seated alone at the controls inside the cockpit from @Image5, the module hidden in his robe, the craft resting on the grassy lakeshore of @Image3, lake and treeline visible through the window. A few metres away lies the abandoned fishing camp from his arrival: two fish-filled crates and dropped fishing rods, nobody there. Over the far end of the lake a single towering thunderhead rises into the bright sky.
 
 TIMELINE:
-[0:00–0:05] — THE NOTE ON THE CONSOLE
-Medium cockpit shot including Serega and the note beside his hand. Hold the note sharply readable for the first two seconds, then his eyes stop on its two drawings as he reaches for the controls. A tiny, utterly serious resigned exhale through the nose; he lets it be and places both hands on the controls. Instrument lights come on.
+[0:00–0:04] — THE NOTE AND THE THROTTLE
+Medium cockpit shot of Serega with the note beside his hand, even light on his face. The note is sharply readable for the first two seconds while his eyes stop on its drawings. A tiny, utterly serious resigned exhale through the nose; he snaps both hands onto the controls and shoves the throttle forward. Instrument lights flare on.
 
-[0:05–0:11] — LIFT-OFF FROM THE MEADOW
-Exterior wide: the same craft rises steadily from the lakeshore of @Image3; grass flattens, the lake surface ripples under the engine wash and the abandoned fish crates and dropped rods beside the landing spot shiver in the wash; trees and calm water stretch to the horizon in soft daylight.
+[0:04–0:09] — LIFT-OFF AND LOW PASS
+Hard cut to grass level beside the fish crates: the craft lifts off, tucks its gear and, nose dipped, rips forward left-to-right a few metres above the meadow and then the lake. Its wash flattens the grass in a racing wave, the crates rattle, a long spray trail tears off the water. The camera whip-pans with it as it roars past.
 
-[0:11–0:16] — THROUGH THE CLOUDS
-Following shot from behind and slightly below: the craft climbs through a white cloud layer; Naboo's lakes and green land shrink below and the sky darkens toward space.
+[0:09–0:14] — PULL-UP INTO THE STORM
+Wide from behind and below: over the far end of the lake the craft pulls up almost vertically, starts a tight corkscrew climb, rolling around its own long axis, and punches into the dark wall of the thunderhead. A first lightning flash lights the cloud from inside.
 
-[0:16–0:21] — LEAVING NABOO
-Space: the blue-green curve of Naboo fills the lower frame. The craft levels out; the engines glow steadily.
+[0:14–0:20] — CORKSCREW THROUGH THE THUNDERHEAD
+Inside the storm the rolling silhouette spirals upward past the camera through churning cloud; branching lightning freezes its shape for an instant, rain streaks off the hull. It bursts out of the top of the anvil into blinding sunlight above a sea of white cloud, the sky darkening ahead.
 
-[0:21–0:26] — THE MODULE POINTS THE WAY
-Back in the cockpit, after one clean time-compression cut: a small distant green forest planet is visible through the front window. Serega takes the module from his robe and holds it up; as its face turns toward the planet, the two amber panels brighten and pulse steadily. He gives the smallest nod, corrects the heading slightly with one hand, and slides the module back into his robe.
+[0:20–0:25] — THE MODULE POINTS THE WAY
+Back in the cockpit after one clean time-compression cut: open space outside, a small distant green forest planet in the front window, the note still on its panel. Medium shot, even light. Serega whips the module out of his robe and holds it up; facing the planet, its amber panels brighten and pulse. One curt nod, one sharp heading correction, and the module goes straight back into his robe.
 
-[0:26–0:30] — THE FOREST PLANET AHEAD
-Exterior from behind: the same small craft accelerates once toward the distant planet with dense green forested continents and white cloud bands that match @Image6. Hold this composition; the craft is still far from the planet.
+[0:25–0:30] — THE FOREST PLANET AHEAD
+Exterior: Naboo's blue-green curve below, the craft fires its engines in one hard burst and streaks past the camera toward the distant planet with dense green forested continents and white cloud bands matching @Image6. Hold the final composition two seconds; the craft is still far from the planet.
 
 END STATE:
-The craft travels through open space toward the distant forest planet; no arrival, no other ship, no other characters. A clean cut point to the existing footage of the other Jedi pair, which follows separately.
+The craft travels through open space toward the distant forest planet; no arrival, no other ship, no other characters. Clean cut point to the other Jedi pair's existing footage.
 
 CAMERA / SPACE:
-Cockpit and exterior angles of one continuous journey; exactly one time-compression cut (into [0:21–0:26]). Smooth inertial camera, credible ship scale against clouds and planets, a stable direction of travel left-to-right in every exterior shot, no warp tunnel, no shake, no zoom jumps.
+Five motivated action cuts; the cut into [0:20–0:25] is the single time compression. Energetic exteriors: grass-level angle, whip-pan, chase from below, fly-by inside the cloud, fly-away. Travel direction left-to-right and upward in every exterior shot. Credible ship scale. Cockpit framings are stable mediums. No warp tunnel, no random handheld chaos.
 
 PERFORMANCE:
-Serega is calm, focused and alone; small precise movements. The note is played completely deadpan — one resigned exhale, no smile, no eye-roll to the camera, no speech.
+Serega's face stays cool, serious and focused; the energy is in his hands: decisive throttle push, hard grip on the controls, quick module draw and return. The note is played completely deadpan — one resigned exhale, no smile, no eye-roll to the camera, no speech.
 
 LIGHTING / MATERIALS:
-Cockpit: soft instrument glow and daylight through the window on his face and damp robe; the module's warm amber glow on his fingers. Exterior: natural Naboo daylight, real volumetric clouds, then the hard sunlight and black of space, believable planet atmosphere glow. Restrained colour grade matching the neighbouring scenes.
+Cockpit: even instrument glow and daylight on his face and damp robe; warm amber module glow on his fingers. Exterior: bright Naboo daylight, glittering spray, dark blue-grey thunderhead cut by white lightning, wet hull highlights, blinding sun above the anvil, then hard sunlight and black space.
 
 AUDIO:
-Cockpit switches and soft servo clicks, one quiet exhale, engine spin-up, low rumble of the climb, wind roar through the clouds fading to a quiet deep hum in space, a faint soft electronic pulse from the module. No dialogue, narrator, music or radio voices.
+Switch clicks, one short exhale, engine scream, Doppler roar of the low pass, hissing spray, rattling crates, thunder cracks, rain drumming on the hull, wind roar thinning to a deep hum in space, a faint module pulse, one final engine burst. No dialogue, narrator, music or radio voices.
 
 NEGATIVE PROMPT:
-new or different ship design, second ship, fishermen, the other Jedi pair, Vitalik, Lesha, Pasha, Sasha, pilot droid, cats, extra passengers, landing, forest floor, entering the forest planet's atmosphere, Sith ruins, temple, ancient computer, Warcraft screen, hologram map, projected map, two or three modules, folded paper map, readable text, letters or words on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+new or different ship design, second ship, fishermen, the other Jedi pair, pilot droid, cats, passengers, open hatch in flight, lightning striking the ship, damage, crash, tumbling, landing, forest floor, entering the forest planet's atmosphere, hologram map, two or three modules, letters or words on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, melting or blurred face, tiny face in fast motion, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`.
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png`.
+
+#### 37 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | Part 1 of 2: Serega glances at the bread-and-milk note, blasts off the Naboo lakeshore, rips a low pass over the lake and corkscrews into a towering thunderhead
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity of SEREGA.
+@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image4 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
+Priority: @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 lakeshore.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the scene. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in a medium shot with even light.
+
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+VEHICLE / TRAVEL LOCK — CRITICAL:
+One and the same craft from @Image2 in every exterior shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed. Fast, skilled, physically credible flying: one take-off, one low pass over the lake meadow, the start of one corkscrew climb into one thunderhead. The craft rolls around its long axis but never tumbles, is never struck by lightning and takes no damage. The map module stays hidden in his robe; no glowing object.
+
+START STATE:
+Serega is already seated alone at the controls inside the cockpit from @Image3, the craft resting on the grassy lakeshore of @Image4 in bright daylight. A few metres away lies the abandoned fishing camp: two fish-filled crates and dropped fishing rods, nobody there. Over the far end of the lake a single towering grey thunderhead rises into the sky.
+
+TIMELINE:
+[0:00–0:04] — THE NOTE AND THE THROTTLE
+Medium cockpit shot, even light: Serega and the note beside his hand. The note is sharp and readable for two full seconds while his eyes stop on its drawings. One tiny deadpan exhale through the nose, then he snaps both hands onto the controls and shoves the throttle forward. Instrument lights flare on.
+
+[0:04–0:08] — LIFT-OFF
+Hard cut to grass level beside the fish crates: the craft lifts off the shore, tucks its gear, dips its nose and launches forward left-to-right. Engine wash flattens the grass in a racing wave; the crates rattle and the rods bounce.
+
+[0:08–0:12] — LOW PASS OVER THE LAKE
+Low chase angle just above the water: the craft screams across the lake a few metres above the surface, tearing a long glittering spray trail behind it, and blasts past the camera with a whip-pan following it toward the thunderhead.
+
+[0:12–0:15] — CORKSCREW INTO THE STORM
+Wide from behind and below: at the far end of the lake the craft pulls up nearly vertical, starts a tight corkscrew roll around its own long axis and punches into the dark wall of the thunderhead; a first lightning flash lights the cloud from inside.
+
+END STATE:
+The craft is just vanishing, mid-roll, into the dark base of the thunderhead above the lake, lightning glowing inside the cloud; travel direction up and to the right.
+
+CAMERA / SPACE:
+Three hard action cuts. Stable medium framing in the cockpit; energetic exteriors: grass-level angle, low chase over the water, whip-pan on the fly-by, wide from behind and below. Travel left-to-right and upward in every exterior shot. Credible ship scale. No random handheld chaos.
+
+PERFORMANCE:
+Face cool, serious and deadpan; energy in his hands: a decisive throttle push and a hard grip on the controls. No smile, no look to camera, no speech.
+
+LIGHTING / MATERIALS:
+Cockpit: even instrument glow and daylight on his face and damp robe. Exterior: bright Naboo daylight, glittering spray, the dark blue-grey thunderhead with a white lightning flash inside. Real metal hull, real volumetric cloud.
+
+AUDIO:
+Switch clicks, one short exhale, engine scream, Doppler roar of the low pass, hissing spray, rattling crates, a deep roll of thunder as it enters the cloud. No dialogue, narrator, music or radio voices.
+
+NEGATIVE PROMPT:
+new or different ship design, second ship, fishermen, other Jedi, pilot droid, cats, passengers, open hatch in flight, map module visible, glowing object, lightning striking the ship, sparks, crash, tumbling, landing, readable text or letters on the note, real groceries, flipping travel direction, melting or blurred face, tiny face during fast motion, changed face or robe, night, sunset, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 37 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | Part 2 of 2: the craft corkscrews up through the lightning-lit thunderhead into space, the map module points Serega toward the distant forest planet and he accelerates toward it
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the craft rolling into the dark base of the thunderhead above the Naboo lake, lightning inside the cloud. Absolute START authority.
+@Image1 — absolute identity of SEREGA.
+@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image4 — the exact map module prop.
+@Image5 — the destination-planet reference: blue-green globe, dense green forested continents, white cloud bands, thin blue atmosphere. Planet design only; small and distant.
+Priority: @Video1 start; @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 prop; @Image5 destination planet.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the scene. No pilot droid, co-pilot, cats or other Jedi. His face appears only in the cockpit, in a medium shot with even light.
+
+PROP LOCK — CRITICAL:
+Exactly ONE small rigid palm-sized rectangular map module from @Image4: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. Turned toward the destination planet, the two amber panels brighten and pulse rhythmically; turned away, they dim. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+VEHICLE / TRAVEL LOCK — CRITICAL:
+The same craft from @Image2 and @Video1 in every exterior shot; its single side hatch with a short fold-down boarding ramp stays closed. One corkscrew climb, one burst of acceleration. It rolls but never tumbles, is never struck by lightning, takes no damage. No landing, no atmospheric entry, no other ships.
+
+START STATE:
+Exactly the last frame of @Video1: the craft rolling up into the dark thunderhead above the Naboo lake, lightning flickering inside the cloud.
+
+TIMELINE:
+[0:00–0:04] — CORKSCREW THROUGH THE THUNDERHEAD
+Continuing @Video1 without a cut: inside the churning cloud the craft's dark silhouette spirals upward past the camera; branching lightning freezes its shape for an instant; rain streaks off the hull.
+
+[0:04–0:07] — BURSTING OUT ON TOP
+The craft bursts out through the top of the anvil into blinding sunlight above a sea of white cloud, levels its roll, and the sky darkens to black space with Naboo's blue-green curve falling away below.
+
+[0:07–0:12] — THE MODULE POINTS THE WAY
+Time-compression cut into the cockpit, medium shot, even light: open space, a small distant forest planet in the front window, the note on its panel. Serega whips the module out of his robe and holds it up; as its face turns toward the planet, the amber panels brighten and pulse. One curt nod, one sharp heading correction, the module straight back into his robe.
+
+[0:12–0:15] — THE FOREST PLANET AHEAD
+Exterior: the craft fires one hard engine burst and streaks past the camera toward the small distant forest planet matching @Image5. Hold the final composition; the craft is still far from the planet.
+
+END STATE:
+The craft travels through open space toward the distant forest planet; no arrival, no other ship, no other characters. Clean cut point.
+
+CAMERA / SPACE:
+The first beat continues @Video1 (fly-by inside the cloud, rising angle as it breaks out), then two hard cuts: stable cockpit medium, final fly-away. Travel left-to-right and upward in every exterior shot. No warp tunnel, no random handheld chaos.
+
+PERFORMANCE:
+Face cool and serious; energy in his hands: quick module draw, sharp heading correction. No smile, no look to camera, no speech.
+
+LIGHTING / MATERIALS:
+Dark cloud interior cut by white lightning, wet hull highlights, blinding sun above the anvil, then hard sunlight and black space. Cockpit: even instrument glow on his face and damp robe, amber module glow on his fingers.
+
+AUDIO:
+Rain drumming on the hull, thunder cracks, wind roar thinning to a deep hum in space, a faint module pulse, one final engine burst. No dialogue, narrator, music or radio voices.
+
+NEGATIVE PROMPT:
+new or different ship design, second ship, other Jedi, pilot droid, cats, passengers, lightning striking the ship, damage, crash, tumbling, landing, forest floor, atmospheric entry, hologram map, two or three modules, readable text or letters on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, melting or blurred face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -1817,13 +1949,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 - **Стык:** около **45:05** по сборке 01:03:42 [Р2], между участками 57 «Бег и прыжок в воду» (44:45–45:05) и 58 «Подводный путь и город». Сцена и место стыка подтверждены владельцем 16.10.2026.
 - **Функции:**
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий полёт над волнами со шлейфом брызг, крутой вираж вокруг скалистого островка и жёсткая посадка; в озеро Серёга идёт решительным шагом. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
   - (1) объяснить, как Канцлер оказался на Набу: по [Р2] §9 и 61 он возникает в подводном городе без прибытия; [Р1] §10: «один канцлер не должен необъяснимо находиться… Его маршрут необходимо обозначить»;
   - (2) **поставить на луг у озера тот самый корабль, с которого он взлетает в Scene 37 (вариант A, решение владельца 14.10)** — сейчас его посадка нигде не показана;
   - (3) показать, что он идёт по следу пары: брошенная стоянка, круги на воде.
 - **Корабль** — собственный корабль Канцлера из начала фильма (ч.1 09:20–09:55), тот же, что в 37. Не корабль Паши и Саши и не их водная машина.
 - **Модуля карты в кадре нет.** Татуинский фрагмент Серёга уже забрал (Scene 48, решение владельца 16.10) и держит под робой; набусский получит в Scene 17.
 - **Свет** — как в кадре бега и прыжка пары (участок 57). [Р2] отмечает там закатный свет при дневной сцене Маши.
-- **Комедийный контраст:** пара в панике бежала и прыгала, а Серёга спокойно входит в воду в мантии. Персонажи под водой без снаряжения — это правило мира фильма ([FA]: «персонажи под водой в своей одежде»).
+- **Комедийный контраст:** пара в панике бежала и прыгала, а Серёга невозмутимо и решительно шагает в воду в мантии. Персонажи под водой без снаряжения — это правило мира фильма ([FA]: «персонажи под водой в своей одежде»).
 - В монтаж достаточно 10–15 с.
 - **Корпус корабля** — фактический кадр ч. 1, 09:03 (@Image3), тот же, что в Scene 37; видеовход корабля заменён этим кадром, как в 37.
 - **READY:** найдены настоящие кадры берега (ч. 2 14:27, перед прыжком) и стоянки с ящиками (ч. 2 14:16, до бега). В этой старой двухчастной версии прыжок происходит на 14:29–14:31; это не таймкод 44:45–45:05 сборки [Р2]. Отдельного общего кадра пустой стоянки после прыжка нет: @Image4 фиксирует берег/закат, @Image5 — реквизит, людей из обоих исключить.
@@ -1847,72 +1980,211 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один по короткой рампе из бокового люка, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
+**Что происходит:** Вечером корабль Канцлера на большой скорости проносится над самой водой озера Набу, оставляя за собой шлейф брызг, резко закладывает вираж вокруг скалистого островка и с жёстким выравниванием садится на луг рядом с брошенной стоянкой рыбаков. Серёга, не задерживаясь, сходит по короткой рампе из бокового люка, быстрым шагом проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев — он, не сбавляя шага, входит в озеро прямо в мантии и погружается; на берегу остаются корабль и пустая стоянка.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | Serega alone lands his own craft beside an abandoned Naboo fishing camp and calmly follows the Jedi into the lake
+Optimized for Wan 3.0 | Photoreal live-action space-opera action cinema | Serega skims the evening Naboo lake at wave-top height, banks hard around a rocky islet, slams down by the abandoned fishing camp and strides into the lake after the Jedi
 
 REFERENCES / AUTHORITY ORDER:
-@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof in this source frame are not part of the shot. Do not design a new ship.
-@Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene, not a claim about this reference.
+@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered caught fish and stone-ring fire spot. Props only; remove the sleeping people and do not copy its night lighting or lit fire. The camp is now deserted.
-@Image6 — genuine cockpit of the same craft: seats, console, forward windows and hard interior geometry ONLY, for one short interior beat.
-@Image2 — Naboo landscape look: calm blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
+@Image6 — genuine cockpit of the same craft: seats, console, windows and interior geometry ONLY, for one short beat.
+@Image2 — Naboo landscape look: blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume; @Image6 controls the cockpit interior.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face is read only in medium shots with even warm light; never a tiny blurred face during the fast flight.
 
 VEHICLE / LANDING LOCK — CRITICAL:
-One and the same craft from @Image3 in every shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. Realistic, unhurried landing: smooth descent, a short flare, touchdown on its landing gear, engines spooling down. After touchdown the craft stays parked on the meadow for the rest of the scene. No second ship, no water vehicle driving, no crash, no hovering speeder.
+One and the same craft from @Image3 in every shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. Fast, controlled, credible approach: a wave-top skim, one hard bank around one small rocky islet, a hard flare, touchdown on its landing gear. The hull never touches the water. After touchdown the craft stays parked on the meadow for the rest of the scene. No second ship, no water vehicle driving, no crash, no hovering speeder.
 
 CAMP / PROP LOCK:
-Use the actual crates and fish from @Image5, the fishing rods and brown bottles from @Image2, and the actual bank geometry and evening light from @Image4. Their abandoned arrangement is the new shot: dropped rods, fish-filled crates, a few empty brown bottles and a cold fire spot. Do not add tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object exists in this scene.
+Crates and fish from @Image5, rods and brown bottles from @Image2, bank and light from @Image4, in a new abandoned arrangement: dropped rods, fish-filled crates, a few empty brown bottles and a cold fire spot. Do not add tents, tables, people or extra vehicles. The only new landscape element is one small rocky islet with a few trees, far out on the open lake. No map, glowing module, hologram or any glowing object exists in this scene.
 
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 START STATE:
-Evening over the Naboo lake as in @Image4: the calm water still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is a small shape descending from the sky above the far end of the lake.
+Evening over the Naboo lake as in @Image4: the water near the bank still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is already low over the far end of the lake, racing toward the camera just above the water.
 
 TIMELINE:
-[0:00–0:06] — DESCENT OVER THE LAKE
-Wide exterior. The craft descends in a smooth curve over the calm lake toward the near shore; the pale palace domes stand on the far bank; the craft's reflection slides across the water; the engine whine grows. Around 0:03 one brief two-second interior cut inside the cockpit (@Image6): Serega at the controls with the same pale-yellow note clearly visible beside his hand, its loaf-left and milk-carton-right drawings sharp and unobstructed for the full two seconds; he concentrates on landing, then cut back to the exterior descent.
+[0:00–0:05] — WAVE-TOP SKIM
+Camera low on the water. The craft streaks in left-to-right a few metres above the wave tops, its wash ripping a double wake of white spray glowing in the low golden sun; palace domes on the far bank. It roars past the camera, spray sweeping across the lens edge.
 
-[0:06–0:12] — TOUCHDOWN ON THE MEADOW
-The craft flares and settles on its landing gear on the green meadow a short walk from the camp. Grass flattens in a ring, the shallow water near the bank ripples under the engine wash, the engines spool down to silence.
+[0:05–0:08] — COCKPIT
+Hard cut inside the cockpit (@Image6), medium shot, even warm light: Serega at the controls, the note beside his hand, its loaf and milk-carton drawings sharp and unobstructed for two full seconds. His face is cool and serious; his hands throw the controls hard over into a bank.
 
-[0:12–0:18] — STEPPING OUT
-Closer angle: the side hatch opens and its short boarding ramp lowers. Serega walks down it alone onto the grass, straightens his robe once and surveys the shore with a cold, appraising look.
+[0:08–0:13] — HARD BANK AROUND THE ISLET
+Wide exterior far out on open water: the craft knifes into a steep bank around the small rocky islet, low wingtip just above the water, the islet's trees whipping in the wash, a curved fan of spray behind it. It snaps level toward the near shore meadow.
 
-[0:18–0:24] — THE ABANDONED CAMP
-The camera tracks with him at walking pace past the camp: the dropped rods, the overflowing fish crates, the empty bottles. He stops at the crates for one beat and looks down at the absurd pile of fish with completely deadpan disapproval, then lifts his eyes to the lake, where the last rings of the fishermen's dive are still spreading.
+[0:13–0:17] — FLARE AND TOUCHDOWN
+Low angle from the meadow, crates at the frame edge: the nose pitches up in a hard flare, engines blast, grass flattens in a ring, shallow water by the bank sprays; the gear thumps down a short walk from the camp, the craft rocks once and the engines spool down.
 
-[0:24–0:30] — INTO THE LAKE
-Without hurry and without hesitation he walks straight into the lake in his robe: ankles, knees, waist, chest; the dark-purple fabric darkens and spreads on the surface. He takes one calm breath and goes under. The surface closes over him and rings spread; the parked craft and the abandoned camp remain on the empty shore.
+[0:17–0:21] — OUT OF THE HATCH
+After one clean time-compression cut, a closer angle: the side hatch opens and its short boarding ramp drops. Serega strides down it without pausing, robe swinging, onto the grass, gives his robe one sharp tug straight and surveys the shore; medium shot on his cold, appraising face for two seconds.
+
+[0:21–0:25] — THE ABANDONED CAMP
+Tracking alongside him at a brisk stride past the dropped rods, overflowing fish crates and empty bottles. He stops dead at the crates for one beat and looks down at the absurd pile of fish with completely deadpan disapproval, then snaps his eyes to the lake, where the last rings of the fishermen's dive are still spreading.
+
+[0:25–0:30] — INTO THE LAKE
+Without breaking stride he walks straight into the lake in his robe: ankles, knees, waist, chest; the dark-purple fabric darkens and spreads on the surface. One sharp breath and he goes under. The surface closes over him and rings spread; the parked craft and the abandoned camp remain on the empty shore. Hold this wide two seconds.
 
 END STATE:
 An empty evening lake with spreading rings where Serega went under; his craft parked on the meadow; the abandoned camp on the shore; nobody visible.
 
 CAMERA / SPACE:
-Wide establishing shots for the descent and the landing; one clean time-compression cut between [0:06–0:12] and [0:12–0:18]; after it, a steady tracking shot following Serega at walking pace to the water's edge, ending as a static wide on the lake for the submersion. Stable geography: lake on one side of frame, parked craft on the other, camp between them. Real human scale; the walk is a few dozen metres. No orbiting, no shake, no zoom jumps.
+Four motivated action cuts (water-level fly-by, cockpit, wide bank, low landing angle), then one time-compression cut into a brisk tracking shot that ends as a static wide on the lake. Fast motion only in wide exteriors. Stable geography: lake on one side of frame, parked craft on the other, camp between them; the islet far out on open water. Approach travels left-to-right. Real human scale; the walk is a few dozen metres. No random handheld chaos.
 
 PERFORMANCE:
-Serega is calm, cold and purposeful. The contrast with the fishermen's frantic run lies in his total lack of hurry. His disapproval of the fish is a tiny movement of the eyes, not a gesture to the camera. No speech, no smile.
+Cold, purposeful and fast: the fishermen fled in panic, he lands hard and marches into the water with zero hesitation. Face serious; the disapproval is a tiny movement of the eyes. He strides, never runs. No speech, no smile.
 
 LIGHTING / MATERIALS:
-Warm low evening sun matching @Image4, long shadows across the meadow, soft reflections on the lake. Engine heat shimmer fading after touchdown. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.
+Warm low evening sun matching @Image4, long shadows, golden backlit spray over the lake. Engine heat shimmer fading after touchdown. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.
 
 AUDIO:
-Engine whine and wash, grass rustling, landing-gear servo whir, hatch hiss, footsteps on grass, flies buzzing over the fish crates, distant birdsong, gentle lapping water, the robe dragging through the water, one calm inhale, the water closing overhead. No dialogue, narrator or music.
+Engine scream and Doppler roar of the fly-by, hissing spray, the blast of the flare, gear thump, engines spooling down, hatch hiss, quick footsteps, flies buzzing over the crates, distant birdsong, lapping water, the robe dragging through the water, one sharp inhale, the water closing overhead. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-fishermen, Jedi, any other person, Gungans, new or different ship design, second ship, crash landing, speeder or water vehicle in motion, map module, glowing object, hologram, scuba gear, diving mask, breathing apparatus, running, jumping, diving splash, swimming strokes, night sky, rain, comedy mugging, speaking, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+fishermen, Jedi, any other person, Gungans, new or different ship design, second ship, hull touching the water, crash landing, speeder or water vehicle in motion, map module, glowing object, hologram, scuba gear, diving mask, breathing apparatus, running, jumping, diving splash, swimming strokes, islet next to the bank, night sky, rain, comedy mugging, speaking, melting or blurred face, changed face or robe, readable text or letters on the note, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image5 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image6 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image4 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image5 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
+
+#### 39 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | Part 1 of 2: Serega skims his own craft over the evening Naboo lake at wave-top height, banks hard around a rocky islet and slams down on the meadow beside the abandoned fishing camp
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity of SEREGA.
+@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.
+@Image3 — genuine cockpit of the same craft: interior geometry ONLY; no fight, people or weapons from it.
+@Image4 — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Layout and evening light only; no runners.
+@Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; no people, no night light, no fire.
+@Image6 — Naboo landscape look: blue lake, green meadow, rounded trees, a pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; no fishermen.
+Priority: @Image1 face and costume; @Image2 vehicle; @Image3 cockpit; @Image4 location and light; @Image6 landscape detail; @Image5 camp props.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face appears only in the cockpit, in a medium shot with even warm light.
+
+VEHICLE / LANDING LOCK — CRITICAL:
+One and the same craft from @Image2 in every shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed in this part. Fast, controlled, credible approach: a wave-top skim, one hard bank around one small rocky islet, a hard flare, touchdown on its gear. The hull never touches the water. No crash.
+
+CAMP / PROP LOCK:
+Abandoned camp on the shore: dropped rods, the two fish-filled crates, empty brown bottles, a cold fire spot. No tents, people or vehicles. The only new landscape element is one small rocky islet with a few trees, far out on the open lake. No map, glowing module, hologram or any glowing object.
+
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+START STATE:
+Evening over the Naboo lake as in @Image4: the water near the bank still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is already low over the far end of the lake, racing toward the camera just above the water.
+
+TIMELINE:
+[0:00–0:04] — WAVE-TOP SKIM
+Camera low on the water. The craft streaks in left-to-right a few metres above the wave tops, its wash ripping a double wake of white spray glowing in the low golden sun; palace domes on the far bank. It roars past the camera, spray sweeping across the lens.
+
+[0:04–0:07] — COCKPIT
+Hard cut, medium shot inside the cockpit, even warm light: Serega at the controls, the note beside his hand sharp and unobstructed for two full seconds. Face cool and serious; his hands throw the controls hard over.
+
+[0:07–0:11] — HARD BANK AROUND THE ISLET
+Wide, far out on open water: the craft knifes into a steep bank around the small rocky islet, low wingtip just above the water, trees whipping in the wash, a curved fan of spray behind; it snaps level toward the near shore.
+
+[0:11–0:15] — FLARE AND TOUCHDOWN
+Low angle from the meadow, crates at the frame edge: the nose pitches up in a hard flare, engines blast, grass flattens in a ring, shallow water sprays; the gear thumps down, the craft rocks once, engines spool down.
+
+END STATE:
+The craft stands parked on its gear on the evening meadow a short walk from the abandoned camp, hatch closed, heat shimmer over the engines; the lake beside it, faint rings still spreading near the bank; nobody visible.
+
+CAMERA / SPACE:
+Three hard action cuts: water-level fly-by, cockpit medium, wide bank, low landing angle. Fast motion only in wide exteriors. Approach travels left-to-right; the islet far out on open water; on the shore: lake on one side, craft on the other, camp between. No random handheld chaos.
+
+PERFORMANCE:
+Face cold and serious; energy in his hands on the controls. No speech, no smile, no look to camera.
+
+LIGHTING / MATERIALS:
+Warm low evening sun matching @Image4, long shadows, golden backlit spray, wet metal hull highlights, heat shimmer after touchdown.
+
+AUDIO:
+Engine scream and Doppler roar of the fly-by, hissing spray, the blast of the flare, gear thump, engines spooling down, flies over the crates, distant birdsong. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+fishermen, Jedi, any other person, Gungans, new or different ship design, second ship, hull touching the water, crash landing, open hatch, map module, glowing object, hologram, night sky, rain, melting or blurred face, tiny face during fast motion, changed face or robe, readable text or letters on the note, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 39 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera action comedy | Part 2 of 2: Serega strides down the ramp, glares at the abandoned fish crates and marches straight into the evening lake after the Jedi
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the craft parked on the evening meadow beside the abandoned camp, hatch closed, the lake beside it. Absolute authority for the START STATE, the craft's position, the camp layout and the light.
+@Image1 — absolute identity of SEREGA.
+@Image2 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image3 — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and light only; remove the two runners.
+@Image4 — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; remove the sleeping people, no night lighting, no lit fire.
+@Image5 — Naboo landscape look: blue lake, green meadow, rounded trees, pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; the two fishermen are NOT part of the shot.
+Priority: @Video1 controls the start; @Image1 controls Serega's face and costume; @Image2 controls the vehicle; @Image3 controls the shore; @Image4 and @Image5 control the camp props.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry until he enters the water. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face is read in a medium shot with even warm light for at least two seconds.
+
+VEHICLE / CAMP LOCK — CRITICAL:
+The same craft from @Image2 and @Video1 stays parked on the meadow in the same spot for the whole part; access only through its single side hatch with a short fold-down boarding ramp. The abandoned camp keeps its layout from @Video1: dropped rods, the two fish-filled crates, a few empty brown bottles and a cold fire spot. No tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object.
+
+START STATE:
+Exactly the last frame of @Video1: the craft parked on the evening meadow a short walk from the abandoned camp, hatch closed, the lake beside it.
+
+TIMELINE:
+[0:00–0:03] — HATCH AND RAMP
+Continuing @Video1 without a cut, then pushing in: the side hatch opens with a hiss and the short boarding ramp drops onto the grass.
+
+[0:03–0:06] — STEPPING OUT
+Closer angle: Serega strides down the ramp without pausing, robe swinging, gives it one sharp tug straight and surveys the shore; medium shot on his cold, appraising face for two seconds.
+
+[0:06–0:10] — THE ABANDONED CAMP
+Tracking alongside him at a brisk stride past the dropped rods, the overflowing fish crates and the empty bottles. He stops dead at the crates and looks down at the absurd pile of fish with completely deadpan disapproval, then snaps his eyes to the lake, where the last rings of the fishermen's dive are still spreading.
+
+[0:10–0:15] — INTO THE LAKE
+Without breaking stride he walks straight into the lake in his robe: ankles, knees, waist, chest; the dark-purple fabric darkens and spreads on the surface. One sharp breath and he goes under. The surface closes, rings spread; the parked craft and the abandoned camp remain on the empty shore. Hold the wide final frame.
+
+END STATE:
+An empty evening lake with spreading rings where Serega went under; his craft parked on the meadow; the abandoned camp on the shore; nobody visible.
+
+CAMERA / SPACE:
+One push-in on the hatch, one cut to the ramp, then a continuous brisk tracking shot at human scale that ends as a static wide on the lake for the submersion. Stable geography: lake on one side of frame, parked craft on the other, camp between them; the walk is a few dozen metres. No random handheld chaos.
+
+PERFORMANCE:
+Cold, purposeful and fast: the fishermen fled in panic, he marches into the water with zero hesitation. His face stays serious; the disapproval is a tiny movement of the eyes, not a gesture to the camera. He strides, he never runs. No speech, no smile.
+
+LIGHTING / MATERIALS:
+Warm low evening sun matching @Image3 and @Video1, long shadows across the meadow, soft reflections on the lake, engine heat shimmer fading. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.
+
+AUDIO:
+Hatch hiss, ramp clank, quick footsteps on metal then grass, flies buzzing over the fish crates, distant birdsong, lapping water, the robe dragging through the water, one sharp inhale, the water closing overhead. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+fishermen, Jedi, any other person, Gungans, new or different ship design, second ship, ship moving or taking off, map module, glowing object, hologram, scuba gear, diving mask, breathing apparatus, running, jumping, diving splash, swimming strokes, night sky, rain, comedy mugging, speaking, melting or blurred face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -1926,6 +2198,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 - **Стык:** после конца лесного блока (участок 77, 01:02:15–01:02:45 [Р2]: «Герои на земле, вмешательство вуки»; Канцлер уходит с фрагментом), перед **Scene 26** (уже в фильме): коты-магистры на террасе обращаются к Серёге за кадром. Место ветки планеты ситхов — после Кашиика — подтверждено владельцем 16.10.2026 (D1).
 - **Функции:**
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — нырок сквозь пыльную дымку и проход «на ребре» между двумя колоссальными статуями, жёсткая посадка на площадь храма. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
   - (1) Серёга появляется на планете ситхов не «из ниоткуда» — сейчас ни одна сцена его прибытие не показывает;
   - (2) причина полёта читается тем же приёмом, который владелец утвердил для 37 14.10 и для этой сцены 16.10: модуль светится ярче, когда направлен на цель. Это согласуется с идеей Саши «карты → координаты заброшенного объекта» (master, «Идеи от Саши»);
   - (3) финал — он слышит зажигание мечей и смотрит за кадр. Так невидимый адресат реплик в 26 становится им.
@@ -1961,11 +2234,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Серёга один в кабине своего корабля, в открытом космосе. Лесная планета позади уменьшается. Он достаёт модуль, и тот светится ярче, когда Серёга направляет его на далёкую пыльную охристо-красную планету. Корабль снижается сквозь пыльную закатную дымку, пролетает мимо колоссальных статуй в капюшонах и садится на каменную площадь у лестницы храма. Серёга спускается по короткой рампе из бокового люка, делает несколько шагов — и замирает: за кадром впереди загудел зажжённый световой меч. Он настороженно смотрит вперёд; кто там, не показывается.
+**Что происходит:** Серёга один в кабине. Лесная планета позади уменьшается. Он резким движением достаёт модуль: тот вспыхивает, когда Серёга направляет его на пыльную охристую планету. Серёга даёт полный газ. Корабль круто ныряет сквозь пыльную закатную дымку, на ребре проносится в узкой щели между двумя колоссальными статуями в капюшонах, резко выравнивается и жёстко садится на площадь у лестницы храма. Серёга быстро сбегает по рампе и замирает: за кадром загудел зажжённый меч. Кто там, не показывается.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action dark space-fantasy | Serega alone flies on from the forest world, lands among ancient Sith ruins at sunset and senses he is not alone
+Optimized for Wan 3.0 | Photoreal live-action dark space-fantasy, fast aerial action | Serega dives through dust, knifes between two colossal statues, slams down at the Sith temple and freezes at an unseen saber hum
 
 REFERENCES / AUTHORITY ORDER:
 @Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof in this source frame are not part of the shot. Do not design a new ship.
@@ -1977,59 +2250,190 @@ REFERENCES / AUTHORITY ORDER:
 Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image3 controls the destination world; @Image6 controls the receding forest planet; @Image2 controls the prop; @Image1 controls Serega's face and costume.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the entire scene. No cats, no Jedi, no Sith, no pilots, no droids.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the scene. His face is shown only in the cockpit and the final shot, medium framing, even light.
 
 PROP LOCK — CRITICAL:
-Exactly ONE small rigid palm-sized rectangular map module from @Image2 is ever visible: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet the two amber panels brighten and pulse slowly and steadily; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
+Exactly ONE small rigid palm-sized rectangular map module from @Image2 is ever visible: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of his robe and goes back there. Aimed at the destination planet, its panels flare bright and pulse. It never folds, multiplies, projects a hologram or becomes a screen.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
-MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
+MUSHROOM BASKET: one small round wicker basket of fresh brown forest mushrooms on the cockpit floor beside the pilot seat; never picked up, never spills.
 
 VEHICLE / LANDING LOCK — CRITICAL:
-One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. Realistic, restrained travel: one approach, one atmospheric descent, one landing on its landing gear. No take-off from the forest world, no hyperspace tunnel, no other ships, no space battle, no crash.
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. One approach, one steep atmospheric dive, one knife-edge pass, one hard landing on its landing gear; it never touches a statue and is never damaged. No take-off from the forest world, no hyperspace tunnel, no other ships, no space battle, no crash.
 
 LOCATION LOCK:
-A dry, dusty canyon world with the ruin city of @Image3; fine dust and ash with rare ember-like sparks drift near the ground. No lava, vegetation or water.
+A dry, dusty canyon world with the ruin city of @Image3; fine dust and rare ember-like sparks drift near the ground. Two colossal hooded statues stand close together at the edge of the temple plaza with a narrow gap between them. No lava, vegetation or water.
 
 START STATE:
 Serega is already seated alone at the controls inside the cockpit from @Image5, in open space. Through the side window the small green forest planet from @Image6 is receding. The module is hidden in his robe. The bread-and-milk note is on the console and the mushroom basket on the floor beside the seat.
 
 TIMELINE:
-[0:00–0:06] — THE MODULE POINTS ONWARD
-Medium shot inside the cockpit; keep the same yellow grocery note in the near foreground, both drawings clearly readable for two seconds as Serega takes the module from his robe. His attention stays on the module, not on shopping. As he turns its face toward the front window, where a small dusty ochre-red planet hangs far ahead, the two amber panels brighten and pulse steadily. He glances once at the forest planet shrinking in the side window, slides the module back into his robe and corrects the heading with one hand.
+[0:00–0:05] — THE MODULE POINTS ONWARD
+Medium cockpit shot, even instrument light on his face; the yellow grocery note in the near foreground, both drawings readable for two seconds. Serega pulls the module from his robe in one quick motion and aims it at the small dusty ochre-red planet ahead: the amber panels flare bright and pulse. He snaps it back into his robe and shoves the throttle forward hard.
 
-[0:06–0:12] — APPROACH
-Exterior from behind: the same craft flies toward the ochre-red planet; a thin golden band of sunset light runs along the edge of its hazy, dusty atmosphere. Steady left-to-right travel.
+[0:05–0:10] — PUNCH IN
+Cut to exterior from behind: the engines flare white-hot and the craft surges forward, left to right, then pitches nose-down at the planet. A golden rim of atmosphere rushes up; heat glow streaks along the leading edges.
 
-[0:12–0:18] — DOWN THROUGH THE DUST
-The craft descends through orange dust haze. Red rock spires and deep canyons rise out of the haze, and the ruin city of @Image3 appears below in low sunset light.
+[0:10–0:15] — DIVE THROUGH THE DUST
+Cut to a fast tracking shot alongside: the craft plunges steeply through thick orange dust haze, vortex trails spiralling off its wingtips, red rock spires flashing past. The haze opens on the ruin city of @Image3, two colossal hooded statues rising dead ahead.
 
-[0:18–0:24] — LANDING AMONG THE STATUES
-After one clean time-compression cut: a low wide shot. The craft glides past the colossal hooded statues and settles on its landing gear on a flat, dusty stone plaza at the foot of the wide temple stair. Dust billows outward in a ring and slowly settles; the engines spool down.
+[0:15–0:20] — KNIFE-EDGE BETWEEN THE STATUES
+Cut to a low wide angle on the plaza looking up into the gap between the statues. The craft rolls ninety degrees onto its side and screams through the gap, wingtips metres from the carved hoods, and roars over the camera; whip-pan with it. Grit showers from the statues' shoulders.
+
+[0:20–0:24] — HARD FLARE
+Continuous with the whip-pan: the craft snaps level, flares nose-up with engines blasting downward and drops onto its landing gear on the dusty stone plaza at the foot of the wide temple stair with a heavy jolt. A ring of dust bursts toward camera.
 
 [0:24–0:30] — NOT ALONE
-The side hatch opens and its short boarding ramp lowers. Serega walks down it onto the gritty stone and takes three unhurried steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. He narrows his eyes and looks steadily ahead past the camera toward the top of the steps; his hand moves to the hilt at his belt without drawing it. Hold.
+Cut to medium-wide frontal through swirling dust: the side hatch drops open, the ramp slaps down. Serega strides briskly down it and takes three quick steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. Push in to a medium shot, even sunset light on his face for the last three seconds: eyes narrowed, he looks hard ahead past the camera toward the top of the steps; his hand goes to the hilt at his belt without drawing it. Hold.
 
 END STATE:
 Serega stands alone on the dusty plaza in front of his parked craft, looking ahead off-screen toward the top of the temple stair, his hand on the unlit hilt at his belt, dust drifting in the sunset light. Nobody else is visible.
 
 CAMERA / SPACE:
-One continuous journey with exactly one time-compression cut, into [0:18–0:24]; other transitions are motivated camera moves. Smooth inertial camera, credible ship scale, stable left-to-right travel in space. Low wide lens at the landing for the scale of the statues. Final shot: steady medium-wide frontal on Serega, parked craft behind him. Never reveal what he is looking at.
+Four motivated action cuts (into 0:05, 0:10, 0:15, 0:24); the flare continues the whip-pan. Screen direction: left to right in space, then down and forward into the ruins. Fast tracking, low angles, one fly-by and one whip-pan; the statues tower over the craft. Final shot: stable frontal on Serega, craft behind him. Never reveal what he is looking at.
 
 PERFORMANCE:
-Calm, tired and completely sure of himself; at the saber hum a sudden alert stillness, not fear. Small precise movements, no speech, no smile, no look into the lens.
+Face cool, serious and sure; every movement fast and decisive. At the saber hum: instant alert stillness, not fear. No speech, no smile, no look into the lens.
 
 LIGHTING / MATERIALS:
-Cockpit: soft instrument glow, the module's amber light on his fingers. Space: hard sunlight and deep black. Planet: low golden-orange sunset through dusty air, long statue shadows on weathered stone. Restrained grade matching the neighbouring ruin scenes.
+Cockpit instrument glow and the module's amber flare on his fingers; hard sunlight and deep black in space; golden atmospheric rim, backlit orange dust with sun shafts; low sunset and long statue shadows on weathered stone. Grade matches the neighbouring ruin scenes.
 
 AUDIO:
-Cockpit switches, a faint electronic pulse from the module, deep engine hum, the roar of atmospheric entry, engines spooling down, settling dust, wind across stone, footsteps on grit, then one low lightsaber ignition hum off-screen ahead. No dialogue, narrator or music.
+A rising pulse from the module, the engine surge, the roar of atmospheric entry, wind tearing through dust, a Doppler howl past the statues and over the camera, falling grit, the jolt of the gear, engines spooling down, hatch hiss and ramp clank, quick footsteps on grit, then one low lightsaber ignition hum off-screen ahead. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-cats, Jedi, Sith, any other person, revealing the source of the saber hum, ignited saber in Serega's hand, second ship, other ships, take-off from the forest planet, forest floor, hyperspace tunnel, space battle, explosions, lava, volcanic glow, black basalt, green vegetation, water, temple interior, ancient computer, CRT monitor, Warcraft screen, two or three modules, hologram map, projected map, folded paper map, readable text on the note, spilled mushrooms, new ship design, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+cats, Jedi, Sith, any other person, revealing the source of the saber hum, ignited saber in Serega's hand, craft clipping a statue, ship damage, crash, other ships, take-off from the forest planet, hyperspace tunnel, space battle, explosions, lava, vegetation, water, temple interior, ancient computer, two or three modules, hologram map, readable text on the note, spilled mushrooms, new ship design, melting or tiny unrecognisable face, changed face or robe, shaky handheld chaos, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image6 — `references/scenes/scene-37/S37-forest-planet-reference.png` (лесная планета).
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image3 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус).
+
+#### 40 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action dark space-fantasy, fast aerial action | Part 1 of 2: the module points the way, Serega punches into the dusty planet's atmosphere and dives toward the ruin city
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity of SEREGA.
+@Image2 — the exact map module prop design.
+@Image3 — the exact ancient ruin city of the destination planet: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, red rock spires, low golden-orange sunset haze. Architecture, palette and light only.
+@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image6 — the forest planet Serega has just left: blue-green globe, green continents, white cloud bands. Planet design only; small and receding in the side window.
+Priority: @Image1 controls Serega's face and costume; @Image4 the hull; @Image5 the cockpit; @Image3 the destination world; @Image6 the receding planet; @Image2 the prop.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight; a lightsaber hilt at his belt. He is the only person in the scene. His face appears only in the cockpit, medium framing, even light.
+
+PROP LOCK — CRITICAL:
+Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. Aimed at the destination planet the panels flare bright and pulse; it never folds, multiplies, projects a hologram or becomes a screen. It comes out of his robe and goes back there.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+MUSHROOM BASKET: one small round wicker basket of fresh brown forest mushrooms on the cockpit floor beside the pilot seat; never picked up, never spills.
+
+VEHICLE LOCK — CRITICAL:
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. One approach and one steep atmospheric dive. No take-off from the forest world, no hyperspace tunnel, no other ships, no battle, no crash.
+
+START STATE:
+Serega sits alone at the controls in the cockpit from @Image5, in open space. The small green forest planet from @Image6 recedes in the side window; a small dusty ochre-red planet hangs far ahead. The module is hidden in his robe; the note is on the console, the basket on the floor.
+
+TIMELINE:
+[0:00–0:05] — THE MODULE POINTS ONWARD
+Medium cockpit shot, even instrument light on his face; the yellow grocery note in the near foreground, both drawings readable for two seconds. Serega whips the module out of his robe and aims it at the ochre-red planet: the amber panels flare bright and pulse. He snaps it back into his robe and slams the throttle forward.
+
+[0:05–0:09] — PUNCH IN
+Cut to exterior from behind: the engines flare white-hot and the craft surges forward, left to right, then pitches nose-down at the planet. A golden rim of atmosphere rushes up; heat glow streaks along the leading edges.
+
+[0:09–0:15] — DIVE THROUGH THE DUST
+Cut to a fast tracking shot alongside the craft: it plunges steeply through thick orange dust haze, vortex trails spiralling off its wingtips; red rock spires flash past close to camera. The haze opens: the ruin city of @Image3 below, two colossal hooded statues standing close together dead ahead, the craft still diving straight at them.
+
+END STATE:
+Exterior, the craft in a steep fast dive through thinning orange haze toward the ruin city, the two colossal hooded statues with a narrow gap between them looming ahead and below. Serega is inside, unseen.
+
+CAMERA / SPACE:
+Two motivated action cuts (into 0:05 and 0:09). Consistent screen direction: left to right in space, then down and forward. Punchy tracking and fast parallax past rock spires; the craft stays sharp and solid.
+
+PERFORMANCE:
+Face cool, serious and certain; hands fast and decisive. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Cockpit instrument glow, the module's amber flare on his fingers. Hard sunlight and deep black in space; golden atmospheric rim; backlit orange dust with sun shafts over the ochre ruins.
+
+AUDIO:
+Cockpit switches, a rising electronic pulse from the module, the throttle thump and engine surge, the roar of atmospheric entry, wind tearing through dust, rock spires whooshing past. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+any other person, cats, Jedi, Sith, second ship, crash, ship damage, take-off from the forest planet, hyperspace tunnel, space battle, explosions, lava, vegetation, water, landing in this part, two or three modules, hologram map, readable text on the note, spilled mushrooms, new ship design, melting or morphing face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 40 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action dark space-fantasy, fast aerial action into a tense stop | Part 2 of 2: knife-edge pass between two colossal hooded statues, hard flare landing on the temple plaza, Serega freezes at an unseen saber hum
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the craft diving through orange haze toward the two colossal hooded statues. Absolute authority for the START STATE, the craft's position, direction and the light.
+@Image1 — absolute identity of SEREGA.
+@Image2 — the exact ancient ruin city: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, broken pillars, golden-orange sunset haze. Architecture, palette and light of the landing site.
+@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+Priority: @Video1 controls the start; @Image1 controls Serega's face and costume; @Image3 the hull; @Image2 the ruins.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty and creased after a recent fight but intact; a lightsaber hilt hangs at his belt. He is the only person in the scene. No cats, Jedi, Sith or droids. His face is shown only in the final shot, medium framing, even sunset light.
+
+VEHICLE / LANDING LOCK — CRITICAL:
+The same craft as in @Video1 and @Image3: same silhouette, colour, engine glow and scale. Access only through its single side hatch with a short fold-down boarding ramp. One knife-edge pass between the statues and one hard landing on its landing gear; it never touches a statue and is never damaged. No other ships, no crash, no cockpit shots in this part.
+
+LOCATION LOCK:
+A dry, dusty canyon world with the ruin city of @Image2; fine dust and rare ember-like sparks drift near the ground. Two colossal hooded statues stand close together at the edge of the temple plaza with a narrow gap between them. No lava, vegetation or water.
+
+START STATE:
+Exactly the last frame of @Video1: the craft diving fast toward the two colossal hooded statues above the ruin city in orange sunset haze.
+
+TIMELINE:
+[0:00–0:04] — KNIFE-EDGE
+Continuing @Video1, then a cut to a low wide angle on the plaza looking up into the narrow gap between the statues: the craft rolls ninety degrees onto its side and screams through the gap, wingtips metres from the carved hoods, and roars just over the camera; whip-pan with it. Grit showers from the statues' shoulders.
+
+[0:04–0:08] — HARD FLARE
+Continuous with the whip-pan: the craft snaps level, flares nose-up with engines blasting downward and drops onto its landing gear on the dusty stone plaza at the foot of the wide temple stair with a heavy jolt. A ring of dust bursts outward toward camera; engines spool down.
+
+[0:08–0:15] — NOT ALONE
+Cut to medium-wide frontal through swirling dust: the side hatch drops open, the short ramp slaps down. Serega strides briskly down it and takes three quick steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. Push in to a medium shot, even light on his face for the last three seconds: eyes narrow, he looks hard ahead past the camera toward the top of the steps; his hand goes to the hilt at his belt without drawing it. Hold.
+
+END STATE:
+Serega stands alone on the dusty plaza in front of his parked craft, looking ahead off-screen toward the top of the temple stair, hand on the unlit hilt, dust drifting in the sunset light. Nobody else is visible.
+
+CAMERA / SPACE:
+Two motivated action cuts (into the low statue angle and into 0:08). Screen direction continues @Video1. Low angles for the statues' scale, one fly-by over the camera, one whip-pan on motion; the final frontal shot is stable. Never reveal what he is looking at.
+
+PERFORMANCE:
+Face cool and serious, movements fast and decisive; at the hum an instant alert stillness, not fear. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset through dusty air, long statue shadows on weathered ochre stone, warm glints on the dark-grey hull, backlit dust after the landing.
+
+AUDIO:
+Doppler howl as the craft knifes past the statues and over the camera, falling grit, the heavy jolt of the gear, engines spooling down, hatch hiss and ramp clank, quick footsteps on grit, then one low lightsaber ignition hum off-screen ahead and wind across stone. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+cats, Jedi, Sith, any other person, revealing the source of the saber hum, ignited saber in Serega's hand, craft clipping a statue, ship damage, crash, second ship, cockpit interior, temple interior, ancient computer, lava, vegetation, water, map module, hologram, new ship design, melting or morphing face, tiny unrecognisable face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -2053,6 +2457,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **READY:** настоящий внешний вид крейсера извлечён из ч. 1, 11:22, сохранён как @Image6. Сцена добавлена в разрешённую очередь после танцев.
 - Создана по команде владельца 16.10.2026 (разбор — `reports/serega-travel-2026-10-14.md`).
 - Запуск — только по команде владельца.
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — на взлёте рушится каменная голова статуи, корабль уходит от неё креном; резкое торможение в ангаре флагмана, привязанный ПК комично качается. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:**
 
@@ -2072,11 +2477,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** На закате Серёга выходит из арки храма. Перед ним, поднятые Силой, плывут бежевый системный блок и массивный CRT-монитор; клавиатура у него под мышкой, провод болтается. Он заводит всё по короткой рампе через боковой люк в кабину и пристёгивает монитор ремнём к пассажирскому креслу, рядом со стикером «хлеб и молоко» и корзинкой с грибами. Корабль взлетает с пыльной площади, уходит от охристой планеты и летит к огромному крейсеру Канцлера, к освещённому проёму ангара.
+**Что происходит:** На закате Серёга быстро выходит из арки храма, перед ним Сила несёт бежевый системный блок и CRT-монитор. Он забрасывает их в кабину через боковой люк и одним резким движением пристёгивает монитор к пассажирскому креслу. На взлёте от грохота двигателей с повреждённой в бою статуи откалывается каменная голова и падает на корабль; Серёга уходит креном, и голова разбивается о площадь. В космосе он на полной скорости летит к флагману и резко тормозит у освещённого ангара. Пристёгнутый монитор комично качается, и Серёга не глядя придерживает его ладонью. Корабль входит в свет проёма ангара.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-fantasy, deadpan | Serega carries the ancient 1990s computer out of the Sith temple by the Force, straps it into his craft and flies it back to his flagship
+Optimized for Wan 3.0 | Photoreal live-action space-fantasy action, deadpan | Serega Force-carries the ancient 1990s computer aboard, dodges a falling statue head at lift-off and brakes hard into his flagship's hangar
 
 REFERENCES / AUTHORITY ORDER:
 @Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Absolute authority for the shape, colour, wear and dust of these three objects; the niche and the kneeling figure are not part of this shot.
@@ -2088,56 +2493,193 @@ REFERENCES / AUTHORITY ORDER:
 Priority: @Image2 controls the computer objects; @Image3 controls the ruins; @Image4 controls the hull; @Image5 controls the cockpit; @Image6 controls the flagship; @Image1 controls Serega's face and costume.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the entire scene. No cats, no Jedi, no Sith, no droids, no crew.
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face is shown only in medium framing with even light; never a tiny face during the flight action.
 
 PROP LOCK — CRITICAL:
-Exactly one beige 1990s desktop system unit, exactly one heavy CRT monitor and exactly one keyboard, identical to @Image2 in every shot: same scratches, dust and dangling cables. The computer stays switched OFF for the whole scene: dark screen, no lights, no game, no text. No map modules, holograms or glowing artifacts are shown.
+Exactly one beige 1990s system unit, one heavy CRT monitor and one keyboard, identical to @Image2 in every shot: same scratches, dust and dangling cables. Switched OFF throughout: dark screen, no lights, no game, no text. Strapped, it rocks but never breaks loose, falls or cracks. No map modules or holograms.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
-MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
+MUSHROOM BASKET: one small round wicker basket of fresh brown forest mushrooms on the cockpit floor beside the pilot seat; never picked up, never spills.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Image4 in every shot; access only through its single side hatch with a short fold-down boarding ramp. Parked on the dusty stone plaza at the foot of the temple stair at the start, then one lift-off, one climb out of the atmosphere, one approach to the flagship from @Image6. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
+One and the same craft from @Image4 in every shot; access only through its single side hatch with a short fold-down boarding ramp. Parked on the plaza at the start, then one lift-off, one dodge, one climb out, one fast approach and hard braking at the flagship from @Image6. Never hit or damaged. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
+
+RUINS / DEBRIS LOCK:
+The ruins of @Image3 carry fresh battle damage: scorched stone, deep cracks, smoking rubble. Exactly one falling object: the cracked stone head of one colossal hooded statue; it misses the craft by metres. Nothing else collapses.
 
 START STATE:
 Sunset outside the temple from @Image3. Serega's craft stands parked on the dusty plaza at the foot of the stair, side hatch open and short boarding ramp lowered. Serega appears in the dark temple arch at the top of the stair.
 
 TIMELINE:
-[0:00–0:06] — OUT OF THE TEMPLE
-Serega walks out of the temple arch and down the wide stair. In front of him, floating steadily at chest height by the Force, glide the beige system unit and the CRT monitor; the keyboard is tucked under his arm, its cable swinging. Two raised fingers guide them with calm, practised control.
+[0:00–0:05] — OUT OF THE TEMPLE
+Low tracking shot backing down the stair ahead of him: Serega strides fast out of the arch and down the stair. Before him the system unit and the CRT float at chest height by the Force, steered by two raised fingers; the keyboard is under his arm, cable swinging. Medium framing, even sunset light on his face.
 
-[0:06–0:12] — LOADING THE CRAFT
-At the craft he floats both objects up the short boarding ramp through the side hatch into the cockpit and lowers them onto the passenger seat. With dry, careful precision he pulls the seat strap across the CRT and clicks it shut, then sets the keyboard on top. The same yellow grocery note stays on the console and the mushroom basket on the floor beside him.
+[0:05–0:10] — STRAPPED IN
+Cut inside the cockpit: the two objects sail in through the side hatch and land on the passenger seat. Serega yanks the seat strap across the CRT and clicks it in one sharp move, drops the keyboard on top and drops into the pilot seat. Note on the console, basket on the floor.
 
-[0:12–0:18] — LIFT-OFF FROM THE RUINS
-Exterior wide: the craft lifts off the plaza; dust swirls around the hooded statues and the broken pillars; it climbs into the orange sky.
+[0:10–0:16] — LIFT-OFF AND THE FALLING HEAD
+Cut to exterior wide: the craft blasts off the plaza in a storm of dust. The engine thunder shakes the cracked ruins; the stone head of a colossal hooded statue splits free and topples toward the rising craft. The craft snaps into a hard sideways roll and slips past; the head plunges by metres away and smashes onto the plaza in a burst of dust. The craft levels and climbs steeply into the orange sky.
 
-[0:18–0:24] — LEAVING THE DUST WORLD
-Cockpit: Serega at the controls, the strapped dark CRT on the seat beside him, the ochre-red planet curving away below through the window into black space. Keep the same yellow note near his hand sharply visible for at least two seconds, with both grocery drawings legible; the CRT must not cover it. He checks the secured computer and returns to piloting, leaving the reminder untouched.
+[0:16–0:21] — FLAT OUT TO THE FLAGSHIP
+After one clean time-compression cut: exterior from behind in black space, the ochre-red planet curving away below. The craft streaks left to right at full speed toward the huge flagship from @Image6, which grows fast in frame, its hangar a bright rectangle of light.
 
-[0:24–0:30] — TOWARD THE FLAGSHIP
-After one clean time-compression cut: exterior from behind; the small craft approaches the huge flagship from @Image6 and heads for its brightly lit hangar opening. Hold this composition; the craft is still outside.
+[0:21–0:26] — HARD BRAKE, WOBBLING CRT
+Cut to the cockpit, medium shot, even light: the lit hangar mouth rushes closer in the front window. Retro-thrusters fire and the cockpit lurches; the strapped dark CRT rocks forward against its strap and back, the keyboard skidding on top. Without looking, Serega slaps a flat hand on the monitor to steady it, the other on the controls. The yellow note on the console stays sharp and unobstructed for two seconds, both drawings legible, right in front of him while he deals with the computer.
+
+[0:26–0:30] — INTO THE LIGHT
+Cut to exterior from behind and slightly to the side: retro-thrusters flaring, the craft decelerates hard and glides into the lit hangar opening of the flagship, just crossing the threshold into the light as the shot holds. No hangar interior is shown.
 
 END STATE:
-The small craft flying toward the lit hangar opening of the huge flagship; inside it, the switched-off computer strapped to the passenger seat.
+The small craft braking into the lit hangar opening of the huge flagship, seen from outside; inside it, the switched-off computer strapped to the passenger seat.
 
 CAMERA / SPACE:
-Steady medium-wide on the stair and plaza, a controlled move into the cockpit, then exterior and cockpit angles of one journey. Exactly one time-compression cut, into [0:24–0:30]. Smooth inertial camera, credible scale, stable left-to-right travel in space. No orbit, shake or zoom jumps.
+Five motivated cuts (0:05, 0:10, 0:16, 0:21, 0:26); the 0:16 cut compresses the climb out. Screen direction: down the stair to the craft, up and away from the ruins, left to right toward the flagship. The wide keeps the craft and the falling head readable together; fast chase framing in space; a jolting but stable cockpit medium. The statue head is larger than the craft; the flagship dwarfs it. No random handheld chaos.
 
 PERFORMANCE:
-Completely serious, like a museum curator moving a priceless relic. The comedy lies in the care he gives to an old beige computer and in the click of the seat strap. No smile, no look into the lens, no speech.
+Completely serious, like a museum curator moving a priceless relic, but brisk and decisive: the fast stride, the sharp strap click, the reflexive slap on the CRT. The comedy is the care he gives an old beige computer while dodging falling ruins. No smile, no look into the lens, no speech.
 
 LIGHTING / MATERIALS:
-Golden-orange low sunset through drifting dust; warm weathered stone; the dull plastic of the yellowed system unit and the curved dark glass of the CRT catch the sunset. Cockpit instrument glow. Hard sunlight and deep black in space; the flagship's hangar is a bright rectangle of light.
+Low golden-orange sunset through dust and smoke; weathered, scorched stone; the yellowed plastic and the curved dark CRT glass catch the sunset. Cockpit instrument glow. Hard sunlight and deep black in space; the hangar light floods the cockpit during braking.
 
 AUDIO:
-Wind across stone, footsteps on the gritty stair, a faint low Force hum while the objects float, the soft knock of plastic set down, the click of the seat strap, the hatch hiss, engine spin-up, dust roar at lift-off, wind fading to a deep hum in space. No dialogue, narrator, music, computer start-up sounds or game sounds.
+Wind across stone, quick footsteps on grit, a faint low Force hum, the knock of plastic set down, the strap click, engine spin-up, dust roar at lift-off, the crack of the statue head, its whoosh past and the crash, a deep hum in space, engines at full burn, the thump of retro-thrusters, the CRT rattling against its strap and the slap of his palm on it. No dialogue, narrator, music, computer start-up sounds or game sounds.
 
 NEGATIVE PROMPT:
-computer switched on, glowing screen, game footage, Warcraft logo, text on screen, map modules, hologram, cats, Jedi, any other person, crew, droids, new ship design, second ship, space battle, hyperspace tunnel, docking interior, lava, volcanic glow, green vegetation, modern gaming PC, laptop, RGB lights, duplicated monitor or keyboard, objects morphing, readable text on the note, spilled mushrooms, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+computer switched on, glowing screen, game footage, Warcraft logo, CRT breaking loose, map modules, hologram, cats, Jedi, any other person, crew, droids, craft hit by debris, ship damage, crash, more than one falling object, new ship design, second ship, space battle, hyperspace tunnel, docking interior, hangar interior, lava, vegetation, modern gaming PC, laptop, duplicated monitor or keyboard, objects morphing, readable text on the note, spilled mushrooms, melting or morphing face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина).
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png` (корпус); @Image4 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image5 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png` (крейсер/флагман).
+
+#### 41 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action, deadpan | Part 1 of 2: Serega Force-carries the ancient computer aboard, straps it in and dodges a falling statue head at lift-off
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity of SEREGA.
+@Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Shape, colour, wear and dust of these three objects only; the niche and the kneeling figure are not part of this shot.
+@Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
+@Image4 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+Priority: @Image1 controls Serega's face and costume; @Image2 the computer; @Image3 the ruins; @Image4 the hull; @Image5 the cockpit.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face is shown in medium framing with even light; never a tiny face during the action.
+
+PROP LOCK — CRITICAL:
+Exactly one beige 1990s system unit, one heavy CRT monitor and one keyboard, identical to @Image2: same scratches, dust and dangling cables. Switched OFF throughout: dark screen, no lights, no text. Once strapped it never breaks loose. No map modules or holograms.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+MUSHROOM BASKET: one small round wicker basket of fresh brown forest mushrooms on the cockpit floor beside the pilot seat; never picked up, never spills.
+
+VEHICLE / DEBRIS LOCK — CRITICAL:
+The same craft from @Image4; access only through its single side hatch with a short fold-down boarding ramp. One lift-off and one dodge. The ruins carry fresh battle damage: scorched stone, deep cracks, smoking rubble. Exactly one falling object: the cracked stone head of one colossal hooded statue, larger than the craft; it misses by a few metres and smashes on the plaza. The craft is never hit.
+
+START STATE:
+Sunset outside the temple from @Image3. The craft stands parked on the dusty plaza at the foot of the stair, side hatch open, short ramp lowered. Serega appears in the dark temple arch at the top of the stair.
+
+TIMELINE:
+[0:00–0:05] — OUT OF THE TEMPLE
+Low tracking shot backing down the stair ahead of him: Serega strides fast out of the arch and down the stair. The system unit and the CRT float before him at chest height by the Force; the keyboard is under his arm, cable swinging; two raised fingers steer. Medium framing, even sunset light on his face.
+
+[0:05–0:09] — STRAPPED IN
+Cut inside the cockpit: the objects sail in through the side hatch onto the passenger seat. Serega yanks the seat strap across the CRT and clicks it in one sharp move, drops the keyboard on top and drops into the pilot seat. The yellow note on the console readable for two seconds; the basket on the floor.
+
+[0:09–0:15] — LIFT-OFF AND THE FALLING HEAD
+Cut to exterior wide: the craft blasts off the plaza in a storm of dust. The engine thunder shakes the cracked ruins; the stone head of a colossal hooded statue splits free and topples toward the rising craft. The craft snaps into a hard sideways roll and slips past; the head plunges by and smashes on the plaza. The craft levels and climbs steeply into the orange sky.
+
+END STATE:
+Exterior: the craft climbing steeply away from the dust-shrouded ruins into the orange sky, the fallen statue head shattered on the plaza below.
+
+CAMERA / SPACE:
+Two motivated cuts (into 0:05 and 0:09). Direction: down the stair toward the craft, then up and away. The wide keeps the craft and the falling head readable together. Credible scale.
+
+PERFORMANCE:
+Completely serious, like a museum curator moving a priceless relic, but brisk and decisive. No smile, no look into the lens, no speech.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset through dust and smoke; scorched stone; the yellowed plastic and dark CRT glass catch the light; cockpit instrument glow.
+
+AUDIO:
+Quick footsteps on grit, a faint Force hum, the strap click, engine spin-up, dust roar at lift-off, the deep crack of the statue head, its whoosh past and the crash on the plaza. No dialogue, narrator, music or computer sounds.
+
+NEGATIVE PROMPT:
+computer switched on, glowing screen, game footage, text on screen, map modules, hologram, cats, Jedi, any other person, crew, droids, craft hit by debris, ship damage, crash, more than one falling object, new ship design, second ship, flagship, lava, vegetation, modern PC, duplicated monitor or keyboard, objects morphing, readable text on the note, spilled mushrooms, melting or morphing face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 41 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action, deadpan | Part 2 of 2: Serega races to his flagship and brakes hard into its lit hangar while the strapped CRT wobbles comically
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the craft climbing steeply away from the ruins into the orange sky. Absolute authority for the START STATE, the craft and its direction.
+@Image1 — absolute identity of SEREGA.
+@Image2 — the exact yellowed beige 1990s system unit, heavy beige CRT monitor and keyboard. These objects only; not the niche or the kneeling figure.
+@Image3 — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.
+@Image4 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image5 — Serega's huge imperial flagship exactly as shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
+Priority: @Video1 controls the start; @Image1 Serega's face and costume; @Image2 the computer; @Image3 the hull; @Image4 the cockpit; @Image5 the flagship.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+@Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, dusty from the temple. He is the only person in the scene. His face appears only in the cockpit, medium framing, even light.
+
+PROP LOCK — CRITICAL:
+Exactly one beige 1990s system unit, one heavy CRT monitor and one keyboard, identical to @Image2, strapped to the passenger seat with the keyboard on top. Switched OFF throughout: dark screen, no lights, no text. It rocks against the strap but never breaks loose, falls or cracks. No map modules or holograms.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+MUSHROOM BASKET: one small round wicker basket of fresh brown forest mushrooms on the cockpit floor beside the pilot seat; never picked up, never spills.
+
+VEHICLE / TRAVEL LOCK — CRITICAL:
+The same craft as in @Video1 and @Image3. One climb out of the atmosphere, one fast approach and hard braking at the flagship from @Image5. No docking interior, no hangar interior, no second small ship, no space battle, no hyperspace tunnel.
+
+START STATE:
+Exactly the last frame of @Video1: the craft climbing steeply into the orange sky above the dusty ruins.
+
+TIMELINE:
+[0:00–0:05] — FLAT OUT TO THE FLAGSHIP
+Continuing @Video1, the craft punches out of the haze, then one time-compression cut to black space, the ochre-red planet curving away below. Exterior from behind: the craft streaks left to right at full speed, engines blazing, toward the flagship, which grows fast in frame, its hangar opening a bright rectangle of light.
+
+[0:05–0:11] — HARD BRAKE, WOBBLING CRT
+Cut to the cockpit, medium shot, even instrument light: the lit hangar mouth rushes closer through the front window. Retro-thrusters fire and the cockpit lurches; the strapped dark CRT rocks forward against its strap and back, the keyboard skids on top. Without looking, Serega slaps a flat hand on top of the monitor to steady it, the other hand on the controls. The yellow note stays sharp and unobstructed for two seconds, both drawings legible, right in front of him. The basket stays put.
+
+[0:11–0:15] — INTO THE LIGHT
+Cut to exterior from behind and slightly to the side: retro-thrusters flaring, the craft brakes hard and glides into the lit hangar opening of the flagship, just crossing the threshold into the light as the shot holds. No interior shown.
+
+END STATE:
+The small craft braking into the lit hangar opening of the huge flagship, seen from outside; inside it, the switched-off computer strapped to the passenger seat.
+
+CAMERA / SPACE:
+Three motivated cuts (time-compression into space, into 0:05, into 0:11). Left-to-right travel toward the flagship kept consistent. Fast chase framing outside, a jolting but stable cockpit medium; the flagship dwarfs the craft.
+
+PERFORMANCE:
+Deadpan, fast reflexes: the slap on the CRT is automatic, eyes on the hangar. No smile, no look into the lens, no speech.
+
+LIGHTING / MATERIALS:
+Hard sunlight and deep black in space; the hangar light floods the cockpit during braking; instrument glow on the yellowed plastic and dark CRT glass.
+
+AUDIO:
+Wind fading to a deep hum in space, engines at full burn, the thump of retro-thrusters, the rattle of the CRT against its strap and the slap of his palm on it, engines winding down. No dialogue, narrator, music, computer start-up or game sounds.
+
+NEGATIVE PROMPT:
+computer switched on, glowing screen, game footage, Warcraft logo, text on screen, CRT breaking loose or falling, map modules, hologram, cats, Jedi, any other person, crew, droids, ship damage, crash, new ship design, second ship, space battle, hyperspace tunnel, docking interior, hangar interior, duplicated monitor or keyboard, objects morphing, readable text on the note, spilled mushrooms, melting or morphing face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -2156,6 +2698,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - Машина после разрушения не появляется (W8). Модуль карты в этой сцене не показывается — его исход в Scene 48.
 - **READY:** настоящий последний кадр Scene 16 извлечён и проверен (899/899, 29.966667 с), подключён как @Image6. В разрешённой очереди после танцев.
 - В монтаж 15–25 с. Запуск — только по команде владельца.
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — плита-трамплин, прыжок через движущуюся спину червя, брошенный крутящийся меч Серёги отбит и пойман. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:**
 
@@ -2173,11 +2716,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — руины"></a><figcaption>@Image4 — руины</figcaption></figure>
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure><figure><a href="references/scenes/scene-42/S42-start-from-S16-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-42/S42-start-from-S16-result.png.webp" alt="@Image6 — настоящий конец Scene 16, 29.966667 с"></a><figcaption>@Image6 — настоящий конец Scene 16, 29.966667 с</figcaption></figure></div>
 
-**Что происходит:** Бой на руинах продолжается, а колоссальный червь крушит всё вокруг: сносит опоры ворот, раскалывает обелиск, роет волны песка. Илюша и Артём фехтуют с Серёгой, не отрываясь от дуэли. Когда червь бьёт рядом, каждый уходит от удара ленивым полушагом или наклоном, даже не глядя на него, и сразу возвращается к поединку. Червь в ярости ревёт над ними, но никому до него нет дела.
+**Что происходит:** Из пыли последнего кадра 16 все трое тут же снова бросаются в бой — быстрый и жёсткий, а червь за их спинами крушит руины. Червь сносит левую опору ворот: Артём взбегает по падающей плите и обрушивается на Серёгу сверху, Илюша мимоходом перепрыгивает через спину червя, скользящую по песку, Серёга швыряет вращающийся меч, Илюша его отбивает, а Серёга ловит вернувшуюся рукоять. Червь раскалывает обелиск, верхняя половина падает на бок рядом с Артёмом, тот лениво отступает на полшага; с вставшего на дыбы червя льётся песок, они фехтуют прямо сквозь него. В конце три меча скрещены на переднем плане, а пасть червя неподвижно висит над ними — никто даже не поднимает глаз.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, deadpan action comedy | Two Jedi keep dueling the Chancellor while a colossal sandworm destroys everything around them, and none of them cares
+Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fierce stunt duel with a deadpan running gag | Two Jedi and the Chancellor fight a fast acrobatic duel straight through the ruins a colossal sandworm is wrecking, and none of them cares about the worm
 
 REFERENCES / AUTHORITY ORDER:
 @Image6 — the genuine final frame of the previous scene: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
@@ -2195,48 +2738,188 @@ ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown oute
 Exactly three people. No other characters, no vehicles.
 
 WORM / DESTRUCTION LOCK — CRITICAL:
-The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. It keeps destroying the ruins of @Image4 around the duel: it smashes one gate pier, cracks the central obelisk in half, ploughs a trench of sand and throws debris. It strikes near the duelists several times but never hits, swallows or touches anyone. Nobody ever fights the worm or looks up at it for more than a glance.
+The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. It wrecks the ruins of @Image4 around the duel, and the damage only accumulates: it smashes the LEFT gate pier into falling slabs (the right pier stays standing), and it cracks the central obelisk in half so that its top half topples and ends lying on its side on the sand as one long stone block. It strikes near the duelists again and again but never hits, swallows or touches anyone, and nobody touches it. Nobody ever fights the worm or looks at it for more than a glance.
 
 START STATE:
-Begin exactly from @Image6: Artem crouched on frame-left, Serega in the centre, Ilyusha on frame-right, all alive with the enormous worm behind them amid dense native dust. They straighten and re-engage as the dust moves; individual sheets preserve faces and costumes.
+Begin exactly from @Image6: Artem crouched on frame-left, Serega in the centre, Ilyusha on frame-right, all alive with the enormous worm behind them amid dense native dust. Their blades blaze to full brightness through the clearing dust and they spring straight back into the fight; individual sheets preserve faces and costumes.
 
 TIMELINE:
-[0:00–0:06] — BACK TO THE DUEL
-The three re-engage at once: blue and green blades against red in fast clean exchanges. Behind them the worm smashes through the left gate pier; stone blocks rain down. Nobody turns around.
+[0:00–0:04] — BACK TO THE DUEL
+From the @Image6 composition the three explode out of their crouch: blue and green blades against red in fast, hard, clean exchanges, sparks spitting at every clash. Behind them the worm smashes through the left gate pier; huge slabs start to rain down. Nobody turns around.
 
-[0:06–0:12] — A LAZY HALF-STEP
-The worm's head slams into the sand right beside the fighters. Without breaking his attack, Ilyusha takes one lazy half-step sideways and the strike misses him by a metre; he keeps fencing as if a fly had passed. Serega leans back an inch to let a flying slab go by and parries Artem.
+[0:04–0:09] — THE FALLING SLAB
+A giant slab from the pier crashes down beside the duel and lands tilted like a ramp. Without a glance at it, Artem runs up the slab in three heavy strides, launches off its top edge and drops onto Serega with a two-handed overhead strike. Serega catches it on the red blade in a low crouch; sand bursts out under his boots, and he throws Artem off with one shove of the blade.
 
-[0:12–0:18] — THE OBELISK
-The worm cracks the central obelisk in half; the top half topples toward Artem. Mid-swing, he steps over the falling stone with mild annoyance, like stepping over a puddle, and continues his combination. Serega blocks it with bored precision.
+[0:09–0:13] — OVER THE WORM
+A long stretch of the worm's back slides through the sand between Ilyusha and Serega, only waist-high above the surface, the rest of the colossal body still submerged, like a moving wall. Ilyusha does not stop: he hurdles the moving ridge in one bored, economical leap in mid-attack, without looking down, and lands straight into a slash that Serega parries. Neither touches the worm.
 
-[0:18–0:24] — THE WORM IS IGNORED
-The worm rears high above them and roars, a huge wave of sand bursting outward. All three duck under it at the same moment without looking, straighten up and lock blades again: three glowing sabers crossed in the middle of the frame.
+[0:13–0:18] — THE THROWN SABER
+Serega hurls his red saber at Ilyusha; it spins through the air like a glowing disc. Ilyusha deflects it upward with the blue blade; it whirls back in a wide arc. Serega ducks under Artem's green swing, catches the returning hilt in one hand and blocks Artem's next strike in the same motion.
 
-[0:24–0:30] — STILL NOT INTERESTED
-Hold the crossed blades in the foreground. Behind them the worm thrashes, ploughs a trench through the last standing ruin and stops, its gaping maw hanging over the three, as if waiting for attention. None of them looks up; they push against each other's blades.
+[0:18–0:22] — THE OBELISK
+In the background the worm cracks the central obelisk in half; the top half topples straight toward Artem. Mid-combination, he takes one lazy half-step aside; the stone crashes down beside him and comes to rest on its side as a long block. He steps over its end as if over a puddle and continues his attack. Serega blocks it with bored precision.
+
+[0:22–0:26] — FENCING IN THE SAND RAIN
+The worm rears high above the duel and roars; tons of sand pour off its body in a heavy curtain straight onto the fighting ground. The three fence straight through the falling sand, the blades hissing and flaring in it, and all three duck the same flying debris at the same moment without looking up.
+
+[0:26–0:30] — STILL NOT INTERESTED
+Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right, pushing against each other. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand still trickling from it, as if waiting for attention. None of them looks up. Hold.
 
 END STATE:
-The three duelists locked blade against blade in the foreground, ignoring the worm that looms motionless over them amid falling dust and broken ruins.
+The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken in half with its top half lying on its side as a long block.
 
 CAMERA / SPACE:
-One continuous take, wide to medium within the same shot, controlled lateral and arcing moves; no cuts. Start with the exact left/centre/right positions of @Image6; follow their visible steps into the duel without teleporting them or resetting geography, the worm stays behind them. Keep the worm partly in frame at all times for scale; let the destruction fill the background while the duel stays readable in the foreground. Only motivated impact vibration.
+The first shot begins exactly from the @Image6 framing. Then five motivated action cuts on movement, each matching screen direction and the left/centre/right geography: a low angle on Artem's run up the slab, a fast lateral tracking shot on Ilyusha's leap over the worm's back, a whip-pan that follows the spinning red saber and lands on Serega's catch, a wide for the falling obelisk and sand curtain, then a closer medium for the final lock. Fast action plays in wide and medium-wide shots with whole bodies visible; faces are recognised in medium shots, never tiny during speed. Keep the worm partly in frame in every wide shot for scale. No shaky handheld chaos, no teleporting, no spatial resets.
 
 PERFORMANCE:
-Completely deadpan. The fighters are focused only on each other: precise, fast swordplay, but their dodges from the worm are minimal, lazy and bored, never panicked. No fear, no screaming, no mugging, no look into the lens, no speech.
+The duel is fast, fierce and athletic with real weight: hard strikes, jumps, crouching blocks, a thrown saber. The deadpan gag is the contrast: toward the worm all three are lazy, bored and unimpressed, dodging it with minimal half-steps and casual hops in stride, never panicked, never looking at it. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
 
 LIGHTING / MATERIALS:
-Harsh warm desert sunlight, dry haze, long ruin shadows, sand and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes through the dust.
+Harsh warm desert sunlight, dry haze, long ruin shadows, sand sheets and stone debris in the air, realistic cloth and dust interaction, falling sand catching the light; saber light flickers on faces and robes through the dust.
 
 AUDIO:
-Saber hums and clashes in the foreground, footsteps on sand; the worm's deep roar, smashing stone and crashing sand behind, a little lower in the mix as if the fighters do not hear it; exertion breaths only. No dialogue, narrator or music.
+Saber hums, crackling clashes and whooshes in the foreground, the spinning saber's rising and falling whirr, heavy footsteps on stone and sand; the worm's deep roar, smashing stone and pouring sand behind, a little lower in the mix as if the fighters do not hear it; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, death, blood, characters fighting or attacking the worm, characters fleeing in panic, screaming, fear, car, speeder, vehicle wreck, extra people, duplicated characters, map module, hologram, wrong saber colours, cuts, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or touching anyone, anyone touching or riding the worm, death, blood, characters fighting or attacking the worm, characters fleeing in panic, screaming, fear, slow motion, static standing duel, Force shove, sliding down a sand slope, standing on the toppled obelisk, both gate piers destroyed, obelisk left intact, car, speeder, vehicle wreck, extra people, duplicated characters, map module, hologram, wrong saber colours, second red saber, teleporting characters, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`; @Image6 — `references/scenes/scene-42/S42-start-from-S16-result.png` (настоящий конец 16, старт).
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`.
+
+#### 42 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fierce stunt duel with a deadpan running gag | Part 1 of 2: the duel restarts and turns acrobatic in the ruins the ignored sandworm is wrecking
+
+REFERENCES / AUTHORITY ORDER:
+@Image6 — the genuine final frame of the previous scene: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only.
+@Image5 — the exact colossal segmented sandworm: scale and design only; far larger than people and gate piers.
+Priority: @Image6 controls the start; @Image1–@Image3 control identities; @Image4 the location; @Image5 the worm.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe; RED lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+WORM / DESTRUCTION LOCK — CRITICAL:
+The same colossal worm from @Image5, always far larger than the gate piers. In this part it smashes the LEFT gate pier into falling slabs; the right pier and the central obelisk still stand. It never hits, swallows or touches anyone, and nobody touches it. Nobody fights it or looks at it for more than a glance.
+
+START STATE:
+Exactly @Image6: Artem crouched frame-left, Serega centre, Ilyusha frame-right, the enormous worm behind them in dense dust. Their blades blaze to full brightness as they spring back into the fight.
+
+TIMELINE:
+[0:00–0:04] — BACK TO THE DUEL
+From the @Image6 framing all three explode out of the crouch: blue and green against red in fast, hard exchanges, sparks at every clash. Behind them the worm smashes the left gate pier; giant slabs rain down. Nobody turns around.
+
+[0:04–0:08] — THE FALLING SLAB
+A slab crashes down beside the duel and lands tilted like a ramp. Artem runs up it in three heavy strides, launches off the top edge and drops onto Serega with a two-handed overhead strike. Serega catches it on the red blade in a low crouch, sand bursting under his boots, and throws him off.
+
+[0:08–0:11] — OVER THE WORM
+A long stretch of the worm's back slides through the sand between Ilyusha and Serega, only waist-high above the surface, the rest of its body submerged. Ilyusha hurdles the moving ridge in one bored leap mid-attack, without looking down, and lands straight into a slash that Serega parries.
+
+[0:11–0:15] — THE THROWN SABER
+Serega hurls his red saber at Ilyusha, spinning like a glowing disc. Ilyusha deflects it upward with the blue blade; it whirls back in an arc. Serega ducks Artem's green swing, catches the returning hilt in one hand and blocks the next green strike in the same motion. Hold that block for the last second.
+
+END STATE:
+Serega in the centre holding his red saber again, blocking Artem's green blade from frame-left while Ilyusha closes in from frame-right; the left gate pier smashed into slabs, the central obelisk still standing, the worm looming behind in drifting dust.
+
+CAMERA / SPACE:
+Start exactly on the @Image6 framing, then cut on movement: low angle on Artem's run up the slab, fast lateral tracking on Ilyusha's leap, a whip-pan following the spinning saber into Serega's catch in a medium-wide. Keep left/centre/right geography and screen direction across every cut. Whole bodies in the fast shots; faces readable in the medium-wide catch. Worm partly in frame for scale in wide shots. No handheld chaos, no teleporting.
+
+PERFORMANCE:
+Fierce, athletic, weighty swordplay. Toward the worm everyone is lazy and unimpressed: casual hops in stride, no glances, no panic. Serega cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sun, dry haze, long ruin shadows, sand and stone debris in the air, real cloth and dust interaction; saber light flickering on faces and robes.
+
+AUDIO:
+Saber hums, crackling clashes, whooshes and the whirr of the spinning saber up front; heavy footsteps; the worm's roar and crashing stone behind, lower in the mix; exertion breaths only. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, slow motion, static duel, Force shove, obelisk breaking in this part, both piers destroyed, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 42 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fierce stunt duel with a deadpan running gag | Part 2 of 2: the worm breaks the obelisk and buries the duel in sand, and the three still lock blades without looking up
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the three dueling in the ruins, Serega centre blocking Artem's green blade, the smashed left gate pier, the worm behind. Absolute authority for the START STATE, positions, damage and light.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only; damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; far larger than people and gate piers.
+Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control identities; @Image4 the location; @Image5 the worm.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe; RED lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+WORM / DESTRUCTION LOCK — CRITICAL:
+The same colossal worm from @Image5, always far larger than the gate piers. The smashed left pier from @Video1 stays broken. In this part the worm cracks the central obelisk in half; its top half topples and ends lying on its side on the sand as one long stone block. It never hits, swallows or touches anyone, and nobody touches it. Nobody fights it or looks at it for more than a glance.
+
+START STATE:
+Exactly the last frame of @Video1: Artem frame-left, Serega centre with his red saber, Ilyusha frame-right, mid-duel in the ruins, the worm behind them.
+
+TIMELINE:
+[0:00–0:04] — A LAZY HALF-STEP
+Continuing @Video1 without a cut: the duel rages on in fast exchanges. The worm's head slams into the sand right beside them; Ilyusha takes one lazy half-step sideways and keeps fencing, Serega leans back an inch to let a flying stone pass and parries Artem.
+
+[0:04–0:08] — THE OBELISK
+Wide: the worm cracks the central obelisk in half and the top half topples straight toward Artem. Mid-combination he takes one bored step aside; the stone crashes beside him and comes to rest on its side as a long block. He steps over its end like a puddle and attacks again.
+
+[0:08–0:11] — FENCING IN THE SAND RAIN
+The worm rears and roars; tons of sand pour off its body in a heavy curtain onto the duel. The three fence straight through the falling sand, blades hissing and flaring, and all duck the same flying debris at once without looking up.
+
+[0:11–0:15] — STILL NOT INTERESTED
+Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand trickling from it. Nobody looks up. Hold.
+
+END STATE:
+The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken with its top half lying on its side as a long block.
+
+CAMERA / SPACE:
+First beat continues @Video1 without a cut, then cut on movement to a wide for the falling obelisk, a tracking medium-wide through the sand curtain, and a closer medium for the final lock. Keep left/centre/right geography and screen direction. Worm partly in frame for scale in wide shots. Faces only recognisable in medium shots, never tiny during speed. No handheld chaos, no teleporting.
+
+PERFORMANCE:
+Fierce, precise swordplay with real weight; toward the worm everyone is lazy, bored and unimpressed, minimal dodges, never panicked. Serega cool, Ilyusha aggressive, Artem stubborn. No speech, no mugging, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sun, dry haze, long shadows, pouring sand catching the light, stone debris and dust in the air; saber light flickering on faces and robes.
+
+AUDIO:
+Saber hums and crackling clashes up front, footsteps on sand; the worm's roar, cracking stone and pouring sand behind, lower in the mix as if nobody hears it; exertion breaths only. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, looking up at the worm, slow motion, Force shove, sliding down a slope, standing on the obelisk block, rebuilt gate pier, obelisk left intact, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 ---
 
 <a id="scene-43"></a>
@@ -2457,10 +3140,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Контекст использования:**
 
-- **Решение владельца 16.10.2026:** дуэль котов и Серёги (Scenes 27–32) заканчивается «красной точкой». Серёга понимает, что котов не победить, гасит меч и рукоятью пускает по камням красную точку. Коты не выдерживают и бросаются её ловить, а он спокойно уходит в храм. Коты остаются непобеждёнными мастерами, Серёга выигрывает хитростью.
+- **Решение владельца 16.10.2026:** дуэль котов и Серёги (Scenes 27–32) заканчивается «красной точкой». Серёга понимает, что котов не победить, гасит меч и рукоятью пускает по камням красную точку. Коты не выдерживают и бросаются её ловить, а он быстрым шагом уходит в храм. Коты остаются непобеждёнными мастерами, Серёга выигрывает хитростью.
 - **Место в фильме:** сразу после Scene 32 (арка), перед Scene 33 (Серёга один идёт по руинам к храму). В монтаж ~15–20 с.
 - **Стык:** старт — фактический последний кадр того ролика Scene 32, который пойдёт в монтаж (сейчас единственный результат — task `9746bfed635c451e97095c35b4e3b2bf`). Настоящий последний кадр 899/899 (29.966667 с) извлечён и проверен; @Image6 задаёт точный старт. На фактическом кадре арка стоит: не придумывать обрушение между сценами.
 - Без речи → Wan 3.0, как бой 30–32. READY; добавлена в разрешённую владельцем очередь после танцев, в порядке п. 6в.
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — коты атакуют с первого кадра; акробатическая охота за точкой: прыжок от стены, скольжение, столкновение лбами, рикошет. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:**
 
@@ -2478,11 +3162,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Руины"></a><figcaption>@Image4 — точные руины</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-three-subject-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-three-subject-scale.png" alt="Масштаб"></a><figcaption>@Image5 — масштаб</figcaption></figure><figure><a href="references/scenes/scene-47/S47-start-from-S32-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-47/S47-start-from-S32-result.png.webp" alt="@Image6 — настоящий конец Scene 32"></a><figcaption>@Image6 — конец 32, 29.966667 с</figcaption></figure></div>
 
-**Что происходит:** Серёга зажат котами у полуразрушенной арки. Он вдруг успокаивается, гасит красный меч и направляет пустую рукоять в землю: на камне перед котами появляется маленькая красная точка. Коты замирают, головы синхронно следят за ней, Лучик секунду держится — и сдаётся. Оба гасят мечи и бросаются ловить точку, прыгают, промахиваются, сталкиваются. Серёга загоняет точку в тёмную щель между обломками арки, коты ныряют туда же. Он опускает рукоять, поправляет мантию и один поднимается по ступеням к храму.
+**Что происходит:** Коты с двух сторон яростно атакуют Серёгу — Рыжик бьёт по ногам, Лучик прыгает с обломка сверху — и прижимают его спиной к опоре арки. Серёга с невозмутимым лицом гасит меч и пускает рукоятью красную точку; коты замирают, Лучик секунду держится и сдаётся, оба гасят и бросают мечи. Начинается бешеная охота: отталкивание от стены, скольжение на пузе, лобовое столкновение, рикошет от постамента статуи. Серёга загоняет точку в тёмную щель между обломками у арки, коты ныряют туда, а он поправляет мантию и быстрым шагом уходит по ступеням вглубь руин к храму.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action deadpan comedy at the end of a lightsaber duel | THE RED DOT — SEREGA ESCAPES BY CUNNING
+Optimized for Wan 3.0 | Photoreal live-action action comedy at the end of a lightsaber duel | THE RED DOT — a fierce two-cat saber assault corners Serega, and he escapes by cunning while the cats chase a red dot in a frantic acrobatic hunt
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
@@ -2494,57 +3178,200 @@ REFERENCES / AUTHORITY ORDER:
 Priority: @Image6 controls the exact opening frame and existing damage; @Image4 controls wider architecture, geography and sunset. @Image1, @Image2 and @Image3 control identities. @Image5 only helps scale and staging.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His saber is RED; its polished metal hilt stays in his right hand for the whole shot.
+SEREGA (@Image1): exact older pale Chancellor identity, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His saber is RED; its polished metal hilt stays in his right hand for the whole scene.
 LUCHIK (@Image2): exact white-and-grey natural long-haired cat: white muzzle/chest/forepaws, grey crown and back/facial markings, cold disciplined feline expression. BLUE saber.
-RYZHIK (@Image3): exact warm orange striped tabby with fluffy ginger coat, lighter muzzle/chest, confident ferocious feline face. GREEN saber.
-CAT SCALE: both cats ordinary housecat size, upright top-of-head roughly around Serega's knee. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands, arms or anthropomorphic bodies. Exactly three characters, no duplicates.
+RYZHIK (@Image3): exact warm orange striped tabby with fluffy ginger coat, darker stripes, lighter muzzle/chest, confident ferocious feline face. GREEN saber.
+CAT SCALE: both cats ordinary house-cat size, upright top-of-head roughly around Serega's knee, in every shot and every jump. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands, arms or anthropomorphic bodies. Exactly three characters, no duplicates.
 
 LOCATION LOCK — CRITICAL:
-@Image4 is the same world as the previous duel: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces and stairs, shattered columns, rectangular towers, distant jagged mesa spires, low warm orange-gold sun. Preserve the standing arch and existing fallen blocks exactly as shown in @Image6; no invented collapse between shots. Never substitute lava, black basalt, a clean arena or a red volcanic storm.
+@Image4 is the same world as the previous duel: huge weathered ochre/red-brown stone city, carved robed statues, temple terraces and stairs, shattered columns, rectangular towers, distant jagged mesa spires, low warm orange-gold sun. Preserve the standing arch and existing fallen blocks exactly as shown in @Image6; no invented collapse. Never substitute lava, black basalt, a clean arena or a red volcanic storm.
 
 RED DOT LOCK — CRITICAL:
 One small, crisp, bright red pointer dot, about the size of a coin, cast on the stone surfaces from the emitter end of Serega's switched-off saber hilt. Exactly one dot. It moves only where Serega points the hilt and only along real surfaces: stone floor, block faces, steps. No beam, no laser line in the air, no explosion, no magic; the blade itself is off while the dot is used.
 
 START STATE:
-Begin exactly from @Image6: Ryzhik on frame-left with a green saber, Luchik on frame-right with a blue saber, Serega behind them with his red saber lit, and the standing arch behind Serega. Continue their movement naturally into the confrontation; keep the exact existing rubble and sunset.
+Begin exactly from @Image6: Ryzhik on frame-left with a green saber, Luchik on frame-right with a blue saber, both upright on their hind legs, Serega behind them in the centre with his red saber lit low, the standing arch behind Serega. The cats attack at once; keep the exact existing rubble and sunset.
 
 TIMELINE:
-[0:00–0:05] — CORNERED
-35mm mid-wide: the cats close in step by step, sabers ready. Serega holds his red blade low, breathing hard. His eyes flick from the cats to the flat sunlit stone slab in front of them; his face goes calm and deadpan.
+[0:00–0:05] — TWO-CAT ASSAULT
+From the @Image6 framing both cats launch at Serega at once. Ryzhik dashes in low and slashes at his legs; Luchik bounds off a fallen block and strikes high. Serega blocks green, then blue, then green in fast, fierce, readable exchanges, driven back step by step until his back is against the stone pier of the arch.
 
-[0:05–0:10] — THE IDEA
-Serega switches off his red blade with a short falling hum. The cats stop, ears up, suspicious. He slowly points the empty hilt at the ground: one small bright red dot appears on the stone slab a metre in front of the cats.
+[0:05–0:09] — CORNERED
+Medium shot on Serega in even sunset light, face clear: blue and green blades crossed in front of his chest, pinning his red blade. Breathing hard, his face goes cool and deadpan; his eyes flick to the flat sunlit slab in front of the cats. In one sharp move he switches off the red blade. The cats freeze mid-attack, ears up, suspicious.
 
-[0:10–0:16] — INSTINCT WINS
-Close two-shot of the cats at their own eye level: both heads snap down to the dot, pupils widen, tails twitch. Luchik tries to stay disciplined for one second, then loses. Serega moves the dot a little left and right; both cat heads track it in perfect sync. Both cats switch off their sabers and drop into a hunting crouch, rear ends wiggling.
+[0:09–0:13] — INSTINCT WINS
+Serega points the empty hilt down: one small red dot appears on the slab a metre in front of the cats. Low cat-eye-level close two-shot: both heads snap down to the dot, pupils widen, tails twitch. Luchik holds his discipline for one second, then loses. The dot twitches left and right and both heads track it in perfect sync. Both cats switch off their sabers, let the unlit hilts drop on the stone and sink into a hunting crouch, rear ends wiggling.
 
-[0:16–0:24] — THE CHASE
-Wide: Serega flicks the dot away across the terrace. Both cats explode after it, pouncing, missing, bumping into each other and bounding over fallen blocks, as the dot skitters up a step and along a block face. Serega, still pointing the hilt with one hand, backs away calmly toward the temple stairs without hurrying.
+[0:13–0:19] — THE HUNT
+Wide: Serega flicks the dot away across the terrace and the cats explode after it on all fours. The dot zips up the face of a fallen block; Ryzhik springs at the block, kicks off its wall with all four paws and twists in mid-air as the dot slips away. Luchik overshoots, slides across the smooth stone on his belly with claws scrabbling, and the two collide head-on in a tumble of fur.
 
-[0:24–0:30] — GONE
-Serega sends the dot deep into a dark narrow gap between existing fallen blocks beside the arch. Both cats dive into the gap after it and disappear; a puff of dust drifts out. Serega lowers the hilt, straightens his robe, turns his back and walks up the temple stairs alone.
+[0:19–0:24] — RICOCHET
+The cats bounce up instantly. The dot zigzags along a broken column and up a statue plinth; both cats bound up after it, ricochet off the plinth wall and land in a heap. Serega walks briskly sideways along the terrace with the hilt aimed, steering the dot, face completely serious.
+
+[0:24–0:27] — GONE
+Serega sends the dot deep into a dark narrow gap between existing fallen blocks beside the arch. Both cats dive into the gap after it, head first, one after the other, and disappear; a puff of dust bursts out, scrabbling echoes inside.
+
+[0:27–0:30] — DEEPER INTO THE RUINS
+Serega lowers the hilt, straightens his robe with one tug, turns his back and strides briskly away up the temple stairs, deeper into the ruins, alone.
 
 END STATE:
-Serega alone, walking away toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.
+Serega alone, striding away up the temple stairs toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.
 
 CAMERA / SPACE:
-One coherent 3D space with readable geography and a fixed sunset direction. Smooth motivated 28–35mm tracking, one low cat-eye-level 50mm two-shot; physically possible perspective and inertia, no jitter, teleporting, spatial resets or 180-degree axis flips.
+One coherent 3D space with readable geography and a fixed sunset direction. The first shot begins exactly from the @Image6 framing; then five motivated cuts on movement that keep screen direction: a medium on the cornered Serega, a low 50mm cat-eye-level close two-shot, a wide low tracking shot that whips with the dot during the hunt, a wide on the ricochet and the dive, and a wide following Serega up the stairs. Fast acrobatics play in wide shots with whole bodies visible; faces only recognisable in medium and close shots. Physically possible perspective and inertia; no jitter, teleporting, spatial resets or 180-degree axis flips.
 
 PERFORMANCE:
-Absolutely serious deadpan from Serega: no smile, no wink, no talking. The cats stay genuine cats: natural hunting instinct, ear and tail motion, real feline jumps and pounces. Comedy comes from the situation, not from mugging; nobody looks into the lens.
+The assault is fast and fierce: real feline speed, springing leaps and hard saber blows. Serega moves briskly and decisively, his face stays cool, serious and deadpan: no smile, no wink, no talking. The chase is frantic: genuine cat hunting instinct, wall kicks, slides, collisions, instant recoveries, ears and tails alive. Comedy comes from the situation, not from mugging; nobody looks into the lens.
 
 LIGHTING / MATERIALS:
-Warm weathered stone in low orange-gold sunset light; continuous fine dry dust with rare ember-like particles; saber glow only while the blades are lit; the red dot stays small, crisp and slightly brighter than the sunlit stone.
+Warm weathered stone in low orange-gold sunset light; fine dry dust kicked up by every landing, rare ember-like particles; saber glow only while the blades are lit; the red dot stays small, crisp and slightly brighter than the sunlit stone.
 
 AUDIO:
-Saber hums and their switch-off sounds, settling stones, dry wind, soft paw thumps and scrabbling claws, one surprised cat chirp, Serega's calm footsteps on stone steps. No spoken dialogue, narrator, music, subtitles or on-screen titles.
+Saber hums, fierce clashes and switch-off sounds, unlit hilts clattering on stone, dry wind, rapid paw thumps, claws scrabbling and skidding on stone, a soft thud of the collision, one surprised cat chirp, scrabbling echoes from the gap, Serega's quick footsteps on the stone steps. No spoken dialogue, narrator, music, subtitles or on-screen titles.
 
 NEGATIVE PROMPT:
-giant cats, human cat-hands, talking cats, swaps, wrong saber color, a second red dot, visible laser beam, explosions, fake Force effects, floating hilts, Serega smiling or winking, self-healing architecture, changing ruin geometry, lava, character duplicates, glossy game look, cartoon, anime, incoherent cuts, text, watermark, frame borders.
+giant cats, cats growing larger in close-ups, human cat-hands, talking cats, swaps, wrong saber color, a second red dot, visible laser beam, explosions, fake Force effects, floating hilts, Serega smiling or winking, injured cats, self-healing architecture, changing ruin geometry, collapsed arch, lava, character duplicates, glossy game look, cartoon, anime, incoherent cuts, text, watermark, frame borders.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/luchik.jpg`; @Image3 — `references/ryzhik.jpg`; @Image4 — `references/scenes/scene-27/S27-Image5-topview-source.png`; @Image5 — `references/scenes/scene-27/S27-three-subject-scale.png` (вспомогательный масштаб); @Image6 — `references/scenes/scene-47/S47-start-from-S32-result.png` (настоящий конец 32, старт).
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/luchik.jpg`; @Image3 — `references/ryzhik.jpg`; @Image4 — `references/scenes/scene-27/S27-Image5-topview-source.png`; @Image5 — `references/scenes/scene-27/S27-three-subject-scale.png`.
+
+#### 47 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action action comedy at the end of a lightsaber duel | Part 1 of 2: two Jedi cats corner Serega in a fierce saber assault, and he lures them with a red dot
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA identity.
+@Image2 — exact LUCHIK identity.
+@Image3 — exact RYZHIK identity.
+@Image4 — ABSOLUTE ancient Sith-planet ruins geography and sunset.
+@Image5 — optional three-subject scale/staging helper only; never overrides identities or location.
+@Image6 — genuine final frame of the previous scene: absolute opening composition, cat-left/right positions, standing arch and existing rubble. Do not invent an off-screen collapse.
+Priority: @Image6 controls the opening frame and existing damage; @Image4 the wider architecture and sunset; @Image1–@Image3 the identities; @Image5 only scale.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image1): exact older pale Chancellor, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. RED saber; its polished metal hilt stays in his right hand throughout.
+LUCHIK (@Image2): exact white-and-grey long-haired cat: white muzzle/chest/forepaws, grey crown, back and facial markings, cold disciplined expression. BLUE saber.
+RYZHIK (@Image3): exact warm orange striped tabby, fluffy ginger coat, darker stripes, lighter muzzle/chest, confident ferocious face. GREEN saber.
+CAT SCALE: ordinary house-cat size, upright top-of-head around Serega's knee, in every shot. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands or anthropomorphic bodies. Exactly three characters.
+
+LOCATION LOCK — CRITICAL:
+The same weathered ochre/red-brown Sith stone city of @Image4: carved robed statues, temple terraces and stairs, shattered columns, distant mesa spires, low orange-gold sun. The arch and fallen blocks stay exactly as in @Image6. No lava, no clean arena.
+
+RED DOT LOCK — CRITICAL:
+One small, crisp, coin-sized bright red pointer dot cast on stone from the emitter end of Serega's switched-off hilt. Exactly one dot, only on real surfaces, only where he points. No beam in the air, no magic; his blade is off while the dot is used.
+
+START STATE:
+Exactly @Image6: Ryzhik frame-left with a green saber, Luchik frame-right with a blue saber, both upright on hind legs; Serega behind them in the centre, red saber lit low; the standing arch behind him.
+
+TIMELINE:
+[0:00–0:05] — TWO-CAT ASSAULT
+From the @Image6 framing both cats launch at once: Ryzhik dashes low and slashes at Serega's legs, Luchik bounds off a fallen block and strikes high. Serega blocks green, blue, green in fast fierce exchanges, driven back until his back hits the arch pier.
+
+[0:05–0:09] — CORNERED
+Medium on Serega, face clear in even sunset light: blue and green blades cross in front of his chest, pinning his red blade. His face goes cool and deadpan; his eyes flick to the sunlit slab in front of the cats. He snaps off the red blade. The cats freeze mid-attack, ears up.
+
+[0:09–0:15] — INSTINCT WINS
+He points the empty hilt down: one red dot appears on the slab before the cats. Low cat-eye-level close two-shot: heads snap to the dot, pupils widen, tails twitch. Luchik resists for one second, then loses. The dot twitches left and right; both heads track it in sync. Both cats switch off their sabers, drop the unlit hilts on the stone and sink into a hunting crouch, rear ends wiggling. Hold the crouch on the last second.
+
+END STATE:
+Both cats crouched low on the stone, hunting-ready, eyes locked on the red dot on the slab, unlit hilts lying beside them; Serega in the centre in front of the arch, red blade off, hilt aimed at the dot; same sunset ruins.
+
+CAMERA / SPACE:
+Start exactly on the @Image6 framing; cut on movement to a medium on cornered Serega, then to a low 50mm cat-eye-level close two-shot. Keep screen direction, the cat-left/right layout and a fixed sunset direction. Fast action in wide shots with whole bodies; faces recognisable only in medium and close shots. No jitter, teleporting or axis flips.
+
+PERFORMANCE:
+The assault is fast and fierce with real feline speed and hard blows. Serega moves briskly and decisively; his face stays cool, serious and deadpan, no smile, no wink, no speech. The cats remain genuine cats in their reactions to the dot. Nobody looks into the lens.
+
+LIGHTING / MATERIALS:
+Warm weathered stone in low orange-gold sunset; fine dry dust from every landing; saber glow only while lit; the dot small, crisp, slightly brighter than the sunlit stone.
+
+AUDIO:
+Saber hums, fierce clashes, three switch-off sounds, hilts clattering on stone, dry wind, quick paw thumps, a tiny eager cat chirp. No dialogue, narrator, music or subtitles.
+
+NEGATIVE PROMPT:
+giant cats, cats larger in close-ups, human cat-hands, talking cats, swapped cats, wrong saber colours, a second red dot, visible laser beam, fake Force effects, floating hilts, Serega smiling or winking, collapsed arch, changing ruin geometry, lava, duplicates, glossy game look, cartoon, anime, text, watermark, frame borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 47 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action action comedy at the end of a lightsaber duel | Part 2 of 2: a frantic acrobatic red-dot hunt, the cats vanish into the rubble and Serega walks off toward the temple
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: both cats crouched, hunting-ready, before the red dot; Serega in front of the arch with his unlit hilt aimed at it; the same ruins and sunset. Absolute authority for the START STATE, positions and light.
+@Image1 — exact SEREGA identity.
+@Image2 — exact LUCHIK identity.
+@Image3 — exact RYZHIK identity.
+@Image4 — ABSOLUTE ancient Sith-planet ruins geography and sunset.
+@Image5 — optional three-subject scale/staging helper only; never overrides identities or location.
+Priority: @Video1 controls the start and existing damage; @Image4 the wider architecture and sunset; @Image1–@Image3 the identities; @Image5 only scale.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (@Image1): exact older pale Chancellor, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His polished metal saber hilt, blade off, stays in his right hand throughout.
+LUCHIK (@Image2): exact white-and-grey long-haired cat: white muzzle/chest/forepaws, grey crown, back and facial markings.
+RYZHIK (@Image3): exact warm orange striped tabby, fluffy ginger coat, darker stripes, lighter muzzle/chest.
+CAT SCALE: ordinary house-cat size, never larger than Serega's knee when upright, in every shot and every jump. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands or anthropomorphic bodies. Exactly three characters.
+
+LOCATION LOCK — CRITICAL:
+The same weathered ochre/red-brown Sith stone city of @Image4: carved robed statues, temple terraces and stairs, shattered columns, distant mesa spires, low orange-gold sun. The arch and fallen blocks stay exactly as in @Video1. No lava, no clean arena.
+
+RED DOT LOCK — CRITICAL:
+One small, crisp, coin-sized bright red pointer dot cast on stone from the emitter end of Serega's switched-off hilt. Exactly one dot, only on real surfaces (floor, block faces, steps, plinths), only where he points. No beam in the air, no magic, all blades off.
+
+START STATE:
+Exactly the last frame of @Video1: both cats crouched low, eyes on the red dot, unlit hilts beside them; Serega in front of the arch aiming his hilt.
+
+TIMELINE:
+[0:00–0:05] — THE HUNT
+Continuing @Video1 without a cut, Serega flicks the dot away across the terrace and both cats explode after it on all fours. Wide low tracking: the dot zips up a fallen block; Ryzhik kicks off its wall with all four paws and twists in mid-air as it slips away. Luchik overshoots, belly-slides across smooth stone with claws scrabbling, and the two collide head-on in a tumble of fur.
+
+[0:05–0:09] — RICOCHET
+They bounce up instantly. The dot zigzags along a broken column and up a statue plinth; both cats bound after it, ricochet off the plinth wall and land in a heap. Serega walks briskly sideways along the terrace with the hilt aimed, face completely serious.
+
+[0:09–0:12] — GONE
+He sends the dot deep into a dark narrow gap between existing fallen blocks beside the arch. Both cats dive in head first, one after the other, and vanish; a puff of dust bursts out, scrabbling echoes inside.
+
+[0:12–0:15] — DEEPER INTO THE RUINS
+Serega lowers the hilt, straightens his robe with one tug, turns his back and strides briskly away up the temple stairs, deeper into the ruins, alone.
+
+END STATE:
+Serega alone, striding away up the temple stairs toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.
+
+CAMERA / SPACE:
+First beat continues @Video1 without a cut, then cut on movement: a low wide tracking shot whipping with the dot, a wide on the ricochet and dive, a wide following Serega up the stairs. Keep screen direction and a fixed sunset direction. Acrobatics in wide shots with whole bodies visible; Serega's face, when seen, in a medium framing with even light. No jitter, teleporting or axis flips.
+
+PERFORMANCE:
+Frantic, real cat hunting: wall kicks, slides, collisions and instant recoveries, ears and tails alive; nobody is hurt. Serega moves briskly and decisively with a cool, deadpan face: no smile, no wink, no speech. Nobody looks into the lens.
+
+LIGHTING / MATERIALS:
+Warm weathered stone in low orange-gold sunset; dust bursts from every landing and from the gap; the dot small, crisp, slightly brighter than the sunlit stone.
+
+AUDIO:
+Rapid paw thumps, claws scrabbling and skidding on stone, a soft thud of the collision, one surprised cat chirp, scrabbling echoes from the gap, dry wind, Serega's quick footsteps on the stone steps. No dialogue, narrator, music or subtitles.
+
+NEGATIVE PROMPT:
+giant cats, cats larger in close-ups, human cat-hands, talking cats, swapped cats, lit sabers, a second red dot, visible laser beam, fake Force effects, floating hilts, injured cats, Serega smiling or winking, Serega running in panic, collapsed arch, changing ruin geometry, lava, duplicates, glossy game look, cartoon, anime, text, watermark, frame borders.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -2565,6 +3392,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - Модуль того же дизайна, что набусский (@Image6); светится тускло, без голограмм.
 - **До READY:** @Video1 — последние секунды результата Scene 56 (сначала нужны результаты 42 и 56).
 - В монтаж 15–25 с. Запуск — только по команде владельца.
+- **Динамика (владелец 18.10.2026):** сцена переписана активнее — резкий рывок Силой, спринт и прыжок на червя, Серёга уносится на нём как сёрфер; слово «спокойно» убрано. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:**
 
@@ -2584,11 +3412,11 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure></div>
 
-**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга спокойно прячет модуль под робу, запрыгивает на червя и лихо уезжает на нём вдаль от джедаев.
+**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, deadpan action comedy | The ignored sandworm finally crashes between the duelists; the Chancellor pulls the Tatooine map module to his hand with the Force, jumps onto the worm and rides it away
+Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | The ignored sandworm finally crashes between the duelists; the Chancellor rips the Tatooine map module to his hand with the Force, jumps onto the worm and rides it away
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the furious worm rearing above them coiled to strike, the broken ruins, dust and light. Absolute authority for the START STATE.
@@ -2617,31 +3445,31 @@ Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade 
 
 TIMELINE:
 [0:00–0:06] — THE WORM CRASHES DOWN
-Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand throws Artem off his feet and pushes Ilyusha back several steps. Serega steps back once, steady, and calmly switches off his red saber.
+Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand throws Artem off his feet and pushes Ilyusha back several steps. Serega springs back out of the sand wave and snaps off his red saber in one sharp motion.
 
 [0:06–0:11] — THE SABER GOES OUT
 Artem hits the sand hard. His green saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
 
 [0:11–0:16] — THE MODULE FLIES TO THE CHANCELLOR
-Medium shot on Serega in the blowing dust. Without hurry he extends one open hand. The module lifts off the sand by itself and flies straight through the dust into his palm; his fingers close over its amber glow.
+Fast push-in on Serega in the blowing dust. He thrusts out one open hand. The module rips off the sand and shoots straight through the dust into his palm; his fingers snap shut over its amber glow.
 
 [0:16–0:21] — CUT OFF BY THE WORM
 Ilyusha, his blue blade still lit, sprints at Serega to intercept, but the worm surges up out of the sand between them and forces both Jedi to leap aside. Artem, on his knees, can only watch.
 
 [0:21–0:26] — ONTO THE WORM
-Serega slips the module into the inner fold of his robe. As the worm's long body slides past him low over the sand, he takes two quick strides, jumps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
+In one quick move Serega shoves the module into the inner fold of his robe, sprints alongside the worm's long body as it slides past low over the sand, leaps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
 
 [0:26–0:30] — RIDING AWAY
-Wide shot: the worm surges away across the dunes in a great spray of sand, Serega standing on its back, upright, cool and sure, shrinking into the distance. In the foreground the two Jedi stand in the settling dust among the broken ruins and stare after him.
+Wide shot: the worm surges away across the dunes in a great spray of sand, Serega riding its back low and balanced like a surfer, robe streaming behind him, shrinking into the distance. In the foreground the two Jedi stand in the settling dust among the broken ruins and stare after him.
 
 END STATE:
 Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Artem's dark saber hilt half-buried in the sand.
 
 CAMERA / SPACE:
-The first two beats continue @Video1 as one take with controlled arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
+The first two beats continue @Video1 as one take with fast arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
 
 PERFORMANCE:
-Serega is calm, cold and sure; the pull is a small, almost bored gesture, the jump onto the worm effortless and dashing. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+Serega is fast, decisive and dashing, his face cold and focused: the Force pull is a sharp, commanding gesture, the sprint and leap onto the worm athletic and bold. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, long ruin shadows, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust; sand pouring off the worm's segments.
@@ -2655,6 +3483,148 @@ worm swallowing or biting anyone, death, blood, Serega falling off the worm, wor
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Video1 — последние секунды результата Scene 56 (Wan-версии или Части 2 Seedance-версии 56 — что пошло в монтаж); @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`; @Image6 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
+
+**Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image6 — те же файлы, что в части 1.
+
+#### 48 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 1 of 2: the ignored worm crashes down between the duelists, Artem's saber dies, the Chancellor Force-pulls the map module into his palm
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the furious worm rearing above them coiled to strike, the broken ruins, dust and light. Absolute authority for the START STATE and screen positions.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+@Image6 — the exact map module prop design.
+Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; blue lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; green lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+PROP LOCK — CRITICAL:
+Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's wide belt, flies through the air once and ends gripped in Serega's closed hand. It never folds, multiplies, breaks, projects a hologram or shows a map image.
+
+WORM / LOCATION LOCK — CRITICAL:
+The same colossal worm from @Image5 and the same ruins for the whole clip; the broken gate piers and toppled obelisk halves stay broken. The worm never swallows, bites, touches or hurts anyone; it only hits the sand. No car, speeder or wreck appears.
+
+START STATE:
+Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
+
+TIMELINE:
+[0:00–0:04] — THE WORM CRASHES DOWN
+Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand blasts outward; Artem is thrown off his feet, Ilyusha is shoved back on frame-left, and Serega springs backwards out of the sand wave on frame-right, snapping off his red saber in one sharp motion.
+
+[0:04–0:08] — THE SABER GOES OUT
+Cut on the impact to a low wide angle: Artem hits the sand hard and rolls. His green saber spins out of his hand, its blade switches off in mid-air and the dark hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and skids onto the open sand between him and Serega.
+
+[0:08–0:12] — THE FORCE PULL
+Fast push-in to a medium shot of Serega in the blowing dust, his face clearly lit and readable for two full seconds. He thrusts out one open hand. The module rips off the sand and shoots straight through the dust toward him.
+
+[0:12–0:15] — CAUGHT
+Tight shot: the module smacks into his palm and his fingers snap shut over its amber glow. Widen and hold on Serega, fist at chest height.
+
+END STATE:
+Serega on frame-right in the settling dust, the module gripped in his closed fist, saber off; the worm half-sunk in the churned sand behind him; Ilyusha on frame-left on his feet, blue blade lit; Artem on his knees beside his dark, half-buried hilt.
+
+CAMERA / SPACE:
+The first beat continues @Video1 with a fast arcing move; then three motivated cuts on action: a low wide on Artem's fall, a fast push-in to a medium on Serega for the Force pull, a tight catch that widens to hold. Serega and the worm on frame-right, the Jedi on frame-left. Speed lives in wide shots and bodies; faces in medium or close shots with even light. Scale through parallax, dust layers and foreground debris.
+
+PERFORMANCE:
+Serega is fast and dashing, his face cold: the Force pull is a sharp commanding gesture. Artem is winded and annoyed, not frightened. Ilyusha is determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust; sand pouring off the worm's segments.
+
+AUDIO:
+The worm's deep roar, the thunder of its body hitting the sand, wind, the hiss of two sabers switching off, the hum of Ilyusha's blue saber, a faint low Force hum as the module flies, a soft electronic pulse and a dry slap as it hits the palm. Exertion breaths only; no dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing, biting or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, two or three modules, hologram map, module breaking, Serega fighting with a saber after the crash, Artem's saber still lit after the fall, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 48 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 2 of 2: the worm cuts off the charging Jedi; the Chancellor hides the module, leaps onto the worm and rides it away
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result. Absolute authority for the START STATE, screen positions, ruins, dust and light.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+@Image6 — the exact map module prop design.
+Priority: @Video1 controls the start, positions and damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber hilt, switched off, at his belt.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; blue lightsaber, lit.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; his green lightsaber hilt lies dark and half-buried in the sand.
+Exactly three people. No other characters, no vehicles.
+
+PROP LOCK — CRITICAL:
+Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts gripped in Serega's fist and ends hidden in the inner fold of his robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
+
+WORM / LOCATION LOCK — CRITICAL:
+The same colossal worm from @Image5 and the same ruins for the whole clip; the broken gate piers and toppled obelisk halves stay broken. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
+
+START STATE:
+Exactly the last frame of @Video1: Serega on frame-right, the module in his fist, the worm half-sunk behind him; Ilyusha on frame-left, blue blade lit; Artem on his knees.
+
+TIMELINE:
+[0:00–0:04] — CUT OFF BY THE WORM
+Continuing @Video1 without a cut: Ilyusha sprints at Serega with his blue blade lit, but the worm surges up out of the sand between them in a towering wall of pouring sand, forcing both Jedi to leap aside. Artem, on his knees, can only watch.
+
+[0:04–0:07] — HIDE THE MODULE
+Cut to a medium shot of Serega, face clearly lit and readable for two seconds: in one quick move he shoves the glowing module into the inner fold of his robe and the amber glow disappears under the purple cloth.
+
+[0:07–0:11] — ONTO THE WORM
+Fast low tracking shot at running speed: the worm's long body slides past low over the sand on frame-right; Serega sprints alongside it, leaps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
+
+[0:11–0:15] — RIDING AWAY
+Wide shot from behind the two Jedi: the worm surges away across the dunes in a great spray of sand, Serega riding its back low and balanced like a surfer, robe streaming behind him, shrinking into the distance. In the foreground the two Jedi stand in the settling dust and stare after him; hold the final wide beat.
+
+END STATE:
+Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Ilyusha's blue blade lowered, Artem's dark saber hilt half-buried in the sand.
+
+CAMERA / SPACE:
+The first beat continues @Video1 without a cut; then three motivated cuts on action: a medium on Serega hiding the module, a fast low tracking shot for the leap, a final wide from behind the Jedi for the ride. Serega and the worm on frame-right, the Jedi on frame-left. Speed lives in tracking and wide shots; faces medium and evenly lit, never tiny during speed. Scale through parallax, dust layers and foreground debris.
+
+PERFORMANCE:
+Serega is fast and dashing, his face cold: the hiding move is quick, the sprint and leap onto the worm athletic and bold. Ilyusha is fast and determined, then left standing with his blade lowered; Artem winded and annoyed. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's amber glow vanishing into the robe; sand pouring off the worm's segments.
+
+AUDIO:
+The blue saber's hum as Ilyusha charges, the worm's deep roar and the crash of sand as it surges up, wind, Serega's boots pounding sand, the heavy grinding rush of the worm surging away and fading into the distance. Exertion breaths only; no dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or biting anyone, death, blood, Serega falling off the worm, saddle or reins, car, speeder, vehicle wreck, extra people, two modules, hologram map, Serega fighting with a saber, Artem's saber lit, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -3472,7 +4442,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
-**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки (кантина 33:50 → погоня → 16/42/48). **Правка владельца 17.10, 23:58:** посадка не у руин с червём, а на окраине татуинского города: в фильме Серёга на Татуине сначала появляется в кантине, руины — конец блока. Вход в личный корабль везде одинаковый: боковой люк с короткой рампой. **Владелец 18.10, 00:17:** кадра города нет — город задан описанием в промте (TATOOINE TOWN LOCK), отдельного слота нет. Из негатива убрано «missing pilot» (пилот — сам Серёга); бесплатный интерфейс принимает видео + несколько изображений (владелец); сейчас входов шесть: видео + 5 изображений. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта.
+**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки (кантина 33:50 → погоня → 16/42/48). **Правка владельца 17.10, 23:58:** посадка не у руин с червём, а на окраине татуинского города: в фильме Серёга на Татуине сначала появляется в кантине, руины — конец блока. Вход в личный корабль везде одинаковый: боковой люк с короткой рампой. **Владелец 18.10, 00:17:** кадра города нет — город задан описанием в промте (TATOOINE TOWN LOCK), отдельного слота нет. Из негатива убрано «missing pilot» (пилот — сам Серёга); бесплатный интерфейс принимает видео + несколько изображений (владелец); сейчас входов шесть: видео + 5 изображений. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта. **Динамика (владелец 18.10.2026):** сцена переписана активнее — слалом под корпусом разрушителя, бреющий полёт над дюнами с хвостом песка и жёсткая посадка у окраины города. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
 
@@ -3486,80 +4456,209 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Продолжая конец44, Серёга смотрит на упавшее крыло и пустое крепление, затем на свой личный корабль: на сломанном шаттле не улететь. Он отворачивается от ремонтников, поднимается по короткой рампе через боковой люк своего корабля и садится за пульт. В кабине ясно видна записка с хлебом и молоком; он занят вылетом. Корабль выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится на окраине города, где потом будет кантина. Серёга спускается по рампе и идёт в город.
+**Что происходит:** Продолжая конец 44, Серёга переводит взгляд с упавшего крыла и пустого крепления на свой корабль, резко разворачивается, быстрым шагом взбегает по короткой рампе и сразу садится за пульт; записка с хлебом и молоком ясно видна. Корабль вылетает из ангара, ныряет под брюхо разрушителя и петляет между его конструкциями, вырываясь в космос. После временной склейки он на бреющем несётся над дюнами Татуина, поднимая хвост песка, резко тормозит и садится на окраине города; Серёга спускается по рампе и идёт в город.
 
 **Готовность:** DRAFT до настоящего @Video1 новой44 (одно отвалившееся крыло, пустое крепление); пять изображений сохранены, город задан описанием. Один бесплатный запуск разрешён владельцем17.10, после44. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, dry deadpan | Serega abandons the broken shuttle, switches to his own small craft and lands on Tatooine at the edge of the desert town
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, fast kinetic flight with dry deadpan | Serega abandons the broken shuttle, slaloms his own craft under the destroyer's hull and skims Tatooine's dunes to a hard landing at the edge of the desert town
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, the right wing raised, hangar light and camera axis. Absolute opening-state authority. Continue from that final frame without replaying the fall.
 @Image1 — absolute identity of SEREGA: face, age, body and purple robe.
 @Image2 — genuine film frame of Serega's OWN flat wedge-shaped dark-grey craft: exact hull, proportions, colour, engines and scale. Vehicle design only; ignore the source city, the person on its roof and any other ships.
-@Image3 — the destroyer's hangar architecture and white/amber working light only. Its intact raised-wing shuttle is NOT the damage authority: keep the broken shuttle exactly as @Video1 shows it. No disco lights, no distant empty-room framing.
-@Image4 — genuine film exterior of the enormous grey wedge-shaped destroyer: silhouette, scale, superstructure and hangar opening. It is the departure vessel, not Serega's small craft.
-@Image5 — genuine cockpit of the same small craft: seats, console, forward windows and hard interior geometry only, for one short interior beat.
-Priority: @Video1 controls the opening composition and the permanent shuttle damage; @Image1 controls Serega; @Image2 controls the personal craft; @Image3–@Image5 control their assigned places; the Tatooine town is defined by the TATOOINE TOWN LOCK text. The two ships always remain distinct.
+@Image3 — the destroyer's hangar architecture and white/amber working light only. Its intact raised-wing shuttle is NOT the damage authority: keep the broken shuttle exactly as @Video1 shows it. No disco lights.
+@Image4 — genuine film exterior of the enormous grey wedge-shaped destroyer: silhouette, scale, ribbed underside and hangar opening. The departure vessel, not Serega's craft.
+@Image5 — genuine cockpit of the same small craft: seats, console, forward windows and interior geometry only, for one short interior beat.
+Priority: @Video1 controls the opening and the permanent shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their assigned places; the Tatooine town is defined by the TATOOINE TOWN LOCK text. The two ships always remain distinct.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts.
-THE THREE TECHNICIANS from @Video1: dark-grey coveralls and black caps, their actual faces, builds, poses and tools: one on the ladder, one seated with the rope, one standing. They stay beside the broken shuttle at the opening and leave the frame as the camera follows Serega.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile, in motion and across cuts.
+THE THREE TECHNICIANS from @Video1: dark-grey coveralls, black caps, their actual faces, poses and tools (ladder, rope, standing). They stay by the broken shuttle and leave frame as the camera follows Serega.
 No co-pilot, new crew, cats, Jedi or droids.
 
 VEHICLE / CONTINUITY LOCK — CRITICAL:
-Exactly one personal craft from @Image2. At the opening the BROKEN formal shuttle and the parked personal craft are two separate physical vehicles in the SAME hangar. The broken shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. The camera reveals the personal craft in a nearby clear bay, without a teleport or hull morph. Access to the personal craft is always through its single side hatch with a short fold-down boarding ramp. Serega boards it once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution, folding wings or second departure. No map fragment or computer has been acquired yet.
+Exactly one personal craft from @Image2. At the opening the BROKEN formal shuttle and the parked personal craft are two separate physical vehicles in the SAME hangar. The broken shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. The camera reveals the personal craft in a nearby clear bay, without a teleport or hull morph. Access to the personal craft is always through its single side hatch with a short fold-down boarding ramp. Serega boards it once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution or second departure. No map fragment or computer has been acquired yet.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 TATOOINE TOWN LOCK (described, no reference image): a small desert spaceport town on a vast pale-sand plain under a harsh bright sun: low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty streets between them, a few slim moisture-vaporator towers on the outskirts, heat haze and low dunes beyond. Weathered, lived-in, real. No ancient stone ruins, no gate piers or obelisk, no sandworm.
 
 START STATE:
-Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the one detached wing lies on the floor, its empty attachment point visible on the parked shuttle. Preserve positions, expression, lighting and camera side. His separate personal craft is already parked a few steps away, outside the opening framing, with its side hatch open and its short boarding ramp lowered.
+Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the detached wing lies on the floor, its empty attachment point visible on the shuttle. Preserve positions, lighting and camera side. His personal craft is parked a few steps away, out of frame, side hatch open and short ramp lowered.
 
 TIMELINE:
 [0:00–0:03] — NO FLIGHT IN THAT SHUTTLE
-Seamlessly continue the ending of @Video1. Serega looks from the technicians to the fallen wing and the empty root, pauses in weary disbelief, then fixes his gaze toward his own craft. No dialogue; the decision to abandon the broken shuttle is clear.
+Continue @Video1 without a cut. Serega's eyes go from the technicians to the fallen wing and the empty root; one beat of dry disbelief, then his head snaps toward his own craft.
 
-[0:03–0:09] — CHANGE TO THE PERSONAL CRAFT
-Without cutting, track beside him as he turns away and walks the short clear route to his personal craft, revealing it through the camera move. He walks up its short boarding ramp and through the open side hatch; his feet stay on the ramp surface, no passage through the hull. The broken shuttle stays behind, unchanged.
+[0:03–0:08] — STRAIGHT TO HIS OWN CRAFT
+Same shot: he spins away and strides fast across the floor, robe swinging; the camera tracks low beside him and reveals the personal craft. He takes the short ramp in a few quick steps and vanishes through the open side hatch, feet on the ramp. The broken shuttle stays behind, unchanged.
 
-[0:09–0:12] — THE REMINDER
-Motivated cut inside the personal cockpit. Serega settles at the controls. Frame the same pale-yellow note beside his hand sharply enough to recognise the loaf and the milk carton for two seconds. He briefly registers it, then concentrates on departure, leaving it in place.
+[0:08–0:11] — THE REMINDER
+Hard cut, cockpit medium shot, even light on his face. He drops into the pilot seat and snaps two switches. The same pale-yellow note beside his right hand stays sharp for two seconds, loaf and milk carton clear; his eyes flick to it, then forward. He leaves it in place.
 
-[0:12–0:16] — LEAVING THE DESTROYER
-Exterior from the destroyer's hangar mouth: only the personal craft lifts and exits into black space. Reveal the immense destroyer hull from @Image4; keep the craft design and left-to-right flight.
+[0:11–0:17] — DROP AND SLALOM UNDER THE DESTROYER
+Exterior wide: the small craft shoots out of the lit hangar mouth and drops below the destroyer's belly. It slaloms left-to-right under the immense ribbed underside of @Image4, banking hard between hanging hull structures and lit ventral bays, whips past the camera and bursts out from under the stern into black space, always small and clear of the hull.
 
-[0:16–0:23] — TATOOINE
-One explicit time-compression cut to the same craft descending over Tatooine dunes toward the desert town of the TATOOINE TOWN LOCK, its domed sand-coloured buildings growing below in harsh daylight.
+[0:17–0:23] — DUNE SKIM ON TATOOINE
+One explicit time-compression cut to Tatooine in harsh daylight: low camera on a dune crest as the same craft screams past metres above the sand, left-to-right, throwing a tall rooster-tail of sand. The camera whip-pans after it over the next dune line; the domed town rises out of the heat haze ahead.
 
-[0:23–0:27] — LANDING AT THE TOWN EDGE
-The craft lands once on a clear sandy flat at the outskirts of the town, a short walk from the first buildings. Landing supports take its weight, dust settles and the engines subside.
+[0:23–0:26] — HARD FLARE LANDING
+At the town outskirts the craft pitches its nose up into a hard braking flare and drops onto a clear sandy flat a short walk from the first buildings; supports bite into the sand and a dust cloud rolls over the camera.
 
-[0:27–0:30] — INTO TOWN
-The side hatch opens and the short boarding ramp lowers; Serega walks down it onto the sand and heads toward the town, his face and robe recognisable. Hold a clean walking cut point.
+[0:26–0:30] — INTO TOWN
+Through the thinning dust the side hatch opens and the ramp folds down. Serega strides down it in a medium shot, face and robe clearly recognisable in even sunlight, and heads straight for the town. Hold a clean walking cut point.
 
 END STATE:
-Serega has arrived on Tatooine and is walking from his parked craft toward the desert town; the craft stays parked at the town edge behind him. No battle, worm, ruins or map retrieval occurs in this scene.
+Serega walks from his parked craft toward the desert town; the craft stays at the town edge behind him, dust settling. No battle, worm, ruins or map retrieval occurs in this scene.
 
 CAMERA / SPACE:
-Uncut continuation from @Video1 through the decision and the walk to the other ship in [0:00–0:09], keeping the same side of the axis and the floor geography. Then motivated cuts into the cockpit and the exterior departure, and exactly one interstellar time-compression cut at 0:16. Natural 50 mm medium human shots and wider exterior ship shots, consistent screen direction and credible scale. No vast empty hangar establishing shot that hides the actor.
+[0:00–0:08] is one uncut continuation of @Video1, same side of the axis and floor geography. Then five motivated action cuts: cockpit, slalom, Tatooine, landing, ramp. Speed lives in wide exteriors: low fly-bys past camera, whip-pans following the craft. Serega's face only in medium shots with even light. Constant left-to-right flight; tiny craft against the vast destroyer. No random handheld shake.
 
 PERFORMANCE:
-Brisk, practical, utterly serious. The eye-line from the fallen wing to the personal craft makes the change of transport unmistakable: a restrained resigned pause, then purposeful movement, no explanatory speech.
+Fast, decisive and utterly serious: one dry beat of disbelief at the wing, then quick strides and quick hands. Cool focused face; no speech, no smile, no look into the lens.
 
 LIGHTING / MATERIALS:
-White/amber working hangar light; hard sunlight in space; harsh warm desert daylight on Tatooine, real dust, heavy robe, weathered grey metal. Keep the personal craft's colour identical in every location.
+White/amber hangar light; hard sunlight and deep shadow under the destroyer's belly; harsh warm desert daylight, real sand spray and dust, heavy purple robe, weathered dark-grey metal. The craft's colour identical everywhere.
 
 AUDIO:
-Carry the hangar room tone and the fading tail of the wing crash across the opening; no new crash. Then footsteps, ramp motor and hatch seal, engine lift, low flight rumble, desert wind, distant town noise and sand under boots. No dialogue, narrator, music or captions.
+Hangar room tone and the fading tail of the wing crash, no new crash; fast footsteps, clanging ramp, hatch seal, rising engine whine, roaring doppler fly-by, the shriek of low flight and hissing sand, braking thrust, desert wind, town noise, boots on sand. No dialogue, narrator, music or captions.
 
 NEGATIVE PROMPT:
-repaired broken wing, second left wing, replayed wing fall, formal shuttle taking off, two ships merging, personal craft appearing from nowhere, walking through a hull, different personal ship, duplicate personal craft, new people, cats, disco light, space battle, asteroid field, worm, ancient stone ruins, map module, ancient computer, hyperspace tunnel, teleporting between locations inside one shot, repeated landing, changing face or robe, cartoon render, subtitles, title, watermark.
+repaired wing, second left wing, replayed wing fall, formal shuttle taking off, ships merging, craft appearing from nowhere, walking through a hull, different or duplicate personal craft, collision with the destroyer, new people, cats, disco light, space battle, asteroids, worm, ancient stone ruins, map module, computer, hyperspace tunnel, teleporting inside one shot, repeated landing, melting face, tiny face during fast motion, changing face or robe, cartoon render, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Video1 — последние секунды исправленной 44 (одно отвалившееся крыло, пустое крепление, три техника); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-28/H28A-ceremony.png`; @Image4 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+
+**Входы части 2:** @Video1 — конец части 1 (корабль уходит из-под кормы разрушителя в космос); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`.
+
+#### 52 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic action with dry deadpan | Part 1 of 2: Serega abandons the broken shuttle, boards his own craft, drops out of the destroyer's hangar and slaloms under its hull into open space
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, hangar light and camera axis. Absolute opening authority; continue its final frame, never replay the fall.
+@Image1 — absolute identity of SEREGA: face, age, body and purple robe.
+@Image2 — Serega's OWN flat wedge-shaped dark-grey craft: hull, proportions, colour, engines. Vehicle design only; ignore the city and the person on its roof.
+@Image3 — the destroyer's hangar architecture and white/amber working light only; its intact shuttle is not the damage authority.
+@Image4 — the enormous grey wedge-shaped destroyer exterior: silhouette, scale, ribbed underside, hangar opening.
+@Image5 — the craft's genuine cockpit: interior geometry only.
+Priority: @Video1 opening and shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their places. The two ships always remain distinct.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; same face and robe in profile, in motion and across cuts.
+THE THREE TECHNICIANS from @Video1: dark-grey coveralls, black caps, their actual faces and tools; they stay by the broken shuttle and leave frame as the camera follows Serega. No co-pilot, crew, cats, Jedi or droids.
+
+VEHICLE / CONTINUITY LOCK — CRITICAL:
+The broken formal shuttle and the personal craft are two separate vehicles in the same hangar. The shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. The personal craft is revealed by the camera move in a nearby clear bay, no teleport or morph. Access only through its single side hatch with a short fold-down boarding ramp. Serega boards once; the craft leaves the destroyer once, small beside it, never touching the hull. No map fragment or computer aboard.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+START STATE:
+Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the detached wing lies on the floor, the empty attachment point visible on the shuttle. His personal craft is parked a few steps away, out of frame, side hatch open, short ramp lowered.
+
+TIMELINE:
+[0:00–0:03] — NO FLIGHT IN THAT SHUTTLE
+Continue @Video1 without a cut: his eyes go from the technicians to the fallen wing and the empty root, one dry beat of disbelief, then his head snaps toward his own craft.
+
+[0:03–0:07] — STRAIGHT TO HIS CRAFT
+Same shot: he spins away and strides fast across the floor, robe swinging; the camera tracks low beside him and reveals the personal craft. He takes the short ramp in a few quick steps and vanishes through the side hatch. The broken shuttle stays behind unchanged.
+
+[0:07–0:10] — THE REMINDER
+Hard cut, cockpit medium shot with even light on his face. He drops into the pilot seat and snaps two switches; the pale-yellow note beside his right hand stays sharp for two seconds, loaf and milk carton clear. His eyes flick to it, then forward.
+
+[0:10–0:15] — DROP AND SLALOM
+Exterior wide: the small craft shoots out of the lit hangar mouth, drops below the destroyer's belly and slaloms left-to-right under the immense ribbed underside, banking hard between hanging hull structures and lit ventral bays, whips past the camera and bursts out from under the stern into black space.
+
+END STATE:
+The personal craft is flying left-to-right in open black space just clear of the destroyer's stern, engines glowing, the vast hull behind it. Serega is aboard; the broken shuttle remains in the hangar.
+
+CAMERA / SPACE:
+[0:00–0:07] one continuous take from @Video1 with a fast low tracking move on the same side of the axis. Then two hard action cuts: cockpit, exterior slalom. Speed in the wide exterior: fly-by past camera, whip-pan. Face only in medium shots. Left-to-right flight, tiny craft against the vast destroyer.
+
+PERFORMANCE:
+Fast, decisive, utterly serious: one dry beat of disbelief, then quick strides and hands. Cool face; no speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+White/amber hangar light; hard sunlight and deep shadow under the destroyer's belly; heavy purple robe, weathered dark-grey metal; the craft's colour identical inside and out.
+
+AUDIO:
+Hangar tone and the fading tail of the wing crash; fast footsteps, clanging ramp, hatch seal, rising engine whine, roaring doppler of the fly-by, deep hull resonance. No dialogue, narrator, music or captions.
+
+NEGATIVE PROMPT:
+repaired wing, replayed wing fall, formal shuttle taking off, ships merging, walking through a hull, different or duplicate craft, collision with the destroyer, new people, cats, disco light, space battle, asteroids, hyperspace tunnel, map module, computer, melting face, changing face or robe, cartoon render, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 52 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic flight with dry deadpan | Part 2 of 2: after a time cut the same craft skims Tatooine's dunes throwing a rooster-tail of sand, flares hard at the edge of the desert town and Serega strides off toward it
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the personal craft flying left-to-right in black space just clear of the destroyer's stern. Absolute START authority for the craft's look, colour and screen direction.
+@Image1 — absolute identity of SEREGA: face, age, body and purple robe.
+@Image2 — Serega's OWN flat wedge-shaped dark-grey craft: hull, proportions, colour, engines, scale. Vehicle design only; ignore the source city, the person on its roof and other ships.
+Priority: @Video1 controls the opening frame; @Image1 controls Serega; @Image2 controls the craft. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega, the only person aboard; no co-pilot, crew, cats, Jedi or droids.
+
+VEHICLE / CONTINUITY LOCK — CRITICAL:
+Exactly one personal craft, the same as in @Video1 and @Image2, identical colour in space and in the desert. It lands on Tatooine exactly once. Access only through its single side hatch with a short fold-down boarding ramp. No other ships, no destroyer on Tatooine. No map fragment or computer has been acquired yet.
+
+TATOOINE TOWN LOCK (described, no reference image): a small desert spaceport town on a vast pale-sand plain under a harsh bright sun: low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty streets between them, a few slim moisture-vaporator towers on the outskirts, heat haze and low dunes beyond. Weathered, lived-in, real. No ancient stone ruins, no gate piers or obelisk, no sandworm.
+
+START STATE:
+Exactly the last frame of @Video1: the personal craft streaking left-to-right through black space away from the destroyer, Serega aboard.
+
+TIMELINE:
+[0:00–0:02] — AWAY
+Continue @Video1 for a moment as the craft accelerates away, then one explicit time-compression cut.
+
+[0:02–0:07] — DUNE SKIM
+Tatooine, harsh daylight. Low camera on a dune crest as the same craft screams past only metres above the sand, left-to-right, engine wash throwing a tall rooster-tail of sand behind it. A chase angle follows it over the next dune line; the domed sand-coloured town rises out of the heat haze ahead.
+
+[0:07–0:10] — HARD FLARE LANDING
+At the town outskirts the craft pitches its nose up into a hard braking flare, engines blasting forward, and drops onto a clear sandy flat a short walk from the first buildings. Landing supports bite into the sand; a thick cloud of dust rolls outward over the camera.
+
+[0:10–0:15] — INTO TOWN
+Through the thinning dust the side hatch opens and the short ramp folds down. Serega strides down it in a medium shot, face and robe clearly recognisable in even sunlight, steps onto the sand and heads straight for the town without looking back. Hold a clean walking cut point for the last two seconds.
+
+END STATE:
+Serega walks from his parked craft toward the desert town; the craft stands at the town edge behind him, dust settling. No battle, worm, ruins or map retrieval.
+
+CAMERA / SPACE:
+Three hard action cuts: time cut to the dunes, the flare landing, the ramp. Speed lives in wide exteriors: low fly-by past camera, whip-pan, chase angle over the dunes. Serega's face only in the final medium shot. Constant left-to-right direction; the craft small against the town and the plain.
+
+PERFORMANCE:
+Serega steps out fast and decisive, face cool and serious; brisk strides, no speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Hard light in space; harsh warm desert sun, real sand spray, rolling dust, heat haze, heavy purple robe, weathered dark-grey hull, sand-coloured adobe walls.
+
+AUDIO:
+Engine roar fading into space; the shriek of low flight, hissing sand spray, doppler fly-by, braking thrust, dust settling, ramp motor and hatch seal, desert wind, distant town noise, boots on sand. No dialogue, narrator, music or captions.
+
+NEGATIVE PROMPT:
+different or duplicate craft, colour change, crash, repeated landing, destroyer on Tatooine, sandworm, ancient stone ruins, obelisk, battle, map module, computer, new people, cats, hyperspace tunnel, teleporting inside one shot, melting face, tiny face during fast motion, changing face or robe, cartoon render, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -3569,7 +4668,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":48},{"type":"related_to","scene":39}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
-**Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к личному кораблю, который ждёт там же, где сел в 52, — на окраине татуинского города (правка владельца 17.10, 23:58; руины с червём — место боя, не стоянка); точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39.
+**Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к личному кораблю, который ждёт там же, где сел в 52, — на окраине татуинского города (правка владельца 17.10, 23:58; руины с червём — место боя, не стоянка); точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39. **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход по узкому каньону у города и вертикальный взлёт мимо двух солнц. Под промтом в раскрывающейся шторке — запасная версия Seedance 2.0 (2 × 15 с).
 
 **Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>. Город Татуина задан описанием в промте (владелец 18.10, 00:17: кадра нет).
 
@@ -3582,13 +4681,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка на окраине города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе.
+**Что происходит:** После временной склейки Серёга уже в кабине на окраине татуинского города: бросает взгляд на модуль, прячет его в робу и резко включает системы. Корабль срывается с песка, поднимая кольцо пыли, ныряет в узкий песчаниковый каньон рядом с городом и на скорости проходит его повороты. На выходе из каньона он уходит почти вертикально вверх мимо двух солнц; в космосе Серёга задаёт курс и даёт полную тягу.
 
 **Готовность:** READY: четыре изображения сохранены, город задан описанием в промте. Один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, calm and purposeful | Serega leaves Tatooine from the edge of the desert town with the single Tatooine map module
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, fast kinetic flight, serious and purposeful | Serega blasts off from the edge of the desert town with the single Tatooine map module, tears through a narrow sandstone canyon and climbs vertically past the two suns into space
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity and costume of SEREGA.
@@ -3598,54 +4697,191 @@ REFERENCES / AUTHORITY ORDER:
 Priority: @Image1 controls Serega; @Image2 the exterior of the craft; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; same face and robe in every cockpit shot. No co-pilot, crew, cats, Jedi, droids or new accessories.
 
 PROP / VEHICLE LOCK — CRITICAL:
-One personal craft, one Serega, one module. The module stays rigid; it never unfolds, duplicates or projects a hologram. He puts it into the inner fold of his robe before operating the controls. No computer and no mushroom basket aboard yet. The craft is parked on the same sandy flat at the town edge where it landed, and makes exactly one take-off from Tatooine. Its single side hatch with a short fold-down boarding ramp is already closed. No second landing.
+One personal craft, one Serega, one module. The module stays rigid; it never unfolds, duplicates or projects a hologram. He puts it into the inner fold of his robe before operating the controls. No computer and no mushroom basket aboard yet. The craft is parked on the same sandy flat at the town edge where it landed, and makes exactly one take-off from Tatooine. Its single side hatch with a short fold-down boarding ramp is already closed. No second landing. In the canyon it flies fast but never touches the rock walls.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 TATOOINE TOWN LOCK (described, no reference image): a small desert spaceport town on a vast pale-sand plain under a harsh bright sun: low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty streets between them, a few slim moisture-vaporator towers on the outskirts, heat haze and low dunes beyond. Weathered, lived-in, real. No ancient stone ruins, no gate piers or obelisk, no sandworm.
 
+CANYON / SKY LOCK:
+Near the town, a single narrow natural canyon of wind-carved ochre sandstone: tall smooth layered walls, a winding sandy floor, sharp bright-and-shadow bands. Natural rock only, no carved ruins or structures. Above Tatooine hang exactly two suns, close together in the pale sky.
+
 START STATE:
-After a time jump from retrieving the Tatooine fragment, Serega is already seated alone in his cockpit; the craft stands on the sandy flat at the outskirts of the desert town, the first domed sand-coloured buildings visible through the window in harsh daylight. The module is in his hand.
+After a time jump from his escape with the Tatooine fragment, Serega is already seated alone in his cockpit; the craft stands on the sandy flat at the outskirts of the desert town, the first domed sand-coloured buildings visible through the window in harsh daylight. The module is in his hand.
 
 TIMELINE:
-[0:00–0:05] — THE FRAGMENT SECURED
-Medium cockpit shot with Serega's face clearly visible. He checks the module's steady amber glow, slips the one module into his robe and puts both hands on the controls. Keep the same yellow grocery note beside his hand clear and in focus for at least two seconds; he is busy with the module and does not touch or cover the note.
+[0:00–0:04] — THE FRAGMENT SECURED
+Medium cockpit shot, even light, Serega's face clearly visible. One quick glance at the module's steady amber glow, then he shoves the one module into his robe and slams both hands onto the controls, flicking switches in a fast sequence. The yellow grocery note beside his right hand stays clear and in focus for two seconds; he does not touch or cover it.
 
-[0:05–0:12] — LIFT-OFF FROM THE TOWN EDGE
-Exterior three-quarter view: the engine glow rises and the exact craft lifts off the sand. Dust spreads outward beneath it; the town buildings stay fixed in the background. The landing supports retract only after clear separation from the ground.
+[0:04–0:08] — BLAST-OFF
+Hard cut, low exterior angle at the town edge: the engines ignite and the exact craft punches up off the sand. A ring of dust blasts outward across the flat toward the camera; the town buildings stay fixed behind. The landing supports retract after clear separation, the nose swings left-to-right toward the rocks and the craft surges away at speed.
 
-[0:12–0:19] — CLIMB OUT
-Follow the same ship climbing away above the town and the dunes. One clean cut compresses the climb into a high-altitude view: blue-black sky above the tan planetary curve. No nearby Naboo planet appears.
+[0:08–0:16] — CANYON RUN
+Wide shots only: the craft drops into the narrow sandstone canyon and races low along its winding floor, banking hard left and right through the turns, engine wash ripping sand off the ground behind it. A camera placed at a bend whip-pans as it roars past, close but clean, and holds on the tiny craft threading between the towering walls toward the bright canyon mouth.
 
-[0:19–0:25] — COURSE SET
-Back in the matching cockpit: Serega makes one definite course selection and pushes the thrust control forward, calm and purposeful. The module stays hidden; no holographic map and no readable destination text.
+[0:16–0:24] — STRAIGHT UP PAST THE TWO SUNS
+Hard cut, low angle from the canyon rim: the craft bursts out of the canyon mouth and pulls into a near-vertical climb, engines blazing. It shoots straight up across the two suns, a quick flare as it crosses them, and the sky deepens from pale blue to dark indigo as it shrinks upward.
 
-[0:25–0:30] — ONWARD
-Exterior rear three-quarter view in open space: the tan curve of Tatooine recedes below and the same craft accelerates away on its journey. Empty black space ahead; a clean cut point for the separate arrival scene.
+[0:24–0:27] — COURSE SET
+Matching cockpit, medium shot, cooler even instrument light on his face, stars appearing outside. Serega makes one definite course selection with a sharp press and shoves the thrust lever fully forward. The module stays hidden; no holographic map and no readable destination text.
+
+[0:27–0:30] — ONWARD
+Exterior rear three-quarter view in open space: the tan curve of Tatooine below, the two suns glinting on its rim; the same craft kicks into full acceleration and streaks away into empty black space. Clean cut point for the separate arrival scene.
 
 END STATE:
-Serega and the single Tatooine fragment have left Tatooine in his own craft, travelling through open space. The arrival on Naboo is a separate scene after a time cut.
+Serega and the single Tatooine fragment have left Tatooine in his own craft, accelerating through open space. The arrival on Naboo is a separate scene after a time cut.
 
 CAMERA / SPACE:
-Readable medium cockpit shots and motivated exterior cuts; consistent screen direction and ship scale. The atmospheric climb is compressed by one explicit cut rather than by changing terrain inside one unbroken shot. Faces are never lost in an enormous cockpit; no shaky camera.
+Five motivated action cuts: blast-off, canyon, climb, cockpit course set, space. Speed lives in the exteriors: low angles, whip-pans and fly-bys past camera in the canyon, a low upward angle for the vertical climb, a rear three-quarter chase in space. Serega's face only in medium cockpit shots with even light, never tiny during speed. Consistent left-to-right screen direction until the climb; credible ship scale against the canyon walls. The atmospheric climb is compressed by cuts, not by morphing terrain inside one shot. No random handheld shake.
 
 PERFORMANCE:
-A purposeful departure after finishing his task: no speech, no exaggerated reaction, no new conflict. Precise hand movements on practical cockpit controls.
+A fast, decisive departure after finishing his task: quick precise hands, a sharp shove of the thrust lever, cool focused face. No speech, no smile, no new conflict, no look into the lens.
 
 LIGHTING / MATERIALS:
-Harsh warm desert daylight on sand and sand-coloured walls, dusty purple robe hem, worn grey hull, the module's small amber glow; gradually cooler cockpit instrument light as the ship reaches space. No lighting-driven change of his face.
+Harsh warm desert daylight on sand and sand-coloured walls, hard bright-and-shadow bands in the canyon, two-sun lens flare on the climb, dusty purple robe hem, worn dark-grey hull, the module's small amber glow; cooler cockpit instrument light as the ship reaches space. No lighting-driven change of his face.
 
 AUDIO:
-Low instrument hum, cloth rustle as the module is stowed, engine spin-up, sand wash, faint distant town noise, climbing engine rumble, quiet cockpit switches. No dialogue, narrator, music, captions or spoken navigation.
+Cockpit hum, cloth rustle as the module is stowed, rapid switch clicks, engine ignition and sand blast, the roaring doppler of the craft whipping past camera and echoing between canyon walls, the strained rising engine scream of the vertical climb thinning into the silence of space, a final thrust surge. No dialogue, narrator, music, captions or spoken navigation.
 
 NEGATIVE PROMPT:
-two map modules, hologram map, folding map, modern phone, computer, mushrooms, co-pilot, crew, cats, other Jedi, sandworm, ancient stone ruins, formal winged shuttle, wrong ship, Naboo beside Tatooine, destination landing, repeated take-off, space battle, asteroids, cockpit fight, face drift, costume change, text overlay, watermark.
+two map modules, hologram map, folding map, modern phone, computer, mushrooms, co-pilot, crew, cats, other Jedi, sandworm, ancient stone ruins, carved canyon structures, craft scraping or crashing into rock, more than two suns, formal winged shuttle, wrong ship, Naboo beside Tatooine, destination landing, repeated take-off, space battle, asteroids, cockpit fight, melting or blurred face, tiny face during fast motion, costume change, text overlay, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
+
+**Входы части 2:** @Video1 — конец части 1 (корабль несётся по каньону к выходу); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-37/S37-ship-source-part1-09m03s.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+
+#### 53 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic flight, serious and purposeful | Part 1 of 2: Serega stows the Tatooine map module, blasts off from the edge of the desert town and tears through a narrow sandstone canyon
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — absolute identity and costume of SEREGA.
+@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
+@Image4 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
+Priority: @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
+
+PROP / VEHICLE LOCK — CRITICAL:
+One craft, one Serega, one module. The module stays rigid; it never unfolds, duplicates or projects a hologram, and goes into the inner fold of his robe before he flies. No computer or mushroom basket aboard. The craft takes off once from the sandy flat at the town edge where it landed; its single side hatch with a short fold-down boarding ramp is already closed. In the canyon it never touches the rock.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+TATOOINE TOWN LOCK (described, no reference image): a small desert spaceport town on a vast pale-sand plain under a harsh bright sun: low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty streets between them, a few slim moisture-vaporator towers on the outskirts, heat haze and low dunes beyond. Weathered, lived-in, real. No ancient stone ruins, no gate piers or obelisk, no sandworm.
+
+CANYON LOCK:
+Near the town, one narrow natural canyon of wind-carved ochre sandstone: tall layered walls, a winding sandy floor, hard bright-and-shadow bands. Natural rock only, no ruins.
+
+START STATE:
+After a time jump from his escape with the Tatooine fragment, Serega is seated alone in his cockpit; the craft stands on the sandy flat at the town outskirts, domed sand-coloured buildings through the window in harsh daylight. The module is in his hand.
+
+TIMELINE:
+[0:00–0:04] — FRAGMENT SECURED
+Medium cockpit shot, even light, face clear. A quick glance at the module's amber glow, he shoves it into his robe, slams both hands onto the controls and flicks switches fast. The yellow note beside his right hand stays sharp for two seconds, untouched.
+
+[0:04–0:08] — BLAST-OFF
+Hard cut, low exterior angle: the engines ignite and the craft punches up off the sand; a ring of dust blasts toward the camera, the town fixed behind. Supports retract after separation; the nose swings left-to-right and it surges away.
+
+[0:08–0:15] — CANYON RUN
+Wide shots only: the craft drops into the narrow sandstone canyon and races low along the winding floor, banking hard left and right, engine wash ripping sand off the ground. A camera at a bend whip-pans as it roars past close but clean; a high angle shows the tiny craft threading between towering walls toward a bright opening ahead.
+
+END STATE:
+The craft is racing low through the canyon toward its bright mouth, left-to-right, sand spraying behind; Serega aboard with the module hidden in his robe.
+
+CAMERA / SPACE:
+Two hard action cuts: to the blast-off and to the canyon. Speed lives in wide exteriors: low angles, whip-pans, fly-by past camera. Face only in the medium cockpit shot. Left-to-right direction; credible scale against the canyon walls.
+
+PERFORMANCE:
+Fast and decisive, cool focused face; quick precise hands. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert daylight, hard canyon light bands, dusty purple robe hem, worn dark-grey hull, the module's small amber glow.
+
+AUDIO:
+Cockpit hum, cloth rustle as the module is stowed, rapid switch clicks, engine ignition, sand blast, faint town noise, the roaring doppler fly-by echoing between canyon walls. No dialogue, narrator, music or captions.
+
+NEGATIVE PROMPT:
+two modules, hologram map, folding map, phone, computer, mushrooms, co-pilot, crew, cats, Jedi, sandworm, ancient ruins, carved canyon structures, scraping or crashing into rock, formal winged shuttle, wrong ship, repeated take-off, space battle, cockpit fight, melting face, tiny face during fast motion, costume change, text overlay, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 53 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic flight, serious and purposeful | Part 2 of 2: Serega's craft bursts out of the canyon into a vertical climb past Tatooine's two suns, sets course and accelerates into space
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result: the craft racing low through the sandstone canyon toward its bright mouth. Absolute START authority for the craft, the canyon, light and screen direction.
+@Image1 — absolute identity and costume of SEREGA.
+@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
+Priority: @Video1 the opening; @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
+
+PROP / VEHICLE LOCK — CRITICAL:
+One craft, one Serega. The single Tatooine map module stays hidden in the inner fold of his robe the whole time: never visible, no hologram, no map display. No computer or mushroom basket aboard. The craft never touches the rock, never lands again.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
+SKY LOCK:
+Exactly two suns, close together in Tatooine's pale sky. The canyon is natural ochre sandstone, no ruins. Naboo never appears.
+
+START STATE:
+Exactly the last frame of @Video1: the craft racing low and fast through the narrow canyon toward its bright mouth, Serega aboard.
+
+TIMELINE:
+[0:00–0:03] — CANYON MOUTH
+Continue @Video1: the craft rips through the last bend toward the bright canyon mouth, sand spraying behind.
+
+[0:03–0:09] — STRAIGHT UP PAST THE TWO SUNS
+Hard cut, low angle from the canyon rim: the craft bursts out of the mouth and pulls into a near-vertical climb, engines blazing, shooting straight up across the two suns with a quick flare; the sky deepens from pale blue to dark indigo.
+
+[0:09–0:12] — COURSE SET
+Cockpit medium shot, cooler even light on his recognisable face, stars outside. The yellow note stays sharp beside his right hand. One sharp course-selection press, then he shoves the thrust lever fully forward. No hologram, no readable destination text.
+
+[0:12–0:15] — ONWARD
+Exterior rear three-quarter view: the tan curve of Tatooine below, the two suns glinting on its rim; the craft kicks into full acceleration and streaks away into black space. Hold a clean cut point.
+
+END STATE:
+Serega and the hidden Tatooine fragment have left Tatooine in his own craft, accelerating through open space toward a separate arrival scene.
+
+CAMERA / SPACE:
+Three hard action cuts: climb, cockpit, space. Speed in wide exteriors: whip-pan at the canyon mouth, low upward angle for the climb, rear chase in space. Face only in the medium cockpit shot with even light. Credible ship scale; the climb is compressed by cuts, not morphing terrain.
+
+PERFORMANCE:
+Fast, decisive, cool focused face; one sharp press and a hard shove of the thrust lever. No speech, no smile, no look into the lens.
+
+LIGHTING / MATERIALS:
+Hard canyon light bands, two-sun lens flare, darkening sky, worn dark-grey hull, dusty purple robe; cooler cockpit light in space. No lighting-driven change of his face.
+
+AUDIO:
+Engine roar echoing between canyon walls, a strained rising engine scream through the vertical climb thinning into the silence of space, a sharp switch click and a final thrust surge. No dialogue, narrator, music, captions or spoken navigation.
+
+NEGATIVE PROMPT:
+visible map module, hologram map, more than two suns, Naboo beside Tatooine, landing, crash into rock, formal winged shuttle, wrong or duplicate ship, co-pilot, cats, sandworm, ruins, space battle, asteroids, melting face, tiny face during fast motion, costume change, text overlay, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>
 
 ---
 
@@ -3830,6 +5066,7 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 - Цвета мечей: Илюша синий, Артём зелёный, Серёга красный. Разрушения только копятся: сломанная опора ворот и расколотый обелиск из 42 не восстанавливаются. Машина не появляется (W8).
 - **До READY:** @Video1 — последние секунды результата Scene 42 (сначала нужен её результат).
 - В монтаж 15–25 с. Запуск — только по команде владельца.
+- **Запасная версия (владелец 18.10.2026):** под промтом в раскрывающейся шторке — Seedance 2.0 (2 × 15 с), если Wan замедлит сцену.
 
 **Референсы:**
 
@@ -3918,3 +5155,143 @@ worm swallowing or touching anyone, death, blood, characters attacking or fleein
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
+
+<details class="engine-alt"><summary>⚡ Запасная версия: Seedance 2.0 · 2 × 15 с — если Wan замедлит сцену или «поплывут» лица</summary>
+
+Та же сцена двумя роликами по 15 с. Сначала часть 1; часть 2 запускается после её результата: @Video1 части 2 — последние секунды части 1. Нумерация входов в каждой части своя. В очередь запуска не внесена: запуск только по решению владельца.
+
+**Входы части 1:** @Video1 — последние секунды результата Scene 42; @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`.
+
+**Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image5 — те же файлы, что в части 1.
+
+#### 56 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | Part 1 of 2: the duel breaks loose, two Jedi press the Chancellor and the ground slides away under them while the ignored worm snaps and ploughs past
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the colossal worm hanging motionless over them, the broken ruins, dust and light. Absolute authority for the START STATE and the screen positions.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+WORM / DESTRUCTION LOCK — CRITICAL:
+The same colossal worm from @Image5 for the whole clip, always far larger than the gate piers. Damage only accumulates: the smashed gate pier and the cracked obelisk from @Video1 stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
+
+PROP LOCK:
+Exactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole clip. It never falls out.
+
+START STATE:
+Exactly the last frame of @Video1: the three locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, the worm's gaping maw hanging over them in falling dust.
+
+TIMELINE:
+[0:00–0:04] — BREAK
+Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
+
+[0:04–0:09] — TWO AGAINST ONE
+Cut on motion to a fast circling shot at running speed: Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges; each face gets a clear medium beat as he turns to it.
+
+[0:09–0:13] — THE GROUND MOVES
+Cut to a low wide angle: the worm ploughs a trench straight through the fighting ground behind them. The sand slides away under their feet; still fencing, all three skid down the collapsing slope.
+
+[0:13–0:15] — THE LEAP
+Low angle as Ilyusha leaps across the opening trench in mid-swing and lands beside Serega, blue meeting red at once. Hold the three fencing at the foot of the slope, the long toppled obelisk block right behind Serega.
+
+END STATE:
+The three still fencing at the foot of the fresh collapsed slope, Artem frame-left, Serega centre with the long toppled obelisk block just behind him, Ilyusha frame-right; the worm's body sliding away along its new trench in the background; the module still glowing in Artem's belt.
+
+CAMERA / SPACE:
+The first beat continues @Video1 without a cut. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a fast circle at running speed, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
+
+PERFORMANCE:
+Fast, athletic, fully committed swordplay with real weight: slides, skids, a leap and a Force shove. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads at Artem's belt.
+
+AUDIO:
+Saber hums, crackling clashes and whooshes in the foreground, boots sliding and thudding on sand, a dull Force shove thump; the worm's jaws snapping shut, its roar and the hiss of sliding sand behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 56 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | Part 2 of 2: the duel runs along the toppled obelisk, the worm shatters it, and the three lock blades again under the furious rearing worm
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1's result. Absolute authority for the START STATE, screen positions, ruins, dust and light.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+Priority: @Video1 controls the start, positions and damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+WORM / DESTRUCTION LOCK — CRITICAL:
+The same colossal worm from @Image5 for the whole clip, always far larger than the gate piers. Damage only accumulates: the smashed gate pier and the cracked obelisk from @Video1 stay broken; the long toppled obelisk block shatters in this clip and stays shattered; nothing rebuilds. The worm strikes near the fighters but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
+
+PROP LOCK:
+Exactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole clip. It never falls out.
+
+START STATE:
+Exactly the last frame of @Video1: the three fencing at the foot of the collapsed slope, Artem frame-left, Serega centre with the toppled obelisk block behind him, Ilyusha frame-right, the worm in the background.
+
+TIMELINE:
+[0:00–0:04] — ON THE STONE
+Continuing @Video1 without a cut: Serega springs backwards up onto the long toppled obelisk block; Artem jumps up after him and they duel along its top, step by step, while Ilyusha attacks from the sand below.
+
+[0:04–0:06] — THE GLOW
+Close insert in mid-exchange: the amber glow of the module in Artem's belt flashes past the blades. Cut to a medium shot of Serega, face clearly lit: his eyes flick to it for a single beat, then back to the fight.
+
+[0:06–0:10] — THE WORM TRIES AGAIN
+Wide low angle: the worm sweeps its body across the ruin and shatters the stone block into tumbling chunks. All three jump down together, roll through the sand and come up already fighting. Nobody looks back.
+
+[0:10–0:15] — LOCKED AGAIN
+The three cross blades again in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, faces close, evenly lit and readable. Behind and above them the furious worm rears to its full height and roars, coiled to strike straight down. Hold the moment just before the strike.
+
+END STATE:
+The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; the obelisk block shattered; dust and broken ruins all around.
+
+CAMERA / SPACE:
+The first beat continues @Video1 without a cut, tracking along the stone block at running speed. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a close insert of the module glow with a medium on Serega's eyes, a wide low angle for the shattering block and the roll, a low medium-wide on the locked blades under the worm. Keep the worm in frame for scale in wide shots. Faces read in medium and close shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
+
+PERFORMANCE:
+Fast, athletic, fully committed swordplay with real weight: jumps, footwork along the narrow stone, a roll and an instant return to fencing. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads through the dust.
+
+AUDIO:
+Saber hums, crackling clashes and whooshes in the foreground, boots on stone, thuds and rolls in sand; the worm's roars, the grinding sweep of its body and the crack of shattering stone behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, worm striking early, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</details>

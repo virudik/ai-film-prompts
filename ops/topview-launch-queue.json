@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T21:36:25Z",
+  "updated_at": "2026-10-17T22:21:36Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -309,8 +309,8 @@
       "scene_id": 37,
       "prompt_id": "S37",
       "canonical_block_label": "37",
-      "canonical_prompt_sha256": "529472e581902706e06e5dabee6631f02cc4fd94fffab9df06557a2dff5de75c",
-      "normalized_prompt_sha256": "5bc1887767c5bdf0fbc7299ad264694dc2069a342ebc80136e76e89440761f1a",
+      "canonical_prompt_sha256": "7e21c0c2e5f0619682ce1ea6426c1f9a3b9c371cbc2141c71e447bfdbd192c2c",
+      "normalized_prompt_sha256": "f4de22f4a756c0429a0c0737289d3bfc2e6788dc0e0399faba0f8fb4852ea8f5",
       "priority": 4,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -372,7 +372,8 @@
         "sequence_index": 4
       },
       "previous_prompt_sha256": [
-        "afd6773dfb34724ec8d8cd82b48fc80a698b216cd5f418f9756052945d5b6254"
+        "afd6773dfb34724ec8d8cd82b48fc80a698b216cd5f418f9756052945d5b6254",
+        "529472e581902706e06e5dabee6631f02cc4fd94fffab9df06557a2dff5de75c"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
     },
@@ -1009,8 +1010,8 @@
       "scene_id": 40,
       "prompt_id": "S40",
       "canonical_block_label": "40",
-      "canonical_prompt_sha256": "88ea12e3b20ccc4cea940ca6d9d2e3210969935c10b9f52d4e4ad6163391a7f8",
-      "normalized_prompt_sha256": "2d92c75911e810c2ac394784ecebf5ecb2acc041ace7f03ddaa505bb0a389d78",
+      "canonical_prompt_sha256": "d5c08c49c81167452fcb4db776bce66b47e31240af420a856dbf0aa57a4d2d83",
+      "normalized_prompt_sha256": "4845cb2f6bdc8d684378bdeb56a9794081f1906de02a07e55cbe5d871d2ae30a",
       "priority": 6,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1068,7 +1069,8 @@
         "sequence_index": 6
       },
       "previous_prompt_sha256": [
-        "adb3f289326acbf6b7b9885bc9744bae2823bb1070fe729eeb28b65700785e71"
+        "adb3f289326acbf6b7b9885bc9744bae2823bb1070fe729eeb28b65700785e71",
+        "88ea12e3b20ccc4cea940ca6d9d2e3210969935c10b9f52d4e4ad6163391a7f8"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
     },
@@ -1249,8 +1251,8 @@
       "scene_id": 47,
       "prompt_id": "S47",
       "canonical_block_label": "47",
-      "canonical_prompt_sha256": "2a36d6653917dfdfb535881753f2ed5348bbedcf612d31f96f2be39a31b85952",
-      "normalized_prompt_sha256": "c0e77d42ab73246c88451c551b4e09ff3dc0d0c12922b6e4183d1978c22feb4e",
+      "canonical_prompt_sha256": "d5483bc47801229fe26e242fb085c0558ad0d8ccbc6070d11a76f84ffebe895f",
+      "normalized_prompt_sha256": "4ee6fdad6350c735558462c7a640261738de3ed6758bda8cd26f41ed784bf0c8",
       "priority": 36,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1301,15 +1303,18 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "previous_prompt_sha256": [
+        "2a36d6653917dfdfb535881753f2ed5348bbedcf612d31f96f2be39a31b85952"
+      ]
     },
     {
       "id": "S41",
       "scene_id": 41,
       "prompt_id": "S41",
       "canonical_block_label": "41",
-      "canonical_prompt_sha256": "89bcd69778be59c919495b35198965dd06e00ef93e6b6298a3e79ec148bd2957",
-      "normalized_prompt_sha256": "93879bcc029da91ecaaf971ef0c7efe913e41e9e27e17f3f504891c630d1c3b7",
+      "canonical_prompt_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
+      "normalized_prompt_sha256": "bdf412dc6250c863a0ed68106dbe34f6d0f3b6b48e2dd6cb2d6a9695e54f5db0",
       "priority": 0,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1367,7 +1372,8 @@
         "sequence_index": 0
       },
       "previous_prompt_sha256": [
-        "cf3906a41263b80e7a2f6cf7d270e7055de1051f4152339093efb633bd18d290"
+        "cf3906a41263b80e7a2f6cf7d270e7055de1051f4152339093efb633bd18d290",
+        "89bcd69778be59c919495b35198965dd06e00ef93e6b6298a3e79ec148bd2957"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
     },
@@ -1376,8 +1382,8 @@
       "scene_id": 42,
       "prompt_id": "S42",
       "canonical_block_label": "42",
-      "canonical_prompt_sha256": "c0f26efe865b9a3e801d39e65b35aeb34fbff384c62f5ae2290ad562bbabfa5e",
-      "normalized_prompt_sha256": "d7d3c44250bd0eda91dfe596f9cf1c08073badb60cb9206b318b406830a3aff1",
+      "canonical_prompt_sha256": "e7275e58414252a957a5ca36b1f35c5c761921cdc92c3ce95901a862273be175",
+      "normalized_prompt_sha256": "9fc7490017454ee3e5a2db9b6c13b51ac910dc313f536f62da44af44db027e7d",
       "priority": 35,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1428,15 +1434,18 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "previous_prompt_sha256": [
+        "c0f26efe865b9a3e801d39e65b35aeb34fbff384c62f5ae2290ad562bbabfa5e"
+      ]
     },
     {
       "id": "S39",
       "scene_id": 39,
       "prompt_id": "S39",
       "canonical_block_label": "39",
-      "canonical_prompt_sha256": "b2106d4a2e24d4df594483f9416d1f0db9067b7a88b16ea613d49dbf431a2805",
-      "normalized_prompt_sha256": "7ef5f08cfb6398b722e755dfbb4d7d0e6c57416919ff0902fde1f01bffbcd8d8",
+      "canonical_prompt_sha256": "0b4cc2ff1c1b88f9f50cea972f1632e09438d005d58b1bd03a7855649edf92a8",
+      "normalized_prompt_sha256": "b24d9834b1d3fb22660336c9bdde07387a2447a080d707f54c1b833afad15f2d",
       "priority": 5,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1492,7 +1501,8 @@
       "claim": null,
       "previous_prompt_sha256": [
         "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce",
-        "06b9632d969a567837574f2eaf7591b20e129564d3c585de1937e956c1b2d95c"
+        "06b9632d969a567837574f2eaf7591b20e129564d3c585de1937e956c1b2d95c",
+        "b2106d4a2e24d4df594483f9416d1f0db9067b7a88b16ea613d49dbf431a2805"
       ],
       "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6, с 18.10 — @Image5).",
       "priority_owner_override": {
@@ -2502,8 +2512,8 @@
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
-      "canonical_prompt_sha256": "f22fcd592d97a8a63c91a0465036f3f44c55eb001affa731044b11cd5234a383",
-      "normalized_prompt_sha256": "4e1dbe893ef835c0b4152e956fd9077f0a5427b5609594638e0ef157c54097fb",
+      "canonical_prompt_sha256": "1080dbdcb5743bd3df1abe729251d554a12f54b76f493fbc92a44ba8471d8d95",
+      "normalized_prompt_sha256": "5161f031b7d68c408ef3b0e45fd15d390cc3fb2392577c71f050e3658412efea",
       "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "depends_on_submitted": [
         "S56"
@@ -2555,7 +2565,8 @@
       "launch_readiness": "blocked_continuity",
       "previous_prompt_sha256": [
         "3070fc31154b769cd10fe629e9b6a816c5c3c1bc0ab955143da0197a55a43ab4",
-        "539be552ff666ec742986407b8cfaab42f44da157479a47478f78f51523b7c1f"
+        "539be552ff666ec742986407b8cfaab42f44da157479a47478f78f51523b7c1f",
+        "f22fcd592d97a8a63c91a0465036f3f44c55eb001affa731044b11cd5234a383"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "revision_note_20261018_0030": "Owner 18.10 MSK: ending changed — Serega rides the worm away; @Video1 now = end of S56 (see owner_instruction_20261018_0030)."
@@ -2642,8 +2653,8 @@
       "scene_id": 52,
       "prompt_id": "S52",
       "canonical_block_label": "52",
-      "canonical_prompt_sha256": "39ccdd0dba73f96e01b4162f0845d4a6756ea3c8a30e3fc6c571c2563fa44a6c",
-      "normalized_prompt_sha256": "9058464fa1fd7d65ffe9062928be35020d641cfda7cf79777a44ac7f54b4e0d8",
+      "canonical_prompt_sha256": "60e3e71873bf1bf73c9aba215a656ff7fc6658b508f7c0b2820d5ad89fae0c49",
+      "normalized_prompt_sha256": "ceceb5620d8fc9839a3146c1e7311717c0e3352649757d9c0910e55ddf2f1dbb",
       "priority": 20,
       "state": "blocked_inputs",
       "model": "Wan 3.0",
@@ -2712,7 +2723,8 @@
       "previous_prompt_sha256": [
         "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
         "09a52fb3db0893ff8b97956bcb37b84329774beb9e55b13ed190ff86490cb2cd",
-        "96c7e14a94d5002ad74d0cbb790a5574ba73fffb7fc927252ec590c953adcf99"
+        "96c7e14a94d5002ad74d0cbb790a5574ba73fffb7fc927252ec590c953adcf99",
+        "39ccdd0dba73f96e01b4162f0845d4a6756ea3c8a30e3fc6c571c2563fa44a6c"
       ],
       "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6, с 18.10 — @Image5).",
       "launch_readiness": "blocked_continuity",
@@ -2725,8 +2737,8 @@
       "scene_id": 53,
       "prompt_id": "S53",
       "canonical_block_label": "53",
-      "canonical_prompt_sha256": "0f43d5446d38193be25dcef50cb556f716c0f587b85629217eff0f8714b550b3",
-      "normalized_prompt_sha256": "5f724cbde34eb22932d695e36507d73d2412fbb76bccd714de9a3f823fbe5fc8",
+      "canonical_prompt_sha256": "94f9a0252aa352aed5d195429a00f3c66aed220a07943def187c198979383704",
+      "normalized_prompt_sha256": "5c028afd686ad0543691141c28d13ae9f2e4d75e2f49f3c2cd4ef856fedb7ee3",
       "priority": 21,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2780,7 +2792,8 @@
       "max_credits": 0,
       "previous_prompt_sha256": [
         "38bfeceb279912fb748606ec77001a54708a01eac215e0506946218dc426d18b",
-        "761982ac7d4d3946d54f652bc3d36ec233adcff0853bdbd669bfe1629695117f"
+        "761982ac7d4d3946d54f652bc3d36ec233adcff0853bdbd669bfe1629695117f",
+        "0f43d5446d38193be25dcef50cb556f716c0f587b85629217eff0f8714b550b3"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017)."
@@ -3634,5 +3647,15 @@
     "no_launch_performed": true,
     "max_credits": 0,
     "recorded_at": "2026-10-17T21:36:25Z"
+  },
+  "owner_instruction_20261018_0106": {
+    "source": "Direct owner message in project thread 18.10.2026 01:06 MSK",
+    "decisions": [
+      "All action/flight scenes must be active and dynamic; Wan prompts for 37, 39, 40, 41, 42, 47, 48, 52, 53 rewritten (each flight has its own signature manoeuvre); 48 no longer has Serega calmly hiding the module.",
+      "Under the Wan prompts of 37, 39, 40, 41, 42, 47, 48, 52, 53, 56 the master now holds backup Seedance 2.0 versions (2 x 15 s, part 2 starts from the end of part 1) in a collapsible fold on the site.",
+      "The Seedance backups are NOT queue items: use them only if the owner rejects the Wan result as slow or with melting faces and asks for the Seedance version.",
+      "45/46 (RosKOTmos): option A, the cats own breakthrough to the Sith planet, not the Jedi space battle."
+    ],
+    "queue_effect": "New canonical/normalized SHA for S37-S37, S39, S40, S41, S42, S47, S48, S52, S53 (old values in previous_prompt_sha256). References, order and states unchanged."
   }
 }

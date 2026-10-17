@@ -77,6 +77,11 @@ def label_for(scene, heading, index_in_scene):
     if scene in (49, 50, 51):
         m = re.match(rf"({scene}[A-Z])\b", heading)
         return m.group(1) if m else str(scene)
+    # Backup Seedance 2.0 versions (two 15 s parts) kept under a Wan 3.0 scene, in a fold on the site:
+    # heading "#### 42 · Seedance 2.0 часть 1".
+    m = re.search(r"Seedance\s+2\.0\s+часть\s+(\d+)", heading)
+    if m and index_in_scene > 0:
+        return f"{scene} · Seedance 2.0 часть {m.group(1)}"
     return str(scene)
 
 

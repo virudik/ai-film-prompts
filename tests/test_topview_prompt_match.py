@@ -15,6 +15,8 @@ import topview_prompt_match as pm  # noqa: E402
 
 MASTER = (ROOT / "video-prompts.md").read_text(encoding="utf-8")
 BLOCKS = pm.master_blocks(MASTER)
+# Any active single-prompt scene (retired scenes leave the master, so do not hard-code one).
+SINGLE = next(l for l, b in BLOCKS if l.isdigit() and "Photoreal" in b and "@Image1" in b)
 
 
 class Fake:
@@ -33,7 +35,8 @@ class PromptMatch(unittest.TestCase):
         labels = [l for l, _ in BLOCKS]
         self.assertEqual(len(labels), len(set(labels)))
         self.assertIn("28 B1", labels)
-        self.assertIn("27 · Seedance 2.0 часть 2", labels)
+        self.assertIn("42 · Seedance 2.0 часть 1", labels)
+        self.assertIn("42 · Seedance 2.0 часть 2", labels)
         for suffix in "ABCDEF":
             self.assertIn("49" + suffix, labels)
         self.assertIn("50A", labels)
@@ -52,27 +55,26 @@ class PromptMatch(unittest.TestCase):
             self.assertEqual(len(labels), project["prompt_texts"])
 
     def test_topview_flavoured_text_matches_normalized(self):
-        label, body = next((l, b) for l, b in BLOCKS if l == "24")
+        label, body = next((l, b) for l, b in BLOCKS if l == SINGLE)
         topview = pm.re.sub(r"@Image(\d)", r"<<<Image\1>>>", body).replace("\n", "\r\n")
         got = pm.classify(topview, BLOCKS)
-        self.assertEqual(got[:2], ("24", "normalized"))
+        self.assertEqual(got[:2], (SINGLE, "normalized"))
 
     def test_small_edit_is_high_and_unrelated_text_is_low(self):
-        label, body = next((l, b) for l, b in BLOCKS if l == "31")
+        label, body = next((l, b) for l, b in BLOCKS if l == SINGLE)
         edited = body.replace("Photoreal", "Photo-real", 1)
-        self.assertEqual(pm.classify(edited, BLOCKS)[:2], ("31", "high"))
+        self.assertEqual(pm.classify(edited, BLOCKS)[:2], (SINGLE, "high"))
         self.assertEqual(pm.classify("A cat walks along a wall.", BLOCKS)[1], "low")
 
     def test_main_prints_only_task_id_scene_and_confidence_and_uses_get_detail_only(self):
-        body24 = dict(BLOCKS)["24"]
-        fake = Fake({"a" * 32: body24})
+        fake = Fake({"a" * 32: dict(BLOCKS)[SINGLE]})
         out = io.StringIO()
         env = {"TOPVIEW_API_KEY": "secret-key-xyz", "TOPVIEW_UID": "uid-123"}
         with patch.dict(os.environ, env), patch.object(pm.scan, "Client", lambda k, u: fake), \
                 contextlib.redirect_stdout(out):
             self.assertEqual(self._run("a" * 32), 0)
         text = out.getvalue()
-        self.assertIn("a" * 32 + " -> Scene 24 · exact", text)
+        self.assertIn("a" * 32 + " -> Scene " + SINGLE + " · exact", text)
         self.assertNotIn("secret-key-xyz", text)
         self.assertNotIn("uid-123", text)
         self.assertNotIn("Mode: reference-to-video", text)     # prompt text is never printed
