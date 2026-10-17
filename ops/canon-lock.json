@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Owner22:33 stop RosKOTmos rerenders, check fans, launch next story55 free",
-  "acquired_at": "2026-10-17T19:33:56.366Z",
-  "expires_at": null,
-  "released_at": "2026-10-17T19:40:49.110Z",
+  "task": "Owner22:43: S41 next; publish three scene50 Wookiee candidates",
+  "acquired_at": "2026-10-17T19:46:36.209Z",
+  "expires_at": "2026-10-17T20:31:36.209Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
