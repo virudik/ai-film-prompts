@@ -1,1 +1,1 @@
-2026-10-17T17:46:03Z Claude (thread scene-55): new Scene 55 «А молоко?» (owner 17.10). Sync exact master -> validator -> project-status -> GitHub Pages.
+2026-10-17T18:06:10Z Claude (thread scene-55): Scene 55 -> Wan 3.0 30s (owner 17.10). Sync exact master -> validator -> project-status -> GitHub Pages.

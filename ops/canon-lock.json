@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-55",
   "task": "сцена 55: Seedance 15s → Wan 3.0 30s (владелец 17.10)",
   "acquired_at": "2026-10-17T18:05:51Z",
-  "expires_at": "2026-10-17T18:35:51Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-17T18:06:49Z",
   "rules": "ops/CANON-LOCK.md"
 }
