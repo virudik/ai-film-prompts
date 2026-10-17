@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T17:47:03+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-17T17:47:39+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 31,
-  "prompt_texts": 59,
+  "scenes": 32,
+  "prompt_texts": 60,
   "scene_ids": [
    13,
    16,
@@ -224,9 +224,10 @@
    51,
    52,
    53,
-   54
+   54,
+   55
   ],
-  "latest_scene": 54,
+  "latest_scene": 55,
   "reserved": [
    1,
    2,
@@ -950,12 +951,14 @@
   {
    "id": 55,
    "title": "«А молоко?»: Юля заходит, пока Серёга играет в Warcraft",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
-   "dialogue": null,
-   "depends_on": [],
+   "target_engine": "Seedance 2.0",
+   "state": "READY",
+   "render_state": "IDLE",
+   "duration_s": 15,
+   "dialogue": "ru",
+   "depends_on": [
+    54
+   ],
    "prompts": 1,
    "refs": [
     "@Image1",
