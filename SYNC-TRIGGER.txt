@@ -1,2 +1,2 @@
-2026-10-16T23:46:26.892168+00:00
-Scene46 exact satelliteABC reference, Image3, manifest and queue SHA; master sha256 0668ab45a62b0ef5a93113bbdf062fd22d37fda3e7382e5c092ddf85879614d1
+2026-10-17T00:13:28.179457+00:00
+Owner17Oct: Resurs/Kanopus satellite reference, recovered first ship option, Wookiee source; prompts28 unchanged.

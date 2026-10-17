@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 46,
-  "updated_at": "2026-10-17T00:10:43.037091+00:00",
+  "updated_at": "2026-10-17T00:13:28.179457+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -143,7 +143,7 @@
     {
       "prompt": "main",
       "prompt_id": "S46",
-      "canonical_prompt_sha256": "c985e36eac92aa8bb729dbfb2e0dbbaae1c2e7b6642c839bc9b1c2fd8e2e9883",
+      "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -164,19 +164,19 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
-          "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
+          "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+          "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
           "input_status": "available",
           "canonical_role": "satellite_design_helper"
         }
       ],
-      "characters": 5594
+      "characters": 6128
     }
   ],
   "site_published": {
     "scene_anchor": "#scene-46",
     "linked_in_master": true,
-    "status": "verified",
+    "status": "pending_pages_verification",
     "checked_at": "2026-10-16T23:52:13.899469+00:00",
     "evidence_path": "reports/scene46-satellites-verification-2026-10-17.json"
   },
@@ -191,5 +191,6 @@
   ],
   "drive_folder_id": null,
   "note": "READY inputs; owner authorized free website launch 16.10.2026. No automatic approval or rerun.",
-  "canonical_master_sha256": "0668ab45a62b0ef5a93113bbdf062fd22d37fda3e7382e5c092ddf85879614d1"
+  "canonical_master_sha256": "96efd5628a394854bca3c6c941f2da463bab16323f4555fdddee176e2edca86a",
+  "design_selection_note": "Owner choosing ship option1/2; satellite update authorized, launch46 held until ship choice."
 }

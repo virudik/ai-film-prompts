@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-16T23:46:26.892168+00:00",
+  "updated_at": "2026-10-17T00:13:28.179457+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1030,7 +1030,7 @@
       "canonical_prompt_sha256": "0a0ed3e5b3188a3f38615ede145edecf5742e50f99cc0e87ca70ac6c70fa3063",
       "normalized_prompt_sha256": "ef8196822e328f61d29e588d62d3ded380e7d046271c63a9bd02203884f5093e",
       "priority": 102,
-      "state": "waiting_for_slot",
+      "state": "blocked_owner_decision",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1067,17 +1067,18 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "block_reason": "Owner17Oct02:58MSK is choosing between recovered first ship and current second ship. Do not launch45/46 until choice. Do not automatically reject either design."
     },
     {
       "id": "S46",
       "scene_id": 46,
       "prompt_id": "S46",
       "canonical_block_label": "46",
-      "canonical_prompt_sha256": "c985e36eac92aa8bb729dbfb2e0dbbaae1c2e7b6642c839bc9b1c2fd8e2e9883",
-      "normalized_prompt_sha256": "0b06c501dd5faa40142e373d62efa04e62132031be8c4fb9d3f8cf6ed37480a4",
+      "canonical_prompt_sha256": "ee19f17476ccacfe64a2eb65ac6fd2f84c3a14f363eb0734e2bbc8ce06499827",
+      "normalized_prompt_sha256": "2ad2e4e0c2f681250403d618bbeaa96f0aab406973e5b2c06957071f22eb6cce",
       "priority": 103,
-      "state": "waiting_for_slot",
+      "state": "blocked_owner_decision",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1108,13 +1109,14 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
-          "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
+          "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+          "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
           "required": true
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "block_reason": "Owner17Oct02:58MSK is choosing between recovered first ship and current second ship. Do not launch45/46 until choice. Do not automatically reject either design."
     },
     {
       "id": "S43",

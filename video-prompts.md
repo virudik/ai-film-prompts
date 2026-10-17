@@ -3285,6 +3285,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-tshirt-black-source.jpg" alt="Исходник — чёрная футболка"></a><figcaption>Исходник — чёрная футболка</figcaption></figure>
 <figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image2 — кабина котов"></a><figcaption>@Image2 — кабина котов</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image3 — корабль РосКОТмоса"></a><figcaption>@Image3 — общий корабль 45/46; AI-референс дизайна</figcaption></figure></div>
 
+**Выбор корабля владельцем · 17.10:** доступны два варианта. Первый восстановлен из ранее созданного изображения; второй пока остаётся текущим входом. Окончательный выбор ещё не сделан. Для45 и46 требуется ОДИН выбранный дизайн; оба одновременно в генерацию не подавать. До выбора запуск45/46 удержан.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-first-option.png.webp" alt="Вариант 1 — ранний звездолёт; кандидат, не дополнительный @Image" loading="lazy"></a><figcaption>Вариант 1 — ранний звездолёт; кандидат, не дополнительный @Image</figcaption></figure></div>
+
 **Что происходит:** Снаружи, в разгар того же боя, что в Scene 25: корабль котов — белый, с широкой красной «галочкой» вдоль борта и большим круглым логотипом РосКОТмоса с котом-космонавтом — влетает в сражение, уходит креном от огня, отстреливается вперёд, проскальзывает между крупным кораблём и обломками и прорывается в просвет строя. В окнах кабины тёплый янтарный свет.
 
 ```text
@@ -3356,17 +3360,17 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 - **Команда владельца 16.10.2026:** сцена, где в сражении сбиваются и ломаются спутники РосКОТмоса; логотип как на футболке (@Image1).
 - **Место в фильме:** вставка внутри того же космического боя (Scenes 25 и 45): шальной огонь и обломки задевают мирные спутники РосКОТмоса на орбите. Комедия — цепная реакция: каждый следующий спутник ломается от обломков предыдущего.
-- **Спутники** — три разных спутника в одном «агентском» стиле, у каждого на корпусе тот же круглый логотип. @Image3 — отдельный сохранённый референс всех трёх спутников: цилиндрический A, золотой куб B и белый C с тарелкой. Проверены силуэты, панели, антенны, логотипы и красный огонёк; спутники показаны целыми до столкновений. Корабль котов пролетает в кадре одним силуэтом — нужен тот же референс корабля, что для Scene 45.
+- **Спутники** — три разных спутника в одном «агентском» стиле, у каждого на корпусе тот же круглый логотип. @Image3 — отдельный сохранённый референс всех трёх спутников: удлинённый оптический A по мотивам «Ресурс-П», компактный B по мотивам «Канопус-В» и художественный ретрансляционный вариант C с тарелкой. Проверены силуэты, панели, антенны, логотипы и красный огонёк; спутники показаны целыми до столкновений. Версия17.10 использует инженерные силуэты «Ресурс-П» и «Канопус-В», но фирменное оформление РосКОТмоса; C с тарелкой — вымышленный аппарат. Корабль котов пролетает в кадре одним силуэтом — нужен тот же референс корабля, что для Scene 45.
 - **Готовность:** @Image2 — общий сохранённый референс корабля из Scene 45; визуальный QC пройден 16.10.2026. @Image3 — спутники РосКОТмоса, созданные и проверенные по команде владельца 17.10.2026; исходный логотип @Image1 сохраняет приоритет. Без речи → Wan 3.0. Внесена в очередь по прямой команде владельца 16.10.2026; запуск после танцев, только бесплатный безлимит.
 
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-logo.png">логотип РосКОТмос</a>;
 - @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png">общий внешний вид корабля РосКОТмоса для Scenes 45–46</a> (AI vehicle-design reference, QC пройден; не кадр фильма).
-- @Image3 — <a href="references/scenes/scene-46/S46-roskotmos-satellites-ABC.png">три спутника РосКОТмоса A/B/C — полный референс дизайна</a> (AI-референс, исходное целое состояние; QC пройден, не результат генерации видео).
+- @Image3 — <a href="references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png">три спутника РосКОТмоса A/B/C — полный референс дизайна</a> (AI-референс, исходное целое состояние; QC пройден, не результат генерации видео).
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — общий корабль 45/46; AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-46/S46-roskotmos-satellites-ABC.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-46/S46-roskotmos-satellites-ABC.png.webp" alt="@Image3 — три спутника РосКОТмоса" loading="lazy"></a><figcaption>@Image3 — A: цилиндр и две панели; B: золотой куб; C: тарелка и красный огонёк</figcaption></figure></div>
+<figure><a href="references/scenes/scene-45/S45-roskotmos-logo.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-logo.png" alt="@Image1 — логотип РосКОТмос"></a><figcaption>@Image1 — логотип РосКОТмос</figcaption></figure><figure><a href="references/scenes/scene-45/S45-roskotmos-ship-exterior.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-45/S45-roskotmos-ship-exterior.png.webp" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — общий корабль 45/46; AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-46/S46-roskotmos-resurs-kanopus.png.webp" alt="@Image3 — три спутника РосКОТмоса" loading="lazy"></a><figcaption>@Image3 — A: по мотивам Ресурс-П; B: Канопус-В; C: вымышленный ретранслятор</figcaption></figure></div>
 
 **Что происходит:** Над голубой планетой тихо висят три спутника РосКОТмоса с логотипом кота-космонавта. Сквозь кадр проносится бой: корабль котов, за ним вражеские истребители. Шальной залп отрезает первому спутнику солнечную панель, и его закручивает. Его обломки врезаются во второй, тот сминается и разваливается. Кувыркающаяся половина второго сносит третьему антенну-тарелку, и тот медленно уплывает, грустно мигая огоньком. Последняя солнечная панель с логотипом кувыркается прямо мимо камеры.
 
@@ -3377,7 +3381,7 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera battle with a deadpan 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — the exact RosKOTmos emblem painted on every satellite: a round grey-and-white roundel with a tabby cat in a white spacesuit and helmet, a bold red swoosh arrow cutting diagonally up across its lower half, and the wordmark РОСКОТМОС beneath with КОТ in red. Emblem design only; ignore the T-shirt fabric.
 @Image2 — the exterior design of the cats' ship (white hull, red swoosh stripe, RosKOTmos roundel on the flank). It appears only once as a fast fly-by. Vehicle design only.
-@Image3 — the exact THREE intact RosKOTmos satellite designs and initial orbital arrangement: A is the white cylinder at upper-left with two rectangular solar wings; B is the gold-foil cube in the centre with one solar wing and two long antennas; C is the white dish-antenna bus at lower-right with its red indicator. Satellite hardware, proportions, joints and panel backs only; not a damaged end-state.
+@Image3 — the exact THREE intact RosKOTmos satellite designs and initial orbital arrangement: A is the elongated stepped optical cylinder at upper-left, inspired by Resurs-P, with two broad multi-section blue solar wings and visible optical apertures; B is the compact faceted Kanopus-V-inspired bus in the centre, with paired optical apertures and TWO wings of three blue sections each on open-frame roots; C at lower-right is a fictional relay derivative of that compact bus, with two smaller solar wings, a gimballed white dish and red indicator. Satellite hardware, proportions, joints and panel backs only; not a damaged end-state.
 Priority: @Image1 controls the exact emblem; @Image2 controls only the cats' ship; @Image3 controls the three satellite designs, initial intact condition and relative scale.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3385,9 +3389,9 @@ No characters are visible: no cats, no people, no pilots in view. The satellites
 
 SATELLITE / EMBLEM LOCK — CRITICAL:
 Exactly THREE uncrewed RosKOTmos satellites matching @Image3 in one consistent space-agency style, each with the @Image1 roundel painted clearly on its main body:
-SAT A — a white cylindrical body with two long rectangular dark-blue solar panel wings;
-SAT B — a gold-foil-wrapped box body with a single solar wing and two thin antennas;
-SAT C — a white body with a large white dish antenna and a small blinking red light.
+SAT A — an elongated stepped white optical telescope/service cylinder inspired by Resurs-P, with two broad multi-section dark-blue solar wings;
+SAT B — a compact faceted Kanopus-V-inspired white-and-gold bus with paired optical apertures, two symmetric three-section solar wings and thin antennas;
+SAT C — a fictional white-and-gold relay version of the compact bus, with two small solar wings, a white parabolic dish on a gimbal and a small blinking red light. The dish variant is fictional, not a claim about a real Kanopus flight configuration.
 SAT A has a second @Image1 emblem on the rigid white METAL BACK of one solar wing as shown in @Image3; its opposite face has blue photovoltaic cells. This is the same panel that later tumbles past camera, not a newly invented object.
 Real orbital hardware: foil, panels, struts, small thrusters. They stay recognisable as they break; parts break off along joints, no magic disintegration. They never fight back.
 
@@ -3402,7 +3406,7 @@ Hold the calm wide view: silence except a soft hum; the satellites turn gently; 
 The cats' ship from @Image2 streaks across the frame from left to right above the satellites, chased by two dark enemy fighters firing. A stray burst of bolts slices one solar wing off SAT A; SAT A starts to spin.
 
 [0:10–0:16] — DOMINO TWO
-Fragments of SAT A's wing tumble into SAT B: its gold-foil body crumples, one antenna snaps, and SAT B breaks into two halves with a puff of sparks and venting gas.
+Fragments of SAT A's wing tumble into SAT B: its white-covered gold-MLI bus crumples, one antenna snaps, and SAT B breaks into two halves with a puff of sparks and venting gas.
 
 [0:16–0:22] — DOMINO THREE
 The rear half of SAT B tumbles slowly into SAT C and knocks its big dish antenna clean off; the dish spins away like a frisbee. SAT C drifts out of position, its red light still blinking, now slowly and sadly.
@@ -4121,11 +4125,15 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="@Image2 — состав группы, только фоновые участники" loading="lazy"></a><figcaption>@Image2 — состав группы, только фоновые участники</figcaption></figure>
 </div>
 
+**Референс внешности вуки · 17.10:** @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">настоящий кадр12с из существующего ролика Кашиика</a>. Использовать только морды, шерсть и анатомию вуки; лес и человека из кадра не переносить. Локация остаётся H28B. «Аудитория» здесь означает только толпу зрителей-фанатов. Постановочный кадр толпы ещё не создан; DRAFT сохраняется. <a href="references/scenes/scene-50/S50-fans-image-prompt.txt">Подготовленный промт изображения для Nano Banana</a>.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-kashyyyk-12s.png.webp" alt="@Image3 — внешность вуки из своего ролика, только species reference" loading="lazy"></a><figcaption>@Image3 — внешность вуки из своего ролика, только species reference</figcaption></figure></div>
+
 **Что происходит:** Несколько десятков высоких лохматых вуки на танцполе смотрят на группу и радостно рычат, раскачивают длинную шерсть и головы в тяжёлом рок-ритме, вскидывают лапы, а потом устраивают небольшой дружелюбный слэм-круг без травм и агрессивной драки. Танцы, рок-концерт и кадры фанатов монтируются вперемешку. Только та же просторная площадка и свет Scene 28.
 
 ### 50A · Стена грив — радостный хедбэнг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">вуки, внешний вид</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4134,6 +4142,7 @@ Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED
 REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
+@Image3 — existing Kashyyyk video frame: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore its human subject, forest, bridges, lighting and composition. Do not clone one face across the crowd.
 Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4182,7 +4191,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 50B · Вуки-слэм — праздничный круг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png">вуки, внешний вид</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4191,6 +4200,7 @@ Optimized for Seedance 2.0 | Photoreal funny epic concert crowd insert, a PACKED
 REFERENCES / AUTHORITY ORDER:
 @Image1 — H28B-disco: ABSOLUTE EXACT LOCATION from Scene 28; unchanged imperial floor emblem, same industrial walls and hangar entrance opening toward space, shuttle fixed at the right, same purple-blue and warm practical lighting. This is the crowd occupying the existing dance floor, never a new arena.
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
+@Image3 — existing Kashyyyk video frame: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore its human subject, forest, bridges, lighting and composition. Do not clone one face across the crowd.
 Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

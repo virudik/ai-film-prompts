@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T00:10:43.037091+00:00",
+  "updated_at": "2026-10-17T00:13:28.179457+00:00",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
   "status": "DRAFT",
   "references": [
@@ -43,18 +43,72 @@
     }
   ],
   "remaining": [
-    "Create a physically coherent photo of Wookiee fans in the same H28B with exact ship/imperial-floor geometry, with no band-member replacement; perform QC."
+    "Fan crowd composition in H28B: species source now recovered; Nano Banana website requires browser login. Prepared prompt saved."
   ],
   "approved": [],
   "rejected": [
     "Previous mismatched generated pictures of different people/new arena; do not use for identity or location"
   ],
-  "prompt_reference_mapping": [],
+  "prompt_reference_mapping": [
+    {
+      "prompt_id": "50A",
+      "canonical_prompt_sha256": "717fa7fa4a846b57cc2e9ff6d94e6bea34691e2f60b2efd0690cfe3934e7fecb",
+      "characters": 5924,
+      "launch_readiness": "draft",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
+          "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+          "input_status": "available"
+        }
+      ]
+    },
+    {
+      "prompt_id": "50B",
+      "canonical_prompt_sha256": "0ff7d20f3cbdb137c2fe523348652c3f571d5a8508ac7edaf28c6d1980845487",
+      "characters": 5945,
+      "launch_readiness": "draft",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
+          "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+          "input_status": "available"
+        }
+      ]
+    }
+  ],
   "site_published": {
     "scene_anchor": "#scene-50",
     "gallery_paths": [
       "references/scenes/scene-28/H28B-disco.png",
-      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png"
+      "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+      "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png"
     ],
     "status": "linked_in_master_pending_pages_verification"
   },
@@ -71,7 +125,8 @@
     "details": "Generator returned HTTP400 moderation_blocked (other); no audience image produced. Do not bypass or automatically retry. Remains DRAFT; no Topview task submitted.",
     "latest_attempt_at": "2026-10-16T23:37:04.041896+00:00",
     "latest_request_id": "28705105-c373-41c0-83d5-5fcb45916da5",
-    "latest_attempt_scope": "After renewed owner request17.10: calm static adult Wookiee audience layout in exactH28B, no contact/action; output moderation blocked (other). No image produced; no further retry or bypass."
+    "latest_attempt_scope": "After renewed owner request17.10: calm static adult Wookiee audience layout in exactH28B, no contact/action; output moderation blocked (other). No image produced; no further retry or bypass.",
+    "current_status": "Existing source frame recovered. Built-in moderation reasons remain unknown; no copyright conclusion. Website Nano Banana not submitted: local browser timed out; cloud browser is signed out."
   },
   "existing_asset_search": {
     "checked_at": "2026-10-16T23:52:13.899469+00:00",
