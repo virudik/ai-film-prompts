@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-17T19:00:14Z",
+  "synced_at": "2026-10-17T19:42:30Z",
   "revision_date": "17.10.2026",
   "master_declared_last_full_sync": "17.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "d5e18dbd478fc2331dc6cfddf5d26e34664751af4c1da6a91535d010e0fe77f5",
-  "canonical_revision_sha256": "1220da8252a3e1cb82e6ca5e286cff97f99aaf0a15e68a578412f443d0c3d44f",
-  "canonical_master_bytes": 684903,
-  "scenes": 32,
-  "prompt_texts": 60,
+  "canonical_master_sha256": "a1902151433e9787dfe1cacdeb45bdca945363d7c6106493e178688658df3093",
+  "canonical_revision_sha256": "b7c5ae92dfb66df6e46652547f8b32e3631966a4e53b288545ebf252a5cc9f0c",
+  "canonical_master_bytes": 526697,
+  "scenes": 22,
+  "prompt_texts": 48,
   "work_items": [
     "W5",
     "W6",
@@ -32,27 +32,17 @@
   "scene_ids": [
     13,
     16,
-    24,
-    25,
-    27,
     28,
-    30,
-    31,
-    32,
     33,
     34,
-    35,
     36,
     37,
-    38,
     39,
     40,
     41,
     42,
     43,
     44,
-    45,
-    46,
     47,
     48,
     49,
@@ -85,8 +75,18 @@
     21,
     22,
     23,
+    24,
+    25,
     26,
-    29
+    27,
+    29,
+    30,
+    31,
+    32,
+    35,
+    38,
+    45,
+    46
   ],
   "instruction_sync": {
     "health": "ok",
@@ -94,7 +94,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.382,
+    "age_hours_at_status_build": 2.086,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -173,7 +173,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.382,
+      "age_hours": 2.086,
       "blocking": false
     },
     "topview_task_map": {
@@ -217,66 +217,6 @@
       ],
       "render_state": "IDLE"
     },
-    "24": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "cats",
-        "cockpit",
-        "takeoff",
-        "continuous_take",
-        "character_identity"
-      ],
-      "render_state": "IDLE"
-    },
-    "25": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 24
-        }
-      ],
-      "tags": [
-        "cats",
-        "cockpit",
-        "space_battle",
-        "action",
-        "character_identity"
-      ],
-      "render_state": "IDLE"
-    },
-    "27": {
-      "target_engine": "Seedance 2.5",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [],
-      "tags": [
-        "cats",
-        "lightsaber_battle",
-        "sith_planet",
-        "action",
-        "jedi",
-        "character_identity"
-      ],
-      "render_state": "IDLE"
-    },
     "28": {
       "target_engine": "Seedance 2.0",
       "production_state": "READY",
@@ -296,73 +236,6 @@
         "character_identity"
       ],
       "render_state": "SLOW_PENDING"
-    },
-    "30": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 27
-        }
-      ],
-      "tags": [
-        "cats",
-        "force",
-        "saber_combat",
-        "destructible_environment"
-      ],
-      "render_state": "IDLE"
-    },
-    "31": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 30
-        }
-      ],
-      "tags": [
-        "cats",
-        "force",
-        "saber_combat",
-        "destructible_environment"
-      ],
-      "render_state": "IDLE"
-    },
-    "32": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 31
-        }
-      ],
-      "tags": [
-        "cats",
-        "force",
-        "saber_combat",
-        "temple_arch",
-        "destructible_environment"
-      ],
-      "render_state": "IDLE"
     },
     "33": {
       "target_engine": "Wan 3",
@@ -400,29 +273,6 @@
         "sith_temple",
         "exploration",
         "continuous_take"
-      ],
-      "render_state": "IDLE"
-    },
-    "35": {
-      "target_engine": "Wan 3",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 34
-        }
-      ],
-      "tags": [
-        "serega",
-        "sith_temple",
-        "exploration",
-        "ancient_computer",
-        "continuity"
       ],
       "render_state": "IDLE"
     },
@@ -468,29 +318,6 @@
         "forest_planet",
         "map",
         "bread_and_milk",
-        "continuity"
-      ],
-      "render_state": "IDLE"
-    },
-    "38": {
-      "target_engine": "Wan 3",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 35
-        }
-      ],
-      "tags": [
-        "serega",
-        "sith_temple",
-        "ancient_computer",
-        "inspection",
         "continuity"
       ],
       "render_state": "IDLE"
@@ -626,53 +453,6 @@
       ],
       "render_state": "IDLE"
     },
-    "45": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "related_to",
-          "scene": 25
-        }
-      ],
-      "tags": [
-        "cats",
-        "roskotmos",
-        "ship_exterior",
-        "space_battle",
-        "action",
-        "logo"
-      ],
-      "render_state": "IDLE"
-    },
-    "46": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "related_to",
-          "scene": 45
-        }
-      ],
-      "tags": [
-        "roskotmos",
-        "satellites",
-        "space_battle",
-        "comedy",
-        "logo"
-      ],
-      "render_state": "IDLE"
-    },
     "47": {
       "target_engine": "Wan 3",
       "production_state": "READY",
@@ -681,12 +461,7 @@
         "enabled": false,
         "language": null
       },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 32
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "serega",
         "cats",
@@ -906,35 +681,25 @@
   },
   "audit_fingerprint": {
     "revision_date": "17.10.2026",
-    "synced_at": "2026-10-17T19:00:14Z",
-    "canonical_master_sha256": "d5e18dbd478fc2331dc6cfddf5d26e34664751af4c1da6a91535d010e0fe77f5",
-    "canonical_revision_sha256": "1220da8252a3e1cb82e6ca5e286cff97f99aaf0a15e68a578412f443d0c3d44f",
-    "scene_count": 32,
-    "prompt_count": 60,
+    "synced_at": "2026-10-17T19:42:30Z",
+    "canonical_master_sha256": "a1902151433e9787dfe1cacdeb45bdca945363d7c6106493e178688658df3093",
+    "canonical_revision_sha256": "b7c5ae92dfb66df6e46652547f8b32e3631966a4e53b288545ebf252a5cc9f0c",
+    "scene_count": 22,
+    "prompt_count": 48,
     "scene_ids": [
       13,
       16,
-      24,
-      25,
-      27,
       28,
-      30,
-      31,
-      32,
       33,
       34,
-      35,
       36,
       37,
-      38,
       39,
       40,
       41,
       42,
       43,
       44,
-      45,
-      46,
       47,
       48,
       49,
