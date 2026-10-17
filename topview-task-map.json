@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-17T22:20:10Z",
+  "updated_at": "2026-10-17T23:10:11Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -17,7 +17,6 @@
   "active_by_scene": {
     "28": [
       "0d1f17c226834bfbb851d76ed32f9877",
-      "2bccc8a3521b411cb7bd51f9c8ba1119",
       "5333994f739f4a8b813a6a36dcb7e140",
       "56c0ea656f484b0cb8464233fe097e0d",
       "979f07acffe04750961515f4baf21a3f"
@@ -366,6 +365,13 @@
       "final_status": "success",
       "finished_at": "2026-10-17T18:07:29Z",
       "part": "B5"
+    },
+    {
+      "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+      "scene_id": 28,
+      "final_status": "success",
+      "finished_at": "2026-10-17T23:05:54Z",
+      "part": "B6"
     }
   ],
   "retention": {
@@ -374,12 +380,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-17T22:20:10Z",
+  "last_scan_at": "2026-10-17T23:10:11Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-17T22:20:10Z",
+    "last_successful_scan_at": "2026-10-17T23:10:11Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -388,7 +394,7 @@
     "total_video_tasks": 578,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-17T16:20:10.000Z",
+    "overlap_from": "2026-10-17T17:10:11.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 11,
     "project_board_total_video_tasks": 399,
