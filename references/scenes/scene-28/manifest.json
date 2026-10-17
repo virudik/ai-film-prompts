@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-15T18:55:18.057239Z",
+  "updated_at": "2026-10-17T11:27:13.271Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -592,11 +592,47 @@
         "git_present": true,
         "linked_in_master": false
       }
+    },
+    {
+      "asset_id": "references/scenes/scene-28/C28-from-B2-result.png",
+      "path": "references/scenes/scene-28/C28-from-B2-result.png",
+      "bytes": 1823858,
+      "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "continuity_pose_axis",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T11:27:13.271Z",
+        "evidence": "Последние6секунд и финал899/899 B2 осмотрены: ровно двое, Серёга слева лицом вправо, Юля справа лицом влево; обе руки опущены, контакта с лицом нет, лица раздельны, ноги на полу. Использовать только позу/ось после жеста; оригинальные sheets выше для identity, H28B для локации; B3 задаёт более широкий план. Никакой ретуши или AI-подмены. Это технический QC, не приёмка владельца."
+      },
+      "provenance": {
+        "type": "actual_generated_video_final_frame",
+        "source_scene": 28,
+        "source_part": "B2",
+        "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+        "resource_id": "74c3781e204d4593a9d77f135f76fffb",
+        "source_sha256": "201e76cde5a0c8b6a2b62766f8db5507e45df97ffe13b344e64c8e4d619715ff",
+        "source_bytes": 78612300,
+        "frame_index": 899,
+        "total_frames": 900,
+        "fps": "30/1",
+        "time_seconds": 29.966666666666665,
+        "extraction": "ffmpeg select=eq(n\\,899),1280x720,unmodified decoded frame"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/C28-from-B2-result.png",
+        "thumbnail": "references/thumbs/scenes/scene-28/C28-from-B2-result.png.webp",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
-  "remaining": [
-    "C28 is intentionally deferred until a clean frame from generated part 2 exists."
-  ],
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
   "identity_refs": [
@@ -682,6 +718,21 @@
       "task_id": "dd7ccc1b23334ea0b54455a6605e12ea",
       "role": "two owner-specified Alesya source photographs",
       "derived_asset": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png"
+    },
+    {
+      "type": "actual_generated_video_final_frame",
+      "source_scene": 28,
+      "source_part": "B2",
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "resource_id": "74c3781e204d4593a9d77f135f76fffb",
+      "source_sha256": "201e76cde5a0c8b6a2b62766f8db5507e45df97ffe13b344e64c8e4d619715ff",
+      "source_bytes": 78612300,
+      "frame_index": 899,
+      "total_frames": 900,
+      "fps": "30/1",
+      "time_seconds": 29.966666666666665,
+      "extraction": "ffmpeg select=eq(n\\,899),1280x720,unmodified decoded frame",
+      "derived_asset": "references/scenes/scene-28/C28-from-B2-result.png"
     }
   ],
   "prompt_reference_mapping": [
@@ -1138,15 +1189,17 @@
           "status": "available"
         },
         "@Image4": {
-          "asset_id": null,
+          "asset_id": "references/scenes/scene-28/C28-from-B2-result.png",
+          "path": "references/scenes/scene-28/C28-from-B2-result.png",
+          "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a",
           "required": true,
           "role": "continuity_frame",
-          "status": "wait_for_clean_A2_result"
+          "status": "available"
         }
       },
-      "start_frame": null,
+      "start_frame": "references/scenes/scene-28/C28-from-B2-result.png",
       "end_frame": null,
-      "launch_readiness": "blocked_C28",
+      "launch_readiness": "ready",
       "owner_generation_approval_inferred": false
     },
     {
@@ -1409,7 +1462,8 @@
       "references/full/vitalik.jpg",
       "references/masha-laguna.webp",
       "references/luchik.jpg",
-      "references/ryzhik.jpg"
+      "references/ryzhik.jpg",
+      "references/scenes/scene-28/C28-from-B2-result.png"
     ],
     "status": "existing_gallery_in_published_master",
     "manifest_publication": "included_with_this_repository_version"

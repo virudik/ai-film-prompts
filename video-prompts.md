@@ -961,7 +961,9 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **P28 — создан и сохранён.** [Открыть WEBP](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/P28-pair-facing.webp). Парный средний кадр в H28B: Серёга слева в профиль смотрит вправо, Юля справа — влево, лица на расстоянии 55–65 см; обе правые руки опущены. Камера видит внешние щёки и свободный путь каждой руки. P28 задаёт только позу/ось/кадрирование, model sheets сохраняют приоритет внешности.
 
-**C28 — ещё не выбран.** После части 2 взять чистый кадр ПОСЛЕ полного отхода обеих рук. Для части 3 это reference позы и оси, а не буквальное кадрирование: общий план сознательно шире среднего. При дефекте кисти выбрать чистый предконтактный жест и монтажный акцент; искажённое лицо не переносить в следующий reference.
+**C28 — сохранён из настоящего финала B2.** <a href="references/scenes/scene-28/C28-from-B2-result.png">Скачать кадр899/899 (29.967с)</a>; source task`762b3091b3e44b8599a0a58b91a253c5`. Руки полностью опущены, контакта с лицом нет. B3 @Image4 — только поза/ось после жеста; identity по sheets, общий план задаёт промт. Технический QC не означает приёмку результата владельцем.
+
+<div class="scene-ref-gallery"><figure><a href="references/scenes/scene-28/C28-from-B2-result.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-28/C28-from-B2-result.png.webp" alt="C28 — настоящий финал B2, руки опущены"></a><figcaption>C28 для B3: реальный кадр B2,29.967с; поза и ось, не identity.</figcaption></figure></div>
 
 **L28 — создан и сохранён.** [Открыть WEBP](https://virudik.github.io/ai-film-prompts/references/scenes/scene-28/L28-carry.webp). Чистый общий парный кадр для части 8: Серёга стоит устойчиво и уже держит Юлю поперёк перед собой, левая рука поддерживает её спину, правая — бёдра над коленями. Её голова со стороны его левого плеча, согнутые ноги с правой; обе головы и все опорные конечности различимы. Плащи не переплетены. Это постановочный pose reference, individual sheets выше него по внешности.
 
@@ -1076,7 +1078,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 #### A3 · Танец 3 — Невозмутимый разъезд
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = будущий C28 после отхода руки (только поза/ось; общий план шире).
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = <a href="references/scenes/scene-28/C28-from-B2-result.png">C28, настоящий финал B2 после отхода рук</a> (только поза/ось; общий план шире).
 
 ```text
 Mode: omni-reference video | Target model: Seedance 2.0 | Duration: 15s | Resolution: 1080p | Aspect ratio: 16:9
@@ -1501,7 +1503,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, bla
 
 #### B3 · Танец 3 — Невозмутимый разъезд
 
-**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = будущий C28 после отхода руки (только поза/ось; общий план шире).
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Image4 = <a href="references/scenes/scene-28/C28-from-B2-result.png">C28, настоящий финал B2 после отхода рук</a> (только поза/ось; общий план шире).
 
 ```text
 Mode: omni-reference video | Target model: Wan 3.0 | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9

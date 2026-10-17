@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-17T11:27:13.271Z",
+  "path": "references/scenes/scene-28/C28-from-B2-result.png",
+  "thumb": "references/thumbs/scenes/scene-28/C28-from-B2-result.png.webp",
+  "bytes": 1823858,
+  "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a",
+  "provenance": {
+    "type": "actual_generated_video_final_frame",
+    "source_scene": 28,
+    "source_part": "B2",
+    "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+    "resource_id": "74c3781e204d4593a9d77f135f76fffb",
+    "source_sha256": "201e76cde5a0c8b6a2b62766f8db5507e45df97ffe13b344e64c8e4d619715ff",
+    "source_bytes": 78612300,
+    "frame_index": 899,
+    "total_frames": 900,
+    "fps": "30/1",
+    "time_seconds": 29.966666666666665,
+    "extraction": "ffmpeg select=eq(n\\,899),1280x720,unmodified decoded frame"
+  },
+  "qc": "Последние6секунд и финал899/899 B2 осмотрены: ровно двое, Серёга слева лицом вправо, Юля справа лицом влево; обе руки опущены, контакта с лицом нет, лица раздельны, ноги на полу. Использовать только позу/ось после жеста; оригинальные sheets выше для identity, H28B для локации; B3 задаёт более широкий план. Никакой ретуши или AI-подмены. Это технический QC, не приёмка владельца.",
+  "owner_approval": false
+}

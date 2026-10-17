@@ -247,6 +247,23 @@
       ],
       "input_videos": []
     },
+    "28": {
+      "C28": {
+        "path": "references/scenes/scene-28/C28-from-B2-result.png",
+        "type": "actual_generated_video_final_frame",
+        "source_scene": 28,
+        "source_part": "B2",
+        "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+        "resource_id": "74c3781e204d4593a9d77f135f76fffb",
+        "source_sha256": "201e76cde5a0c8b6a2b62766f8db5507e45df97ffe13b344e64c8e4d619715ff",
+        "source_bytes": 78612300,
+        "frame_index": 899,
+        "total_frames": 900,
+        "fps": "30/1",
+        "time_seconds": 29.966666666666665,
+        "extraction": "ffmpeg select=eq(n\\,899),1280x720,unmodified decoded frame"
+      }
+    },
     "44": {
       "source_type": "generated_previous_scene_final_frame",
       "source_scene": 43,

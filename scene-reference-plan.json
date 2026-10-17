@@ -308,7 +308,13 @@
       "checked_at": "2026-10-11T18:26:33Z",
       "manifest_schema_version": 2,
       "prompt_mapping_count": 20,
-      "canonical_state": "active"
+      "canonical_state": "active",
+      "c28": {
+        "path": "references/scenes/scene-28/C28-from-B2-result.png",
+        "status": "available",
+        "source_part": "B2",
+        "checked_at": "2026-10-17T11:27:13.271Z"
+      }
     },
     "29": {
       "manifest": "references/scenes/scene-29/manifest.json",

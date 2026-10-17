@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T07:00:09.282Z",
-  "state": "blocked_browser",
+  "updated_at": "2026-10-17T11:27:13.271Z",
+  "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -922,7 +922,7 @@
       "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
       "normalized_prompt_sha256": "4434b34269f7bf4893813a6f31e7483b04654d2af6b94011f2fad06347b8138b",
       "priority": 5,
-      "state": "blocked_reference",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -956,14 +956,15 @@
         },
         {
           "slot": "@Image4",
-          "path": null,
+          "path": "references/scenes/scene-28/C28-from-B2-result.png",
           "role": "continuity_frame",
           "required": true,
-          "status": "wait_for_clean_A2_result"
+          "sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a"
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "reference_prepared_at": "2026-10-17T11:27:13.271Z"
     },
     {
       "id": "S40",
