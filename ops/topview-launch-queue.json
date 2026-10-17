@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T18:42:37.941Z",
+  "updated_at": "2026-10-17T18:46:46.445Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Lowest priority among ready entries with explicit dependencies. S50-FANS-IMAGE submitted17Oct18:41UTC; next S55(priority5, owner17Oct21:12MSK), then corrected45→46→43→44, then story52–54 and36/37/39–42/47–48 as inputs permit. One A1 15s test after story; further dance submissions await review. Missing actual43/42 results block44/48 only. Website Unlimited0 only, full-account scan, CAS claim and exact prompt/input validation. Do not retry submitted items.",
+  "selection_policy": "Lowest priority among ready entries. Owner17Oct21:45MSK authorizes THREE fan image variants TOTAL: S50-FANS-IMAGE already submitted, then S50-FANS-IMAGE-V2(priority1), V3(priority2), then S55(priority5), then existing45→46→43→44/story/test/music order. Same fan prompt/refs intentionally reused for these three distinct authorized alternatives only. Deduplicate each item using assigned task IDs, claim/time/input evidence; reconcile every unassigned match before Create. Never exceed three fan image submissions or repeat a claimed/submitted item. Website Unlimited0, full-account scan, CAS, receipt required; all other constraints unchanged.",
   "items": [
     {
       "id": "B7",
@@ -2487,7 +2487,9 @@
       "verified_at": "2026-10-17T18:42:37.941Z",
       "receipt_path": "reports/topview-queue-2026-10-16/S50-FANS-IMAGE-20261017.json",
       "credits_cost": 0,
-      "use_unlimit_mode": true
+      "use_unlimit_mode": true,
+      "variant_number": 1,
+      "variant_group": "S50-FANS-THREE-20261017"
     },
     {
       "id": "S52",
@@ -2770,7 +2772,9 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "depends_on_submitted": [
-        "S50-FANS-IMAGE"
+        "S50-FANS-IMAGE",
+        "S50-FANS-IMAGE-V2",
+        "S50-FANS-IMAGE-V3"
       ],
       "references": [
         {
@@ -2810,6 +2814,102 @@
       "claim": null,
       "authorization": "Direct owner 17Oct2026 21:12 MSK: new Scene 55, queue it early, right after the Wookiee fans image (S50-FANS-IMAGE).",
       "max_credits": 0
+    },
+    {
+      "id": "S50-FANS-IMAGE-V2",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE-V2",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
+      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "priority": 1,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S50-FANS-IMAGE"
+      ],
+      "references": [
+        {
+          "slot": "Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "Image2",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+        },
+        {
+          "slot": "Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "previous_attempt_created_task": false,
+      "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
+      "on_success": "Download actual original, visually inspect and archive each alternative separately with task ID/SHA/provenance. Present three alternatives for owner selection; do not overwrite the first or auto-approve. Only selected suitable frame used for50A/B.",
+      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
+      "variant_number": 2,
+      "variant_group": "S50-FANS-THREE-20261017",
+      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth."
+    },
+    {
+      "id": "S50-FANS-IMAGE-V3",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE-V3",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
+      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "priority": 2,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S50-FANS-IMAGE-V2"
+      ],
+      "references": [
+        {
+          "slot": "Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "Image2",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+        },
+        {
+          "slot": "Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "previous_attempt_created_task": false,
+      "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
+      "on_success": "Download actual original, visually inspect and archive each alternative separately with task ID/SHA/provenance. Present three alternatives for owner selection; do not overwrite the first or auto-approve. Only selected suitable frame used for50A/B.",
+      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704",
+      "variant_number": 3,
+      "variant_group": "S50-FANS-THREE-20261017",
+      "deduplication_policy": "Same canonical prompt and reference SHA as original intentionally authorized for this finite three-item group. Exclude task IDs already assigned to earlier group items when detecting this item's submission. Any unassigned matching task after authorization or outstanding claimed/submission_unknown item must be reconciled before another click. One Create per item; max three tasks total including original; terminal failure does not authorize a fourth."
     }
   ],
   "already_submitted": {
@@ -2959,5 +3059,20 @@
       "2bccc8a3521b411cb7bd51f9c8ba1119"
     ]
   },
-  "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA)."
+  "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA).",
+  "owner_instruction_20261017_2145": {
+    "authorized_at": "2026-10-17T18:45:30Z",
+    "request": "вуков сделай несколько на всякий случай. можно бесплатно 3 раза запустить когда слот свободен. чтобы было из чего выбрать",
+    "total_image_launches": 3,
+    "already_submitted": 1,
+    "additional_launches": 2,
+    "item_ids": [
+      "S50-FANS-IMAGE",
+      "S50-FANS-IMAGE-V2",
+      "S50-FANS-IMAGE-V3"
+    ],
+    "max_credits_per_task": 0,
+    "order": "remaining fans V2 then V3, then S55, then existing story queue",
+    "no_automatic_fourth_attempt": true
+  }
 }
