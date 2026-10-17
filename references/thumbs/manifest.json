@@ -583,6 +583,16 @@
    "thumb_bytes": 39348,
    "src_sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f"
   },
+  "references/scenes/scene-28/C28-from-B2-result.png": {
+   "thumb": "references/thumbs/scenes/scene-28/C28-from-B2-result.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1823858,
+   "thumb_bytes": 33814,
+   "src_sha256": "ba21fbe014e6a11055d86fe42542a69d8c6137ab6f6fe7434515e3453c70495a"
+  },
   "references/scenes/scene-28/F28-face-gesture.webp": {
    "thumb": "references/thumbs/scenes/scene-28/F28-face-gesture.webp.webp",
    "width": 640,
