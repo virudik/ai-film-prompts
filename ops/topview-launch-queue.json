@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T21:04:19Z",
+  "updated_at": "2026-10-17T21:19:55Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1494,7 +1494,7 @@
         "97975700412883710718752c76d60c5157a86fd30fc22615ed5a6426b08e81ce",
         "06b9632d969a567837574f2eaf7591b20e129564d3c585de1937e956c1b2d95c"
       ],
-      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6).",
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6, с 18.10 — @Image5).",
       "priority_owner_override": {
         "requested_at": "2026-10-17T19:52:55Z",
         "source": "Explicit owner sequence",
@@ -2576,8 +2576,8 @@
       "scene_id": 52,
       "prompt_id": "S52",
       "canonical_block_label": "52",
-      "canonical_prompt_sha256": "96c7e14a94d5002ad74d0cbb790a5574ba73fffb7fc927252ec590c953adcf99",
-      "normalized_prompt_sha256": "86a04452386ad4e32750c4447125f1fbf3a1df55702353aea908063460242fd9",
+      "canonical_prompt_sha256": "39ccdd0dba73f96e01b4162f0845d4a6756ea3c8a30e3fc6c571c2563fa44a6c",
+      "normalized_prompt_sha256": "9058464fa1fd7d65ffe9062928be35020d641cfda7cf79777a44ac7f54b4e0d8",
       "priority": 20,
       "state": "blocked_inputs",
       "model": "Wan 3.0",
@@ -2632,13 +2632,6 @@
         },
         {
           "slot": "@Image5",
-          "canonical_role": "location_town",
-          "input_status": "required_not_available",
-          "required": true,
-          "needed": "Настоящий кадр татуинского города из фильма (ч. 2, около 00:00–03:50; «Серёгиус-копия часть 2.mp4» в Library): песчаные постройки и улицы окраины, без людей в центре кадра. Сохранить PNG+manifest+SHA в references/scenes/scene-52/ и вписать path/sha256 в S52 @Image5 и S53 @Image4 (один и тот же кадр), ссылку — в master. Не подменять AI-картинкой и не S16-руинами."
-        },
-        {
-          "slot": "@Image6",
           "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
           "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
           "role": "location",
@@ -2652,22 +2645,24 @@
       "max_credits": 0,
       "previous_prompt_sha256": [
         "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
-        "09a52fb3db0893ff8b97956bcb37b84329774beb9e55b13ed190ff86490cb2cd"
+        "09a52fb3db0893ff8b97956bcb37b84329774beb9e55b13ed190ff86490cb2cd",
+        "96c7e14a94d5002ad74d0cbb790a5574ba73fffb7fc927252ec590c953adcf99"
       ],
-      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6).",
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6, с 18.10 — @Image5).",
       "launch_readiness": "blocked_continuity",
-      "blocker": "Need actual clean ending of corrected44 (ONE fallen wing, empty root) AND the genuine Tatooine town frame for @Image5; free UI accepts 1 video + 6 images (owner 17.10).",
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "blocker": "Need actual clean ending of corrected44 (ONE fallen wing, empty root) for @Video1; free UI accepts 1 video + 5 images. Tatooine town is described in the prompt text, no frame needed (owner 18.10 00:17).",
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017)."
     },
     {
       "id": "S53",
       "scene_id": 53,
       "prompt_id": "S53",
       "canonical_block_label": "53",
-      "canonical_prompt_sha256": "761982ac7d4d3946d54f652bc3d36ec233adcff0853bdbd669bfe1629695117f",
-      "normalized_prompt_sha256": "1707e518c12cabcff3bb8eeac19b6b13ee1260e9666b6ae0d3ced1c59fc4194c",
+      "canonical_prompt_sha256": "0f43d5446d38193be25dcef50cb556f716c0f587b85629217eff0f8714b550b3",
+      "normalized_prompt_sha256": "5f724cbde34eb22932d695e36507d73d2412fbb76bccd714de9a3f823fbe5fc8",
       "priority": 21,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2706,13 +2701,6 @@
         },
         {
           "slot": "@Image4",
-          "canonical_role": "location_town",
-          "input_status": "required_not_available",
-          "required": true,
-          "needed": "Настоящий кадр татуинского города из фильма (ч. 2, около 00:00–03:50; «Серёгиус-копия часть 2.mp4» в Library): песчаные постройки и улицы окраины, без людей в центре кадра. Сохранить PNG+manifest+SHA в references/scenes/scene-52/ и вписать path/sha256 в S52 @Image5 и S53 @Image4 (один и тот же кадр), ссылку — в master. Не подменять AI-картинкой и не S16-руинами."
-        },
-        {
-          "slot": "@Image5",
           "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
           "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
           "role": "prop",
@@ -2725,11 +2713,11 @@
       "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
       "max_credits": 0,
       "previous_prompt_sha256": [
-        "38bfeceb279912fb748606ec77001a54708a01eac215e0506946218dc426d18b"
+        "38bfeceb279912fb748606ec77001a54708a01eac215e0506946218dc426d18b",
+        "761982ac7d4d3946d54f652bc3d36ec233adcff0853bdbd669bfe1629695117f"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "launch_readiness": "blocked_inputs",
-      "blocker": "Need the genuine Tatooine town frame for @Image4 (same frame as S52 @Image5). Owner 17.10 23:58: take-off from the town edge, not from the worm ruins."
+      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017)."
     },
     {
       "id": "S54",
@@ -3564,5 +3552,10 @@
     ],
     "no_launch_performed": true,
     "max_credits": 0
+  },
+  "owner_instruction_20261018_0017": {
+    "source": "Direct owner in project thread after the 23:58 scene-review fixes (18.10, 00:17 MSK)",
+    "decision": "No genuine Tatooine town frame exists; describe the town in the prompt text instead (TATOOINE TOWN LOCK in 52/53). The town image slot is removed: S52 = @Video1 + @Image1-5 (cockpit now @Image5), S53 = @Image1-4 (module now @Image4). S53 unblocked (waiting_for_slot); S52 waits only for the corrected 44 ending.",
+    "recorded_at": "2026-10-17T21:19:55Z"
   }
 }
