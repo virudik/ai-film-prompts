@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T12:48:53+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-17T13:32:39+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130",
-   "bytes": 625262
+   "sha256": "d1f289a3d22964e5474f68fc1a0d0601389aa9a7b04aa1595438a5f663f54ba1",
+   "bytes": 671072
   }
  ],
  "invariants": [
@@ -268,7 +268,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 32961,
+   "offset": 34607,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -290,7 +290,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 45938,
+   "offset": 47584,
    "chars": 13502,
    "sha256_12": "7afc53e5dc5f"
   },
@@ -310,7 +310,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 59440,
+   "offset": 61086,
    "chars": 10685,
    "sha256_12": "44dc07cb1bf4"
   },
@@ -333,7 +333,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 70125,
+   "offset": 71771,
    "chars": 13057,
    "sha256_12": "ba90242da394"
   },
@@ -355,7 +355,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 83182,
+   "offset": 84828,
    "chars": 36270,
    "sha256_12": "5914eccd2b5e"
   },
@@ -375,9 +375,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 119452,
-   "chars": 131608,
-   "sha256_12": "e0cf4701caae"
+   "offset": 121098,
+   "chars": 142740,
+   "sha256_12": "0335f1697392"
   },
   {
    "id": 30,
@@ -399,7 +399,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 251060,
+   "offset": 263838,
    "chars": 9193,
    "sha256_12": "aa77c9bbbcd2"
   },
@@ -423,7 +423,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 260253,
+   "offset": 273031,
    "chars": 9032,
    "sha256_12": "4895ab1fd4b3"
   },
@@ -447,7 +447,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 269285,
+   "offset": 282063,
    "chars": 9008,
    "sha256_12": "71b4c8e41633"
   },
@@ -465,7 +465,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 278293,
+   "offset": 291071,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -485,7 +485,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 284169,
+   "offset": 296947,
    "chars": 6399,
    "sha256_12": "de5a1b8b3c65"
   },
@@ -506,7 +506,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 290568,
+   "offset": 303346,
    "chars": 7932,
    "sha256_12": "6aec72e0d953"
   },
@@ -528,7 +528,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 298500,
+   "offset": 311278,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -552,7 +552,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 309145,
+   "offset": 321923,
    "chars": 12860,
    "sha256_12": "4301ff8aa4d1"
   },
@@ -573,7 +573,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 322005,
+   "offset": 334783,
    "chars": 10413,
    "sha256_12": "df2fc65b6ed4"
   },
@@ -594,7 +594,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 332418,
+   "offset": 345196,
    "chars": 11439,
    "sha256_12": "1fe8a1315d01"
   },
@@ -616,7 +616,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 343857,
+   "offset": 356635,
    "chars": 13150,
    "sha256_12": "ccb1024ec8e5"
   },
@@ -638,7 +638,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 357007,
+   "offset": 369785,
    "chars": 11212,
    "sha256_12": "be779d8a17e0"
   },
@@ -662,7 +662,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 368219,
+   "offset": 380997,
    "chars": 9667,
    "sha256_12": "3544c33b16f7"
   },
@@ -682,7 +682,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 377886,
+   "offset": 390664,
    "chars": 12523,
    "sha256_12": "fdf714a2565b"
   },
@@ -703,7 +703,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 390409,
+   "offset": 403187,
    "chars": 12179,
    "sha256_12": "5d7b7be5cdfb"
   },
@@ -725,9 +725,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 402588,
-   "chars": 11523,
-   "sha256_12": "2f47594d3909"
+   "offset": 415366,
+   "chars": 12294,
+   "sha256_12": "0e6fc2c69bf5"
   },
   {
    "id": 46,
@@ -744,11 +744,12 @@
    "refs": [
     "@Image1",
     "@Image2",
-    "@Image3"
+    "@Image3",
+    "@Image4"
    ],
-   "offset": 414111,
-   "chars": 11826,
-   "sha256_12": "76b6312ee733"
+   "offset": 427660,
+   "chars": 13751,
+   "sha256_12": "cca9f95207b1"
   },
   {
    "id": 47,
@@ -770,7 +771,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 425937,
+   "offset": 441411,
    "chars": 10099,
    "sha256_12": "e869a45bf9dc"
   },
@@ -794,7 +795,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 436036,
+   "offset": 451510,
    "chars": 10125,
    "sha256_12": "0543c547686e"
   },
@@ -820,7 +821,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 446161,
+   "offset": 461635,
    "chars": 58084,
    "sha256_12": "94a0936af45d"
   },
@@ -843,7 +844,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 504245,
+   "offset": 519719,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -870,9 +871,71 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 521519,
-   "chars": 18939,
-   "sha256_12": "da084a7a8e2a"
+   "offset": 536993,
+   "chars": 18969,
+   "sha256_12": "86664600c8ec"
+  },
+  {
+   "id": 52,
+   "title": "Серёга пересаживается на свой корабль и прилетает на Татуин",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5"
+   ],
+   "offset": 555962,
+   "chars": 8212,
+   "sha256_12": "42aabd202956"
+  },
+  {
+   "id": 53,
+   "title": "Взлёт Серёги с Татуина: курс на Набу",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4",
+    "@Image5"
+   ],
+   "offset": 564174,
+   "chars": 7898,
+   "sha256_12": "51718b8da048"
+  },
+  {
+   "id": 54,
+   "title": "Доставка древнего компьютера в комнату: стык к Warcraft",
+   "target_engine": null,
+   "state": null,
+   "render_state": null,
+   "duration_s": null,
+   "dialogue": null,
+   "depends_on": [],
+   "prompts": 1,
+   "refs": [
+    "@Image1",
+    "@Image2",
+    "@Image3",
+    "@Image4"
+   ],
+   "offset": 572072,
+   "chars": 8830,
+   "sha256_12": "c0a8a0a839d9"
   }
  ],
  "read_sets": {
