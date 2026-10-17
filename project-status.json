@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-17T18:00:15Z",
+  "synced_at": "2026-10-17T18:07:02Z",
   "revision_date": "17.10.2026",
   "master_declared_last_full_sync": "17.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "39deb3e4924dc339b90b28873df2912cca0b7969b229c63dceabb0370ae251cb",
-  "canonical_revision_sha256": "5ec9a395f748c66626b64f095a6a7bd94149ccc4966d68aa68c7012ea7085c5d",
-  "canonical_master_bytes": 684957,
+  "canonical_master_sha256": "586055a7ed7690c79b831408fc46899942ed536f6b1d6f338c0bcdedcbe3b217",
+  "canonical_revision_sha256": "96e50de94459a060673f6c9a867617048667ca75b6bf6514d14527bcdc57ab43",
+  "canonical_master_bytes": 685320,
   "scenes": 32,
   "prompt_texts": 60,
   "work_items": [
@@ -94,7 +94,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.382,
+    "age_hours_at_status_build": 0.495,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -173,7 +173,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.382,
+      "age_hours": 0.495,
       "blocking": false
     },
     "topview_task_map": {
@@ -881,9 +881,9 @@
       "render_state": "IDLE"
     },
     "55": {
-      "target_engine": "Seedance 2.0",
+      "target_engine": "Wan 3",
       "production_state": "READY",
-      "duration_s": 15,
+      "duration_s": 30,
       "dialogue": {
         "enabled": true,
         "language": "ru"
@@ -906,9 +906,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "17.10.2026",
-    "synced_at": "2026-10-17T18:00:15Z",
-    "canonical_master_sha256": "39deb3e4924dc339b90b28873df2912cca0b7969b229c63dceabb0370ae251cb",
-    "canonical_revision_sha256": "5ec9a395f748c66626b64f095a6a7bd94149ccc4966d68aa68c7012ea7085c5d",
+    "synced_at": "2026-10-17T18:07:02Z",
+    "canonical_master_sha256": "586055a7ed7690c79b831408fc46899942ed536f6b1d6f338c0bcdedcbe3b217",
+    "canonical_revision_sha256": "96e50de94459a060673f6c9a867617048667ca75b6bf6514d14527bcdc57ab43",
     "scene_count": 32,
     "prompt_count": 60,
     "scene_ids": [
