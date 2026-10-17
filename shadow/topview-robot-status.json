@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-17T22:50:09Z",
+  "checked_at": "2026-10-17T23:00:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,22 +61,22 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2162,
-      "wait_seconds": 69438,
+      "queue_count": 2157,
+      "wait_seconds": 69120,
       "process_seconds": null
     },
     {
       "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-10-16 00:09:14",
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 32,
-      "wait_seconds": 317,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 5400
     },
     {
       "task_id": "5333994f739f4a8b813a6a36dcb7e140",
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1331,
-      "wait_seconds": 34877,
+      "queue_count": 1322,
+      "wait_seconds": 34560,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1774,
-      "wait_seconds": 52157,
+      "queue_count": 1768,
+      "wait_seconds": 51840,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 2512,
-      "wait_seconds": 86717,
+      "queue_count": 2510,
+      "wait_seconds": 86400,
       "process_seconds": null
     },
     {
@@ -126,8 +126,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 738,
-      "wait_seconds": 17597,
+      "queue_count": 729,
+      "wait_seconds": 17280,
       "process_seconds": null
     }
   ],
@@ -215,11 +215,18 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-17T22:20:10Z",
-    "monitor_age_minutes": 30,
+    "monitor_age_minutes": 40,
     "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": true,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "status_differs",
+        "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+        "monitor": "init",
+        "robot": "running"
+      }
+    ]
   }
 }
