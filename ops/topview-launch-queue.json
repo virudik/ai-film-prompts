@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T18:14:54.851044+00:00",
+  "updated_at": "2026-10-17T18:41:00.343Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2428,7 +2428,7 @@
       "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "priority": 0,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -2455,7 +2455,30 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-working-s50-1792262460343",
+        "claimed_at": "2026-10-17T18:41:00.343Z",
+        "holder": "chatgpt",
+        "ui_verified": {
+          "model": "Nano Banana Pro",
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "mode": "unlimited",
+          "credits": 0,
+          "prompt_length": 1037,
+          "full_prompt_match": true,
+          "input_sha_verified": true,
+          "input_count": 3
+        },
+        "account_scan": {
+          "at": "2026-10-17T18:38:18.492Z",
+          "boards": 11,
+          "pages": 17,
+          "total": 902,
+          "complete": true
+        }
+      },
       "previous_attempt_created_task": false,
       "authorization": "Explicit owner17Oct16:11MSK: FIRST next free slot Wookiee fans. Existing harmless prepared image request.",
       "on_success": "Download actual image, visual QC, save full file+thumbnail+provenance+SHA+manifest+master link; only then READY50A/B and add their finite video items after story. Do not treat technical success as owner approval.",
