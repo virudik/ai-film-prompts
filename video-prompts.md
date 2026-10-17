@@ -61,7 +61,7 @@
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
 | 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. DRAFT до точного постановочного кадра и QC. |
 | 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, вуки-фанаты 50 | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
-| 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Image1 = Серёга, @Image2 = личный корабль, настоящий кадр фильма, @Image3 = ангар разрушителя H28A, @Image4 = разрушитель, настоящий кадр фильма, @Image5 = Татуин, песок и руины | Серёга решительно садится в личный корабль. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним. READY, 30s Wan 3.0. |
+| 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = Татуин; @Image6 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на Татуине. DRAFT до настоящего конца44,30s Wan3.0. |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = Татуин, @Image5 = один модуль карты | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка, уходит над руинами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0. |
 | 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры | Серёга играет; Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?». Он замирает и виновато молчит. Пасхалка к просьбе из начала фильма и стикеру в перелётах. READY, 30s Wan 3.0, в очереди сразу после картинки вуки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
@@ -1733,6 +1733,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="@Image6 — лесная планета, новый созданный референс" loading="lazy"></a><figcaption>@Image6 — лесная планета, новый созданный референс</figcaption></figure>
 </div>
 
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
+
 **Что происходит:** Серёга один в кабине своего корабля, замечает на пульте стикер с нарисованными хлебом и молоком, устало выдыхает и взлетает с лугового берега озера Набу. Корабль проходит облака и выходит в космос; Серёга достаёт модуль — направленный на далёкую лесную планету, он светится ярче. Корабль уходит к ней; сцена заканчивается в космосе, до входа в атмосферу.
 
 ```text
@@ -1753,7 +1755,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 
 PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet, the two amber panels brighten and pulse slowly and steadily; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
-BREAD-AND-MILK NOTE: one small square paper sticky note is stuck on the cockpit console beside the controls, with a simple hand-drawn doodle of a loaf of bread and a milk bottle — pictures only, no letters, words or numbers. It stays stuck in the same place for the whole scene.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
 One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
@@ -1763,7 +1765,7 @@ Serega is already seated alone at the controls inside the cockpit from @Image5, 
 
 TIMELINE:
 [0:00–0:05] — THE NOTE ON THE CONSOLE
-Medium shot inside the cockpit. Serega reaches for the controls, then his eyes stop on the small bread-and-milk doodle note on the console. A tiny, utterly serious resigned exhale through the nose; he lets it be and places both hands on the controls. Instrument lights come on.
+Medium cockpit shot including Serega and the note beside his hand. Hold the note sharply readable for the first two seconds, then his eyes stop on its two drawings as he reaches for the controls. A tiny, utterly serious resigned exhale through the nose; he lets it be and places both hands on the controls. Instrument lights come on.
 
 [0:05–0:11] — LIFT-OFF FROM THE MEADOW
 Exterior wide: the same craft rises steadily from the green lakeshore meadow; grass flattens and the lake surface ripples under the engine wash; trees and calm water stretch to the horizon in soft daylight.
@@ -1842,6 +1844,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image3 — корпус корабля Канцлера"></a><figcaption>@Image3 — корпус корабля Канцлера</figcaption></figure><figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
+
 **Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
 
 ```text
@@ -1866,12 +1870,14 @@ One and the same craft from @Image3 in every shot: same silhouette, colour, engi
 CAMP / PROP LOCK:
 Use the actual crates and fish from @Image5, the fishing rods and brown bottles from @Image2, and the actual bank geometry and evening light from @Image4. Their abandoned arrangement is the new shot: dropped rods, fish-filled crates, a few empty brown bottles and a cold fire spot. Do not add tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object exists in this scene.
 
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
+
 START STATE:
 Evening over the Naboo lake as in @Image4: the calm water still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is a small shape descending from the sky above the far end of the lake.
 
 TIMELINE:
 [0:00–0:06] — DESCENT OVER THE LAKE
-Wide exterior. The craft descends in a smooth curve over the calm lake toward the near shore; the pale palace domes stand on the far bank; the craft's reflection slides across the water; the engine whine grows. Around 0:03 one brief two-second interior cut inside the cockpit (@Image6): Serega at the controls, and a small paper note on the console shows a simple loaf-and-milk-bottle doodle, no words or numbers; then back to the exterior descent.
+Wide exterior. The craft descends in a smooth curve over the calm lake toward the near shore; the pale palace domes stand on the far bank; the craft's reflection slides across the water; the engine whine grows. Around 0:03 one brief two-second interior cut inside the cockpit (@Image6): Serega at the controls with the same pale-yellow note clearly visible beside his hand, its loaf-left and milk-carton-right drawings sharp and unobstructed for the full two seconds; he concentrates on landing, then cut back to the exterior descent.
 
 [0:06–0:12] — TOUCHDOWN ON THE MEADOW
 The craft flares and settles on its landing gear on the green meadow a short walk from the camp. Grass flattens in a ring, the shallow water near the bank ripples under the engine wash, the engines spool down to silence.
@@ -1952,6 +1958,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="@Image6 — лесная планета"></a><figcaption>@Image6 — лесная планета</figcaption></figure></div>
 
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
+
 **Что происходит:** Серёга один в кабине своего корабля, в открытом космосе. Лесная планета позади уменьшается. Он достаёт модуль, и тот светится ярче, когда Серёга направляет его на далёкую пыльную охристо-красную планету. Корабль снижается сквозь пыльную закатную дымку, пролетает мимо колоссальных статуй в капюшонах и садится на каменную площадь у лестницы храма. Серёга выходит, делает несколько шагов — и замирает: за кадром впереди загудел зажжённый световой меч. Он настороженно смотрит вперёд; кто там, не показывается.
 
 ```text
@@ -1972,7 +1980,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 
 PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image2 is ever visible: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels. It comes out of the inner fold of his robe and goes back there. When its face is turned toward the destination planet the two amber panels brighten and pulse slowly and steadily; turned away, they dim to a soft glow. It never folds, multiplies, projects a hologram, shows a map image or becomes a screen.
-COCKPIT NOTE: the same small square paper sticky note with a simple hand-drawn doodle of a loaf of bread and a milk bottle stays stuck on the console beside the controls — pictures only, no letters, words or numbers.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
 
 VEHICLE / LANDING LOCK — CRITICAL:
@@ -1986,7 +1994,7 @@ Serega is already seated alone at the controls inside the cockpit from @Image5, 
 
 TIMELINE:
 [0:00–0:06] — THE MODULE POINTS ONWARD
-Medium shot inside the cockpit. Serega takes the module from his robe. As he turns its face toward the front window, where a small dusty ochre-red planet hangs far ahead, the two amber panels brighten and pulse steadily. He glances once at the forest planet shrinking in the side window, slides the module back into his robe and corrects the heading with one hand.
+Medium shot inside the cockpit; keep the same yellow grocery note in the near foreground, both drawings clearly readable for two seconds as Serega takes the module from his robe. His attention stays on the module, not on shopping. As he turns its face toward the front window, where a small dusty ochre-red planet hangs far ahead, the two amber panels brighten and pulse steadily. He glances once at the forest planet shrinking in the side window, slides the module back into his robe and corrects the heading with one hand.
 
 [0:06–0:12] — APPROACH
 Exterior from behind: the same craft flies toward the ochre-red planet; a thin golden band of sunset light runs along the edge of its hazy, dusty atmosphere. Steady left-to-right travel.
@@ -2061,6 +2069,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image4 — корпус корабля Канцлера"></a><figcaption>@Image4 — корпус корабля Канцлера</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure><figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp" alt="@Image6 — крейсер, настоящий кадр ч. 1 11:22"></a><figcaption>@Image6 — крейсер, настоящий кадр ч. 1 11:22</figcaption></figure></div>
 
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
+
 **Что происходит:** На закате Серёга выходит из арки храма. Перед ним, поднятые Силой, плывут бежевый системный блок и массивный CRT-монитор; клавиатура у него под мышкой, провод болтается. Он заводит всё по рампе в кабину и пристёгивает монитор ремнём к пассажирскому креслу, рядом со стикером «хлеб и молоко» и корзинкой с грибами. Корабль взлетает с пыльной площади, уходит от охристой планеты и летит к огромному крейсеру Канцлера, к освещённому проёму ангара.
 
 ```text
@@ -2081,7 +2091,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 
 PROP LOCK — CRITICAL:
 Exactly one beige 1990s desktop system unit, exactly one heavy CRT monitor and exactly one keyboard, identical to @Image2 in every shot: same scratches, dust and dangling cables. The computer stays switched OFF for the whole scene: dark screen, no lights, no game, no text. No map modules, holograms or glowing artifacts are shown.
-COCKPIT NOTE: the same small square paper sticky note with a simple hand-drawn doodle of a loaf of bread and a milk bottle stays stuck on the console — pictures only, no letters, words or numbers.
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
@@ -2095,13 +2105,13 @@ TIMELINE:
 Serega walks out of the temple arch and down the wide stair. In front of him, floating steadily at chest height by the Force, glide the beige system unit and the CRT monitor; the keyboard is tucked under his arm, its cable swinging. Two raised fingers guide them with calm, practised control.
 
 [0:06–0:12] — LOADING THE CRAFT
-At the craft he floats both objects up the ramp into the cockpit and lowers them onto the passenger seat. With dry, careful precision he pulls the seat strap across the CRT and clicks it shut, then sets the keyboard on top. The bread-and-milk note sits on the console and the mushroom basket on the floor beside him.
+At the craft he floats both objects up the ramp into the cockpit and lowers them onto the passenger seat. With dry, careful precision he pulls the seat strap across the CRT and clicks it shut, then sets the keyboard on top. The same yellow grocery note stays on the console and the mushroom basket on the floor beside him.
 
 [0:12–0:18] — LIFT-OFF FROM THE RUINS
 Exterior wide: the craft lifts off the plaza; dust swirls around the hooded statues and the broken pillars; it climbs into the orange sky.
 
 [0:18–0:24] — LEAVING THE DUST WORLD
-Cockpit: Serega at the controls, the strapped dark CRT on the seat beside him, the ochre-red planet curving away below through the window into black space.
+Cockpit: Serega at the controls, the strapped dark CRT on the seat beside him, the ochre-red planet curving away below through the window into black space. Keep the same yellow note near his hand sharply visible for at least two seconds, with both grocery drawings legible; the CRT must not cover it. He checks the secured computer and returns to piloting, leaving the reminder untouched.
 
 [0:24–0:30] — TOWARD THE FLAGSHIP
 After one clean time-compression cut: exterior from behind; the small craft approaches the huge flagship from @Image6 and heads for its brightly lit hangar opening. Hold this composition; the craft is still outside.
@@ -2394,10 +2404,10 @@ A little later than the end of @Video1: the shuttle in the same place with the l
 
 TIMELINE:
 [0:00–0:06] — THE REPAIR BEGINS
-Wide, lens at chest height. In the sharp foreground Serega paces from frame-left to frame-right with his hands behind his back. Behind him in the middle ground: TECH 1 on the stepladder taps the hinge with the hammer, TECH 2 pulls the rope, TECH 3 pushes with his shoulder. The wing does not move.
+Wide, lens at chest height. In the sharp foreground Serega paces from frame-left to frame-right with his hands behind his back. Behind him in the middle ground: TECH 1 gives three brisk, solemnly measured hammer taps like an expert diagnostic test; TECH 2 braces and heaves the rope on each tap; TECH 3 leans in with his whole weight, boots sliding a few centimetres. Their absurdly coordinated effort achieves absolutely no wing movement.
 
 [0:06–0:12] — THE FLEET
-Serega turns and paces back, not looking at the shuttle, and says to nobody: «Лучший флот в галактике…» Behind him TECH 2 lifts both feet and hangs on the rope with his whole weight, swinging slightly; the wing still does not move.
+Serega turns and paces back, not looking at the shuttle, and says to nobody: «Лучший флот в галактике…» Behind him TECH 2 lifts both feet and hangs on the taut rope with his full weight, legs bicycling uselessly in the air; TECH 3 pushes harder with ridiculous earnestness. Their escalating effort still moves the wing not one centimetre.
 
 [0:12–0:18] — NOBODY CAN FOLD A WING
 Serega stops in the foreground, back to the shuttle, and finishes: «…а крыло сложить некому.» Behind him TECH 1 swings the hammer with full force — a loud CLANG and a spray of sparks at the hinge.
@@ -2415,7 +2425,7 @@ CAMERA / SPACE:
 One continuous take with a fixed axis: Serega always in the foreground, the shuttle and technicians always behind him in the middle ground, the hangar mouth with stars beyond. No push-in during the fall. Keep Serega, the entire detached wing on the floor and its EMPTY root in one readable medium-wide composition through the end; do not hide the damage behind Serega. Deep focus so both planes stay readable. No cuts, no handheld jitter, no zoom jumps.
 
 PERFORMANCE:
-Serega is restrained, cold irritation: measured steps, quiet voice, no shouting, no big gestures. The technicians are earnest and trying hard; the comedy comes from their sincere effort, not from mugging or falling over on purpose. Nobody is hurt.
+Serega is restrained, cold irritation: measured steps, quiet voice, no shouting, no big gestures. The technicians apply increasingly absurd physical effort with absolute professional seriousness: measured taps, a full-weight dangling pull and a hopeless shoulder shove, then one disastrously overconfident hammer blow. Keep their actions large, brisk and easy to read behind the unmoved Chancellor. The huge failure and the sincere hopeful final line are the punchline; no mugging, slow passive repairs or extra dialogue. Nobody is hurt.
 
 LIGHTING / MATERIALS:
 Working state of the @Image2 hangar: cool white wall strips and amber floor guide lines, no cyan or magenta strips, no disco beams. White painted shuttle metal with panel lines; a bright short spark burst at the hinge; real dust and small debris when the wing lands. Realistic skin and velvet on Serega, matte coveralls on the technicians.
@@ -3451,11 +3461,11 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ## Сцена 52 — Серёга пересаживается на свой корабль и прилетает на Татуин
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
-**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки 16/42/48. Короткая временная склейка: сломанный шаттл уже остался вне кадра, Серёга пользуется собственным плоским кораблём из начала фильма. Показываем настоящий перелёт и посадку, а не только объяснение пересадки. Старт не выдаётся за точный последний кадр 44; новой механической поломки здесь нет. В монтаж достаточно 10–15 секунд из 30-секундного результата.
+**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки 16/42/48. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта.
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин, песок и руины</a>; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
+**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин, песок и руины</a>; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -3466,57 +3476,77 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 </div>
 
-**Что происходит:** Серёга решительно садится в личный корабль. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним.
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Готовность:** READY по входам, один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
+**Что происходит:** Продолжая конец44, Серёга смотрит на упавшее крыло и пустое крепление, затем на свой личный корабль: на сломанном шаттле не улететь. Он отворачивается от ремонтников, проходит к другому кораблю и садится. В кабине ясно видна записка с хлебом и молоком; он занят вылетом. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним.
+
+**Готовность:** DRAFT до настоящего @Video1 новой44, проверки пустого крепления и непрерывного начала; шесть изображений уже сохранены. Один бесплатный запуск разрешён владельцем17.10, после44. До запуска проверить поддержку пакета1видео+6изображений в бесплатном интерфейсе; нельзя молча убрать входы. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One clear story bridge with exact existing identities and hardware
 
 REFERENCES / AUTHORITY ORDER:
+@Video1 is the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, empty wing root, right wing raised, hangar light and camera axis. It is the absolute opening-state authority. Continue from that final frame, without replaying the fall.
 @Image1 controls Serega's face, age, body and purple robe.
 @Image2 is the genuine film view of Serega's OWN flat wedge-shaped dark-grey craft: exact hull, proportions, colour, engines and scale. Use only that craft, not the source city, rooftop person or other ships.
-@Image3 supplies only the destroyer's hangar architecture and ceremonial white/amber light. Ignore its parked formal shuttle; that broken shuttle is elsewhere outside this shot. Do not turn on disco lights or reproduce its distant empty-room framing.
+@Image3 supplies only the destroyer's hangar architecture and ceremonial white/amber light. Its intact raised-wing shuttle is NOT the damage authority: retain the broken shuttle exactly as @Video1 shows it. Do not turn on disco lights or reproduce its distant empty-room framing.
 @Image4 is the genuine film exterior of the enormous grey wedge-shaped destroyer, defining its silhouette, scale, superstructure and hangar opening. It is the departure vessel, not Serega's small craft.
 @Image5 defines Tatooine: warm dry sand, dunes and the established weathered ancient stone ruin geometry. No people or worm are imported.
 @Image6 is the genuine cockpit of the same craft: seats, console, forward windows and interior geometry only, for one short interior beat.
-Priority: individual identity > corresponding vehicle design > location; image compositions do not override the timeline.
+Priority: @Video1 controls opening composition and permanent shuttle damage; @Image1 identity; @Image2 the separate personal craft; @Image3–6 their assigned environments. The two ships remain distinct.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or newly invented accessories. No facial beautification or wardrobe change.
+@Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega. The same three technicians from @Video1, in dark-grey coveralls and black caps, retain their actual faces, builds, poses and tools: one on the ladder, one seated with the rope, one standing. They remain beside the broken shuttle at the opening, then leave the frame as the camera follows him. No co-pilot, new crew, cats, Jedi or droids. No facial beautification or wardrobe change.
 
 VEHICLE / CONTINUITY LOCK:
-Exactly one personal craft from @Image2. The formal winged shuttle from Scenes 43–44 never appears and never magically repairs itself. Serega boards the personal craft once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution, folding wings or second departure. No map fragment or computer has been acquired yet.
+Exactly one personal craft from @Image2. At the opening, the BROKEN formal shuttle and the parked personal craft are two separate physical vehicles in the SAME hangar. The broken shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. Only Serega's personal craft departs. The camera reveals it in a nearby clear bay without a teleport or hull morph. Serega boards the personal craft once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution, folding wings or second departure. No map fragment or computer has been acquired yet.
+
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 START STATE:
-After a short time jump from the failed-shuttle episode, Serega stands beside the open access hatch of his personal craft parked in a clear part of the H28A hangar. He looks at it, resolved to use it instead. Only this one craft is in the near field.
+Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the one detached wing lies on the floor, its empty attachment point visible on the parked shuttle. Preserve positions, expression, lighting and camera side. His separate personal craft is already parked a few steps away, outside the opening framing, with its access ramp open.
 
 TIMELINE:
-0–6s: medium three-quarter view, Serega large and recognisable beside his personal craft. He walks up its short access ramp, enters; the hatch closes behind him. No dialogue or new crew.
-6–8s: brief interior: Serega settles into the pilot seat of the cockpit (@Image6); a small paper note on the console shows a simple loaf-and-milk-bottle doodle, no words or numbers.
-8–12s: exterior tracking from the destroyer's hangar mouth; the SAME craft lifts and exits into open black space, revealing the immense destroyer hull from @Image4. Stable left-to-right flight, exact ship geometry.
-12–21s: one explicit time-compression cut to the SAME craft descending above the warm dunes of Tatooine. The established stone ruins from @Image5 are visible in the distance. This is arrival at the destination, not instantaneous travel through the hangar wall.
-21–26s: the craft lands gently on a clear sandy flat a short walk from the ruins; a low dust skirt settles, engines subside, landing supports take the weight. One landing only.
-26–30s: closer view of the opened hatch: Serega steps onto the sand and turns toward the existing ruins. His face and purple robe are recognisable. Hold a clean walking cut point.
+
+[0:00–0:03] — NO FLIGHT IN THAT SHUTTLE
+ seamlessly continue the ending of @Video1. Serega looks from the technicians to the fallen wing and empty root, pauses in weary disbelief, then fixes his gaze toward his own craft. No dialogue; the decision to abandon the broken shuttle is clear.
+
+[0:03–0:09] — CHANGE TO THE PERSONAL CRAFT
+ without cutting, track beside him as he turns away and walks the short clear route to his personal craft, revealing it through the camera move. He crosses its visibly open doorway and stationary ramp; feet stay on the ramp surface, no passage through the hull. The ruined shuttle stays behind, unchanged.
+
+[0:09–0:12] — THE REMINDER
+ motivated cut inside the personal cockpit. Serega settles at the controls. Frame the same pale-yellow note beside his hand sharply enough to recognise the loaf and milk carton for two seconds. He briefly registers it, then concentrates on departure, leaving it in place.
+
+[0:12–0:16] — LEAVING THE DESTROYER
+ exterior from the destroyer's hangar mouth: only the personal craft lifts and exits into black space. Reveal the immense destroyer hull from @Image4; preserve craft design and left-to-right flight.
+
+[0:16–0:23] — TATOOINE
+ one explicit time-compression cut to the same craft descending above Tatooine dunes toward the existing stone ruins. No instantaneous travel inside an uncut shot.
+
+[0:23–0:27] — LANDING
+ the craft lands once on a clear sandy flat near the ruins. Supports take its weight, dust settles and engines subside.
+
+[0:27–0:30] — ON THE SAND
+ at the opened hatch, Serega steps onto the sand and turns toward the ruins, his face and robe recognisable. Hold a clean walking cut point.
 
 END STATE:
 Serega has arrived on Tatooine and is walking toward the ruins; his own craft remains parked behind him. The destination is unambiguous. No battle, worm or map retrieval occurs inside this bridge.
 
 CAMERA / SPACE:
-Motivated cuts between boarding, destroyer departure and destination landing. One time-compression cut at 12s; no attempt to cover interstellar distance in real time. Natural 50mm medium human shots and wider exterior ship shots, consistent direction and credible scale. No vast empty hangar establishing shot that hides the actor.
+Uncut continuation from @Video1 through the decision and walk to the other ship in0–9s, keeping the same side of the axis and floor geography. Then motivated cuts into the cockpit and the exterior departure. One interstellar time-compression cut at16s; no attempt to cover interstellar distance in real time. Natural 50mm medium human shots and wider exterior ship shots, consistent direction and credible scale. No vast empty hangar establishing shot that hides the actor.
 
 PERFORMANCE:
-Brisk, practical, utterly serious. A small resolved look at his own craft conveys the change of transport without new explanatory speech.
+Brisk, practical, utterly serious. The opening eye-line from fallen wing to personal craft makes the change of transport unmistakable; a restrained resigned pause, then purposeful movement, without explanatory speech.
 
 LIGHTING / MATERIALS:
 White/amber practical hangar light; hard sunlight in space; warm clear desert daylight, real dust, heavy robe, weathered grey metal. Preserve personal craft colour through all locations.
 
 AUDIO:
-Bootsteps, hatch motor and seal, engine lift, low flight rumble, then desert wind and sand under boots. No dialogue, narrator, music or generated captions.
+Carry the hangar room tone and fading tail of the wing crash across the opening cut; no new crash. Then bootsteps, hatch motor and seal, engine lift, low flight rumble, then desert wind and sand under boots. No dialogue, narrator, music or generated captions.
 
 NEGATIVE PROMPT:
-formal winged shuttle, repaired broken wing, different personal ship, duplicate ship, missing pilot, extra people, cats, disco light, space battle, asteroid field, worm, map module, ancient computer, hyperspace tunnel, teleporting between locations inside one shot, repeated landing, changing face or robe, cartoon render, subtitles, title, watermark.
+repaired broken wing, second left wing, replayed wing fall, formal shuttle taking off, two ships merging, personal craft appearing from nowhere, walking through a hull, different personal ship, duplicate personal craft, missing pilot, new people, cats, disco light, space battle, asteroid field, worm, map module, ancient computer, hyperspace tunnel, teleporting between locations inside one shot, repeated landing, changing face or robe, cartoon render, subtitles, title, watermark.
 
 FRAME FILL / NO BARS:
 Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
@@ -3542,6 +3572,8 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image5 — один модуль карты" loading="lazy"></a><figcaption>@Image5 — один модуль карты</figcaption></figure>
 </div>
 
+**Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
+
 **Что происходит:** Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка, уходит над руинами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе.
 
 **Готовность:** READY по входам, один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
@@ -3562,13 +3594,15 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or newly invented accessories. No facial beautification or wardrobe change.
 
 PROP / VEHICLE LOCK:
-One personal craft, one Serega, one module. The module stays rigid, never unfolds, duplicates or projects a hologram. He puts it into his robe before operating the controls. A small paper note on the console shows a simple loaf and milk-bottle doodle, no words or numbers. No computer or mushroom basket yet. The craft starts grounded and makes exactly one takeoff from Tatooine. Do not show a second landing.
+One personal craft, one Serega, one module. The module stays rigid, never unfolds, duplicates or projects a hologram. He puts it into his robe before operating the controls. No computer or mushroom basket yet. The craft starts grounded and makes exactly one takeoff from Tatooine. Do not show a second landing.
+
+BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 START STATE:
 After a short time jump from retrieving the Tatooine fragment, Serega is seated alone in his own cockpit; the craft stands on a sandy flat near the existing ruins. Desert daylight comes through the exact windows. The module is in his hand.
 
 TIMELINE:
-0–5s: medium cockpit shot with Serega's face clearly visible. He checks the module's steady amber glow, slips the one module inside his robe and puts both hands on the controls. The bread-and-milk doodle remains attached to the console.
+0–5s: medium cockpit shot with Serega's face clearly visible. He checks the module's steady amber glow, slips the one module inside his robe and puts both hands on the controls. Keep the same yellow grocery note beside his hand clear and in focus for at least two seconds; he is occupied with the module and does not remove or cover the note.
 5–12s: exterior three-quarter view: engine glow rises and the exact craft lifts off the sand. Dust spreads outward beneath it; the ruins stay fixed in the background. Landing supports retract only after clear separation from the ground.
 12–19s: follow the same ship climbing away above dunes and distant stone ruins. A clean cut compresses the climb into a high-altitude view, blue-black sky above the tan planetary curve. No nearby Naboo planet appears.
 19–25s: back in the matching cockpit, Serega makes one definite course selection and pushes the thrust control forward, calm and purposeful. The hidden module stays hidden; no holographic map or readable destination text.

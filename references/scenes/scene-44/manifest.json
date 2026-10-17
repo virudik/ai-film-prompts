@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 44,
-  "updated_at": "2026-10-17T19:57:44.144973Z",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "blocked_continuity_mismatch",
   "references": [
@@ -162,7 +162,7 @@
     {
       "prompt": "main",
       "prompt_id": "S44",
-      "canonical_prompt_sha256": "280c9eabc1872cbb64a9a4406fdf66c542a47b6a36b8cb8f630baf662219290d",
+      "canonical_prompt_sha256": "0bc28e85184e722d0adb4791a1a726b605d2d01a0abd5111c3aa945b56f33b47",
       "local_numbering": true,
       "launch_readiness": "blocked_continuity",
       "owner_generation_approval_inferred": false,
@@ -193,7 +193,7 @@
           "canonical_role": "vehicle_design_helper"
         }
       ],
-      "characters": 8237
+      "characters": 8776
     }
   ],
   "site_published": false,
@@ -212,7 +212,7 @@
   "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
   "start_frame_candidate": "references/scenes/scene-44/S44-start-from-S43-result.png",
   "existing_scene44_task_id": "d837b803f130431ea0e2e5ad4b786c09",
-  "canonical_master_sha256": "dda59f6f91bed9f9205dd2ff3d93c3fb63fb0cbfafec0f823d59de95ccd0dd78",
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
   "owner_continuity_fix_2255": {
     "at": "2026-10-17T19:57:44.144973Z",
     "source": "Owner17Oct22:55:56MSK",

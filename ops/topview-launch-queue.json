@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T19:57:44.144973Z",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -309,8 +309,8 @@
       "scene_id": 37,
       "prompt_id": "S37",
       "canonical_block_label": "37",
-      "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
-      "normalized_prompt_sha256": "a78aafcc7be1870a2d1449e7b6d13dadaf6b93778ca568ac544ea7c2d688bce7",
+      "canonical_prompt_sha256": "afd6773dfb34724ec8d8cd82b48fc80a698b216cd5f418f9756052945d5b6254",
+      "normalized_prompt_sha256": "a8fc49d791457582306d3b93e71ec864cceaf36418bda0e178be55a6bee2f51a",
       "priority": 4,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1005,8 +1005,8 @@
       "scene_id": 40,
       "prompt_id": "S40",
       "canonical_block_label": "40",
-      "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
-      "normalized_prompt_sha256": "d6313b55f14d8c184a658da2fe8e4923f4b5baa644900284c39e77f829a6b4df",
+      "canonical_prompt_sha256": "adb3f289326acbf6b7b9885bc9744bae2823bb1070fe729eeb28b65700785e71",
+      "normalized_prompt_sha256": "dc786a6dbc42177d7b64c7a3f90377ddc9f7ae8462910b366829373beaa757c2",
       "priority": 6,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1300,8 +1300,8 @@
       "scene_id": 41,
       "prompt_id": "S41",
       "canonical_block_label": "41",
-      "canonical_prompt_sha256": "bc42b0ebeb5b31fa3e7a5c7a7e83c997b9b933710470280bfcc900367447ae42",
-      "normalized_prompt_sha256": "02011accef455f9815c038eaa0da3679176c2c221b1c211efa6cc52c81a2c917",
+      "canonical_prompt_sha256": "cf3906a41263b80e7a2f6cf7d270e7055de1051f4152339093efb633bd18d290",
+      "normalized_prompt_sha256": "1a70787bd68d954861c9a2d34dadb41a7c718ee010429850d2fe71bbe1c9ec58",
       "priority": 0,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -1423,8 +1423,8 @@
       "scene_id": 39,
       "prompt_id": "S39",
       "canonical_block_label": "39",
-      "canonical_prompt_sha256": "38df51a65308aee76d55bc55058f1dcee1b2af5887ef15d3f9225b8689792bf5",
-      "normalized_prompt_sha256": "3b54a38ab0c51478950719aab4ef12cc77cee4037c4ef82c5424eed51490f070",
+      "canonical_prompt_sha256": "06b9632d969a567837574f2eaf7591b20e129564d3c585de1937e956c1b2d95c",
+      "normalized_prompt_sha256": "517add0a40262b70c559cc3463579ccf993fa73a3ce1a72501a0d4608bf9b58d",
       "priority": 5,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2333,8 +2333,8 @@
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
-      "canonical_prompt_sha256": "280c9eabc1872cbb64a9a4406fdf66c542a47b6a36b8cb8f630baf662219290d",
-      "normalized_prompt_sha256": "1eeb9bde26d8b1c8ed292f8de01fa168058b3afc6abe67888e9d16d71c4e1df3",
+      "canonical_prompt_sha256": "0bc28e85184e722d0adb4791a1a726b605d2d01a0abd5111c3aa945b56f33b47",
+      "normalized_prompt_sha256": "49e14197e09e1f18c0bba0316d285c58d0b24d7f849f9aea608973419305298c",
       "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "depends_on_submitted": [
         "S43-R1-20261017"
@@ -2537,10 +2537,10 @@
       "scene_id": 52,
       "prompt_id": "S52",
       "canonical_block_label": "52",
-      "canonical_prompt_sha256": "3ab36c2b1e06318b9eaeca133dfe838fa5fd44cdec60bdbc370a7f3712181aea",
-      "normalized_prompt_sha256": "2444712da6aaefed5db007bb8c284ebd00ad75f9e040e9f5de3948f383fe3b4f",
+      "canonical_prompt_sha256": "09a52fb3db0893ff8b97956bcb37b84329774beb9e55b13ed190ff86490cb2cd",
+      "normalized_prompt_sha256": "97b5e89fa5315617c8f00b4504f6248c57f1b55b7db5baf7d8dc29d85a16707f",
       "priority": 20,
-      "state": "waiting_for_slot",
+      "state": "blocked_inputs",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2550,9 +2550,15 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "depends_on_submitted": [
-        "S43-R1-20261017"
+        "S44-R1-20261017"
       ],
       "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_scene_end",
+          "input_status": "pending_new_S44_result",
+          "required": true
+        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -2609,15 +2615,17 @@
       "previous_prompt_sha256": [
         "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d"
       ],
-      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6)."
+      "revision_note": "17.10 владелец: короткий план кабины со стикером «хлеб и молоко» (@Image6).",
+      "launch_readiness": "blocked_continuity",
+      "blocker": "Need actual clean ending of corrected44 with ONE fallen wing and empty root; verify seamless opening and free UI support for1video+6images before launch"
     },
     {
       "id": "S53",
       "scene_id": 53,
       "prompt_id": "S53",
       "canonical_block_label": "53",
-      "canonical_prompt_sha256": "60361a27cc5b46c026d31009bbacfd0b2a92e3667ec340c70ba9ee01ff826093",
-      "normalized_prompt_sha256": "86f445c74faee8261a8c2d08aed007e6a95e0e46e463bdda0bffc44295c1d176",
+      "canonical_prompt_sha256": "38bfeceb279912fb748606ec77001a54708a01eac215e0506946218dc426d18b",
+      "normalized_prompt_sha256": "706d874cc63d47576e9e2fa3990837834373529d7f83f647e2fb0e5221faeac8",
       "priority": 21,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -3108,6 +3116,11 @@
       "scene_id": 50,
       "needed": "Owner choice among three generated fan images",
       "action": "All3 success, originals/thumbs archived and published in scene50; no new image generation. Choose approved candidate and verify updated50A/B reference mapping before READY/video launch."
+    },
+    {
+      "scene_id": 52,
+      "needed": "Actual end of NEW corrected44",
+      "action": "Download and QC actual end: one fallen wing, empty root, Serega and technicians same positions. Save realVideo1/provenance/SHA and validate1video+6images UI before READY. No fabricated start frame or old defective44."
     }
   ],
   "receipts_directory": "reports/topview-queue-2026-10-16",
@@ -3311,5 +3324,9 @@
         ]
       }
     ]
+  },
+  "owner_instruction_20261017_2303": {
+    "source": "Direct owner23:03MSK",
+    "instructions": "44 maximally comic futile repair;52 seamless from actual44 then change to personal craft; same conspicuous bread/milk reminder in37/39/40/41/52/53, payoff55 already submitted. Priority sequence unchanged;52 cannot run before actual44 continuity ready."
   }
 }

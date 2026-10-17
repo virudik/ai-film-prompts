@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 53,
-  "updated_at": "2026-10-17T13:24:57.256658+00:00",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "ready",
   "references": [
@@ -154,7 +154,7 @@
     {
       "prompt": "main",
       "prompt_id": "S53",
-      "canonical_prompt_sha256": "60361a27cc5b46c026d31009bbacfd0b2a92e3667ec340c70ba9ee01ff826093",
+      "canonical_prompt_sha256": "38bfeceb279912fb748606ec77001a54708a01eac215e0506946218dc426d18b",
       "local_numbering": true,
       "launch_readiness": "ready",
       "generation_authorization": "Direct owner17Oct2026 16:11:29MSK: make these three bridges and launch as free slots become available",
@@ -199,8 +199,18 @@
           "required": true,
           "input_status": "available"
         }
-      ]
+      ],
+      "characters": 5280
     }
   ],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 37,
-  "updated_at": "2026-10-16T03:55:57Z",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -280,7 +280,7 @@
     {
       "prompt": "main",
       "prompt_id": "S37",
-      "canonical_prompt_sha256": "d3849f6b9f784b28a233ffbc0603ad2c5680de71c67d9ce72e0dc306d3a44667",
+      "canonical_prompt_sha256": "afd6773dfb34724ec8d8cd82b48fc80a698b216cd5f418f9756052945d5b6254",
       "local_numbering": true,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
@@ -322,7 +322,8 @@
           "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
           "input_status": "available"
         }
-      ]
+      ],
+      "characters": 7031
     }
   ],
   "site_published": false,
@@ -330,12 +331,20 @@
   "last_qc_scope": "Создан по прямой команде владельца 15.10.2026; лесная планета по палитре части 2, около 21:14/21:28. Новый AI-референс, не исходный кадр фильма. QC: одна зелёно-синяя планета, облака, атмосфера; нет кораблей, людей, текста.",
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "08cf0cb4c492a7e174ec3510ac1f77418bb6f9aa4bf237663d3b3c469e0d18a4",
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": "1uIpQx5GbLB2CDKW_6romr4UxC9qiGsj_",
-  "note": "16.10: все обязательные изображения сохранены; запуск разрешён владельцем в ограниченной очереди; QC не означает approval."
+  "note": "16.10: все обязательные изображения сохранены; запуск разрешён владельцем в ограниченной очереди; QC не означает approval.",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  }
 }

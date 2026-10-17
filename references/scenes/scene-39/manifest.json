@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 39,
-  "updated_at": "2026-10-17T18:14:54.851044+00:00",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -179,7 +179,7 @@
     {
       "prompt": "main",
       "prompt_id": "S39",
-      "canonical_prompt_sha256": "38df51a65308aee76d55bc55058f1dcee1b2af5887ef15d3f9225b8689792bf5",
+      "canonical_prompt_sha256": "06b9632d969a567837574f2eaf7591b20e129564d3c585de1937e956c1b2d95c",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -222,7 +222,7 @@
           "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
         }
       ],
-      "characters": 6465
+      "characters": 7464
     }
   ],
   "site_published": {
@@ -234,12 +234,20 @@
   "last_qc_scope": "Real camp shot from part2 14:16: two fish-filled imperial crates and caught fish by stone-ring fire. Use objects only, exclude both sleepers and night lighting. Actual shore geometry and sunset are separate Image4; no invented empty-film frame.",
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "d05eb6ac52a8b8ff77ce93047431def4803302e8892ddbf492f50a4d7b05f1a4",
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval."
+  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval.",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  }
 }

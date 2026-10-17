@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 41,
-  "updated_at": "2026-10-16T22:29:10.886904+00:00",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -188,7 +188,7 @@
     {
       "prompt": "main",
       "prompt_id": "S41",
-      "canonical_prompt_sha256": "bc42b0ebeb5b31fa3e7a5c7a7e83c997b9b933710470280bfcc900367447ae42",
+      "canonical_prompt_sha256": "cf3906a41263b80e7a2f6cf7d270e7055de1051f4152339093efb633bd18d290",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -232,7 +232,7 @@
           "input_status": "available"
         }
       ],
-      "characters": 6486
+      "characters": 7024
     }
   ],
   "site_published": {
@@ -244,12 +244,20 @@
   "last_qc_scope": "Actual film part1 11:22; whole grey wedge cruiser, superstructure, bridge spheres and lit hull openings visible; no people, no black frame, no AI replacement.",
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "6e2b4baf2ada60133aac5fa0b5f9a0138f886ca304f0a606aa6e075817890559",
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval."
+  "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval.",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  }
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-17T18:14:54.851044+00:00",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
-  "status": "ready",
+  "status": "DRAFT",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -170,7 +170,14 @@
     "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png"
   ],
   "prop_refs": [],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "source_item": "S44-R1-20261017",
+      "status": "pending_result",
+      "actual_video_required": true
+    }
+  ],
   "approved": [],
   "rejected": [],
   "start_frame": null,
@@ -179,11 +186,17 @@
     {
       "prompt": "main",
       "prompt_id": "S52",
-      "canonical_prompt_sha256": "3ab36c2b1e06318b9eaeca133dfe838fa5fd44cdec60bdbc370a7f3712181aea",
+      "canonical_prompt_sha256": "09a52fb3db0893ff8b97956bcb37b84329774beb9e55b13ed190ff86490cb2cd",
       "local_numbering": true,
-      "launch_readiness": "ready",
+      "launch_readiness": "blocked_continuity",
       "generation_authorization": "Direct owner17Oct2026 16:11:29MSK: make these three bridges and launch as free slots become available",
       "slots": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_scene_end",
+          "input_status": "pending_new_S44_result",
+          "required": true
+        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -229,8 +242,21 @@
           "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
           "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
         }
-      ]
+      ],
+      "characters": 7764
     }
   ],
-  "technical_success_is_editorial_approval": false
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  },
+  "remaining": [
+    "Need actual clean ending of corrected44 with ONE fallen wing and empty root; verify seamless opening and free UI support for1video+6images before launch"
+  ]
 }

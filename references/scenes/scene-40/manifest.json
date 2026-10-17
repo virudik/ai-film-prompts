@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 40,
-  "updated_at": "2026-10-16T12:30:00Z",
+  "updated_at": "2026-10-17T20:06:28.563093Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -183,7 +183,7 @@
     {
       "prompt": "main",
       "prompt_id": "S40",
-      "canonical_prompt_sha256": "06e0439c4cc555acfdc2a37f360a3e5103bb01466e624f87b71dcd4eadc493df",
+      "canonical_prompt_sha256": "adb3f289326acbf6b7b9885bc9744bae2823bb1070fe729eeb28b65700785e71",
       "local_numbering": true,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
@@ -225,7 +225,8 @@
           "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
           "input_status": "available"
         }
-      ]
+      ],
+      "characters": 7868
     }
   ],
   "site_published": false,
@@ -233,12 +234,20 @@
   "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd",
+  "canonical_master_sha256": "f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24",
   "invariants": [
     "Individual sheets outrank helpers for identity",
     "@Image numbering is local to this prompt",
     "Missing @Video inputs must not be invented"
   ],
   "drive_folder_id": null,
-  "note": "16.10.2026: READY — все входы в репозитории, QA §11 пройден; сверка лесного модуля и направления взгляда относительно Scene 26 — монтажные заметки. В очередь запуска не внесена (её вносит ChatGPT по п. 6в хендофа); запуск только по команде владельца. QC не означает approval."
+  "note": "16.10.2026: READY — все входы в репозитории, QA §11 пройден; сверка лесного модуля и направления взгляда относительно Scene 26 — монтажные заметки. В очередь запуска не внесена (её вносит ChatGPT по п. 6в хендофа); запуск только по команде владельца. QC не означает approval.",
+  "bread_milk_continuity": {
+    "owner_request": "2026-10-17T20:03:11Z",
+    "visual_design": "One pale-yellow note; black loaf-left, milk-carton-right; blank console panel to pilot right",
+    "existing_design_helper": "references/scenes/scene-37/S37-cockpit-bread-milk-helper.png",
+    "helper_usage": "Design checked visually; not added as generation input; existing identity and actual cockpit sources retain authority",
+    "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
+    "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
+  }
 }
