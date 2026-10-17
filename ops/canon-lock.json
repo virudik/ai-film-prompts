@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Launch saved Мне домой song",
-  "acquired_at": "2026-10-17T23:49:01.055Z",
-  "expires_at": null,
-  "released_at": "2026-10-17T23:50:08.776Z",
+  "task": "Close all Suno song generation checkpoints",
+  "acquired_at": "2026-10-17T23:58:39.904Z",
+  "expires_at": "2026-10-18T00:08:39.904Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
