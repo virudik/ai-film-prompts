@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-10-16T23:46:43.849856+00:00",
+  "checked_at": "2026-10-17T00:15:50.741779+00:00",
   "scope": "Scenes39–51 required available prompt slots; real missing outputs remain blocked; no QC/owner approval invented",
   "scene_count": 13,
-  "unique_available_input_files": 41,
+  "unique_available_input_files": 42,
   "files": [
     {
       "path": "references/full/serega.jpg",
@@ -152,8 +152,8 @@
       "bytes_verified": true
     },
     {
-      "path": "references/scenes/scene-46/S46-roskotmos-satellites-ABC.png",
-      "sha256": "27592321372911cf8c47737e1f861a2cfe066827dbad703b9fb9ac6fb5edf873",
+      "path": "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png",
+      "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
       "git_present": true,
       "master_linked": true,
       "bytes_verified": true
@@ -285,6 +285,13 @@
       "bytes_verified": true
     },
     {
+      "path": "references/scenes/scene-50/S50-wookiees-kashyyyk-12s.png",
+      "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
+      "git_present": true,
+      "master_linked": true,
+      "bytes_verified": true
+    },
+    {
       "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
       "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
       "git_present": true,
@@ -382,9 +389,9 @@
       "scene": 50,
       "state": "DRAFT",
       "missing_continuity_slots": [],
-      "prompt_count": 0,
+      "prompt_count": 2,
       "remaining": [
-        "Create a physically coherent photo of Wookiee fans in the same H28B with exact ship/imperial-floor geometry, with no band-member replacement; perform QC."
+        "Fan crowd composition in H28B: species source now recovered; Nano Banana website requires browser login. Prepared prompt saved."
       ]
     },
     {

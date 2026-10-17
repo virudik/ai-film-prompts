@@ -74,7 +74,8 @@
           "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
           "input_status": "available"
         }
-      ]
+      ],
+      "prompt": "50A"
     },
     {
       "prompt_id": "50B",
@@ -100,7 +101,8 @@
           "sha256": "d6deb26b7938da8cfa659b40c840403bad3d9b6141dd991ea9793d2767ec6cc2",
           "input_status": "available"
         }
-      ]
+      ],
+      "prompt": "50B"
     }
   ],
   "site_published": {
