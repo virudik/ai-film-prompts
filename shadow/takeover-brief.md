@@ -2,21 +2,21 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-17T11:23:03+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-17T11:28:23+00:00. Валиден при генерации: **False**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
 GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main
 
 ## Источники (sha256)
-- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 78169 B · `90d6e474ace840aa`
+- NEW-CHAT-HANDOFF.md · копия на Drive `1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD` · 78197 B · `4cd5da6ab3554f8a`
 - SYNC-RUNBOOK.md · копия на Drive `1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4` · 111258 B · `e91ed1c353c14700`
 - AI-PROJECT-GUIDE.md · копия на Drive `1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u` · 64207 B · `d6daec3b31b39065`
 - PROMPT-STYLE-GUIDE.md · копия на Drive `14VzE8DwjKIquGJWENci6rYWj_1xEn34d` · 73734 B · `ac9860171bfe57a5`
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 76180 B · `e309bcbd853b998a`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26963 B · `fd675db34520e2a0`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 617315 B · `fa2dfce9870a31fd`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 617876 B · `7ad8223c7fe0c342`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -47,7 +47,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 24 | Коты в кабине: запуск корабля и взлёт | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 | [] | 44dc07cb1bf4 |
 | 25 | Коты в кабине: космическое сражение | Seedance 2.5 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 | [24] | ba90242da394 |
 | 27 | Серёга против котов-магистров: бой на световых мечах | Seedance 2.5 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 5914eccd2b5e |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 | [] | 7883befcb63a |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 | [] | e0cf4701caae |
 | 30 | Коты против Серёги: разрушение колоннады | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [27] | aa77c9bbbcd2 |
 | 31 | Коты против Серёги: лестница и телекинетические обломки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [30] | 4895ab1fd4b3 |
 | 32 | Коты против Серёги: обрушение древней арки | Wan 3 | READY/IDLE | 1 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [31] | 71b4c8e41633 |
@@ -93,4 +93,4 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 
 ## Текущий checkpoint (дословно из NEW-CHAT-HANDOFF.md, до пометки «Предыдущая история»)
 
-См. `current-checkpoint.md` (46235 симв., sha `4d35ea060461`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
+См. `current-checkpoint.md` (46254 симв., sha `11d14c9457d0`). Дополнительно действующие разделы: ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ; ## ТЕКУЩЕЕ ДОПОЛНЕНИЕ
