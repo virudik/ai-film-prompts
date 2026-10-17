@@ -1,0 +1,210 @@
+{
+  "schema_version": 2,
+  "scene_id": 52,
+  "updated_at": "2026-10-17T13:24:57.256658+00:00",
+  "authority": "GitHub main master, exact individual sheets and actual film/result frames",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "dimensions": [
+        854,
+        480
+      ],
+      "drive_file_id": "1QBfAt4ngDh2xppYE00BsmUAug3Ok_cmz",
+      "library_file_id": null,
+      "role": "vehicle",
+      "asset_id": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "bytes": 462691,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-28/H28A-ceremony.png",
+      "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1Vt3GiuV-6MsQlz_1-B12cKnwp0jWrD_X",
+      "library_file_id": "libfile_354dfaba5ec48191b1c5cdbe1074e21e",
+      "role": "location",
+      "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+      "bytes": 2421508,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-28/H28A-ceremony.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+      "asset_id": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+      "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+      "bytes": 355292,
+      "dimensions": [
+        854,
+        480
+      ],
+      "media_type": "image",
+      "role": "vehicle",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "provenance": {
+        "kind": "actual_film_frame",
+        "source_name": "Серёгиус-копия часть 1.mp4",
+        "library_file_id": "libfile_a2f484bf8708819199576f1eade27487",
+        "source_sha256": "99a10222b39210174dd28f19688f52049e2cf656184d5ca4b92cba87def06b15",
+        "timestamp_seconds": 682,
+        "extraction": "ffmpeg -ss 682, first decoded frame; unchanged"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "drive_file_id": "1brg2XCNajrSLHmi3SCFULPSZ4qX8JaBa",
+      "library_file_id": "libfile_76714b680284819191cf08b850edfb71",
+      "role": "location",
+      "asset_id": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "bytes": 2228040,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-28/H28A-ceremony.png",
+    "references/scenes/scene-16/S16-desert-location-clean.png"
+  ],
+  "prop_refs": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "start_frame": null,
+  "end_frame": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "prompt_id": "S52",
+      "canonical_prompt_sha256": "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
+      "local_numbering": true,
+      "launch_readiness": "ready",
+      "generation_authorization": "Direct owner17Oct2026 16:11:29MSK: make these three bridges and launch as free slots become available",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "role": "vehicle",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+          "role": "vehicle",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        }
+      ]
+    }
+  ],
+  "technical_success_is_editorial_approval": false
+}

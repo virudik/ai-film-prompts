@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T12:43:48.484492+00:00",
+  "updated_at": "2026-10-17T13:27:23.958826+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -10,14 +10,14 @@
     "max_concurrent_account_tasks": 6,
     "scope": "One next production attempt per listed scene/selected part; no automatic retry, no automatic editorial approval. Current instruction supersedes earlier single-B6-only limit.",
     "latest_owner_update": {
-      "authorized_at": "2026-10-17T12:28:58Z",
-      "source": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history."
+      "authorized_at": "2026-10-17T13:19:51Z",
+      "source": "Owner16:11MSK: fans first; three story bridges; energetic close dance with ONE15s test; repair43/44/46. Owner16:19MSK: retain successful ship and FOUR engines; investigate Wan vs Seedance."
     }
   },
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Lowest priority among ready entries, respecting submission order dependencies. Missing inputs or unavailable free model do not block independent entries. Dependencies here order independent reference-based prompts; technical success is never editorial approval. Any actual-frame dependency must be resolved before submission. Latest17Oct order overrides prior dances-first notes. 44/48 wait for genuine continuity; skip blocked item and continue independent ready story items. Music awaits story submissions; no new dance rerenders authorized.",
+  "selection_policy": "Lowest priority among ready entries, with explicit submission dependencies. FIRST new task must be S50-FANS-IMAGE through free website Nano Banana Pro (image prompt file, not master video). Then45→46→43→44 as inputs permit, then story and ONE A1 15s test. Missing actual43/42 results block44/48 only; continue independent story. New dance batch/B10 waits test review. Never change submitted historical hashes or cancel active B3/B5–B9. Website Unlimited0 only, full-account scan, CAS claim, dedup and receipt remain mandatory.",
   "items": [
     {
       "id": "B7",
@@ -201,10 +201,10 @@
       "scene_id": 28,
       "prompt_id": "B10",
       "canonical_block_label": "28 B10",
-      "canonical_prompt_sha256": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4",
-      "normalized_prompt_sha256": "918328f5ecc78c01664d278b8db473d6f270e9077089d070fbbc5d10e71f64b4",
+      "canonical_prompt_sha256": "d7ef77875947458a6bd8b4bc9c96ee1ab94eb82a6d42ec22455c15c410d2a9a9",
+      "normalized_prompt_sha256": "859c90a405858018d0a1d3138cbe84b0f88ae3970e91b042607aae92138d5ed3",
       "priority": 500,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -237,7 +237,8 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "blocker": "Owner requested one15s corrected A1 test first. No further new Scene28 dance submissions before owner assessment."
     },
     {
       "id": "S36-S36",
@@ -486,8 +487,8 @@
       "scene_id": 25,
       "prompt_id": "S25",
       "canonical_block_label": "25",
-      "canonical_prompt_sha256": "8980a09782572a7034fe28fd1d42e0a402ccabe989b147203bb48f007f90fb87",
-      "normalized_prompt_sha256": "d188ac76bfe1510e5cbef4a3c3e6b4b6d9389bae4b839575d4bf4887ac587eda",
+      "canonical_prompt_sha256": "12d8984f2d116d595912240f3b69e38172d6ff04c1f448eb0065755e510a26b8",
+      "normalized_prompt_sha256": "65f05a65a43176d2fcf1c1876a5ec8612a6819e97a0fda3baa4e73a47f253ede",
       "priority": 241,
       "state": "blocked_owner_decision",
       "model": "Seedance 2.5",
@@ -1486,7 +1487,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1557,7 +1562,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1634,7 +1643,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1711,7 +1724,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1782,7 +1799,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1853,7 +1874,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -1945,7 +1970,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -2030,7 +2059,11 @@
         "S41",
         "S42",
         "S47",
-        "S48"
+        "S48",
+        "S52",
+        "S53",
+        "S54",
+        "S28-A1-TEST-20261017"
       ],
       "references": [
         {
@@ -2084,8 +2117,8 @@
       "scene_id": 45,
       "prompt_id": "S45",
       "canonical_block_label": "45",
-      "canonical_prompt_sha256": "fc8e7cdff237cd523be7ef8ffce1691dd3736d3cefc811f4ac123e230e674f45",
-      "normalized_prompt_sha256": "73eb9ce7b8586b71de3cec8150bef8d855294dd2488e6676988a8f464ce4555f",
+      "canonical_prompt_sha256": "97d94bd367331cf7e32e9019c4dea3c1e97d7fdaac5a49057278edfda21222c4",
+      "normalized_prompt_sha256": "88ab631c3c05e3bbca385f87b888eb2ffebda25368511bceba40bd8833884c10",
       "priority": 10,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2096,7 +2129,9 @@
       "quantity": 1,
       "mode": "omni_reference",
       "max_new_submissions": 1,
-      "depends_on_submitted": [],
+      "depends_on_submitted": [
+        "S50-FANS-IMAGE"
+      ],
       "references": [
         {
           "slot": "@Image1",
@@ -2114,14 +2149,14 @@
           "slot": "@Image3",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+          "path": "references/scenes/scene-45/S45-ship-design-actual.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "path": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
           "input_status": "available",
-          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+          "sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b"
         }
       ],
       "task_id": null,
@@ -2138,8 +2173,8 @@
       "scene_id": 46,
       "prompt_id": "S46",
       "canonical_block_label": "46",
-      "canonical_prompt_sha256": "0e310fc20cd318078b74e954c422f1e883bdcbf553090f0f0bb90e29a094ca68",
-      "normalized_prompt_sha256": "8abec2379dc4ea0e05a2f283837f60b2163d6c9c5357fd2f34be70657ed33a31",
+      "canonical_prompt_sha256": "04ea1cb3ea93d4f7ded366789a3ac0147b96ab74c1d65dbb110a5a3119339e4a",
+      "normalized_prompt_sha256": "63dc2cd9c6153ec9cfa6b4f4998f941ff06e6a704c527860b213ef7395ade85f",
       "priority": 11,
       "state": "waiting_for_slot",
       "model": "Wan 3.0",
@@ -2162,8 +2197,8 @@
           "slot": "@Image2",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+          "path": "references/scenes/scene-45/S45-ship-design-actual.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
         },
         {
           "slot": "@Image3",
@@ -2171,6 +2206,13 @@
           "sha256": "19abdd4f8758e1774f454a5cc8a18ab3fe5fec86e339c0913c74c37dc64e28a0",
           "input_status": "available",
           "canonical_role": "satellite_design_helper"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
+          "sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b",
+          "input_status": "available",
+          "canonical_role": "actual_rear_four_engines"
         }
       ],
       "task_id": null,
@@ -2363,6 +2405,300 @@
       ],
       "blocker": "Need actual clean ending of42; no AI substitute",
       "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S50-FANS-IMAGE",
+      "scene_id": 50,
+      "prompt_id": "S50-FANS-IMAGE",
+      "media_type": "image",
+      "prompt_source_path": "references/scenes/scene-50/S50-fans-image-prompt.txt",
+      "prompt_source": "UTF-8 full file stripped of final newline; exact standalone image prompt",
+      "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
+      "priority": 0,
+      "state": "waiting_for_slot",
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "image_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        {
+          "slot": "Image2",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf"
+        },
+        {
+          "slot": "Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "previous_attempt_created_task": false,
+      "authorization": "Explicit owner17Oct16:11MSK: FIRST next free slot Wookiee fans. Existing harmless prepared image request.",
+      "on_success": "Download actual image, visual QC, save full file+thumbnail+provenance+SHA+manifest+master link; only then READY50A/B and add their finite video items after story. Do not treat technical success as owner approval.",
+      "prompt_file_sha256": "4a451e639091ed013b4bdb215420cdbae7441380699f4759dd7009ad2ae01704"
+    },
+    {
+      "id": "S52",
+      "scene_id": 52,
+      "prompt_id": "S52",
+      "canonical_block_label": "52",
+      "canonical_prompt_sha256": "14198e58ab819a63367049a4af97998f2d9128cb46d332acd65bf4db3437928d",
+      "normalized_prompt_sha256": "9352778f36c97b43d9fc8a4d799793f4931bc6f1b51c823bc6b4e340271b6536",
+      "priority": 20,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "role": "vehicle",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+          "role": "vehicle",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
+      "max_credits": 0
+    },
+    {
+      "id": "S53",
+      "scene_id": 53,
+      "prompt_id": "S53",
+      "canonical_block_label": "53",
+      "canonical_prompt_sha256": "60361a27cc5b46c026d31009bbacfd0b2a92e3667ec340c70ba9ee01ff826093",
+      "normalized_prompt_sha256": "86f445c74faee8261a8c2d08aed007e6a95e0e46e463bdda0bffc44295c1d176",
+      "priority": 21,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "role": "vehicle",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "role": "vehicle_interior",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "role": "prop",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
+      "max_credits": 0
+    },
+    {
+      "id": "S54",
+      "scene_id": 54,
+      "prompt_id": "S54",
+      "canonical_block_label": "54",
+      "canonical_prompt_sha256": "d132a313e6b199d862d9dd940df75c95792bad0bd24f83196d0e1030a1d19c47",
+      "normalized_prompt_sha256": "45fa1934635539cc0bce83be5f0c14ccb6993a0643ad79b5047b442ff60e0840",
+      "priority": 22,
+      "state": "waiting_for_slot",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+          "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+          "role": "prop",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+          "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-54/S54-room-side-actual.png",
+          "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+          "role": "composition",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
+      "max_credits": 0
+    },
+    {
+      "id": "S28-A1-TEST-20261017",
+      "scene_id": 28,
+      "prompt_id": "A1",
+      "canonical_block_label": "28 A1",
+      "canonical_prompt_sha256": "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
+      "normalized_prompt_sha256": "e018faf33fedd539f49339680e6b104337d4eea226198995361ff58ef37022ca",
+      "priority": 400,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "depends_on_submitted": [
+        "S52",
+        "S53",
+        "S54",
+        "S36-S36",
+        "S37-S37",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S47"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "role": "location",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "role": "identity",
+          "required": true
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test.",
+      "max_credits": 0,
+      "review_gate_after_success": "Assess identity, energy, framing and anatomy; owner review before further dance submissions. This is not a controlled model comparison by itself."
     }
   ],
   "already_submitted": {

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 45,
-  "updated_at": "2026-10-17T12:43:48.484492+00:00",
+  "updated_at": "2026-10-17T13:27:23.958826+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -195,6 +195,66 @@
       "applies_to": [
         "45"
       ]
+    },
+    {
+      "path": "references/scenes/scene-45/S45-ship-design-actual.png",
+      "asset_id": "references/scenes/scene-45/S45-ship-design-actual.png",
+      "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00",
+      "bytes": 1111844,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "vehicle",
+      "owner_approval": "ship_design_and_four_engines_explicitly_selected_20261017_161951_MSK",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T13:27:23.958826+00:00",
+        "evidence": "Viewed actual frame; same successful worn hull; rear has four distinct blue exhausts, two upper/two lower. Source rubble excluded from production setting."
+      },
+      "provenance": {
+        "kind": "actual_topview_result_frame",
+        "source_task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+        "source_sha256": "575907d0ad770011bfbc6cbffb54a82bb295de022a70e17cc8ea56c27d12c568",
+        "timestamp_seconds": 2,
+        "extraction": "ffmpeg unchanged decoded frame"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-ship-design-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
+    },
+    {
+      "path": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
+      "asset_id": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
+      "sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b",
+      "bytes": 1040796,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "vehicle",
+      "owner_approval": "ship_design_and_four_engines_explicitly_selected_20261017_161951_MSK",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T13:27:23.958826+00:00",
+        "evidence": "Viewed actual frame; same successful worn hull; rear has four distinct blue exhausts, two upper/two lower. Source rubble excluded from production setting."
+      },
+      "provenance": {
+        "kind": "actual_topview_result_frame",
+        "source_task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+        "source_sha256": "575907d0ad770011bfbc6cbffb54a82bb295de022a70e17cc8ea56c27d12c568",
+        "timestamp_seconds": 28,
+        "extraction": "ffmpeg unchanged decoded frame"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "identity_refs": [],
@@ -213,7 +273,7 @@
     {
       "prompt": "main",
       "prompt_id": "S45",
-      "canonical_prompt_sha256": "fc8e7cdff237cd523be7ef8ffce1691dd3736d3cefc811f4ac123e230e674f45",
+      "canonical_prompt_sha256": "97d94bd367331cf7e32e9019c4dea3c1e97d7fdaac5a49057278edfda21222c4",
       "local_numbering": true,
       "launch_readiness": "ready",
       "owner_generation_approval_inferred": false,
@@ -235,17 +295,17 @@
           "slot": "@Image3",
           "canonical_role": "vehicle_exterior",
           "input_status": "available",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+          "path": "references/scenes/scene-45/S45-ship-design-actual.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "path": "references/scenes/scene-45/S45-ship-four-engines-actual.png",
           "input_status": "available",
-          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+          "sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b"
         }
       ],
-      "characters": 6347
+      "characters": 6622
     }
   ],
   "site_published": false,
@@ -261,5 +321,11 @@
   "drive_folder_id": null,
   "note": "17Oct owner authorized one corrected free attempt; review reports/story-and-generation-review-2026-10-17.md. No editorial approval.",
   "design_selection_note": "Owner selected FIRST ship explicitly17Oct2026 03:32MSK. Same vehicle in45/46; second preserved, not an input.",
-  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130"
+  "canonical_master_sha256": "4a25e3bc474a7ba1accf483438d5bf22a80cc250dd4b2893f2372f95b2163130",
+  "owner_ship_selection": {
+    "at": "2026-10-17T13:19:51Z",
+    "source_task_id": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
+    "scope": "Successful ship hull and FOUR engines only; background corrected to battle without asteroids.",
+    "supersedes": "Two-engine correction17Oct15:28MSK"
+  }
 }

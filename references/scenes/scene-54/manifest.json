@@ -1,0 +1,182 @@
+{
+  "schema_version": 2,
+  "scene_id": 54,
+  "updated_at": "2026-10-17T13:24:57.256658+00:00",
+  "authority": "GitHub main master, exact individual sheets and actual film/result frames",
+  "status": "ready",
+  "references": [
+    {
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "dimensions": [
+        1536,
+        857
+      ],
+      "drive_file_id": "1R4a0XBkbd7Cywr38b5PcxUfZ2aVw5pP4",
+      "library_file_id": "libfile_fe19da617eb08191a85c4129e178e999",
+      "role": "identity",
+      "asset_id": "references/full/serega.jpg",
+      "bytes": 155182,
+      "media_type": "image",
+      "owner_approval": "user_supplied_identity",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/full/serega.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "drive_file_id": "1aJMkSYAVHBfip3Y_9g-GgkSg6zhQtiDL",
+      "library_file_id": null,
+      "role": "prop",
+      "asset_id": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "bytes": 1360067,
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Verified source, exact bytes and role; individual sheets retain identity priority."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
+    },
+    {
+      "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "asset_id": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+      "bytes": 1062297,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "location",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Viewed actual 30s result and sampled sequence; stable room, desk, chair, CRT and horizontal case. Frame extracted unchanged."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "actual_topview_result_frame",
+        "source_task_id": "b9180e24788d4830a6c44fedf8dba7d4",
+        "timestamp_seconds": 0,
+        "source_sha256": "33e366c711ed2c9665e375849405919558958b5cbaada837abc32af3f95c9866",
+        "extraction": "ffmpeg, first decoded frame at requested timestamp; no AI recreation",
+        "selected_in_latest_montage": "not_verified"
+      }
+    },
+    {
+      "path": "references/scenes/scene-54/S54-room-side-actual.png",
+      "asset_id": "references/scenes/scene-54/S54-room-side-actual.png",
+      "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+      "bytes": 1287497,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "media_type": "image",
+      "role": "composition",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T13:24:57.256658+00:00",
+        "evidence": "Viewed actual 30s result and sampled sequence; stable room, desk, chair, CRT and horizontal case. Frame extracted unchanged."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-54/S54-room-side-actual.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "actual_topview_result_frame",
+        "source_task_id": "b9180e24788d4830a6c44fedf8dba7d4",
+        "timestamp_seconds": 5,
+        "source_sha256": "33e366c711ed2c9665e375849405919558958b5cbaada837abc32af3f95c9866",
+        "extraction": "ffmpeg, first decoded frame at requested timestamp; no AI recreation",
+        "selected_in_latest_montage": "not_verified"
+      }
+    }
+  ],
+  "identity_refs": [
+    "references/full/serega.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-54/S54-room-opening-actual.png"
+  ],
+  "prop_refs": [
+    "references/scenes/scene-38/S38-Image3-scene35-last-frame.png"
+  ],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "start_frame": null,
+  "end_frame": null,
+  "prompt_reference_mapping": [
+    {
+      "prompt": "main",
+      "prompt_id": "S54",
+      "canonical_prompt_sha256": "d132a313e6b199d862d9dd940df75c95792bad0bd24f83196d0e1030a1d19c47",
+      "local_numbering": true,
+      "launch_readiness": "ready",
+      "generation_authorization": "Direct owner17Oct2026 16:11:29MSK: make these three bridges and launch as free slots become available",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "role": "identity",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+          "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+          "role": "prop",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+          "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+          "role": "location",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-54/S54-room-side-actual.png",
+          "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+          "role": "composition",
+          "required": true,
+          "input_status": "available"
+        }
+      ]
+    }
+  ],
+  "technical_success_is_editorial_approval": false
+}

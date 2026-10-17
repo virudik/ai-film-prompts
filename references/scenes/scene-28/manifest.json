@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-17T11:27:13.271Z",
+  "updated_at": "2026-10-17T13:27:23.958826+00:00",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -634,7 +634,7 @@
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "canonical_master_sha256": "d1f289a3d22964e5474f68fc1a0d0601389aa9a7b04aa1595438a5f663f54ba1",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -739,13 +739,13 @@
     {
       "prompt_id": "A1",
       "canonical_heading": "A1 · Танец 1 — Серёга и Юля задают устав",
-      "canonical_prompt_sha256": "6f5a8629275dbe61673a7f8ec6099385df7458187914aeefdd5537f1a8abe367",
-      "characters": 5134,
+      "canonical_prompt_sha256": "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
+      "characters": 5196,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
         "@Image1": {
-          "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
           "required": true,
           "role": "location",
           "status": "available"
@@ -761,24 +761,19 @@
           "required": true,
           "role": "identity",
           "status": "available"
-        },
-        "@Image4": {
-          "asset_id": "references/scenes/scene-28/H28B-disco.png",
-          "required": true,
-          "role": "location",
-          "status": "available"
         }
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "ready_single_test",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "6f5a8629275dbe61673a7f8ec6099385df7458187914aeefdd5537f1a8abe367"
     },
     {
       "prompt_id": "A2",
       "canonical_heading": "A2 · Танец 2 — Четыре взаимных жеста у лица",
-      "canonical_prompt_sha256": "57802b65a93af3477e594b9c99f381ccd2cbf5a0de1e10cef29b5ffca8177148",
-      "characters": 4965,
+      "canonical_prompt_sha256": "e223a577967009cbe0a7ceb5e91e6ad42870b6a388d061a6338b51b9a2667b82",
+      "characters": 5152,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -809,14 +804,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "57802b65a93af3477e594b9c99f381ccd2cbf5a0de1e10cef29b5ffca8177148"
     },
     {
       "prompt_id": "A3",
       "canonical_heading": "A3 · Танец 3 — Невозмутимый разъезд",
-      "canonical_prompt_sha256": "748a154f80e34cdfcaaf5fcc87e156193368f78913ec2d6919f1fd252ea13156",
-      "characters": 4755,
+      "canonical_prompt_sha256": "0a160ab4e05c72a4692727b2f8e743ba811b554ca07f3641597b9b401624267b",
+      "characters": 5108,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -847,14 +843,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "blocked_C28",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "748a154f80e34cdfcaaf5fcc87e156193368f78913ec2d6919f1fd252ea13156"
     },
     {
       "prompt_id": "A4",
       "canonical_heading": "A4 · Танец 4 — Паша и Саша: джедайский устав",
-      "canonical_prompt_sha256": "856568f2ff303b18fe86b7e57a70e6febd27862fa71d0f138ef4f3037238983c",
-      "characters": 4533,
+      "canonical_prompt_sha256": "b7b943b0548eccffc0acdb3854ae7858125adea21b77a2294080e4b7ede17549",
+      "characters": 4914,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -879,14 +876,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "856568f2ff303b18fe86b7e57a70e6febd27862fa71d0f138ef4f3037238983c"
     },
     {
       "prompt_id": "A5",
       "canonical_heading": "A5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
-      "canonical_prompt_sha256": "f186f3bbd0b74b3550cf71c8d96fc0496d9399122b319d92f2e11c41e2acae86",
-      "characters": 4492,
+      "canonical_prompt_sha256": "cb21c145f80319354712d12e607d38d353fe0b741354223bbc131ca5b724f592",
+      "characters": 4919,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -911,14 +909,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "f186f3bbd0b74b3550cf71c8d96fc0496d9399122b319d92f2e11c41e2acae86"
     },
     {
       "prompt_id": "A6",
       "canonical_heading": "A6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
-      "canonical_prompt_sha256": "4daa1e7cb1ed19b11283ffbf46fa004972ce815317a7403697689aad89f22f0d",
-      "characters": 5176,
+      "canonical_prompt_sha256": "8a0b003fa2b7d892307c5e16112105f4767097a8517f956e0b5fa7d22490d609",
+      "characters": 5480,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -949,14 +948,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "4daa1e7cb1ed19b11283ffbf46fa004972ce815317a7403697689aad89f22f0d"
     },
     {
       "prompt_id": "A7",
       "canonical_heading": "A7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
-      "canonical_prompt_sha256": "3cea8e301789cdcc58b68467a6c15f3ab6482deecab9a7eabe59275794f1f50a",
-      "characters": 5367,
+      "canonical_prompt_sha256": "f06e2769a5999ed1bfea7f204462a993473e7d795373c22e4ccd1b8ea3db8c6d",
+      "characters": 5679,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -987,14 +987,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "3cea8e301789cdcc58b68467a6c15f3ab6482deecab9a7eabe59275794f1f50a"
     },
     {
       "prompt_id": "A8",
       "canonical_heading": "A8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "ebd8ac8af5b2439ee57f5d1659b586a4b40e82f3acda1cf24ee8d6ef9082392c",
-      "characters": 4985,
+      "canonical_prompt_sha256": "11a2c49ddfb8aa326d111c4867047921134e152e47a29efbe19f34f829d8c7d2",
+      "characters": 6108,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1025,14 +1026,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "ebd8ac8af5b2439ee57f5d1659b586a4b40e82f3acda1cf24ee8d6ef9082392c"
     },
     {
       "prompt_id": "A9",
       "canonical_heading": "A9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "6b75c1a46bd6db6b1aada644a8a40714f6d63da050699546949221cdfebddeff",
-      "characters": 5093,
+      "canonical_prompt_sha256": "bd307f9996dc4ad876e136db5f6d7192c1b4b6529468ea435eef3d0bcc9b0061",
+      "characters": 6131,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1063,14 +1065,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "6b75c1a46bd6db6b1aada644a8a40714f6d63da050699546949221cdfebddeff"
     },
     {
       "prompt_id": "A10",
       "canonical_heading": "A10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "da4da644b25c55f1ff8fdae596e378bdb6d146c00cd1142d6de84f979d908b6d",
-      "characters": 5516,
+      "canonical_prompt_sha256": "f187c61a780dc8d35455b14a5b738e1c57d70aedd79fe5a0987f9a302643f311",
+      "characters": 6416,
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "slots": {
@@ -1083,19 +1086,20 @@
       },
       "start_frame": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "da4da644b25c55f1ff8fdae596e378bdb6d146c00cd1142d6de84f979d908b6d"
     },
     {
       "prompt_id": "B1",
       "canonical_heading": "B1 · Танец 1 — Серёга и Юля задают устав",
-      "canonical_prompt_sha256": "16f1ffff4169aaa60591a3091358d06d2bdff88f4cb7736d81cbe5d843f38fb0",
-      "characters": 5246,
+      "canonical_prompt_sha256": "c07f2c1254b9108115271b64bf37aec362139802ad5e328c75c1d6fae2faa917",
+      "characters": 5373,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
         "@Image1": {
-          "asset_id": "references/scenes/scene-28/H28A-ceremony.png",
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
           "required": true,
           "role": "location",
           "status": "available"
@@ -1111,24 +1115,19 @@
           "required": true,
           "role": "identity",
           "status": "available"
-        },
-        "@Image4": {
-          "asset_id": "references/scenes/scene-28/H28B-disco.png",
-          "required": true,
-          "role": "location",
-          "status": "available"
         }
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "16f1ffff4169aaa60591a3091358d06d2bdff88f4cb7736d81cbe5d843f38fb0"
     },
     {
       "prompt_id": "B2",
       "canonical_heading": "B2 · Танец 2 — Четыре взаимных жеста у лица",
-      "canonical_prompt_sha256": "e4344788d7a93ed51f239076b56dcc0c1d30ecf1f9155031c47ebf8d6f5d7763",
-      "characters": 4974,
+      "canonical_prompt_sha256": "450048f2b7a9d357f9f81f4f98c7801ca189386003c87300931c3dd20aa1315c",
+      "characters": 5329,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1159,14 +1158,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "e4344788d7a93ed51f239076b56dcc0c1d30ecf1f9155031c47ebf8d6f5d7763"
     },
     {
       "prompt_id": "B3",
       "canonical_heading": "B3 · Танец 3 — Невозмутимый разъезд",
-      "canonical_prompt_sha256": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a",
-      "characters": 4857,
+      "canonical_prompt_sha256": "136ce4b3de65eefa8b0883acc55b1176cba6414bcc331424906e122f0a41aa05",
+      "characters": 5285,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1199,14 +1199,15 @@
       },
       "start_frame": "references/scenes/scene-28/C28-from-B2-result.png",
       "end_frame": null,
-      "launch_readiness": "ready",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "ec237084c92e3e64dea728770258f1b07315497e30c24169d3d03ff461fb5f1a"
     },
     {
       "prompt_id": "B4",
       "canonical_heading": "B4 · Танец 4 — Паша и Саша: джедайский устав",
-      "canonical_prompt_sha256": "ee4aafaedcf8448ae5309409313ff01b1f9db7ec261c29f8a65fd6cbad672f27",
-      "characters": 4652,
+      "canonical_prompt_sha256": "e3375ee205bfee0d80ddc502663f77d02565b8db72869be15b3ce5278d1f7a1f",
+      "characters": 5091,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1231,14 +1232,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "ee4aafaedcf8448ae5309409313ff01b1f9db7ec261c29f8a65fd6cbad672f27"
     },
     {
       "prompt_id": "B5",
       "canonical_heading": "B5 · Танец 5 — Артём и Илюша: заводные церемониальные фигуры",
-      "canonical_prompt_sha256": "00f669d69e15d3355b6a6367e4036cf9de02eeb061bb9e9ac6986b3d557e3820",
-      "characters": 4542,
+      "canonical_prompt_sha256": "52efca20bce6756f8d843984a1693993043caf690e8ce733fe0b33b2e833dcd8",
+      "characters": 5096,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1263,14 +1265,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "00f669d69e15d3355b6a6367e4036cf9de02eeb061bb9e9ac6986b3d557e3820"
     },
     {
       "prompt_id": "B6",
       "canonical_heading": "B6 · Танец 6 — Маша, Лёша и Виталик: торжественный сбой",
-      "canonical_prompt_sha256": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc",
-      "characters": 5274,
+      "canonical_prompt_sha256": "b87ed914317a8058e8d9b6466aa885e358c8baa19e86da37a9ddeb465e4a0c31",
+      "characters": 5657,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1301,14 +1304,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "7d496352552b87c52ec2b13f401ab3902ccb822a72cafbaf92e5e53c02230dbc"
     },
     {
       "prompt_id": "B7",
       "canonical_heading": "B7 · Танец 7 — Алеся, Лучик и Рыжик: невозмутимый дирижёр",
-      "canonical_prompt_sha256": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e",
-      "characters": 5415,
+      "canonical_prompt_sha256": "93953d80acf7c736c2ace5be6b542671cc9dc90221b39d23e736b5b388cb6231",
+      "characters": 5856,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1339,14 +1343,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "4a566666ca0c2c730078ad44c0d32fe0d453c90db9e81236481fb674f693a27e"
     },
     {
       "prompt_id": "B8",
       "canonical_heading": "B8 · Танец 8 — Размеренное кружение на руках",
-      "canonical_prompt_sha256": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57",
-      "characters": 4977,
+      "canonical_prompt_sha256": "6afacf3a679082ea9797c9d0c83549cda6141f7f9e50707a118f6512edcdc004",
+      "characters": 6285,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1377,14 +1382,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "6f4006c861f32c496db6dfea5ef52414d2b24cdaf434d7f61e9561d4c6215b57"
     },
     {
       "prompt_id": "B9",
       "canonical_heading": "B9 · Танец 9 — Парадная переноска на плече",
-      "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
-      "characters": 5143,
+      "canonical_prompt_sha256": "0d1f3cb67b69804c81e6f602d042503d8e4832cddbb322e581bd134e86e74aea",
+      "characters": 6308,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1415,14 +1421,15 @@
       },
       "start_frame": null,
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64"
     },
     {
       "prompt_id": "B10",
       "canonical_heading": "B10 · Танец 10 — Общая финальная печать",
-      "canonical_prompt_sha256": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4",
-      "characters": 5784,
+      "canonical_prompt_sha256": "d7ef77875947458a6bd8b4bc9c96ee1ab94eb82a6d42ec22455c15c410d2a9a9",
+      "characters": 6593,
       "duration_seconds": 30,
       "model": "Wan 3.0",
       "slots": {
@@ -1435,8 +1442,9 @@
       },
       "start_frame": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
       "end_frame": null,
-      "launch_readiness": "reference_inputs_available",
-      "owner_generation_approval_inferred": false
+      "launch_readiness": "blocked_test_review",
+      "owner_generation_approval_inferred": false,
+      "previous_prompt_sha256_before_20261017": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4"
     }
   ],
   "site_published": {
@@ -1581,5 +1589,6 @@
     "receipt": "reports/scene28-launch-2026-10-15.json",
     "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
     "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
-  }
+  },
+  "launch_gate": "One15s corrected A1 test only; all other new dance submissions wait owner review. Existing active tasks unchanged."
 }

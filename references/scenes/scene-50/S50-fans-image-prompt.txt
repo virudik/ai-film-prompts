@@ -1,9 +1,1 @@
-SCENE50 — PREPARED IMAGE REQUEST, NOT A GENERATED RESULT
-Website Nano Banana Pro |16:9 |2K |quantity1 |Unlimited free only
-Image1: references/scenes/scene-28/H28B-disco.png
-Image2: references/scenes/scene-50/S50-wookiees-owner-03m400.jpg
-Image3: references/scenes/scene-50/S50-wookiees-owner-14m833.jpg
-
 Create one photoreal cinematic 16:9 still for our film, scene 50: a crowd of Wookiee fans enjoying their favorite band. Image 1 is the exact hangar location and lighting reference. Images 2 and 3 are Wookiee species appearance references only: ignore all humans, tavern interiors and black bars in those images. Show 8–12 different adult Wookiees in foreground and midground, with a few more behind, layered brown, black and auburn fur, varied faces and manes. Joyful expressions, cheering, hands raised naturally at chest or shoulder height, comfortable natural spacing with small open floor patches. No humans. Eye-level medium-wide camera. The fans look toward the band OFFSCREEN beside the camera. Preserve Image 1 hangar geometry, shuttle at back right and space scenery. Natural readable face lighting with existing cyan and magenta practical lights. This is a simple crowd of fans in the established hangar, no arena, no stage, no forest, no tavern, no battle or collision. No captions, logos, collage, black bars or split screen.
-
-QC: same H28B, correct varied Wookiees, no imported humans/tavern, no invented arena. Save PNG + thumbnail + SHA/provenance + mapping before READY50. Not editorial acceptance.

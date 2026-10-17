@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T12:46:24.937505+00:00",
+  "last_updated_at": "2026-10-17T13:30:21.415119+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -511,6 +511,32 @@
         "checked_at": "2026-10-17T12:05:09.756Z",
         "scheduled_session_access": "unverified; check every run"
       }
+    },
+    {
+      "work_id": "FILM-20261017-OWNER-FIXES",
+      "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
+      "status": "in_progress",
+      "verified_at": "2026-10-17T13:30:21.415119+00:00",
+      "done": [
+        "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
+        "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
+        "Three independent story bridges52/53/54 READY with existing exact identities and real source frames",
+        "Ship selected from successful45 video; FOUR engines retained45/46; asteroid field excluded",
+        "Actual room/desk frames saved for54; existing Warcraft game footage reused in edit",
+        "Primary-source Wan3.0/Seedance research saved; model equality and sole-cause claims rejected"
+      ],
+      "next_actions": [
+        "Fresh main and full account scan; FIRST free slot S50-FANS-IMAGE via website Nano Banana Unlimited0",
+        "45→46→43→44;44 actual-video dependency,48 actual42 ending; independent story while blocked",
+        "One A1 Seedance2.0/15s test after ready story; evaluate before additional dance generation",
+        "Verify generated continuity and latest montage splice; technical success is not owner approval"
+      ],
+      "canonical_refs": [
+        "video-prompts.md",
+        "ops/topview-launch-queue.json",
+        "reports/owner-fixes-2026-10-17.md",
+        "reports/owner-fixes-verification-2026-10-17.json"
+      ]
     }
   ],
   "rules": [
