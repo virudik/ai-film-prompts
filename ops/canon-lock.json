@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:scene-55",
-  "task": "новая сцена 55 «А молоко?» (W13) в мастер, DRAFT",
-  "acquired_at": "2026-10-17T17:43:34Z",
-  "expires_at": null,
-  "released_at": "2026-10-17T17:46:52Z",
+  "task": "сцена 55: Seedance 15s → Wan 3.0 30s (владелец 17.10)",
+  "acquired_at": "2026-10-17T18:05:51Z",
+  "expires_at": "2026-10-17T18:35:51Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
