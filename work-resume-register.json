@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T11:27:13.271Z",
+  "last_updated_at": "2026-10-17T11:34:58.641Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -438,7 +438,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T11:27:13.271Z",
+      "verified_at": "2026-10-17T11:34:58.641Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -470,13 +470,15 @@
         "B8 отправлен17.10 03:06:04UTC через сайт Topview: task5333994f739f4a8b813a6a36dcb7e140, Unlimited=true,0credits,Wan3.0/30s/720p/16:9,4проверенных входа; полный нормализованный промт совпал с master. Claim закрыт submitted, повторять нельзя. A2 готова; B2/B4/B5/B6/B7/B8 занимают6слотов. Следующие B9→B10;B3 только после настоящего B2/C28. Робот восстановился: штатный цикл02:50:18UTC health=ok после fix549452b (27тестов). Вне этой сессии уже отправлены43/44/45/46, не дублировать; второй46 task07f5e7a57b484035a1cee4d5479b1474 также точно совпал с master и success, paid12 — только наблюдение, не наш запуск и не одобрение.43 готов: следующий шаг извлечь настоящий финальный кадр для44; существующий44 не перезапускать. Толпа50 ещё отсутствует,42→48 иB2→B3 ждут результатов. Фоновая автоматизация отключилась из-за отсутствия входа в своей среде; рабочий чат авторизован, это не подтверждает вход следующего фонового запуска.",
         "Настоящий финальный кадр899/899 (29.966667s) результата43: Серёга у опущенного трапа, шаттл на опорах; оба боковых крыла визуально подняты. Застрявшее левое крыло около45° отсутствует. Последние6секунд осмотрены. Кадр подлинный и сохранён, но не прошёл проверку сюжетной непрерывности для44; не подменять дорисованным, не считать READY и не перезапускать автоматически. Файл references/scenes/scene-44/S44-start-from-S43-result.png; manifest/sourceSHA/thumb/master link saved. Automation resumed, same hourly schedule; scheduled-session access unverified.",
         "17Oct06:59UTC: B2 task762b3091b3e44b8599a0a58b91a253c5 reached success at06:20:26UTC; live account now5/6 Unlimited. Scheduled environment has no authenticated owner Topview session, so the real result/C28 could not be downloaded or QC'd. No claim/upload/submit/credits.",
-        "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview Ultra авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42."
+        "17.10 после14:23МСК: полный скан11досок/898задач —4активных Unlimited,2свободных; B2 иB4success. C28 извлечён из финала B2, QC пройден, PNG/thumb/provenance/SHA/manifest/master ссылка сохранены; B3 разблокирован и следующий (priority5), затемB9. Промты28 не менялись. В рабочем браузере Topview Ultra авторизован; краткий Login при загрузке исчез после гидратации. Новых submit на этом checkpoint нет. Следующий шаг: B3 точные4входа→полный UI prompt match→CAS claim→один бесплатный submit→receipt, затемB9 при свободном слоте.50 остаётся в очереди подготовки;44continuity требует владельца,48ждёт42.",
+        "17Oct14:32MSK owner requested handoff. C28 from actual B2 saved in commit325b29d6e640ad0f07fb47af3d5525564e79a866, Pages exact SHA verified; B3 ready. B3/B9/B10 NOT submitted, no claim, no Create. Detailed transfer at top of existing checkpoint/handoff."
       ],
       "next_actions": [
-        "B3 → B9 → B10 by free slots; no duplicate B8.",
-        "After dances follow queue priorities, starting40;43/44/45/46 already submitted externally, never duplicate.44 actual43 frame still to save;48 needs42.50 crowd still missing.",
-        "Fresh main / CAS claim / unlimited website0credits / receipt for each launch; owner alone approves results.",
-        "36/37 remain old authorized first submissions at priorities220/221 after new ready entries; do not misclassify as reruns."
+        "Fresh main/D7, owner decisions, complete Topview scan; B3 currently ready priority5, B9priority12, B10priority13. No claim or submit for these three.",
+        "B3 four exact refs H28B/fullSerega/fullYulia/C28; restore upload, paste unchanged full prompt, verify normalization/SHA/settings/Unlimited0; CAS claim and single submit with verified receipt.",
+        "After each submit recheck global slots; continue B9/B10. Then40→41→39→47→42→48whenready→49A–F→50A/B→51A/B; skip externally submitted43/44/45/46.",
+        "Complete50 crowd through authorized free website;48 only genuine42final;44 requires owner choice on mismatch.36/37 first launches low priority; historical reruns held.",
+        "Save checkpoints after each material step; no further launches during requested handoff turn."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -489,11 +491,26 @@
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "checkpoint_policy": "Owner17.10: save after each material step and before long operations/pause; update same report, handoff checkpoint and register, commit/push/read-back.",
       "remaining_reference_work": [
-        "44 genuine43 final saved; continuity mismatch (wings raised), requires owner decision, no automatic rerun.",
-        "42 result→48 final frame (waiting)",
-        "50 exact fan crowd: authorized prepared Nano Banana Pro website request when a free slot exists; no paid route"
+        "50 exact Wookiee fan crowd in H28B using2owner frames; prepared Nano Banana free website request",
+        "42 result→48 actual final frame",
+        "44 actual43 final saved but incompatible wing pose; owner decision, no automatic rerender"
       ],
-      "next_action": "B3 ready with genuine C28; submit once through Unlimited website, then B9 as slots allow."
+      "next_action": "Restore authorized Topview browser upload; B3→B9→B10 by live slots. Last UI still PAID12credits, so explicitly switch to Unlimited0 before any submit. Filechooser timed out before setFiles; no uploads confirmed, prompt not pasted, no claim/submission.",
+      "blockers": [
+        "Browser filechooser timeout before uploads; working session itself authenticated Ultra. Last UI paid12, must select Unlimited0.",
+        "44 genuine43 final has raised wings; owner continuity decision; existing44 must not be rerun.",
+        "50 fan-crowd image still missing; authorized Nano Banana website prepared request pending slot/priority.",
+        "48 waits for actual42 result.",
+        "Hourly ChatGPT queue automation disabled after scheduled Login blocker; do not claim background submissions. Same task may be resumed after recovery; no duplicate watcher."
+      ],
+      "handoff_requested_at": "2026-10-17T11:32:48Z",
+      "handoff_status": "prepared_for_successor",
+      "automation_observation": {
+        "id": "6acae6ab433481919e88665c520b8ef2",
+        "is_enabled": false,
+        "last_run_time": "2026-10-17T07:00:30.990309+00:00",
+        "checked_at": "2026-10-17T11:34:58.641Z"
+      }
     }
   ],
   "rules": [
