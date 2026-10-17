@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:lock-thread",
-  "task": "ввожу замок канона; правка NEW-CHAT-HANDOFF, CONTINUE-PROTOCOL, статуса автоматики",
-  "acquired_at": "2026-10-17T17:35:43Z",
-  "expires_at": null,
-  "released_at": "2026-10-17T17:38:00Z",
+  "state": "held",
+  "holder": "claude:scene-55",
+  "task": "новая сцена 55 «А молоко?» (W13) в мастер, DRAFT",
+  "acquired_at": "2026-10-17T17:43:34Z",
+  "expires_at": "2026-10-17T18:28:34Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
