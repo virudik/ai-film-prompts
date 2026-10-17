@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:12:35.621Z",
+  "last_updated_at": "2026-10-17T23:19:53.814Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -634,18 +634,19 @@
       "work_id": "FILM-20261018-SUNO-SONG",
       "title": "Песня Серёгиуса «Я ненадолго»",
       "status": "in_progress",
-      "verified_at": "2026-10-17T23:12:35.621Z",
+      "verified_at": "2026-10-17T23:19:53.814Z",
       "authorization": "Owner18Oct02:06 asked to write film-story lyrics with Flares of the Blazing Sun reference and save in GitHub;02:08 asked about creation through Suno.",
       "done": [
         "Original Russian lyrics with Suno section tags and Styles prepared; current film decisions incorporated; screenshot reference identified.",
-        "Suno Create opened in built-in cloud browser and redirected to sign-in; no audio submission or spend."
+        "Suno Create opened in built-in cloud browser and redirected to sign-in; no audio submission or spend.",
+        "Owner18Oct02:15 authorized launch; signed in; free v6-mini selected, exact full lyrics/styles verified, one Create23:18:27.828UTC. Cloudflare CAPTCHA blocks submission confirmation; no songID yet."
       ],
       "next_actions": [
-        "User secure sign-in to Suno in cloud browser, then inspect creation options and cost.",
-        "Use music/seregius-ya-nenadolgo.md; verify complete lyrics/styles before any requested generation, preserve generated outputs if created."
+        "After user permission inspect current CAPTCHA, attempt authorized verification, then inspect new song entries before considering another Create.",
+        "Save actual IDs/URLs/results only after observed confirmation; no paid upgrade or blind duplicate."
       ],
       "blockers": [
-        "Suno account login required in this browser."
+        "Interactive Cloudflare human verification needs per-action user permission; generation submission unconfirmed."
       ],
       "canonical_refs": [
         "music/seregius-ya-nenadolgo.md"
