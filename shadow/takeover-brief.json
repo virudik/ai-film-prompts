@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-17T00:49:03+00:00",
+ "generated_at": "2026-10-17T00:53:17+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,8 +10,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "db542266c54dc65c0b75e44b4217c659581303a4e6f66d6aad38632dfe1d1400",
-   "bytes": 76510
+   "sha256": "3f94c68b38d90696cc1417b98a9bb196804e630f5d71ba030c061ae39b79ca1a",
+   "bytes": 77143
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "d041f7bf0269e6332c20e77b5751bab63698d311bc2c709e97a2c135aa895ace",
-   "bytes": 609987
+   "sha256": "946c28f0f09633b7cc22a932edaeeb35dad609ad23889eb688e8796750d7b428",
+   "bytes": 611429
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 45183,
-  "above_marker_chars": 45183,
+  "chars": 45560,
+  "above_marker_chars": 45560,
   "recent_sections_below_marker": [],
-  "sha256_12": "28fbfe762c71",
+  "sha256_12": "4d7ff56803ec",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -819,8 +819,8 @@
     "@Image7"
    ],
    "offset": 437374,
-   "chars": 56001,
-   "sha256_12": "4cbcccfb0576"
+   "chars": 57329,
+   "sha256_12": "9bb149689093"
   },
   {
    "id": 50,
@@ -841,7 +841,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 493375,
+   "offset": 494703,
    "chars": 17274,
    "sha256_12": "ac7b5c603c7a"
   },
@@ -868,7 +868,7 @@
     "@Image6",
     "@Image7"
    ],
-   "offset": 510649,
+   "offset": 511977,
    "chars": 17095,
    "sha256_12": "03a5f95a54aa"
   }
