@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-17T00:52:06.034223+00:00",
+  "updated_at": "2026-10-17T01:00:12.574663+00:00",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -390,6 +390,39 @@
       "applies_to": [
         "49E"
       ]
+    },
+    {
+      "path": "references/scenes/scene-49/S49F-playing-grip.png",
+      "asset_id": "references/scenes/scene-49/S49F-playing-grip.png",
+      "role": "ensemble_playing_pose",
+      "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+      "bytes": 2642417,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T01:00:12.261571+00:00",
+        "evidence": "All9 adults plus tiny adult-faced Alesya plus2 natural cats present, same original formation and assigned instruments. Corrected Sasha cobalt rhythm guitar and Luchik4square pads after first QC. Full composition helper; individual identity and prop originals retain priority."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "references/scenes/scene-49/S49D-harp-small-synth.png"
+        ],
+        "prompt": "Create one photoreal 16:9 ensemble PLAYING pose reference. Image1 is the edit target: preserve EXACTLY its NINE adult human/humanoid identities, ONE tiny adult-faced brown furry Ewok Alesya, TWO small natural cats, their unchanged original clothing, face/age/body/relative size, and fixed left-right layout. Image1 is also the exact H28B background authority. Images2–5 are instruments only, not people:2 Serega/Yulya,3 Pasha/Sasha/Artem,4 Lesha/Ilyusha/Vitalik,5 Masha/Alesya. Cat instruments: low black floor pads, Luchik four blue squares2x2, Ryzhik three amber circles. Add each assigned instrument with physically plausible playing hands; slightly widen framing as needed to fit instruments, keeping the same formation and all12 characters visible. Front Serega purple robe center-left = black-blue six-string ring guitar, left hand fretting/right picking; front Yulya dark armor center-right = silver-violet four-string bass same grip; tiny Alesya FRONT CENTER between them = LOW amber-violet two-tier keyboard, both hands keys. FarLEFT navy Pasha = bronze four-string bass. MidLEFT glasses/beard/burgundy Sasha = cobalt six-string guitar. RearLEFT slim grey/purple moustached Lesha = curved brass/black wind synth, mouthpiece at lips/hands on keys. RearCENTER blue humanoid Masha = silver-blue harp at her side, both hands plucking, opaque full-length blue outfit and head tendrils unchanged. MidRIGHT heavier beige/brown Artem = waist-high three-ring percussion stand, two sticks. RearRIGHT black-clad Vitalik = black orange-red bass, left hand fretting/right plucking. FarRIGHT red-cloaked green-tunic moustached Ilyusha = seated compact blue drumkit, one stick each hand, maintain far-right region. Luchik small white-grey cat frontLEFT = blue4pad floorcontroller; Ryzhik small ginger cat frontRIGHT = amber3pad controller. Natural cats seated with rear paws grounded/front paws reaching pads. Original faces and costumes NOT redesigned. No extra person or missing member, NO duplicate faces/props. No weapons. All performers on SAME floor without stage or risers, preserve H28B existing geometry/spaceopening/parked shuttle onright/floor emblem. Pompous energetic playing stance, no smashing or raised-overhead guitars. Distinct legs and clear contact, full instruments, neutral face fill, exact blue/magenta practicals. NO collage, labels, text, blackbars."
+      },
+      "applies_to": [
+        "49F"
+      ]
     }
   ],
   "remaining": [],
@@ -625,8 +658,8 @@
     {
       "prompt": "49F",
       "status": "READY",
-      "canonical_prompt_sha256": "af8051c9861abb97e24b7683e63bc0418354bf84e5b132b87b9a95c21ec83758",
-      "characters": 8087,
+      "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
+      "characters": 8443,
       "slots": [
         {
           "slot": "@Image1",
@@ -676,6 +709,12 @@
           "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-49/S49F-playing-grip.png",
+          "input_status": "available",
+          "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d"
         }
       ]
     }
@@ -693,6 +732,6 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "946c28f0f09633b7cc22a932edaeeb35dad609ad23889eb688e8796750d7b428",
+  "canonical_master_sha256": "c2ec2bca4dc0db0a439ba60aec53ad8311203b70bb661c02a77a218b4723d285",
   "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
 }

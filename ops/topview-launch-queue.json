@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T00:52:06.034223+00:00",
+  "updated_at": "2026-10-17T01:00:14.249576+00:00",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1736,8 +1736,8 @@
       "scene_id": 49,
       "prompt_id": "S49F",
       "canonical_block_label": "49F",
-      "canonical_prompt_sha256": "af8051c9861abb97e24b7683e63bc0418354bf84e5b132b87b9a95c21ec83758",
-      "normalized_prompt_sha256": "ff70dcb041e6a82616f351156aa8b3ad4c4ad0d44e4cb9f79c200ce5d462522b",
+      "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
+      "normalized_prompt_sha256": "d2bf032478abe9a7023ea8472fbe9d9548b2d816b6d0225732eb8ca9833e925b",
       "priority": 115,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1797,6 +1797,12 @@
           "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
           "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
           "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-49/S49F-playing-grip.png",
+          "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+          "required": true
         }
       ],
       "task_id": null,
@@ -1807,8 +1813,8 @@
       "scene_id": 51,
       "prompt_id": "S51A",
       "canonical_block_label": "51A",
-      "canonical_prompt_sha256": "458384de9cb8bc82e2e496ac393cf52c8e7a6897661369cb44060db465ae385f",
-      "normalized_prompt_sha256": "61dff85463c8a305ee5ee41b2b829cac5e18d4a29889d1998e2c99e89e795e98",
+      "canonical_prompt_sha256": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
+      "normalized_prompt_sha256": "d8117cd9dfc2be49972d8f1d60e5a6d5efbf1b8df9e2ec4fdca6b14305c672d4",
       "priority": 118,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1868,8 +1874,8 @@
         },
         {
           "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
           "required": true
         }
       ],
@@ -1882,8 +1888,8 @@
       "scene_id": 51,
       "prompt_id": "S51B",
       "canonical_block_label": "51B",
-      "canonical_prompt_sha256": "6b1edf94a64646f14f279a054890135c567615e548161a7b6cfa78436d9ee678",
-      "normalized_prompt_sha256": "93c725cde6d78b8b79e0d6bd4bcc35294c77ec66b72b9518767f01347eb906f1",
+      "canonical_prompt_sha256": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+      "normalized_prompt_sha256": "90a41423d111010a348eaa89ece67d11eecdbe2dba7ea5ec534d87ca1a457e77",
       "priority": 119,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -1941,8 +1947,8 @@
         },
         {
           "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
           "required": true
         }
       ],

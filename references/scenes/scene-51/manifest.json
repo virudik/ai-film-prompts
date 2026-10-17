@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 51,
-  "updated_at": "2026-10-16T23:09:14.907896+00:00",
+  "updated_at": "2026-10-17T01:00:14.249576+00:00",
   "status": "ready",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "references": [
@@ -127,6 +127,40 @@
         "51A",
         "51B"
       ]
+    },
+    {
+      "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+      "asset_id": "references/scenes/scene-51/S51-neck-grip-windup.png",
+      "role": "smash_grip_pose",
+      "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
+      "bytes": 2547772,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "passed",
+        "checked_at": "2026-10-17T01:00:12.422477+00:00",
+        "evidence": "All3 original adults/costumes, intact assigned blue/violet/bronze instruments. Each both hands on narrow neck, heavy body raised, headstock below hands; clear non-overlapping lanes and floor. No damage yet."
+      },
+      "provenance": {
+        "kind": "AI-helper",
+        "generator": "ChatGPT built-in image generation",
+        "source_reference_paths": [
+          "references/full/serega.jpg",
+          "references/full/yulya.jpg",
+          "references/full/pasha.jpg",
+          "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "references/scenes/scene-49/S49B-rhythm-instruments.png"
+        ],
+        "prompt": "Create one photoreal 16:9 cinematic STAGED ROCK INSTRUMENT-SMASH WIND-UP pose reference, all three instruments still INTACT. Exact H28B shown in the two instrument reference images4/5, same hangar/floor/emblem/shuttle right. Exactly three adults: Serega LEFT identityimage1 purple robe, Yulya CENTER identityimage2 blackarmor/cape, Pasha RIGHT identityimage3 navytunic. Preserve exact faces/builds/hair/clothes. Image4 exact Serega blue ring SIX-string guitar and Yulya silver-violet FOUR-string bass; image5 ONLY Pasha round bronze FOUR amber-string bass. CRITICAL HAND GRIP: both hands of EACH musician clasp the NARROW WOOD/METAL NECK/FRETBOARD near the HEADSTOCK, hands adjacent with small gap, thumbs wrapped securely. The headstock sticks out BELOW their lower hand. The long neck extends UP diagonally from their hands, and the LARGE HEAVY GUITAR BODY sits HIGH ABOVE/BEHIND that person's shoulder, ready to arc downward BODY-FIRST into a clear floor patch. Instruments are INVERTED relative to playing, NOT held by their bodies, NOT normal strumming grip, NO hand touching the wide body. Show neck through both hands clearly. No shoulder straps around neck during swing. Three non-overlapping swing lanes, sturdy wide planted stance, space between people, floor impact zones empty, no crowd/cats here. All instruments entirely visible with top margin, no cropping, no impact/debris yet. Confident theatrical faces, no fighting anyone. The purpose is accurate two-handed neck grip for a rock stage prop smash. Single wide full-body frame, neutralface light, existingcyan/magenta lights, real texture, no text/labels/panels/bars."
+      },
+      "applies_to": [
+        "51A",
+        "51B"
+      ]
     }
   ],
   "approved": [],
@@ -138,8 +172,8 @@
     {
       "prompt": "51A",
       "status": "READY",
-      "canonical_prompt_sha256": "458384de9cb8bc82e2e496ac393cf52c8e7a6897661369cb44060db465ae385f",
-      "characters": 5548,
+      "canonical_prompt_sha256": "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
+      "characters": 6630,
       "slots": [
         {
           "slot": "@Image1",
@@ -185,8 +219,8 @@
         },
         {
           "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
           "required": true,
           "input_status": "available"
         }
@@ -195,8 +229,8 @@
     {
       "prompt": "51B",
       "status": "READY",
-      "canonical_prompt_sha256": "6b1edf94a64646f14f279a054890135c567615e548161a7b6cfa78436d9ee678",
-      "characters": 5632,
+      "canonical_prompt_sha256": "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+      "characters": 6360,
       "slots": [
         {
           "slot": "@Image1",
@@ -242,8 +276,8 @@
         },
         {
           "slot": "@Image7",
-          "path": "references/scenes/scene-51/S51-pre-impact-pose.png",
-          "sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb",
+          "path": "references/scenes/scene-51/S51-neck-grip-windup.png",
+          "sha256": "7378db1028ab84ff326dd8c0f1a3a98de45ccaf956ae3812cb73ac2c45466b65",
           "required": true,
           "input_status": "available"
         }
@@ -263,6 +297,7 @@
     "Safety for cats, tiny Ewok and fans",
     "Only owner-authorized queue; unlimited website, zero credits, one submit per item; no automatic editorial approval."
   ],
-  "canonical_master_sha256": "f140efff6228027b501b378b4929bb1b8ce7802da94b64613dcb86ea02914669",
-  "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
+  "canonical_master_sha256": "c1f4e7666ecad397739531a862e425968cae68f5df0f6e8e382962b3180ff057",
+  "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
+  "superseded_pose_note": "Owner17Oct clarified smash grip: former S51-pre-impact-pose body-grip helper retained only as history, no longer an input; neck-grip windup now used."
 }

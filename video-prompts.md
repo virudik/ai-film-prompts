@@ -4051,7 +4051,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-49/S49C-drums-wind-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49C-drums-wind-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49D-harp-small-synth.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49D-harp-small-synth.png.webp" alt="@Image6 — инструменты" loading="lazy"></a><figcaption>@Image6 — инструменты</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49E-cat-paw-controllers.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49E-cat-paw-controllers.png.webp" alt="@Image7 — инструменты" loading="lazy"></a><figcaption>@Image7 — инструменты</figcaption></figure>
-</div>
+<figure><a href="references/scenes/scene-49/S49F-playing-grip.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49F-playing-grip.png.webp" alt="@Image8 — игровые позы 49F" loading="lazy"></a><figcaption>@Image8 — игровые позы 49F</figcaption></figure></div>
+
+**Дополнительный вход:** @Image8 = <a href="references/scenes/scene-49/S49F-playing-grip.png">игровые позы 49F</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4065,6 +4067,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — PROP DESIGN ONLY: Lesha curved black/brass wind synth, Ilyusha blue compact drums with two ring cymbals and Vitalik black orange/red bass.
 @Image6 — PROP DESIGN ONLY: Masha silver harp with six blue anchored strings and Alesya small two-tier amber/violet keyboard; preserve her original small scale.
 @Image7 — PROP DESIGN ONLY: Luchik four blue floor pads in a 2x2 layout and Ryzhik three amber circular floor pads; ordinary domestic-cat scale.
+@Image8 — FULL BAND PLAYING POSES / FIXED POSITIONS ONLY: same complete approved cast and relative scale; keep these instrument assignments and clear spatial arrangement throughout. Original @Image2 retains absolute identity/costume authority, @Image3–7 retain prop authority. Individual originals and separate prop designs override any helper deviations.
 Priority: @Image2 is the authority for every character's face, costume and size; @Image1 locks the hangar. The alien instruments are new props only and never change the location, faces or costumes.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4277,7 +4280,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
 
-**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **READY:** фотографии инструментов 49A/49B и постановка замаха прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после 50; 51B после 51A, без автоматического повторения. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **READY:** фотографии инструментов 49A/49B и замах: обе руки за гриф прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после 50; 51B после 51A, без автоматического повторения. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
 
 **Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">оригинальный H28B-ангар</a>; @Image2 = <a href="references/full/serega.jpg">Серёга</a>; @Image3 = <a href="references/full/yulya.jpg">Юля</a>; @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Абсолютный приоритет сохранения настоящих лиц и костюмов, а также геометрии H28B. <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2</a> — вспомогательный референс состава Scene 49, не слот генерации.
 
@@ -4289,14 +4292,14 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 <figure><a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png" alt="G28 v2 — вспомогательный общий состав" loading="lazy"></a><figcaption>G28 v2 — вспомогательный общий состав</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49A-lead-and-bass.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49A-lead-and-bass.png.webp" alt="@Image5 — инструменты" loading="lazy"></a><figcaption>@Image5 — инструменты</figcaption></figure>
 <figure><a href="references/scenes/scene-49/S49B-rhythm-instruments.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-49/S49B-rhythm-instruments.png.webp" alt="@Image6 — инструменты" loading="lazy"></a><figcaption>@Image6 — инструменты</figcaption></figure>
-<figure><a href="references/scenes/scene-51/S51-pre-impact-pose.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51-pre-impact-pose.png.webp" alt="@Image7 — постановка замаха" loading="lazy"></a><figcaption>@Image7 — постановка замаха</figcaption></figure>
+<figure><a href="references/scenes/scene-51/S51-neck-grip-windup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-51/S51-neck-grip-windup.png.webp" alt="@Image7 — замах: обе руки за гриф" loading="lazy"></a><figcaption>@Image7 — замах: обе руки за гриф</figcaption></figure>
 </div>
 
 **Что происходит:** После общего выступления группа даёт последний мощный аккорд. Серёга, Юля и Паша пафосно замахиваются и разбивают часть своих инопланетных инструментов о пол или стойки. Летят безопасные обломки корпусов и искры, но без травм, крови или чрезмерной жести. Коты не находятся в опасной зоне удара и только реагируют на финал. Толпа вуки ревёт, трясёт гривами и вскидывает лапы. Сцена должна монтироваться с танцами Scene 28, выступлением Scene 49 и фанатами Scene 50.
 
 ### 51A · Последний аккорд и замах · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-pre-impact-pose.png">постановка замаха</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4309,7 +4312,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
 @Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
-@Image7 — POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
+@Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4317,6 +4320,9 @@ SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchang
 YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
 PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
 Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+
+GRIP / CONTACT LOCK:
+Playing grip belongs only to the final chord: left hand frets, right hand picks near the bridge, instrument supported at waist. For the smash, BOTH hands securely clasp the narrow NECK near the headstock, never the body; shoulder straps are clear. The raised HEAVY BODY swings down and contacts the floor FIRST; headstock stays beside the hands. Maintain distinct hand/neck contact during the swing. No treating a guitar body as a handle.
 
 LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
 Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
@@ -4329,10 +4335,10 @@ TIMELINE:
 The band hits one massive synchronized final chord in the same H28B layout. Camera sees enough of the floor and shuttle to prove this is the identical hangar. The lead players lean into the hit. Wookiees in the audience answer with a loud excited reaction.
 
 [0:05–0:10] — THE PAUSE OF GLORY
-A dramatic micro-pause. Serёga raises his blue lead guitar, Yulya grips her violet bass, Pasha angles his bronze gravibass downwards. Smoke and disco lights thicken the atmosphere. The crowd realises what is about to happen.
+A dramatic micro-pause. Each releases the playing grip and removes the shoulder strap from the body, then takes the neck in BOTH hands near the headstock: one hand just above the other. Serёga keeps the blue lead guitar, Yulya her violet bass, Pasha his bronze gravibass. Hands never grasp the wide instrument body. Smoke and disco lights thicken the atmosphere. The crowd realises what is about to happen.
 
 [0:10–0:15] — DRAWBACK BEFORE IMPACT
-The selected musicians take one clear wind-up motion toward smashing. Freeze the energy just before impact: instruments high or pulled back, faces proud and intense, Wookiees roaring and throwing manes back. End frozen at the top of the wind-up.
+The selected musicians raise the HEAVY BODIES above/behind their shoulders by the two-handed NECK grips; the headstocks point below their lower hands. They take one clear body-first downward wind-up toward their separate empty floor patches. Freeze the energy just before impact: instruments high or pulled back, faces proud and intense, Wookiees roaring and throwing manes back. End frozen at the top of the wind-up.
 
 END STATE:
 All THREE instruments remain INTACT, visibly held above the empty floor areas in a controlled dramatic wind-up. A still two-second pre-impact hold; NO debris or destruction in 51A.
@@ -4361,7 +4367,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 51B · Разбивают инструменты — рок-кульминация · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-pre-impact-pose.png">постановка замаха</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -4374,7 +4380,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image4 — EXACT PASHA face, blue Jedi tunic, brown belt and boots.
 @Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
-@Image7 — POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
+@Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4382,6 +4388,9 @@ SEREGA (@Image2) — older pale man, sparse fair hair/bald crown, mature unchang
 YULYA (@Image3) — long chestnut hair, exact woman's face, charcoal-black armoured outfit, gloves and cape; plays her slender silver-and-violet alien FOUR-STRING BASS with rigid playable neck.
 PASHA (@Image4) — exact adult face, navy Jedi tunic, brown belt, boots; plays his heavy bronze FOUR-STRING GRAVIBASS with amber strings and physical resonator.
 Only three exact approved main humans are face-readable in the foreground. No new faces, no costume changes or swapped guitars. Distinct Wookiee audience members belong in the far rear; cats and tiny Alesya are outside the impact zone.
+
+GRIP / CONTACT LOCK:
+Playing grip belongs only to the final chord: left hand frets, right hand picks near the bridge, instrument supported at waist. For the smash, BOTH hands securely clasp the narrow NECK near the headstock, never the body; shoulder straps are clear. The raised HEAVY BODY swings down and contacts the floor FIRST; headstock stays beside the hands. Maintain distinct hand/neck contact during the swing. No treating a guitar body as a handle.
 
 LOCATION / INSTRUMENT / SAFETY LOCK — CRITICAL:
 Only the same H28B hangar. One original assigned physical instrument per person. All breakaway effects in part 51B happen at real contact with the unoccupied floor, not in the air. Neither the fans nor the cats are in the instrument-swing area. No new raised concert stage, arena or spaceship.
