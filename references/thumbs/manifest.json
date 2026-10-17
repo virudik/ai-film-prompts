@@ -903,6 +903,26 @@
    "thumb_bytes": 56816,
    "src_sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
   },
+  "references/scenes/scene-45/S45-ship-design-actual.png": {
+   "thumb": "references/thumbs/scenes/scene-45/S45-ship-design-actual.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1111844,
+   "thumb_bytes": 30378,
+   "src_sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+  },
+  "references/scenes/scene-45/S45-ship-four-engines-actual.png": {
+   "thumb": "references/thumbs/scenes/scene-45/S45-ship-four-engines-actual.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1040796,
+   "thumb_bytes": 32706,
+   "src_sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b"
+  },
   "references/scenes/scene-46/S46-roskotmos-resurs-kanopus.png": {
    "thumb": "references/thumbs/scenes/scene-46/S46-roskotmos-resurs-kanopus.png.webp",
    "width": 640,
@@ -1092,6 +1112,26 @@
    "src_bytes": 2682585,
    "thumb_bytes": 62012,
    "src_sha256": "9b9b3e06cadaa18f10c3a7e9580761fbfe26d4a567ffa6b78e4df811256c71cb"
+  },
+  "references/scenes/scene-54/S54-room-opening-actual.png": {
+   "thumb": "references/thumbs/scenes/scene-54/S54-room-opening-actual.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1062297,
+   "thumb_bytes": 20070,
+   "src_sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0"
+  },
+  "references/scenes/scene-54/S54-room-side-actual.png": {
+   "thumb": "references/thumbs/scenes/scene-54/S54-room-side-actual.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1287497,
+   "thumb_bytes": 22376,
+   "src_sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a"
   }
  }
 }
