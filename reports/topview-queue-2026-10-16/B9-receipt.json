@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "item_id": "B9",
+  "scene_id": 28,
+  "task_id": "0d1f17c226834bfbb851d76ed32f9877",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-17T12:03:25Z",
+  "verified_at": "2026-10-17T12:05:09.756Z",
+  "route": "free_web_gui_cloud_browser",
+  "claim": {
+    "run_id": "chatgpt-cloud-20261017-B9-1792238596080",
+    "claimed_at": "2026-10-17T12:03:16.079Z",
+    "actor": "ChatGPT Work",
+    "route": "free_web_gui"
+  },
+  "model": "Wan 3.0",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "status_at_verification": "init",
+  "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
+  "normalized_prompt_sha256": "a06db2f570776e41a0002f491dd88ae332a3ef6bb0a202ffbc53eec3f60bf812",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/scenes/scene-28/H28B-disco.png",
+      "role": "location",
+      "required": true,
+      "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+      "actual_name": "Image1",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "actual_name": "Image2",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/yulya.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+      "actual_name": "Image3",
+      "input_order_verified": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-28/S28-shoulder.png",
+      "role": "pose_composition_helper",
+      "required": true,
+      "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912",
+      "actual_name": "Image4",
+      "input_order_verified": true
+    }
+  ],
+  "ui_proof": "Observed successful new queued card and Unlimited-free control; screenshot shown in working chat, not uploaded to public repository.",
+  "global_scan_after": {
+    "checked_at": "2026-10-17T12:04:18.025Z",
+    "boards": 11,
+    "pages": 17,
+    "tasks": 900,
+    "active": [
+      {
+        "task_id": "0d1f17c226834bfbb851d76ed32f9877",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      },
+      {
+        "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      },
+      {
+        "task_id": "5333994f739f4a8b813a6a36dcb7e140",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      },
+      {
+        "task_id": "979f07acffe04750961515f4baf21a3f",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      },
+      {
+        "task_id": "2bccc8a3521b411cb7bd51f9c8ba1119",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      },
+      {
+        "task_id": "f88eee8ea93242309b71621e354ccac2",
+        "status": "init",
+        "unlimited": true,
+        "type": "video"
+      }
+    ],
+    "statusCounts": {
+      "success": 857,
+      "fail": 37,
+      "init": 6
+    }
+  },
+  "technical_success_is_owner_approval": false
+}

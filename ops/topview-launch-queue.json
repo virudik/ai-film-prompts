@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T12:03:16.079Z",
+  "updated_at": "2026-10-17T12:05:09.756Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -142,7 +142,7 @@
       "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
       "normalized_prompt_sha256": "a06db2f570776e41a0002f491dd88ae332a3ef6bb0a202ffbc53eec3f60bf812",
       "priority": 12,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -182,13 +182,15 @@
           "sha256": "f7f61144684f0fe3831a6a3f82d8a87a4dff41e69b162a6af569884f5dd5a912"
         }
       ],
-      "task_id": null,
+      "task_id": "0d1f17c226834bfbb851d76ed32f9877",
       "claim": {
         "run_id": "chatgpt-cloud-20261017-B9-1792238596080",
         "claimed_at": "2026-10-17T12:03:16.079Z",
         "actor": "ChatGPT Work",
         "route": "free_web_gui"
-      }
+      },
+      "submitted_at": "2026-10-17T12:03:25Z",
+      "receipt": "reports/topview-queue-2026-10-16/B9-receipt.json"
     },
     {
       "id": "B10",
@@ -2061,12 +2063,15 @@
   "telemetry_writer": "robot; this queue never fabricates heartbeat or editorial approval",
   "automation_verification": {
     "id": "6acae6ab433481919e88665c520b8ef2",
-    "is_enabled": false,
+    "is_enabled": true,
     "verified_at": "2026-10-17T07:00:09.282Z",
     "last_run_time": "2026-10-17T01:58:20.895099+00:00",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Europe/Moscow:20261015T225500\nRRULE:FREQ=HOURLY;INTERVAL=1;BYMINUTE=55;BYSECOND=0\nEND:VEVENT",
     "next_run_time_reported": null,
-    "status": "Paused after B2 success exposed a free slot but the scheduled environment lacked an authenticated owner Topview session needed to recover and QC the real B2 result/C28."
+    "status": "Paused after B2 success exposed a free slot but the scheduled environment lacked an authenticated owner Topview session needed to recover and QC the real B2 result/C28.",
+    "checked_at": "2026-10-17T12:05:09.756Z",
+    "automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "latest_observation": "Resumed same hourly :55 Europe/Moscow automation after successful cloud B3/B9 GUI submissions. Prompt updated with owner cloud-browser preference and confirmed tasks. Scheduled browser authentication remains unverified."
   },
   "blocked_browser": {
     "detected_at": "2026-10-17T06:59:55.713Z",
@@ -2093,11 +2098,15 @@
     "notified_at": "2026-10-17T06:59:55.713Z",
     "notification_event": "blocked_browser_b2_c28_20261017T065955713Z",
     "working_chat_observation": {
-      "checked_at": "2026-10-17T12:01:22.937Z",
+      "checked_at": "2026-10-17T12:05:09.756Z",
       "status": "resolved_cloud_browser",
-      "reason": "Owner requested built-in browser. Authenticated Ultra cloud session; visible Import loaded all four full B3 files. B3 submitted once and receipt verified. Local extension file-permission workaround no longer required.",
-      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
-      "credits_cost": 0
+      "reason": "Owner requested built-in browser. Authenticated cloud Ultra session; Import and Replace → Upload worked via documented shared-files chooser. B3 and B9 both submitted once and fully verified for zero credits. Local Chrome file-permission workaround not needed.",
+      "submitted_task_ids": [
+        "56c0ea656f484b0cb8464233fe097e0d",
+        "0d1f17c226834bfbb851d76ed32f9877"
+      ],
+      "credits_cost": 0,
+      "scheduled_session_access": "must_verify_each_run"
     }
   },
   "new_scene_order": [
