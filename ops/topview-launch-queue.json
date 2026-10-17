@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T18:46:46.445Z",
+  "updated_at": "2026-10-17T19:05:19.905Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2825,7 +2825,7 @@
       "canonical_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "normalized_prompt_sha256": "2f279662c69f128d78fe56f700717eb82a18e99864c831bec8871c3d7c3e51c4",
       "priority": 1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -2854,7 +2854,40 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-s50v2-1792263919905",
+        "claimed_at": "2026-10-17T19:05:19.905Z",
+        "holder": "chatgpt",
+        "account_scan": {
+          "checked_at": "2026-10-17T19:04:45.908Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 903,
+          "complete": true,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "active_unlimited_task_ids": [
+            "0d1f17c226834bfbb851d76ed32f9877",
+            "56c0ea656f484b0cb8464233fe097e0d",
+            "5333994f739f4a8b813a6a36dcb7e140",
+            "979f07acffe04750961515f4baf21a3f",
+            "2bccc8a3521b411cb7bd51f9c8ba1119"
+          ]
+        },
+        "ui_verified": {
+          "prompt_length": 1037,
+          "full_prompt_match": true,
+          "model": "Nano Banana Pro",
+          "resolution": "2K",
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "mode": "unlimited",
+          "credits": 0,
+          "input_count": 3,
+          "input_files": "Same uploaded files/order/SHA as verified original task48657a07dac542b0a3340e44c15b933f"
+        },
+        "dedup": "Full scan found original assigned task only; explicitly authorized second alternative"
+      },
       "previous_attempt_created_task": false,
       "authorization": "Direct owner17Oct2026 21:45:30MSK: three free Wookiee fan image launches total for choice; includes first task48657a07dac542b0a3340e44c15b933f. This is one separately authorized alternative, not an automatic retry.",
       "on_success": "Download actual original, visually inspect and archive each alternative separately with task ID/SHA/provenance. Present three alternatives for owner selection; do not overwrite the first or auto-approve. Only selected suitable frame used for50A/B.",
