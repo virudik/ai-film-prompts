@@ -49,20 +49,20 @@
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. READY: настоящий финальный кадр результата Scene 17 сохранён и проверен. |
-| 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; луг у озера Набу; лесная планета | Взлёт с Набу, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. READY: реальные кадры корабля и новый референс лесной планеты сохранены. |
-| 39 | [Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков](#scene-39) | Серёга; корабль Канцлера; озеро и луг Набу; стоянка пары после прыжка | Посадка корабля Канцлера на луг у озера и спокойный вход в воду по следу пары; ставит корабль, с которого взлетает 37. Стык ~45:05 по сборке. DRAFT до выгрузки кадра стоянки. |
+| 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; берег Набу из 39; лесная планета | Взлёт с того же берега у брошенной стоянки, где сел в 39, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. READY: реальные кадры корабля и новый референс лесной планеты сохранены. |
+| 39 | [Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков](#scene-39) | Серёга; корабль Канцлера; озеро и луг Набу; стоянка пары после прыжка | Посадка корабля Канцлера на луг у озера и спокойный вход в воду по следу пары; ставит корабль, с которого взлетает 37. Стык ~45:05 по сборке. READY: настоящие кадры берега и стоянки сохранены. |
 | 40 | [Серёга прилетает на планету ситхов: посадка у руин](#scene-40) | Серёга; корабль Канцлера; модуль карты; стикер «хлеб и молоко»; руины ситхов | Модуль светится к цели, посадка у руин, зажигание меча за кадром — стык с котами Scene 26. После лесного блока (D1). READY 16.10: все входы в репозитории. |
-| 41 | [Серёга увозит древний ПК с планеты ситхов](#scene-41) | Серёга; древний ПК; корабль Канцлера; руины ситхов; крейсер | Сила несёт блок и монитор из храма в кабину, взлёт, полёт к крейсеру — стык с финальным компьютером у окна в космос (01:02:45). DRAFT до выгрузки кадра крейсера. |
-| 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. DRAFT до последнего кадра 16. |
-| 43 | [Ангар крейсера: у шаттла Канцлера заело крыло](#scene-43) | Серёга; имперский ангар H28A с шаттлом | Шаттл не может взлететь: левое крыло застряло на полпути. «Владыка… крыло заело». — «Я заметил». Серёга выходит по рампе. DRAFT, русская речь. |
+| 41 | [Серёга увозит древний ПК с планеты ситхов](#scene-41) | Серёга; древний ПК; корабль Канцлера; руины ситхов; крейсер | Сила несёт блок и монитор из храма в кабину, взлёт, полёт к крейсеру — стык с финальным компьютером у окна в космос (01:02:45). READY: настоящий кадр крейсера сохранён. |
+| 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. READY: настоящий последний кадр 16 подключён. |
+| 43 | [Ангар крейсера: у шаттла Канцлера заело крыло](#scene-43) | Серёга; имперский ангар H28A с шаттлом | Шаттл не может взлететь: левое крыло застряло на полпути. «Владыка… крыло заело». — «Я заметил». Серёга выходит по рампе. READY, русская речь, Wan 3.0. |
 | 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43. |
-| 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. DRAFT до кадра конца 32. |
-| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 42: червь падает между дуэлянтами, меч Илюши гаснет, модуль Силой летит в руку Канцлера, Серёга уходит в бурю (D6). DRAFT до результата 42. |
+| 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. READY: настоящий последний кадр 32 подключён. |
+| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 42: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга уходит в бурю (D6). DRAFT до результата 42. |
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
-| 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. DRAFT до точного постановочного кадра и QC. |
-| 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, вуки-фанаты 50 | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
-| 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = Татуин; @Image6 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на Татуине. DRAFT до настоящего конца44,30s Wan3.0. |
-| 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = Татуин, @Image5 = один модуль карты | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка, уходит над руинами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
+| 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B и 51A/51B. |
+| 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, выбранные вуки-фанаты 50 (вариант 2) | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
+| 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = настоящий кадр татуинского города (ожидается); @Image6 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на окраине татуинского города, откуда он идёт к кантине. DRAFT до настоящего конца44 и кадра города, 30s Wan 3.0. |
+| 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = настоящий кадр татуинского города (ожидается), @Image5 = один модуль карты | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. DRAFT до кадра города, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0. |
 | 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры | Серёга играет; Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?». Он замирает и виновато молчит. Пасхалка к просьбе из начала фильма и стикеру в перелётах. READY, 30s Wan 3.0, в очереди сразу после картинки вуки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 
@@ -75,14 +75,14 @@
 | ID | Очередь / сцена в работе | Статус | Базовые референсы | Что уже понятно |
 |---|---|---|---|---|
 | W6 | **Татуин: гигантский червь, карта и побег Канцлера** | В РАБОТЕ: SCENES 42 + 48 (DRAFT); SCENE 16 ПРИНЯТА | развязка Татуина; карта; машина; Канцлер | Червь, руины и противостояние — Scene 16, исход не разрешён, обмена картой нет. Открыто: (1) решено 16.10 — «16 надо продолжить» (продолжение — Scene 42); (2) судьба татуинского фрагмента (D6/M1); (3) какую часть погони 46–49 [Р2] заменяет 16; (4) машина: не показывать после разрушения. Отлёт Серёги с Татуина генерировать не нужно — его прибытие на Набу закроет Scene 39. Возможное решение D6 из заметок Саши — 32:51: «меч гасится → карта левитирует в руку Канцлера». **16.10 владелец (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя; продолжение 16 — **Scene 42** (DRAFT, приём Саши 32:51). **16.10 владелец:** Scene 16 принята; продолжение — бой, в котором червю никто не уделяет внимания (**Scene 42**), фрагмент — **Scene 48**. |
-| W5 | **Три фрагмента / артефакта → запретное знание → Warcraft 3** | В РАЗРАБОТКЕ (D5) | три фрагмента/карты; компьютер/CRT; референс Канцлера | Путь фрагментов к цели виден через приём «модуль светится к цели» (37, решение 14.10; продолжение — 40): Набу → лес → планета ситхов → храм → древний ПК (35/38). Открыто: (1) как соединяются фрагменты и что открывают (D5; рекомендация [Р2] — «А + Д»: доступ, затем бытовой возврат); (2) тот ли это ПК, что в существующем финале, и где тот стоит (D4; по [Р1] §1 — «в космическом окружении», тогда нужна 41). «Диск / провод / мышь» по-прежнему идея. **16.10 владелец:** D4 решён — финальный компьютер стоит на борту у окна в космос, это тот же ПК из храма → **Scene 41** (Сила несёт блок и монитор). Все три фрагмента у Канцлера: Татуин — Scene 48, Набу — 17/36, лес — силовой захват. Открыт D5. |
-| W11 | **Татуин: кто передал Канцлеру маршрут / координаты** | В РАЗРАБОТКЕ · КОРОТКАЯ РЕПЛИКА / ЗВУК | кантина; существующий контакт/бармен/коммуникатор; татуинский блок | Прибытие Канцлера на Татуин не показано, он появляется в кантине 33:50 [Р2]. Посадку не генерировать: отлёт уже есть (уход корабля в гиперпространство, 27:50–28:55 [Р2]), а причину появления даёт только «след». Варианты без новой сцены: реплика у карты 14:05–15:20 «Координаты прислал наш контакт на Татуине» ([Р2] §13) или сигнал/маяк в кантине ([Р1] N4). Бармен отдал модуль герою (31:51–31:52, [Р2] §3) — не противоречить этому. **16.10 владелец:** прилёт на Татуин не генерируем. |
-| W7 | **Переходы между крупными группами / полёт к следующей планете** | В РАБОТЕ: 37, 40 (READY), 39/41 (DRAFT) + монтаж | конечные и начальные кадры соседних блоков; корабль/планета | Линия Серёги: Корусант → крейсер показан (09:20–09:55); крейсер → Татуин — монтаж + W11; Татуин → Набу — **Scene 39** (стык ~45:05); Набу → лес — **36 + 37** (решение 14.10, без посадки); лес → планета ситхов — **Scene 40** (стык после 01:02:45 → Scene 26); ПК → финальный CRT — **Scene 41** (D4 решён 16.10). **16.10 владелец:** 39 и 40 нужны, место стыков подтверждено; прилёт на Татуин и посадку на Кашиике не генерируем. Смена групп: T2 и Татуин → Набу — существующая посадка пары (39:25–40:30); идея Саши 37:30 уже есть в этом участке. Корабль везде один — из ч.1 09:20–09:55. |
+| W5 | **Три фрагмента / артефакта → запретное знание → Warcraft 3** | ЗАКРЫТО 17.10 (D5 закрыт владельцем) | три фрагмента/карты; компьютер/CRT; референс Канцлера | Путь фрагментов к цели виден через приём «модуль светится к цели» (37, решение 14.10; продолжение — 40): Набу → лес → планета ситхов → храм → древний ПК (35/38). Открыто: (1) как соединяются фрагменты и что открывают (D5; рекомендация [Р2] — «А + Д»: доступ, затем бытовой возврат); (2) тот ли это ПК, что в существующем финале, и где тот стоит (D4; по [Р1] §1 — «в космическом окружении», тогда нужна 41). «Диск / провод / мышь» по-прежнему идея. **16.10 владелец:** D4 решён — финальный компьютер стоит на борту у окна в космос, это тот же ПК из храма → **Scene 41** (Сила несёт блок и монитор). Все три фрагмента у Канцлера: Татуин — Scene 48, Набу — 17/36, лес — силовой захват. **17.10 владелец: D5 закрыт** — фрагменты работают как карта: модуль светится к цели (37, 40) и приводит к храму с древним ПК (35/38), ПК увозится (41) и ставится в комнату (54) → Warcraft. Новых сцен не нужно. |
+| W11 | **Татуин: кто передал Канцлеру маршрут / координаты** | СНЯТО 17.10 ВЛАДЕЛЬЦЕМ — НЕ НУЖНА | кантина; существующий контакт/бармен/коммуникатор; татуинский блок | Прибытие Канцлера на Татуин не показано, он появляется в кантине 33:50 [Р2]. Посадку не генерировать: отлёт уже есть (уход корабля в гиперпространство, 27:50–28:55 [Р2]), а причину появления даёт только «след». Варианты без новой сцены: реплика у карты 14:05–15:20 «Координаты прислал наш контакт на Татуине» ([Р2] §13) или сигнал/маяк в кантине ([Р1] N4). Бармен отдал модуль герою (31:51–31:52, [Р2] §3) — не противоречить этому. **16.10 владелец:** прилёт на Татуин не генерируем. **17.10 владелец:** W11 не нужна (снята); прилёт на Татуин теперь показывает Scene 52 (посадка на окраине города перед кантиной). |
+| W7 | **Переходы между крупными группами / полёт к следующей планете** | В РАБОТЕ: 37, 39, 40, 41, 54 (READY); 52, 53 (DRAFT до кадра города) + монтаж | конечные и начальные кадры соседних блоков; корабль/планета | Линия Серёги: Корусант → крейсер показан (09:20–09:55); крейсер → Татуин — **Scenes 43/44/52** (17.10: пересадка на личный корабль, посадка на окраине города перед кантиной); Татуин → взлёт — **Scene 53**; Татуин → Набу — **Scene 39** (стык ~45:05); Набу → лес — **36 + 37** (решение 14.10, без посадки); лес → планета ситхов — **Scene 40** (стык после 01:02:45 → Scene 26); ПК → финальный CRT — **Scene 41** (D4 решён 16.10). **16.10 владелец:** 39 и 40 нужны, место стыков подтверждено; посадку на Кашиике не генерируем. **17.10:** прилёт на Татуин всё-таки показан (52, решение владельца о сюжетных связках 52–54). Смена групп: T2 и Татуин → Набу — существующая посадка пары (39:25–40:30); идея Саши 37:30 уже есть в этом участке. Корабль везде один — из ч.1 09:20–09:55. |
 | W13 | **Финальный Warcraft → callback «хлеб и молоко»** | В РАЗРАБОТКЕ ПОСЛЕ W5 | компьютер/Warcraft; начало фильма с бытовой просьбой; Канцлер | Просьба «хлеб и молоко» есть в начале ([FA] ч.1 01:40–02:30). Промежуточное напоминание — стикер на пульте в 37 (решение 14.10); тот же стикер как continuity в 40/41. **16.10 владелец:** в 40 и 41 в кабине стоит корзинка с грибами из лесного эпизода. Финальный удар («А молоко?» и взгляд на корзинку — [Р2] §12, вариант Д) — 6–10 с после W5. **17.10 владелец:** финальный удар — отдельная Scene 55: Юля заходит в комнату с Warcraft и спрашивает «Дорогой, а ты купил хлеб и молоко?», без вставки; стикер с хлебом и молоком — во всех перелётах (37, 39, 40, 41, 52, 53). |
 | W8 | **Недоделанные гонки и транспорт** | В РАЗРАБОТКЕ / СВЕРИТЬ (Татуин) | референсы конкретной машины/экипажа; татуинская линия | Космическая погоня решена (Scene 5); сцены 3 и 4 не возвращать. Транспорт Канцлера между планетами зафиксирован: один корабль из ч.1 09:20–09:55 (37, 39, 40, 41). Открыто: татуинская машина и Scene 16 — машина не появляется после уничтожения; один узнаваемый дизайн машины Канцлера ([Р1] §16, [Р2] §8). |
 | W14 | **ОБДУМАТЬ: монтажные и локальные идеи из заметок Саши** | ОБДУМАТЬ, НЕ НОВАЯ СЦЕНА | существующий фильм и точные таймкоды | Пункты Саши разбирать по одному при монтаже. Уточнения: 53:16 («показ спуска на землю») — посадка лесной пары, уже есть (51:52–52:40 [Р2]); 37:30 — прилёт пары на Набу, уже есть (39:25–40:30); 30:01 и 49:26 — сверить с вставленными 17 и 23. |
 
-**Рабочая сюжетная очередь (ревизия 16.10.2026):** W5 → W11 → W6 (Scenes 42, 48) → W7 (Scenes 39–41) → W13. W8 ведётся параллельно как transport-continuity. W9, W10, W12, W15 сняты 16.10.2026 по решению владельца: закрыты Scenes 17/36, связкой 37, рекомендацией [Р2] и Scenes 19–20 (прежний текст — в git-истории и в разборе). W14 — пул «обдумать», а не разрешение на генерацию. Маршрут Серёги и обоснования — `reports/serega-travel-2026-10-14.md`.
+**Рабочая сюжетная очередь (ревизия 17.10.2026):** W6 (Scenes 42, 48) → W7 (Scenes 37, 39–41, 52–54) → W13 (Scene 55). W5 (D5) закрыт и W11 снята владельцем 17.10.2026. W8 ведётся параллельно как transport-continuity. W9, W10, W12, W15 сняты 16.10.2026 по решению владельца: закрыты Scenes 17/36, связкой 37, рекомендацией [Р2] и Scenes 19–20 (прежний текст — в git-истории и в разборе). W14 — пул «обдумать», а не разрешение на генерацию. Маршрут Серёги и обоснования — `reports/serega-travel-2026-10-14.md`.
 
 ### Ближайшие направления
 
@@ -1709,14 +1709,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":36}],"tags":["serega","travel","naboo","forest_planet","map","bread_and_milk","continuity"]} -->
 
-**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с лугового берега озера Набу, как в Scene 19. Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сцена **не** стыкуется с кадрами лесной пары и не показывает посадку: на Кашиике Серёга впервые появляется в готовом эпизоде с грибами (57:45). Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`).
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-19/S19-Image1-topview-source.png">пейзаж Набу: озеро, луг, деревья</a> (только палитра и тип местности); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">корпус корабля Канцлера, ч. 1 09:03</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/scene-37/S37-forest-planet-reference.png">новый референс лесной планеты</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image2 — модуль карты"></a><figcaption>@Image2 — модуль карты</figcaption></figure>
-<figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image3 — луг у озера Набу"></a><figcaption>@Image3 — луг у озера Набу</figcaption></figure></div>
+<figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" alt="@Image3 — берег Набу из 39"></a><figcaption>@Image3 — берег Набу, место посадки в 39</figcaption></figure></div>
 
 **Новые опорные кадры · 14.10.2026:** постановочные helpers проверены ChatGPT; индивидуальные model sheets и фактические монтажные входы имеют приоритет. Это не одобрение владельца и не подмена последних кадров.
 
@@ -1746,9 +1746,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons visible in this source frame.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop.
-@Image3 — Naboo landscape palette only: calm blue lake, bright green lakeshore meadow, rounded trees, soft clear daylight. People and buildings in this image are not part of the shot.
+@Image3 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners in this frame are NOT part of the shot, and its low evening sun is replaced by soft clear daylight.
 @Image6 — the newly created destination-planet reference: blue-green globe, dense green forested continents, white cloud bands and thin blue atmosphere. Use its planet design only; show the planet small and distant in this scene, not at the reference image's large framing scale.
-Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the Naboo look; @Image6 controls the destination planet.
+Priority: @Image4 controls the hull; @Image5 controls the cockpit; @Image1 controls Serega's face and costume; @Image2 controls the prop; @Image3 controls the lakeshore; @Image6 controls the destination planet.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, still damp and darker at the hem after the cave. He is the only person in the frame. No pilot droid, co-pilot, cats or other Jedi.
@@ -1758,17 +1758,17 @@ Exactly ONE small rigid palm-sized rectangular map module from @Image2: rounded 
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed. Realistic, restrained travel: one take-off, one climb, one short burst of acceleration in space. No landing, no atmospheric entry at the destination, no forest ground, no other ships, no space battle.
 
 START STATE:
-Serega is already seated alone at the controls inside the cockpit from @Image5, the map module hidden in his robe, the craft resting on a green lakeshore meadow of Naboo, calm blue lake and rounded trees visible through the window.
+Serega is already seated alone at the controls inside the cockpit from @Image5, the map module hidden in his robe, the craft resting on the grassy lakeshore of @Image3, calm blue lake and treeline visible through the window. A few metres away on the shore lies the abandoned fishing camp from his arrival: two fish-filled crates and dropped fishing rods, nobody there.
 
 TIMELINE:
 [0:00–0:05] — THE NOTE ON THE CONSOLE
 Medium cockpit shot including Serega and the note beside his hand. Hold the note sharply readable for the first two seconds, then his eyes stop on its two drawings as he reaches for the controls. A tiny, utterly serious resigned exhale through the nose; he lets it be and places both hands on the controls. Instrument lights come on.
 
 [0:05–0:11] — LIFT-OFF FROM THE MEADOW
-Exterior wide: the same craft rises steadily from the green lakeshore meadow; grass flattens and the lake surface ripples under the engine wash; trees and calm water stretch to the horizon in soft daylight.
+Exterior wide: the same craft rises steadily from the lakeshore of @Image3; grass flattens, the lake surface ripples under the engine wash and the abandoned fish crates and dropped rods beside the landing spot shiver in the wash; trees and calm water stretch to the horizon in soft daylight.
 
 [0:11–0:16] — THROUGH THE CLOUDS
 Following shot from behind and slightly below: the craft climbs through a white cloud layer; Naboo's lakes and green land shrink below and the sky darkens toward space.
@@ -1798,7 +1798,7 @@ AUDIO:
 Cockpit switches and soft servo clicks, one quiet exhale, engine spin-up, low rumble of the climb, wind roar through the clouds fading to a quiet deep hum in space, a faint soft electronic pulse from the module. No dialogue, narrator, music or radio voices.
 
 NEGATIVE PROMPT:
-new or different ship design, second ship, the other Jedi pair, Vitalik, Lesha, Pasha, Sasha, pilot droid, cats, extra passengers, landing, forest floor, entering the forest planet's atmosphere, Sith ruins, temple, ancient computer, Warcraft screen, hologram map, projected map, two or three modules, folded paper map, readable text, letters or words on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
+new or different ship design, second ship, fishermen, the other Jedi pair, Vitalik, Lesha, Pasha, Sasha, pilot droid, cats, extra passengers, landing, forest floor, entering the forest planet's atmosphere, Sith ruins, temple, ancient computer, Warcraft screen, hologram map, projected map, two or three modules, folded paper map, readable text, letters or words on the note, real groceries, space battle, explosions, hyperspace tunnel, flipping travel direction, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -1846,7 +1846,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
+**Что происходит:** Вечером корабль Канцлера опускается над озером Набу и садится на луг недалеко от брошенной стоянки рыбаков. Серёга выходит один по короткой рампе из бокового люка, проходит мимо брошенных удочек и ящиков, переполненных рыбой, и смотрит на них с каменным неодобрением. На воде ещё расходятся круги от прыжка джедаев. Он не спеша входит в озеро прямо в мантии и погружается. На берегу остаются стоящий корабль и пустая стоянка.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1865,7 +1865,7 @@ CHARACTER APPEARANCE / IDENTITY LOCK:
 @Image1 is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry at the start of the scene. He is the only person in the entire scene. No fishermen, no Jedi, no Gungans, no droids, no cats.
 
 VEHICLE / LANDING LOCK — CRITICAL:
-One and the same craft from @Image3 in every shot: same silhouette, colour, engine glow and scale. Realistic, unhurried landing: smooth descent, a short flare, touchdown on its landing gear, engines spooling down. After touchdown the craft stays parked on the meadow for the rest of the scene. No second ship, no water vehicle driving, no crash, no hovering speeder.
+One and the same craft from @Image3 in every shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. Realistic, unhurried landing: smooth descent, a short flare, touchdown on its landing gear, engines spooling down. After touchdown the craft stays parked on the meadow for the rest of the scene. No second ship, no water vehicle driving, no crash, no hovering speeder.
 
 CAMP / PROP LOCK:
 Use the actual crates and fish from @Image5, the fishing rods and brown bottles from @Image2, and the actual bank geometry and evening light from @Image4. Their abandoned arrangement is the new shot: dropped rods, fish-filled crates, a few empty brown bottles and a cold fire spot. Do not add tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object exists in this scene.
@@ -1883,7 +1883,7 @@ Wide exterior. The craft descends in a smooth curve over the calm lake toward th
 The craft flares and settles on its landing gear on the green meadow a short walk from the camp. Grass flattens in a ring, the shallow water near the bank ripples under the engine wash, the engines spool down to silence.
 
 [0:12–0:18] — STEPPING OUT
-Closer angle: a hatch in the side of the hull opens. Serega steps down alone onto the grass, straightens his robe once and surveys the shore with a cold, appraising look.
+Closer angle: the side hatch opens and its short boarding ramp lowers. Serega walks down it alone onto the grass, straightens his robe once and surveys the shore with a cold, appraising look.
 
 [0:18–0:24] — THE ABANDONED CAMP
 The camera tracks with him at walking pace past the camp: the dropped rods, the overflowing fish crates, the empty bottles. He stops at the crates for one beat and looks down at the absurd pile of fish with completely deadpan disapproval, then lifts his eyes to the lake, where the last rings of the fishermen's dive are still spreading.
@@ -1960,7 +1960,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Серёга один в кабине своего корабля, в открытом космосе. Лесная планета позади уменьшается. Он достаёт модуль, и тот светится ярче, когда Серёга направляет его на далёкую пыльную охристо-красную планету. Корабль снижается сквозь пыльную закатную дымку, пролетает мимо колоссальных статуй в капюшонах и садится на каменную площадь у лестницы храма. Серёга выходит, делает несколько шагов — и замирает: за кадром впереди загудел зажжённый световой меч. Он настороженно смотрит вперёд; кто там, не показывается.
+**Что происходит:** Серёга один в кабине своего корабля, в открытом космосе. Лесная планета позади уменьшается. Он достаёт модуль, и тот светится ярче, когда Серёга направляет его на далёкую пыльную охристо-красную планету. Корабль снижается сквозь пыльную закатную дымку, пролетает мимо колоссальных статуй в капюшонах и садится на каменную площадь у лестницы храма. Серёга спускается по короткой рампе из бокового люка, делает несколько шагов — и замирает: за кадром впереди загудел зажжённый световой меч. Он настороженно смотрит вперёд; кто там, не показывается.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1984,7 +1984,7 @@ BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with
 MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
 
 VEHICLE / LANDING LOCK — CRITICAL:
-One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Realistic, restrained travel: one approach, one atmospheric descent, one landing on its landing gear. No take-off from the forest world, no hyperspace tunnel, no other ships, no space battle, no crash.
+One and the same craft from @Image4 in every exterior shot: same silhouette, colour, engine glow and scale. Access is always through its single side hatch with a short fold-down boarding ramp. Realistic, restrained travel: one approach, one atmospheric descent, one landing on its landing gear. No take-off from the forest world, no hyperspace tunnel, no other ships, no space battle, no crash.
 
 LOCATION LOCK:
 A dry, dusty canyon world with the ruin city of @Image3; fine dust and ash with rare ember-like sparks drift near the ground. No lava, vegetation or water.
@@ -2006,7 +2006,7 @@ The craft descends through orange dust haze. Red rock spires and deep canyons ri
 After one clean time-compression cut: a low wide shot. The craft glides past the colossal hooded statues and settles on its landing gear on a flat, dusty stone plaza at the foot of the wide temple stair. Dust billows outward in a ring and slowly settles; the engines spool down.
 
 [0:24–0:30] — NOT ALONE
-The hatch opens. Serega steps down onto the gritty stone and takes three unhurried steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. He narrows his eyes and looks steadily ahead past the camera toward the top of the steps; his hand moves to the hilt at his belt without drawing it. Hold.
+The side hatch opens and its short boarding ramp lowers. Serega walks down it onto the gritty stone and takes three unhurried steps toward the stair, then stops dead: a low lightsaber ignition hum sounds off-screen ahead. He narrows his eyes and looks steadily ahead past the camera toward the top of the steps; his hand moves to the hilt at his belt without drawing it. Hold.
 
 END STATE:
 Serega stands alone on the dusty plaza in front of his parked craft, looking ahead off-screen toward the top of the temple stair, his hand on the unlit hilt at his belt, dust drifting in the sunset light. Nobody else is visible.
@@ -2071,7 +2071,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** На закате Серёга выходит из арки храма. Перед ним, поднятые Силой, плывут бежевый системный блок и массивный CRT-монитор; клавиатура у него под мышкой, провод болтается. Он заводит всё по рампе в кабину и пристёгивает монитор ремнём к пассажирскому креслу, рядом со стикером «хлеб и молоко» и корзинкой с грибами. Корабль взлетает с пыльной площади, уходит от охристой планеты и летит к огромному крейсеру Канцлера, к освещённому проёму ангара.
+**Что происходит:** На закате Серёга выходит из арки храма. Перед ним, поднятые Силой, плывут бежевый системный блок и массивный CRT-монитор; клавиатура у него под мышкой, провод болтается. Он заводит всё по короткой рампе через боковой люк в кабину и пристёгивает монитор ремнём к пассажирскому креслу, рядом со стикером «хлеб и молоко» и корзинкой с грибами. Корабль взлетает с пыльной площади, уходит от охристой планеты и летит к огромному крейсеру Канцлера, к освещённому проёму ангара.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2095,17 +2095,17 @@ BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with
 MUSHROOM BASKET: one small round woven wicker basket full of fresh brown forest mushrooms stands on the cockpit floor beside the pilot seat for the whole scene. It is never picked up and never spills.
 
 VEHICLE / TRAVEL LOCK — CRITICAL:
-One and the same craft from @Image4 in every shot: parked on the dusty stone plaza at the foot of the temple stair at the start, then one lift-off, one climb out of the atmosphere, one approach to the flagship from @Image6. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
+One and the same craft from @Image4 in every shot; access only through its single side hatch with a short fold-down boarding ramp. Parked on the dusty stone plaza at the foot of the temple stair at the start, then one lift-off, one climb out of the atmosphere, one approach to the flagship from @Image6. No docking interior, no second small ship, no space battle, no hyperspace tunnel.
 
 START STATE:
-Sunset outside the temple from @Image3. Serega's craft stands parked on the dusty plaza at the foot of the stair, hatch open. Serega appears in the dark temple arch at the top of the stair.
+Sunset outside the temple from @Image3. Serega's craft stands parked on the dusty plaza at the foot of the stair, side hatch open and short boarding ramp lowered. Serega appears in the dark temple arch at the top of the stair.
 
 TIMELINE:
 [0:00–0:06] — OUT OF THE TEMPLE
 Serega walks out of the temple arch and down the wide stair. In front of him, floating steadily at chest height by the Force, glide the beige system unit and the CRT monitor; the keyboard is tucked under his arm, its cable swinging. Two raised fingers guide them with calm, practised control.
 
 [0:06–0:12] — LOADING THE CRAFT
-At the craft he floats both objects up the ramp into the cockpit and lowers them onto the passenger seat. With dry, careful precision he pulls the seat strap across the CRT and clicks it shut, then sets the keyboard on top. The same yellow grocery note stays on the console and the mushroom basket on the floor beside him.
+At the craft he floats both objects up the short boarding ramp through the side hatch into the cockpit and lowers them onto the passenger seat. With dry, careful precision he pulls the seat strap across the CRT and clicks it shut, then sets the keyboard on top. The same yellow grocery note stays on the console and the mushroom basket on the floor beside him.
 
 [0:12–0:18] — LIFT-OFF FROM THE RUINS
 Exterior wide: the craft lifts off the plaza; dust swirls around the hooded statues and the broken pillars; it climbs into the orange sky.
@@ -2558,8 +2558,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Решение владельца 16.10.2026 (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя. Scene 16 принята; бой продолжает Scene 42 («червь им не интересен»), эта сцена — её развязка. Текст перенесён из прежней редакции Scene 42 (16.10), тон приведён к 42: червю по-прежнему никто не уделяет внимания.
 - **Функция:** закрыть «первый фрагмент у Канцлера» — высший приоритет [Р2] §19 («показать момент захвата/кражи»). По [Р2] §8: Канцлер использует хаос червя, чтобы уйти с первым фрагментом.
 - **Приём** — идея Саши (master, «Идеи от Саши», 32:51–32:52): меч гаснет → карта летит в руку Канцлера; конечный кадр — Серёга почти отвернулся.
-- **Кто держал фрагмент:** бармен отдал модуль «герою» (31:51–31:52 по сборке [Р2]), какому именно — в источниках не записано. По умолчанию в тексте это Илюша (Hooded Jedi); если в фильме модуль у Артёма, меняются два имени в TIMELINE.
-- **Машина** после разрушения не появляется (W8). Отлёт Серёги с Татуина не показывается: его прибытие на Набу — Scene 39.
+- **Кто держал фрагмент:** Артём (Bearded Jedi) — ответ владельца 17.10, 23:58. Бармен отдал модуль ему (31:51–31:52 по сборке [Р2]). Меч Илюши после 42 уже горит: он не «зажигает», а поднимает его.
+- **Машина** после разрушения не появляется (W8). Отлёт Серёги с Татуина — Scene 53 (с окраины города), прибытие на Набу — Scene 39.
 - Модуль того же дизайна, что набусский (@Image6); светится тускло, без голограмм.
 - **До READY:** @Video1 — последние секунды результата Scene 42 (сначала нужен её результат).
 - В монтаж 15–25 с. Запуск — только по команде владельца.
@@ -2582,7 +2582,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure></div>
 
-**Что происходит:** Трое по-прежнему сцепились мечами и не смотрят на червя. Червь наконец обрушивается прямо между ними, Илюшу сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга, не торопясь, протягивает руку — модуль летит сквозь пыль ему в ладонь. Артём бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга спокойно прячет модуль под робу и почти отворачивается, уходя в песчаную бурю.
+**Что происходит:** Трое по-прежнему сцепились мечами и не смотрят на червя. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга, не торопясь, протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга спокойно прячет модуль под робу и почти отворачивается, уходя в песчаную бурю.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -2605,7 +2605,7 @@ ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown oute
 Exactly three people. No other characters, no vehicles.
 
 PROP LOCK — CRITICAL:
-Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Ilyusha's belt, flies through the air once and ends hidden in the inner fold of Serega's robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
+Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's belt, flies through the air once and ends hidden in the inner fold of Serega's robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK:
 The same colossal worm from @Image5 and the same ruins from @Image4 for the whole scene; the gate piers and the obelisk stay as fixed landmarks. The worm is a background force of nature and never swallows or touches anyone. No car, speeder or wreck appears.
@@ -2615,34 +2615,34 @@ Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade 
 
 TIMELINE:
 [0:00–0:06] — THE WORM CRASHES DOWN
-Continuing the same composition: tired of being ignored, the worm slams its upper body down onto the sand right between Ilyusha and Serega. A heavy wave of sand and debris throws Ilyusha off his feet; Artem is pushed back several steps behind the obelisk.
+Continuing the same composition: tired of being ignored, the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand and debris throws Artem off his feet; Ilyusha is pushed back several steps behind the obelisk.
 
 [0:06–0:11] — THE SABER GOES OUT
-Ilyusha hits the sand hard. His blue saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
+Artem hits the sand hard. His green saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
 
 [0:11–0:17] — THE MODULE FLIES TO THE CHANCELLOR
 Medium shot on Serega, steady amid the dust. Without hurry he extends one open hand. The module lifts off the sand by itself and flies straight through the blowing dust into his palm; his fingers close over its amber glow. Behind him the worm rears again.
 
 [0:17–0:23] — TOO LATE
-Ilyusha, still on his knees, reaches toward the empty sand; Artem ignites his green blade and runs at Serega, but the worm surges up out of the sand between them and both Jedi throw themselves aside to escape it.
+Artem, still on his knees, reaches toward the empty sand; Ilyusha raises his still-lit blue blade and runs at Serega, but the worm surges up out of the sand between them and both Jedi throw themselves aside to escape it.
 
 [0:23–0:30] — HE TURNS AWAY
 Serega slips the module into the inner fold of his robe, gives the Jedi a short cool look and turns away toward the blowing sand. Hold on him almost turned away, the worm and the dodging Jedi behind him in the dust.
 
 END STATE:
-Serega almost turned away, walking off into the sandstorm with the module hidden in his robe; both Jedi alive behind him, dodging the worm; Ilyusha's dark saber hilt half-buried in the sand.
+Serega almost turned away, walking off into the sandstorm with the module hidden in his robe; both Jedi alive behind him, dodging the worm; Artem's dark saber hilt half-buried in the sand.
 
 CAMERA / SPACE:
 One continuous take with controlled lateral and arcing moves, wide to medium within the same shot; no cuts. Stable geography: Serega on frame-right, Jedi on frame-left, the worm beyond the gate. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
 
 PERFORMANCE:
-Serega is calm, cold and sure; the pull is a small, almost bored gesture. Ilyusha is winded and annoyed, not frightened; Artem is fast and determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+Serega is calm, cold and sure; the pull is a small, almost bored gesture. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, long ruin shadows, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust. Deadpan tone matching the previous scene: nobody is afraid of the worm.
 
 AUDIO:
-The worm's deep roar and throat resonance, sand crashing down, debris impacts, wind, the hiss of a lightsaber switching off, the green saber ignition, a faint low Force hum as the module flies, a soft electronic pulse from it, footsteps on sand. Exertion breaths only; no dialogue, narrator or music.
+The worm's deep roar and throat resonance, sand crashing down, debris impacts, wind, the hiss of a lightsaber switching off, the blue saber's hum as Ilyusha charges, a faint low Force hum as the module flies, a soft electronic pulse from it, footsteps on sand. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
 worm swallowing or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega running or fighting with a saber, map exchange by hand, cuts, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
@@ -3142,9 +3142,9 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ## Сцена 50 — Финальные титры: вуки-фанаты слэмятся и трясут гривами
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49}],"tags":["dance_credits","wookiee_crowd","rock_headbang","safe_mosh_pit","same_H28B","montage_insert"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49}],"tags":["dance_credits","wookiee_crowd","rock_headbang","safe_mosh_pit","same_H28B","montage_insert"]} -->
 
-**Контекст использования:** Дополнительная зрительская сцена по прямому решению владельца 16.10.2026. **В той же H28B-ангар-дискотеке** толпа вуки восторженно фанатеет от группы из Scene 49 и энергично трясёт шерстью как хэви-метал фанаты. Два **самостоятельных** коротких 15-секундных монтажа: (50A) волна хедбэнга; (50B) дружелюбный контролируемый слэм в небольшом круге. Для дальнейшего монтажа вместе с танцами Scene 28 и музыкантами Scene 49. **DRAFT:** три постановочных кадра вуки в H28B созданы и опубликованы ниже как варианты для выбора. Визуальный QC ассистента выполнен; до READY нужен выбор владельца и обновление маппинга входов 50A/50B. Видеоролики 50A/50B ещё не запущены; редакторская приёмка не выполнена. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Контекст использования:** Дополнительная зрительская сцена по прямому решению владельца 16.10.2026. **В той же H28B-ангар-дискотеке** толпа вуки восторженно фанатеет от группы из Scene 49 и энергично трясёт шерстью как хэви-метал фанаты. Два **самостоятельных** коротких 15-секундных монтажа: (50A) волна хедбэнга; (50B) дружелюбный контролируемый слэм в небольшом круге. Для дальнейшего монтажа вместе с танцами Scene 28 и музыкантами Scene 49. **READY (выбор владельца 17.10, 23:58):** из трёх постановочных кадров выбран **вариант 2 — вуки с поднятыми руками** (task `1c48a62d14d14d348a5c49fe5cdb5e70`, «выглядят более подвижно и по-фанатски»). Он подключён как @Image5 в 50A/50B и как @Image8 в 51A/51B, чтобы вуки в 51 совпали с 50. Варианты 1 и 3 остаются в архиве, во входы не идут. Видеоролики 50A/50B ещё не запущены; редакторская приёмка не выполнена. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
 
 **Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B, точная локация</a>; @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только знакомые участники группы на дальнем плане</a>, **не заменять их вуки**. Вуки — отдельные зрители, а не новые члены основной группы.
 
@@ -3161,19 +3161,19 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 <div class="scene-ref-gallery"><figure><a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-50/S50-wookiees-owner-14m833.jpg.webp" alt="@Image4 — морда и шерсть вуки, кадр владельца" loading="lazy"></a><figcaption>@Image4 — морда и шерсть вуки, кадр владельца</figcaption></figure></div>
 
-**Готовые кадры фанатов · 17.10.2026:** три бесплатных варианта Nano Banana Pro, оригиналы 2752×1536. Нажмите миниатюру, чтобы открыть полный кадр. Это кандидаты для выбора; ни один пока не назначен входом @ImageN для 50A/50B.
+**Готовые кадры фанатов · 17.10.2026:** три бесплатных варианта Nano Banana Pro, оригиналы 2752×1536. Нажмите миниатюру, чтобы открыть полный кадр. Выбран вариант 2 (владелец 17.10): он вход @Image5 для 50A/50B и @Image8 для 51A/51B.
 
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-50/S50-fans-48657a07.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-48657a07-thumb.jpg" alt="Вариант 1 — полные фигуры, хлопки" loading="lazy"></a><figcaption>Вариант 1 — полные фигуры, хлопки · выбор ожидается</figcaption></figure>
-<figure><a href="references/scenes/scene-50/S50-fans-1c48a62d.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-1c48a62d-thumb.jpg" alt="Вариант 2 — энергичные позы, поднятые руки" loading="lazy"></a><figcaption>Вариант 2 — энергичные позы, поднятые руки · выбор ожидается</figcaption></figure>
-<figure><a href="references/scenes/scene-50/S50-fans-792d7b8a.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-792d7b8a-thumb.jpg" alt="Вариант 3 — более крупные лица" loading="lazy"></a><figcaption>Вариант 3 — более крупные лица · выбор ожидается</figcaption></figure>
+<figure><a href="references/scenes/scene-50/S50-fans-48657a07.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-48657a07-thumb.jpg" alt="Вариант 1 — полные фигуры, хлопки" loading="lazy"></a><figcaption>Вариант 1 — полные фигуры, хлопки · не выбран</figcaption></figure>
+<figure><a href="references/scenes/scene-50/S50-fans-1c48a62d.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-1c48a62d-thumb.jpg" alt="Вариант 2 — энергичные позы, поднятые руки" loading="lazy"></a><figcaption>Вариант 2 — энергичные позы, поднятые руки · ✅ выбран владельцем 17.10</figcaption></figure>
+<figure><a href="references/scenes/scene-50/S50-fans-792d7b8a.png" target="_blank" rel="noopener"><img src="references/scenes/scene-50/S50-fans-792d7b8a-thumb.jpg" alt="Вариант 3 — более крупные лица" loading="lazy"></a><figcaption>Вариант 3 — более крупные лица · не выбран</figcaption></figure>
 </div>
 
 **Что происходит:** Несколько десятков высоких лохматых вуки на танцполе смотрят на группу и радостно рычат, раскачивают длинную шерсть и головы в тяжёлом рок-ритме, вскидывают лапы, а потом устраивают небольшой дружелюбный слэм-круг без травм и агрессивной драки. Танцы, рок-концерт и кадры фанатов монтируются вперемешку. Только та же просторная площадка и свет Scene 28.
 
 ### 50A · Стена грив — радостный хедбэнг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a> · @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно</a> · @Image5 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранная толпа вуки, вариант 2</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3184,7 +3184,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
 @Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
 @Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
-Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+@Image5 — the chosen staged frame of this exact Wookiee fan crowd in H28B: their fur colours, bandoliers, raised-arms rock-fan energy, crowd density and placement on the dance floor. Crowd look and staging ONLY; never a new arena, never band identities.
+Priority: @Image1 determines architecture and camera geography. @Image5 sets the look, energy and density of the Wookiee crowd; @Image3–@Image4 refine Wookiee anatomy. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
@@ -3232,7 +3233,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 50B · Вуки-слэм — праздничный круг · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a>.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B disco</a> · @Image2 = <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2, только сценическая группа вдали</a> · @Image3 = <a href="references/scenes/scene-50/S50-wookiees-owner-03m400.jpg">вуки, внешний вид</a> · @Image4 = <a href="references/scenes/scene-50/S50-wookiees-owner-14m833.jpg">вуки крупно</a> · @Image5 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранная толпа вуки, вариант 2</a>.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3243,7 +3244,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — G28-full-ensemble-Alesya-v2: existing musicians' identity and original uniforms ONLY if distant or partial band is visible beyond the crowd. Do not copy its people into the WOOKIEE audience and do not change the group.
 @Image3 — owner-supplied video frame at00:03.400: Wookiee species appearance ONLY, including long layered brown fur, muzzle shape, eyes, body proportions and optional bandoliers. Ignore all its human subjects, interior, lighting, black bars and composition. Do not clone one face across the crowd.
 @Image4 — owner-supplied close view at00:14.833: Wookiee muzzle, eyes, long layered fur and bandolier detail ONLY. Ignore the humans, table, background and framing.
-Priority: @Image1 determines architecture and camera geography. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
+@Image5 — the chosen staged frame of this exact Wookiee fan crowd in H28B: their fur colours, bandoliers, raised-arms rock-fan energy, crowd density and placement on the dance floor. Crowd look and staging ONLY; never a new arena, never band identities.
+Priority: @Image1 determines architecture and camera geography. @Image5 sets the look, energy and density of the Wookiee crowd; @Image3–@Image4 refine Wookiee anatomy. @Image2 keeps distant band familiar. Wookiees are NEW CROWD EXTRAS ONLY; they have no human faces, no shirts or newly invented named identities.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 WOOKIEE FANS: convincing tall bipedal fur-covered Wookiee aliens with natural long flowing brown, sandy, dark-chestnut and grey fur, recognizably ape-like elongated muzzles, broad shoulders and strong human-like arm motion; distinct individuals, not identical cloned heads, no costumes or masks. Keep species anatomy and size stable. The band's established exact human/Ewok/cat characters are separate far-back performers when visible, never merged with Wookiees; keep their real costumes unchanged.
@@ -3297,7 +3299,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":15,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":28},{"type":"related_to","scene":49},{"type":"related_to","scene":50}],"tags":["dance_credits","alien_rock_band","instrument_smash","same_H28B","wookiee_fans","montage_insert"]} -->
 
-**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге. **READY:** фотографии инструментов 49A/49B и замах: обе руки за гриф прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после 50; 51B после 51A, без автоматического повторения. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
+**Контекст использования:** Дополнительная короткая сцена по прямому решению владельца 16.10.2026. Это не новая площадка, а **тот же H28B-диско ангар** из Scene 28 и Scene 49–50: та же имперская эмблема на полу, тот же шаттл справа, тот же открытый проём в космос, тот же сине-розовый дискотечный свет. После кульминации выступления музыканты устраивают максимально пафосный рок-финал: последний общий аккорд, драматическая пауза, а затем **Серёга, Юля и Паша** эффектно разбивают собственные инопланетные инструменты. Вуки-фанаты в восторге; их внешний вид — выбранный владельцем кадр толпы 50, вариант 2 (@Image8 в 51A/51B, 17.10). **READY:** фотографии инструментов 49A/49B и замах: обе руки за гриф прошли QC и подключены. Постановка задаёт только позы: исходные лица/костюмы и отдельные фотографии инструментов имеют приоритет. Запуск по очереди после 50; 51B после 51A, без автоматического повторения. **Музыка (решение владельца 16.10.2026):** трек для блока 28/49–51 — «Flares of the Blazing Sun» (HOYO-MiX, YMIR, 3:33). В промтах только общий темп и энергия (быстрый, драйвовый, героический хард-рок); саму песню Topview не воспроизводит, синхронизация на монтаже. **Правка 16.10.2026:** из промтов убраны монтажные пометки, в звук вписан темп.
 
 **Референсы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">оригинальный H28B-ангар</a>; @Image2 = <a href="references/full/serega.jpg">Серёга</a>; @Image3 = <a href="references/full/yulya.jpg">Юля</a>; @Image4 = <a href="references/full/pasha.jpg">Паша</a>. Абсолютный приоритет сохранения настоящих лиц и костюмов, а также геометрии H28B. <a href="references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png">G28 v2</a> — вспомогательный референс состава Scene 49, не слот генерации.
 
@@ -3316,7 +3318,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 51A · Последний аккорд и замах · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a> · @Image8 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранные вуки-фанаты, вариант 2</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3330,6 +3332,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
 @Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
+@Image8 — the chosen Wookiee fan crowd frame from the previous fan scene: Wookiee look, fur colours, bandoliers and raised-arms fan energy for the audience in the far rear ONLY. It never overrides the hangar, the three musicians or the instruments.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3384,7 +3387,7 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ### 51B · Разбивают инструменты — рок-кульминация · 15 с
 
-**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a>. Других людей не добавлять.
+**Входы:** @Image1 = <a href="references/scenes/scene-28/H28B-disco.png">H28B</a> · @Image2 = <a href="references/full/serega.jpg">Серёга</a> · @Image3 = <a href="references/full/yulya.jpg">Юля</a> · @Image4 = <a href="references/full/pasha.jpg">Паша</a> · @Image5 = <a href="references/scenes/scene-49/S49A-lead-and-bass.png">инструменты</a> · @Image6 = <a href="references/scenes/scene-49/S49B-rhythm-instruments.png">инструменты</a> · @Image7 = <a href="references/scenes/scene-51/S51-neck-grip-windup.png">замах: обе руки за гриф</a> · @Image8 = <a href="references/scenes/scene-50/S50-fans-1c48a62d.png">выбранные вуки-фанаты, вариант 2</a>. Других людей не добавлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -3398,6 +3401,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — PROP DESIGN ONLY: Serega black/blue six-string lead guitar with blue ring core and Yulya silver/violet four-string bass.
 @Image6 — PROP DESIGN ONLY: use ONLY Pasha bronze four-amber-string gravibass; exclude the blue guitar and ring percussion shown in this image.
 @Image7 — CORRECT TWO-HANDED NECK GRIP / POSE / SPACING ONLY: three separate pre-impact wind-ups, Serega left, Yulya centre, Pasha right, empty non-overlapping floor impact zones. BOTH hands wrap the narrow neck/fretboard near the headstock, heavy instrument BODY raised above/behind shoulder and headstock protruding below lower hand. No hand grasps the wide body. The body, not the headstock, is the striking end. Individual originals @Image2-4 override any face or costume variation; @Image5-6 override prop shape/string variations. Never copy this helper as a new identity or redesign.
+@Image8 — the chosen Wookiee fan crowd frame from the previous fan scene: Wookiee look, fur colours, bandoliers and raised-arms fan energy for the audience in the far rear ONLY. It never overrides the hangar, the three musicians or the instruments.
 Priority: @Image2–4 establish the original individual human identity and outfits. @Image1 establishes original hangar architecture. Original music only. Instruments are props only.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3463,93 +3467,92 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
-**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки 16/42/48. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта.
+**Контекст использования:** После поломки шаттла 43–44, до татуинской ветки (кантина 33:50 → погоня → 16/42/48). **Правка владельца 17.10, 23:58:** посадка не у руин с червём, а на окраине татуинского города: в фильме Серёга на Татуине сначала появляется в кантине, руины — конец блока. Вход в личный корабль везде одинаковый: боковой люк с короткой рампой. Из негатива убрано «missing pilot» (пилот — сам Серёга); семь входов (видео + 6 изображений) бесплатный интерфейс принимает (владелец). Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта.
 
-**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин, песок и руины</a>; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
+**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль, настоящий кадр фильма</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — настоящий кадр татуинского города из фильма (ч. 2, около 00:00–03:50) — ожидается, извлекает ChatGPT; без него сцена не запускается; @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image2 — личный корабль, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image2 — личный корабль, настоящий кадр фильма</figcaption></figure>
 <figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image3 — ангар разрушителя H28A" loading="lazy"></a><figcaption>@Image3 — ангар разрушителя H28A</figcaption></figure>
 <figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" alt="@Image4 — разрушитель, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image4 — разрушитель, настоящий кадр фильма</figcaption></figure>
-<figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image5 — Татуин, песок и руины" loading="lazy"></a><figcaption>@Image5 — Татуин, песок и руины</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 </div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Продолжая конец44, Серёга смотрит на упавшее крыло и пустое крепление, затем на свой личный корабль: на сломанном шаттле не улететь. Он отворачивается от ремонтников, проходит к другому кораблю и садится. В кабине ясно видна записка с хлебом и молоком; он занят вылетом. Тот выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится неподалёку от знакомых руин. Серёга выходит и направляется к ним.
+**Что происходит:** Продолжая конец44, Серёга смотрит на упавшее крыло и пустое крепление, затем на свой личный корабль: на сломанном шаттле не улететь. Он отворачивается от ремонтников, поднимается по короткой рампе через боковой люк своего корабля и садится за пульт. В кабине ясно видна записка с хлебом и молоком; он занят вылетом. Корабль выходит из ангара разрушителя; после временной склейки снижается над песками Татуина и садится на окраине города, где потом будет кантина. Серёга спускается по рампе и идёт в город.
 
-**Готовность:** DRAFT до настоящего @Video1 новой44, проверки пустого крепления и непрерывного начала; шесть изображений уже сохранены. Один бесплатный запуск разрешён владельцем17.10, после44. До запуска проверить поддержку пакета1видео+6изображений в бесплатном интерфейсе; нельзя молча убрать входы. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
+**Готовность:** DRAFT до двух входов: настоящего @Video1 новой44 (одно отвалившееся крыло, пустое крепление) и настоящего кадра татуинского города для @Image5. Остальные пять изображений сохранены. Один бесплатный запуск разрешён владельцем17.10, после44. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One clear story bridge with exact existing identities and hardware
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, dry deadpan | Serega abandons the broken shuttle, switches to his own small craft and lands on Tatooine at the edge of the desert town
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 is the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, empty wing root, right wing raised, hangar light and camera axis. It is the absolute opening-state authority. Continue from that final frame, without replaying the fall.
-@Image1 controls Serega's face, age, body and purple robe.
-@Image2 is the genuine film view of Serega's OWN flat wedge-shaped dark-grey craft: exact hull, proportions, colour, engines and scale. Use only that craft, not the source city, rooftop person or other ships.
-@Image3 supplies only the destroyer's hangar architecture and ceremonial white/amber light. Its intact raised-wing shuttle is NOT the damage authority: retain the broken shuttle exactly as @Video1 shows it. Do not turn on disco lights or reproduce its distant empty-room framing.
-@Image4 is the genuine film exterior of the enormous grey wedge-shaped destroyer, defining its silhouette, scale, superstructure and hangar opening. It is the departure vessel, not Serega's small craft.
-@Image5 defines Tatooine: warm dry sand, dunes and the established weathered ancient stone ruin geometry. No people or worm are imported.
-@Image6 is the genuine cockpit of the same craft: seats, console, forward windows and interior geometry only, for one short interior beat.
-Priority: @Video1 controls opening composition and permanent shuttle damage; @Image1 identity; @Image2 the separate personal craft; @Image3–6 their assigned environments. The two ships remain distinct.
+@Video1 — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, the right wing raised, hangar light and camera axis. Absolute opening-state authority. Continue from that final frame without replaying the fall.
+@Image1 — absolute identity of SEREGA: face, age, body and purple robe.
+@Image2 — genuine film frame of Serega's OWN flat wedge-shaped dark-grey craft: exact hull, proportions, colour, engines and scale. Vehicle design only; ignore the source city, the person on its roof and any other ships.
+@Image3 — the destroyer's hangar architecture and white/amber working light only. Its intact raised-wing shuttle is NOT the damage authority: keep the broken shuttle exactly as @Video1 shows it. No disco lights, no distant empty-room framing.
+@Image4 — genuine film exterior of the enormous grey wedge-shaped destroyer: silhouette, scale, superstructure and hangar opening. It is the departure vessel, not Serega's small craft.
+@Image5 — genuine film frame of the Tatooine desert town from the film: its sand-coloured buildings, streets, dunes and harsh daylight. Location only; no people, speeders or creatures are imported.
+@Image6 — genuine cockpit of the same small craft: seats, console, forward windows and hard interior geometry only, for one short interior beat.
+Priority: @Video1 controls the opening composition and the permanent shuttle damage; @Image1 controls Serega; @Image2 controls the personal craft; @Image3–@Image6 control their assigned places. The two ships always remain distinct.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega. The same three technicians from @Video1, in dark-grey coveralls and black caps, retain their actual faces, builds, poses and tools: one on the ladder, one seated with the rope, one standing. They remain beside the broken shuttle at the opening, then leave the frame as the camera follows him. No co-pilot, new crew, cats, Jedi or droids. No facial beautification or wardrobe change.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts.
+THE THREE TECHNICIANS from @Video1: dark-grey coveralls and black caps, their actual faces, builds, poses and tools: one on the ladder, one seated with the rope, one standing. They stay beside the broken shuttle at the opening and leave the frame as the camera follows Serega.
+No co-pilot, new crew, cats, Jedi or droids.
 
-VEHICLE / CONTINUITY LOCK:
-Exactly one personal craft from @Image2. At the opening, the BROKEN formal shuttle and the parked personal craft are two separate physical vehicles in the SAME hangar. The broken shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. Only Serega's personal craft departs. The camera reveals it in a nearby clear bay without a teleport or hull morph. Serega boards the personal craft once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution, folding wings or second departure. No map fragment or computer has been acquired yet.
-
+VEHICLE / CONTINUITY LOCK — CRITICAL:
+Exactly one personal craft from @Image2. At the opening the BROKEN formal shuttle and the parked personal craft are two separate physical vehicles in the SAME hangar. The broken shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. The camera reveals the personal craft in a nearby clear bay, without a teleport or hull morph. Access to the personal craft is always through its single side hatch with a short fold-down boarding ramp. Serega boards it once; the same craft leaves the destroyer once and lands on Tatooine once. No ship substitution, folding wings or second departure. No map fragment or computer has been acquired yet.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 START STATE:
-Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the one detached wing lies on the floor, its empty attachment point visible on the parked shuttle. Preserve positions, expression, lighting and camera side. His separate personal craft is already parked a few steps away, outside the opening framing, with its access ramp open.
+Exactly the last frame of @Video1: Serega has turned his head toward the frozen technicians; the one detached wing lies on the floor, its empty attachment point visible on the parked shuttle. Preserve positions, expression, lighting and camera side. His separate personal craft is already parked a few steps away, outside the opening framing, with its side hatch open and its short boarding ramp lowered.
 
 TIMELINE:
-
 [0:00–0:03] — NO FLIGHT IN THAT SHUTTLE
- seamlessly continue the ending of @Video1. Serega looks from the technicians to the fallen wing and empty root, pauses in weary disbelief, then fixes his gaze toward his own craft. No dialogue; the decision to abandon the broken shuttle is clear.
+Seamlessly continue the ending of @Video1. Serega looks from the technicians to the fallen wing and the empty root, pauses in weary disbelief, then fixes his gaze toward his own craft. No dialogue; the decision to abandon the broken shuttle is clear.
 
 [0:03–0:09] — CHANGE TO THE PERSONAL CRAFT
- without cutting, track beside him as he turns away and walks the short clear route to his personal craft, revealing it through the camera move. He crosses its visibly open doorway and stationary ramp; feet stay on the ramp surface, no passage through the hull. The ruined shuttle stays behind, unchanged.
+Without cutting, track beside him as he turns away and walks the short clear route to his personal craft, revealing it through the camera move. He walks up its short boarding ramp and through the open side hatch; his feet stay on the ramp surface, no passage through the hull. The broken shuttle stays behind, unchanged.
 
 [0:09–0:12] — THE REMINDER
- motivated cut inside the personal cockpit. Serega settles at the controls. Frame the same pale-yellow note beside his hand sharply enough to recognise the loaf and milk carton for two seconds. He briefly registers it, then concentrates on departure, leaving it in place.
+Motivated cut inside the personal cockpit. Serega settles at the controls. Frame the same pale-yellow note beside his hand sharply enough to recognise the loaf and the milk carton for two seconds. He briefly registers it, then concentrates on departure, leaving it in place.
 
 [0:12–0:16] — LEAVING THE DESTROYER
- exterior from the destroyer's hangar mouth: only the personal craft lifts and exits into black space. Reveal the immense destroyer hull from @Image4; preserve craft design and left-to-right flight.
+Exterior from the destroyer's hangar mouth: only the personal craft lifts and exits into black space. Reveal the immense destroyer hull from @Image4; keep the craft design and left-to-right flight.
 
 [0:16–0:23] — TATOOINE
- one explicit time-compression cut to the same craft descending above Tatooine dunes toward the existing stone ruins. No instantaneous travel inside an uncut shot.
+One explicit time-compression cut to the same craft descending over Tatooine dunes toward the desert town of @Image5, its sand-coloured buildings growing below in harsh daylight.
 
-[0:23–0:27] — LANDING
- the craft lands once on a clear sandy flat near the ruins. Supports take its weight, dust settles and engines subside.
+[0:23–0:27] — LANDING AT THE TOWN EDGE
+The craft lands once on a clear sandy flat at the outskirts of the town, a short walk from the first buildings. Landing supports take its weight, dust settles and the engines subside.
 
-[0:27–0:30] — ON THE SAND
- at the opened hatch, Serega steps onto the sand and turns toward the ruins, his face and robe recognisable. Hold a clean walking cut point.
+[0:27–0:30] — INTO TOWN
+The side hatch opens and the short boarding ramp lowers; Serega walks down it onto the sand and heads toward the town, his face and robe recognisable. Hold a clean walking cut point.
 
 END STATE:
-Serega has arrived on Tatooine and is walking toward the ruins; his own craft remains parked behind him. The destination is unambiguous. No battle, worm or map retrieval occurs inside this bridge.
+Serega has arrived on Tatooine and is walking from his parked craft toward the desert town; the craft stays parked at the town edge behind him. No battle, worm, ruins or map retrieval occurs in this scene.
 
 CAMERA / SPACE:
-Uncut continuation from @Video1 through the decision and walk to the other ship in0–9s, keeping the same side of the axis and floor geography. Then motivated cuts into the cockpit and the exterior departure. One interstellar time-compression cut at16s; no attempt to cover interstellar distance in real time. Natural 50mm medium human shots and wider exterior ship shots, consistent direction and credible scale. No vast empty hangar establishing shot that hides the actor.
+Uncut continuation from @Video1 through the decision and the walk to the other ship in [0:00–0:09], keeping the same side of the axis and the floor geography. Then motivated cuts into the cockpit and the exterior departure, and exactly one interstellar time-compression cut at 0:16. Natural 50 mm medium human shots and wider exterior ship shots, consistent screen direction and credible scale. No vast empty hangar establishing shot that hides the actor.
 
 PERFORMANCE:
-Brisk, practical, utterly serious. The opening eye-line from fallen wing to personal craft makes the change of transport unmistakable; a restrained resigned pause, then purposeful movement, without explanatory speech.
+Brisk, practical, utterly serious. The eye-line from the fallen wing to the personal craft makes the change of transport unmistakable: a restrained resigned pause, then purposeful movement, no explanatory speech.
 
 LIGHTING / MATERIALS:
-White/amber practical hangar light; hard sunlight in space; warm clear desert daylight, real dust, heavy robe, weathered grey metal. Preserve personal craft colour through all locations.
+White/amber working hangar light; hard sunlight in space; harsh warm desert daylight on Tatooine, real dust, heavy robe, weathered grey metal. Keep the personal craft's colour identical in every location.
 
 AUDIO:
-Carry the hangar room tone and fading tail of the wing crash across the opening cut; no new crash. Then bootsteps, hatch motor and seal, engine lift, low flight rumble, then desert wind and sand under boots. No dialogue, narrator, music or generated captions.
+Carry the hangar room tone and the fading tail of the wing crash across the opening; no new crash. Then footsteps, ramp motor and hatch seal, engine lift, low flight rumble, desert wind, distant town noise and sand under boots. No dialogue, narrator, music or captions.
 
 NEGATIVE PROMPT:
-repaired broken wing, second left wing, replayed wing fall, formal shuttle taking off, two ships merging, personal craft appearing from nowhere, walking through a hull, different personal ship, duplicate personal craft, missing pilot, new people, cats, disco light, space battle, asteroid field, worm, map module, ancient computer, hyperspace tunnel, teleporting between locations inside one shot, repeated landing, changing face or robe, cartoon render, subtitles, title, watermark.
+repaired broken wing, second left wing, replayed wing fall, formal shuttle taking off, two ships merging, personal craft appearing from nowhere, walking through a hull, different personal ship, duplicate personal craft, new people, cats, disco light, space battle, asteroid field, worm, ancient stone ruins, map module, ancient computer, hyperspace tunnel, teleporting between locations inside one shot, repeated landing, changing face or robe, cartoon render, subtitles, title, watermark.
 
 FRAME FILL / NO BARS:
-Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -3558,76 +3561,83 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 
 ## Сцена 53 — Взлёт Серёги с Татуина: курс на Набу
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":48},{"type":"related_to","scene":39}],"tags":["serega","travel","story_bridge","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":48},{"type":"related_to","scene":39}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
-**Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к припаркованному личному кораблю; точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39.
+**Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к личному кораблю, который ждёт там же, где сел в 52, — на окраине татуинского города (правка владельца 17.10, 23:58; руины с червём — место боя, не стоянка); точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39.
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">Татуин</a>; @Image5 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png">личный корабль</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — настоящий кадр татуинского города из фильма (ч. 2, около 00:00–03:50) — ожидается, извлекает ChatGPT; без него сцена не запускается; @Image5 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-ship-source-part1-09m03s.png" alt="@Image2 — личный корабль" loading="lazy"></a><figcaption>@Image2 — личный корабль</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image3 — настоящая кабина" loading="lazy"></a><figcaption>@Image3 — настоящая кабина</figcaption></figure>
-<figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — Татуин" loading="lazy"></a><figcaption>@Image4 — Татуин</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image5 — один модуль карты" loading="lazy"></a><figcaption>@Image5 — один модуль карты</figcaption></figure>
 </div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
-**Что происходит:** Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка, уходит над руинами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе.
+**Что происходит:** Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с песка на окраине города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе.
 
-**Готовность:** READY по входам, один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
+**Готовность:** DRAFT до настоящего кадра татуинского города для @Image4 (тот же кадр, что @Image5 в 52); остальные четыре изображения сохранены. Один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One clear story bridge with exact existing identities and hardware
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, calm and purposeful | Serega leaves Tatooine from the edge of the desert town with the single Tatooine map module
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 is absolute Serega identity/costume.
-@Image2 is the genuine film exterior of his own flat dark-grey wedge craft; retain hull, engines, colour and proportions, ignore the source city's people and buildings.
-@Image3 is its genuine cockpit: seats, console, forward windows and hard interior geometry ONLY. Do not import the fight, other people, poses or weapons visible in that source.
-@Image4 defines the same Tatooine sand, dunes and weathered stone ruins; use exterior terrain only.
-@Image5 defines exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm amber segmented strips. Prop geometry only.
-Priority: @Image1 identity; @Image2 exterior; @Image3 cockpit; @Image4 place; @Image5 prop.
+@Image1 — absolute identity and costume of SEREGA.
+@Image2 — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour and proportions. Vehicle design only; ignore the source city's people and buildings.
+@Image3 — its genuine cockpit: seats, console, forward windows and hard interior geometry ONLY. Do not import the fight, other people, poses or weapons visible in that source frame.
+@Image4 — genuine film frame of the Tatooine desert town from the film: its sand-coloured buildings, dunes and harsh daylight. Exterior location only; no people, speeders or creatures are imported.
+@Image5 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
+Priority: @Image1 controls Serega; @Image2 the exterior of the craft; @Image3 the cockpit; @Image4 the place; @Image5 the prop.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or newly invented accessories. No facial beautification or wardrobe change.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.
 
-PROP / VEHICLE LOCK:
-One personal craft, one Serega, one module. The module stays rigid, never unfolds, duplicates or projects a hologram. He puts it into his robe before operating the controls. No computer or mushroom basket yet. The craft starts grounded and makes exactly one takeoff from Tatooine. Do not show a second landing.
-
+PROP / VEHICLE LOCK — CRITICAL:
+One personal craft, one Serega, one module. The module stays rigid; it never unfolds, duplicates or projects a hologram. He puts it into the inner fold of his robe before operating the controls. No computer and no mushroom basket aboard yet. The craft is parked on the same sandy flat at the town edge where it landed, and makes exactly one take-off from Tatooine. Its single side hatch with a short fold-down boarding ramp is already closed. No second landing.
 BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.
 
 START STATE:
-After a short time jump from retrieving the Tatooine fragment, Serega is seated alone in his own cockpit; the craft stands on a sandy flat near the existing ruins. Desert daylight comes through the exact windows. The module is in his hand.
+After a time jump from retrieving the Tatooine fragment, Serega is already seated alone in his cockpit; the craft stands on the sandy flat at the outskirts of the desert town of @Image4, the first sand-coloured buildings visible through the window in harsh daylight. The module is in his hand.
 
 TIMELINE:
-0–5s: medium cockpit shot with Serega's face clearly visible. He checks the module's steady amber glow, slips the one module inside his robe and puts both hands on the controls. Keep the same yellow grocery note beside his hand clear and in focus for at least two seconds; he is occupied with the module and does not remove or cover the note.
-5–12s: exterior three-quarter view: engine glow rises and the exact craft lifts off the sand. Dust spreads outward beneath it; the ruins stay fixed in the background. Landing supports retract only after clear separation from the ground.
-12–19s: follow the same ship climbing away above dunes and distant stone ruins. A clean cut compresses the climb into a high-altitude view, blue-black sky above the tan planetary curve. No nearby Naboo planet appears.
-19–25s: back in the matching cockpit, Serega makes one definite course selection and pushes the thrust control forward, calm and purposeful. The hidden module stays hidden; no holographic map or readable destination text.
-25–30s: exterior rear three-quarter view in open space: the tan curve of Tatooine recedes below; the same craft accelerates away on its onward journey to Naboo. Empty black space ahead, a clean cut point for the separate arrival scene.
+[0:00–0:05] — THE FRAGMENT SECURED
+Medium cockpit shot with Serega's face clearly visible. He checks the module's steady amber glow, slips the one module into his robe and puts both hands on the controls. Keep the same yellow grocery note beside his hand clear and in focus for at least two seconds; he is busy with the module and does not touch or cover the note.
+
+[0:05–0:12] — LIFT-OFF FROM THE TOWN EDGE
+Exterior three-quarter view: the engine glow rises and the exact craft lifts off the sand. Dust spreads outward beneath it; the town buildings stay fixed in the background. The landing supports retract only after clear separation from the ground.
+
+[0:12–0:19] — CLIMB OUT
+Follow the same ship climbing away above the town and the dunes. One clean cut compresses the climb into a high-altitude view: blue-black sky above the tan planetary curve. No nearby Naboo planet appears.
+
+[0:19–0:25] — COURSE SET
+Back in the matching cockpit: Serega makes one definite course selection and pushes the thrust control forward, calm and purposeful. The module stays hidden; no holographic map and no readable destination text.
+
+[0:25–0:30] — ONWARD
+Exterior rear three-quarter view in open space: the tan curve of Tatooine recedes below and the same craft accelerates away on its journey. Empty black space ahead; a clean cut point for the separate arrival scene.
 
 END STATE:
-Serega and the single Tatooine fragment have departed Tatooine in his own craft. The ship is travelling in open space; Scene 39 supplies the later Naboo arrival after a time cut.
+Serega and the single Tatooine fragment have left Tatooine in his own craft, travelling through open space. The arrival on Naboo is a separate scene after a time cut.
 
 CAMERA / SPACE:
-Readable medium cockpit views and motivated exterior cuts; retain screen direction and ship scale. Time-compress atmospheric climb explicitly rather than changing terrain inside one unbroken shot. No small faces lost in an enormous cockpit or shaky camera.
+Readable medium cockpit shots and motivated exterior cuts; consistent screen direction and ship scale. The atmospheric climb is compressed by one explicit cut rather than by changing terrain inside one unbroken shot. Faces are never lost in an enormous cockpit; no shaky camera.
 
 PERFORMANCE:
-Purposeful departure after completing his task, no speech, exaggerated reaction or new conflict. Precise hand movement and practical cockpit controls.
+A purposeful departure after finishing his task: no speech, no exaggerated reaction, no new conflict. Precise hand movements on practical cockpit controls.
 
 LIGHTING / MATERIALS:
-Warm sunlit sand, dusty purple robe hem, worn grey hull, amber module glow; gradually cooler cockpit instrument light as the ship reaches space. No lighting-driven facial change.
+Harsh warm desert daylight on sand and sand-coloured walls, dusty purple robe hem, worn grey hull, the module's small amber glow; gradually cooler cockpit instrument light as the ship reaches space. No lighting-driven change of his face.
 
 AUDIO:
-Low instrument hum, cloth as the module is stowed, engine spin-up, sand wash, climbing engine rumble and quiet cockpit switches. No dialogue, narrator, music, on-screen captions or spoken navigation.
+Low instrument hum, cloth rustle as the module is stowed, engine spin-up, sand wash, faint distant town noise, climbing engine rumble, quiet cockpit switches. No dialogue, narrator, music, captions or spoken navigation.
 
 NEGATIVE PROMPT:
-two map modules, hologram map, folding map, modern phone, computer, mushrooms, co-pilot, crew, cats, other Jedi, formal winged shuttle, wrong ship, Naboo beside Tatooine, destination landing, repeated takeoff, space battle, asteroids, cockpit fight, face drift, costume change, text overlay, watermark.
+two map modules, hologram map, folding map, modern phone, computer, mushrooms, co-pilot, crew, cats, other Jedi, sandworm, ancient stone ruins, formal winged shuttle, wrong ship, Naboo beside Tatooine, destination landing, repeated take-off, space battle, asteroids, cockpit fight, face drift, costume change, text overlay, watermark.
 
 FRAME FILL / NO BARS:
-Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
@@ -3638,7 +3648,7 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":41}],"tags":["serega","computer","story_bridge","continuity"]} -->
 
-**Контекст использования:** После возвращения на крейсер в 41, перед существующим игровым финалом. Комната и положение за столом взяты из настоящего результата Topview b9180e24788d4830a6c44fedf8dba7d4, просмотренного 17.10: тёмные рёбра стен, круглый иллюминатор, стол, тяжёлое кресло, CRT на горизонтальном блоке. Это проверенный исходный ролик финала, а не утверждение о выбранном дубле в самой свежей монтажной сборке. Новая связка заканчивается до включения ПК; склейка с подходящим боковым планом старого ролика около 5–7 с, без повторного захода к столу. Сам Warcraft заново не генерируется.
+**Контекст использования:** После возвращения на крейсер в 41, перед существующим игровым финалом. Комната и положение за столом взяты из настоящего результата Topview b9180e24788d4830a6c44fedf8dba7d4, просмотренного 17.10: тёмные рёбра стен, круглый иллюминатор, стол, тяжёлое кресло, CRT на горизонтальном блоке. Это проверенный исходный ролик финала, а не утверждение о выбранном дубле в самой свежей монтажной сборке. Новая связка заканчивается до включения ПК; склейка с подходящим боковым планом старого ролика около 5–7 с, без повторного захода к столу. Сам Warcraft заново не генерируется. Правка 17.10, 23:58 (владелец): промт приведён к шаблону §5А (названия битов, строка цели), смысл и входы прежние.
 
 **Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png">древний ПК, настоящий финал 35</a>; @Image3 — <a href="references/scenes/scene-54/S54-room-opening-actual.png">комната, настоящий кадр старого финала</a>; @Image4 — <a href="references/scenes/scene-54/S54-room-side-actual.png">стол и посадка, настоящий боковой кадр</a>.
 
@@ -3655,51 +3665,60 @@ Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, blac
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One clear story bridge with exact existing identities and hardware
+Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, quiet deadpan | Serega installs the recovered ancient computer in his ship room and reaches for the power button
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 controls Serega's exact face, build, age and purple robe.
-@Image2 is the genuine temple result showing the recovered beige horizontal desktop system unit, CRT monitor and keyboard. Use ONLY those objects and their wear; do not import the stone niche, ruins, kneeling pose or temple light.
-@Image3 is a genuine opening frame of the existing computer ending: dark angular ribbed spaceship room, large circular space viewport, white wall strips, low blue panels, heavy metal desk and chair. Location geometry only, not an exact start pose; the table starts EMPTY in this delivery bridge.
-@Image4 is a genuine side frame of that same ending: exact desk direction, CRT-on-horizontal-case arrangement, chair and seated Serega position. It sets the ENDING arrangement and camera side, not a second computer. Individual identity remains from @Image1.
-Priority: @Image1 identity; @Image2 recovered objects; @Image3 room; @Image4 final placement/axis. Keep the old hardware's dimensions consistent rather than copying a conflicting source pose.
+@Image1 — absolute identity of SEREGA: face, build, age and purple robe.
+@Image2 — genuine temple result showing the recovered beige horizontal desktop system unit, CRT monitor and keyboard. Use ONLY those objects and their wear; do not import the stone niche, ruins, kneeling pose or temple light.
+@Image3 — genuine opening frame of the existing computer ending: dark angular ribbed spaceship room, large circular space viewport, white wall strips, low blue panels, heavy metal desk and chair. Location geometry only, not an exact start pose; the desk starts EMPTY in this scene.
+@Image4 — genuine side frame of that same ending: exact desk direction, CRT-on-horizontal-case arrangement, chair and seated Serega position. It sets the ENDING arrangement and camera side, not a second computer.
+Priority: @Image1 controls Serega; @Image2 the recovered objects; @Image3 the room; @Image4 the final placement and axis. Keep the hardware's dimensions consistent rather than copying a conflicting source pose.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-@Image1 is the absolute SEREGA identity: pale older man, sparse light hair and bald crown, exact mature face/build, long deep dark-purple Chancellor robe. Preserve age, facial structure, anatomy and costume throughout profile views and cuts. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or newly invented accessories. No facial beautification or wardrobe change.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts. No co-pilot, crew, cats, Jedi, droids or new accessories.
 
-PROP / CONTINUITY LOCK:
-Exactly ONE horizontal beige desktop system unit, ONE beige CRT and ONE keyboard arrive with Serega; no second set is already waiting on the desk. One wired mouse already lies at the empty desk's keyboard area. The system unit is set flat on the desk and the CRT is lowered onto it as in @Image4. The same objects persist without changing model or size. Everything remains switched OFF: dark CRT glass and no game, boot screen or logo. Serega's controlled Force levitation transports the computer; parts do not fly randomly. No basket, map modules or new magical artifact.
+PROP / CONTINUITY LOCK — CRITICAL:
+Exactly ONE horizontal beige desktop system unit, ONE beige CRT and ONE keyboard arrive with Serega; no second set is already waiting on the desk. One wired mouse already lies at the empty desk's keyboard area. The system unit is set flat on the desk and the CRT is lowered onto it as in @Image4. The same objects keep their model and size. Everything stays switched OFF: dark CRT glass, no game, boot screen or logo. Serega's controlled Force levitation carries the computer; parts never fly randomly. No basket, map modules or new magical artifact.
 
 START STATE:
-Inside the exact existing spaceship room, looking from its entrance toward the desk and circular viewport. Desk and chair are in their established places but the computer has not yet been installed. Serega enters the foreground with keyboard tucked under one arm; the system unit and CRT float separately just ahead of him at chest height, guided by his free hand.
+Inside the existing spaceship room, looking from its entrance toward the desk and the circular viewport. Desk and chair are in their established places, the computer is not yet installed. Serega enters the foreground with the keyboard tucked under one arm; the system unit and the CRT float separately just ahead of him at chest height, guided by his free hand.
 
 TIMELINE:
-0–6s: medium tracking with Serega and both separate computer objects, already inside the room. He guides them toward the empty desk. Keep his face readable in three-quarter view and the existing circular viewport behind the desk.
-6–13s: one clear action at a time: lower the horizontal system unit flat onto the desk, then lower the CRT onto the same case. Visible contact ends each levitation; no object passes through another. The final stack matches @Image4.
-13–19s: he lays the single keyboard in front, places its trailing cable behind the case and connects one accessible power cable. Brief controlled hand insert, no tangled fingers or impossible sockets. Other cables are already bundled with the recovered hardware.
-19–25s: he draws the heavy chair back and sits on the exact side of the desk shown in @Image4, adjusts the keyboard once, rests one hand beside the mouse. The dark monitor faces him; no screen content is generated.
-25–30s: move to the actual side-view axis from @Image4, Serega framed recognisably beside the CRT stack. He exhales with quiet satisfaction, then reaches toward the system-unit power button. End just BEFORE pressing it, matching the existing ending's pre-power action for a clean cut.
+[0:00–0:06] — INTO THE ROOM
+Medium tracking shot with Serega and the two floating objects, already inside the room. He guides them toward the empty desk. His face stays readable in three-quarter view, the circular viewport behind the desk.
+
+[0:06–0:13] — SET DOWN
+One clear action at a time: he lowers the horizontal system unit flat onto the desk, then lowers the CRT onto the same case. Visible contact ends each levitation; no object passes through another. The final stack matches @Image4.
+
+[0:13–0:19] — PLUGGED IN
+He lays the single keyboard in front, routes its cable behind the case and connects one accessible power cable. A brief controlled hand insert; no tangled fingers or impossible sockets. Other cables are already bundled with the recovered hardware.
+
+[0:19–0:25] — SEATED
+He draws the heavy chair back and sits on the exact side of the desk shown in @Image4, adjusts the keyboard once and rests one hand beside the mouse. The dark monitor faces him; no screen content.
+
+[0:25–0:30] — THE BUTTON
+Move to the side-view axis of @Image4, Serega framed recognisably beside the CRT stack. He exhales with quiet satisfaction and reaches toward the system unit's power button. End just BEFORE pressing it, for a clean cut into the existing ending.
 
 END STATE:
-The recovered computer is installed in Serega's established spaceship room. He is seated in the established chair position, reaching for power; the screen is still dark. The existing Warcraft footage supplies switching on and playing, with no duplicate approach to the desk.
+The recovered computer is installed in Serega's established spaceship room. He sits in the established chair position, reaching for the power button; the screen is still dark. The existing Warcraft footage supplies switching on and playing, with no repeated approach to the desk.
 
 CAMERA / SPACE:
-One room only, a medium entrance-to-desk tracking shot and two motivated closer cuts for placement/connection and the final side angle. Match the circular viewport, wall ribs, table axis and chair placement. No newly invented corridor, hangar, apartment or second workstation. Human faces are medium or close, never tiny in a wide room.
+One room only: a medium entrance-to-desk tracking shot, then two motivated closer cuts for placement/connection and for the final side angle. Match the circular viewport, wall ribs, desk axis and chair placement. No new corridor, hangar, apartment or second workstation. Faces medium or close, never tiny in a wide room.
 
 PERFORMANCE:
-Practical, absorbed, utterly serious: he handles the old computer like a precious relic, then visibly relaxes once seated. No dialogue or new comic facial distortion.
+Practical, absorbed, utterly serious: he handles the old computer like a precious relic, then visibly relaxes once seated. No dialogue, no comic facial distortion.
 
 LIGHTING / MATERIALS:
-Match the existing cool dark-metal room and white practical strips, soft neutral facial fill, worn beige plastic, dusty CRT glass and heavy purple cloth. No screen glow before power, no temple daylight, no change of room between cuts.
+The existing cool dark-metal room with white practical strips, soft neutral facial fill, worn beige plastic, dusty CRT glass and heavy purple cloth. No screen glow before power, no temple daylight, no change of room between cuts.
 
 AUDIO:
-Quiet ship ventilation, subdued Force hum, two distinct soft desk-contact thuds, keyboard placement, cable click, chair movement and one natural exhale. No music, dialogue, narrator, game audio or computer startup before the cut.
+Quiet ship ventilation, a subdued Force hum, two distinct soft desk-contact thuds, keyboard placement, a cable click, chair movement and one natural exhale. No music, dialogue, narrator, game audio or computer start-up sound.
 
 NEGATIVE PROMPT:
-modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects merging or changing size, monitor already on desk at start, glowing screen, generated Warcraft gameplay, game text, new room, temple, additional people, face drift, changed robe, floating seated character, hands through plastic, subtitles, watermark.
+modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects merging or changing size, monitor already on the desk at start, glowing screen, generated Warcraft gameplay, game text, new room, temple, additional people, face drift, changed robe, floating seated character, hands through plastic, subtitles, watermark.
 
 FRAME FILL / NO BARS:
-Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 ---
