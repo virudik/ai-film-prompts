@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T21:19:55Z",
+  "updated_at": "2026-10-17T21:36:25Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2422,6 +2422,70 @@
       }
     },
     {
+      "scene_id": 56,
+      "prompt_id": "S56",
+      "canonical_block_label": "56",
+      "model": "Wan 3.0",
+      "duration_seconds": 30,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 1080,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "id": "S56",
+      "priority": 36,
+      "state": "blocked_inputs",
+      "task_id": null,
+      "claim": null,
+      "canonical_prompt_sha256": "40f12d38a8b9d9b217af4235f7ec6204432072bc5ec31a70b34cde2eb075469b",
+      "normalized_prompt_sha256": "b59ad3185055cf85ad25b56ee72cef4705f395389f873def203052436ee89a86",
+      "authorization": "Direct owner 18.10.2026 ~00:30 MSK in project chat: continue/extend 42 with an intermediate scene leading to 48. Free unlimited website slots only; max_credits 0.",
+      "depends_on_submitted": [
+        "S42"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "start_frame",
+          "input_status": "required_not_available"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        }
+      ],
+      "blocker": "Need actual clean ending of42 (three locked blades, worm maw hanging over them); no AI substitute",
+      "launch_readiness": "blocked_continuity",
+      "max_credits": 0
+    },
+    {
       "scene_id": 48,
       "prompt_id": "S48",
       "canonical_block_label": "48",
@@ -2438,11 +2502,11 @@
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
-      "canonical_prompt_sha256": "539be552ff666ec742986407b8cfaab42f44da157479a47478f78f51523b7c1f",
-      "normalized_prompt_sha256": "fb5afadfb21047c1baf3d70d0d27fff79ab5a7fad89feb66407e7c8e8d690fed",
+      "canonical_prompt_sha256": "f22fcd592d97a8a63c91a0465036f3f44c55eb001affa731044b11cd5234a383",
+      "normalized_prompt_sha256": "4e1dbe893ef835c0b4152e956fd9077f0a5427b5609594638e0ef157c54097fb",
       "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "depends_on_submitted": [
-        "S42"
+        "S56"
       ],
       "references": [
         {
@@ -2487,12 +2551,14 @@
           "input_status": "available"
         }
       ],
-      "blocker": "Need actual clean ending of42; no AI substitute",
+      "blocker": "Need actual clean ending of56 (three locked blades, worm rearing above); no AI substitute",
       "launch_readiness": "blocked_continuity",
       "previous_prompt_sha256": [
-        "3070fc31154b769cd10fe629e9b6a816c5c3c1bc0ab955143da0197a55a43ab4"
+        "3070fc31154b769cd10fe629e9b6a816c5c3c1bc0ab955143da0197a55a43ab4",
+        "539be552ff666ec742986407b8cfaab42f44da157479a47478f78f51523b7c1f"
       ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "revision_note_20261018_0030": "Owner 18.10 MSK: ending changed — Serega rides the worm away; @Video1 now = end of S56 (see owner_instruction_20261018_0030)."
     },
     {
       "id": "S50-FANS-IMAGE",
@@ -3557,5 +3623,16 @@
     "source": "Direct owner in project thread after the 23:58 scene-review fixes (18.10, 00:17 MSK)",
     "decision": "No genuine Tatooine town frame exists; describe the town in the prompt text instead (TATOOINE TOWN LOCK in 52/53). The town image slot is removed: S52 = @Video1 + @Image1-5 (cockpit now @Image5), S53 = @Image1-4 (module now @Image4). S53 unblocked (waiting_for_slot); S52 waits only for the corrected 44 ending.",
     "recorded_at": "2026-10-17T21:19:55Z"
+  },
+  "owner_instruction_20261018_0030": {
+    "source": "Direct owner message in project chat 18.10.2026 00:30 MSK (relayed by coordinator)",
+    "decisions": [
+      "New Scene 56 between 42 and 48: the duel breaks loose and moves through the collapsing ruins (more dynamics), worm still ignored, ends with locked blades and the worm rearing to strike",
+      "48 rewritten per owner text: worm crashes down, Artem's saber falls and goes out, module flies from his belt to Serega's palm, Ilyusha cut off by the worm, Serega hides the module, jumps onto the worm and rides it away",
+      "S48 @Video1 = end of S56; S56 @Video1 = end of S42"
+    ],
+    "no_launch_performed": true,
+    "max_credits": 0,
+    "recorded_at": "2026-10-17T21:36:25Z"
   }
 }

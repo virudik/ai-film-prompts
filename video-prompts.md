@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**22 сцены к генерации/доработке · 48 полных текстов промта**
+**23 сцены к генерации/доработке · 49 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 2** сцены сейчас в медленной генерации: **28, 55** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **17.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **17.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **22 актуальные сцены и 48 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **17.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 49 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -57,7 +57,7 @@
 | 43 | [Ангар крейсера: у шаттла Канцлера заело крыло](#scene-43) | Серёга; имперский ангар H28A с шаттлом | Шаттл не может взлететь: левое крыло застряло на полпути. «Владыка… крыло заело». — «Я заметил». Серёга выходит по рампе. READY, русская речь, Wan 3.0. |
 | 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43. |
 | 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. READY: настоящий последний кадр 32 подключён. |
-| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 42: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга уходит в бурю (D6). DRAFT до результата 42. |
+| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). DRAFT до результата 56. |
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
 | 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B и 51A/51B. |
 | 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, выбранные вуки-фанаты 50 (вариант 2) | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
@@ -65,6 +65,7 @@
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0. |
 | 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры | Серёга играет; Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?». Он замирает и виновато молчит. Пасхалка к просьбе из начала фильма и стикеру в перелётах. READY, 30s Wan 3.0, в очереди сразу после картинки вуки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
+| 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
 
 ---
 
@@ -74,7 +75,7 @@
 
 | ID | Очередь / сцена в работе | Статус | Базовые референсы | Что уже понятно |
 |---|---|---|---|---|
-| W6 | **Татуин: гигантский червь, карта и побег Канцлера** | В РАБОТЕ: SCENES 42 + 48 (DRAFT); SCENE 16 ПРИНЯТА | развязка Татуина; карта; машина; Канцлер | Червь, руины и противостояние — Scene 16, исход не разрешён, обмена картой нет. Открыто: (1) решено 16.10 — «16 надо продолжить» (продолжение — Scene 42); (2) судьба татуинского фрагмента (D6/M1); (3) какую часть погони 46–49 [Р2] заменяет 16; (4) машина: не показывать после разрушения. Отлёт Серёги с Татуина генерировать не нужно — его прибытие на Набу закроет Scene 39. Возможное решение D6 из заметок Саши — 32:51: «меч гасится → карта левитирует в руку Канцлера». **16.10 владелец (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя; продолжение 16 — **Scene 42** (DRAFT, приём Саши 32:51). **16.10 владелец:** Scene 16 принята; продолжение — бой, в котором червю никто не уделяет внимания (**Scene 42**), фрагмент — **Scene 48**. |
+| W6 | **Татуин: гигантский червь, карта и побег Канцлера** | В РАБОТЕ: SCENE 42 (READY) → 56 → 48 (DRAFT); SCENE 16 ПРИНЯТА | развязка Татуина; карта; машина; Канцлер | **18.10 владелец:** между 42 и 48 — новая Scene 56 (бой в движении); в 48 Серёга забирает модуль и уезжает на черве. Червь, руины и противостояние — Scene 16, исход не разрешён, обмена картой нет. Открыто: (1) решено 16.10 — «16 надо продолжить» (продолжение — Scene 42); (2) судьба татуинского фрагмента (D6/M1); (3) какую часть погони 46–49 [Р2] заменяет 16; (4) машина: не показывать после разрушения. Отлёт Серёги с Татуина генерировать не нужно — его прибытие на Набу закроет Scene 39. Возможное решение D6 из заметок Саши — 32:51: «меч гасится → карта левитирует в руку Канцлера». **16.10 владелец (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя; продолжение 16 — **Scene 42** (DRAFT, приём Саши 32:51). **16.10 владелец:** Scene 16 принята; продолжение — бой, в котором червю никто не уделяет внимания (**Scene 42**), фрагмент — **Scene 48**. |
 | W5 | **Три фрагмента / артефакта → запретное знание → Warcraft 3** | ЗАКРЫТО 17.10 (D5 закрыт владельцем) | три фрагмента/карты; компьютер/CRT; референс Канцлера | Путь фрагментов к цели виден через приём «модуль светится к цели» (37, решение 14.10; продолжение — 40): Набу → лес → планета ситхов → храм → древний ПК (35/38). Открыто: (1) как соединяются фрагменты и что открывают (D5; рекомендация [Р2] — «А + Д»: доступ, затем бытовой возврат); (2) тот ли это ПК, что в существующем финале, и где тот стоит (D4; по [Р1] §1 — «в космическом окружении», тогда нужна 41). «Диск / провод / мышь» по-прежнему идея. **16.10 владелец:** D4 решён — финальный компьютер стоит на борту у окна в космос, это тот же ПК из храма → **Scene 41** (Сила несёт блок и монитор). Все три фрагмента у Канцлера: Татуин — Scene 48, Набу — 17/36, лес — силовой захват. **17.10 владелец: D5 закрыт** — фрагменты работают как карта: модуль светится к цели (37, 40) и приводит к храму с древним ПК (35/38), ПК увозится (41) и ставится в комнату (54) → Warcraft. Новых сцен не нужно. |
 | W11 | **Татуин: кто передал Канцлеру маршрут / координаты** | СНЯТО 17.10 ВЛАДЕЛЬЦЕМ — НЕ НУЖНА | кантина; существующий контакт/бармен/коммуникатор; татуинский блок | Прибытие Канцлера на Татуин не показано, он появляется в кантине 33:50 [Р2]. Посадку не генерировать: отлёт уже есть (уход корабля в гиперпространство, 27:50–28:55 [Р2]), а причину появления даёт только «след». Варианты без новой сцены: реплика у карты 14:05–15:20 «Координаты прислал наш контакт на Татуине» ([Р2] §13) или сигнал/маяк в кантине ([Р1] N4). Бармен отдал модуль герою (31:51–31:52, [Р2] §3) — не противоречить этому. **16.10 владелец:** прилёт на Татуин не генерируем. **17.10 владелец:** W11 не нужна (снята); прилёт на Татуин теперь показывает Scene 52 (посадка на окраине города перед кантиной). |
 | W7 | **Переходы между крупными группами / полёт к следующей планете** | В РАБОТЕ: 37, 39, 40, 41, 54 (READY); 53 (READY), 52 (DRAFT до конца44) + монтаж | конечные и начальные кадры соседних блоков; корабль/планета | Линия Серёги: Корусант → крейсер показан (09:20–09:55); крейсер → Татуин — **Scenes 43/44/52** (17.10: пересадка на личный корабль, посадка на окраине города перед кантиной); Татуин → взлёт — **Scene 53**; Татуин → Набу — **Scene 39** (стык ~45:05); Набу → лес — **36 + 37** (решение 14.10, без посадки); лес → планета ситхов — **Scene 40** (стык после 01:02:45 → Scene 26); ПК → финальный CRT — **Scene 41** (D4 решён 16.10). **16.10 владелец:** 39 и 40 нужны, место стыков подтверждено; посадку на Кашиике не генерируем. **17.10:** прилёт на Татуин всё-таки показан (52, решение владельца о сюжетных связках 52–54). Смена групп: T2 и Татуин → Набу — существующая посадка пары (39:25–40:30); идея Саши 37:30 уже есть в этом участке. Корабль везде один — из ч.1 09:20–09:55. |
@@ -2149,7 +2150,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026:** Scene 16 принята; нужно продолжение битвы на фоне червя, который всё разрушает вокруг. Артём и Илюша дерутся с Серёгой, будто не замечая червя: лениво уворачиваются от его атак, он не их цель и им не интересен.
-- **Стык:** сразу после Scene 16 (её единственный результат — task `36e8320e34da4f1b97c35e1e765e3e63`). Дальше — Scene 48: Канцлер забирает татуинский фрагмент (решение владельца 16.10, D6).
+- **Стык:** сразу после Scene 16 (её единственный результат — task `36e8320e34da4f1b97c35e1e765e3e63`). Дальше — Scene 56 (бой в движении, владелец 18.10), затем Scene 48: Канцлер забирает татуинский фрагмент (решение владельца 16.10, D6).
 - **Тон меняется осознанно:** в 16 червь — катастрофа; здесь комедия в равнодушии. Все трое заняты только дуэлью, от червя отмахиваются как от назойливой помехи. Без гримас и взглядов в камеру — смешно за счёт контраста масштаба и полного спокойствия.
 - Цвета мечей — как в 16 и 27: Илюша синий, Артём зелёный, Серёга красный.
 - Машина после разрушения не появляется (W8). Модуль карты в этой сцене не показывается — его исход в Scene 48.
@@ -2551,17 +2552,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 48 — Татуин: после боя Канцлер забирает фрагмент карты
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":42}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
 
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026 (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя. Scene 16 принята; бой продолжает Scene 42 («червь им не интересен»), эта сцена — её развязка. Текст перенесён из прежней редакции Scene 42 (16.10), тон приведён к 42: червю по-прежнему никто не уделяет внимания.
 - **Функция:** закрыть «первый фрагмент у Канцлера» — высший приоритет [Р2] §19 («показать момент захвата/кражи»). По [Р2] §8: Канцлер использует хаос червя, чтобы уйти с первым фрагментом.
-- **Приём** — идея Саши (master, «Идеи от Саши», 32:51–32:52): меч гаснет → карта летит в руку Канцлера; конечный кадр — Серёга почти отвернулся.
+- **Приём** — идея Саши (master, «Идеи от Саши», 32:51–32:52): меч гаснет → карта летит в руку Канцлера.
+- **Правка владельца 18.10.2026:** финал другой — Серёга прячет модуль под робу, запрыгивает на червя и лихо уезжает на нём вдаль от джедаев (вместо «почти отвернулся и ушёл в бурю»). Червь по-прежнему никого не трогает; единственный контакт — Серёга сам едет у него на спине. Перед 48 теперь стоит новая Scene 56 (бой в движении), её конец — @Video1 этой сцены. Руины после 42/56 уже разрушены: в промте они не «восстанавливаются».
 - **Кто держал фрагмент:** Артём (Bearded Jedi) — ответ владельца 17.10, 23:58. Бармен отдал модуль ему (31:51–31:52 по сборке [Р2]). Меч Илюши после 42 уже горит: он не «зажигает», а поднимает его.
 - **Машина** после разрушения не появляется (W8). Отлёт Серёги с Татуина — Scene 53 (с окраины города), прибытие на Набу — Scene 39.
 - Модуль того же дизайна, что набусский (@Image6); светится тускло, без голограмм.
-- **До READY:** @Video1 — последние секунды результата Scene 42 (сначала нужен её результат).
+- **До READY:** @Video1 — последние секунды результата Scene 56 (сначала нужны результаты 42 и 56).
 - В монтаж 15–25 с. Запуск — только по команде владельца.
 
 **Референсы:**
@@ -2572,7 +2574,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">пустынные руины Scene 16</a> (только локация);
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
-- @Video1 — последние секунды результата Scene 42 (выгрузить после её результата).
+- @Video1 — последние секунды результата Scene 56 (выгрузить после её результата).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -2582,24 +2584,24 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure></div>
 
-**Что происходит:** Трое по-прежнему сцепились мечами и не смотрят на червя. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга, не торопясь, протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга спокойно прячет модуль под робу и почти отворачивается, уходя в песчаную бурю.
+**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга спокойно прячет модуль под робу, запрыгивает на червя и лихо уезжает на нём вдаль от джедаев.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, deadpan action comedy | The ignored sandworm finally crashes between the duelists, and the Chancellor calmly pulls the Tatooine map module to his hand with the Force and walks away
+Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, deadpan action comedy | The ignored sandworm finally crashes between the duelists; the Chancellor pulls the Tatooine map module to his hand with the Force, jumps onto the worm and rides it away
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: exact positions of the three duelists with crossed blades, the worm, the light, the dust and the ruins at the cut. Absolute authority for the START STATE.
+@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the furious worm rearing above them coiled to strike, the broken ruins, dust and light. Absolute authority for the START STATE.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
 @Image6 — the exact map module prop design.
-Priority: @Video1 controls the start; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds.
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber.
 ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; blue lightsaber.
 ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; green lightsaber.
 Exactly three people. No other characters, no vehicles.
@@ -2607,45 +2609,48 @@ Exactly three people. No other characters, no vehicles.
 PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's belt, flies through the air once and ends hidden in the inner fold of Serega's robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
-WORM / LOCATION LOCK:
-The same colossal worm from @Image5 and the same ruins from @Image4 for the whole scene; the gate piers and the obelisk stay as fixed landmarks. The worm is a background force of nature and never swallows or touches anyone. No car, speeder or wreck appears.
+WORM / LOCATION LOCK — CRITICAL:
+The same colossal worm from @Image5 and the same ruins for the whole scene; the broken gate piers and the toppled obelisk halves stay as fixed landmarks and nothing rebuilds. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back at the end: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
 
 START STATE:
-Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, ignoring the worm that looms over them amid falling dust.
+Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
 
 TIMELINE:
 [0:00–0:06] — THE WORM CRASHES DOWN
-Continuing the same composition: tired of being ignored, the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand and debris throws Artem off his feet; Ilyusha is pushed back several steps behind the obelisk.
+Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand throws Artem off his feet and pushes Ilyusha back several steps. Serega steps back once, steady, and calmly switches off his red saber.
 
 [0:06–0:11] — THE SABER GOES OUT
 Artem hits the sand hard. His green saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
 
-[0:11–0:17] — THE MODULE FLIES TO THE CHANCELLOR
-Medium shot on Serega, steady amid the dust. Without hurry he extends one open hand. The module lifts off the sand by itself and flies straight through the blowing dust into his palm; his fingers close over its amber glow. Behind him the worm rears again.
+[0:11–0:16] — THE MODULE FLIES TO THE CHANCELLOR
+Medium shot on Serega in the blowing dust. Without hurry he extends one open hand. The module lifts off the sand by itself and flies straight through the dust into his palm; his fingers close over its amber glow.
 
-[0:17–0:23] — TOO LATE
-Artem, still on his knees, reaches toward the empty sand; Ilyusha raises his still-lit blue blade and runs at Serega, but the worm surges up out of the sand between them and both Jedi throw themselves aside to escape it.
+[0:16–0:21] — CUT OFF BY THE WORM
+Ilyusha, his blue blade still lit, sprints at Serega to intercept, but the worm surges up out of the sand between them and forces both Jedi to leap aside. Artem, on his knees, can only watch.
 
-[0:23–0:30] — HE TURNS AWAY
-Serega slips the module into the inner fold of his robe, gives the Jedi a short cool look and turns away toward the blowing sand. Hold on him almost turned away, the worm and the dodging Jedi behind him in the dust.
+[0:21–0:26] — ONTO THE WORM
+Serega slips the module into the inner fold of his robe. As the worm's long body slides past him low over the sand, he takes two quick strides, jumps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
+
+[0:26–0:30] — RIDING AWAY
+Wide shot: the worm surges away across the dunes in a great spray of sand, Serega standing on its back, upright, cool and sure, shrinking into the distance. In the foreground the two Jedi stand in the settling dust among the broken ruins and stare after him.
 
 END STATE:
-Serega almost turned away, walking off into the sandstorm with the module hidden in his robe; both Jedi alive behind him, dodging the worm; Artem's dark saber hilt half-buried in the sand.
+Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Artem's dark saber hilt half-buried in the sand.
 
 CAMERA / SPACE:
-One continuous take with controlled lateral and arcing moves, wide to medium within the same shot; no cuts. Stable geography: Serega on frame-right, Jedi on frame-left, the worm beyond the gate. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
+The first two beats continue @Video1 as one take with controlled arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
 
 PERFORMANCE:
-Serega is calm, cold and sure; the pull is a small, almost bored gesture. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+Serega is calm, cold and sure; the pull is a small, almost bored gesture, the jump onto the worm effortless and dashing. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
 
 LIGHTING / MATERIALS:
-Harsh warm desert sunlight, dry haze, long ruin shadows, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust. Deadpan tone matching the previous scene: nobody is afraid of the worm.
+Harsh warm desert sunlight, dry haze, long ruin shadows, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust; sand pouring off the worm's segments.
 
 AUDIO:
-The worm's deep roar and throat resonance, sand crashing down, debris impacts, wind, the hiss of a lightsaber switching off, the blue saber's hum as Ilyusha charges, a faint low Force hum as the module flies, a soft electronic pulse from it, footsteps on sand. Exertion breaths only; no dialogue, narrator or music.
+The worm's deep roar and throat resonance, sand crashing down, debris impacts, wind, the hiss of two sabers switching off, the blue saber's hum as Ilyusha charges, a faint low Force hum as the module flies, a soft electronic pulse from it, the heavy grinding rush of the worm surging away and fading into the distance. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega running or fighting with a saber, map exchange by hand, cuts, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or biting anyone, death, blood, Serega falling off the worm, worm shrunk to a tame size, saddle or reins, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega fighting with a saber after the crash, map exchange by hand, rebuilt ruins, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -3806,4 +3811,110 @@ readable game screen, generated Warcraft gameplay, game text or logos, hologram 
 
 FRAME FILL / NO BARS:
 Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+---
+
+<a id="scene-56"></a>
+
+## Сцена 56 — Татуин: бой в движении — червь требует внимания
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":42}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","action","deadpan","continuity"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 18.10.2026:** продолжить и расширить бой 42 промежуточной сценой, которая приводит к 48. Заодно ответ на замечание друга про динамику: здесь больше движения, чем в 42, — толчок Силой, двое на одного, бой на осыпающемся песке, прыжки на поваленный обелиск и с него, мотивированные монтажные склейки вместо одного неподвижного плана.
+- **Стык:** сразу после Scene 42 (её конец — три скрещённых меча, червь завис над ними) → эта сцена → Scene 48 (червь обрушивается между ними).
+- **Шутка 42 сохраняется:** червю по-прежнему никто не уделяет внимания, но он злится всё сильнее и в конце встаёт над ними для удара — это и есть начало 48.
+- **Подводка к 48:** модуль карты всё время за поясом Артёма; в середине Серёга на миг замечает его свечение. Модуль здесь не выпадает.
+- Цвета мечей: Илюша синий, Артём зелёный, Серёга красный. Разрушения только копятся: сломанная опора ворот и расколотый обелиск из 42 не восстанавливаются. Машина не появляется (W8).
+- **До READY:** @Video1 — последние секунды результата Scene 42 (сначала нужен её результат).
+- В монтаж 15–25 с. Запуск — только по команде владельца.
+
+**Референсы:**
+
+- @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
+- @Image2 — <a href="references/full/ilyusha.jpg">Илюша (Hooded Jedi)</a>;
+- @Image3 — <a href="references/full/artem.jpg">Артём (Bearded Jedi)</a>;
+- @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">пустынные руины Scene 16</a> (только локация);
+- @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
+- @Video1 — последние секунды результата Scene 42 (выгрузить после её результата).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
+<figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="@Image2 — Илюша"></a><figcaption>@Image2 — Илюша</figcaption></figure>
+<figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="@Image3 — Артём"></a><figcaption>@Image3 — Артём</figcaption></figure>
+<figure><a href="references/scenes/scene-16/S16-desert-location-clean.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-desert-location-clean.png" alt="@Image4 — руины"></a><figcaption>@Image4 — руины</figcaption></figure>
+<figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
+</div>
+
+**Что происходит:** Скрещённые мечи разлетаются, Серёга толчком Силы отбрасывает обоих джедаев по песку. Илюша и Артём атакуют с двух сторон, Серёга отбивается от обоих. Червь пропахивает траншею прямо под ними: песок уходит из-под ног, все трое съезжают по осыпи, не прекращая бой, Илюша перепрыгивает траншею. Серёга вскакивает на поваленный обелиск, Артём за ним; в схватке у Артёма за поясом вспыхивает модуль, и Серёга на миг его замечает. Червь сносит камень, все трое спрыгивают, перекатываются и снова скрещивают мечи. Разъярённый червь встаёт над ними во весь рост, готовый ударить.
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | The duel breaks loose and races across the collapsing ruins while the ignored sandworm grows ever angrier
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the colossal worm hanging motionless over them, the broken ruins, dust and light. Absolute authority for the START STATE and the screen positions.
+@Image1 — absolute identity of SEREGA.
+@Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image3 — absolute identity of ARTEM, the Bearded Jedi.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
+Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
+ILYUSHA, @Image2: moustache, tousled chestnut hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown outer robe, wide brown belt, brown boots; GREEN lightsaber.
+Exactly three people. No other characters, no vehicles.
+
+WORM / DESTRUCTION LOCK — CRITICAL:
+The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. Damage only accumulates: the smashed gate pier and the cracked obelisk from @Video1 stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters again and again but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
+
+PROP LOCK:
+Exactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole scene. It never falls out here.
+
+START STATE:
+Exactly the last frame of @Video1: the three locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, the worm's gaping maw hanging over them in falling dust.
+
+TIMELINE:
+[0:00–0:04] — BREAK
+Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
+
+[0:04–0:09] — TWO AGAINST ONE
+Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges while the camera circles the three at running speed.
+
+[0:09–0:14] — THE GROUND MOVES
+The worm ploughs a trench straight through the fighting ground. The sand slides away under their feet; still fencing, all three skid down the collapsing slope, and Ilyusha leaps across the opening trench in mid-swing to land beside Serega.
+
+[0:14–0:19] — ON THE STONE
+Serega springs onto the long toppled obelisk block; Artem jumps up after him and they duel along its top, step by step, Ilyusha attacking from the sand below. In one exchange the amber glow of the module in Artem's belt flashes in close view; Serega's eyes flick to it for a single beat.
+
+[0:19–0:25] — THE WORM TRIES AGAIN
+The worm sweeps its body across the ruin and shatters the stone block. All three jump down together, roll through the sand and come up already fighting, not one of them looking back.
+
+[0:25–0:30] — LOCKED AGAIN
+The three cross blades again in the foreground, faces close and readable. Behind and above them the furious worm rears to its full height and roars, its body coiled to strike straight down at them. Hold the moment just before the strike.
+
+END STATE:
+The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; dust and broken ruins all around.
+
+CAMERA / SPACE:
+The first beat continues @Video1 without a cut. After it, up to four motivated action cuts on movement, each matching screen direction and the left/centre/right geography; fast circling and tracking moves at running speed, low angles during the jumps, one close insert of the module glow. Keep the worm partly in frame for scale in every wide shot. The duel always stays readable; motion blur only on fast blades. No shaky handheld chaos, no teleporting.
+
+PERFORMANCE:
+Fast, athletic, fully committed swordplay with real weight: slides, leaps, rolls and Force shoves. The deadpan gag remains: toward the worm everyone is bored and unimpressed, never panicked. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+
+LIGHTING / MATERIALS:
+Harsh warm desert sunlight, dry haze, long ruin shadows, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads through the dust.
+
+AUDIO:
+Saber hums, crackling clashes and whooshes in the foreground, footsteps, slides and thuds on sand, a dull Force shove thump; the worm's roars, sliding sand and shattering stone behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, screaming, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, duplicated characters, module falling out, two modules, hologram, wrong saber colours, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
