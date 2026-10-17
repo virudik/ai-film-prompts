@@ -4,8 +4,8 @@
   "owner_authorization": "18Oct2026 02:15MSK: Запусти",
   "create_clicked_at": "2026-10-17T23:18:27.828Z",
   "create_click_count": 1,
-  "state": "blocked_hcaptcha_manual_handoff",
-  "task_id": null,
+  "state": "completed_results_observed",
+  "task_id": "90e74195-917a-4c5a-a31a-54b41e2cf754",
   "model": "v6-mini",
   "plan": "Free £0/month,50dailycredits",
   "input_audio_attached": false,
@@ -13,9 +13,37 @@
   "styles_full_match": true,
   "money_spent": 0,
   "credit_debit": "not_observed",
-  "evidence": "reports/evidence/suno-captcha-20261018.jpg",
-  "blocker": "Current browser now shows hCaptcha image challenge with Попробуйте еще раз. No checkbox action performed this turn; no second Create click. Manual cloud browser handoff requested.",
-  "next_action": "User completes current CAPTCHA in handed-off cloud tab. Then inspect new song IDs/results before any second Create click.",
-  "recorded_at": "2026-10-17T23:23:47.661Z",
-  "captcha_authorization": "Owner confirmed 18Oct2026 02:20:58MSK: Подтверждаю, я человек"
+  "evidence": "reports/evidence/suno-ready-20261018.jpg",
+  "blocker": null,
+  "next_action": "Listen and choose a version; no extra generation authorized by this status request.",
+  "recorded_at": "2026-10-17T23:27:19.157Z",
+  "captcha_authorization": "Owner confirmed 18Oct2026 02:20:58MSK: Подтверждаю, я человек",
+  "results": [
+    {
+      "id": "90e74195-917a-4c5a-a31a-54b41e2cf754",
+      "url": "https://suno.com/song/90e74195-917a-4c5a-a31a-54b41e2cf754",
+      "duration": "5:31",
+      "model": "V6-MINI"
+    },
+    {
+      "id": "46dfb6a8-af6d-4f67-962c-f3700c738755",
+      "url": "https://suno.com/song/46dfb6a8-af6d-4f67-962c-f3700c738755",
+      "duration": "5:33",
+      "model": "V6-MINI"
+    }
+  ],
+  "preview_results": [
+    {
+      "id": "38a7d3a4-6276-461c-b2a0-6a9596bb44ed",
+      "duration": "1:00",
+      "model": "V6 PREVIEW"
+    },
+    {
+      "id": "ca4f1deb-9d2e-4868-b36f-8c0a96588af7",
+      "duration": "1:00",
+      "model": "V6 PREVIEW"
+    }
+  ],
+  "audio_review": "Not listened to; quality not assessed",
+  "create_click_count_scope": "Agent-observed clicks; manual handoff actions not audited"
 }
