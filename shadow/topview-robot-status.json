@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-17T17:30:10Z",
+  "checked_at": "2026-10-17T17:40:13Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -20,11 +20,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 633
+      "1a6244cf1ae747ef847d949a80d6133c": 635
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 10,
     "detail_failed": []
   },
   "cursor": {
@@ -39,7 +39,7 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 633
+      "1a6244cf1ae747ef847d949a80d6133c": 635
     },
     "last_full_scan_at": "2026-10-17T15:00:09Z"
   },
@@ -49,7 +49,7 @@
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
     "complete": false,
-    "active_not_unlimited": 0
+    "active_not_unlimited": 2
   },
   "active_tasks": [
     {
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2581,
-      "wait_seconds": 90077,
+      "queue_count": 2572,
+      "wait_seconds": 89474,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 853,
-      "wait_seconds": 20957,
+      "queue_count": 835,
+      "wait_seconds": 20353,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1837,
-      "wait_seconds": 55517,
+      "queue_count": 1826,
+      "wait_seconds": 54913,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2235,
-      "wait_seconds": 72797,
+      "queue_count": 2226,
+      "wait_seconds": 72193,
       "process_seconds": null
     },
     {
@@ -113,9 +113,35 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1388,
-      "wait_seconds": 38236,
+      "queue_count": 1378,
+      "wait_seconds": 37633,
       "process_seconds": null
+    },
+    {
+      "task_id": "c9812f39a5c84739b757b9d110e38ef6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "unlimited": false,
+      "created_at": "2026-10-17 17:37:53",
+      "model": "Wan 3.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 793
+    },
+    {
+      "task_id": "f8810d1b4b624a50944363bf2e448f09",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "unlimited": false,
+      "created_at": "2026-10-17 17:39:44",
+      "model": "Wan 3.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 793
     },
     {
       "task_id": "f88eee8ea93242309b71621e354ccac2",
@@ -126,15 +152,48 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 172,
-      "wait_seconds": 3676,
+      "queue_count": 152,
+      "wait_seconds": 3072,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "c9812f39a5c84739b757b9d110e38ef6",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "created_at": "2026-10-17 17:37:53",
+      "model": "Wan 3.0",
+      "unlimited": false,
+      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal live-action space-opera battle, exterior | The cats' R"
+    },
+    {
+      "task_id": "f8810d1b4b624a50944363bf2e448f09",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "running",
+      "created_at": "2026-10-17 17:39:44",
+      "model": "Wan 3.0",
+      "unlimited": false,
+      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\r\nOptimized for Wan 3.0 | Photoreal live-action space-opera battle with a deadpan comic ch"
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
+    {
+      "task_id": "d3844e4199d64abebe323be430a5cb35",
+      "scene_id": 28,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-10-17 11:19:29"
+    },
+    {
+      "task_id": "762b3091b3e44b8599a0a58b91a253c5",
+      "scene_id": 28,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-10-17 06:20:26"
+    },
     {
       "task_id": "07f5e7a57b484035a1cee4d5479b1474",
       "scene_id": 46,
@@ -164,6 +223,13 @@
       "completed_at": "2026-10-17 02:37:30"
     },
     {
+      "task_id": "e471e35fc7454fe5a2a89e06fac3f122",
+      "scene_id": 28,
+      "mapping": "task_map",
+      "final_status": "success",
+      "completed_at": "2026-10-17 02:36:06"
+    },
+    {
       "task_id": "6ada672ccc5e48d2b1438c0aa18af945",
       "scene_id": null,
       "mapping": "unknown_new",
@@ -173,7 +239,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-17T17:20:10Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
