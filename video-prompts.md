@@ -3393,7 +3393,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Уточнение владельца 17.10.2026, 16:19 МСК:** удачный корабль из готового видео сохраняется, включая **четыре двигателя**. Подключены настоящие кадры корпуса и заднего вида из task `76f62cdad1bd4cff8ebc3306a0a3ec6b`. Камни/обломочное поле с этих исходных кадров не переносить: в 45-й — открытое космическое сражение. Это отменяет прежнюю правку о двух двигателях; старый результат целиком не помечается принятым автоматически.
 
-
 **Контекст использования:**
 
 - **Редакция 17.10.2026 после разбора владельцем:** 45 следующая после первоочередного изображения вуки-фанатов: одна исправленная бесплатная попытка. Бой кораблей в чистом космосе, без астероидов и поля обломков; четыре двигателя из удачного видео сохраняются во всех ракурсах. Внешний платный результат 76f62cdad1bd4cff8ebc3306a0a3ec6b создан по прежнему тексту, который остаётся в git-истории; новая редакция не меняет тот ролик. READY пакета не означает приёмку видео.
@@ -3489,7 +3488,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"related_to","scene":45}],"tags":["roskotmos","satellites","space_battle","comedy","logo"]} -->
 
 **Уточнение владельца 17.10.2026, 16:19 МСК:** удачный корабль из готового видео сохраняется, включая **четыре двигателя**. Подключены настоящие кадры корпуса и заднего вида из task `76f62cdad1bd4cff8ebc3306a0a3ec6b`. Камни/обломочное поле с этих исходных кадров не переносить: в 45-й — открытое космическое сражение. Это отменяет прежнюю правку о двух двигателях; старый результат целиком не помечается принятым автоматически.
-
 
 **Контекст использования:**
 
@@ -4577,14 +4575,13 @@ Fill the entire 16:9 image from edge to edge. No bars, no letterboxing, no pilla
 
 ---
 
-
 ---
 
 <a id="scene-52"></a>
 
 ## Сцена 52 — Серёга пересаживается на свой корабль и прилетает на Татуин
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"follows","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
 **Контекст использования:** После поломки шаттла 43–44, до татуинской ветки 16/42/48. Короткая временная склейка: сломанный шаттл уже остался вне кадра, Серёга пользуется собственным плоским кораблём из начала фильма. Показываем настоящий перелёт и посадку, а не только объяснение пересадки. Старт не выдаётся за точный последний кадр 44; новой механической поломки здесь нет. В монтаж достаточно 10–15 секунд из 30-секундного результата.
 
@@ -4652,14 +4649,13 @@ FRAME FILL / NO BARS:
 Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
-
 ---
 
 <a id="scene-53"></a>
 
 ## Сцена 53 — Взлёт Серёги с Татуина: курс на Набу
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"follows","scene":48},{"type":"before","scene":39}],"tags":["serega","travel","story_bridge","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":48},{"type":"related_to","scene":39}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
 **Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к припаркованному личному кораблю; точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39.
 
@@ -4727,14 +4723,13 @@ FRAME FILL / NO BARS:
 Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
-
 ---
 
 <a id="scene-54"></a>
 
 ## Сцена 54 — Доставка древнего компьютера в комнату: стык к Warcraft
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"follows","scene":41}],"tags":["serega","computer","story_bridge","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":41}],"tags":["serega","computer","story_bridge","continuity"]} -->
 
 **Контекст использования:** После возвращения на крейсер в 41, перед существующим игровым финалом. Комната и положение за столом взяты из настоящего результата Topview b9180e24788d4830a6c44fedf8dba7d4, просмотренного 17.10: тёмные рёбра стен, круглый иллюминатор, стол, тяжёлое кресло, CRT на горизонтальном блоке. Это проверенный исходный ролик финала, а не утверждение о выбранном дубле в самой свежей монтажной сборке. Новая связка заканчивается до включения ПК; склейка с подходящим боковым планом старого ролика около 5–7 с, без повторного захода к столу. Сам Warcraft заново не генерируется.
 

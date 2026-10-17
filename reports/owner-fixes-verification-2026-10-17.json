@@ -10,7 +10,7 @@
     "site_validator": "passed",
     "new_topview_submissions": 0
   },
-  "master_sha256": "d1f289a3d22964e5474f68fc1a0d0601389aa9a7b04aa1595438a5f663f54ba1",
+  "master_sha256": "0d89c388c21a420753acb015a94a505baf1c67eccf0f4af3da6d84fcfe29752c",
   "source_head": "f51d6ea9d988b2dbf4bfb17f2c7712358b5db01d",
   "remaining": [
     "six_account_slots_full",
@@ -18,5 +18,6 @@
     "48_waits_actual42_end",
     "50_image_not_generated_yet",
     "one15s_test_then_owner_review"
-  ]
+  ],
+  "canonical_format_fix": "Dependency types continues/related_to; compact spacing. No prompt body change."
 }
