@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T12:01:22.937Z",
+  "updated_at": "2026-10-17T12:03:16.079Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -142,7 +142,7 @@
       "canonical_prompt_sha256": "7efaa4eb794ca49a729903642b4f8f40f6c15d730ea784b33214b77b0b1a7e64",
       "normalized_prompt_sha256": "a06db2f570776e41a0002f491dd88ae332a3ef6bb0a202ffbc53eec3f60bf812",
       "priority": 12,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -183,7 +183,12 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": {
+        "run_id": "chatgpt-cloud-20261017-B9-1792238596080",
+        "claimed_at": "2026-10-17T12:03:16.079Z",
+        "actor": "ChatGPT Work",
+        "route": "free_web_gui"
+      }
     },
     {
       "id": "B10",
