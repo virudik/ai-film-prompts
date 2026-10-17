@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T22:59:53.290Z",
+  "last_updated_at": "2026-10-17T23:12:35.621Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -628,6 +628,31 @@
       "blockers": [
         "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
         "Actual continuity sources pending:43→44→52 and42→56→48."
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-SONG",
+      "title": "Песня Серёгиуса «Я ненадолго»",
+      "status": "in_progress",
+      "verified_at": "2026-10-17T23:12:35.621Z",
+      "authorization": "Owner18Oct02:06 asked to write film-story lyrics with Flares of the Blazing Sun reference and save in GitHub;02:08 asked about creation through Suno.",
+      "done": [
+        "Original Russian lyrics with Suno section tags and Styles prepared; current film decisions incorporated; screenshot reference identified.",
+        "Suno Create opened in built-in cloud browser and redirected to sign-in; no audio submission or spend."
+      ],
+      "next_actions": [
+        "User secure sign-in to Suno in cloud browser, then inspect creation options and cost.",
+        "Use music/seregius-ya-nenadolgo.md; verify complete lyrics/styles before any requested generation, preserve generated outputs if created."
+      ],
+      "blockers": [
+        "Suno account login required in this browser."
+      ],
+      "canonical_refs": [
+        "music/seregius-ya-nenadolgo.md"
+      ],
+      "constraints": [
+        "Do not modify film canon or replace49–51music without owner decision.",
+        "No subscription purchase or paid-credit spend without appropriate authorization; never claim original-track melody/structure was exactly reproduced."
       ]
     }
   ],
