@@ -83,4 +83,4 @@ Urgent cinematic alternative hard rock / melodic metal, 148 BPM, 4/4, minor key,
 
 ## Статус
 
-Подготовлено. Запуск ещё не подтверждён.
+Текст/Styles готовы. В Suno ещё не отправлялась: текущая Warcraft-версия ожидает hCaptcha. Следующая после сверки её результатов. Custom Duration нужно задать3:34. Квитанция: reports/suno-two-versions-2026-10-18.json.

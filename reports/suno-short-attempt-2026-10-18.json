@@ -4,16 +4,32 @@
   "authorized_at": "2026-10-17T23:35:14Z",
   "create_clicked_at": "2026-10-17T23:37:55.663Z",
   "create_click_count": 1,
-  "state": "blocked_captcha_submission_unconfirmed",
+  "state": "completed_results_observed",
   "model": "v6-mini",
   "custom_duration": "3:40",
   "lyrics_match": true,
   "styles_match": true,
-  "results": [],
+  "results": [
+    {
+      "id": "fa1894e5-ac8a-46d8-8b05-69c3721cc499",
+      "duration": "3:39",
+      "model": "V6-MINI"
+    },
+    {
+      "id": "0d79f4f0-e428-435d-a794-152c12d23dcd",
+      "duration": "3:39",
+      "model": "V6-MINI"
+    }
+  ],
   "input_audio_attached": false,
   "purchases": false,
   "credit_debit": "not_observed",
-  "next_action": "18.10.2026,02:38МСК: по команде владельца02:35 подготовлена короткая версия песни. Lyrics/Styles полностью сверены с формой, v6-mini, Custom Duration3:40. Один Create17Oct23:37:55.663UTC вызвал новую Cloudflare CAPTCHA. Новых songID нет; запуск не подтверждён. Окно передано владельцу. После проверки сначала искать новые песни с названием «Серёгиус — Я ненадолго (короткая версия)», не нажимать Create повторно вслепую. Текст: music/seregius-ya-nenadolgo-short.md; квитанция: reports/suno-short-attempt-2026-10-18.json. Старые полные5:31/5:33 остаются доступными; новые результаты не подменять ими.",
-  "evidence": "reports/evidence/suno-short-captcha-20261018.jpg",
-  "recorded_at": "2026-10-17T23:38:39.048Z"
+  "next_action": "Choose/listen to completed variants; no extra short-version generation.",
+  "evidence": "reports/evidence/suno-short-ready-20261018.jpg",
+  "recorded_at": "2026-10-17T23:44:41.533Z",
+  "preview_results": [
+    "11920bdb-747e-4574-a2e1-9669c314895b",
+    "f99753a1-63aa-4818-90f1-13405fd1e67d"
+  ],
+  "blocker": null
 }

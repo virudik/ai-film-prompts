@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:38:39.048Z",
+  "last_updated_at": "2026-10-17T23:45:27.809Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -657,20 +657,40 @@
     {
       "work_id": "FILM-20261018-SUNO-SHORT",
       "title": "Короткая версия песни Серёгиуса",
-      "status": "in_progress",
-      "verified_at": "2026-10-17T23:38:39.048Z",
+      "status": "completed",
+      "verified_at": "2026-10-17T23:45:27.809Z",
       "done": [
-        "Сокращены текст и структура; файл сохранён; Custom Duration3:40; форма сверена; один Create."
+        "Сокращены текст и структура; файл сохранён; Custom Duration3:40; форма сверена; один Create.",
+        "Два полных результата по3:39 подтверждены в Suno."
       ],
-      "blockers": [
-        "Новая Cloudflare CAPTCHA, submission unconfirmed. Manual handoff requested."
-      ],
+      "blockers": [],
       "next_actions": [
-        "После CAPTCHA проверить новые результаты до любого повторного Create."
+        "Владелец выбирает из двух готовых3:39"
       ],
       "canonical_refs": [
         "music/seregius-ya-nenadolgo-short.md",
         "reports/suno-short-attempt-2026-10-18.json"
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SUNO-TWO",
+      "title": "Warcraft и структура референса: две новые песни",
+      "status": "in_progress",
+      "verified_at": "2026-10-17T23:45:27.809Z",
+      "done": [
+        "Оба текста/Styles сохранены",
+        "Warcraft: точная форма,3:40, одинCreate"
+      ],
+      "blockers": [
+        "hCaptcha Warcraft, generation unconfirmed"
+      ],
+      "next_actions": [
+        "User completes hCaptcha in handed-off tab. Reconcile Warcraft results before any retry; then submit Мне домой once with Custom Duration3:34, exact saved Lyrics/Styles. No paid purchase or upgrade."
+      ],
+      "canonical_refs": [
+        "music/seregius-daite-mne-v-warcraft.md",
+        "music/seregius-mne-domoi.md",
+        "reports/suno-two-versions-2026-10-18.json"
       ]
     }
   ],

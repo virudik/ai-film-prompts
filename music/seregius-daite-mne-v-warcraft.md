@@ -82,4 +82,4 @@ High-energy comic space-adventure hard rock, melodic heavy metal, 148 BPM, 4/4. 
 
 ## Статус
 
-Подготовлено. Запуск ещё не подтверждён.
+Один Create17Oct23:44:29.854UTC. Появилась hCaptcha, новых songID нет. Окно передано владельцу, отправка генерации пока не подтверждена. Перед повторным Create сверить новые результаты. Квитанция: reports/suno-two-versions-2026-10-18.json.

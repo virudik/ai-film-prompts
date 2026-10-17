@@ -89,4 +89,4 @@ Compact high-energy hard rock / melodic metal, 148 BPM, 4/4, minor key. Target 3
 
 ## Статус
 
-18.10.2026,02:38МСК: по команде владельца02:35 подготовлена короткая версия песни. Lyrics/Styles полностью сверены с формой, v6-mini, Custom Duration3:40. Один Create17Oct23:37:55.663UTC вызвал новую Cloudflare CAPTCHA. Новых songID нет; запуск не подтверждён. Окно передано владельцу. После проверки сначала искать новые песни с названием «Серёгиус — Я ненадолго (короткая версия)», не нажимать Create повторно вслепую. Текст: music/seregius-ya-nenadolgo-short.md; квитанция: reports/suno-short-attempt-2026-10-18.json. Старые полные5:31/5:33 остаются доступными; новые результаты не подменять ими.
+Готовы два полных V6-MINI результата по3:39: https://suno.com/song/fa1894e5-ac8a-46d8-8b05-69c3721cc499 и https://suno.com/song/0d79f4f0-e428-435d-a794-152c12d23dcd . Также видны два V6 PREVIEW. Данные проверены по списку Suno18Oct02:42МСК. Аудио не прослушивалось. Квитанция: reports/suno-short-attempt-2026-10-18.json.
