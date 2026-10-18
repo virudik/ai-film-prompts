@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "scene_id": 54,
+  "prompt_id": "S54",
+  "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-18T17:03:22Z",
+  "verified_at": "2026-10-18T17:06:25.246Z",
+  "route": "Topview website GUI; exactly one Create click",
+  "status": "init",
+  "model": "Wan 3.0",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "mode": "omni_reference",
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "canonical_prompt_sha256": "65ecd138694d2c6d1b377f0119c8c666472bce81d4923964de1682e86043d6d1",
+  "normalized_prompt_sha256": "bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "actual_input": {
+        "name": "Image1",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/VWNqUFKZFxdp6A2ay6nkf.jpg"
+      }
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+      "actual_input": {
+        "name": "Image2",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/eS3wddII8ME34zo8cmCKa.png"
+      }
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-54/S54-room-opening-actual.png",
+      "sha256": "3c0f70a08c1a694f62bc10762eaaccefe5b01db2db61c0b0e27ac3d9827c40d0",
+      "actual_input": {
+        "name": "Image3",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/42zWwR1XuPXNKv9xA82DL.png"
+      }
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-54/S54-room-side-actual.png",
+      "sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a",
+      "actual_input": {
+        "name": "Image4",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/FTL3VuZjaKpYzOPncF34h.png"
+      }
+    }
+  ],
+  "claim": {
+    "run_id": "chatgpt-scheduled-20261018-S54-1792342990362",
+    "claimed_at": "2026-10-18T17:03:10.362Z",
+    "actor": "ChatGPT Work scheduled automation",
+    "route": "free_web_gui"
+  },
+  "claim_commit": "cf49bf54acc1fa4ce8be5d7000042ef51d1d81e1",
+  "ui_evidence": "reports/topview-queue-2026-10-18/S54-ui-proof.json",
+  "editorial_approval": false,
+  "slots_after_submit": {
+    "occupied": 6,
+    "capacity": 6,
+    "tasks": 909,
+    "boards": 11,
+    "pages": 16,
+    "complete_scan": true,
+    "checked_at": "2026-10-18T17:06:25.246Z",
+    "active_task_ids": [
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf",
+      "86741d99f7634e3b97e8b139996b83b0",
+      "0d1f17c226834bfbb851d76ed32f9877",
+      "56c0ea656f484b0cb8464233fe097e0d"
+    ]
+  }
+}
