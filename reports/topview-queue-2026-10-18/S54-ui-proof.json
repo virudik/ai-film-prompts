@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "item_id": "S54",
+  "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+  "captured_at": "2026-10-18T17:06:25.246Z",
+  "website": "Topview signed-in owner session, Plan Ultra",
+  "pre_submit_ui": {
+    "model": "Wan 3.0",
+    "mode": "Omni-reference",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "reference_cards": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "prompt_character_counter": 5732,
+    "canonical_prompt_sha256": "65ecd138694d2c6d1b377f0119c8c666472bce81d4923964de1682e86043d6d1",
+    "price_mode": "Unlimited — free",
+    "create_button_price_tokens": [],
+    "single_create_click": true
+  },
+  "post_submit_ui": {
+    "toast": "Задачи успешно отправлены",
+    "created_count": 1,
+    "queue_card_visible": true
+  },
+  "post_submit_readback": {
+    "status": "init",
+    "created_at": "2026-10-18T17:03:22Z",
+    "model_id": "qwen-wan3.0-video",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "input_count": 4,
+    "input_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "normalized_prompt_sha256": "bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2",
+    "normalized_match": true,
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "note": "UI screenshots were captured during the run; canonical evidence is the verified read-only task record and receipt."
+}
