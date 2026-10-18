@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Owner18Oct03:09: Seedance2.0 selection, deferred soundtrack and checkpoint",
-  "acquired_at": "2026-10-18T00:13:13.059Z",
-  "expires_at": null,
-  "released_at": "2026-10-18T00:17:09.455Z",
+  "task": "Prepare full Suno soundtrack prompt pack requested by owner04:40MSK",
+  "acquired_at": "2026-10-18T01:40:42.110Z",
+  "expires_at": "2026-10-18T02:25:42.110Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "run_id": "chatgpt-seedance-policy-20261018T001313059Z"
+  "run_id": "chatgpt-suno-prompts-20261018T014042110Z"
 }
