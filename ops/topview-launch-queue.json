@@ -2923,7 +2923,7 @@
       "canonical_prompt_sha256": "65ecd138694d2c6d1b377f0119c8c666472bce81d4923964de1682e86043d6d1",
       "normalized_prompt_sha256": "bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2",
       "priority": 2,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2970,7 +2970,13 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-scheduled-20261018-S54-1792342990362",
+        "claimed_at": "2026-10-18T17:03:10.362Z",
+        "actor": "ChatGPT Work scheduled automation",
+        "route": "free_web_gui",
+        "preflight": "Fresh complete 11-board/16-page/908-task scan; 5 active videos; no S54 normalized prompt duplicate; 4 reference SHA-256 values verified; UI prompt canonical raw/normalized SHA matched; Wan 3.0/Omni-reference/30s/720p/16:9/quantity1/Unlimited free"
+      },
       "authorization": "Direct owner17Oct16:11MSK: make and launch three missing story bridges via free website slots. Independent time-cut scene, no fabricated exact predecessor-frame dependency.",
       "max_credits": 0,
       "priority_owner_override": {
