@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-18T02:00:14Z",
+  "synced_at": "2026-10-18T02:21:58Z",
   "revision_date": "18.10.2026",
   "master_declared_last_full_sync": "18.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "daee963a49ef9fa4130cb2b9f64913a3b6f70380ad9ae18656eeb7ebcbed6d4d",
-  "canonical_revision_sha256": "efe6154499aba6987a0384fdf2ea7cbd6259be83e0544a86793c9b21c588a040",
-  "canonical_master_bytes": 711048,
+  "canonical_master_sha256": "a61d7e8867fcf301917f52f601d3f27ffa9ef7a39c7c3ea325f87b9c13fc6e5c",
+  "canonical_revision_sha256": "cc3692a2479ceaf7e32f7620eaab37b6caa577a174324d5c7686d8f1b779c210",
+  "canonical_master_bytes": 1148054,
   "scenes": 23,
-  "prompt_texts": 69,
+  "prompt_texts": 126,
   "work_items": [
     "W5",
     "W6",
@@ -93,16 +93,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-18T01:55:56.053Z",
+    "snapshot_at": "2026-10-18T02:20:59.147Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.072,
+    "age_hours_at_status_build": 0.016,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "a079232419166cdf76c9c26cc4920d4d039352a9",
-        "mirror_sha256": "badde6577c78ad1fd1d1a56dd47d7887aa088ad5086eae4684723cd9e1bff57e",
+        "github_blob": "5da6fdd5b6457c3a54a0f89a44d8aa165f49bf4d",
+        "mirror_sha256": "6e3edf6f93f73ae9af259a2b0457c5b1301ba447d965c0672fff88a4bb370d0d",
         "match": true,
         "drive_copy_sha256": "90d6e474ace840aa8adb56b5ee8dcf80fba0cf9c8a29a078710e6715c82f4ccd",
         "drive_copy_match": false,
@@ -132,8 +132,8 @@
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-        "github_blob": "2152934af3400b02bea3153bb2a3c98d3103ce30",
-        "mirror_sha256": "ac9860171bfe57a55965fabc1f9d9625e24950f51108e9304ef35106a2bd418c",
+        "github_blob": "82f3f30a64b802555c025e4db4e352bf1178d2cb",
+        "mirror_sha256": "6903cd6ba9f32f8e8b17bdc7f28620c7a6d181e01314bea39595cec81c03232b",
         "match": true,
         "drive_copy_sha256": "ac9860171bfe57a55965fabc1f9d9625e24950f51108e9304ef35106a2bd418c",
         "drive_copy_match": true,
@@ -176,7 +176,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.072,
+      "age_hours": 0.016,
       "blocking": false
     },
     "topview_task_map": {
@@ -301,7 +301,7 @@
       "render_state": "IDLE"
     },
     "37": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -326,7 +326,7 @@
       "render_state": "IDLE"
     },
     "39": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -345,7 +345,7 @@
       "render_state": "IDLE"
     },
     "40": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -385,7 +385,7 @@
       "render_state": "SLOW_PENDING"
     },
     "42": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -457,7 +457,7 @@
       "render_state": "IDLE"
     },
     "47": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -477,7 +477,7 @@
       "render_state": "IDLE"
     },
     "48": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -590,7 +590,7 @@
       "render_state": "IDLE"
     },
     "52": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -612,7 +612,7 @@
       "render_state": "IDLE"
     },
     "53": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "READY",
       "duration_s": 30,
       "dialogue": {
@@ -683,7 +683,7 @@
       "render_state": "SLOW_PENDING"
     },
     "56": {
-      "target_engine": "Wan 3",
+      "target_engine": "Seedance 2.0",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -712,11 +712,11 @@
   },
   "audit_fingerprint": {
     "revision_date": "18.10.2026",
-    "synced_at": "2026-10-18T02:00:14Z",
-    "canonical_master_sha256": "daee963a49ef9fa4130cb2b9f64913a3b6f70380ad9ae18656eeb7ebcbed6d4d",
-    "canonical_revision_sha256": "efe6154499aba6987a0384fdf2ea7cbd6259be83e0544a86793c9b21c588a040",
+    "synced_at": "2026-10-18T02:21:58Z",
+    "canonical_master_sha256": "a61d7e8867fcf301917f52f601d3f27ffa9ef7a39c7c3ea325f87b9c13fc6e5c",
+    "canonical_revision_sha256": "cc3692a2479ceaf7e32f7620eaab37b6caa577a174324d5c7686d8f1b779c210",
     "scene_count": 23,
-    "prompt_count": 69,
+    "prompt_count": 126,
     "scene_ids": [
       13,
       16,
