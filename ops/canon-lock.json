@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Topview free launch S41",
-  "acquired_at": "2026-10-18T00:00:41.362Z",
-  "expires_at": null,
-  "released_at": "2026-10-18T00:05:00Z",
+  "task": "Owner18Oct03:09: Seedance2.0 selection, deferred soundtrack and checkpoint",
+  "acquired_at": "2026-10-18T00:13:13.059Z",
+  "expires_at": "2026-10-18T00:58:13.059Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "run_id": "chatgpt-s41-20261018000041"
+  "run_id": "chatgpt-seedance-policy-20261018T001313059Z"
 }
