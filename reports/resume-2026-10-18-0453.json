@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-10-18T01:56:52.551Z",
+  "mode": "manual_read_only_queue_check",
+  "boards": 11,
+  "pages": 17,
+  "tasks": 907,
+  "complete": true,
+  "occupied_slots": 6,
+  "free_slots": 0,
+  "active": [
+    {
+      "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    },
+    {
+      "task_id": "86741d99f7634e3b97e8b139996b83b0",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    },
+    {
+      "task_id": "0d1f17c226834bfbb851d76ed32f9877",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    },
+    {
+      "task_id": "56c0ea656f484b0cb8464233fe097e0d",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    },
+    {
+      "task_id": "5333994f739f4a8b813a6a36dcb7e140",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    },
+    {
+      "task_id": "979f07acffe04750961515f4baf21a3f",
+      "status": "init",
+      "model": "qwen-wan3.0-video",
+      "unlimited": true
+    }
+  ],
+  "new_submissions": 0,
+  "browser": "Cloud Topview owner session visibly signed in, Ultra",
+  "preflight": {
+    "mode": "full_required",
+    "short_ready": false,
+    "reason": "stale instruction certificate after handoff changes; full editorial intake not yet completed"
+  },
+  "certificate_repair_commit": "882a0539df79ffa61431762bf8c4f588d56cf450",
+  "next": "S43-R1 when slot available; S44 still requires Seedance adaptation and actual corrected S43 result"
+}
