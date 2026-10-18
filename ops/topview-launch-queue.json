@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-17T22:21:36Z",
+  "updated_at": "2026-10-18T00:16:01.103453Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -204,7 +204,7 @@
       "canonical_prompt_sha256": "d7ef77875947458a6bd8b4bc9c96ee1ab94eb82a6d42ec22455c15c410d2a9a9",
       "normalized_prompt_sha256": "859c90a405858018d0a1d3138cbe84b0f88ae3970e91b042607aae92138d5ed3",
       "priority": 500,
-      "state": "blocked_test_review",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -217,13 +217,13 @@
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48"
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2"
       ],
       "references": [
         {
@@ -236,7 +236,7 @@
       ],
       "task_id": null,
       "claim": null,
-      "blocker": "Owner requested one15s corrected A1 test first. No further new Scene28 dance submissions before owner assessment."
+      "blocker": "No further Wan dance. A1 Seedance2.0 test first, owner review before selecting further A-series; A10 not automatically authorized."
     },
     {
       "id": "S36-S36",
@@ -312,7 +312,7 @@
       "canonical_prompt_sha256": "7e21c0c2e5f0619682ce1ea6426c1f9a3b9c371cbc2141c71e447bfdbd192c2c",
       "normalized_prompt_sha256": "f4de22f4a756c0429a0c0737289d3bfc2e6788dc0e0399faba0f8fb4852ea8f5",
       "priority": 4,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -375,7 +375,13 @@
         "afd6773dfb34724ec8d8cd82b48fc80a698b216cd5f418f9756052945d5b6254",
         "529472e581902706e06e5dabee6631f02cc4fd94fffab9df06557a2dff5de75c"
       ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S37-SEED20-P1",
+        "S37-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S13-S13",
@@ -1013,7 +1019,7 @@
       "canonical_prompt_sha256": "d5c08c49c81167452fcb4db776bce66b47e31240af420a856dbf0aa57a4d2d83",
       "normalized_prompt_sha256": "4845cb2f6bdc8d684378bdeb56a9794081f1906de02a07e55cbe5d871d2ae30a",
       "priority": 6,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1072,7 +1078,13 @@
         "adb3f289326acbf6b7b9885bc9744bae2823bb1070fe729eeb28b65700785e71",
         "88ea12e3b20ccc4cea940ca6d9d2e3210969935c10b9f52d4e4ad6163391a7f8"
       ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S40-SEED20-P1",
+        "S40-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S45",
@@ -1254,7 +1266,7 @@
       "canonical_prompt_sha256": "d5483bc47801229fe26e242fb085c0558ad0d8ccbc6070d11a76f84ffebe895f",
       "normalized_prompt_sha256": "4ee6fdad6350c735558462c7a640261738de3ed6758bda8cd26f41ed784bf0c8",
       "priority": 36,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1306,7 +1318,13 @@
       "claim": null,
       "previous_prompt_sha256": [
         "2a36d6653917dfdfb535881753f2ed5348bbedcf612d31f96f2be39a31b85952"
-      ]
+      ],
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S47-SEED20-P1",
+        "S47-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S41",
@@ -1417,7 +1435,7 @@
       "canonical_prompt_sha256": "e7275e58414252a957a5ca36b1f35c5c761921cdc92c3ce95901a862273be175",
       "normalized_prompt_sha256": "9fc7490017454ee3e5a2db9b6c13b51ac910dc313f536f62da44af44db027e7d",
       "priority": 35,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1469,7 +1487,13 @@
       "claim": null,
       "previous_prompt_sha256": [
         "c0f26efe865b9a3e801d39e65b35aeb34fbff384c62f5ae2290ad562bbabfa5e"
-      ]
+      ],
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S42-SEED20-P1",
+        "S42-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S39",
@@ -1479,7 +1503,7 @@
       "canonical_prompt_sha256": "0b4cc2ff1c1b88f9f50cea972f1632e09438d005d58b1bd03a7855649edf92a8",
       "normalized_prompt_sha256": "b24d9834b1d3fb22660336c9bdde07387a2447a080d707f54c1b833afad15f2d",
       "priority": 5,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1542,7 +1566,13 @@
         "source": "Explicit owner sequence",
         "sequence_index": 5
       },
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S39-SEED20-P1",
+        "S39-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S49A",
@@ -1552,7 +1582,7 @@
       "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
       "normalized_prompt_sha256": "ede7b5d4aed64838c882606459405dec64e5dd3147ce98468f0fd883fd9b4b81",
       "priority": 610,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1565,20 +1595,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -1615,7 +1644,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S49B",
@@ -1625,7 +1656,7 @@
       "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
       "normalized_prompt_sha256": "58cd189029db2762f2d53e1a8ff40ac1ee23994d47c1196e94c001b36f2aabab",
       "priority": 611,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1638,20 +1669,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -1694,7 +1724,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S49C",
@@ -1704,7 +1736,7 @@
       "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
       "normalized_prompt_sha256": "646e9b3e0835dddd4e19b8c071a1f0eef5f55195d1f222836646216ee5a2acc9",
       "priority": 612,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1717,20 +1749,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -1773,7 +1804,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S49D",
@@ -1783,7 +1816,7 @@
       "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
       "normalized_prompt_sha256": "304f067568f7ab533dc431cda984457a689b03207d03ab54f508f8e5cf02b48d",
       "priority": 613,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1796,20 +1829,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -1846,7 +1878,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S49E",
@@ -1856,7 +1890,7 @@
       "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
       "normalized_prompt_sha256": "dc69a7f17091754e93a6cb3e087487151ecd786113d67cc2bb3369bdddad8a57",
       "priority": 614,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1869,20 +1903,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -1919,7 +1952,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S49F",
@@ -1929,7 +1964,7 @@
       "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
       "normalized_prompt_sha256": "d2bf032478abe9a7023ea8472fbe9d9548b2d816b6d0225732eb8ca9833e925b",
       "priority": 615,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -1942,20 +1977,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -2010,7 +2044,9 @@
         }
       ],
       "task_id": null,
-      "claim": null
+      "claim": null,
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S51A",
@@ -2020,7 +2056,7 @@
       "canonical_prompt_sha256": "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4",
       "normalized_prompt_sha256": "f1667b575e639db707a3b0cb067d43212db6acb951c4f8970a6edb1fc9aa7901",
       "priority": 618,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2033,7 +2069,6 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S49F",
         "S50A",
@@ -2041,15 +2076,15 @@
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -2109,7 +2144,9 @@
       "previous_prompt_sha256": [
         "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c"
       ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S51B",
@@ -2119,7 +2156,7 @@
       "canonical_prompt_sha256": "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
       "normalized_prompt_sha256": "6c8fea6c4fb7982a4101a8d329454ead6b1314d3f638ca902a5feb7fce3de5a9",
       "priority": 619,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -2132,21 +2169,20 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S51A",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017"
       ],
@@ -2206,7 +2242,9 @@
         "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51."
+      "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S45-R1-20261017",
@@ -2407,7 +2445,7 @@
       "max_new_submissions": 1,
       "id": "S44-R1-20261017",
       "priority": 7,
-      "state": "blocked_inputs",
+      "state": "blocked_model_preparation",
       "task_id": null,
       "claim": null,
       "canonical_prompt_sha256": "0bc28e85184e722d0adb4791a1a726b605d2d01a0abd5111c3aa945b56f33b47",
@@ -2446,8 +2484,8 @@
         "d837b803f130431ea0e2e5ad4b786c09"
       ],
       "attempt": "one_corrected_attempt_authorized_20261017",
-      "blocker": "Need actual clean ending of NEW43 with jammed wing",
-      "launch_readiness": "blocked_continuity",
+      "blocker": "Owner18Oct03:09: comic physical repair is high-motion; prepare actual Seedance2.0 15s-part prompts and matching inputs before launching. Existing30sWan block is not authorized for new submission. Also requires actual corrected43 ending. Keep single-wing/empty-root continuity and52 bridge.",
+      "launch_readiness": "blocked_model_and_continuity",
       "max_credits": 0,
       "priority_owner_override": {
         "requested_at": "2026-10-17T19:52:55Z",
@@ -2461,7 +2499,8 @@
           "One physical detached wing only; zero left wings remain on hull; empty hinge and fallen wing visible together",
           "Actual corrected43 Video1 required"
         ]
-      }
+      },
+      "selected_model": "Seedance 2.0"
     },
     {
       "scene_id": 56,
@@ -2477,7 +2516,7 @@
       "max_new_submissions": 1,
       "id": "S56",
       "priority": 36,
-      "state": "blocked_inputs",
+      "state": "superseded_owner_model_selection",
       "task_id": null,
       "claim": null,
       "canonical_prompt_sha256": "40f12d38a8b9d9b217af4235f7ec6204432072bc5ec31a70b34cde2eb075469b",
@@ -2525,7 +2564,13 @@
       ],
       "blocker": "Need actual clean ending of42 (three locked blades, worm maw hanging over them); no AI substitute",
       "launch_readiness": "blocked_continuity",
-      "max_credits": 0
+      "max_credits": 0,
+      "previous_state_before_seedance_selection": "blocked_inputs",
+      "superseded_by": [
+        "S56-SEED20-P1",
+        "S56-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "scene_id": 48,
@@ -2541,7 +2586,7 @@
       "max_new_submissions": 1,
       "id": "S48",
       "priority": 37,
-      "state": "blocked_inputs",
+      "state": "superseded_owner_model_selection",
       "task_id": null,
       "claim": null,
       "canonical_prompt_sha256": "1080dbdcb5743bd3df1abe729251d554a12f54b76f493fbc92a44ba8471d8d95",
@@ -2601,7 +2646,13 @@
         "f22fcd592d97a8a63c91a0465036f3f44c55eb001affa731044b11cd5234a383"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "revision_note_20261018_0030": "Owner 18.10 MSK: ending changed — Serega rides the worm away; @Video1 now = end of S56 (see owner_instruction_20261018_0030)."
+      "revision_note_20261018_0030": "Owner 18.10 MSK: ending changed — Serega rides the worm away; @Video1 now = end of S56 (see owner_instruction_20261018_0030).",
+      "previous_state_before_seedance_selection": "blocked_inputs",
+      "superseded_by": [
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S50-FANS-IMAGE",
@@ -2688,7 +2739,7 @@
       "canonical_prompt_sha256": "60e3e71873bf1bf73c9aba215a656ff7fc6658b508f7c0b2820d5ad89fae0c49",
       "normalized_prompt_sha256": "ceceb5620d8fc9839a3146c1e7311717c0e3352649757d9c0910e55ddf2f1dbb",
       "priority": 20,
-      "state": "blocked_inputs",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2762,7 +2813,13 @@
       "launch_readiness": "blocked_continuity",
       "blocker": "Need actual clean ending of corrected44 (ONE fallen wing, empty root) for @Video1; free UI accepts 1 video + 5 images. Tatooine town is described in the prompt text, no frame needed (owner 18.10 00:17).",
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017)."
+      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017).",
+      "previous_state_before_seedance_selection": "blocked_inputs",
+      "superseded_by": [
+        "S52-SEED20-P1",
+        "S52-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S53",
@@ -2772,7 +2829,7 @@
       "canonical_prompt_sha256": "94f9a0252aa352aed5d195429a00f3c66aed220a07943def187c198979383704",
       "normalized_prompt_sha256": "5c028afd686ad0543691141c28d13ae9f2e4d75e2f49f3c2cd4ef856fedb7ee3",
       "priority": 21,
-      "state": "waiting_for_slot",
+      "state": "superseded_owner_model_selection",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2828,7 +2885,13 @@
         "0f43d5446d38193be25dcef50cb556f716c0f587b85629217eff0f8714b550b3"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
-      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017)."
+      "revision_note_20261018_0017": "Owner 18.10 00:17 MSK: no town frame; Tatooine town described in prompt text (TATOOINE TOWN LOCK); town slot removed (see owner_instruction_20261018_0017).",
+      "previous_state_before_seedance_selection": "waiting_for_slot",
+      "superseded_by": [
+        "S53-SEED20-P1",
+        "S53-SEED20-P2"
+      ],
+      "selection_note": "18Oct03:09MSK: do not launch this Wan version; use selected two15s Seedance2.0 items."
     },
     {
       "id": "S54",
@@ -2916,16 +2979,20 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "depends_on_submitted": [
-        "S52",
-        "S53",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47"
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S43-R1-20261017",
+        "S44-R1-20261017",
+        "S56-SEED20-P2",
+        "S48-SEED20-P2"
       ],
       "references": [
         {
@@ -3219,7 +3286,7 @@
       "canonical_prompt_sha256": "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a",
       "normalized_prompt_sha256": "99cdb9803ecf1e5510fc48e10bfb0e95d977763b72224788e82bec04f38a18ff",
       "priority": 616,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3232,20 +3299,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017",
         "S49F"
@@ -3287,7 +3353,9 @@
       "max_credits": 0,
       "authorization": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
       "added_at": "2026-10-17T21:04:19Z",
-      "added_by": "claude:scene-review"
+      "added_by": "claude:scene-review",
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
     },
     {
       "id": "S50B",
@@ -3297,7 +3365,7 @@
       "canonical_prompt_sha256": "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd",
       "normalized_prompt_sha256": "cdd33389e02cbf3ada72f7ace8a90f82ba7ad8010469df67c9c9a404077f96a9",
       "priority": 617,
-      "state": "waiting_for_slot",
+      "state": "blocked_test_review",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3310,20 +3378,19 @@
         "B7",
         "B8",
         "B9",
-        "B10",
         "B3",
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S36-S36",
-        "S37-S37",
-        "S39",
-        "S40",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
         "S41",
-        "S42",
-        "S47",
-        "S48",
-        "S52",
-        "S53",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S48-SEED20-P2",
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017",
         "S49F",
@@ -3366,7 +3433,1288 @@
       "max_credits": 0,
       "authorization": "Owner 16.10: scene 50 (two 15s Wookiee fan inserts) in the music block, free only; owner 17.10 23:58 chose fan frame variant 2 (task 1c48a62d14d14d348a5c49fe5cdb5e70).",
       "added_at": "2026-10-17T21:04:19Z",
-      "added_by": "claude:scene-review"
+      "added_by": "claude:scene-review",
+      "owner_review_required_after_item": "S28-A1-TEST-20261017",
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+    },
+    {
+      "id": "S37-SEED20-P1",
+      "scene_id": 37,
+      "prompt_id": "S37-SEED20-P1",
+      "canonical_block_label": "37 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "8791feaa54e426357664e0cc7f060c82ac249754b8a04bd03931207106725ff0",
+      "normalized_prompt_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
+      "priority": 4,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S36-S36"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S37-S37",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S37-SEED20-P2",
+      "scene_id": 37,
+      "prompt_id": "S37-SEED20-P2",
+      "canonical_block_label": "37 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
+      "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1",
+      "priority": 4.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S37-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S37-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S37-S37",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S37-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S37-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S39-SEED20-P1",
+      "scene_id": 39,
+      "prompt_id": "S39-SEED20-P1",
+      "canonical_block_label": "39 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "c4488e22f0d4a04d64f9cfdcfc6a6e0d6c3212b1c6b1bf929b75553e8d6a3286",
+      "normalized_prompt_sha256": "96703e313539eee67782048dc8e485499e18a5d8619e3a4a000a43e5338a2871",
+      "priority": 5,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
+          "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S39",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S39-SEED20-P2",
+      "scene_id": 39,
+      "prompt_id": "S39-SEED20-P2",
+      "canonical_block_label": "39 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
+      "normalized_prompt_sha256": "f56f817befcc3cd65621300515653cc5d03e352a4a9d1ed0a29eb39a157d763e",
+      "priority": 5.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S39-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S39-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+          "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
+          "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+          "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S39",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S39-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S39-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S40-SEED20-P1",
+      "scene_id": 40,
+      "prompt_id": "S40-SEED20-P1",
+      "canonical_block_label": "40 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "8c73d00c7235e53e07ba8081755af3571887b26d857419aa2e17b3f61760fac3",
+      "normalized_prompt_sha256": "0a69b424907169209f3f2f6bf340306390387f65278ca1c6df77734389f0c33c",
+      "priority": 6,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
+          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S40",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S40-SEED20-P2",
+      "scene_id": 40,
+      "prompt_id": "S40-SEED20-P2",
+      "canonical_block_label": "40 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
+      "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
+      "priority": 6.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S40-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S40-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S40",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S40-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S40-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S42-SEED20-P1",
+      "scene_id": 42,
+      "prompt_id": "S42-SEED20-P1",
+      "canonical_block_label": "42 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608",
+      "normalized_prompt_sha256": "c0f625602109c411d1299a5e15037d0b641cd9cd82fceb594b8208891ee31013",
+      "priority": 35,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-42/S42-start-from-S16-result.png",
+          "sha256": "99d2175159727444485b4eef94758898cd1813ec07c06c44b2a16013818fa1ef",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S42",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S42-SEED20-P2",
+      "scene_id": 42,
+      "prompt_id": "S42-SEED20-P2",
+      "canonical_block_label": "42 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "9d9f51153e025523e9ce2befbf37f19ada36f16842bd1296f8380259a6407355",
+      "normalized_prompt_sha256": "8c54eecdac7595a5ff9a2e1a31f7c941763aa4ecef1bae79810fdf317e19c74b",
+      "priority": 35.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S42-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S42-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S42",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S42-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S42-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S47-SEED20-P1",
+      "scene_id": 47,
+      "prompt_id": "S47-SEED20-P1",
+      "canonical_block_label": "47 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "c45a400022a60e94e4ec104800f373d169b51d589f295371286b29ab7f3843dd",
+      "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+      "priority": 36,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-47/S47-start-from-S32-result.png",
+          "sha256": "84c1e1cff50ed555813120d6c83c1325eb2210b86439a8ea683f31ba14e78793",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S47",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S47-SEED20-P2",
+      "scene_id": 47,
+      "prompt_id": "S47-SEED20-P2",
+      "canonical_block_label": "47 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "912df9aac9818879e48a5ee8951e0a494e3d9a9859e520da03f6acd14d2d2852",
+      "normalized_prompt_sha256": "de94103dc0f6a115f46993440ead02f7aa92af26fd21c4d163cc5f7c2b039410",
+      "priority": 36.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S47-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S47-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-27/S27-three-subject-scale.png",
+          "sha256": "745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S47",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S47-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S47-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S48-SEED20-P1",
+      "scene_id": 48,
+      "prompt_id": "S48-SEED20-P1",
+      "canonical_block_label": "48 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "817e9e65ee7026598033f8d9b4c7e8a65a70afbe6f3b8b6659cc6f7ea8e8e945",
+      "normalized_prompt_sha256": "a438536e376c18a1a8cdb768dc9b2b4b5cef59bd5acc1e546c9ab6e5aad03bd6",
+      "priority": 37,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S56-SEED20-P2"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_scene_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S56-SEED20-P2",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S48",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S56-SEED20-P2"
+      ],
+      "blocker": "Actual ending of S56-SEED20-P2 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S48-SEED20-P2",
+      "scene_id": 48,
+      "prompt_id": "S48-SEED20-P2",
+      "canonical_block_label": "48 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113",
+      "normalized_prompt_sha256": "7ad8ca15024be9afbbec37dd893866824ad533743150cd374da5b8f7882d1883",
+      "priority": 37.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S48-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S48-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S48",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S48-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S48-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S52-SEED20-P1",
+      "scene_id": 52,
+      "prompt_id": "S52-SEED20-P1",
+      "canonical_block_label": "52 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "f77f5ee9a8174c1d296b6fd5806b971103d3f5a18c987323d2c03bacff03cc7e",
+      "normalized_prompt_sha256": "4fd3797b496a9a4b3fc068a4d91cc634008fce823ce3ef15c1e2e571114270fe",
+      "priority": 20,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S44-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_scene_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S44-R1-20261017",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+          "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S52",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S44-R1-20261017"
+      ],
+      "blocker": "Actual ending of S44-R1-20261017 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S52-SEED20-P2",
+      "scene_id": 52,
+      "prompt_id": "S52-SEED20-P2",
+      "canonical_block_label": "52 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "3dc4d562c555cf700c3fe97be3c0c651dfbbdd2deb2a2ee387d62d0313d688cb",
+      "normalized_prompt_sha256": "333a32b2b12f6e0a380f8df93935621124fe5bca803186e9d638935a3413fc7c",
+      "priority": 20.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S52-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S52-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S52",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S52-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S52-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S53-SEED20-P1",
+      "scene_id": 53,
+      "prompt_id": "S53-SEED20-P1",
+      "canonical_block_label": "53 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
+      "normalized_prompt_sha256": "88a68120439e836f113e55218fa3e9b0dc69a4296d2c4125e7a99379bf58d7ac",
+      "priority": 21,
+      "state": "waiting_for_slot",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S53",
+      "selection_record": "reports/seedance-selection-2026-10-18.md"
+    },
+    {
+      "id": "S53-SEED20-P2",
+      "scene_id": 53,
+      "prompt_id": "S53-SEED20-P2",
+      "canonical_block_label": "53 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "b7d51de51a28a893e915b306e8d0116f67f4483e4301cd117cd633126492b0cf",
+      "normalized_prompt_sha256": "076064df6bebba63b3bbf018f9db4572bbfdf92be6a605704c829245a9024ec3",
+      "priority": 21.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S53-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S53-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+          "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S53",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S53-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S53-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S56-SEED20-P1",
+      "scene_id": 56,
+      "prompt_id": "S56-SEED20-P1",
+      "canonical_block_label": "56 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d",
+      "normalized_prompt_sha256": "2a1e6ef348f7fdaf9020450ea1af9144b1639c701969e9eaf62c3cbda07eb45e",
+      "priority": 36,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S42-SEED20-P2"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_scene_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S42-SEED20-P2",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S56",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S42-SEED20-P2"
+      ],
+      "blocker": "Actual ending of S42-SEED20-P2 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
+    },
+    {
+      "id": "S56-SEED20-P2",
+      "scene_id": 56,
+      "prompt_id": "S56-SEED20-P2",
+      "canonical_block_label": "56 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "22acbc93f6474a52053a2a8b76651d933e2717d33f0170b39818578d08da1db9",
+      "normalized_prompt_sha256": "785dd3527adb74c8c9d2b68a50cb47de0cd240c75c5ccaab9f813ea9f1c0fefc",
+      "priority": 36.1,
+      "state": "blocked_inputs",
+      "model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "depends_on_submitted": [
+        "S56-SEED20-P1"
+      ],
+      "references": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S56-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "task_id": null,
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S56",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S56-SEED20-P1"
+      ],
+      "blocker": "Actual ending of S56-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "launch_readiness": "blocked_continuity"
     }
   ],
   "already_submitted": {
@@ -3398,7 +4746,7 @@
     "scene27": [
       "S27-part-1"
     ],
-    "reason": "Master defines A/B and 30s/2x15s as alternative versions, not a requirement to render every duplicate. Continue the already started Wan dance production; keep A alternatives for comparison or a later explicit selection."
+    "reason": "Alternatives are not a command to render every duplicate. Owner18Oct03:09 selected Seedance2.0 for future dance/action: nine story pairs now selected; A-series after ONE A1 test remains owner-review-gated. Previously submitted Wan results remain historical."
   },
   "excluded_completed_scenes": [
     33,
@@ -3497,6 +4845,7 @@
     53,
     42,
     47,
+    56,
     48,
     28,
     49,
@@ -3689,5 +5038,53 @@
       "45/46 (RosKOTmos): option A, the cats own breakthrough to the Sith planet, not the Jedi space battle."
     ],
     "queue_effect": "New canonical/normalized SHA for S37-S37, S39, S40, S41, S42, S47, S48, S52, S53 (old values in previous_prompt_sha256). References, order and states unchanged."
+  },
+  "owner_instruction_20261018_0309": {
+    "requested_at": "2026-10-18T00:09:36Z",
+    "source": "Direct owner message in active chat",
+    "future_dance_and_action_model": "Seedance 2.0",
+    "free_only": true,
+    "forbidden_model_substitutes": [
+      "Wan 3.0",
+      "Seedance 2.5"
+    ],
+    "scope": "New dance, high-motion/action and flight submissions; preserve submitted jobs and existing accepted results. Quiet36/43/54 remain as prepared.",
+    "selected_scene_pairs": [
+      37,
+      39,
+      40,
+      42,
+      47,
+      48,
+      52,
+      53,
+      56
+    ],
+    "selected_items": [
+      "S37-SEED20-P1",
+      "S37-SEED20-P2",
+      "S39-SEED20-P1",
+      "S39-SEED20-P2",
+      "S40-SEED20-P1",
+      "S40-SEED20-P2",
+      "S42-SEED20-P1",
+      "S42-SEED20-P2",
+      "S47-SEED20-P1",
+      "S47-SEED20-P2",
+      "S48-SEED20-P1",
+      "S48-SEED20-P2",
+      "S52-SEED20-P1",
+      "S52-SEED20-P2",
+      "S53-SEED20-P1",
+      "S53-SEED20-P2",
+      "S56-SEED20-P1",
+      "S56-SEED20-P2"
+    ],
+    "historical_S41": "bf3465e1c4de4a869f4bba5f2eed5acf submitted00:03:43UTC before decision; no duplicate.",
+    "S44": "Blocked for true Seedance prompt adaptation plus actual43 source; do not relabel30sWan.",
+    "dance_gate": "ONE15s A1 after story, then owner review; no B10Wan or automatic A-series batch.",
+    "soundtrack": "DEFERRED: music/soundtrack-plan.md; no new background music generations.",
+    "automation_id": "6acae6ab433481919e88665c520b8ef2",
+    "precedence": "Supersedes earlier not-authorized-backups and continue-Wan-dances clauses."
   }
 }

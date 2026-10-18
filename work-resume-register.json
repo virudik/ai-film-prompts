@@ -1,24 +1,22 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-18T00:05:00Z",
+  "last_updated_at": "2026-10-18T00:16:01.103453Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-14",
+      "verified_at": "2026-10-18T00:16:01.103453Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
-        "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161"
+        "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161",
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
       ],
       "next_actions": [
-        "Сверить/применить актуальный шаблон USER-GUIDE.md § «2. ChatGPT Project» в реальных настройках ChatGPT Project: однословный триггер «Продолжай» пока unverified (GitHub не меняет поле автоматически)",
-        "Проверить новую команду «Продолжай» в отдельном Project-чате без ручного хендофа и сверить 10 инвариантов и zero-repeat questions",
-        "Обновить непосредственно Project Files через пользовательский интерфейс, потому что Project file-write API из текущего чата недоступен",
-        "После испытания обновить issue #9 и register; при ошибке полный D7 fallback"
+        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -31,7 +29,12 @@
         "work-resume-register.json",
         "USER-GUIDE.md"
       ],
-      "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings"
+      "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
+      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
+      "blockers": [
+        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
+        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
+      ]
     },
     {
       "work_id": "FILM-20261014-REFS-DANCE",
@@ -304,7 +307,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-18T00:05:00Z",
+      "verified_at": "2026-10-18T00:16:01.103453Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -323,12 +326,11 @@
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
         "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
         "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
-        "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified."
+        "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified.",
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
       ],
       "next_actions": [
-        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
-        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
-        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
+        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -351,10 +353,10 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "Latest verified state after S41 submit: 6 active Unlimited videos, 0 free slots; rescan before any further submit.",
-        "Actual continuity sources pending:43→44→52 and42→56→48."
+        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
+        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
-      "next_action": "Next authorized item: corrected S43-R1-20261017 on the first free video slot, then S54→S36→S37→S39→S40→S44, with current dependencies and fresh canon.",
+      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -466,7 +468,7 @@
       "work_id": "FILM-20261016-NEW-REFS-LAUNCH",
       "title": "Новые референсы и бесплатная очередь 39–51",
       "status": "in_progress",
-      "verified_at": "2026-10-17T22:59:53.290Z",
+      "verified_at": "2026-10-18T00:16:01.103453Z",
       "done": [
         "Created and visually checked one shared RosKOTmos ship exterior for45/46; full file, thumbnail, manifest and master links saved;45/46 READY.",
         "40 added first among new scenes; dance prompts untouched.",
@@ -510,12 +512,11 @@
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
         "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
-        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
       ],
       "next_actions": [
-        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
-        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
-        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
+        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
       ],
       "canonical_refs": [
         "references/scenes/scene-45/manifest.json",
@@ -532,10 +533,10 @@
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
-      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
+      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
       "blockers": [
-        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
-        "Actual continuity sources pending:43→44→52 and42→56→48."
+        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
+        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "handoff_requested_at": "2026-10-17T11:32:48Z",
       "handoff_status": "continuing_owner_confirmed_plan_20261017_1648",
@@ -569,7 +570,7 @@
       "work_id": "FILM-20261017-OWNER-FIXES",
       "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
       "status": "in_progress",
-      "verified_at": "2026-10-17T22:59:53.290Z",
+      "verified_at": "2026-10-18T00:16:01.103453Z",
       "done": [
         "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
         "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
@@ -589,12 +590,11 @@
         "43/44 prompt corrections published and Pages masterSHA dda59f6f91bed9f9205dd2ff3d93c3fb63fb0cbfafec0f823d59de95ccd0dd78 matched project-status health=ok; output-video QC remains pending.",
         "Owner23:03:44comic escalation;52 actual44Video1 seamless start (blocked_inputs until source); recurring visible yellow bread/milk note in6travel prompts;55unchanged/submitted. See reports/bread-milk-callback-2026-10-17.md.",
         "23:03 owner callback edits verified on Pages: master/statusSHA f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24, health=ok, run39065474905success, browser confirms52bridge+6note descriptions. Actual output QC pending.",
-        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
       ],
       "next_actions": [
-        "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
-        "44 needs corrected43Video1;52 needs corrected44Video1;56 needs42Video1;48 needs56Video1. Save actual sources and QC before READY.",
-        "WookieeV2 already selected/linked50/51; no new images or selection gate. After story ONE15s dance test, then review gates/music. Seedance backups only on separate owner request; no45/46reruns, no55repeat."
+        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -607,7 +607,7 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
+      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
       "last_observed_topview": {
         "checked_at": "2026-10-17T19:38:17.221Z",
         "boards": 11,
@@ -630,8 +630,8 @@
         "52: actual ending of corrected44, video provenance/SHA/QC and free UI1video+6images support"
       ],
       "blockers": [
-        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
-        "Actual continuity sources pending:43→44→52 and42→56→48."
+        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
+        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ]
     },
     {
@@ -696,6 +696,30 @@
         "music/seregius-daite-mne-v-warcraft.md",
         "music/seregius-mne-domoi.md",
         "reports/suno-two-versions-2026-10-18.json"
+      ]
+    },
+    {
+      "work_id": "FILM-20261018-SOUNDTRACK",
+      "title": "Оригинальная фоновая музыка по эпизодам фильма",
+      "status": "deferred",
+      "verified_at": "2026-10-18T00:16:01.103453Z",
+      "owner_decision_at": "2026-10-18T00:09:36Z",
+      "done": [
+        "План, предварительная карта27музыкальных эпизодов и3пилотных промпта сохранены вместе с готовыми песнями. Новых генераций не было."
+      ],
+      "next_actions": [
+        "Возобновлять только по новому указанию владельца: сначала аудит встроенной музыки/речи/шумов в актуальном монтаже."
+      ],
+      "blockers": [],
+      "canonical_refs": [
+        "music/README.md",
+        "music/soundtrack-plan.md",
+        "music/soundtrack-cue-sheet.csv",
+        "music/soundtrack-pilot-prompts.md"
+      ],
+      "constraints": [
+        "Не запускать фоновые треки в автоматической очереди.",
+        "Не заменять уже выбранную музыку танцев без решения владельца."
       ]
     }
   ],
