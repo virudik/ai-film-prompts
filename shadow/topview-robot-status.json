@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-18T20:50:11Z",
+  "checked_at": "2026-10-18T21:00:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1307,
-      "wait_seconds": 35403,
+      "queue_count": 1291,
+      "wait_seconds": 34804,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 54,
       "mapping": "task_map",
-      "queue_count": 2842,
-      "wait_seconds": 104523,
+      "queue_count": 2828,
+      "wait_seconds": 103924,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 752,
-      "wait_seconds": 18123,
+      "queue_count": 729,
+      "wait_seconds": 17523,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 43,
       "mapping": "task_map",
-      "queue_count": 2521,
-      "wait_seconds": 87243,
+      "queue_count": 2506,
+      "wait_seconds": 86643,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 1747,
-      "wait_seconds": 52683,
+      "queue_count": 1731,
+      "wait_seconds": 52083,
       "process_seconds": null
     },
     {
@@ -126,8 +126,8 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 2166,
-      "wait_seconds": 69963,
+      "queue_count": 2149,
+      "wait_seconds": 69363,
       "process_seconds": null
     }
   ],
@@ -159,7 +159,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-18T20:20:10Z",
-    "monitor_age_minutes": 30,
+    "monitor_age_minutes": 40,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
