@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-18T00:16:01.103453Z",
-  "state": "waiting_for_slot",
+  "updated_at": "2026-10-18T07:06:02.774Z",
+  "state": "claimed",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -2385,7 +2385,7 @@
       "canonical_prompt_sha256": "7677ed0d37da72bf30d831d1855349c9e68f9e97fc1a81bc147a09f4b4ab587a",
       "normalized_prompt_sha256": "8716593f86d24a2e11950d105eb19ea180895059f29fc9ed92a47df7cb5aedbb",
       "priority": 1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2424,7 +2424,13 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-scheduled-20261018-S43-1792307162774",
+        "claimed_at": "2026-10-18T07:06:02.774Z",
+        "actor": "ChatGPT Work scheduled automation",
+        "route": "free_web_gui",
+        "preflight": "Fresh complete 11-board/17-page/907-task scan; 5 active videos; no normalized prompt duplicate; 4 reference SHA-256 values verified; UI prompt length 9330 and canonical raw/normalized SHA matched; Wan 3.0/Omni-reference/30s/720p/16:9/quantity1/Unlimited free"
+      },
       "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
       "previous_task_ids": [
         "1b8f85b65ff24b13bcdbbeea3af3c096"
