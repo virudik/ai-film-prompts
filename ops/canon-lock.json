@@ -1,11 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Prepare full Suno soundtrack prompt pack requested by owner04:40MSK",
-  "acquired_at": "2026-10-18T01:40:42.110Z",
-  "expires_at": null,
-  "released_at": "2026-10-18T01:46:45.105Z",
-  "rules": "ops/CANON-LOCK.md",
-  "run_id": "chatgpt-suno-prompts-20261018T014042110Z"
+  "task": "Add seven recurring Suno themes requested by owner",
+  "acquired_at": "2026-10-18T01:50:22.299Z",
+  "expires_at": "2026-10-18T02:20:22.300Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
