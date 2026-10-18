@@ -2923,7 +2923,7 @@
       "canonical_prompt_sha256": "65ecd138694d2c6d1b377f0119c8c666472bce81d4923964de1682e86043d6d1",
       "normalized_prompt_sha256": "bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2",
       "priority": 2,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2969,7 +2969,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
       "claim": {
         "run_id": "chatgpt-scheduled-20261018-S54-1792342990362",
         "claimed_at": "2026-10-18T17:03:10.362Z",
@@ -2987,7 +2987,9 @@
       "previous_prompt_sha256": [
         "d132a313e6b199d862d9dd940df75c95792bad0bd24f83196d0e1030a1d19c47"
       ],
-      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358)."
+      "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
+      "submitted_at": "2026-10-18T17:03:22Z",
+      "receipt": "reports/topview-queue-2026-10-18/S54-receipt.json"
     },
     {
       "id": "S28-A1-TEST-20261017",
