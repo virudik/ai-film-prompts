@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:scene-review",
   "task": "Owner 18.10: three engine versions per scene (tabs) + rule",
   "acquired_at": "2026-10-18T02:17:34Z",
-  "expires_at": "2026-10-18T03:02:34Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-18T02:22:28Z",
   "rules": "ops/CANON-LOCK.md"
 }
