@@ -1,24 +1,25 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-18T07:09:52.576Z",
+  "last_updated_at": "2026-10-18T17:06:25.246Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-18T01:56:52.551Z",
+      "verified_at": "2026-10-18T17:06:25.246Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
         "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161",
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
         "18Oct04:53 resume: full read-only11board/17page/907task scan confirmed6/6 active; no launches. Seven instruction certificate hashes refreshed after handoff drift (882a0539); full editorial intake still pending. See reports/resume-2026-10-18-0453.json.",
-        "18Oct10:06MSK: S43-R1 submitted via free Topview website, task70ba69f8c44e4898ab587fbffeaeca01; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/17page/908task scan:6active,0free."
+        "18Oct10:06MSK: S43-R1 submitted via free Topview website, task70ba69f8c44e4898ab587fbffeaeca01; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/17page/908task scan:6active,0free.",
+        "18Oct20:03MSK: S54 submitted via free Topview website, task1e4928fa04ed4a0396d1d2ea4f5934bb; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/16page/909task scan:6active,0free."
       ],
       "next_actions": [
-        "Fresh main/lock/fullscan; next S54, then S36→S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review."
+        "Fresh main/lock/fullscan; next S36, then S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -32,21 +33,27 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Fresh main/lock/fullscan; next S54, then S36→S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review.",
+      "next_action": "Fresh main/lock/fullscan; next S36, then S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review.",
       "blockers": [
         "S44 needs Seedance2.0 prompt adaptation AND actual corrected S43 result.",
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-18T07:09:07.190Z",
+        "checked_at": "2026-10-18T17:06:25.246Z",
         "mode": "full_account_scan_after_verified_submission",
         "boards": 11,
-        "pages": 17,
-        "tasks": 908,
+        "pages": 16,
+        "tasks": 909,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "active": [
+          {
+            "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
+            "status": "init",
+            "model": "qwen-wan3.0-video",
+            "unlimited": true
+          },
           {
             "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
             "status": "init",
@@ -76,23 +83,17 @@
             "status": "init",
             "model": "qwen-wan3.0-video",
             "unlimited": true
-          },
-          {
-            "task_id": "5333994f739f4a8b813a6a36dcb7e140",
-            "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
           }
         ],
         "new_submissions": 1,
         "browser": "Cloud Topview owner session visibly signed in, Ultra",
         "submitted": {
-          "item_id": "S43-R1-20261017",
-          "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+          "item_id": "S54",
+          "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
           "credits_cost": 0,
           "unlimited": true
         },
-        "next": "S54 when a free video slot is confirmed"
+        "next": "S36 when a free video slot is confirmed"
       }
     },
     {
