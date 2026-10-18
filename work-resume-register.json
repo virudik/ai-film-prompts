@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-18T01:56:54.969Z",
+  "last_updated_at": "2026-10-18T07:09:52.576Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -14,10 +14,11 @@
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
         "Обновлены 8 именных Library-копий на точные байты HEAD f0d1161",
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
-        "18Oct04:53 resume: full read-only11board/17page/907task scan confirmed6/6 active; no launches. Seven instruction certificate hashes refreshed after handoff drift (882a0539); full editorial intake still pending. See reports/resume-2026-10-18-0453.json."
+        "18Oct04:53 resume: full read-only11board/17page/907task scan confirmed6/6 active; no launches. Seven instruction certificate hashes refreshed after handoff drift (882a0539); full editorial intake still pending. See reports/resume-2026-10-18-0453.json.",
+        "18Oct10:06MSK: S43-R1 submitted via free Topview website, task70ba69f8c44e4898ab587fbffeaeca01; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/17page/908task scan:6active,0free."
       ],
       "next_actions": [
-        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
+        "Fresh main/lock/fullscan; next S54, then S36→S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -31,21 +32,27 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
+      "next_action": "Fresh main/lock/fullscan; next S54, then S36→S37 Seedance2.0 parts→S39 parts→S40 parts→S44 when actual corrected43 result is saved and Seedance2.0 adaptation is ready. Continue story dependencies; ONE15s A1 after story, then owner review.",
       "blockers": [
-        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
+        "S44 needs Seedance2.0 prompt adaptation AND actual corrected S43 result.",
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-18T01:56:52.551Z",
-        "mode": "manual_read_only_queue_check",
+        "checked_at": "2026-10-18T07:09:07.190Z",
+        "mode": "full_account_scan_after_verified_submission",
         "boards": 11,
         "pages": 17,
-        "tasks": 907,
+        "tasks": 908,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "active": [
+          {
+            "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+            "status": "init",
+            "model": "qwen-wan3.0-video",
+            "unlimited": true
+          },
           {
             "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
             "status": "init",
@@ -75,23 +82,17 @@
             "status": "init",
             "model": "qwen-wan3.0-video",
             "unlimited": true
-          },
-          {
-            "task_id": "979f07acffe04750961515f4baf21a3f",
-            "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
           }
         ],
-        "new_submissions": 0,
+        "new_submissions": 1,
         "browser": "Cloud Topview owner session visibly signed in, Ultra",
-        "preflight": {
-          "mode": "full_required",
-          "short_ready": false,
-          "reason": "stale instruction certificate after handoff changes; full editorial intake not yet completed"
+        "submitted": {
+          "item_id": "S43-R1-20261017",
+          "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+          "credits_cost": 0,
+          "unlimited": true
         },
-        "certificate_repair_commit": "882a0539df79ffa61431762bf8c4f588d56cf450",
-        "next": "S43-R1 when slot available; S44 still requires Seedance adaptation and actual corrected S43 result"
+        "next": "S54 when a free video slot is confirmed"
       }
     },
     {
