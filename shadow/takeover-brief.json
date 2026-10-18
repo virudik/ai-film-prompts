@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-18T01:57:13+00:00",
+ "generated_at": "2026-10-18T02:02:44+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "7c6cefbffc4a645a1428dcdaed0b5e6e9a49623808d0a33bc7d778813a86459c",
-   "bytes": 710661
+   "sha256": "daee963a49ef9fa4130cb2b9f64913a3b6f70380ad9ae18656eeb7ebcbed6d4d",
+   "bytes": 711048
   }
  ],
  "invariants": [
@@ -273,7 +273,7 @@
    "depends_on": [],
    "prompts": 1,
    "refs": [],
-   "offset": 31795,
+   "offset": 32019,
    "chars": 12977,
    "sha256_12": "c9e7a69237de"
   },
@@ -295,7 +295,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 44772,
+   "offset": 44996,
    "chars": 13497,
    "sha256_12": "6123e91bb4de"
   },
@@ -315,7 +315,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 58269,
+   "offset": 58493,
    "chars": 143484,
    "sha256_12": "e317379fdead"
   },
@@ -333,7 +333,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 201753,
+   "offset": 201977,
    "chars": 5876,
    "sha256_12": "c0b60e785059"
   },
@@ -353,7 +353,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 207629,
+   "offset": 207853,
    "chars": 6399,
    "sha256_12": "0f9ca41808d7"
   },
@@ -375,7 +375,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 214028,
+   "offset": 214252,
    "chars": 10645,
    "sha256_12": "9b422e28b9a5"
   },
@@ -399,7 +399,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 224673,
+   "offset": 224897,
    "chars": 28507,
    "sha256_12": "f15f9c983684"
   },
@@ -421,7 +421,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 253180,
+   "offset": 253404,
    "chars": 27663,
    "sha256_12": "90bf912ef9c4"
   },
@@ -443,7 +443,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 280843,
+   "offset": 281067,
    "chars": 27428,
    "sha256_12": "6bd159dc1e1f"
   },
@@ -452,7 +452,7 @@
    "title": "Серёга увозит древний ПК с планеты ситхов",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -465,9 +465,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 308271,
-   "chars": 27309,
-   "sha256_12": "797206c6c011"
+   "offset": 308495,
+   "chars": 27338,
+   "sha256_12": "7588552c497b"
   },
   {
    "id": 42,
@@ -489,7 +489,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 335580,
+   "offset": 335833,
    "chars": 24780,
    "sha256_12": "4c545abacbbe"
   },
@@ -509,7 +509,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 360360,
+   "offset": 360613,
    "chars": 14076,
    "sha256_12": "fd93b0457531"
   },
@@ -530,7 +530,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 374436,
+   "offset": 374689,
    "chars": 13494,
    "sha256_12": "39c7faae6ff2"
   },
@@ -552,7 +552,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 387930,
+   "offset": 388183,
    "chars": 24150,
    "sha256_12": "5ad333351c39"
   },
@@ -576,7 +576,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 412080,
+   "offset": 412333,
    "chars": 24808,
    "sha256_12": "2e0cadf079c8"
   },
@@ -602,7 +602,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 436888,
+   "offset": 437141,
    "chars": 58084,
    "sha256_12": "94a0936af45d"
   },
@@ -627,7 +627,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 494972,
+   "offset": 495225,
    "chars": 19807,
    "sha256_12": "70bc3aff4ff6"
   },
@@ -655,7 +655,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 514779,
+   "offset": 515032,
    "chars": 19773,
    "sha256_12": "1c5a4c000ecb"
   },
@@ -678,7 +678,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 534552,
+   "offset": 534805,
    "chars": 26033,
    "sha256_12": "941878180ed1"
   },
@@ -701,7 +701,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 560585,
+   "offset": 560838,
    "chars": 23607,
    "sha256_12": "c72b9b1b0922"
   },
@@ -723,7 +723,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 584192,
+   "offset": 584445,
    "chars": 8928,
    "sha256_12": "7442f27d9b82"
   },
@@ -745,7 +745,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 593120,
+   "offset": 593373,
    "chars": 8380,
    "sha256_12": "3a2a6586d884"
   },
@@ -768,7 +768,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 601500,
+   "offset": 601753,
    "chars": 23190,
    "sha256_12": "be7648cb9fcd"
   }
