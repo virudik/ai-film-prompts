@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**23 сцены к генерации/доработке · 126 полных текстов промта**
+**22 сцены к генерации/доработке · 122 полных текста промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 3** сцены сейчас в медленной генерации: **28, 41, 55** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -16,7 +16,7 @@
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **18.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 126 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 41, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **18.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **22 актуальные сцены и 122 полных текста промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **28, 41, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -25,7 +25,6 @@
 | Сцена | Статус | Действие |
 |---|---|---|
 | 16 — Татуин: гигантский пустынный червь и бой на руинах | ✅ Технический результат получен · `success` · Wan 3.0 | task `36e8320e34da4f1b97c35e1e765e3e63`; требуется отдельная редакционная проверка |
-| 34 — Вход в храм | ✅ Технический результат получен · `success` · Wan 3.0 | task `3fb3d9ee26474b62982ae8ef062afc32`; требуется отдельная редакционная проверка |
 | 28 — Финальные титры: имперский строевой танец | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Wan 3.0 | task `721cfbef2af0479da57f0a52479d2f54`; ждёт решения владельца в панели сайта |
 | 28 — Финальные титры: имперский строевой танец | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Seedance 2.0 | task `fec838b4f63b452c8c76fe50f8e0fdad`; ждёт решения владельца в панели сайта |
 | 28 — Финальные титры: имперский строевой танец | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Wan 3.0 | task `762b3091b3e44b8599a0a58b91a253c5`; ждёт решения владельца в панели сайта |
@@ -48,7 +47,6 @@
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак. Технический результат получен; требуется отдельная редакционная проверка. |
 | 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; H28A/H28B; сохранённые P28/L28/F28; R28A/R28B как композиционные helpers; S28/G28 проверены; C28 только после результата части 2 | Две версии: 10×15 с Seedance 2.0 / 10×30 с Wan 3.0. Церемония → дискотека; жесты у лица, разъезд, кружение на руках и на плече; монтаж около 90 с; `READY` для поэтапного запуска; часть 3 ждёт C28 из части 2.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
-| 34 | [Серёга входит в полуразрушенный храм](#scene-34) | @Image1 Серёга; @Image2 внешний храм/руины | Непрерывный кинематографичный проход из знакомой руинной локации в консервативно реконструированный зал храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. READY: настоящий финальный кадр результата Scene 17 сохранён и проверен. |
 | 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; берег Набу из 39; лесная планета | Взлёт с того же берега у брошенной стоянки, где сел в 39, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. READY: реальные кадры корабля и новый референс лесной планеты сохранены. |
 | 39 | [Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков](#scene-39) | Серёга; корабль Канцлера; озеро и луг Набу; стоянка пары после прыжка | Посадка корабля Канцлера на луг у озера и спокойный вход в воду по следу пары; ставит корабль, с которого взлетает 37. Стык ~45:05 по сборке. READY: настоящие кадры берега и стоянки сохранены. |
@@ -2748,296 +2746,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 </div>
 
 </div>
-
----
-
-<a id="scene-34"></a>
-
-## Сцена 34 — Серёга входит в полуразрушенный храм ситхов
-
-Wan 3.0 task `3fb3d9ee26474b62982ae8ef062afc32` технически завершён 09.10.2026 06:30:02 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":33}],"tags":["serega","sith_temple","exploration","continuous_take"]} -->
-
-**Контекст использования:** Непрерывное продолжение Scene33. @Image2 — точный внешний вид; интерьер по нему реконструируется консервативно, без ложного обещания точного исходного интерьера.
-
-**Референсы:** @Image1 Серёга; @Image2 тот же внешний храм/локация битвы
-
-<div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга"></a><figcaption>@Image1 — Серёга, exact identity</figcaption></figure>
-<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="Планета ситхов"></a><figcaption>@Image2 — exact ruined city</figcaption></figure></div>
-
-**Что происходит:** Он входит через частично разрушенную арку и осматривает первый полутёмный древний зал без смены лица или архитектурной логики.
-
-**Примечание к редакции (14.10.2026):** формат промта приведён к единому шаблону `PROMPT-STYLE-GUIDE` §5А (секции, START / END STATE, названные beats, `FRAME FILL / NO BARS`); смысл, референсы и тайминги прежние. Готовые ролики по задачам `3fb3d9ee26474b62982ae8ef062afc32` сделаны по прежней редакции текста; её дословная версия — в истории git (коммит перед «Unify prompt format of Scenes 30–34»). Результат сравнивать с фактически запущенным текстом.
-
-<div class="engine-tabs" data-scene="34">
-
-<div class="engine-pane" data-engine="wan30" data-main="1">
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal unbroken outdoor-to-indoor temple entry | One continuous take from the sunlit steps into the first dark hall
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — exact SEREGA identity (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Image2 — absolute exterior: the Sith-planet ruin city temple façade (see LOCATION LOCK — CRITICAL).
-Priority: @Image2 controls the exterior, the stone construction and the sunset direction; the interior continues it conservatively. @Image1 controls identity and costume only.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): exact older pale Chancellor identity, thinning light hair, long dark-purple cloak and human body scale.
-
-LOCATION LOCK — CRITICAL:
-@Image2: ochre weathered stone temple façade, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and the orange sunset direction. The same exact setting as Scene 33 and Scenes 26/27, not a new temple.
-
-INTERIOR LOCK — CRITICAL:
-Inside the door, conservatively CONTINUE this very same stone construction: load-bearing geometry, ancient erosion, broken vaults, a credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or an unrelated cave. No new people, cats or enemy attack.
-
-START STATE:
-Directly from the final approach of Scene 33: the temple entrance is already in his line of sight, in the same position relative to the exterior columns; he keeps the same forward travel vector. One physical camera path: sunlit steps → damaged arch → first dark hall.
-
-TIMELINE:
-[0:00–0:06] — APPROACH TO THE FAÇADE
-Exterior wide-middle shows the exact partly broken stone temple façade and Serega at its approach. Low orange light edges his robe, wind lifts fine dust. He steps around identifiable debris rather than through it.
-
-[0:06–0:12] — UP THE STEPS
-Controlled shoulder-level tracking accompanies Serega up shallow uneven steps. He briefly tilts his head up to study an eroded monumental lintel. Slow breathing, serious focused expression and believable footing.
-
-[0:12–0:18] — CROSSING THE ARCH
-One uninterrupted behind-shoulder push crosses the arch plane naturally. The same textured stone continues inward; outside sunshine remains visible behind through the entrance and a narrow beam enters through a cracked vault. Exposure adapts gradually; no flash or teleport.
-
-[0:18–0:24] — THE FIRST CHAMBER
-Inside a conservative first chamber: cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse and realistic old stone reliefs. Serega keeps a steady cautious pace and studies the walls without revealing an arbitrary new artifact.
-
-[0:24–0:30] — TOWARD THE DEEPER PASSAGE
-The camera settles on his profile with the dark interior corridor behind; he pauses, glances at the carved wall, then turns toward the deeper passage. Still enough to cut into a later investigation; no monster cliffhanger or premature resolution.
-
-END STATE:
-Serega in profile inside the first hall, turned toward the deeper passage, exterior light still visible behind him through the entrance.
-
-CAMERA / SPACE:
-Feature-film single continuous take, smooth physically motivated dolly, consistent 28–35mm perspective. No cut from outside directly to a disconnected hall, no impossible wide room behind a narrow exterior wall, no morphing roof; stable geography.
-
-PERFORMANCE:
-Serious, focused, cautious explorer with slow breathing and believable footing; no talking.
-
-LIGHTING / MATERIALS:
-Real sunlight penetration, physically coherent shadow direction, dry drifting dust lit in shafts, detailed robe, skin and stone; gradual exposure adaptation from sunset exterior to dim interior.
-
-AUDIO:
-Exterior wind gradually takes on a reverberant low indoor ambience, authentic footsteps on stone and cloth noise, occasional granular masonry movement. No dialogue, narrator, cinematic music, whispering apparitions or chants.
-
-NEGATIVE PROMPT:
-wrong person or robe, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, gratuitous enemies, faceless statue morphs, impossible 3D plan, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-<div class="engine-pane" data-engine="sd20x2">
-
-Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
-
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png`.
-
-*Часть 1: подход к фасаду и подъём по ступеням до порога арки; внутрь не входит.*
-
-**Входы части 2:** @Video1 — последние секунды результата части 1 (Серёга на пороге арки); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png`.
-
-*Часть 2: проход сквозь арку без склейки, первый зал и поворот к глубокому проходу.*
-
-#### 34 · Seedance 2.0 часть 1
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal feature-film temple entry with a driving follow camera | Part 1 of 2: one unbroken camera path carries Serega across the sunlit approach and up the steps to the threshold of the damaged arch
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — exact SEREGA identity and costume (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Image2 — absolute exterior: the Sith-planet ruin city temple façade (see LOCATION LOCK — CRITICAL).
-Priority: @Image2 controls the exterior, the stone construction and the sunset direction. @Image1 controls identity and costume only.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): exact older pale Chancellor identity: distinct mature, full, round face, blue-grey eyes, serious closed mouth; thinning sparse light hair at the sides with a bald crown; human body scale, medium-heavy build. Long floor-length deep dark-purple velvet robe with the large hood lying down on his shoulders, darker under-sleeves, dark shoes.
-
-LOCATION LOCK — CRITICAL:
-@Image2: ochre weathered stone temple façade, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and the orange sunset direction. The same exact setting as Scene 33 and Scenes 26/27, not a new temple.
-
-INTERIOR LOCK — CRITICAL:
-Inside the door, conservatively CONTINUE this very same stone construction: load-bearing geometry, ancient erosion, broken vaults, a credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or an unrelated cave. No new people, cats or enemy attack.
-
-START STATE:
-Directly from the final approach of Scene 33: the temple entrance is already in his line of sight, in the same position relative to the exterior columns; he keeps the same forward travel vector. One physical camera path: sunlit approach → steps → the threshold of the damaged arch.
-
-TIMELINE:
-[0:00–0:05] — APPROACH TO THE FAÇADE
-Low-angle exterior wide-middle: the partly broken temple façade towers over Serega as he walks in with purpose, the camera tracking alongside at ground level with rubble sliding past in the foreground. Low orange light edges his robe; wind lifts fine dust. He steps around identifiable debris rather than through it.
-
-[0:05–0:10] — UP THE STEPS
-The camera swings in behind his shoulder and climbs with him up shallow uneven steps at his pace. Controlled breathing, serious focused expression, believable footing.
-
-[0:10–0:13] — THE LINTEL
-Near the top he tilts his head up to an eroded monumental lintel; the camera tilts up with his gaze to its weathered carving, then drops back to him.
-
-[0:13–0:15] — AT THE THRESHOLD
-He stops on the top step right under the cracked arch. Ahead, the same stone continues into dimness, with one narrow beam falling through a cracked vault. Hold behind his shoulder.
-
-END STATE:
-Serega on the top step directly under the damaged arch, seen from behind his shoulder, the dim first hall ahead with one narrow beam of light inside, the sunset at his back.
-
-CAMERA / SPACE:
-A single continuous take with energy: a stabilized follow camera at walking pace, low tracking outside, a climb on the steps, a tilt-up to the lintel. Consistent 28–35mm perspective; stable geography, the arch always in the same place relative to the façade and statues. Controlled inertia; no handheld shake, no speed ramp, no cut.
-
-PERFORMANCE:
-Serious, focused, cautious explorer with determination: purposeful steps, believable footing on broken stone, eyes leading every turn. No talking, no fear acting, no looks into the lens.
-
-LIGHTING / MATERIALS:
-Real low sunset light from the @Image2 direction, long coherent shadows, dry drifting dust lit in the air, the interior beyond the arch dim but readable. Detailed velvet pile on the robe, natural skin pores, rough chipped ochre stone with sand in the joints.
-
-AUDIO:
-Dry wind across the façade, footsteps on gritty stone and uneven steps, cloth noise, natural breathing; at the threshold a faint hollow resonance from the interior. No dialogue, narrator, cinematic music, whispering apparitions or chants.
-
-NEGATIVE PROMPT:
-wrong person or robe, hood raised, redesigned façade, giant new stairs, glowing Sith magic, laser weapons appearing, lightsaber, enemies, other people, cats, faceless statue morphs, entering the hall in this part, cut to interior, camera shake, time warp, text, subtitles, logo, game CGI, border bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-#### 34 · Seedance 2.0 часть 2
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal feature-film temple entry with a driving follow camera | Part 2 of 2: one unbroken push carries Serega through the damaged arch into the first dark hall and turns him toward the deeper passage
-
-REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of Part 1's result: Serega on the top step under the damaged arch, the dim hall ahead, sunset behind. Absolute authority for the START STATE, his position, the arch and the light.
-@Image1 — exact SEREGA identity and costume (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Image2 — absolute exterior: the Sith-planet ruin city temple façade (see LOCATION LOCK — CRITICAL).
-Priority: @Video1 controls the start; @Image2 controls the stone construction and the sunset direction, and the interior continues it conservatively; @Image1 controls identity and costume only.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): exact older pale Chancellor identity: distinct mature, full, round face, blue-grey eyes, serious closed mouth; thinning sparse light hair at the sides with a bald crown; human body scale, medium-heavy build. Long floor-length deep dark-purple velvet robe with the large hood lying down on his shoulders, darker under-sleeves, dark shoes.
-
-LOCATION LOCK — CRITICAL:
-@Image2: ochre weathered stone temple façade, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and the orange sunset direction. The same exact setting as Scene 33 and Scenes 26/27, not a new temple.
-
-INTERIOR LOCK — CRITICAL:
-Inside the door, conservatively CONTINUE this very same stone construction: load-bearing geometry, ancient erosion, broken vaults, a credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or an unrelated cave. No new people, cats or enemy attack.
-
-START STATE:
-Exactly the last frame of @Video1: Serega under the damaged arch, seen from behind his shoulder, the dim first hall ahead. One physical camera path: damaged arch → first dark hall.
-
-TIMELINE:
-[0:00–0:05] — CROSSING THE ARCH
-Continuing @Video1 without a cut, one behind-shoulder push carries through the arch plane with him. The same textured stone continues inward; outside sunshine stays visible behind through the entrance, and a narrow beam enters through a cracked vault. Exposure adapts gradually; no flash, no teleport.
-
-[0:05–0:10] — THE FIRST CHAMBER
-The camera arcs out to a three-quarter front angle as he moves through a conservative first chamber: cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse with rubble below, realistic old stone reliefs. Steady cautious pace, gaze sweeping the walls, no new artifact.
-
-[0:10–0:15] — TOWARD THE DEEPER PASSAGE
-The camera settles on his profile, the dark corridor behind him and the bright entrance far behind. He pauses, glances at the carved wall, then turns decisively toward the deeper passage. No monster cliffhanger or premature resolution.
-
-END STATE:
-Serega in profile inside the first hall, turned toward the deeper passage, exterior light still visible behind him through the entrance.
-
-CAMERA / SPACE:
-A single continuous take with energy: a stabilized push through the arch, an arc inside, a settle on his profile. Consistent 28–35mm perspective. No cut from outside directly to a disconnected hall, no impossible wide room behind a narrow exterior wall, no morphing roof; stable geography. Controlled inertia; no handheld shake.
-
-PERFORMANCE:
-Serious, focused, cautious explorer with determination: measured steps on broken stone, eyes leading every turn, a decisive final turn. No talking, no fear acting, no looks into the lens.
-
-LIGHTING / MATERIALS:
-Real sunlight penetration, coherent shadow direction, dry dust lit in shafts, one hard beam through the cracked vault. Velvet pile on the robe, natural skin, rough chipped stone. Gradual exposure adaptation; the interior stays readable, never pitch black.
-
-AUDIO:
-The exterior wind fades as he crosses the arch and a reverberant low indoor ambience takes over; footsteps echoing on stone, cloth noise, occasional granular masonry movement and a trickle of falling grit. No dialogue, narrator, cinematic music, whispering apparitions or chants.
-
-NEGATIVE PROMPT:
-wrong person or robe, hood raised, redesigned arch, glowing Sith magic, ornate altar, futuristic machines, laser weapons, lightsaber, enemies, other people, cats, faceless statue morphs, impossible 3D plan, cut to a disconnected interior, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-<div class="engine-pane" data-engine="sd25">
-
-Та же сцена одним роликом 30 с на Seedance 2.5.
-
-**Входы:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png`.
-
-*Тот же единый путь камеры снаружи внутрь, но ведущая камера в темпе шага: низкий проезд, подъём по ступеням, проход сквозь арку, облёт в зале.*
-
-#### 34 · Seedance 2.5 · 30 с
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.5 | Photoreal feature-film temple entry with a driving follow camera | One unbroken camera path carries Serega from the sunlit steps through the damaged arch into the first dark hall
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — exact SEREGA identity and costume (see CHARACTER APPEARANCE / IDENTITY LOCK).
-@Image2 — absolute exterior: the Sith-planet ruin city temple façade (see LOCATION LOCK — CRITICAL).
-Priority: @Image2 controls the exterior, the stone construction and the sunset direction; the interior continues it conservatively. @Image1 controls identity and costume only and never adds architecture.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): exact older pale Chancellor identity: distinct mature, full, round face, blue-grey eyes, serious closed mouth; thinning sparse light hair at the sides with a bald crown; human body scale, medium-heavy build. Long floor-length deep dark-purple velvet robe with the large hood lying down on his shoulders, darker under-sleeves, dark shoes. Do not beautify, age-shift or average with any statue face.
-
-LOCATION LOCK — CRITICAL:
-@Image2: ochre weathered stone temple façade, giant carved statues, broad terrace/steps, cracked stone jambs and arch, ruined towers and the orange sunset direction. The same exact setting as Scene 33 and Scenes 26/27, not a new temple.
-
-INTERIOR LOCK — CRITICAL:
-Inside the door, conservatively CONTINUE this very same stone construction: load-bearing geometry, ancient erosion, broken vaults, a credible first hall and debris. Do not invent a huge ornate glowing altar, futuristic machines or an unrelated cave. No new people, cats or enemy attack.
-
-START STATE:
-Directly from the final approach of Scene 33: the temple entrance is already in his line of sight, in the same position relative to the exterior columns; he keeps the same forward travel vector. One physical camera path: sunlit steps → damaged arch → first dark hall.
-
-TIMELINE:
-[0:00–0:06] — APPROACH TO THE FAÇADE
-Low-angle exterior wide-middle: the exact partly broken stone temple façade towers over Serega as he walks in with purpose, the camera tracking alongside at ground level with rubble sliding past in the foreground. Low orange light edges his robe; wind lifts fine dust. He steps around identifiable debris rather than through it.
-
-[0:06–0:12] — UP THE STEPS
-The camera swings in behind his shoulder and climbs with him up shallow uneven steps at his pace. Near the top he tilts his head up to an eroded monumental lintel; the camera tilts up with his gaze to its weathered carving, then drops back to him. Slow, controlled breathing, serious focused expression, believable footing.
-
-[0:12–0:18] — CROSSING THE ARCH
-One uninterrupted behind-shoulder push carries through the arch plane in a single motion. The same textured stone continues inward; outside sunshine stays visible behind through the entrance, and a narrow beam enters through a cracked vault. Exposure adapts gradually over a few seconds; no flash, no black-out, no teleport.
-
-[0:18–0:24] — THE FIRST CHAMBER
-The camera arcs out from behind him to a three-quarter front angle as he moves through a conservative first chamber: cracked red-ochre masonry, two structural supports aligned with the exterior, a small partial ceiling collapse with rubble below, realistic old stone reliefs. He keeps a steady cautious pace, sweeping his gaze across the walls, without revealing any new artifact.
-
-[0:24–0:30] — TOWARD THE DEEPER PASSAGE
-The camera settles on his profile, the dark interior corridor behind him and the bright entrance far behind. He pauses, glances at the carved wall, then turns decisively toward the deeper passage. Still enough to cut into a later investigation; no monster cliffhanger or premature resolution.
-
-END STATE:
-Serega in profile inside the first hall, turned toward the deeper passage, exterior light still visible behind him through the entrance.
-
-CAMERA / SPACE:
-Feature-film single continuous take with energy: a stabilized follow camera that moves with him at walking pace, low tracking outside, a climb on the steps, a tilt-up to the lintel, a push through the arch and an arc inside. Consistent 28–35mm perspective. No cut from outside directly to a disconnected hall, no impossible wide room behind a narrow exterior wall, no morphing roof; stable geography, the arch always in the same place relative to the façade. Controlled inertia; no handheld shake, no speed ramp.
-
-PERFORMANCE:
-Serious, focused, cautious explorer with determination: purposeful steps outside, measured steps inside, believable footing on broken stone, eyes leading every turn. No talking, no fear acting, no looks into the lens.
-
-LIGHTING / MATERIALS:
-Real sunlight penetration, physically coherent shadow direction, dry drifting dust lit in shafts, a single hard beam through the cracked vault. Detailed velvet pile on the robe, natural skin pores, rough chipped stone with sand in the joints. Gradual exposure adaptation from sunset exterior to the dim interior, which stays readable, never pitch black.
-
-AUDIO:
-Exterior wind and footsteps on gritty stone; as he crosses the arch the wind fades and a reverberant low indoor ambience takes over; authentic footsteps echoing on stone, cloth noise, occasional granular masonry movement and a trickle of falling grit. No dialogue, narrator, cinematic music, whispering apparitions or chants.
-
-NEGATIVE PROMPT:
-wrong person or robe, hood raised, redesigned façade, giant new stairs, glowing Sith magic, ornate altar, laser weapons appearing, lightsaber, gratuitous enemies, other people, cats, faceless statue morphs, impossible 3D plan, cut from exterior to a disconnected interior, camera shake, time warp, instant exposure black-out, text, subtitles, logo, game CGI, border bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-</div>
-
----
 
 ---
 
