@@ -1316,7 +1316,7 @@
       "canonical_prompt_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
       "normalized_prompt_sha256": "bdf412dc6250c863a0ed68106dbe34f6d0f3b6b48e2dd6cb2d6a9695e54f5db0",
       "priority": 0,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -1365,7 +1365,36 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-s41-20261018000041",
+        "claimed_at": "2026-10-18T00:03:27.211Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-18T00:03:21.670Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 906,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh full 906-task account scan: zero exact normalized S41 prompt matches",
+        "ui_verified": {
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 8454,
+          "prompt_exact": true,
+          "input_sha_verified": true,
+          "input_count": 6
+        }
+      },
       "priority_owner_override": {
         "requested_at": "2026-10-17T19:52:55Z",
         "source": "Explicit owner sequence",
