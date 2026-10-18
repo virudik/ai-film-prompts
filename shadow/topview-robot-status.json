@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-18T12:30:11Z",
+  "checked_at": "2026-10-18T12:40:13Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 170 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 11,
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -24,9 +22,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 641
     },
-    "pages_scanned": 14,
-    "tasks_seen": 585,
-    "api_requests": 22,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -50,7 +48,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -63,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1617,
-      "wait_seconds": 47501,
+      "queue_count": 1596,
+      "wait_seconds": 46907,
       "process_seconds": null
     },
     {
@@ -76,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 568,
-      "wait_seconds": 12940,
+      "queue_count": 545,
+      "wait_seconds": 12346,
       "process_seconds": null
     },
     {
@@ -89,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1166,
-      "wait_seconds": 30220,
+      "queue_count": 1144,
+      "wait_seconds": 29626,
       "process_seconds": null
     },
     {
@@ -102,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 43,
       "mapping": "task_map",
-      "queue_count": 2746,
-      "wait_seconds": 99340,
+      "queue_count": 2727,
+      "wait_seconds": 98745,
       "process_seconds": null
     },
     {
@@ -115,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 2027,
-      "wait_seconds": 64781,
+      "queue_count": 2007,
+      "wait_seconds": 64185,
       "process_seconds": null
     },
     {
@@ -128,8 +126,8 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 2401,
-      "wait_seconds": 82059,
+      "queue_count": 2381,
+      "wait_seconds": 81465,
       "process_seconds": null
     }
   ],
@@ -175,7 +173,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-18T12:20:11Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
