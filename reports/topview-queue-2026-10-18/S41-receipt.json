@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "item_id": "S41",
+  "scene_id": 41,
+  "run_id": "chatgpt-s41-20261018000041",
+  "route": "free_web_gui",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "board_name": "My First Board",
+  "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
+  "submitted_at": "2026-10-18T00:03:43Z",
+  "verified_at": "2026-10-18T00:04:10Z",
+  "status_at_verification": "init",
+  "settings": {
+    "model_id": "qwen-wan3.0-video",
+    "model_name": "Wan 3.0",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "input_count": 6,
+    "use_unlimit_mode": true,
+    "credits_cost": 0,
+    "sound": "on"
+  },
+  "prompt": {
+    "source": "video-prompts.md",
+    "canonical_block_label": "41",
+    "length": 8454,
+    "canonical_sha256": "6b2b417bfefc62cd5ac35b24b6e1f0df8e0a4c79dfa1540edae2cbf7ffbe4dc9",
+    "normalized_sha256": "bdf412dc6250c863a0ed68106dbe34f6d0f3b6b48e2dd6cb2d6a9695e54f5db0",
+    "full_normalized_match": true
+  },
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-38/S38-Image3-scene35-last-frame.png",
+      "sha256": "408c1101a0e835f7b39df5ad0cd381340439a4e9f17f3e14f446e696477c1a48",
+      "required": true
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "required": true
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "required": true
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "required": true
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png",
+      "sha256": "7000903cdcea57785294b356080c6961ce6ccb039391303c5f8af66263be4552",
+      "required": true
+    }
+  ],
+  "preflight": {
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 906,
+    "active_videos": 5,
+    "free_video_slots": 1,
+    "exact_normalized_duplicates": 0,
+    "checked_at": "2026-10-18T00:03:21.670Z"
+  },
+  "verification": {
+    "board_task_parameters_checked": true,
+    "input_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5",
+      "Image6"
+    ],
+    "credits_cost": 0,
+    "use_unlimit_mode": true
+  },
+  "proof": {
+    "path": "reports/topview-queue-2026-10-18/S41-submitted-proof.jpg",
+    "sha256": "2d3fc89305bd7dd4e1c8e2a65e4344c8cc7e5d6d273f4aebb503a9419711f1e1"
+  },
+  "claim_commit": "fc39aa6a2f83409ebeb83f50105a775e1957c67d"
+}

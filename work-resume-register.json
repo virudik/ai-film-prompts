@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-17T23:59:00.683Z",
+  "last_updated_at": "2026-10-18T00:05:00Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -304,7 +304,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-17T22:59:53.290Z",
+      "verified_at": "2026-10-18T00:05:00Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -322,7 +322,8 @@
         "Owner22:33 stopped further RosKOTmos45/46; pending attempts cancelled. Three fan originals+thumbnails archived with SHA/QC, selection pending. Story55 submitted exactly once, task86741d99f7634e3b97e8b139996b83b0, Unlimited0, verified.",
         "17Oct22:48MSK: owner priority S41 first persisted; existing hourly automation updated. Scene50 three fan candidates linked in master, owner choice pending; Pages verified: masterSHA 5ef8427f092e494bee296b56953ffd204b7d0cbb328616cce7a3cd162d19b5b3, health=ok, 3originalsSHA+3thumbsHTTP200/browserloaded, run39064074745success.",
         "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
-        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated."
+        "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
+        "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified."
       ],
       "next_actions": [
         "Fresh main/lock/owner decisions/full account scan; first free video slot41→corrected43→54→36→37→39→40→44; then52/53/42/47/56/48 by actual dependencies.",
@@ -350,10 +351,10 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "Latest full scan this cycle:6active Unlimited videos,0free; rescan before submit.",
+        "Latest verified state after S41 submit: 6 active Unlimited videos, 0 free slots; rescan before any further submit.",
         "Actual continuity sources pending:43→44→52 and42→56→48."
       ],
-      "next_action": "Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images.",
+      "next_action": "Next authorized item: corrected S43-R1-20261017 on the first free video slot, then S54→S36→S37→S39→S40→S44, with current dependencies and fresh canon.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -361,22 +362,25 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T19:38:17.221Z",
+        "checked_at": "2026-10-18T00:04:10Z",
         "boards": 11,
         "pages": 17,
-        "total_tasks": 906,
+        "total_tasks": 907,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
+          "bf3465e1c4de4a869f4bba5f2eed5acf",
           "86741d99f7634e3b97e8b139996b83b0",
           "0d1f17c226834bfbb851d76ed32f9877",
           "56c0ea656f484b0cb8464233fe097e0d",
           "5333994f739f4a8b813a6a36dcb7e140",
-          "979f07acffe04750961515f4baf21a3f",
-          "2bccc8a3521b411cb7bd51f9c8ba1119"
+          "979f07acffe04750961515f4baf21a3f"
         ]
-      }
+      },
+      "new_topview_task_ids": [
+        "bf3465e1c4de4a869f4bba5f2eed5acf"
+      ]
     },
     {
       "work_id": "FILM-20261016-S25-FORWARD-BATTLE",
