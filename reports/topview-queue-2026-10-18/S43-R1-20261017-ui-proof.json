@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "item_id": "S43-R1-20261017",
+  "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+  "captured_at": "2026-10-18T07:09:33.511Z",
+  "website": "Topview signed-in owner session, Plan Ultra",
+  "pre_submit_ui": {
+    "model": "Wan 3.0",
+    "mode": "Omni-reference",
+    "duration_seconds": 30,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "reference_cards": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "prompt_character_counter": 9330,
+    "price_mode": "Unlimited",
+    "create_button_price_tokens": [],
+    "single_create_click": true
+  },
+  "post_submit_readback": {
+    "status": "init",
+    "created_at": "2026-10-18T07:06:32Z",
+    "model_id": "qwen-wan3.0-video",
+    "input_count": 4,
+    "input_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "normalized_prompt_sha256": "8716593f86d24a2e11950d105eb19ea180895059f29fc9ed92a47df7cb5aedbb",
+    "normalized_match": true,
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "note": "UI screenshots captured during the run; canonical evidence is the verified read-only task record and this receipt."
+}
