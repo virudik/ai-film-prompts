@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-18T02:00:11Z",
+  "checked_at": "2026-10-18T02:10:11Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 2115,
-      "wait_seconds": 67301,
+      "queue_count": 2100,
+      "wait_seconds": 66694,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1261,
-      "wait_seconds": 32741,
+      "queue_count": 1243,
+      "wait_seconds": 32133,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1733,
-      "wait_seconds": 50021,
+      "queue_count": 1718,
+      "wait_seconds": 49409,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 2471,
-      "wait_seconds": 84581,
+      "queue_count": 2459,
+      "wait_seconds": 83969,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 667,
-      "wait_seconds": 15460,
+      "queue_count": 640,
+      "wait_seconds": 14849,
       "process_seconds": null
     },
     {
@@ -124,24 +124,14 @@
       "unlimited": true,
       "created_at": "2026-10-18 00:03:43",
       "model": "Wan 3.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 2787,
-      "wait_seconds": 101861,
+      "scene_id": 41,
+      "mapping": "task_map",
+      "queue_count": 2776,
+      "wait_seconds": 101249,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-18 00:03:43",
-      "model": "Wan 3.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 | Photoreal live-action space-fantasy action, deadpan | Serega Forc"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -231,24 +221,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-18T00:00:12Z",
-    "monitor_age_minutes": 120,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-10-18T02:00:11Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
-    "monitor_may_lag": true,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "consistent": true,
+    "monitor_may_lag": false,
+    "differences": []
   }
 }
