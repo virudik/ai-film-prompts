@@ -1,118 +1,28 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-18T06:43:07Z",
-  "status": "warn",
-  "warnings": 1,
-  "info": 17,
+  "checked_at": "2026-10-18T07:31:59Z",
+  "status": "ok",
+  "warnings": 0,
+  "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает еженедельное расписание Claude.",
   "problems": [
     {
-      "level": "warn",
-      "code": "handoff-size",
-      "text": "Хендоф 106 КБ (цель до 30 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
-      "file": "NEW-CHAT-HANDOFF.md"
-    },
-    {
       "level": "info",
       "code": "instruction-size",
-      "text": "SYNC-RUNBOOK.md: 114 КБ, проверить на повторы.",
+      "text": "SYNC-RUNBOOK.md: 117 КБ, проверить на повторы.",
       "file": "SYNC-RUNBOOK.md"
     },
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "AI-PROJECT-GUIDE.md: 65 КБ, проверить на повторы.",
-      "file": "AI-PROJECT-GUIDE.md"
-    },
-    {
-      "level": "info",
-      "code": "instruction-size",
-      "text": "PROMPT-STYLE-GUIDE.md: 76 КБ, проверить на повторы.",
+      "text": "PROMPT-STYLE-GUIDE.md: 63 КБ, проверить на повторы.",
       "file": "PROMPT-STYLE-GUIDE.md"
     },
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 79 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 69 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/CHATGPT-MONITOR-FAST-PATH.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/CHATGPT-MONITOR-FAST-PATH.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/CLAUDE-MONITOR.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/CLAUDE-MONITOR.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/CLOUD-SESSION-2-AUDIT.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/CLOUD-SESSION-2-AUDIT.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/CONTINUE-PROTOCOL.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/CONTINUE-PROTOCOL.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/DRIVE-WIF-SETUP.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/DRIVE-WIF-SETUP.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/PLAN-DRIVE-WITHOUT-COMPUTER.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/PLAN-DRIVE-WITHOUT-COMPUTER.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/PLAN-OWNER-PANEL-AUTOMATION.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/PLAN-OWNER-PANEL-AUTOMATION.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/QUEST-THREE-KEYS.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/QUEST-THREE-KEYS.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/ROBOT-CLOUD-SESSION.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/ROBOT-CLOUD-SESSION.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/ROBOT-TELEMETRY.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/ROBOT-TELEMETRY.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/ROBOT-TRIGGER.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/ROBOT-TRIGGER.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/TOPVIEW-FREE-LAUNCH.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/TOPVIEW-FREE-LAUNCH.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
-      "text": "ops/TOPVIEW-VIDEO-ARCHIVE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/TOPVIEW-VIDEO-ARCHIVE.md"
     }
   ]
 }
