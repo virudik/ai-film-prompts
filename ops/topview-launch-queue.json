@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-18T07:06:02.774Z",
-  "state": "claimed",
+  "updated_at": "2026-10-18T07:09:40.114Z",
+  "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -2385,7 +2385,7 @@
       "canonical_prompt_sha256": "7677ed0d37da72bf30d831d1855349c9e68f9e97fc1a81bc147a09f4b4ab587a",
       "normalized_prompt_sha256": "8716593f86d24a2e11950d105eb19ea180895059f29fc9ed92a47df7cb5aedbb",
       "priority": 1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -2423,7 +2423,7 @@
           "sha256": "2cb9a702ccaaea6b62f2b35f0f81ed330de08c65ff6bf1167030da8c0bb8852a"
         }
       ],
-      "task_id": null,
+      "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
       "claim": {
         "run_id": "chatgpt-scheduled-20261018-S43-1792307162774",
         "claimed_at": "2026-10-18T07:06:02.774Z",
@@ -2449,7 +2449,9 @@
           "Wait until ramp fully lowered and stationary; visible doorway and continuous feet-on-ramp descent; no hull penetration",
           "Left wing remains jammed45degrees"
         ]
-      }
+      },
+      "submitted_at": "2026-10-18T07:06:32Z",
+      "receipt": "reports/topview-queue-2026-10-18/S43-R1-20261017-receipt.json"
     },
     {
       "scene_id": 44,
