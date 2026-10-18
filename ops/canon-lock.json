@@ -1,11 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "Resume scene queue: verify slots and repair instruction certificate",
-  "acquired_at": "2026-10-18T01:56:12.065Z",
-  "expires_at": null,
-  "released_at": "2026-10-18T01:57:10.145Z",
-  "rules": "ops/CANON-LOCK.md",
-  "run_id": "chatgpt-work-resume-20261018-0156"
+  "state": "held",
+  "holder": "claude:scene-review",
+  "task": "Owner 18.10: three engine versions per scene (tabs) + rule",
+  "acquired_at": "2026-10-18T02:17:34Z",
+  "expires_at": "2026-10-18T03:02:34Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
