@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-18T06:44:22+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-18T07:22:41+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 79330 B · `96cd6d5bb35dc187`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 27502 B · `3e3e531501b4cab3`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1122820 B · `13d0f520aaf3ffd6`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1123214 B · `bc8e2d7aee4c5f74`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -52,7 +52,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 40 | Серёга прилетает на планету ситхов: посадка у руин | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | bc573944ea64 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 44cf14979cbd |
 | 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 4e9a3d0bf04a |
-| 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 597b6f6e3725 |
+| 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 36497f987d3d |
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 | [43] | 4f5425362089 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 2308891cb7c9 |
 | 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | b10a9f00a08f |
