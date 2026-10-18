@@ -21,7 +21,7 @@ from pathlib import Path
 OUT = "canon-health.json"
 DOCS = ["NEW-CHAT-HANDOFF.md", "SYNC-RUNBOOK.md", "AI-PROJECT-GUIDE.md", "PROMPT-STYLE-GUIDE.md",
         "USER-GUIDE.md", "README-AI-SYNC.md", "BACKUP-AI-RUNBOOK.md"]
-HANDOFF_MAX_BYTES = 30_000          # target after the «Сейчас + журнал» split
+HANDOFF_MAX_BYTES = 35_000          # «Сейчас + журнал»: live block + stable rules + cleanup rule
 INSTRUCTION_MAX_BYTES = 60_000
 NOW_BLOCK_MAX_DAYS = 3
 OPS_REVIEW_DAYS = 14

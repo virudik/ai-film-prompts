@@ -38,7 +38,7 @@ class CanonHealthTests(unittest.TestCase):
 
     def test_stale_now_block_and_size(self):
         with tempfile.TemporaryDirectory() as d:
-            res = ch.check(repo(d, handoff="## Сейчас 10.10.2026\n" + "x" * 31000), NOW)
+            res = ch.check(repo(d, handoff="## Сейчас 10.10.2026\n" + "x" * 36000), NOW)
             self.assertEqual(codes(res), ["handoff-now-stale", "handoff-size"])
 
     def test_broken_ref_but_not_removed_or_external(self):
