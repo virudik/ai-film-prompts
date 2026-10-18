@@ -1,3 +1,7 @@
+## CHECKPOINT 18.10.2026 — семь повторяющихся музыкальных тем
+
+По запросу владельца в `music/suno-soundtrack-prompts.md#recurring-themes` добавлены T01–T07: Серёга, коты/РосКОТмос, карта, перелёты, сражения, бытовая комедия, возвращение домой. Всего 37 готовых промптов (30 Cxx + 7 Txx). Владелец генерирует сам; аудио не запускалось. У каждой темы Title/Styles, инструментальный режим, ориентиры и места повторения. Узнаваемость обеспечивать повтором выбранного аудио; одинаковое описание не гарантирует одинаковую мелодию. Очередь Topview и мастер не менялись.
+
 ## CHECKPOINT 18.10.2026 03:05 МСК — S41 submitted
 
 S41 submitted once via free Topview website: task `bf3465e1c4de4a869f4bba5f2eed5acf`, Wan3/30s/720p/16:9/6images/qty1/Unlimited0. Exact normalized current master prompt matched; no duplicate in the pre-submit 11-board/17-page/906-task scan. Do not repeat S41. All 6 video slots are now occupied; next is corrected S43-R1-20261017 after a fresh full scan shows a free slot, then S54→S36→S37→S39→S40→S44. Receipt: `reports/topview-queue-2026-10-18/S41-receipt.json`.
