@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-18T19:29:01+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-18T19:29:37+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "073063a5c33d796ce8d441fa8bb545dfe66c55e7d7b3b46533f15d1aae8c0dea",
-   "bytes": 1123526
+   "sha256": "5bc9af43d27ea2ad2d42f091570a95ec5227c0949eb345cbb96342322273d031",
+   "bytes": 1123929
   }
  ],
  "invariants": [
@@ -190,7 +190,7 @@
   ]
  },
  "runtime": {
-  "project_health": "error",
+  "project_health": "ok",
   "scenes": 22,
   "prompt_texts": 122,
   "scene_ids": [
@@ -280,7 +280,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 31856,
+   "offset": 32093,
    "chars": 35459,
    "sha256_12": "3e1abc9e09b3"
   },
@@ -302,7 +302,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 67315,
+   "offset": 67552,
    "chars": 36180,
    "sha256_12": "ffa2f758cdae"
   },
@@ -322,7 +322,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 103495,
+   "offset": 103732,
    "chars": 207520,
    "sha256_12": "aae7690c6015"
   },
@@ -340,7 +340,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 311015,
+   "offset": 311252,
    "chars": 23045,
    "sha256_12": "a2f80a53221b"
   },
@@ -362,7 +362,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 334060,
+   "offset": 334297,
    "chars": 31692,
    "sha256_12": "b68c082328ff"
   },
@@ -386,7 +386,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 365752,
+   "offset": 365989,
    "chars": 37684,
    "sha256_12": "5fd38c19f2df"
   },
@@ -408,7 +408,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 403436,
+   "offset": 403673,
    "chars": 36851,
    "sha256_12": "023a829d6da5"
   },
@@ -430,7 +430,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 440287,
+   "offset": 440524,
    "chars": 36642,
    "sha256_12": "bc573944ea64"
   },
@@ -452,7 +452,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 476929,
+   "offset": 477166,
    "chars": 36557,
    "sha256_12": "44cf14979cbd"
   },
@@ -476,7 +476,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 513486,
+   "offset": 513723,
    "chars": 33873,
    "sha256_12": "4e9a3d0bf04a"
   },
@@ -496,7 +496,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 547359,
+   "offset": 547596,
    "chars": 36212,
    "sha256_12": "36497f987d3d"
   },
@@ -517,7 +517,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 583571,
+   "offset": 583808,
    "chars": 35716,
    "sha256_12": "4f5425362089"
   },
@@ -539,7 +539,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 619287,
+   "offset": 619524,
    "chars": 33224,
    "sha256_12": "2308891cb7c9"
   },
@@ -563,7 +563,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 652511,
+   "offset": 652748,
    "chars": 33431,
    "sha256_12": "b10a9f00a08f"
   },
@@ -590,7 +590,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 685942,
+   "offset": 686179,
    "chars": 113882,
    "sha256_12": "44d69793ebf2"
   },
@@ -615,7 +615,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 799824,
+   "offset": 800061,
    "chars": 36473,
    "sha256_12": "2e0a76807133"
   },
@@ -643,7 +643,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 836297,
+   "offset": 836534,
    "chars": 38185,
    "sha256_12": "abed68fd5188"
   },
@@ -666,7 +666,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 874482,
+   "offset": 874719,
    "chars": 35248,
    "sha256_12": "4949aad00609"
   },
@@ -689,7 +689,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 909730,
+   "offset": 909967,
    "chars": 32438,
    "sha256_12": "f981a2dea872"
   },
@@ -698,7 +698,7 @@
    "title": "Доставка древнего компьютера в комнату: стык к Warcraft",
    "target_engine": "Wan 3",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -711,9 +711,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 942168,
-   "chars": 28083,
-   "sha256_12": "9886aeb3b4f4"
+   "offset": 942405,
+   "chars": 28112,
+   "sha256_12": "ef4830fb79c3"
   },
   {
    "id": 55,
@@ -733,7 +733,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 970251,
+   "offset": 970517,
    "chars": 26142,
    "sha256_12": "7ce59cba0fe3"
   },
@@ -756,7 +756,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 996393,
+   "offset": 996659,
    "chars": 30651,
    "sha256_12": "05a5daefdf47"
   }
