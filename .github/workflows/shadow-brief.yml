@@ -8,7 +8,7 @@ name: Shadow pilot takeover brief (not canonical)
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ['Sync canonical master from Google Drive']
+    workflows: ['Canonical master check and owner buttons (GitHub main; Drive is only a copy)']
     types: [completed]
   push:
     branches: [main]
@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1

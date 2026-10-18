@@ -1,0 +1,55 @@
+name: Canon health (stale, oversized and broken canon parts)
+
+# Owner decision 18.10.2026: automatic freshness check. Read-only for the canon; writes only canon-health.json.
+# A NEW warning fails the run once, so GitHub e-mails the owner once per new problem, not every day.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4 * * *'   # 07:20 MSK
+  push:
+    branches: [main]
+    paths:
+      - '*.md'
+      - 'ops/**'
+      - 'project-status.json'
+      - 'scripts/canon_health.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: canon-health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Check canon health
+        id: check
+        run: |
+          set +e
+          python3 scripts/canon_health.py . --write --fail-on-new
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Publish canon-health.json
+        run: |
+          if git diff --quiet -- canon-health.json && ! git ls-files --others --exclude-standard | grep -qx canon-health.json; then
+            echo "canon-health.json unchanged"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add canon-health.json
+          git commit -m "Canon health: problem list changed"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          exit 1
+      - name: New warning → e-mail the owner (failed run)
+        if: steps.check.outputs.code != '0'
+        run: |
+          echo "::error::Canon health found a new problem; see canon-health.json and the «Здоровье канона» block on the site."
+          exit 1

@@ -1,4 +1,4 @@
-name: Sync canonical master from Google Drive
+name: Canonical master check and owner buttons (GitHub main; Drive is only a copy)
 
 on:
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Canonical master from GitHub (owner decision 11.10.2026 03:25 MSK)
         shell: bash
@@ -345,8 +345,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Phase 1 - bad result button (ledger only)
@@ -409,3 +409,19 @@ jobs:
             exit 0
           fi
           python3 scripts/robot_master_actions.py
+
+      - name: Phase 3 - site buttons (launch queue, owner tasks inbox, reference feedback)
+        # Owner approval 17.10.2026 (project thread): queue ▲/▼/убрать/в очередь change only
+        # ops/topview-launch-queue.json and only while the canon lock is free; text tasks go to the
+        # inbox ops/owner-tasks.json for Claude/ChatGPT; nothing is launched or approved here.
+        if: always() && !cancelled()
+        shell: bash
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then
+            echo "::notice::Site actions not configured: missing SUPABASE_SERVICE_ROLE_KEY GitHub Actions secret"
+            exit 0
+          fi
+          python3 scripts/robot_site_actions.py

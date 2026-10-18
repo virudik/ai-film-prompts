@@ -7,6 +7,9 @@ on:
     paths:
       - 'index.html'
       - 'scripts/validate_site.py'
+      - 'film.html'
+      - 'references.html'
+      - 'film-order.json'
       - 'review-ledger.json'
 
 permissions:
@@ -16,5 +19,5 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - run: python3 scripts/validate_site.py

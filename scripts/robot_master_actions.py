@@ -489,6 +489,13 @@ def run(root, store, git, *, mode, now=None, sync=True):
                 for r in g.rows + g.also:
                     if r.get("status") in ("pending", "in_progress"):
                         store.mark(r, "needs_owner", "Робот не тронул master: " + g.reason + ". Нужно решение владельца")
+        # 1b. waiting buttons: show the reason on the site (owner 18.10), status stays pending
+        for g in groups:
+            if g.verdict == "defer":
+                note = "Ждёт: " + g.reason + ". Применю автоматически, когда это изменится"
+                for r in g.rows:
+                    if r.get("status") == "pending" and r.get("result_note") != note:
+                        store.mark(r, "pending", note)
         if not applying and not files:
             for g in groups:
                 if g.verdict == "noop":

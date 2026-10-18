@@ -457,7 +457,7 @@
       "canonical_prompt_sha256": "de926efd2c11329e35456440c6202624ec3e6c155264d9a6d56d6742e2f26dba",
       "normalized_prompt_sha256": "a8a99449b5f4395e3772ee5f8cf204e1dadc31822fd27a0f7b22289a56f2b64a",
       "priority": 240,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Seedance 2.5",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -499,7 +499,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S25-S25",
@@ -509,7 +511,7 @@
       "canonical_prompt_sha256": "12d8984f2d116d595912240f3b69e38172d6ff04c1f448eb0065755e510a26b8",
       "normalized_prompt_sha256": "65f05a65a43176d2fcf1c1876a5ec8612a6819e97a0fda3baa4e73a47f253ede",
       "priority": 241,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Seedance 2.5",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -553,7 +555,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S27-S27-part-2",
@@ -563,7 +567,7 @@
       "canonical_prompt_sha256": "231c9fec84c3c40b2e3211f02084e0a93d4ce257b62bee4076dd7dd1fa280a02",
       "normalized_prompt_sha256": "f722174e329942edddf09e9194e58ff16503ae72dbaae3e353c93e846ccb3a92",
       "priority": 250,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -619,7 +623,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S27-S27-part-3",
@@ -629,7 +635,7 @@
       "canonical_prompt_sha256": "f49ef732031e594efced3dadd08f348d82ecfbd149276725c6c04da87702db58",
       "normalized_prompt_sha256": "913220bba5d5eefaebfa674d693346b0f726f5660235d6b20f612baa2883e9ad",
       "priority": 251,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -687,7 +693,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г."
+      "hold_reason": "Latest 16.10 owner instruction: no automatic reruns; 16 accepted, 24/25/27 reuse vs rerun unresolved in handoff 6г.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S30-S30",
@@ -697,7 +705,7 @@
       "canonical_prompt_sha256": "39d16deef2aeeff76e818e670ed320cd24736ddf7d31b0eb91ddd86a91cbf09e",
       "normalized_prompt_sha256": "14d0a7b4ecc6acd61999fa0fe3c84b29b2a6cdcce39ecffd527da25ff7a35af6",
       "priority": 260,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -749,7 +757,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
+      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S31-S31",
@@ -759,7 +769,7 @@
       "canonical_prompt_sha256": "1c561b10d4a660e6f17fae6a1899b633d00223c5b5e6cb6445dbebcb2d03b121",
       "normalized_prompt_sha256": "3f4d15c6305d476f13763a92286c81ed192eb0d0fecf97c7f94a1f1166241033",
       "priority": 261,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -811,7 +821,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
+      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S32-S32",
@@ -821,7 +833,7 @@
       "canonical_prompt_sha256": "cdf27c5668f4aaafe3b7712a992d9d81947a5ddeb57081d90831a4f46c441962",
       "normalized_prompt_sha256": "cd4fea0ae03c88e93626b3e06de4e441d98346d06f4c457a23e3343a2280b8df",
       "priority": 262,
-      "state": "blocked_owner_decision",
+      "state": "superseded_scene_in_film",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -873,7 +885,9 @@
       ],
       "task_id": null,
       "claim": null,
-      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision."
+      "hold_reason": "Latest owner instruction forbids automatic reruns; historical queue entry retained, no resubmission without owner decision.",
+      "previous_state_before_film_cleanup": "blocked_owner_decision",
+      "superseded_note": "18.10.2026: сцена уже в фильме (review-ledger inserted_into_film=true) и вне активного мастера; элемент очереди закрыт чисткой, запускать нечего."
     },
     {
       "id": "S16-S16",

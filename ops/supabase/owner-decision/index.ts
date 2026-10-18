@@ -1,6 +1,7 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 
-// AI Film owner-only decisions and free-text owner tasks (v6, 10.10.2026: + in_film).
+// AI Film owner-only decisions and free-text owner tasks (v7, 18.10.2026: + launch-queue buttons,
+// reference feedback, owner_task addressee claude|chatgpt|any).
 // Custom auth: header x-owner-key must equal the OWNER_DECISION_KEY secret (the owner's own
 // password, set by the owner in the Supabase dashboard; never in HTML, GitHub or chat).
 // verify_jwt is off on purpose because this check replaces it.
@@ -8,7 +9,11 @@ const SUPABASE_URL = Deno.env.get("SUPABASE_URL")!;
 const SERVICE_ROLE = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
 const OWNER_KEY = Deno.env.get("OWNER_DECISION_KEY") || "";
 const ALLOWED_ORIGINS = new Set(["https://virudik.github.io", "https://рудик.рф", "https://xn--d1aigvp.xn--p1ai"]);
-const ACTIONS = new Set(["accept", "redo", "to_montage", "scene_not_needed", "tv_drop_task", "tv_mark_status", "owner_task", "in_film"]);
+const ACTIONS = new Set(["accept", "redo", "to_montage", "scene_not_needed", "tv_drop_task", "tv_mark_status", "owner_task", "in_film",
+  "queue_up", "queue_down", "queue_remove", "queue_add", "ref_feedback"]);
+const TASK_TARGETS = new Set(["claude", "chatgpt", "any"]);
+const REF_VERDICTS = new Set(["ok", "redraw"]);
+const NOTE_ACTIONS = new Set(["owner_task", "ref_feedback"]);
 const TV_STATUSES = new Set(["result_ok", "result_bad", "not_waiting", "failed"]);
 
 function cors(origin: string | null) {
@@ -61,7 +66,7 @@ Deno.serve(async (req: Request) => {
   const op = String(p?.op ?? "decide");
   if (op === "verify") return json({ ok: true }, 200, origin);
   if (op === "list") {
-    const r = await db("owner_decisions?select=id,created_at,scene_id,action,task_id,value,note,status,applied_at,result_note&order=created_at.desc&limit=50");
+    const r = await db("owner_decisions?select=id,created_at,scene_id,action,task_id,value,note,status,applied_at,result_note&order=created_at.desc&limit=80");
     return r.ok ? json({ ok: true, decisions: await r.json() }, 200, origin) : json({ error: "list_failed" }, 500, origin);
   }
   if (op === "cancel") {
@@ -80,8 +85,10 @@ Deno.serve(async (req: Request) => {
   const note = p?.note ? String(p.note).trim().slice(0, 2000) : null;
   if (!ACTIONS.has(action)) return json({ error: "invalid_action" }, 400, origin);
   if (scene !== null && (!Number.isInteger(scene) || scene < 1 || scene > 999)) return json({ error: "invalid_scene" }, 400, origin);
-  if (action !== "owner_task" && scene === null) return json({ error: "invalid_scene" }, 400, origin);
-  if (action === "owner_task" && (!note || note.length < 3)) return json({ error: "note_required" }, 400, origin);
+  if (!NOTE_ACTIONS.has(action) && scene === null) return json({ error: "invalid_scene" }, 400, origin);
+  if (NOTE_ACTIONS.has(action) && (!note || note.length < 3)) return json({ error: "note_required" }, 400, origin);
+  if (action === "owner_task" && value && !TASK_TARGETS.has(value)) return json({ error: "invalid_target" }, 400, origin);
+  if (action === "ref_feedback" && !(value && REF_VERDICTS.has(value))) return json({ error: "invalid_verdict" }, 400, origin);
   if (action !== "owner_task" && note && note.length > 500) return json({ error: "note_too_long" }, 400, origin);
   if (task && !/^[0-9a-f]{32}$/.test(task)) return json({ error: "invalid_task" }, 400, origin);
   if (action.startsWith("tv_") && !task) return json({ error: "task_required" }, 400, origin);

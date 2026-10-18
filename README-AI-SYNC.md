@@ -10,7 +10,7 @@
 `video-prompts.md` в GitHub `main`
 → минимальный коммит
 → `SYNC-TRIGGER.txt`
-→ workflow `.github/workflows/sync-from-drive.yml` (имя историческое, в Actions — «Sync canonical master from Google Drive»; master с Drive он больше не забирает, а собирает статус из `video-prompts.md` в `main`)
+→ workflow `.github/workflows/sync-from-drive.yml` (имя файла историческое, в Actions — «Canonical master check and owner buttons (GitHub main; Drive is only a copy)»; master с Drive он больше не забирает, а собирает статус из `video-prompts.md` в `main`)
 → валидация (`scripts/build_project_status.py`, `health=ok`)
 → сгенерированный `project-status.json`
 → GitHub Pages / Control Center (только чтение).
@@ -65,7 +65,7 @@ Workflow (`.github/workflows/`):
 
 ## Кнопки владельца
 
-Панель «🔑 Владелец» на сайте → Supabase `owner_decisions` (Edge Function, исходник `ops/supabase/owner-decision/`) → `sync-from-drive.yml`: фаза 1 «Брак» → `review-ledger.json` (`process_owner_decisions.py`); фаза 2 «Принять» / «Переделать» / «В монтаж» → одновременно журнал и снятие canonical slow у завершённой сцены; «В фильме» / «Не нужна» / «Не ждать» → `robot_master_actions.py` (GitHub Variable `ROBOT_MASTER_ACTIONS`, по умолчанию `on`; `off` — пауза). Решение получает `applied` только после коммита, валидатора и read-back; неоднозначное → `needs_owner`. «В фильме» применяется автоматически. Текстовые задачи владельца (`owner_task`) выполняет агент. Кнопки не запускают генерации.
+Панель «🔑 Владелец» на сайте → Supabase `owner_decisions` (Edge Function, исходник `ops/supabase/owner-decision/`) → `sync-from-drive.yml`: фаза 1 «Брак» → `review-ledger.json` (`process_owner_decisions.py`); фаза 2 «Принять» / «Переделать» / «В монтаж» → одновременно журнал и снятие canonical slow у завершённой сцены; «В фильме» / «Не нужна» / «Не ждать» → `robot_master_actions.py` (GitHub Variable `ROBOT_MASTER_ACTIONS`, по умолчанию `on`; `off` — пауза). Решение получает `applied` только после коммита, валидатора и read-back; неоднозначное → `needs_owner`. «В фильме» применяется автоматически. Фаза 3 (`robot_site_actions.py`, 18.10.2026): кнопки очереди запуска (▲ ▼ ✕ «в очередь») → `ops/topview-launch-queue.json` при свободном замке канона; «✎ Задача» с адресатом Claude / ChatGPT / любой → входящие `ops/owner-tasks.json`; отметки у референсов → `references/reference-review.json`. Текстовые задачи выполняет агент по `ops/OWNER-TASKS.md`. Кнопки не запускают генерации. Ежедневная проверка здоровья канона — `canon-health.yml` (`scripts/canon_health.py` → `canon-health.json`, блок «Здоровье канона» на сайте; новое предупреждение = одно письмо владельцу).
 
 ## Prompt-writing flow
 

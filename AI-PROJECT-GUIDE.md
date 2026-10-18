@@ -71,7 +71,7 @@
 
 ## 5. Routine master write
 
-`git pull` → минимальная правка (одна правка = один коммит) → `SYNC-TRIGGER.txt` → push → workflow `.github/workflows/sync-from-drive.yml` (историческое имя «Sync canonical master from Google Drive»; master с Drive он больше не забирает) → валидатор → `project-status.json` → Pages → проверка. Подробности и чек-листы — `SYNC-RUNBOOK.md` (разделы 3–7, 14). Перед «готово» проверить: `main` содержит правку; валидатор зелёный; `project-status.json` отражает сцену; Pages успешен; slow / Topview-телеметрия самовольно не менялась. Отклонённый push = другой писатель: перечитать свежий `main` и сделать правку заново, устаревшую подготовленную правку не повторять.
+`git pull` → минимальная правка (одна правка = один коммит) → `SYNC-TRIGGER.txt` → push → workflow `.github/workflows/sync-from-drive.yml` (в Actions — «Canonical master check and owner buttons (GitHub main; Drive is only a copy)»; до 18.10.2026 назывался «Sync canonical master from Google Drive»; master с Drive он больше не забирает) → валидатор → `project-status.json` → Pages → проверка. Подробности и чек-листы — `SYNC-RUNBOOK.md` (разделы 3–7, 14). Перед «готово» проверить: `main` содержит правку; валидатор зелёный; `project-status.json` отражает сцену; Pages успешен; slow / Topview-телеметрия самовольно не менялась. Отклонённый push = другой писатель: перечитать свежий `main` и сделать правку заново, устаревшую подготовленную правку не повторять.
 
 ## 6. Instruction / handoff maintenance и Documentation Duty
 

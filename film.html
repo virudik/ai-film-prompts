@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Film — Фильм по порядку</title>
+<style>
+:root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--warn:#ffd179;--ok:#7ee2a8;--bad:#ff8f8f}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% -20%,rgba(75,124,185,.12),transparent 34%),var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:980px;margin:auto;padding:24px 16px 70px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.back{border:1px solid var(--line);padding:8px 11px;border-radius:9px;background:var(--panel)}h1{font-size:26px;margin:0}.sub{color:var(--muted);font-size:12px;margin-top:5px}
+.rules{margin:0 0 14px;border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:11px 13px;color:var(--muted);font-size:12px;line-height:1.5}.rules b{color:#e3eaf1}
+.counts{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}.count{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--panel)}
+.chapter{margin:22px 0 8px;font-size:17px;font-weight:800;color:#dfe8f2;border-bottom:1px solid var(--line);padding-bottom:4px}
+.film{border:1px dashed #3a4654;border-radius:11px;padding:9px 12px;margin:8px 0;color:#b8c3ce;background:rgba(255,255,255,.02);font-size:13px}.film b{color:#e6edf4}
+.card{border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:10px 12px;margin:8px 0;display:grid;grid-template-columns:56px minmax(0,1fr);gap:10px}
+.card.done{border-color:#2f5a42}.card.redo{border-color:#6a3b3b}
+.num{font-weight:850;font-size:18px;color:#cfe3f7;text-align:center;padding-top:2px}.num small{display:block;font-size:10px;color:var(--muted);font-weight:500}
+.t{font-weight:700}.meta{font-size:12px;color:var(--muted);margin-top:3px}.links{font-size:12px;margin-top:4px;display:flex;gap:8px;flex-wrap:wrap}
+.badge{display:inline-block;font-size:11px;border:1px solid #3d5772;padding:2px 8px;border-radius:999px;color:#b9d8f7;margin:3px 5px 0 0}
+.b-film{border-color:#2f6b4a;color:var(--ok)}.b-acc{border-color:#2f6b4a;color:#a9e9c4}.b-redo{border-color:#7a4040;color:var(--bad)}.b-gen{border-color:#6b5a2b;color:var(--warn)}.b-wait{border-color:#6b5a2b;color:#ffe2a6}.b-q{border-color:#3d5772}.b-held{border-color:#555;color:#aaa}.b-draft{border-color:#555;color:#c9c9c9}
+.owner-btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}.owner-btn{border:1px solid #3d5772;background:#0f1a26;color:#d6e9ff;border-radius:8px;padding:4px 9px;font-size:12px;cursor:pointer}.owner-btn.arm{border-color:var(--warn);color:var(--warn)}.owner-btn:disabled{opacity:.5}
+.task{margin-top:7px;display:none;gap:6px;flex-direction:column}.task.open{display:flex}.task textarea{width:100%;min-height:64px;border:1px solid var(--line);border-radius:8px;background:#0d1116;color:var(--text);padding:7px;font:inherit;font-size:13px}.task select{border:1px solid var(--line);border-radius:8px;background:#0d1116;color:var(--text);padding:5px}
+.owner-toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#14202c;border:1px solid #3d5772;color:#e6f1ff;padding:9px 14px;border-radius:10px;z-index:99;max-width:92vw;font-size:13px}
+.loading,.empty{padding:18px;color:var(--muted)}
+@media (max-width:560px){.card{grid-template-columns:44px minmax(0,1fr)}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><div><h1>🎞 Фильм по порядку</h1><div class="sub" id="sub">Загрузка…</div></div><a class="back" href="index.html">← к промтам</a></div>
+<div class="rules"><b>Что здесь.</b> Пунктирные карточки — уже смонтированные куски версии 2 (24.09). Карточки с номером — сцены на своём месте в сюжете со статусом из живых файлов проекта (решения на сайте, Topview, очередь запуска). Порядок берётся из <a href="film-order.json">film-order.json</a>; поменять порядок — задачей «✎ Задача», файл правит агент. <b>Режим владельца</b> (пароль вводится на главной странице) добавляет кнопки «в очередь» и «✎ Задача».</div>
+<div class="counts" id="counts"></div>
+<div id="list"><div class="loading">Загрузка порядка фильма…</div></div>
+</div>
+<script>
+(()=>{
+const API='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/owner-decision',PUB='sb_publishable_Jk9lV1ZxYXvn5-XK7ICYBQ_TxdQrTut',LS='aifilm_owner_key';
+const FINAL=new Set(['submitted','cancelled_owner','completed','held_owner_site']);
+const waiting=st=>!FINAL.has(st)&&!/^superseded|^cancelled/.test(st||'');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const get=u=>fetch(u+'?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
+const key=()=>{try{return localStorage.getItem(LS)||''}catch(e){return ''}};
+const toast=t=>{const d=document.createElement('div');d.className='owner-toast';d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),4200)};
+const ERR={forbidden:'пароль не подошёл, войдите заново на главной странице',locked_try_later:'слишком много неверных попыток, подождите час',note_required:'напишите задачу'};
+async function call(body){const r=await fetch(API,{method:'POST',headers:{'content-type':'application/json','apikey':PUB,'x-owner-key':key()},body:JSON.stringify(Object.assign({op:'decide'},body))});let j={};try{j=await r.json()}catch(e){}if(!r.ok)throw new Error(j.error||('HTTP '+r.status));return j}
+function arm(b,run){if(b.classList.contains('arm')){b.classList.remove('arm');clearTimeout(b._t);b.textContent=b._old;run();return}b.classList.add('arm');b._old=b.textContent;b.textContent='Точно? нажмите ещё раз';b._t=setTimeout(()=>{b.classList.remove('arm');b.textContent=b._old},4000)}
+
+let D={};
+// Scene order of the launch queue, same rule as index.html and scripts/robot_site_actions.py
+function queueOrder(q){const band=new Map(),held=new Set();(q?.items||[]).forEach(it=>{const sid=Number(it.scene_id);if(waiting(it.state)){const p=Number(it.priority)||0;band.set(sid,Math.min(band.has(sid)?band.get(sid):p,p))}else if(it.state==='held_owner_site')held.add(sid)});
+ const live=[...band.entries()].sort((a,b)=>a[1]-b[1]||a[0]-b[0]).map(x=>x[0]);return{pos:new Map(live.map((s,i)=>[s,i+1])),held:new Set([...held].filter(s=>!band.has(s)))}}
+function videos(sid){const v=D.archive?.videos||{};return Object.values(v).filter(x=>Number(x.scene_id)===sid&&x.drive_url).sort((a,b)=>String(b.archived_at||'').localeCompare(String(a.archived_at||'')))}
+function status(sid){const L=D.ledger?.scenes?.[String(sid)]||{},M=D.status?.scene_meta?.[String(sid)],b=[];let cls='';
+ const active=(D.topview?.active_tasks||[]).filter(t=>Number(t.scene_id)===sid);const Q=D.q;
+ if(L.inserted_into_film){b.push(['b-film','✓ в фильме'+(L.insert_timecode?' · '+L.insert_timecode:'')]);cls='done'}
+ else if(L.accepted){b.push(['b-acc','принята, ждёт монтажа']);cls='done'}
+ else if(L.needs_redo){b.push(['b-redo','нужно переделать']);cls='redo'}
+ if(active.length)b.push(['b-gen','генерируется в Topview'+(active.length>1?' ×'+active.length:'')]);
+ if(!L.inserted_into_film&&!L.accepted&&L.result_received&&!L.reviewed)b.push(['b-wait','ролик готов, ждёт вашей оценки']);
+ if(Q.pos.has(sid))b.push(['b-q','в очереди запуска №'+Q.pos.get(sid)]);else if(Q.held.has(sid))b.push(['b-held','убрана вами из очереди']);
+ if(!L.inserted_into_film&&!L.accepted&&M){const ps=M.production_state;if(ps==='DRAFT')b.push(['b-draft','черновик промта']);else if(ps==='NEEDS_RERENDER'&&!L.needs_redo)b.push(['b-redo','нужен перезапуск']);else if(ps==='READY'&&!active.length&&!Q.pos.has(sid)&&!L.result_received)b.push(['b-draft','промт готов, не запускалась']);if(M.target_engine)b.push(['','модель: '+M.target_engine])}
+ if(!M&&!L.inserted_into_film&&!L.accepted&&(D.status?.reserved_scene_ids||[]).includes(sid))b.push(['b-held','номер закрыт в мастере']);
+ return{b,cls,L}}
+function counts(sids){const c={film:0,acc:0,redo:0,gen:0,q:0,other:0};sids.forEach(s=>{const {L}=status(s);if(L.inserted_into_film)c.film++;else if(L.accepted)c.acc++;else if(L.needs_redo)c.redo++;else if((D.topview?.active_tasks||[]).some(t=>Number(t.scene_id)===s))c.gen++;else if(D.q.pos.has(s))c.q++;else c.other++});
+ return [['в фильме',c.film],['принято',c.acc],['переделать',c.redo],['генерируется',c.gen],['в очереди',c.q],['остальные',c.other]].map(([k,n])=>'<span class="count">'+k+': <b>'+n+'</b></span>').join('')}
+function ownerBox(sid,L){if(!key())return '';const q=!L.inserted_into_film&&!D.q.pos.has(sid);return '<div class="owner-btns">'+(q?'<button type="button" class="owner-btn" data-act="queue_add" data-sid="'+sid+'" title="Поставить сцену в очередь бесплатного запуска">в очередь</button>':'')+'<button type="button" class="owner-btn" data-act="task" data-sid="'+sid+'">✎ Задача</button></div><div class="task" id="task'+sid+'"><textarea maxlength="2000" placeholder="Что сделать со сценой '+sid+'"></textarea><div style="display:flex;gap:6px;flex-wrap:wrap"><select title="Кому задача"><option value="any">Кому: любой (кто свободен)</option><option value="claude">Кому: Claude</option><option value="chatgpt">Кому: ChatGPT</option></select><button type="button" class="owner-btn" data-act="send" data-sid="'+sid+'">Отправить</button></div></div>'}
+function card(sid,title,text){const {b,cls,L}=status(sid);const v=videos(sid);const links=[];if(L.result_url)links.push('<a href="'+esc(L.result_url)+'" target="_blank" rel="noopener">▶ выбранный ролик</a>');v.slice(0,3).forEach((x,i)=>links.push('<a href="'+esc(x.drive_url)+'" target="_blank" rel="noopener">▶ видео '+(i+1)+'</a>'));if(v.length>3)links.push('<span class="meta">ещё '+(v.length-3)+'</span>');
+ const inMaster=(D.status?.scene_ids||[]).includes(sid);
+ return '<div class="card '+cls+'"><div class="num">'+sid+'<small>сцена</small></div><div><div class="t">'+(inMaster?'<a href="index.html#scene-'+sid+'">'+esc(title)+'</a>':esc(title))+'</div>'+(text?'<div class="meta">'+esc(text)+'</div>':'')+(L.montage_note&&L.montage_note!=='в фильме'?'<div class="meta">Монтаж: '+esc(String(L.montage_note).slice(0,220))+'</div>':'')+'<div>'+b.map(([c,t])=>'<span class="badge '+c+'">'+esc(t)+'</span>').join('')+'</div>'+(links.length?'<div class="links">'+links.join('')+'</div>':'')+ownerBox(sid,L)+'</div></div>'}
+function render(){const box=document.getElementById('list');const O=D.order;if(!O){box.innerHTML='<div class="empty">Не удалось загрузить film-order.json.</div>';return}
+ D.q=queueOrder(D.queue);const placed=new Set();let h='';
+ (O.blocks||[]).forEach(bl=>{if(bl.kind==='chapter')h+='<div class="chapter">'+esc(bl.title)+'</div>';else if(bl.kind==='film')h+='<div class="film">🎬 <b>'+esc(bl.title)+'</b> — смонтировано (v2)<br>'+esc(bl.text||'')+'</div>';else if(bl.kind==='scene'){placed.add(Number(bl.scene));h+=card(Number(bl.scene),bl.title||('Сцена '+bl.scene),bl.text)}});
+ const rest=(D.status?.scene_ids||[]).map(Number).filter(s=>!placed.has(s));
+ if(rest.length){h+='<div class="chapter">Место в фильме не записано</div><div class="meta" style="margin-bottom:6px">Эти сцены есть в мастере, но не стоят в порядке фильма. Поставить — задачей «✎ Задача».</div>';rest.forEach(s=>{h+=card(s,'Сцена '+s,'')})}
+ box.innerHTML=h;const all=[...placed,...rest];document.getElementById('counts').innerHTML=counts(all);
+ document.getElementById('sub').textContent='Сцен в порядке: '+placed.size+(rest.length?' · без места: '+rest.length:'')+' · обновлено '+new Date().toLocaleString('ru-RU',{timeZone:'Europe/Moscow',hour:'2-digit',minute:'2-digit'})+' МСК'+(key()?' · режим владельца':'')}
+document.addEventListener('click',e=>{const b=e.target.closest('button[data-act]');if(!b)return;const sid=Number(b.dataset.sid),act=b.dataset.act;
+ if(act==='task'){document.getElementById('task'+sid)?.classList.toggle('open');return}
+ if(act==='queue_add'){arm(b,async()=>{b.disabled=true;try{await call({action:'queue_add',scene_id:sid});toast('Записано: сцена '+sid+' — в очередь. Робот применит в ближайшие 10 минут, когда канон свободен')}catch(err){toast('Не записано: '+(ERR[err.message]||err.message))}b.disabled=false});return}
+ if(act==='send'){const w=document.getElementById('task'+sid);const note=w.querySelector('textarea').value.trim();if(note.length<3){toast('Напишите задачу (не менее 3 символов)');return}b.disabled=true;
+  call({action:'owner_task',scene_id:sid,note,value:w.querySelector('select').value}).then(()=>{toast('Задача для сцены '+sid+' записана');w.querySelector('textarea').value='';w.classList.remove('open')}).catch(err=>toast('Не записано: '+(ERR[err.message]||err.message))).finally(()=>{b.disabled=false})}});
+async function load(){const [order,ledger,status,queue,topview,archive]=await Promise.all(['film-order.json','review-ledger.json','project-status.json','ops/topview-launch-queue.json','topview-status.json','topview-video-archive.json'].map(get));
+ D={order:order||D.order,ledger:ledger||D.ledger,status:status||D.status,queue:queue||D.queue,topview:topview||D.topview,archive:archive||D.archive};
+ if(!document.querySelector('.task.open'))render()}
+load();setInterval(load,180000);
+})();
+</script>
+</body>
+</html>

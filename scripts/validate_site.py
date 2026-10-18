@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 import subprocess
 import tempfile
@@ -192,3 +193,28 @@ for forbidden in ("now-done>21*864e5", "l&&l.reviewed===true"):
 for required in ("topview-video-archive.json?fresh=", "function archivedDriveUrl(taskId,sceneId){", "function syncArchivedSceneLinks(){", "💾 Drive ", "💾 MP4 ", "syncArchivedSceneLinks();"):
     if required not in html:
         raise SystemExit("Archived Drive MP4 link regression: " + required)
+
+# Owner site panel and extra pages (18.10.2026): queue, lock, inbox, canon health, film order, reference buttons.
+for page in ("film.html", "references.html"):
+    ptxt = (root / page).read_text(encoding="utf-8")
+    pjs = "\n".join(re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", ptxt, re.S | re.I))
+    with tempfile.NamedTemporaryFile("w", suffix=".js", encoding="utf-8", delete=False) as f:
+        f.write(pjs); pname = f.name
+    pp = subprocess.run(["node", "--check", pname], text=True, capture_output=True)
+    if pp.returncode:
+        raise SystemExit(page + ": " + (pp.stderr or pp.stdout))
+for required in ('id="pult"', "ops/topview-launch-queue.json", "ops/canon-lock.json", "ops/owner-tasks.json",
+                 "canon-health.json", "action:'queue_up'", "'redo_enqueue'", 'href="film.html"', "TO_SELECT("):
+    if required not in html:
+        raise SystemExit("owner site panel regression: " + required)
+film = (root / "film.html").read_text(encoding="utf-8")
+for required in ("film-order.json", "action:'queue_add'", "action:'owner_task'"):
+    if required not in film:
+        raise SystemExit("film.html regression: " + required)
+refs = (root / "references.html").read_text(encoding="utf-8")
+for required in ("action:'ref_feedback'", "references/reference-review.json"):
+    if required not in refs:
+        raise SystemExit("references.html regression: " + required)
+json.loads((root / "film-order.json").read_text(encoding="utf-8"))
+print("owner site panel, film.html and references.html ok")
+

@@ -322,6 +322,19 @@ class EndToEndTests(unittest.TestCase):
         self.assertTrue(ledger["inserted_into_film"])
         self.assertNotEqual(self.origin_file("video-prompts.md"), (self.work / "video-prompts.md").read_text() + "x")
 
+    def test_deferred_button_shows_reason_once_and_stays_pending(self):
+        rows = [fx.row("r1", 13, "in_film"), fx.row("t", 13, "owner_task")]
+        rc, store = self.go(rows)
+        self.assertEqual((rc, store.status_of("r1")), (0, "pending"))
+        self.assertEqual(self.head(), self.head0)
+        self.assertTrue(store.rows["r1"]["result_note"].startswith("Ждёт: по сцене открыта текстовая задача"))
+        n = len(store.log)
+        self.go_store(store)
+        self.assertEqual(len(store.log), n, "the same reason is not rewritten every run")
+
+    def go_store(self, store):
+        return silent(robot.run, self.work, store, robot.Git(self.work), mode="on", now=NOW)
+
     def test_drop_task_end_to_end(self):
         rc, store = self.go([fx.row("d", 30, "tv_drop_task", task_id=fx.ACTIVE_TASK)])
         self.assertEqual((rc, store.status_of("d")), (0, "applied"))

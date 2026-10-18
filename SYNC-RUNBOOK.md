@@ -33,7 +33,7 @@
 
 Робот никогда не запускает, не одобряет, не перезапускает, не удаляет, не тратит кредиты, не создаёт Scene ID, не снимает canonical slow и не угадывает привязку «задача → сцена»: принимает только точное или нормализованное совпадение промта ровно с одной активной сценой (`scripts/topview_prompt_match.py`), иначе `hold` и событие в ленту. Лента оповещений владельца — один открытый issue с меткой `topview-events`, каждое событие — комментарий (результат готов и свободные слоты; задача без сцены; сбой); дубли гасятся по `automation-monitor-status.json.notification_state.robot_notified_keys`. Тесты: `tests/test_robot_telemetry.py`, `tests/test_monitor_failover.py` (роль `robot`). Подробно и откат — `ops/ROBOT-TELEMETRY.md`.
 
-Робот не заменяет (остаётся за агентом / владельцем): привязку задачи без точного совпадения промта; текстовые `owner_task`; применение `tv_mark_status(result_ok)`; «Не нужна» при зависимых сценах; ИИ-часть суточной проверки инструкций; копии в Notion / Library / Project.
+Робот не заменяет (остаётся за агентом / владельцем): привязку задачи без точного совпадения промта; выполнение текстовых `owner_task` (робот их только доставляет во входящие); применение `tv_mark_status(result_ok)`; «Не нужна» при зависимых сценах; ИИ-часть суточной проверки инструкций; копии в Notion / Library / Project.
 
 ### Запуск автоматики снаружи (решение владельца 13.10.2026)
 
@@ -101,7 +101,7 @@ GitHub `schedule:` ненадёжен (по истории запусков 12�
 4. Изменить только нужный блок сцены и связанные оглавление / счётчики / статус / meta. Минимальный diff.
 5. Master — UTF-8 без BOM, только LF (проверить отсутствие `\r`).
 6. Коммит → `SYNC-TRIGGER.txt` (ожидаемый SHA) → `git pull --rebase` → push.
-7. Дождаться workflow `sync-from-drive.yml` («Sync canonical master from Google Drive»; имя историческое, master берётся из GitHub `main`); валидатор — `project-status.health=ok`.
+7. Дождаться workflow `sync-from-drive.yml` («Canonical master check and owner buttons (GitHub main; Drive is only a copy)»; имя файла историческое, master берётся из GitHub `main`); валидатор — `project-status.health=ok`.
 8. Проверить `project-status.json` (`canonical_master_sha256` = SHA нового master) и сборку Pages.
 9. Если сцена в slow — не менять Topview-привязку без доказанной причины; новая задача-замена с тем же (с точностью до нормализации) промтом — доказанная причина обновить привязку.
 10. Только после read-back и проверок сообщать «готово».
@@ -193,7 +193,7 @@ Notion `Кино` — сюжет, история, банк идей. Опера�
 
 ## 14. Verification before final answer
 
-Для изменения master: коммит в `main` прочитан обратно; workflow `sync-from-drive.yml` («Sync canonical master from Google Drive») успешен; валидатор `health=ok`; `project-status.json` соответствует новому master (`canonical_master_sha256`); Pages успешен.
+Для изменения master: коммит в `main` прочитан обратно; workflow `sync-from-drive.yml` («Canonical master check and owner buttons (GitHub main; Drive is only a copy)») успешен; валидатор `health=ok`; `project-status.json` соответствует новому master (`canonical_master_sha256`); Pages успешен.
 
 Для изменения инструкций или материального изменения: все 7 файлов в `main` содержат новое правило; свежий `instruction-sync-status.json` (7/7, `cert_github.py`); тесты и `validate_site.py` зелёные; в `project-status` нет блокирующего предупреждения об инструкциях; Notion-указатель актуален; состояние резервных копий известно (`current` или `pending/stale`).
 
@@ -303,7 +303,11 @@ Control Center → **Служебные файлы** различает **7 ин
 3. Большое — `in_progress` с коротким планом; делать по частям или в рабочем чате.
 4. Творческий выбор, неясность или то, что требует отдельного разрешения (запуск генераций и кредиты, удаление, закрытие сцены, approve без кнопки, изменение архитектуры) — `needs_owner` с одним коротким вопросом и вариантами.
 
-`owner_task` — не работа робота. Takeover нового чата читает открытые задачи (`pending` / `in_progress` / `needs_owner`).
+`owner_task` выполняет агент, а не робот. **С 18.10.2026 робот доставляет:** фаза 3 (`scripts/robot_site_actions.py`) переносит каждую новую `owner_task` во входящие `ops/owner-tasks.json` с адресатом из `value` (`claude` / `chatgpt` / `any`, по умолчанию `any`) и ставит строке `in_progress` с `result_note` «site-inbox: …». Агент берёт и закрывает задачу в этом файле (`taken` → `done` / `needs_owner` / `cancelled`, порядок — `ops/OWNER-TASKS.md`); робот переносит итог обратно в Supabase (`applied` / `needs_owner` / `superseded`), и владелец видит его на сайте. ChatGPT читает файл на каждом часовом цикле, Claude — по расписанию (3 раза в день) и при приёме смены. Takeover нового чата по-прежнему читает открытые строки (`pending` / `in_progress` / `needs_owner`).
+
+**Фаза 3 — кнопки сайта (18.10.2026, `scripts/robot_site_actions.py`, тесты `tests/test_site_actions.py`).** Очередь запуска: `queue_up` / `queue_down` меняют местами сцену с соседней (сдвигаются полосы `priority` её ожидающих элементов и `new_scene_order`; запущенные, отменённые и `superseded_*` не трогаются; в `selection_policy` один раз добавлено «OWNER SITE ORDER … priority wins»; журнал — `owner_site_actions`, последние 100); `queue_remove` → state `held_owner_site` с `previous_state_before_site_hold`; `queue_add` возвращает убранную сцену, снимает `blocked_owner_decision` → `waiting_for_slot`, а сцену без элементов очереди превращает в задачу `any` во входящих. Правка очереди — только при свободном замке канона; при занятом строка остаётся `pending` с причиной «Ждёт: канон занят …». `ref_feedback` (кнопки у картинок на `references.html`): «подходит» → `references/reference-review.json`; «перерисовать» с комментарием → там же и задача `chatgpt` во входящих. Закрытые задачи удаляются из файла через 14 дней (история в Supabase). Отметка в Supabase — только после push и read-back; отклонённый push → всё с нуля.
+
+**Причина ожидания на сайте (18.10.2026).** Если фаза 2 откладывает кнопку (активная задача Topview, нет terminal и т. п.), строка остаётся `pending`, а `result_note` = «Ждёт: <причина>. Применю автоматически, когда это изменится» (пишется один раз, без повторов).
 
 ## Canonical Topview state — minimal operational model
 
@@ -438,7 +442,7 @@ E. только после checkpoint — обычный sync-trigger, если 
 
 ## Workflows и тесты
 
-- `sync-from-drive.yml` («Sync canonical master from Google Drive»; имя историческое — master берётся из GitHub `main`) — запуск Supabase `pg_cron` :02/:12/…, запасное расписание `11,41 * * * *`, push `SYNC-TRIGGER.txt` / `instruction-sync-status.json` / `scripts/build_project_status.py` / самого workflow: валидатор → `project-status.json`, `ci-status.json`, оповещение `monitor-alert`, сторож `drive-drift`, job `owner_decisions` (кнопки, фазы 1–2).
+- `sync-from-drive.yml` («Canonical master check and owner buttons (GitHub main; Drive is only a copy)»; имя файла историческое — master берётся из GitHub `main`) — запуск Supabase `pg_cron` :02/:12/…, запасное расписание `11,41 * * * *`, push `SYNC-TRIGGER.txt` / `instruction-sync-status.json` / `scripts/build_project_status.py` / самого workflow: валидатор → `project-status.json`, `ci-status.json`, оповещение `monitor-alert`, сторож `drive-drift`, job `owner_decisions` (кнопки, фазы 1–2).
 - `topview-robot.yml` — сканер и писатель телеметрии Topview (только GET; каждые 10 минут через `pg_cron`, запасное `7,37 * * * *`). `topview-api-probe.yml` — проба API (только чтение). `topview-prompt-match.yml` — сверка промтов задач с master (только чтение, аннотации).
 - `topview-video-archive.yml` — автоархив MP4 в Drive (`pg_cron` :05/:15/…, запасное `17,47 * * * *`).
 - `drive-write.yml` («Drive copy refresh», `scripts/drive_write.py`) — суточное обновление Drive-копий 7 инструкций и master (`20 3 * * *` UTC = 06:20 МСК; keyless Workload Identity Federation, без JSON-ключа; без переменных `GCP_WORKLOAD_IDENTITY_PROVIDER` / `GCP_SERVICE_ACCOUNT` — чистый no-op), а также запросы `drive-write-requests/**`; вручную поправленную Drive-копию не перезаписывает — issue `drive-drift`. Notion-указатель и файлы Project обновляет агент best-effort; ежевечернее обслуживание Claude 21:40 выключено.
@@ -453,7 +457,7 @@ E. только после checkpoint — обычный sync-trigger, если 
 
 ## Бриф для короткого приёма (D7; папка `shadow/`, не authority)
 
-`shadow/` (`takeover-brief.md/.json`, `current-checkpoint.md`) строит `scripts/build_takeover_brief.py` в workflow `shadow-brief.yml` (своего расписания нет: запускается при изменении 7 инструкций, master, `instruction-sync-status.json` и после каждого запуска `Sync canonical master from Google Drive` (`sync-from-drive.yml`); коммитит только при изменении содержимого). Это производный навигатор: якоря инвариантов в инструкциях проверяются кодом (должно быть 15 из 15; при переименовании заголовка обновить `INVARIANTS` в скрипте), `valid` требует совпадения хешей с сертификатом и `project-status`. Brief не authority и не часть 7/7; падение workflow на health проекта не влияет. Короткий приём D7 принят владельцем 14.10.2026; пилот завершён, журнал — `shadow/pilot-log.md`. Валидный бриф допускает короткий приём по правилам `NEW-CHAT-HANDOFF.md`; при невалидном брифе, правке инструкций, изменении workflow, восстановлении или сомнении обязательно полное чтение. Отмена D7 — только решением владельца с возвратом правила полного приёма в раздел 1; удалять рабочие файлы брифа автоматически нельзя.
+`shadow/` (`takeover-brief.md/.json`, `current-checkpoint.md`) строит `scripts/build_takeover_brief.py` в workflow `shadow-brief.yml` (своего расписания нет: запускается при изменении 7 инструкций, master, `instruction-sync-status.json` и после каждого запуска `Canonical master check and owner buttons (GitHub main; Drive is only a copy)` (`sync-from-drive.yml`); коммитит только при изменении содержимого). Это производный навигатор: якоря инвариантов в инструкциях проверяются кодом (должно быть 15 из 15; при переименовании заголовка обновить `INVARIANTS` в скрипте), `valid` требует совпадения хешей с сертификатом и `project-status`. Brief не authority и не часть 7/7; падение workflow на health проекта не влияет. Короткий приём D7 принят владельцем 14.10.2026; пилот завершён, журнал — `shadow/pilot-log.md`. Валидный бриф допускает короткий приём по правилам `NEW-CHAT-HANDOFF.md`; при невалидном брифе, правке инструкций, изменении workflow, восстановлении или сомнении обязательно полное чтение. Отмена D7 — только решением владельца с возвратом правила полного приёма в раздел 1; удалять рабочие файлы брифа автоматически нельзя.
 
 ## Журнал решений (сжатый; детали — в git)
 
