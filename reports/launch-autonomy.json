@@ -1,16 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-17T17:38:21Z",
+  "checked_at": "2026-10-18T09:47:13Z",
   "window_hours": 24,
-  "verdict": "free_slots_idle_no_schedule_launch",
+  "verdict": "schedule_launched",
   "launches": [
-    {
-      "item": "B8",
-      "scene_id": 28,
-      "claimed_at": "2026-10-17T03:05:38Z",
-      "run_id": "chatgpt-B8-20261017-1792206338241",
-      "source": "chat"
-    },
     {
       "item": "B3",
       "scene_id": 28,
@@ -24,11 +17,71 @@
       "claimed_at": "2026-10-17T12:03:16Z",
       "run_id": "chatgpt-cloud-20261017-B9-1792238596080",
       "source": "chat"
+    },
+    {
+      "item": "S50-FANS-IMAGE",
+      "scene_id": 50,
+      "claimed_at": "2026-10-17T18:41:00Z",
+      "run_id": "chatgpt-working-s50-1792262460343",
+      "source": "chat"
+    },
+    {
+      "item": "S50-FANS-IMAGE-V2",
+      "scene_id": 50,
+      "claimed_at": "2026-10-17T19:05:19Z",
+      "run_id": "chatgpt-s50v2-1792263919905",
+      "source": "chat"
+    },
+    {
+      "item": "S55",
+      "scene_id": 55,
+      "claimed_at": "2026-10-17T19:36:44Z",
+      "run_id": "chatgpt-s55-1792265804265",
+      "source": "chat"
+    },
+    {
+      "item": "S41",
+      "scene_id": 41,
+      "claimed_at": "2026-10-18T00:03:27Z",
+      "run_id": "chatgpt-s41-20261018000041",
+      "source": "chat"
+    },
+    {
+      "item": "S43-R1-20261017",
+      "scene_id": 43,
+      "claimed_at": "2026-10-18T07:06:02Z",
+      "run_id": "chatgpt-scheduled-20261018-S43-1792307162774",
+      "source": "schedule"
     }
   ],
-  "launches_by_schedule": 0,
-  "launches_by_chat": 3,
+  "launches_by_schedule": 1,
+  "launches_by_chat": 6,
   "free_slot_observations": [
+    {
+      "at": "2026-10-18T06:30:12Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-18T00:00:16Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-17T23:10:16Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-17T19:00:14Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-17T18:10:14Z",
+      "occupied": 5,
+      "capacity": 6
+    },
     {
       "at": "2026-10-17T11:20:22Z",
       "occupied": 4,
@@ -43,33 +96,8 @@
       "at": "2026-10-17T10:20:20Z",
       "occupied": 5,
       "capacity": 6
-    },
-    {
-      "at": "2026-10-17T09:30:20Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-17T08:40:23Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-17T07:50:22Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-17T06:30:21Z",
-      "occupied": 5,
-      "capacity": 6
-    },
-    {
-      "at": "2026-10-17T02:50:19Z",
-      "occupied": 5,
-      "capacity": 6
     }
   ],
-  "ready_items_waiting": 23,
+  "ready_items_waiting": 9,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
 }
