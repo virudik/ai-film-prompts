@@ -66,8 +66,14 @@ def label_for(scene, heading, index_in_scene):
     if scene == 20:
         m = re.search(r"Песня Маши\s+(\d+)", heading)
         return f"20 · песня {m.group(1)}" if m else "20"
+    # Alternative engine versions of one scene (site tabs, see PROMPT-STYLE-GUIDE §7А):
+    # "#### 37 · Seedance 2.5 · 30 с", "#### 16 · Wan 3.0", "#### 49 · Wan 3.0 часть 2 · 49C + 49D",
+    # "#### 42 · Seedance 2.0 часть 1". The scene's first block keeps the bare label "N".
+    m = re.match(rf"{scene}\s*·\s*(Wan 3\.0|Seedance 2\.5|Seedance 2\.0)(?:\s+часть\s+(\d+))?", heading)
+    if m and index_in_scene > 0:
+        return f"{scene} · {m.group(1)}" + (f" часть {m.group(2)}" if m.group(2) else "")
     if scene == 28:
-        m = re.match(r"([AB]\d+)\b", heading)
+        m = re.match(r"([ABC]\d+)\b", heading)
         return f"28 {m.group(1)}" if m else "28"
     if scene == 27:
         m = re.match(r"Часть\s+(\d+)", heading)
@@ -77,11 +83,6 @@ def label_for(scene, heading, index_in_scene):
     if scene in (49, 50, 51):
         m = re.match(rf"({scene}[A-Z])\b", heading)
         return m.group(1) if m else str(scene)
-    # Backup Seedance 2.0 versions (two 15 s parts) kept under a Wan 3.0 scene, in a fold on the site:
-    # heading "#### 42 · Seedance 2.0 часть 1".
-    m = re.search(r"Seedance\s+2\.0\s+часть\s+(\d+)", heading)
-    if m and index_in_scene > 0:
-        return f"{scene} · Seedance 2.0 часть {m.group(1)}"
     return str(scene)
 
 
