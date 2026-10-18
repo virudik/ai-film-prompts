@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-18T07:22:41+00:00",
+ "generated_at": "2026-10-18T07:31:59+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,44 +10,44 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "3c7c9b5263c702d94782c074e317abab8b5ce6020bb1118f368bb666779b037a",
-   "bytes": 106808
+   "sha256": "ead1f1b24ee88b0597445011869b830e7b28b7ecff5f31937ead159e415d178a",
+   "bytes": 31374
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "38cc59f16b0166993e358c9e615e76283eab01c07139407e2ce7c3ee34d47c49",
-   "bytes": 114522
+   "sha256": "92ed0acaa3ef8cd0c1ae3307b786e1b0d1e41d896829371d85ba1481be4ba154",
+   "bytes": 117689
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "7da2e5f707bff97f42b5b391f8ab00fa90ec7d98cb3e49f76495bfc3168c7768",
-   "bytes": 65655
+   "sha256": "c375e7c79b34f24e590a7a9026c6c3dee16fdb382055fbdef395a921e5049244",
+   "bytes": 32126
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "6903cd6ba9f32f8e8b17bdc7f28620c7a6d181e01314bea39595cec81c03232b",
-   "bytes": 76421
+   "sha256": "8d6b97581c58018092ce0339066fa80453e85f015cd2839887913d083afb1d77",
+   "bytes": 63477
   },
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "96cd6d5bb35dc187637a57e27c8aaa7dea48bc7abc346ad91ef0a68d3587f25e",
-   "bytes": 79330
+   "sha256": "92110a21fc36a21e8940fdaa16bb6a41d2f4cecc680a137d02e0b8833f3ff907",
+   "bytes": 69452
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "3e3e531501b4cab399f1b1292cbdb44c8a8f54775fb9175f3643e41c5d18aabb",
-   "bytes": 27502
+   "sha256": "5838e4a6b3c58e95ca081185a92736f459988650e4b97f690b0f1b8accf0ff1e",
+   "bytes": 14823
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
    "drive_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
-   "sha256": "c9fc05c29a4b004bef4dab480ad6dfa49d01726f972ec3213efc9d03618387fa",
-   "bytes": 36641
+   "sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
+   "bytes": 17707
   },
   {
    "file": "video-prompts.md",
@@ -63,7 +63,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "55cb57dad9b6"
+   "section_sha256_12": "358f929d811c"
   },
   {
    "id": "INV-ONE-MASTER",
@@ -71,7 +71,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "f870bbe3fda8"
+   "section_sha256_12": "f8eb5d2fa3f9"
   },
   {
    "id": "INV-FRESH-WRITE",
@@ -79,7 +79,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "55cb57dad9b6"
+   "section_sha256_12": "358f929d811c"
   },
   {
    "id": "INV-SERIAL-DOCS",
@@ -87,7 +87,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "55cb57dad9b6"
+   "section_sha256_12": "358f929d811c"
   },
   {
    "id": "INV-SCENE-ID",
@@ -95,7 +95,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 3\\. Master",
    "anchor_ok": true,
-   "section_sha256_12": "f870bbe3fda8"
+   "section_sha256_12": "f8eb5d2fa3f9"
   },
   {
    "id": "INV-SUCCESS-NOT-APPROVAL",
@@ -103,7 +103,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## 10\\. Topview telemetry",
    "anchor_ok": true,
-   "section_sha256_12": "dab0f3354a4c"
+   "section_sha256_12": "8701fbff9a41"
   },
   {
    "id": "INV-SLOTS",
@@ -111,7 +111,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^### Точное ТЗ — Topview slow slots",
    "anchor_ok": true,
-   "section_sha256_12": "3410ab01c390"
+   "section_sha256_12": "47ec7fb5db61"
   },
   {
    "id": "INV-ONE-MONITOR",
@@ -119,7 +119,7 @@
    "owner_doc": "NEW-CHAT-HANDOFF.md",
    "anchor": "^## ИЗМЕНЕНИЕ ИСТОЧНИКА ИСТИНЫ",
    "anchor_ok": true,
-   "section_sha256_12": "55cb57dad9b6"
+   "section_sha256_12": "358f929d811c"
   },
   {
    "id": "INV-NO-FAKE-TIME",
@@ -127,7 +127,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^### Background connector degradation",
    "anchor_ok": true,
-   "section_sha256_12": "efedce883af9"
+   "section_sha256_12": "461c6cfdafbb"
   },
   {
    "id": "INV-OWNER-BOUNDARY",
@@ -135,7 +135,7 @@
    "owner_doc": "AI-PROJECT-GUIDE.md",
    "anchor": "^## 14\\. Поведение нового сменщика",
    "anchor_ok": true,
-   "section_sha256_12": "00f7b94a8f33"
+   "section_sha256_12": "ba8dfe24843c"
   },
   {
    "id": "INV-PROMPT-AUTONOMY",
@@ -143,7 +143,7 @@
    "owner_doc": "PROMPT-STYLE-GUIDE.md",
    "anchor": "^## 16A\\. Автономность",
    "anchor_ok": true,
-   "section_sha256_12": "c427850b91b5"
+   "section_sha256_12": "1326fa03eed7"
   },
   {
    "id": "INV-MATERIAL-CHANGE",
@@ -151,7 +151,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## 9\\. Material Change Documentation Rule",
    "anchor_ok": true,
-   "section_sha256_12": "d776cc5112c3"
+   "section_sha256_12": "6893f8aee160"
   },
   {
    "id": "INV-NO-CREDITS",
@@ -159,7 +159,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## Scene Reference Pack automation",
    "anchor_ok": true,
-   "section_sha256_12": "b36a58f87be3"
+   "section_sha256_12": "2b330047b164"
   },
   {
    "id": "INV-LIBRARY-NONBLOCKING",
@@ -167,7 +167,7 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## LIBRARY RECOVERY",
    "anchor_ok": true,
-   "section_sha256_12": "aeb1793c67f5"
+   "section_sha256_12": "f6d80b250ff9"
   },
   {
    "id": "INV-DONE",
@@ -175,15 +175,15 @@
    "owner_doc": "SYNC-RUNBOOK.md",
    "anchor": "^## 14\\. Verification before final answer",
    "anchor_ok": true,
-   "section_sha256_12": "4fcca62150ca"
+   "section_sha256_12": "27828852f2fb"
   }
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 64831,
-  "above_marker_chars": 64831,
+  "chars": 20566,
+  "above_marker_chars": 20566,
   "recent_sections_below_marker": [],
-  "sha256_12": "84386a66a152",
+  "sha256_12": "1ff548543d27",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
