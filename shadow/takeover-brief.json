@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-18T02:21:55+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-18T02:22:29+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -192,7 +192,7 @@
  "runtime": {
   "project_health": "ok",
   "scenes": 23,
-  "prompt_texts": 69,
+  "prompt_texts": 126,
   "scene_ids": [
    13,
    16,
@@ -389,7 +389,7 @@
   {
    "id": 37,
    "title": "Отлёт Серёги с Набу к лесной планете",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -413,7 +413,7 @@
   {
    "id": 39,
    "title": "Серёга прибывает на Набу: посадка у брошенной стоянки рыбаков",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -435,7 +435,7 @@
   {
    "id": 40,
    "title": "Серёга прилетает на планету ситхов: посадка у руин",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -479,7 +479,7 @@
   {
    "id": 42,
    "title": "Татуин: бой на фоне червя — червь им не интересен",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -544,7 +544,7 @@
   {
    "id": 47,
    "title": "Красная точка: Серёга уходит от котов хитростью",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -566,7 +566,7 @@
   {
    "id": 48,
    "title": "Татуин: после боя Канцлер забирает фрагмент карты",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -670,7 +670,7 @@
   {
    "id": 52,
    "title": "Серёга пересаживается на свой корабль и прилетает на Татуин",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -693,7 +693,7 @@
   {
    "id": 53,
    "title": "Взлёт Серёги с Татуина: курс на Набу",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "READY",
    "render_state": "IDLE",
    "duration_s": 30,
@@ -760,7 +760,7 @@
   {
    "id": 56,
    "title": "Татуин: бой в движении — червь требует внимания",
-   "target_engine": "Wan 3",
+   "target_engine": "Seedance 2.0",
    "state": "DRAFT",
    "render_state": "IDLE",
    "duration_s": 30,

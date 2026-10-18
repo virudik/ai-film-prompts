@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-18T02:21:55+00:00. Валиден при генерации: **False**
+Сгенерирован 2026-10-18T02:22:29+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 69; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
+- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 126; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -48,23 +48,23 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 | [] | e1cf22d7ffae |
 | 34 | Серёга входит в полуразрушенный храм ситхов | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 | [33] | 1e98c8fa898c |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | b68c082328ff |
-| 37 | Отлёт Серёги с Набу к лесной планете | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 5fd38c19f2df |
-| 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 023a829d6da5 |
-| 40 | Серёга прилетает на планету ситхов: посадка у руин | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | bc573944ea64 |
+| 37 | Отлёт Серёги с Набу к лесной планете | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 5fd38c19f2df |
+| 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 023a829d6da5 |
+| 40 | Серёга прилетает на планету ситхов: посадка у руин | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | bc573944ea64 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 44cf14979cbd |
-| 42 | Татуин: бой на фоне червя — червь им не интересен | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 4e9a3d0bf04a |
+| 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 4e9a3d0bf04a |
 | 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [] | 597b6f6e3725 |
 | 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 | [43] | 4f5425362089 |
-| 47 | Красная точка: Серёга уходит от котов хитростью | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 2308891cb7c9 |
-| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | b10a9f00a08f |
+| 47 | Красная точка: Серёга уходит от котов хитростью | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 2308891cb7c9 |
+| 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | b10a9f00a08f |
 | 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 12 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 44d69793ebf2 |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | 2e0a76807133 |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | abed68fd5188 |
-| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 4949aad00609 |
-| 53 | Взлёт Серёги с Татуина: курс на Набу | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | f981a2dea872 |
+| 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 4949aad00609 |
+| 53 | Взлёт Серёги с Татуина: курс на Набу | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | f981a2dea872 |
 | 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 | [41] | 9886aeb3b4f4 |
 | 55 | «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | Wan 3 | READY/SLOW_PENDING | 4 | @Image1 @Image2 @Image3 @Image4 | [54] | 7ce59cba0fe3 |
-| 56 | Татуин: бой в движении — червь требует внимания | Wan 3 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 05a5daefdf47 |
+| 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | DRAFT/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 05a5daefdf47 |
 
 ## Что читать под задачу (сверх брифа)
 - **takeover** — документы: —; master: index_only (D7 (owner 14.10.2026): short takeover = this read set; open full sections per task; any fallback trigger → full 7+master+status read.)
