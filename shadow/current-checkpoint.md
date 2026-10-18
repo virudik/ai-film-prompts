@@ -1,3 +1,7 @@
+## АКТУАЛЬНО: S54 отправлена · 18.10.2026, 20:03 МСК
+
+S54 submitted once via free Topview website: task `1e4928fa04ed4a0396d1d2ea4f5934bb`, Wan3/30s/720p/16:9/4images/qty1/Unlimited0. Exact normalized current master prompt matched; no duplicate in the pre-submit 11-board/16-page/908-task scan. Do not repeat S54. Post-submit full scan: 11 boards, 16 pages, 909 tasks, 6 active Unlimited videos, 0 free slots. Next is S36 after a fresh full scan. Receipt: `reports/topview-queue-2026-10-18/S54-receipt.json`.
+
 # NEW-CHAT-HANDOFF — передача смены «AI Film Серёгиус»
 
 > **Как устроен файл и куда что писать (решение владельца 18.10.2026).** (1) **Находка, «запиши для сменщика», новое решение владельца** — одной строкой с датой в список «Новое с последней чистки» в конце блока «СЕЙЧАС»: дописывать, файл не переписывать. (2) **Контрольная точка текущей работы** (где остановились, следующий шаг) — `reports/current-work-checkpoint.md` и `work-resume-register.json`, как раньше (`ops/CONTINUE-PROTOCOL.md`). (3) **Передача смены** — поправить в «СЕЙЧАС» только устаревшие строки («Последнее», «Кто что делает», «Что открыто») и дату; блок целиком не переписывать. (4) **Раз в неделю** (расписание Claude по воскресеньям или предупреждение «Здоровье канона») — чистка по разделу «КАК ЧИСТИТЬ ХЕНДОФ И ИНСТРУКЦИИ» ниже. Журнал `archive/handoff-log.md` — история, не правила. Время, роли, слоты, SHA и приоритеты перепроверять по живым JSON.
