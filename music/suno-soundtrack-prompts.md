@@ -14,6 +14,8 @@
 
 Во всех блоках уже указано отсутствие вокала, хора, речи и звуковых эффектов. Музыка задаётся через инструменты, темп и драматургию космического приключения; существующие мелодии фильмов и игр не заимствуются. Выбирай доступную тебе модель Suno; названия моделей Topview к этим заданиям не относятся.
 
+**[Семь повторяющихся тем T01–T07 — готовые промпты](#recurring-themes).** Вместе с эпизодными заданиями в файле теперь 37 промптов.
+
 ## С чего начать
 
 Для быстрой проверки трёх характеров: **C12A** (приключение/полёт), **C11** (ремонт/комедия), **C22B** (храм/тайна). Остальные промпты также готовы к самостоятельному использованию.
@@ -519,6 +521,113 @@ Instrumental only. Original warm chamber-orchestral homecoming underscore, 72 BP
 ```text
 Instrumental only. Original understated orchestral gaming-anticipation cue, 90 BPM. Warm clarinet, pizzicato cello, soft piano and a few bright celesta notes; a very small repeating pulse suggests absorbed concentration. A traveller finally relaxes at his recovered computer, convinced that all interruptions are over. Comfortable, quietly pleased and gently comic, without imitating any existing game theme. Begin with relief, settle into a light regular figure, gradually reduce the instrumentation and end with a short dry cadence followed by clear silence. No dramatic sting or grand finish. Leave ample space for separate gameplay audio and a later spoken punchline. No vocals, choir, spoken words or sound effects. Original melodies only; natural acoustic dynamics.
 ```
+
+
+<a id="recurring-themes"></a>
+
+## Семь повторяющихся тем — музыкальная основа фильма
+
+Добавлено 18.10.2026 по отдельному запросу владельца. **7 тем T01–T07 дополняют 30 эпизодных заданий Cxx.** Это исходные темы для повторного использования, а не семь дополнительных обязательных слоёв поверх готовой музыки. Всё — оригинальный приключенческий симфонический оркестр: духовые, подвижные струнные, загадочные камерные тембры. Без заимствования мелодий существующих фильмов и игр.
+
+Сначала создай и выбери удачный вариант каждой T-темы. В связанных сценах повторяй фрагменты выбранной записи; для точного возвращения темы используй тот же аудиофрагмент. Отдельные генерации по похожему тексту **не гарантируют ту же мелодию**. Если позднее нужны новые аранжировки, используй выбранное собственное аудио как основу через доступные в твоём аккаунте функции; их доступность и стоимость проверяются отдельно. Описанные интервалы и форма — пожелания, результат нужно прослушать.
+
+Для каждой темы: **Instrumental включён, Lyrics пустое; английский блок — в Styles.** Длительность ниже — ориентир заготовки, не точный хронометраж сцены. Название — в Title. Каждый блок запускается отдельно.
+
+| Код | Тема | Где повторять |
+|---|---|---|
+| T01 | Главная тема героя | C01, C08, C12A/B, C19, C24A/B |
+| T02 | Героическая тема котов | C09, C23A; короткая комическая вариация в C23B |
+| T03 | Сквозная тема поиска | C07, C18B, C21, C22B/C; моменты получения фрагментов |
+| T04 | Тема пути и открытого космоса | C12A/B, C15, C19, C22A, C24A |
+| T05 | Общая тема опасности и сопротивления | C04, C14A/B, C18A, C21; для котов преимущественно T02 |
+| T06 | Напоминание, ремонт и серьёзный абсурд | C02, C03, C05, C11, C16, C23B; финальная пауза без музыки |
+| T07 | Тема возвращения и покоя | C24B, C25; спокойная реприза T01 после выбора аудио |
+
+### T01 — Серёга — Я ненадолго
+
+**Title:** `T01 | Серёгиус — Серёга — Я ненадолго`  
+**Повторять:** C01, C08, C12A/B, C19, C24A/B.  
+**Ориентир:** 112 BPM; 120–150 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 112 BPM. Warm French horns lead a memorable four-note motif: an upward leap, two determined rising steps, then a gently falling answer. Agile strings, answering clarinets, trumpets and acoustic timpani. An earnest, stubborn ordinary man treats a wildly disproportionate galactic errand as a quick trip before gaming. Noble, adventurous and warmly human, with dry humor rather than parody. State the hook clearly in the first eight bars, develop it through an energetic journey, present a sparse clarinet-and-cello version, then return to a confident orchestral statement. Clear eight-bar phrases and a compact resolved ending. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T02 — Коты — РосКОТмос
+
+**Title:** `T02 | Серёгиус — Коты — РосКОТмос`  
+**Повторять:** C09, C23A; короткая комическая вариация в C23B.  
+**Ориентир:** 132 BPM; 120–150 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 132 BPM. Low French horns and trombones state a bold three-note descending motif, answered by nimble violas and bassoon. Agile string ostinatos, precise orchestral snare and timpani. Two fearless feline pilots and warriors take themselves completely seriously. Proud, disciplined, fast and resourceful; sincere heroism, no cute novelty music. Introduce the motif immediately, expand into a brisk breakthrough, reduce to a stealthy pizzicato passage, then bring back the same theme in full brass. Strong rhythm without a rigid military march. No meowing. Clean phrase endings and one decisive final cadence. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T03 — Карта — Три ноты тайны
+
+**Title:** `T03 | Серёгиус — Карта — Три ноты тайны`  
+**Повторять:** C07, C18B, C21, C22B/C; моменты получения фрагментов.  
+**Ориентир:** 70 BPM; 120–150 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 70 BPM. Celesta introduces a distinctive three-note question: one small upward movement followed by a wider downward answer, left harmonically unresolved. Bass clarinet, low divided strings, sparse harp and restrained French horns. Scattered ancient map fragments gradually reveal a path to a hidden technological treasure. Curious and wondrous, never horror. Begin with the exposed motif, repeat it with changing harmony and instrumentation, move through a slightly more urgent middle, then briefly reveal a warm major-colored answer before a quiet unresolved ending. Spacious phrasing with real rests and room for dialogue; no continuous drone. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T04 — Перелёты — Между мирами
+
+**Title:** `T04 | Серёгиус — Перелёты — Между мирами`  
+**Повторять:** C12A/B, C15, C19, C22A, C24A.  
+**Ориентир:** 124 BPM; 150–180 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 124 BPM. Soaring French horns carry a clear ascending five-note travel phrase above flowing strings and agile flute replies. Harp, light timpani and an almost inaudible cosmic synth bed within a predominantly acoustic orchestra. A small personal spacecraft crosses immense worlds, storms, desert skylines and lakes. Exhilarating forward motion and spacious discovery. Start promptly with the main phrase, develop a nimble flight section, open into a broad weightless panorama with reduced percussion, then reprise the theme for a controlled arrival. Contrasting textures, edit-friendly eight-bar sections and a warm resolved tail; no engine noises. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T05 — Сражения — Всё мешает пройти
+
+**Title:** `T05 | Серёгиус — Сражения — Всё мешает пройти`  
+**Повторять:** C04, C14A/B, C18A, C21; для котов преимущественно T02.  
+**Ориентир:** 144 BPM; 120–150 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 144 BPM. Cellos and violas drive a distinctive syncopated short-short-long rhythmic motif, answered by concise horn calls and tense climbing violins. Acoustic timpani, controlled snare and low brass, with clear melody above the pulse. A stubborn hero fights through increasingly absurd obstacles on a very personal quest. Urgent, agile and determined, not grim or apocalyptic. Immediate rhythmic entry, escalating confrontation, a short sparse tactical pause, renewed action and a brief hard-won release. Preserve audible motif identity through the changes. No trailer booms, endless impacts or percussion wall. Firm clean ending. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T06 — Бытовая комедия — Хлеб и молоко
+
+**Title:** `T06 | Серёгиус — Бытовая комедия — Хлеб и молоко`  
+**Повторять:** C02, C03, C05, C11, C16, C23B; финальная пауза без музыки.  
+**Ориентир:** 84 BPM; 90–120 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 84 BPM. Solo clarinet plays a simple two-note questioning gesture, followed after a real pause by a dry bassoon answer. Pizzicato cello, soft piano, occasional celesta; intimate chamber orchestra. An ordinary grocery reminder persists through grand adventures, pompous bureaucracy and an increasingly incompetent spacecraft repair. Affectionate deadpan humor, musicians utterly serious. Present the tiny hook clearly, develop a prim walking variation, build one restrained knot of rhythmic confusion, stop briefly, then resume with an innocently small answer. Sparse speech-friendly writing, no circus music, slide whistles or cartoon falls. Short dry ending with silence. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T07 — Возвращение домой — Почти всё вспомнил
+
+**Title:** `T07 | Серёгиус — Возвращение домой — Почти всё вспомнил`  
+**Повторять:** C24B, C25; спокойная реприза T01 после выбора аудио.  
+**Ориентир:** 72 BPM; 120–150 секунд.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic space-adventure film theme, 72 BPM. Solo cello and warm clarinet introduce a modest lyrical homecoming melody, answered by soft piano and harp, with distant French horns recalling a heroic journey. An exhausted traveller finally sets his recovered old computer on the desk and believes he can relax. Quiet relief, affection and satisfaction with a faint unresolved domestic question. Begin intimately, bloom once into a restrained warm string ensemble, return to a light absorbed pulse, then gradually strip the instrumentation down to a brief dry cadence and silence. No sentimental climax, victory march or comic sting. Leave room for a later spoken punchline. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### Как связать темы в монтаже
+
+- **T01 → T07:** главная тема становится домашней: для узнаваемой репризы лучше взять тихий участок выбранной T01, а T07 использовать как самостоятельное завершение либо ориентир будущей аранжировки.
+- **T03:** один короткий фрагмент повторяется при появлении карты; раскрытие тайны получает более светлый участок той же записи.
+- **T06:** один и тот же короткий мотив может возвращаться у стикера с хлебом и молоком, но не обязан звучать при каждом его появлении. Перед вопросом Юли в 55 — полностью убрать музыку и оставить реплику с реакцией.
+- **T02/T05:** для кошачьих боёв приоритет у собственной темы котов; T05 — для остальных столкновений. Не накладывать две темы одновременно.
+- **T04:** использовать в перелётах с разной плотностью; T01 возвращать в ключевых героических моментах. Не требуется генерировать все Cxx заново после выбора тем.
+- Под диалогом выбирать разреженные фразы и снижать громкость музыки. В танцах и песнях сохранять их собственное музыкальное решение. Встроенную музыку ролика сначала оценить отдельно, вторую дорожку поверх автоматически не добавлять.
 
 ## После генерации
 
