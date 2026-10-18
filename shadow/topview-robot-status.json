@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-18T06:00:10Z",
+  "checked_at": "2026-10-18T06:10:12Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -61,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1756,
-      "wait_seconds": 52901,
+      "queue_count": 1744,
+      "wait_seconds": 52300,
       "process_seconds": null
     },
     {
@@ -74,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 773,
-      "wait_seconds": 18341,
+      "queue_count": 751,
+      "wait_seconds": 17739,
       "process_seconds": null
     },
     {
@@ -87,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1341,
-      "wait_seconds": 35621,
+      "queue_count": 1323,
+      "wait_seconds": 35019,
       "process_seconds": null
     },
     {
@@ -100,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 2142,
-      "wait_seconds": 70181,
+      "queue_count": 2130,
+      "wait_seconds": 69579,
       "process_seconds": null
     },
     {
@@ -113,8 +113,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 64,
-      "wait_seconds": 1060,
+      "queue_count": 40,
+      "wait_seconds": 458,
       "process_seconds": null
     },
     {
@@ -126,8 +126,8 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 2508,
-      "wait_seconds": 87460,
+      "queue_count": 2496,
+      "wait_seconds": 86858,
       "process_seconds": null
     }
   ],
@@ -180,7 +180,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-18T05:20:16Z",
-    "monitor_age_minutes": 40,
+    "monitor_age_minutes": 50,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
