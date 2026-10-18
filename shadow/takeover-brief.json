@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-18T00:12:42+00:00",
+ "generated_at": "2026-10-18T01:52:14+00:00",
  "valid_at_generation": false,
  "validity_mismatches": [
   "NEW-CHAT-HANDOFF.md"
@@ -12,8 +12,8 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "8dbfc06fd158354991660c586f5164ffc88418a63d7725c0d8e0051da2cd879a",
-   "bytes": 101276
+   "sha256": "badde6577c78ad1fd1d1a56dd47d7887aa088ad5086eae4684723cd9e1bff57e",
+   "bytes": 102208
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -182,10 +182,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 61200,
-  "above_marker_chars": 61200,
+  "chars": 61764,
+  "above_marker_chars": 61764,
   "recent_sections_below_marker": [],
-  "sha256_12": "df001dda2e9c",
+  "sha256_12": "46fe9887463d",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
