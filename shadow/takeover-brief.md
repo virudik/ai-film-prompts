@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-18T02:22:29+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-18T04:02:47+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 76533 B · `0a55eeed9635d97a`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 26963 B · `fd675db34520e2a0`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 36641 B · `c9fc05c29a4b004b`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1148054 B · `a61d7e8867fcf301`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 1122508 B · `e1d6c5d9d02bd485`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 23 ([13, 16, 28, 33, 34, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 126; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 35, 38, 45, 46]
+- health ok; сцен 22 ([13, 16, 28, 33, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]); промтов 122; последний ID 56; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -45,8 +45,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 3e1abc9e09b3 |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | ffa2f758cdae |
 | 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 30 | @Image1 @Image2 @Image3 @Image4 | [] | 635dc55cab68 |
-| 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 | [] | e1cf22d7ffae |
-| 34 | Серёга входит в полуразрушенный храм ситхов | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 | [33] | 1e98c8fa898c |
+| 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 | [] | a2f80a53221b |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | b68c082328ff |
 | 37 | Отлёт Серёги с Набу к лесной планете | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 5fd38c19f2df |
 | 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Seedance 2.0 | READY/IDLE | 4 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 023a829d6da5 |
