@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Resume scene queue: verify slots and repair instruction certificate",
   "acquired_at": "2026-10-18T01:56:12.065Z",
-  "expires_at": "2026-10-18T02:16:12.065Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-18T01:57:10.145Z",
   "rules": "ops/CANON-LOCK.md",
   "run_id": "chatgpt-work-resume-20261018-0156"
 }
