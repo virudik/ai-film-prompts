@@ -37,11 +37,13 @@ class PromptMatch(unittest.TestCase):
         self.assertIn("28 B1", labels)
         self.assertIn("42 · Seedance 2.0 часть 1", labels)
         self.assertIn("42 · Seedance 2.0 часть 2", labels)
-        # Three engine versions per scene (PROMPT-STYLE-GUIDE §7А): Wan 3.0 / Seedance 2.5 / Seedance 2.0 tabs.
-        self.assertIn("42 · Seedance 2.5", labels)
-        self.assertIn("16 · Wan 3.0", labels)
+        # Two engine versions per scene since 19.10 (PROMPT-STYLE-GUIDE §7А): one 30 s text for Wan 3.0 /
+        # Seedance 2.5 and Seedance 2.0 2 × 15 s; the separate Seedance 2.5 tabs are gone.
+        self.assertIn("42", labels)
+        self.assertNotIn("42 · Seedance 2.5", labels)
+        self.assertFalse([l for l in labels if "Seedance 2.5" in l])
         self.assertIn("49 · Wan 3.0 часть 3", labels)
-        self.assertIn("28 C10", labels)
+        self.assertIn("28 B10", labels)
         for suffix in "ABCDEF":
             self.assertIn("49" + suffix, labels)
         self.assertIn("50A", labels)
