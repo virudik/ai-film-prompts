@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T10:20:24.974424Z",
+  "last_updated_at": "2026-10-19T10:28:57.637Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-19T10:20:24.974424Z",
+      "verified_at": "2026-10-19T10:28:57.637Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -18,7 +18,9 @@
         "18Oct10:06MSK: S43-R1 submitted via free Topview website, task70ba69f8c44e4898ab587fbffeaeca01; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/17page/908task scan:6active,0free.",
         "18Oct20:03MSK: S54 submitted via free Topview website, task1e4928fa04ed4a0396d1d2ea4f5934bb; Wan3/30s/720p/16:9/qty1/4refs/Unlimited0; full normalized prompt match. Post-submit full11board/16page/909task scan:6active,0free.",
         "19Oct06:03MSK: S36 submitted exactly once via free Topview website, task e33891d4568a4a90b31ff3c67f5a7100; Wan3/30s/720p/16:9/qty1/6refs/Unlimited0. Canonical text and references verified; task readback differs only by Topview token padding around the @Image1–@Image3 en-dash. Post-submit full11board/16page/910task scan:6active,0free.",
-        "19Oct13:15MSK owner explicitly authorized44 BOTH Wan30s and Seedance2.0 2x15s. Existing exact master blocks/3image hashes verified; queue and manifest now contain3 bounded tasks. Preparation blocker removed, actual-video blockers retained. No submissions in this update."
+        "19Oct13:15MSK owner explicitly authorized44 BOTH Wan30s and Seedance2.0 2x15s. Existing exact master blocks/3image hashes verified; queue and manifest now contain3 bounded tasks. Preparation blocker removed, actual-video blockers retained. No submissions in this update.",
+        "19Oct13:22MSK: existing automation6acae6ab433481919e88665c520b8ef2 expanded and exact prompt readback verified; HH:55 unchanged. Maintenance09:55/14:55/20:55, open tasks chatgpt/any/claude, explicit Claude-only→needs_owner, GitHub error email diagnosis, Sunday08:55 cleanup. Topview blocker or completed queue does not disable maintenance; fresh main authoritative.",
+        "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints."
       ],
       "next_actions": [
         "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52."
