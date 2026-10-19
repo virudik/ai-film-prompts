@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T12:00:15Z",
+  "synced_at": "2026-10-19T12:02:36Z",
   "revision_date": "19.10.2026",
   "master_declared_last_full_sync": "19.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "a3032e0e57583e1784e707189cf8eb0dc25fe71ae4d3b6fb28167a024d3a8dae",
-  "canonical_revision_sha256": "915df6fddf41e0d294d9f4b9f22d108218680351cd2300f4fd070a9d78c3896c",
-  "canonical_master_bytes": 856345,
+  "canonical_master_sha256": "6d14867b5f44941dc50a2ec3e37acbfd9893c66b4108d62e1d5d50582922883d",
+  "canonical_revision_sha256": "fc8a6a65c21fd5410f950cab1293a27cb6bfd4e202197ed5fc4072b6b42e24f0",
+  "canonical_master_bytes": 856640,
   "scenes": 22,
   "prompt_texts": 89,
   "work_items": [
@@ -26,14 +26,13 @@
   ],
   "work_items_count": 11,
   "slow_scenes": [
-    28,
     36,
     41,
     43,
     54,
     55
   ],
-  "slow_scenes_count": 6,
+  "slow_scenes_count": 5,
   "scene_ids": [
     13,
     16,
@@ -100,7 +99,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 1.963,
+    "age_hours_at_status_build": 2.003,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -179,7 +178,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 1.963,
+      "age_hours": 2.003,
       "blocking": false
     },
     "topview_task_map": {
@@ -241,7 +240,7 @@
         "ceremony_to_disco",
         "character_identity"
       ],
-      "render_state": "SLOW_PENDING"
+      "render_state": "IDLE"
     },
     "33": {
       "target_engine": "Wan 3",
@@ -693,9 +692,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.10.2026",
-    "synced_at": "2026-10-19T12:00:15Z",
-    "canonical_master_sha256": "a3032e0e57583e1784e707189cf8eb0dc25fe71ae4d3b6fb28167a024d3a8dae",
-    "canonical_revision_sha256": "915df6fddf41e0d294d9f4b9f22d108218680351cd2300f4fd070a9d78c3896c",
+    "synced_at": "2026-10-19T12:02:36Z",
+    "canonical_master_sha256": "6d14867b5f44941dc50a2ec3e37acbfd9893c66b4108d62e1d5d50582922883d",
+    "canonical_revision_sha256": "fc8a6a65c21fd5410f950cab1293a27cb6bfd4e202197ed5fc4072b6b42e24f0",
     "scene_count": 22,
     "prompt_count": 89,
     "scene_ids": [
@@ -736,7 +735,6 @@
       "W15"
     ],
     "slow_scenes": [
-      28,
       36,
       41,
       43,
