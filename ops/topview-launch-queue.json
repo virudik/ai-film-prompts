@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T03:04:00Z",
+  "updated_at": "2026-10-19T03:04:38Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -246,7 +246,7 @@
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
       "priority": 3,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -294,7 +294,7 @@
           "required": true
         }
       ],
-      "task_id": null,
+      "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
       "claim": {
         "run_id": "chatgpt-s36-20261019T0301Z",
         "claimed_at": "2026-10-19T03:04:00Z",
@@ -323,6 +323,33 @@
           "prompt_normalized_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
           "input_sha_verified": true,
           "input_count": 6
+        },
+        "post_submit": {
+          "verified_at": "2026-10-19T03:04:38Z",
+          "status": "init",
+          "normalized_match": "token-padding-only: Topview inserted whitespace around adjacent mention/en-dash; all other normalized text is identical",
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "input_names": [
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5",
+            "Image6"
+          ],
+          "unlimited": true,
+          "credits_cost": 0,
+          "account_scan": {
+            "boards": 11,
+            "pages": 16,
+            "total_tasks": 910,
+            "complete": true,
+            "active_videos": 6,
+            "free_video_slots": 0
+          }
         }
       },
       "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
@@ -331,7 +358,9 @@
         "requested_at": "2026-10-17T19:52:55Z",
         "source": "Explicit owner sequence",
         "sequence_index": 3
-      }
+      },
+      "submitted_at": "2026-10-19T03:03:33Z",
+      "receipt": "reports/topview-queue-2026-10-19/S36-receipt.json"
     },
     {
       "id": "S37-S37",
