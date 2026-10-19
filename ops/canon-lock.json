@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Revise all dance and rock prompts for active movement; retain one-test review gate",
-  "acquired_at": "2026-10-19T21:56:00.129Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T22:11:47.682314Z",
+  "task": "Record verified publication of active dance/music revision",
+  "acquired_at": "2026-10-19T22:15:27.844Z",
+  "expires_at": "2026-10-19T22:25:27.844Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
