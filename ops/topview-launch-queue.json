@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T03:04:38Z",
+  "updated_at": "2026-10-19T10:20:24.974424Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -2525,12 +2525,12 @@
       "max_new_submissions": 1,
       "id": "S44-R1-20261017",
       "priority": 7,
-      "state": "blocked_model_preparation",
+      "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
       "canonical_prompt_sha256": "0bc28e85184e722d0adb4791a1a726b605d2d01a0abd5111c3aa945b56f33b47",
       "normalized_prompt_sha256": "49e14197e09e1f18c0bba0316d285c58d0b24d7f849f9aea608973419305298c",
-      "authorization": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
       "depends_on_submitted": [
         "S43-R1-20261017"
       ],
@@ -2550,7 +2550,11 @@
         {
           "slot": "@Video1",
           "canonical_role": "previous_scene_end",
-          "input_status": "pending_new_S43_result"
+          "input_status": "pending_new_S43_result",
+          "required": true,
+          "source_item_id": "S43-R1-20261017",
+          "source_task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+          "source_requirement": "Use the same actual corrected S43 ending for Wan and Seedance P1. Left wing jammed about45deg, right wing raised, ramp down. Save provenance, trim and SHA256; old both-wings-raised S43 is invalid."
         },
         {
           "slot": "@Image3",
@@ -2563,9 +2567,9 @@
       "previous_task_ids": [
         "d837b803f130431ea0e2e5ad4b786c09"
       ],
-      "attempt": "one_corrected_attempt_authorized_20261017",
-      "blocker": "Owner18Oct03:09: comic physical repair is high-motion; prepare actual Seedance2.0 15s-part prompts and matching inputs before launching. Existing30sWan block is not authorized for new submission. Also requires actual corrected43 ending. Keep single-wing/empty-root continuity and52 bridge.",
-      "launch_readiness": "blocked_model_and_continuity",
+      "attempt": "owner_authorized_comparison_20261019",
+      "blocker": "Actual corrected S43 result task70ba69f8c44e4898ab587fbffeaeca01 must be downloaded, trimmed and continuity-QC checked; no old or synthetic substitute.",
+      "launch_readiness": "blocked_continuity",
       "max_credits": 0,
       "priority_owner_override": {
         "requested_at": "2026-10-17T19:52:55Z",
@@ -2580,7 +2584,11 @@
           "Actual corrected43 Video1 required"
         ]
       },
-      "selected_model": "Seedance 2.0"
+      "selected_model": "Wan 3.0",
+      "depends_on_completed": [
+        "S43-R1-20261017"
+      ],
+      "comparison_group": "S44-COMPARE-20261019"
     },
     {
       "scene_id": 56,
@@ -4416,16 +4424,21 @@
       "max_new_submissions": 1,
       "max_credits": 0,
       "depends_on_submitted": [
-        "S44-R1-20261017"
+        "S44-R1-20261017",
+        "S44-SEED20-P1",
+        "S44-SEED20-P2"
       ],
       "references": [
         {
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available",
-          "source_item_id": "S44-R1-20261017",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "input_status": "pending_owner_selected_S44_result",
+          "source_requirement": "Actual end of owner-selected complete44 version: Wan result OR Seedance part2. Resolve source_item_id and dependencies after owner choice; no implicit winner.",
+          "source_candidates": [
+            "S44-R1-20261017",
+            "S44-SEED20-P2"
+          ]
         },
         {
           "slot": "@Image1",
@@ -4469,10 +4482,13 @@
       "replaces_unsubmitted_item": "S52",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
       "depends_on_completed": [
-        "S44-R1-20261017"
+        "S44-R1-20261017",
+        "S44-SEED20-P1",
+        "S44-SEED20-P2"
       ],
-      "blocker": "Actual ending of S44-R1-20261017 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": "Await owner selection after S44 Wan/Seedance comparison, then save and QC actual ending of the selected complete44 version.",
+      "launch_readiness": "blocked_continuity",
+      "owner_selection_required": "S44-COMPARE-20261019"
     },
     {
       "id": "S52-SEED20-P2",
@@ -4803,6 +4819,129 @@
       ],
       "blocker": "Actual ending of S56-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
       "launch_readiness": "blocked_continuity"
+    },
+    {
+      "scene_id": 44,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+      "comparison_group": "S44-COMPARE-20261019",
+      "id": "S44-SEED20-P1",
+      "prompt_id": "S44-SEED20-P1",
+      "canonical_block_label": "44 · Seedance 2.0 часть 1",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "prompt_text_resolution": 720,
+      "priority": 7.1,
+      "state": "blocked_inputs",
+      "task_id": null,
+      "claim": null,
+      "launch_readiness": "blocked_continuity",
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_scene_end",
+          "input_status": "pending_new_S43_result",
+          "required": true,
+          "source_item_id": "S43-R1-20261017",
+          "source_task_id": "70ba69f8c44e4898ab587fbffeaeca01",
+          "source_requirement": "Use the same actual corrected S43 ending for Wan and Seedance P1. Left wing jammed about45deg, right wing raised, ramp down. Save provenance, trim and SHA256; old both-wings-raised S43 is invalid."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        }
+      ],
+      "depends_on_submitted": [
+        "S43-R1-20261017"
+      ],
+      "depends_on_completed": [
+        "S43-R1-20261017"
+      ],
+      "blocker": "Actual corrected S43 result task70ba69f8c44e4898ab587fbffeaeca01 must be downloaded, trimmed and continuity-QC checked; no old or synthetic substitute.",
+      "canonical_prompt_sha256": "32896b0fdca18d7b9f29e271cbd9912593b8b444ac224008578f38fd6f73ab1c",
+      "normalized_prompt_sha256": "772d909308cae741a98f400201f8daa1f2e8d55922daededf7620f31e2dc9ee6"
+    },
+    {
+      "scene_id": 44,
+      "actual_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 1,
+      "max_credits": 0,
+      "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+      "comparison_group": "S44-COMPARE-20261019",
+      "id": "S44-SEED20-P2",
+      "prompt_id": "S44-SEED20-P2",
+      "canonical_block_label": "44 · Seedance 2.0 часть 2",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "prompt_text_resolution": 720,
+      "priority": 7.2,
+      "state": "blocked_inputs",
+      "task_id": null,
+      "claim": null,
+      "launch_readiness": "blocked_continuity",
+      "references": [
+        {
+          "slot": "@Image1",
+          "input_status": "available",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image2",
+          "input_status": "available",
+          "path": "references/scenes/scene-28/H28A-ceremony.png",
+          "sha256": "d66845aa36c16e3dfff18f84d6c79ed257a7531b7bea27bcd4a298200929228b"
+        },
+        {
+          "slot": "@Video1",
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "required": true,
+          "source_item_id": "S44-SEED20-P1",
+          "source_requirement": "Actual S44 Seedance P1 end only; left wing still attached at45deg after hammer impact. Save provenance, trim, SHA256 and QC. Do not use Wan output or S43 in place of this part1 result."
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-43/S43-shuttle-raised-wings.png",
+          "sha256": "a20b7a87cc7fc433ebd0f99cad9db8e1692ae73ebb8d472a1bce5b914278cd93",
+          "input_status": "available",
+          "canonical_role": "vehicle_design_helper"
+        }
+      ],
+      "depends_on_submitted": [
+        "S44-SEED20-P1"
+      ],
+      "depends_on_completed": [
+        "S44-SEED20-P1"
+      ],
+      "blocker": "Actual Seedance S44 part1 ending must be saved and QC checked; use that result only, with hammer impact and left wing still attached at45deg.",
+      "canonical_prompt_sha256": "16c92f4ea239f97cfb947e720b4ba6a418907ffb86b93a8a2884f566537a70c7",
+      "normalized_prompt_sha256": "48516c60bad0cbd321d7f27a51a56509d485c8b20ae1cd5558bba336edcb0a3c"
     }
   ],
   "already_submitted": {
@@ -5174,5 +5313,27 @@
     "soundtrack": "DEFERRED: music/soundtrack-plan.md; no new background music generations.",
     "automation_id": "6acae6ab433481919e88665c520b8ef2",
     "precedence": "Supersedes earlier not-authorized-backups and continue-Wan-dances clauses."
+  },
+  "owner_instruction_20261019_1315": {
+    "received_at": "2026-10-19T10:15:58Z",
+    "quote": "44 сделать и так и так. Потом проверим как лучше получится",
+    "authorization": "Direct owner19Oct2026 13:15:58MSK: «44 сделать и так и так. Потом проверим как лучше получится». Authorizes BOTH one Wan3.0 30s version and one Seedance2.0 version split into two15s parts, free website Unlimited0 only. Compare actual results; owner chooses, no automatic acceptance or retry.",
+    "comparison_group": "S44-COMPARE-20261019",
+    "item_ids": [
+      "S44-R1-20261017",
+      "S44-SEED20-P1",
+      "S44-SEED20-P2"
+    ],
+    "max_new_submissions_total": 3,
+    "source_rule": "Wan and Seedance P1 share actual corrected43 end; Seedance P2 uses actual Seedance P1 end.",
+    "selection_status": "awaiting_results_then_owner_comparison",
+    "selected_variant": null,
+    "review_criteria": [
+      "Single detached wing, empty left root and one wing on floor visible together",
+      "Dialogue, comic timing and physical action",
+      "Identity, ship design and continuity43→44→52",
+      "Seedance P1→P2 seam"
+    ],
+    "downstream_scene52": "Wait for owner-selected complete44 variant; no automatic Wan selection."
   }
 }
