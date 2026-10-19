@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "14:55 automation audit and Topview blocker checkpoint",
-  "acquired_at": "2026-10-19T12:18:00Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T12:23:14Z",
+  "task": "S37-SEED20-P1 free Topview launch",
+  "acquired_at": "2026-10-19T14:04:06Z",
+  "expires_at": "2026-10-19T14:49:06Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
