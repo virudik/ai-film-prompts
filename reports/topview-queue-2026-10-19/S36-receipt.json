@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "scene_id": 36,
+  "prompt_id": "S36",
+  "item_id": "S36-S36",
+  "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-19T03:03:33Z",
+  "verified_at": "2026-10-19T03:04:38Z",
+  "route": "Topview website GUI; exactly one Create click",
+  "status": "init",
+  "model": "Wan 3.0",
+  "model_id": "qwen-wan3.0-video",
+  "duration_seconds": 30,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "mode": "omni_reference",
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
+  "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
+  "full_normalized_prompt_match": false,
+  "prompt_match_note": "Topview converted @Image mentions to internal tokens and inserted one whitespace before the en dash in canonical @Image1–@Image3. With mention-token padding around the en dash ignored, the full prompt is identical; no semantic or word change.",
+  "token_padding_only_match": true,
+  "references": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "actual_input": {
+        "name": "Image1",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/pfuF6dowWYdRroY73asmn.jpg"
+      }
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/pasha.jpg",
+      "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+      "actual_input": {
+        "name": "Image2",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/5CV1XZVF4mfJNBpGY4Eml.jpg"
+      }
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/sasha.jpg",
+      "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+      "actual_input": {
+        "name": "Image3",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/J9UqMFiG0Gh30bezISHjJ.jpg"
+      }
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "actual_input": {
+        "name": "Image4",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/kvVe2cpnBvGXC2GtJGEGm.png"
+      }
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-17/S17-post-battle-seated.png",
+      "sha256": "33268d22fbfe7268ff5ce939ba15dd2151cea72ac617794e97e9ec37d33021b1",
+      "actual_input": {
+        "name": "Image5",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ys6bTnthUgazm97gYhlmq.png"
+      }
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-36/S36-start-from-S17-result.png",
+      "sha256": "821dfb3fc4124d4d3e3b15d2c8d380136b7589c3631b60165bc713139107f1dc",
+      "actual_input": {
+        "name": "Image6",
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QW4Uzw8RC72mhS9OPzf6a.png"
+      }
+    }
+  ],
+  "claim": {
+    "run_id": "chatgpt-s36-20261019T0301Z",
+    "claimed_at": "2026-10-19T03:04:00Z",
+    "actor": "ChatGPT Work",
+    "route": "free_web_gui"
+  },
+  "claim_commit": "705bb2544ba3725d6a11ea7c98fa80380c74af58",
+  "ui_evidence": "reports/topview-queue-2026-10-19/S36-ui-proof.json",
+  "local_screenshots": [
+    {
+      "path": "reports/topview-queue-2026-10-19/S36-pre-submit.png",
+      "sha256": "5f571d15fadeea472087716c7b6e96b6ba0fe7989c592b2f915237d64cbac3bf"
+    },
+    {
+      "path": "reports/topview-queue-2026-10-19/S36-post-submit.png",
+      "sha256": "af3ec949841520dfaf8b145ada6f64fe9dfe368d43dafc37ba6a830ec89e7f1f"
+    }
+  ],
+  "editorial_approval": false,
+  "slots_after_submit": {
+    "occupied": 6,
+    "capacity": 6,
+    "tasks": 910,
+    "boards": 11,
+    "pages": 16,
+    "complete_scan": true,
+    "checked_at": "2026-10-19T03:04:38Z",
+    "active_task_ids": [
+      "e33891d4568a4a90b31ff3c67f5a7100",
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf",
+      "86741d99f7634e3b97e8b139996b83b0",
+      "0d1f17c226834bfbb851d76ed32f9877"
+    ]
+  }
+}
