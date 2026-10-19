@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-19T22:13:48+00:00",
+ "generated_at": "2026-10-19T22:44:25+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
-   "bytes": 916892
+   "sha256": "9eb3222679c40f67b10265c6069b3629bb04f13acaba13c40b40ea0245d26a76",
+   "bytes": 893862
   }
  ],
  "invariants": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 22,
-  "prompt_texts": 92,
+  "scenes": 21,
+  "prompt_texts": 89,
   "scene_ids": [
    13,
    16,
@@ -214,7 +214,6 @@
    52,
    53,
    54,
-   55,
    56
   ],
   "latest_scene": 56,
@@ -251,7 +250,8 @@
    35,
    38,
    45,
-   46
+   46,
+   55
   ],
   "live_files": [
    "project-status.json",
@@ -280,7 +280,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 32890,
+   "offset": 32228,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -302,7 +302,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 59227,
+   "offset": 58565,
    "chars": 26866,
    "sha256_12": "8640dcd924f6"
   },
@@ -322,7 +322,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 86093,
+   "offset": 85431,
    "chars": 187821,
    "sha256_12": "32d9ec7ccfb1"
   },
@@ -340,7 +340,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 273914,
+   "offset": 273252,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -362,7 +362,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 290270,
+   "offset": 289608,
    "chars": 23842,
    "sha256_12": "1ec2d509b3b2"
   },
@@ -386,7 +386,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 314112,
+   "offset": 313450,
    "chars": 28574,
    "sha256_12": "410cafeaba9d"
   },
@@ -408,7 +408,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 342686,
+   "offset": 342024,
    "chars": 27701,
    "sha256_12": "50a0da1dd201"
   },
@@ -430,7 +430,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 370387,
+   "offset": 369725,
    "chars": 27466,
    "sha256_12": "0ffe6318a7c1"
   },
@@ -452,7 +452,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 397853,
+   "offset": 397191,
    "chars": 27369,
    "sha256_12": "33c995428e4a"
   },
@@ -476,7 +476,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 425222,
+   "offset": 424560,
    "chars": 24819,
    "sha256_12": "095458d15a91"
   },
@@ -496,7 +496,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 450041,
+   "offset": 449379,
    "chars": 27198,
    "sha256_12": "c09b283cc636"
   },
@@ -517,7 +517,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 477239,
+   "offset": 476577,
    "chars": 26640,
    "sha256_12": "20d948801d7f"
   },
@@ -539,7 +539,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 503879,
+   "offset": 503217,
    "chars": 24188,
    "sha256_12": "3be8f42e38a1"
   },
@@ -563,7 +563,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 528067,
+   "offset": 527405,
    "chars": 24846,
    "sha256_12": "b30d09aef59e"
   },
@@ -590,7 +590,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 552913,
+   "offset": 552251,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -615,7 +615,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 645842,
+   "offset": 645180,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -643,7 +643,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 675722,
+   "offset": 675060,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -666,7 +666,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 708034,
+   "offset": 707372,
    "chars": 26071,
    "sha256_12": "49ca73f4fd9d"
   },
@@ -689,7 +689,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 734105,
+   "offset": 733443,
    "chars": 23645,
    "sha256_12": "f3297a9786e5"
   },
@@ -711,31 +711,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 757750,
+   "offset": 757088,
    "chars": 21234,
-   "sha256_12": "b0161572cbe0"
-  },
-  {
-   "id": 55,
-   "title": "«А молоко?»: Юля заходит, пока Серёга играет в Warcraft",
-   "target_engine": "Wan 3",
-   "state": "READY",
-   "render_state": "SLOW_PENDING",
-   "duration_s": 30,
-   "dialogue": "ru",
-   "depends_on": [
-    54
-   ],
-   "prompts": 3,
-   "refs": [
-    "@Image1",
-    "@Image2",
-    "@Image3",
-    "@Image4"
-   ],
-   "offset": 778984,
-   "chars": 20030,
-   "sha256_12": "7db2b2a1c4c6"
+   "sha256_12": "84161e9a65fa"
   },
   {
    "id": 56,
@@ -756,7 +734,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 799014,
+   "offset": 778322,
    "chars": 23201,
    "sha256_12": "89dba8f50008"
   }
