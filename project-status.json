@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T05:44:35Z",
+  "synced_at": "2026-10-19T05:44:44Z",
   "revision_date": "19.10.2026",
   "master_declared_last_full_sync": "19.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "bbfb9b5daaee602bcdcc5baefc380838481e0f0b5e8bf6d53844ad27769bd16b",
-  "canonical_revision_sha256": "b12b408b70fc880fe5d33fdf9bc97c883c4427e9ea18f91788d894bb22eb46ac",
-  "canonical_master_bytes": 1124241,
+  "canonical_master_sha256": "2c043d711b942895ed1b78335703132c50093895e3a94e3ee147d8b15b4d904c",
+  "canonical_revision_sha256": "483316e6cca9e4e0945001806e6c11c17aa1dca9ac71bf8fd6ea62cb7790927b",
+  "canonical_master_bytes": 1124637,
   "scenes": 22,
   "prompt_texts": 122,
   "work_items": [
@@ -27,12 +27,13 @@
   "work_items_count": 11,
   "slow_scenes": [
     28,
+    36,
     41,
     43,
     54,
     55
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 6,
   "scene_ids": [
     13,
     16,
@@ -99,7 +100,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.02,
+    "age_hours_at_status_build": 0.023,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -178,7 +179,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.02,
+      "age_hours": 0.023,
       "blocking": false
     },
     "topview_task_map": {
@@ -278,7 +279,7 @@
         "depart",
         "continuity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "37": {
       "target_engine": "Seedance 2.0",
@@ -692,9 +693,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.10.2026",
-    "synced_at": "2026-10-19T05:44:35Z",
-    "canonical_master_sha256": "bbfb9b5daaee602bcdcc5baefc380838481e0f0b5e8bf6d53844ad27769bd16b",
-    "canonical_revision_sha256": "b12b408b70fc880fe5d33fdf9bc97c883c4427e9ea18f91788d894bb22eb46ac",
+    "synced_at": "2026-10-19T05:44:44Z",
+    "canonical_master_sha256": "2c043d711b942895ed1b78335703132c50093895e3a94e3ee147d8b15b4d904c",
+    "canonical_revision_sha256": "483316e6cca9e4e0945001806e6c11c17aa1dca9ac71bf8fd6ea62cb7790927b",
     "scene_count": 22,
     "prompt_count": 122,
     "scene_ids": [
@@ -736,6 +737,7 @@
     ],
     "slow_scenes": [
       28,
+      36,
       41,
       43,
       54,
