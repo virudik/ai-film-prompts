@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-19T10:03:26+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-19T12:02:54+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 69452 B · `92110a21fc36a21e`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 14823 B · `5838e4a6b3c58e95`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 17707 B · `2167ce1ba9077c14`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 856033 B · `4ff5a08005a1f18c`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 856640 B · `6d14867b5f44941d`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -44,7 +44,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 |---|---|---|---|---|---|---|---|
 | 13 | Совет джедаев: говорящий кот Лучик | Wan 3 | NEEDS_RERENDER/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 53146e9d1886 |
 | 16 | Татуин: гигантский пустынный червь и бой на руинах | Seedance 2.5 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 8640dcd924f6 |
-| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/SLOW_PENDING | 20 | @Image1 @Image2 @Image3 @Image4 | [] | 730c81624bee |
+| 28 | Финальные титры: имперский строевой танец | Seedance 2.0 | READY/IDLE | 20 | @Image1 @Image2 @Image3 @Image4 | [] | e9aa01e16fdf |
 | 33 | Серёга исследует руины на планете ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 | [] | 9ed4ad5f905c |
 | 36 | После пещеры: Серёга уходит с фрагментом карты | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1ec2d509b3b2 |
 | 37 | Отлёт Серёги с Набу к лесной планете | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [36] | 5acfac559db8 |
