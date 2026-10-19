@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": null,
-  "task": null,
-  "acquired_at": "2026-10-19T22:35:09.801Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T22:54:14.950Z",
+  "state": "held",
+  "holder": "claude:drive-worm",
+  "task": "Сайт: ссылки на MP4 из Drive и блок «Червь»",
+  "acquired_at": "2026-10-19T23:06:51Z",
+  "expires_at": "2026-10-19T23:51:51Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
