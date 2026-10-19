@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-18T07:09:40.114Z",
+  "updated_at": "2026-10-19T03:04:00Z",
   "state": "waiting_for_slot",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -246,7 +246,7 @@
       "canonical_prompt_sha256": "484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a",
       "normalized_prompt_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
       "priority": 3,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Wan 3.0",
       "duration_seconds": 30,
       "actual_resolution": 720,
@@ -295,7 +295,36 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-s36-20261019T0301Z",
+        "claimed_at": "2026-10-19T03:04:00Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-19T03:00:00Z",
+          "boards": 11,
+          "pages": 16,
+          "total_tasks": 909,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 909-task account scan: zero exact normalized S36 prompt matches",
+        "ui_verified": {
+          "model": "Wan 3.0",
+          "duration_seconds": 30,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 6383,
+          "prompt_normalized_sha256": "5c788382d2884e8574920d78e5996e601bb34c23fe4a4a244b51eec04ed29c1f",
+          "input_sha_verified": true,
+          "input_count": 6
+        }
+      },
       "first_submission_verified_at": "2026-10-16T23:30:45.479901+00:00",
       "authorization_note": "First-ever authorized generation, owner15.10 plus16.10 continue-old-task instruction. Prior hold erroneously classified never-submitted36/37 as reruns. Full11-board572-video scan found no exact prompt match; task-map has no36/37 tasks. Lower priorities220/221 retained.",
       "priority_owner_override": {
