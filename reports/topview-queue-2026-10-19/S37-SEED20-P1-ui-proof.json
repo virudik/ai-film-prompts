@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "item_id": "S37-SEED20-P1",
+  "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+  "captured_at": "2026-10-19T14:07:00Z",
+  "observed_ui": {
+    "authenticated_account": true,
+    "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": "HD 720p",
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "references_visible": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4"
+    ],
+    "prompt_character_count": 5869,
+    "price_selector": "Безлимитный режим",
+    "create_label": "Безлимитный режим — бесплатно",
+    "success_toast": [
+      "Задачи успешно отправлены",
+      "Успешно создано задач: 1."
+    ],
+    "queue_card": "В очереди",
+    "create_clicks": 1
+  },
+  "verification": {
+    "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+    "status": "init",
+    "unlimited": true,
+    "credits_cost": 0,
+    "normalized_prompt_match": true,
+    "input_count": 4
+  },
+  "screenshot": {
+    "path": "reports/topview-queue-2026-10-19/S37-SEED20-P1-post-submit.jpg",
+    "sha256": "2126a4d47ba35a980d20c49fc55512fec493a0b1856134e775f6b252421b74bd"
+  }
+}

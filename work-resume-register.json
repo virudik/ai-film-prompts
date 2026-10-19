@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T10:28:57.637Z",
+  "last_updated_at": "2026-10-19T14:07:15Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -126,10 +126,82 @@
           "message_count": 37,
           "mail_state_changed": false,
           "message_ids": [
-            "1a152b4b26899e21", "1a152b152b88e09a", "1a152aedd3e76067", "1a15220bea063c61", "1a1517f698a9295f", "1a15083f9b9a62f6", "1a1507dc5196bba5", "1a1507ba73b23130", "1a14ffc01f65cb29", "1a14cba2e4bbfbd9", "1a14cb65c8647d47", "1a14c5455fe6c8a7", "1a14bcecf42920e0", "1a14bbf329eb33a7", "1a14bb0ed115cf1f", "1a14b7b36474a9bb", "1a14b726a4cb7154", "1a14b692c2fa039c", "1a14a132b1cfeae0", "1a14a111a172fa9e", "1a149fcd5130b35c", "1a148a9e3e416962", "1a147d89827149c9", "1a147c7e5195359d", "1a1454d63c0a7be2", "1a14530a1cdc534c", "1a1448554607e795", "1a1447d385c69a0f", "1a144509f62677a7", "1a144445f4657717", "1a143c275f052f08", "1a142152ba3f7016", "1a137d3bc72a1c5c", "1a135c453e36de90", "1a134ba95a7e10c7", "1a134b6ea62128f3", "1a134a6a2908d083"
+            "1a152b4b26899e21",
+            "1a152b152b88e09a",
+            "1a152aedd3e76067",
+            "1a15220bea063c61",
+            "1a1517f698a9295f",
+            "1a15083f9b9a62f6",
+            "1a1507dc5196bba5",
+            "1a1507ba73b23130",
+            "1a14ffc01f65cb29",
+            "1a14cba2e4bbfbd9",
+            "1a14cb65c8647d47",
+            "1a14c5455fe6c8a7",
+            "1a14bcecf42920e0",
+            "1a14bbf329eb33a7",
+            "1a14bb0ed115cf1f",
+            "1a14b7b36474a9bb",
+            "1a14b726a4cb7154",
+            "1a14b692c2fa039c",
+            "1a14a132b1cfeae0",
+            "1a14a111a172fa9e",
+            "1a149fcd5130b35c",
+            "1a148a9e3e416962",
+            "1a147d89827149c9",
+            "1a147c7e5195359d",
+            "1a1454d63c0a7be2",
+            "1a14530a1cdc534c",
+            "1a1448554607e795",
+            "1a1447d385c69a0f",
+            "1a144509f62677a7",
+            "1a144445f4657717",
+            "1a143c275f052f08",
+            "1a142152ba3f7016",
+            "1a137d3bc72a1c5c",
+            "1a135c453e36de90",
+            "1a134ba95a7e10c7",
+            "1a134b6ea62128f3",
+            "1a134a6a2908d083"
           ],
           "run_ids": [
-            39206350248, 39206101474, 39205882431, 39193091027, 39179561740, 39159423831, 39158955130, 39158800135, 39148099466, 39088275355, 39088021973, 39081453205, 39071856676, 39070654845, 39069547214, 39065419635, 39064729609, 39064027453, 39037140917, 39036979315, 39035438141, 39011982383, 38997822107, 38996646040, 38923090684, 38918818167, 38895464230, 38894495017, 38889182607, 38887719557, 38871756783, 38828883433, 38490754772, 38417692197, 38381031796, 38380559868, 38378449476
+            39206350248,
+            39206101474,
+            39205882431,
+            39193091027,
+            39179561740,
+            39159423831,
+            39158955130,
+            39158800135,
+            39148099466,
+            39088275355,
+            39088021973,
+            39081453205,
+            39071856676,
+            39070654845,
+            39069547214,
+            39065419635,
+            39064729609,
+            39064027453,
+            39037140917,
+            39036979315,
+            39035438141,
+            39011982383,
+            38997822107,
+            38996646040,
+            38923090684,
+            38918818167,
+            38895464230,
+            38894495017,
+            38889182607,
+            38887719557,
+            38871756783,
+            38828883433,
+            38490754772,
+            38417692197,
+            38381031796,
+            38380559868,
+            38378449476
           ],
           "resolved_by_subsequent_success": {
             "canon_health": 39237799284,
@@ -676,7 +748,7 @@
       "work_id": "FILM-20261017-OWNER-FIXES",
       "title": "Вуки первыми, сюжет52–54, активные танцы с одним тестом, механика43/44/46 и четыре двигателя45",
       "status": "in_progress",
-      "verified_at": "2026-10-18T00:16:01.103453Z",
+      "verified_at": "2026-10-19T14:07:15Z",
       "done": [
         "Prepared owner-directed revisions in canonical master with exact reference maps and finite free queue",
         "20dance prompts updated; ONLY15s A1 new test authorized, B10 blocked_test_review",
@@ -697,10 +769,11 @@
         "Owner23:03:44comic escalation;52 actual44Video1 seamless start (blocked_inputs until source); recurring visible yellow bread/milk note in6travel prompts;55unchanged/submitted. See reports/bread-milk-callback-2026-10-17.md.",
         "23:03 owner callback edits verified on Pages: master/statusSHA f040d5267f6de8cf55cf1be9b439ad4a32f601e039cef0610e9e04e299c67c24, health=ok, run39065474905success, browser confirms52bridge+6note descriptions. Actual output QC pending.",
         "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
-        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
+        "19Oct14:05:18UTC: S37-SEED20-P1 submitted exactly once via authenticated Topview website, taske6a5cf9a3d04413e943c9bbbff9e1f73; Seedance2.0/15s/720p/16:9/qty1/4inputs/Unlimited0, exact normalized prompt verified. Post-scan11boards/17pages/911tasks/6active/0free."
       ],
       "next_actions": [
-        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
+        "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -713,22 +786,22 @@
       ],
       "owner_plan_confirmed_at": "2026-10-17T13:48:21Z",
       "checkpoint_path": "reports/current-work-checkpoint.md",
-      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
+      "next_action": "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot.",
       "last_observed_topview": {
-        "checked_at": "2026-10-17T19:38:17.221Z",
+        "checked_at": "2026-10-19T14:06:30Z",
         "boards": 11,
         "pages": 17,
-        "total_tasks": 906,
+        "total_tasks": 911,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
+          "e33891d4568a4a90b31ff3c67f5a7100",
+          "1e4928fa04ed4a0396d1d2ea4f5934bb",
+          "70ba69f8c44e4898ab587fbffeaeca01",
+          "bf3465e1c4de4a869f4bba5f2eed5acf",
           "86741d99f7634e3b97e8b139996b83b0",
-          "0d1f17c226834bfbb851d76ed32f9877",
-          "56c0ea656f484b0cb8464233fe097e0d",
-          "5333994f739f4a8b813a6a36dcb7e140",
-          "979f07acffe04750961515f4baf21a3f",
-          "2bccc8a3521b411cb7bd51f9c8ba1119"
+          "e6a5cf9a3d04413e943c9bbbff9e1f73"
         ]
       },
       "autonomy_rule": "Continue authorized queue without repeated owner nudges; use existing hourly automation; independently verify scheduled browser access and report real blockers; no paid launches, unapproved retries or editorial approval.",
@@ -737,7 +810,8 @@
       ],
       "blockers": [
         "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
-        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
+        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch.",
+        "S37-SEED20-P2 requires the genuine S37 Part1 result/end frame with provenance, SHA and QC."
       ]
     },
     {
