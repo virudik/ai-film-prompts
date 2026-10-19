@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T23:24:16Z",
+  "synced_at": "2026-10-19T23:44:15Z",
   "revision_date": "20.10.2026",
   "master_declared_last_full_sync": "20.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "92a320f49096b48d5ed6d6cee2c88bdda3d7dc94da5f24833e78d7e5676f09b2",
-  "canonical_revision_sha256": "9ca8ae9e17f255d4635db3e7edc519d8608a2199f8fa6c2e35d7514568471527",
-  "canonical_master_bytes": 905476,
-  "scenes": 21,
-  "prompt_texts": 89,
+  "canonical_master_sha256": "382abb7c437abc58d44f636f234560bf7c2c432debe98c2a3bbe93aa401f6758",
+  "canonical_revision_sha256": "9246453a29fc159020b2254647ef51efbee034c97116f85121d458cbc82236f3",
+  "canonical_master_bytes": 960321,
+  "scenes": 23,
+  "prompt_texts": 95,
   "work_items": [
     "W5",
     "W6",
@@ -55,9 +55,11 @@
     52,
     53,
     54,
-    56
+    56,
+    57,
+    58
   ],
-  "latest_scene": 56,
+  "latest_scene": 58,
   "reserved_scene_ids": [
     1,
     2,
@@ -96,16 +98,16 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-19T23:23:19.410Z",
+    "snapshot_at": "2026-10-19T23:43:06.677Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.016,
+    "age_hours_at_status_build": 0.019,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "7c128728d01c2e7d3aa98c890e386802043cfee0",
-        "mirror_sha256": "e39df50cdcee4758ee33dba29f925462e01fe1fabb32fe71ebf9de302a4c3ee4",
+        "github_blob": "f333f3e53419e88ff916ccc8dab63af6a6e2dd44",
+        "mirror_sha256": "babf7757f8290215a50befe86903ae317ae8288a168933958ef0916c12dd72c5",
         "match": true,
         "drive_copy_sha256": "ee22bc9c9e1b258192e0c67ddc0ee218862fe42b317c5682488ad20bc3a55f89",
         "drive_copy_match": true,
@@ -179,7 +181,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.016,
+      "age_hours": 0.019,
       "blocking": false
     },
     "topview_task_map": {
@@ -666,15 +668,63 @@
         "continuity"
       ],
       "render_state": "IDLE"
+    },
+    "57": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "cats",
+        "luchik",
+        "ryzhik",
+        "roskotmos",
+        "sith_planet",
+        "crash",
+        "action",
+        "comedy"
+      ],
+      "render_state": "IDLE"
+    },
+    "58": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [
+        {
+          "type": "continues",
+          "scene": 57
+        }
+      ],
+      "tags": [
+        "cats",
+        "luchik",
+        "ryzhik",
+        "roskotmos",
+        "sith_planet",
+        "crash",
+        "escape",
+        "action",
+        "comedy"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "20.10.2026",
-    "synced_at": "2026-10-19T23:24:16Z",
-    "canonical_master_sha256": "92a320f49096b48d5ed6d6cee2c88bdda3d7dc94da5f24833e78d7e5676f09b2",
-    "canonical_revision_sha256": "9ca8ae9e17f255d4635db3e7edc519d8608a2199f8fa6c2e35d7514568471527",
-    "scene_count": 21,
-    "prompt_count": 89,
+    "synced_at": "2026-10-19T23:44:15Z",
+    "canonical_master_sha256": "382abb7c437abc58d44f636f234560bf7c2c432debe98c2a3bbe93aa401f6758",
+    "canonical_revision_sha256": "9246453a29fc159020b2254647ef51efbee034c97116f85121d458cbc82236f3",
+    "scene_count": 23,
+    "prompt_count": 95,
     "scene_ids": [
       13,
       16,
@@ -696,7 +746,9 @@
       52,
       53,
       54,
-      56
+      56,
+      57,
+      58
     ],
     "work_items": [
       "W5",
