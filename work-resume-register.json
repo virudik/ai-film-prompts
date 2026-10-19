@@ -8,7 +8,7 @@
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-19T10:28:57.637Z",
+      "verified_at": "2026-10-19T12:18:59Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -20,7 +20,9 @@
         "19Oct06:03MSK: S36 submitted exactly once via free Topview website, task e33891d4568a4a90b31ff3c67f5a7100; Wan3/30s/720p/16:9/qty1/6refs/Unlimited0. Canonical text and references verified; task readback differs only by Topview token padding around the @Image1–@Image3 en-dash. Post-submit full11board/16page/910task scan:6active,0free.",
         "19Oct13:15MSK owner explicitly authorized44 BOTH Wan30s and Seedance2.0 2x15s. Existing exact master blocks/3image hashes verified; queue and manifest now contain3 bounded tasks. Preparation blocker removed, actual-video blockers retained. No submissions in this update.",
         "19Oct13:22MSK: existing automation6acae6ab433481919e88665c520b8ef2 expanded and exact prompt readback verified; HH:55 unchanged. Maintenance09:55/14:55/20:55, open tasks chatgpt/any/claude, explicit Claude-only→needs_owner, GitHub error email diagnosis, Sunday08:55 cleanup. Topview blocker or completed queue does not disable maintenance; fresh main authoritative.",
-        "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints."
+        "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints.",
+        "19Oct14:55MSK: complete Topview scan found 5 active Unlimited videos and one free slot. S37 Seedance2.0 settings and four exact input SHAs were verified, but cloud-browser import could not transfer supported files; no claim/Create/task/credits. Generation phase marked blocked_browser only.",
+        "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions."
       ],
       "next_actions": [
         "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52."
@@ -39,18 +41,19 @@
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
       "next_action": "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52.",
       "blockers": [
+        "Generation phase: S37-SEED20-P1 has a confirmed free slot and authenticated Ultra session, but the scheduled cloud browser cannot transfer the four exact repository inputs in a Topview-supported form. No claim/Create; resume after supported owner-browser import and repeat full preflight.",
         "S44 both starts need actual corrected43 end; SeedanceP2 actualP1; S52 needs owner-selected44 ending.",
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-19T03:04:38Z",
-        "mode": "full_account_scan_after_verified_submission",
+        "checked_at": "2026-10-19T11:57:00Z",
+        "mode": "full_account_scan_then_blocked_browser_preflight",
         "boards": 11,
-        "pages": 16,
+        "pages": 17,
         "tasks": 910,
         "complete": true,
-        "occupied_slots": 6,
-        "free_slots": 0,
+        "occupied_slots": 5,
+        "free_slots": 1,
         "active": [
           {
             "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
@@ -81,23 +84,62 @@
             "status": "init",
             "model": "qwen-wan3.0-video",
             "unlimited": true
-          },
-          {
-            "task_id": "0d1f17c226834bfbb851d76ed32f9877",
-            "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
           }
         ],
-        "new_submissions": 1,
-        "browser": "Cloud Topview owner session visibly signed in, Ultra",
-        "submitted": {
-          "item_id": "S36-S36",
-          "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
-          "credits_cost": 0,
-          "unlimited": true
+        "new_submissions": 0,
+        "browser": "Cloud Topview owner session visibly signed in, Ultra; Seedance2.0/15s/720p/16:9/qty1 selected, but exact input transfer failed before Unlimited/0 and Create verification.",
+        "blocked": {
+          "item_id": "S37-SEED20-P1",
+          "state": "blocked_browser",
+          "claim": null,
+          "task_id": null,
+          "create_clicked": false,
+          "credits_spent": 0
         },
-        "next": "S37-SEED20-P1 when a free video slot is confirmed"
+        "next": "Restore a supported owner-browser import path, then fresh main/lock/fullscan and exact S37 preflight before any claim/Create."
+      },
+      "maintenance_checks": {
+        "last_successful_check_at": "2026-10-19T12:18:59Z",
+        "self_heal": {
+          "status": "ok",
+          "changed_at": "2026-10-19T09:50:00Z",
+          "action": "none"
+        },
+        "owner_tasks": {
+          "open_for_chatgpt_any_claude": 0,
+          "action": "none"
+        },
+        "project_status": {
+          "health": "ok",
+          "synced_at": "2026-10-19T11:50:15Z",
+          "fresh_within_40_minutes": true
+        },
+        "canon_health": {
+          "status": "ok",
+          "checked_at": "2026-10-19T10:02:39Z",
+          "warn_or_error_count": 0,
+          "info_count": 3
+        },
+        "github_mail_audit": {
+          "window": "first audit: last 7 days through 2026-10-19T12:18:59Z",
+          "query_pages": 1,
+          "message_count": 37,
+          "mail_state_changed": false,
+          "message_ids": [
+            "1a152b4b26899e21", "1a152b152b88e09a", "1a152aedd3e76067", "1a15220bea063c61", "1a1517f698a9295f", "1a15083f9b9a62f6", "1a1507dc5196bba5", "1a1507ba73b23130", "1a14ffc01f65cb29", "1a14cba2e4bbfbd9", "1a14cb65c8647d47", "1a14c5455fe6c8a7", "1a14bcecf42920e0", "1a14bbf329eb33a7", "1a14bb0ed115cf1f", "1a14b7b36474a9bb", "1a14b726a4cb7154", "1a14b692c2fa039c", "1a14a132b1cfeae0", "1a14a111a172fa9e", "1a149fcd5130b35c", "1a148a9e3e416962", "1a147d89827149c9", "1a147c7e5195359d", "1a1454d63c0a7be2", "1a14530a1cdc534c", "1a1448554607e795", "1a1447d385c69a0f", "1a144509f62677a7", "1a144445f4657717", "1a143c275f052f08", "1a142152ba3f7016", "1a137d3bc72a1c5c", "1a135c453e36de90", "1a134ba95a7e10c7", "1a134b6ea62128f3", "1a134a6a2908d083"
+          ],
+          "run_ids": [
+            39206350248, 39206101474, 39205882431, 39193091027, 39179561740, 39159423831, 39158955130, 39158800135, 39148099466, 39088275355, 39088021973, 39081453205, 39071856676, 39070654845, 39069547214, 39065419635, 39064729609, 39064027453, 39037140917, 39036979315, 39035438141, 39011982383, 38997822107, 38996646040, 38923090684, 38918818167, 38895464230, 38894495017, 38889182607, 38887719557, 38871756783, 38828883433, 38490754772, 38417692197, 38381031796, 38380559868, 38378449476
+          ],
+          "resolved_by_subsequent_success": {
+            "canon_health": 39237799284,
+            "integration_recovery": 39234540789,
+            "topview_robot": 39249933835,
+            "drive_archive": 39249301254
+          },
+          "current_failure": false,
+          "next_window_rule": "from last successful check with 24h overlap"
+        }
       }
     },
     {

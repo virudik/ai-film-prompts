@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T10:20:24.974424Z",
-  "state": "waiting_for_slot",
+  "updated_at": "2026-10-19T12:18:59Z",
+  "state": "blocked_browser",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -3541,7 +3541,7 @@
       "canonical_prompt_sha256": "8791feaa54e426357664e0cc7f060c82ac249754b8a04bd03931207106725ff0",
       "normalized_prompt_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
       "priority": 4,
-      "state": "waiting_for_slot",
+      "state": "blocked_browser",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3588,7 +3588,8 @@
       "claim": null,
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S37-S37",
-      "selection_record": "reports/seedance-selection-2026-10-18.md"
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "blocker": "19Oct2026 14:55MSK: full live scan found one free video slot and authenticated Ultra website access; Seedance2.0/15s/720p/16:9/qty1 was selected, but the cloud-browser file chooser could not transfer the four exact repository inputs. GitHub browser downloads arrived without supported extensions, and direct workspace paths were not materialized by Topview. No claim, Create click, submission, paid fallback, or credit spend. Resume only after a supported owner-browser import path is available and repeat full scan/preflight."
     },
     {
       "id": "S37-SEED20-P2",
@@ -5057,6 +5058,26 @@
       ],
       "credits_cost": 0,
       "scheduled_session_access": "must_verify_each_run"
+    },
+    "latest_event": {
+      "detected_at": "2026-10-19T11:57:00Z",
+      "run_id": "chatgpt-scheduled-20261019T1153Z",
+      "scope": "generation_phase_only",
+      "item_id": "S37-SEED20-P1",
+      "reason": "Authenticated Ultra website and one free video slot were confirmed. Seedance2.0, 15s, HD720p, 16:9 and quantity1 were selected, but the cloud-browser file chooser could not transfer the four exact canonical inputs: GitHub browser downloads had no supported extensions and direct workspace paths produced no Topview materials. No claim, Create click, submission, paid fallback or credit spend.",
+      "slot_snapshot": {
+        "checked_at": "2026-10-19T11:57:00Z",
+        "boards": 11,
+        "pages": 17,
+        "total_tasks": 910,
+        "active_unlimited_videos": 5,
+        "capacity": 6,
+        "free_video_slots": 1,
+        "complete": true
+      },
+      "notification_state": "owner_notified_once",
+      "notification_event": "blocked_browser_s37_import_20261019T115700Z",
+      "continuation": "Resume generation only after supported owner-browser file import is available; repeat fresh main/lock/full scan and complete exact preflight before any claim or Create. Independent maintenance phases continue."
     }
   },
   "new_scene_order": [
@@ -5082,20 +5103,19 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "checked_at": "2026-10-17T19:38:17.221Z",
+    "checked_at": "2026-10-19T11:57:00Z",
     "boards": 11,
     "pages": 17,
-    "total_tasks": 906,
+    "total_tasks": 910,
     "complete": true,
-    "occupied_slots": 6,
-    "free_slots": 0,
+    "occupied_slots": 5,
+    "free_slots": 1,
     "active_unlimited_task_ids": [
-      "86741d99f7634e3b97e8b139996b83b0",
-      "0d1f17c226834bfbb851d76ed32f9877",
-      "56c0ea656f484b0cb8464233fe097e0d",
-      "5333994f739f4a8b813a6a36dcb7e140",
-      "979f07acffe04750961515f4baf21a3f",
-      "2bccc8a3521b411cb7bd51f9c8ba1119"
+      "e33891d4568a4a90b31ff3c67f5a7100",
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf",
+      "86741d99f7634e3b97e8b139996b83b0"
     ]
   },
   "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA).",
