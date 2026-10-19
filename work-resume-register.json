@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T14:07:15Z",
+  "last_updated_at": "2026-10-19T17:54:52Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-19T12:18:59Z",
+      "verified_at": "2026-10-19T17:54:52Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -99,7 +99,7 @@
         "next": "Restore a supported owner-browser import path, then fresh main/lock/fullscan and exact S37 preflight before any claim/Create."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-19T12:18:59Z",
+        "last_successful_check_at": "2026-10-19T17:54:52Z",
         "self_heal": {
           "status": "ok",
           "changed_at": "2026-10-19T09:50:00Z",
@@ -111,7 +111,7 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-19T11:50:15Z",
+          "synced_at": "2026-10-19T17:40:23Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
@@ -121,9 +121,11 @@
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "first audit: last 7 days through 2026-10-19T12:18:59Z",
+          "window": "2026-10-18 through 2026-10-19T17:54:52Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "message_count": 37,
+          "searched_message_count": 12,
+          "new_message_count": 0,
+          "deduplicated_known_message_count": 12,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -788,7 +790,7 @@
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "next_action": "Wait for genuine S37 Part1 success; archive generated result/end frame with provenance/SHA/QC before S37-SEED20-P2. Continue other authorized ready items only after a fresh complete scan shows a free Unlimited/0 slot.",
       "last_observed_topview": {
-        "checked_at": "2026-10-19T14:06:30Z",
+        "checked_at": "2026-10-19T17:54:52Z",
         "boards": 11,
         "pages": 17,
         "total_tasks": 911,
@@ -796,12 +798,12 @@
         "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
+          "e6a5cf9a3d04413e943c9bbbff9e1f73",
           "e33891d4568a4a90b31ff3c67f5a7100",
           "1e4928fa04ed4a0396d1d2ea4f5934bb",
           "70ba69f8c44e4898ab587fbffeaeca01",
           "bf3465e1c4de4a869f4bba5f2eed5acf",
-          "86741d99f7634e3b97e8b139996b83b0",
-          "e6a5cf9a3d04413e943c9bbbff9e1f73"
+          "86741d99f7634e3b97e8b139996b83b0"
         ]
       },
       "autonomy_rule": "Continue authorized queue without repeated owner nudges; use existing hourly automation; independently verify scheduled browser access and report real blockers; no paid launches, unapproved retries or editorial approval.",

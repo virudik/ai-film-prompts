@@ -1,3 +1,9 @@
+## Проверка 20:55 · 19.10.2026
+
+Полный live-скан Topview: 11 досок, 17 страниц, 911 задач; активны 6 из 6 видеозадач, все Unlimited/0, свободных видеослотов нет. Активные task ID: `e6a5cf9a3d04413e943c9bbbff9e1f73`, `e33891d4568a4a90b31ff3c67f5a7100`, `1e4928fa04ed4a0396d1d2ea4f5934bb`, `70ba69f8c44e4898ab587fbffeaeca01`, `bf3465e1c4de4a869f4bba5f2eed5acf`, `86741d99f7634e3b97e8b139996b83b0`. Новых Create не было; следующий зависимый item не запускался.
+
+Обслуживание проверено: `self-heal=ok`; открытых owner tasks для chatgpt/any/claude нет; открытых Supabase owner decisions нет; `project-status.health=ok`, `synced_at=2026-10-19T17:40:23Z` (свежее 40 минут); `canon-health=ok`, warn/error отсутствуют. Почтовый поиск GitHub failure-уведомлений с 24-часовым перекрытием дал 12 уже обработанных сообщений и 0 новых; состояние почты не менялось, актуального сбоя не найдено.
+
 ## S37 Seedance 2.0, часть 1 — отправлена · 19.10.2026
 
 Канонический item `S37-SEED20-P1` отправлен через сайт Topview ровно одним нажатием Create: task `e6a5cf9a3d04413e943c9bbbff9e1f73`, статус `init`, Seedance 2.0 / 15с / 720p / 16:9 / quantity1 / 4 входа / Unlimited / 0 кредитов. Полный prompt и нормализованный SHA `f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9` совпали с очередью и task readback. До запуска полный скан 11 досок / 17 страниц / 910 задач не нашёл дубликата; после запуска — 911 задач, 6 активных видео, свободных видеослотов 0. Receipt и UI proof: `reports/topview-queue-2026-10-19/S37-SEED20-P1-receipt.json`, `reports/topview-queue-2026-10-19/S37-SEED20-P1-ui-proof.json`.
