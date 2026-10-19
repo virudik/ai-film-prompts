@@ -711,7 +711,7 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  // Owner-facing status is intentionally quiet: context/workflow/freshness warnings are serviced automatically.
  // Red is reserved for verified authoritative corruption/unavailability, not maintenance noise.
  const ok=authoritativeHealthy;
- let healthText='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';
+ let healthText='✕ ОШИБКА СИНХРОНИЗАЦИИ';
  let healthClass='bad';
  if(ok){healthText='✓ ПРОЕКТ СИНХРОНИЗИРОВАН';healthClass='ok'};
  const tvAge=ageInfo(tv?.checked_at),monCycle=monitor?.last_scheduled_cycle||null,monAge=monitor?ageInfo(monCycle?.completed_at):{state:'unknown',min:Infinity};
@@ -789,7 +789,7 @@ Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).t
  telemetryContext={s,md,ledger:reviewLedger,ci,monitor,instructions:instructionDetail,masterHashMatches};
  renderStatus(s,tv,ci,instructionDetail,masterHashMatches,monitor);
  if(!masterHashMatches)$('statusMessage').textContent='Загруженный master не соответствует project-status.json. Дождитесь успешной пересборки статуса; текущие данные нельзя считать согласованными.';
- marked.setOptions({gfm:true,breaks:false});content.innerHTML=safeHtml(marked.parse(md),thumbManifest?.items||null);armThumbFallback(content);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();syncSubScenes();loadAux();$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
+ marked.setOptions({gfm:true,breaks:false});content.innerHTML=safeHtml(marked.parse(md),thumbManifest?.items||null);armThumbFallback(content);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();syncSubScenes();loadAux();$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
 </script>
 <style>
 .fresh-row{display:flex;align-items:center;gap:6px;flex-wrap:wrap;position:relative;margin-top:8px}.fresh-row .freshness-line{display:contents}

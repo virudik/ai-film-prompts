@@ -65,6 +65,13 @@ class PromptMatch(unittest.TestCase):
         got = pm.classify(topview, BLOCKS)
         self.assertEqual(got[:2], (SINGLE, "normalized"))
 
+    def test_token_padding_around_dash_matches_normalized(self):
+        # S36, 19.10.2026: Topview read back "@Image1–@Image3" as "<<<Image1>>> –<<<Image3>>>".
+        self.assertEqual(pm.normalise("Priority: <<<Image1>>> –<<<Image3>>> identities"),
+                         pm.normalise("Priority: @Image1–@Image3 identities"))
+        self.assertEqual(pm.normalise("<<<Image1>>> — <<<Image2>>>"), pm.normalise("@Image1—@Image2"))
+        self.assertNotEqual(pm.normalise("@Image1 – opening"), pm.normalise("@Image1– opening"))  # prose dashes untouched
+
     def test_small_edit_is_high_and_unrelated_text_is_low(self):
         label, body = next((l, b) for l, b in BLOCKS if l == SINGLE)
         edited = body.replace("Photoreal", "Photo-real", 1)

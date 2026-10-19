@@ -297,7 +297,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
         self.assertIn("instruction!=='error'", html)
         self.assertIn("const authoritativeHealthy=s.health==='ok'&&instruction!=='error'&&masterHashMatches;", html)
         self.assertIn("✓ ПРОЕКТ СИНХРОНИЗИРОВАН", html)
-        self.assertIn("✕ ОШИБКА КАНОНИЧЕСКОЙ СИНХРОНИЗАЦИИ", html)
+        self.assertIn("✕ ОШИБКА СИНХРОНИЗАЦИИ", html)
         self.assertIn("Проверка Topview устарела", html)
 
     def test_unified_monitor_configuration_agrees_across_runtime_records(self):
