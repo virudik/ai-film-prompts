@@ -266,7 +266,7 @@ class IntegrationRecoveryTests(unittest.TestCase):
     def test_control_center_separates_scenes_from_generation_slots(self):
         html = (ROOT / "index.html").read_text(encoding="utf-8")
         self.assertIn("$('metricSlow').textContent=runtimeTopview.occupied+' из '+runtimeTopview.capacity;", html)
-        self.assertIn("$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free+' · '+runtimeSlowIds().length+' сцен ждут решения';", html)
+        self.assertIn("$('metricSlowMeta').textContent='Свободно '+runtimeTopview.free;", html)
         self.assertNotIn("metricSlowIds", html)
         self.assertIn("cap.innerHTML='занято '+occupied+' из '+capacity+' · свободно '+free", html)
         self.assertNotIn('id="metricWorkIds"', html)
