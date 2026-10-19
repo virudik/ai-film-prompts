@@ -29,7 +29,8 @@ concurrency:
 
 jobs:
   sync:
-    if: github.actor != 'github-actions[bot]'
+    # Bot pushes must not loop the robot; a bot dispatch (self-heal restart) is allowed.
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

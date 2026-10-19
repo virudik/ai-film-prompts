@@ -1,0 +1,34 @@
+# Self-check and self-repair of the automation (owner request 19.10.2026). Every 30 minutes:
+# known stuck states get one safe fix (restart a robot, re-run a failed run once, rebuild Pages,
+# free an expired canon lock); what a fix does not cure becomes a task for an AI agent in
+# ops/owner-tasks.json. Never touches Topview generations, master or instructions. Rules: ops/SELF-HEAL.md.
+name: Self-heal (automation watchdog)
+
+on:
+  schedule:
+    - cron: '19,49 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  pages: write
+
+concurrency:
+  group: self-heal
+  cancel-in-progress: false
+
+jobs:
+  heal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 100
+      - name: Check and repair
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 scripts/self_heal.py .
