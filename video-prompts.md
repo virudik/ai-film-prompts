@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21 сцена к генерации/доработке · 89 полных текстов промта**
+**23 сцены к генерации/доработке · 95 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 6** сцен сейчас в медленной генерации: **16, 36, 37, 41, 43, 54** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
+- **Последняя оформленная активная сцена:** 58 — коты выбегают из подбитого горящего корабля РосКОТмоса (20.10.2026, DRAFT до картинок-референсов от ChatGPT, Seedance 2.0, без речи). Предыдущая: 57 — аварийная посадка РосКОТмоса на планете ситхов: корабль сбивает колонны и статуи (20.10.2026, DRAFT, то же). Место: 46 → 57 → 58 → 40 → 26. Предыдущая: 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **20.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **20.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 89 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 36, 37, 41, 43, 54**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **20.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 95 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 36, 37, 41, 43, 54**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -68,6 +68,8 @@
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
+| 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (рисует ChatGPT); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. DRAFT до картинки аллеи. |
+| 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (рисует ChatGPT); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. DRAFT до картинок. |
 
 ---
 
@@ -7330,6 +7332,500 @@ Saber hums, crackling clashes and whooshes in the foreground, boots on stone, th
 
 NEGATIVE PROMPT:
 worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, worm striking early, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-57"></a>
+
+## Сцена 57 — РосКОТмос: аварийная посадка котов на планете ситхов
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","action","comedy"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 20.10.2026:** корабль РосКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично, но реалистично. Корабль — по самому первому сделанному референсу (`S45-roskotmos-ship-first-option.png`, 16.10.2026; его же владелец выбрал 17.10 03:32).
+- **Место в фильме (выбор по умолчанию, владелец может поменять):** кошачий прорыв 24 → 25 вперемешку с 45 → 46 → **57 → 58** → 40 → 26. Корабль котов подбит в бою 45/46 и падает на планету ситхов; коты выбегают (58) и бегут к храму; Серёга садится у храма (40) и слышит их мечи; дальше терраса (26).
+- **Место крушения — окраина руин:** длинная аллея колонн и колоссальных статуй в капюшонах, вдали от площади храма, где садится Серёга в 40. Поэтому в кадрах 40 обломков нет и 40 менять не нужно.
+- **Комедия без мультяшности:** настоящая физика и вес, смешно за счёт тайминга: колонны падают домино, статуя теряет руку, её голова катится за кораблём и в тишине «клонк» бьёт его в хвост. Коты абсолютно серьёзны. Корабль в этой сцене не взрывается и не разваливается — это в 58.
+- **Коты:** Лучик — пилот (в кабине справа в кадре), Рыжик — штурман (слева), как в 24/25; кабина — та же, что в 24/25 (@Image4).
+- **Динамика (правило владельца 18.10):** 7 битов, 6 склеек по движению, без «спокойно».
+- **До READY:** нужна новая картинка-референс @Image2 «аллея колонн и статуй» — рисует ChatGPT по очереди (`S57-AVENUE-IMAGE`, промт `references/scenes/scene-57/S57-crash-avenue-image-prompt.txt`), затем QC и сохранение в `references/scenes/scene-57/S57-crash-avenue.png`. Остальные входы уже в репозитории.
+- **Версии промта:** во вкладках над промтом — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с). В очередь по умолчанию — Seedance 2.0 (экшен). Без фоновой музыки. Запуск — только по команде владельца.
+- В монтаж 20–30 с.
+
+**Референсы:**
+
+- @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн корабля);
+- @Image2 — аллея колонн и статуй на окраине руин, место крушения (рисует ChatGPT, файла пока нет: `references/scenes/scene-57/S57-crash-avenue.png`);
+- @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a> (палитра, свет, горизонт);
+- @Image4 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов из 24/25</a>;
+- @Image5 — <a href="references/luchik.jpg">Лучик</a>;
+- @Image6 — <a href="references/ryzhik.jpg">Рыжик</a>.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image1 — корабль РосКОТмоса"></a><figcaption>@Image1 — корабль РосКОТмоса, первый референс</figcaption></figure>
+<figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины ситхов"></a><figcaption>@Image3 — руины ситхов</figcaption></figure>
+<figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — кабина котов"></a><figcaption>@Image4 — кабина котов</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image5 — Лучик"></a><figcaption>@Image5 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image6 — Рыжик"></a><figcaption>@Image6 — Рыжик</figcaption></figure>
+</div>
+
+**Что происходит:** Подбитый корабль котов дымит и падает сквозь оранжевую закатную дымку, от него отлетает панель обшивки, левый двигатель чихает и глохнет. В кабине Лучик изо всех сил тянет штурвал, а распушившийся Рыжик лупит по всем кнопкам сразу и закрывает глаза лапами. Корабль на бреющем задевает брюхом первую колонну аллеи, и колонны валятся одна за другой, как домино. Корабль подпрыгивает на брюхе, килем срезает каменную руку колоссальной статуи, у статуи отваливается голова и катится вслед. Корабль пашет длинную борозду, разворачивается боком, сбивает два обломка колонн, как кегли, и замирает носом в шаге от последней статуи. Тишина. Рыжик медленно убирает лапы с глаз, Лучик поворачивается к нему. Статуя качается… и устояла. Тут докатывается каменная голова и глухо — «клонк» — бьёт корабль в хвост; отваливается крышка двигателя, гнутая антенна медленно никнет.
+
+<div class="engine-tabs" data-scene="57">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-fantasy action comedy, played completely straight | The battle-damaged RosKOTmos ship crash-lands on the Sith planet and bowls over an avenue of ancient columns and statues
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — the owner-selected RosKOTmos ship design: exact elongated broad hull of worn white and light-grey segmented plating, angular multi-pane forward cockpit with sloped amber-glazed windows, a big red swoosh arrow along the flank, a narrow dark-navy lower band, the round cat-astronaut emblem with the РОСКОТМОС wordmark on the flank behind the cockpit, a small dorsal fin, the rear engine nacelles with blue-white exhausts and twin cannon barrels under the nose. Vehicle design only; ignore the starfield.
+@Image2 — the crash site: a long straight processional avenue of tall carved ochre-stone columns and colossal hooded stone statues on flat dusty ground at the outskirts of the ruin city. Absolute authority for the avenue's layout, scale and stone.
+@Image3 — the ruin city of the same planet: ochre-red carved stone, colossal hooded statues, a stepped temple, red rock spires, low golden-orange sunset haze. Palette, light and distant skyline only.
+@Image4 — the cats' exact warm cockpit: amber practical lights, dense physical consoles, rear-cabin depth, seat and console proportions; RYZHIK's seat on frame-left, LUCHIK's on frame-right in the front view. Interior geometry and light only.
+@Image5 — absolute identity of LUCHIK.
+@Image6 — absolute identity of RYZHIK.
+Priority: @Image1 controls the ship; @Image2 the crash avenue; @Image3 palette and skyline; @Image4 the cockpit; @Image5 and @Image6 the two cats. Never average or swap the cats.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image5), the PILOT: fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; dense natural fur.
+RYZHIK (@Image6), the NAVIGATOR: fluffy ginger long-haired tabby with a warm orange coat, darker tabby stripes and a lighter muzzle and chest.
+Both are real photoreal domestic cats at ordinary adult cat scale relative to the seats and consoles: never giant, never half-human, no human hands or faces. Their lightsabers stay stowed and unlit. They appear only in the cockpit shots. No people anywhere.
+
+SHIP / CRASH LOCK — CRITICAL:
+One and the same ship from @Image1 in every exterior shot: same silhouette, paint, emblem position and scale. It arrives already damaged from a space battle: the right rear engine nacelle trails orange flame and thick black smoke, the left one coughs and dies. During the crash the hull gets dented, scraped, scorched and dusty, loses one loose hull panel and bends its antenna, but stays in ONE piece: no explosion, no breaking apart; the emblem stays readable. Scale: an ancient column is about as tall as the ship is long; the colossal statues tower over it.
+
+LOCATION LOCK:
+A dry, dusty canyon world at golden-orange sunset: the avenue of @Image2 with the ruin city of @Image3 on the horizon. Fine dry dust and a few ember sparks in the air. No lava, vegetation, water, people or other ships.
+
+START STATE:
+High above the ruins in orange sunset haze, the damaged ship is already falling at a shallow angle, a black smoke trail behind it.
+
+TIMELINE:
+[0:00–0:05] — COMING IN HOT
+Fast tracking shot alongside, left to right: the ship plunges through the haze nose-down, wobbling; black smoke pours from the burning right nacelle; one loose hull panel peels off and tumbles past the camera. The left engine coughs twice and dies with a wheeze.
+
+[0:05–0:09] — COCKPIT CHAOS
+Cut inside the @Image4 cockpit, front three-quarter view, red warning lights flashing over the warm amber, everything shaking: LUCHIK on frame-right hauls back on the yoke with both front paws, hind legs braced against the console, ears flat; RYZHIK on frame-left, fur fully puffed, slaps three buttons at once, then clamps both front paws over his eyes. A loose cable swings and sparks. Both yowl.
+
+[0:09–0:15] — DOMINOES
+Cut to a low wide angle down the avenue: the ship skims in a few metres above the ground and its belly clips the first column, which snaps and falls into the next; tall columns topple one after another like dominoes, each landing with a heavy dusty thud, while the ship bounces once off the ground belly-first in a burst of dust.
+
+[0:15–0:20] — THE STATUE LOSES ITS HAND
+Cut to a side tracking shot: still sliding fast, the ship's dorsal fin shears the outstretched stone arm clean off a colossal hooded statue; the arm drops into the dust. A beat later the statue's hooded stone head tips off its shoulders and starts rolling after the ship like a giant bowling ball.
+
+[0:20–0:24] — THE SLIDE
+Cut to a high angle: the ship ploughs a long trench, slowly swinging sideways, knocks two short broken pillars flying like skittles, throws a wave of dust and sparks and grinds to a halt with its nose an arm's length from the plinth of the last standing colossal statue.
+
+[0:24–0:27] — DEAD QUIET
+Cut inside, the same cockpit view: dust drifts past the windows, one alarm light still blinking. RYZHIK slowly lowers his paws from his eyes; LUCHIK, still gripping the yoke, slowly turns his head toward him.
+
+[0:27–0:30] — ALMOST FINE
+Cut to medium-wide exterior, frontal: the last statue sways… and stays standing. The rolling stone head arrives and taps the ship's tail with one dull clonk; a small engine cover falls off with a clang and the bent antenna droops slowly. Hold on the smoking ship, emblem readable through settling dust.
+
+END STATE:
+The ship lies tilted on its belly at the end of a long trench in the avenue, turned sideways, nose almost touching a colossal statue's plinth; right nacelle burning with black smoke, hull dented but in one piece, side hatch closed; toppled columns in a line behind it, the statue's stone arm and hooded head beside the tail. Dust settling in sunset light. Nobody comes out yet.
+
+CAMERA / SPACE:
+Six motivated cuts on motion or impact (into 0:05, 0:09, 0:15, 0:20, 0:24, 0:27). Screen direction left to right throughout the crash. Fast tracking and low angles give real weight and scale; the comedy comes from timing and real physics, not cartoon squash, speed ramps or wild camera shake. In the cockpit both cats' faces stay readable.
+
+PERFORMANCE:
+The cats are deadly serious and fully committed, which is what makes it funny: no winking or mugging, natural feline reactions — flattened ears, puffed fur, wide eyes, bottle-brush tails. The ship moves with real mass and inertia.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long shadows of columns and statues, backlit dust; orange firelight and black smoke from the nacelle; red alarm light over warm amber in the cockpit; real painted metal with scratches, scorches and dents; weathered ochre stone breaking into heavy chunks and dust.
+
+AUDIO:
+Rising wind howl, an engine cough and wheeze, alarm beeps and sparking in the cockpit, two cats yowling, the crack of each column and heavy thuds in a rhythmic domino sequence, a metallic belly-flop bang, screeching metal on stone, a stone arm thud, the grinding roll of the stone head, then sudden quiet with crackling flames, one dull clonk, a small clang and a creak. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+explosion, fireball, ship breaking apart, cats outside the ship, people, other ships, space battle, new ship design, ship changing shape or paint, missing or moving emblem, garbled lettering, giant cats, half-human cats, human hands, identity swap, cartoon physics, squash and stretch, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, temple interior, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
+
+**Входы части 1:** @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, рисует ChatGPT); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image5 — `references/luchik.jpg`; @Image6 — `references/ryzhik.jpg`.
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея); @Image3 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image4 — `references/luchik.jpg`; @Image5 — `references/ryzhik.jpg`.
+
+#### 57 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 1 of 2: the battle-damaged RosKOTmos ship falls onto the Sith planet, the cats panic in the cockpit, the ship knocks down an avenue of columns like dominoes
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — the owner-selected RosKOTmos ship design: exact elongated broad hull of worn white and light-grey segmented plating, angular multi-pane forward cockpit with sloped amber-glazed windows, a big red swoosh arrow along the flank, a narrow dark-navy lower band, the round cat-astronaut emblem with the РОСКОТМОС wordmark on the flank behind the cockpit, a small dorsal fin, the rear engine nacelles with blue-white exhausts. Vehicle design only; ignore the starfield.
+@Image2 — the crash site: a long straight processional avenue of tall carved ochre-stone columns and colossal hooded stone statues on flat dusty ground at the outskirts of the ruin city. Layout, scale and stone of the avenue.
+@Image3 — the ruin city of the same planet: ochre-red carved stone, hooded statues, a stepped temple, red rock spires, golden-orange sunset haze. Palette, light and distant skyline only.
+@Image4 — the cats' exact warm cockpit: amber practical lights, dense physical consoles, rear-cabin depth; RYZHIK's seat on frame-left, LUCHIK's on frame-right in the front view. Interior geometry and light only.
+@Image5 — absolute identity of LUCHIK.
+@Image6 — absolute identity of RYZHIK.
+Priority: @Image5 and @Image6 control the cats; @Image1 the ship; @Image2 the avenue; @Image4 the cockpit; @Image3 palette and skyline.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image5), the PILOT: fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings.
+RYZHIK (@Image6), the NAVIGATOR: fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest.
+Real photoreal domestic cats at ordinary adult cat scale relative to the seats and consoles; never giant or half-human, no human hands. Lightsabers stowed and unlit. No people anywhere.
+
+SHIP / CRASH LOCK — CRITICAL:
+One and the same ship from @Image1 in every exterior shot: same silhouette, paint, emblem position and scale. Already damaged from a space battle: the right rear nacelle trails orange flame and black smoke, the left one coughs and dies. It gets dented, scraped and dusty and loses one loose hull panel, but stays in ONE piece: no explosion, no breaking apart. An ancient column is about as tall as the ship is long.
+
+LOCATION LOCK:
+A dry, dusty canyon world at golden-orange sunset: the avenue of @Image2 with the ruin city of @Image3 on the horizon. Fine dust and a few ember sparks. No lava, vegetation, water, people or other ships.
+
+START STATE:
+High above the ruins in orange sunset haze, the damaged ship is already falling at a shallow angle, a black smoke trail behind it.
+
+TIMELINE:
+[0:00–0:04] — COMING IN HOT
+Fast tracking shot alongside, left to right: the ship plunges through the haze nose-down, wobbling; black smoke pours from the burning right nacelle; a loose hull panel peels off and tumbles past the camera; the left engine coughs twice and dies.
+
+[0:04–0:08] — COCKPIT CHAOS
+Cut inside the @Image4 cockpit, front three-quarter view, red warning lights flashing over the warm amber, everything shaking: LUCHIK on frame-right hauls back on the yoke with both front paws, hind legs braced, ears flat; RYZHIK on frame-left, fur fully puffed, slaps three buttons at once, then clamps both front paws over his eyes. A loose cable sparks. Both yowl.
+
+[0:08–0:15] — DOMINOES
+Cut to a low wide angle down the avenue: the ship skims in a few metres above the ground and its belly clips the first column, which snaps and falls into the next; tall columns topple one after another like dominoes, each with a heavy dusty thud. The ship bounces once off the ground belly-first in a burst of dust and keeps sliding fast toward a colossal hooded statue with an outstretched stone arm.
+
+END STATE:
+Exterior, low side angle: the ship sliding fast on its belly down the avenue in a cloud of dust, the line of fallen columns behind it, the colossal hooded statue with its outstretched stone arm right ahead. Smoke still pouring from the right nacelle.
+
+CAMERA / SPACE:
+Two motivated cuts (into 0:04 and 0:08). Screen direction left to right. Fast tracking and low angles for real weight and scale; comedy from timing and real physics, not cartoon squash or wild shake. In the cockpit both faces readable.
+
+PERFORMANCE:
+The cats are deadly serious and fully committed: flattened ears, puffed fur, wide eyes, bottle-brush tails, no mugging. The ship moves with real mass and inertia.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long column shadows, backlit dust; orange firelight and black smoke; red alarm light over warm amber in the cockpit; scratched painted metal; ochre stone breaking into heavy chunks.
+
+AUDIO:
+Rising wind howl, an engine cough and wheeze, alarm beeps and sparks, two cats yowling, the crack of each column and heavy thuds in a rhythmic domino sequence, a metallic belly-flop bang, screeching metal on stone. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+explosion, fireball, ship breaking apart, ship stopping in this part, cats outside the ship, people, other ships, new ship design, ship changing shape or paint, missing emblem, garbled lettering, giant cats, human hands, identity swap, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 57 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 2 of 2: the sliding ship beheads a statue, ploughs to a stop, the cats dare to look — and the rolling stone head lands the punchline
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1: the ship sliding fast on its belly down the avenue toward a colossal hooded statue with an outstretched stone arm. Absolute authority for the START STATE, position, direction, damage and light.
+@Image1 — the owner-selected RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin, rear engine nacelles. Vehicle design only.
+@Image2 — the crash avenue of tall carved ochre-stone columns and colossal hooded statues. Layout, scale and stone.
+@Image3 — the cats' exact warm cockpit; RYZHIK's seat on frame-left, LUCHIK's on frame-right in the front view. Interior geometry and light only.
+@Image4 — absolute identity of LUCHIK.
+@Image5 — absolute identity of RYZHIK.
+Priority: @Video1 controls the start; @Image4 and @Image5 the cats; @Image1 the ship; @Image2 the avenue; @Image3 the cockpit.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image4), the PILOT: fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings.
+RYZHIK (@Image5), the NAVIGATOR: fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest.
+Real photoreal domestic cats at ordinary adult cat scale relative to the seats; never giant or half-human, no human hands. Lightsabers stowed and unlit. No people anywhere.
+
+SHIP / CRASH LOCK — CRITICAL:
+The same ship as in @Video1 and @Image1: same silhouette, paint, emblem and scale, right nacelle burning with black smoke. It gets more dents, scrapes and dust and bends its antenna, but stays in ONE piece: no explosion, no breaking apart; emblem readable.
+
+LOCATION LOCK:
+The same dusty avenue at golden-orange sunset, toppled columns behind the ship. Fine dust and ember sparks. No lava, vegetation, water, people or other ships.
+
+START STATE:
+Exactly the last frame of @Video1.
+
+TIMELINE:
+[0:00–0:04] — THE STATUE LOSES ITS HAND
+Continuing @Video1, side tracking shot: the sliding ship's dorsal fin shears the outstretched stone arm clean off the colossal hooded statue; the arm drops into the dust. A beat later the statue's hooded stone head tips off its shoulders and starts rolling after the ship like a giant bowling ball.
+
+[0:04–0:08] — THE SLIDE
+Cut to a high angle: the ship ploughs a long trench, slowly swinging sideways, knocks two short broken pillars flying like skittles and grinds to a halt with its nose an arm's length from the plinth of the last standing colossal statue.
+
+[0:08–0:11] — DEAD QUIET
+Cut inside the @Image3 cockpit, front three-quarter view: dust drifts past the windows, one alarm light still blinking. RYZHIK on frame-left slowly lowers his paws from his eyes; LUCHIK on frame-right, still gripping the yoke, slowly turns his head toward him.
+
+[0:11–0:15] — ALMOST FINE
+Cut to medium-wide exterior, frontal: the last statue sways… and stays standing. The rolling stone head arrives and taps the ship's tail with one dull clonk; a small engine cover falls off with a clang and the bent antenna droops slowly. Hold.
+
+END STATE:
+The ship lies tilted on its belly at the end of a long trench, turned sideways, nose almost touching a colossal statue's plinth; right nacelle burning with black smoke, hull dented but in one piece, side hatch closed; toppled columns behind, the statue's stone arm and hooded head beside the tail. Dust settling in sunset light. Nobody comes out yet.
+
+CAMERA / SPACE:
+Three motivated cuts (into 0:04, 0:08, 0:11). Screen direction continues @Video1. Real weight and scale; comedy from timing and real physics, not cartoon squash, speed ramps or wild shake. In the cockpit both faces readable.
+
+PERFORMANCE:
+The cats are deadly serious: wide eyes, flattened ears, puffed fur, a slow cautious look; no mugging. The ship has real mass.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long shadows, backlit settling dust; orange firelight and black smoke; one blinking alarm over warm amber in the cockpit; dented scorched painted metal; heavy ochre stone.
+
+AUDIO:
+Screeching metal on stone, a stone arm thud, the grinding roll of the stone head, skittle-like cracks of the pillars, the grinding stop, then sudden quiet with crackling flames and a single alarm beep, the creak of the swaying statue, one dull clonk, a small clang and a creak. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+explosion, fireball, ship breaking apart, statue falling onto the ship, cats outside the ship, people, other ships, new ship design, ship changing shape or paint, missing emblem, garbled lettering, giant cats, human hands, identity swap, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-58"></a>
+
+## Сцена 58 — РосКОТмос: коты выбегают из горящего корабля
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":57}],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","escape","action","comedy"]} -->
+
+**Контекст использования:**
+
+- **Команда владельца 20.10.2026:** коты выбегают из подбитого, горящего и разваливающегося корабля. Корабль — по самому первому референсу (`S45-roskotmos-ship-first-option.png`).
+- **Стык:** сразу после Scene 57 (корабль лёг на брюхо в конце борозды, правый двигатель горит, люк закрыт) → эта сцена → Scene 40 (Серёга садится у храма и слышит зажжённые мечи) → Scene 26 (коты на террасе).
+- **Подводка к 40:** в конце над котами с рёвом проносится тень чужого корабля — это Серёга летит к храму; сам корабль не показываем. Коты стряхивают сажу и бегут к храму.
+- **Старт — кадр-референс обломков (@Image1), а не видео 57:** так 58 не ждёт результата 57, обе сцены можно запускать по готовности референсов. Если к запуску уже есть принятый конец 57, его можно добавить как @Video1 отдельной правкой.
+- **Комедия без мультяшности:** люк заело — его вышибают изнутри с третьего удара; горящая панель падает ровно туда, где только что был Рыжик; Лучик чихает от сажи; эмблема РосКОТмоса падает котам под лапы. Корабль разваливается по частям, огненный шар — небольшой, не на весь кадр.
+- **Динамика (правило владельца 18.10):** 6 битов, 5 склеек по движению, без «спокойно».
+- **До READY:** нужны две новые картинки-референса от ChatGPT по очереди: @Image5 «аллея» (`S57-AVENUE-IMAGE`, общая с 57) и @Image1 «корабль после крушения в аллее» (`S58-WRECK-IMAGE`, промт `references/scenes/scene-58/S58-wreck-image-prompt.txt`, рисуется после аллеи и по ней).
+- **Версии промта:** во вкладках — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с). В очередь по умолчанию — Seedance 2.0. Без речи и фоновой музыки. Запуск — только по команде владельца.
+- В монтаж 20–30 с.
+
+**Референсы:**
+
+- @Image1 — корабль после крушения в аллее, стартовый кадр (рисует ChatGPT, файла пока нет: `references/scenes/scene-58/S58-wreck-start.png`);
+- @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн, эмблема);
+- @Image3 — <a href="references/luchik.jpg">Лучик</a>;
+- @Image4 — <a href="references/ryzhik.jpg">Рыжик</a>;
+- @Image5 — аллея колонн и статуй (та же картинка, что @Image2 в 57: `references/scenes/scene-57/S57-crash-avenue.png`).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — корабль РосКОТмоса, первый референс</figcaption></figure>
+<figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image3 — Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
+<figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image4 — Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
+</div>
+
+**Что происходит:** Корабль котов лежит в конце борозды и дымит. Из щелей бокового люка сочится дым, изнутри — глухой удар, второй, люк выгибается, и с третьего удара он слетает с петель и плашмя шлёпается в пыль. Из клубов чёрного дыма на полной скорости вылетает перемазанный сажей Лучик, за ним Рыжик с хвостом-ёршиком; горящая панель обшивки падает ровно туда, где Рыжик был полсекунды назад. Коты бегут на камеру, а за ними корабль разваливается: горящий двигатель отрывается и катится, стойка подламывается, падает киль, по красной полосе идёт трещина. Коты перемахивают через поваленную колонну, позади вспухает небольшой огненный шар, и они ныряют за упавшую каменную голову статуи. Две закопчённые морды медленно выглядывают из-за камня, Лучик чихает. Сверху, кружась, падает обгоревшая панель с эмблемой РосКОТмоса — прямо им под лапы. Рыжик смотрит на неё, потом на Лучика. Тут над ними с рёвом проносится тень чужого корабля к далёкому храму. Коты провожают её взглядом, переглядываются, синхронно стряхивают сажу и срываются вслед.
+
+<div class="engine-tabs" data-scene="58">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+```text
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Two cats bail out of their crashed, burning, falling-apart RosKOTmos ship on the Sith planet and race off toward the temple
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, nose near a colossal statue's plinth, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Absolute authority for the wreck's position, damage, surroundings and light at the start.
+@Image2 — the RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, big red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin, rear engine nacelles. Vehicle design and emblem only; ignore the starfield.
+@Image3 — absolute identity of LUCHIK.
+@Image4 — absolute identity of RYZHIK.
+@Image5 — the avenue of tall carved ochre-stone columns and colossal hooded statues at the outskirts of the ruin city, the temple and red rock spires far away. Layout and stone of the surroundings.
+Priority: @Image3 and @Image4 control the cats; @Image1 controls the wreck and start; @Image2 the ship's design and emblem; @Image5 the surroundings. Never average or swap the cats.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image3): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; here his white fur is streaked grey with soot.
+RYZHIK (@Image4): fluffy ginger long-haired tabby with a warm orange coat, darker tabby stripes and a lighter muzzle and chest; here dusty, tail bottle-brushed.
+Both are real photoreal domestic cats at ordinary adult cat scale (a fallen column drum is taller than they are), running and leaping on four legs with real feline movement; never giant, never half-human, never on hind legs, no human hands or faces. Lightsabers stowed and unlit. Both stay unhurt. No people appear.
+
+SHIP / WRECK LOCK — CRITICAL:
+The same ship as @Image1 and @Image2: same paint, red swoosh and emblem. It falls apart in stages, believably and heavily: the burning right nacelle tears loose and rolls away, a landing strut buckles so the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh, then one modest fireball puffs up from the torn engine mount. The fireball never fills the frame and never reaches the cats; no huge explosion, the hull is not obliterated.
+
+LOCATION LOCK:
+The dusty avenue of @Image5 at golden-orange sunset, as in @Image1: trench, toppled columns, the statue's stone arm and hooded head in the dust, the temple far away. Fine dust and ember sparks. No lava, vegetation, water or other people.
+
+START STATE:
+Exactly @Image1: the wreck smoking at the end of the trench, side hatch closed, no one outside.
+
+TIMELINE:
+[0:00–0:05] — JAMMED HATCH
+Medium exterior on the side hatch behind the cockpit: smoke seeps from its seams. A muffled thump from inside, a second thump and the hatch bulges; on the third thump it pops off its hinges and slaps flat into the dust; a thick puff of black smoke rolls out.
+
+[0:05–0:10] — OUT OF THE SMOKE
+Cut to a low tracking shot at cat height: LUCHIK bursts out of the smoke at a full sprint, ears back; RYZHIK right behind him. Half a second after RYZHIK passes, a burning hull panel crashes down exactly where he just was; he doesn't even look back.
+
+[0:10–0:15] — IT FALLS APART
+Cut to a wide frontal angle, the cats running straight toward camera across the trench; behind them the ship falls apart in stages: the burning right nacelle tears loose and rolls away, a landing strut buckles and the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh.
+
+[0:15–0:20] — THE JUMP
+Cut to a side tracking shot: both cats leap over a fallen column in full stride; behind them a modest fireball puffs up from the torn engine mount and a heat ripple ruffles their fur; they land and dive behind the fallen hooded stone head of the statue.
+
+[0:20–0:25] — PEEK
+Cut to a medium close shot from the far side of the stone head: two soot-streaked faces rise slowly over the stone, ears flat, eyes wide. LUCHIK sneezes. A scorched hull panel bearing the round cat-astronaut emblem flutters down and lands face-up in the dust right in front of them with a clank. RYZHIK looks down at it, then at LUCHIK.
+
+[0:25–0:30] — WHAT NOW
+A deep engine howl sweeps overhead: a fast dark shadow of another craft flashes across the cats and the ruins toward the distant temple; the craft itself is never shown clearly. Both heads snap up and track it, ears perking. They exchange one glance, shake the soot off their fur in unison and sprint off frame toward the temple. Hold for a second on the burning wreck.
+
+END STATE:
+The burning, half-collapsed RosKOTmos wreck at the end of its trench among toppled columns, smoke rising into the sunset; the emblem panel lying face-up in the dust; the cats gone toward the distant temple. Nobody else in sight.
+
+CAMERA / SPACE:
+Five motivated cuts on motion or impact (into 0:05, 0:10, 0:15, 0:20, 0:25). The cats run away from the ship toward the camera and the temple; the ship stays behind them. Low cat-height tracking and real-speed movement; comedy from timing and physics, not cartoon squash, speed ramps or wild camera shake. Faces readable in the peek shot.
+
+PERFORMANCE:
+The cats act like real cats in an emergency, deadly serious: flattened ears, puffed fur, full-stretch gallops, a precise leap, a cautious peek, one sneeze, an in-sync full-body shake. No mugging, no posing, no human gestures.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long shadows of columns and statues; orange firelight and black smoke from the wreck; soot on fur, dented scorched painted metal, sparks, dust kicked up by paws, heavy ochre stone.
+
+AUDIO:
+Crackling fire and hissing smoke, three muffled thumps and a metal slap, galloping paws on grit, a burning panel crashing down, groaning and tearing metal, a nacelle rolling with a grinding clatter, a muffled whoomp of the small fireball, a cat sneeze, a light metallic clank, then a deep engine howl passing overhead with a Doppler sweep and fading toward the temple. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+cats hurt, cats on fire, cats on hind legs, giant cats, half-human cats, human hands, identity swap, extra cats, people, Serega, showing the other craft clearly, huge explosion, frame-filling fireball, ship design change, emblem changed or garbled, lightsabers ignited, cartoon physics, squash and stretch, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
+
+**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start.png` (обломки, рисует ChatGPT); @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, рисует ChatGPT).
+
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-wreck-start.png` (обломки); @Image4 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (эмблема).
+
+#### 58 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 1 of 2: the jammed hatch is kicked out, two cats burst out of the smoke and run while the crashed RosKOTmos ship falls apart behind them
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Position, damage, surroundings and light at the start.
+@Image2 — the RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, big red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin. Design and emblem only.
+@Image3 — absolute identity of LUCHIK.
+@Image4 — absolute identity of RYZHIK.
+@Image5 — the avenue of tall carved ochre-stone columns and colossal hooded statues, temple far away. Surroundings only.
+Priority: @Image3 and @Image4 control the cats; @Image1 the wreck and start; @Image2 the design and emblem; @Image5 the surroundings.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image3): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; white fur streaked grey with soot.
+RYZHIK (@Image4): fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest; dusty, tail bottle-brushed.
+Real photoreal domestic cats at ordinary adult cat scale, running on four legs with real feline movement; never giant, half-human or on hind legs, no human hands. Lightsabers stowed and unlit. Both unhurt. No people.
+
+SHIP / WRECK LOCK — CRITICAL:
+The same ship as @Image1 and @Image2: same paint, red swoosh and emblem. It falls apart in heavy believable stages: the burning right nacelle tears loose and rolls away, a landing strut buckles and the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh. No explosion in this part.
+
+LOCATION LOCK:
+The dusty avenue at golden-orange sunset as in @Image1 and @Image5. Fine dust and ember sparks. No lava, vegetation, water or people.
+
+START STATE:
+Exactly @Image1: the wreck smoking at the end of the trench, side hatch closed, no one outside.
+
+TIMELINE:
+[0:00–0:05] — JAMMED HATCH
+Medium exterior on the side hatch behind the cockpit: smoke seeps from its seams. A muffled thump from inside, a second thump and the hatch bulges; on the third thump it pops off its hinges and slaps flat into the dust; a thick puff of black smoke rolls out.
+
+[0:05–0:10] — OUT OF THE SMOKE
+Cut to a low tracking shot at cat height: LUCHIK bursts out of the smoke at a full sprint, ears back; RYZHIK right behind him. Half a second after RYZHIK passes, a burning hull panel crashes down exactly where he just was; he doesn't look back.
+
+[0:10–0:15] — IT FALLS APART
+Cut to a wide frontal angle, the cats running straight toward camera; behind them the ship falls apart: the burning right nacelle tears loose and rolls away, a landing strut buckles and the hull drops on one side, the dorsal fin topples, a crack opens along the red swoosh.
+
+END STATE:
+Wide frontal: both cats in full gallop toward camera, a fallen column just ahead of them; behind them the half-collapsed ship, the loose nacelle rolling, smoke and flames rising.
+
+CAMERA / SPACE:
+Two motivated cuts (into 0:05 and 0:10). The cats run away from the ship toward the camera. Low cat-height tracking at real speed; comedy from timing and physics, not cartoon squash or speed ramps.
+
+PERFORMANCE:
+Real cats in an emergency, deadly serious: flattened ears, puffed fur, full-stretch gallops. No mugging or human gestures.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long shadows; orange firelight and black smoke; soot on fur, dented scorched painted metal, sparks and dust kicked up by paws.
+
+AUDIO:
+Crackling fire, three muffled thumps and a metal slap, galloping paws on grit, a burning panel crashing down, groaning and tearing metal, a nacelle rolling with a grinding clatter. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+cats hurt, cats on fire, cats on hind legs, giant cats, half-human cats, human hands, identity swap, extra cats, people, explosion, fireball, ship design change, emblem changed or garbled, lightsabers ignited, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 58 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 2 of 2: the cats leap to cover from a small fireball, the RosKOTmos emblem lands at their paws, a strange craft howls overhead and they race off toward the temple
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the last seconds of Part 1: both cats galloping toward camera, a fallen column ahead, the half-collapsed burning ship behind. Absolute authority for the START STATE, positions, damage and light.
+@Image1 — absolute identity of LUCHIK.
+@Image2 — absolute identity of RYZHIK.
+@Image3 — the crashed RosKOTmos ship in the dusty avenue among toppled columns, with the fallen hooded stone head of a statue nearby. Wreck and surroundings only.
+@Image4 — the RosKOTmos ship design: the round cat-astronaut emblem with the РОСКОТМОС wordmark, red swoosh and white worn paint. Emblem and paint only.
+Priority: @Video1 controls the start; @Image1 and @Image2 the cats; @Image3 the wreck and surroundings; @Image4 the emblem.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK (@Image1): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; white fur streaked grey with soot.
+RYZHIK (@Image2): fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest; dusty, tail bottle-brushed.
+Real photoreal domestic cats at ordinary adult cat scale, moving on four legs; never giant, half-human or on hind legs, no human hands. Lightsabers stowed and unlit. Both unhurt. No people.
+
+SHIP / WRECK LOCK — CRITICAL:
+The same half-collapsed burning ship as in @Video1. One modest fireball puffs up from its torn engine mount; it never fills the frame and never reaches the cats; no huge explosion. The other craft that flies overhead is only a fast dark shadow and a sound, never shown clearly.
+
+LOCATION LOCK:
+The same dusty avenue at golden-orange sunset, the temple far away. Fine dust and ember sparks. No lava, vegetation, water or people.
+
+START STATE:
+Exactly the last frame of @Video1.
+
+TIMELINE:
+[0:00–0:04] — THE JUMP
+Continuing @Video1, then a side tracking shot: both cats leap over the fallen column in full stride; behind them a modest fireball puffs up from the torn engine mount and a heat ripple ruffles their fur; they land and dive behind the fallen hooded stone head of the statue.
+
+[0:04–0:10] — PEEK
+Cut to a medium close shot from the far side of the stone head: two soot-streaked faces rise slowly over the stone, ears flat, eyes wide. LUCHIK sneezes. A scorched hull panel bearing the round cat-astronaut emblem flutters down and lands face-up in the dust right in front of them with a clank. RYZHIK looks down at it, then at LUCHIK.
+
+[0:10–0:15] — WHAT NOW
+A deep engine howl sweeps overhead: a fast dark shadow of another craft flashes across the cats and the ruins toward the distant temple. Both heads snap up and track it, ears perking. They exchange one glance, shake the soot off their fur in unison and sprint off frame toward the temple. Hold for a second on the burning wreck.
+
+END STATE:
+The burning, half-collapsed RosKOTmos wreck at the end of its trench among toppled columns, smoke rising into the sunset; the emblem panel face-up in the dust; the cats gone toward the distant temple.
+
+CAMERA / SPACE:
+Two motivated cuts (into 0:04 and 0:10). Screen direction continues @Video1; the cats move away from the wreck toward the temple. Real-speed movement; comedy from timing, not cartoon squash, speed ramps or wild shake. Faces readable in the peek shot.
+
+PERFORMANCE:
+Deadly serious real cats: a precise leap, a cautious peek, one sneeze, a sideways look, an in-sync full-body shake, an instant sprint. No mugging or human gestures.
+
+LIGHTING / MATERIALS:
+Low golden-orange sunset, long shadows; orange firelight, black smoke, a brief warm flash from the fireball; soot on fur, scorched painted metal on the emblem panel, heavy ochre stone.
+
+AUDIO:
+Galloping paws, a muffled whoomp of the small fireball, crackling fire, a cat sneeze, a light metallic clank, then a deep engine howl passing overhead with a Doppler sweep and fading toward the temple, quick paws on grit. No dialogue, narrator or music.
+
+NEGATIVE PROMPT:
+cats hurt, cats on fire, cats on hind legs, giant cats, half-human cats, human hands, identity swap, extra cats, people, Serega, showing the other craft clearly, huge explosion, frame-filling fireball, emblem changed or garbled, lightsabers ignited, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
