@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:drive-worm",
   "task": "Сайт: компактный верхний блок без повторов",
   "acquired_at": "2026-10-19T23:23:17Z",
-  "expires_at": "2026-10-19T23:53:17Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-19T23:24:01Z",
   "rules": "ops/CANON-LOCK.md"
 }
