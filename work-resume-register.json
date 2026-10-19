@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T21:44:26.257712Z",
+  "last_updated_at": "2026-10-19T21:52:57.350Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -911,18 +911,18 @@
     {
       "work_id": "FILM-20261020-COUPLE-DANCE",
       "title": "Парный танец Серёги и Юли по мотивам заставки второго сезона Миротворца",
-      "status": "prompts_prepared",
-      "verified_at": "2026-10-19T21:44:26.257712Z",
+      "status": "awaiting_dance_test_review",
+      "verified_at": "2026-10-19T21:52:57.350Z",
       "done": [
         "Visual sampling of TV Guide opening: near-horizontal lift, standing couple and two-hand face-framing gesture. Full continuous viewing/audio not verified.",
         "Added A11/A12 Seedance2.0 2x15s and B11 30s textual alternative in existing scene28; previous89 prompts unchanged; total92.",
         "Three exact image inputs verified; old seated/crouched pose helpers excluded; A12 requires actual new A11 ending.",
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged."
       ],
-      "next_action": "Select the revised couple test within the existing one-test limit and story-first ordering; fresh full preflight before a free submission. QC real A11 before A12. Do not launch B11 as a model fallback.",
+      "next_action": "Wait for the existing one-test queue item under the retained story-first ordering; it is not submitted yet. On completion visually compare energy, amplitude, weight transfer, partner interaction and identities with the successful old bridge/cantina clips. Owner evaluates before any new couple variants or dance batch.",
       "blockers": [
-        "No generated A11 result; A12 continuity video unavailable.",
-        "Current queue retains its existing A1 test; new alternatives are not automatically scheduled."
+        "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
+        "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
       ],
       "canonical_refs": [
         "video-prompts.md",
@@ -932,7 +932,18 @@
       ],
       "owner_decision_source": "Direct user request 20Oct2026 00:28:51 MSK",
       "pre_checkpoint_commit": "04e62c28c1c8e0fa11c29ab0ab513745a79e7153",
-      "new_submissions": 0
+      "new_submissions": 0,
+      "owner_update_20261020_0052": {
+        "source": "Owner: wait for the energetic dance video and assess it; earlier dances were already fun, lively and active.",
+        "decision": "Keep A11/A12/B11 as prepared drafts. First obtain and assess the existing single energetic dance test against the previously reviewed successful bridge/cantina examples. Do not infer model inability from the weak newer prompts.",
+        "successful_reference_review": "reports/dance-review-2026-10-17.md",
+        "queue_verified": {
+          "id": "S28-A1-TEST-20261017",
+          "state": "waiting_for_slot",
+          "task_id": null,
+          "priority": 400
+        }
+      }
     }
   ],
   "rules": [
