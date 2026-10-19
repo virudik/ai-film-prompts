@@ -288,22 +288,37 @@ def evaluate(rows, st, *, now=None):
         if clash:
             g.reason, g.also = "кнопки противоречат друг другу (нужно одно решение владельца)", clash
             continue
-        if _scene_has_active_task(st, scene):
+        if _scene_has_physical_active_task(st, scene):
             g.reason = "у сцены есть активная задача Topview — master не трогаю"
+            continue
+        canonical_slow = scene in st["project-status.json"].get("slow_scenes", [])
+        if canonical_slow and not _scene_has_confirmed_terminal(st, scene):
+            g.verdict, g.reason = "defer", "нет подтверждённого terminal Topview"
             continue
         ledger_row = st["review-ledger.json"].get("scenes", {}).get(sid)
         if mode == "in_film" and ledger_row is None:
             g.reason = "сцены нет в review-ledger.json"
             continue
         try:
-            new_master, rep = mse.retire_scene(st["video-prompts.md"], scene, mode=mode, date=today)
+            candidate_master = st["video-prompts.md"]
+            if canonical_slow:
+                candidate_master, _ = slow_edit.apply_plan(
+                    candidate_master,
+                    {"occupied_slots": st["topview-status.json"].get("occupied_slots", 0),
+                     "release": [{"scene": scene, "action": "accept"}]}, today)
+            new_master, rep = mse.retire_scene(candidate_master, scene, mode=mode, date=today)
         except mse.NeedsOwner as e:
             g.reason = str(e)
+            continue
+        except (AssertionError, StopIteration, ValueError, KeyError, AttributeError) as e:
+            g.reason = "формат slow master не позволяет снять ожидание: " + type(e).__name__
             continue
         if mode == "in_film":
             st["review-ledger.json"]["scenes"][sid] = ledger_in_film(ledger_row, stamp)
             st["review-ledger.json"]["updated_at"] = stamp
         st["video-prompts.md"] = new_master
+        if canonical_slow:
+            st["project-status.json"]["slow_scenes"].remove(scene)
         g.report = rep
         if rep.get("already_retired") and mode == "scene_not_needed":
             g.verdict, g.reason = "noop", "сцена уже убрана из master (Scene ID зарезервирован)"

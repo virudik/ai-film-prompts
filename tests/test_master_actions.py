@@ -180,6 +180,32 @@ class EvaluateTests(unittest.TestCase):
         groups, files = self.plan([fx.row("r1", 13, "in_film"), fx.row("r2", 13, "accept")])
         self.assertEqual(groups[0].verdict, "apply")
 
+    def test_in_film_releases_terminal_review_wait_atomically(self):
+        for terminal in (False, True):
+            with self.subTest(terminal=terminal):
+                st = json.loads(json.dumps(self.st))
+                st["video-prompts.md"] = st["video-prompts.md"].replace(
+                    "оформленная активная сцена:** 30", "оформленная активная сцена:** 25")
+                st["topview-task-map.json"]["active_by_scene"] = {}
+                st["topview-status.json"]["active_tasks"] = []
+                st["topview-status.json"]["occupied_slots"] = 0
+                st["topview-status.json"]["free_slots"] = 6
+                if terminal:
+                    st["topview-task-map.json"]["processed_tasks"].append(
+                        {"scene_id": 30, "task_id": fx.ACTIVE_TASK, "final_status": "success"})
+                    st["topview-status.json"]["scenes"]["30"]["topview_status"] = "success"
+                rows = [fx.row(str(i), 30, a) for i, a in enumerate(("accept", "to_montage", "in_film"))]
+                groups, files = robot.evaluate(rows, st, now=NOW)
+                if not terminal:
+                    self.assertEqual((groups[0].verdict, files), ("defer", {}))
+                    continue
+                self.assertEqual(groups[0].verdict, "apply", groups[0].reason)
+                self.assertEqual(set(files), {"video-prompts.md", "review-ledger.json"})
+                self.assertNotIn("## Сцена 30 —", files["video-prompts.md"])
+                self.assertIn(30, mse.reserved_scene_ids(files["video-prompts.md"]))
+                row = json.loads(files["review-ledger.json"])["scenes"]["30"]
+                self.assertTrue(row["accepted"] and row["inserted_into_film"])
+
     def test_open_owner_task_defers(self):
         groups, files = self.plan([fx.row("r1", 13, "in_film"), fx.row("t", 13, "owner_task")])
         self.assertEqual((groups[0].verdict, files), ("defer", {}))
