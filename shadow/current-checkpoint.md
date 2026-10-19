@@ -1,11 +1,3 @@
-## АКТУАЛЬНО: S36 отправлена · 19.10.2026, 06:03 МСК
-
-S36 submitted once via free Topview website: task `e33891d4568a4a90b31ff3c67f5a7100`, Wan3/30s/720p/16:9/6images/qty1/Unlimited0. Canonical prompt and all six input SHA values were verified; task readback differs only by Topview mention-token whitespace at `@Image1–@Image3` (token-padding-only match, no semantic change). Do not repeat S36. Post-submit full scan: 11 boards, 16 pages, 910 tasks, 6 active Unlimited videos, 0 free slots. Next is S37-SEED20-P1 after a fresh full scan and visible Seedance2.0 Unlimited0 verification. Receipt: `reports/topview-queue-2026-10-19/S36-receipt.json`.
-
-## АКТУАЛЬНО: S54 отправлена · 18.10.2026, 20:03 МСК
-
-S54 submitted once via free Topview website: task `1e4928fa04ed4a0396d1d2ea4f5934bb`, Wan3/30s/720p/16:9/4images/qty1/Unlimited0. Exact normalized current master prompt matched; no duplicate in the pre-submit 11-board/16-page/908-task scan. Do not repeat S54. Post-submit full scan: 11 boards, 16 pages, 909 tasks, 6 active Unlimited videos, 0 free slots. Next is S36 after a fresh full scan. Receipt: `reports/topview-queue-2026-10-18/S54-receipt.json`.
-
 # NEW-CHAT-HANDOFF — передача смены «AI Film Серёгиус»
 
 > **Как устроен файл и куда что писать (решение владельца 18.10.2026).** (1) **Находка, «запиши для сменщика», новое решение владельца** — одной строкой с датой в список «Новое с последней чистки» в конце блока «СЕЙЧАС»: дописывать, файл не переписывать. (2) **Контрольная точка текущей работы** (где остановились, следующий шаг) — `reports/current-work-checkpoint.md` и `work-resume-register.json`, как раньше (`ops/CONTINUE-PROTOCOL.md`). (3) **Передача смены** — поправить в «СЕЙЧАС» только устаревшие строки («Последнее», «Кто что делает», «Что открыто») и дату; блок целиком не переписывать. (4) **Раз в неделю** (расписание Claude по воскресеньям или предупреждение «Здоровье канона») — чистка по разделу «КАК ЧИСТИТЬ ХЕНДОФ И ИНСТРУКЦИИ» ниже. Журнал `archive/handoff-log.md` — история, не правила. Время, роли, слоты, SHA и приоритеты перепроверять по живым JSON.
@@ -51,6 +43,9 @@ S54 submitted once via free Topview website: task `1e4928fa04ed4a0396d1d2ea4f593
 ### Новое с последней чистки (дописывать сюда, одной строкой с датой)
 - 18.10 — введены схема «Сейчас + журнал» и правило чистки; первая плановая чистка — воскресенье 25.10.
 - 18.10 — любая правка хендофа или другой инструкции, даже одна строка сюда, требует `python3 scripts/cert_github.py .` в том же коммите. Иначе валидатор падает, сайт показывает «Ошибка синхронизации», а робот перестаёт выкладывать статус Topview (так было 18.10 после коммита 783a193).
+- 18.10 20:03 МСК — S54 отправлена (ChatGPT, бесплатно), task `1e4928fa04ed4a0396d1d2ea4f5934bb`; receipt `reports/topview-queue-2026-10-18/S54-receipt.json`. Не повторять.
+- 19.10 06:03 МСК — S36 отправлена (ChatGPT, бесплатно), task `e33891d4568a4a90b31ff3c67f5a7100`; receipt `reports/topview-queue-2026-10-19/S36-receipt.json`. Не повторять. Робот сначала не узнал задачу из-за пробела у «@Image1–@Image3»; 19.10 нормализация исправлена.
+- 19.10 — запуски записываются в очередь, receipt и `work-resume-register.json`; блоки «## АКТУАЛЬНО» над хендофом больше не добавлять (порядок в `ops/TOPVIEW-FREE-LAUNCH.md`, шаг 7).
 
 ---
 
