@@ -2,16 +2,16 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-19T09:33:45+00:00",
- "valid_at_generation": true,
+ "generated_at": "2026-10-19T10:02:39+00:00",
+ "valid_at_generation": false,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "09f0c63c76db0c0e6636d1e2f56cab94e9bb3f7b6b242df3fedd51546630c277",
-   "bytes": 33748
+   "sha256": "a0f6387d2a890c2b2ea76645b3322b736dede38c4c128cbc8756daa4bd72744f",
+   "bytes": 34917
   },
   {
    "file": "SYNC-RUNBOOK.md",
@@ -28,8 +28,8 @@
   {
    "file": "PROMPT-STYLE-GUIDE.md",
    "drive_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
-   "sha256": "8d6b97581c58018092ce0339066fa80453e85f015cd2839887913d083afb1d77",
-   "bytes": 63477
+   "sha256": "e1511aa020ae4f3ed7772f6bf7462c419430c2076faec03cb698adad9f4d2b29",
+   "bytes": 64497
   },
   {
    "file": "USER-GUIDE.md",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "2c043d711b942895ed1b78335703132c50093895e3a94e3ee147d8b15b4d904c",
-   "bytes": 1124637
+   "sha256": "4ff5a08005a1f18c6cce4217fef3aadec2d5dd2f6de9137f439c8e4e95965353",
+   "bytes": 856033
   }
  ],
  "invariants": [
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22151,
-  "above_marker_chars": 22151,
+  "chars": 22880,
+  "above_marker_chars": 22880,
   "recent_sections_below_marker": [],
-  "sha256_12": "d90c4eaaf4ab",
+  "sha256_12": "65020cce4d5f",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
@@ -271,7 +271,7 @@
    "duration_s": 30,
    "dialogue": "ru",
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -281,8 +281,8 @@
     "@Image6"
    ],
    "offset": 32351,
-   "chars": 35459,
-   "sha256_12": "3e1abc9e09b3"
+   "chars": 26337,
+   "sha256_12": "53146e9d1886"
   },
   {
    "id": 16,
@@ -293,7 +293,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -302,9 +302,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 67810,
-   "chars": 36180,
-   "sha256_12": "ffa2f758cdae"
+   "offset": 58688,
+   "chars": 26866,
+   "sha256_12": "8640dcd924f6"
   },
   {
    "id": 28,
@@ -315,16 +315,16 @@
    "duration_s": 15,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 30,
+   "prompts": 20,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 103990,
-   "chars": 207694,
-   "sha256_12": "ce1175144440"
+   "offset": 85554,
+   "chars": 144232,
+   "sha256_12": "730c81624bee"
   },
   {
    "id": 33,
@@ -335,14 +335,14 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2"
    ],
-   "offset": 311684,
-   "chars": 23045,
-   "sha256_12": "a2f80a53221b"
+   "offset": 229786,
+   "chars": 16356,
+   "sha256_12": "9ed4ad5f905c"
   },
   {
    "id": 36,
@@ -353,7 +353,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -362,9 +362,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 334729,
-   "chars": 31721,
-   "sha256_12": "d5755801da20"
+   "offset": 246142,
+   "chars": 23842,
+   "sha256_12": "1ec2d509b3b2"
   },
   {
    "id": 37,
@@ -377,7 +377,7 @@
    "depends_on": [
     36
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -386,9 +386,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 366450,
-   "chars": 37684,
-   "sha256_12": "5fd38c19f2df"
+   "offset": 269984,
+   "chars": 28545,
+   "sha256_12": "5acfac559db8"
   },
   {
    "id": 39,
@@ -399,7 +399,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -408,9 +408,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 404134,
-   "chars": 36851,
-   "sha256_12": "023a829d6da5"
+   "offset": 298529,
+   "chars": 27701,
+   "sha256_12": "50a0da1dd201"
   },
   {
    "id": 40,
@@ -421,7 +421,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -430,9 +430,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 440985,
-   "chars": 36642,
-   "sha256_12": "bc573944ea64"
+   "offset": 326230,
+   "chars": 27466,
+   "sha256_12": "0ffe6318a7c1"
   },
   {
    "id": 41,
@@ -443,7 +443,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -452,9 +452,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 477627,
-   "chars": 36557,
-   "sha256_12": "44cf14979cbd"
+   "offset": 353696,
+   "chars": 27369,
+   "sha256_12": "33c995428e4a"
   },
   {
    "id": 42,
@@ -467,7 +467,7 @@
    "depends_on": [
     16
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -476,9 +476,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 514184,
-   "chars": 33873,
-   "sha256_12": "4e9a3d0bf04a"
+   "offset": 381065,
+   "chars": 24819,
+   "sha256_12": "095458d15a91"
   },
   {
    "id": 43,
@@ -489,16 +489,16 @@
    "duration_s": 30,
    "dialogue": "ru",
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 548057,
-   "chars": 36212,
-   "sha256_12": "36497f987d3d"
+   "offset": 405884,
+   "chars": 27198,
+   "sha256_12": "c09b283cc636"
   },
   {
    "id": 44,
@@ -511,15 +511,15 @@
    "depends_on": [
     43
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3"
    ],
-   "offset": 584269,
-   "chars": 35716,
-   "sha256_12": "4f5425362089"
+   "offset": 433082,
+   "chars": 26640,
+   "sha256_12": "20d948801d7f"
   },
   {
    "id": 47,
@@ -530,7 +530,7 @@
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -539,9 +539,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 619985,
-   "chars": 33224,
-   "sha256_12": "2308891cb7c9"
+   "offset": 459722,
+   "chars": 24188,
+   "sha256_12": "3be8f42e38a1"
   },
   {
    "id": 48,
@@ -554,7 +554,7 @@
    "depends_on": [
     56
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -563,9 +563,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 653209,
-   "chars": 33431,
-   "sha256_12": "b10a9f00a08f"
+   "offset": 483910,
+   "chars": 24846,
+   "sha256_12": "b30d09aef59e"
   },
   {
    "id": 49,
@@ -578,7 +578,7 @@
    "depends_on": [
     28
    ],
-   "prompts": 12,
+   "prompts": 9,
    "refs": [
     "@Image1",
     "@Image2",
@@ -590,9 +590,9 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 686640,
-   "chars": 113882,
-   "sha256_12": "44d69793ebf2"
+   "offset": 508756,
+   "chars": 86082,
+   "sha256_12": "d72bc3f5a56d"
   },
   {
    "id": 50,
@@ -606,7 +606,7 @@
     28,
     49
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -615,9 +615,9 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 800522,
-   "chars": 36473,
-   "sha256_12": "2e0a76807133"
+   "offset": 594838,
+   "chars": 28096,
+   "sha256_12": "960936dde029"
   },
   {
    "id": 51,
@@ -632,7 +632,7 @@
     49,
     50
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -643,9 +643,9 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 836995,
-   "chars": 38185,
-   "sha256_12": "abed68fd5188"
+   "offset": 622934,
+   "chars": 28951,
+   "sha256_12": "10575e379d5d"
   },
   {
    "id": 52,
@@ -658,7 +658,7 @@
    "depends_on": [
     44
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -666,9 +666,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 875180,
-   "chars": 35248,
-   "sha256_12": "4949aad00609"
+   "offset": 651885,
+   "chars": 26071,
+   "sha256_12": "49ca73f4fd9d"
   },
   {
    "id": 53,
@@ -682,16 +682,16 @@
     48,
     39
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 910428,
-   "chars": 32438,
-   "sha256_12": "f981a2dea872"
+   "offset": 677956,
+   "chars": 23645,
+   "sha256_12": "88cdd3c2ceab"
   },
   {
    "id": 54,
@@ -704,16 +704,16 @@
    "depends_on": [
     41
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 942866,
-   "chars": 28112,
-   "sha256_12": "ef4830fb79c3"
+   "offset": 701601,
+   "chars": 21234,
+   "sha256_12": "c2304dfe8c4b"
   },
   {
    "id": 55,
@@ -726,16 +726,16 @@
    "depends_on": [
     54
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
     "@Image3",
     "@Image4"
    ],
-   "offset": 970978,
-   "chars": 26142,
-   "sha256_12": "7ce59cba0fe3"
+   "offset": 722835,
+   "chars": 19856,
+   "sha256_12": "2e2ac2050eab"
   },
   {
    "id": 56,
@@ -748,7 +748,7 @@
    "depends_on": [
     42
    ],
-   "prompts": 4,
+   "prompts": 3,
    "refs": [
     "@Image1",
     "@Image2",
@@ -756,9 +756,9 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 997120,
-   "chars": 30651,
-   "sha256_12": "05a5daefdf47"
+   "offset": 742691,
+   "chars": 23201,
+   "sha256_12": "89dba8f50008"
   }
  ],
  "read_sets": {
