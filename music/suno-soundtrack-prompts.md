@@ -14,7 +14,7 @@
 
 Во всех блоках уже указано отсутствие вокала, хора, речи и звуковых эффектов. Музыка задаётся через инструменты, темп и драматургию космического приключения; существующие мелодии фильмов и игр не заимствуются. Выбирай доступную тебе модель Suno; названия моделей Topview к этим заданиям не относятся.
 
-**[Семь повторяющихся тем T01–T07 — готовые промпты](#recurring-themes).** Вместе с эпизодными заданиями в файле теперь 37 промптов.
+**[Семь повторяющихся тем T01–T07 — готовые промпты](#recurring-themes)** и **[темы трёх команд джедаев T08–T10](#jedi-themes)** (добавлены 19.10). Вместе с эпизодными заданиями в файле теперь 40 промптов.
 
 ## С чего начать
 
@@ -619,6 +619,56 @@ Instrumental only. Original symphonic space-adventure film theme, 84 BPM. Solo c
 ```text
 Instrumental only. Original symphonic space-adventure film theme, 72 BPM. Solo cello and warm clarinet introduce a modest lyrical homecoming melody, answered by soft piano and harp, with distant French horns recalling a heroic journey. An exhausted traveller finally sets his recovered old computer on the desk and believes he can relax. Quiet relief, affection and satisfaction with a faint unresolved domestic question. Begin intimately, bloom once into a restrained warm string ensemble, return to a light absorbed pulse, then gradually strip the instrumentation down to a brief dry cadence and silence. No sentimental climax, victory march or comic sting. Leave room for a later spoken punchline. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
 ```
+
+<a id="jedi-themes"></a>
+
+## Темы трёх команд джедаев — T08–T10
+
+Добавлено 19.10.2026 по вопросу владельца. У каждой пары джедаев свой короткий мотив, чтобы зритель узнавал команду по музыке: при первом появлении пары, на сборах экипажей (C08) и в момент, когда пара теряет фрагмент карты. Палитра та же, что у T01–T07 (оркестр), но у каждой команды свой «голос»: Татуин — сухие щипковые и низкая медь, Набу — арфа, маримба и дуэт в терциях, Кашиик — деревянная перкуссия и перекличка низкой меди с деревом. Внутри пары мотив устроен как диалог двух героев. Как и с T01–T07: сначала выбрать удачный вариант, потом повторять фрагменты этой записи; отдельные генерации одну мелодию не гарантируют.
+
+| Код | Команда | Где повторять |
+|---|---|---|
+| T08 | Татуин: Илюша и Артём | C08 (их посадка), C13, C14A/B; потеря фрагмента в 48 — короткий минорный обрывок |
+| T09 | Набу: Паша и Саша | C08, C16 (до песни Маши), C17, C18A/B; уход Серёги с фрагментом в 36 — короткий обрывок |
+| T10 | Кашиик: Лёша и Виталик | C08, C20, C21; притягивание фрагмента Канцлером — короткий обрывок |
+
+### T08 — Татуин — Илюша и Артём: Пыль и два меча
+
+**Title:** `T08 | Серёгиус — Татуин — Илюша и Артём`  
+**Повторять:** C08, C13, C14A/B; обрывок при потере фрагмента в 48.  
+**Ориентир:** 100 BPM; 90–120 секунд.  
+**Характер:** два джедая с невозмутимым видом дерутся с Канцлером, лениво уворачиваясь от гигантского червя. Быстрый Илюша — флейта и скрипки, тяжёлый Артём — тромбон и виолончели.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic desert-duel theme for two warriors, 100 BPM, swaggering half-time stride. A quick, agile three-note figure on flute and violins is answered by a heavy, stubborn low phrase on trombone and cellos: two very different partners in one confident motif. Plucked cello, dry baritone acoustic guitar, cimbalom, frame drum, low brass, timpani. Sun-baked heat, unshakable cool, dry humor. State the duet motif clearly within the first eight bars, develop it into a confident dueling section, drop to a sparse lazy pocket of plucked notes, then return to a bold full statement. Western-tinged but orchestral, no electric guitar. A brief minor-key fragment of the motif near the end, then a firm cadence. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T09 — Набу — Паша и Саша: Рыбаки на задании
+
+**Title:** `T09 | Серёгиус — Набу — Паша и Саша`  
+**Повторять:** C08, C16 (до песни Маши), C17, C18A/B; обрывок, когда Серёга уходит с фрагментом в 36.  
+**Ориентир:** 88 BPM; 90–120 секунд.  
+**Характер:** беззаботные рыбаки у озера, которые вдруг вспоминают «у нас же важная миссия» и ныряют в подводный город. Два друга — валторна и фагот, играющие в терцию.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic lakeside theme for two easygoing friends, 88 BPM, lilting 6/8 barcarolle. Warm French horn and bassoon play a friendly melody in parallel thirds, two voices always together. Rippling harp and soft marimba water figures, pizzicato strings, light clarinet answers, gentle hand percussion. Lazy sunny fishing, good-natured and slightly goofy. Begin relaxed and sunlit, state the duet melody clearly, then a quick heroic lift as the strings and trumpets snap to attention, a shimmering underwater passage with celesta and harp glissandi, then the duet returns with new courage. No tropical pop, no steel drums, no circus style. Room for dialogue; clean ending. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+### T10 — Кашиик — Лёша и Виталик: Байки в кронах
+
+**Title:** `T10 | Серёгиус — Кашиик — Лёша и Виталик`  
+**Повторять:** C08, C20, C21; обрывок, когда Канцлер притягивает фрагмент.  
+**Ориентир:** 116 BPM; 90–120 секунд.  
+**Характер:** байки по лесу, эвок, Чубакка, спор о языке вуки, кальян, мост и дуэль с Канцлером. Перекличка низкой меди и высокого дерева — это их спор.  
+**Styles — скопировать целиком:**
+
+```text
+Instrumental only. Original symphonic forest-adventure theme for two rowdy companions, 116 BPM. Driving groove of log drums, low toms and woody marimba with a restrained acoustic bass. Low French horns and bass clarinet call out a rugged four-note motif, and bright piccolo and xylophone answer back cheekily: two friends arguing and still moving together. Giant trees, speeding bikes, a laid-back break, a duel on a rope bridge. Open with the groove and the motif, ride an energetic section, settle into a lazy pocket with soft wooden flute, then build with tremolo strings and timpani to a bold return of the motif. Earthy and adventurous, no tribal cliché, no electric guitars. Strong final cadence. Natural acoustic dynamics, clear melodic identity. No vocals, choir, spoken words or sound effects. Entirely original melody; no quotations from existing film or game music.
+```
+
+**Как вплетать темы команд.** Мотив команды — 2–4 такта, не постоянный фон. В C08 (погрузка экипажей) три мотива могут пройти друг за другом, по одному на пару. В бою брать боевой кусок записи своей команды **или** T05, но не обе дорожки сразу. Когда Канцлер забирает фрагмент, мотив команды обрывается, и дальше звучит T01 или T03. В финальных титрах (49–51) темы команд не нужны: там одна песня.
 
 ### Как связать темы в монтаже
 
