@@ -3,11 +3,13 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-19T14:20:12Z",
+  "checked_at": "2026-10-19T14:30:12Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "light",
-    "reasons": [],
+    "mode": "full",
+    "reasons": [
+      "last full scan 170 min ago"
+    ],
     "boards": 11,
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -22,9 +24,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 644
     },
-    "pages_scanned": 1,
-    "tasks_seen": 20,
-    "api_requests": 8,
+    "pages_scanned": 14,
+    "tasks_seen": 588,
+    "api_requests": 22,
     "detail_failed": []
   },
   "cursor": {
@@ -41,14 +43,14 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 644
     },
-    "last_full_scan_at": "2026-10-19T11:40:11Z"
+    "last_full_scan_at": "2026-10-19T14:30:12Z"
   },
   "slots": {
     "capacity": 6,
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": false,
+    "complete": true,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -61,8 +63,8 @@
       "model": "Wan 3.0",
       "scene_id": 54,
       "mapping": "task_map",
-      "queue_count": 2323,
-      "wait_seconds": 77518,
+      "queue_count": 2305,
+      "wait_seconds": 76913,
       "process_seconds": null
     },
     {
@@ -74,8 +76,8 @@
       "model": "Wan 3.0",
       "scene_id": 43,
       "mapping": "task_map",
-      "queue_count": 1929,
-      "wait_seconds": 60237,
+      "queue_count": 1911,
+      "wait_seconds": 59633,
       "process_seconds": null
     },
     {
@@ -87,8 +89,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 1013,
-      "wait_seconds": 25677,
+      "queue_count": 988,
+      "wait_seconds": 25073,
       "process_seconds": null
     },
     {
@@ -100,8 +102,8 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 1508,
-      "wait_seconds": 42956,
+      "queue_count": 1489,
+      "wait_seconds": 42353,
       "process_seconds": null
     },
     {
@@ -113,8 +115,8 @@
       "model": "Wan 3.0",
       "scene_id": 36,
       "mapping": "task_map",
-      "queue_count": 2677,
-      "wait_seconds": 94796,
+      "queue_count": 2660,
+      "wait_seconds": 94193,
       "process_seconds": null
     },
     {
@@ -124,24 +126,14 @@
       "unlimited": true,
       "created_at": "2026-10-19 14:05:18",
       "model": "Seedance 2.0",
-      "scene_id": null,
-      "mapping": "unknown_new",
-      "queue_count": 3430,
-      "wait_seconds": 137996,
+      "scene_id": 37,
+      "mapping": "task_map",
+      "queue_count": 3415,
+      "wait_seconds": 137392,
       "process_seconds": null
     }
   ],
-  "unknown_new": [
-    {
-      "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
-      "created_at": "2026-10-19 14:05:18",
-      "model": "Seedance 2.0",
-      "unlimited": true,
-      "prompt_head": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera action cin"
-    }
-  ],
+  "unknown_new": [],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -168,24 +160,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-19T13:50:11Z",
-    "monitor_age_minutes": 30,
-    "monitor_occupied": 5,
+    "monitor_checked_at": "2026-10-19T14:20:12Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_robot",
-        "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
-        "scene_id": null,
-        "mapping": "unknown_new"
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 5,
-        "robot": 6
-      }
-    ]
+    "differences": []
   }
 }
