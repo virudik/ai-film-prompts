@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T08:30:17Z",
+  "synced_at": "2026-10-19T09:02:12Z",
   "revision_date": "19.10.2026",
   "master_declared_last_full_sync": "19.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "2c043d711b942895ed1b78335703132c50093895e3a94e3ee147d8b15b4d904c",
@@ -96,21 +96,21 @@
   ],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-19T05:46:29.850Z",
+    "snapshot_at": "2026-10-19T08:54:38.186Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 2.73,
+    "age_hours_at_status_build": 0.126,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
         "github_blob": "2722c43073ced5febe43b2ac4916cd2cdc27681f",
         "mirror_sha256": "ee22bc9c9e1b258192e0c67ddc0ee218862fe42b317c5682488ad20bc3a55f89",
         "match": true,
-        "drive_copy_sha256": "ead1f1b24ee88b0597445011869b830e7b28b7ecff5f31937ead159e415d178a",
+        "drive_copy_sha256": "ee22bc9c9e1b258192e0c67ddc0ee218862fe42b317c5682488ad20bc3a55f89",
         "drive_copy_match": true,
-        "drive_copy_modified_at": "2026-10-18T08:02:55.854Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z",
+        "drive_copy_modified_at": "2026-10-19T08:54:30.290Z",
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z",
         "drive_copy_note": "New canonical handoff; read-only Drive backup may be stale"
       },
       "SYNC-RUNBOOK.md": {
@@ -118,10 +118,10 @@
         "github_blob": "0a210f5c052d67bbc578b6736e17ea47d2575996",
         "mirror_sha256": "ec1876c1632a005cc07499176561fc7c3c83ea4577c1065f4d4c0ccde4121d3f",
         "match": true,
-        "drive_copy_sha256": "92ed0acaa3ef8cd0c1ae3307b786e1b0d1e41d896829371d85ba1481be4ba154",
+        "drive_copy_sha256": "ec1876c1632a005cc07499176561fc7c3c83ea4577c1065f4d4c0ccde4121d3f",
         "drive_copy_match": true,
-        "drive_copy_modified_at": "2026-10-18T08:02:58.087Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_modified_at": "2026-10-19T08:54:33.547Z",
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       },
       "AI-PROJECT-GUIDE.md": {
         "drive_file_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
@@ -131,7 +131,7 @@
         "drive_copy_sha256": "c375e7c79b34f24e590a7a9026c6c3dee16fdb382055fbdef395a921e5049244",
         "drive_copy_match": true,
         "drive_copy_modified_at": "2026-10-18T08:03:00.611Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       },
       "PROMPT-STYLE-GUIDE.md": {
         "drive_file_id": "14VzE8DwjKIquGJWENci6rYWj_1xEn34d",
@@ -141,7 +141,7 @@
         "drive_copy_sha256": "8d6b97581c58018092ce0339066fa80453e85f015cd2839887913d083afb1d77",
         "drive_copy_match": true,
         "drive_copy_modified_at": "2026-10-18T08:03:02.786Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       },
       "USER-GUIDE.md": {
         "drive_file_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
@@ -151,7 +151,7 @@
         "drive_copy_sha256": "92110a21fc36a21e8940fdaa16bb6a41d2f4cecc680a137d02e0b8833f3ff907",
         "drive_copy_match": true,
         "drive_copy_modified_at": "2026-10-18T08:03:04.957Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       },
       "README-AI-SYNC.md": {
         "drive_file_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
@@ -161,7 +161,7 @@
         "drive_copy_sha256": "5838e4a6b3c58e95ca081185a92736f459988650e4b97f690b0f1b8accf0ff1e",
         "drive_copy_match": true,
         "drive_copy_modified_at": "2026-10-18T08:03:07.124Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       },
       "BACKUP-AI-RUNBOOK.md": {
         "drive_file_id": "1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1",
@@ -171,7 +171,7 @@
         "drive_copy_sha256": "2167ce1ba9077c141bb74e431ebfca3eac14865a01b62d647b76f07ff18eda0d",
         "drive_copy_match": true,
         "drive_copy_modified_at": "2026-10-18T08:03:09.182Z",
-        "drive_copy_checked_at": "2026-10-18T08:03:13.703Z"
+        "drive_copy_checked_at": "2026-10-19T08:54:38.186Z"
       }
     }
   },
@@ -179,7 +179,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 2.73,
+      "age_hours": 0.126,
       "blocking": false
     },
     "topview_task_map": {
@@ -693,7 +693,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.10.2026",
-    "synced_at": "2026-10-19T08:30:17Z",
+    "synced_at": "2026-10-19T09:02:12Z",
     "canonical_master_sha256": "2c043d711b942895ed1b78335703132c50093895e3a94e3ee147d8b15b4d904c",
     "canonical_revision_sha256": "483316e6cca9e4e0945001806e6c11c17aa1dca9ac71bf8fd6ea62cb7790927b",
     "scene_count": 22,
