@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-19T03:00:09Z",
+  "checked_at": "2026-10-19T03:10:10Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 179 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 11,
     "board_task_counts": {
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -22,11 +20,11 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 642
+      "1a6244cf1ae747ef847d949a80d6133c": 643
     },
-    "pages_scanned": 14,
-    "tasks_seen": 586,
-    "api_requests": 21,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -41,16 +39,16 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 642
+      "1a6244cf1ae747ef847d949a80d6133c": 643
     },
     "last_full_scan_at": "2026-10-19T03:00:09Z"
   },
   "slots": {
     "capacity": 6,
-    "occupied": 5,
-    "free": 1,
+    "occupied": 6,
+    "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -63,8 +61,8 @@
       "model": "Wan 3.0",
       "scene_id": 28,
       "mapping": "task_map",
-      "queue_count": 1205,
-      "wait_seconds": 31240,
+      "queue_count": 1181,
+      "wait_seconds": 30641,
       "process_seconds": null
     },
     {
@@ -76,8 +74,8 @@
       "model": "Wan 3.0",
       "scene_id": 54,
       "mapping": "task_map",
-      "queue_count": 2748,
-      "wait_seconds": 100360,
+      "queue_count": 2729,
+      "wait_seconds": 99761,
       "process_seconds": null
     },
     {
@@ -89,8 +87,8 @@
       "model": "Wan 3.0",
       "scene_id": 43,
       "mapping": "task_map",
-      "queue_count": 2420,
-      "wait_seconds": 83080,
+      "queue_count": 2398,
+      "wait_seconds": 82480,
       "process_seconds": null
     },
     {
@@ -102,8 +100,8 @@
       "model": "Wan 3.0",
       "scene_id": 55,
       "mapping": "task_map",
-      "queue_count": 1665,
-      "wait_seconds": 48519,
+      "queue_count": 1643,
+      "wait_seconds": 47920,
       "process_seconds": null
     },
     {
@@ -115,12 +113,35 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 2063,
-      "wait_seconds": 65800,
+      "queue_count": 2040,
+      "wait_seconds": 65200,
+      "process_seconds": null
+    },
+    {
+      "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "unlimited": true,
+      "created_at": "2026-10-19 03:03:33",
+      "model": "Wan 3.0",
+      "scene_id": null,
+      "mapping": "unknown_new",
+      "queue_count": 3029,
+      "wait_seconds": 117040,
       "process_seconds": null
     }
   ],
-  "unknown_new": [],
+  "unknown_new": [
+    {
+      "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "status": "init",
+      "created_at": "2026-10-19 03:03:33",
+      "model": "Wan 3.0",
+      "unlimited": true,
+      "prompt_head": "Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Wan 3.0 | Photoreal live-action cinema | Deadpan quiet departure: Serega le"
+    }
+  ],
   "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
@@ -147,12 +168,24 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-19T02:10:11Z",
-    "monitor_age_minutes": 50,
+    "monitor_checked_at": "2026-10-19T03:00:09Z",
+    "monitor_age_minutes": 10,
     "monitor_occupied": 5,
-    "robot_occupied": 5,
-    "consistent": true,
+    "robot_occupied": 6,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "only_in_robot",
+        "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+        "scene_id": null,
+        "mapping": "unknown_new"
+      },
+      {
+        "type": "occupied_differs",
+        "monitor": 5,
+        "robot": 6
+      }
+    ]
   }
 }
