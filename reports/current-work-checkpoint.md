@@ -1,3 +1,9 @@
+## S36 отправлена · 19.10.2026, 06:03 МСК
+
+**Task `e33891d4568a4a90b31ff3c67f5a7100`** подтверждён read-only Topview: status `init`, Wan 3.0, 30 с, 720p, 16:9, quantity 1, шесть входов Image1–Image6, Unlimited=true, creditsCost=0. Канонический prompt SHA `484da75d0bc379070d0c29cb0de236c2bfbd1904ec110e8dc57e719314fea58a`; фактический текст идентичен по словам и упоминаниям, Topview добавил только пробел у границы токена в записи `@Image1–@Image3` (поэтому текущий строгий normalizer не даёт exact, token-padding-only match зафиксирован честно). CAS claim `chatgpt-s36-20261019T0301Z`, один GUI Create. Receipt: `reports/topview-queue-2026-10-19/S36-receipt.json`.
+
+Повторный полный скан: 11 досок, 16 страниц, 910 задач, 6 активных Unlimited-видео, свободных слотов 0. Следующий по очереди — S37-SEED20-P1 после свежего full scan и проверки видимых Seedance 2.0 / Unlimited / 0 credits. S36 не повторять и не считать принятой до QC результата. Робот остаётся primary для телеметрии; editorial approval/slow не менялись.
+
 ## S54 отправлена · 18.10.2026, 20:03 МСК
 
 **Task `1e4928fa04ed4a0396d1d2ea4f5934bb`** подтверждён read-only Topview: status `init`, Wan 3.0, 30 с, 720p, 16:9, quantity 1, четыре входа Image1–Image4, Unlimited=true, creditsCost=0. Полный нормализованный prompt совпал с canonical SHA `bb86fcd28b6e0f8dc539c1e7b92731da453b962c8adfe047350c60c46c4427a2`. CAS claim `chatgpt-scheduled-20261018-S54-1792342990362`, один GUI Create. Receipt: `reports/topview-queue-2026-10-18/S54-receipt.json`.
