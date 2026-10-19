@@ -11,6 +11,13 @@ on:
       - '.github/workflows/sync-from-drive.yml'
       - 'scripts/build_project_status.py'
       - 'instruction-sync-status.json'
+      - 'NEW-CHAT-HANDOFF.md'
+      - 'SYNC-RUNBOOK.md'
+      - 'AI-PROJECT-GUIDE.md'
+      - 'PROMPT-STYLE-GUIDE.md'
+      - 'USER-GUIDE.md'
+      - 'README-AI-SYNC.md'
+      - 'BACKUP-AI-RUNBOOK.md'
 
 permissions:
   contents: write
@@ -39,6 +46,39 @@ jobs:
           test -s /tmp/drive-video-prompts.md
           grep -q '^# Актуальные видео-сцены и промты' /tmp/drive-video-prompts.md
           grep -q 'Канонический источник' /tmp/drive-video-prompts.md
+
+      - name: Recertify instructions edited without cert_github.py (owner decision 19.10.2026)
+        shell: bash
+        run: |
+          set -euo pipefail
+          # An instruction edit pushed without `cert_github.py` turned the site red and stopped the Topview
+          # robot (18.10, 19.10). Main is the canon, so the certificate only records the hashes of what is
+          # on main: refresh it here and name the commit that skipped it.
+          python3 - > /tmp/cert-stale.txt <<'PY'
+          import hashlib, json, subprocess
+          d = json.load(open("instruction-sync-status.json", encoding="utf-8"))
+          for name, info in d.get("files", {}).items():
+              blob = subprocess.check_output(["git", "hash-object", name], text=True).strip()
+              sha = hashlib.sha256(open(name, "rb").read()).hexdigest()
+              if info.get("github_blob") != blob or info.get("mirror_sha256") != sha:
+                  print(name)
+          PY
+          if [ ! -s /tmp/cert-stale.txt ]; then echo "instruction certificate current"; exit 0; fi
+          STALE="$(paste -sd' ' /tmp/cert-stale.txt)"
+          LAST="$(git log -1 --format='%h %s' -- $STALE | cut -c1-80)"
+          echo "::warning::Instructions changed without cert_github.py: $STALE (last commit: $LAST). Recertifying."
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            python3 scripts/cert_github.py . >/dev/null
+            if git diff --quiet -- instruction-sync-status.json; then echo "already current on main"; exit 0; fi
+            git add instruction-sync-status.json
+            git commit -q -m "Robot: recertify instructions ($STALE) after $LAST"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 5))
+            git fetch -q origin main && git reset -q --hard origin/main
+          done
+          exit 1
 
       - name: Validate master and generate deterministic project status
         shell: bash
