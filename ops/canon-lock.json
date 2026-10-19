@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:drive-worm",
-  "task": "Сайт: ссылки на MP4 из Drive и блок «Червь»",
-  "acquired_at": "2026-10-19T23:06:51Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T23:07:54Z",
+  "task": "Сократить строку хендофа (лимит 35 КБ)",
+  "acquired_at": "2026-10-19T23:09:34Z",
+  "expires_at": "2026-10-19T23:29:34Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
