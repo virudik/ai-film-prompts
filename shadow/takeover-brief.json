@@ -2,8 +2,8 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-19T23:44:12+00:00",
- "valid_at_generation": false,
+ "generated_at": "2026-10-19T23:44:47+00:00",
+ "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
  "sources": [
@@ -191,8 +191,8 @@
  },
  "runtime": {
   "project_health": "ok",
-  "scenes": 21,
-  "prompt_texts": 89,
+  "scenes": 23,
+  "prompt_texts": 95,
   "scene_ids": [
    13,
    16,
@@ -214,9 +214,11 @@
    52,
    53,
    54,
-   56
+   56,
+   57,
+   58
   ],
-  "latest_scene": 56,
+  "latest_scene": 58,
   "reserved": [
    1,
    2,
@@ -741,10 +743,10 @@
   {
    "id": 57,
    "title": "РосКОТмос: аварийная посадка котов на планете ситхов",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Seedance 2.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
    "prompts": 3,
@@ -763,12 +765,14 @@
   {
    "id": 58,
    "title": "РосКОТмос: коты выбегают из горящего корабля",
-   "target_engine": null,
-   "state": null,
-   "render_state": null,
-   "duration_s": null,
+   "target_engine": "Seedance 2.0",
+   "state": "DRAFT",
+   "render_state": "IDLE",
+   "duration_s": 30,
    "dialogue": null,
-   "depends_on": [],
+   "depends_on": [
+    57
+   ],
    "prompts": 3,
    "refs": [
     "@Image1",
