@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scene_id": 49,
-  "updated_at": "2026-10-17T01:00:12.574663+00:00",
+  "updated_at": "2026-10-19T22:10:17.227022Z",
   "authority": "Fresh GitHub main/video-prompts.md; original identity/location refs outrank AI prop/pose helpers; assistant QC is not owner editorial approval.",
   "status": "ready",
   "references": [
@@ -434,8 +434,306 @@
     {
       "prompt": "49A",
       "status": "READY",
-      "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
-      "characters": 6536,
+      "canonical_prompt_sha256": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
+      "characters": 7200,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/yulya.jpg",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49A-playing-grip.png",
+          "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
+      "normalized_prompt_sha256": "b646081705c3489ee55571178df304b7c5dd5fb06fb414369fde0f6f5e3e201e",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49B",
+      "status": "READY",
+      "canonical_prompt_sha256": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
+      "characters": 7664,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/pasha.jpg",
+          "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/sasha.jpg",
+          "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49B-playing-grip.png",
+          "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
+      "normalized_prompt_sha256": "a66cdb578c8a5164e9fe2a3345865802c41c098fda509967c7183fed57626753",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49C",
+      "status": "READY",
+      "canonical_prompt_sha256": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
+      "characters": 7618,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/lesha.jpg",
+          "sha256": "e3d1ddd90c4e4b141b9d1f06ab74c5bf706243f59ed94cce582d17f6b187aad9",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/full/vitalik.jpg",
+          "sha256": "69a25930e321ebf8a37a8d2e48ad4eba95854b2bc06d9a34859899df10f5c00d",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49C-playing-grip.png",
+          "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
+      "normalized_prompt_sha256": "cb7410fa217d291d30f792ca251f3dedcc0c3e997b3e5e58c6b3e4d20e9cb696",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49D",
+      "status": "READY",
+      "canonical_prompt_sha256": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
+      "characters": 7556,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/masha-laguna.webp",
+          "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
+          "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49D-playing-grip.png",
+          "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
+      "normalized_prompt_sha256": "ce1cf54b4daea1ca1a77fecc61c46e7e3cf3292595e2a5b82d85250f96058c10",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49E",
+      "status": "READY",
+      "canonical_prompt_sha256": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
+      "characters": 6758,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49E-playing-grip.png",
+          "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
+      "normalized_prompt_sha256": "403a10b1b3e1838ccde6af17e44cca332b9cd268f71d88bc35325d335bb060d1",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49F",
+      "status": "READY",
+      "canonical_prompt_sha256": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
+      "characters": 9163,
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
+          "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
+          "required": true
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
+          "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
+          "required": true
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-49/S49F-playing-grip.png",
+          "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
+      "normalized_prompt_sha256": "883c1370ba51c225a7f0d86531b93a0e954568e08d8d35954e91274fd71d6373",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review"
+    },
+    {
+      "prompt": "49 · Wan 3.0 часть 1",
+      "canonical_block_label": "49 · Wan 3.0 часть 1",
       "slots": [
         {
           "slot": "@Image1",
@@ -460,73 +758,61 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
-          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49A-playing-grip.png",
-          "input_status": "available",
-          "sha256": "baf85452c7302218a45f256259b14e004f075a6e9a4f13f85a9e8c74b47a6568"
-        }
-      ]
-    },
-    {
-      "prompt": "49B",
-      "status": "READY",
-      "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
-      "characters": 6954,
-      "slots": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
           "path": "references/full/pasha.jpg",
           "sha256": "9b5f318c3a3f041a458503285d17199ffabd8fab60f2735eb6ef761e92cc1469",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image3",
+          "slot": "@Image5",
           "path": "references/full/sasha.jpg",
           "sha256": "5259ec5c48cce1cf251a062842620cf6b6d3da6172dc447c9bbc6f09e2bc0102",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image4",
+          "slot": "@Image6",
           "path": "references/full/artem.jpg",
           "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image7",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image8",
           "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
           "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image6",
+          "slot": "@Image9",
           "path": "references/scenes/scene-49/S49B-playing-grip.png",
-          "input_status": "available",
-          "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7"
+          "sha256": "ddd940d3055371a191e455fc0b3d81c38ce6504f9d91c79e6e76cec0814479f7",
+          "required": true,
+          "input_status": "available"
         }
-      ]
+      ],
+      "previous_prompt_sha256_before_20261020": null,
+      "canonical_prompt_sha256": "672d08c2bcca4d942d28776425932a62cfb6c21dd62f64872638452c8d3a43a3",
+      "normalized_prompt_sha256": "fc0e1085e943ed004ddc23822115cae184a74c90bcd6940276726544bf723161",
+      "characters": 8925,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review",
+      "status": "READY"
     },
     {
-      "prompt": "49C",
-      "status": "READY",
-      "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
-      "characters": 6961,
+      "prompt": "49 · Wan 3.0 часть 2",
+      "canonical_block_label": "49 · Wan 3.0 часть 2",
       "slots": [
         {
           "slot": "@Image1",
@@ -558,108 +844,54 @@
         },
         {
           "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
-          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-49/S49C-playing-grip.png",
-          "input_status": "available",
-          "sha256": "8920dfd9af6a9d60c8d064654e3cead4d4b6b05480afc9f667843de756f0dea9"
-        }
-      ]
-    },
-    {
-      "prompt": "49D",
-      "status": "READY",
-      "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
-      "characters": 6716,
-      "slots": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
           "path": "references/masha-laguna.webp",
           "sha256": "71a739a2ab872f7fcca6decd87e26d0d75f583ecbfbd89c8c26253b17a01bab0",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image3",
+          "slot": "@Image6",
           "path": "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
           "sha256": "cc79d93bc2d0482b792807b391e12f1905b09a296d8f7225dca9f8930e2e146f",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image4",
+          "slot": "@Image7",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image8",
           "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
           "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
           "required": true,
           "input_status": "available"
         },
         {
-          "slot": "@Image5",
+          "slot": "@Image9",
           "path": "references/scenes/scene-49/S49D-playing-grip.png",
-          "input_status": "available",
-          "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723"
+          "sha256": "e490bc48a8f6c848683bedad15cd7f47d47f0b2b31e1e84cd70c7bdaf81be723",
+          "required": true,
+          "input_status": "available"
         }
-      ]
+      ],
+      "previous_prompt_sha256_before_20261020": null,
+      "canonical_prompt_sha256": "b68957307d362044fd7495cba5b59676cfdc003a712e35e6039875f3e5143934",
+      "normalized_prompt_sha256": "98e4642e6d9275e9de991e2de989de7ddc824104d887d60338d995e1f5806fcc",
+      "characters": 9264,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review",
+      "status": "READY"
     },
     {
-      "prompt": "49E",
-      "status": "READY",
-      "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
-      "characters": 6529,
-      "slots": [
-        {
-          "slot": "@Image1",
-          "path": "references/scenes/scene-28/H28B-disco.png",
-          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/luchik.jpg",
-          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/ryzhik.jpg",
-          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
-          "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49E-playing-grip.png",
-          "input_status": "available",
-          "sha256": "d1191d251cdb2f9242ef138c02814d38156b49358b28f275d8cb97c14c29451d"
-        }
-      ]
-    },
-    {
-      "prompt": "49F",
-      "status": "READY",
-      "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
-      "characters": 8443,
+      "prompt": "49 · Wan 3.0 часть 3",
+      "canonical_block_label": "49 · Wan 3.0 часть 3",
       "slots": [
         {
           "slot": "@Image1",
@@ -677,46 +909,64 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
-          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
           "required": true,
           "input_status": "available"
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
-          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
           "required": true,
           "input_status": "available"
         },
         {
           "slot": "@Image5",
-          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
-          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image6",
-          "path": "references/scenes/scene-49/S49D-harp-small-synth.png",
-          "sha256": "63fe00ae0f999240c740ca0d355770d6314e6ee0879ef375f27e37104661a463",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image7",
           "path": "references/scenes/scene-49/S49E-cat-paw-controllers.png",
           "sha256": "8044ee685f9b855e8c043c44d745ca8fa3ae2894e2640a1e6bc4a3bf55be20e5",
           "required": true,
           "input_status": "available"
         },
         {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-49/S49A-lead-and-bass.png",
+          "sha256": "9514e2c8370bc1a2b63d833b363fa287416f1fbc77125d853d75aef35f035715",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-49/S49B-rhythm-instruments.png",
+          "sha256": "5661b9f36796ed4c6c13862e8eff98e404032bbb8f42a0ba4d6bb872a63098ad",
+          "required": true,
+          "input_status": "available"
+        },
+        {
           "slot": "@Image8",
+          "path": "references/scenes/scene-49/S49C-drums-wind-bass.png",
+          "sha256": "71feded8ffb7dbaeac6ba21e16d116ffd4d6cb754e22f2fa80572c3dd423683e",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image9",
           "path": "references/scenes/scene-49/S49F-playing-grip.png",
-          "input_status": "available",
-          "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d"
+          "sha256": "c122bb015c53e6687a014d781a2c9e453c5f7f06419c85f98cd814f038d0bf9d",
+          "required": true,
+          "input_status": "available"
         }
-      ]
+      ],
+      "previous_prompt_sha256_before_20261020": null,
+      "canonical_prompt_sha256": "73cfd17617b0faa1d6c5d747618ef74e12a47b41c4f501e8f6994102a4eb1370",
+      "normalized_prompt_sha256": "c748c3bdc8ec16b0e1bded4967e6effb23de39304e6536333c492280fa71dfa7",
+      "characters": 9517,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review",
+      "status": "READY"
     }
   ],
   "site_published": {
@@ -732,6 +982,7 @@
     "No paid or automatic video generation",
     "DRAFT until individual image QC and explicit READY promotion"
   ],
-  "canonical_master_sha256": "c2ec2bca4dc0db0a439ba60aec53ad8311203b70bb661c02a77a218b4723d285",
-  "last_qc_at": "2026-10-16T23:09:14.907896+00:00"
+  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+  "last_qc_at": "2026-10-16T23:09:14.907896+00:00",
+  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization."
 }

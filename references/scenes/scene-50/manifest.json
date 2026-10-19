@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "scene_id": 50,
-  "updated_at": "2026-10-17T19:47:42.993047Z",
+  "updated_at": "2026-10-19T22:10:17.227022Z",
   "authority": "GitHub main/video-prompts.md; all existing image references linked from Scene 28 originals; newly generated instrumental and fan images not yet accepted",
-  "status": "DRAFT",
+  "status": "ready",
   "references": [
     {
       "path": "references/scenes/scene-28/H28B-disco.png",
@@ -94,11 +94,15 @@
         "time_ms": 14833,
         "verification": "Downloaded Topview extracted JPEG matches owner attachment SHA256 byte-for-byte. Separate uploaded forest-action MP4 is NOT this source."
       }
+    },
+    {
+      "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+      "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+      "role": "owner_selected_crowd_pose",
+      "source": "Owner17Oct variant2; current master and queue"
     }
   ],
-  "remaining": [
-    "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
-  ],
+  "remaining": [],
   "approved": [],
   "rejected": [
     "Previous mismatched generated pictures of different people/new arena; do not use for identity or location"
@@ -106,69 +110,141 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "50A",
-      "canonical_prompt_sha256": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
-      "characters": 6108,
-      "launch_readiness": "draft",
+      "canonical_prompt_sha256": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
+      "characters": 6743,
+      "launch_readiness": "blocked_test_review",
       "slots": [
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
           "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
           "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "input_status": "available",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
         }
       ],
-      "prompt": "50A"
+      "prompt": "50A",
+      "previous_prompt_sha256_before_20261020": "836877c4238947b15280dca301df8c20925747bc9d6734f084c20596618142dd",
+      "normalized_prompt_sha256": "00290b1069a0d368fe95bb971c17a83a4d027f272d23c9e57bc1e81d9e44ecd7",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "status": "READY"
     },
     {
       "prompt_id": "50B",
-      "canonical_prompt_sha256": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
-      "characters": 6129,
-      "launch_readiness": "draft",
+      "canonical_prompt_sha256": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
+      "characters": 6763,
+      "launch_readiness": "blocked_test_review",
       "slots": [
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-28/H28B-disco.png",
           "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image2",
           "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
           "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image3",
           "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
           "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
-          "input_status": "available"
+          "required": true
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
-          "input_status": "available",
-          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209"
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
         }
       ],
-      "prompt": "50B"
+      "prompt": "50B",
+      "previous_prompt_sha256_before_20261020": "8e962cd7c5f6bc2c278367784ec0112591badd39fae7a60297063eb72d94019d",
+      "normalized_prompt_sha256": "f3d73adda08441afc120f031b1e525fe4e2b09c96c0487628a9287cb704af97a",
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "status": "READY"
+    },
+    {
+      "prompt": "50 · Wan 3.0",
+      "canonical_block_label": "50 · Wan 3.0",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-28/H28B-disco.png",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b",
+          "required": true
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-28/G28-full-ensemble-Alesya-v2.png",
+          "sha256": "0dbaad8758d26638a621303efd91bce783b040352445201597fb69f26eeca23d",
+          "required": true
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-03m400.jpg",
+          "sha256": "2908d0ca926702ab0f2cc0f0b7e4d2c051c7f61af595d67e35605e157108f8bf",
+          "required": true
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-50/S50-wookiees-owner-14m833.jpg",
+          "sha256": "d2ebbf73b14c770ab600e26f561ed0d17b59d5fe5d058bc9c603ba8b50209209",
+          "required": true
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
+          "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
+          "required": true
+        }
+      ],
+      "previous_prompt_sha256_before_20261020": null,
+      "canonical_prompt_sha256": "b56e23b0c7260e77d3559fb9b18e75174ee05fb0bb5f6cc11f3ff773506c5748",
+      "normalized_prompt_sha256": "121853321e31d993bb4cee2fd1592c65cc6af345c78ecb7c219a8f2fa4377f8c",
+      "characters": 7943,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "motion_revision": "2026-10-20 owner00:55MSK",
+      "generation_state": "not_submitted_by_this_revision",
+      "launch_readiness": "blocked_test_review",
+      "status": "READY"
     }
   ],
   "site_published": {
@@ -219,7 +295,7 @@
     "wookiee_candidates": 6,
     "result": "Candidates describe forest/village on Kashyyyk; no existing audience in H28B found by metadata. Scene remains DRAFT."
   },
-  "canonical_master_sha256": "93f8ea85760ed0d84b59068ba00aa2a12774ed23c4201b3b6808b6ab50c881d9",
+  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
   "generated_fan_candidates": [
     {
       "variant": 1,
@@ -303,5 +379,10 @@
       "owner_approval": "pending_selection"
     }
   ],
-  "selection_status": "owner_choice_pending"
+  "selection_status": "owner_selected_variant_2_20261017",
+  "launch_gate": "Existing ONE15s A1 test after story and owner review before any other dance/music submission; variants are not additional launch authorization.",
+  "previous_remaining_before_20261020": [
+    "Owner selection among three archived fan image candidates; then apply selected reference mapping to50A/B and validate READY. No new image generation authorized/needed."
+  ],
+  "selection_evidence": "Current master and launch queue both select S50-fans-1c48a62d.png; reused unchanged, no new approval inferred."
 }

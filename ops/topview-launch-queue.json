@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T14:07:15Z",
+  "updated_at": "2026-10-19T22:10:17.227022Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1651,8 +1651,8 @@
       "scene_id": 49,
       "prompt_id": "S49A",
       "canonical_block_label": "49A",
-      "canonical_prompt_sha256": "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4",
-      "normalized_prompt_sha256": "ede7b5d4aed64838c882606459405dec64e5dd3147ce98468f0fd883fd9b4b81",
+      "canonical_prompt_sha256": "4a662c8835800126b3156d95e6a2004663e9dcf0c7346320cf6b7fa3111eb705",
+      "normalized_prompt_sha256": "b646081705c3489ee55571178df304b7c5dd5fb06fb414369fde0f6f5e3e201e",
       "priority": 610,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -1718,15 +1718,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "ac1de176420eafbd3dadb88d97a65c3835199781dba2a9f71b0bb732be90a8c4"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S49B",
       "scene_id": 49,
       "prompt_id": "S49B",
       "canonical_block_label": "49B",
-      "canonical_prompt_sha256": "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f",
-      "normalized_prompt_sha256": "58cd189029db2762f2d53e1a8ff40ac1ee23994d47c1196e94c001b36f2aabab",
+      "canonical_prompt_sha256": "1a890ed5adf57fe92c9d6b24f235f4e50ec07ad62335e8d1e783b2c7affdcfcc",
+      "normalized_prompt_sha256": "a66cdb578c8a5164e9fe2a3345865802c41c098fda509967c7183fed57626753",
       "priority": 611,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -1798,15 +1802,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "99fb4aeaf9091d8b08c91fc7f67438bd9db64951060840ddb16321c6f668289f"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S49C",
       "scene_id": 49,
       "prompt_id": "S49C",
       "canonical_block_label": "49C",
-      "canonical_prompt_sha256": "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec",
-      "normalized_prompt_sha256": "646e9b3e0835dddd4e19b8c071a1f0eef5f55195d1f222836646216ee5a2acc9",
+      "canonical_prompt_sha256": "12bcf81d590f9583f0dd827201d6b32818062d32acd49df4c2466f17037e8a0c",
+      "normalized_prompt_sha256": "cb7410fa217d291d30f792ca251f3dedcc0c3e997b3e5e58c6b3e4d20e9cb696",
       "priority": 612,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -1878,15 +1886,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "a046163c0464fbe5be31d0b58a5bdc74ab11b1d3029ec3caa871264ac23a84ec"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S49D",
       "scene_id": 49,
       "prompt_id": "S49D",
       "canonical_block_label": "49D",
-      "canonical_prompt_sha256": "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d",
-      "normalized_prompt_sha256": "304f067568f7ab533dc431cda984457a689b03207d03ab54f508f8e5cf02b48d",
+      "canonical_prompt_sha256": "c8b35a6e31a2cf6812123ff2c5a0f1a314ce0796fb0319969ae34f0a6b22fe34",
+      "normalized_prompt_sha256": "ce1cf54b4daea1ca1a77fecc61c46e7e3cf3292595e2a5b82d85250f96058c10",
       "priority": 613,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -1952,15 +1964,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "26183af87a3610bb71dc56ce109463788cfdf7c5c66b4307756d86574fa4a96d"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S49E",
       "scene_id": 49,
       "prompt_id": "S49E",
       "canonical_block_label": "49E",
-      "canonical_prompt_sha256": "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd",
-      "normalized_prompt_sha256": "dc69a7f17091754e93a6cb3e087487151ecd786113d67cc2bb3369bdddad8a57",
+      "canonical_prompt_sha256": "397b4468c27126e8ab7869a1c8b675a23ffdcca2ebaee72d9707908bf6116bf0",
+      "normalized_prompt_sha256": "403a10b1b3e1838ccde6af17e44cca332b9cd268f71d88bc35325d335bb060d1",
       "priority": 614,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -2026,15 +2042,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "abd8bb617d2d85801d8c5eb8fef7297b15a4c43e05373040ce9378e18818f7dd"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S49F",
       "scene_id": 49,
       "prompt_id": "S49F",
       "canonical_block_label": "49F",
-      "canonical_prompt_sha256": "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df",
-      "normalized_prompt_sha256": "d2bf032478abe9a7023ea8472fbe9d9548b2d816b6d0225732eb8ca9833e925b",
+      "canonical_prompt_sha256": "4a201a16fb379d32a966cffccc965a5d0c72b6e4eff0e6de33b692744558eeca",
+      "normalized_prompt_sha256": "883c1370ba51c225a7f0d86531b93a0e954568e08d8d35954e91274fd71d6373",
       "priority": 615,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -2118,15 +2138,19 @@
       "task_id": null,
       "claim": null,
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "a386b410af5f72f2eeab52272afb17d693f69f7da13aed6de15d7ee1629a52df"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S51A",
       "scene_id": 51,
       "prompt_id": "S51A",
       "canonical_block_label": "51A",
-      "canonical_prompt_sha256": "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4",
-      "normalized_prompt_sha256": "f1667b575e639db707a3b0cb067d43212db6acb951c4f8970a6edb1fc9aa7901",
+      "canonical_prompt_sha256": "fcafb1bd37d831bcc51450722059f952058092ed8f3e3f4da974207cee447070",
+      "normalized_prompt_sha256": "a78f505b54c837e8778164378d4929062a0066c982647ad77f9fdae45bb3124c",
       "priority": 618,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -2214,19 +2238,21 @@
       "claim": null,
       "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
       "previous_prompt_sha256": [
-        "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c"
+        "91f57d2c390e479d08407de989fd5d604e257a90299c50fbcc976761bdc72d0c",
+        "c5bf6d9c8fa066f6159f5e99a7d47d93a0ed2db69bd6aeb492e385c3cf8084f4"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S51B",
       "scene_id": 51,
       "prompt_id": "S51B",
       "canonical_block_label": "51B",
-      "canonical_prompt_sha256": "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf",
-      "normalized_prompt_sha256": "6c8fea6c4fb7982a4101a8d329454ead6b1314d3f638ca902a5feb7fce3de5a9",
+      "canonical_prompt_sha256": "c72a2ecc7c5442d65416bd6584cb42a9bd6aa3dc6727737fa2435be2c84d43bf",
+      "normalized_prompt_sha256": "d00c891b5cc39dbd3bf72aa24f8a61aeb3e31e90d9eb15af2f5b2cba85eb228d",
       "priority": 619,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -2306,17 +2332,31 @@
           "path": "references/scenes/scene-50/S50-fans-1c48a62d.png",
           "sha256": "994447b22ec2b92d6c87318e848167445138b4059ca7e30a8071e8e6fbcfbdaf",
           "required": true
+        },
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S51A",
+          "source_requirement": "Actual new51A result ending, intact instruments and two-handed neck grip; save provenance, trim, SHA256 and continuity QC. Submission or pose helper alone is insufficient."
         }
       ],
       "task_id": null,
       "claim": null,
       "previous_prompt_sha256": [
-        "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272"
+        "7918a1db7b98a941c36ad609913b0e0aadb05bf3fa0cefc19ef3dd843f832272",
+        "720a84f481b7ad86b8cca2b8590e230a564eaa2f3c2afc9446e3ea791da48bbf"
       ],
       "revision_note_20261017_2358": "Owner 17.10 23:58 MSK scene review: prompt revised (see owner_instruction_20261017_2358).",
       "dependency_note": "50 READY (owner chose variant 2 on 17.10); S50A/S50B are queue items before 51.",
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency. Also requires the actual QC-checked ending of new51A, not merely submitted51A.",
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [
+        "S51A"
+      ],
+      "launch_readiness": "blocked_continuity"
     },
     {
       "id": "S45-R1-20261017",
@@ -3062,14 +3102,14 @@
       "scene_id": 28,
       "prompt_id": "A1",
       "canonical_block_label": "28 A1",
-      "canonical_prompt_sha256": "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20",
-      "normalized_prompt_sha256": "e018faf33fedd539f49339680e6b104337d4eea226198995361ff58ef37022ca",
+      "canonical_prompt_sha256": "8de01121123bc93d1f5bcb530dc0ba7686b63657099f63e34f080f56b621760e",
+      "normalized_prompt_sha256": "59f48d19ba2ec03232459865944f3fe1dffb00e6a28b49850ae45623e6caac33",
       "priority": 400,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
-      "prompt_text_resolution": 1080,
+      "prompt_text_resolution": 720,
       "aspect_ratio": "16:9",
       "quantity": 1,
       "mode": "omni_reference",
@@ -3117,7 +3157,11 @@
       "claim": null,
       "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test.",
       "max_credits": 0,
-      "review_gate_after_success": "Assess identity, energy, framing and anatomy; owner review before further dance submissions. This is not a controlled model comparison by itself."
+      "review_gate_after_success": "Assess identity, energy, framing and anatomy; owner review before further dance submissions. This is not a controlled model comparison by itself.",
+      "previous_prompt_sha256": [
+        "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S55",
@@ -3379,8 +3423,8 @@
       "scene_id": 50,
       "prompt_id": "S50A",
       "canonical_block_label": "50A",
-      "canonical_prompt_sha256": "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a",
-      "normalized_prompt_sha256": "99cdb9803ecf1e5510fc48e10bfb0e95d977763b72224788e82bec04f38a18ff",
+      "canonical_prompt_sha256": "a1ce9181f12bf7036bd6632ad6dadb54a587ac2442111294fa9afb825c025c9d",
+      "normalized_prompt_sha256": "00290b1069a0d368fe95bb971c17a83a4d027f272d23c9e57bc1e81d9e44ecd7",
       "priority": 616,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -3451,15 +3495,19 @@
       "added_at": "2026-10-17T21:04:19Z",
       "added_by": "claude:scene-review",
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "7261abddf45cf89f920e0d4685d890349019fac59ba8f99c84c8674719e2929a"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S50B",
       "scene_id": 50,
       "prompt_id": "S50B",
       "canonical_block_label": "50B",
-      "canonical_prompt_sha256": "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd",
-      "normalized_prompt_sha256": "cdd33389e02cbf3ada72f7ace8a90f82ba7ad8010469df67c9c9a404077f96a9",
+      "canonical_prompt_sha256": "c2d9cac9fa17b932176524ae34ad53cb27d414fa7454674d95c0963c27d3a500",
+      "normalized_prompt_sha256": "f3d73adda08441afc120f031b1e525fe4e2b09c96c0487628a9287cb704af97a",
       "priority": 617,
       "state": "blocked_test_review",
       "model": "Seedance 2.0",
@@ -3531,7 +3579,11 @@
       "added_at": "2026-10-17T21:04:19Z",
       "added_by": "claude:scene-review",
       "owner_review_required_after_item": "S28-A1-TEST-20261017",
-      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency."
+      "blocker": "Preserved owner gate: ONE A1 Seedance2.0 dance test, then owner assessment before musical/dance batch. Superseded B10 is not a dependency.",
+      "previous_prompt_sha256": [
+        "841cf59d3a649c3519c542bb0b08974f1795a65fd2d938c60ddc9b5a8efea7fd"
+      ],
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
     },
     {
       "id": "S37-SEED20-P1",
@@ -5433,5 +5485,24 @@
       "Seedance P1→P2 seam"
     ],
     "downstream_scene52": "Wait for owner-selected complete44 variant; no automatic Wan selection."
+  },
+  "owner_instruction_20261020_0055": {
+    "source": "Доведи промты до нужного активного результата",
+    "scope": "Current38 prompts in scenes28,49,50,51, both existing alternatives. Editing authorization only; no batch launch, model change or priority override.",
+    "updated_pending_items": [
+      "S49A",
+      "S49B",
+      "S49C",
+      "S49D",
+      "S49E",
+      "S49F",
+      "S51A",
+      "S51B",
+      "S28-A1-TEST-20261017",
+      "S50A",
+      "S50B"
+    ],
+    "review_gate": "Existing ONE15s A1 test after story; owner review before any further dance/music submissions. A11/A12/B11 remain outside queue.",
+    "report": "reports/dance-music-energy-2026-10-20.md"
   }
 }

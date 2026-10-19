@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T21:56:25.037Z",
+  "last_updated_at": "2026-10-19T22:11:47.682314Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -912,12 +912,13 @@
       "work_id": "FILM-20261020-COUPLE-DANCE",
       "title": "Парный танец Серёги и Юли по мотивам заставки второго сезона Миротворца",
       "status": "awaiting_dance_test_review",
-      "verified_at": "2026-10-19T21:52:57.350Z",
+      "verified_at": "2026-10-19T22:11:47.682314Z",
       "done": [
         "Visual sampling of TV Guide opening: near-horizontal lift, standing couple and two-hand face-framing gesture. Full continuous viewing/audio not verified.",
         "Added A11/A12 Seedance2.0 2x15s and B11 30s textual alternative in existing scene28; previous89 prompts unchanged; total92.",
         "Three exact image inputs verified; old seated/crouched pose helpers excluded; A12 requires actual new A11 ending.",
-        "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged."
+        "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
+        "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md."
       ],
       "next_action": "Wait for the existing one-test queue item under the retained story-first ordering; it is not submitted yet. On completion visually compare energy, amplitude, weight transfer, partner interaction and identities with the successful old bridge/cantina clips. Owner evaluates before any new couple variants or dance batch.",
       "blockers": [
@@ -948,18 +949,34 @@
     {
       "work_id": "FILM-20261020-ACTIVE-MUSIC",
       "title": "Активная постановка всех танцевальных и музыкальных промптов28/49–51",
-      "status": "in_progress",
-      "verified_at": "2026-10-19T21:56:25.037Z",
+      "status": "completed",
+      "verified_at": "2026-10-19T22:11:47.682314Z",
       "owner_instruction": "20.10.2026 00:55:34 МСК: Доведи промты до нужного активного результата",
       "scope": "Edit current prompts in existing master28/49/50/51, both engine alternatives; preserve identities/location/props/start-end continuity and submitted receipts. Update pending queue hashes/mappings without unlocking or launching extra tests.",
       "baseline": "Previous audit:28 already more active but repetitive robot gestures and stretched30s alternatives;49 contains sparse action and holds;51 slow wind-up;50 active. A11/A12/B11 prepared. One energetic15s test remains awaiting submission after story.",
-      "done": [],
-      "next_action": "Read full target prompts and style guide, rewrite concrete motion and timing, then reconcile hashes and validate.",
+      "done": [
+        "Revised38 existing prompts in28/49/50/51; both engine alternatives;54 other prompts unchanged,92 total.",
+        "Concrete continuous motion, differentiated choreography, live playing, shorter final accents; all identity blocks and image assignments preserved.",
+        "Updated11 pending queue hashes and38 manifest mappings; submitted/superseded entries and one-test owner-review gate unchanged.",
+        "51B now requires actual new51A ending; no synthetic continuity substitute.",
+        "Local semantic/structure/hash checks, master health and site validator passed; no submissions or spending."
+      ],
+      "next_action": "Continue the existing story-first queue, then ONE revised A1 Seedance2.0 test and owner review before further dance/music. Verify generated energy, anatomy, faces and physical contact; do not infer visual success from prompt QA.",
       "constraints": [
         "Existing one-test then owner-review gate remains.",
         "No submissions, credits, automatic approval or new scenes.",
         "Already-submitted prompt hashes/receipts remain historical; changes apply only to future renders."
-      ]
+      ],
+      "canonical_refs": [
+        "video-prompts.md",
+        "reports/dance-music-energy-2026-10-20.md",
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-28/manifest.json",
+        "references/scenes/scene-49/manifest.json",
+        "references/scenes/scene-50/manifest.json",
+        "references/scenes/scene-51/manifest.json"
+      ],
+      "pre_checkpoint_commit": "2c969de7fece479de5a122375c317c2078683d21"
     }
   ],
   "rules": [
