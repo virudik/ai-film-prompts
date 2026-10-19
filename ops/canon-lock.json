@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:drive-worm",
-  "task": "Сайт: компактный верхний блок без повторов",
-  "acquired_at": "2026-10-19T23:23:17Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T23:24:01Z",
+  "state": "held",
+  "holder": "claude:roskotmos-crash",
+  "task": "Сцены 57/58: аварийная посадка РосКОТмоса и выбег котов",
+  "acquired_at": "2026-10-19T23:42:57Z",
+  "expires_at": "2026-10-20T00:27:57Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
