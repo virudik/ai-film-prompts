@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T22:13:16Z",
+  "synced_at": "2026-10-19T22:44:04Z",
   "revision_date": "20.10.2026",
   "master_declared_last_full_sync": "20.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
-  "canonical_revision_sha256": "4b1f0cc8565efc1c8e94e9b21f3975030df501cdfdc65e32341e87b24c74e854",
-  "canonical_master_bytes": 916892,
-  "scenes": 22,
-  "prompt_texts": 92,
+  "canonical_master_sha256": "9eb3222679c40f67b10265c6069b3629bb04f13acaba13c40b40ea0245d26a76",
+  "canonical_revision_sha256": "1e7177b7088b21f0fbaf046fd3be222d97a959bb585f2c1b82f276db2e43d8c3",
+  "canonical_master_bytes": 893862,
+  "scenes": 21,
+  "prompt_texts": 89,
   "work_items": [
     "W5",
     "W6",
@@ -30,10 +30,9 @@
     37,
     41,
     43,
-    54,
-    55
+    54
   ],
-  "slow_scenes_count": 6,
+  "slow_scenes_count": 5,
   "scene_ids": [
     13,
     16,
@@ -55,7 +54,6 @@
     52,
     53,
     54,
-    55,
     56
   ],
   "latest_scene": 56,
@@ -92,7 +90,8 @@
     35,
     38,
     45,
-    46
+    46,
+    55
   ],
   "instruction_sync": {
     "health": "ok",
@@ -100,7 +99,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 12.18,
+    "age_hours_at_status_build": 12.694,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -179,7 +178,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 12.18,
+      "age_hours": 12.694,
       "blocking": false
     },
     "topview_task_map": {
@@ -640,29 +639,6 @@
       ],
       "render_state": "SLOW_PENDING"
     },
-    "55": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 54
-        }
-      ],
-      "tags": [
-        "serega",
-        "yulya",
-        "final_gag",
-        "callback",
-        "W13"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
     "56": {
       "target_engine": "Seedance 2.0",
       "production_state": "DRAFT",
@@ -693,11 +669,11 @@
   },
   "audit_fingerprint": {
     "revision_date": "20.10.2026",
-    "synced_at": "2026-10-19T22:13:16Z",
-    "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
-    "canonical_revision_sha256": "4b1f0cc8565efc1c8e94e9b21f3975030df501cdfdc65e32341e87b24c74e854",
-    "scene_count": 22,
-    "prompt_count": 92,
+    "synced_at": "2026-10-19T22:44:04Z",
+    "canonical_master_sha256": "9eb3222679c40f67b10265c6069b3629bb04f13acaba13c40b40ea0245d26a76",
+    "canonical_revision_sha256": "1e7177b7088b21f0fbaf046fd3be222d97a959bb585f2c1b82f276db2e43d8c3",
+    "scene_count": 21,
+    "prompt_count": 89,
     "scene_ids": [
       13,
       16,
@@ -719,7 +695,6 @@
       52,
       53,
       54,
-      55,
       56
     ],
     "work_items": [
@@ -740,8 +715,7 @@
       37,
       41,
       43,
-      54,
-      55
+      54
     ],
     "health": "ok",
     "instruction_sync_health": "ok"

@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**22 сцены к генерации/доработке · 92 полных текстов промта**
+**21 сцена к генерации/доработке · 89 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
-- **⏳ 6** сцен сейчас в медленной генерации: **36, 37, 41, 43, 54, 55** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
+- **⏳ 5** сцен сейчас в медленной генерации: **36, 37, 41, 43, 54** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
 - **Последняя оформленная активная сцена:** 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **20.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **20.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **22 актуальные сцены и 89 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45 и 46** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **36, 37, 41, 43, 54, 55**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **20.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 89 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **36, 37, 41, 43, 54**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -36,7 +36,6 @@
 | 28 · B8 · Танец 8 — Размеренное кружение на руках | ✅ Решение владельца: на переделку · ✅ Технический результат получен · `success` · Wan 3.0 | task `5333994f739f4a8b813a6a36dcb7e140`; решение владельца применено в панели сайта |
 | 28 · B9 · Танец 9 — Парадная переноска на плече | ✅ Решение владельца: на переделку · ✅ Технический результат получен · `success` · Wan 3.0 | task `0d1f17c226834bfbb851d76ed32f9877`; решение владельца применено в панели сайта |
 | 28 · B3 · Танец 3 — Невозмутимый разъезд | ✅ Решение владельца: на переделку · ✅ Технический результат получен · `success` · Wan 3.0 | task `56c0ea656f484b0cb8464233fe097e0d`; решение владельца применено в панели сайта |
-| 55 — «А молоко?»: Юля заходит, пока Серёга играет в Warcraft | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Wan 3.0 | task `86741d99f7634e3b97e8b139996b83b0`; ждёт решения владельца в панели сайта |
 | 41 — Серёга увозит древний ПК с планеты ситхов | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Wan 3.0 | task `bf3465e1c4de4a869f4bba5f2eed5acf`; ждать terminal и проверить результат отдельно |
 | 43 — Ангар крейсера: у шаттла Канцлера заело крыло | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Wan 3.0 | task `70ba69f8c44e4898ab587fbffeaeca01`; ждать terminal и проверить результат отдельно |
 | 54 — Доставка древнего компьютера в комнату: стык к Warcraft | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Wan 3.0 | task `1e4928fa04ed4a0396d1d2ea4f5934bb`; ждать terminal и проверить результат отдельно |
@@ -67,7 +66,6 @@
 | 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на окраине татуинского города, откуда он идёт к кантине. DRAFT до настоящего конца44, город — по описанию, 30s Wan 3.0. |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 55 | [«А молоко?»: Юля заходит, пока Серёга играет в Warcraft](#scene-55) | @Image1 = Серёга, @Image2 = Юля, @Image3/@Image4 = комната финала, настоящие кадры | Серёга играет; Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?». Он замирает и виновато молчит. Пасхалка к просьбе из начала фильма и стикеру в перелётах. READY, 30s Wan 3.0, в очереди сразу после картинки вуки.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
 
 ---
@@ -7048,233 +7046,6 @@ Quiet ship ventilation, a cable click, chair legs scraping on metal, cloth rustl
 
 NEGATIVE PROMPT:
 modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects moving or changing size, glowing screen, power pressed, generated Warcraft gameplay, game text, new room, additional people, face drift, changed robe, floating seated character, hands through plastic, subtitles, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-</div>
-
----
-
-<a id="scene-55"></a>
-
-## Сцена 55 — «А молоко?»: Юля заходит, пока Серёга играет в Warcraft
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":54}],"tags":["serega","yulya","final_gag","callback","W13"]} -->
-
-Wan 3.0 task `86741d99f7634e3b97e8b139996b83b0` технически завершён 19.10.2026 21:39:24 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
-
-**Контекст использования:** Финальная шутка линии W13 (решения владельца 17.10.2026). Идёт после существующего игрового финала: Серёга уже играет в Warcraft за древним ПК в своей комнате на крейсере (комната — настоящие кадры старого финала, как в 54). Пасхалка «понял тот, кто понял»: в первые минуты фильма Юля просит купить хлеба и молока ([FA] ч. 1, 01:40–02:30), стикер-напоминание с хлебом и молоком висит в кабине во всех его перелётах (37, 39, 40, 41, 52, 53), а он всё равно забыл. Юля заходит и спокойно спрашивает «Дорогой, а ты купил хлеб и молоко?»; Серёга замирает, виноватая пауза. Без вставки с кабиной: зритель вспоминает сам. Игровой экран не генерируется: CRT повёрнут от камеры или виден под углом, только цветной отсвет. Wan 3.0 на 30 с выбран владельцем 17.10: Wan лучше справляется с русской речью. В монтаже можно сократить до 15–20 с; последняя сцена перед титрами 49–51.
-
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/full/yulya.jpg">Юля</a>; @Image3 — <a href="references/scenes/scene-54/S54-room-opening-actual.png">комната, вид от входа, настоящий кадр финала</a>; @Image4 — <a href="references/scenes/scene-54/S54-room-side-actual.png">стол, кресло и окно, настоящий кадр финала</a>.
-
-<div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/full/yulya.jpg" target="_blank" rel="noopener"><img src="references/full/yulya.jpg" alt="@Image2 — Юля" loading="lazy"></a><figcaption>@Image2 — Юля</figcaption></figure>
-<figure><a href="references/scenes/scene-54/S54-room-opening-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-opening-actual.png" alt="@Image3 — комната, вид от входа, настоящий кадр финала" loading="lazy"></a><figcaption>@Image3 — комната, вид от входа, настоящий кадр финала</figcaption></figure>
-<figure><a href="references/scenes/scene-54/S54-room-side-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-side-actual.png" alt="@Image4 — стол, кресло и окно, настоящий кадр финала" loading="lazy"></a><figcaption>@Image4 — стол, кресло и окно, настоящий кадр финала</figcaption></figure>
-</div>
-
-**Что происходит:** Серёга сидит за древним ПК и увлечённо играет, лицо в отсвете экрана. За его спиной в комнату входит Юля, подходит к креслу и спокойно спрашивает: «Дорогой, а ты купил хлеб и молоко?». Серёга замирает с рукой на мышке, медленно поворачивается к ней, виновато молчит и украдкой косится на экран.
-
-**Готовность:** READY по входам (все 4 изображения в репозитории). В очереди сразу после картинки вуки-фанатов (решение владельца 17.10), бесплатный запуск. Готовый текст не означает полученный или одобренный ролик.
-
-<div class="engine-tabs" data-scene="55">
-
-<div class="engine-pane" data-engine="wan30" data-main="1">
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | One dry domestic punchline: the forgotten bread and milk
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 controls Serega's exact face, build, age and long dark-purple robe.
-@Image2 controls Yulya's exact face, long chestnut hair, dark black-grey armour with pauldrons and gloves, and long black cloak.
-@Image3 is a genuine frame of the existing computer room seen from its entrance: dark angular ribbed walls, white wall strips, blue side panels, metal floor grilles, the heavy desk and chair in front of a large circular space viewport. Room geometry and entrance axis only.
-@Image4 is a genuine frame of the same room closer to the desk: heavy metal desk, tall angular chair facing the viewport, drifting rocks in space outside. It fixes the desk/chair position and the seated direction, not a pose.
-Priority: @Image1 and @Image2 identity; @Image3 and @Image4 room.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): pale older man, sparse light hair and bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega.
-YULYA (@Image2): exact face and age, long chestnut hair, dark black-grey armour with pauldrons and gloves, long black cloak. Exactly one Yulya. She walks normally; no weapon, no hologram, no magic.
-Preserve both identities and costumes in every angle; no beautification, no wardrobe change, no other people, droids or cats.
-
-PROP / CONTINUITY LOCK:
-Exactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos. No bread, no milk, no shopping bags, no basket anywhere in the room.
-
-START STATE:
-Inside the existing computer room. Serega sits in the heavy chair at the desk facing the circular viewport, hunched forward, one hand on the mouse, the other on the keyboard, fully absorbed in the game. Camera behind and slightly to the side of him on the room's entrance axis, as in @Image3.
-
-TIMELINE:
-[0:00–0:07] — ABSORBED: medium shot from behind and to the side of the chair along the room axis; rapid mouse clicks and keyboard taps, soft game glow flickering on Serega's three-quarter face. He leans in, lips pressed, fully concentrated. Slow push-in.
-
-[0:07–0:13] — YULYA ENTERS: a soft door hiss from the entrance end. Yulya walks in along the room axis, cloak moving, takes in the scene, and stops just behind and beside the chair, arms folded. Serega does not notice; he keeps clicking.
-
-[0:13–0:18] — THE QUESTION: medium two-shot, both faces readable. Yulya, calm and matter-of-fact, asks her question. Serega's clicking stops mid-motion.
-
-[0:18–0:23] — FREEZE: close-up on Serega, hand frozen on the mouse. A beat of silence; he slowly turns his head toward her, eyes widening with guilty realisation.
-
-[0:23–0:30] — GUILTY PAUSE: two-shot. Serega looks up at Yulya with a tiny apologetic half-smile and says nothing; then his eyes slide sideways back toward the glowing screen. Yulya keeps waiting, one eyebrow raised. Hold to the end.
-
-END STATE:
-Serega seated, half turned to Yulya, guilty half-smile, eyes drifting to the screen; Yulya standing beside the chair, arms folded, waiting. Same room, same lighting.
-
-CAMERA / SPACE:
-One room only. Shots keep the desk-to-viewport axis, wall ribs and floor grilles from @Image3 and @Image4; Yulya enters from the entrance end. Medium and close shots; faces always readable, never tiny. Cuts are motivated and invisible; no new corridor, apartment or second computer.
-
-PERFORMANCE:
-Deadpan domestic comedy. Yulya: calm, warm, unimpressed, not angry. Serega: total absorption, then a frozen guilty schoolboy reaction, no shouting, no exaggerated cartoon faces.
-
-LIGHTING / MATERIALS:
-Cool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Worn beige plastic, matte armour, heavy purple cloth.
-
-AUDIO:
-Fast mouse clicks and keyboard taps with faint muffled fantasy battle sounds from the computer, soft door hiss, Yulya's footsteps, the clicking stopping dead, ship ventilation hum, one small guilty swallow. No music.
-
-DIALOGUE / VOCALS:
-Yulya, in Russian, calm and clear at 0:14: «Дорогой, а ты купил хлеб и молоко?»
-Serega says nothing.
-No other speech, no subtitles.
-
-NEGATIVE PROMPT:
-readable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, basket, cockpit, extra people, droids, cats, changed robe, changed armour, face drift, new room, subtitles, watermark.
-
-FRAME FILL / NO BARS:
-Fill the generated image edge-to-edge, 16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
-```
-
-</div>
-
-<div class="engine-pane" data-engine="sd20x2">
-
-Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
-
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/yulya.jpg`; @Image3 — `references/scenes/scene-54/S54-room-opening-actual.png`; @Image4 — `references/scenes/scene-54/S54-room-side-actual.png`.
-
-*Без речи: Серёга играет, Юля входит и встаёт у кресла, скрестив руки; обрыв перед вопросом.*
-
-**Входы части 2:** @Video1 — последние секунды результата части 1 (Юля стоит у кресла играющего Серёги); @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/yulya.jpg`; @Image3 — `references/scenes/scene-54/S54-room-opening-actual.png`; @Image4 — `references/scenes/scene-54/S54-room-side-actual.png`.
-
-*Вся реплика «Дорогой, а ты купил хлеб и молоко?» целиком в этой части (0:01), затем замирание и виноватая пауза.*
-
-#### 55 · Seedance 2.0 часть 1
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, deadpan domestic comedy with gentle living camera | Part 1 of 2: Serega is lost in his game as Yulya quietly walks in and stops behind his chair
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 controls Serega's exact face, build, age and long dark-purple robe.
-@Image2 controls Yulya's exact face, long chestnut hair, dark black-grey armour with pauldrons and gloves, and long black cloak.
-@Image3 is a genuine frame of the existing computer room seen from its entrance: dark angular ribbed walls, white wall strips, blue side panels, metal floor grilles, the heavy desk and chair in front of a large circular space viewport. Room geometry and entrance axis only.
-@Image4 is a genuine frame of the same room closer to the desk: heavy metal desk, tall angular chair facing the viewport, drifting rocks in space outside. It fixes the desk/chair position and the seated direction, not a pose.
-Priority: @Image1 and @Image2 identity; @Image3 and @Image4 room.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): pale older man, sparse light hair and bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega.
-YULYA (@Image2): exact face and age, long chestnut hair, dark black-grey armour with pauldrons and gloves, long black cloak. Exactly one Yulya. She walks normally; no weapon, no hologram, no magic.
-Preserve both identities and costumes in every angle; no beautification, no wardrobe change, no other people, droids or cats.
-
-PROP / CONTINUITY LOCK:
-Exactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos. No bread, no milk, no shopping bags, no basket anywhere in the room.
-
-START STATE:
-Inside the existing computer room. Serega sits in the heavy chair at the desk facing the circular viewport, hunched forward, one hand on the mouse, the other on the keyboard, fully absorbed in the game. Camera behind and slightly to the side of him on the room's entrance axis, as in @Image3.
-
-TIMELINE:
-[0:00–0:07] — ABSORBED
-Medium shot from behind and to the side of the chair along the room axis, slowly pushing in and drifting around to his three-quarter face. Rapid mouse clicks and keyboard taps, soft game glow flickering on his face. He leans in, lips pressed, fully concentrated, shoulders twitching with each in-game move.
-
-[0:07–0:12] — YULYA ENTERS
-A soft door hiss from the entrance end. Yulya walks in along the room axis, cloak moving, and takes in the scene: her husband glued to the screen. The camera eases back to let her into the frame. Serega does not notice; he keeps clicking.
-
-[0:12–0:15] — SHE WAITS
-Medium two-shot, both faces readable in even light: Yulya stops just behind and beside the chair and folds her arms, calm and patient. Serega clicks on, oblivious. Nobody speaks yet. Hold.
-
-END STATE:
-Serega still hunched at the desk, clicking, unaware; Yulya standing just behind and beside his chair, arms folded, looking at him, about to speak. Same room, same lighting.
-
-CAMERA / SPACE:
-One room only. Shots keep the desk-to-viewport axis, wall ribs and floor grilles from @Image3 and @Image4; Yulya enters from the entrance end. The camera stays gently alive: a slow push-in and drift on Serega, then an easing pull-back that settles into a steady two-shot for her arrival. Faces always readable, never tiny. Cuts are motivated and invisible; no new corridor, apartment or second computer. No whip-pans or fast moves.
-
-PERFORMANCE:
-Deadpan domestic comedy. Yulya: calm, warm, unimpressed, not angry. Serega: total absorption in the game, completely unaware of her. No exaggerated cartoon faces.
-
-LIGHTING / MATERIALS:
-Cool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Worn beige plastic, matte armour, heavy purple cloth.
-
-AUDIO:
-Fast mouse clicks and keyboard taps with faint muffled fantasy battle sounds from the computer, soft door hiss, Yulya's footsteps on the metal floor, ship ventilation hum. No speech and no music in this part.
-
-NEGATIVE PROMPT:
-readable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, basket, cockpit, extra people, droids, cats, changed robe, changed armour, face drift, new room, anyone speaking, Serega turning around, frantic camera, subtitles, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-#### 55 · Seedance 2.0 часть 2
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, deadpan domestic comedy with gentle living camera | Part 2 of 2: Yulya asks about the forgotten bread and milk, and Serega freezes in guilty silence
-
-REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of Part 1's result: Serega hunched at the desk playing, Yulya standing just behind and beside his chair with arms folded. Absolute authority for the START STATE, positions and light.
-@Image1 controls Serega's exact face, build, age and long dark-purple robe.
-@Image2 controls Yulya's exact face, long chestnut hair, dark black-grey armour with pauldrons and gloves, and long black cloak.
-@Image3 is a genuine frame of the existing computer room seen from its entrance: dark angular ribbed walls, white wall strips, blue side panels, metal floor grilles, the heavy desk and chair in front of a large circular space viewport. Room geometry and entrance axis only.
-@Image4 is a genuine frame of the same room closer to the desk: heavy metal desk, tall angular chair facing the viewport, drifting rocks in space outside. It fixes the desk/chair position and the seated direction, not a pose.
-Priority: @Video1 controls the start; @Image1 and @Image2 identity; @Image3 and @Image4 room.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (@Image1): pale older man, sparse light hair and bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega.
-YULYA (@Image2): exact face and age, long chestnut hair, dark black-grey armour with pauldrons and gloves, long black cloak. Exactly one Yulya. She walks normally; no weapon, no hologram, no magic.
-Preserve both identities and costumes in every angle; no beautification, no wardrobe change, no other people, droids or cats.
-
-PROP / CONTINUITY LOCK:
-Exactly ONE beige horizontal desktop case with ONE beige CRT on top, ONE keyboard and ONE wired mouse on the desk, as in the existing ending. The CRT is switched on but its screen faces away from the camera or is seen at a steep angle: only a soft changing green-gold game glow on Serega's face, never readable game imagery, text or logos. No bread, no milk, no shopping bags, no basket anywhere in the room.
-
-START STATE:
-Exactly the last frame of @Video1: Serega seated at the desk, hunched forward, one hand on the mouse, clicking; Yulya standing just behind and beside the chair, arms folded, looking at him.
-
-TIMELINE:
-[0:00–0:05] — THE QUESTION
-Continuing @Video1 without a reset, medium two-shot, both faces readable in even light. Yulya, calm and matter-of-fact, asks her question. Serega's clicking stops mid-motion.
-
-[0:05–0:10] — FREEZE
-Close-up on Serega, hand frozen on the mouse. A beat of silence; he slowly turns his head toward her, eyes widening with guilty realisation.
-
-[0:10–0:15] — GUILTY PAUSE
-Two-shot from a slightly low angle beside the desk. Serega looks up at Yulya with a tiny apologetic half-smile and says nothing; then his eyes slide sideways back toward the glowing screen. Yulya keeps waiting, one eyebrow raised. Hold to the end.
-
-END STATE:
-Serega seated, half turned to Yulya, guilty half-smile, eyes drifting to the screen; Yulya standing beside the chair, arms folded, waiting. Same room, same lighting.
-
-CAMERA / SPACE:
-One room only. Open on the @Video1 two-shot, cut in to a close-up for the freeze, then out to a slightly low two-shot for the guilty pause. A barely perceptible slow push-in on each shot keeps the frame alive; the stillness after the question carries the joke. Keep the desk-to-viewport axis, wall ribs and floor grilles from @Image3 and @Image4. Faces always readable, never tiny. Cuts are motivated and invisible; no new corridor, apartment or second computer. No whip-pans or fast moves.
-
-PERFORMANCE:
-Deadpan domestic comedy. Yulya: calm, warm, unimpressed, not angry. Serega: a frozen guilty schoolboy reaction, no shouting, no exaggerated cartoon faces.
-
-LIGHTING / MATERIALS:
-Cool dark-metal room with white practical strips and soft green-gold monitor glow on Serega's face; Yulya rim-lit by the wall strips. Worn beige plastic, matte armour, heavy purple cloth.
-
-AUDIO:
-Mouse clicks and faint muffled fantasy battle sounds from the computer under the first words, the clicking stopping dead, the game sounds murmuring on alone, ship ventilation hum, one small guilty swallow. No music.
-
-DIALOGUE / VOCALS:
-Yulya, in natural native Russian, calm and clear at 0:01, accurate lip sync: «Дорогой, а ты купил хлеб и молоко?»
-Serega says nothing.
-No other speech, no subtitles.
-
-NEGATIVE PROMPT:
-readable game screen, generated Warcraft gameplay, game text or logos, hologram Yulya, weapons, lightsaber, second computer, modern PC, laptop, bread or milk in shot, shopping bags, basket, cockpit, extra people, droids, cats, changed robe, changed armour, face drift, new room, Serega speaking, accented or garbled Russian, lip desync, Yulya re-entering the room, frantic camera, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
