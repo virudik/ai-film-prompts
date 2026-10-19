@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Record owner decision: wait for energetic dance test before couple variants",
-  "acquired_at": "2026-10-19T21:52:37.260Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T21:52:57.350Z",
+  "task": "Revise all dance and rock prompts for active movement; retain one-test review gate",
+  "acquired_at": "2026-10-19T21:56:00.129Z",
+  "expires_at": "2026-10-19T22:41:00.129Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
