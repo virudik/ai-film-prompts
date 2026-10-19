@@ -201,9 +201,11 @@ video_page = (root / "video.html").read_text(encoding="utf-8")
 for required in ("topview-video-archive.json?fresh=", "drive.usercontent.google.com/download?id=", "<video controls playsinline", "/^[0-9a-f]{32}$/"):
     if required not in video_page:
         raise SystemExit("video.html regression: " + required)
-# Worm story (19.10.2026): one file story/worm.md, shown in the top summary; no second copy in the page.
-if 'id="wormStory"' not in html or "fetch('story/worm.md?fresh='" not in html or not (root / "story" / "worm.md").is_file():
-    raise SystemExit("Worm story block regression")
+# Status lines (owner 20.10.2026): canon lock, tasks, canon health and self-heal sit once, in the top status panel.
+_ctl = html[html.index('<section class="control">'):html.index('<section id="now-view"')]
+for required in ('id="canonLockLine"', 'id="inboxList"', 'id="canonHealth"', 'id="selfHeal"'):
+    if html.count(required) != 1 or required not in _ctl:
+        raise SystemExit("Status line must appear once, in the top status panel: " + required)
 
 # Owner site panel and extra pages (18.10.2026): queue, lock, inbox, canon health, film order, reference buttons.
 for page in ("film.html", "references.html"):
