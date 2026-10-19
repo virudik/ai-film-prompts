@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 48,
-  "updated_at": "2026-10-17T21:36:25Z",
-  "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
-  "status": "draft_inputs_pending",
+  "updated_at": "2026-10-19T22:50:00Z",
+  "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
+  "status": "blocked_continuity",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -183,6 +183,220 @@
   "topview_source_provenance": null,
   "prompt_reference_mapping": [
     {
+      "prompt_id": "S48",
+      "canonical_block_label": "48",
+      "canonical_prompt_sha256": "9df06be0cb9c796d18d486052dfdd2ddcc8ad89dd9fcb79e4e40f4722dc8053f",
+      "normalized_prompt_sha256": "ec3f564c64f9d1c3ae8e8f88b0967c53ccdc393744ed716077da5ee173b3a491",
+      "characters": 7887,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "selected_for_launch": false,
+      "launch_readiness": "blocked_continuity",
+      "slots": [
+        {
+          "slot": "@Video1",
+          "canonical_role": "start_frame",
+          "input_status": "required_not_available"
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "input_status": "available"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S48-SEED20-P1",
+      "canonical_block_label": "48 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "299a276b6bcd9b0728d06808411d00ca3433cb031a6db49e0b45347933166b50",
+      "normalized_prompt_sha256": "65babee4d6257e9045580874cbe9c90f69bc9e29a480aa52ba7f83d45e5437c2",
+      "characters": 7011,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "selected_for_launch": true,
+      "launch_readiness": "blocked_continuity",
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_scene_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S56-SEED20-P2",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S48-SEED20-P2",
+      "canonical_block_label": "48 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3",
+      "normalized_prompt_sha256": "3d0fd598b157e1f373a8926f0b8ccd5e64532fbf7e56e050ca676ed6f7df29fe",
+      "characters": 6920,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "selected_for_launch": true,
+      "launch_readiness": "blocked_continuity",
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S48-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/ilyusha.jpg",
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/artem.jpg",
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+          "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": false,
+  "last_qc_at": "2026-10-16T11:36:29Z",
+  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
+  "remaining": [
+    {
+      "item_id": "S48-SEED20-P1",
+      "slot": "@Video1",
+      "source_item_id": "S56-SEED20-P2",
+      "requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+    },
+    {
+      "item_id": "S48-SEED20-P2",
+      "slot": "@Video1",
+      "source_item_id": "S48-SEED20-P1",
+      "requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+    }
+  ],
+  "technical_success_is_editorial_approval": false,
+  "canonical_master_sha256": "ab07501595f15741ff5e675942d331612ee5247064b6874ae1c5b107b7f95089",
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt",
+    "Missing @Video inputs must not be invented"
+  ],
+  "drive_folder_id": null,
+  "note": "16.10: DRAFT, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval.",
+  "selected_engine": "Seedance 2.0",
+  "selected_parts": 2,
+  "generation_authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+  "previous_prompt_reference_mapping": [
+    {
       "prompt": "main",
       "prompt_id": "S48",
       "canonical_prompt_sha256": "f22fcd592d97a8a63c91a0465036f3f44c55eb001affa731044b11cd5234a383",
@@ -234,20 +448,5 @@
         }
       ]
     }
-  ],
-  "site_published": false,
-  "last_qc_at": "2026-10-16T11:36:29Z",
-  "last_qc_scope": "16.10.2026: DRAFT-сцена по командам владельца (reports/serega-travel-2026-10-14.md; ответы владельца 16.10). Референсы взяты из существующих паков (Scenes 16, 17, 19, 27, 35/38, 37); изображения не генерировались, Topview не вызывался.",
-  "remaining": [
-    "@Video1 — последние секунды результата Scene 56: сначала нужен её результат."
-  ],
-  "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "1d61fa641a2a8e2c0fb7d7b7e9f11d69eac5899efd376e387660ea655ddd4bfd",
-  "invariants": [
-    "Individual sheets outrank helpers for identity",
-    "@Image numbering is local to this prompt",
-    "Missing @Video inputs must not be invented"
-  ],
-  "drive_folder_id": null,
-  "note": "16.10: DRAFT, в очередь запуска не внесена; запуск только по отдельной команде владельца. QC не означает approval."
+  ]
 }

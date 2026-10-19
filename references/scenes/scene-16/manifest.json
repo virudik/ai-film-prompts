@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 16,
-  "updated_at": "2026-10-08T09:58:58.592675Z",
-  "authority": "Derived index; current Drive master and individual sheets remain authoritative.",
+  "updated_at": "2026-10-19T22:50:00Z",
+  "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "ready",
   "references": [
     {
@@ -156,9 +156,16 @@
       }
     }
   ],
-  "remaining": [],
+  "remaining": [
+    {
+      "item_id": "S16-SEED20-P2",
+      "slot": "@Video1",
+      "source_item_id": "S16-SEED20-P1",
+      "requirement": "Actual generated ending, saved SHA/provenance and visual continuity QC; no synthetic substitute."
+    }
+  ],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "52eda404a5c67fde4ac0ef7586bb4d3e3129c59b097651243650bf5ee561dc59",
+  "canonical_master_sha256": "ab07501595f15741ff5e675942d331612ee5247064b6874ae1c5b107b7f95089",
   "identity_refs": [
     "references/full/ilyusha.jpg",
     "references/full/artem.jpg",
@@ -243,6 +250,235 @@
   "prompt_reference_mapping": [
     {
       "prompt_id": "S16",
+      "canonical_block_label": "16",
+      "canonical_prompt_sha256": "f8ed3fe91482d78bc0a1d56f5bcfe73b66875e70f2b5efc9a95c93c0768c9f23",
+      "normalized_prompt_sha256": "2d40a782813cd200d4fb3f9f73d3db49ea4bdc64d4337ffd476f1156cf65c7fc",
+      "characters": 7526,
+      "duration_seconds": 30,
+      "model": "Seedance 2.5",
+      "selected_for_launch": false,
+      "launch_readiness": "not_selected",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": false,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a"
+        },
+        {
+          "slot": "@Video1",
+          "path": "S16-desert-source-2.mp4",
+          "role": "continuity_video",
+          "required": true,
+          "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+          "storage": "private_drive_or_library",
+          "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+          "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+          "source_topview_task_id": "9fd93e2905e14c77b616884f1d6962f6"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S16-SEED20-P1",
+      "canonical_block_label": "16 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "6b7349b5ab4868d8bbc0871d3f1efc75c0b4a0d811b4b0baa9583f59028c24e1",
+      "normalized_prompt_sha256": "7d15714b6c6722834e564d8994768c77ea97a5992cbedd8ea80ec52e7707e42c",
+      "characters": 6667,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "selected_for_launch": true,
+      "launch_readiness": "reference_inputs_available",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Video1",
+          "path": "S16-desert-source-2.mp4",
+          "role": "continuity_video",
+          "required": true,
+          "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+          "storage": "private_drive_or_library",
+          "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+          "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+          "source_topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+          "input_status": "available"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "S16-SEED20-P2",
+      "canonical_block_label": "16 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
+      "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
+      "characters": 6695,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "selected_for_launch": true,
+      "launch_readiness": "blocked_continuity",
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S16-SEED20-P1",
+          "source_requirement": "Actual generated ending, saved SHA/provenance and visual continuity QC; no synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/full/ilyusha.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/full/artem.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/full/serega.jpg",
+          "role": "identity",
+          "required": true,
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+          "role": "location",
+          "required": true,
+          "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-16/S16-worm-scale.png",
+          "role": "pose_composition_helper",
+          "required": true,
+          "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+          "input_status": "available"
+        }
+      ],
+      "owner_generation_approval_inferred": false
+    }
+  ],
+  "site_published": {
+    "scene_anchor": "#scene-16",
+    "gallery_paths": [
+      "references/full/ilyusha.jpg",
+      "references/full/artem.jpg",
+      "references/full/serega.jpg",
+      "references/scenes/scene-16/S16-desert-location-clean.png",
+      "references/scenes/scene-16/S16-three-character-standoff.png",
+      "references/scenes/scene-16/S16-worm-scale.png"
+    ],
+    "status": "existing_gallery_in_published_master",
+    "manifest_publication": "included_with_this_repository_version"
+  },
+  "last_qc_at": "2026-10-08T09:58:58.592675Z",
+  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "invariants": [
+    "individual identity sheets outrank group/pose helpers",
+    "@Image numbering is local to each autonomous prompt",
+    "technical success does not imply editorial approval",
+    "no paid generation authorized"
+  ],
+  "selected_engine": "Seedance 2.0",
+  "selected_parts": 2,
+  "generation_authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+  "previous_prompt_reference_mapping": [
+    {
+      "prompt_id": "S16",
       "canonical_heading": "Scene 16",
       "canonical_prompt_sha256": "718cee833ba4d24a4ed03e642534a231d6514c10c83896a079777febf7244f3d",
       "characters": 8204,
@@ -297,26 +533,5 @@
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false
     }
-  ],
-  "site_published": {
-    "scene_anchor": "#scene-16",
-    "gallery_paths": [
-      "references/full/ilyusha.jpg",
-      "references/full/artem.jpg",
-      "references/full/serega.jpg",
-      "references/scenes/scene-16/S16-desert-location-clean.png",
-      "references/scenes/scene-16/S16-three-character-standoff.png",
-      "references/scenes/scene-16/S16-worm-scale.png"
-    ],
-    "status": "existing_gallery_in_published_master",
-    "manifest_publication": "included_with_this_repository_version"
-  },
-  "last_qc_at": "2026-10-08T09:58:58.592675Z",
-  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
-  "invariants": [
-    "individual identity sheets outrank group/pose helpers",
-    "@Image numbering is local to each autonomous prompt",
-    "technical success does not imply editorial approval",
-    "no paid generation authorized"
   ]
 }

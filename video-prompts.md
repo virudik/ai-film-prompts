@@ -424,13 +424,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 16 — Татуин: гигантский пустынный червь и бой на руинах
 
-<!-- scene-meta: {"target_engine":"Seedance 2.5","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"tags":["action","continuous_take"]} -->
 
 Wan 3.0 task `36e8320e34da4f1b97c35e1e765e3e63` технически завершён 11.10.2026 03:00:50 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
 **Решение владельца 16.10.2026: принять.** Продолжение боя — Scene 42 (червь никому не интересен), развязка с фрагментом карты — Scene 48. Кнопки сайта «Принять» / «Переделать» по 16 этим решением закрыты по смыслу.
 
-**Контекст использования:** Новый активный промт на основе бывшей W6; рабочий пункт W6 получил конкретные референсы и теперь оформлен как активная сцена 16. 30-секундная большая пустынная сцена для Seedance 2.5: двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
+**Решение владельца 20.10.2026:** новая активная версия Seedance 2.0, две части по 15 с, первая в очереди червя 16 → 42 → 56 → 48. Прежняя приёмка относится к историческому результату; новая версия ещё не просмотрена. Часть 2 требует настоящий результат части 1.
+
+**Контекст использования:** Новый активный промт на основе бывшей W6; рабочий пункт W6 получил конкретные референсы и теперь оформлен как активная сцена 16. Большая пустынная сцена (для запуска выбрана Seedance 2.0 · 2 × 15 с): двое татуинных джедаев и Канцлер сталкиваются на руинах, а из-под земли вырывается колоссальный песчаный червь. Сцена должна работать как самостоятельный мощный экшен-блок, из которого потом при желании можно отдельно собрать и более короткий фрагмент.
 
 **Референсы:** @Video1 = пустынная локация, руины, общий масштаб и композиционный дух сцены · @Image1 = Hooded Jedi · @Image2 = Bearded Jedi · @Image3 = Chancellor · @Image4 = чистая локация · @Image5 = стартовая расстановка · @Image6 = масштаб червя
 
@@ -448,7 +450,7 @@ Wan 3.0 task `36e8320e34da4f1b97c35e1e765e3e63` технически завер�
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image6 — масштаб червя после появления" loading="lazy"></a><figcaption>@Image6 — масштаб червя после появления</figcaption></figure>
 </div>
 
-**Подготовка проверена 09.10.2026:** точный пакет Scene 16 в Google Drive имеет статус `ready`, `remaining: []`, содержит два исходных MP4 (`S16-desert-source-1.mp4` и `S16-desert-source-2.mp4`), три вспомогательных PNG и manifest. Обе исходные Topview-задачи проверены как `success`. Новый тридцатисекундный ролик запущен как бесплатная Wan 3.0 задача `36e8320e34da4f1b97c35e1e765e3e63` и находится в статусе `init`; технический результат после завершения потребует отдельной редакционной проверки и не считается заранее одобренным.
+**Подготовка проверена 09.10.2026:** точный пакет Scene 16 в Google Drive имеет статус `ready`, `remaining: []`, содержит два исходных MP4 (`S16-desert-source-1.mp4` и `S16-desert-source-2.mp4`), три вспомогательных PNG и manifest. Обе исходные Topview-задачи проверены как `success`. Новый тридцатисекундный ролик запущен как бесплатная Wan 3.0 задача `36e8320e34da4f1b97c35e1e765e3e63` и завершён технически; историческая приёмка записана выше; технический результат после завершения потребует отдельной редакционной проверки и не считается заранее одобренным.
 
 **Источник пустыни найден:** @Video1 — [второй указанный ролик Topview](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=9fd93e2905e14c77b616884f1d6962f6). [Первый ролик](https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=f1a90e67bfe44c50a31692b905a290f0) — дополнительная проверка той же пустыни. Image4 очищен на основе кадра Video1 около 14 с; это реконструкция пустой площадки, а не найденное исходное фото. Две покрытые знаками опоры и центральный обелиск фиксируют географию. Исторический Topview Image4 со спидером не является локацией.
 
@@ -459,59 +461,70 @@ Wan 3.0 task `36e8320e34da4f1b97c35e1e765e3e63` технически завер�
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal live-action desert space-fantasy blockbuster, serious disaster-action tone | A colossal eruption breaks a tense standoff into a continuous, weighty fight through falling ruins
 
-REFERENCES:
-@Video1 — PRIMARY exact desert environment continuity: the supplied Topview desert-car video (source task 9fd93e2905e14c77b616884f1d6962f6). Preserve its sandy plain, two tall glyph-covered gate piers and narrow central obelisk. Do not inherit incidental character faces, saber-color errors or previous video actions.
-@Image1 — PRIMARY identity reference for the Hooded Jedi: mustached man, tousled brown hair, weathered face, light-green layered tunic, deep-red hooded cloak, brown boots, lightsaber hilt on belt. Preserve face, costume, proportions and overall identity exactly.
-@Image2 — PRIMARY identity reference for the Bearded Jedi: heavier build, short beard, cream tunic under a brown Jedi over-robe, wide brown belt, brown boots, lightsaber hilt on belt. Preserve face, build, costume and identity exactly.
-@Image3 — PRIMARY identity reference for the Chancellor: pale man with thinning hair / bald crown and deep purple robes. Preserve face, body type, robe silhouette and identity exactly.
+REFERENCES / AUTHORITY ORDER:
+@Video1 — exact desert environment continuity: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, scale and harsh daylight. Do not inherit its incidental faces, saber colours, vehicles or actions.
+@Image1 — absolute identity of ILYUSHA, the Hooded Jedi.
+@Image2 — absolute identity of ARTEM, the Bearded Jedi.
+@Image3 — absolute identity of SEREGA, the Chancellor.
+@Image4 — clean location plate reconstructed from @Video1: environment geometry and daylight only.
+@Image5 — opening composition: Ilyusha left, Artem centre-left, Serega right. Staging only.
+@Image6 — worm scale and design after emergence, beyond the gate right of the obelisk. NOT the first frame; no worm at 0s.
+Priority: @Image1–@Image3 identities; @Video1 and @Image4 the ruins; @Image5 opening staging; @Image6 worm scale. Helpers never override faces or costumes.
 
-@Image4 — CLEAN LOCATION plate reconstructed from Video1 at about 14s; environment geometry and daylight only.
-@Image5 — OPENING COMPOSITION: Ilyusha frame-left with blue blade, Artem centre-left with green blade, Serega frame-right. Three exact identities still come from Images1–3.
-@Image6 — WORM SCALE/DESIGN after emergence: gigantic segmented worm beyond the gate, right of the central obelisk, much larger than people and gate piers. This is NOT the first frame; the worm must be absent at 0s.
+CHARACTER APPEARANCE / IDENTITY LOCK:
+ILYUSHA (Hooded Jedi), @Image1: moustache, tousled chestnut-brown hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.
+ARTEM (Bearded Jedi), @Image2: heavier build, short beard, cream tunic under a brown Jedi over-robe, wide brown belt, brown boots; GREEN lightsaber.
+SEREGA (the Chancellor), @Image3: pale older man, thinning light hair with a bald crown, mature serious face, long deep-purple robes; his lightsaber blade is RED when lit.
+Exactly three people, each exactly once. No other characters, no vehicles.
 
-REFERENCE PRIORITY:
-Use @Image1, @Image2 and @Image3 as the absolute identity lock for the three characters. Use @Video1 and @Image4 for the exact desert environment; @Image5 locks initial staging and @Image6 locks the later worm scale. Helpers never override individual identities. Do not let the environment reference overwrite the character identities.
+WORM / STAGING LOCK — CRITICAL:
+The worm is gigantic on the scale of a natural disaster: towering, segmented, immense, with a massive circular maw and rows of teeth, always unmistakably larger than the gate piers and every surrounding structure. The worm's motion must feel massive and heavy, displacing huge volumes of sand. Its attacks are broad environmental threats: eruptions, surges, rears, sweeping passes, partial dives and re-emergence. The three characters must remain readable, keep their identities locked, and react believably to the danger. They are not standing still while the worm performs in the background: they are actively dodging, repositioning and trying to continue their conflict in the middle of the chaos. The worm never swallows, bites or touches anyone.
 
-SCENE OVERVIEW:
-A photorealistic cinematic desert action scene on ruined Tatooine-like wasteland terrain. The Hooded Jedi and the Bearded Jedi are confronting the Chancellor among weathered ruins when a colossal subterranean sandworm erupts from beneath the ground and turns the entire location into chaos. The worm is gigantic on the scale of a natural disaster — towering, segmented, immense, powerful, with a massive circular maw and rows of terrifying teeth. It is not a small monster; it feels like an unstoppable force of nature. Throughout the scene, the three characters stay grounded in the same battle space and must keep fighting and dodging while the worm attacks the environment around them.
+START STATE:
+The clean three-person standoff from @Image5 in the exact @Image4 ruins: Ilyusha frame-left with his blue blade lit, Artem centre-left with his green blade lit, Serega frame-right facing them at medium distance, hilt in hand. The worm is still beneath the sand and invisible. Gate piers and central obelisk stand intact. Wind moves robes and loose sand.
 
-ACTION TIMELINE — SINGLE CONTINUOUS 30-SECOND TAKE:
-[0:00–0:05]
-Begin with the clean three-person standoff from @Image5 in the exact @Image4 ruins. The worm is still beneath the sand and invisible. Ilyusha is left, Artem centre-left, Serega right; keep the gate and central obelisk as stable orientation landmarks. The Hooded Jedi and the Bearded Jedi face the Chancellor at medium distance. Wind moves robes and loose sand. The camera glides laterally through the ruins, keeping all three readable in the same frame. Small grains of sand begin to tremble across the ground and a low subterranean rumble builds beneath the dialogue-free tension.
+TIMELINE:
+[0:00–0:03] — TENSION BREAKS
+Begin on the exact three-person standoff. One short breath of stillness, then Serega ignites his red blade; the Jedi adjust their planted feet and close their guards. Sand grains tremble. The worm is not yet visible.
 
-[0:05–0:09]
-The rumble intensifies violently. Sand ripples outward in fast concentric waves. Broken beams, rocks and debris start to shake loose. All three characters instinctively shift their stance and glance toward the source of the vibration. Then the ground splits beyond the gate, behind the group and right of the central obelisk, at the location established by @Image6. A colossal sandworm bursts out of the earth in an explosive eruption of sand and debris, instantly dominating the background.
+[0:03–0:08] — ERUPTION AND ESCAPE
+The ground splits beyond the gate to the right of the obelisk. The immense worm bursts out in an explosive wall of sand. As the ground heaves, all three drive off their rear feet and break laterally out of the eruption's path. The eruption and their escape happen together; no spectators waiting for the worm to finish rising.
 
-[0:09–0:14]
-The worm rises to full terrifying scale, rearing high above the ruins with its gigantic circular mouth open. Sand cascades off its ridged body. The shockwave throws dust through the air and knocks loose pieces of the surrounding structures. The heroes break their positions and sprint in different directions to avoid the collapse and the worm's initial surge. The camera keeps moving fluidly, holding spatial continuity so the audience clearly understands where each person is relative to the worm.
+[0:08–0:14] — REGROUP UNDER PRESSURE
+The worm rears to full scale behind them. Artem pushes through heavy strides back toward Serega; Ilyusha changes angle around a low existing block. Serega meets green with a hard red parry, steps out of the blue line and answers immediately. Cloth whips after the bodies, boots kick sand on every change of direction.
 
-[0:14–0:20]
-The Hooded Jedi and the Bearded Jedi attempt to regroup while the Chancellor uses the chaos to press his advantage. The three continue their live-action fight in short fast exchanges — evasive footwork, quick defensive movements, robe motion, physical urgency — but the worm remains the dominant threat in the background. It sweeps across the ruins, slamming its body through structures and sending dust clouds and fragments outward. Everyone is forced to interrupt combat and dodge a second aggressive pass from the worm.
+[0:14–0:20] — FIGHT THROUGH THE SWEEP
+The worm sweeps through secondary ruined walls behind the fighters. They exchange fast committed strikes, blocks and short retreats; an oncoming slab makes them break contact and drive sideways. Each landing flows into another defensive step rather than a pose. Keep both tall gate piers and the central obelisk standing for the next scene.
 
-[0:20–0:25]
-The worm follows one readable broad arc behind the group, dives partially beneath the sand and surges up from the same background side, its massive head and upper body carving through the location. One ruin wall collapses, sending debris and sand down around the fighters. The Bearded Jedi dives clear. The Hooded Jedi uses a fast sidestep and roll. The Chancellor pivots away with dangerous precision, barely avoiding the jaws. Keep the worm huge in frame and unmistakably larger than every surrounding structure.
+[0:20–0:26] — THE WALL FALLS
+The worm follows one broad readable arc, partially dives and surges up on the same background side. A secondary low wall collapses. Artem dives clear to frame-left and pushes up; Ilyusha sidesteps and rolls to frame-right; Serega pivots into the centre, all clear of the jaws. Show launch, contact and recovery at normal speed, not floating slow motion.
 
-[0:25–0:30]
-Final escalation. Keep the three people alive and the narrative outcome unresolved; do not add a map exchange, a vehicle explosion or a new ending.  The worm rears behind the three combatants while they continue the standoff in the foreground, battered by wind and sand. The scene ends on a powerful wide action composition: the two Jedi and the Chancellor still alive and in motion on the ruined desert ground, the colossal sandworm towering behind them amid collapsing debris and swirling dust, with the conflict still unresolved and continuing beyond the cut.
+[0:26–0:30] — LOW AND READY
+They recover through two fast grounded steps, blades working as sand drives across them. Only in the final second settle into the low braced arrangement: Artem left, Serega centre, Ilyusha right, facing each other with green/red/blue blades up. Feet grip and shoulders breathe under the wind; the towering worm rears behind them. Conflict unresolved, ready to spring straight into the next exchange.
 
-CAMERA:
-Single continuous unbroken shot for the full 30 seconds. High-end cinematic motion with controlled inertia and stable spatial continuity. The camera may drift, arc and reframe to preserve all three characters and the worm, but there are no cuts, jump cuts or teleporting viewpoints. Emphasize scale through parallax, dust layers, foreground debris and wide-to-medium re-framing within the same take. No random micro-shake; only motivated impact vibration during the biggest eruptions.
+END STATE:
+Artem frame-left, Serega centre, Ilyusha frame-right, all alive and braced low facing each other, green/red/blue blades up, boots gripping sand and shoulders breathing; the colossal worm rears behind them amid dust. Secondary ruin walls damaged; both tall gate piers and the narrow central obelisk remain standing for the next scene. No winner, no visible map, no vehicle.
 
-MOVEMENT / STAGING RULES:
-The worm's motion must feel massive and heavy, displacing huge volumes of sand. Its attacks are broad environmental threats: eruptions, surges, rears, sweeping passes, partial dives and re-emergence. The three characters must remain readable, keep their identities locked, and react believably to the danger. They are not standing still while the worm performs in the background: they are actively dodging, repositioning and trying to continue their conflict in the middle of the chaos.
+CAMERA / SPACE:
+One continuous unbroken30-second take. A stable lateral travelling medium-wide keeps all three bodies and the towering worm readable; a small arc follows their actual paths without crossing the established axis. Foreground rubble and deep sand layers provide parallax. Do not orbit at running speed around tiny faces. Use only a brief motivated impact vibration on the eruption, no random shake or cuts. The gate piers and obelisk remain standing; secondary walls may fall.
 
-STYLE / LIGHTING:
-Photorealistic cinematic sci-fi/fantasy. Harsh warm desert light, dry haze, blown sand, long ruin shadows, strong scale cues, natural motion blur, realistic cloth and dust interaction. Serious blockbuster tone. No comedy.
+PERFORMANCE:
+Serious disaster-action, not comedy. Ilyusha quick and agile, Artem heavy and forceful, Serega cold and precise. Explosive starts, grounded recoveries and real resistance in every saber contact. The initial short tension beat and final low stance are intentional; between them the three keep moving.
 
-AUDIO (native):
-Powerful subterranean rumble, violent sand eruption, debris crashes, heavy impacts, rushing sand, distant wind, robe movement, footsteps on sand and stone, and huge monstrous roar / throat resonance from the worm. Optional brief exertion grunts from the characters, but no dialogue and no music.
+LIGHTING / MATERIALS:
+Harsh warm desert sun, dry haze, blown sand, long ruin shadows, natural motion blur, real cloth and dust; saber light on faces. Worm hide shedding sand.
+
+AUDIO:
+Saber hums, hard crackling contacts, boots scraping and pounding sand, short exertion breaths; then the deep subterranean rumble, eruption, stone impacts, rushing sand and the worm's huge throat resonance. Cloth and falling grit remain audible between impacts. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-small worm, tiny creature, comedic monster, cartoon, anime, stylized rendering, game-render look, floating worm, worm flying in the air without sand displacement, characters ignoring the worm, static posing, identity drift, face swap, extra characters, costume changes, missing robe colors, duplicate Chancellor, duplicate Jedi, warping ruins, popping geometry, sudden scene reset, teleporting camera, hard cuts, subtitles, on-screen text, logo, watermark.
+worm visible before eruption, small or floating worm, worm touching anyone, static spectators, extended hero pose, slow motion, hovering jumps, weightless swordplay, blood, map module, vehicles, destroyed gate piers, broken central obelisk, identity drift, extra people, duplicate sabers, wrong saber colours, teleporting camera, hard cuts, cartoon, subtitles, text, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
-FRAME FILL / NO BARS: Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge,16:9. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
 </div>
@@ -557,26 +570,26 @@ START STATE:
 The clean three-person standoff from @Image5 in the exact @Image4 ruins: Ilyusha frame-left with his blue blade lit, Artem centre-left with his green blade lit, Serega frame-right facing them at medium distance, hilt in hand. The worm is still beneath the sand and invisible. Gate piers and central obelisk stand intact. Wind moves robes and loose sand.
 
 TIMELINE:
-[0:00–0:04] — STANDOFF
-The camera glides laterally at waist height through the ruins, all three readable in one frame. Blades humming, tense stillness. Sand grains begin to tremble on the ground; a low subterranean rumble builds. Serega's blade ignites red.
+[0:00–0:03] — STANDOFF
+Exact opening composition, one short breath of tense stillness. Serega ignites red; all three adjust planted feet and close their guards as sand grains tremble and a low rumble builds. The camera glides laterally at waist height, no static hero portrait.
 
-[0:04–0:08] — ERUPTION
-The rumble turns violent; sand ripples outward in fast concentric waves, rocks and debris shake loose. All three shift stance and glance toward the source. The ground splits beyond the gate, behind the group and right of the central obelisk, and the colossal worm bursts out in an explosive eruption of sand and debris.
+[0:03–0:08] — ERUPTION AND FIRST DODGE
+The ground splits beyond the gate, right of the obelisk; the colossal worm bursts out in an explosive eruption. As the sand wave reaches them the three push off decisively and break laterally out of its path, robes snapping. They react during the eruption, not after a five-second look at the monster.
 
-[0:08–0:12] — FULL HEIGHT
-Low wide angle: the worm rears to full terrifying scale high above the ruins, circular maw open, sand cascading off its ridged body. The shockwave throws dust through the air and knocks loose pieces of the ruins.
+[0:08–0:12] — RUN BENEATH THE GIANT
+Low wide: the worm rises to its immense full scale and sand pours off its segments. Keep the three sprinting across the foreground, planting and redirecting around existing rubble, each clear of the others. Falling fragments force a short grounded change of direction, no extra acrobatics.
 
-[0:12–0:15] — SCATTER
-The three break their positions and sprint in different directions to escape the collapse and the worm's first surge; the camera tracks fast alongside, keeping clear where each one is relative to the worm. Hold on them running through the dust with the worm towering behind.
+[0:12–0:15] — SCATTER IN MOTION
+Fast lateral tracking wide, stable axis. Artem drives toward the left, Serega cuts toward the centre, Ilyusha moves to the right, continuing through the dust with lit blades. End mid-stride, not after stopping to present the worm.
 
 END STATE:
-The worm reared at full height beyond the gate, right of the obelisk, sand pouring off it; the three scattered across the ruins in mid-sprint through drifting dust, all alive, blades lit — blue, green and red — the standoff broken but not resolved.
+The worm reared at full height beyond the gate, right of the obelisk, sand pouring off it; the three scattered in mid-stride through dust, Artem toward frame-left, Serega toward centre, Ilyusha toward frame-right, all alive, green/red/blue blades lit. Both gate piers and the central obelisk still stand; no winner, no module, no vehicle.
 
 CAMERA / SPACE:
 A lateral glide for the standoff, then action cuts on movement: a low wide for the eruption and rise, a fast lateral tracking wide for the scatter; keep screen direction and gate-obelisk geography. Parallax and dust layers sell scale. Speed in wides with whole bodies; faces recognised in the opening medium-wide in even light. Impact vibration only on the eruption; no micro-shake, no teleporting.
 
 PERFORMANCE:
-Serious blockbuster tone, no comedy. Cold standoff, sharp reactions, explosive weighty sprints. Ilyusha quick, Artem heavy, Serega cold and precise. No mugging.
+Serious blockbuster tone, no comedy. Cold standoff, sharp reactions, explosive weighty sprints. Ilyusha quick, Artem heavy, Serega cold and precise. No mugging. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sun, dry haze, blown sand, long ruin shadows, natural motion blur, real cloth and dust; saber light on faces. Worm hide shedding sand.
@@ -585,7 +598,7 @@ AUDIO:
 Saber hums, distant wind, then a powerful subterranean rumble, violent sand eruption, debris crashes, rushing sand and a huge monstrous roar with deep throat resonance; footsteps on sand and stone, robe movement, brief exertion breaths. No dialogue, no narrator, no music.
 
 NEGATIVE PROMPT:
-worm visible at the start, small or floating worm, worm touching anyone, characters ignoring the worm, static posing, blood, map module, vehicles, identity drift, melting faces, extra or duplicate people, costume changes, red cloak on Artem, wrong saber colours, warping ruins, teleporting camera, cartoon, subtitles, text, watermark.
+worm visible at the start, small or floating worm, worm touching anyone, characters ignoring the worm, static posing, blood, map module, vehicles, identity drift, melting faces, extra or duplicate people, costume changes, red cloak on Artem, wrong saber colours, warping ruins, teleporting camera, cartoon, subtitles, text, watermark, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -620,22 +633,25 @@ Exactly the last frame of @Video1: the worm risen beyond the gate, right of the 
 
 TIMELINE:
 [0:00–0:05] — FIGHT THROUGH THE CHAOS
-Continuing @Video1 without a reset: the two Jedi regroup while the Chancellor uses the chaos to press his advantage. Short, fast saber exchanges, red against blue and green: evasive footwork, quick defensive moves, robes whipping. Behind them the worm sweeps across the ruins, slamming through structures; a second aggressive pass forces everyone to break off and dodge.
+Continue the actual running positions of @Video1 without resetting. Artem plants hard and presses Serega with a green strike; Serega gives ground on two quick steps, blocks and pivots to answer Ilyusha's blue attack. Behind them the worm sweeps through secondary walls. An approaching fragment makes all three break contact and drive sideways, immediately recovering to their feet.
 
 [0:05–0:10] — THE WALL FALLS
-The worm follows one readable broad arc behind the group, dives partially beneath the sand and surges up from the same background side, head and upper body carving through the location. One ruin wall collapses, debris and sand raining around the fighters. Artem dives clear. Ilyusha sidesteps and rolls to the right side. Serega pivots away into the centre with dangerous precision, barely avoiding the jaws.
+The worm partly dives and surges up from the same background side in one readable broad arc. A secondary low ruin wall collapses. Artem dives clear to frame-left and pushes up; Ilyusha sidesteps and rolls to frame-right; Serega pivots into centre, clear of the jaws. Every dodge has a push-off, ground contact and recovery. Both tall gate piers and the central obelisk remain standing.
 
-[0:10–0:15] — UNRESOLVED
-The worm rears behind the three while they hold their standoff in the foreground, braced low against a wall of wind and blown sand: Artem frame-left, Serega centre, Ilyusha frame-right, blades still up. Powerful wide action composition, the colossal worm towering behind them amid collapsing debris and swirling dust, the conflict continuing beyond the cut.
+[0:10–0:14] — RECOVER INTO PRESSURE
+They come out of the dodges already closing guards: short hard parry, counter, sideways adjustment through blowing sand. The camera travels laterally with their feet and upper bodies readable; the worm rears behind. No five-second held standoff.
+
+[0:14–0:15] — BRACED FOR THE NEXT EXCHANGE
+Only now compress into the required low stance: Artem left, Serega centre, Ilyusha right, green/red/blue blades up, all facing each other. Boots grip sand, shoulders breathe and cloth streams. Conflict still live and unresolved.
 
 END STATE:
-Artem frame-left, Serega centre, Ilyusha frame-right, all three alive and braced low in the foreground amid dense swirling dust, the colossal worm towering behind them over the damaged ruins; the duel unresolved, no winner, no map, no vehicle.
+Artem frame-left, Serega centre, Ilyusha frame-right, all alive and braced low facing each other, green/red/blue blades up, boots gripping sand and shoulders breathing; the colossal worm rears behind them amid dust. Secondary ruin walls damaged; both tall gate piers and the narrow central obelisk remain standing for the next scene. No winner, no visible map, no vehicle.
 
 CAMERA / SPACE:
 First beat continues @Video1 without a cut in a tracking medium-wide, faces readable in even light; then action cuts on movement: a low wide for the dive and collapsing wall, a fast lateral track on the rolls, a final wide on the braced trio with the worm above. Keep screen direction and geography; speed in wides with whole bodies; worm partly in frame in every wide. No handheld chaos, no teleporting.
 
 PERFORMANCE:
-Serious blockbuster tone, no comedy. Fierce swordplay with weight, broken by real dives and rolls. Ilyusha quick, Artem heavy, Serega cold and precise. No mugging.
+Serious blockbuster tone, no comedy. Fierce swordplay with weight, broken by real dives and rolls. Ilyusha quick, Artem heavy, Serega cold and precise. No mugging. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sun, dry haze, blown sand, long shadows, natural motion blur, real cloth and dust; saber light flickering on faces. Falling stone, worm hide shedding sand.
@@ -644,7 +660,7 @@ AUDIO:
 Saber hums and crackling clashes, rushing sand, debris crashes, a collapsing wall, heavy impacts, footsteps on sand and stone, robe movement, wind, and the worm's huge roar with deep throat resonance. Brief exertion grunts only. No dialogue, no narrator, no music.
 
 NEGATIVE PROMPT:
-small or floating worm, worm touching anyone, characters ignoring the worm, static posing, winner, blood, map module, vehicles, rebuilt ruins, identity drift, melting faces, extra or duplicate people, costume changes, red cloak on Artem, wrong saber colours, scene reset, teleporting camera, cartoon, subtitles, text, watermark.
+small or floating worm, worm touching anyone, characters ignoring the worm, static posing, winner, blood, map module, vehicles, rebuilt ruins, identity drift, melting faces, extra or duplicate people, costume changes, red cloak on Artem, wrong saber colours, scene reset, teleporting camera, cartoon, subtitles, text, watermark, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -3788,16 +3804,16 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 42 — Татуин: бой на фоне червя — червь им не интересен
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":16}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":16}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","deadpan","continuity"]} -->
 
 **Контекст использования:**
 
-- **Решение владельца 16.10.2026:** Scene 16 принята; нужно продолжение битвы на фоне червя, который всё разрушает вокруг. Артём и Илюша дерутся с Серёгой, будто не замечая червя: лениво уворачиваются от его атак, он не их цель и им не интересен.
-- **Стык:** сразу после Scene 16 (её единственный результат — task `36e8320e34da4f1b97c35e1e765e3e63`). Дальше — Scene 56 (бой в движении, владелец 18.10), затем Scene 48: Канцлер забирает татуинский фрагмент (решение владельца 16.10, D6).
+- **Решение владельца 16.10.2026:** Scene 16 принята; нужно продолжение битвы на фоне червя, который всё разрушает вокруг. Артём и Илюша дерутся с Серёгой, будто не замечая червя: экономно и мгновенно уклоняются от его атак, сохраняя равнодушное выражение, он не их цель и им не интересен.
+- **Стык:** после НОВОЙ Scene 16 · Seedance 2.0 часть 2; исторический task `36e8320e34da4f1b97c35e1e765e3e63` сохранён, но не подставляется в новый стык. Дальше — Scene 56 (бой в движении, владелец 18.10), затем Scene 48: Канцлер забирает татуинский фрагмент (решение владельца 16.10, D6).
 - **Тон меняется осознанно:** в 16 червь — катастрофа; здесь комедия в равнодушии. Все трое заняты только дуэлью, от червя отмахиваются как от назойливой помехи. Без гримас и взглядов в камеру — смешно за счёт контраста масштаба и полного спокойствия.
 - Цвета мечей — как в 16 и 27: Илюша синий, Артём зелёный, Серёга красный.
 - Машина после разрушения не появляется (W8). Модуль карты в этой сцене не показывается — его исход в Scene 48.
-- **READY:** настоящий последний кадр Scene 16 извлечён и проверен (899/899, 29.966667 с), подключён как @Image6. В разрешённой очереди после танцев.
+- **До READY (20.10):** @Image6 требуется извлечь из настоящего результата НОВОЙ16P2. Сохранённый кадр 899/899 старой16 — история, не вход новой попытки. Приоритет червя:16 → 42 → 56 → 48; Seedance2.0 · 2 × 15с.
 - В монтаж 15–25 с. Запуск — только по команде владельца.
 - **Динамика (владелец 18.10.2026):** сцена переписана активнее — плита-трамплин, прыжок через движущуюся спину червя, брошенный крутящийся меч Серёги отбит и пойман. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
@@ -3824,15 +3840,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fierce stunt duel with a deadpan running gag | Two Jedi and the Chancellor fight a fast acrobatic duel straight through the ruins a colossal sandworm is wrecking, and none of them cares about the worm
 
 REFERENCES / AUTHORITY ORDER:
-@Image6 — the genuine final frame of the previous scene: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
+@Image6 — the genuine final frame of the new Scene16 Part2 result: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only.
+@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only; any damage in @Image6 takes precedence over the clean plate.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
 Priority: @Image6 controls the start; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
 
@@ -3868,16 +3884,16 @@ In the background the worm cracks the central obelisk in half; the top half topp
 The worm rears high above the duel and roars; tons of sand pour off its body in a heavy curtain straight onto the fighting ground. The three fence straight through the falling sand, the blades hissing and flaring in it, and all three duck the same flying debris at the same moment without looking up.
 
 [0:26–0:30] — STILL NOT INTERESTED
-Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right, pushing against each other. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand still trickling from it, as if waiting for attention. None of them looks up. Hold.
+Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right, pushing against each other. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand still trickling from it, as if waiting for attention. None of them looks up. Keep the framing while their forearms drive into the contact, shoulders resist and feet make tiny grounded corrections. This is a live struggle under the deliberately motionless maw, not a freeze-frame.
 
 END STATE:
-The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken in half with its top half lying on its side as a long block.
+The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken in half with its top half lying on its side as a long block. The fighters maintain live pressure and breathing within this exact arrangement; their feet and weapons do not swap sides.
 
 CAMERA / SPACE:
 The first shot begins exactly from the @Image6 framing. Then five motivated action cuts on movement, each matching screen direction and the left/centre/right geography: a low angle on Artem's run up the slab, a fast lateral tracking shot on Ilyusha's leap over the worm's back, a whip-pan that follows the spinning red saber and lands on Serega's catch, a wide for the falling obelisk and sand curtain, then a closer medium for the final lock. Fast action plays in wide and medium-wide shots with whole bodies visible; faces are recognised in medium shots, never tiny during speed. Keep the worm partly in frame in every wide shot for scale. No shaky handheld chaos, no teleporting, no spatial resets.
 
 PERFORMANCE:
-The duel is fast, fierce and athletic with real weight: hard strikes, jumps, crouching blocks, a thrown saber. The deadpan gag is the contrast: toward the worm all three are lazy, bored and unimpressed, dodging it with minimal half-steps and casual hops in stride, never panicked, never looking at it. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+The duel is fast, fierce and athletic with real weight: hard strikes, jumps, crouching blocks, a thrown saber. The deadpan gag is the contrast: toward the worm all three are lazy, bored and unimpressed, dodging it with minimal half-steps and casual hops in stride, never panicked, never looking at it. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens. The apparent boredom belongs only to their attitude toward the worm. The duel itself stays fast: each parry changes foot pressure and immediately leads to the next attack. During a blade lock, hands and shoulders keep pushing and boots replant; the actors never become a frozen tableau. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, long ruin shadows, sand sheets and stone debris in the air, realistic cloth and dust interaction, falling sand catching the light; saber light flickers on faces and robes through the dust.
@@ -3886,7 +3902,7 @@ AUDIO:
 Saber hums, crackling clashes and whooshes in the foreground, the spinning saber's rising and falling whirr, heavy footsteps on stone and sand; the worm's deep roar, smashing stone and pouring sand behind, a little lower in the mix as if the fighters do not hear it; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, anyone touching or riding the worm, death, blood, characters fighting or attacking the worm, characters fleeing in panic, screaming, fear, slow motion, static standing duel, Force shove, sliding down a sand slope, standing on the toppled obelisk, both gate piers destroyed, obelisk left intact, car, speeder, vehicle wreck, extra people, duplicated characters, map module, hologram, wrong saber colours, second red saber, teleporting characters, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or touching anyone, anyone touching or riding the worm, death, blood, characters fighting or attacking the worm, characters fleeing in panic, screaming, fear, slow motion, static standing duel, Force shove, sliding down a sand slope, standing on the toppled obelisk, both gate piers destroyed, obelisk left intact, car, speeder, vehicle wreck, extra people, duplicated characters, map module, hologram, wrong saber colours, second red saber, teleporting characters, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -3909,11 +3925,11 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fierce stunt duel with a deadpan running gag | Part 1 of 2: the duel restarts and turns acrobatic in the ruins the ignored sandworm is wrecking
 
 REFERENCES / AUTHORITY ORDER:
-@Image6 — the genuine final frame of the previous scene: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
+@Image6 — the genuine final frame of the new Scene16 Part2 result: exact positions of the three crouching duelists, the worm, the light, the dust and the ruins. Absolute authority for the START STATE.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only.
+@Image4 — the exact desert ruins: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, harsh warm daylight. Location geometry only; any damage in @Image6 takes precedence over the clean plate.
 @Image5 — the exact colossal segmented sandworm: scale and design only; far larger than people and gate piers.
 Priority: @Image6 controls the start; @Image1–@Image3 control identities; @Image4 the location; @Image5 the worm.
 
@@ -3940,16 +3956,16 @@ A slab crashes down beside the duel and lands tilted like a ramp. Artem runs up 
 A long stretch of the worm's back slides through the sand between Ilyusha and Serega, only waist-high above the surface, the rest of its body submerged. Ilyusha hurdles the moving ridge in one bored leap mid-attack, without looking down, and lands straight into a slash that Serega parries.
 
 [0:11–0:15] — THE THROWN SABER
-Serega hurls his red saber at Ilyusha, spinning like a glowing disc. Ilyusha deflects it upward with the blue blade; it whirls back in an arc. Serega ducks Artem's green swing, catches the returning hilt in one hand and blocks the next green strike in the same motion. Hold that block for the last second.
+Serega hurls his red saber at Ilyusha, spinning like a glowing disc. Ilyusha deflects it upward with the blue blade; it whirls back in an arc. Serega ducks Artem's green swing, catches the returning hilt in one hand and blocks the next green strike in the same motion. Keep that blade contact for the last second with active pushing, a planted rear foot and Ilyusha still closing; do not freeze the whole body.
 
 END STATE:
-Serega in the centre holding his red saber again, blocking Artem's green blade from frame-left while Ilyusha closes in from frame-right; the left gate pier smashed into slabs, the central obelisk still standing, the worm looming behind in drifting dust.
+Serega in the centre holding his red saber again, blocking Artem's green blade from frame-left while Ilyusha closes in from frame-right; the left gate pier smashed into slabs, the central obelisk still standing, the worm looming behind in drifting dust. The fighters maintain live pressure and breathing within this exact arrangement; their feet and weapons do not swap sides.
 
 CAMERA / SPACE:
 Start exactly on the @Image6 framing, then cut on movement: low angle on Artem's run up the slab, fast lateral tracking on Ilyusha's leap, a whip-pan following the spinning saber into Serega's catch in a medium-wide. Keep left/centre/right geography and screen direction across every cut. Whole bodies in the fast shots; faces readable in the medium-wide catch. Worm partly in frame for scale in wide shots. No handheld chaos, no teleporting.
 
 PERFORMANCE:
-Fierce, athletic, weighty swordplay. Toward the worm everyone is lazy and unimpressed: casual hops in stride, no glances, no panic. Serega cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+Fierce, athletic, weighty swordplay. Toward the worm everyone is lazy and unimpressed: casual hops in stride, no glances, no panic. Serega cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens. The apparent boredom belongs only to their attitude toward the worm. The duel itself stays fast: each parry changes foot pressure and immediately leads to the next attack. During a blade lock, hands and shoulders keep pushing and boots replant; the actors never become a frozen tableau. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sun, dry haze, long ruin shadows, sand and stone debris in the air, real cloth and dust interaction; saber light flickering on faces and robes.
@@ -3958,7 +3974,7 @@ AUDIO:
 Saber hums, crackling clashes, whooshes and the whirr of the spinning saber up front; heavy footsteps; the worm's roar and crashing stone behind, lower in the mix; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, slow motion, static duel, Force shove, obelisk breaking in this part, both piers destroyed, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars.
+worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, slow motion, static duel, Force shove, obelisk breaking in this part, both piers destroyed, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -4002,16 +4018,16 @@ Wide: the worm cracks the central obelisk in half and the top half topples strai
 The worm rears and roars; tons of sand pour off its body in a heavy curtain onto the duel. The three fence straight through the falling sand, blades hissing and flaring, and all duck the same flying debris at once without looking up.
 
 [0:11–0:15] — STILL NOT INTERESTED
-Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand trickling from it. Nobody looks up. Hold.
+Medium shot, faces close and readable in even light: the three lock blades in the foreground, red in the middle, green from frame-left, blue from frame-right. Behind and above them the worm stops, its gaping maw hanging motionless over the three, sand trickling from it. Nobody looks up. Keep the composition, not a frozen body pose: forearms push against the crossed blades, shoulders resist, boots replant slightly and breathing continues. The motionless worm remains the deliberate joke.
 
 END STATE:
-The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken with its top half lying on its side as a long block.
+The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, ignoring the worm whose gaping maw hangs motionless over them amid falling dust; the left gate pier smashed, the obelisk broken with its top half lying on its side as a long block. The fighters maintain live pressure and breathing within this exact arrangement; their feet and weapons do not swap sides.
 
 CAMERA / SPACE:
 First beat continues @Video1 without a cut, then cut on movement to a wide for the falling obelisk, a tracking medium-wide through the sand curtain, and a closer medium for the final lock. Keep left/centre/right geography and screen direction. Worm partly in frame for scale in wide shots. Faces only recognisable in medium shots, never tiny during speed. No handheld chaos, no teleporting.
 
 PERFORMANCE:
-Fierce, precise swordplay with real weight; toward the worm everyone is lazy, bored and unimpressed, minimal dodges, never panicked. Serega cool, Ilyusha aggressive, Artem stubborn. No speech, no mugging, no look into the lens.
+Fierce, precise swordplay with real weight; toward the worm everyone is lazy, bored and unimpressed, minimal dodges, never panicked. Serega cool, Ilyusha aggressive, Artem stubborn. No speech, no mugging, no look into the lens. The apparent boredom belongs only to their attitude toward the worm. The duel itself stays fast: each parry changes foot pressure and immediately leads to the next attack. During a blade lock, hands and shoulders keep pushing and boots replant; the actors never become a frozen tableau. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sun, dry haze, long shadows, pouring sand catching the light, stone debris and dust in the air; saber light flickering on faces and robes.
@@ -4020,7 +4036,7 @@ AUDIO:
 Saber hums and crackling clashes up front, footsteps on sand; the worm's roar, cracking stone and pouring sand behind, lower in the mix as if nobody hears it; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, looking up at the worm, slow motion, Force shove, sliding down a slope, standing on the obelisk block, rebuilt gate pier, obelisk left intact, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars.
+worm swallowing or touching anyone, anyone touching the worm, blood, fighting or fleeing the worm, screaming, looking up at the worm, slow motion, Force shove, sliding down a slope, standing on the obelisk block, rebuilt gate pier, obelisk left intact, vehicles, extra people, duplicated characters, map module, wrong saber colours, small worm, cartoon CGI, mugging, identity drift, red cloak on Artem, subtitles, text, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -4788,6 +4804,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
 
+**Обновление 20.10:** бой и перемещения в реальном темпе, без длинных поз. Выбраны две части Seedance2.0 по15с; продолжения только от настоящих финалов предыдущих частей. Приоритет16 → 42 → 56 → 48.
+
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026 (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя. Scene 16 принята; бой продолжает Scene 42 («червь им не интересен»), эта сцена — её развязка. Текст перенесён из прежней редакции Scene 42 (16.10), тон приведён к 42: червю по-прежнему никто не уделяет внимания.
@@ -4819,14 +4837,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-16/S16-worm-scale.png" target="_blank" rel="noopener"><img src="references/scenes/scene-16/S16-worm-scale.png" alt="@Image5 — червь"></a><figcaption>@Image5 — червь</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image6 — модуль карты"></a><figcaption>@Image6 — модуль карты</figcaption></figure></div>
 
-**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет джедаев отпрыгнуть. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев.
+**Что происходит:** Трое сцепились мечами, червь ревёт над ними. Червь наконец обрушивается прямо между ними, Артёма сбивает волной песка: меч выпадает из руки и гаснет, из-за пояса вылетает светящийся модуль карты. Серёга протягивает руку — модуль летит сквозь пыль ему в ладонь. Илюша с горящим мечом бросается наперерез, но червь снова поднимается между ними и заставляет Илюшу отпрыгнуть; Артём на коленях упирается рукой в песок. Серёга быстро прячет модуль под робу, бросается к червю, запрыгивает на него и лихо уезжает на нём вдаль от джедаев.
 
 <div class="engine-tabs" data-scene="48">
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | The ignored sandworm finally crashes between the duelists; the Chancellor rips the Tatooine map module to his hand with the Force, jumps onto the worm and rides it away
 
 REFERENCES / AUTHORITY ORDER:
@@ -4849,7 +4867,7 @@ PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's belt, flies through the air once and ends hidden in the inner fold of Serega's robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole scene; the broken gate piers and the toppled obelisk halves stay as fixed landmarks and nothing rebuilds. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back at the end: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
+The same colossal worm from @Image5 and the same ruins for the whole scene; the left gate pier stays smashed, the right pier stays standing, and the long obelisk block already shattered in @Video1 remains scattered chunks; nothing rebuilds. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back at the end: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
 
 START STATE:
 Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
@@ -4862,10 +4880,10 @@ Continuing @Video1 without a cut: the worm slams its upper body down onto the sa
 Artem hits the sand hard. His green saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
 
 [0:11–0:16] — THE MODULE FLIES TO THE CHANCELLOR
-Fast push-in on Serega in the blowing dust. He thrusts out one open hand. The module rips off the sand and shoots straight through the dust into his palm; his fingers snap shut over its amber glow.
+A stable travelling medium catches his face and hand: one sharp thrust, a fast direct flight and a dry catch form one continuous action in the first two seconds. No hovering module or slow finger close. He takes his weight onto the rear foot, draws the fist to his chest and immediately tracks Ilyusha with his eyes; Ilyusha loads his front foot to intercept while Artem pushes up to his knees. The worm keeps churning sand behind them.
 
 [0:16–0:21] — CUT OFF BY THE WORM
-Ilyusha, his blue blade still lit, sprints at Serega to intercept, but the worm surges up out of the sand between them and forces both Jedi to leap aside. Artem, on his knees, can only watch.
+Ilyusha, his blue blade still lit, sprints at Serega to intercept, but the worm surges up out of the sand between them and forces Ilyusha to leap aside. Artem remains on his knees, braces one hand in the sand against the surge and watches; he does not simultaneously leap and stay kneeling.
 
 [0:21–0:26] — ONTO THE WORM
 In one quick move Serega shoves the module into the inner fold of his robe, sprints alongside the worm's long body as it slides past low over the sand, leaps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
@@ -4880,7 +4898,7 @@ CAMERA / SPACE:
 The first two beats continue @Video1 as one take with fast arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
 
 PERFORMANCE:
-Serega is fast, decisive and dashing, his face cold and focused: the Force pull is a sharp, commanding gesture, the sprint and leap onto the worm athletic and bold. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+Serega is fast, decisive and dashing, his face cold and focused: the Force pull is a sharp, commanding gesture, the sprint and leap onto the worm athletic and bold. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, long ruin shadows, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust; sand pouring off the worm's segments.
@@ -4889,7 +4907,7 @@ AUDIO:
 The worm's deep roar and throat resonance, sand crashing down, debris impacts, wind, the hiss of two sabers switching off, the blue saber's hum as Ilyusha charges, a faint low Force hum as the module flies, a soft electronic pulse from it, the heavy grinding rush of the worm surging away and fading into the distance. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or biting anyone, death, blood, Serega falling off the worm, worm shrunk to a tame size, saddle or reins, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega fighting with a saber after the crash, map exchange by hand, rebuilt ruins, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or biting anyone, death, blood, Serega falling off the worm, worm shrunk to a tame size, saddle or reins, car, speeder, vehicle wreck, extra people, duplicated characters, two or three modules, hologram map, folded paper map, module breaking, Serega fighting with a saber after the crash, map exchange by hand, rebuilt ruins, teleporting camera, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -4931,7 +4949,7 @@ PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's wide belt, flies through the air once and ends gripped in Serega's closed hand. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole clip; the broken gate piers and toppled obelisk halves stay broken. The worm never swallows, bites, touches or hurts anyone; it only hits the sand. No car, speeder or wreck appears.
+The same colossal worm from @Image5 and the same ruins for the whole clip; the left gate pier stays smashed, the right pier stays standing and the obelisk block shattered in @Video1 remains scattered chunks. The worm never swallows, bites, touches or hurts anyone; it only hits the sand. No car, speeder or wreck appears.
 
 START STATE:
 Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
@@ -4943,20 +4961,20 @@ Continuing @Video1 without a cut: the worm slams its upper body down onto the sa
 [0:04–0:08] — THE SABER GOES OUT
 Cut on the impact to a low wide angle: Artem hits the sand hard and rolls. His green saber spins out of his hand, its blade switches off in mid-air and the dark hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and skids onto the open sand between him and Serega.
 
-[0:08–0:12] — THE FORCE PULL
-Fast push-in to a medium shot of Serega in the blowing dust, his face clearly lit and readable for two full seconds. He thrusts out one open hand. The module rips off the sand and shoots straight through the dust toward him.
+[0:08–0:11] — PULL AND CATCH
+Stable travelling medium, Serega's face and hand clearly lit. One sharp open-palm thrust, fast direct module flight and dry catch form a single decisive chain. A short hand insert shows his fingers closing once over the amber glow; the module never hovers and never makes a second flight.
 
-[0:12–0:15] — CAUGHT
-Tight shot: the module smacks into his palm and his fingers snap shut over its amber glow. Widen and hold on Serega, fist at chest height.
+[0:11–0:15] — REACT WITHOUT POSING
+Back to the medium-wide: Serega takes his weight onto his rear foot and draws the closed fist to chest height, his eyes immediately tracking Ilyusha. Ilyusha plants and loads his front foot for an intercept; Artem pushes up to his knees beside his dark hilt. The worm continues churning sand behind them. End in that live preparation, module still in Serega's fist; he does not hide it or mount the worm yet.
 
 END STATE:
 Serega on frame-right in the settling dust, the module gripped in his closed fist, saber off; the worm half-sunk in the churned sand behind him; Ilyusha on frame-left on his feet, blue blade lit; Artem on his knees beside his dark, half-buried hilt.
 
 CAMERA / SPACE:
-The first beat continues @Video1 with a fast arcing move; then three motivated cuts on action: a low wide on Artem's fall, a fast push-in to a medium on Serega for the Force pull, a tight catch that widens to hold. Serega and the worm on frame-right, the Jedi on frame-left. Speed lives in wide shots and bodies; faces in medium or close shots with even light. Scale through parallax, dust layers and foreground debris.
+The first beat continues @Video1 with a small fast arc on the same side of the axis. Then motivated cuts: a low wide for Artem falling and rolling, a stable travelling medium for the pull, one brief hand insert for the catch, back to the same medium-wide for their immediate reactions. Serega and the worm frame-right, the Jedi frame-left. Full bodies in fast action; readable face and hand during the short catch. Keep foreground parallax and deep sand layers. No glamour hold, orbit across the axis or speed ramp.
 
 PERFORMANCE:
-Serega is fast and dashing, his face cold: the Force pull is a sharp commanding gesture. Artem is winded and annoyed, not frightened. Ilyusha is determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens.
+Serega is fast and dashing, his face cold: the Force pull is a sharp commanding gesture. Artem is winded and annoyed, not frightened. Ilyusha is determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's soft amber glow reads through the dust; sand pouring off the worm's segments.
@@ -4965,7 +4983,7 @@ AUDIO:
 The worm's deep roar, the thunder of its body hitting the sand, wind, the hiss of two sabers switching off, the hum of Ilyusha's blue saber, a faint low Force hum as the module flies, a soft electronic pulse and a dry slap as it hits the palm. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing, biting or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, two or three modules, hologram map, module breaking, Serega fighting with a saber after the crash, Artem's saber still lit after the fall, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing, biting or touching anyone, death, blood, car, speeder, vehicle wreck, extra people, two or three modules, hologram map, module breaking, Serega fighting with a saber after the crash, Artem's saber still lit after the fall, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -4997,23 +5015,23 @@ PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts gripped in Serega's fist and ends hidden in the inner fold of his robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole clip; the broken gate piers and toppled obelisk halves stay broken. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
+The same colossal worm from @Image5 and the same ruins for the whole clip; the left gate pier stays smashed, the right pier stays standing and the obelisk block shattered in @Video1 remains scattered chunks. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
 
 START STATE:
 Exactly the last frame of @Video1: Serega on frame-right, the module in his fist, the worm half-sunk behind him; Ilyusha on frame-left, blue blade lit; Artem on his knees.
 
 TIMELINE:
 [0:00–0:04] — CUT OFF BY THE WORM
-Continuing @Video1 without a cut: Ilyusha sprints at Serega with his blue blade lit, but the worm surges up out of the sand between them in a towering wall of pouring sand, forcing both Jedi to leap aside. Artem, on his knees, can only watch.
+Continuing @Video1 without a cut: Ilyusha sprints at Serega with his blue blade lit, but the worm surges up out of the sand between them in a towering wall of pouring sand, forcing Ilyusha to leap aside. Artem stays on his knees and braces one hand in the sand against the surge; he never leaps while remaining kneeling.
 
 [0:04–0:07] — HIDE THE MODULE
-Cut to a medium shot of Serega, face clearly lit and readable for two seconds: in one quick move he shoves the glowing module into the inner fold of his robe and the amber glow disappears under the purple cloth.
+Cut to a medium shot of Serega, face clearly lit and readable for two seconds: in one quick move he shoves the glowing module into the inner fold of his robe and the amber glow disappears under the purple cloth. Without pausing to display the gesture, his free hand clears the robe and his feet turn into the run; keep his face readable during this movement.
 
 [0:07–0:11] — ONTO THE WORM
 Fast low tracking shot at running speed: the worm's long body slides past low over the sand on frame-right; Serega sprints alongside it, leaps onto its back, lands braced on one broad segment and grabs a ridge with one hand, robe whipping in the wind.
 
 [0:11–0:15] — RIDING AWAY
-Wide shot from behind the two Jedi: the worm surges away across the dunes in a great spray of sand, Serega riding its back low and balanced like a surfer, robe streaming behind him, shrinking into the distance. In the foreground the two Jedi stand in the settling dust and stare after him; hold the final wide beat.
+Wide shot from behind the two Jedi: the worm surges away across the dunes in a great spray of sand, Serega riding its back low and balanced like a surfer, robe streaming behind him, shrinking into the distance. In the foreground Ilyusha lowers his blue blade as Artem plants a boot and rises from his knees; both stare after him. Keep the wide composition while the worm and rider continue accelerating away, never freeze the departing silhouette.
 
 END STATE:
 Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Ilyusha's blue blade lowered, Artem's dark saber hilt half-buried in the sand.
@@ -5022,7 +5040,7 @@ CAMERA / SPACE:
 The first beat continues @Video1 without a cut; then three motivated cuts on action: a medium on Serega hiding the module, a fast low tracking shot for the leap, a final wide from behind the Jedi for the ride. Serega and the worm on frame-right, the Jedi on frame-left. Speed lives in tracking and wide shots; faces medium and evenly lit, never tiny during speed. Scale through parallax, dust layers and foreground debris.
 
 PERFORMANCE:
-Serega is fast and dashing, his face cold: the hiding move is quick, the sprint and leap onto the worm athletic and bold. Ilyusha is fast and determined, then left standing with his blade lowered; Artem winded and annoyed. No speech, no smile, no look into the lens.
+Serega is fast and dashing, his face cold: the hiding move is quick, the sprint and leap onto the worm athletic and bold. Ilyusha is fast and determined, then left standing with his blade lowered; Artem winded and annoyed. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, blown sand in the air, realistic cloth and dust interaction; the module's amber glow vanishing into the robe; sand pouring off the worm's segments.
@@ -5031,7 +5049,7 @@ AUDIO:
 The blue saber's hum as Ilyusha charges, the worm's deep roar and the crash of sand as it surges up, wind, Serega's boots pounding sand, the heavy grinding rush of the worm surging away and fading into the distance. Exertion breaths only; no dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or biting anyone, death, blood, Serega falling off the worm, saddle or reins, car, speeder, vehicle wreck, extra people, two modules, hologram map, Serega fighting with a saber, Artem's saber lit, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or biting anyone, death, blood, Serega falling off the worm, saddle or reins, car, speeder, vehicle wreck, extra people, two modules, hologram map, Serega fighting with a saber, Artem's saber lit, rebuilt ruins, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7063,6 +7081,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":42}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","action","deadpan","continuity"]} -->
 
+**Обновление 20.10:** бой и перемещения в реальном темпе, без длинных поз. Выбраны две части Seedance2.0 по15с; продолжения только от настоящих финалов предыдущих частей. Приоритет16 → 42 → 56 → 48.
+
 **Контекст использования:**
 
 - **Команда владельца 18.10.2026:** продолжить и расширить бой 42 промежуточной сценой, которая приводит к 48. Заодно ответ на замечание друга про динамику: здесь больше движения, чем в 42, — толчок Силой, двое на одного, бой на осыпающемся песке, прыжки на поваленный обелиск и с него, мотивированные монтажные склейки вместо одного неподвижного плана.
@@ -7098,7 +7118,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 ```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | The duel breaks loose and races across the collapsing ruins while the ignored sandworm grows ever angrier
 
 REFERENCES / AUTHORITY ORDER:
@@ -7130,7 +7150,7 @@ TIMELINE:
 Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
 
 [0:04–0:09] — TWO AGAINST ONE
-Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges while the camera circles the three at running speed.
+Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges while the camera tracks laterally beside their moving feet and bodies.
 
 [0:09–0:14] — THE GROUND MOVES
 The worm ploughs a trench straight through the fighting ground. The sand slides away under their feet; still fencing, all three skid down the collapsing slope, and Ilyusha leaps across the opening trench in mid-swing to land beside Serega.
@@ -7141,17 +7161,20 @@ Serega springs onto the long toppled obelisk block; Artem jumps up after him and
 [0:19–0:25] — THE WORM TRIES AGAIN
 The worm sweeps its body across the ruin and shatters the stone block. All three jump down together, roll through the sand and come up already fighting, not one of them looking back.
 
-[0:25–0:30] — LOCKED AGAIN
-The three cross blades again in the foreground, faces close and readable. Behind and above them the furious worm rears to its full height and roars, its body coiled to strike straight down at them. Hold the moment just before the strike.
+[0:25–0:28.5] — FIGHT OUT OF THE ROLL
+They regain their feet into a hard parry, a short driving counter and a side-step without stopping: Artem left, Serega centre, Ilyusha right. The worm rises behind them as they keep fighting, bodies travelling through real steps rather than arms waving in place.
+
+[0:28.5–0:30] — THE CONTACT BEFORE THE STRIKE
+The three blades meet in the required foreground lock only now. Boots grip, elbows drive and shoulders resist; faces readable, no theatrical pose. The furious worm finishes rearing high above them, coiled to strike. Cut before the downward strike; do not play the impact here.
 
 END STATE:
-The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; dust and broken ruins all around.
+The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; dust and broken ruins all around. This final contact contains live pushing and breathing, not a held statue pose; the downward worm strike has not begun.
 
 CAMERA / SPACE:
-The first beat continues @Video1 without a cut. After it, up to four motivated action cuts on movement, each matching screen direction and the left/centre/right geography; fast circling and tracking moves at running speed, low angles during the jumps, one close insert of the module glow. Keep the worm partly in frame for scale in every wide shot. The duel always stays readable; motion blur only on fast blades. No shaky handheld chaos, no teleporting.
+The first beat continues @Video1 without a cut. After it, up to four motivated action cuts on movement, each matching screen direction and the left/centre/right geography; brisk lateral tracking moves with only small arcs on the same side of the axis, low angles during the jumps, one close insert of the module glow. Keep the worm partly in frame for scale in every wide shot. The duel always stays readable; motion blur only on fast blades. No shaky handheld chaos, no teleporting.
 
 PERFORMANCE:
-Fast, athletic, fully committed swordplay with real weight: slides, leaps, rolls and Force shoves. The deadpan gag remains: toward the worm everyone is bored and unimpressed, never panicked. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+Fast, athletic, fully committed swordplay with real weight: slides, leaps, rolls and Force shoves. The deadpan gag remains: toward the worm everyone is bored and unimpressed, never panicked. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, long ruin shadows, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads through the dust.
@@ -7160,7 +7183,7 @@ AUDIO:
 Saber hums, crackling clashes and whooshes in the foreground, footsteps, slides and thuds on sand, a dull Force shove thump; the worm's roars, sliding sand and shattering stone behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, screaming, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, duplicated characters, module falling out, two modules, hologram, wrong saber colours, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, screaming, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, duplicated characters, module falling out, two modules, hologram, wrong saber colours, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7211,22 +7234,22 @@ TIMELINE:
 Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
 
 [0:04–0:09] — TWO AGAINST ONE
-Cut on motion to a fast circling shot at running speed: Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges; each face gets a clear medium beat as he turns to it.
+Cut on motion to a brisk lateral tracking medium-wide on the same side of the axis: Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges; each face gets a clear medium beat as he turns to it.
 
 [0:09–0:13] — THE GROUND MOVES
 Cut to a low wide angle: the worm ploughs a trench straight through the fighting ground behind them. The sand slides away under their feet; still fencing, all three skid down the collapsing slope.
 
 [0:13–0:15] — THE LEAP
-Low angle as Ilyusha leaps across the opening trench in mid-swing and lands beside Serega, blue meeting red at once. Hold the three fencing at the foot of the slope, the long toppled obelisk block right behind Serega.
+Low angle as Ilyusha leaps across the opening trench in mid-swing and lands beside Serega, blue meeting red at once. Keep the camera on the three continuously fencing and adjusting their footing at the foot of the slope, the long toppled obelisk block right behind Serega.
 
 END STATE:
 The three still fencing at the foot of the fresh collapsed slope, Artem frame-left, Serega centre with the long toppled obelisk block just behind him, Ilyusha frame-right; the worm's body sliding away along its new trench in the background; the module still glowing in Artem's belt.
 
 CAMERA / SPACE:
-The first beat continues @Video1 without a cut. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a fast circle at running speed, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
+The first beat continues @Video1 without a cut. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a brisk lateral tracking shot, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
 
 PERFORMANCE:
-Fast, athletic, fully committed swordplay with real weight: slides, skids, a leap and a Force shove. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+Fast, athletic, fully committed swordplay with real weight: slides, skids, a leap and a Force shove. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads at Artem's belt.
@@ -7235,7 +7258,7 @@ AUDIO:
 Saber hums, crackling clashes and whooshes in the foreground, boots sliding and thudding on sand, a dull Force shove thump; the worm's jaws snapping shut, its roar and the hiss of sliding sand behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
@@ -7281,17 +7304,20 @@ Close insert in mid-exchange: the amber glow of the module in Artem's belt flash
 [0:06–0:10] — THE WORM TRIES AGAIN
 Wide low angle: the worm sweeps its body across the ruin and shatters the stone block into tumbling chunks. All three jump down together, roll through the sand and come up already fighting. Nobody looks back.
 
-[0:10–0:15] — LOCKED AGAIN
-The three cross blades again in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, faces close, evenly lit and readable. Behind and above them the furious worm rears to its full height and roars, coiled to strike straight down. Hold the moment just before the strike.
+[0:10–0:13.5] — FIGHT OUT OF THE ROLL
+Their grounded recovery flows directly into a hard parry, driving counter and side-step: Artem left, Serega centre, Ilyusha right. No stop after the roll, no five-second pose. The worm rises behind them while all three continue the exchange.
+
+[0:13.5–0:15] — THE CONTACT BEFORE THE STRIKE
+The three blades meet in the foreground lock only now. Boots grip, forearms push and shoulders resist, faces clear in even light. The furious worm finishes rearing high above them, coiled to strike straight down. End before the strike, with the module still in Artem's belt.
 
 END STATE:
-The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; the obelisk block shattered; dust and broken ruins all around.
+The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; the obelisk block shattered; dust and broken ruins all around. This final contact contains live pushing and breathing, not a held statue pose; the downward worm strike has not begun.
 
 CAMERA / SPACE:
 The first beat continues @Video1 without a cut, tracking along the stone block at running speed. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a close insert of the module glow with a medium on Serega's eyes, a wide low angle for the shattering block and the roll, a low medium-wide on the locked blades under the worm. Keep the worm in frame for scale in wide shots. Faces read in medium and close shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
 
 PERFORMANCE:
-Fast, athletic, fully committed swordplay with real weight: jumps, footwork along the narrow stone, a roll and an instant return to fencing. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens.
+Fast, athletic, fully committed swordplay with real weight: jumps, footwork along the narrow stone, a roll and an instant return to fencing. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
 
 LIGHTING / MATERIALS:
 Harsh warm desert sunlight, dry haze, sand sheets and stone debris in the air, realistic cloth and dust interaction; saber light flickers on faces and robes; the module's small amber glow reads through the dust.
@@ -7300,7 +7326,7 @@ AUDIO:
 Saber hums, crackling clashes and whooshes in the foreground, boots on stone, thuds and rolls in sand; the worm's roars, the grinding sweep of its body and the crack of shattering stone behind, slightly lower in the mix; exertion breaths only. No dialogue, narrator or music.
 
 NEGATIVE PROMPT:
-worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, worm striking early, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars.
+worm swallowing or touching anyone, death, blood, characters attacking or fleeing the worm, fear, slow motion, static standing duel, repaired ruins, rebuilt obelisk, worm striking early, car, speeder, vehicle wreck, extra people, module falling out, two modules, wrong saber colours, tiny blurred faces, small worm, cartoon CGI, comedy mugging, identity drift, costume changes, red cloak on Artem, subtitles, text, logo, watermark, black bars, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
