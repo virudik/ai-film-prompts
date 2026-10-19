@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T23:11:35Z",
+  "checked_at": "2026-10-19T23:24:11Z",
   "status": "ok",
   "warnings": 0,
   "info": 3,
@@ -21,7 +21,7 @@
     {
       "level": "info",
       "code": "instruction-size",
-      "text": "USER-GUIDE.md: 69 КБ, проверить на повторы.",
+      "text": "USER-GUIDE.md: 70 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
     }
   ]
