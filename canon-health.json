@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T23:44:13Z",
-  "status": "warn",
-  "warnings": 1,
+  "checked_at": "2026-10-19T23:44:52Z",
+  "status": "ok",
+  "warnings": 0,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает еженедельное расписание Claude.",
   "problems": [
@@ -23,12 +23,6 @@
       "code": "instruction-size",
       "text": "USER-GUIDE.md: 70 КБ, проверить на повторы.",
       "file": "USER-GUIDE.md"
-    },
-    {
-      "level": "warn",
-      "code": "queue-scene-gone",
-      "text": "В очереди запуска ждут сцены, которых уже нет в мастере (в фильме или закрыты): 57, 58. Их элементы очереди закрыть.",
-      "file": "ops/topview-launch-queue.json"
     }
   ]
 }
