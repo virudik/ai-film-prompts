@@ -148,7 +148,7 @@ article{min-width:0;max-width:100%}article img,article video{display:block;max-w
 <!-- Current-work view is derived from live JSON; scene state is not hard-coded here. -->
 <section id="now-view" class="now-view"><div class="now-head"><strong>🎬 Сейчас</strong><span class="now-sub">генерация → результат → решение → следующий шаг</span></div><div id="nowGrid" class="now-grid"><div class="loading">Собираю текущее состояние…</div></div></section>
 <section id="slow-monitor" class="topview-monitor"><div class="topview-head"><strong>⏳ В медленной генерации — Topview</strong><span id="topviewCapacity" class="topview-capacity">занято — из 6<span class="topview-sync-time"></span></span></div><div id="topviewMonitor" class="topview-wrap"><div class="loading">Загрузка topview-status.json…</div></div></section>
-<details id="pult" class="pult"><summary class="pult-head"><strong>📋 Очередь запуска Topview</strong><span id="queueCount" class="pult-count"></span><span id="canonLockLine" class="pult-lock">замок канона…</span></summary><div class="pult-sub">Порядок, в котором ChatGPT запускает сцены в безлимите (0 кредитов). В режиме владельца: ▲ выше, ▼ ниже, ✕ убрать, «в очередь». Робот применяет кнопку в ближайшие 10 минут, когда канон свободен.</div><div id="queueList" class="queue-list"><div class="loading">Загрузка очереди…</div></div></details><div class="pult-extra"><div id="inboxList" class="queue-inbox"></div><div id="canonHealth" class="queue-inbox"></div><div id="selfHeal" class="queue-inbox"></div></div>
+<details id="pult" class="pult"><summary class="pult-head"><strong>📋 Очередь запуска Topview</strong><span id="queueCount" class="pult-count"></span><span id="canonLockLine" class="pult-lock">замок канона…</span></summary><div class="pult-sub">Порядок, в котором ChatGPT запускает сцены в безлимите (0 кредитов). В режиме владельца: ▲ выше, ▼ ниже, ✕ убрать, «в очередь». Робот применяет кнопку в ближайшие 10 минут, когда канон свободен.</div><div id="queueList" class="queue-list"><div class="loading">Загрузка очереди…</div></div></details><div class="pult-extra"><div id="inboxList" class="queue-inbox"></div><div id="canonHealth" class="queue-inbox"></div><div id="selfHeal" class="queue-inbox"></div><div id="wormStory" class="queue-inbox worm-story"></div></div>
 <div id="matchNote" class="match-note"></div><div id="noResults" class="no-results">Совпадений нет. Очисти поиск или выбери другой фильтр.</div>
 <article id="content"><div class="loading">Загружаю актуальный video-prompts.md…</div></article>
 </main></div>
@@ -265,7 +265,8 @@ function archivedDriveUrl(taskId,sceneId){
  const entry=topviewVideoArchive?.videos?.[String(taskId)];
  const id=String(entry?.file_id||'');
  if(Number(entry?.scene_id)!==Number(sceneId)||!/^[A-Za-z0-9_-]{15,}$/.test(id))return null;
- return 'https://drive.google.com/file/d/'+encodeURIComponent(id)+'/view';
+ // Drive's own viewer cannot play these files (MP4 written over text seed files, no video preview), so play them on video.html.
+ return 'video.html?task='+encodeURIComponent(String(taskId));
 }
 function topviewResultLinks(sceneId,tv,onlyPart){
  const pm=onlyPart&&typeof taskPartMap==='function'?taskPartMap():null;
@@ -275,7 +276,7 @@ function topviewResultLinks(sceneId,tv,onlyPart){
   const pt=typeof taskPartMap==='function'?taskPartMap().get(x.task_id):null,n=pt?shortPart(pt):String(i+1);
   const inTopview='<a target="_blank" rel="noopener noreferrer" title="Открыть получившийся ролик в своём Topview" href="https://www.topview.ai/board/'+TOPVIEW_FILM_BOARD+'?tool-type=video-edit&amp;boardResultId='+x.task_id+'">'+(pt?'▶ Готово '+esc(n):'▶ Версия '+n)+'</a>';
   const url=archivedDriveUrl(x.task_id,sceneId);
-  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="Проверенная резервная копия MP4; может потребоваться вход в Google Drive" href="'+esc(url)+'">💾 Drive '+esc(n)+'</a>':'');
+  return inTopview+(url?' · <a target="_blank" rel="noopener noreferrer" title="Смотреть проверенную копию MP4 из Google Drive" href="'+esc(url)+'">💾 Drive '+esc(n)+'</a>':'');
  }).join(' · ')+'</div>';
 }
 function sceneDoneState(sid){const st=typeof runtimeSceneStatus==='function'&&runtimeTopview?runtimeSceneStatus(sid):null;if(!st||st.running)return null;if(st.finishedStatus==='success')return 'done';if(['fail','failed','cancelled'].includes(st.finishedStatus))return 'fail';return null}
@@ -294,7 +295,7 @@ function syncArchivedSceneLinks(){
    link.className='scene-chip scene-archive-link';
    link.textContent='💾 MP4 '+(i+1);
    link.href=url;link.target='_blank';link.rel='noopener noreferrer';
-   link.title='Проверенная резервная копия ролика в вашем Google Drive';
+   link.title='Смотреть проверенную копию MP4 из Google Drive';
    videosRow(tools).appendChild(link);
   });
  });
@@ -811,7 +812,7 @@ Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).t
 .queue-list{display:grid;gap:4px}.queue-row{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:8px;align-items:center;border-top:1px solid var(--line);padding:5px 0;font-size:13px}
 .queue-row:first-child{border-top:0}.queue-n{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}.queue-title small{color:var(--muted);display:block;font-size:11px}
 .queue-row.held{opacity:.7}.queue-row .owner-btns{margin:0;flex-wrap:nowrap}
-.queue-inbox{margin-top:10px;font-size:12px}.queue-inbox summary{cursor:pointer;color:var(--muted)}.queue-inbox .owner-dec{font-size:12px}
+.worm-story .worm-text{font-size:13px;line-height:1.55;color:var(--text);max-width:900px}.worm-story .worm-text p{margin:8px 0}.queue-inbox{margin-top:10px;font-size:12px}.queue-inbox summary{cursor:pointer;color:var(--muted)}.queue-inbox .owner-dec{font-size:12px}
 @media(max-width:560px){.queue-row{grid-template-columns:22px minmax(0,1fr)}.queue-row .owner-btns{grid-column:2}}
 </style>
 <script>
@@ -909,7 +910,12 @@ function render(){renderLock();const box=document.getElementById('queueList');if
 function renderHealth(){const el=document.getElementById('canonHealth');if(!el||!H)return;const w=(H.problems||[]).filter(p=>p.level==='warn'),inf=(H.problems||[]).filter(p=>p.level!=='warn');
  el.innerHTML='<details'+(w.length?' open':'')+'><summary>🩺 Здоровье канона: '+(w.length?'<b>предупреждений '+w.length+'</b>':'всё в порядке')+(inf.length?' · заметок '+inf.length:'')+' · проверка '+esc(msk(H.checked_at))+'</summary>'+w.map(p=>'<div class="owner-dec">⚠ '+esc(p.text)+'</div>').join('')+(inf.length?'<details><summary><small>Заметки для еженедельной чистки ('+inf.length+')</small></summary>'+inf.map(p=>'<div class="owner-dec"><small>'+esc(p.text)+'</small></div>').join('')+'</details>':'')+'<small>Проверка раз в день и при каждом изменении канона; чистку делает еженедельное расписание Claude.</small></details>'}
 function renderSelfHeal(){const el=document.getElementById('selfHeal');if(!el||!SH)return;const pr=Object.values(SH.problems||{}),log=(SH.log||[]).slice().reverse();const head=SH.status==='ok'?'всё работает':SH.status==='escalated'?'<b>передано агенту: '+pr.filter(p=>p.escalated_at).length+'</b>':'<b>чиню: '+pr.length+'</b>';el.innerHTML='<details'+(SH.status==='ok'?'':' open')+'><summary>🔧 Самопроверка автоматики: '+head+(SH.changed_at?' · изменение '+esc(msk(SH.changed_at)):'')+'</summary>'+pr.map(p=>'<div class="owner-dec">'+(p.escalated_at?'🧑‍💻 ':'🔧 ')+esc(p.text)+'</div>').join('')+(log.length?'<details><summary><small>Журнал ('+log.length+')</small></summary>'+log.map(e=>'<div class="owner-dec"><small>'+esc(msk(e.at))+' — '+esc(e.text)+'</small></div>').join('')+'</details>':'')+'<small>Робот каждые 30 минут ищет зависания и сам чинит известное; что не чинится — задача для ИИ в списке выше.</small></details>'}
-async function load(){const [q,l,t,h,sh]=await Promise.all([get('ops/topview-launch-queue.json'),get('ops/canon-lock.json'),get('ops/owner-tasks.json'),get('canon-health.json'),get('ops/self-heal.json')]);Q=q||Q;L=l||L;T=t||T;H=h||H;SH=sh||SH;render();renderHealth();renderSelfHeal()}
+// Worm story: single source story/worm.md (no second copy in the page).
+let WORM=null;async function renderWorm(){const el=document.getElementById('wormStory');if(!el)return;if(WORM===null){WORM=await fetch('story/worm.md?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.text():'').catch(()=>'')}
+ if(!WORM||!window.marked){el.innerHTML='';return}const body=marked.parse(WORM.replace(/<!--[\s\S]*?-->/g,'').trim());
+ el.innerHTML='<details><summary>🪱 Червь: что происходит · сцены 16 → 42 → 56 → 48</summary><div class="worm-text">'+body+'</div></details>';
+ el.querySelectorAll('a[href^="#scene-"]').forEach(a=>a.addEventListener('click',e=>{const m=a.getAttribute('href').match(/^#scene-(\d+)$/);if(m&&typeof resetViewAndJump==='function'){e.preventDefault();resetViewAndJump('scene-'+m[1])}}))}
+async function load(){const [q,l,t,h,sh]=await Promise.all([get('ops/topview-launch-queue.json'),get('ops/canon-lock.json'),get('ops/owner-tasks.json'),get('canon-health.json'),get('ops/self-heal.json')]);Q=q||Q;L=l||L;T=t||T;H=h||H;SH=sh||SH;render();renderHealth();renderSelfHeal();if(WORM===null)renderWorm()}
 document.addEventListener('aifilm-owner-change',render);
 load();setInterval(load,120000);setTimeout(render,2500);
 })();

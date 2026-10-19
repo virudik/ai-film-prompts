@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Film — Ролик из Drive</title>
+<style>
+:root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--bad:#ff8f8f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1100px;margin:auto;padding:20px 16px 50px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.back{border:1px solid var(--line);padding:8px 11px;border-radius:9px;background:var(--panel)}h1{font-size:22px;margin:0}
+video{width:100%;max-height:78vh;background:#000;border-radius:10px;border:1px solid var(--line);display:block}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:14px}.note{color:var(--muted);font-size:12px;margin-top:10px}.err{color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><h1 id="title">Ролик</h1><a class="back" href="./">← Центр управления</a></div>
+<div id="box"><div class="note">Загружаю…</div></div>
+<div class="note">Копия MP4 из папки Drive «AI Film Generated Videos». Плеер Google Drive эти файлы не показывает (они записаны поверх файлов-заглушек, и Drive не сделал для них видео-превью), поэтому ролик играет прямо здесь.</div>
+</div>
+<script>
+(function(){
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const box=document.getElementById('box');
+const task=new URLSearchParams(location.search).get('task')||'';
+function fail(t){box.innerHTML='<div class="err">'+esc(t)+'</div>'}
+if(!/^[0-9a-f]{32}$/.test(task)){fail('Не указан ролик.');return}
+fetch('topview-video-archive.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(a=>{
+ const e=a?.videos?.[task];const id=String(e?.file_id||'');
+ if(!e||!/^[A-Za-z0-9_-]{15,}$/.test(id)){fail('Этого ролика нет в архиве Drive.');return}
+ const scene=Number(e.scene_id);
+ document.getElementById('title').textContent='Сцена '+scene+' — копия MP4';document.title='AI Film — сцена '+scene;
+ const src='https://drive.usercontent.google.com/download?id='+encodeURIComponent(id)+'&export=download';
+ const view='https://drive.google.com/file/d/'+encodeURIComponent(id)+'/view';
+ const mb=e.size_bytes?(Number(e.size_bytes)/1048576).toFixed(0)+' МБ':'';
+ box.innerHTML='<video controls playsinline preload="metadata" src="'+esc(src)+'"></video><div class="links"><a href="'+esc(src)+'" rel="noopener noreferrer">⬇ Скачать MP4'+(mb?' ('+mb+')':'')+'</a><a href="'+esc(view)+'" target="_blank" rel="noopener noreferrer">Файл в Google Drive</a><a href="./#scene-'+scene+'">Сцена '+scene+' на сайте</a></div>';
+ box.querySelector('video').addEventListener('error',()=>{box.insertAdjacentHTML('beforeend','<div class="note err">Браузер не смог открыть поток. Нажмите «⬇ Скачать MP4» и откройте файл.</div>')});
+}).catch(err=>fail('Не удалось загрузить список роликов: '+err.message));
+})();
+</script>
+</body>
+</html>

@@ -193,6 +193,17 @@ for forbidden in ("now-done>21*864e5", "l&&l.reviewed===true"):
 for required in ("topview-video-archive.json?fresh=", "function archivedDriveUrl(taskId,sceneId){", "function syncArchivedSceneLinks(){", "💾 Drive ", "💾 MP4 ", "syncArchivedSceneLinks();"):
     if required not in html:
         raise SystemExit("Archived Drive MP4 link regression: " + required)
+# Drive's own viewer cannot play these MP4s (written over text seed files, no video preview): links open video.html,
+# which streams drive.usercontent download URLs (19.10.2026).
+if "return 'video.html?task='" not in html or "return 'https://drive.google.com/file/d/'" in html:
+    raise SystemExit("Archived MP4 links must open video.html, not the Drive viewer")
+video_page = (root / "video.html").read_text(encoding="utf-8")
+for required in ("topview-video-archive.json?fresh=", "drive.usercontent.google.com/download?id=", "<video controls playsinline", "/^[0-9a-f]{32}$/"):
+    if required not in video_page:
+        raise SystemExit("video.html regression: " + required)
+# Worm story (19.10.2026): one file story/worm.md, shown in the top summary; no second copy in the page.
+if 'id="wormStory"' not in html or "fetch('story/worm.md?fresh='" not in html or not (root / "story" / "worm.md").is_file():
+    raise SystemExit("Worm story block regression")
 
 # Owner site panel and extra pages (18.10.2026): queue, lock, inbox, canon health, film order, reference buttons.
 for page in ("film.html", "references.html"):
