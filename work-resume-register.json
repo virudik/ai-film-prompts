@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T22:11:47.682314Z",
+  "last_updated_at": "2026-10-19T22:15:49.150Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -976,7 +976,36 @@
         "references/scenes/scene-50/manifest.json",
         "references/scenes/scene-51/manifest.json"
       ],
-      "pre_checkpoint_commit": "2c969de7fece479de5a122375c317c2078683d21"
+      "pre_checkpoint_commit": "2c969de7fece479de5a122375c317c2078683d21",
+      "publication_verification": {
+        "checked_at": "2026-10-19T22:15:49.150Z",
+        "editorial_commit": "7c39f7768ab2a97f22b630dfea15903c9ae1bbc1",
+        "all_11_files_read_back_exact": true,
+        "canonical_master_sha256": "c7406e699608eb94a80050094a081adfbc1aa3fa156d6eb275bf5e007b2e3b31",
+        "master_workflow": {
+          "run_id": 39333352160,
+          "conclusion": "success"
+        },
+        "integration_tests": {
+          "run_id": 39333352055,
+          "conclusion": "success"
+        },
+        "canon_health": {
+          "run_id": 39333352205,
+          "status": "ok",
+          "warnings": 0
+        },
+        "pages": {
+          "run_id": 39333442980,
+          "conclusion": "success",
+          "head": "1389190d3d6c5beabcbec16870c801e676563e9b",
+          "deployed_master_matches": true
+        },
+        "project_status": {
+          "health": "ok",
+          "synced_at": "2026-10-19T22:13:16Z"
+        }
+      }
     }
   ],
   "rules": [
