@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T22:50:00Z",
+  "updated_at": "2026-10-19T22:51:32.931Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4092,7 +4092,7 @@
       "canonical_block_label": "42 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "8cfb529eb9afdec7239414f61451b66af5cb0b8dcfc6c8f501bd105b30d13126",
       "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
-      "priority": 2.0,
+      "priority": 2,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4407,7 +4407,7 @@
       "canonical_block_label": "48 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "299a276b6bcd9b0728d06808411d00ca3433cb031a6db49e0b45347933166b50",
       "normalized_prompt_sha256": "65babee4d6257e9045580874cbe9c90f69bc9e29a480aa52ba7f83d45e5437c2",
-      "priority": 4.0,
+      "priority": 4,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4844,7 +4844,7 @@
       "canonical_block_label": "56 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619",
       "normalized_prompt_sha256": "438a48b97d000c1ac678fa3e14d2babdcd62c3466d073e9bddacdc4ebc751452",
-      "priority": 3.0,
+      "priority": 3,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5129,8 +5129,8 @@
       "canonical_block_label": "16 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "6b7349b5ab4868d8bbc0871d3f1efc75c0b4a0d811b4b0baa9583f59028c24e1",
       "normalized_prompt_sha256": "7d15714b6c6722834e564d8994768c77ea97a5992cbedd8ea80ec52e7707e42c",
-      "priority": 1.0,
-      "state": "waiting_for_slot",
+      "priority": 1,
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5204,7 +5204,28 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-worm-2026-10-19T225132931Z",
+        "claimed_at": "2026-10-19T22:51:32.931Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-19T22:51:17.927Z",
+          "boards": 11,
+          "pages": 17,
+          "total_tasks": 911,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "complete": true,
+          "duplicate_matches": 0,
+          "active_unlimited_task_ids": [
+            "e6a5cf9a3d04413e943c9bbbff9e1f73",
+            "e33891d4568a4a90b31ff3c67f5a7100",
+            "1e4928fa04ed4a0396d1d2ea4f5934bb",
+            "70ba69f8c44e4898ab587fbffeaeca01",
+            "bf3465e1c4de4a869f4bba5f2eed5acf"
+          ]
+        }
+      },
       "authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
       "replaces_unsubmitted_item": "S16-S16",
       "selection_record": "reports/worm-seedance-2026-10-20.md",
@@ -5473,20 +5494,20 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "checked_at": "2026-10-19T14:06:30Z",
+    "checked_at": "2026-10-19T22:51:17.927Z",
     "boards": 11,
     "pages": 17,
     "total_tasks": 911,
+    "occupied_slots": 5,
+    "free_slots": 1,
     "complete": true,
-    "occupied_slots": 6,
-    "free_slots": 0,
+    "duplicate_matches": 0,
     "active_unlimited_task_ids": [
+      "e6a5cf9a3d04413e943c9bbbff9e1f73",
       "e33891d4568a4a90b31ff3c67f5a7100",
       "1e4928fa04ed4a0396d1d2ea4f5934bb",
       "70ba69f8c44e4898ab587fbffeaeca01",
-      "bf3465e1c4de4a869f4bba5f2eed5acf",
-      "86741d99f7634e3b97e8b139996b83b0",
-      "e6a5cf9a3d04413e943c9bbbff9e1f73"
+      "bf3465e1c4de4a869f4bba5f2eed5acf"
     ]
   },
   "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA).",
