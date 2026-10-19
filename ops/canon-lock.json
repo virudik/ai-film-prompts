@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:drive-worm",
   "task": "Сократить строку хендофа (лимит 35 КБ)",
   "acquired_at": "2026-10-19T23:09:34Z",
-  "expires_at": "2026-10-19T23:29:34Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-19T23:11:24Z",
   "rules": "ops/CANON-LOCK.md"
 }
