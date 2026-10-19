@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T22:49:05.004Z",
+  "last_updated_at": "2026-10-19T22:54:14.950Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1010,15 +1010,16 @@
     {
       "work_id": "FILM-20261020-STORY-ACTIVITY-AUDIT",
       "title": "Аудит активности остальных 54 сюжетных промптов: предложения",
-      "status": "awaiting_owner_decision",
-      "verified_at": "2026-10-19T22:30:10.832Z",
+      "status": "completed",
+      "verified_at": "2026-10-19T22:54:14.950Z",
       "owner_instruction": "20.10.2026 01:24 МСК: Можно проверить и предложить сделать сцену более активной где это покажется необходимым",
       "source_master_blob": "495a1905ad2ed941f14ae2b9a9b4fc10224ace3e",
       "done": [
         "Проверены действие, тайминг, исполнение и ограничения всех54 остальных текстов18сцен;38 танцевальных/музыкальных относятся к предыдущей завершённой редактуре.",
         "Подготовлены адресные предложения:56 финальная стойка;48 ловля модуля;42 живое усилие при сохранении гэга;33/54 необязательное уплотнение;16 только резервная заметка, сцена принята.",
         "Сохранены намеренные паузы13/36/43/44/55, настороженный финал40 и показ записки в перелётах. Master и очередь при повторном чтении имеют те же git-blob, что в начале аудита.",
-        "Промпты/manifest/референсы/задачи не менялись; новых генераций и расходов нет. Это оценка текста, без нового просмотра видео и live-скана Topview."
+        "Промпты/manifest/референсы/задачи не менялись; новых генераций и расходов нет. Это оценка текста, без нового просмотра видео и live-скана Topview.",
+        "20Oct01:32 owner authorized worm/battle revisions;12blocks16/42/56/48 implemented in FILM-20261020-WORM-SEEDANCE. Optional33/54 suggestions not applied."
       ],
       "next_actions": [
         "Получить решение владельца по конкретным предложениям отчёта; до этого не применять их к master/очереди.",
@@ -1035,7 +1036,7 @@
       "work_id": "FILM-20261020-WORM-SEEDANCE",
       "title": "Активные бои с червём: Seedance2.0, первоочередная ветка и свободный запуск",
       "status": "in_progress",
-      "verified_at": "2026-10-19T22:49:05.004Z",
+      "verified_at": "2026-10-19T22:54:14.950Z",
       "owner_instruction": "20Oct2026 01:32:57MSK: доработать боевые/червя, запускать через Seedance, поставить следующими; слот освободился, кнопки сайта нажаты.",
       "done": [
         "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success.",
@@ -1043,17 +1044,27 @@
         "План включает16→42→56→48, учитывая явное поднятие16 кнопкой и новую команду; прежний принятый16 остаётся историческим результатом, новая версия не объявляется принятой.",
         "12prompt blocks revised;77 other current blocks unchanged;8 selected Seedance parts and four manifests/queue hashes verified; master validator healthy.",
         "55 owner buttons applied by robot10664f7 after guard fix9e89b581 (35 tests passed); accepted and inserted_into_film, retired from active master.",
-        "Existing hourly automation updated with worm priority; free browser inputs loaded, no submit yet."
+        "Existing hourly automation updated with worm priority; free browser inputs loaded, no submit yet.",
+        "Published72f3150c;10files exact readback; master/integration/canon workflows success; Pages39337702619 deployed exact master blobf64343d8;healthok.",
+        "S16-SEED20-P1 submitted once22:51:48UTC,task30cfaf12ad944cd6944416623397e41c;Seedance2.0/15s/720p/16:9/qty1/6images+1video/Unlimited/0credits;full normalized prompt exact.",
+        "Post-submit full11boards/17pages/912tasks:6active/0free. Receipt and UI proof saved; no further submit."
       ],
       "next_actions": [
-        "Verify publication/Pages, fresh global scan and anti-duplicate, CAS claim S16-SEED20-P1; one free GUI-submit; verify/save task receipt.",
-        "Following7parts await actual previous results and continuity QC; preserve existing accepted16."
+        "Same hourly automation: wait actual16P1 success, inspect real ending, save continuity source/SHA/QC, then16P2 at free slot.",
+        "Continue42P1→42P2→56P1→56P2→48P1→48P2 with actual output dependencies; new42Image6 only from new16P2.",
+        "Review actual activity after generation; no automatic approval or failed-task retry. Other scene priority and maintenance retained."
       ],
       "constraints": [
         "Только сайт Unlimited0,720p,16:9,quantity1; платныйMCPзапуск запрещён.",
         "Сохранить лица/костюмы/масштабчервя/сюжет; тишина13/36/43/44/55 и33/54 вне этой редакции.",
         "Не подменять последние кадры, не менять отправленные receipts; история16 и решения владельца сохраняются."
-      ]
+      ],
+      "evidence": [
+        "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.json",
+        "reports/worm-seedance-2026-10-20.md",
+        "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg"
+      ],
+      "waiting_on": "Topview generation result and free slot; all6physical slots occupied."
     }
   ],
   "rules": [

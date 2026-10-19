@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "run_id": "chatgpt-worm-2026-10-19T225132931Z",
+  "item_id": "S16-SEED20-P1",
+  "scene_id": 16,
+  "canonical_commit": "72f3150cc7d9dcf9378018dafdd990a23f1c62e2",
+  "task_id": "30cfaf12ad944cd6944416623397e41c",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-19T22:51:48Z",
+  "verified_at": "2026-10-19T22:54:14.950Z",
+  "source": "single GUI Create click; read-only Topview get_board_task verification",
+  "state": "submitted",
+  "task_status": "init",
+  "canonical_block_label": "16 · Seedance 2.0 часть 1",
+  "canonical_prompt_sha256": "6b7349b5ab4868d8bbc0871d3f1efc75c0b4a0d811b4b0baa9583f59028c24e1",
+  "normalized_prompt_sha256": "7d15714b6c6722834e564d8994768c77ea97a5992cbedd8ea80ec52e7707e42c",
+  "full_normalized_prompt_match": true,
+  "settings": {
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "creditsCost": 0
+  },
+  "input_count": {
+    "images": 6,
+    "videos": 1
+  },
+  "input_order": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/ilyusha.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/artem.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "role": "location",
+      "required": true,
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-16/S16-three-character-standoff.png",
+      "role": "pose_composition_helper",
+      "required": true,
+      "sha256": "81def51f389d53f9bd34132ddb197181e79fdc45519277b90862ff7345da61fb",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "role": "pose_composition_helper",
+      "required": true,
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Video1",
+      "path": "S16-desert-source-2.mp4",
+      "role": "continuity_video",
+      "required": true,
+      "sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+      "storage": "private_drive_or_library",
+      "drive_file_id": "1Zp52r9bgkozj-GUOCDmWb5mc6YNMSYiz",
+      "library_file_id": "libfile_1192520938908191a64a9d4c19412abc",
+      "source_topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
+      "input_status": "available"
+    }
+  ],
+  "actual_parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/7khoZcXS8mobo4mXumh4j.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/zIsniEv4XSCHY93qnuti0.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/bdaIQkz293nwSi7wp6ext.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/97fGu1zgo8my0c2DjveNU.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/10JR4pcrolkB4g8zTSB1z.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/30mRZnp7NNTiy0Vqcsr4s.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image6"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action desert space-fantasy blockbuster, serious disaster-action tone | Part 1 of 2: a three-way standoff on desert ruins is shattered as a colossal sandworm erupts and the fighters scatter\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — exact desert environment continuity: sandy plain, two tall glyph-covered gate piers, narrow central obelisk, scale and harsh daylight. Do not inherit its incidental faces, saber colours, vehicles or actions.\n<<<Image1>>>  — absolute identity of ILYUSHA, the Hooded Jedi.\n<<<Image2>>>  — absolute identity of ARTEM, the Bearded Jedi.\n<<<Image3>>>  — absolute identity of SEREGA, the Chancellor.\n<<<Image4>>>  — clean location plate reconstructed from <<<Video1>>> : environment geometry and daylight only.\n<<<Image5>>>  — opening composition: Ilyusha left, Artem centre-left, Serega right. Staging only.\n<<<Image6>>>  — worm scale and design after emergence, beyond the gate right of the obelisk. NOT the first frame; no worm at 0s.\nPriority: <<<Image1>>> –<<<Image3>>>  identities; <<<Video1>>>  and <<<Image4>>>  the ruins; <<<Image5>>>  opening staging; <<<Image6>>>  worm scale. Helpers never override faces or costumes.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nILYUSHA (Hooded Jedi), <<<Image1>>> : moustache, tousled chestnut-brown hair, weathered face, light olive-green layered tunic, deep-red hooded cloak, brown boots; BLUE lightsaber.\nARTEM (Bearded Jedi), <<<Image2>>> : heavier build, short beard, cream tunic under a brown Jedi over-robe, wide brown belt, brown boots; GREEN lightsaber.\nSEREGA (the Chancellor), <<<Image3>>> : pale older man, thinning light hair with a bald crown, mature serious face, long deep-purple robes; his lightsaber blade is RED when lit.\nExactly three people, each exactly once. No other characters, no vehicles.\n\nWORM / STAGING LOCK — CRITICAL:\nThe worm is gigantic on the scale of a natural disaster: towering, segmented, immense, with a massive circular maw and rows of teeth, always unmistakably larger than the gate piers and every surrounding structure. The worm's motion must feel massive and heavy, displacing huge volumes of sand. Its attacks are broad environmental threats: eruptions, surges, rears, sweeping passes, partial dives and re-emergence. The three characters must remain readable, keep their identities locked, and react believably to the danger. They are not standing still while the worm performs in the background: they are actively dodging, repositioning and trying to continue their conflict in the middle of the chaos. The worm never swallows, bites or touches anyone.\n\nSTART STATE:\nThe clean three-person standoff from <<<Image5>>>  in the exact <<<Image4>>>  ruins: Ilyusha frame-left with his blue blade lit, Artem centre-left with his green blade lit, Serega frame-right facing them at medium distance, hilt in hand. The worm is still beneath the sand and invisible. Gate piers and central obelisk stand intact. Wind moves robes and loose sand.\n\nTIMELINE:\n[0:00–0:03] — STANDOFF\nExact opening composition, one short breath of tense stillness. Serega ignites red; all three adjust planted feet and close their guards as sand grains tremble and a low rumble builds. The camera glides laterally at waist height, no static hero portrait.\n\n[0:03–0:08] — ERUPTION AND FIRST DODGE\nThe ground splits beyond the gate, right of the obelisk; the colossal worm bursts out in an explosive eruption. As the sand wave reaches them the three push off decisively and break laterally out of its path, robes snapping. They react during the eruption, not after a five-second look at the monster.\n\n[0:08–0:12] — RUN BENEATH THE GIANT\nLow wide: the worm rises to its immense full scale and sand pours off its segments. Keep the three sprinting across the foreground, planting and redirecting around existing rubble, each clear of the others. Falling fragments force a short grounded change of direction, no extra acrobatics.\n\n[0:12–0:15] — SCATTER IN MOTION\nFast lateral tracking wide, stable axis. Artem drives toward the left, Serega cuts toward the centre, Ilyusha moves to the right, continuing through the dust with lit blades. End mid-stride, not after stopping to present the worm.\n\nEND STATE:\nThe worm reared at full height beyond the gate, right of the obelisk, sand pouring off it; the three scattered in mid-stride through dust, Artem toward frame-left, Serega toward centre, Ilyusha toward frame-right, all alive, green/red/blue blades lit. Both gate piers and the central obelisk still stand; no winner, no module, no vehicle.\n\nCAMERA / SPACE:\nA lateral glide for the standoff, then action cuts on movement: a low wide for the eruption and rise, a fast lateral tracking wide for the scatter; keep screen direction and gate-obelisk geography. Parallax and dust layers sell scale. Speed in wides with whole bodies; faces recognised in the opening medium-wide in even light. Impact vibration only on the eruption; no micro-shake, no teleporting.\n\nPERFORMANCE:\nSerious blockbuster tone, no comedy. Cold standoff, sharp reactions, explosive weighty sprints. Ilyusha quick, Artem heavy, Serega cold and precise. No mugging. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.\n\nLIGHTING / MATERIALS:\nHarsh warm desert sun, dry haze, blown sand, long ruin shadows, natural motion blur, real cloth and dust; saber light on faces. Worm hide shedding sand.\n\nAUDIO:\nSaber hums, distant wind, then a powerful subterranean rumble, violent sand eruption, debris crashes, rushing sand and a huge monstrous roar with deep throat resonance; footsteps on sand and stone, robe movement, brief exertion breaths. No dialogue, no narrator, no music.\n\nNEGATIVE PROMPT:\nworm visible at the start, small or floating worm, worm touching anyone, characters ignoring the worm, static posing, blood, map module, vehicles, identity drift, melting faces, extra or duplicate people, costume changes, red cloak on Artem, wrong saber colours, warping ruins, teleporting camera, cartoon, subtitles, text, watermark, slow motion, extended hero poses, frozen tableau, feet sliding without steps, weightless landings, repeated mechanical arm loops.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/3oPrUBZQkM0VHVZ9tCzsR.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 15
+      }
+    ],
+    "boardTaskId": "30cfaf12ad944cd6944416623397e41c",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "creditsCost": 0,
+  "useUnlimitMode": true,
+  "preflight": {
+    "checked_at": "2026-10-19T22:51:17.927Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 911,
+    "occupied_slots": 5,
+    "free_slots": 1,
+    "complete": true,
+    "duplicate_matches": 0,
+    "active_unlimited_task_ids": [
+      "e6a5cf9a3d04413e943c9bbbff9e1f73",
+      "e33891d4568a4a90b31ff3c67f5a7100",
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf"
+    ]
+  },
+  "postflight": {
+    "checked_at": "2026-10-19T22:52:29.483Z",
+    "boards": 11,
+    "pages": 17,
+    "total_tasks": 912,
+    "complete": true,
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "active_unlimited_task_ids": [
+      "30cfaf12ad944cd6944416623397e41c",
+      "e6a5cf9a3d04413e943c9bbbff9e1f73",
+      "e33891d4568a4a90b31ff3c67f5a7100",
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf"
+    ]
+  },
+  "ui_proof": "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg",
+  "task_url": "https://www.topview.ai/board/1a6244cf1ae747ef847d949a80d6133c?tool-type=video-edit&boardResultId=30cfaf12ad944cd6944416623397e41c",
+  "technical_success_is_editorial_approval": false,
+  "verification_note": "All seven uploaded files SHA-verified locally; UI thumbnails/order and actual named Image1–6/Video1 confirmed. Full prompt matches canonical under repository normalization. No rerun or paid route.",
+  "publication_verification": {
+    "run_id": 39337702619,
+    "conclusion": "success",
+    "deployed_commit": "95ac362641e4b6585dff2b1f219e0519cc9a7a01",
+    "master_blob": "f64343d8905f0cdf85f015b3646031d62e34c215",
+    "master_sha256": "ab07501595f15741ff5e675942d331612ee5247064b6874ae1c5b107b7f95089"
+  }
+}
