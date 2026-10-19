@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T10:02:39Z",
-  "status": "ok",
-  "warnings": 0,
+  "checked_at": "2026-10-19T23:08:09Z",
+  "status": "warn",
+  "warnings": 1,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает еженедельное расписание Claude.",
   "problems": [
+    {
+      "level": "warn",
+      "code": "handoff-size",
+      "text": "Хендоф 35 КБ (цель до 35 КБ): старые блоки перенести в журнал archive/handoff-log.md.",
+      "file": "NEW-CHAT-HANDOFF.md"
+    },
     {
       "level": "info",
       "code": "instruction-size",
