@@ -6,7 +6,7 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**22 сцены к генерации/доработке · 89 полных текстов промта**
+**22 сцены к генерации/доработке · 92 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 6** сцен сейчас в медленной генерации: **36, 37, 41, 43, 54, 55** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
@@ -49,7 +49,7 @@
 |---|-------|-----------|-----------------|
 | 13 | [Совет джедаев — говорящий кот Лучик](#scene-13) | @image1 = композиция/локация; @image2 = Лучик; @image4 = Black; @image5 = Purple | После решения Совета кот на коленях у Purple спокойно человеческим голосом подтверждает решение. Black с кальяном и Purple воспринимают это как совершенно нормальное событие. |
 | 16 | [Татуин — гигантский пустынный червь и бой на руинах](#scene-16) | @video1 = локация/герои Татуина | Огромный червь в духе Dune вырывается из песка в локации @video1 и разносит всё вокруг, пока герои сражаются на его фоне и уворачиваются от атак. Технический результат получен; требуется отдельная редакционная проверка. |
-| 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; H28A/H28B; сохранённые P28/L28/F28; R28A/R28B как композиционные helpers; S28/G28 проверены; C28 только после результата части 2 | Две версии: 10×15 с Seedance 2.0 / 10×30 с Wan 3.0. Церемония → дискотека; жесты у лица, разъезд, кружение на руках и на плече; монтаж около 90 с; `READY` для поэтапного запуска; часть 3 ждёт C28 из части 2. Решение владельца: на переделку; ожидание завершено. |
+| 28 | [Финальные титры — имперский строевой танец](#scene-28) | Character sheets из «Персонажей»; H28A/H28B; сохранённые P28/L28/F28; R28A/R28B как композиционные helpers; S28/G28 проверены; C28 только после результата части 2 | Две версии: 10×15 с Seedance 2.0 / 10×30 с Wan 3.0; отдельный короткий дуэт A11–A12 (2×15 с) / B11 (30 с). Церемония → дискотека; жесты у лица, разъезд, кружение на руках и на плече; монтаж около 90 с; `READY` для поэтапного запуска; часть 3 ждёт C28 из части 2. Решение владельца: на переделку; ожидание завершено. |
 | 33 | [Серёга изучает древний город ситхов](#scene-33) | @Image1 Серёга; @Image2 точные руины | Атмосферная проходка Серёги по локации битвы, осмотр каменной архитектуры и обнаружение входа храма. Технический результат получен; требуется отдельная редакционная проверка. |
 | 36 | [После пещеры: Серёга уходит с фрагментом карты](#scene-36) | Серёга, Паша, Саша; пещера; модуль карты | Продолжение уже вставленной Scene 17: Серёга прячет модуль и уходит к водяной завесе, Паша и Саша остаются на Набу. READY: настоящий финальный кадр результата Scene 17 сохранён и проверен.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 37 | [Отлёт Серёги с Набу к лесной планете](#scene-37) | Серёга; корабль Канцлера; модуль карты; берег Набу из 39; лесная планета | Взлёт с того же берега у брошенной стоянки, где сел в 39, стикер «хлеб и молоко», модуль указывает на лесную планету; без посадки, стык перед лесной парой. READY: реальные кадры корабля и новый референс лесной планеты сохранены.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
@@ -696,6 +696,8 @@ Seedance 2.0 task `fec838b4f63b452c8c76fe50f8e0fdad` технически зав
 
 **Правка владельца 17.10.2026, 16:11 МСК:** A1–A10/B1–B10 переработаны на энергичные странные движения и более крупные фигуры. Сначала разрешён ровно один 15-секундный тест A1 на Seedance 2.0; остальные новые танцевальные запуски ждут оценки теста. Существующие B3/B5–B9 продолжают генерироваться по прежним заданиям; эти правки не изменяют уже отправленные задачи. Старые тексты и хеши сохранены в git и receipts. Для A1/B1 три входа: H28B + Серёга + Юля; свет уже включён, пауза перед танцем убрана.
 
+**Короткий парный вариант · 20.10.2026:** по просьбе владельца добавлен отдельный дуэт Серёги и Юли: **A11→A12 (Seedance 2.0, 2×15 с)** или **B11 (Wan 3.0 / Seedance 2.5, 30 с)**. Это альтернатива парным вставкам длинного номера, а не обязательные дополнительные 30 секунд. Горизонтальная поддержка с раскрытыми руками → пол-оборота → постановка на ноги → один взаимный двухручный жест у лица → расхождение. Тайминг адаптирован для наших персонажей, не является покадровой копией. Разбор наблюдений и ограничений просмотра: [парный танец](reports/peacemaker-s2-couple-2026-10-20.md). Существующие A1–A10/B1–B10 и история их запусков сохранены; теперь в сцене 23 автономных блока. Для нового дуэта не подключать L28/S28: они закрепляют другую, сидячую/согнутую позу. Три существующих входа A11/B11 проверены; A12 требует настоящий результат A11. Подготовка текста не означает запуск или принятие; новые варианты автоматически не добавлены к разрешённой очереди.
+
 ### Два состояния одной локации
 
 <div class="scene28-ref-gallery" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:14px 0 20px">
@@ -1285,6 +1287,132 @@ FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
+#### A11 · Короткий дуэт — 1/2: горизонтальная поддержка и поворот
+
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action deadpan partner dance, coherent weight-bearing movement
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B, exact environment and established disco lighting only.
+@Image2 — absolute SEREGA identity, proportions and costume.
+@Image3 — absolute YULIA identity, proportions and costume.
+Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+
+HANGAR / PARTNER GEOMETRY — CRITICAL:
+Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+
+SUPPORT / PHYSICS — CRITICAL:
+The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
+
+START STATE:
+Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
+
+TIMELINE:
+[0:00–0:03] APPROACH AND PREPARE
+They take two decisive steps toward one another. Serega lowers his centre of gravity; Yulia gives a small coordinated knee bend and turns her side toward his chest. His forearms establish the two visible support points before her feet leave the floor.
+
+[0:03–0:06] HORIZONTAL OPENING
+He rises through his legs into the supported horizontal side lift. Yulia extends both legs together and opens both arms into a wide wing-like line. Her torso remains actively held, her head separate from his. No sitting-on-shoulder pose.
+
+[0:06–0:10] SHARED HALF-TURN
+Serega takes four compact grounded pivot steps through one half-turn, clockwise viewed from above. Yulia travels with him as one supported unit, arms open; no independent spinning and no camera orbit to fake the turn.
+
+[0:10–0:13] CONTROLLED LOWERING
+He bends his knees and lowers her feet to the floor, keeping the upper-back and thigh support until she stands on her own. She closes the wing shape naturally as her feet land. Show the full transition.
+
+[0:13–0:15] FACE-TO-FACE HANDOFF
+They take one short settling step onto the original left/right marks, turn face-to-face and release all support. Hands down; hold the clean no-contact handoff only on the final beat.
+
+END STATE:
+Both stand fully on the floor, Serega left facing right and Yulia right facing left, roughly 60 cm apart. Yulia has regained her own balance; both arms are down and no hand is attached to the other person. Unchanged light, costume, action axis and floor marks.
+
+CAMERA / SPACE:
+A clear full-body two-shot, natural 40–50mm perspective. The pair occupies most of the frame, with enough lateral room for the horizontal support and both sets of feet. A short smooth lateral track reveals both faces and support hands during the half-turn without orbiting or crossing the axis. Do not crop the carrier feet or the extended legs. Ease into a waist-up two-shot only after both partners are standing again. No cuts across the pickup or lowering.
+
+PERFORMANCE:
+Utterly serious faces and sustained partner attention, with confident, committed full-body movement. Shoulders breathe, knees flex and weight transfers on every step. Comedy comes from a grand romantic duet treated as solemn ceremony. No malfunctioning-robot arm pumping, marching-in-place loop, mugging, grinning or prolonged frozen poses.
+
+LIGHTING / MATERIALS:
+Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+
+AUDIO:
+Only quiet hangar room tone, shoe contacts and cloth/armor movement. No speech, singing, generated song, recognizable melody or applause. Movement follows a steady internal four-count; external music is added in the edit.
+
+NEGATIVE PROMPT:
+Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### A12 · Короткий дуэт — 2/2: жест у лица и расхождение
+
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли · @Video1 = настоящий конец нового A11; до его получения эта часть DRAFT.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action deadpan partner dance, coherent weight-bearing movement
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B, exact environment and established disco lighting only.
+@Image2 — absolute SEREGA identity, proportions and costume.
+@Image3 — absolute YULIA identity, proportions and costume.
+Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
+@Video1 — actual final seconds of the preceding A11 result: standing handoff, framing and exact floor positions only. Individual sheets retain face/costume authority; continue the same bodies and movement.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+
+HANGAR / PARTNER GEOMETRY — CRITICAL:
+Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+
+START STATE:
+Both stand fully on the floor, Serega left facing right and Yulia right facing left, roughly 60 cm apart. Yulia has regained her own balance; both arms are down and no hand is attached to the other person. Unchanged light, costume, action axis and floor marks.
+
+TIMELINE:
+[0:00–0:03] SHARED PULSE
+From the actual standing handoff, both perform one pronounced knee pulse and a small opposing torso lean, maintaining eye contact. Their bodies answer one another, no marching or pumping elbows.
+
+[0:03–0:06] YULIA'S TWO-HAND FAN
+Yulia lifts BOTH open hands toward the outside edges of Serega's jaw and temples, frames his face in one continuous symmetrical fan, then opens her hands outward and lowers them. Her palms remain just outside the skin, never over his eyes or nose. Serega inclines his head slightly into the gesture; he does not touch her simultaneously.
+
+[0:06–0:09] SEREGA'S ANSWER
+After her hands clear, Serega mirrors one two-hand fan around the outside of Yulia's face, then opens his arms outward and lowers them. She answers with a slight head inclination. Exactly one phrase by each partner, no repeated cheek rubbing or slapping.
+
+[0:09–0:13] RELEASE AND SEPARATION
+They open their shoulders away from one another and retreat on two deliberate heel-toe steps each, travelling about 70 cm in opposite directions. Their inside arms reach toward the partner without contact; there is no invisible hand pulling or skating without weight transfer.
+
+[0:13–0:15] COUNTERBALANCED FINISH
+They settle into opposing low outward lunges, still looking back at one another. One shared chest accent, then a crisp final beat. Keep the reach across an empty gap and the solemn expressions.
+
+END STATE:
+Both stand two metres apart, Serega left and Yulia right, each in a low outward lunge with their inside hand extended toward the other across an empty air gap. They look at one another with solemn faces; feet planted, hands not touching, cloaks settling.
+
+CAMERA / SPACE:
+Start by matching the supplied Video1 final framing and axis. A restrained push makes both faces and all four hands readable during the exchange; then track smoothly back to a full-body two-shot BEFORE the retreat. Keep faces clear, both feet visible during travel, and lateral space for both lunges. One continuous readable phrase, no reverse angle or camera orbit.
+
+PERFORMANCE:
+Utterly serious faces and sustained partner attention, with confident, committed full-body movement. Shoulders breathe, knees flex and weight transfers on every step. Comedy comes from a grand romantic duet treated as solemn ceremony. No malfunctioning-robot arm pumping, marching-in-place loop, mugging, grinning or prolonged frozen poses.
+
+LIGHTING / MATERIALS:
+Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+
+AUDIO:
+Only quiet hangar room tone, shoe contacts and cloth/armor movement. No speech, singing, generated song, recognizable melody or applause. Movement follows a steady internal four-count; external music is added in the edit.
+
+NEGATIVE PROMPT:
+Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
 </div>
 
 <div class="engine-pane" data-engine="wan30" data-duration="10 × 30 с">
@@ -1772,6 +1900,79 @@ Rapid strobing, facial color flicker, magenta skin, costume recoloring, lighting
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
+```
+
+#### B11 · Короткий дуэт — полная версия на 30 секунд
+
+**Референсы:** @Image1 = H28B · @Image2 = sheet Серёги · @Image3 = sheet Юли.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action deadpan partner dance, coherent weight-bearing movement
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — H28B, exact environment and established disco lighting only.
+@Image2 — absolute SEREGA identity, proportions and costume.
+@Image3 — absolute YULIA identity, proportions and costume.
+Priority: each individual identity sheet controls only its own person; the location cannot change their appearance. No identity blending. The partners remain full-size adults.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+SEREGA: the exact pale older Chancellor from @Image2, balding crown with sparse light hair, approved build, long deep-purple robe. YULIA: the exact adult woman from @Image3, long chestnut hair, dark black-grey armor with shoulder pieces, gloves and a long black cloak. Preserve their real faces, ages, heights and body proportions through profile and movement. No beautification, recasting, costume changes or weapons. Each reference sheet shows multiple views of ONE person; exactly two adults appear.
+
+HANGAR / PARTNER GEOMETRY — CRITICAL:
+Photoreal live-action in the H28B Imperial hangar: fixed graphite ribs, white wall strips, satin dark floor, flush starburst medallion, amber guide lines, cyan/magenta floor borders, rear space opening and parked shuttle deep frame-right. Location establishes architecture and light, not a distant camera. No other dancers. Preserve a single action axis, Serega's starting mark frame-left, Yulia's frame-right. Dance together with visible shared weight and anticipation; never two unrelated solo routines.
+
+SUPPORT / PHYSICS — CRITICAL:
+The lift is a broad, supported horizontal side lift across Serega's upper chest, below his face: his left forearm supports Yulia's upper back/ribcage, his right supports both thighs just above her knees. Her head stays toward his left side and her feet toward his right. Both legs extend together, knees softly unlocked; she opens both arms like wings once stable. Serega supports her throughout, flexing his knees and turning with grounded steps. She is not seated upright on a shoulder, not a limp bundle with tucked knees, not balanced on his neck, not floating independently. Do not throw her or swap support hands during the turn. Her cloak hangs freely behind her, never through his torso.
+
+START STATE:
+Both stand on the floor, Serega frame-left facing diagonally right and Yulia frame-right facing diagonally left, about one metre apart. Hands clear, both faces readable, H28B lights already established. Begin the approach immediately, no entrance or light-switching prelude.
+
+TIMELINE:
+[0:00–0:04] APPROACH
+Two decisive steps together, shared knee bend, establish the visible upper-back and thigh supports before lifting.
+
+[0:04–0:08] HORIZONTAL OPENING
+Rise into the supported horizontal side lift; Yulia extends both legs together and opens both arms like wings. Faces stay separate and visible.
+
+[0:08–0:12] SHARED HALF-TURN
+Four grounded pivot steps through one clockwise half-turn viewed from above, fixed supports. The camera does not orbit to manufacture motion.
+
+[0:12–0:16] LOWER AND RECONNECT
+Lower her feet to the floor under continuous support; release only after she regains balance. Return to Serega left / Yulia right, face-to-face, hands down, roughly 60 cm apart.
+
+[0:16–0:20] YULIA'S FACE-FRAMING FAN
+One shared knee pulse. Yulia raises BOTH open hands just outside his jaw and temples, frames his face, then opens outward and lowers her hands. Palms never obscure eyes or nose; he inclines his head. One complete phrase, no repeated rubbing.
+
+[0:20–0:24] SEREGA ANSWERS
+Only after her hands clear, he mirrors one two-hand fan around her face and opens his arms outward. She answers with a small head inclination; both keep serious faces.
+
+[0:24–0:28] SEPARATION
+They rotate their shoulders outward and retreat with two visible heel-toe steps each, approximately 70 cm per person. Reach their inside arms toward one another without contact, keeping eye contact.
+
+[0:28–0:30] FINISH
+Settle into opposing low outward lunges, one shared chest accent, then a crisp final beat. No extra dance loop.
+
+END STATE:
+Both stand two metres apart, Serega left and Yulia right, each in a low outward lunge with their inside hand extended toward the other across an empty air gap. They look at one another with solemn faces; feet planted, hands not touching, cloaks settling.
+
+CAMERA / SPACE:
+A clear full-body two-shot, natural 40–50mm perspective. The pair occupies most of the frame, with enough lateral room for the horizontal support and both sets of feet. A short smooth lateral track reveals both faces and support hands during the half-turn without orbiting or crossing the axis. Do not crop the carrier feet or the extended legs. Ease into a waist-up two-shot only after both partners are standing again. No cuts across the pickup or lowering. For the face exchange use a waist-up two-shot; smoothly widen before the outward steps. Keep the same axis throughout.
+
+PERFORMANCE:
+Utterly serious faces and sustained partner attention, with confident, committed full-body movement. Shoulders breathe, knees flex and weight transfers on every step. Comedy comes from a grand romantic duet treated as solemn ceremony. No malfunctioning-robot arm pumping, marching-in-place loop, mugging, grinning or prolonged frozen poses.
+
+LIGHTING / MATERIALS:
+Disco accents are already on, steady cyan/magenta around the floor and behind the pair. A constant soft neutral-white key lights faces, eyes and hands. Preserve pores, fabric weave, age and armor finish; natural motion blur only. Cloaks trail with inertia, stay separate and do not catch beneath feet. Faint floor reflections, no mirrored extra performers.
+
+AUDIO:
+Only quiet hangar room tone, shoe contacts and cloth/armor movement. No speech, singing, generated song, recognizable melody or applause. Movement follows a steady internal four-count; external music is added in the edit.
+
+NEGATIVE PROMPT:
+Wrong people, blended faces, changed age or hair, costume drift, extra dancers, duplicate sheet bodies, shrinking the adult woman, distorted limbs or fingers, hands fused to cheek or armor, stretched arms, broken joints, weightless lift, floating carrier, spinning in place without footwork, body intersection, shoulder-saddle seating, limp cradle carry, dropped partner, toss, neck grip, slap, face wiping across eyes/nose, kiss, unrelated robotic solos, repeated tiny steps, slow motion, long idle hold, camera roll, sudden orbit, empty-hangar wide shot, face-obscuring blur, strobe, changing architecture, dialogue, song, captions, credits, logos, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
 ```
 
 </div>

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 28,
-  "updated_at": "2026-10-17T13:27:23.958826+00:00",
+  "updated_at": "2026-10-19T21:39:19.411997Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -634,7 +634,7 @@
   ],
   "remaining": [],
   "technical_success_is_editorial_approval": false,
-  "canonical_master_sha256": "81d821e0b047cd9345669e8b7dc2722d492aee7c8e44f78ff7e30a7643b9fd75",
+  "canonical_master_sha256": "e40d2a723611f7d177836cb53335d228af1e3e769b11d9b6bed0fb9ecde452f0",
   "identity_refs": [
     "references/scenes/scene-28/Ale28-Alesya-model-sheet.png",
     "references/full/serega.jpg",
@@ -1445,6 +1445,115 @@
       "launch_readiness": "blocked_test_review",
       "owner_generation_approval_inferred": false,
       "previous_prompt_sha256_before_20261017": "b04748bd15e4466342e865185dbfefb2933e0986fb8551f32490f0d8758bdbb4"
+    },
+    {
+      "prompt_id": "A11",
+      "canonical_heading": "A11 · Короткий дуэт — 1/2: горизонтальная поддержка и поворот",
+      "canonical_prompt_sha256": "2db2e390ae902a7dde491ed1a4ba6af2ef691a3db9f6f9ba2de40707c6b2ba64",
+      "normalized_prompt_sha256": "4570862e57da82e6d306111f91622079844631bb5ed16d86979c92b387dc904d",
+      "characters": 6570,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        }
+      },
+      "launch_readiness": "inputs_verified_not_submitted",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "A12",
+      "canonical_heading": "A12 · Короткий дуэт — 2/2: жест у лица и расхождение",
+      "canonical_prompt_sha256": "1cdc474f15e072277f7b48f7bba071a63e09ab9eee2e76e4ce87d006e23ef4df",
+      "normalized_prompt_sha256": "f4672b7a1907e2d1179e6784283a437f63717dcd2eb2d8cd4276cb5f2fc96c7b",
+      "characters": 6099,
+      "duration_seconds": 15,
+      "model": "Seedance 2.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        },
+        "@Video1": {
+          "required": true,
+          "role": "previous_part_end",
+          "status": "required_not_available",
+          "source_prompt_id": "A11",
+          "source_requirement": "Actual new A11 result ending; save trim, task ID, SHA and continuity QC. No old B2/C28 or generated still substitute."
+        }
+      },
+      "launch_readiness": "blocked_continuity",
+      "owner_generation_approval_inferred": false
+    },
+    {
+      "prompt_id": "B11",
+      "canonical_heading": "B11 · Короткий дуэт — полная версия на 30 секунд",
+      "canonical_prompt_sha256": "8577393816d2fb3b312a59316967708670ea792f668b52fd69740d7b59fbffd2",
+      "normalized_prompt_sha256": "4ce89281f6729f60ea84d44343886d88ee4967bcc98723d3b562cf5a7b8c9a9f",
+      "characters": 6948,
+      "duration_seconds": 30,
+      "model": "Wan 3.0",
+      "slots": {
+        "@Image1": {
+          "asset_id": "references/scenes/scene-28/H28B-disco.png",
+          "required": true,
+          "role": "location",
+          "status": "available",
+          "sha256": "773c640e68e23f2e129f10012ec34d4a02cb49f85a2759d2cbe1b82a9a15153b"
+        },
+        "@Image2": {
+          "asset_id": "references/full/serega.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9"
+        },
+        "@Image3": {
+          "asset_id": "references/full/yulya.jpg",
+          "required": true,
+          "role": "identity",
+          "status": "available",
+          "sha256": "c1f4cbda2c7733131f5309e1397938c951e8b957274bf3da83fc66efd277694a"
+        }
+      },
+      "launch_readiness": "inputs_verified_not_submitted",
+      "owner_generation_approval_inferred": false
     }
   ],
   "site_published": {
@@ -1590,5 +1699,22 @@
     "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
     "note": "Six verified web submissions, unlimited=true and creditsCost=0. Future/browser-session availability must be checked live."
   },
-  "launch_gate": "One15s corrected A1 test only; all other new dance submissions wait owner review. Existing active tasks unchanged."
+  "launch_gate": "One15s corrected A1 test only; all other new dance submissions wait owner review. Existing active tasks unchanged.",
+  "couple_variant_20261020": {
+    "source": "reports/peacemaker-s2-couple-2026-10-20.md",
+    "seedance_parts": [
+      "A11",
+      "A12"
+    ],
+    "wan_30s": "B11",
+    "do_not_use_pose_helpers": [
+      "L28",
+      "S28"
+    ],
+    "state": "prompts_prepared_no_generation",
+    "remaining": [
+      "Actual A11 ending before A12",
+      "Evaluate physical support, faces, hand clearance and choreography in generated output"
+    ]
+  }
 }
