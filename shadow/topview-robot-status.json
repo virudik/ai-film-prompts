@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-19T23:00:11Z",
+  "checked_at": "2026-10-19T23:10:10Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -25,7 +25,9 @@
     "pages_scanned": 1,
     "tasks_seen": 20,
     "api_requests": 8,
-    "detail_failed": []
+    "detail_failed": [
+      "1e4928fa04ed4a0396d1d2ea4f5934bb"
+    ]
   },
   "cursor": {
     "board_task_counts": {
@@ -61,8 +63,8 @@
       "model": "Wan 3.0",
       "scene_id": 54,
       "mapping": "task_map",
-      "queue_count": 2055,
-      "wait_seconds": 64270,
+      "queue_count": 2037,
+      "wait_seconds": 63672,
       "process_seconds": null
     },
     {
@@ -74,8 +76,8 @@
       "model": "Seedance 2.0",
       "scene_id": null,
       "mapping": "unknown_new",
-      "queue_count": 4052,
-      "wait_seconds": 176590,
+      "queue_count": 4035,
+      "wait_seconds": 175991,
       "process_seconds": null
     },
     {
@@ -87,8 +89,8 @@
       "model": "Wan 3.0",
       "scene_id": 43,
       "mapping": "task_map",
-      "queue_count": 1638,
-      "wait_seconds": 46991,
+      "queue_count": 1619,
+      "wait_seconds": 46392,
       "process_seconds": null
     },
     {
@@ -100,8 +102,8 @@
       "model": "Wan 3.0",
       "scene_id": 41,
       "mapping": "task_map",
-      "queue_count": 1157,
-      "wait_seconds": 29709,
+      "queue_count": 1132,
+      "wait_seconds": 29111,
       "process_seconds": null
     },
     {
@@ -113,8 +115,8 @@
       "model": "Wan 3.0",
       "scene_id": 36,
       "mapping": "task_map",
-      "queue_count": 2429,
-      "wait_seconds": 81550,
+      "queue_count": 2412,
+      "wait_seconds": 80951,
       "process_seconds": null
     },
     {
@@ -126,8 +128,8 @@
       "model": "Seedance 2.0",
       "scene_id": 37,
       "mapping": "task_map",
-      "queue_count": 3187,
-      "wait_seconds": 124749,
+      "queue_count": 3170,
+      "wait_seconds": 124150,
       "process_seconds": null
     }
   ],
@@ -169,7 +171,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-19T22:50:15Z",
-    "monitor_age_minutes": 10,
+    "monitor_age_minutes": 20,
     "monitor_occupied": 5,
     "robot_occupied": 6,
     "consistent": false,
