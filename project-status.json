@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-19T13:50:15Z",
+  "synced_at": "2026-10-19T14:20:16Z",
   "revision_date": "19.10.2026",
   "master_declared_last_full_sync": "19.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "6d14867b5f44941dc50a2ec3e37acbfd9893c66b4108d62e1d5d50582922883d",
-  "canonical_revision_sha256": "fc8a6a65c21fd5410f950cab1293a27cb6bfd4e202197ed5fc4072b6b42e24f0",
-  "canonical_master_bytes": 856640,
+  "canonical_master_sha256": "7c1cf45f759c3d5b8bbb2277eb719bb6d7b094dd5a0d01559290ceef7c145f51",
+  "canonical_revision_sha256": "e09ed12d6474cf02e68d97f1cd3518011bcdd6102de27ebe8b0ed0c2ec643686",
+  "canonical_master_bytes": 857051,
   "scenes": 22,
   "prompt_texts": 89,
   "work_items": [
@@ -27,12 +27,13 @@
   "work_items_count": 11,
   "slow_scenes": [
     36,
+    37,
     41,
     43,
     54,
     55
   ],
-  "slow_scenes_count": 5,
+  "slow_scenes_count": 6,
   "scene_ids": [
     13,
     16,
@@ -99,7 +100,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 3.797,
+    "age_hours_at_status_build": 4.297,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -178,7 +179,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 3.797,
+      "age_hours": 4.297,
       "blocking": false
     },
     "topview_task_map": {
@@ -303,7 +304,7 @@
         "bread_and_milk",
         "continuity"
       ],
-      "render_state": "IDLE"
+      "render_state": "SLOW_PENDING"
     },
     "39": {
       "target_engine": "Seedance 2.0",
@@ -692,9 +693,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "19.10.2026",
-    "synced_at": "2026-10-19T13:50:15Z",
-    "canonical_master_sha256": "6d14867b5f44941dc50a2ec3e37acbfd9893c66b4108d62e1d5d50582922883d",
-    "canonical_revision_sha256": "fc8a6a65c21fd5410f950cab1293a27cb6bfd4e202197ed5fc4072b6b42e24f0",
+    "synced_at": "2026-10-19T14:20:16Z",
+    "canonical_master_sha256": "7c1cf45f759c3d5b8bbb2277eb719bb6d7b094dd5a0d01559290ceef7c145f51",
+    "canonical_revision_sha256": "e09ed12d6474cf02e68d97f1cd3518011bcdd6102de27ebe8b0ed0c2ec643686",
     "scene_count": 22,
     "prompt_count": 89,
     "scene_ids": [
@@ -736,6 +737,7 @@
     ],
     "slow_scenes": [
       36,
+      37,
       41,
       43,
       54,
