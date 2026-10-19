@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-19T12:18:59Z",
-  "state": "blocked_browser",
+  "updated_at": "2026-10-19T14:04:45Z",
+  "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
     "authorized_at": "2026-10-15T19:03:10Z",
@@ -3541,7 +3541,7 @@
       "canonical_prompt_sha256": "8791feaa54e426357664e0cc7f060c82ac249754b8a04bd03931207106725ff0",
       "normalized_prompt_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
       "priority": 4,
-      "state": "blocked_browser",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3585,11 +3585,40 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-s37p1-20261019T1404Z",
+        "claimed_at": "2026-10-19T14:04:45Z",
+        "actor": "ChatGPT Work",
+        "holder": "chatgpt",
+        "route": "free_web_gui",
+        "account_scan": {
+          "checked_at": "2026-10-19T14:00:00Z",
+          "boards": 11,
+          "pages": 16,
+          "total_tasks": 910,
+          "complete": true,
+          "occupied_video_slots": 5,
+          "free_video_slots": 1
+        },
+        "dedup": "Fresh complete 910-task account scan: zero exact normalized S37 Seedance2.0 Part1 prompt matches",
+        "ui_verified": {
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited": true,
+          "credits": 0,
+          "prompt_length": 5869,
+          "prompt_normalized_sha256": "f3226d9798b3d0a7a1c9406cde7d071d1fd15b681374fc595b9d7616b2e606d9",
+          "input_sha_verified": true,
+          "input_count": 4
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S37-S37",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "blocker": "19Oct2026 14:55MSK: full live scan found one free video slot and authenticated Ultra website access; Seedance2.0/15s/720p/16:9/qty1 was selected, but the cloud-browser file chooser could not transfer the four exact repository inputs. GitHub browser downloads arrived without supported extensions, and direct workspace paths were not materialized by Topview. No claim, Create click, submission, paid fallback, or credit spend. Resume only after a supported owner-browser import path is available and repeat full scan/preflight."
+      "blocker_resolution": "2026-10-19T14:04:45Z: cloud shared-files path corrected; four inputs loaded in exact canonical order and UI preflight passed."
     },
     {
       "id": "S37-SEED20-P2",
