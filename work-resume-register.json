@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T21:52:57.350Z",
+  "last_updated_at": "2026-10-19T21:56:25.037Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -944,6 +944,22 @@
           "priority": 400
         }
       }
+    },
+    {
+      "work_id": "FILM-20261020-ACTIVE-MUSIC",
+      "title": "Активная постановка всех танцевальных и музыкальных промптов28/49–51",
+      "status": "in_progress",
+      "verified_at": "2026-10-19T21:56:25.037Z",
+      "owner_instruction": "20.10.2026 00:55:34 МСК: Доведи промты до нужного активного результата",
+      "scope": "Edit current prompts in existing master28/49/50/51, both engine alternatives; preserve identities/location/props/start-end continuity and submitted receipts. Update pending queue hashes/mappings without unlocking or launching extra tests.",
+      "baseline": "Previous audit:28 already more active but repetitive robot gestures and stretched30s alternatives;49 contains sparse action and holds;51 slow wind-up;50 active. A11/A12/B11 prepared. One energetic15s test remains awaiting submission after story.",
+      "done": [],
+      "next_action": "Read full target prompts and style guide, rewrite concrete motion and timing, then reconcile hashes and validate.",
+      "constraints": [
+        "Existing one-test then owner-review gate remains.",
+        "No submissions, credits, automatic approval or new scenes.",
+        "Already-submitted prompt hashes/receipts remain historical; changes apply only to future renders."
+      ]
     }
   ],
   "rules": [
