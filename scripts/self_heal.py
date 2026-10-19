@@ -184,7 +184,10 @@ def sh(*args, check=False):
 
 def gh_json(path):
     r = sh("gh", "api", "-H", "Accept: application/vnd.github+json", path)
-    return json.loads(r.stdout) if r.returncode == 0 and r.stdout.strip() else None
+    if r.returncode or not r.stdout.strip():
+        print(f"::warning::self-heal could not read {path}: {(r.stderr or '').strip()[:200]}")
+        return None
+    return json.loads(r.stdout)
 
 
 def read_json(root, rel, default=None):
@@ -251,7 +254,9 @@ def main(argv=None):
         before_inbox = json.dumps(inbox, ensure_ascii=False, sort_keys=True)
         actions, state, inbox, changed = plan(facts, prev, inbox, now)
         lock_release = any(x["kind"] == "release_lock" for x in actions)
-        print(json.dumps({"status": state["status"], "problems": list(state["problems"]), "actions": actions}, ensure_ascii=False))
+        print(json.dumps({"status": state["status"], "problems": list(state["problems"]), "actions": actions,
+                          "seen_runs": sorted(facts.get("runs") or {}), "pages_synced_at": facts.get("pages_synced_at"),
+                          "pages_build": facts.get("pages_build_status")}, ensure_ascii=False))
         if a.dry:
             return 0
         files = []
