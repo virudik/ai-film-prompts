@@ -1,0 +1,175 @@
+{
+  "updated_at": "2026-10-20T22:45:20.242Z",
+  "status": "in_progress",
+  "no_queue": true,
+  "assets": [
+    {
+      "key": "KD11-raven-station",
+      "project": "kot-detektiv",
+      "scene": 11,
+      "title": "Вокзал без отправления",
+      "path": "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. At a fog-choked Victorian railway platform, the detective kneels beside an abandoned leather suitcase with a red-sealed luggage tag while constable holds lantern toward a still steam locomotive. A raven stationmaster in a formal coat stands behind, beak half-open in alarm; platform clock hand has stopped, no readable timetable. One fresh set of animal pawprints leads FROM the locked suitcase across wet tiles, creating a precise impossible clue. Atmospheric steam, iron arches, cinematic scale.",
+      "status": "image_saved_scene_pending",
+      "kind": "situation_reference",
+      "saved": {
+        "paths": [
+          "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png"
+        ],
+        "sha": "ca07120e50f4399993d72f2c492856b8c78123d2",
+        "commit": "ea691778408606f5ad8a8ed52dbac73a996174fe"
+      }
+    },
+    {
+      "key": "KD12-glasshouse",
+      "project": "kot-detektiv",
+      "scene": 12,
+      "title": "Шёпот зимнего сада",
+      "path": "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. In a vast abandoned Victorian glasshouse at night, the cat kneels beside a freshly watered rose growing out of a dry cracked stone floor; a small red-thread loop hangs from its thorn. Dog lantern illuminates misted glass and enormous vines. On an upper walkway a distant cloaked ANIMAL shadow with tail has just turned away behind leaves, face/species hidden. No supernatural solution revealed, no human silhouettes; thoughtful physical clue in moody garden.",
+      "status": "image_saved_scene_pending",
+      "kind": "situation_reference",
+      "saved": {
+        "paths": [
+          "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png"
+        ],
+        "sha": "7560166f6da22b93984f6a437a2c52a957704d51",
+        "commit": "805dc2439fada36258e1f14bede8774dd44b5324"
+      }
+    },
+    {
+      "key": "KD13-opera-box",
+      "project": "kot-detektiv",
+      "scene": 13,
+      "title": "Пустая ложа",
+      "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Inside an empty gaslit opera house after performance, cat and dog stand in a red velvet private box overlooking immense dark auditorium. Cat examines a small brass opera glass on railing with one lens cracked in a spiral; dog lantern catches a single wet animal pawprint on dry velvet seat. A closed fox-shaped theatrical mask rests on folded programme, no readable words; no human masks/statues/portraits. Chandelier lit with candles/gas, solemn mysterious grandeur.",
+      "status": "image_saved_scene_pending",
+      "kind": "situation_reference",
+      "saved": {
+        "paths": [
+          "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png"
+        ],
+        "sha": "5ee9fc0f8c63c0c5933fd87471cb5aee77ce90bb",
+        "commit": "0f586b7bcd967c2ba586aec85c2af4024a8a8063"
+      }
+    },
+    {
+      "key": "KD14-rooftop-kite",
+      "project": "kot-detektiv",
+      "scene": 14,
+      "title": "Нить над крышами",
+      "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. On rain-slick London rooftops with safe broad ledges, cat firmly holds a red thread snagged on a chimney while dog braces him from behind with furry paw on his shoulder. The thread stretches to an unmanned black paper kite suspended between rooftops; tiny sealed tube attached, distant clock tower in blue fog. Cat focused on knot, dog nervously watches height. Clear safe footing, no comic flailing or human anatomy.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD15-flooded-archive",
+      "project": "kot-detektiv",
+      "scene": 15,
+      "title": "Затопленный архив",
+      "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. A vaulted municipal archive partly flooded with ankle-deep water. Cat stands on a low dry wooden step examining one completely dry dossier floating above water inside a thin glass evidence box; dog lifts a heavy ledger from water with both furred paws. Shelves recede into darkness, gas lanterns amber, wax-red seal on the dry dossier, no readable writing or human portraits. Practical baffling clue, no solution and no neon magic.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD16-puppet-workshop",
+      "project": "kot-detektiv",
+      "scene": 16,
+      "title": "Мастерская чужих лиц",
+      "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Abandoned Victorian puppet workshop, only carved ANIMAL marionettes (fox, badger, hare) hang on strings. Cat cuts through a red-thread arrangement with magnifier gaze, examining a tiny wet pawprint on a workbench; dog lantern catches a fresh shadow moving behind a curtain. The shadow has animal ears/tail, no face reveal. Beautifully eerie wood texture and deep amber-blue shadows, no human dolls, no gore or jokey puppets.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD17-printing-press",
+      "project": "kot-detektiv",
+      "scene": 17,
+      "title": "Газета завтрашнего дня",
+      "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Night newspaper printing room: enormous hand-cranked Victorian press has just stopped. Cat holds an illustrated sheet depicting the same street corner visible through the window, but one drawn gaslamp is extinguished while the real lamp is still burning. Dog constable points nervously between paper and window. Sheet has ONLY pictorial layout and abstract illegible type, no readable dates or headlines, all tiny drawn figures animals. Red ink drop at edge, printer rollers and stacks, original painterly noir.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD18-canal-lock",
+      "project": "kot-detektiv",
+      "scene": 18,
+      "title": "Лодка против течения",
+      "path": "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Foggy narrow London canal lock at night. Cat on stone towpath examines a taut rope tied to an EMPTY rowboat, dog braces the rope with both paws as boat strains against current though nobody is aboard. Lantern reveals a dry red-sealed envelope inside boat. Worn brick arch, swirling water and gas lamps; safe broad footing, neither character in water, dynamic investigative tension, no humans or modern craft.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD19-masked-auction",
+      "project": "kot-detektiv",
+      "scene": 19,
+      "title": "Лот без владельца",
+      "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Private Victorian auction hall of ANTHROPOMORPHIC animal collectors in formal coats, animal faces and species visible. Cat and dog foreground inspect a glass bell jar on pedestal containing a tiny silver key that casts an oddly oversized key-shaped shadow across wall. Owl auctioneer behind looks disturbed; one empty bidder chair with fresh rain drops. No human masks/statues, no readable catalogue text, serious high-society conspiracy atmosphere.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    },
+    {
+      "key": "KD20-bell-chamber",
+      "project": "kot-detektiv",
+      "scene": 20,
+      "title": "Колокол без языка",
+      "path": "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. One cinematic 16:9 keyframe of a dark serious ANIMATED animal detective noir, 19th-century London. EXACT cat from input1: green eyes, broad white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, tie and watch chain. EXACT taller brown dark-muzzled dog constable from input2 in navy Victorian bobby coat and helmet. Painterly dimensional animation and ink-rich fur/fabric textures matching originals; never live action or generic toy CGI. Cat analytical, calm but decisive; dog anxious but competent. All characters, distant silhouettes, portraits and statues are ANTHROPOMORPHIC ANIMALS, no humans or human skulls. Gaslight amber vs blue-black fog, cinematic composition, solemn mystery, no food gags, no readable invented words, no modern devices, police tape, cars or electric lamps. No watermark or borders. Inside the immense bell chamber of a London tower. Cat stands on safe wooden walkway with one paw on a severed bell-rope end, looking up at a great brass bell whose clapper is missing; dog lantern illuminates the clearly empty interior. Dust is falling as if the silent bell had just rung. Red thread around rope knot, vast city through louvres, poised investigative urgency, no ghost or culprit shown, no human carvings.",
+      "status": "planned",
+      "kind": "situation_reference",
+      "saved": null
+    }
+  ]
+}
