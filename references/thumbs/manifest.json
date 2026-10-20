@@ -163,6 +163,16 @@
    "thumb_bytes": 31728,
    "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
   },
+  "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2702196,
+   "thumb_bytes": 58426,
+   "src_sha256": "578dbfe8907396e6a59fda50530cae01be567492b129590a4f891f21de0df789"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -332,6 +342,16 @@
    "src_bytes": 2368206,
    "thumb_bytes": 54530,
    "src_sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+  },
+  "projects/kotmonavty/references/scenes/scene-10/KM10-customs.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-10/KM10-customs.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2390000,
+   "thumb_bytes": 51740,
+   "src_sha256": "ee06564bce4e3b958a34a8e83a69f9f748c1b984ed0a54e0a22141460c3326ee"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
