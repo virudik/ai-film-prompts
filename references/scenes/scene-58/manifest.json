@@ -183,6 +183,35 @@
         "git_present": true,
         "linked_in_master": false
       }
+    },
+    {
+      "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "asset_id": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+      "media_type": "image",
+      "role": "escape_pose_composition_helper",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:43:57.812Z",
+        "generation_file": "exec-366a8f4f-8446-4c79-b769-2b973c59c202.png",
+        "prompt_path": "references/scenes/scene-58/S58-cats-escape-open-hatch-prompt.txt",
+        "input_paths": [
+          "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg"
+        ]
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Exactly two recognizable white-grey/ginger cats, Luchik left and half-stride ahead, four-legged gallop, open hatch/fallen door readable, original ship and localized explosion behind, no injury or clothing. Individual identity sheets remain authoritative."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+        "git_present": true,
+        "linked_in_master": false
+      }
     }
   ],
   "identity_refs": [
