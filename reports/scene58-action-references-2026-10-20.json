@@ -1,0 +1,172 @@
+{
+  "work_id": "FILM-20261020-S58-ACTION-REFS",
+  "completed_at": "2026-10-20T00:48:14.900872Z",
+  "method": "built-in image_gen",
+  "owner_selected_start": {
+    "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+    "asset_id": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+    "role": "start_frame_location",
+    "media_type": "image",
+    "status": "available",
+    "owner_approval": "owner_selected_2026-10-20T03:39:42+03:00",
+    "provenance": {
+      "kind": "chatgpt_imagegen",
+      "generation_file": "exec-50d09a3d-9d64-4134-b1f4-4b2579ee98b8.png",
+      "note": "First crash still selected by owner: nose into statue pedestal. Original bytes preserved."
+    },
+    "assistant_qc": {
+      "status": "owner_selected_existing_reference",
+      "note": "Selected by owner despite contact with pedestal; closed hatch is not clearly delineated in this still; action helper will show open hatch."
+    },
+    "site_published": {
+      "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+      "git_present": true,
+      "linked_in_master": true
+    },
+    "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+    "dimensions": [
+      1672,
+      941
+    ]
+  },
+  "new_assets": [
+    {
+      "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+      "asset_id": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+      "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
+      "media_type": "image",
+      "role": "later_damage_and_open_hatch_helper",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:42:26.216Z",
+        "generation_file": "exec-38f95095-08e6-46f6-8940-800b097910c6.png",
+        "prompt_path": "references/scenes/scene-58/S58-ship-explosion-open-hatch-prompt.txt",
+        "input_paths": [
+          "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+        ]
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Selected nose-to-pedestal crash preserved; original ship/emblem, clearly open empty doorway and fallen door, detached engine, localized flame/sparks/black smoke; no characters. Dorsal-fin collapse not fully depicted, video prompt controls this motion."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+        "git_present": true,
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "asset_id": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+      "media_type": "image",
+      "role": "escape_pose_composition_helper",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:43:57.812Z",
+        "generation_file": "exec-366a8f4f-8446-4c79-b769-2b973c59c202.png",
+        "prompt_path": "references/scenes/scene-58/S58-cats-escape-open-hatch-prompt.txt",
+        "input_paths": [
+          "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg"
+        ]
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Exactly two recognizable white-grey/ginger cats, Luchik left and half-stride ahead, four-legged gallop, open hatch/fallen door readable, original ship and localized explosion behind, no injury or clothing. Individual identity sheets remain authoritative."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+        "git_present": true,
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+      "asset_id": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+      "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+      "media_type": "image",
+      "role": "landed_emblem_and_cat_reaction_helper",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:45:41.009Z",
+        "generation_file": "exec-592c9b65-bbb7-4af9-9cbe-05a445f2c285.png",
+        "prompt_path": "references/scenes/scene-58/S58-emblem-at-cats-paws-prompt.txt",
+        "input_paths": [
+          "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg"
+        ]
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Two recognizable cats crouched beside fallen hooded head, front paws visible; one scorched riveted hull panel lies face-up directly at paws; cat-astronaut logo/red swoosh/РОСКОТМОС readable, open-hatch burning wreck behind. Original ship logo and individual identity sheets outrank helper details."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+        "git_present": true,
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "previous_start_preserved": "references/scenes/scene-58/S58-wreck-start.png",
+  "changed_prompt_labels": [
+    "58",
+    "58 · Seedance 2.0 часть 1",
+    "58 · Seedance 2.0 часть 2"
+  ],
+  "unchanged_prompt_blocks": 92,
+  "total_prompt_blocks": 95,
+  "prompt_lengths": {
+    "58": 8057,
+    "58 · Seedance 2.0 часть 1": 5361,
+    "58 · Seedance 2.0 часть 2": 5831
+  },
+  "seedance_inputs": {
+    "P1_images": 6,
+    "P2_images": 6,
+    "P2_videos": 1
+  },
+  "constraints": [
+    "P2 starts from real P1 ending, not any generated helper.",
+    "Blast/open-hatch/landed-panel temporal gates encoded.",
+    "Individual cats and original first ship/emblem outrank helper variations.",
+    "57/58 remain Seedance2.0 before dance; other queue priorities unchanged."
+  ],
+  "topview_tasks_created": 0,
+  "topview_credits_spent": 0,
+  "automation": {
+    "id": "6acae6ab433481919e88665c520b8ef2",
+    "updated": true,
+    "enabled": true,
+    "schedule_preserved": true
+  },
+  "validation": {
+    "master_health": "ok",
+    "site_contract": "passed",
+    "prompt_sha_and_image_slots": "passed",
+    "part2_real_input_gate": "preserved",
+    "dance_gate": "preserved"
+  }
+}

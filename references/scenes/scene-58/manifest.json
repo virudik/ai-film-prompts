@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
   "scene_id": 58,
-  "updated_at": "2026-10-20T00:32:46.672587Z",
+  "updated_at": "2026-10-20T00:48:14.900872Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "reference_images_ready",
   "references": [
     {
       "path": "references/scenes/scene-58/S58-wreck-start.png",
-      "role": "start_frame_location",
+      "role": "historical_alternative",
       "asset_id": "references/scenes/scene-58/S58-wreck-start.png",
       "media_type": "image",
-      "status": "available",
+      "status": "superseded_owner_choice",
       "owner_approval": "not_recorded",
       "provenance": {
         "kind": "chatgpt_imagegen",
@@ -28,7 +28,7 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-wreck-start.png",
         "git_present": true,
-        "linked_in_master": true
+        "linked_in_master": false
       },
       "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
       "assistant_qc": {
@@ -40,7 +40,8 @@
       "dimensions": [
         1672,
         941
-      ]
+      ],
+      "superseded_by": "references/scenes/scene-58/S58-wreck-start-owner-selected.png"
     },
     {
       "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
@@ -153,8 +154,13 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
         "git_present": true,
-        "linked_in_master": false
-      }
+        "linked_in_master": true
+      },
+      "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+      "dimensions": [
+        1672,
+        941
+      ]
     },
     {
       "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
@@ -181,8 +187,12 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
         "git_present": true,
-        "linked_in_master": false
-      }
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
     },
     {
       "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
@@ -210,8 +220,12 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
         "git_present": true,
-        "linked_in_master": false
-      }
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
     },
     {
       "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
@@ -240,8 +254,12 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
         "git_present": true,
-        "linked_in_master": false
-      }
+        "linked_in_master": true
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
     }
   ],
   "identity_refs": [
@@ -249,13 +267,17 @@
     "references/ryzhik.jpg"
   ],
   "location_refs": [
-    "references/scenes/scene-58/S58-wreck-start.png",
+    "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
     "references/scenes/scene-57/S57-crash-avenue.png"
   ],
   "prop_refs": [],
-  "start_frame": "references/scenes/scene-58/S58-wreck-start.png",
+  "start_frame": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
   "end_frame": null,
-  "pose_composition_helpers": [],
+  "pose_composition_helpers": [
+    "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+    "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+    "references/scenes/scene-58/S58-emblem-at-cats-paws.png"
+  ],
   "video_refs": [],
   "approved": [],
   "rejected": [],
@@ -265,7 +287,7 @@
       "prompt": "main",
       "prompt_id": "S58",
       "canonical_block_label": "58",
-      "canonical_prompt_sha256": "2fcf23cd2104c24b7b85ab0b48097367b83aad1f9814cb886bfab2367c91ac46",
+      "canonical_prompt_sha256": "aaa5933f54a822afd1c9d05b4afac6121c7779096757e63a382f1b8dd1c48821",
       "local_numbering": true,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
@@ -273,11 +295,11 @@
       "slots": [
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
           "required": true,
           "input_status": "available",
           "source_item_id": "S58-WRECK-IMAGE",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
           "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
@@ -309,15 +331,37 @@
           "source_item_id": "S57-AVENUE-IMAGE",
           "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
           "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image7",
+          "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+          "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image8",
+          "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+          "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+          "required": true,
+          "input_status": "available"
         }
       ],
-      "characters": 7103
+      "characters": 8057,
+      "notes": "Temporal stage gates prevent open hatch/explosion/landed panel from appearing too early; identity sheets and real prior video take priority."
     },
     {
       "prompt": "58 · Seedance 2.0 часть 1",
       "prompt_id": "S58-SEED20-P1",
       "canonical_block_label": "58 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "5880a443c5ea85a345d379a0275181505dc0b7d996cc9fabbd7e76fbc304c4f3",
+      "canonical_prompt_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
       "local_numbering": true,
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
@@ -325,11 +369,11 @@
       "slots": [
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
           "required": true,
           "input_status": "available",
           "source_item_id": "S58-WRECK-IMAGE",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
           "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
@@ -361,15 +405,23 @@
           "source_item_id": "S57-AVENUE-IMAGE",
           "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
           "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
         }
       ],
-      "characters": 4837
+      "characters": 5361,
+      "notes": "Temporal stage gates prevent open hatch/explosion/landed panel from appearing too early; identity sheets and real prior video take priority."
     },
     {
       "prompt": "58 · Seedance 2.0 часть 2",
       "prompt_id": "S58-SEED20-P2",
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "8b2a26846bc74231e55c0984bef13a995f0a0ace9c420df1bc7c2a4867b99000",
+      "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "local_numbering": true,
       "launch_readiness": "blocked_continuity",
       "owner_generation_approval_inferred": false,
@@ -399,11 +451,10 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
           "required": true,
           "input_status": "available",
-          "source_item_id": "S58-WRECK-IMAGE",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
           "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
@@ -412,14 +463,29 @@
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
           "required": true,
           "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+          "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+          "required": true,
+          "input_status": "available"
         }
       ],
-      "characters": 4946
+      "characters": 5831,
+      "notes": "Temporal stage gates prevent open hatch/explosion/landed panel from appearing too early; identity sheets and real prior video take priority."
     }
   ],
   "site_published": true,
-  "last_qc_at": "2026-10-20T00:32:46.672587Z",
-  "last_qc_scope": "Two generated location/wreck references visually checked; original ship/cats/front cockpit verified; original rear-view orientation helper inspected. All image inputs available. Part2 requires actual preceding video.",
+  "last_qc_at": "2026-10-20T00:48:14.900872Z",
+  "last_qc_scope": "Owner chose first crash image; three stage-specific helpers generated separately, visually checked and saved before next generation. Exact identities/design stay authoritative; real P1 ending still mandatory for P2.",
   "remaining": [
     "Actual S58-SEED20-P1 ending video for part2: save source/provenance/SHA and QC."
   ],
@@ -430,5 +496,17 @@
     "Missing @Video inputs must not be invented",
     "Ship design authority = references/scenes/scene-45/S45-roskotmos-ship-first-option.png (owner 20.10)"
   ],
-  "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change)."
+  "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change).",
+  "reference_timing": {
+    "start": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+    "escape": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+    "blast": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+    "after_panel_landing": "references/scenes/scene-58/S58-emblem-at-cats-paws.png"
+  },
+  "owner_selection": {
+    "selected_at": "2026-10-20T03:39:42+03:00",
+    "selected_start": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+    "previous_start": "references/scenes/scene-58/S58-wreck-start.png",
+    "engine": "Seedance 2.0"
+  }
 }

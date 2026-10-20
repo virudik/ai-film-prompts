@@ -7611,20 +7611,28 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Старт — кадр-референс обломков (@Image1), а не видео 57:** так 58 не ждёт результата 57, обе сцены можно запускать по готовности референсов. Если к запуску уже есть принятый конец 57, его можно добавить как @Video1 отдельной правкой.
 - **Комедия без мультяшности:** люк заело — его вышибают изнутри с третьего удара; горящая панель падает ровно туда, где только что был Рыжик; Лучик чихает от сажи; эмблема РосКОТмоса падает котам под лапы. Корабль разваливается по частям, огненный шар — небольшой, не на весь кадр.
 - **Динамика (правило владельца 18.10):** 6 битов, 5 склеек по движению, без «спокойно».
-- **Референсы готовы:** аллея и повреждённый первый корабль созданы ChatGPT, проверены и сохранены. Изображения для части 1 готовы; часть 2 требует настоящего окончания части 1. Проверка ассистента не означает приёмку владельца.
+- **Выбор владельца 20.10, 03:39 МСК:** старт — первый аварийный кадр, где нос упирается в постамент. Добавлены три отдельных помощника: коты у открытого люка на фоне взрыва; разрушение корабля; упавшая эмблема у лап. Изображения готовы; часть 2 требует настоящего окончания части 1. Помощники показывают разные моменты, не одновременный старт.
+- **Стык с 57:** при монтаже проверить контакт носа с постаментом; выбранный владельцем старт58 является художественным референсом, а не извлечённым концом57.
 - **Версии промта:** во вкладках — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с). В очередь по умолчанию — Seedance 2.0. Без речи и фоновой музыки. Запуск — только по команде владельца.
 - В монтаж 20–30 с.
 
 **Референсы:**
 
-- @Image1 — <a href="references/scenes/scene-58/S58-wreck-start.png">корабль после аварии, закрытый люк</a> (созданный стартовый референс, не извлечённый видеокадр);
+- @Image1 — <a href="references/scenes/scene-58/S58-wreck-start-owner-selected.png">первый аварийный кадр — нос в постаменте</a> (созданный стартовый референс, не извлечённый видеокадр);
 - @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн, эмблема);
 - @Image3 — <a href="references/luchik.jpg">Лучик</a>;
 - @Image4 — <a href="references/ryzhik.jpg">Рыжик</a>;
 - @Image5 — <a href="references/scenes/scene-57/S57-crash-avenue.png">та же аллея до аварии</a>;
 
+- @Image6 — <a href="references/scenes/scene-58/S58-cats-escape-open-hatch.png">коты бегут от открытого люка</a> (поза/композиция, поздний момент);
+- @Image7 — <a href="references/scenes/scene-58/S58-ship-explosion-open-hatch.png">разрушение и локальный взрыв корабля</a>;
+- @Image8 — <a href="references/scenes/scene-58/S58-emblem-at-cats-paws.png">эмблема уже лежит у лап котов</a> (результат падения).
+
 <div class="scene-ref-gallery">
-<figure><a href="references/scenes/scene-58/S58-wreck-start.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-wreck-start.png" alt="@Image1 — корабль после аварии"></a><figcaption>@Image1 — корабль после аварии</figcaption></figure>
+<figure><a href="references/scenes/scene-58/S58-cats-escape-open-hatch.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-cats-escape-open-hatch.png" alt="Коты у открытого люка"></a><figcaption>Коты у открытого люка</figcaption></figure>
+<figure><a href="references/scenes/scene-58/S58-ship-explosion-open-hatch.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-ship-explosion-open-hatch.png" alt="Разрушение корабля"></a><figcaption>Разрушение корабля</figcaption></figure>
+<figure><a href="references/scenes/scene-58/S58-emblem-at-cats-paws.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-emblem-at-cats-paws.png" alt="Эмблема у лап"></a><figcaption>Эмблема у лап</figcaption></figure>
+<figure><a href="references/scenes/scene-58/S58-wreck-start-owner-selected.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-wreck-start-owner-selected.png" alt="@Image1 — корабль после аварии"></a><figcaption>@Image1 — корабль после аварии</figcaption></figure>
 <figure><a href="references/scenes/scene-57/S57-crash-avenue.png" target="_blank" rel="noopener"><img src="references/scenes/scene-57/S57-crash-avenue.png" alt="@Image5 — аллея до аварии"></a><figcaption>@Image5 — аллея до аварии</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — корабль РосКОТмоса, первый референс</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image3 — Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
@@ -7637,17 +7645,23 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
+**Входы 30 с:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image7 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image8 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
+
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Two cats bail out of their crashed, burning, falling-apart RosKOTmos ship on the Sith planet and race off toward the temple
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, nose near a colossal statue's plinth, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Absolute authority for the wreck's position, damage, surroundings and light at the start.
+@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, nose pressed into the carved base of a colossal statue, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Absolute authority for the wreck's position, damage, surroundings and light at the start.
 @Image2 — the RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, big red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin, rear engine nacelles. Vehicle design and emblem only; ignore the starfield.
 @Image3 — absolute identity of LUCHIK.
 @Image4 — absolute identity of RYZHIK.
 @Image5 — the avenue of tall carved ochre-stone columns and colossal hooded statues at the outskirts of the ruin city, the temple and red rock spires far away. Layout and stone of the surroundings.
-Priority: @Image3 and @Image4 control the cats; @Image1 controls the wreck and start; @Image2 the ship's design and emblem; @Image5 the surroundings. Never average or swap the cats.
+@Image6 — LATER escape pose/composition helper: exactly two cats galloping away from the visibly open hatch, LUCHIK screen-left and half a stride ahead, RYZHIK screen-right. Individual identity sheets override this helper.
+@Image7 — LATER damage/FX helper: open doorway, door on the ground, detached rear nacelle and a localized blast; recognizable hull remains. Not a start frame.
+@Image8 — POST-LANDING emblem composition: one scorched panel face-up directly at the cats' front paws beside the fallen hooded head. Original @Image2 controls the emblem artwork; no panel on the ground before its timed fall.
+Priority: @Image3 and @Image4 control the cats; @Image1 controls the wreck and start; @Image2 the ship's design and emblem; @Image5 the surroundings. Never average or swap the cats. @Image6–@Image8 are stage-specific helpers, never overrides for the opening or identity.
+TEMPORAL REFERENCE GATE: closed hatch/no cats outside at 0:00; open hatch and running cats after 0:05; modest blast only after 0:15; landed emblem only after its fall in 0:20–0:25. Do not combine all reference states into the first frame.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK (@Image3): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; here his white fur is streaked grey with soot.
@@ -7710,9 +7724,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start.png` (корабль после аварии, готов); @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, готова).
+**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start-owner-selected.png`; @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png`; @Image6 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`.
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-wreck-start.png` (обломки); @Image4 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (эмблема).
+**Входы части 2:** @Video1 — настоящий конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-ship-explosion-open-hatch.png`; @Image4 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png`; @Image5 — `references/scenes/scene-58/S58-cats-escape-open-hatch.png`; @Image6 — `references/scenes/scene-58/S58-emblem-at-cats-paws.png`.
 
 #### 58 · Seedance 2.0 часть 1
 
@@ -7721,12 +7735,13 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 1 of 2: the jammed hatch is kicked out, two cats burst out of the smoke and run while the crashed RosKOTmos ship falls apart behind them
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Position, damage, surroundings and light at the start.
+@Image1 — START FRAME and crash-site authority: the crashed RosKOTmos ship lying tilted on its belly at the end of a ploughed trench in the dusty avenue, nose pressed into the carved statue pedestal, right engine nacelle burning with black smoke, toppled columns behind it, a fallen hooded stone head beside the tail. Position, damage, surroundings and light at the start.
 @Image2 — the RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, big red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin. Design and emblem only.
 @Image3 — absolute identity of LUCHIK.
 @Image4 — absolute identity of RYZHIK.
 @Image5 — the avenue of tall carved ochre-stone columns and colossal hooded statues, temple far away. Surroundings only.
-Priority: @Image3 and @Image4 control the cats; @Image1 the wreck and start; @Image2 the design and emblem; @Image5 the surroundings.
+@Image6 — escape pose/composition helper ONLY: LUCHIK screen-left half a stride ahead, RYZHIK screen-right, natural four-legged gallop away from the open doorway. Use only after the hatch opens. IGNORE its later explosion and advanced rear-engine damage in this part; individual @Image3/@Image4 identities override helper faces.
+Priority: @Image3 and @Image4 control the cats; @Image1 the wreck and start; @Image2 the design and emblem; @Image5 the surroundings; @Image6 supplies running posture and the doorway, not the start or explosion timing.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK (@Image3): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; white fur streaked grey with soot.
@@ -7740,7 +7755,7 @@ LOCATION LOCK:
 The dusty avenue at golden-orange sunset as in @Image1 and @Image5. Fine dust and ember sparks. No lava, vegetation, water or people.
 
 START STATE:
-Exactly @Image1: the wreck smoking at the end of the trench, side hatch closed, no one outside.
+Exactly @Image1: the wreck smoking at the end of the trench, side hatch closed, no one outside. The open-hatch helper is a later beat, never the opening frame.
 
 TIMELINE:
 [0:00–0:05] — JAMMED HATCH
@@ -7784,9 +7799,12 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1: both cats galloping toward camera, a fallen column ahead, the half-collapsed burning ship behind. Absolute authority for the START STATE, positions, damage and light.
 @Image1 — absolute identity of LUCHIK.
 @Image2 — absolute identity of RYZHIK.
-@Image3 — the crashed RosKOTmos ship in the dusty avenue among toppled columns, with the fallen hooded stone head of a statue nearby. Wreck and surroundings only.
+@Image3 — later damage and FX helper: the same nose-to-pedestal ship with its open side doorway and fallen door, detached rear nacelle, a localized blast and black smoke, fallen columns and stone head. The recognizable hull remains. It does not override @Video1 at the opening.
 @Image4 — the RosKOTmos ship design: the round cat-astronaut emblem with the РОСКОТМОС wordmark, red swoosh and white worn paint. Emblem and paint only.
-Priority: @Video1 controls the start; @Image1 and @Image2 the cats; @Image3 the wreck and surroundings; @Image4 the emblem.
+@Image5 — two-cat escape helper: LUCHIK screen-left half a stride ahead, RYZHIK screen-right, natural four-legged gallop, exact open doorway behind; composition only, identities from @Image1/@Image2.
+@Image6 — POST-LANDING panel helper: one scorched torn hull panel lies face-up directly at both cats' front paws beside the fallen hooded head. Use the composition and panel placement AFTER its fall; @Image4 remains the exact emblem artwork authority.
+Priority: @Video1 controls the start; @Image1 and @Image2 the cats; @Image3 the wreck and surroundings; @Image4 the emblem; @Image5/@Image6 are action-beat helpers only.
+TEMPORAL REFERENCE GATE: start exactly at the real @Video1 ending; the blast belongs to 0:00–0:04, the panel falls during 0:04–0:10 and only THEN lies at their paws. No grounded duplicate emblem or reset to the still images.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK (@Image1): fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings; white fur streaked grey with soot.
@@ -7807,7 +7825,7 @@ TIMELINE:
 Continuing @Video1, then a side tracking shot: both cats leap over the fallen column in full stride; behind them a modest fireball puffs up from the torn engine mount and a heat ripple ruffles their fur; they land and dive behind the fallen hooded stone head of the statue.
 
 [0:04–0:10] — PEEK
-Cut to a medium close shot from the far side of the stone head: two soot-streaked faces rise slowly over the stone, ears flat, eyes wide. LUCHIK sneezes. A scorched hull panel bearing the round cat-astronaut emblem flutters down and lands face-up in the dust right in front of them with a clank. RYZHIK looks down at it, then at LUCHIK.
+Cut to a medium close shot from the far side of the stone head: two soot-streaked faces rise slowly over the stone, ears flat, eyes wide. LUCHIK sneezes. A scorched hull panel bearing the round cat-astronaut emblem flutters down and lands face-up directly at their front paws with a clank, matching @Image6 only after contact with the ground. RYZHIK looks down at it, then at LUCHIK.
 
 [0:10–0:15] — WHAT NOW
 A deep engine howl sweeps overhead: a fast dark shadow of another craft flashes across the cats and the ruins toward the distant temple. Both heads snap up and track it, ears perking. They exchange one glance, shake the soot off their fur in unison and sprint off frame toward the temple. Hold for a second on the burning wreck.

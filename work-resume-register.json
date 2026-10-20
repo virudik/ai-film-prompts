@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T00:32:46.672587Z",
+  "last_updated_at": "2026-10-20T00:48:14.900872Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1087,6 +1087,27 @@
         "Part2 inputs must be actual video results; existing free-only authorization and priorities remain."
       ],
       "receipt": "reports/scene57-58-reference-completion-2026-10-20.json"
+    },
+    {
+      "work_id": "FILM-20261020-S58-ACTION-REFS",
+      "title": "Выбранный старт58 и три активных референса Seedance",
+      "status": "completed",
+      "verified_at": "2026-10-20T00:48:14.900872Z",
+      "done": [
+        "Owner-selected first crash still preserved as separate original.",
+        "Three new helpers generated, QC and Git saved one at a time.",
+        "Three scene58 prompts and mappings/queue SHA synchronized; 92 other blocks unchanged."
+      ],
+      "next_actions": [
+        "Verify publication, then existing free Seedance queue; P2 only with genuine P1 ending."
+      ],
+      "receipt": "reports/scene58-action-references-2026-10-20.json",
+      "constraints": [
+        "P2 starts from real P1 ending, not any generated helper.",
+        "Blast/open-hatch/landed-panel temporal gates encoded.",
+        "Individual cats and original first ship/emblem outrank helper variations.",
+        "57/58 remain Seedance2.0 before dance; other queue priorities unchanged."
+      ]
     }
   ],
   "rules": [

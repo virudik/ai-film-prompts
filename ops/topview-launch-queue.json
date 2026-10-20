@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T00:32:46.672587Z",
+  "updated_at": "2026-10-20T00:48:14.900872Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5473,12 +5473,17 @@
       "completed_at": "2026-10-20T00:32:46.672587Z",
       "completion_method": "chatgpt_imagegen",
       "output": {
+        "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+        "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+        "owner_approval": "owner_selected_2026-10-20T03:39:42+03:00"
+      },
+      "completion_note": "Completed via ChatGPT. Owner selected first crash still; no duplicate Topview image generation.",
+      "previous_output_before_owner_selection": {
         "path": "references/scenes/scene-58/S58-wreck-start.png",
         "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
         "assistant_qc": "passed",
         "owner_approval": "not_recorded"
-      },
-      "completion_note": "Owner03:24MSK changed route to ChatGPT. Saved/QC original reference; do not submit duplicate Topview image task."
+      }
     },
     {
       "id": "S57-SEED20-P1",
@@ -5647,8 +5652,8 @@
       "scene_id": 58,
       "prompt_id": "S58-SEED20-P1",
       "canonical_block_label": "58 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "5880a443c5ea85a345d379a0275181505dc0b7d996cc9fabbd7e76fbc304c4f3",
-      "normalized_prompt_sha256": "e5e7cb680bba897c1a305fcda5fc6437a01548fde199f0bc01ddc3b9e592c8ee",
+      "canonical_prompt_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
+      "normalized_prompt_sha256": "7fd1182b95e5ab78cce137387ab5086bbf875469667a27edcdc22bced65c7be9",
       "priority": 23,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
@@ -5665,11 +5670,11 @@
       "references": [
         {
           "slot": "@Image1",
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
           "required": true,
           "input_status": "available",
           "source_item_id": "S58-WRECK-IMAGE",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
           "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
@@ -5701,6 +5706,13 @@
           "source_item_id": "S57-AVENUE-IMAGE",
           "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
           "source_kind": "chatgpt_imagegen_saved_reference"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
         }
       ],
       "task_id": null,
@@ -5710,22 +5722,23 @@
       "created_at": "2026-10-19T23:43:06Z",
       "required_saved_reference_assets": [
         {
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
+          "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+          "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845"
         },
         {
-          "path": "references/scenes/scene-57/S57-crash-avenue.png",
-          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
         }
-      ]
+      ],
+      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1."
     },
     {
       "id": "S58-SEED20-P2",
       "scene_id": 58,
       "prompt_id": "S58-SEED20-P2",
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
-      "canonical_prompt_sha256": "8b2a26846bc74231e55c0984bef13a995f0a0ace9c420df1bc7c2a4867b99000",
-      "normalized_prompt_sha256": "eb673346c672c2ed999571d2bf30d40f4bf1a3b12ca00b50d17f76ef80c73145",
+      "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
+      "normalized_prompt_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
       "priority": 23.1,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
@@ -5768,17 +5781,30 @@
         },
         {
           "slot": "@Image3",
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
           "required": true,
           "input_status": "available",
-          "source_item_id": "S58-WRECK-IMAGE",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
           "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image4",
           "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
           "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+          "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
           "required": true,
           "input_status": "available"
         }
@@ -5791,10 +5817,19 @@
       "created_at": "2026-10-19T23:43:06Z",
       "required_saved_reference_assets": [
         {
-          "path": "references/scenes/scene-58/S58-wreck-start.png",
-          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
+          "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+          "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032"
+        },
+        {
+          "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
+        },
+        {
+          "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+          "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20"
         }
-      ]
+      ],
+      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1."
     }
   ],
   "already_submitted": {
@@ -6341,5 +6376,16 @@
     ],
     "report": "reports/scene57-58-reference-completion-2026-10-20.json",
     "preserved": "Seedance2.0 video priority57/58 before dance; real part2 continuity; worm priority; no new Topview task or credits."
+  },
+  "owner_instruction_20261020_0339": {
+    "selected_start": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+    "additional_helpers": [
+      "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+      "references/scenes/scene-58/S58-emblem-at-cats-paws.png"
+    ],
+    "engine": "Seedance 2.0",
+    "video_priority": "57/58 before dance; existing worm and owner ordering preserved",
+    "report": "reports/scene58-action-references-2026-10-20.json"
   }
 }
