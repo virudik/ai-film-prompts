@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T12:03:09.987Z",
+  "last_updated_at": "2026-10-20T14:59:17.885Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1148,6 +1148,21 @@
       "verified_at": "2026-10-20T04:54:25.371Z",
       "artifact_url": "https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6",
       "report": "reports/control-center-presentation-2026-10-20.md"
+    },
+    {
+      "work_id": "FILM-20261020-PRESENTATION-CORRECTIONS",
+      "title": "Уточнение ролей, реального запуска, кнопок, расписаний и безопасности презентации",
+      "status": "in_progress",
+      "started_at": "2026-10-20T14:59:17.885Z",
+      "authorization": "Владелец 20.10.2026 17:57 МСК: исправить слайды 2/10/13/15/16/17/18/20/22/24, добавить Безопасность, сохранить стиль и картинки, выдать новую PDF.",
+      "done": [
+        "Свежий main 8aeb7719f10ccef95c2241af65e9956d93e4df81 проверен. launch-autonomy: 3 chat / 0 schedule, checked_at 2026-10-20T10:17:22Z."
+      ],
+      "next_actions": [
+        "Исправить указанные слайды существующей презентации.",
+        "Добавить слайд безопасности, проверить визуально, выпустить отдельный PDF."
+      ],
+      "blockers": []
     }
   ],
   "rules": [
