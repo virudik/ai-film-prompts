@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-19T22:54:14.950Z",
+  "last_updated_at": "2026-10-20T00:14:14.906Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1065,6 +1065,23 @@
         "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg"
       ],
       "waiting_on": "Topview generation result and free slot; all6physical slots occupied."
+    },
+    {
+      "work_id": "FILM-20261020-S57-S58-IMAGES",
+      "title": "Бесплатные референсы аварии РосКОТмоса57/58",
+      "status": "in_progress",
+      "verified_at": "2026-10-20T00:14:14.906Z",
+      "done": [
+        "Fresh main queue/manifests/prompts read; lock acquired;11boards17pages912tasks scan:6activevideos,0activeimages."
+      ],
+      "next_actions": [
+        "S57-AVENUE-IMAGE free website launch; QC/save actualPNG and mark input available.",
+        "S58-WRECK-IMAGE after saved57; QC/savePNG, update manifests/queue; video57/58 before dance."
+      ],
+      "constraints": [
+        "Exact queued image prompts and inputs; Nano Banana Pro,2K,16:9,quantity1,Unlimited0.",
+        "One launch per item; no auto retry or inferred owner approval; genuine part2 videos remain required."
+      ]
     }
   ],
   "rules": [
