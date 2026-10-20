@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "last_updated_at": "2026-10-20T03:39:42.173Z",
+  "active_work": [
+    {
+      "work_id": "KD-20261020-REFERENCE-IMPORT",
+      "project": "kot-detektiv",
+      "status": "in_progress",
+      "started_at": "2026-10-20T03:39:42.173Z",
+      "authorization": "Владелец 20.10.2026: перенести референсы из доски Лёха кот, бесплатно, только скачивание; порядок HANDOFF.",
+      "done": [
+        "projects/README.md прочитан целиком; HANDOFF, INSTRUCTIONS, реестр и 11 задач Topview проверены; 9 уникальных input_images.",
+        "Замок проекта взят отдельным коммитом b6721cfadec5ddb67ca2f05ecab8ffa54064d43b."
+      ],
+      "next_actions": [
+        "Скачать 9 оригиналов; визуально проверить; выбрать 3 стоп-кадра кабинета, улицы, реки.",
+        "Сохранить картинки и copied_from; обновить HANDOFF; projects.py validate; коммит и read-back; освободить замок."
+      ],
+      "constraints": [
+        "0 кредитов; только скачивание; без генераций и одобрения",
+        "Не создавать сцены из материалов доски; MP4 в GitHub не помещать",
+        "Все изменения внутри projects/kot-detektiv/ под замком проекта"
+      ],
+      "blockers": [
+        "API показывает S3-пути входов без готовой ссылки; прямая ссылка 403, нужен штатный доступ через доску."
+      ]
+    }
+  ]
+}
