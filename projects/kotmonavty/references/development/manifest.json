@@ -35,8 +35,8 @@
     },
     {
       "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-      "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
-      "bytes": 3033782,
+      "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77",
+      "bytes": 2888089,
       "derived_from": [
         "projects/kotmonavty/references/ship-exterior-front.png"
       ],
@@ -44,7 +44,15 @@
       "generated_at": "2026-10-20T20:51:42Z",
       "visual_qc": "checked",
       "editorial_status": "not_approved",
-      "prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.prompt.txt"
+      "prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.prompt.txt",
+      "previous_version": {
+        "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
+        "bytes": 3033782,
+        "prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.prompt.txt"
+      },
+      "edit_prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.image-prompt.txt",
+      "edited_at": "2026-10-20T23:35:35.247857+00:00",
+      "edit_reason": "По команде владельца добавлено точное РОСКОТМОС под эмблемой; композиция сохранена"
     },
     {
       "path": "projects/kotmonavty/references/development/KM-star-vault.png",

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "project": "kot-detektiv",
   "updated_at": "2026-10-20T23:30:02Z",
-  "status": "content_prepared",
+  "status": "completed",
   "new_images": 10,
   "image_first_situations": 10,
   "headquarters_images": 0,
@@ -259,11 +259,7 @@
       "checked_at": "2026-10-20T23:30:02Z"
     }
   ],
-  "remaining": [
-    "Публикация текстов в main",
-    "Проверка сайта",
-    "Контрольная точка ПОСЛЕ и освобождение замка"
-  ],
+  "remaining": [],
   "validation": {
     "health": "ok",
     "all_images_bound": true,
@@ -273,5 +269,11 @@
     "max_image_inputs": 8,
     "no_missing_files": true,
     "queue_unchanged": true
-  }
+  },
+  "completed_at": "2026-10-20T23:38:58.143Z",
+  "content_commit": "a7818a6967f9513c8d499df79b3f3e36f52c8ca1",
+  "site_verified": true,
+  "pages_run": 39515777076,
+  "pages_conclusion": "success",
+  "all_reference_images": 34
 }
