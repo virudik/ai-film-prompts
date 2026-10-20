@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T04:54:25.371Z",
+  "last_updated_at": "2026-10-20T07:04:22.405Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-19T17:54:52Z",
+      "verified_at": "2026-10-20T07:04:22.405Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -46,60 +46,83 @@
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-19T11:57:00Z",
-        "mode": "full_account_scan_then_blocked_browser_preflight",
+        "checked_at": "2026-10-20T07:04:22.405Z",
+        "mode": "full_account_scan_no_free_slot",
         "boards": 11,
         "pages": 17,
-        "tasks": 910,
+        "tasks": 912,
         "complete": true,
-        "occupied_slots": 5,
-        "free_slots": 1,
+        "occupied_slots": 6,
+        "free_slots": 0,
         "active": [
+          {
+            "task_id": "30cfaf12ad944cd6944416623397e41c",
+            "status": "init",
+            "model": "Seedance 2.0",
+            "duration_s": 15,
+            "inputs": 7,
+            "unlimited": true,
+            "credits_cost": 0
+          },
+          {
+            "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+            "status": "init",
+            "model": "Seedance 2.0",
+            "duration_s": 15,
+            "inputs": 4,
+            "unlimited": true,
+            "credits_cost": 0
+          },
           {
             "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
             "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
+            "model": "Wan 3.0",
+            "duration_s": 30,
+            "inputs": 6,
+            "unlimited": true,
+            "credits_cost": 0
           },
           {
             "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
             "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
+            "model": "Wan 3.0",
+            "duration_s": 30,
+            "inputs": 4,
+            "unlimited": true,
+            "credits_cost": 0
           },
           {
             "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
             "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
+            "model": "Wan 3.0",
+            "duration_s": 30,
+            "inputs": 4,
+            "unlimited": true,
+            "credits_cost": 0
           },
           {
             "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
             "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
-          },
-          {
-            "task_id": "86741d99f7634e3b97e8b139996b83b0",
-            "status": "init",
-            "model": "qwen-wan3.0-video",
-            "unlimited": true
+            "model": "Wan 3.0",
+            "duration_s": 30,
+            "inputs": 6,
+            "unlimited": true,
+            "credits_cost": 0
           }
         ],
         "new_submissions": 0,
-        "browser": "Cloud Topview owner session visibly signed in, Ultra; Seedance2.0/15s/720p/16:9/qty1 selected, but exact input transfer failed before Unlimited/0 and Create verification.",
         "blocked": {
-          "item_id": "S37-SEED20-P1",
-          "state": "blocked_browser",
+          "phase": "generation",
+          "reason": "all_video_slots_occupied",
           "claim": null,
           "task_id": null,
           "create_clicked": false,
           "credits_spent": 0
         },
-        "next": "Restore a supported owner-browser import path, then fresh main/lock/fullscan and exact S37 preflight before any claim/Create."
+        "next": "Wait for an actual free Unlimited video slot; then fresh main/lock/full scan and current queue priority/dependency checks."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-19T17:54:52Z",
+        "last_successful_check_at": "2026-10-20T07:04:22.405Z",
         "self_heal": {
           "status": "ok",
           "changed_at": "2026-10-19T09:50:00Z",
@@ -111,20 +134,20 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-19T17:40:23Z",
+          "synced_at": "2026-10-20T06:30:29Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-10-19T10:02:39Z",
+          "checked_at": "2026-10-20T03:22:30Z",
           "warn_or_error_count": 0,
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-18 through 2026-10-19T17:54:52Z (24h overlap from prior successful check)",
+          "window": "2026-10-18 through 2026-10-20T07:04:22.405Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "searched_message_count": 12,
-          "new_message_count": 0,
+          "searched_message_count": 18,
+          "new_message_count": 6,
           "deduplicated_known_message_count": 12,
           "mail_state_changed": false,
           "message_ids": [
@@ -164,7 +187,13 @@
             "1a135c453e36de90",
             "1a134ba95a7e10c7",
             "1a134b6ea62128f3",
-            "1a134a6a2908d083"
+            "1a134a6a2908d083",
+            "1a1568da0a004bf6",
+            "1a1567c220b3528a",
+            "1a15670b3ea532b0",
+            "1a1566d7f06c137b",
+            "1a1566c8b1c19841",
+            "1a15621b5b73b7bf"
           ],
           "run_ids": [
             39206350248,
@@ -203,13 +232,25 @@
             38417692197,
             38381031796,
             38380559868,
-            38378449476
+            38378449476,
+            39343381325,
+            39341325881,
+            39339992598,
+            39339627644,
+            39339623915,
+            39329935816
           ],
           "resolved_by_subsequent_success": {
             "canon_health": 39237799284,
             "integration_recovery": 39234540789,
             "topview_robot": 39249933835,
-            "drive_archive": 39249301254
+            "drive_archive": 39249301254,
+            "canon_health_20261019": 39372056514,
+            "drive_archive_20261019": 39383195312
+          },
+          "diagnoses": {
+            "canon_health": "Five failure notices were transient queue/master warnings for scenes57/58 plus a concurrent push; current canon-health has zero warn/error and later runs succeeded.",
+            "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully."
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap"
