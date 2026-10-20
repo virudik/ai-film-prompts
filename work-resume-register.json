@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T08:06:03.172Z",
+  "last_updated_at": "2026-10-20T12:03:09.987Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -47,12 +47,17 @@
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-20T08:06:03.172Z",
-        "mode": "full_account_scan_after_confirmed_submit",
+        "checked_at": "2026-10-20T12:03:09.987Z",
+        "mode": "full_account_scan_maintenance",
         "boards": 11,
-        "pages": 16,
+        "pages": 17,
         "tasks": 913,
         "complete": true,
+        "status_counts": {
+          "success": 870,
+          "fail": 37,
+          "init": 6
+        },
         "occupied_slots": 6,
         "free_slots": 0,
         "active_task_ids": [
@@ -63,14 +68,14 @@
           "1e4928fa04ed4a0396d1d2ea4f5934bb",
           "70ba69f8c44e4898ab587fbffeaeca01"
         ],
-        "new_submissions": 1,
-        "submitted_item": "S39-SEED20-P1",
-        "task_id": "008058a4705c45c089256116427153d4",
+        "claimed_items": 0,
+        "submission_unknown_items": 0,
+        "new_submissions": 0,
         "credits_spent": 0,
-        "next": "Wait for actual S16-P1 and S39-P1 results; save genuine continuation sources before each Part2; fresh main/lock/full scan before any next submit."
+        "next": "Wait for a real free Unlimited0 video slot and genuine continuation outputs; then reread fresh main/owner decisions/lock and repeat the complete account scan before any claim."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-20T07:04:22.405Z",
+        "last_successful_check_at": "2026-10-20T12:03:09.987Z",
         "self_heal": {
           "status": "ok",
           "changed_at": "2026-10-19T09:50:00Z",
@@ -78,11 +83,12 @@
         },
         "owner_tasks": {
           "open_for_chatgpt_any_claude": 0,
+          "supabase_open_owner_decisions": 0,
           "action": "none"
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-20T06:30:29Z",
+          "synced_at": "2026-10-20T11:50:23Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
@@ -92,11 +98,11 @@
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-18 through 2026-10-20T07:04:22.405Z (24h overlap from prior successful check)",
+          "window": "2026-10-19 through 2026-10-20T12:03:09.987Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "searched_message_count": 18,
-          "new_message_count": 6,
-          "deduplicated_known_message_count": 12,
+          "searched_message_count": 11,
+          "new_message_count": 0,
+          "deduplicated_known_message_count": 11,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -194,11 +200,30 @@
             "topview_robot": 39249933835,
             "drive_archive": 39249301254,
             "canon_health_20261019": 39372056514,
-            "drive_archive_20261019": 39383195312
+            "drive_archive_20261019": 39383195312,
+            "pages_build_20261020": 39417828784,
+            "drive_archive_20261020": 39418380463
           },
           "diagnoses": {
             "canon_health": "Five failure notices were transient queue/master warnings for scenes57/58 plus a concurrent push; current canon-health has zero warn/error and later runs succeeded.",
-            "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully."
+            "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully.",
+            "pages_build_20261020": "Four cancelled Pages runs were superseded by newer pushes; each cancellation was followed by a successful Pages run. Latest completed Pages run39417828784 succeeded; a newer run39419006393 was in progress at read time."
+          },
+          "actions_verification": {
+            "checked_at": "2026-10-20T12:03:09.987Z",
+            "runs_examined": 100,
+            "current_failure": false,
+            "latest_completed_pages_run_id": 39417828784,
+            "latest_completed_pages_conclusion": "success",
+            "latest_drive_archive_run_id": 39418380463,
+            "latest_drive_archive_conclusion": "success",
+            "superseded_cancelled_pages_run_ids": [
+              39417824865,
+              39411893059,
+              39406030576,
+              39399939538
+            ],
+            "observed_in_progress_run_id": 39419006393
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap"
