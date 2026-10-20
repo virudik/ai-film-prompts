@@ -183,6 +183,16 @@
    "thumb_bytes": 71546,
    "src_sha256": "f414e0c141c879ea487e716b1b6b8d470334eca3000c983621a31b256c3068e5"
   },
+  "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2869341,
+   "thumb_bytes": 72620,
+   "src_sha256": "e695753a6a3323d0e5175975b99e45e4673f4c2f562d1dfedb3d31988b5f6e9e"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -392,6 +402,16 @@
    "src_bytes": 2722444,
    "thumb_bytes": 69166,
    "src_sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607"
+  },
+  "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2764887,
+   "thumb_bytes": 71980,
+   "src_sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
