@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T18:01:38.400Z",
+  "last_updated_at": "2026-10-20T21:01:17.485Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1058,7 +1058,7 @@
       "work_id": "FILM-20261020-WORM-SEEDANCE",
       "title": "Активные бои с червём: Seedance2.0, первоочередная ветка и свободный запуск",
       "status": "in_progress",
-      "verified_at": "2026-10-20T18:01:38.400Z",
+      "verified_at": "2026-10-20T21:01:17.485Z",
       "owner_instruction": "20Oct2026 01:32:57MSK: доработать боевые/червя, запускать через Seedance, поставить следующими; слот освободился, кнопки сайта нажаты.",
       "done": [
         "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success.",
@@ -1069,7 +1069,8 @@
         "Existing hourly automation updated with worm priority; free browser inputs loaded, no submit yet.",
         "Published72f3150c;10files exact readback; master/integration/canon workflows success; Pages39337702619 deployed exact master blobf64343d8;healthok.",
         "S16-SEED20-P1 submitted once22:51:48UTC,task30cfaf12ad944cd6944416623397e41c;Seedance2.0/15s/720p/16:9/qty1/6images+1video/Unlimited/0credits;full normalized prompt exact.",
-        "Post-submit full11boards/17pages/912tasks:6active/0free. Receipt and UI proof saved; no further submit."
+        "Post-submit full11boards/17pages/912tasks:6active/0free. Receipt and UI proof saved; no further submit.",
+        "20Oct20:17UTC external activity reconciled: canonical Wan S44 prompt appeared twice outside this assistant. Free Wan task42f5f94e994a4768a4618c5cda3fa4d1 init/Unlimited/0, but metadata has4images+0videos, so required actual corrected43 Video1 is absent/unverified; counted as its one Wan attempt, no duplicate. Paid task3c01baad89544304aaa803725f6aae4b succeeded as Seedance2.5/30s/36credits/4images+0videos; not authorized, not the selected Seedance2.0 P1, no acceptance."
       ],
       "next_actions": [
         "Wait for actual S16-P1 success; inspect and save the genuine ending with provenance/SHA/QC, then launch S16-P2 through Unlimited0 after fresh main/lock/full scan.",
@@ -1086,7 +1087,7 @@
         "reports/worm-seedance-2026-10-20.md",
         "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg"
       ],
-      "waiting_on": "Actual S16-P1 result for continuity. One physical video slot is free, but the explicit owner order blocks unrelated submissions until S16-P2 can use the genuine checked S16-P1 ending."
+      "waiting_on": "Actual S16-P1 result for continuity. Live account now has 6 active Unlimited0 videos, including the externally submitted S44 Wan task. Do not bypass 16→42→56→48→57→58 and do not repeat S44."
     },
     {
       "work_id": "FILM-20261020-S57-S58-IMAGES",
