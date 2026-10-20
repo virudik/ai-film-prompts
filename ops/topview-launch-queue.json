@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T00:22:24.923Z",
+  "updated_at": "2026-10-20T00:32:46.672587Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5368,7 +5368,7 @@
       "normalized_prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
       "prompt_file_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
       "priority": 8,
-      "state": "waiting_for_slot",
+      "state": "completed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -5413,7 +5413,16 @@
         "error": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
         "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json"
       },
-      "blocked_reason": "Topview explicitly rejected Unlimited submission: all 6 concurrent slots occupied; 11-board readback found no created task. Await a free slot."
+      "completed_at": "2026-10-20T00:32:46.672587Z",
+      "completion_method": "chatgpt_imagegen",
+      "launch_readiness": "completed_no_topview_launch_needed",
+      "output": {
+        "path": "references/scenes/scene-57/S57-crash-avenue.png",
+        "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+        "assistant_qc": "passed",
+        "owner_approval": "not_recorded"
+      },
+      "completion_note": "Owner03:24MSK changed route to ChatGPT. Saved/QC original reference; do not submit duplicate Topview image task."
     },
     {
       "id": "S58-WRECK-IMAGE",
@@ -5426,7 +5435,7 @@
       "normalized_prompt_sha256": "a9c16f50924dcd18e1a926cebea7e1b2aa8eb3a20b23863e3bcecab22f5e2fa2",
       "prompt_file_sha256": "a9c16f50924dcd18e1a926cebea7e1b2aa8eb3a20b23863e3bcecab22f5e2fa2",
       "priority": 8.1,
-      "state": "blocked_inputs",
+      "state": "completed",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -5446,8 +5455,10 @@
         {
           "slot": "Image2",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         }
       ],
       "task_id": null,
@@ -5458,8 +5469,16 @@
       "depends_on_completed": [
         "S57-AVENUE-IMAGE"
       ],
-      "blocker": "Needs the saved, QC-checked result of S57-AVENUE-IMAGE as an input image.",
-      "launch_readiness": "blocked_inputs"
+      "launch_readiness": "completed_no_topview_launch_needed",
+      "completed_at": "2026-10-20T00:32:46.672587Z",
+      "completion_method": "chatgpt_imagegen",
+      "output": {
+        "path": "references/scenes/scene-58/S58-wreck-start.png",
+        "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+        "assistant_qc": "passed",
+        "owner_approval": "not_recorded"
+      },
+      "completion_note": "Owner03:24MSK changed route to ChatGPT. Saved/QC original reference; do not submit duplicate Topview image task."
     },
     {
       "id": "S57-SEED20-P1",
@@ -5469,7 +5488,7 @@
       "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
       "normalized_prompt_sha256": "5dce3308689560c429b785f7c0c61568615b4c87576a8e4020a1533fe9d99ff7",
       "priority": 22,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5479,12 +5498,8 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [
-        "S57-AVENUE-IMAGE"
-      ],
-      "depends_on_completed": [
-        "S57-AVENUE-IMAGE"
-      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
       "references": [
         {
           "slot": "@Image1",
@@ -5497,8 +5512,10 @@
           "slot": "@Image2",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image3",
@@ -5532,9 +5549,14 @@
       "task_id": null,
       "claim": null,
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
-      "blocker": "Needs the saved, QC-checked S57-AVENUE-IMAGE result as @Image2.",
-      "launch_readiness": "blocked_inputs",
-      "created_at": "2026-10-19T23:43:06Z"
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+        }
+      ]
     },
     {
       "id": "S57-SEED20-P2",
@@ -5580,8 +5602,10 @@
           "slot": "@Image2",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image3",
@@ -5609,8 +5633,14 @@
       "claim": null,
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
       "blocker": "Actual ending of S57-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_inputs",
-      "created_at": "2026-10-19T23:43:06Z"
+      "launch_readiness": "blocked_continuity",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+        }
+      ]
     },
     {
       "id": "S58-SEED20-P1",
@@ -5620,7 +5650,7 @@
       "canonical_prompt_sha256": "5880a443c5ea85a345d379a0275181505dc0b7d996cc9fabbd7e76fbc304c4f3",
       "normalized_prompt_sha256": "e5e7cb680bba897c1a305fcda5fc6437a01548fde199f0bc01ddc3b9e592c8ee",
       "priority": 23,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5630,21 +5660,17 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [
-        "S57-AVENUE-IMAGE",
-        "S58-WRECK-IMAGE"
-      ],
-      "depends_on_completed": [
-        "S57-AVENUE-IMAGE",
-        "S58-WRECK-IMAGE"
-      ],
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
       "references": [
         {
           "slot": "@Image1",
           "path": "references/scenes/scene-58/S58-wreck-start.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S58-WRECK-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image2",
@@ -5671,16 +5697,27 @@
           "slot": "@Image5",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         }
       ],
       "task_id": null,
       "claim": null,
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
-      "blocker": "Needs saved, QC-checked S58-WRECK-IMAGE (@Image1) and S57-AVENUE-IMAGE (@Image5).",
-      "launch_readiness": "blocked_inputs",
-      "created_at": "2026-10-19T23:43:06Z"
+      "launch_readiness": "reference_inputs_available",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
+        },
+        {
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
+        }
+      ]
     },
     {
       "id": "S58-SEED20-P2",
@@ -5733,8 +5770,10 @@
           "slot": "@Image3",
           "path": "references/scenes/scene-58/S58-wreck-start.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S58-WRECK-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image4",
@@ -5748,8 +5787,14 @@
       "claim": null,
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
       "blocker": "Actual ending of S58-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_inputs",
-      "created_at": "2026-10-19T23:43:06Z"
+      "launch_readiness": "blocked_continuity",
+      "created_at": "2026-10-19T23:43:06Z",
+      "required_saved_reference_assets": [
+        {
+          "path": "references/scenes/scene-58/S58-wreck-start.png",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
+        }
+      ]
     }
   ],
   "already_submitted": {
@@ -6287,5 +6332,14 @@
     ],
     "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json",
     "observed_blocker": "Unlimited concurrent slot limit; no task created; six active videos"
+  },
+  "owner_instruction_20261020_0324": {
+    "instruction": "Draw the missing references with ChatGPT; use the first original ship and existing cats/cockpit.",
+    "image_items_completed_externally": [
+      "S57-AVENUE-IMAGE",
+      "S58-WRECK-IMAGE"
+    ],
+    "report": "reports/scene57-58-reference-completion-2026-10-20.json",
+    "preserved": "Seedance2.0 video priority57/58 before dance; real part2 continuity; worm priority; no new Topview task or credits."
   }
 }

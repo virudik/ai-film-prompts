@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 58,
-  "updated_at": "2026-10-19T23:43:06Z",
+  "updated_at": "2026-10-20T00:32:46.672587Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
-  "status": "blocked_inputs",
+  "status": "reference_images_ready",
   "references": [
     {
       "path": "references/scenes/scene-58/S58-wreck-start.png",
@@ -28,7 +28,7 @@
       "site_published": {
         "path": "references/scenes/scene-58/S58-wreck-start.png",
         "git_present": true,
-        "linked_in_master": false
+        "linked_in_master": true
       },
       "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
       "assistant_qc": {
@@ -36,7 +36,11 @@
         "checked_at": "2026-10-20T00:29:29.065Z",
         "evidence": "First chosen broad white ship and cat emblem retained; hull intact, closed visible exit hatch, narrow gap from pedestal, rear engine flame/black smoke, toppled carved columns, headless statue and fallen hooded head beside tail, matching orange light, no characters.",
         "limitations": "Synthetic scene58 starting design; not an extracted end frame of scene57. Crash trench perspective partly foreground; right-vs-left engine side cannot be conclusively established from this three-quarter still."
-      }
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
     },
     {
       "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
@@ -100,20 +104,35 @@
       "role": "location",
       "asset_id": "references/scenes/scene-57/S57-crash-avenue.png",
       "media_type": "image",
-      "status": "planned_not_created",
+      "status": "available",
       "owner_approval": "not_recorded",
       "provenance": {
-        "kind": "planned_topview_image",
-        "queue_item": "S57-AVENUE-IMAGE",
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:26:25.493Z",
+        "input_paths": [
+          "references/scenes/scene-27/S27-Image5-topview-source.png"
+        ],
         "prompt_path": "references/scenes/scene-57/S57-crash-avenue-image-prompt.txt",
         "prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
-        "drawn_by": "ChatGPT via free Topview website queue"
+        "generation_file": "exec-33517e66-b23a-4272-9f22-3e1a3477a58f.png",
+        "owner_authorization": "Owner20Oct2026 03:24MSK: draw missing references with ChatGPT."
       },
       "site_published": {
         "path": "references/scenes/scene-57/S57-crash-avenue.png",
-        "linked_in_master": false,
-        "git_present": false
-      }
+        "git_present": true,
+        "linked_in_master": true
+      },
+      "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+      "assistant_qc": {
+        "status": "passed_for_location_reference",
+        "checked_at": "2026-10-20T00:26:25.493Z",
+        "evidence": "Empty long avenue, two rows of standing carved columns, colossal hooded statues including outstretched arm, matching ochre stone/red spires/orange sunset; no ships/characters/fire/trench or crash debris.",
+        "limitations": "Five visible statues rather than three in image brief; video prompts do not require an exact statue count. Source is a location design reference, not a real video frame."
+      },
+      "dimensions": [
+        1672,
+        941
+      ]
     }
   ],
   "identity_refs": [
@@ -139,7 +158,7 @@
       "canonical_block_label": "58",
       "canonical_prompt_sha256": "2fcf23cd2104c24b7b85ab0b48097367b83aad1f9814cb886bfab2367c91ac46",
       "local_numbering": true,
-      "launch_readiness": "blocked_inputs",
+      "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
       "slots": [
@@ -147,8 +166,10 @@
           "slot": "@Image1",
           "path": "references/scenes/scene-58/S58-wreck-start.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S58-WRECK-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image2",
@@ -175,8 +196,10 @@
           "slot": "@Image5",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         }
       ],
       "characters": 7103
@@ -187,7 +210,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "5880a443c5ea85a345d379a0275181505dc0b7d996cc9fabbd7e76fbc304c4f3",
       "local_numbering": true,
-      "launch_readiness": "blocked_inputs",
+      "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
       "slots": [
@@ -195,8 +218,10 @@
           "slot": "@Image1",
           "path": "references/scenes/scene-58/S58-wreck-start.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S58-WRECK-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image2",
@@ -223,8 +248,10 @@
           "slot": "@Image5",
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S57-AVENUE-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S57-AVENUE-IMAGE",
+          "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         }
       ],
       "characters": 4837
@@ -235,7 +262,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "8b2a26846bc74231e55c0984bef13a995f0a0ace9c420df1bc7c2a4867b99000",
       "local_numbering": true,
-      "launch_readiness": "blocked_inputs",
+      "launch_readiness": "blocked_continuity",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
       "slots": [
@@ -265,8 +292,10 @@
           "slot": "@Image3",
           "path": "references/scenes/scene-58/S58-wreck-start.png",
           "required": true,
-          "input_status": "required_not_available",
-          "source_item_id": "S58-WRECK-IMAGE"
+          "input_status": "available",
+          "source_item_id": "S58-WRECK-IMAGE",
+          "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+          "source_kind": "chatgpt_imagegen_saved_reference"
         },
         {
           "slot": "@Image4",
@@ -280,11 +309,10 @@
     }
   ],
   "site_published": true,
-  "last_qc_at": "2026-10-19T23:43:06Z",
-  "last_qc_scope": "Existing inputs re-used; new location/wreck images planned for ChatGPT, not created.",
+  "last_qc_at": "2026-10-20T00:32:46.672587Z",
+  "last_qc_scope": "Two generated location/wreck references visually checked; original ship/cats/front cockpit verified; original rear-view orientation helper inspected. All image inputs available. Part2 requires actual preceding video.",
   "remaining": [
-    "S57-AVENUE-IMAGE: draw, QC, save references/scenes/scene-57/S57-crash-avenue.png",
-    "S58-WRECK-IMAGE: draw after the avenue, QC, save references/scenes/scene-58/S58-wreck-start.png"
+    "Actual S58-SEED20-P1 ending video for part2: save source/provenance/SHA and QC."
   ],
   "technical_success_is_editorial_approval": false,
   "invariants": [

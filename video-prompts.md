@@ -68,8 +68,8 @@
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
 | 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
-| 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (рисует ChatGPT); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. DRAFT до картинки аллеи. |
-| 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (рисует ChatGPT); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. DRAFT до картинок. |
+| 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (готово); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. READY: картинки готовы; часть2 после реального результата части1. |
+| 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (готово); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. READY: картинки готовы; часть2 после реального результата части1. |
 
 ---
 
@@ -7347,7 +7347,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 57 — РосКОТмос: аварийная посадка котов на планете ситхов
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","action","comedy"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","action","comedy"]} -->
 
 **Контекст использования:**
 
@@ -7357,20 +7357,21 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Комедия без мультяшности:** настоящая физика и вес, смешно за счёт тайминга: колонны падают домино, статуя теряет руку, её голова катится за кораблём и в тишине «клонк» бьёт его в хвост. Коты абсолютно серьёзны. Корабль в этой сцене не взрывается и не разваливается — это в 58.
 - **Коты:** Лучик — пилот (в кабине справа в кадре), Рыжик — штурман (слева), как в 24/25; кабина — та же, что в 24/25 (@Image4).
 - **Динамика (правило владельца 18.10):** 7 битов, 6 склеек по движению, без «спокойно».
-- **До READY:** нужна новая картинка-референс @Image2 «аллея колонн и статуй» — рисует ChatGPT по очереди (`S57-AVENUE-IMAGE`, промт `references/scenes/scene-57/S57-crash-avenue-image-prompt.txt`), затем QC и сохранение в `references/scenes/scene-57/S57-crash-avenue.png`. Остальные входы уже в репозитории.
+- **Референсы готовы:** аллея и повреждённый первый корабль созданы ChatGPT, проверены и сохранены. Изображения для части 1 готовы; часть 2 требует настоящего окончания части 1. Проверка ассистента не означает приёмку владельца.
 - **Версии промта:** во вкладках над промтом — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с). В очередь по умолчанию — Seedance 2.0 (экшен). Без фоновой музыки. Запуск — только по команде владельца.
 - В монтаж 20–30 с.
 
 **Референсы:**
 
 - @Image1 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн корабля);
-- @Image2 — аллея колонн и статуй на окраине руин, место крушения (рисует ChatGPT, файла пока нет: `references/scenes/scene-57/S57-crash-avenue.png`);
+- @Image2 — <a href="references/scenes/scene-57/S57-crash-avenue.png">аллея колонн и статуй до аварии</a> (готовый референс ChatGPT);
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a> (палитра, свет, горизонт);
 - @Image4 — <a href="references/scenes/scene-24/S24-Image3-topview-source.png">кабина котов из 24/25</a>;
 - @Image5 — <a href="references/luchik.jpg">Лучик</a>;
 - @Image6 — <a href="references/ryzhik.jpg">Рыжик</a>.
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-57/S57-crash-avenue.png" target="_blank" rel="noopener"><img src="references/scenes/scene-57/S57-crash-avenue.png" alt="@Image2 — аллея до аварии"></a><figcaption>@Image2 — аллея до аварии</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image1 — корабль РосКОТмоса"></a><figcaption>@Image1 — корабль РосКОТмоса, первый референс</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины ситхов"></a><figcaption>@Image3 — руины ситхов</figcaption></figure>
 <figure><a href="references/scenes/scene-24/S24-Image3-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-24/S24-Image3-topview-source.png" alt="@Image4 — кабина котов"></a><figcaption>@Image4 — кабина котов</figcaption></figure>
@@ -7461,7 +7462,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, рисует ChatGPT); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image5 — `references/luchik.jpg`; @Image6 — `references/ryzhik.jpg`.
+**Входы части 1:** @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, готова); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image5 — `references/luchik.jpg`; @Image6 — `references/ryzhik.jpg`.
 
 **Входы части 2:** @Video1 — конец части 1; @Image1 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image2 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея); @Image3 — `references/scenes/scene-24/S24-Image3-topview-source.png` (кабина); @Image4 — `references/luchik.jpg`; @Image5 — `references/ryzhik.jpg`.
 
@@ -7600,7 +7601,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 58 — РосКОТмос: коты выбегают из горящего корабля
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":57}],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","escape","action","comedy"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":57}],"tags":["cats","luchik","ryzhik","roskotmos","sith_planet","crash","escape","action","comedy"]} -->
 
 **Контекст использования:**
 
@@ -7610,19 +7611,21 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - **Старт — кадр-референс обломков (@Image1), а не видео 57:** так 58 не ждёт результата 57, обе сцены можно запускать по готовности референсов. Если к запуску уже есть принятый конец 57, его можно добавить как @Video1 отдельной правкой.
 - **Комедия без мультяшности:** люк заело — его вышибают изнутри с третьего удара; горящая панель падает ровно туда, где только что был Рыжик; Лучик чихает от сажи; эмблема РосКОТмоса падает котам под лапы. Корабль разваливается по частям, огненный шар — небольшой, не на весь кадр.
 - **Динамика (правило владельца 18.10):** 6 битов, 5 склеек по движению, без «спокойно».
-- **До READY:** нужны две новые картинки-референса от ChatGPT по очереди: @Image5 «аллея» (`S57-AVENUE-IMAGE`, общая с 57) и @Image1 «корабль после крушения в аллее» (`S58-WRECK-IMAGE`, промт `references/scenes/scene-58/S58-wreck-image-prompt.txt`, рисуется после аллеи и по ней).
+- **Референсы готовы:** аллея и повреждённый первый корабль созданы ChatGPT, проверены и сохранены. Изображения для части 1 готовы; часть 2 требует настоящего окончания части 1. Проверка ассистента не означает приёмку владельца.
 - **Версии промта:** во вкладках — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с). В очередь по умолчанию — Seedance 2.0. Без речи и фоновой музыки. Запуск — только по команде владельца.
 - В монтаж 20–30 с.
 
 **Референсы:**
 
-- @Image1 — корабль после крушения в аллее, стартовый кадр (рисует ChatGPT, файла пока нет: `references/scenes/scene-58/S58-wreck-start.png`);
+- @Image1 — <a href="references/scenes/scene-58/S58-wreck-start.png">корабль после аварии, закрытый люк</a> (созданный стартовый референс, не извлечённый видеокадр);
 - @Image2 — <a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png">корабль РосКОТмоса, первый референс</a> (дизайн, эмблема);
 - @Image3 — <a href="references/luchik.jpg">Лучик</a>;
 - @Image4 — <a href="references/ryzhik.jpg">Рыжик</a>;
-- @Image5 — аллея колонн и статуй (та же картинка, что @Image2 в 57: `references/scenes/scene-57/S57-crash-avenue.png`).
+- @Image5 — <a href="references/scenes/scene-57/S57-crash-avenue.png">та же аллея до аварии</a>;
 
 <div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-58/S58-wreck-start.png" target="_blank" rel="noopener"><img src="references/scenes/scene-58/S58-wreck-start.png" alt="@Image1 — корабль после аварии"></a><figcaption>@Image1 — корабль после аварии</figcaption></figure>
+<figure><a href="references/scenes/scene-57/S57-crash-avenue.png" target="_blank" rel="noopener"><img src="references/scenes/scene-57/S57-crash-avenue.png" alt="@Image5 — аллея до аварии"></a><figcaption>@Image5 — аллея до аварии</figcaption></figure>
 <figure><a href="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" target="_blank" rel="noopener"><img src="references/scenes/scene-45/S45-roskotmos-ship-first-option.png" alt="@Image2 — корабль РосКОТмоса"></a><figcaption>@Image2 — корабль РосКОТмоса, первый референс</figcaption></figure>
 <figure><a href="references/luchik.jpg" target="_blank" rel="noopener"><img src="references/luchik.jpg" alt="@Image3 — Лучик"></a><figcaption>@Image3 — Лучик</figcaption></figure>
 <figure><a href="references/ryzhik.jpg" target="_blank" rel="noopener"><img src="references/ryzhik.jpg" alt="@Image4 — Рыжик"></a><figcaption>@Image4 — Рыжик</figcaption></figure>
@@ -7707,7 +7710,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start.png` (обломки, рисует ChatGPT); @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, рисует ChatGPT).
+**Входы части 1:** @Image1 — `references/scenes/scene-58/S58-wreck-start.png` (корабль после аварии, готов); @Image2 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (корабль); @Image3 — `references/luchik.jpg`; @Image4 — `references/ryzhik.jpg`; @Image5 — `references/scenes/scene-57/S57-crash-avenue.png` (аллея, готова).
 
 **Входы части 2:** @Video1 — конец части 1; @Image1 — `references/luchik.jpg`; @Image2 — `references/ryzhik.jpg`; @Image3 — `references/scenes/scene-58/S58-wreck-start.png` (обломки); @Image4 — `references/scenes/scene-45/S45-roskotmos-ship-first-option.png` (эмблема).
 

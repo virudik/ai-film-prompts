@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T00:22:24.923Z",
+  "last_updated_at": "2026-10-20T00:32:46.672587Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1069,24 +1069,24 @@
     {
       "work_id": "FILM-20261020-S57-S58-IMAGES",
       "title": "Бесплатные референсы аварии РосКОТмоса57/58",
-      "status": "blocked_external",
-      "verified_at": "2026-10-20T00:22:24.923Z",
+      "status": "completed",
+      "verified_at": "2026-10-20T00:32:46.672587Z",
       "done": [
-        "Canon lock acquired; exact prompts and both existing input SHA256 verified.",
-        "S57 free website form verified; one Create rejected by Unlimited slot limit. Full 11-board/17-page/912-task scan: no new task, six active videos, zero image tasks.",
-        "Video57/58 dependencies added before A1 dance and49–51; existing HH:55 automation updated, still enabled."
+        "Two missing references generated with built-in imagegen; first original ship/cats/cockpit preserved.",
+        "Original PNGs saved immediately in GitHub with provenance/SHA/QC; master galleries and all image slots updated.",
+        "Topview image attempts completed externally; P1 waiting for video slot, P2 true continuation inputs preserved.",
+        "Existing hourly automation updated; video57/58 before dance dependencies preserved."
       ],
       "next_actions": [
-        "When an Unlimited slot is free: recheck canon lock/fresh main and duplicates; submit S57 image once, QC and save original PNG/provenance/manifest/queue/thumbnail.",
-        "Only after saved S57: submit exact S58 image with first ship and saved avenue, QC/save original and update inputs.",
-        "Video57/58 before dance; true part2 video inputs remain mandatory."
+        "Free video slots: exact queued Seedance2.0 prompts; before every launch fresh lock/main/inputs/anti-duplicate checks.",
+        "After P1 result, visually check and save the genuine ending for P2."
       ],
       "constraints": [
-        "Exact queued image prompts and inputs; Nano Banana Pro,2K,16:9,quantity1,Unlimited0.",
-        "One launch per item; no auto retry or inferred owner approval; genuine part2 videos remain required."
+        "No duplicate Topview image launch.",
+        "QC of references is not owner acceptance.",
+        "Part2 inputs must be actual video results; existing free-only authorization and priorities remain."
       ],
-      "blocker": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
-      "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json"
+      "receipt": "reports/scene57-58-reference-completion-2026-10-20.json"
     }
   ],
   "rules": [
