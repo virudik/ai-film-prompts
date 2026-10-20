@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "updated_at": "2026-10-20T21:58:03Z",
-  "state": "content_prepared",
+  "updated_at": "2026-10-20T22:02:03.893Z",
+  "state": "completed",
   "scenes": 10,
   "prompt_blocks": 30,
   "new_images": 10,
@@ -219,8 +219,24 @@
   ],
   "queue_unchanged": true,
   "video_launches": 0,
-  "remaining": [
-    "Проверка публикации main и GitHub Pages",
-    "Контрольная точка ПОСЛЕ и освобождение замка"
-  ]
+  "remaining": [],
+  "content_commit": "14fa6c050ac49fae96393293bbd8c379c0a77aab",
+  "verified_at": "2026-10-20T22:02:03.893Z",
+  "verification": {
+    "project_health": "ok",
+    "scenes": 10,
+    "prompt_blocks": 30,
+    "unique_prompt_labels": 30,
+    "new_images": 10,
+    "exact_git_blobs_checked": true,
+    "all_input_paths_exist": true,
+    "pages_ui": "10 scenes / 30 prompts; poster and opening images loaded",
+    "checks": {
+      "projects_status": "success",
+      "reference_thumbnails": "success",
+      "github_pages": "success"
+    },
+    "queue_unchanged": true,
+    "video_launches": 0
+  }
 }

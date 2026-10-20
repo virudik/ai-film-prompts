@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "21.10: афиша, заставка, 6 эпизодов и дополнительные сцены с референсами; без очереди",
   "acquired_at": "2026-10-20T21:06:26.235Z",
-  "expires_at": "2026-10-20T22:28:00.655Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T22:02:03.893Z",
   "rules": "ops/CANON-LOCK.md"
 }
