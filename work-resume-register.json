@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T00:48:14.900872Z",
+  "last_updated_at": "2026-10-20T04:39:24.977Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1108,6 +1108,26 @@
         "Individual cats and original first ship/emblem outrank helper variations.",
         "57/58 remain Seedance2.0 before dance; other queue priorities unchanged."
       ]
+    },
+    {
+      "work_id": "FILM-20261020-CONTROL-CENTER-PRESENTATION",
+      "title": "Рекламная презентация контрольного центра всех четырёх проектов",
+      "status": "in_progress",
+      "started_at": "2026-10-20T04:39:24.977Z",
+      "authorization": "Владелец 20.10.2026 07:38 МСК: презентация сайта, функций, синхронизаций, создания сцен/промтов/роликов, референсов и автоматизации; со скриншотами, схемами и графиками, человеческим языком.",
+      "done": [
+        "Создан документ презентации https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6; содержимое ещё не подготовлено."
+      ],
+      "next_actions": [
+        "Сверить текущие возможности по main и сайту, получить скриншоты.",
+        "Собрать слайды с примерами и схемами, отличая действующую автоматику от условных запусков.",
+        "Проверить каждый слайд, сохранить и выдать презентацию."
+      ],
+      "constraints": [
+        "Рекламные тезисы подтверждать кодом, правилами и текущим состоянием; не обещать полностью автономное создание фильма.",
+        "Без запусков генераций, расходов, редакционного одобрения или изменения общих правил."
+      ],
+      "blockers": []
     }
   ],
   "rules": [
