@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-20T17:33:14+00:00",
+ "generated_at": "2026-10-20T20:23:06+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "f295f48b7c7c414c3163d5b7e365e76eb3cb3d5433279e9376989d982d548a70",
-   "bytes": 967355
+   "sha256": "f864e716895947a2cbac47ba032ec25eb9f9966e019eb73695463b3f61f74184",
+   "bytes": 967754
   }
  ],
  "invariants": [
@@ -282,7 +282,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 33984,
+   "offset": 34215,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -304,7 +304,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 60321,
+   "offset": 60552,
    "chars": 28000,
    "sha256_12": "e433609e41d1"
   },
@@ -324,7 +324,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 88321,
+   "offset": 88552,
    "chars": 187821,
    "sha256_12": "32d9ec7ccfb1"
   },
@@ -342,7 +342,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 276142,
+   "offset": 276373,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -364,7 +364,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 292498,
+   "offset": 292729,
    "chars": 23842,
    "sha256_12": "1ec2d509b3b2"
   },
@@ -388,7 +388,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 316340,
+   "offset": 316571,
    "chars": 28574,
    "sha256_12": "410cafeaba9d"
   },
@@ -410,7 +410,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 344914,
+   "offset": 345145,
    "chars": 27730,
    "sha256_12": "9d730b647bb8"
   },
@@ -432,7 +432,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 372644,
+   "offset": 372875,
    "chars": 27466,
    "sha256_12": "0ffe6318a7c1"
   },
@@ -454,7 +454,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 400110,
+   "offset": 400341,
    "chars": 27514,
    "sha256_12": "d9a46173a72c"
   },
@@ -478,7 +478,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 427624,
+   "offset": 427855,
    "chars": 28380,
    "sha256_12": "b33106b48db0"
   },
@@ -498,7 +498,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 456004,
+   "offset": 456235,
    "chars": 27372,
    "sha256_12": "848fba74ac9f"
   },
@@ -507,7 +507,7 @@
    "title": "Ангар крейсера: ремонт крыла, и оно отваливается",
    "target_engine": "Wan 3",
    "state": "DRAFT",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": "ru",
    "depends_on": [
@@ -519,9 +519,9 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 483376,
-   "chars": 26640,
-   "sha256_12": "20d948801d7f"
+   "offset": 483607,
+   "chars": 26669,
+   "sha256_12": "57d26159843b"
   },
   {
    "id": 47,
@@ -541,7 +541,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 510016,
+   "offset": 510276,
    "chars": 24188,
    "sha256_12": "3be8f42e38a1"
   },
@@ -565,7 +565,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 534204,
+   "offset": 534464,
    "chars": 27968,
    "sha256_12": "562af2732315"
   },
@@ -592,7 +592,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 562172,
+   "offset": 562432,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -617,7 +617,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 655101,
+   "offset": 655361,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -645,7 +645,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 684981,
+   "offset": 685241,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -668,7 +668,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 717293,
+   "offset": 717553,
    "chars": 26071,
    "sha256_12": "49ca73f4fd9d"
   },
@@ -691,7 +691,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 743364,
+   "offset": 743624,
    "chars": 23645,
    "sha256_12": "f3297a9786e5"
   },
@@ -713,7 +713,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 767009,
+   "offset": 767269,
    "chars": 21234,
    "sha256_12": "84161e9a65fa"
   },
@@ -736,7 +736,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 788243,
+   "offset": 788503,
    "chars": 25982,
    "sha256_12": "1acd2327c68d"
   },
@@ -758,7 +758,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 814225,
+   "offset": 814485,
    "chars": 25709,
    "sha256_12": "1dc8ecac6141"
   },
@@ -784,7 +784,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 839934,
+   "offset": 840194,
    "chars": 27291,
    "sha256_12": "d18fef031798"
   }
