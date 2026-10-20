@@ -3,6 +3,76 @@
  "purpose": "Display thumbnails for reference images; originals are unchanged and remain the identity authority.",
  "max_width": 640,
  "items": {
+  "projects/kotmonavty/references/luchik.jpg": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/luchik.jpg.webp",
+   "width": 640,
+   "height": 401,
+   "src_width": 1536,
+   "src_height": 962,
+   "src_bytes": 262158,
+   "thumb_bytes": 33052,
+   "src_sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+  },
+  "projects/kotmonavty/references/roskotmos-logo.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/roskotmos-logo.png.webp",
+   "width": 560,
+   "height": 630,
+   "src_width": 560,
+   "src_height": 630,
+   "src_bytes": 267116,
+   "thumb_bytes": 20742,
+   "src_sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f"
+  },
+  "projects/kotmonavty/references/ryzhik.jpg": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/ryzhik.jpg.webp",
+   "width": 640,
+   "height": 357,
+   "src_width": 1536,
+   "src_height": 857,
+   "src_bytes": 229358,
+   "thumb_bytes": 29190,
+   "src_sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+  },
+  "projects/kotmonavty/references/ship-exterior-four-engines.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1111844,
+   "thumb_bytes": 30378,
+   "src_sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+  },
+  "projects/kotmonavty/references/ship-exterior-front.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-front.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2580201,
+   "thumb_bytes": 45062,
+   "src_sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+  },
+  "projects/kotmonavty/references/ship-exterior-rear.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-rear.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2606016,
+   "thumb_bytes": 50908,
+   "src_sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+  },
+  "projects/kotmonavty/references/ship-interior-cockpit.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/ship-interior-cockpit.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1600,
+   "src_height": 900,
+   "src_bytes": 2085347,
+   "thumb_bytes": 63008,
+   "src_sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+  },
   "references/full/artem.jpg": {
    "thumb": "references/thumbs/full/artem.jpg.webp",
    "width": 640,
