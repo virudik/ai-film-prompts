@@ -233,6 +233,26 @@
    "thumb_bytes": 59572,
    "src_sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
   },
+  "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2444936,
+   "thumb_bytes": 67354,
+   "src_sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9"
+  },
+  "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2672015,
+   "thumb_bytes": 68644,
+   "src_sha256": "5ffe20835059b991532a9a49d1d6575b3ec726e152e0188686e1c89e6e16ac2f"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
