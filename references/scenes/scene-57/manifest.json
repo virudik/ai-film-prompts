@@ -1,322 +1,333 @@
 {
- "schema_version": 2,
- "scene_id": 57,
- "updated_at": "2026-10-19T23:43:06Z",
- "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
- "status": "blocked_inputs",
- "references": [
-  {
-   "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-   "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-   "role": "vehicle_exterior",
-   "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-   "media_type": "image",
-   "owner_approval": "design_selected_2026-10-17T03:32MSK",
-   "assistant_qc": {
-    "status": "reused_existing_asset",
-    "evidence": "Owner 20.10: «референс корабля используй тот который первым сделался» = first generated ship image (16.10.2026 12:11Z, owner-selected 17.10 03:32 MSK).",
-    "checked_at": "2026-10-19"
-   },
-   "site_published": {
-    "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-    "linked_in_master": true,
-    "git_present": true
-   },
-   "reused_from_existing_pack": true
-  },
-  {
-   "path": "references/scenes/scene-57/S57-crash-avenue.png",
-   "role": "location",
-   "asset_id": "references/scenes/scene-57/S57-crash-avenue.png",
-   "media_type": "image",
-   "status": "planned_not_created",
-   "owner_approval": "not_recorded",
-   "provenance": {
-    "kind": "planned_topview_image",
-    "queue_item": "S57-AVENUE-IMAGE",
-    "prompt_path": "references/scenes/scene-57/S57-crash-avenue-image-prompt.txt",
-    "prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
-    "drawn_by": "ChatGPT via free Topview website queue"
-   },
-   "site_published": {
-    "path": "references/scenes/scene-57/S57-crash-avenue.png",
-    "linked_in_master": false,
-    "git_present": false
-   }
-  },
-  {
-   "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-   "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
-   "role": "location",
-   "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
-   "media_type": "image",
-   "owner_approval": "not_recorded",
-   "assistant_qc": {
-    "status": "reused_existing_asset",
-    "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
-    "checked_at": "2026-10-19"
-   },
-   "site_published": {
-    "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-    "linked_in_master": true,
-    "git_present": true
-   },
-   "reused_from_existing_pack": true
-  },
-  {
-   "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-   "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
-   "role": "vehicle_interior_light",
-   "asset_id": "references/scenes/scene-24/S24-Image3-topview-source.png",
-   "media_type": "image",
-   "owner_approval": "not_recorded",
-   "assistant_qc": {
-    "status": "reused_existing_asset",
-    "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
-    "checked_at": "2026-10-19"
-   },
-   "site_published": {
-    "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-    "linked_in_master": true,
-    "git_present": true
-   },
-   "reused_from_existing_pack": true
-  },
-  {
-   "path": "references/luchik.jpg",
-   "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
-   "role": "identity",
-   "asset_id": "references/luchik.jpg",
-   "media_type": "image",
-   "owner_approval": "not_recorded",
-   "assistant_qc": {
-    "status": "reused_existing_asset",
-    "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
-    "checked_at": "2026-10-19"
-   },
-   "site_published": {
-    "path": "references/luchik.jpg",
-    "linked_in_master": true,
-    "git_present": true
-   },
-   "reused_from_existing_pack": true
-  },
-  {
-   "path": "references/ryzhik.jpg",
-   "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
-   "role": "identity",
-   "asset_id": "references/ryzhik.jpg",
-   "media_type": "image",
-   "owner_approval": "not_recorded",
-   "assistant_qc": {
-    "status": "reused_existing_asset",
-    "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
-    "checked_at": "2026-10-19"
-   },
-   "site_published": {
-    "path": "references/ryzhik.jpg",
-    "linked_in_master": true,
-    "git_present": true
-   },
-   "reused_from_existing_pack": true
-  }
- ],
- "identity_refs": [
-  "references/luchik.jpg",
-  "references/ryzhik.jpg"
- ],
- "location_refs": [
-  "references/scenes/scene-57/S57-crash-avenue.png",
-  "references/scenes/scene-27/S27-Image5-topview-source.png"
- ],
- "prop_refs": [],
- "start_frame": null,
- "end_frame": null,
- "pose_composition_helpers": [],
- "video_refs": [],
- "approved": [],
- "rejected": [],
- "topview_source_provenance": null,
- "prompt_reference_mapping": [
-  {
-   "prompt": "main",
-   "prompt_id": "S57",
-   "canonical_block_label": "57",
-   "canonical_prompt_sha256": "5593cab16f8a58939b417c696e8c8ac0183be7ece0bdac9bc3955e1eef43fe70",
-   "local_numbering": true,
-   "launch_readiness": "blocked_inputs",
-   "owner_generation_approval_inferred": false,
-   "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
-   "slots": [
+  "schema_version": 2,
+  "scene_id": 57,
+  "updated_at": "2026-10-19T23:43:06Z",
+  "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
+  "status": "blocked_inputs",
+  "references": [
     {
-     "slot": "@Image1",
-     "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-     "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-     "required": true,
-     "input_status": "available"
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "role": "vehicle_exterior",
+      "asset_id": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "media_type": "image",
+      "owner_approval": "design_selected_2026-10-17T03:32MSK",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "Owner 20.10: «референс корабля используй тот который первым сделался» = first generated ship image (16.10.2026 12:11Z, owner-selected 17.10 03:32 MSK).",
+        "checked_at": "2026-10-19"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     },
     {
-     "slot": "@Image2",
-     "path": "references/scenes/scene-57/S57-crash-avenue.png",
-     "required": true,
-     "input_status": "required_not_available",
-     "source_item_id": "S57-AVENUE-IMAGE"
+      "path": "references/scenes/scene-57/S57-crash-avenue.png",
+      "role": "location",
+      "asset_id": "references/scenes/scene-57/S57-crash-avenue.png",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:26:25.493Z",
+        "input_paths": [
+          "references/scenes/scene-27/S27-Image5-topview-source.png"
+        ],
+        "prompt_path": "references/scenes/scene-57/S57-crash-avenue-image-prompt.txt",
+        "prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
+        "generation_file": "exec-33517e66-b23a-4272-9f22-3e1a3477a58f.png",
+        "owner_authorization": "Owner20Oct2026 03:24MSK: draw missing references with ChatGPT."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-57/S57-crash-avenue.png",
+        "git_present": true,
+        "linked_in_master": false
+      },
+      "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a",
+      "assistant_qc": {
+        "status": "passed_for_location_reference",
+        "checked_at": "2026-10-20T00:26:25.493Z",
+        "evidence": "Empty long avenue, two rows of standing carved columns, colossal hooded statues including outstretched arm, matching ochre stone/red spires/orange sunset; no ships/characters/fire/trench or crash debris.",
+        "limitations": "Five visible statues rather than three in image brief; video prompts do not require an exact statue count. Source is a location design reference, not a real video frame."
+      }
     },
     {
-     "slot": "@Image3",
-     "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-     "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
-     "required": true,
-     "input_status": "available"
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+      "role": "location",
+      "asset_id": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
+        "checked_at": "2026-10-19"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     },
     {
-     "slot": "@Image4",
-     "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-     "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
-     "required": true,
-     "input_status": "available"
+      "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+      "role": "vehicle_interior_light",
+      "asset_id": "references/scenes/scene-24/S24-Image3-topview-source.png",
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
+        "checked_at": "2026-10-19"
+      },
+      "site_published": {
+        "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     },
     {
-     "slot": "@Image5",
-     "path": "references/luchik.jpg",
-     "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
-     "required": true,
-     "input_status": "available"
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "role": "identity",
+      "asset_id": "references/luchik.jpg",
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
+        "checked_at": "2026-10-19"
+      },
+      "site_published": {
+        "path": "references/luchik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     },
     {
-     "slot": "@Image6",
-     "path": "references/ryzhik.jpg",
-     "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
-     "required": true,
-     "input_status": "available"
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "role": "identity",
+      "asset_id": "references/ryzhik.jpg",
+      "media_type": "image",
+      "owner_approval": "not_recorded",
+      "assistant_qc": {
+        "status": "reused_existing_asset",
+        "evidence": "20.10.2026 new DRAFT scene: path and SHA verified in repository",
+        "checked_at": "2026-10-19"
+      },
+      "site_published": {
+        "path": "references/ryzhik.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      },
+      "reused_from_existing_pack": true
     }
-   ],
-   "characters": 8023
-  },
-  {
-   "prompt": "57 · Seedance 2.0 часть 1",
-   "prompt_id": "S57-SEED20-P1",
-   "canonical_block_label": "57 · Seedance 2.0 часть 1",
-   "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
-   "local_numbering": true,
-   "launch_readiness": "blocked_inputs",
-   "owner_generation_approval_inferred": false,
-   "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
-   "slots": [
+  ],
+  "identity_refs": [
+    "references/luchik.jpg",
+    "references/ryzhik.jpg"
+  ],
+  "location_refs": [
+    "references/scenes/scene-57/S57-crash-avenue.png",
+    "references/scenes/scene-27/S27-Image5-topview-source.png"
+  ],
+  "prop_refs": [],
+  "start_frame": null,
+  "end_frame": null,
+  "pose_composition_helpers": [],
+  "video_refs": [],
+  "approved": [],
+  "rejected": [],
+  "topview_source_provenance": null,
+  "prompt_reference_mapping": [
     {
-     "slot": "@Image1",
-     "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-     "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-     "required": true,
-     "input_status": "available"
+      "prompt": "main",
+      "prompt_id": "S57",
+      "canonical_block_label": "57",
+      "canonical_prompt_sha256": "5593cab16f8a58939b417c696e8c8ac0183be7ece0bdac9bc3955e1eef43fe70",
+      "local_numbering": true,
+      "launch_readiness": "blocked_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "required_not_available",
+          "source_item_id": "S57-AVENUE-IMAGE"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "characters": 8023
     },
     {
-     "slot": "@Image2",
-     "path": "references/scenes/scene-57/S57-crash-avenue.png",
-     "required": true,
-     "input_status": "required_not_available",
-     "source_item_id": "S57-AVENUE-IMAGE"
+      "prompt": "57 · Seedance 2.0 часть 1",
+      "prompt_id": "S57-SEED20-P1",
+      "canonical_block_label": "57 · Seedance 2.0 часть 1",
+      "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
+      "local_numbering": true,
+      "launch_readiness": "blocked_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
+      "slots": [
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "required_not_available",
+          "source_item_id": "S57-AVENUE-IMAGE"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+          "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image6",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "characters": 5919
     },
     {
-     "slot": "@Image3",
-     "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
-     "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image4",
-     "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-     "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image5",
-     "path": "references/luchik.jpg",
-     "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image6",
-     "path": "references/ryzhik.jpg",
-     "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
-     "required": true,
-     "input_status": "available"
+      "prompt": "57 · Seedance 2.0 часть 2",
+      "prompt_id": "S57-SEED20-P2",
+      "canonical_block_label": "57 · Seedance 2.0 часть 2",
+      "canonical_prompt_sha256": "64f5b5f9dcaae8ed7e4ddaaa30d04a599c38524f07e59cfd3ace303a4b9f88e8",
+      "local_numbering": true,
+      "launch_readiness": "blocked_inputs",
+      "owner_generation_approval_inferred": false,
+      "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
+      "slots": [
+        {
+          "slot": "@Video1",
+          "required": true,
+          "canonical_role": "previous_part_end",
+          "input_status": "required_not_available",
+          "source_item_id": "S57-SEED20-P1",
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+        },
+        {
+          "slot": "@Image1",
+          "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/scene-57/S57-crash-avenue.png",
+          "required": true,
+          "input_status": "required_not_available",
+          "source_item_id": "S57-AVENUE-IMAGE"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "characters": 5393
     }
-   ],
-   "characters": 5919
-  },
-  {
-   "prompt": "57 · Seedance 2.0 часть 2",
-   "prompt_id": "S57-SEED20-P2",
-   "canonical_block_label": "57 · Seedance 2.0 часть 2",
-   "canonical_prompt_sha256": "64f5b5f9dcaae8ed7e4ddaaa30d04a599c38524f07e59cfd3ace303a4b9f88e8",
-   "local_numbering": true,
-   "launch_readiness": "blocked_inputs",
-   "owner_generation_approval_inferred": false,
-   "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
-   "slots": [
-    {
-     "slot": "@Video1",
-     "required": true,
-     "canonical_role": "previous_part_end",
-     "input_status": "required_not_available",
-     "source_item_id": "S57-SEED20-P1",
-     "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-    },
-    {
-     "slot": "@Image1",
-     "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
-     "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image2",
-     "path": "references/scenes/scene-57/S57-crash-avenue.png",
-     "required": true,
-     "input_status": "required_not_available",
-     "source_item_id": "S57-AVENUE-IMAGE"
-    },
-    {
-     "slot": "@Image3",
-     "path": "references/scenes/scene-24/S24-Image3-topview-source.png",
-     "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image4",
-     "path": "references/luchik.jpg",
-     "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
-     "required": true,
-     "input_status": "available"
-    },
-    {
-     "slot": "@Image5",
-     "path": "references/ryzhik.jpg",
-     "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
-     "required": true,
-     "input_status": "available"
-    }
-   ],
-   "characters": 5393
-  }
- ],
- "site_published": true,
- "last_qc_at": "2026-10-19T23:43:06Z",
- "last_qc_scope": "Existing inputs re-used; new location/wreck images planned for ChatGPT, not created.",
- "remaining": [
-  "S57-AVENUE-IMAGE: draw, QC, save references/scenes/scene-57/S57-crash-avenue.png"
- ],
- "technical_success_is_editorial_approval": false,
- "invariants": [
-  "Individual sheets outrank helpers for identity",
-  "@Image numbering is local to this prompt",
-  "Missing @Video inputs must not be invented",
-  "Ship design authority = references/scenes/scene-45/S45-roskotmos-ship-first-option.png (owner 20.10)"
- ],
- "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change)."
+  ],
+  "site_published": true,
+  "last_qc_at": "2026-10-19T23:43:06Z",
+  "last_qc_scope": "Existing inputs re-used; new location/wreck images planned for ChatGPT, not created.",
+  "remaining": [
+    "S57-AVENUE-IMAGE: draw, QC, save references/scenes/scene-57/S57-crash-avenue.png"
+  ],
+  "technical_success_is_editorial_approval": false,
+  "invariants": [
+    "Individual sheets outrank helpers for identity",
+    "@Image numbering is local to this prompt",
+    "Missing @Video inputs must not be invented",
+    "Ship design authority = references/scenes/scene-45/S45-roskotmos-ship-first-option.png (owner 20.10)"
+  ],
+  "note": "Owner 20.10.2026 02:29 MSK. Place: 46 → 57 → 58 → 40 → 26 (default choice, owner may change)."
 }
