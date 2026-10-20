@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "created_at": "2026-10-20T20:51:42Z",
+  "owner_request": "20.10.2026 — сюжет, трейлер и референсы; в очередь не добавлять",
+  "assets": [
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+      "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b",
+      "bytes": 2394850,
+      "derived_from": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": null
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+      "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
+      "bytes": 2545184,
+      "derived_from": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kotmonavty/references/development/KM-bar-compass.prompt.txt"
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+      "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
+      "bytes": 3033782,
+      "derived_from": [
+        "projects/kotmonavty/references/ship-exterior-front.png"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.prompt.txt"
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-star-vault.png",
+      "sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb",
+      "bytes": 2959538,
+      "derived_from": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/development/KM-bar-compass.png"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kotmonavty/references/development/KM-star-vault.prompt.txt"
+    }
+  ]
+}

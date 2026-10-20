@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "created_at": "2026-10-20T20:51:42Z",
+  "owner_request": "20.10.2026 — сюжет, трейлер и референсы; в очередь не добавлять",
+  "assets": [
+    {
+      "path": "projects/kot-detektiv/references/development/KD-duo.png",
+      "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3",
+      "bytes": 2552840,
+      "derived_from": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kot-detektiv/references/development/KD-duo.prompt.txt"
+    },
+    {
+      "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+      "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744",
+      "bytes": 2671794,
+      "derived_from": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kot-detektiv/references/development/KD-quay-clue.prompt.txt"
+    },
+    {
+      "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+      "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798",
+      "bytes": 2462314,
+      "derived_from": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/office-map.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kot-detektiv/references/development/KD-map-envelope.prompt.txt"
+    },
+    {
+      "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+      "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588",
+      "bytes": 2693780,
+      "derived_from": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "generator": "ChatGPT image generation",
+      "generated_at": "2026-10-20T20:51:42Z",
+      "visual_qc": "checked",
+      "editorial_status": "not_approved",
+      "prompt_file": "projects/kot-detektiv/references/development/KD-clocktower.prompt.txt"
+    }
+  ]
+}

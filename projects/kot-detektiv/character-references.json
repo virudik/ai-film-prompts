@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T04:24:25.646Z",
-  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены; сцены не созданы.",
+  "updated_at": "2026-10-20T20:51:42Z",
+  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены; сцены не созданы. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -17,7 +17,9 @@
         "detective cat",
         "Шерлок"
       ],
-      "scenes": [],
+      "scenes": [
+        1
+      ],
       "model_sheet": {
         "source": "Оригинальная входная картинка задачи Topview 3a85d0374f3f43de99c96c24ee2486ce; главный референс по выбору владельца 20.10.2026.",
         "primary": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
@@ -54,7 +56,7 @@
           "note": "Главный референс кота: оригинальная входная картинка указанной задачи, выбор владельца. Выбор референса не является одобрением ролика."
         }
       },
-      "outfit_variant": "Антропоморфный кот-сыщик: коричневый твидовый костюм в стиле Шерлока Холмса, кепка-охотничья (deerstalker), лупа; зелёные умные глаза, пушистая реалистичная шерсть. Говорит низким задумчивым голосом, мурлычет.",
+      "outfit_variant": "Антропоморфный кот: белая пушистая морда/щёки, серо-коричневый табби-лоб, зелёные глаза; коричневые твидовые кепка, пелерина и жилет, цепочка часов. Стилизованная мультипликационная фактура исходника; спокойный и рассудительный.",
       "reference_images": [
         {
           "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
@@ -157,6 +159,15 @@
           ],
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28",
           "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "caption": "Производный групповой референс; исходная идентичность выше",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ]
         }
       ],
       "reference_notes": "Главный референс внешности кота выбран владельцем: projects/kot-detektiv/references/detective-cat-office-portrait.png. Оригинал входа указанной задачи сохранён без изменения байтов. Это кадр в кабинете, не индивидуальный model sheet; окружение, поза и реквизит не переносятся в сцену автоматически."
@@ -168,7 +179,9 @@
         "полицейский пёс",
         "police dog officer"
       ],
-      "scenes": [],
+      "scenes": [
+        1
+      ],
       "model_sheet": {
         "source": "Оригинальный вход доски «Лёха кот», перенесён без изменения байтов.",
         "primary": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
@@ -196,7 +209,7 @@
         "reference_type": "scene_reference_not_individual_model_sheet",
         "editorial_status": "not_approved"
       },
-      "outfit_variant": "Британский пёс-полицейский в тёмной форме констебля и шлеме; эмоциональный: лает, ворчит, поскуливает.",
+      "outfit_variant": "Антропоморфный коричневый пёс с тёмной мордой, тёмная форма констебля и шлем. Выше кота; нервный и суетливый, но компетентный. Только звериные черты.",
       "reference_images": [
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
@@ -267,6 +280,15 @@
           ],
           "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373",
           "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "caption": "Производный групповой референс; исходная идентичность выше",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ]
         }
       ],
       "reference_notes": "Отдельного утверждённого индивидуального model sheet на доске не найдено. Использовать только внешность указанного персонажа; второй персонаж, окружение, поза и реквизит не переносятся в сцену автоматически."
@@ -452,6 +474,83 @@
         }
       ],
       "notes": "Мокрая брусчатка, газовые фонари, туман, мост, вдали Биг-Бен; набережная — место преступления с полицейской лентой."
+    },
+    {
+      "id": "kd-duo",
+      "name": "Кот и пёс: характеры и костюмы",
+      "kind": "character_pair",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "caption": "Кот и пёс: характеры и костюмы",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd-quay-clue",
+      "name": "Набережная: часы и оборвавшиеся следы",
+      "kind": "event_location_prop",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+          "caption": "Набережная: часы и оборвавшиеся следы",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd-map-envelope",
+      "name": "Карта расследования и письмо",
+      "kind": "event_location_prop",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+          "caption": "Карта расследования и письмо",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/office-map.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd-clocktower",
+      "name": "Башня: неизвестный противник",
+      "kind": "event_location_character",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+          "caption": "Башня: неизвестный противник",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588",
+          "editorial_status": "not_approved"
+        }
+      ]
     }
   ]
 }

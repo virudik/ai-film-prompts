@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kotmonavty",
-  "updated_at": "2026-10-20",
-  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026",
+  "updated_at": "2026-10-20T20:51:42Z",
+  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026 Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -16,7 +16,10 @@
         "LUCHIK",
         "GREY CAT"
       ],
-      "scenes": [],
+      "scenes": [
+        1,
+        2
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Лучик · основная model sheet",
@@ -37,7 +40,18 @@
         "project": "seregius",
         "copied_at": "2026-10-20",
         "note": "Тот же утверждённый лист, что в «Серёгиусе» (байт в байт)."
-      }
+      },
+      "reference_images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "caption": "Производный групповой референс; исходная идентичность выше",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ]
+        }
+      ]
     },
     {
       "id": "ryzhik",
@@ -46,7 +60,10 @@
         "RYZHIK",
         "GINGER CAT"
       ],
-      "scenes": [],
+      "scenes": [
+        1,
+        2
+      ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
         "primary": "Рыжик · основная model sheet",
@@ -67,7 +84,18 @@
         "project": "seregius",
         "copied_at": "2026-10-20",
         "note": "Тот же утверждённый лист, что в «Серёгиусе» (байт в байт)."
-      }
+      },
+      "reference_images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "caption": "Производный групповой референс; исходная идентичность выше",
+          "editorial_status": "not_approved",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ]
+        }
+      ]
     }
   ],
   "assets": [
@@ -122,6 +150,83 @@
           "path": "projects/kotmonavty/references/roskotmos-logo.png",
           "caption": "Эмблема",
           "copied_from": "references/scenes/scene-45/S45-roskotmos-logo.png"
+        }
+      ]
+    },
+    {
+      "id": "km01-bar-milk",
+      "name": "Бар: коты лакают молоко",
+      "kind": "scene_keyframe",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "caption": "Бар: коты лакают молоко",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km-bar-compass",
+      "name": "Бар: второй ракурс и предлагаемый компас",
+      "kind": "location_prop_character",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+          "caption": "Бар: второй ракурс и предлагаемый компас",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png"
+          ],
+          "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km-ring-chase",
+      "name": "Погоня через орбитальное кольцо",
+      "kind": "event_location",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+          "caption": "Погоня через орбитальное кольцо",
+          "derived_from": [
+            "projects/kotmonavty/references/ship-exterior-front.png"
+          ],
+          "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km-star-vault",
+      "name": "Пробуждение звёздного архива",
+      "kind": "event_location",
+      "editorial_status": "not_approved",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/development/KM-star-vault.png",
+          "caption": "Пробуждение звёздного архива",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/development/KM-bar-compass.png"
+          ],
+          "sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb",
+          "editorial_status": "not_approved"
         }
       ]
     }
