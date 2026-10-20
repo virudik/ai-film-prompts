@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "item_id": "S39-SEED20-P1",
+  "task_id": "008058a4705c45c089256116427153d4",
+  "captured_at": "2026-10-20T08:06:03.172Z",
+  "website": "Topview signed-in owner session, Plan Ultra",
+  "pre_submit_ui": {
+    "model": "Seedance 2.0",
+    "mode": "Omni-reference",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "reference_cards": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5",
+      "Image6"
+    ],
+    "prompt_character_counter": 5929,
+    "canonical_prompt_sha256": "c4488e22f0d4a04d64f9cfdcfc6a6e0d6c3212b1c6b1bf929b75553e8d6a3286",
+    "normalized_prompt_sha256": "96703e313539eee67782048dc8e485499e18a5d8619e3a4a000a43e5338a2871",
+    "raw_prompt_match": true,
+    "normalized_prompt_match": true,
+    "price_mode": "Unlimited — free",
+    "single_create_click": true
+  },
+  "post_submit_ui": {
+    "created_count": 1,
+    "queue_card_visible": true,
+    "queue_text": "В очереди · 4515 раньше",
+    "create_button_returned": true
+  },
+  "post_submit_readback": {
+    "status": "init",
+    "created_at": "2026-10-20T08:04:19Z",
+    "model_id": "seedance-2.0-style",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "input_count": 6,
+    "input_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5",
+      "Image6"
+    ],
+    "normalized_match": true,
+    "use_unlimit_mode": true,
+    "credits_cost": 0
+  },
+  "account_scan": {
+    "boards": 11,
+    "pages": 16,
+    "total_tasks": 913,
+    "complete": true,
+    "active_unlimited_zero_credit_videos": 6,
+    "free_video_slots": 0
+  },
+  "screenshot_sha256": {
+    "pre_submit": "bc52a25385200787864ed8a888ac04c1dabc2c4e766fa8c5426cc9c494c060bc",
+    "post_submit": "0c9390eece9d03372e1f343cf8e875e666826c9eecea18850a6aed635c910915"
+  },
+  "note": "Task detail and complete account scan are canonical evidence. Screenshots were captured in the browser workspace; JSON preserves their hashes."
+}
