@@ -353,6 +353,26 @@
    "thumb_bytes": 51740,
    "src_sha256": "ee06564bce4e3b958a34a8e83a69f9f748c1b984ed0a54e0a22141460c3326ee"
   },
+  "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2409982,
+   "thumb_bytes": 57146,
+   "src_sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be"
+  },
+  "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2844080,
+   "thumb_bytes": 72180,
+   "src_sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+  },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
    "width": 640,
