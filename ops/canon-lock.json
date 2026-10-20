@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Итоговая контрольная точка: уточнённая презентация AI Film, PDF26",
   "acquired_at": "2026-10-20T15:12:41.858Z",
-  "expires_at": "2026-10-20T15:42:41.858Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T15:13:38.501Z",
   "rules": "ops/CANON-LOCK.md"
 }

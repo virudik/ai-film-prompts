@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T14:59:17.885Z",
+  "last_updated_at": "2026-10-20T15:13:38.501Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1152,17 +1152,26 @@
     {
       "work_id": "FILM-20261020-PRESENTATION-CORRECTIONS",
       "title": "Уточнение ролей, реального запуска, кнопок, расписаний и безопасности презентации",
-      "status": "in_progress",
+      "status": "completed",
       "started_at": "2026-10-20T14:59:17.885Z",
       "authorization": "Владелец 20.10.2026 17:57 МСК: исправить слайды 2/10/13/15/16/17/18/20/22/24, добавить Безопасность, сохранить стиль и картинки, выдать новую PDF.",
       "done": [
-        "Свежий main 8aeb7719f10ccef95c2241af65e9956d93e4df81 проверен. launch-autonomy: 3 chat / 0 schedule, checked_at 2026-10-20T10:17:22Z."
+        "Свежий main 8aeb7719f10ccef95c2241af65e9956d93e4df81 проверен. launch-autonomy: 3 chat / 0 schedule, checked_at 2026-10-20T10:17:22Z.",
+        "Исправлены только слайды2/10/13/15/16/17/18/20/22/24. Добавлен26 Безопасность; остальные15слайдов полностью совпали с исходными по содержимому и структуре, изображения сохранены.",
+        "Запуск отделён от телеметрии: Topview→GitHub, ChatGPT из открытого чата; две роли агентов, все запрошенные кнопки/адреса задач/Driveплеер/расписания/сертификат/канон-замки отражены.",
+        "Новый PDF26 сохранён отдельно от исходного. Все26страниц проверены на точное совпадение с финальными PNG1920x1080; визуально проверены изменённые слайды и PDF."
       ],
-      "next_actions": [
-        "Исправить указанные слайды существующей презентации.",
-        "Добавить слайд безопасности, проверить визуально, выпустить отдельный PDF."
-      ],
-      "blockers": []
+      "next_actions": [],
+      "blockers": [],
+      "completed_at": "2026-10-20T15:13:38.501Z",
+      "verified_at": "2026-10-20T15:13:38.501Z",
+      "artifact_url": "https://chatgpt.com/space/page_47cafbc9fbec8191bd831d7fb56fdcf6",
+      "presentation_sequence": 15,
+      "pdf_library_file_id": "libfile_6a6a214863fc8191909ae4688978846b",
+      "pdf_filename": "AI-Film-Control-Center-Updated-2026-10-20.pdf",
+      "pdf_pages": 26,
+      "pre_checkpoint_commit": "e36aefefcebb3eef4f37800442bed3af9a6c626a",
+      "report": "reports/control-center-presentation-2026-10-20.md"
     }
   ],
   "rules": [
