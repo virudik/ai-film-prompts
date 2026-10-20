@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-20T00:50:40+00:00",
+ "generated_at": "2026-10-20T03:22:32+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -10,20 +10,20 @@
   {
    "file": "NEW-CHAT-HANDOFF.md",
    "drive_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-   "sha256": "babf7757f8290215a50befe86903ae317ae8288a168933958ef0916c12dd72c5",
-   "bytes": 34955
+   "sha256": "417f1eee3acae9de1942354ff850b601a4b74d132684d2c600986c9585e528e3",
+   "bytes": 34872
   },
   {
    "file": "SYNC-RUNBOOK.md",
    "drive_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-   "sha256": "50062fde0fb42ed985c4880b4fe48b68343138433bcac3770a4d70fc882359f0",
-   "bytes": 117986
+   "sha256": "d8fedc547b72eb4bb74bc688aafacb5081feb36210e7eb68bd587eca9ba2cda3",
+   "bytes": 119703
   },
   {
    "file": "AI-PROJECT-GUIDE.md",
    "drive_id": "1fwklz2CLoCBDpGnGyaPfiPnEqlKz8Q2u",
-   "sha256": "c375e7c79b34f24e590a7a9026c6c3dee16fdb382055fbdef395a921e5049244",
-   "bytes": 32126
+   "sha256": "39ebed74e4a6bcd1b20cfb9d3378fc8de9b6a5459196d6737eb5ab443a485edd",
+   "bytes": 32722
   },
   {
    "file": "PROMPT-STYLE-GUIDE.md",
@@ -34,14 +34,14 @@
   {
    "file": "USER-GUIDE.md",
    "drive_id": "1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO",
-   "sha256": "dcc99aaa390fcacda2d7b6ffd924fd0aee664f74faca84a75b37acf452ec90a5",
-   "bytes": 70134
+   "sha256": "59fdacad70fc95610df67899a80b67749ffbad686ccd10737508755d4f44e74b",
+   "bytes": 71174
   },
   {
    "file": "README-AI-SYNC.md",
    "drive_id": "1hYMZ14esluB-kucasD6LjHWb_cBW_3wX",
-   "sha256": "5838e4a6b3c58e95ca081185a92736f459988650e4b97f690b0f1b8accf0ff1e",
-   "bytes": 14823
+   "sha256": "b5ac5af59fb86b69535108d9a90e3f25024ed79acdb752e3753f4e77d7ebc0ed",
+   "bytes": 15350
   },
   {
    "file": "BACKUP-AI-RUNBOOK.md",
@@ -180,10 +180,10 @@
  ],
  "current_checkpoint": {
   "source": "NEW-CHAT-HANDOFF.md",
-  "chars": 22851,
-  "above_marker_chars": 22851,
+  "chars": 22822,
+  "above_marker_chars": 22822,
   "recent_sections_below_marker": [],
-  "sha256_12": "005f102f24e2",
+  "sha256_12": "ef2455781d6f",
   "extra_current_sections": [
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ",
    "## ТЕКУЩЕЕ ДОПОЛНЕНИЕ"
