@@ -173,6 +173,16 @@
    "thumb_bytes": 58426,
    "src_sha256": "578dbfe8907396e6a59fda50530cae01be567492b129590a4f891f21de0df789"
   },
+  "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2774076,
+   "thumb_bytes": 71546,
+   "src_sha256": "f414e0c141c879ea487e716b1b6b8d470334eca3000c983621a31b256c3068e5"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -372,6 +382,16 @@
    "src_bytes": 2844080,
    "thumb_bytes": 72180,
    "src_sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+  },
+  "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2722444,
+   "thumb_bytes": 69166,
+   "src_sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
