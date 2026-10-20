@@ -34,6 +34,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import canon_lock                          # noqa: E402
 import process_owner_decisions as pod      # noqa: E402
+import projects as prj                     # noqa: E402
 
 QUEUE = "ops/topview-launch-queue.json"
 INBOX = "ops/owner-tasks.json"
@@ -230,14 +231,20 @@ def plan(rows, files, now):
         if status != "pending":
             continue
         sid = row.get("scene_id")
+        pid = prj.project_of_row(row)              # projects/README.md: tasks of every project share this inbox
+        if action in QUEUE_ACTIONS and pid != prj.ROOT_ID:
+            continue                               # another project's queue: phase 4 (robot_project_actions.py)
         if action == "owner_task":
             to = row.get("value") if row.get("value") in ("claude", "chatgpt", "any") else "any"
             if row["id"] not in in_inbox:
-                t = inbox_task(row, to=to, text=row.get("note") or "", source="site", stamp=stamp)
+                t = inbox_task(row, to=to, text=prj.strip_note_tag(row.get("note")), source="site", stamp=stamp)
+                if pid != prj.ROOT_ID:
+                    t["project"] = pid
                 inbox.setdefault("tasks", []).append(t)
                 in_inbox[row["id"]] = t
             who = {"claude": "Claude", "chatgpt": "ChatGPT", "any": "Claude или ChatGPT"}[to]
-            acks.append((row, "in_progress", f"{INBOX_CLAIM} задача в ops/owner-tasks.json, ждёт исполнителя ({who})"))
+            where = "" if pid == prj.ROOT_ID else f", проект {pid}"
+            acks.append((row, "in_progress", f"{INBOX_CLAIM} задача в ops/owner-tasks.json, ждёт исполнителя ({who}{where})"))
         elif action == "ref_feedback":
             path, comment = parse_ref_note(row.get("note"))
             verdict = row.get("value")
@@ -246,7 +253,8 @@ def plan(rows, files, now):
                 continue
             if not any(r.get("id") == row["id"] for r in review.get("reviews", [])):
                 review.setdefault("reviews", []).append({"id": row["id"], "at": stamp, "path": path, "scene_id": sid,
-                                                         "verdict": verdict, "comment": comment or None})
+                                                         "verdict": verdict, "comment": comment or None,
+                                                         **({"project": pid} if pid != prj.ROOT_ID else {})})
                 review["updated_at"] = stamp
             if verdict == "ok":
                 acks.append((row, "applied", f"Отметка «подходит» записана в {REF_REVIEW}."))
@@ -255,6 +263,8 @@ def plan(rows, files, now):
                     text = f"Перерисовать референс {path}" + (f": {comment}" if comment else "") + \
                            " (по правилам manifest: PNG + SHA + миниатюра, слот в промте)."
                     t = inbox_task(row, to="chatgpt", text=text, source="ref_feedback", stamp=stamp)
+                    if pid != prj.ROOT_ID:
+                        t["project"] = pid
                     inbox.setdefault("tasks", []).append(t)
                     in_inbox[row["id"]] = t
                 acks.append((row, "in_progress", f"{INBOX_CLAIM} перерисовка передана ChatGPT (ops/owner-tasks.json)"))

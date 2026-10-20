@@ -2,6 +2,7 @@
 import json
 import re
 import subprocess
+import sys
 import tempfile
 from pathlib import Path
 
@@ -231,3 +232,26 @@ for required in ("action:'ref_feedback'", "references/reference-review.json"):
 json.loads((root / "film-order.json").read_text(encoding="utf-8"))
 print("owner site panel, film.html and references.html ok")
 
+
+# Several projects (owner decision 20.10.2026): every page loads projects.js first (project switcher and
+# per-project data paths); its list matches projects/projects.json; every project folder is consistent.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import projects as _prj  # noqa: E402
+pjs_text = (root / "projects.js").read_text(encoding="utf-8")
+pc = subprocess.run(["node", "--check", str(root / "projects.js")], text=True, capture_output=True)
+if pc.returncode:
+    raise SystemExit("projects.js: " + (pc.stderr or pc.stdout))
+for page in ("index.html", "film.html", "references.html"):
+    ptxt = (root / page).read_text(encoding="utf-8")
+    first = re.search(r"<script\b[^>]*>", ptxt)
+    if not first or 'src="projects.js"' not in first.group(0):
+        raise SystemExit(page + ": projects.js must be the first script (it routes data requests per project)")
+    if "data-project-switch" not in ptxt:
+        raise SystemExit(page + ": project switcher placeholder missing")
+for p in _prj.projects(root, include_root=True):
+    if f"id:'{p['id']}'" not in pjs_text or p["name"] not in pjs_text:
+        raise SystemExit(f"projects.js does not list project {p['id']} from projects/projects.json")
+_bad = _prj.validate(root)
+if _bad:
+    raise SystemExit("projects: " + "; ".join(_bad))
+print(f"projects ok: {len(_prj.projects(root, include_root=True))} in the switcher, folders and statuses consistent")

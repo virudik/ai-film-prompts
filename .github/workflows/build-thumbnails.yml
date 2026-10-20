@@ -9,6 +9,7 @@ on:
     paths:
       - 'references/**'
       - '!references/thumbs/**'
+      - 'projects/*/references/**'
       - 'scripts/build_thumbnails.py'
 
 permissions:

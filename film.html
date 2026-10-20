@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Film — Фильм по порядку</title>
+<script src="projects.js"></script>
 <style>
 :root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--warn:#ffd179;--ok:#7ee2a8;--bad:#ff8f8f}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% -20%,rgba(75,124,185,.12),transparent 34%),var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
@@ -29,8 +30,9 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
 </head>
 <body>
 <div class="wrap">
-<div class="top"><div><h1>🎞 Фильм по порядку</h1><div class="sub" id="sub">Загрузка…</div></div><a class="back" href="index.html">← к промтам</a></div>
-<div class="rules"><b>Что здесь.</b> Пунктирные карточки — уже смонтированные куски версии 2 (24.09). Карточки с номером — сцены на своём месте в сюжете со статусом из живых файлов проекта (решения на сайте, Topview, очередь запуска). Порядок берётся из <a href="film-order.json">film-order.json</a>; поменять порядок — задачей «✎ Задача», файл правит агент. <b>Режим владельца</b> (пароль вводится на главной странице) добавляет кнопки «в очередь» и «✎ Задача».</div>
+<div class="top"><div><div class="project-switch-wrap" data-project-switch><small>Проект</small></div><h1>🎞 Фильм по порядку</h1><div class="sub" id="sub">Загрузка…</div></div><a class="back" href="index.html">← к промтам</a></div>
+<div class="rules" data-only-project><b>Что здесь.</b> Сцены проекта «<span data-project-name></span>» в порядке сюжета со статусом из файлов проекта (решения на сайте, Topview, очередь проекта). Порядок — в film-order.json проекта; поменять — задачей «✎ Задача». <b>Режим владельца</b> добавляет кнопки «в очередь» и «✎ Задача».</div>
+<div class="rules" data-only-root><b>Что здесь.</b> Пунктирные карточки — уже смонтированные куски версии 2 (24.09). Карточки с номером — сцены на своём месте в сюжете со статусом из живых файлов проекта (решения на сайте, Topview, очередь запуска). Порядок берётся из <a href="film-order.json">film-order.json</a>; поменять порядок — задачей «✎ Задача», файл правит агент. <b>Режим владельца</b> (пароль вводится на главной странице) добавляет кнопки «в очередь» и «✎ Задача».</div>
 <div class="counts" id="counts"></div>
 <div id="list"><div class="loading">Загрузка порядка фильма…</div></div>
 </div>

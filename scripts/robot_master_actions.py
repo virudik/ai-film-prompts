@@ -485,7 +485,11 @@ def run(root, store, git, *, mode, now=None, sync=True):
     for attempt in range(1, MAX_ATTEMPTS + 1):
         if sync:
             git.sync()
-        rows = store.list_open()
+        # Buttons of the other projects (value "project:<id>" or a task of projects/topview-projects.json) are
+        # applied by phase 4 (scripts/robot_project_actions.py); this phase sees only the film's own rows.
+        import projects as prj
+        tel = prj.project_tasks(root)
+        rows = [r for r in store.list_open() if prj.is_root_row(r, tel)]
         st = load_state(root)
         if mode != "on":
             # plan-only must never turn the 30-minute sync red because of an unexpected master/telemetry shape

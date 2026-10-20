@@ -1,0 +1,59 @@
+name: Projects status
+
+# Several projects in one repository (owner decision 20.10.2026, projects/README.md).
+# After every push into projects/** the robot rebuilds projects/<id>/project-status.json from the
+# project's master (same validator as the film's master) and checks the registry and folders.
+# The film («Серёгиус», repository root) keeps its own sync-from-drive.yml; this workflow never touches it.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'projects/**'
+      - 'projects.js'
+      - 'scripts/projects.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: projects-status
+  cancel-in-progress: false
+
+jobs:
+  status:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Rebuild project statuses and publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            rc=0
+            python3 scripts/projects.py . status --write || rc=$?
+            git add projects/*/project-status.json
+            if git diff --cached --quiet; then
+              echo "Project statuses already current."
+            else
+              git commit -q -m "Projects robot: rebuild project statuses"
+              if ! git push -q origin HEAD:main; then
+                echo "main moved; retrying ($attempt/4)"; sleep $((attempt * 3)); continue
+              fi
+            fi
+            python3 scripts/projects.py . validate
+            if [ "$rc" -ne 0 ]; then
+              echo "::error title=projects::a project master does not pass the validator (status health=error is published)"
+              exit 1
+            fi
+            exit 0
+          done
+          echo "::error title=projects::push rejected 4 times" >&2
+          exit 1

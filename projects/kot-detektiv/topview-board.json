@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "read_at": "2026-10-20T01:30:00Z",
+  "read_by": "claude:переключатель проектов (Topview MCP, только чтение)",
+  "board": {
+    "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+    "name": "Лёха кот",
+    "url": "https://www.topview.ai/board/d3bdcbe509594dcf82f8eddcaabe17fe",
+    "task_count": 11
+  },
+  "note": "Все 11 задач — Seedance 2.0, 15 с, 720p, безлимит (0 кредитов), success. Входные картинки лежат в хранилище Topview по путям input_images; из облака Claude их скачать нельзя (сеть закрыта), перенос в projects/kot-detektiv/references/ — задача ChatGPT (HANDOFF.md). MP4 в публичный GitHub не кладём.",
+  "style_lock": "Cinematic Cozy Detective Noir, anthropomorphic animal detectives, Victorian London, warm amber lighting, realistic fluffy fur, tweed clothing, dark wooden interiors, investigation boards with photos and red strings, rainy cobblestone streets, gas lamps in fog; only animals, no people; no subtitles, no watermarks.",
+  "tasks": [
+    {
+      "task_id": "3a85d0374f3f43de99c96c24ee2486ce",
+      "created": "2026-05-18",
+      "result_resource": "04cb1e60fe6147119344336310c80407",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Мультяшный (Pixar) кот-детектив встаёт из-за стола и ходит по уютному кабинету, мурлычет и шепчет."
+    },
+    {
+      "task_id": "522037792f8f4b9ebe09ab2f3c87dc03",
+      "created": "2026-05-18",
+      "result_resource": "0c01299cfe874a57bd1f97a9b98556a8",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "То же, второй дубль (токен <<<Image1>>>)."
+    },
+    {
+      "task_id": "d0771a6763a24fdbbb0ec031d44358cd",
+      "created": "2026-05-18",
+      "result_resource": "c85adf0a16bf4451ae78c3d872bf33c8",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DOusPt6S22z2exVlvbDKi.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Мультяшный вариант: кот принюхивается, находит под листом кусок пиццы: «Пицца…»."
+    },
+    {
+      "task_id": "f4622eb7e6c54237aae33713538aec33",
+      "created": "2026-05-20",
+      "result_resource": "df26ae103af44ee380330b675fcfef20",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/d68HCLGWEJ1s3kkBnN5fB.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Реалистичный нуар: ночное место преступления у реки, за котом пёс-констебль; кот находит пиццу под листом: «Пицца»."
+    },
+    {
+      "task_id": "129a9e79773c414aaf133c35f7ef61ee",
+      "created": "2026-05-20",
+      "result_resource": "c7c92d0ef5684ba1ac34efb9866629f4",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/2FTPNaiUKHAu12Eht9L1r.jpg"
+      ],
+      "input_videos": [],
+      "summary_ru": "Кот и пёс идут по дождливой викторианской улице к месту преступления; кот мурлычет версии, пёс лает и ворчит; вдали Биг-Бен."
+    },
+    {
+      "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
+      "created": "2026-05-20",
+      "result_resource": "b7b020c86f584805ba939e69c26e6712",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BpQKrRCZcAPyvwifqeHVH.jpg",
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/5e7CqfMoTcZCQ7bAUps4w.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Кабинет: кот выходит в центр, камера облетает на 90°, кот ведёт лапой по карте города (Image1 — кот, Image2 — комната и карта)."
+    },
+    {
+      "task_id": "ed925f85752c48f3a8e9cce1bfd78575",
+      "created": "2026-05-20",
+      "result_resource": "d2aed76d92814093a95aa02e5c0c55b9",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [],
+      "input_videos": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/jxcVpCPb6lbtXhsVLQCEJ.mp4"
+      ],
+      "summary_ru": "Продолжение по видео: фото подозреваемых на доске сменяются (коты, собаки, крысы, мыши, вороны); под листком — кусок сыра."
+    },
+    {
+      "task_id": "6a55316a0030421ab1a2583e0783bd66",
+      "created": "2026-05-20",
+      "result_resource": "17215ef50f0e4ed591c97c898c572415",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/rvcLEbvGoUEB86TWyoi5I.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Мост в сумерках под дождём: кот и пёс обсуждают дело, идут на камеру."
+    },
+    {
+      "task_id": "82f5ad3cb6bb435e80109ccd45b3706d",
+      "created": "2026-05-21",
+      "result_resource": "ecee011574874fdbbf851a2d392f1d71",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Rlj9p0br5ljqI10lUE85n.jpg"
+      ],
+      "input_videos": [],
+      "summary_ru": "Повтор прогулки кота и пса по ночной улице (с негативным промтом)."
+    },
+    {
+      "task_id": "230ea888ab9b452fb5e12e8d8e9626b4",
+      "created": "2026-05-21",
+      "result_resource": "b273afc76f5d485788fc7169ff40881c",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/O12j8ahZTybm2oou3ndkI.png"
+      ],
+      "input_videos": [],
+      "summary_ru": "Повтор сцены с пиццей у реки (кусок 1/8 пиццы), с негативным промтом."
+    },
+    {
+      "task_id": "babf5e3d29b9421c880f2efec6c5d55b",
+      "created": "2026-05-21",
+      "result_resource": "2083cc01a4a94cd1be394c8501c1ba77",
+      "model": "Seedance 2.0",
+      "duration_s": 15,
+      "input_images": [],
+      "input_videos": [
+        "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/RG4kejgceLpfpjfErid0k.mp4"
+      ],
+      "summary_ru": "Продолжение с последнего кадра видео: кот обходит стол, камера поворачивается на 90°, кот изучает карту на стене."
+    }
+  ]
+}

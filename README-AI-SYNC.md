@@ -45,6 +45,7 @@ Workflow (`.github/workflows/`):
 - `canon-health.yml` — ежедневная проверка здоровья канона (`scripts/canon_health.py` → `canon-health.json`, блок «Здоровье канона» на сайте; новое предупреждение = одно письмо владельцу).
 - Проверки: `validate-site.yml` («Validate Control Center», `scripts/validate_site.py`), `test-recovery-integration.yml` («AI Film integration recovery tests»), `validate-review-ledger.yml` / `reconcile-review-ledger.yml`.
 - Производные: `build-thumbnails.yml` (`scripts/build_thumbnails.py`, миниатюры), `shadow-brief.yml` (`scripts/build_takeover_brief.py`, бриф D7, не канон), `library-snapshot.yml` (экспорт 7 инструкций, master и брифа для Library / Project).
+- `projects-sync.yml` («Projects status») — после пуша в `projects/**` пересобирает `projects/<id>/project-status.json` (`scripts/projects.py`) и проверяет реестр проектов; Серёгиус не трогает. Проекты и их правила — `projects/README.md`; сайт переключает проект через `projects.js` (`?p=<id>`); кнопки других проектов — фаза 4 `scripts/robot_project_actions.py` в `sync-from-drive.yml`.
 - Только ручные: `topview-api-probe.yml` (проба API, только чтение), `topview-prompt-match.yml` (сверка промтов задач с master, только чтение), `export-handoff.yml` (артефакт handoff).
 - Выключенные заглушки (не включать): `build-master.yml`, `finalize-instruction-handoff.yml`, `one-time-sync-instruction-status.yml`.
 

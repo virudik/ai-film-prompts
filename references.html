@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI Film — Персонажи / Референсы</title>
+<script src="projects.js"></script>
 <style>
 :root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--warn:#ffd179}
 *{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% -20%,rgba(75,124,185,.12),transparent 34%),var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
@@ -14,10 +15,11 @@ a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wr
 </style>
 </head>
 <body><main class="wrap">
-<div class="top"><div><h1>Персонажи / Референсы</h1><div class="sub">Отдельный production-раздел. Подтверждённые model sheets персонажей; один персонаж — одна карточка, сценические варианты собраны внутри.</div></div><a class="back" href="index.html">← К сценам</a></div>
+<div class="top"><div><div class="project-switch-wrap" data-project-switch><small>Проект</small></div><h1>Персонажи / Референсы</h1><div class="sub">Отдельный production-раздел. Подтверждённые model sheets персонажей; один персонаж — одна карточка, сценические варианты собраны внутри.</div></div><a class="back" href="index.html">← К сценам</a></div>
 <input id="q" class="search" placeholder="Найти персонажа, сцену или вариант одежды…">
 <div id="rules" class="rules"><b>Правило референсов:</b> загрузка…</div>
 <div id="grid" class="grid"><div class="empty">Загрузка реестра…</div></div>
+<h2 class="scenehead" id="assets-head" hidden>Корабли, места, предметы</h2><div id="assets"></div>
 <h2 class="scenehead" id="scene-refs">Картинки сцен</h2><div class="sub" id="sceneRefsSub">Референсы и стартовые кадры активных сцен. В режиме владельца (пароль вводится на главной странице) у каждой картинки есть «✓ подходит» и «✎ перерисовать»: перерисовка с вашим комментарием сразу становится задачей ChatGPT.</div><div id="sceneRefs"></div>
 </main>
 <div id="lightbox" class="lightbox" aria-hidden="true"><button id="lightboxClose" class="lightbox-close" aria-label="Закрыть">×</button><img id="lightboxImage" alt="Полноразмерный model sheet"></div>
@@ -30,6 +32,9 @@ function openLightbox(src,alt){
 }
 function closeLightbox(){const box=document.getElementById('lightbox');box.classList.remove('open');box.setAttribute('aria-hidden','true')}
 let thumbs=null;
+// Ships, places, props of a project (projects/<id>/character-references.json → assets), owner decision 20.10.2026
+function renderAssets(q){const list=(reg?.assets||[]).filter(a=>JSON.stringify(a).toLowerCase().includes(q));const head=document.getElementById('assets-head'),box=document.getElementById('assets');if(!head||!box)return;head.hidden=!(reg?.assets||[]).length;
+ box.innerHTML=list.map(a=>'<div class="scenehead" style="font-size:15px">'+esc(a.name)+'</div>'+(a.notes?'<div class="sub">'+esc(a.notes)+'</div>':'')+'<div class="scenegrid">'+((a.images||[]).length?(a.images||[]).map(im=>{const shown=(thumbs&&thumbs[im.path]&&thumbs[im.path].thumb)||im.path;return '<div class="sceneref assetref"><img class="zoomable" src="'+esc(shown)+'" data-full="'+esc(im.path)+'" data-orig="'+esc(im.path)+'" alt="'+esc(im.caption||a.name)+'" loading="lazy" decoding="async"><div class="fn">'+esc(im.caption||im.path.split('/').pop())+'</div></div>'}).join(''):'<div class="empty">Картинок пока нет.</div>')+'</div>').join('')}
 function render(){
  const q=document.getElementById('q').value.trim().toLowerCase();
  const chars=(reg?.characters||[]).filter(ch=>JSON.stringify(ch).toLowerCase().includes(q));
@@ -40,6 +45,7 @@ function render(){
   const variants=(ch.variants||[]).map(v=>'<div class="variant"><b>'+esc(v.label||'Вариант')+':</b> '+esc(v.notes||'')+(v.scenes?.length?' · сцены '+v.scenes.join(', '):'')+'</div>').join('');
   return '<article class="card"><div><div class="photo">'+img+'</div></div><div><div class="name">'+esc(ch.name)+'</div>'+((ch.aliases||[]).length?'<div class="alias">Технические имена: '+esc((ch.aliases||[]).join(' · '))+'</div>':'')+(sceneList.length?'<div class="scenes">'+scenes+'</div>':'<span class="unassigned">Пока не привязана к активной сцене</span>')+'<div class="row"><b>Основной референс:</b> '+esc(ch.model_sheet?.primary||'—')+esc(add)+'</div><div class="row"><b>Одежда / образ:</b> '+esc(ch.outfit_variant||'—')+'</div>'+(variants?'<div class="variants"><b>Сценические варианты</b>'+variants+'</div>':'')+'</div></article>';
  }).join(''):'<div class="empty">Ничего не найдено.</div>';
+ renderAssets(q);
  document.querySelectorAll('.zoomable').forEach(img=>{img.addEventListener('click',()=>openLightbox(img.dataset.full||img.src,img.alt));img.addEventListener('error',()=>{if(img.dataset.orig&&img.getAttribute('src')!==img.dataset.orig)img.src=img.dataset.orig},{once:true})});
  const rules=reg?.non_character_reference_rules||[];
  document.getElementById('rules').innerHTML='<b>Правило референсов:</b> '+esc(rules.join(' · '));
@@ -65,9 +71,11 @@ const VERDICT={ok:'✓ вы отметили: подходит',redraw:'✎ вы
 function box(path,sid){const v=REV[path];let h='<div class="refbtns" data-path="'+esc(path)+'" data-sid="'+(sid||'')+'">'+(v?'<span class="refverdict '+v.verdict+'" title="'+esc((v.comment||'')+' · '+(v.at||''))+'">'+VERDICT[v.verdict]+'</span>':'');
  if(key())h+='<button type="button" class="refbtn" data-ref="ok">✓ подходит</button><button type="button" class="refbtn" data-ref="form">✎ перерисовать</button><div class="refform"><textarea maxlength="480" placeholder="Что поправить на картинке"></textarea><button type="button" class="refbtn" data-ref="redraw">Отправить ChatGPT</button></div>';
  return h+'</div>'}
-function decorateCharacters(){document.querySelectorAll('#grid .card').forEach(c=>{if(c.querySelector('.refbtns'))return;const img=c.querySelector('img[data-orig]');if(!img)return;c.querySelector('.photo')?.insertAdjacentHTML('afterend',box(img.dataset.orig,null))})}
+function decorateCharacters(){document.querySelectorAll('#grid .card').forEach(c=>{if(c.querySelector('.refbtns'))return;const img=c.querySelector('img[data-orig]');if(!img)return;c.querySelector('.photo')?.insertAdjacentHTML('afterend',box(img.dataset.orig,null))});
+ document.querySelectorAll('#assets .assetref').forEach(c=>{if(c.querySelector('.refbtns'))return;const img=c.querySelector('img[data-orig]');if(img)c.insertAdjacentHTML('beforeend',box(img.dataset.orig,null))})}
+const SCENE_DIR=new RegExp('^'+((window.AIFP&&window.AIFP.root)||'').replace(/[.\/-]/g,'\\$&')+'references\\/scenes\\/scene-(\\d+)\\/'); // per project (projects.js)
 function renderScenes(){const el=document.getElementById('sceneRefs');if(!el)return;const active=new Set((STATUS?.scene_ids||[]).map(Number));const by=new Map();
- Object.keys(THUMBS).forEach(p=>{const m=p.match(/^references\/scenes\/scene-(\d+)\//);if(!m)return;const sid=Number(m[1]);if(active.size&&!active.has(sid))return;if(!by.has(sid))by.set(sid,[]);by.get(sid).push(p)});
+ Object.keys(THUMBS).forEach(p=>{const m=p.match(SCENE_DIR);if(!m)return;const sid=Number(m[1]);if(active.size&&!active.has(sid))return;if(!by.has(sid))by.set(sid,[]);by.get(sid).push(p)});
  const sids=[...by.keys()].sort((a,b)=>a-b);
  el.innerHTML=sids.length?sids.map(sid=>'<div class="scenehead" style="font-size:15px"><a href="index.html#scene-'+sid+'">Сцена '+sid+'</a></div><div class="scenegrid">'+by.get(sid).sort().map(p=>'<div class="sceneref"><img class="zoomable-scene" src="'+esc(THUMBS[p].thumb||p)+'" data-full="'+esc(p)+'" alt="'+esc(p)+'" loading="lazy" decoding="async"><div class="fn">'+esc(p.split('/').pop())+'</div>'+box(p,sid)+'</div>').join('')+'</div>').join(''):'<div class="empty">Картинок сцен пока нет.</div>';
  el.querySelectorAll('.zoomable-scene').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.full,img.alt)))}
@@ -80,5 +88,6 @@ const fresh=u=>fetch(u+'?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.j
 Promise.all([fresh('references/reference-review.json'),fetch('references/thumbs/manifest.json').then(r=>r.ok?r.json():null).catch(()=>null),fresh('project-status.json')]).then(([rv,m,st])=>{
  (rv?.reviews||[]).forEach(r=>{REV[r.path]=r});THUMBS=m?.items||{};STATUS=st;renderScenes();decorateCharacters()});
 new MutationObserver(()=>decorateCharacters()).observe(document.getElementById('grid'),{childList:true});
+new MutationObserver(()=>decorateCharacters()).observe(document.getElementById('assets'),{childList:true});
 })();
 </script></body></html>

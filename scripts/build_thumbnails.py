@@ -30,9 +30,20 @@ MIN_SOURCE_BYTES = 60_000  # smaller sources are already light; keep them as-is
 
 
 def sources():
-    for p in sorted(REF.rglob("*")):
-        if p.is_file() and p.suffix.lower() in EXTS and OUT not in p.parents:
-            yield p
+    """Film references (references/) and every other project's references (projects/<id>/references/,
+    owner decision 20.10.2026)."""
+    roots = [REF] + sorted(d for d in (ROOT / "projects").glob("*/references") if d.is_dir())
+    for base in roots:
+        for p in sorted(base.rglob("*")):
+            if p.is_file() and p.suffix.lower() in EXTS and OUT not in p.parents:
+                yield p
+
+
+def thumb_path(src):
+    """references/x.png -> references/thumbs/x.png.webp; projects/<id>/references/x.png ->
+    references/thumbs/projects/<id>/references/x.png.webp (one manifest for the whole site)."""
+    rel = src.relative_to(REF) if REF in src.parents else src.relative_to(ROOT)
+    return OUT / (rel.as_posix() + ".webp")
 
 
 def sha256(path):
@@ -67,7 +78,7 @@ def main():
             continue
         rel = src.relative_to(ROOT).as_posix()
         digest = sha256(src)
-        thumb = OUT / (src.relative_to(REF).as_posix() + ".webp")
+        thumb = thumb_path(src)
         cur = items.get(rel)
         fresh = cur and cur.get("src_sha256") == digest and thumb.is_file()
         if not fresh:

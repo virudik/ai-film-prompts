@@ -150,6 +150,10 @@ def scan(c, repo, prev, *, mode="auto", now=None):
     scene_of = {tid: int(sid) for sid, ids in (tm.get("active_by_scene") or {}).items() for tid in ids}
     done_scene = {p["task_id"]: p.get("scene_id") for p in tm.get("processed_tasks", []) if p.get("task_id")}
     known_active = set(scene_of)
+    # Active tasks of the other projects (projects/topview-projects.json, owner decision 20.10.2026) are watched
+    # like known tasks, so their terminal state is never missed even if a robot cycle did not publish.
+    projects_tel = read_json(repo / "projects" / "topview-projects.json", {}) or {}
+    known_active |= {t["task_id"] for t in projects_tel.get("active", []) if t.get("task_id")}
     prev_active = {a["task_id"] for a in prev.get("active_tasks", []) if a.get("task_id")}
 
     boards = list_boards(c)

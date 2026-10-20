@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "queue_id": "RAZNOE-QUEUE",
+  "updated_at": "2026-10-20T00:00:00Z",
+  "state": "active",
+  "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
+  "selection_policy": "Как в Серёгиусе: только готовые элементы, наименьший priority; безлимит Topview через сайт под входом владельца, 0 кредитов; один запуск на элемент; квитанция после отправки. Слоты общие для всех проектов (6 на аккаунт). Между проектами — порядок launch_order в projects/projects.json.",
+  "receipts_directory": "projects/raznoe/reports",
+  "items": [],
+  "already_submitted": {},
+  "owner_site_actions": []
+}

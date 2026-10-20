@@ -112,6 +112,10 @@ def prepare(plan_path):
     fetched = api("GET", {"select": "id,created_at,scene_id,action,task_id,value,status,result_note",
                           "status": "in.(pending,in_progress)",
                           "order": "created_at.asc", "limit": str(MAX_ROWS)})
+    # Buttons of the other projects (projects/README.md, 20.10.2026) belong to phase 4, never to this ledger.
+    import projects as prj
+    tel = prj.project_tasks(ROOT)
+    fetched = [r for r in fetched if prj.is_root_row(r, tel)]
     rows = [r for r in fetched if eligible(r) and
             (r["status"] == "pending" or str(r.get("result_note") or "").startswith(CLAIM))]
     by_scene = {}

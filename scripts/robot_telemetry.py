@@ -49,6 +49,7 @@ MODEL_IDS = {"Wan 3.0": "qwen-wan3.0-video", "Wan 3.0 Prime": "qwen-wan3.0-video
              "Seedance 2.0": "seedance-2.0-style", "Seedance 2.0 Fast": "seedance-2.0-style-fast",
              "Seedance 2.0 Mini": "seedance-2.0-mini", "Seedance 2.5": "seedance-2.5"}
 RUNNER = "robot"
+PROJECTS_TELEMETRY = "projects/topview-projects.json"   # tasks of the other projects (owner decision 20.10.2026)
 
 
 # --------------------------------------------------------------------------- helpers
@@ -147,12 +148,30 @@ def table_rows(master):
 
 
 # --------------------------------------------------------------------------- planning (pure)
-def plan_cycle(scan, root, now, *, resolver=None):
+def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
     """Decide what to do from one robot scan and the repository state. No side effects.
 
-    returns dict(decision=noop|publish|hold, reasons, changes, cycle, master_plan, events, mapped_by_prompt)
+    returns dict(decision=noop|publish|hold, reasons, changes, cycle, master_plan, events, mapped_by_prompt,
+                 projects)
+    Tasks of the other projects (projects/projects.json, owner decision 20.10.2026) are recognised by an
+    exact/normalised prompt match with exactly one active scene of exactly one project master
+    (`project_resolver`), or because the previous cycle already recognised them (projects/topview-projects.json).
+    They never touch the root master, its slow list or its status; they are published separately in
+    projects/topview-projects.json and no longer make the robot HOLD.
     """
     root = Path(root)
+    prj_prev = read_json(root / PROJECTS_TELEMETRY, {}) or {}
+    prj_known = {t.get("task_id"): t for t in prj_prev.get("active", []) if t.get("task_id")}
+    prj_recent = {t.get("task_id") for t in prj_prev.get("recent", []) if t.get("task_id")}
+    foreign, foreign_finished = [], []
+
+    def project_hit(task_id):
+        k = prj_known.get(task_id)
+        if k:
+            return {"project": k.get("project"), "scene": k.get("scene_id"), "label": k.get("label"),
+                    "confidence": k.get("confidence") or "known from the previous robot cycle"}
+        return project_resolver(task_id) if project_resolver else None
+
     tm = read_json(root / "topview-task-map.json", {})
     ts = read_json(root / "topview-status.json", {})
     ps = read_json(root / "project-status.json", {})
@@ -186,7 +205,17 @@ def plan_cycle(scan, root, now, *, resolver=None):
             resolved[a["task_id"]] = hit
             mapped.append(a)
         else:
-            still.append(a)
+            ph = project_hit(a["task_id"])
+            if ph:
+                foreign.append({"project": ph["project"], "scene_id": int(ph["scene"]), "task_id": a["task_id"],
+                                "model": a.get("model") or (prj_known.get(a["task_id"]) or {}).get("model"),
+                                "status": a["status"], "started_at": iso_z(a.get("created_at"))
+                                or (prj_known.get(a["task_id"]) or {}).get("started_at"),
+                                "queue_count": a.get("queue_count"), "wait_seconds": a.get("wait_seconds"),
+                                "label": ph.get("label"), "part": part_from_label(ph.get("label")),
+                                "confidence": ph.get("confidence")})
+            else:
+                still.append(a)
     if still:
         reasons.append("unmapped_active:" + ",".join(a["task_id"][:8] for a in still))
         for a in still:
@@ -212,8 +241,20 @@ def plan_cycle(scan, root, now, *, resolver=None):
             continue
         f = dict(f)  # resolving a first-seen terminal task must not mutate the scan
         if f.get("scene_id") is None:
-            hit = resolver(f["task_id"], master, scene_ids) if resolver else None
+            if f["task_id"] in prj_recent:
+                continue                   # a task of another project, already recorded as finished
+            hit = None if f["task_id"] in prj_known else (resolver(f["task_id"], master, scene_ids) if resolver else None)
             if not hit:
+                ph = project_hit(f["task_id"])
+                if ph:
+                    k = prj_known.get(f["task_id"]) or {}
+                    foreign_finished.append({"project": ph["project"], "scene_id": int(ph["scene"]),
+                                             "task_id": f["task_id"], "model": k.get("model"),
+                                             "final_status": f["final_status"],
+                                             "finished_at": iso_z(f.get("completed_at")) or now_z(now),
+                                             "started_at": k.get("started_at"), "label": ph.get("label"),
+                                             "part": part_from_label(ph.get("label"))})
+                    continue
                 reasons.append("finished_without_scene:" + f["task_id"][:8])
                 continue
             f["scene_id"] = hit["scene"]
@@ -239,8 +280,19 @@ def plan_cycle(scan, root, now, *, resolver=None):
                             if str(prev_rows[t].get("topview_status", "")).lower() != cur[t]["status"])
     changes = {"new": new_ids, "gone": gone_ids, "finished": sorted(fin_ids), "status_changed": status_changed}
 
+    fcur = {a["task_id"]: a for a in foreign}
+    f_new = sorted(set(fcur) - set(prj_known))
+    f_gone = sorted(set(prj_known) - set(fcur))
+    f_fin = {f["task_id"] for f in foreign_finished}
+    f_vanished = [t for t in f_gone if t not in f_fin]
+    if f_vanished:
+        reasons.append("project_task_gone_without_result:" + ",".join(t[:8] for t in f_vanished[:5]))
+    f_status = sorted(t for t in set(fcur) & set(prj_known)
+                      if str(prj_known[t].get("status", "")).lower() != str(fcur[t]["status"]).lower())
+    changes["projects"] = {"new": f_new, "finished": sorted(f_fin), "status_changed": f_status}
+
     age = minutes_since(ts.get("checked_at"), now)
-    unchanged = not (new_ids or gone_ids or fin_ids or status_changed)
+    unchanged = not (new_ids or gone_ids or fin_ids or status_changed or f_new or f_fin or f_status)
 
     rows = table_rows(master)
     plan = {"add": [], "finish": []}
@@ -283,6 +335,14 @@ def plan_cycle(scan, root, now, *, resolver=None):
                        "text": f"Сцена {f['scene_id']}, задача `{f['task_id']}`: `{f['final_status']}`. "
                                f"Свободных слотов Topview: {free} из 6. Это не одобрение: сцена остаётся в ожидании кнопки владельца."})
 
+    for f in foreign_finished:
+        free = max(0, 6 - len(cur) - len(foreign))
+        pname = f["project"]
+        events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
+                       "title": f"Проект {pname}, сцена {f['scene_id']}: технический результат {f['final_status']}",
+                       "text": f"Проект `{pname}`, сцена {f['scene_id']}, задача `{f['task_id']}`: `{f['final_status']}`. "
+                               f"Свободных слотов Topview (на все проекты): {free} из 6. Это не одобрение: решение — кнопкой владельца."})
+
     if reasons:
         decision = "hold"
     elif unchanged and not repairs and age is not None and age < HEARTBEAT_MIN:
@@ -314,8 +374,19 @@ def plan_cycle(scan, root, now, *, resolver=None):
             cycle.update(boards=sc.get("boards"), pages=sc.get("pages_scanned"), video_tasks=sc.get("tasks_seen"))
     if repairs:
         changes["repaired_rows"] = sorted(repairs)
+    projects_out = None
+    if decision == "publish":
+        recent = [dict(f, recorded_at=now_z(now)) for f in foreign_finished] + \
+            [r for r in prj_prev.get("recent", []) if r.get("task_id") not in f_fin]
+        projects_out = {"schema_version": 1, "checked_at": scan["checked_at"], "updated_by": "GitHub robot (robot_telemetry.py)",
+                        "rules": "projects/README.md",
+                        "note": "Задачи Topview других проектов (не Серёгиуса). Слоты общие: занято на аккаунте = "
+                                "topview-status.json.occupied_slots + число active здесь. Технический success ≠ одобрение.",
+                        "active": sorted(foreign, key=lambda x: (x["project"], x["scene_id"], x["task_id"])),
+                        "recent": recent[:100]}
     return {"decision": decision, "reasons": reasons, "changes": changes, "cycle": cycle, "master_plan": plan,
-            "events": events, "resolved_by_prompt": resolved, "age_minutes": None if age is None else round(age, 1)}
+            "events": events, "resolved_by_prompt": resolved, "age_minutes": None if age is None else round(age, 1),
+            "projects": projects_out}
 
 
 # --------------------------------------------------------------------------- prompt resolver
@@ -342,6 +413,42 @@ def make_resolver(fetch_prompt):
         if scene not in scene_ids:
             return None
         return {"scene": scene, "confidence": f"prompt {level} match with master block {label} (robot)", "label": label}
+    return resolve
+
+
+def make_project_resolver(fetch_prompt, root):
+    """Map a task to ANOTHER project (projects/<id>/video-prompts.md): exact/normalised prompt match with exactly
+    one active scene of exactly one project master. Anything less is not a mapping (the robot then holds)."""
+    import projects as prj
+
+    def resolve(task_id):
+        prompt, _model = fetch_prompt(task_id)
+        if not prompt:
+            return None
+        norm = pm.normalise(prompt)
+        exact = prompt.replace("\r\n", "\n").strip()
+        found = set()
+        best = {}
+        for p in prj.projects(root):
+            path = Path(root) / p["master"]
+            try:
+                text = path.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            active = set(int(x) for x in re.findall(r"^## Сцена (\d+)\b", text, re.M))
+            for label, body in pm.master_blocks(text):
+                level = "exact" if body.replace("\r\n", "\n").strip() == exact else \
+                    "normalized" if pm.normalise(body) == norm else None
+                m = re.match(r"\d+", label)
+                if level and m and int(m.group(0)) in active:
+                    found.add((p["id"], int(m.group(0))))
+                    best[(p["id"], int(m.group(0)))] = (label, level)
+        if len(found) != 1:
+            return None
+        (pid, scene), = found
+        label, level = best[(pid, scene)]
+        return {"project": pid, "scene": scene, "label": label,
+                "confidence": f"prompt {level} match with project {pid} master block {label} (robot)"}
     return resolve
 
 
@@ -491,7 +598,7 @@ def mark_notified(root, keys):
     path.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def run_on(root, scan, git, *, now, resolver, notifier):
+def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
     root = Path(root)
     started = now_z(now)
     for attempt in range(1, MAX_ATTEMPTS + 1):
@@ -500,7 +607,7 @@ def run_on(root, scan, git, *, now, resolver, notifier):
         if not ok:
             print(f"::notice title=robot-telemetry::not the writer ({why}); nothing written")
             return 0
-        plan = plan_cycle(scan, root, now, resolver=resolver)
+        plan = plan_cycle(scan, root, now, resolver=resolver, project_resolver=project_resolver)
         d = plan["decision"]
         status = read_json(root / "automation-monitor-status.json", {})
         notified = set((status.get("notification_state") or {}).get("robot_notified_keys") or [])
@@ -541,6 +648,10 @@ def run_on(root, scan, git, *, now, resolver, notifier):
             master_text = rma.read_raw(root / "video-prompts.md")
             files = ["topview-task-map.json", "topview-operation-journal.json", "topview-status.json",
                      "topview-checkpoint.json", "review-ledger.json", "automation-monitor-status.json"]
+            if plan.get("projects") is not None and (root / "projects").is_dir():
+                (root / PROJECTS_TELEMETRY).write_text(json.dumps(plan["projects"], ensure_ascii=False, indent=2) + "\n",
+                                                      encoding="utf-8")
+                files.append(PROJECTS_TELEMETRY)
             new_master = None
             if mp["add"] or mp["finish"]:
                 new_master, _info = mse.apply_plan(master_text, mp, rma.moscow_date(now))
@@ -626,14 +737,21 @@ def main():
         print(f"::warning title=robot-telemetry::scan is {age} min old (limit {MAX_SCAN_AGE_MIN}); nothing done")
         return 0
     key, uid = os.environ.get("TOPVIEW_API_KEY", ""), os.environ.get("TOPVIEW_UID", "")
-    resolver = None
+    resolver = project_resolver = None
     if key.strip() and uid.strip():
         import topview_api_scan as scan_mod
         client = scan_mod.Client(key, uid)
-        resolver = make_resolver(lambda tid: pm.fetch_prompt(client, tid))
+        cache = {}
+
+        def fetch(tid):          # one GET per task even when both resolvers look at it
+            if tid not in cache:
+                cache[tid] = pm.fetch_prompt(client, tid)
+            return cache[tid]
+        resolver = make_resolver(fetch)
+        project_resolver = make_project_resolver(fetch, root)
     git = rma.Git(root)
     if a.mode == "shadow":
-        plan = plan_cycle(scan, root, now, resolver=resolver)
+        plan = plan_cycle(scan, root, now, resolver=resolver, project_resolver=project_resolver)
         changed = write_preview(root, scan, plan, now)
         print("::notice title=robot-telemetry-shadow::" + json.dumps(
             {"decision": plan["decision"], "reasons": plan["reasons"], "changes": plan["changes"],
@@ -652,7 +770,7 @@ def main():
         print("::error title=robot-telemetry::mode=on writes and pushes; refused outside GitHub Actions (use --commit deliberately)")
         return 2
     notifier = GhNotifier() if os.environ.get("GH_TOKEN") else NullNotifier()
-    return run_on(root, scan, git, now=now, resolver=resolver, notifier=notifier)
+    return run_on(root, scan, git, now=now, resolver=resolver, notifier=notifier, project_resolver=project_resolver)
 
 
 if __name__ == "__main__":
