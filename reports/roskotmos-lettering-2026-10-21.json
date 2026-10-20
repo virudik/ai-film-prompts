@@ -1,13 +1,115 @@
 {
-  "state": "in_progress",
-  "started_at": "2026-10-20T22:23:19.461Z",
-  "owner_request": "21.10: РОСКОТМОС на корабле, штаб, 20 image-first сцен, событийные заставки и трейлеры; без очереди",
-  "scope": "Аудит изображений корабля РосКОТмоса в проектах и общих исходниках; только недостающая подпись, без смены дизайна",
-  "completed": [],
-  "remaining": [
-    "Визуальный аудит",
-    "Правки изображений",
-    "Реестры/промты/проверка"
+  "state": "completed",
+  "checked_at": "2026-10-20T22:27:24.616Z",
+  "source_main": "36890db",
+  "scope": "Все референсы Котмонавтов и исходники РосКОТмоса сцен 45/57/58; идентичные копии проверены по SHA",
+  "ship_images": [
+    {
+      "index": 2,
+      "paths": [
+        "projects/kotmonavty/references/branding/KM-poster.png"
+      ],
+      "sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd",
+      "result": "missing_caption_corrected_and_replaced"
+    },
+    {
+      "index": 4,
+      "paths": [
+        "projects/kotmonavty/references/development/KM-ring-chase.png"
+      ],
+      "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
+      "result": "missing_caption_corrected_and_replaced"
+    },
+    {
+      "index": 18,
+      "paths": [
+        "projects/kotmonavty/references/ship-exterior-four-engines.png",
+        "references/scenes/scene-45/S45-ship-design-actual.png"
+      ],
+      "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 19,
+      "paths": [
+        "projects/kotmonavty/references/ship-exterior-front.png",
+        "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+      ],
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 20,
+      "paths": [
+        "projects/kotmonavty/references/ship-exterior-rear.png",
+        "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png"
+      ],
+      "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 23,
+      "paths": [
+        "references/scenes/scene-45/S45-roskotmos-ship-exterior.png"
+      ],
+      "sha256": "cee8bf7cf28121e885320f39efe358f4ed0f167e74f0b431da2983cba36a7a29",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 26,
+      "paths": [
+        "references/scenes/scene-45/S45-ship-four-engines-actual.png"
+      ],
+      "sha256": "28d8d58faf268fc67d62c52086ec9bb772cb64c0bd67349e8793f23d9c679e4b",
+      "result": "rear_only_emblem_not_visible_caption_not_applicable"
+    },
+    {
+      "index": 28,
+      "paths": [
+        "references/scenes/scene-58/S58-cats-escape-open-hatch.png"
+      ],
+      "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 29,
+      "paths": [
+        "references/scenes/scene-58/S58-emblem-at-cats-paws.png"
+      ],
+      "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 30,
+      "paths": [
+        "references/scenes/scene-58/S58-ship-explosion-open-hatch.png"
+      ],
+      "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 31,
+      "paths": [
+        "references/scenes/scene-58/S58-wreck-start-owner-selected.png"
+      ],
+      "sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    },
+    {
+      "index": 32,
+      "paths": [
+        "references/scenes/scene-58/S58-wreck-start.png"
+      ],
+      "sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5",
+      "result": "caption_ROSKOTMOS_present_under_emblem"
+    }
   ],
-  "video_launches": 0
+  "not_ship": "Кабины, бар, архив, улица S57: нет видимой боковой эмблемы корабля; надпись не добавлялась на посторонние суда.",
+  "corrected_paths": [
+    "projects/kotmonavty/references/development/KM-ring-chase.png",
+    "projects/kotmonavty/references/branding/KM-poster.png"
+  ],
+  "originals_preserved": "История git; корректировка по прямой команде владельца, прочие оригиналы без изменений",
+  "video_launches": 0,
+  "editorial_approval": false
 }
