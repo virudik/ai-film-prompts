@@ -63,6 +63,16 @@
    "thumb_bytes": 127240,
    "src_sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
   },
+  "projects/kot-detektiv/references/development/KD-duo.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/development/KD-duo.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2552840,
+   "thumb_bytes": 40760,
+   "src_sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
+  },
   "projects/kot-detektiv/references/london-street-frame-05s.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/london-street-frame-05s.png.webp",
    "width": 640,
