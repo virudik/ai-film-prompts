@@ -1,0 +1,155 @@
+{
+  "project": "kot-detektiv",
+  "updated_at": "2026-10-20T21:28:45.130Z",
+  "task": "Афиши, заставки, 6 эпизодов и 2 дополнительные сцены; без очереди",
+  "state": "in_progress",
+  "assets": [
+    {
+      "key": "KD-poster",
+      "project": "kot-detektiv",
+      "scene": null,
+      "title": "Афиша «Кот детектив»",
+      "kind": "poster",
+      "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: ads-marketing. Premium portrait 2:3 film poster for a dark serious stylized ANIMATED Victorian animal noir. Preserve the exact original cat identity and costume from image1 and exact dog from image2: green-eyed white-cheeked grey/brown tabby detective in brown tweed deerstalker/cape, taller anxious brown dark-muzzled constable in navy bobby coat and helmet. Painterly textured dimensional animation matching source, cinematic ink shadows, NOT live-action and not generic children's cartoon. Large calm cat face and magnifying glass foreground left, worried dog with gas lantern slightly behind right. Wet London street recedes into immense blue-black fog, gaslamps, clock tower and thin red thread connecting abstract evidence in composition. Unknown shadow on distant bridge must be unmistakably an anthropomorphic animal but face/species hidden; no human silhouettes or human portraits anywhere. Warm amber lantern, desaturated petrol shadows, brass glints, sophisticated mystery poster hierarchy. Large beautifully typeset exact Cyrillic title at bottom in two lines: \"КОТ\" / \"ДЕТЕКТИВ\". Ivory engraved Victorian serif lettering, crisp readable, balanced spacing, small red wax seal detail beneath. ONLY those title words; no tagline, credits, English, or subtitles. Keep faces unobstructed, title not on faces, no watermark, no parody, no food.",
+      "status": "generated_and_saved"
+    },
+    {
+      "key": "KD-opening",
+      "project": "kot-detektiv",
+      "scene": 2,
+      "title": "Нуарная начальная заставка",
+      "kind": "opening_frame",
+      "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: stylized-concept. Create a 16:9 OPENING TITLE end-frame for a serious animated Victorian animal noir using the precise visual style of supplied original cat/dog references. Not a scene with full characters: a crafted dark detective desk still life, wet window and foggy London clock tower softly behind. Foreground antique brass magnifying glass, stopped pocket watch, cream case file, red wax seal and one red thread crossing deep brown wood; a tiny subtle feline pawprint embossed on case file, no human imagery. Painterly ink/fabric/wood textures, rich dimensional animated aesthetic, amber gaslight from left, blue-black rain shadows, restrained elegant mystery. Central upper-middle area has large beautifully legible exact Cyrillic title on two lines \"КОТ\" and \"ДЕТЕКТИВ\", aged ivory engraved Victorian serif, clean professional title design with cinematic spacing. Keep title isolated in dark negative space, not overlapping clutter. Thin brass rule and red seal as accent below, no other readable text. The magnifying glass catches one green reflection recalling the detective's eyes. NO humans/portraits/skulls, no modern technology, no food, no credits, no watermark, no bars. The title is the focus; source characters only supply stylistic identity.",
+      "status": "generated_and_saved"
+    },
+    {
+      "key": "KD03-stopped-clock",
+      "project": "kot-detektiv",
+      "scene": 3,
+      "title": "Кабинет: остановившиеся часы",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/office-map.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. Input3 exact wood-panelled office mood and map. NEW office composition: cat sitting at desk in foreground left, mid-action raising eyes from a cream sealed note; open brass pocket watch on desk at centre, wall pendulum clock behind has stopped. Dog at the open doorway right, rain on shoulders, leaning in urgently with a notebook in furred paw, other paw on door. Cat's expression thoughtful, dog's eyes worried. Wide 35mm, faces clear, gas-lamp spill across desk, map and animal-only small portraits blurred in back. No rotary phone/skull. Show the contrast between inward deduction and urgent arrival, no readable note text.",
+      "status": "generated_and_saved"
+    },
+    {
+      "key": "KD04-missing-notices",
+      "project": "kot-detektiv",
+      "scene": 4,
+      "title": "Улица: совпавший знак",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. New rainy London alley approaching a bridge. Detective cat left stops at a Victorian iron noticeboard under a gaslamp, holds magnifying glass near TWO paper notices; each has an engraved portrait of an ANIMAL (badger on one, otter on other), and identical tiny broken-circle RED seal. Do NOT render readable headlines or text, only fine illegible antique hatch marks. Dog right has overshot by one pace and turns back, notebook open, alarmed but competent. Full-body medium-wide shot, wet cobbles, receding gaslamps, distant bridge, a few clearly anthropomorphic animal silhouettes in frock coats. Composition makes the matching red symbols legible. Cat composed, dog quick reactive motion.",
+      "status": "generated_and_saved"
+    },
+    {
+      "key": "KD05-river-footprints",
+      "project": "kot-detektiv",
+      "scene": 5,
+      "title": "Следы обрываются у Темзы",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-quay-clue.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. Input3 exact river site, pocket watch and red wax clue. NEW reverse wider composition down the embankment: muddy animal pawprints start foreground centre and end abruptly at an intact wrought-iron railing above Thames. Cat kneels side-on left using magnifier at last print, his face clear in profile; dog behind right raises lantern toward the water, catching only stern of a departing small boat in thick fog. Watch and broken red wax seal on stone near cat. Clock tower far away, no modern tape, rope cordon instead. The impossible end of the track dominates; watch not duplicated, no ghost reveal, no culprit face. Atmospheric stylish animation, very serious.",
+      "status": "generated_and_saved"
+    },
+    {
+      "key": "KD06-thread-map",
+      "project": "kot-detektiv",
+      "scene": 6,
+      "title": "Красная нить к башне",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-map-envelope.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. Input3 exact wood office map, red threads and envelope clue. NEW closer over-desk angle: cat at left calmly stretches one red thread from a pin on Thames to a small clock-tower sketch, green eye visible in profile and clear furred paw. Dog at right, bent slightly, has noticed a cream envelope halfway through the narrow gap UNDER THE CLOSED DOOR, points lantern toward it. Map has ONLY animal suspect portraits (badger, rat, crow), unreadable tiny text. Desk brass magnifier, old watch and papers, no telephone/skull. Strong diagonal thread leads eye to tower, then envelope breaks safety of room. Serious cinematic reveal, no slapstick or human hands.",
+      "status": "planned"
+    },
+    {
+      "key": "KD07-clockwork-stair",
+      "project": "kot-detektiv",
+      "scene": 7,
+      "title": "Лестница в часовом механизме",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-clocktower.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. Input3 exact huge clock interior, red ribbon and upper catwalk. NEW view from BEHIND a giant bronze gear in foreground, looking diagonally down at cat/dog midway up narrow wooden staircase. Cat leads left, profile visible, calmly lifts lantern toward a red ribbon caught in stationary gear; dog just behind grips railing with furry paw and looks anxiously upward. High upper catwalk far background has just the edge of an anonymous dark cloak and furry tail retreating out of view, no face/species reveal. Cold light through massive frosted dial cuts shafts through dust, warm lantern picks fur/tweed, immense mechanism scale. No modern items, no humans, strictly serious noir.",
+      "status": "planned"
+    },
+    {
+      "key": "KD08-next-address",
+      "project": "kot-detektiv",
+      "scene": 8,
+      "title": "Следующий адрес",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-clocktower.png"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. NEW late-night rooftop landing just outside the clock tower; original cat and dog under a gas lantern, a battered city map unfolded across a waist-high stone parapet. Cat left lines up a brass pocket watch with the printed clock-tower mark on map, then points with a furry paw toward a distant isolated old glass-domed observatory on the foggy skyline. Dog right turns with urgent determination and draws lantern close, preparing to depart. Cat's eyes focused, quiet deduction not speech. Thin red ribbon tied to watch stem; tiny map writing illegible. Dark wet slate roofs, moonlit fog, gaslight warmth, clock face behind. Keep animal faces original, no humans, no explicit solved culprit, ending opens next mystery.",
+      "status": "planned"
+    },
+    {
+      "key": "KD09-empty-carriage",
+      "project": "kot-detektiv",
+      "scene": 9,
+      "title": "Экипаж без пассажира",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. NEW foggy Victorian curb at midnight, ornate black carriage stopped under gaslamp, its side door open revealing EMPTY velvet seat with a dropped glove, antique ticket stub with illegible text and red wax seal. Cat in left foreground examines a muddy pawprint on carriage step with magnifier; dog on right holds lantern into empty cabin and looks worried. An anthropomorphic elderly BADGER coachman in period cape/top hat stands far behind beside rear wheel, distressed but secondary, clearly animal head and paws; no horses visible. Wet cobbles, thick blue fog, clock distant. Strong mystery: witness was here and vanished, no violence. Cinematic 35mm low composition, same source identities, strictly animated noir, no human silhouettes.",
+      "status": "planned"
+    },
+    {
+      "key": "KD10-observatory",
+      "project": "kot-detektiv",
+      "scene": 10,
+      "title": "Свет в закрытой обсерватории",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "prompt": "Use case: illustration-story. Asset: one 16:9 cinematic frame for a serious dark stylized ANIMATED noir. Input1 PRIMARY detective cat identity and source art style: green eyes, broad fluffy white cheek ruff/muzzle, grey-brown tabby crown, brown tweed deerstalker/cape/waistcoat, white collar/brown tie and watch chain. Input2 ONLY dog identity: taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby uniform and helmet, expressive nervous eyes. Detailed dimensional painterly animation with subtle ink/fur strokes and fabric texture matching originals, NOT live action, NOT generic glossy children's 3D, not flat vector. Calm analytical cat and anxious but competent constable; restrained acting, no slapstick. London nineteenth century, dark wood, wet cobblestones, gaslight, blue-black fog and amber chiaroscuro. EVERY person-like figure/portrait/silhouette is an anthropomorphic ANIMAL, no humans, no human skin/hands/skulls. No food gags, modern tape, rotary telephone, cars, electric screens, subtitles, watermark, borders or collage. Additional refs define only specified location/clue. NEW abandoned Victorian astronomical observatory interior, huge brass telescope angled toward a slit in copper dome. Cat at left stands at telescope controls, calmly notices a fresh muddy animal pawprint on dusty floor and a red thread loop around one brass control; dog at right aims gas lantern at a mechanism that has just moved without anyone touching it. Telescope points through slit toward foggy London, gears and star charts with abstract marks, all decorative portraits absent. Pale moonbeam, amber lantern, thick dust and dramatic shadows; both original faces visible and detailed. Threat comes from unexplained active machine, NO ghost or culprit shown, no magic lightning. Serious intelligent mystery, anthropomorphic animals only, nineteenth-century technology, no electric displays, no text.",
+      "status": "planned"
+    }
+  ],
+  "next": "Завершить изображения, затем 10 сцен / 30 полных промтов на проект, проверить сайт."
+}
