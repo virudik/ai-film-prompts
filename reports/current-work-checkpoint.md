@@ -1,3 +1,11 @@
+## Контроль очереди и автоматики · 2026-10-20T12:03:09.987Z
+
+Topview: полный read-only скан 11 досок / 17 страниц / 913 задач; success 870, fail 37, init 6. Все 6 видеослотов заняты теми же задачами: S39-P1 `008058a4705c45c089256116427153d4`, S16-P1 `30cfaf12ad944cd6944416623397e41c`, S37-P1 `e6a5cf9a3d04413e943c9bbbff9e1f73`, S36 `e33891d4568a4a90b31ff3c67f5a7100`, S54 `1e4928fa04ed4a0396d1d2ea4f5934bb`, S43 `70ba69f8c44e4898ab587fbffeaeca01`. Скан полный; claimed/submission_unknown в свежей очереди нет. Свободных слотов 0, Create не нажимался, новых задач и расходов нет.
+
+Maintenance: self-heal ok; открытых owner-tasks для chatgpt/any/claude нет; открытых Supabase owner_decisions нет. project-status health=ok, synced_at 2026-10-20T11:50:23Z и не старше 40 минут. canon-health ok: warn/error 0, только 3 info о размере инструкций.
+
+Gmail/GitHub: за интервал с 24-часовым перекрытием найдено 11 релевантных уведомлений, все уже учтены; новых message ID нет, состояние писем не менялось. Actual Actions проверены по 100 свежим runs: текущей поломки нет. Четыре cancelled Pages runs были вытеснены новыми push и каждый получил последующий success; последний завершённый Pages run [39417828784](https://github.com/virudik/ai-film-prompts/actions/runs/39417828784) — success. Последний архивный run [39418380463](https://github.com/virudik/ai-film-prompts/actions/runs/39418380463) — success. Более новый Pages run39419006393 на момент чтения выполнялся; повторный запуск или ремонт не инициировались.
+
 ## S39 Seedance 2.0 часть 1 отправлена · 2026-10-20T08:06:03.172Z
 
 S39-SEED20-P1 запущена через авторизованный сайт Topview ровно одним Create: task `008058a4705c45c089256116427153d4`, Seedance 2.0 / 15s / 720p / 16:9 / quantity1 / 6 изображений / Unlimited=true / creditsCost=0. До claim полный скан 11 досок / 16 страниц / 912 задач показал 5 активных и один свободный видеослот; нормализованного дубля S39-P1 не было. Все 6 входов и их SHA проверены в каноническом порядке; экранная реконструкция текста совпала с canonical SHA `c4488e22…` и normalized SHA `96703e31…`.
