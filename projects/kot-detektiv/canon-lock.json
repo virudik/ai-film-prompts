@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Кот детектив: главный референс кота — оригинал задачи 3a85d0374f3f43de99c96c24ee2486ce по выбору владельца",
   "acquired_at": "2026-10-20T04:24:00.589Z",
-  "expires_at": "2026-10-20T05:09:00.590Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T04:24:25.646Z",
   "rules": "ops/CANON-LOCK.md"
 }

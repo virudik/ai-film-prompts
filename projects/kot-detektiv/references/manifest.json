@@ -46,7 +46,15 @@
       "height": 1402,
       "format": "PNG",
       "qc": "visual_checked",
-      "checked_at": "2026-10-20T03:43:39Z"
+      "checked_at": "2026-10-20T03:43:39Z",
+      "owner_selection": {
+        "selected_by": "owner",
+        "selected_at": "2026-10-20T07:23:34+03:00",
+        "task_id": "3a85d0374f3f43de99c96c24ee2486ce",
+        "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
+        "note": "Главный референс кота: оригинальная входная картинка указанной задачи, выбор владельца. Выбор референса не является одобрением ролика.",
+        "role": "detective-cat-primary"
+      }
     },
     {
       "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",

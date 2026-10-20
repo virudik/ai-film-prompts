@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T03:43:39Z",
+  "updated_at": "2026-10-20T04:24:25.646Z",
   "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены; сцены не созданы.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -19,44 +19,43 @@
       ],
       "scenes": [],
       "model_sheet": {
-        "source": "Оригинальный вход доски «Лёха кот», перенесён без изменения байтов.",
-        "primary": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
+        "source": "Оригинальная входная картинка задачи Topview 3a85d0374f3f43de99c96c24ee2486ce; главный референс по выбору владельца 20.10.2026.",
+        "primary": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
         "additional": [
-          "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
           "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
           "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
           "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
           "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png"
         ],
-        "public_image": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
-        "full_image": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
+        "public_image": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "full_image": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
         "copied_from": [
           {
             "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
-            "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
-            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BpQKrRCZcAPyvwifqeHVH.jpg",
+            "task_id": "3a85d0374f3f43de99c96c24ee2486ce",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
+            "kind": "input_image"
+          },
+          {
+            "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+            "task_id": "522037792f8f4b9ebe09ab2f3c87dc03",
+            "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
             "kind": "input_image"
           }
         ],
         "reference_type": "scene_reference_not_individual_model_sheet",
-        "editorial_status": "not_approved"
+        "editorial_status": "not_approved",
+        "owner_selection": {
+          "selected_by": "owner",
+          "selected_at": "2026-10-20T07:23:34+03:00",
+          "task_id": "3a85d0374f3f43de99c96c24ee2486ce",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
+          "note": "Главный референс кота: оригинальная входная картинка указанной задачи, выбор владельца. Выбор референса не является одобрением ролика."
+        }
       },
       "outfit_variant": "Антропоморфный кот-сыщик: коричневый твидовый костюм в стиле Шерлока Холмса, кепка-охотничья (deerstalker), лупа; зелёные умные глаза, пушистая реалистичная шерсть. Говорит низким задумчивым голосом, мурлычет.",
       "reference_images": [
-        {
-          "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
-          "caption": "Кот в кабинете: широкий исходный кадр, хорошо читаются морда, уши и одежда; это кадр, не отдельный model sheet.",
-          "copied_from": [
-            {
-              "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
-              "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
-              "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BpQKrRCZcAPyvwifqeHVH.jpg",
-              "kind": "input_image"
-            }
-          ],
-          "sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf",
-          "editorial_status": "not_approved"
-        },
         {
           "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
           "caption": "Кот за столом: вертикальный оригинал; твидовый костюм, кепка, белая морда, кабинет.",
@@ -75,6 +74,20 @@
             }
           ],
           "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd",
+          "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
+          "caption": "Кот в кабинете: широкий исходный кадр, хорошо читаются морда, уши и одежда; это кадр, не отдельный model sheet.",
+          "copied_from": [
+            {
+              "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+              "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
+              "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BpQKrRCZcAPyvwifqeHVH.jpg",
+              "kind": "input_image"
+            }
+          ],
+          "sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf",
           "editorial_status": "not_approved"
         },
         {
@@ -146,7 +159,7 @@
           "editorial_status": "not_approved"
         }
       ],
-      "reference_notes": "Отдельного утверждённого индивидуального model sheet на доске не найдено. Использовать только внешность указанного персонажа; второй персонаж, окружение, поза и реквизит не переносятся в сцену автоматически."
+      "reference_notes": "Главный референс внешности кота выбран владельцем: projects/kot-detektiv/references/detective-cat-office-portrait.png. Оригинал входа указанной задачи сохранён без изменения байтов. Это кадр в кабинете, не индивидуальный model sheet; окружение, поза и реквизит не переносятся в сцену автоматически."
     },
     {
       "id": "police-dog",
