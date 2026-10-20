@@ -353,6 +353,16 @@
    "thumb_bytes": 80112,
    "src_sha256": "1c09dc5b9227f84b34a38ab1920ea1666a8bdbb0983c123853d7c0f60790d698"
   },
+  "projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2593416,
+   "thumb_bytes": 68400,
+   "src_sha256": "8341a2ba823105bbfd81b9199b32af8b669bef27d1451d88ce48d0b9b1718262"
+  },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
    "width": 640,
