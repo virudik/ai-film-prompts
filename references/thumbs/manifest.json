@@ -1173,6 +1173,16 @@
    "thumb_bytes": 52112,
    "src_sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
   },
+  "references/scenes/scene-58/S58-wreck-start-owner-selected.png": {
+   "thumb": "references/thumbs/scenes/scene-58/S58-wreck-start-owner-selected.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2997784,
+   "thumb_bytes": 71756,
+   "src_sha256": "cea66346ad87889b9cbbbe06a887d62392a2d11fd6f191b14126bf4aab4ce845"
+  },
   "references/scenes/scene-58/S58-wreck-start.png": {
    "thumb": "references/thumbs/scenes/scene-58/S58-wreck-start.png.webp",
    "width": 640,
