@@ -213,6 +213,16 @@
    "thumb_bytes": 54448,
    "src_sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d"
   },
+  "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2539032,
+   "thumb_bytes": 60524,
+   "src_sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -452,6 +462,16 @@
    "src_bytes": 2727298,
    "thumb_bytes": 62366,
    "src_sha256": "1656771c3e2d0188a8365e429a34d763c3aad51d2a1314f6172eda6edc04ad01"
+  },
+  "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1673,
+   "src_height": 940,
+   "src_bytes": 2569383,
+   "thumb_bytes": 56608,
+   "src_sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
