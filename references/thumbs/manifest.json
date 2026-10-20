@@ -113,6 +113,16 @@
    "thumb_bytes": 31728,
    "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
   },
+  "projects/kotmonavty/references/development/KM-bar-compass.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-bar-compass.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2545184,
+   "thumb_bytes": 68260,
+   "src_sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
+  },
   "projects/kotmonavty/references/luchik.jpg": {
    "thumb": "references/thumbs/projects/kotmonavty/references/luchik.jpg.webp",
    "width": 640,
