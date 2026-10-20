@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Серёгиус: 57 и 58 сразу после всей цепочки червя; проверка готовности",
   "acquired_at": "2026-10-20T16:39:13.767Z",
-  "expires_at": "2026-10-20T17:09:13.768Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T16:41:48.448Z",
   "rules": "ops/CANON-LOCK.md"
 }

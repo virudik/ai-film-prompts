@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T08:06:12.206Z",
+  "updated_at": "2026-10-20T16:41:48.448Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -17,7 +17,7 @@
   "board_id": "1a6244cf1ae747ef847d949a80d6133c",
   "workflow": "ops/TOPVIEW-FREE-LAUNCH.md",
   "automation_id": "6acae6ab433481919e88665c520b8ef2",
-  "selection_policy": "LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
+  "selection_policy": "LATEST20Oct19:37MSK: 16→42→56→48, then57→58 immediately before other pending story/music. S57/S58 all four selected parts have mandatory depends_on_submitted on all eight worm parts; do not skip this explicit ordering gate when worm continuations are blocked. Keep real own-P1 ending for each P2; S58P1 uses owner-selected synthetic crash still, not video57. Other pending items retain relative order. LATEST20Oct01:32MSK: worm chain16→42→56→48 first among READY; both15s Seedance2.0 parts, real output dependencies mandatory. Other site ordering preserved. OWNER SITE ORDER (18.10.2026): кнопки владельца на сайте (owner_site_actions) меняют priority; порядок по priority важнее текстового порядка ниже. Owner19Oct13:15MSK EXCEPTION for scene44: BOTH Wan3.0 30s AND Seedance2.0 two15s parts explicitly authorized; see owner_instruction_20261019_1315. 18Oct03:09MSK: future dance/action/flight Seedance2.0 only, exact prepared15s blocks; see owner_instruction_20261018_0309. No Wan/2.5 fallback. Owner23:03MSK: S52 requires actual corrected44 ending for seamless transition and runs after44; repeated yellow grocery note in every Serega travel scene;55 already submitted, no repeat. Owner17Oct22:52:55MSK: 41 → corrected43 → 54 → 36 → 37 → 39 → 40 → 44 (wing). Then remaining authorized READY story52,53,42,47,48 by dependencies; ONE15s dance test after story; further dance/music remains gated by review/refs. All submitted/cancelled items excluded; no extra RosKOTmos or fan images. Fresh main/owner decisions/canon lock/full account scan, exact prompts and refs, website Unlimited0, CAS claim and verified receipt required.",
   "items": [
     {
       "id": "B7",
@@ -3759,7 +3759,7 @@
       "canonical_block_label": "37 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
       "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1",
-      "priority": 4.1,
+      "priority": 4.5,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5500,7 +5500,7 @@
       "canonical_block_label": "57 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "530ff96228e5d22de60405cbcf0d9faa1cf549d7c92a6596c688409ab023c45e",
       "normalized_prompt_sha256": "5dce3308689560c429b785f7c0c61568615b4c87576a8e4020a1533fe9d99ff7",
-      "priority": 22,
+      "priority": 4.2,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5511,7 +5511,16 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [],
+      "depends_on_submitted": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
       "depends_on_completed": [],
       "references": [
         {
@@ -5569,7 +5578,8 @@
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
         }
-      ]
+      ],
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain."
     },
     {
       "id": "S57-SEED20-P2",
@@ -5578,7 +5588,7 @@
       "canonical_block_label": "57 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "64f5b5f9dcaae8ed7e4ddaaa30d04a599c38524f07e59cfd3ace303a4b9f88e8",
       "normalized_prompt_sha256": "7b1a0ddac96d10f53e993613a07ba70b0d1fe4161fba804afd2c037b07e12b3f",
-      "priority": 22.1,
+      "priority": 4.21,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5590,6 +5600,14 @@
       "max_new_submissions": 1,
       "max_credits": 0,
       "depends_on_submitted": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2",
         "S57-SEED20-P1"
       ],
       "depends_on_completed": [
@@ -5653,7 +5671,8 @@
           "path": "references/scenes/scene-57/S57-crash-avenue.png",
           "sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
         }
-      ]
+      ],
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain."
     },
     {
       "id": "S58-SEED20-P1",
@@ -5662,7 +5681,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 1",
       "canonical_prompt_sha256": "e444f7d9449437bf4063bae70937d4bdc0497f3434167193ac847fc8df4983b2",
       "normalized_prompt_sha256": "7fd1182b95e5ab78cce137387ab5086bbf875469667a27edcdc22bced65c7be9",
-      "priority": 23,
+      "priority": 4.3,
       "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5673,7 +5692,16 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [],
+      "depends_on_submitted": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2"
+      ],
       "depends_on_completed": [],
       "references": [
         {
@@ -5738,7 +5766,8 @@
           "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
         }
       ],
-      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1."
+      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1.",
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain."
     },
     {
       "id": "S58-SEED20-P2",
@@ -5747,7 +5776,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "normalized_prompt_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
-      "priority": 23.1,
+      "priority": 4.31,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -5759,6 +5788,14 @@
       "max_new_submissions": 1,
       "max_credits": 0,
       "depends_on_submitted": [
+        "S16-SEED20-P1",
+        "S16-SEED20-P2",
+        "S42-SEED20-P1",
+        "S42-SEED20-P2",
+        "S56-SEED20-P1",
+        "S56-SEED20-P2",
+        "S48-SEED20-P1",
+        "S48-SEED20-P2",
         "S58-SEED20-P1"
       ],
       "depends_on_completed": [
@@ -5837,7 +5874,8 @@
           "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20"
         }
       ],
-      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1."
+      "reference_update_note": "Owner03:39MSK: original nose-to-pedestal start, 3 new action helpers, explicit stage timing, maximum6images+realVideo1.",
+      "ordering_note": "Owner20Oct2026 19:37MSK: launch only after all eight selected worm parts16/42/56/48 have been submitted. This is ordering, not a required video source. All existing true continuity blockers remain."
     }
   ],
   "already_submitted": {
@@ -6004,6 +6042,8 @@
     42,
     56,
     48,
+    57,
+    58,
     41,
     43,
     54,
@@ -6014,8 +6054,6 @@
     44,
     52,
     53,
-    57,
-    58,
     47,
     28,
     49,
@@ -6395,5 +6433,44 @@
     "engine": "Seedance 2.0",
     "video_priority": "57/58 before dance; existing worm and owner ordering preserved",
     "report": "reports/scene58-action-references-2026-10-20.json"
+  },
+  "owner_instruction_20261020_1937": {
+    "source": "Владелец 20.10.2026 19:37:46 МСК: «После всех сцен с червём поставь 57 и 58 в очередь. Они готовы полностью?»",
+    "project": "seregius",
+    "scene_order": [
+      16,
+      42,
+      56,
+      48,
+      57,
+      58
+    ],
+    "worm_items_before_57_58": [
+      "S16-SEED20-P1",
+      "S16-SEED20-P2",
+      "S42-SEED20-P1",
+      "S42-SEED20-P2",
+      "S56-SEED20-P1",
+      "S56-SEED20-P2",
+      "S48-SEED20-P1",
+      "S48-SEED20-P2"
+    ],
+    "selected_items": [
+      "S57-SEED20-P1",
+      "S57-SEED20-P2",
+      "S58-SEED20-P1",
+      "S58-SEED20-P2"
+    ],
+    "ordering_basis": "All selected worm parts must be submitted before57/58, preserving true continuity dependencies. This does not require finished48 as a video input or editorial acceptance.",
+    "readiness": {
+      "prompt_hashes_verified": 4,
+      "unique_saved_image_paths_present": 10,
+      "queue_manifest_image_sha_agreement": true,
+      "first_parts_images_ready": true,
+      "second_parts_require_actual_own_first_part_end": true
+    },
+    "unchanged_relative_order_adjustment": "S37-SEED20-P2 priority4.1→4.5 so 57/58 sit immediately after48; all other non-worm items retain priority and relative order.",
+    "verified_at": "2026-10-20T16:41:48.448Z",
+    "new_submissions": 0
   }
 }

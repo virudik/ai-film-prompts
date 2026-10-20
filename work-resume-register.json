@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T15:13:38.501Z",
+  "last_updated_at": "2026-10-20T16:41:48.448Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1172,6 +1172,29 @@
       "pdf_pages": 26,
       "pre_checkpoint_commit": "e36aefefcebb3eef4f37800442bed3af9a6c626a",
       "report": "reports/control-center-presentation-2026-10-20.md"
+    },
+    {
+      "work_id": "FILM-20261020-S57-S58-AFTER-WORM",
+      "title": "Серёгиус: 57 и 58 после всей цепочки червя",
+      "status": "completed",
+      "verified_at": "2026-10-20T16:41:48.448Z",
+      "completed_at": "2026-10-20T16:41:48.448Z",
+      "authorization": "Владелец 20.10.2026 19:37:46 МСК: «После всех сцен с червём поставь 57 и 58 в очередь. Они готовы полностью?»",
+      "pre_checkpoint_commit": "21ae880acd91b0a91fcc6f849d70567ce3f4475c",
+      "done": [
+        "Очередь16→42→56→48→57→58;57/58 защищены depends_on_submitted на все8частей червя.",
+        "4 SHA промтов совпали с master;10 уникальных файлов есть в текущем Git tree и SHA в queue/manifests согласованы. Записанные QC прочитаны, новый визуальный QC не выполнялся.",
+        "57P1 и58P1 имеют все картинки. Обе P2 ждут реальные проверенные окончания своих P1. Seedance2.0,2×15с,0кредитов.",
+        "Обновлено то же часовое задание6acae6ab433481919e88665c520b8ef2 без изменения расписания; новых запусков нет."
+      ],
+      "next_actions": [],
+      "production_next_action": "Дождаться реальных продолжений цепочки16/42/56/48 и отправки всех8выбранных частей; затем57/58 по priority и собственным реальным P1→P2 зависимостям.",
+      "canonical_refs": [
+        "ops/topview-launch-queue.json",
+        "references/scenes/scene-57/manifest.json",
+        "references/scenes/scene-58/manifest.json",
+        "reports/current-work-checkpoint.md"
+      ]
     }
   ],
   "rules": [
