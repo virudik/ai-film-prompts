@@ -3,6 +3,106 @@
  "purpose": "Display thumbnails for reference images; originals are unchanged and remain the identity authority.",
  "max_width": 640,
  "items": {
+  "projects/kot-detektiv/references/detective-cat-office-portrait.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-office-portrait.png.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1122,
+   "src_height": 1402,
+   "src_bytes": 2649963,
+   "thumb_bytes": 136204,
+   "src_sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+  },
+  "projects/kot-detektiv/references/detective-cat-office-wide.jpg": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-office-wide.jpg.webp",
+   "width": 640,
+   "height": 385,
+   "src_width": 1080,
+   "src_height": 649,
+   "src_bytes": 454692,
+   "thumb_bytes": 39764,
+   "src_sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf"
+  },
+  "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.webp",
+   "width": 640,
+   "height": 512,
+   "src_width": 1402,
+   "src_height": 1122,
+   "src_bytes": 2384506,
+   "thumb_bytes": 50224,
+   "src_sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
+  },
+  "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.webp",
+   "width": 640,
+   "height": 704,
+   "src_width": 1196,
+   "src_height": 1315,
+   "src_bytes": 2551284,
+   "thumb_bytes": 115764,
+   "src_sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f"
+  },
+  "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.webp",
+   "width": 640,
+   "height": 800,
+   "src_width": 1229,
+   "src_height": 1536,
+   "src_bytes": 1489355,
+   "thumb_bytes": 92274,
+   "src_sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+  },
+  "projects/kot-detektiv/references/detective-cat-riverside-solo.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-riverside-solo.png.webp",
+   "width": 640,
+   "height": 704,
+   "src_width": 1196,
+   "src_height": 1315,
+   "src_bytes": 2678265,
+   "thumb_bytes": 127240,
+   "src_sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
+  },
+  "projects/kot-detektiv/references/london-street-frame-05s.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/london-street-frame-05s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1289768,
+   "thumb_bytes": 25682,
+   "src_sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373"
+  },
+  "projects/kot-detektiv/references/office-frame-02s.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/office-frame-02s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1235631,
+   "thumb_bytes": 21642,
+   "src_sha256": "39a4918a48bb491ffd7b768bc5751fe128566a3d3271c408796f7826b8e5fe57"
+  },
+  "projects/kot-detektiv/references/office-map.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/office-map.png.webp",
+   "width": 640,
+   "height": 502,
+   "src_width": 953,
+   "src_height": 748,
+   "src_bytes": 1076378,
+   "thumb_bytes": 34314,
+   "src_sha256": "e5ab44a62636fbf5f4c406031ac370a800a018fee03a12f3cb608beb453f9af9"
+  },
+  "projects/kot-detektiv/references/riverside-frame-02s.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/riverside-frame-02s.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1406962,
+   "thumb_bytes": 31728,
+   "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+  },
   "projects/kotmonavty/references/luchik.jpg": {
    "thumb": "references/thumbs/projects/kotmonavty/references/luchik.jpg.webp",
    "width": 640,
