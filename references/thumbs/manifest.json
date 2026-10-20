@@ -73,6 +73,16 @@
    "thumb_bytes": 40760,
    "src_sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
   },
+  "projects/kot-detektiv/references/development/KD-quay-clue.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/development/KD-quay-clue.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2671794,
+   "thumb_bytes": 62800,
+   "src_sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744"
+  },
   "projects/kot-detektiv/references/london-street-frame-05s.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/london-street-frame-05s.png.webp",
    "width": 640,
