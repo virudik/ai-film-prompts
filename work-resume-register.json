@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T00:14:14.906Z",
+  "last_updated_at": "2026-10-20T00:22:24.923Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1069,19 +1069,24 @@
     {
       "work_id": "FILM-20261020-S57-S58-IMAGES",
       "title": "Бесплатные референсы аварии РосКОТмоса57/58",
-      "status": "in_progress",
-      "verified_at": "2026-10-20T00:14:14.906Z",
+      "status": "blocked_external",
+      "verified_at": "2026-10-20T00:22:24.923Z",
       "done": [
-        "Fresh main queue/manifests/prompts read; lock acquired;11boards17pages912tasks scan:6activevideos,0activeimages."
+        "Canon lock acquired; exact prompts and both existing input SHA256 verified.",
+        "S57 free website form verified; one Create rejected by Unlimited slot limit. Full 11-board/17-page/912-task scan: no new task, six active videos, zero image tasks.",
+        "Video57/58 dependencies added before A1 dance and49–51; existing HH:55 automation updated, still enabled."
       ],
       "next_actions": [
-        "S57-AVENUE-IMAGE free website launch; QC/save actualPNG and mark input available.",
-        "S58-WRECK-IMAGE after saved57; QC/savePNG, update manifests/queue; video57/58 before dance."
+        "When an Unlimited slot is free: recheck canon lock/fresh main and duplicates; submit S57 image once, QC and save original PNG/provenance/manifest/queue/thumbnail.",
+        "Only after saved S57: submit exact S58 image with first ship and saved avenue, QC/save original and update inputs.",
+        "Video57/58 before dance; true part2 video inputs remain mandatory."
       ],
       "constraints": [
         "Exact queued image prompts and inputs; Nano Banana Pro,2K,16:9,quantity1,Unlimited0.",
         "One launch per item; no auto retry or inferred owner approval; genuine part2 videos remain required."
-      ]
+      ],
+      "blocker": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
+      "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json"
     }
   ],
   "rules": [

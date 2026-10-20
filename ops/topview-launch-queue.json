@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T00:20:19.692Z",
+  "updated_at": "2026-10-20T00:22:24.923Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -1690,7 +1690,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -1768,7 +1770,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -1852,7 +1856,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -1936,7 +1942,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -2014,7 +2022,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -2092,7 +2102,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -2191,7 +2203,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -2291,7 +2305,9 @@
         "S52-SEED20-P2",
         "S53-SEED20-P2",
         "S54",
-        "S28-A1-TEST-20261017"
+        "S28-A1-TEST-20261017",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -3141,7 +3157,9 @@
         "S43-R1-20261017",
         "S44-R1-20261017",
         "S56-SEED20-P2",
-        "S48-SEED20-P2"
+        "S48-SEED20-P2",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -3467,7 +3485,9 @@
         "S53-SEED20-P2",
         "S54",
         "S28-A1-TEST-20261017",
-        "S49F"
+        "S49F",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -3551,7 +3571,9 @@
         "S54",
         "S28-A1-TEST-20261017",
         "S49F",
-        "S50A"
+        "S50A",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2"
       ],
       "references": [
         {
@@ -5346,7 +5368,7 @@
       "normalized_prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
       "prompt_file_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
       "priority": 8,
-      "state": "claimed",
+      "state": "waiting_for_slot",
       "model": "Nano Banana Pro",
       "resolution": "2K",
       "aspect_ratio": "16:9",
@@ -5363,7 +5385,11 @@
         }
       ],
       "task_id": null,
-      "claim": {
+      "claim": null,
+      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval.",
+      "on_success": "Download the original, visually QC (avenue of columns and colossal hooded statues, same palette/stone as S27 ruins, no ship/people/debris), save as references/scenes/scene-57/S57-crash-avenue.png with task ID/SHA/provenance in references/scenes/scene-57/manifest.json; mark the input available in S58-WRECK-IMAGE, S57-SEED20-P1/P2, S58-SEED20-P1. Failure: report, no automatic retry.",
+      "created_at": "2026-10-19T23:43:06Z",
+      "last_claim": {
         "run_id": "chatgpt-s57-image-20261020-1792455619692",
         "claimed_at": "2026-10-20T00:20:19.692Z",
         "agent": "chatgpt",
@@ -5379,9 +5405,15 @@
           "global_active_images": 0
         }
       },
-      "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval.",
-      "on_success": "Download the original, visually QC (avenue of columns and colossal hooded statues, same palette/stone as S27 ruins, no ship/people/debris), save as references/scenes/scene-57/S57-crash-avenue.png with task ID/SHA/provenance in references/scenes/scene-57/manifest.json; mark the input available in S58-WRECK-IMAGE, S57-SEED20-P1/P2, S58-SEED20-P1. Failure: report, no automatic retry.",
-      "created_at": "2026-10-19T23:43:06Z"
+      "last_submit_attempt": {
+        "at": "2026-10-20T00:22:24.923Z",
+        "outcome": "rejected_before_task_creation",
+        "task_created": false,
+        "credits_spent": 0,
+        "error": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
+        "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json"
+      },
+      "blocked_reason": "Topview explicitly rejected Unlimited submission: all 6 concurrent slots occupied; 11-board readback found no created task. Await a free slot."
     },
     {
       "id": "S58-WRECK-IMAGE",
@@ -6229,5 +6261,31 @@
     "default_engine": "Seedance 2.0 two 15 s parts (action); 30 s Wan 3.0 / Seedance 2.5 text exists as the other tab, not queued.",
     "no_launch_performed": true,
     "technical_success_is_editorial_approval": false
+  },
+  "owner_instruction_20261020_0312": {
+    "instruction": "Create free S57 avenue then S58 wreck from exact queued prompts; save/QC inputs; video57/58 before dance.",
+    "image_order": [
+      "S57-AVENUE-IMAGE",
+      "S58-WRECK-IMAGE"
+    ],
+    "video_before_dance": [
+      "S57-SEED20-P2",
+      "S58-SEED20-P2"
+    ],
+    "dance_dependency_items": [
+      "S49A",
+      "S49B",
+      "S49C",
+      "S49D",
+      "S49E",
+      "S49F",
+      "S51A",
+      "S51B",
+      "S28-A1-TEST-20261017",
+      "S50A",
+      "S50B"
+    ],
+    "receipt": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.json",
+    "observed_blocker": "Unlimited concurrent slot limit; no task created; six active videos"
   }
 }

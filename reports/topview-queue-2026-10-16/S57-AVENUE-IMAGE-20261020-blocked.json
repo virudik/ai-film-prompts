@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "work_id": "FILM-20261020-S57-S58-IMAGES",
+  "queue_item_id": "S57-AVENUE-IMAGE",
+  "checked_at": "2026-10-20T00:22:24.923Z",
+  "outcome": "rejected_before_task_creation",
+  "task_id": null,
+  "gui_create_clicks": 1,
+  "accepted_submissions": 0,
+  "credits_spent": 0,
+  "ui_error": "You’ve reached your Unlimit concurrent slot limit. Please submit Credit mode task instead.",
+  "settings": {
+    "model": "Nano Banana Pro",
+    "resolution": "2K",
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "visible_mode": "Безлимитный режим — бесплатно"
+  },
+  "prompt_sha256": "113f2c6a1fdf453f775025147941ee66196bb27ab9841cd5671b27c7cf25b270",
+  "prompt_length": 1208,
+  "inputs": [
+    {
+      "slot": "Image1",
+      "path": "references/scenes/scene-27/S27-Image5-topview-source.png",
+      "sha256": "ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73"
+    }
+  ],
+  "claim": {
+    "run_id": "chatgpt-s57-image-20261020-1792455619692",
+    "claimed_at": "2026-10-20T00:20:19.692Z",
+    "agent": "chatgpt",
+    "preflight": {
+      "model": "Nano Banana Pro",
+      "resolution": "2K",
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "unlimited": true,
+      "credits": 0,
+      "input_count": 1,
+      "global_active_videos": 6,
+      "global_active_images": 0
+    }
+  },
+  "post_submit_scan": {
+    "boards": 11,
+    "pages": 17,
+    "tasks": 912,
+    "exact_prompt_matches": 0,
+    "active_images": 0,
+    "active_videos": 6,
+    "active_task_ids": [
+      "30cfaf12ad944cd6944416623397e41c",
+      "e6a5cf9a3d04413e943c9bbbff9e1f73",
+      "e33891d4568a4a90b31ff3c67f5a7100",
+      "1e4928fa04ed4a0396d1d2ea4f5934bb",
+      "70ba69f8c44e4898ab587fbffeaeca01",
+      "bf3465e1c4de4a869f4bba5f2eed5acf"
+    ]
+  },
+  "proof": {
+    "screenshot": "reports/topview-queue-2026-10-16/S57-AVENUE-IMAGE-20261020-blocked.jpg",
+    "note": "Screenshot captured after transient error toasts disappeared; shows prepared Nano Banana Pro form and six queued video cards. Exact error was observed in live AX state immediately after click."
+  },
+  "next_action": "Wait for actual free Unlimited capacity; fresh-read lock/queue and full anti-duplicate scan before one accepted submission. After success QC and save S57 PNG before S58. No automatic retry after an accepted failed generation.",
+  "outputs_created": [],
+  "automation_id": "6acae6ab433481919e88665c520b8ef2",
+  "automation_enabled": true
+}
