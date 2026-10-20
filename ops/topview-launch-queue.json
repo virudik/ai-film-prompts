@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T16:41:48.448Z",
+  "updated_at": "2026-10-20T21:01:03.375Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -2590,8 +2590,8 @@
       "max_new_submissions": 1,
       "id": "S44-R1-20261017",
       "priority": 7,
-      "state": "blocked_inputs",
-      "task_id": null,
+      "state": "submitted",
+      "task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
       "claim": null,
       "canonical_prompt_sha256": "0bc28e85184e722d0adb4791a1a726b605d2d01a0abd5111c3aa945b56f33b47",
       "normalized_prompt_sha256": "49e14197e09e1f18c0bba0316d285c58d0b24d7f849f9aea608973419305298c",
@@ -2633,8 +2633,7 @@
         "d837b803f130431ea0e2e5ad4b786c09"
       ],
       "attempt": "owner_authorized_comparison_20261019",
-      "blocker": "Actual corrected S43 result task70ba69f8c44e4898ab587fbffeaeca01 must be downloaded, trimmed and continuity-QC checked; no old or synthetic substitute.",
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "submitted_external_input_mismatch",
       "max_credits": 0,
       "priority_owner_override": {
         "requested_at": "2026-10-17T19:52:55Z",
@@ -2653,7 +2652,45 @@
       "depends_on_completed": [
         "S43-R1-20261017"
       ],
-      "comparison_group": "S44-COMPARE-20261019"
+      "comparison_group": "S44-COMPARE-20261019",
+      "submitted_at": "2026-10-20T20:17:29Z",
+      "reconciled_at": "2026-10-20T21:01:03.375Z",
+      "actual_settings": {
+        "model": "Wan 3.0",
+        "duration_seconds": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "inputImages": 4,
+        "inputVideos": 0
+      },
+      "external_submission_note": "Read-only reconciliation; not submitted by this assistant. Full normalized prompt matches canonical Scene44 Wan block, but live task metadata has 4 image inputs and 0 video inputs, so required actual corrected S43 Video1 is absent/unverified. Count as the one Wan attempt and do not duplicate. No QC or editorial acceptance inferred.",
+      "result_status": "init",
+      "editorial_approval": false,
+      "input_package_verification": {
+        "status": "mismatch",
+        "required_video_inputs": 1,
+        "actual_video_inputs": 0,
+        "actual_image_inputs": 4,
+        "conclusion": "required_actual_S43_Video1_not_present_or_not_verifiable"
+      },
+      "related_unapproved_paid_task": {
+        "task_id": "3c01baad89544304aaa803725f6aae4b",
+        "observed_status": "success",
+        "created_at": "2026-10-20T20:18:09Z",
+        "model": "Seedance 2.5",
+        "duration_seconds": 30,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "useUnlimitMode": false,
+        "creditsCost": 36,
+        "inputImages": 4,
+        "inputVideos": 0,
+        "prompt_match": "normalized_exact_scene44_wan_block",
+        "queue_disposition": "not_authorized_not_S44_SEED20_P1_do_not_count_as_selected_Seedance2.0_attempt"
+      }
     },
     {
       "scene_id": 56,
