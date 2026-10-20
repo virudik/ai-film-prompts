@@ -1173,6 +1173,16 @@
    "thumb_bytes": 52112,
    "src_sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
   },
+  "references/scenes/scene-58/S58-ship-explosion-open-hatch.png": {
+   "thumb": "references/thumbs/scenes/scene-58/S58-ship-explosion-open-hatch.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2866111,
+   "thumb_bytes": 71468,
+   "src_sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032"
+  },
   "references/scenes/scene-58/S58-wreck-start-owner-selected.png": {
    "thumb": "references/thumbs/scenes/scene-58/S58-wreck-start-owner-selected.png.webp",
    "width": 640,
