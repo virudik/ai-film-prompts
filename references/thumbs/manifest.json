@@ -259,9 +259,9 @@
    "height": 960,
    "src_width": 1024,
    "src_height": 1536,
-   "src_bytes": 3294601,
-   "thumb_bytes": 183796,
-   "src_sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd"
+   "src_bytes": 3143684,
+   "thumb_bytes": 179544,
+   "src_sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4"
   },
   "projects/kotmonavty/references/development/KM-bar-compass.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-bar-compass.png.webp",
@@ -279,9 +279,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 3033782,
-   "thumb_bytes": 73462,
-   "src_sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8"
+   "src_bytes": 2888089,
+   "thumb_bytes": 73732,
+   "src_sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
   },
   "projects/kotmonavty/references/development/KM-star-vault.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-star-vault.png.webp",
