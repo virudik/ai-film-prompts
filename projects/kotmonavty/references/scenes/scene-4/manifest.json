@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "scene": 4,
+  "title": "Не тот груз",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность Лучика",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность Рыжика",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+      "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+      "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+          "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+          "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+          "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+          "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+          "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+          "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

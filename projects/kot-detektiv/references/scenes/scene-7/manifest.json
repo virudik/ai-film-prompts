@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 7,
+  "title": "За циферблатом",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность кота",
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность пса",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+      "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+      "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+          "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+          "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+          "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+          "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+          "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
+          "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

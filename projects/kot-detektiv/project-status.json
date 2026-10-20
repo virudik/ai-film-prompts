@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-20T21:58:04Z",
+  "synced_at": "2026-10-20T23:32:00Z",
   "revision_date": "21.10.2026",
-  "master_declared_last_full_sync": "21.10.2026 · афиша, заставка, шесть эпизодов, две дополнительные сцены",
-  "canonical_master_sha256": "b80c785be8717149db62a37396d45b834a43854892ae657fdef712e59e1270e7",
-  "canonical_revision_sha256": "6163a9b966eaf33368f52e8a8b3521ebd0d889ea2dd9f0270619322d731fcd55",
-  "canonical_master_bytes": 175570,
-  "scenes": 10,
-  "prompt_texts": 30,
+  "master_declared_last_full_sync": "21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер",
+  "canonical_master_sha256": "0b97fe5bf49477fa43a97cf0d8cab6438a7907294829f403290933632050f509",
+  "canonical_revision_sha256": "f7f6c4c7b5bbe55dca259be8f0497ced6b4073d8b9833158b1df682b90a5d376",
+  "canonical_master_bytes": 393556,
+  "scenes": 21,
+  "prompt_texts": 63,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -25,9 +25,20 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
   ],
-  "latest_scene": 10,
+  "latest_scene": 21,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -35,7 +46,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 5.013,
+    "age_hours_at_status_build": 6.579,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -114,7 +125,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 5.013,
+      "age_hours": 6.579,
       "blocking": false
     },
     "topview_task_map": {
@@ -126,7 +137,7 @@
   },
   "scene_meta": {
     "1": {
-      "target_engine": "Seedance 2.0",
+      "target_engine": "Wan 3",
       "production_state": "DRAFT",
       "duration_s": 30,
       "dialogue": {
@@ -135,6 +146,7 @@
       },
       "dependencies": [],
       "tags": [
+        "trailer",
         "owner_requested",
         "draft",
         "not_queued",
@@ -304,15 +316,224 @@
         "reference_first"
       ],
       "render_state": "IDLE"
+    },
+    "11": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "12": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "13": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "14": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "15": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "16": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "17": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "18": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "19": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "20": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "21": {
+      "target_engine": "Wan 3",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "event_opening",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "21.10.2026",
-    "synced_at": "2026-10-20T21:58:04Z",
-    "canonical_master_sha256": "b80c785be8717149db62a37396d45b834a43854892ae657fdef712e59e1270e7",
-    "canonical_revision_sha256": "6163a9b966eaf33368f52e8a8b3521ebd0d889ea2dd9f0270619322d731fcd55",
-    "scene_count": 10,
-    "prompt_count": 30,
+    "synced_at": "2026-10-20T23:32:00Z",
+    "canonical_master_sha256": "0b97fe5bf49477fa43a97cf0d8cab6438a7907294829f403290933632050f509",
+    "canonical_revision_sha256": "f7f6c4c7b5bbe55dca259be8f0497ced6b4073d8b9833158b1df682b90a5d376",
+    "scene_count": 21,
+    "prompt_count": 63,
     "scene_ids": [
       1,
       2,
@@ -323,7 +544,18 @@
       7,
       8,
       9,
-      10
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
     ],
     "work_items": [],
     "slow_scenes": [],

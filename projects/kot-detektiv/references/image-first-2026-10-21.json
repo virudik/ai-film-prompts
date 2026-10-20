@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "created_at": "2026-10-20T23:30:02Z",
+  "editorial_status": "not_approved",
+  "method": "image first → visual check → scene and three prompt texts",
+  "assets": [
+    {
+      "key": "KD11-raven-station",
+      "project": "kot-detektiv",
+      "scene": 11,
+      "title": "Вокзал без отправления",
+      "path": "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        11,
+        21
+      ],
+      "sha256": "f414e0c141c879ea487e716b1b6b8d470334eca3000c983621a31b256c3068e5",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD12-glasshouse",
+      "project": "kot-detektiv",
+      "scene": 12,
+      "title": "Шёпот зимнего сада",
+      "path": "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        12,
+        21
+      ],
+      "sha256": "e695753a6a3323d0e5175975b99e45e4673f4c2f562d1dfedb3d31988b5f6e9e",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD13-opera-box",
+      "project": "kot-detektiv",
+      "scene": 13,
+      "title": "Пустая ложа",
+      "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        1,
+        13
+      ],
+      "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD14-rooftop-kite",
+      "project": "kot-detektiv",
+      "scene": 14,
+      "title": "Нить над крышами",
+      "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        14,
+        21
+      ],
+      "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD15-flooded-archive",
+      "project": "kot-detektiv",
+      "scene": 15,
+      "title": "Затопленный архив",
+      "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        1,
+        15
+      ],
+      "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD16-puppet-workshop",
+      "project": "kot-detektiv",
+      "scene": 16,
+      "title": "Мастерская чужих лиц",
+      "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        1,
+        16
+      ],
+      "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD17-printing-press",
+      "project": "kot-detektiv",
+      "scene": 17,
+      "title": "Газета завтрашнего дня",
+      "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        1,
+        17
+      ],
+      "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z",
+      "edit_note": "Финальная версия уточняет кролика и лиса на газетных портретах, убирает нечитаемый заголовок. Первоначальный вариант заменён до публикации."
+    },
+    {
+      "key": "KD18-canal-lock",
+      "project": "kot-detektiv",
+      "scene": 18,
+      "title": "Лодка против течения",
+      "path": "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        18,
+        21
+      ],
+      "sha256": "5ffe20835059b991532a9a49d1d6575b3ec726e152e0188686e1c89e6e16ac2f",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD19-masked-auction",
+      "project": "kot-detektiv",
+      "scene": 19,
+      "title": "Лот без владельца",
+      "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        1,
+        19
+      ],
+      "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KD20-bell-chamber",
+      "project": "kot-detektiv",
+      "scene": 20,
+      "title": "Колокол без языка",
+      "path": "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        20,
+        21
+      ],
+      "sha256": "242343d33b25df44d5872012664d99a4166a4e8f8064c81351b3976123142821",
+      "width": 1672,
+      "height": 940,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    }
+  ]
+}

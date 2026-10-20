@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 5,
+  "title": "След, оборвавшийся у воды",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность кота",
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность пса",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+      "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+      "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744"
+    },
+    {
+      "tag": "@Image5",
+      "role": "Исходная поза кота с лупой — только пластика расследования, без пищевого гэга",
+      "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
+      "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
+    },
+    {
+      "tag": "@Image6",
+      "role": "Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
+      "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f"
+    },
+    {
+      "tag": "@Image7",
+      "role": "Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы",
+      "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
+      "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+          "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+          "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Исходная поза кота с лупой — только пластика расследования, без пищевого гэга",
+          "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
+          "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
+          "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы",
+          "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
+          "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+          "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+          "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Исходная поза кота с лупой — только пластика расследования, без пищевого гэга",
+          "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
+          "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
+          "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы",
+          "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
+          "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+          "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
+          "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Исходная поза кота с лупой — только пластика расследования, без пищевого гэга",
+          "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
+          "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
+          "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы",
+          "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
+          "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

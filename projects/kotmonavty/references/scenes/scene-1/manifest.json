@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "scene": 1,
+  "title": "Самый серьёзный заказ",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Лучик — абсолютная идентичность",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Рыжик — абсолютная идентичность",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Бар, расстановка, рюмки молока и серьёзные морды",
+      "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+      "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Второй ракурс лактания молока, только действие/ракурс",
+      "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+      "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Лучик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Рыжик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Бар, расстановка, рюмки молока и серьёзные морды",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Второй ракурс лактания молока, только действие/ракурс",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+          "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Лучик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Рыжик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Бар, расстановка, рюмки молока и серьёзные морды",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Второй ракурс лактания молока, только действие/ракурс",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+          "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Лучик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Рыжик — абсолютная идентичность",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Бар, расстановка, рюмки молока и серьёзные морды",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+          "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Второй ракурс лактания молока, только действие/ракурс",
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+          "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

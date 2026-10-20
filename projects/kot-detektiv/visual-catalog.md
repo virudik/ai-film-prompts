@@ -1,103 +1,149 @@
-# Кот детектив — афиша, заставка и сюжетные кадры
+# Кот детектив — все рабочие изображения
 
-**21.10.2026 · рабочая галерея для доработки.** 10 новых изображений в этом расширении, плюс 4 изображения предыдущего пакета. Изображения созданы и визуально проверены; редакторский статус `not_approved`. Исходники персонажей сохраняют высший приоритет.
+**21.10.2026.** 24 производных рабочих изображений; каждое связано со сценами и промтами. Оригиналы персонажей имеют высший приоритет. Все новые варианты `not_approved`.
 
-[Сцены и промты на сайте](https://virudik.github.io/ai-film-prompts/index.html?p=kot-detektiv) · [Мастер](video-prompts.md) · [Сюжет](story-development.md).
-
-## Афиша «Кот детектив»
-
-Афиша проекта.
-
-![Афиша «Кот детектив»](references/branding/KD-poster.png)
-
-[Открыть оригинал](references/branding/KD-poster.png) · [Промт создания картинки](references/branding/KD-poster.prompt.txt).
+[Вкладка «Референсы»](https://virudik.github.io/ai-film-prompts/references.html?p=kot-detektiv) · [Сцены](https://virudik.github.io/ai-film-prompts/index.html?p=kot-detektiv) · [Точный индекс использования](references/usage-index.json).
 
 ## Нуарная начальная заставка
 
-[Сцена 2 — Заставка — Кот детектив](video-prompts.md#scene-2). Газовый свет выхватывает часы, лупу, красную печать и нить на столе. В тумане за окном проступает Лондон; появляется название «КОТ ДЕТЕКТИВ».
+[Сцена 2 — Графическая заставка — Кот детектив](video-prompts.md#scene-2), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
 
 ![Нуарная начальная заставка](references/branding/KD-opening.png)
 
-[Открыть оригинал](references/branding/KD-opening.png) · [Промт создания картинки](references/branding/KD-opening.prompt.txt).
+## Афиша «Кот детектив»
 
-## Кабинет: остановившиеся часы
+[Сцена 2 — Графическая заставка — Кот детектив](video-prompts.md#scene-2)
 
-[Сцена 3 — Тик, которого не было](video-prompts.md#scene-3). Кот изучает запечатанное письмо. Часы умолкают, а вошедший констебль показывает такие же остановившиеся часы. Первое совпадение становится делом.
+![Афиша «Кот детектив»](references/branding/KD-poster.png)
 
-![Кабинет: остановившиеся часы](references/scenes/scene-3/KD03-stopped-clock.png)
+## Башня: неизвестный противник
 
-[Открыть оригинал](references/scenes/scene-3/KD03-stopped-clock.png) · [Промт создания картинки](references/scenes/scene-3/KD03-stopped-clock.prompt.txt).
+[Сцена 7 — За циферблатом](video-prompts.md#scene-7), [Сцена 8 — Следующий адрес](video-prompts.md#scene-8)
 
-## Улица: совпавший знак
+![Башня: неизвестный противник](references/development/KD-clocktower.png)
 
-[Сцена 4 — Город молчит](video-prompts.md#scene-4). На мокрой улице кот находит одинаковый красный знак на двух объявлениях о пропаже. Констебль замечает движение в тумане у моста.
+## Кот и пёс: характеры и костюмы
 
-![Улица: совпавший знак](references/scenes/scene-4/KD04-missing-notices.png)
+[Сцена 4 — Город молчит](video-prompts.md#scene-4)
 
-[Открыть оригинал](references/scenes/scene-4/KD04-missing-notices.png) · [Промт создания картинки](references/scenes/scene-4/KD04-missing-notices.prompt.txt).
+![Кот и пёс: характеры и костюмы](references/development/KD-duo.png)
 
-## Следы обрываются у Темзы
+## Карта расследования и письмо
 
-[Сцена 5 — След, оборвавшийся у воды](video-prompts.md#scene-5). Следы заканчиваются перед целым ограждением набережной. Кот находит часы и обломок печати, а пёс освещает исчезающую в тумане лодку.
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 6 — Карта чужого замысла](video-prompts.md#scene-6)
 
-![Следы обрываются у Темзы](references/scenes/scene-5/KD05-river-footprints.png)
+![Карта расследования и письмо](references/development/KD-map-envelope.png)
 
-[Открыть оригинал](references/scenes/scene-5/KD05-river-footprints.png) · [Промт создания картинки](references/scenes/scene-5/KD05-river-footprints.prompt.txt).
+## Набережная: часы и оборвавшиеся следы
 
-## Красная нить к башне
+[Сцена 5 — След, оборвавшийся у воды](video-prompts.md#scene-5)
 
-[Сцена 6 — Карта чужого замысла](video-prompts.md#scene-6). Красная нить связывает места происшествий с часовой башней. Пока кот проверяет совпадение, под запертой дверью появляется новое письмо.
-
-![Красная нить к башне](references/scenes/scene-6/KD06-thread-map.png)
-
-[Открыть оригинал](references/scenes/scene-6/KD06-thread-map.png) · [Промт создания картинки](references/scenes/scene-6/KD06-thread-map.prompt.txt).
-
-## Лестница в часовом механизме
-
-[Сцена 7 — За циферблатом](video-prompts.md#scene-7). Внутри остановленной башни красная лента ведёт героев наверх. Неизвестная фигура скрывается за механизмом, а пёс удерживает опасно сорвавшуюся цепь.
-
-![Лестница в часовом механизме](references/scenes/scene-7/KD07-clockwork-stair.png)
-
-[Открыть оригинал](references/scenes/scene-7/KD07-clockwork-stair.png) · [Промт создания картинки](references/scenes/scene-7/KD07-clockwork-stair.prompt.txt).
-
-## Следующий адрес
-
-[Сцена 8 — Следующий адрес](video-prompts.md#scene-8). На верхней площадке кот сопоставляет часы с картой. Он указывает на обсерваторию: это следующий адрес, а не время преступления.
-
-![Следующий адрес](references/scenes/scene-8/KD08-next-address.png)
-
-[Открыть оригинал](references/scenes/scene-8/KD08-next-address.png) · [Промт создания картинки](references/scenes/scene-8/KD08-next-address.prompt.txt).
-
-## Экипаж без пассажира
-
-[Сцена 9 — Пассажир, которого не было](video-prompts.md#scene-9). Ночной экипаж приехал пустым. На подножке — свежие следы, на сиденье — перчатка и письмо. Кучер-барсук уверяет жестами, что дверь не открывалась.
-
-![Экипаж без пассажира](references/scenes/scene-9/KD09-empty-carriage.png)
-
-[Открыть оригинал](references/scenes/scene-9/KD09-empty-carriage.png) · [Промт создания картинки](references/scenes/scene-9/KD09-empty-carriage.prompt.txt).
+![Набережная: часы и оборвавшиеся следы](references/development/KD-quay-clue.png)
 
 ## Свет в закрытой обсерватории
 
-[Сцена 10 — Свет в пустой обсерватории](video-prompts.md#scene-10). В закрытой обсерватории телескоп направлен на город, а не на звёзды. Кот обнаруживает красную нить в механизме; пёс замечает, что дверь за ними закрывается.
+[Сцена 10 — Свет в пустой обсерватории](video-prompts.md#scene-10)
 
 ![Свет в закрытой обсерватории](references/scenes/scene-10/KD10-observatory.png)
 
-[Открыть оригинал](references/scenes/scene-10/KD10-observatory.png) · [Промт создания картинки](references/scenes/scene-10/KD10-observatory.prompt.txt).
+## Вокзал без отправления
 
-## Предыдущие опорные кадры
+[Сцена 11 — Вокзал без отправления](video-prompts.md#scene-11), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
 
-### KD-clocktower
+![Вокзал без отправления](references/scenes/scene-11/KD11-raven-station.png)
 
-![KD-clocktower](references/development/KD-clocktower.png)
+## Шёпот зимнего сада
 
-### KD-duo
+[Сцена 12 — Роза на сухом камне](video-prompts.md#scene-12), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
 
-![KD-duo](references/development/KD-duo.png)
+![Шёпот зимнего сада](references/scenes/scene-12/KD12-glasshouse.png)
 
-### KD-map-envelope
+## Пустая ложа
 
-![KD-map-envelope](references/development/KD-map-envelope.png)
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 13 — Зритель, которого не было](video-prompts.md#scene-13)
 
-### KD-quay-clue
+![Пустая ложа](references/scenes/scene-13/KD13-opera-box.png)
 
-![KD-quay-clue](references/development/KD-quay-clue.png)
+## Нить над крышами
+
+[Сцена 14 — Письмо над городом](video-prompts.md#scene-14), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
+
+![Нить над крышами](references/scenes/scene-14/KD14-rooftop-kite.png)
+
+## Затопленный архив
+
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 15 — Единственное сухое дело](video-prompts.md#scene-15)
+
+![Затопленный архив](references/scenes/scene-15/KD15-flooded-archive.png)
+
+## Мастерская чужих лиц
+
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 16 — Нить за занавеской](video-prompts.md#scene-16)
+
+![Мастерская чужих лиц](references/scenes/scene-16/KD16-puppet-workshop.png)
+
+## Газета завтрашнего дня
+
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 17 — Завтрашний оттиск](video-prompts.md#scene-17)
+
+![Газета завтрашнего дня](references/scenes/scene-17/KD17-printing-press.png)
+
+## Лодка против течения
+
+[Сцена 18 — Лодка против течения](video-prompts.md#scene-18), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
+
+![Лодка против течения](references/scenes/scene-18/KD18-canal-lock.png)
+
+## Лот без владельца
+
+[Сцена 1 — Трейлер — Город, который знает заранее](video-prompts.md#scene-1), [Сцена 19 — Покупатель пустого кресла](video-prompts.md#scene-19)
+
+![Лот без владельца](references/scenes/scene-19/KD19-masked-auction.png)
+
+## Колокол без языка
+
+[Сцена 20 — Звон без языка](video-prompts.md#scene-20), [Сцена 21 — Событийная заставка сериала — По следу невозможного](video-prompts.md#scene-21)
+
+![Колокол без языка](references/scenes/scene-20/KD20-bell-chamber.png)
+
+## Кабинет: остановившиеся часы
+
+[Сцена 3 — Тик, которого не было](video-prompts.md#scene-3)
+
+![Кабинет: остановившиеся часы](references/scenes/scene-3/KD03-stopped-clock.png)
+
+## Улица: совпавший знак
+
+[Сцена 4 — Город молчит](video-prompts.md#scene-4)
+
+![Улица: совпавший знак](references/scenes/scene-4/KD04-missing-notices.png)
+
+## Следы обрываются у Темзы
+
+[Сцена 5 — След, оборвавшийся у воды](video-prompts.md#scene-5)
+
+![Следы обрываются у Темзы](references/scenes/scene-5/KD05-river-footprints.png)
+
+## Красная нить к башне
+
+[Сцена 6 — Карта чужого замысла](video-prompts.md#scene-6)
+
+![Красная нить к башне](references/scenes/scene-6/KD06-thread-map.png)
+
+## Лестница в часовом механизме
+
+[Сцена 7 — За циферблатом](video-prompts.md#scene-7)
+
+![Лестница в часовом механизме](references/scenes/scene-7/KD07-clockwork-stair.png)
+
+## Следующий адрес
+
+[Сцена 8 — Следующий адрес](video-prompts.md#scene-8)
+
+![Следующий адрес](references/scenes/scene-8/KD08-next-address.png)
+
+## Экипаж без пассажира
+
+[Сцена 9 — Пассажир, которого не было](video-prompts.md#scene-9)
+
+![Экипаж без пассажира](references/scenes/scene-9/KD09-empty-carriage.png)

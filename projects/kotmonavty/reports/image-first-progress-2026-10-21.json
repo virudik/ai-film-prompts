@@ -1,7 +1,21 @@
 {
-  "updated_at": "2026-10-20T22:45:20.242Z",
-  "status": "in_progress",
-  "no_queue": true,
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "updated_at": "2026-10-20T23:30:02Z",
+  "status": "content_prepared",
+  "new_images": 12,
+  "image_first_situations": 10,
+  "headquarters_images": 2,
+  "scene_count": 22,
+  "prompt_blocks": 66,
+  "generated_image_count": 26,
+  "generated_orphans": [],
+  "graphic_opening": 3,
+  "event_opening": 22,
+  "trailer": 2,
+  "queue_sha256": "813dfa41faeeda1292065d81b03aa4a4e9f676df346c85fcd17b4e7a661e6abd",
+  "queue_unchanged": true,
+  "video_launches": 0,
   "assets": [
     {
       "key": "KM11-command-room",
@@ -14,16 +28,19 @@
         "projects/kotmonavty/references/ryzhik.jpg",
         "projects/kotmonavty/references/roskotmos-logo.png"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Enormous orbital MISSION CONTROL headquarters with ivory structural ribs, dark brass consoles, panoramic window onto a blue planet. Both cats foreground on a raised low console, Luchik left alert and Ryzhik right paw hovering over a large physical alert button; a three-dimensional star map suddenly lights red at several frontier points. A few real domestic cats at distant tiered consoles, out of focus, no humanoid staff. On the rear wall a large faithful cat-in-cosmonaut-helmet circular emblem from input3 with red diagonal swoosh; directly beneath it large crisp Cyrillic word «РОСКОТМОС». No other readable text. Headquarters feels grand, serious and operational, the two tiny cats unexpectedly in charge; a useful dramatic moment rather than posed portrait.",
-      "status": "image_saved_scene_pending",
       "kind": "situation_reference",
-      "saved": {
-        "paths": [
-          "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png"
-        ],
-        "sha": "5fb9ce72addad2a903cb828aeac6e5e4de68630f",
-        "commit": "f2fd1886ccaeaeff8d349a2d0b6303afc8b77dd0"
-      }
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        11,
+        22
+      ],
+      "sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM11-hangar-departure",
@@ -36,16 +53,19 @@
         "projects/kotmonavty/references/ryzhik.jpg",
         "projects/kotmonavty/references/ship-exterior-front.png"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Inside immense orbital headquarters HANGAR with ivory ribs and dark brass service gantries. Luchik and Ryzhik on all fours sprint toward the open low ramp of their ship midground, warm cockpit and blue engines starting, amber warning strips reflected on floor. Camera low behind-three-quarter cats with their recognizable profiles; ship side emblem faces camera clearly. The hangar aperture reveals planet and busy orbital station; no competing hero ships. The moment connects the mission-control alert to departure.  Preserve EXACT original spacecraft from input3: long battered ivory hull, red swoosh and blue stripe, faceted amber front cockpit, original cylindrical rear engines; no redesign. The circular cat-cosmonaut emblem MUST have the sharply legible exact Cyrillic word «РОСКОТМОС» directly UNDER it on the hull. Р О С К О Т М О С, no dropped letters. Keep word naturally painted and perspective-correct. ",
-      "status": "image_saved_scene_pending",
       "kind": "situation_reference",
-      "saved": {
-        "paths": [
-          "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png"
-        ],
-        "sha": "310cad19295f3edf314834b294007d5466c51666",
-        "commit": "435fcba1fcc2d3c1eb5853a970223ab2f6098368"
-      }
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        11,
+        22
+      ],
+      "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM12-magnetic-scrapyard",
@@ -57,16 +77,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. At a colossal orbital scrapyard, a powered salvage magnet lifts a mesh platform carrying loose scrap. Luchik braces paws on a bolted beam while Ryzhik is perched inside an open small metal crate being raised just above him, eyes wide but stern. Tiny loose nuts stream upward; shipwreck ribs, crane jaws and distant stars. Clear safe grip and readable rescue situation, not animals hurt; no hero spaceship visible.",
-      "status": "image_saved_scene_pending",
       "kind": "situation_reference",
-      "saved": {
-        "paths": [
-          "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png"
-        ],
-        "sha": "238622fe67926fdd3c812bdd316a9d3b0f3a8810",
-        "commit": "3ff04cd59f77ede14f03caae719025994ce83d01"
-      }
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        12
+      ],
+      "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM13-glass-market",
@@ -78,16 +101,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Inside an alien market beneath a transparent dome under a turquoise alien ocean. Both cats on a brass market counter gaze with deadly seriousness at one enormous luminous fish swimming immediately outside the glass above their heads; a tall six-eyed mollusk merchant behind them delicately guards a small pearl. Alien stalls and immense underwater silhouettes deepen the world. Ryzhik one paw reaches toward fish through intact glass, Luchik watches merchant; no milk or bar setting.",
-      "status": "image_saved_scene_pending",
       "kind": "situation_reference",
-      "saved": {
-        "paths": [
-          "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png"
-        ],
-        "sha": "aa53066b15b8942d94b08e21ba4a5c63a14b2556",
-        "commit": "19e317ed7c85132b3835053eb04f8fba14482d26"
-      }
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        13,
+        22
+      ],
+      "sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM14-buried-beacon",
@@ -100,16 +126,19 @@
         "projects/kotmonavty/references/ryzhik.jpg",
         "projects/kotmonavty/references/ship-exterior-front.png"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. On a red desert moon, Luchik and Ryzhik shelter behind a half-buried spherical distress beacon that projects a narrow cyan beam upward. Wind rips sand diagonally; Ryzhik paws its exposed hatch while Luchik peers toward a looming silhouette beyond storm. Original ship landed close behind left as refuge, broad marked side visible.  Preserve EXACT original spacecraft from input3: long battered ivory hull, red swoosh and blue stripe, faceted amber front cockpit, original cylindrical rear engines; no redesign. The circular cat-cosmonaut emblem MUST have the sharply legible exact Cyrillic word «РОСКОТМОС» directly UNDER it on the hull. Р О С К О Т М О С, no dropped letters. Keep word naturally painted and perspective-correct. ",
-      "status": "image_saved_scene_pending",
       "kind": "situation_reference",
-      "saved": {
-        "paths": [
-          "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png"
-        ],
-        "sha": "851c87c9e1cb9a66ca5cec0f53c98815bae6f228",
-        "commit": "63a4da47f1740b9689a5c118be5dc07385b33786"
-      }
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        14
+      ],
+      "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM15-giant-eye",
@@ -121,10 +150,18 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. A narrow station observation tunnel suspended in deep space, transparent wall on right. Outside an immense peaceful space creature drifts past; a SINGLE vast amber eye fills the window, reflecting the two tiny cats. Inside Luchik freezes with one paw raised while Ryzhik cautiously touches intact glass; bodies ready to react, ears forward, absolutely serious. Gentle bioluminescent tendrils and planet glow, majestic sense of scale, no monster attack, no ship.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        15
+      ],
+      "sha256": "1656771c3e2d0188a8365e429a34d763c3aad51d2a1314f6172eda6edc04ad01",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM16-diplomatic-throne",
@@ -136,10 +173,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Vast galactic council chamber: two real cats sit together on an absurdly enormous vacant diplomatic throne atop circular dais, surrounded by tiers of stern diverse alien ambassadors. Ryzhik has just placed paw on the throne voting pad; hundreds of amber lights illuminate toward them. Luchik gives the room a stone-faced stare. No humanoid cat bodies; throne clearly oversized and reachable via low steps; epic architectural symmetry with lively shocked aliens.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        16,
+        22
+      ],
+      "sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732",
+      "width": 1673,
+      "height": 940,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM17-luminous-garden",
@@ -151,10 +197,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Bioluminescent alien jungle with huge translucent seed pods, teal leaf veins and amber mist. Cats stride across a natural root bridge; behind their paws small luminous plants bend and follow their direction like curious living creatures. Ryzhik looks back at one hovering seed-pod wisp, Luchik looks ahead toward a monumental abandoned stone gate. Natural cats, adventurous discovery, not horror or mushrooms; no spacecraft.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        17,
+        22
+      ],
+      "sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM18-freight-train",
@@ -166,10 +221,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Two cats running on the broad roof of a heavy freight maglev train racing through an asteroid-city tunnel. Luchik leaps a narrow coupling gap between cars, Ryzhik crouches to spring after, a compact patrol drone behind; immense mining windows reveal stars and orange foundry below. Readable dynamic diagonals, paws and landing surfaces clear, not a collage, no human riders or spacecraft.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        18
+      ],
+      "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM19-frozen-vault",
@@ -181,10 +245,19 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Inside a blue cryogenic archive, both cats examine a huge transparent ice block containing an ancient brass navigation key shaped like a fish. Ryzhik touches frost with tongue for one tentative lick while Luchik urgently presses a nearby warming plate with paw; thin thaw channels reveal the key. Light steam, amber emergency glow, severe cats, no injury or trapped tongue. Key is a solid artifact, not food; no hero spacecraft.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        19
+      ],
+      "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM20-storm-port",
@@ -197,10 +270,18 @@
         "projects/kotmonavty/references/ryzhik.jpg",
         "projects/kotmonavty/references/ship-exterior-front.png"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Alien ocean storm at a swaying offshore landing platform. Two cats race up a low mooring gangway toward original ship, a giant wave breaking below the deck, rain lit by amber landing lights. Ship ramp lowered, broad white side and emblem face viewer clearly, blue engines warming. Cat paws firmly contacting metal, short safe gangway, enormous scale, cinematic storm adventure.  Preserve EXACT original spacecraft from input3: long battered ivory hull, red swoosh and blue stripe, faceted amber front cockpit, original cylindrical rear engines; no redesign. The circular cat-cosmonaut emblem MUST have the sharply legible exact Cyrillic word «РОСКОТМОС» directly UNDER it on the hull. Р О С К О Т М О С, no dropped letters. Keep word naturally painted and perspective-correct. ",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        20
+      ],
+      "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     },
     {
       "key": "KM21-gravity-museum",
@@ -212,10 +293,34 @@
         "projects/kotmonavty/references/luchik.jpg",
         "projects/kotmonavty/references/ryzhik.jpg"
       ],
-      "prompt": "Use case: photorealistic-natural. One cinematic 16:9 film still, not a collage/poster. EXACT original cats from input1 Luchik (grey-white fluffy longhair, white face/ruff/paws, grey crown and nose marks, green-grey eyes) and input2 Ryzhik (ginger longhair tabby, orange stripes, pale chin, amber-green eyes). Real unclothed domestic cats, four feline paws, no human anatomy/hands, no costumes, no lightsabers or incidental humans from source. Photoreal epic galactic adventure comedy, tangible worn sci-fi, expressive physical action with absolute serious deadpan faces, no smiling. Preserve distinct faces; environment references cannot change identity. Natural cat scale against enormous surroundings. Crisp fur, practical amber/cyan light, cinematic depth. No captions, watermark or borders. Inside a grand alien science museum, two cats on a low exhibit plinth stare at a tiny contained black-hole sphere inside an intact glass cylinder. Loose visitor leaflets spiral around the exhibit, both tails pulled toward glass by airflow; Ryzhik paw hovering over an emergency switch and Luchik braced against a rail. Curved lensing lights, brass scientific instruments, distant alarmed aliens; no destruction, no humans, no starship.",
-      "status": "planned",
       "kind": "situation_reference",
-      "saved": null
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        21
+      ],
+      "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
     }
-  ]
+  ],
+  "remaining": [
+    "Публикация текстов в main",
+    "Проверка сайта",
+    "Контрольная точка ПОСЛЕ и освобождение замка"
+  ],
+  "validation": {
+    "health": "ok",
+    "all_images_bound": true,
+    "all_images_registered": true,
+    "unique_prompt_labels": true,
+    "max_prompt_chars": 5761,
+    "max_image_inputs": 9,
+    "no_missing_files": true,
+    "queue_unchanged": true
+  }
 }

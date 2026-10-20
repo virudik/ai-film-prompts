@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kotmonavty",
-  "updated_at": "2026-10-20T21:58:03Z",
-  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026 Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved.",
+  "updated_at": "2026-10-20T23:30:02Z",
+  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026 Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved. 21.10: добавлены ситуации по готовым изображениям; все рабочие производные связаны со сценами, графическая и событийная заставки разделены.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -25,7 +25,19 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -38,7 +50,29 @@
       "variants": [
         {
           "label": "Котмонавт",
-          "scenes": [],
+          "scenes": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
           "notes": "Пилот корабля РосКОТмоса, сидит справа в кадре кабины. Обычный домашний масштаб, кошачья анатомия, без человеческих рук."
         }
       ],
@@ -56,6 +90,9 @@
           "derived_from": [
             "projects/kotmonavty/references/luchik.jpg",
             "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "scenes": [
+            1
           ]
         }
       ]
@@ -76,7 +113,19 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -89,7 +138,29 @@
       "variants": [
         {
           "label": "Котмонавт",
-          "scenes": [],
+          "scenes": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
           "notes": "Штурман корабля РосКОТмоса, сидит слева в кадре кабины. Обычный домашний масштаб, кошачья анатомия, без человеческих рук."
         }
       ],
@@ -107,6 +178,9 @@
           "derived_from": [
             "projects/kotmonavty/references/luchik.jpg",
             "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "scenes": [
+            1
           ]
         }
       ]
@@ -117,54 +191,101 @@
       "id": "roskotmos-ship",
       "name": "Корабль РосКОТмоса — снаружи",
       "kind": "vehicle_exterior",
-      "notes": "Утверждённый дизайн — «тот, который сделался первым» (владелец 17.10 и 20.10.2026): длинный белый потёртый корпус, красный шеврон, синяя полоса, круглая эмблема с котом-космонавтом, надпись «РОСКОТМОС». Два ракурса: спереди-сбоку и сзади-сбоку. Вариант с четырьмя синими двигателями (кадр ролика 45) — когда нужен вид на корму.",
+      "notes": "Утверждённый дизайн — «тот, который сделался первым» (владелец 17.10 и 20.10.2026): длинный белый потёртый корпус, красный шеврон, синяя полоса, круглая эмблема с котом-космонавтом, надпись «РОСКОТМОС». Два ракурса: спереди-сбоку и сзади-сбоку. Вариант с четырьмя синими двигателями (кадр ролика 45) — когда нужен вид на корму. Используется в сценах: 2, 5, 11, 14, 20, 22.",
       "images": [
         {
           "path": "projects/kotmonavty/references/ship-exterior-front.png",
           "caption": "Снаружи, спереди-сбоку (главный дизайн)",
-          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+          "scenes": [
+            2,
+            5,
+            11,
+            14,
+            20,
+            22
+          ]
         },
         {
           "path": "projects/kotmonavty/references/ship-exterior-rear.png",
           "caption": "Снаружи, сзади-сбоку (корма и двигатели)",
-          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png"
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
           "caption": "Кадр ролика 45: четыре синих двигателя",
-          "copied_from": "references/scenes/scene-45/S45-ship-design-actual.png"
+          "copied_from": "references/scenes/scene-45/S45-ship-design-actual.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00",
+          "scenes": [
+            5
+          ]
         }
+      ],
+      "scenes": [
+        2,
+        5,
+        11,
+        14,
+        20,
+        22
       ]
     },
     {
       "id": "roskotmos-cockpit",
       "name": "Корабль РосКОТмоса — изнутри (кабина)",
       "kind": "vehicle_interior",
-      "notes": "Кабина из сцен 24/25 «Серёгиуса»: тёплый янтарный свет, голографические экраны; Лучик — пилот справа, Рыжик — штурман слева. Два ракурса: спереди-сбоку на котов и сзади, через лобовое стекло.",
+      "notes": "Кабина из сцен 24/25 «Серёгиуса»: тёплый янтарный свет, голографические экраны; Лучик — пилот справа, Рыжик — штурман слева. Два ракурса: спереди-сбоку на котов и сзади, через лобовое стекло. Используется в сценах: 5, 9.",
       "images": [
         {
           "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
           "caption": "Изнутри, спереди-сбоку: коты за пультами",
-          "copied_from": "references/scenes/scene-24/S24-Image3-topview-source.png"
+          "copied_from": "references/scenes/scene-24/S24-Image3-topview-source.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+          "scenes": [
+            5,
+            9
+          ]
         },
         {
           "path": "projects/kotmonavty/references/ship-interior-window.webp",
           "caption": "Изнутри, сзади: вид через лобовое стекло (маленькая картинка, только ориентир)",
-          "copied_from": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp"
+          "copied_from": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp",
+          "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e",
+          "scenes": [
+            5
+          ]
         }
+      ],
+      "scenes": [
+        5,
+        9
       ]
     },
     {
       "id": "roskotmos-logo",
       "name": "Эмблема РосКОТмоса",
       "kind": "prop_logo",
-      "notes": "Круглая эмблема с котом-космонавтом и красным росчерком, надпись «РОСКОТМОС». С футболки владельца.",
+      "notes": "Круглая эмблема с котом-космонавтом и красным росчерком, надпись «РОСКОТМОС». С футболки владельца. Используется в сценах: 3, 11.",
       "images": [
         {
           "path": "projects/kotmonavty/references/roskotmos-logo.png",
           "caption": "Эмблема",
-          "copied_from": "references/scenes/scene-45/S45-roskotmos-logo.png"
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-logo.png",
+          "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+          "scenes": [
+            3,
+            11
+          ]
         }
+      ],
+      "scenes": [
+        3,
+        11
       ]
     },
     {
@@ -172,7 +293,7 @@
       "name": "Бар: коты лакают молоко",
       "kind": "scene_keyframe",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 1.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
@@ -182,8 +303,14 @@
             "projects/kotmonavty/references/ryzhik.jpg"
           ],
           "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1
+          ]
         }
+      ],
+      "scenes": [
+        1
       ]
     },
     {
@@ -191,7 +318,7 @@
       "name": "Бар: второй ракурс и предлагаемый компас",
       "kind": "location_prop_character",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 4, 8.",
       "images": [
         {
           "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
@@ -202,8 +329,16 @@
             "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png"
           ],
           "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4,
+            8
+          ]
         }
+      ],
+      "scenes": [
+        4,
+        8
       ]
     },
     {
@@ -211,7 +346,7 @@
       "name": "Погоня через орбитальное кольцо",
       "kind": "event_location",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 2, 5.",
       "images": [
         {
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
@@ -219,9 +354,25 @@
           "derived_from": [
             "projects/kotmonavty/references/ship-exterior-front.png"
           ],
-          "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
-          "editorial_status": "not_approved"
+          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77",
+          "editorial_status": "not_approved",
+          "previous_versions": [
+            {
+              "sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8",
+              "reason": "Добавлена точная надпись РОСКОТМОС под эмблемой по команде владельца"
+            }
+          ],
+          "updated_at": "2026-10-20T23:30:02Z",
+          "edit_prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.image-prompt.txt",
+          "scenes": [
+            2,
+            5
+          ]
         }
+      ],
+      "scenes": [
+        2,
+        5
       ]
     },
     {
@@ -229,7 +380,7 @@
       "name": "Пробуждение звёздного архива",
       "kind": "event_location",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 6, 7.",
       "images": [
         {
           "path": "projects/kotmonavty/references/development/KM-star-vault.png",
@@ -240,17 +391,27 @@
             "projects/kotmonavty/references/development/KM-bar-compass.png"
           ],
           "sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            6,
+            7
+          ]
         }
+      ],
+      "scenes": [
+        6,
+        7
       ]
     },
     {
       "id": "km-poster",
       "name": "Афиша «Котмонавты»",
       "kind": "poster",
-      "scenes": [],
+      "scenes": [
+        3
+      ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 3.",
       "images": [
         {
           "path": "projects/kotmonavty/references/branding/KM-poster.png",
@@ -261,8 +422,19 @@
             "projects/kotmonavty/references/ship-exterior-front.png",
             "projects/kotmonavty/references/roskotmos-logo.png"
           ],
-          "sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd",
-          "editorial_status": "not_approved"
+          "sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4",
+          "editorial_status": "not_approved",
+          "previous_versions": [
+            {
+              "sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd",
+              "reason": "Добавлена точная надпись РОСКОТМОС под эмблемой по команде владельца"
+            }
+          ],
+          "updated_at": "2026-10-20T23:30:02Z",
+          "edit_prompt_file": "projects/kotmonavty/references/branding/KM-poster.image-prompt.txt",
+          "scenes": [
+            3
+          ]
         }
       ]
     },
@@ -271,10 +443,11 @@
       "name": "Заставка РосКОТмоса",
       "kind": "opening_frame",
       "scenes": [
-        3
+        3,
+        22
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 3, 22.",
       "images": [
         {
           "path": "projects/kotmonavty/references/branding/KM-opening.png",
@@ -283,7 +456,11 @@
             "projects/kotmonavty/references/roskotmos-logo.png"
           ],
           "sha256": "21feec98f172953dd4ed12426072fb9546db3c99fdb91c19bc19fd92413cbdf6",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3,
+            22
+          ]
         }
       ]
     },
@@ -295,7 +472,7 @@
         1
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 1.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
@@ -306,7 +483,10 @@
             "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png"
           ],
           "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1
+          ]
         }
       ]
     },
@@ -318,7 +498,7 @@
         4
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 4.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
@@ -329,7 +509,10 @@
             "projects/kotmonavty/references/development/KM-bar-compass.png"
           ],
           "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         }
       ]
     },
@@ -341,7 +524,7 @@
         5
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 5.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
@@ -353,7 +536,10 @@
             "projects/kotmonavty/references/development/KM-ring-chase.png"
           ],
           "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         }
       ]
     },
@@ -365,7 +551,7 @@
         6
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 6.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png",
@@ -376,7 +562,10 @@
             "projects/kotmonavty/references/development/KM-star-vault.png"
           ],
           "sha256": "b8558250e369e12dca802d0c3f44e4308fafabc6da867cb160b8ca4b3149558c",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            6
+          ]
         }
       ]
     },
@@ -388,7 +577,7 @@
         7
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 7.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png",
@@ -399,7 +588,10 @@
             "projects/kotmonavty/references/development/KM-star-vault.png"
           ],
           "sha256": "1c09dc5b9227f84b34a38ab1920ea1666a8bdbb0983c123853d7c0f60790d698",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            7
+          ]
         }
       ]
     },
@@ -411,7 +603,7 @@
         8
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 8.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png",
@@ -422,7 +614,10 @@
             "projects/kotmonavty/references/development/KM-bar-compass.png"
           ],
           "sha256": "8341a2ba823105bbfd81b9199b32af8b669bef27d1451d88ce48d0b9b1718262",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            8
+          ]
         }
       ]
     },
@@ -434,7 +629,7 @@
         9
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 9.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png",
@@ -445,7 +640,10 @@
             "projects/kotmonavty/references/ship-interior-cockpit.png"
           ],
           "sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            9
+          ]
         }
       ]
     },
@@ -457,7 +655,7 @@
         10
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 10.",
       "images": [
         {
           "path": "projects/kotmonavty/references/scenes/scene-10/KM10-customs.png",
@@ -467,7 +665,346 @@
             "projects/kotmonavty/references/ryzhik.jpg"
           ],
           "sha256": "ee06564bce4e3b958a34a8e83a69f9f748c1b984ed0a54e0a22141460c3326ee",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km11-command-room",
+      "name": "Штаб РосКОТмоса — срочный вылет",
+      "kind": "situation_reference",
+      "scenes": [
+        11,
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 11, 22.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png",
+          "caption": "Штаб РосКОТмоса: тревога на карте",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/roskotmos-logo.png"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be",
+          "scenes": [
+            11,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km11-hangar-departure",
+      "name": "Штаб РосКОТмоса: вылет по тревоге",
+      "kind": "situation_reference",
+      "scenes": [
+        11,
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 11, 22.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
+          "caption": "Штаб РосКОТмоса: вылет по тревоге",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-exterior-front.png"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695",
+          "scenes": [
+            11,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km12-magnetic-scrapyard",
+      "name": "Магнитная свалка — груз с характером",
+      "kind": "situation_reference",
+      "scenes": [
+        2,
+        12
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 2, 12.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png",
+          "caption": "Магнитная свалка",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+          "scenes": [
+            2,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km13-glass-market",
+      "name": "Подводный рынок — слишком крупная рыба",
+      "kind": "situation_reference",
+      "scenes": [
+        13,
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 13, 22.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png",
+          "caption": "Рынок под стеклянным морем",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554",
+          "scenes": [
+            13,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km14-buried-beacon",
+      "name": "Маяк под песком",
+      "kind": "situation_reference",
+      "scenes": [
+        2,
+        14
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 2, 14.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+          "caption": "Маяк в песчаной буре",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-exterior-front.png"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd",
+          "scenes": [
+            2,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km15-giant-eye",
+      "name": "Кто за кем наблюдает",
+      "kind": "situation_reference",
+      "scenes": [
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 15.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png",
+          "caption": "Глаз за иллюминатором",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "1656771c3e2d0188a8365e429a34d763c3aad51d2a1314f6172eda6edc04ad01",
+          "scenes": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km16-diplomatic-throne",
+      "name": "Два голоса за",
+      "kind": "situation_reference",
+      "scenes": [
+        16,
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 16, 22.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png",
+          "caption": "Незваные дипломаты",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732",
+          "scenes": [
+            16,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km17-luminous-garden",
+      "name": "Сад, который идёт следом",
+      "kind": "situation_reference",
+      "scenes": [
+        17,
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 17, 22.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png",
+          "caption": "Сад, который идёт следом",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715",
+          "scenes": [
+            17,
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km18-freight-train",
+      "name": "Билет до следующего вагона",
+      "kind": "situation_reference",
+      "scenes": [
+        2,
+        18
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 2, 18.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png",
+          "caption": "Экспресс через астероид",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+          "scenes": [
+            2,
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km19-frozen-vault",
+      "name": "Холодная добыча",
+      "kind": "situation_reference",
+      "scenes": [
+        2,
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 2, 19.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png",
+          "caption": "Лёд хранит секрет",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+          "scenes": [
+            2,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km20-storm-port",
+      "name": "Высадка в шторм",
+      "kind": "situation_reference",
+      "scenes": [
+        20
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 20.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
+          "caption": "Последний причал",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-exterior-front.png"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab",
+          "scenes": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "km21-gravity-museum",
+      "name": "Экспонат руками не трогать",
+      "kind": "situation_reference",
+      "scenes": [
+        2,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 2, 21.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png",
+          "caption": "Экспонат с притяжением",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "prompt_file": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+          "scenes": [
+            2,
+            21
+          ]
         }
       ]
     }

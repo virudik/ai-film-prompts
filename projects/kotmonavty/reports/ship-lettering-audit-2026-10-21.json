@@ -111,5 +111,28 @@
   ],
   "originals_preserved": "История git; корректировка по прямой команде владельца, прочие оригиналы без изменений",
   "video_launches": 0,
-  "editorial_approval": false
+  "editorial_approval": false,
+  "new_ship_images_checked": [
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
+      "word": "РОСКОТМОС",
+      "position": "directly_under_emblem",
+      "visual_check": "passed",
+      "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+      "word": "РОСКОТМОС",
+      "position": "directly_under_emblem",
+      "visual_check": "passed",
+      "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
+      "word": "РОСКОТМОС",
+      "position": "directly_under_emblem",
+      "visual_check": "passed",
+      "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
+    }
+  ]
 }

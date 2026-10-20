@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-20T21:58:04Z",
+  "synced_at": "2026-10-20T23:31:59Z",
   "revision_date": "21.10.2026",
-  "master_declared_last_full_sync": "21.10.2026 · афиша, заставка, шесть эпизодов, две дополнительные сцены",
-  "canonical_master_sha256": "46dd8a1c69ac8be22d438718731e8460b1a157a7f5661548f43b11c143d44ae1",
-  "canonical_revision_sha256": "f51bd56bb19aa816aa001255bcfe00f75b941a3583f29219f73b815493002b4e",
-  "canonical_master_bytes": 172093,
-  "scenes": 10,
-  "prompt_texts": 30,
+  "master_declared_last_full_sync": "21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер",
+  "canonical_master_sha256": "857f73a349e708e4bd5f16de386d74471e61daeeaff3c0d96644536cea256f32",
+  "canonical_revision_sha256": "6ea4d17a1be51e348946d411a67bdddd82820dc1634ecd303d3a2c7928aa4480",
+  "canonical_master_bytes": 426978,
+  "scenes": 22,
+  "prompt_texts": 66,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -25,9 +25,21 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
   ],
-  "latest_scene": 10,
+  "latest_scene": 22,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -35,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 5.013,
+    "age_hours_at_status_build": 6.578,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -114,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 5.013,
+      "age_hours": 6.578,
       "blocking": false
     },
     "topview_task_map": {
@@ -153,6 +165,7 @@
       },
       "dependencies": [],
       "tags": [
+        "trailer",
         "owner_requested",
         "draft",
         "not_queued",
@@ -304,15 +317,243 @@
         "reference_first"
       ],
       "render_state": "IDLE"
+    },
+    "11": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "12": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "13": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "14": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "15": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "16": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "17": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "18": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "19": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "20": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "21": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "image_first",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "22": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "event_opening",
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "21.10.2026",
-    "synced_at": "2026-10-20T21:58:04Z",
-    "canonical_master_sha256": "46dd8a1c69ac8be22d438718731e8460b1a157a7f5661548f43b11c143d44ae1",
-    "canonical_revision_sha256": "f51bd56bb19aa816aa001255bcfe00f75b941a3583f29219f73b815493002b4e",
-    "scene_count": 10,
-    "prompt_count": 30,
+    "synced_at": "2026-10-20T23:31:59Z",
+    "canonical_master_sha256": "857f73a349e708e4bd5f16de386d74471e61daeeaff3c0d96644536cea256f32",
+    "canonical_revision_sha256": "6ea4d17a1be51e348946d411a67bdddd82820dc1634ecd303d3a2c7928aa4480",
+    "scene_count": 22,
+    "prompt_count": 66,
     "scene_ids": [
       1,
       2,
@@ -323,7 +564,19 @@
       7,
       8,
       9,
-      10
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
     ],
     "work_items": [],
     "slow_scenes": [],

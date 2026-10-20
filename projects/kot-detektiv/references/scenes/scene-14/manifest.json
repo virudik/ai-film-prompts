@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 14,
+  "title": "Письмо над городом",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность кота",
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность пса",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+      "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+      "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+          "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+          "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+          "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T21:58:03Z",
-  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены. Сцены оформлены как DRAFT. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved.",
+  "updated_at": "2026-10-20T23:30:02Z",
+  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены. Сцены оформлены как DRAFT. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved. 21.10: добавлены ситуации по готовым изображениям; все рабочие производные связаны со сценами, графическая и событийная заставки разделены.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -26,7 +26,18 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
       "model_sheet": {
         "source": "Оригинальная входная картинка задачи Topview 3a85d0374f3f43de99c96c24ee2486ce; главный референс по выбору владельца 20.10.2026.",
@@ -84,7 +95,29 @@
             }
           ],
           "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
@@ -98,7 +131,10 @@
             }
           ],
           "sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
@@ -112,7 +148,10 @@
             }
           ],
           "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
@@ -132,7 +171,10 @@
             }
           ],
           "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
@@ -152,7 +194,29 @@
             }
           ],
           "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
@@ -166,7 +230,10 @@
             }
           ],
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/development/KD-duo.png",
@@ -175,6 +242,9 @@
           "derived_from": [
             "projects/kot-detektiv/references/detective-cat-office-portrait.png",
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "scenes": [
+            4
           ]
         }
       ],
@@ -196,7 +266,18 @@
         7,
         8,
         9,
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
       ],
       "model_sheet": {
         "source": "Оригинальный вход доски «Лёха кот», перенесён без изменения байтов.",
@@ -245,7 +326,29 @@
             }
           ],
           "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
@@ -265,7 +368,10 @@
             }
           ],
           "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
@@ -279,7 +385,10 @@
             }
           ],
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
@@ -295,7 +404,10 @@
             }
           ],
           "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/development/KD-duo.png",
@@ -304,6 +416,9 @@
           "derived_from": [
             "projects/kot-detektiv/references/detective-cat-office-portrait.png",
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "scenes": [
+            4
           ]
         }
       ],
@@ -328,7 +443,10 @@
             }
           ],
           "sha256": "e5ab44a62636fbf5f4c406031ac370a800a018fee03a12f3cb608beb453f9af9",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
@@ -348,7 +466,29 @@
             }
           ],
           "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
@@ -362,7 +502,10 @@
             }
           ],
           "sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/office-frame-02s.png",
@@ -378,10 +521,35 @@
             }
           ],
           "sha256": "39a4918a48bb491ffd7b768bc5751fe128566a3d3271c408796f7826b8e5fe57",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3
+          ]
         }
       ],
-      "notes": "Викторианский кабинет: тёмное дерево, тёплая лампа, доска расследования с фото и красными нитями, большая карта города на стене, книги, бумаги, бутылки, телефон. Квадратная комната."
+      "notes": "Викторианский кабинет: тёмное дерево, тёплая лампа, доска расследования с фото и красными нитями, большая карта города на стене, книги, бумаги, бутылки, телефон. Квадратная комната. Используется в сценах: 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21.",
+      "scenes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
     },
     {
       "id": "victorian-london",
@@ -400,7 +568,10 @@
             }
           ],
           "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
@@ -420,7 +591,10 @@
             }
           ],
           "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
@@ -440,7 +614,29 @@
             }
           ],
           "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
@@ -454,7 +650,10 @@
             }
           ],
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
@@ -470,7 +669,10 @@
             }
           ],
           "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         },
         {
           "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
@@ -486,17 +688,42 @@
             }
           ],
           "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         }
       ],
-      "notes": "Мокрая брусчатка, газовые фонари, туман, мост, вдали Биг-Бен; набережная — место преступления с полицейской лентой."
+      "notes": "Мокрая брусчатка, газовые фонари, туман, мост, вдали Биг-Бен; набережная — место преступления с полицейской лентой. Используется в сценах: 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21.",
+      "scenes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
     },
     {
       "id": "kd-duo",
       "name": "Кот и пёс: характеры и костюмы",
       "kind": "character_pair",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 4.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/development/KD-duo.png",
@@ -506,8 +733,14 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         }
+      ],
+      "scenes": [
+        4
       ]
     },
     {
@@ -515,7 +748,7 @@
       "name": "Набережная: часы и оборвавшиеся следы",
       "kind": "event_location_prop",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 5.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/development/KD-quay-clue.png",
@@ -525,8 +758,14 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "42e05061edc633351cbfc12f1acf1140e1aa3fbe0c29288cf9f4b8a98b582744",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         }
+      ],
+      "scenes": [
+        5
       ]
     },
     {
@@ -534,7 +773,7 @@
       "name": "Карта расследования и письмо",
       "kind": "event_location_prop",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 1, 6.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
@@ -545,8 +784,16 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            1,
+            6
+          ]
         }
+      ],
+      "scenes": [
+        1,
+        6
       ]
     },
     {
@@ -554,7 +801,7 @@
       "name": "Башня: неизвестный противник",
       "kind": "event_location_character",
       "editorial_status": "not_approved",
-      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет.",
+      "notes": "Сгенерировано ChatGPT по команде владельца; концепт, не автоматическое одобрение. Исходники персонажей сохраняют высший приоритет. Используется в сценах: 7, 8.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
@@ -564,17 +811,27 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            7,
+            8
+          ]
         }
+      ],
+      "scenes": [
+        7,
+        8
       ]
     },
     {
       "id": "kd-poster",
       "name": "Афиша «Кот детектив»",
       "kind": "poster",
-      "scenes": [],
+      "scenes": [
+        2
+      ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 2.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/branding/KD-poster.png",
@@ -584,7 +841,10 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            2
+          ]
         }
       ]
     },
@@ -593,10 +853,11 @@
       "name": "Нуарная начальная заставка",
       "kind": "opening_frame",
       "scenes": [
-        2
+        2,
+        21
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 2, 21.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/branding/KD-opening.png",
@@ -606,7 +867,11 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            2,
+            21
+          ]
         }
       ]
     },
@@ -618,7 +883,7 @@
         3
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 3.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png",
@@ -629,7 +894,10 @@
             "projects/kot-detektiv/references/office-map.png"
           ],
           "sha256": "0113189b816b4fffde29f0deec9080b517405c181d1f0227c3e571d6ecdc3f4d",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            3
+          ]
         }
       ]
     },
@@ -641,7 +909,7 @@
         4
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 4.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
@@ -652,7 +920,10 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png"
           ],
           "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            4
+          ]
         }
       ]
     },
@@ -664,7 +935,7 @@
         5
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 5.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
@@ -675,7 +946,10 @@
             "projects/kot-detektiv/references/development/KD-quay-clue.png"
           ],
           "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            5
+          ]
         }
       ]
     },
@@ -687,7 +961,7 @@
         6
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 6.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png",
@@ -698,7 +972,10 @@
             "projects/kot-detektiv/references/development/KD-map-envelope.png"
           ],
           "sha256": "d8618ff6c159cbafb832363a331e5b763ff35cfac224b422cf2692d0e9b4919f",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            6
+          ]
         }
       ]
     },
@@ -710,7 +987,7 @@
         7
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 7.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
@@ -721,7 +998,10 @@
             "projects/kot-detektiv/references/development/KD-clocktower.png"
           ],
           "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            7
+          ]
         }
       ]
     },
@@ -733,7 +1013,7 @@
         8
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 8.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png",
@@ -744,7 +1024,10 @@
             "projects/kot-detektiv/references/development/KD-clocktower.png"
           ],
           "sha256": "b78cf4565fcc31f4f38f135b28192374fb002f53b8473a4b291e22c57aef9846",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            8
+          ]
         }
       ]
     },
@@ -756,7 +1039,7 @@
         9
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 9.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
@@ -766,7 +1049,10 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            9
+          ]
         }
       ]
     },
@@ -778,7 +1064,7 @@
         10
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 10.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png",
@@ -788,7 +1074,290 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "578dbfe8907396e6a59fda50530cae01be567492b129590a4f891f21de0df789",
-          "editorial_status": "not_approved"
+          "editorial_status": "not_approved",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd11-raven-station",
+      "name": "Вокзал без отправления",
+      "kind": "situation_reference",
+      "scenes": [
+        11,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 11, 21.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png",
+          "caption": "Вокзал без отправления",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "f414e0c141c879ea487e716b1b6b8d470334eca3000c983621a31b256c3068e5",
+          "scenes": [
+            11,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd12-glasshouse",
+      "name": "Роза на сухом камне",
+      "kind": "situation_reference",
+      "scenes": [
+        12,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 12, 21.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png",
+          "caption": "Шёпот зимнего сада",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "e695753a6a3323d0e5175975b99e45e4673f4c2f562d1dfedb3d31988b5f6e9e",
+          "scenes": [
+            12,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd13-opera-box",
+      "name": "Зритель, которого не было",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        13
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 1, 13.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+          "caption": "Пустая ложа",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca",
+          "scenes": [
+            1,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd14-rooftop-kite",
+      "name": "Письмо над городом",
+      "kind": "situation_reference",
+      "scenes": [
+        14,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 14, 21.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png",
+          "caption": "Нить над крышами",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "dd9112f111093827185345d1d2771d1443eaaac286c4dedee6093af81d9eae2d",
+          "scenes": [
+            14,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd15-flooded-archive",
+      "name": "Единственное сухое дело",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 1, 15.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+          "caption": "Затопленный архив",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d",
+          "scenes": [
+            1,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd16-puppet-workshop",
+      "name": "Нить за занавеской",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        16
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 1, 16.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+          "caption": "Мастерская чужих лиц",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598",
+          "scenes": [
+            1,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd17-printing-press",
+      "name": "Завтрашний оттиск",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        17
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 1, 17.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+          "caption": "Газета завтрашнего дня",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9",
+          "scenes": [
+            1,
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd18-canal-lock",
+      "name": "Лодка против течения",
+      "kind": "situation_reference",
+      "scenes": [
+        18,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 18, 21.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png",
+          "caption": "Лодка против течения",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "5ffe20835059b991532a9a49d1d6575b3ec726e152e0188686e1c89e6e16ac2f",
+          "scenes": [
+            18,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd19-masked-auction",
+      "name": "Покупатель пустого кресла",
+      "kind": "situation_reference",
+      "scenes": [
+        1,
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 1, 19.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+          "caption": "Лот без владельца",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66",
+          "scenes": [
+            1,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kd20-bell-chamber",
+      "name": "Звон без языка",
+      "kind": "situation_reference",
+      "scenes": [
+        20,
+        21
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Сначала создана и проверена картинка, затем по ней написана сцена. Можно развивать и переставлять. Используется в сценах: 20, 21.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png",
+          "caption": "Колокол без языка",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.image-prompt.txt",
+          "editorial_status": "not_approved",
+          "sha256": "242343d33b25df44d5872012664d99a4166a4e8f8064c81351b3976123142821",
+          "scenes": [
+            20,
+            21
+          ]
         }
       ]
     }

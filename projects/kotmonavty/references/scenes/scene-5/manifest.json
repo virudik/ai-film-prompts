@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "scene": 5,
+  "title": "Узкий проход",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность Лучика",
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность Рыжика",
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+      "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+    },
+    {
+      "tag": "@Image5",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+      "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+    },
+    {
+      "tag": "@Image6",
+      "role": "Исходный корабль — абсолютная конструкция",
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+    },
+    {
+      "tag": "@Image7",
+      "role": "Корма и расположение двигателей — технический оригинал",
+      "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+      "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+    },
+    {
+      "tag": "@Image8",
+      "role": "Четыре двигателя — технический контроль количества, не другой корабль",
+      "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+      "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+    },
+    {
+      "tag": "@Image9",
+      "role": "Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше",
+      "path": "projects/kotmonavty/references/ship-interior-window.webp",
+      "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+          "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходный корабль — абсолютная конструкция",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Корма и расположение двигателей — технический оригинал",
+          "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Четыре двигателя — технический контроль количества, не другой корабль",
+          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+        },
+        {
+          "tag": "@Image9",
+          "role": "Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше",
+          "path": "projects/kotmonavty/references/ship-interior-window.webp",
+          "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+          "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходный корабль — абсолютная конструкция",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Корма и расположение двигателей — технический оригинал",
+          "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Четыре двигателя — технический контроль количества, не другой корабль",
+          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+        },
+        {
+          "tag": "@Image9",
+          "role": "Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше",
+          "path": "projects/kotmonavty/references/ship-interior-window.webp",
+          "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность Лучика",
+          "path": "projects/kotmonavty/references/luchik.jpg",
+          "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность Рыжика",
+          "path": "projects/kotmonavty/references/ryzhik.jpg",
+          "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+          "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Исходный корабль — абсолютная конструкция",
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Корма и расположение двигателей — технический оригинал",
+          "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+          "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Четыре двигателя — технический контроль количества, не другой корабль",
+          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00"
+        },
+        {
+          "tag": "@Image9",
+          "role": "Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше",
+          "path": "projects/kotmonavty/references/ship-interior-window.webp",
+          "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

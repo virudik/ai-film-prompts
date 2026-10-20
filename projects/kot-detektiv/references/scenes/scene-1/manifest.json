@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 1,
+  "title": "Трейлер — Город, который знает заранее",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Кот — выбранный владельцем оригинал",
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Пёс — исходная внешность и форма",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Отдельная опора монтажа: KD-map-envelope.png",
+      "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+      "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Пустая ложа — только эта локация и её действие",
+      "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+      "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
+    },
+    {
+      "tag": "@Image5",
+      "role": "Затопленный архив — только эта локация и её действие",
+      "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+      "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
+    },
+    {
+      "tag": "@Image6",
+      "role": "Мастерская чужих лиц — только эта локация и её действие",
+      "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+      "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
+    },
+    {
+      "tag": "@Image7",
+      "role": "Газета завтрашнего дня — только эта локация и её действие",
+      "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+      "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9"
+    },
+    {
+      "tag": "@Image8",
+      "role": "Лот без владельца — только эта локация и её действие",
+      "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+      "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Кот — выбранный владельцем оригинал",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Пёс — исходная внешность и форма",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+          "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Пустая ложа — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+          "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Затопленный архив — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+          "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Мастерская чужих лиц — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+          "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Газета завтрашнего дня — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+          "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Лот без владельца — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+          "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Кот — выбранный владельцем оригинал",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Пёс — исходная внешность и форма",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+          "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Пустая ложа — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+          "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Затопленный архив — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+          "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Мастерская чужих лиц — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+          "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Газета завтрашнего дня — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+          "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Лот без владельца — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+          "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Кот — выбранный владельцем оригинал",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Пёс — исходная внешность и форма",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
+          "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Пустая ложа — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
+          "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Затопленный архив — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png",
+          "sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Мастерская чужих лиц — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png",
+          "sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
+        },
+        {
+          "tag": "@Image7",
+          "role": "Газета завтрашнего дня — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png",
+          "sha256": "d783a915654dc6f760342c81f56877eda6ac876f837a241f5deeadd4d6b9a7b9"
+        },
+        {
+          "tag": "@Image8",
+          "role": "Лот без владельца — только эта локация и её действие",
+          "path": "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png",
+          "sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

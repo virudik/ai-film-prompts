@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 4,
+  "title": "Город молчит",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Исходная идентичность кота",
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Исходная идентичность пса",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+    },
+    {
+      "tag": "@Image3",
+      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+      "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
+    },
+    {
+      "tag": "@Image4",
+      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
+      "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
+    },
+    {
+      "tag": "@Image5",
+      "role": "Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности",
+      "path": "projects/kot-detektiv/references/development/KD-duo.png",
+      "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
+    },
+    {
+      "tag": "@Image6",
+      "role": "Кадр исходного видео — движение пары и свет улицы, все фигуры животные",
+      "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
+      "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+          "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
+          "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности",
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Кадр исходного видео — движение пары и свет улицы, все фигуры животные",
+          "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
+          "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+          "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
+          "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности",
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Кадр исходного видео — движение пары и свет улицы, все фигуры животные",
+          "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
+          "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Исходная идентичность кота",
+          "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+          "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Исходная идентичность пса",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+          "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4"
+        },
+        {
+          "tag": "@Image3",
+          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+          "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
+        },
+        {
+          "tag": "@Image4",
+          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
+          "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
+        },
+        {
+          "tag": "@Image5",
+          "role": "Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности",
+          "path": "projects/kot-detektiv/references/development/KD-duo.png",
+          "sha256": "8109bc22c90070948f683ff3a00e5de8d35d29de3fadcff29cd7cd82955959c3"
+        },
+        {
+          "tag": "@Image6",
+          "role": "Кадр исходного видео — движение пары и свет улицы, все фигуры животные",
+          "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
+          "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

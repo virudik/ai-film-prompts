@@ -4,16 +4,16 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21.10.2026 · 10 сцен к генерации/доработке · 30 полных текстов промта**
+**21.10.2026 · 21 сцен к генерации/доработке · 63 полных текстов промта**
 
 - **🛠️ 0** рабочих направлений W: предложения оформлены как DRAFT-сцены по новой команде владельца.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя оформленная активная сцена:** 10 — черновик, без запуска и без очереди.
-- **Последняя полная синхронизация:** **21.10.2026 · афиша, заставка, шесть эпизодов, две дополнительные сцены**.
+- **Последняя оформленная активная сцена:** 21 — черновик, без запуска и без очереди.
+- **Последняя полная синхронизация:** **21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер**.
 
 **Все сцены DRAFT.** Это тексты и изображения для доработки владельцем, не готовые видеоролики. Очередь не менялась. По каждой сцене: 30 секунд Wan 3.0 / Seedance 2.5 и две части Seedance 2.0 по 15 секунд. Для второй части нужен реальный результат первой. Только безлимит, 0 кредитов; платные запуски — владелец. Ничего не одобрять, не удалять и не перезапускать автоматически.
 
-## Афиша и начальная заставка
+## Афиша и графическая заставка
 
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/branding/KD-poster.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-poster.png" alt="Афиша «Кот детектив» — новый авторский вариант" loading="lazy"></a><figcaption>Афиша «Кот детектив» — новый авторский вариант</figcaption></figure>
@@ -22,49 +22,61 @@
 
 [Все картинки и их назначение](projects/kot-detektiv/visual-catalog.md) · [Сюжет по эпизодам](projects/kot-detektiv/story-development.md) · [Порядок фильма](film.html?p=kot-detektiv).
 
+**Три разных формата:** графическая заставка — 2; событийная заставка сериала — 21; трейлер — 1. События и монтаж трейлера не повторяют событийную заставку.
+
 ## Оглавление сцен
 
-| ID | Сцена | Роль |
+| ID | Сцена | Назначение |
 |---|---|---|
-| 1 | [Трейлер — Дело о пропавшей минуте](#scene-1) | Трейлер |
-| 2 | [Заставка — Кот детектив](#scene-2) | Заставка |
-| 3 | [Тик, которого не было](#scene-3) | Эпизод 1 |
-| 4 | [Город молчит](#scene-4) | Эпизод 2 |
-| 5 | [След, оборвавшийся у воды](#scene-5) | Эпизод 3 |
-| 6 | [Карта чужого замысла](#scene-6) | Эпизод 4 |
-| 7 | [За циферблатом](#scene-7) | Эпизод 5 |
-| 8 | [Следующий адрес](#scene-8) | Эпизод 6 |
-| 9 | [Пассажир, которого не было](#scene-9) | Дополнительная ситуация |
-| 10 | [Свет в пустой обсерватории](#scene-10) | Дополнительная ситуация |
+| 1 | [Трейлер — Город, который знает заранее](#scene-1) | Трейлер |
+| 2 | [Графическая заставка — Кот детектив](#scene-2) | Графическая заставка |
+| 3 | [Тик, которого не было](#scene-3) | Эпизод / дополнительная ситуация |
+| 4 | [Город молчит](#scene-4) | Эпизод / дополнительная ситуация |
+| 5 | [След, оборвавшийся у воды](#scene-5) | Эпизод / дополнительная ситуация |
+| 6 | [Карта чужого замысла](#scene-6) | Эпизод / дополнительная ситуация |
+| 7 | [За циферблатом](#scene-7) | Эпизод / дополнительная ситуация |
+| 8 | [Следующий адрес](#scene-8) | Эпизод / дополнительная ситуация |
+| 9 | [Пассажир, которого не было](#scene-9) | Эпизод / дополнительная ситуация |
+| 10 | [Свет в пустой обсерватории](#scene-10) | Эпизод / дополнительная ситуация |
+| 11 | [Вокзал без отправления](#scene-11) | Новая ситуация по готовой картинке |
+| 12 | [Роза на сухом камне](#scene-12) | Новая ситуация по готовой картинке |
+| 13 | [Зритель, которого не было](#scene-13) | Новая ситуация по готовой картинке |
+| 14 | [Письмо над городом](#scene-14) | Новая ситуация по готовой картинке |
+| 15 | [Единственное сухое дело](#scene-15) | Новая ситуация по готовой картинке |
+| 16 | [Нить за занавеской](#scene-16) | Новая ситуация по готовой картинке |
+| 17 | [Завтрашний оттиск](#scene-17) | Новая ситуация по готовой картинке |
+| 18 | [Лодка против течения](#scene-18) | Новая ситуация по готовой картинке |
+| 19 | [Покупатель пустого кресла](#scene-19) | Новая ситуация по готовой картинке |
+| 20 | [Звон без языка](#scene-20) | Новая ситуация по готовой картинке |
+| 21 | [Событийная заставка сериала — По следу невозможного](#scene-21) | Событийная заставка сериала |
 
 ## Сцены в работе
 
-Все десять сцен оформлены ниже. Редакторское одобрение и команда на очередь остаются за владельцем.
+Все сцены ниже — DRAFT для доработки владельцем. Ничего не поставлено в очередь и не запущено.
 
 <a id="scene-1"></a>
-## Сцена 1 — Трейлер — Дело о пропавшей минуте
+## Сцена 1 — Трейлер — Город, который знает заранее
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["trailer","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 20.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
 
-**Связь с новым пакетом:** заставка — сцена 2; шесть эпизодов — 3, 4, 5, 6, 7, 8. Афиша и дополнительные кадры доступны в галерее проекта. Трейлер остаётся самостоятельным монтажным промтом.
+**Что происходит:** Письмо появляется раньше события → мокрый след в пустой ложе → единственное сухое дело в затопленном архиве → управляемая тень → оттиск предсказывает погасший фонарь → на аукционе голосует пустое кресло. Кто ставит эти события?
 
-**Что происходит:** Кабинет → дождливый Лондон и мост → улика у Темзы → карта событий → письмо, опережающее расследование → часовая башня и нераскрытый противник.
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
-**Готовность:** Все семь изображений существуют; новый сюжет предложен для выбора владельцем. Тексты готовы, видеотрейлер не генерировался, реальный @Video1 для части 2 ещё отсутствует. Техническая проверка изображения не является одобрением владельца.
-
-**Источник:** все 11 роликов доски «Лёха кот» разобраны в `reports/board-review-2026-10-20.md`; это новая сцена по их визуальному языку и действиям, а не заявление о готовом монтаже MP4. Спокойный кот, нервный констебль, только антропоморфные животные. Старые пищевые находки переосмыслены как обнаружение настоящей улики, без комедийной развязки. Дополнительный референс пары — `references/development/KD-duo.png`; главным референсом кота остаётся оригинал владельца.
+**Назначение:** Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку.
 
 **Входные изображения и их роли:**
 <div class="scene-ref-gallery">
-<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Главный оригинал кота, выбранный владельцем" loading="lazy"></a><figcaption>@Image1 — Главный оригинал кота, выбранный владельцем</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — внешность и форма; улица — атмосфера" loading="lazy"></a><figcaption>@Image2 — Пёс — внешность и форма; улица — атмосфера</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/office-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-map.png" alt="Исходный кабинет и карта" loading="lazy"></a><figcaption>@Image3 — Исходный кабинет и карта</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" alt="Мост, Лондон и совместный проход" loading="lazy"></a><figcaption>@Image4 — Мост, Лондон и совместный проход</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-quay-clue.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-quay-clue.png" alt="Набережная: часы, печать и оборвавшиеся следы" loading="lazy"></a><figcaption>@Image5 — Набережная: часы, печать и оборвавшиеся следы</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Схема преступлений и письмо под дверью" loading="lazy"></a><figcaption>@Image6 — Схема преступлений и письмо под дверью</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-clocktower.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-clocktower.png" alt="Часовая башня и скрытый неизвестный противник" loading="lazy"></a><figcaption>@Image7 — Часовая башня и скрытый неизвестный противник</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Кот — выбранный владельцем оригинал" loading="lazy"></a><figcaption>@Image1 — Кот — выбранный владельцем оригинал</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — исходная внешность и форма" loading="lazy"></a><figcaption>@Image2 — Пёс — исходная внешность и форма</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Отдельная опора монтажа: KD-map-envelope.png" loading="lazy"></a><figcaption>@Image3 — Отдельная опора монтажа: KD-map-envelope.png</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" alt="Пустая ложа — только эта локация и её действие" loading="lazy"></a><figcaption>@Image4 — Пустая ложа — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" alt="Затопленный архив — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Затопленный архив — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" alt="Мастерская чужих лиц — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Мастерская чужих лиц — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" alt="Газета завтрашнего дня — только эта локация и её действие" loading="lazy"></a><figcaption>@Image7 — Газета завтрашнего дня — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" alt="Лот без владельца — только эта локация и её действие" loading="lazy"></a><figcaption>@Image8 — Лот без владельца — только эта локация и её действие</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -74,55 +86,59 @@
 
 #### 1 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/development/KD-map-envelope.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`; @Image8 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Dark serious stylized animated Victorian animal noir, cinematic mystery trailer, London late nineteenth century
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; trailer
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Главный оригинал кота, выбранный владельцем; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
-@Image2 — Пёс — внешность и форма; улица — атмосфера; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Исходный кабинет и карта; file: projects/kot-detektiv/references/office-map.png.
-@Image4 — Мост, Лондон и совместный проход; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
-@Image5 — Набережная: часы, печать и оборвавшиеся следы; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
-@Image6 — Схема преступлений и письмо под дверью; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
-@Image7 — Часовая башня и скрытый неизвестный противник; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image7 — Газета завтрашнего дня — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image8 — Лот без владельца — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+
 START STATE:
-Original wooden detective office inspired by @Image1 and @Image3, gaslight and rain. Cat sits at desk, green eyes focused on a small sealed note. Keep original character and warm textured animation, but remove incidental human skull/portraits, rotary telephone and modern items from source.
+Victorian office, cat examining red map route and dog beside doorway; envelope begins sliding under the closed door.
 
 TIMELINE:
-[0:00–0:04] Office: cat raises his eyes from the sealed note and stands with composed resolve, a short movement inherited from original board office footage. Clock ticking stops; a light trembles.
+[0:00–0:05] Original-style office: sealed envelope slides under door while cat traces a red route on city map; dog turns toward door and retrieves it. No readable letter text.
 
-[0:04–0:08] Cut rainy street and bridge @Image2/@Image4: cat and dog advance toward camera. Cat notices a detail ahead; dog gestures anxiously with notebook, then follows the cat's gaze. All passers-by are animals.
+[0:05–0:10] Cut to opera box: cat lifts cracked glasses, dog lights fresh wet pawprint beside fox mask; reflected distant door closes, nobody identified.
 
-[0:08–0:13] Cut @Image5, river clue: cat kneels and examines stopped pocket watch and red wax seal. His magnifier tracks muddy pawprints ending at the railing. Dog raises lantern toward an indistinct boat in fog.
+[0:10–0:15] Cut to flooded archive: dog rescues wet ledger, cat guides uniquely dry sealed glass dossier to safe step and sees its matching empty catalogue slot.
 
-[0:13–0:18] Cut @Image6: cat draws one red thread across the map; separate events converge on a clock-tower marker. Dog hears a scrape and turns: a sealed envelope slides under the locked door.
+[0:15–0:20] Cut to puppet workshop: shadow rises, cat pins red thread, dog pulls curtain to reveal an animal puppet; line jerks toward dark vent, true manipulator unseen.
 
-[0:18–0:22] Low close-up: dog lifts envelope with furry paw; cat stops him with a small controlled gesture and studies the identical broken-circle seal. An unseen sender has anticipated the investigation. No readable letter text.
+[0:20–0:25] Cut to print shop: cat aligns engraved dark lamp with lit real lamp; actual flame extinguishes, dog turns sharply toward street, cat fixes gaze on empty plate tray.
 
-[0:22–0:27] Cut @Image7: partners climb two steps into the enormous clock mechanism. Lantern light crosses motionless gears; cat notices red ribbon on a gear, then looks to an upper catwalk.
-
-[0:27–0:30] Cloaked anthropomorphic animal silhouette withdraws behind a gear, only a furred tail edge and paw visible, no face. A single mechanical tick; cut to cat's intent green eyes. End unresolved, no capture, no title card.
+[0:25–0:30] Cut to auction: paddle rises above empty wet chair, cat traps its fine thread, owl suspends hammer. Dog turns toward moving curtain. End before the watcher can be seen.
 
 END STATE:
-Inside the clock tower, cat and dog look up at the upper catwalk. The cloaked animal figure disappears behind a gear, face and species unseen. A final metallic tick sounds and the cat's eyes sharpen: he understands a connection, but the mystery is unresolved.
+Auction room, paddle stopped by cat paw pinning thread; owl hammer suspended, dog approaching moving curtain; culprit identity and explanation unknown.
 
 CAMERA / SPACE:
-Seven deliberate shots with clear motivated cuts, not a slideshow: desk to wet street, watch circle to clock dial, red wax to red thread. Cat leads at measured purposeful pace while dog reacts more quickly. Strong composition and restrained travelling camera, shallow focus for clues, no frantic spin. Background animals only. The cloak never reveals a human or a recognisable culprit.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cat observes, deduces, turns with intention; quiet confidence and minimal precise gestures. Dog checks behind, fumbles one notebook page and raises lantern sharply, anxious but competent, never slapstick. Suspense comes from accumulating evidence and someone anticipating them. Mystery remains ambiguous; no literal ghost reveal.
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
 
 LIGHTING / MATERIALS:
-Maintain source animal faces and detailed stylized animation: illustrated fur strokes, textured tweed, painterly dimensional sets, cinematic chiaroscuro, wet stone, dark wood, amber gaslight and blue-black fog. No switch to live action or generic glossy toy animation. Nineteenth-century props, animal-only portraits.
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
 
 AUDIO:
-Original low cello pulse, restrained bass clarinet, sparse piano and uneasy string harmonics. Rain, purposeful pawsteps, paper rustle, lantern chain, distant river boat, clock ticks that stop abruptly. One heavy bell and unresolved final tick; no jump-scare scream. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
 Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
@@ -136,49 +152,53 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 1 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/development/KD-map-envelope.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`; @Image8 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Dark serious stylized animated Victorian animal noir, cinematic mystery trailer, London late nineteenth century
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; trailer
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Главный оригинал кота, выбранный владельцем; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
-@Image2 — Пёс — внешность и форма; улица — атмосфера; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Исходный кабинет и карта; file: projects/kot-detektiv/references/office-map.png.
-@Image4 — Мост, Лондон и совместный проход; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
-@Image5 — Набережная: часы, печать и оборвавшиеся следы; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
-@Image6 — Схема преступлений и письмо под дверью; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
-@Image7 — Часовая башня и скрытый неизвестный противник; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image7 — Газета завтрашнего дня — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image8 — Лот без владельца — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+
 START STATE:
-Original wooden detective office inspired by @Image1 and @Image3, gaslight and rain. Cat sits at desk, green eyes focused on a small sealed note. Keep original character and warm textured animation, but remove incidental human skull/portraits, rotary telephone and modern items from source.
+Victorian office, cat examining red map route and dog beside doorway; envelope begins sliding under the closed door.
 
 TIMELINE:
-[0:00–0:03] Office: cat raises his eyes from the sealed note and stands with composed resolve, a short movement inherited from original board office footage. Clock ticking stops; a light trembles.
+[0:00–0:05] Original-style office: sealed envelope slides under door while cat traces a red route on city map; dog turns toward door and retrieves it. No readable letter text.
 
-[0:03–0:07] Cut rainy street and bridge @Image2/@Image4: cat and dog advance toward camera. Cat notices a detail ahead; dog gestures anxiously with notebook, then follows the cat's gaze. All passers-by are animals.
+[0:05–0:10] Cut to opera box: cat lifts cracked glasses, dog lights fresh wet pawprint beside fox mask; reflected distant door closes, nobody identified.
 
-[0:07–0:11] Cut @Image5, river clue: cat kneels and examines stopped pocket watch and red wax seal. His magnifier tracks muddy pawprints ending at the railing. Dog raises lantern toward an indistinct boat in fog.
-
-[0:11–0:15] Cut @Image6: cat draws one red thread across the map; separate events converge on a clock-tower marker. Dog hears a scrape and turns: a sealed envelope slides under the locked door. End exactly when envelope has stopped beneath the door; do not open it.
+[0:10–0:15] Cut to flooded archive: dog rescues wet ledger, cat guides uniquely dry sealed glass dossier to safe step and sees its matching empty catalogue slot. End exactly in the stated bridge state.
 
 END STATE:
-Office map close two-shot: cat has just traced a red thread toward the clock-tower marker; dog at screen-right turns his head toward the closed door. A cream envelope with a red broken-circle wax seal has just stopped beneath the door.
+Flooded archive, sealed glass dossier secure on lowest dry step; cat points at matching empty catalogue slot, dog holding dry notebook page.
 
 CAMERA / SPACE:
-Seven deliberate shots with clear motivated cuts, not a slideshow: desk to wet street, watch circle to clock dial, red wax to red thread. Cat leads at measured purposeful pace while dog reacts more quickly. Strong composition and restrained travelling camera, shallow focus for clues, no frantic spin. Background animals only. The cloak never reveals a human or a recognisable culprit.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cat observes, deduces, turns with intention; quiet confidence and minimal precise gestures. Dog checks behind, fumbles one notebook page and raises lantern sharply, anxious but competent, never slapstick. Suspense comes from accumulating evidence and someone anticipating them. Mystery remains ambiguous; no literal ghost reveal.
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
 
 LIGHTING / MATERIALS:
-Maintain source animal faces and detailed stylized animation: illustrated fur strokes, textured tweed, painterly dimensional sets, cinematic chiaroscuro, wet stone, dark wood, amber gaslight and blue-black fog. No switch to live action or generic glossy toy animation. Nineteenth-century props, animal-only portraits.
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
 
 AUDIO:
-Original low cello pulse, restrained bass clarinet, sparse piano and uneasy string harmonics. Rain, purposeful pawsteps, paper rustle, lantern chain, distant river boat, clock ticks that stop abruptly. One heavy bell and unresolved final tick; no jump-scare scream. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
 Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
@@ -189,50 +209,54 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 1 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/development/KD-map-envelope.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`; @Image8 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Dark serious stylized animated Victorian animal noir, cinematic mystery trailer, London late nineteenth century
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; trailer
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
-@Image1 — Главный оригинал кота, выбранный владельцем; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
-@Image2 — Пёс — внешность и форма; улица — атмосфера; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Исходный кабинет и карта; file: projects/kot-detektiv/references/office-map.png.
-@Image4 — Мост, Лондон и совместный проход; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
-@Image5 — Набережная: часы, печать и оборвавшиеся следы; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
-@Image6 — Схема преступлений и письмо под дверью; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
-@Image7 — Часовая башня и скрытый неизвестный противник; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image7 — Газета завтрашнего дня — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image8 — Лот без владельца — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+
 START STATE:
-Continue @Video1 exactly: Office map close two-shot: cat has just traced a red thread toward the clock-tower marker; dog at screen-right turns his head toward the closed door. A cream envelope with a red broken-circle wax seal has just stopped beneath the door.
+Continue @Video1 exactly: Flooded archive, sealed glass dossier secure on lowest dry step; cat points at matching empty catalogue slot, dog holding dry notebook page.
 
 TIMELINE:
-[0:00–0:02] Resume the actual @Video1 final office frame, cat at map and dog turning to the door. Preserve thread layout and envelope location.
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Cut to puppet workshop: shadow rises, cat pins red thread, dog pulls curtain to reveal an animal puppet; line jerks toward dark vent, true manipulator unseen.
 
-[0:02–0:06] Low close-up: dog lifts envelope with furry paw; cat stops him with a small controlled gesture and studies the identical broken-circle seal. An unseen sender has anticipated the investigation. No readable letter text.
+[0:05–0:10] Cut to print shop: cat aligns engraved dark lamp with lit real lamp; actual flame extinguishes, dog turns sharply toward street, cat fixes gaze on empty plate tray.
 
-[0:06–0:11] Cut @Image7: partners climb two steps into the enormous clock mechanism. Lantern light crosses motionless gears; cat notices red ribbon on a gear, then looks to an upper catwalk.
-
-[0:11–0:15] Cloaked anthropomorphic animal silhouette withdraws behind a gear, only a furred tail edge and paw visible, no face. A single mechanical tick; cut to cat's intent green eyes. End unresolved, no capture, no title card.
+[0:10–0:15] Cut to auction: paddle rises above empty wet chair, cat traps its fine thread, owl suspends hammer. Dog turns toward moving curtain. End before the watcher can be seen.
 
 END STATE:
-Inside the clock tower, cat and dog look up at the upper catwalk. The cloaked animal figure disappears behind a gear, face and species unseen. A final metallic tick sounds and the cat's eyes sharpen: he understands a connection, but the mystery is unresolved.
+Auction room, paddle stopped by cat paw pinning thread; owl hammer suspended, dog approaching moving curtain; culprit identity and explanation unknown.
 
 CAMERA / SPACE:
-Seven deliberate shots with clear motivated cuts, not a slideshow: desk to wet street, watch circle to clock dial, red wax to red thread. Cat leads at measured purposeful pace while dog reacts more quickly. Strong composition and restrained travelling camera, shallow focus for clues, no frantic spin. Background animals only. The cloak never reveals a human or a recognisable culprit.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cat observes, deduces, turns with intention; quiet confidence and minimal precise gestures. Dog checks behind, fumbles one notebook page and raises lantern sharply, anxious but competent, never slapstick. Suspense comes from accumulating evidence and someone anticipating them. Mystery remains ambiguous; no literal ghost reveal.
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
 
 LIGHTING / MATERIALS:
-Maintain source animal faces and detailed stylized animation: illustrated fur strokes, textured tweed, painterly dimensional sets, cinematic chiaroscuro, wet stone, dark wood, amber gaslight and blue-black fog. No switch to live action or generic glossy toy animation. Nineteenth-century props, animal-only portraits.
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
 
 AUDIO:
-Original low cello pulse, restrained bass clarinet, sparse piano and uneasy string harmonics. Rain, purposeful pawsteps, paper rustle, lantern chain, distant river boat, clock ticks that stop abruptly. One heavy bell and unresolved final tick; no jump-scare scream. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
 Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
@@ -245,7 +269,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 </div>
 
 <a id="scene-2"></a>
-## Сцена 2 — Заставка — Кот детектив
+## Сцена 2 — Графическая заставка — Кот детектив
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
@@ -255,11 +279,12 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 **Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
 
-**Монтажная роль:** Начальная заставка. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
+**Монтажная роль:** Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 21. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
 
 **Входные изображения и их роли:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/branding/KD-opening.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-opening.png" alt="Заставка: точная композиция и надписи" loading="lazy"></a><figcaption>@Image1 — Заставка: точная композиция и надписи</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/branding/KD-poster.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-poster.png" alt="Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет" loading="lazy"></a><figcaption>@Image2 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -269,12 +294,15 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/branding/KD-opening.png`; @Image2 — `projects/kot-detektiv/references/branding/KD-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London; cinematic opening titles
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Заставка: точная композиция и надписи; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image2 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kot-detektiv/references/branding/KD-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -323,12 +351,15 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/branding/KD-opening.png`; @Image2 — `projects/kot-detektiv/references/branding/KD-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London; cinematic opening titles
 
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Заставка: точная композиция и надписи; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image2 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kot-detektiv/references/branding/KD-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -368,6 +399,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/branding/KD-opening.png`; @Image2 — `projects/kot-detektiv/references/branding/KD-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London; cinematic opening titles
@@ -375,6 +408,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Заставка: точная композиция и надписи; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image2 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kot-detektiv/references/branding/KD-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -434,6 +468,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/office-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-map.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-wide.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-wide.jpg" alt="Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения" loading="lazy"></a><figcaption>@Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/office-frame-02s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-frame-02s.png" alt="Кадр исходного видео кабинета — только свет и мультипликационная фактура" loading="lazy"></a><figcaption>@Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -442,6 +478,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 3 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png`; @Image4 — `projects/kot-detektiv/references/office-map.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-office-wide.jpg`; @Image6 — `projects/kot-detektiv/references/office-frame-02s.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -452,6 +490,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
+@Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -503,6 +543,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 3 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png`; @Image4 — `projects/kot-detektiv/references/office-map.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-office-wide.jpg`; @Image6 — `projects/kot-detektiv/references/office-frame-02s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -512,6 +554,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
+@Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -554,6 +598,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 3 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png`; @Image4 — `projects/kot-detektiv/references/office-map.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-office-wide.jpg`; @Image6 — `projects/kot-detektiv/references/office-frame-02s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -564,6 +610,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
+@Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -626,6 +674,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-duo.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-duo.png" alt="Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности" loading="lazy"></a><figcaption>@Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/london-street-frame-05s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/london-street-frame-05s.png" alt="Кадр исходного видео — движение пары и свет улицы, все фигуры животные" loading="lazy"></a><figcaption>@Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -634,6 +684,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 4 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png`; @Image4 — `projects/kot-detektiv/references/detective-cat-police-dog-bridge.png`; @Image5 — `projects/kot-detektiv/references/development/KD-duo.png`; @Image6 — `projects/kot-detektiv/references/london-street-frame-05s.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -644,6 +696,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
+@Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -695,6 +749,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 4 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png`; @Image4 — `projects/kot-detektiv/references/detective-cat-police-dog-bridge.png`; @Image5 — `projects/kot-detektiv/references/development/KD-duo.png`; @Image6 — `projects/kot-detektiv/references/london-street-frame-05s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -704,6 +760,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
+@Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -746,6 +804,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 4 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png`; @Image4 — `projects/kot-detektiv/references/detective-cat-police-dog-bridge.png`; @Image5 — `projects/kot-detektiv/references/development/KD-duo.png`; @Image6 — `projects/kot-detektiv/references/london-street-frame-05s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -756,6 +816,8 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
+@Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -818,6 +880,9 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/development/KD-quay-clue.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-quay-clue.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-riverside-solo.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-riverside-solo.png" alt="Исходная поза кота с лупой — только пластика расследования, без пищевого гэга" loading="lazy"></a><figcaption>@Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-riverside.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-riverside.png" alt="Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики" loading="lazy"></a><figcaption>@Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/riverside-frame-02s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/riverside-frame-02s.png" alt="Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы" loading="lazy"></a><figcaption>@Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -826,6 +891,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 5 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png`; @Image4 — `projects/kot-detektiv/references/development/KD-quay-clue.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-riverside-solo.png`; @Image6 — `projects/kot-detektiv/references/detective-cat-police-dog-riverside.png`; @Image7 — `projects/kot-detektiv/references/riverside-frame-02s.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -836,6 +903,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
+@Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
+@Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -887,6 +957,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png`; @Image4 — `projects/kot-detektiv/references/development/KD-quay-clue.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-riverside-solo.png`; @Image6 — `projects/kot-detektiv/references/detective-cat-police-dog-riverside.png`; @Image7 — `projects/kot-detektiv/references/riverside-frame-02s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -896,6 +968,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
+@Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
+@Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -938,6 +1013,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png`; @Image4 — `projects/kot-detektiv/references/development/KD-quay-clue.png`; @Image5 — `projects/kot-detektiv/references/detective-cat-riverside-solo.png`; @Image6 — `projects/kot-detektiv/references/detective-cat-police-dog-riverside.png`; @Image7 — `projects/kot-detektiv/references/riverside-frame-02s.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -948,6 +1025,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
 @Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
+@Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
+@Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1019,6 +1099,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 6 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png`; @Image4 — `projects/kot-detektiv/references/development/KD-map-envelope.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1079,6 +1161,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 6 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png`; @Image4 — `projects/kot-detektiv/references/development/KD-map-envelope.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1129,6 +1213,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 ```
 
 #### 6 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png`; @Image4 — `projects/kot-detektiv/references/development/KD-map-envelope.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1211,6 +1297,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 7 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1271,6 +1359,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 7 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1321,6 +1411,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 ```
 
 #### 7 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1403,6 +1495,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 8 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1463,6 +1557,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 8 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1513,6 +1609,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 ```
 
 #### 8 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png`; @Image4 — `projects/kot-detektiv/references/development/KD-clocktower.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1594,6 +1692,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1653,6 +1753,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1702,6 +1804,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 ```
 
 #### 9 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -1782,6 +1886,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1841,6 +1947,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1891,6 +1999,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, 19th-century London
@@ -1935,6 +2045,2163 @@ Dusty floor creak, brass gear click, slow door hinge and wind through dome; orig
 
 NEGATIVE PROMPT:
 Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-11"></a>
+## Сцена 11 — Вокзал без отправления
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Следы ведут от запертого чемодана. Кот сверяет пломбу, пёс расспрашивает ворона-станционного смотрителя, а паровоз без пассажиров даёт один сигнал.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="11">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 11 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Raven is a witness, not identified culprit. Clock remains stopped. No humans including station crowd and poster silhouettes. Suitcase not opened or duplicated.
+
+START STATE:
+Detective beside sealed suitcase on wet platform, dog holding lantern, raven stationmaster behind. Steam locomotive stationary, clock stopped.
+
+TIMELINE:
+[0:00–0:05] Track through platform steam to cat examining the red luggage seal; dog raises lantern and raven anxiously indicates the locked clasps.
+
+[0:05–0:10] Cat circles the case without opening it and follows the first wet animal pawprint outward across the tiles.
+
+[0:10–0:15] Show continuous trail beginning beside the intact suitcase, going toward the stationary train; cat signals dog to look, not declaring a supernatural answer.
+
+[0:15–0:20] Dog turns to raven with a quick notebook gesture; raven opens empty wing-paws in alarm, no spoken dialogue required.
+
+[0:20–0:25] A single whistle comes from the apparently empty cab; all three turn instantly, steam briefly clearing its dark window.
+
+[0:25–0:30] Cat leads dog briskly along the prints toward the engine; raven stays beside the sealed case, identity of whoever signalled remains unknown.
+
+END STATE:
+One whistle sounds from empty locomotive cab; pair immediately head toward it, suitcase stays sealed in raven custody.
+
+CAMERA / SPACE:
+Low clue insert, coherent reverse to train, purposeful forward tracking through steam; tense, no slapstick.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Gas hiss, dripping roof, quiet brass latch, single train whistle; original bass clarinet and accelerating low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 11 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Raven is a witness, not identified culprit. Clock remains stopped. No humans including station crowd and poster silhouettes. Suitcase not opened or duplicated.
+
+START STATE:
+Detective beside sealed suitcase on wet platform, dog holding lantern, raven stationmaster behind. Steam locomotive stationary, clock stopped.
+
+TIMELINE:
+[0:00–0:05] Track through platform steam to cat examining the red luggage seal; dog raises lantern and raven anxiously indicates the locked clasps.
+
+[0:05–0:10] Cat circles the case without opening it and follows the first wet animal pawprint outward across the tiles.
+
+[0:10–0:15] Show continuous trail beginning beside the intact suitcase, going toward the stationary train; cat signals dog to look, not declaring a supernatural answer. End exactly in the stated bridge state.
+
+END STATE:
+Cat has traced pawprints FROM locked suitcase toward train; seal intact, raven cannot explain; dog lantern points along prints.
+
+CAMERA / SPACE:
+Low clue insert, coherent reverse to train, purposeful forward tracking through steam; tense, no slapstick.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Gas hiss, dripping roof, quiet brass latch, single train whistle; original bass clarinet and accelerating low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 11 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Raven is a witness, not identified culprit. Clock remains stopped. No humans including station crowd and poster silhouettes. Suitcase not opened or duplicated.
+
+START STATE:
+Continue @Video1 exactly: Cat has traced pawprints FROM locked suitcase toward train; seal intact, raven cannot explain; dog lantern points along prints.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Dog turns to raven with a quick notebook gesture; raven opens empty wing-paws in alarm, no spoken dialogue required.
+
+[0:05–0:10] A single whistle comes from the apparently empty cab; all three turn instantly, steam briefly clearing its dark window.
+
+[0:10–0:15] Cat leads dog briskly along the prints toward the engine; raven stays beside the sealed case, identity of whoever signalled remains unknown.
+
+END STATE:
+One whistle sounds from empty locomotive cab; pair immediately head toward it, suitcase stays sealed in raven custody.
+
+CAMERA / SPACE:
+Low clue insert, coherent reverse to train, purposeful forward tracking through steam; tense, no slapstick.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Gas hiss, dripping roof, quiet brass latch, single train whistle; original bass clarinet and accelerating low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-12"></a>
+## Сцена 12 — Роза на сухом камне
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** В заброшенной оранжерее цветёт свежая роза. Красная нить ведёт к верхней галерее; увиденный там силуэт исчезает, оставив запотевший след на стекле.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="12">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 12 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Distant shadow is not proof of culprit identity. Animal statues only. Rose remains rooted. Thread is an investigative lead, no confirmed magic explanation.
+
+START STATE:
+Cat kneels by fresh rose growing through cracked dry stone, dog lantern behind, upper gallery lost in blue mist.
+
+TIMELINE:
+[0:00–0:05] Move through dead vines to the vividly fresh rose; cat compares damp petals with dry surrounding stone without picking it.
+
+[0:05–0:10] He lifts a loose red thread gently off a thorn with his furry paw and shows the cut end to dog lantern.
+
+[0:10–0:15] Dog glances up sharply as a distant cloaked animal outline crosses gallery; cat follows his eyeline at once.
+
+[0:15–0:20] Both move briskly to the stair foot, keeping lantern steady; outline vanishes behind ironwork, no reveal of face or species.
+
+[0:20–0:25] A fresh misted paw mark appears on an upper glass panel where the figure passed; cat points out it is still drying.
+
+[0:25–0:30] Cat starts up the stairs, dog follows; end on the drying mark and abandoned red thread, mystery intact.
+
+END STATE:
+Pair at gallery stair foot, fresh fogged animal paw mark on railing glass visible above; the watcher has gone without revealing identity.
+
+CAMERA / SPACE:
+Macro clue to upward eyeline to active stair approach, controlled animated camera with noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Glasshouse wind, fabric brush, iron stair creak and lantern chain; original hushed strings with a sharp woodwind alert. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 12 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Distant shadow is not proof of culprit identity. Animal statues only. Rose remains rooted. Thread is an investigative lead, no confirmed magic explanation.
+
+START STATE:
+Cat kneels by fresh rose growing through cracked dry stone, dog lantern behind, upper gallery lost in blue mist.
+
+TIMELINE:
+[0:00–0:05] Move through dead vines to the vividly fresh rose; cat compares damp petals with dry surrounding stone without picking it.
+
+[0:05–0:10] He lifts a loose red thread gently off a thorn with his furry paw and shows the cut end to dog lantern.
+
+[0:10–0:15] Dog glances up sharply as a distant cloaked animal outline crosses gallery; cat follows his eyeline at once. End exactly in the stated bridge state.
+
+END STATE:
+Cat has found red thread snagged on thorn; dog sees a distant cloaked animal outline crossing upper gallery, face hidden.
+
+CAMERA / SPACE:
+Macro clue to upward eyeline to active stair approach, controlled animated camera with noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Glasshouse wind, fabric brush, iron stair creak and lantern chain; original hushed strings with a sharp woodwind alert. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 12 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Distant shadow is not proof of culprit identity. Animal statues only. Rose remains rooted. Thread is an investigative lead, no confirmed magic explanation.
+
+START STATE:
+Continue @Video1 exactly: Cat has found red thread snagged on thorn; dog sees a distant cloaked animal outline crossing upper gallery, face hidden.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Both move briskly to the stair foot, keeping lantern steady; outline vanishes behind ironwork, no reveal of face or species.
+
+[0:05–0:10] A fresh misted paw mark appears on an upper glass panel where the figure passed; cat points out it is still drying.
+
+[0:10–0:15] Cat starts up the stairs, dog follows; end on the drying mark and abandoned red thread, mystery intact.
+
+END STATE:
+Pair at gallery stair foot, fresh fogged animal paw mark on railing glass visible above; the watcher has gone without revealing identity.
+
+CAMERA / SPACE:
+Macro clue to upward eyeline to active stair approach, controlled animated camera with noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Glasshouse wind, fabric brush, iron stair creak and lantern chain; original hushed strings with a sharp woodwind alert. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-13"></a>
+## Сцена 13 — Зритель, которого не было
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** В пустой ложе остались мокрый след и маска. Через треснувший бинокль кот замечает отражение закрытой двери, которая только что открылась.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="13">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 13 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Fox mask is an object and does not establish culprit species. Every audience silhouette and programme portrait is an animal. No invented readable programme text.
+
+START STATE:
+Cat and dog in empty red-velvet opera box; fox-shaped mask, programme and one wet pawprint on seat, cracked opera glasses on rail.
+
+TIMELINE:
+[0:00–0:05] Move across empty velvet seat to wet animal print and ornate fox mask; dog carefully angles lantern without touching either.
+
+[0:05–0:10] Cat lifts the cracked opera glasses and checks the damaged lens against the chandelier light.
+
+[0:10–0:15] Through that lens catch a brief reflection of a distant box door opening; no face or species visible, cat immediately adjusts eyeline.
+
+[0:15–0:20] Dog points toward the matching opposite corridor, jotting one quick mark; cat lowers glasses and studies the empty chair once more.
+
+[0:20–0:25] Cat sets glasses back on rail precisely and turns toward the exit; both leave briskly, curtain swinging after them.
+
+[0:25–0:30] Hold only a brief final view of untouched mask and drying print as distant orchestra cuts off mid-phrase; mystery remains open.
+
+END STATE:
+Cat closes glasses and leads dog out toward the opposite corridor; mask and wet print remain undisturbed as music abruptly stops.
+
+CAMERA / SPACE:
+Seat evidence, eye-line lens insert and decisive exit; moody controlled movement, not a static theatrical tableau.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Distant original string orchestra, velvet rustle, lantern creak, abrupt musical silence; no applause gag. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 13 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Fox mask is an object and does not establish culprit species. Every audience silhouette and programme portrait is an animal. No invented readable programme text.
+
+START STATE:
+Cat and dog in empty red-velvet opera box; fox-shaped mask, programme and one wet pawprint on seat, cracked opera glasses on rail.
+
+TIMELINE:
+[0:00–0:05] Move across empty velvet seat to wet animal print and ornate fox mask; dog carefully angles lantern without touching either.
+
+[0:05–0:10] Cat lifts the cracked opera glasses and checks the damaged lens against the chandelier light.
+
+[0:10–0:15] Through that lens catch a brief reflection of a distant box door opening; no face or species visible, cat immediately adjusts eyeline. End exactly in the stated bridge state.
+
+END STATE:
+Cat holding glasses at eye level, dog lantern lighting wet print; distant reflected box door has moved though nearby seats are empty.
+
+CAMERA / SPACE:
+Seat evidence, eye-line lens insert and decisive exit; moody controlled movement, not a static theatrical tableau.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Distant original string orchestra, velvet rustle, lantern creak, abrupt musical silence; no applause gag. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 13 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Fox mask is an object and does not establish culprit species. Every audience silhouette and programme portrait is an animal. No invented readable programme text.
+
+START STATE:
+Continue @Video1 exactly: Cat holding glasses at eye level, dog lantern lighting wet print; distant reflected box door has moved though nearby seats are empty.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Dog points toward the matching opposite corridor, jotting one quick mark; cat lowers glasses and studies the empty chair once more.
+
+[0:05–0:10] Cat sets glasses back on rail precisely and turns toward the exit; both leave briskly, curtain swinging after them.
+
+[0:10–0:15] Hold only a brief final view of untouched mask and drying print as distant orchestra cuts off mid-phrase; mystery remains open.
+
+END STATE:
+Cat closes glasses and leads dog out toward the opposite corridor; mask and wet print remain undisturbed as music abruptly stops.
+
+CAMERA / SPACE:
+Seat evidence, eye-line lens insert and decisive exit; moody controlled movement, not a static theatrical tableau.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Distant original string orchestra, velvet rustle, lantern creak, abrupt musical silence; no applause gag. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-14"></a>
+## Сцена 14 — Письмо над городом
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** На крыше к трубе привязан чёрный змей с капсулой. Кот подтягивает нить, пёс страхует его; внутри капсулы оказывается новая схема улицы.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="14">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 14 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No dangerous leap or fall. Wide stable roof, no hanging from kite. Diagram without readable invented text, no confirmed culprit. All city silhouettes animals.
+
+START STATE:
+Both on a broad safe roof platform behind chimney, red kite line secured around pipe, black kite flying with brass message tube.
+
+TIMELINE:
+[0:00–0:05] Follow red line from black kite down to chimney knot; cat examines the unusual knot while dog braces on the wide roof.
+
+[0:05–0:10] Cat draws in line hand-over-paw with measured quick pulls, dog stabilizing the slack and watching gusts.
+
+[0:10–0:15] Tube descends within safe reach above the roof; cat catches it against his coat without stepping near the edge.
+
+[0:15–0:20] Dog secures the shortened line to chimney; cat detaches only the tube, kite remaining visibly tethered.
+
+[0:20–0:25] Cat unscrews cap with furry paws and extracts a small folded diagram; dog raises lantern to its nonverbal street layout.
+
+[0:25–0:30] Cat points from diagram to one distant gaslit street; both turn toward the safe stair door, carrying their new lead.
+
+END STATE:
+Tube recovered and opened, paper diagram held below their faces; red line remains secured, pair look toward a distant gaslit street.
+
+CAMERA / SPACE:
+Line-following tilt, close knot and tube action, broad city reveal; wind creates urgency without frantic spinning.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Wind, cloth kite snaps, taut line hum, brass cap click; original tense flowing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 14 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No dangerous leap or fall. Wide stable roof, no hanging from kite. Diagram without readable invented text, no confirmed culprit. All city silhouettes animals.
+
+START STATE:
+Both on a broad safe roof platform behind chimney, red kite line secured around pipe, black kite flying with brass message tube.
+
+TIMELINE:
+[0:00–0:05] Follow red line from black kite down to chimney knot; cat examines the unusual knot while dog braces on the wide roof.
+
+[0:05–0:10] Cat draws in line hand-over-paw with measured quick pulls, dog stabilizing the slack and watching gusts.
+
+[0:10–0:15] Tube descends within safe reach above the roof; cat catches it against his coat without stepping near the edge. End exactly in the stated bridge state.
+
+END STATE:
+Cat has drawn the line close, dog bracing beside him; tube hanging within safe paw reach above the roof, kite still tethered.
+
+CAMERA / SPACE:
+Line-following tilt, close knot and tube action, broad city reveal; wind creates urgency without frantic spinning.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Wind, cloth kite snaps, taut line hum, brass cap click; original tense flowing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 14 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No dangerous leap or fall. Wide stable roof, no hanging from kite. Diagram without readable invented text, no confirmed culprit. All city silhouettes animals.
+
+START STATE:
+Continue @Video1 exactly: Cat has drawn the line close, dog bracing beside him; tube hanging within safe paw reach above the roof, kite still tethered.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Dog secures the shortened line to chimney; cat detaches only the tube, kite remaining visibly tethered.
+
+[0:05–0:10] Cat unscrews cap with furry paws and extracts a small folded diagram; dog raises lantern to its nonverbal street layout.
+
+[0:10–0:15] Cat points from diagram to one distant gaslit street; both turn toward the safe stair door, carrying their new lead.
+
+END STATE:
+Tube recovered and opened, paper diagram held below their faces; red line remains secured, pair look toward a distant gaslit street.
+
+CAMERA / SPACE:
+Line-following tilt, close knot and tube action, broad city reveal; wind creates urgency without frantic spinning.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Wind, cloth kite snaps, taut line hum, brass cap click; original tense flowing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-15"></a>
+## Сцена 15 — Единственное сухое дело
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Архив затоплен, но одна папка лежит сухой под стеклом. Кот замечает пустое место в описи, пока пёс спасает намокшую книгу.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="15">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 15 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Dossier remains sealed and dry. Water no deeper than knees, no drowning danger. Animal crests and statues only, no readable invented file text.
+
+START STATE:
+Knee-deep water in old archive, cat beside dry glass-covered dossier on a low buoyant wooden chest, dog lifting wet ledger.
+
+TIMELINE:
+[0:00–0:05] Track ripples along shelves toward the glass case holding an improbably dry red-sealed dossier; cat tests chest edge, revealing that it floats.
+
+[0:05–0:10] Dog lifts heavy wet ledger clear of water and quickly places it on a dry shelf, droplets falling from its cover.
+
+[0:10–0:15] Cat examines dossier seal through glass, then points at a matching empty slot in the nearby catalogue tray.
+
+[0:15–0:20] Together they guide the buoyant chest across the shallow water toward stone steps, avoiding floating paper and keeping glass upright.
+
+[0:20–0:25] Cat compares the crest on the dossier with the empty tray marker; dog notes the match on a small dry page from his coat.
+
+[0:25–0:30] They stop the chest securely on the lowest dry step; light reveals all other files soaked, this one untouched, ending on the deliberate exception.
+
+END STATE:
+Pair move the sealed dossier chest to shallow steps without opening it; cat compares its animal crest to an empty catalogue slot.
+
+CAMERA / SPACE:
+Low water-level approach, clue inserts and deliberate active teamwork; maintain case position and floating cause.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Water drips, paper weight, splashing footsteps and chest scrape; original dark strings and isolated clarinet notes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 15 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Dossier remains sealed and dry. Water no deeper than knees, no drowning danger. Animal crests and statues only, no readable invented file text.
+
+START STATE:
+Knee-deep water in old archive, cat beside dry glass-covered dossier on a low buoyant wooden chest, dog lifting wet ledger.
+
+TIMELINE:
+[0:00–0:05] Track ripples along shelves toward the glass case holding an improbably dry red-sealed dossier; cat tests chest edge, revealing that it floats.
+
+[0:05–0:10] Dog lifts heavy wet ledger clear of water and quickly places it on a dry shelf, droplets falling from its cover.
+
+[0:10–0:15] Cat examines dossier seal through glass, then points at a matching empty slot in the nearby catalogue tray. End exactly in the stated bridge state.
+
+END STATE:
+Dog has placed ledger on dry shelf; cat sees intact red seal and a rectangular blank in an adjacent catalogue tray, glass case still closed.
+
+CAMERA / SPACE:
+Low water-level approach, clue inserts and deliberate active teamwork; maintain case position and floating cause.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Water drips, paper weight, splashing footsteps and chest scrape; original dark strings and isolated clarinet notes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 15 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Dossier remains sealed and dry. Water no deeper than knees, no drowning danger. Animal crests and statues only, no readable invented file text.
+
+START STATE:
+Continue @Video1 exactly: Dog has placed ledger on dry shelf; cat sees intact red seal and a rectangular blank in an adjacent catalogue tray, glass case still closed.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Together they guide the buoyant chest across the shallow water toward stone steps, avoiding floating paper and keeping glass upright.
+
+[0:05–0:10] Cat compares the crest on the dossier with the empty tray marker; dog notes the match on a small dry page from his coat.
+
+[0:10–0:15] They stop the chest securely on the lowest dry step; light reveals all other files soaked, this one untouched, ending on the deliberate exception.
+
+END STATE:
+Pair move the sealed dossier chest to shallow steps without opening it; cat compares its animal crest to an empty catalogue slot.
+
+CAMERA / SPACE:
+Low water-level approach, clue inserts and deliberate active teamwork; maintain case position and floating cause.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Water drips, paper weight, splashing footsteps and chest scrape; original dark strings and isolated clarinet notes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-16"></a>
+## Сцена 16 — Нить за занавеской
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** В мастерской марионеток мокрый след пересекает красные нити. Пёс замечает тень за занавеской; кот обнаруживает, что ею управляли снаружи.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="16">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 16 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Shadow comes from a puppet, NOT a revealed cat criminal. All puppets anthropomorphic animals. Thread physics clear, no unexplained doll teleport or horror gore.
+
+START STATE:
+Cat at puppet-maker bench with wet pawprint and red threads, dog beside curtain, animal marionettes hanging motionless.
+
+TIMELINE:
+[0:00–0:05] Glide between fox, badger and rabbit marionettes to the wet bench print; cat follows the water trail through the thread arrangement.
+
+[0:05–0:10] One red thread tightens with no visible touch; cat stops his paw just above it and signals dog with a precise glance.
+
+[0:10–0:15] Dog turns sharply as an animal-shaped shadow rises behind curtain; he holds the fabric edge and keeps lantern aimed.
+
+[0:15–0:20] Cat pins the moving thread against a wooden peg; shadow abruptly stops in the same pose, proving a mechanical connection.
+
+[0:20–0:25] Dog pulls curtain aside in one decisive motion: a suspended animal puppet, no living culprit, line running up toward a vent.
+
+[0:25–0:30] Cat releases and follows the line with his eyes; it jerks once through the dark vent, ending on evidence of an unseen controller.
+
+END STATE:
+Curtain reveals an animal puppet and a taut thread leading through a high vent; no person behind it, real manipulator remains unseen.
+
+CAMERA / SPACE:
+Bench clue to shadow reaction to mechanical reveal, clear lantern shadow direction; controlled noir suspense.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Thread scrape, wooden puppet joint click, curtain rustle, one unseen tug; original sparse low strings and celesta. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 16 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Shadow comes from a puppet, NOT a revealed cat criminal. All puppets anthropomorphic animals. Thread physics clear, no unexplained doll teleport or horror gore.
+
+START STATE:
+Cat at puppet-maker bench with wet pawprint and red threads, dog beside curtain, animal marionettes hanging motionless.
+
+TIMELINE:
+[0:00–0:05] Glide between fox, badger and rabbit marionettes to the wet bench print; cat follows the water trail through the thread arrangement.
+
+[0:05–0:10] One red thread tightens with no visible touch; cat stops his paw just above it and signals dog with a precise glance.
+
+[0:10–0:15] Dog turns sharply as an animal-shaped shadow rises behind curtain; he holds the fabric edge and keeps lantern aimed. End exactly in the stated bridge state.
+
+END STATE:
+Large pointed-eared silhouette appears behind curtain; dog holds curtain edge, cat has identified one moving red thread on bench.
+
+CAMERA / SPACE:
+Bench clue to shadow reaction to mechanical reveal, clear lantern shadow direction; controlled noir suspense.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Thread scrape, wooden puppet joint click, curtain rustle, one unseen tug; original sparse low strings and celesta. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 16 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Shadow comes from a puppet, NOT a revealed cat criminal. All puppets anthropomorphic animals. Thread physics clear, no unexplained doll teleport or horror gore.
+
+START STATE:
+Continue @Video1 exactly: Large pointed-eared silhouette appears behind curtain; dog holds curtain edge, cat has identified one moving red thread on bench.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Cat pins the moving thread against a wooden peg; shadow abruptly stops in the same pose, proving a mechanical connection.
+
+[0:05–0:10] Dog pulls curtain aside in one decisive motion: a suspended animal puppet, no living culprit, line running up toward a vent.
+
+[0:10–0:15] Cat releases and follows the line with his eyes; it jerks once through the dark vent, ending on evidence of an unseen controller.
+
+END STATE:
+Curtain reveals an animal puppet and a taut thread leading through a high vent; no person behind it, real manipulator remains unseen.
+
+CAMERA / SPACE:
+Bench clue to shadow reaction to mechanical reveal, clear lantern shadow direction; controlled noir suspense.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Thread scrape, wooden puppet joint click, curtain rustle, one unseen tug; original sparse low strings and celesta. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-17"></a>
+## Сцена 17 — Завтрашний оттиск
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** На свежем оттиске изображён погасший фонарь, который за окном ещё горит. Пока кот сравнивает детали, настоящий фонарь гаснет.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="17">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 17 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Use corrected image with rabbit and fox newspaper portraits. No readable headline, humans or human portraits. Period engraved press, no electric printer. Future prediction remains a mystery, not a proven power.
+
+START STATE:
+Cat holds fresh engraved newspaper proof inside print shop; main drawn streetlamp unlit, corresponding real lamp outside still burning. Dog beside window.
+
+TIMELINE:
+[0:00–0:05] Press slows to a stop, cat lifts the fresh picture proof and studies its precisely engraved street view; all printed portraits animals.
+
+[0:05–0:10] Dog notices the view matches the window and points quickly from illustration to real gaslamp outside.
+
+[0:10–0:15] Cat aligns the proof below window line: printed lamp dark, real one lit but beginning to flicker; his eyes narrow at the discrepancy.
+
+[0:15–0:20] Real flame extinguishes without affecting neighbouring lamps; cat lowers paper, dog reacts instantly and steps toward the door.
+
+[0:20–0:25] Cat turns to the fox press worker and indicates the source plate tray with a firm paw gesture; worker pulls it open.
+
+[0:25–0:30] Tray is empty except for a fresh red thread; cat and dog exchange one grave look, future-event mechanism still unexplained.
+
+END STATE:
+Real lamp has gone dark exactly as in engraving; cat immediately turns toward press operator, who shows an empty printing plate tray.
+
+CAMERA / SPACE:
+Match paper and window within one composition, brief real flame close-up, motivated turn to press; no modern split screen.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Press rollers slowing, paper rustle, gas flame sputter, metal tray slide; original investigative string pulse ending unresolved. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 17 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Use corrected image with rabbit and fox newspaper portraits. No readable headline, humans or human portraits. Period engraved press, no electric printer. Future prediction remains a mystery, not a proven power.
+
+START STATE:
+Cat holds fresh engraved newspaper proof inside print shop; main drawn streetlamp unlit, corresponding real lamp outside still burning. Dog beside window.
+
+TIMELINE:
+[0:00–0:05] Press slows to a stop, cat lifts the fresh picture proof and studies its precisely engraved street view; all printed portraits animals.
+
+[0:05–0:10] Dog notices the view matches the window and points quickly from illustration to real gaslamp outside.
+
+[0:10–0:15] Cat aligns the proof below window line: printed lamp dark, real one lit but beginning to flicker; his eyes narrow at the discrepancy. End exactly in the stated bridge state.
+
+END STATE:
+Cat has aligned paper view with window; dog points at real lamp as its flame begins to gutter, other street lamps steady.
+
+CAMERA / SPACE:
+Match paper and window within one composition, brief real flame close-up, motivated turn to press; no modern split screen.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Press rollers slowing, paper rustle, gas flame sputter, metal tray slide; original investigative string pulse ending unresolved. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 17 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Use corrected image with rabbit and fox newspaper portraits. No readable headline, humans or human portraits. Period engraved press, no electric printer. Future prediction remains a mystery, not a proven power.
+
+START STATE:
+Continue @Video1 exactly: Cat has aligned paper view with window; dog points at real lamp as its flame begins to gutter, other street lamps steady.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Real flame extinguishes without affecting neighbouring lamps; cat lowers paper, dog reacts instantly and steps toward the door.
+
+[0:05–0:10] Cat turns to the fox press worker and indicates the source plate tray with a firm paw gesture; worker pulls it open.
+
+[0:10–0:15] Tray is empty except for a fresh red thread; cat and dog exchange one grave look, future-event mechanism still unexplained.
+
+END STATE:
+Real lamp has gone dark exactly as in engraving; cat immediately turns toward press operator, who shows an empty printing plate tray.
+
+CAMERA / SPACE:
+Match paper and window within one composition, brief real flame close-up, motivated turn to press; no modern split screen.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Press rollers slowing, paper rustle, gas flame sputter, metal tray slide; original investigative string pulse ending unresolved. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-18"></a>
+## Сцена 18 — Лодка против течения
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Пустая лодка тянет канат против потока. Пёс удерживает её у причала, кот достаёт запечатанное письмо и находит уходящую под воду леску.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="18">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 18 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No one enters water, rope not tied to bodies. Boat empty except lantern and envelope. Mystery is an unseen mechanism/controller, no revealed culprit.
+
+START STATE:
+Cat kneeling on dry towpath, dog holding a boat rope; empty boat with lantern and sealed envelope pulls slowly toward sluice against current.
+
+TIMELINE:
+[0:00–0:05] Show current streaming away from sluice while empty boat moves gently toward it; dog braces rope and calls cat attention through a sharp gesture.
+
+[0:05–0:10] Dog loops rope around fixed bollard and holds it safely, slowing boat until its side rests against the quay.
+
+[0:10–0:15] Cat kneels and reaches the envelope from the boat floor with one furry paw, dog keeping line taut and boat stable.
+
+[0:15–0:20] Cat raises intact red seal toward lantern, then notices a second much thinner line at the bow.
+
+[0:20–0:25] He draws a short section of thin line onto quay; it remains taut beneath water, explaining the movement but not who caused it.
+
+[0:25–0:30] Dog turns lantern along the line toward a dark sluice arch; cat pockets unopened envelope and rises to follow the new lead.
+
+END STATE:
+Envelope recovered unopened, cat reveals fine line running from boat bow under the water; pair follow its direction, unseen puller unrevealed.
+
+CAMERA / SPACE:
+Wide current/boat contradiction, low stable retrieval, final eyeline toward dark arch; suspense through action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Sluice roar, rope strain, wood knock, envelope rustle; original low woodwind and measured urgent strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 18 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No one enters water, rope not tied to bodies. Boat empty except lantern and envelope. Mystery is an unseen mechanism/controller, no revealed culprit.
+
+START STATE:
+Cat kneeling on dry towpath, dog holding a boat rope; empty boat with lantern and sealed envelope pulls slowly toward sluice against current.
+
+TIMELINE:
+[0:00–0:05] Show current streaming away from sluice while empty boat moves gently toward it; dog braces rope and calls cat attention through a sharp gesture.
+
+[0:05–0:10] Dog loops rope around fixed bollard and holds it safely, slowing boat until its side rests against the quay.
+
+[0:10–0:15] Cat kneels and reaches the envelope from the boat floor with one furry paw, dog keeping line taut and boat stable. End exactly in the stated bridge state.
+
+END STATE:
+Dog has secured rope around bollard, boat held alongside; cat reaches toward envelope without stepping into water.
+
+CAMERA / SPACE:
+Wide current/boat contradiction, low stable retrieval, final eyeline toward dark arch; suspense through action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Sluice roar, rope strain, wood knock, envelope rustle; original low woodwind and measured urgent strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 18 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+No one enters water, rope not tied to bodies. Boat empty except lantern and envelope. Mystery is an unseen mechanism/controller, no revealed culprit.
+
+START STATE:
+Continue @Video1 exactly: Dog has secured rope around bollard, boat held alongside; cat reaches toward envelope without stepping into water.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Cat raises intact red seal toward lantern, then notices a second much thinner line at the bow.
+
+[0:05–0:10] He draws a short section of thin line onto quay; it remains taut beneath water, explaining the movement but not who caused it.
+
+[0:10–0:15] Dog turns lantern along the line toward a dark sluice arch; cat pockets unopened envelope and rises to follow the new lead.
+
+END STATE:
+Envelope recovered unopened, cat reveals fine line running from boat bow under the water; pair follow its direction, unseen puller unrevealed.
+
+CAMERA / SPACE:
+Wide current/boat contradiction, low stable retrieval, final eyeline toward dark arch; suspense through action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Sluice roar, rope strain, wood knock, envelope rustle; original low woodwind and measured urgent strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-19"></a>
+## Сцена 19 — Покупатель пустого кресла
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** На закрытом аукционе маленький ключ отбрасывает огромную тень. Торг выигрывает пустое мокрое кресло, а кот замечает леску у таблички участника.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="19">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 19 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+All collectors, paintings and statues animals. Owl witness only. Large key shadow comes from nearby lamp; no human-shaped shadow. No transaction completed, no culprit revealed.
+
+START STATE:
+Cat and dog among animal collectors at private auction; small key under glass, owl auctioneer, empty wet velvet chair foreground.
+
+TIMELINE:
+[0:00–0:05] Track from tiny key and oversized physically cast wall shadow to the inexplicably wet empty chair; cat studies droplets closely.
+
+[0:05–0:10] Owl raises auction hammer; a numbered paddle rises behind the empty chair without any visible bidder, animal audience turns.
+
+[0:10–0:15] Cat lowers gaze to paddle base and sees a fine taut thread; dog immediately shifts to watch the nearest doorway.
+
+[0:15–0:20] Cat steps behind the chair and pins thread against the wood with his furry paw; paddle stops halfway through another movement.
+
+[0:20–0:25] Owl suspends the final hammer strike, collectors frozen for one short tense beat; a curtain at far doorway twitches.
+
+[0:25–0:30] Dog moves decisively toward the curtain while cat keeps thread trapped; end before any identity or winning bid is resolved.
+
+END STATE:
+Cat pins thread before paddle can move again, owl holds hammer raised; a distant curtain shifts but nobody is identified.
+
+CAMERA / SPACE:
+Key scale insert, empty chair reveal, active thread interception and doorway eyeline; rich noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Quiet animal crowd, hammer poised without strike, thread tension and velvet scrape; original low strings and one metallic note. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 19 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+All collectors, paintings and statues animals. Owl witness only. Large key shadow comes from nearby lamp; no human-shaped shadow. No transaction completed, no culprit revealed.
+
+START STATE:
+Cat and dog among animal collectors at private auction; small key under glass, owl auctioneer, empty wet velvet chair foreground.
+
+TIMELINE:
+[0:00–0:05] Track from tiny key and oversized physically cast wall shadow to the inexplicably wet empty chair; cat studies droplets closely.
+
+[0:05–0:10] Owl raises auction hammer; a numbered paddle rises behind the empty chair without any visible bidder, animal audience turns.
+
+[0:10–0:15] Cat lowers gaze to paddle base and sees a fine taut thread; dog immediately shifts to watch the nearest doorway. End exactly in the stated bridge state.
+
+END STATE:
+Bidding paddle has risen from empty chair, owl pauses his hammer; cat has noticed a fine thread at the paddle base, dog watches exit.
+
+CAMERA / SPACE:
+Key scale insert, empty chair reveal, active thread interception and doorway eyeline; rich noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Quiet animal crowd, hammer poised without strike, thread tension and velvet scrape; original low strings and one metallic note. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 19 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+All collectors, paintings and statues animals. Owl witness only. Large key shadow comes from nearby lamp; no human-shaped shadow. No transaction completed, no culprit revealed.
+
+START STATE:
+Continue @Video1 exactly: Bidding paddle has risen from empty chair, owl pauses his hammer; cat has noticed a fine thread at the paddle base, dog watches exit.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Cat steps behind the chair and pins thread against the wood with his furry paw; paddle stops halfway through another movement.
+
+[0:05–0:10] Owl suspends the final hammer strike, collectors frozen for one short tense beat; a curtain at far doorway twitches.
+
+[0:10–0:15] Dog moves decisively toward the curtain while cat keeps thread trapped; end before any identity or winning bid is resolved.
+
+END STATE:
+Cat pins thread before paddle can move again, owl holds hammer raised; a distant curtain shifts but nobody is identified.
+
+CAMERA / SPACE:
+Key scale insert, empty chair reveal, active thread interception and doorway eyeline; rich noir depth.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Quiet animal crowd, hammer poised without strike, thread tension and velvet scrape; original low strings and one metallic note. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-20"></a>
+## Сцена 20 — Звон без языка
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Колокол звучал, хотя его язык снят. Кот находит свежий срез каната; очередной удар слышится с другой стороны города.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="20">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 20 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Present bell never swings or magically rings. Sound comes from another unseen source. No solved culprit or supernatural explanation. Safe platform with railing.
+
+START STATE:
+Cat and dog in timber bell chamber, giant stationary bell missing clapper, dust drifting below rim, cut rope with red thread near cat.
+
+TIMELINE:
+[0:00–0:05] Follow settling dust toward massive bell underside; dog raises lantern, cat checks cut rope beside support beam.
+
+[0:05–0:10] Reveal clearly empty clapper socket inside bell; cat touches severed rope end and finds fresh pale fibres beneath the red tie.
+
+[0:10–0:15] Both look from the absent clapper to the still bell; dog tests only a loose rope section, no ringing produced.
+
+[0:15–0:20] One resonant note sounds from outside the chamber; cat immediately turns toward the open city-facing louvres.
+
+[0:20–0:25] Dog lifts lantern away from their eyes as cat follows the sound across river toward a different dark tower.
+
+[0:25–0:30] Cat points once, then both move briskly toward the stair; end on silent empty bell foreground and distant answering city.
+
+END STATE:
+A new distant bell note comes from across river, both turn toward city window; cat points at a separate dark tower, source unresolved.
+
+CAMERA / SPACE:
+Underside reveal, rope detail, sharp motivated turn and broad London vista; serious active deduction.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Timber creak, fine dust fall, one deep distant bell from outside, urgent original low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 20 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Present bell never swings or magically rings. Sound comes from another unseen source. No solved culprit or supernatural explanation. Safe platform with railing.
+
+START STATE:
+Cat and dog in timber bell chamber, giant stationary bell missing clapper, dust drifting below rim, cut rope with red thread near cat.
+
+TIMELINE:
+[0:00–0:05] Follow settling dust toward massive bell underside; dog raises lantern, cat checks cut rope beside support beam.
+
+[0:05–0:10] Reveal clearly empty clapper socket inside bell; cat touches severed rope end and finds fresh pale fibres beneath the red tie.
+
+[0:10–0:15] Both look from the absent clapper to the still bell; dog tests only a loose rope section, no ringing produced. End exactly in the stated bridge state.
+
+END STATE:
+Dog lantern exposes empty clapper socket; cat holds severed rope end and sees fresh fibres, bell unmoving.
+
+CAMERA / SPACE:
+Underside reveal, rope detail, sharp motivated turn and broad London vista; serious active deduction.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Timber creak, fine dust fall, one deep distant bell from outside, urgent original low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 20 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+Present bell never swings or magically rings. Sound comes from another unseen source. No solved culprit or supernatural explanation. Safe platform with railing.
+
+START STATE:
+Continue @Video1 exactly: Dog lantern exposes empty clapper socket; cat holds severed rope end and sees fresh fibres, bell unmoving.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: One resonant note sounds from outside the chamber; cat immediately turns toward the open city-facing louvres.
+
+[0:05–0:10] Dog lifts lantern away from their eyes as cat follows the sound across river toward a different dark tower.
+
+[0:10–0:15] Cat points once, then both move briskly toward the stair; end on silent empty bell foreground and distant answering city.
+
+END STATE:
+A new distant bell note comes from across river, both turn toward city window; cat points at a separate dark tower, source unresolved.
+
+CAMERA / SPACE:
+Underside reveal, rope detail, sharp motivated turn and broad London vista; serious active deduction.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Timber creak, fine dust fall, one deep distant bell from outside, urgent original low strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-21"></a>
+## Сцена 21 — Событийная заставка сериала — По следу невозможного
+
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["event_opening","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Вокзал → оранжерея → крыши → шлюз → колокольня → название. Заставка знакомит с методичностью кота, быстрыми реакциями пса и огромным загадочным Лондоном; разгадок и кадров трейлера здесь нет.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Кот — выбранный владельцем оригинал" loading="lazy"></a><figcaption>@Image1 — Кот — выбранный владельцем оригинал</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — исходная внешность и форма" loading="lazy"></a><figcaption>@Image2 — Пёс — исходная внешность и форма</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" alt="Вокзал без отправления — только эта локация и её действие" loading="lazy"></a><figcaption>@Image3 — Вокзал без отправления — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" alt="Шёпот зимнего сада — только эта локация и её действие" loading="lazy"></a><figcaption>@Image4 — Шёпот зимнего сада — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" alt="Нить над крышами — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Нить над крышами — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" alt="Лодка против течения — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Лодка против течения — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" alt="Колокол без языка — только эта локация и её действие" loading="lazy"></a><figcaption>@Image7 — Колокол без языка — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/branding/KD-opening.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-opening.png" alt="Отдельная опора монтажа: KD-opening.png" loading="lazy"></a><figcaption>@Image8 — Отдельная опора монтажа: KD-opening.png</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="21">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 21 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`; @Image8 — `projects/kot-detektiv/references/branding/KD-opening.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Вокзал без отправления — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image4 — Шёпот зимнего сада — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Steam-covered railway platform, cat already investigating suitcase seal and dog moving lantern toward the prints.
+
+TIMELINE:
+[0:00–0:05] Steam clears to detective tracing prints from locked suitcase, dog raising lantern and raven stationmaster pointing toward train; pair immediately move along the trail.
+
+[0:05–0:10] Cut from red luggage seal to rose thorn: cat lifts snagged red thread, dog catches movement on upper glasshouse gallery, both turn toward stairs.
+
+[0:10–0:15] Cut on thread to rooftop kite line: cat draws brass message tube safely onto broad roof, dog secures line at chimney; city opens behind their coordinated action.
+
+[0:15–0:20] Cut to canal lock: dog braces boat rope at bollard while cat retrieves sealed envelope, then identifies a thin line going beneath water.
+
+[0:20–0:25] Cut to bell chamber: lantern reveals absent clapper; distant sound makes both turn toward London, cat points and leads toward stairs. No accusation or culprit reveal.
+
+[0:25–0:30] Use a passing timber beam as clean editorial wipe to original title desk artwork. Reveal exact КОТ / ДЕТЕКТИВ in ivory serif; rain continues behind, final two-second title hold.
+
+END STATE:
+Exact supplied КОТ / ДЕТЕКТИВ title readable over Victorian desk and rainy London; watch stopped, no extra words or modern graphic effects.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, unrequested subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 21 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`; @Image8 — `projects/kot-detektiv/references/branding/KD-opening.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Вокзал без отправления — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image4 — Шёпот зимнего сада — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Steam-covered railway platform, cat already investigating suitcase seal and dog moving lantern toward the prints.
+
+TIMELINE:
+[0:00–0:05] Steam clears to detective tracing prints from locked suitcase, dog raising lantern and raven stationmaster pointing toward train; pair immediately move along the trail.
+
+[0:05–0:10] Cut from red luggage seal to rose thorn: cat lifts snagged red thread, dog catches movement on upper glasshouse gallery, both turn toward stairs.
+
+[0:10–0:15] Cut on thread to rooftop kite line: cat draws brass message tube safely onto broad roof, dog secures line at chimney; city opens behind their coordinated action. End exactly in the stated bridge state.
+
+END STATE:
+Rooftop: brass message tube recovered safely, red kite line secured at chimney, pair study the sealed cap against London skyline.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, unrequested subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 21 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png`; @Image8 — `projects/kot-detektiv/references/branding/KD-opening.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, dimensional painterly textures, London 19th century; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — Вокзал без отправления — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image4 — Шёпот зимнего сада — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: exact original @Image1 identity, grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker/cape/waistcoat, white collar and brown tie, watch chain, feline paws. Calm and deliberate, never vacant or lethargic. DOG CONSTABLE: exact dog from @Image2 only, taller brown shepherd-mutt, dark muzzle/ears, navy Victorian bobby coat and helmet, expressive anxious eyes, furred animal paws and tail. His nervous glances and quick notebook gestures contrast with the cat. All characters, background citizens and portraits are anthropomorphic ANIMALS; no humans.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Continue @Video1 exactly: Rooftop: brass message tube recovered safely, red kite line secured at chimney, pair study the sealed cap against London skyline.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Cut to canal lock: dog braces boat rope at bollard while cat retrieves sealed envelope, then identifies a thin line going beneath water.
+
+[0:05–0:10] Cut to bell chamber: lantern reveals absent clapper; distant sound makes both turn toward London, cat points and leads toward stairs. No accusation or culprit reveal.
+
+[0:10–0:15] Use a passing timber beam as clean editorial wipe to original title desk artwork. Reveal exact КОТ / ДЕТЕКТИВ in ivory serif; rain continues behind, final two-second title hold.
+
+END STATE:
+Exact supplied КОТ / ДЕТЕКТИВ title readable over Victorian desk and rainy London; watch stopped, no extra words or modern graphic effects.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Cat calm, precise and decisive; dog anxious but competent, swift useful reactions. Serious animated acting, active deduction, no slapstick or vacant holds.
+
+LIGHTING / MATERIALS:
+Painterly animated fur, ink-rich shadows, tactile tweed, wet cobbles and brass; amber gaslight against blue fog. Never photoreal/live-action.
+
+AUDIO:
+Original noir score: driving low strings, bass clarinet, tense restrained percussion; gaslight, footsteps and clue sounds give each cut a purpose. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Humans, human background silhouettes, human portraits or skulls, human skin/hands, changed breeds or costumes, photo/live-action look, glossy generic 3D toy style, comedy faces, food gags, pizza, cheese, modern police tape, cars, rotary phones, electric screens, unrequested subtitles, readable invented letters, watermarks, revealed culprit face or species, gore, static slideshow.
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.

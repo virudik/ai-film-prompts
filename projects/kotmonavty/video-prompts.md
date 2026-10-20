@@ -4,16 +4,16 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21.10.2026 · 10 сцен к генерации/доработке · 30 полных текстов промта**
+**21.10.2026 · 22 сцен к генерации/доработке · 66 полных текстов промта**
 
 - **🛠️ 0** рабочих направлений W: предложения оформлены как DRAFT-сцены по новой команде владельца.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя оформленная активная сцена:** 10 — черновик, без запуска и без очереди.
-- **Последняя полная синхронизация:** **21.10.2026 · афиша, заставка, шесть эпизодов, две дополнительные сцены**.
+- **Последняя оформленная активная сцена:** 22 — черновик, без запуска и без очереди.
+- **Последняя полная синхронизация:** **21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер**.
 
 **Все сцены DRAFT.** Это тексты и изображения для доработки владельцем, не готовые видеоролики. Очередь не менялась. По каждой сцене: 30 секунд Wan 3.0 / Seedance 2.5 и две части Seedance 2.0 по 15 секунд. Для второй части нужен реальный результат первой. Только безлимит, 0 кредитов; платные запуски — владелец. Ничего не одобрять, не удалять и не перезапускать автоматически.
 
-## Афиша и начальная заставка
+## Афиша и графическая заставка
 
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/branding/KM-poster.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/branding/KM-poster.png" alt="Афиша «Котмонавты» — новый авторский вариант" loading="lazy"></a><figcaption>Афиша «Котмонавты» — новый авторский вариант</figcaption></figure>
@@ -22,24 +22,38 @@
 
 [Все картинки и их назначение](projects/kotmonavty/visual-catalog.md) · [Сюжет по эпизодам](projects/kotmonavty/story-development.md) · [Порядок фильма](film.html?p=kotmonavty).
 
+**Три разных формата:** графическая заставка — 3; событийная заставка сериала — 22; трейлер — 2. События и монтаж трейлера не повторяют событийную заставку.
+
 ## Оглавление сцен
 
-| ID | Сцена | Роль |
+| ID | Сцена | Назначение |
 |---|---|---|
-| 1 | [Самый серьёзный заказ](#scene-1) | Эпизод 1 |
-| 2 | [Трейлер — Не тот груз](#scene-2) | Трейлер |
-| 3 | [Заставка — РосКОТмос представляет](#scene-3) | Заставка |
-| 4 | [Не тот груз](#scene-4) | Эпизод 2 |
-| 5 | [Узкий проход](#scene-5) | Эпизод 3 |
-| 6 | [Чужая карта](#scene-6) | Эпизод 4 |
-| 7 | [Девять жизней на двоих](#scene-7) | Эпизод 5 |
-| 8 | [Добавки не будет](#scene-8) | Эпизод 6 |
-| 9 | [Завтрак в невесомости](#scene-9) | Дополнительная ситуация |
-| 10 | [Нечего декларировать](#scene-10) | Дополнительная ситуация |
+| 1 | [Самый серьёзный заказ](#scene-1) | Эпизод / дополнительная ситуация |
+| 2 | [Трейлер — Неприятности галактического масштаба](#scene-2) | Трейлер |
+| 3 | [Графическая заставка — РосКОТмос представляет](#scene-3) | Графическая заставка |
+| 4 | [Не тот груз](#scene-4) | Эпизод / дополнительная ситуация |
+| 5 | [Узкий проход](#scene-5) | Эпизод / дополнительная ситуация |
+| 6 | [Чужая карта](#scene-6) | Эпизод / дополнительная ситуация |
+| 7 | [Девять жизней на двоих](#scene-7) | Эпизод / дополнительная ситуация |
+| 8 | [Добавки не будет](#scene-8) | Эпизод / дополнительная ситуация |
+| 9 | [Завтрак в невесомости](#scene-9) | Эпизод / дополнительная ситуация |
+| 10 | [Нечего декларировать](#scene-10) | Эпизод / дополнительная ситуация |
+| 11 | [Штаб РосКОТмоса — срочный вылет](#scene-11) | Штаб РосКОТмоса |
+| 12 | [Магнитная свалка — груз с характером](#scene-12) | Новая ситуация по готовой картинке |
+| 13 | [Подводный рынок — слишком крупная рыба](#scene-13) | Новая ситуация по готовой картинке |
+| 14 | [Маяк под песком](#scene-14) | Новая ситуация по готовой картинке |
+| 15 | [Кто за кем наблюдает](#scene-15) | Новая ситуация по готовой картинке |
+| 16 | [Два голоса за](#scene-16) | Новая ситуация по готовой картинке |
+| 17 | [Сад, который идёт следом](#scene-17) | Новая ситуация по готовой картинке |
+| 18 | [Билет до следующего вагона](#scene-18) | Новая ситуация по готовой картинке |
+| 19 | [Холодная добыча](#scene-19) | Новая ситуация по готовой картинке |
+| 20 | [Высадка в шторм](#scene-20) | Новая ситуация по готовой картинке |
+| 21 | [Экспонат руками не трогать](#scene-21) | Новая ситуация по готовой картинке |
+| 22 | [Событийная заставка сериала — Экипаж РосКОТмоса](#scene-22) | Событийная заставка сериала |
 
 ## Сцены в работе
 
-Все десять сцен оформлены ниже. Редакторское одобрение и команда на очередь остаются за владельцем.
+Все сцены ниже — DRAFT для доработки владельцем. Ничего не поставлено в очередь и не запущено.
 
 <a id="scene-1"></a>
 ## Сцена 1 — Самый серьёзный заказ
@@ -69,6 +83,8 @@
 
 #### 1 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Photoreal epic space-adventure deadpan comedy; serious cats in an alien bar
@@ -82,6 +98,8 @@ Priority: original individual identities first; environment references control o
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats sit on separate high stools at the same brass bar, Luchik left and Ryzhik right. Exactly two short wide shot glasses of white milk rest on the counter, one in front of each cat. Large reptilian bartender behind. No compass in this standalone scene.
@@ -126,6 +144,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 1 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic space-adventure deadpan comedy; serious cats in an alien bar
@@ -139,6 +159,8 @@ Priority: original individual identities first; environment references control o
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats sit on separate high stools at the same brass bar, Luchik left and Ryzhik right. Exactly two short wide shot glasses of white milk rest on the counter, one in front of each cat. Large reptilian bartender behind. No compass in this standalone scene.
@@ -174,6 +196,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 1 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic space-adventure deadpan comedy; serious cats in an alien bar
@@ -188,6 +212,8 @@ Priority: original individual identities first; environment references control o
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Close two-shot: cats have just lifted their heads from the milk. Ryzhik has one small milk drop on his whisker. Two glasses remain on the counter in their original positions; bartender pauses behind.
@@ -227,29 +253,29 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 </div>
 
 <a id="scene-2"></a>
-## Сцена 2 — Трейлер — Не тот груз
+## Сцена 2 — Трейлер — Неприятности галактического масштаба
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["trailer","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
-**Черновик по задаче владельца 20.10.2026. В очередь не добавлять. Генерации не запускались.**
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
 
-**Связь с новым пакетом:** заставка — сцена 3; шесть эпизодов — 1, 4, 5, 6, 7, 8. Афиша и дополнительные кадры доступны в галерее проекта. Трейлер остаётся самостоятельным монтажным промтом.
+**Что происходит:** Магнитная свалка → погоня через кольцо → маяк в буре → прыжок по грузовому поезду → ключ во льду → авария музейной гравитации. Шесть разных опасностей и один невозмутимый экипаж.
 
-**Что происходит:** Молоко в баре → чужой звёздный компас → погоня на исходном корабле → активная работа в знакомой кабине → пробуждение древнего архива и бегство → невозмутимый глоток молока.
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
 
-**Готовность:** Все семь статичных входов подготовлены. Трейлер остаётся DRAFT до выбора владельцем сюжетной линии; часть 2 Seedance зависит от будущего результата части 1. Техническая проверка изображения не является одобрением владельца.
-
-**Сюжетный статус:** рабочее предложение «Не тот груз», не утверждённый финальный сюжет. Исходные коты, корабль и кабина сохранены; новые события подготовлены как концепт трейлера. Подробный монтажный план и шесть эпизодов — `story-development.md`.
+**Назначение:** Самостоятельный рекламный трейлер; набор событий не повторяет событийную заставку.
 
 **Входные изображения и их роли:**
 <div class="scene-ref-gallery">
-<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — морда и шерсть" loading="lazy"></a><figcaption>@Image1 — Лучик — морда и шерсть</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — морда и шерсть" loading="lazy"></a><figcaption>@Image2 — Рыжик — морда и шерсть</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Исходный выбранный корабль — абсолютный дизайн" loading="lazy"></a><figcaption>@Image3 — Исходный выбранный корабль — абсолютный дизайн</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/ship-interior-cockpit.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-interior-cockpit.png" alt="Кабина: Рыжик слева, Лучик справа" loading="lazy"></a><figcaption>@Image4 — Кабина: Рыжик слева, Лучик справа</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/development/KM-bar-compass.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-bar-compass.png" alt="Бар, бармен и звёздный компас" loading="lazy"></a><figcaption>@Image5 — Бар, бармен и звёздный компас</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/development/KM-ring-chase.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-ring-chase.png" alt="Погоня и орбитальное кольцо" loading="lazy"></a><figcaption>@Image6 — Погоня и орбитальное кольцо</figcaption></figure>
-<figure><a href="projects/kotmonavty/references/development/KM-star-vault.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-star-vault.png" alt="Звёздный архив, мост и компас" loading="lazy"></a><figcaption>@Image7 — Звёздный архив, мост и компас</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — исходная идентичность" loading="lazy"></a><figcaption>@Image1 — Лучик — исходная идентичность</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — исходная идентичность" loading="lazy"></a><figcaption>@Image2 — Рыжик — исходная идентичность</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png" alt="Магнитная свалка — только эта локация и её действие" loading="lazy"></a><figcaption>@Image3 — Магнитная свалка — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/development/KM-ring-chase.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-ring-chase.png" alt="Отдельная опора монтажа: KM-ring-chase.png" loading="lazy"></a><figcaption>@Image4 — Отдельная опора монтажа: KM-ring-chase.png</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png" alt="Маяк в песчаной буре — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Маяк в песчаной буре — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png" alt="Экспресс через астероид — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Экспресс через астероид — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png" alt="Лёд хранит секрет — только эта локация и её действие" loading="lazy"></a><figcaption>@Image7 — Лёд хранит секрет — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png" alt="Экспонат с притяжением — только эта локация и её действие" loading="lazy"></a><figcaption>@Image8 — Экспонат с притяжением — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Отдельная опора монтажа: ship-exterior-front.png" loading="lazy"></a><figcaption>@Image9 — Отдельная опора монтажа: ship-exterior-front.png</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -259,56 +285,64 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`; @Image4 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`; @Image8 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 / Seedance 2.5 | Original epic galactic adventure comedy, photoreal cats and spacecraft, energetic cinematic trailer montage
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats; trailer
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Лучик — морда и шерсть; file: projects/kotmonavty/references/luchik.jpg.
-@Image2 — Рыжик — морда и шерсть; file: projects/kotmonavty/references/ryzhik.jpg.
-@Image3 — Исходный выбранный корабль — абсолютный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
-@Image4 — Кабина: Рыжик слева, Лучик справа; file: projects/kotmonavty/references/ship-interior-cockpit.png.
-@Image5 — Бар, бармен и звёздный компас; file: projects/kotmonavty/references/development/KM-bar-compass.png.
-@Image6 — Погоня и орбитальное кольцо; file: projects/kotmonavty/references/development/KM-ring-chase.png.
-@Image7 — Звёздный архив, мост и компас; file: projects/kotmonavty/references/development/KM-star-vault.png.
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Магнитная свалка — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+@Image4 — Отдельная опора монтажа: KM-ring-chase.png; file: projects/kotmonavty/references/development/KM-ring-chase.png.
+@Image5 — Маяк в песчаной буре — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image6 — Экспресс через астероид — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+@Image7 — Лёд хранит секрет — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+@Image8 — Экспонат с притяжением — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
 START STATE:
-In the alien bar of @Image5, Luchik left and Ryzhik right sit on stools lapping white milk from short wide shot glasses, faces brutally serious. The brass spherical compass is initially beneath the bartender's claw.
+At magnetic scrapyard, open crate carrying Ryzhik just begins rising; Luchik on fixed beam below, no title card.
 
 TIMELINE:
-[0:00–0:04] Bar close two-shot: both cats lap milk with deadly serious expressions. Bartender slides the brass cyan-core compass onto the counter; eyes follow it without smiling.
+[0:00–0:05] At the magnetic scrapyard, crane lifts Ryzhik in the open crate; Luchik races along the beam and hits release. Cut before full rescue, no injury.
 
-[0:04–0:08] Match cut from compass ring to the hero ship: it accelerates away through an orbital harbor gap, two blue rear plumes extending. Three unmanned drones swing into pursuit behind.
+[0:05–0:10] Hard cut to original marked ship banking fast through the broken orbital ring. Preserve four engines and РОСКОТМОС beneath hull emblem; debris clears behind it.
 
-[0:08–0:13] Cut exterior @Image6: hero ship banks hard through a broken ring opening. Orange drone bolts strike the pillar behind; debris passes with strong parallax, ship stays intact.
+[0:10–0:15] Match cyan engine light to buried beacon: Ryzhik presses exposed contact, beam splits the sandstorm and a far fortress answers. End on cats looking toward signal.
 
-[0:13–0:17] Cut cockpit @Image4: Luchik right makes a decisive control movement; Ryzhik left braces and taps one navigation pad. Their bodies lean under inertia, no human hands.
+[0:15–0:20] Hard cut to freight train: Luchik jumps the short coupling gap and lands, Ryzhik follows in one visible clean jump; drone brakes at low beam behind.
 
-[0:17–0:25] Hard cut to @Image7: compass ignites the enormous star atlas. Rings turn, bridge behind starts breaking. Cats instantly lower their bodies and sprint together toward camera along the remaining bridge, then leap across one small crack; both land safely, identities unchanged.
+[0:20–0:25] Cut to frozen vault: Ryzhik gives ice one quick safe lick as Luchik presses warming plate; brass fish key slides free into a tray, serious faces unchanged.
 
-[0:25–0:30] Smash cut back to the bar. The two cats sit with renewed milk shots, equally stern; one final audible lap as music drops, then the compass pulses. No explanation, no title card.
+[0:25–0:30] Cut to museum: papers spiral around contained black hole; cats coordinate lever and switch, papers settle. One brochure lands on Ryzhik, who flicks it off. End with exhibit pulsing once, a new unanswered problem.
 
 END STATE:
-Back in the original alien bar, both stern cats sit with fresh milk shots. Ryzhik makes one tiny final lap; the brass compass between them pulses cyan once. The wider adventure remains unresolved.
+Museum two-shot, containment stable, Ryzhik has flicked off brochure, both watch one final unexplained pulse; no title card or resolved season ending.
 
 CAMERA / SPACE:
-A clear trailer montage with motivated hard cuts: milk circle to compass ring, blue flash to engine plume, star-map glow to bar glass reflection. Never morph one location into another. Exterior ship retains long ivory battered hull, red swoosh, blue stripe, front faceted amber cockpit and cylindrical rear engines from @Image3. Action has readable travel direction and real momentum.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cats remain recognisably real cats. Bar comedy uses short precise lapping and stern looks. Flight uses fast evasive movement, planted paws and reactive ears; vault escape uses immediate low four-paw sprint and leap. No smiling anthropomorphic mugging, no slow idle drifting during danger.
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
 
 LIGHTING / MATERIALS:
-Photoreal fur, worn hull metal, amber cockpit, cyan star core, orange sparks, massive orbital structures and ancient bronze machinery. Match each reference environment; preserve exposure and identity across cuts.
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
 
 AUDIO:
-Original adventurous symphonic score: bold brass, agile strings, unusual mysterious percussion, escalating driving rhythm. Milk laps and glass clink lead into engine surge and debris impact, then vast mechanism resonance; brief comic music stop for final lap. No copied themes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
-Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without physical cause, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
@@ -319,52 +353,58 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`; @Image4 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`; @Image8 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Original epic galactic adventure comedy, photoreal cats and spacecraft, energetic cinematic trailer montage
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats; trailer
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Лучик — морда и шерсть; file: projects/kotmonavty/references/luchik.jpg.
-@Image2 — Рыжик — морда и шерсть; file: projects/kotmonavty/references/ryzhik.jpg.
-@Image3 — Исходный выбранный корабль — абсолютный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
-@Image4 — Кабина: Рыжик слева, Лучик справа; file: projects/kotmonavty/references/ship-interior-cockpit.png.
-@Image5 — Бар, бармен и звёздный компас; file: projects/kotmonavty/references/development/KM-bar-compass.png.
-@Image6 — Погоня и орбитальное кольцо; file: projects/kotmonavty/references/development/KM-ring-chase.png.
-@Image7 — Звёздный архив, мост и компас; file: projects/kotmonavty/references/development/KM-star-vault.png.
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Магнитная свалка — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+@Image4 — Отдельная опора монтажа: KM-ring-chase.png; file: projects/kotmonavty/references/development/KM-ring-chase.png.
+@Image5 — Маяк в песчаной буре — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image6 — Экспресс через астероид — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+@Image7 — Лёд хранит секрет — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+@Image8 — Экспонат с притяжением — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
 START STATE:
-In the alien bar of @Image5, Luchik left and Ryzhik right sit on stools lapping white milk from short wide shot glasses, faces brutally serious. The brass spherical compass is initially beneath the bartender's claw.
+At magnetic scrapyard, open crate carrying Ryzhik just begins rising; Luchik on fixed beam below, no title card.
 
 TIMELINE:
-[0:00–0:04] Bar close two-shot: both cats lap milk with deadly serious expressions. Bartender slides the brass cyan-core compass onto the counter; eyes follow it without smiling.
+[0:00–0:05] At the magnetic scrapyard, crane lifts Ryzhik in the open crate; Luchik races along the beam and hits release. Cut before full rescue, no injury.
 
-[0:04–0:07] Match cut from compass ring to the hero ship: it accelerates away through an orbital harbor gap, two blue rear plumes extending. Three unmanned drones swing into pursuit behind.
+[0:05–0:10] Hard cut to original marked ship banking fast through the broken orbital ring. Preserve four engines and РОСКОТМОС beneath hull emblem; debris clears behind it.
 
-[0:07–0:12] Cut exterior @Image6: hero ship banks hard through a broken ring opening. Orange drone bolts strike the pillar behind; debris passes with strong parallax, ship stays intact.
-
-[0:12–0:15] Cut cockpit @Image4: Luchik right makes a decisive control movement; Ryzhik left braces and taps one navigation pad. Their bodies lean under inertia, no human hands. End on the cockpit two-shot before the blue flash fades.
+[0:10–0:15] Match cyan engine light to buried beacon: Ryzhik presses exposed contact, beam splits the sandstorm and a far fortress answers. End on cats looking toward signal. End exactly in the stated bridge state.
 
 END STATE:
-Cockpit medium two-shot at the end of an evasive bank: Ryzhik at screen-left has his furry paw braced over the amber navigation panel, Luchik at screen-right grips the pilot control with feline paws. Both lean left under inertia; blue emergency light flashes once.
+Desert beacon now projects cyan beam; both cats have turned toward answering fortress signal, their stationary marked ship behind.
 
 CAMERA / SPACE:
-A clear trailer montage with motivated hard cuts: milk circle to compass ring, blue flash to engine plume, star-map glow to bar glass reflection. Never morph one location into another. Exterior ship retains long ivory battered hull, red swoosh, blue stripe, front faceted amber cockpit and cylindrical rear engines from @Image3. Action has readable travel direction and real momentum.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cats remain recognisably real cats. Bar comedy uses short precise lapping and stern looks. Flight uses fast evasive movement, planted paws and reactive ears; vault escape uses immediate low four-paw sprint and leap. No smiling anthropomorphic mugging, no slow idle drifting during danger.
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
 
 LIGHTING / MATERIALS:
-Photoreal fur, worn hull metal, amber cockpit, cyan star core, orange sparks, massive orbital structures and ancient bronze machinery. Match each reference environment; preserve exposure and identity across cuts.
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
 
 AUDIO:
-Original adventurous symphonic score: bold brass, agile strings, unusual mysterious percussion, escalating driving rhythm. Milk laps and glass clink lead into engine surge and debris impact, then vast mechanism resonance; brief comic music stop for final lap. No copied themes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
-Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without physical cause, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
@@ -372,53 +412,59 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 2 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`; @Image4 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`; @Image8 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Original epic galactic adventure comedy, photoreal cats and spacecraft, energetic cinematic trailer montage
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats; trailer
 
 REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
-@Image1 — Лучик — морда и шерсть; file: projects/kotmonavty/references/luchik.jpg.
-@Image2 — Рыжик — морда и шерсть; file: projects/kotmonavty/references/ryzhik.jpg.
-@Image3 — Исходный выбранный корабль — абсолютный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
-@Image4 — Кабина: Рыжик слева, Лучик справа; file: projects/kotmonavty/references/ship-interior-cockpit.png.
-@Image5 — Бар, бармен и звёздный компас; file: projects/kotmonavty/references/development/KM-bar-compass.png.
-@Image6 — Погоня и орбитальное кольцо; file: projects/kotmonavty/references/development/KM-ring-chase.png.
-@Image7 — Звёздный архив, мост и компас; file: projects/kotmonavty/references/development/KM-star-vault.png.
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Магнитная свалка — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+@Image4 — Отдельная опора монтажа: KM-ring-chase.png; file: projects/kotmonavty/references/development/KM-ring-chase.png.
+@Image5 — Маяк в песчаной буре — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image6 — Экспресс через астероид — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+@Image7 — Лёд хранит секрет — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+@Image8 — Экспонат с притяжением — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
 
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
 START STATE:
-Exact @Video1 ending: Cockpit medium two-shot at the end of an evasive bank: Ryzhik at screen-left has his furry paw braced over the amber navigation panel, Luchik at screen-right grips the pilot control with feline paws. Both lean left under inertia; blue emergency light flashes once.
+Continue @Video1 exactly: Desert beacon now projects cyan beam; both cats have turned toward answering fortress signal, their stationary marked ship behind.
 
 TIMELINE:
-[0:00–0:02] Continue actual @Video1 cockpit end frame; complete the bank and let the blue light flash fade.
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Hard cut to freight train: Luchik jumps the short coupling gap and lands, Ryzhik follows in one visible clean jump; drone brakes at low beam behind.
 
-[0:02–0:06] Hard cut to star vault @Image7. Compass activates overhead atlas; rings awaken with a cyan wave.
+[0:05–0:10] Cut to frozen vault: Ryzhik gives ice one quick safe lick as Luchik presses warming plate; brass fish key slides free into a tray, serious faces unchanged.
 
-[0:06–0:11] Bridge behind fractures. Both cats react instantly, sprint on all four paws toward foreground and leap a short crack. Hold clear screen direction and show both landing, no teleportation.
-
-[0:11–0:15] Smash cut back to the bar. The two cats sit with renewed milk shots, equally stern; one final audible lap as music drops, then the compass pulses. No explanation, no title card.
+[0:10–0:15] Cut to museum: papers spiral around contained black hole; cats coordinate lever and switch, papers settle. One brochure lands on Ryzhik, who flicks it off. End with exhibit pulsing once, a new unanswered problem.
 
 END STATE:
-Back in the original alien bar, both stern cats sit with fresh milk shots. Ryzhik makes one tiny final lap; the brass compass between them pulses cyan once. The wider adventure remains unresolved.
+Museum two-shot, containment stable, Ryzhik has flicked off brochure, both watch one final unexplained pulse; no title card or resolved season ending.
 
 CAMERA / SPACE:
-A clear trailer montage with motivated hard cuts: milk circle to compass ring, blue flash to engine plume, star-map glow to bar glass reflection. Never morph one location into another. Exterior ship retains long ivory battered hull, red swoosh, blue stripe, front faceted amber cockpit and cylindrical rear engines from @Image3. Action has readable travel direction and real momentum.
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
 
 PERFORMANCE:
-Cats remain recognisably real cats. Bar comedy uses short precise lapping and stern looks. Flight uses fast evasive movement, planted paws and reactive ears; vault escape uses immediate low four-paw sprint and leap. No smiling anthropomorphic mugging, no slow idle drifting during danger.
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
 
 LIGHTING / MATERIALS:
-Photoreal fur, worn hull metal, amber cockpit, cyan star core, orange sparks, massive orbital structures and ancient bronze machinery. Match each reference environment; preserve exposure and identity across cuts.
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
 
 AUDIO:
-Original adventurous symphonic score: bold brass, agile strings, unusual mysterious percussion, escalating driving rhythm. Milk laps and glass clink lead into engine surge and debris impact, then vast mechanism resonance; brief comic music stop for final lap. No copied themes. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
 
 NEGATIVE PROMPT:
-Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without physical cause, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
@@ -428,7 +474,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 </div>
 
 <a id="scene-3"></a>
-## Сцена 3 — Заставка — РосКОТмос представляет
+## Сцена 3 — Графическая заставка — РосКОТмос представляет
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
 
@@ -438,12 +484,13 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 **Готовность:** Статичные входы сохранены и визуально проверены. Подготовлены тексты; реального результата части 1 для продолжения пока нет. Техническая проверка изображения не является одобрением владельца.
 
-**Монтажная роль:** Начальная заставка. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
+**Монтажная роль:** Отдельная графическая заставка / анимация названия. Событийное начало сериала — сцена 22. Полный материал 30 секунд; при монтаже можно выбрать короткий фрагмент раскрытия названия.
 
 **Входные изображения и их роли:**
 <div class="scene-ref-gallery">
 <figure><a href="projects/kotmonavty/references/roskotmos-logo.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/roskotmos-logo.png" alt="Исходная эмблема РосКОТмоса — дизайн" loading="lazy"></a><figcaption>@Image1 — Исходная эмблема РосКОТмоса — дизайн</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/branding/KM-opening.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/branding/KM-opening.png" alt="Заставка: точная композиция и надписи" loading="lazy"></a><figcaption>@Image2 — Заставка: точная композиция и надписи</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/branding/KM-poster.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/branding/KM-poster.png" alt="Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет" loading="lazy"></a><figcaption>@Image3 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -453,6 +500,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 3 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image2 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image3 — `projects/kotmonavty/references/branding/KM-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats; cinematic opening titles
@@ -460,6 +509,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy,
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная эмблема РосКОТмоса — дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
 @Image2 — Заставка: точная композиция и надписи; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image3 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kotmonavty/references/branding/KM-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -508,6 +558,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 3 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image2 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image3 — `projects/kotmonavty/references/branding/KM-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats; cinematic opening titles
@@ -515,6 +567,7 @@ Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan n
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная эмблема РосКОТмоса — дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
 @Image2 — Заставка: точная композиция и надписи; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image3 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kotmonavty/references/branding/KM-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -554,6 +607,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 3 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image2 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image3 — `projects/kotmonavty/references/branding/KM-poster.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats; cinematic opening titles
@@ -562,6 +617,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная эмблема РосКОТмоса — дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
 @Image2 — Заставка: точная композиция и надписи; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image3 — Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет; file: projects/kotmonavty/references/branding/KM-poster.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -630,6 +686,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 4 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -646,6 +704,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 One brass three-ring compass, cyan core, approximately one cat-head in diameter. No levitation except controlled drone flight. Bartender follows the supplied reptilian design; no human skin.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Cats at their bar stools, Luchik left and Ryzhik right. Bartender holds one brass compass; two milk glasses remain away from it. Door clear.
@@ -690,6 +750,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 4 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -706,6 +768,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 One brass three-ring compass, cyan core, approximately one cat-head in diameter. No levitation except controlled drone flight. Bartender follows the supplied reptilian design; no human skin.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Cats at their bar stools, Luchik left and Ryzhik right. Bartender holds one brass compass; two milk glasses remain away from it. Door clear.
@@ -741,6 +805,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 4 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -758,6 +824,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 One brass three-ring compass, cyan core, approximately one cat-head in diameter. No levitation except controlled drone flight. Bartender follows the supplied reptilian design; no human skin.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Ryzhik has touched the compass; cyan pulse has faded, three drones now hover in the doorway. Luchik looks toward a low service exit.
@@ -815,6 +883,9 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kotmonavty/references/ship-interior-cockpit.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-interior-cockpit.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/development/KM-ring-chase.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/development/KM-ring-chase.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image5 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
 <figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Исходный корабль — абсолютная конструкция" loading="lazy"></a><figcaption>@Image6 — Исходный корабль — абсолютная конструкция</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-rear.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-rear.png" alt="Корма и расположение двигателей — технический оригинал" loading="lazy"></a><figcaption>@Image7 — Корма и расположение двигателей — технический оригинал</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-four-engines.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-four-engines.png" alt="Четыре двигателя — технический контроль количества, не другой корабль" loading="lazy"></a><figcaption>@Image8 — Четыре двигателя — технический контроль количества, не другой корабль</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-interior-window.webp" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-interior-window.webp" alt="Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше" loading="lazy"></a><figcaption>@Image9 — Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -823,6 +894,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
 #### 5 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -835,6 +908,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/ship-interior-cockpit.png.
 @Image5 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
+@Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
+@Image8 — Четыре двигателя — технический контроль количества, не другой корабль; file: projects/kotmonavty/references/ship-exterior-four-engines.png.
+@Image9 — Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше; file: projects/kotmonavty/references/ship-interior-window.webp.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -842,6 +918,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stripe and rear cylindrical engines. Original cockpit controls interior. Never swap the cats: Ryzhik LEFT navigator, Luchik RIGHT pilot. Keep three drones initially, one disabled, two remaining.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Original ivory red-blue ship approaches a narrow gap in a broken orbital ring at speed; three drones behind. In cockpit Ryzhik left, Luchik right.
@@ -886,6 +964,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -897,6 +977,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/ship-interior-cockpit.png.
 @Image5 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
+@Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
+@Image8 — Четыре двигателя — технический контроль количества, не другой корабль; file: projects/kotmonavty/references/ship-exterior-four-engines.png.
+@Image9 — Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше; file: projects/kotmonavty/references/ship-interior-window.webp.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -904,6 +987,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stripe and rear cylindrical engines. Original cockpit controls interior. Never swap the cats: Ryzhik LEFT navigator, Luchik RIGHT pilot. Keep three drones initially, one disabled, two remaining.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Original ivory red-blue ship approaches a narrow gap in a broken orbital ring at speed; three drones behind. In cockpit Ryzhik left, Luchik right.
@@ -939,6 +1024,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`; @Image5 — `projects/kotmonavty/references/development/KM-ring-chase.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`; @Image7 — `projects/kotmonavty/references/ship-exterior-rear.png`; @Image8 — `projects/kotmonavty/references/ship-exterior-four-engines.png`; @Image9 — `projects/kotmonavty/references/ship-interior-window.webp`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -951,6 +1038,9 @@ REFERENCES / AUTHORITY ORDER:
 @Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/ship-interior-cockpit.png.
 @Image5 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kotmonavty/references/development/KM-ring-chase.png.
 @Image6 — Исходный корабль — абсолютная конструкция; file: projects/kotmonavty/references/ship-exterior-front.png.
+@Image7 — Корма и расположение двигателей — технический оригинал; file: projects/kotmonavty/references/ship-exterior-rear.png.
+@Image8 — Четыре двигателя — технический контроль количества, не другой корабль; file: projects/kotmonavty/references/ship-exterior-four-engines.png.
+@Image9 — Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше; file: projects/kotmonavty/references/ship-interior-window.webp.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -958,6 +1048,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stripe and rear cylindrical engines. Original cockpit controls interior. Never swap the cats: Ryzhik LEFT navigator, Luchik RIGHT pilot. Keep three drones initially, one disabled, two remaining.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Ship banked sharply to fit the gap; Ryzhik braced on left, Luchik pressing right pilot control; one drone strikes a beam behind them.
@@ -1022,6 +1114,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 6 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1038,6 +1132,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Compass retains three brass rings and cyan core. Gate and star lattice use supplied archive design. Cats never carry objects in human hands. The socket releases the compass visibly before they move it.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Two cats before a closed monumental bronze archive gate; compass beside a matching floor socket. Luchik near the seam, Ryzhik beside compass.
@@ -1082,6 +1178,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 6 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1098,6 +1196,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Compass retains three brass rings and cyan core. Gate and star lattice use supplied archive design. Cats never carry objects in human hands. The socket releases the compass visibly before they move it.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Two cats before a closed monumental bronze archive gate; compass beside a matching floor socket. Luchik near the seam, Ryzhik beside compass.
@@ -1133,6 +1233,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 6 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1150,6 +1252,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Compass retains three brass rings and cyan core. Gate and star lattice use supplied archive design. Cats never carry objects in human hands. The socket releases the compass visibly before they move it.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Gate open enough to enter, blue star atlas visible inside; Luchik crosses the threshold first, Ryzhik stays just behind the compass.
@@ -1214,6 +1318,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 7 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1230,6 +1336,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 No cat falls into the abyss or is injured. A single continuous jump for each cat; visible takeoff, flight and landing. Compass crosses first and is recovered after Ryzhik lands. No teleports, no hand grabbing.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats and compass on the same unstable bronze bridge section, exit beyond a narrow crack. No cat already airborne.
@@ -1274,6 +1382,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 7 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1290,6 +1400,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 No cat falls into the abyss or is injured. A single continuous jump for each cat; visible takeoff, flight and landing. Compass crosses first and is recovered after Ryzhik lands. No teleports, no hand grabbing.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats and compass on the same unstable bronze bridge section, exit beyond a narrow crack. No cat already airborne.
@@ -1325,6 +1437,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 7 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png`; @Image4 — `projects/kotmonavty/references/development/KM-star-vault.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1342,6 +1456,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 No cat falls into the abyss or is injured. A single continuous jump for each cat; visible takeoff, flight and landing. Compass crosses first and is recovered after Ryzhik lands. No teleports, no hand grabbing.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Luchik has landed on the safe left platform; compass is beside his paws. Ryzhik launches from the breaking right lip toward him.
@@ -1406,6 +1522,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 8 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1422,6 +1540,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Exactly two milk glasses, no alcohol. Dust is light and does not change markings. Same reptilian bartender and compass as the opening bar encounter.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Luchik left and Ryzhik right at the familiar bar, lightly dusty fur, serious faces. Compass between them; bartender approaches with two milk shots.
@@ -1466,6 +1586,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 8 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1482,6 +1604,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Exactly two milk glasses, no alcohol. Dust is light and does not change markings. Same reptilian bartender and compass as the opening bar encounter.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Luchik left and Ryzhik right at the familiar bar, lightly dusty fur, serious faces. Compass between them; bartender approaches with two milk shots.
@@ -1517,6 +1641,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 8 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png`; @Image4 — `projects/kotmonavty/references/development/KM-bar-compass.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1534,6 +1660,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Exactly two milk glasses, no alcohol. Dust is light and does not change markings. Same reptilian bartender and compass as the opening bar encounter.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Two milk glasses placed, both cats have taken one lap; compass begins to glow as the bartender freezes his cleaning cloth.
@@ -1598,6 +1726,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1614,6 +1744,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Real feline anatomy in microgravity; paws do not become hands. Milk forms liquid spheres, not bubbles of water. Bowl fixed by strap; gravity returns gently without injury.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Cats in the ship galley, metal milk bowl strapped to a rail; gravity just begins to fail. Loose crumbs lift slowly, all furniture secured.
@@ -1658,6 +1790,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1674,6 +1808,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Real feline anatomy in microgravity; paws do not become hands. Milk forms liquid spheres, not bubbles of water. Bowl fixed by strap; gravity returns gently without injury.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Cats in the ship galley, metal milk bowl strapped to a rail; gravity just begins to fail. Loose crumbs lift slowly, all furniture secured.
@@ -1709,6 +1845,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 9 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png`; @Image4 — `projects/kotmonavty/references/ship-interior-cockpit.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1726,6 +1864,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Real feline anatomy in microgravity; paws do not become hands. Milk forms liquid spheres, not bubbles of water. Bowl fixed by strap; gravity returns gently without injury.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Both cats afloat, Luchik hind paws braced against rail, Ryzhik drifting toward one large milk droplet with tongue extended; bowl stays strapped.
@@ -1789,6 +1929,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Wan 3.0 · 30 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-10/KM10-customs.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1804,6 +1946,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Only one open case; no closed lid on cats. Inspector is the red-brown crustacean from scene reference with claws, not human hands. Screen contains fish icon only, no letters. Scanner is harmless.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats sitting in an open hard case on a stationary baggage conveyor, Luchik left, Ryzhik right; crustacean inspector beside cyan scanner.
@@ -1848,6 +1992,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Seedance 2.0 часть 1 · 15 с
 
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-10/KM10-customs.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1863,6 +2009,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Only one open case; no closed lid on cats. Inspector is the red-brown crustacean from scene reference with claws, not human hands. Screen contains fish icon only, no letters. Scanner is harmless.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Both cats sitting in an open hard case on a stationary baggage conveyor, Luchik left, Ryzhik right; crustacean inspector beside cyan scanner.
@@ -1898,6 +2046,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 
 #### 10 · Seedance 2.0 часть 2 · 15 с
 
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-10/KM10-customs.png`.
+
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, deadpan natural cats
@@ -1914,6 +2064,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 
 SPECIAL LOCKS:
 Only one open case; no closed lid on cats. Inspector is the red-brown crustacean from scene reference with claws, not human hands. Screen contains fish icon only, no letters. Scanner is harmless.
+
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
 START STATE:
 Continue @Video1 exactly: Conveyor has carried the open case through one scan; cyan screen displays one simple fish silhouette. Inspector looks from screen to cats.
@@ -1942,6 +2094,2417 @@ Conveyor rollers, clean scan beep, claw tap and barrier click; original dry bass
 
 NEGATIVE PROMPT:
 Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without physical cause, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-11"></a>
+## Сцена 11 — Штаб РосКОТмоса — срочный вылет
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** В командном зале загорается аварийный сектор. Рыжик подтверждает вылет, Лучик выбирает маршрут; оба мчатся через ангар к своему кораблю.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/roskotmos-logo.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/roskotmos-logo.png" alt="Исходная техника или эмблема — неизменный дизайн" loading="lazy"></a><figcaption>@Image4 — Исходная техника или эмблема — неизменный дизайн</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png" alt="Ангар — отдельный финальный эпизод, бег к кораблю" loading="lazy"></a><figcaption>@Image5 — Ангар — отдельный финальный эпизод, бег к кораблю</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Корабль — абсолютный оригинал конструкции" loading="lazy"></a><figcaption>@Image6 — Корабль — абсолютный оригинал конструкции</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="11">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 11 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
+@Image5 — Ангар — отдельный финальный эпизод, бег к кораблю; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image6 — Корабль — абсолютный оригинал конструкции; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Luchik and Ryzhik stand at the round mission table in the cat-operated orbital headquarters; star routes calm, red dispatch pad unpressed.
+
+TIMELINE:
+[0:00–0:05] Track past working feline operators to the two heroes; a red sector begins pulsing on the star table and Luchik immediately follows it with his eyes.
+
+[0:05–0:10] Ryzhik plants one paw on the physical red dispatch pad; alert collapses into a single cyan route while Luchik pins its destination with his paw.
+
+[0:10–0:15] Luchik turns decisively toward the illuminated hangar exit; Ryzhik jumps down after him, both accelerating on four paws.
+
+[0:15–0:20] Hard cut on their running movement to the hangar reference: both race toward the lowered ship ramp, enormous planetary horizon behind the open bay.
+
+[0:20–0:25] Camera tracks beside the hull, showing its intact cat emblem and РОСКОТМОС beneath it; Luchik reaches the ramp first, Ryzhik close behind.
+
+[0:25–0:30] Both run up the ramp and disappear safely into the amber interior; camera rises slightly to show the prepared ship and vast station, ending before departure.
+
+END STATE:
+Both cats have run up the lowered ramp into the stationary hero ship; hatch remains open, engines begin a low idle, no launch yet.
+
+CAMERA / SPACE:
+Purposeful table push-in, low chase through exit, matching low tracking at ramp. Keep paws contacting floors and ramp. No slow-motion.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Dispatch chime, quick pawbeats, heavy hangar ventilation and engine idle; original bold brass and racing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 11 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
+@Image5 — Ангар — отдельный финальный эпизод, бег к кораблю; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image6 — Корабль — абсолютный оригинал конструкции; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Luchik and Ryzhik stand at the round mission table in the cat-operated orbital headquarters; star routes calm, red dispatch pad unpressed.
+
+TIMELINE:
+[0:00–0:05] Track past working feline operators to the two heroes; a red sector begins pulsing on the star table and Luchik immediately follows it with his eyes.
+
+[0:05–0:10] Ryzhik plants one paw on the physical red dispatch pad; alert collapses into a single cyan route while Luchik pins its destination with his paw.
+
+[0:10–0:15] Luchik turns decisively toward the illuminated hangar exit; Ryzhik jumps down after him, both accelerating on four paws. End exactly in the stated bridge state.
+
+END STATE:
+Red sector alert acknowledged, cyan route fixed toward the hangar door; both cats turn away from the table, ready to run.
+
+CAMERA / SPACE:
+Purposeful table push-in, low chase through exit, matching low tracking at ramp. Keep paws contacting floors and ramp. No slow-motion.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Dispatch chime, quick pawbeats, heavy hangar ventilation and engine idle; original bold brass and racing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 11 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/roskotmos-logo.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image6 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/roskotmos-logo.png.
+@Image5 — Ангар — отдельный финальный эпизод, бег к кораблю; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image6 — Корабль — абсолютный оригинал конструкции; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Red sector alert acknowledged, cyan route fixed toward the hangar door; both cats turn away from the table, ready to run.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Hard cut on their running movement to the hangar reference: both race toward the lowered ship ramp, enormous planetary horizon behind the open bay.
+
+[0:05–0:10] Camera tracks beside the hull, showing its intact cat emblem and РОСКОТМОС beneath it; Luchik reaches the ramp first, Ryzhik close behind.
+
+[0:10–0:15] Both run up the ramp and disappear safely into the amber interior; camera rises slightly to show the prepared ship and vast station, ending before departure.
+
+END STATE:
+Both cats have run up the lowered ramp into the stationary hero ship; hatch remains open, engines begin a low idle, no launch yet.
+
+CAMERA / SPACE:
+Purposeful table push-in, low chase through exit, matching low tracking at ramp. Keep paws contacting floors and ramp. No slow-motion.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Dispatch chime, quick pawbeats, heavy hangar ventilation and engine idle; original bold brass and racing strings. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-12"></a>
+## Сцена 12 — Магнитная свалка — груз с характером
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Магнит поднимает ящик вместе с Рыжиком. Лучик находит аварийную педаль; Рыжик использует раскачивание, чтобы выбраться на соседнюю балку.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="12">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 12 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No injury, falling cat or hanging by neck. Crate open throughout. Magnet lifts metal, not cats directly. Visible takeoff and landing, one jump only.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+At the orbital scrapyard, Ryzhik sits in a small open scrap crate on a low platform; Luchik on the adjoining bolted beam. Magnet descends above crate.
+
+TIMELINE:
+[0:00–0:05] Magnet energizes: small nuts lift first, then the open scrap crate rises with Ryzhik; he quickly braces all paws inside.
+
+[0:05–0:10] Luchik scrambles along the bolted beam beneath the crate while Ryzhik shifts weight, producing a small controlled swing toward him.
+
+[0:10–0:15] Crate reaches the pictured height; Luchik spots a yellow mechanical release pedal and pivots toward it immediately.
+
+[0:15–0:20] Luchik stamps the pedal with one forepaw; magnet lowers the crate toward the fixed beam, maintaining a visible safe gap.
+
+[0:20–0:25] At the near end of the swing Ryzhik jumps once onto the beam, lands on all fours beside Luchik; empty crate continues down.
+
+[0:25–0:30] Crate rests and magnet powers off; one last nut falls, Ryzhik traps it with a paw and both stare up at the machine, dead serious.
+
+END STATE:
+Both cats safely on the fixed beam; empty crate settles onto the platform, one loose nut drops beside Ryzhik and he pins it sternly.
+
+CAMERA / SPACE:
+Low lateral tracking keeps magnet, crate and safe beam in one readable space; brief close insert only for the pedal.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Magnetic hum, metal clatter, crate chains, release thunk and a final isolated nut ping; brisk original brass rhythm. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 12 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No injury, falling cat or hanging by neck. Crate open throughout. Magnet lifts metal, not cats directly. Visible takeoff and landing, one jump only.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+At the orbital scrapyard, Ryzhik sits in a small open scrap crate on a low platform; Luchik on the adjoining bolted beam. Magnet descends above crate.
+
+TIMELINE:
+[0:00–0:05] Magnet energizes: small nuts lift first, then the open scrap crate rises with Ryzhik; he quickly braces all paws inside.
+
+[0:05–0:10] Luchik scrambles along the bolted beam beneath the crate while Ryzhik shifts weight, producing a small controlled swing toward him.
+
+[0:10–0:15] Crate reaches the pictured height; Luchik spots a yellow mechanical release pedal and pivots toward it immediately. End exactly in the stated bridge state.
+
+END STATE:
+Crate suspended just above Luchik, Ryzhik gripping its rim with furry forepaws; Luchik sees the release pedal on his stable beam.
+
+CAMERA / SPACE:
+Low lateral tracking keeps magnet, crate and safe beam in one readable space; brief close insert only for the pedal.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Magnetic hum, metal clatter, crate chains, release thunk and a final isolated nut ping; brisk original brass rhythm. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 12 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No injury, falling cat or hanging by neck. Crate open throughout. Magnet lifts metal, not cats directly. Visible takeoff and landing, one jump only.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Crate suspended just above Luchik, Ryzhik gripping its rim with furry forepaws; Luchik sees the release pedal on his stable beam.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Luchik stamps the pedal with one forepaw; magnet lowers the crate toward the fixed beam, maintaining a visible safe gap.
+
+[0:05–0:10] At the near end of the swing Ryzhik jumps once onto the beam, lands on all fours beside Luchik; empty crate continues down.
+
+[0:10–0:15] Crate rests and magnet powers off; one last nut falls, Ryzhik traps it with a paw and both stare up at the machine, dead serious.
+
+END STATE:
+Both cats safely on the fixed beam; empty crate settles onto the platform, one loose nut drops beside Ryzhik and he pins it sternly.
+
+CAMERA / SPACE:
+Low lateral tracking keeps magnet, crate and safe beam in one readable space; brief close insert only for the pedal.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Magnetic hum, metal clatter, crate chains, release thunk and a final isolated nut ping; brisk original brass rhythm. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-13"></a>
+## Сцена 13 — Подводный рынок — слишком крупная рыба
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Коты выбирают светящуюся жемчужину у многоглазого торговца. Рыжик замечает гигантскую рыбу за стеклом, и сделка едва не срывается.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="13">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 13 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One pearl only. Fish remains outside sealed glass, no flooding. Merchant is multi-eyed tentacled alien, no human hands. Cats do not jump toward the high dome.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats on the brass market counter beneath the underwater glass dome; alien merchant presents one luminous pearl, giant fish approaching outside.
+
+TIMELINE:
+[0:00–0:05] Glide through the crowded alien market to the merchant opening one pearl shell before the stern cats.
+
+[0:05–0:10] A giant luminous fish passes outside the dome; Ryzhik tracks it and rises naturally on hind paws, lifting a forepaw toward the glass.
+
+[0:10–0:15] His tail brushes the shell: pearl rolls toward the counter edge; Luchik snaps a paw down and stops it without looking away from merchant.
+
+[0:15–0:20] Ryzhik gives the distant fish one quick paw swipe through empty air, then returns all paws to the counter; glass remains far beyond reach.
+
+[0:20–0:25] Luchik rolls the pearl back into its shell with two precise nudges; merchant closes his tentacles around it.
+
+[0:25–0:30] Fish fills the dome overhead, dwarfing the stall; both cats turn in perfect seriousness while merchant protectively withdraws the pearl.
+
+END STATE:
+Pearl safely back in its shell, both cats watching the departing enormous fish; merchant pulls the shell protectively closer.
+
+CAMERA / SPACE:
+Counter-level action, upward scale reveal, return to pearl close-up; clear physical continuity, no dream transitions.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Muted market bustle, pearl rolling on brass, distant watery resonance and a short original bassoon/brass surprise. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 13 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One pearl only. Fish remains outside sealed glass, no flooding. Merchant is multi-eyed tentacled alien, no human hands. Cats do not jump toward the high dome.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats on the brass market counter beneath the underwater glass dome; alien merchant presents one luminous pearl, giant fish approaching outside.
+
+TIMELINE:
+[0:00–0:05] Glide through the crowded alien market to the merchant opening one pearl shell before the stern cats.
+
+[0:05–0:10] A giant luminous fish passes outside the dome; Ryzhik tracks it and rises naturally on hind paws, lifting a forepaw toward the glass.
+
+[0:10–0:15] His tail brushes the shell: pearl rolls toward the counter edge; Luchik snaps a paw down and stops it without looking away from merchant. End exactly in the stated bridge state.
+
+END STATE:
+Ryzhik holds one paw raised toward the giant fish, Luchik has pinned the pearl at the counter edge; merchant watches both suspiciously.
+
+CAMERA / SPACE:
+Counter-level action, upward scale reveal, return to pearl close-up; clear physical continuity, no dream transitions.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Muted market bustle, pearl rolling on brass, distant watery resonance and a short original bassoon/brass surprise. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 13 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One pearl only. Fish remains outside sealed glass, no flooding. Merchant is multi-eyed tentacled alien, no human hands. Cats do not jump toward the high dome.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Ryzhik holds one paw raised toward the giant fish, Luchik has pinned the pearl at the counter edge; merchant watches both suspiciously.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Ryzhik gives the distant fish one quick paw swipe through empty air, then returns all paws to the counter; glass remains far beyond reach.
+
+[0:05–0:10] Luchik rolls the pearl back into its shell with two precise nudges; merchant closes his tentacles around it.
+
+[0:10–0:15] Fish fills the dome overhead, dwarfing the stall; both cats turn in perfect seriousness while merchant protectively withdraws the pearl.
+
+END STATE:
+Pearl safely back in its shell, both cats watching the departing enormous fish; merchant pulls the shell protectively closer.
+
+CAMERA / SPACE:
+Counter-level action, upward scale reveal, return to pearl close-up; clear physical continuity, no dream transitions.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Muted market bustle, pearl rolling on brass, distant watery resonance and a short original bassoon/brass surprise. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-14"></a>
+## Сцена 14 — Маяк под песком
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Во время песчаной бури коты откапывают старый маяк рядом с кораблём. Он отвечает координатами объекта, которого не было на карте.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Исходная техника или эмблема — неизменный дизайн" loading="lazy"></a><figcaption>@Image4 — Исходная техника или эмблема — неизменный дизайн</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="14">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 14 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Cats crouch beside a half-buried beacon; their stationary ship behind, side emblem and РОСКОТМОС visible. Beacon core dark.
+
+TIMELINE:
+[0:00–0:05] Wind carries red sand across the partly buried dome; Luchik digs short purposeful strokes to expose its service panel.
+
+[0:05–0:10] Ryzhik hooks the already-loose panel aside with a paw; Luchik pins it against the wind and reveals a broad mechanical contact.
+
+[0:10–0:15] Ryzhik presses the contact firmly; cyan light rises through the beacon and shoots straight into the dust.
+
+[0:15–0:20] Beam pulses three times, then a narrow horizontal pointer sweeps until it settles on the distant dark fortress.
+
+[0:20–0:25] Both cats lift their heads into the wind and follow the pointer; a low shape lights up on the fortress wall in response.
+
+[0:25–0:30] Camera pulls back to cats, working beacon, marked ship and far fortress in one frame; end on the unexpected answering signal.
+
+END STATE:
+Beacon beam points toward a distant fortress silhouette; cats turn together toward it, route still unknown, ship remains grounded.
+
+CAMERA / SPACE:
+Low practical repair inserts, then a single expanding vista following the signal; no camera spinning in the storm.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Sand hiss, cover scrape, electrical relay click, resonant beacon pulse; original low strings rising into broad brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 14 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Cats crouch beside a half-buried beacon; their stationary ship behind, side emblem and РОСКОТМОС visible. Beacon core dark.
+
+TIMELINE:
+[0:00–0:05] Wind carries red sand across the partly buried dome; Luchik digs short purposeful strokes to expose its service panel.
+
+[0:05–0:10] Ryzhik hooks the already-loose panel aside with a paw; Luchik pins it against the wind and reveals a broad mechanical contact.
+
+[0:10–0:15] Ryzhik presses the contact firmly; cyan light rises through the beacon and shoots straight into the dust. End exactly in the stated bridge state.
+
+END STATE:
+Ryzhik paw holds the exposed contact, Luchik braces the cover; narrow cyan beam has just ignited through blowing dust.
+
+CAMERA / SPACE:
+Low practical repair inserts, then a single expanding vista following the signal; no camera spinning in the storm.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Sand hiss, cover scrape, electrical relay click, resonant beacon pulse; original low strings rising into broad brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 14 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Ryzhik paw holds the exposed contact, Luchik braces the cover; narrow cyan beam has just ignited through blowing dust.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Beam pulses three times, then a narrow horizontal pointer sweeps until it settles on the distant dark fortress.
+
+[0:05–0:10] Both cats lift their heads into the wind and follow the pointer; a low shape lights up on the fortress wall in response.
+
+[0:10–0:15] Camera pulls back to cats, working beacon, marked ship and far fortress in one frame; end on the unexpected answering signal.
+
+END STATE:
+Beacon beam points toward a distant fortress silhouette; cats turn together toward it, route still unknown, ship remains grounded.
+
+CAMERA / SPACE:
+Low practical repair inserts, then a single expanding vista following the signal; no camera spinning in the storm.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Sand hiss, cover scrape, electrical relay click, resonant beacon pulse; original low strings rising into broad brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-15"></a>
+## Сцена 15 — Кто за кем наблюдает
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** У панорамного стекла станции Рыжик касается лапой отражения. Огромное существо снаружи отвечает движением глаза, и коты понимают, что их изучают.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="15">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 15 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Glass stays intact. Creature benign, no attack or teeth. Eye reflection is optical, not two extra cats. Normal gravity inside, vacuum outside.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats inside sealed observation tunnel; outside a gigantic peaceful space creature approaches, eye not yet centred on them.
+
+TIMELINE:
+[0:00–0:05] Track alongside the pair approaching the viewing glass; a broad living shadow moves across the planet beyond.
+
+[0:05–0:10] Enormous eye slides into view, its lights flowing like constellations; both cats plant paws and focus, ears forward.
+
+[0:10–0:15] Ryzhik places one furry forepaw against the glass; eye rotates precisely toward the paw, revealing the cats reflected in it.
+
+[0:15–0:20] Luchik steps sideways twice along the glass; the eye follows him deliberately, proving that the observation is mutual.
+
+[0:20–0:25] Ryzhik lowers his paw and taps once more; one ring of lights answers across the creature, no sound passing through vacuum.
+
+[0:25–0:30] Creature retreats, eye shrinking and uncovering stars; the cats move together along the window to keep it in view, still utterly serious.
+
+END STATE:
+Creature withdraws slowly, revealing stars; Luchik and Ryzhik follow it with their heads, a final distant bioluminescent pulse answers them.
+
+CAMERA / SPACE:
+Window-level tracking and controlled wide scale reveal. Creature moves with immense weight; cat steps remain brisk and natural.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Interior ventilation, soft paw tap on glass, original wondrous strings and low brass; creature silent through vacuum. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 15 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Glass stays intact. Creature benign, no attack or teeth. Eye reflection is optical, not two extra cats. Normal gravity inside, vacuum outside.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats inside sealed observation tunnel; outside a gigantic peaceful space creature approaches, eye not yet centred on them.
+
+TIMELINE:
+[0:00–0:05] Track alongside the pair approaching the viewing glass; a broad living shadow moves across the planet beyond.
+
+[0:05–0:10] Enormous eye slides into view, its lights flowing like constellations; both cats plant paws and focus, ears forward.
+
+[0:10–0:15] Ryzhik places one furry forepaw against the glass; eye rotates precisely toward the paw, revealing the cats reflected in it. End exactly in the stated bridge state.
+
+END STATE:
+Ryzhik paw touches the glass, enormous eye looks directly at the two cats; their reflection visible in its glossy surface.
+
+CAMERA / SPACE:
+Window-level tracking and controlled wide scale reveal. Creature moves with immense weight; cat steps remain brisk and natural.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Interior ventilation, soft paw tap on glass, original wondrous strings and low brass; creature silent through vacuum. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 15 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Glass stays intact. Creature benign, no attack or teeth. Eye reflection is optical, not two extra cats. Normal gravity inside, vacuum outside.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Ryzhik paw touches the glass, enormous eye looks directly at the two cats; their reflection visible in its glossy surface.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Luchik steps sideways twice along the glass; the eye follows him deliberately, proving that the observation is mutual.
+
+[0:05–0:10] Ryzhik lowers his paw and taps once more; one ring of lights answers across the creature, no sound passing through vacuum.
+
+[0:10–0:15] Creature retreats, eye shrinking and uncovering stars; the cats move together along the window to keep it in view, still utterly serious.
+
+END STATE:
+Creature withdraws slowly, revealing stars; Luchik and Ryzhik follow it with their heads, a final distant bioluminescent pulse answers them.
+
+CAMERA / SPACE:
+Window-level tracking and controlled wide scale reveal. Creature moves with immense weight; cat steps remain brisk and natural.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Interior ventilation, soft paw tap on glass, original wondrous strings and low brass; creature silent through vacuum. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-16"></a>
+## Сцена 16 — Два голоса за
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Коты занимают председательское кресло галактического совета. Рыжик нажимает светящуюся кнопку, и огромное собрание внезапно начинает голосовать.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="16">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 16 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+This is accidental procedural voting, not approval of war or a revealed plot decision. No readable policy text. Maintain chair scale, original cats and alien delegates.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats seated on the enormous council chair, Ryzhik left beside amber voting pad, Luchik right. Alien delegates await a signal.
+
+TIMELINE:
+[0:00–0:05] Wide council reveal moves toward the tiny cats on the enormous chair; delegates murmur and watch the vacant-looking presidency.
+
+[0:05–0:10] Ryzhik follows one pulsing square and taps it with a forepaw; Luchik turns his eyes sharply toward the pad.
+
+[0:10–0:15] Amber lights ignite around the chamber in a wave; delegates raise their own alien limbs to vote, cats stay absolutely serious.
+
+[0:15–0:20] A broad floor path lights toward the main doors; Luchik immediately rises and checks the first low chair step.
+
+[0:20–0:25] Both descend the stepped chair naturally on four paws; delegates lean back and clear the aisle as they pass.
+
+[0:25–0:30] Low tracking follows their confident exit down the illuminated aisle; chamber behind remains in formal astonished silence.
+
+END STATE:
+Voting wave completes, a ceremonial aisle lights up toward the exit; cats step down together as astonished delegates make way.
+
+CAMERA / SPACE:
+Grand symmetric reveal then low mobile exit; short reaction pauses under two seconds, no static throne tableau.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Council murmur, single pad chime, cascading vote tones and pawbeats; original overly-heroic brass with dry comic restraint. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 16 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+This is accidental procedural voting, not approval of war or a revealed plot decision. No readable policy text. Maintain chair scale, original cats and alien delegates.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats seated on the enormous council chair, Ryzhik left beside amber voting pad, Luchik right. Alien delegates await a signal.
+
+TIMELINE:
+[0:00–0:05] Wide council reveal moves toward the tiny cats on the enormous chair; delegates murmur and watch the vacant-looking presidency.
+
+[0:05–0:10] Ryzhik follows one pulsing square and taps it with a forepaw; Luchik turns his eyes sharply toward the pad.
+
+[0:10–0:15] Amber lights ignite around the chamber in a wave; delegates raise their own alien limbs to vote, cats stay absolutely serious. End exactly in the stated bridge state.
+
+END STATE:
+Ryzhik has pressed one pad, amber votes illuminate around the chamber; both cats remain stern, delegates lean forward.
+
+CAMERA / SPACE:
+Grand symmetric reveal then low mobile exit; short reaction pauses under two seconds, no static throne tableau.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Council murmur, single pad chime, cascading vote tones and pawbeats; original overly-heroic brass with dry comic restraint. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 16 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+This is accidental procedural voting, not approval of war or a revealed plot decision. No readable policy text. Maintain chair scale, original cats and alien delegates.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Ryzhik has pressed one pad, amber votes illuminate around the chamber; both cats remain stern, delegates lean forward.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: A broad floor path lights toward the main doors; Luchik immediately rises and checks the first low chair step.
+
+[0:05–0:10] Both descend the stepped chair naturally on four paws; delegates lean back and clear the aisle as they pass.
+
+[0:10–0:15] Low tracking follows their confident exit down the illuminated aisle; chamber behind remains in formal astonished silence.
+
+END STATE:
+Voting wave completes, a ceremonial aisle lights up toward the exit; cats step down together as astonished delegates make way.
+
+CAMERA / SPACE:
+Grand symmetric reveal then low mobile exit; short reaction pauses under two seconds, no static throne tableau.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Council murmur, single pad chime, cascading vote tones and pawbeats; original overly-heroic brass with dry comic restraint. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-17"></a>
+## Сцена 17 — Сад, который идёт следом
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Коты идут по живому мосту. Светящиеся растения поворачиваются вслед за ними и открывают проход к заросшим воротам.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="17">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 17 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Plants respond without grabbing or injuring cats. Bridge supports their weight before crossing; no unsupported levitation. No unrelated spaceship or humans.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Luchik leads Ryzhik across a broad root bridge in luminous alien jungle; translucent flowers closed along both sides.
+
+TIMELINE:
+[0:00–0:05] Low travelling shot follows Luchik briskly across interwoven roots, Ryzhik close behind; first translucent flower lights as they pass.
+
+[0:05–0:10] Ryzhik turns back: the bloom has swivelled toward his tail; he takes two quick steps and a second flower follows.
+
+[0:10–0:15] A wave of lights tracks both cats across the bridge; Luchik tests the next thick root with one forepaw before moving onward.
+
+[0:15–0:20] Vines ahead uncoil slowly into a broad stable connecting step; cats wait only until its ends lock visibly into the trunk.
+
+[0:20–0:25] Both cross in quick natural steps toward the enormous overgrown gate; flower lights race ahead and illuminate its circular seam.
+
+[0:25–0:30] Camera follows through the gateway as plants fold behind, concealing the bridge; end with cats facing a newly lit path inside.
+
+END STATE:
+Root bridge extends a final stable step toward the ancient gateway; cats cross safely and the flowers fold behind them, hiding the route.
+
+CAMERA / SPACE:
+Low forward travel, one reverse look for following blooms, wide gate reveal; continuous direction across the bridge.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Root creak, leaf rustle, soft living chimes, distant water; original agile strings opening into a mysterious orchestral phrase. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 17 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Plants respond without grabbing or injuring cats. Bridge supports their weight before crossing; no unsupported levitation. No unrelated spaceship or humans.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Luchik leads Ryzhik across a broad root bridge in luminous alien jungle; translucent flowers closed along both sides.
+
+TIMELINE:
+[0:00–0:05] Low travelling shot follows Luchik briskly across interwoven roots, Ryzhik close behind; first translucent flower lights as they pass.
+
+[0:05–0:10] Ryzhik turns back: the bloom has swivelled toward his tail; he takes two quick steps and a second flower follows.
+
+[0:10–0:15] A wave of lights tracks both cats across the bridge; Luchik tests the next thick root with one forepaw before moving onward. End exactly in the stated bridge state.
+
+END STATE:
+Flowers have turned toward the cats in a synchronized wave; Ryzhik paused beneath one glowing tendril, Luchik at the next firm root.
+
+CAMERA / SPACE:
+Low forward travel, one reverse look for following blooms, wide gate reveal; continuous direction across the bridge.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Root creak, leaf rustle, soft living chimes, distant water; original agile strings opening into a mysterious orchestral phrase. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 17 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Plants respond without grabbing or injuring cats. Bridge supports their weight before crossing; no unsupported levitation. No unrelated spaceship or humans.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Flowers have turned toward the cats in a synchronized wave; Ryzhik paused beneath one glowing tendril, Luchik at the next firm root.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Vines ahead uncoil slowly into a broad stable connecting step; cats wait only until its ends lock visibly into the trunk.
+
+[0:05–0:10] Both cross in quick natural steps toward the enormous overgrown gate; flower lights race ahead and illuminate its circular seam.
+
+[0:10–0:15] Camera follows through the gateway as plants fold behind, concealing the bridge; end with cats facing a newly lit path inside.
+
+END STATE:
+Root bridge extends a final stable step toward the ancient gateway; cats cross safely and the flowers fold behind them, hiding the route.
+
+CAMERA / SPACE:
+Low forward travel, one reverse look for following blooms, wide gate reveal; continuous direction across the bridge.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Root creak, leaf rustle, soft living chimes, distant water; original agile strings opening into a mysterious orchestral phrase. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-18"></a>
+## Сцена 18 — Билет до следующего вагона
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** По крышам грузового поезда котов преследует дрон. Лучик первым перескакивает сцепку; Рыжик следует за ним, и низкая балка задерживает погоню.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="18">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 18 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One jump per cat, real takeoff and landing, no falling or injury. Train remains on rail. Single drone, no teleport. Keyframe shows Luchik mid-jump, not starting state.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats running on one moving freight container roof inside the asteroid transit tunnel; one drone follows, next container a short gap ahead.
+
+TIMELINE:
+[0:00–0:05] Track low beside accelerating cats, train moving left-to-right, tunnel windows reveal asteroid cranes outside.
+
+[0:05–0:10] Luchik reaches the short coupling gap and jumps forcefully; show full takeoff and safe landing on the next roof, as in the action image.
+
+[0:10–0:15] Ryzhik brakes one stride at the edge, judges the gap and lowers hindquarters; Luchik turns briefly to check him.
+
+[0:15–0:20] Ryzhik jumps once, lands on all fours alongside Luchik; drone closes behind without striking either cat.
+
+[0:20–0:25] A low maintenance crossbeam approaches: both instantly flatten on the roof, drone brakes before the beam and loses distance.
+
+[0:25–0:30] Train clears the beam, cats rise and resume a fast four-paw run toward the bright tunnel exit; end on successful escape momentum.
+
+END STATE:
+Both safely crouched on next roof beyond the low beam; drone brakes on the other side, train carries the pair toward a lit exit.
+
+CAMERA / SPACE:
+Lateral running camera, wide gap shot, low beam perspective; real-time speed and legible travel direction.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Train roar, paw impacts on steel, drone whine and beam air rush; original urgent rhythmic strings and punchy brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 18 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One jump per cat, real takeoff and landing, no falling or injury. Train remains on rail. Single drone, no teleport. Keyframe shows Luchik mid-jump, not starting state.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats running on one moving freight container roof inside the asteroid transit tunnel; one drone follows, next container a short gap ahead.
+
+TIMELINE:
+[0:00–0:05] Track low beside accelerating cats, train moving left-to-right, tunnel windows reveal asteroid cranes outside.
+
+[0:05–0:10] Luchik reaches the short coupling gap and jumps forcefully; show full takeoff and safe landing on the next roof, as in the action image.
+
+[0:10–0:15] Ryzhik brakes one stride at the edge, judges the gap and lowers hindquarters; Luchik turns briefly to check him. End exactly in the stated bridge state.
+
+END STATE:
+Luchik has landed on the next roof; Ryzhik crouched at the near edge, ready to jump. Drone still behind, low crossbeam approaching.
+
+CAMERA / SPACE:
+Lateral running camera, wide gap shot, low beam perspective; real-time speed and legible travel direction.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Train roar, paw impacts on steel, drone whine and beam air rush; original urgent rhythmic strings and punchy brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 18 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+One jump per cat, real takeoff and landing, no falling or injury. Train remains on rail. Single drone, no teleport. Keyframe shows Luchik mid-jump, not starting state.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Luchik has landed on the next roof; Ryzhik crouched at the near edge, ready to jump. Drone still behind, low crossbeam approaching.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Ryzhik jumps once, lands on all fours alongside Luchik; drone closes behind without striking either cat.
+
+[0:05–0:10] A low maintenance crossbeam approaches: both instantly flatten on the roof, drone brakes before the beam and loses distance.
+
+[0:10–0:15] Train clears the beam, cats rise and resume a fast four-paw run toward the bright tunnel exit; end on successful escape momentum.
+
+END STATE:
+Both safely crouched on next roof beyond the low beam; drone brakes on the other side, train carries the pair toward a lit exit.
+
+CAMERA / SPACE:
+Lateral running camera, wide gap shot, low beam perspective; real-time speed and legible travel direction.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Train roar, paw impacts on steel, drone whine and beam air rush; original urgent rhythmic strings and punchy brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-19"></a>
+## Сцена 19 — Холодная добыча
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Рыжик пробует достать ключ в форме рыбы из льда языком. Лучик включает подогрев, и драгоценность сама соскальзывает к их лапам.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="19">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 19 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No tongue stuck to ice, no pain, no melting living beings. One brass fish-shaped key, not edible fish. Key motion caused by thaw and gravity.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Inside frozen alien vault, fish-shaped brass key sealed in a clear ice block; Luchik beside a large amber warming plate, Ryzhik inspecting ice.
+
+TIMELINE:
+[0:00–0:05] Camera travels past frozen display columns to the cats and fish-shaped key; Ryzhik sniffs the transparent ice with great seriousness.
+
+[0:05–0:10] Ryzhik gives the ice one brief lick and immediately withdraws his tongue safely; Luchik studies the amber floor control.
+
+[0:10–0:15] Luchik presses the broad warming plate; thin water tracks appear around the brass key, soft steam rising from the base.
+
+[0:15–0:20] Both step aside as the ice loosens around the key; Ryzhik follows the first moving edge with focused eyes.
+
+[0:20–0:25] Key slides down a short melted groove into the shallow tray; Ryzhik stops it with a furry paw before it can roll.
+
+[0:25–0:30] Luchik turns toward the distant locked door; Ryzhik nudges the key in that direction, ending on the next practical problem.
+
+END STATE:
+Key slides gently into a shallow tray; Ryzhik pins it with one paw, Luchik looks toward the locked vault door beyond.
+
+CAMERA / SPACE:
+Close physical cause-and-effect inserts, low two-shot, motivated door reveal; no long inert pause.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Tiny lick, heater click, delicate ice crack and brass slide; original pizzicato and restrained heroic bass brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 19 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No tongue stuck to ice, no pain, no melting living beings. One brass fish-shaped key, not edible fish. Key motion caused by thaw and gravity.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Inside frozen alien vault, fish-shaped brass key sealed in a clear ice block; Luchik beside a large amber warming plate, Ryzhik inspecting ice.
+
+TIMELINE:
+[0:00–0:05] Camera travels past frozen display columns to the cats and fish-shaped key; Ryzhik sniffs the transparent ice with great seriousness.
+
+[0:05–0:10] Ryzhik gives the ice one brief lick and immediately withdraws his tongue safely; Luchik studies the amber floor control.
+
+[0:10–0:15] Luchik presses the broad warming plate; thin water tracks appear around the brass key, soft steam rising from the base. End exactly in the stated bridge state.
+
+END STATE:
+Luchik paw on warming plate, Ryzhik has just withdrawn tongue from one quick lick; a melt seam appears around the key.
+
+CAMERA / SPACE:
+Close physical cause-and-effect inserts, low two-shot, motivated door reveal; no long inert pause.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Tiny lick, heater click, delicate ice crack and brass slide; original pizzicato and restrained heroic bass brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 19 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+No tongue stuck to ice, no pain, no melting living beings. One brass fish-shaped key, not edible fish. Key motion caused by thaw and gravity.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Luchik paw on warming plate, Ryzhik has just withdrawn tongue from one quick lick; a melt seam appears around the key.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Both step aside as the ice loosens around the key; Ryzhik follows the first moving edge with focused eyes.
+
+[0:05–0:10] Key slides down a short melted groove into the shallow tray; Ryzhik stops it with a furry paw before it can roll.
+
+[0:10–0:15] Luchik turns toward the distant locked door; Ryzhik nudges the key in that direction, ending on the next practical problem.
+
+END STATE:
+Key slides gently into a shallow tray; Ryzhik pins it with one paw, Luchik looks toward the locked vault door beyond.
+
+CAMERA / SPACE:
+Close physical cause-and-effect inserts, low two-shot, motivated door reveal; no long inert pause.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Tiny lick, heater click, delicate ice crack and brass slide; original pizzicato and restrained heroic bass brass. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-20"></a>
+## Сцена 20 — Высадка в шторм
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Коты сходят с корабля на плавучий космопорт. Волна перекрывает дорогу; они пережидают удар за ограждением и рывком добираются до входа.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Исходная техника или эмблема — неизменный дизайн" loading="lazy"></a><figcaption>@Image4 — Исходная техника или эмблема — неизменный дизайн</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="20">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 20 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Hero ship landed and secured on ocean platform, hatch open and ramp down; Luchik and Ryzhik have reached the railed gangway, walking away from ship.
+
+TIMELINE:
+[0:00–0:05] Low retreating camera frames both cats striding from ship toward camera on the railed wet gangway, emblem and РОСКОТМОС readable behind.
+
+[0:05–0:10] A tall wave rises beside the platform; Luchik spots it and immediately drops low behind the nearest solid support, Ryzhik follows.
+
+[0:10–0:15] Water bursts below the rails; cats remain braced on the deck, spray through fur, no one knocked off or submerged.
+
+[0:15–0:20] As the wave recedes, Luchik springs forward, Ryzhik close behind; both sprint the short remaining gangway toward the shelter.
+
+[0:20–0:25] They cross the dry threshold one after another; Luchik stops inside, Ryzhik shakes only his head once, sending small droplets sideways.
+
+[0:25–0:30] Both turn sternly back toward the storm and their anchored ship; doorframe reveals the full scale of ocean and spaceport.
+
+END STATE:
+Cats reach the covered port doorway safely, shake rain from whiskers once and look back at the storm; ship secure, hatch still open.
+
+CAMERA / SPACE:
+Low reverse tracking, readable cover position and short dash to shelter; no slow-motion spray montage.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Storm wind, deep wave impact, metal gangway vibration, quick wet pawbeats; original forceful brass and percussion. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 20 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Hero ship landed and secured on ocean platform, hatch open and ramp down; Luchik and Ryzhik have reached the railed gangway, walking away from ship.
+
+TIMELINE:
+[0:00–0:05] Low retreating camera frames both cats striding from ship toward camera on the railed wet gangway, emblem and РОСКОТМОС readable behind.
+
+[0:05–0:10] A tall wave rises beside the platform; Luchik spots it and immediately drops low behind the nearest solid support, Ryzhik follows.
+
+[0:10–0:15] Water bursts below the rails; cats remain braced on the deck, spray through fur, no one knocked off or submerged. End exactly in the stated bridge state.
+
+END STATE:
+Both crouched behind a solid gangway support as one wave strikes below; ship remains anchored behind, gangway holds firm.
+
+CAMERA / SPACE:
+Low reverse tracking, readable cover position and short dash to shelter; no slow-motion spray montage.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Storm wind, deep wave impact, metal gangway vibration, quick wet pawbeats; original forceful brass and percussion. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 20 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png`; @Image4 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png.
+@Image4 — Исходная техника или эмблема — неизменный дизайн; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Both crouched behind a solid gangway support as one wave strikes below; ship remains anchored behind, gangway holds firm.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: As the wave recedes, Luchik springs forward, Ryzhik close behind; both sprint the short remaining gangway toward the shelter.
+
+[0:05–0:10] They cross the dry threshold one after another; Luchik stops inside, Ryzhik shakes only his head once, sending small droplets sideways.
+
+[0:10–0:15] Both turn sternly back toward the storm and their anchored ship; doorframe reveals the full scale of ocean and spaceport.
+
+END STATE:
+Cats reach the covered port doorway safely, shake rain from whiskers once and look back at the storm; ship secure, hatch still open.
+
+CAMERA / SPACE:
+Low reverse tracking, readable cover position and short dash to shelter; no slow-motion spray montage.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Storm wind, deep wave impact, metal gangway vibration, quick wet pawbeats; original forceful brass and percussion. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-21"></a>
+## Сцена 21 — Экспонат руками не трогать
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["image_first","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** В музее миниатюрная чёрная дыра притягивает буклеты. Рыжик пытается нажать кнопку, а Лучик удерживает защитный рычаг, пока экспонат не успокоится.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Сначала создан и отсмотрен кадр, затем по его фактическому содержанию написана сцена. Это заготовка для дальнейшего развития владельцем.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Исходная идентичность Лучика" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность Лучика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Исходная идентичность Рыжика" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность Рыжика</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="21">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 21 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Black hole is fictional safely contained museum model; glass never breaks, no swallowing animals. Guarded button requires visible interlock. Paper motion has shown physical cause.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats beside contained tiny black-hole exhibit in a brass-and-glass cylinder; brochures begin lifting, containment intact.
+
+TIMELINE:
+[0:00–0:05] A brochure lifts from the visitor rail and begins circling the sealed exhibit; cats track it while alien visitors step back.
+
+[0:05–0:10] More papers rise, tails and fur respond to the local airflow; Luchik braces paws on the rail and identifies a broad safety lever.
+
+[0:10–0:15] Ryzhik reaches the guarded red switch; Luchik pushes the lever down with body weight, holding the safety interlock open.
+
+[0:15–0:20] Ryzhik taps the now-accessible button once; luminous containment rings contract smoothly and the paper orbit slows.
+
+[0:20–0:25] Gravity effect subsides, papers float down without people or cats being pulled into the cylinder; both regain steady four-paw stance.
+
+[0:25–0:30] A final brochure lands on Ryzhik head; he flicks it away once with a stern paw movement while Luchik watches the stabilized exhibit.
+
+END STATE:
+Containment stabilizes, papers settle, both cats sit perfectly serious; one brochure falls over Ryzhik head and he flicks it off with a paw.
+
+CAMERA / SPACE:
+Readable exhibit/rail/switch geography, short energetic inserts, wide stabilization payoff; no abstract vortex cutaway.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Paper flutter, deep contained hum, safety click and settling sheets; original escalating strings, abrupt dry brass comic finish. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 21 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Black hole is fictional safely contained museum model; glass never breaks, no swallowing animals. Guarded button requires visible interlock. Paper motion has shown physical cause.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Both cats beside contained tiny black-hole exhibit in a brass-and-glass cylinder; brochures begin lifting, containment intact.
+
+TIMELINE:
+[0:00–0:05] A brochure lifts from the visitor rail and begins circling the sealed exhibit; cats track it while alien visitors step back.
+
+[0:05–0:10] More papers rise, tails and fur respond to the local airflow; Luchik braces paws on the rail and identifies a broad safety lever.
+
+[0:10–0:15] Ryzhik reaches the guarded red switch; Luchik pushes the lever down with body weight, holding the safety interlock open. End exactly in the stated bridge state.
+
+END STATE:
+Paper spirals around cylinder; Ryzhik paw hovers over guarded red button while Luchik braces at railing beside the safety lever.
+
+CAMERA / SPACE:
+Readable exhibit/rail/switch geography, short energetic inserts, wide stabilization payoff; no abstract vortex cutaway.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Paper flutter, deep contained hum, safety click and settling sheets; original escalating strings, abrupt dry brass comic finish. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 21 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Исходная идентичность Лучика; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Исходная идентичность Рыжика; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+Black hole is fictional safely contained museum model; glass never breaks, no swallowing animals. Guarded button requires visible interlock. Paper motion has shown physical cause.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+START STATE:
+Continue @Video1 exactly: Paper spirals around cylinder; Ryzhik paw hovers over guarded red button while Luchik braces at railing beside the safety lever.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Ryzhik taps the now-accessible button once; luminous containment rings contract smoothly and the paper orbit slows.
+
+[0:05–0:10] Gravity effect subsides, papers float down without people or cats being pulled into the cylinder; both regain steady four-paw stance.
+
+[0:10–0:15] A final brochure lands on Ryzhik head; he flicks it away once with a stern paw movement while Luchik watches the stabilized exhibit.
+
+END STATE:
+Containment stabilizes, papers settle, both cats sit perfectly serious; one brochure falls over Ryzhik head and he flicks it off with a paw.
+
+CAMERA / SPACE:
+Readable exhibit/rail/switch geography, short energetic inserts, wide stabilization payoff; no abstract vortex cutaway.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Paper flutter, deep contained hum, safety click and settling sheets; original escalating strings, abrupt dry brass comic finish. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, subtitles, text overlays, logos added as titles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-22"></a>
+## Сцена 22 — Событийная заставка сериала — Экипаж РосКОТмоса
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["event_opening","owner_requested","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по задаче владельца 21.10.2026. В очередь не добавлять. Генерации не запускались.**
+
+**Что происходит:** Штаб выдаёт маршрут → коты бегут на корабль → подводный рынок встречает их гигантской рыбой → галактический совет принимает случайный голос → живой сад открывает дорогу → название сериала. Это регулярная заставка мира и героев.
+
+**Готовность:** Все статичные входы сохранены и проверены; видео ещё не создано, для части 2 понадобится фактический результат части 1. Техническая проверка изображения не является одобрением владельца.
+
+**Назначение:** Событийная начальная заставка сериала: самостоятельный монтаж мира и героев; графическая заставка сохранена отдельно.
+
+**Входные изображения и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kotmonavty/references/luchik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/luchik.jpg" alt="Лучик — исходная идентичность" loading="lazy"></a><figcaption>@Image1 — Лучик — исходная идентичность</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ryzhik.jpg" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ryzhik.jpg" alt="Рыжик — исходная идентичность" loading="lazy"></a><figcaption>@Image2 — Рыжик — исходная идентичность</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png" alt="Штаб РосКОТмоса: тревога на карте — только эта локация и её действие" loading="lazy"></a><figcaption>@Image3 — Штаб РосКОТмоса: тревога на карте — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png" alt="Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие" loading="lazy"></a><figcaption>@Image4 — Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png" alt="Рынок под стеклянным морем — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Рынок под стеклянным морем — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png" alt="Незваные дипломаты — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Незваные дипломаты — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png" alt="Сад, который идёт следом — только эта локация и её действие" loading="lazy"></a><figcaption>@Image7 — Сад, который идёт следом — только эта локация и её действие</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/branding/KM-opening.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/branding/KM-opening.png" alt="Отдельная опора монтажа: KM-opening.png" loading="lazy"></a><figcaption>@Image8 — Отдельная опора монтажа: KM-opening.png</figcaption></figure>
+<figure><a href="projects/kotmonavty/references/ship-exterior-front.png" target="_blank" rel="noopener"><img src="projects/kotmonavty/references/ship-exterior-front.png" alt="Отдельная опора монтажа: ship-exterior-front.png" loading="lazy"></a><figcaption>@Image9 — Отдельная опора монтажа: ship-exterior-front.png</figcaption></figure>
+</div>
+
+**Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
+
+<div class="engine-tabs" data-scene="22">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 22 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`; @Image8 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Photoreal epic galactic adventure comedy, serious natural cats; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Штаб РосКОТмоса: тревога на карте — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image5 — Рынок под стеклянным морем — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+@Image6 — Незваные дипломаты — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+@Image7 — Сад, который идёт следом — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+@Image8 — Отдельная опора монтажа: KM-opening.png; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Headquarters map with red sector alert, two cats immediately engaged in work; title artwork not yet shown.
+
+TIMELINE:
+[0:00–0:05] Mission-control sweep finds Luchik and Ryzhik at the alert table; Ryzhik acknowledges red sector, Luchik fixes route. Wall cat emblem with РОСКОТМОС clear.
+
+[0:05–0:10] Cut on their turn to hangar sprint: cats race up the original ship ramp; hull marking РОСКОТМОС beneath emblem fully readable during tracking.
+
+[0:10–0:15] Cut to underwater market: immense fish glides over the glass dome, Ryzhik rises and lifts paw, Luchik stops a rolling pearl. End on merchant withdrawing shell.
+
+[0:15–0:20] Hard cut to council throne: Ryzhik taps voting pad, amber votes ripple around alien chamber; cats step down together into ceremonial aisle.
+
+[0:20–0:25] Cut on pawstep to living root bridge: both briskly cross as flowers turn and gate opens in a luminous wave. Show decisive crossing, no danger montage from trailer.
+
+[0:25–0:30] A passing dark leaf provides a clean editorial wipe to supplied title plate; reveal exact emblem, РОСКОТМОС beneath it and КОТМОНАВТЫ below. Hold title only final two seconds with moving stellar parallax.
+
+END STATE:
+Exact supplied title composition: cat-cosmonaut emblem, РОСКОТМОС, КОТМОНАВТЫ. Original lettering, no new tagline; two-second readable finish.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, unrequested subtitles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 22 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`; @Image8 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Штаб РосКОТмоса: тревога на карте — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image5 — Рынок под стеклянным морем — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+@Image6 — Незваные дипломаты — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+@Image7 — Сад, который идёт следом — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+@Image8 — Отдельная опора монтажа: KM-opening.png; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Headquarters map with red sector alert, two cats immediately engaged in work; title artwork not yet shown.
+
+TIMELINE:
+[0:00–0:05] Mission-control sweep finds Luchik and Ryzhik at the alert table; Ryzhik acknowledges red sector, Luchik fixes route. Wall cat emblem with РОСКОТМОС clear.
+
+[0:05–0:10] Cut on their turn to hangar sprint: cats race up the original ship ramp; hull marking РОСКОТМОС beneath emblem fully readable during tracking.
+
+[0:10–0:15] Cut to underwater market: immense fish glides over the glass dome, Ryzhik rises and lifts paw, Luchik stops a rolling pearl. End on merchant withdrawing shell. End exactly in the stated bridge state.
+
+END STATE:
+Underwater market, pearl safely in shell and merchant withdrawing it; cats look up toward giant fish beyond glass.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, unrequested subtitles, watermark, static slideshow, unmotivated idle holds.
+
+FRAME FILL / NO BARS:
+Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+#### 22 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — настоящий результат части 1 этой сцены; @Image1 — `projects/kotmonavty/references/luchik.jpg`; @Image2 — `projects/kotmonavty/references/ryzhik.jpg`; @Image3 — `projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png`; @Image4 — `projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png`; @Image5 — `projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png`; @Image6 — `projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png`; @Image7 — `projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png`; @Image8 — `projects/kotmonavty/references/branding/KM-opening.png`; @Image9 — `projects/kotmonavty/references/ship-exterior-front.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal epic galactic adventure comedy, serious natural cats; event opening
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
+@Image1 — Лучик — исходная идентичность; file: projects/kotmonavty/references/luchik.jpg.
+@Image2 — Рыжик — исходная идентичность; file: projects/kotmonavty/references/ryzhik.jpg.
+@Image3 — Штаб РосКОТмоса: тревога на карте — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png.
+@Image4 — Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png.
+@Image5 — Рынок под стеклянным морем — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png.
+@Image6 — Незваные дипломаты — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png.
+@Image7 — Сад, который идёт следом — только эта локация и её действие; file: projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.
+@Image8 — Отдельная опора монтажа: KM-opening.png; file: projects/kotmonavty/references/branding/KM-opening.png.
+@Image9 — Отдельная опора монтажа: ship-exterior-front.png; file: projects/kotmonavty/references/ship-exterior-front.png.
+Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/chest/paws, grey forehead and nose markings, serious light green-grey eyes. RYZHIK: exact ginger long-haired tabby from @Image2, dark orange stripes, pale chin, serious amber-green eyes. Real domestic-cat scale and anatomy, furred paws and tails, no clothes, no human hands. No identity blending. In cockpit Ryzhik is screen-left navigator and Luchik screen-right pilot; outside cockpit follow shot staging.
+
+SPECIAL LOCKS:
+EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
+SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+START STATE:
+Continue @Video1 exactly: Underwater market, pearl safely in shell and merchant withdrawing it; cats look up toward giant fish beyond glass.
+
+TIMELINE:
+[0:00–0:05] Continue actual @Video1 final frame without replaying earlier action, then make the stated cut/action: Hard cut to council throne: Ryzhik taps voting pad, amber votes ripple around alien chamber; cats step down together into ceremonial aisle.
+
+[0:05–0:10] Cut on pawstep to living root bridge: both briskly cross as flowers turn and gate opens in a luminous wave. Show decisive crossing, no danger montage from trailer.
+
+[0:10–0:15] A passing dark leaf provides a clean editorial wipe to supplied title plate; reveal exact emblem, РОСКОТМОС beneath it and КОТМОНАВТЫ below. Hold title only final two seconds with moving stellar parallax.
+
+END STATE:
+Exact supplied title composition: cat-cosmonaut emblem, РОСКОТМОС, КОТМОНАВТЫ. Original lettering, no new tagline; two-second readable finish.
+
+CAMERA / SPACE:
+Energetic cinematic montage with motivated hard cuts on shapes, eyelines and motion. Six meaningful beats, no slideshow zooms. Maintain coherent movement within each shot, never use a transition to conceal an impossible action.
+
+PERFORMANCE:
+Natural quick four-paw movement, force, inertia and responsive ears. Absolute deadpan seriousness; short comic beats only where stated.
+
+LIGHTING / MATERIALS:
+Photoreal fur and worn sci-fi materials; match each supplied location, practical amber/cyan contrast.
+
+AUDIO:
+Original adventure orchestra with bold brass, fast strings, planetary-scale impacts and dry comic punctuation. No dialogue, no narration, no sung words. Original music only, no recognizable existing melodies.
+
+NEGATIVE PROMPT:
+Human hands, human faces on cats, dressed cats, altered fur markings, giant cats, duplicate cats, extra limbs, broken tongues, fused glasses, drinking alcohol, floating props without the specified magnetism, containment effect or gravity, arbitrary ship redesign, franchise characters, unrequested subtitles, watermark, static slideshow, unmotivated idle holds.
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.

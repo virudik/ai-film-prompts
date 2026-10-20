@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "scene": 2,
+  "title": "Графическая заставка — Кот детектив",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "status": "draft_references_ready",
+  "editorial_status": "not_approved",
+  "references": [
+    {
+      "tag": "@Image1",
+      "role": "Заставка: точная композиция и надписи",
+      "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+      "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
+    },
+    {
+      "tag": "@Image2",
+      "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
+      "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+      "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861"
+    }
+  ],
+  "prompt_reference_mapping": [
+    {
+      "variant": "wan30",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Заставка: точная композиция и надписи",
+          "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+          "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
+          "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+          "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part1",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Заставка: точная композиция и надписи",
+          "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+          "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
+          "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+          "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861"
+        }
+      ],
+      "video": null
+    },
+    {
+      "variant": "sd20_part2",
+      "images": [
+        {
+          "tag": "@Image1",
+          "role": "Заставка: точная композиция и надписи",
+          "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+          "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
+        },
+        {
+          "tag": "@Image2",
+          "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
+          "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+          "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861"
+        }
+      ],
+      "video": {
+        "tag": "@Video1",
+        "source": "actual_part1_result",
+        "status": "not_created"
+      }
+    }
+  ],
+  "site_registry": "character-references.json",
+  "start_end_states_in_master": true,
+  "queue": "not_queued",
+  "video_launches": 0
+}

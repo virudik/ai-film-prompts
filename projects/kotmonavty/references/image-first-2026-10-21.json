@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "created_at": "2026-10-20T23:30:02Z",
+  "editorial_status": "not_approved",
+  "method": "image first → visual check → scene and three prompt texts",
+  "assets": [
+    {
+      "key": "KM11-command-room",
+      "project": "kotmonavty",
+      "scene": 11,
+      "title": "Штаб РосКОТмоса: тревога на карте",
+      "path": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/roskotmos-logo.png"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        11,
+        22
+      ],
+      "sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM11-hangar-departure",
+      "project": "kotmonavty",
+      "scene": 11,
+      "title": "Штаб РосКОТмоса: вылет по тревоге",
+      "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/ship-exterior-front.png"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        11,
+        22
+      ],
+      "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM12-magnetic-scrapyard",
+      "project": "kotmonavty",
+      "scene": 12,
+      "title": "Магнитная свалка",
+      "path": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        12
+      ],
+      "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM13-glass-market",
+      "project": "kotmonavty",
+      "scene": 13,
+      "title": "Рынок под стеклянным морем",
+      "path": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        13,
+        22
+      ],
+      "sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM14-buried-beacon",
+      "project": "kotmonavty",
+      "scene": 14,
+      "title": "Маяк в песчаной буре",
+      "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/ship-exterior-front.png"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        14
+      ],
+      "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM15-giant-eye",
+      "project": "kotmonavty",
+      "scene": 15,
+      "title": "Глаз за иллюминатором",
+      "path": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        15
+      ],
+      "sha256": "1656771c3e2d0188a8365e429a34d763c3aad51d2a1314f6172eda6edc04ad01",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM16-diplomatic-throne",
+      "project": "kotmonavty",
+      "scene": 16,
+      "title": "Незваные дипломаты",
+      "path": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        16,
+        22
+      ],
+      "sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732",
+      "width": 1673,
+      "height": 940,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM17-luminous-garden",
+      "project": "kotmonavty",
+      "scene": 17,
+      "title": "Сад, который идёт следом",
+      "path": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        17,
+        22
+      ],
+      "sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM18-freight-train",
+      "project": "kotmonavty",
+      "scene": 18,
+      "title": "Экспресс через астероид",
+      "path": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        18
+      ],
+      "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM19-frozen-vault",
+      "project": "kotmonavty",
+      "scene": 19,
+      "title": "Лёд хранит секрет",
+      "path": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        19
+      ],
+      "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM20-storm-port",
+      "project": "kotmonavty",
+      "scene": 20,
+      "title": "Последний причал",
+      "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg",
+        "projects/kotmonavty/references/ship-exterior-front.png"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        20
+      ],
+      "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    },
+    {
+      "key": "KM21-gravity-museum",
+      "project": "kotmonavty",
+      "scene": 21,
+      "title": "Экспонат с притяжением",
+      "path": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png",
+      "inputs": [
+        "projects/kotmonavty/references/luchik.jpg",
+        "projects/kotmonavty/references/ryzhik.jpg"
+      ],
+      "kind": "situation_reference",
+      "status": "generated_and_bound",
+      "editorial_status": "not_approved",
+      "scenes": [
+        2,
+        21
+      ],
+      "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.image-prompt.txt",
+      "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
+      "checked_at": "2026-10-20T23:30:02Z"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "updated_at": "2026-10-20T23:31:58Z",
+  "generated_image_count": 26,
+  "generated_orphans": [],
+  "images": [
+    {
+      "path": "projects/kotmonavty/references/branding/KM-opening.png",
+      "scenes": [
+        3,
+        22
+      ],
+      "roles": [
+        "Заставка: точная композиция и надписи",
+        "Отдельная опора монтажа: KM-opening.png"
+      ],
+      "sha256": "21feec98f172953dd4ed12426072fb9546db3c99fdb91c19bc19fd92413cbdf6",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/branding/KM-poster.png",
+      "scenes": [
+        3
+      ],
+      "roles": [
+        "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет"
+      ],
+      "sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-bar-compass.png",
+      "scenes": [
+        4,
+        8
+      ],
+      "roles": [
+        "Дополнительная опора на среду/реквизит, не переносить другую фазу действия"
+      ],
+      "sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
+      "scenes": [
+        2,
+        5
+      ],
+      "roles": [
+        "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+        "Отдельная опора монтажа: KM-ring-chase.png"
+      ],
+      "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/development/KM-star-vault.png",
+      "scenes": [
+        6,
+        7
+      ],
+      "roles": [
+        "Дополнительная опора на среду/реквизит, не переносить другую фазу действия"
+      ],
+      "sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/luchik.jpg",
+      "scenes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "roles": [
+        "Исходная идентичность Лучика",
+        "Лучик — абсолютная идентичность",
+        "Лучик — исходная идентичность"
+      ],
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/roskotmos-logo.png",
+      "scenes": [
+        3,
+        11
+      ],
+      "roles": [
+        "Исходная техника или эмблема — неизменный дизайн",
+        "Исходная эмблема РосКОТмоса — дизайн"
+      ],
+      "sha256": "8481db6884b934d5889adf7ae9504ed82e447136b5002b0bf7fc120fdb9cb94f",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/ryzhik.jpg",
+      "scenes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "roles": [
+        "Исходная идентичность Рыжика",
+        "Рыжик — абсолютная идентичность",
+        "Рыжик — исходная идентичность"
+      ],
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "Бар, расстановка, рюмки молока и серьёзные морды"
+      ],
+      "sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+      "scenes": [
+        1
+      ],
+      "roles": [
+        "Второй ракурс лактания молока, только действие/ракурс"
+      ],
+      "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-10/KM10-customs.png",
+      "scenes": [
+        10
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "ee06564bce4e3b958a34a8e83a69f9f748c1b984ed0a54e0a22141460c3326ee",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-11/KM11-command-room.png",
+      "scenes": [
+        11,
+        22
+      ],
+      "roles": [
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+        "Штаб РосКОТмоса: тревога на карте — только эта локация и её действие"
+      ],
+      "sha256": "f61784b93ba6b7bfd62ce1710fa421430da79078904a71a86597e8e1e13e67be",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
+      "scenes": [
+        11,
+        22
+      ],
+      "roles": [
+        "Ангар — отдельный финальный эпизод, бег к кораблю",
+        "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие"
+      ],
+      "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png",
+      "scenes": [
+        2,
+        12
+      ],
+      "roles": [
+        "Магнитная свалка — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "7b22da97a31cf6d496958645e957cfa3923484ef3048c9da1bb289d81a333607",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-13/KM13-glass-market.png",
+      "scenes": [
+        13,
+        22
+      ],
+      "roles": [
+        "Рынок под стеклянным морем — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
+      "scenes": [
+        2,
+        14
+      ],
+      "roles": [
+        "Маяк в песчаной буре — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png",
+      "scenes": [
+        15
+      ],
+      "roles": [
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "1656771c3e2d0188a8365e429a34d763c3aad51d2a1314f6172eda6edc04ad01",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-16/KM16-diplomatic-throne.png",
+      "scenes": [
+        16,
+        22
+      ],
+      "roles": [
+        "Незваные дипломаты — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png",
+      "scenes": [
+        17,
+        22
+      ],
+      "roles": [
+        "Сад, который идёт следом — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png",
+      "scenes": [
+        2,
+        18
+      ],
+      "roles": [
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+        "Экспресс через астероид — только эта локация и её действие"
+      ],
+      "sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png",
+      "scenes": [
+        2,
+        19
+      ],
+      "roles": [
+        "Лёд хранит секрет — только эта локация и её действие",
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png",
+      "scenes": [
+        20
+      ],
+      "roles": [
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности"
+      ],
+      "sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png",
+      "scenes": [
+        2,
+        21
+      ],
+      "roles": [
+        "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+        "Экспонат с притяжением — только эта локация и её действие"
+      ],
+      "sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+      "scenes": [
+        4
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+      "scenes": [
+        5
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png",
+      "scenes": [
+        6
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "b8558250e369e12dca802d0c3f44e4308fafabc6da867cb160b8ca4b3149558c",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png",
+      "scenes": [
+        7
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "1c09dc5b9227f84b34a38ab1920ea1666a8bdbb0983c123853d7c0f60790d698",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png",
+      "scenes": [
+        8
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "8341a2ba823105bbfd81b9199b32af8b669bef27d1451d88ce48d0b9b1718262",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png",
+      "scenes": [
+        9
+      ],
+      "roles": [
+        "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
+      ],
+      "sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+      "scenes": [
+        5
+      ],
+      "roles": [
+        "Четыре двигателя — технический контроль количества, не другой корабль"
+      ],
+      "sha256": "41b51f4b883a2b88ca111f139a166abfbfac39d0ca99157061244bc04ad4cb00",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/ship-exterior-front.png",
+      "scenes": [
+        2,
+        5,
+        11,
+        14,
+        20,
+        22
+      ],
+      "roles": [
+        "Исходная техника или эмблема — неизменный дизайн",
+        "Исходный корабль — абсолютная конструкция",
+        "Корабль — абсолютный оригинал конструкции",
+        "Отдельная опора монтажа: ship-exterior-front.png"
+      ],
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+      "scenes": [
+        5
+      ],
+      "roles": [
+        "Корма и расположение двигателей — технический оригинал"
+      ],
+      "sha256": "cbfccd3343a453cbe4ab8a866901d20c8a622de1414ea9efbfe7b62552ada30f",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+      "scenes": [
+        5,
+        9
+      ],
+      "roles": [
+        "Дополнительная опора на среду/реквизит, не переносить другую фазу действия"
+      ],
+      "sha256": "6f0cb5dbf7b3f77b8899d1e542e5ab605e15f89999741286759fb80e03464f00",
+      "editorial_status": "source_reference"
+    },
+    {
+      "path": "projects/kotmonavty/references/ship-interior-window.webp",
+      "scenes": [
+        5
+      ],
+      "roles": [
+        "Небольшой исторический ракурс окна изнутри; только ориентация, основной интерьер выше"
+      ],
+      "sha256": "faedf560639c484075aab1b232f52b9c8d2ea787a75bf021f8f4ea8c4ca1385e",
+      "editorial_status": "source_reference"
+    }
+  ],
+  "unbound_images": []
+}
