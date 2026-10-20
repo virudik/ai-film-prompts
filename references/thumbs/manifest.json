@@ -133,6 +133,16 @@
    "thumb_bytes": 73462,
    "src_sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8"
   },
+  "projects/kotmonavty/references/development/KM-star-vault.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-star-vault.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2959538,
+   "thumb_bytes": 80268,
+   "src_sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb"
+  },
   "projects/kotmonavty/references/luchik.jpg": {
    "thumb": "references/thumbs/projects/kotmonavty/references/luchik.jpg.webp",
    "width": 640,
