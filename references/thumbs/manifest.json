@@ -123,6 +123,16 @@
    "thumb_bytes": 68260,
    "src_sha256": "e952c516fe33697cd27fbe11da5ffbad2023d912eaad0bf1b245cd4eedecc900"
   },
+  "projects/kotmonavty/references/development/KM-ring-chase.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-ring-chase.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3033782,
+   "thumb_bytes": 73462,
+   "src_sha256": "30115af1720a483784ba22144119fae2b7ccc0e6e4d7431a8f75225a44e2f5b8"
+  },
   "projects/kotmonavty/references/luchik.jpg": {
    "thumb": "references/thumbs/projects/kotmonavty/references/luchik.jpg.webp",
    "width": 640,
