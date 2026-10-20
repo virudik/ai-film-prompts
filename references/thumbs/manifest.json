@@ -253,6 +253,16 @@
    "thumb_bytes": 68644,
    "src_sha256": "5ffe20835059b991532a9a49d1d6575b3ec726e152e0188686e1c89e6e16ac2f"
   },
+  "projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2509856,
+   "thumb_bytes": 61430,
+   "src_sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -532,6 +542,16 @@
    "src_bytes": 2903397,
    "thumb_bytes": 69546,
    "src_sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508"
+  },
+  "projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-20/KM20-storm-port.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3006532,
+   "thumb_bytes": 74556,
+   "src_sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
