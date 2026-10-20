@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "S57 avenue and S58 wreck free image inputs; video priority before dance",
-  "acquired_at": "2026-10-20T00:13:12.936Z",
-  "expires_at": null,
-  "released_at": "2026-10-20T00:22:24.923Z",
+  "task": "Generate scene57/58 missing references with built-in imagegen per owner03:24MSK",
+  "acquired_at": "2026-10-20T00:24:50.754Z",
+  "expires_at": "2026-10-20T01:09:50.754Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
