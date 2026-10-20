@@ -1162,6 +1162,16 @@
    "src_bytes": 1287497,
    "thumb_bytes": 22376,
    "src_sha256": "8298efb91e68ae4f482498e417043f80cc28e4002b53f00a5eee374bceeaf43a"
+  },
+  "references/scenes/scene-57/S57-crash-avenue.png": {
+   "thumb": "references/thumbs/scenes/scene-57/S57-crash-avenue.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2520807,
+   "thumb_bytes": 52112,
+   "src_sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
   }
  }
 }
