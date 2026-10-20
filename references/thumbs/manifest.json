@@ -1173,6 +1173,16 @@
    "thumb_bytes": 52112,
    "src_sha256": "030c1e43c9fac7823b8046b3e55ed278970888ffcc5d6e8bcd142632b877300a"
   },
+  "references/scenes/scene-58/S58-cats-escape-open-hatch.png": {
+   "thumb": "references/thumbs/scenes/scene-58/S58-cats-escape-open-hatch.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2767732,
+   "thumb_bytes": 72524,
+   "src_sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
+  },
   "references/scenes/scene-58/S58-ship-explosion-open-hatch.png": {
    "thumb": "references/thumbs/scenes/scene-58/S58-ship-explosion-open-hatch.png.webp",
    "width": 640,
