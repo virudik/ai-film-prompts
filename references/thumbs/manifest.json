@@ -203,6 +203,16 @@
    "thumb_bytes": 54144,
    "src_sha256": "d8618ff6c159cbafb832363a331e5b763ff35cfac224b422cf2692d0e9b4919f"
   },
+  "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2458215,
+   "thumb_bytes": 57684,
+   "src_sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
@@ -332,6 +342,16 @@
    "src_bytes": 2787103,
    "thumb_bytes": 71340,
    "src_sha256": "b8558250e369e12dca802d0c3f44e4308fafabc6da867cb160b8ca4b3149558c"
+  },
+  "projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2741456,
+   "thumb_bytes": 80112,
+   "src_sha256": "1c09dc5b9227f84b34a38ab1920ea1666a8bdbb0983c123853d7c0f60790d698"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
