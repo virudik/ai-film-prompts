@@ -263,6 +263,16 @@
    "thumb_bytes": 61430,
    "src_sha256": "d7adf13bd718f5aab46a3ce7b622942f87cbd017188900ca187369182cb65f66"
   },
+  "projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 940,
+   "src_bytes": 2760448,
+   "thumb_bytes": 62938,
+   "src_sha256": "242343d33b25df44d5872012664d99a4166a4e8f8064c81351b3976123142821"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -552,6 +562,16 @@
    "src_bytes": 3006532,
    "thumb_bytes": 74556,
    "src_sha256": "4db7688bb6a7dd806769d9140eff3c2c17ffdd5461a0da299c98f8814413eeab"
+  },
+  "projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-21/KM21-gravity-museum.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2729414,
+   "thumb_bytes": 68836,
+   "src_sha256": "81ada78b352c24fbfd3e496f1e3a7a5657f36bf23e9ab1da663ef0871393f59f"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
