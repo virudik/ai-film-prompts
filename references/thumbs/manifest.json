@@ -503,6 +503,16 @@
    "thumb_bytes": 67294,
    "src_sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4"
   },
+  "projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-19/KM19-frozen-vault.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2903397,
+   "thumb_bytes": 69546,
+   "src_sha256": "2501be9fb69daf466b2fc64131f2d766449dafebd0b83f93f043a62617e18508"
+  },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
    "width": 640,
