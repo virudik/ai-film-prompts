@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:roskotmos-crash",
-  "task": "Сцены 57/58: аварийная посадка РосКОТмоса и выбег котов",
-  "acquired_at": "2026-10-19T23:42:57Z",
-  "expires_at": null,
-  "released_at": "2026-10-19T23:44:37Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "S57 avenue and S58 wreck free image inputs; video priority before dance",
+  "acquired_at": "2026-10-20T00:13:12.936Z",
+  "expires_at": "2026-10-20T00:58:12.936Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
