@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T07:04:22.405Z",
+  "last_updated_at": "2026-10-20T08:06:03.172Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-20T07:04:22.405Z",
+      "verified_at": "2026-10-20T08:06:03.172Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -22,7 +22,8 @@
         "19Oct13:22MSK: existing automation6acae6ab433481919e88665c520b8ef2 expanded and exact prompt readback verified; HH:55 unchanged. Maintenance09:55/14:55/20:55, open tasks chatgpt/any/claude, explicit Claude-only→needs_owner, GitHub error email diagnosis, Sunday08:55 cleanup. Topview blocker or completed queue does not disable maintenance; fresh main authoritative.",
         "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints.",
         "19Oct14:55MSK: complete Topview scan found 5 active Unlimited videos and one free slot. S37 Seedance2.0 settings and four exact input SHAs were verified, but cloud-browser import could not transfer supported files; no claim/Create/task/credits. Generation phase marked blocked_browser only.",
-        "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions."
+        "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions.",
+        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free."
       ],
       "next_actions": [
         "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52."
@@ -46,80 +47,27 @@
         "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-20T07:04:22.405Z",
-        "mode": "full_account_scan_no_free_slot",
+        "checked_at": "2026-10-20T08:06:03.172Z",
+        "mode": "full_account_scan_after_confirmed_submit",
         "boards": 11,
-        "pages": 17,
-        "tasks": 912,
+        "pages": 16,
+        "tasks": 913,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
-        "active": [
-          {
-            "task_id": "30cfaf12ad944cd6944416623397e41c",
-            "status": "init",
-            "model": "Seedance 2.0",
-            "duration_s": 15,
-            "inputs": 7,
-            "unlimited": true,
-            "credits_cost": 0
-          },
-          {
-            "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
-            "status": "init",
-            "model": "Seedance 2.0",
-            "duration_s": 15,
-            "inputs": 4,
-            "unlimited": true,
-            "credits_cost": 0
-          },
-          {
-            "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
-            "status": "init",
-            "model": "Wan 3.0",
-            "duration_s": 30,
-            "inputs": 6,
-            "unlimited": true,
-            "credits_cost": 0
-          },
-          {
-            "task_id": "1e4928fa04ed4a0396d1d2ea4f5934bb",
-            "status": "init",
-            "model": "Wan 3.0",
-            "duration_s": 30,
-            "inputs": 4,
-            "unlimited": true,
-            "credits_cost": 0
-          },
-          {
-            "task_id": "70ba69f8c44e4898ab587fbffeaeca01",
-            "status": "init",
-            "model": "Wan 3.0",
-            "duration_s": 30,
-            "inputs": 4,
-            "unlimited": true,
-            "credits_cost": 0
-          },
-          {
-            "task_id": "bf3465e1c4de4a869f4bba5f2eed5acf",
-            "status": "init",
-            "model": "Wan 3.0",
-            "duration_s": 30,
-            "inputs": 6,
-            "unlimited": true,
-            "credits_cost": 0
-          }
+        "active_task_ids": [
+          "008058a4705c45c089256116427153d4",
+          "30cfaf12ad944cd6944416623397e41c",
+          "e6a5cf9a3d04413e943c9bbbff9e1f73",
+          "e33891d4568a4a90b31ff3c67f5a7100",
+          "1e4928fa04ed4a0396d1d2ea4f5934bb",
+          "70ba69f8c44e4898ab587fbffeaeca01"
         ],
-        "new_submissions": 0,
-        "blocked": {
-          "phase": "generation",
-          "reason": "all_video_slots_occupied",
-          "claim": null,
-          "task_id": null,
-          "create_clicked": false,
-          "credits_spent": 0
-        },
-        "next": "Wait for an actual free Unlimited video slot; then fresh main/lock/full scan and current queue priority/dependency checks."
+        "new_submissions": 1,
+        "submitted_item": "S39-SEED20-P1",
+        "task_id": "008058a4705c45c089256116427153d4",
+        "credits_spent": 0,
+        "next": "Wait for actual S16-P1 and S39-P1 results; save genuine continuation sources before each Part2; fresh main/lock/full scan before any next submit."
       },
       "maintenance_checks": {
         "last_successful_check_at": "2026-10-20T07:04:22.405Z",
@@ -528,7 +476,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-18T00:16:01.103453Z",
+      "verified_at": "2026-10-20T08:06:03.172Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -548,7 +496,8 @@
         "17Oct22:53MSK: exact owner sequence41→43→54→36→37→39→40→44 persisted and existing automation updated; cancelled45/46 ordering dependencies removed from future items.",
         "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
         "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified.",
-        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md."
+        "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
+        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once through Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6refs/Unlimited0; exact current prompt and input order verified. Full post-submit scan11boards/16pages/913tasks:6active/0free."
       ],
       "next_actions": [
         "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
@@ -585,24 +534,25 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-18T00:04:10Z",
+        "checked_at": "2026-10-20T08:06:03.172Z",
         "boards": 11,
-        "pages": 17,
-        "total_tasks": 907,
+        "pages": 16,
+        "total_tasks": 913,
         "complete": true,
         "occupied_slots": 6,
         "free_slots": 0,
         "active_unlimited_task_ids": [
-          "bf3465e1c4de4a869f4bba5f2eed5acf",
-          "86741d99f7634e3b97e8b139996b83b0",
-          "0d1f17c226834bfbb851d76ed32f9877",
-          "56c0ea656f484b0cb8464233fe097e0d",
-          "5333994f739f4a8b813a6a36dcb7e140",
-          "979f07acffe04750961515f4baf21a3f"
+          "008058a4705c45c089256116427153d4",
+          "30cfaf12ad944cd6944416623397e41c",
+          "e6a5cf9a3d04413e943c9bbbff9e1f73",
+          "e33891d4568a4a90b31ff3c67f5a7100",
+          "1e4928fa04ed4a0396d1d2ea4f5934bb",
+          "70ba69f8c44e4898ab587fbffeaeca01"
         ]
       },
       "new_topview_task_ids": [
-        "bf3465e1c4de4a869f4bba5f2eed5acf"
+        "bf3465e1c4de4a869f4bba5f2eed5acf",
+        "008058a4705c45c089256116427153d4"
       ]
     },
     {
