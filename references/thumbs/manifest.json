@@ -173,6 +173,16 @@
    "thumb_bytes": 52474,
    "src_sha256": "0113189b816b4fffde29f0deec9080b517405c181d1f0227c3e571d6ecdc3f4d"
   },
+  "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2762982,
+   "thumb_bytes": 66266,
+   "src_sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
@@ -272,6 +282,16 @@
    "src_bytes": 2368206,
    "thumb_bytes": 54530,
    "src_sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
+  },
+  "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2560211,
+   "thumb_bytes": 65650,
+   "src_sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
