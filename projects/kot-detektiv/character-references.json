@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T20:51:42Z",
-  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены; сцены не созданы. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены.",
+  "updated_at": "2026-10-20T21:58:03Z",
+  "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены. Сцены оформлены как DRAFT. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -18,7 +18,15 @@
         "Шерлок"
       ],
       "scenes": [
-        1
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "model_sheet": {
         "source": "Оригинальная входная картинка задачи Topview 3a85d0374f3f43de99c96c24ee2486ce; главный референс по выбору владельца 20.10.2026.",
@@ -180,7 +188,15 @@
         "police dog officer"
       ],
       "scenes": [
-        1
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "model_sheet": {
         "source": "Оригинальный вход доски «Лёха кот», перенесён без изменения байтов.",
@@ -548,6 +564,230 @@
             "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
           ],
           "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd-poster",
+      "name": "Афиша «Кот детектив»",
+      "kind": "poster",
+      "scenes": [],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+          "caption": "Афиша «Кот детектив»",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd-opening",
+      "name": "Нуарная начальная заставка",
+      "kind": "opening_frame",
+      "scenes": [
+        2
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+          "caption": "Нуарная начальная заставка",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd03-stopped-clock",
+      "name": "Кабинет: остановившиеся часы",
+      "kind": "scene_reference",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png",
+          "caption": "Кабинет: остановившиеся часы",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/office-map.png"
+          ],
+          "sha256": "0113189b816b4fffde29f0deec9080b517405c181d1f0227c3e571d6ecdc3f4d",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd04-missing-notices",
+      "name": "Улица: совпавший знак",
+      "kind": "scene_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+          "caption": "Улица: совпавший знак",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png"
+          ],
+          "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd05-river-footprints",
+      "name": "Следы обрываются у Темзы",
+      "kind": "scene_reference",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+          "caption": "Следы обрываются у Темзы",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/development/KD-quay-clue.png"
+          ],
+          "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd06-thread-map",
+      "name": "Красная нить к башне",
+      "kind": "scene_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png",
+          "caption": "Красная нить к башне",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/development/KD-map-envelope.png"
+          ],
+          "sha256": "d8618ff6c159cbafb832363a331e5b763ff35cfac224b422cf2692d0e9b4919f",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd07-clockwork-stair",
+      "name": "Лестница в часовом механизме",
+      "kind": "scene_reference",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+          "caption": "Лестница в часовом механизме",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/development/KD-clocktower.png"
+          ],
+          "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd08-next-address",
+      "name": "Следующий адрес",
+      "kind": "scene_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png",
+          "caption": "Следующий адрес",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/development/KD-clocktower.png"
+          ],
+          "sha256": "b78cf4565fcc31f4f38f135b28192374fb002f53b8473a4b291e22c57aef9846",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd09-empty-carriage",
+      "name": "Экипаж без пассажира",
+      "kind": "scene_reference",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
+          "caption": "Экипаж без пассажира",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "kd10-observatory",
+      "name": "Свет в закрытой обсерватории",
+      "kind": "scene_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png",
+          "caption": "Свет в закрытой обсерватории",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+          ],
+          "sha256": "578dbfe8907396e6a59fda50530cae01be567492b129590a4f891f21de0df789",
           "editorial_status": "not_approved"
         }
       ]

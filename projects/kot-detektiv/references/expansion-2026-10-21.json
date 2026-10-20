@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "created_at": "2026-10-20T21:58:03Z",
+  "authorization": "Владелец: афиши, заставки, все шесть эпизодов и дополнительные ситуации; подготовить на сайте для доработки",
+  "editorial_status": "not_approved",
+  "assets": [
+    {
+      "key": "KD-poster",
+      "project": "kot-detektiv",
+      "scene": null,
+      "title": "Афиша «Кот детектив»",
+      "kind": "poster",
+      "path": "projects/kot-detektiv/references/branding/KD-poster.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861",
+      "width": 1024,
+      "height": 1536,
+      "prompt_file": "projects/kot-detektiv/references/branding/KD-poster.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD-opening",
+      "project": "kot-detektiv",
+      "scene": 2,
+      "title": "Нуарная начальная заставка",
+      "kind": "opening_frame",
+      "path": "projects/kot-detektiv/references/branding/KD-opening.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/branding/KD-opening.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD03-stopped-clock",
+      "project": "kot-detektiv",
+      "scene": 3,
+      "title": "Кабинет: остановившиеся часы",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/office-map.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "0113189b816b4fffde29f0deec9080b517405c181d1f0227c3e571d6ecdc3f4d",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD04-missing-notices",
+      "project": "kot-detektiv",
+      "scene": 4,
+      "title": "Улица: совпавший знак",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD05-river-footprints",
+      "project": "kot-detektiv",
+      "scene": 5,
+      "title": "Следы обрываются у Темзы",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-quay-clue.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD06-thread-map",
+      "project": "kot-detektiv",
+      "scene": 6,
+      "title": "Красная нить к башне",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-map-envelope.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "d8618ff6c159cbafb832363a331e5b763ff35cfac224b422cf2692d0e9b4919f",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD07-clockwork-stair",
+      "project": "kot-detektiv",
+      "scene": 7,
+      "title": "Лестница в часовом механизме",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-clocktower.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD08-next-address",
+      "project": "kot-detektiv",
+      "scene": 8,
+      "title": "Следующий адрес",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+        "projects/kot-detektiv/references/development/KD-clocktower.png"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "b78cf4565fcc31f4f38f135b28192374fb002f53b8473a4b291e22c57aef9846",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD09-empty-carriage",
+      "project": "kot-detektiv",
+      "scene": 9,
+      "title": "Экипаж без пассажира",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    },
+    {
+      "key": "KD10-observatory",
+      "project": "kot-detektiv",
+      "scene": 10,
+      "title": "Свет в закрытой обсерватории",
+      "kind": "scene_reference",
+      "path": "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png",
+      "inputs": [
+        "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+        "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg"
+      ],
+      "status": "generated_and_saved",
+      "editorial_status": "not_approved",
+      "sha256": "578dbfe8907396e6a59fda50530cae01be567492b129590a4f891f21de0df789",
+      "width": 1672,
+      "height": 941,
+      "prompt_file": "projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.prompt.txt",
+      "generated_at": "2026-10-20T21:58:03Z",
+      "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
+    }
+  ]
+}

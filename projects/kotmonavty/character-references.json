@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "kotmonavty",
-  "updated_at": "2026-10-20T20:51:42Z",
-  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026 Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены.",
+  "updated_at": "2026-10-20T21:58:03Z",
+  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026 Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -18,7 +18,14 @@
       ],
       "scenes": [
         1,
-        2
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -62,7 +69,14 @@
       ],
       "scenes": [
         1,
-        2
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -226,6 +240,233 @@
             "projects/kotmonavty/references/development/KM-bar-compass.png"
           ],
           "sha256": "7c71fbd4600856115c866294311f36bb80d9b47de660ab2d3f5eb8a92172f8bb",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km-poster",
+      "name": "Афиша «Котмонавты»",
+      "kind": "poster",
+      "scenes": [],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/branding/KM-poster.png",
+          "caption": "Афиша «Котмонавты»",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-exterior-front.png",
+            "projects/kotmonavty/references/roskotmos-logo.png"
+          ],
+          "sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km-opening",
+      "name": "Заставка РосКОТмоса",
+      "kind": "opening_frame",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/branding/KM-opening.png",
+          "caption": "Заставка РосКОТмоса",
+          "derived_from": [
+            "projects/kotmonavty/references/roskotmos-logo.png"
+          ],
+          "sha256": "21feec98f172953dd4ed12426072fb9546db3c99fdb91c19bc19fd92413cbdf6",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km01-milk-close",
+      "name": "Молоко: боковой ракурс",
+      "kind": "scene_reference",
+      "scenes": [
+        1
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png",
+          "caption": "Молоко: боковой ракурс",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png"
+          ],
+          "sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km04-compass-alarm",
+      "name": "Компас подаёт сигнал",
+      "kind": "scene_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png",
+          "caption": "Компас подаёт сигнал",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/development/KM-bar-compass.png"
+          ],
+          "sha256": "6149b24c300832f027305691e91bc5fc27f02e77423e6cf043c6e72986b34873",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km05-cockpit-bank",
+      "name": "Резкий вираж в кабине",
+      "kind": "scene_reference",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-5/KM05-cockpit-bank.png",
+          "caption": "Резкий вираж в кабине",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-interior-cockpit.png",
+            "projects/kotmonavty/references/development/KM-ring-chase.png"
+          ],
+          "sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km06-vault-gate",
+      "name": "Вход в звёздный архив",
+      "kind": "scene_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png",
+          "caption": "Вход в звёздный архив",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/development/KM-star-vault.png"
+          ],
+          "sha256": "b8558250e369e12dca802d0c3f44e4308fafabc6da867cb160b8ca4b3149558c",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km07-bridge-leap",
+      "name": "Прыжок над обрушением",
+      "kind": "scene_reference",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-7/KM07-bridge-leap.png",
+          "caption": "Прыжок над обрушением",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/development/KM-star-vault.png"
+          ],
+          "sha256": "1c09dc5b9227f84b34a38ab1920ea1666a8bdbb0983c123853d7c0f60790d698",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km08-bar-return",
+      "name": "Возвращение в бар",
+      "kind": "scene_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-8/KM08-bar-return.png",
+          "caption": "Возвращение в бар",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/development/KM-bar-compass.png"
+          ],
+          "sha256": "8341a2ba823105bbfd81b9199b32af8b669bef27d1451d88ce48d0b9b1718262",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km09-zero-gravity-milk",
+      "name": "Невесомый обед",
+      "kind": "scene_reference",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png",
+          "caption": "Невесомый обед",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg",
+            "projects/kotmonavty/references/ship-interior-cockpit.png"
+          ],
+          "sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58",
+          "editorial_status": "not_approved"
+        }
+      ]
+    },
+    {
+      "id": "km10-customs",
+      "name": "Самый опасный багаж",
+      "kind": "scene_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/scenes/scene-10/KM10-customs.png",
+          "caption": "Самый опасный багаж",
+          "derived_from": [
+            "projects/kotmonavty/references/luchik.jpg",
+            "projects/kotmonavty/references/ryzhik.jpg"
+          ],
+          "sha256": "ee06564bce4e3b958a34a8e83a69f9f748c1b984ed0a54e0a22141460c3326ee",
           "editorial_status": "not_approved"
         }
       ]

@@ -3,23 +3,31 @@
   "source_of_truth": "GitHub main/projects/kotmonavty/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-20T20:51:42Z",
-  "revision_date": "20.10.2026",
-  "master_declared_last_full_sync": "20.10.2026 · сюжет, трейлер и референсы по команде владельца",
-  "canonical_master_sha256": "70dfb3b6f10743b5e78420e3b60d346e2383cff727246de74f8cfb96067476aa",
-  "canonical_revision_sha256": "8f39434c3c2d1f95b4ad207d9ee05aec4fe9b5d999fe51432f5f2e640db2d0ee",
-  "canonical_master_bytes": 39654,
-  "scenes": 2,
-  "prompt_texts": 6,
+  "synced_at": "2026-10-20T21:58:04Z",
+  "revision_date": "21.10.2026",
+  "master_declared_last_full_sync": "21.10.2026 · афиша, заставка, шесть эпизодов, две дополнительные сцены",
+  "canonical_master_sha256": "46dd8a1c69ac8be22d438718731e8460b1a157a7f5661548f43b11c143d44ae1",
+  "canonical_revision_sha256": "f51bd56bb19aa816aa001255bcfe00f75b941a3583f29219f73b815493002b4e",
+  "canonical_master_bytes": 172093,
+  "scenes": 10,
+  "prompt_texts": 30,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
   "slow_scenes_count": 0,
   "scene_ids": [
     1,
-    2
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
   ],
-  "latest_scene": 2,
+  "latest_scene": 10,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
@@ -27,7 +35,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 3.907,
+    "age_hours_at_status_build": 5.013,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -106,7 +114,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 3.907,
+      "age_hours": 5.013,
       "blocking": false
     },
     "topview_task_map": {
@@ -152,18 +160,170 @@
         "reference_first"
       ],
       "render_state": "IDLE"
+    },
+    "3": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "4": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "5": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "6": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "7": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "8": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "9": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
+    },
+    "10": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
-    "revision_date": "20.10.2026",
-    "synced_at": "2026-10-20T20:51:42Z",
-    "canonical_master_sha256": "70dfb3b6f10743b5e78420e3b60d346e2383cff727246de74f8cfb96067476aa",
-    "canonical_revision_sha256": "8f39434c3c2d1f95b4ad207d9ee05aec4fe9b5d999fe51432f5f2e640db2d0ee",
-    "scene_count": 2,
-    "prompt_count": 6,
+    "revision_date": "21.10.2026",
+    "synced_at": "2026-10-20T21:58:04Z",
+    "canonical_master_sha256": "46dd8a1c69ac8be22d438718731e8460b1a157a7f5661548f43b11c143d44ae1",
+    "canonical_revision_sha256": "f51bd56bb19aa816aa001255bcfe00f75b941a3583f29219f73b815493002b4e",
+    "scene_count": 10,
+    "prompt_count": 30,
     "scene_ids": [
       1,
-      2
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ],
     "work_items": [],
     "slow_scenes": [],

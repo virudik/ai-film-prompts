@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "last_updated_at": "2026-10-20T20:59:36Z",
+  "last_updated_at": "2026-10-20T21:58:03Z",
   "active_work": [
     {
       "work_id": "KD-20261020-REFERENCE-IMPORT",
@@ -56,6 +56,28 @@
       "blockers": [],
       "content_commit": "98b2f375b2bcfe79d334a20eb8fc0ce693a22056",
       "verified_at": "2026-10-20T20:59:36Z"
+    },
+    {
+      "work_id": "KD-20261021-EXPANSION",
+      "project": "kot-detektiv",
+      "status": "in_progress",
+      "started_at": "2026-10-20T21:06:26Z",
+      "authorization": "Владелец: афиши, заставки, шесть эпизодов и дополнительные сцены с промтами и изображениями; на сайт для доработки",
+      "done": [
+        "Контрольная точка ДО, замок проекта",
+        "10 новых изображений сохранены в main с промтами",
+        "10 сцен / 30 промтов, каталог, происхождение, порядок фильма подготовлены"
+      ],
+      "next_actions": [
+        "Проверить main и Pages",
+        "Контрольная точка ПОСЛЕ, release"
+      ],
+      "constraints": [
+        "Без очереди и видеозапусков",
+        "Все DRAFT/not_approved",
+        "Не менять исходники идентичности"
+      ],
+      "blockers": []
     }
   ]
 }
