@@ -101,7 +101,7 @@ function fixLinks(scope){
  if(!OTHER)return;
  (scope||document).querySelectorAll('a[href]').forEach(function(a){
   var h=a.getAttribute('href');if(!h||/^[a-z]+:|^\/\/|^#/i.test(h))return;
-  var m=h.match(/^(index|references|film)\.html(\?[^#]*)?(#.*)?$/);
+  var m=h.match(/^(index|references|film|videos)\.html(\?[^#]*)?(#.*)?$/);
   if(m){if(/[?&]p=/.test(m[2]||''))return;a.setAttribute('href',m[1]+'.html'+(m[2]?m[2]+'&':'?')+'p='+encodeURIComponent(P.id)+(m[3]||''));return}
   var i=h.search(/[?#]/),path=i<0?h:h.slice(0,i);
   if(MAP[path])a.setAttribute('href',P.root+MAP[path]+(i<0?'':h.slice(i)));

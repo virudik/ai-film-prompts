@@ -82,6 +82,7 @@ article{min-width:0;max-width:100%}article img,article video{display:block;max-w
 <div class="links">
 <a class="references wide" href="references.html">Персонажи / Референсы</a>
 <a class="references wide" href="film.html">🎞 Фильм по порядку</a>
+<a class="references wide" href="videos.html" data-only-root title="Все готовые ролики по номерам сцен, с плеером">📼 Ролики по сценам</a>
 <details id="analysisPicker" class="analysis-picker" data-only-root><summary>Монтажный разбор</summary><div class="analysis-version-menu"><a href="Seregius_montazhny_razbor.html" target="_blank" rel="noopener"><strong>Первая версия</strong><small><time datetime="2026-09-17">17.09.2026</time> · предыдущий монтажный разбор</small></a><a href="Seregius_montazhny_razbor-2.html" target="_blank" rel="noopener"><strong>Вторая версия</strong><small><time datetime="2026-09-24">24.09.2026</time> · новая сборка · 01:03:42</small></a></div></details>
 </div>
 <details class="service-files"><summary>Служебные файлы</summary>
@@ -268,8 +269,8 @@ function archivedDriveUrl(taskId,sceneId){
  const entry=topviewVideoArchive?.videos?.[String(taskId)];
  const id=String(entry?.file_id||'');
  if(Number(entry?.scene_id)!==Number(sceneId)||!/^[A-Za-z0-9_-]{15,}$/.test(id))return null;
- // Drive's own viewer cannot play these files (MP4 written over text seed files, no video preview), so play them on video.html.
- return 'video.html?task='+encodeURIComponent(String(taskId));
+ // Drive's own viewer cannot play these files (MP4 written over text seed files, no video preview): open the site's video list.
+ return 'videos.html?task='+encodeURIComponent(String(taskId));
 }
 function topviewResultLinks(sceneId,tv,onlyPart){
  const pm=onlyPart&&typeof taskPartMap==='function'?taskPartMap():null;

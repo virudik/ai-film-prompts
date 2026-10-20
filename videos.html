@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Film — Ролики по сценам</title>
+<script src="projects.js"></script>
+<style>
+:root{color-scheme:dark;--bg:#090b0e;--panel:#101419;--panel2:#151b22;--text:#edf2f7;--muted:#8f9aa6;--line:#28313b;--accent:#7dbbff;--bad:#ff8f8f;--ok:#7ee2a8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1100px;margin:auto;padding:18px 16px 60px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.back{border:1px solid var(--line);padding:8px 11px;border-radius:9px;background:var(--panel)}h1{font-size:22px;margin:0}.sub{color:var(--muted);font-size:12px;margin-top:4px}
+#player{position:sticky;top:0;z-index:2;background:var(--bg);padding:6px 0 10px}#player:empty{display:none}
+video{width:100%;max-height:62vh;background:#000;border-radius:10px;border:1px solid var(--line);display:block}
+.now{display:flex;gap:12px;flex-wrap:wrap;align-items:baseline;margin-top:6px;font-size:14px}.now b{color:#dfe8f2}
+.scene{border:1px solid var(--line);border-radius:11px;background:var(--panel);padding:9px 12px;margin:8px 0}
+.scene-head{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}.num{font-weight:800;color:#cfe3f7}.t{font-weight:600}
+.vers{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.v{font:inherit;font-size:13px;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:999px;padding:4px 11px;cursor:pointer}
+.v:hover{border-color:var(--accent)}.v.on{border-color:var(--accent);color:var(--accent)}
+.note{color:var(--muted);font-size:12px;margin-top:8px}.err{color:var(--bad)}
+.filter{width:100%;max-width:360px;font:inherit;font-size:14px;padding:8px 10px;border-radius:9px;border:1px solid var(--line);background:var(--panel);color:var(--text);margin:6px 0 4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top"><div><div class="project-switch-wrap" data-project-switch><small>Проект</small></div><h1>📼 Ролики по сценам</h1><div class="sub" id="sub">Загрузка…</div></div><a class="back" href="index.html">← Центр управления</a></div>
+<div id="player"></div>
+<input id="filter" class="filter" type="search" placeholder="Номер или название сцены…" aria-label="Найти сцену">
+<div id="list"><div class="note">Загружаю список роликов…</div></div>
+<div class="note">Все копии лежат в одной папке Google Drive «AI Film Generated Videos» (внутри — папки Scene-NN, имя файла — номер задачи Topview). Робот копирует туда готовые ролики активных сцен. Здесь они играют прямо на странице; «⬇» скачивает файл.</div>
+</div>
+<script>
+(function(){
+'use strict';
+const DRIVE_FOLDER='https://drive.google.com/drive/folders/1vY3Pi3q70IfZFFumPd0xxYgif7099FQe';
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $=id=>document.getElementById(id);
+const okId=id=>/^[A-Za-z0-9_-]{15,}$/.test(id);
+// Drive refuses video requests from other sites, so playback goes through our Supabase stream (ops/supabase/drive-video).
+const STREAM='https://vzohfatqzyioydtgjiyd.supabase.co/functions/v1/drive-video?id=';
+const direct=id=>STREAM+encodeURIComponent(id);
+const day=v=>{const d=new Date(v);return isNaN(d)?'':d.toLocaleString('ru-RU',{timeZone:'Europe/Moscow',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})};
+const AIFP=window.AIFP||{isRoot:true};
+let videos=[],titles={};
+function play(v,auto){
+ document.querySelectorAll('.v.on').forEach(b=>b.classList.remove('on'));
+ const btn=document.querySelector('.v[data-task="'+v.task+'"]');if(btn)btn.classList.add('on');
+ const mb=v.size?(v.size/1048576).toFixed(0)+' МБ':'';
+ $('player').innerHTML='<video controls playsinline preload="metadata"'+(auto?' autoplay':'')+' src="'+esc(direct(v.id))+'"></video>'+
+  '<div class="now"><b>Сцена '+esc(v.scene)+(titles[v.scene]?' — '+esc(titles[v.scene]):'')+'</b><span>версия '+esc(v.n)+(v.at?' · '+esc(day(v.at)):'')+'</span><a href="'+esc(direct(v.id))+'" download="scene-'+esc(v.scene)+'-v'+esc(v.n)+'.mp4" rel="noopener noreferrer">⬇ Скачать'+(mb?' ('+mb+')':'')+'</a><a href="index.html#scene-'+esc(v.scene)+'">к сцене</a></div>';
+ $('player').querySelector('video').addEventListener('error',()=>{$('player').insertAdjacentHTML('beforeend','<div class="note err">Браузер не открыл поток. Обновите страницу; если не помогло, нажмите «⬇ Скачать» или откройте ролик в Topview со страницы сцены.</div>')});
+ try{history.replaceState(null,'','?'+(AIFP.isRoot?'':'p='+encodeURIComponent(AIFP.id)+'&')+'task='+v.task)}catch(e){}
+ if(auto)$('player').scrollIntoView({behavior:'smooth',block:'start'});
+}
+function render(){
+ const q=$('filter').value.trim().toLowerCase();
+ const byScene=new Map();videos.forEach(v=>{if(!byScene.has(v.scene))byScene.set(v.scene,[]);byScene.get(v.scene).push(v)});
+ const scenes=[...byScene.keys()].sort((a,b)=>a-b).filter(s=>!q||String(s)===q||String(s).startsWith(q)||(titles[s]||'').toLowerCase().includes(q));
+ $('list').innerHTML=scenes.length?scenes.map(s=>'<div class="scene"><div class="scene-head"><span class="num">Сцена '+s+'</span><span class="t">'+esc(titles[s]||'')+'</span></div><div class="vers">'+
+  byScene.get(s).map(v=>'<button type="button" class="v" data-task="'+esc(v.task)+'">▶ '+esc(v.n)+(v.at?' · '+esc(day(v.at).slice(0,5)):'')+'</button>').join('')+'</div></div>').join(''):'<div class="note">Ничего не найдено.</div>';
+ $('list').querySelectorAll('.v').forEach(b=>b.onclick=()=>play(videos.find(v=>v.task===b.dataset.task),true));
+}
+function titlesFrom(order,md){
+ (order?.blocks||[]).forEach(b=>(b.items||[]).forEach(i=>{if(i&&i.scene!=null&&i.title)titles[Number(i.scene)]=String(i.title)}));
+ String(md||'').replace(/^## Сцена (\d+)\s*[—–-]\s*(.+)$/gm,(m,n,t)=>{if(!titles[Number(n)])titles[Number(n)]=t.trim();return m});
+}
+if(!AIFP.isRoot){$('sub').innerHTML='Копии роликов в Drive пока делаются только для фильма «Серёгиус».';$('list').innerHTML='';$('filter').style.display='none';return}
+const get=(u,t)=>fetch(u+'?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?(t?r.text():r.json()):null).catch(()=>null);
+Promise.all([get('topview-video-archive.json'),get('film-order.json'),get('video-prompts.md',true)]).then(([a,order,md])=>{
+ titlesFrom(order,md);
+ const list=Object.entries(a?.videos||{}).filter(([t,e])=>/^[0-9a-f]{32}$/.test(t)&&e&&okId(String(e.file_id||''))&&Number(e.scene_id)>0)
+  .map(([t,e])=>({task:t,id:String(e.file_id),scene:Number(e.scene_id),at:e.archived_at||'',size:Number(e.size_bytes)||0}));
+ // versions numbered per scene in archive order (oldest = 1)
+ const per=new Map();list.sort((x,y)=>x.scene-y.scene||String(x.at).localeCompare(String(y.at))).forEach(v=>{const n=(per.get(v.scene)||0)+1;per.set(v.scene,n);v.n=n});
+ videos=list.sort((x,y)=>x.scene-y.scene||y.n-x.n);
+ $('sub').innerHTML=videos.length+' роликов · '+per.size+' сцен · <a href="'+DRIVE_FOLDER+'" target="_blank" rel="noopener noreferrer">📁 открыть папку в Google Drive</a>';
+ render();$('filter').oninput=render;
+ const want=new URLSearchParams(location.search).get('task');const v=want&&videos.find(x=>x.task===want);if(v)play(v,false);
+}).catch(e=>{$('list').innerHTML='<div class="err">Не удалось загрузить список: '+esc(e.message)+'</div>'});
+})();
+</script>
+</body>
+</html>
