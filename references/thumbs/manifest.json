@@ -163,6 +163,16 @@
    "thumb_bytes": 31728,
    "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
   },
+  "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2323889,
+   "thumb_bytes": 52474,
+   "src_sha256": "0113189b816b4fffde29f0deec9080b517405c181d1f0227c3e571d6ecdc3f4d"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
@@ -252,6 +262,16 @@
    "src_bytes": 2394850,
    "thumb_bytes": 54302,
    "src_sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+  },
+  "projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-1/KM01-milk-close.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2368206,
+   "thumb_bytes": 54530,
+   "src_sha256": "540263c9d2f3045316a4e20dd6e8e346902b537f01b79f07765ebf5ab7075834"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
