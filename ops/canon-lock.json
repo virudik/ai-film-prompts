@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Owner-selected S58 first crash image and three Seedance reference helpers",
   "acquired_at": "2026-10-20T00:40:29.037Z",
-  "expires_at": "2026-10-20T01:25:29.037Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T00:52:57.225Z",
   "rules": "ops/CANON-LOCK.md"
 }
