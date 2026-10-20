@@ -66,12 +66,13 @@
       "result:0d1f17c226834bfbb851d76ed32f9877",
       "result:86741d99f7634e3b97e8b139996b83b0",
       "result:bf3465e1c4de4a869f4bba5f2eed5acf",
-      "result:70ba69f8c44e4898ab587fbffeaeca01"
+      "result:70ba69f8c44e4898ab587fbffeaeca01",
+      "result:3c01baad89544304aaa803725f6aae4b"
     ]
   },
   "phases": {
     "topview": {
-      "checked_at": "2026-10-20T20:20:20Z",
+      "checked_at": "2026-10-20T20:30:20Z",
       "source": "robot; число слотов — topview-status.json"
     },
     "deep_audit": {
@@ -89,8 +90,8 @@
   },
   "health": "ok",
   "last_scheduled_cycle": {
-    "started_at": "2026-10-20T20:20:24Z",
-    "completed_at": "2026-10-20T20:20:24Z",
+    "started_at": "2026-10-20T20:30:30Z",
+    "completed_at": "2026-10-20T20:30:30Z",
     "health": "ok",
     "phases_completed": [
       "role_check",
@@ -102,7 +103,7 @@
     ],
     "phases_missing": [],
     "runner": "robot_scheduled_task",
-    "note": "GitHub robot: 6 из 6 слотов занято, новых 1, завершено 0."
+    "note": "GitHub robot: 6 из 6 слотов занято, новых 0, завершено 1."
   },
   "first_scheduled_cycle_verification": {
     "status": "completed",
@@ -161,8 +162,8 @@
       "checked_at": "2026-10-13T19:02:02.187Z"
     }
   },
-  "last_completed_cycle_at": "2026-10-20T20:20:24Z",
-  "last_successful_cycle_at": "2026-10-20T20:20:24Z",
+  "last_completed_cycle_at": "2026-10-20T20:30:30Z",
+  "last_successful_cycle_at": "2026-10-20T20:30:30Z",
   "standby_automation": {
     "id": "6aac794245e481919ee7155c461cc77e",
     "title": "AI Film — единый монитор",
@@ -177,13 +178,13 @@
   "last_completed_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-20T20:20:24Z"
+    "robot": "2026-10-20T20:30:30Z"
   },
   "last_successful_cycle_runner": "robot_scheduled_task",
   "last_successful_by_runner": {
     "claude": "2026-10-11T03:11:59Z",
     "chatgpt": "2026-10-13T19:06:30.299Z",
-    "robot": "2026-10-20T20:20:24Z"
+    "robot": "2026-10-20T20:30:30Z"
   },
   "previous_primary_automation": {
     "id": "trig_014eEvBooAV2hxx1asRo9snm",
