@@ -133,6 +133,28 @@
         1672,
         941
       ]
+    },
+    {
+      "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+      "asset_id": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+      "role": "start_frame_location",
+      "media_type": "image",
+      "status": "available",
+      "owner_approval": "owner_selected_2026-10-20T03:39:42+03:00",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "generation_file": "exec-50d09a3d-9d64-4134-b1f4-4b2579ee98b8.png",
+        "note": "First crash still selected by owner: nose into statue pedestal. Original bytes preserved."
+      },
+      "assistant_qc": {
+        "status": "owner_selected_existing_reference",
+        "note": "Selected by owner despite contact with pedestal; closed hatch is not clearly delineated in this still; action helper will show open hatch."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-wreck-start-owner-selected.png",
+        "git_present": true,
+        "linked_in_master": false
+      }
     }
   ],
   "identity_refs": [
