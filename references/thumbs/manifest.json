@@ -133,6 +133,16 @@
    "thumb_bytes": 29190,
    "src_sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d"
   },
+  "projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-1/KM01-bar-milk.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 940,
+   "src_bytes": 2394850,
+   "thumb_bytes": 54302,
+   "src_sha256": "a354ee07217f2799f7331916dd31828078b366739da9b008f209410d7785338b"
+  },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
    "width": 640,
