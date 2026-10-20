@@ -3,6 +3,16 @@
  "purpose": "Display thumbnails for reference images; originals are unchanged and remain the identity authority.",
  "max_width": 640,
  "items": {
+  "projects/kot-detektiv/references/branding/KD-opening.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/branding/KD-opening.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2422586,
+   "thumb_bytes": 60924,
+   "src_sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
+  },
   "projects/kot-detektiv/references/branding/KD-poster.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/branding/KD-poster.png.webp",
    "width": 640,
@@ -152,6 +162,16 @@
    "src_bytes": 1406962,
    "thumb_bytes": 31728,
    "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+  },
+  "projects/kotmonavty/references/branding/KM-opening.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2524553,
+   "thumb_bytes": 48034,
+   "src_sha256": "21feec98f172953dd4ed12426072fb9546db3c99fdb91c19bc19fd92413cbdf6"
   },
   "projects/kotmonavty/references/branding/KM-poster.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-poster.png.webp",
