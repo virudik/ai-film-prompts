@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Сюжет, трейлер и референсы по команде владельца; без очереди",
   "acquired_at": "2026-10-20T20:23:16.272Z",
-  "expires_at": "2026-10-20T21:08:16.272Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T20:59:55.986Z",
   "rules": "ops/CANON-LOCK.md"
 }
