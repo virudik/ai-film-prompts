@@ -1,43 +1,65 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-19T11:03:59Z",
+  "checked_at": "2026-10-20T10:17:22Z",
   "window_hours": 24,
-  "verdict": "schedule_launched",
+  "verdict": "free_slots_idle_no_schedule_launch",
   "launches": [
     {
-      "item": "S54",
-      "scene_id": 54,
-      "claimed_at": "2026-10-18T17:03:10Z",
-      "run_id": "chatgpt-scheduled-20261018-S54-1792342990362",
-      "source": "schedule"
+      "item": "S37-SEED20-P1",
+      "scene_id": 37,
+      "claimed_at": "2026-10-19T14:04:45Z",
+      "run_id": "chatgpt-s37p1-20261019T1404Z",
+      "source": "chat"
     },
     {
-      "item": "S36-S36",
-      "scene_id": 36,
-      "claimed_at": "2026-10-19T03:04:00Z",
-      "run_id": "chatgpt-s36-20261019T0301Z",
+      "item": "S16-SEED20-P1",
+      "scene_id": 16,
+      "claimed_at": "2026-10-19T22:51:32Z",
+      "run_id": "chatgpt-worm-2026-10-19T225132931Z",
+      "source": "chat"
+    },
+    {
+      "item": "S39-SEED20-P1",
+      "scene_id": 39,
+      "claimed_at": "2026-10-20T08:03:35Z",
+      "run_id": "chatgpt-automation-20261020T080324908Z-S39-SEED20-P1",
       "source": "chat"
     }
   ],
-  "launches_by_schedule": 1,
-  "launches_by_chat": 1,
+  "launches_by_schedule": 0,
+  "launches_by_chat": 3,
   "free_slot_observations": [
     {
-      "at": "2026-10-19T03:00:14Z",
+      "at": "2026-10-20T07:40:28Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T02:10:16Z",
+      "at": "2026-10-19T22:50:22Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-18T16:20:13Z",
+      "at": "2026-10-19T21:40:16Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-19T13:50:16Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-19T12:51:04Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-19T12:00:16Z",
       "occupied": 5,
       "capacity": 6
     }
   ],
-  "ready_items_waiting": 7,
+  "ready_items_waiting": 6,
   "note": "Только чтение репозитория. Запуск из расписания = run_id с префиксом chatgpt-scheduled."
 }
