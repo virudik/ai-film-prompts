@@ -1183,6 +1183,16 @@
    "thumb_bytes": 72524,
    "src_sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc"
   },
+  "references/scenes/scene-58/S58-emblem-at-cats-paws.png": {
+   "thumb": "references/thumbs/scenes/scene-58/S58-emblem-at-cats-paws.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2837031,
+   "thumb_bytes": 72738,
+   "src_sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20"
+  },
   "references/scenes/scene-58/S58-ship-explosion-open-hatch.png": {
    "thumb": "references/thumbs/scenes/scene-58/S58-ship-explosion-open-hatch.png.webp",
    "width": 640,
