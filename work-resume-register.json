@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T16:41:48.448Z",
+  "last_updated_at": "2026-10-20T18:01:38.400Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-20T08:06:03.172Z",
+      "verified_at": "2026-10-20T18:01:38.400Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -23,10 +23,11 @@
         "19Oct13:27MSK: owner required checkpoint BEFORE major tasks as well as after. Preliminary checkpoint committed3c4586c and read back before protocol edit. Explicit before/after rule added to ops/CONTINUE-PROTOCOL.md; same files/work ID, evidence and next action, no recursive checkpoints.",
         "19Oct14:55MSK: complete Topview scan found 5 active Unlimited videos and one free slot. S37 Seedance2.0 settings and four exact input SHAs were verified, but cloud-browser import could not transfer supported files; no claim/Create/task/credits. Generation phase marked blocked_browser only.",
         "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions.",
-        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free."
+        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free.",
+        "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success."
       ],
       "next_actions": [
-        "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52."
+        "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -40,42 +41,44 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Continue queue by current priorities after fresh lock/fullscan. Scene44: actual corrected43 end→Wan30 and SeedanceP1; actual P1 end→P2; owner compares complete versions before choosing44 end for52.",
+      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate.",
       "blockers": [
-        "Generation phase: S37-SEED20-P1 has a confirmed free slot and authenticated Ultra session, but the scheduled cloud browser cannot transfer the four exact repository inputs in a Topview-supported form. No claim/Create; resume after supported owner-browser import and repeat full preflight.",
-        "S44 both starts need actual corrected43 end; SeedanceP2 actualP1; S52 needs owner-selected44 ending.",
-        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
+        "S16-SEED20-P2 waits the genuine checked ending of active S16-SEED20-P1 task30cfaf12ad944cd6944416623397e41c; one physical slot is free but owner ordering forbids skipping ahead.",
+        "42P1/P2→56P1/P2→48P1/P2 require genuine predecessor outputs; S57/S58 remain blocked until all eight worm parts are submitted, and each P2 requires its own genuine P1 ending.",
+        "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-20T12:03:09.987Z",
+        "checked_at": "2026-10-20T18:01:38.400Z",
         "mode": "full_account_scan_maintenance",
         "boards": 11,
         "pages": 17,
         "tasks": 913,
         "complete": true,
         "status_counts": {
-          "success": 870,
+          "success": 871,
           "fail": 37,
-          "init": 6
+          "init": 5
         },
-        "occupied_slots": 6,
-        "free_slots": 0,
+        "occupied_slots": 5,
+        "free_slots": 1,
         "active_task_ids": [
           "008058a4705c45c089256116427153d4",
           "30cfaf12ad944cd6944416623397e41c",
           "e6a5cf9a3d04413e943c9bbbff9e1f73",
           "e33891d4568a4a90b31ff3c67f5a7100",
-          "1e4928fa04ed4a0396d1d2ea4f5934bb",
+          "1e4928fa04ed4a0396d1d2ea4f5934bb"
+        ],
+        "newly_terminal_success_task_ids": [
           "70ba69f8c44e4898ab587fbffeaeca01"
         ],
         "claimed_items": 0,
         "submission_unknown_items": 0,
         "new_submissions": 0,
         "credits_spent": 0,
-        "next": "Wait for a real free Unlimited0 video slot and genuine continuation outputs; then reread fresh main/owner decisions/lock and repeat the complete account scan before any claim."
+        "next": "Do not bypass the explicit worm→57/58 order. Wait for S16-P1, save/QC genuine ending, then preflight S16-P2 against fresh main/lock/full scan."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-20T12:03:09.987Z",
+        "last_successful_check_at": "2026-10-20T18:01:38.400Z",
         "self_heal": {
           "status": "ok",
           "changed_at": "2026-10-19T09:50:00Z",
@@ -88,21 +91,21 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-20T11:50:23Z",
+          "synced_at": "2026-10-20T17:29:49Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
-          "checked_at": "2026-10-20T03:22:30Z",
+          "checked_at": "2026-10-20T16:59:23Z",
           "warn_or_error_count": 0,
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-19 through 2026-10-20T12:03:09.987Z (24h overlap from prior successful check)",
+          "window": "2026-10-19 through 2026-10-20T18:01:38.400Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "searched_message_count": 11,
-          "new_message_count": 0,
-          "deduplicated_known_message_count": 11,
+          "searched_message_count": 15,
+          "new_message_count": 1,
+          "deduplicated_known_message_count": 14,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -147,7 +150,8 @@
             "1a15670b3ea532b0",
             "1a1566d7f06c137b",
             "1a1566c8b1c19841",
-            "1a15621b5b73b7bf"
+            "1a15621b5b73b7bf",
+            "1a15a42474d989a0"
           ],
           "run_ids": [
             39206350248,
@@ -192,7 +196,9 @@
             39339992598,
             39339627644,
             39339623915,
-            39329935816
+            39329935816,
+            39462198805,
+            39470879540
           ],
           "resolved_by_subsequent_success": {
             "canon_health": 39237799284,
@@ -202,28 +208,25 @@
             "canon_health_20261019": 39372056514,
             "drive_archive_20261019": 39383195312,
             "pages_build_20261020": 39417828784,
-            "drive_archive_20261020": 39418380463
+            "drive_archive_20261020": 39418380463,
+            "canon_health_20261020_publish_race": 39470879540
           },
           "diagnoses": {
             "canon_health": "Five failure notices were transient queue/master warnings for scenes57/58 plus a concurrent push; current canon-health has zero warn/error and later runs succeeded.",
             "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully.",
-            "pages_build_20261020": "Four cancelled Pages runs were superseded by newer pushes; each cancellation was followed by a successful Pages run. Latest completed Pages run39417828784 succeeded; a newer run39419006393 was in progress at read time."
+            "pages_build_20261020": "Four cancelled Pages runs were superseded by newer pushes; each cancellation was followed by a successful Pages run. Latest completed Pages run39417828784 succeeded; a newer run39419006393 was in progress at read time.",
+            "canon_health_20261020_publish_race": "Run39462198805 computed status=ok/warnings=0 but failed publishing canon-health.json after a concurrent push left git rebase conflicts across retries. Workflow fixed in commit8d1a879 to reset from fresh origin/main and recompute on every attempt; replacement run39470879540 succeeded."
           },
           "actions_verification": {
-            "checked_at": "2026-10-20T12:03:09.987Z",
-            "runs_examined": 100,
+            "checked_at": "2026-10-20T18:01:38.400Z",
+            "runs_examined_current_check": 2,
             "current_failure": false,
-            "latest_completed_pages_run_id": 39417828784,
-            "latest_completed_pages_conclusion": "success",
-            "latest_drive_archive_run_id": 39418380463,
-            "latest_drive_archive_conclusion": "success",
-            "superseded_cancelled_pages_run_ids": [
-              39417824865,
-              39411893059,
-              39406030576,
-              39399939538
-            ],
-            "observed_in_progress_run_id": 39419006393
+            "failed_run_id": 39462198805,
+            "failed_run_conclusion": "failure",
+            "fix_commit": "8d1a8790108fd647b07e5ff47c460d138316e046",
+            "replacement_run_id": 39470879540,
+            "replacement_run_conclusion": "success",
+            "workflow_page_verified": true
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap"
@@ -501,7 +504,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-20T08:06:03.172Z",
+      "verified_at": "2026-10-20T18:01:38.400Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -548,10 +551,11 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "S44 needs Seedance2.0 prompt adaptation AND actual corrected43 result.",
-        "Each new part2 and52/56/48part1 require actual predecessor video; full fresh slot scan before launch."
+        "S16-SEED20-P2 waits the genuine checked ending of active S16-SEED20-P1 task30cfaf12ad944cd6944416623397e41c; one physical slot is free but owner ordering forbids skipping ahead.",
+        "42P1/P2→56P1/P2→48P1/P2 require genuine predecessor outputs; S57/S58 remain blocked until all eight worm parts are submitted, and each P2 requires its own genuine P1 ending.",
+        "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
       ],
-      "next_action": "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred.",
+      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -559,19 +563,21 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-20T08:06:03.172Z",
+        "checked_at": "2026-10-20T18:01:38.400Z",
         "boards": 11,
-        "pages": 16,
+        "pages": 17,
         "total_tasks": 913,
         "complete": true,
-        "occupied_slots": 6,
-        "free_slots": 0,
+        "occupied_slots": 5,
+        "free_slots": 1,
         "active_unlimited_task_ids": [
           "008058a4705c45c089256116427153d4",
           "30cfaf12ad944cd6944416623397e41c",
           "e6a5cf9a3d04413e943c9bbbff9e1f73",
           "e33891d4568a4a90b31ff3c67f5a7100",
-          "1e4928fa04ed4a0396d1d2ea4f5934bb",
+          "1e4928fa04ed4a0396d1d2ea4f5934bb"
+        ],
+        "newly_terminal_success_task_ids": [
           "70ba69f8c44e4898ab587fbffeaeca01"
         ]
       },
@@ -1052,7 +1058,7 @@
       "work_id": "FILM-20261020-WORM-SEEDANCE",
       "title": "Активные бои с червём: Seedance2.0, первоочередная ветка и свободный запуск",
       "status": "in_progress",
-      "verified_at": "2026-10-19T22:54:14.950Z",
+      "verified_at": "2026-10-20T18:01:38.400Z",
       "owner_instruction": "20Oct2026 01:32:57MSK: доработать боевые/червя, запускать через Seedance, поставить следующими; слот освободился, кнопки сайта нажаты.",
       "done": [
         "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success.",
@@ -1066,9 +1072,9 @@
         "Post-submit full11boards/17pages/912tasks:6active/0free. Receipt and UI proof saved; no further submit."
       ],
       "next_actions": [
-        "Same hourly automation: wait actual16P1 success, inspect real ending, save continuity source/SHA/QC, then16P2 at free slot.",
+        "Wait for actual S16-P1 success; inspect and save the genuine ending with provenance/SHA/QC, then launch S16-P2 through Unlimited0 after fresh main/lock/full scan.",
         "Continue42P1→42P2→56P1→56P2→48P1→48P2 with actual output dependencies; new42Image6 only from new16P2.",
-        "Review actual activity after generation; no automatic approval or failed-task retry. Other scene priority and maintenance retained."
+        "Only after all eight worm parts are submitted, proceed57P1→57P2 and58P1→58P2; no bypass via the currently free slot."
       ],
       "constraints": [
         "Только сайт Unlimited0,720p,16:9,quantity1; платныйMCPзапуск запрещён.",
@@ -1080,7 +1086,7 @@
         "reports/worm-seedance-2026-10-20.md",
         "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg"
       ],
-      "waiting_on": "Topview generation result and free slot; all6physical slots occupied."
+      "waiting_on": "Actual S16-P1 result for continuity. One physical video slot is free, but the explicit owner order blocks unrelated submissions until S16-P2 can use the genuine checked S16-P1 ending."
     },
     {
       "work_id": "FILM-20261020-S57-S58-IMAGES",
