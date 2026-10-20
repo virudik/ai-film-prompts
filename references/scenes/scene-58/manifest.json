@@ -212,6 +212,36 @@
         "git_present": true,
         "linked_in_master": false
       }
+    },
+    {
+      "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+      "asset_id": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+      "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+      "media_type": "image",
+      "role": "landed_emblem_and_cat_reaction_helper",
+      "status": "available",
+      "owner_approval": "not_recorded",
+      "provenance": {
+        "kind": "chatgpt_imagegen",
+        "created_at": "2026-10-20T00:45:41.009Z",
+        "generation_file": "exec-592c9b65-bbb7-4af9-9cbe-05a445f2c285.png",
+        "prompt_path": "references/scenes/scene-58/S58-emblem-at-cats-paws-prompt.txt",
+        "input_paths": [
+          "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+          "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+          "references/luchik.jpg",
+          "references/ryzhik.jpg"
+        ]
+      },
+      "assistant_qc": {
+        "status": "passed",
+        "evidence": "Two recognizable cats crouched beside fallen hooded head, front paws visible; one scorched riveted hull panel lies face-up directly at paws; cat-astronaut logo/red swoosh/РОСКОТМОС readable, open-hatch burning wreck behind. Original ship logo and individual identity sheets outrank helper details."
+      },
+      "site_published": {
+        "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+        "git_present": true,
+        "linked_in_master": false
+      }
     }
   ],
   "identity_refs": [
