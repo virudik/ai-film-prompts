@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T08:03:35.146Z",
+  "updated_at": "2026-10-20T08:06:12.206Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3837,7 +3837,7 @@
       "canonical_prompt_sha256": "c4488e22f0d4a04d64f9cfdcfc6a6e0d6c3212b1c6b1bf929b75553e8d6a3286",
       "normalized_prompt_sha256": "96703e313539eee67782048dc8e485499e18a5d8619e3a4a000a43e5338a2871",
       "priority": 5,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3892,7 +3892,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "008058a4705c45c089256116427153d4",
       "claim": {
         "run_id": "chatgpt-automation-20261020T080324908Z-S39-SEED20-P1",
         "claimed_at": "2026-10-20T08:03:35.146Z",
@@ -3902,7 +3902,9 @@
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S39",
-      "selection_record": "reports/seedance-selection-2026-10-18.md"
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "submitted_at": "2026-10-20T08:04:19Z",
+      "receipt": "reports/topview-queue-2026-10-20/S39-SEED20-P1-receipt.json"
     },
     {
       "id": "S39-SEED20-P2",
