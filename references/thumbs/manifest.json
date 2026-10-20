@@ -223,6 +223,16 @@
    "thumb_bytes": 60062,
    "src_sha256": "b78cf4565fcc31f4f38f135b28192374fb002f53b8473a4b291e22c57aef9846"
   },
+  "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2568749,
+   "thumb_bytes": 62736,
+   "src_sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
@@ -372,6 +382,16 @@
    "src_bytes": 2593416,
    "thumb_bytes": 68400,
    "src_sha256": "8341a2ba823105bbfd81b9199b32af8b669bef27d1451d88ce48d0b9b1718262"
+  },
+  "projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-9/KM09-zero-gravity-milk.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2387069,
+   "thumb_bytes": 54142,
+   "src_sha256": "5807845254f9d5eb2112cee654bf0f7dafe745a5e5cd2fba4ef56cb15a8cae58"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
