@@ -3,6 +3,16 @@
  "purpose": "Display thumbnails for reference images; originals are unchanged and remain the identity authority.",
  "max_width": 640,
  "items": {
+  "projects/kot-detektiv/references/branding/KD-poster.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/branding/KD-poster.png.webp",
+   "width": 640,
+   "height": 960,
+   "src_width": 1024,
+   "src_height": 1536,
+   "src_bytes": 2938533,
+   "thumb_bytes": 176564,
+   "src_sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861"
+  },
   "projects/kot-detektiv/references/detective-cat-office-portrait.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/detective-cat-office-portrait.png.webp",
    "width": 640,
@@ -142,6 +152,16 @@
    "src_bytes": 1406962,
    "thumb_bytes": 31728,
    "src_sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca"
+  },
+  "projects/kotmonavty/references/branding/KM-poster.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-poster.png.webp",
+   "width": 640,
+   "height": 960,
+   "src_width": 1024,
+   "src_height": 1536,
+   "src_bytes": 3294601,
+   "thumb_bytes": 183796,
+   "src_sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd"
   },
   "projects/kotmonavty/references/development/KM-bar-compass.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-bar-compass.png.webp",
