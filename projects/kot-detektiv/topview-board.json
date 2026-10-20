@@ -9,7 +9,7 @@
     "url": "https://www.topview.ai/board/d3bdcbe509594dcf82f8eddcaabe17fe",
     "task_count": 11
   },
-  "note": "Все 11 задач — Seedance 2.0, 15 с, 720p, безлимит (0 кредитов), success. Входные картинки лежат в хранилище Topview по путям input_images; из облака Claude их скачать нельзя (сеть закрыта), перенос в projects/kot-detektiv/references/ — задача ChatGPT (HANDOFF.md). MP4 в публичный GitHub не кладём.",
+  "note": "Все 11 задач прочитаны через Topview MCP 20.10.2026. Входные картинки перенесены без изменений: 9 S3-путей → 7 уникальных оригиналов; также сохранены 3 стоп-кадра. Происхождение и SHA — references/manifest.json. MP4 в GitHub не помещались; генерации не запускались.",
   "style_lock": "Cinematic Cozy Detective Noir, anthropomorphic animal detectives, Victorian London, warm amber lighting, realistic fluffy fur, tweed clothing, dark wooden interiors, investigation boards with photos and red strings, rainy cobblestone streets, gas lamps in fog; only animals, no people; no subtitles, no watermarks.",
   "tasks": [
     {
@@ -145,5 +145,13 @@
       ],
       "summary_ru": "Продолжение с последнего кадра видео: кот обходит стол, камера поворачивается на 90°, кот изучает карту на стене."
     }
-  ]
+  ],
+  "references_import": {
+    "status": "completed",
+    "completed_at": "2026-10-20T03:43:39Z",
+    "manifest": "projects/kot-detektiv/references/manifest.json",
+    "input_paths": 9,
+    "unique_images": 7,
+    "video_frames": 3
+  }
 }

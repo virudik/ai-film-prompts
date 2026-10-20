@@ -1,0 +1,26 @@
+{
+  "work_id": "KD-20261020-REFERENCE-IMPORT",
+  "project": "kot-detektiv",
+  "completed_at": "2026-10-20T03:43:39Z",
+  "summary": {
+    "tasks_checked": 11,
+    "s3_image_paths": 9,
+    "unique_originals": 7,
+    "frames": 3,
+    "credits_spent": 0,
+    "generation_submissions": 0
+  },
+  "manifest": "projects/kot-detektiv/references/manifest.json",
+  "validation": {
+    "command": "python3 scripts/projects.py . validate",
+    "exit_code": 0,
+    "output": "проекты в порядке"
+  },
+  "publication": "pending",
+  "notes": [
+    "Каждый исходный input_images покрыт copied_from; два идентичных набора объединены без потери происхождения.",
+    "Стоп-кадры выбраны после визуального сравнения 2/5/9/13 с в трёх роликах.",
+    "MP4 временно использованы вне репозитория для извлечения кадров.",
+    "Сцены, мастер, очередь и review-ledger не изменялись."
+  ]
+}

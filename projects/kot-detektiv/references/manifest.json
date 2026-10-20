@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "project": "kot-detektiv",
+  "work_id": "KD-20261020-REFERENCE-IMPORT",
+  "imported_at": "2026-10-20T03:43:39Z",
+  "board": {
+    "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+    "name": "Лёха кот",
+    "url": "https://www.topview.ai/board/d3bdcbe509594dcf82f8eddcaabe17fe",
+    "task_count": 11
+  },
+  "source_tasks_checked": 11,
+  "unique_s3_image_paths": 9,
+  "unique_input_image_bytes": 7,
+  "saved_input_images": 7,
+  "saved_video_frames": 3,
+  "deduplication": "Identical original bytes stored once; every source S3 path and task remains in copied_from.",
+  "credits_spent": 0,
+  "generation_submissions": 0,
+  "mp4_in_repository": false,
+  "approval_note": "Технический перенос и выбор читаемых справочных кадров не являются редакционным одобрением роликов или сцен.",
+  "entries": [
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+      "caption": "Кот за столом: вертикальный оригинал; твидовый костюм, кепка, белая морда, кабинет.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "3a85d0374f3f43de99c96c24ee2486ce",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
+          "kind": "input_image"
+        },
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "522037792f8f4b9ebe09ab2f3c87dc03",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/55d9gwjnPhya9i5W9cgVn.png",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd",
+      "git_blob_sha": "48ec7f9c2fb32218b6227485184a8a547e82072d",
+      "bytes": 2649963,
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-office-wide.jpg",
+      "caption": "Кот в кабинете: широкий исходный кадр, хорошо читаются морда, уши и одежда; это кадр, не отдельный model sheet.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/BpQKrRCZcAPyvwifqeHVH.jpg",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "4c6ce6fff35829a852bbb63ab0306d40f3f72eeb694634e097f5b3427a4739bf",
+      "git_blob_sha": "5a1faa9e592c637cc9d4138bd823deafdeb12a64",
+      "bytes": 454692,
+      "width": 1080,
+      "height": 649,
+      "format": "JPEG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/office-map.png",
+      "caption": "Кабинет и большая карта на стене без персонажей; тёмная отделка и тёплый свет.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/5e7CqfMoTcZCQ7bAUps4w.png",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "e5ab44a62636fbf5f4c406031ac370a800a018fee03a12f3cb608beb453f9af9",
+      "git_blob_sha": "2fbf5ad00e3e0fb2e39f90d8118efbab744ff3d4",
+      "bytes": 1076378,
+      "width": 953,
+      "height": 748,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-riverside-solo.png",
+      "caption": "Кот с лупой у реки, без пса; улика на земле, мокрая набережная.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "d0771a6763a24fdbbb0ec031d44358cd",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DOusPt6S22z2exVlvbDKi.png",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "6e9eeb7e11b393172ac64044331762580cc2a1842af3f776c6069a5d4a4079bb",
+      "git_blob_sha": "140dd805f1a3b7a8dd8873f6be0e8b9863defc4b",
+      "bytes": 2678265,
+      "width": 1196,
+      "height": 1315,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-riverside.png",
+      "caption": "Кот с лупой у реки, пёс-констебль позади; два S3-источника побайтно одинаковы.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "f4622eb7e6c54237aae33713538aec33",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/d68HCLGWEJ1s3kkBnN5fB.png",
+          "kind": "input_image"
+        },
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "230ea888ab9b452fb5e12e8d8e9626b4",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/O12j8ahZTybm2oou3ndkI.png",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "5e2ad3e745f4d9486e042474c5554d6696e22fd985b2b4af79bcd1f00434000f",
+      "git_blob_sha": "41eb174dab154ccab5fe13f54ba7cc3a372712e8",
+      "bytes": 2551284,
+      "width": 1196,
+      "height": 1315,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+      "caption": "Кот и пёс на ночной улице, вид спереди; форма и шлем пса. Два S3-источника побайтно одинаковы.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "129a9e79773c414aaf133c35f7ef61ee",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/2FTPNaiUKHAu12Eht9L1r.jpg",
+          "kind": "input_image"
+        },
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "82f5ad3cb6bb435e80109ccd45b3706d",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Rlj9p0br5ljqI10lUE85n.jpg",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4",
+      "git_blob_sha": "d681047638bcba638344fba2f7b1ed0c0736d179",
+      "bytes": 1489355,
+      "width": 1229,
+      "height": 1536,
+      "format": "JPEG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
+      "caption": "Кот и пёс на мосту у реки, фонари и Лондон в сумерках.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "6a55316a0030421ab1a2583e0783bd66",
+          "s3_path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/rvcLEbvGoUEB86TWyoi5I.png",
+          "kind": "input_image"
+        }
+      ],
+      "kind": "input_image",
+      "editorial_status": "not_approved",
+      "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28",
+      "git_blob_sha": "4ed0f8567946fd28e535fd737d350adb6e1c245e",
+      "bytes": 2384506,
+      "width": 1402,
+      "height": 1122,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/office-frame-02s.png",
+      "caption": "Кабинет: широкий план с картой, котом и столом; видны пространство и свет.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "6c5af157bd6e4c209f631b0eb86106e1",
+          "s3_path": "analyzed_video/task/object_replace_llm/b7b020c86f584805ba939e69c26e6712/b7b020c86f584805ba939e69c26e6712.mp4",
+          "kind": "video_frame",
+          "timestamp_seconds": 2,
+          "video_sha256": "bd88b55f10cd04b2896f12294d7e93f06ff3b00df83154fdeaa9b729a6cbd493"
+        }
+      ],
+      "kind": "video_frame",
+      "editorial_status": "not_approved",
+      "extraction": "ffmpeg -ss <timestamp_seconds> -i <temporary source MP4> -frames:v 1; full frame, no crop or retouch",
+      "sha256": "39a4918a48bb491ffd7b768bc5751fe128566a3d3271c408796f7826b8e5fe57",
+      "git_blob_sha": "5b1c814ec9d1bb357bf3bf382965f53541e176e4",
+      "bytes": 1235631,
+      "width": 1280,
+      "height": 720,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/london-street-frame-05s.png",
+      "caption": "Улица: кот и пёс спереди, одежда и окружение читаются; средний общий план.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "82f5ad3cb6bb435e80109ccd45b3706d",
+          "s3_path": "analyzed_video/task/object_replace_llm/ecee011574874fdbbf851a2d392f1d71/ecee011574874fdbbf851a2d392f1d71.mp4",
+          "kind": "video_frame",
+          "timestamp_seconds": 5,
+          "video_sha256": "aba4b1fe192c5caa953cd11f897ddbd96419d7f30927be10668a0600cbc401c2"
+        }
+      ],
+      "kind": "video_frame",
+      "editorial_status": "not_approved",
+      "extraction": "ffmpeg -ss <timestamp_seconds> -i <temporary source MP4> -frames:v 1; full frame, no crop or retouch",
+      "sha256": "d3347a9d8269436ed95621f9e048cfda1c5c42597c5d32b56714915e66c4d373",
+      "git_blob_sha": "cc6712ee1f866a561da41e64493ce45ebb9ceab4",
+      "bytes": 1289768,
+      "width": 1280,
+      "height": 720,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    },
+    {
+      "path": "projects/kot-detektiv/references/riverside-frame-02s.png",
+      "caption": "Набережная: кот с лупой, ограждение, река и огни; лицо и окружение читаются.",
+      "copied_from": [
+        {
+          "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+          "task_id": "230ea888ab9b452fb5e12e8d8e9626b4",
+          "s3_path": "analyzed_video/task/object_replace_llm/b273afc76f5d485788fc7169ff40881c/b273afc76f5d485788fc7169ff40881c.mp4",
+          "kind": "video_frame",
+          "timestamp_seconds": 2,
+          "video_sha256": "1a224a79094e249ae89987c73faafa0e6dc6b002e11b58197bd8e17fb73fd421"
+        }
+      ],
+      "kind": "video_frame",
+      "editorial_status": "not_approved",
+      "extraction": "ffmpeg -ss <timestamp_seconds> -i <temporary source MP4> -frames:v 1; full frame, no crop or retouch",
+      "sha256": "79cd7bfc0a19ca3c6bd50d561e72d43cce778de1cd547c36fbbaaa1424f68eca",
+      "git_blob_sha": "3f05c8f5df22f20df0ef010da789c968153f1f6e",
+      "bytes": 1406962,
+      "width": 1280,
+      "height": 720,
+      "format": "PNG",
+      "qc": "visual_checked",
+      "checked_at": "2026-10-20T03:43:39Z"
+    }
+  ]
+}
