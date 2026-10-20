@@ -213,6 +213,16 @@
    "thumb_bytes": 57684,
    "src_sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
   },
+  "projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2516578,
+   "thumb_bytes": 60062,
+   "src_sha256": "b78cf4565fcc31f4f38f135b28192374fb002f53b8473a4b291e22c57aef9846"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
