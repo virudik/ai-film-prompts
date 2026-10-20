@@ -493,6 +493,16 @@
    "thumb_bytes": 70034,
    "src_sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715"
   },
+  "projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-18/KM18-freight-train.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2599711,
+   "thumb_bytes": 67294,
+   "src_sha256": "60d00af6bab9ac9ab9e7f3e2051358f35139e096c07ed328fc8b713674b505c4"
+  },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
    "width": 640,
