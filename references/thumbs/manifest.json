@@ -193,6 +193,16 @@
    "thumb_bytes": 63130,
    "src_sha256": "9524eae7e8d31bef8b222427658a91dd70521ac8646c7c79d2819734d9081bec"
   },
+  "projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2517053,
+   "thumb_bytes": 54144,
+   "src_sha256": "d8618ff6c159cbafb832363a331e5b763ff35cfac224b422cf2692d0e9b4919f"
+  },
   "projects/kotmonavty/references/branding/KM-opening.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/branding/KM-opening.png.webp",
    "width": 640,
@@ -312,6 +322,16 @@
    "src_bytes": 2630480,
    "thumb_bytes": 69348,
    "src_sha256": "9ee7df2fdfb1949e7d5b2a53a8870c9475b59ca6be983332e5ac362932eb959f"
+  },
+  "projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-6/KM06-vault-gate.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2787103,
+   "thumb_bytes": 71340,
+   "src_sha256": "b8558250e369e12dca802d0c3f44e4308fafabc6da867cb160b8ca4b3149558c"
   },
   "projects/kotmonavty/references/ship-exterior-four-engines.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/ship-exterior-four-engines.png.webp",
