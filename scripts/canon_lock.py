@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Canon writer lock: ops/canon-lock.json says who is editing the canon right now (owner decision 17.10.2026).
 
-usage: canon_lock.py <repo> status
-       canon_lock.py <repo> acquire --holder NAME --task TEXT [--minutes 45] [--push]
-       canon_lock.py <repo> release --holder NAME [--push]
+usage: canon_lock.py <repo> status [--project ID]
+       canon_lock.py <repo> acquire --holder NAME --task TEXT [--minutes 45] [--project ID] [--push]
+       canon_lock.py <repo> release --holder NAME [--project ID] [--push]
+
+--project ID uses the lock of another project, projects/<id>/canon-lock.json (owner decision 20.10.2026,
+projects/README.md): it covers edits inside projects/<id>/ only; everything else keeps the common lock.
 
 The lock is advisory and never blocks a push by itself: git still rejects a stale push.
 It tells the other writer (ChatGPT or a Claude thread) "I am working on the canon until T".
@@ -12,7 +15,7 @@ The GitHub robot and the owner-panel robot write their own status files and neve
 With --push the change is committed and pushed at once; a rejected push means someone else
 wrote first: re-read and try again (never force).
 """
-import argparse, json, subprocess, sys
+import argparse, json, re, subprocess, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -37,8 +40,17 @@ def parse(value):
         return None
 
 
-def read(repo):
-    p = Path(repo) / LOCK
+def lock_path(project=None):
+    """Common lock for the root project and shared files; projects/<id>/canon-lock.json for another project."""
+    if project and project != "seregius":
+        if not re.match(r"^[a-z0-9][a-z0-9-]{1,30}$", project):
+            raise ValueError(f"bad project id {project!r}")
+        return f"projects/{project}/canon-lock.json"
+    return LOCK
+
+
+def read(repo, project=None):
+    p = Path(repo) / lock_path(project)
     try:
         return json.loads(p.read_text(encoding="utf-8"))
     except (OSError, ValueError):
@@ -91,13 +103,14 @@ def git(repo, *args):
     return subprocess.run(["git", "-C", str(repo), *args], text=True, capture_output=True)
 
 
-def write_and_push(repo, lock, message, push):
-    p = Path(repo) / LOCK
+def write_and_push(repo, lock, message, push, project=None):
+    rel = lock_path(project)
+    p = Path(repo) / rel
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(lock, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if not push:
         return True
-    git(repo, "add", LOCK)
+    git(repo, "add", rel)
     c = git(repo, "commit", "-m", message)
     if c.returncode != 0:
         print(c.stdout + c.stderr, file=sys.stderr)
@@ -117,9 +130,10 @@ def main(argv=None):
     ap.add_argument("--task", default="")
     ap.add_argument("--minutes", type=int, default=DEFAULT_MINUTES)
     ap.add_argument("--push", action="store_true")
+    ap.add_argument("--project", help="another project's lock: projects/<id>/canon-lock.json")
     a = ap.parse_args(argv)
     now = now_utc()
-    lock = read(a.repo)
+    lock = read(a.repo, a.project)
     if a.action == "status":
         print(describe(lock, now))
         return 0
@@ -132,10 +146,13 @@ def main(argv=None):
         else:
             new = release(lock, a.holder, now)
             msg = f"Canon lock: {a.holder} frees the canon"
+        if a.project and a.project != "seregius":
+            new["project"] = a.project
+            msg = msg.replace("Canon lock:", f"Project lock ({a.project}):")
     except RuntimeError as e:
         print(e, file=sys.stderr)
         return 2
-    return 0 if write_and_push(a.repo, new, msg, a.push) else 1
+    return 0 if write_and_push(a.repo, new, msg, a.push, a.project) else 1
 
 
 if __name__ == "__main__":

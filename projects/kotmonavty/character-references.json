@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "project": "kotmonavty",
+  "updated_at": "2026-10-20",
+  "source": "Утверждённые листы котов и картинки корабля из «Серёгиуса», скопированы в папку проекта 20.10.2026",
+  "non_character_reference_rules": [
+    "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
+    "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
+    "Пути к картинкам — от корня репозитория (projects/<id>/references/…); картинки проекта лежат в его папке."
+  ],
+  "characters": [
+    {
+      "id": "luchik",
+      "name": "Лучик",
+      "aliases": [
+        "LUCHIK",
+        "GREY CAT"
+      ],
+      "scenes": [],
+      "model_sheet": {
+        "source": "User-provided exact model sheet",
+        "primary": "Лучик · основная model sheet",
+        "additional": [],
+        "public_image": "projects/kotmonavty/references/luchik.jpg",
+        "full_image": "projects/kotmonavty/references/luchik.jpg"
+      },
+      "outfit_variant": "Пушистый бело-серый длинношёрстный кот: белые морда, грудь и лапы; серые отметины на макушке/морде и спине; густая естественная шерсть, серьёзный спокойный взгляд.",
+      "variants": [
+        {
+          "label": "Котмонавт",
+          "scenes": [],
+          "notes": "Пилот корабля РосКОТмоса, сидит справа в кадре кабины. Обычный домашний масштаб, кошачья анатомия, без человеческих рук."
+        }
+      ],
+      "provenance": {
+        "copied_from": "references/luchik.jpg",
+        "project": "seregius",
+        "copied_at": "2026-10-20",
+        "note": "Тот же утверждённый лист, что в «Серёгиусе» (байт в байт)."
+      }
+    },
+    {
+      "id": "ryzhik",
+      "name": "Рыжик",
+      "aliases": [
+        "RYZHIK",
+        "GINGER CAT"
+      ],
+      "scenes": [],
+      "model_sheet": {
+        "source": "User-provided exact model sheet",
+        "primary": "Рыжик · основная model sheet",
+        "additional": [],
+        "public_image": "projects/kotmonavty/references/ryzhik.jpg",
+        "full_image": "projects/kotmonavty/references/ryzhik.jpg"
+      },
+      "outfit_variant": "Пушистый рыжий длинношёрстный табби-кот: тёплый оранжево-рыжий окрас, заметные более тёмные полосы, более светлые морда и грудь, серьёзный уверенный взгляд.",
+      "variants": [
+        {
+          "label": "Котмонавт",
+          "scenes": [],
+          "notes": "Штурман корабля РосКОТмоса, сидит слева в кадре кабины. Обычный домашний масштаб, кошачья анатомия, без человеческих рук."
+        }
+      ],
+      "provenance": {
+        "copied_from": "references/ryzhik.jpg",
+        "project": "seregius",
+        "copied_at": "2026-10-20",
+        "note": "Тот же утверждённый лист, что в «Серёгиусе» (байт в байт)."
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "roskotmos-ship",
+      "name": "Корабль РосКОТмоса — снаружи",
+      "kind": "vehicle_exterior",
+      "notes": "Утверждённый дизайн — «тот, который сделался первым» (владелец 17.10 и 20.10.2026): длинный белый потёртый корпус, красный шеврон, синяя полоса, круглая эмблема с котом-космонавтом, надпись «РОСКОТМОС». Два ракурса: спереди-сбоку и сзади-сбоку. Вариант с четырьмя синими двигателями (кадр ролика 45) — когда нужен вид на корму.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/ship-exterior-front.png",
+          "caption": "Снаружи, спереди-сбоку (главный дизайн)",
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png"
+        },
+        {
+          "path": "projects/kotmonavty/references/ship-exterior-rear.png",
+          "caption": "Снаружи, сзади-сбоку (корма и двигатели)",
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-ship-first-rear.png"
+        },
+        {
+          "path": "projects/kotmonavty/references/ship-exterior-four-engines.png",
+          "caption": "Кадр ролика 45: четыре синих двигателя",
+          "copied_from": "references/scenes/scene-45/S45-ship-design-actual.png"
+        }
+      ]
+    },
+    {
+      "id": "roskotmos-cockpit",
+      "name": "Корабль РосКОТмоса — изнутри (кабина)",
+      "kind": "vehicle_interior",
+      "notes": "Кабина из сцен 24/25 «Серёгиуса»: тёплый янтарный свет, голографические экраны; Лучик — пилот справа, Рыжик — штурман слева. Два ракурса: спереди-сбоку на котов и сзади, через лобовое стекло.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/ship-interior-cockpit.png",
+          "caption": "Изнутри, спереди-сбоку: коты за пультами",
+          "copied_from": "references/scenes/scene-24/S24-Image3-topview-source.png"
+        },
+        {
+          "path": "projects/kotmonavty/references/ship-interior-window.webp",
+          "caption": "Изнутри, сзади: вид через лобовое стекло (маленькая картинка, только ориентир)",
+          "copied_from": "references/scenes/scene-25/S25-owner-forward-window-2026-10-16.webp"
+        }
+      ]
+    },
+    {
+      "id": "roskotmos-logo",
+      "name": "Эмблема РосКОТмоса",
+      "kind": "prop_logo",
+      "notes": "Круглая эмблема с котом-космонавтом и красным росчерком, надпись «РОСКОТМОС». С футболки владельца.",
+      "images": [
+        {
+          "path": "projects/kotmonavty/references/roskotmos-logo.png",
+          "caption": "Эмблема",
+          "copied_from": "references/scenes/scene-45/S45-roskotmos-logo.png"
+        }
+      ]
+    }
+  ]
+}

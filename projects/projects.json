@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "rules": "projects/README.md",
+  "default_project": "seregius",
+  "note": "Реестр проектов. Серёгиус живёт в корне репозитория (как раньше), остальные — в projects/<id>/. Номера сцен у каждого проекта свои. Слоты Topview общие (один аккаунт, 6 на все проекты).",
+  "projects": [
+    {
+      "id": "seregius",
+      "name": "Серёгиус",
+      "emoji": "🎬",
+      "root": ".",
+      "state": "active",
+      "description": "Основной фильм «AI Film Серёгиус».",
+      "aliases": [
+        "серёгиус",
+        "серегиус",
+        "сергиус",
+        "основной фильм",
+        "основном фильме",
+        "seregius"
+      ],
+      "master": "video-prompts.md",
+      "handoff": "NEW-CHAT-HANDOFF.md",
+      "instructions": "AI-PROJECT-GUIDE.md",
+      "references": "character-references.json",
+      "queue": "ops/topview-launch-queue.json",
+      "lock": "ops/canon-lock.json",
+      "status": "project-status.json"
+    },
+    {
+      "id": "kotmonavty",
+      "name": "Котмонавты",
+      "emoji": "🐱🚀",
+      "root": "projects/kotmonavty",
+      "state": "active",
+      "description": "Спин-офф о котах Лучике и Рыжике и их корабле РосКОТмоса.",
+      "aliases": [
+        "котмонавт",
+        "космокот",
+        "спин-офф",
+        "спиноф",
+        "kotmonavty"
+      ],
+      "master": "projects/kotmonavty/video-prompts.md",
+      "handoff": "projects/kotmonavty/HANDOFF.md",
+      "instructions": "projects/kotmonavty/INSTRUCTIONS.md",
+      "references": "projects/kotmonavty/character-references.json",
+      "queue": "projects/kotmonavty/ops/topview-launch-queue.json",
+      "lock": "projects/kotmonavty/canon-lock.json",
+      "status": "projects/kotmonavty/project-status.json"
+    },
+    {
+      "id": "kot-detektiv",
+      "name": "Кот детектив",
+      "emoji": "🕵️🐈",
+      "root": "projects/kot-detektiv",
+      "state": "active",
+      "description": "Нуарный детектив: кот-сыщик в викторианском Лондоне и пёс-констебль.",
+      "aliases": [
+        "кот детектив",
+        "кот-детектив",
+        "кота детектива",
+        "коте детективе",
+        "детектив",
+        "сыщик",
+        "kot-detektiv"
+      ],
+      "master": "projects/kot-detektiv/video-prompts.md",
+      "handoff": "projects/kot-detektiv/HANDOFF.md",
+      "instructions": "projects/kot-detektiv/INSTRUCTIONS.md",
+      "references": "projects/kot-detektiv/character-references.json",
+      "queue": "projects/kot-detektiv/ops/topview-launch-queue.json",
+      "lock": "projects/kot-detektiv/canon-lock.json",
+      "status": "projects/kot-detektiv/project-status.json",
+      "topview_board": {
+        "board_id": "d3bdcbe509594dcf82f8eddcaabe17fe",
+        "name": "Лёха кот"
+      }
+    },
+    {
+      "id": "raznoe",
+      "name": "Разное",
+      "emoji": "🎲",
+      "root": "projects/raznoe",
+      "state": "active",
+      "description": "Независимые ролики, не связанные с фильмами.",
+      "aliases": [
+        "разное",
+        "разном",
+        "разного",
+        "независимый ролик",
+        "независимые ролики",
+        "raznoe"
+      ],
+      "master": "projects/raznoe/video-prompts.md",
+      "handoff": "projects/raznoe/HANDOFF.md",
+      "instructions": "projects/raznoe/INSTRUCTIONS.md",
+      "references": "projects/raznoe/character-references.json",
+      "queue": "projects/raznoe/ops/topview-launch-queue.json",
+      "lock": "projects/raznoe/canon-lock.json",
+      "status": "projects/raznoe/project-status.json"
+    }
+  ],
+  "launch_order": [
+    "seregius",
+    "kotmonavty",
+    "kot-detektiv",
+    "raznoe"
+  ],
+  "launch_order_note": "Если готовы элементы очередей нескольких проектов, а слот один: сначала проект выше в launch_order, внутри проекта — наименьший priority. Порядок меняет владелец («в проекте X запускать первым»).",
+  "detection_note": "Алиасы — подстроки в нижнем регистре (ё и е различаются как написаны, сравнение делает scripts/projects.py detect). «Коты», «РосКОТмос», «Лучик» есть и в Серёгиусе, поэтому проектом их не считать."
+}

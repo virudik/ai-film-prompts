@@ -466,3 +466,19 @@ jobs:
             exit 0
           fi
           python3 scripts/robot_site_actions.py
+
+      - name: Phase 4 - buttons of the other projects (projects/<id>/ only)
+        # Owner decision 20.10.2026 (projects/README.md): rows tagged value "project:<id>" or a task of
+        # projects/topview-projects.json. Phases 1-3 skip them; this phase changes only the project's
+        # queue, review ledger and master. Never launches, approves or deletes a Topview task.
+        if: always() && !cancelled()
+        shell: bash
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${SUPABASE_SERVICE_ROLE_KEY}" ]; then
+            echo "::notice::Project buttons not configured: missing SUPABASE_SERVICE_ROLE_KEY GitHub Actions secret"
+            exit 0
+          fi
+          python3 scripts/robot_project_actions.py
