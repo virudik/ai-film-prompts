@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Кот детектив: перенос входных референсов и трёх стоп-кадров с доски Лёха кот",
   "acquired_at": "2026-10-20T03:39:28.454Z",
-  "expires_at": "2026-10-20T04:24:28.454Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-20T03:46:04.766Z",
   "rules": "ops/CANON-LOCK.md"
 }

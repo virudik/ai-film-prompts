@@ -16,11 +16,22 @@
     "exit_code": 0,
     "output": "проекты в порядке"
   },
-  "publication": "pending",
+  "publication": {
+    "state": "verified",
+    "content_commit": "ecc96c528156f4781296ef8485d46d8872e52be3",
+    "verified_at": "2026-10-20T03:46:04.766Z",
+    "text_files_exact": 8,
+    "image_sha256_verified": 10,
+    "source_tasks_exact_match": 11,
+    "mp4_added": 0,
+    "lock_release": "in this final commit"
+  },
   "notes": [
     "Каждый исходный input_images покрыт copied_from; два идентичных набора объединены без потери происхождения.",
     "Стоп-кадры выбраны после визуального сравнения 2/5/9/13 с в трёх роликах.",
     "MP4 временно использованы вне репозитория для извлечения кадров.",
     "Сцены, мастер, очередь и review-ledger не изменялись."
-  ]
+  ],
+  "project_health": "ok",
+  "takeover": "short D7; continue_preflight ready_for_short=true; project README read in full"
 }

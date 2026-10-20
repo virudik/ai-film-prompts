@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "last_updated_at": "2026-10-20T03:44:48Z",
+  "last_updated_at": "2026-10-20T03:46:04.766Z",
   "active_work": [
     {
       "work_id": "KD-20261020-REFERENCE-IMPORT",
       "project": "kot-detektiv",
-      "status": "in_progress",
+      "status": "completed",
       "started_at": "2026-10-20T03:39:42.173Z",
       "authorization": "Владелец 20.10.2026: перенести референсы из доски Лёха кот, бесплатно, только скачивание; порядок HANDOFF.",
       "done": [
@@ -15,18 +15,19 @@
         "Скачаны все 9 S3-источников; SHA подтвердили 7 уникальных оригиналов. Все 10 привязок input image → task сохранены в copied_from.",
         "Визуально проверены оригиналы и 12 кандидатов стоп-кадров; сохранены 3 читаемых кадра кабинета (2 с), улицы (5 с), набережной (2 с).",
         "Заполнены персонажи и локации в character-references.json; manifest содержит SHA, размеры, copied_from и отсутствие одобрения.",
-        "python3 scripts/projects.py . validate: exit 0, проекты в порядке; полное покрытие input_images и отсутствие MP4 проверены."
+        "python3 scripts/projects.py . validate: exit 0, проекты в порядке; полное покрытие input_images и отсутствие MP4 проверены.",
+        "GitHub read-back: все 8 текстовых файлов совпадают; все 10 изображений извлечены из опубликованного коммита, SHA256 совпадают с manifest."
       ],
-      "next_actions": [
-        "Прочитать опубликованный коммит и проверить все SHA; затем зафиксировать результат и освободить замок проекта."
-      ],
+      "next_actions": [],
       "constraints": [
         "0 кредитов; только скачивание; без генераций и одобрения",
         "Не создавать сцены из материалов доски; MP4 в GitHub не помещать",
         "Все изменения внутри projects/kot-detektiv/ под замком проекта"
       ],
       "blockers": [],
-      "verified_at": "2026-10-20T03:44:48Z"
+      "verified_at": "2026-10-20T03:46:04.766Z",
+      "completed_at": "2026-10-20T03:46:04.766Z",
+      "content_commit": "ecc96c528156f4781296ef8485d46d8872e52be3"
     }
   ]
 }
