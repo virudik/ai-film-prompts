@@ -96,5 +96,31 @@
   "topview_tasks_created": 0,
   "topview_credits_spent": 0,
   "queue": "Image items completed via ChatGPT; P1 waiting_for_slot; P2 blocked_continuity; dance gates preserved.",
-  "automation": "Existing6acae6ab433481919e88665c520b8ef2 updated and enabled; no repeated image generation."
+  "automation": "Existing6acae6ab433481919e88665c520b8ef2 updated and enabled; no repeated image generation.",
+  "verification": {
+    "checked_at": "2026-10-20T00:36:52.153Z",
+    "content_commit": "d3c5dc39f5e80749874fdb3dca85af853a9deedd",
+    "original_git_blob57": "86f8225530cc66012ef2208d24941cd7510d35ea",
+    "original_git_blob58": "7513b850fd8246f32c78e721ce7d401da983de2d",
+    "github_readback_all_files": true,
+    "master_sha256": "b17635e09f9c2c8d1743110f2fec4fbf40de1b99512960b5f9469392b41d8fc9",
+    "public_png_sha256_match": true,
+    "public_master_sha256_match": true,
+    "thumbnail_source_hash_match": true,
+    "master_health": "ok",
+    "checks": [
+      "95 prompt blocks unchanged",
+      "master structural validation passed",
+      "site contract/JS validation passed",
+      "image slot SHA mappings and P2 real-video blockers verified"
+    ],
+    "github_actions": {
+      "master": 39348387739,
+      "integration": 39348387768,
+      "canon": 39348387805,
+      "thumbnails": 39348387718,
+      "pages": 39348465543
+    },
+    "github_actions_conclusion": "success"
+  }
 }
