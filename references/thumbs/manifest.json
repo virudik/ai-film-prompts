@@ -223,6 +223,16 @@
    "thumb_bytes": 60524,
    "src_sha256": "b331f62994727d6a3d586abb77488f7de36272571223240c13760aef96088a6d"
   },
+  "projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2466960,
+   "thumb_bytes": 59572,
+   "src_sha256": "417b4b9bf78d4c50f637eb79d4a177ab017943c8b28d36c2b6caa798f384c598"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -472,6 +482,16 @@
    "src_bytes": 2569383,
    "thumb_bytes": 56608,
    "src_sha256": "3688be34da1a07b329d25a15d7039cc87de721d832b0ead7fe9932ec88808732"
+  },
+  "projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-17/KM17-luminous-garden.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2779598,
+   "thumb_bytes": 70034,
+   "src_sha256": "3951a4a7cd5cfcbc2685777dbca0c930a34ae26f84598d434e8703400d3da715"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
