@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "Сюжет, трейлер и референсы по команде владельца; без очереди",
-  "acquired_at": "2026-10-20T20:23:18.094Z",
-  "expires_at": null,
-  "released_at": "2026-10-20T20:59:57.576Z",
+  "task": "21.10: афиша, заставка, 6 эпизодов и дополнительные сцены с референсами; без очереди",
+  "acquired_at": "2026-10-20T21:06:27.742Z",
+  "expires_at": "2026-10-20T21:51:27.742Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
