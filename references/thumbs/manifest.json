@@ -193,6 +193,16 @@
    "thumb_bytes": 72620,
    "src_sha256": "e695753a6a3323d0e5175975b99e45e4673f4c2f562d1dfedb3d31988b5f6e9e"
   },
+  "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2475468,
+   "thumb_bytes": 58790,
+   "src_sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
@@ -412,6 +422,16 @@
    "src_bytes": 2764887,
    "thumb_bytes": 71980,
    "src_sha256": "af23df1001aa742a6bdc4754fdd1dc36d5bb7a2a18f5f1728ade93a20a755554"
+  },
+  "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png": {
+   "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2671058,
+   "thumb_bytes": 57908,
+   "src_sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
   },
   "projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-4/KM04-compass-alarm.png.webp",
