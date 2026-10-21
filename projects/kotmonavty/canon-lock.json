@@ -1,12 +1,11 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "21.10: РОСКОТМОС на корабле, штаб, 20 image-first сцен, событийные заставки и трейлеры; без очереди",
-  "acquired_at": "2026-10-20T22:23:19.461Z",
-  "expires_at": null,
-  "released_at": "2026-10-20T23:38:58.143Z",
-  "rules": "ops/CANON-LOCK.md",
-  "renewed_at": "2026-10-20T23:30:23.190Z"
+  "task": "РОСКОТМОС: шрифт, цвет и размер по первому кораблю; исправление производных кадров",
+  "acquired_at": "2026-10-21T00:05:23.349Z",
+  "expires_at": "2026-10-21T00:50:24.163Z",
+  "released_at": null,
+  "rules": "ops/CANON-LOCK.md"
 }
