@@ -170,7 +170,7 @@ def check(root, now):
             "status": "warn" if warn else "ok", "warnings": warn,
             "info": sum(p["level"] == "info" for p in problems),
             "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. "
-                     "Устаревание по состоянию проекта, даты только сигнал. Чистку делает еженедельное расписание Claude.",
+                     "Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
             "problems": problems}
 
 
