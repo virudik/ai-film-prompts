@@ -273,6 +273,16 @@
    "thumb_bytes": 62938,
    "src_sha256": "242343d33b25df44d5872012664d99a4166a4e8f8064c81351b3976123142821"
   },
+  "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3063299,
+   "thumb_bytes": 83070,
+   "src_sha256": "37c70b84be206b0b3868020d9b6772ada2fac5a2b46459e4f0fbf540c092a703"
+  },
   "projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png.webp",
    "width": 640,
