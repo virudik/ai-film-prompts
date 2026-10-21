@@ -2,7 +2,7 @@
 
 > **Порядок короткого приёма:** (1) `git pull` в `main`; (2) этот файл: «Валиден при генерации» = True и все 15 правил ✓ — иначе полное чтение 7 инструкций; (3) `shadow/current-checkpoint.md` целиком (верхние блоки NEW-CHAT-HANDOFF.md дословно); (4) живые статусы и открытые `owner_decisions`; (5) под задачу — разделы из «Что читать под задачу». Полное чтение обязательно при любом триггере в конце файла. Бриф — навигатор, не authority: свежий `main` всегда важнее.
 
-Сгенерирован 2026-10-20T22:23:33+00:00. Валиден при генерации: **True**
+Сгенерирован 2026-10-21T00:43:57+00:00. Валиден при генерации: **True**
 Brief — навигатор. При любом триггере ниже — полный fresh-read канона.
 
 ## Authority
@@ -16,7 +16,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - USER-GUIDE.md · копия на Drive `1rEmigK5FEznmzo9g3yANlXRwNiPRwvbO` · 71542 B · `5e9481a81f8187da`
 - README-AI-SYNC.md · копия на Drive `1hYMZ14esluB-kucasD6LjHWb_cBW_3wX` · 15350 B · `b5ac5af59fb86b69`
 - BACKUP-AI-RUNBOOK.md · копия на Drive `1WwKoxhC7tGNG9xy-I7OduKYZBhVH0Ss1` · 17707 B · `2167ce1ba9077c14`
-- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 968066 B · `49d8fe0e84f3216c`
+- video-prompts.md · копия на Drive `1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj` · 912207 B · `5f9874ea4b295052`
 
 ## Обязательные инварианты
 - **INV-AUTH** — Since 11.10.2026: GitHub main = canon (master + 7 docs, status, site); Drive / Notion / Library / Project files = read-only backups; Topview = telemetry; Notion = story. → `NEW-CHAT-HANDOFF.md` ✓
@@ -36,7 +36,7 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 - **INV-DONE** — Never say «готово» before the relevant read-back/verification passed. → `SYNC-RUNBOOK.md` ✓
 
 ## Runtime
-- health ok; сцен 23 ([13, 16, 28, 33, 36, 37, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 56, 57, 58]); промтов 95; последний ID 58; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46, 55]
+- health ok; сцен 21 ([13, 16, 28, 33, 36, 37, 39, 40, 41, 42, 44, 47, 48, 49, 50, 51, 52, 53, 56, 57, 58]); промтов 89; последний ID 58; зарезервированы [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54, 55]
 - Слоты, slow, ETA, монитор — только из живых project-status.json, topview-status.json, instruction-sync-status.json, automation-monitor-status.json. Slots, slow, ETA and monitor state: read the live JSON. checked_at older than 2 h, missing or in the future = unverified.
 
 ## Индекс сцен
@@ -51,17 +51,15 @@ GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry 
 | 39 | Серёга прибывает на Набу: посадка у брошенной стоянки рыбако | Seedance 2.0 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 9d730b647bb8 |
 | 40 | Серёга прилетает на планету ситхов: посадка у руин | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 0ffe6318a7c1 |
 | 41 | Серёга увозит древний ПК с планеты ситхов | Wan 3 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | d9a46173a72c |
-| 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | b33106b48db0 |
-| 43 | Ангар крейсера: у шаттла Канцлера заело крыло | Wan 3 | READY/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [] | 848fba74ac9f |
-| 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [43] | 57d26159843b |
+| 42 | Татуин: бой на фоне червя — червь им не интересен | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [16] | 8f29749a1858 |
+| 44 | Ангар крейсера: ремонт крыла, и оно отваливается | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 | [] | e564279271c2 |
 | 47 | Красная точка: Серёга уходит от котов хитростью | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 3be8f42e38a1 |
 | 48 | Татуин: после боя Канцлер забирает фрагмент карты | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [56] | 562af2732315 |
 | 49 | Финальные титры: все играют космический рок на инопланетных  | Seedance 2.0 | READY/IDLE | 9 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 @Image9 | [28] | 05ff816dde03 |
 | 50 | Финальные титры: вуки-фанаты слэмятся и трясут гривами | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image8 | [28, 49] | a88ff3c303f6 |
 | 51 | Финальные титры: рок-финал с разбиванием инопланетных инстру | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [28, 49, 50] | dd53d5db138f |
 | 52 | Серёга пересаживается на свой корабль и прилетает на Татуин | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [44] | 49ca73f4fd9d |
-| 53 | Взлёт Серёги с Татуина: курс на Набу | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | f3297a9786e5 |
-| 54 | Доставка древнего компьютера в комнату: стык к Warcraft | Wan 3 | DRAFT/SLOW_PENDING | 3 | @Image1 @Image2 @Image3 @Image4 | [41] | 119fb865ffb4 |
+| 53 | Взлёт Серёги с Татуина: курс на Набу | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 | [48, 39] | ee7f4853836a |
 | 56 | Татуин: бой в движении — червь требует внимания | Seedance 2.0 | DRAFT/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 | [42] | 1acd2327c68d |
 | 57 | РосКОТмос: аварийная посадка котов на планете ситхов | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 | [] | 1dc8ecac6141 |
 | 58 | РосКОТмос: коты выбегают из горящего корабля | Seedance 2.0 | READY/IDLE | 3 | @Image1 @Image2 @Image3 @Image4 @Image5 @Image6 @Image7 @Image8 | [57] | d18fef031798 |
