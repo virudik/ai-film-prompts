@@ -273,6 +273,16 @@
    "thumb_bytes": 62938,
    "src_sha256": "242343d33b25df44d5872012664d99a4166a4e8f8064c81351b3976123142821"
   },
+  "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2731114,
+   "thumb_bytes": 75474,
+   "src_sha256": "647d6e33ac98ddcaef58d76a0ac5315171c0d768accba64f18c730ec7f6de3f5"
+  },
   "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png.webp",
    "width": 640,
