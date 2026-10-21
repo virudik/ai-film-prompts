@@ -4,8 +4,9 @@
   "state": "held",
   "holder": "chatgpt",
   "task": "РОСКОТМОС: шрифт, цвет и размер по первому кораблю; исправление производных кадров",
-  "acquired_at": "2026-10-21T00:05:23.349Z",
-  "expires_at": "2026-10-21T00:50:24.163Z",
+  "acquired_at": "2026-10-21T13:32:44.963Z",
+  "expires_at": "2026-10-21T14:17:45.768Z",
   "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "rules": "ops/CANON-LOCK.md",
+  "renewed_at": "2026-10-21T13:32:44.963Z"
 }
