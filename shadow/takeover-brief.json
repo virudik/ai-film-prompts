@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generator": "d7-1.0",
  "status": "D7 ACCEPTED BY THE OWNER 14.10.2026 — short takeover entry point; a navigator, never authority; fresh GitHub main always wins; any fallback trigger → full read",
- "generated_at": "2026-10-21T16:04:11+00:00",
+ "generated_at": "2026-10-21T17:04:46+00:00",
  "valid_at_generation": true,
  "validity_mismatches": [],
  "authority": "GitHub main (master + 7 instructions, status, site/Pages) → Topview telemetry → Notion story/pointer; backups (Drive, Notion pointer, Library, Project files) never override main",
@@ -52,8 +52,8 @@
   {
    "file": "video-prompts.md",
    "drive_id": "1yoUVfEAumOClvlBg8prFIX_BFFfoCZqj",
-   "sha256": "dd7b3031dcc29ed1cf426eaf868ac96821dcb7ec1cbdef861ffca3baac0970f4",
-   "bytes": 912836
+   "sha256": "34ff519bcbf9ae71d98f38063651f984613a1f7b81874723b8ab2d7f2b223bdd",
+   "bytes": 913984
   }
  ],
  "invariants": [
@@ -282,7 +282,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 33037,
+   "offset": 33753,
    "chars": 26337,
    "sha256_12": "53146e9d1886"
   },
@@ -304,7 +304,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 59374,
+   "offset": 60090,
    "chars": 28000,
    "sha256_12": "e433609e41d1"
   },
@@ -324,7 +324,7 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 87374,
+   "offset": 88090,
    "chars": 187821,
    "sha256_12": "32d9ec7ccfb1"
   },
@@ -342,7 +342,7 @@
     "@Image1",
     "@Image2"
    ],
-   "offset": 275195,
+   "offset": 275911,
    "chars": 16356,
    "sha256_12": "9ed4ad5f905c"
   },
@@ -364,7 +364,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 291551,
+   "offset": 292267,
    "chars": 24016,
    "sha256_12": "1bcbb827821d"
   },
@@ -388,7 +388,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 315567,
+   "offset": 316283,
    "chars": 28753,
    "sha256_12": "991188fcb733"
   },
@@ -410,7 +410,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 344320,
+   "offset": 345036,
    "chars": 27730,
    "sha256_12": "9d730b647bb8"
   },
@@ -419,7 +419,7 @@
    "title": "Серёга прилетает на планету ситхов: посадка у руин",
    "target_engine": "Seedance 2.0",
    "state": "READY",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [],
@@ -432,9 +432,9 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 372050,
-   "chars": 27466,
-   "sha256_12": "0ffe6318a7c1"
+   "offset": 372766,
+   "chars": 27495,
+   "sha256_12": "4edcb12c25e4"
   },
   {
    "id": 41,
@@ -454,7 +454,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 399516,
+   "offset": 400261,
    "chars": 27514,
    "sha256_12": "d9a46173a72c"
   },
@@ -478,7 +478,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 427030,
+   "offset": 427775,
    "chars": 28380,
    "sha256_12": "8f29749a1858"
   },
@@ -497,7 +497,7 @@
     "@Image2",
     "@Image3"
    ],
-   "offset": 455410,
+   "offset": 456155,
    "chars": 26638,
    "sha256_12": "e564279271c2"
   },
@@ -519,7 +519,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 482048,
+   "offset": 482793,
    "chars": 24188,
    "sha256_12": "3be8f42e38a1"
   },
@@ -543,7 +543,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 506236,
+   "offset": 506981,
    "chars": 27968,
    "sha256_12": "562af2732315"
   },
@@ -570,7 +570,7 @@
     "@Image8",
     "@Image9"
    ],
-   "offset": 534204,
+   "offset": 534949,
    "chars": 92929,
    "sha256_12": "05ff816dde03"
   },
@@ -595,7 +595,7 @@
     "@Image5",
     "@Image8"
    ],
-   "offset": 627133,
+   "offset": 627878,
    "chars": 29880,
    "sha256_12": "a88ff3c303f6"
   },
@@ -623,7 +623,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 657013,
+   "offset": 657758,
    "chars": 32312,
    "sha256_12": "dd53d5db138f"
   },
@@ -646,7 +646,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 689325,
+   "offset": 690070,
    "chars": 26071,
    "sha256_12": "49ca73f4fd9d"
   },
@@ -655,7 +655,7 @@
    "title": "Взлёт Серёги с Татуина: курс на Набу",
    "target_engine": "Seedance 2.0",
    "state": "DRAFT",
-   "render_state": "IDLE",
+   "render_state": "SLOW_PENDING",
    "duration_s": 30,
    "dialogue": null,
    "depends_on": [
@@ -669,9 +669,9 @@
     "@Image3",
     "@Image4"
    ],
-   "offset": 715396,
-   "chars": 23645,
-   "sha256_12": "ee7f4853836a"
+   "offset": 716141,
+   "chars": 23674,
+   "sha256_12": "bcec38b443fb"
   },
   {
    "id": 56,
@@ -692,7 +692,7 @@
     "@Image4",
     "@Image5"
    ],
-   "offset": 739041,
+   "offset": 739815,
    "chars": 25982,
    "sha256_12": "1acd2327c68d"
   },
@@ -714,7 +714,7 @@
     "@Image5",
     "@Image6"
    ],
-   "offset": 765023,
+   "offset": 765797,
    "chars": 25709,
    "sha256_12": "1dc8ecac6141"
   },
@@ -740,7 +740,7 @@
     "@Image7",
     "@Image8"
    ],
-   "offset": 790732,
+   "offset": 791506,
    "chars": 27291,
    "sha256_12": "d18fef031798"
   }
