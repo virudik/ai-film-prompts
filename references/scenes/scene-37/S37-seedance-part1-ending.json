@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scene": 37,
+  "part": 1,
+  "source_task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+  "source_drive_file_id": "1Al67ufnQ_6b_hx5dOojBPHE9Ck8DR8w6",
+  "source_sha256": "2c8a766970fe7a40f181b8f2056d296cf44bbc626f20fe1100b1db9197f681d1",
+  "trim_seconds": [
+    11,
+    15
+  ],
+  "sha256": "3a2b14730ddc43a55382e54d70f2f67bf56e4d3f110ba90b21e70e220a39e847",
+  "size_bytes": 1329835,
+  "duration_seconds": 4,
+  "filename": "S37-P1-ending-11-15s.mp4",
+  "reproduction": "ffmpeg -ss 11 -i source.mp4 -t 4 -c:v libx264 -crf 18 -preset fast -c:a aac -movflags +faststart ending.mp4",
+  "qc": "Actual source last4s inspected as decoded frames: single craft climbs/rolls at dark thunderhead base above lake; usable continuity reference. Assistant technical continuity QC only, no editorial approval.",
+  "frame": {
+    "path": "references/scenes/scene-37/S37-seedance-part1-final.png",
+    "at_seconds": 14.8,
+    "sha256": "54c8a14eff2119a6a1c841e452429203a72a4894b72041fdb40b1a1dd9ca6738"
+  },
+  "editorial_approval": false
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-20T21:01:03.375Z",
+  "updated_at": "2026-10-21T16:29:51.207Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3797,7 +3797,7 @@
       "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
       "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1",
       "priority": 4.5,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3815,9 +3815,23 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S37-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "source_task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
+          "source_drive_file_id": "1Al67ufnQ_6b_hx5dOojBPHE9Ck8DR8w6",
+          "source_sha256": "2c8a766970fe7a40f181b8f2056d296cf44bbc626f20fe1100b1db9197f681d1",
+          "trim_seconds": [
+            11,
+            15
+          ],
+          "sha256": "3a2b14730ddc43a55382e54d70f2f67bf56e4d3f110ba90b21e70e220a39e847",
+          "size_bytes": 1329835,
+          "duration_seconds": 4,
+          "filename": "S37-P1-ending-11-15s.mp4",
+          "reproduction": "ffmpeg -ss 11 -i source.mp4 -t 4 -c:v libx264 -crf 18 -preset fast -c:a aac -movflags +faststart ending.mp4",
+          "qc": "Actual source last4s inspected as decoded frames: single craft climbs/rolls at dark thunderhead base above lake; usable continuity reference. Assistant technical continuity QC only, no editorial approval.",
+          "provenance_path": "references/scenes/scene-37/S37-seedance-part1-ending.json"
         },
         {
           "slot": "@Image1",
@@ -3863,8 +3877,9 @@
       "depends_on_completed": [
         "S37-SEED20-P1"
       ],
-      "blocker": "Actual ending of S37-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": null,
+      "launch_readiness": "ready",
+      "references_prepared_at": "2026-10-21T16:29:51.207Z"
     },
     {
       "id": "S39-SEED20-P1",
