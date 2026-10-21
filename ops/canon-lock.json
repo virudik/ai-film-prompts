@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "21.10: РОСКОТМОС на корабле, штаб, 20 image-first сцен, событийные заставки и трейлеры; без очереди",
-  "acquired_at": "2026-10-20T22:23:19.461Z",
-  "expires_at": null,
-  "released_at": "2026-10-20T22:27:25.003Z",
+  "task": "21.10 09:55 МСК: контроль очереди, автоматики и почты",
+  "acquired_at": "2026-10-21T07:01:45.411Z",
+  "expires_at": "2026-10-21T07:46:45.411Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
