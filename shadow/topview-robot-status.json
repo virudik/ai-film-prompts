@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-21T03:00:33Z",
+  "checked_at": "2026-10-21T03:10:41Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -63,8 +63,8 @@
       "model": "Seedance 2.0",
       "scene_id": 39,
       "mapping": "task_map",
-      "queue_count": 3422,
-      "wait_seconds": 138626,
+      "queue_count": 3411,
+      "wait_seconds": 138240,
       "process_seconds": null
     },
     {
@@ -76,8 +76,8 @@
       "model": "Seedance 2.0",
       "scene_id": 16,
       "mapping": "task_map",
-      "queue_count": 2690,
-      "wait_seconds": 95426,
+      "queue_count": 2680,
+      "wait_seconds": 95040,
       "process_seconds": null
     },
     {
@@ -89,22 +89,22 @@
       "model": "Wan 3.0",
       "scene_id": 44,
       "mapping": "task_map",
-      "queue_count": 3712,
-      "wait_seconds": 155906,
+      "queue_count": 3701,
+      "wait_seconds": 155520,
       "process_seconds": null
     },
     {
       "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "status": "init",
+      "status": "running",
       "unlimited": true,
       "created_at": "2026-10-19 03:03:33",
       "model": "Wan 3.0",
       "scene_id": 36,
       "mapping": "task_map",
-      "queue_count": 38,
-      "wait_seconds": 386,
-      "process_seconds": null
+      "queue_count": null,
+      "wait_seconds": null,
+      "process_seconds": 5400
     },
     {
       "task_id": "e6a5cf9a3d04413e943c9bbbff9e1f73",
@@ -115,8 +115,8 @@
       "model": "Seedance 2.0",
       "scene_id": 37,
       "mapping": "task_map",
-      "queue_count": 1551,
-      "wait_seconds": 43586,
+      "queue_count": 1539,
+      "wait_seconds": 43200,
       "process_seconds": null
     }
   ],
@@ -155,11 +155,18 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-21T02:30:38Z",
-    "monitor_age_minutes": 30,
+    "monitor_age_minutes": 40,
     "monitor_occupied": 5,
     "robot_occupied": 5,
-    "consistent": true,
+    "consistent": false,
     "monitor_may_lag": false,
-    "differences": []
+    "differences": [
+      {
+        "type": "status_differs",
+        "task_id": "e33891d4568a4a90b31ff3c67f5a7100",
+        "monitor": "init",
+        "robot": "running"
+      }
+    ]
   }
 }
