@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T16:21:22.269Z",
+  "last_updated_at": "2026-10-21T16:33:46.339Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -538,7 +538,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-21T16:21:22.269Z",
+      "verified_at": "2026-10-21T16:33:46.339Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -563,8 +563,7 @@
         "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО."
       ],
       "next_actions": [
-        "Inspect/save true37P1 ending, prepare37P2; execute independently ready queued items by current priority/mandatory dependencies until6occupied.",
-        "Keep all worm-output dependencies and57/58 gate; no reruns, no cat-project queue, Unlimited0 only."
+        "Продолжить независимые готовые пункты по priority при свободных общих слотах (сейчас40P1, затем следующий готовый). Ветка червя16P2→42→56→48 ждёт настоящих концов;57/58 остаются после всех8частей червя."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -591,7 +590,7 @@
         "57/58 require all8worm parts submitted.",
         "37P2 awaits true new37P1 continuity QC;44SeedanceP1 needs genuine corrected43 ending."
       ],
-      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate.",
+      "next_action": "Продолжить независимые готовые пункты по priority при свободных общих слотах (сейчас40P1, затем следующий готовый). Ветка червя16P2→42→56→48 ждёт настоящих концов;57/58 остаются после всех8частей червя.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -621,7 +620,16 @@
         "bf3465e1c4de4a869f4bba5f2eed5acf",
         "008058a4705c45c089256116427153d4"
       ],
-      "current_run_id": "chatgpt-chat-20261021T162037592Z"
+      "current_run_id": "chatgpt-chat-20261021T162037592Z",
+      "last_resume_check": {
+        "at": "2026-10-21T16:33:46.339Z",
+        "run_id": "chatgpt-chat-20261021T162037592Z",
+        "submitted": [
+          "S37-SEED20-P2"
+        ],
+        "occupied_slots": 4,
+        "free_slots": 2
+      }
     },
     {
       "work_id": "FILM-20261016-S25-FORWARD-BATTLE",

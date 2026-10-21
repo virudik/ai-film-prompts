@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-21T16:31:34.520Z",
+  "updated_at": "2026-10-21T16:33:15.487Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3797,7 +3797,7 @@
       "canonical_prompt_sha256": "32fc2e20555db48e1725a6a2570ee23eba3de9c7762aeb23c25ddf992c67c88f",
       "normalized_prompt_sha256": "d1dab8b62c24425360fd7fd0df3dea4d2738fa49f4acd38576f5238ff89f18c1",
       "priority": 4.5,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3869,7 +3869,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "af627d97836d4832a1a4ad8cf24fa921",
       "claim": {
         "run_id": "chatgpt-chat-20261021T162037592Z",
         "holder": "chatgpt",
@@ -3884,8 +3884,67 @@
         "S37-SEED20-P1"
       ],
       "blocker": null,
-      "launch_readiness": "ready",
-      "references_prepared_at": "2026-10-21T16:29:51.207Z"
+      "launch_readiness": "submitted_verified",
+      "references_prepared_at": "2026-10-21T16:29:51.207Z",
+      "submitted_at": "2026-10-21T16:32:06Z",
+      "receipt_path": "reports/topview-queue-2026-10-16/S37-SEED20-P2-2026-10-21.json",
+      "actual_settings": {
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "sound": "on",
+        "inputImages": [
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/t5sclVDU6AvXiBQ5De0cz.jpg",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image1"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/4V3mVc82o9mr44c9MK7b7.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image2"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/v3BoPcc8aHvEo3WGkkX0P.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image3"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/aK8fSzBBJY2YISAt8CZYE.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image4"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/6fbDaMdQ7JahPvHmdnWck.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image5"
+          }
+        ],
+        "inputVideos": [
+          {
+            "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/6VePI45b7FdBlM0Yeok8m.mp4",
+            "inputVideoUrl": null,
+            "name": "Video1",
+            "duration": 4
+          }
+        ]
+      },
+      "result_status": "init",
+      "editorial_approval": false
     },
     {
       "id": "S39-SEED20-P1",
