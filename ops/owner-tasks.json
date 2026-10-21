@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "rules": "ops/OWNER-TASKS.md",
-  "updated_at": "2026-10-21T12:54:07Z",
+  "updated_at": "2026-10-21T18:02:32.840Z",
   "tasks": [
     {
       "id": "90d2b889-054a-4125-9371-87e7793b1e39",
@@ -25,9 +25,12 @@
       "to": "any",
       "source": "self-heal",
       "text": "Самопроверка: Статус проекта не обновлялся 42 мин (норма — каждые 10 минут). Робот уже перезапустил проверку канона 2026-10-21T06:07:40Z, не помогло. Найти причину и починить; правила — ops/SELF-HEAL.md.",
-      "status": "taken",
+      "status": "done",
       "taken_by": "chatgpt",
-      "taken_at": "2026-10-21T12:54:07Z"
+      "taken_at": "2026-10-21T12:54:07Z",
+      "result": "Исправлено и проверено: ложный sync-stale устранён commit baab75aede4add1799f828e24aa30fb431c1d589; плановый Self-heal run 39643202942 завершён success 2026-10-21T17:23:19Z, ops/self-heal.json прочитан со status=ok, project-status.health=ok и synced_at=2026-10-21T17:50:47Z.",
+      "result_commit": "baab75aede4add1799f828e24aa30fb431c1d589",
+      "closed_at": "2026-10-21T18:02:32.840Z"
     }
   ]
 }
