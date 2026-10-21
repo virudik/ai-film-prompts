@@ -1,61 +1,104 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-20T10:17:22Z",
+  "checked_at": "2026-10-21T10:27:02Z",
   "window_hours": 24,
   "verdict": "free_slots_idle_no_schedule_launch",
-  "launches": [
-    {
-      "item": "S37-SEED20-P1",
-      "scene_id": 37,
-      "claimed_at": "2026-10-19T14:04:45Z",
-      "run_id": "chatgpt-s37p1-20261019T1404Z",
-      "source": "chat"
-    },
-    {
-      "item": "S16-SEED20-P1",
-      "scene_id": 16,
-      "claimed_at": "2026-10-19T22:51:32Z",
-      "run_id": "chatgpt-worm-2026-10-19T225132931Z",
-      "source": "chat"
-    },
-    {
-      "item": "S39-SEED20-P1",
-      "scene_id": 39,
-      "claimed_at": "2026-10-20T08:03:35Z",
-      "run_id": "chatgpt-automation-20261020T080324908Z-S39-SEED20-P1",
-      "source": "chat"
-    }
-  ],
+  "launches": [],
   "launches_by_schedule": 0,
-  "launches_by_chat": 3,
+  "launches_by_chat": 0,
   "free_slot_observations": [
     {
-      "at": "2026-10-20T07:40:28Z",
+      "at": "2026-10-21T09:40:46Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T08:50:38Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T08:00:41Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T07:00:46Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T06:10:37Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T05:20:37Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T04:20:43Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T03:30:53Z",
+      "occupied": 4,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-21T03:10:48Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T22:50:22Z",
+      "at": "2026-10-21T02:30:44Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T21:40:16Z",
+      "at": "2026-10-21T01:40:42Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T13:50:16Z",
+      "at": "2026-10-21T00:50:40Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T12:51:04Z",
+      "at": "2026-10-21T00:00:36Z",
       "occupied": 5,
       "capacity": 6
     },
     {
-      "at": "2026-10-19T12:00:16Z",
+      "at": "2026-10-20T23:10:37Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-20T22:20:35Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-20T20:00:25Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-20T19:10:25Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-20T18:20:27Z",
+      "occupied": 5,
+      "capacity": 6
+    },
+    {
+      "at": "2026-10-20T17:29:50Z",
       "occupied": 5,
       "capacity": 6
     }
