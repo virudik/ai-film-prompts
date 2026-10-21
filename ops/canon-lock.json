@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "21.10 14:55 МСК: контроль очереди, автоматики и почты",
-  "acquired_at": "2026-10-21T11:59:18.046Z",
-  "expires_at": null,
-  "released_at": "2026-10-21T12:00:10.458Z",
+  "task": "Исправить ложный sync-stale self-heal и проверить канон",
+  "acquired_at": "2026-10-21T12:54:49.116Z",
+  "expires_at": "2026-10-21T13:39:49.116Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
