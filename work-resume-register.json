@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-20T21:01:17.485Z",
+  "last_updated_at": "2026-10-21T07:01:45.411Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-20T18:01:38.400Z",
+      "verified_at": "2026-10-21T07:01:45.411Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -41,48 +41,46 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate.",
+      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use free slots to bypass the explicit ordering gate.",
       "blockers": [
         "S16-SEED20-P2 waits the genuine checked ending of active S16-SEED20-P1 task30cfaf12ad944cd6944416623397e41c; one physical slot is free but owner ordering forbids skipping ahead.",
         "42P1/P2→56P1/P2→48P1/P2 require genuine predecessor outputs; S57/S58 remain blocked until all eight worm parts are submitted, and each P2 requires its own genuine P1 ending.",
         "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-20T18:01:38.400Z",
+        "checked_at": "2026-10-21T07:01:45.411Z",
         "mode": "full_account_scan_maintenance",
-        "boards": 11,
-        "pages": 17,
-        "tasks": 913,
+        "boards": 12,
+        "pages": 26,
+        "tasks": 915,
         "complete": true,
         "status_counts": {
-          "success": 871,
+          "success": 874,
           "fail": 37,
-          "init": 5
+          "init": 4
         },
-        "occupied_slots": 5,
-        "free_slots": 1,
+        "occupied_slots": 4,
+        "free_slots": 2,
         "active_task_ids": [
+          "42f5f94e994a4768a4618c5cda3fa4d1",
           "008058a4705c45c089256116427153d4",
           "30cfaf12ad944cd6944416623397e41c",
-          "e6a5cf9a3d04413e943c9bbbff9e1f73",
-          "e33891d4568a4a90b31ff3c67f5a7100",
-          "1e4928fa04ed4a0396d1d2ea4f5934bb"
+          "e6a5cf9a3d04413e943c9bbbff9e1f73"
         ],
-        "newly_terminal_success_task_ids": [
-          "70ba69f8c44e4898ab587fbffeaeca01"
-        ],
-        "claimed_items": 0,
-        "submission_unknown_items": 0,
-        "new_submissions": 0,
+        "newly_terminal_success_task_ids": [],
+        "claimed_items": [],
+        "submission_unknown_items": [],
+        "new_submissions": [],
         "credits_spent": 0,
-        "next": "Do not bypass the explicit worm→57/58 order. Wait for S16-P1, save/QC genuine ending, then preflight S16-P2 against fresh main/lock/full scan."
+        "next": "Wait for actual S16-P1 success and genuine ending QC; then S16-P2."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-20T18:01:38.400Z",
+        "last_successful_check_at": "2026-10-21T07:01:45.411Z",
         "self_heal": {
-          "status": "ok",
-          "changed_at": "2026-10-19T09:50:00Z",
-          "action": "none"
+          "status": "fixing",
+          "changed_at": "2026-10-21T06:07:40Z",
+          "heal_key": "sync-stale",
+          "action": "none; robot repair already active; project status recovered"
         },
         "owner_tasks": {
           "open_for_chatgpt_any_claude": 0,
@@ -91,7 +89,7 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-20T17:29:49Z",
+          "synced_at": "2026-10-21T07:00:45Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
@@ -101,11 +99,11 @@
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-19 through 2026-10-20T18:01:38.400Z (24h overlap from prior successful check)",
+          "window": "2026-10-19 through 2026-10-21T07:01:45.411Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "searched_message_count": 15,
-          "new_message_count": 1,
-          "deduplicated_known_message_count": 14,
+          "searched_message_count": 16,
+          "new_message_count": 0,
+          "deduplicated_known_message_count": 16,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -218,15 +216,17 @@
             "canon_health_20261020_publish_race": "Run39462198805 computed status=ok/warnings=0 but failed publishing canon-health.json after a concurrent push left git rebase conflicts across retries. Workflow fixed in commit8d1a879 to reset from fresh origin/main and recompute on every attempt; replacement run39470879540 succeeded."
           },
           "actions_verification": {
-            "checked_at": "2026-10-20T18:01:38.400Z",
-            "runs_examined_current_check": 2,
+            "checked_at": "2026-10-21T07:01:45.411Z",
+            "runs_examined_current_check": 100,
             "current_failure": false,
-            "failed_run_id": 39462198805,
-            "failed_run_conclusion": "failure",
-            "fix_commit": "8d1a8790108fd647b07e5ff47c460d138316e046",
-            "replacement_run_id": 39470879540,
-            "replacement_run_conclusion": "success",
-            "workflow_page_verified": true
+            "canonical_run_id": 39558107006,
+            "canonical_run_conclusion": "success",
+            "topview_robot_run_id": 39558961512,
+            "topview_robot_conclusion": "success",
+            "archive_run_id": 39558425426,
+            "archive_conclusion": "success",
+            "pages_latest_run_id": 39559061058,
+            "pages_latest_status": "pending"
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap"
