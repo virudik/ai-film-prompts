@@ -1,3 +1,11 @@
+## Контроль очереди и автоматики · 2026-10-21T07:01:45.411Z
+
+Topview: полный read-only скан 12 досок / 26 страниц / 915 задач; success 874, fail 37, init 4. Активны S44 Wan `42f5f94e994a4768a4618c5cda3fa4d1`, S39-P1 `008058a4705c45c089256116427153d4`, S16-P1 `30cfaf12ad944cd6944416623397e41c`, S37-P1 `e6a5cf9a3d04413e943c9bbbff9e1f73`; все Unlimited/0. S16-P1 всё ещё `init`; claimed/submission_unknown нет. Два физических видеослота свободны, но Create не нажимался: обязательная цепочка 16→42→56→48→57→58 ждёт настоящий проверенный конец S16-P1.
+
+Maintenance: `self-heal=fixing` по ключу `sync-stale`; робот уже запустил ремонт, поэтому повторных действий не делалось. Фактическое состояние восстановилось: canonical workflow [39558107006](https://github.com/virudik/ai-film-prompts/actions/runs/39558107006) и Topview robot [39558961512](https://github.com/virudik/ai-film-prompts/actions/runs/39558961512) завершились success, `project-status.health=ok`, `synced_at=2026-10-21T07:00:45Z`. Открытых owner-tasks для chatgpt/any/claude и открытых Supabase owner_decisions нет. `canon-health=ok`, warn/error 0, только три info о размере инструкций.
+
+Gmail/GitHub: поиск с 24-часовым перекрытием нашёл 16 релевантных failure/error/cancelled уведомлений, все message ID уже учтены; новых писем нет, состояние почты не менялось. Проверены 100 свежих Actions runs: актуальных failure нет; последние workflow канона, Topview robot и архива — success, новый Pages run выполнялся штатно. Ремонт и ручной rerun не запускались.
+
 ## Контроль очереди, почты и исправление Canon health · 2026-10-20T18:01:38.400Z
 
 Topview: полный read-only скан 11 досок / 17 страниц / 913 задач; success 871, fail 37, init 5. S43-R1 task `70ba69f8c44e4898ab587fbffeaeca01` перешёл в success (Unlimited/0); это факт генерации, не редакционная приёмка, а настоящий результат ещё нужно скачать и проверить перед S44. Активны S39-P1 `008058a4705c45c089256116427153d4`, S16-P1 `30cfaf12ad944cd6944416623397e41c`, S37-P1 `e6a5cf9a3d04413e943c9bbbff9e1f73`, S36 `e33891d4568a4a90b31ff3c67f5a7100`, S54 `1e4928fa04ed4a0396d1d2ea4f5934bb`; все Unlimited/0. Claimed/submission_unknown нет. Свободен один физический слот, но Create не нажимался: свежая selection_policy запрещает обходить порядок 16→42→56→48→57→58, а S16-P2 ждёт настоящий проверенный конец S16-P1. Новых задач и расходов нет.
