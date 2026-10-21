@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T12:59:44.792Z",
+  "last_updated_at": "2026-10-21T13:28:35.597Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-21T11:59:18.046Z",
+      "verified_at": "2026-10-21T13:28:35.597Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -75,7 +75,7 @@
         "next": "Wait for actual S16-P1 success and genuine ending QC; then S16-P2."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-21T12:59:44.792Z",
+        "last_successful_check_at": "2026-10-21T13:28:35.597Z",
         "self_heal": {
           "status": "repair_sent_verification_pending",
           "changed_at": "2026-10-21T12:03:17Z",
@@ -85,28 +85,43 @@
           "repair_commits": [
             "baab75aede4add1799f828e24aa30fb431c1d589",
             "b2f17939f8c18d822cdd960849feaa4a65ce1d18",
-            "e8db9ed67c25a651eb13ec9cdff6a8f794874d9a"
+            "e8db9ed67c25a651eb13ec9cdff6a8f794874d9a",
+            "c6173a6b7bfc9bd4f319605117bd85a31bbdd4f1",
+            "121a88c4a3a83828749afbf984268b42a2a231a2"
           ],
-          "tests": "tests.test_self_heal 9/9 passed",
-          "action": "wait for next scheduled self-heal readback before closing owner task"
+          "tests": "tests.test_self_heal + tests.test_canon_health: 15/15 passed",
+          "latest_observed_workflow_run": {
+            "run_id": 39596488277,
+            "conclusion": "success",
+            "started_at_display": "2026-10-21 12:02 UTC",
+            "note": "predates repair; not accepted as recovery proof"
+          },
+          "action": "wait for an actual post-fix self-heal run and read back status=ok before closing owner task"
         },
         "owner_tasks": {
           "open_for_chatgpt_any_claude": 0,
           "taken_by_chatgpt": 1,
           "supabase_open_owner_decisions": 0,
-          "action": "self-heal task taken; closure waits verified recovery"
+          "action": "self-heal task remains taken; closure waits actual post-fix self-heal=ok"
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-21T12:10:42Z",
+          "synced_at": "2026-10-21T13:10:37Z",
           "fresh_within_corrected_210_minutes": true
         },
         "canon_health": {
-          "status": "warn",
-          "checked_at": "2026-10-21T12:00:31Z",
-          "warn_or_error_count": 1,
+          "status": "ok",
+          "checked_at": "2026-10-21T13:12:39Z",
+          "warn_or_error_count": 0,
           "info_count": 3,
-          "warning": "handoff-now-stale; cleaning procedure started"
+          "cleanup": "completed; current heading refreshed, accumulated changes archived, parser fixed to read current heading date",
+          "commits": [
+            "66baa8c1a01b70dc955ac25e5d47e4271d263ed4",
+            "134de2e43aeabb144f25b7b22ec08f6fe9e012b8",
+            "c6173a6b7bfc9bd4f319605117bd85a31bbdd4f1",
+            "121a88c4a3a83828749afbf984268b42a2a231a2"
+          ],
+          "takeover_brief_valid": true
         },
         "github_mail_audit": {
           "window": "2026-10-20T07:01:45.411Z through 2026-10-21T11:59:18.046Z (24h overlap from prior successful check)",
