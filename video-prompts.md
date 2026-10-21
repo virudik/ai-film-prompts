@@ -6,17 +6,17 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**23 сцены к генерации/доработке · 95 полных текстов промта**
+**21 сцена к генерации/доработке · 89 полных текстов промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
-- **⏳ 7** сцен сейчас в медленной генерации: **16, 36, 37, 39, 43, 44, 54** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
+- **⏳ 5** сцен сейчас в медленной генерации: **16, 36, 37, 39, 44** — **5 активных Topview-задач / 5 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
 - **Последняя оформленная активная сцена:** 58 — коты выбегают из подбитого горящего корабля РосКОТмоса (20.10.2026, DRAFT до картинок-референсов от ChatGPT, Seedance 2.0, без речи). Предыдущая: 57 — аварийная посадка РосКОТмоса на планете ситхов: корабль сбивает колонны и статуи (20.10.2026, DRAFT, то же). Место: 46 → 57 → 58 → 40 → 26. Предыдущая: 56 — Татуин: бой в движении между 42 и 48 (18.10.2026, DRAFT до результата 42, 30s Wan 3.0, без речи). Предыдущая: 55 — «А молоко?»: Юля заходит в комнату, где Серёга играет в Warcraft, финальная шутка W13 (17.10.2026, READY, 30s Wan 3.0, в очереди сразу после картинки вуки). Предыдущая: 54 — доставка ПК в комнату перед существующим Warcraft-финалом; 53 — взлёт с Татуина; 52 — пересадка на личный корабль, разрушитель→Татуин (17.10.2026, READY по входам, разрешены бесплатные запуски). Предыдущая: 51 — пафосный рок-финал с разбиванием инструментов, подсцены 51A и 51B, DRAFT до QC фото (16.10.2026). Предыдущая: 50 — толпа вуки-фанатов группы устраивает хедбэнг и дружелюбный слэм в том же H28B-ангаре; 49 — космическая рок-группа с точными героями Scene 28 и чужеродными инструментами (обе DRAFT до QC новых инструментов и постановочных кадров, 16.10.2026). Предыдущая: 48 — после боя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, развязка Scene 42; Scene 16 принята владельцем, 42 — продолжение боя, в котором червь никому не интересен). Предыдущие: 47 — «красная точка»: Серёга уходит от котов хитростью, развязка дуэли 27–32 (DRAFT, 16.10.2026, решение владельца). Предыдущие: 46 — спутники РосКОТмоса сбиты в сражении (DRAFT, 16.10.2026, команда владельца); 45 — корабль котов в стиле РосКОТмоса снаружи в космическом сражении (DRAFT, ждёт референса корабля снаружи); 43–44 — у шаттла Канцлера в ангаре крейсера заело крыло, ремонтники чинят, и оно отваливается (DRAFT, русская речь, Wan 3.0). Предыдущие: 42 — после червя Канцлер забирает татуинский фрагмент (DRAFT, 16.10.2026, продолжение Scene 16); 41 — Серёга увозит древний ПК на борт (DRAFT). Предыдущие: 40 — Серёга прилетает на планету ситхов и садится у руин (DRAFT, 16.10.2026); вместе с 39 (прибытие на Набу) закрывает недостающие перелёты Серёги между планетами. Предыдущие: 38 — Серёга внимательно изучает древний ПК после его обнаружения в Scene 35. Scenes 35–38 — новые полные промты-продолжения без автоматических генераций; 35 продолжает Scene 34 (древний ПК), 36–37 — последствия уже вставленной в фильм Scene 17. Scene 28 — финальный имперский танец: 10×15 с Seedance 2.0 и 10×30 с Wan 3.0, 20 самостоятельных промтов. Референсы ангара H28A/H28B и сохранённые постановочные кадры P28/L28/F28 созданы; R28A/R28B сохранены как вспомогательные композиционные кадры, S28 проверен и сохранён; G28 v2 с Алесей и точным составом 9+1+2 проверен и сохранён; сцена готова к поэтапному запуску (`READY`), C28 будет выбран из результата части 2. Правки кошачьей ветки 23–27 сохранены. Scene 20 получила защиту закрытого голубого дизайна Маши для будущих запусков.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **21.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
 **Статусы V3.5 для обсуждения правок:** `NEEDS_FIX` означает, что сцену/промт нужно отдельно обсудить и решить, требуется ли изменение; это не разрешение автоматически переписывать промт или запускать новый рендер. `NEEDS_RERENDER` означает, что предыдущий результат уже признан кандидатом на повторную генерацию, но для slow-сцен повторный запуск всё равно запрещён до результата/ошибки или отдельного решения пользователя.
 
-**Синхронизация контекста:** **21.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **23 актуальные сцены и 95 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 45, 46 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 36, 37, 39, 43, 44, 54**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
+**Синхронизация контекста:** **21.10.2026**. Точное техническое время зеркала хранится в `project-status.json` и здесь не дублируется. Фактическая карта — `film-analysis.md`, статусы и зависимости — `film-backlog.md`. Новые решения пользователя имеют приоритет над старым Notion. В active master остаются **21 актуальная сцена и 89 полных текстов промта**. Сцены **1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 34, 35, 38, 43, 45, 46, 54 и 55** удалены из active master; их Scene ID зарезервированы и не переиспользуются. Scenes 10, 11, 17, 19, 22, 23, 29 помечены владельцем «🎞 В фильме» 10.10.2026; подтверждение хранится в review-ledger.json, а не означает новую генерацию. По явному решению пользователя Scene 3 и 4 признаны неудачными и больше не дорабатываются, а Scene 5 принята как выбранный монтажный вариант и пойдёт в фильм, поэтому её prompt также больше не нужен в active master. Canonical slow-list сейчас: **16, 36, 37, 39, 44**. Полная live Topview сверка 10.10.2026 (ручная сверка Claude, пока «AI Film — единый монитор» не публикует): 11 boards, 554 video tasks, **1/6 active task slots**, свободно 5. Активна одна Wan 3.0 задача со статусом `init`: Scene 16 — `36e8320e34da4f1b97c35e1e765e3e63`. Scene 20 — `2c28a4161c8f459d8bf0c0460ac21ec5` технически завершена 10.10.2026 17:08:14 UTC (`success`). Технически завершены со статусом `success`: Scene 30 — `e369529cc93d465ba14127e4712f7bbd` (09.10.2026 13:57:32 UTC); Scene 31 — `32a4df3b18714cde9c55f0281cc2dd41` (09.10.2026 21:25:14 UTC); Scene 32 — `9746bfed635c451e97095c35b4e3b2bf` (10.10.2026 07:21:04 UTC); ранее Scene 33 — `e95f1bab9ab24f528b55fa58495d7adb` и Scene 34 — `3fb3d9ee26474b62982ae8ef062afc32`. Результаты требуют отдельной редакционной проверки и не считаются одобренными. Это попытки уже существующих сцен; production/approval state не менялся. Scene 28 здесь не запускалась. Никакие старые промты Notion сюда автоматически не добавлены. Непрерывный аудиовизуальный контроль не выполнялся.
 
 **Новые промты 09.10.2026:** Scene 20 расширена вставками 12–13, добавлены Scenes 29–34 с полными production-промтами и имеющимися референсами: кантина (часть 3), три разрушительных боя, исследование руин и вход в храм. Это новые тексты для запуска, а не уже выполненные/одобренные Topview-результаты. Танцы Scene 28 и их неподтверждённые вспомогательные фото не менялись.
 
@@ -37,8 +37,6 @@
 | 28 · B9 · Танец 9 — Парадная переноска на плече | ✅ Решение владельца: на переделку · ✅ Технический результат получен · `success` · Wan 3.0 | task `0d1f17c226834bfbb851d76ed32f9877`; решение владельца применено в панели сайта |
 | 28 · B3 · Танец 3 — Невозмутимый разъезд | ✅ Решение владельца: на переделку · ✅ Технический результат получен · `success` · Wan 3.0 | task `56c0ea656f484b0cb8464233fe097e0d`; решение владельца применено в панели сайта |
 | 41 — Серёга увозит древний ПК с планеты ситхов | ✅ Решение владельца: принято · ✅ Технический результат получен · `success` · Wan 3.0 | task `bf3465e1c4de4a869f4bba5f2eed5acf`; решение владельца применено в панели сайта |
-| 43 — Ангар крейсера: у шаттла Канцлера заело крыло | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Wan 3.0 | task `70ba69f8c44e4898ab587fbffeaeca01`; ждёт решения владельца в панели сайта |
-| 54 — Доставка древнего компьютера в комнату: стык к Warcraft | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · ✅ Технический результат получен · `success` · Wan 3.0 | task `1e4928fa04ed4a0396d1d2ea4f5934bb`; ждёт решения владельца в панели сайта |
 | 36 — После пещеры: Серёга уходит с фрагментом карты | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Wan 3.0 | task `e33891d4568a4a90b31ff3c67f5a7100`; ждать terminal и проверить результат отдельно |
 | 37 · Seedance 2.0 часть 1 — Отлёт Серёги с Набу к лесной планете | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `e6a5cf9a3d04413e943c9bbbff9e1f73`; ждать terminal и проверить результат отдельно |
 | 16 · Seedance 2.0 часть 1 — Татуин: гигантский пустынный червь и бой на руинах | ⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ · `init` · Seedance 2.0 | task `30cfaf12ad944cd6944416623397e41c`; ждать terminal и проверить результат отдельно |
@@ -59,7 +57,6 @@
 | 40 | [Серёга прилетает на планету ситхов: посадка у руин](#scene-40) | Серёга; корабль Канцлера; модуль карты; стикер «хлеб и молоко»; руины ситхов | Модуль светится к цели, посадка у руин, зажигание меча за кадром — стык с котами Scene 26. После лесного блока (D1). READY 16.10: все входы в репозитории. |
 | 41 | [Серёга увозит древний ПК с планеты ситхов](#scene-41) | Серёга; древний ПК; корабль Канцлера; руины ситхов; крейсер | Сила несёт блок и монитор из храма в кабину, взлёт, полёт к крейсеру — стык с финальным компьютером у окна в космос (01:02:45). READY: настоящий кадр крейсера сохранён. Решение владельца: принято; ожидание завершено. |
 | 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. READY: настоящий последний кадр 16 подключён. |
-| 43 | [Ангар крейсера: у шаттла Канцлера заело крыло](#scene-43) | Серёга; имперский ангар H28A с шаттлом | Шаттл не может взлететь: левое крыло застряло на полпути. «Владыка… крыло заело». — «Я заметил». Серёга выходит по рампе. READY, русская речь, Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. READY: настоящий последний кадр 32 подключён. |
 | 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). DRAFT до результата 56. |
@@ -68,7 +65,6 @@
 | 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, выбранные вуки-фанаты 50 (вариант 2) | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
 | 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на окраине татуинского города, откуда он идёт к кантине. DRAFT до настоящего конца44, город — по описанию, 30s Wan 3.0. |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0. |
-| 54 | [Доставка древнего компьютера в комнату: стык к Warcraft](#scene-54) | @Image1 = Серёга, @Image2 = древний ПК, настоящий финал 35, @Image3 = комната, настоящий кадр старого финала, @Image4 = стол и посадка, настоящий боковой кадр | Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
 | 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (готово); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. READY: картинки готовы; часть2 после реального результата части1. |
 | 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (готово); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. READY: картинки готовы; часть2 после реального результата части1. |
@@ -4057,266 +4053,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ---
 
-<a id="scene-43"></a>
-
-## Сцена 43 — Ангар крейсера: у шаттла Канцлера заело крыло
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"READY","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","imperial_cruiser","hangar","shuttle","comedy","dialogue","speaker_ownership"]} -->
-
-Wan 3.0 task `70ba69f8c44e4898ab587fbffeaeca01` технически завершён 20.10.2026 17:20:19 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
-
-**Контекст использования:**
-
-- **Редакция 17.10.2026 после разбора владельцем:** одна исправленная бесплатная попытка, следующая после41 по команде22:53. Старый результат1b8f85b65ff24b13bcdbbeea3af3c096 сбрасывает повреждение в финале. Исправлена география крыльев, убрана конфликтующая видимость крыла сквозь окно; наземный тест ограничен безопасным углом, финал остаётся асимметричным. Уточнение владельца22:55: в старом результате Канцлер проходит сквозь корпус. Новый выход — через видимый открытый проём по полностью остановившейся рампе, без пересечения обшивки; выделены отдельные последовательные фазы открытия и спуска. Реплики и шутка сохранены. Реальный конец НОВОЙ43 нужен для44; старый конец не годится.
-
-- **Команда владельца 16.10.2026:** имперский треугольный шаттл с раскладными крыльями стоит в ангаре звёздного разрушителя; перед взлётом крылья должны перейти в полётное положение, но одно заело, и Канцлер Серёга не может улететь; обыграть комедийно. Продолжение (ремонтники, крыло отваливается) — Scene 44. Две сцены вместо одной: заевшее крыло и ремонт с отваливанием не помещаются в одни 30 с.
-- **Место в фильме (подтверждено владельцем 16.10.2026, как и разбивка на две сцены 43/44):** на крейсере Канцлера перед его отлётом к Татуину. Шутка заодно объясняет, почему дальше Канцлер летает на своём плоском корабле из ч. 1 09:20–09:55 (Scenes 37, 39–41), а не на парадном шаттле.
-- **Ангар** — тот же имперский ангар крейсера, что в Scene 28 (H28A), в рабочем белом свете, без танцевальной подсветки. Шаттл уже виден в H28A справа с поднятыми крыльями; общий крупный референс шаттла с поднятыми крыльями создан, сохранён и прошёл QC; используется в 43 и 44. Это AI-референс дизайна, не кадр результата.
-- **Пилот** — безымянный имперский пилот в шлеме; глобального листа нет, лицо не показывается.
-- **Комедия** — серьёзная игра, юмор из ситуации: крыло жалко подёргивается, Серёга не меняется в лице.
-- Русская речь → Wan 3.0. В монтаж ~20–25 с. READY после QC; актуальный приоритет: после41, только бесплатный безлимит.
-
-**Референсы:**
-
-- @Image3 — <a href="references/scenes/scene-43/S43-shuttle-raised-wings.png">общий шаттл 43/44 с поднятыми крыльями</a> (геометрия корпуса и шарниров; начало 44 — только по результату 43).
-
-- @Image1 — <a href="references/full/serega.jpg">Серёга</a>;
-- @Image2 — <a href="references/scenes/scene-28/H28A-ceremony.png">имперский ангар крейсера H28A</a> (геометрия ангара и силуэт шаттла справа; без танцевального света).
-
-<div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image2 — ангар H28A"></a><figcaption>@Image2 — ангар H28A</figcaption></figure><figure><a href="references/scenes/scene-43/S43-shuttle-raised-wings.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-shuttle-raised-wings.png.webp" alt="@Image3 — шаттл 43/44"></a><figcaption>@Image3 — общий шаттл 43/44, AI-референс дизайна</figcaption></figure><figure><a href="references/scenes/scene-43/S43-wing-hinge-closeup.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-43/S43-wing-hinge-closeup.png.webp" alt="@Image4 — шарнир поднятого крыла, деталь механики" loading="lazy"></a><figcaption>@Image4 — шарнир поднятого крыла, деталь механики</figcaption></figure></div>
-
-**Что происходит:** В ангаре крейсера шаттл Канцлера готовится к вылету: рампа закрыта, двигатели раскручиваются. При ограниченном наземном тесте правое крыло плавно отклоняется наружу, левое дёргается, скрежещет и застревает под45° над горизонталью; полного раскрытия до пола нет. Пилот щёлкает тумблером снова и снова — крыло жалко подёргивается на пару сантиметров. «Владыка… крыло заело». — «Я заметил». Двигатели глохнут, рабочее крыло обиженно поднимается обратно, рампа полностью опускается и останавливается; только затем Серёга появляется в открытом проёме, переступает порог и молча спускается по рампе на пол ангара и смотрит вверх на кривое крыло.
-
-**Дополнительный вход:** @Image4 = <a href="references/scenes/scene-43/S43-wing-hinge-closeup.png">шарнир поднятого крыла, деталь механики</a>.
-
-<div class="engine-tabs" data-scene="43">
-
-<div class="engine-pane" data-engine="wan30" data-main="1">
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera deadpan comedy | The Chancellor's Imperial shuttle cannot take off because one wing jams halfway
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
-@Image2 — the exact Imperial space-cruiser hangar: tall graphite wall ribs with white vertical light strips, dark satin metal floor with a flush Imperial starburst medallion and two amber guide lines, a huge rear opening onto stars and a blue planet. The white triangular shuttle with raised wings on the right of @Image2 is the shuttle of this scene. Location geometry and shuttle silhouette only; no people from this image.
-@Image3 — the shared close exterior design reference of the same shuttle with BOTH side wings raised: hull, three distinct fins, hinges, cockpit and landing supports. Vehicle geometry only.
-@Image4 — WING ROOT MECHANICAL DETAIL ONLY: compact pivot and actuator of the SAME upright parked shuttle from @Image3. @Image3 controls overall vehicle design, @Image2 location. This close-up does not set screen-left/right geography or the jammed end state and never replaces the real last frame of result43.
-Priority: @Image1 controls Serega; @Image2 controls the hangar; @Image3 controls the shuttle design. The timeline controls moving wing positions.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves. No lightsaber in his hands.
-IMPERIAL PILOT: one anonymous Imperial shuttle pilot in a black flight suit and a closed black helmet with a dark visor; his face is never shown.
-Exactly two people: Serega and the pilot. Ground crew may stand far in the background as small, still silhouettes.
-
-SHUTTLE / WING LOCK — CRITICAL:
-One classic white triangular Imperial Lambda-type shuttle: a tall fixed central dorsal fin, two long side wings hinged at the top of the hull, a forward cockpit with a framed window and a lowering front boarding ramp, three landing legs. Parked, both side wings are raised almost vertical beside the central fin, as in @Image2. For flight the side wings unfold DOWN and outward. Here the shuttle performs a LIMITED ground preflight test, aborted before full flight deployment: neither wingtip may touch or pass through the hangar floor. The working RIGHT wing smoothly pivots outward to 45 degrees above horizontal and can return upright. The LEFT wing follows to the same 45-degree angle, jerks and jams there; it cannot return upright. LEFT and RIGHT are defined from the pilot's forward-facing seat, not by arbitrary screen position. The tall CENTRAL dorsal fin is fixed and never rotates. The shuttle stays on its landing legs the whole time and never lifts off. Same single shuttle, same white colour and shape, in every shot.
-
-BOARDING PATH LOCK — CRITICAL:
-One existing front boarding doorway opens onto one ramp with an unbroken walking surface from the threshold to the hangar floor. The solid hull, cockpit window and doorframe remain rigid obstacles. Serega stays inside until the ramp is fully lowered and stationary; he exits only through the clear doorway, with his body fitting inside its opening and his robe clear of the frame. His shoes stay on top of the ramp, with visible alternating foot contact and weight transfer. No part of him intersects the hull, closed panels, ramp or floor.
-
-START STATE:
-The shuttle stands on the hangar floor with both wings raised, front ramp closed, engines starting to whine. Serega is already inside, seated in the passenger seat right behind the pilot.
-
-TIMELINE:
-[0:00–0:05] — READY FOR DEPARTURE
-Exterior wide in the hangar from @Image2, the shuttle on the right third of frame facing the open hangar mouth with stars and the blue planet beyond. The engine glow at the rear brightens; a rising turbine whine. A tiny background crew figure steps back to a safe distance.
-
-[0:05–0:10] — ONE WING GOES, ONE DOESN'T
-Closer exterior three-quarter view of the shuttle. Keep both side-wing roots and the fixed central fin visible in one front three-quarter view. With a smooth hydraulic hum the working right wing pivots outward to 45 degrees ABOVE horizontal, still clear of the floor. The left wing starts the same ground test, jerks, gives a loud metallic grind and jams at that outward 45-degree angle. The whole hull rocks slightly on its landing legs.
-
-[0:10–0:15] — TRY AGAIN
-Inside the cockpit, medium shot from the front-side: the pilot in his black helmet flips the same wing toggle three times in a row. The failed actuator gives a pathetic stuttering servo whine with each flip. The wing is outside this cockpit framing; do not invent a new wing position through the window. Serega sits upright with his hands folded on his lap and slowly turns his head toward the sound at the side window.
-
-[0:15–0:21] — THE REPORT
-The pilot stops, does not turn around, and says carefully: «Владыка… крыло заело.» A two-second pause. Serega, without moving anything except his eyes back to the pilot's helmet, answers flatly: «Я заметил.»
-
-[0:21–0:24] — OPEN FIRST
-Return to the same front three-quarter exterior axis, with a clear view of the doorway, the entire ramp and both wing roots. Engines wind down. ONLY the working right wing lifts upright; the left wing stays jammed at 45 degrees above horizontal. The front ramp lowers, its bottom edge meets the floor, and it stops. The doorway is visibly open; Serega remains inside while the ramp moves.
-
-[0:24–0:30] — EXIT THROUGH THE DOORWAY
-Keep this exterior shot uncut. Serega appears within the open doorway, crosses its threshold and walks alone down the centre of the stationary ramp at a normal pace. Show his whole body and his feet contacting its upper surface. He steps off the bottom edge onto the hangar floor, stops clear of the ramp and looks up. Hold the last second: left wing jammed at45 degrees, right wing upright. The pilot remains inside.
-
-END STATE:
-Serega standing on the hangar floor at the foot of the lowered front ramp, looking up at the left wing jammed at 45 degrees; the right wing raised; engines off; hangar mouth with stars behind.
-
-CAMERA / SPACE:
-Three fixed camera setups, reused in this order: establishing exterior wide; front three-quarter exterior showing both hinges and central fin; cockpit; return to the SAME front three-quarter exterior. Never cross the shuttle axis or exchange the two side wings. For the final exterior shot, keep the open doorway, full ramp and Serega's feet unobstructed, with both wing roots and the asymmetric wing positions readable; do not hide the exit behind the nose or a wing. Stable tripod or slow dolly; no handheld jitter, no whip pans, no zoom jumps. Real hangar scale: the shuttle is far larger than a person and far smaller than the hangar.
-
-PERFORMANCE:
-Played completely straight. The pilot is tense and embarrassed but professional; small, quick toggle movements, no slapstick. Serega is icy and still; the joke is that his face does not change. No smiles, no eye-rolls to camera.
-
-LIGHTING / MATERIALS:
-Working state of the @Image2 hangar: cool white wall strips and amber floor guide lines only, no cyan or magenta strips, no disco beams. Clean white painted metal of the shuttle with panel lines and light wear, hydraulic sheen at the wing hinge, a small puff of vapour from the hinge when the wing jams. Realistic skin texture and velvet response on Serega.
-
-AUDIO:
-Turbine whine rising, smooth hydraulic hum of the right wing, a loud metallic grind and clunk when the left wing jams, repeated stuttering servo whine, toggle clicks, cockpit beeps, then the engines winding down and the ramp's gas hiss and footsteps on metal. Big hangar reverb.
-
-DIALOGUE / VOCALS:
-Language: Russian, natural pronunciation without accent, accurate lip sync where a mouth is visible.
-PILOT (voice from inside his closed helmet, slightly muffled, cautious): «Владыка… крыло заело.»
-SEREGA (low, calm, completely flat): «Я заметил.»
-Only these two lines. Serega's mouth moves only on his line; the pilot's helmet stays still. No narrator, no music, no subtitles.
-
-NEGATIVE PROMPT:
-walking through the hull or cockpit window, body clipping through panels, feet sinking through the ramp, exiting a closed door, walking on a moving ramp, teleporting outside, shuttle taking off, hovering or leaving the hangar, both wings working, both wings jammed, jammed wing returning upright, restored symmetrical final pose, rotating central fin, wings passing through the floor, wings falling off in this scene, explosions, fire, second shuttle, different ship design, X-wing or TIE fighter replacing the shuttle, disco lights, dancers, crowd, extra officers in the foreground, pilot's face visible, Serega smiling or shouting, lightsaber, slapstick mugging, changed face or robe, wrong speaker, extra dialogue, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-<div class="engine-pane" data-engine="sd20x2">
-
-Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
-
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-28/H28A-ceremony.png`; @Image3 — `references/scenes/scene-43/S43-shuttle-raised-wings.png`; @Image4 — `references/scenes/scene-43/S43-wing-hinge-closeup.png`.
-
-*Часть 1 без речи: тест крыльев, левое заедает, тумблер лишь дёргает его; финал на внешнем плане, чтобы часть 2 унаследовала положение крыльев.*
-
-**Входы части 2:** @Video1 — последние секунды результата части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-28/H28A-ceremony.png`; @Image3 — `references/scenes/scene-43/S43-shuttle-raised-wings.png`.
-
-*Часть 2: обе реплики целиком («Владыка… крыло заело.» — «Я заметил.»), правое крыло поднимается, рампа, выход Серёги.*
-
-#### 43 · Seedance 2.0 часть 1
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera deadpan comedy | Part 1 of 2: the Chancellor's shuttle runs its wing test, one wing jams, and the pilot's toggle only makes it twitch
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
-@Image2 — the exact Imperial cruiser hangar: graphite wall ribs with white light strips, dark metal floor with a starburst medallion and two amber guide lines, a huge opening onto stars and a blue planet. The white shuttle on its right is this scene's shuttle. Location and silhouette only; no people from it.
-@Image3 — close exterior design of the same shuttle with BOTH side wings raised: hull, three fins, hinges, cockpit, landing supports. Vehicle geometry only.
-@Image4 — WING ROOT MECHANICAL DETAIL ONLY: compact pivot and actuator of the SAME shuttle. It does not set screen-left/right geography or the jammed state.
-Priority: @Image1 controls Serega; @Image2 the hangar; @Image3 the shuttle design. The timeline controls moving wing positions.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves. No lightsaber.
-IMPERIAL PILOT: one anonymous pilot in a black flight suit and a closed black helmet with a dark visor; his face is never shown.
-Exactly two people, both inside the closed shuttle the whole part. Ground crew only as small, still background silhouettes.
-
-SHUTTLE / WING LOCK — CRITICAL:
-One classic white triangular Imperial Lambda-type shuttle: a tall fixed central dorsal fin, two long side wings hinged at the top of the hull, a forward cockpit with a framed window and a lowering front boarding ramp, three landing legs. Parked, both side wings are raised almost vertical beside the central fin, as in @Image2. For flight the side wings unfold DOWN and outward. Here the shuttle performs a LIMITED ground preflight test, aborted before full flight deployment: neither wingtip may touch or pass through the hangar floor. The working RIGHT wing smoothly pivots outward to 45 degrees above horizontal and can return upright. The LEFT wing follows to the same 45-degree angle, jerks and jams there; it cannot return upright. LEFT and RIGHT are defined from the pilot's forward-facing seat, not by arbitrary screen position. The tall CENTRAL dorsal fin is fixed and never rotates. The shuttle stays on its landing legs the whole time and never lifts off. Same single shuttle, same white colour and shape, in every shot.
-
-START STATE:
-The shuttle on the hangar floor, both wings raised, front ramp closed, engines starting to whine. Serega inside, seated right behind the pilot.
-
-TIMELINE:
-[0:00–0:04] — READY FOR DEPARTURE
-Exterior wide in the @Image2 hangar, the shuttle on the right third facing the open hangar mouth and stars. The camera glides low over the amber guide lines toward it; the rear engine glow flares. A tiny background crew figure steps back.
-
-[0:04–0:09] — ONE WING GOES, ONE DOESN'T
-Low front three-quarter exterior, both wing roots and the central fin in view. With a smooth hydraulic hum the right wing pivots outward to 45 degrees ABOVE horizontal, clear of the floor. The left wing follows, jerks, gives a loud metallic grind and jams at that angle. Quick hinge insert (@Image4 design): a puff of vapour, a shudder.
-
-[0:09–0:15] — TRY AGAIN
-Comic rhythm of quick cuts. Cockpit, medium from the front-side: the helmeted pilot flips the wing toggle; behind him Serega sits upright, hands folded, and slowly turns his head toward the sound. No wing visible through the glass. Cut to the same front three-quarter exterior: the jammed left wing twitches a couple of centimetres with a pathetic servo stutter. Cut: the toggle again. Cut: the same feeble twitch. Hold on that exterior.
-
-END STATE:
-Front three-quarter exterior: the right wing out at 45 degrees, the left wing jammed at 45 degrees and shuddering after its last twitch, central fin upright, ramp closed, engines still running; Serega and the pilot inside.
-
-CAMERA / SPACE:
-Cut on action between a low gliding wide, the front three-quarter exterior (plus one hinge insert) and the cockpit; the toggle intercut uses only the cockpit and that exterior axis. Never cross the shuttle axis or exchange the side wings. Smooth dolly and glide; no handheld jitter, whip pans or zoom jumps. Shuttle far larger than a person, far smaller than the hangar.
-
-PERFORMANCE:
-Played completely straight. The pilot is tense, embarrassed, professional; small quick toggle flips. Serega is icy and still. No smiles, no eye-rolls to camera.
-
-LIGHTING / MATERIALS:
-Working state of the @Image2 hangar: cool white wall strips and amber guide lines only, no coloured or disco light. White painted shuttle metal with panel lines and light wear, hydraulic sheen at the hinge.
-
-AUDIO:
-Rising turbine whine, smooth hydraulic hum, a loud metallic grind and clunk as the left wing jams, a stuttering servo whine on each toggle click, cockpit beeps. Big hangar reverb. No dialogue, narrator or music.
-
-NEGATIVE PROMPT:
-ramp opening, anyone leaving the shuttle, shuttle taking off or hovering, both wings working, jammed wing returning upright, rotating central fin, wings touching the floor, wings falling off, explosions, second shuttle, different ship design, disco lights, crowd, pilot's face visible, Serega smiling, lightsaber, slapstick mugging, changed face or robe, speech, cartoon CGI, toy-like shuttle, subtitles, text, logo, watermark, black bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-#### 43 · Seedance 2.0 часть 2
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera deadpan comedy | Part 2 of 2: the jam is reported, the ramp lowers and the Chancellor walks out to look up at the wing
-
-REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of Part 1's result: front three-quarter exterior of the shuttle, both side wings out at 45 degrees, the left one jammed, ramp closed. Absolute START authority: wing positions, camera axis, light.
-@Image1 — absolute identity of SEREGA (the Chancellor): face, head, build and robe.
-@Image2 — the exact Imperial cruiser hangar: graphite ribs with white light strips, dark metal floor with amber guide lines, a huge opening onto stars. Location only; no people from it.
-@Image3 — exterior design of the same shuttle: hull, fins, hinges, cockpit, legs. Geometry only; its raised wings are not the current pose.
-Priority: @Video1 start and wing angles; @Image1 Serega; @Image2 hangar; @Image3 shuttle design.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple velvet robe with a hood lying on the shoulders and black inner sleeves. No lightsaber.
-IMPERIAL PILOT: one anonymous pilot in a black flight suit and a closed black helmet with a dark visor; his face is never shown.
-Exactly two people. Ground crew only as small, still background silhouettes.
-
-SHUTTLE / WING LOCK — CRITICAL:
-One classic white triangular Imperial Lambda-type shuttle: a tall fixed central dorsal fin, two long side wings hinged at the top of the hull, a forward cockpit with a framed window and a lowering front boarding ramp, three landing legs. Parked, both side wings are raised almost vertical beside the central fin, as in @Image2. For flight the side wings unfold DOWN and outward. Here the shuttle performs a LIMITED ground preflight test, aborted before full flight deployment: neither wingtip may touch or pass through the hangar floor. The working RIGHT wing smoothly pivots outward to 45 degrees above horizontal and can return upright. The LEFT wing follows to the same 45-degree angle, jerks and jams there; it cannot return upright. LEFT and RIGHT are defined from the pilot's forward-facing seat, not by arbitrary screen position. The tall CENTRAL dorsal fin is fixed and never rotates. The shuttle stays on its landing legs the whole time and never lifts off. Same single shuttle, same white colour and shape, in every shot.
-
-BOARDING PATH LOCK — CRITICAL:
-One existing front boarding doorway opens onto one ramp with an unbroken walking surface from the threshold to the hangar floor. The solid hull, cockpit window and doorframe remain rigid obstacles. Serega stays inside until the ramp is fully lowered and stationary; he exits only through the clear doorway, with his body fitting inside its opening and his robe clear of the frame. His shoes stay on top of the ramp, with visible alternating foot contact and weight transfer. No part of him intersects the hull, closed panels, ramp or floor.
-
-START STATE:
-Exactly the last frame of @Video1; engines running; Serega seated inside right behind the pilot.
-
-TIMELINE:
-[0:00–0:06] — THE REPORT
-One second on the @Video1 exterior, then cut to a cockpit medium, Serega's face readable in even light. The pilot stops flipping, does not turn around, and says carefully: «Владыка… крыло заело.» A two-second pause. Serega, moving only his eyes back to the pilot's helmet, answers flatly: «Я заметил.»
-
-[0:06–0:09] — OPEN FIRST
-Back to the same front three-quarter exterior. Engines wind down. ONLY the right wing lifts upright with an offended hydraulic sigh; the left stays jammed at 45 degrees. The ramp lowers, meets the floor and stops; Serega stays inside while it moves.
-
-[0:09–0:15] — EXIT THROUGH THE DOORWAY
-Uncut. Serega appears in the open doorway, crosses the threshold and walks alone down the stationary ramp, whole body in view. He steps onto the floor, stops clear of the ramp and looks up. Hold on the asymmetry; the pilot stays inside.
-
-END STATE:
-Serega standing on the hangar floor at the foot of the lowered front ramp, looking up at the left wing jammed at 45 degrees; the right wing raised; engines off; hangar mouth with stars behind.
-
-CAMERA / SPACE:
-Exterior from @Video1, cockpit, then the SAME front three-quarter exterior. Never cross the shuttle axis or exchange the side wings. Keep doorway, full ramp and Serega's feet unobstructed in the final shot. Stable or slow dolly; no handheld jitter or zoom jumps.
-
-PERFORMANCE:
-Completely straight. The pilot is embarrassed but professional; Serega is icy, his face never changes. No smiles, no eye-rolls to camera.
-
-LIGHTING / MATERIALS:
-Working @Image2 hangar light: cool white strips, amber guide lines, no disco light. White painted metal; real skin and velvet.
-
-AUDIO:
-Cockpit beeps, engines winding down, hydraulic sigh, ramp hiss, footsteps on metal, hangar reverb.
-
-DIALOGUE / VOCALS:
-Language: Russian, natural pronunciation without accent, accurate lip sync where a mouth is visible.
-PILOT (voice from inside his closed helmet, slightly muffled, cautious): «Владыка… крыло заело.»
-SEREGA (low, calm, completely flat): «Я заметил.»
-Only these two lines. Serega's mouth moves only on his line; the pilot's helmet stays still. No narrator, no music, no subtitles.
-
-NEGATIVE PROMPT:
-walking through the hull, body clipping, exiting a closed door, walking on a moving ramp, teleporting, take-off, jammed wing returning upright, symmetrical final pose, wings falling off, second shuttle, pilot's face visible, Serega smiling, wrong speaker, extra dialogue, cartoon CGI, subtitles, watermark, black bars.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-</div>
-
----
-
 <a id="scene-44"></a>
 
 ## Сцена 44 — Ангар крейсера: ремонт крыла, и оно отваливается
 
 **⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
 
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[{"type":"continues","scene":43}],"tags":["serega","imperial_cruiser","hangar","shuttle","technicians","comedy","dialogue","speaker_ownership"]} -->
+<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":true,"language":"ru"},"dependencies":[],"tags":["serega","imperial_cruiser","hangar","shuttle","technicians","comedy","dialogue","speaker_ownership"]} -->
 
 **Контекст использования:**
 
@@ -6859,226 +6602,6 @@ Engine roar echoing between canyon walls, a strained rising engine scream throug
 
 NEGATIVE PROMPT:
 visible map module, hologram map, more than two suns, Naboo beside Tatooine, landing, crash into rock, formal winged shuttle, wrong or duplicate ship, co-pilot, cats, sandworm, ruins, space battle, asteroids, melting face, tiny face during fast motion, costume change, text overlay, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-</div>
-
----
-
-<a id="scene-54"></a>
-
-## Сцена 54 — Доставка древнего компьютера в комнату: стык к Warcraft
-
-**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ**
-
-<!-- scene-meta: {"target_engine":"Wan 3","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":41}],"tags":["serega","computer","story_bridge","continuity"]} -->
-
-Wan 3.0 task `1e4928fa04ed4a0396d1d2ea4f5934bb` технически завершён 20.10.2026 22:19:01 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
-
-**Контекст использования:** После возвращения на крейсер в 41, перед существующим игровым финалом. Комната и положение за столом взяты из настоящего результата Topview b9180e24788d4830a6c44fedf8dba7d4, просмотренного 17.10: тёмные рёбра стен, круглый иллюминатор, стол, тяжёлое кресло, CRT на горизонтальном блоке. Это проверенный исходный ролик финала, а не утверждение о выбранном дубле в самой свежей монтажной сборке. Новая связка заканчивается до включения ПК; склейка с подходящим боковым планом старого ролика около 5–7 с, без повторного захода к столу. Сам Warcraft заново не генерируется. Правка 17.10, 23:58 (владелец): промт приведён к шаблону §5А (названия битов, строка цели), смысл и входы прежние.
-
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png">древний ПК, настоящий финал 35</a>; @Image3 — <a href="references/scenes/scene-54/S54-room-opening-actual.png">комната, настоящий кадр старого финала</a>; @Image4 — <a href="references/scenes/scene-54/S54-room-side-actual.png">стол и посадка, настоящий боковой кадр</a>.
-
-<div class="scene-ref-gallery">
-<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
-<figure><a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" target="_blank" rel="noopener"><img src="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" alt="@Image2 — древний ПК, настоящий финал 35" loading="lazy"></a><figcaption>@Image2 — древний ПК, настоящий финал 35</figcaption></figure>
-<figure><a href="references/scenes/scene-54/S54-room-opening-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-opening-actual.png" alt="@Image3 — комната, настоящий кадр старого финала" loading="lazy"></a><figcaption>@Image3 — комната, настоящий кадр старого финала</figcaption></figure>
-<figure><a href="references/scenes/scene-54/S54-room-side-actual.png" target="_blank" rel="noopener"><img src="references/scenes/scene-54/S54-room-side-actual.png" alt="@Image4 — стол и посадка, настоящий боковой кадр" loading="lazy"></a><figcaption>@Image4 — стол и посадка, настоящий боковой кадр</figcaption></figure>
-</div>
-
-**Что происходит:** Серёга приносит компьютер в свою корабельную комнату с помощью Силы. Ставит горизонтальный блок, опускает сверху CRT, кладёт клавиатуру, подключает провод и садится. Рука тянется к кнопке — дальше существующий игровой финал.
-
-**Готовность:** READY по входам, один бесплатный запуск разрешён владельцем 17.10.2026. Фактическая очередь и приоритет — `ops/topview-launch-queue.json`; максимум 0 кредитов. Готовый текст не означает полученный или одобренный ролик.
-
-<div class="engine-tabs" data-scene="54">
-
-<div class="engine-pane" data-engine="wan30" data-main="1">
-
-```text
-Mode: reference-to-video | Duration: 30s | Resolution: 1080p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, quiet deadpan | Serega installs the recovered ancient computer in his ship room and reaches for the power button
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — absolute identity of SEREGA: face, build, age and purple robe.
-@Image2 — genuine temple result showing the recovered beige horizontal desktop system unit, CRT monitor and keyboard. Use ONLY those objects and their wear; do not import the stone niche, ruins, kneeling pose or temple light.
-@Image3 — genuine opening frame of the existing computer ending: dark angular ribbed spaceship room, large circular space viewport, white wall strips, low blue panels, heavy metal desk and chair. Location geometry only, not an exact start pose; the desk starts EMPTY in this scene.
-@Image4 — genuine side frame of that same ending: exact desk direction, CRT-on-horizontal-case arrangement, chair and seated Serega position. It sets the ENDING arrangement and camera side, not a second computer.
-Priority: @Image1 controls Serega; @Image2 the recovered objects; @Image3 the room; @Image4 the final placement and axis. Keep the hardware's dimensions consistent rather than copying a conflicting source pose.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts. No co-pilot, crew, cats, Jedi, droids or new accessories.
-
-PROP / CONTINUITY LOCK — CRITICAL:
-Exactly ONE horizontal beige desktop system unit, ONE beige CRT and ONE keyboard arrive with Serega; no second set is already waiting on the desk. One wired mouse already lies at the empty desk's keyboard area. The system unit is set flat on the desk and the CRT is lowered onto it as in @Image4. The same objects keep their model and size. Everything stays switched OFF: dark CRT glass, no game, boot screen or logo. Serega's controlled Force levitation carries the computer; parts never fly randomly. No basket, map modules or new magical artifact.
-
-START STATE:
-Inside the existing spaceship room, looking from its entrance toward the desk and the circular viewport. Desk and chair are in their established places, the computer is not yet installed. Serega enters the foreground with the keyboard tucked under one arm; the system unit and the CRT float separately just ahead of him at chest height, guided by his free hand.
-
-TIMELINE:
-[0:00–0:06] — INTO THE ROOM
-Medium tracking shot with Serega and the two floating objects, already inside the room. He guides them toward the empty desk. His face stays readable in three-quarter view, the circular viewport behind the desk.
-
-[0:06–0:13] — SET DOWN
-One clear action at a time: he lowers the horizontal system unit flat onto the desk, then lowers the CRT onto the same case. Visible contact ends each levitation; no object passes through another. The final stack matches @Image4.
-
-[0:13–0:19] — PLUGGED IN
-He lays the single keyboard in front, routes its cable behind the case and connects one accessible power cable. A brief controlled hand insert; no tangled fingers or impossible sockets. Other cables are already bundled with the recovered hardware.
-
-[0:19–0:25] — SEATED
-He draws the heavy chair back and sits on the exact side of the desk shown in @Image4, adjusts the keyboard once and rests one hand beside the mouse. The dark monitor faces him; no screen content.
-
-[0:25–0:30] — THE BUTTON
-Move to the side-view axis of @Image4, Serega framed recognisably beside the CRT stack. He exhales with quiet satisfaction and reaches toward the system unit's power button. End just BEFORE pressing it, for a clean cut into the existing ending.
-
-END STATE:
-The recovered computer is installed in Serega's established spaceship room. He sits in the established chair position, reaching for the power button; the screen is still dark. The existing Warcraft footage supplies switching on and playing, with no repeated approach to the desk.
-
-CAMERA / SPACE:
-One room only: a medium entrance-to-desk tracking shot, then two motivated closer cuts for placement/connection and for the final side angle. Match the circular viewport, wall ribs, desk axis and chair placement. No new corridor, hangar, apartment or second workstation. Faces medium or close, never tiny in a wide room.
-
-PERFORMANCE:
-Practical, absorbed, utterly serious: he handles the old computer like a precious relic, then visibly relaxes once seated. No dialogue, no comic facial distortion.
-
-LIGHTING / MATERIALS:
-The existing cool dark-metal room with white practical strips, soft neutral facial fill, worn beige plastic, dusty CRT glass and heavy purple cloth. No screen glow before power, no temple daylight, no change of room between cuts.
-
-AUDIO:
-Quiet ship ventilation, a subdued Force hum, two distinct soft desk-contact thuds, keyboard placement, a cable click, chair movement and one natural exhale. No music, dialogue, narrator, game audio or computer start-up sound.
-
-NEGATIVE PROMPT:
-modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects merging or changing size, monitor already on the desk at start, glowing screen, generated Warcraft gameplay, game text, new room, temple, additional people, face drift, changed robe, floating seated character, hands through plastic, subtitles, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-</div>
-
-<div class="engine-pane" data-engine="sd20x2">
-
-Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
-
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png`; @Image3 — `references/scenes/scene-54/S54-room-opening-actual.png`; @Image4 — `references/scenes/scene-54/S54-room-side-actual.png`.
-
-*Вход в комнату, системный блок и CRT на стол, клавиатура положена; конец — Серёга стоит у собранного ПК, ничего не подключено.*
-
-**Входы части 2:** @Video1 — последние секунды результата части 1 (ПК собран на столе, Серёга стоит рядом); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png`; @Image3 — `references/scenes/scene-54/S54-room-opening-actual.png`; @Image4 — `references/scenes/scene-54/S54-room-side-actual.png`.
-
-*Кабель, кресло, рука к кнопке; финал прежний — стоп до нажатия, стык со старым игровым финалом.*
-
-#### 54 · Seedance 2.0 часть 1
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, quiet deadpan with smooth gliding camera | Part 1 of 2: Serega Force-carries the recovered ancient computer into his ship room and stacks it on the empty desk
-
-REFERENCES / AUTHORITY ORDER:
-@Image1 — absolute identity of SEREGA: face, build, age and purple robe.
-@Image2 — genuine temple result showing the recovered beige horizontal desktop system unit, CRT monitor and keyboard. Use ONLY those objects and their wear; do not import the stone niche, ruins, kneeling pose or temple light.
-@Image3 — genuine opening frame of the existing computer ending: dark angular ribbed spaceship room, large circular space viewport, white wall strips, low blue panels, heavy metal desk and chair. Location geometry only, not an exact start pose; the desk starts EMPTY in this scene.
-@Image4 — genuine side frame of that same ending: exact desk direction, CRT-on-horizontal-case arrangement and chair position. It sets the final stacking arrangement, not a second computer.
-Priority: @Image1 controls Serega; @Image2 the recovered objects; @Image3 the room; @Image4 the placement and axis. Keep the hardware's dimensions consistent rather than copying a conflicting source pose.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts. No co-pilot, crew, cats, Jedi, droids or new accessories.
-
-PROP / CONTINUITY LOCK — CRITICAL:
-Exactly ONE horizontal beige desktop system unit, ONE beige CRT and ONE keyboard arrive with Serega; no second set is already waiting on the desk. One wired mouse already lies at the empty desk's keyboard area. The system unit is set flat on the desk and the CRT is lowered onto it as in @Image4. The same objects keep their model and size. Everything stays switched OFF: dark CRT glass, no game, boot screen or logo. Serega's controlled Force levitation carries the computer; parts never fly randomly. No basket, map modules or new magical artifact.
-
-START STATE:
-Inside the existing spaceship room, looking from its entrance toward the desk and the circular viewport. Desk and chair are in their established places, the computer is not yet installed. Serega enters the foreground with the keyboard tucked under one arm; the system unit and the CRT float separately just ahead of him at chest height, guided by his free hand.
-
-TIMELINE:
-[0:00–0:05] — INTO THE ROOM
-Smooth medium tracking shot moving backward ahead of Serega as he strides in with purpose, the two floating objects gliding in front of his raised hand. His face stays readable in three-quarter view, the circular viewport opening up behind the desk.
-
-[0:05–0:09] — THE CASE
-Low angle from desk height: with one decisive downward gesture he brings the horizontal system unit down flat onto the desk. Visible contact and a soft thud end its levitation.
-
-[0:09–0:13] — THE MONITOR
-The camera arcs half around the desk as the CRT drifts in and settles squarely on top of the case with a second soft thud. One clear action at a time; no object passes through another. The stack now matches @Image4.
-
-[0:13–0:15] — KEYBOARD DOWN
-He takes the keyboard from under his arm and lays it in front of the stack, beside the waiting mouse. He stands at the desk looking at the assembled machine. Hold.
-
-END STATE:
-The beige case lies flat on the desk with the dark CRT on top and the keyboard in front, as in @Image4; Serega stands beside the desk, the chair still pushed in, the screen dark and nothing yet plugged in.
-
-CAMERA / SPACE:
-One room only. A gliding backward track from the entrance, a low desk-height angle for the case, then a half-arc around the desk for the monitor and keyboard; every cut is motivated by the next action and keeps the desk-to-viewport axis. Match the circular viewport, wall ribs and chair placement. No new corridor, hangar, apartment or second workstation. Faces medium or close in even light, never tiny in a wide room. Stable inertia, no jitter.
-
-PERFORMANCE:
-Practical, absorbed, utterly serious: confident, economical Force gestures; he handles the old computer like a precious relic. No dialogue, no comic facial distortion.
-
-LIGHTING / MATERIALS:
-The existing cool dark-metal room with white practical strips, soft neutral facial fill, worn beige plastic, dusty CRT glass and heavy purple cloth. No screen glow, no temple daylight, no change of room between cuts.
-
-AUDIO:
-Quiet ship ventilation, a subdued Force hum rising and falling with each lift, two distinct soft desk-contact thuds and the light clack of the keyboard set down. No music, dialogue, narrator, game audio or computer start-up sound.
-
-NEGATIVE PROMPT:
-modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects merging or changing size, monitor already on the desk at start, parts spinning or flying wildly, glowing screen, generated Warcraft gameplay, game text, Serega sitting down in this part, new room, temple, additional people, face drift, changed robe, hands through plastic, subtitles, watermark.
-
-FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
-```
-
-#### 54 · Seedance 2.0 часть 2
-
-```text
-Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, quiet deadpan with smooth gliding camera | Part 2 of 2: Serega plugs in the recovered ancient computer, sits down and reaches for the power button
-
-REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of Part 1's result: the beige case flat on the desk with the CRT on top and the keyboard in front, Serega standing beside the desk in his ship room. Absolute authority for the START STATE, positions, objects and light.
-@Image1 — absolute identity of SEREGA: face, build, age and purple robe.
-@Image2 — genuine temple result showing the recovered beige horizontal desktop system unit, CRT monitor and keyboard. Use ONLY those objects and their wear; do not import the stone niche, ruins, kneeling pose or temple light.
-@Image3 — genuine opening frame of the existing computer ending: dark angular ribbed spaceship room, large circular space viewport, white wall strips, low blue panels, heavy metal desk and chair. Location geometry only.
-@Image4 — genuine side frame of that same ending: exact desk direction, CRT-on-horizontal-case arrangement, chair and seated Serega position. It sets the ENDING pose and camera side, not a second computer.
-Priority: @Video1 controls the start; @Image1 controls Serega; @Image2 the recovered objects; @Image3 the room; @Image4 the final seated position and axis.
-
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA (the Chancellor), @Image1: pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; preserve his face and costume in profile views and across cuts. No co-pilot, crew, cats, Jedi, droids or new accessories.
-
-PROP / CONTINUITY LOCK — CRITICAL:
-Exactly ONE horizontal beige desktop system unit, ONE beige CRT and ONE keyboard arrive with Serega; no second set is already waiting on the desk. One wired mouse already lies at the empty desk's keyboard area. The system unit is set flat on the desk and the CRT is lowered onto it as in @Image4. The same objects keep their model and size. Everything stays switched OFF: dark CRT glass, no game, boot screen or logo. Serega's controlled Force levitation carries the computer; parts never fly randomly. No basket, map modules or new magical artifact.
-In this part the levitation is already over: the case, CRT, keyboard and mouse stand on the desk exactly as at the end of @Video1 and do not move except for the keyboard nudge.
-
-START STATE:
-Exactly the last frame of @Video1: Serega standing beside the desk in his ship room, the stacked computer and keyboard in place, the chair pushed in, the screen dark.
-
-TIMELINE:
-[0:00–0:05] — PLUGGED IN
-Continuing @Video1 without a reset: he routes the keyboard cable behind the case and connects one accessible power cable. A brief close insert of his hand and the plug clicking home; no tangled fingers or impossible sockets. Other cables are already bundled with the recovered hardware.
-
-[0:05–0:10] — SEATED
-Low medium angle: he draws the heavy chair back in one motion and sits on the exact side of the desk shown in @Image4, adjusts the keyboard once and rests one hand beside the mouse. The dark monitor faces him; no screen content.
-
-[0:10–0:15] — THE BUTTON
-Glide onto the side-view axis of @Image4, Serega framed recognisably beside the CRT stack. He exhales with quiet satisfaction and reaches toward the system unit's power button. End just BEFORE pressing it, for a clean cut into the existing ending.
-
-END STATE:
-The recovered computer is installed in Serega's established spaceship room. He sits in the established chair position, reaching for the power button; the screen is still dark. The existing Warcraft footage supplies switching on and playing, with no repeated approach to the desk.
-
-CAMERA / SPACE:
-One room only. Open on the @Video1 framing, a close insert for the cable, a low medium angle for the chair, then a smooth glide onto the side axis of @Image4; every cut is motivated by the next action and keeps the desk-to-viewport axis, wall ribs and chair placement. No new corridor, hangar, apartment or second workstation. Face medium or close in even light. Stable inertia, no jitter.
-
-PERFORMANCE:
-Practical, absorbed, utterly serious, then he visibly relaxes once seated: a small settled exhale of a man about to enjoy himself. No dialogue, no comic facial distortion.
-
-LIGHTING / MATERIALS:
-The existing cool dark-metal room with white practical strips, soft neutral facial fill, worn beige plastic, dusty CRT glass and heavy purple cloth. No screen glow before power, no change of room between cuts.
-
-AUDIO:
-Quiet ship ventilation, a cable click, chair legs scraping on metal, cloth rustle as he sits, a keyboard nudge and one natural exhale. No music, dialogue, narrator, game audio or computer start-up sound.
-
-NEGATIVE PROMPT:
-modern gaming PC, upright replacement tower, LCD, laptop, second computer, duplicated CRT, objects moving or changing size, glowing screen, power pressed, generated Warcraft gameplay, game text, new room, additional people, face drift, changed robe, floating seated character, hands through plastic, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

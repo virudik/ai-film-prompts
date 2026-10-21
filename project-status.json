@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-21T00:00:35Z",
+  "synced_at": "2026-10-21T00:43:16Z",
   "revision_date": "21.10.2026",
   "master_declared_last_full_sync": "21.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "49d8fe0e84f3216c6a4de7f0cd9a012610c8d15a8b027ccd260fe6c3b0c7afd6",
-  "canonical_revision_sha256": "9b1cebcd7deb66138a7176d44561f953117b5223204afd9c6bef5c9070df92da",
-  "canonical_master_bytes": 968066,
-  "scenes": 23,
-  "prompt_texts": 95,
+  "canonical_master_sha256": "5f9874ea4b295052fbc35e79a423c3853ba5b5add5c385bfac7c8e474e5b7648",
+  "canonical_revision_sha256": "7ce103757eef5aa4a2efd0ba266d9cf255a1b30a0fdbae3da90e600068f07b01",
+  "canonical_master_bytes": 912207,
+  "scenes": 21,
+  "prompt_texts": 89,
   "work_items": [
     "W5",
     "W6",
@@ -30,11 +30,9 @@
     36,
     37,
     39,
-    43,
-    44,
-    54
+    44
   ],
-  "slow_scenes_count": 7,
+  "slow_scenes_count": 5,
   "scene_ids": [
     13,
     16,
@@ -46,7 +44,6 @@
     40,
     41,
     42,
-    43,
     44,
     47,
     48,
@@ -55,7 +52,6 @@
     51,
     52,
     53,
-    54,
     56,
     57,
     58
@@ -93,8 +89,10 @@
     34,
     35,
     38,
+    43,
     45,
     46,
+    54,
     55
   ],
   "instruction_sync": {
@@ -103,7 +101,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 7.055,
+    "age_hours_at_status_build": 7.767,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -182,7 +180,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 7.055,
+      "age_hours": 7.767,
       "blocking": false
     },
     "topview_task_map": {
@@ -394,26 +392,6 @@
       ],
       "render_state": "IDLE"
     },
-    "43": {
-      "target_engine": "Wan 3",
-      "production_state": "READY",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": true,
-        "language": "ru"
-      },
-      "dependencies": [],
-      "tags": [
-        "serega",
-        "imperial_cruiser",
-        "hangar",
-        "shuttle",
-        "comedy",
-        "dialogue",
-        "speaker_ownership"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
     "44": {
       "target_engine": "Wan 3",
       "production_state": "DRAFT",
@@ -422,12 +400,7 @@
         "enabled": true,
         "language": "ru"
       },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 43
-        }
-      ],
+      "dependencies": [],
       "tags": [
         "serega",
         "imperial_cruiser",
@@ -621,28 +594,6 @@
       ],
       "render_state": "IDLE"
     },
-    "54": {
-      "target_engine": "Wan 3",
-      "production_state": "DRAFT",
-      "duration_s": 30,
-      "dialogue": {
-        "enabled": false,
-        "language": null
-      },
-      "dependencies": [
-        {
-          "type": "continues",
-          "scene": 41
-        }
-      ],
-      "tags": [
-        "serega",
-        "computer",
-        "story_bridge",
-        "continuity"
-      ],
-      "render_state": "SLOW_PENDING"
-    },
     "56": {
       "target_engine": "Seedance 2.0",
       "production_state": "DRAFT",
@@ -721,11 +672,11 @@
   },
   "audit_fingerprint": {
     "revision_date": "21.10.2026",
-    "synced_at": "2026-10-21T00:00:35Z",
-    "canonical_master_sha256": "49d8fe0e84f3216c6a4de7f0cd9a012610c8d15a8b027ccd260fe6c3b0c7afd6",
-    "canonical_revision_sha256": "9b1cebcd7deb66138a7176d44561f953117b5223204afd9c6bef5c9070df92da",
-    "scene_count": 23,
-    "prompt_count": 95,
+    "synced_at": "2026-10-21T00:43:16Z",
+    "canonical_master_sha256": "5f9874ea4b295052fbc35e79a423c3853ba5b5add5c385bfac7c8e474e5b7648",
+    "canonical_revision_sha256": "7ce103757eef5aa4a2efd0ba266d9cf255a1b30a0fdbae3da90e600068f07b01",
+    "scene_count": 21,
+    "prompt_count": 89,
     "scene_ids": [
       13,
       16,
@@ -737,7 +688,6 @@
       40,
       41,
       42,
-      43,
       44,
       47,
       48,
@@ -746,7 +696,6 @@
       51,
       52,
       53,
-      54,
       56,
       57,
       58
@@ -769,9 +718,7 @@
       36,
       37,
       39,
-      43,
-      44,
-      54
+      44
     ],
     "health": "ok",
     "instruction_sync_health": "ok"
