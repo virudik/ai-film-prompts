@@ -1,13 +1,20 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
+  "status": "escalated",
   "problems": {
     "sync-stale": {
-      "text": "Статус проекта не обновлялся 47 мин (норма — каждые 10 минут).",
+      "text": "Статус проекта не обновлялся 42 мин (норма — каждые 10 минут).",
       "since": "2026-10-21T06:07:40Z",
       "fixes": 1,
       "last_fix_at": "2026-10-21T06:07:40Z",
+      "escalated_at": "2026-10-21T12:03:17Z"
+    },
+    "run-failed-canon-health": {
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/39596166449",
+      "since": "2026-10-21T12:03:17Z",
+      "fixes": 1,
+      "last_fix_at": "2026-10-21T12:03:17Z",
       "escalated_at": null
     }
   },
@@ -17,7 +24,19 @@
       "kind": "fixed",
       "key": "sync-stale",
       "text": "Нашёл: Статус проекта не обновлялся 47 мин (норма — каждые 10 минут). Сделал: перезапустил проверку канона."
+    },
+    {
+      "at": "2026-10-21T12:03:17Z",
+      "kind": "escalated",
+      "key": "sync-stale",
+      "text": "Не чинится само: Статус проекта не обновлялся 42 мин (норма — каждые 10 минут). Передал агенту (задача в списке под очередью)."
+    },
+    {
+      "at": "2026-10-21T12:03:17Z",
+      "kind": "fixed",
+      "key": "run-failed-canon-health",
+      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/39596166449 Сделал: повторил упавший запуск «здоровье канона»."
     }
   ],
-  "changed_at": "2026-10-21T06:07:40Z"
+  "changed_at": "2026-10-21T12:03:17Z"
 }
