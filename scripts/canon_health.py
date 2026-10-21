@@ -189,7 +189,8 @@ def main(argv=None):
     prev = read_json(a.root, OUT) or {}
     old = {key(p) for p in prev.get("problems", [])}
     new = [p for p in res["problems"] if p["level"] == "warn" and key(p) not in old]
-    same = [key(p) for p in prev.get("problems", [])] == [key(p) for p in res["problems"]]
+    same = ([key(p) for p in prev.get("problems", [])] == [key(p) for p in res["problems"]]
+            and prev.get("rules") == res["rules"])
     for p in res["problems"]:
         print(f"[{p['level']}] {p['text']}")
     print(f"status={res['status']} warnings={res['warnings']} info={res['info']} new={len(new)}")
