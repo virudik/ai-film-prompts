@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-21T16:35:11.554Z",
+  "updated_at": "2026-10-21T16:36:47.035Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4108,7 +4108,7 @@
       "canonical_prompt_sha256": "8c73d00c7235e53e07ba8081755af3571887b26d857419aa2e17b3f61760fac3",
       "normalized_prompt_sha256": "0a69b424907169209f3f2f6bf340306390387f65278ca1c6df77734389f0c33c",
       "priority": 6,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4163,7 +4163,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "1751294fbf5f49dbb00a0f44401486ca",
       "claim": {
         "run_id": "chatgpt-chat-20261021T162037592Z",
         "holder": "chatgpt",
@@ -4173,7 +4173,67 @@
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S40",
-      "selection_record": "reports/seedance-selection-2026-10-18.md"
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "submitted_at": "2026-10-21T16:35:37Z",
+      "launch_readiness": "submitted_verified",
+      "receipt_path": "reports/topview-queue-2026-10-16/S40-SEED20-P1-2026-10-21.json",
+      "actual_settings": {
+        "model": "Seedance 2.0",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "sound": "on",
+        "inputImages": [
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Gwi0DsQr2PArZITQNGllQ.jpg",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image1"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/vFjoke7iqNPddMygFlHFn.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image2"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/oams4OIVoMYogvzk6TCmU.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image3"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/MqUzfEx861psxwic36vlG.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image4"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/VeGTtPk9F414q3QOG84dz.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image5"
+          },
+          {
+            "inputImageResourceId": null,
+            "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/TQKZsYyrHS2MR92IZsvTt.png",
+            "inputImageUrl": null,
+            "projectAssetId": null,
+            "name": "Image6"
+          }
+        ],
+        "inputVideos": []
+      },
+      "result_status": "init",
+      "editorial_approval": false
     },
     {
       "id": "S40-SEED20-P2",
