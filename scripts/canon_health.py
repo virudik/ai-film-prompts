@@ -33,6 +33,7 @@ REMOVED_MARK = re.compile(r"[Уу]бран|[Уу]дал[её]н|archive/", re.U)
 REF = re.compile(r"`((?:[\w.-]+/)*[\w.-]+\.(?:md|py|json|yml|yaml|html|txt|sql|ts))(?:#[^`]*)?`")
 DATE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(20\d\d)\b")
 CHECKED = re.compile(r"(?:Проверено|Checked)\s*:\s*(\d{1,2}\.\d{1,2}\.20\d\d)", re.I)
+NOW_BLOCK_DATE = re.compile(r"^##\s+СЕЙЧАС(?:\s+\(обновлено)?\s+(\d{1,2}\.\d{1,2}\.20\d\d)", re.I | re.M)
 
 
 def ru_date(s):
@@ -90,7 +91,8 @@ def check(root, now):
     if size > HANDOFF_MAX_BYTES:
         add("warn", "handoff-size", f"Хендоф {size // 1000} КБ (цель до {HANDOFF_MAX_BYTES // 1000} КБ): "
             "старые блоки перенести в журнал archive/handoff-log.md.", "NEW-CHAT-HANDOFF.md")
-    top = ru_date(h[:4000])
+    top_match = NOW_BLOCK_DATE.search(h[:4000])
+    top = ru_date(top_match.group(1)) if top_match else None
     if top is None:
         add("warn", "handoff-now-undated", "Верхний блок хендофа без даты.", "NEW-CHAT-HANDOFF.md")
     elif now - top > timedelta(days=NOW_BLOCK_MAX_DAYS, hours=12):
