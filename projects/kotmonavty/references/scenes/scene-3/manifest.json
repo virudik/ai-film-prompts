@@ -3,7 +3,7 @@
   "project": "kotmonavty",
   "scene": 3,
   "title": "Графическая заставка — РосКОТмос представляет",
-  "updated_at": "2026-10-21T14:01:08Z",
+  "updated_at": "2026-10-21T14:17:43Z",
   "status": "draft_references_ready",
   "editorial_status": "not_approved",
   "references": [
@@ -23,7 +23,7 @@
       "tag": "@Image3",
       "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
       "path": "projects/kotmonavty/references/branding/KM-poster.png",
-      "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e"
+      "sha256": "7b75e00458155a971a019f94a8b574597692658d66c10be12aab20ecb48b57a6"
     }
   ],
   "prompt_reference_mapping": [
@@ -46,7 +46,7 @@
           "tag": "@Image3",
           "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
           "path": "projects/kotmonavty/references/branding/KM-poster.png",
-          "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e"
+          "sha256": "7b75e00458155a971a019f94a8b574597692658d66c10be12aab20ecb48b57a6"
         }
       ],
       "video": null
@@ -70,7 +70,7 @@
           "tag": "@Image3",
           "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
           "path": "projects/kotmonavty/references/branding/KM-poster.png",
-          "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e"
+          "sha256": "7b75e00458155a971a019f94a8b574597692658d66c10be12aab20ecb48b57a6"
         }
       ],
       "video": null
@@ -94,7 +94,7 @@
           "tag": "@Image3",
           "role": "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
           "path": "projects/kotmonavty/references/branding/KM-poster.png",
-          "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e"
+          "sha256": "7b75e00458155a971a019f94a8b574597692658d66c10be12aab20ecb48b57a6"
         }
       ],
       "video": {

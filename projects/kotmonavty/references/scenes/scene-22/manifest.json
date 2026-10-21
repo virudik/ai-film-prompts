@@ -3,7 +3,7 @@
   "project": "kotmonavty",
   "scene": 22,
   "title": "Событийная заставка сериала — Экипаж РосКОТмоса",
-  "updated_at": "2026-10-21T14:01:08Z",
+  "updated_at": "2026-10-21T14:17:43Z",
   "status": "draft_references_ready",
   "editorial_status": "not_approved",
   "references": [
@@ -29,7 +29,7 @@
       "tag": "@Image4",
       "role": "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие",
       "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-      "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
+      "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232"
     },
     {
       "tag": "@Image5",
@@ -88,7 +88,7 @@
           "tag": "@Image4",
           "role": "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
+          "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232"
         },
         {
           "tag": "@Image5",
@@ -148,7 +148,7 @@
           "tag": "@Image4",
           "role": "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
+          "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232"
         },
         {
           "tag": "@Image5",
@@ -208,7 +208,7 @@
           "tag": "@Image4",
           "role": "Штаб РосКОТмоса: вылет по тревоге — только эта локация и её действие",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
+          "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232"
         },
         {
           "tag": "@Image5",

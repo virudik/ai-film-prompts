@@ -1,30 +1,58 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "checked_at": "2026-10-21T14:01:08Z",
-  "status": "prepared_and_visually_checked",
+  "checked_at": "2026-10-21T14:17:43Z",
+  "status": "published_and_visually_checked",
   "source": "projects/kotmonavty/references/ship-exterior-front.png",
   "source_sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
   "replaced_images": [
     {
       "path": "projects/kotmonavty/references/branding/KM-poster.png",
-      "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e",
-      "edit_prompt_file": "projects/kotmonavty/references/branding/KM-poster.image-prompt.txt"
+      "sha256": "7b75e00458155a971a019f94a8b574597692658d66c10be12aab20ecb48b57a6",
+      "edit_prompt_file": "projects/kotmonavty/references/branding/KM-poster.image-prompt.txt",
+      "previous_versions": [
+        {
+          "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
+        }
+      ]
     },
     {
       "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-      "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc",
-      "edit_prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.image-prompt.txt"
+      "sha256": "9ff3ec56daa9491c3071801dd1ac92b710e28b6fc22fae77491ebdc75b1a683a",
+      "edit_prompt_file": "projects/kotmonavty/references/development/KM-ring-chase.image-prompt.txt",
+      "previous_versions": [
+        {
+          "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
+        }
+      ]
     },
     {
       "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-      "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318",
-      "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt"
+      "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232",
+      "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
+      "previous_versions": [
+        {
+          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
+        }
+      ]
     },
     {
       "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
-      "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21",
-      "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt"
+      "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed",
+      "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
+      "previous_versions": [
+        {
+          "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
+        }
+      ]
     }
   ],
   "unchanged_matching_sources": [
@@ -37,10 +65,12 @@
     "Форма узкого шрифта и кириллица",
     "Красное КОТ, тёмное РОС/МОС",
     "Крупная надпись уменьшена; масштаб задаёт первый корабль",
-    "Эмблема/корпус/персонажи/композиция сохранены"
+    "Эмблема/корпус/персонажи/композиция сохранены",
+    "Дополнительное уменьшение надписи в четырёх кадрах; сопоставлено с первым исходником, без автоматического одобрения"
   ],
   "prompt_blocks_updated": 18,
   "technical_review_not_editorial_approval": true,
   "queue_changed": false,
-  "video_launches": 0
+  "video_launches": 0,
+  "updated_at": "2026-10-21T14:17:43Z"
 }

@@ -48,20 +48,25 @@
         11,
         22
       ],
-      "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318",
+      "sha256": "19e71c819b5144e376075cfe48253748450a39a0e6bc27d302c481f16b506232",
       "width": 1672,
       "height": 941,
       "prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
       "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
       "checked_at": "2026-10-20T23:30:02Z",
       "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.image-prompt.txt",
-      "edited_at": "2026-10-21T14:01:08Z",
+      "edited_at": "2026-10-21T14:17:43Z",
       "edit_reason": "Шрифт, цвет и малый размер по первой картинке корабля",
       "previous_versions": [
         {
           "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695",
           "replaced_at": "2026-10-21T14:01:08Z",
           "reason": "Owner: use original first-ship wordmark"
+        },
+        {
+          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
         }
       ]
     },
@@ -131,20 +136,25 @@
         2,
         14
       ],
-      "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21",
+      "sha256": "6d31b839fd9f4e7cba9c3ad90e2566326017c7086fe68a11e1d369ba72607fed",
       "width": 1672,
       "height": 941,
       "prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
       "visual_check": "Изображение просмотрено: персонажи, стиль, событие, руки/лапы, фон; надпись корабля проверена там, где он виден.",
       "checked_at": "2026-10-20T23:30:02Z",
       "edit_prompt_file": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.image-prompt.txt",
-      "edited_at": "2026-10-21T14:01:08Z",
+      "edited_at": "2026-10-21T14:17:43Z",
       "edit_reason": "Шрифт, цвет и малый размер по первой картинке корабля",
       "previous_versions": [
         {
           "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd",
           "replaced_at": "2026-10-21T14:01:08Z",
           "reason": "Owner: use original first-ship wordmark"
+        },
+        {
+          "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21",
+          "replaced_at": "2026-10-21T14:17:43Z",
+          "reason": "Final small-scale correction against first-ship reference"
         }
       ]
     },
@@ -316,5 +326,5 @@
       "checked_at": "2026-10-20T23:30:02Z"
     }
   ],
-  "updated_at": "2026-10-21T14:01:08Z"
+  "updated_at": "2026-10-21T14:17:43Z"
 }

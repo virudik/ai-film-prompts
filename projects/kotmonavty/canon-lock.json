@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "project": "kotmonavty",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "РОСКОТМОС: шрифт, цвет и размер по первому кораблю; исправление производных кадров",
   "acquired_at": "2026-10-21T13:32:44.963Z",
-  "expires_at": "2026-10-21T14:39:02.233Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-21T14:18:39.616Z",
   "rules": "ops/CANON-LOCK.md",
   "renewed_at": "2026-10-21T13:54:02.233Z"
 }
