@@ -36,7 +36,11 @@ class SelfHeal(unittest.TestCase):
 
     def test_stale_sync_restarts_once_then_hands_to_agent(self):
         f = healthy()
+        # The status publisher intentionally emits an unchanged heartbeat every 180 minutes.
+        # A normal 90-minute age must not trigger repair; one missed heartbeat plus grace must.
         f["project_status"]["synced_at"] = ago(90)
+        self.assertEqual(sh.detect(f, NOW), {})
+        f["project_status"]["synced_at"] = ago(240)
         acts, st, inbox, _ = sh.plan(f, {}, {"tasks": []}, NOW)
         self.assertEqual(acts, [{"kind": "dispatch", "workflow": "sync-from-drive.yml"}])
         self.assertEqual(st["status"], "fixing")
