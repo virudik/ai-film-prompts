@@ -283,6 +283,16 @@
    "thumb_bytes": 73998,
    "src_sha256": "79722e9bd7b52f098093af62e69c51b9b43dbed6cdeccd8381196816678e252f"
   },
+  "projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png": {
+   "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2839430,
+   "thumb_bytes": 77844,
+   "src_sha256": "808ce063a04891df8a55904e69596a14e9a672d631591da4989d98216bb8c631"
+  },
   "projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png": {
    "thumb": "references/thumbs/projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.webp",
    "width": 640,
