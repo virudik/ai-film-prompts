@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T16:36:47.035Z",
+  "last_updated_at": "2026-10-21T16:39:50.142Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -538,7 +538,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-21T16:36:47.035Z",
+      "verified_at": "2026-10-21T16:39:50.142Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -622,11 +622,11 @@
       ],
       "current_run_id": "chatgpt-chat-20261021T162037592Z",
       "last_resume_check": {
-        "at": "2026-10-21T16:36:47.035Z",
+        "at": "2026-10-21T16:39:50.142Z",
         "run_id": "chatgpt-chat-20261021T162037592Z",
-        "last_submitted": "S40-SEED20-P1",
-        "occupied_slots": 5,
-        "free_slots": 1
+        "last_submitted": "S53-SEED20-P1",
+        "occupied_slots": 6,
+        "free_slots": 0
       }
     },
     {

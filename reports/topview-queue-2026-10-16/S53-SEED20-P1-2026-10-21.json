@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S53-SEED20-P1",
+  "run_id": "chatgpt-chat-20261021T162037592Z",
+  "launch_source": "owner_chat_browser",
+  "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-21T16:38:40Z",
+  "canonical_block_label": "53 · Seedance 2.0 часть 1",
+  "canonical_prompt_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
+  "normalized_prompt_sha256": "88a68120439e836f113e55218fa3e9b0dc69a4296d2c4125e7a99379bf58d7ac",
+  "full_normalized_prompt_match": true,
+  "gui_prompt_exact_match": true,
+  "actual_settings": {
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "creditsCost": 0,
+    "sound": "on",
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Omf2G0y4rEEo90yJXmsJo.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/8LmNHzpI3lBBTJSwmREET.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/wa2WG2D41y8OpeXLGs2wT.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/0SBzXvryaKNqWAtmguBx5.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      }
+    ],
+    "inputVideos": []
+  },
+  "input_sources": [
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-17/S17-Image4-topview-source.png",
+      "sha256": "d5e1ed842e2f19d651547352b21fd61901ba1a1ccaf8b17682b588c1f3cb6f19",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "proof_path": "reports/topview-queue-2026-10-16/S53-SEED20-P1-2026-10-21.jpg",
+  "verification": {
+    "full_account_scan": true,
+    "total_tasks": 918,
+    "boards": 12,
+    "pages": 18,
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "editorial_approval": false
+}
