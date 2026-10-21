@@ -3,7 +3,7 @@
   "project": "kotmonavty",
   "scene": 11,
   "title": "Штаб РосКОТмоса — срочный вылет",
-  "updated_at": "2026-10-20T23:31:58Z",
+  "updated_at": "2026-10-21T14:01:08Z",
   "status": "draft_references_ready",
   "editorial_status": "not_approved",
   "references": [
@@ -35,7 +35,7 @@
       "tag": "@Image5",
       "role": "Ангар — отдельный финальный эпизод, бег к кораблю",
       "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-      "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+      "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
     },
     {
       "tag": "@Image6",
@@ -76,7 +76,7 @@
           "tag": "@Image5",
           "role": "Ангар — отдельный финальный эпизод, бег к кораблю",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
         },
         {
           "tag": "@Image6",
@@ -118,7 +118,7 @@
           "tag": "@Image5",
           "role": "Ангар — отдельный финальный эпизод, бег к кораблю",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
         },
         {
           "tag": "@Image6",
@@ -160,7 +160,7 @@
           "tag": "@Image5",
           "role": "Ангар — отдельный финальный эпизод, бег к кораблю",
           "path": "projects/kotmonavty/references/scenes/scene-11/KM11-hangar-departure.png",
-          "sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+          "sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
         },
         {
           "tag": "@Image6",

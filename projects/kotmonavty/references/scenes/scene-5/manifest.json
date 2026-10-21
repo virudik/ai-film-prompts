@@ -3,7 +3,7 @@
   "project": "kotmonavty",
   "scene": 5,
   "title": "Узкий проход",
-  "updated_at": "2026-10-20T23:31:58Z",
+  "updated_at": "2026-10-21T14:01:08Z",
   "status": "draft_references_ready",
   "editorial_status": "not_approved",
   "references": [
@@ -35,7 +35,7 @@
       "tag": "@Image5",
       "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
       "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-      "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+      "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc"
     },
     {
       "tag": "@Image6",
@@ -94,7 +94,7 @@
           "tag": "@Image5",
           "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+          "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc"
         },
         {
           "tag": "@Image6",
@@ -154,7 +154,7 @@
           "tag": "@Image5",
           "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+          "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc"
         },
         {
           "tag": "@Image6",
@@ -214,7 +214,7 @@
           "tag": "@Image5",
           "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
           "path": "projects/kotmonavty/references/development/KM-ring-chase.png",
-          "sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+          "sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc"
         },
         {
           "tag": "@Image6",

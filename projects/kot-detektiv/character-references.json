@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T23:30:02Z",
+  "updated_at": "2026-10-21T13:59:23Z",
   "source": "Доска Topview «Лёха кот»: входы 11 задач проверены; 9 S3-путей сохранены как 7 побайтно уникальных оригиналов, плюс 3 стоп-кадра. Полное происхождение — projects/kot-detektiv/references/manifest.json. Ролики не одобрены. Сцены оформлены как DRAFT. Новые производные референсы по задаче владельца 20.10.2026 добавлены отдельно; оригиналы не заменены, новые картинки не одобрены. Расширение 21.10.2026: афиша, заставка и восемь сюжетных изображений; все not_approved. 21.10: добавлены ситуации по готовым изображениям; все рабочие производные связаны со сценами, графическая и событийная заставки разделены.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
@@ -37,7 +37,8 @@
         18,
         19,
         20,
-        21
+        21,
+        22
       ],
       "model_sheet": {
         "source": "Оригинальная входная картинка задачи Topview 3a85d0374f3f43de99c96c24ee2486ce; главный референс по выбору владельца 20.10.2026.",
@@ -277,7 +278,8 @@
         18,
         19,
         20,
-        21
+        21,
+        22
       ],
       "model_sheet": {
         "source": "Оригинальный вход доски «Лёха кот», перенесён без изменения байтов.",
@@ -828,10 +830,11 @@
       "name": "Афиша «Кот детектив»",
       "kind": "poster",
       "scenes": [
-        2
+        2,
+        22
       ],
       "editorial_status": "not_approved",
-      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 2.",
+      "notes": "Новый вариант по задаче владельца 21.10.2026. Сюжет и визуал доступны для доработки; исходники идентичности выше. Используется в сценах: 2. Сцена 22: только дальняя фигура в плаще и шляпе — внешний силуэт неизвестного беглеца.",
       "images": [
         {
           "path": "projects/kot-detektiv/references/branding/KD-poster.png",
@@ -843,7 +846,8 @@
           "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861",
           "editorial_status": "not_approved",
           "scenes": [
-            2
+            2,
+            22
           ]
         }
       ]
@@ -1358,6 +1362,78 @@
             20,
             21
           ]
+        }
+      ]
+    },
+    {
+      "id": "kd22-coach-chase",
+      "name": "Погоня за тенью — дилижансы ночного Лондона",
+      "kind": "scene_reference_pack",
+      "scenes": [
+        22
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Четыре кадра одной активной погони. Исходники персонажей выше композиционных референсов. Все кадры используются в трёх промтах сцены 22.",
+      "images": [
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png",
+          "caption": "Два дилижанса — общий план погони",
+          "scenes": [
+            22
+          ],
+          "sha256": "79722e9bd7b52f098093af62e69c51b9b43dbed6cdeccd8381196816678e252f",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/branding/KD-poster.png"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.image-prompt.txt",
+          "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png",
+          "caption": "Сосредоточенный кот и паникующий констебль",
+          "scenes": [
+            22
+          ],
+          "sha256": "808ce063a04891df8a55904e69596a14e9a672d631591da4989d98216bb8c631",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/branding/KD-poster.png"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.image-prompt.txt",
+          "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png",
+          "caption": "Опасный поворот у моста",
+          "scenes": [
+            22
+          ],
+          "sha256": "37c70b84be206b0b3868020d9b6772ada2fac5a2b46459e4f0fbf540c092a703",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/branding/KD-poster.png"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.image-prompt.txt",
+          "editorial_status": "not_approved"
+        },
+        {
+          "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png",
+          "caption": "Погоня продолжается в тумане",
+          "scenes": [
+            22
+          ],
+          "sha256": "647d6e33ac98ddcaef58d76a0ac5315171c0d768accba64f18c730ec7f6de3f5",
+          "derived_from": [
+            "projects/kot-detektiv/references/detective-cat-office-portrait.png",
+            "projects/kot-detektiv/references/detective-cat-police-dog-street.jpg",
+            "projects/kot-detektiv/references/branding/KD-poster.png"
+          ],
+          "prompt_file": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.image-prompt.txt",
+          "editorial_status": "not_approved"
         }
       ]
     }

@@ -310,6 +310,8 @@ SPECIAL LOCKS:
 EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 At magnetic scrapyard, open crate carrying Ryzhik just begins rising; Luchik on fixed beam below, no title card.
 
@@ -378,6 +380,8 @@ SPECIAL LOCKS:
 EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 At magnetic scrapyard, open crate carrying Ryzhik just begins rising; Luchik on fixed beam below, no title card.
 
@@ -437,6 +441,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 SPECIAL LOCKS:
 EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Desert beacon now projects cyan beam; both cats have turned toward answering fortress signal, their stationary marked ship behind.
@@ -921,6 +927,8 @@ SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stri
 
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Original ivory red-blue ship approaches a narrow gap in a broken orbital ring at speed; three drones behind. In cockpit Ryzhik left, Luchik right.
 
@@ -990,6 +998,8 @@ SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stri
 
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Original ivory red-blue ship approaches a narrow gap in a broken orbital ring at speed; three drones behind. In cockpit Ryzhik left, Luchik right.
 
@@ -1050,6 +1060,8 @@ SPECIAL LOCKS:
 SHIP LOCK: original exterior controls hull, amber cockpit, red swoosh, blue stripe and rear cylindrical engines. Original cockpit controls interior. Never swap the cats: Ryzhik LEFT navigator, Luchik RIGHT pilot. Keep three drones initially, one disabled, two remaining.
 
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Ship banked sharply to fit the gap; Ryzhik braced on left, Luchik pressing right pilot control; one drone strikes a beam behind them.
@@ -2154,6 +2166,8 @@ SPECIAL LOCKS:
 Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Luchik and Ryzhik stand at the round mission table in the cat-operated orbital headquarters; star routes calm, red dispatch pad unpressed.
 
@@ -2219,6 +2233,8 @@ SPECIAL LOCKS:
 Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Luchik and Ryzhik stand at the round mission table in the cat-operated orbital headquarters; star routes calm, red dispatch pad unpressed.
 
@@ -2275,6 +2291,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 SPECIAL LOCKS:
 Mission control and hangar are separate connected rooms; use a hard cut, never morph rooms. Background headquarters operators are ordinary cats at paw-scale controls. No uniforms or human anatomy. Hero ship follows original hull; all four engines exist even where two are occluded.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image6 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Red sector alert acknowledged, cyan route fixed toward the hangar door; both cats turn away from the table, ready to run.
@@ -2753,6 +2771,8 @@ SPECIAL LOCKS:
 Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Cats crouch beside a half-buried beacon; their stationary ship behind, side emblem and РОСКОТМОС visible. Beacon core dark.
 
@@ -2816,6 +2836,8 @@ SPECIAL LOCKS:
 Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Cats crouch beside a half-buried beacon; their stationary ship behind, side emblem and РОСКОТМОС visible. Beacon core dark.
 
@@ -2870,6 +2892,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 SPECIAL LOCKS:
 Keep original four-engine ship grounded and unmoving. Cats use paws only. Signal contains shapes, no new readable text. Fortress is an unanswered hook, not confirmed enemy.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Ryzhik paw holds the exposed contact, Luchik braces the cover; narrow cyan beam has just ignited through blowing dust.
@@ -3939,6 +3963,8 @@ SPECIAL LOCKS:
 The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Hero ship landed and secured on ocean platform, hatch open and ramp down; Luchik and Ryzhik have reached the railed gangway, walking away from ship.
 
@@ -4002,6 +4028,8 @@ SPECIAL LOCKS:
 The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Hero ship landed and secured on ocean platform, hatch open and ramp down; Luchik and Ryzhik have reached the railed gangway, walking away from ship.
 
@@ -4056,6 +4084,8 @@ LUCHIK: exact grey-white long-haired domestic cat from @Image1, white muzzle/che
 SPECIAL LOCKS:
 The generated reference shows DISEMBARKATION, not boarding; maintain movement away from ship. Four-engine hull unchanged. Safe rails, secured ship, no cat swept into sea.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image4 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Both crouched behind a solid gangway support as one wave strikes below; ship remains anchored behind, gangway holds firm.
@@ -4348,6 +4378,8 @@ EDITORIAL LOCK: these are explicit separate montage shots, never morph locations
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Headquarters map with red sector alert, two cats immediately engaged in work; title artwork not yet shown.
 
@@ -4417,6 +4449,8 @@ EDITORIAL LOCK: these are explicit separate montage shots, never morph locations
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
 
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
+
 START STATE:
 Headquarters map with red sector alert, two cats immediately engaged in work; title artwork not yet shown.
 
@@ -4477,6 +4511,8 @@ SPECIAL LOCKS:
 EDITORIAL LOCK: these are explicit separate montage shots, never morph locations or teleport characters inside a shot. No repeated action from the companion trailer/opening. Each image controls only its named location. Unsolved hooks remain unresolved; montage is a proposal, not a canon plot conclusion.
 SHIP / LETTERING LOCK: whenever the RosKOTmos emblem is visible on the hero ship, preserve the exact Cyrillic word РОСКОТМОС directly UNDER it, readable and attached to the hull. Never omit, misspell, replace with Latin lookalikes, hide deliberately or move above the emblem. Original long ivory worn hull, amber cockpit, red swoosh, blue stripe; FOUR rear engines in total, perspective may occlude far-side pair. No ship redesign.
 TITLE LOCK: final title reference controls only lettering and layout, not character identity. Reveal intact artwork by light/opacity; no letter morphs. Title text must remain exact Cyrillic.
+
+ORIGINAL HULL WORDMARK — CRITICAL: @Image9 (the FIRST selected ship) is the absolute typography and scale authority, above later scene/poster images. Copy its compact upright condensed sans-serif Cyrillic РОСКОТМОС, dark РОС/МОС and muted red КОТ, small original proportions relative to badge and hull, directly below the emblem with the original slight right offset. Match perspective and wear. Do not enlarge into a headline, use italics/stencil/Latin letters or substitute title-card branding. This rule adds no ship to a shot where none is scripted.
 
 START STATE:
 Continue @Video1 exactly: Underwater market, pearl safely in shell and merchant withdrawing it; cats look up toward giant fish beyond glass.

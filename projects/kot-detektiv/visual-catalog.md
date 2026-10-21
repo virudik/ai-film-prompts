@@ -147,3 +147,23 @@
 [Сцена 9 — Пассажир, которого не было](video-prompts.md#scene-9)
 
 ![Экипаж без пассажира](references/scenes/scene-9/KD09-empty-carriage.png)
+
+## Сцена 22 — Погоня за тенью — дилижансы ночного Лондона
+
+Все четыре кадра включены в три автономных промта сцены 22. Основные персонажи — прежние оригиналы; неизвестный — силуэт с афиши.
+
+![Два дилижанса — общий план погони](projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png)
+
+Два дилижанса — общий план погони — `projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png`.
+
+![Сосредоточенный кот и паникующий констебль](projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png)
+
+Сосредоточенный кот и паникующий констебль — `projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png`.
+
+![Опасный поворот у моста](projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png)
+
+Опасный поворот у моста — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png`.
+
+![Погоня продолжается в тумане](projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png)
+
+Погоня продолжается в тумане — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png`.

@@ -20,7 +20,7 @@
       ],
       "status": "generated_and_saved",
       "editorial_status": "not_approved",
-      "sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4",
+      "sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e",
       "width": 1024,
       "height": 1536,
       "prompt_file": "projects/kotmonavty/references/branding/KM-poster.prompt.txt",
@@ -28,8 +28,15 @@
       "visual_check": "composition, identities, style and intended event reviewed; title text checked where present",
       "previous_sha256": "f1d8c49da06648d3d5fa53d6d59fff8a55822e50a7390748e20ed9c06853eecd",
       "edit_prompt_file": "projects/kotmonavty/references/branding/KM-poster.image-prompt.txt",
-      "edited_at": "2026-10-20T23:30:02Z",
-      "edit_reason": "Точное РОСКОТМОС под эмблемой"
+      "edited_at": "2026-10-21T14:01:08Z",
+      "edit_reason": "Шрифт, цвет и малый размер по первой картинке корабля",
+      "previous_versions": [
+        {
+          "sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4",
+          "replaced_at": "2026-10-21T14:01:08Z",
+          "reason": "Owner: use original first-ship wordmark"
+        }
+      ]
     },
     {
       "key": "KM-opening",
@@ -218,5 +225,6 @@
       "generated_at": "2026-10-20T21:58:03Z",
       "visual_check": "composition, identities, style and intended event reviewed; title text checked where present"
     }
-  ]
+  ],
+  "updated_at": "2026-10-21T14:01:08Z"
 }

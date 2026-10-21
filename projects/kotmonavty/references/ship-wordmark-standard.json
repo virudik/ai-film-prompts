@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "project": "kotmonavty",
+  "owner_decision_date": "2026-10-21",
+  "source": "projects/kotmonavty/references/ship-exterior-front.png",
+  "source_sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+  "rule": "Эталон надписи на корпусе — самая первая выбранная картинка ship-exterior-front.png, а не последняя афиша или новый сюжетный кадр. Узкий прямой шрифт без засечек; РОС/МОС тёмные, КОТ красное. Небольшой размер относительно эмблемы и корпуса, положение сразу под эмблемой со смещением вправо как в оригинале. Не превращать в крупный заголовок, не увеличивать ради читаемости; учитывать перспективу. Размер на экране меняется только с масштабом корабля. Отдельная титульная графика не заменяет маркировку корпуса.",
+  "lettering": "РОСКОТМОС",
+  "colour": {
+    "РОС": "dark charcoal",
+    "КОТ": "muted red",
+    "МОС": "dark charcoal"
+  },
+  "typography": "compact upright condensed sans-serif, original first-image proportions",
+  "scale_authority": "original ship image; never absolute screen pixels",
+  "source_unchanged": true
+}

@@ -4,12 +4,12 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**21.10.2026 · 21 сцен к генерации/доработке · 63 полных текстов промта**
+**21.10.2026 · 22 сцен к генерации/доработке · 66 полных текстов промта**
 
 - **🛠️ 0** рабочих направлений W: предложения оформлены как DRAFT-сцены по новой команде владельца.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
-- **Последняя оформленная активная сцена:** 21 — черновик, без запуска и без очереди.
-- **Последняя полная синхронизация:** **21.10.2026 · новые ситуации по изображениям, отдельные событийная и графическая заставки, обновлённый трейлер**.
+- **Последняя оформленная активная сцена:** 22 — черновик, без запуска и без очереди.
+- **Последняя полная синхронизация:** **21.10.2026 · сцена 22: активная погоня на дилижансах, четыре новых референса**.
 
 **Все сцены DRAFT.** Это тексты и изображения для доработки владельцем, не готовые видеоролики. Очередь не менялась. По каждой сцене: 30 секунд Wan 3.0 / Seedance 2.5 и две части Seedance 2.0 по 15 секунд. Для второй части нужен реальный результат первой. Только безлимит, 0 кредитов; платные запуски — владелец. Ничего не одобрять, не удалять и не перезапускать автоматически.
 
@@ -49,6 +49,7 @@
 | 19 | [Покупатель пустого кресла](#scene-19) | Новая ситуация по готовой картинке |
 | 20 | [Звон без языка](#scene-20) | Новая ситуация по готовой картинке |
 | 21 | [Событийная заставка сериала — По следу невозможного](#scene-21) | Событийная заставка сериала |
+| 22 | [Погоня за тенью — дилижансы ночного Лондона](#scene-22) | Зрелищная погоня по задаче владельца |
 
 ## Сцены в работе
 
@@ -4205,6 +4206,216 @@ Humans, human background silhouettes, human portraits or skulls, human skin/hand
 
 FRAME FILL / NO BARS:
 Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, black bars, embedded borders, split screens or poster layouts.
+```
+
+</div>
+</div>
+
+<a id="scene-22"></a>
+## Сцена 22 — Погоня за тенью — дилижансы ночного Лондона
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["owner_requested","action_chase","draft","not_queued","two_engine_versions","reference_first"]} -->
+
+**Черновик по прямой задаче владельца 21.10.2026. В очередь не добавлять. Видео не запускалось.**
+
+**Что происходит:** По ночным улицам Лондона кот-детектив уверенно правит дилижансом, а паникующий констебль предупреждает об опасном повороте. Они преследуют чёрный дилижанс фигуры в плаще и шляпе с афиши. Колесо проходит рядом с фонарём; погоня вырывается на мост и уходит в туман. Личность беглеца остаётся тайной.
+
+**Контекст использования:** Самостоятельная динамичная сцена для дальнейшей доработки. Это новая погоня, отдельная от сцены 9 с пустой каретой. Основная рекомендуемая версия для движения — Seedance 2.0, 2 × 15 с; альтернативный текст 30 с — Wan 3.0 / Seedance 2.5. Здесь нет команды на запуск.
+
+**Готовность:** Четыре сюжетных PNG созданы и визуально проверены; три исходных опоры сохранены. Все семь изображений приложены ниже. Для части 2 нужен настоящий будущий результат части 1 как @Video1. Изображения и сцена not_approved/DRAFT до решения владельца.
+
+**Референсы и их роли:**
+<div class="scene-ref-gallery">
+<figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="PRIMARY CAT identity: original selected by owner; exclude office props" loading="lazy"></a><figcaption>@Image1 — PRIMARY CAT identity: original selected by owner; exclude office props</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="PRIMARY DOG identity/costume only; exclude incidental people and modern props" loading="lazy"></a><figcaption>@Image2 — PRIMARY DOG identity/costume only; exclude incidental people and modern props</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/branding/KD-poster.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-poster.png" alt="FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography" loading="lazy"></a><figcaption>@Image3 — FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png" alt="Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity" loading="lazy"></a><figcaption>@Image4 — Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png" alt="Front close view: focused cat driving, panicking dog warning; reins and expressive acting" loading="lazy"></a><figcaption>@Image5 — Front close view: focused cat driving, panicking dog warning; reins and expressive acting</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png" alt="Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe" loading="lazy"></a><figcaption>@Image6 — Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png" alt="Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography" loading="lazy"></a><figcaption>@Image7 — Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography</figcaption></figure>
+</div>
+
+**Связка частей:** Часть 1 заканчивается на входе в поворот перед фонарём; часть 2 продолжает тот же проход колеса и разгон на мосту. Скорость, места на козлах и расстояние между дилижансами не сбрасываются. Входы загружать в указанном порядке; изображения — опоры действия, не неподвижные заставки.
+
+<div class="engine-tabs" data-scene="22">
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+#### 22 · Wan 3.0 · 30 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/branding/KD-poster.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 / Seedance 2.5 | Active cinematic stagecoach pursuit; serious painterly animated animal noir, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — PRIMARY CAT identity: original selected by owner; exclude office props; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — PRIMARY DOG identity/costume only; exclude incidental people and modern props; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography; file: projects/kot-detektiv/references/branding/KD-poster.png.
+@Image4 — Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity; file: projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png.
+@Image5 — Front close view: focused cat driving, panicking dog warning; reins and expressive acting; file: projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png.
+@Image6 — Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png.
+@Image7 — Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png.
+Priority: original @Image1 cat and @Image2 dog identities override generated staging. @Image3 controls ONLY fugitive silhouette, never their identities or poster layout. @Image4–7 control their named action phases and coherent vehicles. No incidental props from identity references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: original @Image1 grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker, cape and waistcoat, white collar, brown tie, watch chain, white furry paws. Focused and decisive while driving, no redesign. DOG CONSTABLE: dog from @Image2, taller brown shepherd-mutt, dark muzzle and ears, navy Victorian bobby coat and helmet, furry paws, anxious expressive eyes. FUGITIVE: only the distant silhouette from @Image3: dark brimmed hat, raised collar and long black cape with wind-blown hem. Entire face and species stay concealed; do not identify this figure as any portrait suspect. Every sentient character is an anthropomorphic animal, no humans. Horse teams have normal equine anatomy and gallop naturally.
+
+VEHICLE / SEAT / ACTION LOCK — CRITICAL:
+Exactly TWO four-wheeled enclosed stagecoaches: HERO burgundy body, ochre wooden wheels, brass lamps, two BAY horses; FUGITIVE black body and wheels, brass lamps, two BLACK horses. Each team has its own complete harness, pole and taut reins. Drivers on the exterior high FRONT box behind their horses, not inside passenger cabins. Cat sits on the vehicle RIGHT, dog on vehicle LEFT: front view cat screen-left/dog right, rear view dog left/cat right. Seats never swap. Fugitive starts about 20 metres ahead in the same direction; no third coach, hidden passengers or duplicate silhouette. Both coaches travel left-to-right before the visible right bend, then away across the bridge. Front axle steers, rear wheels follow, suspension leans; wheels retain ground contact. No collision or horse injury. Reins are held by furred paws, never wrapped around bodies. Keyframes show DIFFERENT phases; animate between them, never hold stills.
+
+START STATE:
+Both coaches already galloping along wet London street, black coach about 20 metres ahead to the right, burgundy coach pursuing. Cat on reins, dog braced beside him; bridge turn approaches. @Image4 sets the moving wide staging.
+
+TIMELINE:
+[0:00–0:05] PURSUIT ESTABLISHED. Low lateral tracking reveals both full horse teams and coaches travelling left-to-right; black leads, burgundy closes. Hooves strike wet stones, wheels spin and spray fans backward. No introduction pose.
+
+[0:05–0:10] WARNING ON THE BOX. Motivated cut to @Image5 front close-up: dog spots the tight bridge corner and points with a panicked gasp, other paw gripping rail. Cat narrows eyes, leans into motion and takes up the right rein decisively; both faces remain readable.
+
+[0:10–0:15] COMMIT TO THE BEND. Cut to @Image6 exterior geography: black coach turns onto bridge; bay team follows the cat's steering, burgundy front axle rotates right, body loads its springs. Dog brings pointing paw back to brace. End at the exact bridge state, before near wheel clears lamp.
+
+[0:15–0:20] CLEARANCE AT SPEED. Continue the turn without restarting it. Low tracking follows near wheel narrowly clearing kerb and iron lamp, water bursting outward; coach leans on springs but all wheels stay grounded. Cat counterbalances and straightens the team, dog recoils then grips securely.
+
+[0:20–0:25] ONTO THE BRIDGE. Cut on forward motion to @Image7 rear tracking, respecting reversed screen positions. Burgundy coach accelerates along the bridge, black coach and its own horses ahead. Dog sees the dark cape through spray and points urgently; cat maintains pursuit.
+
+[0:25–0:30] INTO THE FOG. Tracking rises gently to show bridge depth; the two teams keep galloping. Fugitive silhouette crosses a gaslight then becomes obscured by mist, two amber lamps remain ahead. End on unresolved moving pursuit, original score still driving.
+
+END STATE:
+Both coaches accelerating away across intact bridge; black coach roughly 12 metres ahead enters blue fog, its two amber lamps still traceable. Cat keeps driving and dog points forward. Pursuit continues; no capture, face reveal or fade to a stationary pose.
+
+CAMERA / SPACE:
+Four motivated setups: lateral wide, front driver close-up, low exterior bend, rear bridge tracking. Stay on one side of travel axis until the explicit rear cut after the bend. Camera follows real coach speed; no orbit through vehicles, no teleport, no endless whip-pan. Faces sharp during close-up, background and spokes carry selective motion blur.
+
+PERFORMANCE:
+Real-time continuous gallop and urgent acceleration; capes, ears, harness and suspension react to inertia. Cat calm in judgement but physically active, constantly steering and balancing. Dog visibly panicking, quick warning gestures and gasps, then useful spotting; no grin, buffoonery or prolonged frozen reaction. No slow motion, idle hero pose, floating carriage or slideshow.
+
+LIGHTING / MATERIALS:
+Original painterly ink-rich animation: tactile fur and tweed, worn lacquered wood, wet cobbles, warm brass lamps against cold blue fog. Sharp animated faces, atmospheric London depth. No daylight or live-action photorealism.
+
+AUDIO:
+Distinct galloping rhythms, iron tyres on wet cobbles, harness jingle, suspension creak, sharp splashes, wind in capes and dog's startled breath. Original urgent low strings, brass stabs and restrained noir percussion; maintain momentum over cuts. No speech, narration, song or recognizable existing melody.
+
+NEGATIVE PROMPT:
+Humans, exposed human skin or hands, revealed fugitive face/species, raven suspect mistaken for fugitive, duplicate cloaked figure on bridge/roof, extra passengers, switched seats, merged coaches or horse teams, extra horse legs, disconnected reins, wheels moving without horses, floating coach, collisions, injured animals, gore, food gags, modern cars/police tape/electric lights, live-action or generic toy 3D, slow motion, static tableau, identity drift, text overlays, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill entire 16:9 image edge to edge. No letterbox, pillarbox, black bars, borders, collage, split screen or poster layout.
+```
+
+</div>
+<div class="engine-pane" data-engine="sd20x2">
+
+#### 22 · Seedance 2.0 часть 1 · 15 с
+
+**Входы:** @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/branding/KD-poster.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Active cinematic stagecoach pursuit; serious painterly animated animal noir, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — PRIMARY CAT identity: original selected by owner; exclude office props; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — PRIMARY DOG identity/costume only; exclude incidental people and modern props; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography; file: projects/kot-detektiv/references/branding/KD-poster.png.
+@Image4 — Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity; file: projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png.
+@Image5 — Front close view: focused cat driving, panicking dog warning; reins and expressive acting; file: projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png.
+@Image6 — Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png.
+@Image7 — Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png.
+Priority: original @Image1 cat and @Image2 dog identities override generated staging. @Image3 controls ONLY fugitive silhouette, never their identities or poster layout. @Image4–7 control their named action phases and coherent vehicles. No incidental props from identity references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: original @Image1 grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker, cape and waistcoat, white collar, brown tie, watch chain, white furry paws. Focused and decisive while driving, no redesign. DOG CONSTABLE: dog from @Image2, taller brown shepherd-mutt, dark muzzle and ears, navy Victorian bobby coat and helmet, furry paws, anxious expressive eyes. FUGITIVE: only the distant silhouette from @Image3: dark brimmed hat, raised collar and long black cape with wind-blown hem. Entire face and species stay concealed; do not identify this figure as any portrait suspect. Every sentient character is an anthropomorphic animal, no humans. Horse teams have normal equine anatomy and gallop naturally.
+
+VEHICLE / SEAT / ACTION LOCK — CRITICAL:
+Exactly TWO four-wheeled enclosed stagecoaches: HERO burgundy body, ochre wooden wheels, brass lamps, two BAY horses; FUGITIVE black body and wheels, brass lamps, two BLACK horses. Each team has its own complete harness, pole and taut reins. Drivers on the exterior high FRONT box behind their horses, not inside passenger cabins. Cat sits on the vehicle RIGHT, dog on vehicle LEFT: front view cat screen-left/dog right, rear view dog left/cat right. Seats never swap. Fugitive starts about 20 metres ahead in the same direction; no third coach, hidden passengers or duplicate silhouette. Both coaches travel left-to-right before the visible right bend, then away across the bridge. Front axle steers, rear wheels follow, suspension leans; wheels retain ground contact. No collision or horse injury. Reins are held by furred paws, never wrapped around bodies. Keyframes show DIFFERENT phases; animate between them, never hold stills.
+
+START STATE:
+Both coaches already galloping along wet London street, black coach about 20 metres ahead to the right, burgundy coach pursuing. Cat on reins, dog braced beside him; bridge turn approaches. @Image4 sets the moving wide staging.
+
+TIMELINE:
+[0:00–0:05] PURSUIT ESTABLISHED. Low lateral tracking reveals both full horse teams and coaches travelling left-to-right; black leads, burgundy closes. Hooves strike wet stones, wheels spin and spray fans backward. No introduction pose.
+
+[0:05–0:10] WARNING ON THE BOX. Motivated cut to @Image5 front close-up: dog spots the tight bridge corner and points with a panicked gasp, other paw gripping rail. Cat narrows eyes, leans into motion and takes up the right rein decisively; both faces remain readable.
+
+[0:10–0:15] COMMIT TO THE BEND. Cut to @Image6 exterior geography: black coach turns onto bridge; bay team follows the cat's steering, burgundy front axle rotates right, body loads its springs. Dog brings pointing paw back to brace. End at the exact bridge state, before near wheel clears lamp.
+
+END STATE:
+Black coach has cleared the right bend and entered bridge. Burgundy front axle turned right, bay team entering curve, near front wheel still approaching the kerb beside lamp. Cat holds taut reins, dog grips rail; both remain seated. Continuous forward speed, same camera side, no impact.
+
+CAMERA / SPACE:
+Four motivated setups: lateral wide, front driver close-up, low exterior bend, rear bridge tracking. Stay on one side of travel axis until the explicit rear cut after the bend. Camera follows real coach speed; no orbit through vehicles, no teleport, no endless whip-pan. Faces sharp during close-up, background and spokes carry selective motion blur.
+
+PERFORMANCE:
+Real-time continuous gallop and urgent acceleration; capes, ears, harness and suspension react to inertia. Cat calm in judgement but physically active, constantly steering and balancing. Dog visibly panicking, quick warning gestures and gasps, then useful spotting; no grin, buffoonery or prolonged frozen reaction. No slow motion, idle hero pose, floating carriage or slideshow.
+
+LIGHTING / MATERIALS:
+Original painterly ink-rich animation: tactile fur and tweed, worn lacquered wood, wet cobbles, warm brass lamps against cold blue fog. Sharp animated faces, atmospheric London depth. No daylight or live-action photorealism.
+
+AUDIO:
+Distinct galloping rhythms, iron tyres on wet cobbles, harness jingle, suspension creak, sharp splashes, wind in capes and dog's startled breath. Original urgent low strings, brass stabs and restrained noir percussion; maintain momentum over cuts. No speech, narration, song or recognizable existing melody.
+
+NEGATIVE PROMPT:
+Humans, exposed human skin or hands, revealed fugitive face/species, raven suspect mistaken for fugitive, duplicate cloaked figure on bridge/roof, extra passengers, switched seats, merged coaches or horse teams, extra horse legs, disconnected reins, wheels moving without horses, floating coach, collisions, injured animals, gore, food gags, modern cars/police tape/electric lights, live-action or generic toy 3D, slow motion, static tableau, identity drift, text overlays, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill entire 16:9 image edge to edge. No letterbox, pillarbox, black bars, borders, collage, split screen or poster layout.
+```
+
+#### 22 · Seedance 2.0 часть 2 · 15 с
+
+**Входы:** @Video1 — фактический результат части 1 сцены 22 (пока не создан); @Image1 — `projects/kot-detektiv/references/detective-cat-office-portrait.png`; @Image2 — `projects/kot-detektiv/references/detective-cat-police-dog-street.jpg`; @Image3 — `projects/kot-detektiv/references/branding/KD-poster.png`; @Image4 — `projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png`; @Image5 — `projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png`; @Image6 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png`; @Image7 — `projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png`.
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Active cinematic stagecoach pursuit; serious painterly animated animal noir, London 19th century
+
+REFERENCES / AUTHORITY ORDER:
+@Video1 — actual completed Part 1 of THIS scene; final frame, positions, speed and light are START continuity authority.
+@Image1 — PRIMARY CAT identity: original selected by owner; exclude office props; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
+@Image2 — PRIMARY DOG identity/costume only; exclude incidental people and modern props; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
+@Image3 — FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography; file: projects/kot-detektiv/references/branding/KD-poster.png.
+@Image4 — Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity; file: projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png.
+@Image5 — Front close view: focused cat driving, panicking dog warning; reins and expressive acting; file: projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png.
+@Image6 — Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png.
+@Image7 — Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography; file: projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png.
+Priority: original @Image1 cat and @Image2 dog identities override generated staging. @Image3 controls ONLY fugitive silhouette, never their identities or poster layout. @Image4–7 control their named action phases and coherent vehicles. No incidental props from identity references.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+DETECTIVE CAT: original @Image1 grey-brown tabby crown, broad white cheek ruff and muzzle, green analytical eyes, brown tweed deerstalker, cape and waistcoat, white collar, brown tie, watch chain, white furry paws. Focused and decisive while driving, no redesign. DOG CONSTABLE: dog from @Image2, taller brown shepherd-mutt, dark muzzle and ears, navy Victorian bobby coat and helmet, furry paws, anxious expressive eyes. FUGITIVE: only the distant silhouette from @Image3: dark brimmed hat, raised collar and long black cape with wind-blown hem. Entire face and species stay concealed; do not identify this figure as any portrait suspect. Every sentient character is an anthropomorphic animal, no humans. Horse teams have normal equine anatomy and gallop naturally.
+
+VEHICLE / SEAT / ACTION LOCK — CRITICAL:
+Exactly TWO four-wheeled enclosed stagecoaches: HERO burgundy body, ochre wooden wheels, brass lamps, two BAY horses; FUGITIVE black body and wheels, brass lamps, two BLACK horses. Each team has its own complete harness, pole and taut reins. Drivers on the exterior high FRONT box behind their horses, not inside passenger cabins. Cat sits on the vehicle RIGHT, dog on vehicle LEFT: front view cat screen-left/dog right, rear view dog left/cat right. Seats never swap. Fugitive starts about 20 metres ahead in the same direction; no third coach, hidden passengers or duplicate silhouette. Both coaches travel left-to-right before the visible right bend, then away across the bridge. Front axle steers, rear wheels follow, suspension leans; wheels retain ground contact. No collision or horse injury. Reins are held by furred paws, never wrapped around bodies. Keyframes show DIFFERENT phases; animate between them, never hold stills.
+
+START STATE:
+Continue the actual @Video1 final frame with no reset or replay: Black coach has cleared the right bend and entered bridge. Burgundy front axle turned right, bay team entering curve, near front wheel still approaching the kerb beside lamp. Cat holds taut reins, dog grips rail; both remain seated. Continuous forward speed, same camera side, no impact.
+
+TIMELINE:
+[0:00–0:05] CLEARANCE AT SPEED. Continue the turn without restarting it. Low tracking follows near wheel narrowly clearing kerb and iron lamp, water bursting outward; coach leans on springs but all wheels stay grounded. Cat counterbalances and straightens the team, dog recoils then grips securely.
+
+[0:05–0:10] ONTO THE BRIDGE. Cut on forward motion to @Image7 rear tracking, respecting reversed screen positions. Burgundy coach accelerates along the bridge, black coach and its own horses ahead. Dog sees the dark cape through spray and points urgently; cat maintains pursuit.
+
+[0:10–0:15] INTO THE FOG. Tracking rises gently to show bridge depth; the two teams keep galloping. Fugitive silhouette crosses a gaslight then becomes obscured by mist, two amber lamps remain ahead. End on unresolved moving pursuit, original score still driving.
+
+END STATE:
+Both coaches accelerating away across intact bridge; black coach roughly 12 metres ahead enters blue fog, its two amber lamps still traceable. Cat keeps driving and dog points forward. Pursuit continues; no capture, face reveal or fade to a stationary pose.
+
+CAMERA / SPACE:
+Four motivated setups: lateral wide, front driver close-up, low exterior bend, rear bridge tracking. Stay on one side of travel axis until the explicit rear cut after the bend. Camera follows real coach speed; no orbit through vehicles, no teleport, no endless whip-pan. Faces sharp during close-up, background and spokes carry selective motion blur.
+
+PERFORMANCE:
+Real-time continuous gallop and urgent acceleration; capes, ears, harness and suspension react to inertia. Cat calm in judgement but physically active, constantly steering and balancing. Dog visibly panicking, quick warning gestures and gasps, then useful spotting; no grin, buffoonery or prolonged frozen reaction. No slow motion, idle hero pose, floating carriage or slideshow.
+
+LIGHTING / MATERIALS:
+Original painterly ink-rich animation: tactile fur and tweed, worn lacquered wood, wet cobbles, warm brass lamps against cold blue fog. Sharp animated faces, atmospheric London depth. No daylight or live-action photorealism.
+
+AUDIO:
+Distinct galloping rhythms, iron tyres on wet cobbles, harness jingle, suspension creak, sharp splashes, wind in capes and dog's startled breath. Original urgent low strings, brass stabs and restrained noir percussion; maintain momentum over cuts. No speech, narration, song or recognizable existing melody.
+
+NEGATIVE PROMPT:
+Humans, exposed human skin or hands, revealed fugitive face/species, raven suspect mistaken for fugitive, duplicate cloaked figure on bridge/roof, extra passengers, switched seats, merged coaches or horse teams, extra horse legs, disconnected reins, wheels moving without horses, floating coach, collisions, injured animals, gore, food gags, modern cars/police tape/electric lights, live-action or generic toy 3D, slow motion, static tableau, identity drift, text overlays, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill entire 16:9 image edge to edge. No letterbox, pillarbox, black bars, borders, collage, split screen or poster layout.
 ```
 
 </div>

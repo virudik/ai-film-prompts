@@ -3,7 +3,7 @@
   "project": "kotmonavty",
   "scene": 14,
   "title": "Маяк под песком",
-  "updated_at": "2026-10-20T23:31:58Z",
+  "updated_at": "2026-10-21T14:01:08Z",
   "status": "draft_references_ready",
   "editorial_status": "not_approved",
   "references": [
@@ -23,7 +23,7 @@
       "tag": "@Image3",
       "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
       "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
-      "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+      "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21"
     },
     {
       "tag": "@Image4",
@@ -52,7 +52,7 @@
           "tag": "@Image3",
           "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
-          "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+          "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21"
         },
         {
           "tag": "@Image4",
@@ -82,7 +82,7 @@
           "tag": "@Image3",
           "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
-          "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+          "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21"
         },
         {
           "tag": "@Image4",
@@ -112,7 +112,7 @@
           "tag": "@Image3",
           "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
           "path": "projects/kotmonavty/references/scenes/scene-14/KM14-buried-beacon.png",
-          "sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+          "sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21"
         },
         {
           "tag": "@Image4",

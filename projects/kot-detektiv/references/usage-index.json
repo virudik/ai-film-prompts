@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "kot-detektiv",
-  "updated_at": "2026-10-20T23:31:58Z",
-  "generated_image_count": 24,
+  "updated_at": "2026-10-21T13:59:23Z",
+  "generated_image_count": 28,
   "generated_orphans": [],
   "images": [
     {
@@ -21,10 +21,12 @@
     {
       "path": "projects/kot-detektiv/references/branding/KD-poster.png",
       "scenes": [
-        2
+        2,
+        22
       ],
       "roles": [
-        "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет"
+        "Афиша: сверка названия и общего фирменного оформления; не переносить персонажей или плакатную компоновку в анимацию, основной титульный кадр имеет приоритет",
+        "FUGITIVE silhouette only: distant cloaked figure in brimmed hat on upper-right bridge; not the raven portrait, not poster typography"
       ],
       "sha256": "90340b9cfd4027a52ede933509a58ba972de7276c756cef781eea5c24cb37861",
       "editorial_status": "not_approved"
@@ -51,11 +53,13 @@
         18,
         19,
         20,
-        21
+        21,
+        22
       ],
       "roles": [
         "Исходная идентичность кота",
-        "Кот — выбранный владельцем оригинал"
+        "Кот — выбранный владельцем оригинал",
+        "PRIMARY CAT identity: original selected by owner; exclude office props"
       ],
       "sha256": "5e0db003fcf314b7f5f6113654404b3b46f3a709d06722ffe52431ed4a7ad7bd",
       "editorial_status": "not_approved"
@@ -115,11 +119,13 @@
         18,
         19,
         20,
-        21
+        21,
+        22
       ],
       "roles": [
         "Исходная идентичность пса",
-        "Пёс — исходная внешность и форма"
+        "Пёс — исходная внешность и форма",
+        "PRIMARY DOG identity/costume only; exclude incidental people and modern props"
       ],
       "sha256": "91e486a0364e6cdf7a8ce40aec191c1220551f066bc2619d6efe8ae09bd512b4",
       "editorial_status": "not_approved"
@@ -442,6 +448,50 @@
         "Сюжетный кадр: локация, действие и реквизит; не замена идентичности"
       ],
       "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-coach-pursuit.png",
+      "scenes": [
+        22
+      ],
+      "roles": [
+        "Two distinct coaches, horse teams and wide pursuit geography; action staging, not identity"
+      ],
+      "sha256": "79722e9bd7b52f098093af62e69c51b9b43dbed6cdeccd8381196816678e252f",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-driver-close.png",
+      "scenes": [
+        22
+      ],
+      "roles": [
+        "Front close view: focused cat driving, panicking dog warning; reins and expressive acting"
+      ],
+      "sha256": "808ce063a04891df8a55904e69596a14e9a672d631591da4989d98216bb8c631",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-turn.png",
+      "scenes": [
+        22
+      ],
+      "roles": [
+        "Right bend at bridge: coach tilt, kerb clearance, wet road and gas lamp; middle action keyframe"
+      ],
+      "sha256": "37c70b84be206b0b3868020d9b6772ada2fac5a2b46459e4f0fbf540c092a703",
+      "editorial_status": "not_approved"
+    },
+    {
+      "path": "projects/kot-detektiv/references/scenes/scene-22/KD22-bridge-fog.png",
+      "scenes": [
+        22
+      ],
+      "roles": [
+        "Rear bridge shot: dog screen-left and cat screen-right, fugitive ahead, final chase geography"
+      ],
+      "sha256": "647d6e33ac98ddcaef58d76a0ac5315171c0d768accba64f18c730ec7f6de3f5",
       "editorial_status": "not_approved"
     }
   ],
