@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-20T16:59:23Z",
-  "status": "ok",
-  "warnings": 0,
+  "checked_at": "2026-10-21T12:00:31Z",
+  "status": "warn",
+  "warnings": 1,
   "info": 3,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает еженедельное расписание Claude.",
   "problems": [
+    {
+      "level": "warn",
+      "code": "handoff-now-stale",
+      "text": "Верхний блок хендофа от 18.10.2026: старше 3 дней, проверить, что «Сейчас» ещё правда.",
+      "file": "NEW-CHAT-HANDOFF.md"
+    },
     {
       "level": "info",
       "code": "instruction-size",
