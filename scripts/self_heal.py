@@ -34,7 +34,7 @@ STATE = "ops/self-heal.json"
 INBOX = "ops/owner-tasks.json"
 LOCK = "ops/canon-lock.json"
 
-SYNC_STALE = timedelta(minutes=40)        # project-status.json: canon check runs every ~10 minutes
+SYNC_STALE = timedelta(minutes=210)       # status heartbeat is 180 min; one missed check gets a 30 min grace
 SCAN_STALE = timedelta(minutes=40)        # shadow/topview-robot-status.json: robot scan every ~10 minutes
 TELEMETRY_STALE = timedelta(minutes=110)  # topview-status.json: heartbeat 50 min, site says «устарела» at 105
 PAGES_LAG = timedelta(minutes=30)
@@ -80,7 +80,7 @@ def detect(f, now):
     ps = f.get("project_status") or {}
     a = age(now, ps.get("synced_at"))
     if a is None or a > SYNC_STALE:
-        add("sync-stale", f"Статус проекта не обновлялся {mins(a)} (норма — каждые 10 минут).",
+        add("sync-stale", f"Статус проекта не обновлялся {mins(a)} (heartbeat — каждые 180 минут, порог ремонта — 210).",
             {"kind": "dispatch", "workflow": "sync-from-drive.yml"}, "перезапустил проверку канона")
     elif ps.get("health") != "ok":
         add("health-" + "-".join(sorted(ps.get("warnings") or ["unknown"]))[:60],
