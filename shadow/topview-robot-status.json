@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-21T06:30:37Z",
+  "checked_at": "2026-10-21T06:40:35Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 179 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 12,
     "board_task_counts": {
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
@@ -25,9 +23,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 648
     },
-    "pages_scanned": 14,
-    "tasks_seen": 592,
-    "api_requests": 20,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 6,
     "detail_failed": []
   },
   "cursor": {
@@ -52,7 +50,7 @@
     "occupied": 4,
     "free": 2,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -66,7 +64,7 @@
       "scene_id": 39,
       "mapping": "task_map",
       "queue_count": 3244,
-      "wait_seconds": 128689,
+      "wait_seconds": 128093,
       "process_seconds": null
     },
     {
@@ -78,8 +76,8 @@
       "model": "Seedance 2.0",
       "scene_id": 16,
       "mapping": "task_map",
-      "queue_count": 2488,
-      "wait_seconds": 85489,
+      "queue_count": 2487,
+      "wait_seconds": 84893,
       "process_seconds": null
     },
     {
@@ -92,7 +90,7 @@
       "scene_id": 44,
       "mapping": "task_map",
       "queue_count": 3534,
-      "wait_seconds": 145970,
+      "wait_seconds": 145373,
       "process_seconds": null
     },
     {
@@ -104,8 +102,8 @@
       "model": "Seedance 2.0",
       "scene_id": 37,
       "mapping": "task_map",
-      "queue_count": 1278,
-      "wait_seconds": 33649,
+      "queue_count": 1267,
+      "wait_seconds": 33052,
       "process_seconds": null
     }
   ],
@@ -151,7 +149,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-21T06:10:33Z",
-    "monitor_age_minutes": 20,
+    "monitor_age_minutes": 30,
     "monitor_occupied": 4,
     "robot_occupied": 4,
     "consistent": true,
