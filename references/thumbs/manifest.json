@@ -389,9 +389,9 @@
    "height": 960,
    "src_width": 1024,
    "src_height": 1536,
-   "src_bytes": 3143684,
-   "thumb_bytes": 179544,
-   "src_sha256": "65357a00ceea07b49cc05c98b225a281b200427968a5d745df647681c56b77b4"
+   "src_bytes": 2885927,
+   "thumb_bytes": 167264,
+   "src_sha256": "bbccb845267df280133c845f8fa5dac794c4ce82af3e44a53a3ec06a5870f27e"
   },
   "projects/kotmonavty/references/development/KM-bar-compass.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-bar-compass.png.webp",
@@ -409,9 +409,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2888089,
-   "thumb_bytes": 73732,
-   "src_sha256": "598ebff2e5e4619ca3eb9e591ae97a108d868b9ea4c0676d398d3ef2324aeb77"
+   "src_bytes": 2717022,
+   "thumb_bytes": 70980,
+   "src_sha256": "1238fa3abf110ced2e3a3aee00e42ece5f80c39f49c49410a1ce3826506f42dc"
   },
   "projects/kotmonavty/references/development/KM-star-vault.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/development/KM-star-vault.png.webp",
@@ -499,9 +499,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2844080,
-   "thumb_bytes": 72180,
-   "src_sha256": "139d6d2e81b681b082217e0cd4eb75b0d19b0f450d7db3a91372bb2ef6dcd695"
+   "src_bytes": 2672129,
+   "thumb_bytes": 69956,
+   "src_sha256": "8187edacab2e38113be6185de9ee91c76cac31d1c723f8724ebde50f947da318"
   },
   "projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-12/KM12-magnetic-scrapyard.png.webp",
@@ -529,9 +529,9 @@
    "height": 360,
    "src_width": 1672,
    "src_height": 941,
-   "src_bytes": 2671058,
-   "thumb_bytes": 57908,
-   "src_sha256": "e37f9d78820504ce0cac1aabcf66d7d300028f792287d8f61da77f939fe79fbd"
+   "src_bytes": 2459406,
+   "thumb_bytes": 55504,
+   "src_sha256": "df19441266e05bb30607947fd375281d2813ad2e1ddbe3dc6489cbf181071c21"
   },
   "projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png": {
    "thumb": "references/thumbs/projects/kotmonavty/references/scenes/scene-15/KM15-giant-eye.png.webp",
