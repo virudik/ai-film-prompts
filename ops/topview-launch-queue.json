@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-21T16:36:47.035Z",
+  "updated_at": "2026-10-21T16:38:23.661Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4938,7 +4938,7 @@
       "canonical_prompt_sha256": "c14747d44b305245ef2316e2255c0e853ed33b72bf873dd48d880d853d53f305",
       "normalized_prompt_sha256": "88a68120439e836f113e55218fa3e9b0dc69a4296d2c4125e7a99379bf58d7ac",
       "priority": 21,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4982,7 +4982,13 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-chat-20261021T162037592Z",
+        "holder": "chatgpt",
+        "claimed_at": "2026-10-21T16:38:23.661Z",
+        "source": "owner_chat",
+        "max_credits": 0
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S53",
       "selection_record": "reports/seedance-selection-2026-10-18.md"
