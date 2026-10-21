@@ -1483,6 +1483,16 @@
    "thumb_bytes": 60362,
    "src_sha256": "3322150aaa0277e540048ba152f16fd97bb108f4214c1918210c6c750437c77e"
   },
+  "references/scenes/scene-37/S37-seedance-part1-final.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-seedance-part1-final.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 679669,
+   "thumb_bytes": 10802,
+   "src_sha256": "54c8a14eff2119a6a1c841e452429203a72a4894b72041fdb40b1a1dd9ca6738"
+  },
   "references/scenes/scene-37/S37-ship-source-part1-09m03s.png": {
    "thumb": "references/thumbs/scenes/scene-37/S37-ship-source-part1-09m03s.png.webp",
    "width": 640,
