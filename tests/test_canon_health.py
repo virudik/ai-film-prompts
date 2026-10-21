@@ -41,6 +41,16 @@ class CanonHealthTests(unittest.TestCase):
             res = ch.check(repo(d, handoff="## Сейчас 10.10.2026\n" + "x" * 36000), NOW)
             self.assertEqual(codes(res), ["handoff-now-stale", "handoff-size"])
 
+    def test_now_date_comes_from_current_heading_not_preamble(self):
+        with tempfile.TemporaryDirectory() as d:
+            handoff = (
+                "> Схема принята решением владельца 10.10.2026.\n\n"
+                "## СЕЙЧАС (обновлено 18.10.2026, 09:00 МСК)\n"
+                "Текущее состояние.\n"
+            )
+            res = ch.check(repo(d, handoff=handoff), NOW)
+            self.assertNotIn("handoff-now-stale", codes(res))
+
     def test_broken_ref_but_not_removed_or_external(self):
         with tempfile.TemporaryDirectory() as d:
             root = repo(d, extra={"USER-GUIDE.md": "`scripts/gone.py`\nУбран `scripts/old.py`\n`CURRENT-STATE.md`\n`x.py`\n"})
