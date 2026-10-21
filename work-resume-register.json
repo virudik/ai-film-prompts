@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T07:01:45.411Z",
+  "last_updated_at": "2026-10-21T11:59:18.046Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-21T07:01:45.411Z",
+      "verified_at": "2026-10-21T11:59:18.046Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -48,7 +48,7 @@
         "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-21T07:01:45.411Z",
+        "checked_at": "2026-10-21T11:59:18.046Z",
         "mode": "full_account_scan_maintenance",
         "boards": 12,
         "pages": 26,
@@ -67,6 +67,12 @@
           "30cfaf12ad944cd6944416623397e41c",
           "e6a5cf9a3d04413e943c9bbbff9e1f73"
         ],
+        "active_queue_counts": {
+          "42f5f94e994a4768a4618c5cda3fa4d1": 3236,
+          "008058a4705c45c089256116427153d4": 2945,
+          "30cfaf12ad944cd6944416623397e41c": 2114,
+          "e6a5cf9a3d04413e943c9bbbff9e1f73": 654
+        },
         "newly_terminal_success_task_ids": [],
         "claimed_items": [],
         "submission_unknown_items": [],
@@ -75,12 +81,12 @@
         "next": "Wait for actual S16-P1 success and genuine ending QC; then S16-P2."
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-21T07:01:45.411Z",
+        "last_successful_check_at": "2026-10-21T11:59:18.046Z",
         "self_heal": {
           "status": "fixing",
           "changed_at": "2026-10-21T06:07:40Z",
           "heal_key": "sync-stale",
-          "action": "none; robot repair already active; project status recovered"
+          "action": "none; robot repair already active; current project health is ok"
         },
         "owner_tasks": {
           "open_for_chatgpt_any_claude": 0,
@@ -89,7 +95,7 @@
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-21T07:00:45Z",
+          "synced_at": "2026-10-21T11:20:44Z",
           "fresh_within_40_minutes": true
         },
         "canon_health": {
@@ -99,11 +105,11 @@
           "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-19 through 2026-10-21T07:01:45.411Z (24h overlap from prior successful check)",
+          "window": "2026-10-20T07:01:45.411Z through 2026-10-21T11:59:18.046Z (24h overlap from prior successful check)",
           "query_pages": 1,
-          "searched_message_count": 16,
+          "searched_message_count": 7,
           "new_message_count": 0,
-          "deduplicated_known_message_count": 16,
+          "deduplicated_known_message_count": 7,
           "mail_state_changed": false,
           "message_ids": [
             "1a152b4b26899e21",
@@ -229,7 +235,16 @@
             "pages_latest_status": "pending"
           },
           "current_failure": false,
-          "next_window_rule": "from last successful check with 24h overlap"
+          "next_window_rule": "from last successful check with 24h overlap",
+          "latest_query_message_ids": [
+            "1a15a42474d989a0",
+            "1a1568da0a004bf6",
+            "1a1567c220b3528a",
+            "1a15670b3ea532b0",
+            "1a1566d7f06c137b",
+            "1a1566c8b1c19841",
+            "1a15621b5b73b7bf"
+          ]
         }
       }
     },
