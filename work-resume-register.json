@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T16:41:49.292Z",
+  "last_updated_at": "2026-10-21T18:03:31.660Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-21T16:41:49.292Z",
+      "verified_at": "2026-10-21T18:03:31.660Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -74,13 +74,13 @@
         "credits_spent": 0
       },
       "maintenance_checks": {
-        "last_successful_check_at": "2026-10-21T13:28:35.597Z",
+        "last_successful_check_at": "2026-10-21T18:03:31.660Z",
         "self_heal": {
-          "status": "repair_sent_verification_pending",
-          "changed_at": "2026-10-21T12:03:17Z",
+          "status": "ok_verified",
+          "changed_at": "2026-10-21T17:23:13Z",
           "heal_key": "sync-stale",
           "owner_task_id": "self-heal-sync-stale-202610211203",
-          "diagnosis": "false positive: project-status unchanged heartbeat is 180 min, watchdog threshold was 40 min",
+          "diagnosis": "false positive fixed: watchdog threshold aligned with the 180-minute heartbeat",
           "repair_commits": [
             "baab75aede4add1799f828e24aa30fb431c1d589",
             "b2f17939f8c18d822cdd960849feaa4a65ce1d18",
@@ -90,43 +90,37 @@
           ],
           "tests": "tests.test_self_heal + tests.test_canon_health: 15/15 passed",
           "latest_observed_workflow_run": {
-            "run_id": 39596488277,
+            "run_id": 39643202942,
             "conclusion": "success",
-            "started_at_display": "2026-10-21 12:02 UTC",
-            "note": "predates repair; not accepted as recovery proof"
+            "started_at": "2026-10-21T17:22:23Z",
+            "completed_at": "2026-10-21T17:23:19Z",
+            "head_sha": "630531496dc5b7a271f5b3ff3523a2b1f4ccf010"
           },
-          "action": "wait for an actual post-fix self-heal run and read back status=ok before closing owner task"
+          "action": "owner task closed done after actual post-fix self-heal=ok readback",
+          "closure_commit": "32f83607f4aa66324e68a70f267c287e6fc4e726"
         },
         "owner_tasks": {
           "open_for_chatgpt_any_claude": 0,
-          "taken_by_chatgpt": 1,
+          "taken_by_chatgpt": 0,
           "supabase_open_owner_decisions": 0,
-          "action": "self-heal task remains taken; closure waits actual post-fix self-heal=ok"
+          "action": "verified self-heal task closed; no remaining actionable tasks"
         },
         "project_status": {
           "health": "ok",
-          "synced_at": "2026-10-21T13:10:37Z",
-          "fresh_within_corrected_210_minutes": true
+          "synced_at": "2026-10-21T17:50:47Z",
+          "fresh_within_40_minutes": true
         },
         "canon_health": {
           "status": "ok",
           "checked_at": "2026-10-21T13:12:39Z",
           "warn_or_error_count": 0,
-          "info_count": 3,
-          "cleanup": "completed; current heading refreshed, accumulated changes archived, parser fixed to read current heading date",
-          "commits": [
-            "66baa8c1a01b70dc955ac25e5d47e4271d263ed4",
-            "134de2e43aeabb144f25b7b22ec08f6fe9e012b8",
-            "c6173a6b7bfc9bd4f319605117bd85a31bbdd4f1",
-            "121a88c4a3a83828749afbf984268b42a2a231a2"
-          ],
-          "takeover_brief_valid": true
+          "info_count": 3
         },
         "github_mail_audit": {
-          "window": "2026-10-20T07:01:45.411Z through 2026-10-21T11:59:18.046Z (24h overlap from prior successful check)",
+          "window": "2026-10-20T13:28:35.597Z through 2026-10-21T18:03:31.660Z (24h overlap from prior successful check; Gmail query covered 2 days)",
           "query_pages": 1,
-          "searched_message_count": 7,
-          "new_message_count": 0,
+          "searched_message_count": 10,
+          "new_message_count": 3,
           "deduplicated_known_message_count": 7,
           "mail_state_changed": false,
           "message_ids": [
@@ -173,7 +167,10 @@
             "1a1566d7f06c137b",
             "1a1566c8b1c19841",
             "1a15621b5b73b7bf",
-            "1a15a42474d989a0"
+            "1a15a42474d989a0",
+            "1a15f048f80630d3",
+            "1a15e58d2b22a4db",
+            "1a15e56069dfd430"
           ],
           "run_ids": [
             39206350248,
@@ -220,7 +217,12 @@
             39339623915,
             39329935816,
             39462198805,
-            39470879540
+            39470879540,
+            39623230312,
+            39596166449,
+            39637090346,
+            39648758027,
+            39643202942
           ],
           "resolved_by_subsequent_success": {
             "canon_health": 39237799284,
@@ -231,30 +233,41 @@
             "drive_archive_20261019": 39383195312,
             "pages_build_20261020": 39417828784,
             "drive_archive_20261020": 39418380463,
-            "canon_health_20261020_publish_race": 39470879540
+            "canon_health_20261020_publish_race": 39470879540,
+            "canon_health_20261021": 39637090346,
+            "topview_robot_shadow_publish_20261021": 39648758027
           },
           "diagnoses": {
             "canon_health": "Five failure notices were transient queue/master warnings for scenes57/58 plus a concurrent push; current canon-health has zero warn/error and later runs succeeded.",
             "drive_archive": "Run39329935816 archived and verified data but failed to persist the index because of a rebase conflict; later scheduled run39383195312 completed every step successfully.",
             "pages_build_20261020": "Four cancelled Pages runs were superseded by newer pushes; each cancellation was followed by a successful Pages run. Latest completed Pages run39417828784 succeeded; a newer run39419006393 was in progress at read time.",
-            "canon_health_20261020_publish_race": "Run39462198805 computed status=ok/warnings=0 but failed publishing canon-health.json after a concurrent push left git rebase conflicts across retries. Workflow fixed in commit8d1a879 to reset from fresh origin/main and recompute on every attempt; replacement run39470879540 succeeded."
+            "canon_health_20261020_publish_race": "Run39462198805 computed status=ok/warnings=0 but failed publishing canon-health.json after a concurrent push left git rebase conflicts across retries. Workflow fixed in commit8d1a879 to reset from fresh origin/main and recompute on every attempt; replacement run39470879540 succeeded.",
+            "canon_health_20261021": "Two notification messages referenced the same run39596166449; its handoff-age warning was removed and later run39637090346 succeeded with current canon-health clean.",
+            "topview_robot_shadow_publish_20261021": "Run39623230312 completed the full Topview scan successfully; only the shadow-status commit failed on a concurrent-push rebase conflict. Later scheduled robot runs, including39648758027, succeeded."
           },
           "actions_verification": {
-            "checked_at": "2026-10-21T07:01:45.411Z",
+            "checked_at": "2026-10-21T18:03:31.660Z",
             "runs_examined_current_check": 100,
             "current_failure": false,
-            "canonical_run_id": 39558107006,
+            "canonical_run_id": 39647585058,
             "canonical_run_conclusion": "success",
-            "topview_robot_run_id": 39558961512,
+            "topview_robot_run_id": 39648758027,
             "topview_robot_conclusion": "success",
-            "archive_run_id": 39558425426,
+            "archive_run_id": 39648028093,
             "archive_conclusion": "success",
-            "pages_latest_run_id": 39559061058,
-            "pages_latest_status": "pending"
+            "self_heal_run_id": 39643202942,
+            "self_heal_conclusion": "success",
+            "pages_latest_completed_run_id": 39647415470,
+            "pages_latest_completed_conclusion": "success",
+            "pages_newer_run_id": 39648864850,
+            "pages_newer_status": "in_progress"
           },
           "current_failure": false,
           "next_window_rule": "from last successful check with 24h overlap",
           "latest_query_message_ids": [
+            "1a15f048f80630d3",
+            "1a15e58d2b22a4db",
+            "1a15e56069dfd430",
             "1a15a42474d989a0",
             "1a1568da0a004bf6",
             "1a1567c220b3528a",
@@ -537,7 +550,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-21T16:41:49.292Z",
+      "verified_at": "2026-10-21T18:03:31.660Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -620,13 +633,18 @@
         "bf3465e1c4de4a869f4bba5f2eed5acf",
         "008058a4705c45c089256116427153d4"
       ],
-      "current_run_id": "chatgpt-chat-20261021T162037592Z",
+      "current_run_id": "chatgpt-automation-20261021T180331660Z",
       "last_resume_check": {
-        "checked_at": "2026-10-21T16:38:57.662Z",
+        "checked_at": "2026-10-21T18:03:31.660Z",
         "boards": 12,
-        "pages": 18,
+        "pages": 25,
         "total_tasks": 918,
         "complete": true,
+        "status_counts": {
+          "success": 875,
+          "fail": 37,
+          "init": 6
+        },
         "active_task_ids": [
           "4b323d19cf444009a3b3fc4b3c3b3aed",
           "1751294fbf5f49dbb00a0f44401486ca",
@@ -637,13 +655,9 @@
         ],
         "occupied_slots": 6,
         "free_slots": 0,
-        "run_id": "chatgpt-chat-20261021T162037592Z",
-        "mode": "owner_chat_browser_launches",
-        "new_submissions": [
-          "af627d97836d4832a1a4ad8cf24fa921",
-          "1751294fbf5f49dbb00a0f44401486ca",
-          "4b323d19cf444009a3b3fc4b3c3b3aed"
-        ],
+        "run_id": "chatgpt-automation-20261021T180331660Z",
+        "mode": "scheduled_read_only_slots_full",
+        "new_submissions": [],
         "credits_spent": 0
       }
     },
