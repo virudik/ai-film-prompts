@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T16:39:50.142Z",
+  "last_updated_at": "2026-10-21T16:41:49.292Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-21T13:28:35.597Z",
+      "verified_at": "2026-10-21T16:41:49.292Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -27,7 +27,7 @@
         "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success."
       ],
       "next_actions": [
-        "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate."
+        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -41,38 +41,37 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use free slots to bypass the explicit ordering gate.",
+      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1.",
       "blockers": [
-        "S16-SEED20-P2 waits the genuine checked ending of active S16-SEED20-P1 task30cfaf12ad944cd6944416623397e41c; one physical slot is free but owner ordering forbids skipping ahead.",
-        "42P1/P2→56P1/P2→48P1/P2 require genuine predecessor outputs; S57/S58 remain blocked until all eight worm parts are submitted, and each P2 requires its own genuine P1 ending.",
-        "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
+        "Сейчас6/6активных задач;свободныхслотов0.",
+        "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
+        "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
+        "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-21T12:59:44.792Z",
-        "mode": "full_account_scan_self_heal_repair",
+        "checked_at": "2026-10-21T16:38:57.662Z",
         "boards": 12,
-        "pages": 26,
-        "tasks": 915,
+        "pages": 18,
+        "total_tasks": 918,
         "complete": true,
-        "status_counts": {
-          "success": 874,
-          "fail": 37,
-          "init": 4
-        },
-        "occupied_slots": 4,
-        "free_slots": 2,
         "active_task_ids": [
+          "4b323d19cf444009a3b3fc4b3c3b3aed",
+          "1751294fbf5f49dbb00a0f44401486ca",
+          "af627d97836d4832a1a4ad8cf24fa921",
           "42f5f94e994a4768a4618c5cda3fa4d1",
           "008058a4705c45c089256116427153d4",
-          "30cfaf12ad944cd6944416623397e41c",
-          "e6a5cf9a3d04413e943c9bbbff9e1f73"
+          "30cfaf12ad944cd6944416623397e41c"
         ],
-        "newly_terminal_success_task_ids": [],
-        "claimed_items": [],
-        "submission_unknown_items": [],
-        "new_submissions": [],
-        "credits_spent": 0,
-        "next": "Wait for actual S16-P1 success and genuine ending QC; then S16-P2."
+        "occupied_slots": 6,
+        "free_slots": 0,
+        "run_id": "chatgpt-chat-20261021T162037592Z",
+        "mode": "owner_chat_browser_launches",
+        "new_submissions": [
+          "af627d97836d4832a1a4ad8cf24fa921",
+          "1751294fbf5f49dbb00a0f44401486ca",
+          "4b323d19cf444009a3b3fc4b3c3b3aed"
+        ],
+        "credits_spent": 0
       },
       "maintenance_checks": {
         "last_successful_check_at": "2026-10-21T13:28:35.597Z",
@@ -538,7 +537,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-21T16:39:50.142Z",
+      "verified_at": "2026-10-21T16:41:49.292Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -563,7 +562,7 @@
         "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО."
       ],
       "next_actions": [
-        "Продолжить независимые готовые пункты по priority при свободных общих слотах (сейчас40P1, затем следующий готовый). Ветка червя16P2→42→56→48 ждёт настоящих концов;57/58 остаются после всех8частей червя."
+        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -586,11 +585,12 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "16P1 and39P1 remain init; their P2 require actual results.",
-        "57/58 require all8worm parts submitted.",
-        "37P2 awaits true new37P1 continuity QC;44SeedanceP1 needs genuine corrected43 ending."
+        "Сейчас6/6активных задач;свободныхслотов0.",
+        "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
+        "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
+        "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
-      "next_action": "Продолжить независимые готовые пункты по priority при свободных общих слотах (сейчас40P1, затем следующий готовый). Ветка червя16P2→42→56→48 ждёт настоящих концов;57/58 остаются после всех8частей червя.",
+      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -622,11 +622,29 @@
       ],
       "current_run_id": "chatgpt-chat-20261021T162037592Z",
       "last_resume_check": {
-        "at": "2026-10-21T16:39:50.142Z",
-        "run_id": "chatgpt-chat-20261021T162037592Z",
-        "last_submitted": "S53-SEED20-P1",
+        "checked_at": "2026-10-21T16:38:57.662Z",
+        "boards": 12,
+        "pages": 18,
+        "total_tasks": 918,
+        "complete": true,
+        "active_task_ids": [
+          "4b323d19cf444009a3b3fc4b3c3b3aed",
+          "1751294fbf5f49dbb00a0f44401486ca",
+          "af627d97836d4832a1a4ad8cf24fa921",
+          "42f5f94e994a4768a4618c5cda3fa4d1",
+          "008058a4705c45c089256116427153d4",
+          "30cfaf12ad944cd6944416623397e41c"
+        ],
         "occupied_slots": 6,
-        "free_slots": 0
+        "free_slots": 0,
+        "run_id": "chatgpt-chat-20261021T162037592Z",
+        "mode": "owner_chat_browser_launches",
+        "new_submissions": [
+          "af627d97836d4832a1a4ad8cf24fa921",
+          "1751294fbf5f49dbb00a0f44401486ca",
+          "4b323d19cf444009a3b3fc4b3c3b3aed"
+        ],
+        "credits_spent": 0
       }
     },
     {

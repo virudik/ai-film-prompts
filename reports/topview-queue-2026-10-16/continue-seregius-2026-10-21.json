@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "run_id": "chatgpt-chat-20261021T162037592Z",
+  "checked_at": "2026-10-21T16:41:49.292Z",
+  "launch_source": "explicit_owner_chat_browser",
+  "previous_idle_cause": "Stale register next_action extended worm/57/58 dependencies to all ready items. Corrected CONTINUE-001 and FILM-20261015-ALL-READY; actual dependencies unchanged.",
+  "baseline": {
+    "checked_at": "2026-10-21T16:20:40.893Z",
+    "boards": 12,
+    "pages": 18,
+    "total_tasks": 915,
+    "counts": {
+      "success": 875,
+      "init": 3,
+      "fail": 37
+    },
+    "complete": true,
+    "active": [
+      {
+        "task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Wan 3.0",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "task_id": "008058a4705c45c089256116427153d4",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits": 0
+      },
+      {
+        "task_id": "30cfaf12ad944cd6944416623397e41c",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init",
+        "model": "Seedance 2.0",
+        "unlimited": true,
+        "credits": 0
+      }
+    ],
+    "free_slots": 3
+  },
+  "final_scan": {
+    "checked_at": "2026-10-21T16:38:57.662Z",
+    "boards": 12,
+    "pages": 18,
+    "total_tasks": 918,
+    "complete": true,
+    "active_task_ids": [
+      "4b323d19cf444009a3b3fc4b3c3b3aed",
+      "1751294fbf5f49dbb00a0f44401486ca",
+      "af627d97836d4832a1a4ad8cf24fa921",
+      "42f5f94e994a4768a4618c5cda3fa4d1",
+      "008058a4705c45c089256116427153d4",
+      "30cfaf12ad944cd6944416623397e41c"
+    ],
+    "occupied_slots": 6,
+    "free_slots": 0
+  },
+  "submitted": [
+    {
+      "item_id": "S37-SEED20-P2",
+      "task_id": "af627d97836d4832a1a4ad8cf24fa921",
+      "submitted_at": "2026-10-21T16:32:06Z",
+      "useUnlimitMode": true,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S37-SEED20-P2-2026-10-21.json"
+    },
+    {
+      "item_id": "S40-SEED20-P1",
+      "task_id": "1751294fbf5f49dbb00a0f44401486ca",
+      "submitted_at": "2026-10-21T16:35:37Z",
+      "useUnlimitMode": true,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S40-SEED20-P1-2026-10-21.json"
+    },
+    {
+      "item_id": "S53-SEED20-P1",
+      "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+      "submitted_at": "2026-10-21T16:38:40Z",
+      "useUnlimitMode": true,
+      "creditsCost": 0,
+      "receipt": "reports/topview-queue-2026-10-16/S53-SEED20-P1-2026-10-21.json"
+    }
+  ],
+  "credits_spent": 0,
+  "editorial_approval": false,
+  "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1.",
+  "blockers": [
+    "Сейчас6/6активных задач;свободныхслотов0.",
+    "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
+    "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
+    "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
+  ]
+}
