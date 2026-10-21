@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-21T13:28:35.597Z",
+  "last_updated_at": "2026-10-21T16:21:22.269Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -538,7 +538,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-20T18:01:38.400Z",
+      "verified_at": "2026-10-21T16:21:22.269Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -559,10 +559,12 @@
         "18Oct: incorporated Claude71d9357f/eb2a3e0a/593a70f9/c7131f47; dynamic Wan scripts,42→56→48,selected WookieeV2 and city-edge52/53.24queue prompt/input audits passed; Pages exact master confirmed; same automation updated.",
         "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified.",
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
-        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once through Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6refs/Unlimited0; exact current prompt and input order verified. Full post-submit scan11boards/16pages/913tasks:6active/0free."
+        "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once through Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6refs/Unlimited0; exact current prompt and input order verified. Full post-submit scan11boards/16pages/913tasks:6active/0free.",
+        "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО."
       ],
       "next_actions": [
-        "Fresh main/lock/fullscan;43→54→36→37parts→39parts→40parts→44, then rest by readiness. Prepare true Seedance2.0 adaptation44 before launch. ActualVideo1 for eachpart2;42P2→56P1→56P2→48P1;52P1after44. ONE15s A1 after story, then owner review. S41already submitted; no newWan dances/action, no2.5, no45/46/55repeats. Soundtrack deferred."
+        "Inspect/save true37P1 ending, prepare37P2; execute independently ready queued items by current priority/mandatory dependencies until6occupied.",
+        "Keep all worm-output dependencies and57/58 gate; no reruns, no cat-project queue, Unlimited0 only."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -585,9 +587,9 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "S16-SEED20-P2 waits the genuine checked ending of active S16-SEED20-P1 task30cfaf12ad944cd6944416623397e41c; one physical slot is free but owner ordering forbids skipping ahead.",
-        "42P1/P2→56P1/P2→48P1/P2 require genuine predecessor outputs; S57/S58 remain blocked until all eight worm parts are submitted, and each P2 requires its own genuine P1 ending.",
-        "S44 starts require the genuine downloaded/QC result of corrected S43; SeedanceP2 requires actual P1; S52 requires owner-selected44 ending."
+        "16P1 and39P1 remain init; their P2 require actual results.",
+        "57/58 require all8worm parts submitted.",
+        "37P2 awaits true new37P1 continuity QC;44SeedanceP1 needs genuine corrected43 ending."
       ],
       "next_action": "Wait for actual S16-P1 success; download/QC/save its genuine ending, then S16-P2. Continue actual-output chain42→56→48, then57→58; do not use the currently free slot to bypass the explicit ordering gate.",
       "remaining_reference_work": [
@@ -618,7 +620,8 @@
       "new_topview_task_ids": [
         "bf3465e1c4de4a869f4bba5f2eed5acf",
         "008058a4705c45c089256116427153d4"
-      ]
+      ],
+      "current_run_id": "chatgpt-chat-20261021T162037592Z"
     },
     {
       "work_id": "FILM-20261016-S25-FORWARD-BATTLE",
