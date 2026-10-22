@@ -3,7 +3,7 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-22T00:10:51Z",
+  "synced_at": "2026-10-22T01:10:41Z",
   "revision_date": "21.10.2026",
   "master_declared_last_full_sync": "21.10.2026 · текущая по live Topview/Drive сверке",
   "canonical_master_sha256": "34ff519bcbf9ae71d98f38063651f984613a1f7b81874723b8ab2d7f2b223bdd",
@@ -103,7 +103,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 11.105,
+    "age_hours_at_status_build": 12.102,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -182,7 +182,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 11.105,
+      "age_hours": 12.102,
       "blocking": false
     },
     "topview_task_map": {
@@ -674,7 +674,7 @@
   },
   "audit_fingerprint": {
     "revision_date": "21.10.2026",
-    "synced_at": "2026-10-22T00:10:51Z",
+    "synced_at": "2026-10-22T01:10:41Z",
     "canonical_master_sha256": "34ff519bcbf9ae71d98f38063651f984613a1f7b81874723b8ab2d7f2b223bdd",
     "canonical_revision_sha256": "5e02da0b963601329abcf50df6f47473c6fbc992b6aca5613c0623e3835b93c2",
     "scene_count": 21,
