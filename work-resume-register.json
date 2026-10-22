@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T08:49:43.006Z",
+  "last_updated_at": "2026-10-22T09:38:32.658Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1270,12 +1270,13 @@
       "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
       "title": "Серёгиус: сравнить модели на активных танцах после завершения сюжетных сцен",
       "status": "waiting_story_completion",
-      "verified_at": "2026-10-22T08:49:43.006Z",
+      "verified_at": "2026-10-22T09:38:32.658Z",
       "owner_decision_source": "Прямое сообщение владельца 22.10.2026: сначала доделать все сюжетные сцены, затем сравнивать модели на активных танцах; снова проверить бесплатность Seedance 2.5.",
       "done": [
         "Saved owner comparison plan and completion gate; baseline A1 kept without duplicate.",
         "Checked Seedance2.5 account UI: Unlimited locked,15s720p18credits/30s720p36credits. No submission or charge.",
-        "Updated existing automation6acae6ab433481919e88665c520b8ef2; prompt read-back verified; hourly HH:55 schedule and enabled state preserved."
+        "Updated existing automation6acae6ab433481919e88665c520b8ef2; prompt read-back verified; hourly HH:55 schedule and enabled state preserved.",
+        "22Oct account UI check: free selected Unlimited confirmed for Seedance2.0/Mini720p, Wan3.0 720p, MiniMaxH3 768p and2K; image models also checked. See reports/topview-unlimited-account-2026-10-22.json. No launches."
       ],
       "next_action": "Продолжать сюжетную очередь по свежему main. Когда все выбранные сюжетные сцены доделаны, подготовить сравнимые канонические модельные варианты, повторно проверить бесплатность2.5 и выполнить согласованный танцевальный тест без дубляA1.",
       "blockers": [
@@ -1287,7 +1288,8 @@
         "ops/dance-model-comparison.md",
         "ops/topview-launch-queue.json",
         "reports/seedance25-free-check-2026-10-22.jpg",
-        "reports/current-work-checkpoint.md"
+        "reports/current-work-checkpoint.md",
+        "reports/topview-unlimited-account-2026-10-22.json"
       ],
       "scope": "Только план, проверка доступности и передача существующей автоматике. Без генераций, оплаты, одобрения, удаления и повторных запусков.",
       "pre_checkpoint_commit": "bfa4dd71724fd5fe6ff2d26cf24e9d711f6c49e2",

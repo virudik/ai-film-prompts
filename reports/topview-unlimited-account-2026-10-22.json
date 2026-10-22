@@ -1,0 +1,128 @@
+{
+  "checked_at": "2026-10-22T09:37:02.322Z",
+  "findings": [
+    {
+      "model": "Seedance 2.0",
+      "mode": "omni",
+      "resolution": "720p",
+      "duration": 15,
+      "free": true
+    },
+    {
+      "model": "Seedance 2.0 Mini",
+      "mode": "omni",
+      "resolution": "720p",
+      "duration": 15,
+      "free": true
+    },
+    {
+      "model": "Wan 3.0",
+      "mode": "omni",
+      "resolution": "720p",
+      "duration": 30,
+      "free": true
+    },
+    {
+      "model": "MiniMax H3",
+      "mode": "omni",
+      "resolution": "768p",
+      "duration": 15,
+      "free": true
+    },
+    {
+      "model": "MiniMax H3",
+      "mode": "omni",
+      "resolution": "2K",
+      "duration": 15,
+      "free": true
+    },
+    {
+      "model": "Kling O1 Video-Edit",
+      "resolution": "1080p",
+      "free": false,
+      "reason": "Unlimited locked / upgrade shown"
+    },
+    {
+      "model": "Seedance 1.0 Pro Fast",
+      "resolution": "720p/1080p",
+      "duration": 5,
+      "free": false,
+      "reason": "Upgrade required in both resolutions"
+    },
+    {
+      "model": "Kling 2.6",
+      "duration": 5,
+      "free": false,
+      "reason": "Unlimited locked / upgrade shown"
+    },
+    {
+      "model": "Kling Motion Control Std",
+      "resolution": "720p",
+      "free": false,
+      "reason": "Unlimited locked; credit quote 0 has no uploaded duration, not free entitlement"
+    },
+    {
+      "model": "GPT Image 2.5 Flare",
+      "mode": "image-edit",
+      "resolution": "1K",
+      "quality": "medium",
+      "free": true
+    },
+    {
+      "model": "GPT Image 2.5 Sunburst",
+      "mode": "image-edit",
+      "resolution": "1K",
+      "quality": "medium",
+      "free": true
+    },
+    {
+      "model": "GPT Image 2",
+      "mode": "image-edit",
+      "resolution": "1K",
+      "quality": "medium",
+      "free": true
+    },
+    {
+      "model": "Nano Banana 2.1",
+      "mode": "image-edit",
+      "resolution": "1K/2K",
+      "free": true
+    },
+    {
+      "model": "Nano Banana Pro",
+      "mode": "image-edit",
+      "resolution": "2K",
+      "free": true
+    },
+    {
+      "model": "Nano Banana 2",
+      "mode": "image-edit",
+      "resolution": "2K",
+      "free": true
+    },
+    {
+      "model": "Seedream 5.0 Pro",
+      "mode": "image-edit",
+      "resolution": "2K",
+      "free": true
+    },
+    {
+      "model": "Seedream 5.0 Lite",
+      "mode": "image-edit",
+      "resolution": "2K",
+      "free": true
+    }
+  ],
+  "proof_path": "reports/topview-unlimited-images-2026-10-22.jpg",
+  "project": "seregius",
+  "account_plan": "Ultra Annual",
+  "method": "Visible signed-in web UI; free only when selected mode says Безлимитный режим — бесплатно. No generation; no credits spent.",
+  "scope": "Advertised Unlimited candidates checked in form; not exhaustive of every model/parameter/mode. Price without required input does not prove free access.",
+  "previous_check": {
+    "model": "Seedance 2.5",
+    "free": false,
+    "at": "2026-10-22T08:45:00Z",
+    "report": "ops/dance-model-comparison.md"
+  },
+  "recorded_at": "2026-10-22T09:38:32.658Z"
+}
