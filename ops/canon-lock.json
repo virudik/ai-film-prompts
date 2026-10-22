@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "20:55 maintenance: close verified self-heal task and record Topview/GitHub/mail checks",
-  "acquired_at": "2026-10-21T18:02:42.109Z",
-  "expires_at": null,
-  "released_at": "2026-10-21T18:03:40.474Z",
+  "task": "09:55 maintenance: record Topview/GitHub/mail checks",
+  "acquired_at": "2026-10-22T06:55:13.317Z",
+  "expires_at": "2026-10-22T07:15:13.317Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
