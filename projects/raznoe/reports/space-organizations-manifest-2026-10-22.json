@@ -84,5 +84,26 @@
   ],
   "video_launches": 0,
   "queue_modified": false,
-  "second_parts_dependency": "actual Part 1 video results are not yet generated"
+  "second_parts_dependency": "actual Part 1 video results are not yet generated",
+  "verification": {
+    "checked_at": "2026-10-22T21:33:10.637Z",
+    "health": "ok",
+    "scenes": 8,
+    "prompt_blocks": 24,
+    "registered_images": 8,
+    "projects_validate": "passed",
+    "git_diff_check": "passed",
+    "pages_deploy_run": 39857435757,
+    "pages_deploy_conclusion": "success",
+    "thumbnails_run": 39857326277,
+    "thumbnails_conclusion": "success",
+    "ui_scene_cards": 8,
+    "ui_scene_images": 8,
+    "ui_assets": 8,
+    "ui_engine_switch": "Seedance 2.0 2x15 selected and prompt visible",
+    "public_thumbnail_manifest_scene_images": 8,
+    "cache_note": "Existing browser cached old thumbnail manifest for 600s, while public deployed manifest already contains all 8 new scene paths. Individual scene and asset images are visible.",
+    "video_launches": 0,
+    "queue_modified": false
+  }
 }
