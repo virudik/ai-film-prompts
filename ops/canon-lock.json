@@ -2,9 +2,9 @@
   "schema_version": 1,
   "state": "held",
   "holder": "chatgpt",
-  "task": "MONITOR-20261023: stale project check and free slot S16-P2",
-  "acquired_at": "2026-10-22T21:37:27.737Z",
-  "expires_at": "2026-10-22T22:22:27.737Z",
+  "task": "TAKEOVER-20261023: reconcile receipt and readiness audit",
+  "acquired_at": "2026-10-22T22:22:30.132Z",
+  "expires_at": "2026-10-22T22:42:30.132Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
