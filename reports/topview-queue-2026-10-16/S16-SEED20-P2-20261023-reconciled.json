@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "project": "seregius",
+  "item_id": "S16-SEED20-P2",
+  "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "run_id": "chatgpt-chat-2026-10-22T215255721Z-S16P2",
+  "launch_source": "previous_owner_chat_browser",
+  "submitted_at": "2026-10-22T21:53:25Z",
+  "reconciled_at": "2026-10-22T22:24:45Z",
+  "canonical_block_label": "16 · Seedance 2.0 часть 2",
+  "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
+  "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
+  "full_normalized_prompt_match": true,
+  "status_at_verification": "init",
+  "actual_settings": {
+    "model": "Seedance 2.0",
+    "model_id": "seedance-2.0-style",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "useUnlimitMode": true,
+    "creditsCost": 0,
+    "image_count": 5,
+    "image_names": [
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5"
+    ],
+    "video_count": 1,
+    "video_names": [
+      "Video1"
+    ],
+    "video_durations": [
+      3
+    ]
+  },
+  "expected_input_sources": [
+    {
+      "slot": "@Video1",
+      "path": "S16-P1-last3s.mp4",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "role": "continuity_video",
+      "input_status": "available",
+      "source_item_id": "S16-SEED20-P1",
+      "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+      "storage": "private_library",
+      "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+      "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+      "bytes": 1849932,
+      "duration_seconds": 3,
+      "source_range_seconds": [
+        12,
+        15
+      ],
+      "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+      "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+      "qc": {
+        "checked_at": "2026-10-22T21:45:53.400Z",
+        "status": "usable_continuity_input",
+        "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+        "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+        "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+        "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+      }
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/ilyusha.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "8d4d4bf282b5dd0ca88a060f7e48646ba41dab7692c393400ab928a39c0ec00b",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/full/artem.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "281f15155855869e27b8e5b8838a93451fbaa7cb382decacd89cfad11c4be8ba",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/full/serega.jpg",
+      "role": "identity",
+      "required": true,
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-16/S16-desert-location-clean.png",
+      "role": "location",
+      "required": true,
+      "sha256": "3f67c9fd3a53298137a87022ed2d9fa107ca99095e625aa8ed6babdd259f09ff",
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-16/S16-worm-scale.png",
+      "role": "pose_composition_helper",
+      "required": true,
+      "sha256": "f61ec2e9a94501e51fff5dfa338a85c2732c321d05afe6c2e22ba7f54f57be2a",
+      "input_status": "available"
+    }
+  ],
+  "verification": {
+    "method": "Read-only Topview get_board_task; exact normalized canonical prompt; task created 30 seconds after persisted claim; robot telemetry independently maps task to Scene 16 Part 2.",
+    "local_expected_sources_sha256": "all six match; genuine 12-15s source trim matches private Library record",
+    "input_verification_limit": "API confirms ordered slots/counts and 3-second video duration; uploaded binary hashes were not independently downloaded in this takeover. Original pre-submit UI match is recorded in the existing claim.",
+    "ui_proof": null,
+    "ui_proof_note": "Original submit screenshot not recovered. Published Control Center row visibly confirms Part 2 and 23.10.2026 00:53:25 MSK. No new submit was performed.",
+    "telemetry_commit": "cc8457bf",
+    "scheduled_confirmation_run": "b5fb8a36-e240-8326-b03b-d832761388e9"
+  },
+  "editorial_approval": false,
+  "new_submissions_in_this_takeover": 0
+}

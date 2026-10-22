@@ -14,29 +14,22 @@
       ],
       "scenes": [
         16,
-        27,
         28,
-        30,
-        31,
-        32,
         33,
-        34,
-        35,
         36,
         37,
-        38,
         39,
         40,
         41,
         42,
-        43,
         44,
         47,
         48,
+        49,
+        51,
         52,
         53,
-        54,
-        55
+        56
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -69,6 +62,22 @@
             21
           ],
           "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
+        },
+        {
+          "label": "Историческое использование — вне активного мастера",
+          "scenes": [
+            27,
+            30,
+            31,
+            32,
+            34,
+            35,
+            38,
+            43,
+            54,
+            55
+          ],
+          "notes": "Перенесено из active scenes при приёме 23.10.2026; не новое решение о приёмке. История и модельный лист сохранены."
         }
       ],
       "reference_priority": "ВЫСШИЙ — этот лист является каноническим identity/costume reference Серёги.",
@@ -80,7 +89,8 @@
       "aliases": [],
       "scenes": [
         28,
-        55
+        49,
+        51
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -111,6 +121,13 @@
             21
           ],
           "notes": "Исторические номера сохранены; active master их больше не содержит. Статусы — review-ledger.json."
+        },
+        {
+          "label": "Историческое использование — вне активного мастера",
+          "scenes": [
+            55
+          ],
+          "notes": "Перенесено из active scenes при приёме 23.10.2026; не новое решение о приёмке. История и модельный лист сохранены."
         }
       ],
       "reference_priority": "ВЫСШИЙ — exact identity/costume sheet Юли. Сцену не назначать без явной связи в master или решения пользователя.",
@@ -125,7 +142,9 @@
       ],
       "scenes": [
         28,
-        36
+        36,
+        49,
+        51
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -179,7 +198,9 @@
         16,
         28,
         42,
-        48
+        48,
+        49,
+        56
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -229,7 +250,9 @@
         16,
         28,
         42,
-        48
+        48,
+        49,
+        56
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -284,7 +307,8 @@
       ],
       "scenes": [
         28,
-        36
+        36,
+        49
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -336,7 +360,8 @@
       ],
       "scenes": [
         13,
-        28
+        28,
+        49
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -377,7 +402,8 @@
       ],
       "scenes": [
         13,
-        28
+        28,
+        49
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -420,7 +446,8 @@
         "Lava-Laguna"
       ],
       "scenes": [
-        28
+        28,
+        49
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -464,14 +491,11 @@
       ],
       "scenes": [
         13,
-        24,
-        25,
-        27,
         28,
-        30,
-        31,
-        32,
-        47
+        47,
+        49,
+        57,
+        58
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -511,6 +535,18 @@
             26
           ],
           "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
+        },
+        {
+          "label": "Историческое использование — вне активного мастера",
+          "scenes": [
+            24,
+            25,
+            27,
+            30,
+            31,
+            32
+          ],
+          "notes": "Перенесено из active scenes при приёме 23.10.2026; не новое решение о приёмке. История и модельный лист сохранены."
         }
       ]
     },
@@ -522,14 +558,11 @@
         "GINGER CAT"
       ],
       "scenes": [
-        24,
-        25,
-        27,
         28,
-        30,
-        31,
-        32,
-        47
+        47,
+        49,
+        57,
+        58
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -561,6 +594,18 @@
             26
           ],
           "notes": "Владелец подтвердил вставку; сцены выведены из active master. История сохранена без ссылок на отсутствующие активные якоря; см. review-ledger.json."
+        },
+        {
+          "label": "Историческое использование — вне активного мастера",
+          "scenes": [
+            24,
+            25,
+            27,
+            30,
+            31,
+            32
+          ],
+          "notes": "Перенесено из active scenes при приёме 23.10.2026; не новое решение о приёмке. История и модельный лист сохранены."
         }
       ]
     },
@@ -573,7 +618,8 @@
         "Ale28"
       ],
       "scenes": [
-        28
+        28,
+        49
       ],
       "model_sheet": {
         "source": "Two exact input photographs from owner-specified Topview task dd7ccc1b23334ea0b54455a6605e12ea; generated multi-view sheet visually checked 2026-10-08",
@@ -602,7 +648,7 @@
     "scene_specific": "Characters not in the global registry must be resolved from fresh scene references/master; do not invent a global model sheet.",
     "prompt_rule": "When a registered character is used in a new prompt, include canonical name, reference role, and enough stable appearance/costume description to prevent identity confusion."
   },
-  "updated_at": "2026-10-16T11:36:29Z",
+  "updated_at": "2026-10-22T22:24:45Z",
   "note": "All twelve characters (eleven user-provided sheets plus Ale28) are used in Scene 28 end-credit dance; this records scene usage, not new reference assets or render approval. Scene 20 future prompts and Scene 28 preserve Masha's smooth opaque full-length costume. Scene-specific variants, local reference numbering, cat scale and Luchik/Ryzhik identities remain governed by fresh master.",
-  "scene_lists_reconciled_at": "2026-10-14T00:22:44Z"
+  "scene_lists_reconciled_at": "2026-10-22T22:24:45Z"
 }

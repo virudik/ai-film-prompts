@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T21:52:55.721Z",
+  "updated_at": "2026-10-22T22:24:45Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5550,7 +5550,7 @@
       "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
       "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
       "priority": 1.1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5634,7 +5634,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
       "claim": {
         "run_id": "chatgpt-chat-2026-10-22T215255721Z-S16P2",
         "claimed_at": "2026-10-22T21:52:55.721Z",
@@ -5657,7 +5657,9 @@
           ],
           "ui_prompt_normalized_match": true,
           "owner_decisions_open": 0
-        }
+        },
+        "resolved_at": "2026-10-22T22:24:45Z",
+        "result": "submitted_verified_reconciliation"
       },
       "authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
       "replaces_unsubmitted_item": "S16-S16",
@@ -5671,7 +5673,33 @@
         "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608"
       ],
       "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
-      "prepared_at": "2026-10-22T21:45:53.400Z"
+      "prepared_at": "2026-10-22T21:45:53.400Z",
+      "submitted_at": "2026-10-22T21:53:25Z",
+      "receipt": "reports/topview-queue-2026-10-16/S16-SEED20-P2-20261023-reconciled.json",
+      "actual_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "image_count": 5,
+        "image_names": [
+          "Image1",
+          "Image2",
+          "Image3",
+          "Image4",
+          "Image5"
+        ],
+        "video_count": 1,
+        "video_names": [
+          "Video1"
+        ],
+        "video_durations": [
+          3
+        ]
+      }
     },
     {
       "id": "S57-AVENUE-IMAGE",
@@ -6200,7 +6228,8 @@
     "S45": "76f62cdad1bd4cff8ebc3306a0a3ec6b",
     "S46": "6ada672ccc5e48d2b1438c0aa18af945",
     "B8": "5333994f739f4a8b813a6a36dcb7e140",
-    "S16-SEED20-P1": "30cfaf12ad944cd6944416623397e41c"
+    "S16-SEED20-P1": "30cfaf12ad944cd6944416623397e41c",
+    "S16-SEED20-P2": "cd37ab3fd3ab4e1782b295ace2a3b1d4"
   },
   "not_selected_alternatives": {
     "scene28": [

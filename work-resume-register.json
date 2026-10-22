@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T22:22:57.057872+00:00",
+  "last_updated_at": "2026-10-22T22:24:45Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-22T19:53:52.807Z",
+      "verified_at": "2026-10-22T22:24:45Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -24,10 +24,11 @@
         "19Oct14:55MSK: complete Topview scan found 5 active Unlimited videos and one free slot. S37 Seedance2.0 settings and four exact input SHAs were verified, but cloud-browser import could not transfer supported files; no claim/Create/task/credits. Generation phase marked blocked_browser only.",
         "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions.",
         "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free.",
-        "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success."
+        "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success.",
+        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0."
       ],
       "next_actions": [
-        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1."
+        "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -43,8 +44,8 @@
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
       "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1.",
       "blockers": [
-        "Сейчас6/6активных задач;свободныхслотов0.",
-        "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
+        "6/6 активных задач по телеметрии 22:10:37 UTC и прямой проверке всех шести; новый полный скан перед следующим запуском.",
+        "S42-P1 ждёт настоящий проверенный результат S16-P2; остальные continuation-input blockers сохраняются.",
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
@@ -544,7 +545,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-22T19:53:52.807Z",
+      "verified_at": "2026-10-22T22:24:45Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -566,10 +567,11 @@
         "18Oct03:03MSK: S41 submitted exactly once via authorized Topview website, task bf3465e1c4de4a869f4bba5f2eed5acf; Wan3/30s/720p/16:9/6images/quantity1/Unlimited0; exact normalized current master prompt verified.",
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
         "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once through Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6refs/Unlimited0; exact current prompt and input order verified. Full post-submit scan11boards/16pages/913tasks:6active/0free.",
-        "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО."
+        "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО.",
+        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0."
       ],
       "next_actions": [
-        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1."
+        "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -592,8 +594,8 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "Сейчас6/6активных задач;свободныхслотов0.",
-        "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
+        "6/6 активных задач по телеметрии 22:10:37 UTC и прямой проверке всех шести; новый полный скан перед следующим запуском.",
+        "S42-P1 ждёт настоящий проверенный результат S16-P2; остальные continuation-input blockers сохраняются.",
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
@@ -1133,7 +1135,7 @@
       "work_id": "FILM-20261020-WORM-SEEDANCE",
       "title": "Активные бои с червём: Seedance2.0, первоочередная ветка и свободный запуск",
       "status": "in_progress",
-      "verified_at": "2026-10-20T21:01:17.485Z",
+      "verified_at": "2026-10-22T22:24:45Z",
       "owner_instruction": "20Oct2026 01:32:57MSK: доработать боевые/червя, запускать через Seedance, поставить следующими; слот освободился, кнопки сайта нажаты.",
       "done": [
         "Свежие main/очередь/manifests прочитаны. Полный live-скан11досок/17страниц/911задач:5 активных Unlimited видео,1свободный слот. S55 success.",
@@ -1145,12 +1147,11 @@
         "Published72f3150c;10files exact readback; master/integration/canon workflows success; Pages39337702619 deployed exact master blobf64343d8;healthok.",
         "S16-SEED20-P1 submitted once22:51:48UTC,task30cfaf12ad944cd6944416623397e41c;Seedance2.0/15s/720p/16:9/qty1/6images+1video/Unlimited/0credits;full normalized prompt exact.",
         "Post-submit full11boards/17pages/912tasks:6active/0free. Receipt and UI proof saved; no further submit.",
-        "20Oct20:17UTC external activity reconciled: canonical Wan S44 prompt appeared twice outside this assistant. Free Wan task42f5f94e994a4768a4618c5cda3fa4d1 init/Unlimited/0, but metadata has4images+0videos, so required actual corrected43 Video1 is absent/unverified; counted as its one Wan attempt, no duplicate. Paid task3c01baad89544304aaa803725f6aae4b succeeded as Seedance2.5/30s/36credits/4images+0videos; not authorized, not the selected Seedance2.0 P1, no acceptance."
+        "20Oct20:17UTC external activity reconciled: canonical Wan S44 prompt appeared twice outside this assistant. Free Wan task42f5f94e994a4768a4618c5cda3fa4d1 init/Unlimited/0, but metadata has4images+0videos, so required actual corrected43 Video1 is absent/unverified; counted as its one Wan attempt, no duplicate. Paid task3c01baad89544304aaa803725f6aae4b succeeded as Seedance2.5/30s/36credits/4images+0videos; not authorized, not the selected Seedance2.0 P1, no acceptance.",
+        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0."
       ],
       "next_actions": [
-        "Wait for actual S16-P1 success; inspect and save the genuine ending with provenance/SHA/QC, then launch S16-P2 through Unlimited0 after fresh main/lock/full scan.",
-        "Continue42P1→42P2→56P1→56P2→48P1→48P2 with actual output dependencies; new42Image6 only from new16P2.",
-        "Only after all eight worm parts are submitted, proceed57P1→57P2 and58P1→58P2; no bypass via the currently free slot."
+        "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета."
       ],
       "constraints": [
         "Только сайт Unlimited0,720p,16:9,quantity1; платныйMCPзапуск запрещён.",
@@ -1162,7 +1163,12 @@
         "reports/worm-seedance-2026-10-20.md",
         "reports/topview-queue-2026-10-16/S16-SEED20-P1-20261020.jpg"
       ],
-      "waiting_on": "Actual S16-P1 result for continuity. Live account now has 6 active Unlimited0 videos, including the externally submitted S44 Wan task. Do not bypass 16→42→56→48→57→58 and do not repeat S44."
+      "waiting_on": "Actual S16-P1 result for continuity. Live account now has 6 active Unlimited0 videos, including the externally submitted S44 Wan task. Do not bypass 16→42→56→48→57→58 and do not repeat S44.",
+      "blockers": [
+        "6/6 активных задач по телеметрии 22:10:37 UTC и прямой проверке всех шести; новый полный скан перед следующим запуском.",
+        "S42-P1 ждёт настоящий проверенный результат S16-P2; остальные continuation-input blockers сохраняются.",
+        "S44 Seedance ждёт исправленный реальный конец43; S52 ждёт выбор владельцем результата44."
+      ]
     },
     {
       "work_id": "FILM-20261020-S57-S58-IMAGES",
@@ -1347,8 +1353,8 @@
     {
       "work_id": "MONITOR-20261023",
       "title": "Проверка GitHub всех проектов и свободный слот Серёгиуса",
-      "status": "in_progress",
-      "verified_at": "2026-10-22T21:45:53.400Z",
+      "status": "completed",
+      "verified_at": "2026-10-22T22:24:45Z",
       "pre_checkpoint_commit": "aa2d9e106926f1129cbb2a3256f5e9326a95e11b",
       "done": [
         "Полный скан 13 досок/19 страниц/918 задач: 5 активных Unlimited0, свободен 1 слот.",
@@ -1356,14 +1362,17 @@
         "Причина старой даты: projects.py игнорировал все изменения времени, а общий периодический цикл не обновлял статусы проектов.",
         "Исправление: проекты валидируются общим sync-from-drive; действительный heartbeat180мин; 217 unit tests, site contract, canon health и brief15/15 прошли.",
         "S16-P1 оригинал и последние3сек сохранены в Library; последний кадр/контактный лист просмотрены; это технический QC, не приёмка.",
-        "S16-P2 ready input: actual 12–15s of S16-P1 saved with SHA/provenance/Library IDs, real end frame and QC contact sheet in Git."
+        "S16-P2 ready input: actual 12–15s of S16-P1 saved with SHA/provenance/Library IDs, real end frame and QC contact sheet in Git.",
+        "23Oct takeover: project-check fix 46b64e0f is published; all four project statuses health=ok.",
+        "S16-P2 launch reconciled by direct read-only task evidence: cd37ab3fd3ab4e1782b295ace2a3b1d4, Seedance2.0/15s/720p/16:9/Unlimited0. No duplicate submit; receipt saved."
       ],
-      "next_action": "Finish GUI preflight, fresh anti-duplicate scan/owner decisions, CAS-claim S16-P2 and one Unlimited0 submit.",
+      "next_action": "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета.",
       "blockers": [],
       "canonical_refs": [
         "reports/monitor-slot-checkpoint-2026-10-23.md",
         "ops/topview-launch-queue.json",
-        "projects/README.md"
+        "projects/README.md",
+        "reports/topview-queue-2026-10-16/S16-SEED20-P2-20261023-reconciled.json"
       ]
     },
     {
@@ -1371,7 +1380,7 @@
       "title": "Приём смены и сверка незавершённой записи S16-P2",
       "status": "in_progress",
       "verified_at": "2026-10-22T22:22:57.057872+00:00",
-      "next_action": "Reconcile existing S16-P2 receipt, correct verified character scene links, record technical readiness and release lock.",
+      "next_action": "Verify published receipt/character registry/checkpoint, then release lock. Technical checks have passed.",
       "canonical_refs": [
         "reports/current-work-checkpoint.md",
         "deep-audit-status.json",

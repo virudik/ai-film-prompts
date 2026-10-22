@@ -115,5 +115,237 @@
       "free_slots": 6,
       "local_timestamp": "08.10.2026, 23:06:34 МСК"
     }
+  },
+  "latest_takeover_readiness": {
+    "checked_at": "2026-10-22T22:24:45Z",
+    "mode": "D7 with additional technical readiness checks",
+    "source_head": "e38222d6d0e22ece1f5958cc4a936832894e4bdf",
+    "status": "ready_for_confirmed_queue_continuation",
+    "checks": {
+      "d7": "15/15; eight live source hashes match; certificate7/7 fresh",
+      "unit_tests": 217,
+      "site_contract": "passed",
+      "published_files_equal": 9,
+      "expected_queue_local_references_sha256": 95,
+      "owner_decisions_open": 0,
+      "owner_tasks_open": 0,
+      "monitor_role": "robot primary; chatgpt skip",
+      "six_known_active_tasks": "all init, Unlimited=true, creditsCost=0",
+      "notion_pointer": "read-only historical pointer; GitHub main authority correctly stated",
+      "characters": "12 sheets exist; current scene links reconciled to active master, history preserved",
+      "montage": "both reports and film-analysis/backlog read; recommendations distinguished from current owner decisions"
+    },
+    "character_scene_changes": [
+      {
+        "character": "serega",
+        "before": [
+          16,
+          27,
+          28,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          47,
+          48,
+          52,
+          53,
+          54,
+          55
+        ],
+        "after": [
+          16,
+          28,
+          33,
+          36,
+          37,
+          39,
+          40,
+          41,
+          42,
+          44,
+          47,
+          48,
+          49,
+          51,
+          52,
+          53,
+          56
+        ]
+      },
+      {
+        "character": "yulya",
+        "before": [
+          28,
+          55
+        ],
+        "after": [
+          28,
+          49,
+          51
+        ]
+      },
+      {
+        "character": "pasha",
+        "before": [
+          28,
+          36
+        ],
+        "after": [
+          28,
+          36,
+          49,
+          51
+        ]
+      },
+      {
+        "character": "artem",
+        "before": [
+          16,
+          28,
+          42,
+          48
+        ],
+        "after": [
+          16,
+          28,
+          42,
+          48,
+          49,
+          56
+        ]
+      },
+      {
+        "character": "ilyusha",
+        "before": [
+          16,
+          28,
+          42,
+          48
+        ],
+        "after": [
+          16,
+          28,
+          42,
+          48,
+          49,
+          56
+        ]
+      },
+      {
+        "character": "sasha",
+        "before": [
+          28,
+          36
+        ],
+        "after": [
+          28,
+          36,
+          49
+        ]
+      },
+      {
+        "character": "lesha",
+        "before": [
+          13,
+          28
+        ],
+        "after": [
+          13,
+          28,
+          49
+        ]
+      },
+      {
+        "character": "vitalik",
+        "before": [
+          13,
+          28
+        ],
+        "after": [
+          13,
+          28,
+          49
+        ]
+      },
+      {
+        "character": "masha-laguna",
+        "before": [
+          28
+        ],
+        "after": [
+          28,
+          49
+        ]
+      },
+      {
+        "character": "luchik",
+        "before": [
+          13,
+          24,
+          25,
+          27,
+          28,
+          30,
+          31,
+          32,
+          47
+        ],
+        "after": [
+          13,
+          28,
+          47,
+          49,
+          57,
+          58
+        ]
+      },
+      {
+        "character": "ryzhik",
+        "before": [
+          24,
+          25,
+          27,
+          28,
+          30,
+          31,
+          32,
+          47
+        ],
+        "after": [
+          28,
+          47,
+          49,
+          57,
+          58
+        ]
+      },
+      {
+        "character": "alesya",
+        "before": [
+          28
+        ],
+        "after": [
+          28,
+          49
+        ]
+      }
+    ],
+    "limitations": [
+      "This is a current technical/continuation audit, not a new full editorial audit of every prompt or continuous audiovisual review. Historical last_deep_audit_at is intentionally unchanged.",
+      "Film-backlog historical operational paragraphs remain stale; current master/queue/owner decisions take precedence.",
+      "No new generation, approval, slow removal, schedule change or telemetry heartbeat."
+    ]
   }
 }
