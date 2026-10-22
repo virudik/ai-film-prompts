@@ -1,16 +1,8 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "fixing",
-  "problems": {
-    "lock-forgotten": {
-      "text": "Замок канона (chatgpt) истёк 22.10 10:28 UTC и не снят.",
-      "since": "2026-10-22T11:19:35Z",
-      "fixes": 1,
-      "last_fix_at": "2026-10-22T11:19:35Z",
-      "escalated_at": null
-    }
-  },
+  "status": "ok",
+  "problems": {},
   "log": [
     {
       "at": "2026-10-21T06:07:40Z",
@@ -47,7 +39,13 @@
       "kind": "fixed",
       "key": "lock-forgotten",
       "text": "Нашёл: Замок канона (chatgpt) истёк 22.10 10:28 UTC и не снят. Сделал: снял просроченный замок канона."
+    },
+    {
+      "at": "2026-10-22T11:49:38Z",
+      "kind": "resolved",
+      "key": "lock-forgotten",
+      "text": "Прошло: Замок канона (chatgpt) истёк 22.10 10:28 UTC и не снят."
     }
   ],
-  "changed_at": "2026-10-22T11:19:35Z"
+  "changed_at": "2026-10-22T11:49:38Z"
 }
