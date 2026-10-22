@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 16,
-  "updated_at": "2026-10-22T21:45:53.400Z",
+  "updated_at": "2026-10-22T22:59:17.859Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "ready",
   "references": [
@@ -169,7 +169,7 @@
   ],
   "prop_refs": [],
   "start_frame": "references/scenes/scene-16/S16-three-character-standoff.png",
-  "end_frame": null,
+  "end_frame": "references/scenes/scene-16/S16-P2-end.png",
   "pose_composition_helpers": [
     "references/scenes/scene-16/S16-three-character-standoff.png",
     "references/scenes/scene-16/S16-worm-scale.png"
@@ -508,8 +508,8 @@
     "status": "existing_gallery_in_published_master",
     "manifest_publication": "included_with_this_repository_version"
   },
-  "last_qc_at": "2026-10-08T09:58:58.592675Z",
-  "last_qc_scope": "local byte integrity, canonical slot coverage, saved receipts; earlier visual QC retained, no new owner approval",
+  "last_qc_at": "2026-10-22T22:59:17.859Z",
+  "last_qc_scope": "S16 Seedance2.0 P2 result: full-size final frame plus contact-sheet technical continuity QC; no editorial approval inferred",
   "invariants": [
     "individual identity sheets outrank group/pose helpers",
     "@Image numbering is local to each autonomous prompt",
@@ -591,6 +591,29 @@
       "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
       "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
       "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+    },
+    "editorial_approval": "not_inferred"
+  },
+  "part2_result": {
+    "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+    "completed_at": "2026-10-22T22:41:27Z",
+    "source_library_file_id": "libfile_856ba7afdc54819193913418cba4c555",
+    "source_sha256": "2b10690e49d6f77734ce6557e7728d1550641b93bba77875812939b8c093ecb2",
+    "source_bytes": 9860672,
+    "duration_seconds": 15.104,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "final_frame_path": "references/scenes/scene-16/S16-P2-end.png",
+    "final_frame_sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+    "qc": {
+      "checked_at": "2026-10-22T22:59:17.859Z",
+      "status": "usable_continuity_input",
+      "scope": "full-size final frame plus contact sheet; technical continuity, not editorial approval",
+      "notes": "Exactly three living fighters remain visible: Artem frame-left in green, Serega centre in red, Ilyusha frame-right in blue. Feet are planted; the gigantic worm is behind the intact gate piers and central obelisk. No extra people, map or vehicle are visible.",
+      "final_frame_path": "references/scenes/scene-16/S16-P2-end.png",
+      "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P2-contact.jpg"
     },
     "editorial_approval": "not_inferred"
   }

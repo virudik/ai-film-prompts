@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T22:24:45Z",
+  "updated_at": "2026-10-22T22:59:17.859Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4334,7 +4334,7 @@
       "canonical_prompt_sha256": "8cfb529eb9afdec7239414f61451b66af5cb0b8dcfc6c8f501bd105b30d13126",
       "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
       "priority": 2,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4385,11 +4385,21 @@
         },
         {
           "slot": "@Image6",
+          "path": "references/scenes/scene-16/S16-P2-end.png",
+          "sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+          "dimensions": [
+            1280,
+            720
+          ],
           "required": true,
           "canonical_role": "start_frame",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S16-SEED20-P2",
-          "source_requirement": "Extract genuine clean final frame of NEW Seedance16 P2; save PNG/SHA/provenance/QC. Old accepted16 frame is historical."
+          "source_topview_task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+          "source_completed_at": "2026-10-22T22:41:27Z",
+          "provenance_report": "reports/topview-queue-2026-10-23/S16-SEED20-P2-result.json",
+          "qc_status": "usable_continuity_input",
+          "source_requirement": "Satisfied by genuine clean final frame of NEW Seedance16 P2; old accepted16 frame remains historical."
         }
       ],
       "task_id": null,
@@ -4411,8 +4421,8 @@
       "depends_on_completed": [
         "S16-SEED20-P2"
       ],
-      "blocker": "Need actual final frame of NEW S16-SEED20-P2; old16 result is not this variant.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": null,
+      "launch_readiness": "reference_inputs_available"
     },
     {
       "id": "S42-SEED20-P2",
@@ -5699,6 +5709,23 @@
         "video_durations": [
           3
         ]
+      },
+      "terminal_status": "success",
+      "completed_at": "2026-10-22T22:41:27Z",
+      "result_evidence": {
+        "source_library_file_id": "libfile_856ba7afdc54819193913418cba4c555",
+        "source_sha256": "2b10690e49d6f77734ce6557e7728d1550641b93bba77875812939b8c093ecb2",
+        "source_bytes": 9860672,
+        "duration_seconds": 15.104,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "final_frame_path": "references/scenes/scene-16/S16-P2-end.png",
+        "final_frame_sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+        "qc_status": "usable_continuity_input",
+        "report": "reports/topview-queue-2026-10-23/S16-SEED20-P2-result.json",
+        "editorial_approval": "not_inferred"
       }
     },
     {

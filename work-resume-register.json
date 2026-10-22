@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T22:29:58.164Z",
+  "last_updated_at": "2026-10-22T22:59:17.859Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-22T22:24:45Z",
+      "verified_at": "2026-10-22T22:59:17.859Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -25,10 +25,11 @@
         "19Oct14:55MSK maintenance: self-heal/project/canon healthy, no open owner tasks. First 7-day Gmail audit read 37 GitHub failure notices without modifying mail state; all Canon health, integration recovery, Topview robot and Drive archive failures were resolved by later successful Actions.",
         "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once via signed-in Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6images/Unlimited0; raw and normalized current master prompt exact. Post-submit full11board/16page/913task scan:6active,0free.",
         "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success.",
-        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0."
+        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0.",
+        "23Oct01:59MSK: full13-board/19-page/919-task scan found all six prior active tasks success and0active. S16-P2 original preserved in Library, genuine final PNG/contact sheet saved with SHA/QC; S42-P1 now has exact actual @Image6 and is waiting_for_slot. No editorial approval inferred."
       ],
       "next_actions": [
-        "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета."
+        "Запустить S42-P1 ровно один раз через бесплатный website Seedance2.0 после fresh main/owner decisions/full scan/CAS claim и видимых Unlimited0; затем сохранить настоящий результат для S42-P2. S16-P2 не повторять."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -42,10 +43,8 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1.",
+      "next_action": "S42-P1 готова с настоящим концом S16-P2. Перед единственным Create: fresh main/owner decisions, полный скан, lock/CAS claim, точные6изображений и полный prompt, Seedance2.0/15s/720p/16:9/qty1/Unlimited0. Затем42P2→56→48→57→58 только по настоящим результатам.",
       "blockers": [
-        "6/6 активных задач по телеметрии 22:10:37 UTC и прямой проверке всех шести; новый полный скан перед следующим запуском.",
-        "S42-P1 ждёт настоящий проверенный результат S16-P2; остальные continuation-input blockers сохраняются.",
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
@@ -545,7 +544,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-22T22:24:45Z",
+      "verified_at": "2026-10-22T22:59:17.859Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -568,10 +567,11 @@
         "Owner18Oct03:09: future dance/action Seedance2.0. Selected18 canonical15s parts for9unsubmitted story scenes; superseded Wan items/B10; S44 blocked_model_preparation; existing automation updated. Background soundtrack DEFERRED. See reports/seedance-selection-2026-10-18.md.",
         "20Oct11:04MSK: S39-SEED20-P1 submitted exactly once through Topview website, task008058a4705c45c089256116427153d4; Seedance2.0/15s/720p/16:9/qty1/6refs/Unlimited0; exact current prompt and input order verified. Full post-submit scan11boards/16pages/913tasks:6active/0free.",
         "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО.",
-        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0."
+        "23Oct takeover: S16-P2 previous-chat launch verified and claim resolved; six known active tasks directly read as init/Unlimited0.",
+        "23Oct01:59MSK: full13-board/19-page/919-task scan found all six prior active tasks success and0active. S16-P2 original preserved in Library, genuine final PNG/contact sheet saved with SHA/QC; S42-P1 now has exact actual @Image6 and is waiting_for_slot. No editorial approval inferred."
       ],
       "next_actions": [
-        "Дождаться фактического результата S16-P2; проверить и сохранить настоящий конец для S42-P1, затем 42→56→48→57→58 по зависимостям и свежим слотам. S16-P2 не отправлять повторно. Танцевальное сравнение только после завершения выбранного сюжета."
+        "Запустить S42-P1 ровно один раз через бесплатный website Seedance2.0 после fresh main/owner decisions/full scan/CAS claim и видимых Unlimited0; затем сохранить настоящий результат для S42-P2. S16-P2 не повторять."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -594,12 +594,10 @@
         "status": "paused after global blocked_browser"
       },
       "blockers": [
-        "6/6 активных задач по телеметрии 22:10:37 UTC и прямой проверке всех шести; новый полный скан перед следующим запуском.",
-        "S42-P1 ждёт настоящий проверенный результат S16-P2; остальные continuation-input blockers сохраняются.",
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
-      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1.",
+      "next_action": "S42-P1 готова с настоящим концом S16-P2. Перед единственным Create: fresh main/owner decisions, полный скан, lock/CAS claim, точные6изображений и полный prompt, Seedance2.0/15s/720p/16:9/qty1/Unlimited0. Затем42P2→56→48→57→58 только по настоящим результатам.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -607,51 +605,44 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-22T19:53:52.807Z",
-        "boards": 12,
-        "pages": 27,
-        "total_tasks": 918,
+        "checked_at": "2026-10-22T22:55:00Z",
+        "boards": 13,
+        "pages": 19,
+        "total_tasks": 919,
         "complete": true,
-        "occupied_slots": 6,
-        "free_slots": 0,
-        "active_unlimited_task_ids": [
+        "occupied_slots": 0,
+        "free_slots": 6,
+        "active_unlimited_task_ids": [],
+        "newly_terminal_success_task_ids": [
+          "cd37ab3fd3ab4e1782b295ace2a3b1d4",
           "4b323d19cf444009a3b3fc4b3c3b3aed",
           "1751294fbf5f49dbb00a0f44401486ca",
           "af627d97836d4832a1a4ad8cf24fa921",
           "42f5f94e994a4768a4618c5cda3fa4d1",
-          "008058a4705c45c089256116427153d4",
-          "30cfaf12ad944cd6944416623397e41c"
+          "008058a4705c45c089256116427153d4"
         ],
-        "newly_terminal_success_task_ids": []
+        "scan_status_counts": {"success": 882, "fail": 37}
       },
       "new_topview_task_ids": [
         "bf3465e1c4de4a869f4bba5f2eed5acf",
         "008058a4705c45c089256116427153d4"
       ],
-      "current_run_id": "chatgpt-automation-20261022T195352807Z",
+      "current_run_id": "chatgpt-automation-20261022T2253Z",
       "last_resume_check": {
-        "checked_at": "2026-10-22T19:53:52.807Z",
-        "boards": 12,
-        "pages": 27,
-        "total_tasks": 918,
+        "checked_at": "2026-10-22T22:55:00Z",
+        "boards": 13,
+        "pages": 19,
+        "total_tasks": 919,
         "complete": true,
         "status_counts": {
-          "success": 875,
-          "fail": 37,
-          "init": 6
+          "success": 882,
+          "fail": 37
         },
-        "active_task_ids": [
-          "4b323d19cf444009a3b3fc4b3c3b3aed",
-          "1751294fbf5f49dbb00a0f44401486ca",
-          "af627d97836d4832a1a4ad8cf24fa921",
-          "42f5f94e994a4768a4618c5cda3fa4d1",
-          "008058a4705c45c089256116427153d4",
-          "30cfaf12ad944cd6944416623397e41c"
-        ],
-        "occupied_slots": 6,
-        "free_slots": 0,
-        "run_id": "chatgpt-automation-20261022T195352807Z",
-        "mode": "scheduled_read_only_slots_full",
+        "active_task_ids": [],
+        "occupied_slots": 0,
+        "free_slots": 6,
+        "run_id": "chatgpt-automation-20261022T2253Z",
+        "mode": "scheduled_result_qc_and_continuity_preparation",
         "new_submissions": [],
         "credits_spent": 0,
         "open_owner_decisions": 0,

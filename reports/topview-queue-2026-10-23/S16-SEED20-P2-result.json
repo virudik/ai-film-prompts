@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "item_id": "S16-SEED20-P2",
+  "topview_task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
+  "status": "success",
+  "created_at": "2026-10-22T21:53:25Z",
+  "completed_at": "2026-10-22T22:41:27Z",
+  "settings": {
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "dimensions": [1280, 720],
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "creditsCost": 0,
+    "image_count": 5,
+    "video_count": 1
+  },
+  "source_result": {
+    "library_file_id": "libfile_856ba7afdc54819193913418cba4c555",
+    "sha256": "2b10690e49d6f77734ce6557e7728d1550641b93bba77875812939b8c093ecb2",
+    "bytes": 9860672,
+    "duration_seconds": 15.104,
+    "codec": "h264",
+    "audio_codec": "aac"
+  },
+  "continuity_frame": {
+    "path": "references/scenes/scene-16/S16-P2-end.png",
+    "sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315",
+    "bytes": 1307005,
+    "dimensions": [1280, 720],
+    "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P2-contact.jpg",
+    "contact_sheet_sha256": "d4f0c67b9249b4c96188952cd9e8e0e1b9133e60e5cf6c7da844e584655c7b09"
+  },
+  "qc": {
+    "checked_at": "2026-10-22T22:59:17.859Z",
+    "status": "usable_continuity_input",
+    "notes": "Exactly three living fighters remain visible in the required left/centre/right colour roles, with planted feet. The gigantic worm, two tall gate piers and central obelisk are visible; no extra people, map or vehicle are present.",
+    "editorial_approval": "not_inferred"
+  },
+  "account_scan": {
+    "checked_at": "2026-10-22T22:55:00Z",
+    "boards": 13,
+    "pages": 19,
+    "total_tasks": 919,
+    "status_counts": {"success": 882, "fail": 37},
+    "active_tasks": 0,
+    "physical_free_slots": 6,
+    "complete": true
+  }
+}
