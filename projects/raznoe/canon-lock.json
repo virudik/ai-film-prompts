@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "RAZNOE-EXPAND-20261023: 12 complete scenes and reference coverage",
   "acquired_at": "2026-10-22T22:34:52.837Z",
-  "expires_at": "2026-10-22T23:57:59.488Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-22T23:38:40.717Z",
   "rules": "ops/CANON-LOCK.md"
 }

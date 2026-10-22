@@ -1,6 +1,6 @@
 {
   "work_id": "RAZNOE-EXPAND-20261023",
-  "updated_at": "2026-10-22T23:17:19Z",
+  "updated_at": "2026-10-22T23:38:40.717Z",
   "scene_ids": [
     1,
     2,
@@ -274,5 +274,18 @@
   ],
   "video_launches": 0,
   "queue_changed": false,
-  "approval_changed": false
+  "approval_changed": false,
+  "publication": {
+    "content_commit": "76e1747d833bae58d33fd610d6c2c5caf1078088",
+    "thumbnail_commit": "702aa20db01c98bfcc4d22828f3862ba17257eb1",
+    "pages_run": 39872727148,
+    "pages_conclusion": "success",
+    "checked_at": "2026-10-22T23:38:40.717Z",
+    "public_files_sha256_matched": 22,
+    "public_new_images_verified": 19,
+    "browser_scene_count": 20,
+    "browser_prompt_count": 60,
+    "browser_reference_cards": 27,
+    "engine_tabs_verified": true
+  }
 }
