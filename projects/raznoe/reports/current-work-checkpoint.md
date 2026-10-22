@@ -8,3 +8,5 @@ Work ID: RAZNOE-SPACE-20261022. 2026-10-22T21:22:23.245712Z
 Следующий шаг: повторный status/validate, публикация согласованного master+status через GitHub connector, read-back и проверка Pages. После — итоговый checkpoint и release.
 
 Повторные проверки: projects status health=ok; projects validate; 24 prompt-структуры; 8 явных зависимостей @Video1; 8 image SHA и связей scene проверены.
+
+UI QA: чтобы картинки появлялись также в секции «Картинки сцен», добавлены канонические scene-N пути; оригиналы в space-organizations сохранены как provenance, в реестре copied_from.

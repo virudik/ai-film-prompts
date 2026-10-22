@@ -68,10 +68,10 @@
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — о центре](https://ntsomz.ru/o-tsentre/) · [НЦ ОМЗ — «Цифровая Земля»](https://ntsomz.ru/digital-earth/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/01-earth-work.png`. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/01-earth-work.png" alt="Роскосмос — Космос работает здесь: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Космос работает здесь. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-1/01-earth-work.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-1/01-earth-work.png" alt="Роскосмос — Космос работает здесь: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Космос работает здесь. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Космос кажется далёким. Но его данные помогают изучать поля, реки и города. Взгляд сверху становится знанием, которое работает здесь, на Земле.»
@@ -85,14 +85,14 @@
 
 #### 1 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/01-earth-work.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/space-organizations/01-earth-work.png.
+@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -144,14 +144,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 1 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/01-earth-work.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/space-organizations/01-earth-work.png.
+@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -194,14 +194,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 1 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/01-earth-work.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-1/01-earth-work.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/space-organizations/01-earth-work.png.
+@Image1 — Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data. File: projects/raznoe/references/scenes/scene-1/01-earth-work.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -259,10 +259,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [Роскосмос, 08.10.2026 — стереосъёмка](https://www.roscosmos.ru/45350/) · [Ростех — система стереосъёмки](https://rostec.ru/media/news/roskosmos-i-rostekh-predstavili-rezultaty-raboty-novoy-otechestvennoy-sistemy-stereosemki-zemli/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/02-stereo-relief.png`. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/02-stereo-relief.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/02-stereo-relief.png" alt="Роскосмос — Земля обретает объём: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Земля обретает объём. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-2/02-stereo-relief.png" alt="Роскосмос — Земля обретает объём: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Земля обретает объём. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Плоское изображение показывает, что находится на поверхности. Стереосъёмка добавляет объём. Долины, склоны и высоты складываются в трёхмерное представление местности.»
@@ -276,14 +276,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 2 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/02-stereo-relief.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/space-organizations/02-stereo-relief.png.
+@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -335,14 +335,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 2 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/02-stereo-relief.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/space-organizations/02-stereo-relief.png.
+@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -385,14 +385,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 2 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/02-stereo-relief.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-2/02-stereo-relief.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/space-organizations/02-stereo-relief.png.
+@Image1 — Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area. File: projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -450,10 +450,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [Главкосмос — попутные запуски](https://glavkosmos.com/ru/rideshare-launches/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/03-small-satellite.png`. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/03-small-satellite.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/03-small-satellite.png" alt="Главкосмос — Большой путь малого спутника: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Большой путь малого спутника. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-3/03-small-satellite.png" alt="Главкосмос — Большой путь малого спутника: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Большой путь малого спутника. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «У небольшой команды может быть большая космическая задача. Подготовить аппарат, согласовать миссию, пройти путь к запуску. Малый спутник — серьёзный проект.»
@@ -467,14 +467,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 3 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/03-small-satellite.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/space-organizations/03-small-satellite.png.
+@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -526,14 +526,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 3 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/03-small-satellite.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/space-organizations/03-small-satellite.png.
+@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -576,14 +576,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 3 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/03-small-satellite.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-3/03-small-satellite.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/space-organizations/03-small-satellite.png.
+@Image1 — Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only. File: projects/raznoe/references/scenes/scene-3/03-small-satellite.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -641,10 +641,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [Главкосмос, 08.09.2026 — Эль-Аламейн](https://glavkosmos.com/ru/glavkosmos-to-participate-in-el-alamein-international-airshow-in-egypt/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/04-mission-exhibit.png`. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/04-mission-exhibit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/04-mission-exhibit.png" alt="Главкосмос — Прикоснуться к своей миссии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Прикоснуться к своей миссии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png" alt="Главкосмос — Прикоснуться к своей миссии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Прикоснуться к своей миссии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Понять космический проект проще, когда его можно увидеть. Выбрать конфигурацию, рассмотреть аппарат, задать вопросы. От первого интереса — к обсуждению своей миссии.»
@@ -658,14 +658,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 4 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/04-mission-exhibit.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/space-organizations/04-mission-exhibit.png.
+@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -717,14 +717,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 4 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/04-mission-exhibit.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/space-organizations/04-mission-exhibit.png.
+@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -767,14 +767,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 4 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/04-mission-exhibit.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/space-organizations/04-mission-exhibit.png.
+@Image1 — Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth. File: projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -832,10 +832,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — аппаратура «Электро-Л» №5](https://ntsomz.ru/apparatura-rks-na-sputnike-elektro-l-5/) · [Пресс-релиз АО «РКС», 19.10.2026, AVIA RU](https://www.aviaru.net/pr/77592/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/05-space-instrument.png`. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/05-space-instrument.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/05-space-instrument.png" alt="РКС — Всё начинается с точности: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Всё начинается с точности. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-5/05-space-instrument.png" alt="РКС — Всё начинается с точности: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Всё начинается с точности. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Большие космические задачи начинаются с точной работы. Материалы, оптика, электроника, внимание инженера. За каждым полезным измерением — люди, которые создают приборы.»
@@ -849,14 +849,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 5 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/05-space-instrument.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/space-organizations/05-space-instrument.png.
+@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -908,14 +908,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 5 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/05-space-instrument.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/space-organizations/05-space-instrument.png.
+@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -958,14 +958,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 5 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/05-space-instrument.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-5/05-space-instrument.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/space-organizations/05-space-instrument.png.
+@Image1 — Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument. File: projects/raznoe/references/scenes/scene-5/05-space-instrument.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -1023,10 +1023,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — РКС и «Россети Сибирь», ВЭФ-2026](https://ntsomz.ru/rks-i-rosseti-sibir-na-vef-2026/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/06-power-corridor.png`. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/06-power-corridor.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/06-power-corridor.png" alt="РКС — Увидеть изменения вдоль линии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Увидеть изменения вдоль линии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-6/06-power-corridor.png" alt="РКС — Увидеть изменения вдоль линии: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Увидеть изменения вдоль линии. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Длинную линию трудно осмотреть одним взглядом. Космические снимки помогают замечать изменения вокруг неё. Выделить участок, проверить на месте, точнее спланировать работу.»
@@ -1040,14 +1040,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 6 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/06-power-corridor.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/space-organizations/06-power-corridor.png.
+@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1099,14 +1099,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 6 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/06-power-corridor.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/space-organizations/06-power-corridor.png.
+@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1149,14 +1149,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 6 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/06-power-corridor.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-6/06-power-corridor.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/space-organizations/06-power-corridor.png.
+@Image1 — Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site. File: projects/raznoe/references/scenes/scene-6/06-power-corridor.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -1214,10 +1214,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — о центре](https://ntsomz.ru/o-tsentre/) · [НЦ ОМЗ — Федеральный фонд ДЗЗ](https://ntsomz.ru/federalnyy-fond-dannykh-dzz/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/07-earth-operations.png`. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/07-earth-operations.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/07-earth-operations.png" alt="НЦ ОМЗ — Из снимка — в понятное решение: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Из снимка — в понятное решение. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-7/07-earth-operations.png" alt="НЦ ОМЗ — Из снимка — в понятное решение: постановочный референс" loading="lazy"></a><figcaption>@Image1 — Из снимка — в понятное решение. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Космический снимок — начало работы. Данные нужно принять, обработать и представить так, чтобы человек мог разобраться. НЦ ОМЗ помогает превратить наблюдение в полезную информацию.»
@@ -1231,14 +1231,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 7 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/07-earth-operations.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/space-organizations/07-earth-operations.png.
+@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1290,14 +1290,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 7 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/07-earth-operations.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/space-organizations/07-earth-operations.png.
+@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1340,14 +1340,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 7 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/07-earth-operations.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-7/07-earth-operations.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/space-organizations/07-earth-operations.png.
+@Image1 — Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map. File: projects/raznoe/references/scenes/scene-7/07-earth-operations.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
@@ -1405,10 +1405,10 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Источники (проверка 22.10.2026):** [НЦ ОМЗ — применение архивных снимков](https://ntsomz.ru/kosmos-na-sluzhbe-pravosudiya/) · [Пресс-релиз АО «РКС», 19.10.2026, AVIA RU](https://www.aviaru.net/pr/77592/).
 
-**Референсы:** @Image1 — `projects/raznoe/references/space-organizations/08-land-memory.png`. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.
+**Референсы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.
 
 <div class="scene-ref-gallery">
-<figure><a href="projects/raznoe/references/space-organizations/08-land-memory.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/space-organizations/08-land-memory.png" alt="НЦ ОМЗ — У территории есть память: постановочный референс" loading="lazy"></a><figcaption>@Image1 — У территории есть память. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
+<figure><a href="projects/raznoe/references/scenes/scene-8/08-land-memory.png" target="_blank" rel="noopener"><img src="projects/raznoe/references/scenes/scene-8/08-land-memory.png" alt="НЦ ОМЗ — У территории есть память: постановочный референс" loading="lazy"></a><figcaption>@Image1 — У территории есть память. Созданная иллюстрация, не документальный кадр.</figcaption></figure>
 </div>
 
 **Закадровый текст для монтажа:** «Что изменилось здесь за прошедшее время? Один снимок показывает момент. Архив позволяет сравнить. И увидеть историю территории, которую трудно заметить с земли.»
@@ -1422,14 +1422,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 8 · Wan 3.0 · 30 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/08-land-memory.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. Тот же текст без изменений используется для Seedance 2.5 при отдельном разрешённом выборе.
 
 ```text
 Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Wan 3.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/space-organizations/08-land-memory.png.
+@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1481,14 +1481,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 8 · Seedance 2.0 часть 1 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/08-land-memory.png`.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/space-organizations/08-land-memory.png.
+@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 Priority: @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1531,14 +1531,14 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 #### 8 · Seedance 2.0 часть 2 · 15 с
 
-**Входы:** @Image1 — `projects/raznoe/references/space-organizations/08-land-memory.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
+**Входы:** @Image1 — `projects/raznoe/references/scenes/scene-8/08-land-memory.png`. @Video1 — последние 3 секунды реального результата части 1 этой сцены; файла пока нет, картинкой его не заменять.
 
 ```text
 Mode: reference-to-video | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
 Optimized for Seedance 2.0 | Civil space science concept film; purposeful storytelling, photoreal materials
 
 REFERENCES / AUTHORITY ORDER:
-@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/space-organizations/08-land-memory.png.
+@Image1 — Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider. File: projects/raznoe/references/scenes/scene-8/08-land-memory.png.
 @Video1 — final 3 seconds of the actual Part 1 result for this scene: absolute starting pose, camera, lighting and motion authority.
 Priority: actual @Video1 continuity first; @Image1 controls only its named design and staging roles. This is a concept image, never documentary evidence or a technical specification.
 
