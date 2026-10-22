@@ -1,3 +1,13 @@
+## Проверка очереди и обслуживание 14:55 МСК · 2026-10-22T12:00:17.968Z
+
+Topview прочитан полностью: 12 досок, 25 страниц, 918 задач; 875 success, 37 fail, 6 init. Все 6 активных видеослотов заняты задачами `4b323d19cf444009a3b3fc4b3c3b3aed`, `1751294fbf5f49dbb00a0f44401486ca`, `af627d97836d4832a1a4ad8cf24fa921`, `42f5f94e994a4768a4618c5cda3fa4d1`, `008058a4705c45c089256116427153d4`, `30cfaf12ad944cd6944416623397e41c`; у всех Unlimited=true и creditsCost=0. Свободных слотов нет, Create не нажимался, повторов и расходов не было.
+
+Обслуживание: `self-heal=ok`, problems пуст; плановый Self-heal run [39773431942](https://github.com/virudik/ai-film-prompts/actions/runs/39773431942) завершён success. `project-status.health=ok`, `synced_at=2026-10-22T11:50:46Z` — около 9,5 минуты на момент проверки. `canon-health=ok`, warn/error 0, четыре info; новый `ops/dance-model-comparison.md` отмечен только как info `ops-unchecked`, не авария. Canon health run [39761449273](https://github.com/virudik/ai-film-prompts/actions/runs/39761449273) завершён success. Открытых Supabase owner_decisions и open/taken owner-tasks для ChatGPT/any/Claude нет.
+
+Gmail/GitHub: поиск с 24-часовым перекрытием (Gmail query `newer_than:2d`) вернул 4 релевантных failure-письма; все message ID уже учтены, новых кандидатов нет, состояние почты не менялось. Фактические GitHub Actions проверены: [Topview robot 39773555691](https://github.com/virudik/ai-film-prompts/actions/runs/39773555691), [Canonical master 39773811681](https://github.com/virudik/ai-film-prompts/actions/runs/39773811681), [Pages 39773663388](https://github.com/virudik/ai-film-prompts/actions/runs/39773663388), [архив 39774191228](https://github.com/virudik/ai-film-prompts/actions/runs/39774191228), [Shadow brief 39773987226](https://github.com/virudik/ai-film-prompts/actions/runs/39773987226) и [integration 39752876116](https://github.com/virudik/ai-film-prompts/actions/runs/39752876116) завершены success. Промежуточные отменённые Pages-запуски были вытеснены последующим успешным deployment; актуального сбоя нет, rerun/ремонт не запускались.
+
+---
+
 # ПОСЛЕ ПРОВЕРКИ — Серёгиус: доступные безлимиты Topview
 
 UTC 2026-10-22T09:38:32.658Z. По вопросу владельца выполнена только проверка интерфейса вошедшего Ultra-аккаунта. Генераций0, расход0. Это сведения для будущего выбора моделей, не смена моделей сюжетной очереди.
