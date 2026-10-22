@@ -1,0 +1,278 @@
+{
+  "work_id": "RAZNOE-EXPAND-20261023",
+  "updated_at": "2026-10-22T23:17:19Z",
+  "scene_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "new_scene_ids": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "prompt_count": 60,
+  "new_image_count": 19,
+  "total_unique_images": 27,
+  "images": [
+    {
+      "id": "s02-flat",
+      "prompt": "Create one photoreal cinematic 16:9 reference still, no collage, no text, logos, labels, watermark or borders. This is an unbranded fictional civilian space-science concept. Edit target is the attached terrain exhibit. Keep the exact camera, navy plinth, room, river bends, roads and buildings in their positions. Change only the terrain state: the entire top of the rectangular exhibit is a flat printed aerial texture, including the area where mountains stood. No raised relief anywhere. It is a starting frame before the 3D terrain emerges. Match original cyan perimeter and light.",
+      "n": 2,
+      "path": "projects/raznoe/references/scenes/scene-2/s02-flat.png",
+      "sha256": "59bf9ff7a9821f7a45124a0672af4d8fa3301a19ccbf99eb933a534c9a184096",
+      "scenes": [
+        2
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s03-orbit",
+      "prompt": "Create one photoreal cinematic 16:9 reference still, no collage, no text, logos, labels, watermark or borders. This is an unbranded fictional civilian space-science concept. The reference controls the exact design of the rectangular small satellite: identical blue solar cell surfaces, silver corner rails, gold foil end face and small metal end fitting; do not redesign or add wings, antennae or engines. Show that identical object alone in space above a curved blue Earth, three-quarter view with gold end facing right, sunlight upper right, soft Earth bounce. Remove all laboratory fixtures, hands and tools. No exhaust or star streaks; realistic orbital concept.",
+      "n": 3,
+      "path": "projects/raznoe/references/scenes/scene-3/s03-orbit.png",
+      "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
+      "scenes": [
+        3
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s04-touch",
+      "prompt": "Create one photoreal cinematic 16:9 reference still, no collage, no text, logos, labels, watermark or borders. This is an unbranded fictional civilian space-science concept. Create a close-up continuation of this exact scene from the same side: woman's right index fingertip touches the solar-panel tile on the physical slanted screen, one hand only, realistic contact. Keep the exact navy sleeve, black screen housing, blue-white venue light and satellite design displayed on the screen. The satellite preview stays on the left of the screen and 6 simple component tiles on the right. Crop mostly to glass and hand, no new faces. No floating hologram.",
+      "n": 4,
+      "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png",
+      "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
+      "scenes": [
+        4
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s05-assembled",
+      "prompt": "Create one photoreal cinematic 16:9 reference still, no collage, no text, logos, labels, watermark or borders. This is an unbranded fictional civilian space-science concept. Create the completed state of the exact illustrated optical assembly. The identical black circular housing and blue-purple coated glass are now seated centrally on the same rectangular black instrument body, all hands fully withdrawn, no gloves in frame. Keep the same macro angle, screw positions, materials and cool cleanroom lighting. It is a plausible fictional demonstration model rather than a named spacecraft instrument. No floating parts or new components.",
+      "n": 5,
+      "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png",
+      "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
+      "scenes": [
+        5,
+        15
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s07-map",
+      "n": 7,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. The attached image supplies the winding river and floodplain shown on its large wall monitor. Make a clean full-frame satellite-like terrain view of that same river bend, fields, villages and flooded floodplain. Remove the entire office, screen bezel and people. Remove cyan outlines and interface details. Preserve geographic layout and daytime natural colours. Flat image plane, no perspective of a monitor. This terrain plate will be inserted into the office monitor later.",
+      "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
+      "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
+      "scenes": [
+        7,
+        19
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s08-pair",
+      "n": 8,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. Create a clean screen-content plate for the attached monitor: two side-by-side equally sized separate views of the SAME forest river bend and access road, aligned at identical scale, crop and angle. Left earlier: mostly green forest with a small exposed soil clearing near upper right. Right later: only that clearing expanded, keep river, unchanged road and surrounding trees aligned. Thin central white divider, no other border. No desk, no monitor bezel, hands, dates or labels. Avoid a continuous river crossing the divider; each half repeats the same geography. Illustrative visual comparison only.",
+      "path": "projects/raznoe/references/scenes/scene-8/s08-pair.png",
+      "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
+      "scenes": [
+        8
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s09-earth",
+      "n": 9,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. Earth as the single hero: a complete believable planet from a distant geostationary-style viewpoint, centred in black space, blue Indian Ocean, recognisable Africa on the left and Eurasia above, luminous atmospheric rim, coherent delicate cloud systems. Day/night terminator approaches the right rim but most of the disc is sunlit, subtle warm sunrise highlight. Sparse almost invisible stars. No spacecraft, lens-flare streaks or dramatic giant storms. High-end science documentary look, enough black negative space around the full disc.",
+      "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+      "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
+      "scenes": [
+        9
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s10-visible",
+      "n": 10,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. Perfectly vertical aerial of a fictional farming landscape: one winding dark river travelling from upper left toward lower right, a small rectangular reservoir near left, clearly defined green and ochre rectangular crop fields, thin pale roads and a tiny village in upper right. Clear noon light, no clouds, crisp coherent ground texture. The scene is intentionally designed for a second image with false-colour treatment, so use simple stable boundaries and broad recognisable shapes. No overlays, symbols or science labels.",
+      "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png",
+      "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
+      "scenes": [
+        10
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s11-engineer",
+      "n": 11,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. Medium over-the-shoulder cinematic photograph in a calm civilian optics laboratory. One adult female engineer seen entirely from rear, dark brown hair in a low bun, pale blue lab coat, white protective gloves. She sits at a clean workbench inspecting a compact black cylindrical optical assembly in a square silver fixture. A warm practical inspection lamp lights the hands; blue-grey lab surroundings, gentle daylight from left. Bench-level 50mm perspective, believable cables, no dense technical readouts, face hidden. Human craftsmanship is the focus.",
+      "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+      "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60",
+      "scenes": [
+        11
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s12-consultation",
+      "n": 12,
+      "prompt": "Use case: photorealistic-natural. Create ONE cinematic reference still for a civilian space-science film, landscape 16:9, edge-to-edge, sophisticated natural detail and plausible materials. No text, lettering, numbers, logo, watermark, frame or collage. This is a fictional concept, not a documentary photograph or measured data. A restrained modern civilian space-project consultation room. Three adult prospective customers and one adviser sit around a rectangular table, seen from a rear oblique angle with faces out of focus: a woman in olive cardigan on left, a man in grey jacket at far end, a woman in cream blouse on right, adviser in navy at the near far-right edge. On table lie three plain visual cards: farm terrain photo, ocean photo, small satellite silhouette; no writing. A compact silver-and-blue demonstration satellite under a clear display cover in background. Soft daylight, warm wood, realistic candid business meeting, no handshake, no contract, no flags.",
+      "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+      "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba",
+      "scenes": [
+        12
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s13-cubesat",
+      "n": 13,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Crisp plausible materials, natural perspective, edge-to-edge. No text, letters, numbers, watermark, logos, decorative border or collage. Unbranded fictional technology, not a real named product. Studio product portrait of a fictional compact CubeSat-style demonstrator on a dark navy background. One rigid silver rectangular frame of proportions approximately 1:1:2, one dark blue solar-cell side, one visible gold circuit board and one small circular black camera aperture on its near end. Three-quarter view, the complete object occupies middle half of frame, soft overhead key and narrow warm rim, levitating only as an obvious studio 3D product visualization, no real orbit or lab. Components are seated and coherent, no exploded layout, no engineering labels, no extra wings.",
+      "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png",
+      "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
+      "scenes": [
+        13
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s14-booth",
+      "n": 14,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Crisp plausible materials, natural perspective, edge-to-edge. No text, letters, numbers, watermark, logos, decorative border or collage. Unbranded fictional technology, not a real named product. Candid wide view of a modern international civilian space exhibition stand. Three adult visitors and one female adviser gather beside a waist-high interactive black touchscreen and a physical silver-blue satellite model on a low white plinth. Visitors seen from behind or soft profiles: man in tan blazer at left, woman with dark bob in navy centre, man in charcoal jacket at right; adviser in cream blazer faces them across the plinth, facial detail unobtrusive. All look at the same model, one visitor raises a questioning hand. Airy deep-blue and white architecture, restrained screen glow, no flags, no writing, no handshake, no recognizable venue or real public figure.",
+      "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+      "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc",
+      "scenes": [
+        14
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s15-weather",
+      "n": 15,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Crisp plausible materials, natural perspective, edge-to-edge. No text, letters, numbers, watermark, logos, decorative border or collage. Unbranded fictional technology, not a real named product. Wide meteorology workstation, one adult meteorologist from behind in a grey knit sweater, short dark hair. Large wall display shows a coherent natural-colour satellite-like view of an ocean cloud spiral beside a coastline, white clouds, deep blue sea. A smaller desk screen repeats the same cloud shape as a muted illustrative false-colour layer with violet, blue and amber, no legend, dates or numbers. Modern realistic calm office, daylight, person sits slightly left, display clearly readable. No giant hologram, no emergency sirens, no actual forecast or real storm identification.",
+      "path": "projects/raznoe/references/scenes/scene-15/s15-weather.png",
+      "sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f",
+      "scenes": [
+        15
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s16-testbench",
+      "n": 16,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Crisp plausible materials, natural perspective, edge-to-edge. No text, letters, numbers, watermark, logos, decorative border or collage. Unbranded fictional technology, not a real named product. A purposeful civilian research test bench in a modern optics lab. One young adult researcher in white lab coat seen from rear right, short dark hair, gloved hand resting beside a compact black optical prototype rigidly clamped to a silver optical rail. A single dim target card with a simple geometric cross is fixed at the far end of the rail, desk computer shows a plain unlabelled waveform, no text. Practical task light and cool daylight, notebook closed, stable sensible cabling. Prototype is a test model, not a finished operational product; no launch imagery or magic lasers.",
+      "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+      "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261",
+      "scenes": [
+        16
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s17-detail",
+      "n": 17,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Crisp plausible materials, natural perspective, edge-to-edge. No text, letters, numbers, watermark, logos, decorative border or collage. Unbranded fictional technology, not a real named product. Extreme macro hero product photograph of one fictional blue-violet coated optical filter mounted in a small matte-black circular metal holder on a dark instrument tray. The front face catches a controlled rainbow reflection, edge machining and two tiny silver retaining screws visible, a white gloved fingertip touches only the outside rim at right. Composition shows the entire ring, no other parts, no face. Real glass, subtle dust-free laboratory texture, shallow depth of field but coherent circular geometry, elegant cinematic side light, not an engineering diagram.",
+      "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+      "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6",
+      "scenes": [
+        17
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s10-spectral",
+      "n": 10,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Edge-to-edge, no text, letters, numbers, logo, watermark, decorative border or collage. Fictional scene, not real measured data. Edit the attached overhead landscape, keep EVERY river edge, reservoir, road, field boundary and village exactly aligned with the source. Change ONLY surface colours to an illustrative near-infrared-style false-colour palette: vegetated crop fields deep red and crimson, water almost black, bare ground pale cyan-grey, built areas muted cyan. Retain texture and identical camera, scale and crop. No new terrain features, no labels, no gradients floating over the image. This is a stylized palette reference, not an actual calibrated spectral measurement.",
+      "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png",
+      "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
+      "scenes": [
+        10
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s18-archive",
+      "n": 18,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Edge-to-edge, no text, letters, numbers, logo, watermark, decorative border or collage. Fictional scene, not real measured data. Over-the-shoulder close shot of one adult analyst's hands using a desktop monitor, navy knitted sleeves, face outside frame. On the physical monitor a minimalist fictional map-workflow layout: large landscape aerial at centre with a thin cyan rectangle selecting one region, four small landscape thumbnail cards along bottom and two simple blank slider controls in narrow left column. Absolutely no letters, numbers, icons resembling real logos or dense invented interface text. Matte grey desk, notebook, soft morning light. UI is clearly a generic concept mockup, not an imitation of any actual website. Terrain is river valley and farmland.",
+      "path": "projects/raznoe/references/scenes/scene-18/s18-archive.png",
+      "sha256": "8fd3478db8662cf992c379131d1e073150b51d264df55a2f087e5c0e3a0c2dbf",
+      "scenes": [
+        18
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s19-lowwater",
+      "n": 19,
+      "prompt": "Create an earlier low-water version of this fictional river landscape. Preserve the exact view, river bends, roads, buildings and trees. Replace the shallow floodwater outside the main winding river with green dry meadows. Keep the main river unchanged. Photorealistic 16:9, no labels or text, same daylight and crop. This is a concept image for a before/after illustration, not documentary evidence.",
+      "path": "projects/raznoe/references/scenes/scene-19/s19-lowwater.png",
+      "sha256": "549ae5d218e0068a162a31ebdb0958a4ea6285ece8411da1ff87c70b333682f7",
+      "scenes": [
+        19
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    },
+    {
+      "id": "s20-delta",
+      "n": 20,
+      "prompt": "Use case: photorealistic-natural. One cinematic landscape 16:9 reference still for a civilian space-science concept film. Edge-to-edge, no text, letters, numbers, logo, watermark, decorative border or collage. Fictional scene, not real measured data. A near-vertical aerial of an intricate river delta entering a pale turquoise sea, the branching channels appear like dark ink veins through bronze-green wetlands and delicate sandbars. The landscape is fictional but geologically plausible, natural muted sediment colours, intricate fine textures, late afternoon raking sunlight. Wide composition with one clear branching trunk leading from lower left to upper right, small waves at seaward edge. No boats, buildings, symbols, overlays or text. The image should first feel like abstract art and then reveal real landforms when viewed wider.",
+      "path": "projects/raznoe/references/scenes/scene-20/s20-delta.png",
+      "sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89",
+      "scenes": [
+        20
+      ],
+      "visual_qa": "passed_for_concept_use",
+      "editorial_status": "not_approved"
+    }
+  ],
+  "video_launches": 0,
+  "queue_changed": false,
+  "approval_changed": false
+}

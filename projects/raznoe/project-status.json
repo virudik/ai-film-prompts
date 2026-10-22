@@ -3,14 +3,14 @@
   "source_of_truth": "GitHub main/projects/raznoe/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-22T21:26:44Z",
+  "synced_at": "2026-10-22T23:33:18Z",
   "revision_date": "23.10.2026",
-  "master_declared_last_full_sync": "23.10.2026 · космические организации: 8 сцен, 8 референсов; исследование от 22.10.2026",
-  "canonical_master_sha256": "19e0f0a4278524faa5742c3001f5c9067b975b9bf2e549f34bfd413c71719e31",
-  "canonical_revision_sha256": "1e8713c5da85ac50acaae9146ba21cc20fa67ace7089e55d37e9514f54b9009b",
-  "canonical_master_bytes": 121544,
-  "scenes": 8,
-  "prompt_texts": 24,
+  "master_declared_last_full_sync": "23.10.2026 · космические организации: 20 сцен, 27 уникальных референсов; разработка 23.10, исследование от 22.10.2026",
+  "canonical_master_sha256": "27516edd803ac0908ca2e0406972c6e788ec939b6e9fc0b064eb7f1a4e0b767c",
+  "canonical_revision_sha256": "d0ded4a139394499be15826f8c3116d7f7353d3f994adf35b7bbd2921d5f684f",
+  "canonical_master_bytes": 318784,
+  "scenes": 20,
+  "prompt_texts": 60,
   "work_items": [],
   "work_items_count": 0,
   "slow_scenes": [],
@@ -23,22 +23,34 @@
     5,
     6,
     7,
-    8
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
   ],
-  "latest_scene": 8,
+  "latest_scene": 20,
   "reserved_scene_ids": [],
   "instruction_sync": {
     "health": "ok",
-    "snapshot_at": "2026-10-22T09:05:45.715Z",
+    "snapshot_at": "2026-10-22T21:41:43.011Z",
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 12.35,
+    "age_hours_at_status_build": 1.86,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
-        "github_blob": "8a3502bce0aaeae9f948611a02d0a9e3900b3fcb",
-        "mirror_sha256": "30b90aee4d631a92928bd923555012ad899294a4ed7c7805e73a89fe9dedb134",
+        "github_blob": "a0e01677df72855684def43fc9aefb889e71a3cc",
+        "mirror_sha256": "4e154519ae852fe0f0812670c13925e13ce29989a4083526967b7ae7ff7703e6",
         "match": true,
         "drive_copy_sha256": "0d85337db2e5b9e5aa825f9e295deaaf29afa84929f90166726cacf44d29c1a4",
         "drive_copy_match": true,
@@ -48,8 +60,8 @@
       },
       "SYNC-RUNBOOK.md": {
         "drive_file_id": "1l7xXu9RDqffwJeLsc3UoPrVnx0HEdne4",
-        "github_blob": "383bacfa1887105ada6dff368fe04fcd27c47182",
-        "mirror_sha256": "2dbffced5a4231eb27d9bd1475cbc327b63b2c50c8736705e4fbbc51fa205e24",
+        "github_blob": "fc364fa1aeab46631ffef5c8632740d0b373bc50",
+        "mirror_sha256": "b04f0e15a5cea6d0cef77a61023eb1a75146b8d87547bbede6b9df6f29387094",
         "match": true,
         "drive_copy_sha256": "2dbffced5a4231eb27d9bd1475cbc327b63b2c50c8736705e4fbbc51fa205e24",
         "drive_copy_match": true,
@@ -112,7 +124,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 12.35,
+      "age_hours": 1.86,
       "blocking": false
     },
     "topview_task_map": {
@@ -282,15 +294,255 @@
         "concept_visualization"
       ],
       "render_state": "IDLE"
+    },
+    "9": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "10": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "11": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "12": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "13": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "14": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "15": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "16": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "17": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "18": {
+      "target_engine": "Wan 3.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "19": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
+    },
+    "20": {
+      "target_engine": "Seedance 2.0",
+      "production_state": "DRAFT",
+      "duration_s": 30,
+      "dialogue": {
+        "enabled": false,
+        "language": null
+      },
+      "dependencies": [],
+      "tags": [
+        "owner_requested",
+        "draft",
+        "not_queued",
+        "two_engine_versions",
+        "reference_first",
+        "civil_space",
+        "concept_visualization"
+      ],
+      "render_state": "IDLE"
     }
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-22T21:26:44Z",
-    "canonical_master_sha256": "19e0f0a4278524faa5742c3001f5c9067b975b9bf2e549f34bfd413c71719e31",
-    "canonical_revision_sha256": "1e8713c5da85ac50acaae9146ba21cc20fa67ace7089e55d37e9514f54b9009b",
-    "scene_count": 8,
-    "prompt_count": 24,
+    "synced_at": "2026-10-22T23:33:18Z",
+    "canonical_master_sha256": "27516edd803ac0908ca2e0406972c6e788ec939b6e9fc0b064eb7f1a4e0b767c",
+    "canonical_revision_sha256": "d0ded4a139394499be15826f8c3116d7f7353d3f994adf35b7bbd2921d5f684f",
+    "scene_count": 20,
+    "prompt_count": 60,
     "scene_ids": [
       1,
       2,
@@ -299,7 +551,19 @@
       5,
       6,
       7,
-      8
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
     ],
     "work_items": [],
     "slow_scenes": [],

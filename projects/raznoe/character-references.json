@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-22T21:22:23.245712Z",
-  "source": "ChatGPT imagegen, 22.10.2026; восстановлены идентичные PNG по Git blob SHA и опубликованы 23.10.2026. Постановочные концепты по задаче владельца.",
+  "updated_at": "2026-10-22T23:17:19Z",
+  "source": "ChatGPT imagegen: исходные 8 концептов сохранены; 23.10.2026 добавлены 19 уникальных PNG, роли привязаны к 20 сценам. Все not_approved.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
@@ -15,7 +15,8 @@
       "name": "Роскосмос — Космос работает здесь",
       "kind": "situation_reference",
       "scenes": [
-        1
+        1,
+        11
       ],
       "editorial_status": "not_approved",
       "notes": "Постановочный референс, не документальный снимок. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
@@ -30,7 +31,8 @@
           "editorial_status": "not_approved",
           "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880",
           "scenes": [
-            1
+            1,
+            11
           ],
           "copied_from": "projects/raznoe/references/space-organizations/01-earth-work.png"
         }
@@ -215,6 +217,485 @@
             8
           ],
           "copied_from": "projects/raznoe/references/space-organizations/08-land-memory.png"
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s02-flat",
+      "name": "Плоская поверхность перед подъёмом рельефа",
+      "kind": "situation_reference",
+      "scenes": [
+        2
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-2/s02-flat.png",
+          "caption": "Плоская поверхность перед подъёмом рельефа",
+          "prompt_file": "projects/raznoe/references/scenes/scene-2/s02-flat.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "59bf9ff7a9821f7a45124a0672af4d8fa3301a19ccbf99eb933a534c9a184096",
+          "scenes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s03-orbit",
+      "name": "Тот же демонстратор на орбите",
+      "kind": "situation_reference",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-3/s03-orbit.png",
+          "caption": "Тот же демонстратор на орбите",
+          "prompt_file": "projects/raznoe/references/scenes/scene-3/s03-orbit.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e",
+          "scenes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s04-touch",
+      "name": "Касание физического экрана крупным планом",
+      "kind": "situation_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-4/s04-touch.png",
+          "caption": "Касание физического экрана крупным планом",
+          "prompt_file": "projects/raznoe/references/scenes/scene-4/s04-touch.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8",
+          "scenes": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s05-assembled",
+      "name": "Собранный прибор, руки убраны",
+      "kind": "situation_reference",
+      "scenes": [
+        5,
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-5/s05-assembled.png",
+          "caption": "Собранный прибор, руки убраны",
+          "prompt_file": "projects/raznoe/references/scenes/scene-5/s05-assembled.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d",
+          "scenes": [
+            5,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s07-map",
+      "name": "Чистая карта для крупных планов",
+      "kind": "situation_reference",
+      "scenes": [
+        7,
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-7/s07-map.png",
+          "caption": "Чистая карта для крупных планов",
+          "prompt_file": "projects/raznoe/references/scenes/scene-7/s07-map.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200",
+          "scenes": [
+            7,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s08-pair",
+      "name": "Два состояния территории без рамки монитора",
+      "kind": "situation_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-8/s08-pair.png",
+          "caption": "Два состояния территории без рамки монитора",
+          "prompt_file": "projects/raznoe/references/scenes/scene-8/s08-pair.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f",
+          "scenes": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s09-earth",
+      "name": "Один день Земли с орбиты",
+      "kind": "situation_reference",
+      "scenes": [
+        9
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-9/s09-earth.png",
+          "caption": "Один день Земли с орбиты",
+          "prompt_file": "projects/raznoe/references/scenes/scene-9/s09-earth.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72",
+          "scenes": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s10-visible",
+      "name": "Не видимое глазу",
+      "kind": "situation_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-10/s10-visible.png",
+          "caption": "Не видимое глазу",
+          "prompt_file": "projects/raznoe/references/scenes/scene-10/s10-visible.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s11-engineer",
+      "name": "Кто делает космос",
+      "kind": "situation_reference",
+      "scenes": [
+        11
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-11/s11-engineer.png",
+          "caption": "Кто делает космос",
+          "prompt_file": "projects/raznoe/references/scenes/scene-11/s11-engineer.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60",
+          "scenes": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s12-consultation",
+      "name": "Миссия начинается с вопроса",
+      "kind": "situation_reference",
+      "scenes": [
+        12
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-12/s12-consultation.png",
+          "caption": "Миссия начинается с вопроса",
+          "prompt_file": "projects/raznoe/references/scenes/scene-12/s12-consultation.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba",
+          "scenes": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s13-cubesat",
+      "name": "CubeSat за тридцать секунд",
+      "kind": "situation_reference",
+      "scenes": [
+        13
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-13/s13-cubesat.png",
+          "caption": "CubeSat за тридцать секунд",
+          "prompt_file": "projects/raznoe/references/scenes/scene-13/s13-cubesat.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e",
+          "scenes": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s14-booth",
+      "name": "Мир встречается на стенде",
+      "kind": "situation_reference",
+      "scenes": [
+        14
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-14/s14-booth.png",
+          "caption": "Мир встречается на стенде",
+          "prompt_file": "projects/raznoe/references/scenes/scene-14/s14-booth.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc",
+          "scenes": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s15-weather",
+      "name": "Как прибор видит погоду",
+      "kind": "situation_reference",
+      "scenes": [
+        15
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-15/s15-weather.png",
+          "caption": "Как прибор видит погоду",
+          "prompt_file": "projects/raznoe/references/scenes/scene-15/s15-weather.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f",
+          "scenes": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s16-testbench",
+      "name": "Идея проходит испытание",
+      "kind": "situation_reference",
+      "scenes": [
+        16
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-16/s16-testbench.png",
+          "caption": "Идея проходит испытание",
+          "prompt_file": "projects/raznoe/references/scenes/scene-16/s16-testbench.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261",
+          "scenes": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s17-detail",
+      "name": "Деталь крупным планом",
+      "kind": "situation_reference",
+      "scenes": [
+        17
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-17/s17-detail.png",
+          "caption": "Деталь крупным планом",
+          "prompt_file": "projects/raznoe/references/scenes/scene-17/s17-detail.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6",
+          "scenes": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s10-spectral",
+      "name": "Не видимое глазу — условные спектральные цвета",
+      "kind": "situation_reference",
+      "scenes": [
+        10
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-10/s10-spectral.png",
+          "caption": "Не видимое глазу — условные спектральные цвета",
+          "prompt_file": "projects/raznoe/references/scenes/scene-10/s10-spectral.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef",
+          "scenes": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s18-archive",
+      "name": "Найти нужный снимок",
+      "kind": "situation_reference",
+      "scenes": [
+        18
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-18/s18-archive.png",
+          "caption": "Найти нужный снимок",
+          "prompt_file": "projects/raznoe/references/scenes/scene-18/s18-archive.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "8fd3478db8662cf992c379131d1e073150b51d264df55a2f087e5c0e3a0c2dbf",
+          "scenes": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s19-lowwater",
+      "name": "Река меняет границы",
+      "kind": "situation_reference",
+      "scenes": [
+        19
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-19/s19-lowwater.png",
+          "caption": "Река меняет границы",
+          "prompt_file": "projects/raznoe/references/scenes/scene-19/s19-lowwater.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "549ae5d218e0068a162a31ebdb0958a4ea6285ece8411da1ff87c70b333682f7",
+          "scenes": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-s20-delta",
+      "name": "Красота становится знанием",
+      "kind": "situation_reference",
+      "scenes": [
+        20
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный концепт. Технически просмотрен; художественная приёмка не дана. Роль и приоритет указаны отдельно в каждом промте. Не реальное изделие, интерфейс или измерение.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/scenes/scene-20/s20-delta.png",
+          "caption": "Красота становится знанием",
+          "prompt_file": "projects/raznoe/references/scenes/scene-20/s20-delta.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-23",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89",
+          "scenes": [
+            20
+          ]
         }
       ]
     }
