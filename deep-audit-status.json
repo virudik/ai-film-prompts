@@ -346,6 +346,18 @@
       "This is a current technical/continuation audit, not a new full editorial audit of every prompt or continuous audiovisual review. Historical last_deep_audit_at is intentionally unchanged.",
       "Film-backlog historical operational paragraphs remain stale; current master/queue/owner decisions take precedence.",
       "No new generation, approval, slow removal, schedule change or telemetry heartbeat."
-    ]
+    ],
+    "publication_verification": {
+      "checked_at": "2026-10-22T22:29:58.164Z",
+      "commit": "c131f7363d6136d7f0abdfaf302467f8b3b708a6",
+      "github_pages": "success",
+      "canon_health": "success",
+      "byte_equal_paths": [
+        "character-references.json",
+        "ops/topview-launch-queue.json",
+        "reports/current-work-checkpoint.md",
+        "project-status.json"
+      ]
+    }
   }
 }

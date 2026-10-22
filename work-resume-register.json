@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T22:24:45Z",
+  "last_updated_at": "2026-10-22T22:29:58.164Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1378,14 +1378,16 @@
     {
       "work_id": "TAKEOVER-20261023",
       "title": "Приём смены и сверка незавершённой записи S16-P2",
-      "status": "in_progress",
-      "verified_at": "2026-10-22T22:22:57.057872+00:00",
-      "next_action": "Verify published receipt/character registry/checkpoint, then release lock. Technical checks have passed.",
+      "status": "completed",
+      "verified_at": "2026-10-22T22:29:58.164Z",
+      "next_action": "Приём смены завершён. Продолжать от S16-P2: дождаться результата, выполнить QC и подготовить настоящий конец для S42-P1; не создавать дубль S16-P2.",
       "canonical_refs": [
         "reports/current-work-checkpoint.md",
         "deep-audit-status.json",
         "character-references.json"
-      ]
+      ],
+      "completed_at": "2026-10-22T22:29:58.164Z",
+      "result": "Канон c131f7363d6136d7f0abdfaf302467f8b3b708a6 опубликован: Pages и Canon health success; character registry, launch queue, checkpoint и project-status побайтно совпали с опубликованным сайтом. Короткий D7 и техническая сверка завершены. Полный редакционный/аудиовизуальный аудит не заявляется."
     }
   ],
   "rules": [
