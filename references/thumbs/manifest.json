@@ -723,6 +723,116 @@
    "thumb_bytes": 60698,
    "src_sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880"
   },
+  "projects/raznoe/references/scenes/scene-10/s10-spectral.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-10/s10-spectral.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2957210,
+   "thumb_bytes": 61488,
+   "src_sha256": "65de380107e0204f45ed0aaa014206c36451229470c5a6577a1ecceb874eddef"
+  },
+  "projects/raznoe/references/scenes/scene-10/s10-visible.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-10/s10-visible.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3023971,
+   "thumb_bytes": 56286,
+   "src_sha256": "5179074aeb3d87f4f7b9f8e4300adf266fbac84831e42a479dfbe8ce50232570"
+  },
+  "projects/raznoe/references/scenes/scene-11/s11-engineer.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-11/s11-engineer.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1913369,
+   "thumb_bytes": 28900,
+   "src_sha256": "ed17c085b3c7f279e0a1e096bde15e822578e55966aa9608a328f5599090dd60"
+  },
+  "projects/raznoe/references/scenes/scene-12/s12-consultation.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-12/s12-consultation.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1871236,
+   "thumb_bytes": 24386,
+   "src_sha256": "4f7bb4b7c4243a4725e358fe0581a5949ea78f552709ff4bd06097040eb2bfba"
+  },
+  "projects/raznoe/references/scenes/scene-13/s13-cubesat.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-13/s13-cubesat.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1921078,
+   "thumb_bytes": 17972,
+   "src_sha256": "b27ebf31fb7ac58daa057ff05e2dfd262e98acb316715f0404fdbd3f244ca94e"
+  },
+  "projects/raznoe/references/scenes/scene-14/s14-booth.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-14/s14-booth.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2119139,
+   "thumb_bytes": 34964,
+   "src_sha256": "d7437cf757eb19495b3c3a62807fdc668cfc6263a6681b9b05df87e453e51acc"
+  },
+  "projects/raznoe/references/scenes/scene-15/s15-weather.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-15/s15-weather.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2693663,
+   "thumb_bytes": 55090,
+   "src_sha256": "3ec9122cb8a2f69b807ccce6e54464aec3e072c5a58b400ed3b22f9cf432564f"
+  },
+  "projects/raznoe/references/scenes/scene-16/s16-testbench.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-16/s16-testbench.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1976662,
+   "thumb_bytes": 35658,
+   "src_sha256": "ae57478ee6a5fbaf0f0445de6e2f58b8ad3306510eaabdf96ff8342f0a55c261"
+  },
+  "projects/raznoe/references/scenes/scene-17/s17-detail.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-17/s17-detail.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2029225,
+   "thumb_bytes": 22950,
+   "src_sha256": "80237f2c8bd54b582bd33be0673f165c9ad3468f6dddf85ceff8fffa087a0ef6"
+  },
+  "projects/raznoe/references/scenes/scene-18/s18-archive.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-18/s18-archive.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2109094,
+   "thumb_bytes": 36426,
+   "src_sha256": "8fd3478db8662cf992c379131d1e073150b51d264df55a2f087e5c0e3a0c2dbf"
+  },
+  "projects/raznoe/references/scenes/scene-19/s19-lowwater.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-19/s19-lowwater.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3623754,
+   "thumb_bytes": 101842,
+   "src_sha256": "549ae5d218e0068a162a31ebdb0958a4ea6285ece8411da1ff87c70b333682f7"
+  },
   "projects/raznoe/references/scenes/scene-2/02-stereo-relief.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-2/02-stereo-relief.png.webp",
    "width": 640,
@@ -732,6 +842,26 @@
    "src_bytes": 2856786,
    "thumb_bytes": 52424,
    "src_sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d"
+  },
+  "projects/raznoe/references/scenes/scene-2/s02-flat.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-2/s02-flat.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2675805,
+   "thumb_bytes": 51294,
+   "src_sha256": "59bf9ff7a9821f7a45124a0672af4d8fa3301a19ccbf99eb933a534c9a184096"
+  },
+  "projects/raznoe/references/scenes/scene-20/s20-delta.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-20/s20-delta.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3336909,
+   "thumb_bytes": 67292,
+   "src_sha256": "62dc05563d259efc5bd9213f5772f58f8b77e8a5022a146aac79cbed004d1d89"
   },
   "projects/raznoe/references/scenes/scene-3/03-small-satellite.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/03-small-satellite.png.webp",
@@ -743,6 +873,16 @@
    "thumb_bytes": 35212,
    "src_sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b"
   },
+  "projects/raznoe/references/scenes/scene-3/s03-orbit.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-3/s03-orbit.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 2191649,
+   "thumb_bytes": 47756,
+   "src_sha256": "59950fffca8623a24b77475a6caf8b70c8b4600bea25a94ef2ab63716feb111e"
+  },
   "projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/04-mission-exhibit.png.webp",
    "width": 640,
@@ -753,6 +893,16 @@
    "thumb_bytes": 30012,
    "src_sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee"
   },
+  "projects/raznoe/references/scenes/scene-4/s04-touch.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-4/s04-touch.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1876288,
+   "thumb_bytes": 26580,
+   "src_sha256": "a0d36ab2f66b0809ee00fecf7a190e388d792c337e46c67448847be0aa42e4f8"
+  },
   "projects/raznoe/references/scenes/scene-5/05-space-instrument.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/05-space-instrument.png.webp",
    "width": 640,
@@ -762,6 +912,16 @@
    "src_bytes": 2237132,
    "thumb_bytes": 35686,
    "src_sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f"
+  },
+  "projects/raznoe/references/scenes/scene-5/s05-assembled.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-5/s05-assembled.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1986812,
+   "thumb_bytes": 28658,
+   "src_sha256": "730b23239c043e9e1d0dacf7a8ca8713f857f5e17a4c6d1eed5e8e5f7faf549d"
   },
   "projects/raznoe/references/scenes/scene-6/06-power-corridor.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-6/06-power-corridor.png.webp",
@@ -783,6 +943,16 @@
    "thumb_bytes": 53662,
    "src_sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08"
   },
+  "projects/raznoe/references/scenes/scene-7/s07-map.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-7/s07-map.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3643168,
+   "thumb_bytes": 96190,
+   "src_sha256": "5f4fa6cb779059f5e841cab02a1999369b7fa0e11d1c05476e468113801ed200"
+  },
   "projects/raznoe/references/scenes/scene-8/08-land-memory.png": {
    "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-8/08-land-memory.png.webp",
    "width": 640,
@@ -792,6 +962,26 @@
    "src_bytes": 2727540,
    "thumb_bytes": 54284,
    "src_sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca"
+  },
+  "projects/raznoe/references/scenes/scene-8/s08-pair.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-8/s08-pair.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 3855109,
+   "thumb_bytes": 99566,
+   "src_sha256": "e7c57e06c2eb84ebc9c45ce5eabcb22d3c3eb6d5f0c0575edd5f2081d5b56a5f"
+  },
+  "projects/raznoe/references/scenes/scene-9/s09-earth.png": {
+   "thumb": "references/thumbs/projects/raznoe/references/scenes/scene-9/s09-earth.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1453902,
+   "thumb_bytes": 21292,
+   "src_sha256": "e0ac612d2ad56e5476d1c987887b0a7d3123545c121e4eec976c6595a0ddfa72"
   },
   "projects/raznoe/references/space-organizations/01-earth-work.png": {
    "thumb": "references/thumbs/projects/raznoe/references/space-organizations/01-earth-work.png.webp",
