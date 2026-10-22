@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T09:38:32.658Z",
+  "last_updated_at": "2026-10-22T09:51:33.694Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1296,6 +1296,25 @@
       "new_submissions": 0,
       "plan_commit": "cd8ec6dbfa05b80d22294f70effcf04834547b7f",
       "automation_verified_at": "2026-10-22T08:49:40.533Z"
+    },
+    {
+      "work_id": "RAZNOE-SPACE-20261022",
+      "project": "raznoe",
+      "title": "Роскосмос, Главкосмос, РКС и НЦ ОМЗ: идеи, 8 сцен и референсы",
+      "status": "in_progress",
+      "verified_at": "2026-10-22T09:51:33.694Z",
+      "done": [
+        "Intake: 0 сцен, 0 изображений; правила проекта и шаблон прочитаны"
+      ],
+      "next_action": "Официальные источники → 8 изображений → 8 сцен/24 блока → публикация и QA",
+      "constraints": [
+        "Не запускать видео и не менять очередь",
+        "0 кредитов"
+      ],
+      "canonical_refs": [
+        "projects/raznoe/reports/current-work-checkpoint.md"
+      ],
+      "blockers": []
     }
   ],
   "rules": [
