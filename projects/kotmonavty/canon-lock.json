@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "claude:project-check",
-  "task": "Проверка под новые проекты: canon-health для проектов, чистка хендофов проектов, тексты инструкций",
-  "acquired_at": "2026-10-22T08:54:48Z",
-  "expires_at": null,
-  "released_at": "2026-10-22T08:58:21Z",
+  "task": "Котмонавты: динамика сцен 1–21, надпись только где виден корабль, подписи референсов, темы Suno",
+  "acquired_at": "2026-10-22T09:19:37Z",
+  "expires_at": "2026-10-22T10:04:37Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "project": "kotmonavty"
 }
