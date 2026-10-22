@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "claude:project-check",
   "task": "Проверка под новые проекты: canon-health для проектов, чистка хендофов проектов, тексты инструкций",
   "acquired_at": "2026-10-22T08:54:50Z",
-  "expires_at": "2026-10-22T09:39:50Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-22T08:58:19Z",
   "rules": "ops/CANON-LOCK.md",
   "project": "kot-detektiv"
 }
