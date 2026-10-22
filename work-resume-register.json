@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T06:55:13.317Z",
+  "last_updated_at": "2026-10-22T08:44:24.906Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1260,6 +1260,23 @@
         "references/scenes/scene-58/manifest.json",
         "reports/current-work-checkpoint.md"
       ]
+    },
+    {
+      "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
+      "title": "Серёгиус: сравнить модели на активных танцах после завершения сюжетных сцен",
+      "status": "planning",
+      "verified_at": "2026-10-22T08:44:24.906Z",
+      "owner_decision_source": "Прямое сообщение владельца 22.10.2026: сначала доделать все сюжетные сцены, затем сравнивать модели на активных танцах; снова проверить бесплатность Seedance 2.5.",
+      "done": [],
+      "next_action": "Проверить Seedance 2.5 в интерфейсе аккаунта без генерации; сохранить план и условие старта в очередь; обновить существующее расписание.",
+      "blockers": [
+        "Сюжетная очередь ещё не завершена; танцевальные тесты сейчас не запускать."
+      ],
+      "canonical_refs": [
+        "ops/topview-launch-queue.json",
+        "reports/current-work-checkpoint.md"
+      ],
+      "scope": "Только план, проверка доступности и передача существующей автоматике. Без генераций, оплаты, одобрения, удаления и повторных запусков."
     }
   ],
   "rules": [
