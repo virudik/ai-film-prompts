@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "AI Film hourly queue checkpoint 17:55 MSK",
-  "acquired_at": "2026-10-22T14:54:52.272Z",
-  "expires_at": null,
-  "released_at": "2026-10-22T14:55:10.829Z",
+  "task": "AI Film hourly queue checkpoint 18:55 MSK",
+  "acquired_at": "2026-10-22T16:00:21.052Z",
+  "expires_at": "2026-10-22T16:20:21.052Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
