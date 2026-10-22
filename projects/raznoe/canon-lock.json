@@ -3,9 +3,9 @@
   "project": "raznoe",
   "state": "held",
   "holder": "chatgpt",
-  "task": "RAZNOE-SPACE-20261022: research, scenes and reference pack",
-  "acquired_at": "2026-10-22T09:49:52.990Z",
-  "expires_at": "2026-10-22T10:34:52.990Z",
+  "task": "RAZNOE-SPACE-20261022: recover staged package and publish",
+  "acquired_at": "2026-10-22T21:15:37.425Z",
+  "expires_at": "2026-10-22T22:00:37.425Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
