@@ -1,3 +1,11 @@
+## Проверка очереди и обслуживание 09:55 МСК · 2026-10-22T06:55:13.317Z
+
+Topview прочитан полностью: 12 досок, 25 страниц, 918 задач; 875 success, 37 fail, 6 init. Все 6 активных видеослотов заняты задачами `4b323d19cf444009a3b3fc4b3c3b3aed`, `1751294fbf5f49dbb00a0f44401486ca`, `af627d97836d4832a1a4ad8cf24fa921`, `42f5f94e994a4768a4618c5cda3fa4d1`, `008058a4705c45c089256116427153d4`, `30cfaf12ad944cd6944416623397e41c`; у всех Unlimited=true и creditsCost=0. Свободных слотов нет, Create не нажимался, повторов не было.
+
+Обслуживание: `self-heal=ok`, problems пуст; последний плановый Self-heal run [39725761599](https://github.com/virudik/ai-film-prompts/actions/runs/39725761599) завершён success. `project-status.health=ok`, `synced_at=2026-10-22T06:10:37Z`; возраст около 45 минут находится внутри свежего правила SELF-HEAL: heartbeat 180 минут, аварийный порог 210 минут. `canon-health=ok`, warn/error 0, только три info. Открытых Supabase owner_decisions и open/taken owner-tasks для ChatGPT/any/Claude нет.
+
+Gmail/GitHub: поиск с 24-часовым перекрытием (Gmail query `newer_than:2d`) вернул 4 релевантных failure-письма; все message ID уже были учтены, новых кандидатов нет, состояние почты не менялось. Фактические GitHub Actions проверены: [Topview robot 39736430737](https://github.com/virudik/ai-film-prompts/actions/runs/39736430737), [Canonical master 39736643829](https://github.com/virudik/ai-film-prompts/actions/runs/39736643829), [Pages 39736506852](https://github.com/virudik/ai-film-prompts/actions/runs/39736506852), [архив 39735903568](https://github.com/virudik/ai-film-prompts/actions/runs/39735903568) и [Shadow brief 39736793997](https://github.com/virudik/ai-film-prompts/actions/runs/39736793997) завершены success. Актуального сбоя нет, rerun/ремонт не запускались.
+
 ## Проверка очереди и обслуживание 20:55 МСК · 2026-10-21T18:03:31.660Z
 
 Topview прочитан полностью: 12 досок, 25 страниц, 918 задач; 875 success, 37 fail, 6 init. Все 6 активных видеослотов заняты задачами `4b323d19cf444009a3b3fc4b3c3b3aed`, `1751294fbf5f49dbb00a0f44401486ca`, `af627d97836d4832a1a4ad8cf24fa921`, `42f5f94e994a4768a4618c5cda3fa4d1`, `008058a4705c45c089256116427153d4`, `30cfaf12ad944cd6944416623397e41c`; у всех Unlimited=true и creditsCost=0. Свободных слотов нет, Create не нажимался, повторов не было.
