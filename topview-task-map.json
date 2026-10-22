@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-22T21:00:55Z",
+  "updated_at": "2026-10-22T22:10:37Z",
   "purpose": "Minimal Topview task state: active task IDs per Scene plus a bounded processed-task journal for deduplication. Detailed attempt/queue/ETA history is intentionally not persistent.",
   "authority": "Operational telemetry/dedup only. Google Drive video-prompts.md remains canonical for Scene IDs, editorial state and slow membership.",
   "rules": [
@@ -29,6 +29,9 @@
     ],
     "37": [
       "af627d97836d4832a1a4ad8cf24fa921"
+    ],
+    "16": [
+      "cd37ab3fd3ab4e1782b295ace2a3b1d4"
     ]
   },
   "processed_tasks": [
@@ -464,12 +467,12 @@
     "scan_rule": "On each run, query every task already in active_by_scene first, then paginate all Board video-task pages needed to cover the overlap/checkpoint window; pinned tasks must not hide newer tasks. Deduplicate with active IDs + processed_tasks. Advance last_scan_at only after refresh + discovery + classification succeeds.",
     "slot_note": "Slot occupancy is derived only from current active_by_scene task IDs; processed_tasks never consume slots."
   },
-  "last_scan_at": "2026-10-22T21:00:55Z",
+  "last_scan_at": "2026-10-22T22:10:37Z",
   "scan_overlap_hours": 6,
   "slot_capacity": 6,
   "scan_cursor": {
     "strategy": "fast_path_all_owned_board_counts_plus_project_latest_page_and_direct_active",
-    "last_successful_scan_at": "2026-10-22T21:00:55Z",
+    "last_successful_scan_at": "2026-10-22T22:10:37Z",
     "last_full_board_pages_checked": 4,
     "last_board_total_seen": 612,
     "overlap_hours": 6,
@@ -478,13 +481,14 @@
     "total_video_tasks": 595,
     "board_id": "1a6244cf1ae747ef847d949a80d6133c",
     "media_type": "video",
-    "overlap_from": "2026-10-22T15:00:55.000Z",
+    "overlap_from": "2026-10-22T16:10:37.000Z",
     "unknown_recent_tasks": 0,
     "boards_scanned": 12,
     "project_board_total_video_tasks": 399,
     "scope": "all_owned_board_counts_plus_project_latest_100_with_direct_active_verification",
     "last_full_scan_at": "2026-10-22T20:31:46Z",
     "board_task_counts": {
+      "1cb8d0f6d11440ce9740bbafab36a6a5": 0,
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
       "86c6cb46bf76400f93fea9c82d8e9b0f": 0,
       "1a66054a659e4fe094646c0fa00eeb2f": 0,
@@ -496,7 +500,7 @@
       "dde2634b5fb54e789bb22dd4c95a75b6": 23,
       "6b246f75715f43be945f17b06bff9d88": 16,
       "caa5d8898f14442ea37c3278d156b3fe": 59,
-      "1a6244cf1ae747ef847d949a80d6133c": 651
+      "1a6244cf1ae747ef847d949a80d6133c": 652
     },
     "scan_mode": "light",
     "last_light_scan_at": "2026-10-13T19:02:02.187Z"
