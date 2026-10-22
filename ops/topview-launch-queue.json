@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T23:20:59.166Z",
+  "updated_at": "2026-10-22T23:23:41.819Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4561,7 +4561,7 @@
       "canonical_prompt_sha256": "c45a400022a60e94e4ec104800f373d169b51d589f295371286b29ab7f3843dd",
       "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
       "priority": 36,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4616,7 +4616,7 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
+      "task_id": "2175458eede64d0881ad70897155459a",
       "claim": {
         "run_id": "chatgpt-automation-20261022T232059Z-S47P1",
         "claimed_at": "2026-10-22T23:20:59.166Z",
@@ -4649,6 +4649,22 @@
           "unlimited_visible": true,
           "credits_cost_visible": 0
         }
+      },
+      "submitted_at": "2026-10-22T23:22:58Z",
+      "receipt": "reports/topview-queue-2026-10-23/S47-SEED20-P1-receipt.json",
+      "verified_status": "init",
+      "verified_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "input_images": 6,
+        "use_unlimit_mode": true,
+        "credits_cost": 0,
+        "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+        "full_normalized_prompt_match": true
       },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S47",

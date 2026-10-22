@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "scene_id": 47,
+  "prompt_id": "S47-SEED20-P1",
+  "item_id": "S47-SEED20-P1",
+  "task_id": "2175458eede64d0881ad70897155459a",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "submitted_at": "2026-10-22T23:22:58Z",
+  "verified_at": "2026-10-22T23:23:41.819Z",
+  "route": "Topview website GUI; exactly one Create click",
+  "status": "init",
+  "model": "Seedance 2.0",
+  "model_id": "seedance-2.0-style",
+  "duration_seconds": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "mode": "omni_reference",
+  "use_unlimit_mode": true,
+  "credits_cost": 0,
+  "canonical_prompt_sha256": "c45a400022a60e94e4ec104800f373d169b51d589f295371286b29ab7f3843dd",
+  "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+  "full_normalized_prompt_match": true,
+  "references": [
+    {"slot":"@Image1","path":"references/full/serega.jpg","sha256":"0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9","actual_input":{"name":"Image1","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/rODVyEveowi3iJzdsFiDm.jpg"}},
+    {"slot":"@Image2","path":"references/luchik.jpg","sha256":"0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6","actual_input":{"name":"Image2","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/t4UE6ivTWXZWOalbC3Vjc.jpg"}},
+    {"slot":"@Image3","path":"references/ryzhik.jpg","sha256":"9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d","actual_input":{"name":"Image3","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/YgSxdTeDX1P1XNpxLmNCK.jpg"}},
+    {"slot":"@Image4","path":"references/scenes/scene-27/S27-Image5-topview-source.png","sha256":"ea8fd38e4bf265e59e605452f8fc8770616cb15133ff02153d24b8a42fed9b73","actual_input":{"name":"Image4","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/DHDFEj76ng2UhTMJHA9HS.png"}},
+    {"slot":"@Image5","path":"references/scenes/scene-27/S27-three-subject-scale.png","sha256":"745379dc6ab8298b0edc6993c55e4b96d8e2b70a02ce05cbf1fc2935f515e4ab","actual_input":{"name":"Image5","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/a42Q1gPhMGlcGl2I2AgGg.png"}},
+    {"slot":"@Image6","path":"references/scenes/scene-47/S47-start-from-S32-result.png","sha256":"84c1e1cff50ed555813120d6c83c1325eb2210b86439a8ea683f31ba14e78793","actual_input":{"name":"Image6","inputImageS3Path":"analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Yd158b1s8cQx890ZQZhzx.png"}}
+  ],
+  "claim": {
+    "run_id": "chatgpt-automation-20261022T232059Z-S47P1",
+    "claimed_at": "2026-10-22T23:20:59.166Z",
+    "agent": "chatgpt",
+    "claim_commit": "ee4a8469acf37c4bdf2677d4d2e207ffa73a41b6"
+  },
+  "ui_evidence": {
+    "path": "reports/topview-queue-2026-10-23/S47-SEED20-P1-submit.jpg",
+    "sha256": "3c5b1e5e866f57f3a21ba1f36f53c7f8b7523a2cac1211723d673ab8565eaacc",
+    "visible_state": "Queued; Unlimited mode free; Seedance 2.0; 15s; six image inputs"
+  },
+  "pre_submit_scan": {"checked_at":"2026-10-22T23:20:25.519Z","boards":13,"pages":19,"tasks":920,"active":1,"complete":true,"matching_unassigned_tasks":0},
+  "post_submit_scan": {"checked_at":"2026-10-22T23:23:41.819Z","boards":13,"pages":19,"tasks":921,"active_task_ids":["2175458eede64d0881ad70897155459a","a1ca4c36e31d45c5b4b72df7777d2592"],"complete":true},
+  "editorial_approval": false
+}
