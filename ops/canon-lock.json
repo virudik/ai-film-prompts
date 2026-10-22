@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "TAKEOVER-20261023: reconcile receipt and readiness audit",
-  "acquired_at": "2026-10-22T22:22:30.132Z",
-  "expires_at": null,
-  "released_at": "2026-10-22T22:29:58.164Z",
+  "task": "S16-P2 result QC and S42-P1 continuity preparation",
+  "acquired_at": "2026-10-22T22:55:55.962Z",
+  "expires_at": "2026-10-22T23:40:55.962Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
