@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-22T22:50:31Z",
+  "checked_at": "2026-10-22T23:00:38Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -26,7 +26,7 @@
     },
     "pages_scanned": 1,
     "tasks_seen": 20,
-    "api_requests": 8,
+    "api_requests": 2,
     "detail_failed": []
   },
   "cursor": {
@@ -57,50 +57,7 @@
   },
   "active_tasks": [],
   "unknown_new": [],
-  "finished_known": [
-    {
-      "task_id": "008058a4705c45c089256116427153d4",
-      "scene_id": 39,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:38:51",
-      "error_code": null
-    },
-    {
-      "task_id": "1751294fbf5f49dbb00a0f44401486ca",
-      "scene_id": 40,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:39:16",
-      "error_code": null
-    },
-    {
-      "task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
-      "scene_id": 44,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:47:42",
-      "error_code": null
-    },
-    {
-      "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
-      "scene_id": 53,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:40:45",
-      "error_code": null
-    },
-    {
-      "task_id": "af627d97836d4832a1a4ad8cf24fa921",
-      "scene_id": 37,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:40:22",
-      "error_code": null
-    },
-    {
-      "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
-      "scene_id": 16,
-      "final_status": "success",
-      "completed_at": "2026-10-22 22:41:27",
-      "error_code": null
-    }
-  ],
+  "finished_known": [],
   "missing_known_active": [],
   "recent_completions": [
     {
@@ -154,48 +111,12 @@
     }
   ],
   "comparison": {
-    "monitor_checked_at": "2026-10-22T22:10:37Z",
-    "monitor_age_minutes": 40,
-    "monitor_occupied": 6,
+    "monitor_checked_at": "2026-10-22T22:50:31Z",
+    "monitor_age_minutes": 10,
+    "monitor_occupied": 0,
     "robot_occupied": 0,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "only_in_monitor",
-        "task_id": "008058a4705c45c089256116427153d4",
-        "scene_id": 39
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "1751294fbf5f49dbb00a0f44401486ca",
-        "scene_id": 40
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
-        "scene_id": 44
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
-        "scene_id": 53
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "af627d97836d4832a1a4ad8cf24fa921",
-        "scene_id": 37
-      },
-      {
-        "type": "only_in_monitor",
-        "task_id": "cd37ab3fd3ab4e1782b295ace2a3b1d4",
-        "scene_id": 16
-      },
-      {
-        "type": "occupied_differs",
-        "monitor": 6,
-        "robot": 0
-      }
-    ]
+    "differences": []
   }
 }
