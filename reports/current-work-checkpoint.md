@@ -1,3 +1,7 @@
+# MONITOR-20261023 — S16-P2: реальные входы сохранены
+
+2026-10-22T21:45:53.400Z — source/trim в Library, настоящий кадр/контактный лист и manifest с SHA в Git. Очередь S16-P2 waiting_for_slot. Видеозапусков пока0. Далее GUI preflight→fresh scan→CAS claim→один Create.
+
 # Текущая работа — MONITOR-20261023
 
 2026-10-22T21:44:37.521Z — исправление возраста проверки GitHub всех проектов подготовлено/протестировано и публикуется. Исходный checkpoint: aa2d9e106926f1129cbb2a3256f5e9326a95e11b. 217 тестов, сайт, canon health, brief15/15 — passed. Topview:13досок/19страниц/918задач,5active,1free; S16-P1 success, следующий S16-P2 после настоящего окончания. Отправки ещё нет. Последний scheduled run завершился Auto-review (причина не раскрыта), не обещать фоновый запуск. Подробнее reports/monitor-slot-checkpoint-2026-10-23.md.

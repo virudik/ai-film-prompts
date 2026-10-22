@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 16,
-  "updated_at": "2026-10-19T22:50:00Z",
+  "updated_at": "2026-10-22T21:45:53.400Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "ready",
   "references": [
@@ -156,14 +156,7 @@
       }
     }
   ],
-  "remaining": [
-    {
-      "item_id": "S16-SEED20-P2",
-      "slot": "@Video1",
-      "source_item_id": "S16-SEED20-P1",
-      "requirement": "Actual generated ending, saved SHA/provenance and visual continuity QC; no synthetic substitute."
-    }
-  ],
+  "remaining": [],
   "technical_success_is_editorial_approval": false,
   "canonical_master_sha256": "ab07501595f15741ff5e675942d331612ee5247064b6874ae1c5b107b7f95089",
   "identity_refs": [
@@ -203,6 +196,35 @@
       "topview_task_id": "9fd93e2905e14c77b616884f1d6962f6",
       "source_role": "task_output",
       "saved_at": "2026-10-08T09:58:58.592675Z"
+    },
+    {
+      "slot": "@Video1",
+      "path": "S16-P1-last3s.mp4",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "role": "continuity_video",
+      "input_status": "available",
+      "source_item_id": "S16-SEED20-P1",
+      "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+      "storage": "private_library",
+      "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+      "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+      "bytes": 1849932,
+      "duration_seconds": 3,
+      "source_range_seconds": [
+        12,
+        15
+      ],
+      "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+      "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+      "qc": {
+        "checked_at": "2026-10-22T21:45:53.400Z",
+        "status": "usable_continuity_input",
+        "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+        "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+        "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+        "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+      }
     }
   ],
   "approved": {
@@ -398,15 +420,36 @@
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "reference_inputs_available",
       "slots": [
         {
           "slot": "@Video1",
+          "path": "S16-P1-last3s.mp4",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "role": "continuity_video",
+          "input_status": "available",
           "source_item_id": "S16-SEED20-P1",
-          "source_requirement": "Actual generated ending, saved SHA/provenance and visual continuity QC; no synthetic substitute."
+          "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+          "storage": "private_library",
+          "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+          "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+          "bytes": 1849932,
+          "duration_seconds": 3,
+          "source_range_seconds": [
+            12,
+            15
+          ],
+          "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+          "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+          "qc": {
+            "checked_at": "2026-10-22T21:45:53.400Z",
+            "status": "usable_continuity_input",
+            "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+            "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+            "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+            "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+          }
         },
         {
           "slot": "@Image1",
@@ -533,5 +576,22 @@
       "launch_readiness": "reference_inputs_available",
       "owner_generation_approval_inferred": false
     }
-  ]
+  ],
+  "part1_result": {
+    "task_id": "30cfaf12ad944cd6944416623397e41c",
+    "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+    "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+    "source_bytes": 11722388,
+    "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+    "final_frame_sha256": "eb3fe219fb0e4569fbd6099d2bd917cc9ed67b9735bb91e0fc5237661ce60c24",
+    "qc": {
+      "checked_at": "2026-10-22T21:45:53.400Z",
+      "status": "usable_continuity_input",
+      "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+      "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+      "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+      "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+    },
+    "editorial_approval": "not_inferred"
+  }
 }

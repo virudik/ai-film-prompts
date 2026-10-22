@@ -1,0 +1,49 @@
+{
+  "work_id": "MONITOR-20261023",
+  "checked_at": "2026-10-22T21:45:53.400Z",
+  "task_id": "30cfaf12ad944cd6944416623397e41c",
+  "input": {
+    "slot": "@Video1",
+    "path": "S16-P1-last3s.mp4",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "role": "continuity_video",
+    "input_status": "available",
+    "source_item_id": "S16-SEED20-P1",
+    "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+    "storage": "private_library",
+    "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+    "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+    "bytes": 1849932,
+    "duration_seconds": 3,
+    "source_range_seconds": [
+      12,
+      15
+    ],
+    "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+    "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+    "qc": {
+      "checked_at": "2026-10-22T21:45:53.400Z",
+      "status": "usable_continuity_input",
+      "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+      "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+      "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+      "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+    }
+  },
+  "source": {
+    "bytes": 11722388,
+    "sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312"
+  },
+  "trim": {
+    "bytes": 1849932,
+    "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e"
+  },
+  "final_frame": {
+    "bytes": 54514,
+    "sha256": "eb3fe219fb0e4569fbd6099d2bd917cc9ed67b9735bb91e0fc5237661ce60c24"
+  },
+  "no_video_in_public_git": true,
+  "owner_approval_inferred": false,
+  "new_submissions": 0
+}

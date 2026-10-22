@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T08:48:21.100Z",
+  "updated_at": "2026-10-22T21:45:53.400Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5550,7 +5550,7 @@
       "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
       "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
       "priority": 1.1,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5566,11 +5566,32 @@
       "references": [
         {
           "slot": "@Video1",
+          "path": "S16-P1-last3s.mp4",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "role": "continuity_video",
+          "input_status": "available",
           "source_item_id": "S16-SEED20-P1",
-          "source_requirement": "Actual generated ending, saved SHA/provenance and visual continuity QC; no synthetic substitute."
+          "source_topview_task_id": "30cfaf12ad944cd6944416623397e41c",
+          "storage": "private_library",
+          "library_file_id": "libfile_67247bfca2888191abcd6be93af57a62",
+          "sha256": "33a58e2ada311caa9d6002e43dcffcc85d440f4f3255a18ef3e940583baf492e",
+          "bytes": 1849932,
+          "duration_seconds": 3,
+          "source_range_seconds": [
+            12,
+            15
+          ],
+          "source_library_file_id": "libfile_c97e307cb0c881919d8bfe567b415b10",
+          "source_sha256": "b586a6becef1e49a407ab5c7a1e16b74d3421ecca0b068f964bdc9f827d12312",
+          "qc": {
+            "checked_at": "2026-10-22T21:45:53.400Z",
+            "status": "usable_continuity_input",
+            "scope": "15 sampled frames plus full-size final frame; technical continuity, not editorial approval",
+            "notes": "Three living characters running, green/red/blue blades and frame-left/centre/right roles preserved. Final camera faces away from the worm; it is off screen in the actual final three seconds. No synthetic replacement or scene reset.",
+            "final_frame_path": "references/scenes/scene-16/S16-P1-end.jpg",
+            "contact_sheet_path": "reports/topview-queue-2026-10-23/S16-P1-contact.jpg"
+          }
         },
         {
           "slot": "@Image1",
@@ -5621,12 +5642,13 @@
       "depends_on_completed": [
         "S16-SEED20-P1"
       ],
-      "blocker": "Actual S16-SEED20-P1 ending must be saved and QC checked.",
-      "launch_readiness": "blocked_continuity",
+      "blocker": null,
+      "launch_readiness": "reference_inputs_available",
       "previous_prompt_sha256": [
         "e1f5ff3f0bdf207d4788f28ef02550c8d2bfa4c47800a7e4a235e89fa5942608"
       ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained."
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "prepared_at": "2026-10-22T21:45:53.400Z"
     },
     {
       "id": "S57-AVENUE-IMAGE",
