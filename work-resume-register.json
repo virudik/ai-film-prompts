@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T21:45:53.400Z",
+  "last_updated_at": "2026-10-22T22:22:57.057872+00:00",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1364,6 +1364,18 @@
         "reports/monitor-slot-checkpoint-2026-10-23.md",
         "ops/topview-launch-queue.json",
         "projects/README.md"
+      ]
+    },
+    {
+      "work_id": "TAKEOVER-20261023",
+      "title": "Приём смены и сверка незавершённой записи S16-P2",
+      "status": "in_progress",
+      "verified_at": "2026-10-22T22:22:57.057872+00:00",
+      "next_action": "Reconcile existing S16-P2 receipt, correct verified character scene links, record technical readiness and release lock.",
+      "canonical_refs": [
+        "reports/current-work-checkpoint.md",
+        "deep-audit-status.json",
+        "character-references.json"
       ]
     }
   ],
