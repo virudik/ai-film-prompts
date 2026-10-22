@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
+  "state": "held",
   "holder": "chatgpt",
-  "task": "RAZNOE-SPACE-20261022: completion checkpoint",
-  "acquired_at": "2026-10-22T21:24:55.946Z",
-  "expires_at": null,
-  "released_at": "2026-10-22T21:33:10.637Z",
+  "task": "MONITOR-20261023: stale project check and free slot S16-P2",
+  "acquired_at": "2026-10-22T21:37:27.737Z",
+  "expires_at": "2026-10-22T22:22:27.737Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
