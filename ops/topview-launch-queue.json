@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T23:14:48.854Z",
+  "updated_at": "2026-10-22T23:20:59.166Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4561,7 +4561,7 @@
       "canonical_prompt_sha256": "c45a400022a60e94e4ec104800f373d169b51d589f295371286b29ab7f3843dd",
       "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
       "priority": 36,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4617,7 +4617,39 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-automation-20261022T232059Z-S47P1",
+        "claimed_at": "2026-10-22T23:20:59.166Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-22T23:20:25.519Z",
+          "boards_scanned": 13,
+          "pages_scanned": 19,
+          "tasks_scanned": 920,
+          "scan_complete": true,
+          "active_tasks": 1,
+          "free_slots_under_account_cap": 5,
+          "matching_unassigned_tasks": 0,
+          "owner_decisions_open": 0,
+          "normalized_prompt_sha256": "5dc326d4d8796a50754b6b4ea47d14b63ac705414b3e98af20e29843c7800c43",
+          "normalized_prompt_match": true,
+          "input_order_verified": [
+            "@Image1",
+            "@Image2",
+            "@Image3",
+            "@Image4",
+            "@Image5",
+            "@Image6"
+          ],
+          "model": "Seedance 2.0",
+          "duration_seconds": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "unlimited_visible": true,
+          "credits_cost_visible": 0
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S47",
       "selection_record": "reports/seedance-selection-2026-10-18.md"
