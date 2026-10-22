@@ -12,6 +12,11 @@ on:
       - '*.md'
       - 'ops/**'
       - 'project-status.json'
+      - 'projects/projects.json'
+      - 'projects/*/HANDOFF.md'
+      - 'projects/*/project-status.json'
+      - 'projects/*/canon-lock.json'
+      - 'projects/*/ops/topview-launch-queue.json'
       - 'scripts/canon_health.py'
       - '.github/workflows/canon-health.yml'
 

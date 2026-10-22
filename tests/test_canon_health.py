@@ -82,3 +82,25 @@ class CanonHealthTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+    def test_projects_handoff_size_queue_and_lock(self):
+        with tempfile.TemporaryDirectory() as d:
+            root = repo(d)
+            km = root / "projects" / "km"
+            (km / "ops").mkdir(parents=True)
+            reg = {"projects": [{"id": "seregius", "root": "."},
+                                {"id": "km", "name": "Котмонавты", "root": "projects/km",
+                                 "handoff": "projects/km/HANDOFF.md", "status": "projects/km/project-status.json",
+                                 "queue": "projects/km/ops/topview-launch-queue.json", "lock": "projects/km/canon-lock.json"}]}
+            (root / "projects" / "projects.json").write_text(json.dumps(reg), encoding="utf-8")
+            (km / "HANDOFF.md").write_text("## СЕЙЧАС (18.10.2026)\nкоротко\n", encoding="utf-8")
+            (km / "project-status.json").write_text(json.dumps({"scene_ids": [1, 2], "health": "ok"}), encoding="utf-8")
+            (km / "ops" / "topview-launch-queue.json").write_text(json.dumps({"items": []}), encoding="utf-8")
+            self.assertEqual(ch.check(root, NOW)["status"], "ok")
+            (km / "HANDOFF.md").write_text("x" * 13000, encoding="utf-8")
+            (km / "ops" / "topview-launch-queue.json").write_text(
+                json.dumps({"items": [{"scene_id": 7, "state": "waiting_for_slot"}]}), encoding="utf-8")
+            (km / "canon-lock.json").write_text(json.dumps({"state": "held", "holder": "chatgpt",
+                                                            "expires_at": "2026-10-17T00:00:00Z"}), encoding="utf-8")
+            res = ch.check(root, NOW)
+            self.assertEqual(codes(res), ["lock-expired", "project-handoff-size", "queue-scene-gone"])

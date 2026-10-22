@@ -12,7 +12,7 @@
 | Мастер промтов | `video-prompts.md` | `projects/<id>/video-prompts.md` |
 | Статус мастера | `project-status.json` | `projects/<id>/project-status.json` |
 | Инструкция проекта | 7 инструкций в корне | `projects/<id>/INSTRUCTIONS.md` (только своё; общее — 7 инструкций) |
-| Хендоф | `NEW-CHAT-HANDOFF.md` | `projects/<id>/HANDOFF.md` |
+| Хендоф | `NEW-CHAT-HANDOFF.md` | `projects/<id>/HANDOFF.md` (до 12 КБ: «Сейчас», решения, открытое; контрольные точки — `projects/<id>/reports/current-work-checkpoint.md`, история — `projects/<id>/archive/handoff-log.md`) |
 | Референсы | `character-references.json`, `references/` | `projects/<id>/character-references.json`, `projects/<id>/references/` |
 | Очередь запуска | `ops/topview-launch-queue.json` | `projects/<id>/ops/topview-launch-queue.json` |
 | Замок канона | `ops/canon-lock.json` | `projects/<id>/canon-lock.json` |

@@ -22,6 +22,8 @@ OUT = "canon-health.json"
 DOCS = ["NEW-CHAT-HANDOFF.md", "SYNC-RUNBOOK.md", "AI-PROJECT-GUIDE.md", "PROMPT-STYLE-GUIDE.md",
         "USER-GUIDE.md", "README-AI-SYNC.md", "BACKUP-AI-RUNBOOK.md"]
 HANDOFF_MAX_BYTES = 35_000          # «Сейчас + журнал»: live block + stable rules + cleanup rule
+PROJECT_HANDOFF_MAX_BYTES = 12_000  # projects/<id>/HANDOFF.md: only «Сейчас», decisions, open items (22.10.2026)
+PROJECTS = "projects/projects.json"
 INSTRUCTION_MAX_BYTES = 60_000
 NOW_BLOCK_MAX_DAYS = 3
 OPS_REVIEW_DAYS = 14
@@ -164,6 +166,39 @@ def check(root, now):
     if lock.get("state") == "held" and exp and now - exp > timedelta(hours=2):
         add("info", "lock-expired", f"Замок канона ({lock.get('holder')}) истёк {exp:%d.%m %H:%M} UTC и не снят; "
             "он считается свободным, но запись стоит убрать.", "ops/canon-lock.json")
+
+    # 7. Other projects (projects/<id>/, owner decision 20.10.2026): same signals per project
+    reg = read_json(root, PROJECTS) or {}
+    for pr in reg.get("projects", []):
+        base = str(pr.get("root") or ".").strip("/")
+        if base in ("", "."):
+            continue                                  # Серёгиус = the root checks above
+        name = pr.get("name") or pr.get("id")
+        hrel = pr.get("handoff") or f"{base}/HANDOFF.md"
+        ph = read(root, hrel)
+        if ph is None:
+            add("warn", "project-handoff-missing", f"{name}: нет хендофа {hrel}.", hrel)
+        elif len(ph.encode("utf-8")) > PROJECT_HANDOFF_MAX_BYTES:
+            add("warn", "project-handoff-size", f"{name}: хендоф {len(ph.encode('utf-8')) // 1000} КБ "
+                f"(цель до {PROJECT_HANDOFF_MAX_BYTES // 1000} КБ): контрольные точки — в {base}/reports/current-work-checkpoint.md, "
+                f"история — в {base}/archive/handoff-log.md.", hrel)
+        pst = read_json(root, pr.get("status") or f"{base}/project-status.json") or {}
+        if pst and pst.get("health") not in (None, "ok"):
+            add("warn", "status-health", f"{name}: project-status.json health = {pst.get('health')}.",
+                pr.get("status"))
+        pactive = set(map(int, pst.get("scene_ids") or []))
+        pq = read_json(root, pr.get("queue") or f"{base}/ops/topview-launch-queue.json") or {}
+        pgone = sorted({int(i["scene_id"]) for i in pq.get("items", [])
+                        if str(i.get("scene_id", "")).isdigit() and not final.match(str(i.get("state", "")))
+                        and int(i["scene_id"]) not in pactive})
+        if pgone:
+            add("warn", "queue-scene-gone", f"{name}: в очереди ждут сцены, которых нет в мастере проекта: "
+                + ", ".join(map(str, pgone)) + ".", pr.get("queue"))
+        plock = read_json(root, pr.get("lock") or f"{base}/canon-lock.json") or {}
+        pexp = parse_iso(plock.get("expires_at"))
+        if plock.get("state") == "held" and pexp and now - pexp > timedelta(hours=2):
+            add("info", "lock-expired", f"{name}: замок проекта ({plock.get('holder')}) истёк {pexp:%d.%m %H:%M} UTC "
+                "и не снят; он считается свободным, но запись стоит убрать.", pr.get("lock"))
 
     warn = sum(p["level"] == "warn" for p in problems)
     return {"schema_version": 1, "checked_at": now.strftime("%Y-%m-%dT%H:%M:%SZ"),

@@ -42,7 +42,7 @@
 
 ### Новое с последней чистки (дописывать сюда, одной строкой с датой)
 
-_(пусто после чистки 21.10.2026; разобранные строки дословно сохранены в `archive/handoff-log.md`)_
+- 22.10.2026 — **проекты** (Котмонавты, Кот детектив, Разное; правила — `projects/README.md`): у каждого свой хендоф `projects/<id>/HANDOFF.md` — только «Сейчас», решения владельца, открытое, цель до 12 КБ; контрольные точки — в `projects/<id>/reports/current-work-checkpoint.md`, история — `projects/<id>/archive/handoff-log.md`. «Здоровье канона» проверяет и проекты (размер хендофа, health, очередь, замок); недельная чистка — п. 7 раздела «Как чистить». Хендофы Котмонавтов и Кота детектива почищены 22.10 (20 → 3,5 КБ, прежний текст дословно в их журналах).
 
 ---
 
@@ -136,6 +136,7 @@ _(пусто после чистки 21.10.2026; разобранные стро
 4. `ops/*.md`: у каждого строка «Статус: … Проверено: дд.мм.гггг»; ненужный и ни на что не влияющий (проверить `git grep` по скриптам, workflow, инструкциям ChatGPT) — в `archive/ops/`.
 5. Проверки: `python3 scripts/cert_github.py .`, `python3 -m unittest discover -s tests`, `python3 scripts/validate_site.py`, `python3 scripts/canon_health.py .`, бриф приёма `scripts/build_takeover_brief.py` — valid и все якоря.
 6. Творческое и спорное не решать: одним вопросом владельцу в итоге чистки.
+7. **Проекты** (`projects/projects.json`): каждый `projects/<id>/HANDOFF.md` — по тем же правилам, под замком проекта; цель до 12 КБ; контрольные точки ДО/ПОСЛЕ из хендофа — в `projects/<id>/reports/current-work-checkpoint.md`, разобранное — дословно в `projects/<id>/archive/handoff-log.md`; «Сейчас» сверить с `projects/<id>/project-status.json`. Проверка — `python3 scripts/projects.py . validate`.
 
 ## Предыдущая история
 
