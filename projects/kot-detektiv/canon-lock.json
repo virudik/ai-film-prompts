@@ -1,12 +1,11 @@
 {
   "schema_version": 1,
-  "project": "kot-detektiv",
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "KD22: активная погоня на дилижансах; картинки, промты и сайт; без очереди",
-  "acquired_at": "2026-10-21T13:32:44.963Z",
-  "expires_at": null,
-  "released_at": "2026-10-21T14:18:39.616Z",
+  "state": "held",
+  "holder": "claude:project-check",
+  "task": "Проверка под новые проекты: canon-health для проектов, чистка хендофов проектов, тексты инструкций",
+  "acquired_at": "2026-10-22T08:54:50Z",
+  "expires_at": "2026-10-22T09:39:50Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
-  "renewed_at": "2026-10-21T13:54:01.579Z"
+  "project": "kot-detektiv"
 }
