@@ -1083,6 +1083,16 @@
    "thumb_bytes": 26594,
    "src_sha256": "f480469db3edd539b7c1d5ee3676ab830a921af21b45c5b5d07f218c52823cc7"
   },
+  "references/scenes/scene-16/S16-P2-end.png": {
+   "thumb": "references/thumbs/scenes/scene-16/S16-P2-end.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 1307005,
+   "thumb_bytes": 26934,
+   "src_sha256": "0811d1020544e539a9513ae36c5ceb44d82e91edb0cb9ff7f68fe29270281315"
+  },
   "references/scenes/scene-16/S16-desert-location-clean.png": {
    "thumb": "references/thumbs/scenes/scene-16/S16-desert-location-clean.png.webp",
    "width": 640,
