@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "RAZNOE-SPACE-20261022: recover staged package and publish",
   "acquired_at": "2026-10-22T21:15:37.425Z",
-  "expires_at": "2026-10-22T22:00:37.425Z",
-  "released_at": "2026-10-22T19:54:28.753Z",
+  "expires_at": null,
+  "released_at": "2026-10-22T21:16:18.552Z",
   "rules": "ops/CANON-LOCK.md"
 }
