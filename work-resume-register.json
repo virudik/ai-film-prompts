@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T12:56:32.227Z",
+  "last_updated_at": "2026-10-22T13:55:10.012Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
       "title": "Бесшовный переход между чатами AI Film",
       "status": "in_progress",
       "source_issue": "https://github.com/virudik/ai-film-prompts/issues/9",
-      "verified_at": "2026-10-22T12:56:32.227Z",
+      "verified_at": "2026-10-22T13:55:10.012Z",
       "done": [
         "D7 принят владельцем; краткий бриф 15/15 и контрастный аудит 30/30",
         "Добавлен scripts/continue_preflight.py с offline-тестами; GitHub Actions snapshot #38484190410 прошёл",
@@ -27,7 +27,7 @@
         "20Oct21:01MSK: full Topview scan 11boards/17pages/913tasks found S43 success, 5 active Unlimited0 videos and 1 physical slot; no Create because explicit16→42→56→48→57→58 ordering gate waits actual S16-P1. Canon health publish race diagnosed and fixed in 8d1a879; replacement run39470879540 success."
       ],
       "next_actions": [
-        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1."
+        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -41,7 +41,7 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1.",
+      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1.",
       "blockers": [
         "Сейчас6/6активных задач;свободныхслотов0.",
         "16P2→42→56→48 ждут реальные результаты;57/58 сохраняют gate всех8частей червя.",
@@ -49,9 +49,9 @@
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
       "last_resume_check": {
-        "checked_at": "2026-10-22T12:56:32.227Z",
+        "checked_at": "2026-10-22T13:55:10.012Z",
         "boards": 12,
-        "pages": 25,
+        "pages": 27,
         "total_tasks": 918,
         "complete": true,
         "status_counts": {
@@ -69,7 +69,7 @@
         ],
         "occupied_slots": 6,
         "free_slots": 0,
-        "run_id": "chatgpt-automation-20261022T125632227Z",
+        "run_id": "chatgpt-automation-20261022T135510012Z",
         "mode": "scheduled_read_only_slots_full",
         "new_submissions": [],
         "credits_spent": 0,
@@ -271,7 +271,8 @@
           ],
           "notes": "No new failure notification message IDs. Intermediate cancelled Pages runs were superseded by a later successful deployment."
         }
-      }
+      },
+      "current_run_id": "chatgpt-automation-20261022T135510012Z"
     },
     {
       "work_id": "FILM-20261014-REFS-DANCE",
@@ -544,7 +545,7 @@
       "work_id": "FILM-20261015-ALL-READY",
       "title": "Лесная планета 37, референсы 36 и все готовые сцены по слотам",
       "status": "in_progress",
-      "verified_at": "2026-10-22T12:56:32.227Z",
+      "verified_at": "2026-10-22T13:55:10.012Z",
       "authorization": "Прямая команда владельца 15.10.2026 22:03 МСК в текущем чате",
       "done": [
         "B6 отправлен фоновым заданием 16.10 03:09 МСК; task 2bccc8a3521b411cb7bd51f9c8ba1119, 0 кредитов",
@@ -569,7 +570,7 @@
         "21.10 19:20МСК: D7, свежие решения, полный915-task scan;3free;37P1success; браузерUltra доступен; checkpointДО."
       ],
       "next_actions": [
-        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1."
+        "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1."
       ],
       "constraints": [
         "Zero credits; exactly one newly authorized corrected attempt each43–46; no further automatic retry, approval, deletion or cancellation."
@@ -597,7 +598,7 @@
         "S44-SEED20-P1 blocked_inputs: проверенный trim исправленного43 не готов. Локальная копия не совпала с архивным SHA; получить целый оригинал Drive18GHcT-KhZenrxD_TTLoR4umkXwDwI-qq и проверить целостность до QC. Это не разрешение перезапускать43.",
         "S52 ждёт выбор владельца между полными версиями44 и настоящий конец выбранной."
       ],
-      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Блокировка червя не запрещает другие готовые сцены.16P2→42→56→48 требуют настоящих концов;57/58 — только после всех8частей червя,каждаяP2 с настоящим концомP1.",
+      "next_action": "Сейчас6/6слотов заняты. На следующем цикле fresh main + полный скан всех досок. При свободном слоте — минимальный priority среди действительно готовых независимых items. Танцевальное сравнение — только после фактического завершения всего выбранного сюжета.16P2→42→56→48 требуют настоящих концов;57/58 — после всех8частей червя,каждаяP2 с настоящим концомP1.",
       "remaining_reference_work": [
         "S50-FANS-IMAGE first; genuine video43 for44; genuine42 ending for48."
       ],
@@ -605,33 +606,32 @@
       "current_plan_work_id": "FILM-20261017-OWNER-FIXES",
       "checkpoint_path": "reports/current-work-checkpoint.md",
       "last_observed_topview": {
-        "checked_at": "2026-10-20T18:01:38.400Z",
-        "boards": 11,
-        "pages": 17,
-        "total_tasks": 913,
+        "checked_at": "2026-10-22T13:55:10.012Z",
+        "boards": 12,
+        "pages": 27,
+        "total_tasks": 918,
         "complete": true,
-        "occupied_slots": 5,
-        "free_slots": 1,
+        "occupied_slots": 6,
+        "free_slots": 0,
         "active_unlimited_task_ids": [
+          "4b323d19cf444009a3b3fc4b3c3b3aed",
+          "1751294fbf5f49dbb00a0f44401486ca",
+          "af627d97836d4832a1a4ad8cf24fa921",
+          "42f5f94e994a4768a4618c5cda3fa4d1",
           "008058a4705c45c089256116427153d4",
-          "30cfaf12ad944cd6944416623397e41c",
-          "e6a5cf9a3d04413e943c9bbbff9e1f73",
-          "e33891d4568a4a90b31ff3c67f5a7100",
-          "1e4928fa04ed4a0396d1d2ea4f5934bb"
+          "30cfaf12ad944cd6944416623397e41c"
         ],
-        "newly_terminal_success_task_ids": [
-          "70ba69f8c44e4898ab587fbffeaeca01"
-        ]
+        "newly_terminal_success_task_ids": []
       },
       "new_topview_task_ids": [
         "bf3465e1c4de4a869f4bba5f2eed5acf",
         "008058a4705c45c089256116427153d4"
       ],
-      "current_run_id": "chatgpt-automation-20261022T065513317Z",
+      "current_run_id": "chatgpt-automation-20261022T135510012Z",
       "last_resume_check": {
-        "checked_at": "2026-10-22T12:56:32.227Z",
+        "checked_at": "2026-10-22T13:55:10.012Z",
         "boards": 12,
-        "pages": 25,
+        "pages": 27,
         "total_tasks": 918,
         "complete": true,
         "status_counts": {
@@ -649,7 +649,7 @@
         ],
         "occupied_slots": 6,
         "free_slots": 0,
-        "run_id": "chatgpt-automation-20261022T125632227Z",
+        "run_id": "chatgpt-automation-20261022T135510012Z",
         "mode": "scheduled_read_only_slots_full",
         "new_submissions": [],
         "credits_spent": 0,
