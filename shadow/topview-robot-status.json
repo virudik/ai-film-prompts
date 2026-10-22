@@ -3,13 +3,11 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-22T03:10:33Z",
+  "checked_at": "2026-10-22T03:20:35Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
-    "mode": "full",
-    "reasons": [
-      "last full scan 179 min ago"
-    ],
+    "mode": "light",
+    "reasons": [],
     "boards": 12,
     "board_task_counts": {
       "d3bdcbe509594dcf82f8eddcaabe17fe": 11,
@@ -25,9 +23,9 @@
       "caa5d8898f14442ea37c3278d156b3fe": 59,
       "1a6244cf1ae747ef847d949a80d6133c": 651
     },
-    "pages_scanned": 14,
-    "tasks_seen": 595,
-    "api_requests": 22,
+    "pages_scanned": 1,
+    "tasks_seen": 20,
+    "api_requests": 8,
     "detail_failed": []
   },
   "cursor": {
@@ -52,7 +50,7 @@
     "occupied": 6,
     "free": 0,
     "basis": "active unlimited video tasks on all owned boards",
-    "complete": true,
+    "complete": false,
     "active_not_unlimited": 0
   },
   "active_tasks": [
@@ -66,7 +64,7 @@
       "scene_id": 39,
       "mapping": "task_map",
       "queue_count": 2889,
-      "wait_seconds": 106490,
+      "wait_seconds": 105889,
       "process_seconds": null
     },
     {
@@ -79,7 +77,7 @@
       "scene_id": 40,
       "mapping": "task_map",
       "queue_count": 4770,
-      "wait_seconds": 218809,
+      "wait_seconds": 218209,
       "process_seconds": null
     },
     {
@@ -91,8 +89,8 @@
       "model": "Seedance 2.0",
       "scene_id": 16,
       "mapping": "task_map",
-      "queue_count": 2038,
-      "wait_seconds": 63289,
+      "queue_count": 2037,
+      "wait_seconds": 62689,
       "process_seconds": null
     },
     {
@@ -105,7 +103,7 @@
       "scene_id": 44,
       "mapping": "task_map",
       "queue_count": 3183,
-      "wait_seconds": 123769,
+      "wait_seconds": 123170,
       "process_seconds": null
     },
     {
@@ -118,7 +116,7 @@
       "scene_id": 53,
       "mapping": "task_map",
       "queue_count": 5491,
-      "wait_seconds": 262009,
+      "wait_seconds": 261409,
       "process_seconds": null
     },
     {
@@ -131,7 +129,7 @@
       "scene_id": 37,
       "mapping": "task_map",
       "queue_count": 4049,
-      "wait_seconds": 175609,
+      "wait_seconds": 175010,
       "process_seconds": null
     }
   ],
@@ -156,7 +154,7 @@
   ],
   "comparison": {
     "monitor_checked_at": "2026-10-22T02:50:36Z",
-    "monitor_age_minutes": 20,
+    "monitor_age_minutes": 30,
     "monitor_occupied": 6,
     "robot_occupied": 6,
     "consistent": true,
