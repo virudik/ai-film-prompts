@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "state": "free",
-  "holder": null,
-  "task": "",
-  "acquired_at": null,
-  "expires_at": null,
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "RAZNOE-SPACE-20261022: research, scenes and reference pack",
+  "acquired_at": "2026-10-22T09:49:52.990Z",
+  "expires_at": "2026-10-22T10:34:52.990Z",
   "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
