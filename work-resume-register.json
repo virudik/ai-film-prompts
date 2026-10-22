@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T08:44:24.906Z",
+  "last_updated_at": "2026-10-22T08:48:21.100Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1000,7 +1000,7 @@
         "Master and site validators passed locally. No generation, no task ID, no credits; launch queue unchanged.",
         "20Oct: owner requested active revision of all38 dance/music prompts; A11/A12/B11 included, same launch gate. See FILM-20261020-ACTIVE-MUSIC and reports/dance-music-energy-2026-10-20.md."
       ],
-      "next_action": "Wait for the existing one-test queue item under the retained story-first ordering; it is not submitted yet. On completion visually compare energy, amplitude, weight transfer, partner interaction and identities with the successful old bridge/cantina clips. Owner evaluates before any new couple variants or dance batch.",
+      "next_action": "Сначала завершить выбранные сюжетные сцены; затем A1 как базовый тест и согласованное сравнение по ops/dance-model-comparison.md. Парные A11/A12/B11 остаются подготовленными вариантами до оценки владельцем.",
       "blockers": [
         "Existing energetic test has no task ID yet and waits after story dependencies; do not describe it as already generating.",
         "New couple variants A11/A12/B11 held for test review; A12 still needs actual A11 ending."
@@ -1024,6 +1024,11 @@
           "task_id": null,
           "priority": 400
         }
+      },
+      "owner_update_20261022": {
+        "decision": "Сначала завершить весь выбранный сюжет, затем провести модельное сравнение на активных танцах.",
+        "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
+        "plan": "ops/dance-model-comparison.md"
       }
     },
     {
@@ -1264,19 +1269,28 @@
     {
       "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
       "title": "Серёгиус: сравнить модели на активных танцах после завершения сюжетных сцен",
-      "status": "planning",
-      "verified_at": "2026-10-22T08:44:24.906Z",
+      "status": "waiting_story_completion",
+      "verified_at": "2026-10-22T08:48:21.100Z",
       "owner_decision_source": "Прямое сообщение владельца 22.10.2026: сначала доделать все сюжетные сцены, затем сравнивать модели на активных танцах; снова проверить бесплатность Seedance 2.5.",
-      "done": [],
-      "next_action": "Проверить Seedance 2.5 в интерфейсе аккаунта без генерации; сохранить план и условие старта в очередь; обновить существующее расписание.",
+      "done": [
+        "Saved owner comparison plan and completion gate; baseline A1 kept without duplicate.",
+        "Checked Seedance2.5 account UI: Unlimited locked,15s720p18credits/30s720p36credits. No submission or charge."
+      ],
+      "next_action": "Обновить существующую automation; затем продолжать сюжетную очередь. После завершения сюжета подготовить сравнимые канонические варианты и заново проверить бесплатность моделей.",
       "blockers": [
-        "Сюжетная очередь ещё не завершена; танцевальные тесты сейчас не запускать."
+        "Сюжетные сцены ещё не завершены.",
+        "Seedance2.5 сейчас не доступен в проверенном бесплатном режиме.",
+        "Для иных моделей сравнительные канонические блоки и launch items ещё не подготовлены."
       ],
       "canonical_refs": [
+        "ops/dance-model-comparison.md",
         "ops/topview-launch-queue.json",
+        "reports/seedance25-free-check-2026-10-22.jpg",
         "reports/current-work-checkpoint.md"
       ],
-      "scope": "Только план, проверка доступности и передача существующей автоматике. Без генераций, оплаты, одобрения, удаления и повторных запусков."
+      "scope": "Только план, проверка доступности и передача существующей автоматике. Без генераций, оплаты, одобрения, удаления и повторных запусков.",
+      "pre_checkpoint_commit": "bfa4dd71724fd5fe6ff2d26cf24e9d711f6c49e2",
+      "new_submissions": 0
     }
   ],
   "rules": [

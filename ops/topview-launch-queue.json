@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-21T16:39:50.142Z",
+  "updated_at": "2026-10-22T08:48:21.100Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -3223,13 +3223,41 @@
       ],
       "task_id": null,
       "claim": null,
-      "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test.",
+      "authorization": "Explicit17Oct16:11MSK: ONE15s energetic close-figure dance test. Seedance2.0 as prior successful15s examples; no automatic Wan substitute or second test. Owner22Oct2026 authorizes controlled model comparisons AFTER all selected story scenes are finished; see ops/dance-model-comparison.md. A1 remains one Seedance2.0 baseline attempt; no duplicate or automatic model substitution.",
       "max_credits": 0,
-      "review_gate_after_success": "Assess identity, energy, framing and anatomy; owner review before further dance submissions. This is not a controlled model comparison by itself.",
+      "review_gate_after_success": "Save and visually assess the A1 baseline. Owner22Oct authorizes the planned separate model comparisons after all story work; prepare canonical items first. Other dance batches/couple variants still require owner evaluation. See ops/dance-model-comparison.md.",
       "previous_prompt_sha256": [
         "7c15f2867e5c397e2aa94d30ff467743d7122ae3c0198cd3ddd72d83f3170a20"
       ],
-      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission."
+      "revision_note_20261020": "Owner00:55MSK requested active dance/music prompts; current motion revision. Priority, one-test limit, review gate and all existing dependencies retained; no submission.",
+      "depends_on_completed": [
+        "S52-SEED20-P2",
+        "S53-SEED20-P2",
+        "S54",
+        "S36-S36",
+        "S37-SEED20-P2",
+        "S39-SEED20-P2",
+        "S40-SEED20-P2",
+        "S41",
+        "S42-SEED20-P2",
+        "S47-SEED20-P2",
+        "S43-R1-20261017",
+        "S56-SEED20-P2",
+        "S48-SEED20-P2",
+        "S57-SEED20-P2",
+        "S58-SEED20-P2",
+        "S16-SEED20-P2",
+        "S44-SEED20-P2"
+      ],
+      "launch_readiness": "blocked_story_completion",
+      "owner_instruction_20261022": {
+        "source": "Прямое сообщение владельца 22.10.2026",
+        "decision": "Сначала доделать ВСЕ выбранные сюжетные сцены, затем сравнивать модели на активных танцах.",
+        "plan": "ops/dance-model-comparison.md",
+        "gate": "Перед A1 заново проверить завершение всей выбранной сюжетной работы и решения владельца; submitted недостаточно. Не возобновлять отменённые/заменённые попытки.",
+        "seedance25": "Проверка 22.10: безлимит заблокирован; 15s720p=18 кредитов,30s720p=36. Перепроверить перед тестами. Только Unlimited0.",
+        "new_submissions": 0
+      }
     },
     {
       "id": "S55",
@@ -6706,6 +6734,13 @@
     },
     "unchanged_relative_order_adjustment": "S37-SEED20-P2 priority4.1→4.5 so 57/58 sit immediately after48; all other non-worm items retain priority and relative order.",
     "verified_at": "2026-10-20T16:41:48.448Z",
+    "new_submissions": 0
+  },
+  "owner_instruction_20261022": {
+    "project": "seregius",
+    "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
+    "plan": "ops/dance-model-comparison.md",
+    "decision": "Все выбранные сюжетные сцены завершить до танцевальных сравнений; не только отправить. Seedance2.0 базовый A1, MiniMaxH3 первый сравнительный вариант, затем Wan3.0 и Seedance2.5 только если доступен Unlimited0.",
     "new_submissions": 0
   }
 }
