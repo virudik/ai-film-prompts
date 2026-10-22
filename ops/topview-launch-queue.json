@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T21:45:53.400Z",
+  "updated_at": "2026-10-22T21:52:55.721Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5550,7 +5550,7 @@
       "canonical_prompt_sha256": "4a1d56c297d4e5b3f9b644675e5ba0d6e77d08337df3d8e14096c6d51e4686e4",
       "normalized_prompt_sha256": "9cf5ca5967b23d269f2e37439b16d3563dca450b6823c00a83d646eb2ee5cb28",
       "priority": 1.1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5635,7 +5635,30 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "chatgpt-chat-2026-10-22T215255721Z-S16P2",
+        "claimed_at": "2026-10-22T21:52:55.721Z",
+        "agent": "chatgpt",
+        "preflight": {
+          "checked_at": "2026-10-22T21:49:52.760Z",
+          "boards": 13,
+          "pages": 19,
+          "total_tasks": 918,
+          "occupied_slots": 5,
+          "free_slots": 1,
+          "complete": true,
+          "duplicate_matches": 0,
+          "active_unlimited_task_ids": [
+            "4b323d19cf444009a3b3fc4b3c3b3aed",
+            "1751294fbf5f49dbb00a0f44401486ca",
+            "af627d97836d4832a1a4ad8cf24fa921",
+            "42f5f94e994a4768a4618c5cda3fa4d1",
+            "008058a4705c45c089256116427153d4"
+          ],
+          "ui_prompt_normalized_match": true,
+          "owner_decisions_open": 0
+        }
+      },
       "authorization": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
       "replaces_unsubmitted_item": "S16-S16",
       "selection_record": "reports/worm-seedance-2026-10-20.md",
