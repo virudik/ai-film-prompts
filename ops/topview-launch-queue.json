@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T23:11:00.174Z",
+  "updated_at": "2026-10-22T23:14:48.854Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4334,7 +4334,7 @@
       "canonical_prompt_sha256": "8cfb529eb9afdec7239414f61451b66af5cb0b8dcfc6c8f501bd105b30d13126",
       "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
       "priority": 2,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4402,7 +4402,7 @@
           "source_requirement": "Satisfied by genuine clean final frame of NEW Seedance16 P2; old accepted16 frame remains historical."
         }
       ],
-      "task_id": null,
+      "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
       "claim": {
         "run_id": "chatgpt-automation-20261022T231100Z-S42P1",
         "claimed_at": "2026-10-22T23:11:00.174Z",
@@ -4436,6 +4436,22 @@
           "credits_cost_visible": 0
         }
       },
+      "submitted_at": "2026-10-22T23:12:32Z",
+      "receipt": "reports/topview-queue-2026-10-23/S42-SEED20-P1-receipt.json",
+      "verified_status": "init",
+      "verified_settings": {
+        "model": "Seedance 2.0",
+        "model_id": "seedance-2.0-style",
+        "duration_seconds": 15,
+        "resolution": 720,
+        "aspect_ratio": "16:9",
+        "quantity": 1,
+        "input_images": 6,
+        "use_unlimit_mode": true,
+        "credits_cost": 0,
+        "normalized_prompt_sha256": "4005358a1c866a6413d3aa703209b260d91ce3fb6ba97153c1b96465be2c6a8e",
+        "full_normalized_prompt_match": true
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S42",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
@@ -4454,7 +4470,7 @@
         "S16-SEED20-P2"
       ],
       "blocker": null,
-      "launch_readiness": "reference_inputs_available"
+      "launch_readiness": null
     },
     {
       "id": "S42-SEED20-P2",

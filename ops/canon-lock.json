@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
-  "holder": "chatgpt",
-  "task": "S16-P2 result QC and S42-P1 continuity preparation",
-  "acquired_at": "2026-10-22T22:55:55.962Z",
-  "expires_at": "2026-10-22T23:40:55.962Z",
-  "released_at": null,
+  "state": "free",
+  "holder": null,
+  "task": null,
+  "acquired_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-22T23:16:26.009Z",
   "rules": "ops/CANON-LOCK.md"
 }
