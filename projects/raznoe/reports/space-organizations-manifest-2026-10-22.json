@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "project": "raznoe",
+  "work_id": "RAZNOE-SPACE-20261022",
+  "prepared_on": "2026-10-22",
+  "published_on": "2026-10-23",
+  "scene_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "prompt_blocks": 24,
+  "extra_ideas": 12,
+  "images": [
+    {
+      "scene": 1,
+      "path": "projects/raznoe/references/space-organizations/01-earth-work.png",
+      "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 2,
+      "path": "projects/raznoe/references/space-organizations/02-stereo-relief.png",
+      "sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 3,
+      "path": "projects/raznoe/references/space-organizations/03-small-satellite.png",
+      "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 4,
+      "path": "projects/raznoe/references/space-organizations/04-mission-exhibit.png",
+      "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 5,
+      "path": "projects/raznoe/references/space-organizations/05-space-instrument.png",
+      "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 6,
+      "path": "projects/raznoe/references/space-organizations/06-power-corridor.png",
+      "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 7,
+      "path": "projects/raznoe/references/space-organizations/07-earth-operations.png",
+      "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    },
+    {
+      "scene": 8,
+      "path": "projects/raznoe/references/space-organizations/08-land-memory.png",
+      "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
+      "qc": "viewed: usable illustrative concept; image8 is a two-pane comparison",
+      "editorial_status": "not_approved"
+    }
+  ],
+  "video_launches": 0,
+  "queue_modified": false,
+  "second_parts_dependency": "actual Part 1 video results are not yet generated"
+}

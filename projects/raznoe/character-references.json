@@ -1,13 +1,214 @@
 {
   "schema_version": 2,
   "project": "raznoe",
-  "updated_at": "2026-10-20",
-  "source": "Пока пусто: владелец даст референсы позже.",
+  "updated_at": "2026-10-22T21:22:23.245712Z",
+  "source": "ChatGPT imagegen, 22.10.2026; восстановлены идентичные PNG по Git blob SHA и опубликованы 23.10.2026. Постановочные концепты по задаче владельца.",
   "non_character_reference_rules": [
     "Индивидуальный лист персонажа всегда выше группового кадра или кадра локации для морды, окраса, телосложения и одежды.",
     "@Image1/@Image2/… — локальные обозначения внутри конкретного промта, не глобальные номера.",
     "Пути к картинкам — от корня репозитория (projects/<id>/references/…); картинки проекта лежат в его папке."
   ],
   "characters": [],
-  "assets": []
+  "assets": [
+    {
+      "id": "raznoe-space-01-earth-work",
+      "name": "Роскосмос — Космос работает здесь",
+      "kind": "situation_reference",
+      "scenes": [
+        1
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Environment and composition: sunrise fields, winding river, distant town; invented location, not measured satellite data.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/01-earth-work.png",
+          "caption": "Космос работает здесь",
+          "prompt_file": "projects/raznoe/references/space-organizations/01-earth-work.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "c2ba5edac3b3603e86120ca94db46e4ca83d42e69e25f92afc2a172b5225f880",
+          "scenes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-02-stereo-relief",
+      "name": "Роскосмос — Земля обретает объём",
+      "kind": "situation_reference",
+      "scenes": [
+        2
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Illustrative terrain-table design, navy rectangular plinth, river geometry, town and final raised mountain silhouette. Not an actual surveyed area.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/02-stereo-relief.png",
+          "caption": "Земля обретает объём",
+          "prompt_file": "projects/raznoe/references/space-organizations/02-stereo-relief.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "b6b061873aa1e3b957360fae6324e56fc368039c6995e805aef0f6a16a775a9d",
+          "scenes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-03-small-satellite",
+      "name": "Главкосмос — Большой путь малого спутника",
+      "kind": "situation_reference",
+      "scenes": [
+        3
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Generic rectangular small-satellite demonstrator: aluminium rails, dark blue solar panels, gold foil, white laboratory fixture. Design and material reference only.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/03-small-satellite.png",
+          "caption": "Большой путь малого спутника",
+          "prompt_file": "projects/raznoe/references/space-organizations/03-small-satellite.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "4f740fe62d033d2d561dfa96ce5a1e462be3d650758e39a7cd6ddd9b1c4b559b",
+          "scenes": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-04-mission-exhibit",
+      "name": "Главкосмос — Прикоснуться к своей миссии",
+      "kind": "situation_reference",
+      "scenes": [
+        4
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Fictional exhibition booth, slanted black touchscreen, blue-white light and visitor back-view silhouette. Not the actual exhibition software or booth.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/04-mission-exhibit.png",
+          "caption": "Прикоснуться к своей миссии",
+          "prompt_file": "projects/raznoe/references/space-organizations/04-mission-exhibit.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "8437d32fad246b4e22698300aaac7ad8e904101b124bc18a0e099f215ee1feee",
+          "scenes": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-05-space-instrument",
+      "name": "РКС — Всё начинается с точности",
+      "kind": "situation_reference",
+      "scenes": [
+        5
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Macro materials and assembly composition: coated glass in one black ring above compact dark electronics, gloved fingertips. Not a named flight instrument.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/05-space-instrument.png",
+          "caption": "Всё начинается с точности",
+          "prompt_file": "projects/raznoe/references/space-organizations/05-space-instrument.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "16b4c8e44b31e4d02b4a189fafb6b52d6a19e90d7cb4061adcc165f9c5e0ce0f",
+          "scenes": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-06-power-corridor",
+      "name": "РКС — Увидеть изменения вдоль линии",
+      "kind": "situation_reference",
+      "scenes": [
+        6
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Illustrative autumn forest, civilian electricity corridor, consistent pylon type and spacing. Environment reference, not a surveyed actual site.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/06-power-corridor.png",
+          "caption": "Увидеть изменения вдоль линии",
+          "prompt_file": "projects/raznoe/references/space-organizations/06-power-corridor.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "1ee23cb47d55b8a5164d84db8004d563a3a61bf39e893a4cce95d61f27b8c6e8",
+          "scenes": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-07-earth-operations",
+      "name": "НЦ ОМЗ — Из снимка — в понятное решение",
+      "kind": "situation_reference",
+      "scenes": [
+        7
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Fictional analysis room, rear-view analyst silhouettes and illustrative river map. Not an actual operations centre, production interface or live emergency map.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/07-earth-operations.png",
+          "caption": "Из снимка — в понятное решение",
+          "prompt_file": "projects/raznoe/references/space-organizations/07-earth-operations.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "58e99df1b09bb61b91a4f7bde992e3e0dba8fad558569d06055140e7028d1e08",
+          "scenes": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raznoe-space-08-land-memory",
+      "name": "НЦ ОМЗ — У территории есть память",
+      "kind": "situation_reference",
+      "scenes": [
+        8
+      ],
+      "editorial_status": "not_approved",
+      "notes": "Постановочный референс, не документальный снимок. Desk atmosphere and two separate illustrative comparison panes: forest, river, road and expanded bare-soil patch. They are not one continuous landscape across the centre divider.",
+      "images": [
+        {
+          "path": "projects/raznoe/references/space-organizations/08-land-memory.png",
+          "caption": "У территории есть память",
+          "prompt_file": "projects/raznoe/references/space-organizations/08-land-memory.image-prompt.txt",
+          "created_by": "ChatGPT imagegen",
+          "created_at": "2026-10-22",
+          "source_type": "ai_generated_concept",
+          "editorial_status": "not_approved",
+          "sha256": "1ee57fe0bc7677cb1757bdeaa96d29b2aa9c27076075d1fe116ca4bb6cdc90ca",
+          "scenes": [
+            8
+          ]
+        }
+      ]
+    }
+  ]
 }
