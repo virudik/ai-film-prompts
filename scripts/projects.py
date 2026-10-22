@@ -149,13 +149,24 @@ def _volatile(st):
     return keep
 
 
+def _heartbeat_due(previous, checked_at):
+    """Publish a real validation at least every three hours, as for the root master."""
+    try:
+        old = datetime.fromisoformat(previous["synced_at"].replace("Z", "+00:00"))
+        now = datetime.fromisoformat(checked_at.replace("Z", "+00:00"))
+        age = (now - old).total_seconds()
+        return age < 0 or age >= 180 * 60
+    except (KeyError, TypeError, ValueError, AttributeError):
+        return True
+
+
 def build_status(root, pid, *, synced_at=None, write=False):
     """Validate one project's master and (optionally) write its project-status.json.
 
     Uses the same validator as the root master (scripts/build_project_status.py). A brand-new
     project has no retired scene IDs yet, so the «reserved IDs declared» check is not required
     until the first scene is closed. Returns (status, changed). The file is rewritten only when
-    something besides the timestamps changed (no heartbeat churn)."""
+    content changed or the three-hour verification heartbeat is due."""
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     import build_project_status as bps  # noqa: E402
 
@@ -182,7 +193,7 @@ def build_status(root, pid, *, synced_at=None, write=False):
               automation="GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages")
     if isinstance(st.get("audit_fingerprint"), dict):
         st["audit_fingerprint"]["health"] = st["health"]
-    changed = prev is None or _volatile(prev) != _volatile(st)
+    changed = prev is None or _volatile(prev) != _volatile(st) or _heartbeat_due(prev, synced_at)
     if write and changed:
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(json.dumps(st, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

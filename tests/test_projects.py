@@ -41,6 +41,32 @@ def add_projects(work, prompt=KM_PROMPT):
 
 
 class RegistryTests(unittest.TestCase):
+    def test_status_heartbeat_preserves_recent_snapshot_and_refreshes_after_three_hours(self):
+        with tempfile.TemporaryDirectory() as d:
+            work = Path(d)
+            add_projects(work)
+            reg = prj.load(work)
+            reg['projects'][1]['status'] = 'projects/kotmonavty/project-status.json'
+            (work / prj.REGISTRY).write_text(json.dumps(reg), encoding='utf-8')
+            path = work / reg['projects'][1]['status']
+            first, changed = prj.build_status(work, 'kotmonavty', synced_at='2026-10-22T10:00:00Z', write=True)
+            self.assertTrue(changed)
+            original = path.read_bytes()
+            _, changed = prj.build_status(work, 'kotmonavty', synced_at='2026-10-22T12:59:59Z', write=True)
+            self.assertFalse(changed)
+            self.assertEqual(path.read_bytes(), original)
+            refreshed, changed = prj.build_status(work, 'kotmonavty', synced_at='2026-10-22T13:00:00Z', write=True)
+            self.assertTrue(changed)
+            saved = json.loads(path.read_text())
+            self.assertEqual(saved['synced_at'], '2026-10-22T13:00:00Z')
+            self.assertEqual(saved['canonical_master_sha256'], first['canonical_master_sha256'])
+            self.assertEqual(saved['checks'], first['checks'])
+            master = work / reg['projects'][1]['master']
+            master.write_text(master.read_text().replace(KM_PROMPT, KM_PROMPT + ' Новое действие.'), encoding='utf-8')
+            _, changed = prj.build_status(work, 'kotmonavty', synced_at='2026-10-22T13:01:00Z', write=True)
+            self.assertTrue(changed)
+            self.assertNotEqual(json.loads(path.read_text())['canonical_master_sha256'], first['canonical_master_sha256'])
+
     def test_live_registry_and_project_folders_are_consistent(self):
         self.assertEqual(prj.validate(ROOT), [])
         ids = [p["id"] for p in prj.projects(ROOT, include_root=True)]

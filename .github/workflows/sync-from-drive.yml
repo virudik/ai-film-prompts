@@ -205,10 +205,14 @@ jobs:
               cp /tmp/project-status.json project-status.json
             fi
 
-            git add video-prompts.md project-status.json
+            # Validate every project's current master in the same scheduled cycle.
+            # projects.py publishes content changes immediately and a real check every 180 min.
+            PROJECTS_RC=0
+            python3 scripts/projects.py . status --write || PROJECTS_RC=$?
+            git add video-prompts.md project-status.json projects/*/project-status.json
             if git diff --cached --quiet; then
               echo "Master mirror and project status are current; health checks passed."
-              exit 0
+              exit "$PROJECTS_RC"
             fi
 
             if [ "$DECISION" = "heartbeat" ]; then
@@ -217,7 +221,7 @@ jobs:
               git commit -m "Rebuild project status from canonical GitHub master"
             fi
             if git push origin HEAD:main; then
-              exit 0
+              exit "$PROJECTS_RC"
             fi
 
             echo "Remote main advanced during sync; retrying from the newest head." >&2
