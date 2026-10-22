@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "chatgpt",
-  "task": "Серёгиус: сравнение моделей на танцах после сюжета; проверка Seedance 2.5",
-  "acquired_at": "2026-10-22T08:43:46.674Z",
-  "expires_at": null,
-  "released_at": "2026-10-22T08:49:43.006Z",
+  "state": "held",
+  "holder": "claude:project-check",
+  "task": "Проверка под новые проекты: canon-health для проектов, чистка хендофов проектов, тексты инструкций",
+  "acquired_at": "2026-10-22T08:54:46Z",
+  "expires_at": "2026-10-22T09:39:46Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
