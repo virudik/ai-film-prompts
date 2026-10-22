@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T08:48:21.100Z",
+  "last_updated_at": "2026-10-22T08:49:43.006Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -1270,13 +1270,14 @@
       "work_id": "FILM-20261022-DANCE-MODEL-COMPARISON",
       "title": "Серёгиус: сравнить модели на активных танцах после завершения сюжетных сцен",
       "status": "waiting_story_completion",
-      "verified_at": "2026-10-22T08:48:21.100Z",
+      "verified_at": "2026-10-22T08:49:43.006Z",
       "owner_decision_source": "Прямое сообщение владельца 22.10.2026: сначала доделать все сюжетные сцены, затем сравнивать модели на активных танцах; снова проверить бесплатность Seedance 2.5.",
       "done": [
         "Saved owner comparison plan and completion gate; baseline A1 kept without duplicate.",
-        "Checked Seedance2.5 account UI: Unlimited locked,15s720p18credits/30s720p36credits. No submission or charge."
+        "Checked Seedance2.5 account UI: Unlimited locked,15s720p18credits/30s720p36credits. No submission or charge.",
+        "Updated existing automation6acae6ab433481919e88665c520b8ef2; prompt read-back verified; hourly HH:55 schedule and enabled state preserved."
       ],
-      "next_action": "Обновить существующую automation; затем продолжать сюжетную очередь. После завершения сюжета подготовить сравнимые канонические варианты и заново проверить бесплатность моделей.",
+      "next_action": "Продолжать сюжетную очередь по свежему main. Когда все выбранные сюжетные сцены доделаны, подготовить сравнимые канонические модельные варианты, повторно проверить бесплатность2.5 и выполнить согласованный танцевальный тест без дубляA1.",
       "blockers": [
         "Сюжетные сцены ещё не завершены.",
         "Seedance2.5 сейчас не доступен в проверенном бесплатном режиме.",
@@ -1290,7 +1291,9 @@
       ],
       "scope": "Только план, проверка доступности и передача существующей автоматике. Без генераций, оплаты, одобрения, удаления и повторных запусков.",
       "pre_checkpoint_commit": "bfa4dd71724fd5fe6ff2d26cf24e9d711f6c49e2",
-      "new_submissions": 0
+      "new_submissions": 0,
+      "plan_commit": "cd8ec6dbfa05b80d22294f70effcf04834547b7f",
+      "automation_verified_at": "2026-10-22T08:49:40.533Z"
     }
   ],
   "rules": [
