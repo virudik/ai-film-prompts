@@ -3,7 +3,7 @@
   "mode": "shadow",
   "source": "topview public API (read-only)",
   "generated_by": "scripts/topview_api_scan.py",
-  "checked_at": "2026-10-22T20:49:08Z",
+  "checked_at": "2026-10-22T20:50:47Z",
   "note": "ТЕНЕВОЙ режим: не источник истины. Телеметрию публикует монитор; сравнение — в comparison.",
   "scan": {
     "mode": "light",
@@ -63,7 +63,7 @@
       "model": "Seedance 2.0",
       "scene_id": 39,
       "mapping": "task_map",
-      "queue_count": 1595,
+      "queue_count": 1591,
       "wait_seconds": 43200,
       "process_seconds": null
     },
@@ -76,7 +76,7 @@
       "model": "Seedance 2.0",
       "scene_id": 40,
       "mapping": "task_map",
-      "queue_count": 3727,
+      "queue_count": 3726,
       "wait_seconds": 155520,
       "process_seconds": null
     },
@@ -102,7 +102,7 @@
       "model": "Wan 3.0",
       "scene_id": 44,
       "mapping": "task_map",
-      "queue_count": 2007,
+      "queue_count": 2009,
       "wait_seconds": 60480,
       "process_seconds": null
     },
@@ -115,7 +115,7 @@
       "model": "Seedance 2.0",
       "scene_id": 53,
       "mapping": "task_map",
-      "queue_count": 4448,
+      "queue_count": 4447,
       "wait_seconds": 198720,
       "process_seconds": null
     },
@@ -128,7 +128,7 @@
       "model": "Seedance 2.0",
       "scene_id": 37,
       "mapping": "task_map",
-      "queue_count": 3006,
+      "queue_count": 3005,
       "wait_seconds": 112320,
       "process_seconds": null
     }
@@ -138,19 +138,12 @@
   "missing_known_active": [],
   "recent_completions": [],
   "comparison": {
-    "monitor_checked_at": "2026-10-22T20:31:46Z",
-    "monitor_age_minutes": 17,
+    "monitor_checked_at": "2026-10-22T20:49:08Z",
+    "monitor_age_minutes": 2,
     "monitor_occupied": 6,
     "robot_occupied": 6,
-    "consistent": false,
+    "consistent": true,
     "monitor_may_lag": false,
-    "differences": [
-      {
-        "type": "status_differs",
-        "task_id": "30cfaf12ad944cd6944416623397e41c",
-        "monitor": "init",
-        "robot": "running"
-      }
-    ]
+    "differences": []
   }
 }
