@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main master (canonical since 11.10.2026) -> validation -> status -> Pages; Drive = periodic read-only copy guarded against drift",
-  "synced_at": "2026-10-22T22:10:41Z",
+  "synced_at": "2026-10-22T22:50:35Z",
   "revision_date": "23.10.2026",
   "master_declared_last_full_sync": "23.10.2026 · текущая по live Topview/Drive сверке",
-  "canonical_master_sha256": "7ba6bd01abda44b42b6aeb50e240f25151a660414f36fccf7b7ab5113924347b",
-  "canonical_revision_sha256": "c12e7675fe34ef82636d863c719cf5e97e3b31104baf388f0c06f81fad703cc2",
-  "canonical_master_bytes": 914628,
+  "canonical_master_sha256": "b980fb43c09b3fb23761a8597e9db01933a52bec1e313961379213715bf1af11",
+  "canonical_revision_sha256": "7e2bc5d0f5a9b8e04a4fdad45d72b92342471db84a545f5b890bbf14b57715d2",
+  "canonical_master_bytes": 916525,
   "scenes": 21,
   "prompt_texts": 89,
   "work_items": [
@@ -103,7 +103,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.483,
+    "age_hours_at_status_build": 1.148,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -182,7 +182,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.483,
+      "age_hours": 1.148,
       "blocking": false
     },
     "topview_task_map": {
@@ -674,9 +674,9 @@
   },
   "audit_fingerprint": {
     "revision_date": "23.10.2026",
-    "synced_at": "2026-10-22T22:10:41Z",
-    "canonical_master_sha256": "7ba6bd01abda44b42b6aeb50e240f25151a660414f36fccf7b7ab5113924347b",
-    "canonical_revision_sha256": "c12e7675fe34ef82636d863c719cf5e97e3b31104baf388f0c06f81fad703cc2",
+    "synced_at": "2026-10-22T22:50:35Z",
+    "canonical_master_sha256": "b980fb43c09b3fb23761a8597e9db01933a52bec1e313961379213715bf1af11",
+    "canonical_revision_sha256": "7e2bc5d0f5a9b8e04a4fdad45d72b92342471db84a545f5b890bbf14b57715d2",
     "scene_count": 21,
     "prompt_count": 89,
     "scene_ids": [
