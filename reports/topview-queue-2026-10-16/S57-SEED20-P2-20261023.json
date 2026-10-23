@@ -1,0 +1,133 @@
+{
+  "item_id": "S57-SEED20-P2",
+  "task_id": "af8e389dc9564607bc6138b408c72da5",
+  "submitted_at": "2026-10-23 01:34:29Z",
+  "verified_at": "2026-10-23T01:35:19.591Z",
+  "canonical_prompt_sha256": "64f5b5f9dcaae8ed7e4ddaaa30d04a599c38524f07e59cfd3ace303a4b9f88e8",
+  "normalized_prompt_sha256": "7b1a0ddac96d10f53e993613a07ba70b0d1fe4161fba804afd2c037b07e12b3f",
+  "full_normalized_prompt_match": true,
+  "source_continuity": {
+    "slot": "@Video1",
+    "path": "references/scenes/scene-57/S57-P1-last3s-20261023.mp4",
+    "sha256": "648566d6279cd238848816f160973940714126d0a7fa3292664665537e3361ed",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "input_status": "available",
+    "source_item_id": "S57-SEED20-P1",
+    "source_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+    "trim": {
+      "start_seconds": 12,
+      "end_seconds": 15,
+      "frames": 72,
+      "fps": 24
+    },
+    "source_original_library_file_id": "libfile_9ad606b73ad88191ac415a6bbca617bc",
+    "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+  },
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/3VaKMKvK7edmFSyAQlyVo.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/MnjxWEA2WHQkNDxTovNk2.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/YG24C3pGFFDLaqx7EwRPb.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/FdtaTIPGJWmKQ1y6Z0un9.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/orlMRuCjKztgLymHtwpib.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-fantasy action comedy, played completely straight | Part 2 of 2: the sliding ship beheads a statue, ploughs to a stop, the cats dare to look — and the rolling stone head lands the punchline\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the last seconds of Part 1: the ship sliding fast on its belly down the avenue toward a colossal hooded statue with an outstretched stone arm. Absolute authority for the START STATE, position, direction, damage and light.\n<<<Image1>>>  — the owner-selected RosKOTmos ship design: elongated worn white hull, amber-glazed multi-pane cockpit, red swoosh, dark-navy band, round cat-astronaut emblem with the РОСКОТМОС wordmark, small dorsal fin, rear engine nacelles. Vehicle design only.\n<<<Image2>>>  — the crash avenue of tall carved ochre-stone columns and colossal hooded statues. Layout, scale and stone.\n<<<Image3>>>  — the cats' exact warm cockpit; RYZHIK's seat on frame-left, LUCHIK's on frame-right in the front view. Interior geometry and light only.\n<<<Image4>>>  — absolute identity of LUCHIK.\n<<<Image5>>>  — absolute identity of RYZHIK.\nPriority: <<<Video1>>>  controls the start; <<<Image4>>>  and <<<Image5>>>  the cats; <<<Image1>>>  the ship; <<<Image2>>>  the avenue; <<<Image3>>>  the cockpit.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nLUCHIK (<<<Image4>>> ), the PILOT: fluffy white-and-grey long-haired cat with white muzzle, chest and legs and grey crown, facial and back markings.\nRYZHIK (<<<Image5>>> ), the NAVIGATOR: fluffy ginger long-haired tabby with a warm orange coat, darker stripes and a lighter muzzle and chest.\nReal photoreal domestic cats at ordinary adult cat scale relative to the seats; never giant or half-human, no human hands. Lightsabers stowed and unlit. No people anywhere.\n\nSHIP / CRASH LOCK — CRITICAL:\nThe same ship as in <<<Video1>>>  and <<<Image1>>> : same silhouette, paint, emblem and scale, right nacelle burning with black smoke. It gets more dents, scrapes and dust and bends its antenna, but stays in ONE piece: no explosion, no breaking apart; emblem readable.\n\nLOCATION LOCK:\nThe same dusty avenue at golden-orange sunset, toppled columns behind the ship. Fine dust and ember sparks. No lava, vegetation, water, people or other ships.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> .\n\nTIMELINE:\n[0:00–0:04] — THE STATUE LOSES ITS HAND\nContinuing <<<Video1>>> , side tracking shot: the sliding ship's dorsal fin shears the outstretched stone arm clean off the colossal hooded statue; the arm drops into the dust. A beat later the statue's hooded stone head tips off its shoulders and starts rolling after the ship like a giant bowling ball.\n\n[0:04–0:08] — THE SLIDE\nCut to a high angle: the ship ploughs a long trench, slowly swinging sideways, knocks two short broken pillars flying like skittles and grinds to a halt with its nose an arm's length from the plinth of the last standing colossal statue.\n\n[0:08–0:11] — DEAD QUIET\nCut inside the <<<Image3>>>  cockpit, front three-quarter view: dust drifts past the windows, one alarm light still blinking. RYZHIK on frame-left slowly lowers his paws from his eyes; LUCHIK on frame-right, still gripping the yoke, slowly turns his head toward him.\n\n[0:11–0:15] — ALMOST FINE\nCut to medium-wide exterior, frontal: the last statue sways… and stays standing. The rolling stone head arrives and taps the ship's tail with one dull clonk; a small engine cover falls off with a clang and the bent antenna droops slowly. Hold.\n\nEND STATE:\nThe ship lies tilted on its belly at the end of a long trench, turned sideways, nose almost touching a colossal statue's plinth; right nacelle burning with black smoke, hull dented but in one piece, side hatch closed; toppled columns behind, the statue's stone arm and hooded head beside the tail. Dust settling in sunset light. Nobody comes out yet.\n\nCAMERA / SPACE:\nThree motivated cuts (into 0:04, 0:08, 0:11). Screen direction continues <<<Video1>>> . Real weight and scale; comedy from timing and real physics, not cartoon squash, speed ramps or wild shake. In the cockpit both faces readable.\n\nPERFORMANCE:\nThe cats are deadly serious: wide eyes, flattened ears, puffed fur, a slow cautious look; no mugging. The ship has real mass.\n\nLIGHTING / MATERIALS:\nLow golden-orange sunset, long shadows, backlit settling dust; orange firelight and black smoke; one blinking alarm over warm amber in the cockpit; dented scorched painted metal; heavy ochre stone.\n\nAUDIO:\nScreeching metal on stone, a stone arm thud, the grinding roll of the stone head, skittle-like cracks of the pillars, the grinding stop, then sudden quiet with crackling flames and a single alarm beep, the creak of the swaying statue, one dull clonk, a small clang and a creak. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\nexplosion, fireball, ship breaking apart, statue falling onto the ship, cats outside the ship, people, other ships, new ship design, ship changing shape or paint, missing emblem, garbled lettering, giant cats, human hands, identity swap, cartoon physics, slow motion, speed ramps, comedy sound effects, music, lava, vegetation, water, subtitles, text overlays, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/QTsqC9mNymZcIqNaFWKXw.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "af8e389dc9564607bc6138b408c72da5",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "creditsCost": 0,
+  "status": "init",
+  "preflight": {
+    "global_scan": {
+      "at": "2026-10-23T01:31:15.285Z",
+      "boards": 13,
+      "pages": 19,
+      "total": 928,
+      "active": [
+        {
+          "id": "6598a21c2c684d43b7cede9cfc987107",
+          "status": "init",
+          "credits": 0,
+          "unlimited": true
+        },
+        {
+          "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "status": "init",
+          "credits": 0,
+          "unlimited": true
+        }
+      ]
+    },
+    "full_normalized_prompt_match": true,
+    "all_input_sha256_verified": true,
+    "input_order": [
+      "Video1",
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5"
+    ],
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "max_credits": 0,
+    "owner_decisions_open": 0
+  },
+  "ui_proof": "Screenshot failed twice with Page.captureScreenshot timeout; post-submit DOM shows queued state; read-only task receipt verified.",
+  "actor": "chatgpt"
+}
