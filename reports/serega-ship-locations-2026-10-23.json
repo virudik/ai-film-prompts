@@ -1,7 +1,7 @@
 {
   "work_id": "SEREGA-SHIP-LOCATIONS-20261023",
   "created_at": "2026-10-23T16:59:20.281312+00:00",
-  "status": "validated_ready_to_publish",
+  "status": "completed_published_verified",
   "assets": [
     {
       "key": "naboo-day",
@@ -208,24 +208,44 @@
       "@Image4": "naboo-day",
       "@Image6": "kashyyyk-space"
     },
+    "39": {
+      "@Image3": "naboo-evening"
+    },
+    "40": {
+      "@Image4": "sith-ruins",
+      "@Image6": "kashyyyk-space"
+    },
+    "41": {
+      "@Image4": "sith-ruins",
+      "@Image6": "flagship-space"
+    },
+    "52": {
+      "@Image2": "hangar",
+      "@Image6": "tatooine-town"
+    },
+    "53": {
+      "@Image2": "tatooine-town",
+      "@Image5": "tatooine-canyon"
+    },
+    "59": {
+      "@Image2": "kashyyyk-landing",
+      "@Image4": "kashyyyk-space"
+    },
+    "60": {
+      "@Image2": "kashyyyk-departure",
+      "@Image6": "kashyyyk-space"
+    },
     "37 · Seedance 2.0 часть 1": {
       "@Image2": "naboo-day"
     },
     "37 · Seedance 2.0 часть 2": {
       "@Image2": "kashyyyk-space"
     },
-    "39": {
-      "@Image3": "naboo-evening"
-    },
     "39 · Seedance 2.0 часть 1": {
       "@Image2": "naboo-evening"
     },
     "39 · Seedance 2.0 часть 2": {
       "@Image2": "naboo-evening"
-    },
-    "40": {
-      "@Image4": "sith-ruins",
-      "@Image6": "kashyyyk-space"
     },
     "40 · Seedance 2.0 часть 1": {
       "@Image4": "sith-ruins",
@@ -234,29 +254,17 @@
     "40 · Seedance 2.0 часть 2": {
       "@Image3": "sith-ruins"
     },
-    "41": {
-      "@Image4": "sith-ruins",
-      "@Image6": "flagship-space"
-    },
     "41 · Seedance 2.0 часть 1": {
       "@Image4": "sith-ruins"
     },
     "41 · Seedance 2.0 часть 2": {
       "@Image3": "flagship-space"
     },
-    "52": {
-      "@Image2": "hangar",
-      "@Image6": "tatooine-town"
-    },
     "52 · Seedance 2.0 часть 1": {
       "@Image2": "hangar"
     },
     "52 · Seedance 2.0 часть 2": {
       "@Image2": "tatooine-town"
-    },
-    "53": {
-      "@Image2": "tatooine-town",
-      "@Image5": "tatooine-canyon"
     },
     "53 · Seedance 2.0 часть 1": {
       "@Image2": "tatooine-town",
@@ -265,20 +273,12 @@
     "53 · Seedance 2.0 часть 2": {
       "@Image2": "tatooine-canyon"
     },
-    "59": {
-      "@Image2": "kashyyyk-landing",
-      "@Image4": "kashyyyk-space"
-    },
     "59 · Seedance 2.0 часть 1": {
       "@Image2": "kashyyyk-landing",
       "@Image4": "kashyyyk-space"
     },
     "59 · Seedance 2.0 часть 2": {
       "@Image2": "kashyyyk-landing"
-    },
-    "60": {
-      "@Image2": "kashyyyk-departure",
-      "@Image6": "kashyyyk-space"
     },
     "60 · Seedance 2.0 часть 1": {
       "@Image2": "kashyyyk-departure"
@@ -300,6 +300,131 @@
     "prompt_scope": "24changed/74unchanged",
     "pending_queue": "5inputsets/hashes verified;all other items unchanged",
     "visual_qc": "10outputs viewed;empty roof;one personal craft each, enormous flagship distinct",
-    "limitations": "Synthetic guidance; hull details are not pixel-identical. Actual continuity videos control starting frame, direction and state."
+    "limitations": "Synthetic guidance; hull details are not pixel-identical. Actual continuity videos control starting frame, direction and state.",
+    "ci_note": "Initial integration CI39999733864 on publish commit failed6checks because instruction certificate still described previous docs. Canonical sync39999733912 and39999960464 refreshed certificate and passed; latest main project-status and canon-health are ok. Local228tests passed after certificate refresh; not claiming initial CI passed."
+  },
+  "completed_at": "2026-10-23T18:09:39.160Z",
+  "published_commit": "1cc20aa738c92359ff9bc4842830fc59989fae56",
+  "publication_verification": {
+    "files": [
+      {
+        "path": "video-prompts.md",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "ops/topview-launch-queue.json",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-naboo-day.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-naboo-evening.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-sith-ruins.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-hangar.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-tatooine-town.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-tatooine-canyon.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-naboo-day.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-naboo-evening.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-sith-ruins.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-hangar.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-tatooine-town.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-tatooine-canyon.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-landing.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-departure.png.webp",
+        "status": 200,
+        "exact": true
+      },
+      {
+        "path": "references/thumbs/scenes/ship-locations/Serega-ship-kashyyyk-space.png.webp",
+        "status": 200,
+        "exact": true
+      }
+    ],
+    "health": "ok",
+    "master_sha256": "ce54dd900198406044bb581979c59506e255c688fe0dd0fca79b2675787edff3",
+    "expected_sha256": "ce54dd900198406044bb581979c59506e255c688fe0dd0fca79b2675787edff3",
+    "scenes": 24,
+    "prompts": 98,
+    "pages_run": 40000090869,
+    "checked_at": "2026-10-23T18:09:39.160Z",
+    "browser": "Public page DOM shows all eight new galleries and exact Master SHA ce54dd900198 with Project synchronized; no native ChatGPT Images claim."
   }
 }

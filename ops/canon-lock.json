@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Verify and close location-specific spacecraft reference publication",
   "acquired_at": "2026-10-23T18:08:52.253Z",
-  "expires_at": "2026-10-23T18:28:52.253Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T18:09:39.160Z",
   "rules": "ops/CANON-LOCK.md"
 }

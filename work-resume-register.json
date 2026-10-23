@@ -1,17 +1,18 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T17:13:25.740946Z",
+  "last_updated_at": "2026-10-23T18:09:39.160Z",
   "active_work": [
     {
       "work_id": "SEREGA-SHIP-LOCATIONS-20261023",
       "title": "Корабль Серёги в каждой локации",
-      "status": "validated_ready_to_publish",
-      "updated_at": "2026-10-23T17:13:25.740946Z",
+      "status": "completed_published_verified",
+      "updated_at": "2026-10-23T18:09:39.160Z",
       "completed": [
-        "10 generated and visually reviewed location stills;24 prompts in8scenes;5pending queue references/hashes."
+        "10 generated and visually reviewed location stills;24 prompts in8scenes;5pending queue references/hashes.",
+        "Published1cc20aa;Pages40000090869 success;22/22public master/queue/images/thumbs exactHTTP200;healthok24/98;new galleries present in public browser DOM."
       ],
-      "next_action": "Publish, verify public Pages/master/10images/queue, release canon lock.",
+      "next_action": "Continue existing queue with new per-location inputs; retain actual P1 ending/QC dependencies. This reference task made no video submissions.",
       "canonical_refs": [
         "reports/serega-ship-locations-2026-10-23.json"
       ]
