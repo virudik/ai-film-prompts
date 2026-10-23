@@ -3,12 +3,12 @@
   "source_of_truth": "GitHub main/projects/kot-detektiv/video-prompts.md",
   "instruction_source_of_truth": "GitHub main canonical instruction files",
   "automation": "GitHub main project master -> scripts/projects.py (validator of build_project_status.py) -> status -> Pages",
-  "synced_at": "2026-10-23T02:51:07Z",
-  "revision_date": "21.10.2026",
-  "master_declared_last_full_sync": "21.10.2026 · сцена 22: активная погоня на дилижансах, четыре новых референса",
-  "canonical_master_sha256": "da6a9bd3649d248958145751a3d5513838140e6c29fc02c2f6d421c5cb0eae56",
-  "canonical_revision_sha256": "afb0b81ba55889ef701d6ce57b57d8d95932239689f90e5f99683b5864e7e74d",
-  "canonical_master_bytes": 423775,
+  "synced_at": "2026-10-23T04:13:32Z",
+  "revision_date": "23.10.2026",
+  "master_declared_last_full_sync": "23.10.2026 · точные подписи референсов по задаче владельца; темп сцен не менялся",
+  "canonical_master_sha256": "37ec2a542a2543b74240da7d910e3688d3b59ccfbadfc391e8f422821e118a52",
+  "canonical_revision_sha256": "d52ec5eb4e86072f1cab44b8ee1d5e9a37311d54113fb1d8d4f2084881e0588a",
+  "canonical_master_bytes": 428520,
   "scenes": 22,
   "prompt_texts": 66,
   "work_items": [],
@@ -47,7 +47,7 @@
     "source_of_truth": "GitHub main canonical instruction files (Drive = read-only copy)",
     "verification_mode": "github_canonical_blob_check",
     "freshness_max_hours": 48.0,
-    "age_hours_at_status_build": 0.028,
+    "age_hours_at_status_build": 1.402,
     "files": {
       "NEW-CHAT-HANDOFF.md": {
         "drive_file_id": "1lRLQZkxo6Kh6MDx8StS_c5M8cjfHDxnD",
@@ -126,7 +126,7 @@
   "maintenance": {
     "instruction_verification": {
       "state": "ok",
-      "age_hours": 0.028,
+      "age_hours": 1.402,
       "blocking": false
     },
     "topview_task_map": {
@@ -548,10 +548,10 @@
     }
   },
   "audit_fingerprint": {
-    "revision_date": "21.10.2026",
-    "synced_at": "2026-10-23T02:51:07Z",
-    "canonical_master_sha256": "da6a9bd3649d248958145751a3d5513838140e6c29fc02c2f6d421c5cb0eae56",
-    "canonical_revision_sha256": "afb0b81ba55889ef701d6ce57b57d8d95932239689f90e5f99683b5864e7e74d",
+    "revision_date": "23.10.2026",
+    "synced_at": "2026-10-23T04:13:32Z",
+    "canonical_master_sha256": "37ec2a542a2543b74240da7d910e3688d3b59ccfbadfc391e8f422821e118a52",
+    "canonical_revision_sha256": "d52ec5eb4e86072f1cab44b8ee1d5e9a37311d54113fb1d8d4f2084881e0588a",
     "scene_count": 22,
     "prompt_count": 66,
     "scene_ids": [

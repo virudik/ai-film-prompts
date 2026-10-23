@@ -21,7 +21,7 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "role": "Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов",
       "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
       "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae"
     }
@@ -44,7 +44,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов",
           "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
           "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae"
         }
@@ -68,7 +68,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов",
           "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
           "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae"
         }
@@ -92,7 +92,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов",
           "path": "projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png",
           "sha256": "df2535df3849bbe71bffb078fd563e5ad65a185b6278f71bd8a8aa629c6cf8ae"
         }

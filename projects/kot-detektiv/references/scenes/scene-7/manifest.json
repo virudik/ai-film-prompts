@@ -21,13 +21,13 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "role": "Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще",
       "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
       "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
     },
     {
       "tag": "@Image4",
-      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "role": "Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет",
       "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
       "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
     }
@@ -50,13 +50,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще",
           "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
           "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет",
           "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
           "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
         }
@@ -80,13 +80,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще",
           "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
           "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет",
           "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
           "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
         }
@@ -110,13 +110,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще",
           "path": "projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png",
           "sha256": "796b2651dd5139ed0599a970baf7d0e588cf1a55ca0a6921523ed2bd852ad761"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет",
           "path": "projects/kot-detektiv/references/development/KD-clocktower.png",
           "sha256": "92099fcd9edef9f46d3e42fa42b795dcff508bb4a504da4e5abea2533daa0588"
         }

@@ -21,7 +21,7 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+      "role": "Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём",
       "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
       "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
     }
@@ -44,7 +44,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём",
           "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
           "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
         }
@@ -68,7 +68,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём",
           "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
           "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
         }
@@ -92,7 +92,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности",
+          "role": "Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём",
           "path": "projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png",
           "sha256": "faad27aaf5ec9c1c5c596d9c0d816d2639e0d542cbe239fe8bda76baebf852ca"
         }

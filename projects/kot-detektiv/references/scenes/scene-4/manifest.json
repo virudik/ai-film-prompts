@@ -21,13 +21,13 @@
     },
     {
       "tag": "@Image3",
-      "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+      "role": "Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен",
       "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
       "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
     },
     {
       "tag": "@Image4",
-      "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+      "role": "Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной",
       "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
       "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
     },
@@ -62,13 +62,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен",
           "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
           "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной",
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
         },
@@ -104,13 +104,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен",
           "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
           "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной",
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
         },
@@ -146,13 +146,13 @@
         },
         {
           "tag": "@Image3",
-          "role": "Сюжетный кадр: локация, действие и реквизит; не замена идентичности",
+          "role": "Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен",
           "path": "projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png",
           "sha256": "7bff0c6d0047934f1ccdb60fbd2356e14ec5e155c3e5fb9888efabc715de5fb0"
         },
         {
           "tag": "@Image4",
-          "role": "Дополнительная опора на среду/реквизит, не переносить другую фазу действия",
+          "role": "Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной",
           "path": "projects/kot-detektiv/references/detective-cat-police-dog-bridge.png",
           "sha256": "0db6201b032dc4b0b5da60139d61bc7e8939269b4d3c02d2558a073464c1af28"
         },

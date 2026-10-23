@@ -9,7 +9,7 @@
 - **🛠️ 0** рабочих направлений W: предложения оформлены как DRAFT-сцены по новой команде владельца.
 - **⏳ 0** сцен сейчас в медленной генерации: **нет**.
 - **Последняя оформленная активная сцена:** 22 — черновик, без запуска и без очереди.
-- **Последняя полная синхронизация:** **21.10.2026 · сцена 22: активная погоня на дилижансах, четыре новых референса**.
+- **Последняя полная синхронизация:** **23.10.2026 · точные подписи референсов по задаче владельца; темп сцен не менялся**.
 
 **Все сцены DRAFT.** Это тексты и изображения для доработки владельцем, не готовые видеоролики. Очередь не менялась. По каждой сцене: 30 секунд Wan 3.0 / Seedance 2.5 и две части Seedance 2.0 по 15 секунд. Для второй части нужен реальный результат первой. Только безлимит, 0 кредитов; платные запуски — владелец. Ничего не одобрять, не удалять и не перезапускать автоматически.
 
@@ -72,7 +72,7 @@
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Кот — выбранный владельцем оригинал" loading="lazy"></a><figcaption>@Image1 — Кот — выбранный владельцем оригинал</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Пёс — исходная внешность и форма" loading="lazy"></a><figcaption>@Image2 — Пёс — исходная внешность и форма</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Отдельная опора монтажа: KD-map-envelope.png" loading="lazy"></a><figcaption>@Image3 — Отдельная опора монтажа: KD-map-envelope.png</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера" loading="lazy"></a><figcaption>@Image3 — Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" alt="Пустая ложа — только эта локация и её действие" loading="lazy"></a><figcaption>@Image4 — Пустая ложа — только эта локация и её действие</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" alt="Затопленный архив — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Затопленный архив — только эта локация и её действие</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" alt="Мастерская чужих лиц — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Мастерская чужих лиц — только эта локация и её действие</figcaption></figure>
@@ -96,7 +96,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 @Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 @Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 @Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
@@ -162,7 +162,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 @Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 @Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 @Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
@@ -220,7 +220,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Кот — выбранный владельцем оригинал; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Пёс — исходная внешность и форма; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Отдельная опора монтажа: KD-map-envelope.png; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 @Image4 — Пустая ложа — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 @Image5 — Затопленный архив — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 @Image6 — Мастерская чужих лиц — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
@@ -467,8 +467,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/office-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-map.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png" alt="Ключевой кадр: кабинет, кот с письмом под красной печатью, часы встали, в дверях промокший констебль — расстановка и свет" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: кабинет, кот с письмом под красной печатью, часы встали, в дверях промокший констебль — расстановка и свет</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/office-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-map.png" alt="Исходный кабинет с большой картой Лондона на стене — стены, карта, дверь и свет комнаты" loading="lazy"></a><figcaption>@Image4 — Исходный кабинет с большой картой Лондона на стене — стены, карта, дверь и свет комнаты</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-wide.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-wide.jpg" alt="Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения" loading="lazy"></a><figcaption>@Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/office-frame-02s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/office-frame-02s.png" alt="Кадр исходного видео кабинета — только свет и мультипликационная фактура" loading="lazy"></a><figcaption>@Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура</figcaption></figure>
 </div>
@@ -489,8 +489,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image3 — Ключевой кадр: кабинет, кот с письмом под красной печатью, часы встали, в дверях промокший констебль — расстановка и свет; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
+@Image4 — Исходный кабинет с большой картой Лондона на стене — стены, карта, дверь и свет комнаты; file: projects/kot-detektiv/references/office-map.png.
 @Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
 @Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -553,8 +553,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image3 — Ключевой кадр: кабинет, кот с письмом под красной печатью, часы встали, в дверях промокший констебль — расстановка и свет; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
+@Image4 — Исходный кабинет с большой картой Лондона на стене — стены, карта, дверь и свет комнаты; file: projects/kot-detektiv/references/office-map.png.
 @Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
 @Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -609,8 +609,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/office-map.png.
+@Image3 — Ключевой кадр: кабинет, кот с письмом под красной печатью, часы встали, в дверях промокший констебль — расстановка и свет; file: projects/kot-detektiv/references/scenes/scene-3/KD03-stopped-clock.png.
+@Image4 — Исходный кабинет с большой картой Лондона на стене — стены, карта, дверь и свет комнаты; file: projects/kot-detektiv/references/office-map.png.
 @Image5 — Исходный широкий кабинет — только масштаб и фактура; исключить современный реквизит и человеческие изображения; file: projects/kot-detektiv/references/detective-cat-office-wide.jpg.
 @Image6 — Кадр исходного видео кабинета — только свет и мультипликационная фактура; file: projects/kot-detektiv/references/office-frame-02s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -673,8 +673,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png" alt="Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-bridge.png" alt="Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной" loading="lazy"></a><figcaption>@Image4 — Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/development/KD-duo.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-duo.png" alt="Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности" loading="lazy"></a><figcaption>@Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/london-street-frame-05s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/london-street-frame-05s.png" alt="Кадр исходного видео — движение пары и свет улицы, все фигуры животные" loading="lazy"></a><figcaption>@Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные</figcaption></figure>
 </div>
@@ -695,8 +695,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image3 — Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
+@Image4 — Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
 @Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
 @Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -759,8 +759,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image3 — Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
+@Image4 — Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
 @Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
 @Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -815,8 +815,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
+@Image3 — Ключевой кадр: кот с лупой у объявлений о пропавших, пёс с блокнотом, ночная набережная и Биг-Бен; file: projects/kot-detektiv/references/scenes/scene-4/KD04-missing-notices.png.
+@Image4 — Исходная пара на мосту ночью — рост, походка и мокрая брусчатка набережной; file: projects/kot-detektiv/references/detective-cat-police-dog-bridge.png.
 @Image5 — Совместный проход и соотношение роста кота с псом; оригиналы выше для идентичности; file: projects/kot-detektiv/references/development/KD-duo.png.
 @Image6 — Кадр исходного видео — движение пары и свет улицы, все фигуры животные; file: projects/kot-detektiv/references/london-street-frame-05s.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
@@ -879,8 +879,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-quay-clue.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-quay-clue.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png" alt="Ключевой кадр: набережная, кот с лупой над следами лап, часы и красная печать на камне, пёс с фонарём" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: набережная, кот с лупой над следами лап, часы и красная печать на камне, пёс с фонарём</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-quay-clue.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-quay-clue.png" alt="Набережная с уликами: часы, печать и следы у парапета — место и реквизит" loading="lazy"></a><figcaption>@Image4 — Набережная с уликами: часы, печать и следы у парапета — место и реквизит</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-riverside-solo.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-riverside-solo.png" alt="Исходная поза кота с лупой — только пластика расследования, без пищевого гэга" loading="lazy"></a><figcaption>@Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-riverside.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-riverside.png" alt="Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики" loading="lazy"></a><figcaption>@Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/riverside-frame-02s.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/riverside-frame-02s.png" alt="Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы" loading="lazy"></a><figcaption>@Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы</figcaption></figure>
@@ -902,8 +902,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image3 — Ключевой кадр: набережная, кот с лупой над следами лап, часы и красная печать на камне, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
+@Image4 — Набережная с уликами: часы, печать и следы у парапета — место и реквизит; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
 @Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
 @Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
 @Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
@@ -967,8 +967,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image3 — Ключевой кадр: набережная, кот с лупой над следами лап, часы и красная печать на камне, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
+@Image4 — Набережная с уликами: часы, печать и следы у парапета — место и реквизит; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
 @Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
 @Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
 @Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
@@ -1024,8 +1024,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
+@Image3 — Ключевой кадр: набережная, кот с лупой над следами лап, часы и красная печать на камне, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-5/KD05-river-footprints.png.
+@Image4 — Набережная с уликами: часы, печать и следы у парапета — место и реквизит; file: projects/kot-detektiv/references/development/KD-quay-clue.png.
 @Image5 — Исходная поза кота с лупой — только пластика расследования, без пищевого гэга; file: projects/kot-detektiv/references/detective-cat-riverside-solo.png.
 @Image6 — Исходная пара на набережной — рост и освещение, не переносить ленту и пищевые улики; file: projects/kot-detektiv/references/detective-cat-police-dog-riverside.png.
 @Image7 — Исходный видеокадр у реки — фактура и мокрый камень; исключить современные предметы; file: projects/kot-detektiv/references/riverside-frame-02s.png.
@@ -1089,8 +1089,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png" alt="Ключевой кадр: кабинет, кот ведёт красную нить по карте Лондона, пёс находит конверт у двери" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: кабинет, кот ведёт красную нить по карте Лондона, пёс находит конверт у двери</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-map-envelope.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-map-envelope.png" alt="Кабинет с картой-доской и красными нитями, конверт у двери — интерьер и реквизит" loading="lazy"></a><figcaption>@Image4 — Кабинет с картой-доской и красными нитями, конверт у двери — интерьер и реквизит</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -1109,8 +1109,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Ключевой кадр: кабинет, кот ведёт красную нить по карте Лондона, пёс находит конверт у двери; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
+@Image4 — Кабинет с картой-доской и красными нитями, конверт у двери — интерьер и реквизит; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1171,8 +1171,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Ключевой кадр: кабинет, кот ведёт красную нить по карте Лондона, пёс находит конверт у двери; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
+@Image4 — Кабинет с картой-доской и красными нитями, конверт у двери — интерьер и реквизит; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1225,8 +1225,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
+@Image3 — Ключевой кадр: кабинет, кот ведёт красную нить по карте Лондона, пёс находит конверт у двери; file: projects/kot-detektiv/references/scenes/scene-6/KD06-thread-map.png.
+@Image4 — Кабинет с картой-доской и красными нитями, конверт у двери — интерьер и реквизит; file: projects/kot-detektiv/references/development/KD-map-envelope.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1287,8 +1287,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-clocktower.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-clocktower.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png" alt="Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-clocktower.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-clocktower.png" alt="Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет" loading="lazy"></a><figcaption>@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -1307,8 +1307,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1369,8 +1369,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1423,8 +1423,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: лестница в часовой башне, кот с фонарём у ленты в шестерне, на галерее фигура в плаще; file: projects/kot-detektiv/references/scenes/scene-7/KD07-clockwork-stair.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1485,8 +1485,8 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/development/KD-clocktower.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-clocktower.png" alt="Дополнительная опора на среду/реквизит, не переносить другую фазу действия" loading="lazy"></a><figcaption>@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png" alt="Ключевой кадр: крыша ночью, кот с часами указывает на обсерваторию вдали, пёс с фонарём, карта на парапете" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: крыша ночью, кот с часами указывает на обсерваторию вдали, пёс с фонарём, карта на парапете</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/development/KD-clocktower.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/development/KD-clocktower.png" alt="Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет" loading="lazy"></a><figcaption>@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -1505,8 +1505,8 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: крыша ночью, кот с часами указывает на обсерваторию вдали, пёс с фонарём, карта на парапете; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1567,8 +1567,8 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: крыша ночью, кот с часами указывает на обсерваторию вдали, пёс с фонарём, карта на парапете; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1621,8 +1621,8 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
-@Image4 — Дополнительная опора на среду/реквизит, не переносить другую фазу действия; file: projects/kot-detektiv/references/development/KD-clocktower.png.
+@Image3 — Ключевой кадр: крыша ночью, кот с часами указывает на обсерваторию вдали, пёс с фонарём, карта на парапете; file: projects/kot-detektiv/references/scenes/scene-8/KD08-next-address.png.
+@Image4 — Часовая башня изнутри: лестницы, шестерни, огромный циферблат и фигура на галерее — место и свет; file: projects/kot-detektiv/references/development/KD-clocktower.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1683,7 +1683,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png" alt="Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -1702,7 +1702,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
+@Image3 — Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1763,7 +1763,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
+@Image3 — Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1816,7 +1816,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
+@Image3 — Ключевой кадр: пустая карета с красным бархатом, письмо и перчатка на сиденье, кот с лупой у следов; file: projects/kot-detektiv/references/scenes/scene-9/KD09-empty-carriage.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1877,7 +1877,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png" alt="Сюжетный кадр: локация, действие и реквизит; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png" alt="Ключевой кадр: обсерватория, кот у механизма телескопа с красной нитью, пёс с фонарём, следы на полу" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: обсерватория, кот у механизма телескопа с красной нитью, пёс с фонарём, следы на полу</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -1896,7 +1896,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
+@Image3 — Ключевой кадр: обсерватория, кот у механизма телескопа с красной нитью, пёс с фонарём, следы на полу; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -1957,7 +1957,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
+@Image3 — Ключевой кадр: обсерватория, кот у механизма телескопа с красной нитью, пёс с фонарём, следы на полу; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2010,7 +2010,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр: локация, действие и реквизит; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
+@Image3 — Ключевой кадр: обсерватория, кот у механизма телескопа с красной нитью, пёс с фонарём, следы на полу; file: projects/kot-detektiv/references/scenes/scene-10/KD10-observatory.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2071,7 +2071,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png" alt="Ключевой кадр: вокзал в пару, кот у чемодана с биркой и печатью, пёс с фонарём, ворон-проводник позади" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: вокзал в пару, кот у чемодана с биркой и печатью, пёс с фонарём, ворон-проводник позади</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -2090,7 +2090,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image3 — Ключевой кадр: вокзал в пару, кот у чемодана с биркой и печатью, пёс с фонарём, ворон-проводник позади; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2151,7 +2151,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image3 — Ключевой кадр: вокзал в пару, кот у чемодана с биркой и печатью, пёс с фонарём, ворон-проводник позади; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2204,7 +2204,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
+@Image3 — Ключевой кадр: вокзал в пару, кот у чемодана с биркой и печатью, пёс с фонарём, ворон-проводник позади; file: projects/kot-detektiv/references/scenes/scene-11/KD11-raven-station.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2265,7 +2265,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png" alt="Ключевой кадр: зимний сад, кот тянет красную нить от розы, пёс с фонарём, силуэт за стеклом" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: зимний сад, кот тянет красную нить от розы, пёс с фонарём, силуэт за стеклом</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -2284,7 +2284,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image3 — Ключевой кадр: зимний сад, кот тянет красную нить от розы, пёс с фонарём, силуэт за стеклом; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2345,7 +2345,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image3 — Ключевой кадр: зимний сад, кот тянет красную нить от розы, пёс с фонарём, силуэт за стеклом; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2398,7 +2398,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
+@Image3 — Ключевой кадр: зимний сад, кот тянет красную нить от розы, пёс с фонарём, силуэт за стеклом; file: projects/kot-detektiv/references/scenes/scene-12/KD12-glasshouse.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2459,7 +2459,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png" alt="Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -2478,7 +2478,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image3 — Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2539,7 +2539,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image3 — Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2592,7 +2592,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
+@Image3 — Ключевой кадр: пустая оперная ложа, кот с биноклем, маска и программка на кресле, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-13/KD13-opera-box.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2653,7 +2653,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" alt="Ключевой кадр: крыши у труб, кот держит нить чёрного воздушного змея с футляром, пёс придерживает его" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: крыши у труб, кот держит нить чёрного воздушного змея с футляром, пёс придерживает его</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -2672,7 +2672,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image3 — Ключевой кадр: крыши у труб, кот держит нить чёрного воздушного змея с футляром, пёс придерживает его; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2733,7 +2733,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image3 — Ключевой кадр: крыши у труб, кот держит нить чёрного воздушного змея с футляром, пёс придерживает его; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2786,7 +2786,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
+@Image3 — Ключевой кадр: крыши у труб, кот держит нить чёрного воздушного змея с футляром, пёс придерживает его; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2847,7 +2847,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png" alt="Ключевой кадр: затопленный архив, кот у стеклянной витрины с письмом, пёс в воде достаёт мокрую папку" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: затопленный архив, кот у стеклянной витрины с письмом, пёс в воде достаёт мокрую папку</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -2866,7 +2866,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image3 — Ключевой кадр: затопленный архив, кот у стеклянной витрины с письмом, пёс в воде достаёт мокрую папку; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2927,7 +2927,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image3 — Ключевой кадр: затопленный архив, кот у стеклянной витрины с письмом, пёс в воде достаёт мокрую папку; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -2980,7 +2980,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
+@Image3 — Ключевой кадр: затопленный архив, кот у стеклянной витрины с письмом, пёс в воде достаёт мокрую папку; file: projects/kot-detektiv/references/scenes/scene-15/KD15-flooded-archive.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3041,7 +3041,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png" alt="Ключевой кадр: мастерская марионеток, кот с лупой у следа и нитей на верстаке, пёс у шторы с тенью" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: мастерская марионеток, кот с лупой у следа и нитей на верстаке, пёс у шторы с тенью</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -3060,7 +3060,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image3 — Ключевой кадр: мастерская марионеток, кот с лупой у следа и нитей на верстаке, пёс у шторы с тенью; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3121,7 +3121,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image3 — Ключевой кадр: мастерская марионеток, кот с лупой у следа и нитей на верстаке, пёс у шторы с тенью; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3174,7 +3174,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
+@Image3 — Ключевой кадр: мастерская марионеток, кот с лупой у следа и нитей на верстаке, пёс у шторы с тенью; file: projects/kot-detektiv/references/scenes/scene-16/KD16-puppet-workshop.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3235,7 +3235,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png" alt="Ключевой кадр: типография, кот с газетным листом-иллюстрацией, пёс указывает на улицу за окном" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: типография, кот с газетным листом-иллюстрацией, пёс указывает на улицу за окном</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -3254,7 +3254,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image3 — Ключевой кадр: типография, кот с газетным листом-иллюстрацией, пёс указывает на улицу за окном; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3315,7 +3315,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image3 — Ключевой кадр: типография, кот с газетным листом-иллюстрацией, пёс указывает на улицу за окном; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3368,7 +3368,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
+@Image3 — Ключевой кадр: типография, кот с газетным листом-иллюстрацией, пёс указывает на улицу за окном; file: projects/kot-detektiv/references/scenes/scene-17/KD17-printing-press.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3429,7 +3429,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" alt="Ключевой кадр: шлюз канала, кот тянет лодку с письмом и фонарём, пёс держит канат, вода хлещет" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: шлюз канала, кот тянет лодку с письмом и фонарём, пёс держит канат, вода хлещет</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -3448,7 +3448,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image3 — Ключевой кадр: шлюз канала, кот тянет лодку с письмом и фонарём, пёс держит канат, вода хлещет; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3509,7 +3509,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image3 — Ключевой кадр: шлюз канала, кот тянет лодку с письмом и фонарём, пёс держит канат, вода хлещет; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3562,7 +3562,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
+@Image3 — Ключевой кадр: шлюз канала, кот тянет лодку с письмом и фонарём, пёс держит канат, вода хлещет; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3623,7 +3623,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png" alt="Ключевой кадр: аукцион в масках, ключ под стеклянным колпаком, кот и пёс у лота, тень ключа на стене" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: аукцион в масках, ключ под стеклянным колпаком, кот и пёс у лота, тень ключа на стене</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -3642,7 +3642,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+@Image3 — Ключевой кадр: аукцион в масках, ключ под стеклянным колпаком, кот и пёс у лота, тень ключа на стене; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3703,7 +3703,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+@Image3 — Ключевой кадр: аукцион в масках, ключ под стеклянным колпаком, кот и пёс у лота, тень ключа на стене; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3756,7 +3756,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
+@Image3 — Ключевой кадр: аукцион в масках, ключ под стеклянным колпаком, кот и пёс у лота, тень ключа на стене; file: projects/kot-detektiv/references/scenes/scene-19/KD19-masked-auction.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3817,7 +3817,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <div class="scene-ref-gallery">
 <figure><a href="projects/kot-detektiv/references/detective-cat-office-portrait.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-office-portrait.png" alt="Исходная идентичность кота" loading="lazy"></a><figcaption>@Image1 — Исходная идентичность кота</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/detective-cat-police-dog-street.jpg" alt="Исходная идентичность пса" loading="lazy"></a><figcaption>@Image2 — Исходная идентичность пса</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" alt="Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности" loading="lazy"></a><figcaption>@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" alt="Ключевой кадр: колокольня, кот у верёвки с красной лентой под колоколом без языка, пёс с фонарём" loading="lazy"></a><figcaption>@Image3 — Ключевой кадр: колокольня, кот у верёвки с красной лентой под колоколом без языка, пёс с фонарём</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -3836,7 +3836,7 @@ Optimized for Wan 3.0 / Seedance 2.5 | Serious stylized animated Victorian anima
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image3 — Ключевой кадр: колокольня, кот у верёвки с красной лентой под колоколом без языка, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3897,7 +3897,7 @@ Optimized for Seedance 2.0 | Serious stylized animated Victorian animal noir, di
 REFERENCES / AUTHORITY ORDER:
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image3 — Ключевой кадр: колокольня, кот у верёвки с красной лентой под колоколом без языка, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -3950,7 +3950,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the actual completed Part 1 of THIS scene, final frame, positions, motion and lighting; begin on that exact ending, not on a recreated still.
 @Image1 — Исходная идентичность кота; file: projects/kot-detektiv/references/detective-cat-office-portrait.png.
 @Image2 — Исходная идентичность пса; file: projects/kot-detektiv/references/detective-cat-police-dog-street.jpg.
-@Image3 — Сюжетный кадр — локация, реквизит и показанная фаза действия; не замена идентичности; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
+@Image3 — Ключевой кадр: колокольня, кот у верёвки с красной лентой под колоколом без языка, пёс с фонарём; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4016,7 +4016,7 @@ Fill the entire generated 16:9 frame edge to edge. No letterbox, pillarbox, blac
 <figure><a href="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png" alt="Нить над крышами — только эта локация и её действие" loading="lazy"></a><figcaption>@Image5 — Нить над крышами — только эта локация и её действие</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png" alt="Лодка против течения — только эта локация и её действие" loading="lazy"></a><figcaption>@Image6 — Лодка против течения — только эта локация и её действие</figcaption></figure>
 <figure><a href="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png" alt="Колокол без языка — только эта локация и её действие" loading="lazy"></a><figcaption>@Image7 — Колокол без языка — только эта локация и её действие</figcaption></figure>
-<figure><a href="projects/kot-detektiv/references/branding/KD-opening.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-opening.png" alt="Отдельная опора монтажа: KD-opening.png" loading="lazy"></a><figcaption>@Image8 — Отдельная опора монтажа: KD-opening.png</figcaption></figure>
+<figure><a href="projects/kot-detektiv/references/branding/KD-opening.png" target="_blank" rel="noopener"><img src="projects/kot-detektiv/references/branding/KD-opening.png" alt="Графическая заставка с названием — только для финального титульного плана" loading="lazy"></a><figcaption>@Image8 — Графическая заставка с названием — только для финального титульного плана</figcaption></figure>
 </div>
 
 **Две версии одной сцены:** Wan 3.0 / Seedance 2.5 — 30 с; Seedance 2.0 — 2 × 15 с. Для части 2 требуется настоящий результат части 1 как @Video1; его пока нет. Первая часть должна закончиться указанным переходным состоянием. Референсы загружаются в указанном порядке. Запуск возможен только по последующей команде, через безлимитный режим с ценой 0 кредитов.
@@ -4040,7 +4040,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 @Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 @Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
-@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image8 — Графическая заставка с названием — только для финального титульного плана; file: projects/kot-detektiv/references/branding/KD-opening.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4107,7 +4107,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 @Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 @Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
-@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image8 — Графическая заставка с названием — только для финального титульного плана; file: projects/kot-detektiv/references/branding/KD-opening.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
@@ -4166,7 +4166,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image5 — Нить над крышами — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-14/KD14-rooftop-kite.png.
 @Image6 — Лодка против течения — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-18/KD18-canal-lock.png.
 @Image7 — Колокол без языка — только эта локация и её действие; file: projects/kot-detektiv/references/scenes/scene-20/KD20-bell-chamber.png.
-@Image8 — Отдельная опора монтажа: KD-opening.png; file: projects/kot-detektiv/references/branding/KD-opening.png.
+@Image8 — Графическая заставка с названием — только для финального титульного плана; file: projects/kot-detektiv/references/branding/KD-opening.png.
 Priority: original individual identities first; environment references control only their named locations; action keyframes control staging, never replace identity. Do not import incidental props or people from original references.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:

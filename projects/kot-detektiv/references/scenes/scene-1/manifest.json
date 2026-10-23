@@ -21,7 +21,7 @@
     },
     {
       "tag": "@Image3",
-      "role": "Отдельная опора монтажа: KD-map-envelope.png",
+      "role": "Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера",
       "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
       "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
     },
@@ -74,7 +74,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "role": "Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера",
           "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
           "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
         },
@@ -128,7 +128,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "role": "Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера",
           "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
           "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
         },
@@ -182,7 +182,7 @@
         },
         {
           "tag": "@Image3",
-          "role": "Отдельная опора монтажа: KD-map-envelope.png",
+          "role": "Кабинет с картой-доской и красными нитями — для одного монтажного плана трейлера",
           "path": "projects/kot-detektiv/references/development/KD-map-envelope.png",
           "sha256": "57786f4113eec534d112291ab7452eecd2236032a5f7a9504c6040dbd0cc8798"
         },

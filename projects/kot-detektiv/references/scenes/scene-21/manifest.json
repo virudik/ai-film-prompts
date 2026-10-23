@@ -51,7 +51,7 @@
     },
     {
       "tag": "@Image8",
-      "role": "Отдельная опора монтажа: KD-opening.png",
+      "role": "Графическая заставка с названием — только для финального титульного плана",
       "path": "projects/kot-detektiv/references/branding/KD-opening.png",
       "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
     }
@@ -104,7 +104,7 @@
         },
         {
           "tag": "@Image8",
-          "role": "Отдельная опора монтажа: KD-opening.png",
+          "role": "Графическая заставка с названием — только для финального титульного плана",
           "path": "projects/kot-detektiv/references/branding/KD-opening.png",
           "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
         }
@@ -158,7 +158,7 @@
         },
         {
           "tag": "@Image8",
-          "role": "Отдельная опора монтажа: KD-opening.png",
+          "role": "Графическая заставка с названием — только для финального титульного плана",
           "path": "projects/kot-detektiv/references/branding/KD-opening.png",
           "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
         }
@@ -212,7 +212,7 @@
         },
         {
           "tag": "@Image8",
-          "role": "Отдельная опора монтажа: KD-opening.png",
+          "role": "Графическая заставка с названием — только для финального титульного плана",
           "path": "projects/kot-detektiv/references/branding/KD-opening.png",
           "sha256": "953ed1267455ea54878341393ddb3520b466d1d03fb1a1f33705f1eecec90c91"
         }
