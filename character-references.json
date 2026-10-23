@@ -32,7 +32,8 @@
         56,
         59,
         60,
-        61
+        61,
+        62
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -203,7 +204,8 @@
         42,
         48,
         49,
-        56
+        56,
+        62
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",
@@ -255,7 +257,8 @@
         42,
         48,
         49,
-        56
+        56,
+        62
       ],
       "model_sheet": {
         "source": "User-provided exact model sheet",

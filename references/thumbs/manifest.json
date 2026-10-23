@@ -1893,6 +1893,16 @@
    "thumb_bytes": 38850,
    "src_sha256": "5ba681ce973c983f5ef3f64d2f466d9e7f1cca658204b2576a1f5adec3752a90"
   },
+  "references/scenes/scene-37/S37-cockpit-empty.png": {
+   "thumb": "references/thumbs/scenes/scene-37/S37-cockpit-empty.png.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1672,
+   "src_height": 941,
+   "src_bytes": 1904839,
+   "thumb_bytes": 27858,
+   "src_sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802"
+  },
   "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png": {
    "thumb": "references/thumbs/scenes/scene-37/S37-cockpit-source-part1-09m25s.png.webp",
    "width": 640,
@@ -2442,6 +2452,36 @@
    "src_bytes": 133736,
    "thumb_bytes": 29596,
    "src_sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594"
+  },
+  "references/scenes/scene-62/S62-car-continuity.jpg": {
+   "thumb": "references/thumbs/scenes/scene-62/S62-car-continuity.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 66861,
+   "thumb_bytes": 13598,
+   "src_sha256": "20bf3ae84b6a940f26f3aa096ddce60f36b30b3754e600cf95b5e135315f2444"
+  },
+  "references/scenes/scene-62/S62-source-A-final.jpg": {
+   "thumb": "references/thumbs/scenes/scene-62/S62-source-A-final.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 81367,
+   "thumb_bytes": 15102,
+   "src_sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94"
+  },
+  "references/scenes/scene-62/S62-target-B-opening.jpg": {
+   "thumb": "references/thumbs/scenes/scene-62/S62-target-B-opening.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 143690,
+   "thumb_bytes": 26648,
+   "src_sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff"
   },
   "references/scenes/ship-locations/Serega-ship-flagship-space.png": {
    "thumb": "references/thumbs/scenes/ship-locations/Serega-ship-flagship-space.png.webp",

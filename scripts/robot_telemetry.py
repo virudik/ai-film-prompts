@@ -34,9 +34,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import master_slow_edit as mse            # noqa: E402
 import robot_master_actions as rma        # noqa: E402
 import topview_prompt_match as pm         # noqa: E402
+import queue_readiness                    # noqa: E402
 
 SCRIPTS = Path(__file__).resolve().parent
-HEARTBEAT_MIN = 50            # refresh unchanged telemetry before the site's 105-minute "stale" mark
+HEARTBEAT_MIN = 50            # refresh unchanged telemetry before the site's 120-minute "stale" mark
 HOLD_REPEAT_MIN = 50          # repeat the same degraded record no more often than this
 PREVIEW = "shadow/robot-cycle-preview.json"
 MAX_EVENTS = 40
@@ -672,6 +673,8 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
                 files.append("video-prompts.md")
             (root / "project-status.json").write_text(tmp_status.read_text(encoding="utf-8"), encoding="utf-8")
             files.append("project-status.json")
+            if queue_readiness.write(root):
+                files.append("ops/queue-readiness.json")
             # the checkpoint records the validation that actually happened (publish wrote the old one)
             cp = read_json(root / "topview-checkpoint.json", {})
             cp["canonical_validation"] = {"verified_at": synced, "health": st.get("health"),

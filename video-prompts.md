@@ -6,11 +6,11 @@
 
 ## 📌 РЕВИЗИЯ / ТЕКУЩИЙ СТАТУС
 
-**24 сцены к генерации/доработке · 98 полных текстов промта**
+**25 сцен к генерации/доработке · 101 полный текст промта**
 
 - **🛠️ 11** рабочих направлений в блоке **«Сцены в работе»**: W5–W15. Из них W14–W15 — «обдумать», а не отдельные сцены для автоматической генерации.
 - **⏳ 13** сцен сейчас в медленной генерации: **16, 28, 36, 37, 39, 40, 42, 44, 47, 52, 53, 57, 58** — **6 активных Topview-задач / 6 занятых слотов из 6**. Редакционная приёмка будущих результатов отдельно. Новые генерации автоматически не запускать.
-- **Последняя оформленная активная сцена:** 61 — ковбойское сближение Серёги, Виталика и Лёши перед вторым видео владельца. Новые59–61 (23.10.2026): посадка на Кашиик; вылет как прямое продолжение первого видео; предыстория дуэли. По3 автономных текста:30с и2×15с. Входы P1 готовы; P2 ждут настоящие результаты своих P1. В очередь после червей, перед танцами.
+- **Последняя оформленная активная сцена:** 62 — мост от падения после погони к противостоянию перед червём. Три полных промта:30с и2×15с; входы P1 готовы, P2 после своего результата. Новые59–61 сохраняются после блока с червями.
 - **Ревизия Control Center:** дата определяется автоматически по содержательному изменению canonical master; чистая техническая пересинхронизация без изменения содержимого дату ревизии не меняет.
 - **Последняя полная синхронизация:** **23.10.2026 · текущая по live Topview/Drive сверке**. Точное техническое время свежей telemetry берётся из `topview-status.json.checked_at`.
 
@@ -88,6 +88,7 @@
 | 59 | [Кашиик: Серёга садится среди гигантских деревьев](#scene-59) | Серёга — лицо и одежда; личный корабль — только корпус; кабина — только геометрия; Кашиик из космоса; лес — только окружение, без персонажей | Корабль выныривает из облаков, проходит S-образным манёвром между огромными стволами, разворачивается на торможении над поляной и тяжело садится в вихре листьев. Серёга быстро спускается по рампе и уходит в лес. P1 готова по входам; P2 после собственной P1. |
 | 60 | [Кашиик: Серёга уходит после боя и взлетает](#scene-60) | Серёга — точная внешность; личный корабль; кабина; настоящий последний кадр первого видео; модуль карты; удаляющийся Кашиик | Из настоящего финального кадра Серёга разворачивается, быстро идёт к своему кораблю на соседней поляне и садится в кабину. Корабль поднимает вихрь листьев, уходит крутым виражом над кронами, пробивает облачный слой и выходит в космос. Модуль указывает следующий курс; Кашиик удаляется за боковым окном. P1 готова по входам; P2 после собственной P1. |
 | 61 | [Кашиик: ковбойское сближение перед дуэлью](#scene-61) | Серёга — красный меч; Виталик — синий меч; Лёша — фиолетовый меч; точный финал перед вторым видео и лес | Серёга, Виталик и Лёша сосредоточенно сближаются по дугам, оценивают стойки и руки противников. Виталик и Лёша обходят с двух углов, каждый коротко прокручивает свой меч; Серёга отвечает вращением красного клинка. Ложное движение заставляет всех перестроиться, и они занимают точную позицию начала второго видео. Сам бой ещё не начинается. P1 готова по входам; P2 после собственной P1. |
+| 62 | [Татуин: после погони — обратно к противостоянию](#scene-62) | Настоящий конец первого видео, начало второго как целевой финал; Серёга, Артём, Илюша, красная машина | Подъём после падения, остановка машины и возвращение Серёги, точная расстановка перед вторым роликом. P1 готова; P2 после собственной P1. |
 
 ---
 
@@ -2830,9 +2831,11 @@ Seedance 2.0 task `af627d97836d4832a1a4ad8cf24fa921` технически зав
 
 Seedance 2.0 task `e6a5cf9a3d04413e943c9bbbff9e1f73` технически завершён 21.10.2026 15:57:26 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
-**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сама37 заканчивается до посадки и не стыкуется с кадрами лесной пары. **Новое решение23.10:** после37 через монтажную склейку добавлена самостоятельная посадка59; прежнее решение пропустить посадку отменено. Готовый эпизод с грибами сохраняется. Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, настоящая кабина и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/ship-locations/Serega-ship-naboo-day.png">Набу: дневной отлёт — AI</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/ship-locations/Serega-ship-kashyyyk-space.png">Космос: корабль и Кашиик — AI</a>.
+**Контекст использования:** Следует за Scene 36 через монтажную склейку. Показывает, что Канцлер с фрагментами Татуина и Набу (в кадре — один модуль) летит на лесную планету — стык перед существующим блоком «корабль другой пары, лесная планета, посадка» (около 51:52). Сама37 заканчивается до посадки и не стыкуется с кадрами лесной пары. **Новое решение23.10:** после37 через монтажную склейку добавлена самостоятельная посадка59; прежнее решение пропустить посадку отменено. Готовый эпизод с грибами сохраняется. Корабль — собственный корабль Канцлера из начала фильма (ч. 1, 09:20–09:55 «Люк, кабина, прибытие»), а не корабль Виталика и Лёши; взлёт — с того же берега у брошенной стоянки рыбаков, где корабль сел в Scene 39 (правка владельца 17.10, 23:58: @Image3 — настоящий кадр берега из 39 вместо пейзажа из 19, рядом в кадре те же ящики с рыбой). Решения владельца 14.10.2026: в кабине бытовое напоминание «хлеб и молоко» (стикер-рисунок без надписей — отсылка к просьбе из начала фильма «По пути купи хлеба и молока», линия W13); модуль «указывает» на лесную планету — светится ярче, когда направлен на неё. По прямой команде владельца 15.10 создан отдельный вид лесной планеты из космоса — @Image6. Это новый AI-референс по зелёно-синей палитре доступной версии фильма, а не извлечённый установочный кадр: в исходной части 2 планета видна частично через окно около 21:14, лесная посадка — около 21:28. Таймкоды старой копии и позднего монтажного разбора не взаимозаменяемы. В монтаж достаточно ~10–15 с. Для бесплатного запуска подготовлены шесть изображений: identity, модуль, Набу, настоящий корпус, пустая кабина — очищенный AI-референс и созданная планета. Видеовходы заменены явно перечисленными изображениями; геометрия корабля берётся из настоящих кадров. Запуск — только по команде владельца. Правка 14.10.2026, вариант A (`reports/scenes-36-37-proposal-2026-10-14.md`). **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход над озером и штопор вертикально сквозь грозовую тучу с молниями. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
+
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">фрагмент карты, светящийся модуль</a>; @Image3 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег Набу, где Серёга сел в 39, ч. 2 14:27</a> (только место; двух бегущих не переносить); @Image4 — <a href="references/scenes/ship-locations/Serega-ship-naboo-day.png">Набу: дневной отлёт — AI</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних); @Image6 — <a href="references/scenes/ship-locations/Serega-ship-kashyyyk-space.png">Космос: корабль и Кашиик — AI</a>.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -2844,7 +2847,7 @@ Seedance 2.0 task `e6a5cf9a3d04413e943c9bbbff9e1f73` технически зав
 <div class="scene-ref-gallery">
 <figure><a href="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-bread-milk-helper.png" alt="S37-cockpit-bread-milk-helper.png" loading="lazy"></a><figcaption>Кабина с Серёгой и рисунками хлеба и молока; модельный лист приоритетнее helper.</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-lakeside-takeoff-helper.png" alt="S37-lakeside-takeoff-helper.png" loading="lazy"></a><figcaption>Взлёт того же плоского корабля у озера; корпус из ч. 1 09:03.</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="S37-cockpit-source-part1-09m25s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить.</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="S37-cockpit-source-part1-09m25s.png" loading="lazy"></a><figcaption>Фактический кадр ч. 1, 09:25: только геометрия кабины; бой и посторонних не переносить.</figcaption></figure>
 
 </div>
 
@@ -2877,7 +2880,7 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera action cinema | Serega
 
 REFERENCES / AUTHORITY ORDER:
 @Image4 — synthetic location reference: the same personal craft at the Naboo lakeshore in clear daylight; use this environment for departure before the storm. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons in it.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact map module prop.
 @Image3 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
@@ -2950,9 +2953,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-naboo-day.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-naboo-day.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`.
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png`.
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/scene-37/S37-forest-planet-reference.png`.
 
 #### 37 · Seedance 2.0 часть 1
 
@@ -2963,7 +2966,7 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | P
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
 @Image2 — synthetic location reference: the same personal craft at the Naboo lakeshore in clear daylight; use this environment for departure before the storm. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — genuine film frame of the exact Naboo lakeshore where Serega landed earlier: sandy bank, grass edges, treeline and water geometry. Location layout only; the two runners are NOT part of the shot, and its low evening sun is replaced by bright clear daylight.
 Priority: @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 lakeshore.
 
@@ -3029,7 +3032,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft rolling into the dark base of the thunderhead above the Naboo lake, lightning inside the cloud. Absolute START authority.
 @Image1 — absolute identity of SEREGA.
 @Image2 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — the exact map module prop.
 @Image5 — the destination-planet reference: blue-green globe, dense green forested continents, white cloud bands, thin blue atmosphere. Planet design only; small and distant.
 Priority: @Video1 start; @Image1 face and costume; @Image2 hull; @Image3 cockpit; @Image4 prop; @Image5 destination planet.
@@ -3106,6 +3109,8 @@ Seedance 2.0 task `7863a2b3e8e54ca8a5d37468fc77d49f` технически зав
 
 Seedance 2.0 task `008058a4705c45c089256116427153d4` технически завершён 22.10.2026 22:38:51 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:**
 
 - **Стык:** около **45:05** по сборке 01:03:42 [Р2], между участками 57 «Бег и прыжок в воду» (44:45–45:05) и 58 «Подводный путь и город». Сцена и место стыка подтверждены владельцем 16.10.2026.
@@ -3131,13 +3136,13 @@ Seedance 2.0 task `008058a4705c45c089256116427153d4` технически зав
 - @Image3 — <a href="references/scenes/ship-locations/Serega-ship-naboo-evening.png">Набу: вечерняя посадка — AI</a> (только корабль);
 - @Image4 — <a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png">настоящий берег перед прыжком, ч. 2 14:27</a>, только геометрия и вечерний свет.
 - @Image5 — <a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png">стоянка с ящиками рыбы, ч. 2 14:16</a>, только реквизит; людей и ночной свет не переносить.
-- @Image6 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (короткий план со стикером «хлеб и молоко», решение владельца 17.10);
+- @Image6 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">пустая кабина личного корабля — очищенный AI-референс</a> (короткий план со стикером «хлеб и молоко», решение владельца 17.10);
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 <figure><a href="references/scenes/scene-19/S19-Image1-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-19/S19-Image1-topview-source.png" alt="@Image2 — озеро Набу"></a><figcaption>@Image2 — озеро Набу</figcaption></figure>
 <figure><a href="references/scenes/scene-39/S39-camp-film-part2-14m16s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-camp-film-part2-14m16s.png.webp" alt="@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16"></a><figcaption>@Image5 — ящики и рыба, настоящий кадр ч. 2 14:16</figcaption></figure><figure><a href="references/scenes/scene-39/S39-shore-film-part2-14m27s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-39/S39-shore-film-part2-14m27s.png.webp" alt="@Image4 — берег перед прыжком"></a><figcaption>@Image4 — берег, ч. 2 14:27</figcaption></figure></div>
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="@Image6 — кабина личного корабля" loading="lazy"></a><figcaption>@Image6 — кабина личного корабля</figcaption></figure>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
@@ -3163,7 +3168,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image3 — synthetic location reference: the same personal craft landed at the deserted Naboo fishing shore in warm evening light; props only, no people and no lit campfire. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image4 — genuine film frame of the exact lakeshore immediately BEFORE the two fishermen jump: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and evening light only; remove the two runners. The empty post-jump state is the new scene.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered caught fish and stone-ring fire spot. Props only; remove the sleeping people and do not copy its night lighting or lit fire. The camp is now deserted.
-@Image6 — genuine cockpit of the same craft: seats, console, windows and interior geometry ONLY, for one short beat.
+@Image6 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image2 — Naboo landscape look: blue lake, bright green lakeshore meadow, rounded trees, a pale domed palace on the far shore. Landscape and architecture only; the two fishermen in this image are NOT part of the shot.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image3 controls the vehicle; @Image4 controls the location layout and light; @Image2 fills in landscape detail where @Image4 is ambiguous; @Image1 controls Serega's face and costume; @Image6 controls the cockpit interior.
@@ -3238,7 +3243,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-naboo-evening.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image5 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image6 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-naboo-evening.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png`; @Image4 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image5 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image6 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
 
 **Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-naboo-evening.png`; @Image3 — `references/scenes/scene-39/S39-shore-film-part2-14m27s.png`; @Image4 — `references/scenes/scene-39/S39-camp-film-part2-14m16s.png`; @Image5 — `references/scenes/scene-19/S19-Image1-topview-source.png`.
 
@@ -3251,7 +3256,7 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | P
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
 @Image2 — synthetic location reference: the same personal craft landed at the deserted Naboo fishing shore in warm evening light; props only, no people and no lit campfire. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit of the same craft: interior geometry ONLY; no fight, people or weapons from it.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Layout and evening light only; no runners.
 @Image5 — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; no people, no night light, no fire.
 @Image6 — Naboo landscape look: blue lake, green meadow, rounded trees, a pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; no fishermen.
@@ -3395,6 +3400,8 @@ Seedance 2.0 task `790a7017632045a58d83ccc0891c44ac` технически зав
 
 Seedance 2.0 task `1751294fbf5f49dbb00a0f44401486ca` технически завершён 22.10.2026 22:39:16 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:**
 
 - **Стык:** после конца лесного блока (участок 77, 01:02:15–01:02:45 [Р2]: «Герои на земле, вмешательство вуки»; Канцлер уходит с фрагментом), перед **Scene 26** (уже в фильме): коты-магистры на террасе обращаются к Серёге за кадром. Место ветки планеты ситхов — после Кашиика — подтверждено владельцем 16.10.2026 (D1).
@@ -3422,7 +3429,7 @@ Seedance 2.0 task `1751294fbf5f49dbb00a0f44401486ca` технически зав
 - @Image2 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">точные руины планеты ситхов</a>;
 - @Image4 — <a href="references/scenes/ship-locations/Serega-ship-sith-ruins.png">Планета ситхов: площадка у храма — AI</a> (только корабль);
-- @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
+- @Image5 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
 - @Image6 — <a href="references/scenes/ship-locations/Serega-ship-kashyyyk-space.png">Космос: корабль и Кашиик — AI</a>.
 
 <div class="scene-ref-gallery">
@@ -3430,7 +3437,7 @@ Seedance 2.0 task `1751294fbf5f49dbb00a0f44401486ca` технически зав
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image2 — модуль карты"></a><figcaption>@Image2 — модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины планеты ситхов"></a><figcaption>@Image3 — руины планеты ситхов</figcaption></figure>
 
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="@Image6 — лесная планета"></a><figcaption>@Image6 — лесная планета</figcaption></figure></div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
@@ -3456,7 +3463,7 @@ Optimized for Wan 3.0 | Photoreal live-action dark space-fantasy, fast aerial ac
 
 REFERENCES / AUTHORITY ORDER:
 @Image4 — synthetic location reference: the same personal craft on the landing apron below the ochre Sith temple stairs and colossal hooded statues in golden sunset haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; do not import the fight, people, poses or weapons visible in this source frame.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image3 — the exact ancient ruin city of the destination planet: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, broken pillars, red rock spires, low golden-orange sunset haze. Absolute authority for architecture, palette and light of the landing site.
 @Image6 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image2 — the exact map module prop design.
@@ -3533,7 +3540,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/ship-locations/Serega-ship-sith-ruins.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (лесная планета).
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/ship-locations/Serega-ship-sith-ruins.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (лесная планета).
 
 **Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image3 — `references/scenes/ship-locations/Serega-ship-sith-ruins.png` (корпус).
 
@@ -3548,7 +3555,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — the exact map module prop design.
 @Image3 — the exact ancient ruin city of the destination planet: ochre-red carved stone, colossal hooded statues, a stepped temple with a wide stair, red rock spires, low golden-orange sunset haze. Architecture, palette and light only.
 @Image4 — synthetic location reference: the same personal craft on the landing apron below the ochre Sith temple stairs and colossal hooded statues in golden sunset haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image6 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 Priority: @Image1 controls Serega's face and costume; @Image4 the hull; @Image5 the cockpit; @Image3 the destination world; @Image6 the receding planet; @Image2 the prop.
 
@@ -3681,6 +3688,8 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Wan 3.0 task `bf3465e1c4de4a869f4bba5f2eed5acf` технически завершён 20.10.2026 07:32:43 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026 (D4):** существующий финальный компьютер (участок 78, 01:02:45 [Р2]) стоит **на борту у окна в космос** и это **тот же ПК**, что найден в храме (35/38). Значит, ПК нужно увезти — эта сцена. ПК несёт Сила (подтверждено владельцем).
@@ -3703,7 +3712,7 @@ Wan 3.0 task `bf3465e1c4de4a869f4bba5f2eed5acf` технически завер�
 - @Image2 — <a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png">древний ПК в нише храма — последний кадр Scene 35</a> (только ПК: блок, CRT, клавиатура);
 - @Image3 — <a href="references/scenes/scene-27/S27-Image5-topview-source.png">руины планеты ситхов</a>;
 - @Image4 — <a href="references/scenes/ship-locations/Serega-ship-sith-ruins.png">Планета ситхов: площадка у храма — AI</a> (только корабль);
-- @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
+- @Image5 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">геометрия кабины, ч. 1 09:25</a> (без боя и посторонних);
 - @Image6 — <a href="references/scenes/ship-locations/Serega-ship-flagship-space.png">Космос: у имперского флагмана — AI</a>.
 
 <div class="scene-ref-gallery">
@@ -3711,7 +3720,7 @@ Wan 3.0 task `bf3465e1c4de4a869f4bba5f2eed5acf` технически завер�
 <figure><a href="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" target="_blank" rel="noopener"><img src="references/scenes/scene-38/S38-Image3-scene35-last-frame.png" alt="@Image2 — древний ПК"></a><figcaption>@Image2 — древний ПК</figcaption></figure>
 <figure><a href="references/scenes/scene-27/S27-Image5-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-27/S27-Image5-topview-source.png" alt="@Image3 — руины планеты ситхов"></a><figcaption>@Image3 — руины планеты ситхов</figcaption></figure>
 
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure><figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp" alt="@Image6 — крейсер, настоящий кадр ч. 1 11:22"></a><figcaption>@Image6 — крейсер, настоящий кадр ч. 1 11:22</figcaption></figure></div>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="@Image5 — кабина"></a><figcaption>@Image5 — кабина</figcaption></figure><figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-41/S41-cruiser-film-part1-11m22s.png.webp" alt="@Image6 — крейсер, настоящий кадр ч. 1 11:22"></a><figcaption>@Image6 — крейсер, настоящий кадр ч. 1 11:22</figcaption></figure></div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
 
@@ -3738,7 +3747,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Absolute authority for the shape, colour, wear and dust of these three objects; the niche and the kneeling figure are not part of this shot.
 @Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
 @Image4 — synthetic location reference: the same personal craft on the landing apron below the ochre Sith temple stairs and colossal hooded statues in golden sunset haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image6 — synthetic location reference: the same SMALL personal craft beside the ENORMOUS grey imperial flagship in black space; preserve their different silhouettes and extreme scale difference. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image1 — absolute identity of SEREGA.
 Priority: @Image2 controls the computer objects; @Image3 controls the ruins; @Image4 controls the hull; @Image5 controls the cockpit; @Image6 controls the flagship; @Image1 controls Serega's face and costume.
@@ -3813,9 +3822,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/ship-locations/Serega-ship-sith-ruins.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина).
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/scene-27/S27-Image5-topview-source.png` (руины); @Image4 — `references/scenes/ship-locations/Serega-ship-sith-ruins.png` (корпус); @Image5 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина).
 
-**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/ship-locations/Serega-ship-flagship-space.png` (корпус); @Image4 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image5 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png` (крейсер/флагман).
+**Входы части 2:** @Video1 — конец части 1; @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/scene-38/S38-Image3-scene35-last-frame.png` (ПК); @Image3 — `references/scenes/ship-locations/Serega-ship-flagship-space.png` (корпус); @Image4 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image5 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png` (крейсер/флагман).
 
 #### 41 · Seedance 2.0 часть 1
 
@@ -3828,7 +3837,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — genuine frame of the temple niche: the exact yellowed beige 1990s system unit, the heavy beige CRT monitor and the keyboard. Shape, colour, wear and dust of these three objects only; the niche and the kneeling figure are not part of this shot.
 @Image3 — the exact ancient ruin city outside the temple: ochre-red carved stone, colossal hooded statues, the wide temple stair, golden-orange sunset haze.
 @Image4 — synthetic location reference: the same personal craft on the landing apron below the ochre Sith temple stairs and colossal hooded statues in golden sunset haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image5 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 Priority: @Image1 controls Serega's face and costume; @Image2 the computer; @Image3 the ruins; @Image4 the hull; @Image5 the cockpit.
 
 LOCATION REFERENCE GATE:
@@ -3894,7 +3903,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity of SEREGA.
 @Image2 — the exact yellowed beige 1990s system unit, heavy beige CRT monitor and keyboard. These objects only; not the niche or the kneeling figure.
 @Image3 — synthetic location reference: the same SMALL personal craft beside the ENORMOUS grey imperial flagship in black space; preserve their different silhouettes and extreme scale difference. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image4 — genuine film frame of the same craft's cockpit: exact seats, windows, controls and layout. Interior geometry only; no fight, people or weapons from it.
+@Image4 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image5 — Serega's huge imperial flagship exactly as shown earlier in the film: silhouette, colour, scale and hangar. Use the flagship only.
 Priority: @Video1 controls the start; @Image1 Serega's face and costume; @Image2 the computer; @Image3 the hull; @Image4 the cockpit; @Image5 the flagship.
 
@@ -6316,16 +6325,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":44}],"tags":["serega","travel","story_bridge","continuity"]} -->
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:** После поломки шаттла 43–44, до татуинской ветки (кантина 33:50 → погоня → 16/42/48). **Правка владельца 17.10, 23:58:** посадка не у руин с червём, а на окраине татуинского города: в фильме Серёга на Татуине сначала появляется в кантине, руины — конец блока. Вход в личный корабль везде одинаковый: боковой люк с короткой рампой. **Владелец 18.10, 00:17:** кадра города нет — город задан описанием в промте (TATOOINE TOWN LOCK), отдельного слота нет. Из негатива убрано «missing pilot» (пилот — сам Серёга); бесплатный интерфейс принимает видео + несколько изображений (владелец); сейчас входов шесть: видео + 5 изображений. Бесшовное начало по настоящему концу НОВОЙ44: Серёга ещё смотрит на техников, на полу одно отвалившееся крыло, на шаттле пустое крепление. Он переводит взгляд с повреждения на личный корабль, молча решает пересесть и идёт к нему. Камера раскрывает второй, уже припаркованный корабль плавным движением; первый не превращается во второй и не ремонтируется. Показываем пересадку, перелёт и посадку. Точный старт нельзя подготовить до результата44; новая поломка здесь не происходит. В монтаже сохранить реакцию на поломку, пересадку и ясный показ записки; сокращать прежде всего внешние планы перелёта. **Динамика (владелец 18.10.2026):** сцена переписана активнее — слалом под корпусом разрушителя, бреющий полёт над дюнами с хвостом песка и жёсткая посадка у окраины города. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
-**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/ship-locations/Serega-ship-hangar.png">Ангар: личный корабль Серёги — AI</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">кабина личного корабля, настоящий кадр ч. 1</a> (стикер «хлеб и молоко», 17.10).
+**Референсы:** @Video1 — последние секунды исправленной44 с настоящим отвалившимся крылом (ожидаются; не заменять прежним дефектным роликом). @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/ship-locations/Serega-ship-hangar.png">Ангар: личный корабль Серёги — AI</a>; @Image3 — <a href="references/scenes/scene-28/H28A-ceremony.png">ангар разрушителя H28A</a>; @Image4 — <a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png">разрушитель, настоящий кадр фильма</a>; @Image5 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">пустая кабина личного корабля — очищенный AI-референс</a> (стикер «хлеб и молоко», 17.10).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 
 <figure><a href="references/scenes/scene-28/H28A-ceremony.png" target="_blank" rel="noopener"><img src="references/scenes/scene-28/H28A-ceremony.png" alt="@Image3 — ангар разрушителя H28A" loading="lazy"></a><figcaption>@Image3 — ангар разрушителя H28A</figcaption></figure>
 <figure><a href="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png" alt="@Image4 — разрушитель, настоящий кадр фильма" loading="lazy"></a><figcaption>@Image4 — разрушитель, настоящий кадр фильма</figcaption></figure>
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image5 — кабина личного корабля" loading="lazy"></a><figcaption>@Image5 — кабина личного корабля</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="@Image5 — кабина личного корабля" loading="lazy"></a><figcaption>@Image5 — кабина личного корабля</figcaption></figure>
 </div>
 
 **Напоминание «хлеб и молоко» · 17.10,23:03:** один и тот же бледно-жёлтый стикер справа от пилота: чёрный рисунок батона слева и пакета молока справа. В каждом перелёте удержать оба рисунка различимыми примерно2секунды; монтаж должен сохранить этот момент. В52 зритель впервые ясно замечает записку, в37 Серёга сам замечает её и откладывает мысль, в41 она остаётся перед глазами, пока он занят компьютером. Это подводит к уже запущенной55 без новой реплики или вставки в финале.
@@ -6358,7 +6369,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — synthetic location reference: the same small personal craft parked in a clear bay of the grey imperial hangar under white/amber working light; the damaged raised-wing shuttle and people elsewhere must follow the actual continuity video. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image3 — the destroyer's hangar architecture and white/amber working light only. Its intact raised-wing shuttle is NOT the damage authority: keep the broken shuttle exactly as @Video1 shows it. No disco lights.
 @Image4 — genuine film exterior of the enormous grey wedge-shaped destroyer: silhouette, scale, ribbed underside and hangar opening. The departure vessel, not Serega's craft.
-@Image5 — genuine cockpit of the same small craft: seats, console, forward windows and interior geometry only, for one short interior beat.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image6 — synthetic location reference: the same personal craft on the sandy outskirts of the low beige domed Tatooine spaceport in hard desert daylight. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 Priority: @Video1 controls the opening and the permanent shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their assigned places; the Tatooine town is defined by the TATOOINE TOWN LOCK text. The two ships always remain distinct.
 
@@ -6432,7 +6443,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Video1 — последние секунды исправленной 44 (одно отвалившееся крыло, пустое крепление, три техника); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-hangar.png`; @Image3 — `references/scenes/scene-28/H28A-ceremony.png`; @Image4 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+**Входы части 1:** @Video1 — последние секунды исправленной 44 (одно отвалившееся крыло, пустое крепление, три техника); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-hangar.png`; @Image3 — `references/scenes/scene-28/H28A-ceremony.png`; @Image4 — `references/scenes/scene-41/S41-cruiser-film-part1-11m22s.png`; @Image5 — `references/scenes/scene-37/S37-cockpit-empty.png`.
 
 **Входы части 2:** @Video1 — конец части 1 (корабль уходит из-под кормы разрушителя в космос); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`.
 
@@ -6448,7 +6459,7 @@ REFERENCES / AUTHORITY ORDER:
 @Image2 — synthetic location reference: the same small personal craft parked in a clear bay of the grey imperial hangar under white/amber working light; the damaged raised-wing shuttle and people elsewhere must follow the actual continuity video. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image3 — the destroyer's hangar architecture and white/amber working light only; its intact shuttle is not the damage authority.
 @Image4 — the enormous grey wedge-shaped destroyer exterior: silhouette, scale, ribbed underside, hangar opening.
-@Image5 — the craft's genuine cockpit: interior geometry only.
+@Image5 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 Priority: @Video1 opening and shuttle damage; @Image1 Serega; @Image2 the personal craft; @Image3–@Image5 their places. The two ships always remain distinct.
 
 LOCATION REFERENCE GATE:
@@ -6585,14 +6596,16 @@ Seedance 2.0 task `439dd6d829c64f16b6491e0177cc1619` технически зав
 
 Seedance 2.0 task `4b323d19cf444009a3b3fc4b3c3b3aed` технически завершён 22.10.2026 22:40:45 UTC. Результат требует отдельной редакционной проверки; новый Scene ID не создаётся.
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:** После того как Серёга забрал татуинский фрагмент в 48; перед прибытием на Набу в 39. Отдельный взлёт с Татуина, которого пока нет. Короткая временная склейка переносит действие от поля боя к личному кораблю, который ждёт там же, где сел в 52, — на окраине татуинского города (правка владельца 17.10, 23:58; руины с червём — место боя, не стоянка); точного финального кадра 48 для такой самостоятельной связки не требуется. Набу не оказывается соседним небесным телом: сцена заканчивается уходом от Татуина, посадка на Набу остаётся в 39. **Динамика (владелец 18.10.2026):** сцена переписана активнее — бреющий проход по узкому каньону у города и вертикальный взлёт мимо двух солнц. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
-**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/ship-locations/Serega-ship-tatooine-town.png">Татуин: окраина космопорта — AI</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png">настоящая кабина</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>. Татуин и каньон получили AI-референсы по описанию сцены 23.10; это не кадры готового фильма.
+**Референсы:** @Image1 — <a href="references/full/serega.jpg">Серёга</a>; @Image2 — <a href="references/scenes/ship-locations/Serega-ship-tatooine-town.png">Татуин: окраина космопорта — AI</a>; @Image3 — <a href="references/scenes/scene-37/S37-cockpit-empty.png">пустая кабина — AI</a>; @Image4 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">один модуль карты</a>. Татуин и каньон получили AI-референсы по описанию сцены 23.10; это не кадры готового фильма.
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга" loading="lazy"></a><figcaption>@Image1 — Серёга</figcaption></figure>
 
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="@Image3 — настоящая кабина" loading="lazy"></a><figcaption>@Image3 — настоящая кабина</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="@Image3 — пустая кабина — очищенный AI-референс" loading="lazy"></a><figcaption>@Image3 — пустая кабина — очищенный AI-референс</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="@Image4 — один модуль карты" loading="lazy"></a><figcaption>@Image4 — один модуль карты</figcaption></figure>
 </div>
 
@@ -6622,7 +6635,7 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema, fast kinetic f
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity and costume of SEREGA.
 @Image2 — synthetic location reference: the same personal craft on the sandy outskirts of the low beige domed Tatooine spaceport in hard desert daylight. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — its genuine cockpit: seats, console, forward windows and hard interior geometry ONLY. Do not import the fight, other people, poses or weapons visible in that source frame.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
 @Image5 — synthetic location reference: the same personal craft flying through the dry ochre sandstone canyon, hatch closed and landing gear retracted. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 Priority: @Image1 controls Serega; @Image2 the exterior of the craft; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
@@ -6695,9 +6708,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/ship-locations/Serega-ship-tatooine-canyon.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-tatooine-town.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png`; @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png`; @Image5 — `references/scenes/ship-locations/Serega-ship-tatooine-canyon.png`.
 
-**Входы части 2:** @Video1 — конец части 1 (корабль несётся по каньону к выходу); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-tatooine-canyon.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png`.
+**Входы части 2:** @Video1 — конец части 1 (корабль несётся по каньону к выходу); @Image1 — `references/full/serega.jpg`; @Image2 — `references/scenes/ship-locations/Serega-ship-tatooine-canyon.png`; @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png`.
 
 #### 53 · Seedance 2.0 часть 1
 
@@ -6708,7 +6721,7 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kine
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute identity and costume of SEREGA.
 @Image2 — synthetic location reference: the same personal craft on the sandy outskirts of the low beige domed Tatooine spaceport in hard desert daylight. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.
 @Image5 — synthetic location reference: the same personal craft flying through the dry ochre sandstone canyon, hatch closed and landing gear retracted. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 Priority: @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit; @Image4 the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.
@@ -6776,7 +6789,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the last seconds of Part 1's result: the craft racing low through the sandstone canyon toward its bright mouth. Absolute START authority for the craft, the canyon, light and screen direction.
 @Image1 — absolute identity and costume of SEREGA.
 @Image2 — synthetic location reference: the same personal craft flying through the dry ochre sandstone canyon, hatch closed and landing gear retracted. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 Priority: @Video1 the opening; @Image1 Serega; @Image2 the craft exterior; @Image3 the cockpit.
 
 LOCATION REFERENCE GATE:
@@ -7628,16 +7641,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","kashyyyk","travel","action","landing","bread_and_milk"]} -->
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:** Самостоятельная посадка после37, через монтажную склейку, без ожидания нового результата37. Прямая команда владельца23.10 отменяет прежнее решение не генерировать посадку на Кашиике. Корабль только личный корабль Серёги. Площадка — отдельная поляна, не поле будущего боя. Посадка и вылет60 независимы:60 не использует результат59.
 
 **Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — лицо и одежда"></a><figcaption>Серёга — лицо и одежда</figcaption></figure>
 
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина — только геометрия"></a><figcaption>кабина — только геометрия</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="кабина — только геометрия"></a><figcaption>кабина — только геометрия</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="Кашиик из космоса"></a><figcaption>Кашиик из космоса</figcaption></figure>
 <figure><a href="references/scenes/scene-61/S61-owner-video-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-61/S61-owner-video-opening.jpg" alt="лес — только окружение, без персонажей"></a><figcaption>лес — только окружение, без персонажей</figcaption></figure>
 </div>
@@ -7657,7 +7672,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы30с:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7666,7 +7681,7 @@ Optimized for Wan 3.0 | Photoreal live-action space-opera cinema | A forceful Ka
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute SEREGA identity, body and costume.
 @Image2 — synthetic location reference: the same personal craft at a damp Kashyyyk landing clearing, massive buttress-root trunks and cool blue-grey forest haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
@@ -7736,9 +7751,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
-**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 #### 59 · Seedance 2.0 часть 1
 
@@ -7749,7 +7764,7 @@ Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part1 of
 REFERENCES / AUTHORITY ORDER:
 @Image1 — absolute SEREGA identity, body and costume.
 @Image2 — synthetic location reference: the same personal craft at a damp Kashyyyk landing clearing, massive buttress-root trunks and cool blue-grey forest haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
@@ -7816,7 +7831,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last3seconds of this scene's Part1; absolute opening position, trajectory, gear state and lighting. Continue its last frame; no replay.
 @Image1 — absolute SEREGA identity, body and costume.
 @Image2 — synthetic location reference: the same personal craft at a damp Kashyyyk landing clearing, massive buttress-root trunks and cool blue-grey forest haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit geometry: window frames, two seats and controls only. Ignore its people, weapons, city and combat lighting.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
 @Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
 Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
@@ -7886,16 +7901,18 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","kashyyyk","travel","action","continuity","bread_and_milk"]} -->
 
+**Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
+
 **Контекст использования:** Прямое продолжение ПЕРВОГО вложения1000014024.mp4, а не результата новой посадки59. Стартовый видеореференс — настоящие27–30с исходника, отдельно сохранён; источник и SHA в source-continuity.json. Лёша слева, Виталик справа, синий меч горит; не повторять удар и не поднимать поверженных. Корабль раскрывается в соседней поляне. Финал совместим с40; корзинка с грибами уже в кабине, как в40/41, новая передача карты не добавляется. Подготовлен видеовход части1; часть2 ждёт именно новый результат60P1.
 
 **Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
 
-**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (удаляющийся Кашиик). **Видеореференс:** последние3с сохранены отдельно в исходном проекте; источник/идентификатор/SHA — [source-continuity.json](references/scenes/scene-60/source-continuity.json).
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (удаляющийся Кашиик). **Видеореференс:** последние3с сохранены отдельно в исходном проекте; источник/идентификатор/SHA — [source-continuity.json](references/scenes/scene-60/source-continuity.json).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — точная внешность"></a><figcaption>Серёга — точная внешность</figcaption></figure>
 
-<figure><a href="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png" alt="кабина"></a><figcaption>кабина</figcaption></figure>
+<figure><a href="references/scenes/scene-37/S37-cockpit-empty.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-cockpit-empty.png" alt="кабина"></a><figcaption>кабина</figcaption></figure>
 <figure><a href="references/scenes/scene-60/S60-owner-video-final.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-60/S60-owner-video-final.jpg" alt="настоящий последний кадр первого видео"></a><figcaption>настоящий последний кадр первого видео</figcaption></figure>
 <figure><a href="references/scenes/scene-17/S17-Image4-topview-source.png" target="_blank" rel="noopener"><img src="references/scenes/scene-17/S17-Image4-topview-source.png" alt="модуль карты"></a><figcaption>модуль карты</figcaption></figure>
 <figure><a href="references/scenes/scene-37/S37-forest-planet-reference.png" target="_blank" rel="noopener"><img src="references/scenes/scene-37/S37-forest-planet-reference.png" alt="удаляющийся Кашиик"></a><figcaption>удаляющийся Кашиик</figcaption></figure>
@@ -7916,7 +7933,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="wan30" data-main="1">
 
-**Входы30с:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (удаляющийся Кашиик).
+**Входы30с:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга — точная внешность); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (личный корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (настоящий последний кадр первого видео); @Image5 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль карты); @Image6 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (удаляющийся Кашиик).
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7926,7 +7943,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
 @Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
 @Image2 — synthetic location reference: the same personal craft in the adjacent boarding clearing after the battle, straight reddish trunks and warm grey haze; this is NOT the opening battle frame. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
 @Image5 — exact map-module prop; only shown during the later cockpit navigation beat, not an extra exchange in the forest.
 @Image6 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
@@ -7998,9 +8015,9 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Входы части1:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (точный старт).
+**Входы части1:** @Video1 — настоящий конец первого вложения, `S60-source-ending-27-30s.mp4` (сохранён отдельно; `references/scenes/scene-60/source-continuity.json`); @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image4 — `references/scenes/scene-60/S60-owner-video-final.jpg` (точный старт).
 
-**Входы части2:** @Video1 — последние3с нового результата60P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png` (кабина); @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image5 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик).
+**Входы части2:** @Video1 — последние3с нового результата60P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-departure.png` (корабль); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина); @Image4 — `references/scenes/scene-17/S17-Image4-topview-source.png` (модуль); @Image5 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик).
 
 #### 60 · Seedance 2.0 часть 1
 
@@ -8012,7 +8029,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — the supplied battle video's actual final3seconds: Serega has just thrown the Wookiees, Lesha lies left, Vitalik reclines right with the blue saber still glowing. Begin from its LAST frame, after the hit; never replay the punch, shockwave or fall.
 @Image1 — SEREGA exact identity and purple robe; no appearance reset against the opening video.
 @Image2 — synthetic location reference: the same personal craft in the adjacent boarding clearing after the battle, straight reddish trunks and warm grey haze; this is NOT the opening battle frame. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit architecture, controls and seats only; ignore the source fight, other person, sabers and city.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — exact final frame of the supplied battle video: initial blocking, fallen bodies, broken trunks and warm grey forest haze. This is an OPENING state, never the later boarding or flight state.
 Priority: @Video1 fixes the entire opening, @Image1 fixes Serega, @Image2 the hull, @Image3 the cabin, @Image4 the exact first-frame composition.
 
@@ -8079,7 +8096,7 @@ REFERENCES / AUTHORITY ORDER:
 @Video1 — actual last3seconds of THIS scene's generated Part1, with Serega aboard and the ship first lifting. Continue its last frame; do not use the earlier battle-video ending here.
 @Image1 — SEREGA exact identity and purple robe.
 @Image2 — synthetic location reference: the same personal craft in the adjacent boarding clearing after the battle, straight reddish trunks and warm grey haze; this is NOT the opening battle frame. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — genuine cockpit geometry only; ignore source people, weapons and combat.
+@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
 @Image4 — exact map-module prop for the final navigation beat.
 @Image5 — synthetic location reference: the same personal craft in black space with the blue-green forest planet Kashyyyk, white cloud bands and a thin blue atmosphere; planet framing and flight direction follow the timeline. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
 Priority: @Video1 controls initial state and movement; @Image1 the sole pilot; @Image2/@Image3 the ship; @Image4 the module; @Image5 the planet.
@@ -8361,6 +8378,225 @@ Wet leaf crunches and boot scuffs, short cloth and leather creaks, breath, disti
 
 NEGATIVE PROMPT:
 fourth person, Wookiees, cats, crowd, swapped faces, duplicated model-sheet views, changing blade colours, extra swords, double-bladed saber, throwing or releasing a hilt, saber through body or cloth, impact, strike, actual fight, Force push, levitation, injury, dialogue from the following video, cowboy hats, guns, spurs, desert, dancing, repeated mechanical spinning, posing for several seconds, full camera orbit, wrong final formation, mirrored screen positions, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+</div>
+
+---
+
+<a id="scene-62"></a>
+
+## Сцена 62 — Татуин: после погони — обратно к противостоянию
+
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[],"tags":["serega","artem","ilyusha","tatooine","worm","continuity","action"]} -->
+
+**Контекст использования:** Прямой мост между двумя вложениями владельца от23.10.2026: `260708_0006_video_edit_3448.mp4` → новая62 → `bf0f20a34cc444f4bdf8c9f3244aac80.mp4`. Артём и Илюша лежат на спине после падения; в начале второго ролика они уже стоят напротив вернувшегося Серёги. Концы сохранены из настоящих видео, не дорисованы. Второй ролик здесь — целевой следующий монтажный фрагмент, его Topview task ID не предполагается по имени файла.
+
+**Что происходит:** Артём и Илюша с усилием поднимаются, отряхивают песок и собираются. За правым обелиском Серёга останавливает ту же красную машину, выходит и возвращается пешком. Илюша проходит на передний левый план, Артём остаётся чуть глубже слева; синий и зелёный мечи загораются. Серёга справа держит рукоять погашенной. Последний шаг точно приводит к первому кадру второго видео. Червь и бой начинаются уже в существующем ролике.
+
+**Готовность и очередь:** P1 готова по входам, ждёт свободный слот. P2 ждёт настоящий результат собственной62P1, затем вырезку и QC стыка. В очереди блока с червями после48 и перед59–61; приоритет52P2/58P2 и правило пропуска заблокированных сохранены. По одной бесплатной попытке Seedance2.0, My First Board. 30с — альтернативный полный текст, без отдельного разрешения на запуск. Порядок генерации не равен порядку монтажа: в фильме62 стоит перед противостоянием с червём.
+
+**Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и фиолетовая роба); @Image2 — `references/full/artem.jpg` (Артём — бежево-коричневая одежда, зелёный меч); @Image3 — `references/full/ilyusha.jpg` (Илюша — зелёная туника, красный плащ, синий меч); @Image4 — `references/scenes/scene-62/S62-source-A-final.jpg` (Настоящий последний кадр первого видео — старт); @Image5 — `references/scenes/scene-62/S62-target-B-opening.jpg` (Настоящий первый кадр второго видео — целевой финал); @Image6 — `references/scenes/scene-62/S62-car-continuity.jpg` (Та же красная машина из первого видео — только автомобиль).
+
+<div class="scene-ref-gallery">
+<figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="Серёга — лицо и фиолетовая роба"></a><figcaption>Серёга — лицо и фиолетовая роба</figcaption></figure>
+<figure><a href="references/full/artem.jpg" target="_blank" rel="noopener"><img src="references/full/artem.jpg" alt="Артём — бежево-коричневая одежда, зелёный меч"></a><figcaption>Артём — бежево-коричневая одежда, зелёный меч</figcaption></figure>
+<figure><a href="references/full/ilyusha.jpg" target="_blank" rel="noopener"><img src="references/full/ilyusha.jpg" alt="Илюша — зелёная туника, красный плащ, синий меч"></a><figcaption>Илюша — зелёная туника, красный плащ, синий меч</figcaption></figure>
+<figure><a href="references/scenes/scene-62/S62-source-A-final.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-62/S62-source-A-final.jpg" alt="Настоящий последний кадр первого видео — старт"></a><figcaption>Настоящий последний кадр первого видео — старт</figcaption></figure>
+<figure><a href="references/scenes/scene-62/S62-target-B-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-62/S62-target-B-opening.jpg" alt="Настоящий первый кадр второго видео — целевой финал"></a><figcaption>Настоящий первый кадр второго видео — целевой финал</figcaption></figure>
+<figure><a href="references/scenes/scene-62/S62-car-continuity.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-62/S62-car-continuity.jpg" alt="Та же красная машина из первого видео — только автомобиль"></a><figcaption>Та же красная машина из первого видео — только автомобиль</figcaption></figure>
+</div>
+
+**Настоящие видеовходы:** `references/scenes/scene-62/source-continuity.json` — точные имена, SHA256, приватные Library ID, вырезка последних3с первого ролика и первые3с второго для сверки. Второй клип не подставлять вместо62P1. Просмотр: контактные листы обоих видео и полные граничные кадры; это не заявление о непрерывном просмотре со звуком.
+
+<div class="engine-tabs" data-scene="62">
+
+<div class="engine-pane" data-engine="wan30" data-main="1">
+
+**Входы30с:** @Video1 — настоящий конец первого вложения; @Image1 — `references/full/serega.jpg` (Серёга — лицо и фиолетовая роба); @Image2 — `references/full/artem.jpg` (Артём — бежево-коричневая одежда, зелёный меч); @Image3 — `references/full/ilyusha.jpg` (Илюша — зелёная туника, красный плащ, синий меч); @Image4 — `references/scenes/scene-62/S62-source-A-final.jpg` (Настоящий последний кадр первого видео — старт); @Image5 — `references/scenes/scene-62/S62-target-B-opening.jpg` (Настоящий первый кадр второго видео — целевой финал); @Image6 — `references/scenes/scene-62/S62-car-continuity.jpg` (Та же красная машина из первого видео — только автомобиль).
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Wan 3.0 | Photoreal live-action cinema | Bridge from the fallen Jedi after the hotrod chase to the three-person confrontation before the worm
+
+@Video1 — actual last3seconds of the owner first clip, preserved privately as S62-source-A-last3s.mp4. Opening continuity only.
+
+START STATE:
+Continue directly from the LAST frame of @Video1, not from its first frame; do not replay the fall. Artem lies left and Ilyusha right as in @Image4, breathing and moving slightly in settled dust. Serega is still offscreen.
+
+TIMELINE:
+[0:00–0:04] — AFTER THE FALL
+Continue the exact prone poses. Artem exhales, rolls onto one elbow and plants a knee; Ilyusha turns onto his side, drags his red cape free and braces with a palm. Low forward camera drift keeps both bodies visible. No second impact.
+[0:04–0:08] — GET UP
+Artem pushes upright first and draws his hilt close; Ilyusha reaches one knee and rises. They brush one handful of sand from their clothes while looking toward the fading engine sound to the right. Show actual effort and weight, not a jump cut from lying to standing.
+[0:08–0:12] — HE HAS STOPPED
+Cut beside the right obelisk: the same red car completes a short braking slide into the recess beyond it, nose pointed away from the clearing. Serega remains seated until all wheels stop, cuts the engine and turns toward the open driver-side entry. No crash, damage or passenger.
+[0:12–0:15] — THE RETURN
+Medium moving shot as Serega steps onto the sand, clears the open driver-side entry and starts around the carved stone toward the two men. His robe catches up with his turn; his hilt is unlit and held low. End while he is WALKING, with the stone corner still separating him from the pair; do not reach the final triangle yet.
+[0:15–0:19] — A PURPOSEFUL RETURN
+Continue Serega's uninterrupted return movement with no reset. Serega finishes walking around the right-hand stone into the clearing, unlit hilt low. Camera tracks his first two steps then opens to show the upright Jedi across the gap. The parked car stays hidden behind the stone.
+[0:19–0:23] — THE PAIR REFORMS
+In a readable wide shot Ilyusha moves diagonally toward foreground-left, passing in front of Artem without crossing blades; Artem stays a pace deeper centre-left. They draw their hilts clear of their clothes and ignite BLUE and GREEN once. Serega slows his approach, assessing both without lighting his weapon.
+[0:23–0:27] — CLOSE THE GAP
+The two Jedi take two short planted advance steps, covering each other's angles; Serega steps to his final frame-right mark. Sand scuffs, robe movement and exchanged eyelines build pressure. No circular sword tricks, attack, dialogue or repeated movement.
+[0:27–0:30] — EXACT HANDOFF
+Ease into the exact @Image5 camera axis and distance. The Jedi lower their blades to the reference diagonals, Serega stops with his unlit hilt down and fixes his gaze on them. Reach the final formation on the last step; leave living breath and cloth movement for the cut into the owner's second clip.
+
+END STATE:
+Land on @Image5 only in the last half-second: Ilyusha foreground-left with BLUE blade down-right, Artem deeper centre-left with GREEN blade down-right, Serega frame-right facing them with both hands low and his unlit hilt. Match spacing, camera height, robe folds, daylight and the carved obelisks. Keep breathing and cloth alive. The supplied second clip follows immediately; no strike, worm or red ignition yet.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA face, build and purple robe; one person, never duplicate model-sheet views.
+@Image2 — exact ARTEM face, beard, build and beige/brown Jedi costume; one GREEN lightsaber.
+@Image3 — exact ILYUSHA face, moustache, olive tunic and deep-red hooded cape; one BLUE lightsaber.
+@Image4 — genuine final frame of the owner's first clip: ARTEM lies on his back frame-left, ILYUSHA on his back frame-right, unlit hilts, sand and carved stone obelisks. Opening geography only; never resurrect the fallen pose later.
+@Image5 — genuine FIRST frame of the owner's second clip; this is the ENDING composition, not the opening: ILYUSHA foreground-left, ARTEM behind him centre-left, SEREGA right; the two Jedi have lit lowered blades, Serega's hilt remains unlit.
+@Image6 — the exact red open-top retro hotrod with exposed supercharger and blue cylinder from the chase. Vehicle design only. Do not copy the people or chase action from this still.
+Priority: the actual input video fixes the immediate start state and momentum; individual sheets fix identities; @Image4 fixes the original ruins and @Image5 fixes the final composition. Maintain the same warm daylight, etched obelisks, distant central slender spire and orange sand. No new location or time jump.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Exactly three adult humans, no background extras. SEREGA: mature pale man, balding crown, sparse fair hair, broad face, heavy deep-purple Chancellor robe over black clothes and boots. ARTEM: stockier bearded man with medium brown hair, cream/beige tunic, brown sleeves and robe, broad belt and tall brown boots. ILYUSHA: slim moustached man, chestnut hair, olive-green tunic, deep-red hooded cape, brown belt and boots. Preserve each exact face and costume through movement. Each owns one hilt; Artem green, Ilyusha blue, Serega red when eventually ignited in the FOLLOWING existing video. Serega does NOT ignite it in this bridge.
+
+GEOGRAPHY / PHYSICAL CONTINUITY:
+The chase has just ended beyond the same ruins. The red car brakes on the far side of the right-hand obelisk, outside the central fight area; no additional drive-by across the two fallen men. Serega exits only after it stops. He then walks around that obelisk to enter the clearing from frame-right, making his return visible and motivated. The parked car stays behind the stone and OUTSIDE the final framing. No disappearing car in an open shot, no teleporting driver, no standing on its roof or driving while outside it.
+Artem and Ilyusha must recover from the actual lying poses with elbows, knees and planted feet. They never jump directly upright. Keep their hilts in their hands or visibly pick them up from their exact reachable location; never materialize a second saber. Ilyusha can cross toward foreground-left only in a readable wide shot, passing in FRONT of Artem while Artem stays deeper. Maintain the camera on the original side of the trio; do not mirror the ruins or exchange faces.
+
+PERFORMANCE / STYLE:
+Fast, purposeful recovery after a humiliating fall, then an increasingly tense approach. Brief breathless disbelief becomes concentrated readiness; Serega returns with controlled, dry menace. Small sand shakes and a single annoyed glance give character without broad slapstick. No dialogue, no new plot revelation, no pose held longer than half a second.
+
+CAMERA / LIGHT / MATERIALS:
+Photoreal live-action space opera, grounded low tracking and motivated medium cuts. Warm directional daylight exactly matching both supplied endpoints, textured sand, real cloth weight and skin detail. Track planted footsteps and retain the three-person geography. Camera rises from the opening ground view to @Image5 eye-level wide only at the end. No full orbit, extreme lens distortion or slow motion.
+
+AUDIO:
+Dry sand scuffs, short strained breaths, cloth rustle, offscreen engine deceleration followed by ignition-off silence, a seat creak and approaching boots. One blue and one green ignition with restrained hum; quiet desert wind. No spoken words, narrator, music, captions or replayed explosion. A very faint low sand rumble may foreshadow the later worm, without visible eruption.
+
+NEGATIVE PROMPT:
+worm emergence, giant mouth, collapsing pillar, sand geyser, repeated fall, replayed chase, attack or saber clash, early duel, red blade lit, injury or blood, fourth person, clones, face swaps, extra hilts, changing blade colours, levitating recovery, teleportation, car through people, driver on roof, car visible in final composition, spaceship, cats, modern city, western costume, static tableau, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+</div>
+
+<div class="engine-pane" data-engine="sd20x2">
+
+**Входы части1:** @Video1 — настоящий конец первого вложения; @Image1 — `references/full/serega.jpg` (Серёга — лицо и фиолетовая роба); @Image2 — `references/full/artem.jpg` (Артём — бежево-коричневая одежда, зелёный меч); @Image3 — `references/full/ilyusha.jpg` (Илюша — зелёная туника, красный плащ, синий меч); @Image4 — `references/scenes/scene-62/S62-source-A-final.jpg` (Настоящий последний кадр первого видео — старт); @Image5 — `references/scenes/scene-62/S62-target-B-opening.jpg` (Настоящий первый кадр второго видео — целевой финал); @Image6 — `references/scenes/scene-62/S62-car-continuity.jpg` (Та же красная машина из первого видео — только автомобиль).
+
+**Входы части2:** @Video1 — настоящий конец НОВОЙ62P1; @Image1 — `references/full/serega.jpg` (Серёга — лицо и фиолетовая роба); @Image2 — `references/full/artem.jpg` (Артём — бежево-коричневая одежда, зелёный меч); @Image3 — `references/full/ilyusha.jpg` (Илюша — зелёная туника, красный плащ, синий меч); @Image4 — `references/scenes/scene-62/S62-source-A-final.jpg` (Настоящий последний кадр первого видео — старт); @Image5 — `references/scenes/scene-62/S62-target-B-opening.jpg` (Настоящий первый кадр второго видео — целевой финал); @Image6 — `references/scenes/scene-62/S62-car-continuity.jpg` (Та же красная машина из первого видео — только автомобиль).
+
+#### 62 · Seedance 2.0 часть 1
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action cinema | Bridge from the fallen Jedi after the hotrod chase to the three-person confrontation before the worm
+
+@Video1 — actual last3seconds of the owner first clip, preserved privately as S62-source-A-last3s.mp4. Opening continuity only.
+
+START STATE:
+Continue directly from the LAST frame of @Video1, not from its first frame; do not replay the fall. Artem lies left and Ilyusha right as in @Image4, breathing and moving slightly in settled dust. Serega is still offscreen.
+
+TIMELINE:
+[0:00–0:04] — AFTER THE FALL
+Continue the exact prone poses. Artem exhales, rolls onto one elbow and plants a knee; Ilyusha turns onto his side, drags his red cape free and braces with a palm. Low forward camera drift keeps both bodies visible. No second impact.
+[0:04–0:08] — GET UP
+Artem pushes upright first and draws his hilt close; Ilyusha reaches one knee and rises. They brush one handful of sand from their clothes while looking toward the fading engine sound to the right. Show actual effort and weight, not a jump cut from lying to standing.
+[0:08–0:12] — HE HAS STOPPED
+Cut beside the right obelisk: the same red car completes a short braking slide into the recess beyond it, nose pointed away from the clearing. Serega remains seated until all wheels stop, cuts the engine and turns toward the open driver-side entry. No crash, damage or passenger.
+[0:12–0:15] — THE RETURN
+Medium moving shot as Serega steps onto the sand, clears the open driver-side entry and starts around the carved stone toward the two men. His robe catches up with his turn; his hilt is unlit and held low. End while he is WALKING, with the stone corner still separating him from the pair; do not reach the final triangle yet.
+
+END STATE:
+Serega has exited the fully stopped car and is walking around the right obelisk, hilt unlit; Artem and Ilyusha are upright in the clearing. The final confrontation formation has NOT been reached. Save the real last3s for62P2; part2 continues this precise movement.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA face, build and purple robe; one person, never duplicate model-sheet views.
+@Image2 — exact ARTEM face, beard, build and beige/brown Jedi costume; one GREEN lightsaber.
+@Image3 — exact ILYUSHA face, moustache, olive tunic and deep-red hooded cape; one BLUE lightsaber.
+@Image4 — genuine final frame of the owner's first clip: ARTEM lies on his back frame-left, ILYUSHA on his back frame-right, unlit hilts, sand and carved stone obelisks. Opening geography only; never resurrect the fallen pose later.
+@Image5 — genuine FIRST frame of the owner's second clip; this is the ENDING composition, not the opening: ILYUSHA foreground-left, ARTEM behind him centre-left, SEREGA right; the two Jedi have lit lowered blades, Serega's hilt remains unlit.
+@Image6 — the exact red open-top retro hotrod with exposed supercharger and blue cylinder from the chase. Vehicle design only. Do not copy the people or chase action from this still.
+Priority: the actual input video fixes the immediate start state and momentum; individual sheets fix identities; @Image4 fixes the original ruins and @Image5 fixes the final composition. Maintain the same warm daylight, etched obelisks, distant central slender spire and orange sand. No new location or time jump.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Exactly three adult humans, no background extras. SEREGA: mature pale man, balding crown, sparse fair hair, broad face, heavy deep-purple Chancellor robe over black clothes and boots. ARTEM: stockier bearded man with medium brown hair, cream/beige tunic, brown sleeves and robe, broad belt and tall brown boots. ILYUSHA: slim moustached man, chestnut hair, olive-green tunic, deep-red hooded cape, brown belt and boots. Preserve each exact face and costume through movement. Each owns one hilt; Artem green, Ilyusha blue, Serega red when eventually ignited in the FOLLOWING existing video. Serega does NOT ignite it in this bridge.
+
+GEOGRAPHY / PHYSICAL CONTINUITY:
+The chase has just ended beyond the same ruins. The red car brakes on the far side of the right-hand obelisk, outside the central fight area; no additional drive-by across the two fallen men. Serega exits only after it stops. He then walks around that obelisk to enter the clearing from frame-right, making his return visible and motivated. The parked car stays behind the stone and OUTSIDE the final framing. No disappearing car in an open shot, no teleporting driver, no standing on its roof or driving while outside it.
+Artem and Ilyusha must recover from the actual lying poses with elbows, knees and planted feet. They never jump directly upright. Keep their hilts in their hands or visibly pick them up from their exact reachable location; never materialize a second saber. Ilyusha can cross toward foreground-left only in a readable wide shot, passing in FRONT of Artem while Artem stays deeper. Maintain the camera on the original side of the trio; do not mirror the ruins or exchange faces.
+
+PERFORMANCE / STYLE:
+Fast, purposeful recovery after a humiliating fall, then an increasingly tense approach. Brief breathless disbelief becomes concentrated readiness; Serega returns with controlled, dry menace. Small sand shakes and a single annoyed glance give character without broad slapstick. No dialogue, no new plot revelation, no pose held longer than half a second.
+
+CAMERA / LIGHT / MATERIALS:
+Photoreal live-action space opera, grounded low tracking and motivated medium cuts. Warm directional daylight exactly matching both supplied endpoints, textured sand, real cloth weight and skin detail. Track planted footsteps and retain the three-person geography. Camera rises from the opening ground view to @Image5 eye-level wide only at the end. No full orbit, extreme lens distortion or slow motion.
+
+AUDIO:
+Dry sand scuffs, short strained breaths, cloth rustle, offscreen engine deceleration followed by ignition-off silence, a seat creak and approaching boots. One blue and one green ignition with restrained hum; quiet desert wind. No spoken words, narrator, music, captions or replayed explosion. A very faint low sand rumble may foreshadow the later worm, without visible eruption.
+
+NEGATIVE PROMPT:
+worm emergence, giant mouth, collapsing pillar, sand geyser, repeated fall, replayed chase, attack or saber clash, early duel, red blade lit, injury or blood, fourth person, clones, face swaps, extra hilts, changing blade colours, levitating recovery, teleportation, car through people, driver on roof, car visible in final composition, spaceship, cats, modern city, western costume, static tableau, slow motion, cartoon, subtitles, watermark.
+
+FRAME FILL / NO BARS:
+Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+```
+
+#### 62 · Seedance 2.0 часть 2
+
+```text
+Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
+Optimized for Seedance 2.0 | Photoreal live-action cinema | Bridge from the fallen Jedi after the hotrod chase to the three-person confrontation before the worm
+
+@Video1 — actual last3seconds of the NEW S62 part1 result, with recorded task ID, trim, SHA256 and continuity QC. No original chase clip or synthetic still can replace it.
+
+START STATE:
+Continue the actual final position and forward motion of NEW62P1. Serega has left the stationary car and is rounding the right obelisk; both Jedi are upright deeper in the clearing. Never return anyone to the sand or replay the car exit.
+
+TIMELINE:
+[0:00–0:04] — A PURPOSEFUL RETURN
+Continue the actual last frame of part1 with no reset. Serega finishes walking around the right-hand stone into the clearing, unlit hilt low. Camera tracks his first two steps then opens to show the upright Jedi across the gap. The parked car stays hidden behind the stone.
+[0:04–0:08] — THE PAIR REFORMS
+In a readable wide shot Ilyusha moves diagonally toward foreground-left, passing in front of Artem without crossing blades; Artem stays a pace deeper centre-left. They draw their hilts clear of their clothes and ignite BLUE and GREEN once. Serega slows his approach, assessing both without lighting his weapon.
+[0:08–0:12] — CLOSE THE GAP
+The two Jedi take two short planted advance steps, covering each other's angles; Serega steps to his final frame-right mark. Sand scuffs, robe movement and exchanged eyelines build pressure. No circular sword tricks, attack, dialogue or repeated movement.
+[0:12–0:15] — EXACT HANDOFF
+Ease into the exact @Image5 camera axis and distance. The Jedi lower their blades to the reference diagonals, Serega stops with his unlit hilt down and fixes his gaze on them. Reach the final formation on the last step; leave living breath and cloth movement for the cut into the owner's second clip.
+
+END STATE:
+Land on @Image5 only in the last half-second: Ilyusha foreground-left with BLUE blade down-right, Artem deeper centre-left with GREEN blade down-right, Serega frame-right facing them with both hands low and his unlit hilt. Match spacing, camera height, robe folds, daylight and the carved obelisks. Keep breathing and cloth alive. The supplied second clip follows immediately; no strike, worm or red ignition yet.
+
+REFERENCES / AUTHORITY ORDER:
+@Image1 — exact SEREGA face, build and purple robe; one person, never duplicate model-sheet views.
+@Image2 — exact ARTEM face, beard, build and beige/brown Jedi costume; one GREEN lightsaber.
+@Image3 — exact ILYUSHA face, moustache, olive tunic and deep-red hooded cape; one BLUE lightsaber.
+@Image4 — genuine final frame of the owner's first clip: ARTEM lies on his back frame-left, ILYUSHA on his back frame-right, unlit hilts, sand and carved stone obelisks. Opening geography only; never resurrect the fallen pose later.
+@Image5 — genuine FIRST frame of the owner's second clip; this is the ENDING composition, not the opening: ILYUSHA foreground-left, ARTEM behind him centre-left, SEREGA right; the two Jedi have lit lowered blades, Serega's hilt remains unlit.
+@Image6 — the exact red open-top retro hotrod with exposed supercharger and blue cylinder from the chase. Vehicle design only. Do not copy the people or chase action from this still.
+Priority: the actual input video fixes the immediate start state and momentum; individual sheets fix identities; @Image4 fixes the original ruins and @Image5 fixes the final composition. Maintain the same warm daylight, etched obelisks, distant central slender spire and orange sand. No new location or time jump.
+
+CHARACTER APPEARANCE / IDENTITY LOCK:
+Exactly three adult humans, no background extras. SEREGA: mature pale man, balding crown, sparse fair hair, broad face, heavy deep-purple Chancellor robe over black clothes and boots. ARTEM: stockier bearded man with medium brown hair, cream/beige tunic, brown sleeves and robe, broad belt and tall brown boots. ILYUSHA: slim moustached man, chestnut hair, olive-green tunic, deep-red hooded cape, brown belt and boots. Preserve each exact face and costume through movement. Each owns one hilt; Artem green, Ilyusha blue, Serega red when eventually ignited in the FOLLOWING existing video. Serega does NOT ignite it in this bridge.
+
+GEOGRAPHY / PHYSICAL CONTINUITY:
+The chase has just ended beyond the same ruins. The red car brakes on the far side of the right-hand obelisk, outside the central fight area; no additional drive-by across the two fallen men. Serega exits only after it stops. He then walks around that obelisk to enter the clearing from frame-right, making his return visible and motivated. The parked car stays behind the stone and OUTSIDE the final framing. No disappearing car in an open shot, no teleporting driver, no standing on its roof or driving while outside it.
+Artem and Ilyusha must recover from the actual lying poses with elbows, knees and planted feet. They never jump directly upright. Keep their hilts in their hands or visibly pick them up from their exact reachable location; never materialize a second saber. Ilyusha can cross toward foreground-left only in a readable wide shot, passing in FRONT of Artem while Artem stays deeper. Maintain the camera on the original side of the trio; do not mirror the ruins or exchange faces.
+
+PERFORMANCE / STYLE:
+Fast, purposeful recovery after a humiliating fall, then an increasingly tense approach. Brief breathless disbelief becomes concentrated readiness; Serega returns with controlled, dry menace. Small sand shakes and a single annoyed glance give character without broad slapstick. No dialogue, no new plot revelation, no pose held longer than half a second.
+
+CAMERA / LIGHT / MATERIALS:
+Photoreal live-action space opera, grounded low tracking and motivated medium cuts. Warm directional daylight exactly matching both supplied endpoints, textured sand, real cloth weight and skin detail. Track planted footsteps and retain the three-person geography. Camera rises from the opening ground view to @Image5 eye-level wide only at the end. No full orbit, extreme lens distortion or slow motion.
+
+AUDIO:
+Dry sand scuffs, short strained breaths, cloth rustle, offscreen engine deceleration followed by ignition-off silence, a seat creak and approaching boots. One blue and one green ignition with restrained hum; quiet desert wind. No spoken words, narrator, music, captions or replayed explosion. A very faint low sand rumble may foreshadow the later worm, without visible eruption.
+
+NEGATIVE PROMPT:
+worm emergence, giant mouth, collapsing pillar, sand geyser, repeated fall, replayed chase, attack or saber clash, early duel, red blade lit, injury or blood, fourth person, clones, face swaps, extra hilts, changing blade colours, levitating recovery, teleportation, car through people, driver on roof, car visible in final composition, spaceship, cats, modern city, western costume, static tableau, slow motion, cartoon, subtitles, watermark.
 
 FRAME FILL / NO BARS:
 Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.

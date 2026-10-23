@@ -1,0 +1,43 @@
+{
+  "work_id": "WORM-BRIDGE-STATUS-20261023",
+  "prepared_at": "2026-10-23T18:38:16.596670Z",
+  "state": "prepared_pending_public_verification",
+  "scene_id": 62,
+  "master_sha256": "637c8fec78ea23949af38c6b012ad47c277580c902b04586a6b1d8df20fcf3d9",
+  "counts": {
+    "scenes": 25,
+    "prompts": 101,
+    "cockpit_consuming_prompts": 21,
+    "cockpit_scenes": 8,
+    "new_queue_items": 2
+  },
+  "files": [
+    "references/scenes/scene-62/manifest.json",
+    "references/scenes/scene-62/source-continuity.json",
+    "references/scenes/scene-37/empty-cockpit-provenance.json",
+    "ops/QUEUE-READINESS.md",
+    "reports/topview-workflows-2026-10-23.md"
+  ],
+  "validation": {
+    "python_tests": 235,
+    "js_refresh_cases": 4,
+    "site_contract": "ok",
+    "project_health": "ok",
+    "instruction_certificate": "7/7",
+    "submitted_receipts_unchanged": true
+  },
+  "runtime_observation": {
+    "topview_checked_at": "2026-10-23T17:40:16Z",
+    "occupied_slots": 6,
+    "free_slots": 0,
+    "source": "existing confirmed robot telemetry and public site DOM; no artificial timestamp change"
+  },
+  "video_submissions": 0,
+  "paid_generations": 0,
+  "backup_status": {
+    "notion_pointer": "pending_update_after_publication",
+    "drive": "pending_scheduled_exact_copy",
+    "project_files": "pending_scheduled_copy"
+  },
+  "next_action": "Publish; verify public files, UI and workflows; update Notion pointer; final checkpoints and unlock."
+}

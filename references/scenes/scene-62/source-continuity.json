@@ -1,0 +1,40 @@
+{
+  "scene_id": 62,
+  "created_at": "2026-10-23T18:26:35.912877Z",
+  "sources": [
+    {
+      "source_filename": "260708_0006_video_edit_3448.mp4",
+      "source_library_file_id": "libfile_7d2cf8d7eb2c81919092a4019ba21951",
+      "source_sha256": "94126bd1dcaf9afe53b952e60449f7f5513ccc66db8aff06a6dd4291c7c48e98",
+      "trim_filename": "S62-source-A-last3s.mp4",
+      "trim_library_file_id": "libfile_4370d4db8fb8819186b6c9e890ef46e3",
+      "trim_sha256": "5786c8aa50d3a4d68c38f4953a1933d8b421aed86ca0ac3f647d3ef518283fe7",
+      "trim_seconds": [
+        12.04,
+        15.04
+      ],
+      "frame_path": "references/scenes/scene-62/S62-source-A-final.jpg",
+      "frame_sha256": "71f89c0e8991acbfac7e8c3ba96653d5cb409635611d8f6056841ad32a82ca94"
+    },
+    {
+      "source_filename": "bf0f20a34cc444f4bdf8c9f3244aac80.mp4",
+      "source_library_file_id": "libfile_a60f0b23e7848191a6755d785dbcc522",
+      "source_sha256": "793d3377b3c83f60c165c2554b0d0e11cdeec38d91075829dc71418dd5395e3e",
+      "trim_filename": "S62-target-B-first3s.mp4",
+      "trim_library_file_id": "libfile_092ea3a67d488191a5fca5c43d852a84",
+      "trim_sha256": "d71c1c59c916c1e5f4a7b9a856be4b80a328d5cd53b6ff7af175572098425708",
+      "trim_seconds": [
+        0,
+        3
+      ],
+      "frame_path": "references/scenes/scene-62/S62-target-B-opening.jpg",
+      "frame_sha256": "d815019cbec688c6617bb67a2058f1d7ed62f2507a59ad0906ddd7b0ff4f2bff"
+    }
+  ],
+  "qc": {
+    "scope": "10 sampled frames per source plus full resolution endpoints; no continuous audio review claimed",
+    "usable_for_continuity": true,
+    "editorial_approval": false
+  },
+  "rule": "A ending is P1 input. B opening is final target. P2 requires actual new62P1; B is never a substitute."
+}

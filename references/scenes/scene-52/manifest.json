@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-23T17:13:25.740946Z",
+  "updated_at": "2026-10-23T18:26:35.912877Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -141,24 +141,29 @@
       "reused_from_existing_pack": true
     },
     {
-      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-      "asset_id": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "asset_id": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
       "bytes": 575523,
       "media_type": "image",
-      "role": "location",
+      "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
       "assistant_qc": {
         "status": "reused_existing_asset",
         "checked_at": "2026-10-17T18:14:54.851044+00:00",
         "evidence": "Genuine cockpit frame already used by Scene 37/53."
       },
       "site_published": {
-        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "path": "references/scenes/scene-37/S37-cockpit-empty.png",
         "linked_in_master": true,
-        "git_present": true
+        "git_present": true,
+        "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+        "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
+        "owner_approval": "not_claimed",
+        "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
       },
-      "owner_approval": "not_recorded",
-      "reused_from_existing_pack": true
+      "owner_approval": "not_claimed",
+      "reused_from_existing_pack": true,
+      "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
     },
     {
       "path": "references/scenes/ship-locations/Serega-ship-flagship-space.png",
@@ -256,7 +261,7 @@
   "location_refs": [
     "references/scenes/scene-28/H28A-ceremony.png",
     "references/scenes/scene-16/S16-desert-location-clean.png",
-    "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png"
+    "references/scenes/scene-37/S37-cockpit-empty.png"
   ],
   "prop_refs": [],
   "video_refs": [
@@ -328,8 +333,11 @@
         },
         {
           "slot": "@Image6",
-          "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-          "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108"
+          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+          "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
+          "owner_approval": "not_claimed",
+          "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
         }
       ],
       "characters": 7764

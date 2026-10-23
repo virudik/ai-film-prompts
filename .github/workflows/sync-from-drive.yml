@@ -10,6 +10,8 @@ on:
       - 'SYNC-TRIGGER.txt'
       - '.github/workflows/sync-from-drive.yml'
       - 'scripts/build_project_status.py'
+      - 'scripts/queue_readiness.py'
+      - 'ops/topview-launch-queue.json'
       - 'instruction-sync-status.json'
       - 'NEW-CHAT-HANDOFF.md'
       - 'SYNC-RUNBOOK.md'
@@ -209,7 +211,8 @@ jobs:
             # projects.py publishes content changes immediately and a real check every 180 min.
             PROJECTS_RC=0
             python3 scripts/projects.py . status --write || PROJECTS_RC=$?
-            git add video-prompts.md project-status.json projects/*/project-status.json
+            python3 scripts/queue_readiness.py .
+            git add video-prompts.md project-status.json projects/*/project-status.json ops/queue-readiness.json
             if git diff --cached --quiet; then
               echo "Master mirror and project status are current; health checks passed."
               exit "$PROJECTS_RC"

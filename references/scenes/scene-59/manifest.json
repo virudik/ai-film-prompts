@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 59,
-  "updated_at": "2026-10-23T17:13:25.740946Z",
+  "updated_at": "2026-10-23T18:26:35.912877Z",
   "status": "first_part_inputs_ready_second_part_waits_own_result",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
@@ -50,22 +50,27 @@
       }
     },
     {
-      "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
-      "role": "кабина — только геометрия",
+      "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+      "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
       "media_type": "image",
-      "sha256": "36bff7b4c21528893ada32fd368f2518618bda8d07be3f85672d53781da88108",
+      "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
       "status": "available",
-      "owner_approval": "existing_exact_reference_or_owner_supplied_video",
+      "owner_approval": "not_claimed",
       "assistant_qc": {
         "status": "usable_for_assigned_role",
         "checked_at": "2026-10-23T15:46:54.711992Z",
         "scope": "Visual reference inspection; does not approve future generated video."
       },
       "site_published": {
-        "path": "references/scenes/scene-37/S37-cockpit-source-part1-09m25s.png",
+        "path": "references/scenes/scene-37/S37-cockpit-empty.png",
         "linked_in_master": true,
-        "git_present": true
-      }
+        "git_present": true,
+        "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+        "role": "Пустая кабина — геометрия, два пустых кресла, без мечей",
+        "owner_approval": "not_claimed",
+        "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
+      },
+      "provenance": "Synthetic clean plate derived from original S37 cockpit; visually inspected empty. Not an actual generated video frame."
     },
     {
       "path": "references/scenes/scene-37/S37-forest-planet-reference.png",

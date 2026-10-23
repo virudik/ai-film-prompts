@@ -750,6 +750,14 @@ function renderStatus(s,tv,ci=null,instructionDetail=null,masterHashMatches=true
  const fp=s.audit_fingerprint||{};
  const wfState=latestCompleted?(latestCompleted.conclusion||'unknown'):'нет данных CI';
  const rows=[['ревизия',fp.revision_date||s.revision_date],['проверка GitHub',fp.synced_at||s.synced_at],['Topview snapshot',runtimeTopview.checkedAt||'—'],['Topview slots',runtimeTopview.occupied+' / '+runtimeTopview.capacity],['GitHub workflow',wfState],['последний сбой синхронизации',ci?.last_failure_at||'сбоев не зафиксировано'],['монитор: последний цикл',monCycle?.completed_at||'—'],['SHA-256 master',fp.canonical_master_sha256||s.canonical_master_sha256],['ID сцен',(fp.scene_ids||s.scene_ids||[]).join(', ')],['рабочие направления',(s.work_items_count??(s.work_items||[]).length)+' всего'],['медленная генерация',runtimeSceneMultiplicityLabel()],['состояние',fp.health||s.health],['инструкции',fp.instruction_sync_health||instruction],['семантическая проверка',semanticHealth]];
+ if(telemetryContext){
+  rows.push(['проверено страницей',telemetryContext.lastReadAt||'—']);
+  if(telemetryContext.publishedMasterChanged){
+   rows.push(['SHA показанных промтов',telemetryContext.loadedMasterHash],['новая версия промтов','Опубликована; обновите страницу после сохранения черновиков']);
+   const msg=$('statusMessage');msg.append(document.createTextNode(' Опубликована новая версия сцен. Контрольный отпечаток уже обновлён; показанные промты пока прежние. Сохраните черновики и '));
+   const reload=document.createElement('button');reload.type='button';reload.className='owner-link';reload.textContent='обновите сцены';reload.onclick=()=>location.reload();msg.appendChild(reload);
+  }
+ }
  $('fingerGrid').innerHTML=rows.map(([k,v])=>`<div class="finger-item"><div class="finger-key">${esc(k)}</div><div class="finger-val">${esc(v??'—')}</div></div>`).join('');
  fingerprintText=rows.map(([k,v])=>`${k}: ${v??'—'}`).join('\n');
  $('copyFingerprint').onclick=()=>copyText(fingerprintText,$('copyFingerprint'));
@@ -760,11 +768,21 @@ async function refreshPublishedTelemetry(){
  if(!telemetryContext||telemetryRefreshPending)return;
  telemetryRefreshPending=true;
  try{
-  const [tv,ledger,monitor,ci,videoArchive]=await Promise.all([fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-video-archive.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
+  const [tv,ledger,monitor,ci,videoArchive,publishedStatus,publishedInstructions,publishedMaster,taskMap]=await Promise.all([fetch('topview-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('Topview HTTP '+r.status);return r.json()}),fetch('review-ledger.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('automation-monitor-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('ci-status.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),fetch('topview-video-archive.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null),
+   fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('project-status HTTP '+r.status);return r.json()}),
+   fetch('instruction-sync-status.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('instructions HTTP '+r.status);return r.json()}),
+   fetch('video-prompts.md?fresh='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('master HTTP '+r.status);return r.text()}),
+   fetch('topview-task-map.json?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null)]);
   const checked=Date.parse(tv?.checked_at||'');
   if(!Number.isFinite(checked)||!Array.isArray(tv.active_tasks))throw new Error('Некорректный статус Topview');
-  if(checked<Date.parse(topview?.checked_at||''))return;
+  if(checked<Date.parse(topview?.checked_at||''))throw new Error('Опубликован более старый снимок Topview; последняя подтверждённая версия сохранена');
   const c=telemetryContext;if(ledger)c.ledger=ledger;if(monitor)c.monitor=monitor;if(ci)c.ci=ci;if(videoArchive)topviewVideoArchive=videoArchive;
+  const publishedDigest=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(publishedMaster));
+  const publishedHash=[...new Uint8Array(publishedDigest)].map(b=>b.toString(16).padStart(2,'0')).join('');
+  c.s=publishedStatus;c.instructions=publishedInstructions;
+  c.masterHashMatches=publishedHash===(publishedStatus.canonical_master_sha256||publishedStatus.audit_fingerprint?.canonical_master_sha256);
+  c.publishedMasterChanged=publishedMaster!==c.md;c.lastReadAt=new Date().toISOString();
+  if(taskMap)topviewTaskMap=taskMap;
   renderStatus(c.s,tv,c.ci,c.instructions,c.masterHashMatches,c.monitor);
   renderTopview(tv,c.md);renderNowView(c.s,tv,c.ledger,c.md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();syncSubScenes();loadAux();
   renderFilters();applyView();
@@ -774,7 +792,7 @@ async function refreshPublishedTelemetry(){
  }finally{telemetryRefreshPending=false}
 }
 setInterval(()=>{if(!document.hidden)refreshPublishedTelemetry()},5*60*1000);
-setInterval(()=>{if(!document.hidden&&telemetryContext&&topview)renderTopview(topview,telemetryContext.md)},60*1000);
+setInterval(()=>{if(!document.hidden&&telemetryContext&&topview){const c=telemetryContext;renderStatus(c.s,topview,c.ci,c.instructions,c.masterHashMatches,c.monitor);renderTopview(topview,c.md)}},60*1000);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshPublishedTelemetry()});
 window.addEventListener('online',refreshPublishedTelemetry);
 const analysisPicker=$('analysisPicker');if(analysisPicker){analysisPicker.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{analysisPicker.open=false}));document.addEventListener('click',e=>{if(analysisPicker.open&&!analysisPicker.contains(e.target))analysisPicker.open=false})}
@@ -791,7 +809,7 @@ Promise.all([fetch('project-status.json?fresh='+Date.now(),{cache:'no-store'}).t
  const masterHash=[...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,'0')).join('');
  const expectedHash=s.canonical_master_sha256||s.audit_fingerprint?.canonical_master_sha256||'';
  const masterHashMatches=Boolean(expectedHash)&&masterHash===expectedHash;
- telemetryContext={s,md,ledger:reviewLedger,ci,monitor,instructions:instructionDetail,masterHashMatches};
+ telemetryContext={s,md,loadedMasterHash:masterHash,ledger:reviewLedger,ci,monitor,instructions:instructionDetail,masterHashMatches,publishedMasterChanged:false,lastReadAt:new Date().toISOString()};
  renderStatus(s,tv,ci,instructionDetail,masterHashMatches,monitor);
  if(!masterHashMatches)$('statusMessage').textContent='Загруженный master не соответствует project-status.json. Дождитесь успешной пересборки статуса; текущие данные нельзя считать согласованными.';
  marked.setOptions({gfm:true,breaks:false});content.innerHTML=safeHtml(marked.parse(md),thumbManifest?.items||null);armThumbFallback(content);decorateMasterOverview();collectDomSections(parseRawSections(md));decorate();renderFilters();applyView();renderNowView(s,tv,reviewLedger,md);renderTopview(tv,md);syncActiveSceneStatuses(tv);syncArchivedSceneLinks();syncSubScenes();loadAux();$('stamp').textContent='master загружен '+new Date().toLocaleDateString('ru-RU');if(location.hash){const h=location.hash.slice(1);setTimeout(()=>h==='slow-monitor'?$('slow-monitor')?.scrollIntoView({behavior:'smooth',block:'start'}):jumpTo(h),80)}}).catch(err=>{content.innerHTML=`<div class="error"><b>Не удалось загрузить Control Center.</b><br>${esc(err.message)}</div>`;toc.innerHTML='';$('health').textContent='✕ ОШИБКА СИНХРОНИЗАЦИИ';$('health').classList.remove('ok');$('health').classList.add('bad');$('statusMessage').textContent='project-status.json или video-prompts.md недоступен'});
@@ -882,24 +900,34 @@ setTimeout(inject,1500);
 (()=>{
 const FINAL=new Set(['submitted','cancelled_owner','completed','held_owner_site']);
 const waiting=st=>!FINAL.has(st)&&!/^superseded|^cancelled/.test(st||'');
-const STATE={waiting_for_slot:'ждёт свободный слот',blocked_inputs:'ждёт кадр или картинку от предыдущей сцены',blocked_model_preparation:'готовится промт',blocked_test_review:'ждёт вашей оценки теста',blocked_owner_decision:'ждёт вашего решения «в очередь»',held_owner_site:'убрана вами из очереди'};
+const STATE={waiting_for_slot:'ждёт свободный слот',blocked_inputs:'нужна подготовка входов',blocked_model_preparation:'готовится промт',blocked_test_review:'ждёт вашей оценки теста',blocked_owner_decision:'ждёт вашего решения «в очередь»',held_owner_site:'убрана вами из очереди'};
 const TASK_ST={open:'ждёт исполнителя',taken:'в работе',done:'сделано',needs_owner:'нужен ваш ответ',cancelled:'отменено'};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const get=u=>fetch(u+'?fresh='+Date.now(),{cache:'no-store'}).then(r=>r.ok?r.json():null).catch(()=>null);
 const msk=v=>{const d=new Date(v);return isNaN(d)?'':d.toLocaleString('ru-RU',{timeZone:'Europe/Moscow',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})+' МСК'};
-let Q=null,L=null,T=null,H=null,SH=null;
+let Q=null,L=null,T=null,H=null,SH=null,R=null,QHASH=null;
 function title(sid){const h=[...document.querySelectorAll('#content h2')].find(x=>new RegExp('Сцена\\s+'+sid+'\\b').test(x.textContent));return h?h.textContent.replace(/^.*?Сцена\s+\d+\s*[·:—–-]?\s*/,'').trim().slice(0,90):''}
 function order(q){const band=new Map(),items=new Map();(q?.items||[]).forEach(it=>{const sid=Number(it.scene_id);if(!items.has(sid))items.set(sid,[]);items.get(sid).push(it);if(waiting(it.state)){const p=Number(it.priority)||0;band.set(sid,Math.min(band.has(sid)?band.get(sid):p,p))}});
  const live=[...band.entries()].sort((a,b)=>a[1]-b[1]||a[0]-b[0]).map(x=>x[0]);
  const held=[...items.entries()].filter(([sid,its])=>!band.has(sid)&&its.some(i=>i.state==='held_owner_site')).map(x=>x[0]).sort((a,b)=>a-b);
  return{live,held,items}}
-function summary(its){const w=its.filter(i=>waiting(i.state)||i.state==='held_owner_site');const c={};w.forEach(i=>{c[i.state]=(c[i.state]||0)+1});return Object.entries(c).map(([k,n])=>(STATE[k]||k)+(n>1?' ×'+n:'')).join(' · ')}
+function summary(its){return its.filter(i=>waiting(i.state)||i.state==='held_owner_site').map(i=>{
+ const row=R?.source_queue_sha256===QHASH?R.items?.find(x=>x.id===i.id):null;
+ const part=/часть\s+(\d+)/.exec(i.canonical_block_label||'');const label=part?'Часть '+part[1]:(i.canonical_block_label||i.id);
+ if(row)return label+' — '+row.text;
+ if(i.state==='blocked_inputs'){
+  const missing=(i.references||[]).filter(r=>r.required!==false&&r.input_status&&r.input_status!=='available');
+  const deps=missing.map(r=>r.source_item_id).filter(Boolean);
+  return label+' — '+(deps.length?'нужен проверенный вход из '+[...new Set(deps)].join(', '):'нужна проверка входов')+'; расчёт робота обновляется';
+ }
+ return label+' — '+(STATE[i.state]||i.state)+(i.state==='waiting_for_slot'?' (проверка входов роботом обновляется)':'');
+}).join('\n')}
 function btn(label,cls,body,tip){const o=window.aiFilmOwner;const b=document.createElement('button');b.type='button';b.className='owner-btn '+cls;b.textContent=label;b.title=tip;b.onclick=()=>o.arm(b,()=>o.decide(body,b));return b}
 function renderLock(){const el=document.getElementById('canonLockLine');if(!el)return;const exp=L&&new Date(L.expires_at);const busy=L&&L.state==='held'&&exp>new Date();el.className='pult-lock '+(busy?'busy':'free');el.textContent=busy?('🔒 Канон пишет '+String(L.holder||'').replace(/^claude:.*/,'Claude').replace(/^chatgpt$/,'ChatGPT')+' до '+msk(L.expires_at).replace(/^.*?, /,'')):'🔓 Канон свободен';el.title=busy?((L.task?L.task+'. ':'')+'Кнопки очереди применятся, когда канон освободится.'):('Можно править канон'+(L?.released_at?' · свободен с '+msk(L.released_at):''))}
 function render(){renderLock();const box=document.getElementById('queueList');if(!box)return;if(!Q){box.innerHTML='<small>Очередь недоступна.</small>';return}
  const {live,held,items}=order(Q),owner=!!(window.aiFilmOwner&&window.aiFilmOwner.get());box.innerHTML='';const qc=document.getElementById('queueCount');if(qc)qc.textContent=live.length+' в очереди'+(held.length?' · '+held.length+' отложено':'');
  const row=(sid,i,isHeld)=>{const its=items.get(sid)||[];const r=document.createElement('div');r.className='queue-row'+(isHeld?' held':'');
-  r.innerHTML='<span class="queue-n">'+(isHeld?'—':(i+1))+'</span><span class="queue-title"><b>Сцена '+sid+'</b> '+esc(title(sid))+'<small>'+esc(summary(its))+'</small></span>';
+  r.innerHTML='<span class="queue-n">'+(isHeld?'—':(i+1))+'</span><span class="queue-title"><b>Сцена '+sid+'</b> '+esc(title(sid))+'<small>'+esc(summary(its)).replace(/\n/g,'<br>')+'</small></span>';
   if(owner){const b=document.createElement('span');b.className='owner-btns';
    if(isHeld){b.appendChild(btn('в очередь','',{scene_id:sid,action:'queue_add'},'Вернуть сцену в очередь'))}
    else{if(i>0)b.appendChild(btn('▲','',{scene_id:sid,action:'queue_up'},'Поставить выше'));if(i<live.length-1)b.appendChild(btn('▼','',{scene_id:sid,action:'queue_down'},'Поставить ниже'));
@@ -914,7 +942,11 @@ function render(){renderLock();const box=document.getElementById('queueList');if
 function renderHealth(){const el=document.getElementById('canonHealth');if(!el||!H)return;const w=(H.problems||[]).filter(p=>p.level==='warn'),inf=(H.problems||[]).filter(p=>p.level!=='warn');
  el.innerHTML='<details><summary'+(w.length?' class="warnc"':'')+' title="Здоровье канона · проверка '+esc(msk(H.checked_at))+'">🩺 Здоровье: '+(w.length?'предупреждений '+w.length:'в порядке')+'</summary><small>Проверка '+esc(msk(H.checked_at))+(inf.length?' · заметок '+inf.length:'')+'</small>'+w.map(p=>'<div class="owner-dec">⚠ '+esc(p.text)+'</div>').join('')+(inf.length?'<details><summary><small>Заметки для еженедельной чистки ('+inf.length+')</small></summary>'+inf.map(p=>'<div class="owner-dec"><small>'+esc(p.text)+'</small></div>').join('')+'</details>':'')+'<small>Проверка раз в день и при каждом изменении канона; чистку делает еженедельное расписание Claude.</small></details>'}
 function renderSelfHeal(){const el=document.getElementById('selfHeal');if(!el||!SH)return;const pr=Object.values(SH.problems||{}),log=(SH.log||[]).slice().reverse();const head=SH.status==='ok'?'всё работает':SH.status==='escalated'?'<b>передано агенту: '+pr.filter(p=>p.escalated_at).length+'</b>':'<b>чиню: '+pr.length+'</b>';el.innerHTML='<details><summary'+(SH.status==='ok'?'':' class="warnc"')+' title="Самопроверка автоматики'+(SH.changed_at?' · изменение '+esc(msk(SH.changed_at)):'')+'">🔧 Автоматика: '+head.replace(/<\/?b>/g,'')+'</summary>'+(SH.changed_at?'<small>Изменение '+esc(msk(SH.changed_at))+'</small>':'')+pr.map(p=>'<div class="owner-dec">'+(p.escalated_at?'🧑‍💻 ':'🔧 ')+esc(p.text)+'</div>').join('')+(log.length?'<details><summary><small>Журнал ('+log.length+')</small></summary>'+log.map(e=>'<div class="owner-dec"><small>'+esc(msk(e.at))+' — '+esc(e.text)+'</small></div>').join('')+'</details>':'')+'<small>Робот каждые 30 минут ищет зависания и сам чинит известное; что не чинится — задача для ИИ в списке выше.</small></details>'}
-async function load(){const [q,l,t,h,sh]=await Promise.all([get('ops/topview-launch-queue.json'),get('ops/canon-lock.json'),get('ops/owner-tasks.json'),get('canon-health.json'),get('ops/self-heal.json')]);Q=q||Q;L=l||L;T=t||T;H=h||H;SH=sh||SH;render();renderHealth();renderSelfHeal()}
+async function load(){const [qp,l,t,h,sh,ready]=await Promise.all([
+ fetch('ops/topview-launch-queue.json?fresh='+Date.now(),{cache:'no-store'}).then(async r=>{if(!r.ok)return null;const raw=await r.text();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(raw)))].map(b=>b.toString(16).padStart(2,'0')).join('');return{q:JSON.parse(raw),hash}}).catch(()=>null),
+ get('ops/canon-lock.json'),get('ops/owner-tasks.json'),get('canon-health.json'),get('ops/self-heal.json'),get('ops/queue-readiness.json')]);
+ if(qp){Q=qp.q;QHASH=qp.hash}R=ready||R;L=l||L;T=t||T;H=h||H;SH=sh||SH;render();renderHealth();renderSelfHeal()}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});window.addEventListener('online',load);
 document.addEventListener('aifilm-owner-change',render);
 load();setInterval(load,120000);setTimeout(render,2500);
 })();
