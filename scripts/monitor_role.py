@@ -96,8 +96,11 @@ other_author = (role["monitors"].get(other) or {}).get("commit_author") or ""
 # not silence monitoring for hours (incident 10.10.2026 18:10–23:10 UTC).
 WRITER_FILES = ["topview-status.json", "topview-checkpoint.json", "topview-task-map.json",
                 "topview-operation-journal.json", "automation-monitor-status.json",
-                "monitor-role.json", "review-ledger.json", "SYNC-TRIGGER.txt",
-                "video-prompts.md", "project-status.json"]
+                "monitor-role.json"]
+# Shared creative/derived files (master, ledger, project-status, sync trigger)
+# are NOT evidence of a monitor cycle. Counting them delayed the primary robot
+# after every ordinary scene edit (23.10.2026). A real monitor publishes one of
+# the telemetry files above. Keep its collision guard and failed-read policy.
 # The 50-minute guard protects against real concurrent GitHub writes.
 # A failed git-log inspection is uncertainty: skip rather than race.
 try:

@@ -218,6 +218,37 @@ class RobotRoleTest(MonitorHeartbeatTest):
         self.assertEqual(d["last_scheduled_cycle"]["runner"], "robot_scheduled_task")
         self.assertIn("robot", d["last_successful_by_runner"])
 
+    def commit_other_files(self, files):
+        for name in files:
+            (self.repo / name).write_text("{}\n", encoding="utf-8")
+        subprocess.run(["git", "-C", str(self.repo), "add", "--", *files], check=True)
+        subprocess.run(["git", "-C", str(self.repo), "commit", "-q", "--author",
+                        "virudik <fixture@example.invalid>", "-m", "other work"], check=True)
+        subprocess.run(["git", "-C", str(self.repo), "update-ref",
+                        "refs/remotes/origin/main", "HEAD"], check=True)
+
+    def test_creative_and_derived_commits_do_not_silence_primary_robot(self):
+        self.set_roles("robot", "chatgpt")
+        write_json(self.repo / "automation-monitor-status.json", {})
+        self.commit_other_files(["video-prompts.md", "review-ledger.json",
+                                 "project-status.json", "SYNC-TRIGGER.txt"])
+        self.assertEqual(self.action("robot")["action"], "run")
+
+    def test_actual_telemetry_commit_still_blocks_primary_robot(self):
+        self.set_roles("robot", "chatgpt")
+        write_json(self.repo / "automation-monitor-status.json", {})
+        self.commit_other_files(["topview-status.json", "video-prompts.md"])
+        result = self.action("robot")
+        self.assertEqual(result["action"], "skip")
+        self.assertIn("other monitor", result["reason"])
+
+    def test_unavailable_git_history_still_fails_closed(self):
+        self.set_roles("robot", "chatgpt")
+        write_json(self.repo / "automation-monitor-status.json", {})
+        subprocess.run(["git", "-C", str(self.repo), "update-ref", "-d",
+                        "refs/remotes/origin/main"], check=True)
+        self.assertEqual(self.action("robot")["action"], "skip")
+
 
 if __name__ == "__main__":
     unittest.main()
