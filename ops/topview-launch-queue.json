@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T01:36:36.133Z",
+  "updated_at": "2026-10-23T01:39:54.809Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4648,12 +4648,21 @@
       "depends_on_completed": [
         "S42-SEED20-P1"
       ],
-      "blocker": "Actual ending of S42-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
+      "blocker": "Existing S42-P2 variant bf27bb8615eb4ad5a44a86ec2efcd3be is already running. Its full prompt differs materially from current canonical P2; reconcile actual result before considering another submission.",
       "launch_readiness": "blocked_continuity",
       "previous_prompt_sha256": [
         "9d9f51153e025523e9ce2befbf37f19ada36f16842bd1296f8380259a6407355"
       ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained."
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "external_variant_observed": {
+        "task_id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "status": "init",
+        "useUnlimitMode": true,
+        "creditsCost": 0,
+        "full_canonical_prompt_match": false,
+        "word_similarity": 0.4,
+        "note": "Live task uses earlier disaster-action wording and different identity reference order; canonical P2 uses deadpan duel wording. Initiator not established. Preserve this running task; inspect its result and reconcile selection before any new canonical42P2 submission. Never silently map to current canonical prompt."
+      }
     },
     {
       "id": "S47-SEED20-P1",
@@ -4780,7 +4789,7 @@
       "canonical_prompt_sha256": "912df9aac9818879e48a5ee8951e0a494e3d9a9859e520da03f6acd14d2d2852",
       "normalized_prompt_sha256": "de94103dc0f6a115f46993440ead02f7aa92af26fd21c4d163cc5f7c2b039410",
       "priority": 36.1,
-      "state": "claimed",
+      "state": "submitted",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4848,8 +4857,18 @@
           "input_status": "available"
         }
       ],
-      "task_id": null,
-      "claim": {
+      "task_id": "56e5e07c85df4af583c62665c51ed563",
+      "claim": null,
+      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
+      "replaces_unsubmitted_item": "S47",
+      "selection_record": "reports/seedance-selection-2026-10-18.md",
+      "depends_on_completed": [
+        "S47-SEED20-P1"
+      ],
+      "blocker": null,
+      "launch_readiness": "actual_previous_ending_saved_qc_checked",
+      "continuity_qc_at": "2026-10-23T01:33:01.483Z",
+      "last_claim": {
         "run_id": "CONTINUE-20261023-S47-P2",
         "claimed_at": "2026-10-23T01:36:36.133Z",
         "holder": "chatgpt",
@@ -4900,15 +4919,13 @@
           "owner_decisions_open": 0
         }
       },
-      "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
-      "replaces_unsubmitted_item": "S47",
-      "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "depends_on_completed": [
-        "S47-SEED20-P1"
-      ],
-      "blocker": null,
-      "launch_readiness": "actual_previous_ending_saved_qc_checked",
-      "continuity_qc_at": "2026-10-23T01:33:01.483Z"
+      "submitted_at": "2026-10-23 01:36:53Z",
+      "receipt": "reports/topview-queue-2026-10-16/S47-SEED20-P2-20261023.json",
+      "submission_verification": {
+        "full_normalized_prompt_match": true,
+        "useUnlimitMode": true,
+        "creditsCost": 0
+      }
     },
     {
       "id": "S48-SEED20-P1",
@@ -6902,21 +6919,37 @@
   "owner_instruction_20261016": "Finish queued dance variants first, do not edit scene28 prompts. Then new scenes in this order when fully READY; 44 needs result43, 48 needs result42. 49–51 after referenced new block. No paid Canvas, no automatic approval/deletion/rerun.",
   "owner_instruction_20261017": "Direct owner instruction17Oct2026 15:28:58 Europe/Moscow: 45/46 next, then43/44, then flights/story closure; music last. One corrected FREE attempt for43–46; preserve all paid external history.",
   "last_live_scan": {
-    "checked_at": "2026-10-19T22:52:29.483Z",
-    "boards": 11,
-    "pages": 17,
-    "total_tasks": 912,
-    "complete": true,
-    "occupied_slots": 6,
-    "free_slots": 0,
-    "active_unlimited_task_ids": [
-      "30cfaf12ad944cd6944416623397e41c",
-      "e6a5cf9a3d04413e943c9bbbff9e1f73",
-      "e33891d4568a4a90b31ff3c67f5a7100",
-      "1e4928fa04ed4a0396d1d2ea4f5934bb",
-      "70ba69f8c44e4898ab587fbffeaeca01",
-      "bf3465e1c4de4a869f4bba5f2eed5acf"
-    ]
+    "at": "2026-10-23T01:38:41.382Z",
+    "boards": 13,
+    "pages": 19,
+    "total": 930,
+    "active": [
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "status": "init",
+        "credits": 0,
+        "unlimited": true
+      },
+      {
+        "id": "af8e389dc9564607bc6138b408c72da5",
+        "status": "init",
+        "credits": 0,
+        "unlimited": true
+      },
+      {
+        "id": "6598a21c2c684d43b7cede9cfc987107",
+        "status": "init",
+        "credits": 0,
+        "unlimited": true
+      },
+      {
+        "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+        "status": "init",
+        "credits": 0,
+        "unlimited": true
+      }
+    ],
+    "free_slots": 2
   },
   "owner_instruction_20261017_2112": "Owner 17.10 21:12 MSK: Scene 55 «Дорогой, а ты купил хлеб и молоко?» goes right after S50-FANS-IMAGE (priority 5); bread-and-milk sticker added to flight scenes 39 and 52 (new prompt SHA).",
   "owner_instruction_20261017_2145": {

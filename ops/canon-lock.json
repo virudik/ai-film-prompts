@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "20261023 gallery repair and ready continuation slot launches",
   "acquired_at": "2026-10-23T01:28:27.858Z",
-  "expires_at": "2026-10-23T02:13:27.858Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "expires_at": null,
+  "released_at": "2026-10-23T01:39:54.809Z",
+  "rules": "ops/CANON-LOCK.md",
+  "release_note": "35 native images restored and verified; S57P2/S47P2 receipts persisted Unlimited0; all real remaining blockers checkpointed."
 }

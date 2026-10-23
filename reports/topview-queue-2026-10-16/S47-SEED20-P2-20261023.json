@@ -1,0 +1,142 @@
+{
+  "item_id": "S47-SEED20-P2",
+  "task_id": "56e5e07c85df4af583c62665c51ed563",
+  "submitted_at": "2026-10-23 01:36:53Z",
+  "verified_at": "2026-10-23T01:39:54.809Z",
+  "canonical_prompt_sha256": "912df9aac9818879e48a5ee8951e0a494e3d9a9859e520da03f6acd14d2d2852",
+  "normalized_prompt_sha256": "de94103dc0f6a115f46993440ead02f7aa92af26fd21c4d163cc5f7c2b039410",
+  "full_normalized_prompt_match": true,
+  "source_continuity": {
+    "slot": "@Video1",
+    "path": "references/scenes/scene-47/S47-P1-last3s-20261023.mp4",
+    "sha256": "73c05159693a00a9a2cb36da2941eba87d95e76cd15385295f58d3343967bb62",
+    "required": true,
+    "canonical_role": "previous_part_end",
+    "input_status": "available",
+    "source_item_id": "S47-SEED20-P1",
+    "source_task_id": "2175458eede64d0881ad70897155459a",
+    "trim": {
+      "start_seconds": 12,
+      "end_seconds": 15,
+      "frames": 72,
+      "fps": 24
+    },
+    "source_original_library_file_id": "libfile_8dbe05ca44c4819183f5263931d29b42",
+    "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+  },
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/b7dZPIGkZesx2i679kJ2I.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/HXTdyzBDWHq72bR3bRApv.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/YazEAUkiYizHdzWYpWXjK.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/UE25kWajLnlP1sf1DR7Kd.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/7IDIQ665b7ZsCw1tF4wxn.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action action comedy at the end of a lightsaber duel | Part 2 of 2: a frantic acrobatic red-dot hunt, the cats vanish into the rubble and Serega walks off toward the temple\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the last seconds of Part 1's result: both cats crouched, hunting-ready, before the red dot; Serega in front of the arch with his unlit hilt aimed at it; the same ruins and sunset. Absolute authority for the START STATE, positions and light.\n<<<Image1>>>  — exact SEREGA identity.\n<<<Image2>>>  — exact LUCHIK identity.\n<<<Image3>>>  — exact RYZHIK identity.\n<<<Image4>>>  — ABSOLUTE ancient Sith-planet ruins geography and sunset.\n<<<Image5>>>  — optional three-subject scale/staging helper only; never overrides identities or location.\nPriority: <<<Video1>>>  controls the start and existing damage; <<<Image4>>>  the wider architecture and sunset; <<<Image1>>> –<<<Image3>>>  the identities; <<<Image5>>>  only scale.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (<<<Image1>>> ): exact older pale Chancellor, thinning hair / bald crown, recognizable mature face, human scale, long dark purple robe. His polished metal saber hilt, blade off, stays in his right hand throughout.\nLUCHIK (<<<Image2>>> ): exact white-and-grey long-haired cat: white muzzle/chest/forepaws, grey crown, back and facial markings.\nRYZHIK (<<<Image3>>> ): exact warm orange striped tabby, fluffy ginger coat, darker stripes, lighter muzzle/chest.\nCAT SCALE: ordinary house-cat size, never larger than Serega's knee when upright, in every shot and every jump. Genuinely feline: paws, fur, tails, ears, whiskers; no human hands or anthropomorphic bodies. Exactly three characters.\n\nLOCATION LOCK — CRITICAL:\nThe same weathered ochre/red-brown Sith stone city of <<<Image4>>> : carved robed statues, temple terraces and stairs, shattered columns, distant mesa spires, low orange-gold sun. The arch and fallen blocks stay exactly as in <<<Video1>>> . No lava, no clean arena.\n\nRED DOT LOCK — CRITICAL:\nOne small, crisp, coin-sized bright red pointer dot cast on stone from the emitter end of Serega's switched-off hilt. Exactly one dot, only on real surfaces (floor, block faces, steps, plinths), only where he points. No beam in the air, no magic, all blades off.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> : both cats crouched low, eyes on the red dot, unlit hilts beside them; Serega in front of the arch aiming his hilt.\n\nTIMELINE:\n[0:00–0:05] — THE HUNT\nContinuing <<<Video1>>>  without a cut, Serega flicks the dot away across the terrace and both cats explode after it on all fours. Wide low tracking: the dot zips up a fallen block; Ryzhik kicks off its wall with all four paws and twists in mid-air as it slips away. Luchik overshoots, belly-slides across smooth stone with claws scrabbling, and the two collide head-on in a tumble of fur.\n\n[0:05–0:09] — RICOCHET\nThey bounce up instantly. The dot zigzags along a broken column and up a statue plinth; both cats bound after it, ricochet off the plinth wall and land in a heap. Serega walks briskly sideways along the terrace with the hilt aimed, face completely serious.\n\n[0:09–0:12] — GONE\nHe sends the dot deep into a dark narrow gap between existing fallen blocks beside the arch. Both cats dive in head first, one after the other, and vanish; a puff of dust bursts out, scrabbling echoes inside.\n\n[0:12–0:15] — DEEPER INTO THE RUINS\nSerega lowers the hilt, straightens his robe with one tug, turns his back and strides briskly away up the temple stairs, deeper into the ruins, alone.\n\nEND STATE:\nSerega alone, striding away up the temple stairs toward the temple entrance with the unlit hilt in his hand; the cats out of sight inside the rubble gap, dust still drifting from it; the same sunset ruins, damage preserved.\n\nCAMERA / SPACE:\nFirst beat continues <<<Video1>>>  without a cut, then cut on movement: a low wide tracking shot whipping with the dot, a wide on the ricochet and dive, a wide following Serega up the stairs. Keep screen direction and a fixed sunset direction. Acrobatics in wide shots with whole bodies visible; Serega's face, when seen, in a medium framing with even light. No jitter, teleporting or axis flips.\n\nPERFORMANCE:\nFrantic, real cat hunting: wall kicks, slides, collisions and instant recoveries, ears and tails alive; nobody is hurt. Serega moves briskly and decisively with a cool, deadpan face: no smile, no wink, no speech. Nobody looks into the lens.\n\nLIGHTING / MATERIALS:\nWarm weathered stone in low orange-gold sunset; dust bursts from every landing and from the gap; the dot small, crisp, slightly brighter than the sunlit stone.\n\nAUDIO:\nRapid paw thumps, claws scrabbling and skidding on stone, a soft thud of the collision, one surprised cat chirp, scrabbling echoes from the gap, dry wind, Serega's quick footsteps on the stone steps. No dialogue, narrator, music or subtitles.\n\nNEGATIVE PROMPT:\ngiant cats, cats larger in close-ups, human cat-hands, talking cats, swapped cats, lit sabers, a second red dot, visible laser beam, fake Force effects, floating hilts, injured cats, Serega smiling or winking, Serega running in panic, collapsed arch, changing ruin geometry, lava, duplicates, glossy game look, cartoon, anime, text, watermark, frame borders.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/rPCpJ9GCdcYT2IS8CtHLT.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "56e5e07c85df4af583c62665c51ed563",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "creditsCost": 0,
+  "status": "init",
+  "preflight": {
+    "global_scan": {
+      "at": "2026-10-23T01:36:26.884Z",
+      "boards": 13,
+      "pages": 19,
+      "total": 929,
+      "active": [
+        {
+          "id": "af8e389dc9564607bc6138b408c72da5",
+          "status": "init",
+          "credits": 0,
+          "unlimited": true
+        },
+        {
+          "id": "6598a21c2c684d43b7cede9cfc987107",
+          "status": "init",
+          "credits": 0,
+          "unlimited": true
+        },
+        {
+          "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "status": "init",
+          "credits": 0,
+          "unlimited": true
+        }
+      ]
+    },
+    "full_normalized_prompt_match": true,
+    "all_input_sha256_verified": true,
+    "input_order": [
+      "Video1",
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5"
+    ],
+    "model": "Seedance 2.0",
+    "duration_seconds": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "max_credits": 0,
+    "owner_decisions_open": 0
+  },
+  "proof": {
+    "library_file_id": "libfile_05f64fb2abf48191bb767b4fb55e8c65",
+    "path": "/AI Film Серёгиус/two-continuations-submitted.jpg"
+  },
+  "actor": "chatgpt"
+}

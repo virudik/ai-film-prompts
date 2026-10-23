@@ -128,6 +128,10 @@
     "max_credits": 0,
     "owner_decisions_open": 0
   },
-  "ui_proof": "Screenshot failed twice with Page.captureScreenshot timeout; post-submit DOM shows queued state; read-only task receipt verified.",
-  "actor": "chatgpt"
+  "ui_proof": "Final screenshot of four queued tasks saved privately and verified in Library; native screenshot succeeded after cropped capture timeouts.",
+  "actor": "chatgpt",
+  "proof": {
+    "library_file_id": "libfile_05f64fb2abf48191bb767b4fb55e8c65",
+    "path": "/AI Film Серёгиус/two-continuations-submitted.jpg"
+  }
 }

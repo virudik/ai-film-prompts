@@ -1,6 +1,6 @@
 {
   "work_id": "PROJECT-AUDIT-20261023",
-  "verified_at": "2026-10-23T01:17:12.044Z",
+  "verified_at": "2026-10-23T01:39:54.809Z",
   "active_automations": 4,
   "automation_dedup": {
     "film_id": "6acae6ab433481919e88665c520b8ef2",
@@ -21,7 +21,303 @@
       "new8_found": false,
       "spaces_returned": 0
     },
-    "conclusion": "Project images durable/published; new8 not found in ChatGPT file gallery. Root cause of missing gallery registration not established, not fixed, no duplicate uploads or regenerated images."
+    "conclusion": "All35 missing Raznoe originals restored and read back as image_gen; no regeneration. Original root cause remains unknown; client Images-tab rendering not separately visually inspected.",
+    "repair": {
+      "verified_at": "2026-10-23T01:39:54.809Z",
+      "folder": "/AI Film Серёгиус/Разное — референсы",
+      "directory_id": "6adab6f0b5dc8191bdde4f33ad0836f3",
+      "expected": 35,
+      "restored": 35,
+      "total_bytes": 86131465,
+      "regenerated": 0,
+      "all_library_artifact_type": "image_gen",
+      "readback_verified": true,
+      "pagination_complete": true,
+      "technical_root_cause": "Not established; restored original saved bytes without regeneration.",
+      "display_verification": "All35 visible to native Library listing as image_gen in the destination folder. Client Images-tab visual rendering was not separately inspected.",
+      "files": [
+        {
+          "name": "s15-weather.png",
+          "library_file_id": "libfile_a52f7ce797208191b14b088c906d8353",
+          "file_id": "file_00000000f0ec81fb88c3f2c927479f50",
+          "path": "/AI Film Серёгиус/Разное — референсы/s15-weather.png",
+          "size_bytes": 2693663,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s18-archive.png",
+          "library_file_id": "libfile_2c2319523a0c8191a4872b92e5a9e575",
+          "file_id": "file_00000000106c81f497c01e6a5b549c9d",
+          "path": "/AI Film Серёгиус/Разное — референсы/s18-archive.png",
+          "size_bytes": 2109094,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q11-hands.png",
+          "library_file_id": "libfile_e4d44851a90081919d75e48b350869a4",
+          "file_id": "file_00000000288881f7b0625550c252b429",
+          "path": "/AI Film Серёгиус/Разное — референсы/q11-hands.png",
+          "size_bytes": 2021743,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s20-delta.png",
+          "library_file_id": "libfile_ddd3bae8d0e4819188f27eec727100d1",
+          "file_id": "file_000000006dac81f7992f1cb4c65dbbda",
+          "path": "/AI Film Серёгиус/Разное — референсы/s20-delta.png",
+          "size_bytes": 3336909,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s16-testbench.png",
+          "library_file_id": "libfile_b6e44b2829b0819192d8d5df546d4557",
+          "file_id": "file_00000000ac54822f86e5eb56a6c4e244",
+          "path": "/AI Film Серёгиус/Разное — референсы/s16-testbench.png",
+          "size_bytes": 1976662,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s19-lowwater.png",
+          "library_file_id": "libfile_b233f3557e2881919bb2928ec4ec074d",
+          "file_id": "file_00000000faf4820d9078f600e50c4aaa",
+          "path": "/AI Film Серёгиус/Разное — референсы/s19-lowwater.png",
+          "size_bytes": 3623754,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q14-detail.png",
+          "library_file_id": "libfile_279114c9a7d0819181205629f6d85254",
+          "file_id": "file_000000008014820cb05d3bbac937f062",
+          "path": "/AI Film Серёгиус/Разное — референсы/q14-detail.png",
+          "size_bytes": 2092474,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q12-cards.png",
+          "library_file_id": "libfile_a91652986b708191835a44b04ff70766",
+          "file_id": "file_000000008378820c9c78e733f0637478",
+          "path": "/AI Film Серёгиус/Разное — референсы/q12-cards.png",
+          "size_bytes": 1942136,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s10-spectral.png",
+          "library_file_id": "libfile_aebddda93e0481918f34fede36686e4b",
+          "file_id": "file_000000002c4881f68e5e0e03dbce5e7f",
+          "path": "/AI Film Серёгиус/Разное — референсы/s10-spectral.png",
+          "size_bytes": 2957210,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q06-overhead.png",
+          "library_file_id": "libfile_75b4b6b52ac48191be152a9cf1f12b83",
+          "file_id": "file_00000000d49881f6802093c773ea5d72",
+          "path": "/AI Film Серёгиус/Разное — референсы/q06-overhead.png",
+          "size_bytes": 3454259,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q09-evening.png",
+          "library_file_id": "libfile_e23d3742811881919892d9a06dc1d45c",
+          "file_id": "file_00000000c804820d91f1c5189f1aca33",
+          "path": "/AI Film Серёгиус/Разное — референсы/q09-evening.png",
+          "size_bytes": 1330365,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q01-overhead.png",
+          "library_file_id": "libfile_ca3d35c59b80819199ccca98787c5159",
+          "file_id": "file_000000004df0820da27bb22da6466c31",
+          "path": "/AI Film Серёгиус/Разное — референсы/q01-overhead.png",
+          "size_bytes": 3281257,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s17-detail.png",
+          "library_file_id": "libfile_56cd9ccd1854819193284801efb3b625",
+          "file_id": "file_00000000b848820c9e53785c3fc907b0",
+          "path": "/AI Film Серёгиус/Разное — референсы/s17-detail.png",
+          "size_bytes": 2029225,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q17-context.png",
+          "library_file_id": "libfile_cabde674f60c8191bff6bcbf81b22003",
+          "file_id": "file_000000001614820c876f23edbf159f20",
+          "path": "/AI Film Серёгиус/Разное — референсы/q17-context.png",
+          "size_bytes": 2131876,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "q16-adjustment.png",
+          "library_file_id": "libfile_ce645108e7f8819185c93bb1b5eb3516",
+          "file_id": "file_0000000060b081f9a0c7c636bf9de507",
+          "path": "/AI Film Серёгиус/Разное — референсы/q16-adjustment.png",
+          "size_bytes": 1910382,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s07-map.png",
+          "library_file_id": "libfile_7564ae2392fc819198dbe898ba4a4f7e",
+          "file_id": "file_00000000a06081f7ab9b0e8aa99102fd",
+          "path": "/AI Film Серёгиус/Разное — референсы/s07-map.png",
+          "size_bytes": 3643168,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "06-power-corridor.png",
+          "library_file_id": "libfile_3e40f8ea9a9481919cc46b1b74073e38",
+          "file_id": "file_00000000b36481f790c1fd16a9ddfaca",
+          "path": "/AI Film Серёгиус/Разное — референсы/06-power-corridor.png",
+          "size_bytes": 3259527,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "01-earth-work.png",
+          "library_file_id": "libfile_4e0d0770e0a881918e37d0e558d8441b",
+          "file_id": "file_00000000ba2881f8abf69d2ca7a8ed12",
+          "path": "/AI Film Серёгиус/Разное — референсы/01-earth-work.png",
+          "size_bytes": 2904024,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s05-assembled.png",
+          "library_file_id": "libfile_b315c10393c481919ac9b51b2633356f",
+          "file_id": "file_00000000c08081f68ce008392acac8e2",
+          "path": "/AI Film Серёгиус/Разное — референсы/s05-assembled.png",
+          "size_bytes": 1986812,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s08-pair.png",
+          "library_file_id": "libfile_3435f3f859e48191ace87c07105e8a8f",
+          "file_id": "file_00000000acf081f7946fefd8d70a57f7",
+          "path": "/AI Film Серёгиус/Разное — референсы/s08-pair.png",
+          "size_bytes": 3855109,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s09-earth.png",
+          "library_file_id": "libfile_bed1345f91448191abac9f9ac6eb7aa7",
+          "file_id": "file_00000000f99881f5a62fe1b173c3c392",
+          "path": "/AI Film Серёгиус/Разное — референсы/s09-earth.png",
+          "size_bytes": 1453902,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "05-space-instrument.png",
+          "library_file_id": "libfile_92d406cd2b388191b56e51c225c6da4b",
+          "file_id": "file_00000000948081f79f2a8843d0073960",
+          "path": "/AI Film Серёгиус/Разное — референсы/05-space-instrument.png",
+          "size_bytes": 2237132,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s13-cubesat.png",
+          "library_file_id": "libfile_14f115b43fe8819185f4b7ee7a12116f",
+          "file_id": "file_00000000268881f598e969c6318c57b4",
+          "path": "/AI Film Серёгиус/Разное — референсы/s13-cubesat.png",
+          "size_bytes": 1921078,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s10-visible.png",
+          "library_file_id": "libfile_fe83ac46c0a88191a3634a2f1df2ed49",
+          "file_id": "file_000000003ab481f786125275e6fbb696",
+          "path": "/AI Film Серёгиус/Разное — референсы/s10-visible.png",
+          "size_bytes": 3023971,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s03-orbit.png",
+          "library_file_id": "libfile_1c3d0896ae30819180048efcb45154c0",
+          "file_id": "file_00000000784481f58278ff7586a60b5d",
+          "path": "/AI Film Серёгиус/Разное — референсы/s03-orbit.png",
+          "size_bytes": 2191649,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "04-mission-exhibit.png",
+          "library_file_id": "libfile_cf8d53c9e82c81918bd598ef2175f4e5",
+          "file_id": "file_000000007ed081f5b28103c69a800cac",
+          "path": "/AI Film Серёгиус/Разное — референсы/04-mission-exhibit.png",
+          "size_bytes": 1907568,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "02-stereo-relief.png",
+          "library_file_id": "libfile_f42d8b836d1081919ec2065b5a15d243",
+          "file_id": "file_00000000e9e881f7a25f0957a7394130",
+          "path": "/AI Film Серёгиус/Разное — референсы/02-stereo-relief.png",
+          "size_bytes": 2856786,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "08-land-memory.png",
+          "library_file_id": "libfile_ebfe6f245dcc81919bc5d42593a7f487",
+          "file_id": "file_0000000049ec81f7bac83b596b5f23b7",
+          "path": "/AI Film Серёгиус/Разное — референсы/08-land-memory.png",
+          "size_bytes": 2727540,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s02-flat.png",
+          "library_file_id": "libfile_8e3cf3b017b48191b3cc712c1d67ae8e",
+          "file_id": "file_000000003b7081f78adc6cf8cd435d7a",
+          "path": "/AI Film Серёгиус/Разное — референсы/s02-flat.png",
+          "size_bytes": 2675805,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s14-booth.png",
+          "library_file_id": "libfile_54b56e22a5b48191be98f9b96f5b6f4d",
+          "file_id": "file_000000005a7c81f7ae858780ebed210a",
+          "path": "/AI Film Серёгиус/Разное — референсы/s14-booth.png",
+          "size_bytes": 2119139,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "07-earth-operations.png",
+          "library_file_id": "libfile_f312d92e5ce0819185f25e9195e573c6",
+          "file_id": "file_00000000c64481f5a392f066231791f1",
+          "path": "/AI Film Серёгиус/Разное — референсы/07-earth-operations.png",
+          "size_bytes": 2720141,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s04-touch.png",
+          "library_file_id": "libfile_754efd6bebfc81918adb3f881a0a3bf3",
+          "file_id": "file_0000000055cc81f7b770680e31ba38bb",
+          "path": "/AI Film Серёгиус/Разное — референсы/s04-touch.png",
+          "size_bytes": 1876288,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s11-engineer.png",
+          "library_file_id": "libfile_86adf97806008191b6f780685339a2c1",
+          "file_id": "file_0000000014a881f5ad358186ccd485c9",
+          "path": "/AI Film Серёгиус/Разное — референсы/s11-engineer.png",
+          "size_bytes": 1913369,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "s12-consultation.png",
+          "library_file_id": "libfile_584ed715d0208191b085b555d3fa65c3",
+          "file_id": "file_00000000702081f5b0ec0b99e82e6f1a",
+          "path": "/AI Film Серёгиус/Разное — референсы/s12-consultation.png",
+          "size_bytes": 1871236,
+          "library_artifact_type": "image_gen"
+        },
+        {
+          "name": "03-small-satellite.png",
+          "library_file_id": "libfile_dd6a7e6d42e48191aea7cf6bb20506ff",
+          "file_id": "file_00000000e12881f5a2cfbcb134c4ad80",
+          "path": "/AI Film Серёгиус/Разное — референсы/03-small-satellite.png",
+          "size_bytes": 2096212,
+          "library_artifact_type": "image_gen"
+        }
+      ]
+    }
   },
   "completed_results_needing_qc": [
     {
@@ -81,10 +377,29 @@
     "receipt": "reports/topview-queue-2026-10-16/S58-SEED20-P1-20261023.json"
   },
   "remaining": [
-    "QC newly completed six original tasks; download/archive originals and extract true continuity ends",
-    "Prepare and launch ready42P2/57P2/47P2 according to fresh priority after QC",
-    "Continue authorized story;44 blocked invalid43 wing;52 requires owner chosen44",
-    "Keep dance owner gates and Raznoe hold",
-    "Reconcile two observed additional submissions without assuming initiator or repeating"
+    "Await four active renders; new S57P2/S47P2 are submitted, not completed.",
+    "Complete detailed QC of39P2/40P2/53P2/42P1; no audio audition claimed for57P1/47P1.",
+    "Reconcile materially different already-running S42P2 variant; do not submit a duplicate.",
+    "S58P2 awaits actual58P1;56 awaits valid42P2;48 awaits56.",
+    "S44 continuity invalid from43;52 awaits owner selection; dance batch stays gated; Raznoe stays paused."
+  ],
+  "owner_paid_attribution": {
+    "task_id": "0da875de0b384971836be2e3a05d0c0b",
+    "credits": 15,
+    "initiator": "owner",
+    "evidence": "Owner current chat: За кредиты я запускал",
+    "selection": "Preserved as alternate. Ends in empty wide avenue; not chosen for continuous P2."
+  },
+  "followup_submissions": [
+    {
+      "item_id": "S57-SEED20-P2",
+      "task_id": "af8e389dc9564607bc6138b408c72da5",
+      "credits": 0
+    },
+    {
+      "item_id": "S47-SEED20-P2",
+      "task_id": "56e5e07c85df4af583c62665c51ed563",
+      "credits": 0
+    }
   ]
 }
