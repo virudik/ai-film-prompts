@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "item_id": "S39-SEED20-P2",
+  "task_id": "7863a2b3e8e54ca8a5d37468fc77d49f",
+  "project": "seregius",
+  "submitted_at": "2026-10-23 00:34:28Z",
+  "verified_at": "2026-10-23T00:35:46.471Z",
+  "status": "init",
+  "source": "one Topview website Create click",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "credits_cost": 0,
+  "use_unlimited_mode": true,
+  "canonical_block_label": "39 · Seedance 2.0 часть 2",
+  "canonical_prompt_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
+  "normalized_prompt_sha256": "f56f817befcc3cd65621300515653cc5d03e352a4a9d1ed0a29eb39a157d763e",
+  "full_normalized_prompt_match": true,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/7TrJHr22MOPfbqJPFWKrP.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/HpUSRXe3JB3DxoiwS3Co1.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/fQaAcW47ZhN23L97PZJZ7.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/e4zwcaffIjjXZOOR4CArc.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/ZQL0LYlu9cp0RFfofz1m8.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera action comedy | Part 2 of 2: Serega strides down the ramp, glares at the abandoned fish crates and marches straight into the evening lake after the Jedi\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the last seconds of Part 1's result: the craft parked on the evening meadow beside the abandoned camp, hatch closed, the lake beside it. Absolute authority for the START STATE, the craft's position, the camp layout and the light.\n<<<Image1>>>  — absolute identity of SEREGA.\n<<<Image2>>>  — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; the city and the person on its roof are not part of the shot.\n<<<Image3>>>  — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Location layout and light only; remove the two runners.\n<<<Image4>>>  — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; remove the sleeping people, no night lighting, no lit fire.\n<<<Image5>>>  — Naboo landscape look: blue lake, green meadow, rounded trees, pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; the two fishermen are NOT part of the shot.\nPriority: <<<Video1>>>  controls the start; <<<Image1>>>  controls Serega's face and costume; <<<Image2>>>  controls the vehicle; <<<Image3>>>  controls the shore; <<<Image4>>>  and <<<Image5>>>  control the camp props.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<<<Image1>>>  is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry until he enters the water. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face is read in a medium shot with even warm light for at least two seconds.\n\nVEHICLE / CAMP LOCK — CRITICAL:\nThe same craft from <<<Image2>>>  and <<<Video1>>>  stays parked on the meadow in the same spot for the whole part; access only through its single side hatch with a short fold-down boarding ramp. The abandoned camp keeps its layout from <<<Video1>>> : dropped rods, the two fish-filled crates, a few empty brown bottles and a cold fire spot. No tents, tables, people or extra vehicles. No map, glowing module, hologram or any glowing object.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> : the craft parked on the evening meadow a short walk from the abandoned camp, hatch closed, the lake beside it.\n\nTIMELINE:\n[0:00–0:03] — HATCH AND RAMP\nContinuing <<<Video1>>>  without a cut, then pushing in: the side hatch opens with a hiss and the short boarding ramp drops onto the grass.\n\n[0:03–0:06] — STEPPING OUT\nCloser angle: Serega strides down the ramp without pausing, robe swinging, gives it one sharp tug straight and surveys the shore; medium shot on his cold, appraising face for two seconds.\n\n[0:06–0:10] — THE ABANDONED CAMP\nTracking alongside him at a brisk stride past the dropped rods, the overflowing fish crates and the empty bottles. He stops dead at the crates and looks down at the absurd pile of fish with completely deadpan disapproval, then snaps his eyes to the lake, where the last rings of the fishermen's dive are still spreading.\n\n[0:10–0:15] — INTO THE LAKE\nWithout breaking stride he walks straight into the lake in his robe: ankles, knees, waist, chest; the dark-purple fabric darkens and spreads on the surface. One sharp breath and he goes under. The surface closes, rings spread; the parked craft and the abandoned camp remain on the empty shore. Hold the wide final frame.\n\nEND STATE:\nAn empty evening lake with spreading rings where Serega went under; his craft parked on the meadow; the abandoned camp on the shore; nobody visible.\n\nCAMERA / SPACE:\nOne push-in on the hatch, one cut to the ramp, then a continuous brisk tracking shot at human scale that ends as a static wide on the lake for the submersion. Stable geography: lake on one side of frame, parked craft on the other, camp between them; the walk is a few dozen metres. No random handheld chaos.\n\nPERFORMANCE:\nCold, purposeful and fast: the fishermen fled in panic, he marches into the water with zero hesitation. His face stays serious; the disapproval is a tiny movement of the eyes, not a gesture to the camera. He strides, he never runs. No speech, no smile.\n\nLIGHTING / MATERIALS:\nWarm low evening sun matching <<<Image3>>>  and <<<Video1>>> , long shadows across the meadow, soft reflections on the lake, engine heat shimmer fading. Glistening fish scales, wet grass, dry robe fabric turning dark and heavy as it soaks.\n\nAUDIO:\nHatch hiss, ramp clank, quick footsteps on metal then grass, flies buzzing over the fish crates, distant birdsong, lapping water, the robe dragging through the water, one sharp inhale, the water closing overhead. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\nfishermen, Jedi, any other person, Gungans, new or different ship design, second ship, ship moving or taking off, map module, glowing object, hologram, scuba gear, diving mask, breathing apparatus, running, jumping, diving splash, swimming strokes, night sky, rain, comedy mugging, speaking, melting or blurred face, changed face or robe, cartoon CGI, subtitles, text, logo, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/WwxKc7jP8EkrgNDYrwfG7.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "7863a2b3e8e54ca8a5d37468fc77d49f",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "inputs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S39-SEED20-P1",
+      "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+      "path": "references/scenes/scene-39/S39-P1-last3s-20261023.mp4",
+      "sha256": "c6d5050db37391441241f47cfedbc16498f9cdf687459e93823631e1ed2a1191",
+      "duration_seconds": 3,
+      "source_task_id": "008058a4705c45c089256116427153d4",
+      "source_archive_file_id": "14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk",
+      "source_range_seconds": [
+        12.041666666666666,
+        15.041666666666666
+      ],
+      "qc_status": "usable_continuity_input_not_editorial_approval",
+      "provenance_report": "reports/topview-quality-2026-10-23/S39-SEED20-P1-review.json"
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/full/serega.jpg",
+      "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/scenes/scene-37/S37-ship-source-part1-09m03s.png",
+      "sha256": "762ec9e10fbe79b1d985efb600bc961759f09a3b516a4dff1cddf80e677240ba",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-39/S39-shore-film-part2-14m27s.png",
+      "sha256": "9d923be315fdc6f68a8b11c3b72d4843405e4ea1cf7af1954529302d13ca8b51",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-39/S39-camp-film-part2-14m16s.png",
+      "sha256": "9ff37a92265bb8fba12680fb55096bc7e59e6b7f4b6bfbd1972e0974407f31e3",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-19/S19-Image1-topview-source.png",
+      "sha256": "8fbe5bfdf1dbb108ce7b8b0f82a12069534f75f102a815faba9bd59230334693",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "ui_evidence": "reports/evidence/S39-P2-submitted-20261023.jpg",
+  "artistic_approval": false
+}
