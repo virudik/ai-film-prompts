@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-10-23T22:18:27Z",
-  "status": "warn",
-  "warnings": 1,
-  "info": 5,
+  "checked_at": "2026-10-23T22:21:16Z",
+  "status": "ok",
+  "warnings": 0,
+  "info": 4,
   "rules": "scripts/canon_health.py; проверка ежедневно и при каждом изменении main. Устаревание по состоянию проекта, даты только сигнал. Чистку делает ChatGPT по предупреждению или в воскресенье 08:55 МСК.",
   "problems": [
     {
@@ -27,20 +27,8 @@
     {
       "level": "info",
       "code": "ops-unchecked",
-      "text": "ops/TOPVIEW-EVENT-WAKE.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
-      "file": "ops/TOPVIEW-EVENT-WAKE.md"
-    },
-    {
-      "level": "info",
-      "code": "ops-unchecked",
       "text": "ops/dance-model-comparison.md: в шапке нет строки «Статус: … Проверено: дд.мм.гггг». Нужен — проверить и поставить дату, не нужен — в archive/ops/.",
       "file": "ops/dance-model-comparison.md"
-    },
-    {
-      "level": "warn",
-      "code": "service-file-size",
-      "text": "work-resume-register.json: 100 КБ (предел 100 КБ): старые записи перенести в архив — python3 scripts/trim_service_files.py . --write (раздел хендофа «Как чистить», п. 8).",
-      "file": "work-resume-register.json"
     }
   ]
 }
