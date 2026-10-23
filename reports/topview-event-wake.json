@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:32:08.492Z",
-  "status": "sender_filter_isolation_test_pending",
+  "updated_at": "2026-10-23T22:41:04.274Z",
+  "status": "renewed_subscription_test_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
-  "test_id": "wake-subject-20261023-1792794728492",
+  "test_id": "wake-renew-20261023-1792795264274",
   "test_ack": null,
   "events": [],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
   "verification": {
     "checked_by": "interactive_chatgpt",
-    "checked_at": "2026-10-23T22:32:08.492Z",
+    "checked_at": "2026-10-23T22:41:04.274Z",
     "event_run_confirmed": false,
     "new_submissions": 0
   },
@@ -62,6 +62,17 @@
         "event_latest_result": null,
         "new_submissions": 0
       }
+    },
+    {
+      "test_id": "wake-subject-20261023-1792794728492",
+      "verification": {
+        "comment_id": 6376047593,
+        "comment_created_at": "2026-10-23T22:32:34Z",
+        "email_message_id": "1a16ae55510b8f29",
+        "email_received_at": "2026-10-23T22:32:56Z",
+        "event_run_confirmed": false,
+        "new_submissions": 0
+      }
     }
   ],
   "trigger_filters": [
@@ -69,7 +80,7 @@
       "connector_id": "connector_2128aebfecb84f64a069897515042a44",
       "event": "message",
       "params": {
-        "subject_match": "(?i)^(?:Re:\\s*)?\\[virudik/ai-film-prompts\\]\\s+Topview: события робота.*\\(Issue #18\\)$"
+        "subject_match": "^Re: \\[virudik/ai-film-prompts\\] Topview: события робота \\(результаты, слоты, сбои\\) \\(Issue #18\\)$"
       }
     }
   ],
@@ -82,5 +93,16 @@
   "manual_run_now": {
     "at": "2026-10-23T22:30:54.051Z",
     "reason": "Run now is available only for ordinary cloud-scheduled tasks."
+  },
+  "runtime_diagnostics": {
+    "manual_run_now": "Unsupported for event-triggered task (tool error and UI disabled).",
+    "ui_login": "Authenticated via secure Google handoff; UI confirms enabled Gmail trigger and exact subject.",
+    "context": "Original task executes in current conversation; no editable execution-mode switch.",
+    "standalone_attempt": {
+      "automation_id": "6adbe1e7057c8190a5500374c9816975",
+      "state": "disabled",
+      "result": "Task service twice rejected conversion to event trigger. Readback confirmed unchanged schedule. Test disabled; never ran.",
+      "note": "Updating standalone through automation tool also bound conversation_id to current chat; no further standalone tests without supported route."
+    }
   }
 }

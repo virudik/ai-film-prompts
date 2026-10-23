@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "test_id": "wake-subject-20261023-1792794728492",
+  "test_id": "wake-renew-20261023-1792795264274",
   "read_only": true,
-  "requested_at": "2026-10-23T22:32:08.492Z",
+  "requested_at": "2026-10-23T22:41:04.274Z",
   "expected_new_submissions": 0,
   "issue_number": 18,
   "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
-  "reason": "Isolate exact-address sender matching; subject remains scoped to repository issue18; handler verifies actual sender. No video."
+  "reason": "Verify pause/resume event subscription and simple exact observed subject regex; no video"
 }
