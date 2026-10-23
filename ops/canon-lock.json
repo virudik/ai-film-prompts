@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "state": "released",
-  "holder": null,
-  "task": "Owner23Oct authorize52/28/49/50/51; fill free Unlimited slots",
-  "acquired_at": "2026-10-23T01:46:25.229Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T02:00:54.604Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Owner priority52P2/58P2; fallback28/49/50/51 and dance QC",
+  "acquired_at": "2026-10-23T02:19:53.122Z",
+  "expires_at": "2026-10-23T03:04:53.122Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md",
   "last_holder": "chatgpt"
 }
