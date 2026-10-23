@@ -1,28 +1,17 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:27:51.191Z",
-  "status": "mail_delivery_verified_event_run_unconfirmed",
+  "updated_at": "2026-10-23T22:32:08.492Z",
+  "status": "sender_filter_isolation_test_pending",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
-  "test_id": "wake-source-20261023-1792794282988",
+  "test_id": "wake-subject-20261023-1792794728492",
   "test_ack": null,
   "events": [],
   "implementation_commit": "77e2ef35b380d7e6f0e1f8bb949ac11f79e86f0e",
   "verification": {
     "checked_by": "interactive_chatgpt",
-    "checked_at": "2026-10-23T22:27:51.191Z",
-    "offline_tests_passed": 30,
-    "integration_run_id": 40032704173,
-    "canon_health_run_id": 40033440831,
-    "test_workflow_run_id": 40033440836,
-    "comment_id": 6375949642,
-    "comment_created_at": "2026-10-23T22:25:14Z",
-    "email_message_id": "1a16ade9dad3d27a",
-    "email_received_at": "2026-10-23T22:25:36Z",
-    "email_matches_test_and_comment": true,
+    "checked_at": "2026-10-23T22:32:08.492Z",
     "event_run_confirmed": false,
-    "event_last_run": null,
-    "event_latest_result": null,
     "new_submissions": 0
   },
   "previous_tests": [
@@ -53,6 +42,26 @@
         "event_run_confirmed": false,
         "new_submissions": 0
       }
+    },
+    {
+      "test_id": "wake-source-20261023-1792794282988",
+      "verification": {
+        "checked_by": "interactive_chatgpt",
+        "checked_at": "2026-10-23T22:27:51.191Z",
+        "offline_tests_passed": 30,
+        "integration_run_id": 40032704173,
+        "canon_health_run_id": 40033440831,
+        "test_workflow_run_id": 40033440836,
+        "comment_id": 6375949642,
+        "comment_created_at": "2026-10-23T22:25:14Z",
+        "email_message_id": "1a16ade9dad3d27a",
+        "email_received_at": "2026-10-23T22:25:36Z",
+        "email_matches_test_and_comment": true,
+        "event_run_confirmed": false,
+        "event_last_run": null,
+        "event_latest_result": null,
+        "new_submissions": 0
+      }
     }
   ],
   "trigger_filters": [
@@ -60,7 +69,6 @@
       "connector_id": "connector_2128aebfecb84f64a069897515042a44",
       "event": "message",
       "params": {
-        "from_match": "(?i)^notifications@github\\.com$",
         "subject_match": "(?i)^(?:Re:\\s*)?\\[virudik/ai-film-prompts\\]\\s+Topview: события робота.*\\(Issue #18\\)$"
       }
     }
@@ -70,5 +78,9 @@
     "evidence": "Three bot test comments and their Gmail deliveries verified; automation enabled with exact sender/subject filters and explicit connected Gmail source. No recorded event execution or test_ack as of checked_at.",
     "cause": "not established",
     "fallback": "Existing hourly automation remains enabled, unchanged."
+  },
+  "manual_run_now": {
+    "at": "2026-10-23T22:30:54.051Z",
+    "reason": "Run now is available only for ordinary cloud-scheduled tasks."
   }
 }

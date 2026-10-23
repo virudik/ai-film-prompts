@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "test_id": "wake-source-20261023-1792794282988",
+  "test_id": "wake-subject-20261023-1792794728492",
   "read_only": true,
-  "requested_at": "2026-10-23T22:24:42.988Z",
+  "requested_at": "2026-10-23T22:32:08.492Z",
   "expected_new_submissions": 0,
   "issue_number": 18,
   "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
-  "reason": "Final test after explicit Gmail connector binding; no video"
+  "reason": "Isolate exact-address sender matching; subject remains scoped to repository issue18; handler verifies actual sender. No video."
 }
