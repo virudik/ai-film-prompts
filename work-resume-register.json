@@ -1,8 +1,29 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T22:06:44.749Z",
+  "last_updated_at": "2026-10-23T22:17:56.125Z",
   "active_work": [
+    {
+      "work_id": "TOPVIEW-EVENT-WAKE-20261023",
+      "title": "Сигнал от 10-минутного робота + часовая страховка",
+      "status": "implementation_published_test_pending",
+      "updated_at": "2026-10-23T22:17:56.125Z",
+      "owner_quote": "Сохранив как подстраховку часовую проверку попробуй реализовать данную 10 минутную",
+      "completed": [
+        "Created one Gmail event automation with no periodic schedule; existing hourly fallback verified enabled and unchanged.",
+        "Added wake marker and owner mention only to verified post-publish result notifications when global slots are free.",
+        "30 offline tests passed; read-only bot test workflow prepared."
+      ],
+      "next_action": "Verify bot test comment -> actual Gmail message -> recorded event run -> test_ack; do not claim working from configuration alone. No video in test.",
+      "automation_id": "6adbdbedfb388191ad24e3294eba29bd",
+      "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
+      "test_id": "wake-20261023-1792793840600",
+      "canonical_refs": [
+        "ops/TOPVIEW-EVENT-WAKE.md",
+        "reports/topview-event-wake.json"
+      ],
+      "new_submissions": 0
+    },
     {
       "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
       "title": "Заполнение свободных Topview-слотов — задача №1",

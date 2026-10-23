@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "test_id": "wake-20261023-1792793840600",
+  "read_only": true,
+  "requested_at": "2026-10-23T22:17:20.600Z",
+  "expected_new_submissions": 0,
+  "issue_number": 18,
+  "automation_id": "6adbdbedfb388191ad24e3294eba29bd"
+}

@@ -330,7 +330,7 @@ def plan_cycle(scan, root, now, *, resolver=None, project_resolver=None):
                                "finished_utc": utc_label(p.get("finished_at") or p.get("completed_at"))})
     plan["occupied_slots"] = len(cur)      # physical Topview occupancy, not a count of master rows
     for f in finished:
-        free = max(0, 6 - len(cur))
+        free = max(0, 6 - len(cur) - len(foreign))
         events.append({"kind": "result", "key": "result:" + f["task_id"], "task_id": f["task_id"],
                        "title": f"Сцена {f['scene_id']}: технический результат {f['final_status']}",
                        "text": f"Сцена {f['scene_id']}, задача `{f['task_id']}`: `{f['final_status']}`. "
@@ -599,6 +599,21 @@ def mark_notified(root, keys):
     path.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def published_event_text(event, plan):
+    """Only verified published results may wake ChatGPT; the handler rescans before launch."""
+    text = event["text"]
+    if plan["decision"] != "publish" or event["kind"] != "result":
+        return text
+    occupied = len(plan["cycle"]["active"]) + len((plan.get("projects") or {}).get("active", []))
+    free = max(0, 6 - occupied)
+    if not free:
+        return text
+    return text + (f"\n\n@virudik — подтверждён свободный слот; проверить свежую очередь.\n"
+                   f"TOPVIEW_SLOT_WAKE_V1\nevent_id: {event['key']}\n"
+                   f"observed_at: {plan['cycle']['checked_at']}\nfree_slots_global: {free}\n"
+                   "Сигнал не является разрешением на оплату или одобрением качества.")
+
+
 def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
     root = Path(root)
     started = now_z(now)
@@ -712,7 +727,7 @@ def run_on(root, scan, git, *, now, resolver, notifier, project_resolver=None):
             print("::error title=robot-telemetry::commit not found on origin/main after push")
             return 1
         for e in fresh:
-            notifier.post(e["title"], e["text"])
+            notifier.post(e["title"], published_event_text(e, plan))
         print(f"::notice title=robot-telemetry::published {summary}; commit {commit[:7]}")
         return 0
     print("::error title=robot-telemetry::push rejected 4 times; will retry next run")

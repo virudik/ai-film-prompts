@@ -294,6 +294,8 @@ class PublishTests(Base):
         self.assertIn("Технический результат получен", (self.work / "video-prompts.md").read_text(encoding="utf-8"))
         self.assertEqual(len(self.n.posts), 1)
         self.assertIn("Сцена 30", self.n.posts[0][0])
+        self.assertIn("TOPVIEW_SLOT_WAKE_V1", self.n.posts[0][1])
+        self.assertIn("@virudik", self.n.posts[0][1])
         # same scan again: nothing new to publish or announce
         before = self.head()
         self.assertEqual(self.go(scan([], fin), now=datetime(2026, 10, 11, 12, 5, tzinfo=timezone.utc)), 0)

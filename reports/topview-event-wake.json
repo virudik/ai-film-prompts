@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-23T22:17:20.600Z",
+  "status": "awaiting_end_to_end_test",
+  "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
+  "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
+  "test_id": "wake-20261023-1792793840600",
+  "test_ack": null,
+  "events": []
+}

@@ -1,0 +1,52 @@
+name: Topview event wake (read-only delivery test)
+
+on:
+  push:
+    branches: [main]
+    paths: [ops/topview-wake-test.json]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: topview-event-wake-test
+  cancel-in-progress: false
+
+jobs:
+  signal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Post one bot test signal, without accessing Topview
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          cfg = json.loads(Path('ops/topview-wake-test.json').read_text())
+          assert cfg['enabled'] is True and cfg['read_only'] is True
+          test_id = cfg['test_id']
+          assert re.fullmatch(r'[A-Za-z0-9_-]{8,80}', test_id)
+          endpoint = 'repos/virudik/ai-film-prompts/issues/18/comments'
+          marker = 'TOPVIEW_WAKE_TEST_V1\ntest_id: ' + test_id
+          pages = json.loads(subprocess.run(
+              ['gh', 'api', '--paginate', '--slurp', endpoint + '?per_page=100'],
+              check=True, capture_output=True, text=True).stdout)
+          if any(marker in c.get('body', '') and c['user']['login'] == 'github-actions[bot]'
+                 for page in pages for c in page):
+              print('This test signal already exists; no duplicate.')
+          else:
+              body = ('**Тест событийного запуска — это не сигнал свободного слота**\n\n'
+                      '@virudik — проверка доставки уведомления и пробуждения ChatGPT.\n\n'
+                      + marker + '\nread_only: true\nnew_submissions: 0\n\n'
+                      'Не создавать видео, не занимать слот, не менять очередь. '
+                      'Ожидается только проверка доставки и ACK по ops/TOPVIEW-EVENT-WAKE.md.')
+              result = subprocess.run(['gh', 'api', endpoint, '--method', 'POST', '--input', '-'],
+                                      input=json.dumps({'body': body}), check=True, capture_output=True, text=True)
+              print('Test comment:', json.loads(result.stdout)['html_url'])
+          PY
