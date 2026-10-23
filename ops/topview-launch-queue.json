@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T21:52:22.645409Z",
+  "updated_at": "2026-10-23T21:54:39.423Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5640,7 +5640,7 @@
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "normalized_prompt_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
       "priority": 0.1,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5729,7 +5729,46 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "S58-P2-20261023-1792792479423",
+        "claimed_by": "chatgpt",
+        "claimed_at": "2026-10-23T21:54:39.423Z",
+        "scope": "one website Unlimited0 submission",
+        "preflight_full_scan": {
+          "at": "2026-10-23T21:54:38.545Z",
+          "boards": 13,
+          "pages": 19,
+          "tasks": 933,
+          "active": [
+            {
+              "id": "8a8eadc809004e318c47201b8a463be0",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+              "status": "init"
+            },
+            {
+              "id": "4b7b972870a44dfbb29bd6c5e330a633",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+              "status": "init"
+            },
+            {
+              "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+              "status": "init"
+            },
+            {
+              "id": "56e5e07c85df4af583c62665c51ed563",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+              "status": "init"
+            },
+            {
+              "id": "af8e389dc9564607bc6138b408c72da5",
+              "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+              "status": "init"
+            }
+          ],
+          "duplicates": []
+        }
+      },
       "authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался». One free attempt per item, website Unlimited 0 credits only; no automatic retry or approval. Action scene → Seedance 2.0 two 15 s parts by default (owner rule 18.10 03:09).",
       "blocker": null,
       "launch_readiness": "authorized_inputs_available",
