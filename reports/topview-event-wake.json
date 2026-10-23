@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-23T22:44:49.765Z",
+  "updated_at": "2026-10-23T22:55:20.823Z",
   "status": "blocked_event_execution_unconfirmed",
   "event_automation_id": "6adbdbedfb388191ad24e3294eba29bd",
   "hourly_fallback_id": "6acae6ab433481919e88665c520b8ef2",
@@ -123,5 +123,35 @@
     "scheduled_for": "2026-10-23T21:55:00Z",
     "completed_at": "2026-10-23T22:01:16.280862Z",
     "recorded_status": "completed"
+  },
+  "alternatives_check": {
+    "checked_at": "2026-10-23T22:55:20.823Z",
+    "slack": {
+      "catalog_available": true,
+      "installed": false,
+      "connected_event_sources": [
+        "GitHub",
+        "Gmail"
+      ],
+      "installation_suggested": true,
+      "live_test": "not_run",
+      "next_step": "Install and authorize Slack; identify intended channel; verify @ChatGPT membership, actual event schema and bot-message delivery before read-only test."
+    },
+    "custom_mcp_events": {
+      "officially_documented": true,
+      "protocol": "MCP 2.0 / 2026-07-28",
+      "requires": "Authenticated MCP endpoint, persistent subscription state, signed outbound webhook delivery, custom plugin connection and actual subscription.",
+      "account_ui_verified": false,
+      "live_test": "not_run",
+      "browser_blocker": "Connected Chrome rejected https://chatgpt.com/plugins: host restrictions did not grant network egress. No alternate browser or indirect route attempted.",
+      "next_step": "Verify Add custom MCP server availability in account UI, then implement minimal diagnostic-only endpoint and test discovery -> subscription -> callback verification -> event -> actual handler ACK.",
+      "documentation": [
+        "https://developers.openai.com/plugins/build/mcp-events",
+        "https://developers.openai.com/plugins/deploy/connect-chatgpt"
+      ]
+    },
+    "conclusion": "Both routes still depend on ChatGPT event execution; removing Gmail does not establish that the execution blocker is resolved.",
+    "new_automations": 0,
+    "new_submissions": 0
   }
 }
