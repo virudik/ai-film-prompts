@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-23T01:33:01.483Z",
+  "method": "Full 15s sampled at 2fps plus final video frame at14.95s and ffprobe. No audio audition; no owner acceptance implied.",
+  "owner_paid_run": {
+    "task_id": "0da875de0b384971836be2e3a05d0c0b",
+    "credits": 15,
+    "initiator": "owner",
+    "evidence": "Owner current chat: За кредиты я запускал",
+    "selection": "Preserved as alternate. Ends in empty wide avenue; not chosen for continuous P2."
+  },
+  "results": [
+    {
+      "scene_id": 57,
+      "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "assistant_visual_score": 3.5,
+      "score_scale": 5,
+      "continuity": "usable",
+      "positives": [
+        "Ship stays one piece and identifiable; cats retain cockpit positions.",
+        "Actual end shows ship sliding on the avenue beside intact outstretched statue arm."
+      ],
+      "limitations": [
+        "Domino chain is weak; final view is frontal rather than side.",
+        "Right-nacelle flame/smoke is not clearly sustained in final dusty frontal view."
+      ],
+      "owner_approval": false,
+      "video_ref": {
+        "slot": "@Video1",
+        "path": "references/scenes/scene-57/S57-P1-last3s-20261023.mp4",
+        "sha256": "648566d6279cd238848816f160973940714126d0a7fa3292664665537e3361ed",
+        "required": true,
+        "canonical_role": "previous_part_end",
+        "input_status": "available",
+        "source_item_id": "S57-SEED20-P1",
+        "source_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+        "trim": {
+          "start_seconds": 12,
+          "end_seconds": 15,
+          "frames": 72,
+          "fps": 24
+        },
+        "source_original_library_file_id": "libfile_9ad606b73ad88191ac415a6bbca617bc",
+        "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+      },
+      "end_frame": {
+        "path": "references/scenes/scene-57/S57-P1-end-20261023.jpg",
+        "sha256": "ce64b22a04a311c75c06c2d7cad411d387d78e44963795342e1314c48cafe9b2"
+      }
+    },
+    {
+      "scene_id": 47,
+      "task_id": "2175458eede64d0881ad70897155459a",
+      "assistant_visual_score": 4,
+      "score_scale": 5,
+      "continuity": "usable",
+      "positives": [
+        "Red dot is singular; cats end crouched with dropped unlit hilts.",
+        "Ryzhik screen-left / Luchik screen-right, existing arch retained."
+      ],
+      "limitations": [
+        "Scale looks enlarged in a few mid shots; final feline posture is usable.",
+        "Final close frame crops Serega above robe; face continuity relies on locked identity refs."
+      ],
+      "owner_approval": false,
+      "video_ref": {
+        "slot": "@Video1",
+        "path": "references/scenes/scene-47/S47-P1-last3s-20261023.mp4",
+        "sha256": "73c05159693a00a9a2cb36da2941eba87d95e76cd15385295f58d3343967bb62",
+        "required": true,
+        "canonical_role": "previous_part_end",
+        "input_status": "available",
+        "source_item_id": "S47-SEED20-P1",
+        "source_task_id": "2175458eede64d0881ad70897155459a",
+        "trim": {
+          "start_seconds": 12,
+          "end_seconds": 15,
+          "frames": 72,
+          "fps": 24
+        },
+        "source_original_library_file_id": "libfile_8dbe05ca44c4819183f5263931d29b42",
+        "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+      },
+      "end_frame": {
+        "path": "references/scenes/scene-47/S47-P1-end-20261023.jpg",
+        "sha256": "27fd6806c29b2c2c4714a3d230672fd57830c2c5f1159de07a438c881966715b"
+      }
+    }
+  ]
+}

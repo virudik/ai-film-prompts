@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 47,
-  "updated_at": "2026-10-16T22:26:26.018487+00:00",
+  "updated_at": "2026-10-23T01:33:01.483Z",
   "authority": "Derived index; current GitHub main master and individual sheets remain authoritative.",
   "status": "ready",
   "references": [
@@ -184,7 +184,26 @@
   "pose_composition_helpers": [
     "references/scenes/scene-27/S27-three-subject-scale.png"
   ],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-47/S47-P1-last3s-20261023.mp4",
+      "sha256": "73c05159693a00a9a2cb36da2941eba87d95e76cd15385295f58d3343967bb62",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S47-SEED20-P1",
+      "source_task_id": "2175458eede64d0881ad70897155459a",
+      "trim": {
+        "start_seconds": 12,
+        "end_seconds": 15,
+        "frames": 72,
+        "fps": 24
+      },
+      "source_original_library_file_id": "libfile_8dbe05ca44c4819183f5263931d29b42",
+      "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+    }
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": {
@@ -265,5 +284,43 @@
   ],
   "drive_folder_id": null,
   "note": "Owner authorized preparation and one unlimited website launch on 16.10.2026. Assistant QC is not editorial approval.",
-  "canonical_master_sha256": "a6f775aa49de6ca2fa5b24e98b57ad1ebd795141bc997af0265a1abbc02def55"
+  "canonical_master_sha256": "a6f775aa49de6ca2fa5b24e98b57ad1ebd795141bc997af0265a1abbc02def55",
+  "continuation_qc_20261023": {
+    "scene_id": 47,
+    "task_id": "2175458eede64d0881ad70897155459a",
+    "assistant_visual_score": 4,
+    "score_scale": 5,
+    "continuity": "usable",
+    "positives": [
+      "Red dot is singular; cats end crouched with dropped unlit hilts.",
+      "Ryzhik screen-left / Luchik screen-right, existing arch retained."
+    ],
+    "limitations": [
+      "Scale looks enlarged in a few mid shots; final feline posture is usable.",
+      "Final close frame crops Serega above robe; face continuity relies on locked identity refs."
+    ],
+    "owner_approval": false,
+    "video_ref": {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-47/S47-P1-last3s-20261023.mp4",
+      "sha256": "73c05159693a00a9a2cb36da2941eba87d95e76cd15385295f58d3343967bb62",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S47-SEED20-P1",
+      "source_task_id": "2175458eede64d0881ad70897155459a",
+      "trim": {
+        "start_seconds": 12,
+        "end_seconds": 15,
+        "frames": 72,
+        "fps": 24
+      },
+      "source_original_library_file_id": "libfile_8dbe05ca44c4819183f5263931d29b42",
+      "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+    },
+    "end_frame": {
+      "path": "references/scenes/scene-47/S47-P1-end-20261023.jpg",
+      "sha256": "27fd6806c29b2c2c4714a3d230672fd57830c2c5f1159de07a438c881966715b"
+    }
+  }
 }

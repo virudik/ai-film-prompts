@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 57,
-  "updated_at": "2026-10-20T00:32:46.672587Z",
+  "updated_at": "2026-10-23T01:33:01.483Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "reference_images_ready",
   "references": [
@@ -148,7 +148,26 @@
   "start_frame": null,
   "end_frame": null,
   "pose_composition_helpers": [],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-57/S57-P1-last3s-20261023.mp4",
+      "sha256": "648566d6279cd238848816f160973940714126d0a7fa3292664665537e3361ed",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S57-SEED20-P1",
+      "source_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "trim": {
+        "start_seconds": 12,
+        "end_seconds": 15,
+        "frames": 72,
+        "fps": 24
+      },
+      "source_original_library_file_id": "libfile_9ad606b73ad88191ac415a6bbca617bc",
+      "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+    }
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": null,
@@ -350,5 +369,43 @@
     ],
     "not_required_in_current_prompt": true,
     "note": "Current scene uses front cockpit shots; use original S24 cabin and individual cat identities. This small historical helper is not substituted for a full input."
+  },
+  "continuation_qc_20261023": {
+    "scene_id": 57,
+    "task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+    "assistant_visual_score": 3.5,
+    "score_scale": 5,
+    "continuity": "usable",
+    "positives": [
+      "Ship stays one piece and identifiable; cats retain cockpit positions.",
+      "Actual end shows ship sliding on the avenue beside intact outstretched statue arm."
+    ],
+    "limitations": [
+      "Domino chain is weak; final view is frontal rather than side.",
+      "Right-nacelle flame/smoke is not clearly sustained in final dusty frontal view."
+    ],
+    "owner_approval": false,
+    "video_ref": {
+      "slot": "@Video1",
+      "path": "references/scenes/scene-57/S57-P1-last3s-20261023.mp4",
+      "sha256": "648566d6279cd238848816f160973940714126d0a7fa3292664665537e3361ed",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S57-SEED20-P1",
+      "source_task_id": "20bf2d185da546aa8aba3b1d4508d0d8",
+      "trim": {
+        "start_seconds": 12,
+        "end_seconds": 15,
+        "frames": 72,
+        "fps": 24
+      },
+      "source_original_library_file_id": "libfile_9ad606b73ad88191ac415a6bbca617bc",
+      "qc_report": "reports/topview-quality-2026-10-23/S57-S47-continuity.json"
+    },
+    "end_frame": {
+      "path": "references/scenes/scene-57/S57-P1-end-20261023.jpg",
+      "sha256": "ce64b22a04a311c75c06c2d7cad411d387d78e44963795342e1314c48cafe9b2"
+    }
   }
 }
