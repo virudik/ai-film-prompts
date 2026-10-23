@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T01:51:09.796Z",
+  "updated_at": "2026-10-23T01:53:41.034Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -5230,7 +5230,7 @@
       "canonical_prompt_sha256": "f77f5ee9a8174c1d296b6fd5806b971103d3f5a18c987323d2c03bacff03cc7e",
       "normalized_prompt_sha256": "4fd3797b496a9a4b3fc068a4d91cc634008fce823ce3ef15c1e2e571114270fe",
       "priority": 20,
-      "state": "waiting_for_slot",
+      "state": "claimed",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5301,7 +5301,61 @@
         }
       ],
       "task_id": null,
-      "claim": null,
+      "claim": {
+        "run_id": "EXPAND-20261023-S52P1",
+        "claimed_at": "2026-10-23T01:53:41.034Z",
+        "holder": "chatgpt",
+        "preflight": {
+          "global_scan": {
+            "at": "2026-10-23T01:53:41.027Z",
+            "boards": 13,
+            "pages": 19,
+            "total": 930,
+            "scan_complete": true,
+            "inventory_change": "Removed empty board1a660... absent from fresh listing; new boardc934... scanned.",
+            "active": [
+              {
+                "id": "56e5e07c85df4af583c62665c51ed563",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "af8e389dc9564607bc6138b408c72da5",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "6598a21c2c684d43b7cede9cfc987107",
+                "status": "init",
+                "credits": 0
+              },
+              {
+                "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+                "status": "init",
+                "credits": 0
+              }
+            ]
+          },
+          "full_normalized_prompt_match": true,
+          "input_hashes_verified": true,
+          "input_order": [
+            "Video1",
+            "Image1",
+            "Image2",
+            "Image3",
+            "Image4",
+            "Image5"
+          ],
+          "model": "Seedance 2.0",
+          "duration": 15,
+          "resolution": 720,
+          "aspect_ratio": "16:9",
+          "quantity": 1,
+          "useUnlimitMode": true,
+          "credits": 0,
+          "owner_decisions_open": 0
+        }
+      },
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry. Owner23Oct2026 explicitly authorizes this selected scene now; see owner_instruction_20261023_music_launch.",
       "replaces_unsubmitted_item": "S52",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
