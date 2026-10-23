@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-23T00:50:35.353Z",
+  "source": "Direct owner message 2026-10-23",
+  "quote": "Запускай корабль, если сцена ждёт результат предыдущей то можно запускать следующую на очереди при свободном слоте. Зафиксируй это правило",
+  "rule": "When a queued scene awaits an actual preceding result, keep its real input dependency and use a free slot for the next genuinely ready authorized scene by existing priority. A blocked scene does not reserve an idle slot.",
+  "explicit_launch": "S57-SEED20-P1",
+  "supersedes": "20Oct19:37 blanket ordering hold on57/58 until every worm part has been submitted",
+  "preserve": [
+    "existing relative priorities",
+    "actual Video1 dependencies and QC",
+    "owner approval / dance review gates",
+    "one free attempt per item; no paid or automatic retries",
+    "Raznoe paused_by_owner; only Seregius launch scope"
+  ],
+  "affected_items": [
+    "S57-SEED20-P1",
+    "S57-SEED20-P2",
+    "S58-SEED20-P1",
+    "S58-SEED20-P2"
+  ]
+}
