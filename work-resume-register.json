@@ -1,8 +1,28 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T21:56:52.739Z",
+  "last_updated_at": "2026-10-23T22:06:44.749Z",
   "active_work": [
+    {
+      "work_id": "TOPVIEW-SLOT-PRIORITY-20261024",
+      "title": "Заполнение свободных Topview-слотов — задача №1",
+      "status": "standing_priority_active",
+      "updated_at": "2026-10-23T22:06:44.749Z",
+      "owner_quote": "Вот за этим следить надо тщательно. Задача номер один",
+      "completed": [
+        "Updated existing automation6acae6ab433481919e88665c520b8ef2 prompt; enabled and hourly HH:55 Europe/Moscow schedule preserved; no new task.",
+        "Recorded priority in launch runbook and continuation protocol; maintain all duplicate/credit/continuity/lock checks.",
+        "Last recorded cycle b35af063-1de0-832c-b342-f00da9fb5c6e completed22:01:16UTC, confirmed6active and existing58P2; did not itself submit58P2."
+      ],
+      "next_action": "First check global slots and fill every available slot with authorized ready items. While6occupied prepare real continuity inputs by priority, currently42P2 has source success awaiting preparation/QC. Check current state before action; do not launch twice or promise instant background polling.",
+      "canonical_refs": [
+        "ops/TOPVIEW-FREE-LAUNCH.md",
+        "ops/CONTINUE-PROTOCOL.md"
+      ],
+      "automation_id": "6acae6ab433481919e88665c520b8ef2",
+      "automation_schedule": "hourly HH:55 Europe/Moscow",
+      "new_automations": 0
+    },
     {
       "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
       "title": "Сцена58 часть2 — настоящий стык подготовлен, Unlimited0 отправлена",

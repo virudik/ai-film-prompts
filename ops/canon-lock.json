@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "free",
   "holder": "chatgpt",
   "task": "Record owner number-one priority: promptly fill free Topview slots",
   "acquired_at": "2026-10-23T22:06:10.605Z",
-  "expires_at": "2026-10-23T22:36:10.605Z",
-  "released_at": null,
+  "expires_at": null,
+  "released_at": "2026-10-23T22:06:44.749Z",
   "rules": "ops/CANON-LOCK.md"
 }
