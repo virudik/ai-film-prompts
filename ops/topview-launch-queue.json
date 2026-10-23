@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-23T18:26:35.912877Z",
+  "updated_at": "2026-10-23T21:04:37.842561Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -6454,11 +6454,11 @@
       "result_review_policy": "Inspect each new28 result as soon as available, before further28 dispatch in that cycle. Record energy/amplitude, identity, anatomy/feet, contact/support, chronology, usable time ranges and honest viewing scope. Critical defects block only dependent shots; do not repeat automatically. A pending independent28 result does not reserve a slot or reinstate an owner-review gate for49-51."
     },
     {
-      "id": "S59-SEED20-P1",
+      "id": "S59-SEED20-P2",
       "scene_id": 59,
-      "prompt_id": "S59-SEED20-P1",
-      "canonical_block_label": "59 · Seedance 2.0 часть 1",
-      "priority": 0.5,
+      "prompt_id": "S59-SEED20-P2",
+      "canonical_block_label": "59 · Seedance 2.0 часть 2",
+      "priority": 0.51,
       "state": "waiting_for_slot",
       "launch_readiness": "authorized_inputs_available",
       "model": "Seedance 2.0",
@@ -6475,6 +6475,20 @@
       "depends_on_completed": [],
       "references": [
         {
+          "slot": "@Video1",
+          "canonical_role": "owner_supplied_P1_actual_end",
+          "input_status": "available",
+          "required": true,
+          "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+          "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+          "filename": "S59-owner-P1-last3s.mp4",
+          "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+          "duration_seconds": 3,
+          "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json",
+          "qc_status": "usable_for_continuity_input",
+          "source_requirement": "Materialize exact saved3s clip by Library ID, verify SHA, upload as Video1. Start from its terminal exterior frame, not earlier cockpit/fly-by. No newP1 required."
+        },
+        {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
           "canonical_role": "Серёга — лицо и одежда",
@@ -6500,9 +6514,9 @@
         },
         {
           "slot": "@Image4",
-          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
-          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
-          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+          "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+          "canonical_role": "Exact final frame of owner-provided59P1; opening globe, ship and framing",
+          "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
           "required": true,
           "input_status": "available"
         },
@@ -6515,99 +6529,22 @@
           "input_status": "available"
         }
       ],
-      "canonical_prompt_sha256": "8a63b85e08d677577fc99a88545964bd1b9a3356e61aaad7ed88777c9b514d1d",
-      "normalized_prompt_sha256": "97c47db6426aaeae27a2ac78247a4d1c7651d057bdaa00ff93fd612770352571",
+      "canonical_prompt_sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a",
+      "normalized_prompt_sha256": "a3672f340a5809fb1cacbdf7d1ef74246e8fdc79f8e9b79e1217ecf0e11c4f66",
       "task_id": null,
       "claim": null,
       "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
       "board_id": "1a6244cf1ae747ef847d949a80d6133c",
       "board_name": "My First Board",
       "blocker": null,
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
-    },
-    {
-      "id": "S59-SEED20-P2",
-      "scene_id": 59,
-      "prompt_id": "S59-SEED20-P2",
-      "canonical_block_label": "59 · Seedance 2.0 часть 2",
-      "priority": 0.51,
-      "state": "blocked_inputs",
-      "launch_readiness": "blocked_continuity",
-      "model": "Seedance 2.0",
-      "selected_model": "Seedance 2.0",
-      "duration_seconds": 15,
-      "actual_resolution": 720,
-      "prompt_text_resolution": 720,
-      "aspect_ratio": "16:9",
-      "quantity": 1,
-      "mode": "omni_reference",
-      "max_new_submissions": 1,
-      "max_credits": 0,
-      "depends_on_submitted": [
-        "S59-SEED20-P1"
-      ],
-      "depends_on_completed": [
-        "S59-SEED20-P1"
-      ],
-      "references": [
-        {
-          "slot": "@Video1",
-          "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
-          "required": true,
-          "source_item_id": "S59-SEED20-P1",
-          "source_requirement": "Actual last3s of newly generated59P1 only. Preserve true state, faces, geometry and direction; save private clip, provenance, SHA256 and QC; no synthetic substitute."
-        },
-        {
-          "slot": "@Image1",
-          "path": "references/full/serega.jpg",
-          "canonical_role": "Серёга — лицо и одежда",
-          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image2",
-          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
-          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
-          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image3",
-          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
-          "canonical_role": "кабина — только геометрия",
-          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image4",
-          "path": "references/scenes/scene-37/S37-forest-planet-reference.png",
-          "canonical_role": "Кашиик из космоса",
-          "sha256": "53fbfeadc25e03ac74dbc5a0f24c408e2cfc254713021f43ac062a4094a77323",
-          "required": true,
-          "input_status": "available"
-        },
-        {
-          "slot": "@Image5",
-          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
-          "canonical_role": "лес — только окружение, без персонажей",
-          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
-          "required": true,
-          "input_status": "available"
-        }
-      ],
-      "canonical_prompt_sha256": "91fcb915d30bcab61ed3154b8d99ad2bad9a8e268d264a2b58444fa75cacbef4",
-      "normalized_prompt_sha256": "db9883831de15ef03511b00b23302ab1492ea0e7cbd386095505f9d2d0e3bb36",
-      "task_id": null,
-      "claim": null,
-      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
-      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
-      "board_name": "My First Board",
-      "blocker": "Wait actual S59-SEED20-P1 ending and continuity QC.",
-      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground."
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "updated_at": "2026-10-23T21:04:37.842561Z",
+      "owner_source_override": {
+        "at": "2026-10-23T21:04:37.842561Z",
+        "decision": "Owner attachment replaces first-part generation; continue its true ending. Prior P1 submit/complete dependency is satisfied by supplied video, not a fabricated Topview success.",
+        "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+        "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json"
+      }
     },
     {
       "id": "S60-SEED20-P1",
@@ -8028,6 +7965,84 @@
       "state": "superseded_owner_model_selection",
       "canonical_prompt_sha256": "94f9a0252aa352aed5d195429a00f3c66aed220a07943def187c198979383704",
       "normalized_prompt_sha256": "5c028afd686ad0543691141c28d13ae9f2e4d75e2f49f3c2cd4ef856fedb7ee3"
+    },
+    {
+      "id": "S59-SEED20-P1",
+      "scene_id": 59,
+      "prompt_id": "S59-SEED20-P1",
+      "canonical_block_label": "59 · Seedance 2.0 часть 1",
+      "priority": 0.5,
+      "state": "cancelled_owner_replaced_by_existing_video",
+      "launch_readiness": "not_selected_owner_supplied_P1",
+      "model": "Seedance 2.0",
+      "selected_model": "Seedance 2.0",
+      "duration_seconds": 15,
+      "actual_resolution": 720,
+      "prompt_text_resolution": 720,
+      "aspect_ratio": "16:9",
+      "quantity": 1,
+      "mode": "omni_reference",
+      "max_new_submissions": 0,
+      "max_credits": 0,
+      "depends_on_submitted": [],
+      "depends_on_completed": [],
+      "references": [
+        {
+          "slot": "@Image1",
+          "path": "references/full/serega.jpg",
+          "canonical_role": "Серёга — лицо и одежда",
+          "sha256": "0bed6618c2fe641eba5296119707604e982a5eacd544fd6e020a8b1518c426a9",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image2",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png",
+          "canonical_role": "Кашиик: посадочная поляна; synthetic location helper; actual continuity video wins",
+          "sha256": "8998dcf6a8056d3f7f020f93dc114487a60b7bee301967f5268808afa02db833",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image3",
+          "path": "references/scenes/scene-37/S37-cockpit-empty.png",
+          "canonical_role": "кабина — только геометрия",
+          "sha256": "a405f1d76e2aa0cba3352bf9e9f8fc2d2d7cc116540e61f4c707402eff9df802",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image4",
+          "path": "references/scenes/ship-locations/Serega-ship-kashyyyk-space.png",
+          "canonical_role": "Космос: корабль и Кашиик; synthetic location helper; actual continuity video wins",
+          "sha256": "5ab9694af7f2a166c943fba9396903c15f6c270f1c2ed7617b2420280b3f346d",
+          "required": true,
+          "input_status": "available"
+        },
+        {
+          "slot": "@Image5",
+          "path": "references/scenes/scene-61/S61-owner-video-opening.jpg",
+          "canonical_role": "лес — только окружение, без персонажей",
+          "sha256": "f15a5d43157438452c722b492974819dc56805c405df7fa243bbf7f97c4c9594",
+          "required": true,
+          "input_status": "available"
+        }
+      ],
+      "canonical_prompt_sha256": "8a63b85e08d677577fc99a88545964bd1b9a3356e61aaad7ed88777c9b514d1d",
+      "normalized_prompt_sha256": "97c47db6426aaeae27a2ac78247a4d1c7651d057bdaa00ff93fd612770352571",
+      "task_id": null,
+      "claim": null,
+      "authorization": "Direct owner23Oct2026 current chat: create3Kashyyyk scenes and add after worms; existing authorization one free website Unlimited0 attempt per selected part, no paid route or automatic retry.",
+      "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+      "board_name": "My First Board",
+      "blocker": "Do not regenerate: owner supplied existing Part1.",
+      "input_qc_rule": "Reject a previous-part ending if Serega is on the roof, canopy, wings or exterior hull. Do not propagate the defect or synthesize a replacement continuation; record the blocker for owner decision. During ship motion Serega is inside cockpit; boarding/exiting only via side hatch/ramp on ground.",
+      "cancelled_at": "2026-10-23T21:04:37.842561Z",
+      "replacement": {
+        "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+        "source_sha256": "82870299533d01246ba3ae308184e16b2008aff24002bc2a89a4db34d9c550c5",
+        "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json"
+      }
     }
   ],
   "archived_items_file": "archive/ops/topview-launch-queue-archive.json",

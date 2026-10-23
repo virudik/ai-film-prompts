@@ -7643,9 +7643,15 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 **Пустая кабина23.10:** новый очищенный AI-референс сохраняет интерьер исходного кадра, но удаляет обоих людей и меч. Это не настоящий кадр результата. Серёга добавляется только по действию сцены: в движущемся корабле сидит у управления, второе кресло пусто; на крыше никого.
 
-**Контекст использования:** Самостоятельная посадка после37, через монтажную склейку, без ожидания нового результата37. Прямая команда владельца23.10 отменяет прежнее решение не генерировать посадку на Кашиике. Корабль только личный корабль Серёги. Площадка — отдельная поляна, не поле будущего боя. Посадка и вылет60 независимы:60 не использует результат59.
+**Контекст использования:** По текущему решению владельца первая часть59 — уже готовое вложение `d876c99424ff4a24b860a0115ab07173_faststart.mp4`: Серёга в кабине, затем личный корабль приближается к Кашиику. Новую59P1 не генерировать. Продолжение59P2 начинается от настоящего последнего кадра этого ролика и завершает посадку. Посадка59 и вылет60 независимы:60 не использует результат59.
 
-**Готовность:** картинки и входы части1 подготовлены; часть2 запускается только после сохранения и проверки настоящего конца своей части1. READY относится к началу работы над сценой, не к готовности будущего видеовхода P2. В очереди — по одной бесплатной попытке Seedance2.0 на каждую часть, доска My First Board; после блока с червями и до28/49/50/51. Заблокированные зависимости пропускаются по действующему правилу. 30-секундная вкладка — альтернативный текст, не дополнительный запуск.
+**Готовность:** первая часть предоставлена владельцем; сохранены точный последний кадр и последние3с (72 кадра, 24fps) для @Video1.59P2 подготовлена по входам и ждёт свободный слот на прежнем месте очереди. Повторная генерация59P1 отменена; её старый промт и30с вариант сохранены только как невыбранные альтернативы. Бесшовность — требование к новому результату, проверяется после генерации, а не объявляется заранее.
+
+**Настоящий стык из видео владельца:** первые кадры59P2 продолжают @Video1; картинка ниже — точный финальный кадр, не AI-перерисовка. Полный ролик и3свход сохранены приватно; происхождение и хеши — `references/scenes/scene-59/owner-P1-continuity.json`.
+
+<div class="scene-ref-gallery">
+<figure><a href="references/scenes/scene-59/S59-owner-P1-final.jpg" target="_blank" rel="noopener"><img src="references/thumbs/scenes/scene-59/S59-owner-P1-final.jpg.webp" alt="59P1 — настоящий последний кадр видео владельца" loading="lazy"></a><figcaption>59P1 готова · точный кадр для бесшовного продолжения</figcaption></figure>
+</div>
 
 **Референсы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
@@ -7657,7 +7663,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 <figure><a href="references/scenes/scene-61/S61-owner-video-opening.jpg" target="_blank" rel="noopener"><img src="references/scenes/scene-61/S61-owner-video-opening.jpg" alt="лес — только окружение, без персонажей"></a><figcaption>лес — только окружение, без персонажей</figcaption></figure>
 </div>
 
-**Что происходит:** Корабль выныривает из облаков, проходит S-образным манёвром между огромными стволами, разворачивается на торможении над поляной и тяжело садится в вихре листьев. Серёга быстро спускается по рампе и уходит в лес.
+**Что происходит:** Готовая первая часть заканчивается полётом к планете. Новая часть2 продолжает тот же кадр и движение, через облачную завесу переходит к лесу, проходит широкий просвет между деревьями, тормозит и садится; Серёга выходит через боковую рампу.
 
 **Корабль в локациях · 23.10.2026:** созданные опорные изображения, не кадры готовых видео. Геометрия исходного корабля сохранена как ориентир; настоящий видеостык важнее композиции, направления и состояния люка на картинке. Крыша всегда пуста.
 
@@ -7751,11 +7757,13 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 <div class="engine-pane" data-engine="sd20x2">
 
-**Входы части1:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Старый вариант части1 — НЕ ЗАПУСКАТЬ, заменён видео владельца. Входы:** @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/ship-locations/Serega-ship-kashyyyk-space.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
-**Входы части2:** @Video1 — последние3с нового результата59P1, не исходное старое видео; @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-37/S37-forest-planet-reference.png` (Кашиик из космоса); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
+**Входы части2:** @Video1 — `S59-owner-P1-last3s.mp4`, последние3с выбранного владельцем готового видео59P1 (Library `libfile_7e1093c34c748191b51f2159106da6fa`); @Image1 — `references/full/serega.jpg` (Серёга — лицо и одежда); @Image2 — `references/scenes/ship-locations/Serega-ship-kashyyyk-landing.png` (личный корабль — только корпус); @Image3 — `references/scenes/scene-37/S37-cockpit-empty.png` (кабина — только геометрия); @Image4 — `references/scenes/scene-59/S59-owner-P1-final.jpg` (реальный финальный кадр59P1: планета, корабль и ракурс); @Image5 — `references/scenes/scene-61/S61-owner-video-opening.jpg` (лес — только окружение, без персонажей).
 
 #### 59 · Seedance 2.0 часть 1
+
+**Сохранённая невыбранная альтернатива.** Первая часть уже предоставлена владельцем; этот текст повторно не отправлять.
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
@@ -7825,68 +7833,62 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ```text
 Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on
-Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2 of2: braking arc, heavy touchdown and Serega exits into the forest
+Optimized for Seedance 2.0 | Photoreal live-action space-opera cinema | Part2: seamless continuation of the OWNER-SUPPLIED orbital approach, atmospheric descent and Kashyyyk landing
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — actual last3seconds of this scene's Part1; absolute opening position, trajectory, gear state and lighting. Continue its last frame; no replay.
-@Image1 — absolute SEREGA identity, body and costume.
-@Image2 — synthetic location reference: the same personal craft at a damp Kashyyyk landing clearing, massive buttress-root trunks and cool blue-grey forest haze. Empty roof; preserve the baseline flat dark-grey wedge hull, cockpit glazing, panel layout and horizontal warm lights.
-@Image3 — clean EMPTY cockpit derived from the original film frame: exact brown ribs, two brown seats, glazing and blue consoles; no people or weapons. Geometry only, with the actual scene location outside. Serega is seated at the controls when the timeline calls for him; the second seat stays empty.
-@Image4 — Kashyyyk seen from space: blue-green globe, forested continents, white cloud bands and thin atmosphere; planet design only.
-@Image5 — Kashyyyk forest: massive dark trunks, broad buttress roots, damp leaf floor, moss and cool blue-grey haze. Environment and light only; NONE of the three pictured men or their swords is present at the landing.
-Priority: @Image1 controls the sole visible person; @Image2 the craft; @Image3 the cabin; @Image4 the globe; @Image5 the forest. Do not copy a source scene's people or actions.
-At the opening @Video1 overrides the stills for moment-to-moment state.
+@Video1 — the actual final 3.000 seconds of the owner-selected Part1 d876c99424ff4a24b860a0115ab07173_faststart.mp4, source video frames289–360 inclusive. It includes earlier cockpit and fly-by footage, but ONLY ITS LAST FRAME is the opening state to continue. Never replay its cockpit insert or fly-by. Preserve the final camera velocity and craft trajectory.
+@Image1 — absolute SEREGA face, mature age, body and deep-purple Chancellor costume.
+@Image2 — synthetic destination helper: the same personal craft at a damp Kashyyyk clearing among massive buttress-root trunks and cool blue-grey haze. Use its landing environment; the actual hull in @Video1 wins if the synthetic craft differs.
+@Image3 — empty cockpit geometry: brown ribs, two seats, glazing and blue consoles. Geometry only; no additional passenger or sword. No new cockpit insert is required in this continuation.
+@Image4 — EXACT final frame of the selected Part1, not a generated still: rear of the single craft slightly left of centre, receding toward the large blue-green forest planet occupying the centre/right. Match planet rotation, coastline, cloud arrangement, atmospheric rim, camera roll and framing at the join.
+@Image5 — Kashyyyk forest environment only: giant dark trunks, broad roots, moss, damp leaves and cool haze. Do not copy any pictured men or their swords.
+Priority at the opening: actual @Video1 motion and @Image4 framing override every synthetic still. @Image1 preserves identity. @Image2 and @Image5 establish only the later destination. All ship references depict ONE craft.
 
-LOCATION REFERENCE GATE:
-These synthetic location stills guide the same craft, setting and lighting, not a literal start frame. Apply each setting, gear and hatch state only at its matching timeline beat; hatches close before flight. Actual @Video1, when supplied, controls the opening position, motion, screen direction and continuity. Multiple views depict ONE personal craft, never duplicates. Keep the roof empty.
+SEAMLESS JOIN — CRITICAL:
+Start immediately AFTER the last source frame, not with a freeze, dissolve, black frame, establishing reset or replay. The camera is behind the craft looking toward the planet; the illuminated rear engines face the camera. Continue the same forward/receding flight, the same planet growth, near-level camera roll and existing starfield parallax for the first2seconds. Do not snap to a side view, reverse the ship, rotate the planet, reveal a second planet or cut straight to the ground. Keep source exposure and engine colour through the join; change illumination gradually on atmospheric entry.
 
-SHIP OCCUPANCY — CRITICAL:
-The roof, cockpit canopy, wings and upper hull remain completely empty in every shot. Exactly one SEREGA stays fully inside the enclosed cockpit, seated at the pilot controls whenever the craft moves; exterior views may show him only through the cockpit glazing. When landed and stationary, he may walk on the ground and use the single side hatch and boarding ramp. Never place him standing, sitting, riding or balancing on the roof or any exterior hull surface. No external duplicate, body clipping through the canopy, or teleportation between cabin and roof.
+SHIP AND OCCUPANCY LOCK:
+One broad, flat, dark-grey personal wedge craft, with the actual cockpit glazing, weathered panels, inset horizontal warm lights and rear-engine arrangement from @Video1. Do not redesign it as a large shuttle, fighter or RosKOTmos craft. Landing gear is retracted in the opening space shot; hatch/ramp closed throughout flight. Roof, canopy, wings and upper hull remain completely empty. Exactly one Serega sits INSIDE at the pilot controls whenever the ship moves. No roof rider, exterior duplicate or body clipping through glass. Only after touchdown and full stop may he use the single side hatch and short folding ramp to reach solid ground.
 
-CHARACTER APPEARANCE / IDENTITY LOCK:
-SEREGA: pale mature man with a balding crown, sparse fair hair, the exact broad face and build in @Image1, long heavy deep-purple Chancellor robe with layered collar, black inner clothing and boots. One Serega only; preserve age, face, hairline and robe silhouette through motion. Each model sheet depicts one person, never several.
+CHARACTER / PROPS:
+SEREGA: pale mature man with balding crown, sparse fair hair, exact broad face and build of @Image1, long heavy deep-purple robe with layered collar, black inner clothes and boots. Cold focused expression, purposeful movement, no grin or hero-pose pause. The small rectangular device with two amber bars seen in @Video1 remains with him; during descent it stays inside, and on exit he carries it low at his left side. Do not duplicate it, exchange it or turn it into a lightsaber. Preserve existing cockpit and bread/milk-note placement from the source if glimpsed; no new close-up or relocated note. No mushroom basket or extra passenger.
 
-VEHICLE / GEOGRAPHY LOCK — CRITICAL:
-One personal craft: the broad flat wedge-shaped dark-grey hull, cockpit glazing, inset light strips, proportions and engine layout of @Image2. No redesign into a shuttle, fighter or RosKOTmos vessel. One side hatch with one short folding boarding ramp; the ramp connects visibly to solid ground. Ship movement has mass and bank-to-turn inertia; trees remain solid, with believable clearances wider than the entire hull.
-The landing site is a natural open glade beside the forest trail, large enough for the whole craft and clear of living trunks. No lake, village, paved pad or city. Move from upper canopy to the glade through a broad existing opening; never tunnel through branches. The battle clearing is elsewhere along the trail.
-
-COCKPIT / PROP LOCK:
-BREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note on the blank sloping console immediately to the pilot's right, beside the controls, not on a screen. Two simple black line drawings only: bread loaf left, milk carton right; no text. Keep this fixed position, size and artwork, readable in the cockpit shot.
-No map exchange, mushroom basket or additional passenger is shown.
-
-START STATE:
-Exactly the last frame of @Video1: the craft is entering the open glade, level, gear deploying; finish any remaining gear extension before ground contact.
+GEOGRAPHY / MOTION:
+Target a forested land region on the SAME globe, not open water. A natural broad landing glade lies beside a forest trail, away from the battle clearing. No lake landing, city, concrete pad or village. Pass through an existing opening much wider than the full hull; branches and roots stay solid. The craft banks to change direction and carries inertia; landing gear deploys before contact, then bears weight. After the initial matching space view, use a motivated dense-cloud occlusion to compress the long approach into a cinematic descent. This is an internal transition, never a visible teleport at the source/new-video boundary.
 
 TIMELINE:
-[0:00–0:06] — BRAKING ARC
-Continue the incoming motion: the craft yaws through one controlled braking arc above the glade, nose remaining to frame-right at the end. Reverse thrust throws a broad rolling wave of leaves; trees bow slightly from wash, not from collision.
+[0:00–0:02] — EXACT ORBITAL CONTINUATION
+Continue the rear tracking composition and forward motion from the actual last frame. The craft flies away toward the same forest continent; the blue atmospheric rim and clouds gradually expand. No new manoeuvre at frame1.
 
-[0:06–0:10] — WEIGHT ON THE GROUND
-Cut low beside one landing strut. The foot presses into the damp soil, suspension compresses once, the other feet settle; the engine note drops as the hull becomes still. The side hatch opens and its ramp meets the ground.
+[0:02–0:05] — ENTER THE CLOUD BANK
+The camera closes behind the craft as it angles down toward the atmosphere. A dense white cloud bank sweeps over the lens, providing one motivated time-compressing transition; emerge behind the SAME craft descending above the forest canopy. No hyperspace tunnel, explosion or fireball.
 
-[0:10–0:15] — INTO THE FOREST
-Cut to a medium side tracking shot. Serega takes the ramp in three purposeful steps, robe swinging, turns sharply onto the trail and strides into the trunks. Keep his face readable before he turns; finish with the parked craft visible behind him.
+[0:05–0:08] — BANK INTO THE CLEARING
+Rear three-quarter tracking: one decisive S-bank around a tall crown and through a broad natural trunk gap. The full hull has clear space on every side. Mist peels off the wings; sunlight becomes cool diffuse forest light. The craft levels toward the open glade.
+
+[0:08–0:10] — FLARE AND GEAR
+A motivated low side tracking cut retains the established travel axis. The nose rises slightly under braking, landing gear unfolds, leaf litter lifts and spreads radially beneath the ship. Keep the hatch closed and pilot inside.
+
+[0:10–0:12] — WEIGHTED TOUCHDOWN
+The gear contacts damp ground, compresses once and stabilises; the hull settles without bouncing or sinking. Engines spool down. Dust and leaves continue moving as the ship becomes fully stationary.
+
+[0:12–0:15] — SIDE EXIT
+Cut close enough to read the one side hatch and short ramp. The hatch opens, ramp reaches solid ground, then Serega descends the last steps and plants his boots on the leaf-covered ground, device low at his side. Keep the action economical; do not add a long forest walk. The roof stays empty.
 
 END STATE:
-The intact craft rests on its gear in the open glade, nose frame-right, side ramp lowered. Serega has stepped off and is moving down the forest trail; no other person, saber or battle is visible.
+The same intact craft rests on its gear in the open glade, engine glow fading, one side ramp down. Serega has reached the ground beside the ramp and turns toward the forest trail. No duel, other people, drawn sword or takeoff.
 
-CAMERA / SPACE:
-Continue the true Part1 camera motion, then cut at6s to the gear and10s to the exit. Never reset the craft to the cloud descent.
-
-PERFORMANCE:
-Decisive pilot movements and quick ground strides; cold concentrated expression, no grin, no triumphant pose. Ship and camera keep moving until the necessary touchdown; no slow motion or speed ramps.
-
-LIGHTING / MATERIALS:
-Cool diffuse daylight filtered through cloud and forest haze; restrained warm console light on natural skin. Wet bark, moss, airborne leaves, heavy woven purple cloth and weathered dark-grey metal, with real motion blur.
+CAMERA / LIGHT / TEXTURE:
+The first2seconds inherit the source camera without a reset; later transitions are the cloud occlusion and motivated landing/exit cuts only. Keep screen direction after establishing the forest travel axis; no unexplained180-degree reversal. Natural24fps motion blur, convincing metal mass, wet bark, airborne leaves and heavy woven cloth. Medium or wider Serega face during exit, no distorted extreme close-up. Maintain source colour at the seam and cool diffuse daylight in the forest. No slow motion, long hover, frozen hero pose or arbitrary orbit around the parked ship.
 
 AUDIO:
-Wind pressure on the descending hull, turbine howl and Doppler on the bank, leaves rattling in the downwash, a deep braking surge, gear clunks and one heavy damp touchdown, hatch hydraulics, bootsteps and cloth. No dialogue, narration or music.
+Continue the source propulsion character across the join without an abrupt change; build wind pressure on atmospheric entry, then turbine braking, leaf downwash, gear clunks, one weighted touchdown, hatch hydraulics and bootsteps. No new dialogue, narration or music. Audio seam and gain must be checked against the actual generated result during editing.
 
 NEGATIVE PROMPT:
-extra humans, Vitalik, Lesha, Wookiees, cats, pilot duplicates, copied roof figure, Darth Vader, lightsabers, city, lake, space battle, tree collision, phasing hull, transforming ship, changing cockpit, giant cockpit, floating steps, teleporting pilot, ship already parked at the opening, unmotivated flips, static hero pose, slow motion, face drift, cartoon render, text overlays, watermark.
+replayed source footage, opening cockpit cut, freeze-frame, opening dissolve, immediate ground teleport, reversed flight, different planet, redesigned ship, duplicate craft, roof rider, extra people, Darth Vader, Vitalik, Lesha, Wookiees, cats, extra passenger, lightsaber, device duplication, open hatch in flight, missing gear, tree collision, hull phasing, instant exit through glass, lake, city, battle, shaky handheld, slow motion, cartoon render, captions, watermark.
 
 FRAME FILL / NO BARS:
-Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.
+Fill the generated16:9 frame edge-to-edge. No letterboxing, pillarboxing, black bars, decorative borders or empty margins.
 ```
 
 </div>

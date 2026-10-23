@@ -1,8 +1,25 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T20:24:36.991Z",
+  "last_updated_at": "2026-10-23T21:08:55.008175Z",
   "active_work": [
+    {
+      "work_id": "S59-OWNER-P1-CONTINUATION",
+      "title": "Сцена59: готовая первая часть владельца и бесшовная посадка",
+      "status": "completed_preparation_queued",
+      "updated_at": "2026-10-23T21:08:55.008175Z",
+      "completed": [
+        "Saved actual ownerP1 ending:3seconds/72frames, exact final frame and provenance.",
+        "Cancelled pending duplicate59P1 generation; adapted only59P2 prompt and references to orbital start."
+      ],
+      "next_action": "Existing queue priority0.51: one free59P2 continuation using saved clip, no new59P1. Check actual visual/audio seam after generation. Publication read-back is recorded in the current checkpoint.",
+      "canonical_refs": [
+        "references/scenes/scene-59/owner-P1-continuity.json",
+        "references/scenes/scene-59/manifest.json",
+        "ops/topview-launch-queue.json"
+      ],
+      "new_submissions": 0
+    },
     {
       "work_id": "WORM-BRIDGE-STATUS-20261023",
       "title": "Мост62, пустая кабина и точные живые статусы",

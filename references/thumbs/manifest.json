@@ -2433,6 +2433,16 @@
    "thumb_bytes": 71448,
    "src_sha256": "767eb20e527191f601e51f652d3339c507b5d3639eb4cf4be131dc205ff8c3f5"
   },
+  "references/scenes/scene-59/S59-owner-P1-final.jpg": {
+   "thumb": "references/thumbs/scenes/scene-59/S59-owner-P1-final.jpg.webp",
+   "width": 640,
+   "height": 360,
+   "src_width": 1280,
+   "src_height": 720,
+   "src_bytes": 129267,
+   "thumb_bytes": 34576,
+   "src_sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947"
+  },
   "references/scenes/scene-60/S60-owner-video-final.jpg": {
    "thumb": "references/thumbs/scenes/scene-60/S60-owner-video-final.jpg.webp",
    "width": 640,

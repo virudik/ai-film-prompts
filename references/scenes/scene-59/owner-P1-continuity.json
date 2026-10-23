@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "scene_id": 59,
+  "checked_at": "2026-10-23T21:04:37.842561Z",
+  "owner_decision": "Use the attached completed video as Part1 of scene59 and continue seamlessly. Replaces the pending P1 generation only; P2 remains in its existing queue position.",
+  "source": {
+    "filename": "d876c99424ff4a24b860a0115ab07173_faststart.mp4",
+    "library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+    "sha256": "82870299533d01246ba3ae308184e16b2008aff24002bc2a89a4db34d9c550c5",
+    "container_duration_seconds": 15.104,
+    "video_duration_seconds": 15.041666666666666,
+    "video_frames": 361,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "topview_task_id": "not_verified_from_filename"
+  },
+  "continuity_clip": {
+    "filename": "S59-owner-P1-last3s.mp4",
+    "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+    "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+    "duration_seconds": 3,
+    "frame_range_zero_based_inclusive": [
+      289,
+      360
+    ],
+    "source_video_range_seconds": [
+      12.041666666666666,
+      15.041666666666666
+    ],
+    "derivation": "ffmpeg trim exact72video frames and matching3seconds audio; re-encoded H264/AAC, no AI interpolation"
+  },
+  "final_frame": {
+    "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+    "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
+    "source_frame_zero_based": 360,
+    "source_timestamp_seconds": 15.0,
+    "derivation": "last decoded video frame, JPEG extraction; no AI redrawing"
+  },
+  "assistant_qc": {
+    "status": "usable_for_continuity_input",
+    "method": "whole-clip1fps contact sheet; final2s at6fps; saved3s clip at4fps; full-resolution last frame inspected",
+    "observations": [
+      "One personal craft approaching the blue-green planet at the end; camera follows from behind, planet enlarges.",
+      "Final view has closed hull, no roof rider, no landing yet.",
+      "Earlier cockpit shot contains seated Serega and a small two-amber-bar device; no sword.",
+      "Saved clip starts with cockpit context and ends on exterior planet approach; prompt explicitly continues only terminal frame."
+    ],
+    "limits": [
+      "Sampled visual inspection, not a continuous audiovisual playback or a full technical-quality acceptance.",
+      "Generated P2 seamlessness and audio match remain unverified until its actual result."
+    ]
+  },
+  "prompt_change": {
+    "label": "59 · Seedance 2.0 часть 2",
+    "sha256": "7e301359a481793af4d9220acee82edce9e7109ab29df6b2aa75adcf3cbb8b4a",
+    "characters": 8069
+  },
+  "new_video_submissions": 0
+}

@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "scene_id": 59,
-  "updated_at": "2026-10-23T18:26:35.912877Z",
-  "status": "first_part_inputs_ready_second_part_waits_own_result",
+  "updated_at": "2026-10-23T21:04:37.842561Z",
+  "status": "owner_supplied_P1_saved_P2_inputs_ready",
   "authority": "GitHub main video-prompts.md; exact individual identities above helper frames; explicit continuity video fixes opening action state.",
   "references": [
     {
@@ -167,14 +167,72 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+      "role": "Exact terminal frame of owner-provided59P1",
+      "media_type": "image",
+      "sha256": "6033741fc98627274f3648e321bd519270dc09060d3997fbfedbe2f9b114a947",
+      "status": "available",
+      "owner_approval": "owner_selected_source_for_P1_not_future_P2_approval",
+      "assistant_qc": {
+        "status": "usable_for_continuity_input",
+        "method": "whole-clip1fps contact sheet; final2s at6fps; saved3s clip at4fps; full-resolution last frame inspected",
+        "observations": [
+          "One personal craft approaching the blue-green planet at the end; camera follows from behind, planet enlarges.",
+          "Final view has closed hull, no roof rider, no landing yet.",
+          "Earlier cockpit shot contains seated Serega and a small two-amber-bar device; no sword.",
+          "Saved clip starts with cockpit context and ends on exterior planet approach; prompt explicitly continues only terminal frame."
+        ],
+        "limits": [
+          "Sampled visual inspection, not a continuous audiovisual playback or a full technical-quality acceptance.",
+          "Generated P2 seamlessness and audio match remain unverified until its actual result."
+        ]
+      },
+      "site_published": {
+        "path": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+        "linked_in_master": true,
+        "git_present": true
+      }
     }
   ],
   "pending_video": {
-    "role": "P2_previous_part_end",
-    "source_item_id": "S59-SEED20-P1",
-    "status": "required_not_available",
+    "slot": "@Video1",
+    "canonical_role": "owner_supplied_P1_actual_end",
+    "input_status": "available",
     "required": true,
-    "qc": "Actual final3s of ownP1 only; save private video, SHA256, frame and continuity review before launch."
+    "library_file_id": "libfile_7e1093c34c748191b51f2159106da6fa",
+    "source_library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+    "filename": "S59-owner-P1-last3s.mp4",
+    "sha256": "a4bf2e1d244e11bbcdbb0f724148aa2334cba370e0be9bec738af3017a3062b4",
+    "duration_seconds": 3,
+    "provenance_file": "references/scenes/scene-59/owner-P1-continuity.json",
+    "qc_status": "usable_for_continuity_input",
+    "source_requirement": "Owner supplied existing59P1 replaces pending generation; use actual saved ending.",
+    "role": "P2_previous_part_end",
+    "status": "available"
   },
-  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof."
+  "location_reference_rule": "Use per-block slots in video-prompts.md. Real continuity video overrides synthetic framing, pose, gear/hatch state and direction. Exactly one personal craft; never a person on its roof.",
+  "owner_provided_part1": {
+    "filename": "d876c99424ff4a24b860a0115ab07173_faststart.mp4",
+    "library_file_id": "libfile_5bd36df00b348191a27d5a4995a57186",
+    "sha256": "82870299533d01246ba3ae308184e16b2008aff24002bc2a89a4db34d9c550c5",
+    "container_duration_seconds": 15.104,
+    "video_duration_seconds": 15.041666666666666,
+    "video_frames": 361,
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "topview_task_id": "not_verified_from_filename"
+  },
+  "selected_workflow": {
+    "part1": "owner_supplied_video_no_rerender",
+    "part2": "59 · Seedance 2.0 часть 2",
+    "source_continuity": "references/scenes/scene-59/owner-P1-continuity.json",
+    "image4_override": "references/scenes/scene-59/S59-owner-P1-final.jpg",
+    "unused_alternatives": [
+      "59",
+      "59 · Seedance 2.0 часть 1"
+    ]
+  }
 }
