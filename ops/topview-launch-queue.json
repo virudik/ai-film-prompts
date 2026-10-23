@@ -3779,10 +3779,10 @@
       "scene_id": 48,
       "prompt_id": "S48-SEED20-P1",
       "canonical_block_label": "48 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "299a276b6bcd9b0728d06808411d00ca3433cb031a6db49e0b45347933166b50",
-      "normalized_prompt_sha256": "65babee4d6257e9045580874cbe9c90f69bc9e29a480aa52ba7f83d45e5437c2",
-      "priority": 4,
-      "state": "blocked_inputs",
+      "canonical_prompt_sha256": "498b43c0d48fb7617d087c05aece4924cd31d2bc1a97540332beb2785c1cec44",
+      "normalized_prompt_sha256": "26a58671ddbc0f7461d31778b0c77a946044c67d7915995b5ba5154eb0b257b4",
+      "priority": 0.4,
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -3792,18 +3792,8 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [
-        "S56-SEED20-P2"
-      ],
+      "depends_on_submitted": [],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available",
-          "source_item_id": "S56-SEED20-P2",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -3852,15 +3842,41 @@
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S48",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "depends_on_completed": [
-        "S56-SEED20-P2"
-      ],
-      "blocker": "Actual ending of S56-SEED20-P2 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity",
+      "depends_on_completed": [],
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256": [
-        "817e9e65ee7026598033f8d9b4c7e8a65a70afbe6f3b8b6659cc6f7ea8e8e945"
+        "817e9e65ee7026598033f8d9b4c7e8a65a70afbe6f3b8b6659cc6f7ea8e8e945",
+        "299a276b6bcd9b0728d06808411d00ca3433cb031a6db49e0b45347933166b50"
       ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained."
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "priority_before_20261023_cut": 4,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      },
+      "previous_gates_20261023_cut": {
+        "state": "blocked_inputs",
+        "depends_on_submitted": [
+          "S56-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S56-SEED20-P2"
+        ],
+        "blocker": "Actual ending of S56-SEED20-P2 must be available and QC checked; submission alone is insufficient.",
+        "launch_readiness": "blocked_continuity",
+        "video1": [
+          {
+            "slot": "@Video1",
+            "required": true,
+            "canonical_role": "previous_scene_end",
+            "input_status": "required_not_available",
+            "source_item_id": "S56-SEED20-P2",
+            "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          }
+        ]
+      },
+      "owner_launch_authorized_at": "2026-10-23T14:16:11Z"
     },
     {
       "id": "S48-SEED20-P2",
@@ -3869,7 +3885,7 @@
       "canonical_block_label": "48 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "79cd3c19e598a460005971094774761c326a30ec8c99197509009d10e7c1c9d3",
       "normalized_prompt_sha256": "3d0fd598b157e1f373a8926f0b8ccd5e64532fbf7e56e050ca676ed6f7df29fe",
-      "priority": 4.1,
+      "priority": 0.41,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -3948,7 +3964,12 @@
       "previous_prompt_sha256": [
         "c7f4522e2d9ffa7e4d34b429bcee5f092c6e4ccd08555da1cfb5a707e18a8113"
       ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained."
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "priority_before_20261023_cut": 4.1,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      }
     },
     {
       "id": "S52-SEED20-P1",
@@ -4426,10 +4447,10 @@
       "scene_id": 56,
       "prompt_id": "S56-SEED20-P1",
       "canonical_block_label": "56 · Seedance 2.0 часть 1",
-      "canonical_prompt_sha256": "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619",
-      "normalized_prompt_sha256": "438a48b97d000c1ac678fa3e14d2babdcd62c3466d073e9bddacdc4ebc751452",
-      "priority": 3,
-      "state": "blocked_inputs",
+      "canonical_prompt_sha256": "3c06afb7c7d5d88637b2255b0c779ee1a57a323781c8028e01c0cd571f2fe80a",
+      "normalized_prompt_sha256": "7676cbb80fe4031920c7dfba9cac575ddbff8d9e2aecb929b95529ff82192dd7",
+      "priority": 0.3,
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4439,18 +4460,8 @@
       "mode": "omni_reference",
       "max_new_submissions": 1,
       "max_credits": 0,
-      "depends_on_submitted": [
-        "S42-SEED20-P2"
-      ],
+      "depends_on_submitted": [],
       "references": [
-        {
-          "slot": "@Video1",
-          "required": true,
-          "canonical_role": "previous_scene_end",
-          "input_status": "required_not_available",
-          "source_item_id": "S42-SEED20-P2",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
-        },
         {
           "slot": "@Image1",
           "path": "references/full/serega.jpg",
@@ -4492,13 +4503,12 @@
       "authorization": "Owner18Oct2026 03:09:36MSK explicitly selected Seedance2.0 for future dances and high-motion/action scenes; existing canonical two15s version selected instead of unsubmitted Wan attempt. No duplicate version or automatic retry.",
       "replaces_unsubmitted_item": "S56",
       "selection_record": "reports/seedance-selection-2026-10-18.md",
-      "depends_on_completed": [
-        "S42-SEED20-P2"
-      ],
-      "blocker": "Waits for the actual ending of the NEW canonical S42-SEED20-P2 (owner 23.10.2026: rerender 42 P2). Task bf27 is a scene 16 run: never use it.",
-      "launch_readiness": "waiting_for_source",
+      "depends_on_completed": [],
+      "blocker": null,
+      "launch_readiness": "authorized_inputs_available",
       "previous_prompt_sha256": [
-        "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d"
+        "13828410599570dd69f05732b11785ca8706cc0f15d023f682a9cd0e7bc8b54d",
+        "df3205e4364bd51b9cd5309201ee3ac8f259de3cfa3980ace3f05940194d3619"
       ],
       "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
       "previous_video1_rejected_20261023": {
@@ -4509,7 +4519,34 @@
         "source_range_seconds": "12.104-15.104",
         "trimmed_sha256": "32369ece9036ba8c41fe35ea5b0cf87858b948c5de97fe6742a60643103674ce",
         "continuity_qc": "reports/topview-quality-2026-10-23/S42-SEED20-P2-external-bf27-review.json"
-      }
+      },
+      "priority_before_20261023_cut": 3,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      },
+      "previous_gates_20261023_cut": {
+        "state": "blocked_inputs",
+        "depends_on_submitted": [
+          "S42-SEED20-P2"
+        ],
+        "depends_on_completed": [
+          "S42-SEED20-P2"
+        ],
+        "blocker": "Waits for the actual ending of the NEW canonical S42-SEED20-P2 (owner 23.10.2026: rerender 42 P2). Task bf27 is a scene 16 run: never use it.",
+        "launch_readiness": "waiting_for_source",
+        "video1": [
+          {
+            "slot": "@Video1",
+            "required": true,
+            "canonical_role": "previous_scene_end",
+            "input_status": "required_not_available",
+            "source_item_id": "S42-SEED20-P2",
+            "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          }
+        ]
+      },
+      "owner_launch_authorized_at": "2026-10-23T14:16:11Z"
     },
     {
       "id": "S56-SEED20-P2",
@@ -4518,7 +4555,7 @@
       "canonical_block_label": "56 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "63c34e6fac2a179b707d072460e99cf2fb1122809fe8f72199f1b7dce91bbc36",
       "normalized_prompt_sha256": "ffe2a52657e334fd61b260f808a0d54c6d2c9a9892ec329798b9084d8232cc09",
-      "priority": 3.1,
+      "priority": 0.31,
       "state": "blocked_inputs",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
@@ -4590,7 +4627,12 @@
       "previous_prompt_sha256": [
         "22acbc93f6474a52053a2a8b76651d933e2717d33f0170b39818578d08da1db9"
       ],
-      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained."
+      "revision_note_20261020": "Owner20Oct2026 01:32:57MSK: strengthen worm/battle scenes, use Seedance, worm scenes next; site queue_up16 acknowledged. One new free selected pair per scene; old accepted results retained.",
+      "priority_before_20261023_cut": 3.1,
+      "owner_decision_20261023_cut": {
+        "at": "2026-10-23T14:16:11Z",
+        "text": "Owner 23.10.2026 17:16 MSK (decision card «Запускать 56 и 48 со склейки, не дожидаясь предыдущих?» → «Склейка для 56 и 48»): 56 P1 and 48 P1 open on a hard cut, no @Video1 from the previous scene; launch now in parallel with 42 P2, ahead of the title batch. Each P2 still continues the actual end of its own P1. Free Unlimited only, 0 credits."
+      }
     },
     {
       "scene_id": 44,

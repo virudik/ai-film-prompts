@@ -76,13 +76,13 @@
 | 42 | [Татуин: бой на фоне червя — червь им не интересен](#scene-42) | Серёга, Илюша, Артём; червь; руины Scene 16 | Продолжение принятой Scene 16: дуэль продолжается, червь крушит всё вокруг, герои лениво уворачиваются, не глядя на него. READY: настоящий последний кадр 16 подключён.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 44 | [Ангар крейсера: ремонт крыла, и оно отваливается](#scene-44) | Серёга; ангар H28A; конец Scene 43 | Серёга ворчит на переднем плане, трое техников за спиной чинят крыло, и оно отваливается целиком. DRAFT до результата 43.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 47 | [Красная точка: Серёга уходит от котов хитростью](#scene-47) | Серёга, Лучик, Рыжик; те же руины 27–32; конец Scene 32 | Развязка дуэли (решение владельца 16.10): Серёга гасит меч, пускает рукоятью красную точку, коты бросаются её ловить, он уходит к храму. READY: настоящий последний кадр 32 подключён.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). DRAFT до результата 56. |
+| 48 | [Татуин: после боя Канцлер забирает фрагмент карты](#scene-48) | Серёга, Илюша, Артём; червь; модуль карты | Развязка 56: червь падает между дуэлянтами, меч Артёма гаснет (модуль у Артёма — владелец 17.10), модуль Силой летит в руку Канцлера, Серёга запрыгивает на червя и уезжает на нём (владелец 18.10, D6). Начинается склейкой, без видео 56 (владелец 23.10). |
 | 49 | [Финальные титры: космическая рок-группа](#scene-49) | Тот же H28B ангар Scene 28; точные герои/костюмы; 6 мини-составов и общий финал | Шесть самостоятельных 15s промтов Seedance 2.0: инопланетные гитары, басы, ударные, синты, коты и общий пафосный джем. DRAFT до QC новых instrument/pose refs, старые неверные AI-фото не использовать. |
 | 50 | [Финальные титры: вуки-фанаты и слэм](#scene-50) | Тот же H28B ангар; группа Scene 49 на заднем плане; вуки только фанаты | Две 15s подсцены: синхронный рокерский хедбэнг и дружелюбный слэм вуки. READY: владелец выбрал вариант 2 (вуки с поднятыми руками), подключён в 50A/50B и 51A/51B. |
 | 51 | [Финальные титры: рок-финал с разбиванием инструментов](#scene-51) | Точный H28B-ангар, Серёга, Юля и Паша, те же инструменты 49, выбранные вуки-фанаты 50 (вариант 2) | Два 15s промта: 51A пафосный аккорд/замах без разрушений; 51B по одному удару каждым инструментом, обломки и восторг вуки. DRAFT до QC постановочных фото. |
 | 52 | [Серёга пересаживается на свой корабль и прилетает на Татуин](#scene-52) | @Video1 = настоящий конец44; @Image1 = Серёга; @Image2 = личный корабль; @Image3 = H28A; @Image4 = разрушитель; @Image5 = кабина | Продолжая44, Серёга видит упавшее крыло, решает пересесть, идёт к личному кораблю. В кабине ясно виден стикер с хлебом и молоком; вылет и посадка на окраине татуинского города, откуда он идёт к кантине. DRAFT до настоящего конца44, город — по описанию, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 53 | [Взлёт Серёги с Татуина: курс на Набу](#scene-53) | @Image1 = Серёга, @Image2 = личный корабль, @Image3 = настоящая кабина, @Image4 = один модуль карты; город — по описанию | Серёга уже в кабине, проверяет единственный модуль и прячет его. Личный корабль взлетает с окраины города, уходит над городом и дюнами и выходит из атмосферы. Серёга задаёт курс; корабль ускоряется в открытом космосе. READY, 30s Wan 3.0.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
-| 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. DRAFT до результата 42. |
+| 56 | [Татуин: бой в движении — червь требует внимания](#scene-56) | Серёга, Илюша, Артём; червь; руины Scene 16; конец Scene 42 | Мост 42 → 48 (владелец 18.10): дуэль срывается с места — толчок Силой, двое на одного, бой на осыпающемся песке и на поваленном обелиске, Серёга замечает модуль у Артёма; разъярённый червь встаёт над ними. Начинается склейкой, без видео 42 (владелец 23.10). |
 | 57 | [РосКОТмос: аварийная посадка котов на планете ситхов](#scene-57) | корабль РосКОТмоса (первый референс); аллея колонн и статуй (готово); руины ситхов; кабина 24/25; Лучик, Рыжик | Владелец 20.10: подбитый корабль котов падает на окраину руин и сбивает колонны (домино) и статую, её голова катится следом и «клонк» бьёт в хвост. Комично, но реалистично. READY: картинки готовы; часть2 после реального результата части1.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 | 58 | [РосКОТмос: коты выбегают из горящего корабля](#scene-58) | обломки в аллее (готово); корабль РосКОТмоса; Лучик, Рыжик | Владелец 20.10: люк вышибают изнутри, коты вылетают из дыма, корабль разваливается, небольшой огненный шар; эмблема падает им под лапы; над ними проносится тень корабля Серёги, коты бегут к храму. Дальше 40 → 26. READY: картинки готовы; часть2 после реального результата части1.<br>**⏳ В МЕДЛЕННОЙ ГЕНЕРАЦИИ** |
 
@@ -4609,20 +4609,22 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 48 — Татуин: после боя Канцлер забирает фрагмент карты
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":56}],"tags":["serega","ilyusha","artem","tatooine","worm","map","force_pull","worm_ride","deadpan","continuity"]} -->
 
 **Обновление 20.10:** бой и перемещения в реальном темпе, без длинных поз. Выбраны две части Seedance2.0 по15с; продолжения только от настоящих финалов предыдущих частей. Приоритет16 → 42 → 56 → 48.
+
+**Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 56. Начало задано текстом и картинками, поэтому 48 запускается, не дожидаясь 42 и 56. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
 
 **Контекст использования:**
 
 - **Решение владельца 16.10.2026 (D6):** Канцлер забирает татуинский фрагмент после драки на фоне червя. Scene 16 принята; бой продолжает Scene 42 («червь им не интересен»), эта сцена — её развязка. Текст перенесён из прежней редакции Scene 42 (16.10), тон приведён к 42: червю по-прежнему никто не уделяет внимания.
 - **Функция:** закрыть «первый фрагмент у Канцлера» — высший приоритет [Р2] §19 («показать момент захвата/кражи»). По [Р2] §8: Канцлер использует хаос червя, чтобы уйти с первым фрагментом.
 - **Приём** — идея Саши (master, «Идеи от Саши», 32:51–32:52): меч гаснет → карта летит в руку Канцлера.
-- **Правка владельца 18.10.2026:** финал другой — Серёга прячет модуль под робу, запрыгивает на червя и лихо уезжает на нём вдаль от джедаев (вместо «почти отвернулся и ушёл в бурю»). Червь по-прежнему никого не трогает; единственный контакт — Серёга сам едет у него на спине. Перед 48 теперь стоит новая Scene 56 (бой в движении), её конец — @Video1 этой сцены. Руины после 42/56 уже разрушены: в промте они не «восстанавливаются».
+- **Правка владельца 18.10.2026:** финал другой — Серёга прячет модуль под робу, запрыгивает на червя и лихо уезжает на нём вдаль от джедаев (вместо «почти отвернулся и ушёл в бурю»). Червь по-прежнему никого не трогает; единственный контакт — Серёга сам едет у него на спине. Перед 48 теперь стоит новая Scene 56 (бой в движении); с 23.10 48 идёт после неё склейкой, без её видео. Руины после 42/56 уже разрушены: в промте они не «восстанавливаются».
 - **Кто держал фрагмент:** Артём (Bearded Jedi) — ответ владельца 17.10, 23:58. Бармен отдал модуль ему (31:51–31:52 по сборке [Р2]). Меч Илюши после 42 уже горит: он не «зажигает», а поднимает его.
 - **Машина** после разрушения не появляется (W8). Отлёт Серёги с Татуина — Scene 53 (с окраины города), прибытие на Набу — Scene 39.
 - Модуль того же дизайна, что набусский (@Image6); светится тускло, без голограмм.
-- **До READY:** @Video1 — последние секунды результата Scene 56 (сначала нужны результаты 42 и 56).
+- **Вход:** без видео предыдущей сцены (склейка, владелец 23.10) — только @Image1–@Image6.
 - В монтаж 15–25 с. Запуск — только по команде владельца.
 - **Динамика (владелец 18.10.2026):** сцена переписана активнее — резкий рывок Силой, спринт и прыжок на червя, Серёга уносится на нём как сёрфер; слово «спокойно» убрано. Версии промта — во вкладках над промтом (30 с · Wan 3.0 / Seedance 2.5 и Seedance 2.0 · 2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
@@ -4634,7 +4636,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">пустынные руины Scene 16</a> (только локация);
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
 - @Image6 — <a href="references/scenes/scene-17/S17-Image4-topview-source.png">модуль карты (дизайн-класс фрагментов)</a>;
-- @Video1 — последние секунды результата Scene 56 (выгрузить после её результата).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -4655,14 +4656,13 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | The ignored sandworm finally crashes between the duelists; the Chancellor rips the Tatooine map module to his hand with the Force, jumps onto the worm and rides it away
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the furious worm rearing above them coiled to strike, the broken ruins, dust and light. Absolute authority for the START STATE.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; the damage already done is described in START STATE.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
 @Image6 — the exact map module prop design.
-Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+Priority: @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop; the START STATE text controls the positions and the damage already done.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber.
@@ -4674,14 +4674,14 @@ PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's belt, flies through the air once and ends hidden in the inner fold of Serega's robe. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole scene; the left gate pier stays smashed, the right pier stays standing, and the long obelisk block already shattered in @Video1 remains scattered chunks; nothing rebuilds. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back at the end: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
+The same colossal worm from @Image5 and the same ruins for the whole scene; the left gate pier stays smashed, the right pier stays standing, and the long toppled obelisk block, already shattered in the previous scene, remains scattered chunks; nothing rebuilds. The worm never swallows, bites or hurts anyone. Its only contact with a person is Serega deliberately riding its back at the end: he stands braced on one broad segment, gripping a ridge between segments, always far smaller than the worm. No car, speeder or wreck appears.
 
 START STATE:
-Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
+The scene opens on a hard cut on motion from the previous scene; no previous video is used. The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, all pushing hard, the map module glowing in Artem's wide belt; the furious worm rears high above them, coiled to strike. The ruins are already damaged: the left gate pier smashed into slabs, the right gate pier standing, the obelisk broken and its toppled top shattered into stone chunks scattered over the sand.
 
 TIMELINE:
 [0:00–0:06] — THE WORM CRASHES DOWN
-Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand throws Artem off his feet and pushes Ilyusha back several steps. Serega springs back out of the sand wave and snaps off his red saber in one sharp motion.
+Opening on the locked blades, already in motion: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand throws Artem off his feet and pushes Ilyusha back several steps. Serega springs back out of the sand wave and snaps off his red saber in one sharp motion.
 
 [0:06–0:11] — THE SABER GOES OUT
 Artem hits the sand hard. His green saber flies out of his hand, its blade switches off in mid-air and the hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and lands on the open sand between him and Serega.
@@ -4702,7 +4702,7 @@ END STATE:
 Serega rides the worm away into the far dunes with the module hidden in his robe; both Jedi alive in the foreground among the ruins, Artem's dark saber hilt half-buried in the sand.
 
 CAMERA / SPACE:
-The first two beats continue @Video1 as one take with fast arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
+The scene opens on a cut on motion into the blade lock; the first two beats play as one take with fast arcing moves; then motivated cuts: a medium on Serega for the Force pull, a fast tracking shot for the jump onto the worm, and a final wide shot from behind the Jedi for the ride. Stable geography: Serega and the worm on frame-right, the Jedi on frame-left. Scale through parallax, dust layers and foreground debris. Only motivated impact vibration.
 
 PERFORMANCE:
 Serega is fast, decisive and dashing, his face cold and focused: the Force pull is a sharp, commanding gesture, the sprint and leap onto the worm athletic and bold. Artem is winded and annoyed, not frightened; Ilyusha is fast and determined, then left standing with his blade lowered. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
@@ -4726,7 +4726,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Video1 — последние секунды результата Scene 56 (Wan-версии или Части 2 Seedance-версии 56 — что пошло в монтаж); @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`; @Image6 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`; @Image6 — `references/scenes/scene-17/S17-Image4-topview-source.png`.
 
 **Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image6 — те же файлы, что в части 1.
 
@@ -4737,14 +4737,13 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast dashing action comedy | Part 1 of 2: the ignored worm crashes down between the duelists, Artem's saber dies, the Chancellor Force-pulls the map module into his palm
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the furious worm rearing above them coiled to strike, the broken ruins, dust and light. Absolute authority for the START STATE and screen positions.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; the damage already done is described in START STATE.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
 @Image6 — the exact map module prop design.
-Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop.
+Priority: @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; @Image6 controls the prop; the START STATE text controls the positions and the damage already done.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; red lightsaber.
@@ -4756,14 +4755,14 @@ PROP LOCK — CRITICAL:
 Exactly ONE small rigid palm-sized rectangular map module from @Image6: rounded grey metal frame, dark-grey face, two vertical warm-amber glowing segmented panels with a soft steady glow. It starts tucked in Artem's wide belt, flies through the air once and ends gripped in Serega's closed hand. It never folds, multiplies, breaks, projects a hologram or shows a map image.
 
 WORM / LOCATION LOCK — CRITICAL:
-The same colossal worm from @Image5 and the same ruins for the whole clip; the left gate pier stays smashed, the right pier stays standing and the obelisk block shattered in @Video1 remains scattered chunks. The worm never swallows, bites, touches or hurts anyone; it only hits the sand. No car, speeder or wreck appears.
+The same colossal worm from @Image5 and the same ruins for the whole clip; the left gate pier stays smashed, the right pier stays standing and the toppled obelisk block, already shattered in the previous scene, remains scattered chunks. The worm never swallows, bites, touches or hurts anyone; it only hits the sand. No car, speeder or wreck appears.
 
 START STATE:
-Exactly the last frame of @Video1: the two Jedi and the Chancellor locked blade against blade in the foreground, the furious worm rearing high above them, coiled to strike.
+The scene opens on a hard cut on motion from the previous scene; no previous video is used. The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, all pushing hard, the map module glowing in Artem's wide belt; the furious worm rears high above them, coiled to strike. The ruins are already damaged: the left gate pier smashed into slabs, the right gate pier standing, the obelisk broken and its toppled top shattered into stone chunks scattered over the sand.
 
 TIMELINE:
 [0:00–0:04] — THE WORM CRASHES DOWN
-Continuing @Video1 without a cut: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand blasts outward; Artem is thrown off his feet, Ilyusha is shoved back on frame-left, and Serega springs backwards out of the sand wave on frame-right, snapping off his red saber in one sharp motion.
+Opening on the locked blades, already in motion: the worm slams its upper body down onto the sand right between Artem and Serega. A heavy wave of sand blasts outward; Artem is thrown off his feet, Ilyusha is shoved back on frame-left, and Serega springs backwards out of the sand wave on frame-right, snapping off his red saber in one sharp motion.
 
 [0:04–0:08] — THE SABER GOES OUT
 Cut on the impact to a low wide angle: Artem hits the sand hard and rolls. His green saber spins out of his hand, its blade switches off in mid-air and the dark hilt lands half-buried. In the same tumble the glowing map module jerks loose from his belt and skids onto the open sand between him and Serega.
@@ -4778,7 +4777,7 @@ END STATE:
 Serega on frame-right in the settling dust, the module gripped in his closed fist, saber off; the worm half-sunk in the churned sand behind him; Ilyusha on frame-left on his feet, blue blade lit; Artem on his knees beside his dark, half-buried hilt.
 
 CAMERA / SPACE:
-The first beat continues @Video1 with a small fast arc on the same side of the axis. Then motivated cuts: a low wide for Artem falling and rolling, a stable travelling medium for the pull, one brief hand insert for the catch, back to the same medium-wide for their immediate reactions. Serega and the worm frame-right, the Jedi frame-left. Full bodies in fast action; readable face and hand during the short catch. Keep foreground parallax and deep sand layers. No glamour hold, orbit across the axis or speed ramp.
+The scene opens on a cut on motion into the blade lock, then a small fast arc on the same side of the axis. Then motivated cuts: a low wide for Artem falling and rolling, a stable travelling medium for the pull, one brief hand insert for the catch, back to the same medium-wide for their immediate reactions. Serega and the worm frame-right, the Jedi frame-left. Full bodies in fast action; readable face and hand during the short catch. Keep foreground parallax and deep sand layers. No glamour hold, orbit across the axis or speed ramp.
 
 PERFORMANCE:
 Serega is fast and dashing, his face cold: the Force pull is a sharp commanding gesture. Artem is winded and annoyed, not frightened. Ilyusha is determined. Nobody treats the worm as more than an obstacle. No speech, no smile, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
@@ -6676,18 +6675,20 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 ## Сцена 56 — Татуин: бой в движении — червь требует внимания
 
-<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"DRAFT","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":42}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","action","deadpan","continuity"]} -->
+<!-- scene-meta: {"target_engine":"Seedance 2.0","production_state":"READY","duration_s":30,"dialogue":{"enabled":false,"language":null},"dependencies":[{"type":"continues","scene":42}],"tags":["serega","ilyusha","artem","tatooine","worm","duel","action","deadpan","continuity"]} -->
 
 **Обновление 20.10:** бой и перемещения в реальном темпе, без длинных поз. Выбраны две части Seedance2.0 по15с; продолжения только от настоящих финалов предыдущих частей. Приоритет16 → 42 → 56 → 48.
+
+**Обновление 23.10 (владелец):** сцена начинается склейкой — без видео конца 42. Начало задано текстом и картинками, поэтому 56 запускается, не дожидаясь 42. Часть 2 Seedance-версии по-прежнему продолжает конец части 1.
 
 **Контекст использования:**
 
 - **Команда владельца 18.10.2026:** продолжить и расширить бой 42 промежуточной сценой, которая приводит к 48. Заодно ответ на замечание друга про динамику: здесь больше движения, чем в 42, — толчок Силой, двое на одного, бой на осыпающемся песке, прыжки на поваленный обелиск и с него, мотивированные монтажные склейки вместо одного неподвижного плана.
-- **Стык:** сразу после Scene 42 (её конец — три скрещённых меча, червь завис над ними) → эта сцена → Scene 48 (червь обрушивается между ними).
+- **Стык:** склейка на движении (владелец 23.10) сразу после Scene 42 (её конец — три скрещённых меча, червь завис над ними) → эта сцена → Scene 48 (червь обрушивается между ними).
 - **Шутка 42 сохраняется:** червю по-прежнему никто не уделяет внимания, но он злится всё сильнее и в конце встаёт над ними для удара — это и есть начало 48.
 - **Подводка к 48:** модуль карты всё время за поясом Артёма; в середине Серёга на миг замечает его свечение. Модуль здесь не выпадает.
 - Цвета мечей: Илюша синий, Артём зелёный, Серёга красный. Разрушения только копятся: сломанная опора ворот и расколотый обелиск из 42 не восстанавливаются. Машина не появляется (W8).
-- **До READY:** @Video1 — последние секунды результата Scene 42 (сначала нужен её результат).
+- **Вход:** без видео предыдущей сцены (склейка, владелец 23.10) — только @Image1–@Image5.
 - В монтаж 15–25 с. Запуск — только по команде владельца.
 - **Версии промта (владелец 18.10.2026):** во вкладках над промтом — 30 с (Wan 3.0 / Seedance 2.5) и Seedance 2.0 (2 × 15 с); версию, которую запускает очередь, отмечает «★ в очереди».
 
@@ -6698,7 +6699,6 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 - @Image3 — <a href="references/full/artem.jpg">Артём (Bearded Jedi)</a>;
 - @Image4 — <a href="references/scenes/scene-16/S16-desert-location-clean.png">пустынные руины Scene 16</a> (только локация);
 - @Image5 — <a href="references/scenes/scene-16/S16-worm-scale.png">масштаб и дизайн червя</a>;
-- @Video1 — последние секунды результата Scene 42 (выгрузить после её результата).
 
 <div class="scene-ref-gallery">
 <figure><a href="references/full/serega.jpg" target="_blank" rel="noopener"><img src="references/full/serega.jpg" alt="@Image1 — Серёга"></a><figcaption>@Image1 — Серёга</figcaption></figure>
@@ -6719,13 +6719,12 @@ Mode: reference-to-video | Duration: 30s | Resolution: 720p | Aspect ratio: 16:9
 Optimized for Wan 3.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | The duel breaks loose and races across the collapsing ruins while the ignored sandworm grows ever angrier
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the colossal worm hanging motionless over them, the broken ruins, dust and light. Absolute authority for the START STATE and the screen positions.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; the damage already done is described in START STATE.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
-Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+Priority: @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; the START STATE text controls the positions and the damage already done.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
@@ -6734,17 +6733,17 @@ ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown oute
 Exactly three people. No other characters, no vehicles.
 
 WORM / DESTRUCTION LOCK — CRITICAL:
-The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. Damage only accumulates: the smashed gate pier and the cracked obelisk from @Video1 stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters again and again but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
+The same colossal worm from @Image5 for the whole scene, always far larger than the gate piers. Damage only accumulates: the smashed left gate pier and the broken obelisk from the previous scene stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters again and again but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
 
 PROP LOCK:
 Exactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole scene. It never falls out here.
 
 START STATE:
-Exactly the last frame of @Video1: the three locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, the worm's gaping maw hanging over them in falling dust.
+The scene opens on a hard cut on motion from the previous scene; no previous video is used. The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, all pushing hard; the colossal worm's gaping maw hangs over them in falling dust. The ruins are already damaged: the left gate pier smashed into slabs, the right gate pier standing, the central obelisk broken in half with its top half lying on its side as a long stone block.
 
 TIMELINE:
 [0:00–0:04] — BREAK
-Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
+Opening on the locked blades, already in motion: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
 
 [0:04–0:09] — TWO AGAINST ONE
 Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges while the camera tracks laterally beside their moving feet and bodies.
@@ -6768,7 +6767,7 @@ END STATE:
 The three duelists locked blade against blade in the foreground, ignoring the furious worm that rears high above them, coiled to strike; the module still in Artem's belt; dust and broken ruins all around. This final contact contains live pushing and breathing, not a held statue pose; the downward worm strike has not begun.
 
 CAMERA / SPACE:
-The first beat continues @Video1 without a cut. After it, up to four motivated action cuts on movement, each matching screen direction and the left/centre/right geography; brisk lateral tracking moves with only small arcs on the same side of the axis, low angles during the jumps, one close insert of the module glow. Keep the worm partly in frame for scale in every wide shot. The duel always stays readable; motion blur only on fast blades. No shaky handheld chaos, no teleporting.
+The scene opens on a cut on motion straight into the blade lock, medium-wide at eye level. After it, up to four motivated action cuts on movement, each matching screen direction and the left/centre/right geography; brisk lateral tracking moves with only small arcs on the same side of the axis, low angles during the jumps, one close insert of the module glow. Keep the worm partly in frame for scale in every wide shot. The duel always stays readable; motion blur only on fast blades. No shaky handheld chaos, no teleporting.
 
 PERFORMANCE:
 Fast, athletic, fully committed swordplay with real weight: slides, leaps, rolls and Force shoves. The deadpan gag remains: toward the worm everyone is bored and unimpressed, never panicked. Serega is cool and precise, Ilyusha quick and aggressive, Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
@@ -6792,7 +6791,7 @@ Fill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, 
 
 Та же сцена двумя роликами по 15 с: сначала часть 1, часть 2 — после её результата (@Video1 части 2 = последние секунды части 1). Нумерация входов в каждой части своя.
 
-**Входы части 1:** @Video1 — последние секунды результата Scene 42; @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`.
+**Входы части 1:** @Image1 — `references/full/serega.jpg`; @Image2 — `references/full/ilyusha.jpg`; @Image3 — `references/full/artem.jpg`; @Image4 — `references/scenes/scene-16/S16-desert-location-clean.png`; @Image5 — `references/scenes/scene-16/S16-worm-scale.png`.
 
 **Входы части 2:** @Video1 — конец части 1 (её последние секунды); @Image1–@Image5 — те же файлы, что в части 1.
 
@@ -6803,13 +6802,12 @@ Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | A
 Optimized for Seedance 2.0 | Photoreal live-action desert space-fantasy, fast physical action with a deadpan running gag | Part 1 of 2: the duel breaks loose, two Jedi press the Chancellor and the ground slides away under them while the ignored worm snaps and ploughs past
 
 REFERENCES / AUTHORITY ORDER:
-@Video1 — the last seconds of the previous scene: the three duelists locked blade against blade in the foreground, the colossal worm hanging motionless over them, the broken ruins, dust and light. Absolute authority for the START STATE and the screen positions.
 @Image1 — absolute identity of SEREGA.
 @Image2 — absolute identity of ILYUSHA, the Hooded Jedi.
 @Image3 — absolute identity of ARTEM, the Bearded Jedi.
-@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; their damage follows @Video1.
+@Image4 — the desert ruins: sandy plain, glyph-covered gate piers, central obelisk, harsh warm daylight. Location geometry only; the damage already done is described in START STATE.
 @Image5 — the exact colossal segmented sandworm: scale and design only; it is far larger than people and gate piers.
-Priority: @Video1 controls the start and the damage already done; @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm.
+Priority: @Image1–@Image3 control the three identities; @Image4 controls the location; @Image5 controls the worm; the START STATE text controls the positions and the damage already done.
 
 CHARACTER APPEARANCE / IDENTITY LOCK:
 SEREGA (the Chancellor), @Image1: pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe, sand in its folds; RED lightsaber.
@@ -6818,17 +6816,17 @@ ARTEM, @Image3: heavier build, short beard, cream-beige tunic under a brown oute
 Exactly three people. No other characters, no vehicles.
 
 WORM / DESTRUCTION LOCK — CRITICAL:
-The same colossal worm from @Image5 for the whole clip, always far larger than the gate piers. Damage only accumulates: the smashed gate pier and the cracked obelisk from @Video1 stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
+The same colossal worm from @Image5 for the whole clip, always far larger than the gate piers. Damage only accumulates: the smashed left gate pier and the broken obelisk from the previous scene stay broken; the toppled obelisk top lies on its side as a long stone block; nothing rebuilds. The worm strikes near the fighters but never hits, swallows or touches anyone. Nobody fights the worm or looks at it for more than a glance.
 
 PROP LOCK:
 Exactly ONE small palm-sized map module with two warm-amber glowing strips stays tucked in Artem's wide belt for the whole clip. It never falls out.
 
 START STATE:
-Exactly the last frame of @Video1: the three locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, the worm's gaping maw hanging over them in falling dust.
+The scene opens on a hard cut on motion from the previous scene; no previous video is used. The three duelists locked blade against blade in the foreground, Artem frame-left, Serega centre, Ilyusha frame-right, all pushing hard; the colossal worm's gaping maw hangs over them in falling dust. The ruins are already damaged: the left gate pier smashed into slabs, the right gate pier standing, the central obelisk broken in half with its top half lying on its side as a long stone block.
 
 TIMELINE:
 [0:00–0:04] — BREAK
-Continuing @Video1 without a cut: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
+Opening on the locked blades, already in motion: the three blades spring apart with a bright crackle. Serega thrusts his free palm out and a Force shove sends both Jedi sliding backwards across the sand on their boots. Above them the worm's maw snaps shut on empty air.
 
 [0:04–0:09] — TWO AGAINST ONE
 Cut on motion to a brisk lateral tracking medium-wide on the same side of the axis: Ilyusha and Artem charge from both sides at once. Serega pivots between them, the red blade blocking blue, then green, then blue in fast, clean, readable exchanges; each face gets a clear medium beat as he turns to it.
@@ -6843,7 +6841,7 @@ END STATE:
 The three still fencing at the foot of the fresh collapsed slope, Artem frame-left, Serega centre with the long toppled obelisk block just behind him, Ilyusha frame-right; the worm's body sliding away along its new trench in the background; the module still glowing in Artem's belt.
 
 CAMERA / SPACE:
-The first beat continues @Video1 without a cut. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a brisk lateral tracking shot, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
+The scene opens on a cut on motion straight into the blade lock, medium-wide at eye level. Then three motivated action cuts, matching screen direction and the left/centre/right geography: a brisk lateral tracking shot, a low wide angle for the collapsing ground, a low angle for the leap. Keep the worm partly in frame for scale in every wide shot. Faces read in medium shots with even light; never tiny faces during speed. Motion blur only on fast blades. No handheld chaos.
 
 PERFORMANCE:
 Fast, athletic, fully committed swordplay with real weight: slides, skids, a leap and a Force shove. The deadpan gag remains: toward the worm everyone is unimpressed, never panicked. Serega is cool and precise, his face serious while his body moves fast; Ilyusha quick and aggressive; Artem heavy and stubborn. No speech, no mugging, no look into the lens. Full-body action at normal real-time speed: visible planted feet, weight transfer, purposeful travel and immediate recovery into the next action. A held camera composition never freezes the performers. No slow motion, floating steps, extended hero pose or waiting for the next attack. Keep faces recognisable; intensity comes from the bodies and contacts, not frantic camera shake.
