@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "state": "held",
+  "state": "released",
   "holder": "chatgpt",
   "task": "RAZNOE-QUALITY-20261023: global queue continuation QC and free launches",
   "acquired_at": "2026-10-23T00:21:19.292Z",
-  "expires_at": "2026-10-23T01:06:19.292Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "expires_at": "2026-10-23T00:43:32.181Z",
+  "released_at": "2026-10-23T00:43:32.181Z",
+  "rules": "ops/CANON-LOCK.md",
+  "release_note": "Verified published preparation, owner hold, three zero-credit submissions, receipts and existing automation continuation; no remaining ready Seregius items."
 }

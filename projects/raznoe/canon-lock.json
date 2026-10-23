@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
   "project": "raznoe",
-  "state": "held",
+  "state": "released",
   "holder": "chatgpt",
   "task": "RAZNOE-QUALITY-20261023: improve all scenes and refs, then launch planned free queue and review",
   "acquired_at": "2026-10-22T23:42:11.854Z",
-  "expires_at": "2026-10-23T01:00:39.280Z",
-  "released_at": null,
-  "rules": "ops/CANON-LOCK.md"
+  "expires_at": "2026-10-23T00:43:32.181Z",
+  "released_at": "2026-10-23T00:43:32.181Z",
+  "rules": "ops/CANON-LOCK.md",
+  "release_note": "Verified published preparation, owner hold, three zero-credit submissions, receipts and existing automation continuation; no remaining ready Seregius items."
 }
