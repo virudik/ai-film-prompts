@@ -1,8 +1,29 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T21:26:54.103042Z",
+  "last_updated_at": "2026-10-23T21:56:52.739Z",
   "active_work": [
+    {
+      "work_id": "S58-P2-CONTINUITY-LAUNCH-20261023",
+      "title": "Сцена58 часть2 — настоящий стык подготовлен, Unlimited0 отправлена",
+      "status": "submitted_verified",
+      "updated_at": "2026-10-23T21:56:52.739Z",
+      "completed": [
+        "Downloaded and SHA-verified actual S58P1; sampled full video1fps and ending4fps, inspected exact final frame.",
+        "Saved actual last3s/72frames, Library original, final frame, thumbnail and provenance/QC; canonical P2 prompt unchanged.",
+        "Created exactly one website Unlimited0 Seedance2.0 15s 720p 16:9 task; full normalized text and seven ordered inputs verified.",
+        "Post-submit complete scan13boards/19pages/934tasks:6active,0free,one matching P2 submission."
+      ],
+      "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+      "new_submissions": 1,
+      "credits_cost": 0,
+      "canonical_refs": [
+        "reports/topview-queue-2026-10-16/S58-SEED20-P2-20261023.json",
+        "references/scenes/scene-58/P1-continuity.json",
+        "ops/topview-launch-queue.json"
+      ],
+      "next_action": "Await actual58P2 result and assess join/quality; never resubmit. At next free slot52P2 remains priority if actual52P1 ending has been prepared/QC; otherwise continue next ready authorized item. 42P2 needs actual42P1 input preparation. Do not claim provider ETA guarantees."
+    },
     {
       "work_id": "S59-OWNER-P1-CONTINUATION",
       "title": "Сцена59: готоваяP1 + атмосфера/лес, посадка, выход с корзинкой",

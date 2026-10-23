@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 58,
-  "updated_at": "2026-10-23T21:52:22.645409Z",
+  "updated_at": "2026-10-23T21:56:52.739Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
   "status": "reference_images_ready",
   "references": [
@@ -483,7 +483,7 @@
       "canonical_block_label": "58 · Seedance 2.0 часть 2",
       "canonical_prompt_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
       "local_numbering": true,
-      "launch_readiness": "authorized_inputs_available",
+      "launch_readiness": "submitted_verified",
       "owner_generation_approval_inferred": false,
       "generation_authorization": "Owner20Oct2026 02:29:55MSK in project thread: «Сделать сцену где корабль росКОТмоса совершает аварийную посадку на планете ситхов и при посадке сбивает древние колонны и статуи. Максимально комично но реалистично. С референсами корабля и локаций. И другую где коты выбегают из подбитого, горящего и разваливающегося корабля. Референс корабля используй тот который первым сделался»",
       "slots": [
@@ -559,14 +559,16 @@
         }
       ],
       "characters": 5831,
-      "notes": "Temporal stage gates prevent open hatch/explosion/landed panel from appearing too early; identity sheets and real prior video take priority."
+      "notes": "Temporal stage gates prevent open hatch/explosion/landed panel from appearing too early; identity sheets and real prior video take priority.",
+      "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+      "receipt_path": "reports/topview-queue-2026-10-16/S58-SEED20-P2-20261023.json"
     }
   ],
   "site_published": true,
   "last_qc_at": "2026-10-23T21:52:22.645409Z",
   "last_qc_scope": "Actual S58P1 ending prepared and sampled visually for S58P2; full provenance in P1-continuity.json. No editorial approval.",
   "remaining": [
-    "Generate S58P2 through authorized Unlimited0 website route, then assess actual join and result."
+    "Await actual S58P2 result, then assess P1/P2 join and artistic quality; no automatic retry."
   ],
   "technical_success_is_editorial_approval": false,
   "invariants": [

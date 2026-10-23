@@ -1,0 +1,224 @@
+{
+  "work_id": "S58-P2-20261023-1792792479423",
+  "item_id": "S58-SEED20-P2",
+  "scene_id": 58,
+  "task_id": "8b6a8ce102ea416e88d3c14fa558c513",
+  "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+  "board_name": "My First Board",
+  "created_at": "2026-10-23 21:54:57Z",
+  "verified_at": "2026-10-23T21:56:08.040Z",
+  "submit_count": 1,
+  "mode": "website Unlimited",
+  "credits_cost": 0,
+  "useUnlimitMode": true,
+  "model": "Seedance 2.0",
+  "duration": 15,
+  "resolution": 720,
+  "aspect_ratio": "16:9",
+  "quantity": 1,
+  "inputs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S58-SEED20-P1",
+      "source_task_id": "6598a21c2c684d43b7cede9cfc987107",
+      "source_kind": "actual_topview_result_trim",
+      "library_file_id": "libfile_f09877860c448191864e81ccb549113b",
+      "filename": "S58-P1-last3s.mp4",
+      "sha256": "2f046a56149f4820268d198992938fbd1c484dfc4b14298e18f5d071dc0f9815",
+      "duration_seconds": 3,
+      "provenance_path": "references/scenes/scene-58/P1-continuity.json",
+      "assistant_qc": {
+        "status": "passed_for_continuation_input",
+        "checked_at": "2026-10-23T21:52:22.645409Z",
+        "method": "Whole source sampled1fps; final3seconds sampled4fps; exact full-size final frame.",
+        "observations": [
+          "Exactly two cats, Luchik screen-left and Ryzhik screen-right, running toward camera away from burning wreck.",
+          "Natural four-legged motion, no visible injury or extra people/cats in sampled ending.",
+          "Ochre ruins and golden-orange sunset retained; wreck stays behind.",
+          "No main explosion yet. The next side tracking view can reveal the obstacle ahead."
+        ],
+        "limitations": "Sampled visual continuity review only, not continuous audiovisual playback or frame-by-frame QA. Fur appears less long than identity sheets. Future generated join and artistic approval remain unverified.",
+        "owner_approval": "not_recorded"
+      }
+    },
+    {
+      "slot": "@Image1",
+      "path": "references/luchik.jpg",
+      "sha256": "0ce4cf58ef98552c9b745e3371689a7c50577526747e026b782043aa2eccdec6",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image2",
+      "path": "references/ryzhik.jpg",
+      "sha256": "9a62895d1f84a5e39ba90eccf7b587f496c84f544906d97498ce854b15bca13d",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image3",
+      "path": "references/scenes/scene-58/S58-ship-explosion-open-hatch.png",
+      "required": true,
+      "input_status": "available",
+      "sha256": "109dd9138243627f25f2e1af868289d8250d15954dcc0ba8a8fdb2b424f35032",
+      "source_kind": "chatgpt_imagegen_saved_reference"
+    },
+    {
+      "slot": "@Image4",
+      "path": "references/scenes/scene-45/S45-roskotmos-ship-first-option.png",
+      "sha256": "3228d0f586d48b291388b97e66aba093feccbb760e3289ffc7bfa21949c39a5f",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image5",
+      "path": "references/scenes/scene-58/S58-cats-escape-open-hatch.png",
+      "sha256": "792b3557c0bccbd65a238f2cdce104592e2e8d865c00db64cfcbc7c2506199bc",
+      "required": true,
+      "input_status": "available"
+    },
+    {
+      "slot": "@Image6",
+      "path": "references/scenes/scene-58/S58-emblem-at-cats-paws.png",
+      "sha256": "856c6c359aecabae9458c542e2e4234a924a208e282d80255c4258dc3e273b20",
+      "required": true,
+      "input_status": "available"
+    }
+  ],
+  "task_input_order": {
+    "images": [
+      {
+        "name": "Image1",
+        "uploaded_basename": "s28OtL9Wu60KLImxSOLLQ.jpg"
+      },
+      {
+        "name": "Image2",
+        "uploaded_basename": "Go1ksIOalpF0abZSt3xbv.jpg"
+      },
+      {
+        "name": "Image3",
+        "uploaded_basename": "3osBQ277DDq4xTXmcNOqo.png"
+      },
+      {
+        "name": "Image4",
+        "uploaded_basename": "FhTwlOKGvxjLnvb05tPBC.png"
+      },
+      {
+        "name": "Image5",
+        "uploaded_basename": "2oX9y8DRfbxRWRgfVIAxq.png"
+      },
+      {
+        "name": "Image6",
+        "uploaded_basename": "nd8mZWy4GULaVnTozwD3f.png"
+      }
+    ],
+    "videos": [
+      {
+        "name": "Video1",
+        "duration": 3,
+        "uploaded_basename": "w1tzMrvdVzVieNso84ixN.mp4"
+      }
+    ]
+  },
+  "prompt_verification": {
+    "canonical_raw_sha256": "550a7eeae11dbe87c7a5100a2badc8068fff7ecc83852e5f8f2d37edbd9f44e8",
+    "canonical_normalized_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
+    "task_normalized_sha256": "fe800e723b4b3355ca6febe6901aaad3237b43a9f62eeafaef5edf776f773abe",
+    "full_normalized_match": true,
+    "matcher": "scripts/topview_prompt_match.py normalise",
+    "ui_exact_before_submit": true,
+    "ui_characters": 5831
+  },
+  "proof_path": "reports/topview-queue-2026-10-16/S58-P2-submitted-20261023.jpg",
+  "preflight_scan": {
+    "at": "2026-10-23T21:54:38.545Z",
+    "boards": 13,
+    "pages": 19,
+    "tasks": 933,
+    "active": [
+      {
+        "id": "8a8eadc809004e318c47201b8a463be0",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init"
+      },
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init"
+      },
+      {
+        "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init"
+      },
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init"
+      },
+      {
+        "id": "af8e389dc9564607bc6138b408c72da5",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c",
+        "status": "init"
+      }
+    ],
+    "duplicates": []
+  },
+  "post_submit_scan": {
+    "at": "2026-10-23T21:56:13.743Z",
+    "boards": 13,
+    "pages": 19,
+    "tasks": 934,
+    "active": [
+      {
+        "id": "8b6a8ce102ea416e88d3c14fa558c513",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "8a8eadc809004e318c47201b8a463be0",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "4b7b972870a44dfbb29bd6c5e330a633",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "34ff1bf7fe9d47f08de5a635d5626c70",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "56e5e07c85df4af583c62665c51ed563",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      },
+      {
+        "id": "af8e389dc9564607bc6138b408c72da5",
+        "status": "init",
+        "board_id": "1a6244cf1ae747ef847d949a80d6133c"
+      }
+    ],
+    "matching_submissions": [
+      "8b6a8ce102ea416e88d3c14fa558c513"
+    ]
+  },
+  "preparation_commit": "3720b80a00c3332516fe441f13be4bbc861a0d79",
+  "claim_commit": "9d08864416d98211384b613a16872538b322078e",
+  "continuity_provenance": "references/scenes/scene-58/P1-continuity.json",
+  "provider_estimate": {
+    "observed_at": "2026-10-23T21:56:08.040Z",
+    "queueCount": 6405,
+    "estimatedWaitSeconds": 319653,
+    "estimatedProcessSeconds": null,
+    "note": "Mutable provider queue estimate, not a completion guarantee."
+  },
+  "owner_approval": "not_recorded",
+  "result_qc": "pending_actual_result",
+  "next_action": "Wait for this actual result, then assess cats, blast/panel beats and P1/P2 join. Do not retry automatically."
+}
