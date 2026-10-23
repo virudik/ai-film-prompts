@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "state": "free",
-  "holder": "claude:chatgpt-review",
-  "task": "56 P1 и 48 P1 со склейки (без @Video1 предыдущей сцены), очередь",
-  "acquired_at": "2026-10-23T14:17:04Z",
-  "expires_at": null,
-  "released_at": "2026-10-23T14:21:36Z",
+  "state": "held",
+  "holder": "chatgpt",
+  "task": "Три новые сцены Кашиика по двум видео владельца; очередь после червей",
+  "acquired_at": "2026-10-23T15:32:39.885Z",
+  "expires_at": "2026-10-23T16:17:39.885Z",
+  "released_at": null,
   "rules": "ops/CANON-LOCK.md"
 }
