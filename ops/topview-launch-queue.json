@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "queue_id": "FILM-20261015-ALL-READY",
-  "updated_at": "2026-10-22T23:23:41.819Z",
+  "updated_at": "2026-10-23T00:24:18Z",
   "state": "active",
   "authorization": {
     "source": "Direct owner instruction in this chat, 2026-10-15 22:03 Europe/Moscow: create forest planet for 37 and missing refs; launch all ready scenes as slots free; finish unready scenes",
@@ -4059,7 +4059,7 @@
       "canonical_prompt_sha256": "48230d568f3657aa24c61b3a72375fb004774f882317e9231d51a11602d1e2ac",
       "normalized_prompt_sha256": "f56f817befcc3cd65621300515653cc5d03e352a4a9d1ed0a29eb39a157d763e",
       "priority": 5.1,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4077,9 +4077,20 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S39-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-39/S39-P1-last3s-20261023.mp4",
+          "sha256": "c6d5050db37391441241f47cfedbc16498f9cdf687459e93823631e1ed2a1191",
+          "duration_seconds": 3,
+          "source_task_id": "008058a4705c45c089256116427153d4",
+          "source_archive_file_id": "14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S39-SEED20-P1-review.json"
         },
         {
           "slot": "@Image1",
@@ -4125,8 +4136,9 @@
       "depends_on_completed": [
         "S39-SEED20-P1"
       ],
-      "blocker": "Actual ending of S39-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S39-SEED20-P1-review.json"
     },
     {
       "id": "S40-SEED20-P1",
@@ -4271,7 +4283,7 @@
       "canonical_prompt_sha256": "da6486dbbf12cd1aac8b757b7db7b0a9ff1145c8dfc1bd39bf862783bb9a1fff",
       "normalized_prompt_sha256": "55e4827d746b6f4c31362eb33b82c95b8d621084cf4edd9527e59baa11779eb7",
       "priority": 6.1,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -4289,9 +4301,20 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S40-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-40/S40-P1-last3s-20261023.mp4",
+          "sha256": "50ff924777368a960e8f38488056553c933bc3672c55871c743456f0810cabb6",
+          "duration_seconds": 3,
+          "source_task_id": "1751294fbf5f49dbb00a0f44401486ca",
+          "source_archive_file_id": "1YgnDvlYvzcwvZETY0mcHX8em44QsWTyc",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json"
         },
         {
           "slot": "@Image1",
@@ -4323,8 +4346,9 @@
       "depends_on_completed": [
         "S40-SEED20-P1"
       ],
-      "blocker": "Actual ending of S40-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S40-SEED20-P1-review.json"
     },
     {
       "id": "S42-SEED20-P1",
@@ -5181,7 +5205,7 @@
       "canonical_prompt_sha256": "b7d51de51a28a893e915b306e8d0116f67f4483e4301cd117cd633126492b0cf",
       "normalized_prompt_sha256": "076064df6bebba63b3bbf018f9db4572bbfdf92be6a605704c829245a9024ec3",
       "priority": 21.1,
-      "state": "blocked_inputs",
+      "state": "waiting_for_slot",
       "model": "Seedance 2.0",
       "duration_seconds": 15,
       "actual_resolution": 720,
@@ -5199,9 +5223,20 @@
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S53-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute.",
+          "path": "references/scenes/scene-53/S53-P1-last3s-20261023.mp4",
+          "sha256": "3b7f8d348f2ee5f094f8d55e9c4702653d72c5b01d8e1f0d0b94e9ac31d8a533",
+          "duration_seconds": 3,
+          "source_task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+          "source_archive_file_id": "1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT",
+          "source_range_seconds": [
+            12.041666666666666,
+            15.041666666666666
+          ],
+          "qc_status": "usable_continuity_input_not_editorial_approval",
+          "provenance_report": "reports/topview-quality-2026-10-23/S53-SEED20-P1-review.json"
         },
         {
           "slot": "@Image1",
@@ -5233,8 +5268,9 @@
       "depends_on_completed": [
         "S53-SEED20-P1"
       ],
-      "blocker": "Actual ending of S53-SEED20-P1 must be available and QC checked; submission alone is insufficient.",
-      "launch_readiness": "blocked_continuity"
+      "blocker": null,
+      "launch_readiness": "actual_continuity_input_verified",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S53-SEED20-P1-review.json"
     },
     {
       "id": "S56-SEED20-P1",
@@ -5419,7 +5455,7 @@
       "state": "blocked_inputs",
       "task_id": null,
       "claim": null,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "blocked_continuity_qc",
       "references": [
         {
           "slot": "@Image1",
@@ -5456,9 +5492,10 @@
       "depends_on_completed": [
         "S43-R1-20261017"
       ],
-      "blocker": "Actual corrected S43 result task70ba69f8c44e4898ab587fbffeaeca01 must be downloaded, trimmed and continuity-QC checked; no old or synthetic substitute.",
+      "blocker": "QC23Oct: actual corrected S43 task70ba69f8c44e4898ab587fbffeaeca01 ends with BOTH wings raised, contrary to required left wing jammed45deg. Genuine input is available but invalid for current44; do not substitute or auto-retry.",
       "canonical_prompt_sha256": "32896b0fdca18d7b9f29e271cbd9912593b8b444ac224008578f38fd6f73ab1c",
-      "normalized_prompt_sha256": "772d909308cae741a98f400201f8daa1f2e8d55922daededf7620f31e2dc9ee6"
+      "normalized_prompt_sha256": "772d909308cae741a98f400201f8daa1f2e8d55922daededf7620f31e2dc9ee6",
+      "continuity_qc_report": "reports/topview-quality-2026-10-23/S43-R1-20261017-review.json"
     },
     {
       "scene_id": 44,

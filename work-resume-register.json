@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-22T23:23:41.819Z",
+  "last_updated_at": "2026-10-23T00:25:41.394Z",
   "active_work": [
     {
       "work_id": "CONTINUE-001",
@@ -622,7 +622,10 @@
           "42f5f94e994a4768a4618c5cda3fa4d1",
           "008058a4705c45c089256116427153d4"
         ],
-        "scan_status_counts": {"success": 882, "fail": 37}
+        "scan_status_counts": {
+          "success": 882,
+          "fail": 37
+        }
       },
       "new_topview_task_ids": [
         "bf3465e1c4de4a869f4bba5f2eed5acf",
@@ -1380,6 +1383,19 @@
       ],
       "completed_at": "2026-10-22T22:29:58.164Z",
       "result": "Канон c131f7363d6136d7f0abdfaf302467f8b3b708a6 опубликован: Pages и Canon health success; character registry, launch queue, checkpoint и project-status побайтно совпали с опубликованным сайтом. Короткий D7 и техническая сверка завершены. Полный редакционный/аудиовизуальный аудит не заявляется."
+    },
+    {
+      "work_id": "RAZNOE-QUALITY-20261023",
+      "title": "Доработка Разного, свободные слоты по очереди и оценка",
+      "status": "in_progress",
+      "next_action": "После публикации входов отправить готовые S39-P2, S40-P2, S53-P2 по приоритетам и первый готовый Raznoe при свободном слоте; S44 blocked_continuity_qc: оба крыла подняты в реальном S43. Только free GUI, CAS и receipt.",
+      "canonical_refs": [
+        "projects/raznoe/reports/current-work-checkpoint.md",
+        "projects/raznoe/reports/quality-revision-2026-10-23.json",
+        "reports/topview-quality-2026-10-23/review-summary.md",
+        "ops/topview-launch-queue.json"
+      ],
+      "content_commit": "30d271760603220b0c3f290bc9789822d75e7524"
     }
   ],
   "rules": [

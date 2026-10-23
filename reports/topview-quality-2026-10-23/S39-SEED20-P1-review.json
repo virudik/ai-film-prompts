@@ -1,0 +1,47 @@
+{
+  "work_id": "RAZNOE-QUALITY-20261023",
+  "scene_id": 39,
+  "source_item_id": "S39-SEED20-P1",
+  "task_id": "008058a4705c45c089256116427153d4",
+  "completed_at": "2026-10-22 22:38:51",
+  "reviewed_at": "2026-10-23T00:24:18Z",
+  "source_sha256": "b37db3d44e2226b42e12c3ee2e5f73c081961e98f8be9503490c73961534835f",
+  "source_archive": {
+    "archived_at": "2026-10-22T23:15:53Z",
+    "drive_url": "https://drive.google.com/file/d/14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk/view",
+    "file_id": "14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk",
+    "md5": "1d5ea08b98e5709266218e76f6c5d071",
+    "scene_id": 39,
+    "sha256": "b37db3d44e2226b42e12c3ee2e5f73c081961e98f8be9503490c73961534835f",
+    "size_bytes": 6975112
+  },
+  "source_video_seconds": 15.041666666666666,
+  "source_submitted_prompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera action cinema | Part 1 of 2: Serega skims his own craft over the evening Naboo lake at wave-top height, banks hard around a rocky islet and slams down on the meadow beside the abandoned fishing camp\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  — absolute identity of SEREGA.\n<<<Image2>>>  — genuine film frame of Serega's own craft: exact flat wedge-shaped dark-grey hull, colour, proportions and engines. Vehicle design only; ignore the city and the person on its roof.\n<<<Image3>>>  — genuine cockpit of the same craft: interior geometry ONLY; no fight, people or weapons from it.\n<<<Image4>>>  — genuine film frame of the exact lakeshore: sandy bank, grass edges, treeline, evening sun and water geometry. Layout and evening light only; no runners.\n<<<Image5>>>  — genuine earlier camp frame: the exact two fish-filled crates, scattered fish and stone-ring fire spot. Props only; no people, no night light, no fire.\n<<<Image6>>>  — Naboo landscape look: blue lake, green meadow, rounded trees, a pale domed palace on the far shore, fishing rods and brown bottles. Landscape and those props only; no fishermen.\nPriority: <<<Image1>>>  face and costume; <<<Image2>>>  vehicle; <<<Image3>>>  cockpit; <<<Image4>>>  location and light; <<<Image6>>>  landscape detail; <<<Image5>>>  camp props.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\n<<<Image1>>>  is the absolute visual authority for SEREGA (the Chancellor): pale older man, sparse light hair with a bald crown, mature serious face, long deep dark-purple robe with the hood lowered, dry. He is the only person in the scene. No fishermen, no Jedi, no Gungans, no droids, no cats. His face appears only in the cockpit, in a medium shot with even warm light.\n\nVEHICLE / LANDING LOCK — CRITICAL:\nOne and the same craft from <<<Image2>>>  in every shot: same silhouette, colour, engine glow and scale; its single side hatch with a short fold-down boarding ramp stays closed in this part. Fast, controlled, credible approach: a wave-top skim, one hard bank around one small rocky islet, a hard flare, touchdown on its gear. The hull never touches the water. No crash.\n\nCAMP / PROP LOCK:\nAbandoned camp on the shore: dropped rods, the two fish-filled crates, empty brown bottles, a cold fire spot. No tents, people or vehicles. The only new landscape element is one small rocky islet with a few trees, far out on the open lake. No map, glowing module, hologram or any glowing object.\n\nBREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.\n\nSTART STATE:\nEvening over the Naboo lake as in <<<Image4>>> : the water near the bank still rippling where the fishermen jumped in, the camp abandoned on the shore, the meadow empty. Serega's craft is already low over the far end of the lake, racing toward the camera just above the water.\n\nTIMELINE:\n[0:00–0:04] — WAVE-TOP SKIM\nCamera low on the water. The craft streaks in left-to-right a few metres above the wave tops, its wash ripping a double wake of white spray glowing in the low golden sun; palace domes on the far bank. It roars past the camera, spray sweeping across the lens.\n\n[0:04–0:07] — COCKPIT\nHard cut, medium shot inside the cockpit, even warm light: Serega at the controls, the note beside his hand sharp and unobstructed for two full seconds. Face cool and serious; his hands throw the controls hard over.\n\n[0:07–0:11] — HARD BANK AROUND THE ISLET\nWide, far out on open water: the craft knifes into a steep bank around the small rocky islet, low wingtip just above the water, trees whipping in the wash, a curved fan of spray behind; it snaps level toward the near shore.\n\n[0:11–0:15] — FLARE AND TOUCHDOWN\nLow angle from the meadow, crates at the frame edge: the nose pitches up in a hard flare, engines blast, grass flattens in a ring, shallow water sprays; the gear thumps down, the craft rocks once, engines spool down.\n\nEND STATE:\nThe craft stands parked on its gear on the evening meadow a short walk from the abandoned camp, hatch closed, heat shimmer over the engines; the lake beside it, faint rings still spreading near the bank; nobody visible.\n\nCAMERA / SPACE:\nThree hard action cuts: water-level fly-by, cockpit medium, wide bank, low landing angle. Fast motion only in wide exteriors. Approach travels left-to-right; the islet far out on open water; on the shore: lake on one side, craft on the other, camp between. No random handheld chaos.\n\nPERFORMANCE:\nFace cold and serious; energy in his hands on the controls. No speech, no smile, no look to camera.\n\nLIGHTING / MATERIALS:\nWarm low evening sun matching <<<Image4>>> , long shadows, golden backlit spray, wet metal hull highlights, heat shimmer after touchdown.\n\nAUDIO:\nEngine scream and Doppler roar of the fly-by, hissing spray, the blast of the flare, gear thump, engines spooling down, flies over the crates, distant birdsong. No dialogue, narrator or music.\n\nNEGATIVE PROMPT:\nfishermen, Jedi, any other person, Gungans, new or different ship design, second ship, hull touching the water, crash landing, open hatch, map module, glowing object, hologram, night sky, rain, melting or blurred face, tiny face during fast motion, changed face or robe, readable text or letters on the note, cartoon CGI, subtitles, text, logo, watermark, black bars.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "review_scope": "Visual frame sequence sampled at 2fps across the complete source plus full-resolution ending; technical media probe. Audio not listened to; no full-frame-rate motion certification. Preliminary assistant assessment, not owner approval.",
+  "audio_reviewed": false,
+  "owner_approved": false,
+  "visual_score": 3.5,
+  "continuity": "usable_with_editorial_notes",
+  "summary": "Пролёт, круг вокруг острова и посадка у брошенного улова читаются. Конец: аппарат на опорах, лагерь и рыба на переднем плане. Пригоден как фактический вход продолжения; начало и план озера требуют проверки/обрезки полос при монтаже.",
+  "defects": [
+    "На части планов есть чёрные полосы вопреки FRAME FILL; финальный кадр заполнен.",
+    "Конец ближе к лагерю, чем ожидаемый общий план; при продолжении Video1 важнее текстового пожелания ракурса."
+  ],
+  "usable": "0–3.3s cockpit/approach; 3.5–9.5s lake action after crop consideration; 10–15.04s landing/camp; exact last 3s for continuity.",
+  "evidence": {
+    "contact_sheet": "reports/topview-quality-2026-10-23/S39-SEED20-P1-contact.jpg",
+    "final_frame": "reports/topview-quality-2026-10-23/S39-SEED20-P1-end.png"
+  },
+  "continuity_clip": {
+    "path": "references/scenes/scene-39/S39-P1-last3s-20261023.mp4",
+    "sha256": "c6d5050db37391441241f47cfedbc16498f9cdf687459e93823631e1ed2a1191",
+    "source_range_seconds": [
+      12.041666666666666,
+      15.041666666666666
+    ],
+    "video_frames": 72,
+    "video_seconds": 3.0,
+    "source_task_id": "008058a4705c45c089256116427153d4",
+    "source_archive_file_id": "14SmYBBj3QQjH-LAjOO9j6RvWDtwoVunk"
+  }
+}

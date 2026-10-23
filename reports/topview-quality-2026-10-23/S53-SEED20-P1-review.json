@@ -1,0 +1,47 @@
+{
+  "work_id": "RAZNOE-QUALITY-20261023",
+  "scene_id": 53,
+  "source_item_id": "S53-SEED20-P1",
+  "task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+  "completed_at": "2026-10-22 22:40:45",
+  "reviewed_at": "2026-10-23T00:24:18Z",
+  "source_sha256": "c52e6fd09bb1f887857f2e46d80b38d797e98b514b067448ccd504b3c813c9f9",
+  "source_archive": {
+    "archived_at": "2026-10-22T23:05:42Z",
+    "drive_url": "https://drive.google.com/file/d/1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT/view",
+    "file_id": "1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT",
+    "md5": "db8080652786136d5344417cd12e3bb2",
+    "scene_id": 53,
+    "sha256": "c52e6fd09bb1f887857f2e46d80b38d797e98b514b067448ccd504b3c813c9f9",
+    "size_bytes": 7583297
+  },
+  "source_video_seconds": 15.041666666666666,
+  "source_submitted_prompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic flight, serious and purposeful | Part 1 of 2: Serega stows the Tatooine map module, blasts off from the edge of the desert town and tears through a narrow sandstone canyon\n\nREFERENCES / AUTHORITY ORDER:\n<<<Image1>>>  — absolute identity and costume of SEREGA.\n<<<Image2>>>  — genuine film exterior of his own flat dark-grey wedge-shaped craft: hull, engines, colour, proportions. Vehicle design only; ignore the source city's people and buildings.\n<<<Image3>>>  — its genuine cockpit: seats, console, forward windows, interior geometry ONLY; do not import the fight, people, poses or weapons from that frame.\n<<<Image4>>>  — exactly one small rigid palm-sized map module: rounded grey frame, dark face, two warm-amber segmented strips. Prop geometry only.\nPriority: <<<Image1>>>  Serega; <<<Image2>>>  the craft exterior; <<<Image3>>>  the cockpit; <<<Image4>>>  the prop. The Tatooine town is defined by the TATOOINE TOWN LOCK text.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (the Chancellor), <<<Image1>>> : pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe with sand and dust in its folds after the desert fight. Exactly one Serega; no co-pilot, crew, cats, Jedi, droids or new accessories.\n\nPROP / VEHICLE LOCK — CRITICAL:\nOne craft, one Serega, one module. The module stays rigid; it never unfolds, duplicates or projects a hologram, and goes into the inner fold of his robe before he flies. No computer or mushroom basket aboard. The craft takes off once from the sandy flat at the town edge where it landed; its single side hatch with a short fold-down boarding ramp is already closed. In the canyon it never touches the rock.\nBREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.\n\nTATOOINE TOWN LOCK (described, no reference image): a small desert spaceport town on a vast pale-sand plain under a harsh bright sun: low sand-coloured adobe buildings with thick rounded walls, smooth domed roofs, small round windows and arched doorways, narrow dusty streets between them, a few slim moisture-vaporator towers on the outskirts, heat haze and low dunes beyond. Weathered, lived-in, real. No ancient stone ruins, no gate piers or obelisk, no sandworm.\n\nCANYON LOCK:\nNear the town, one narrow natural canyon of wind-carved ochre sandstone: tall layered walls, a winding sandy floor, hard bright-and-shadow bands. Natural rock only, no ruins.\n\nSTART STATE:\nAfter a time jump from his escape with the Tatooine fragment, Serega is seated alone in his cockpit; the craft stands on the sandy flat at the town outskirts, domed sand-coloured buildings through the window in harsh daylight. The module is in his hand.\n\nTIMELINE:\n[0:00–0:04] — FRAGMENT SECURED\nMedium cockpit shot, even light, face clear. A quick glance at the module's amber glow, he shoves it into his robe, slams both hands onto the controls and flicks switches fast. The yellow note beside his right hand stays sharp for two seconds, untouched.\n\n[0:04–0:08] — BLAST-OFF\nHard cut, low exterior angle: the engines ignite and the craft punches up off the sand; a ring of dust blasts toward the camera, the town fixed behind. Supports retract after separation; the nose swings left-to-right and it surges away.\n\n[0:08–0:15] — CANYON RUN\nWide shots only: the craft drops into the narrow sandstone canyon and races low along the winding floor, banking hard left and right, engine wash ripping sand off the ground. A camera at a bend whip-pans as it roars past close but clean; a high angle shows the tiny craft threading between towering walls toward a bright opening ahead.\n\nEND STATE:\nThe craft is racing low through the canyon toward its bright mouth, left-to-right, sand spraying behind; Serega aboard with the module hidden in his robe.\n\nCAMERA / SPACE:\nTwo hard action cuts: to the blast-off and to the canyon. Speed lives in wide exteriors: low angles, whip-pans, fly-by past camera. Face only in the medium cockpit shot. Left-to-right direction; credible scale against the canyon walls.\n\nPERFORMANCE:\nFast and decisive, cool focused face; quick precise hands. No speech, no smile, no look into the lens.\n\nLIGHTING / MATERIALS:\nHarsh warm desert daylight, hard canyon light bands, dusty purple robe hem, worn dark-grey hull, the module's small amber glow.\n\nAUDIO:\nCockpit hum, cloth rustle as the module is stowed, rapid switch clicks, engine ignition, sand blast, faint town noise, the roaring doppler fly-by echoing between canyon walls. No dialogue, narrator, music or captions.\n\nNEGATIVE PROMPT:\ntwo modules, hologram map, folding map, phone, computer, mushrooms, co-pilot, crew, cats, Jedi, sandworm, ancient ruins, carved canyon structures, scraping or crashing into rock, formal winged shuttle, wrong ship, repeated take-off, space battle, cockpit fight, melting face, tiny face during fast motion, costume change, text overlay, watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+  "review_scope": "Visual frame sequence sampled at 2fps across the complete source plus full-resolution ending; technical media probe. Audio not listened to; no full-frame-rate motion certification. Preliminary assistant assessment, not owner approval.",
+  "audio_reviewed": false,
+  "owner_approved": false,
+  "visual_score": 4,
+  "continuity": "usable_with_editorial_notes",
+  "summary": "Герой прячет фрагмент, запускает аппарат и уходит в каньон. Пространство и направление полёта читаются; конец остаётся внутри каньона, пригоден для выхода в следующей части.",
+  "defects": [
+    "Во внешних широких планах есть полосы вопреки FRAME FILL; потребуется монтажное решение.",
+    "Яркое устье ещё не открыто: продолжение должно сначала пройти оставшийся поворот, как в текущем промте."
+  ],
+  "usable": "0–3.4s cabin; 3.5–8.8s takeoff; 9–15.04s canyon after crop consideration; last 3s usable.",
+  "evidence": {
+    "contact_sheet": "reports/topview-quality-2026-10-23/S53-SEED20-P1-contact.jpg",
+    "final_frame": "reports/topview-quality-2026-10-23/S53-SEED20-P1-end.png"
+  },
+  "continuity_clip": {
+    "path": "references/scenes/scene-53/S53-P1-last3s-20261023.mp4",
+    "sha256": "3b7f8d348f2ee5f094f8d55e9c4702653d72c5b01d8e1f0d0b94e9ac31d8a533",
+    "source_range_seconds": [
+      12.041666666666666,
+      15.041666666666666
+    ],
+    "video_frames": 72,
+    "video_seconds": 3.0,
+    "source_task_id": "4b323d19cf444009a3b3fc4b3c3b3aed",
+    "source_archive_file_id": "1K-bp1oJ1dBQLZhJDfZRumeFACdnC9ZYT"
+  }
+}
