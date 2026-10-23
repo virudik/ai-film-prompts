@@ -1,0 +1,175 @@
+{
+  "item_id": "S52-SEED20-P1",
+  "task_id": "34ff1bf7fe9d47f08de5a635d5626c70",
+  "submitted_at": "2026-10-23 01:54:00Z",
+  "verified_at": "2026-10-23T01:54:19.399Z",
+  "canonical_prompt_sha256": "f77f5ee9a8174c1d296b6fd5806b971103d3f5a18c987323d2c03bacff03cc7e",
+  "normalized_prompt_sha256": "4fd3797b496a9a4b3fc068a4d91cc634008fce823ce3ef15c1e2e571114270fe",
+  "full_normalized_prompt_match": true,
+  "creditsCost": 0,
+  "parameters": {
+    "taskType": "videoEdit",
+    "modelId": "seedance-2.0-style",
+    "modelName": "Seedance 2.0",
+    "resolution": 720,
+    "duration": 15,
+    "inputImages": [
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/uY0LB2h8cKlSdBFgH8dqx.jpg",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image1"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/JQRyJjBlxQdl5CI3y46Sg.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image2"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/uu0G4HJzvVMrjSfhhLAZ4.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image3"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/nr23qawo9q0yT1pHZFvu7.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image4"
+      },
+      {
+        "inputImageResourceId": null,
+        "inputImageS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/Uec6dQshjokpFTrAZ8GN5.png",
+        "inputImageUrl": null,
+        "projectAssetId": null,
+        "name": "Image5"
+      }
+    ],
+    "imageMode": "multiImage",
+    "positivePrompt": "Mode: reference-to-video (omni-reference) | Duration: 15s | Resolution: 720p | Aspect ratio: 16:9 | FPS: 24 | Native audio: on\nOptimized for Seedance 2.0 | Photoreal live-action space-opera cinema, fast kinetic action with dry deadpan | Part 1 of 2: Serega abandons the broken shuttle, boards his own craft, drops out of the destroyer's hangar and slaloms under its hull into open space\n\nREFERENCES / AUTHORITY ORDER:\n<<<Video1>>>  — the actual ending of the repaired-wing episode: Serega's precise pose, the three technicians, the one detached left wing on the floor, the empty wing root, hangar light and camera axis. Absolute opening authority; continue its final frame, never replay the fall.\n<<<Image1>>>  — absolute identity of SEREGA: face, age, body and purple robe.\n<<<Image2>>>  — Serega's OWN flat wedge-shaped dark-grey craft: hull, proportions, colour, engines. Vehicle design only; ignore the city and the person on its roof.\n<<<Image3>>>  — the destroyer's hangar architecture and white/amber working light only; its intact shuttle is not the damage authority.\n<<<Image4>>>  — the enormous grey wedge-shaped destroyer exterior: silhouette, scale, ribbed underside, hangar opening.\n<<<Image5>>>  — the craft's genuine cockpit: interior geometry only.\nPriority: <<<Video1>>>  opening and shuttle damage; <<<Image1>>>  Serega; <<<Image2>>>  the personal craft; <<<Image3>>> –<<<Image5>>>  their places. The two ships always remain distinct.\n\nCHARACTER APPEARANCE / IDENTITY LOCK:\nSEREGA (the Chancellor), <<<Image1>>> : pale older man, sparse light hair and a bald crown, exact mature face and build, long deep dark-purple Chancellor robe. Exactly one Serega; same face and robe in profile, in motion and across cuts.\nTHE THREE TECHNICIANS from <<<Video1>>> : dark-grey coveralls, black caps, their actual faces and tools; they stay by the broken shuttle and leave frame as the camera follows Serega. No co-pilot, crew, cats, Jedi or droids.\n\nVEHICLE / CONTINUITY LOCK — CRITICAL:\nThe broken formal shuttle and the personal craft are two separate vehicles in the same hangar. The shuttle stays grounded with its empty left-wing root and the single fallen wing on the floor. The personal craft is revealed by the camera move in a nearby clear bay, no teleport or morph. Access only through its single side hatch with a short fold-down boarding ramp. Serega boards once; the craft leaves the destroyer once, small beside it, never touching the hull. No map fragment or computer aboard.\nBREAD-AND-MILK NOTE: exactly one palm-sized pale-yellow square sticky note, with two simple black line drawings: a loaf on the left and a milk carton on the right; no letters, words or numbers. It stays on the same blank sloping console panel immediately to the pilot's right, beside the controls, never on a screen. Preserve its size, colour, drawings and position in every cockpit shot. Keep it unobstructed and in focus long enough to recognise both groceries; no actual bread or milk aboard.\n\nSTART STATE:\nExactly the last frame of <<<Video1>>> : Serega has turned his head toward the frozen technicians; the detached wing lies on the floor, the empty attachment point visible on the shuttle. His personal craft is parked a few steps away, out of frame, side hatch open, short ramp lowered.\n\nTIMELINE:\n[0:00–0:03] — NO FLIGHT IN THAT SHUTTLE\nContinue <<<Video1>>>  without a cut: his eyes go from the technicians to the fallen wing and the empty root, one dry beat of disbelief, then his head snaps toward his own craft.\n\n[0:03–0:07] — STRAIGHT TO HIS CRAFT\nSame shot: he spins away and strides fast across the floor, robe swinging; the camera tracks low beside him and reveals the personal craft. He takes the short ramp in a few quick steps and vanishes through the side hatch. The broken shuttle stays behind unchanged.\n\n[0:07–0:10] — THE REMINDER\nHard cut, cockpit medium shot with even light on his face. He drops into the pilot seat and snaps two switches; the pale-yellow note beside his right hand stays sharp for two seconds, loaf and milk carton clear. His eyes flick to it, then forward.\n\n[0:10–0:15] — DROP AND SLALOM\nExterior wide: the small craft shoots out of the lit hangar mouth, drops below the destroyer's belly and slaloms left-to-right under the immense ribbed underside, banking hard between hanging hull structures and lit ventral bays, whips past the camera and bursts out from under the stern into black space.\n\nEND STATE:\nThe personal craft is flying left-to-right in open black space just clear of the destroyer's stern, engines glowing, the vast hull behind it. Serega is aboard; the broken shuttle remains in the hangar.\n\nCAMERA / SPACE:\n[0:00–0:07] one continuous take from <<<Video1>>>  with a fast low tracking move on the same side of the axis. Then two hard action cuts: cockpit, exterior slalom. Speed in the wide exterior: fly-by past camera, whip-pan. Face only in medium shots. Left-to-right flight, tiny craft against the vast destroyer.\n\nPERFORMANCE:\nFast, decisive, utterly serious: one dry beat of disbelief, then quick strides and hands. Cool face; no speech, no smile, no look into the lens.\n\nLIGHTING / MATERIALS:\nWhite/amber hangar light; hard sunlight and deep shadow under the destroyer's belly; heavy purple robe, weathered dark-grey metal; the craft's colour identical inside and out.\n\nAUDIO:\nHangar tone and the fading tail of the wing crash; fast footsteps, clanging ramp, hatch seal, rising engine whine, roaring doppler of the fly-by, deep hull resonance. No dialogue, narrator, music or captions.\n\nNEGATIVE PROMPT:\nrepaired wing, replayed wing fall, formal shuttle taking off, ships merging, walking through a hull, different or duplicate craft, collision with the destroyer, new people, cats, disco light, space battle, asteroids, hyperspace tunnel, map module, computer, melting face, changing face or robe, cartoon render, subtitles, watermark.\n\nFRAME FILL / NO BARS:\nFill the entire generated frame edge-to-edge. No letterboxing, no pillarboxing, no black bars, no side bars, no decorative borders, no empty margins.",
+    "aspectRatio": "16:9",
+    "source": "board",
+    "sound": "on",
+    "inputVideos": [
+      {
+        "inputVideoS3Path": "analyzed_video/task/ai_video/FGlyiGi4FG26kZmpCiUH/oADc1Ty4JuxjearmBladh.mp4",
+        "inputVideoUrl": null,
+        "name": "Video1",
+        "duration": 3
+      }
+    ],
+    "boardTaskId": "34ff1bf7fe9d47f08de5a635d5626c70",
+    "useUnlimitMode": true,
+    "internetSearch": false,
+    "autoVideoUpscale": false,
+    "skipCreditConsume": false
+  },
+  "continuity": {
+    "slot": "@Video1",
+    "required": true,
+    "canonical_role": "previous_scene_end",
+    "input_status": "available",
+    "source_item_id": "S44-R1-20261017",
+    "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
+    "path": "references/scenes/scene-52/S52-from-S44-last3s-20261023.mp4",
+    "sha256": "e2e5c2d5b3b10781fddaa2c3670eaabd27b9d31179e9b0508e2f95ac3531c1c4",
+    "trim": {
+      "start_seconds": 27,
+      "end_seconds": 30,
+      "duration_seconds": 3,
+      "fps": 30,
+      "frames": 90
+    },
+    "source_original_sha256": "909bd64ce53af11e17ab15bcaa3608493f5e37cb07036be066920935b905ee3c",
+    "source_drive_file_id": "1cqcnLmA3bYGXErZpzMhm1yQCpXfLfrwp",
+    "qc_report": "reports/topview-quality-2026-10-23/S44-for-S52-continuity.json"
+  },
+  "preflight": {
+    "global_scan": {
+      "at": "2026-10-23T01:53:41.027Z",
+      "boards": 13,
+      "pages": 19,
+      "total": 930,
+      "scan_complete": true,
+      "inventory_change": "Removed empty board1a660... absent from fresh listing; new boardc934... scanned.",
+      "active": [
+        {
+          "id": "56e5e07c85df4af583c62665c51ed563",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "af8e389dc9564607bc6138b408c72da5",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "6598a21c2c684d43b7cede9cfc987107",
+          "status": "init",
+          "credits": 0
+        },
+        {
+          "id": "bf27bb8615eb4ad5a44a86ec2efcd3be",
+          "status": "init",
+          "credits": 0
+        }
+      ]
+    },
+    "full_normalized_prompt_match": true,
+    "input_hashes_verified": true,
+    "input_order": [
+      "Video1",
+      "Image1",
+      "Image2",
+      "Image3",
+      "Image4",
+      "Image5"
+    ],
+    "model": "Seedance 2.0",
+    "duration": 15,
+    "resolution": 720,
+    "aspect_ratio": "16:9",
+    "quantity": 1,
+    "useUnlimitMode": true,
+    "credits": 0,
+    "owner_decisions_open": 0
+  },
+  "owner_authorization": {
+    "at": "2026-10-23T01:51:09.796Z",
+    "quote": "52 28 49 50 51 можно добавить в очередь и запускать",
+    "source": "Direct owner message in current chat",
+    "scope": [
+      "S28-A1-TEST-20261017",
+      "S49A",
+      "S49B",
+      "S49C",
+      "S49D",
+      "S49E",
+      "S49F",
+      "S50A",
+      "S50B",
+      "S51A",
+      "S51B",
+      "S52-SEED20-P1",
+      "S52-SEED20-P2"
+    ],
+    "supersedes": [
+      "story-completion hold for28 A1",
+      "A1 owner-review gate for49/50/51",
+      "owner-choice scheduling hold for52; genuine usable44 output still required"
+    ],
+    "preserve": [
+      "one free website attempt per selected item",
+      "Unlimited 0 credits",
+      "existing relative priority and ready-skip",
+      "real Video1 dependencies and QC",
+      "no automatic retries or reactivation of submitted/superseded alternatives",
+      "Raznoe remains paused"
+    ]
+  }
+}
