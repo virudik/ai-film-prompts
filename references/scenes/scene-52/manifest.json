@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "scene_id": 52,
-  "updated_at": "2026-10-17T20:06:28.563093Z",
+  "updated_at": "2026-10-23T01:51:09.796Z",
   "authority": "GitHub main master, exact individual sheets and actual film/result frames",
   "status": "DRAFT",
   "references": [
@@ -256,7 +256,48 @@
     "result_qc": "Both drawings sharp/unobstructed about2seconds; match recurring design and position; keep moment in final edit",
     "payoff": "Existing opening request -> recurring travel note -> already submitted55 question and guilty pause; no55 rerun"
   },
-  "remaining": [
-    "Need actual clean ending of corrected44 with ONE fallen wing and empty root; verify seamless opening and free UI support for1video+6images before launch"
-  ]
+  "remaining": "P1 source available. P2 still requires actual P1 ending; owner approval not implied.",
+  "actual_continuity_20261023": {
+    "at": "2026-10-23T01:51:09.796Z",
+    "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
+    "source_sha256": "909bd64ce53af11e17ab15bcaa3608493f5e37cb07036be066920935b905ee3c",
+    "drive_sha256_match": true,
+    "method": "1fps sample across30s and full final frame at29.9s; no audio audition.",
+    "continuity_pass": true,
+    "owner_approval": false,
+    "score": 3.5,
+    "scale": 5,
+    "observed": [
+      "One detached wing on floor, missing corresponding attachment visible; raised remaining wing and dorsal fin remain.",
+      "Serega turns head toward three technicians; same hangar and robe."
+    ],
+    "deviations": [
+      "Two technicians end seated/reclining rather than exactly one seated and one standing.",
+      "Camera pushes into a close foreground framing despite requested deep medium-wide."
+    ],
+    "video_ref": {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_scene_end",
+      "input_status": "available",
+      "source_item_id": "S44-R1-20261017",
+      "source_task_id": "42f5f94e994a4768a4618c5cda3fa4d1",
+      "path": "references/scenes/scene-52/S52-from-S44-last3s-20261023.mp4",
+      "sha256": "e2e5c2d5b3b10781fddaa2c3670eaabd27b9d31179e9b0508e2f95ac3531c1c4",
+      "trim": {
+        "start_seconds": 27,
+        "end_seconds": 30,
+        "duration_seconds": 3,
+        "fps": 30,
+        "frames": 90
+      },
+      "source_original_sha256": "909bd64ce53af11e17ab15bcaa3608493f5e37cb07036be066920935b905ee3c",
+      "source_drive_file_id": "1cqcnLmA3bYGXErZpzMhm1yQCpXfLfrwp",
+      "qc_report": "reports/topview-quality-2026-10-23/S44-for-S52-continuity.json"
+    },
+    "end_frame": {
+      "path": "references/scenes/scene-52/S52-start-from-S44-20261023.jpg",
+      "sha256": "af5da03014371c3f56edfa6d3f611cd7e1693bc875bc07856db5328af0f2dc1a"
+    }
+  }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T01:39:54.809Z",
+  "last_updated_at": "2026-10-23T01:51:09.796Z",
   "active_work": [
     {
       "work_id": "PROJECT-AUDIT-20261023",
@@ -18,9 +18,9 @@
     {
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
-      "status": "waiting_for_results",
-      "updated_at": "2026-10-23T01:39:54.809Z",
-      "next_action": "S57P2 af8e389dc9564607bc6138b408c72da5 and S47P2 56e5e07c85df4af583c62665c51ed563 submitted Unlimited0. Four account tasks active, two free slots with no additional ready authorized story item. Wait actual58P1, reconcile externally submitted42P2 variant; retain QC/owner gates. Raznoe paused.",
+      "status": "launching_authorized_music_scenes",
+      "updated_at": "2026-10-23T01:51:09.796Z",
+      "next_action": "Owner explicitly authorized52/28/49/50/51 now.13selected items updated without duplicates;52P1 genuine44Wan end QC-ready, then28A1 then49A-F/50A-B/51A-B by existing priorities; actual P2/51B dependencies retained. Fill two free slots.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -146,6 +146,39 @@
         "initiator": "owner",
         "evidence": "Owner current chat: За кредиты я запускал",
         "selection": "Preserved as alternate. Ends in empty wide avenue; not chosen for continuous P2."
+      },
+      "owner_instruction_20261023_music_launch": {
+        "at": "2026-10-23T01:51:09.796Z",
+        "quote": "52 28 49 50 51 можно добавить в очередь и запускать",
+        "source": "Direct owner message in current chat",
+        "scope": [
+          "S28-A1-TEST-20261017",
+          "S49A",
+          "S49B",
+          "S49C",
+          "S49D",
+          "S49E",
+          "S49F",
+          "S50A",
+          "S50B",
+          "S51A",
+          "S51B",
+          "S52-SEED20-P1",
+          "S52-SEED20-P2"
+        ],
+        "supersedes": [
+          "story-completion hold for28 A1",
+          "A1 owner-review gate for49/50/51",
+          "owner-choice scheduling hold for52; genuine usable44 output still required"
+        ],
+        "preserve": [
+          "one free website attempt per selected item",
+          "Unlimited 0 credits",
+          "existing relative priority and ready-skip",
+          "real Video1 dependencies and QC",
+          "no automatic retries or reactivation of submitted/superseded alternatives",
+          "Raznoe remains paused"
+        ]
       }
     },
     {
