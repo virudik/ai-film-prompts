@@ -1,8 +1,16 @@
 {
   "schema_version": 1,
   "rules": "ops/SELF-HEAL.md",
-  "status": "ok",
-  "problems": {},
+  "status": "fixing",
+  "problems": {
+    "run-failed-canon-health": {
+      "text": "Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40032704322",
+      "since": "2026-10-23T22:19:23Z",
+      "fixes": 1,
+      "last_fix_at": "2026-10-23T22:19:23Z",
+      "escalated_at": null
+    }
+  },
   "log": [
     {
       "at": "2026-10-21T06:07:40Z",
@@ -69,7 +77,13 @@
       "kind": "resolved",
       "key": "telemetry-stale",
       "text": "Прошло: Робот сканирует, но статус Topview на сайте не обновлялся 129 мин. Последнее решение робота: «Topview telemetry — 6/6 slots, +0 new, 0 finished». Обычно это пауза робота (hold): задача без сцены, неполный скан или сбой проверки публикации."
+    },
+    {
+      "at": "2026-10-23T22:19:23Z",
+      "kind": "fixed",
+      "key": "run-failed-canon-health",
+      "text": "Нашёл: Последний запуск «здоровье канона» на GitHub упал (попытка 1): https://github.com/virudik/ai-film-prompts/actions/runs/40032704322 Сделал: повторил упавший запуск «здоровье канона»."
     }
   ],
-  "changed_at": "2026-10-23T17:49:18Z"
+  "changed_at": "2026-10-23T22:19:23Z"
 }
