@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "work_id": "S42-P1-CONTINUITY-20261024",
+  "scene_id": 42,
+  "source_item_id": "S42-SEED20-P1",
+  "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+  "status": "success",
+  "completed_at": "2026-10-23T01:10:29Z",
+  "reviewed_at": "2026-10-23T23:03:02.413Z",
+  "source_archive": {
+    "file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+    "drive_url": "https://drive.google.com/file/d/1yzFkVpekO_lO1EiyMd2cdM35S9o2g737/view",
+    "size_bytes": 9740275,
+    "md5": "e6aa6492580e94bc4df36c3e577ab88b",
+    "sha256": "a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f"
+  },
+  "source_video": {
+    "duration_seconds": 15.069002,
+    "video": "H.264 1280x720 24fps",
+    "audio": "AAC stereo 44.1kHz"
+  },
+  "review_scope": "Complete source sampled at 2 fps; final 3 s sampled at 4 fps; full-resolution final frame inspected. Audio stream technically probed but not listened; no full-frame-rate continuous-playback certification.",
+  "audio_reviewed": false,
+  "audio_probe": {
+    "stream_present": true,
+    "peak_level_db": -2.525407,
+    "rms_level_db": -17.216309,
+    "no_nan_inf": true
+  },
+  "continuity": "passed_for_S42_P2_input",
+  "owner_approved": false,
+  "summary": "The genuine ending preserves the required three-person duel geography: Artem frame-left with green saber, Serega centre with red saber, Ilyusha frame-right with blue saber. Worm and desert ruins remain present; no fourth person appears.",
+  "observations": [
+    "Exactly three people remain through the final clash.",
+    "Required left/centre/right identity and green/red/blue saber arrangement is present in the final frame.",
+    "The final 3 seconds begin with Ilyusha briefly entering from frame-right, then settle into the required three-way composition.",
+    "No obvious hand/weapon merge or frozen tableau was found in sampled frames."
+  ],
+  "limitations": [
+    "Visual review is sampled, not a full 24 fps frame-by-frame certification.",
+    "Audio exists and passed technical stream checks but was not listened to.",
+    "Technical continuity suitability is not owner artistic approval."
+  ],
+  "continuation_source": {
+    "kind": "actual_last_3_seconds",
+    "status": "available",
+    "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+    "source_range_seconds": [
+      12.069002,
+      15.069002
+    ],
+    "duration_seconds": 3,
+    "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+    "size_bytes": 1804607,
+    "final_frame_path": "references/scenes/scene-42/S42-P1-end.png",
+    "final_frame_sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
+    "final_frame_size_bytes": 1226205
+  },
+  "evidence": {
+    "complete_source_contact_sheet": {
+      "path": "reports/topview-quality-2026-10-24/S42-P1-contact-2fps.jpg",
+      "sampling_fps": 2,
+      "sha256": "21a10aa88f6b79f4fe0a99d74af11ca3bd59e9181b336fc06cf786369d90d595",
+      "size_bytes": 746418
+    },
+    "final3s_contact_sheet": {
+      "path": "reports/topview-quality-2026-10-24/S42-P1-final3s-4fps.jpg",
+      "sampling_fps": 4,
+      "sha256": "35ebe7f8863a6c9d973110041d3ef9b2ce7050fd0fa909adc47347349897d410",
+      "size_bytes": 429757
+    }
+  }
+}

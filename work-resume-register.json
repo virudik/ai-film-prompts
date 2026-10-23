@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "description": "Live task checkpoint register for ChatGPT/Claude 'Продолжай' handoff. No task inferred from historical chats.",
-  "last_updated_at": "2026-10-23T22:55:20.823Z",
+  "last_updated_at": "2026-10-23T23:03:02.413Z",
   "active_work": [
     {
       "work_id": "TOPVIEW-EVENT-WAKE-20261023",
@@ -114,8 +114,8 @@
       "work_id": "SEREGIUS-PLAN-20261023",
       "title": "Завершить Серёгиус по сохранённому плану, оценить готовые ролики",
       "status": "waiting_for_slots",
-      "updated_at": "2026-10-23T14:05:00Z",
-      "next_action": "Cut and QC the actual last 3 s of S42-SEED20-P1 (task a1ca4c36e31d45c5b4b72df7777d2592) into references/scenes/scene-42/, mark @Video1 available, then launch canonical S42-SEED20-P2 in the next free slot (after 52P2/58P2 when they are ready). Six video slots are occupied after the verified A2 launch. On the next free slot, first save/QC any completed52P1,58P1 or new28 result, then choose the lowest-priority genuinely ready item from the fresh queue. S56P1 remains blocked because actual S42P2 ends with an extra fourth duelist; A3 still waits the NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit.",
+      "updated_at": "2026-10-23T23:03:02.413Z",
+      "next_action": "S42-P2 actual P1 last3s is prepared and continuity-QC passed; it is READY at priority 0.2. Six video slots were occupied in the current full scan. At the next free slot, first QC any just-completed S52-P1 or new scene-28 result (S52-P2 priority 0 if its real input passes), then choose the lowest-priority genuinely ready item; otherwise S42-P2 is next, followed by independent ready S56-P1 and S48-P1. Fresh full scan and CAS claim before submit. No repeats; Roscosmos paused.",
       "task_ids": [
         "20bf2d185da546aa8aba3b1d4508d0d8",
         "439dd6d829c64f16b6491e0177cc1619",
@@ -399,6 +399,32 @@
         "applied": "S42-SEED20-P2 back to blocked_inputs (priority 0.2): cut the real end of S42-P1 a1ca4c36…, then one free canonical P2. bf27bb86… is a scene 16 P2 run, not 42. S44 waits until the owner has seen S52-P1.",
         "recorded_by": "claude:chatgpt-review",
         "at": "2026-10-23T14:05:00Z"
+      },
+      "s42_p1_continuity": {
+        "prepared_at": "2026-10-23T23:03:02.413Z",
+        "source_item_id": "S42-SEED20-P1",
+        "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+        "source_archive_file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+        "source_video_sha256": "a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f",
+        "actual_last_3_seconds": {
+          "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+          "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+          "bytes": 1804607,
+          "source_range_seconds": [
+            12.069002,
+            15.069002
+          ],
+          "duration_seconds": 3
+        },
+        "actual_final_frame": {
+          "path": "references/scenes/scene-42/S42-P1-end.png",
+          "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
+          "bytes": 1226205
+        },
+        "review_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification.",
+        "continuity": "passed_for_S42_P2_input",
+        "owner_approved": false,
+        "report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json"
       }
     },
     {
@@ -417,10 +443,11 @@
         "23Oct:35 Raznoe images restored into native image_gen folder; S57P2 and S47P2 submitted once Unlimited0 with actual3s P1 clips. Owner confirmed15-credit S57P1 alternate was their launch. Free-ready rule preserved.",
         "23Oct: owner authorized selected52/28/49/50/51.52P1 34ff1bf7fe9d47f08de5a635d5626c70 and28A1 4b7b972870a44dfbb29bd6c5e330a633 submitted once Unlimited0; exact prompts verified.6/6slots occupied; existing automation updated and read back.",
         "23Oct:52P2/58P2 promoted first;11 existing Seedance28 A2-A12 prompt blocks registered as bounded queue items, realA3/A12 dependencies preserved; new28 QC mandatory; existing automation updated.6/6occupied, no submission in this turn.",
-        "23Oct09:14UTC: S28-A2 current revision submitted once through free web Topview, task8a8eadc809004e318c47201b8a463be0, Seedance2.0/15s/720p/16:9/4refs/Unlimited0; exact normalized prompt and post-submit 6/6 scan verified. External S42-P2 bf27 completed; original/last3s SHA saved, but QC found a fourth duelist in the final3s, so S56P1 remains blocked. No owner artistic approval or automatic rerender."
+        "23Oct09:14UTC: S28-A2 current revision submitted once through free web Topview, task8a8eadc809004e318c47201b8a463be0, Seedance2.0/15s/720p/16:9/4refs/Unlimited0; exact normalized prompt and post-submit 6/6 scan verified. External S42-P2 bf27 completed; original/last3s SHA saved, but QC found a fourth duelist in the final3s, so S56P1 remains blocked. No owner artistic approval or automatic rerender.",
+        "24Oct: genuine S42-P1 result was verified against the private archive, actual final3s and final frame were saved with SHA/provenance, and sampled continuity QC confirmed exactly Artem-left/green, Serega-centre/red, Ilyusha-right/blue. S42-P2 is ready at priority0.2; this is technical input QC, not owner approval."
       ],
       "next_actions": [
-        "Six video slots are occupied. On the next free slot, first QC any completed52P1/58P1/new28 result, then use fresh queue priority among genuinely ready items. S56P1 remains blocked by the extra fourth duelist in actual S42P2; A3 waits NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit."
+        "Six video slots were occupied in the current full scan. S52-P2 remains first only after actual S52-P1 success/QC; otherwise S42-P2 is the next ready item with a genuine P1 ending. S56-P1 and S48-P1 are independent ready openings under the owner cut. Fresh full scan and CAS claim before submit; no repeats; Roscosmos paused."
       ],
       "constraints": [
         "Без платных генераций, approval, deletion, и автоматического закрытия Scene",
@@ -434,11 +461,11 @@
         "USER-GUIDE.md"
       ],
       "project_instruction_trigger": "unverified_in_live_chatgpt_project_settings",
-      "next_action": "Six video slots are occupied after A2. On the next free slot, first QC completed52P1/58P1/new28 results, then follow the lowest-priority ready item from the fresh queue. S56P1 remains blocked by the extra fourth duelist in actual S42P2; A3 waits NEW A2 final frame. No repeats; Roscosmos paused; fresh full scan and CAS claim before submit.",
+      "next_action": "Six video slots were occupied in the current full scan. S52-P2 remains first only after actual S52-P1 success/QC; otherwise S42-P2 is the next ready item with a genuine P1 ending. S56-P1 and S48-P1 are independent ready openings under the owner cut. Fresh full scan and CAS claim before submit; no repeats; Roscosmos paused.",
       "blockers": [
         "S44: actual43 ends with both wings raised, invalid for required left wing at45deg; no auto-retry.",
-        "Actual video dependencies58P2/48 remain. S56P1 is blocked: external S42P2 final3s contain a fourth duelist. Prompt mismatch and QC defect are preserved in provenance;42 must not be duplicated or auto-rerendered.",
-        "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct."
+        "52P2 requires actual new52P1 end;51B requires actual new51A end.49/50/51 launch authorization is active from23Oct.",
+        "S52P2 still waits for actual S52P1 success and QC. S42P2 is ready with actual P1 last3s; S56P1 and S48P1 are independent ready openings under the owner cut."
       ],
       "last_resume_check": "2026-10-23T17:55:00Z",
       "maintenance_checks": {
@@ -650,7 +677,7 @@
       },
       "current_run_id": "chatgpt-automation-20261023T1155Z-maintenance",
       "previous_next_action_before_priority_20261023": "6/6 slots occupied. On each free slot run next ready authorized item by canonical priority; skip blocked inputs without reserving a slot. Selected49A-F,50A/B,51A are waiting;52P2 requires actual52P1 end and51B actual51A end. Do not repeat submitted52P1 or28A1. Raznoe paused.",
-      "updated_at": "2026-10-23T11:57:34Z",
+      "updated_at": "2026-10-23T23:03:02.413Z",
       "done_archived_points": 13,
       "done_archive": "archive/work-resume-register-archive.json"
     },

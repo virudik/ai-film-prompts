@@ -1,9 +1,9 @@
 {
   "schema_version": 2,
   "scene_id": 42,
-  "updated_at": "2026-10-19T22:50:00Z",
+  "updated_at": "2026-10-23T23:03:02.413Z",
   "authority": "GitHub virudik/ai-film-prompts main video-prompts.md; individual identity sheets outrank helpers.",
-  "status": "blocked_continuity",
+  "status": "continuity_ready_for_P2",
   "references": [
     {
       "path": "references/full/serega.jpg",
@@ -168,6 +168,26 @@
         "linked_in_master": true,
         "git_present": true
       }
+    },
+    {
+      "path": "references/scenes/scene-42/S42-P1-end.png",
+      "role": "actual_P1_final_frame_provenance",
+      "media_type": "image",
+      "status": "available",
+      "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
+      "bytes": 1226205,
+      "dimensions": "1280x720",
+      "provenance": {
+        "source_item_id": "S42-SEED20-P1",
+        "source_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+        "source_video_sha256": "a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f",
+        "qc_report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json"
+      },
+      "assistant_qc": {
+        "continuity": "passed_for_S42_P2_input",
+        "owner_approved": false,
+        "review_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification."
+      }
     }
   ],
   "identity_refs": [
@@ -181,9 +201,34 @@
   ],
   "prop_refs": [],
   "start_frame": null,
-  "end_frame": null,
+  "end_frame": "references/scenes/scene-42/S42-P1-end.png",
   "pose_composition_helpers": [],
-  "video_refs": [],
+  "video_refs": [
+    {
+      "slot": "@Video1",
+      "required": true,
+      "canonical_role": "previous_part_end",
+      "input_status": "available",
+      "source_item_id": "S42-SEED20-P1",
+      "source_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+      "source_kind": "actual_topview_result_trim",
+      "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+      "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+      "bytes": 1804607,
+      "duration_seconds": 3,
+      "source_range_seconds": [
+        12.069002,
+        15.069002
+      ],
+      "source_archive_file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+      "provenance_path": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json",
+      "assistant_qc": {
+        "continuity": "passed_for_S42_P2_input",
+        "owner_approved": false,
+        "review_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification."
+      }
+    }
+  ],
   "approved": [],
   "rejected": [],
   "topview_source_provenance": null,
@@ -311,15 +356,26 @@
       "duration_seconds": 15,
       "model": "Seedance 2.0",
       "selected_for_launch": true,
-      "launch_readiness": "blocked_continuity",
+      "launch_readiness": "authorized_inputs_available",
       "slots": [
         {
           "slot": "@Video1",
           "required": true,
           "canonical_role": "previous_part_end",
-          "input_status": "required_not_available",
+          "input_status": "available",
           "source_item_id": "S42-SEED20-P1",
-          "source_requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
+          "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+          "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+          "bytes": 1804607,
+          "source_task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+          "source_archive_file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+          "source_kind": "actual_topview_result_trim",
+          "duration_seconds": 3,
+          "source_range_seconds": [
+            12.069002,
+            15.069002
+          ],
+          "qc_report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json"
         },
         {
           "slot": "@Image1",
@@ -365,20 +421,14 @@
     "linked_in_master": true,
     "status": "pending_pages_verification"
   },
-  "last_qc_at": "2026-10-16T22:32:11.599509+00:00",
-  "last_qc_scope": "Genuine last decoded frame899/899 of accepted Scene16, source SHA verified. Three duelists crouch amid dust; Artem left, Serega centre, Ilyusha right; huge worm behind. Dust is native footage; individual sheets control identity.",
+  "last_qc_at": "2026-10-23T23:03:02.413Z",
+  "last_qc_scope": "Complete source sampled at 2 fps, final 3 s sampled at 4 fps, full-resolution final frame; audio stream probed but not listened; no full-frame-rate certification.",
   "remaining": [
     {
       "item_id": "S42-SEED20-P1",
       "slot": "@Image6",
       "source_item_id": "S16-SEED20-P2",
       "requirement": "Extract genuine clean final frame of NEW Seedance16 P2; save PNG/SHA/provenance/QC. Old accepted16 frame is historical."
-    },
-    {
-      "item_id": "S42-SEED20-P2",
-      "slot": "@Video1",
-      "source_item_id": "S42-SEED20-P1",
-      "requirement": "Actual selected result ending; save provenance, trim, SHA256 and continuity QC before READY. No synthetic substitute."
     }
   ],
   "technical_success_is_editorial_approval": false,
@@ -444,5 +494,32 @@
       ],
       "characters": 5736
     }
-  ]
+  ],
+  "part1_result": {
+    "item_id": "S42-SEED20-P1",
+    "task_id": "a1ca4c36e31d45c5b4b72df7777d2592",
+    "status": "success",
+    "completed_at": "2026-10-23T01:10:29Z",
+    "source_archive_file_id": "1yzFkVpekO_lO1EiyMd2cdM35S9o2g737",
+    "source_video_sha256": "a5d63d901f33a4dd122bc53432f3e34214b4d8f3d075098eb5b76dedad20ad9f",
+    "source_size_bytes": 9740275,
+    "actual_last_3_seconds": {
+      "path": "references/scenes/scene-42/S42-P1-last3s.mp4",
+      "sha256": "dcbb475252ab2346971573da4f148a61b2d25c4a729614cc7ed337f81f1e4b61",
+      "bytes": 1804607,
+      "source_range_seconds": [
+        12.069002,
+        15.069002
+      ],
+      "duration_seconds": 3
+    },
+    "actual_final_frame": {
+      "path": "references/scenes/scene-42/S42-P1-end.png",
+      "sha256": "568b4a1d005c6afbb4776e87d5d8f0b395abff1312f48b3039757fd2a735e167",
+      "bytes": 1226205
+    },
+    "continuity_qc": "passed_for_S42_P2_input",
+    "owner_approved": false,
+    "report": "reports/topview-quality-2026-10-24/S42-P1-continuity-review.json"
+  }
 }
